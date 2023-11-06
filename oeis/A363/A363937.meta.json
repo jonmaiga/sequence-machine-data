@@ -1,0 +1,16 @@
+{
+  "description": "Minimal number of terms of an Egyptian fraction to be added to, or subtracted from, harmonic number H(n) to get an integer.",
+  "id": "A363937",
+  "mentions": [
+    "A281530"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

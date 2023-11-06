@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of semilength n such that the area between the x-axis and the path is k (n>=0; 0<=k<=n^2). A Schroeder path of semilength n is a lattice path from (0,0) to (2n,0) consisting of U=(1,1), D=(1,-1) and H=(2,0) steps and never going below the x-axis.",
+  "description": "Triangle read by rows: T(n, k) is the number of Schroeder paths of semilength n such that the area between the x-axis and the path is k (n >= 0; 0 <= k <= n^2).",
   "id": "A129179",
   "mentions": [
     "A006318",

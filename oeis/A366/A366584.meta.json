@@ -1,0 +1,19 @@
+{
+  "description": "a(2) = a(3) = 1; for n >3, a(n) = largest prime factor of n-th Tribonacci number.",
+  "id": "A366584",
+  "mentions": [
+    "A000073",
+    "A006530",
+    "A101757",
+    "A231575"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

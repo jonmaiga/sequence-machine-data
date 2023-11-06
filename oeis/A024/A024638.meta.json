@@ -2,7 +2,9 @@
   "description": "n written in fractional base 6/5.",
   "id": "A024638",
   "mentions": [
-    "A024629"
+    "A024629",
+    "A245321",
+    "A245399"
   ],
   "tags": [
     "base",

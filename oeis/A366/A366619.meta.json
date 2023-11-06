@@ -1,0 +1,17 @@
+{
+  "description": "Group the natural numbers into blocks of size 2: [1,2], [3,4], ... and reverse the order of the numbers within each block. Then group into blocks of size 3 and reverse the order in each block.",
+  "id": "A366619",
+  "mentions": [
+    "A007062"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

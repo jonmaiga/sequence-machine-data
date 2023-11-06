@@ -1,8 +1,9 @@
 {
-  "description": "Start with 1. Convert to base 2, describe it in base 2, convert to base 10.",
+  "description": "Start with 1. Read as base 10, convert to base 2, describe it in base 2.",
   "id": "A049192",
   "mentions": [
-    "A005150"
+    "A005150",
+    "A049190"
   ],
   "tags": [
     "base",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonzero cells at n-th stage in some 2D reversible second order cellular automata (see comments for precise definition).",
+  "description": "Number of nonzero cells at n-th stage in some 2D reversible second-order cellular automata (see comments for precise definition).",
   "id": "A244642",
   "mentions": [
     "A102376",

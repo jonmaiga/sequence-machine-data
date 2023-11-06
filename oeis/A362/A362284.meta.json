@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least number k such that A138705(k) = n, or -1 is no such k exists.",
+  "description": "a(n) is the least number k such that A138705(k) = n, or -1 if no such k exists.",
   "id": "A362284",
   "mentions": [
     "A000367",

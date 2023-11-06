@@ -1,0 +1,36 @@
+{
+  "description": "Number of strict integer partitions of n such that some part can be written as a nonnegative linear combination of the others.",
+  "id": "A364839",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A085489",
+    "A116861",
+    "A151897",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A275972",
+    "A326083",
+    "A363226",
+    "A364272",
+    "A364350",
+    "A364670",
+    "A364913",
+    "A364914",
+    "A364915",
+    "A364916",
+    "A365002",
+    "A365006"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

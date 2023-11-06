@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of descending plane partitions of order n with the sum of the parts equal to k.",
+  "id": "A363685",
+  "mentions": [
+    "A005130",
+    "A064999",
+    "A198890"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

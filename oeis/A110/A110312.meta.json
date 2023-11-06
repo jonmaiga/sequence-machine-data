@@ -1,9 +1,11 @@
 {
-  "description": "Minimal number of polygonal pieces in a dissection of a regular n-gon to a square (conjectured).",
+  "description": "Minimum number of polygonal pieces in a dissection of a regular n-gon into a square (conjectured).",
   "id": "A110312",
   "mentions": [
     "A110000",
-    "A110356"
+    "A110356",
+    "A362938",
+    "A362939"
   ],
   "tags": [
     "hard",

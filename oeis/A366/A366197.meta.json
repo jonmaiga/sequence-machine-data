@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest permutation of the nonnegative integers such that the absolute difference between the digitsum of a(n) and the digitsum of a(n+2) = 1.",
+  "id": "A366197",
+  "mentions": [
+    "A007953",
+    "A108971",
+    "A318486"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

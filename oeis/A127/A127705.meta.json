@@ -1,5 +1,5 @@
 {
-  "description": "Row sums of A127704.",
+  "description": "a(n) = mu(n) + Sum_{k|n, k>1} (k+1)*mu(n/k), where mu = A008683.",
   "id": "A127705",
   "mentions": [
     "A008578",

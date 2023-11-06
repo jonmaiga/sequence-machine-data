@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that the equation phi(x) = m has no odd solutions.",
+  "description": "Numbers m such that the equation phi(x) = m has even but no odd solutions.",
   "id": "A143510",
   "mentions": [
     "A143511",

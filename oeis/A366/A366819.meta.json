@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of the divisors of n^n-1.",
+  "id": "A366819",
+  "mentions": [
+    "A000203",
+    "A048861",
+    "A062727",
+    "A334167",
+    "A366820"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1) + 2a(n-3).",
+  "description": "a(n) = a(n-1) + 2*a(n-3).",
   "id": "A003476",
   "mentions": [
     "A000051",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

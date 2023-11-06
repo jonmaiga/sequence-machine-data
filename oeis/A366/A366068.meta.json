@@ -1,0 +1,17 @@
+{
+  "description": "Numbers having exactly 10 distinct digits arranged in such a way that the sum of any pair of adjacent digits is a substring of the number.",
+  "id": "A366068",
+  "mentions": [
+    "A236402"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

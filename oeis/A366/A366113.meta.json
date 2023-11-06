@@ -1,0 +1,15 @@
+{
+  "description": "A fractal sequence. Pick any term t: exactly one of the t terms following t is larger than t.",
+  "id": "A366113",
+  "mentions": [
+    "A342042"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

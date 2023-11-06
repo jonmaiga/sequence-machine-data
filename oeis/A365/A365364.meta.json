@@ -1,0 +1,19 @@
+{
+  "description": "Number of free 4-dimensional polyhypercubes with n cells, allowing corner-, face-, and 3-face-connections.",
+  "id": "A365364",
+  "mentions": [
+    "A068870",
+    "A365366",
+    "A366766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

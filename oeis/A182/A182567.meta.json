@@ -2,16 +2,19 @@
   "description": "Decimal expansion of Madelung constant (negated) for calcium fluoride CaF_2.",
   "id": "A182567",
   "mentions": [
-    "A085469"
+    "A085469",
+    "A181152",
+    "A182565",
+    "A182566"
   ],
   "tags": [
     "cons",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 103,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p whose index has a submultiset of their decimal digits.",
+  "id": "A365678",
+  "mentions": [
+    "A000040",
+    "A355418"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

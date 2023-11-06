@@ -1,0 +1,24 @@
+{
+  "description": "Number of intersections formed within a triangle by placing n points \"in general position\" on each of the three sides and connecting each point to each of the points on the other two sides using straight lines.",
+  "id": "A365929",
+  "mentions": [
+    "A033428",
+    "A091908",
+    "A092098",
+    "A331782",
+    "A366078",
+    "A366478",
+    "A366932",
+    "A367015"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

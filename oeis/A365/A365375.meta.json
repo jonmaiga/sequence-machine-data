@@ -1,0 +1,16 @@
+{
+  "description": "Numbers from which two digits can be chosen, the difference being any value from 0 to 9.",
+  "id": "A365375",
+  "mentions": [
+    "A219248"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

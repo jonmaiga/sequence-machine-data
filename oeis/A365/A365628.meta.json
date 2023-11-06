@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binomial(primorial(n), n).",
+  "id": "A365628",
+  "mentions": [
+    "A002110",
+    "A007318",
+    "A014062",
+    "A060604",
+    "A086687"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

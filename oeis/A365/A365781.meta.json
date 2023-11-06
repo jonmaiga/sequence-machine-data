@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest permutation of the composite numbers such that a(n) - [the next digit] is a prime number.",
+  "id": "A365781",
+  "mentions": [
+    "A365768",
+    "A365769",
+    "A365780"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Let p = A000043(n) be the n-th Mersenne exponent, then a(n) = ((2^p-1)^2-1)/p.",
+  "id": "A366818",
+  "mentions": [
+    "A000043",
+    "A000668"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

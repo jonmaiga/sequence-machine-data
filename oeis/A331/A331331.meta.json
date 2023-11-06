@@ -1,5 +1,5 @@
 {
-  "description": "T(n, k) = (-m)^(n-k)*[x^k] KummerU(-n, 1/m, x) for m = 3. Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "description": "Triangle read by rows, T(n, k) (0 <= k <= n) = (-m)^(n-k)*[x^k] KummerU(-n, 1/m, x) for m = 3.",
   "id": "A331331",
   "mentions": [
     "A000567",

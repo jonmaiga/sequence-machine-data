@@ -1,5 +1,5 @@
 {
-  "description": "Quintan primes: p = (x^5 - y^5 )/(x - y).",
+  "description": "Quintan primes: p = (x^5 - y^5)/(x - y).",
   "id": "A002649",
   "mentions": [
     "A001912",

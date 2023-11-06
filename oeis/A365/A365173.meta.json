@@ -1,0 +1,28 @@
+{
+  "description": "The number of divisors d of n such that gcd(d, n/d) is an exponentially odd number (A268335).",
+  "id": "A365173",
+  "mentions": [
+    "A000005",
+    "A004524",
+    "A005117",
+    "A034444",
+    "A046101",
+    "A252505",
+    "A268335",
+    "A325837",
+    "A350390",
+    "A365171",
+    "A365174"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled digraphs (with self loops allowed) on [n] such that every strongly connected component of size at least 2 contains a vertex with a self loop.",
+  "id": "A363834",
+  "mentions": [
+    "A003030",
+    "A070322",
+    "A365534"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

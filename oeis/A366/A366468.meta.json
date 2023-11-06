@@ -1,0 +1,13 @@
+{
+  "description": "A divisibility sequence related to an abelian variety isogenous to a power of an elliptic curve.",
+  "id": "A366468",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

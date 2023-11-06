@@ -1,7 +1,11 @@
 {
-  "description": "Triangle a(n,k) (n >= 1, 1<=k<=n) giving coefficient of x^n in expansion of (Product_{j>=1} (1-(-x)^j) - 1 )^k.",
+  "description": "Triangle T(n,k), for n >= 1, 1 <= k <= n, read by rows, giving coefficient of x^n in expansion of (Product_{j>=1} (1-(-x)^j) - 1 )^k.",
   "id": "A047265",
   "mentions": [
+    "A000027",
+    "A000041",
+    "A000217",
+    "A000292",
     "A001482",
     "A001488",
     "A001490",
@@ -13,6 +17,7 @@
     "A047655",
     "A047938",
     "A121373",
+    "A307059",
     "A341418"
   ],
   "tags": [

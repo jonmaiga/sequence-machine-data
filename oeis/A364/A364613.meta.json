@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of partitions of n whose sum multiset is free of duplicates; see Comments.",
+  "id": "A364613",
+  "mentions": [
+    "A000041",
+    "A236912",
+    "A325877",
+    "A363994"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

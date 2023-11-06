@@ -1,7 +1,9 @@
 {
   "description": "Revert transform of (x - 1)^2/(1 - x - x^3).",
   "id": "A049133",
-  "mentions": [],
+  "mentions": [
+    "A049128"
+  ],
   "tags": [
     "formulas",
     "sign"

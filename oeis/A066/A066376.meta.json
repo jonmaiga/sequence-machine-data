@@ -1,5 +1,5 @@
 {
-  "description": "Number of [*]-divisors d < n such that there is another [*]-divisor d' < n with d [*] d' = n.",
+  "description": "Number of [*]-divisors d <= n such that there is another [*]-divisor d' < n with d [*] d' = n.",
   "id": "A066376",
   "mentions": [
     "A003986",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 97,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

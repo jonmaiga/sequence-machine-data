@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that 1 + Sum_{k=1..n} prime(k) is prime.",
+  "description": "Numbers m such that 1 + Sum_{k=1..m} prime(k) is prime.",
   "id": "A089228",
   "mentions": [
+    "A007504",
     "A008578",
     "A013916",
     "A014284"

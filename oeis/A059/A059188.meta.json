@@ -1,8 +1,9 @@
 {
-  "description": "Engel expansion of Gamma(1/3) = 2.67894.",
+  "description": "Engel expansion of Gamma(1/3) = 2.6789385....",
   "id": "A059188",
   "mentions": [
-    "A006784"
+    "A006784",
+    "A073005"
   ],
   "tags": [
     "easy",

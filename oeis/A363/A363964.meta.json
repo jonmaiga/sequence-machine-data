@@ -1,0 +1,20 @@
+{
+  "description": "Number of unordered pairs of non-intersecting non-self-intersecting paths, singletons included, with nodes that cover all vertices of a convex labeled n-gon.",
+  "id": "A363964",
+  "mentions": [
+    "A001792",
+    "A308914",
+    "A332426",
+    "A360716",
+    "A360717"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

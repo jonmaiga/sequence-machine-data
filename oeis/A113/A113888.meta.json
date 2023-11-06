@@ -1,5 +1,5 @@
 {
-  "description": "C(2*n+1,n)*C(2*n+6,n+1).",
+  "description": "a(n) = C(2*n+1,n)*C(2*n+6,n+1).",
   "id": "A113888",
   "mentions": [
     "A062190"

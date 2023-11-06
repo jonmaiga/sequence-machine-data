@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} (-1)^(n/d-1) * binomial(d+1,2).",
+  "id": "A365007",
+  "mentions": [
+    "A000593",
+    "A007437",
+    "A366395",
+    "A366813",
+    "A366814"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

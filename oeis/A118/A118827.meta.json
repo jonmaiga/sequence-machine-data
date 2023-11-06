@@ -2,6 +2,7 @@
   "description": "2-adic continued fraction of zero, where a(n) = 1 if n is odd, otherwise -2*A006519(n/2).",
   "id": "A118827",
   "mentions": [
+    "A001620",
     "A006519",
     "A038712",
     "A080277",

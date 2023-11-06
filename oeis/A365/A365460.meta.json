@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct primorials in the greedy sum of primorials adding to A181821(n).",
+  "id": "A365460",
+  "mentions": [
+    "A122111",
+    "A181821",
+    "A267263",
+    "A329040",
+    "A365461"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

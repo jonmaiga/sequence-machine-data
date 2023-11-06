@@ -1,0 +1,20 @@
+{
+  "description": "The number of iterations that n requires to reach a fixed point under the map x -> A022290(x).",
+  "id": "A364801",
+  "mentions": [
+    "A003434",
+    "A022290",
+    "A364800"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

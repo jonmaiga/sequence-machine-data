@@ -1,5 +1,5 @@
 {
-  "description": "Number of numbers with property that their base 5/4 expansion (see A024634) has n digits.",
+  "description": "Number of numbers whose base 5/4 expansion (see A024634) has n digits.",
   "id": "A245357",
   "mentions": [
     "A024634",

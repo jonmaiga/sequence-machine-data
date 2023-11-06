@@ -1,0 +1,13 @@
+{
+  "description": "Lexicographically least sequence of distinct positive integers, subject to the constraint that if 1 <= k <= a(m), then either a(m+k) < a(m) or a(m+k) > 2*a(m).",
+  "id": "A363584",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

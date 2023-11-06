@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangular sequence based on a generalization of A142463 at n=3: a(n)=a(n-1)+n;A000096; t(n,m)=If[m <= Floor[n/2], (n + 1)*a[m] + n, (n + 1)*a[n - m] + n].",
+  "description": "Triangle read by rows: T(n, m) = if m <= floor(n/2) then (n + 1)*a(m) + n otherwise (n + 1)*a(n - m) + n, where a(m) is A000096.",
   "id": "A143199",
   "mentions": [
     "A000096",
@@ -8,12 +8,11 @@
   ],
   "tags": [
     "formulas",
-    "sign",
-    "uned"
+    "sign"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,13 +1,18 @@
 {
   "description": "Expansion of Product_{k>=1} (1-x^k)^64.",
   "id": "A010841",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A082559",
+    "A286354"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

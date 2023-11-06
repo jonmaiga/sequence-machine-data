@@ -1,0 +1,15 @@
+{
+  "description": "Lexicographically earliest infinite sequence of nonnegative integers, {a(n)} for n>=0, such that all lines with equations y = a(n)*x + n are in general position.",
+  "id": "A364311",
+  "mentions": [
+    "A000217"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,10 @@
   "description": "Triangle read by rows: T(0,0)=1; T(n,k) is the coefficient of x^k in the polynomial (-1)^n*p(n,x), where p(n,x) is the characteristic polynomial of the n X n tridiagonal matrix with 3's on the main diagonal and -1's on the super- and subdiagonal (n >= 1; 0 <= k <= n).",
   "id": "A123965",
   "mentions": [
+    "A000045",
+    "A000225",
+    "A000244",
+    "A001353",
     "A001906",
     "A123343",
     "A125662",
@@ -14,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 58,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "joeis"
   }
 }

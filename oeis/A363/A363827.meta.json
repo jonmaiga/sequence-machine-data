@@ -1,0 +1,22 @@
+{
+  "description": "Highest power of 2 dividing n which is <= sqrt(n).",
+  "id": "A363827",
+  "mentions": [
+    "A006519",
+    "A007814",
+    "A033676",
+    "A102572",
+    "A135517",
+    "A363828"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: T(n,k) = number of pairs u,v of partitions of n such that d(u,v) = 2k, where d is the distance function defined in Comments.",
+  "id": "A366156",
+  "mentions": [
+    "A000041",
+    "A000097",
+    "A230025",
+    "A355389"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

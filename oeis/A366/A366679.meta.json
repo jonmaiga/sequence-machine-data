@@ -1,0 +1,21 @@
+{
+  "description": "List of pairs (p, q) of twin primes with distinct leading digits.",
+  "id": "A366679",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A077800",
+    "A124643"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

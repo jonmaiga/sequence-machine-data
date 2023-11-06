@@ -1,9 +1,12 @@
 {
-  "description": "a(n)=(s(n)+6)/8, where s(n)=n-th base 8 palindrome that starts with 2.",
+  "description": "a(n) = (s(n)+6)/8, where s(n) = n-th base 8 palindrome that starts with 2.",
   "id": "A043066",
-  "mentions": [],
+  "mentions": [
+    "A043022"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

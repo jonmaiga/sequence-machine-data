@@ -1,5 +1,5 @@
 {
-  "description": "sech(sin(x)+log(x+1))=1-4/2!*x^2+6/3!*x^3+69/4!*x^4-330/5!*x^5...",
+  "description": "Expansion of e.g.f.: sech(sin(x)+log(x+1))=1-4/2!*x^2+6/3!*x^3+69/4!*x^4-330/5!*x^5...",
   "id": "A012898",
   "mentions": [],
   "tags": [

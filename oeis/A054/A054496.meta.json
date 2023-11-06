@@ -1,5 +1,5 @@
 {
-  "description": "If n = p_1^e_1 *p_2^e_2 *p_3^e_3..., p's = distinct primes, e's = positive integers, then a(n) = p_1^(e_1^2) *p_2^(e_2^2) *p_3^(e_3^2) ... .",
+  "description": "If n = p_1^e_1 * p_2^e_2 * p_3^e_3 * ..., p's = distinct primes, e's = positive integers, then a(n) = p_1^(e_1^2) * p_2^(e_2^2) * p_3^(e_3^2) * ... .",
   "id": "A054496",
   "mentions": [
     "A000290",
@@ -7,6 +7,7 @@
     "A124010"
   ],
   "tags": [
+    "easy",
     "mult",
     "nonn"
   ],

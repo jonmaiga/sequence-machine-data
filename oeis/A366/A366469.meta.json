@@ -1,0 +1,15 @@
+{
+  "description": "Generators for a sequence of integral ideals associated with the points (-1, 30) and (7, 34) on the elliptic curve y^2 = x^3 -11*x + 890.",
+  "id": "A366469",
+  "mentions": [
+    "A000290"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

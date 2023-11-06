@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n with at most five part sizes.",
+  "id": "A364809",
+  "mentions": [
+    "A116608",
+    "A265250",
+    "A309058",
+    "A364793",
+    "A365631"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

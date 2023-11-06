@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that i^i = i^i^i (mod n) for every i.",
+  "description": "Numbers k such that j^j == j^j^j (mod k) for every j.",
   "id": "A185092",
   "mentions": [],
   "tags": [

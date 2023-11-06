@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1 and then alternately even and odd numbers not occurring earlier such that the sum of two successive terms is a squarefree number.",
+  "description": "a(1) = 1 and then alternately even and odd numbers not occurring earlier such that the sum of any two successive terms is a squarefree number.",
   "id": "A077223",
   "mentions": [
     "A008966"

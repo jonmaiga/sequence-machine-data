@@ -1,0 +1,36 @@
+{
+  "description": "Number of numbers k <= A056239(n) that can be written as a linear combination of the prime indices of n (allowing coefficients of 0).",
+  "id": "A366737",
+  "mentions": [
+    "A018818",
+    "A046663",
+    "A055396",
+    "A055932",
+    "A056239",
+    "A100484",
+    "A112798",
+    "A126796",
+    "A188431",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A304793",
+    "A325781",
+    "A325799",
+    "A365658",
+    "A365830",
+    "A365831",
+    "A365918",
+    "A365921",
+    "A365924"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

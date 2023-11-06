@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers k such that A348717(k) = A348717(A005940(k)).",
+  "id": "A364959",
+  "mentions": [
+    "A003961",
+    "A005940",
+    "A019434",
+    "A064989",
+    "A163511",
+    "A348717",
+    "A364297",
+    "A364961",
+    "A364962"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

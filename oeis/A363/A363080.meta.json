@@ -1,0 +1,21 @@
+{
+  "description": "Number of hexagonal lattice points within a hexagram centered at a lattice point and with outermost vertices at the six lattice points n steps outward from the central point.",
+  "id": "A363080",
+  "mentions": [
+    "A003154",
+    "A004396",
+    "A005448",
+    "A007980",
+    "A081272"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

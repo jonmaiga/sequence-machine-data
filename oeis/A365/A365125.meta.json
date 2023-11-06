@@ -1,0 +1,14 @@
+{
+  "description": "Put a positive charge at 0 and a negative charge at 1, then keep adding alternating charges at points of zero potential; this is the decimal expansion of the limit.",
+  "id": "A365125",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

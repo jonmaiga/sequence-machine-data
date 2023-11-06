@@ -1,5 +1,5 @@
 {
-  "description": "Accumulation of permutation sequence on three symbols such that the a[n+2]-2*a[n+1]-a[n]=0 overall.",
+  "description": "Accumulation of permutation sequence on three symbols such that a(n+2) - 2*a(n+1) - a(n) = 0 overall.",
   "id": "A106637",
   "mentions": [],
   "tags": [

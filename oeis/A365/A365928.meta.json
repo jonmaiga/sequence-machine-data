@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime factor of f(n) = 10^(2*n) + (10^n - 1)/9.",
+  "id": "A365928",
+  "mentions": [
+    "A020639",
+    "A067063",
+    "A102380",
+    "A365966"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

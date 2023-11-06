@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the initial irrational number of Cantor's diagonal argument: the k-th decimal digit of this constant is equal to the k-th decimal digit of A182972(k)/A182973(k).",
+  "id": "A365075",
+  "mentions": [
+    "A182972",
+    "A182973"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

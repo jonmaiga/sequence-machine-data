@@ -1,0 +1,19 @@
+{
+  "description": "Smallest nonnegative integer that is not the sum of fewer than n signed Lucas numbers.",
+  "id": "A365907",
+  "mentions": [
+    "A000032",
+    "A004146",
+    "A061084"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

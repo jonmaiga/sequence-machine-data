@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the index of the n-th occurrence of 1 in A365203.",
+  "id": "A365199",
+  "mentions": [
+    "A365203"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Fixed points of the binary rotations A336953 and A366139: numbers k >= 0 such that A336953(k) = A366139(k) = k.",
+  "id": "A366140",
+  "mentions": [
+    "A302291",
+    "A336953",
+    "A366139"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

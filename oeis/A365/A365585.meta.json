@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 + 5 * log(1-x))^(2/5).",
+  "id": "A365585",
+  "mentions": [
+    "A346987",
+    "A365568",
+    "A365586",
+    "A365587",
+    "A365588"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

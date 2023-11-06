@@ -2,15 +2,17 @@
   "description": "Number of 5-step king's tours on an n X n board summed over all starting positions.",
   "id": "A186864",
   "mentions": [
-    "A186861"
+    "A186861",
+    "A272763"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 31,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

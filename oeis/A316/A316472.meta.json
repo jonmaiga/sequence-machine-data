@@ -2,10 +2,16 @@
   "description": "Inverse permutation to A316385.",
   "id": "A316472",
   "mentions": [
+    "A000523",
+    "A053645",
+    "A059893",
+    "A153142",
+    "A153152",
     "A316385"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

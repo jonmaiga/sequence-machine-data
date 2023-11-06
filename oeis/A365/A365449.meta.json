@@ -1,0 +1,16 @@
+{
+  "description": "Cn(-1) where Cn is the n-th Caylerian polynomial (see A366173).",
+  "id": "A365449",
+  "mentions": [
+    "A366173"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

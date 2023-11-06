@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of the last digit of p(n) and of the first digit of prime(n+1) gives prime; values of such n in the sequence.",
+  "description": "Numbers j such that the concatenation of the last digit of p(j) and the first digit of prime(j+1) is a prime.",
   "id": "A086101",
   "mentions": [],
   "tags": [

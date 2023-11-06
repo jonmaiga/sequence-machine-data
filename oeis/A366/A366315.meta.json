@@ -1,0 +1,17 @@
+{
+  "description": "Number of Harris graphs with n vertices. Harris graphs are 1-tough, Eulerian graphs that are non-Hamiltonian.",
+  "id": "A366315",
+  "mentions": [
+    "A007031"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

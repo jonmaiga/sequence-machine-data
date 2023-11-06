@@ -2,6 +2,8 @@
   "description": "a(n) is the number of Fibonacci numbers among (F(1),F(2),F(3),...,F(n)) which are coprime to F(n), where F(n) is the n-th Fibonacci number.",
   "id": "A126246",
   "mentions": [
+    "A000010",
+    "A000045",
     "A054523"
   ],
   "tags": [

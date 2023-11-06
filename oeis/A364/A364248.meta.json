@@ -1,0 +1,24 @@
+{
+  "description": "For n >= 3, a(n) is the least r >= 0 such that the elliptic equation y^2 = n^3 + n^2 + 2*r*n + r^2 has an integer solution.",
+  "id": "A364248",
+  "mentions": [
+    "A000040",
+    "A000096",
+    "A000217",
+    "A002061",
+    "A005563",
+    "A006254",
+    "A054504",
+    "A081119",
+    "A364421"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

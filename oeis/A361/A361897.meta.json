@@ -1,5 +1,5 @@
 {
-  "description": "Leading terms of the rows of the array in A362450.",
+  "description": "Leading terms of the rows of the array in A362450; or, Gilbreath transform of tau (A000005).",
   "id": "A361897",
   "mentions": [
     "A000005",

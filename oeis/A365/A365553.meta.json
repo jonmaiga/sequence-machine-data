@@ -1,0 +1,19 @@
+{
+  "description": "Starting with a plane on which two parallel lines and two additional lines have been drawn such that the four lines form two noncongruent isosceles triangles, a(n) is the total number of intersections on the plane after the n-th step, where each step consists of drawing lines that connect every intersection of two lines. If more than 2 lines intersect at the same point it is only counted once.",
+  "id": "A365553",
+  "mentions": [
+    "A050534",
+    "A364725"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

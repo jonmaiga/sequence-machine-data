@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers with sum of digits n in fractional base 4/3.",
+  "id": "A364780",
+  "mentions": [
+    "A024631",
+    "A244041",
+    "A245356",
+    "A357425",
+    "A364779"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

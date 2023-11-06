@@ -1,0 +1,20 @@
+{
+  "description": "Number of free corner-connected 4-dimensional polyhypercubes with n cells.",
+  "id": "A365353",
+  "mentions": [
+    "A038171",
+    "A068870",
+    "A365366",
+    "A366766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

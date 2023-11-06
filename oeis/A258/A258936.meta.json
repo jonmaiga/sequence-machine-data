@@ -1,7 +1,9 @@
 {
   "description": "G.f.: Sum_{n=-oo..+oo} x^n * (1 - 2^n*x^n)^n.",
   "id": "A258936",
-  "mentions": [],
+  "mentions": [
+    "A260147"
+  ],
   "tags": [
     "formulas",
     "sign"

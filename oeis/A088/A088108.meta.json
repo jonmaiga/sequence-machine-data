@@ -1,7 +1,9 @@
 {
-  "description": "a(1)=1, a(n)= least odd triangular number which is a proper multiple of a(n-1).",
+  "description": "a(1)=1, a(n) = least odd triangular number which is a proper multiple of a(n-1).",
   "id": "A088108",
-  "mentions": [],
+  "mentions": [
+    "A014493"
+  ],
   "tags": [
     "nonn"
   ],

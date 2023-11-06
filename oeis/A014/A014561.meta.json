@@ -1,15 +1,19 @@
 {
-  "description": "Numbers n giving rise to prime quadruples (30n+11, 30n+13, 30n+17, 30n+19).",
+  "description": "Numbers k giving rise to prime quadruples (30k+11, 30k+13, 30k+17, 30k+19).",
   "id": "A014561",
   "mentions": [
     "A000040",
     "A001359",
     "A007530",
     "A007811",
+    "A061668",
     "A089160",
-    "A089161"
+    "A089161",
+    "A100418",
+    "A100423"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

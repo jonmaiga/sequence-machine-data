@@ -1,5 +1,5 @@
 {
-  "description": "Number of chordless cycles (of length > 3) in the complement of the n-Fibonacci cube graph.",
+  "description": "Number of chordless cycles (of length >= 4) in the complement of the n-Fibonacci cube graph.",
   "id": "A364471",
   "mentions": [
     "A297668"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

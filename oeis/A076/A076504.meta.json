@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n-1, n+1) and (n/2-1, n/2+1) are both pairs of twin primes.",
+  "description": "Numbers k such that (k-1, k+1) and (k/2-1, k/2+1) are both pairs of twin primes.",
   "id": "A076504",
   "mentions": [
     "A066388"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

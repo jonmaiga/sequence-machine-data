@@ -1,0 +1,18 @@
+{
+  "description": "Indices of 1's in A064353.",
+  "id": "A362929",
+  "mentions": [
+    "A064353",
+    "A362927",
+    "A362928",
+    "A362930"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

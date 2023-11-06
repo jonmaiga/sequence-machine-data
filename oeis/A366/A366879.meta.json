@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A326938(A163511(n)), where A326938 is the Dirichlet inverse of the sum of divisors d of n such that n/d is odd.",
+  "id": "A366879",
+  "mentions": [
+    "A002131",
+    "A163511",
+    "A326938",
+    "A366875",
+    "A366880"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

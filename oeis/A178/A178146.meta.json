@@ -1,20 +1,25 @@
 {
-  "description": "a(n) is the number of distinct divisors d of n of the form d=2,3 or 5",
+  "description": "a(n) is the number of distinct prime factors <= 5 of n.",
   "id": "A178146",
   "mentions": [
     "A000005",
     "A001221",
+    "A059841",
+    "A079978",
+    "A079998",
     "A156542",
     "A171182",
     "A178142",
     "A178143",
-    "A178144"
+    "A178144",
+    "A210679",
+    "A355582",
+    "A356006"
   ],
   "tags": [
     "easy",
     "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

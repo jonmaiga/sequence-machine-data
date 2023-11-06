@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Integer part of the cube root of n divides n.",
+  "description": "Numbers j such that the integer part of the cube root of j divides j.",
   "id": "A079645",
   "mentions": [
     "A006446",

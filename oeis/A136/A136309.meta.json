@@ -1,15 +1,15 @@
 {
-  "description": "a(n)=a(n-1)*(10^K) +n+a(n-1); a(0)=1; K=floor(log_10 n+a(n-1)) +1.",
+  "description": "a(n) = a(n-1) * 10^K + n + a(n-1); a(0) = 1; K = floor(log_10(n + a(n-1) + 1)).",
   "id": "A136309",
   "mentions": [],
   "tags": [
     "easy",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

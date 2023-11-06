@@ -1,7 +1,15 @@
 {
-  "description": "Expand {Product_{j>=1} (1 - x^j) - 1}^12 in powers of x.",
+  "description": "Expansion of {Product_{j>=1} (1 - (-x)^j) - 1}^12 in powers of x.",
   "id": "A001490",
-  "mentions": [],
+  "mentions": [
+    "A001482",
+    "A001488",
+    "A047638",
+    "A047649",
+    "A047654",
+    "A047655",
+    "A341243"
+  ],
   "tags": [
     "formulas",
     "sign"
@@ -9,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

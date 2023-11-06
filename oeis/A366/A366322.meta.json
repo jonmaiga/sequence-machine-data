@@ -1,0 +1,34 @@
+{
+  "description": "Heinz numbers of integer partitions containing at least one odd part. Numbers divisible by at least one prime of odd index.",
+  "id": "A366322",
+  "mentions": [
+    "A000009",
+    "A000720",
+    "A001222",
+    "A003963",
+    "A031368",
+    "A035363",
+    "A047967",
+    "A056239",
+    "A066207",
+    "A066208",
+    "A086543",
+    "A112798",
+    "A257991",
+    "A257992",
+    "A318400",
+    "A324927",
+    "A324929",
+    "A324966",
+    "A358137"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

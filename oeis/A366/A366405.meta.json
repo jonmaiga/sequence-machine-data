@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x / A(x)^(5/2)) / (1 - x).",
+  "id": "A366405",
+  "mentions": [
+    "A366400",
+    "A366401",
+    "A366402",
+    "A366403",
+    "A366404",
+    "A366406",
+    "A366407"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

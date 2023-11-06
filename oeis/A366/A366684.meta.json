@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the divisors of 11^n-1.",
+  "id": "A366684",
+  "mentions": [
+    "A000203",
+    "A024127",
+    "A366666",
+    "A366683"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

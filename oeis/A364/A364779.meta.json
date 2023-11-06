@@ -1,0 +1,19 @@
+{
+  "description": "Largest integer with sum of digits n in fractional base 4/3.",
+  "id": "A364779",
+  "mentions": [
+    "A024631",
+    "A244041",
+    "A357425",
+    "A364780"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

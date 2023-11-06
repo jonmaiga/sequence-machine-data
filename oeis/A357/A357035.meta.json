@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

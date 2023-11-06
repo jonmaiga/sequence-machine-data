@@ -1,0 +1,21 @@
+{
+  "description": "The sum of divisors of n that are terms of A072873.",
+  "id": "A365633",
+  "mentions": [
+    "A072873",
+    "A327939",
+    "A332653",
+    "A365632"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

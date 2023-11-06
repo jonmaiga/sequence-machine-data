@@ -1,5 +1,5 @@
 {
-  "description": "Number of unlabeled trivalent (or cubic) connected graphs with 2n nodes.",
+  "description": "Number of unlabeled trivalent (or cubic) connected simple graphs with 2n nodes.",
   "id": "A002851",
   "mentions": [
     "A000421",
@@ -7,6 +7,7 @@
     "A005177",
     "A005638",
     "A005964",
+    "A005967",
     "A006820",
     "A006821",
     "A006822",
@@ -30,8 +31,8 @@
     "A185131",
     "A198303",
     "A275744",
-    "A321304",
-    "A321305"
+    "A321305",
+    "A361407"
   ],
   "tags": [
     "nice",

@@ -2,7 +2,8 @@
   "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2>=x^2+y^2.",
   "id": "A211636",
   "mentions": [
-    "A211422"
+    "A211422",
+    "A211651"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

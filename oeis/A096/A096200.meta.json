@@ -1,9 +1,12 @@
 {
-  "description": "n*(n-1)*(n-2)*(3*n-2)/6.",
+  "description": "a(n) = n*(n-1)*(n-2)*(3*n-2)/6.",
   "id": "A096200",
-  "mentions": [],
+  "mentions": [
+    "A051895"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

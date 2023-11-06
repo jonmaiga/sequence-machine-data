@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A365465(i) = A365465(j) for all i, j >= 1, where A365465(n) = A356867(n) / gcd(n, A356867(n)), and A356867 is Sycamore's Doudna variant D(3).",
+  "id": "A365715",
+  "mentions": [
+    "A356867",
+    "A365393",
+    "A365431",
+    "A365465",
+    "A365718"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

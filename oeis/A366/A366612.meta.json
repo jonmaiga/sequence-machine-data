@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of 5^n-1.",
+  "id": "A366612",
+  "mentions": [
+    "A000005",
+    "A024049",
+    "A057956",
+    "A366602",
+    "A366613"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

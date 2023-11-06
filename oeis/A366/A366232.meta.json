@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying A(x) = 1 + x*A(x) * exp(2*x*A(x)).",
+  "id": "A366232",
+  "mentions": [
+    "A161633",
+    "A212722",
+    "A365772",
+    "A366233",
+    "A366234",
+    "A366235"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

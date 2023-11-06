@@ -2,8 +2,11 @@
   "description": "Number of primes with prime subscripts dividing n.",
   "id": "A279952",
   "mentions": [
+    "A000720",
     "A001221",
-    "A006450"
+    "A006450",
+    "A111406",
+    "A257994"
   ],
   "tags": [
     "easy",

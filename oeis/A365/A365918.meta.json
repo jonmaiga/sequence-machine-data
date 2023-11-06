@@ -1,0 +1,39 @@
+{
+  "description": "Number of distinct non-subset-sums of integer partitions of n.",
+  "id": "A365918",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A006827",
+    "A046663",
+    "A122768",
+    "A126796",
+    "A188431",
+    "A304792",
+    "A325781",
+    "A325799",
+    "A364272",
+    "A364350",
+    "A364839",
+    "A365543",
+    "A365658",
+    "A365661",
+    "A365663",
+    "A365830",
+    "A365831",
+    "A365919",
+    "A365921",
+    "A365922",
+    "A365923",
+    "A365924"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

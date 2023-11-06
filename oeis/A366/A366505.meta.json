@@ -1,0 +1,15 @@
+{
+  "description": "Number of independent vertex sets in the n-Lucas cube graph.",
+  "id": "A366505",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

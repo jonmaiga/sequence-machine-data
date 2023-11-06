@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows. An infinite binary tree with root node 0 in row n = 0. Each node then has left child (2*j) - k - 1 and right child (2*j) - k + 1, where j and k are the values of the parent and grandparent nodes respectively.",
+  "id": "A365968",
+  "mentions": [
+    "A000217",
+    "A004718",
+    "A014601",
+    "A042963",
+    "A274575",
+    "A360173",
+    "A363718"
+  ],
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

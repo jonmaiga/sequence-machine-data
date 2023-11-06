@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp( Sum_{k>=0} x^(4*k+5) / (4*k+5)! ).",
+  "id": "A365898",
+  "mentions": [
+    "A057814",
+    "A365896",
+    "A365897"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

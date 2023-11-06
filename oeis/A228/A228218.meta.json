@@ -2,7 +2,10 @@
   "description": "T(n,k)=Number of second differences of arrays of length n+2 of numbers in 0..k",
   "id": "A228218",
   "mentions": [
-    "A004766"
+    "A004766",
+    "A228212",
+    "A228213",
+    "A228215"
   ],
   "tags": [
     "formulas",

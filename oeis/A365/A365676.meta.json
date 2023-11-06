@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of n having exactly k distinct parts, for 0 <= k <= n.",
+  "id": "A365676",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A002133",
+    "A002134",
+    "A060177",
+    "A116608",
+    "A365630",
+    "A365631"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

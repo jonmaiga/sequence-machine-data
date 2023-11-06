@@ -1,0 +1,38 @@
+{
+  "description": "Numbers k such that the sum of prime indices of k is not twice the maximum prime index of k, meaning A056239(k) != 2 * A061395(k).",
+  "id": "A366319",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001414",
+    "A025065",
+    "A035363",
+    "A056239",
+    "A061395",
+    "A086543",
+    "A100959",
+    "A110618",
+    "A112798",
+    "A238628",
+    "A300061",
+    "A301987",
+    "A316413",
+    "A320924",
+    "A334201",
+    "A340387",
+    "A344291",
+    "A344296",
+    "A344414",
+    "A344415",
+    "A344416",
+    "A366318"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

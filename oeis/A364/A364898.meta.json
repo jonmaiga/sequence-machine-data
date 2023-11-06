@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the number of kilograms per cubic meter (kg/m^3) in 1 pound per cubic foot (lb/ft^3).",
+  "id": "A364898",
+  "mentions": [
+    "A321984",
+    "A364899"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

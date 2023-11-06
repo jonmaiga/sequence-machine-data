@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of A102283.",
+  "id": "A365428",
+  "mentions": [
+    "A102283",
+    "A134323",
+    "A156277",
+    "A359377"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

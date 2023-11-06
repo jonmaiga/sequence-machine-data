@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partitions of n that have depth k.",
+  "id": "A366063",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A225485",
+    "A237685",
+    "A237750",
+    "A237978"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

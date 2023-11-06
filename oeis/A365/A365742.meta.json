@@ -1,0 +1,26 @@
+{
+  "description": "Length of the largest subset of 1,...,n on which the Euler totient function phi A000010 is constant.",
+  "id": "A365742",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A061070",
+    "A365398",
+    "A365399",
+    "A365400",
+    "A365474",
+    "A365737",
+    "A365738",
+    "A365740",
+    "A365741"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

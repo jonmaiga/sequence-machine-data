@@ -1,0 +1,37 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = k*(10^n - 1)/9 with k >= 0.",
+  "id": "A365644",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A002275",
+    "A002276",
+    "A002277",
+    "A002278",
+    "A002279",
+    "A002280",
+    "A002281",
+    "A002282",
+    "A002283",
+    "A008593",
+    "A053422",
+    "A073551",
+    "A105279",
+    "A132583",
+    "A177769",
+    "A365645",
+    "A365646"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

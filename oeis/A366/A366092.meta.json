@@ -1,0 +1,24 @@
+{
+  "description": "Distance from the sum of the first n primes to the nearest prime.",
+  "id": "A366092",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A013916",
+    "A051699",
+    "A351830",
+    "A354330",
+    "A366093",
+    "A366094"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

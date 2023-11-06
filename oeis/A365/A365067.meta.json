@@ -1,0 +1,40 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n whose odd parts sum to k, for k ranging from mod(n,2) to n in steps of 2.",
+  "id": "A365067",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A035363",
+    "A045931",
+    "A053253",
+    "A066208",
+    "A066967",
+    "A086543",
+    "A113685",
+    "A113686",
+    "A119620",
+    "A130780",
+    "A171966",
+    "A174713",
+    "A239261",
+    "A241638",
+    "A268335",
+    "A325698",
+    "A346697",
+    "A346698",
+    "A366322",
+    "A366528",
+    "A366531",
+    "A366533"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

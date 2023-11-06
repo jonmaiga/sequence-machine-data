@@ -1,0 +1,23 @@
+{
+  "description": "The number of unitary divisors of the exponentially odd numbers (A268335).",
+  "id": "A366534",
+  "mentions": [
+    "A034444",
+    "A077610",
+    "A268335",
+    "A366438",
+    "A366535",
+    "A366536",
+    "A366538"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

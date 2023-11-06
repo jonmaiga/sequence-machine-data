@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with multiplicities of primes per mod 3 residue in nonincreasing order.",
+  "id": "A364433",
+  "mentions": [
+    "A000244",
+    "A025487",
+    "A364583"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

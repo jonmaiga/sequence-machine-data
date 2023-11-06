@@ -2,7 +2,7 @@
   "description": "Riordan array ((1-x^3)/(1+2x^2),x).",
   "id": "A116949",
   "mentions": [
-    "A110128",
+    "A116948",
     "A117575",
     "A117576"
   ],

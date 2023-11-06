@@ -1,0 +1,18 @@
+{
+  "description": "Primitive coreful 3-abundant numbers: coreful 3-abundant numbers (A340109) that are powerful numbers (A001694).",
+  "id": "A364991",
+  "mentions": [
+    "A001694",
+    "A057723",
+    "A340109",
+    "A356871"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

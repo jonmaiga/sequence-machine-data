@@ -1,5 +1,5 @@
 {
-  "description": "Sinh x / cos x = Sum_{n>=0} a(n)*x^(2n+1)/(2n+1)!.",
+  "description": "Sinh(x) / cos(x) = Sum_{n>=0} a(n)*x^(2n+1)/(2n+1)!.",
   "id": "A002084",
   "mentions": [
     "A000324",

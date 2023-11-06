@@ -5,12 +5,11 @@
     "A000040"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 51,
     "source": "oeis-entry"
   }
 }

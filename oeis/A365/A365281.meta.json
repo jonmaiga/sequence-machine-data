@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the least real solution x > 0 of Gamma(1/4 + x/2)/(Pi^x*Gamma(1/4 - x/2)) = 1.",
+  "id": "A365281",
+  "mentions": [
+    "A059750",
+    "A114720",
+    "A257870"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4 can be written as a sum of four positive 4th powers.",
+  "description": "Numbers k such that k^4 can be written as a sum of four positive 4th powers.",
   "id": "A003294",
   "mentions": [
     "A039664",

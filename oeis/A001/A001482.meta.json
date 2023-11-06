@@ -1,7 +1,15 @@
 {
   "description": "Expansion of (Product_{j>=1} (1-(-x)^j) - 1)^4 in powers of x.",
   "id": "A001482",
-  "mentions": [],
+  "mentions": [
+    "A001483",
+    "A001488",
+    "A047638",
+    "A047649",
+    "A047654",
+    "A047655",
+    "A341243"
+  ],
   "tags": [
     "sign"
   ],

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the 4-volume of the unit regular 600-cell.",
+  "id": "A364897",
+  "mentions": [
+    "A000007",
+    "A000038",
+    "A020793",
+    "A102208",
+    "A364895",
+    "A364896"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

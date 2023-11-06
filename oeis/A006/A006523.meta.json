@@ -1,13 +1,16 @@
 {
   "description": "Sum ((-1)^(i+1)*binomial(n,i)*2^i*(2*n-1)!,i=1..n) for n odd.",
   "id": "A006523",
-  "mentions": [],
+  "mentions": [
+    "A000142"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "joeis"
   }
 }

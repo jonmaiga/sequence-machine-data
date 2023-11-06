@@ -1,10 +1,11 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^4 - x^2*A(x)^5.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^4 - x^2*A(x)^5.",
   "id": "A200754",
   "mentions": [
     "A001764",
     "A200753",
-    "A200755"
+    "A200755",
+    "A365180"
   ],
   "tags": [
     "formulas",

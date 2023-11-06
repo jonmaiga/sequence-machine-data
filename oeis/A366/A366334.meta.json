@@ -1,0 +1,27 @@
+{
+  "description": "Number of free (4,2)-polyominoids with n cells.",
+  "id": "A366334",
+  "mentions": [
+    "A000012",
+    "A000105",
+    "A019988",
+    "A038119",
+    "A068870",
+    "A075679",
+    "A365559",
+    "A365561",
+    "A366335",
+    "A366336",
+    "A366766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

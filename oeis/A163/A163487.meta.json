@@ -2,6 +2,7 @@
   "description": "Primes p such that 6*p is the sum of two consecutive primes.",
   "id": "A163487",
   "mentions": [
+    "A001043",
     "A118134"
   ],
   "tags": [

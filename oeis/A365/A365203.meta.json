@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n) = a(n - 1) + n if a(n - 1) < n, a(n) = n^2 if a(n - 1) = n, a(n) = a(n - 1)/n if a(n - 1) > n and a(n - 1) == 0 (mod n), otherwise a(n) = a(n - 1) - n.",
+  "id": "A365203",
+  "mentions": [
+    "A000290",
+    "A046901"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

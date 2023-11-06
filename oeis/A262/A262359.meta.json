@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that denominator(sigma(n)/n) = 6.",
+  "description": "Numbers k such that denominator(sigma(k)/k) = 6.",
   "id": "A262359",
   "mentions": [
+    "A000203",
     "A017666",
     "A067237",
     "A159907",
@@ -9,12 +10,11 @@
     "A245775"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

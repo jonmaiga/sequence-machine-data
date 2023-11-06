@@ -1,5 +1,5 @@
 {
-  "description": "The right budding sequence: # of i such that 0",
+  "description": "The right budding sequence: # of i such that 0 < i <= n and {tau*n} <= {tau*i} < 1, where {} is fractional part.",
   "id": "A019588",
   "mentions": [
     "A019587",

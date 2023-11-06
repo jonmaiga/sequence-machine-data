@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number k such that (sum of composites <= k) / (sum of primes <= k) >= n.",
+  "id": "A364879",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A007504",
+    "A034387",
+    "A053767",
+    "A101256"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / ( 1 - Sum_{k>=0} x^(3*k+4) / (3*k+4)! ).",
+  "id": "A365913",
+  "mentions": [
+    "A232475",
+    "A365894",
+    "A365914"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,15 @@
   "description": "Triangle read by rows: right half of Pascal's triangle (A007318) interspersed with 0's.",
   "id": "A108044",
   "mentions": [
+    "A000984",
+    "A001700",
+    "A001791",
+    "A002054",
     "A007318",
+    "A053121",
     "A108045",
-    "A204293"
+    "A204293",
+    "A357136"
   ],
   "tags": [
     "easy",

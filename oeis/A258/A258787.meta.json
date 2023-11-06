@@ -2,16 +2,16 @@
   "description": "Triangle read by rows: T(n, k) = smallest base b > 1 such that p = prime(n) is the k-th base-b Wieferich prime for k = 1, 2, 3, ..., n.",
   "id": "A258787",
   "mentions": [
-    "A256236"
+    "A256236",
+    "A286816"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

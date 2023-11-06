@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose exponent of least prime factor in their prime factorization is even.",
+  "id": "A365869",
+  "mentions": [
+    "A020639",
+    "A067029",
+    "A283050",
+    "A365870",
+    "A365871"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

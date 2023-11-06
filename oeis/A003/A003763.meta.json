@@ -1,5 +1,5 @@
 {
-  "description": "Number of (undirected) Hamiltonian cycles on 2n X 2n square grid of points.",
+  "description": "Number of (undirected) Hamiltonian cycles on a 2n X 2n square grid of points.",
   "id": "A003763",
   "mentions": [
     "A120443",

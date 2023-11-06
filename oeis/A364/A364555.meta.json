@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that no triangular number is m times a prime.",
+  "id": "A364555",
+  "mentions": [
+    "A000217",
+    "A109998",
+    "A364554"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

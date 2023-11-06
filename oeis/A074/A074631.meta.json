@@ -1,5 +1,5 @@
 {
-  "description": "Sum of a(n) terms of Composite-Harmonic series, Sum 1/(i-th composite), is > n.",
+  "description": "a(n) is the smallest k such that the sum of the first k terms of the composite-harmonic series, Sum 1/(j-th composite), is > n.",
   "id": "A074631",
   "mentions": [
     "A002387",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nice",
     "nonn"
   ],

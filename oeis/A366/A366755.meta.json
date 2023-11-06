@@ -1,0 +1,20 @@
+{
+  "description": "Number of 1-tough unlabeled graphs on n nodes.",
+  "id": "A366755",
+  "mentions": [
+    "A002218",
+    "A007031",
+    "A366315",
+    "A366756"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

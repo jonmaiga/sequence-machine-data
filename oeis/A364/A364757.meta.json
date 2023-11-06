@@ -1,0 +1,19 @@
+{
+  "description": "The pyramidal array T(r,g,b) = (r+g+b)/((g+b)*(r+b))*C(r+g,b-1)*C(g+b,r)*C(r+b,g), where 1 <= b <= ceiling((r+g+b)/2) and 0 <= r,g <= floor((r+g+b)/2). Read first over the layers corresponding to fixed sum r+g+b, then over the diagonals corresponding to fixed b.",
+  "id": "A364757",
+  "mentions": [
+    "A000108",
+    "A108759",
+    "A278880"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

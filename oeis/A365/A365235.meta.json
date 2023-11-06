@@ -1,0 +1,15 @@
+{
+  "description": "Least increasing sequence of primes such that a(n-1)^2 + a(n)^2 is semiprime, with a(1)=2.",
+  "id": "A365235",
+  "mentions": [
+    "A001358"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

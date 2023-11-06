@@ -1,5 +1,5 @@
 {
-  "description": "List of numbers k such that the middle Fibonomial coefficient (2n,n)_F is prime to 105.",
+  "description": "List of numbers whose middle Fibonomial coefficient (2n,n)_F is prime to 105.",
   "id": "A295562",
   "mentions": [
     "A001177",

@@ -2,8 +2,8 @@
   "description": "Even numbers which are not the sum of 2 odd semiprimes.",
   "id": "A152483",
   "mentions": [
-    "A001358",
     "A046315",
+    "A118081",
     "A152482",
     "A152484"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Iteration x := x-((sin(x)-cos(x)*x-Pi/2)/(sin(x)*x)).",
+  "description": "Iteration x := x - (sin(x) - cos(x)*x - Pi/2)/(sin(x)*x).",
   "id": "A173201",
   "mentions": [
     "A072112",

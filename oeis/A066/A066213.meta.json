@@ -2,6 +2,7 @@
   "description": "Numbers which are sums of squares of some subset of divisors.",
   "id": "A066213",
   "mentions": [
+    "A005835",
     "A066214",
     "A066215",
     "A066216"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

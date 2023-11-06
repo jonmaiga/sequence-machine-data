@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = T(n, 3), where T(n, k) = Sum_{i=0..n} i^k * binomial(n, i) * (1/2)^(n-k).",
+  "id": "A366151",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A002378",
+    "A011782",
+    "A063376",
+    "A072034"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

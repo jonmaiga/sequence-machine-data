@@ -2,12 +2,15 @@
   "description": "Number of primes between 10n and 10n+9.",
   "id": "A038800",
   "mentions": [
+    "A007811",
     "A055781",
     "A055782",
     "A055783",
-    "A055784"
+    "A055784",
+    "A098592"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

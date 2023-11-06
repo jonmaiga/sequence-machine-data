@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of partitions of n whose difference multiset has no duplicates; see Comments.",
+  "id": "A363994",
+  "mentions": [
+    "A000041",
+    "A325858",
+    "A325876",
+    "A364612"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

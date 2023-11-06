@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the divisors of 7^n-1.",
+  "id": "A366634",
+  "mentions": [
+    "A000203",
+    "A024075",
+    "A366622",
+    "A366633"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

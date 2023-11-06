@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 9; for n > 1 is a(n) the square root of the smallest square > a(n-1)^2 with a(n-1)^2 forming its final digits.",
+  "description": "a(1) = 9; for n > 1, a(n) is the square root of the smallest square > a(n-1)^2 with a(n-1)^2 forming its final digits.",
   "id": "A065792",
   "mentions": [
     "A050635",

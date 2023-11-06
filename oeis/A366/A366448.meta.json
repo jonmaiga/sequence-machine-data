@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct characteristic polynomials for 2 X 2 matrices with entries from {0, 1, ..., n}.",
+  "id": "A366448",
+  "mentions": [
+    "A005408",
+    "A058331",
+    "A272659",
+    "A365926"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically latest infinite cubefree word over the alphabet {0,1}.",
+  "id": "A365261",
+  "mentions": [
+    "A010060",
+    "A028445",
+    "A269027",
+    "A282317"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

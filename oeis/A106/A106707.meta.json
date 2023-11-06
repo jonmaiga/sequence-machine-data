@@ -1,5 +1,5 @@
 {
-  "description": "First entry of the vector (M^n)v, where M is the 2 X 2 matrix [[0,-1],[1,4]] and v is the column vector [0,1].",
+  "description": "a(n) = -A001353(n).",
   "id": "A106707",
   "mentions": [
     "A001076",
@@ -8,6 +8,7 @@
   "tags": [
     "easy",
     "formulas",
+    "less",
     "sign"
   ],
   "terms": {

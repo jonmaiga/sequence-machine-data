@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{i=0..k-2} (-1)^(i+2) * (k-i-1)^n * binomial(k,i).",
+  "id": "A366159",
+  "mentions": [
+    "A000012",
+    "A033312",
+    "A036563",
+    "A105060"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

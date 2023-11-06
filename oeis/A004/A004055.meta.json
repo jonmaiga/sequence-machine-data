@@ -1,7 +1,10 @@
 {
   "description": "((p-1)/2)! mod p for odd primes p.",
   "id": "A004055",
-  "mentions": [],
+  "mentions": [
+    "A058302",
+    "A065091"
+  ],
   "tags": [
     "nonn"
   ],

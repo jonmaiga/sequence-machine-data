@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that sigma(n)=2*(n-reversal(n)).",
+  "description": "Numbers n such that sigma(n) = 2*(n-reversal(n)).",
   "id": "A135242",
   "mentions": [
+    "A000203",
+    "A004086",
     "A135243"
   ],
   "tags": [

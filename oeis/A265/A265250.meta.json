@@ -2,8 +2,12 @@
   "description": "Number of partitions of n having no parts strictly between the smallest and the largest part (n>=1).",
   "id": "A265250",
   "mentions": [
+    "A000005",
     "A000041",
-    "A265249"
+    "A002133",
+    "A116608",
+    "A265249",
+    "A309058"
   ],
   "tags": [
     "formulas",

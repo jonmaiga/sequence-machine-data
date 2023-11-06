@@ -1,11 +1,13 @@
 {
-  "description": "The number of permutations of {1,1,1,2,2,2,...,n,n,n} with the property that b(1) >= b(2) >= ... >= b(n) (Three k's are skipped by b(k) for k=1..n).",
+  "description": "The number of permutations of {1,1,1,2,2,2,...,n,n,n} such that each triple of k's (k=1..n) is equally spaced with b(k) other elements in between and b(1) >= b(2) >= ... >= b(n).",
   "id": "A332748",
   "mentions": [
     "A059108",
+    "A104429",
     "A261516",
     "A322178",
-    "A332752"
+    "A332752",
+    "A332762"
   ],
   "tags": [
     "more",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

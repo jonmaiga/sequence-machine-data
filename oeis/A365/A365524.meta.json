@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 4*log(2) - 5/2.",
+  "id": "A365524",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A002162",
+    "A016639",
+    "A358517"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

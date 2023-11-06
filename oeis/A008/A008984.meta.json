@@ -1,5 +1,5 @@
 {
-  "description": "Number of immersions of the oriented circle into the oriented plane with n double points and index 1.",
+  "description": "Number of immersions of the oriented circle into the oriented plane with n double points and index n-1.",
   "id": "A008984",
   "mentions": [
     "A008980",

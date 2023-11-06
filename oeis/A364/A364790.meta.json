@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of n X n symmetric Toeplitz matrices of rank k using all the integers 0, 1, 2, ..., n-1.",
+  "id": "A364790",
+  "mentions": [
+    "A000142",
+    "A358323",
+    "A358324",
+    "A358326",
+    "A358327",
+    "A364791"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

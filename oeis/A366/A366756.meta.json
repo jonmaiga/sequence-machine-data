@@ -1,0 +1,17 @@
+{
+  "description": "Number of minimally 1-tough unlabeled graphs on n nodes.",
+  "id": "A366756",
+  "mentions": [
+    "A003317",
+    "A366755"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

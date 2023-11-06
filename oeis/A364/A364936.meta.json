@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = minimum number of variables with n possible states in a system such that its solution requires the processing of a transcomputational number of bits.",
+  "id": "A364936",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

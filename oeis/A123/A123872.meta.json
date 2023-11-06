@@ -3,16 +3,16 @@
   "id": "A123872",
   "mentions": [
     "A123873",
+    "A123874",
     "A123875"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

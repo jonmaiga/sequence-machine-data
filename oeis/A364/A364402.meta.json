@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (3*n)!*(10*n)!/((2*n)!*(5*n)!*(6*n)!).",
+  "id": "A364402",
+  "mentions": [
+    "A182400",
+    "A211419",
+    "A262732"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

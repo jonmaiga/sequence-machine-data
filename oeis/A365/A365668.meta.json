@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x * (1 + A(x))^5 / (1 - 2 * A(x)).",
+  "id": "A365668",
+  "mentions": [
+    "A001296",
+    "A002294",
+    "A064063",
+    "A365755",
+    "A366014",
+    "A366035",
+    "A366036",
+    "A366037"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

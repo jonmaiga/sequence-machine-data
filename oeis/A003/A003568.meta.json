@@ -1,13 +1,13 @@
 {
-  "description": "Least number m such that 12^m = +- 1 mod 12n + 1.",
+  "description": "Least number m such that 12^m == +- 1 (mod 12n + 1).",
   "id": "A003568",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 55,
+    "offset": 1,
+    "size": 64,
     "source": "joeis"
   }
 }

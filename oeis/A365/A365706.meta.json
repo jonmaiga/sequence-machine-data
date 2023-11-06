@@ -1,0 +1,18 @@
+{
+  "description": "For n >= 1, a(n) is the least prime p such that the arithmetic mean of (n + 1) consecutive primes starting with p is a perfect square, or a(n) = -1 if no such p exists.",
+  "id": "A365706",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A053001",
+    "A225195"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

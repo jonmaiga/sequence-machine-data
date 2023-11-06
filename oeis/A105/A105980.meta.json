@@ -1,7 +1,16 @@
 {
-  "description": "Near-repdigit primes with 4 as repeated digit.",
+  "description": "Near-repdigit primes with at least two 4's as the repeated digit.",
   "id": "A105980",
-  "mentions": [],
+  "mentions": [
+    "A105976",
+    "A105978",
+    "A105982",
+    "A107979",
+    "A365592",
+    "A365596",
+    "A365597",
+    "A365598"
+  ],
   "tags": [
     "base",
     "nonn"

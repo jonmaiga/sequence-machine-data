@@ -1,0 +1,17 @@
+{
+  "description": "Largest square divisor of n which is <= sqrt(n).",
+  "id": "A366523",
+  "mentions": [
+    "A008833",
+    "A033676",
+    "A366524"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = x + A(x)^2*(1 + A(x))^2.",
+  "description": "G.f. satisfies A(x) = x + A(x)^2*(1 + A(x))^2.",
   "id": "A214372",
   "mentions": [
     "A000108",

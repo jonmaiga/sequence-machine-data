@@ -1,0 +1,22 @@
+{
+  "description": "Least k such that A000668(n) + k is prime, where A000668(n) is the n-th Mersenne prime.",
+  "id": "A365160",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A001223",
+    "A059305",
+    "A365161"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

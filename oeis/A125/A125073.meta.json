@@ -1,13 +1,15 @@
 {
-  "description": "a(n) = sum of the exponents in the prime-factorization of n which are triangular numbers.",
+  "description": "a(n) = sum of the exponents in the prime factorization of n which are triangular numbers.",
   "id": "A125073",
   "mentions": [
     "A010054",
+    "A077761",
     "A125030",
     "A125071",
     "A125072"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

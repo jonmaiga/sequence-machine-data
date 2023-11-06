@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that concatenation of numbers from 1 to n is a semiprime.",
+  "description": "Numbers k such that concatenation of numbers from 1 to k is a semiprime.",
   "id": "A046461",
   "mentions": [
     "A007908",

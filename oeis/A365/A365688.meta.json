@@ -1,0 +1,16 @@
+{
+  "description": "Primitive solutions k to k^2 = u^4 + v^4 + w^4, with u, v, w > 0.",
+  "id": "A365688",
+  "mentions": [
+    "A003828",
+    "A365657"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

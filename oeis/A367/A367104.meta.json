@@ -1,0 +1,15 @@
+{
+  "description": "First of 5 consecutive semiprimes congruent to 1,2,3,4,5 (mod 6).",
+  "id": "A367104",
+  "mentions": [
+    "A001358"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

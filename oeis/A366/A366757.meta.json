@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of the divisors of n!-1.",
+  "id": "A366757",
+  "mentions": [
+    "A000203",
+    "A033312",
+    "A062569",
+    "A064145",
+    "A366758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 21,
+    "source": "joeis"
+  }
+}

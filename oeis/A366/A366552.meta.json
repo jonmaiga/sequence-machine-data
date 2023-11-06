@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the index of the first row of A296142 in which n appears, or 0 if n does not appear.",
+  "id": "A366552",
+  "mentions": [
+    "A296142",
+    "A321351"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

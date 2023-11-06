@@ -1,5 +1,5 @@
 {
-  "description": "Incrementally largest values of minimal x satisfying Pell equation x^2-Dy^2=1.",
+  "description": "Incrementally largest values of minimal x satisfying Pell equation x^2 - D*y^2 = 1.",
   "id": "A033315",
   "mentions": [
     "A002349",

@@ -1,5 +1,5 @@
 {
-  "description": "n*5/gcd(n*5,n+5), n >= 5.",
+  "description": "a(n) = n*5/gcd(n*5,n+5), n >= 5.",
   "id": "A222463",
   "mentions": [
     "A000027",

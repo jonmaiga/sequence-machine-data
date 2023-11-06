@@ -1,0 +1,20 @@
+{
+  "description": "Average of a twin prime pair which is the sum of the first k primes, for some k.",
+  "id": "A366205",
+  "mentions": [
+    "A007504",
+    "A014574",
+    "A346706",
+    "A366094",
+    "A366206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

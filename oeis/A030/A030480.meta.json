@@ -1,13 +1,16 @@
 {
   "description": "Primes with property that when squared all even digits occur together and all odd digits occur together.",
   "id": "A030480",
-  "mentions": [],
+  "mentions": [
+    "A030475",
+    "A030476"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 46,
     "source": "joeis"
   }

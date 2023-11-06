@@ -1,0 +1,19 @@
+{
+  "description": "Odd composite numbers k such that A349494(k) = A000120(k).",
+  "id": "A365451",
+  "mentions": [
+    "A000120",
+    "A019434",
+    "A235040",
+    "A349494"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

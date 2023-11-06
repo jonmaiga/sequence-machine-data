@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = coefficient of x^n in A(x) such that: 1 = Sum_{n=-oo..+oo} x^n * (x^(2*n) - A(x))^n.",
+  "description": "Expansion of g.f. A(x) satisfying 1 = Sum_{n=-oo..+oo} x^n * (x^(2*n) - A(x))^n.",
   "id": "A358937",
   "mentions": [
-    "A355865"
+    "A355865",
+    "A366229"
   ],
   "tags": [
     "formulas",

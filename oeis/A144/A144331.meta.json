@@ -1,5 +1,5 @@
 {
-  "description": "Triangle b(n,k) read by rows (n >= 0, 0 <= k <= 2n). See A144299 for definition and properties.",
+  "description": "Triangle b(n,k) for n >= 0, 0 <= k <= 2n, read by rows. See A144299 for definition and properties.",
   "id": "A144331",
   "mentions": [
     "A000085",
@@ -9,7 +9,8 @@
     "A100861",
     "A111924",
     "A144299",
-    "A144385"
+    "A144385",
+    "A278990"
   ],
   "tags": [
     "formulas",

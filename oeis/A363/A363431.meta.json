@@ -1,0 +1,16 @@
+{
+  "description": "Number of 123-avoiding stabilized-interval-free permutations of size n.",
+  "id": "A363431",
+  "mentions": [
+    "A075834"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,11 @@
 {
   "description": "Triangle read by rows giving numbers T(n,j) (n >= 0, 1 <= j <= n+1) of certain restricted partitions of 2n into j blocks.",
   "id": "A300051",
-  "mentions": [],
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A030662"
+  ],
   "tags": [
     "formulas",
     "nonn",

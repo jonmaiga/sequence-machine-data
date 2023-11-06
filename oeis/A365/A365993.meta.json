@@ -1,0 +1,19 @@
+{
+  "description": "Trajectory of 34 under the \"multiply with zero\" rules explained in the Comments section.",
+  "id": "A365993",
+  "mentions": [
+    "A365260",
+    "A365994"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

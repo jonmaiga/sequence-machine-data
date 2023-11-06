@@ -1,0 +1,26 @@
+{
+  "description": "The number of primes factors of the largest divisor of n that is a cubefull number (A036966), counted with multiplicity.",
+  "id": "A366076",
+  "mentions": [
+    "A001222",
+    "A004709",
+    "A036966",
+    "A046100",
+    "A085541",
+    "A152441",
+    "A275812",
+    "A295659",
+    "A360540",
+    "A366077"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX4 0..1 arrays with each 1 horizontally or vertically adjacent to 0, 1 or 4 1s.",
+  "description": "Number of n X 4 0..1 arrays with each 1 horizontally or vertically adjacent to 0, 1 or 4 1s.",
   "id": "A295271",
   "mentions": [
     "A295275"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

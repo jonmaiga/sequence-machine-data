@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the difference between the maximum and minimum number whose proper divisors sum to n, or 0 if there is no such number.",
+  "id": "A366110",
+  "mentions": [
+    "A001065",
+    "A005114",
+    "A057709",
+    "A070015",
+    "A135244",
+    "A152454"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

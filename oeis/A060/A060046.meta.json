@@ -2,6 +2,7 @@
   "description": "Generalized sum of divisors function: third diagonal of A060047.",
   "id": "A060046",
   "mentions": [
+    "A015128",
     "A060047"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 9,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

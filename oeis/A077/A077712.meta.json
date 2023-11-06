@@ -2,16 +2,16 @@
   "description": "a(1) = 1, a(n) = the smallest squarefree number > a(n-1) which contains all the digits of a(n-1).",
   "id": "A077712",
   "mentions": [
+    "A005117",
     "A086981",
     "A086982"
   ],
   "tags": [
     "base",
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 23,
     "source": "oeis-entry"
   }

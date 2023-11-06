@@ -2,15 +2,18 @@
   "description": "Triangle in A144643 read upwards by columns.",
   "id": "A144645",
   "mentions": [
-    "A144643"
+    "A001681",
+    "A144643",
+    "A144644"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 67,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,12 @@
 {
-  "description": "Nearest integer to n*phi^5, where phi is the golden ratio, A001622.",
+  "description": "a(n) = round(n*phi^5), where phi is the golden ratio, A001622.",
   "id": "A004940",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A004939",
+    "A004941",
+    "A004942",
+    "A004943"
   ],
   "tags": [
     "nonn"

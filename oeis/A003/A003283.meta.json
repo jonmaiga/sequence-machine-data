@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of coefficients of Green's function for cubic lattice.",
+  "description": "Denominators of coefficients of Green function for cubic lattice.",
   "id": "A003283",
   "mentions": [
     "A003282"

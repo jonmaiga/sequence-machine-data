@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1 / (-6 + Sum_{k=1..7} exp(-k*x)).",
+  "id": "A366302",
+  "mentions": [
+    "A001554",
+    "A004705",
+    "A005923",
+    "A319509",
+    "A366298",
+    "A366299",
+    "A366300",
+    "A366301"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Subtract 2 from the terms of the Kolakoski-(1,3) sequence A064353.",
+  "id": "A362927",
+  "mentions": [
+    "A000002",
+    "A064353",
+    "A362928",
+    "A362929",
+    "A362930"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

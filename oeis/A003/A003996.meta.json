@@ -1,8 +1,12 @@
 {
-  "description": "Sum of distinct nonzero squares in more than one way.",
+  "description": "Sums of distinct nonzero squares in more than one way.",
   "id": "A003996",
-  "mentions": [],
+  "mentions": [
+    "A003995",
+    "A033461"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

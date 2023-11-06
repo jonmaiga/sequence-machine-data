@@ -1,5 +1,5 @@
 {
-  "description": "Squares of primes with digits in descending order.",
+  "description": "Squares of primes with digits in nonascending order.",
   "id": "A028869",
   "mentions": [
     "A028865",

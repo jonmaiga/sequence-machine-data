@@ -1,7 +1,9 @@
 {
-  "description": "Digits in order in which they appear in decimal expansion of e",
+  "description": "Digits in order in which they appear in decimal expansion of e.",
   "id": "A105178",
-  "mentions": [],
+  "mentions": [
+    "A001113"
+  ],
   "tags": [
     "base",
     "fini",

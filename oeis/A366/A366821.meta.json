@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is phi(n^n-1) where phi is the Euler totient function.",
+  "id": "A366821",
+  "mentions": [
+    "A000010",
+    "A048861",
+    "A064447",
+    "A366822"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 18,
+    "source": "joeis"
+  }
+}

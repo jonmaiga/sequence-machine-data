@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(2n-2,n-1)/n - 2^(n-1) + n.",
+  "description": "a(n) = binomial(2*n-2,n-1)/n - 2^(n-1) + n.",
   "id": "A004303",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

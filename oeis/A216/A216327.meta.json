@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle of orders mod n for the elements of the smallest positive reduced residue system mod n.",
+  "description": "Irregular triangle of multiplicative orders mod n for the elements of the smallest positive reduced residue system mod n.",
   "id": "A216327",
   "mentions": [
     "A000010",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes n such that 2^(n-1) mod n is also a semiprime.",
+  "description": "Semiprimes s such that 2^(s-1) mod s is also a semiprime.",
   "id": "A175626",
   "mentions": [
     "A001358",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

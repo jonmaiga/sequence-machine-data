@@ -2,6 +2,7 @@
   "description": "Array read by antidiagonals: T(m,n) = number of m-ary words of length n with cyclically adjacent elements differing by 2 or less.",
   "id": "A285280",
   "mentions": [
+    "A000244",
     "A124805",
     "A124806",
     "A124807",

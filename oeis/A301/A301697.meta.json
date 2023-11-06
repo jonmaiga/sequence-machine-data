@@ -44,12 +44,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 101,
+    "size": 64,
     "source": "joeis"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of regions into which the plane is divided by n lines parallel to each edge of an equilateral triangle with side n such that the lines extend the parallel edge and divide the other edges into unit segments.",
+  "id": "A364352",
+  "mentions": [
+    "A134238",
+    "A147875",
+    "A177862",
+    "A343755",
+    "A364401"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

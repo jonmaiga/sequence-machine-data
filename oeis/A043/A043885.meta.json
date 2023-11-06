@@ -2,7 +2,12 @@
   "description": "Numbers k such that 2 and 3 occur juxtaposed in the base-4 representation of k but not of k+1.",
   "id": "A043885",
   "mentions": [
-    "A007090"
+    "A007090",
+    "A043880",
+    "A043881",
+    "A043882",
+    "A043883",
+    "A043884"
   ],
   "tags": [
     "base",
@@ -10,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 48,
-    "source": "joeis"
+    "size": 56,
+    "source": "oeis-bfile"
   }
 }

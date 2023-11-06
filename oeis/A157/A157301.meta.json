@@ -1,5 +1,5 @@
 {
-  "description": "Reduced numerators of the ratios of Pi(2^n+1)/Pi(2^(n)).",
+  "description": "Reduced numerators of the ratios of Pi(2^(n+1))/Pi(2^(n)).",
   "id": "A157301",
   "mentions": [
     "A007053"

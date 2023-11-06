@@ -1,5 +1,5 @@
 {
-  "description": "A number triangle with duplicated columns of the form 2^n-sum{j=0..2k-1, C(n,j)}.",
+  "description": "A number triangle with duplicated columns of the form 2^n - Sum_{j=0..2k-1} C(n,j).",
   "id": "A106471",
   "mentions": [
     "A000079",

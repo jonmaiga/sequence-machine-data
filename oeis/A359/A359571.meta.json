@@ -1,5 +1,5 @@
 {
-  "description": "Number of edges after n iterations of constructing circles from all current vertices using only a compass, starting with one vertex. See the Comments.",
+  "description": "Number of (curved) edges after n iterations of constructing circles from all current vertices using only a compass, starting with one vertex. See the Comments.",
   "id": "A359571",
   "mentions": [
     "A358783",

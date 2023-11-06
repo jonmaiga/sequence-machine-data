@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n, d < n, d in S} d, where S is the set defined in A118372.",
+  "id": "A364858",
+  "mentions": [
+    "A001065",
+    "A118372",
+    "A181487",
+    "A294888"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

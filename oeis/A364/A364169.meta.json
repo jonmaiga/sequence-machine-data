@@ -6,12 +6,13 @@
     "A364171"
   ],
   "tags": [
+    "easy",
     "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

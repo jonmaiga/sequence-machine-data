@@ -1,0 +1,17 @@
+{
+  "description": "Lucas-V pseudoprimes: composites c such that V_{c+1} == 2Q (mod c), where V_k is a Lucas sequence with parameters P and Q.",
+  "id": "A365514",
+  "mentions": [
+    "A217120"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

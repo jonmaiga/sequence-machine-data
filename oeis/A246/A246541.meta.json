@@ -1,5 +1,5 @@
 {
-  "description": "Take the squares of all P_(n+2)-rough numbers less than the (n+1)th primorial and mod each by the (n+1)th primorial. There will be a(n) different results.",
+  "description": "Take the squares of all P_(n+2)-rough numbers less than the (n+1)-th primorial and mod each by the (n+1)-th primorial. There will be a(n) different results.",
   "id": "A246541",
   "mentions": [
     "A002110",
@@ -10,16 +10,16 @@
     "A008365",
     "A008366",
     "A166061",
-    "A166063"
+    "A166063",
+    "A323739"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

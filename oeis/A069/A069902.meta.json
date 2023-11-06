@@ -1,5 +1,5 @@
 {
-  "description": "Largest prime factor of n-th triangular number n(n+1)/2.",
+  "description": "Largest prime factor of n(n+1)/2, the n-th triangular number.",
   "id": "A069902",
   "mentions": [
     "A000217",
@@ -10,11 +10,13 @@
     "A074399"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 65,
-    "source": "joeis"
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
   }
 }

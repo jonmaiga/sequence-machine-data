@@ -1,0 +1,16 @@
+{
+  "description": "Generalized positive integers (see formula section).",
+  "id": "A364813",
+  "mentions": [
+    "A363838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

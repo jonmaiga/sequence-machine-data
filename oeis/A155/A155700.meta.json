@@ -2,10 +2,12 @@
   "description": "Minimum power to which 2 must be raised so that the first n digits of the result are the digits of A155699(n).",
   "id": "A155700",
   "mentions": [
+    "A000079",
     "A155699"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

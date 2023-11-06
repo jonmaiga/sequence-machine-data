@@ -1,5 +1,5 @@
 {
-  "description": "floor[11^11/n].",
+  "description": "a(n) = floor(11^11/n).",
   "id": "A057073",
   "mentions": [
     "A000007",
@@ -9,11 +9,12 @@
     "A057075"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the divisors of 5^n-1.",
+  "id": "A366613",
+  "mentions": [
+    "A000203",
+    "A024049",
+    "A366603",
+    "A366612"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

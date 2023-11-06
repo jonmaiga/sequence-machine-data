@@ -1,10 +1,13 @@
 {
-  "description": "E.g.f.: Sum_{n>=0} exp(x*n*(n+1)/2).",
+  "description": "a(n) = Sum_{k = 0..n} (k*(k+1)/2)^n.",
   "id": "A249564",
   "mentions": [
+    "A000217",
+    "A031971",
     "A177385"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

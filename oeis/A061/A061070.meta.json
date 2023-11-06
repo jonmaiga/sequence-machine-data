@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct values in the list of values of the Euler totient-function {phi(j) : j=1...n}.",
+  "description": "Number of distinct values in the list of values of the Euler totient function {phi(j) : j=1..n}.",
   "id": "A061070",
   "mentions": [
     "A000010"

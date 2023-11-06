@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number that reaches a fixed point after n iterations of the map x -> A022290(x).",
+  "id": "A364803",
+  "mentions": [
+    "A007755",
+    "A022290",
+    "A364801",
+    "A364802"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

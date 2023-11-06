@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that number of runs in the base 2 representation of n is congruent to 1 mod 3.",
+  "description": "Numbers whose number of runs in the base-2 representation is congruent to 1 mod 3.",
   "id": "A043722",
-  "mentions": [],
+  "mentions": [
+    "A005811"
+  ],
   "tags": [
     "base",
     "nonn"

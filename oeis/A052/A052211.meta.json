@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4 starts with n itself (in base 10).",
+  "description": "Numbers k such that k^4 starts with k itself (in base 10).",
   "id": "A052211",
   "mentions": [
     "A052210",

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1 / ( 1 - Sum_{k>=0} x^(2*k+3) / (2*k+3) ).",
+  "id": "A365980",
+  "mentions": [
+    "A130915",
+    "A296676",
+    "A355284",
+    "A365981",
+    "A365982"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

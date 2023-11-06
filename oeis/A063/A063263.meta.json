@@ -2,9 +2,11 @@
   "description": "Ninth column (k=8) of sextinomial array A063260.",
   "id": "A063263",
   "mentions": [
+    "A062989",
     "A063260",
     "A063261",
     "A063262",
+    "A063264",
     "A213888"
   ],
   "tags": [

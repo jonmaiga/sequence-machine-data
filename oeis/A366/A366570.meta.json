@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator(denominator(Bernoulli'(n, x)) / denominator(Bernoulli(n, 1))).",
+  "id": "A366570",
+  "mentions": [
+    "A027642",
+    "A324370",
+    "A366152",
+    "A366426",
+    "A366427"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

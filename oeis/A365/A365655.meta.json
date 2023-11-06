@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed n-polyominoids, allowing right-angled connections only (\"hard\" polyominoids).",
+  "id": "A365655",
+  "mentions": [
+    "A075678",
+    "A365654"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

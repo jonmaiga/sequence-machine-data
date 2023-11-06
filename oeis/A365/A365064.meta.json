@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that k*A000668(n)*A000668(n+3) + 1 is prime, where A000668(n) is the n-th Mersenne prime.",
+  "id": "A365064",
+  "mentions": [
+    "A000668",
+    "A098917",
+    "A365063",
+    "A365065"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

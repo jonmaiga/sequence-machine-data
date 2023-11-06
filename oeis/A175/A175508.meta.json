@@ -1,5 +1,5 @@
 {
-  "description": "If p is the product of k1-th prime, k2-th prime,..,kr-th prime then set a(n)=n-k1*k2*..*kr, if p is the k-th prime then set=n-k, a(1)=1 by convention.",
+  "description": "a(n) is the difference of n and the product of the indices of prime factors of n with multiplicity, a(1) = 0.",
   "id": "A175508",
   "mentions": [
     "A003963"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

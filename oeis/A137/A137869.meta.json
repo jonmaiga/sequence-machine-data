@@ -1,7 +1,10 @@
 {
   "description": "Primes p with property that (p - previous prime) >= 6 and (next prime - p) >= 6.",
   "id": "A137869",
-  "mentions": [],
+  "mentions": [
+    "A053070",
+    "A167773"
+  ],
   "tags": [
     "nonn"
   ],

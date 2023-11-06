@@ -1,0 +1,18 @@
+{
+  "description": "Positions of even numbers in May code (A303767).",
+  "id": "A366257",
+  "mentions": [
+    "A303760",
+    "A303767",
+    "A366255",
+    "A366256"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

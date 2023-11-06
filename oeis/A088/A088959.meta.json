@@ -1,10 +1,11 @@
 {
-  "description": "Lowest numbers which are d-Pythagorean decomposable, i.e., square is expressible as sum of two distinct positive squares in more ways than for any smaller number.",
+  "description": "Lowest numbers which are d-Pythagorean decomposable, i.e., square is expressible as sum of two positive squares in more ways than for any smaller number.",
   "id": "A088959",
   "mentions": [
     "A046080",
     "A052199",
     "A054994",
+    "A071383",
     "A088111"
   ],
   "tags": [

@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of nonnegative integers: a(n) = A057889(A243071(n)).",
+  "id": "A366276",
+  "mentions": [
+    "A030101",
+    "A054429",
+    "A057889",
+    "A156552",
+    "A243071",
+    "A366275",
+    "A366277"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

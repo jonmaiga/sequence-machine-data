@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed n-polyominoids, allowing corner-connections only.",
+  "id": "A365653",
+  "mentions": [
+    "A075678",
+    "A365651",
+    "A365652"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "floor[6^6/n].",
+  "description": "a(n) = floor(6^6/n).",
   "id": "A057068",
   "mentions": [
     "A000007",
@@ -9,11 +9,12 @@
     "A057075"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,10 +2,10 @@
   "description": "a(n) = Sum_{d|n} C(n,d)*sigma(d).",
   "id": "A179305",
   "mentions": [
+    "A000203",
     "A179304"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

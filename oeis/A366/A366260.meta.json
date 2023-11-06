@@ -1,0 +1,22 @@
+{
+  "description": "Doudna sequence permuted by May code: a(n) = A005940(1+A303767(n)).",
+  "id": "A366260",
+  "mentions": [
+    "A005940",
+    "A053644",
+    "A209229",
+    "A243353",
+    "A303767",
+    "A366261",
+    "A366262",
+    "A366263"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

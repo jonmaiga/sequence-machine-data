@@ -1,0 +1,38 @@
+{
+  "description": "Heinz numbers of integer partitions with at least one even and odd part.",
+  "id": "A366532",
+  "mentions": [
+    "A000009",
+    "A000720",
+    "A001222",
+    "A003963",
+    "A006477",
+    "A026804",
+    "A031215",
+    "A031368",
+    "A035363",
+    "A047967",
+    "A056239",
+    "A066207",
+    "A066208",
+    "A086543",
+    "A112798",
+    "A182616",
+    "A244991",
+    "A257991",
+    "A257992",
+    "A324929",
+    "A324966",
+    "A324967",
+    "A366322"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sturdy prime numbers: p such that in binary notation k*p has at least as many 1-bits as p for all k>0.",
+  "description": "Sturdy prime numbers: p such that in binary notation k*p has at least as many 1-bits as p for all k > 0.",
   "id": "A143027",
   "mentions": [
     "A000668",

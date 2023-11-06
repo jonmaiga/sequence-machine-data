@@ -1,0 +1,18 @@
+{
+  "description": "Number of independent vertex sets in the n X n zebra graph.",
+  "id": "A366517",
+  "mentions": [
+    "A141243",
+    "A366513",
+    "A366514"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

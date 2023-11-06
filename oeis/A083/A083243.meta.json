@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which there are more divisors and coprimes than other numbers less than n: A045763(n) < A073757(n) or A045763(n)n/2.",
+  "description": "Numbers k for which there are more divisors and coprimes than other numbers less than k: A045763(k) < A073757(k) or A045763(k) < k/2 or A073757(k) > k/2.",
   "id": "A083243",
   "mentions": [
     "A000005",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 72,
+    "size": 68,
     "source": "oeis-entry"
   }
 }

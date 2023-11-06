@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)*(1 + x^5*A(x)^2).",
+  "id": "A365732",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A071879",
+    "A364552",
+    "A365252",
+    "A365734"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Semiprimes that are the sum of two successive terms of A092192.",
+  "id": "A366167",
+  "mentions": [
+    "A001358",
+    "A092192"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

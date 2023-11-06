@@ -1,7 +1,9 @@
 {
   "description": "Divisible only by primes congruent to 2 mod 5.",
   "id": "A004616",
-  "mentions": [],
+  "mentions": [
+    "A045380"
+  ],
   "tags": [
     "nonn"
   ],

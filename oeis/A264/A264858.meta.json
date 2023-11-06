@@ -1,10 +1,11 @@
 {
-  "description": "Integers n such that A007504(n) + 1 is a square.",
+  "description": "Integers k such that A007504(k) + 1 is a square.",
   "id": "A264858",
   "mentions": [
     "A007504",
     "A014284",
     "A033997",
+    "A089228",
     "A110996"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

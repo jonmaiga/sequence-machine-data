@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A337377(i) = A337377(j) for all i, j >= 0, where A337377 is the primorial deflation (denominator) of Doudna sequence.",
+  "id": "A366877",
+  "mentions": [
+    "A005940",
+    "A064989",
+    "A319627",
+    "A337377",
+    "A366876"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

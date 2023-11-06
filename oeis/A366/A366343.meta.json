@@ -1,0 +1,13 @@
+{
+  "description": "Numbers k such that every prime power q with q-1 | k-1 is a prime number.",
+  "id": "A366343",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

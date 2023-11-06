@@ -1,8 +1,9 @@
 {
-  "description": "n such that floor(n^(1/4)) divides n.",
+  "description": "Numbers j such that floor(j^(1/4)) divides j.",
   "id": "A204315",
   "mentions": [
-    "A079645"
+    "A079645",
+    "A228318"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "The \"reversed commas\" sequence, a variant of A121805. See the Comments and Example sections for detailed explanations.",
+  "id": "A365875",
+  "mentions": [
+    "A121805",
+    "A365872",
+    "A365873",
+    "A365874"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

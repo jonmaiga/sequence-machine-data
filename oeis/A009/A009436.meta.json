@@ -1,7 +1,14 @@
 {
-  "description": "Expansion of log(1+x)/exp(sin(x)).",
+  "description": "Expansion of e.g.f. log(1+x)/exp(sin(x)).",
   "id": "A009436",
-  "mentions": [],
+  "mentions": [
+    "A009405",
+    "A009420",
+    "A009422",
+    "A009435",
+    "A009437",
+    "A009439"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

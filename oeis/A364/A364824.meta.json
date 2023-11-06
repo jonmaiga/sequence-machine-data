@@ -1,0 +1,16 @@
+{
+  "description": "Index of prime(n) in A067836, or -1 if prime(n) does not occur in it.",
+  "id": "A364824",
+  "mentions": [
+    "A062894",
+    "A067836"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = LCM of pairwise products of distinct integers from {1,2,...,n}.",
+  "id": "A366368",
+  "mentions": [
+    "A003418",
+    "A139550",
+    "A366369"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

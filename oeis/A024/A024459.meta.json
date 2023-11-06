@@ -1,7 +1,10 @@
 {
-  "description": "s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = (Fibonacci numbers), t = (Lucas numbers).",
+  "description": "a(n) = s(1)*t(n) + s(2)*t(n-1) + ... + s(k)*t(n+1-k), where k = [ (n+1)/2 ], s = (Fibonacci numbers), t = (Lucas numbers).",
   "id": "A024459",
-  "mentions": [],
+  "mentions": [
+    "A000032",
+    "A000045"
+  ],
   "tags": [
     "formulas",
     "nonn"

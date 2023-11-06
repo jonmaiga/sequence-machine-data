@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. 2*arctan(1+x) - Pi/2.",
+  "description": "Expansion of e.g.f. 2*arctan(1+x) - Pi/2.",
   "id": "A217260",
   "mentions": [
     "A000111",

@@ -8,13 +8,13 @@
     "A066346"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the index of the n-th term of A365876 that includes at least one equation with at least one integer solution.",
+  "id": "A365892",
+  "mentions": [
+    "A266257",
+    "A364384",
+    "A364385",
+    "A365876",
+    "A365877"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

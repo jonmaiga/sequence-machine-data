@@ -1,5 +1,5 @@
 {
-  "description": "6*phi(n) = 5*sigma(n).",
+  "description": "Numbers k such that 6*phi(k) = 5*sigma(k).",
   "id": "A065823",
   "mentions": [
     "A000010",

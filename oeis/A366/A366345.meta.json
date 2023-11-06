@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of y such that Gamma(A364821 + i*sqrt(1-A364821^2)) = -y*i.",
+  "id": "A366345",
+  "mentions": [
+    "A090986",
+    "A212877",
+    "A212878",
+    "A212879",
+    "A212880",
+    "A364355",
+    "A364356",
+    "A364821",
+    "A365317",
+    "A365318"
+  ],
+  "tags": [
+    "cons",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

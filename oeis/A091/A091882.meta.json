@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-10x)/(1-15x).",
+  "description": "Expansion of g.f. (1-10x)/(1-15x).",
   "id": "A091882",
   "mentions": [
     "A091881"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "joeis"
   }
 }

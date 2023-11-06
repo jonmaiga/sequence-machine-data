@@ -1,0 +1,26 @@
+{
+  "description": "G.f. satisfies A(x) = (1 + x) * (1 + x/A(x)).",
+  "id": "A366325",
+  "mentions": [
+    "A000108",
+    "A002212",
+    "A073157",
+    "A112478",
+    "A364336",
+    "A364337",
+    "A364338",
+    "A364339",
+    "A366326",
+    "A366327",
+    "A366328"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

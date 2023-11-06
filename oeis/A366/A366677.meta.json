@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x^4 + x*A(x)^4.",
+  "id": "A366677",
+  "mentions": [
+    "A176697",
+    "A366267",
+    "A366558",
+    "A366676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

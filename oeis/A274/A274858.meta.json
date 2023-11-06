@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with no element equal to any value at offset (-1,0) (0,-1) or (-2,-2) and new values introduced in order 0..2.",
+  "description": "T(n,k) = Number of n X k 0..2 arrays with no element equal to any value at offset (-1,0) (0,-1) or (-2,-2) and new values introduced in order 0..2.",
   "id": "A274858",
   "mentions": [
     "A000079",

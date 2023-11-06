@@ -1,0 +1,19 @@
+{
+  "description": "Gilbreath transform of semiprimes (A001358).",
+  "id": "A365939",
+  "mentions": [
+    "A001358",
+    "A131749",
+    "A196251",
+    "A361897",
+    "A362451"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

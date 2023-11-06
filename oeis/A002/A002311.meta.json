@@ -1,5 +1,5 @@
 {
-  "description": "n-th tetrahedral number is the sum of 2 tetrahedral numbers.",
+  "description": "Numbers k such that the k-th tetrahedral number is the sum of 2 tetrahedral numbers.",
   "id": "A002311",
   "mentions": [
     "A000292",

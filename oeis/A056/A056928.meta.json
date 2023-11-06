@@ -1,5 +1,5 @@
 {
-  "description": "Average of smallest prime greater than n^2 and largest prime less than n^2.",
+  "description": "Average of the smallest prime greater than n^2 and the largest prime less than n^2.",
   "id": "A056928",
   "mentions": [
     "A000290",

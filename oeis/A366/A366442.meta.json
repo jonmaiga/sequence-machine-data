@@ -1,0 +1,28 @@
+{
+  "description": "The sum of divisors of the 5-rough numbers (A007310).",
+  "id": "A366442",
+  "mentions": [
+    "A000203",
+    "A007310",
+    "A008438",
+    "A013661",
+    "A062822",
+    "A065764",
+    "A100044",
+    "A180114",
+    "A362986",
+    "A366439",
+    "A366440",
+    "A366441"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

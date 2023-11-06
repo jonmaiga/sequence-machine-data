@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x * A(x)^(9/2)) / (1 - x).",
+  "id": "A366402",
+  "mentions": [
+    "A366400",
+    "A366401",
+    "A366403",
+    "A366404",
+    "A366405",
+    "A366406",
+    "A366407"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

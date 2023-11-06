@@ -1,5 +1,5 @@
 {
-  "description": "Even numbers n such that { n-p ; p prime, 2 < p < n/2 } contains at least twice as much primes than composites.",
+  "description": "Even numbers n such that { n-p ; p prime, 2 < p < n/2 } contains at least twice as many primes as composites.",
   "id": "A161562",
   "mentions": [],
   "tags": [

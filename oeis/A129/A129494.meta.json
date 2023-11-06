@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that 4^n (mod n) is a power of 4 greater than 1.",
+  "description": "Composite numbers k such that 4^k mod k is a power of 4 greater than 1.",
   "id": "A129494",
   "mentions": [
     "A036236",

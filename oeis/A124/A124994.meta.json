@@ -2,7 +2,8 @@
   "description": "Number of base 31 circular n-digit numbers with adjacent digits differing by 2 or less.",
   "id": "A124994",
   "mentions": [
-    "A005191"
+    "A005191",
+    "A285280"
   ],
   "tags": [
     "base",

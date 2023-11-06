@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(n, A356867(n)), where A356867 is Sycamore's Doudna variant D(3).",
+  "id": "A365463",
+  "mentions": [
+    "A007949",
+    "A011655",
+    "A356867",
+    "A364500",
+    "A364957",
+    "A365462",
+    "A365464",
+    "A365465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

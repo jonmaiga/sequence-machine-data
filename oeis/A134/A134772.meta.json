@@ -1,5 +1,5 @@
 {
-  "description": "Let f(M,N)=2^(-M)*sum_{i=0..N} {(-1)^{i}M!N!(2M-2i)!}/{i!(M-i)!(N-i)!6^{N-i}}; then a(n) = f(2n,n).",
+  "description": "Let f(m, n) = 2^(-m) * Sum_{j=0..n} (-1)^j*m!*n!*(2*m-2*j)!/(j!*(m-j)! *(n-j)!*6^(n-j)) then a(n) = f(2n,n).",
   "id": "A134772",
   "mentions": [
     "A132202",
@@ -9,11 +9,12 @@
     "A152296"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

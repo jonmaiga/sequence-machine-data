@@ -1,13 +1,17 @@
 {
-  "description": "Expansion of Product (1-x^k )^44.",
+  "description": "Expansion of Product_{k>=1} (1-x^k)^44.",
   "id": "A010838",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A286354"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

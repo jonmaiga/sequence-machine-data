@@ -1,10 +1,12 @@
 {
-  "description": "Numerators of a Taylor series expansion of 1/sqrt(cosh(x)).",
+  "description": "Numerators of a Taylor series expansion of 1/sqrt(cosh(x)) (even powers only).",
   "id": "A190195",
   "mentions": [
+    "A186491",
     "A190196"
   ],
   "tags": [
+    "formulas",
     "frac",
     "sign"
   ],

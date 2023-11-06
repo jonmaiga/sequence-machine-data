@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the divisors of A000129(n) (Pell numbers).",
+  "id": "A363829",
+  "mentions": [
+    "A000129",
+    "A000203",
+    "A272040",
+    "A363831",
+    "A363833",
+    "A364818",
+    "A364820"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

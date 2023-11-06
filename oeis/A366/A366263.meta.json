@@ -1,0 +1,31 @@
+{
+  "description": "Doudna sequence permuted by Blue code: a(n) = A005940(1+A193231(n)).",
+  "id": "A366263",
+  "mentions": [
+    "A001222",
+    "A005940",
+    "A046523",
+    "A055396",
+    "A193231",
+    "A234022",
+    "A268389",
+    "A277818",
+    "A286601",
+    "A286602",
+    "A332450",
+    "A365810",
+    "A366260",
+    "A366264",
+    "A366275"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

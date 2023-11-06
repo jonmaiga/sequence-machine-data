@@ -1,0 +1,21 @@
+{
+  "description": "The sum of divisors of the smallest square divisible by n.",
+  "id": "A365346",
+  "mentions": [
+    "A000203",
+    "A053143",
+    "A365345",
+    "A365347"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

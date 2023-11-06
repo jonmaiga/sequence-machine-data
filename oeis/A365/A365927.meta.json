@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of arccosh(e).",
+  "id": "A365927",
+  "mentions": [
+    "A001113",
+    "A073743",
+    "A085660",
+    "A188739",
+    "A334400",
+    "A366599"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

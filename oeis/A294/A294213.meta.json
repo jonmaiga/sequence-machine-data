@@ -2,9 +2,11 @@
   "description": "E.g.f.: exp(1/((1-x)*(1-x^2)) - 1).",
   "id": "A294213",
   "mentions": [
+    "A047974",
     "A294212"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

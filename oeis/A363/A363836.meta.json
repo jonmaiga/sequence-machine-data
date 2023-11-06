@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest number m such that digitsum(m^n) < digitsum(m), or -1 if no such m exists.",
+  "id": "A363836",
+  "mentions": [
+    "A007953",
+    "A064209",
+    "A064399",
+    "A122484",
+    "A261439"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

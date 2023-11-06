@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number k such that k*n is an exponentially squarefree number (A209061).",
+  "id": "A365685",
+  "mentions": [
+    "A081221",
+    "A209061",
+    "A365684"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

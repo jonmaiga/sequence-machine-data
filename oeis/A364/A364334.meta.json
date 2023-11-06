@@ -1,0 +1,16 @@
+{
+  "description": "a(2) = 0; a(n) = a(n-1) + 1 if n is an odd prime; otherwise a(n) = max{a(k) : k is divisor of n, 1 < k < n}.",
+  "id": "A364334",
+  "mentions": [
+    "A364332"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

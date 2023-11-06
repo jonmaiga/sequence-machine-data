@@ -1,10 +1,8 @@
 {
-  "description": "If A_k denotes the first 2*3^k terms, then A_0 = 01, A_{k+1} = A_k A_k B_k, where B_k is obtained from A_k by interchanging 0's and 1's.",
+  "description": "If A_k denotes the first 2*3^k terms, then A_0 = 01, A_{k+1} = A_k A_k B_k, where B_k is the reversal of A_k.",
   "id": "A285196",
   "mentions": [
-    "A010060",
-    "A064990",
-    "A282317"
+    "A118006"
   ],
   "tags": [
     "nonn"

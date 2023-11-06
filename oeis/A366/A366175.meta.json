@@ -1,0 +1,18 @@
+{
+  "description": "The number of lit cells in weakly decreasing partitions of n when light shines from the north west and only the first column is lit. Here partitions are represented from left to right by columns of cells.",
+  "id": "A366175",
+  "mentions": [
+    "A179862",
+    "A366069",
+    "A366157"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

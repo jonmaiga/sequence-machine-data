@@ -1,5 +1,5 @@
 {
-  "description": "d(n) = number of positive divisors k of n where mu(k) = 1 and mu(n/k) = -1.",
+  "description": "a(n) = number of positive divisors k of n where mu(k) = 1 and mu(n/k) = -1.",
   "id": "A093318",
   "mentions": [
     "A008683"

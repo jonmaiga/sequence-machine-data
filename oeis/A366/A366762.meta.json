@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose canonical prime factorization contains only exponents which are congruent to 1 modulo 3.",
+  "id": "A366762",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A002117",
+    "A065465",
+    "A182120",
+    "A197680",
+    "A253905",
+    "A268335",
+    "A274034",
+    "A330523",
+    "A361177",
+    "A366761"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

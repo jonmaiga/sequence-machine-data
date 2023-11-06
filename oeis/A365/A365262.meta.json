@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k which never require the maximum number of steps for the Euclidean algorithm to compute gcd(k,m) for any m > k.",
+  "id": "A365262",
+  "mentions": [
+    "A034883",
+    "A051010",
+    "A364405"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

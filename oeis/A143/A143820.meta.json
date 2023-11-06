@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the constant 1/1! + 1/4! + 1/7! + ... = 1.04186 53550 98909 ... .",
+  "description": "Decimal expansion of the constant 1/1! + 1/4! + 1/7! + ...",
   "id": "A143820",
   "mentions": [
     "A073742",

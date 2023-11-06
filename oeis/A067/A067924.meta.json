@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) in which n-th row gives degrees of irreducible representations of symmetric group S_n. (cf. A060240) but now rows are sorted as indicated in A059797 with p(n) entries on each row, where p(n) = A000041(n).",
+  "description": "Triangle read by rows in which the n-th row gives degrees of irreducible representations of symmetric group S_n (cf. A060240) but now rows are sorted as indicated in A059797 with p(n) terms on each row, where p(n) = A000041(n).",
   "id": "A067924",
   "mentions": [
     "A000041",

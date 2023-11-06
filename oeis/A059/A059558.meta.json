@@ -2,10 +2,12 @@
   "description": "Beatty sequence for 1 + 1/gamma^2.",
   "id": "A059558",
   "mentions": [
-    "A059557"
+    "A059557",
+    "A098907"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

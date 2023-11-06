@@ -2,7 +2,8 @@
   "description": "Number of powers x^y (x,y > 1) with n digits.",
   "id": "A060298",
   "mentions": [
-    "A001597"
+    "A001597",
+    "A089580"
   ],
   "tags": [
     "base",

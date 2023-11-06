@@ -1,0 +1,16 @@
+{
+  "description": "Integers k such that (2^(k+3)-2^k-1)/5 is prime.",
+  "id": "A366171",
+  "mentions": [
+    "A366172"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

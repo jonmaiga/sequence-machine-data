@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1/(1 - x/(1 - x*A(x))^2)^4.",
+  "description": "G.f. satisfies A(x) = 1/(1 - x/(1 - x*A(x))^2)^4.",
   "id": "A349021",
   "mentions": [
     "A006013",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

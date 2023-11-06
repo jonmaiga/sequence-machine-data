@@ -1,0 +1,19 @@
+{
+  "description": "Number of free polyominoids with n cells, allowing right-angled corner-connections.",
+  "id": "A365999",
+  "mentions": [
+    "A365995",
+    "A366000",
+    "A366766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

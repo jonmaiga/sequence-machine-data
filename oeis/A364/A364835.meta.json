@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n+1) = (number of times a(n)+1 has appeared) - (number of times a(n) has appeared).",
+  "id": "A364835",
+  "mentions": [
+    "A329934",
+    "A330004"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,15 +1,16 @@
 {
-  "description": "A triangular sequence from the omega(5) Jacobian Elliptic Modular equation.",
+  "description": "Triangle, T(n, k) = k^6 - n^6 - 5*(n*k)^2*(n^2 - k^2) + 4*n*k*((n*k)^4 - 1), read by rows.",
   "id": "A123964",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "sign",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

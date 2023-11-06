@@ -1,18 +1,23 @@
 {
-  "description": "Square table T(n,n) read by ascending antidiagonals: T(i,i)=i*i, if i>j T(i,j)=i*(i-1)+j, if j>i T(i,j)=(j-1)*(j-1)+i.",
+  "description": "Square array A(n,k) read by ascending antidiagonals: A(n,n) = n^2, if n>k: A(n,k) = n*(n-1) + k, if k>n: A(n,k) = n + (k-1)^2.",
   "id": "A108644",
   "mentions": [
     "A000290",
     "A002061",
-    "A002522"
+    "A002378",
+    "A002522",
+    "A005563",
+    "A033954",
+    "A274248"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

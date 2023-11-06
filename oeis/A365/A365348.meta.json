@@ -1,0 +1,21 @@
+{
+  "description": "The number of divisors of the smallest exponentially odd number divisible by n.",
+  "id": "A365348",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A356191",
+    "A365349"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

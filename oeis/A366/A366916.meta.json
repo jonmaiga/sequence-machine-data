@@ -1,0 +1,14 @@
+{
+  "description": "Maximum number of codewords in a binary Herbert code of length n that corrects two deletions.",
+  "id": "A366916",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

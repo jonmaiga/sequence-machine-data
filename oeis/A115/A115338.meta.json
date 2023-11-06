@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=F([sqrt(n)]), where [k]=integer part of k and F(n) is the Fibonacci sequence.",
+  "description": "a(n) = Fibonacci(floor(sqrt(n))).",
   "id": "A115338",
   "mentions": [
     "A000045",

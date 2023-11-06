@@ -1,7 +1,12 @@
 {
-  "description": "Expansion of e.g.f.: log(1+x)/exp(tanh(x)).",
+  "description": "Expansion of e.g.f. log(1+x)/exp(tanh(x)).",
   "id": "A009439",
-  "mentions": [],
+  "mentions": [
+    "A009405",
+    "A009420",
+    "A009422",
+    "A009438"
+  ],
   "tags": [
     "easy",
     "sign"
@@ -9,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

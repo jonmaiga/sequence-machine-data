@@ -1,0 +1,19 @@
+{
+  "description": "O.g.f. A(x) satisfies: A(x) = 1 + x*Sum_{n>=0} 2^n * log( A(3^n*x) )^n / n!.",
+  "id": "A366226",
+  "mentions": [
+    "A132695",
+    "A156904",
+    "A156905",
+    "A181444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

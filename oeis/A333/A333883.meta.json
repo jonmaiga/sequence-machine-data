@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(Sum_{k>=0} x^(6*k + 1) / (6*k + 1)!).",
+  "description": "Expansion of e.g.f. exp(Sum_{k>=0} x^(6*k + 1) / (6*k + 1)!).",
   "id": "A333883",
   "mentions": [
     "A000110",
@@ -9,6 +9,7 @@
     "A333882"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

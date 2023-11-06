@@ -1,0 +1,14 @@
+{
+  "description": "A packing coloring for the one-way infinite path using only the first 8 prime numbers.",
+  "id": "A364874",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

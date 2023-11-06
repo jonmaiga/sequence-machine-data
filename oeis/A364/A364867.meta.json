@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the multiplicative order of 9 modulo p is (p-1)/2.",
+  "id": "A364867",
+  "mentions": [
+    "A019334",
+    "A105875",
+    "A105881",
+    "A216371"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

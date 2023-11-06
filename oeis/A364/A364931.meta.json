@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of the solution to 1 / (1 + e^(-x)) = x.",
+  "id": "A364931",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

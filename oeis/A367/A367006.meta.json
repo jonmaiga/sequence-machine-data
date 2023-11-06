@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct prime factors of n*2^n - 1.",
+  "id": "A367006",
+  "mentions": [
+    "A001221",
+    "A003261",
+    "A366899"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

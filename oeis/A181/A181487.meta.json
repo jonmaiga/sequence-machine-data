@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n < sum( d : d|n, d",
+  "description": "Numbers k such that Sum_{d|k, d k.",
   "id": "A181487",
   "mentions": [
+    "A000396",
+    "A005101",
     "A118372"
   ],
   "tags": [

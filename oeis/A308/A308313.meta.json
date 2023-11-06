@@ -2,7 +2,8 @@
   "description": "a(n) = Sum_{k=1..n} (-1)^(n-k) * k^n * floor(n/k).",
   "id": "A308313",
   "mentions": [
-    "A319194"
+    "A319194",
+    "A319649"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the absolute value of psi^(4)(1), the fourth derivative of the digamma function at 1.",
+  "id": "A365251",
+  "mentions": [
+    "A013661",
+    "A013663",
+    "A152648",
+    "A231535"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

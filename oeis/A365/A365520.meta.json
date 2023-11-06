@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1-factorizations of complete graph K_{2n} that all share one arbitrary pairing in common.",
+  "id": "A365520",
+  "mentions": [
+    "A000438",
+    "A001147"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

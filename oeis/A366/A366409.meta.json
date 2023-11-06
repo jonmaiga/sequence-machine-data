@@ -1,0 +1,16 @@
+{
+  "description": "Number of smooth convex lattice polygons with area n/2.",
+  "id": "A366409",
+  "mentions": [
+    "A127709",
+    "A187015"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

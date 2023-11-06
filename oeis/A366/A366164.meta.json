@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the absolute value of the imaginary part of the larger pair of the 4 complex roots of x^4 + x^2 + x + 1 = 0.",
+  "id": "A366164",
+  "mentions": [
+    "A366162",
+    "A366163"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

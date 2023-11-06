@@ -2,7 +2,8 @@
   "description": "Row sums of A185249.",
   "id": "A186232",
   "mentions": [
-    "A185249"
+    "A185249",
+    "A343032"
   ],
   "tags": [
     "nonn"

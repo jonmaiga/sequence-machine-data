@@ -1,5 +1,5 @@
 {
-  "description": "Unsigned matrix inverse of triangle A214398, as a triangle read by rows n>=1.",
+  "description": "Unsigned matrix inverse of triangle A214398, as a triangle read by rows n >= 1.",
   "id": "A215241",
   "mentions": [
     "A133316",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the average distance between two points in a regular tetrahedron of unit volume.",
+  "id": "A366019",
+  "mentions": [
+    "A073012"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

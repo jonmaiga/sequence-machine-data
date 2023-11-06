@@ -1,5 +1,5 @@
 {
-  "description": "Omit trailing zeros from factorial numbers.",
+  "description": "a(n) = n! with trailing zeros omitted.",
   "id": "A004154",
   "mentions": [
     "A000142",

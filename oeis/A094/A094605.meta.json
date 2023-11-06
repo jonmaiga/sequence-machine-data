@@ -1,9 +1,10 @@
 {
-  "description": "a(n) is the period length of the n-th diagonal, from the right, of Rule 30 (begun from an initial black cell).",
+  "description": "a(n) is the period of the n-th diagonal, from the right, of Rule 30 (begun from an initial black cell).",
   "id": "A094605",
   "mentions": [
     "A094604",
-    "A094606"
+    "A094606",
+    "A364773"
   ],
   "tags": [
     "nonn"

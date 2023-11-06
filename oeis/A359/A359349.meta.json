@@ -1,0 +1,17 @@
+{
+  "description": "The initial bits, written from left to right, in the 2-adic limit of the mod 2^e value of the odd factor of (2^e)!.",
+  "id": "A359349",
+  "mentions": [
+    "A000722",
+    "A067667"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,16 @@
 {
   "description": "Numbers obtained by reversing digits of factorial numbers.",
   "id": "A004192",
-  "mentions": [],
+  "mentions": [
+    "A004153"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "joeis"
   }
 }

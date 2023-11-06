@@ -1,5 +1,5 @@
 {
-  "description": "Define d(n,k) to be the number of '1' digits required to write out all the integers from 1 through k in base n. E.g. d(10,9)==1 (just '1'), d(10,10)==2 ('1' and '10'), d(10,11)== 4 ('1', '10' and '11'). Then a(n) is the first k >= 1 such that d(n,k) > k.",
+  "description": "Define d(n,k) to be the number of '1' digits required to write out all the integers from 1 through k in base n. E.g., d(10,9) = 1 (just '1'), d(10,10) = 2 ('1' and '10'), d(10,11) = 4 ('1', '10' and '11'). Then a(n) is the first k >= 1 such that d(n,k) > k.",
   "id": "A092175",
   "mentions": [
     "A062971"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

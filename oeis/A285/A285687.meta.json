@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n>0, n and a(n) differ and overlap.",
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n>0, n and a(n) differ and overlap in base 10 (in the sense of A262323).",
   "id": "A285687",
   "mentions": [
     "A262323"

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first odd prime p such that A000120((2^n-1)*p) = n * A000120(p).",
+  "id": "A365475",
+  "mentions": [
+    "A000120"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

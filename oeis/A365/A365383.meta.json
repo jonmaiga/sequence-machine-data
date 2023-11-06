@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n that can be linearly combined with nonnegative coefficients to obtain k.",
+  "id": "A365383",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A088314",
+    "A088528",
+    "A116861",
+    "A237668",
+    "A363225",
+    "A364345",
+    "A364350",
+    "A364839",
+    "A364913",
+    "A364915",
+    "A364916",
+    "A365073",
+    "A365311",
+    "A365320",
+    "A365376",
+    "A365378",
+    "A365381",
+    "A365382"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

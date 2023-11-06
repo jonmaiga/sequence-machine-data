@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet convolution of Dedekind psi function with reduced totient function.",
+  "id": "A365647",
+  "mentions": [
+    "A000040",
+    "A001615",
+    "A002322",
+    "A365648"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

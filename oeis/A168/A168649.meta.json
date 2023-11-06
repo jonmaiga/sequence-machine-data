@@ -2,7 +2,8 @@
   "description": "a(n) = (1/n)*Sum_{d|n} moebius(d)*2^(n^2/d).",
   "id": "A168649",
   "mentions": [
-    "A001037"
+    "A001037",
+    "A008683"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 12,
+    "source": "joeis"
   }
 }

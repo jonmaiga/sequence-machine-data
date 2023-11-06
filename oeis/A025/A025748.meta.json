@@ -1,5 +1,5 @@
 {
-  "description": "3rd order Patalan numbers (generalization of Catalan numbers).",
+  "description": "3rd-order Patalan numbers (generalization of Catalan numbers).",
   "id": "A025748",
   "mentions": [
     "A005130",

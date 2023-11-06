@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of triangular polygorials A006472.",
+  "id": "A363679",
+  "mentions": [
+    "A001113",
+    "A006472",
+    "A070910",
+    "A365077"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

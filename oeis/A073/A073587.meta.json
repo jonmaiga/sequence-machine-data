@@ -1,8 +1,10 @@
 {
-  "description": "a(n)=a(n-1)*2^n+1 where a(0)=1.",
+  "description": "a(n) = a(n-1)*2^n + 1 where a(0)=1.",
   "id": "A073587",
   "mentions": [
     "A000225",
+    "A006125",
+    "A117261",
     "A182104"
   ],
   "tags": [
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Mod[DivisorSigma[8k-4,n],n]=0 holds presumably for all k; that is (8k-4)-power-sums of divisors of n are divisible by n for all k.",
+  "description": "Numbers m such that DivisorSigma(8*k-4, m) mod m = 0 holds presumably for all k; that is, (8*k-4)-power-sums of divisors of m are divisible by m for all k.",
   "id": "A066291",
   "mentions": [
     "A066135",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

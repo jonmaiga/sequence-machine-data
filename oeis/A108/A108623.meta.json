@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies x = (A(x)-(A(x))^2)/(1-A(x)-(A(x))^2).",
+  "description": "G.f. satisfies x = A(x)*(1-A(x))/(1-A(x)-(A(x))^2).",
   "id": "A108623",
   "mentions": [
     "A039978",

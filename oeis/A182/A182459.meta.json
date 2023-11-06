@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n of initial person such that the n-th person survives in the duck-duck-goose game.",
+  "description": "a(n) is the number of initial persons such that the n-th person survives in the duck-duck-goose game.",
   "id": "A182459",
   "mentions": [
     "A081615"

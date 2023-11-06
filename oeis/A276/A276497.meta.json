@@ -1,10 +1,10 @@
 {
-  "description": "Maximum number of different possible residues of the division of prime(k) by primorial(n), with k such that prime(k) > primorial(n).",
+  "description": "Number of noncomposites in the reduced residue system of n-th primorial number, A002110(n).",
   "id": "A276497",
   "mentions": [
     "A000849",
-    "A048862",
-    "A276435"
+    "A002110",
+    "A048862"
   ],
   "tags": [
     "formulas",

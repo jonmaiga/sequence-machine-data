@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of distinct primes dividing n is divisible by the largest prime dividing n. Also n has exactly 3 distinct prime factors and n is squarefree.",
+  "description": "Numbers of the form 2*p*q where (p,q) is a twin prime pair.",
   "id": "A071142",
   "mentions": [
     "A000961",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

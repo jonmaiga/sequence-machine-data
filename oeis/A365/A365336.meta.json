@@ -1,0 +1,25 @@
+{
+  "description": "The sum of exponentially odd divisors of the square root of the largest square dividing n.",
+  "id": "A365336",
+  "mentions": [
+    "A000188",
+    "A001620",
+    "A005117",
+    "A033634",
+    "A065464",
+    "A069290",
+    "A295295",
+    "A365335"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

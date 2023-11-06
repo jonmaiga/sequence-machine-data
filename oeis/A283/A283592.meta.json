@@ -2,6 +2,7 @@
   "description": "Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 657\", based on the 5-celled von Neumann neighborhood.",
   "id": "A283592",
   "mentions": [
+    "A000225",
     "A283589",
     "A283590",
     "A283591"

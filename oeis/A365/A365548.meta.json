@@ -1,0 +1,17 @@
+{
+  "description": "Number of unigraphic graphs on n nodes that are connected.",
+  "id": "A365548",
+  "mentions": [
+    "A122423",
+    "A309757"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,14 @@
 {
-  "description": "a(1)=7; a(n)=floor((29+sum(a(1) to a(n-1)))/4).",
+  "description": "a(n) = 7 + floor((1 + Sum_{j=1..n-1} a(j))/4).",
   "id": "A120165",
   "mentions": [
     "A072493",
     "A073941",
-    "A112088"
+    "A112088",
+    "A120160",
+    "A120164",
+    "A120166",
+    "A120169"
   ],
   "tags": [
     "formulas",

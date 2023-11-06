@@ -1,5 +1,5 @@
 {
-  "description": "Fractal sequence which is left unchanged by interleaving it with the natural numbers, in such a way that each entry k of the sequence is followed by the next k not-yet-seen natural numbers.",
+  "description": "Fractal sequence which is left unchanged by interleaving it with the natural numbers, in such a way that each term k of the sequence is followed by the next k not-yet-seen natural numbers.",
   "id": "A363100",
   "mentions": [],
   "tags": [

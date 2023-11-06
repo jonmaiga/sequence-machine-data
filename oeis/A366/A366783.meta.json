@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of A000073(n) (tribonacci numbers).",
+  "id": "A366783",
+  "mentions": [
+    "A000073",
+    "A000203",
+    "A063477",
+    "A366780",
+    "A366781",
+    "A366782"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

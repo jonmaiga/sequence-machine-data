@@ -1,0 +1,25 @@
+{
+  "description": "The sum of divisors of the largest divisor of n that is a cubefull number (A036966).",
+  "id": "A366146",
+  "mentions": [
+    "A000203",
+    "A004709",
+    "A036966",
+    "A295294",
+    "A360540",
+    "A366076",
+    "A366145",
+    "A366148"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

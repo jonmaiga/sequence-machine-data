@@ -1,15 +1,14 @@
 {
-  "description": "A positive integer n is in this sequence if it has infinitely many multiples that have exactly n positive divisors each.",
+  "description": "Numbers k such that there are infinitely many multiples of k that have exactly k divisors.",
   "id": "A080756",
   "mentions": [
     "A013929"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 61,
     "source": "oeis-entry"
   }

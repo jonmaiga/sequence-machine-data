@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A000108(k) * A000009(k).",
+  "id": "A367101",
+  "mentions": [
+    "A000009",
+    "A000108",
+    "A356270",
+    "A367100"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

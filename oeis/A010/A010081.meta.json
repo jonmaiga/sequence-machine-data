@@ -1,5 +1,5 @@
 {
-  "description": "Weight distribution of extended Hamming code of length 32 (or 3rd order Reed-Muller code).",
+  "description": "Weight distribution of extended Hamming code of length 32 (or 3rd-order Reed-Muller code).",
   "id": "A010081",
   "mentions": [],
   "tags": [

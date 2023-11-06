@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A366275(n) - n, where A366275 is the Cat's tongue permutation.",
+  "id": "A366282",
+  "mentions": [
+    "A057889",
+    "A163511",
+    "A364258",
+    "A366275",
+    "A366277",
+    "A366283"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

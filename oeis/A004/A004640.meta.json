@@ -1,7 +1,9 @@
 {
-  "description": "Cubes written in base 11. (Next term contains a non-decimal character).",
+  "description": "Cubes written in base 11. (Next term contains a non-decimal character.)",
   "id": "A004640",
-  "mentions": [],
+  "mentions": [
+    "A000578"
+  ],
   "tags": [
     "base",
     "nonn"

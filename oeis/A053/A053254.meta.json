@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of the '3rd order' mock theta function nu(q)",
+  "description": "Coefficients of the '3rd-order' mock theta function nu(q).",
   "id": "A053254",
   "mentions": [
     "A000025",

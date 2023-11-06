@@ -1,0 +1,20 @@
+{
+  "description": "If the Sylow 2-subgroup of the multiplicative group modulo n is isomorphic to the direct product of (C_(2^i))^(e_i) for 1 <= i <= k, where C_m denotes the cyclic group of order m, then a(n) = Product_{i=1..k} prime(i)^(e_i).",
+  "id": "A364925",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A007814"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

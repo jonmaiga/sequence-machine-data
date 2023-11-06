@@ -2,8 +2,10 @@
   "description": "Square array, read by antidiagonals, where row n equals the crystal ball sequence for the A_n lattice.",
   "id": "A108625",
   "mentions": [
+    "A000012",
     "A003215",
     "A005258",
+    "A005408",
     "A005902",
     "A008288",
     "A008384",
@@ -27,7 +29,12 @@
     "A143007",
     "A145904",
     "A145905",
-    "A208675"
+    "A208675",
+    "A363867",
+    "A363868",
+    "A363869",
+    "A363870",
+    "A363871"
   ],
   "tags": [
     "formulas",

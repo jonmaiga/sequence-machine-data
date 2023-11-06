@@ -1,0 +1,19 @@
+{
+  "description": "Prime powers that are equal to the sum of the first k prime powers (not including 1) for some k.",
+  "id": "A364797",
+  "mentions": [
+    "A013918",
+    "A013921",
+    "A013932",
+    "A246655",
+    "A364796"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

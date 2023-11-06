@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^5 / (1 + x*A(x)^6).",
+  "id": "A365226",
+  "mentions": [
+    "A002293",
+    "A271469",
+    "A349361",
+    "A364759",
+    "A364866",
+    "A365218",
+    "A365225"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

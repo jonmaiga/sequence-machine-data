@@ -2,10 +2,14 @@
   "description": "Decimal expansion of e/Pi.",
   "id": "A061360",
   "mentions": [
+    "A000796",
+    "A001113",
+    "A007526",
     "A061382"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

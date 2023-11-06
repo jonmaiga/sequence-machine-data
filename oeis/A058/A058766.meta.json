@@ -2,6 +2,7 @@
   "description": "a(0) = 1, a(1) = 2; for n>=2 a(n) is the number of degree-n reducible polynomials over GF(2).",
   "id": "A058766",
   "mentions": [
+    "A000079",
     "A001037"
   ],
   "tags": [

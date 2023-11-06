@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) is the k-th iterate of the 5x+1 function started at n, with n >= 1 and k >= 0.",
+  "id": "A365991",
+  "mentions": [
+    "A185452",
+    "A347270",
+    "A365484",
+    "A365992"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

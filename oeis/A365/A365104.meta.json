@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct quintic residues x^5 (mod 5^n), x=0..5^n-1.",
+  "id": "A365104",
+  "mentions": [
+    "A023105",
+    "A046631",
+    "A195637",
+    "A365099",
+    "A365100",
+    "A365101",
+    "A365102"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

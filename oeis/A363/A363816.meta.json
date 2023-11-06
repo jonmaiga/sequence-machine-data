@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies A(x) = (1 + x/A(x))/(1 - x)^2.",
+  "id": "A363816",
+  "mentions": [
+    "A162477",
+    "A363817",
+    "A363818",
+    "A364629",
+    "A364630",
+    "A366356",
+    "A366363"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

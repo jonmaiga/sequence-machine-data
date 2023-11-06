@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of line intersections (including vertices) inside a regular n-gon after inscribing (always starting from the same point), for each proper divisor d_i of n greater than 1, a regular d_i-gon.",
+  "id": "A364838",
+  "mentions": [
+    "A006561",
+    "A007569",
+    "A032741",
+    "A364828",
+    "A364829",
+    "A364830"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

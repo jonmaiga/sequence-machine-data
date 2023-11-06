@@ -1,5 +1,5 @@
 {
-  "description": "Smallest possible number of sides of a regular polygon with unit sides and circumradius n.",
+  "description": "Smallest possible number of sides of a regular polygon with unit sides and circumradius at least n.",
   "id": "A277690",
   "mentions": [
     "A004082",

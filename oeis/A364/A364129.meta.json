@@ -1,0 +1,19 @@
+{
+  "description": "Order of Aut^3(C_n) = Aut(Aut(Aut(C_n))), where C_n is the cyclic group of order n.",
+  "id": "A364129",
+  "mentions": [
+    "A000010",
+    "A258615",
+    "A364917",
+    "A364944"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,15 +2,20 @@
   "description": "Number of unitary prime divisors of n whose prime index is even.",
   "id": "A345375",
   "mentions": [
-    "A056169"
+    "A000720",
+    "A005117",
+    "A056169",
+    "A324967",
+    "A345374"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

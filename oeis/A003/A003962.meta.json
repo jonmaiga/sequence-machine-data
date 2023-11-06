@@ -1,11 +1,13 @@
 {
-  "description": "Completely multiplicative with a(p(k)) = floor( (p(k+1)+1)/2 ) for k-th prime p(k).",
+  "description": "Completely multiplicative with a(prime(k)) = floor( (prime(k+1)+1)/2 ) for k-th prime prime(k).",
   "id": "A003962",
   "mentions": [
     "A000040",
-    "A000720"
+    "A000720",
+    "A151800"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

@@ -1,7 +1,9 @@
 {
   "description": "Digits of first n base 10 palindromes.",
   "id": "A113230",
-  "mentions": [],
+  "mentions": [
+    "A002113"
+  ],
   "tags": [
     "base",
     "nonn"

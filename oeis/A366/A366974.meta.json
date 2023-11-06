@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Sum_{k >=1} x^(2*k)/(1-x^k)^(k+1).",
+  "id": "A366974",
+  "mentions": [
+    "A081543",
+    "A318636",
+    "A366975"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

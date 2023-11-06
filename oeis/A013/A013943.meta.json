@@ -1,5 +1,5 @@
 {
-  "description": "Length of period of continued fraction for sqrt(m), m = n-th nonsquare.",
+  "description": "Period of continued fraction for sqrt(m), m = n-th nonsquare.",
   "id": "A013943",
   "mentions": [
     "A003285",

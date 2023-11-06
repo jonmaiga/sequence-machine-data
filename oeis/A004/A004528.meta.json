@@ -1,7 +1,9 @@
 {
-  "description": "Ratios of successive terms are 1,2,2,2,3,4,4,4,5,6,6,6,7...",
+  "description": "Ratios of successive terms are 1,2,2,2,3,4,4,4,5,6,6,6,7,...",
   "id": "A004528",
-  "mentions": [],
+  "mentions": [
+    "A004524"
+  ],
   "tags": [
     "nonn"
   ],

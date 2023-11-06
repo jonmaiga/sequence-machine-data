@@ -1,5 +1,5 @@
 {
-  "description": "Values x for records of minima of positive distance d between a square of integer y and a fifth power of positive integer x such that d = y^2 - x^5 (x<>k^2 and y<>k^5).",
+  "description": "Values x for record minima of the positive distance d between the square of an integer y and the fifth power of a positive integer x such that d = y^2 - x^5 (x <> k^2 and y <> k^5).",
   "id": "A198444",
   "mentions": [
     "A179406",

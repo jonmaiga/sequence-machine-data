@@ -1,0 +1,27 @@
+{
+  "description": "The number of divisors of the cubefree part of n (A360539).",
+  "id": "A366147",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A004709",
+    "A036966",
+    "A056671",
+    "A360539",
+    "A366077",
+    "A366078",
+    "A366145",
+    "A366148"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. x^3/(1-x-x^2-x^3)^2.",
+  "id": "A365330",
+  "mentions": [
+    "A000073",
+    "A000142",
+    "A073778",
+    "A189886",
+    "A364324",
+    "A364422"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

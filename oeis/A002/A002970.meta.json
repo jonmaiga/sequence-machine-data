@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4*n^2 + 9 is prime.",
+  "description": "Numbers k such that 4*k^2 + 9 is prime.",
   "id": "A002970",
   "mentions": [],
   "tags": [

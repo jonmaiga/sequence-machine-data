@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x) / (1 - x^4*A(x)^5).",
+  "id": "A365758",
+  "mentions": [
+    "A023427",
+    "A112805",
+    "A212384",
+    "A215342",
+    "A365245",
+    "A365760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

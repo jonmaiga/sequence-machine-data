@@ -1,0 +1,15 @@
+{
+  "description": "O.g.f. A(x) satisfies: Sum_{n>=0} (-1)^n * log((1 - 2^n*x)*A(x))^n / n! = 1.",
+  "id": "A365776",
+  "mentions": [
+    "A306062"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

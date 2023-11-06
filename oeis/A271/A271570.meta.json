@@ -2,9 +2,11 @@
   "description": "Number of distinct eigenvalues of n X n matrices with elements {-1, 0, +1}.",
   "id": "A271570",
   "mentions": [
+    "A060722",
     "A272658"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"

@@ -1,0 +1,17 @@
+{
+  "description": "List of free polyplets in binary code (as defined in A246521), ordered first by number of bits, then by value of the binary code.",
+  "id": "A364927",
+  "mentions": [
+    "A030222",
+    "A246521"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

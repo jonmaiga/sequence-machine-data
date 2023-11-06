@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0, a(1) = 1. let i = a(n-2) and j = a(n-1), then if i,j have a digit in common a(n) is the least novel number having no digit in common with either i or j. If i,j have no common digit, a(n) is the least novel number having a digit in common with at least one of i or j. All digits are decimal.",
+  "id": "A365625",
+  "mentions": [
+    "A001477"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

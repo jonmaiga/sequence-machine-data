@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 7(10^n - 1)/9.",
+  "description": "a(n) = 7*(10^n - 1)/9.",
   "id": "A002281",
   "mentions": [
     "A002275",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

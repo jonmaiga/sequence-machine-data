@@ -1,5 +1,5 @@
 {
-  "description": "A065824(1+A047845(n)).",
+  "description": "a(n) = A065824(A047845(n+1)).",
   "id": "A065884",
   "mentions": [
     "A000010",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

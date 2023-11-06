@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k such that the fourth derivative of the k-th Bernoulli polynomial B(k, x) contains only integer coefficients.",
+  "id": "A366187",
+  "mentions": [
+    "A094960",
+    "A324370",
+    "A366169",
+    "A366186",
+    "A366188",
+    "A366189"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

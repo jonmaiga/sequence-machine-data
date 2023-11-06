@@ -1,0 +1,17 @@
+{
+  "description": "Write down the positive integers. To obtain the terms of the sequence, concatenate groups of these so the first digit of each term is the number of consecutive numbers that are concatenated.",
+  "id": "A366585",
+  "mentions": [
+    "A053067",
+    "A366610"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

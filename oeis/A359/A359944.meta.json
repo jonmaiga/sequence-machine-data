@@ -1,5 +1,5 @@
 {
-  "description": "Number of divisors d of n such that d-1 is cube.",
+  "description": "Number of divisors d of n such that d-1 is a cube.",
   "id": "A359944",
   "mentions": [
     "A001093",

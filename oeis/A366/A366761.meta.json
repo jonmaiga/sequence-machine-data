@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that have at least one exponent in their canonical prime factorization that is divisible by 3.",
+  "id": "A366761",
+  "mentions": [
+    "A000578",
+    "A002117",
+    "A182120",
+    "A366762"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

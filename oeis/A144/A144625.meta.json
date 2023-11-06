@@ -1,7 +1,8 @@
 {
-  "description": "List of triples (i,j,k) (i>=0, j>=0, k>= 0) in canonical order used to convert an infinite tetrahedron of numbers to a linear sequence.",
+  "description": "List of triples (i,j,k) (i>=0, j>=0, k>=0) in canonical order used to convert an infinite tetrahedron of numbers to a linear sequence.",
   "id": "A144625",
   "mentions": [
+    "A057556",
     "A144627",
     "A144629"
   ],

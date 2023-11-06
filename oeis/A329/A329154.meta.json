@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of polynomials related to the sum of Gaussian binomial coefficients for q = 2. Triangle read by row, T(n,k) for 0 <= k <= n.",
+  "description": "Coefficients of polynomials related to the sum of Gaussian binomial coefficients for q = 2. Triangle read by rows, T(n,k) for 0 <= k <= n.",
   "id": "A329154",
   "mentions": [
     "A006116",

@@ -2,6 +2,7 @@
   "description": "Expansion of (1-25*x)^(-3/5).",
   "id": "A049381",
   "mentions": [
+    "A034688",
     "A049380",
     "A049382",
     "A049392",

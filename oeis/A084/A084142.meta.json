@@ -1,5 +1,5 @@
 {
-  "description": "There are a unique number of primes between a(n) and 2a(n). This is a list of all such integers > zero in numerical order.",
+  "description": "Positive numbers k such that the number of primes between k and 2*k is different from the number of primes between m and 2*m for every number m != k.",
   "id": "A084142",
   "mentions": [
     "A060715",
@@ -13,7 +13,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 44,
     "source": "oeis-entry"
   }

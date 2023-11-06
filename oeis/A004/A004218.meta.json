@@ -1,5 +1,5 @@
 {
-  "description": "log_10(n) rounded up.",
+  "description": "a(n) = log_10(n) rounded up.",
   "id": "A004218",
   "mentions": [
     "A004216",

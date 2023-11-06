@@ -1,0 +1,21 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) is the parity of the k-th iterate of the 3x+1 function started at n, with n >= 1 and k >= 0.",
+  "id": "A365495",
+  "mentions": [
+    "A014682",
+    "A347283",
+    "A365484",
+    "A365992"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of convergent Boolean relation matrices on [n].",
+  "id": "A365534",
+  "mentions": [
+    "A002416",
+    "A070322"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

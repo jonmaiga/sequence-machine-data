@@ -16,12 +16,13 @@
     "A308121"
   ],
   "tags": [
+    "look",
     "sign",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

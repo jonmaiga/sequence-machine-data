@@ -1,0 +1,25 @@
+{
+  "description": "Variant of bijective bit-reverse of n (A057889) for which it holds that a(n) == n (mod 3).",
+  "id": "A366389",
+  "mentions": [
+    "A010872",
+    "A030101",
+    "A057889",
+    "A073675",
+    "A118967",
+    "A366378",
+    "A366379",
+    "A366390",
+    "A366392"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x) / (1 - x^3*A(x)^4).",
+  "id": "A365756",
+  "mentions": [
+    "A023432",
+    "A063019",
+    "A212383",
+    "A365243",
+    "A365757"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

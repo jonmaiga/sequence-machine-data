@@ -2,16 +2,19 @@
   "description": "Half length of periodic part of decimal expansion of 1/p for those primes having a periodic part of even length.",
   "id": "A087000",
   "mentions": [
+    "A001271",
     "A002371",
     "A028416",
     "A049084",
     "A055642",
+    "A062397",
     "A086999",
     "A087001",
     "A087002"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

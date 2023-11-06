@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that has a common factor with A008472(a(n-1)), the sum of the distinct primes dividing a(n-1).",
+  "id": "A365060",
+  "mentions": [
+    "A008472",
+    "A300813",
+    "A365059"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n with nonzero digits such that n +/- the product of digits of n are both palindromes.",
+  "description": "Numbers k with nonzero digits such that k +/- the product of digits of k are both palindromes.",
   "id": "A244547",
   "mentions": [
+    "A002113",
     "A007954",
+    "A052382",
     "A244541"
   ],
   "tags": [

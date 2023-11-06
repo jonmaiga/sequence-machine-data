@@ -1,5 +1,5 @@
 {
-  "description": "Sum of prime divisors of n is congruent to 2^n (mod n).",
+  "description": "Numbers k such that the sum of prime divisors of k is congruent to 2^k (mod k).",
   "id": "A051423",
   "mentions": [],
   "tags": [

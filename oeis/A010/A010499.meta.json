@@ -2,11 +2,15 @@
   "description": "Decimal expansion of square root of 45.",
   "id": "A010499",
   "mentions": [
+    "A001622",
     "A002163",
-    "A010135"
+    "A010135",
+    "A020802",
+    "A248271"
   ],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose median of the digits is equal to 8.",
+  "id": "A366214",
+  "mentions": [
+    "A292730",
+    "A292739",
+    "A366207",
+    "A366208",
+    "A366209",
+    "A366210",
+    "A366211",
+    "A366212",
+    "A366213"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

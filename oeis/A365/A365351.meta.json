@@ -1,0 +1,19 @@
+{
+  "description": "Exponents e such that the aliquot sequence starting with 2^e ends with a prime number at index 2.",
+  "id": "A365351",
+  "mentions": [
+    "A000043",
+    "A001065",
+    "A037020"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

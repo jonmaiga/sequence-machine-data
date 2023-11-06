@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 7*3^n.",
   "id": "A005032",
-  "mentions": [],
+  "mentions": [
+    "A000244"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*(n+1)*(n+2)*a(n-1)/6 for n >= 2; a(1) = 1.",
+  "description": "a(n) = n*(n+1)*(n+2)*a(n-1)/6 for n >= 1; a(0) = 1.",
   "id": "A087047",
   "mentions": [
     "A000217",
@@ -12,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 14,
-    "source": "joeis"
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
   }
 }

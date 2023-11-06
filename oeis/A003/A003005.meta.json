@@ -1,5 +1,5 @@
 {
-  "description": "Size of the largest subset of the numbers [1...n] which doesn't contain a 6-term arithmetic progression.",
+  "description": "Size of the largest subset of the numbers [1..n] which doesn't contain a 6-term arithmetic progression.",
   "id": "A003005",
   "mentions": [
     "A003002",

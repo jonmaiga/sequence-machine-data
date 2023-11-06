@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = (1 + x/A(x))/(1 - x)^3.",
+  "id": "A363817",
+  "mentions": [
+    "A363816",
+    "A366363"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

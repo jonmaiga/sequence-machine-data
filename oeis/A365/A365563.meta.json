@@ -1,0 +1,22 @@
+{
+  "description": "Number of free n-polysticks (or polyedges) in 5 dimensions.",
+  "id": "A365563",
+  "mentions": [
+    "A019988",
+    "A365559",
+    "A365561",
+    "A365564",
+    "A365565",
+    "A365566"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

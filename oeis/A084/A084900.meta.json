@@ -1,5 +1,5 @@
 {
-  "description": "3^(n-2)n(5n+1)/2.",
+  "description": "a(n) = 3^(n-2)*n*(5*n+1)/2.",
   "id": "A084900",
   "mentions": [
     "A000566",

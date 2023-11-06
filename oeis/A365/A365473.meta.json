@@ -1,0 +1,20 @@
+{
+  "description": "Odd semiprimes p*q such that A000120(p)*A000120(q) = A000120(p*q).",
+  "id": "A365473",
+  "mentions": [
+    "A000120",
+    "A001358",
+    "A235040",
+    "A365451",
+    "A365475"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

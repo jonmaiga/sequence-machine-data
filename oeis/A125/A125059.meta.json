@@ -2,16 +2,19 @@
   "description": "Number of digits in n!!.",
   "id": "A125059",
   "mentions": [
-    "A034886"
+    "A006882",
+    "A034886",
+    "A055642"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 76,
-    "source": "oeis-entry"
+    "size": 77,
+    "source": "joeis"
   }
 }

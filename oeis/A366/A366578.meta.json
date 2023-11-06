@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of 3^n+1.",
+  "id": "A366578",
+  "mentions": [
+    "A000203",
+    "A024023",
+    "A034472",
+    "A075708",
+    "A366576",
+    "A366577"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

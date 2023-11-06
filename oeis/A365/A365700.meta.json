@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x^5*A(x)^3 / (1 - x*A(x)).",
+  "id": "A365700",
+  "mentions": [
+    "A212364",
+    "A365698",
+    "A365699",
+    "A365701",
+    "A365702"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "The smallest number k that has exactly n of its divisors in A005153.",
+  "id": "A364768",
+  "mentions": [
+    "A000005",
+    "A005153"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

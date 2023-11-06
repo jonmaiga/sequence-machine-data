@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which sum of squares of five consecutive primes starting with prime(n) is prime (A133559).",
+  "description": "Numbers k for which the sum of squares of five consecutive primes starting with prime(k) is prime (A133559).",
   "id": "A133557",
   "mentions": [
     "A133529",

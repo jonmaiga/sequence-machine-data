@@ -1,11 +1,13 @@
 {
-  "description": "Number of monomials in discriminant of symbolic polynomial of prime degree with all nonzero coefficients.",
+  "description": "a(n) = A007878(prime(n)).",
   "id": "A138788",
   "mentions": [
+    "A000040",
     "A007878",
     "A138787"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

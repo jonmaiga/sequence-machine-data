@@ -2,7 +2,8 @@
   "description": "Triangle T(i,j) such that Sum_{j=0..i} T(i,j)*x(i,j)/2^i = Sum_{k=0..i, j=0..k} x(k,j), if x(k-1,j) = (x(k,j) + x(k,j+1))/2.",
   "id": "A157933",
   "mentions": [
-    "A001788"
+    "A001788",
+    "A033504"
   ],
   "tags": [
     "formulas",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
-    "source": "joeis"
+    "size": 55,
+    "source": "oeis-entry"
   }
 }

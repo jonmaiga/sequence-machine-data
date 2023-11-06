@@ -1,0 +1,20 @@
+{
+  "description": "Greatest common divisor of the number of prime factors (counted with multiplicity, A001222) and the greatest prime index (A061395) of n.",
+  "id": "A366785",
+  "mentions": [
+    "A001222",
+    "A061395",
+    "A340608",
+    "A360614",
+    "A360615"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

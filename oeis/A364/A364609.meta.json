@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = greatest integer k such that 1/n + 1/(n + 1) + ... + 1/k < sqrt(2).",
+  "id": "A364609",
+  "mentions": [
+    "A001620",
+    "A136616",
+    "A357923",
+    "A363993"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

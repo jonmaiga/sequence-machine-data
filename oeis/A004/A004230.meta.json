@@ -1,7 +1,14 @@
 {
-  "description": "10000*log_10 (n) rounded up.",
+  "description": "a(n) = 10000*log_10(n) rounded up.",
   "id": "A004230",
-  "mentions": [],
+  "mentions": [
+    "A004218",
+    "A004221",
+    "A004224",
+    "A004227",
+    "A004228",
+    "A004239"
+  ],
   "tags": [
     "nonn"
   ],

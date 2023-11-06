@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that decimal expansion of k^3 contains k as a substring.",
+  "description": "Numbers k such that the decimal expansion of k^3 contains k as a substring.",
   "id": "A029942",
   "mentions": [
     "A000578",

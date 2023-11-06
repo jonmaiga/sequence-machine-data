@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n (between 2^(m-1) and 2^m) such that 2^(n-1) = 1 (mod n) and 2^(n-1-m) = n-2^p (mod n) for some p > 0 with 2^p < n.",
+  "description": "Numbers k (between 2^(m-1) and 2^m) such that 2^(k-1) == 1 (mod k) and 2^(k-1-m) == k - 2^p (mod k) for some p > 0 with 2^p < k.",
   "id": "A167612",
   "mentions": [],
   "tags": [

@@ -1,0 +1,32 @@
+{
+  "description": "Number of subsets of {1..n} containing n and some element equal to the sum of two distinct others.",
+  "id": "A364756",
+  "mentions": [
+    "A000079",
+    "A007865",
+    "A050291",
+    "A051026",
+    "A085489",
+    "A088809",
+    "A093971",
+    "A103580",
+    "A151897",
+    "A236912",
+    "A288728",
+    "A326080",
+    "A326083",
+    "A364272",
+    "A364534",
+    "A364755"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

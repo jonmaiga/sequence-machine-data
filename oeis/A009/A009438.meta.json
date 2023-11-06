@@ -1,7 +1,13 @@
 {
   "description": "Expansion of e.g.f. log(1+x)/exp(tan(x)).",
   "id": "A009438",
-  "mentions": [],
+  "mentions": [
+    "A009405",
+    "A009420",
+    "A009422",
+    "A009437",
+    "A009439"
+  ],
   "tags": [
     "easy",
     "formulas",

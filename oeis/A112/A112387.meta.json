@@ -1,9 +1,10 @@
 {
-  "description": "a(1)=1, a(2)=2, a(n)= 2^(n/2) if even and a(n-1)-a(n-2) if odd.",
+  "description": "a(n) = 2^(n/2) if n is even and a(n-1) - a(n-2) if n is odd, a(1) = 1.",
   "id": "A112387",
   "mentions": [
     "A000079",
-    "A001045"
+    "A001045",
+    "A135318"
   ],
   "tags": [
     "easy",
@@ -11,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 43,
+    "offset": 0,
+    "size": 45,
     "source": "oeis-bfile"
   }
 }

@@ -1,9 +1,10 @@
 {
-  "description": "n!*A001515(n-1) with a(0) = 1.",
+  "description": "a(n) = n!*A001515(n-1) with a(0) = 1.",
   "id": "A143990",
   "mentions": [
     "A001515",
-    "A105749"
+    "A105749",
+    "A144301"
   ],
   "tags": [
     "formulas",

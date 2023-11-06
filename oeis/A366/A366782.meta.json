@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of A000073(n) (tribonacci numbers).",
+  "id": "A366782",
+  "mentions": [
+    "A000005",
+    "A000073",
+    "A063375",
+    "A366780",
+    "A366781",
+    "A366783"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers that for some k >= 1 are also the sum of the first k noncomposite numbers (1 together with the primes).",
+  "id": "A364798",
+  "mentions": [
+    "A000217",
+    "A008578",
+    "A014284",
+    "A066527",
+    "A110996",
+    "A364799"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

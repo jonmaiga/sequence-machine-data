@@ -1,0 +1,21 @@
+{
+  "description": "For n >= 3, r >= 0, y an integer, a(n) is the number of integral solutions to the elliptic equation y^2 = n^3 + n^2 + 2*r*n + r^2.",
+  "id": "A364421",
+  "mentions": [
+    "A081119",
+    "A134108",
+    "A190300",
+    "A196226",
+    "A245685",
+    "A364248"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

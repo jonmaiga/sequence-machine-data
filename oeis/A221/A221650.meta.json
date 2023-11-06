@@ -1,5 +1,5 @@
 {
-  "description": "Tetrahedron P(n,j,k) = T(j,k)*p(n-j), where T(j,k) = 0 if k divides j otherwise 0.",
+  "description": "Tetrahedron P(n,j,k) = T(j,k)*p(n-j), where T(j,k) = 1 if k divides j otherwise 0.",
   "id": "A221650",
   "mentions": [
     "A000005",
@@ -20,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 84,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals: T(n, k) := (k/2)!/k! * ((2*n+1)*k)! * ((2*n+1/2)*k)! / ( (n*k)!^2 * ((n+1/2)*k)!^2 ) for n, k >= 0.",
+  "id": "A365025",
+  "mentions": [
+    "A275652",
+    "A276098",
+    "A364506",
+    "A364509",
+    "A364513",
+    "A364518",
+    "A365026",
+    "A365027"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

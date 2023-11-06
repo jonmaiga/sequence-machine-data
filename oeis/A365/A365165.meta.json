@@ -1,0 +1,21 @@
+{
+  "description": "Length of the perimeter of the regular 9-gon with unit circumradius.",
+  "id": "A365165",
+  "mentions": [
+    "A010487",
+    "A019845",
+    "A272488",
+    "A365163",
+    "A365164"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

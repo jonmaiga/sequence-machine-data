@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet inverse of A366283, where A366283(n) = gcd(n, A366275(n)).",
+  "id": "A366258",
+  "mentions": [
+    "A364257",
+    "A366259",
+    "A366275",
+    "A366283"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

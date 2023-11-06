@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of the '3rd order' mock theta function rho(q)",
+  "description": "Coefficients of the '3rd-order' mock theta function rho(q).",
   "id": "A053255",
   "mentions": [
     "A000025",

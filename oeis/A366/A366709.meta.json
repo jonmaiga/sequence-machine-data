@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of 12^n-1.",
+  "id": "A366709",
+  "mentions": [
+    "A000005",
+    "A024140",
+    "A366683",
+    "A366707",
+    "A366708",
+    "A366710"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

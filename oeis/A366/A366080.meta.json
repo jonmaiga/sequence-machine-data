@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that give a perfect power when added to their reverse.",
+  "id": "A366080",
+  "mentions": [
+    "A001597",
+    "A056964"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

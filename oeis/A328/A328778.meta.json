@@ -2,6 +2,7 @@
   "description": "Number of indecomposable closed walks of length 2n along the edges of a cube based at a vertex.",
   "id": "A328778",
   "mentions": [
+    "A025192",
     "A054879"
   ],
   "tags": [

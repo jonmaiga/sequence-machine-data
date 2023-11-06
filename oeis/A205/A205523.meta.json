@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that gcd(n, sigma(n)) = sigma(n) (mod n).",
+  "description": "Numbers k such that gcd(k, sigma(k)) == sigma(k) (mod k).",
   "id": "A205523",
   "mentions": [
     "A000040",

@@ -1,5 +1,5 @@
 {
-  "description": "Array: t(n,k) is the number of partitions p of n such that the number of distinct numbers in the intersection of p and its complement is k, for k >= 0, n >= 1.",
+  "description": "Array: t(n,k) is the number of partitions p of n such that the number of distinct numbers in the intersection of p and its conjugate is k, for k >= 0, n >= 1.",
   "id": "A240181",
   "mentions": [
     "A000041",

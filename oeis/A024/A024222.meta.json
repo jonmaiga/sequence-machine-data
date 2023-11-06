@@ -1,5 +1,5 @@
 {
-  "description": "Number of shuffles (perfect faro shuffles with cut) required to return a deck of size n to original order.",
+  "description": "Number of shuffles (perfect faro shuffles with cut) required to return a deck of size n to its original order.",
   "id": "A024222",
   "mentions": [
     "A002326",

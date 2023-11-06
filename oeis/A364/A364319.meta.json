@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (A077446(n) + 1)/2 for n >= 0.",
+  "id": "A364319",
+  "mentions": [
+    "A001109",
+    "A001541",
+    "A006452",
+    "A049310",
+    "A077446"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

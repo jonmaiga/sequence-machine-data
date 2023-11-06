@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2*sigma_2(k), where sigma_2 is A001157.",
+  "id": "A364268",
+  "mentions": [
+    "A000330",
+    "A001157",
+    "A356125",
+    "A364269"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

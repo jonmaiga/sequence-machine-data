@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest multiple of n that is a term of A072873.",
+  "id": "A365636",
+  "mentions": [
+    "A072873",
+    "A365637"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

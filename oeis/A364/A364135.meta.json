@@ -1,5 +1,5 @@
 {
-  "description": "For n >= 1, a(n) is the number of nonnegative integer solutions of the Diophantine equation d_r*x_r + ... + d_0*x_0 = n, d_i digits of n, integer x_i >= 0.",
+  "description": "Let d_r d_{r-1} ... d_1 d_0 be the decimal expansion of n; a(n) is the number of nonnegative integer solutions x_r ... x_0 to the Diophantine equation d_r*x_r + ... + d_0*x_0 = n.",
   "id": "A364135",
   "mentions": [
     "A007954",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 82,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

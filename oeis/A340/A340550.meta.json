@@ -1,10 +1,12 @@
 {
-  "description": "Number of main classes of doubly symmetric diagonal Latin squares of order n.",
+  "description": "Number of main classes of diagonal Latin squares of order n that contain a doubly symmetric square.",
   "id": "A340550",
   "mentions": [
     "A287650",
+    "A287764",
     "A292517",
-    "A340545"
+    "A340545",
+    "A340546"
   ],
   "tags": [
     "hard",

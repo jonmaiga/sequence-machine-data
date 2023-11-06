@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary expansion is not quasiperiodic.",
+  "id": "A366160",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000225",
+    "A320434",
+    "A320441"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

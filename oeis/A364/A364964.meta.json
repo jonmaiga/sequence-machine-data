@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k is a multiple of A243071(k).",
+  "id": "A364964",
+  "mentions": [
+    "A007283",
+    "A054429",
+    "A156552",
+    "A163511",
+    "A243071",
+    "A364494",
+    "A364497",
+    "A364550",
+    "A364965"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

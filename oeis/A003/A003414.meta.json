@@ -1,7 +1,10 @@
 {
-  "description": "Floor( Bernoulli(2*n)/(-4*n) ).",
+  "description": "a(n) = floor( Bernoulli(2*n)/(-4*n) ).",
   "id": "A003414",
-  "mentions": [],
+  "mentions": [
+    "A000367",
+    "A002445"
+  ],
   "tags": [
     "sign"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3^n-n^2.",
+  "description": "a(n) = 3^n - n^2.",
   "id": "A024025",
   "mentions": [
     "A000244",

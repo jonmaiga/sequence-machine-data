@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3^n - n is prime.",
+  "description": "Numbers k such that 3^k - k is prime.",
   "id": "A058037",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

@@ -1,14 +1,19 @@
 {
   "description": "Number of edge covers in the n-double cone graph.",
   "id": "A364741",
-  "mentions": [],
+  "mentions": [
+    "A000032",
+    "A206776",
+    "A297047"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 5,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

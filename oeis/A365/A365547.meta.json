@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of convergent Boolean relation matrices on [n] containing exactly k strongly connected components, n>=0, 0<=k<=n.",
+  "id": "A365547",
+  "mentions": [
+    "A003024",
+    "A070322",
+    "A365534"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,19 +1,20 @@
 {
-  "description": "n = (sum of digits of n)^(number of digits of n).",
+  "description": "Numbers k such that k = (sum of digits of k)^(number of digits of k).",
   "id": "A038178",
   "mentions": [
-    "A023106"
+    "A007953",
+    "A023106",
+    "A055642"
   ],
   "tags": [
     "base",
     "fini",
-    "formulas",
     "full",
     "nice",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 13,
     "source": "oeis-entry"
   }

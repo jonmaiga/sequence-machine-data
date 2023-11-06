@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number k such that k*n is a cubefull exponentially odd number (A335988).",
+  "id": "A365298",
+  "mentions": [
+    "A157292",
+    "A335988",
+    "A356192"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

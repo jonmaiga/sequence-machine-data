@@ -1,5 +1,5 @@
 {
-  "description": "Numbers to which can be congruent Mersenne primes 2^p-1 mod k! (for k>1)",
+  "description": "Numbers to which Mersenne primes 2^p-1 can be congruent mod k! (for k > 1).",
   "id": "A145038",
   "mentions": [
     "A000668",

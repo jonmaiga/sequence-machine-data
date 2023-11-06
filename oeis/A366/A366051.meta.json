@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x/(1-x+x^3) ).",
+  "id": "A366051",
+  "mentions": [
+    "A049128",
+    "A071879",
+    "A114997",
+    "A366052",
+    "A366053"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

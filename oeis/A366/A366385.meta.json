@@ -1,0 +1,24 @@
+{
+  "description": "Divide n by its largest prime factor, then multiply with the index of that same prime; a(1) = 0 by convention.",
+  "id": "A366385",
+  "mentions": [
+    "A000720",
+    "A006530",
+    "A052126",
+    "A061395",
+    "A109129",
+    "A196050",
+    "A324923",
+    "A366387",
+    "A366388"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

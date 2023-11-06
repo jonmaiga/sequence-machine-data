@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k such that A003961^i(k) = A356867(1+n) for some i >= 0, where A003961^i denotes the i-th iterate of prime shift, and A356867 is Sycamore's Doudna variant D(3).",
+  "id": "A365717",
+  "mentions": [
+    "A003961",
+    "A348717",
+    "A356867",
+    "A365718",
+    "A365719",
+    "A365721",
+    "A365722"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

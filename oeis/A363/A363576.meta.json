@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 6; for n > 2, a(n) is the smallest positive number that has not yet appeared such that a(n) has a common factor with a(n-1), has no common factor with a(n-2), while the difference |a(n) - a(n-1)| is distinct from all previous differences |a(i) - a(i-1)|, i=2..n-1.",
+  "id": "A363576",
+  "mentions": [
+    "A098550",
+    "A336957",
+    "A360519",
+    "A361102"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

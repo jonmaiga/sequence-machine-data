@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1-2*x^2)/(1-2*x-2*x^2).",
+  "description": "Expansion of g.f. (1-2*x^2)/(1-2*x-2*x^2).",
   "id": "A152035",
   "mentions": [
     "A028860",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 32,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

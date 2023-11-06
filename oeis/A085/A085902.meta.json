@@ -1,8 +1,11 @@
 {
-  "description": "a(1)=2, a(n) = smallest squarefree number >a(n-1) such that the sum a(n) +a(i) for all i = 1 to (n-1) is squarefree. Or sum of any two terms is a squarefree number.",
+  "description": "a(0) = 2, a(n) is the smallest squarefree number > a(n-1) such that the sum a(n) + a(i) for all i = 1 to (n-1) is squarefree. Or, sum of any two terms is a squarefree number.",
   "id": "A085902",
   "mentions": [
-    "A077224"
+    "A005117",
+    "A077224",
+    "A077225",
+    "A080793"
   ],
   "tags": [
     "nonn"
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

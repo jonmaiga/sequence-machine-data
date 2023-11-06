@@ -1,19 +1,21 @@
 {
-  "description": "Numbers n such that phi(n) + 2 divides n + 2 and n is not twice a prime.",
+  "description": "Numbers k such that phi(k) + 2 divides k + 2 and k is not twice a prime.",
   "id": "A207575",
   "mentions": [
     "A000010",
     "A202855",
     "A203966",
-    "A207574"
+    "A207574",
+    "A350777"
   ],
   "tags": [
-    "bref",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

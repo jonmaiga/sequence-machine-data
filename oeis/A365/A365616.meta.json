@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of partitions p of n such that the greatest multiplicity of the parts of p is not a part of p.",
+  "id": "A365616",
+  "mentions": [
+    "A000041",
+    "A365613",
+    "A365614",
+    "A365615"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

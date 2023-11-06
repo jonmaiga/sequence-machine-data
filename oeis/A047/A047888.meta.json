@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array of numbers a(n,k) = number of permutations of n things with longest increasing subsequence of length <=k (1<=k<=infinity), read by antidiagonals.",
+  "description": "Rectangular array of numbers a(n,k) = number of permutations of n things with longest increasing subsequence of length <= k (1 <= k <= oo), read by antidiagonals.",
   "id": "A047888",
   "mentions": [
     "A047874",

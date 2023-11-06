@@ -1,0 +1,24 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x * (1 + A(x))^5 / (1 - 4 * A(x)).",
+  "id": "A366036",
+  "mentions": [
+    "A002294",
+    "A002418",
+    "A064088",
+    "A365668",
+    "A365755",
+    "A365817",
+    "A366016",
+    "A366035",
+    "A366037"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

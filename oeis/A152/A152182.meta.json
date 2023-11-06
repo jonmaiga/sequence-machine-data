@@ -1,7 +1,9 @@
 {
   "description": "The sequence is a lattice filling using the exponential \"E\" constant digits base ten.",
   "id": "A152182",
-  "mentions": [],
+  "mentions": [
+    "A001113"
+  ],
   "tags": [
     "base",
     "nonn",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

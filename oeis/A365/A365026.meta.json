@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (5*n)!*(9*n/2)!*(n/2)! / ((2*n)!^2 * (5*n/2)!^2 * n!).",
+  "id": "A365026",
+  "mentions": [
+    "A275652",
+    "A365025",
+    "A365027"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

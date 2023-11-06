@@ -1,13 +1,15 @@
 {
-  "description": "Number of main classes of one-plane symmetric diagonal Latin squares of order 2n.",
+  "description": "Number of main classes of diagonal Latin squares of order 2n that contain a one-plane symmetric square.",
   "id": "A340546",
   "mentions": [
     "A287649",
+    "A287764",
     "A292516",
     "A293777",
     "A293778",
     "A296060",
-    "A296061"
+    "A296061",
+    "A340550"
   ],
   "tags": [
     "bref",

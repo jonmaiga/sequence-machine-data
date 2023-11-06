@@ -1,5 +1,5 @@
 {
-  "description": "T(n, k) = [x^k] x^n * n! * [t^n] x*(1 + t)/(x*exp(-t) - t). Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "description": "Triangle read by rows: T(n, k) (0 <= k <= n) = [x^k] x^n * n! * [t^n] x*(1 + t)/(x*exp(-t) - t).",
   "id": "A344469",
   "mentions": [
     "A009306",

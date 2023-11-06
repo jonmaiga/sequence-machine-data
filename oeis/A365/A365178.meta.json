@@ -1,0 +1,24 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^4*(1 + x).",
+  "id": "A365178",
+  "mentions": [
+    "A002293",
+    "A002294",
+    "A364475",
+    "A364987",
+    "A365180",
+    "A365181",
+    "A365182",
+    "A365183",
+    "A365184"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

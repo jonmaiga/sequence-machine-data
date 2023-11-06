@@ -1,14 +1,20 @@
 {
-  "description": "The number of exponentially odd divisors of n.",
+  "description": "The number of coreful divisors of n that are exponentially odd numbers (A268335).",
   "id": "A325837",
   "mentions": [
+    "A003557",
+    "A005361",
     "A033634",
+    "A046951",
     "A050361",
     "A065487",
     "A268335",
-    "A295316"
+    "A295316",
+    "A322483",
+    "A350390"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

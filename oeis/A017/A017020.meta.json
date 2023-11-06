@@ -1,9 +1,16 @@
 {
   "description": "a(n) = (7*n + 3)^4.",
   "id": "A017020",
-  "mentions": [],
+  "mentions": [
+    "A017017",
+    "A017018",
+    "A017019",
+    "A017021",
+    "A017028"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

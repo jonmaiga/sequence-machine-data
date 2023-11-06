@@ -1,0 +1,17 @@
+{
+  "description": "Sum_{n>=0} a(n) * x^n / n!^2 = exp( Sum_{n>=1} x^prime(n) / prime(n)!^2 ).",
+  "id": "A365107",
+  "mentions": [
+    "A023998",
+    "A190476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,16 @@
 {
-  "description": "Smallest prime beginning and ending in n 1's.",
+  "description": "Smallest prime beginning and ending in exactly n 1's and containing at least one digit != 1.",
   "id": "A068160",
-  "mentions": [],
+  "mentions": [
+    "A366416"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

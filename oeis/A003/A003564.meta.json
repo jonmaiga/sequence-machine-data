@@ -1,13 +1,13 @@
 {
-  "description": "Least number m such that 8^m = +- 1 mod 8n + 1.",
+  "description": "Least number m such that 8^m == +- 1 (mod 8n + 1).",
   "id": "A003564",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 60,
+    "offset": 1,
+    "size": 70,
     "source": "joeis"
   }
 }

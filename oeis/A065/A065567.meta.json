@@ -2,16 +2,21 @@
   "description": "T(n,m) is the sum over all m-subsets of {1,...,n} of the gcd of the subset.",
   "id": "A065567",
   "mentions": [
+    "A001700",
+    "A001791",
+    "A002088",
     "A034738",
-    "A065568"
+    "A065568",
+    "A244174"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 70,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

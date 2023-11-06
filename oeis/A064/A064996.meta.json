@@ -1,5 +1,5 @@
 {
-  "description": "A Beatty sequence: [Pi^2 -8].",
+  "description": "A Beatty sequence: a(n) = floor(Pi^2 - 8).",
   "id": "A064996",
   "mentions": [
     "A002388",

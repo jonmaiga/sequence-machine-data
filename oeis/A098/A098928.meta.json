@@ -1,5 +1,5 @@
 {
-  "description": "Maximal number of cubes that can be can be formed from the points of a cubical grid of n X n X n points.",
+  "description": "Number of cubes that can be formed from the points of a cubical grid of n X n X n points.",
   "id": "A098928",
   "mentions": [
     "A000537",

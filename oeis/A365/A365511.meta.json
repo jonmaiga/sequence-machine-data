@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to travel from (0,0,0) to (2*n,2*n,2*n) with n positive integer steps in each direction, changing directions at each step.",
+  "id": "A365511",
+  "mentions": [
+    "A088218",
+    "A110706"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

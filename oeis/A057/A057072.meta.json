@@ -1,5 +1,5 @@
 {
-  "description": "floor[10^10/n].",
+  "description": "a(n) = floor(10^10/n).",
   "id": "A057072",
   "mentions": [
     "A000007",
@@ -12,11 +12,12 @@
     "A057075"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

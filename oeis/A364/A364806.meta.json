@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 1/(Re((-sqrt(2))^^9) - 1), where ^^ indicates tetration.",
+  "id": "A364806",
+  "mentions": [
+    "A002193",
+    "A198094",
+    "A359187"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 45,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

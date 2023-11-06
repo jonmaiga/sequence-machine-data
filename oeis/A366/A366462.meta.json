@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the length of the longest word w in the Period-doubling sequence (A096268) in which every length-n factor of w is unique.",
+  "id": "A366462",
+  "mentions": [
+    "A096268",
+    "A275202"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

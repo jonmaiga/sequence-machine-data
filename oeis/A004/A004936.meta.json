@@ -2,15 +2,17 @@
   "description": "Numerator of (binomial(2*n-2,n-1)/n!)^2.",
   "id": "A004936",
   "mentions": [
+    "A000108",
     "A005017"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

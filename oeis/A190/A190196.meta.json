@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of a Taylor series expansion of 1/sqrt(cosh(x)).",
+  "description": "Denominators of a Taylor series expansion of 1/sqrt(cosh(x)) (even powers only).",
   "id": "A190196",
   "mentions": [
     "A190195"

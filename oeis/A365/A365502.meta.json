@@ -1,0 +1,21 @@
+{
+  "description": "In the Collatz problem, total stopping times for iteration of the 3x+1 function corresponding to the starting points given by A248037.",
+  "id": "A365502",
+  "mentions": [
+    "A006666",
+    "A014682",
+    "A248037",
+    "A365503"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

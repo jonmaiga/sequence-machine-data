@@ -1,0 +1,18 @@
+{
+  "description": "Number of independent vertex sets in the n X n giraffe graph.",
+  "id": "A366514",
+  "mentions": [
+    "A141243",
+    "A366513",
+    "A366517"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

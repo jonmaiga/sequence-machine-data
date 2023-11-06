@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) is the number of terms prior to and including the term a(n-1-a(n-1)) that equal a(n-1-a(n-1)).",
+  "id": "A366549",
+  "mentions": [
+    "A181391",
+    "A342585",
+    "A354971",
+    "A363193",
+    "A366548"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

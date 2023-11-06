@@ -1,0 +1,16 @@
+{
+  "description": "Difference d between the least odd integer that would disprove Gilbreath's conjecture and prime(n).",
+  "id": "A366032",
+  "mentions": [
+    "A036262",
+    "A363003"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -2,8 +2,10 @@
   "description": "Tenth column (k=9) of sextinomial array A063260.",
   "id": "A063264",
   "mentions": [
+    "A062989",
     "A063260",
     "A063261",
+    "A063262",
     "A063263",
     "A213888"
   ],

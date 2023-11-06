@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet convolution of sigma with reduced totient function.",
+  "id": "A365648",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A002322",
+    "A365647"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

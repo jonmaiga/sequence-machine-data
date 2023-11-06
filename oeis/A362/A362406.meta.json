@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of the expansion of the series reversion of sin(x) + x, odd powers only.",
+  "id": "A362406",
+  "mentions": [
+    "A302977",
+    "A306254",
+    "A362407"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

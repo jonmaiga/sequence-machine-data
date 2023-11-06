@@ -1,0 +1,21 @@
+{
+  "description": "Iterated Pochhammer symbol.",
+  "id": "A365617",
+  "mentions": [
+    "A000142",
+    "A000407",
+    "A038155",
+    "A055462",
+    "A112332",
+    "A266083"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Mod[DivisorSigma[4k-2,n],n]=0 holds presumably for all k; that is (4k-2)-power-sums of divisors of n are divisible by n for all k.",
+  "description": "Numbers m such that DivisorSigma(4*k-2, m) mod m = 0 holds presumably for all k; that is, (4k-2)-power-sums of divisors of m are divisible by m for all k.",
   "id": "A066290",
   "mentions": [
     "A066135",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

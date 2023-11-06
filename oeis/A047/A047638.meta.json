@@ -2,9 +2,17 @@
   "description": "Expansion of (Product_{j>=1} (1-(-x)^j) - 1)^13 in powers of x.",
   "id": "A047638",
   "mentions": [
-    "A001482"
+    "A001482",
+    "A001488",
+    "A001490",
+    "A047639",
+    "A047649",
+    "A047654",
+    "A047655",
+    "A341243"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

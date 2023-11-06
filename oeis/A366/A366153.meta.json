@@ -1,0 +1,16 @@
+{
+  "description": "Starting with the n-th shortest Cartesian line segment, a(n) is the minimal number of consecutive line segments required to make a simple polygon.",
+  "id": "A366153",
+  "mentions": [
+    "A001481"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

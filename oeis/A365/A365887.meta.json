@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k and k+1 are both terms of A365886.",
+  "id": "A365887",
+  "mentions": [
+    "A365886",
+    "A365888"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of the real root of the quintic equation x^5 + 3*x^4 + 4*x^3 + x -1 = 0.",
+  "id": "A366185",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

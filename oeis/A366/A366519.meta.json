@@ -1,0 +1,18 @@
+{
+  "description": "Largest odd divisor of n which is <= sqrt(n).",
+  "id": "A366519",
+  "mentions": [
+    "A000265",
+    "A033676",
+    "A093803",
+    "A366520"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,13 @@
 {
-  "description": "Number of arithmetic progressions in {1,2,3,...,n}, including trivial arithmetic progressions of lengths 1 and 2.",
+  "description": "Number of increasing arithmetic progressions in {1,2,3,...,n}, including trivial arithmetic progressions of lengths 1 and 2.",
   "id": "A051336",
   "mentions": [
     "A000005",
     "A006218",
     "A078567",
-    "A143127"
+    "A078651",
+    "A143127",
+    "A366471"
   ],
   "tags": [
     "easy",

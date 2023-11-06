@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{p prime} 1/(p(p-1)).",
+  "description": "Decimal expansion of Sum_{p prime} 1/(p*(p-1)).",
   "id": "A136141",
   "mentions": [
     "A000040",

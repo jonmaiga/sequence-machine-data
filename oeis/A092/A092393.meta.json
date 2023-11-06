@@ -1,11 +1,12 @@
 {
-  "description": "Triangle read by rows: T(n,k) = (n+k)*binomial(n,k) (for k=0,...,n-1).",
+  "description": "Triangle read by rows: T(n,k) = (n+k)*binomial(n,k) (for k=0..n-1).",
   "id": "A092393",
   "mentions": [
     "A000384",
     "A002378",
     "A029635",
-    "A077414"
+    "A077414",
+    "A167667"
   ],
   "tags": [
     "formulas",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

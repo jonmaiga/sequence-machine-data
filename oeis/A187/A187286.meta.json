@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n-step one or two space at a time rook's tours on a kXk board summed over all starting positions",
+  "description": "T(n,k) = number of n-step one or two space at a time rook's tours on a k X k board summed over all starting positions.",
   "id": "A187286",
   "mentions": [],
   "tags": [

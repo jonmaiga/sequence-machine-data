@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp( Sum_{k>=0} x^(5*k+3) / (5*k+3)! ).",
+  "id": "A365893",
+  "mentions": [
+    "A006505",
+    "A009227",
+    "A307978"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

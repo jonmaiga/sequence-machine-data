@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime factor of the n-th Pell number A000129(n).",
+  "id": "A364820",
+  "mentions": [
+    "A000129",
+    "A020639",
+    "A060383",
+    "A246556",
+    "A264137",
+    "A280104"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

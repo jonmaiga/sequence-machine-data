@@ -1,5 +1,5 @@
 {
-  "description": "The abelian orders (or abelian numbers): n such that every group of order n is abelian.",
+  "description": "The abelian orders (or abelian numbers): numbers m such that every group of order m is abelian.",
   "id": "A051532",
   "mentions": [
     "A003277",

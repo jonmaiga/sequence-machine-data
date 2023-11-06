@@ -1,0 +1,21 @@
+{
+  "description": "Central terms of triangle A366730.",
+  "id": "A366736",
+  "mentions": [
+    "A366730",
+    "A366731",
+    "A366732",
+    "A366733",
+    "A366734",
+    "A366735"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

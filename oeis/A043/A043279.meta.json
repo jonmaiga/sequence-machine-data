@@ -2,6 +2,7 @@
   "description": "Maximal run length in base 5 representation of n.",
   "id": "A043279",
   "mentions": [
+    "A007091",
     "A043276",
     "A043290"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A139315(k) = 0 but k is not in A138511.",
+  "id": "A365965",
+  "mentions": [
+    "A138511",
+    "A139315",
+    "A337709"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

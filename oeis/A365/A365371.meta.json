@@ -1,0 +1,27 @@
+{
+  "description": "Record values of A365367.",
+  "id": "A365371",
+  "mentions": [
+    "A087704",
+    "A087705",
+    "A087706",
+    "A087707",
+    "A087708",
+    "A087709",
+    "A365341",
+    "A365342",
+    "A365367",
+    "A365368",
+    "A365369",
+    "A365370"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

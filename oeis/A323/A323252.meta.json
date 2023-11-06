@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the numerator and denominator of the reduced fraction Sum_{k=1..n} 1/k have no digits in common.",
+  "description": "Numbers k such that the numerator and denominator of the reduced fraction Sum_{i=1..k} 1/i have no digits in common.",
   "id": "A323252",
   "mentions": [
     "A001008",

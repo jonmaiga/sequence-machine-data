@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp( Sum_{k>=0} x^(4*k+3) / (4*k+3) ).",
+  "id": "A365973",
+  "mentions": [
+    "A038205",
+    "A130915",
+    "A365974",
+    "A365981"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

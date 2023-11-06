@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (0 <= k <= n^2) are coefficients of exact wrapping probability for site percolation on an n X n 2D triangular lattice with periodic boundary conditions. This is for the probability that it wraps in both dimensions.",
+  "id": "A365948",
+  "mentions": [
+    "A365940",
+    "A365957",
+    "A366463",
+    "A366467"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

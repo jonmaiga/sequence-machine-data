@@ -1,0 +1,16 @@
+{
+  "description": "Inverse to A366347.",
+  "id": "A366348",
+  "mentions": [
+    "A366347"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

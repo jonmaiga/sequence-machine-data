@@ -1,0 +1,23 @@
+{
+  "description": "The sum of divisors of n that are not terms of A322448.",
+  "id": "A366992",
+  "mentions": [
+    "A000203",
+    "A046100",
+    "A322448",
+    "A365682",
+    "A366991",
+    "A366994"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

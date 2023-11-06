@@ -1,0 +1,24 @@
+{
+  "description": "The largest exponentially evil divisor of n.",
+  "id": "A366906",
+  "mentions": [
+    "A004709",
+    "A262675",
+    "A353897",
+    "A365683",
+    "A366902",
+    "A366904",
+    "A366905"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

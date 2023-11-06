@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = largest exponent m for which a representation of the form A163511(n) = k^m exists (for some k). a(0) = 0 by convention.",
+  "id": "A365805",
+  "mentions": [
+    "A052409",
+    "A163511",
+    "A332214",
+    "A332817",
+    "A365801",
+    "A365802",
+    "A365807",
+    "A365808",
+    "A366287",
+    "A366391"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

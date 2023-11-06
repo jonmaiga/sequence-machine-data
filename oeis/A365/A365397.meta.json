@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 64 + A000720(n) - A365398(n).",
+  "id": "A365397",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A365339",
+    "A365398",
+    "A365400"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

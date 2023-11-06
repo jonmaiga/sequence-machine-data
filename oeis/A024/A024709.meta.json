@@ -2,9 +2,11 @@
   "description": "Least prime divisor of A024702(n).",
   "id": "A024709",
   "mentions": [
+    "A020639",
     "A024702"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

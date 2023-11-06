@@ -2,6 +2,7 @@
   "description": "Number of free highly irregular trees with n nodes.",
   "id": "A259864",
   "mentions": [
+    "A003609",
     "A259863"
   ],
   "tags": [

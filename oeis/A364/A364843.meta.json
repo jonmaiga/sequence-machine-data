@@ -1,0 +1,21 @@
+{
+  "description": "Integers are repeated in runs of 1, 2, 3, ... Each new integer (following a run) is given the value of its sequence index value.",
+  "id": "A364843",
+  "mentions": [
+    "A000124",
+    "A002024",
+    "A006000",
+    "A006528"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

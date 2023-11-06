@@ -1,0 +1,16 @@
+{
+  "description": "A366428 corresponding values for min(u, v) of Pythagorean triples (u, v, w) for which (u^2, v^2, w^2) is an \"abc-hit\".",
+  "id": "A366674",
+  "mentions": [
+    "A366428",
+    "A366438"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

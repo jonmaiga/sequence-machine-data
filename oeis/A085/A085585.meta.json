@@ -1,7 +1,8 @@
 {
-  "description": "Squares with all but one even digits.",
+  "description": "Squares with exactly one odd digit.",
   "id": "A085585",
   "mentions": [
+    "A000290",
     "A068690"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of the expansion of the series reversion of sin(x) + x, odd powers only.",
+  "id": "A362407",
+  "mentions": [
+    "A302977",
+    "A306254",
+    "A362406"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

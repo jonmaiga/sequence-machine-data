@@ -1,10 +1,14 @@
 {
-  "description": "Expansion of Product (1-x^k )^26.",
+  "description": "Expansion of Product_{k>=1} (1-x^k)^26.",
   "id": "A010831",
   "mentions": [
-    "A126581"
+    "A000203",
+    "A126581",
+    "A286354",
+    "A322433"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

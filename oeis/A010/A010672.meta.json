@@ -1,5 +1,5 @@
 {
-  "description": "A B_2 sequence: a(n) = least value such that sequence increases and pairwise sums of distinct elements are all distinct.",
+  "description": "A B_2 sequence: a(n) = least value such that the sequence increases and pairwise sums of distinct terms are all distinct.",
   "id": "A010672",
   "mentions": [
     "A011185",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n equal to the number of 1's in the decimal digits of all numbers <= n.",
+  "description": "Numbers k equal to the number of 1's in the decimal digits of all numbers <= k.",
   "id": "A014778",
   "mentions": [
     "A094798",

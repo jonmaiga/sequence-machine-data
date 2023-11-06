@@ -1,0 +1,19 @@
+{
+  "description": "Centered icositetrachoral numbers.",
+  "id": "A365204",
+  "mentions": [
+    "A362863",
+    "A365205",
+    "A365206"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

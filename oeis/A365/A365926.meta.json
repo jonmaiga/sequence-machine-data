@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct characteristic polynomials for n X n matrices with entries in {0, 1, ..., n-1}.",
+  "id": "A365926",
+  "mentions": [
+    "A272658",
+    "A272659",
+    "A272660",
+    "A272661",
+    "A272662",
+    "A272663"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that all pairs of consecutive base 9 digits differ by 1.",
+  "description": "Numbers with the property that all pairs of consecutive base-9 digits differ by 1.",
   "id": "A033074",
   "mentions": [],
   "tags": [

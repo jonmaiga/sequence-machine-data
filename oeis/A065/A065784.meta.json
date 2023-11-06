@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 36; for n > 1 is a(n) the smallest integer > 0 such that the concatenation a(n)a(n-1)...a(2)a(1) is a square.",
+  "description": "a(1) = 36; for n > 1, a(n) is the smallest integer > 0 such that the concatenation a(n)a(n-1)...a(2)a(1) is a square.",
   "id": "A065784",
   "mentions": [
     "A061359",

@@ -2,10 +2,12 @@
   "description": "Decimal expansion of Product_{n>=2} (1-1/n!).",
   "id": "A282529",
   "mentions": [
-    "A238695"
+    "A238695",
+    "A247551"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

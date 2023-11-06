@@ -1,5 +1,5 @@
 {
-  "description": "Triangle: matchings of 2n people with partners (of either sex) such that exactly k couples are left together.",
+  "description": "Triangle read by rows: T(n, k) = number of matchings of 2n people with partners (of either sex) such that exactly k couples are left together.",
   "id": "A055140",
   "mentions": [
     "A001147",

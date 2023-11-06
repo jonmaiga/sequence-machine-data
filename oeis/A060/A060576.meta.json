@@ -1,5 +1,5 @@
 {
-  "description": "Number of homeomorphically irreducible general graphs on 1 labeled node and with n edges.",
+  "description": "a(n) = 1 except for a(1) = 0.",
   "id": "A060576",
   "mentions": [
     "A003514",

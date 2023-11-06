@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A349915(i) = A349915(j) for all i, j >= 1, where A349915 is Dirichlet inverse of arithmetic mean between the number of odd divisors and their sum.",
+  "id": "A366383",
+  "mentions": [
+    "A113415",
+    "A349915"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

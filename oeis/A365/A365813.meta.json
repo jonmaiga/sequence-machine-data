@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which form a prime by appending a 3-digit number and form no primes by appending 1 digit or 2 digits.",
+  "id": "A365813",
+  "mentions": [
+    "A091089",
+    "A365812"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

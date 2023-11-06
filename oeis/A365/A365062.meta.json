@@ -1,0 +1,18 @@
+{
+  "description": "Enumeration of | Sort_n(123,321) |.",
+  "id": "A365062",
+  "mentions": [
+    "A000079",
+    "A005009"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

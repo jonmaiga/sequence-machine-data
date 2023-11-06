@@ -1,9 +1,13 @@
 {
   "description": "n written in fractional base 5/4.",
   "id": "A024634",
-  "mentions": [],
+  "mentions": [
+    "A245335",
+    "A245357"
+  ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

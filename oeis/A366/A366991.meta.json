@@ -1,0 +1,25 @@
+{
+  "description": "The number of divisors of n that are not terms of A322448.",
+  "id": "A366991",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A046100",
+    "A322448",
+    "A365680",
+    "A366989",
+    "A366992",
+    "A366994"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

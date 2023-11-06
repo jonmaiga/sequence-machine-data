@@ -1,0 +1,34 @@
+{
+  "description": "Number of unordered pairs of strict integer partitions of n.",
+  "id": "A366317",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000217",
+    "A000712",
+    "A002219",
+    "A007582",
+    "A032302",
+    "A054440",
+    "A064914",
+    "A086737",
+    "A108796",
+    "A237258",
+    "A260664",
+    "A260669",
+    "A304990",
+    "A364272",
+    "A364349",
+    "A365662",
+    "A366132"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

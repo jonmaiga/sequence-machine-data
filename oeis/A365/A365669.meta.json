@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct circles created after n iterations of constructing circles from all current vertices using only a compass, starting with one vertex.",
+  "id": "A365669",
+  "mentions": [
+    "A359569",
+    "A359570",
+    "A359571",
+    "A359619",
+    "A359931",
+    "A360350",
+    "A361622"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

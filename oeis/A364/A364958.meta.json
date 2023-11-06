@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of A356867, where A356867 is Sycamore's Doudna variant D(3).",
+  "id": "A364958",
+  "mentions": [
+    "A356867",
+    "A365390",
+    "A365462"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

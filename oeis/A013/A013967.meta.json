@@ -5,19 +5,21 @@
     "A000203",
     "A001157",
     "A001160",
+    "A013678",
     "A013954",
     "A013972",
     "A017665",
     "A017712"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

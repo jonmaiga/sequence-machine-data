@@ -1,5 +1,5 @@
 {
-  "description": "Least number m such that denominator(sigma(m)/(m+1)) = n, or zero if no such exists.",
+  "description": "Least number m such that denominator(sigma(m)/(m+1)) = n, or zero if no such m exists.",
   "id": "A359625",
   "mentions": [
     "A063906",

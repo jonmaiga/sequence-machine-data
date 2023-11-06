@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / ( 1 - Sum_{k>=0} x^(5*k+3) / (5*k+3)! ).",
+  "id": "A365912",
+  "mentions": [
+    "A102233",
+    "A332258",
+    "A365911"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

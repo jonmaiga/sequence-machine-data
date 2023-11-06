@@ -2,6 +2,7 @@
   "description": "a(n) = n*2^floor((n+1)/2).",
   "id": "A132314",
   "mentions": [
+    "A075554",
     "A093968"
   ],
   "tags": [

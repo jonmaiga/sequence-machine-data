@@ -2,17 +2,19 @@
   "description": "Inverse of the Jacobsthal triangle (A322942). Triangle read by rows, T(n, k) for 0 <= k <= n.",
   "id": "A330794",
   "mentions": [
+    "A152947",
     "A256893",
     "A321620",
     "A322942"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

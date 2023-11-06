@@ -1,5 +1,5 @@
 {
-  "description": "n! - n# + 1 is prime, where n# is the primorial function.",
+  "description": "Numbers k such that k! - k# + 1 is prime, where k# is the primorial function.",
   "id": "A081712",
   "mentions": [
     "A081710",
@@ -12,7 +12,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 22,
     "source": "oeis-entry"
   }

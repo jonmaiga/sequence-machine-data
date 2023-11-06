@@ -6,17 +6,19 @@
     "A089187",
     "A249455",
     "A321693",
-    "A322029"
+    "A322029",
+    "A322106",
+    "A322107",
+    "A357888"
   ],
   "tags": [
     "formulas",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

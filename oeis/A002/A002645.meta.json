@@ -1,5 +1,5 @@
 {
-  "description": "Quartan primes: primes of the form x^4 + y^4, x>0, y>0.",
+  "description": "Quartan primes: primes of the form x^4 + y^4, x > 0, y > 0.",
   "id": "A002645",
   "mentions": [
     "A000040",

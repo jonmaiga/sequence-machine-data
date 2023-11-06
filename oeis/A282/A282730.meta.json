@@ -2,16 +2,17 @@
   "description": "Sequence of integers defined by 3-expansion of Pi-3.",
   "id": "A282730",
   "mentions": [
+    "A000796",
     "A004601",
     "A282729"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

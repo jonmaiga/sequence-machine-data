@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows, n>=1, k>=1, in which row n lists in nonincreasing order the sum of the b values (described in A365835) of the cells of every free polyomino with n cells.",
+  "id": "A365906",
+  "mentions": [
+    "A000035",
+    "A000105",
+    "A000290",
+    "A002378",
+    "A016777",
+    "A057766",
+    "A117950",
+    "A279019",
+    "A365835",
+    "A365860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

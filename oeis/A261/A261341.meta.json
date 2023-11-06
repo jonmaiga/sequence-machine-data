@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that round(n^(1/k)) divides n for all integer k>=1.",
+  "description": "Numbers n such that round(n^(1/k)) divides n for all integers k>=1.",
   "id": "A261341",
   "mentions": [
     "A006446",

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers of the form prime(i)*prime(j)*prime(i+j).",
+  "id": "A365277",
+  "mentions": [
+    "A014612",
+    "A364462"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

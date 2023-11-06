@@ -1,5 +1,5 @@
 {
-  "description": "0 if n-th prime is even, 1 if n-th prime is == 1 mod 4, and -1 if n-th prime is == 3 mod 4.",
+  "description": "0 if n-th prime is even, 1 if n-th prime is == 1 (mod 4), and -1 if n-th prime is == 3 (mod 4).",
   "id": "A070750",
   "mentions": [
     "A000040",

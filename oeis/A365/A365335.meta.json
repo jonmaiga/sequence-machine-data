@@ -1,0 +1,25 @@
+{
+  "description": "The number of exponentially odd coreful divisors of the square root of the largest square dividing n.",
+  "id": "A365335",
+  "mentions": [
+    "A000188",
+    "A046951",
+    "A160338",
+    "A178489",
+    "A325837",
+    "A355265",
+    "A365336",
+    "A365549"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

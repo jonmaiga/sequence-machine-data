@@ -1,8 +1,9 @@
 {
-  "description": "Powers of 2 written in base 12. (Next term contains a non-decimal character).",
+  "description": "Powers of 2 written in base 12. (Next term contains a non-decimal character.)",
   "id": "A004651",
   "mentions": [],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

@@ -2,10 +2,12 @@
   "description": "Base-8 palindromes that start with 2.",
   "id": "A043022",
   "mentions": [
-    "A007094"
+    "A007094",
+    "A043066"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

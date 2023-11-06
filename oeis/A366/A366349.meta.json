@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the Sum_{k>=1} (-1)^(k+1)*log(2*k)/(2*k).",
+  "id": "A366349",
+  "mentions": [
+    "A001620",
+    "A078127"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^(n-1)*(2^n - 1) + 1 is prime (see A134169).",
+  "description": "Numbers k such that 2^(k-1)*(2^k - 1) + 1 is prime (see A134169).",
   "id": "A268692",
   "mentions": [
     "A000043",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A365232.",
+  "id": "A365233",
+  "mentions": [
+    "A365232"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

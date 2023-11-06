@@ -7,11 +7,12 @@
     "A203429"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

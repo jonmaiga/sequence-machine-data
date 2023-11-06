@@ -1,0 +1,27 @@
+{
+  "description": "The number of prime factors of the cubefree part of n (A360539), counted with multiplicity.",
+  "id": "A366077",
+  "mentions": [
+    "A001222",
+    "A004709",
+    "A005117",
+    "A036966",
+    "A056169",
+    "A077761",
+    "A085541",
+    "A085548",
+    "A360539",
+    "A366076",
+    "A366078"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

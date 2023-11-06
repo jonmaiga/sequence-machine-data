@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = squarefree kernel of A286708(n).",
+  "id": "A365786",
+  "mentions": [
+    "A001694",
+    "A007947",
+    "A084371",
+    "A120944",
+    "A126706",
+    "A286708"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

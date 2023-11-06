@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of arcsinh(e).",
+  "id": "A366599",
+  "mentions": [
+    "A001113",
+    "A073742",
+    "A085659",
+    "A188640",
+    "A334399",
+    "A365927"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

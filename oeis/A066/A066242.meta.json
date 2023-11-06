@@ -1,10 +1,11 @@
 {
-  "description": "The floor((Log x)^2)-perfect numbers, where f-perfect numbers for an arithmetical function f are defined in A066218.",
+  "description": "The floor((log(x))^2)-perfect numbers, where f-perfect numbers for an arithmetical function f are defined in A066218.",
   "id": "A066242",
   "mentions": [
     "A066218"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

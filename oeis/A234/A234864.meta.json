@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(3+2) 0..3 arrays with each 3X3 subblock having the sum of its 72 absolute element differences equal to 52, and no adjacent elements equal",
+  "description": "Number of (n+2) X (3+2) 0..3 arrays with each 3 X 3 subblock having the sum of its 72 absolute element differences equal to 52, and no adjacent elements equal.",
   "id": "A234864",
   "mentions": [
     "A234867"

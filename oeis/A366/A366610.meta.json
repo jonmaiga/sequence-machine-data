@@ -1,0 +1,16 @@
+{
+  "description": "Number of successive occurrences of the same first digits in A366585.",
+  "id": "A366610",
+  "mentions": [
+    "A366585"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

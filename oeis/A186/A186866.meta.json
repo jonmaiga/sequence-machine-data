@@ -1,8 +1,9 @@
 {
-  "description": "Number of 7-step king's tours on an n X n board summed over all starting positions",
+  "description": "Number of 7-step king's tours on an n X n board summed over all starting positions.",
   "id": "A186866",
   "mentions": [
-    "A186861"
+    "A186861",
+    "A186864"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 4,3,2,1,2 for x=0,1,2,3,4",
+  "description": "Number of n X n 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 4,3,2,1,2 for x=0,1,2,3,4.",
   "id": "A197236",
   "mentions": [
     "A197242"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

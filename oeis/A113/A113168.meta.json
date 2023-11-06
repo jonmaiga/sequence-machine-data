@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits of first n palindromes.",
+  "description": "a(n) is the sum of digits of the first n palindromes.",
   "id": "A113168",
   "mentions": [
     "A043269"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
-    "source": "joeis"
+    "size": 58,
+    "source": "oeis-bfile"
   }
 }

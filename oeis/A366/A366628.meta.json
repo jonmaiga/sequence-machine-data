@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of 6^n+1.",
+  "id": "A366628",
+  "mentions": [
+    "A000005",
+    "A057938",
+    "A062394",
+    "A366616",
+    "A366621",
+    "A366629"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

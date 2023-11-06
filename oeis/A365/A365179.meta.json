@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; for n >= 2, a(n) = p^6 if p == 2 (mod 3), p^7 if p = 3 or p == 1 (mod 3), where p = prime(n).",
+  "id": "A365179",
+  "mentions": [
+    "A030516",
+    "A092759"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

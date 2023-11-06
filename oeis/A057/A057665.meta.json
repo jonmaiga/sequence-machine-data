@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n)+2^prime(n) is prime.",
+  "description": "Numbers k such that prime(k) + 2^prime(k) is prime.",
   "id": "A057665",
   "mentions": [
     "A052007",

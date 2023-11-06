@@ -1,0 +1,25 @@
+{
+  "description": "Number of subsets S of {1..n} containing no element equal to the sum of a k-multiset of elements of S, for any 2 <= k <= |S|.",
+  "id": "A364841",
+  "mentions": [
+    "A007865",
+    "A085489",
+    "A103580",
+    "A151897",
+    "A236912",
+    "A326020",
+    "A326080",
+    "A326083",
+    "A364349",
+    "A364534"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

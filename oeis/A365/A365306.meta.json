@@ -1,0 +1,14 @@
+{
+  "description": "Maximal reset threshold over all binary partial finite automata of n states.",
+  "id": "A365306",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

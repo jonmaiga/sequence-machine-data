@@ -1,17 +1,19 @@
 {
-  "description": "A variant of the cuban primes: primes p = (x^3 - y^3 )/(x - y) where x = y + 2.",
+  "description": "A variant of the cuban primes: primes p = (x^3 - y^3)/(x - y) where x = y + 2.",
   "id": "A002648",
   "mentions": [
     "A001912",
     "A002407",
-    "A007645"
+    "A007645",
+    "A111051"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 38,
     "source": "joeis"
   }
 }

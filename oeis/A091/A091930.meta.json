@@ -1,5 +1,5 @@
 {
-  "description": "Write Pi = Sum_{n>=1} 1/sqrt(a(n)), where each a(n) is minimal, unique and the sum approaches Pi from below.",
+  "description": "Write Pi = Sum_{n>=1} 1/sqrt(a(n)), where each a(n) is minimal and unique and the sum approaches Pi from below.",
   "id": "A091930",
   "mentions": [
     "A000796"

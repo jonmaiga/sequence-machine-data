@@ -2,15 +2,15 @@
   "description": "a(n) = Sum_{d|n} C(n,d)*sigma(d)*sigma(n/d).",
   "id": "A179307",
   "mentions": [
+    "A000203",
     "A179306"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

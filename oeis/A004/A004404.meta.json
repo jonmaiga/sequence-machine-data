@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (Sum_{n=-inf..inf} x^(n^2))^(-3).",
+  "description": "Expansion of 1 / (Sum_{n=-oo..oo} x^(n^2))^3.",
   "id": "A004404",
   "mentions": [
     "A001934",

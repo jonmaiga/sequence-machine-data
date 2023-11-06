@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of partitions p of n such that the least multiplicity of the parts of p is a part of p.",
+  "id": "A365614",
+  "mentions": [
+    "A000041",
+    "A365613",
+    "A365615",
+    "A365616"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

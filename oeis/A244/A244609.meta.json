@@ -2,6 +2,7 @@
   "description": "Least prime divisor of 659*2^n-1.",
   "id": "A244609",
   "mentions": [
+    "A020639",
     "A038699",
     "A040081",
     "A057026"

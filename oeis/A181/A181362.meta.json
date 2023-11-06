@@ -2,6 +2,7 @@
   "description": "a(n) is the starting position of the n-th occurrence of n in the string 123456789101112131415161718192021... .",
   "id": "A181362",
   "mentions": [
+    "A031297",
     "A033307"
   ],
   "tags": [

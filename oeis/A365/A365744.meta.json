@@ -1,0 +1,17 @@
+{
+  "description": "Number of perfect matchings on [2n] with n short pairs.",
+  "id": "A365744",
+  "mentions": [
+    "A001147",
+    "A079267"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

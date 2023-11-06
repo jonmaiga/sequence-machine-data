@@ -2,11 +2,14 @@
   "description": "Number of Q-isomorphism classes of elliptic curves E/Q with good reduction away from prime(n).",
   "id": "A363793",
   "mentions": [
+    "A000040",
+    "A110620",
     "A332545",
     "A359480",
     "A361661"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

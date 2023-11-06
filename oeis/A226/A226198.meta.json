@@ -1,5 +1,5 @@
 {
-  "description": "Floor((n-1)!/n).",
+  "description": "a(n) = floor((n-1)!/n).",
   "id": "A226198",
   "mentions": [
     "A001048",

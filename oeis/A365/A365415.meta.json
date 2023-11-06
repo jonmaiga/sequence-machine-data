@@ -1,0 +1,20 @@
+{
+  "description": "Number of decimal digits of e after its decimal point needed to contain all digit substrings of length n.",
+  "id": "A365415",
+  "mentions": [
+    "A001113",
+    "A152182",
+    "A332262"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

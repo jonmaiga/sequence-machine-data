@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the second smallest k such that phi(n+k) = phi(k), or 0 is no such solution exists.",
+  "description": "a(n) is the second smallest k such that phi(n+k) = phi(k), or 0 if no such solution exists.",
   "id": "A342701",
   "mentions": [
     "A000010",

@@ -1,5 +1,5 @@
 {
-  "description": "Benford numbers: a(n)=e^e^...^e (n times) rounded to nearest integer.",
+  "description": "Benford numbers: a(n) = e^e^...^e (n times) rounded to nearest integer.",
   "id": "A004002",
   "mentions": [
     "A056072",

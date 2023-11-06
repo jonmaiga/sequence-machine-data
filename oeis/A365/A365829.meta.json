@@ -1,0 +1,28 @@
+{
+  "description": "Squarefree non-semiprimes.",
+  "id": "A365829",
+  "mentions": [
+    "A000009",
+    "A001358",
+    "A004526",
+    "A005117",
+    "A006881",
+    "A008967",
+    "A030059",
+    "A058984",
+    "A078408",
+    "A100959",
+    "A350352",
+    "A365659",
+    "A365827"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

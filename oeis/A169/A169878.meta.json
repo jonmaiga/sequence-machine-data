@@ -2,16 +2,16 @@
   "description": "Maximum number of rational points on a smooth absolutely irreducible projective curve of genus 2 over the field F_3^n.",
   "id": "A169878",
   "mentions": [
+    "A005525",
     "A169869",
     "A169883"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

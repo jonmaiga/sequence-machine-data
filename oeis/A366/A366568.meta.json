@@ -1,0 +1,20 @@
+{
+  "description": "P(n,n+2k-2) are the numerators of the probability that a gambler with initial capital n goes bankrupt exactly at round n+2k-2, randomly losing or winning 1 unit of money in each round, written as lower triangle T(n,k), n>=1, 1<=k<=n.",
+  "id": "A366568",
+  "mentions": [
+    "A086116",
+    "A141387",
+    "A366569"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

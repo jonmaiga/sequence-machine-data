@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g.f. A(x,y) satisfying A(x,y) = 1 + x*A(x,y)/(1 - x*y * A(x,y))^2, as a triangle of coefficients T(n,k) of x^n*y^k in A(x,y), read by rows n >= 0.",
+  "id": "A365770",
+  "mentions": [
+    "A109081",
+    "A365771",
+    "A365772",
+    "A365773",
+    "A365774",
+    "A365775"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of iterations of phi(psi(x)) starting at x = n and terminating when psi(phi(x)) = x (n is counted), -1 otherwise.",
+  "id": "A364631",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A003434"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of fixed polyominoids with n cells, allowing flat corner-connections and right-angled edge-connections.",
+  "id": "A365996",
+  "mentions": [
+    "A365995"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

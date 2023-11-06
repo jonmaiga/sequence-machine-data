@@ -1,5 +1,5 @@
 {
-  "description": "Primes that when squared give numbers with digits in descending order.",
+  "description": "Primes that when squared give numbers with digits in nonascending order.",
   "id": "A028868",
   "mentions": [
     "A028865",
@@ -9,6 +9,7 @@
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

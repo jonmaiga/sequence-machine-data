@@ -1,0 +1,24 @@
+{
+  "description": "Hexagonal numbers which are the sum of the first k primes, for some k >= 0.",
+  "id": "A366269",
+  "mentions": [
+    "A000384",
+    "A007504",
+    "A061890",
+    "A066527",
+    "A364691",
+    "A364694",
+    "A366270"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

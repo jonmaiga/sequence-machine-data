@@ -1,0 +1,16 @@
+{
+  "description": "Denominator of Sum_{1<=j<=k<=n, gcd(j,k)=1} 1/(j*k).",
+  "id": "A365228",
+  "mentions": [
+    "A365227"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

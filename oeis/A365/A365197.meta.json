@@ -1,0 +1,17 @@
+{
+  "description": "a(n) and a(n+1) have k distinct digits in common. The successive ks are the successive digits of the sequence itself.",
+  "id": "A365197",
+  "mentions": [
+    "A184992"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

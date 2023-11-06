@@ -2,6 +2,7 @@
   "description": "Number of n-tuples (p_1, p_2, ..., p_n) of Dyck paths of semilength n+1, such that each p_i is never below p_{i-1}.",
   "id": "A358597",
   "mentions": [
+    "A074962",
     "A078920",
     "A123352",
     "A355400"

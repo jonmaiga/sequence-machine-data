@@ -1,0 +1,21 @@
+{
+  "description": "Fully multiplicative with a(p) = oddpart(primepi(p)).",
+  "id": "A366789",
+  "mentions": [
+    "A000265",
+    "A000720",
+    "A003963",
+    "A336466",
+    "A366790"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

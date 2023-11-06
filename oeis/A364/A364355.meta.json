@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the unique value of x such that Gamma(-x + i*sqrt(1-x^2)) is a real number and -1 < x < 1.",
+  "id": "A364355",
+  "mentions": [
+    "A090986",
+    "A212877",
+    "A212878",
+    "A212879",
+    "A212880",
+    "A364356"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

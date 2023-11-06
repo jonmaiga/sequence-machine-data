@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of 5^n - 1.",
+  "id": "A366611",
+  "mentions": [
+    "A001221",
+    "A024049",
+    "A057956",
+    "A366604"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of k <= n such that rad(k) | n but rad(k) != rad(n).",
+  "id": "A365788",
+  "mentions": [
+    "A000005",
+    "A007947",
+    "A008479",
+    "A010846"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

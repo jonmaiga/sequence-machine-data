@@ -1,5 +1,5 @@
 {
-  "description": "Iterated triangular numbers.",
+  "description": "Iterated triangular numbers with seed 5.",
   "id": "A050542",
   "mentions": [
     "A000217",

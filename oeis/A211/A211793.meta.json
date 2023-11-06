@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and w^k>=x^k+y",
+  "description": "Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and w^k >= x^k + y^k.",
   "id": "A211793",
   "mentions": [
     "A000292",
@@ -9,6 +9,7 @@
     "A211790"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

@@ -1,7 +1,10 @@
 {
-  "description": "Number of numbers d dividing n such that d >= 3 and 1 <= n/d <= d-2.",
+  "description": "Number of numbers d dividing n such that d >= 3 and n/d <= d-2.",
   "id": "A033831",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A002378"
+  ],
   "tags": [
     "easy",
     "formulas",

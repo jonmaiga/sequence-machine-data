@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least number k such that the continued fraction of the abundancy index of k contains n elements that are all distinct, or -1 is no such k exists.",
+  "description": "a(n) is the least number k such that the continued fraction of the abundancy index of k contains n elements that are all distinct, or -1 if no such k exists.",
   "id": "A349691",
   "mentions": [
     "A349503",

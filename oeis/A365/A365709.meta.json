@@ -1,0 +1,15 @@
+{
+  "description": "Number of rigid configurations of n non-overlapping congruent spheres in three-dimensional Euclidean space",
+  "id": "A365709",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

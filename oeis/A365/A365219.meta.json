@@ -1,0 +1,16 @@
+{
+  "description": "Each term is a \"Go up integer\" (GUI), but a(n) + a(n+1) is always a \"Go down integer\" (GDI). More details in the Comments section.",
+  "id": "A365219",
+  "mentions": [
+    "A365217"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

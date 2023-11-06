@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the permanent of the n X n matrix M(n) whose generic M[i, j] = j*(10^i - 1)/9 with 1 <= i, j <= n.",
+  "id": "A365646",
+  "mentions": [
+    "A365644"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

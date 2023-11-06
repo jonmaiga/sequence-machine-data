@@ -2,7 +2,9 @@
   "description": "Number of Abelian groups of order 4n+1.",
   "id": "A101873",
   "mentions": [
-    "A101871"
+    "A101871",
+    "A101874",
+    "A101876"
   ],
   "tags": [
     "easy",

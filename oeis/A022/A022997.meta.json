@@ -1,14 +1,18 @@
 {
   "description": "Numerator of n*(n-2)*(2*n-1)/(2*(n-1)).",
   "id": "A022997",
-  "mentions": [],
+  "mentions": [
+    "A022998"
+  ],
   "tags": [
+    "easy",
     "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 33,
+    "size": 42,
     "source": "joeis"
   }
 }

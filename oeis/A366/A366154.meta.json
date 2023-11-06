@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of integer partitions of n with at least one part a_i such that a_i - a_{i+k} = k.",
+  "id": "A366154",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A008615",
+    "A237666",
+    "A268193",
+    "A354234"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

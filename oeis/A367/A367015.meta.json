@@ -1,0 +1,18 @@
+{
+  "description": "Number of regions formed after n points have been placed in general position on each edge of the triangle in A365929.",
+  "id": "A367015",
+  "mentions": [
+    "A365929",
+    "A366478",
+    "A366932"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

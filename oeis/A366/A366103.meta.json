@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n if n is 1 or a prime. If n is composite, p is the greatest prime not exceeding n, and k = n - p, then a(n) is the least novel m*a(k), where m is not a prior term.",
+  "id": "A366103",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A001223",
+    "A002808",
+    "A005940",
+    "A008578"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Antidiagonal sums of triangle A121775.",
   "id": "A121776",
   "mentions": [
+    "A000010",
     "A121775"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

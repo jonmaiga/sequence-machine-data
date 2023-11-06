@@ -1,14 +1,16 @@
 {
-  "description": "n ^ (last digit of n).",
+  "description": "a(n) = n ^ (last digit of n).",
   "id": "A214877",
   "mentions": [
     "A000312",
+    "A010879",
     "A063462",
     "A067041"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 100*log_10 (n) rounded down.",
+  "description": "a(n) = 100*log_10(n) rounded down.",
   "id": "A004222",
   "mentions": [],
   "tags": [

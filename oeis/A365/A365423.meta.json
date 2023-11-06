@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k for which k and A163511(k) have the same prime signature.",
+  "id": "A365423",
+  "mentions": [
+    "A000668",
+    "A046523",
+    "A163511",
+    "A278531",
+    "A364297",
+    "A365421",
+    "A365422"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

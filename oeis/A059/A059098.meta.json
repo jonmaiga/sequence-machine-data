@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) = Sum_{i=0..n} stirling2(n,i)*Product_{j=1..m} (i-j+1), m=0..n.",
+  "description": "Triangle T(n,m) = Sum_{i=0..n} Stirling2(n,i)*Product_{j=1..m} (i-j+1), m=0..n.",
   "id": "A059098",
   "mentions": [
     "A000110",

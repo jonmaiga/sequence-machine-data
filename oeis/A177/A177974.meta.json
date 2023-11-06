@@ -1,8 +1,8 @@
 {
-  "description": "Triangle t(n,m)=n!/(n - m)! + n!/m! - n! read by rows, 0<=m<=n.",
+  "description": "Triangle T(n,k) = n!/(n - k)! + n!/k! - n! read by rows, 0 <= k <= n.",
   "id": "A177974",
   "mentions": [
-    "A054091"
+    "A155162"
   ],
   "tags": [
     "formulas",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 57,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

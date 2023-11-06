@@ -2,7 +2,16 @@
   "description": "Primes which are the sum of three consecutive composite numbers.",
   "id": "A060328",
   "mentions": [
-    "A060254"
+    "A034962",
+    "A037174",
+    "A060254",
+    "A060329",
+    "A060330",
+    "A060331",
+    "A060332",
+    "A060333",
+    "A151741",
+    "A166039"
   ],
   "tags": [
     "nonn"

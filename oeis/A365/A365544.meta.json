@@ -1,0 +1,36 @@
+{
+  "description": "Number of subsets of {1..n} containing two distinct elements summing to n.",
+  "id": "A365544",
+  "mentions": [
+    "A000009",
+    "A004526",
+    "A007865",
+    "A008967",
+    "A068911",
+    "A085489",
+    "A088809",
+    "A093971",
+    "A095944",
+    "A140106",
+    "A151897",
+    "A167762",
+    "A238628",
+    "A288728",
+    "A326083",
+    "A364272",
+    "A364534",
+    "A365376",
+    "A365377",
+    "A365381",
+    "A365541"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n with at most four part sizes.",
+  "id": "A364793",
+  "mentions": [
+    "A116608",
+    "A265250",
+    "A309058",
+    "A364809",
+    "A365630"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

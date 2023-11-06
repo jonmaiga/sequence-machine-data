@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n with exactly four part sizes.",
+  "id": "A365630",
+  "mentions": [
+    "A000005",
+    "A002133",
+    "A002134",
+    "A060177",
+    "A116608",
+    "A365631",
+    "A365676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

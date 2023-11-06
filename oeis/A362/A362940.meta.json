@@ -1,0 +1,16 @@
+{
+  "description": "Consider the Collatz trajectory from n to 1, assuming the Collatz conjecture is true. Then a(n) = number of terms in the trajectory that are greater than 1 and congruent to 1 mod 3. If n never reaches 1, set a(n) = -1.",
+  "id": "A362940",
+  "mentions": [
+    "A006577",
+    "A008908"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

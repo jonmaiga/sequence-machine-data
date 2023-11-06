@@ -6,17 +6,22 @@
     "A037916",
     "A067255",
     "A071321",
+    "A077761",
     "A195017",
     "A316523",
     "A319273",
-    "A332422"
+    "A332422",
+    "A350386",
+    "A350387"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=3a(n-1)+C(n+3,3),n>0, a(0)=1.",
+  "description": "a(n) = 3*a(n-1) + C(n+3,3) for n > 0; a(0)=1.",
   "id": "A097786",
   "mentions": [
     "A052150"

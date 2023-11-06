@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least odd prime p such that A000120(n*p) = A000120(n) * A000120(p).",
+  "id": "A365512",
+  "mentions": [
+    "A000120",
+    "A070939",
+    "A365475"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

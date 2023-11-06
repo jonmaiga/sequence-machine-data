@@ -1,5 +1,5 @@
 {
-  "description": "Cubefree products of primorials, cf. A002110.",
+  "description": "Cubefree products of primorials (A002110).",
   "id": "A220423",
   "mentions": [
     "A000040",
@@ -9,11 +9,13 @@
     "A004709",
     "A006530",
     "A051903",
+    "A064648",
     "A073491",
     "A212793",
     "A220264"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

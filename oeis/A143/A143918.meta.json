@@ -1,7 +1,9 @@
 {
   "description": "G.f. A(x) satisfies: A(x) = 1/(1-x)^2 + x^2*A'(x).",
   "id": "A143918",
-  "mentions": [],
+  "mentions": [
+    "A000522"
+  ],
   "tags": [
     "formulas",
     "nonn"

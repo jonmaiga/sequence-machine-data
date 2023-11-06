@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n/6^m == 3 (mod 6), where 6^m is the greatest power of 6 that divides n.",
+  "description": "Numbers k such that k/6^m == 3 (mod 6), where 6^m is the greatest power of 6 that divides k.",
   "id": "A277569",
   "mentions": [
     "A000005",

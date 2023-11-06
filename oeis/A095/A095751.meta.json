@@ -1,5 +1,5 @@
 {
-  "description": "Integers known to be friendly but are not known to be primitive friendly.",
+  "description": "Conjectured list of integers known to be friendly but not known to be primitive friendly.",
   "id": "A095751",
   "mentions": [
     "A014567",
@@ -9,11 +9,12 @@
     "A096366"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

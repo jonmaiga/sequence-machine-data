@@ -1,0 +1,18 @@
+{
+  "description": "Record values of A087704.",
+  "id": "A365343",
+  "mentions": [
+    "A087704",
+    "A365342"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

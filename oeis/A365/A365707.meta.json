@@ -1,0 +1,21 @@
+{
+  "description": "Initial digit of n^(n+1) (A007778(n)).",
+  "id": "A365707",
+  "mentions": [
+    "A000030",
+    "A007778",
+    "A061505",
+    "A138029",
+    "A364855"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

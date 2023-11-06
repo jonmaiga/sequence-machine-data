@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of pairs {x,y} with (x,y > 1) such that x^y (= terms of A072103) has bit length <= n.",
+  "id": "A365931",
+  "mentions": [
+    "A002193",
+    "A017912",
+    "A017981",
+    "A072103",
+    "A365930"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

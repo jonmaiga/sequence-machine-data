@@ -1,9 +1,12 @@
 {
-  "description": "Number of primes between consecutive prime powers.",
+  "description": "Number of primes between consecutive terms of A246547 (prime powers p^k, k >= 2).",
   "id": "A067871",
   "mentions": [
+    "A000040",
     "A000720",
-    "A025475"
+    "A025475",
+    "A246547",
+    "A246655"
   ],
   "tags": [
     "easy",

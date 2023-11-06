@@ -1,0 +1,15 @@
+{
+  "description": "Number of smooth discrete aggregation functions defined on the finite chain L_n={0,1,...,n-1,n} having neutral element/absorbing element.",
+  "id": "A366449",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

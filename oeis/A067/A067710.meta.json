@@ -1,14 +1,17 @@
 {
-  "description": "n! sum{k|n} (sum{j=1 to k} 1/j); the k-sum is over the positive divisors, k, of n.",
+  "description": "a(n) = n! * Sum_{k|n} (Sum_{j=1..k} 1/j); the k-sum is over the positive divisors, k, of n.",
   "id": "A067710",
-  "mentions": [],
+  "mentions": [
+    "A001008",
+    "A002805"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

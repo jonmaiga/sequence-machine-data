@@ -1,0 +1,21 @@
+{
+  "description": "Centered octachoral numbers.",
+  "id": "A365206",
+  "mentions": [
+    "A001844",
+    "A005917",
+    "A362863",
+    "A365204",
+    "A365205"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

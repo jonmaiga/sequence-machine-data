@@ -7,11 +7,12 @@
     "A077670"
   ],
   "tags": [
+    "less",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 76,
     "source": "oeis-entry"
   }

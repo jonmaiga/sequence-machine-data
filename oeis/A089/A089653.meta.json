@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that (product of prime factors of n) - 1 is a perfect square.",
+  "description": "Numbers k > 1 such that (product of prime factors of k) - 1 is a perfect square.",
   "id": "A089653",
   "mentions": [
+    "A002496",
+    "A003592",
     "A007947",
     "A089632",
     "A091419",

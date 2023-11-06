@@ -1,16 +1,20 @@
 {
-  "description": "Column 0 of A341725.",
+  "description": "Column 1 of A341725.",
   "id": "A341728",
   "mentions": [
-    "A341725"
+    "A000557",
+    "A005923",
+    "A341725",
+    "A341726",
+    "A341727"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

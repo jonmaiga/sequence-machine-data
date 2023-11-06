@@ -1,9 +1,12 @@
 {
   "description": "Numbers whose sum of even digits and sum of odd digits are equal.",
   "id": "A036301",
-  "mentions": [],
+  "mentions": [
+    "A071650"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

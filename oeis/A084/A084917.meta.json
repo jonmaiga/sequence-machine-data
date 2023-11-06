@@ -1,10 +1,11 @@
 {
-  "description": "Positive numbers n such that n = 3*y^2 - x^2 with integers x, y.",
+  "description": "Positive numbers of the form 3*y^2 - x^2.",
   "id": "A084917",
   "mentions": [
     "A001075",
     "A001835",
     "A003500",
+    "A014209",
     "A031363",
     "A035251",
     "A077238",

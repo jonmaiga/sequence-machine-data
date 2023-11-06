@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: T(N,k) (0 <= k <= 4*N^2) are coefficients of cluster density function for site percolation on a 2*N X 2*N 2D union jack lattice with periodic boundary conditions.",
+  "id": "A365943",
+  "mentions": [
+    "A365940",
+    "A365944"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

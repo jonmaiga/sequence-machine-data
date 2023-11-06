@@ -1,0 +1,34 @@
+{
+  "description": "Number of ways to write 2 as a nonnegative linear combination of a strict integer partition of n.",
+  "id": "A365005",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A096765",
+    "A116861",
+    "A137719",
+    "A237113",
+    "A323092",
+    "A364272",
+    "A364350",
+    "A364839",
+    "A364907",
+    "A364910",
+    "A364913",
+    "A364914",
+    "A364915",
+    "A364916",
+    "A365002",
+    "A365004"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,16 @@
   "description": "Second bisection of A134772.",
   "id": "A144649",
   "mentions": [
-    "A134772"
+    "A134772",
+    "A144549"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

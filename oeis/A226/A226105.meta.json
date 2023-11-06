@@ -1,18 +1,23 @@
 {
-  "description": "Numbers n such that phi(n)+3 divides n+3 and floor(n/6) is not a prime.",
+  "description": "Numbers k such that phi(k)+3 divides k+3, excluding numbers of the form 6*p for a prime p.",
   "id": "A226105",
   "mentions": [
-    "A226104"
+    "A000040",
+    "A202855",
+    "A203966",
+    "A207575",
+    "A207667",
+    "A226104",
+    "A350777"
   ],
   "tags": [
-    "bref",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

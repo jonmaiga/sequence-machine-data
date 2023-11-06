@@ -1,5 +1,5 @@
 {
-  "description": "Smaller of an amicable pair: (a,b) such that sigma(a)=sigma(b)=a+b, a",
+  "description": "Smaller of an amicable pair: (a,b) such that sigma(a) = sigma(b) = a+b, a < b.",
   "id": "A002025",
   "mentions": [
     "A000203",

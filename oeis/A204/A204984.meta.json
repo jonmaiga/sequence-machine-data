@@ -1,7 +1,8 @@
 {
-  "description": "(1/n)*A204983(n).",
+  "description": "a(n) = (1/n)*A204983(n).",
   "id": "A204984",
   "mentions": [
+    "A023758",
     "A204892",
     "A204979",
     "A204983"
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 58,
     "source": "joeis"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Expansion of the unique real solution y(t) to the equation y*(1+y)^2/((1-y)*(1-y^3)) = t/(1+3t) with initial value y(0)=0.",
+  "id": "A366837",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

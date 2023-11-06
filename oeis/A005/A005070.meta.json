@@ -1,5 +1,5 @@
 {
-  "description": "Sum of primes = 1 (mod 3) dividing n.",
+  "description": "Sum of primes == 1 (mod 3) dividing n.",
   "id": "A005070",
   "mentions": [
     "A020639",

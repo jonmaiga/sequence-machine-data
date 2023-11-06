@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 0 = Sum_{n=-oo..+oo} x^n * A(x)^n * (1 - x^(n-1))^(n+1).",
+  "id": "A366731",
+  "mentions": [
+    "A366730",
+    "A366732",
+    "A366733",
+    "A366734",
+    "A366735"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

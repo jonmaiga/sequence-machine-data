@@ -1,9 +1,14 @@
 {
-  "description": "Replacing every \"mixed pair\" of integers with the smallest integer of the said pair rebuilds the sequence itself (see \"Comments\" for the definition of a \"mixed pair\").",
+  "description": "Replacing every \"mixed pair\" of integers (as defined in the comments) with the smaller integer of the pair rebuilds the sequence.",
   "id": "A276273",
-  "mentions": [],
+  "mentions": [
+    "A000120",
+    "A064706"
+  ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

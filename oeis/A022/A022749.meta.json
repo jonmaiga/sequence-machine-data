@@ -1,13 +1,18 @@
 {
-  "description": "Expansion of Product_{m=1..infinity} (1-m*q^m)^-25.",
+  "description": "Expansion of 1/Product_{m>=1} (1 - m*q^m)^25.",
   "id": "A022749",
-  "mentions": [],
+  "mentions": [
+    "A078308",
+    "A266964",
+    "A297328"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

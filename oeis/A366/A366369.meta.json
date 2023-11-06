@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = product of primes p such that p^k <= n < 2*p^k for some k >= 1.",
+  "id": "A366369",
+  "mentions": [
+    "A003418",
+    "A005117",
+    "A139550",
+    "A366368"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

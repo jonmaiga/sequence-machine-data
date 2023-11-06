@@ -1,5 +1,5 @@
 {
-  "description": "Centered heptagonal numbers which are sphenics.",
+  "description": "Centered heptagonal numbers which are sphenic numbers.",
   "id": "A360183",
   "mentions": [
     "A007304",

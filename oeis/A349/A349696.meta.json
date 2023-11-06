@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m in a set of three consecutive triangular numbers with three prime factors (counted with multiplicity).",
+  "description": "Smallest number in a set of three consecutive triangular numbers each with three prime factors (counted with multiplicity).",
   "id": "A349696",
   "mentions": [
     "A000217",

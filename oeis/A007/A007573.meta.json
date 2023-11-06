@@ -1,17 +1,19 @@
 {
-  "description": "Number of asymmetric families of palindromic squares.",
+  "description": "a(n) is the number of base numbers with 2n+1 digits in the asymmetric families of palindromic squares.",
   "id": "A007573",
   "mentions": [
     "A002778",
-    "A002779"
+    "A002779",
+    "A060087",
+    "A060088"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 7,
-    "size": 29,
-    "source": "oeis-entry"
+    "offset": 3,
+    "size": 68,
+    "source": "oeis-bfile"
   }
 }

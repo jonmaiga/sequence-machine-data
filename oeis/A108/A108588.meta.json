@@ -1,7 +1,11 @@
 {
-  "description": "Numbers n such that 10*n + 97 is prime.",
+  "description": "Numbers k such that 10*k + 97 is prime.",
   "id": "A108588",
-  "mentions": [],
+  "mentions": [
+    "A108584",
+    "A108594",
+    "A108595"
+  ],
   "tags": [
     "easy",
     "nonn"

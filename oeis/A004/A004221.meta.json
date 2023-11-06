@@ -1,5 +1,5 @@
 {
-  "description": "10*log_10 (n) rounded up.",
+  "description": "a(n) = ceiling(10*log_10(n)).",
   "id": "A004221",
   "mentions": [],
   "tags": [

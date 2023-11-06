@@ -2,6 +2,7 @@
   "description": "Expansion of phi_{12, 1}(x) where phi_{r, s}(x) = Sum_{n, m>0} m^r * n^s * x^{m*n}.",
   "id": "A282548",
   "mentions": [
+    "A013670",
     "A013959",
     "A058550",
     "A064987",
@@ -13,6 +14,7 @@
     "A282576"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

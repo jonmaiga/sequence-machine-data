@@ -1,9 +1,16 @@
 {
-  "description": "E.g.f. satisfies: A(x) = 1/(1 - x*exp(x*A(x))).",
+  "description": "E.g.f. satisfies A(x) = 1/(1 - x*exp(x*A(x))).",
   "id": "A161633",
   "mentions": [
+    "A006153",
     "A161630",
-    "A213644"
+    "A213644",
+    "A364980",
+    "A364981",
+    "A366232",
+    "A366233",
+    "A366234",
+    "A366235"
   ],
   "tags": [
     "formulas",
@@ -12,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

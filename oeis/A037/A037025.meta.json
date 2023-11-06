@@ -1,12 +1,12 @@
 {
-  "description": "a(1) = 8; a(n+1) = least k with d(k) = a(n).",
+  "description": "a(1) = 8; a(n) = least k with d(k) = a(n-1), where d(k) is the number of divisors of k.",
   "id": "A037025",
   "mentions": [
     "A000005",
-    "A009287"
+    "A009287",
+    "A072066"
   ],
   "tags": [
-    "more",
     "nice",
     "nonn"
   ],

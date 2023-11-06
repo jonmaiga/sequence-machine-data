@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest prime p(1) in a symmetrical constellation of at least n consecutive pairs of cousin primes: p(1), p(1) + 4, ..., p(n), p(n) + 4.",
+  "description": "a(n) is the smallest prime in a sequence of 2n consecutive primes that form a symmetrical constellation of cousin primes.",
   "id": "A352712",
   "mentions": [
     "A274792"

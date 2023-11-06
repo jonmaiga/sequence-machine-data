@@ -1,5 +1,5 @@
 {
-  "description": "Let p = prime(n); a(n) = smallest m such that prime(m) has p digits.",
+  "description": "a(n) = smallest m such that prime(m) has prime(n) decimal digits.",
   "id": "A064489",
   "mentions": [
     "A000040",
@@ -8,7 +8,9 @@
   ],
   "tags": [
     "base",
-    "easy",
+    "formulas",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

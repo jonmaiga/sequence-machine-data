@@ -1,16 +1,17 @@
 {
-  "description": "A026905(n)-A014284(n); partial sums of partition numbers - partial sums of primes.",
+  "description": "a(n) = A026905(n) - A014284(n).",
   "id": "A086741",
   "mentions": [
     "A014284",
     "A026905"
   ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 48,
+    "source": "joeis"
   }
 }

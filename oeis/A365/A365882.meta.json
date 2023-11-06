@@ -1,0 +1,18 @@
+{
+  "description": "Irregular table read by rows; the first row contains a single 1; for all n > 1, row n+1 is the frequency of each term in rows 1..n.",
+  "id": "A365882",
+  "mentions": [
+    "A011782",
+    "A030717",
+    "A327616"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

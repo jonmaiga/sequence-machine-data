@@ -1,0 +1,22 @@
+{
+  "description": "Proper dimension of the polyomino with code A365142(n).",
+  "id": "A365143",
+  "mentions": [
+    "A000720",
+    "A005519",
+    "A049430",
+    "A061395",
+    "A133457",
+    "A365142"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

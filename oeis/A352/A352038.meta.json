@@ -2,8 +2,11 @@
   "description": "Sum of the 10th powers of the odd proper divisors of n.",
   "id": "A352038",
   "mentions": [
+    "A000035",
+    "A013669",
     "A091570",
     "A091954",
+    "A321814",
     "A351647",
     "A352031",
     "A352032",
@@ -14,12 +17,13 @@
     "A352037"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

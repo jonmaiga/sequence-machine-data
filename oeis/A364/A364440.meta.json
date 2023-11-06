@@ -1,0 +1,17 @@
+{
+  "description": "Triangle T(n,k) (n >= 1 and 1 <= k <= n) read by rows, arising from the Mosaic Problem.",
+  "id": "A364440",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

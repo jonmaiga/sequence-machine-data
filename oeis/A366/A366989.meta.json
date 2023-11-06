@@ -1,0 +1,27 @@
+{
+  "description": "The number of prime powers p^q dividing n, where p is prime and q is either 1 or prime (A334393 without the first term 1).",
+  "id": "A366989",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A005117",
+    "A077761",
+    "A122810",
+    "A318322",
+    "A334393",
+    "A366988",
+    "A366991",
+    "A366992",
+    "A366994"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

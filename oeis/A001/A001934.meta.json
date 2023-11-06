@@ -2,10 +2,12 @@
   "description": "Expansion of 1/theta_4(q)^2 in powers of q.",
   "id": "A001934",
   "mentions": [
+    "A000122",
     "A000203",
     "A002131",
     "A002318",
     "A002448",
+    "A002513",
     "A004403",
     "A004404",
     "A004425",

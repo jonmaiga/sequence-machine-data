@@ -2,6 +2,7 @@
   "description": "Numbers that have 12 terms in their Zeckendorf representation.",
   "id": "A179252",
   "mentions": [
+    "A000045",
     "A007895",
     "A035517",
     "A179242",
@@ -21,7 +22,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

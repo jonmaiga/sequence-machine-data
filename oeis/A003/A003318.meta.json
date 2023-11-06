@@ -1,5 +1,5 @@
 {
-  "description": "a(n + 1) = 1 + a( floor(n/1) ) + a( floor(n/2) ) + ... + a( floor(n/n) ).",
+  "description": "a(n+1) = 1 + a( floor(n/1) ) + a( floor(n/2) ) + ... + a( floor(n/n) ).",
   "id": "A003318",
   "mentions": [
     "A003238"

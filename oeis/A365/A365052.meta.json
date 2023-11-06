@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of continued fraction [1; 4, 9, 16, 25, ... n^2, ... ].",
+  "id": "A365052",
+  "mentions": [
+    "A036245",
+    "A036246",
+    "A052119",
+    "A060997",
+    "A073824",
+    "A226771"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

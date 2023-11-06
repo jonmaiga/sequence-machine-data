@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k neither squarefree nor prime power such that rad(k)*A119288(k) <= k but rad(k)*A053669(k) > k.",
+  "id": "A364998",
+  "mentions": [
+    "A007947",
+    "A053669",
+    "A119288",
+    "A126706",
+    "A355432",
+    "A360432",
+    "A360543",
+    "A360768",
+    "A361098",
+    "A363082",
+    "A364997",
+    "A364999"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

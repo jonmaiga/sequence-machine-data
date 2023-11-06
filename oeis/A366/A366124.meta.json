@@ -1,0 +1,24 @@
+{
+  "description": "The number of distinct prime factors of the largest unitary divisor of n that is a cube (A366126).",
+  "id": "A366124",
+  "mentions": [
+    "A001221",
+    "A079978",
+    "A162641",
+    "A295883",
+    "A318673",
+    "A359472",
+    "A366125",
+    "A366126"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

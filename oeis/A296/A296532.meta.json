@@ -2,6 +2,7 @@
   "description": "Number of nonequivalent noncrossing trees with n edges up to rotation.",
   "id": "A296532",
   "mentions": [
+    "A000139",
     "A001764",
     "A006013",
     "A296533"

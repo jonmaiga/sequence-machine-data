@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci numbers written in base 13. (Next term contains a non-decimal character).",
+  "description": "Fibonacci numbers written in base 13. (Next term contains a non-decimal character.)",
   "id": "A004694",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers not congruent to 25 whose abundancy is odd.",
+  "description": "Odd abundant numbers not divisible by 25 whose abundancy is odd.",
   "id": "A156943",
   "mentions": [
     "A156903",

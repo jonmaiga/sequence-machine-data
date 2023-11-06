@@ -1,7 +1,12 @@
 {
   "description": "The part of n left of the decimal point when written in base e using a greedy algorithm representation.",
   "id": "A105116",
-  "mentions": [],
+  "mentions": [
+    "A001113",
+    "A105424",
+    "A344939",
+    "A363832"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

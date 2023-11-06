@@ -1,5 +1,5 @@
 {
-  "description": "Composite n such that n*sigma(n) == 2 (mod phi(n)).",
+  "description": "Composite numbers k such that k*sigma(k) == 2 (mod phi(k)).",
   "id": "A002270",
   "mentions": [
     "A051948"

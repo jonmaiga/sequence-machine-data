@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of coreful divisors d of n such that n/d is also a coreful divisor.",
+  "id": "A364988",
+  "mentions": [
+    "A000203",
+    "A001694",
+    "A057723",
+    "A307958",
+    "A361430"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

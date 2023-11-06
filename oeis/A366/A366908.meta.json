@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that, for n > 1, a(n) shares a factor with n but does not equal n, while not sharing a factor with a(n-1).",
+  "id": "A366908",
+  "mentions": [
+    "A000027",
+    "A085229",
+    "A093714",
+    "A119018",
+    "A159193"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

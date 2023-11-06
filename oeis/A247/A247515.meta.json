@@ -1,5 +1,5 @@
 {
-  "description": "Where 2*floor(sqrt(prime(n))) < floor(2*sqrt(prime(n))).",
+  "description": "Numbers k such that 2*floor(sqrt(prime(k))) < floor(2*sqrt(prime(k))).",
   "id": "A247515",
   "mentions": [
     "A000006",

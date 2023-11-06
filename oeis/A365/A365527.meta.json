@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..floor((n-2)/4)} Stirling2(n,4*k+2).",
+  "id": "A365527",
+  "mentions": [
+    "A099948",
+    "A365525",
+    "A365526"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

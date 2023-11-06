@@ -1,0 +1,15 @@
+{
+  "description": "Number of three-dimensional embeddings of connected n-edge cubical graphs in I_3 (the 1-skeleton of the unit cube) up to rotations of I_3.",
+  "id": "A366482",
+  "mentions": [],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

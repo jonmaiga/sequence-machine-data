@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 8 a(n-2) - 9 a(n-4).",
+  "description": "a(n) = 8*a(n-2) - 9*a(n-4).",
   "id": "A002536",
   "mentions": [
     "A000051",

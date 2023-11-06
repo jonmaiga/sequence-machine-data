@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gcd(n, A332214(n)), where A332214 is the Mersenne-prime fixing variant of permutation A163511.",
+  "id": "A366373",
+  "mentions": [
+    "A163511",
+    "A332214",
+    "A364254",
+    "A364255",
+    "A366283",
+    "A366372",
+    "A366374",
+    "A366375",
+    "A366376"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

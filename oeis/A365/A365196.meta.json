@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least k such that 2^k + n is not squarefree.",
+  "id": "A365196",
+  "mentions": [
+    "A005117"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

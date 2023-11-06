@@ -3,12 +3,13 @@
   "id": "A103610",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

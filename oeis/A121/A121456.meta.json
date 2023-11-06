@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of q*(psi(-q)psi(-q^3))^2 in powers of q where psi() is a Ramanujan theta function.",
+  "description": "Expansion of q*(psi(-q)*psi(-q^3))^2 in powers of q where psi() is a Ramanujan theta function.",
   "id": "A121456",
   "mentions": [
     "A000122",
@@ -10,6 +10,7 @@
     "A121373"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "sign"

@@ -2,7 +2,8 @@
   "description": "Minimum value unattainable as the sum of 2 attained values of a*b with a,b 0..n integers.",
   "id": "A225256",
   "mentions": [
-    "A225252"
+    "A225252",
+    "A225253"
   ],
   "tags": [
     "nonn"

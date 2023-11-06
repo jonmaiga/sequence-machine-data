@@ -1,13 +1,16 @@
 {
-  "description": "Expansion of 1/(-1 - x - x^2 - x^3 - x^4 + x^5).",
+  "description": "Expansion of -1/(1 + x + x^2 + x^3 + x^4 - x^5).",
   "id": "A124314",
-  "mentions": [],
+  "mentions": [
+    "A124312",
+    "A124313"
+  ],
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 51,
     "source": "joeis"
   }

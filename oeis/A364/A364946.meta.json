@@ -1,0 +1,21 @@
+{
+  "description": "Sixth Lie-Betti number of a path graph on n vertices.",
+  "id": "A364946",
+  "mentions": [
+    "A088459",
+    "A360571",
+    "A361230",
+    "A362007",
+    "A364579"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

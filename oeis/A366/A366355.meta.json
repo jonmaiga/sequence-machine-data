@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (-1)^n * QPochhammer(n, n, n).",
+  "id": "A366355",
+  "mentions": [
+    "A023813"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Lucas(2*n) + 2*(-1)^n + 1.",
+  "id": "A366508",
+  "mentions": [
+    "A005248"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

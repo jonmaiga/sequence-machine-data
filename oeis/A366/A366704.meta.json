@@ -1,0 +1,17 @@
+{
+  "description": "Number of sphinx tilings of T(n+12) with a central T(n) defect where T(k) is an equilateral triangle with side length k.",
+  "id": "A366704",
+  "mentions": [
+    "A279887"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

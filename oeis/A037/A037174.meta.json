@@ -1,7 +1,19 @@
 {
   "description": "Primes which are not the sum of consecutive composite numbers.",
   "id": "A037174",
-  "mentions": [],
+  "mentions": [
+    "A050940",
+    "A060254",
+    "A060328",
+    "A060329",
+    "A060330",
+    "A060331",
+    "A060332",
+    "A060333",
+    "A079149",
+    "A133576",
+    "A197227"
+  ],
   "tags": [
     "nonn"
   ],

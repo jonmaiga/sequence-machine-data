@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n = Sum_{i=1..j}{d_i mod d}, where d_i are their aliquot parts and d is one of them.",
+  "description": "Numbers k such that k = Sum_{i=1..j} (d_i mod d), where d_i are their aliquot parts and d is one of them.",
   "id": "A265646",
   "mentions": [
     "A273124"

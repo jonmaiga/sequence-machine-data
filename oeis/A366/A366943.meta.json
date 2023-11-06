@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms > 0 such that any digit d jumping to the right over d digits lands on a nonprime digit.",
+  "id": "A366943",
+  "mentions": [
+    "A366838",
+    "A366944",
+    "A366945",
+    "A366946",
+    "A366947",
+    "A366948",
+    "A366949"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

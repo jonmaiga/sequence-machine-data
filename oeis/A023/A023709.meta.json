@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with no 1's in base 4 expansion.",
+  "description": "Numbers with no 1's in their base 4 expansion.",
   "id": "A023709",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

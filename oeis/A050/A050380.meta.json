@@ -1,5 +1,5 @@
 {
-  "description": "Number of ordered factorizations into members of A050376 by prime signature. A050379(A025487).",
+  "description": "Number of ordered factorizations into terms of A050376 by prime signature.",
   "id": "A050380",
   "mentions": [
     "A025487",
@@ -7,6 +7,7 @@
     "A050379"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

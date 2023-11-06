@@ -1,7 +1,8 @@
 {
-  "description": "Triangle T(n,k) giving number of immersions of the oriented circle into the oriented plane with n double points and index k.",
+  "description": "Triangle T(n,k) giving number of immersions of the oriented circle into the oriented plane with n double points and index k, k = -n-1, -n+1, ..., n-1, n+1.",
   "id": "A008985",
   "mentions": [
+    "A003239",
     "A008980",
     "A008981",
     "A008982",
@@ -10,14 +11,15 @@
     "A054993"
   ],
   "tags": [
+    "formulas",
     "more",
     "nice",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 0,
-    "size": 27,
+    "offset": -1,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

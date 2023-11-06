@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for n>1, Sum_{i=1..n, a(i)<=n} a(a(i)) is prime.",
+  "id": "A366170",
+  "mentions": [
+    "A054408",
+    "A180405",
+    "A359535"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

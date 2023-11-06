@@ -1,10 +1,11 @@
 {
-  "description": "Sum_{d|2n+1} phi(d)*mu(d).",
+  "description": "a(n) = Sum_{d|2n+1} phi(d)*mu(d).",
   "id": "A054586",
-  "mentions": [],
+  "mentions": [
+    "A276833"
+  ],
   "tags": [
     "formulas",
-    "mult",
     "sign"
   ],
   "terms": {

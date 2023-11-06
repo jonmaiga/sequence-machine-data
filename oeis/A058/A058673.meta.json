@@ -2,9 +2,11 @@
   "description": "Number of matroids on n labeled points.",
   "id": "A058673",
   "mentions": [
+    "A014466",
     "A055545",
     "A058669",
-    "A114491"
+    "A114491",
+    "A306020"
   ],
   "tags": [
     "more",

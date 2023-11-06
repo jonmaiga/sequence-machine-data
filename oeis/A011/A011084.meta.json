@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 4th root of 93.",
   "id": "A011084",
-  "mentions": [],
+  "mentions": [
+    "A010544"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

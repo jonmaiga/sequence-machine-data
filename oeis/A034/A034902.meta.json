@@ -1,5 +1,5 @@
 {
-  "description": "a(i) is square mod a(j), i <> j; a(n) prime; a(1) = 2.",
+  "description": "a(i) is a square mod a(j), i <> j; a(n) prime; a(1) = 2.",
   "id": "A034902",
   "mentions": [
     "A034900",

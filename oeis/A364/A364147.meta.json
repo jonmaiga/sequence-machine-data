@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers that are the exact average of five consecutive odd semiprimes.",
+  "id": "A364147",
+  "mentions": [
+    "A000040",
+    "A046315",
+    "A363074",
+    "A363187",
+    "A363188",
+    "A364148",
+    "A364149"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

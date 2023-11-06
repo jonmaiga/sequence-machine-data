@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes that are the concatenation of two or more semiprimes.",
+  "id": "A365009",
+  "mentions": [
+    "A001238",
+    "A001358",
+    "A019549",
+    "A107342"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

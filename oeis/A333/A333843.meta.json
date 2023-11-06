@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Sum_{k>=1} k * x^(k^3) / (1 - x^(k^3)).",
+  "description": "Expansion of g.f.: Sum_{k>=1} k * x^(k^3) / (1 - x^(k^3)).",
   "id": "A333843",
   "mentions": [
     "A000203",
@@ -10,6 +10,7 @@
     "A333844"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

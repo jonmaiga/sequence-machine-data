@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the smaller real solution to x*2^(1/x) = e.",
+  "id": "A366565",
+  "mentions": [
+    "A001113",
+    "A003149",
+    "A324495"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of iterations of the map G -> Aut(G) on the cyclic group of order n needed to reach stability.",
+  "description": "Number of iterations of the map G -> Aut(G) on the cyclic group of order n needed to reach stability; or -1 if the iteration never stabilizes.",
   "id": "A331921",
   "mentions": [
     "A000010",

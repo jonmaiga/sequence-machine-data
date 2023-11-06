@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared whose binary string value contains at least one binary prime factor of a(n-1).",
+  "id": "A366351",
+  "mentions": [
+    "A027746",
+    "A027748",
+    "A064413",
+    "A365703"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

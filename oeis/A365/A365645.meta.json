@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n*(1 + n)*(10^n - 1)/18.",
+  "id": "A365645",
+  "mentions": [
+    "A365644"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

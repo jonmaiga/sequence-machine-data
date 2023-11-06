@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime divisors of 6^n + 1.",
+  "id": "A366627",
+  "mentions": [
+    "A001221",
+    "A057938",
+    "A062394",
+    "A366615",
+    "A366620"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

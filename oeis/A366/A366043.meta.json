@@ -1,0 +1,19 @@
+{
+  "description": "Number of circular binary sequences of length n with an odd number of 0's and no consecutive 1's.",
+  "id": "A366043",
+  "mentions": [
+    "A000204",
+    "A061347",
+    "A100886"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

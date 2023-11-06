@@ -1,0 +1,24 @@
+{
+  "description": "The number of prime powers of prime numbers (A053810) that divide n.",
+  "id": "A366988",
+  "mentions": [
+    "A000720",
+    "A005117",
+    "A034785",
+    "A053810",
+    "A095691",
+    "A366989",
+    "A366990",
+    "A366993"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

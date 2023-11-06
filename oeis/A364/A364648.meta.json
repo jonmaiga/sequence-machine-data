@@ -1,0 +1,16 @@
+{
+  "description": "Starting position of the first occurrence of the longest monochromatic arithmetic progression of difference n in the Fibonacci infinite word (A003849).",
+  "id": "A364648",
+  "mentions": [
+    "A003849",
+    "A339949"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

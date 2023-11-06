@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A365711(i) = A365711(j) for all i, j >= 1, where A365711 is the Dirichlet inverse of balanced ternary enumeration of integers (A117966).",
+  "id": "A366293",
+  "mentions": [
+    "A117966",
+    "A359377",
+    "A365428",
+    "A365711"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

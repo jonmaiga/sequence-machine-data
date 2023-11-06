@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that squaring each digit and concatenating them forms a palindrome.",
+  "id": "A365374",
+  "mentions": [
+    "A258373",
+    "A366198"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

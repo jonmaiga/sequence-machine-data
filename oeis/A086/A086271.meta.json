@@ -2,6 +2,7 @@
   "description": "Rectangular array T(n,k) of polygonal numbers, by descending antidiagonals.",
   "id": "A086271",
   "mentions": [
+    "A006000",
     "A006522",
     "A086270",
     "A086272",

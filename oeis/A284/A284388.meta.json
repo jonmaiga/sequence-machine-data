@@ -2,7 +2,9 @@
   "description": "0-limiting word of the morphism 0 -> 1, 1 -> 001.",
   "id": "A284388",
   "mentions": [
+    "A003159",
     "A010060",
+    "A026465",
     "A284389",
     "A284390",
     "A284391"

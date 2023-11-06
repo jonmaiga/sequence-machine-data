@@ -1,0 +1,22 @@
+{
+  "description": "The sum of exponentially squarefree divisors of n.",
+  "id": "A365682",
+  "mentions": [
+    "A000203",
+    "A046100",
+    "A209061",
+    "A365680",
+    "A365683"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "The number of ways to express n^n in the form a^b for integers a and b.",
+  "id": "A366161",
+  "mentions": [
+    "A000312",
+    "A366196"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

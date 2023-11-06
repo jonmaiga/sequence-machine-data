@@ -1,8 +1,27 @@
 {
-  "description": "Floor of n*phi^13, where phi is the golden ratio, A001622.",
+  "description": "a(n) = floor(n*phi^13), where phi is the golden ratio, A001622.",
   "id": "A004928",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A004919",
+    "A004920",
+    "A004921",
+    "A004922",
+    "A004923",
+    "A004924",
+    "A004925",
+    "A004926",
+    "A004927",
+    "A004929",
+    "A004930",
+    "A004931",
+    "A004932",
+    "A004933",
+    "A004934",
+    "A004935",
+    "A004976",
+    "A066096",
+    "A090909"
   ],
   "tags": [
     "nonn"
@@ -10,6 +29,6 @@
   "terms": {
     "offset": 0,
     "size": 32,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

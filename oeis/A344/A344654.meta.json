@@ -39,12 +39,11 @@
     "A345192"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

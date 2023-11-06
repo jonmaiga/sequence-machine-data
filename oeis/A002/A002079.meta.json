@@ -1,11 +1,14 @@
 {
-  "description": "N-equivalence classes of threshold gates of exactly n variables.",
+  "description": "Number of N-equivalence classes of threshold functions of exactly n variables.",
   "id": "A002079",
   "mentions": [
+    "A000609",
     "A002077",
-    "A002078"
+    "A002078",
+    "A002080"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

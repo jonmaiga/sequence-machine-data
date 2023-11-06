@@ -1,0 +1,18 @@
+{
+  "description": "Multiply each term by 3 and erase the leftmost digit of the result: this leaves the sequence unchanged.",
+  "id": "A365986",
+  "mentions": [
+    "A317591",
+    "A365987"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

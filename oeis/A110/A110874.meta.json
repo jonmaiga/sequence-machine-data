@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors with multiplicity of 2 + (n^(n+1)).",
+  "description": "Number of prime factors of 2 + n^(n+1) counted with multiplicity.",
   "id": "A110874",
   "mentions": [
     "A001222",
@@ -8,13 +8,12 @@
     "A110676"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
-    "source": "oeis-entry"
+    "size": 86,
+    "source": "oeis-bfile"
   }
 }

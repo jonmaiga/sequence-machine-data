@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} binomial(n+k-1, k)^2 * binomial(2*k-1, n).",
+  "id": "A365029",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

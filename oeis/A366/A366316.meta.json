@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Gamma(1/10) / (Gamma(2/15) * Gamma(7/15)).",
+  "id": "A366316",
+  "mentions": [
+    "A256191"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

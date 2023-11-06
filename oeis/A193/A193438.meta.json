@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp( Sum_{n>=0} x^(4*n+1)/(4*n+1) ).",
+  "description": "Expansion of e.g.f. exp( Sum_{n>=0} x^(4*n+1)/(4*n+1) ).",
   "id": "A193438",
   "mentions": [
     "A000246",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

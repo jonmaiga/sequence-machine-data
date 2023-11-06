@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn 0..1 arrays with no element equal to a strict majority of its horizontal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.",
+  "description": "Number of 3 X n 0..1 arrays with no element equal to a strict majority of its horizontal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.",
   "id": "A279979",
   "mentions": [
     "A279977"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Square array A(n, k), n, k > 0, read and filled by upwards antidiagonals the greedy way with distinct positive integers such that any two distinct terms in the same row or column are coprime.",
+  "id": "A366303",
+  "mentions": [
+    "A336349",
+    "A366030",
+    "A366304"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

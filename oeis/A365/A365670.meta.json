@@ -1,0 +1,21 @@
+{
+  "description": "Number of perfect powers k which are not prime powers, and 1 < k < 10^n.",
+  "id": "A365670",
+  "mentions": [
+    "A001597",
+    "A024619",
+    "A089579",
+    "A131605",
+    "A246655",
+    "A267574"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

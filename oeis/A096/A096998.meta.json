@@ -1,5 +1,5 @@
 {
-  "description": "Consider iteration of the function f(x)=sigma(phi(x))=A062402(x). Sequence gives numbers n such that the trajectory of n returns to n.",
+  "description": "Consider iteration of the function f(x) = sigma(phi(x)) = A062402(x). Sequence lists the numbers k such that the trajectory of k returns to k.",
   "id": "A096998",
   "mentions": [
     "A062402",

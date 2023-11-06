@@ -5,12 +5,13 @@
     "A074072"
   ],
   "tags": [
+    "easy",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 9,
+    "source": "oeis-bfile"
   }
 }

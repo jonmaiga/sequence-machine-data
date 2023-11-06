@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(k-1) * binomial(floor(n/k)+4,5).",
+  "id": "A366723",
+  "mentions": [
+    "A078471",
+    "A365439",
+    "A366395",
+    "A366659",
+    "A366814"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

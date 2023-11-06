@@ -1,9 +1,12 @@
 {
   "description": "Reversion of y - y^2 + y^4 - y^5.",
   "id": "A063026",
-  "mentions": [],
+  "mentions": [
+    "A063019"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

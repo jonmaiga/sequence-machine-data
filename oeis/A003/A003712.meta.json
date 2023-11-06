@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. sin(sin(x)) (odd powers only).",
+  "description": "Expansion of e.g.f. sin(sin(x)) (odd powers only).",
   "id": "A003712",
   "mentions": [
     "A359553",

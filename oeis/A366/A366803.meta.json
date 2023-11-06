@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet convolution of Liouville's lambda with A342001 applied to Doudna sequence: a(n) = A347395(A005940(1+n)).",
+  "id": "A366803",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A005940",
+    "A008836",
+    "A342001",
+    "A347395",
+    "A347396",
+    "A366795",
+    "A366801",
+    "A366805"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

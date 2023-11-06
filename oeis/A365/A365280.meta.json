@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number that starts a run of exactly n numbers that are members of A364462.",
+  "id": "A365280",
+  "mentions": [
+    "A364462",
+    "A365277"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

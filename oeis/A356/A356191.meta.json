@@ -2,6 +2,7 @@
   "description": "a(n) is the smallest exponentially odd number that is divisible by n.",
   "id": "A356191",
   "mentions": [
+    "A001620",
     "A007913",
     "A053143",
     "A053149",
@@ -11,6 +12,7 @@
     "A087320",
     "A087321",
     "A197863",
+    "A256392",
     "A268335",
     "A336643",
     "A350390",

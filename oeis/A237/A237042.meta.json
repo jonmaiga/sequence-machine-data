@@ -1,5 +1,5 @@
 {
-  "description": "UPC check digits.",
+  "description": "UPC check digit for n.",
   "id": "A237042",
   "mentions": [
     "A144468",

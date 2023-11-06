@@ -1,5 +1,5 @@
 {
-  "description": "Centered triangular numbers: a(n) = 3n(n-1)/2 + 1.",
+  "description": "Centered triangular numbers: a(n) = 3*n*(n-1)/2 + 1.",
   "id": "A005448",
   "mentions": [
     "A000051",

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the geometric mean of the isoperimetric quotient of ellipses when expressed in terms of their eccentricity.",
+  "id": "A363876",
+  "mentions": [
+    "A102753",
+    "A363848",
+    "A363874"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

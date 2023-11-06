@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations p of [n] such that max(|p(p(i)) - i|)=1.",
+  "id": "A364819",
+  "mentions": [
+    "A000085",
+    "A364817"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

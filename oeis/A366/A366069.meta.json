@@ -1,0 +1,16 @@
+{
+  "description": "The number of lit cells in weakly increasing partitions of n when light shines from the northwest. Here partitions are represented from left to right by columns of cells.",
+  "id": "A366069",
+  "mentions": [
+    "A000041"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

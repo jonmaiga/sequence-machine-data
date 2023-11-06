@@ -1,0 +1,16 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-dimensional faces of the n-dimensional Kunz cone, 0 <= k <= n.",
+  "id": "A364856",
+  "mentions": [
+    "A007590"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

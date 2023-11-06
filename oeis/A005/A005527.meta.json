@@ -1,5 +1,5 @@
 {
-  "description": "Rational points on curves of genus n over GF(2).",
+  "description": "Maximal number of rational points on a curve of genus n over GF(2).",
   "id": "A005527",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 10,
+    "offset": 0,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

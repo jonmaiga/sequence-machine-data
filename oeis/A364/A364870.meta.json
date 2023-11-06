@@ -1,0 +1,34 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = (n + k)^n, with k >= 0.",
+  "id": "A364870",
+  "mentions": [
+    "A000012",
+    "A000169",
+    "A000272",
+    "A000312",
+    "A007830",
+    "A008785",
+    "A008786",
+    "A008787",
+    "A031973",
+    "A052746",
+    "A052750",
+    "A062971",
+    "A079901",
+    "A085527",
+    "A085528",
+    "A085532",
+    "A099753"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

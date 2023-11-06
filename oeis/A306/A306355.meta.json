@@ -1,8 +1,9 @@
 {
-  "description": "Numbers k such that the period of 1/k, or 0 if 1/k terminates, is strictly greater than the periods of the decimal expansions of 1/m beforehand.",
+  "description": "Numbers k such that the period of 1/k, or 0 if 1/k terminates, is strictly greater than the period of the decimal expansion of 1/m for all m < k.",
   "id": "A306355",
   "mentions": [
     "A001913",
+    "A007732",
     "A051626"
   ],
   "tags": [

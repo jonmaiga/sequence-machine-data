@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(n!-1), where phi is Euler's totient function (A000010).",
+  "id": "A366759",
+  "mentions": [
+    "A000010",
+    "A033312",
+    "A048855",
+    "A366760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 21,
+    "source": "joeis"
+  }
+}

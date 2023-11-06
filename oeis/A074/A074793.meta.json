@@ -2,7 +2,9 @@
   "description": "Sum of prime powers less than or equal to n.",
   "id": "A074793",
   "mentions": [
-    "A034387"
+    "A000196",
+    "A034387",
+    "A081738"
   ],
   "tags": [
     "formulas",

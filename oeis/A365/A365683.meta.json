@@ -1,0 +1,22 @@
+{
+  "description": "The largest exponentially squarefree divisor of n.",
+  "id": "A365683",
+  "mentions": [
+    "A058035",
+    "A070321",
+    "A209061",
+    "A365680",
+    "A365682"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

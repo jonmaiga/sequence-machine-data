@@ -1,0 +1,20 @@
+{
+  "description": "Number of convergent binary relations on [n] (A365534) that converge to a quasi-order relation (A000798).",
+  "id": "A366252",
+  "mentions": [
+    "A000798",
+    "A070322",
+    "A365534",
+    "A366218"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

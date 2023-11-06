@@ -2,6 +2,7 @@
   "description": "Smallest m such that A261923(m) = n.",
   "id": "A262279",
   "mentions": [
+    "A056744",
     "A261923"
   ],
   "tags": [

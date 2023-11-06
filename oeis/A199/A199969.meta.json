@@ -2,12 +2,15 @@
   "description": "a(n) = the greatest non-divisor h of n (1 < h < n), or 0 if no such h exists.",
   "id": "A199969",
   "mentions": [
+    "A000027",
     "A001477",
     "A007978",
     "A011973",
     "A027642",
+    "A028310",
     "A034807",
     "A054977",
+    "A087156",
     "A164555",
     "A199968",
     "A199970",
@@ -16,6 +19,7 @@
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

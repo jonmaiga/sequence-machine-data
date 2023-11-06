@@ -1,7 +1,10 @@
 {
-  "description": "a(1) = 1; for n>1, a(n) = smallest number > a(n-1) such that a(n) + a(k) is squarefree for k = 1 to n-1.",
+  "description": "a(0) = 1; for n > 1, a(n) = smallest number > a(n-1) such that a(n) + a(k) is squarefree for k = 1 to n-1.",
   "id": "A077224",
   "mentions": [
+    "A005117",
+    "A077225",
+    "A080793",
     "A085902"
   ],
   "tags": [
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

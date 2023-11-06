@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (sum of the nonprime proper divisors of n) - (sum of prime divisors of n) = n.",
+  "description": "Numbers k such that (sum of the nonprime proper divisors of k) - (sum of prime divisors of k) = k.",
   "id": "A048055",
   "mentions": [
     "A000203",

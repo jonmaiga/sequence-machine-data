@@ -1,0 +1,22 @@
+{
+  "description": "An irregular triangle read by rows, the 4th row-symmetric Fibonaccian triangle: T(n,k) is the Whitney number of level k of the (4,n)-th symmetric Fibonaccian lattice (0 <= n, 0 <= k <= 3*n).",
+  "id": "A364367",
+  "mentions": [
+    "A001353",
+    "A004148",
+    "A010892",
+    "A316269",
+    "A364366",
+    "A364368"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

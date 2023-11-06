@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A301298.",
+  "id": "A365418",
+  "mentions": [
+    "A301298"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

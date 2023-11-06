@@ -2,9 +2,12 @@
   "description": "Number of 2 X 2 symmetric matrices over Z(n) having determinant 1.",
   "id": "A115076",
   "mentions": [
-    "A000056"
+    "A000056",
+    "A175647",
+    "A243380"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

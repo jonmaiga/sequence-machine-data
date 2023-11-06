@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that is a multiple of the smallest prime that does not divide a(n-1).",
+  "description": "a(1) = 1, for n > 1, a(n) is the smallest positive number that has not yet appeared that is a multiple of the smallest prime that does not divide a(n-1).",
   "id": "A351495",
   "mentions": [
     "A000040",

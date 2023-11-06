@@ -9,6 +9,6 @@
   "terms": {
     "offset": 10,
     "size": 16,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

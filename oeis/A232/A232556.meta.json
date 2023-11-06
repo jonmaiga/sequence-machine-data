@@ -2,6 +2,7 @@
   "description": "Numbers whose sum of proper square divisors is a square greater than 1.",
   "id": "A232556",
   "mentions": [
+    "A035316",
     "A232554",
     "A232555",
     "A232557"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

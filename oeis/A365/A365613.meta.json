@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of partitions p of n such that the greatest multiplicity of the parts of p is a part of p.",
+  "id": "A365613",
+  "mentions": [
+    "A000041",
+    "A365614",
+    "A365615",
+    "A365616"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

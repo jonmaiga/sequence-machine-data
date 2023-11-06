@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the squares of divisors is also a square number.",
+  "description": "Numbers whose sum of the squares of divisors is also a square number.",
   "id": "A046655",
   "mentions": [
     "A000290",

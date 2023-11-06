@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number k such that k*n is a term of A072873.",
+  "id": "A365637",
+  "mentions": [
+    "A072873",
+    "A365636"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,8 @@
   "description": "a(n) is the number of 2 X 2 Euclid-reduced matrices having determinant n.",
   "id": "A357259",
   "mentions": [
+    "A038548",
+    "A079667",
     "A357260"
   ],
   "tags": [

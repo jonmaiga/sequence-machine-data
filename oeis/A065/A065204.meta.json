@@ -1,5 +1,5 @@
 {
-  "description": "Least m such that A065203(m)=n.",
+  "description": "Least m such that A065203(m) = n.",
   "id": "A065204",
   "mentions": [
     "A002110",
@@ -8,12 +8,13 @@
     "A065203"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

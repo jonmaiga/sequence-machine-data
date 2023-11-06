@@ -1,5 +1,5 @@
 {
-  "description": "1000*log(n) rounded to nearest integer.",
+  "description": "a(n) = 1000*log(n) rounded to the nearest integer.",
   "id": "A004241",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 44,
     "source": "joeis"
   }
 }

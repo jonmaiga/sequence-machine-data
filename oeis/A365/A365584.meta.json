@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 + 4 * log(1-x))^(3/4).",
+  "id": "A365584",
+  "mentions": [
+    "A347016",
+    "A354241",
+    "A354264",
+    "A365567"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

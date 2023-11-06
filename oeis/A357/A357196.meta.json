@@ -2,6 +2,7 @@
   "description": "Number of regions in a hexagon when n internal hexagons are drawn between the 6n points that divide each side into n+1 equal parts.",
   "id": "A357196",
   "mentions": [
+    "A227776",
     "A331931",
     "A356984",
     "A357058",

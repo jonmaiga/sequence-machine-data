@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct residues x^4 (mod 2^n), x=0..2^n-1.",
+  "id": "A364811",
+  "mentions": [
+    "A023105",
+    "A046630",
+    "A319281",
+    "A365103"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

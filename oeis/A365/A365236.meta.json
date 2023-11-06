@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number of integer-sided squares that can be packed together with the n squares 1 X 1, 2 X 2, ..., n X n to fill out a rectangle.",
+  "id": "A365236",
+  "mentions": [
+    "A000290",
+    "A005670",
+    "A005842",
+    "A038666",
+    "A081287"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

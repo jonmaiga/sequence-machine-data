@@ -2,6 +2,7 @@
   "description": "Digit sum of A082205(n).",
   "id": "A082206",
   "mentions": [
+    "A007953",
     "A047342",
     "A082204",
     "A082205"
@@ -14,7 +15,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 62,
     "source": "joeis"
   }

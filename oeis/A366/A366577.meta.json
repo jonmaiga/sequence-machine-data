@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of 3^n+1.",
+  "id": "A366577",
+  "mentions": [
+    "A000005",
+    "A034472",
+    "A046798",
+    "A366575",
+    "A366578"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

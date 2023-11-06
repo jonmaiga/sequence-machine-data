@@ -1,0 +1,17 @@
+{
+  "description": "Number of weakly connected components of an addsub configuration graph with respect to integers mod n over a path with two vertices.",
+  "id": "A363893",
+  "mentions": [
+    "A340631",
+    "A346197",
+    "A346401"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

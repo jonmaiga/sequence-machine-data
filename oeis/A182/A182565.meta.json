@@ -3,16 +3,20 @@
   "id": "A182565",
   "mentions": [
     "A085469",
-    "A181152"
+    "A181152",
+    "A182566",
+    "A182567",
+    "A185577",
+    "A185578"
   ],
   "tags": [
     "cons",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Largest proper square divisor of n, for n >= 2; a(1) = 1.",
+  "id": "A365837",
+  "mentions": [
+    "A008833",
+    "A032742",
+    "A063928",
+    "A085392",
+    "A089384",
+    "A093803",
+    "A366524"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

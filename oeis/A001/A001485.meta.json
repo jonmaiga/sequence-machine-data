@@ -2,9 +2,20 @@
   "description": "Expansion of (Product_{j>=1} (1-(-x)^j) - 1)^7 in powers of x.",
   "id": "A001485",
   "mentions": [
-    "A001482"
+    "A001482",
+    "A001483",
+    "A001484",
+    "A001486",
+    "A001487",
+    "A001488",
+    "A047638",
+    "A047649",
+    "A047654",
+    "A047655",
+    "A341243"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

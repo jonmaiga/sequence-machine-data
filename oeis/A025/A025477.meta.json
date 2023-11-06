@@ -1,5 +1,5 @@
 {
-  "description": "Exponent of the n-th nontrivial prime power (A025475).",
+  "description": "a(n) = exponent of the n-th nontrivial prime power A025475(n).",
   "id": "A025477",
   "mentions": [
     "A001222",
@@ -8,11 +8,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 104,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

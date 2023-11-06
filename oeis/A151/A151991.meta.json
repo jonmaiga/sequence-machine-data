@@ -1,7 +1,9 @@
 {
   "description": "Numbers k with the property that (k-x)*(k-y)*(k-z) = x*y*z has no integer solutions 0 < x,y,z < k.",
   "id": "A151991",
-  "mentions": [],
+  "mentions": [
+    "A065091"
+  ],
   "tags": [
     "nonn"
   ],

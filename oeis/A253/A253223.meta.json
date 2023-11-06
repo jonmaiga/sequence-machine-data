@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk nonnegative integer arrays with upper left 0 and lower right its king-move distance away minus 2 and every value within 2 of its king move distance from the upper left and every value increasing by 0 or 1 with every step right, diagonally se or down",
+  "description": "T(n,k) = number of n X k nonnegative integer arrays with upper left 0 and lower right its king-move distance away minus 2 and every value within 2 of its king move distance from the upper left and every value increasing by 0 or 1 with every step right, diagonally se or down.",
   "id": "A253223",
   "mentions": [
     "A000217",

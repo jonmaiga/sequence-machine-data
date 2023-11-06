@@ -1,11 +1,26 @@
 {
-  "description": "a(n)=number of numbers removed in each step of Eratosthenes's sieve for 10^2",
+  "description": "a(n) = number of numbers removed in the n-th step of Eratosthenes's sieve for 10^2.",
   "id": "A145583",
   "mentions": [
     "A006880",
     "A122121",
     "A145532",
+    "A145533",
+    "A145534",
+    "A145535",
+    "A145536",
+    "A145537",
+    "A145538",
+    "A145539",
     "A145540",
+    "A145584",
+    "A145585",
+    "A145586",
+    "A145587",
+    "A145588",
+    "A145589",
+    "A145590",
+    "A145591",
     "A145592"
   ],
   "tags": [

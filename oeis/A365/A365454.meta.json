@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(sigma(n), A156552(2*n)).",
+  "id": "A365454",
+  "mentions": [
+    "A000203",
+    "A000225",
+    "A156552",
+    "A365455",
+    "A365456"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

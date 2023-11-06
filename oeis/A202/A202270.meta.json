@@ -1,8 +1,9 @@
 {
-  "description": "Largest n-digit numbers whose sum of digits is n.",
+  "description": "a(n) is the largest n-digit number whose sum of digits is n.",
   "id": "A202270",
   "mentions": [
-    "A002275"
+    "A061219",
+    "A364578"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

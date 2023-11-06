@@ -1,13 +1,13 @@
 {
-  "description": "Least number m such that 7^m = +- 1 mod 7n + 1.",
+  "description": "Least number m such that 7^m == +- 1 (mod 7n + 1).",
   "id": "A003563",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 58,
+    "offset": 1,
+    "size": 68,
     "source": "joeis"
   }
 }

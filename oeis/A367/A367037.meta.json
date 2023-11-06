@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^3*2^k - 1 is a prime.",
+  "id": "A367037",
+  "mentions": [
+    "A000043",
+    "A002234",
+    "A058781",
+    "A357612"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

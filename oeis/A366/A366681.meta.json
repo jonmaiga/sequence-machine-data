@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of 11^n - 1.",
+  "id": "A366681",
+  "mentions": [
+    "A001221",
+    "A024127",
+    "A102347",
+    "A366682"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

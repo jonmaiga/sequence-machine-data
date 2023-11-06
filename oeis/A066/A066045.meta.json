@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) defined by Sum_{1<=k<=n} T(n,k)*u^k*t^n/n! = exp((1-t)*(1-t^2)*(1-t^3)...)^(-u)-1).",
+  "description": "Triangle T(n,k) defined by Sum_{1<=k<=n} T(n,k)*u^k*t^n/n! = exp(((1-t)*(1-t^2)*(1-t^3)...)^(-u)-1).",
   "id": "A066045",
   "mentions": [
     "A000110",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Coordination sequence Gal.6.235.6 where G.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.",
+  "description": "Coordination sequence Gal.6.235.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.",
   "id": "A311587",
   "mentions": [
     "A250120"

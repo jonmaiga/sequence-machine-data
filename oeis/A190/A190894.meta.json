@@ -2,7 +2,9 @@
   "description": "Auxiliary c(n) sequence used to prove some properties about Rowland's sequence. c(n) has the following recursive definition: c(1) = 5, c_(n+1) = c(n) + lfp(c(n)) - 1, where lpf(.) denotes the lowest prime factor of a number.",
   "id": "A190894",
   "mentions": [
+    "A020639",
     "A106108",
+    "A137613",
     "A190895"
   ],
   "tags": [

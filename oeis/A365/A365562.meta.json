@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed n-polysticks (or polyedges) in 4 dimensions.",
+  "id": "A365562",
+  "mentions": [
+    "A096267",
+    "A365560",
+    "A365561",
+    "A365564"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

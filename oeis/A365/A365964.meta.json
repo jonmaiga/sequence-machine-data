@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is n times the minimum moment of inertia of an n-celled polyomino about an axis through the center of mass perpendicular to the plane of the polyomino, with a unit point mass in the center of each of the cells.",
+  "id": "A365964",
+  "mentions": [
+    "A365963"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

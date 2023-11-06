@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with exactly 2 1's in base 4 expansion.",
+  "description": "Numbers with exactly 2 1's in their base 4 expansion.",
   "id": "A023711",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

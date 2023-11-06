@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers that for some k >= 1 are also the sum of the first k odd primes.",
+  "id": "A364799",
+  "mentions": [
+    "A000217",
+    "A065091",
+    "A066527",
+    "A071148",
+    "A364798"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

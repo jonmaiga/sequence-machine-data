@@ -2,7 +2,9 @@
   "description": "Dimensions of homogeneous subspaces of shuffle algebra over 6-letter alphabet (see A058766 for 2-letter case).",
   "id": "A058821",
   "mentions": [
+    "A000400",
     "A008683",
+    "A032164",
     "A058766"
   ],
   "tags": [

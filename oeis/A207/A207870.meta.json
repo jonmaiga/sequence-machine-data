@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n matched to Zeckendorf polynomials divisible by x+1.",
+  "description": "Numbers k matched to Zeckendorf polynomials divisible by x+1.",
   "id": "A207870",
   "mentions": [
     "A003714",

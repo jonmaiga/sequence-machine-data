@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the absolute value of the real part of the 4 complex roots of x^4 + x^2 + x + 1 = 0.",
+  "id": "A366162",
+  "mentions": [
+    "A366163",
+    "A366164"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

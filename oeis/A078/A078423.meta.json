@@ -2,13 +2,15 @@
   "description": "Group the natural numbers into clumps with increasing prime numbers of elements, then multiply the members of each clump.",
   "id": "A078423",
   "mentions": [
+    "A007504",
     "A034956"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 9,
     "source": "oeis-entry"
   }

@@ -1,8 +1,10 @@
 {
-  "description": "Composite numbers n which divide A001045(n-1).",
+  "description": "Composite numbers k which divide A001045(k-1).",
   "id": "A066488",
   "mentions": [
     "A001045",
+    "A001567",
+    "A002808",
     "A066047"
   ],
   "tags": [

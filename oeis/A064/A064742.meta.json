@@ -2,10 +2,12 @@
   "description": "Total number of primes (with multiplicity) dividing A064413(n).",
   "id": "A064742",
   "mentions": [
+    "A001222",
     "A064413",
     "A064743"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

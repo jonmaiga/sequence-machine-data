@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6Xn 0..1 arrays with no 1 equal to more than one of its horizontal, diagonal and antidiagonal neighbors.",
+  "description": "Number of 6 X n 0..1 arrays with no 1 equal to more than one of its horizontal, diagonal and antidiagonal neighbors.",
   "id": "A283547",
   "mentions": [
     "A283543"

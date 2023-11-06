@@ -1,11 +1,14 @@
 {
-  "description": "A 12 pentagons in dodecagon ( 12 sided polygon) substitution sequence where the substitution is to a pentagon symmetrical around to base note: a start sequence of:Reference A->1,4->C; {4, 4, 4, 4, 9, 9, 4, 4, 11, 11, 4, 4}-> {C,C,C,C,F,F,G,G,G,G,C,C} A classical jazz 12 bar sequence.",
+  "description": "A nonsense sequence.",
   "id": "A132725",
-  "mentions": [],
+  "mentions": [
+    "A133451"
+  ],
   "tags": [
-    "formulas",
+    "dumb",
+    "less",
     "nonn",
-    "uned"
+    "obsc"
   ],
   "terms": {
     "offset": 1,

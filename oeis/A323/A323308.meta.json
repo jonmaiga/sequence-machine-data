@@ -2,9 +2,12 @@
   "description": "The number of exponential semiproper divisors of n.",
   "id": "A323308",
   "mentions": [
+    "A000188",
     "A001694",
     "A007947",
+    "A008833",
     "A034444",
+    "A057521",
     "A061742",
     "A062503",
     "A082020",
@@ -12,6 +15,7 @@
     "A323310"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

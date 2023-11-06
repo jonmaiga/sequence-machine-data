@@ -1,0 +1,17 @@
+{
+  "description": "Records in A365260.",
+  "id": "A366059",
+  "mentions": [
+    "A365260",
+    "A366060"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

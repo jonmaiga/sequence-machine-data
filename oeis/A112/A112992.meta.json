@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that ceiling(2^mod(2^n,n)/3) is odd.",
+  "description": "Numbers k such that ceiling(2^(2^k mod k)/3) is odd.",
   "id": "A112992",
   "mentions": [
     "A001045",

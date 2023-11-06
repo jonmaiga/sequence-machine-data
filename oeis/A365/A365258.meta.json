@@ -1,0 +1,21 @@
+{
+  "description": "The four digits of a(n), their three successive absolute first differences and their two successive absolute second differences are all distinct.",
+  "id": "A365258",
+  "mentions": [
+    "A040114",
+    "A100787",
+    "A270263",
+    "A365257"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

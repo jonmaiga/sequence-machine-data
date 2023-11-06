@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles (of length >=4) in the complement of the n-Mycielski graph.",
+  "id": "A364994",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

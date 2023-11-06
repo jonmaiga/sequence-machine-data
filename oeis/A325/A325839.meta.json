@@ -1,5 +1,5 @@
 {
-  "description": "Exponentially-odd highly composite numbers: numbers with record values of the number of exponentially odd divisors (A325837).",
+  "description": "Exponentially-odd coreful highly composite numbers: numbers with record values of the number of exponentially odd coreful divisors (A325837).",
   "id": "A325839",
   "mentions": [
     "A025487",
@@ -7,6 +7,7 @@
     "A046951",
     "A046952",
     "A268335",
+    "A322484",
     "A325837"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "a(2) = a(3) = 1; for n >3, a(n) = smallest prime factor of n-th Tribonacci number.",
+  "id": "A366583",
+  "mentions": [
+    "A000073",
+    "A020639",
+    "A101757",
+    "A231575"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "joeis"
+  }
+}

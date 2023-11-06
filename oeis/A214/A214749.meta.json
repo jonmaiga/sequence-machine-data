@@ -1,5 +1,5 @@
 {
-  "description": "Least m>0 such that n-m divides n^2+m.",
+  "description": "Least m > 0 such that n - m divides n^2 + m.",
   "id": "A214749",
   "mentions": [
     "A214750"

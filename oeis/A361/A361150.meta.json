@@ -2,9 +2,11 @@
   "description": "a(n) = A014284(n^2) + A014284(n^2-1).",
   "id": "A361150",
   "mentions": [
+    "A008578",
     "A014284"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

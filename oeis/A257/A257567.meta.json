@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the highest power of 3 that divides (prime(n)^2+2).",
+  "description": "a(n) is the largest exponent k such that 3^k divides (prime(n)^2 + 2).",
   "id": "A257567",
   "mentions": [
     "A007949",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 97,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

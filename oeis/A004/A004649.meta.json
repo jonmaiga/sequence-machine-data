@@ -1,7 +1,8 @@
 {
-  "description": "Prime(n) mod (n-1).",
+  "description": "a(n) = prime(n) mod (n-1).",
   "id": "A004649",
   "mentions": [
+    "A004648",
     "A004650"
   ],
   "tags": [

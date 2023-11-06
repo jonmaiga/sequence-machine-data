@@ -1,5 +1,5 @@
 {
-  "description": "Number of tilings of a 8 X n rectangle using dominoes and trominoes (of any shape).",
+  "description": "Number of tilings of an 8 X n rectangle using dominoes and trominoes (of any shape).",
   "id": "A364632",
   "mentions": [
     "A364457"

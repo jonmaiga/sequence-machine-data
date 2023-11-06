@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that S(24*(3*n-1)) <> 16*(3*n-1) mod 24*(3*n-1) where S(n) := sum_{0<=a",
+  "description": "Numbers k such that S(24*(3*k-1)) <> 16*(3*k-1) mod 24*(3*k-1) where S(k) := Sum_{0<=a",
   "id": "A232057",
   "mentions": [
     "A230308",

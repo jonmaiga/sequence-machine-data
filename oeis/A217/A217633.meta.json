@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 arrays of the minimum value of corresponding elements and their horizontal and vertical neighbors in a random 0..1 nX4 array",
+  "description": "Number of n X 4 arrays of the minimum value of corresponding elements and their horizontal and vertical neighbors in a random 0..1 n X 4 array.",
   "id": "A217633",
   "mentions": [
     "A217637"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

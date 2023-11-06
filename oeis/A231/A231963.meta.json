@@ -1,8 +1,10 @@
 {
-  "description": "Concatenate n with its UPC check digit.",
+  "description": "Concatenate n with its UPC check digit, a(n) = 10*n + A237042(n).",
   "id": "A231963",
   "mentions": [
-    "A108773"
+    "A093018",
+    "A108773",
+    "A237042"
   ],
   "tags": [
     "base",

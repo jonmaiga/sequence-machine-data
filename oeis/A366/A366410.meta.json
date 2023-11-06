@@ -1,0 +1,15 @@
+{
+  "description": "Number of linearly independent solutions to the neighbor sum problem on a cubical (3n-1) X (3n-1) X (3n-1) chessboard.",
+  "id": "A366410",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

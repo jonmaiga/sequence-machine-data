@@ -1,5 +1,5 @@
 {
-  "description": "Digits of n^2 appear in n.",
+  "description": "Numbers k in which the digits of k^2 appear.",
   "id": "A029774",
   "mentions": [
     "A029775"

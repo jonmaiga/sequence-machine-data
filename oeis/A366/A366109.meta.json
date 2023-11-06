@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(n!*(3*floor(n/2)!*ceiling(n/2)! + 3*floor((n+2)/2)!*ceiling((n-2)/2)! - 6*floor(n/2)!*ceiling((n-2)/2)!)^(-1)).",
+  "id": "A366109",
+  "mentions": [
+    "A000142",
+    "A004526",
+    "A081123",
+    "A218708",
+    "A366107",
+    "A366108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

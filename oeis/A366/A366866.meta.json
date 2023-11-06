@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary relations R on [n] such that the transitive closure of R contains the identity relation.",
+  "id": "A366866",
+  "mentions": [
+    "A000798",
+    "A003030",
+    "A366252"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element moved by a city block distance of one",
+  "description": "T(n,k) = Number of n X k array permutations with each element moved by a city block distance of one.",
   "id": "A189245",
   "mentions": [
     "A099390"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

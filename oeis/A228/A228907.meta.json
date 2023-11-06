@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n * (1 - A(x)^(2*n))/(1 - A(x)).",
+  "description": "G.f. satisfies: A(x) = 1 + Sum_{n>=0} x^n * (1 - A(x)^(2*n))/(1 - A(x)).",
   "id": "A228907",
   "mentions": [
     "A199548"

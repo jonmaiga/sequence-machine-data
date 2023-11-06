@@ -1,0 +1,25 @@
+{
+  "description": "The number of infinitary divisors of n that are exponentially odd numbers (A268335).",
+  "id": "A363825",
+  "mentions": [
+    "A000005",
+    "A000120",
+    "A005117",
+    "A037445",
+    "A077609",
+    "A268335",
+    "A295878",
+    "A358260"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

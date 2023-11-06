@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the constant E_3(0) := sum {n = 0.. inf} (-1)^floor(n/3)/n! = 1 + 1/1! + 1/2! - 1/3! - 1/4! - 1/5! + + + - - - ... = 2.28494 23824 ... .",
+  "description": "Decimal expansion of the constant E_3(0) := Sum_{n >= 0} (-1)^floor(n/3)/n! = 1 + 1/1! + 1/2! - 1/3! - 1/4! - 1/5! + + + - - - ... .",
   "id": "A143625",
   "mentions": [
     "A143623",

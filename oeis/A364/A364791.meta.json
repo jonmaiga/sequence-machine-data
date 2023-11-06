@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of n X n nonsingular symmetric Toeplitz matrices using all the integers 0, 1, 2, ..., n-1.",
+  "id": "A364791",
+  "mentions": [
+    "A358323",
+    "A358324",
+    "A358326",
+    "A358327",
+    "A364790"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

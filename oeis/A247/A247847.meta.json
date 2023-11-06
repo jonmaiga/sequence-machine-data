@@ -2,7 +2,9 @@
   "description": "Decimal expansion of m = (1-1/e^2)/2, one of Renyi's parking constants.",
   "id": "A247847",
   "mentions": [
+    "A001113",
     "A050996",
+    "A073333",
     "A084255",
     "A092555",
     "A242943",
@@ -12,6 +14,7 @@
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

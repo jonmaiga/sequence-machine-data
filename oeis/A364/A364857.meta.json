@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n^n/E, where E is the expected number of rolls of a fair n-sided die before obtaining 3 consecutive strictly increasing rolls.",
+  "id": "A364857",
+  "mentions": [
+    "A000312"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

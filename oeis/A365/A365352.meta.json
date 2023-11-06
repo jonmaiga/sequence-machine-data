@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to tile a hexagonal strip made up of n equilateral triangles, using singles and triples.",
+  "id": "A365352",
+  "mentions": [
+    "A000930",
+    "A356622",
+    "A356623"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

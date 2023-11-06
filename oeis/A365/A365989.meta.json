@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp( Sum_{k>=0} x^(5*k+4) / (5*k+4) ).",
+  "id": "A365989",
+  "mentions": [
+    "A365895",
+    "A365969",
+    "A365972",
+    "A365974",
+    "A365990"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

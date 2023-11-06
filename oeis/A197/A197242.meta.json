@@ -1,8 +1,14 @@
 {
-  "description": "T(n,k)=Number of nXk 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 4,3,2,1,2 for x=0,1,2,3,4",
+  "description": "T(n,k) = number of n X k 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 4,3,2,1,2 for x=0,1,2,3,4.",
   "id": "A197242",
   "mentions": [
-    "A197211"
+    "A197211",
+    "A197236",
+    "A197237",
+    "A197238",
+    "A197239",
+    "A197240",
+    "A197241"
   ],
   "tags": [
     "nonn",
@@ -10,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

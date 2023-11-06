@@ -1,0 +1,21 @@
+{
+  "description": "Number of self-dual cyclic n-color compositions.",
+  "id": "A365859",
+  "mentions": [
+    "A000204",
+    "A000265",
+    "A032189",
+    "A032198",
+    "A365857",
+    "A365858"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

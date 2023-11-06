@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n with exactly five part sizes.",
+  "id": "A365631",
+  "mentions": [
+    "A000005",
+    "A002133",
+    "A002134",
+    "A060177",
+    "A116608",
+    "A364809",
+    "A365630",
+    "A365676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 15,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

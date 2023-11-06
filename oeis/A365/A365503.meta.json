@@ -1,0 +1,21 @@
+{
+  "description": "In the Collatz (3x+1) problem, number of odd iterates before reaching 1 corresponding to the starting points given by A248037.",
+  "id": "A365503",
+  "mentions": [
+    "A006667",
+    "A014682",
+    "A248037",
+    "A365502"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

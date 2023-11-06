@@ -2,14 +2,16 @@
   "description": "Number of fixed hexagonal polyominoes with n cells and tree-like structure.",
   "id": "A066331",
   "mentions": [
-    "A001207"
+    "A001207",
+    "A038142"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

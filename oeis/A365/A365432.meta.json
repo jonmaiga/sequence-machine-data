@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A156552(A364502(n)), where A364502(n) = A005940(n) / gcd(n, A005940(n)), and A156552 is the inverse of offset-0 version of Doudna-sequence A005940.",
+  "id": "A365432",
+  "mentions": [
+    "A005940",
+    "A156552",
+    "A341520",
+    "A364500",
+    "A364502",
+    "A365430",
+    "A365431"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of 9^n-1.",
+  "id": "A366661",
+  "mentions": [
+    "A000005",
+    "A024101",
+    "A057952",
+    "A366652",
+    "A366662"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

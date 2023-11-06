@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p divides both Apery numbers A005259((p-3)/2) and A005259((p+1)/2).",
+  "description": "Odd primes p such that p divides both Apery numbers A005259((p-3)/2) and A005259((p+1)/2).",
   "id": "A129828",
   "mentions": [
     "A005259"

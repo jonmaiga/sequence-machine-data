@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k whose least prime divisor divides its exponent in the prime factorization of k.",
+  "id": "A365889",
+  "mentions": [
+    "A020639",
+    "A051904",
+    "A342090",
+    "A365883",
+    "A365890",
+    "A365891"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

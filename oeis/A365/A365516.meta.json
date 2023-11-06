@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = (1 + 2*x*A(x))^2 / (1 + 2*x*A(x) - 2*x^3*A(x)^3).",
+  "id": "A365516",
+  "mentions": [
+    "A000108",
+    "A303063",
+    "A365095",
+    "A365574"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

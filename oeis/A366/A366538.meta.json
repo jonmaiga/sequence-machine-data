@@ -1,0 +1,24 @@
+{
+  "description": "The number of unitary divisors of the exponentially 2^n-numbers (A138302).",
+  "id": "A366538",
+  "mentions": [
+    "A034444",
+    "A037445",
+    "A077609",
+    "A077610",
+    "A138302",
+    "A366534",
+    "A366536",
+    "A366539"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

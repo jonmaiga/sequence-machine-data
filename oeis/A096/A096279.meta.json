@@ -2,7 +2,11 @@
   "description": "Sums of successive sums of successive sums of successive sums of successive primes.",
   "id": "A096279",
   "mentions": [
-    "A007443"
+    "A000040",
+    "A001043",
+    "A007443",
+    "A096277",
+    "A096278"
   ],
   "tags": [
     "easy",

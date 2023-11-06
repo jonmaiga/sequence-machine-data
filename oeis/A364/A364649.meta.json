@@ -1,0 +1,14 @@
+{
+  "description": "Maximal number of pairwise non-orthogonal 1-dimensional subspaces over F_3^n.",
+  "id": "A364649",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

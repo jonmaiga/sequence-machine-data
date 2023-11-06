@@ -9,6 +9,7 @@
     "A006958",
     "A015128",
     "A138178",
+    "A238121",
     "A238690",
     "A285175",
     "A296561",
@@ -18,12 +19,12 @@
     "A300122"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

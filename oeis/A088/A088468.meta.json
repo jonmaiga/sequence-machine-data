@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=a([n/2])+a([n/3]), n>0. a(0)=1.",
+  "description": "a(0) = 1, a(n) = a(floor(n/2)) + a(floor(n/3)) for n > 0.",
   "id": "A088468",
   "mentions": [
     "A003586",
@@ -11,6 +11,7 @@
     "A165706"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

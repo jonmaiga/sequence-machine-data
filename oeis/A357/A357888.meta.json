@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the minimal squared length of the longest side of a strictly convex grid polygon of smallest area.",
+  "description": "a(n) is the minimal squared length of the longest side of a strictly convex grid n-gon of smallest area.",
   "id": "A357888",
   "mentions": [
     "A063984",
@@ -11,13 +11,11 @@
     "A322348"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 26,
+    "size": 69,
     "source": "oeis-entry"
   }
 }

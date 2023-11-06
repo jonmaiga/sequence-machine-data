@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest multiple of n that is an exponentially squarefree number (A209061).",
+  "id": "A365684",
+  "mentions": [
+    "A067535",
+    "A209061",
+    "A365685"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

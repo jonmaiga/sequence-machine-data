@@ -1,0 +1,25 @@
+{
+  "description": "The sum of the unitary divisors of the largest square dividing n.",
+  "id": "A365403",
+  "mentions": [
+    "A000290",
+    "A005117",
+    "A008833",
+    "A013662",
+    "A034448",
+    "A078434",
+    "A323308",
+    "A365404"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

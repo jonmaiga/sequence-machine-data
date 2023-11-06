@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. sqrt(sec(sqrt(2)*x)), showing coefficients of only the even powers of x.",
+  "description": "Expansion of e.g.f. sqrt(sec(sqrt(2)*x)), showing coefficients of only the even powers of x.",
   "id": "A126156",
   "mentions": [
     "A087736",
@@ -7,7 +7,8 @@
     "A126155",
     "A126157",
     "A126158",
-    "A241885"
+    "A241885",
+    "A365672"
   ],
   "tags": [
     "formulas",

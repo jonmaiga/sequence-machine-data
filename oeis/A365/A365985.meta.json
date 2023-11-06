@@ -1,0 +1,17 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of binary relations on [n] that are dense (A355730) and have exactly k strongly connected components, n>=0, 0<=k<=n.",
+  "id": "A365985",
+  "mentions": [
+    "A355730"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

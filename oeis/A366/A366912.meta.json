@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A366911: a(1) = 0, and for n > 0, a(n+1) = a(n) + A366911(n).",
+  "id": "A366912",
+  "mentions": [
+    "A064289",
+    "A364054",
+    "A366911",
+    "A366913"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

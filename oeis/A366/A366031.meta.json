@@ -1,0 +1,17 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read and filled by upwards antidiagonals the greedy way with distinct nonnegative integers such that the binary expansions of any two distinct terms in the same row or column or antidiagonal have no common 1's.",
+  "id": "A366031",
+  "mentions": [
+    "A366030"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

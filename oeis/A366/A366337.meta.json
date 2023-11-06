@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed (4,3)-polyominoids with n cells.",
+  "id": "A366337",
+  "mentions": [
+    "A366335",
+    "A366336"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of different sets of integer angles (in degrees) of an n-gon.",
+  "id": "A364795",
+  "mentions": [
+    "A000041",
+    "A000096",
+    "A008284",
+    "A008289",
+    "A066164"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

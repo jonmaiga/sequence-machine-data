@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x^3*A(x)^2*(1 + x*A(x)).",
+  "id": "A365723",
+  "mentions": [
+    "A308616",
+    "A365694",
+    "A365724",
+    "A365725",
+    "A365726"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

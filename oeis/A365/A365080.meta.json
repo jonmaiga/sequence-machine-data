@@ -1,0 +1,19 @@
+{
+  "description": "Inverse permutation to A364885.",
+  "id": "A365080",
+  "mentions": [
+    "A000217",
+    "A006893",
+    "A364885"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

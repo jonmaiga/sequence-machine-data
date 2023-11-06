@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime factors of A001045(n) (Jacobsthal numbers) (counted with multiplicity).",
+  "id": "A366770",
+  "mentions": [
+    "A001045",
+    "A001222",
+    "A038575",
+    "A366769",
+    "A366771"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Fill a triangular array by rows by writing numbers 1 up to b(0), 1 up to b(1), etc., where b(n) are the pentagonal numbers. The final elements of the rows form a(n).",
   "id": "A065221",
   "mentions": [
+    "A000326",
     "A064766",
     "A064865",
     "A065222",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

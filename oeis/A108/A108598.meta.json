@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n*((5+sqrt(5))/4)).",
+  "description": "a(n) = floor(n*((5+sqrt(5))/4)).",
   "id": "A108598",
   "mentions": [
     "A022839",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

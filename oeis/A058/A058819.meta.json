@@ -2,6 +2,7 @@
   "description": "a(0) = 1, a(1) = 4; for n >= 2 a(n) is the number of degree-n monic reducible polynomials over GF(4), i.e., a(n) = 4^n - A027377(n).",
   "id": "A058819",
   "mentions": [
+    "A000302",
     "A027377",
     "A058766"
   ],

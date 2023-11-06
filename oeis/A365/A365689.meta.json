@@ -1,0 +1,20 @@
+{
+  "description": "Final digit (in decimal system) of n^((n+1)^(n+2)) = A030198(n).",
+  "id": "A365689",
+  "mentions": [
+    "A030198",
+    "A103562",
+    "A120962"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

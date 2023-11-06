@@ -1,0 +1,46 @@
+{
+  "description": "Array A(n, k) read by ascending antidiagonals. Polygonal number weighted generalized Catalan sequences.",
+  "id": "A365673",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000290",
+    "A000326",
+    "A000364",
+    "A000384",
+    "A000566",
+    "A000567",
+    "A001147",
+    "A001477",
+    "A001498",
+    "A002105",
+    "A009766",
+    "A011782",
+    "A054556",
+    "A060058",
+    "A080956",
+    "A112934",
+    "A126151",
+    "A126156",
+    "A258837",
+    "A303943",
+    "A305532",
+    "A305533",
+    "A317302",
+    "A365672",
+    "A365674",
+    "A366137",
+    "A366138",
+    "A366149",
+    "A366150"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

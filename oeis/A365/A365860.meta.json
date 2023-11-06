@@ -1,0 +1,23 @@
+{
+  "description": "For every cell of a polyomino let c be the number of cells that are in the same row or in the same column (including itself). a(n) is the sum of the c values of all cells of all free polyominoes with n cells.",
+  "id": "A365860",
+  "mentions": [
+    "A000105",
+    "A000290",
+    "A002378",
+    "A016777",
+    "A057766",
+    "A279019",
+    "A365835"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

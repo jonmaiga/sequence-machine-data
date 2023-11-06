@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to choose 4 disjoint subsets of {1..n} with the same sum and with respectively 1, 2, 3 and 4 distinct elements of {1..n}.",
+  "id": "A363517",
+  "mentions": [
+    "A362717"
+  ],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

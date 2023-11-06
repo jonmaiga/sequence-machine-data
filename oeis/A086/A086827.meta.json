@@ -1,13 +1,16 @@
 {
   "description": "Smaller member of a twin prime pair such that the sum sets a record for number of prime divisors (counted with multiplicity).",
   "id": "A086827",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A001359"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 24,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

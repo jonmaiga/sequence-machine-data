@@ -1,9 +1,12 @@
 {
   "description": "a(n) is the smallest entry of the n-th column of the matrix of Super Catalan numbers S(m,n).",
   "id": "A173781",
-  "mentions": [],
+  "mentions": [
+    "A211419"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "unsolved"
   ],

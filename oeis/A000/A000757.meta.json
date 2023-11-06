@@ -1,5 +1,5 @@
 {
-  "description": "Number of cyclic permutations of [n] with no i->i+1 (mod n)",
+  "description": "Number of cyclic permutations of [n] with no i -> i+1 (mod n).",
   "id": "A000757",
   "mentions": [
     "A000142",

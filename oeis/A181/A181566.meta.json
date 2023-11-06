@@ -1,16 +1,15 @@
 {
-  "description": "Expected number of elements needed to identify an abelian group of order n by testing the order of random elements.",
+  "description": "Minimum number of random elements such that their orders allow identification of an abelian group of order n (sampled uniformly) with probability greater than 1/2.",
   "id": "A181566",
   "mentions": [
     "A181189"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 14,
+    "offset": 1,
+    "size": 95,
     "source": "oeis-entry"
   }
 }

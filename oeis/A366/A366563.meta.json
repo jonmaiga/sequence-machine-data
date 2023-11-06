@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonzero terms in row n of A366561(n,k).",
+  "id": "A366563",
+  "mentions": [
+    "A000005",
+    "A320111",
+    "A366561",
+    "A366562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

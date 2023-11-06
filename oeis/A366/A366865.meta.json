@@ -1,0 +1,18 @@
+{
+  "description": "Largest elements of triples (a, b, c) with a > b > c > 0 such that ab+c, ac+b and bc+a are perfect squares.",
+  "id": "A366865",
+  "mentions": [
+    "A000290",
+    "A366861",
+    "A366862"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

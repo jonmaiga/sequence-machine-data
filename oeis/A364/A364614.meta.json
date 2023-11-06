@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not divisible by any prime of the form 3*k - 1.",
+  "id": "A364614",
+  "mentions": [
+    "A003627",
+    "A215800",
+    "A364832"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

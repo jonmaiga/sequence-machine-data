@@ -2,8 +2,8 @@
   "description": "a(n) is The number of (0,1)-matrices, A = (a_{ij}), of size (3n) X (2n) such that each row has exactly two 1's and each column has exactly three 1's and with the restriction that no 1 stands on the line from a_{11} to a_{22}.",
   "id": "A173791",
   "mentions": [
-    "A173790",
-    "A174789"
+    "A173789",
+    "A173790"
   ],
   "tags": [
     "formulas",

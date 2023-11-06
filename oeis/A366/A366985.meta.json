@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(k+3,3) * floor(n/k).",
+  "id": "A366985",
+  "mentions": [
+    "A006218",
+    "A116963",
+    "A366971",
+    "A366983",
+    "A366984"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

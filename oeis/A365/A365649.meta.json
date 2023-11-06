@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet convolution of sigma with Dedekind psi function.",
+  "id": "A365649",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A001615",
+    "A001620",
+    "A365647",
+    "A365648"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

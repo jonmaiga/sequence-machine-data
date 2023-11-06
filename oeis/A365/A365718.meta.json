@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A365717(i) = A365717(j) for all i, j >= 0, where A365717(n) = A348717(A356867(1+n)).",
+  "id": "A365718",
+  "mentions": [
+    "A005940",
+    "A103391",
+    "A348717",
+    "A356867",
+    "A365715",
+    "A365717",
+    "A365720"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

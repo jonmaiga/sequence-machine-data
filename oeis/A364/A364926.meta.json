@@ -1,0 +1,19 @@
+{
+  "description": "Prime powers (A000961) q such that 2*q+1 is a prime.",
+  "id": "A364926",
+  "mentions": [
+    "A000961",
+    "A005384",
+    "A048184"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of free (4,3)-polyominoids with n cells.",
+  "id": "A366336",
+  "mentions": [
+    "A366334",
+    "A366337",
+    "A366766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

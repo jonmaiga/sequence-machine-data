@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the solution to Ei(x) = x.",
+  "id": "A364521",
+  "mentions": [
+    "A091723",
+    "A091725",
+    "A099285"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

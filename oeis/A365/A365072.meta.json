@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n such that no distinct part can be written as a (strictly) positive linear combination of the other distinct parts.",
+  "id": "A365072",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A085489",
+    "A108917",
+    "A116861",
+    "A151897",
+    "A236912",
+    "A237667",
+    "A325862",
+    "A364272",
+    "A364350",
+    "A364839",
+    "A364910",
+    "A364911",
+    "A364912",
+    "A364913",
+    "A364915",
+    "A364916",
+    "A365006",
+    "A365043",
+    "A365044",
+    "A365068"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

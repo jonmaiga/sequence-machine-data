@@ -1,0 +1,16 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees which are symmetrical about a straight line passing through the root.",
+  "id": "A366142",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

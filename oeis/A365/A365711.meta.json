@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet inverse of balanced ternary enumeration of integers (A117966).",
+  "id": "A365711",
+  "mentions": [
+    "A011655",
+    "A117966",
+    "A359377",
+    "A365428",
+    "A365712",
+    "A365713",
+    "A365803"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

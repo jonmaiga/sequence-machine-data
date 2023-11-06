@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. x^2/(1-x-x^2)^2.",
+  "id": "A364422",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A001629",
+    "A005442"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

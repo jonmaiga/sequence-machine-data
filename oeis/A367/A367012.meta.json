@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k! * (n-k)^k.",
+  "id": "A367012",
+  "mentions": [
+    "A005193",
+    "A026898",
+    "A367011"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

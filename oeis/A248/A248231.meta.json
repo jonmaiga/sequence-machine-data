@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that zeta(5) - sum{1/h^5, h = 1..k} < 1/n^4.",
+  "description": "Least k such that zeta(5) - Sum_{h = 1..k} 1/h^5 < 1/n^4.",
   "id": "A248231",
   "mentions": [
     "A013663",

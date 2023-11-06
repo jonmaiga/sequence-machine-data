@@ -1,0 +1,13 @@
+{
+  "description": "Solutions k to the exponential Diophantine equation k^5 = Sum_{i=1..7} y_i^5 with positive y_i.",
+  "id": "A365020",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

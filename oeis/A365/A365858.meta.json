@@ -1,0 +1,20 @@
+{
+  "description": "Number of cyclic compositions of 2*n-1 into odd parts.",
+  "id": "A365858",
+  "mentions": [
+    "A000010",
+    "A000204",
+    "A032189",
+    "A365857",
+    "A365859"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

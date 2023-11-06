@@ -17,13 +17,12 @@
     "A325368"
   ],
   "tags": [
-    "easy",
     "eigen",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
-    "source": "joeis"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

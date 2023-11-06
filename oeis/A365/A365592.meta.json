@@ -1,0 +1,23 @@
+{
+  "description": "Near-repdigit primes with at least two 1's as the repeated digit.",
+  "id": "A365592",
+  "mentions": [
+    "A105976",
+    "A105978",
+    "A105980",
+    "A105982",
+    "A107979",
+    "A365596",
+    "A365597",
+    "A365598"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

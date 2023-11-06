@@ -1,0 +1,22 @@
+{
+  "description": "Sum of digits when A181821(n) is written in primorial base (A049345).",
+  "id": "A365461",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A122111",
+    "A181821",
+    "A276150",
+    "A324888",
+    "A365460"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

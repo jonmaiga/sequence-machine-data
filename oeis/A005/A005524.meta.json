@@ -1,16 +1,19 @@
 {
-  "description": "k-arcs on elliptic curves over GF(q).",
+  "description": "Values k arising from a construction of Hirschfeld of k-arcs on elliptic curves over GF(q), where q = A246655(n) is the n-th prime power > 1.",
   "id": "A005524",
   "mentions": [
-    "A000961"
+    "A000961",
+    "A005523",
+    "A246655",
+    "A365216"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 44,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
   }
 }

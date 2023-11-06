@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=A089588(2^n+1) for n>=0.",
+  "description": "a(n) = A089587(2^n+1) for n >= 0.",
   "id": "A089588",
   "mentions": [
     "A000215",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the permanent of the n X n matrix M(n) defined by M[i, j, n] = binomial(n*i, j).",
+  "id": "A366361",
+  "mentions": [
+    "A023813"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

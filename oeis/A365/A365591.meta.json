@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that Sum_{i=1..k} prime(i) + i is prime.",
+  "id": "A365591",
+  "mentions": [
+    "A000217",
+    "A007504",
+    "A014688"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

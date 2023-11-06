@@ -2,10 +2,30 @@
   "description": "Number of numerical semigroups with Frobenius number n; that is, numerical semigroups for which the largest integer not belonging to them is n.",
   "id": "A124506",
   "mentions": [
+    "A007865",
     "A066062",
-    "A158206"
+    "A085489",
+    "A088809",
+    "A093971",
+    "A103580",
+    "A116861",
+    "A151897",
+    "A158206",
+    "A237668",
+    "A288728",
+    "A308546",
+    "A326020",
+    "A326083",
+    "A358392",
+    "A364349",
+    "A364350",
+    "A364839",
+    "A364914",
+    "A365046",
+    "A365069"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

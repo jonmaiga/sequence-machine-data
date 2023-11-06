@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(prime(n)#-1) where phi is the Euler totient function and p# is the product of all the primes from 2 to p inclusive.",
+  "id": "A366810",
+  "mentions": [
+    "A000010",
+    "A057588",
+    "A171989",
+    "A366759"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

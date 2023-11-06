@@ -1,10 +1,12 @@
 {
-  "description": "Order of first letter of n-th day of the week.",
+  "description": "Order of first letter of English name of consecutive days of the week starting from a Monday.",
   "id": "A069195",
   "mentions": [
-    "A033986"
+    "A033986",
+    "A049005"
   ],
   "tags": [
+    "less",
     "nonn",
     "word"
   ],

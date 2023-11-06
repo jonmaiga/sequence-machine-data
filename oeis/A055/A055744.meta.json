@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k and phi(k) have same prime factors.",
+  "description": "Numbers k such that k and phi(k) have the same prime factors.",
   "id": "A055744",
   "mentions": [
     "A000010",

@@ -1,0 +1,14 @@
+{
+  "description": "Number of graph minors in the n-double cone graph.",
+  "id": "A366553",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

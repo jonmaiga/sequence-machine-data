@@ -1,13 +1,16 @@
 {
-  "description": "a(n) = sum(p prime and divides n, phi(gcd(p, n/p))) where phi is Euler's totient function.",
+  "description": "a(n) = Sum_{prime p|n} phi(gcd(p, n/p)) where phi is Euler's totient function.",
   "id": "A240086",
   "mentions": [
     "A000010",
+    "A001248",
     "A001616",
+    "A006093",
     "A010051"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

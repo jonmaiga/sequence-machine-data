@@ -1,0 +1,22 @@
+{
+  "description": "The number of square coreful divisors of n.",
+  "id": "A365550",
+  "mentions": [
+    "A001694",
+    "A005361",
+    "A046951",
+    "A188585",
+    "A325837"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

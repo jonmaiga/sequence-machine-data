@@ -1,0 +1,17 @@
+{
+  "description": "Positions of records in A366091.",
+  "id": "A366065",
+  "mentions": [
+    "A366064",
+    "A366091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

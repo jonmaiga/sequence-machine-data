@@ -1,5 +1,5 @@
 {
-  "description": "Array T(n,k) = 19n^2 + 10k^2, read by rows, with 14 columns and 14 rows.",
+  "description": "Array T(n,k) = 19*n^2 + 10*k^2, read by rows, with 14 columns and 14 rows.",
   "id": "A140754",
   "mentions": [
     "A140340",
@@ -8,7 +8,6 @@
   "tags": [
     "easy",
     "fini",
-    "formulas",
     "full",
     "less",
     "nonn",

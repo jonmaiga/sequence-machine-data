@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k! + k^2 + k - 1 is prime.",
+  "id": "A364698",
+  "mentions": [
+    "A066143",
+    "A079649"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

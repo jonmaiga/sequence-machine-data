@@ -1,0 +1,26 @@
+{
+  "description": "The number of unitary divisors of the cubefree numbers (A004709).",
+  "id": "A366536",
+  "mentions": [
+    "A004709",
+    "A005117",
+    "A034444",
+    "A072048",
+    "A077610",
+    "A358040",
+    "A366440",
+    "A366534",
+    "A366537",
+    "A366538"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

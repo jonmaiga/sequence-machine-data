@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n-2) + 2*a(n-4) - a(n-10), with a[0..9] = [1, 1, 1, 1, 1, 2, 3, 5, 6, 9].",
+  "id": "A366143",
+  "mentions": [
+    "A135318"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

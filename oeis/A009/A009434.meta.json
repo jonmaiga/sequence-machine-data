@@ -1,7 +1,14 @@
 {
   "description": "Expansion of e.g.f: log(1+x)/cosh(tanh(x)).",
   "id": "A009434",
-  "mentions": [],
+  "mentions": [
+    "A009405",
+    "A009420",
+    "A009422",
+    "A009433",
+    "A009435",
+    "A009439"
+  ],
   "tags": [
     "easy",
     "sign"

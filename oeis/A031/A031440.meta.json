@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=3 and for n>0 a(n) is the greatest prime factor of a(n-1)^2 - 2.",
+  "description": "a(0) = 3; for n > 0, a(n) is the greatest prime factor of a(n-1)^2 - 2.",
   "id": "A031440",
   "mentions": [],
   "tags": [

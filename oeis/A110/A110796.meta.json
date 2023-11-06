@@ -1,5 +1,5 @@
 {
-  "description": "A110795(n)/n!: least k such that n!*k divided by the largest power of 10( that divides it) is a palindrome.",
+  "description": "A110795(n)/n!: least k such that n!*k divided by the largest power of 10 (that divides it) is a palindrome.",
   "id": "A110796",
   "mentions": [
     "A110795"

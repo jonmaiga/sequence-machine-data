@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x^4 * (A(x) / (1 - x))^3.",
+  "id": "A364403",
+  "mentions": [
+    "A000245",
+    "A213282",
+    "A361932",
+    "A364552"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

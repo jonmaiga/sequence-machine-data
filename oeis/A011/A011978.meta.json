@@ -1,14 +1,15 @@
 {
-  "description": "Covering numbers C(n,6,2) (next term is <= 15).",
+  "description": "Covering numbers C(n,6,2).",
   "id": "A011978",
   "mentions": [],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 6,
-    "size": 13,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

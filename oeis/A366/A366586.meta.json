@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the ratio between the number of cubefree divisors and the number of squarefree divisors.",
+  "id": "A366586",
+  "mentions": [
+    "A005117",
+    "A034444",
+    "A061742",
+    "A073184",
+    "A307869",
+    "A308042",
+    "A308043",
+    "A358659",
+    "A361059",
+    "A361060",
+    "A361061",
+    "A361062",
+    "A366587"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

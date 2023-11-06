@@ -2,6 +2,7 @@
   "description": "Least prime divisor of 2*prime(n)-1.",
   "id": "A023585",
   "mentions": [
+    "A020639",
     "A076274"
   ],
   "tags": [

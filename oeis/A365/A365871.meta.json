@@ -1,0 +1,19 @@
+{
+  "description": "Starts of runs of 3 consecutive integers whose exponent of least prime factor in their prime factorization is even.",
+  "id": "A365871",
+  "mentions": [
+    "A004767",
+    "A067029",
+    "A365869",
+    "A365870"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

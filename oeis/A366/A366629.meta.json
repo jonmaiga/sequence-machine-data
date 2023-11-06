@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of 6^n+1.",
+  "id": "A366629",
+  "mentions": [
+    "A000203",
+    "A057938",
+    "A062394",
+    "A366617",
+    "A366622",
+    "A366628"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

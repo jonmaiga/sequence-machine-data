@@ -1,5 +1,5 @@
 {
-  "description": "Indices of Mersenne primes among primes of the form 24k+7 (A107006).",
+  "description": "Indices of Mersenne primes among primes of the form 24k + 7 (A107006).",
   "id": "A139484",
   "mentions": [
     "A107006",

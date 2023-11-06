@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 1 = Sum_{n=-oo..+oo} x^n * (x^(3*n+1) - A(x))^n.",
+  "id": "A366229",
+  "mentions": [
+    "A355866",
+    "A358937"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

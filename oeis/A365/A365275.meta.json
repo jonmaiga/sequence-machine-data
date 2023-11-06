@@ -1,0 +1,15 @@
+{
+  "description": "Number of integers k <= n that can be written as k = m^2+p^2 where p is a prime and m is a positive integer.",
+  "id": "A365275",
+  "mentions": [
+    "A361300"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

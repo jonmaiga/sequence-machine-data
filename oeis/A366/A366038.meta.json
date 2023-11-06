@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (1/(n+1)) * Sum_{k=0..n} binomial(n+k,k) * binomial(n*(n+1),n-k) * n^k.",
+  "id": "A366038",
+  "mentions": [
+    "A001622",
+    "A006318",
+    "A064063",
+    "A135861",
+    "A291699",
+    "A292798",
+    "A365816",
+    "A366012",
+    "A366016",
+    "A366037"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

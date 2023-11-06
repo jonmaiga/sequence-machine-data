@@ -1,0 +1,19 @@
+{
+  "description": "Minimal number of terms of mixed-sign Egyptian fraction f such that H(n) + f is an integer, where H(n) is the n-th harmonic number.",
+  "id": "A364200",
+  "mentions": [
+    "A106394",
+    "A224820",
+    "A363937"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

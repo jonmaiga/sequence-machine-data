@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n! * lcm({1, 2, .. n + 1}).",
+  "description": "a(n) = n! * lcm({1, 2, ..., n+1}).",
   "id": "A002397",
   "mentions": [
     "A002398",

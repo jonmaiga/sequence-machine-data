@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest permutation of the nonnegative integers with the property that the successive sizes of the gaps between nonprime terms and the successive sizes of the gaps between nonprime digits show the same pattern.",
+  "id": "A365513",
+  "mentions": [
+    "A284516"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

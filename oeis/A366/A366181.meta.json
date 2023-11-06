@@ -1,0 +1,20 @@
+{
+  "description": "The number of 2n-digit integers that can be written as the product of two n-digit integers.",
+  "id": "A366181",
+  "mentions": [
+    "A003991",
+    "A027424",
+    "A366165"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

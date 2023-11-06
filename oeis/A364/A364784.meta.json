@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n for n <= 2. Thereafter if a(n-1) is a novel term, a(n) = a(a(k)) where k is the greatest prior term < a(n-1); otherwise, a(n) = number of times a(n-1) has been repeated.",
+  "id": "A364784",
+  "mentions": [
+    "A000027",
+    "A364749"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

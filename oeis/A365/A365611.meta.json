@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that 10^100000+k is prime.",
+  "id": "A365611",
+  "mentions": [
+    "A000040",
+    "A365612"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

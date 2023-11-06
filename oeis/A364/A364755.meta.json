@@ -1,0 +1,33 @@
+{
+  "description": "Number of subsets of {1..n} containing n but not containing the sum of any two distinct elements.",
+  "id": "A364755",
+  "mentions": [
+    "A007865",
+    "A050291",
+    "A054519",
+    "A085489",
+    "A088809",
+    "A093971",
+    "A151897",
+    "A236912",
+    "A288728",
+    "A326020",
+    "A326080",
+    "A326083",
+    "A364272",
+    "A364349",
+    "A364533",
+    "A364534",
+    "A364756"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The sum of divisors of the smallest exponentially odd number divisible by n.",
+  "id": "A365349",
+  "mentions": [
+    "A000203",
+    "A001620",
+    "A065464",
+    "A356191",
+    "A365348"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

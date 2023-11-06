@@ -1,15 +1,26 @@
 {
   "description": "Powers of 6 written backwards.",
   "id": "A071588",
-  "mentions": [],
+  "mentions": [
+    "A000400",
+    "A004086",
+    "A004094",
+    "A004167",
+    "A071582",
+    "A071583",
+    "A071584",
+    "A071586",
+    "A071587"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

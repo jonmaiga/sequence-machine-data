@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the multiplicative group of residues prime to n, M_n, is isomorphic to M_{n+1}.",
+  "description": "Numbers k such that the multiplicative group of residues prime to k, M_k, is isomorphic to M_{k+1}.",
   "id": "A003276",
   "mentions": [
     "A001274",

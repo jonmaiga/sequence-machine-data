@@ -6,12 +6,11 @@
     "A070911"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

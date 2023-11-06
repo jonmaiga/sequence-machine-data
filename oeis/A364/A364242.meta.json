@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer such that a(n) and a(n)+2 are both products of n distinct prime factors.",
+  "id": "A364242",
+  "mentions": [
+    "A005117",
+    "A052215"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

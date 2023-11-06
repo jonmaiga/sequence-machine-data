@@ -1,5 +1,5 @@
 {
-  "description": "Least number m such that 4^m = +- 1 mod 4n + 1.",
+  "description": "Least number m such that 4^m == +- 1 (mod 4n + 1).",
   "id": "A003560",
   "mentions": [
     "A003573"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 61,
+    "size": 73,
     "source": "joeis"
   }
 }

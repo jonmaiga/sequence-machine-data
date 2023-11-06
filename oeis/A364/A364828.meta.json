@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of regions inside a circle after inscribing (always starting from the same point), for each divisor d_i of n greater than 1, a regular d_i-gon.",
+  "id": "A364828",
+  "mentions": [
+    "A006533",
+    "A006600",
+    "A364829",
+    "A364830",
+    "A364838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

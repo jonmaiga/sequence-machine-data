@@ -1,5 +1,5 @@
 {
-  "description": "Number of intersections of diagonals in the interior of regular n-gon.",
+  "description": "Number of intersections of diagonals in the interior of a regular n-gon.",
   "id": "A006561",
   "mentions": [
     "A001006",

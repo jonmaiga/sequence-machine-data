@@ -5,18 +5,19 @@
     "A000142",
     "A000290",
     "A001044",
-    "A055771",
+    "A055071",
+    "A055772",
     "A056038",
     "A056039",
-    "A134434"
+    "A056067",
+    "A180064"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 24,
-    "source": "joeis"
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
   }
 }

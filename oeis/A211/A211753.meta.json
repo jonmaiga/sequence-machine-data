@@ -1,5 +1,5 @@
 {
-  "description": "Number of -3..3 arrays x(i) of n+1 elements i=1..n+1 with set{t,u,v in 0,1}((x[i+t]+x[j+u]+x[k+v])*(-1)^(t+u+v)) having three, four, five, six or eight distinct values for every i,j,k<=n",
+  "description": "Number of -3..3 arrays x(i) of n+1 elements i=1..n+1 with set{t,u,v in 0,1}((x[i+t]+x[j+u]+x[k+v])*(-1)^(t+u+v)) having three, four, five, six or eight distinct values for every i,j,k<=n.",
   "id": "A211753",
   "mentions": [],
   "tags": [

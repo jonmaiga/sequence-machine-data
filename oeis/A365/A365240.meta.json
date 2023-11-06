@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that k + 4, k + 6, k + 9, k + 10, and k + 14 are all semiprimes, where 4, 6, 9, 10, 14 are the first 5 semiprimes.",
+  "id": "A365240",
+  "mentions": [
+    "A001358"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

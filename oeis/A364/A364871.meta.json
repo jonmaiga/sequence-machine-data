@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = B(n) - A(n), where A(1) = 0, B(1) = 1, and sequences A and B are the lexicographically earliest sequences that start with their respective first terms and contain no term whose binary expansion is the concatenation of any two earlier terms in that sequence.",
+  "id": "A364871",
+  "mentions": [
+    "A365017",
+    "A365018"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,19 +1,21 @@
 {
-  "description": "Total number of exact powers below 10^n (counting duplicates).",
+  "description": "Total number of perfect powers > 1 below 10^n, counting multiple representations separately.",
   "id": "A089580",
   "mentions": [
     "A001597",
+    "A060298",
     "A072103",
     "A089579",
     "A117453",
     "A275358"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = floor(e*(n-1)*(n-1)!)).",
+  "description": "a(n) = floor(e*(n-1)*(n-1)!).",
   "id": "A036918",
   "mentions": [
     "A000522",
+    "A001113",
     "A001339",
     "A038155",
     "A073531",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 22,
     "source": "joeis"
   }
 }

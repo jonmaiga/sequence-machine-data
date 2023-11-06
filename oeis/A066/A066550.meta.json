@@ -2,6 +2,7 @@
   "description": "Sum of digits of n-th term of A066549.",
   "id": "A066550",
   "mentions": [
+    "A033308",
     "A066547",
     "A066549"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

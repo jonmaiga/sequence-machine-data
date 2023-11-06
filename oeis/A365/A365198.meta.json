@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that there exists a complete k-arc on the projective plane over GF(q), where q = A246655(n) is the n-th prime power > 1.",
+  "id": "A365198",
+  "mentions": [
+    "A246655",
+    "A365216"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

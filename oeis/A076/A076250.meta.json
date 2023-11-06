@@ -2,8 +2,9 @@
   "description": "Distance between maxima of the cototient function, divided by 6, starting at n=5.",
   "id": "A076250",
   "mentions": [
-    "A000001",
-    "A051953"
+    "A051953",
+    "A065385",
+    "A076249"
   ],
   "tags": [
     "nonn"
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 5,
     "size": 98,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

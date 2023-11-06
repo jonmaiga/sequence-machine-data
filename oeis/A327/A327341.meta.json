@@ -2,6 +2,7 @@
   "description": "Denominators of the rationals r(n) = (1/n^2)*Phi_1(n), with Phi_1(n) = Sum{k=1..n} psi(k), with Dedekind's psi function.",
   "id": "A327341",
   "mentions": [
+    "A001615",
     "A327340"
   ],
   "tags": [

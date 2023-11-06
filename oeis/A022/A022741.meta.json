@@ -1,13 +1,18 @@
 {
-  "description": "Expansion of Product (1-m*q^m)^-17; m=1..inf.",
+  "description": "Expansion of 1/Product_{m>=1} (1 - m*q^m)^17.",
   "id": "A022741",
-  "mentions": [],
+  "mentions": [
+    "A078308",
+    "A266964",
+    "A297328"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

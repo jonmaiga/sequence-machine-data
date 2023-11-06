@@ -1,5 +1,5 @@
 {
-  "description": "Initial pile sizes which guarantee a win for player 2 in a certain variant of NIM.",
+  "description": "Initial pile sizes which guarantee a win for player 2 in a certain variant of Nim.",
   "id": "A016741",
   "mentions": [],
   "tags": [

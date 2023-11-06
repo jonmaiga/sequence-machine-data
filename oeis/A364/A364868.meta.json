@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 4*k+1 is the norm of a Gaussian prime.",
+  "id": "A364868",
+  "mentions": [
+    "A024702",
+    "A055025",
+    "A364869"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

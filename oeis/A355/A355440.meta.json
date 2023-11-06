@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. Sum_{k>=0} exp(4^k * x) * x^k/k!.",
   "id": "A355440",
   "mentions": [
+    "A002416",
     "A193199",
     "A355395"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

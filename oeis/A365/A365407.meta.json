@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of alpha/Pi, where alpha is the fine-structure constant.",
+  "id": "A365407",
+  "mentions": [
+    "A000796",
+    "A003673",
+    "A195022",
+    "A327950"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

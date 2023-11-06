@@ -1,0 +1,19 @@
+{
+  "description": "Any a(n) replacing the first digit of a(n+1) forms a palindrome. This is the lexicographically earliest sequence of distinct nonnegative integers with this property.",
+  "id": "A366198",
+  "mentions": [
+    "A082216",
+    "A217657",
+    "A318486"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "description": "Absolute difference between A109441 and A100948.",
+  "description": "Absolute differences between A109441 and A100948.",
   "id": "A120722",
   "mentions": [
     "A100948",
     "A109441"
   ],
   "tags": [
-    "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

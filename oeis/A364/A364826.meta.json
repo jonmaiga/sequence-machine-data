@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies A(x) = 1 - x*A(x)^4 * (1 - 3*A(x)).",
+  "id": "A364826",
+  "mentions": [
+    "A025192",
+    "A107841",
+    "A235347",
+    "A243667",
+    "A260332",
+    "A364825",
+    "A364827"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

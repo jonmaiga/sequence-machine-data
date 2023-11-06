@@ -1,0 +1,19 @@
+{
+  "description": "Number of convergent binary relations on [n] (A365534) that converge to an equivalence relation (A000110).",
+  "id": "A366218",
+  "mentions": [
+    "A000110",
+    "A070322",
+    "A365534"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

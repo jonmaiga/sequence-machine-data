@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x*(1-x)*(1+x^5) ).",
+  "id": "A366024",
+  "mentions": [
+    "A063019",
+    "A063026",
+    "A366023"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

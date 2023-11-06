@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Catalan's constant minus Serret's integral, A006752 - A102886.",
+  "id": "A367053",
+  "mentions": [
+    "A006752",
+    "A102886"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Let sopfr(n) = A001414(n) denote the sum of the prime factors of n with multiplicity. The sequence lists numbers n such that if sopfr(n)=m and sopfr(m)=r, then n==r mod m with 0",
+  "description": "Let sopfr(k) = A001414(k) denote the sum of the prime factors of k with multiplicity. This sequence lists the numbers k such that if sopfr(k) = m and sopfr(m) = r, then k == r (mod m) with 0 < r < m.",
   "id": "A190104",
   "mentions": [
     "A001414"

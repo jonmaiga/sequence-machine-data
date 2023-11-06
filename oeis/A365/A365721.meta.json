@@ -1,0 +1,20 @@
+{
+  "description": "The number of distinct prime factors in A356867(1+n), where A356867 is Sycamore's Doudna variant D(3).",
+  "id": "A365721",
+  "mentions": [
+    "A001221",
+    "A069010",
+    "A356867",
+    "A365719",
+    "A365722"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

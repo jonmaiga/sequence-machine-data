@@ -1,9 +1,12 @@
 {
-  "description": "Squares such that digits of sqrt(n) appear in n.",
+  "description": "Squares k^2 in which the digits of k appear.",
   "id": "A029773",
-  "mentions": [],
+  "mentions": [
+    "A029772"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

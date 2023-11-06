@@ -7,13 +7,14 @@
     "A166589"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 56,
     "source": "joeis"
   }
 }

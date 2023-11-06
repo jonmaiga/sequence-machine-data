@@ -1,5 +1,5 @@
 {
-  "description": "Array r(n,m), where r(n,1) = n; r(n,2) = least k such that H(k) - H(n) > 1/n; and for m > 2, r(n,m) = least k such that H(k)-H(r(n,m-1)) > H(n,r(m-1)) - H(r(n,m-2), where H = harmonic number.",
+  "description": "Array r(n,m), where r(n,1) = n; r(n,2) = least k such that H(k) - H(n) > 1/n; and for m > 2, r(n,m) = least k such that H(k)-H(r(n,m-1)) > H(r(n,m-1)) - H(r(n,m-2)), where H = harmonic number.",
   "id": "A224820",
   "mentions": [
     "A000045",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

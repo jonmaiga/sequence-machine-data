@@ -1,0 +1,21 @@
+{
+  "description": "The sum of the divisors of prime(n)#+1 where p# is the product of all the primes from 2 to p inclusive.",
+  "id": "A366812",
+  "mentions": [
+    "A000230",
+    "A006862",
+    "A054988",
+    "A366757",
+    "A366809",
+    "A366811"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

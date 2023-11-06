@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Sum_{n>=1} ( (2 + x^n)^n - 2^n ).",
+  "description": "Expansion of Sum_{n>=1} ( (2 + x^n)^n - 2^n ).",
   "id": "A318637",
   "mentions": [
     "A318636",

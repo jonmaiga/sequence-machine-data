@@ -1,5 +1,5 @@
 {
-  "description": "Denominators in Taylor series for tan(x).",
+  "description": "Denominators in the Taylor series for tan(x).",
   "id": "A036279",
   "mentions": [
     "A000182",

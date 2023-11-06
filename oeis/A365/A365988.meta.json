@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n binary arrays with a path of adjacent 1's from top row to bottom row.",
+  "id": "A365988",
+  "mentions": [
+    "A069343",
+    "A163028",
+    "A359576"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

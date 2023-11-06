@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^3 + x^5*A(x)^13.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^3 + x^5*A(x)^13.",
   "id": "A216493",
   "mentions": [
     "A001764",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

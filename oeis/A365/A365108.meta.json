@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest integer value of (p^n - q^n)/n for all choices of integers p > q >= 0.",
+  "id": "A365108",
+  "mentions": [
+    "A000169",
+    "A020725",
+    "A055860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

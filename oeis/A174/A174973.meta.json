@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose divisors increase by a factor of 2 or less.",
+  "description": "Numbers whose divisors increase by a factor of at most 2.",
   "id": "A174973",
   "mentions": [
     "A000079",
@@ -8,9 +8,12 @@
     "A027750",
     "A047836",
     "A071562",
+    "A103288",
+    "A125225",
     "A196149",
     "A237593",
-    "A238443"
+    "A240062",
+    "A365429"
   ],
   "tags": [
     "formulas",

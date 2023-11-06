@@ -1,0 +1,14 @@
+{
+  "description": "Number of independent vertex sets in the n-Goldberg graph.",
+  "id": "A366515",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

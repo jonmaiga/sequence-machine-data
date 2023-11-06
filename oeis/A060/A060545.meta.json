@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n^2,n)/n.",
+  "description": "a(n) = binomial(n^2, n)/n.",
   "id": "A060545",
   "mentions": [
     "A005563",

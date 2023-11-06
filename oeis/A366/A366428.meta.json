@@ -1,0 +1,19 @@
+{
+  "description": "Hypotenuse numbers w of Pythagorean triples (u, v, w) for which (u^2, v^2, w^2) is an \"abc-hit\".",
+  "id": "A366428",
+  "mentions": [
+    "A007947",
+    "A020882",
+    "A130510",
+    "A366674",
+    "A366675"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

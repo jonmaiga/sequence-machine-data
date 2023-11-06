@@ -1,14 +1,15 @@
 {
-  "description": "Numbers n such that the digits of n are also digits of binomial(2n,n).",
+  "description": "Numbers k such that the digits of k (counted with multiplicity) are also digits of binomial(2k,k).",
   "id": "A066299",
   "mentions": [],
   "tags": [
     "base",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 59,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "joeis"
   }
 }

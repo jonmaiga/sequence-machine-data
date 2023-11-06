@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed n-polysticks (or polyedges) in 3 dimensions.",
+  "id": "A365560",
+  "mentions": [
+    "A096267",
+    "A365559",
+    "A365562",
+    "A365564"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

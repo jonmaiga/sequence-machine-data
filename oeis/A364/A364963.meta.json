@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers k such that k is a multiple of A163511(k).",
+  "id": "A364963",
+  "mentions": [
+    "A083575",
+    "A163511",
+    "A243071",
+    "A364495",
+    "A364496",
+    "A364498",
+    "A364547"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integers that are divisible by the cube of their least prime factor.",
+  "id": "A365866",
+  "mentions": [
+    "A020639",
+    "A046099",
+    "A067029",
+    "A283050",
+    "A365867",
+    "A365868"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

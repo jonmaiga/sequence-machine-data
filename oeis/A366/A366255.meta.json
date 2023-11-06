@@ -1,0 +1,21 @@
+{
+  "description": "Parity of May code (A303767).",
+  "id": "A366255",
+  "mentions": [
+    "A000035",
+    "A053644",
+    "A209229",
+    "A303767",
+    "A366256",
+    "A366257"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

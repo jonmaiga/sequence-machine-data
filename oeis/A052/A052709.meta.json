@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-sqrt(1-4*x-4*x^2))/(2*(1+x)).",
+  "description": "Expansion of g.f. (1-sqrt(1-4*x-4*x^2))/(2*(1+x)).",
   "id": "A052709",
   "mentions": [
     "A000108",
@@ -24,7 +24,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

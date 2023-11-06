@@ -1,0 +1,19 @@
+{
+  "description": "Inverse permutation of A356867, where A356867 is Sycamore's Doudna variant D(3).",
+  "id": "A365390",
+  "mentions": [
+    "A005941",
+    "A356867",
+    "A364958",
+    "A365389"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

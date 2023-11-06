@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = R(r,s) (two color Ramsey numbers).",
+  "description": "Array of Ramsey numbers R(n,k) (n >= 1, k >= 1) read by antidiagonals.3",
   "id": "A212954",
   "mentions": [
     "A000791",

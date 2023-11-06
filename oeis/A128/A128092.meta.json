@@ -2,7 +2,9 @@
   "description": "a(n) = largest multiple of n which is <= 2^n.",
   "id": "A128092",
   "mentions": [
+    "A000079",
     "A000799",
+    "A015910",
     "A128093"
   ],
   "tags": [

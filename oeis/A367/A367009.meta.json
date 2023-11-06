@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of n*2^n + 1.",
+  "id": "A367009",
+  "mentions": [
+    "A000005",
+    "A002064",
+    "A366898",
+    "A367007",
+    "A367008"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

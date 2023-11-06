@@ -1,0 +1,21 @@
+{
+  "description": "An infinite 2d grid is filled with the positive integers by placing them clockwise in the narrow von Neumann's neighborhood of square s, the lowest number with open neighbors. a(n) is then the n-th term when the grid is read as a clockwise square spiral.",
+  "id": "A364130",
+  "mentions": [
+    "A090915",
+    "A174344",
+    "A217010",
+    "A268038",
+    "A337822",
+    "A361207"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

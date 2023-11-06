@@ -1,7 +1,16 @@
 {
   "description": "a(n) = floor(10^7/n).",
   "id": "A033425",
-  "mentions": [],
+  "mentions": [
+    "A033420",
+    "A033421",
+    "A033422",
+    "A033423",
+    "A033424",
+    "A033426",
+    "A033427",
+    "A057072"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

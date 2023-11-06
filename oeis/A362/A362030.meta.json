@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows where row n contains the balanced binary words of length 2n interpreted as binary numbers.",
+  "id": "A362030",
+  "mentions": [
+    "A000225",
+    "A000984",
+    "A036563",
+    "A072601",
+    "A072603",
+    "A083329",
+    "A131568"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

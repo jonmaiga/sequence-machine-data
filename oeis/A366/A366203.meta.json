@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (1/n) * Sum_{k=0..n-1} binomial(n+k-1,k) * binomial(3*n,n-k-1) * (n-3)^k.",
+  "id": "A366203",
+  "mentions": [
+    "A001764",
+    "A060354",
+    "A113207",
+    "A179848",
+    "A263843",
+    "A323208",
+    "A365816",
+    "A365817",
+    "A365818",
+    "A366204"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,6 @@
   "description": "Expansion of (9 * theta_4(q^3)^4 - theta_4(q)^4) / 8 in powers of q.",
   "id": "A118271",
   "mentions": [
-    "A109056",
     "A109506",
     "A118272"
   ],

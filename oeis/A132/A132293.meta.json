@@ -2,7 +2,8 @@
   "description": "Maximal number of right angles in an n-gon.",
   "id": "A132293",
   "mentions": [
-    "A014681"
+    "A014681",
+    "A049008"
   ],
   "tags": [
     "more",

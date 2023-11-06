@@ -1,0 +1,23 @@
+{
+  "description": "First integer > n reached under iteration of map x -> (5/3)*round(x) when started at n, or -1 if no such integer is ever reached.",
+  "id": "A365368",
+  "mentions": [
+    "A087704",
+    "A087705",
+    "A087706",
+    "A087707",
+    "A087708",
+    "A087709",
+    "A365341",
+    "A365342",
+    "A365367"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

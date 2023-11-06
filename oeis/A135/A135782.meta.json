@@ -1,8 +1,9 @@
 {
-  "description": "Positive numbers of the form 3x y^2-x^3 (where x,y are positive integers).",
+  "description": "Positive numbers of the form 3*x*y^2 - x^3 (where x,y are positive integers).",
   "id": "A135782",
   "mentions": [
-    "A135781"
+    "A135781",
+    "A364974"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

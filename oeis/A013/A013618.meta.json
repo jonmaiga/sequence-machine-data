@@ -2,6 +2,7 @@
   "description": "Triangle of coefficients in expansion of (1+11x)^n.",
   "id": "A013618",
   "mentions": [
+    "A001020",
     "A001021"
   ],
   "tags": [
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "OrdinaryUnitarySigma(n): If n = Product p_i^r_i then OUSigma(n) = Sigma(2^r_1)*UnitarySigma(n/2^r_1).",
   "id": "A107749",
   "mentions": [
+    "A000079",
     "A000203",
     "A006519",
     "A034448",
@@ -10,6 +11,7 @@
     "A306633"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

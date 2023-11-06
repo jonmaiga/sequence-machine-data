@@ -1,11 +1,11 @@
 {
-  "description": "Number of matroids on n points.",
+  "description": "Number of unlabeled matroids on n points.",
   "id": "A055545",
   "mentions": [
     "A002773",
     "A053534",
-    "A058718",
-    "A306020"
+    "A058673",
+    "A058718"
   ],
   "tags": [
     "more",

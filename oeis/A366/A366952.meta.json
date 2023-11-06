@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 4; for n > 2, a(n) is the smallest positive number that has not yet appeared that shares a factor with n but does not equal n, and shares a factor with a(n-1).",
+  "id": "A366952",
+  "mentions": [
+    "A000027",
+    "A085229",
+    "A093714",
+    "A119018",
+    "A159193",
+    "A366908"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

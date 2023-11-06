@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = (1 + x)^2 + x*A(x)^4.",
+  "id": "A366698",
+  "mentions": [
+    "A364621",
+    "A366267",
+    "A366699",
+    "A366700"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

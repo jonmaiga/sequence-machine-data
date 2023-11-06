@@ -2,10 +2,13 @@
   "description": "Number of Abelian groups of order 2n+1.",
   "id": "A101871",
   "mentions": [
-    "A000688"
+    "A000688",
+    "A021002",
+    "A048651"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

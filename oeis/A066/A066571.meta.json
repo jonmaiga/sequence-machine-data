@@ -2,7 +2,9 @@
   "description": "Number of sets of positive integers with arithmetic mean n.",
   "id": "A066571",
   "mentions": [
+    "A000009",
     "A000217",
+    "A053632",
     "A066572",
     "A072701",
     "A164283"
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Triangular numbers whose sum of triangular divisors is also triangular and greater than 1.",
   "id": "A209310",
   "mentions": [
+    "A000217",
     "A035316",
     "A185027",
     "A209309"

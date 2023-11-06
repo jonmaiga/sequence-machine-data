@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as the sum of a prime number and a square of a nonnegative integer in exactly n ways.",
+  "id": "A365288",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A002471",
+    "A064283",
+    "A365289",
+    "A365291"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

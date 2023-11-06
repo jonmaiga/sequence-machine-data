@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(k-1) * binomial(k+3,4) * floor(n/k).",
+  "id": "A366939",
+  "mentions": [
+    "A024919",
+    "A365439",
+    "A366723",
+    "A366937",
+    "A366938"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

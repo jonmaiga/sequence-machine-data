@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of subsets of the first n primes whose sum is not a prime.",
+  "id": "A364535",
+  "mentions": [
+    "A000040",
+    "A000295",
+    "A071810",
+    "A262765"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

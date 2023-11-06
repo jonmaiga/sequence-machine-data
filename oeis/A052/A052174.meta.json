@@ -2,7 +2,10 @@
   "description": "Triangle of numbers arising in enumeration of walks on square lattice.",
   "id": "A052174",
   "mentions": [
-    "A005558"
+    "A005558",
+    "A005559",
+    "A005561",
+    "A005562"
   ],
   "tags": [
     "easy",

@@ -1,7 +1,14 @@
 {
-  "description": "Expansion of e.g.f.: log(1+x)/exp(sinh(x)).",
+  "description": "Expansion of e.g.f. log(1+x)/exp(sinh(x)).",
   "id": "A009437",
-  "mentions": [],
+  "mentions": [
+    "A009405",
+    "A009420",
+    "A009422",
+    "A009436",
+    "A009438",
+    "A009439"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

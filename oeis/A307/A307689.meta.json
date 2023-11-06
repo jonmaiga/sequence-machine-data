@@ -1,5 +1,5 @@
 {
-  "description": "The number of rooted binary trees with minimal Colless tree balance index.",
+  "description": "The number of rooted binary trees on n leaves with minimal Colless index.",
   "id": "A307689",
   "mentions": [
     "A296062",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {

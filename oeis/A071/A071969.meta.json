@@ -2,8 +2,12 @@
   "description": "a(n) = Sum_{k=0..floor(n/3)} (binomial(n+1, k)*binomial(2*n-3*k, n-3*k)/(n+1)).",
   "id": "A071969",
   "mentions": [
+    "A006318",
+    "A052709",
     "A071946",
-    "A119254"
+    "A119254",
+    "A365268",
+    "A366025"
   ],
   "tags": [
     "formulas",
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

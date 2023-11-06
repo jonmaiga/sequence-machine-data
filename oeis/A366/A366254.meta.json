@@ -1,0 +1,28 @@
+{
+  "description": "Binary weight of May code (A303767).",
+  "id": "A366254",
+  "mentions": [
+    "A000120",
+    "A001221",
+    "A001222",
+    "A005811",
+    "A053644",
+    "A064547",
+    "A209229",
+    "A234022",
+    "A303760",
+    "A303767",
+    "A303771",
+    "A366255",
+    "A366261"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

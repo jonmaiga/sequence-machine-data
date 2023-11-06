@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the lexicographically earliest continued fraction which equals its own sum of reciprocals.",
+  "id": "A364873",
+  "mentions": [
+    "A364872"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

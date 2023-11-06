@@ -2,7 +2,9 @@
   "description": "Number of permutations of length n that possess the maximal sum of distances between contiguous elements.",
   "id": "A328378",
   "mentions": [
-    "A047838"
+    "A047838",
+    "A070910",
+    "A096789"
   ],
   "tags": [
     "formulas",

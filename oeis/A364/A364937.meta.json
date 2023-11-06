@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least prime p such that p - prime(n) and p + prime(n) are triprimes.",
+  "id": "A364937",
+  "mentions": [
+    "A014612"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "S-weird numbers: S-abundant numbers (A181487) k such that no subset of the aliquot divisors of k that are in the set S sums to k, where S is the set defined in A118372.",
+  "id": "A364862",
+  "mentions": [
+    "A000396",
+    "A005101",
+    "A006037",
+    "A118372",
+    "A181487"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

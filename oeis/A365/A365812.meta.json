@@ -1,0 +1,17 @@
+{
+  "description": "The smallest prime that is formed from the results in A091089.",
+  "id": "A365812",
+  "mentions": [
+    "A091089",
+    "A365813"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

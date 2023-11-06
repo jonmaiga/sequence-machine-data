@@ -1,9 +1,11 @@
 {
-  "description": "Sphenics (products of three distinct primes) whose factors are strong primes.",
+  "description": "Products of three distinct strong primes.",
   "id": "A363782",
   "mentions": [
     "A007304",
-    "A051634"
+    "A051634",
+    "A363167",
+    "A364738"
   ],
   "tags": [
     "nonn"

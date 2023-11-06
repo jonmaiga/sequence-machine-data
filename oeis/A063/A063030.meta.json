@@ -1,7 +1,11 @@
 {
   "description": "Reversion of y - y^2 - y^4 + y^5.",
   "id": "A063030",
-  "mentions": [],
+  "mentions": [
+    "A006013",
+    "A063020",
+    "A063026"
+  ],
   "tags": [
     "easy",
     "formulas",

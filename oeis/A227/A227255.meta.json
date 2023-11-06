@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 binary arrays indicating whether each 2X2 subblock of a larger binary array has lexicographically nondecreasing rows and columns, for some larger (n+1)X6 binary array with rows and columns of the latter in lexicographically nondecreasing order",
+  "description": "Number of n X 5 binary arrays indicating whether each 2 X 2 subblock of a larger binary array has lexicographically nondecreasing rows and columns, for some larger (n+1) X 6 binary array with rows and columns of the latter in lexicographically nondecreasing order.",
   "id": "A227255",
   "mentions": [
     "A227256"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that there is no number k in the range ceiling(sqrt(3n)) <= k <= floor(sqrt(4n)) with k == n mod 2.",
+  "description": "Numbers m with the property that there is no number k in the range ceiling(sqrt(3m)) <= k <= floor(sqrt(4m)) with k == m (mod 2).",
   "id": "A261905",
   "mentions": [],
   "tags": [

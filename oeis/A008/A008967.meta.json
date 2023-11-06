@@ -2,9 +2,19 @@
   "description": "Coefficients of Gaussian polynomials q_binomial(n-2, 2). Also triangle of distribution of rank sums: Wilcoxon's statistic. Irregular triangle read by rows.",
   "id": "A008967",
   "mentions": [
+    "A000009",
+    "A004526",
+    "A004737",
     "A008968",
     "A047971",
-    "A106822"
+    "A053632",
+    "A068911",
+    "A106822",
+    "A167762",
+    "A219238",
+    "A238628",
+    "A365541",
+    "A365544"
   ],
   "tags": [
     "easy",

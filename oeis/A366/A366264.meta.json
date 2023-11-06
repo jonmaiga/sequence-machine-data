@@ -1,0 +1,20 @@
+{
+  "description": "Inverse of A366263, where A366263 is the Doudna sequence permuted by Blue code.",
+  "id": "A366264",
+  "mentions": [
+    "A055396",
+    "A156552",
+    "A193231",
+    "A268389",
+    "A366263"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

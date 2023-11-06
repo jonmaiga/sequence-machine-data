@@ -1,0 +1,15 @@
+{
+  "description": "Number of minors in the n X n knight graph.",
+  "id": "A363815",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the hafnian of the 2n X 2n symmetric matrix defined by M[i, j, n] = min(i, j)*(n + 1) - i*j.",
+  "description": "a(n) is the hafnian of the 2n X 2n symmetric matrix defined by M[i, j] = min(i, j)*(2*n + 1) - i*j.",
   "id": "A362711",
   "mentions": [
     "A000272",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

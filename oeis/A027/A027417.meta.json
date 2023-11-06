@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct products ij with 0 <= i, j <= 2^n - 1.",
+  "description": "Number of distinct products i*j with 0 <= i, j <= 2^n - 1.",
   "id": "A027417",
   "mentions": [
     "A027384",

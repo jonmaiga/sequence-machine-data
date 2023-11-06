@@ -1,14 +1,17 @@
 {
-  "description": "Primes such that digits of p^2 appear in p.",
+  "description": "Primes p such that all digits of p^2 appear in p.",
   "id": "A030083",
-  "mentions": [],
+  "mentions": [
+    "A030084",
+    "A050288"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 28,
-    "source": "joeis"
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

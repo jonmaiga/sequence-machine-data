@@ -3,11 +3,13 @@
   "id": "A361266",
   "mentions": [
     "A003557",
+    "A007947",
     "A059956",
     "A064549",
     "A361264"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

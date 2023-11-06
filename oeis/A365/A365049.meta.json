@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct parallelograms with integer sides and area n, and where at least one height is an integer.",
+  "id": "A365049",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A046079",
+    "A214602",
+    "A224931"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

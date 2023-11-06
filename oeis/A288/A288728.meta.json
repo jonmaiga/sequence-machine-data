@@ -2,7 +2,23 @@
   "description": "Number of sum-free sets that can be created by adding n to all sum-free sets [1..n-1].",
   "id": "A288728",
   "mentions": [
-    "A007865"
+    "A002865",
+    "A007865",
+    "A085489",
+    "A088809",
+    "A093971",
+    "A151897",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A237668",
+    "A326083",
+    "A364345",
+    "A364347",
+    "A364348",
+    "A364534",
+    "A364755",
+    "A364756"
   ],
   "tags": [
     "formulas",

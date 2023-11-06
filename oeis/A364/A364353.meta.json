@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that cannot be expressed as the sum of the squares of four Fibonacci numbers.",
+  "id": "A364353",
+  "mentions": [
+    "A000045",
+    "A007598",
+    "A364354"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

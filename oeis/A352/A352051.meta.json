@@ -2,6 +2,10 @@
   "description": "Sum of the 5th powers of the divisor complements of the odd proper divisors of n.",
   "id": "A352051",
   "mentions": [
+    "A000035",
+    "A006519",
+    "A013664",
+    "A051002",
     "A091954",
     "A352047",
     "A352048",
@@ -14,6 +18,7 @@
     "A352056"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

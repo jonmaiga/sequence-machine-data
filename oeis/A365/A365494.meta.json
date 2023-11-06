@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct n-almost primes in exactly n ways, or -1 if no such number exists.",
+  "id": "A365494",
+  "mentions": [
+    "A091538",
+    "A365493"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

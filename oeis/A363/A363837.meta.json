@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k-th Jacobsthal number A001045(k) is a semiprime.",
+  "id": "A363837",
+  "mentions": [
+    "A001045",
+    "A072381",
+    "A085726",
+    "A101757",
+    "A250292",
+    "A271314",
+    "A277356",
+    "A286567"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

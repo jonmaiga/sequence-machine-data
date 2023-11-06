@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of A001045(n) (Jacobsthal numbers).",
+  "id": "A366772",
+  "mentions": [
+    "A000203",
+    "A001045",
+    "A063477",
+    "A366769",
+    "A366770",
+    "A366771"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "Decimal expansion of 1/819.",
   "id": "A021823",
   "mentions": [
+    "A004642",
     "A010892",
     "A027444",
-    "A077859"
+    "A077859",
+    "A153130"
   ],
   "tags": [
     "cons",

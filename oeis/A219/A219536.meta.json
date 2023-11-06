@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*(A(x)^2 + 2*A(x)^3).",
+  "description": "G.f. satisfies A(x) = 1 + x*(A(x)^2 + 2*A(x)^3).",
   "id": "A219536",
   "mentions": [
     "A003168",

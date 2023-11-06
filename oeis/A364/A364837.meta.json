@@ -1,0 +1,20 @@
+{
+  "description": "Initial digit of 2^(2^n) = A001146(n).",
+  "id": "A364837",
+  "mentions": [
+    "A000030",
+    "A001146",
+    "A362004",
+    "A364789"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

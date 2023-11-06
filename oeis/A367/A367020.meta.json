@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime factor of A000058(n) = A007018(n) + 1 (Sylvester's sequence).",
+  "id": "A367020",
+  "mentions": [
+    "A000058",
+    "A006530",
+    "A007018",
+    "A091335",
+    "A323605"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

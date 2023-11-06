@@ -1,0 +1,20 @@
+{
+  "description": "The number of iterations that n requires to reach 1 under the map x -> A356874(x).",
+  "id": "A364800",
+  "mentions": [
+    "A003434",
+    "A356874",
+    "A364801"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

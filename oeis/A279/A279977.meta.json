@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with no element equal to a strict majority of its horizontal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.",
+  "description": "T(n,k) is the number of n X k 0..1 arrays with no element equal to a strict majority of its horizontal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.",
   "id": "A279977",
   "mentions": [
     "A105423"

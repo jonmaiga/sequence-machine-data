@@ -1,5 +1,5 @@
 {
-  "description": "Number of indecomposable non-abelian groups of order n.",
+  "description": "Number of non-abelian indecomposable groups of order n.",
   "id": "A361414",
   "mentions": [
     "A060689",

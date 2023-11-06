@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest nonnegative integer such that the sum of any seven ordered terms a(k), k<=n (repetitions allowed), is unique.",
+  "id": "A365303",
+  "mentions": [
+    "A025582",
+    "A051912",
+    "A365300",
+    "A365301",
+    "A365302",
+    "A365304",
+    "A365305"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

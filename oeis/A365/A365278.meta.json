@@ -1,0 +1,22 @@
+{
+  "description": "In the binary expansion of n replace each run of k consecutive 1's by the decimal digits of A007931(k) to get the ternary expansion of a(n).",
+  "id": "A365278",
+  "mentions": [
+    "A007931",
+    "A023416",
+    "A032924",
+    "A077267",
+    "A290308",
+    "A365279"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

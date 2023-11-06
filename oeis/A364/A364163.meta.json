@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that average of {prime(i) | k - n <= i <= k + n} is prime(k), or -1 if no such number exists.",
+  "id": "A364163",
+  "mentions": [
+    "A000720",
+    "A082080",
+    "A363168"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

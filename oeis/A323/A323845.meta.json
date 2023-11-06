@@ -1,19 +1,15 @@
 {
-  "description": "For each n >= 2, the number of solutions per geometric iteration of increasingly nearly cube-congruent n-dimension hyper-rectangular solids, where sides and diagonal are all integer length and side lengths vary by <= 1.",
+  "description": "Number of inequivalent height 1 degree n polynomials with nonzero constant term.",
   "id": "A323845",
-  "mentions": [
-    "A001653",
-    "A033889",
-    "A033891",
-    "A122769",
-    "A189356"
-  ],
+  "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 74,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
   }
 }

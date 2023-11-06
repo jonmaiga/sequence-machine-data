@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(binomial(n-1, floor((n-1)/2))/2).",
+  "id": "A366108",
+  "mentions": [
+    "A001405",
+    "A004526",
+    "A218708",
+    "A335322",
+    "A366107",
+    "A366109"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

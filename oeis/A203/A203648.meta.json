@@ -1,7 +1,10 @@
 {
   "description": "a(n) = (1/4) * period of repeating sequence {S(j) mod 2n}, where S(j) is the sum of the first j squares.",
   "id": "A203648",
-  "mentions": [],
+  "mentions": [
+    "A008585",
+    "A109007"
+  ],
   "tags": [
     "easy",
     "formulas",

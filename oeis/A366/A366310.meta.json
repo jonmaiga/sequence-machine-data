@@ -1,0 +1,16 @@
+{
+  "description": "First of a sequence of exactly n consecutive primes whose squares have the same last digit.",
+  "id": "A366310",
+  "mentions": [
+    "A054681"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

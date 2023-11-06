@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{y=1..n} Sum_{x=1..n} [GCD(f(x,y), n) = k], where f(x,y) = x^3 - x^2 - y^2 - y.",
+  "id": "A366362",
+  "mentions": [
+    "A000290",
+    "A001248",
+    "A002070",
+    "A036689",
+    "A060457",
+    "A127649",
+    "A272196",
+    "A320111",
+    "A366346"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

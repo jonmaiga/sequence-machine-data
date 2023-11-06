@@ -2,6 +2,7 @@
   "description": "Numbers n such that n-1, n+1, 2n-1, 2n+1, 4n-1, 4n+1, 8n-1 and 8n+1 are all prime.",
   "id": "A069176",
   "mentions": [
+    "A069175",
     "A118860"
   ],
   "tags": [

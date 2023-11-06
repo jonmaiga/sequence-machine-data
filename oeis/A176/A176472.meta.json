@@ -1,5 +1,5 @@
 {
-  "description": "Smallest m for which A064380(m)-A000010(m)=n",
+  "description": "Smallest m for which A064380(m) - A000010(m) = n.",
   "id": "A176472",
   "mentions": [
     "A000010",

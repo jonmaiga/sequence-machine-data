@@ -1,8 +1,8 @@
 {
-  "description": "T(n,k) = sum( (k-j)^n * binomial(n,j), j=0..k).",
+  "description": "T(n,k) = Sum_{j=0..k} (k-j)^n * binomial(n,j).",
   "id": "A215080",
   "mentions": [
-    "A215077"
+    "A072034"
   ],
   "tags": [
     "formulas",

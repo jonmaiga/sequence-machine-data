@@ -4,16 +4,19 @@
   "mentions": [
     "A001221",
     "A008683",
+    "A046660",
+    "A048105",
     "A246655",
     "A327527"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 95,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

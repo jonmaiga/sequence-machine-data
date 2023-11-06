@@ -1,0 +1,22 @@
+{
+  "description": "The sum of divisors of n that are terms of A056166.",
+  "id": "A366990",
+  "mentions": [
+    "A005117",
+    "A056166",
+    "A095691",
+    "A366988",
+    "A366993"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

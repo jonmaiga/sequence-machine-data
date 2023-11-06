@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = minimum number of pieces needed to dissect a regular n-sided polygon into a monotile, i.e. a polygonal tile which tiles the plane (conjectured).",
+  "id": "A362938",
+  "mentions": [
+    "A110312",
+    "A362939"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

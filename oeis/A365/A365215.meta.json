@@ -1,0 +1,19 @@
+{
+  "description": "Largest k such that the binary representation of 3^k has exactly n 1's, or -1 if no such k exists.",
+  "id": "A365215",
+  "mentions": [
+    "A011754",
+    "A364650",
+    "A365214"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

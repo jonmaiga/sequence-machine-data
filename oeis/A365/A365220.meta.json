@@ -1,0 +1,17 @@
+{
+  "description": "Each term is a \"Go flat integer\" (GFI), but a(n) + a(n+1) is always a \"Go up integer\" (GUI). More details in the Comments section.",
+  "id": "A365220",
+  "mentions": [
+    "A365217",
+    "A365219"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

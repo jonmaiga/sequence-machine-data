@@ -1,5 +1,5 @@
 {
-  "description": "The \"commas\" sequence: a(1) = 1; for n > 1, let x be the least significant digit of a(n-1); then a(n) = a(n-1) + x*10 + y where y is the most significant digit of a(n) and is the smallest such y, if such a y exists. If no such y exists, stop.",
+  "description": "The \"commas\" sequence: the lexicographically earliest sequence of positive numbers with the property that the sequence formed by the pairs of digits adjacent to the commas between the terms is the same as the sequence of successive differences between the terms.",
   "id": "A121805",
   "mentions": [
     "A139284",

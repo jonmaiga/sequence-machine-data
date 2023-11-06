@@ -1,0 +1,25 @@
+{
+  "description": "The number of divisors of the exponentially odd numbers (A268335).",
+  "id": "A366438",
+  "mentions": [
+    "A000005",
+    "A048691",
+    "A072048",
+    "A076400",
+    "A268335",
+    "A358040",
+    "A363194",
+    "A363195",
+    "A366439"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

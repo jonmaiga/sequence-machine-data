@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: -1+Product_{k>=1} (1+prime(k)*x^prime(k)).",
+  "description": "G.f.: -1 + Product_{k>=1} (1 + prime(k)*x^prime(k)).",
   "id": "A002099",
   "mentions": [
     "A002098"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
+    "size": 48,
     "source": "joeis"
   }
 }

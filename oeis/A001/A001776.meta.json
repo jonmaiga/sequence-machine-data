@@ -1,5 +1,5 @@
 {
-  "description": "Dimensions of subspaces of Jordan algebras.",
+  "description": "Dimensions of the Jordan operad.",
   "id": "A001776",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

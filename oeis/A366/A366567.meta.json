@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the mode of the probability distributions from which the expected game lengths in A366566 were determined.",
+  "id": "A366567",
+  "mentions": [
+    "A366166",
+    "A366566"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

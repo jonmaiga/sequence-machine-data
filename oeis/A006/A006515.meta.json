@@ -2,14 +2,17 @@
   "description": "Mersenne numbers with at most 2 prime factors.",
   "id": "A006515",
   "mentions": [
-    "A001348"
+    "A000225",
+    "A001348",
+    "A006514"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

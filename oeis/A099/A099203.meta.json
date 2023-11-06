@@ -1,11 +1,13 @@
 {
-  "description": "Integers divisible by 7 which are sequentially obtained from the decimal extension of square root of 2 (1.414213562373095048801688724209...).",
+  "description": "Integers divisible by 7 which are sequentially obtained from the decimal expansion of sqrt(2) = 1.4142135...",
   "id": "A099203",
   "mentions": [
+    "A002193",
     "A099205"
   ],
   "tags": [
     "base",
+    "less",
     "nonn"
   ],
   "terms": {

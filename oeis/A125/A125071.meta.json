@@ -1,11 +1,15 @@
 {
-  "description": "a(n) = sum of the exponents in the prime-factorization of n which are not primes.",
+  "description": "a(n) = sum of the exponents in the prime factorization of n which are not primes.",
   "id": "A125071",
   "mentions": [
     "A001222",
-    "A125070"
+    "A077761",
+    "A125070",
+    "A191558"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

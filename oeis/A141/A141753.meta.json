@@ -2,6 +2,7 @@
   "description": "Main diagonal of A139755, the table of q-derangement numbers of type A.",
   "id": "A141753",
   "mentions": [
+    "A048651",
     "A139755",
     "A141754"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

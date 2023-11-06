@@ -1,0 +1,18 @@
+{
+  "description": "Antidiagonal sums of A365539.",
+  "id": "A365540",
+  "mentions": [
+    "A000005",
+    "A114003",
+    "A365539"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

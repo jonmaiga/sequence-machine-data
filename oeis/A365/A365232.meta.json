@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k), n >= 0, k = 0..n-1, read by rows and filled the greedy way with distinct nonnegative integers such that the powers of 2 in the binary expansion of T(k, 0) also appear in that of T(n, k).",
+  "id": "A365232",
+  "mentions": [
+    "A365230",
+    "A365233"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

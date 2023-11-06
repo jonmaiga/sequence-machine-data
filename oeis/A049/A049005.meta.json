@@ -5,11 +5,12 @@
   "tags": [
     "dumb",
     "easy",
+    "less",
     "nonn",
     "word"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 105,
     "source": "joeis"
   }

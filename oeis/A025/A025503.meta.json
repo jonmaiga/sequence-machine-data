@@ -2,7 +2,8 @@
   "description": "Least k such that the first k terms of the Kolakoski sequence (A000002) contain n more 2's than 1's.",
   "id": "A025503",
   "mentions": [
-    "A000002"
+    "A000002",
+    "A022327"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

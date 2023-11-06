@@ -2,9 +2,11 @@
   "description": "a(1) = 1, a(2) = 8; for n > 2: a(n) = a(n-1)*(3*a(n-1)-2).",
   "id": "A099175",
   "mentions": [
-    "A000567"
+    "A000567",
+    "A003487"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

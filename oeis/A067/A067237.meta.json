@@ -1,14 +1,20 @@
 {
-  "description": "Numbers n such that gcd(sigma(n),n)=n/5.",
+  "description": "Numbers k such that gcd(sigma(k),k) = k/5.",
   "id": "A067237",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A017666",
+    "A159907",
+    "A229088",
+    "A245775",
+    "A262359"
+  ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 36,
+    "source": "oeis-bfile"
   }
 }

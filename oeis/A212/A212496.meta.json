@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=1..n} (-1)^{k-Omega(k)} with Omega(k) the total number of prime factors of k (counted with multiplicity).",
+  "description": "a(n) = Sum_{k=1..n} (-1)^(k-Omega(k)) with Omega(k) the total number of prime factors of k (counted with multiplicity).",
   "id": "A212496",
   "mentions": [
     "A002819",

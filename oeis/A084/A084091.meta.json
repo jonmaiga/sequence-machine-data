@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of sum(k>=0, x^2^k/(1+x^2^k+x^2^(k+1))).",
+  "description": "Expansion of Sum_{k>=0} x^2^k/(1+x^2^k+x^2^(k+1)).",
   "id": "A084091",
   "mentions": [
     "A002487",
@@ -11,6 +11,7 @@
     "A098725"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "sign"

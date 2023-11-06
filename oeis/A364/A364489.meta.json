@@ -1,0 +1,19 @@
+{
+  "description": "Values of n for which the Sprague-Grundy value of Heat-Charge Toggle on an (n+2)-vertex path with initial weights -1,1^n,-1 is evil for odd n or odious for even n.",
+  "id": "A364489",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A361517",
+    "A363934",
+    "A364503"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

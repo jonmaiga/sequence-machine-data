@@ -1,0 +1,16 @@
+{
+  "description": "First index k where A366574(k) = n.",
+  "id": "A366724",
+  "mentions": [
+    "A366574"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

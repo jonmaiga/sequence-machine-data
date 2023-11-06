@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximum number of dots on the slope of a Ferrers diagram of a partition of n into distinct parts.",
+  "id": "A366509",
+  "mentions": [
+    "A000009",
+    "A000217",
+    "A123578",
+    "A277231"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

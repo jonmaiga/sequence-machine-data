@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling of GAMMA(n+3/7)/GAMMA(3/7).",
+  "description": "Ceiling of Gamma(n+3/7)/Gamma(3/7).",
   "id": "A020122",
   "mentions": [
     "A220608"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

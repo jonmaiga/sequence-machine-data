@@ -2,6 +2,7 @@
   "description": "Number of n X 2 0,1 arrays indicating 2 X 2 subblocks of some larger (n+1) X 3 binary array having a sum of two or less, with rows and columns of the latter in lexicographically nondecreasing order.",
   "id": "A227259",
   "mentions": [
+    "A105163",
     "A227263"
   ],
   "tags": [

@@ -1,0 +1,21 @@
+{
+  "description": "Number of limit dominated binary relations on [n].",
+  "id": "A366722",
+  "mentions": [
+    "A006905",
+    "A070322",
+    "A121337",
+    "A355730",
+    "A365534",
+    "A366194"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

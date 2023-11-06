@@ -1,5 +1,5 @@
 {
-  "description": "Geometric mean of phi(n) and sigma(n) is an integer.",
+  "description": "Numbers k such that the geometric mean of phi(k) and sigma(k) is an integer.",
   "id": "A011257",
   "mentions": [
     "A000043",

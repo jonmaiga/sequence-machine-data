@@ -2,7 +2,9 @@
   "description": "Numbers with the same number of odd / even, refactorable divisors.",
   "id": "A345211",
   "mentions": [
-    "A033950"
+    "A033950",
+    "A157932",
+    "A336041"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

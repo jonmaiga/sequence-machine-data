@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the complete elliptic integral of the first kind at sqrt(2 sqrt(2) - 2).",
+  "description": "Decimal expansion of the complete elliptic integral of the first kind at sqrt(2*sqrt(2) - 2).",
   "id": "A262427",
   "mentions": [
     "A130786"

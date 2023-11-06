@@ -1,7 +1,9 @@
 {
   "description": "The n-th derivative of 1/(1-x-x^2), evaluated at x=1.",
   "id": "A188805",
-  "mentions": [],
+  "mentions": [
+    "A001906"
+  ],
   "tags": [
     "formulas",
     "sign"

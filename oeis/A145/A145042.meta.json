@@ -1,5 +1,5 @@
 {
-  "description": "Primes p (A000043) such that 2^p-1 is prime (A000668) and congruent to 127 mod 6!",
+  "description": "Primes p (A000043) such that 2^p-1 is prime (A000668) and congruent to 127 mod 6!.",
   "id": "A145042",
   "mentions": [
     "A000043",

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/(2*e-5).",
+  "id": "A365307",
+  "mentions": [
+    "A001113",
+    "A019762",
+    "A073333",
+    "A081750",
+    "A113011",
+    "A185108",
+    "A194807"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

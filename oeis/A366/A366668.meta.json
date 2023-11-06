@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of 10^n+1.",
+  "id": "A366668",
+  "mentions": [
+    "A000203",
+    "A057934",
+    "A062397",
+    "A102146",
+    "A344897",
+    "A366666"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

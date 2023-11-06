@@ -1,5 +1,5 @@
 {
-  "description": "Sum of terms in the period of continued fraction for sqrt(n) (A010340) is an square.",
+  "description": "Sum of terms in the period of continued fraction for sqrt(n) (A010340) is a square.",
   "id": "A065114",
   "mentions": [
     "A010340"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

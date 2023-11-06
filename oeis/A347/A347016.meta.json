@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1 / (1 + 4 * log(1 - x))^(1/4).",
+  "description": "Expansion of e.g.f. 1 / (1 + 4 * log(1 - x))^(1/4).",
   "id": "A347016",
   "mentions": [
     "A007696",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

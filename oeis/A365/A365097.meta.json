@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k > 1 such that the total number of digits \"1\" required to write the numbers 1..k in base n is equal to k.",
+  "id": "A365097",
+  "mentions": [
+    "A014778",
+    "A094798",
+    "A226238"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

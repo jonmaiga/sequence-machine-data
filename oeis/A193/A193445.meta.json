@@ -2,6 +2,8 @@
   "description": "a(n) = n! * Sum_{d|n} H(d)*H(n/d), where H(n) is the n-th harmonic number.",
   "id": "A193445",
   "mentions": [
+    "A001008",
+    "A002805",
     "A067710",
     "A193446"
   ],
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

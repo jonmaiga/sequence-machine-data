@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/(Pi-3).",
+  "id": "A365350",
+  "mentions": [
+    "A000796",
+    "A001203",
+    "A194807",
+    "A201775"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

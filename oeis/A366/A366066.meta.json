@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest positive integer k such that n can be expressed as the sum of k distinct positive integers that are coprime to each other.",
+  "id": "A366066",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A014284",
+    "A083375"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

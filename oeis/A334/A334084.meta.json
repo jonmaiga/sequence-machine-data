@@ -2,6 +2,7 @@
   "description": "Integers m such that only 2 binomial coefficients C(m,k), with 0<=k<=m, are practical numbers.",
   "id": "A334084",
   "mentions": [
+    "A000225",
     "A005153",
     "A007318",
     "A334082",

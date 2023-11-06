@@ -2,6 +2,7 @@
   "description": "a(0) = 1, a(1) = 9; for n >= 2 a(n) is the number of degree-n monic reducible polynomials over GF(9), i.e., a(n) = 9^n - A027381(n).",
   "id": "A058824",
   "mentions": [
+    "A001019",
     "A027381",
     "A058766"
   ],

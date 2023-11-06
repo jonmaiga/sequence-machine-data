@@ -1,0 +1,21 @@
+{
+  "description": "The sum of divisors of the largest exponentially odd number dividing n.",
+  "id": "A365337",
+  "mentions": [
+    "A000203",
+    "A065487",
+    "A286324",
+    "A350390"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

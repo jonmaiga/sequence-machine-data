@@ -2,12 +2,16 @@
   "description": "Triangle of scaled central factorial numbers, T(n,k) = A008958(n,n-k).",
   "id": "A160562",
   "mentions": [
+    "A000447",
     "A001819",
+    "A002452",
+    "A002453",
     "A008275",
     "A008277",
     "A008958",
     "A039599",
-    "A136630"
+    "A136630",
+    "A185375"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,27 @@
+{
+  "description": "The sum of divisors d of n such that gcd(d, n/d) is a 3-smooth number (A003586).",
+  "id": "A365209",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002117",
+    "A003586",
+    "A013661",
+    "A034448",
+    "A065330",
+    "A065331",
+    "A306633",
+    "A365208"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

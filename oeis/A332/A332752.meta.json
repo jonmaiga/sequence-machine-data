@@ -1,10 +1,16 @@
 {
-  "description": "The number of permutations of {1,1,1,1,2,2,2,2,...,n,n,n,n} with the property that b(1) >= b(2) >= ... >= b(n) (Four k's are skipped by b(k) for k=1..n).",
+  "description": "The number of permutations of {1,1,1,1,2,2,2,2,...,n,n,n,n} such that each quadruple of k's (k=1..n) is equally spaced with b(k) other elements in between, and b(1) >= b(2) >= ... >= b(n).",
   "id": "A332752",
   "mentions": [
+    "A104430",
     "A261517",
+    "A285698",
     "A322178",
-    "A332748"
+    "A332748",
+    "A332762",
+    "A332773",
+    "A332783",
+    "A332784"
   ],
   "tags": [
     "more",
@@ -12,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

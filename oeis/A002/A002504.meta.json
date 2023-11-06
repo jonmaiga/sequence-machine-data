@@ -1,11 +1,12 @@
 {
-  "description": "Numbers x such that 1 + 3x*(x-1) is a (\"cuban\") prime (cf. A002407).",
+  "description": "Numbers x such that 1 + 3*x*(x-1) is a (\"cuban\") prime (cf. A002407).",
   "id": "A002504",
   "mentions": [
     "A002407",
-    "A133431"
+    "A111251"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

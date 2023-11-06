@@ -1,0 +1,15 @@
+{
+  "description": "Primes p such that the six consecutive primes starting with p are congruent to {6, 5, 4, 3, 2, 1} (mod 7).",
+  "id": "A365309",
+  "mentions": [
+    "A215599"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

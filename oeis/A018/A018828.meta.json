@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is a substring of its square in base 4 (written in base 10).",
+  "description": "Numbers n such that n is a substring of its square (both n and n squared in base 4) (written in base 10).",
   "id": "A018828",
   "mentions": [],
   "tags": [

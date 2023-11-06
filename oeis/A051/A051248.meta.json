@@ -1,5 +1,5 @@
 {
-  "description": "n^a(n) is smallest power of n (with a(n) > 1) which starts with n.",
+  "description": "n^a(n) is the smallest power of n (with a(n) > 1) which starts with n.",
   "id": "A051248",
   "mentions": [
     "A045537",

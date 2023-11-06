@@ -1,13 +1,16 @@
 {
-  "description": "Numbers k such that Fib(k) == 3 (mod k).",
+  "description": "Numbers k such that Fibonacci(k) == 3 (mod k).",
   "id": "A023175",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A001175"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

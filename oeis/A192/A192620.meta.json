@@ -2,6 +2,7 @@
   "description": "G.f. satisfies: A(x) = Product_{n>=1} (1 + x^n*A(x))^2/(1 - x^n*A(x))^2.",
   "id": "A192620",
   "mentions": [
+    "A190862",
     "A192621",
     "A192622",
     "A192623",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

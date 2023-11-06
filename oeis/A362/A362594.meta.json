@@ -1,0 +1,23 @@
+{
+  "description": "Exponentially odd numbers that are neither squarefree nor prime powers.",
+  "id": "A362594",
+  "mentions": [
+    "A005117",
+    "A059956",
+    "A065463",
+    "A097054",
+    "A126706",
+    "A246551",
+    "A268335",
+    "A301517"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

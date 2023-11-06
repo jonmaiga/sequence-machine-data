@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: A113547 without its initial column of 1's.",
+  "id": "A362926",
+  "mentions": [
+    "A113547",
+    "A362924"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

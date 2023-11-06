@@ -2,6 +2,8 @@
   "description": "Series reversion of x*(1-3*x^2)/(1-x^2) in odd-order powers.",
   "id": "A235347",
   "mentions": [
+    "A027307",
+    "A107841",
     "A235352"
   ],
   "tags": [

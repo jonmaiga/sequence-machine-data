@@ -1,0 +1,20 @@
+{
+  "description": "Starts of runs of 3 consecutive integers that are divisible by the square of their least prime factor.",
+  "id": "A365865",
+  "mentions": [
+    "A004767",
+    "A067029",
+    "A070258",
+    "A283050",
+    "A365864"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

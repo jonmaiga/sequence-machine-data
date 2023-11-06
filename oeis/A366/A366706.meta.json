@@ -1,0 +1,14 @@
+{
+  "description": "Number of permutations of length n avoiding the permutations 13452, 13542, 14253, 14352, 14532, 15243, 15342, 15432, 24153, and 25143.",
+  "id": "A366706",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

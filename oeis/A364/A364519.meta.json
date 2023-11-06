@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) = [x^(3*k)] ( (1 + x)^(n+3)/(1 - x)^(n-3) )^k for n, k >= 0.",
+  "id": "A364519",
+  "mentions": [
+    "A005810",
+    "A066802",
+    "A211420",
+    "A276098",
+    "A295431",
+    "A330843",
+    "A364303",
+    "A364518",
+    "A364520"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

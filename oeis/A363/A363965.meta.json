@@ -1,0 +1,19 @@
+{
+  "description": "Binary palindromic numbers whose digit sum and aliquot sum are also binary palindromic.",
+  "id": "A363965",
+  "mentions": [
+    "A001065",
+    "A006995",
+    "A007088",
+    "A007953"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

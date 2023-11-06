@@ -1,5 +1,5 @@
 {
-  "description": "Cyclic numbers: k such that k and phi(k) are relatively prime; also k such that there is just one group of order k, i.e., A000001(n) = 1.",
+  "description": "Cyclic numbers: k such that k and phi(k) are relatively prime; also k such that there is just one group of order k, i.e., A000001(k) = 1.",
   "id": "A003277",
   "mentions": [
     "A000001",

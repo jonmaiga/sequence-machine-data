@@ -1,0 +1,42 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions with sum <= n and with distinct parts summing to k.",
+  "id": "A364911",
+  "mentions": [
+    "A000009",
+    "A000012",
+    "A000027",
+    "A000041",
+    "A000070",
+    "A002865",
+    "A008284",
+    "A008289",
+    "A008619",
+    "A066328",
+    "A114638",
+    "A116608",
+    "A116861",
+    "A137719",
+    "A179009",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A364350",
+    "A364839",
+    "A364910",
+    "A364912",
+    "A364913",
+    "A364915",
+    "A364916",
+    "A365002",
+    "A365004"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

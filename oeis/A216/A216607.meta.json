@@ -2,7 +2,8 @@
   "description": "The sequence used to represent partition binary diagram as an array.",
   "id": "A216607",
   "mentions": [
-    "A025672"
+    "A025672",
+    "A167268"
   ],
   "tags": [
     "easy",

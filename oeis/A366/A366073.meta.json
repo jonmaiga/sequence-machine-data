@@ -1,0 +1,22 @@
+{
+  "description": "The number of composite \"Fermi-Dirac primes\" (A082522) dividing n.",
+  "id": "A366073",
+  "mentions": [
+    "A000523",
+    "A050376",
+    "A064547",
+    "A071325",
+    "A082522",
+    "A366074"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

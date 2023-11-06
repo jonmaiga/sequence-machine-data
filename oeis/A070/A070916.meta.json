@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n) is the smallest integer => a(n-1) such that a(n)a(n-1)-1 is prime.",
+  "description": "a(1)=1, a(n) is the smallest integer >= a(n-1) such that a(n)*a(n-1) - 1 is prime.",
   "id": "A070916",
   "mentions": [],
   "tags": [

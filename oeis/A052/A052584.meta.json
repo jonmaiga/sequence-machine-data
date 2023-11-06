@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. (2-4x+x^2)/((1-x)(1-2x)).",
+  "description": "Expansion of e.g.f. (2 - 4*x + x^2)/((1 - x)*(1 - 2*x)).",
   "id": "A052584",
   "mentions": [
     "A000051",

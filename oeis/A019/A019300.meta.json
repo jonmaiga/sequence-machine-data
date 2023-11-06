@@ -2,9 +2,12 @@
   "description": "First n elements of Thue-Morse sequence A010060 read as a binary number.",
   "id": "A019300",
   "mentions": [
-    "A010060"
+    "A010060",
+    "A048707",
+    "A320916"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,17 @@
+{
+  "description": "Moving the rightmost digit of a number to place it furthest to the left adds 18 to the number.",
+  "id": "A363823",
+  "mentions": [
+    "A010785",
+    "A363820"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

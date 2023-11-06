@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors of the largest 4th power dividing n.",
+  "id": "A365490",
+  "mentions": [
+    "A000005",
+    "A000583",
+    "A008835",
+    "A046100",
+    "A053164",
+    "A063775"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

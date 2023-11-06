@@ -1,5 +1,5 @@
 {
-  "description": "Nearest integer to n*phi^17, where phi is the golden ratio, A001622.",
+  "description": "a(n) = round(n*phi^17), where phi is the golden ratio, A001622.",
   "id": "A004952",
   "mentions": [
     "A001622",

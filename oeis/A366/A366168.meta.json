@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the second derivative of the n-th Bernoulli polynomial B(n,x).",
+  "id": "A366168",
+  "mentions": [
+    "A094960",
+    "A144845",
+    "A195441",
+    "A324370",
+    "A366169"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

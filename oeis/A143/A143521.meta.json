@@ -1,10 +1,11 @@
 {
-  "description": "G.f.: Sum_{k>0} k * x^k / (1 + (-x)^k)^2.",
+  "description": "Expansion of g.f. Sum_{k>0} k * x^k / (1 + (-x)^k)^2.",
   "id": "A143521",
   "mentions": [
     "A038040"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "sign"

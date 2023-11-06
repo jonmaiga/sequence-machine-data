@@ -1,13 +1,9 @@
 {
-  "description": "Union of triangular numbers, even squares, and one less the odd squares, without duplicates.",
+  "description": "Sorted union of the numbers (k + 1)^2 - 1, (2*k + 1)*(2*k + 1 - 1)/2, (2*k)^2, (2*k)*(2*k - 1)/2 for k >= 0, with duplicates removed.",
   "id": "A109441",
-  "mentions": [
-    "A000217",
-    "A016742",
-    "A033996",
-    "A120722"
-  ],
+  "mentions": [],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {

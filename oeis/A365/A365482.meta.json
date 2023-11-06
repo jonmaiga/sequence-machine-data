@@ -1,0 +1,20 @@
+{
+  "description": "In the Collatz (3x+1) problem, values in A006884 for which the maximum excursion ratio (see comments) is greater than 2.",
+  "id": "A365482",
+  "mentions": [
+    "A006884",
+    "A014682",
+    "A365478",
+    "A365483"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

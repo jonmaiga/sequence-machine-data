@@ -1,0 +1,22 @@
+{
+  "description": "Number of free (4,3)-polyominoids with n cells, allowing right-angled (or hard) connections only.",
+  "id": "A366340",
+  "mentions": [
+    "A075679",
+    "A365654",
+    "A366336",
+    "A366338",
+    "A366341",
+    "A366766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

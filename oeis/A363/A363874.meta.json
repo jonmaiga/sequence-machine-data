@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the harmonic mean of the isoperimetric quotient of ellipses when expressed in terms of their eccentricity.",
+  "id": "A363874",
+  "mentions": [
+    "A091476",
+    "A363848",
+    "A363876"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the index of the last occurrence of n in A364443, or -1 if n doesn't occur.",
+  "id": "A364732",
+  "mentions": [
+    "A077773",
+    "A364341",
+    "A364443",
+    "A364729",
+    "A364730",
+    "A364731"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 6*n is squarefree.",
+  "description": "Numbers k such that 6*k is squarefree.",
   "id": "A276378",
   "mentions": [
     "A003961",

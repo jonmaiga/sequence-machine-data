@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least semiprime such that a(n) - n and a(n) + n are the previous and the next semiprimes.",
+  "id": "A365222",
+  "mentions": [
+    "A001358",
+    "A213025"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

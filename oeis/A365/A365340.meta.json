@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (4*n)!/(3*n+1)!.",
+  "id": "A365340",
+  "mentions": [
+    "A001761",
+    "A001763",
+    "A004331",
+    "A052795",
+    "A061924",
+    "A365341"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

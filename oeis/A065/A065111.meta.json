@@ -1,8 +1,9 @@
 {
-  "description": "Dead-end primes in \"The Prime Number Maze.\"",
+  "description": "Dead-end primes in \"The Prime Number Maze\" reachable from 2.",
   "id": "A065111",
   "mentions": [
-    "A065092"
+    "A065092",
+    "A365001"
   ],
   "tags": [
     "base",

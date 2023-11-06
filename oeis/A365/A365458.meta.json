@@ -1,0 +1,20 @@
+{
+  "description": "The largest power of 3 that is less than or equal to n.",
+  "id": "A365458",
+  "mentions": [
+    "A000244",
+    "A062153",
+    "A064235",
+    "A080342",
+    "A365459"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

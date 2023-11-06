@@ -1,0 +1,18 @@
+{
+  "description": "Number of possible chmess games at the end of the n-th ply.",
+  "id": "A366476",
+  "mentions": [
+    "A006494",
+    "A048987"
+  ],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

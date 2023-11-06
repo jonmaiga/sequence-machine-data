@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number having exactly n ways to be represented as sum of at least two consecutive positive integers and expressible as sum of n consecutive positive integers, or 0 is no such number exists.",
+  "description": "a(n) is the smallest number having exactly n ways to be represented as sum of at least two consecutive positive integers and expressible as sum of n consecutive positive integers, or 0 if no such number exists.",
   "id": "A316744",
   "mentions": [
     "A000265",

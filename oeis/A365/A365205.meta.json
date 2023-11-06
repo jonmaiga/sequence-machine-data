@@ -1,0 +1,21 @@
+{
+  "description": "Centered pentachoral numbers.",
+  "id": "A365205",
+  "mentions": [
+    "A005448",
+    "A005898",
+    "A362863",
+    "A365204",
+    "A365206"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

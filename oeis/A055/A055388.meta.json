@@ -1,5 +1,5 @@
 {
-  "description": "Number of riffle shuffles of 2n cards required to return the deck to initial state.",
+  "description": "Number of riffle shuffles of 2n cards required to return the deck to its initial state.",
   "id": "A055388",
   "mentions": [],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "Number of free n-polysticks (or polyedges) in arbitrary dimension.",
+  "id": "A365565",
+  "mentions": [
+    "A005519",
+    "A019988",
+    "A365559",
+    "A365561",
+    "A365563",
+    "A365566"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

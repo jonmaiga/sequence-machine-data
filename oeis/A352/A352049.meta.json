@@ -2,7 +2,11 @@
   "description": "Sum of the cubes of the divisor complements of the odd proper divisors of n.",
   "id": "A352049",
   "mentions": [
+    "A000035",
+    "A006519",
+    "A051000",
     "A091954",
+    "A300707",
     "A352047",
     "A352048",
     "A352050",
@@ -14,6 +18,7 @@
     "A352056"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

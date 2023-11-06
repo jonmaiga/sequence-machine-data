@@ -1,0 +1,19 @@
+{
+  "description": "Sphenic numbers k such that none of k-2, k-1, k+1 and k+2 is squarefree.",
+  "id": "A362561",
+  "mentions": [
+    "A007304",
+    "A013929",
+    "A153215",
+    "A364010",
+    "A364905"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

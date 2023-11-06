@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the smallest number k such that the number of divisors of the n numbers from k through k+n-1 are in (nonstrictly) ascending order.",
+  "description": "a(n) = the smallest number k such that the number of divisors of the n numbers from k through k+n-1 are in nondescending order.",
   "id": "A075046",
   "mentions": [
     "A006073",

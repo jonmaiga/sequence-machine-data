@@ -1,0 +1,19 @@
+{
+  "description": "Sum of balanced ternary enumeration of integers (A117966) and its Dirichlet inverse.",
+  "id": "A365712",
+  "mentions": [
+    "A117966",
+    "A365711",
+    "A365714",
+    "A365804"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Locations of records in A365196.",
+  "id": "A365239",
+  "mentions": [
+    "A364455",
+    "A365196"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

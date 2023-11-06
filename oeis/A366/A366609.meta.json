@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime dividing 4^n + 1.",
+  "id": "A366609",
+  "mentions": [
+    "A002586",
+    "A052539",
+    "A074476",
+    "A274903",
+    "A366608"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

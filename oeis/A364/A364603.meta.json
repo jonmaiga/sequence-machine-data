@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence where after the m-th appearance of term z, it is banned from re-appearing in the next m*z terms.",
+  "id": "A364603",
+  "mentions": [
+    "A364448",
+    "A364449",
+    "A364604"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

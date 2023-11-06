@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions p of n that are disjoint from their complement.",
+  "description": "Number of partitions p of n that are disjoint from their conjugate.",
   "id": "A240674",
   "mentions": [
     "A114701",

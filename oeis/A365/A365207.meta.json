@@ -1,0 +1,30 @@
+{
+  "description": "The number of divisors d of n such that gcd(d, n/d) is a power of 2 (A000079).",
+  "id": "A365207",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000265",
+    "A001620",
+    "A006519",
+    "A007814",
+    "A013661",
+    "A034444",
+    "A038838",
+    "A042968",
+    "A073002",
+    "A107749",
+    "A122132"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

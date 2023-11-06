@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = numerator of n/(n+11).",
+  "description": "a(n) = numerator(n/(n+11)).",
   "id": "A106612",
   "mentions": [
     "A026741",

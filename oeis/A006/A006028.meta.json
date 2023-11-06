@@ -1,5 +1,5 @@
 {
-  "description": "Weight distribution of [ 128,99,8 ] 4th order Reed-Muller code RM(4,7).",
+  "description": "Weight distribution of [ 128,99,8 ] 4th-order Reed-Muller code RM(4,7).",
   "id": "A006028",
   "mentions": [
     "A006006",

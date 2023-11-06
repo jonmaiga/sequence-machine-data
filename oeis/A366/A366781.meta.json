@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime divisors of A000073(n) (tribonacci numbers) (counted with multiplicity).",
+  "id": "A366781",
+  "mentions": [
+    "A000073",
+    "A001222",
+    "A022307",
+    "A366780",
+    "A366782"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

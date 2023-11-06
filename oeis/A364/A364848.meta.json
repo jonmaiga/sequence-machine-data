@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles (of length >= 4) in the complement of the n-cube connected cycle graph.",
+  "id": "A364848",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

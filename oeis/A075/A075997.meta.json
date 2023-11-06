@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = [n/2]-[n/3]+[n/4]-[n/5]+[n/6]-..., where [n/k] = floor(n/k).",
+  "description": "a(n) = [n/2] - [n/3] + [n/4] - [n/5] + [n/6] - ..., where [n/k] = floor(n/k).",
   "id": "A075997",
   "mentions": [
     "A000005",

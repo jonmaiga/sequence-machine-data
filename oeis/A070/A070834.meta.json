@@ -1,8 +1,9 @@
 {
-  "description": "Reverse(n)^n.",
+  "description": "a(n) = reverse(n)^n.",
   "id": "A070834",
   "mentions": [
-    "A004086"
+    "A004086",
+    "A070271"
   ],
   "tags": [
     "base",

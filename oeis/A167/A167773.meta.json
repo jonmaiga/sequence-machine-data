@@ -1,8 +1,8 @@
 {
-  "description": "Primes p with property that (p-previous prime)",
+  "description": "Primes p with property that (p-previous prime) < 6 or (next prime-p) < 6.",
   "id": "A167773",
   "mentions": [
-    "A000040",
+    "A053070",
     "A137869"
   ],
   "tags": [

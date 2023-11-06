@@ -1,5 +1,5 @@
 {
-  "description": "All odd numbers k, 1 < k < n, relatively prime to n are primes.",
+  "description": "Numbers m such that all odd numbers k, 1 < k < m, relatively prime to m are primes.",
   "id": "A002271",
   "mentions": [
     "A141109"

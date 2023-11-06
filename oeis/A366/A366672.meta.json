@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A002720(n)^n.",
+  "id": "A366672",
+  "mentions": [
+    "A002720",
+    "A036740"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

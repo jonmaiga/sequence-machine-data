@@ -1,5 +1,5 @@
 {
-  "description": "Let Do(n)=A006566(n)=n-th dodecahedral number. Consider all integer triples (i,j,k), j >= k>0, with Do(i)=Do(j)+Do(k), ordered by increasing i; sequence gives k values.",
+  "description": "Let Do(n) = A006566(n) = n-th dodecahedral number. Consider all integer triples (i,j,k), j >= k > 0, with Do(i) = Do(j) + Do(k), ordered by increasing i; sequence gives k values.",
   "id": "A053019",
   "mentions": [
     "A006566",

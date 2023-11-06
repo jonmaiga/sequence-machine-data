@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of 1/A066716 (Binary Champernowne constant).",
+  "id": "A365238",
+  "mentions": [
+    "A066716"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

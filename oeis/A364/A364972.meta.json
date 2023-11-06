@@ -1,0 +1,16 @@
+{
+  "description": "Bases >= 2 in which the number of zeros needed to write the numbers 1 through k never equals k for any k.",
+  "id": "A364972",
+  "mentions": [
+    "A061217"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

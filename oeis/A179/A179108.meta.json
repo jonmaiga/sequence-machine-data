@@ -1,5 +1,5 @@
 {
-  "description": "Values x for records of minima of positive distance d between an square cubefree integer y and an cube of positive and squarefree integer x and such d = y^2 - x^3.",
+  "description": "Values x for records of minima of positive distance d between a square cubefree integer y and a cube of positive and squarefree integer x and such d = y^2 - x^3.",
   "id": "A179108",
   "mentions": [
     "A078933",

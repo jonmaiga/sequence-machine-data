@@ -1,5 +1,5 @@
 {
-  "description": "Pairs (i,j) of relatively prime positive integers sorted first by i+j then by i.",
+  "description": "Cantor's List: Pairs (i, j) of relatively prime positive integers sorted first by i + j then by i.",
   "id": "A352911",
   "mentions": [
     "A020652",
@@ -8,6 +8,7 @@
     "A352909"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {

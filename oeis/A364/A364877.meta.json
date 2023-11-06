@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 2*pi(k) + k is a prime number.",
+  "id": "A364877",
+  "mentions": [
+    "A000720",
+    "A231232"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 / sqrt(1 - 10*x + 9*x^2) - 1 / (1 - x)) / 4.",
+  "id": "A363571",
+  "mentions": [
+    "A030662",
+    "A047665",
+    "A084771",
+    "A098665",
+    "A363570"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

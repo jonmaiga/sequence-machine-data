@@ -7,7 +7,6 @@
     "A125701"
   ],
   "tags": [
-    "bref",
     "formulas",
     "hard",
     "more",
@@ -15,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 4,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(p(n)), where phi is Euler's totient function (A000010) and p(n) is the number of partitions of n (A000041).",
+  "id": "A366581",
+  "mentions": [
+    "A000010",
+    "A000041",
+    "A087175",
+    "A139041"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

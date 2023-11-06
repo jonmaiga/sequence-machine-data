@@ -1,5 +1,5 @@
 {
-  "description": "n appears n times (n even).",
+  "description": "k appears k times (k even).",
   "id": "A001670",
   "mentions": [
     "A000194",

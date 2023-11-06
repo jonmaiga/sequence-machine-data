@@ -1,0 +1,20 @@
+{
+  "description": "List of free polycubes in binary code (see comments), ordered first by the number of cells, then by the value of the binary code.",
+  "id": "A365139",
+  "mentions": [
+    "A038119",
+    "A144625",
+    "A246521",
+    "A365140",
+    "A365141"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

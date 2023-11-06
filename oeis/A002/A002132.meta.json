@@ -2,15 +2,17 @@
   "description": "Generalized sum of divisors function.",
   "id": "A002132",
   "mentions": [
+    "A015128",
     "A060047"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 4,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

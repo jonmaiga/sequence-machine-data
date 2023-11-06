@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (k+1) * floor(n/k).",
+  "id": "A366983",
+  "mentions": [
+    "A006218",
+    "A007503",
+    "A024916",
+    "A257644",
+    "A366984",
+    "A366985"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sigma(6*n+1). Sum of the divisors of 6*n+1, n >= 0.",
+  "id": "A363031",
+  "mentions": [
+    "A000203",
+    "A016921",
+    "A224613",
+    "A363161"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

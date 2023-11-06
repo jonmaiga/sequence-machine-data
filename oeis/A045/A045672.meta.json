@@ -2,7 +2,6 @@
   "description": "Extension of Beatty sequence; complement of A045671 (apart from the initial 0).",
   "id": "A045672",
   "mentions": [
-    "A026366",
     "A045671",
     "A285671"
   ],

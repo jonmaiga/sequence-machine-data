@@ -2,15 +2,15 @@
   "description": "Largest number k < primorial(n) such that omega(k) = n-1.",
   "id": "A292426",
   "mentions": [
-    "A001221"
+    "A001221",
+    "A002110"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

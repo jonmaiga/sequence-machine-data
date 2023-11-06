@@ -1,0 +1,16 @@
+{
+  "description": "Letters of the English alphabet represented by flag semaphores encoding the positions z of the 2 flags by a two-digit decimal number z = 10*x + y, 1 <= x < y <= 8.",
+  "id": "A364733",
+  "mentions": [],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

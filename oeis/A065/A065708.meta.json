@@ -1,7 +1,8 @@
 {
-  "description": "Sequence A037183(k) arranged in increasing order. Sequence gives k values.",
+  "description": "a(n) is the position of A037183(n) in a sorted list of the terms of A037183.",
   "id": "A065708",
   "mentions": [
+    "A037181",
     "A037183",
     "A065531"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 67,
     "source": "oeis-entry"
   }
 }

@@ -1,13 +1,14 @@
 {
-  "description": "a(1)=1; a(2)=1; a(3)=6; a(n)=3a(n-1)+3a(n-2)-4a(n-3) for n >=4.",
+  "description": "a(0) = 0, a(1) = 1, a(2)=1; a(n) = 3a(n-1) + 3a(n-2) - 4a(n-3) for n >= 3.",
   "id": "A123189",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 25,
-    "source": "joeis"
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

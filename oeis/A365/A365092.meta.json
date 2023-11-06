@@ -1,0 +1,18 @@
+{
+  "description": "Write out the canonical factorization of n and factorize the exponents in the factorization, the exponents in the factorizations of the exponents, ... until there are only prime numbers left. Replace each p in the factorization by (p-1)+1 and factorize each p-1 by the same process if p-1 > 1. Continue this process until there are only 1s left. a(n) is the number of 1s used.",
+  "id": "A365092",
+  "mentions": [
+    "A001144",
+    "A185102",
+    "A365093"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

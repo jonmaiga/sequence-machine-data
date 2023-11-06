@@ -1,8 +1,9 @@
 {
-  "description": "The indices n such that the largest prime factor of n-th composite is equal sum of all the other prime factors of n-th composite, with multiplicity.",
+  "description": "Numbers k such that the largest prime factor of the k-th composite is equal to the sum of all the other prime factors of the k-th composite, with multiplicity.",
   "id": "A166732",
   "mentions": [
-    "A001414"
+    "A001414",
+    "A002808"
   ],
   "tags": [
     "nonn"

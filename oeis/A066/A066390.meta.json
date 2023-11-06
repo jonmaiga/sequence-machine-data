@@ -1,16 +1,18 @@
 {
-  "description": "Smallest cube that contains n consecutive internal 0's.",
+  "description": "Smallest cube that contains exactly n consecutive internal 0's and no other 0s.",
   "id": "A066390",
   "mentions": [
     "A066371",
     "A066391"
   ],
   "tags": [
+    "less",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

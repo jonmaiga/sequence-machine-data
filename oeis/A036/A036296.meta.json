@@ -1,7 +1,9 @@
 {
-  "description": "Denominator of Sum i/2^i, i=1..n.",
+  "description": "Denominator of Sum_{i=1..n} i/2^i.",
   "id": "A036296",
   "mentions": [
+    "A000079",
+    "A006519",
     "A036295"
   ],
   "tags": [

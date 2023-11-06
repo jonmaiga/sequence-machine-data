@@ -1,5 +1,5 @@
 {
-  "description": "Initial pile sizes that guarantee a win for player 2 in a variant of Fibonacci NIM where the players may not take one stone.",
+  "description": "Initial pile sizes that guarantee a win for player 2 in a variant of Fibonacci Nim where the players may not take one stone.",
   "id": "A052492",
   "mentions": [
     "A016741"

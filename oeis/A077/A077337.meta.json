@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that n and R(n) both are squarefree where R(n) (A004086) is the digit reversal of n.",
+  "description": "Numbers k such that k and R(k) both are squarefree where R(n) (A004086) is the digit reversal of n.",
   "id": "A077337",
   "mentions": [
-    "A004086"
+    "A004086",
+    "A005117"
   ],
   "tags": [
     "base",

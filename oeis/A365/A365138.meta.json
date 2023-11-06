@@ -1,0 +1,19 @@
+{
+  "description": "Genus of the quotient of the modular curve X_1(n) by the Fricke involution.",
+  "id": "A365138",
+  "mentions": [
+    "A000003",
+    "A001617",
+    "A029937",
+    "A276183"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

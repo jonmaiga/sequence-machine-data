@@ -1,0 +1,22 @@
+{
+  "description": "Array G(M,S), where M are the permutations of the first K integers and S is the size of a list of distinct items, (k = 1, 2, ..., S >= k) to be read by antidiagonals (see definition in Comments).",
+  "id": "A365096",
+  "mentions": [
+    "A000012",
+    "A024222",
+    "A105272",
+    "A118960",
+    "A120280",
+    "A120363",
+    "A120654"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

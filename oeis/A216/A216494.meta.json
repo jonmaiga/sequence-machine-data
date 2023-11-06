@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^3/(1 - x^4*A(x)^10).",
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^3/(1 - x^4*A(x)^10).",
   "id": "A216494",
   "mentions": [
     "A001764",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

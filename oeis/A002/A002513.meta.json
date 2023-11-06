@@ -2,9 +2,15 @@
   "description": "Number of \"cubic partitions\" of n: expansion of Product_{k>0} 1/((1-x^(2k))^2*(1-x^(2k-1))) in powers of x.",
   "id": "A002513",
   "mentions": [
+    "A000122",
+    "A001934",
     "A002507",
     "A015128",
-    "A166861"
+    "A089799",
+    "A166861",
+    "A215947",
+    "A273225",
+    "A319455"
   ],
   "tags": [
     "easy",

@@ -1,14 +1,15 @@
 {
-  "description": "n!*(n+1)!*(n+2)!*(n+3)!*(n+4)! / ( 2!*3!*4!*5! ).",
+  "description": "a(n) = n!*(n+1)!*(n+2)!*(n+3)!*(n+4)! / ( 2!*3!*4!*5! ).",
   "id": "A010799",
   "mentions": [
     "A009963"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 9,
     "source": "oeis-bfile"
   }

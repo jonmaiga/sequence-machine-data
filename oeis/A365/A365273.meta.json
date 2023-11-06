@@ -1,0 +1,17 @@
+{
+  "description": "Number of vertices in the Laakso graph of order n.",
+  "id": "A365273",
+  "mentions": [
+    "A152596"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

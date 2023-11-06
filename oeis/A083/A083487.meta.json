@@ -1,13 +1,27 @@
 {
-  "description": "Triangle read by rows: T(r,c) = 2*r*c + r + c (1 <= c <= r).",
+  "description": "Triangle read by rows: T(n,k) = 2*n*k + n + k (1 <= k <= n).",
   "id": "A083487",
   "mentions": [
+    "A000217",
+    "A016777",
+    "A016873",
+    "A017017",
+    "A017209",
+    "A017449",
+    "A033954",
     "A047845",
+    "A056220",
     "A082652",
     "A083003",
-    "A151890"
+    "A090288",
+    "A151890",
+    "A162254",
+    "A182868",
+    "A186113",
+    "A271625"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

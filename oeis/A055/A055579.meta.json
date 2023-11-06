@@ -1,7 +1,9 @@
 {
   "description": "a(n) = binomial(12*n-1,3*n-1)/((6*n-1)*(12*n-1)).",
   "id": "A055579",
-  "mentions": [],
+  "mentions": [
+    "A000260"
+  ],
   "tags": [
     "nonn"
   ],

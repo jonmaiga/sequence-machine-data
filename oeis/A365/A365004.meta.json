@@ -1,0 +1,39 @@
+{
+  "description": "Array read by anti-diagonals downwards where A(n,k) is the number of ways to write n as a nonnegative linear combination of an integer partition of k.",
+  "id": "A365004",
+  "mentions": [
+    "A000007",
+    "A000009",
+    "A000012",
+    "A000041",
+    "A000070",
+    "A006951",
+    "A008284",
+    "A008289",
+    "A052928",
+    "A066328",
+    "A108917",
+    "A116861",
+    "A237113",
+    "A364272",
+    "A364350",
+    "A364839",
+    "A364907",
+    "A364910",
+    "A364911",
+    "A364912",
+    "A364913",
+    "A364915",
+    "A365002"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

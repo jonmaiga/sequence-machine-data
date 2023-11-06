@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i=0..floor(q(n)/3)} binomial(n-3*(i+1), q(n)-3*i) with q(n) = ceiling((n-3)/2).",
+  "id": "A366107",
+  "mentions": [
+    "A004526",
+    "A218708",
+    "A366108",
+    "A366109"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

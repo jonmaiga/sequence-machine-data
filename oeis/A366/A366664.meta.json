@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime divisors of 9^n + 1.",
+  "id": "A366664",
+  "mentions": [
+    "A001221",
+    "A057935",
+    "A062396",
+    "A366655",
+    "A366660"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

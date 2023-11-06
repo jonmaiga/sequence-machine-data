@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of elements above it, modulo 4",
+  "description": "Number of n X 2 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of elements above it, modulo 4.",
   "id": "A239399",
   "mentions": [
     "A239405"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

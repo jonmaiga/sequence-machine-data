@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer-sided triangles with perimeter n such that the length of the largest side is coprime to n.",
+  "description": "Number of integer-sided triangles with perimeter n whose largest side length is coprime to n.",
   "id": "A308209",
   "mentions": [
     "A308202"

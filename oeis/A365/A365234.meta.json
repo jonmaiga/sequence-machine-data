@@ -1,0 +1,18 @@
+{
+  "description": "Primes not in A119993.",
+  "id": "A365234",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A119993"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

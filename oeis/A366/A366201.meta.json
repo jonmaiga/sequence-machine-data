@@ -1,0 +1,19 @@
+{
+  "description": "Number x such that triangular(x) AND x^2 = 0, where AND is the bitwise logical-and operation.",
+  "id": "A366201",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A004198",
+    "A224694"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

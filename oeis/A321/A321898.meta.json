@@ -2,6 +2,8 @@
   "description": "Sum of coefficients of power sums symmetric functions in h(y) * Product_i y_i! where h is homogeneous symmetric functions and y is the integer partition with Heinz number n.",
   "id": "A321898",
   "mentions": [
+    "A000142",
+    "A000720",
     "A005651",
     "A008480",
     "A056239",
@@ -15,11 +17,14 @@
     "A321897"
   ],
   "tags": [
+    "easy",
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

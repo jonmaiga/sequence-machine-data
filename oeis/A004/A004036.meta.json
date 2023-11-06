@@ -1,5 +1,5 @@
 {
-  "description": "The coding-theoretic function A(n,4,6) (the next term is at least 166).",
+  "description": "The coding-theoretic function A(n,4,6).",
   "id": "A004036",
   "mentions": [],
   "tags": [

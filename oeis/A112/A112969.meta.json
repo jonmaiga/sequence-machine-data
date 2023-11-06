@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1)^4 + a(n-2)^4 for n > 2 with a(1) = a(2) = 1.",
+  "description": "a(n) = a(n-1)^4 + a(n-2)^4 for n >= 2 with a(0) = 0, a(1) = 1.",
   "id": "A112969",
   "mentions": [
     "A000045",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 7,
+    "offset": 0,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

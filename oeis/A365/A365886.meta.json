@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k whose least prime divisor is smaller than its exponent in the prime factorization of k.",
+  "id": "A365886",
+  "mentions": [
+    "A008590",
+    "A020639",
+    "A051904",
+    "A185359",
+    "A365887",
+    "A365888"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

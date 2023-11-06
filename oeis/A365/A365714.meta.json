@@ -1,0 +1,18 @@
+{
+  "description": "Sum of reversing binary value of n (A065620) and its Dirichlet inverse.",
+  "id": "A365714",
+  "mentions": [
+    "A065620",
+    "A365712",
+    "A365713"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

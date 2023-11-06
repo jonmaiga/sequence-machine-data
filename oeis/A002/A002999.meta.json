@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+x*exp(x))^2.",
+  "description": "Expansion of (1 + x*exp(x))^2.",
   "id": "A002999",
   "mentions": [
     "A001787",

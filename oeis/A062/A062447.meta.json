@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers at large subscripts: a(n) = prime(q(n)), where q(n) = A002110(n).",
+  "description": "a(n) = prime(q(n)), where q(n) = A002110(n).",
   "id": "A062447",
   "mentions": [
     "A000040",

@@ -1,0 +1,23 @@
+{
+  "description": "The largest divisor of n that is not a term of A322448.",
+  "id": "A366994",
+  "mentions": [
+    "A007917",
+    "A322448",
+    "A365683",
+    "A366989",
+    "A366991",
+    "A366992"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

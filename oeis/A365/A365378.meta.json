@@ -1,0 +1,40 @@
+{
+  "description": "Number of integer partitions with sum < n whose distinct parts cannot be linearly combined using nonnegative coefficients to obtain n.",
+  "id": "A365378",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A088314",
+    "A088528",
+    "A116861",
+    "A237668",
+    "A363225",
+    "A364272",
+    "A364345",
+    "A364350",
+    "A364839",
+    "A364913",
+    "A364914",
+    "A364915",
+    "A364916",
+    "A365073",
+    "A365312",
+    "A365320",
+    "A365322",
+    "A365323",
+    "A365379",
+    "A365380",
+    "A365382"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

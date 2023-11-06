@@ -1,7 +1,10 @@
 {
   "description": "Theta series of GH39, an extremal unimodular 39-dimensional lattice.",
   "id": "A066234",
-  "mentions": [],
+  "mentions": [
+    "A000122",
+    "A002408"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

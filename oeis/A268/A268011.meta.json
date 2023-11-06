@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2Xn 0..n arrays with every repeated value in every row and column unequal to the previous repeated value, and new values introduced in row-major sequential order.",
+  "description": "Number of 2 X n 0..n arrays with every repeated value in every row and column unequal to the previous repeated value, and new values introduced in row-major sequential order.",
   "id": "A268011",
   "mentions": [
     "A268009"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

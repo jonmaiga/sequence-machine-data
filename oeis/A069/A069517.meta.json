@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (-1)*sum( d divides n, moebius(d)*(-1)^d).",
+  "description": "a(n) = (-1)*Sum_{d|n} (moebius(d)*(-1)^d).",
   "id": "A069517",
   "mentions": [
     "A037227",

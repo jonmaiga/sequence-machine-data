@@ -2,6 +2,7 @@
   "description": "a(0) = 1, a(1) = 8; for n >= 2 a(n) is the number of degree-n monic reducible polynomials over GF(8), i.e., a(n) = 8^n - A027380(n).",
   "id": "A058823",
   "mentions": [
+    "A001018",
     "A027380",
     "A058766"
   ],

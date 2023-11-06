@@ -1,18 +1,19 @@
 {
-  "description": "n * A062949(n).",
+  "description": "a(n) = n * A062949(n).",
   "id": "A127469",
   "mentions": [
     "A062949",
     "A127470"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
-    "source": "joeis"
+    "size": 48,
+    "source": "oeis-bfile"
   }
 }

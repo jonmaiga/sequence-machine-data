@@ -1,5 +1,5 @@
 {
-  "description": "The sum of the digits present in a(n) and a(n+1) divides exactly a(n+2). This is the lexicographically earliest sequence of distinct positive terms with this property.",
+  "description": "Digitsum of a(n) + digitsum of a(n+1) divides a(n+2). This is the lexicographically earliest sequence of distinct positive terms with this property.",
   "id": "A364120",
   "mentions": [
     "A364187",

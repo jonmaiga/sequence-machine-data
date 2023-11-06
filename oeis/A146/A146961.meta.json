@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n = p*q*r, with odd primes p < q < r, such that Sister Beiter's cyclotomic coefficient conjecture is false.",
+  "description": "Numbers k = p*q*r, with odd primes p < q < r, such that Sister Beiter's cyclotomic coefficient conjecture is false.",
   "id": "A146961",
   "mentions": [
     "A046389"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Sum of all prime substrings of n in base 10, including n itself and duplicate or overlapping substrings but not substrings with a leading 0.",
+  "id": "A365276",
+  "mentions": [
+    "A035232",
+    "A225580"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

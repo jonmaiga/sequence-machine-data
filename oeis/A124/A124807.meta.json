@@ -1,17 +1,19 @@
 {
-  "description": "Number of base 6 circular n-digit numbers with adjacent digits differing by 2 or less.",
+  "description": "Number of base-6 circular n-digit numbers with adjacent digits differing by 2 or less.",
   "id": "A124807",
   "mentions": [
-    "A005191"
+    "A005191",
+    "A006054",
+    "A364705"
   ],
   "tags": [
-    "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

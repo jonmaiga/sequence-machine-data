@@ -5,12 +5,13 @@
     "A055653"
   ],
   "tags": [
+    "easy",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 52,
     "source": "oeis-bfile"
   }
 }

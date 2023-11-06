@@ -2,9 +2,17 @@
   "description": "Column 4 of array in A144502.",
   "id": "A144500",
   "mentions": [
-    "A144502"
+    "A144495",
+    "A144496",
+    "A144497",
+    "A144498",
+    "A144499",
+    "A144501",
+    "A144502",
+    "A144503"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "Parity of A000070.",
+  "id": "A365410",
+  "mentions": [
+    "A000035",
+    "A000041",
+    "A000070",
+    "A040051",
+    "A176206",
+    "A336811",
+    "A338156"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

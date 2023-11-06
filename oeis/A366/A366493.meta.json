@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence such that each subsequence enclosed by two equal terms is distinct.",
+  "id": "A366493",
+  "mentions": [
+    "A330896"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

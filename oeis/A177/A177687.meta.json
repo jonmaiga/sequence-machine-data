@@ -2,19 +2,22 @@
   "description": "Number of distinct transpositions of digits (zeros and units) in n-th prime written in base 2.",
   "id": "A177687",
   "mentions": [
+    "A000040",
     "A000120",
     "A004676",
     "A023416",
-    "A168324"
+    "A168324",
+    "A178244"
   ],
   "tags": [
     "base",
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

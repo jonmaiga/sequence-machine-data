@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = A364054(n-1) mod prime(n-1).",
+  "id": "A366470",
+  "mentions": [
+    "A364054"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

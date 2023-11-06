@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = T(0,n)+T(1,n-1)+...+T(n,0), array T given by A048472.",
+  "description": "a(n) = T(0,n) + T(1,n-1) + ... + T(n,0), array T given by A048472.",
   "id": "A048481",
   "mentions": [
     "A048166",

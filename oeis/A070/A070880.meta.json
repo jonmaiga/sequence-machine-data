@@ -1,9 +1,26 @@
 {
-  "description": "Look at all 2^(n-1)-1 nonempty subsets S of {1, 2, ..., n-1}; a(n) gives number of such S with property that it is impossible to partition n into parts from S such that each s in S is used at least once.",
+  "description": "Consider the 2^(n-1)-1 nonempty subsets S of {1, 2, ..., n-1}; a(n) gives number of such S for which it is impossible to partition n into parts from S such that each s in S is used at least once.",
   "id": "A070880",
   "mentions": [
+    "A007865",
+    "A085489",
     "A088314",
-    "A088528"
+    "A088528",
+    "A093971",
+    "A124506",
+    "A151897",
+    "A326020",
+    "A326080",
+    "A326083",
+    "A364350",
+    "A364534",
+    "A364913",
+    "A364914",
+    "A365042",
+    "A365044",
+    "A365045",
+    "A365377",
+    "A365380"
   ],
   "tags": [
     "easy",

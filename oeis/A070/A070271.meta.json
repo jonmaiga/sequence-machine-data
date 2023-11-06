@@ -1,8 +1,9 @@
 {
-  "description": "n^reverse(n) (ignore leading 0's).",
+  "description": "a(n) = n^reverse(n) (ignore leading 0's).",
   "id": "A070271",
   "mentions": [
-    "A004086"
+    "A004086",
+    "A070834"
   ],
   "tags": [
     "base",

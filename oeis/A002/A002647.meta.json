@@ -1,5 +1,5 @@
 {
-  "description": "Sextan primes: p = (x^6 + y^6 )/(x^2 + y^2 ).",
+  "description": "Sextan primes: p = (x^6 + y^6)/(x^2 + y^2).",
   "id": "A002647",
   "mentions": [
     "A001912"

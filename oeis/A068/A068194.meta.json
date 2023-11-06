@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n for which the only representation of n(n+1)/2 as a sum of 2 or more consecutive positive integers is 1+2+...+n.",
+  "description": "Numbers k for which the only representation of k*(k+1)/2 as a sum of 2 or more consecutive positive integers is 1+2+...+k.",
   "id": "A068194",
   "mentions": [
     "A000668",
+    "A001227",
     "A019434",
     "A068195",
     "A082184",

@@ -1,0 +1,26 @@
+{
+  "description": "The sum of divisors of the cubefree numbers (A004709).",
+  "id": "A366440",
+  "mentions": [
+    "A000203",
+    "A002117",
+    "A004709",
+    "A062822",
+    "A065764",
+    "A082020",
+    "A180114",
+    "A358040",
+    "A362986",
+    "A366439"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

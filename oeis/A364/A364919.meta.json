@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) is the smallest number m not already in the sequence such that rad(m) divides A019565(n).",
+  "id": "A364919",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A007947",
+    "A019565",
+    "A289280"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

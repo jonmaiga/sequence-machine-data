@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that A060778(k) = n.",
+  "id": "A364890",
+  "mentions": [
+    "A000005",
+    "A058074",
+    "A060778",
+    "A084307",
+    "A364903"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

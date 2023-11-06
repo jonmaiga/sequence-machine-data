@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=2..n} binomial(k,2) * floor(n/k).",
+  "id": "A366967",
+  "mentions": [
+    "A002541",
+    "A024916",
+    "A064602",
+    "A069153",
+    "A236632",
+    "A366971"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

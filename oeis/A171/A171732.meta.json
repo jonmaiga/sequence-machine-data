@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum_{d|n} d*2^(d^2).",
+  "description": "a(n) = Sum_{d|n} d*2^(d^2).",
   "id": "A171732",
   "mentions": [
     "A158099"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 12,
+    "source": "joeis"
   }
 }

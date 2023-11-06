@@ -1,17 +1,29 @@
 {
-  "description": "This sequence needs a meaningful name.",
+  "description": "Triangle, T(n, k) = (sqrt(k+1))^(n-1)*ChebyshevU(n-1, sqrt(k+1)/2), read by rows.",
   "id": "A167925",
-  "mentions": [],
+  "mentions": [
+    "A001787",
+    "A009545",
+    "A030191",
+    "A030192",
+    "A030240",
+    "A057083",
+    "A057084",
+    "A057085",
+    "A057086",
+    "A099087",
+    "A128834",
+    "A190871",
+    "A190873"
+  ],
   "tags": [
-    "less",
-    "obsc",
+    "formulas",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 52,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

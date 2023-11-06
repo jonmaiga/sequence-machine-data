@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*n! - NextPrime[n] is prime.",
+  "description": "Numbers k such that k*k! - NextPrime(k) is prime.",
   "id": "A096985",
   "mentions": [
     "A049433",
@@ -7,12 +7,13 @@
     "A096986"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

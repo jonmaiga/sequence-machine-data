@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,m) := sum{k=0..floor((n-m)/2), binomial(n-2k,m)binomial(n-m-k,k)}.",
+  "description": "Triangle read by rows: T(n,m) := Sum_{k=0..floor((n-m)/2)} binomial(n-2k,m) * binomial(n-m-k,k).",
   "id": "A091594",
   "mentions": [
     "A000045",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 71,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

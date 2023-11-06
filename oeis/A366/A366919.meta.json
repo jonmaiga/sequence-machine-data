@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^k*k^n*floor(n/k).",
+  "id": "A366919",
+  "mentions": [
+    "A024919",
+    "A308313",
+    "A319649",
+    "A366915",
+    "A366917"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

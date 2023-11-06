@@ -1,14 +1,17 @@
 {
   "description": "\"Special\" prime powers in Serre's sense.",
   "id": "A262587",
-  "mentions": [],
+  "mentions": [
+    "A005525",
+    "A246655",
+    "A364690"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

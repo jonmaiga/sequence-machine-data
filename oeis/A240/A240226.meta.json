@@ -2,6 +2,7 @@
   "description": "4-adic value of 1/n, n >= 1.",
   "id": "A240226",
   "mentions": [
+    "A001620",
     "A006519",
     "A038500",
     "A244415"

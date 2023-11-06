@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the largest root of the polynomial x^3 - x^2 - 3*x + 1.",
+  "id": "A365750",
+  "mentions": [
+    "A010467",
+    "A209927",
+    "A222132",
+    "A352667",
+    "A365814"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(n) is the sum of primes p for those k's, 2 <= k <= n, where gcd(k,n) = p^j > 1. (a(1) = 0.)",
   "id": "A122411",
   "mentions": [
+    "A020639",
     "A122410"
   ],
   "tags": [

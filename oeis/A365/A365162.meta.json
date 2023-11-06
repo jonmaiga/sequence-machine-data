@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = A269795(n)/2.",
+  "id": "A365162",
+  "mentions": [
+    "A269795"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

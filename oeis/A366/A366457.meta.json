@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^2 + 58.",
+  "id": "A366457",
+  "mentions": [
+    "A005846",
+    "A007641",
+    "A048988",
+    "A330363",
+    "A366458"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

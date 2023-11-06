@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of primes of the form T(k)/n, for some k, where T(k)=A000217(k) is a triangular number.",
+  "id": "A364554",
+  "mentions": [
+    "A000217",
+    "A001318",
+    "A057569",
+    "A057570",
+    "A074378",
+    "A109998",
+    "A154296",
+    "A154304",
+    "A364555"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

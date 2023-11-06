@@ -2,6 +2,7 @@
   "description": "Expansion of A(x) satisfying [x^n] A(x)^n / (1 + x*A(x)^n)^n = 0 for n > 0.",
   "id": "A360581",
   "mentions": [
+    "A303063",
     "A360582",
     "A360583",
     "A360584"

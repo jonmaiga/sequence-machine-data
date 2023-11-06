@@ -8,12 +8,13 @@
     "A261517"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

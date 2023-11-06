@@ -1,0 +1,14 @@
+{
+  "description": "The chromatic number of the Euclidean distance graph G(Z^3, sqrt(n)).",
+  "id": "A364002",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

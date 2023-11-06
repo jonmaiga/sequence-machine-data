@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=number of numbers removed in each step of Eratosthenes's sieve for 2^6.",
+  "description": "a(n) = number of numbers removed in step n of Eratosthenes's sieve for 2^6.",
   "id": "A145584",
   "mentions": [
     "A006880",
@@ -7,12 +7,27 @@
     "A060967",
     "A122121",
     "A145532",
+    "A145533",
+    "A145534",
+    "A145535",
+    "A145536",
+    "A145537",
+    "A145538",
+    "A145539",
     "A145540",
     "A145583",
+    "A145585",
+    "A145586",
+    "A145587",
+    "A145588",
+    "A145589",
+    "A145590",
+    "A145591",
     "A145592"
   ],
   "tags": [
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {

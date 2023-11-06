@@ -1,8 +1,9 @@
 {
-  "description": "Lexicographically earliest sequence of positive integers such that no two distinct unordered pairs of points ((n, a(n), (m, a(m))) and ((k, a(k)), (j, a(j))) have the same midpoint.",
+  "description": "Lexicographically earliest sequence of positive integers such that no two distinct unordered pairs of points ((n, a(n)), (m, a(m))) and ((k, a(k)), (j, a(j))) have the same midpoint.",
   "id": "A285491",
   "mentions": [
     "A229037",
+    "A248625",
     "A285490"
   ],
   "tags": [

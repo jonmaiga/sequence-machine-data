@@ -1,0 +1,16 @@
+{
+  "description": "Numbers whose prime factorization (prime factors and exponents) contains the digits 1 and 2 at least once, but no other digits.",
+  "id": "A364484",
+  "mentions": [
+    "A007931"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

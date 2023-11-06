@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp( Sum_{k>=0} x^(3*k+2) / (3*k+2)! ).",
+  "id": "A365338",
+  "mentions": [
+    "A000296",
+    "A365419"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

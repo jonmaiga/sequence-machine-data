@@ -1,0 +1,20 @@
+{
+  "description": "In the Collatz (3x+1) problem, maximum excursion values corresponding to the starting points given by A365482.",
+  "id": "A365483",
+  "mentions": [
+    "A060410",
+    "A365478",
+    "A365482"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

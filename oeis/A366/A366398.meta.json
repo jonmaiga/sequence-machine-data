@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of distinct triangles with prime sides and whose perimeter is equal to the n-th prime.",
+  "id": "A366398",
+  "mentions": [
+    "A070088"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,10 +2,14 @@
   "description": "Difference between cubefree and squarefree components of n.",
   "id": "A076998",
   "mentions": [
+    "A005117",
     "A007947",
-    "A007948"
+    "A007948",
+    "A065463",
+    "A065465"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

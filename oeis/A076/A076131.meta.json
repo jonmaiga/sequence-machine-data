@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^n*a(n-1)+1, a(0) = 0.",
+  "description": "a(n) = 2^n*a(n-1) + 1, a(0) = 0.",
   "id": "A076131",
   "mentions": [
     "A000217",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

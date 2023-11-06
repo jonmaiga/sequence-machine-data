@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+1 have the same number of divisors.",
+  "description": "Numbers k such that k and k+1 have the same number of divisors.",
   "id": "A005237",
   "mentions": [
     "A000005",

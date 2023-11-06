@@ -1,0 +1,22 @@
+{
+  "description": "Least number of 1's needed to represent n using only additions +, subtractions -, multiplications *, divisions /, concatenations # and parentheses ().",
+  "id": "A363968",
+  "mentions": [
+    "A002275",
+    "A005245",
+    "A091333",
+    "A133344",
+    "A362471",
+    "A362626"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

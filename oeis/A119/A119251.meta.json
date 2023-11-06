@@ -2,10 +2,8 @@
   "description": "Positive integers each with exactly 1 unitary prime divisor (i.e., n is included if and only if A056169(n) = 1).",
   "id": "A119251",
   "mentions": [
-    "A000040",
     "A001694",
-    "A056169",
-    "A059404"
+    "A056169"
   ],
   "tags": [
     "nonn"

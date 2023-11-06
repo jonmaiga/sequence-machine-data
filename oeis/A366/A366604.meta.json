@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime divisors of 4^n - 1.",
+  "id": "A366604",
+  "mentions": [
+    "A001221",
+    "A024036",
+    "A057957",
+    "A133801",
+    "A366602",
+    "A366603"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

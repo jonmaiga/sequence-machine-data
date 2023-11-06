@@ -1,0 +1,16 @@
+{
+  "description": "Greedy Egyptian fraction expansion of 1/(2+3/(4+5/(6+7/(...)))) = A113014.",
+  "id": "A365116",
+  "mentions": [
+    "A113014",
+    "A365105"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

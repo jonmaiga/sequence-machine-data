@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of 7^n - 1.",
+  "id": "A366632",
+  "mentions": [
+    "A001221",
+    "A024075",
+    "A057954",
+    "A366620"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

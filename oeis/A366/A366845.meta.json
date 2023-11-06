@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of n that contain at least one even part and whose halved even parts are relatively prime.",
+  "id": "A366845",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A018783",
+    "A035363",
+    "A047967",
+    "A051424",
+    "A066207",
+    "A078374",
+    "A113685",
+    "A113686",
+    "A116598",
+    "A168532",
+    "A174713",
+    "A239261",
+    "A258117",
+    "A289509",
+    "A366531",
+    "A366533",
+    "A366842",
+    "A366843",
+    "A366846",
+    "A366847",
+    "A366849",
+    "A366850"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

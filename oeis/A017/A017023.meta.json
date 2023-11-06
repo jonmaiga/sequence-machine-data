@@ -1,9 +1,15 @@
 {
   "description": "a(n) = (7*n + 3)^7.",
   "id": "A017023",
-  "mentions": [],
+  "mentions": [
+    "A017017",
+    "A017022",
+    "A017024",
+    "A017028"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(phi(n)) = phi(sigma(n)).",
+  "description": "Numbers k such that sigma(phi(k)) = phi(sigma(k)).",
   "id": "A033632",
   "mentions": [
     "A000010",

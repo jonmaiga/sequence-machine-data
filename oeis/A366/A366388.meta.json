@@ -1,0 +1,26 @@
+{
+  "description": "The number of edges minus the number of leafs in the rooted tree with Matula-Goebel number n.",
+  "id": "A366388",
+  "mentions": [
+    "A000265",
+    "A000720",
+    "A006530",
+    "A052126",
+    "A061395",
+    "A061773",
+    "A109129",
+    "A196050",
+    "A329697",
+    "A331410",
+    "A366385"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

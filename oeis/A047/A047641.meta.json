@@ -2,9 +2,19 @@
   "description": "Expansion of (Product_{j>=1} (1-(-x)^j) - 1)^16 in powers of x.",
   "id": "A047641",
   "mentions": [
-    "A001482"
+    "A001482",
+    "A001488",
+    "A001490",
+    "A047638",
+    "A047640",
+    "A047642",
+    "A047649",
+    "A047654",
+    "A047655",
+    "A341243"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

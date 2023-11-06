@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^3/(1 - x)^2.",
+  "id": "A366176",
+  "mentions": [
+    "A001764",
+    "A199475",
+    "A213282",
+    "A307678"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

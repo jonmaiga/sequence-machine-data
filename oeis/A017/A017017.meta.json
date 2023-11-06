@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 7n+3.",
+  "description": "a(n) = 7*n + 3.",
   "id": "A017017",
   "mentions": [
     "A008589",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

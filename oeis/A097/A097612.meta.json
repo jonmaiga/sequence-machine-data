@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n having k returns (i.e. down steps hitting the x-axis).",
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n having k returns (i.e., down steps hitting the x-axis).",
   "id": "A097612",
   "mentions": [
     "A001006"

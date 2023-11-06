@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1 and thereafter a(n) = sum of digits of the number from concatenation of a(n-1) on the left with left-most digit of a(n-1) + k and concatenation on the right with right-most digit of a(n-1) + k, where k is the number of times a(n-1) has appeared in the sequence.",
+  "id": "A364935",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

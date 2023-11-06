@@ -1,9 +1,10 @@
 {
-  "description": "Primes p such that p + 2*k is also prime, where p is k-th prime.",
+  "description": "Primes p = prime(k) such that p + 2*k is prime.",
   "id": "A231232",
   "mentions": [
     "A061068",
-    "A064402"
+    "A064402",
+    "A364877"
   ],
   "tags": [
     "easy",

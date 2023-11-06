@@ -10,11 +10,12 @@
     "base",
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 73,
+    "size": 106,
     "source": "joeis"
   }
 }

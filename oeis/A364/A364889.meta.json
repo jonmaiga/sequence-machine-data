@@ -1,0 +1,17 @@
+{
+  "description": "Number of minimum vertex cuts in the n-Fibonacci cube graph.",
+  "id": "A364889",
+  "mentions": [
+    "A002264",
+    "A008620"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

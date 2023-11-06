@@ -1,5 +1,5 @@
 {
-  "description": "Starting from one digit move right by x steps, being x the value of the digit. If the steps go beyond the LSD they continue from the left side. Then repeat the process from the reached digit. The sequence lists the numbers such that all the digits are touched just one time and the last run end in the initial digit.",
+  "description": "Starting from one digit move right by x steps, x being the value of the digit. If the steps go beyond the least significant digits they continue from the left side. Then repeat the process from the reached digit. The sequence lists the numbers such that all the digits are touched just one time and the last run ends in the initial digit.",
   "id": "A289351",
   "mentions": [
     "A014261",

@@ -2,7 +2,8 @@
   "description": "Moebius transform of primorial numbers.",
   "id": "A062792",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A008683"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "4th order Vatalan numbers (generalization of Catalan numbers).",
+  "description": "4th-order Vatalan numbers (generalization of Catalan numbers).",
   "id": "A025757",
   "mentions": [
     "A049213"

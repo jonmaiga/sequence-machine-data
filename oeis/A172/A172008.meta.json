@@ -1,5 +1,5 @@
 {
-  "description": "Count of minimal SNUSP programs using +, @ and # to yield N",
+  "description": "Number of minimal SNUSP programs using +, @ and # that yield n.",
   "id": "A172008",
   "mentions": [
     "A172005",

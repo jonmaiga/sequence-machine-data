@@ -1,5 +1,5 @@
 {
-  "description": "[ exp(2/17)*n! ].",
+  "description": "a(n) = floor(exp(2/17)*n!).",
   "id": "A030898",
   "mentions": [],
   "tags": [

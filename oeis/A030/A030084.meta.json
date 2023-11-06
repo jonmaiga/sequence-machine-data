@@ -1,13 +1,16 @@
 {
-  "description": "Primes such that digits of p^3 appear in p.",
+  "description": "Primes p such that all digits of p^3 appear in p.",
   "id": "A030084",
-  "mentions": [],
+  "mentions": [
+    "A030083",
+    "A050288"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 24,
     "source": "joeis"
   }

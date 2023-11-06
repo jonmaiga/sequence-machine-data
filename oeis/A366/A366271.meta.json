@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of limit_{n->oo} Product_{k=1..n} ((k/n)^(k/n) + (1 - k/n)^(k/n))^(1/n).",
+  "id": "A366271",
+  "mentions": [
+    "A323575"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Product of 4 successive primes.",
+  "description": "Products of 4 successive primes.",
   "id": "A046302",
   "mentions": [
     "A002110",

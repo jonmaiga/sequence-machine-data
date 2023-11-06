@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with exactly 4 1's in ternary expansion.",
+  "description": "Numbers with exactly 4 1's in their ternary expansion.",
   "id": "A023695",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

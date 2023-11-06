@@ -2,15 +2,20 @@
   "description": "Number of unitary prime divisors of n whose prime index is odd.",
   "id": "A345374",
   "mentions": [
-    "A056169"
+    "A000720",
+    "A005117",
+    "A056169",
+    "A324966",
+    "A345375"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 94,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

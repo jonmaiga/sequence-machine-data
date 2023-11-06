@@ -2,6 +2,7 @@
   "description": "Numbers n such that f(n) is a strict local extremum for the prime gaps function f(n) = prime(n+1)-prime(n), where prime(n) denotes the n-th prime; i.e., either f(n)>f(n-1) and f(n)>f(n+1) or f(n)",
   "id": "A066485",
   "mentions": [
+    "A001223",
     "A066918",
     "A196174",
     "A198696"

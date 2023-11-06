@@ -1,14 +1,16 @@
 {
   "description": "Orders of complete groups.",
   "id": "A341298",
-  "mentions": [],
+  "mentions": [
+    "A246655"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

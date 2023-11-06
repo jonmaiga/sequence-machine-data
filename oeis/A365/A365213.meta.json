@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n, k), n >= 0, k = 0..n, read by rows: let's consider a triangle of initially empty glasses of equal volume, G(n, k), n >= 0, k = 0..n; when water is poured into one of the glasses, say G(n, k), it flows into that glass until it's full, and then the excess overflows equally into G(n+1, k) and G(n+1, k+1); let V(n, k) be the minimum volume of water to be poured into G(0, 0) so as to fill G(n, k) completely; T(n, k) is the denominator of V(n, k) / V(0, 0).",
+  "id": "A365213",
+  "mentions": [
+    "A365212"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

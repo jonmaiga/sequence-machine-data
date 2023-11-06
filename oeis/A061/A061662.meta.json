@@ -1,5 +1,5 @@
 {
-  "description": "In base 8 n and n^2 contain the same digits in the same proportion.",
+  "description": "Numbers k > 1 such that, in base 8, k and k^2 contain the same digits in the same proportion.",
   "id": "A061662",
   "mentions": [
     "A061656",
@@ -20,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

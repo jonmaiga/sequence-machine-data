@@ -1,5 +1,5 @@
 {
-  "description": "A number n is included if (sum{k=1 to n} d(k)) is coprime to d(n), where d(n) is the number of positive divisors of n.",
+  "description": "Numbers k such that Sum_{i=1..k} d(i) is coprime to d(k), where d(k) is the number of positive divisors of k.",
   "id": "A140238",
   "mentions": [
     "A000005",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

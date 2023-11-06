@@ -1,14 +1,17 @@
 {
   "description": "Primes with property that all even digits occur together and all odd digits occur together.",
   "id": "A030475",
-  "mentions": [],
+  "mentions": [
+    "A030476",
+    "A030480"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

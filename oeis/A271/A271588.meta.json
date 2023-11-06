@@ -2,9 +2,11 @@
   "description": "Number of matrices with multiple eigenvalues from the set of n X n matrices with elements {-1, 0, +1}.",
   "id": "A271588",
   "mentions": [
+    "A060722",
     "A272658"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"

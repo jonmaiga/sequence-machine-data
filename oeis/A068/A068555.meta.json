@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows in which row n contains (2i)!*(2j)!/(i!*j!*(i+j)!) for i+j=n, i=0..n.",
+  "description": "Triangle read by rows in which row n contains (2i)!*(2j)!/(i!*j!*(i+j)!) for i + j = n, i = 0..n.",
   "id": "A068555",
   "mentions": [
     "A000984",

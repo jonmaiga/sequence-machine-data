@@ -1,0 +1,40 @@
+{
+  "description": "Heinz numbers of integer partitions with the same number of distinct positive subset-sums as distinct non-subset-sums.",
+  "id": "A365919",
+  "mentions": [
+    "A001223",
+    "A005117",
+    "A006827",
+    "A046663",
+    "A056239",
+    "A073491",
+    "A112798",
+    "A126796",
+    "A188431",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A304792",
+    "A304793",
+    "A325781",
+    "A325799",
+    "A365545",
+    "A365658",
+    "A365663",
+    "A365830",
+    "A365831",
+    "A365918",
+    "A365922",
+    "A365923",
+    "A365924"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

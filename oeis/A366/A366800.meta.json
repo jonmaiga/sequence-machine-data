@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A366799(i) = A366799(j) for all i, j >= 0, where A366799 is the number of divisors d of n that are not of the form 4k+2, as permuted by the Doudna sequence.",
+  "id": "A366800",
+  "mentions": [
+    "A005940",
+    "A320111",
+    "A366798",
+    "A366799"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

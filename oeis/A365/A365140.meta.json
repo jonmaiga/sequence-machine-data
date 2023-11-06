@@ -1,0 +1,19 @@
+{
+  "description": "List of free 4-dimensional polyhypercubes in binary code (see A365139), ordered first by the number of cells, then by the value of the binary code.",
+  "id": "A365140",
+  "mentions": [
+    "A068870",
+    "A246521",
+    "A365139",
+    "A365141"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

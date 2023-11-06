@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the cyclic group of order n is not a Hajós group.",
+  "description": "Numbers k such that the cyclic group of order k is not a Hajós group.",
   "id": "A102562",
   "mentions": [],
   "tags": [

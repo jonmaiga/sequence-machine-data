@@ -1,0 +1,20 @@
+{
+  "description": "Position of A365787(n) in A024619.",
+  "id": "A365789",
+  "mentions": [
+    "A007947",
+    "A024619",
+    "A120944",
+    "A286708",
+    "A365786",
+    "A365787"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

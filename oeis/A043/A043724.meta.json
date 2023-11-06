@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that number of runs in the base 2 representation of n is congruent to 0 mod 4.",
+  "description": "Numbers whose number of runs in the base-2 representation is congruent to 0 mod 4.",
   "id": "A043724",
-  "mentions": [],
+  "mentions": [
+    "A005811"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
+    "size": 57,
     "source": "joeis"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Minimal lengths of prime knots formed by orthogonal unit line segments of the cubic lattice.",
+  "id": "A366190",
+  "mentions": [
+    "A122059"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

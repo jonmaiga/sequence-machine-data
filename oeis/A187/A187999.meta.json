@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of n numbers x(i) in -(n+4)..(n+4) with the sum of sign(x(i))*x(i)^2 zero",
+  "description": "Number of nondecreasing arrangements of n numbers x(i) in -(n+4)..(n+4) with the sum of sign(x(i))*x(i)^2 zero.",
   "id": "A187999",
   "mentions": [
     "A188002"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

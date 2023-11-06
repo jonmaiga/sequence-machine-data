@@ -1,5 +1,5 @@
 {
-  "description": "(n-1)/2, where n runs through odd nonprimes (A014076).",
+  "description": "a(n) = (m-1)/2, where m is the n-th odd nonprime (A014076(n)).",
   "id": "A047845",
   "mentions": [
     "A005097",
@@ -12,6 +12,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

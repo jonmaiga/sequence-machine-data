@@ -1,14 +1,16 @@
 {
-  "description": "Least number k such that phi(k) = n, where n runs through the values (A002202) taken by phi.",
+  "description": "Least number k such that phi(k) = m, where m runs through the values (A002202) taken by phi.",
   "id": "A002181",
   "mentions": [
     "A002180",
     "A002202",
     "A006511",
     "A051445",
-    "A058277"
+    "A058277",
+    "A061026"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

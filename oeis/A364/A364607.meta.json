@@ -1,0 +1,19 @@
+{
+  "description": "Denominations of a 4-coin system that returns the fewest coins in change on average.",
+  "id": "A364607",
+  "mentions": [
+    "A208953",
+    "A339333",
+    "A366013"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

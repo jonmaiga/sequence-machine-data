@@ -2,6 +2,7 @@
   "description": "Row sums of triangle A117260.",
   "id": "A117261",
   "mentions": [
+    "A073587",
     "A117260",
     "A117263"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "joeis"
   }
 }

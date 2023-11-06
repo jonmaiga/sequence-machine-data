@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest continued fraction which is its own unit fraction series.",
+  "id": "A364872",
+  "mentions": [
+    "A364873"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

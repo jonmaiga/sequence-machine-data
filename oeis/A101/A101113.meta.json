@@ -1,7 +1,8 @@
 {
-  "description": "Let t(G) = number of unitary factors of the Abelian group G. Then a(n) = sum t(G) over all Abelian groups G of order exactly n.",
+  "description": "Let t(G) = number of unitary factors of the Abelian group G. Then a(n) = Sum t(G) over all Abelian groups G of order exactly n.",
   "id": "A101113",
   "mentions": [
+    "A000041",
     "A000688",
     "A034444",
     "A101114"

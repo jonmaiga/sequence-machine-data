@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,k) of partitions of [n] for which the difference between the longest and the shortest block size is k; triangle T(n,k), n>=0, 0<=k<=max(0,n-2), read by rows.",
+  "id": "A364971",
+  "mentions": [
+    "A000027",
+    "A000110",
+    "A038041",
+    "A080510",
+    "A178979",
+    "A364967"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

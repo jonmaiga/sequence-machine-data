@@ -2,7 +2,8 @@
   "description": "Number of nX2 0..1 arrays with no 1 equal to more than one of its horizontal and vertical neighbors.",
   "id": "A282990",
   "mentions": [
-    "A282996"
+    "A282996",
+    "A295275"
   ],
   "tags": [
     "formulas",

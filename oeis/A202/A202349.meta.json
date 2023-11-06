@@ -1,8 +1,9 @@
 {
-  "description": "Lexicographically first sequence such that the sequence and its first and second differences share no terms, and the 3rd differences are equal to the original sequence.",
+  "description": "Lexicographically earliest sequence such that the sequence and its first and second differences share no terms, and the 3rd differences are equal to the original sequence.",
   "id": "A202349",
   "mentions": [
     "A024493",
+    "A069705",
     "A130781"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, for n > 1, a(n) is the least k such that k^n divides k! but k^(n+1) does not divide k!.",
+  "description": "a(1) = 1; for n > 1, a(n) is the least k such that k^n divides k! but k^(n+1) does not divide k!.",
   "id": "A133481",
   "mentions": [
     "A011776",

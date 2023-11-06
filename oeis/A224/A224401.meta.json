@@ -1,12 +1,11 @@
 {
-  "description": "a(n) = row number of triangle A085612 in which n appears.",
+  "description": "a(n) is the row number of triangle A085612 in which n appears.",
   "id": "A224401",
   "mentions": [
-    "A064839",
     "A085612",
     "A085834",
     "A085836",
-    "A226387"
+    "A101296"
   ],
   "tags": [
     "nonn"

@@ -2,11 +2,14 @@
   "description": "Decimal expansion of (5+sqrt(21))/2.",
   "id": "A107905",
   "mentions": [
+    "A004253",
+    "A004254",
     "A090458"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

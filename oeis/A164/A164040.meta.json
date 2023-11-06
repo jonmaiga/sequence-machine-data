@@ -1,5 +1,5 @@
 {
-  "description": "2*alpha^4*e^(Pi/(4*alpha))*(e/2)^(1/4), where alpha is the fine structure constant A003673.",
+  "description": "Decimal expansion of 2*alpha^4*e^(Pi/(4*alpha))*(e/2)^(1/4), where alpha is the fine structure constant A003673.",
   "id": "A164040",
   "mentions": [
     "A003673",
@@ -8,13 +8,12 @@
   ],
   "tags": [
     "cons",
-    "formulas",
     "nonn",
     "obsc"
   ],
   "terms": {
     "offset": 39,
-    "size": 11,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

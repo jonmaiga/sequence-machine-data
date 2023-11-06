@@ -1,0 +1,40 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with exactly k distinct non-subset-sums.",
+  "id": "A365923",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A006827",
+    "A046663",
+    "A122768",
+    "A126796",
+    "A188431",
+    "A304792",
+    "A325781",
+    "A325799",
+    "A364272",
+    "A364350",
+    "A364839",
+    "A365543",
+    "A365545",
+    "A365658",
+    "A365661",
+    "A365663",
+    "A365830",
+    "A365831",
+    "A365918",
+    "A365919",
+    "A365921",
+    "A365922",
+    "A365924"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

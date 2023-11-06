@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having each digit once and whose 4th power has each digit four times.",
+  "id": "A365144",
+  "mentions": [
+    "A050278",
+    "A114260",
+    "A199630",
+    "A199631",
+    "A199633"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

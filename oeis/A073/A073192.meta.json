@@ -1,5 +1,5 @@
 {
-  "description": "Number of general plane trees whose n-th subtree from the left is equal with the n-th subtree from the right, for all its subtrees (i.e., are palindromic in the shallow sense).",
+  "description": "Number of general plane trees whose n-th subtree from the left is equal to the n-th subtree from the right, for all its subtrees (i.e., are palindromic in the shallow sense).",
   "id": "A073192",
   "mentions": [
     "A000108",

@@ -2,6 +2,7 @@
   "description": "a(n) = n^4/8 if n is even, a(n) = (n^2-1)^2/8 if n is odd.",
   "id": "A212892",
   "mentions": [
+    "A030179",
     "A211795"
   ],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of negative value of function Gamma(-A364355 + i*sqrt(1-A364355^2)).",
+  "id": "A364356",
+  "mentions": [
+    "A090986",
+    "A212877",
+    "A212878",
+    "A212879",
+    "A212880",
+    "A364355",
+    "A364821"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

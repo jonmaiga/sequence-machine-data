@@ -1,0 +1,24 @@
+{
+  "description": "Partial sums of A365414.",
+  "id": "A365444",
+  "mentions": [
+    "A000203",
+    "A016957",
+    "A239660",
+    "A363161",
+    "A365414",
+    "A365442",
+    "A365446"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

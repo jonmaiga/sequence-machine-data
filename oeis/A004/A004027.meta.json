@@ -2,6 +2,7 @@
   "description": "Number of arithmetic n-dimensional crystal classes.",
   "id": "A004027",
   "mentions": [
+    "A004028",
     "A004029",
     "A006226",
     "A006227",

@@ -1,5 +1,5 @@
 {
-  "description": "[ exp(11/16)*n! ].",
+  "description": "a(n) = floor( exp(11/16)*n! ).",
   "id": "A030902",
   "mentions": [],
   "tags": [

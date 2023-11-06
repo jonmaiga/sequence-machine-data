@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that n == 1 (mod 12) and n+1, 12n+1, 18n+1, 36n+1, 72n+1, 108n+1 and 144n+1 are all primes, so N = (6n+1)(12n+1)(18n+1), (36n+1)N, (72n+1)N, (108n+1)N and (144n+1)N are 5 Carmichael numbers in an arithmetic progression.",
+  "description": "Numbers k such that k == 1 (mod 12) and 6*k+1, 12*k+1, 18*k+1, 36*k+1, 72*k+1, 108*k+1 and 144*k+1 are all primes, so N = (6*k+1)*(12*k+1)*(18*k+1), (36*k+1)*N, (72*k+1)*N, (108*k+1)*N and (144*k+1)*N are 5 Carmichael numbers in an arithmetic progression.",
   "id": "A294031",
   "mentions": [
-    "A002997"
+    "A002997",
+    "A017533"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Number of magic labelings of the prism graph I X C_8 having magic sum n.",
   "id": "A289992",
   "mentions": [
+    "A002721",
     "A019298",
     "A061927",
     "A244497",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = denominator(4^n * n! * [x^n] sqrt(x / (e^x - 1))).",
+  "id": "A365671",
+  "mentions": [
+    "A126156",
+    "A241885"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

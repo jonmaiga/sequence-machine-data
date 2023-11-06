@@ -1,0 +1,19 @@
+{
+  "description": "Number of polyominoes in which every cell has coprime coordinates.",
+  "id": "A366020",
+  "mentions": [
+    "A000105",
+    "A294151",
+    "A347521"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

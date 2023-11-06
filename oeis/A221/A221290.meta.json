@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Equals two maps: number of nXk binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and antidiagonal neighbors in a random 0..3 nXk array",
+  "description": "T(n,k) = Equals two maps: number of n X k binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and antidiagonal neighbors in a random 0..3 n X k array.",
   "id": "A221290",
   "mentions": [
     "A005251",

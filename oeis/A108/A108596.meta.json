@@ -1,7 +1,10 @@
 {
   "description": "Numbers n such that 911*n - 7 is prime.",
   "id": "A108596",
-  "mentions": [],
+  "mentions": [
+    "A108597",
+    "A108938"
+  ],
   "tags": [
     "easy",
     "nonn"

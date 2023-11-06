@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: row n gives list of number of zeros following each 1 in binary representation of n.",
+  "description": "Triangle read by rows: row n gives the list of the number of zeros following each 1 in the binary representation of n.",
   "id": "A108730",
   "mentions": [
     "A000120",

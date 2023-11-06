@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>=1} k^4 * x^k/(1 - x^k)^4.",
+  "id": "A366933",
+  "mentions": [
+    "A059358",
+    "A064987",
+    "A343544",
+    "A343573",
+    "A366135",
+    "A366934"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

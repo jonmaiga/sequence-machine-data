@@ -1,11 +1,14 @@
 {
-  "description": "Number of self-dual functions of n variables.",
+  "description": "Number of N-equivalence classes of self-dual threshold functions of n or fewer variables.",
   "id": "A002080",
   "mentions": [
     "A000371",
-    "A002077"
+    "A000609",
+    "A002077",
+    "A002078"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A351251(i) = A351251(j) for all i, j >= 0, where A351251(n) is the denominator of n / A276086(n).",
+  "id": "A365384",
+  "mentions": [
+    "A276086",
+    "A351251",
+    "A351253",
+    "A365393",
+    "A365431"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

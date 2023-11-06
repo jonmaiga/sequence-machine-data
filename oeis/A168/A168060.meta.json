@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of ((n+2)/(n+1)/n) (sorted with no repeats).",
+  "description": "Denominators of ((n+2)/(n+1)/n) (sorted with no repeats) for n >= 1.",
   "id": "A168060",
   "mentions": [
     "A002939",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

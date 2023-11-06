@@ -1,7 +1,9 @@
 {
   "description": "Tersum n + 13.",
   "id": "A004502",
-  "mentions": [],
+  "mentions": [
+    "A004489"
+  ],
   "tags": [
     "formulas",
     "nonn"

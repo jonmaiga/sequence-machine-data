@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the concatenation of a square and a cube, and also the concatenation of a cube and a square.",
+  "id": "A363835",
+  "mentions": [
+    "A000290",
+    "A000578"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

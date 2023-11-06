@@ -1,7 +1,8 @@
 {
-  "description": "First differences of successive iterated triangular numbers.",
+  "description": "First differences of successive iterated triangular numbers with seed 2.",
   "id": "A145272",
   "mentions": [
+    "A000217",
     "A007501"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "joeis"
+    "size": 9,
+    "source": "oeis-entry"
   }
 }

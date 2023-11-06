@@ -1,8 +1,11 @@
 {
-  "description": "Beginning with 3, a(i)*a(j) + 2 is prime for all i,j, i<>j.",
+  "description": "Beginning with 3, a(i)*a(j) + 2 is prime for all i, j, i<>j.",
   "id": "A083518",
-  "mentions": [],
+  "mentions": [
+    "A083519"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

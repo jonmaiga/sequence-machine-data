@@ -1,0 +1,28 @@
+{
+  "description": "The number of divisors d of n such that gcd(d, n/d) is a square.",
+  "id": "A365171",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A000583",
+    "A004524",
+    "A005117",
+    "A008833",
+    "A034444",
+    "A046101",
+    "A046951",
+    "A365172",
+    "A365173"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

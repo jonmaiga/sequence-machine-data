@@ -27,15 +27,15 @@
     "A364464",
     "A364467",
     "A364534",
-    "A364535",
     "A364536"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

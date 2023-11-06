@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least positive number that can be written in exactly n ways as 3*x*y^2 - x^3 where x and y are positive integers.",
+  "id": "A364974",
+  "mentions": [
+    "A135782"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

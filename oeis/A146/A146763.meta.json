@@ -2,6 +2,7 @@
   "description": "Rank of terms ending in 0 in A061039.",
   "id": "A146763",
   "mentions": [
+    "A001622",
     "A020714",
     "A030308",
     "A061039"

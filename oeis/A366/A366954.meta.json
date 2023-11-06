@@ -1,0 +1,21 @@
+{
+  "description": "The sum of the divisors of the concatenation of 1,2,3,...,n.",
+  "id": "A366954",
+  "mentions": [
+    "A000203",
+    "A007908",
+    "A075019",
+    "A075022",
+    "A110756"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

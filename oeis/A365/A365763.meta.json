@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of polynomials of degree 4 in a regular Groebner basis (graded reverse lexicographic order) of n quadratic polynomials in n variables.",
+  "id": "A365763",
+  "mentions": [
+    "A000027",
+    "A006463"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

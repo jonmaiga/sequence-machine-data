@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime divisors of A000129(n) (Pell numbers).",
+  "id": "A364818",
+  "mentions": [
+    "A000129",
+    "A001221",
+    "A272040",
+    "A363829",
+    "A363831",
+    "A363833"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

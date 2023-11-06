@@ -1,5 +1,5 @@
 {
-  "description": "Number of maximal independent vertex sets (and minimal vertex covers) in the in n X n king graph.",
+  "description": "Number of maximal independent vertex sets (and minimal vertex covers) in the n X n king graph.",
   "id": "A288956",
   "mentions": [
     "A063443",

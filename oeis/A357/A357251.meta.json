@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{1<=i<=j<=n} prime(i)*prime(j)",
+  "description": "a(n) = Sum_{1<=i<=j<=n} prime(i)*prime(j).",
   "id": "A357251",
   "mentions": [
     "A007504",
@@ -7,6 +7,7 @@
     "A024450",
     "A065762",
     "A143215",
+    "A343751",
     "A357252"
   ],
   "tags": [

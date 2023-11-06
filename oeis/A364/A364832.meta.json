@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array, read by descending antidiagonals, in which row n lists numbers m such that w(s,m) = n-1 (see comments for definition of w).",
+  "id": "A364832",
+  "mentions": [
+    "A000040",
+    "A003627",
+    "A004612",
+    "A343430",
+    "A346414",
+    "A364808"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4 is a primitive sum of 3 positive fourth powers.",
+  "description": "Numbers k such that k^4 is a primitive sum of 3 positive fourth powers.",
   "id": "A003828",
   "mentions": [
     "A078518",

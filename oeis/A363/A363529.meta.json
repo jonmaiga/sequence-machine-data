@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x * (1 + x * A(x)^4)).",
+  "id": "A363529",
+  "mentions": [
+    "A125500",
+    "A143768",
+    "A363354"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

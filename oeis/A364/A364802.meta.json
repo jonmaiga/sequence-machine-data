@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number that reaches 1 after n iterations of the map x -> A356874(x).",
+  "id": "A364802",
+  "mentions": [
+    "A007755",
+    "A356874",
+    "A364800",
+    "A364803"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

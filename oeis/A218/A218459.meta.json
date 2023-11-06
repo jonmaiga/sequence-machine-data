@@ -2,7 +2,8 @@
   "description": "a(n) is the smallest positive integer d such that prime(n) = x^2 + dy^2 has a solution (x,y) in integers.",
   "id": "A218459",
   "mentions": [
-    "A088192"
+    "A088192",
+    "A176255"
   ],
   "tags": [
     "formulas",

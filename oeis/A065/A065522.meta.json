@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) and sigma(n+1) are nontrivial powers (A065496).",
+  "description": "Numbers k such that sigma(k) and sigma(k+1) are nontrivial powers (A065496).",
   "id": "A065522",
   "mentions": [
     "A065496"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "joeis"
   }
 }

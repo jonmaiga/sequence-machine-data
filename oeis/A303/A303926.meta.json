@@ -2,6 +2,7 @@
   "description": "G.f. A(x) satisfies: 1 = Sum_{n>=0} ( (1 + x*A(x))^n - A(x) )^n.",
   "id": "A303926",
   "mentions": [
+    "A303056",
     "A303923",
     "A303927",
     "A303928"

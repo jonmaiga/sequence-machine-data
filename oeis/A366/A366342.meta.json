@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=1..n} Sum_{j=1..k} j^k.",
+  "id": "A366342",
+  "mentions": [
+    "A002109",
+    "A031971",
+    "A074962",
+    "A185393",
+    "A366329"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

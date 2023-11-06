@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k > 1 such that (k-1)^(2^k-2) == 1 (mod (2^k-1)*k^2).",
+  "id": "A366029",
+  "mentions": [
+    "A000043",
+    "A000215"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

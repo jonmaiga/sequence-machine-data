@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = mod(abs(n-1-a(n-2)),n) + mod(abs(n-1-a(n-1)),n-1), a(0) = 1, a(1) = 1.",
+  "description": "a(n) = (abs(n-1-a(n-2)) mod n) + (abs(n-1-a(n-1)) mod (n-1)), a(0) = 1, a(1) = 1.",
   "id": "A072222",
   "mentions": [],
   "tags": [

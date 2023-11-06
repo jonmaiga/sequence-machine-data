@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of abs(Gamma(exp(i*Pi/3))).",
+  "id": "A365319",
+  "mentions": [
+    "A109219",
+    "A212877",
+    "A212878",
+    "A212879",
+    "A212880",
+    "A365317",
+    "A365318"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest permutation of the prime numbers such that a(n) - [the next digit] is a nonprime number and a(n) - [the next digit] >= 0.",
+  "id": "A365769",
+  "mentions": [
+    "A365768"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

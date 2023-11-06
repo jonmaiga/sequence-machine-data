@@ -1,5 +1,5 @@
 {
-  "description": "Minimal number of integer points in the Euclidean plane which are contained in any convex n-gon whose vertices have integer coordinates.",
+  "description": "Minimal number of integer points in the Euclidean plane which are contained in the interior of any convex n-gon whose vertices have integer coordinates.",
   "id": "A063984",
   "mentions": [
     "A070911",
@@ -11,13 +11,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 23,
+    "size": 53,
     "source": "oeis-entry"
   }
 }

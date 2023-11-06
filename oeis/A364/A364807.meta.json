@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that abs(k - Sum_{m=2..k} pi(prime(k)/m)) is a prime number, where pi(k) is number of primes <= k.",
+  "id": "A364807",
+  "mentions": [
+    "A000720",
+    "A104272"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

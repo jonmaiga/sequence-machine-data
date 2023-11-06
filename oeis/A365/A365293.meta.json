@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n!*tetranacci(n+3).",
+  "id": "A365293",
+  "mentions": [
+    "A000078",
+    "A000142",
+    "A002866",
+    "A005442",
+    "A276924",
+    "A364324"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

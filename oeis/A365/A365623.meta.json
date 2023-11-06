@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) is the number of parking functions of length n with cars parking at most k spots away from their preferred spot; square array T(n,k), n>=0, k>=0, read by downward antidiagonals.",
+  "id": "A365623",
+  "mentions": [
+    "A000142",
+    "A000272",
+    "A000670",
+    "A264902",
+    "A365626",
+    "A365627"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

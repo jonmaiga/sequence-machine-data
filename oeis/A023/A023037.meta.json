@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^0+n^1+...+n^(n-1), or a(n) = (n^n-1)/(n-1) with a(0)=0; a(1)=1.",
+  "description": "a(n) = n^0 + n^1 + ... + n^(n-1), or a(n) = (n^n-1)/(n-1) with a(0)=0; a(1)=1.",
   "id": "A023037",
   "mentions": [
     "A001039",

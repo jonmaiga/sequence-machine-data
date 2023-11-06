@@ -1,5 +1,5 @@
 {
-  "description": "Primes of form x^2+7*y^2.",
+  "description": "Primes of the form x^2 + 7*y^2.",
   "id": "A033207",
   "mentions": [
     "A002344",

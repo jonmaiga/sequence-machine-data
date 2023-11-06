@@ -1,0 +1,39 @@
+{
+  "description": "Heinz numbers of integer partitions that are of length 2 or begin with n/2, where n is the sum of all parts.",
+  "id": "A366318",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A001414",
+    "A004526",
+    "A025065",
+    "A035363",
+    "A056239",
+    "A058984",
+    "A086543",
+    "A100959",
+    "A110618",
+    "A112798",
+    "A238628",
+    "A316413",
+    "A320924",
+    "A322109",
+    "A325044",
+    "A334201",
+    "A340387",
+    "A344296",
+    "A344414",
+    "A344415",
+    "A344416",
+    "A366319"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

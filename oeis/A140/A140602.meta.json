@@ -1,5 +1,5 @@
 {
-  "description": "Values of m for which C(m,a)+C(m,a+1)=C(m+1,a+1) divides C(m,2a+1) for some nonnegative integer a with 2a+1 <= m.",
+  "description": "Values of m for which C(m,k)+C(m,k+1)=C(m+1,k+1) divides C(m,2k+1) for some nonnegative integer k with 2k+1 <= m.",
   "id": "A140602",
   "mentions": [
     "A140601",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

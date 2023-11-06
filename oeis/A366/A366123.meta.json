@@ -1,0 +1,26 @@
+{
+  "description": "The number of prime factors of the cube root of the largest cube dividing n, counted with multiplicity.",
+  "id": "A366123",
+  "mentions": [
+    "A000578",
+    "A001222",
+    "A002264",
+    "A004709",
+    "A008834",
+    "A053150",
+    "A061704",
+    "A286229",
+    "A295659",
+    "A333843"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

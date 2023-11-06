@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers (A246655) q such that -2 is a nonzero square in the finite field F_q.",
+  "id": "A365082",
+  "mentions": [
+    "A033200",
+    "A085759",
+    "A246655",
+    "A365313",
+    "A366526"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Row sums of triangle A013988.",
   "id": "A028844",
   "mentions": [
+    "A000012",
     "A001515",
     "A013988",
     "A015735",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 16,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

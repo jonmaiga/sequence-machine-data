@@ -2,6 +2,7 @@
   "description": "1-limiting word of the morphism 0 -> 1, 1 -> 001.",
   "id": "A284391",
   "mentions": [
+    "A003159",
     "A284388",
     "A284392",
     "A284393"

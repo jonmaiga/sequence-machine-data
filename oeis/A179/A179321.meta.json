@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that sum of first k odd primes=n-th odd prime.",
+  "description": "Numbers m such that the sum of the first k odd primes = m-th odd prime.",
   "id": "A179321",
   "mentions": [
     "A000040",
-    "A007504"
+    "A007504",
+    "A071151"
   ],
   "tags": [
     "formulas",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

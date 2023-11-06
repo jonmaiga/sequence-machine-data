@@ -2,7 +2,8 @@
   "description": "Number of binary trees of height n such that the number of nodes at depth d equals d+1 for every d = 0..n.",
   "id": "A338550",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A074962"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

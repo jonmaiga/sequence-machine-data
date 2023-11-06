@@ -1,5 +1,5 @@
 {
-  "description": "From the expansion of sinh x / cos x: a(n) = odd part of A002084(n).",
+  "description": "From the expansion of sinh(x) / cos(x): a(n) = odd part of A002084(n).",
   "id": "A002085",
   "mentions": [
     "A001950",

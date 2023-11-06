@@ -1,5 +1,5 @@
 {
-  "description": "Rotatable partitions.",
+  "description": "Number of rotatable partitions of [n].",
   "id": "A002723",
   "mentions": [
     "A002722"

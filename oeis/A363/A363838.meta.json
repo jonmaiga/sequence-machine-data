@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Product_{b=2..n} b^gamma(n, b) where gamma(n, b) = Sum_{i>=1} floor(n/b^i).",
+  "id": "A363838",
+  "mentions": [
+    "A153216"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The least number with the same prime signature as A356867(1+n), where A356867 is Sycamore's Doudna variant D(3).",
+  "id": "A365719",
+  "mentions": [
+    "A046523",
+    "A278222",
+    "A356867",
+    "A365720",
+    "A365721",
+    "A365722"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

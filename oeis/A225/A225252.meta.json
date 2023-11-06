@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of distinct values of the sum of n products of two 0..k integers",
+  "description": "T(n,k) = number of distinct values of the sum of n products of two 0..k integers.",
   "id": "A225252",
   "mentions": [
     "A027384",

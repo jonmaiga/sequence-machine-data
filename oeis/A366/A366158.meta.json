@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct determinants of 3 X 3 matrices with entries from {0, 1, ..., n}.",
+  "id": "A366158",
+  "mentions": [
+    "A033431",
+    "A058331",
+    "A097400",
+    "A272658",
+    "A272659",
+    "A272660",
+    "A272661",
+    "A272662",
+    "A272663",
+    "A365926"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

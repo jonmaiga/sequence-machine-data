@@ -1,5 +1,5 @@
 {
-  "description": "All odd integer numbers which are not a positive power of a single prime and have at least one prime divisor 1 (mod 4).",
+  "description": "Odd integers which are not a positive power of a single prime and have at least one prime divisor 1 (mod 4).",
   "id": "A329589",
   "mentions": [
     "A002144",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 62,
     "source": "oeis-entry"
   }
 }

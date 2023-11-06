@@ -2,6 +2,7 @@
   "description": "Triangle read by rows where T(n,k) is the number of integer partitions of 2^n with mean 2^k, 0 <= k <= n.",
   "id": "A327483",
   "mentions": [
+    "A008284",
     "A067538",
     "A068413",
     "A237984",
@@ -12,13 +13,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers >10, using only one digit such that every partial sum is a prime.",
+  "description": "a(n) is the smallest repdigit > 10 such that Sum_{i=0..n} a(i) is prime.",
   "id": "A087402",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 0,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

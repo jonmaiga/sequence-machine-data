@@ -1,0 +1,24 @@
+{
+  "description": "The number of infinitary divisors of n that are \"Fermi-Dirac primes\" (A050376) and terms of A366242.",
+  "id": "A366246",
+  "mentions": [
+    "A050376",
+    "A064547",
+    "A077761",
+    "A139351",
+    "A366242",
+    "A366243",
+    "A366244",
+    "A366247"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

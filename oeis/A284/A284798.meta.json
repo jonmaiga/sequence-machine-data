@@ -1,5 +1,5 @@
 {
-  "description": "Fixed points of the transform A284797.",
+  "description": "Antipalindromic numbers in base 3.",
   "id": "A284798",
   "mentions": [
     "A035928",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct prime divisors of n is a prime.",
+  "description": "Integers whose number of distinct prime divisors is prime.",
   "id": "A064040",
   "mentions": [
     "A000977",

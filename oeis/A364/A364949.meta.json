@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(A348717(n), A348717(A163511(n))).",
+  "id": "A364949",
+  "mentions": [
+    "A163511",
+    "A348717",
+    "A364255",
+    "A364297"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

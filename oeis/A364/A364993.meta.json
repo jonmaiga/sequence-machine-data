@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles (of length >=4) in the complement of the n-odd graph.",
+  "id": "A364993",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

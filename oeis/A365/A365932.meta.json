@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the number of cubes (of integers > 0) that have bit length n.",
+  "id": "A365932",
+  "mentions": [
+    "A002580",
+    "A004632",
+    "A017981",
+    "A126726",
+    "A365930"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of circular binary sequences of length n with an even number of 0's and no three consecutive 1's.",
+  "id": "A366044",
+  "mentions": [
+    "A001644",
+    "A366045"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

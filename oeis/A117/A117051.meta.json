@@ -1,5 +1,5 @@
 {
-  "description": "Enneagonal numbers for which the sum of the digits is also an enneagonal number.",
+  "description": "Enneagonal numbers whose sum of digits is also enneagonal.",
   "id": "A117051",
   "mentions": [
     "A001106"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

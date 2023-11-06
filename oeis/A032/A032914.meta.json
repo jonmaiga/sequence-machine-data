@@ -1,7 +1,10 @@
 {
   "description": "Numbers whose set of base-7 digits is {1,3}.",
   "id": "A032914",
-  "mentions": [],
+  "mentions": [
+    "A007093",
+    "A032917"
+  ],
   "tags": [
     "base",
     "nonn"

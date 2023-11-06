@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions of 2n containing at least one even part.",
+  "id": "A366527",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001255",
+    "A006477",
+    "A006827",
+    "A035363",
+    "A047967",
+    "A064914",
+    "A078408",
+    "A086543",
+    "A182616",
+    "A231429",
+    "A304710",
+    "A324929",
+    "A365828",
+    "A366319",
+    "A366321",
+    "A366322",
+    "A366528",
+    "A366529",
+    "A366532"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

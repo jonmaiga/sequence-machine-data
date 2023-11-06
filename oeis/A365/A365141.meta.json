@@ -1,0 +1,19 @@
+{
+  "description": "List of free 5-dimensional polyominoes in binary code (see A365139), ordered first by the number of cells, then by the value of the binary code.",
+  "id": "A365141",
+  "mentions": [
+    "A049430",
+    "A246521",
+    "A365139",
+    "A365140"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

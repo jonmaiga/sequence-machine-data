@@ -1,0 +1,16 @@
+{
+  "description": "Primes that are the concatenation of three squares in base 10.",
+  "id": "A366106",
+  "mentions": [
+    "A167535"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

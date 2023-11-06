@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of occurrences of n in A364443.",
+  "id": "A364730",
+  "mentions": [
+    "A077773",
+    "A363522",
+    "A364443",
+    "A364729",
+    "A364731",
+    "A364732"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

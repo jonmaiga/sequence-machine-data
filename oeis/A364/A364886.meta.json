@@ -1,0 +1,35 @@
+{
+  "description": "Number of n X n (-1, 1)-matrices which have only eigenvalues with strictly negative real part (which implies that the matrix has all nonzero eigenvalues).",
+  "id": "A364886",
+  "mentions": [
+    "A056990",
+    "A083058",
+    "A085506",
+    "A086510",
+    "A087488",
+    "A098148",
+    "A207259",
+    "A219736",
+    "A271570",
+    "A271588",
+    "A296605",
+    "A306002",
+    "A306791",
+    "A306792",
+    "A306793",
+    "A306794",
+    "A306795",
+    "A326928",
+    "A346209",
+    "A346210"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

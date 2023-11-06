@@ -1,5 +1,5 @@
 {
-  "description": "Sum( d | n, sp(d)), where sp(d) = A034387(d) = sum of primes <= d.",
+  "description": "a(n) = Sum_{d|n} sp(d), where sp(d) = A034387(d) = sum of primes <= d.",
   "id": "A156779",
   "mentions": [
     "A034387"

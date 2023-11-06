@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = phi(5^n+1), where phi is Euler's totient function (A000010).",
+  "id": "A366618",
+  "mentions": [
+    "A000010",
+    "A034474",
+    "A295502",
+    "A366608"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

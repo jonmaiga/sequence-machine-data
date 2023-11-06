@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, for n > 1: a(n) = sigma(sum of the previous terms) where sigma(k) = sum of the divisors of k.",
+  "description": "a(1) = 1; for n > 1, a(n) = sigma(sum of the previous terms) where sigma(k) = sum of the divisors of k.",
   "id": "A165929",
   "mentions": [
     "A000203",

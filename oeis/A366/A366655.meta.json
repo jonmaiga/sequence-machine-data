@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime divisors of 8^n + 1.",
+  "id": "A366655",
+  "mentions": [
+    "A001221",
+    "A057936",
+    "A062395",
+    "A366632",
+    "A366651"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

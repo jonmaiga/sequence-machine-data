@@ -1,0 +1,13 @@
+{
+  "description": "Expansion of e.g.f. exp(x+exp(x)-1)/(2-exp(x)).",
+  "id": "A365299",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

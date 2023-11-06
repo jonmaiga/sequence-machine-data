@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: row k shows the numbers n such that (k-1)/k < f(n) < k/(k+1), where f(n) = fractional part of n*(golden ratio).",
+  "description": "Array read by antidiagonals: row k lists the numbers m such that (k-1)/k < f(m) < k/(k+1), where f(m) = fractional part of m*(golden ratio).",
   "id": "A283739",
   "mentions": [
     "A000045",

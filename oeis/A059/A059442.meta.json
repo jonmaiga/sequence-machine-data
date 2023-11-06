@@ -1,10 +1,13 @@
 {
-  "description": "Array of Ramsey numbers R(n,k) read by antidiagonals.",
+  "description": "Array of Ramsey numbers R(n,k) (n >= 2, k >= 2) read by antidiagonals.",
   "id": "A059442",
   "mentions": [
-    "A000791"
+    "A000791",
+    "A120414",
+    "A212954"
   ],
   "tags": [
+    "formulas",
     "hard",
     "nice",
     "nonn",

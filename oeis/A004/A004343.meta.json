@@ -1,7 +1,14 @@
 {
   "description": "Binomial coefficient C(5n,n-1).",
   "id": "A004343",
-  "mentions": [],
+  "mentions": [
+    "A001791",
+    "A004319",
+    "A004331",
+    "A004356",
+    "A004369",
+    "A004382"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

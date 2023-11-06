@@ -1,9 +1,16 @@
 {
-  "description": "Numbers n such that n | p(n) - q(n) where p(n) = partition numbers (A000041) and q(n) = partition numbers into distinct parts (A000009).",
+  "description": "Numbers k such that k | p(k) - q(k) where p(k) = partition numbers (A000041) and q(k) = partition numbers into distinct parts (A000009).",
   "id": "A056873",
   "mentions": [
     "A000009",
-    "A000041"
+    "A000041",
+    "A051177",
+    "A056848",
+    "A056872",
+    "A121919",
+    "A128836",
+    "A162468",
+    "A259943"
   ],
   "tags": [
     "more",
@@ -11,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

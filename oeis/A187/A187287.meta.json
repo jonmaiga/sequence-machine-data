@@ -2,6 +2,7 @@
   "description": "Number of 2-step one or two space at a time rook's tours on an n X n board summed over all starting positions.",
   "id": "A187287",
   "mentions": [
+    "A014107",
     "A187286"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 45,
     "source": "oeis-bfile"
   }
 }

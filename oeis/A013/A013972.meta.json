@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum of 24th powers of divisors of n.",
+  "description": "a(n) = sigma_24(n), the sum of the 24th powers of the divisors of n.",
   "id": "A013972",
   "mentions": [
     "A000203",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

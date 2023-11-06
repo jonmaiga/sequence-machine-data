@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime divisors of A000073(n) (tribonacci numbers).",
+  "id": "A366780",
+  "mentions": [
+    "A000073",
+    "A001221",
+    "A022307",
+    "A366781",
+    "A366782"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

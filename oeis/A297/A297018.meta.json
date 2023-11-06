@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..1 arrays with each 1 adjacent to 3, 4 or 6 king-move neighboring 1s.",
+  "description": "Number of n X 6 0..1 arrays with each 1 adjacent to 3, 4 or 6 king-move neighboring 1's.",
   "id": "A297018",
   "mentions": [
     "A297020"

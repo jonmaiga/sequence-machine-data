@@ -1,0 +1,21 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) is the parity of the k-th iterate of the 5x+1 function started at n, with n >= 1 and k >= 0.",
+  "id": "A365992",
+  "mentions": [
+    "A185452",
+    "A347283",
+    "A365495",
+    "A365991"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

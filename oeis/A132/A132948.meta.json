@@ -2,10 +2,12 @@
   "description": "a(n) = smallest k not occurring earlier such that k divides prime(n)-1.",
   "id": "A132948",
   "mentions": [
+    "A000040",
     "A132946",
     "A132947",
     "A132949",
-    "A132988"
+    "A132988",
+    "A139317"
   ],
   "tags": [
     "nonn"

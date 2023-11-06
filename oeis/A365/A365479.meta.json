@@ -1,0 +1,24 @@
+{
+  "description": "The sum of unitary divisors of the smallest square divisible by n.",
+  "id": "A365479",
+  "mentions": [
+    "A002117",
+    "A034444",
+    "A034448",
+    "A053143",
+    "A365346",
+    "A365480",
+    "A365481"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

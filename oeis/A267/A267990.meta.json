@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk arrays containing k copies of 0..n-1 with row sums and column sums nondecreasing.",
+  "description": "T(n,k) = Number of n X k arrays containing k copies of 0..n-1 with row sums and column sums nondecreasing.",
   "id": "A267990",
   "mentions": [],
   "tags": [

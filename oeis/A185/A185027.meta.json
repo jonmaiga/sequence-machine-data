@@ -2,6 +2,7 @@
   "description": "Sum of the triangular divisors of n.",
   "id": "A185027",
   "mentions": [
+    "A000217",
     "A035316"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 7, a(n+1) = F(a(n)).",
+  "description": "a(0) = 7, a(n+1) = Fibonacci(a(n)).",
   "id": "A084963",
   "mentions": [
     "A000045",

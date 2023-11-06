@@ -2,6 +2,7 @@
   "description": "Waring's problem: least positive integer requiring maximum number of terms when expressed as a sum of positive n-th powers.",
   "id": "A018886",
   "mentions": [
+    "A000079",
     "A002379",
     "A079611",
     "A185187"

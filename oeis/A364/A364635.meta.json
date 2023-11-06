@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest prime p such that p/PrimePi(p) < n.",
+  "id": "A364635",
+  "mentions": [
+    "A000720",
+    "A038625",
+    "A062743",
+    "A102281"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = k is the smallest number such that k^3 + 1 has n distinct prime factors.",
+  "description": "a(n) = k is the smallest number such that k^3 + 1 has exactly n distinct prime factors.",
   "id": "A219108",
   "mentions": [
     "A001093",

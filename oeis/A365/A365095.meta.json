@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying [x^(n-1)] (1 + (n-1)*x*A(x)^2)^n / A(x)^n = 0 for n > 1.",
+  "id": "A365095",
+  "mentions": [
+    "A000108",
+    "A303063"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

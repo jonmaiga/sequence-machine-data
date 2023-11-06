@@ -1,0 +1,41 @@
+{
+  "description": "Number of strict integer partitions with sum <= n that can be linearly combined using nonnegative coefficients to obtain n.",
+  "id": "A365311",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A066062",
+    "A088314",
+    "A088528",
+    "A093971",
+    "A116861",
+    "A237113",
+    "A237668",
+    "A326080",
+    "A363225",
+    "A364272",
+    "A364350",
+    "A364534",
+    "A364839",
+    "A364913",
+    "A364914",
+    "A364915",
+    "A364916",
+    "A365043",
+    "A365073",
+    "A365312",
+    "A365314",
+    "A365320",
+    "A365379"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

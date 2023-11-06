@@ -6,15 +6,19 @@
     "A001221",
     "A001222",
     "A007947",
-    "A129251"
+    "A051674",
+    "A094289",
+    "A129251",
+    "A147533"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

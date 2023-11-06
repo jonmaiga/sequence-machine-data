@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the greatest k < n such that A109812(k) AND A109812(n) = A109812(k) or 0 is no such k exists (where AND denotes the bitwise AND operator).",
+  "description": "a(n) is the greatest k < n such that A109812(k) AND A109812(n) = A109812(k) or 0 if no such k exists (where AND denotes the bitwise AND operator).",
   "id": "A352846",
   "mentions": [
     "A109812",

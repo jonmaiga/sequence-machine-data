@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(n-2) + 4*a(n-4) - 2*a(n-8) - a(n-10), with a[0..9] = [1, 1, 1, 2, 3, 5, 7, 13, 18, 31].",
+  "id": "A365274",
+  "mentions": [
+    "A135318",
+    "A366143"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

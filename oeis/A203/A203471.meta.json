@@ -1,16 +1,18 @@
 {
-  "description": "v(n)/A000178(n); v=A203470, A000178=(superfactorials).",
+  "description": "a(n) = v(n)/A000178(n), v = A203470, A000178 = (superfactorials).",
   "id": "A203471",
   "mentions": [
     "A000178",
+    "A102693",
     "A203470"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 12,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

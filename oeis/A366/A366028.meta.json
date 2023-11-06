@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A366027.",
+  "id": "A366028",
+  "mentions": [
+    "A271410",
+    "A366027"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

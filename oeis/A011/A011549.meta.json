@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sqrt(3) truncated to n places.",
+  "description": "a(n) = floor(sqrt(3)*10^n).",
   "id": "A011549",
   "mentions": [
     "A002194"

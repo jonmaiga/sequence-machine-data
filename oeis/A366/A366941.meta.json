@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k such that k == 1 (mod 6) and k has exactly n prime factors, counted with multiplicity.",
+  "id": "A366941",
+  "mentions": [
+    "A001222",
+    "A002476"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

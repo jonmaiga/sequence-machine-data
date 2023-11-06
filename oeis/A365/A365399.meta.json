@@ -1,0 +1,18 @@
+{
+  "description": "Length of the longest subsequence of 1, ..., n on which the number of divisors function tau A000005 is nondecreasing.",
+  "id": "A365399",
+  "mentions": [
+    "A000005",
+    "A365339",
+    "A365398"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

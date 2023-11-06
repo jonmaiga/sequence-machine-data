@@ -1,0 +1,38 @@
+{
+  "description": "Least positive integer whose odd prime factors sum to n, starting with n = 5.",
+  "id": "A366841",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A007814",
+    "A019507",
+    "A027746",
+    "A031368",
+    "A036349",
+    "A056239",
+    "A056240",
+    "A066208",
+    "A087436",
+    "A100005",
+    "A112798",
+    "A113685",
+    "A116598",
+    "A239261",
+    "A257991",
+    "A331416",
+    "A335657",
+    "A365067",
+    "A366528",
+    "A366839",
+    "A366840",
+    "A366851"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

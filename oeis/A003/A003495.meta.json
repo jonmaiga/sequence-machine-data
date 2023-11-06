@@ -1,13 +1,19 @@
 {
-  "description": "Susceptibility for f.c.c. lattice.",
+  "description": "High temperature series for susceptibility for spherical model on f.c.c. lattice.",
   "id": "A003495",
-  "mentions": [],
+  "mentions": [
+    "A002921",
+    "A003279",
+    "A003494",
+    "A003498"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

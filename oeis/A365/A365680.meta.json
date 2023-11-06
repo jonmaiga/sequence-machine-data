@@ -1,0 +1,26 @@
+{
+  "description": "The number of exponentially squarefree divisors of n.",
+  "id": "A365680",
+  "mentions": [
+    "A000005",
+    "A013928",
+    "A046100",
+    "A209061",
+    "A252505",
+    "A325837",
+    "A353898",
+    "A365682",
+    "A365683"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonempty choice functions on a set of n alternatives",
+  "id": "A365447",
+  "mentions": [
+    "A061301",
+    "A229333"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

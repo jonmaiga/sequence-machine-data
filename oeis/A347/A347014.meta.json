@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(x) / (1 - 6 * x)^(1/6).",
+  "description": "Expansion of e.g.f.: exp(x) / (1 - 6*x)^(1/6).",
   "id": "A347014",
   "mentions": [
     "A000522",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (3*n^4 - 4*n^3 + n^2 + 4*n + 4)/4.",
+  "id": "A366478",
+  "mentions": [
+    "A365929"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

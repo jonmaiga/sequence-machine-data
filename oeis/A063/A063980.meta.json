@@ -1,5 +1,5 @@
 {
-  "description": "Pillai primes: p such that there exists an integer m such that m!+1 is 0 mod p and p is not 1 mod m.",
+  "description": "Pillai primes: primes p such that there exists an integer m such that m! + 1 == 0 (mod p) and p != 1 (mod m).",
   "id": "A063980",
   "mentions": [
     "A063828",

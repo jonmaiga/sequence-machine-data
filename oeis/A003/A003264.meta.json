@@ -1,5 +1,5 @@
 {
-  "description": "Floor((-4n)/Bernoulli(2n)).",
+  "description": "a(n) = floor((-4n)/Bernoulli(2n)).",
   "id": "A003264",
   "mentions": [],
   "tags": [

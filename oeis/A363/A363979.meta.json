@@ -1,0 +1,16 @@
+{
+  "description": "Number of nonsimilar polygonal regions in a regular n-gon with all diagonals drawn.",
+  "id": "A363979",
+  "mentions": [
+    "A007678",
+    "A187781"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

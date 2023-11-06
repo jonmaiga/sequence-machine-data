@@ -2,6 +2,7 @@
   "description": "Let N = 235711171923293137..., the concatenation of the primes. a(n) is the n-digit number formed from the digits of N starting from the {n(n-1)/2 +1}th digit. Omit any leading zeros.",
   "id": "A066549",
   "mentions": [
+    "A033308",
     "A066547"
   ],
   "tags": [

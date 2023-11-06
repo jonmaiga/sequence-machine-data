@@ -1,5 +1,5 @@
 {
-  "description": "Number of inequivalent sublattices of index n in square lattice, where two lattices are considered equivalent if one can be rotated to give the other.",
+  "description": "Number of inequivalent sublattices of index n in a square lattice, where two sublattices are considered equivalent if one can be rotated to give the other.",
   "id": "A054345",
   "mentions": [
     "A001615",

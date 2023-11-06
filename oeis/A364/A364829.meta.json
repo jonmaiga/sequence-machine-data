@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of regions inside a regular n-gon after inscribing (always starting from the same point), for each proper divisor d_i of n greater than 1, a regular d_i-gon.",
+  "id": "A364829",
+  "mentions": [
+    "A006600",
+    "A007678",
+    "A364828",
+    "A364830",
+    "A364838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

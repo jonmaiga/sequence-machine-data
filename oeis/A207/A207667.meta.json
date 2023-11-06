@@ -3,16 +3,19 @@
   "id": "A207667",
   "mentions": [
     "A000010",
+    "A050474",
     "A202855",
     "A203966",
     "A207574"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Consider smallest m such that m^2 = x1^2 + ... + xn^2 with 0 < x1 < ... < xn. Sequence gives values of m.",
+  "description": "a(n) is the smallest m whose square is the sum of n distinct positive squares.",
   "id": "A018935",
   "mentions": [
     "A018936",

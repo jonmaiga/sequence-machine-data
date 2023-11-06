@@ -5,7 +5,10 @@
     "A000085",
     "A000110",
     "A005425",
-    "A094065"
+    "A094070",
+    "A094071",
+    "A094073",
+    "A094074"
   ],
   "tags": [
     "formulas",
@@ -14,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

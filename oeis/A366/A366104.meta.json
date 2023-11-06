@@ -1,0 +1,23 @@
+{
+  "description": "G.f. ( Chi(sqrt(x))^4 + Chi(-sqrt(x))^4 )/2, where Chi(x) = Product_{k >= 0} 1 + x^(2*k+1) is the g.f. of A000700.",
+  "id": "A366104",
+  "mentions": [
+    "A000700",
+    "A014705",
+    "A069910",
+    "A069911",
+    "A224916",
+    "A226622",
+    "A226635"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

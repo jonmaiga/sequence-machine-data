@@ -1,8 +1,10 @@
 {
-  "description": "18 - 129*n/2 + 601*n^2/4 - 66*n^3 + 33*n^4/4.",
+  "description": "a(n) = (72 - 258*n + 601*n^2 - 264*n^3 + 33*n^4)/4.",
   "id": "A108642",
   "mentions": [],
   "tags": [
+    "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

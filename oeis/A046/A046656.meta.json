@@ -2,9 +2,11 @@
   "description": "Square roots of sums of squares of divisors in A046655.",
   "id": "A046656",
   "mentions": [
+    "A001157",
     "A046655"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

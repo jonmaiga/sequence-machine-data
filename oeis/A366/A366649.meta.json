@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime power (including 1) proper divisor of n, for n >= 2; a(1) = 1.",
+  "id": "A366649",
+  "mentions": [
+    "A032742",
+    "A034699",
+    "A063928",
+    "A085392",
+    "A089384",
+    "A093803"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

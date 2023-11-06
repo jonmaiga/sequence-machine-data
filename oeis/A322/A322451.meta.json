@@ -1,5 +1,5 @@
 {
-  "description": "Number of unlabeled 3-regular hypergraphs spanning n vertices.",
+  "description": "Number of unlabeled 3-uniform hypergraphs spanning n vertices.",
   "id": "A322451",
   "mentions": [
     "A000665",

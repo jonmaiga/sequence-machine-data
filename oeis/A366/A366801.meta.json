@@ -1,0 +1,22 @@
+{
+  "description": "Arithmetic derivative without its inherited divisor applied to the Doudna sequence: a(n) = A342001(A005940(1+n)).",
+  "id": "A366801",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A005940",
+    "A342001",
+    "A342002",
+    "A344026",
+    "A366802"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

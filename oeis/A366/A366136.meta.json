@@ -1,0 +1,16 @@
+{
+  "description": "Minimal number of factorials or their negatives that add to n.",
+  "id": "A366136",
+  "mentions": [
+    "A000142",
+    "A034968"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

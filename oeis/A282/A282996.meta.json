@@ -1,9 +1,15 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with no 1 equal to more than one of its horizontal and vertical neighbors.",
+  "description": "T(n,k) is the number of n X k 0..1 arrays with no 1 equal to more than one of its horizontal and vertical neighbors.",
   "id": "A282996",
   "mentions": [
     "A000073",
-    "A067968"
+    "A067968",
+    "A282990",
+    "A282991",
+    "A282992",
+    "A282993",
+    "A282994",
+    "A282995"
   ],
   "tags": [
     "formulas",

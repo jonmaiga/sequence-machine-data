@@ -1,0 +1,16 @@
+{
+  "description": "a(n), read backwards, is present as a substring in a(n) + a(n+1). This is the lexicographically earliest sequence of distinct terms > 0 with this property.",
+  "id": "A360947",
+  "mentions": [
+    "A004086"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

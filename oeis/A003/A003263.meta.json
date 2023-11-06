@@ -1,5 +1,5 @@
 {
-  "description": "Number of representations of n as a sum of distinct Lucas numbers 1,3,4,7,11 ... (A000204).",
+  "description": "Number of representations of n as a sum of distinct Lucas numbers 1, 3, 4, 7, 11, ... (A000204).",
   "id": "A003263",
   "mentions": [
     "A000204",

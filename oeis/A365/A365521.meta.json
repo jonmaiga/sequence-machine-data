@@ -1,0 +1,19 @@
+{
+  "description": "Historical prime factor: a(1) = 1, for n > 1, a(n) is the prime factor of n that has not appeared for the longest time in a(1)..a(n-1).",
+  "id": "A365521",
+  "mentions": [
+    "A006530",
+    "A034699",
+    "A088387",
+    "A088388"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

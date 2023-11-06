@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0. If a(n-1) is a novel term, a(n) = a(a(n-1)); otherwise a(n) is the number of distinct terms occurring prior to a(n-1) which are <= a(n-1).",
+  "id": "A364880",
+  "mentions": [
+    "A000027",
+    "A002262"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

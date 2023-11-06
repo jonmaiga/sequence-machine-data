@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (7*10^(2n+1)+9*10^n-7)/9 is prime.",
+  "description": "Numbers k such that (7*10^(2*k+1) + 9*10^k - 7)/9 is prime.",
   "id": "A183182",
   "mentions": [
     "A004023",
@@ -22,7 +22,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

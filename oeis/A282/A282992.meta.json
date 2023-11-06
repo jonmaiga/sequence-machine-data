@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..1 arrays with no 1 equal to more than one of its horizontal and vertical neighbors.",
+  "description": "Number of n X 4 0..1 arrays with no 1 equal to more than one of its horizontal and vertical neighbors.",
   "id": "A282992",
   "mentions": [
     "A282996"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

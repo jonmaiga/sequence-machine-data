@@ -2,9 +2,11 @@
   "description": "Sum of all cubefree numbers with the same squarefree kernel as the n-th squarefree number.",
   "id": "A073245",
   "mentions": [
+    "A002117",
     "A004709",
     "A005117",
     "A007947",
+    "A013661",
     "A062822",
     "A064987",
     "A072048",

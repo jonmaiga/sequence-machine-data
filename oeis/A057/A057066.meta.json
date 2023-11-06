@@ -1,5 +1,5 @@
 {
-  "description": "Floor[4^4/n].",
+  "description": "a(n) = floor(4^4/n).",
   "id": "A057066",
   "mentions": [
     "A000007",
@@ -9,6 +9,7 @@
     "A057075"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

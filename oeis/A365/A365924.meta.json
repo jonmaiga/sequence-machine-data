@@ -1,0 +1,46 @@
+{
+  "description": "Number of incomplete integer partitions of n, meaning not every number from 0 to n is the sum of some submultiset.",
+  "id": "A365924",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A006827",
+    "A018818",
+    "A046663",
+    "A047967",
+    "A055932",
+    "A080259",
+    "A126796",
+    "A188431",
+    "A264401",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A304792",
+    "A325781",
+    "A325799",
+    "A364272",
+    "A364350",
+    "A365543",
+    "A365545",
+    "A365658",
+    "A365661",
+    "A365663",
+    "A365830",
+    "A365831",
+    "A365918",
+    "A365919",
+    "A365921",
+    "A365923"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

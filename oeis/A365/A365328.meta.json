@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of a FRACTRAN program that produces the iterates of the Collatz (or 3x+1) function.",
+  "id": "A365328",
+  "mentions": [
+    "A014682",
+    "A365329"
+  ],
+  "tags": [
+    "fini",
+    "frac",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

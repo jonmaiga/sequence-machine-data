@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that x^n + x^m + 1 is factorable over GF(2) for all m between 1 and n.",
+  "description": "Numbers k such that x^k + x^m + 1 is factorable over GF(2) for all m between 1 and k.",
   "id": "A057486",
   "mentions": [
     "A001153",

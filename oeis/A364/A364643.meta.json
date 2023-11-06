@@ -1,0 +1,16 @@
+{
+  "description": "Number of separable elements of the Weyl group of type D_n.",
+  "id": "A364643",
+  "mentions": [
+    "A006318"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

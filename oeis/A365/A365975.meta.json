@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1 / ( 1 - Sum_{k>=0} x^(3*k+1) / (3*k+1) ).",
+  "id": "A365975",
+  "mentions": [
+    "A296676",
+    "A365976",
+    "A365977"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

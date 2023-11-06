@@ -1,5 +1,5 @@
 {
-  "description": "Number of numbers <= 2^n that are the product of exactly four primes, not necessarily unique.",
+  "description": "Number of numbers <= 2^n that are the product of exactly four primes, not necessarily distinct.",
   "id": "A334069",
   "mentions": [
     "A007053",

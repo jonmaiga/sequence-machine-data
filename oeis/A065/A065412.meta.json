@@ -1,5 +1,5 @@
 {
-  "description": "(A005867 - A000165)/96.",
+  "description": "a(n) = (A005867(n+1) - A000165(n))/96.",
   "id": "A065412",
   "mentions": [
     "A000165",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

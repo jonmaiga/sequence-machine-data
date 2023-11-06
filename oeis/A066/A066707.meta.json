@@ -1,11 +1,14 @@
 {
-  "description": "Incrementally largest terms in the continued fraction for Copeland-Erdos constant 0.235711... (concatenate primes).",
+  "description": "Incrementally largest terms in the continued fraction for the constant given by Sum_{k>=0} A033308(k) / 2^k = 2.89104866587305422....",
   "id": "A066707",
   "mentions": [
-    "A030168"
+    "A030168",
+    "A033308",
+    "A033310"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

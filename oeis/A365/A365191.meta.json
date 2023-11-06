@@ -1,0 +1,22 @@
+{
+  "description": "The weak Schur numbers for 3-coloring.",
+  "id": "A365191",
+  "mentions": [
+    "A030126",
+    "A045652",
+    "A072842",
+    "A118771",
+    "A365190"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

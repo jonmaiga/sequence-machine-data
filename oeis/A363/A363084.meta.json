@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sqrt(A007947(k) - A007913(k)) is an integer m > 0.",
+  "id": "A363084",
+  "mentions": [
+    "A002496",
+    "A003592",
+    "A007913",
+    "A007947",
+    "A089653",
+    "A365517"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

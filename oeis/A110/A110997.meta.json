@@ -1,17 +1,20 @@
 {
-  "description": "Powers equal to (sum of first n primes) minus 1.",
+  "description": "Powers equal to (sum of first k primes) minus 1.",
   "id": "A110997",
   "mentions": [
+    "A001597",
     "A007504",
-    "A110979"
+    "A110979",
+    "A110996",
+    "A237589"
   ],
   "tags": [
-    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

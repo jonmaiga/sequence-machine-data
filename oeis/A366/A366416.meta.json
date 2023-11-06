@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the first prime that starts and ends with at least n 1's (in base 10).",
+  "id": "A366416",
+  "mentions": [
+    "A004023",
+    "A068160"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

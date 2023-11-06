@@ -1,9 +1,9 @@
 {
-  "description": "Maximal lattice width of a convex lattice polygon of genus n.",
+  "description": "Maximal lattice width of a convex lattice polygon containing n lattice points in its interior (\"of genus n\").",
   "id": "A322348",
   "mentions": [
-    "A322242",
     "A322343",
+    "A322345",
     "A322349"
   ],
   "tags": [
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 30,
+    "offset": 0,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

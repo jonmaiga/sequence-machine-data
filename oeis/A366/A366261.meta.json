@@ -1,0 +1,24 @@
+{
+  "description": "The least number with the same prime signature as A366260, where A366260 is Doudna sequence permuted by May code.",
+  "id": "A366261",
+  "mentions": [
+    "A001222",
+    "A005940",
+    "A046523",
+    "A278219",
+    "A278222",
+    "A303767",
+    "A366254",
+    "A366260",
+    "A366262"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

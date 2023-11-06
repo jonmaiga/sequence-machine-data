@@ -1,15 +1,18 @@
 {
-  "description": "Starting with a(0)=1, smallest number k>a(n-1) such that, for all a(m) with m",
+  "description": "Starting with a(0) = 1, smallest number k > a(n-1) such that, for all a(m) with m < n, k + a(m) is not squarefree.",
   "id": "A080793",
   "mentions": [
-    "A077225"
+    "A013929",
+    "A077224",
+    "A077225",
+    "A085902"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

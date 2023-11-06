@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T read by rows: T(n, k) gives the number of permutations of [n] = {1, 2, ..., n} with a cycle of length m = floor(n/2) + k = A138099(n, k), for 1 <= k <= n - floor(n/2) = ceiling(n/2).",
+  "id": "A364317",
+  "mentions": [
+    "A008619",
+    "A058312",
+    "A058313",
+    "A119248",
+    "A126074",
+    "A138099"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

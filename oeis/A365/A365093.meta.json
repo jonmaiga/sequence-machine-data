@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k such that A365092(k) = n.",
+  "id": "A365093",
+  "mentions": [
+    "A365092"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

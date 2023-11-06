@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of possible positions for four connected discs in the game \"Connect Four\" played on a board with n columns and k rows, 4 <= k <= n.",
+  "id": "A364823",
+  "mentions": [
+    "A013582",
+    "A059193",
+    "A090224",
+    "A212693"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

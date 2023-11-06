@@ -2,7 +2,8 @@
   "description": "a(n) = a(m) if a(m) has already occurred exactly once and n = a(m)+2m, else a(n) = least positive integer that has not yet occurred.",
   "id": "A026366",
   "mentions": [
-    "A045671"
+    "A026367",
+    "A026368"
   ],
   "tags": [
     "nonn"

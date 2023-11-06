@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*a(n-2)+a(n-3)+a(n-4) for n>=4, a(n) = binomial(n,3) for n",
+  "description": "a(n) = 2*a(n-2) + a(n-3) + a(n-4) for n>=4, a(n) = binomial(n,3) for n",
   "id": "A240607",
   "mentions": [
     "A239748"

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-sided cycles with the property that one makes k turns to the right while following its edges.",
+  "id": "A365094",
+  "mentions": [
+    "A000142",
+    "A008292",
+    "A295264",
+    "A342968"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

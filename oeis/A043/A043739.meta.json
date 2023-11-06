@@ -1,5 +1,5 @@
 {
-  "description": "Number of runs in the base 2 representation of n is congruent to 0 mod 7.",
+  "description": "Numbers whose number of runs in the base-2 representation is congruent to 0 mod 7.",
   "id": "A043739",
   "mentions": [],
   "tags": [

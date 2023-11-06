@@ -1,7 +1,8 @@
 {
-  "description": "A positive integer n with k (decimal) digits is called balanced if its first ceiling (k/2) digits sum to the same value as its last ceiling (k/2) digits.",
+  "description": "Positive integers k that are balanced, meaning that if k has d digits, then its initial ceiling(d/2) digits have the same sum as its last ceiling(d/2) digits.",
   "id": "A147882",
   "mentions": [
+    "A002113",
     "A110751"
   ],
   "tags": [

@@ -2,8 +2,10 @@
   "description": "Decimal expansion of e+sqrt(e^2-1).",
   "id": "A188739",
   "mentions": [
+    "A001113",
     "A188627",
-    "A188738"
+    "A188738",
+    "A365927"
   ],
   "tags": [
     "cons",

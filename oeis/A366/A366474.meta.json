@@ -1,0 +1,15 @@
+{
+  "description": "Where n appears in A337136, or -1 if n never appears.",
+  "id": "A366474",
+  "mentions": [
+    "A337136"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

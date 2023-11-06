@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of divisors of n that are coprime to the terms of A366642.",
+  "id": "A366643",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A035218",
+    "A366642"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

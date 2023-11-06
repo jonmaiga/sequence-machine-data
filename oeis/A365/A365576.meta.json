@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=2; thereafter a(n) is the number of strongly connected components in the digraph of the sequence thus far, where jumps from location i to i+-a(i) are permitted (within 1..n-1).",
+  "id": "A365576",
+  "mentions": [
+    "A360744",
+    "A362248",
+    "A364392",
+    "A364882"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

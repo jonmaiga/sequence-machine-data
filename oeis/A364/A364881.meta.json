@@ -1,0 +1,22 @@
+{
+  "description": "First significant digit of the decimal expansion of n/(2^n).",
+  "id": "A364881",
+  "mentions": [
+    "A000030",
+    "A000079",
+    "A000799",
+    "A036291",
+    "A111395"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

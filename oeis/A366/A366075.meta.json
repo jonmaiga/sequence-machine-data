@@ -1,0 +1,21 @@
+{
+  "description": "The number of primes dividing the smallest coreful infinitary divisor of n, counted with multiplicity.",
+  "id": "A366075",
+  "mentions": [
+    "A001222",
+    "A006519",
+    "A077761",
+    "A246551",
+    "A365296"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

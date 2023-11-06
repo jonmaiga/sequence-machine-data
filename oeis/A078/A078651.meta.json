@@ -1,8 +1,10 @@
 {
-  "description": "Number of geometric subsequences of [1,...,n] with integral successive-term ratio and length >= 1.",
+  "description": "Number of increasing geometric-progression subsequences of [1,...,n] with integral successive-term ratio and length >= 1.",
   "id": "A078651",
   "mentions": [
-    "A078632"
+    "A078567",
+    "A078632",
+    "A366471"
   ],
   "tags": [
     "easy",

@@ -1,17 +1,19 @@
 {
-  "description": "Graph substitution of two octahedra inside an icosahedron connected at p=1: disconnected at p=0 ( concept similar to two tetrahedra inside a cube).",
+  "description": "A nonsense sequence.",
   "id": "A133451",
   "mentions": [
     "A132725"
   ],
   "tags": [
-    "formulas",
+    "dumb",
+    "fini",
+    "less",
     "nonn",
-    "uned"
+    "obsc"
   ],
   "terms": {
     "offset": 1,
-    "size": 94,
+    "size": 82,
     "source": "oeis-entry"
   }
 }

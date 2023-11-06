@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 arrays of occupancy after each element moves to some horizontal, diagonal or antidiagonal neighbor, with every occupancy equal to zero or two",
+  "description": "Number of n X 4 arrays of occupancy after each element moves to some horizontal, diagonal or antidiagonal neighbor, with every occupancy equal to zero or two.",
   "id": "A221274",
   "mentions": [
     "A221275"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

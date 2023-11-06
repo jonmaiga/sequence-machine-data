@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = binomial(2*n+1, n)/(2*n+1) * binomial(3*n-1, n) for n >= 0.",
+  "id": "A365771",
+  "mentions": [
+    "A000108",
+    "A033042",
+    "A165817",
+    "A365770"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

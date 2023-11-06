@@ -1,0 +1,33 @@
+{
+  "description": "Numbers m whose prime indices have even sum k such that k/2 is not a prime index of m.",
+  "id": "A366321",
+  "mentions": [
+    "A000041",
+    "A006827",
+    "A047967",
+    "A066207",
+    "A066208",
+    "A086543",
+    "A112798",
+    "A182616",
+    "A300063",
+    "A320924",
+    "A339662",
+    "A365825",
+    "A365828",
+    "A365920",
+    "A366318",
+    "A366319",
+    "A366322",
+    "A366528",
+    "A366530"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

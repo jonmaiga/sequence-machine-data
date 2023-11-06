@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the sum of all terms a(1)..a(n) in binary is a substring of the concatenation of all terms a(1)..a(n) in binary.",
+  "id": "A364201",
+  "mentions": [
+    "A007088",
+    "A300000",
+    "A339144",
+    "A357082",
+    "A359482",
+    "A363186"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

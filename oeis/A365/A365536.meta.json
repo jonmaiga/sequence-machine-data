@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n for n <= 2. Thereafter a(n) is the least novel multiple of the greatest prior term which is coprime to a(n-1).",
+  "id": "A365536",
+  "mentions": [
+    "A000351",
+    "A000420",
+    "A002110",
+    "A002473",
+    "A126706"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

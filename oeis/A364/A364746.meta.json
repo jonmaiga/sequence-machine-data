@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows T(n,k), n >= 1, 1 <= k <= A002378(n), which is mentioned in the conjecture of A364639 (see Comments lines for definition).",
+  "id": "A364746",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000012",
+    "A002061",
+    "A002378",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237591",
+    "A237593",
+    "A364639"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

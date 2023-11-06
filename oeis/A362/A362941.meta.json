@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form (p+1)*(p+3) where (p,p+2) is a twin prime pair (cf. A001359).",
+  "id": "A362941",
+  "mentions": [
+    "A001359",
+    "A108604"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

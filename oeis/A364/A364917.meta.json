@@ -1,0 +1,18 @@
+{
+  "description": "For each n, if the sequence defined by G_0 = C_n, G_k = Aut(G_{k-1}) for k >= 1 stabilizes, then a(n) is the order of G_k for sufficiently large k; otherwise a(n) = 0. Here C_n is the cyclic group of order n.",
+  "id": "A364917",
+  "mentions": [
+    "A117729",
+    "A331921"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

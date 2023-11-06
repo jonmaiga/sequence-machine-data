@@ -1,5 +1,5 @@
 {
-  "description": "Values y for records of minima of positive distance d between a ninth power of positive integer x and a square of integer y such d = x^9 - y^2 (x<>k^2 and y<>k^9).",
+  "description": "Values y for records of the minima of the positive distance d between the ninth power of a positive integer x and the square of an integer y such that d = x^9 - y^2 (x <> k^2 and y <> k^9).",
   "id": "A179792",
   "mentions": [
     "A179107",

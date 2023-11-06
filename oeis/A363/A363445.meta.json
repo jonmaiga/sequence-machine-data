@@ -1,5 +1,5 @@
 {
-  "description": "Turn sequence of a fractal like curve which is also the perimeter around an aperiodic tiling based on the \"hat\" monotile. See the comments section for details.",
+  "description": "Turn sequence of a fractal-like curve which is also the perimeter around an aperiodic tiling based on the \"hat\" monotile. See the comments section for details.",
   "id": "A363445",
   "mentions": [
     "A003500",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 88,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Let a(n) = the number of ways in which n is equal to the sum of digits > 0 taken from numbers <= n.",
+  "description": "a(n) = the number of ways in which n is equal to the sum of digits > 0 taken from numbers <= n.",
   "id": "A245438",
   "mentions": [
     "A241754",
@@ -7,12 +7,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

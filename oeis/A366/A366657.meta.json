@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of 8^n+1.",
+  "id": "A366657",
+  "mentions": [
+    "A000203",
+    "A057936",
+    "A062395",
+    "A366638",
+    "A366653",
+    "A366656"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

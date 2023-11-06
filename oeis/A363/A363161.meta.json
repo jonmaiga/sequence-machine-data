@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A363031.",
+  "id": "A363161",
+  "mentions": [
+    "A016921",
+    "A239660",
+    "A363031",
+    "A365442",
+    "A365444",
+    "A365446"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

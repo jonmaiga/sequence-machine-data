@@ -1,0 +1,16 @@
+{
+  "description": "Prime gaps: differences between consecutive primes, starting at 10^100000.",
+  "id": "A365612",
+  "mentions": [
+    "A001223",
+    "A365611"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

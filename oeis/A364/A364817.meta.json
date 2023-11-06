@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of permutations p of [n] such that max(|p(p(i)) - i|)=k (n>=1, 0<=k<=n-1).",
+  "id": "A364817",
+  "mentions": [
+    "A000085",
+    "A000142",
+    "A130152",
+    "A175925",
+    "A364819"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

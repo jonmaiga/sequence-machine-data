@@ -1,5 +1,5 @@
 {
-  "description": "Squares that becomes a prime number when prefixed with a 5.",
+  "description": "Squares that become a prime number when prefixed with a 5.",
   "id": "A167720",
   "mentions": [
     "A032668"

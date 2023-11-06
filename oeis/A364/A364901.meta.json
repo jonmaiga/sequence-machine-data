@@ -1,0 +1,21 @@
+{
+  "description": "The n-volume of the unit regular n-simplex is sqrt(A364900(n))/a(n), with A364900(n) being squarefree.",
+  "id": "A364901",
+  "mentions": [
+    "A000188",
+    "A020829",
+    "A120011",
+    "A364895",
+    "A364900"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

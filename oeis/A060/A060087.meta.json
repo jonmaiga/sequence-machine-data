@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 is a palindromic square with an asymmetric root.",
+  "description": "Numbers k such that k^2 is a palindromic square with an asymmetric root.",
   "id": "A060087",
   "mentions": [
     "A007573",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

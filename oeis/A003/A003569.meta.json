@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least positive number m such that 4^m == +1 or -1 mod 2n + 1, with a(0) = 0 by convention.",
+  "description": "For n>0, a(n) = least positive number m such that 4^m == +1 or -1 (mod 2n + 1), with a(0) = 0 by convention.",
   "id": "A003569",
   "mentions": [
     "A003558"

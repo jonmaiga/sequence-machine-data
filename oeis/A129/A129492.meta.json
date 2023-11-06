@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that 2^n (mod n) is a power of 2.",
+  "description": "Composite numbers k such that 2^k mod k is a power of 2.",
   "id": "A129492",
   "mentions": [
     "A001567",

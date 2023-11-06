@@ -2,16 +2,25 @@
   "description": "Triangle T(n,k) with the coefficient [x^k] of the characteristic polynomial of the following n X n triangular matrix: 4 on the main diagonal, -1 of the two adjacent subdiagonals, 0 otherwise.",
   "id": "A124029",
   "mentions": [
+    "A000302",
+    "A001353",
+    "A001906",
+    "A004254",
+    "A007070",
     "A123966",
-    "A159764"
+    "A139278",
+    "A159764",
+    "A181983",
+    "A207823"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 54,
+    "size": 55,
     "source": "joeis"
   }
 }

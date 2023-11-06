@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (7*n)!*(13*n/2)!*(n/2)! / ((3*n)!^2 * (7*n/2)!^2 * n!).",
+  "id": "A365027",
+  "mentions": [
+    "A275652",
+    "A365025",
+    "A365026"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

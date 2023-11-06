@@ -1,7 +1,9 @@
 {
   "description": "a(n) is the largest n-digit zeroless prime such that the sum of the two numbers that result from splitting a(n) between any two of its digits is a distinct prime.",
   "id": "A103548",
-  "mentions": [],
+  "mentions": [
+    "A038618"
+  ],
   "tags": [
     "base",
     "fini",

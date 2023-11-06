@@ -1,0 +1,21 @@
+{
+  "description": "Number of free face-connected 4-dimensional polyhypercubes with n cells.",
+  "id": "A365356",
+  "mentions": [
+    "A007900",
+    "A038119",
+    "A068870",
+    "A365366",
+    "A366766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

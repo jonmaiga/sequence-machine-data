@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows. T(n, k) = 1 if k = 0, equals T(n, k-1) if k = n, and otherwise is (n - k + 1) * (2 * (n - k) + 1) * T(n, k - 1) + T(n - 1, k).",
+  "id": "A365672",
+  "mentions": [
+    "A000384",
+    "A126156",
+    "A365673"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

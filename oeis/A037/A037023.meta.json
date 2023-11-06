@@ -1,5 +1,5 @@
 {
-  "description": "Triangle in which row n has the first n digits of sqrt(n) (rounded).",
+  "description": "Triangle in which row n lists the first n digits of sqrt(n) (rounded).",
   "id": "A037023",
   "mentions": [
     "A037022"

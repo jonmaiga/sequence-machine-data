@@ -29,12 +29,11 @@
     "A363625"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

@@ -10,11 +10,12 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

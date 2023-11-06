@@ -1,0 +1,14 @@
+{
+  "description": "Primitive solutions k to the exponential Diophantine equation k^6 = Sum_{i=1..8} y_i^6 with y_i > 0.",
+  "id": "A364968",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The least number with same prime signature as A366275, where A366275(n) = A163511(A057889(n)).",
+  "id": "A366279",
+  "mentions": [
+    "A030101",
+    "A046523",
+    "A057889",
+    "A163511",
+    "A278531",
+    "A286601",
+    "A366261",
+    "A366275",
+    "A366280"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

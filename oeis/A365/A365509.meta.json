@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-vertex binary trees that do not contain 0(0[0(0(00))]) as a subtree.",
+  "id": "A365509",
+  "mentions": [
+    "A007051",
+    "A036766",
+    "A365508",
+    "A365510"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

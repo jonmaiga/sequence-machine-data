@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum(k^4*sigma(k)*sigma(n-k),k=1..n-1).",
+  "description": "a(n) = Sum_{k=1..n-1} k^4*sigma(k)*sigma(n-k).",
   "id": "A259692",
   "mentions": [
     "A000385",
@@ -10,9 +10,12 @@
     "A259693",
     "A259694",
     "A259695",
-    "A259696"
+    "A259696",
+    "A279889",
+    "A279964"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

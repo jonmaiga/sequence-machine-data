@@ -1,0 +1,20 @@
+{
+  "description": "Greatest common divisor of n and the product of its digits.",
+  "id": "A365762",
+  "mentions": [
+    "A002473",
+    "A007954",
+    "A066750",
+    "A214587"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

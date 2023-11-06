@@ -1,5 +1,5 @@
 {
-  "description": "d(n) does not divide phi(n).",
+  "description": "Numbers k such that d(k) does not divide phi(k).",
   "id": "A015733",
   "mentions": [
     "A000005",

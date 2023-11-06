@@ -1,12 +1,15 @@
 {
-  "description": "a(n) = k is the smallest number such that k^2 + 1 has n distinct prime factors.",
+  "description": "Smallest nonnegative integer k such that k^2 + 1 has exactly n distinct prime factors.",
   "id": "A180278",
   "mentions": [
+    "A001221",
     "A002144",
     "A002522",
+    "A128428",
     "A164511",
     "A185952",
-    "A219017"
+    "A219017",
+    "A219108"
   ],
   "tags": [
     "formulas",

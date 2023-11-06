@@ -1,0 +1,34 @@
+{
+  "description": "Height of the ziggurat of order n described in A347186.",
+  "id": "A365433",
+  "mentions": [
+    "A000079",
+    "A000396",
+    "A065091",
+    "A174973",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A238524",
+    "A245092",
+    "A262626",
+    "A347186",
+    "A347263",
+    "A347367",
+    "A365195",
+    "A365434"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

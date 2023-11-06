@@ -2,6 +2,7 @@
   "description": "Decimal expansion of e + sqrt(1+e^2).",
   "id": "A188640",
   "mentions": [
+    "A001113",
     "A188635",
     "A188639",
     "A188655",
@@ -10,11 +11,13 @@
     "A188737",
     "A188738",
     "A188739",
-    "A188796"
+    "A188796",
+    "A366599"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

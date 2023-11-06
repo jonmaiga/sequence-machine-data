@@ -2,6 +2,8 @@
   "description": "Continued fraction for tan(1/10).",
   "id": "A019433",
   "mentions": [
+    "A019425",
+    "A019432",
     "A161019"
   ],
   "tags": [

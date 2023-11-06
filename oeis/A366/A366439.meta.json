@@ -1,0 +1,25 @@
+{
+  "description": "The sum of divisors of the exponentially odd numbers (A268335).",
+  "id": "A366439",
+  "mentions": [
+    "A000203",
+    "A062822",
+    "A065463",
+    "A065764",
+    "A180114",
+    "A268335",
+    "A362986",
+    "A366438",
+    "A366440"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

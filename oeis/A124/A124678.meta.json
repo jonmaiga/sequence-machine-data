@@ -2,12 +2,14 @@
   "description": "Number of conjugacy classes in PSL_2(p), p = prime(n).",
   "id": "A124678",
   "mentions": [
+    "A000040",
     "A000702",
     "A006951",
     "A124679",
     "A124681"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

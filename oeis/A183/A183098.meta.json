@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 0, a(n) = sum of divisors d of n such that if d = Product_(i) (p_i^e_i) then all e_i are <= 1.",
+  "description": "a(1) = 0, a(n) = sum of divisors d of n such that if d = Product_{i} (p_i^e_i) then not all e_i are > 1.",
   "id": "A183098",
   "mentions": [
     "A000203",
@@ -10,6 +10,7 @@
     "A183103"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

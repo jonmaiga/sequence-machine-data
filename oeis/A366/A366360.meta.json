@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows where each row is coin denominations which make amounts 1 to 99 using the smallest total number of coins by the greedy algorithm.",
+  "id": "A366360",
+  "mentions": [
+    "A339334",
+    "A366013"
+  ],
+  "tags": [
+    "fini",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

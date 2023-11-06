@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn integer arrays with each element equal to the number of horizontal and antidiagonal neighbors equal to itself.",
+  "description": "Number of 7 X n integer arrays with each element equal to the number of horizontal and antidiagonal neighbors equal to itself.",
   "id": "A266017",
   "mentions": [
     "A266012"

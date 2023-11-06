@@ -1,0 +1,28 @@
+{
+  "description": "The number of divisors of the smallest number whose 4th power is divisible by n.",
+  "id": "A365491",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A005117",
+    "A019554",
+    "A034444",
+    "A053166",
+    "A053167",
+    "A322483",
+    "A365210",
+    "A365492",
+    "A365499"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

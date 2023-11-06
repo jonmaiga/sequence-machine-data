@@ -1,8 +1,9 @@
 {
-  "description": "Higgs' primes: a(n+1) = next prime such that a(n+1)-1 | (a(1)...a(n))^3.",
+  "description": "a(n+1) = next prime such that a(n+1)-1 | (a(1)...a(n))^3.",
   "id": "A057447",
   "mentions": [
     "A007459",
+    "A037896",
     "A057448"
   ],
   "tags": [

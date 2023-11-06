@@ -1,0 +1,16 @@
+{
+  "description": "Number of (3+)-free binary strings of length n.",
+  "id": "A365253",
+  "mentions": [
+    "A028445"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

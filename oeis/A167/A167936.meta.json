@@ -1,5 +1,5 @@
 {
-  "description": "2^n - A108411(n).",
+  "description": "a(n) = 2^n - A108411(n).",
   "id": "A167936",
   "mentions": [
     "A005061",

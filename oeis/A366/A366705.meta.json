@@ -1,0 +1,16 @@
+{
+  "description": "Number of symmetry classes of partially ordered pattern classes defined by avoiding a size n poset.",
+  "id": "A366705",
+  "mentions": [
+    "A001035"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

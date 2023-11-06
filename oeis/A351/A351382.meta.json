@@ -1,5 +1,5 @@
 {
-  "description": "Products of four distinct primes between sphenics (products of 3 distinct primes).",
+  "description": "Products of four distinct primes between sphenic numbers (products of 3 distinct primes).",
   "id": "A351382",
   "mentions": [
     "A007304"

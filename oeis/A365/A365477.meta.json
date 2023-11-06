@@ -1,0 +1,20 @@
+{
+  "description": "The number of steps before reaching 1 or a repeated value, or -1 if neither occur, when starting at k = n and iterating k -> k/Lpf(k) - 1 if Omega(k) is even, else k -> k*Lpf(k) + 1, where Lpf(k) (A020639) is the least prime dividing k and Omega(k) (A001222) is the number of prime divisors of k counted with multiplicity.",
+  "id": "A365477",
+  "mentions": [
+    "A001222",
+    "A006577",
+    "A020639",
+    "A027746",
+    "A027748"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

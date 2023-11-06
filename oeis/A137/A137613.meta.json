@@ -2,6 +2,7 @@
   "description": "Omit the 1's from Rowland's sequence f(n) - f(n-1) = gcd(n,f(n-1)), where f(1) = 7.",
   "id": "A137613",
   "mentions": [
+    "A020639",
     "A084662",
     "A084663",
     "A106108",
@@ -11,6 +12,7 @@
     "A134743",
     "A134744",
     "A168008",
+    "A190894",
     "A221869",
     "A225487",
     "A231900"

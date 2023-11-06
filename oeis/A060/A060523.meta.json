@@ -2,7 +2,10 @@
   "description": "Triangle T(n,k) = number of degree-n permutations with k even cycles, k=0..n.",
   "id": "A060523",
   "mentions": [
+    "A000142",
+    "A000246",
     "A060524",
+    "A092691",
     "A096471"
   ],
   "tags": [

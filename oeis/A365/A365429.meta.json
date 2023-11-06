@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 if the divisors of n increase by a factor of at most 2, otherwise 0.",
+  "id": "A365429",
+  "mentions": [
+    "A174973",
+    "A322860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

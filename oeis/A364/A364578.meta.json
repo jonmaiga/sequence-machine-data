@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest n-digit number whose sum of digits is n.",
+  "id": "A364578",
+  "mentions": [
+    "A051885",
+    "A202270"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "The sum of divisors of the cubefree part of n (A360539).",
+  "id": "A366148",
+  "mentions": [
+    "A000203",
+    "A004709",
+    "A036966",
+    "A092261",
+    "A360539",
+    "A366077",
+    "A366078",
+    "A366146",
+    "A366147"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

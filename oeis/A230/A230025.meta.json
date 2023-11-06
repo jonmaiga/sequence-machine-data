@@ -2,7 +2,8 @@
   "description": "Triangular array: t(n, k) = number of occurrences of k as the number of outliers in all the partitions of n.",
   "id": "A230025",
   "mentions": [
-    "A000041"
+    "A000041",
+    "A366156"
   ],
   "tags": [
     "easy",

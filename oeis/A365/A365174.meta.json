@@ -1,0 +1,28 @@
+{
+  "description": "The sum of divisors d of n such that gcd(d, n/d) is an exponentially odd number (A268335).",
+  "id": "A365174",
+  "mentions": [
+    "A000203",
+    "A002117",
+    "A005117",
+    "A013661",
+    "A013664",
+    "A033634",
+    "A034448",
+    "A046101",
+    "A268335",
+    "A365172",
+    "A365173"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

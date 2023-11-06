@@ -1,0 +1,21 @@
+{
+  "description": "Highly composite numbers k that remain highly composite when recursively divided by squarefree kernel.",
+  "id": "A365900",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A007947",
+    "A301413",
+    "A301414"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = pi(n)+pi(k)-pi(n+k), n >= 2, 2 <= k <= n, where pi() = A000720().",
+  "description": "Triangle read by rows: T(n,k) = pi(n) + pi(k) - pi(n+k), n >= 2, 2 <= k <= n, where pi() = A000720().",
   "id": "A212211",
   "mentions": [
     "A000720",

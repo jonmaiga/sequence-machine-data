@@ -2,7 +2,8 @@
   "description": "a(n) = 3*binomial(n+1, 5).",
   "id": "A253942",
   "mentions": [
-    "A000389"
+    "A000389",
+    "A050534"
   ],
   "tags": [
     "easy",

@@ -2,12 +2,17 @@
   "description": "Multiplicative with a(p^e) = p^(e + 2), e > 0.",
   "id": "A361264",
   "mentions": [
+    "A000005",
     "A003557",
+    "A007947",
     "A064549",
+    "A065483",
     "A330523",
+    "A360997",
     "A361266"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"
@@ -15,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

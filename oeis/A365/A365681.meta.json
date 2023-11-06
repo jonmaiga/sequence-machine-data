@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with a record number of exponentially squarefree divisors.",
+  "id": "A365681",
+  "mentions": [
+    "A025487",
+    "A306736",
+    "A307845",
+    "A318278",
+    "A365680"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

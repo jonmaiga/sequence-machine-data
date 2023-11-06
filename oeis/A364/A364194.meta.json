@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^3*sigma(k), where sigma is A000203.",
+  "id": "A364194",
+  "mentions": [
+    "A000203",
+    "A000537",
+    "A143128",
+    "A282211",
+    "A319086",
+    "A320895",
+    "A356125",
+    "A364269"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

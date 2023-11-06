@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of k <= m such that rad(k) | m, where m = A005117(n) and rad(n) = A007947(n).",
+  "id": "A363924",
+  "mentions": [
+    "A003586",
+    "A003592",
+    "A005117",
+    "A007947",
+    "A010846",
+    "A025477",
+    "A126706",
+    "A365790"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

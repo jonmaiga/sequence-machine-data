@@ -1,7 +1,8 @@
 {
-  "description": "G.f.: Sum_{n>=1} ( (1 + x^n)^n - 1 ).",
+  "description": "Expansion of Sum_{n>=1} ( (1 + x^n)^n - 1 ).",
   "id": "A318636",
   "mentions": [
+    "A143862",
     "A318637",
     "A318638"
   ],

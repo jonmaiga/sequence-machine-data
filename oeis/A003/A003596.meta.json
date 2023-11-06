@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 2^i*11^j.",
+  "description": "Numbers of the form 2^i * 11^j.",
   "id": "A003596",
   "mentions": [
     "A003597",

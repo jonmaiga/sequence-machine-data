@@ -1,5 +1,5 @@
 {
-  "description": "Number of key permutations of length n: permutations {a_i} with |a_i-a_{i-1}| = 1 or 2.",
+  "description": "Number of key permutations of length n: permutations {a_i} with |a_i - a_{i-1}| = 1 or 2.",
   "id": "A003274",
   "mentions": [
     "A000051",

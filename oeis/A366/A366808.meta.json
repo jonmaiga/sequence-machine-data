@@ -1,0 +1,20 @@
+{
+  "description": "The number of divisors of prime(n)#-1 where p# is the product of all the primes from 2 to p inclusive.",
+  "id": "A366808",
+  "mentions": [
+    "A000005",
+    "A054989",
+    "A057588",
+    "A064145",
+    "A366809"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

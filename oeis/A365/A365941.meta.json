@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (0 <= k <= n^2) are coefficients of cluster density function for site percolation on an n X n 2D square lattice with periodic boundary conditions.",
+  "id": "A365941",
+  "mentions": [
+    "A365940",
+    "A365944"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

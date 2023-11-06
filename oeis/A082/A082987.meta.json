@@ -1,8 +1,10 @@
 {
-  "description": "a(n)=sum(k=0,n,3^k*F(k)) where F(k) is the k-th Fibonacci number.",
+  "description": "a(n) = Sum_{k=0..n} 3^k*F(k) where F(k) is the k-th Fibonacci number.",
   "id": "A082987",
   "mentions": [
-    "A014334"
+    "A014334",
+    "A082988",
+    "A119282"
   ],
   "tags": [
     "easy",
@@ -10,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

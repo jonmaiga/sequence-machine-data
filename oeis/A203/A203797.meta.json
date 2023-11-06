@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Pell(n) * sum{d|n} 1/Pell(d), where Pell(n) = A000129(n).",
+  "description": "a(n) = Pell(n) * Sum_{d|n} 1/Pell(d), where Pell(n) = A000129(n).",
   "id": "A203797",
   "mentions": [
     "A000129",

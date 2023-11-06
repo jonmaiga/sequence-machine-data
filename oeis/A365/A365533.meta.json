@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the nim-value of the SALIQUANT game where the option is to subtract a nondivisor from 2*n.",
+  "id": "A365533",
+  "mentions": [
+    "A173540"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

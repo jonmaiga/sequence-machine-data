@@ -1,0 +1,25 @@
+{
+  "description": "Composite numbers k such that the core and the kernel of k are equal.",
+  "id": "A365535",
+  "mentions": [
+    "A002808",
+    "A005117",
+    "A006881",
+    "A007913",
+    "A007947",
+    "A072587",
+    "A097054",
+    "A120944",
+    "A268335",
+    "A362594"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

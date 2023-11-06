@@ -1,0 +1,36 @@
+{
+  "description": "Number of relatively prime integer partitions with sum < n that cannot be linearly combined using nonnegative coefficients to obtain n.",
+  "id": "A365382",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A007359",
+    "A008284",
+    "A008289",
+    "A116861",
+    "A289508",
+    "A289509",
+    "A364345",
+    "A364350",
+    "A364839",
+    "A364913",
+    "A364915",
+    "A364916",
+    "A365073",
+    "A365312",
+    "A365378",
+    "A365379",
+    "A365380",
+    "A365383"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4 = 1 (mod 5^5).",
+  "description": "Numbers k such that k^4 == 1 (mod 5^5).",
   "id": "A056102",
   "mentions": [],
   "tags": [

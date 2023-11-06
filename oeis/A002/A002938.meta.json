@@ -1,5 +1,5 @@
 {
-  "description": "The minimal sequence (from solving n^3 - m^2 = a(n)).",
+  "description": "The minimal sequence from solving n^3 - m^2 = a(n).",
   "id": "A002938",
   "mentions": [
     "A077119"

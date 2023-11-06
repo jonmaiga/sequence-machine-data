@@ -1,14 +1,16 @@
 {
-  "description": "Internal digits of n^2 include digits of n as substring, n does not end in 0.",
+  "description": "Internal digits of k^2 include digits of k as substring, k does not end in 0.",
   "id": "A046837",
-  "mentions": [],
+  "mentions": [
+    "A046835"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

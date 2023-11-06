@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of quadratic equations u*x^2 + v*x + w = 0 with different solution sets L != {}, where n = abs(u) + abs(v) + abs(w), the coefficients u, v, w as well as the solutions x_1, x_2 are integers and GCD(u, v, w) = 1.",
+  "id": "A364384",
+  "mentions": [
+    "A364385",
+    "A365876",
+    "A365877",
+    "A365892"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

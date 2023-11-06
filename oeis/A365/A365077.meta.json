@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction of A363679 (sum of reciprocals of triangular polygorials).",
+  "id": "A365077",
+  "mentions": [
+    "A003417",
+    "A070913",
+    "A363679"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

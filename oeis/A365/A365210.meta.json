@@ -1,0 +1,28 @@
+{
+  "description": "The number of divisors d of n such that gcd(d, n/d) is a 5-rough number (A007310).",
+  "id": "A365210",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A007310",
+    "A013661",
+    "A034444",
+    "A035218",
+    "A065330",
+    "A065331",
+    "A069733",
+    "A073002",
+    "A365211"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

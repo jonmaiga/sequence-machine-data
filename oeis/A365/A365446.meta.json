@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A224613.",
+  "id": "A365446",
+  "mentions": [
+    "A008588",
+    "A224613",
+    "A363161"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

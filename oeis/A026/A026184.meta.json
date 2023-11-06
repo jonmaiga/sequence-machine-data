@@ -2,9 +2,12 @@
   "description": "a(n) = (1/3)*s(n), where s(n) is the n-th multiple of 3 in A026136.",
   "id": "A026184",
   "mentions": [
-    "A026136"
+    "A026136",
+    "A026185"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the product of the first k primes - 1 is a semiprime.",
+  "id": "A364840",
+  "mentions": [
+    "A000720",
+    "A001358",
+    "A057588",
+    "A057704",
+    "A085725",
+    "A104876"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

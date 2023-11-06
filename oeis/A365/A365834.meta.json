@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first number k with n prime divisors such that, if m is the next number with n prime divisors, k + m and k - m also have n prime divisors. In each case the divisors are counted with multiplicity.",
+  "id": "A365834",
+  "mentions": [
+    "A001222",
+    "A365833"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

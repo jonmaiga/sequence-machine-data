@@ -1,9 +1,20 @@
 {
   "description": "a(1)=9; if n = Product p_i^e_i, n > 1, then a(n) = Product p_{i+2}^{e_i+1}.",
   "id": "A045972",
-  "mentions": [],
+  "mentions": [
+    "A045965",
+    "A045966",
+    "A045967",
+    "A045968",
+    "A045969",
+    "A045970",
+    "A045971",
+    "A045973",
+    "A082695"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

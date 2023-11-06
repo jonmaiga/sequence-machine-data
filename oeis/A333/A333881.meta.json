@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(Sum_{k>=0} x^(3*k + 1) / (3*k + 1)!).",
+  "description": "Expansion of e.g.f. exp(Sum_{k>=0} x^(3*k + 1) / (3*k + 1)!).",
   "id": "A333881",
   "mentions": [
     "A000110",

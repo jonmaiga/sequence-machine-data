@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=A051201[A000040(n)].",
+  "description": "a(n) = A051201(A000040(n)).",
   "id": "A078172",
   "mentions": [
     "A000040",

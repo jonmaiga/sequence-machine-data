@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and k+1 are both divisible by the cube of their least prime factor.",
+  "id": "A365867",
+  "mentions": [
+    "A067029",
+    "A068140",
+    "A365866",
+    "A365868"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

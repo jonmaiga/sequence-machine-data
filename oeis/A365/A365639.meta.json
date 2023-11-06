@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k! + k^3 + 1 is prime.",
+  "id": "A365639",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000578",
+    "A001093",
+    "A038507",
+    "A073308",
+    "A080668"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

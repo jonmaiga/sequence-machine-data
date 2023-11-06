@@ -1,0 +1,17 @@
+{
+  "description": "Number of length-n binary words x such that the infinite word xxxx... is balanced.",
+  "id": "A365076",
+  "mentions": [
+    "A057660",
+    "A057661"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

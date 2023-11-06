@@ -2,7 +2,9 @@
   "description": "Distance between maxima of the cototient function.",
   "id": "A076249",
   "mentions": [
-    "A051953"
+    "A051953",
+    "A065385",
+    "A076250"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

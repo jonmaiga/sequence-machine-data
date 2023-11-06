@@ -1,0 +1,18 @@
+{
+  "description": "Triprimes that are the concatenation of a prime and a semiprime (in that order).",
+  "id": "A363352",
+  "mentions": [
+    "A001358",
+    "A014612",
+    "A363353"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

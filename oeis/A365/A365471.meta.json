@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose digits are not all primes.",
+  "id": "A365471",
+  "mentions": [
+    "A046034",
+    "A084984",
+    "A365589"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

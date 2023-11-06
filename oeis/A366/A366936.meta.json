@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{j=1..n} (-1)^j*j^k*floor(n/j).",
+  "id": "A366936",
+  "mentions": [
+    "A000012",
+    "A000918",
+    "A024919",
+    "A059851",
+    "A319649",
+    "A366915",
+    "A366917",
+    "A366919"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

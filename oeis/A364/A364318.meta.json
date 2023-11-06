@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table T read by rows: T(n,k) gives for permutations of [n] = {1, 2, ..., n}, n >= 1, the number of cycles corresponding to the k-th partition of n without part 1 (in Abramowitz-Stegun order).",
+  "id": "A364318",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A002865",
+    "A008306",
+    "A036039",
+    "A135573",
+    "A145573"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

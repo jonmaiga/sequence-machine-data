@@ -1,0 +1,37 @@
+{
+  "description": "Number of strict integer partitions of n into odd parts with a common divisor > 1.",
+  "id": "A366750",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000700",
+    "A000837",
+    "A007360",
+    "A018783",
+    "A051424",
+    "A055922",
+    "A066208",
+    "A078374",
+    "A113685",
+    "A168532",
+    "A302697",
+    "A303280",
+    "A337485",
+    "A366528",
+    "A366842",
+    "A366843",
+    "A366844",
+    "A366845",
+    "A366848",
+    "A366852",
+    "A366853"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(1/2)*Sum{|d(i)-e(i)|} where Sum{d(i)*2^i} is base 2 representation of n and e(i) are digits d(i) in reverse order.",
+  "description": "a(n) = (1/2)*Sum_{i} |d(i) - e(i)| where Sum_{i} d(i)*2^i is the base-2 representation of n and e(i) are digits d(i) in reverse order.",
   "id": "A037888",
   "mentions": [
     "A030308",

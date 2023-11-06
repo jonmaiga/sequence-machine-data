@@ -1,0 +1,23 @@
+{
+  "description": "Divide n by its smallest prime factor, then multiply with the index of that same prime; a(1) = 0 by convention.",
+  "id": "A366387",
+  "mentions": [
+    "A000720",
+    "A020639",
+    "A032742",
+    "A055396",
+    "A060681",
+    "A196050",
+    "A324923",
+    "A366385"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

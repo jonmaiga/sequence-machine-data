@@ -2,7 +2,13 @@
   "description": "Binomial coefficient C(4n,n-1).",
   "id": "A004331",
   "mentions": [
+    "A001791",
     "A002293",
+    "A004319",
+    "A004343",
+    "A004356",
+    "A004369",
+    "A004382",
     "A005810",
     "A052203",
     "A224274",
@@ -17,6 +23,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

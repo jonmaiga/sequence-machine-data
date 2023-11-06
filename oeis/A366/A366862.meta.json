@@ -1,0 +1,15 @@
+{
+  "description": "Positive integers c such that there exist integers a > b > c such that ab+c, ac+b and bc+a are perfect squares, in order of increasing minimal a.",
+  "id": "A366862",
+  "mentions": [
+    "A366865"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

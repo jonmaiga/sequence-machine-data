@@ -1,16 +1,18 @@
 {
   "description": "Number of nonempty subsets of {1, 1/2, 1/3, ..., 1/n} that sum to an integer.",
   "id": "A111233",
-  "mentions": [],
+  "mentions": [
+    "A101877",
+    "A217693"
+  ],
   "tags": [
     "formulas",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
-    "source": "oeis-entry"
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

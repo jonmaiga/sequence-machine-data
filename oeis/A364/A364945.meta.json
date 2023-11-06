@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 1-Catalan.",
+  "id": "A364945",
+  "mentions": [
+    "A006752"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "Inverse Möbius transform of A003962.",
   "id": "A003975",
   "mentions": [
-    "A003962"
+    "A003962",
+    "A151800"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

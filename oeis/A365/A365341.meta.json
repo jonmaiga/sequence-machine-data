@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (5*n)!/(4*n+1)!.",
+  "id": "A365341",
+  "mentions": [
+    "A001761",
+    "A001763",
+    "A004343",
+    "A052795",
+    "A365340"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A366561(n,k)*A023900(k)/n.",
+  "id": "A366562",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A023900",
+    "A366561",
+    "A366563"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

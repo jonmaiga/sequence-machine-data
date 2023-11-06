@@ -1,0 +1,15 @@
+{
+  "description": "Numbers that can be represented in more than one way as x^y * y^x where 1 < x <= y.",
+  "id": "A367001",
+  "mentions": [
+    "A146748"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

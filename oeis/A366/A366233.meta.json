@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying A(x) = 1 + x*A(x) * exp(3*x*A(x)).",
+  "id": "A366233",
+  "mentions": [
+    "A161633",
+    "A212917",
+    "A365773",
+    "A366232",
+    "A366234",
+    "A366235"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

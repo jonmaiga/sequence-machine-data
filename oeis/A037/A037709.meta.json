@@ -1,15 +1,18 @@
 {
-  "description": "Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2,0.",
+  "description": "Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,2,0.",
   "id": "A037709",
-  "mentions": [],
+  "mentions": [
+    "A000302"
+  ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 26,
     "source": "joeis"
   }
 }

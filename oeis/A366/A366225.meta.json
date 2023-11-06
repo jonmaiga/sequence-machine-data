@@ -1,0 +1,16 @@
+{
+  "description": "Number of 3-connected unlabeled graphs on n nodes with girth at least 6.",
+  "id": "A366225",
+  "mentions": [
+    "A366224"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 14,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

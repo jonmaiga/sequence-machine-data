@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the sum of the two preceding terms if n is even, or of the two preceding digits if n is odd, with a(0) = 0, a(1) = 1.",
+  "description": "a(n) is the sum of the two preceding terms if n is even or n < 8, and the sum of the two rightmost digits of a(n-1) if n is odd, with a(0) = 0, a(1) = 1.",
   "id": "A345095",
   "mentions": [
     "A000045",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

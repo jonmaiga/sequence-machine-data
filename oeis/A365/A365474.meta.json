@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A365339(10^n).",
+  "id": "A365474",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A006880",
+    "A365339"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "Numbers k such that sum of proper divisors or aliquot parts of k^2 is a square.",
+  "description": "Numbers k such that the sum of proper divisors or aliquot parts of k^2 is a square.",
   "id": "A063893",
   "mentions": [
     "A001065",
-    "A008847"
+    "A008847",
+    "A065764"
   ],
   "tags": [
     "hard",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

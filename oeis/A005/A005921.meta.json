@@ -2,6 +2,8 @@
   "description": "From solution to a difference equation.",
   "id": "A005921",
   "mentions": [
+    "A000045",
+    "A000142",
     "A005442"
   ],
   "tags": [

@@ -1,16 +1,18 @@
 {
-  "description": "Numbers n which, for some r, are r-digit maximizers of n/phi(n).",
+  "description": "Numbers k which, for some r, are r-digit maximizers of k/phi(k).",
   "id": "A065800",
   "mentions": [
     "A000010",
-    "A002110"
+    "A002110",
+    "A065657"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Maximal k such that there exists a k-arc on the projective plane over GF(q), where q = A246655(n) is the n-th prime power > 1.",
+  "id": "A365216",
+  "mentions": [
+    "A000509",
+    "A005524",
+    "A246655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

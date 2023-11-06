@@ -1,0 +1,19 @@
+{
+  "description": "Number of prime factors of 11^n + 1 (counted with multiplicity).",
+  "id": "A366687",
+  "mentions": [
+    "A001222",
+    "A034524",
+    "A057934",
+    "A366686"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Complement of A364443.",
+  "id": "A364729",
+  "mentions": [
+    "A363762",
+    "A364443",
+    "A364445",
+    "A364730",
+    "A364731",
+    "A364732"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

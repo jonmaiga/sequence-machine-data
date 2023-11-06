@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals. Convolution of a(n)= 2*a(n-1)-a(n-2) and 10^n.",
+  "description": "Square array read by antidiagonals. Convolution of a(n) = 2*a(n-1) - a(n-2) and 10^n.",
   "id": "A178643",
   "mentions": [
     "A000129",
@@ -10,13 +10,13 @@
   ],
   "tags": [
     "easy",
-    "more",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

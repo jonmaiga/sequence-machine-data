@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers which cannnot be written as a sum of distinct numbers of the form 4^a + 5^b (a,b >= 0).",
+  "description": "Positive integers which cannot be written as a sum of distinct numbers of the form 4^a + 5^b (a,b >= 0).",
   "id": "A362743",
   "mentions": [
     "A226806",

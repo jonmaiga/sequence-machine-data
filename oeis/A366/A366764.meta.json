@@ -1,0 +1,25 @@
+{
+  "description": "The sum of divisors of n that have no exponent 2 in their prime factorization.",
+  "id": "A366764",
+  "mentions": [
+    "A000203",
+    "A004709",
+    "A005117",
+    "A034448",
+    "A065487",
+    "A337050",
+    "A366763",
+    "A366765"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

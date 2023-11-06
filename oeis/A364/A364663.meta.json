@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) = a(|n-a(n)*a(n-1)|)+1; a(0) = 0.",
+  "id": "A364663",
+  "mentions": [
+    "A003056",
+    "A004001",
+    "A005185",
+    "A007660",
+    "A339929",
+    "A340134",
+    "A340224",
+    "A364197"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

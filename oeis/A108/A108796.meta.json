@@ -1,10 +1,27 @@
 {
-  "description": "Number of pairs of partitions of n (into different parts) with empty intersection.",
+  "description": "Number of unordered pairs of partitions of n (into distinct parts) with empty intersection.",
   "id": "A108796",
   "mentions": [
+    "A000009",
+    "A000041",
+    "A000124",
+    "A000712",
+    "A001255",
+    "A002219",
+    "A006827",
+    "A032302",
+    "A054440",
+    "A064914",
     "A086737",
+    "A122768",
+    "A237258",
     "A258280",
-    "A284593"
+    "A260669",
+    "A284593",
+    "A355389",
+    "A365662",
+    "A366132",
+    "A366317"
   ],
   "tags": [
     "easy",

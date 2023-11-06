@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows giving trajectory beginning with A002182(n) under recursion of x -> f(x) until reaching 1, where f(x) = x/rad(x), rad(x) = A007947(x).",
+  "id": "A365901",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A007947",
+    "A025487",
+    "A112779",
+    "A301413",
+    "A365900"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(1)= 2. For n > 1, a(n) is the least number k such that k, k - a(n-1) and k + a(n-1) all have n prime divisors counted by multiplicity.",
+  "id": "A365852",
+  "mentions": [
+    "A001222"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

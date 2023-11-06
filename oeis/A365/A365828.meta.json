@@ -1,0 +1,31 @@
+{
+  "description": "Number of strict integer partitions of 2n not containing n.",
+  "id": "A365828",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008967",
+    "A035363",
+    "A046663",
+    "A078408",
+    "A079122",
+    "A111133",
+    "A140106",
+    "A182616",
+    "A231429",
+    "A238628",
+    "A344415",
+    "A365659",
+    "A365663",
+    "A365827"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

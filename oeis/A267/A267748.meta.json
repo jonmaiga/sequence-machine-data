@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX3 arrays containing 3 copies of 0..n-1 with every element equal to or 1 greater than any north neighbor modulo n and the upper left element equal to 0.",
+  "description": "Number of n X 3 arrays containing 3 copies of 0..n-1 with every element equal to or 1 greater than any north neighbor modulo n and the upper left element equal to 0.",
   "id": "A267748",
   "mentions": [
     "A267751"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

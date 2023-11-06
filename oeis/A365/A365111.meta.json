@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x / (1 + x*A(x))^4.",
+  "id": "A365111",
+  "mentions": [
+    "A007440",
+    "A365087",
+    "A365109",
+    "A365110",
+    "A365112"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

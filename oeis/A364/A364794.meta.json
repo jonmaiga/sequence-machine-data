@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct binary arrays of size n X n with respect to isometric transformations.",
+  "id": "A364794",
+  "mentions": [
+    "A054247",
+    "A255016"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

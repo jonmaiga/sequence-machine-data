@@ -1,5 +1,5 @@
 {
-  "description": "Binary expansion of n followed by its complement.",
+  "description": "Binary expansion of n followed by its reverse complement.",
   "id": "A066489",
   "mentions": [
     "A035928"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "joeis"
   }
 }

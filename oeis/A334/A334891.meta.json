@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to choose 4 points that form an square from the A000292(n) points in a regular tetrahedral grid where each side has n vertices.",
+  "description": "Number of ways to choose 4 points that form a square from the A000292(n) points in a regular tetrahedral grid where each side has n vertices.",
   "id": "A334891",
   "mentions": [
     "A000292",

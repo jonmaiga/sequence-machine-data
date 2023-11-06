@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of first n numbers in binary, converted to base 10.",
+  "description": "Concatenation of the first n numbers in binary (converted to base 10).",
   "id": "A047778",
   "mentions": [
     "A001855",

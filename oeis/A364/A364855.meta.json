@@ -1,0 +1,21 @@
+{
+  "description": "Initial digit of 3^(3^n) (A055777(n)).",
+  "id": "A364855",
+  "mentions": [
+    "A000030",
+    "A010705",
+    "A055777",
+    "A364789",
+    "A364837"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

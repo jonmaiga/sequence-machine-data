@@ -5,11 +5,13 @@
     "A100716"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 94,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

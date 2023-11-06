@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(4+2) 0..1 arrays with every 3X3 subblock sum of the two sums of the central row and central column minus the two minimums of the diagonal and antidiagonal nondecreasing horizontally and vertically",
+  "description": "Number of (n+2) X (4+2) 0..1 arrays with every 3 X 3 subblock sum of the two sums of the central row and central column minus the two minimums of the diagonal and antidiagonal nondecreasing horizontally and vertically.",
   "id": "A256950",
   "mentions": [
     "A256954"

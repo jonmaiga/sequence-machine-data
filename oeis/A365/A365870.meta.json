@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k+1 both have an even exponent of least prime factor in their prime factorization.",
+  "id": "A365870",
+  "mentions": [
+    "A365864",
+    "A365869",
+    "A365871"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

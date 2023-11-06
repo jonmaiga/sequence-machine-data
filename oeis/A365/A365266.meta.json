@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{k=1..n} Gamma(6*k).",
+  "id": "A365266",
+  "mentions": [
+    "A000178",
+    "A055462",
+    "A074962",
+    "A168467",
+    "A294319",
+    "A294322",
+    "A294326",
+    "A306635",
+    "A306651"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

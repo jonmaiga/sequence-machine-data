@@ -1,0 +1,15 @@
+{
+  "description": "Main diagonal of A365673.",
+  "id": "A366137",
+  "mentions": [
+    "A365673"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

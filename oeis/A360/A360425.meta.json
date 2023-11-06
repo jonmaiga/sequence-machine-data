@@ -2,15 +2,17 @@
   "description": "Indices of records in A018804.",
   "id": "A360425",
   "mentions": [
+    "A000040",
     "A018804",
     "A053669"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

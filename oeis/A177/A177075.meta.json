@@ -1,5 +1,5 @@
 {
-  "description": "n^5 - n^3 - 2n^2 + 1.",
+  "description": "a(n) = n^5 - n^3 - 2*n^2 + 1.",
   "id": "A177075",
   "mentions": [],
   "tags": [

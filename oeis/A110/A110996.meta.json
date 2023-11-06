@@ -2,17 +2,20 @@
   "description": "Powers equal to (sum of first k primes) plus 1, for some k >= 0.",
   "id": "A110996",
   "mentions": [
+    "A001597",
     "A007504",
     "A014284",
     "A110979",
+    "A110997",
     "A264858"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

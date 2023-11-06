@@ -1,0 +1,25 @@
+{
+  "description": "The sum of divisors d of n such that gcd(d, n/d) is a 5-rough number (A007310).",
+  "id": "A365211",
+  "mentions": [
+    "A000203",
+    "A007310",
+    "A034448",
+    "A065330",
+    "A065331",
+    "A069184",
+    "A186099",
+    "A365210"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

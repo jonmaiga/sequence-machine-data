@@ -2,10 +2,12 @@
   "description": "Minimum number of intercalates in a diagonal Latin square of order n.",
   "id": "A307163",
   "mentions": [
+    "A007310",
     "A092237",
     "A307164",
     "A307166",
-    "A307170"
+    "A307170",
+    "A345760"
   ],
   "tags": [
     "hard",

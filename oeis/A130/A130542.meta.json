@@ -5,12 +5,13 @@
     "A007653"
   ],
   "tags": [
+    "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

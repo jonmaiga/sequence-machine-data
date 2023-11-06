@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of 8^n+1.",
+  "id": "A366656",
+  "mentions": [
+    "A000005",
+    "A057936",
+    "A062395",
+    "A366638",
+    "A366653",
+    "A366657"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

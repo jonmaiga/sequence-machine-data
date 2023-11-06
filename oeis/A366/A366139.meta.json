@@ -1,0 +1,21 @@
+{
+  "description": "In binary representation, rotate the digits of n left n places.",
+  "id": "A366139",
+  "mentions": [
+    "A006257",
+    "A007088",
+    "A336953",
+    "A366140"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

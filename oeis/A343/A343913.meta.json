@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers m such that 2*m^2 - 1 = x^4 + y^4 for some nonnegative integers x and y with |x-y| > 1.",
+  "description": "Positive integers m such that 2*m^2 - 1 = x^4 + y^4 for some nonnegative integers x and y with |x - y| > 1.",
   "id": "A343913",
   "mentions": [
     "A000290",

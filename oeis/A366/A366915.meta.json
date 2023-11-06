@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^k*k^2*floor(n/k).",
+  "id": "A366915",
+  "mentions": [
+    "A024919",
+    "A064602"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,16 @@
 {
   "description": "Number of spanning trees in the line graph of the product of two cycle graphs, each of order n, L(C_n x C_n).",
   "id": "A066543",
-  "mentions": [],
+  "mentions": [
+    "A212800"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 4,
-    "source": "oeis-entry"
+    "size": 5,
+    "source": "joeis"
   }
 }

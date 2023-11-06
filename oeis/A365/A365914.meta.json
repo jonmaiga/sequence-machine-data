@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / ( 1 - Sum_{k>=0} x^(5*k+4) / (5*k+4)! ).",
+  "id": "A365914",
+  "mentions": [
+    "A232475",
+    "A365895",
+    "A365913"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

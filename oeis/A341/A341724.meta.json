@@ -2,10 +2,16 @@
   "description": "Triangle read by rows: coefficients of expansion of certain sums P_2(n,k) of Fibonacci numbers as a sum of powers.",
   "id": "A341724",
   "mentions": [
+    "A000556",
     "A000557",
+    "A005923",
+    "A341723",
+    "A341725",
+    "A341726",
     "A341727"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],

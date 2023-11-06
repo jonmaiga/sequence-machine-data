@@ -1,5 +1,5 @@
 {
-  "description": "Blue code of n: in binary coding of a polynomial over GF(2), substitute x+1 for x.",
+  "description": "Blue code for n: in binary coding of a polynomial over GF(2), substitute x+1 for x (see Comments for precise definition).",
   "id": "A193231",
   "mentions": [
     "A000035",

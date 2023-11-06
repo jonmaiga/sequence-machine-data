@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A265036.",
+  "id": "A365417",
+  "mentions": [
+    "A265036"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

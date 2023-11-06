@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of (Pi*sqrt(3) + 9*log(3))/24.",
+  "id": "A365522",
+  "mentions": [
+    "A000217",
+    "A000796",
+    "A002194",
+    "A002391",
+    "A051865",
+    "A244639",
+    "A244641",
+    "A244645",
+    "A244646",
+    "A244647",
+    "A244648",
+    "A244649"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

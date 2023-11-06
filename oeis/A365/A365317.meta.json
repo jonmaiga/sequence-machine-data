@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of real part of Gamma(exp(i*Pi/3)).",
+  "id": "A365317",
+  "mentions": [
+    "A212877",
+    "A212878",
+    "A212879",
+    "A212880",
+    "A365318",
+    "A365319"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

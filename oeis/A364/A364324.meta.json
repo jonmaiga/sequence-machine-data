@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n!*tribonacci(n+2).",
+  "id": "A364324",
+  "mentions": [
+    "A000073",
+    "A000142",
+    "A002866",
+    "A005442",
+    "A189886"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

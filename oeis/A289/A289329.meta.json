@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients of polynomials p_n(x) (exponents in increasing order) where 2^(x-n-1)p_n(x)/n! counts the ways a game of NIM with two piles of sizes x and n can be played out (x > 0, n >= 0).",
+  "description": "Triangle of coefficients of polynomials p_n(x) (exponents in increasing order) where 2^(x-n-1)p_n(x)/n! counts the ways a game of Nim with two piles of sizes x and n can be played out (x > 0, n >= 0).",
   "id": "A289329",
   "mentions": [
     "A022264"

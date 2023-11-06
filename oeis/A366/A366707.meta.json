@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of 12^n - 1.",
+  "id": "A366707",
+  "mentions": [
+    "A001221",
+    "A024140",
+    "A366681",
+    "A366708"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

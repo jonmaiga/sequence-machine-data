@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k such that A163511(k) is a square.",
+  "id": "A365809",
+  "mentions": [
+    "A016754",
+    "A052539",
+    "A163511",
+    "A209229",
+    "A365808"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

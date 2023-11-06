@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(n,k) = (n+2)^(k+1)/(n+1)^2+k+1-(k+1)/(n+1)-1/(n+1)^2, n >= 0, k >= 0.",
+  "description": "Array, A(n, k) = ((n+2)^(k+1) + (k+1)*n*(n+1) - 1)/(n+1)^2, read by antidiagonals.",
   "id": "A094250",
   "mentions": [
     "A000225",

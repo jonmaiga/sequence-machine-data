@@ -1,0 +1,17 @@
+{
+  "description": "For p = 7 and n > 0, write n = p^m + k, m >= 0, with maximal p^m <= n, with 0 <= k < p^(m+1) - p^m, then for n such that k=0, a(n)=n, and for n such that k > 0, a(n) is the smallest q*a(k), prime q != p, that is not already a term.",
+  "id": "A364628",
+  "mentions": [
+    "A005940",
+    "A356867",
+    "A364611"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

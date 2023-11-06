@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions y of n such that k is the greatest member of {0..n} that is not the sum of any nonempty submultiset of y.",
+  "id": "A365921",
+  "mentions": [
+    "A000041",
+    "A001522",
+    "A002865",
+    "A055932",
+    "A056239",
+    "A066062",
+    "A073491",
+    "A079068",
+    "A098743",
+    "A112798",
+    "A126796",
+    "A238709",
+    "A238710",
+    "A257993",
+    "A264401",
+    "A286469",
+    "A286470",
+    "A325781",
+    "A339662",
+    "A339737",
+    "A339886",
+    "A342050",
+    "A342051",
+    "A365830",
+    "A365920",
+    "A365924",
+    "A366127",
+    "A366128"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

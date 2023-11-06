@@ -1,5 +1,5 @@
 {
-  "description": "Nonsquare positive integers n such that the fundamental unit of quadratic field Q(sqrt(n)) has norm -1 and can be written as x+y*sqrt(d) with integers x, y where d is the squarefree part of n",
+  "description": "Nonsquare positive integers k such that the fundamental unit of the quadratic field Q(sqrt(k)) has norm -1 and can be written as x + y*sqrt(d) with integers x, y where d is the squarefree part of k.",
   "id": "A197115",
   "mentions": [
     "A087643",

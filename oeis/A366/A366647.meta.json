@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x * (A(x) / (1 - x))^5.",
+  "id": "A366647",
+  "mentions": [
+    "A006319",
+    "A213282",
+    "A213336",
+    "A349311"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

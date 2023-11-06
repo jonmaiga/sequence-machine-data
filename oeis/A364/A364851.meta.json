@@ -1,0 +1,14 @@
+{
+  "description": "Number of paths in the n-Pell graph.",
+  "id": "A364851",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

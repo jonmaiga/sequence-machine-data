@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 5^(n^2 - n)",
+  "description": "a(n) = 5^(n^2 - n).",
   "id": "A053766",
   "mentions": [
     "A000351",

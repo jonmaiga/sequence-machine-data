@@ -2,16 +2,22 @@
   "description": "a(n) is the number of locations 1..n-1 which can reach i=n-1, where jumps from location i to i +- a(i) are permitted (within 1..n-1); a(1)=1. See example.",
   "id": "A362248",
   "mentions": [
+    "A004767",
+    "A016825",
+    "A023758",
+    "A047619",
+    "A089633",
+    "A100892",
+    "A158582",
     "A360745",
     "A360746"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 80,
+    "source": "oeis-bfile"
   }
 }

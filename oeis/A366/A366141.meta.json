@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of Boolean relation matrices such that all of the blocks of its Frobenius normal form are 0-blocks or 1-blocks and that have exactly k 1-blocks on the diagonal, n>=0, 0<=k<=n.",
+  "id": "A366141",
+  "mentions": [
+    "A003024",
+    "A365593"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

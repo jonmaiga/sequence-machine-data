@@ -1,0 +1,17 @@
+{
+  "description": "Primes from which it is not possible to reach a (different) Mersenne prime by toggling a single bit per step while still remaining prime at every step.",
+  "id": "A365001",
+  "mentions": [
+    "A065092",
+    "A065111"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

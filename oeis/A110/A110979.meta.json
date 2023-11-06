@@ -1,16 +1,20 @@
 {
-  "description": "Squares equal to the sum of the first n primes minus 1.",
+  "description": "Squares equal to the sum of the first k primes minus 1.",
   "id": "A110979",
   "mentions": [
+    "A000290",
     "A007504",
-    "A110997"
+    "A110997",
+    "A237589"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n nonnegative integer arrays with upper left entry 0, lower right entry n - 6, every value within 5 of its king-move distance from the upper left, and every value increasing by 0 or 1 with every step right, diagonally southeast, or down.",
+  "id": "A365469",
+  "mentions": [
+    "A252998",
+    "A253026",
+    "A253217"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

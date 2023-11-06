@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=15; a(n)=floor((47+sum(a(1) to a(n-1)))/3).",
+  "description": "a(n) = 15 + floor((2 + Sum_{j=1..n-1} a(j))/3).",
   "id": "A120159",
   "mentions": [
     "A072493",
@@ -7,11 +7,12 @@
     "A112088"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

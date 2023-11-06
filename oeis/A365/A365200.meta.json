@@ -1,0 +1,18 @@
+{
+  "description": "Even semiprimes that are the exact average of two consecutive odd semiprimes.",
+  "id": "A365200",
+  "mentions": [
+    "A046315",
+    "A100484",
+    "A365201",
+    "A365202"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

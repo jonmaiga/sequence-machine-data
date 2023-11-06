@@ -2,6 +2,7 @@
   "description": "Semiprimes p*q with p and q primes of the form 4k+1 (A002144).",
   "id": "A121387",
   "mentions": [
+    "A001358",
     "A002144",
     "A080109",
     "A080774",

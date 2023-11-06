@@ -1,16 +1,19 @@
 {
-  "description": "a(n)=sum(k=0,n,4^k*F(k)) where F(k) is the k-th Fibonacci number.",
+  "description": "a(n) = Sum_{k=0..n} 4^k*F(k) where F(k) is the k-th Fibonacci number.",
   "id": "A082988",
   "mentions": [
-    "A014334"
+    "A014334",
+    "A082987",
+    "A119282"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

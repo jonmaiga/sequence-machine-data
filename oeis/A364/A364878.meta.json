@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k), 0 <= k <= n, is the smallest number that has n distinct prime factors, k of which are unique.",
+  "id": "A364878",
+  "mentions": [
+    "A002110",
+    "A025487",
+    "A061742",
+    "A088860",
+    "A126706",
+    "A228593"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

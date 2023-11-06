@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1 or 2, read by rows; the n-th row contains two coprime positive integers whose prime factorizations are encoded in the ternary expansion of n (see Comments section for precise definition).",
+  "id": "A366344",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A003961",
+    "A004488",
+    "A005823",
+    "A005836",
+    "A005940",
+    "A062756",
+    "A081603",
+    "A160384"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

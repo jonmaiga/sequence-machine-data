@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of cubes in the k-th level of the ziggurat of order n described in A347186, n >= 1, k >= 1.",
+  "id": "A365434",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A000396",
+    "A065091",
+    "A174973",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A238524",
+    "A245092",
+    "A262626",
+    "A347186",
+    "A347263",
+    "A347367",
+    "A365195",
+    "A365433"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

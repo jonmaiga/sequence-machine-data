@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A113415(A163511(n)), where A113415(n) is the average of number of and sum of odd divisors of n.",
+  "id": "A366873",
+  "mentions": [
+    "A113415",
+    "A163511",
+    "A324186",
+    "A366797",
+    "A366874",
+    "A366875"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

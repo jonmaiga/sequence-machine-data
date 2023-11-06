@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime divisors of 3^n + 1.",
+  "id": "A366580",
+  "mentions": [
+    "A001221",
+    "A034472",
+    "A046799",
+    "A057941",
+    "A133801"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

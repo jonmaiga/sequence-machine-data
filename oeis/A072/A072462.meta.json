@@ -1,5 +1,5 @@
 {
-  "description": "Sigma(n) == 3 mod 4.",
+  "description": "Numbers k such that sigma(k) == 3 (mod 4).",
   "id": "A072462",
   "mentions": [
     "A000203",

@@ -1,0 +1,19 @@
+{
+  "description": "Parity of the Dirichlet inverse of the characteristic function of triangular numbers (A010054).",
+  "id": "A365799",
+  "mentions": [
+    "A000035",
+    "A000217",
+    "A010054",
+    "A365800"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

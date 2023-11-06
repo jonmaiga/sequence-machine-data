@@ -1,13 +1,15 @@
 {
-  "description": "a(n) = discriminant of n-th Bell's polynomial.",
+  "description": "a(n) = discriminant of n-th Bell polynomial.",
   "id": "A139000",
-  "mentions": [],
+  "mentions": [
+    "A106800"
+  ],
   "tags": [
-    "sign"
+    "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
+    "offset": 0,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

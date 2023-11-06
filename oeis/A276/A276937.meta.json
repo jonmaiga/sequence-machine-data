@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with at least one prime factor prime(k) such that prime(k)^k is a divisor of n, but with no factor prime(j) such that prime(j)^(j+1) divides n.",
+  "description": "Numbers m with at least one prime factor prime(k) such that prime(k)^k is a divisor of m, but with no factor prime(j) such that prime(j)^(j+1) divides m.",
   "id": "A276937",
   "mentions": [
     "A276077",
@@ -10,6 +10,7 @@
     "A276942"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Each a(n) is one more than the count of all descendant nodes in a tree constructed from all nonnegative integers, where the relation p = c + bitcount(c) defines the edges between parent (p) and child (c) nodes. Function bitcount(c) is the count of binary 1's in c (A000120).",
+  "description": "a(0)=1; for n > 0, a(n) = 1 + Sum_{i=A228086(n)..A228087(n)} [A092391(i) = n]*a(i), where [] is the Iverson bracket, resulting in 1 when i + A000120(i) = n and 0 otherwise.",
   "id": "A227643",
   "mentions": [
     "A000120",

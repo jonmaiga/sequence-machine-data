@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that k+1, k-1, k/2+1, k/2-1, k/3+1 and k/3-1 are all prime.",
+  "id": "A365242",
+  "mentions": [
+    "A076504"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

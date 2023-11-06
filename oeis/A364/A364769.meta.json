@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k for which k and the arithmetic derivative k' (A003415) are practical numbers (A005153).",
+  "id": "A364769",
+  "mentions": [
+    "A003415",
+    "A005153"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,17 @@
 {
-  "description": "Expansion of Product_{k>=1} (1-x^k )^25.",
+  "description": "Expansion of Product_{k>=1} (1-x^k)^25.",
   "id": "A010830",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A286354"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 29,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

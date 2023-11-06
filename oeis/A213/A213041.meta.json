@@ -1,10 +1,12 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0..n} and 2|w-x| = max(w,x,y)-min(w,x,y).",
+  "description": "Number of triples (w,x,y) with all terms in {0..n} and 2*|w-x| = max(w,x,y) - min(w,x,y).",
   "id": "A213041",
   "mentions": [
+    "A000384",
     "A002620",
     "A004526",
     "A058331",
+    "A137932",
     "A168277",
     "A212959",
     "A342819"

@@ -1,5 +1,5 @@
 {
-  "description": "Minimum even value unattainable as the sum of 6 attained values of i*(i-1) with i in 0..n",
+  "description": "Minimum even value unattainable as the sum of 6 attained values of i*(i-1) with i in 0..n.",
   "id": "A225292",
   "mentions": [
     "A225281"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^n mod M(n) where M(n) = A014963(n) is the exponential of the Mangoldt function.",
+  "description": "a(n) = 2^(n-1) mod M(n) where M(n) = A014963(n) is the exponential of the Mangoldt function.",
   "id": "A174275",
   "mentions": [
     "A000079",

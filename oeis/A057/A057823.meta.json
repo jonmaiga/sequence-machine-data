@@ -1,5 +1,5 @@
 {
-  "description": "The number q = 0.193072033... is the value of q which gives the maximum of the Dedekind eta function eta(q) := q^(1/12) * product_{n>=1} (1-q^(2n)) for q between 0 and 1.",
+  "description": "Decimal expansion of q = 0.193072033..., which is the value of q which gives the maximum of the Dedekind eta function eta(q) := q^(1/12) * Product_{n>=1} (1 - q^(2n)) for q between 0 and 1.",
   "id": "A057823",
   "mentions": [
     "A211342"

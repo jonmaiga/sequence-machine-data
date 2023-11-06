@@ -1,5 +1,5 @@
 {
-  "description": "Values of r such that N(r)/r^2 > Pi, where N(r) is the number of integer lattice points (x,y) inside a circle of radius r.",
+  "description": "Values of r such that N(r)/r^2 > Pi, where N(r) is the number of integer lattice points (x,y) inside or on a circle of radius r.",
   "id": "A093832",
   "mentions": [
     "A000328",

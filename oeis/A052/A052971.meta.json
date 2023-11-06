@@ -1,7 +1,9 @@
 {
-  "description": "Expansion of (1-x)/(1-2x-2x^3+2x^4).",
+  "description": "Expansion of (1-x)/(1-2*x-2*x^3+2*x^4).",
   "id": "A052971",
-  "mentions": [],
+  "mentions": [
+    "A077998"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 33,
     "source": "joeis"
   }
 }

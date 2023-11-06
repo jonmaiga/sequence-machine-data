@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A252464(n) - A364569(n), where A364569(n) is the length of the common prefix in the binary expansions of A156552(n) and n-1 [= A156552(A005940(n))].",
+  "id": "A364570",
+  "mentions": [
+    "A005940",
+    "A061395",
+    "A156552",
+    "A252464",
+    "A347381",
+    "A364569",
+    "A364960"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

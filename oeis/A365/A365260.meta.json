@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps for n to stop, according to the \"multiply with zero\" rules explained in A365994.",
+  "id": "A365260",
+  "mentions": [
+    "A365993",
+    "A365994",
+    "A366059",
+    "A366060"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

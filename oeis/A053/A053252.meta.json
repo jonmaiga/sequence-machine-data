@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of the '3rd order' mock theta function chi(q).",
+  "description": "Coefficients of the '3rd-order' mock theta function chi(q).",
   "id": "A053252",
   "mentions": [
     "A000025",

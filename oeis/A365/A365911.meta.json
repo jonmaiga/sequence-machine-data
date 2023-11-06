@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1 / ( 1 - Sum_{k>=0} x^(4*k+3) / (4*k+3)! ).",
+  "id": "A365911",
+  "mentions": [
+    "A102233",
+    "A307978",
+    "A332258",
+    "A352429",
+    "A365912",
+    "A365917"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

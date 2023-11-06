@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling(n*sqrt(10)).",
+  "description": "a(n) = ceiling(n*sqrt(10)).",
   "id": "A198265",
   "mentions": [
     "A177102"

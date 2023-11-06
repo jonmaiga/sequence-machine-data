@@ -1,5 +1,5 @@
 {
-  "description": "floor[8^8/n].",
+  "description": "a(n) = floor(8^8/n).",
   "id": "A057070",
   "mentions": [
     "A000007",
@@ -9,11 +9,12 @@
     "A057075"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -10,11 +10,12 @@
     "A078152"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

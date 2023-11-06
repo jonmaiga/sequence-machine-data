@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2-Bottom-Card shuffles required to return a deck of size n to original order.",
+  "description": "Number of 2-Bottom-Card shuffles required to return a deck of size n to its original order.",
   "id": "A227392",
   "mentions": [],
   "tags": [

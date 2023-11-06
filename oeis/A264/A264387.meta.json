@@ -2,7 +2,8 @@
   "description": "2*(1+2*a(n)) is the n-th even squarefree number A039956(n), n >= 1.",
   "id": "A264387",
   "mentions": [
-    "A039956"
+    "A039956",
+    "A217739"
   ],
   "tags": [
     "easy",

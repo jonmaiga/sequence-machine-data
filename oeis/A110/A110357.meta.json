@@ -1,5 +1,5 @@
 {
-  "description": "Least integer of the form n*(n+k)/(n-k).",
+  "description": "a(n) is the least nonnegative integer of the form n*(n+k)/(n-k) with k>0.",
   "id": "A110357",
   "mentions": [
     "A214750"

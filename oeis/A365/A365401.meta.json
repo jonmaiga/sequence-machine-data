@@ -1,0 +1,25 @@
+{
+  "description": "The number of divisors of the largest unitary divisor of n that is a square.",
+  "id": "A365401",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A001620",
+    "A212181",
+    "A268335",
+    "A350388",
+    "A351568",
+    "A365402"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

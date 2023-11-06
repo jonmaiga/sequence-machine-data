@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A364952(A005940(1+n)), where A364952 is Dirichlet inverse of A364557, which is Möbius transform of A005941 [the inverse permutation of A005940].",
+  "id": "A364953",
+  "mentions": [
+    "A005940",
+    "A005941",
+    "A364557",
+    "A364567",
+    "A364575",
+    "A364952"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

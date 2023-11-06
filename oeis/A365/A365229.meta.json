@@ -1,0 +1,18 @@
+{
+  "description": "Sum over all k of 1/k! times the number of permutations of [n] for which the difference between the longest and the shortest cycle length is k.",
+  "id": "A365229",
+  "mentions": [
+    "A000035",
+    "A000142",
+    "A364967"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

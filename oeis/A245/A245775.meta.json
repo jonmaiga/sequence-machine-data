@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A017666(n) = denominator(sigma(n)/n) = 3.",
+  "description": "Numbers k such that A017666(k) = denominator(sigma(k)/k) = 3.",
   "id": "A245775",
   "mentions": [
     "A000203",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

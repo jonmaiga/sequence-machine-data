@@ -7,13 +7,14 @@
     "A166586"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 66,
     "source": "joeis"
   }
 }

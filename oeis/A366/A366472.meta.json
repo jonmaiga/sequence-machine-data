@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 1, k >= 1) = number of increasing geometric progressions in {1,2,3,...,n} of length k with rational ratio.",
+  "id": "A366472",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A000217",
+    "A132345",
+    "A366471"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "f-amicable numbers where f(n) = Floor(|n sin(n)|); f-amicable numbers are defined in A066511.",
+  "description": "Pairs (x, y), x < y, of f-amicable numbers where f(k) = floor(|k*sin(k)|) sorted by increasing y, then increasing x; f-amicable numbers are defined in A066511.",
   "id": "A066573",
   "mentions": [
     "A066218",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

@@ -9,19 +9,21 @@
     "A045896",
     "A045945",
     "A049450",
+    "A051176",
     "A060544",
     "A146535",
-    "A189733"
+    "A189733",
+    "A306368"
   ],
   "tags": [
+    "easy",
     "formulas",
     "frac",
-    "nonn",
-    "tabl"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 60,
     "source": "joeis"
   }
 }

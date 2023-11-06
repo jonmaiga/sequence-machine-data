@@ -2,7 +2,10 @@
   "description": "Number of ternary search trees on n keys.",
   "id": "A019497",
   "mentions": [
-    "A025262"
+    "A025262",
+    "A137954",
+    "A137959",
+    "A137966"
   ],
   "tags": [
     "formulas",
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 31,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

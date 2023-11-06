@@ -1,0 +1,23 @@
+{
+  "description": "Powerful numbers that are products of \"Fermi-Dirac primes\" (A050376) that are powers of primes with exponents that are powers of 4.",
+  "id": "A366307",
+  "mentions": [
+    "A000583",
+    "A000695",
+    "A001694",
+    "A013661",
+    "A050376",
+    "A113849",
+    "A366242"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Number of nXnXn 0..6 triangular arrays with each element x equal to the number its neighbors equal to 4,3,2,0,1,1,0 for x=0,1,2,3,4,5,6",
+  "description": "Number of n X n X n 0..6 triangular arrays with each element x equal to the number its neighbors equal to 4,3,2,0,1,1,0 for x=0,1,2,3,4,5,6.",
   "id": "A197898",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

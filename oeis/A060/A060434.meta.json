@@ -1,5 +1,5 @@
 {
-  "description": "An inverse to Mertens function: smallest k >= 2 such that Mertens's function |M(k)| (see A002321) is equal to n.",
+  "description": "An inverse to Mertens's function: smallest k >= 2 such that Mertens's function |M(k)| (see A002321) is equal to n.",
   "id": "A060434",
   "mentions": [
     "A002321",

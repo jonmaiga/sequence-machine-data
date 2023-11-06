@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence, where after every appearance, a term is banned from re-appearing for twice as long as last time; first appearance bans it for 1 term.",
+  "id": "A364604",
+  "mentions": [
+    "A364448",
+    "A364449",
+    "A364603"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

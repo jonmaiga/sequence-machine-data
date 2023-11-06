@@ -5,13 +5,12 @@
     "A000045"
   ],
   "tags": [
-    "base",
-    "more",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

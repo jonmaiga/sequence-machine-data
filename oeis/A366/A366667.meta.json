@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(9^n+1), where phi is Euler's totient function (A000010).",
+  "id": "A366667",
+  "mentions": [
+    "A000010",
+    "A062396",
+    "A366658",
+    "A366663"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

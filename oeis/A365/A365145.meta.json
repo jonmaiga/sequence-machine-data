@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically least increasing sequence of triprimes (A014612) whose first differences are triprimes.",
+  "id": "A365145",
+  "mentions": [
+    "A001359",
+    "A014612",
+    "A175588"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

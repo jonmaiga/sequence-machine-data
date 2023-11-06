@@ -1,5 +1,5 @@
 {
-  "description": "Number of linear geometries on n points with <=3 points per line.",
+  "description": "Number of linear geometries on n points with <= 3 points per line.",
   "id": "A005426",
   "mentions": [],
   "tags": [

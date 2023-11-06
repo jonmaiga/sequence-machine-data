@@ -1,9 +1,15 @@
 {
   "description": "a(n) = (7*n + 3)^8.",
   "id": "A017024",
-  "mentions": [],
+  "mentions": [
+    "A017017",
+    "A017023",
+    "A017025",
+    "A017028"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1 / (7 - 6 * exp(x))^(5/6).",
+  "id": "A365557",
+  "mentions": [
+    "A094419",
+    "A346985",
+    "A354252",
+    "A365555",
+    "A365556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

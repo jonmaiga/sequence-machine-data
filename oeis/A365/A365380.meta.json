@@ -1,0 +1,44 @@
+{
+  "description": "Number of subsets of {1..n} that cannot be linearly combined using nonnegative coefficients to obtain n.",
+  "id": "A365380",
+  "mentions": [
+    "A007865",
+    "A050291",
+    "A066062",
+    "A085489",
+    "A088314",
+    "A088528",
+    "A088809",
+    "A093971",
+    "A124506",
+    "A151897",
+    "A179822",
+    "A288728",
+    "A326020",
+    "A326080",
+    "A326083",
+    "A364350",
+    "A364534",
+    "A364914",
+    "A365043",
+    "A365045",
+    "A365046",
+    "A365071",
+    "A365073",
+    "A365314",
+    "A365315",
+    "A365320",
+    "A365321",
+    "A365322",
+    "A365542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

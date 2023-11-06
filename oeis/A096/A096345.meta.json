@@ -1,7 +1,9 @@
 {
   "description": "Primes of the form p*q - p - q, where p and q are two successive primes.",
   "id": "A096345",
-  "mentions": [],
+  "mentions": [
+    "A037165"
+  ],
   "tags": [
     "nonn"
   ],

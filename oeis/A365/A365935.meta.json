@@ -1,0 +1,23 @@
+{
+  "description": "Final digit (in decimal system) of n^(n+1) = A007778(n).",
+  "id": "A365935",
+  "mentions": [
+    "A007778",
+    "A010879",
+    "A056849",
+    "A120962",
+    "A365707",
+    "A365936"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

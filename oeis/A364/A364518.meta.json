@@ -1,0 +1,31 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) = [x^(2*k)] ( (1 + x)^(n+2)/(1 - x)^(n-2) )^k for n, k >= 0.",
+  "id": "A364518",
+  "mentions": [
+    "A000984",
+    "A001448",
+    "A061162",
+    "A091496",
+    "A211419",
+    "A276098",
+    "A276099",
+    "A295431",
+    "A330843",
+    "A364303",
+    "A364506",
+    "A364509",
+    "A364513",
+    "A364519"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

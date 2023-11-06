@@ -2,8 +2,10 @@
   "description": "Number of times 1 is used in writing out all numbers 1 through 10^n.",
   "id": "A094797",
   "mentions": [
+    "A011557",
     "A072290",
-    "A078427"
+    "A078427",
+    "A094798"
   ],
   "tags": [
     "base",

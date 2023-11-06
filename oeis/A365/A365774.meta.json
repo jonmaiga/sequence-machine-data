@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = 1 + x*A(x)/(1 - 4*x*A(x))^2.",
+  "id": "A365774",
+  "mentions": [
+    "A109081",
+    "A365770",
+    "A365772",
+    "A365773",
+    "A365775",
+    "A366234"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

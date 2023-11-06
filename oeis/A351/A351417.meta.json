@@ -2,16 +2,19 @@
   "description": "Number of divisors of n that are either prime or have at least one square divisor > 1.",
   "id": "A351417",
   "mentions": [
+    "A001221",
     "A001222",
-    "A008683"
+    "A008683",
+    "A048105"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 95,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

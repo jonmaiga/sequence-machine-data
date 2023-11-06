@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1, and thereafter a(n) is the number of terms with index m < n such that gpf(a(m)) = gpf(a(n-1)), where gpf(k) = A006530(k) is the greatest prime factor of k (or 1 if k=1).",
+  "id": "A362071",
+  "mentions": [
+    "A006530"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

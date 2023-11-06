@@ -2,6 +2,9 @@
   "description": "Sum of the squares of the odd proper divisors of n.",
   "id": "A351647",
   "mentions": [
+    "A000035",
+    "A002117",
+    "A050999",
     "A091570",
     "A091954",
     "A352031",
@@ -14,12 +17,13 @@
     "A352038"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

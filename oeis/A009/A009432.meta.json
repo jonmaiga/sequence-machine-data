@@ -1,7 +1,14 @@
 {
-  "description": "Expansion of log(1+x)/cosh(sinh(x)).",
+  "description": "Expansion of e.g.f. log(1+x)/cosh(sinh(x)).",
   "id": "A009432",
-  "mentions": [],
+  "mentions": [
+    "A009405",
+    "A009420",
+    "A009422",
+    "A009431",
+    "A009433",
+    "A009439"
+  ],
   "tags": [
     "easy",
     "sign"
@@ -9,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

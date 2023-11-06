@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is phi(n^n + 1) where phi is the Euler totient function.",
+  "id": "A366822",
+  "mentions": [
+    "A000010",
+    "A014566",
+    "A064447",
+    "A366821"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

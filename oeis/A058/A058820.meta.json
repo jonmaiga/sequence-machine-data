@@ -2,6 +2,7 @@
   "description": "a(0) = 1, a(1) = 5; for n >= 2 a(n) is the number of degree-n monic reducible polynomials over GF(5), i.e., a(n) = 5^n - A001692(n).",
   "id": "A058820",
   "mentions": [
+    "A000351",
     "A001692",
     "A058766"
   ],

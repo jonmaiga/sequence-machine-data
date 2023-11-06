@@ -1,5 +1,5 @@
 {
-  "description": "Cyclic quadrilateral numbers: numbers n = a*b*c*d such that the integers a,b,c,d are the sides of a cyclic quadrilateral with the area and the circumradius integers.",
+  "description": "Cyclic quadrilateral numbers: numbers m = a*b*c*d such that the integers a,b,c,d are the sides of a cyclic quadrilateral whose area and circumradius are integers.",
   "id": "A218431",
   "mentions": [
     "A210250",

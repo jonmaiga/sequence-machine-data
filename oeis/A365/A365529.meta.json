@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor((n-1)/5)} Stirling2(n,5*k+1).",
+  "id": "A365529",
+  "mentions": [
+    "A365528",
+    "A365530",
+    "A365531",
+    "A365532"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

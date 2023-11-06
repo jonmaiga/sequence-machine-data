@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m for which A139770(m) and A140635(m) differ.",
+  "id": "A365263",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A005179",
+    "A007412",
+    "A061799",
+    "A139770",
+    "A140635"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

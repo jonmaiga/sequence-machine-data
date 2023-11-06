@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the 4-volume of the unit regular pentachoron (5-cell).",
+  "id": "A364895",
+  "mentions": [
+    "A000007",
+    "A000038",
+    "A020793",
+    "A020829",
+    "A120011",
+    "A364896",
+    "A364897"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Number of second differences of arrays of length n + 2 of numbers in 0..4.",
   "id": "A228214",
   "mentions": [
+    "A005060",
     "A228218"
   ],
   "tags": [

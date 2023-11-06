@@ -1,7 +1,8 @@
 {
-  "description": "Irregular triangle read by rows: row n gives expansion of g.f. for descending plane partitions of order n with weight equal to sum of the parts.",
+  "description": "Irregular triangle read by rows: row n gives expansion of g.f. for descending plane partitions of order n with no special parts and weight equal to sum of the parts.",
   "id": "A198890",
   "mentions": [
+    "A000142",
     "A001754",
     "A008302",
     "A037223",

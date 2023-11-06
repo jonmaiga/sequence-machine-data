@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers on a square spiral such that there are no palindromes with length > 2 in any row, column or diagonal.",
+  "id": "A366311",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A355271",
+    "A366312"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

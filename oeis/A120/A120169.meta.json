@@ -1,12 +1,17 @@
 {
-  "description": "a(1)=12; a(n)=floor((49+sum(a(1) to a(n-1)))/4).",
+  "description": "a(n) = 12 + floor((1 + Sum_{j=1..n-1} a(j))/4).",
   "id": "A120169",
   "mentions": [
     "A072493",
     "A073941",
-    "A112088"
+    "A112088",
+    "A120149",
+    "A120160",
+    "A120168",
+    "A120171"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of integer partitions where the sum of all parts is twice the sum of distinct parts.",
+  "id": "A365003",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001221",
+    "A001222",
+    "A056239",
+    "A066328",
+    "A112798",
+    "A116861",
+    "A304038",
+    "A320340",
+    "A323092",
+    "A364350",
+    "A364839",
+    "A364906",
+    "A364907",
+    "A364910",
+    "A364911",
+    "A364916"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The largest exponentially odious divisor of n.",
+  "id": "A366905",
+  "mentions": [
+    "A270428",
+    "A353897",
+    "A365683",
+    "A366901",
+    "A366903",
+    "A366906"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

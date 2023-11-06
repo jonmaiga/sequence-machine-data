@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (0 <= k <= n^2) are coefficients of exact spanning probability for site percolation along the second dimension for an n X n 2D triangular lattice with periodic boundary conditions.",
+  "id": "A366465",
+  "mentions": [
+    "A365940",
+    "A365957",
+    "A366463",
+    "A366467"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

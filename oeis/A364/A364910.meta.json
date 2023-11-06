@@ -1,0 +1,35 @@
+{
+  "description": "Number of integer partitions of 2n whose distinct parts sum to n.",
+  "id": "A364910",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A116861",
+    "A237113",
+    "A320340",
+    "A323092",
+    "A364350",
+    "A364839",
+    "A364906",
+    "A364907",
+    "A364908",
+    "A364909",
+    "A364911",
+    "A364912",
+    "A364914",
+    "A364916",
+    "A365002",
+    "A365003"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

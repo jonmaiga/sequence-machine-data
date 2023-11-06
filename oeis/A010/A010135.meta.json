@@ -2,10 +2,13 @@
   "description": "Continued fraction for sqrt(45).",
   "id": "A010135",
   "mentions": [
-    "A010499"
+    "A010499",
+    "A041076",
+    "A041077"
   ],
   "tags": [
     "cofr",
+    "easy",
     "formulas",
     "nonn"
   ],

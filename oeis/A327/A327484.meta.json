@@ -2,7 +2,9 @@
   "description": "Number of integer partitions of 2^n whose mean is a power of 2.",
   "id": "A327484",
   "mentions": [
+    "A008284",
     "A067538",
+    "A068413",
     "A135342",
     "A237984",
     "A327474",
@@ -11,12 +13,11 @@
     "A327483"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 13,
+    "source": "oeis-bfile"
   }
 }

@@ -6,12 +6,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
-    "source": "oeis-entry"
+    "size": 9,
+    "source": "oeis-bfile"
   }
 }

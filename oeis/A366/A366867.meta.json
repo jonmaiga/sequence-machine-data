@@ -1,0 +1,18 @@
+{
+  "description": "Products of sexy prime triples: sphenic numbers with prime factorization (p - 6)*p*(p + 6).",
+  "id": "A366867",
+  "mentions": [
+    "A006489",
+    "A007304",
+    "A111192"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

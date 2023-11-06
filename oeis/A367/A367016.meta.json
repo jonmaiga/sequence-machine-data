@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^4*(1 - x).",
+  "id": "A367016",
+  "mentions": [
+    "A002293",
+    "A200753",
+    "A365178",
+    "A367017"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Let x, y be the greatest exponents of 2, 3 respectively such that 2^x, 3^y do not exceed n and let k_2, k_3 be n - 2^x, and n - 3^y respectively. Then for n such that k_2 = 0 or k_3 = 0, a(n) = n, else a(n) is the least novel number Min{p*a(k_2), q*a(k_3)}, where p, q are primes not equal to either 2 or 3.",
+  "id": "A364902",
+  "mentions": [
+    "A005940",
+    "A006889",
+    "A006899",
+    "A047253",
+    "A108906",
+    "A356867",
+    "A364611",
+    "A364628"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

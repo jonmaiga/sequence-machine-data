@@ -1,9 +1,10 @@
 {
-  "description": "Numerator of Sum i/2^i, i=1..n.",
+  "description": "Numerator of Sum_{i=1..n} i/2^i.",
   "id": "A036295",
   "mentions": [
     "A000265",
     "A000295",
+    "A006519",
     "A036296"
   ],
   "tags": [

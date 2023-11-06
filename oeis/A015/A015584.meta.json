@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x/(1 - 9*x - 8*x^2).",
+  "description": "Expansion of g.f. x/(1 - 9*x - 8*x^2).",
   "id": "A015584",
   "mentions": [
     "A015579",

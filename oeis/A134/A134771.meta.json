@@ -1,5 +1,5 @@
 {
-  "description": "A007318^(-2) * A134770.",
+  "description": "A134770 interleaved with threes.",
   "id": "A134771",
   "mentions": [
     "A000984",
@@ -8,12 +8,14 @@
     "A134770"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

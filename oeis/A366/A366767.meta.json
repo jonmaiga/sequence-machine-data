@@ -1,0 +1,42 @@
+{
+  "description": "Array read by antidiagonals, where each row is the counting sequence of a certain type of fixed polyominoids.",
+  "id": "A366767",
+  "mentions": [
+    "A000012",
+    "A001168",
+    "A001931",
+    "A006770",
+    "A039741",
+    "A039742",
+    "A063524",
+    "A075678",
+    "A096267",
+    "A365560",
+    "A365562",
+    "A365651",
+    "A365653",
+    "A365655",
+    "A365996",
+    "A365998",
+    "A366000",
+    "A366002",
+    "A366004",
+    "A366006",
+    "A366008",
+    "A366010",
+    "A366335",
+    "A366339",
+    "A366341",
+    "A366766",
+    "A366768"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

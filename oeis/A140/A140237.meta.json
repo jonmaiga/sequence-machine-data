@@ -1,5 +1,5 @@
 {
-  "description": "A number n is included if (sum{k=1 to n} d(k)) is divisible by d(n), where d(n) is the number of positive divisors of n.",
+  "description": "A number n is included if (Sum_{k=1..n} d(k)) is divisible by d(n), where d(n) is the number of positive divisors of n.",
   "id": "A140237",
   "mentions": [
     "A000005",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,14 +1,16 @@
 {
-  "description": "Prime numbers n having the following additional property: There exists an integer k>n such that the sum of all primes <= n equals the sum of all primes between n+1 and k.",
+  "description": "Prime numbers p for which there exists an integer q > p such that the sum of all primes <= p equals the sum of all primes between p+1 and q.",
   "id": "A089895",
-  "mentions": [],
+  "mentions": [
+    "A034387"
+  ],
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 3,
     "source": "oeis-entry"
   }

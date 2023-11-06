@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x^k(1+x^(k+1))/(1-x^(k+1)).",
+  "description": "Expansion of g.f. x^k(1+x^(k+1))/(1-x^(k+1)).",
   "id": "A114002",
   "mentions": [
     "A051731",

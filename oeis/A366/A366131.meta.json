@@ -1,0 +1,29 @@
+{
+  "description": "Number of subsets of {1..n} with two elements (possibly equal) summing to n.",
+  "id": "A366131",
+  "mentions": [
+    "A008967",
+    "A068911",
+    "A088809",
+    "A093971",
+    "A117855",
+    "A167762",
+    "A167936",
+    "A238628",
+    "A364534",
+    "A365376",
+    "A365377",
+    "A365381",
+    "A365541",
+    "A365544"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

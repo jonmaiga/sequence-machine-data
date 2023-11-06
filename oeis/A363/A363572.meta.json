@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms > 0 such that the concatenation of the rightmost digit of a(n) and the leftmost digit of a(n+1) forms a prime number. The rightmost digit of a(n) cannot be 0.",
+  "id": "A363572",
+  "mentions": [
+    "A152607"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

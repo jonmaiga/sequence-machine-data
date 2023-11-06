@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of distinct values of the sum of i*(i-1) over n realizations of i in 0..k",
+  "description": "T(n,k) = Number of distinct values of the sum of i*(i-1) over n realizations of i in 0..k.",
   "id": "A225281",
   "mentions": [
     "A225288"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the expected end time of a game with three gamblers, one of which starts with capital n, the others with capital 1 each. The end time, rounded to the nearest integer, is given for games in which one of the two poor players wins.",
+  "id": "A366566",
+  "mentions": [
+    "A366166",
+    "A366567",
+    "A366995",
+    "A366996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

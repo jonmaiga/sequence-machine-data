@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime that is the concatenation of n squares, where the concatenations of the last k of these squares are prime for 2 <= k <= n.",
+  "id": "A364369",
+  "mentions": [
+    "A167535",
+    "A364359"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimum of A000120(k)*A000120(A071904(n)/k) for divisors k of the n-th odd composite number A071904(n) other than 1 and A071904(n).",
+  "id": "A365476",
+  "mentions": [
+    "A000051",
+    "A000120",
+    "A071904",
+    "A349494"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

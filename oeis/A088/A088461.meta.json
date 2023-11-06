@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n)=ceiling((n-a(a(a(n-1))))/2).",
+  "description": "a(1) = 1, a(n) = ceiling((n-a(a(a(n-1))))/2).",
   "id": "A088461",
   "mentions": [
     "A005374"

@@ -1,11 +1,12 @@
 {
-  "description": "Smallest number k such that k^2 - 1 has n distinct prime factors.",
+  "description": "Smallest number k such that k^2 - 1 has exactly n distinct prime factors.",
   "id": "A219017",
   "mentions": [
     "A180278"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

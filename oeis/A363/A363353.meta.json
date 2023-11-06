@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 10^k + 3 is a semiprime.",
+  "id": "A363353",
+  "mentions": [
+    "A001358",
+    "A049054",
+    "A363352"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

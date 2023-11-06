@@ -1,5 +1,5 @@
 {
-  "description": "Number of (5+2)X(n+2) 0..2 arrays with no increasing sequence of length 3 horizontally or antidiagonally downwards",
+  "description": "Number of (5+2) X (n+2) 0..2 arrays with no increasing sequence of length 3 horizontally or antidiagonally downwards.",
   "id": "A233502",
   "mentions": [
     "A233497"

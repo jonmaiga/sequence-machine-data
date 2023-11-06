@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the length of the longest word w in the Thue-Morse sequence (A010060) in which every length-n factor of w is unique.",
+  "id": "A365624",
+  "mentions": [
+    "A005942",
+    "A010060",
+    "A366408"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum of distinct positive cubes.",
+  "description": "Sums of distinct positive cubes.",
   "id": "A003997",
   "mentions": [
     "A001476",

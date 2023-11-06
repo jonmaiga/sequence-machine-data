@@ -1,13 +1,17 @@
 {
   "description": "(2,3)-imperfect numbers.",
   "id": "A206367",
-  "mentions": [],
+  "mentions": [
+    "A127725",
+    "A206369"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

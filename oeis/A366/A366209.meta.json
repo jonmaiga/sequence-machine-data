@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose median of the digits is equal to 3.",
+  "id": "A366209",
+  "mentions": [
+    "A292730",
+    "A292739",
+    "A366207",
+    "A366208",
+    "A366210",
+    "A366211",
+    "A366212",
+    "A366213",
+    "A366214"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

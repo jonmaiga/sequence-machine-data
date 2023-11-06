@@ -5,15 +5,15 @@
     "A000945",
     "A000946",
     "A005265",
-    "A005266"
+    "A005266",
+    "A020639"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

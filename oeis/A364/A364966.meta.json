@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the solution to exp(-x^2) = x.",
+  "id": "A364966",
+  "mentions": [
+    "A196515",
+    "A202498",
+    "A299624"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

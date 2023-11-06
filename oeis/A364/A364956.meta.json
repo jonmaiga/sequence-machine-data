@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A163511(k) is either k itself or its descendant in Doudna-tree, A005940 (or equally, in A163511-tree).",
+  "id": "A364956",
+  "mentions": [
+    "A003961",
+    "A005940",
+    "A029744",
+    "A156552",
+    "A163511",
+    "A252464",
+    "A364954",
+    "A364955",
+    "A364960"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

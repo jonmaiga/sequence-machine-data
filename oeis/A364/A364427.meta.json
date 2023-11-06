@@ -1,0 +1,13 @@
+{
+  "description": "Number of order-7 ribbon tilings for a 7 X n strip.",
+  "id": "A364427",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

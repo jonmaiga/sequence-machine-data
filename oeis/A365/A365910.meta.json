@@ -1,0 +1,17 @@
+{
+  "description": "Minimum number of parts in a partition of all 4-subsets of an n-element set such that the intersection of any two subsets from the same part has size at most 1.",
+  "id": "A365910",
+  "mentions": [
+    "A004037"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

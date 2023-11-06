@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that the sum of digits of k! is a square.",
   "id": "A066235",
-  "mentions": [],
+  "mentions": [
+    "A004152"
+  ],
   "tags": [
     "base",
     "nonn"

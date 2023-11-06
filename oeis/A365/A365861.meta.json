@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 4; for n > 1, a(n) is the first semiprime k not yet listed such that |k - a(n-1)| and k + a(n-1) are also semiprimes.",
+  "id": "A365861",
+  "mentions": [
+    "A001358"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

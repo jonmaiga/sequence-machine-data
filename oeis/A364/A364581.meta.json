@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the number of iterations of psi(phi(x)) starting at x = k and terminating when psi(phi(x)) = x (k is counted), -1 otherwise is the same for phi(psi(k)).",
+  "id": "A364581",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A364631",
+    "A364642"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

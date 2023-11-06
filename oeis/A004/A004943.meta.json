@@ -1,8 +1,12 @@
 {
-  "description": "Nearest integer to n*phi^8, where phi is the golden ratio, A001622.",
+  "description": "a(n) = round(n*phi^8), where phi is the golden ratio, A001622.",
   "id": "A004943",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A004939",
+    "A004940",
+    "A004941",
+    "A004942"
   ],
   "tags": [
     "nonn"
@@ -10,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

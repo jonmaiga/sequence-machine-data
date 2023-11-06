@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers k such that k^2 - 1 is a powerful number.",
+  "id": "A365983",
+  "mentions": [
+    "A000466",
+    "A001694",
+    "A060860",
+    "A076445",
+    "A094835"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

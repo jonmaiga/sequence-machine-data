@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number k such that the number of distinct prime divisors of the n numbers from k through k+n-1 are in nondescending order.",
+  "id": "A364805",
+  "mentions": [
+    "A001221",
+    "A075046",
+    "A286287",
+    "A364804"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

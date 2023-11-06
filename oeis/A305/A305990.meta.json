@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: (1+x) / (exp(-x) - x).",
+  "description": "Expansion of e.g.f.: (1+x) / (exp(-x) - x).",
   "id": "A305990",
   "mentions": [
     "A006153",

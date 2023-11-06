@@ -1,8 +1,9 @@
 {
-  "description": "Minimum value unattainable as the sum of 3 attained values of a*b with a,b 0..n integers",
+  "description": "Minimum value unattainable as the sum of 3 attained values of a*b with a,b 0..n integers.",
   "id": "A225257",
   "mentions": [
-    "A225252"
+    "A225252",
+    "A225254"
   ],
   "tags": [
     "nonn"

@@ -2,6 +2,7 @@
   "description": "Number of n-bead necklaces with n+1 colors, divided by (n+1), for n>0, with a(0)=1.",
   "id": "A121774",
   "mentions": [
+    "A000010",
     "A056665",
     "A121773",
     "A152290"
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

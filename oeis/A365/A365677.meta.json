@@ -1,0 +1,19 @@
+{
+  "description": "Number of increasing geometric progressions in {1,2,3,...,n} with rational ratio and length >= 3.",
+  "id": "A365677",
+  "mentions": [
+    "A000010",
+    "A051336",
+    "A078651",
+    "A366471"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

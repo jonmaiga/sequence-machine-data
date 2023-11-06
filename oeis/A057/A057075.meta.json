@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals of T(n,k)=floor[n^n/k] with n,k >= 1.",
+  "description": "Table read by antidiagonals of T(n,k)=floor(n^n/k) with n,k >= 1.",
   "id": "A057075",
   "mentions": [
     "A000007",
@@ -9,7 +9,8 @@
     "A033347",
     "A057065",
     "A057066",
-    "A057074"
+    "A057074",
+    "A060155"
   ],
   "tags": [
     "nonn",
@@ -17,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
-    "source": "joeis"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

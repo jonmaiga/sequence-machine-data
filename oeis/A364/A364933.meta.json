@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A191898(n,k)*[A191904(n,k) = A191898(n,k)].",
+  "id": "A364933",
+  "mentions": [
+    "A008472",
+    "A057859",
+    "A191898",
+    "A191904"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

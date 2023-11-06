@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which maxima of function log(n)/log(N[a,n-a,n]) occurs for two or more different values of a, (a < n-a, function N[a,n-a,n] is the squarefree kernel of a*(n-a)*n and gcd[a,n-a,n]=1).",
+  "description": "Numbers k for which maxima of the function log(k)/log(N(a, k-a, k)) occurs for two or more distinct values of a. (a < k-a, function N(a, k-a, k) is the squarefree kernel of a*(k-a)*k and gcd(a, k-a, k) = 1.)",
   "id": "A172120",
   "mentions": [
     "A007947",

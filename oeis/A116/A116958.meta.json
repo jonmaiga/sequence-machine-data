@@ -2,7 +2,8 @@
   "description": "Numbers k such that 2*k + 5 and 2*k + 7 are twin primes.",
   "id": "A116958",
   "mentions": [
-    "A002822"
+    "A002822",
+    "A014574"
   ],
   "tags": [
     "formulas",

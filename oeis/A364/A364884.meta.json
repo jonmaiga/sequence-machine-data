@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n, k), n > 0, k = 1..n, read by rows; T(1, 1) = 1, and for n > 1, k = 1..n, T(n, k) is the least unseen multiple of the k-th term of the flattened sequence .",
+  "id": "A364884",
+  "mentions": [
+    "A361748",
+    "A364885",
+    "A364887"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

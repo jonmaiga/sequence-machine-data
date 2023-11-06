@@ -1,5 +1,5 @@
 {
-  "description": "Successive maxima in sequence A065925.",
+  "description": "Records in A065925.",
   "id": "A065927",
   "mentions": [
     "A065925",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

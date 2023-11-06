@@ -2,9 +2,12 @@
   "description": "Number of closed walks of length n at a base vertex of a truncated tetrahedron (triangular prism).",
   "id": "A094554",
   "mentions": [
+    "A002001",
+    "A025192",
     "A094555",
     "A094556",
-    "A102518"
+    "A102518",
+    "A328778"
   ],
   "tags": [
     "easy",

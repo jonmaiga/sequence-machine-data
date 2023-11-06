@@ -1,0 +1,23 @@
+{
+  "description": "The number of \"Fermi-Dirac primes\" (A050376) that are unitary divisors of n.",
+  "id": "A366074",
+  "mentions": [
+    "A050376",
+    "A064547",
+    "A077610",
+    "A077761",
+    "A209229",
+    "A293439",
+    "A366073"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

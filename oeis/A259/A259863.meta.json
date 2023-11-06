@@ -2,6 +2,7 @@
   "description": "Number of rooted highly irregular trees with n nodes.",
   "id": "A259863",
   "mentions": [
+    "A003609",
     "A259864"
   ],
   "tags": [

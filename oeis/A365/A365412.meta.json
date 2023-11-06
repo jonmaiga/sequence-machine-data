@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma(6*n+2). Sum of the divisors of 6*n+2, n >= 0.",
+  "id": "A365412",
+  "mentions": [
+    "A000203",
+    "A016933",
+    "A098098",
+    "A224613",
+    "A239660",
+    "A363031",
+    "A365442"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

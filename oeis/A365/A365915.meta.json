@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1 / ( 1 - Sum_{k>=0} x^(2*k+5) / (2*k+5)! ).",
+  "id": "A365915",
+  "mentions": [
+    "A006154",
+    "A245790",
+    "A332258",
+    "A365896",
+    "A365916",
+    "A365917"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

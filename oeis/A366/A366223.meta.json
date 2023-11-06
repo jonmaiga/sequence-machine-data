@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled biconnected graphs on n vertices without 4-cycles or 5-cycles.",
+  "id": "A366223",
+  "mentions": [
+    "A366220"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

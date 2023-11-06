@@ -1,5 +1,5 @@
 {
-  "description": "Vandermonde determinant of the first n numbers (1,3,4,6,7,9,10,...)=(j+floor(j/2)).",
+  "description": "Vandermonde determinant of the first n numbers (1,3,4,6,7,9,10,...) = (j+floor(j/2)).",
   "id": "A203430",
   "mentions": [
     "A000178",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 12,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

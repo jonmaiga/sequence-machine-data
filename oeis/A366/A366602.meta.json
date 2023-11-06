@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of 4^n-1.",
+  "id": "A366602",
+  "mentions": [
+    "A000005",
+    "A024036",
+    "A057957",
+    "A366575",
+    "A366603"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

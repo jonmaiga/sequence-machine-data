@@ -1,14 +1,19 @@
 {
   "description": "a(3*n) = 8*n+2, a(3*n+1) = 2*n+1, a(3*n+2) = 8*n+6.",
   "id": "A173773",
-  "mentions": [],
+  "mentions": [
+    "A005408",
+    "A017089",
+    "A017137"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 60,
+    "size": 63,
     "source": "joeis"
   }
 }

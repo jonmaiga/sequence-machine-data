@@ -1,0 +1,29 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A365425(i) = A365425(j), A206787(A163511(i)) = A206787(A163511(j)) and A336651(A163511(n)) = A336651(A163511(j)) for all i, j >= 0.",
+  "id": "A366891",
+  "mentions": [
+    "A000265",
+    "A000593",
+    "A046523",
+    "A163511",
+    "A206787",
+    "A336651",
+    "A347385",
+    "A351040",
+    "A351461",
+    "A365395",
+    "A365425",
+    "A366806",
+    "A366874",
+    "A366881"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

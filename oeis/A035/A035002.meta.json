@@ -1,5 +1,5 @@
 {
-  "description": "Square array a(m,n) read by antidiagonals, where a(m,n) = sum(a(m-k,n), k=1..m-1) + sum(a(m,n-k), k=1..n-1).",
+  "description": "Square array read by antidiagonals: T(m,n) = Sum_{k=1..m-1} T(m-k,n) + Sum_{k=1..n-1} T(m,n-k).",
   "id": "A035002",
   "mentions": [
     "A011782",

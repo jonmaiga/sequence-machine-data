@@ -1,13 +1,18 @@
 {
-  "description": "Expansion of Product (1-x^k )^32.",
+  "description": "Expansion of Product_{k>=1} (1-x^k)^32.",
   "id": "A010837",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A082557",
+    "A286354"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

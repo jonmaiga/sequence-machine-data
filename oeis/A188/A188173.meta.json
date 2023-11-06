@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree numbers n such that the equation x^2 = n (mod 10^k) has solutions for all k > 0.",
+  "description": "Squarefree numbers m such that the equation x^2 == m (mod 10^k) has solutions for all k > 0.",
   "id": "A188173",
   "mentions": [
     "A187719"

@@ -1,0 +1,19 @@
+{
+  "description": "Starts of run of 3 consecutive integers that are terms of A365883.",
+  "id": "A365885",
+  "mentions": [
+    "A017101",
+    "A365883",
+    "A365884",
+    "A365891"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

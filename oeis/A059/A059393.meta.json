@@ -1,5 +1,5 @@
 {
-  "description": "Smallest possible sum of n positive integers g(1) < g(2) < ... < g(n) such that A001222(g(i)+g(j))=A001222(g(i))+A001222(g(j)) for all 1<=i",
+  "description": "Smallest possible sum of n positive integers g(1) < g(2) < ... < g(n) such that A001222(g(i)+g(j)) = A001222(g(i)) + A001222(g(j)) for all 1<=i",
   "id": "A059393",
   "mentions": [
     "A001222",

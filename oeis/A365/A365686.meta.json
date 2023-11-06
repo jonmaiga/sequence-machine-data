@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there exists a pair of integers (m,h) where 1 <= m < floor(sqrt(k)/2) <= h that satisfy Sum_{j=0..m} (k-j)^2 = Sum_{i=1..m} (h+i)^2.",
+  "id": "A365686",
+  "mentions": [
+    "A000290",
+    "A002378",
+    "A046092",
+    "A233035"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

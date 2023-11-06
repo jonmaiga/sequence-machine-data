@@ -1,9 +1,11 @@
 {
-  "description": "2^(k-1)-2^(j-1), where (2^(k-1),2^(j-1)) is the least pair of distinct positive powers of 2 for which n divides 2^(k-1)-2^(j-1).",
+  "description": "a(n) = 2^(k-1)-2^(j-1), where (2^(k-1),2^(j-1)) is the least pair of distinct positive powers of 2 for which n divides 2^(k-1)-2^(j-1).",
   "id": "A204983",
   "mentions": [
+    "A000079",
     "A007733",
     "A007814",
+    "A173787",
     "A204892",
     "A204979",
     "A204984"

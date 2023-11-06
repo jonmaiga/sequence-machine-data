@@ -1,0 +1,19 @@
+{
+  "description": "The Thue-Morse sequence along the sequence of cubes.",
+  "id": "A365089",
+  "mentions": [
+    "A000578",
+    "A010060",
+    "A228039"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

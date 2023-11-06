@@ -1,5 +1,5 @@
 {
-  "description": "Integer radii of the circles around (0,0) that contain record numbers of lattice points.",
+  "description": "Radii of the circles around (0,0) that contain record numbers of lattice points, rounded up to the next integer.",
   "id": "A071384",
   "mentions": [
     "A046109",

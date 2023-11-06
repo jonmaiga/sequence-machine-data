@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared whose string value contains all the distinct prime factors of a(n-1). Overlapping factor strings is allowed.",
+  "id": "A365500",
+  "mentions": [
+    "A027746",
+    "A027748",
+    "A064413",
+    "A365703"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of representations of n as the sum of a prime number and a fourth power of a nonnegative integer.",
+  "id": "A365126",
+  "mentions": [
+    "A002471",
+    "A302354",
+    "A365127",
+    "A365166",
+    "A365167"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 119,
+    "source": "oeis-entry"
+  }
+}

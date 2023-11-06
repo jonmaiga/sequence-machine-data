@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct nonnegative integers such that for any k > 0, the k-th binary digit in the even bisection is different from the k-th binary digit in the odd bisection.",
+  "id": "A366062",
+  "mentions": [
+    "A333010"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

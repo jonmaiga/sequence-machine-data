@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(2n-1) < phi(2n), where phi is Euler's totient function A000010.",
+  "description": "Numbers k such that phi(2k-1) < phi(2k), where phi is Euler's totient function A000010.",
   "id": "A001836",
   "mentions": [
     "A000010",

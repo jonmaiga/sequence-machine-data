@@ -1,5 +1,5 @@
 {
-  "description": "Even coefficients in expansion of cos(x)/sqrt(cos(2*x)).",
+  "description": "Even coefficients in expansion of e.g.f. cos(x)/sqrt(cos(2*x)).",
   "id": "A012085",
   "mentions": [],
   "tags": [

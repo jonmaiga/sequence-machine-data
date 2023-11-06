@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of full graphs on n unlabeled vertices (see comments for definition of full graph).",
+  "id": "A364208",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

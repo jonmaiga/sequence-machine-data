@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A336466(i) = A336466(j) and A336467(i) = A336467(j) for all i, j >= 1, where A336466 is fully multiplicative with a(p) = oddpart(p-1) for any prime p and A336467 is fully multiplicative with a(2) = 1 and a(p) = oddpart(p+1) for odd primes p.",
+  "id": "A366381",
+  "mentions": [
+    "A000265",
+    "A003602",
+    "A336466",
+    "A336467",
+    "A365466",
+    "A365467",
+    "A366380"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

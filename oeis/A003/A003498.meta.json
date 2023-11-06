@@ -1,13 +1,19 @@
 {
-  "description": "Internal energy series for f.c.c. lattice.",
+  "description": "High temperature series for internal energy for spherical model on f.c.c. lattice.",
   "id": "A003498",
-  "mentions": [],
+  "mentions": [
+    "A003495",
+    "A003496",
+    "A003497",
+    "A047712"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

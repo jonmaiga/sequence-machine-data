@@ -2,7 +2,6 @@
   "description": "Binomial transform of A339399(n).",
   "id": "A350325",
   "mentions": [
-    "A339339",
     "A339399"
   ],
   "tags": [

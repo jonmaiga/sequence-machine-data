@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x^3*A(x)^5*(1 + x*A(x)).",
+  "id": "A365726",
+  "mentions": [
+    "A308616",
+    "A365695",
+    "A365723",
+    "A365724",
+    "A365725"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

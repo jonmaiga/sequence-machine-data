@@ -2,7 +2,9 @@
   "description": "Decimal expansion of 2 + phi, with the golden section phi from A001622.",
   "id": "A296184",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A094214",
+    "A104457"
   ],
   "tags": [
     "cons",

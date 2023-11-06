@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of coefficients in asymptotic expansion of (2/Pi)*Integral_{0..inf} (sin x / x)^n dx.",
+  "description": "Numerators of coefficients in asymptotic expansion of (2/Pi)*Integral_{0..oo} (sin x / x)^n dx.",
   "id": "A002304",
   "mentions": [
     "A002297",

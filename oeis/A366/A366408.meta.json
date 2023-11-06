@@ -1,0 +1,18 @@
+{
+  "description": "Starting index in the Thue-Morse sequence (A010060) of the first maximum length block in which every subword of length n is distinct.",
+  "id": "A366408",
+  "mentions": [
+    "A005942",
+    "A010060",
+    "A334227",
+    "A365624"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

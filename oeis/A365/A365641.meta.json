@@ -1,0 +1,16 @@
+{
+  "description": "The minimum number of ways to label each triangle of a triangulation of an n-gon with one of its vertices so that different triangles get different labels (minimum taken over all triangulations).",
+  "id": "A365641",
+  "mentions": [
+    "A089187"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

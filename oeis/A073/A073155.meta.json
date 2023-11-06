@@ -2,9 +2,13 @@
   "description": "Leftmost column sequence of triangle A073153.",
   "id": "A073155",
   "mentions": [
+    "A052709",
     "A073153",
     "A073156",
-    "A073157"
+    "A073157",
+    "A360076",
+    "A360082",
+    "A360083"
   ],
   "tags": [
     "easy",
@@ -14,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

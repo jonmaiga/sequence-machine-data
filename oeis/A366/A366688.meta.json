@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of 11^n+1.",
+  "id": "A366688",
+  "mentions": [
+    "A000005",
+    "A034524",
+    "A344897",
+    "A366683",
+    "A366687",
+    "A366689"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -7,11 +7,12 @@
     "A203310"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 11,
-    "source": "joeis"
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

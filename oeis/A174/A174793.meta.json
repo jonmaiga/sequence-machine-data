@@ -1,7 +1,8 @@
 {
-  "description": "Triangle read by rows: R(n,k)=n mod 2^Omega(k), where Omega( ) is number of prime divisors counted with multiplicity and 1 <= k <= n.",
+  "description": "Triangle read by rows: R(n,k) = n mod 2^Omega(k), where Omega( ) is number of prime divisors counted with multiplicity and 1 <= k <= n.",
   "id": "A174793",
   "mentions": [
+    "A001222",
     "A174624"
   ],
   "tags": [

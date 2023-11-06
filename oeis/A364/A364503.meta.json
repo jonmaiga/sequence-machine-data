@@ -1,0 +1,19 @@
+{
+  "description": "Sprague-Grundy values for Heat-Charge Toggle on paths from A364489 where paths with an even number of vertices are odious, or paths with an odd number of vertices are evil.",
+  "id": "A364503",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A363934",
+    "A364489"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

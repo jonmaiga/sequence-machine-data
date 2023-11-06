@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; thereafter extend the sequence by appending its nonincreasing run transform, recompute the nonincreasing run transform, append it, and so on.",
+  "id": "A365836",
+  "mentions": [
+    "A306211",
+    "A365838"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

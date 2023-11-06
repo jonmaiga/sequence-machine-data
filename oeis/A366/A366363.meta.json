@@ -1,0 +1,25 @@
+{
+  "description": "G.f. satisfies A(x) = (1 + x/A(x))/(1 - x).",
+  "id": "A366363",
+  "mentions": [
+    "A346626",
+    "A349310",
+    "A349311",
+    "A349312",
+    "A349313",
+    "A349314",
+    "A366356",
+    "A366364",
+    "A366365",
+    "A366366"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

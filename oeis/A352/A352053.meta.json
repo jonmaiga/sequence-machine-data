@@ -2,7 +2,11 @@
   "description": "Sum of the 7th powers of the divisor complements of the odd proper divisors of n.",
   "id": "A352053",
   "mentions": [
+    "A000035",
+    "A006519",
+    "A013666",
     "A091954",
+    "A321811",
     "A352047",
     "A352048",
     "A352049",
@@ -14,12 +18,13 @@
     "A352056"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

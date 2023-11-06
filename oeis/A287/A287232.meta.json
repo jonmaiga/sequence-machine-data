@@ -1,14 +1,16 @@
 {
   "description": "Number of independent vertex sets and vertex covers in the n-tetrahedral graph.",
   "id": "A287232",
-  "mentions": [],
+  "mentions": [
+    "A323293"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 6,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

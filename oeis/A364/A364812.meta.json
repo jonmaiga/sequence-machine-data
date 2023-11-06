@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of generalized binomial coefficients T(n,k) = ff(n)/(ff(k)*ff(n-k)) where ff(n) = A363838(n), the generalized factorial.",
+  "id": "A364812",
+  "mentions": [
+    "A007318",
+    "A363838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

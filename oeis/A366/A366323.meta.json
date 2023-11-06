@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that (k*3^k - 1)/2 is a prime.",
+  "id": "A366323",
+  "mentions": [
+    "A242274"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

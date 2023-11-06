@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (-1 + Product_{k>=1} 1 / (1 + (-x)^k))^2.",
+  "description": "Expansion of g.f.: (-1 + Product_{k>=1} 1 / (1 + (-x)^k))^2.",
   "id": "A338463",
   "mentions": [
     "A000700",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 2,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

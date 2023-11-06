@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that have at least one prime digit and at least one nonprime digit.",
+  "id": "A365589",
+  "mentions": [
+    "A085556",
+    "A118950",
+    "A365472"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

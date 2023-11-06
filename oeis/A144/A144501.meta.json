@@ -2,7 +2,8 @@
   "description": "Main diagonal of array in A144502.",
   "id": "A144501",
   "mentions": [
-    "A144502"
+    "A144502",
+    "A144503"
   ],
   "tags": [
     "formulas",

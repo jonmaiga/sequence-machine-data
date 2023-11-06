@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the divisors of 4^n-1.",
+  "id": "A366603",
+  "mentions": [
+    "A000203",
+    "A024036",
+    "A057957",
+    "A366576",
+    "A366602"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

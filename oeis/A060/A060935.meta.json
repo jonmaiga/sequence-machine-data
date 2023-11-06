@@ -2,10 +2,12 @@
   "description": "Sum of entries in n-th antidiagonal in A060854.",
   "id": "A060935",
   "mentions": [
-    "A060854"
+    "A060854",
+    "A074962"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least integer that can be expressed as the sum of a prime number and the n-th power of a positive integer in exactly n ways, or -1 if no such integer exists.",
+  "id": "A365505",
+  "mentions": [
+    "A064283",
+    "A365290",
+    "A365292",
+    "A365504"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

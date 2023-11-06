@@ -1,10 +1,10 @@
 {
-  "description": "Union of even squarefree numbers (A001747) and squarefree numbers for which the number of prime factors is even (A030229).",
+  "description": "Union of even squarefree numbers (A039956) and squarefree numbers for which the number of prime factors is even (A030229).",
   "id": "A080324",
   "mentions": [
-    "A001747",
     "A008683",
     "A030229",
+    "A039956",
     "A056912",
     "A080323"
   ],
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

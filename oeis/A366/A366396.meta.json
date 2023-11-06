@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled directed graphs on [n] with self loops allowed such that the following implication holds for all x,y in [n]. If x and y are in distinct strongly connected components and y is reachable from x then there is a directed edge from x to y.",
+  "id": "A366396",
+  "mentions": [
+    "A001025",
+    "A001035",
+    "A003030",
+    "A366350"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

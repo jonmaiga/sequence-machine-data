@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) is the largest taxicab distance on a square spiral between any two previous occurrences of a(n-1). If a(n-1) has not previously occurred then a(n) = 0.",
+  "id": "A366354",
+  "mentions": [
+    "A214526",
+    "A366353"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

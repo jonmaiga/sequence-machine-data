@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of 2^(2n) into 2^n parts.",
+  "id": "A365881",
+  "mentions": [
+    "A000079",
+    "A000302",
+    "A008284",
+    "A327483"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,13 @@
   "description": "Number of Sylvester classes of 3-packed words of degree n.",
   "id": "A243659",
   "mentions": [
+    "A002293",
     "A003168",
     "A336539",
-    "A336573"
+    "A336573",
+    "A349331",
+    "A364747",
+    "A364765"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime digits is nonprime.",
+  "description": "Numbers that have a nonprime number of prime digits.",
   "id": "A092629",
   "mentions": [
     "A019546"

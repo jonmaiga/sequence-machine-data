@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (A132188(n) - A362931(n))/2.",
+  "id": "A362933",
+  "mentions": [
+    "A132188",
+    "A362931",
+    "A362932"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

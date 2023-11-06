@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 6*k+1 is the norm of an Eisenstein prime.",
+  "id": "A364869",
+  "mentions": [
+    "A024702",
+    "A055664",
+    "A364868"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

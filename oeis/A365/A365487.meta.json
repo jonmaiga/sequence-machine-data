@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors of the largest cube dividing n.",
+  "id": "A365487",
+  "mentions": [
+    "A000005",
+    "A000578",
+    "A004709",
+    "A008834",
+    "A053150",
+    "A061704"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

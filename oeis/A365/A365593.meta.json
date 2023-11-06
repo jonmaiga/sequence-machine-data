@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n Boolean relation matrices such that every block of its Frobenius normal form is either a 0 block or a 1 block.",
+  "id": "A365593",
+  "mentions": [
+    "A003024",
+    "A355612",
+    "A365534",
+    "A365590",
+    "A366141"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

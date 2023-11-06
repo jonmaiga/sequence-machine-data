@@ -2,6 +2,8 @@
   "description": "Number of partitions of n into parts of sorts {1, 2, ... }.",
   "id": "A278644",
   "mentions": [
+    "A000670",
+    "A008284",
     "A040051",
     "A255970",
     "A258466"

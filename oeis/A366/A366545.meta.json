@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the value x for which the function Re(Gamma(-x + i*sqrt(1-x^2))) is minimized for -1 < x < 1.",
+  "id": "A366545",
+  "mentions": [
+    "A090986",
+    "A212877",
+    "A212878",
+    "A212879",
+    "A212880",
+    "A364355",
+    "A364356",
+    "A364821",
+    "A365317",
+    "A365318",
+    "A366345"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

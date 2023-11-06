@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k >= 0 such that Mordell's equation y^2 = k^3 + x*(x + 1)/2 has an integral solution for a pair (x >= 0, y >= 0).",
+  "id": "A365811",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000578",
+    "A054504"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

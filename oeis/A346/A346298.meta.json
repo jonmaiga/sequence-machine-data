@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest nonnegative number not yet in a(0..n-1) such that the sequence a(0..n) forms the starting row of an XOR-triangle with only distinct values in each row.",
+  "description": "a(n) is the smallest nonnegative number not in a(0..n-1) such that the sequence a(0..n) forms the starting row of an XOR-triangle with only distinct values in each row.",
   "id": "A346298",
   "mentions": [
     "A338047",

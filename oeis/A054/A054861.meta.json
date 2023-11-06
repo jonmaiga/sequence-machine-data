@@ -1,7 +1,8 @@
 {
-  "description": "Highest power of 3 dividing n!.",
+  "description": "Greatest k such that 3^k divides n!.",
   "id": "A054861",
   "mentions": [
+    "A000142",
     "A004128",
     "A007949",
     "A011371",

@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of permutations of [n] for which the difference between the longest and the shortest cycle length is k; triangle T(n,k), n>=0, 0<=k<=max(0,n-2), read by rows.",
+  "id": "A364967",
+  "mentions": [
+    "A000142",
+    "A001048",
+    "A005225",
+    "A126074",
+    "A145877",
+    "A364971",
+    "A365229"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

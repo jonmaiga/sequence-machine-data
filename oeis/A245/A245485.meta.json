@@ -1,7 +1,11 @@
 {
   "description": "a(n) = 1 if n is a square, -1 if n is seven times a square, 0 otherwise.",
   "id": "A245485",
-  "mentions": [],
+  "mentions": [
+    "A214293",
+    "A214295",
+    "A244612"
+  ],
   "tags": [
     "formulas",
     "mult",

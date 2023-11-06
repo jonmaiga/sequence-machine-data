@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = phi(6^n-1), where phi is Euler's totient function (A000010).",
+  "id": "A366623",
+  "mentions": [
+    "A000010",
+    "A024062",
+    "A295502"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

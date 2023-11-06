@@ -2,10 +2,12 @@
   "description": "Last n-digit string to appear as the first n digits of a positive power of 2.",
   "id": "A155699",
   "mentions": [
+    "A000079",
     "A155700"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

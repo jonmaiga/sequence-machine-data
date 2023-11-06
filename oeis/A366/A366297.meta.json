@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A359589(i) = A359589(j) for all i, j >= 1, where A359589 is Dirichlet inverse of function f(n) = (-1 + gcd(A003415(n), A276086(n))).",
+  "id": "A366297",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A305800",
+    "A327858",
+    "A359589",
+    "A359595",
+    "A366296"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

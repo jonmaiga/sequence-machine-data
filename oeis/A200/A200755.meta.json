@@ -1,8 +1,11 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^3 - x^2*A(x)^2.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^3 - x^2*A(x)^2.",
   "id": "A200755",
   "mentions": [
     "A000108",
+    "A104979",
+    "A137265",
+    "A200753",
     "A200754"
   ],
   "tags": [

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Pi/2 + 2/Pi.",
   "id": "A086118",
   "mentions": [
+    "A128463",
     "A336083",
     "A361605"
   ],

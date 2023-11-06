@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1-4*x)/((1-5*x)*(1-x)^2).",
+  "description": "Expansion of g.f.: (1-4*x)/((1-5*x)*(1-x)^2).",
   "id": "A094195",
   "mentions": [
     "A047926",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

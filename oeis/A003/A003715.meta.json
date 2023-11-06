@@ -1,7 +1,9 @@
 {
-  "description": "E.g.f. sin(sin(sin(x))) (odd powers only).",
+  "description": "Expansion of e.g.f. sin(sin(sin(x))) (odd powers only).",
   "id": "A003715",
-  "mentions": [],
+  "mentions": [
+    "A003712"
+  ],
   "tags": [
     "formulas",
     "sign"

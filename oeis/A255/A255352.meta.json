@@ -3,16 +3,16 @@
   "id": "A255352",
   "mentions": [
     "A018786",
-    "A255351"
+    "A255351",
+    "A366703"
   ],
   "tags": [
-    "more",
     "nonn",
     "unsolved"
   ],
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

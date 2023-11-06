@@ -1,5 +1,5 @@
 {
-  "description": "(( Primes == -1 mod 4 ) + 1)/4.",
+  "description": "(( Primes == -1 (mod 4) ) + 1)/4.",
   "id": "A005099",
   "mentions": [
     "A002145"

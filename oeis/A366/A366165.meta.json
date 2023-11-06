@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k > 0 such that 10^(2*n-1) - k can be written as a product j*m, where j and m have an equal number of decimal digits.",
+  "id": "A366165",
+  "mentions": [
+    "A002275",
+    "A003020",
+    "A004022",
+    "A057951",
+    "A067272",
+    "A327435"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

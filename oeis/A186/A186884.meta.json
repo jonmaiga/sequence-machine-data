@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^(n-1) = 1 + b*n (mod n^2), where b divides n-2^p for some integer p>=0 and 2^p<=b.",
+  "description": "Numbers k such that 2^(k-1) == 1 + b*k (mod k^2), where b divides k - 2^p for some integer p >= 0 and 2^p <= b.",
   "id": "A186884",
   "mentions": [
     "A000668",

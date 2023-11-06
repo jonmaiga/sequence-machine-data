@@ -2,6 +2,8 @@
   "description": "Smallest primitive abundant number or perfect number with 2^n as a factor.",
   "id": "A133814",
   "mentions": [
+    "A000079",
+    "A000203",
     "A014210"
   ],
   "tags": [

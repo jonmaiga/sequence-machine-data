@@ -1,7 +1,12 @@
 {
   "description": "Numbers n such that the sum of digits of n^n is a prime.",
   "id": "A066233",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000312",
+    "A007953",
+    "A066588"
+  ],
   "tags": [
     "base",
     "nonn"

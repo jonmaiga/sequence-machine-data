@@ -1,11 +1,12 @@
 {
-  "description": "The part of n left of the decimal point when written in base Pi.",
+  "description": "The part of n left of the radix point when written in base Pi using a greedy algorithm representation.",
   "id": "A344939",
   "mentions": [
     "A000796",
     "A007090",
     "A105116",
-    "A105424"
+    "A105424",
+    "A366721"
   ],
   "tags": [
     "base",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

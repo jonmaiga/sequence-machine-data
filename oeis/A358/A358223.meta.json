@@ -2,6 +2,7 @@
   "description": "Inverse Möbius transform of A181819, prime shadow function.",
   "id": "A358223",
   "mentions": [
+    "A014284",
     "A046523",
     "A181819"
   ],

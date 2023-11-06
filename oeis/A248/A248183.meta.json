@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that 1/4 - sum{1/(h*(h+1)*(h+2))}, h = 1..k} < 1/n^2.",
+  "description": "Least k such that 1/4 - Sum_{h = 1..k} 1/(h*(h+1)*(h+2)) < 1/n^2.",
   "id": "A248183",
   "mentions": [
     "A248184",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

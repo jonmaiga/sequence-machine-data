@@ -1,0 +1,19 @@
+{
+  "description": "Dedekind psi function applied to the odd part of n, permuted by A163511: a(n) = A347385(A163511(n)).",
+  "id": "A366885",
+  "mentions": [
+    "A001615",
+    "A163511",
+    "A324186",
+    "A347385",
+    "A366886"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n / gcd(n, A356867(n)).",
+  "id": "A365464",
+  "mentions": [
+    "A356867",
+    "A364501",
+    "A365462",
+    "A365463",
+    "A365465"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

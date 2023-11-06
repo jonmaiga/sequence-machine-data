@@ -1,5 +1,5 @@
 {
-  "description": "Numbers a(n) have a representation a(n) = x^2 + y^2 and x is least primitive root of a(n). a(n) is first such number with x increasing in the sequence, x can be found in A082843.",
+  "description": "Numbers k such that k = x^2 + y^2 where x is the least primitive root of k. k is the first such number with x increasing in the sequence, x can be found in A082843.",
   "id": "A082842",
   "mentions": [
     "A001481",

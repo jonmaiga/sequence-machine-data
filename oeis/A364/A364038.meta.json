@@ -1,15 +1,17 @@
 {
-  "description": "Table read by rows: n-th row gives lengths of square sections required to build all n-ominoes.",
+  "description": "Triangle read by rows: n-th row gives the number of pieces of size 1 X k required to build all free n-ominoes simultaneously, 1 <= k <= n. Long pieces are preferred over short ones.",
   "id": "A364038",
-  "mentions": [],
+  "mentions": [
+    "A000105"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
-    "tabf"
+    "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

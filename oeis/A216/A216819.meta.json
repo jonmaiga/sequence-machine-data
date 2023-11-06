@@ -1,7 +1,11 @@
 {
   "description": "Number of simply 8-connected polyominoes of site-perimeter n.",
   "id": "A216819",
-  "mentions": [],
+  "mentions": [
+    "A216818",
+    "A216820",
+    "A342537"
+  ],
   "tags": [
     "more",
     "nonn"

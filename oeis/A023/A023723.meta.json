@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with exactly 2 0's in base 5 expansion.",
+  "description": "Numbers with exactly 2 0's in their base 5 expansion.",
   "id": "A023723",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

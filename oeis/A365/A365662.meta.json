@@ -1,0 +1,40 @@
+{
+  "description": "Number of ordered pairs of disjoint strict integer partitions of n.",
+  "id": "A365662",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000124",
+    "A000244",
+    "A000302",
+    "A000712",
+    "A001255",
+    "A002219",
+    "A006827",
+    "A032302",
+    "A046663",
+    "A054440",
+    "A064914",
+    "A108796",
+    "A122768",
+    "A237258",
+    "A260664",
+    "A260669",
+    "A276024",
+    "A284640",
+    "A304792",
+    "A364272",
+    "A364349",
+    "A365661",
+    "A365663"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

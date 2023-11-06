@@ -1,16 +1,18 @@
 {
-  "description": "Number of 4-step king's tours on an n X n board summed over all starting positions",
+  "description": "Number of 4-step king's tours on an n X n board summed over all starting positions.",
   "id": "A186863",
   "mentions": [
-    "A186861"
+    "A186861",
+    "A186864"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangular array read by rows: T(n,k) = number of partitions p of n such that f(p) = k >= 0, where f is defined in Comments.",
+  "id": "A366525",
+  "mentions": [
+    "A000041",
+    "A003479",
+    "A062968"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

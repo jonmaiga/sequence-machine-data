@@ -1,0 +1,20 @@
+{
+  "description": "Let q = A246655(n) for n >= 2, then a(n) = (q - Kronecker(-4,q))/4 - 1.",
+  "id": "A366502",
+  "mentions": [
+    "A003463",
+    "A015518",
+    "A024698",
+    "A101455",
+    "A246655"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

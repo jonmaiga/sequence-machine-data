@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct quartic residues x^4 (mod 4^n), x=0..4^n-1.",
+  "id": "A365103",
+  "mentions": [
+    "A023105",
+    "A046631",
+    "A195637",
+    "A319281",
+    "A364811",
+    "A365104"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

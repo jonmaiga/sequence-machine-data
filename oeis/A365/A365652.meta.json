@@ -1,0 +1,20 @@
+{
+  "description": "Number of free n-polyominoids, allowing corner-connections only.",
+  "id": "A365652",
+  "mentions": [
+    "A075679",
+    "A365650",
+    "A365653",
+    "A366766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

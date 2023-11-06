@@ -1,5 +1,5 @@
 {
-  "description": "The length of the initial uninterrupted number of tau numbers in the chain defined by repeated subtraction of the number of divisors, starting with the n'th tau number.",
+  "description": "The length of the initial uninterrupted number of tau numbers in the chain defined by repeated subtraction of the number of divisors, starting with the n-th tau number.",
   "id": "A274468",
   "mentions": [
     "A033950",

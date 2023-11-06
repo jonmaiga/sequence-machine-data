@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of fractions m/n, 0 <= m < n, gcd(m,n) = 1 whose partial fraction decomposition has integer part 0.",
+  "id": "A365687",
+  "mentions": [
+    "A028236",
+    "A070306",
+    "A181629"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

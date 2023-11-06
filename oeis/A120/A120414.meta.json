@@ -1,12 +1,13 @@
 {
-  "description": "Conjectured Ramsey number R(n,n).",
+  "description": "a(0)=0, a(1)=1; thereafter a(n) = ceiling((3/2)^(n-3)*n*(n-1)).",
   "id": "A120414",
   "mentions": [
-    "A000791"
+    "A000791",
+    "A059442",
+    "A212954"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

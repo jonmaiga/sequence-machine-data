@@ -1,0 +1,18 @@
+{
+  "description": "Number of conjugacy classes in the group SL(2, Z_n), up to conjugacy in GL(2, Z_n).",
+  "id": "A364847",
+  "mentions": [
+    "A062354",
+    "A065501"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

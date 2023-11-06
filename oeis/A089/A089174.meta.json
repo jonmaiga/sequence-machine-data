@@ -1,15 +1,14 @@
 {
-  "description": "Unique prime factors in A007907 extended to modulo 10 (past 20 elements).",
+  "description": "A nonsense sequence (not well-defined).",
   "id": "A089174",
   "mentions": [
     "A007907"
   ],
   "tags": [
     "base",
-    "formulas",
+    "fini",
     "less",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

@@ -1,5 +1,5 @@
 {
-  "description": "Nearest integer to locations of increasingly large peaks of abs(zeta(0.5 + i*2*Pi/log(2)*t)) for increasing real t.",
+  "description": "Nearest integer to locations of increasingly large peaks of abs(zeta(0.5 + i*2*(Pi/log(2))*t)) for increasing real t.",
   "id": "A117536",
   "mentions": [
     "A054540",

@@ -1,0 +1,40 @@
+{
+  "description": "Number of strict integer partitions of n such that no part can be written as a (strictly) positive linear combination of the others.",
+  "id": "A365006",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A116861",
+    "A124506",
+    "A151897",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A275972",
+    "A363226",
+    "A364272",
+    "A364349",
+    "A364350",
+    "A364533",
+    "A364839",
+    "A364912",
+    "A364913",
+    "A364915",
+    "A364916",
+    "A365004",
+    "A365043",
+    "A365044",
+    "A365068",
+    "A365072"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

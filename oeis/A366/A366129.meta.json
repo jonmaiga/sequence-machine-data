@@ -1,0 +1,37 @@
+{
+  "description": "Number of finite sets of positive integers with greatest non-subset-sum n.",
+  "id": "A366129",
+  "mentions": [
+    "A006827",
+    "A046663",
+    "A126796",
+    "A188431",
+    "A276024",
+    "A284640",
+    "A304792",
+    "A325781",
+    "A325799",
+    "A365543",
+    "A365545",
+    "A365658",
+    "A365661",
+    "A365663",
+    "A365831",
+    "A365918",
+    "A365920",
+    "A365921",
+    "A365923",
+    "A365924",
+    "A365925",
+    "A366127"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

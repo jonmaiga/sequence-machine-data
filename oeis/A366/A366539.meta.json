@@ -1,0 +1,26 @@
+{
+  "description": "The sum of unitary divisors of the exponentially 2^n-numbers (A138302).",
+  "id": "A366539",
+  "mentions": [
+    "A034448",
+    "A034676",
+    "A049417",
+    "A077609",
+    "A077610",
+    "A138302",
+    "A271727",
+    "A366535",
+    "A366537",
+    "A366538"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

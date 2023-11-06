@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{k=1..n} A002720(k).",
+  "id": "A365269",
+  "mentions": [
+    "A002720",
+    "A289897"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

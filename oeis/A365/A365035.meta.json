@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x * (1 + x/A(x))).",
+  "id": "A365035",
+  "mentions": [
+    "A125500",
+    "A143768",
+    "A361090",
+    "A363354",
+    "A363529",
+    "A365036",
+    "A365037"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

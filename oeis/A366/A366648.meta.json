@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 4^k + 1 is a semiprime.",
+  "id": "A366648",
+  "mentions": [
+    "A001358",
+    "A004062",
+    "A062394",
+    "A092559"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

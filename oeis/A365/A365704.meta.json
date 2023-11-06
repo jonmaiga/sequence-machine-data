@@ -1,0 +1,17 @@
+{
+  "description": "Underline the digit immediately to the left of the center of each term (see the Comments section for the definition of \"center\"). This is the lexicographically earliest sequence of distinct integers > 9 such that the successive underlined digits duplicate the sequence itself, digit by digit.",
+  "id": "A365704",
+  "mentions": [
+    "A319718",
+    "A365705"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

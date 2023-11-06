@@ -1,0 +1,24 @@
+{
+  "description": "Powers of primorials P(k)^m, k > 1, m > 1, where P(k) = A002110(k).",
+  "id": "A365308",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A100778",
+    "A126706",
+    "A286708",
+    "A303606",
+    "A322793",
+    "A325374"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,13 +1,19 @@
 {
-  "description": "a(n) = Card(k 0",
+  "description": "a(n) = Cardinality{ k in range 1 <= k <= n such that Moebius(k) = -1 }.",
   "id": "A070549",
   "mentions": [
+    "A002321",
     "A008683",
+    "A013928",
+    "A030059",
     "A057627",
+    "A070548",
+    "A104141",
     "A252233"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

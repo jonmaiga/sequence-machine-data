@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least k such that Fibonacci(n)*Fibonacci(k) + 1 is a prime, and -1 if k does not exist.",
+  "description": "a(n) is the least k such that Fibonacci(n)*Fibonacci(k) + 1 is a prime, and -1 if no such k exists.",
   "id": "A362376",
   "mentions": [
     "A000040",

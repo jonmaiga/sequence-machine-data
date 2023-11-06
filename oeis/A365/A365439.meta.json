@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(floor(n/k)+4,5).",
+  "id": "A365439",
+  "mentions": [
+    "A006218",
+    "A024916",
+    "A064602",
+    "A064603",
+    "A064604",
+    "A073570",
+    "A364970",
+    "A365409"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

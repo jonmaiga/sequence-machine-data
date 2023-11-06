@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 36*n^2 - 810*n + 2753, listed in order of increasing parameter n >= 0.",
+  "description": "Primes of the form 36*k^2 - 810*k + 2753, listed in order of increasing parameter k >= 0.",
   "id": "A050268",
   "mentions": [
     "A022464",

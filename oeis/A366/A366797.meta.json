@@ -1,0 +1,20 @@
+{
+  "description": "Number of odd divisors permuted by A163511: a(n) = A001227(A163511(n)).",
+  "id": "A366797",
+  "mentions": [
+    "A001227",
+    "A163511",
+    "A324186",
+    "A366798",
+    "A366873"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that sigma(phi(n))=2n.",
+  "description": "Numbers m such that sigma(phi(m)) = 2*m.",
   "id": "A135239",
   "mentions": [
+    "A001229",
+    "A018784",
     "A135240"
   ],
   "tags": [

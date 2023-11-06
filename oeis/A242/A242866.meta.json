@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes of the form 2^(2^k) + 1 or 2^(2^k) + 2 for some k >= 0.",
+  "description": "Union of 2*A019434 and the semiprimes in A000215.",
   "id": "A242866",
   "mentions": [
     "A000215",

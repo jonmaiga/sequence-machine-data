@@ -1,7 +1,10 @@
 {
-  "description": "E.g.f: A(x) = f(x*A(x)), where f(x) = exp(x+x^2).",
+  "description": "E.g.f. satisfies A(x) = f(x*A(x)), where f(x) = exp(x+x^2).",
   "id": "A088695",
-  "mentions": [],
+  "mentions": [
+    "A143768",
+    "A362771"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

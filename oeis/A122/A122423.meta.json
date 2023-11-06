@@ -1,7 +1,10 @@
 {
   "description": "Number of unigraphic degree sequences among all graphs (connected or otherwise) on n vertices.",
   "id": "A122423",
-  "mentions": [],
+  "mentions": [
+    "A309757",
+    "A365548"
+  ],
   "tags": [
     "more",
     "nonn"

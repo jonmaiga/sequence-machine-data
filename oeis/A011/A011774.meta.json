@@ -1,5 +1,5 @@
 {
-  "description": "Nonprimes n that divide sigma(n) + phi(n).",
+  "description": "Nonprimes k that divide sigma(k) + phi(k).",
   "id": "A011774",
   "mentions": [
     "A001771",

@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of bijective base-3 reverse of n (A263273).",
+  "id": "A365803",
+  "mentions": [
+    "A030102",
+    "A263273",
+    "A323239",
+    "A365711",
+    "A365804"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

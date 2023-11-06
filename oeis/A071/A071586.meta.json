@@ -1,7 +1,15 @@
 {
   "description": "Powers of 8 written backwards.",
   "id": "A071586",
-  "mentions": [],
+  "mentions": [
+    "A004094",
+    "A004167",
+    "A071582",
+    "A071583",
+    "A071584",
+    "A071587",
+    "A071588"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

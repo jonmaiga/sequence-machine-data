@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits of tetrahedral numbers.",
+  "description": "Sum of digits of the n-th tetrahedral number.",
   "id": "A004160",
   "mentions": [
     "A000292",

@@ -1,0 +1,22 @@
+{
+  "description": "Number of digits left of the radix point of n when written in base Pi using a greedy algorithm representation.",
+  "id": "A366721",
+  "mentions": [
+    "A000796",
+    "A055642",
+    "A185679",
+    "A344939",
+    "A362692",
+    "A363832"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

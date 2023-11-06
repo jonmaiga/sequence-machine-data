@@ -1,0 +1,44 @@
+{
+  "description": "Number of integer partitions of n whose nonzero first differences are a submultiset of the parts.",
+  "id": "A364675",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A007862",
+    "A008284",
+    "A008289",
+    "A101925",
+    "A108917",
+    "A154402",
+    "A229816",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A237668",
+    "A320347",
+    "A325325",
+    "A342337",
+    "A363225",
+    "A363260",
+    "A364272",
+    "A364345",
+    "A364463",
+    "A364464",
+    "A364466",
+    "A364467",
+    "A364536",
+    "A364537",
+    "A364671",
+    "A364672",
+    "A364673"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

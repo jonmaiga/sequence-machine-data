@@ -2,6 +2,9 @@
   "description": "Sum of the 4th powers of the odd proper divisors of n.",
   "id": "A352032",
   "mentions": [
+    "A000035",
+    "A013663",
+    "A051001",
     "A091570",
     "A091954",
     "A351647",
@@ -14,12 +17,13 @@
     "A352038"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

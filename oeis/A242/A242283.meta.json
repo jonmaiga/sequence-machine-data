@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=0..n} (k!)^6 * StirlingS2(n,k)^3.",
+  "description": "a(n) = Sum_{k=0..n} (k!)^6 * StirlingS2(n,k)^3.",
   "id": "A242283",
   "mentions": [
     "A064618",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 12,
+    "source": "joeis"
   }
 }

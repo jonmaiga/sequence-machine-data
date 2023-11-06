@@ -1,14 +1,16 @@
 {
-  "description": "Numbers k such that the first k senary digits found in the decimal expansion of Pi form a prime.",
+  "description": "Numbers k such that the first k decimal digits < 6 of Pi, read as a base-6 number, form a prime.",
   "id": "A065574",
   "mentions": [],
   "tags": [
     "base",
+    "less",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

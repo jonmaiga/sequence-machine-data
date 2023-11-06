@@ -1,0 +1,26 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*(1+x)^(5/2)*A(x)^(7/2).",
+  "id": "A366496",
+  "mentions": [
+    "A001006",
+    "A366221",
+    "A366272",
+    "A366273",
+    "A366435",
+    "A366495",
+    "A366497",
+    "A366498",
+    "A366499",
+    "A366500",
+    "A366501"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

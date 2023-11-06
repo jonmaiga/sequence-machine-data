@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct values of the sum of 3 products of two 0..n integers",
+  "description": "Number of distinct values of the sum of 3 products of two 0..n integers.",
   "id": "A225254",
   "mentions": [
     "A225252"
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 47,
+    "offset": 0,
+    "size": 48,
     "source": "oeis-bfile"
   }
 }

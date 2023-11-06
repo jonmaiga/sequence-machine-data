@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=na(n-1)-(n-1)^2a(n-2), a(0)=1, a(1)=1.",
+  "description": "a(n) = n*a(n-1) - (n-1)^2*a(n-2), a(0)=1, a(1)=1.",
   "id": "A080171",
   "mentions": [],
   "tags": [

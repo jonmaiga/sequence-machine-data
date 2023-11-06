@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = number of degree n rational curves in the complex projective plane which satisfy an order 3n-1 local tangency constraint.",
+  "id": "A364973",
+  "mentions": [
+    "A353195"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

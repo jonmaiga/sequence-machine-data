@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the fixed point reached by the sum of divisors of n without multiplicity (with the convention a(1)=0).",
+  "description": "a(n) is the fixed point reached when the map x -> A008472(x) is iterated, starting from x = n, with the convention a(1)=0.",
   "id": "A075860",
   "mentions": [
     "A001359",

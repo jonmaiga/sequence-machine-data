@@ -1,0 +1,20 @@
+{
+  "description": "The \"double commas\" sequence, a variant of A121805. See the Comments and Example sections for detailed explanations.",
+  "id": "A365872",
+  "mentions": [
+    "A121805",
+    "A365873",
+    "A365874",
+    "A365875"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

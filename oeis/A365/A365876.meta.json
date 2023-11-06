@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of quadratic equations u*x^2 + v*x + w = 0 with distinct solution sets L != {}, integer coefficients u, v, w and GCD(u, v, w) = 1, where n = abs(u) + abs(v) + abs(w) and the sum of the solutions equals the product of the solutions.",
+  "id": "A365876",
+  "mentions": [
+    "A364384",
+    "A364385",
+    "A365877",
+    "A365892"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

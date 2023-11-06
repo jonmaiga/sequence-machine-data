@@ -1,0 +1,16 @@
+{
+  "description": "Trajectory of 578 under the map x -> A366144(x) (divide or multiply tau(x)).",
+  "id": "A366067",
+  "mentions": [
+    "A033950",
+    "A366144"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

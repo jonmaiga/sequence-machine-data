@@ -1,0 +1,27 @@
+{
+  "description": "Table read by antidiagonals upward: the n-th row gives the lexicographically earliest infinite B_n sequence starting from 0.",
+  "id": "A365515",
+  "mentions": [
+    "A001477",
+    "A002061",
+    "A025582",
+    "A051912",
+    "A347570",
+    "A365300",
+    "A365301",
+    "A365302",
+    "A365303",
+    "A365304",
+    "A365305"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

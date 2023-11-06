@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1; thereafter a(n) = A337136(n) + A337136(n-1).",
+  "id": "A366473",
+  "mentions": [
+    "A337136"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

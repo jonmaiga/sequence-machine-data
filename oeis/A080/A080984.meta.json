@@ -1,5 +1,5 @@
 {
-  "description": "Define b by b(1) = 1 and for n>1, b(n) = b(n-1)+1/(2+1/b(n-1)); sequence gives numerator of b(n).",
+  "description": "Define b by b(1) = 1 and for n > 1, b(n) = b(n-1) + 1/(2 + 1/b(n-1)); sequence gives numerator of b(n).",
   "id": "A080984",
   "mentions": [
     "A079269",

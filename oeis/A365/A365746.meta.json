@@ -1,0 +1,24 @@
+{
+  "description": "Table read by antidiagonals upward: T(n,k) is the number of binary strings of length k with the property that every substring of length A070939(n) is lexicographically earlier than the binary expansion of n; n, k >= 0.",
+  "id": "A365746",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A030190",
+    "A070939",
+    "A128588",
+    "A164316",
+    "A209972"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

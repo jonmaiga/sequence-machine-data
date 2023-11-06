@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x) - x^2*A(x)^5.",
+  "id": "A367030",
+  "mentions": [
+    "A182454",
+    "A343773",
+    "A367028",
+    "A367029"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

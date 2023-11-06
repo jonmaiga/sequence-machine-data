@@ -2,6 +2,7 @@
   "description": "Number of unlabeled rigid interval posets with n non-maximal and 2 maximal elements.",
   "id": "A194530",
   "mentions": [
+    "A138265",
     "A193344",
     "A218757"
   ],

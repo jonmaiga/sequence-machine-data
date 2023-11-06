@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of ways to write n = i^2 + 2*j^2 + 3*k^2 with i,j,k >= 0.",
+  "id": "A366091",
+  "mentions": [
+    "A028594",
+    "A055042"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} zeta(k)/k^2.",
+  "id": "A365959",
+  "mentions": [
+    "A231132",
+    "A256921"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

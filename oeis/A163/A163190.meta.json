@@ -2,7 +2,8 @@
   "description": "a(n) = Sum_{k=0..n} C(n,k)*sigma(n,k) for n>0 with a(0)=1.",
   "id": "A163190",
   "mentions": [
-    "A000203"
+    "A000203",
+    "A007318"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

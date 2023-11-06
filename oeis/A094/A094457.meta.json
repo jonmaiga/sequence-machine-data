@@ -1,10 +1,11 @@
 {
-  "description": "Greatest number strictly less than n with same factorization pattern.",
+  "description": "a(n) is the largest number k < n in a neighborhood of n defined by prime factorization, specifically, A127185(n,k) <= 2.",
   "id": "A094457",
   "mentions": [
     "A064802",
     "A094456",
-    "A094521"
+    "A094521",
+    "A127185"
   ],
   "tags": [
     "easy",

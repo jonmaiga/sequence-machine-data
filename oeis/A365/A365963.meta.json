@@ -1,0 +1,20 @@
+{
+  "description": "Let I(n) be the moment of inertia of the polyomino with binary code A246521(n+1) about an axis through its center of mass perpendicular to the plane of the polyomino, the polyomino having a unit point mass in the center of each of its cells. a(n) is I(n) times the number of cells of the polyomino.",
+  "id": "A365963",
+  "mentions": [
+    "A000105",
+    "A002415",
+    "A246521",
+    "A365964"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

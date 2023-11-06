@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that Sum_{k=1..p-1} q^2_p(k) == 0 (mod p), with q_p(k) a Fermat quotient.",
+  "id": "A365098",
+  "mentions": [
+    "A007540",
+    "A197632"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

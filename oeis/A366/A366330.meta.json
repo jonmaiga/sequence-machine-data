@@ -1,0 +1,18 @@
+{
+  "description": "Minimal numbers (with respect to division) with no coprime divisor shift.",
+  "id": "A366330",
+  "mentions": [
+    "A044135",
+    "A044516",
+    "A366219",
+    "A366251"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

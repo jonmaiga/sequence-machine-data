@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct primes such that the sequence of ratios (number of divisors of n that are coprime to these primes)/(number of divisors of n) has an asymptotic mean 1/2.",
+  "id": "A366642",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A035218",
+    "A366643"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

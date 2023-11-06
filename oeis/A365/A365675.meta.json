@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} p(k) where the p(k) are the partial sums of row n of A365676.",
+  "id": "A365675",
+  "mentions": [
+    "A000070",
+    "A365676"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

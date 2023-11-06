@@ -1,5 +1,5 @@
 {
-  "description": "Apart from the initial term (0), each a(n) is representable as a sum of distinct odd-indexed Fibonacci numbers.",
+  "description": "0 and numbers representable as a sum of distinct odd-indexed Fibonacci numbers.",
   "id": "A062877",
   "mentions": [
     "A022290",

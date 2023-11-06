@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree semiprimes (products of two distinct primes) between sphenics (products of three distinct primes).",
+  "description": "Squarefree semiprimes (products of two distinct primes) between sphenic numbers (products of three distinct primes).",
   "id": "A362507",
   "mentions": [
     "A006881",

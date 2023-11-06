@@ -1,11 +1,14 @@
 {
-  "description": "Sum of first n consecutive primes gives a triangular number.",
+  "description": "Sum of first a(n) consecutive primes gives a triangular number.",
   "id": "A175133",
   "mentions": [
     "A000040",
     "A000217",
     "A007504",
-    "A066527"
+    "A033997",
+    "A066527",
+    "A364696",
+    "A366270"
   ],
   "tags": [
     "more",

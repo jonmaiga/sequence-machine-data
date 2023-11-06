@@ -39,12 +39,11 @@
     "A354581"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

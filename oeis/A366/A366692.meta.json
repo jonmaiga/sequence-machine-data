@@ -1,0 +1,14 @@
+{
+  "description": "Primes that have more even digits than the next prime.",
+  "id": "A366692",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

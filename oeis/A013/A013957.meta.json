@@ -1,11 +1,12 @@
 {
-  "description": "sigma_9(n), the sum of the 9th powers of the divisors of n.",
+  "description": "a(n) = sigma_9(n), the sum of the 9th powers of the divisors of n.",
   "id": "A013957",
   "mentions": [
     "A000203",
     "A001157",
     "A001160",
     "A013667",
+    "A013668",
     "A013954",
     "A013972",
     "A017665",
@@ -19,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "joeis"
   }
 }

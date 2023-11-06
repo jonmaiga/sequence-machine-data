@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X3 0..2 arrays with every 3X3 subblock having three equal elements in a row horizontally, vertically or nw-to-se diagonally exactly two ways, and new values 0..2 introduced in row major order",
+  "description": "Number of (n+2) X 3 0..2 arrays with every 3 X 3 subblock having three equal elements in a row horizontally, vertically or nw-to-se diagonally exactly two ways, and new values 0..2 introduced in row major order.",
   "id": "A205408",
   "mentions": [
     "A205415"

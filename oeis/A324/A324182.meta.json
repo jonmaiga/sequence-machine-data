@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A083254(A163511(n)).",
+  "description": "a(n) = A083254(A163511(n)), where A083254(n) = 2*phi(n) - n, the Möbius transform of the deficiency of n.",
   "id": "A324182",
   "mentions": [
     "A054429",
@@ -9,10 +9,12 @@
     "A324103",
     "A324183",
     "A324184",
-    "A324185"
+    "A324185",
+    "A366804"
   ],
   "tags": [
     "formulas",
+    "look",
     "sign"
   ],
   "terms": {

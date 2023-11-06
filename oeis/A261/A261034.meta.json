@@ -1,10 +1,13 @@
 {
-  "description": "Numbers k such that 3k is squarefree.",
+  "description": "Numbers m such that 3*m is squarefree.",
   "id": "A261034",
   "mentions": [
     "A005117",
     "A045344",
-    "A088245"
+    "A056911",
+    "A088245",
+    "A274546",
+    "A276378"
   ],
   "tags": [
     "easy",

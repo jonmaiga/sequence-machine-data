@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n>=0 such that d(n) = (n^1 + 1) (n^2 + 2) ... (n^14 + 14) / 14!, e(n) = (n^1 + 1) (n^2 + 2) ... (n^15 + 15) / 15!, and f(n) = (n^1 + 1) (n^2 + 2) ... (n^16 + 16) / 16! take nonintegral values.",
+  "description": "Numbers n >= 0 such that d(n) = (n^1 + 1)*(n^2 + 2) ... (n^14 + 14) / 14!, e(n) = (n^1 + 1)*(n^2 + 2) ... (n^15 + 15) / 15!, and f(n) = (n^1 + 1)*(n^2 + 2) ... (n^16 + 16) / 16! take nonintegral values.",
   "id": "A131189",
   "mentions": [
     "A129995"

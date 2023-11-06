@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (A364054(n+1) - A364054(n)) / prime(n) (where prime(n) denotes the n-th prime number).",
+  "id": "A366911",
+  "mentions": [
+    "A160357",
+    "A364054",
+    "A366912"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

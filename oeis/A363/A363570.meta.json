@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 / sqrt(1 - 8*x + 4*x^2) - 1 / (1 - x)) / 3.",
+  "id": "A363570",
+  "mentions": [
+    "A030662",
+    "A047665",
+    "A069835",
+    "A098663",
+    "A363571"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

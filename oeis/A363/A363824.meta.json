@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) is the total number of other numbers, being constructed on a square spiral, that are visible from a(n-1) that equal a(n-1).",
+  "id": "A363824",
+  "mentions": [
+    "A331400",
+    "A347357",
+    "A347358",
+    "A357985",
+    "A357991"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

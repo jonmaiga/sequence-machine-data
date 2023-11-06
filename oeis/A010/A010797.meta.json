@@ -1,15 +1,16 @@
 {
-  "description": "n!.(n+1)!.(n+2)! / 2!.3!.",
+  "description": "a(n) = n! * (n+1)! * (n+2)! / (2! * 3!).",
   "id": "A010797",
   "mentions": [
     "A009963"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 12,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

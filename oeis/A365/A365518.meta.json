@@ -1,0 +1,16 @@
+{
+  "description": "Odd primes whose base-2 representation has no proper substrings that are base-2 representations of odd primes.",
+  "id": "A365518",
+  "mentions": [
+    "A365512"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

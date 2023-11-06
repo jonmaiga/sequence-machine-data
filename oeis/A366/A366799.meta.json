@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors d of n that are not of the form 4k+2, as permuted by the Doudna sequence.",
+  "id": "A366799",
+  "mentions": [
+    "A005940",
+    "A320111",
+    "A366797",
+    "A366800"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that the number of 1's in binary expansion of n (see A000120) divides n.",
+  "description": "Numbers k with the property that the number of 1's in binary expansion of k (see A000120) divides k.",
   "id": "A049445",
   "mentions": [
     "A000120",

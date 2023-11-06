@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-step self-avoiding walks on the square Manhattan lattice that do not take two consecutive turns.",
+  "id": "A364580",
+  "mentions": [
+    "A117633"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n - (largest nontrivial divisor of n, or 0 if there is none).",
+  "id": "A364391",
+  "mentions": [
+    "A032742",
+    "A060681"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

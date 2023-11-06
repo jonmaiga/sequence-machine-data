@@ -2,9 +2,11 @@
   "description": "Main diagonal of A332357.",
   "id": "A332358",
   "mentions": [
+    "A306302",
     "A332357"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

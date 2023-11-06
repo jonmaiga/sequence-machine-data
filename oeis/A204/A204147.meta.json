@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X4 0..2 arrays with every 3X3 subblock having equal diagonal elements or equal antidiagonal elements, and new values 0..2 introduced in row major order",
+  "description": "Number of (n+2) X 4 0..2 arrays with every 3 X 3 subblock having equal diagonal elements or equal antidiagonal elements, and new values 0..2 introduced in row major order.",
   "id": "A204147",
   "mentions": [
     "A204153"

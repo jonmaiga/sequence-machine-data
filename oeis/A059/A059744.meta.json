@@ -1,20 +1,20 @@
 {
-  "description": "Numbers n such that n^2 is a palindromic square of sporadic type.",
+  "description": "Numbers k such that k^2 is a palindromic square of sporadic type.",
   "id": "A059744",
   "mentions": [
     "A002778",
     "A016106",
     "A028818",
-    "A059745"
+    "A059745",
+    "A060087"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Even semiprimes that are the exact average of four consecutive odd semiprimes.",
+  "id": "A365201",
+  "mentions": [
+    "A046315",
+    "A100484",
+    "A365200",
+    "A365202"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

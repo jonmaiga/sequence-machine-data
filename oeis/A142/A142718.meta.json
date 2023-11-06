@@ -1,5 +1,5 @@
 {
-  "description": "Odds terms in A014217.",
+  "description": "Odd terms in A014217.",
   "id": "A142718",
   "mentions": [
     "A014217"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

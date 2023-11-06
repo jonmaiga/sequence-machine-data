@@ -1,5 +1,5 @@
 {
-  "description": "(n+1)*(n-1)!/2.",
+  "description": "a(n) = (n+1)*(n-1)!/2.",
   "id": "A171005",
   "mentions": [
     "A001048"

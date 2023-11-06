@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as the sum of a prime number and a fourth power of a positive integer in exactly n ways.",
+  "id": "A365292",
+  "mentions": [
+    "A000040",
+    "A000583",
+    "A064283",
+    "A365167",
+    "A365290",
+    "A365291"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

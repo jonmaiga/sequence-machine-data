@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest perfect power that can be represented as the sum of n distinct perfect powers in exactly n ways, or -1 if no such number exists.",
+  "id": "A365506",
+  "mentions": [
+    "A001597",
+    "A363040"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

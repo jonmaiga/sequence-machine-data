@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum of 23rd powers of divisors of n.",
+  "description": "a(n) = sigma_23(n), the sum of the 23rd powers of the divisors of n.",
   "id": "A013971",
   "mentions": [
     "A000203",
@@ -11,13 +11,14 @@
     "A017712"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

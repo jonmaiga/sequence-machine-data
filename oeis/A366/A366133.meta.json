@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: coefficients in expansion of another Asveld's polynomials Pi_j(x).",
+  "id": "A366133",
+  "mentions": [
+    "A000045",
+    "A005444",
+    "A005445",
+    "A039948",
+    "A048994",
+    "A305923"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

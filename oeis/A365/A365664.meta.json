@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{0",
+  "id": "A365664",
+  "mentions": [
+    "A000203",
+    "A002127",
+    "A002128",
+    "A010816",
+    "A060043",
+    "A365630",
+    "A365665",
+    "A365666"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

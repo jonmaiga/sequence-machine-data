@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(sigma(n)) = k*n for some k.",
+  "description": "Numbers j such that sigma(sigma(j)) = k*j for some k.",
   "id": "A019278",
   "mentions": [
     "A000043",

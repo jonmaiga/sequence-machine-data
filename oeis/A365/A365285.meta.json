@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1 + x*A(x)*exp(x^3*A(x)).",
+  "id": "A365285",
+  "mentions": [
+    "A358065",
+    "A365282",
+    "A365286",
+    "A365287"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

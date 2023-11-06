@@ -1,7 +1,10 @@
 {
   "description": "Divisors of 900.",
   "id": "A018710",
-  "mentions": [],
+  "mentions": [
+    "A004709",
+    "A051037"
+  ],
   "tags": [
     "easy",
     "fini",

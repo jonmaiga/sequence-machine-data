@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric 0..3 arrays with no element equal to the difference mod 4 of any two of its horizontal and vertical neighbors",
+  "description": "Number of n X n symmetric 0..3 arrays with no element equal to the difference mod 4 of any two of its horizontal and vertical neighbors.",
   "id": "A193808",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

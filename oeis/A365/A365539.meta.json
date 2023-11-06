@@ -1,0 +1,27 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = [x^n] (1 + x^k)/((1 - x)^2*(1 - x^k)), with k > 0.",
+  "id": "A365539",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A000982",
+    "A008810",
+    "A008811",
+    "A008812",
+    "A008813",
+    "A008814",
+    "A008815",
+    "A008816",
+    "A008817",
+    "A365540"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

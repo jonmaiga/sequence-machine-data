@@ -1,5 +1,5 @@
 {
-  "description": "Levels of substitution A059832 taken as polynomials p(x,n)]and coefficients of the differential polynomials returned as q(x,n) =dp(x,n)dx coefficients. ( first three zeros omitted).",
+  "description": "Levels of substitution A059832 taken as polynomials p(x,n)]and coefficients of the differential polynomials returned as q(x,n) = dp(x,n)dx coefficients (first three zeros omitted).",
   "id": "A138054",
   "mentions": [
     "A059832",

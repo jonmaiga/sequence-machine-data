@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that phi(n+1) - phi(n) = -d(n).",
+  "description": "Numbers k such that phi(k+1) - phi(k) = -d(k).",
   "id": "A066172",
   "mentions": [
     "A000005",
     "A000010"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

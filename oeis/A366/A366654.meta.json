@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = phi(8^n-1), where phi is Euler's totient function (A000010).",
+  "id": "A366654",
+  "mentions": [
+    "A000010",
+    "A024088",
+    "A366635"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

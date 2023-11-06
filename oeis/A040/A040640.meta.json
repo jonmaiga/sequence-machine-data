@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(666).",
   "id": "A040640",
-  "mentions": [],
+  "mentions": [
+    "A042280",
+    "A042281"
+  ],
   "tags": [
     "cofr",
     "easy",
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

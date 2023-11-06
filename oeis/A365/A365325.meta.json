@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled digraphs (with self loops allowed) on [n] containing exactly k primitive components, n>=0, 0<=k<=n.",
+  "id": "A365325",
+  "mentions": [
+    "A002416",
+    "A003024",
+    "A003030",
+    "A070322",
+    "A361269"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

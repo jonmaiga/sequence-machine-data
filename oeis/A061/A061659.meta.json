@@ -1,5 +1,5 @@
 {
-  "description": "In base 5 n and n^2 contain the same digits in the same proportion.",
+  "description": "Numbers k > 1 such that, in base 5, k and k^2 contain the same digits in the same proportion.",
   "id": "A061659",
   "mentions": [
     "A061656",

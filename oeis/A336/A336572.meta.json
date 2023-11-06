@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = 1 + x * A(x)^4 * (1 + 2 * A(x)).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x * A(x)^4 * (1 + 2 * A(x)).",
   "id": "A336572",
   "mentions": [
     "A243667",

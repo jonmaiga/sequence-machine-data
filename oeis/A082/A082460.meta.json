@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = pi(n) - a(n - 1) = A000720(n) - a(n - 1).",
+  "description": "a(n) = pi(n) - a(n - 1) where pi(n) = A000720(n).",
   "id": "A082460",
   "mentions": [
     "A000720"

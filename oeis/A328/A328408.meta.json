@@ -12,6 +12,7 @@
     "A328407"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"
@@ -19,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

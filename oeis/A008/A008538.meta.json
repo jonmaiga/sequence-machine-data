@@ -1,7 +1,14 @@
 {
-  "description": "Numbers that contain the letter 's'.",
+  "description": "Numbers whose American English name contains the letter 's'.",
   "id": "A008538",
-  "mentions": [],
+  "mentions": [
+    "A008519",
+    "A008520",
+    "A008522",
+    "A008536",
+    "A008540",
+    "A008553"
+  ],
   "tags": [
     "nonn",
     "word"
@@ -9,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

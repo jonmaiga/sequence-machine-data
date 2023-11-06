@@ -1,0 +1,16 @@
+{
+  "description": "Numerator of Sum_{1<=j<=k<=n, gcd(j,k)=1} 1/(j*k).",
+  "id": "A365227",
+  "mentions": [
+    "A365228"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

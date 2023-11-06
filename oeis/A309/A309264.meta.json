@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that s + t = k with 0 < s < t where t and t-s are both prime.",
+  "description": "Numbers k such that s + t = k with 0 < s < t where t and t - s are both prime.",
   "id": "A309264",
   "mentions": [
     "A309152",

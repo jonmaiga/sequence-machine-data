@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n element 1..n arrays with each element the minimum of k adjacent elements of a permutation of 1..n+k-1 of n+k-1 elements",
+  "description": "T(n,k) is the number of n element 1..n arrays with each element the minimum of k adjacent elements of a permutation of 1..n+k-1 of n+k-1 elements.",
   "id": "A217891",
   "mentions": [
     "A001003"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 63,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

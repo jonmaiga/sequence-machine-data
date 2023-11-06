@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1 / (1 - 5 * log(1 + x))^(1/5).",
+  "description": "Expansion of e.g.f. 1 / (1 - 5 * log(1 + x))^(1/5).",
   "id": "A347022",
   "mentions": [
     "A006252",

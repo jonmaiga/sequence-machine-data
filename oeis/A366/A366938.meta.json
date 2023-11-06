@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(k-1) * binomial(k+2,3) * floor(n/k).",
+  "id": "A366938",
+  "mentions": [
+    "A024919",
+    "A320901",
+    "A365409",
+    "A366659",
+    "A366937",
+    "A366939"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

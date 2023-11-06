@@ -2,6 +2,8 @@
   "description": "Largest positive primitive root (",
   "id": "A071894",
   "mentions": [
+    "A000040",
+    "A001918",
     "A002199",
     "A060749"
   ],

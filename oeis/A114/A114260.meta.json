@@ -4,17 +4,17 @@
   "mentions": [
     "A114258",
     "A114259",
-    "A114261"
+    "A114261",
+    "A210522",
+    "A365144"
   ],
   "tags": [
     "base",
-    "fini",
-    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

@@ -2,13 +2,18 @@
   "description": "Number of distinct prime factors <= 7 of n.",
   "id": "A210679",
   "mentions": [
-    "A000005",
+    "A001221",
     "A002473",
     "A008364",
     "A027748",
-    "A080672"
+    "A080672",
+    "A165743",
+    "A171182",
+    "A178146"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

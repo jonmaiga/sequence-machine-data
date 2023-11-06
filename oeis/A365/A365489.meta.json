@@ -1,0 +1,21 @@
+{
+  "description": "The number of divisors of the smallest cube divisible by n.",
+  "id": "A365489",
+  "mentions": [
+    "A000005",
+    "A019555",
+    "A053149",
+    "A365488"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

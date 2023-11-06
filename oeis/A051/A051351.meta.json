@@ -2,8 +2,7 @@
   "description": "a(n) = a(n-1) + sum of digits of n-th prime.",
   "id": "A051351",
   "mentions": [
-    "A007605",
-    "A075544"
+    "A007605"
   ],
   "tags": [
     "base",

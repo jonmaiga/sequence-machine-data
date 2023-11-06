@@ -1,0 +1,15 @@
+{
+  "description": "Numbers of the form |2^i - 3^j - 1|/2, i >= 1, j >= 1.",
+  "id": "A364000",
+  "mentions": [
+    "A363999"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

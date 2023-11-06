@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Product_{n>=1} cos(Pi/(2*n+1)).",
+  "id": "A365256",
+  "mentions": [
+    "A085365",
+    "A365255"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime factor of n*2^n+1.",
+  "id": "A367004",
+  "mentions": [
+    "A002064",
+    "A020639",
+    "A049479",
+    "A367002",
+    "A367003",
+    "A367005"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

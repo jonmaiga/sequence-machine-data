@@ -2,6 +2,7 @@
   "description": "g_n(8) where g is the weak Goodstein function defined in A266202.",
   "id": "A271989",
   "mentions": [
+    "A056193",
     "A137411",
     "A265034",
     "A266201",

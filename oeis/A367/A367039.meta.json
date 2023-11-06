@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0, a(2) = 1; thereafter a(n) is the largest index < n not equal to i +- a(i) for any i = 1..n-1.",
+  "id": "A367039",
+  "mentions": [
+    "A085262",
+    "A359807",
+    "A367026"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

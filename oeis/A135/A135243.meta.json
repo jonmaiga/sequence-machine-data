@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that sigma(n)=6*(reversal(n)-n).",
+  "description": "Numbers n such that sigma(n) = 6*(reversal(n)-n).",
   "id": "A135243",
   "mentions": [
+    "A000203",
+    "A004086",
     "A135242"
   ],
   "tags": [

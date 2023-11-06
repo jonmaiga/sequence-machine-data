@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the central column (converted to base 10) of rule-30 1-D cellular automaton, when started from a single ON cell.",
+  "id": "A365254",
+  "mentions": [
+    "A051023",
+    "A070950"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

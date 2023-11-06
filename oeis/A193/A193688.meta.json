@@ -2,6 +2,7 @@
   "description": "Number of steps to reach 1 in Collatz (3x+1) problem starting with 2^n - 1.",
   "id": "A193688",
   "mentions": [
+    "A000225",
     "A006577",
     "A179118"
   ],

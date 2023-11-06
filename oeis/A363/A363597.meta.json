@@ -1,0 +1,28 @@
+{
+  "description": "Union of prime powers and numbers that are not squarefree.",
+  "id": "A363597",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000961",
+    "A002808",
+    "A005117",
+    "A013929",
+    "A024619",
+    "A085961",
+    "A120944",
+    "A126706",
+    "A246547",
+    "A303554"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

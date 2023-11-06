@@ -1,7 +1,9 @@
 {
   "description": "Numbers n such that n and prime(n) end with the same two digits.",
   "id": "A067838",
-  "mentions": [],
+  "mentions": [
+    "A067790"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

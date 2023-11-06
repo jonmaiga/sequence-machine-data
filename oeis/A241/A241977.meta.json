@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^phi(n) == 1 (mod n^2), where phi(n)=A000010(n).",
+  "description": "Numbers k>1 such that 10^phi(k) == 1 (mod k^2), where phi(n)=A000010(n).",
   "id": "A241977",
   "mentions": [
     "A000010",

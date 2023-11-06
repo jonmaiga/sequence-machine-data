@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum of divisors d of n which are either 1 or of the form Product_(i) (p_i^e_i) where the e_i are <= 1.",
+  "description": "a(n) is the sum of divisors d of n which are either 1 or of the form Product_{i} (p_i^e_i) where at least one e_i = 1.",
   "id": "A183100",
   "mentions": [
     "A000203",
@@ -8,6 +8,7 @@
     "A183099"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

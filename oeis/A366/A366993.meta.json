@@ -1,0 +1,23 @@
+{
+  "description": "The largest divisor of n that is a term of A056166.",
+  "id": "A366993",
+  "mentions": [
+    "A005117",
+    "A007917",
+    "A056166",
+    "A095691",
+    "A366988",
+    "A366990"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

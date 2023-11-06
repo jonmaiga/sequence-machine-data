@@ -1,0 +1,13 @@
+{
+  "description": "Number of dominating sets in the n-double cone graph.",
+  "id": "A365581",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

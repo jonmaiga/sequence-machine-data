@@ -1,5 +1,5 @@
 {
-  "description": "floor[7^7/n].",
+  "description": "a(n) = floor(7^7/n).",
   "id": "A057069",
   "mentions": [
     "A000007",
@@ -9,11 +9,12 @@
     "A057075"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

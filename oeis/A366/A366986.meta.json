@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{d|n} binomial(d+k-1,k).",
+  "id": "A366986",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007437",
+    "A059358",
+    "A073570",
+    "A101289",
+    "A332508",
+    "A343548",
+    "A366977"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

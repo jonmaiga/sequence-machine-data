@@ -1,7 +1,13 @@
 {
-  "description": "1000*log_10 (n) rounded to nearest integer.",
+  "description": "a(n) = 1000*log_10(n) rounded to the nearest integer.",
   "id": "A004226",
-  "mentions": [],
+  "mentions": [
+    "A004220",
+    "A004223",
+    "A004225",
+    "A004227",
+    "A004229"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of three-term geometric progressions, with rational ratio > 0, formed by the terms a(n-1), a(n-1-k) and a(n-1-2*k), where k>=1 and n-1-2*k>=0.",
+  "id": "A365047",
+  "mentions": [
+    "A051336",
+    "A078651",
+    "A132345",
+    "A308638",
+    "A365677",
+    "A366907"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

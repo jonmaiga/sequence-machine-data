@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Catalan(n) * Product a(k), k = 0 . . n-1.",
+  "description": "a(n) = Catalan(n) * Product_{k = 0..n-1} a(k).",
   "id": "A003047",
   "mentions": [
     "A000108",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

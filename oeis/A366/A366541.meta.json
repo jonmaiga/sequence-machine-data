@@ -1,0 +1,18 @@
+{
+  "description": "Regular triangle read by rows: T(n,k) is the number of k-facets of the bipyramid on an n-simplex base.",
+  "id": "A366541",
+  "mentions": [
+    "A014410"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

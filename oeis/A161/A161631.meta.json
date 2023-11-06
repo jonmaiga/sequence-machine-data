@@ -1,8 +1,10 @@
 {
-  "description": "E.g.f. satisfies: A(x) = 1 + x*exp(x*A(x)).",
+  "description": "E.g.f. satisfies A(x) = 1 + x*exp(x*A(x)).",
   "id": "A161631",
   "mentions": [
-    "A125500"
+    "A125500",
+    "A364978",
+    "A364979"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

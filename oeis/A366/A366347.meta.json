@@ -1,0 +1,23 @@
+{
+  "description": "a(n) has as many prime factors as the ternary expansion of n has runs of nonzero digits; if the k-th run corresponds to A032924(e) and appears after m-1 0's then the p-adic valuation of a(n) is e (where p corresponds to the m-th prime number).",
+  "id": "A366347",
+  "mentions": [
+    "A003961",
+    "A005940",
+    "A032924",
+    "A060140",
+    "A290389",
+    "A365278",
+    "A366348"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

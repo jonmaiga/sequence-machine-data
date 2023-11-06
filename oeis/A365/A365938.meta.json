@@ -1,0 +1,17 @@
+{
+  "description": "Form the \"Gilbreath Transform\" array for the Euler phi function (A000010); sequence gives the third column, divided by 2.",
+  "id": "A365938",
+  "mentions": [
+    "A000010",
+    "A036262",
+    "A361897"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

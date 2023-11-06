@@ -2,9 +2,12 @@
   "description": "Sum of the first 10^n twin primes.",
   "id": "A146536",
   "mentions": [
+    "A086169",
     "A118552"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

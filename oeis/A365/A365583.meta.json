@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k with property that k can be represented by the digits present in k using the operations specified in the comment, and requiring fewer digits than the number of digits in k.",
+  "id": "A365583",
+  "mentions": [
+    "A043537",
+    "A362769"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

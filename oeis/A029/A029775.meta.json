@@ -1,5 +1,5 @@
 {
-  "description": "Squares n such that the digits of n appear in sqrt(n).",
+  "description": "Squares k^2 whose digits appear in k.",
   "id": "A029775",
   "mentions": [
     "A029774"

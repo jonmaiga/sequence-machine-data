@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. (1-x)^3/(1-3x+2x^2-x^3).",
+  "id": "A364524",
+  "mentions": [
+    "A001804",
+    "A002866"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A126706(n) divided by its squarefree kernel.",
+  "id": "A365784",
+  "mentions": [
+    "A007947",
+    "A120944",
+    "A126706",
+    "A365783"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

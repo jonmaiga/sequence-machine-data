@@ -1,17 +1,18 @@
 {
-  "description": "G.f.: -x*(2*x^3+2*x^2+x-2)/(x^4-2*x+1).",
+  "description": "Expansion of g.f. -x*(2*x^3+2*x^2+x-2)/(x^4-2*x+1).",
   "id": "A317200",
   "mentions": [
     "A000073",
     "A317199"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "joeis"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

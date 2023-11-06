@@ -2,6 +2,7 @@
   "description": "G.f.: A(x) = Sum_{k>=0} x^k * (1+x)^(k*(k+1)/2).",
   "id": "A121690",
   "mentions": [
+    "A121689",
     "A131338"
   ],
   "tags": [

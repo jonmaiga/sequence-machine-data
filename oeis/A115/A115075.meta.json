@@ -2,10 +2,13 @@
   "description": "Number of 2 X 2 symmetric matrices over Z(n) having determinant 0.",
   "id": "A115075",
   "mentions": [
+    "A002117",
+    "A013662",
     "A020478",
     "A115077"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

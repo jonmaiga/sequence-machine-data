@@ -1,7 +1,9 @@
 {
   "description": "Let p be a prime of the form 4k+1; sequence gives (q!^2 + 4)/p where q = (p-3)/2.",
   "id": "A066163",
-  "mentions": [],
+  "mentions": [
+    "A002144"
+  ],
   "tags": [
     "nonn"
   ],

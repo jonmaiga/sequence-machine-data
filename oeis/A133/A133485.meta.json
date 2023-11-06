@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that the polynomial x^(2n+2)+x+1 is primitive and irreducible over GF(2).",
+  "description": "Integers k such that the polynomial x^(2k+2) + x + 1 is primitive and irreducible over GF(2).",
   "id": "A133485",
   "mentions": [
     "A002475",

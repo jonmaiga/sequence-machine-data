@@ -1,5 +1,5 @@
 {
-  "description": "Beginning with 1, a(i)*a(j) + 2 is prime for all i,j, i != j.",
+  "description": "Beginning with 1, a(i)*a(j) + 2 is prime for all i, j, i != j.",
   "id": "A083519",
   "mentions": [
     "A083518"

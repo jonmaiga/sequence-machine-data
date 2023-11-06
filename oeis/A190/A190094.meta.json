@@ -1,5 +1,5 @@
 {
-  "description": "Number of rhombuses on a (n+1)X6 grid",
+  "description": "Number of rhombuses on a (n+1) X 6 grid.",
   "id": "A190094",
   "mentions": [
     "A190098"

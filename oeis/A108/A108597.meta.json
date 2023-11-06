@@ -2,6 +2,7 @@
   "description": "Numbers n such that 911*n - 11 is prime.",
   "id": "A108597",
   "mentions": [
+    "A108596",
     "A108937"
   ],
   "tags": [

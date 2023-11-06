@@ -1,0 +1,21 @@
+{
+  "description": "2-tone chromatic number of a maximal outerplanar graph with maximum degree n.",
+  "id": "A366727",
+  "mentions": [
+    "A003057",
+    "A350361",
+    "A350362",
+    "A350715",
+    "A351120",
+    "A366728"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

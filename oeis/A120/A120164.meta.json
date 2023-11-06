@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=6; a(n)=floor((24+sum(a(1) to a(n-1)))/4).",
+  "description": "a(n) = 6 + floor( Sum_{j=1..n-1} a(j)/4 ).",
   "id": "A120164",
   "mentions": [
     "A072493",

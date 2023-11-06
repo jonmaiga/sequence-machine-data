@@ -1,0 +1,24 @@
+{
+  "description": "The sum of divisors of the least coreful infinitary divisor of n.",
+  "id": "A366744",
+  "mentions": [
+    "A000203",
+    "A006519",
+    "A138302",
+    "A339597",
+    "A365296",
+    "A366742",
+    "A366743"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

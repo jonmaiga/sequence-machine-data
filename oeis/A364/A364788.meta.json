@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 0; thereafter a(n) is the number of times the last digit of a(n-1) has occurred as last digit in all terms prior to a(n-1).",
+  "id": "A364788",
+  "mentions": [
+    "A248034"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

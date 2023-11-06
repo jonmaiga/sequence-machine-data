@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of Product_{i >= 1} (1-q^i)(1-q^{7i}).",
+  "description": "Expansion of Product_{i >= 1} (1 - q^i)*(1 - q^(7*i)).",
   "id": "A002655",
   "mentions": [
     "A030203",

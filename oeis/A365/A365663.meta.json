@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of strict integer partitions of n without a subset summing to k.",
+  "id": "A365663",
+  "mentions": [
+    "A000009",
+    "A000124",
+    "A002219",
+    "A006827",
+    "A025147",
+    "A046663",
+    "A108796",
+    "A108917",
+    "A122768",
+    "A124506",
+    "A237258",
+    "A275972",
+    "A299701",
+    "A304792",
+    "A321142",
+    "A326083",
+    "A364272",
+    "A364349",
+    "A364350",
+    "A364839",
+    "A364916",
+    "A365311",
+    "A365376",
+    "A365381",
+    "A365541",
+    "A365543",
+    "A365661",
+    "A365922"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

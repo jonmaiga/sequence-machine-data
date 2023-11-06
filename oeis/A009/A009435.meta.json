@@ -1,7 +1,14 @@
 {
   "description": "Expansion of e.g.f.: log(1+x)/cosh(x).",
   "id": "A009435",
-  "mentions": [],
+  "mentions": [
+    "A009405",
+    "A009420",
+    "A009422",
+    "A009434",
+    "A009436",
+    "A009439"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

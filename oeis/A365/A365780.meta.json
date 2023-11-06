@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest finite sequence of nonprime numbers such that a(n) + [the next digit] is a prime number.",
+  "id": "A365780",
+  "mentions": [
+    "A365768",
+    "A365769",
+    "A365781"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

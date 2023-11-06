@@ -1,0 +1,25 @@
+{
+  "description": "Perfect powers k such that A052409(k) is equal to A052409(A366275(k)).",
+  "id": "A366278",
+  "mentions": [
+    "A000290",
+    "A001597",
+    "A030101",
+    "A052409",
+    "A057889",
+    "A153158",
+    "A163511",
+    "A365805",
+    "A365808",
+    "A366275",
+    "A366281"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

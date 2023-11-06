@@ -1,0 +1,19 @@
+{
+  "description": "List of quadruples (a,b,c,d) with a^4 + b^4 = c^4 + d^4, a < c < d < b, a,b,c,d prime, listed in order of the largest term b.",
+  "id": "A366703",
+  "mentions": [
+    "A018786",
+    "A255351",
+    "A255352"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

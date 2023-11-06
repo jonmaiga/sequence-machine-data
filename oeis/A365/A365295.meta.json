@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as the sum of two distinct perfect powers (A001597) in exactly n ways.",
+  "id": "A365295",
+  "mentions": [
+    "A001597",
+    "A093195",
+    "A362424",
+    "A363040"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

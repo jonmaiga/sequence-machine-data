@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2*k-1 and 2*k+1 are both prime powers (A246655).",
+  "id": "A365416",
+  "mentions": [
+    "A040040",
+    "A088071",
+    "A175593",
+    "A246655",
+    "A365411"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

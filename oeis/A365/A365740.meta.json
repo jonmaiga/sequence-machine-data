@@ -1,0 +1,24 @@
+{
+  "description": "Length of the longest subsequence of {m: 1<=m<=n, m not prime} on which the Euler totient function phi A000010 is nondecreasing.",
+  "id": "A365740",
+  "mentions": [
+    "A000010",
+    "A000720",
+    "A061070",
+    "A365339",
+    "A365398",
+    "A365399",
+    "A365400",
+    "A365474",
+    "A365737"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

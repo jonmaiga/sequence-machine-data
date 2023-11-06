@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers (A246655) q such that 2 is a nonzero square in the finite field F_q.",
+  "id": "A366526",
+  "mentions": [
+    "A001132",
+    "A085759",
+    "A246655",
+    "A365082",
+    "A365313"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

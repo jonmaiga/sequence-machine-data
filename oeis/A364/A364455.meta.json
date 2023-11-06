@@ -1,0 +1,18 @@
+{
+  "description": "Record values of A365196.",
+  "id": "A364455",
+  "mentions": [
+    "A365196",
+    "A365239"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

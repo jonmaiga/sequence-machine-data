@@ -1,0 +1,23 @@
+{
+  "description": "Lesser of a pair of S-amicable numbers k < m such that s(k) = m and s(m) = k, where s(k) = A364858(k).",
+  "id": "A364859",
+  "mentions": [
+    "A000396",
+    "A002025",
+    "A002046",
+    "A118372",
+    "A181487",
+    "A364858",
+    "A364860"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

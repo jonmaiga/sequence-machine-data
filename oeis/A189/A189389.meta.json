@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [n] such that n-p(i)+i >= 5 (mod n) for all i.",
+  "description": "Number of permutations p of [n] such that (n-p(i)+i) mod n >= 5 for all i.",
   "id": "A189389",
   "mentions": [
     "A000142",

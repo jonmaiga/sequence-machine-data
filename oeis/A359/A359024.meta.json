@@ -1,5 +1,5 @@
 {
-  "description": "Number of inequivalent tilings of a 8 X n rectangle using integer-sided square tiles.",
+  "description": "Number of inequivalent tilings of an 8 X n rectangle using integer-sided square tiles.",
   "id": "A359024",
   "mentions": [
     "A000045",

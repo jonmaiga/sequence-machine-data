@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 0; a(A000040(n)) = 2^(n-1), and a(n*m) = a(n) XOR a(m).",
+  "description": "Binary encoding of the prime factors of the squarefree part of n.",
   "id": "A248663",
   "mentions": [
     "A000040",

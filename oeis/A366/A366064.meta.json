@@ -1,0 +1,17 @@
+{
+  "description": "Record values of A366091.",
+  "id": "A366064",
+  "mentions": [
+    "A366065",
+    "A366091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the sum of the squarefree part of k and the squarefree kernel of k is a perfect square.",
+  "id": "A365517",
+  "mentions": [
+    "A000290",
+    "A007913",
+    "A007947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Number of free polyominoids with n cells, allowing flat corner-connections and right-angled edge-connections.",
+  "id": "A365995",
+  "mentions": [
+    "A000105",
+    "A001168",
+    "A006770",
+    "A030222",
+    "A056846",
+    "A075678",
+    "A075679",
+    "A365650",
+    "A365651",
+    "A365652",
+    "A365653",
+    "A365654",
+    "A365655",
+    "A365996",
+    "A365997",
+    "A365998",
+    "A365999",
+    "A366000",
+    "A366001",
+    "A366002",
+    "A366003",
+    "A366004",
+    "A366005",
+    "A366006",
+    "A366007",
+    "A366008",
+    "A366009",
+    "A366010",
+    "A366766"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

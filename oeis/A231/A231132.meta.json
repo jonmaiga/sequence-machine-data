@@ -2,7 +2,10 @@
   "description": "Decimal expansion of sum_(n=2..infinity) (-1)^n*zeta(n)/n^2.",
   "id": "A231132",
   "mentions": [
-    "A001620"
+    "A001620",
+    "A352619",
+    "A355921",
+    "A365959"
   ],
   "tags": [
     "cons",

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the nearest integer to n*log_2(3/2).",
+  "id": "A366701",
+  "mentions": [
+    "A020857"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

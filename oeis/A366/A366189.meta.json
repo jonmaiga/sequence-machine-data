@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the positive integer k such that the k-th derivative of the n-th Bernoulli polynomial B(n, x) contains only integer coefficients but no lower derivative of B(n, x) has this property.",
+  "id": "A366189",
+  "mentions": [
+    "A094960",
+    "A196838",
+    "A196839",
+    "A366169",
+    "A366186",
+    "A366187",
+    "A366188"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

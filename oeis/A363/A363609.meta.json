@@ -1,0 +1,16 @@
+{
+  "description": "Minimum sum of the visible pips on a polycube made from n dice.",
+  "id": "A363609",
+  "mentions": [
+    "A193416"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

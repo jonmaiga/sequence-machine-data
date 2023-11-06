@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(n) is the smallest square > a(n) which differs from it at every digit.",
+  "description": "a(1) = 1; a(n) is the smallest square > a(n-1) which differs from it at every digit.",
   "id": "A068854",
   "mentions": [
     "A068853"

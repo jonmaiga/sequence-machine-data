@@ -2,6 +2,7 @@
   "description": "a(n) = Product_{k=0..n} C(n+k+2, n+2).",
   "id": "A120248",
   "mentions": [
+    "A074962",
     "A120247"
   ],
   "tags": [

@@ -2,6 +2,8 @@
   "description": "Frequency of the hexadecimal 0 in the first 10^n hexadecimal digits of Pi.",
   "id": "A099333",
   "mentions": [
+    "A000796",
+    "A062964",
     "A099334",
     "A099335",
     "A099336",
@@ -20,6 +22,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

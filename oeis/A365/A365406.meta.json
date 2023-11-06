@@ -1,0 +1,24 @@
+{
+  "description": "Numbers j whose largest divisor <= sqrt(j) is a power of 2.",
+  "id": "A365406",
+  "mentions": [
+    "A033676",
+    "A067742",
+    "A071561",
+    "A163280",
+    "A212171",
+    "A246955",
+    "A290110",
+    "A342081",
+    "A365408",
+    "A365716"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

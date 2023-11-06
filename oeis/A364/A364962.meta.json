@@ -1,0 +1,27 @@
+{
+  "description": "Odd numbers k such that A005941(k) is either k itself or its descendant in Doudna-tree, A005940.",
+  "id": "A364962",
+  "mentions": [
+    "A003961",
+    "A005940",
+    "A005941",
+    "A029747",
+    "A064989",
+    "A156552",
+    "A252463",
+    "A252464",
+    "A364565",
+    "A364959",
+    "A364961"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

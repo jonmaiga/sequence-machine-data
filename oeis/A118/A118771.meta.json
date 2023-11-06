@@ -2,9 +2,11 @@
   "description": "Let a \"sum\" be a set {x,y,z} of distinct natural numbers such that x+y=z and let N_m={1,2,...m}. a(n) is the smallest s such that there is no partition of N_s into n sum-free parts.",
   "id": "A118771",
   "mentions": [
+    "A030126",
     "A072842"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

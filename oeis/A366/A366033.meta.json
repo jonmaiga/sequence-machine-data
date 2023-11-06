@@ -1,0 +1,20 @@
+{
+  "description": "Successive digits of consecutive terms of the prime-counting function A000720.",
+  "id": "A366033",
+  "mentions": [
+    "A000720",
+    "A001191",
+    "A033307",
+    "A033308"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

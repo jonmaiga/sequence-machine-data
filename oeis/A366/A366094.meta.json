@@ -1,0 +1,20 @@
+{
+  "description": "Least prime nearest to the sum of the first n primes.",
+  "id": "A366094",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A353295",
+    "A354329",
+    "A366092"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

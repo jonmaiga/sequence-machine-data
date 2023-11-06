@@ -1,5 +1,5 @@
 {
-  "description": "Least multiple of n such that every concatenation is a perfect square.",
+  "description": "Least multiple of n such that every concatenation a(1)...a(i) for 1 <= i <= n is a perfect square.",
   "id": "A110460",
   "mentions": [
     "A061110"

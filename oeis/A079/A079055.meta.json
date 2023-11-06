@@ -1,13 +1,17 @@
 {
   "description": "Numbers of prime pairs (p,q), p<=q, such that (p+q) divides n.",
   "id": "A079055",
-  "mentions": [],
+  "mentions": [
+    "A061358"
+  ],
   "tags": [
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 98,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

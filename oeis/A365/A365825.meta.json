@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n that are not of length 2 and do not contain n/2.",
+  "id": "A365825",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A004526",
+    "A005408",
+    "A008967",
+    "A035363",
+    "A046663",
+    "A058984",
+    "A068911",
+    "A086543",
+    "A100959",
+    "A140106",
+    "A182616",
+    "A238628",
+    "A344415",
+    "A365377",
+    "A365543",
+    "A365544",
+    "A365659",
+    "A365663",
+    "A365826",
+    "A365827",
+    "A365828"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

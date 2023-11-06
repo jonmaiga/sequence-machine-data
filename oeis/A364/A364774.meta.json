@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the periodic part (converted to base 10) on the n-th diagonal from the right of rule-30 1-D cellular automaton, when started from a single ON cell.",
+  "id": "A364774",
+  "mentions": [
+    "A070950",
+    "A094605",
+    "A363343",
+    "A364773"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = |Aut^n(C_40)|: order of the group obtained by applying G -> Aut(G) n times to the cyclic group of order 40.",
+  "id": "A365051",
+  "mentions": [
+    "A331921",
+    "A364904",
+    "A364917"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

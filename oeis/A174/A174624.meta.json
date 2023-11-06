@@ -2,7 +2,8 @@
   "description": "Triangle read by rows: T(n,k) = prime(n) mod 2^Omega(k), where Omega() is the number of prime divisors (counted with multiplicity).",
   "id": "A174624",
   "mentions": [
-    "A001222"
+    "A001222",
+    "A174793"
   ],
   "tags": [
     "nonn",

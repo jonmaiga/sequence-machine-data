@@ -1,0 +1,18 @@
+{
+  "description": "Length of the longest monochromatic arithmetic progressions of difference n in the Rudin-Shapiro sequence (A020985).",
+  "id": "A364995",
+  "mentions": [
+    "A020985",
+    "A020987",
+    "A342818"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the largest root of the polynomial x^3 - 2*x^2 - 2*x + 2.",
+  "id": "A365814",
+  "mentions": [
+    "A078564",
+    "A209927",
+    "A222132",
+    "A365750"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Min {x : sigma(x) = phi(nx), x is not a prime}, least nonprime solutions to sigma(x) = phi(nx).",
+  "description": "a(n) = Min {x : sigma(x) = phi(n*x), x is not a prime}, least nonprime solutions to sigma(x) = phi(n*x).",
   "id": "A087979",
   "mentions": [
     "A000010",
@@ -9,6 +9,7 @@
     "A256527"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

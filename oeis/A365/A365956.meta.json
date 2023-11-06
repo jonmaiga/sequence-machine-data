@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(N,k) (0 <= k <= 4*N^2) are coefficients of exact wrapping probability for site percolation on a 2*N X 2*N 2D union jack lattice with periodic boundary conditions. This is for the probability that it wraps in either dimension.",
+  "id": "A365956",
+  "mentions": [
+    "A365940",
+    "A365957",
+    "A366463",
+    "A366467"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

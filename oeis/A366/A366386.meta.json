@@ -1,0 +1,22 @@
+{
+  "description": "Excess of n when n is factored into factors q(i) = prime(i)/i: a(n) = A196050(n) - A324923(n).",
+  "id": "A366386",
+  "mentions": [
+    "A006530",
+    "A007097",
+    "A046660",
+    "A196050",
+    "A324923",
+    "A358729",
+    "A358731"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

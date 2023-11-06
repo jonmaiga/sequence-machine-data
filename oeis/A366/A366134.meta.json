@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes between prime(n) and prime(n)+2*log(prime(n)), exclusive.",
+  "id": "A366134",
+  "mentions": [
+    "A092553",
+    "A354841",
+    "A365573"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

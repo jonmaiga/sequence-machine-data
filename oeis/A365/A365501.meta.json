@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared whose binary string value contains all the binary distinct prime factors of a(n-1). Overlapping factor strings is allowed.",
+  "id": "A365501",
+  "mentions": [
+    "A027748",
+    "A064413",
+    "A365500",
+    "A365703"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

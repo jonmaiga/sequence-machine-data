@@ -1,0 +1,35 @@
+{
+  "description": "Number of integer partitions of 2n with exactly n distinct sums of nonempty submultisets.",
+  "id": "A365660",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000124",
+    "A002219",
+    "A008967",
+    "A046663",
+    "A095944",
+    "A122768",
+    "A126796",
+    "A299701",
+    "A304792",
+    "A364272",
+    "A364349",
+    "A364911",
+    "A365376",
+    "A365377",
+    "A365543",
+    "A365658",
+    "A365661",
+    "A365663"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

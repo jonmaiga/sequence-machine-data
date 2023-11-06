@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime factor of 12^n+1.",
+  "id": "A366720",
+  "mentions": [
+    "A006530",
+    "A178248",
+    "A366719"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

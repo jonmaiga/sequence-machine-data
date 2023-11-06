@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet inverse of reversing binary value of n (A065620).",
+  "id": "A365713",
+  "mentions": [
+    "A065620",
+    "A355819",
+    "A365711",
+    "A365714"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

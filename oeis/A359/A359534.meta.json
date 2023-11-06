@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that don’t have a 1 and yet have one.",
+  "id": "A359534",
+  "mentions": [
+    "A052383",
+    "A345711"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

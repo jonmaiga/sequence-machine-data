@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of quadratic equations u*x^2 + v*x + w = 0 with distinct solution sets L != {} and integer coefficients u, v, w, where n >= abs(u) + abs(v) + abs(w) and the sum of the solutions equals the product of the solutions.",
+  "id": "A365877",
+  "mentions": [
+    "A341123",
+    "A364384",
+    "A364385",
+    "A365876",
+    "A365892"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

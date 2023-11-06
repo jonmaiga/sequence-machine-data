@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n having factorial fractility A269982(n) = 3.",
+  "description": "Numbers k having factorial fractility A269982(k) = 3.",
   "id": "A269985",
   "mentions": [
     "A000142",

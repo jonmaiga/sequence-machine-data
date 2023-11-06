@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the constant cos(1) + sin(1) = 1.38177 32906 ... .",
+  "description": "Decimal expansion of the constant cos(1) + sin(1).",
   "id": "A143623",
   "mentions": [
     "A049469",

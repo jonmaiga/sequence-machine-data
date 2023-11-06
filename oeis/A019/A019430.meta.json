@@ -2,6 +2,8 @@
   "description": "Continued fraction for tan(1/7).",
   "id": "A019430",
   "mentions": [
+    "A019425",
+    "A019433",
     "A161016"
   ],
   "tags": [

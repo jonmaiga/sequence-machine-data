@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled 3-connected graphs on n vertices with girth at least 5.",
+  "id": "A366224",
+  "mentions": [
+    "A006290",
+    "A140440",
+    "A366225"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

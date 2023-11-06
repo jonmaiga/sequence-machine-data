@@ -1,5 +1,5 @@
 {
-  "description": "Number of unordered solutions of xy+yz+zx=n, x,y,z>0.",
+  "description": "Number of unordered solutions of x*y + y*z + z*x = n, x,y,z > 0.",
   "id": "A066955",
   "mentions": [
     "A000196",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

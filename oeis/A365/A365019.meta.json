@@ -1,0 +1,22 @@
+{
+  "description": "Triangular numbers that for some k >= 0 are also the sum of the first k perfect powers.",
+  "id": "A365019",
+  "mentions": [
+    "A000217",
+    "A001597",
+    "A066527",
+    "A076408",
+    "A298270"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

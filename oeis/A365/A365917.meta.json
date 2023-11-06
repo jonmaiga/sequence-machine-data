@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1 / ( 1 - Sum_{k>=0} x^(4*k+5) / (4*k+5)! ).",
+  "id": "A365917",
+  "mentions": [
+    "A245790",
+    "A352429",
+    "A365898",
+    "A365911",
+    "A365915",
+    "A365916"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

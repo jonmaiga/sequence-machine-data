@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree numbers that are coprime to the terms of A366640.",
+  "id": "A366641",
+  "mentions": [
+    "A005117",
+    "A056911",
+    "A261034",
+    "A274546",
+    "A366640"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

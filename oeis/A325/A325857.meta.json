@@ -19,12 +19,11 @@
     "A325991"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

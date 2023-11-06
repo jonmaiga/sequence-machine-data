@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n > 1 such that n^3 - 1 (or equivalently n^2 + n + 1) has no prime factor greater than n.",
+  "description": "Numbers k > 1 such that k^3 - 1 (or equivalently k^2 + k + 1) has no prime factor greater than k.",
   "id": "A081258",
   "mentions": [
     "A081256",

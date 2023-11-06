@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct residues of x^n (mod n^3), x=0..n^3-1.",
+  "id": "A365100",
+  "mentions": [
+    "A023105",
+    "A046631",
+    "A195637",
+    "A365099",
+    "A365101",
+    "A365102",
+    "A365103",
+    "A365104"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

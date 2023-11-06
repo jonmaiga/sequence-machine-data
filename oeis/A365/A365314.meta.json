@@ -1,0 +1,43 @@
+{
+  "description": "Number of unordered pairs of distinct positive integers <= n that can be linearly combined using nonnegative coefficients to obtain n.",
+  "id": "A365314",
+  "mentions": [
+    "A000217",
+    "A001358",
+    "A004526",
+    "A007865",
+    "A070880",
+    "A088314",
+    "A088809",
+    "A093971",
+    "A124506",
+    "A151897",
+    "A179822",
+    "A326020",
+    "A326080",
+    "A326083",
+    "A364350",
+    "A364914",
+    "A365043",
+    "A365046",
+    "A365073",
+    "A365311",
+    "A365312",
+    "A365315",
+    "A365320",
+    "A365321",
+    "A365322",
+    "A365378",
+    "A365379",
+    "A365380",
+    "A365383"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

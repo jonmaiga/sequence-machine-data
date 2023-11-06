@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n*Pi/(Pi-2)).",
+  "description": "a(n) = floor(n*Pi/(Pi-2)).",
   "id": "A108589",
   "mentions": [
     "A054386",

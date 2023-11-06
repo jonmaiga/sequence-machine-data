@@ -8,12 +8,11 @@
     "A005266"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

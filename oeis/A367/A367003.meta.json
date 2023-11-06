@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest prime factor of n*2^n-1.",
+  "id": "A367003",
+  "mentions": [
+    "A003261",
+    "A005420",
+    "A006530",
+    "A366899",
+    "A367002",
+    "A367004"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

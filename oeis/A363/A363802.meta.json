@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose digits can be interposed with one or more of the arithmetic operators +, -, *, /, with no parentheses or concatenation, to yield 10 as the result.",
+  "id": "A363802",
+  "mentions": [
+    "A052224",
+    "A342804",
+    "A357272"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

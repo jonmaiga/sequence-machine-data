@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k such that A366912(k) = n.",
+  "id": "A366913",
+  "mentions": [
+    "A064290",
+    "A364054",
+    "A366912"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

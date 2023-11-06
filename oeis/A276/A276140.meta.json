@@ -1,9 +1,10 @@
 {
   "description": "Replacing every \"mixed pair\" of integers with the absolute difference of the said pair of integers rebuilds the sequence itself (see \"Comments\" for the definition of a \"mixed pair\").",
   "id": "A276140",
-  "mentions": [],
+  "mentions": [
+    "A000027"
+  ],
   "tags": [
-    "base",
     "nonn"
   ],
   "terms": {

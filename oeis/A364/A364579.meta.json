@@ -1,0 +1,19 @@
+{
+  "description": "Fifth Lie-Betti number of a path graph on n vertices.",
+  "id": "A364579",
+  "mentions": [
+    "A088459",
+    "A360571",
+    "A361230",
+    "A362007"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

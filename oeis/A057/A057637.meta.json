@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the largest number k such that sigma(k) = n, where sigma is the sum of divisors function A000203, or 0 is no such k exists.",
+  "description": "a(n) is the largest number k such that sigma(k) = n, where sigma is the sum of divisors function A000203, or 0 if no such k exists.",
   "id": "A057637",
   "mentions": [
     "A000203",

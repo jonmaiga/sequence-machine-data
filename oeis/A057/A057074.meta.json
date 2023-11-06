@@ -1,5 +1,5 @@
 {
-  "description": "floor[12^12/n].",
+  "description": "a(n) = floor(12^12/n).",
   "id": "A057074",
   "mentions": [
     "A000007",
@@ -9,11 +9,12 @@
     "A057075"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

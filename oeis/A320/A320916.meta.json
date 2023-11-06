@@ -2,9 +2,12 @@
   "description": "Consider A010060 as a 2-adic number ...100110010110, then a(n) is its approximation up to 2^n.",
   "id": "A320916",
   "mentions": [
-    "A010060"
+    "A010060",
+    "A019300",
+    "A122570"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

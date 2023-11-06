@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with a coprime divisor shift.",
+  "id": "A366251",
+  "mentions": [
+    "A366219",
+    "A366330"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

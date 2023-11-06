@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime dividing 12^n + 1.",
+  "id": "A366719",
+  "mentions": [
+    "A020639",
+    "A178248",
+    "A366717",
+    "A366720"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

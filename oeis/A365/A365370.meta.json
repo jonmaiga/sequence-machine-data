@@ -1,0 +1,26 @@
+{
+  "description": "Positions of records in A365367.",
+  "id": "A365370",
+  "mentions": [
+    "A087704",
+    "A087705",
+    "A087706",
+    "A087707",
+    "A087708",
+    "A087709",
+    "A365341",
+    "A365342",
+    "A365367",
+    "A365368",
+    "A365371"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

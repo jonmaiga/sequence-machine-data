@@ -1,0 +1,27 @@
+{
+  "description": "The number of divisors of the 5-rough numbers (A007310).",
+  "id": "A366441",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A007310",
+    "A048691",
+    "A072048",
+    "A076400",
+    "A099774",
+    "A358040",
+    "A363194",
+    "A363195",
+    "A366442"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

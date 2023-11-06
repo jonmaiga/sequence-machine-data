@@ -2,9 +2,17 @@
   "description": "Expansion of (Product_{j>=1} (1-(-x)^j) - 1)^3 in powers of x.",
   "id": "A047655",
   "mentions": [
-    "A001482"
+    "A001482",
+    "A001488",
+    "A001490",
+    "A047265",
+    "A047638",
+    "A047649",
+    "A047654",
+    "A341243"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

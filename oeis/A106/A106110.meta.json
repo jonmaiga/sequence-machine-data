@@ -1,7 +1,11 @@
 {
   "description": "Primes with minimal digit > 6.",
   "id": "A106110",
-  "mentions": [],
+  "mentions": [
+    "A106107",
+    "A106111",
+    "A106112"
+  ],
   "tags": [
     "base",
     "nonn"

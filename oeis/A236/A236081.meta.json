@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..2 arrays with the sum of each 2X2 subblock maximum and minimum lexicographically nondecreasing rowwise and columnwise",
+  "description": "Number of (n+1) X (5+1) 0..2 arrays with the sum of each 2 X 2 subblock maximum and minimum lexicographically nondecreasing rowwise and columnwise.",
   "id": "A236081",
   "mentions": [
     "A236082"

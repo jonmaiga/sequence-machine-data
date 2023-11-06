@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / (6 - 5 * exp(x))^(2/5).",
+  "id": "A365568",
+  "mentions": [
+    "A094418",
+    "A346984",
+    "A365569",
+    "A365570"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

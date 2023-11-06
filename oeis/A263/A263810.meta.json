@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n = tau(n) * phi(n-2) + 1.",
+  "description": "Numbers k such that k = tau(k) * phi(k-2) + 1.",
   "id": "A263810",
   "mentions": [
     "A000005",

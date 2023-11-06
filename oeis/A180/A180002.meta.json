@@ -1,5 +1,5 @@
 {
-  "description": "a(n) red and b(n) blue balls in an urn; draw 5 balls without replacement; Probability(5 red balls) = Probability(3 red and 2 blue balls).",
+  "description": "Place a(n) red and b(n) blue balls in an urn; draw 5 balls without replacement; Probability(5 red balls) = Probability(3 red and 2 blue balls).",
   "id": "A180002",
   "mentions": [
     "A180003"

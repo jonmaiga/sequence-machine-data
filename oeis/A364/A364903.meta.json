@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A060778(k) = 7.",
+  "id": "A364903",
+  "mentions": [
+    "A000005",
+    "A060778",
+    "A364890"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

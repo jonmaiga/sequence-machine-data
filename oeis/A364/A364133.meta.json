@@ -1,0 +1,17 @@
+{
+  "description": "Index k of A007814(A000127(k)) at record terms.",
+  "id": "A364133",
+  "mentions": [
+    "A000127",
+    "A007814"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

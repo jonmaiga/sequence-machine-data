@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n into odd, pairwise coprime parts.",
+  "id": "A366853",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A007359",
+    "A018783",
+    "A051424",
+    "A055922",
+    "A066208",
+    "A078374",
+    "A101268",
+    "A168532",
+    "A337485",
+    "A366843",
+    "A366844",
+    "A366852"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Order of Aut^4(C_n) = Aut(Aut(Aut(Aut(C_n)))), where C_n is the cyclic group of order n.",
+  "id": "A364944",
+  "mentions": [
+    "A000010",
+    "A258615",
+    "A364129",
+    "A364917"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

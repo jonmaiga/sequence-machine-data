@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: row 1 is the semiprimes A001358; for m > 1, row m is the semiprimes that are the sum of two successive terms of row m-1.",
+  "id": "A365448",
+  "mentions": [
+    "A001358",
+    "A092192",
+    "A366167"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

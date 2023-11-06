@@ -1,5 +1,5 @@
 {
-  "description": "A051201(2^n).",
+  "description": "a(n) = A051201(2^n).",
   "id": "A078161",
   "mentions": [
     "A051201",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 31,
+    "offset": 0,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

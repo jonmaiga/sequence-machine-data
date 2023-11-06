@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the least positive integer not already in the sequence such that a(n) == a(n-1) (mod prime(n-1)).",
+  "id": "A364054",
+  "mentions": [
+    "A006509",
+    "A120944",
+    "A125717",
+    "A126706",
+    "A246547",
+    "A286708",
+    "A332785",
+    "A366470",
+    "A366475",
+    "A366477"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

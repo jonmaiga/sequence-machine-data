@@ -1,0 +1,40 @@
+{
+  "description": "Number of incomplete strict integer partitions of n, meaning not every number from 0 to n is the sum of some submultiset.",
+  "id": "A365831",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A006827",
+    "A046663",
+    "A047967",
+    "A055932",
+    "A080259",
+    "A126796",
+    "A188431",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A304792",
+    "A325781",
+    "A325799",
+    "A364350",
+    "A365543",
+    "A365545",
+    "A365658",
+    "A365661",
+    "A365663",
+    "A365830",
+    "A365918",
+    "A365921",
+    "A365923",
+    "A365924"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

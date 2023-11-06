@@ -1,0 +1,23 @@
+{
+  "description": "Binary encoding of the ones in the balanced ternary representation of Per Nørgård's \"infinity sequence\".",
+  "id": "A366793",
+  "mentions": [
+    "A004718",
+    "A007088",
+    "A117966",
+    "A117967",
+    "A117968",
+    "A289813",
+    "A323909",
+    "A366794"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Eigenvector of triangle A119245, so that a(n) = Sum_{k=0..[n\\2]} A119245(n,k)*a(k).",
+  "description": "Eigenvector of triangle A119245, so that a(n) = Sum_{k=0..floor(n/2)} A119245(n,k)*a(k).",
   "id": "A119244",
   "mentions": [
     "A118919",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

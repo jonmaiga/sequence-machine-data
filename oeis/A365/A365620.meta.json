@@ -1,0 +1,19 @@
+{
+  "description": "Number of integer grid points on the circle around (0,0) with radius A088959(n).",
+  "id": "A365620",
+  "mentions": [
+    "A046109",
+    "A071385",
+    "A088111",
+    "A088959"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

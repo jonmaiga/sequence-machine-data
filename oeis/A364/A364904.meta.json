@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = |Aut^n(C_32)|: order of the group obtained by applying G -> Aut(G) n times to the cyclic group of order 32.",
+  "id": "A364904",
+  "mentions": [
+    "A331921",
+    "A364917",
+    "A365051"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

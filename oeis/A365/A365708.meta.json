@@ -1,0 +1,18 @@
+{
+  "description": "a(n) for n >= 2 is the smallest term of A008578 m dividing n such that n/m is not a square, a(1) = 2.",
+  "id": "A365708",
+  "mentions": [
+    "A007913",
+    "A008578",
+    "A020639"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{i=0..n} (-2)^i*B(i)*binomial(n,i) where B(n) = Bell numbers A000110(n).",
+  "description": "a(n) = Sum_{i=0..n} (-2)^i*binomial(n,i)*B(i) where B(n) = Bell numbers A000110(n).",
   "id": "A124311",
   "mentions": [
     "A000110",

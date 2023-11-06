@@ -1,0 +1,18 @@
+{
+  "description": "Starting with a(1) = 2, the lexicographically earliest infinite sequence of distinct positive integers such that |a(n) - a(n-1)| is a divisor of a(n), and where |a(n) - a(n-1)| > 1.",
+  "id": "A365984",
+  "mentions": [
+    "A027750",
+    "A359799",
+    "A363576",
+    "A366111"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

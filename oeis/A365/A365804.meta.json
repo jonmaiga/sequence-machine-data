@@ -1,0 +1,20 @@
+{
+  "description": "Sum of bijective base-3 reverse of n (A263273) and its Dirichlet inverse.",
+  "id": "A365804",
+  "mentions": [
+    "A030102",
+    "A263273",
+    "A323239",
+    "A365712",
+    "A365803"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

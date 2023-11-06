@@ -1,0 +1,26 @@
+{
+  "description": "3-abundant numbers k such that k/(sigma(k)-3*k) is an integer.",
+  "id": "A364976",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A005820",
+    "A027687",
+    "A055153",
+    "A068403",
+    "A153501",
+    "A160320",
+    "A218404",
+    "A218406",
+    "A329189",
+    "A364977"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

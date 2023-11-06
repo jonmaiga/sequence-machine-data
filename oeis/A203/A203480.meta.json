@@ -1,5 +1,5 @@
 {
-  "description": "v(n+1)/v(n), where v=A203479.",
+  "description": "a(n) = v(n+1)/v(n), where v = A203479.",
   "id": "A203480",
   "mentions": [
     "A093883",
@@ -8,11 +8,12 @@
     "A203481"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 11,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

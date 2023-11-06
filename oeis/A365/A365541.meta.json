@@ -1,0 +1,39 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of subsets of {1..n} containing two distinct elements summing to k = 3..2n-1.",
+  "id": "A365541",
+  "mentions": [
+    "A000009",
+    "A005408",
+    "A007865",
+    "A008967",
+    "A046663",
+    "A068911",
+    "A085489",
+    "A088809",
+    "A093971",
+    "A095944",
+    "A151897",
+    "A167762",
+    "A238628",
+    "A288728",
+    "A326083",
+    "A364272",
+    "A364534",
+    "A365376",
+    "A365377",
+    "A365381",
+    "A365543",
+    "A365544",
+    "A365661",
+    "A365663"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

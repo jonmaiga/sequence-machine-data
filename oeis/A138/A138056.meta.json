@@ -1,5 +1,5 @@
 {
-  "description": "Levels of substitution A103684 (based on the morphism f: 1->{1,2}, 2->{1,3}, 3->{3}) like Markov substitution taken as polynomials p(x,n)]and coefficients of the differential polynomials returned as q(x,n) =dp(x,n)dx coefficients. ( first zero omitted).",
+  "description": "Levels of substitution A103684 (based on the morphism f: 1->{1,2}, 2->{1,3}, 3->{3}) like Markov substitution taken as polynomials p(x,n)]and coefficients of the differential polynomials returned as q(x,n) =dp(x,n)dx coefficients (first zero omitted).",
   "id": "A138056",
   "mentions": [
     "A103684"

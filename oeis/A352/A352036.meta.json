@@ -2,8 +2,11 @@
   "description": "Sum of the 8th powers of the odd proper divisors of n.",
   "id": "A352036",
   "mentions": [
+    "A000035",
+    "A013667",
     "A091570",
     "A091954",
+    "A321812",
     "A351647",
     "A352031",
     "A352032",
@@ -14,12 +17,13 @@
     "A352038"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

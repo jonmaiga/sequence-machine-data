@@ -1,15 +1,18 @@
 {
-  "description": "a(n)^3 is smallest cube that contains n consecutive internal 0's.",
+  "description": "a(n)^3 is smallest cube that contains exactly n consecutive internal 0's and no other 0's.",
   "id": "A066391",
   "mentions": [
     "A066390"
   ],
   "tags": [
+    "base",
+    "less",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

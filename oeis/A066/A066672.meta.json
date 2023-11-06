@@ -1,5 +1,5 @@
 {
-  "description": "Exponents of powers of 2 displayed in A066671: 2^a[n] is the largest even divisor of A066669(n).",
+  "description": "Exponents of powers of 2 displayed in A066671: 2^a(n) is the largest even divisor of A066669(n).",
   "id": "A066672",
   "mentions": [
     "A000010",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

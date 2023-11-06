@@ -1,0 +1,15 @@
+{
+  "description": "Number of parking functions of length n with cars parking at most 4 spots away from their preferred spot.",
+  "id": "A365627",
+  "mentions": [
+    "A365623"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

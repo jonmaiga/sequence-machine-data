@@ -1,0 +1,17 @@
+{
+  "description": "Array read by antidiagonals, where each row is the coordination sequence for the underlying graph of the polyominoids occurring in the corresponding row of A366766.",
+  "id": "A366768",
+  "mentions": [
+    "A366766",
+    "A366767"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

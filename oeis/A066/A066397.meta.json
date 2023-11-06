@@ -1,8 +1,8 @@
 {
-  "description": "Reversion of (1 - sqrt(1 - 4*x)) / (2*x) (the o.g.f. for the Catalan numbers A000108) as if it were an e.g.f.",
+  "description": "Reversion of 1 / sqrt(1 - 4*x) (the o.g.f. for the central binomial coefficients A000984) as if it were an e.g.f.",
   "id": "A066397",
   "mentions": [
-    "A000108"
+    "A000984"
   ],
   "tags": [
     "sign"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

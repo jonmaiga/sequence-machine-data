@@ -1,5 +1,5 @@
 {
-  "description": "sech(tan(tan(x)))=1-1/2!*x^2-11/4!*x^4-253/6!*x^6-9015/8!*x^8...",
+  "description": "sech(tan(tan(x))) = 1-1/2!*x^2-11/4!*x^4-253/6!*x^6-9015/8!*x^8 ... .",
   "id": "A012154",
   "mentions": [],
   "tags": [

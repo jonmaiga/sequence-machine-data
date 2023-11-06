@@ -1,5 +1,5 @@
 {
-  "description": "Maximal run length in base 15 representation of n.",
+  "description": "Maximal run length in base-15 representation of n.",
   "id": "A043289",
   "mentions": [
     "A043276",

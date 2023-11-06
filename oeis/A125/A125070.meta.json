@@ -1,11 +1,15 @@
 {
-  "description": "a(n) = number of nonzero exponents in the prime-factorization of n which are not primes.",
+  "description": "a(n) = number of nonzero exponents in the prime factorization of n which are not primes.",
   "id": "A125070",
   "mentions": [
     "A001221",
+    "A005171",
+    "A077761",
     "A125071"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

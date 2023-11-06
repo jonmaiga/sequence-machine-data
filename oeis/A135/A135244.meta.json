@@ -1,5 +1,5 @@
 {
-  "description": "Aliquot predecessors with the largest values.",
+  "description": "Largest m such that the sum of the aliquot parts of m (A001065) equals n, or 0 if no such number exists.",
   "id": "A135244",
   "mentions": [
     "A001065",

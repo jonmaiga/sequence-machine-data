@@ -1,0 +1,34 @@
+{
+  "description": "Numbers k for which sqrt(k/2) divides k and the symmetric representation of sigma(k) consists of a single part and its width at the diagonal equals 1.",
+  "id": "A365265",
+  "mentions": [
+    "A001105",
+    "A003056",
+    "A004171",
+    "A014210",
+    "A014234",
+    "A071562",
+    "A104089",
+    "A174973",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A238443",
+    "A249223",
+    "A250068",
+    "A319796",
+    "A320137",
+    "A361903",
+    "A361905"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

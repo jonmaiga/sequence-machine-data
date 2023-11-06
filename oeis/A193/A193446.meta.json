@@ -2,7 +2,9 @@
   "description": "a(n) = n! * Sum_{k=1..n-1} H(k)*H(n-k) for n>=2, where H(n) is the n-th harmonic number.",
   "id": "A193446",
   "mentions": [
+    "A001008",
     "A001706",
+    "A002805",
     "A193445"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 19,
+    "size": 20,
     "source": "joeis"
   }
 }

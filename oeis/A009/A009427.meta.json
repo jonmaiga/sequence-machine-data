@@ -1,7 +1,14 @@
 {
-  "description": "Expansion of log(1+x)/cos(tan(x)).",
+  "description": "Expansion of e.g.f. log(1+x)/cos(tan(x)).",
   "id": "A009427",
-  "mentions": [],
+  "mentions": [
+    "A009405",
+    "A009420",
+    "A009422",
+    "A009426",
+    "A009428",
+    "A009439"
+  ],
   "tags": [
     "easy",
     "formulas",

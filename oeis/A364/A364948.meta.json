@@ -1,0 +1,21 @@
+{
+  "description": "Perfect powers that are equal to the sum of the first k perfect powers > 1 for some k.",
+  "id": "A364948",
+  "mentions": [
+    "A001597",
+    "A013918",
+    "A013921",
+    "A013932"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

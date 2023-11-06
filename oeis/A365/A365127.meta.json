@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of a prime number and a fourth power of a nonnegative integer.",
+  "id": "A365127",
+  "mentions": [
+    "A014089",
+    "A307646",
+    "A365126",
+    "A365166",
+    "A365168"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

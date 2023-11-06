@@ -2,18 +2,24 @@
   "description": "Riordan array (1, 2*sqrt(3)*sin(arcsin(3*sqrt(3)*x/2)/3)/3).",
   "id": "A124305",
   "mentions": [
+    "A001477",
+    "A001764",
+    "A006013",
     "A047749",
+    "A055998",
     "A098746",
+    "A111396",
     "A124304"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "We exclude powers of 10 and numbers of the form 11...111 in which the number of 1's is a power of 10. Then a(n) is the smallest number (not excluded) whose trajectory under iteration of \"x -> sum of n-th powers of digits of x\" reaches 1.",
+  "id": "A364786",
+  "mentions": [
+    "A007770",
+    "A035497",
+    "A046519"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

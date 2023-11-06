@@ -1,0 +1,49 @@
+{
+  "description": "Number of subsets of {1..n} whose greatest element cannot be written as a (strictly) positive linear combination of the others.",
+  "id": "A365044",
+  "mentions": [
+    "A006951",
+    "A007865",
+    "A066062",
+    "A085489",
+    "A088809",
+    "A093971",
+    "A124506",
+    "A151897",
+    "A237113",
+    "A237668",
+    "A288728",
+    "A308546",
+    "A324736",
+    "A326020",
+    "A326080",
+    "A326083",
+    "A341507",
+    "A364272",
+    "A364349",
+    "A364350",
+    "A364534",
+    "A364755",
+    "A364756",
+    "A364839",
+    "A364913",
+    "A364914",
+    "A365042",
+    "A365043",
+    "A365045",
+    "A365046",
+    "A365069",
+    "A365070",
+    "A365071"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

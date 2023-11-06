@@ -2,10 +2,12 @@
   "description": "Decimal expansion of x > 0 satisfying e*x + 1 = exp(x).",
   "id": "A202350",
   "mentions": [
+    "A001113",
     "A202320"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

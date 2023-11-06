@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that, for n > 2, a(n) shares a factor with a(n-1) and a(n+a(n)).",
+  "id": "A365259",
+  "mentions": [
+    "A027748",
+    "A064413",
+    "A365453",
+    "A366021"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

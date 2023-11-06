@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of 7^n-1.",
+  "id": "A366633",
+  "mentions": [
+    "A000005",
+    "A024075",
+    "A057954",
+    "A366621",
+    "A366634"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

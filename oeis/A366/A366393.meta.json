@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest number that can be obtained by deleting n digits from A007908(n).",
+  "id": "A366393",
+  "mentions": [
+    "A007908",
+    "A011557",
+    "A055642",
+    "A366394"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

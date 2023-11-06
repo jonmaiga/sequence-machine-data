@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A349915(A163511(n)), where A349915 is the Dirichlet inverse of the arithmetic mean between the number and sum of the odd divisors of n.",
+  "id": "A366875",
+  "mentions": [
+    "A113415",
+    "A163511",
+    "A349915",
+    "A366873",
+    "A366878"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

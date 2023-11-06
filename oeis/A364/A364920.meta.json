@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least prime p > prime(n) such that p * prime(n)# + 1 is prime, where q# denotes the product of all primes <= q.",
+  "id": "A364920",
+  "mentions": [
+    "A002110"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

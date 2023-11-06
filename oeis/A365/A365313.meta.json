@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers (A246655) q such that 3 is a nonzero square in the finite field F_q.",
+  "id": "A365313",
+  "mentions": [
+    "A085759",
+    "A097933",
+    "A246655",
+    "A365082",
+    "A366526"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

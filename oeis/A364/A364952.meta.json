@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A364557, which is Möbius transform of A005941.",
+  "id": "A364952",
+  "mentions": [
+    "A000079",
+    "A000720",
+    "A005941",
+    "A364557",
+    "A364574",
+    "A364953"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

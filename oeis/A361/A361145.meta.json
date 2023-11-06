@@ -1,0 +1,23 @@
+{
+  "description": "Number of downwards peaks in row 2n-1 of the Sierpinski triangle.",
+  "id": "A361145",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A047999",
+    "A048881",
+    "A053645",
+    "A209229"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

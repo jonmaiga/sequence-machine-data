@@ -1,0 +1,25 @@
+{
+  "description": "The number of prime factors of the cube root of the largest unitary divisor of n that is a cube (A366126), counted with multiplicity.",
+  "id": "A366125",
+  "mentions": [
+    "A001222",
+    "A175676",
+    "A295662",
+    "A295883",
+    "A318673",
+    "A350386",
+    "A359472",
+    "A366124",
+    "A366126"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

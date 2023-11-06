@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if the largest divisor of n <= sqrt(n) is a power of 2, otherwise 0.",
+  "id": "A365716",
+  "mentions": [
+    "A033676",
+    "A209229",
+    "A365406",
+    "A365605"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

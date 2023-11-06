@@ -1,0 +1,26 @@
+{
+  "description": "Number of fixed (4,2)-polyominoids with n cells.",
+  "id": "A366335",
+  "mentions": [
+    "A000012",
+    "A001168",
+    "A001931",
+    "A075678",
+    "A096267",
+    "A151830",
+    "A365560",
+    "A365562",
+    "A366334",
+    "A366337"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

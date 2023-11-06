@@ -2,6 +2,7 @@
   "description": "Nimsum n + 2.",
   "id": "A004443",
   "mentions": [
+    "A002162",
     "A003987",
     "A004442",
     "A256008",

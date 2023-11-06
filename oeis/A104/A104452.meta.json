@@ -3,6 +3,8 @@
   "id": "A104452",
   "mentions": [
     "A000688",
+    "A021002",
+    "A048651",
     "A063966",
     "A104404",
     "A104407",
@@ -11,11 +13,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

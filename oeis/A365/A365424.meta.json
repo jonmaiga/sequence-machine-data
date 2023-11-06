@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(3^k) = 3 for k >= 1, and for any other n, a(n) is the last prime that is selected when the value of A356867(n) is computed with a greedy algorithm.",
+  "id": "A365424",
+  "mentions": [
+    "A000040",
+    "A000244",
+    "A005940",
+    "A053735",
+    "A290251",
+    "A356867",
+    "A365459"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers equal to n^k * k^n, where n,k>1.",
+  "description": "Numbers of the form n^k * k^n, where n,k > 1.",
   "id": "A146748",
   "mentions": [
     "A007758",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

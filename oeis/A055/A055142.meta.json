@@ -1,8 +1,9 @@
 {
-  "description": "E.g.f.: exp(x)*sqrt(1-2x).",
+  "description": "Expansion of e.g.f.: exp(x)*sqrt(1-2x).",
   "id": "A055142",
   "mentions": [
     "A001147",
+    "A053871",
     "A055141"
   ],
   "tags": [

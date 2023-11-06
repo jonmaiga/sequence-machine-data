@@ -1,5 +1,5 @@
 {
-  "description": "Number of one-sided 5-dimensional polyominoes with n cells.",
+  "description": "Number of one-sided, properly 5-dimensional polyominoes with n cells.",
   "id": "A006761",
   "mentions": [
     "A195738",

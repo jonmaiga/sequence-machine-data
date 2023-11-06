@@ -2,15 +2,18 @@
   "description": "f(n,n+3) where f is given in A034261.",
   "id": "A034270",
   "mentions": [
-    "A034261"
+    "A000302",
+    "A034261",
+    "A249521"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

@@ -1,15 +1,18 @@
 {
-  "description": "Number of self-dual equivalence classes of threshold functions of n or fewer variables, number of majority (i.e., decisive and weighted) games with n players.",
+  "description": "Number of NP-equivalence classes of self-dual threshold functions of n or fewer variables ; number of majority (i.e., decisive and weighted) games with n players.",
   "id": "A001532",
   "mentions": [
     "A000371",
     "A000617",
     "A002077",
+    "A002080",
+    "A003184",
     "A109456",
     "A132183",
     "A189359"
   ],
   "tags": [
+    "formulas",
     "more",
     "nice",
     "nonn"

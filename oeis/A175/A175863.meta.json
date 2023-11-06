@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n with property that 2^(n-1)=1(mod n) and (x-1)=2*n; where 2^(n-1)=x(mod n*n)",
+  "description": "Numbers k such that 2^(k-1) == 1 (mod k) and 2^(k-1) == (2*k + 1) (mod k^2).",
   "id": "A175863",
   "mentions": [
     "A128465"
   ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

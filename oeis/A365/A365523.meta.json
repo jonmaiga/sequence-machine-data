@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 6*log(2) - 4.",
+  "id": "A365523",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A002162",
+    "A016687"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

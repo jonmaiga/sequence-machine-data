@@ -1,5 +1,5 @@
 {
-  "description": "Balanced labeled graphs.",
+  "description": "a(n) is the number of alpha-labelings of graphs with n edges.",
   "id": "A005193",
   "mentions": [
     "A034384",

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A163511(k) is an eleventh power.",
+  "id": "A366391",
+  "mentions": [
+    "A008455",
+    "A153893",
+    "A163511",
+    "A243071",
+    "A332214",
+    "A332817",
+    "A365801",
+    "A365802",
+    "A365805",
+    "A365808",
+    "A366287"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

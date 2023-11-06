@@ -1,0 +1,17 @@
+{
+  "description": "Numbers x such that (x^2 AND x) is not a square, where AND is the bitwise logical-and operation.",
+  "id": "A366202",
+  "mentions": [
+    "A000290",
+    "A213541"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

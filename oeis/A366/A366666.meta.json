@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of 9^n+1.",
+  "id": "A366666",
+  "mentions": [
+    "A000203",
+    "A057935",
+    "A062396",
+    "A366657",
+    "A366662",
+    "A366665"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,9 @@
   "description": "Sum of the 5th powers of the odd proper divisors of n.",
   "id": "A352033",
   "mentions": [
+    "A000035",
+    "A013664",
+    "A051002",
     "A091570",
     "A091954",
     "A351647",
@@ -14,12 +17,13 @@
     "A352038"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

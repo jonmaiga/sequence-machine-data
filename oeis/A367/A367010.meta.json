@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of the divisors of n*2^n + 1.",
+  "id": "A367010",
+  "mentions": [
+    "A000203",
+    "A002064",
+    "A063515",
+    "A367007",
+    "A367009"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

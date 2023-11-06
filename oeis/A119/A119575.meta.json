@@ -1,16 +1,18 @@
 {
-  "description": "Binomial(2*n,n)*(n+3)^2/(n+1).",
+  "description": "a(n) = binomial(2*n,n)*(n+3)^2/(n+1).",
   "id": "A119575",
   "mentions": [
-    "A000984"
+    "A000984",
+    "A087197"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "joeis"
   }
 }

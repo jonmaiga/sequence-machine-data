@@ -1,5 +1,5 @@
 {
-  "description": "1 + Sum_{n=1..inf} a_n x^n = Product_{n=1..inf} (1-x^n)^prime(n).",
+  "description": "1 + Sum_{n>=1} a_n x^n = Product_{n>=1} (1-x^n)^prime(n).",
   "id": "A007441",
   "mentions": [
     "A030009",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }
