@@ -1,5 +1,5 @@
 {
-  "description": "Following is the triangle in which the n-th row contains n numbers with n divisors that lie between A079835(n) and A079835(n+1); sequence gives the first column.",
+  "description": "First column of the triangle in which the n-th row contains n numbers with n divisors that lie between A079835(n) and A079835(n+1).",
   "id": "A079836",
   "mentions": [
     "A030513",

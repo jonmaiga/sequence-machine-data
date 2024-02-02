@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of [n] such that p(i), p(i+2), p(i+4),... form an updown sequence for i in {1,2}.",
+  "description": "Number of permutations p of [n] such that p(i), p(i+2), p(i+4),... form an up-down sequence for i in {1,2}.",
   "id": "A361648",
   "mentions": [
     "A000111",

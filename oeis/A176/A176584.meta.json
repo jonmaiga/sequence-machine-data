@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form p=n^3+Largest square, (Largest square <= n^3).",
+  "description": "Primes of the form p = k^3 + (largest square <= k^3).",
   "id": "A176584",
   "mentions": [
     "A065733",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Fixed points of A368207.",
+  "id": "A368341",
+  "mentions": [
+    "A004171",
+    "A368207"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

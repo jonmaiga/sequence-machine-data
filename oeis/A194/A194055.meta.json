@@ -1,5 +1,5 @@
 {
-  "description": "Natural fractal sequence of A000071 (Fibonacci numbers minus 1; a rectangular array, by antidiagonals.",
+  "description": "Natural fractal sequence of A000071 (Fibonacci numbers minus 1).",
   "id": "A194055",
   "mentions": [
     "A000071",
@@ -8,8 +8,7 @@
     "A194057"
   ],
   "tags": [
-    "nonn",
-    "tabl"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

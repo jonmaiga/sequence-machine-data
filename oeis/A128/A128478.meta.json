@@ -1,5 +1,5 @@
 {
-  "description": "Structure constants for certain radical benzenoidal structures (see Cash and Dias paper for precise definition).",
+  "description": "Structure counts for certain radical benzenoidal structures (see Cash and Dias paper for precise definition).",
   "id": "A128478",
   "mentions": [
     "A128475",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "bref",
+    "more",
     "nonn"
   ],
   "terms": {

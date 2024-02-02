@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of weak ascent sequences (of any length) with n weak ascents.",
+  "id": "A369322",
+  "mentions": [
+    "A336070",
+    "A369321"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

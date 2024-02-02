@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(n^(n - 1) / 2) for n > 0 and otherwise 0.",
+  "id": "A369026",
+  "mentions": [
+    "A000169",
+    "A369025",
+    "A369027"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

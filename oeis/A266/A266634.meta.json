@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5Xn arrays containing n copies of 0..5-1 with no element 1 greater than its north, west, southeast or southwest neighbor modulo 5 and the upper left element equal to 0.",
+  "description": "Number of 5 X n arrays containing n copies of 0..5-1 with no element 1 greater than its north, west, southeast or southwest neighbor modulo 5 and the upper left element equal to 0.",
   "id": "A266634",
   "mentions": [
     "A266632"

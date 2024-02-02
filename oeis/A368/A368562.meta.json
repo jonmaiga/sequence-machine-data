@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x - A(x)) = x^2 - x^3.",
+  "id": "A368562",
+  "mentions": [
+    "A190761"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

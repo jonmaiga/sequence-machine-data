@@ -1,7 +1,10 @@
 {
-  "description": "Primes of form 4p-1, p a prime.",
+  "description": "Primes of the form 4p - 1, p a prime.",
   "id": "A162857",
-  "mentions": [],
+  "mentions": [
+    "A003173",
+    "A062737"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,18 @@
+{
+  "description": "Table read by downward antidiagonals: ranked maximum r likelihood of the number of distinguishable marbles in an urn if repeated random sampling of one marble with replacement yields n different marbles before the first repeated marble.",
+  "id": "A368563",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A111097"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

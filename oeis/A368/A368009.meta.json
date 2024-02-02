@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 53/31, being the highest possible points won/lost ratio in a completed 3-set tennis match which the player loses.",
+  "id": "A368009",
+  "mentions": [
+    "A021428",
+    "A368008",
+    "A368146",
+    "A368476"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

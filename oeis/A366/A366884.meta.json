@@ -1,0 +1,23 @@
+{
+  "description": "Number of branching factorizations of the least integer of each prime signature (A025487).",
+  "id": "A366884",
+  "mentions": [
+    "A007317",
+    "A025487",
+    "A025488",
+    "A052886",
+    "A098719",
+    "A181815",
+    "A277120",
+    "A366377"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

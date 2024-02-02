@@ -1,15 +1,16 @@
 {
-  "description": "Largest prime which can be formed from digits of n, or 0 if no prime exists.",
+  "description": "Largest prime which can be formed from digits of n, or 0 if no such prime exists.",
   "id": "A101991",
   "mentions": [],
   "tags": [
     "base",
     "easy",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

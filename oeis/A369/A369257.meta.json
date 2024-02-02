@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of odd divisors of n that have an even number of prime factors with multiplicity.",
+  "id": "A369257",
+  "mentions": [
+    "A000265",
+    "A001222",
+    "A001227",
+    "A038548",
+    "A046337",
+    "A053866",
+    "A353557",
+    "A369258",
+    "A369454"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

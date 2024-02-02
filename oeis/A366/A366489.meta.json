@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n^13 - n)/13.",
+  "id": "A366489",
+  "mentions": [
+    "A000217",
+    "A007290",
+    "A208536",
+    "A208537",
+    "A366488",
+    "A366490",
+    "A366491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

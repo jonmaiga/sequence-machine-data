@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into nonzero triangular numbers where every part appears at least 14 times",
+  "description": "Number of partitions of n into nonzero triangular numbers where every part appears at least 14 times.",
   "id": "A161115",
   "mentions": [],
   "tags": [

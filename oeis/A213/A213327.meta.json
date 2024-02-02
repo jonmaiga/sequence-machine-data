@@ -1,5 +1,5 @@
 {
-  "description": "Analog of Fermat quotients: a(n) = ((round((phi_2)^p)-2)/p, where phi_2 is silver ratio 1+sqrt(2) and p = prime(n).",
+  "description": "Analog of Fermat quotients: a(n) = (round((phi_2)^p)-2)/p, where phi_2 is silver ratio 1+sqrt(2) and p = prime(n).",
   "id": "A213327",
   "mentions": [
     "A007663",

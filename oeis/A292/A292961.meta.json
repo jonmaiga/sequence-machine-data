@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array by antidiagonals: T(n,m) = rank of n*(r+m) when all the numbers k*(r+h), where r = -1+(1+sqrt(5))/2), k>=1, h>=0, are jointly ranked.",
+  "description": "Rectangular array by antidiagonals: T(n,m) = rank of n*(r+m) when all the numbers k*(r+h), where r = -1+(1+sqrt(5))/2, k>=1, h>=0, are jointly ranked.",
   "id": "A292961",
   "mentions": [
     "A182801",

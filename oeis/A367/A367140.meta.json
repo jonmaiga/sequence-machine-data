@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{prime p|n} p^A001222(n).",
+  "id": "A367140",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A367167"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

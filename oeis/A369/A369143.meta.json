@@ -1,0 +1,41 @@
+{
+  "description": "Number of labeled simple graphs with n edges and n vertices such that it is not possible to choose a different vertex from each edge (non-choosable).",
+  "id": "A369143",
+  "mentions": [
+    "A000085",
+    "A000088",
+    "A000612",
+    "A006125",
+    "A016031",
+    "A057500",
+    "A058891",
+    "A062740",
+    "A116508",
+    "A129271",
+    "A133686",
+    "A137916",
+    "A333331",
+    "A367769",
+    "A367863",
+    "A367867",
+    "A367868",
+    "A367869",
+    "A367901",
+    "A367903",
+    "A367907",
+    "A368596",
+    "A368600",
+    "A368730",
+    "A368835",
+    "A369144"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

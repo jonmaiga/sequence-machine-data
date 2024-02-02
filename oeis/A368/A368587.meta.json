@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} (-1)^(n-k) * binomial(k+4,5) / k!.",
+  "id": "A368587",
+  "mentions": [
+    "A009574",
+    "A368576",
+    "A368585",
+    "A368586"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

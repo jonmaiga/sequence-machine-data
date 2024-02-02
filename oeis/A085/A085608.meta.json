@@ -2,11 +2,13 @@
   "description": "Index of the smallest prime starting with n.",
   "id": "A085608",
   "mentions": [
+    "A000720",
     "A018800"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "A permutation related to the Christmas tree pattern map (A367508): a(1) = 1, and for any n > 1, a(n) = A053644(n) + A367562(n-1).",
+  "id": "A368427",
+  "mentions": [
+    "A053644",
+    "A088163",
+    "A367508",
+    "A367562",
+    "A368428"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

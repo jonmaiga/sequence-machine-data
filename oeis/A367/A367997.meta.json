@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the least probability that a particular free polyomino with n cells appears as the image of a simple random walk on the square lattice.",
+  "id": "A367997",
+  "mentions": [
+    "A367994",
+    "A367995",
+    "A367996",
+    "A367999",
+    "A368003"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

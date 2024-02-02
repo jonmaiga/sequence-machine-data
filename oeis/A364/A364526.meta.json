@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into parts not greater than sqrt(n).",
+  "id": "A364526",
+  "mentions": [
+    "A011782",
+    "A097356"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

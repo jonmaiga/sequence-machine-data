@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = phi(k^n-1)/n, where phi is Euler's totient function (A000010), n >= 1, k >= 2.",
+  "id": "A369291",
+  "mentions": [
+    "A000010",
+    "A011260",
+    "A027385",
+    "A027695",
+    "A027741",
+    "A027743",
+    "A027744",
+    "A027745",
+    "A295496",
+    "A295497",
+    "A319166",
+    "A319183",
+    "A319210",
+    "A319213",
+    "A319214"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

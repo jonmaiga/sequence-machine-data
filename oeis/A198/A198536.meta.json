@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2nX4 0..4 arrays with values 0..4 introduced in row major order and each element equal to an even number of horizontal and vertical neighbors.",
+  "description": "Number of 2n X 4 0..4 arrays with values 0..4 introduced in row major order and each element equal to an even number of horizontal and vertical neighbors.",
   "id": "A198536",
   "mentions": [
     "A198538"

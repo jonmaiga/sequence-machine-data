@@ -1,7 +1,8 @@
 {
-  "description": "a(n)-th Fibonorial number (product of first a(n) nonzero Fibonacci numbers) - 1 is prime.",
+  "description": "Numbers k such that A003266(k) - 1 is prime.",
   "id": "A059709",
   "mentions": [
+    "A003266",
     "A053408"
   ],
   "tags": [

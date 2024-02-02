@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of the highest power of two that divides the sum of divisors of n.",
+  "id": "A366889",
+  "mentions": [
+    "A000203",
+    "A082903",
+    "A336937",
+    "A359548",
+    "A359549"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

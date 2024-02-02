@@ -1,5 +1,5 @@
 {
-  "description": "Lodumo_5 of Fibonacci numbers .",
+  "description": "Lodumo_5 of Fibonacci numbers.",
   "id": "A160081",
   "mentions": [
     "A000045",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

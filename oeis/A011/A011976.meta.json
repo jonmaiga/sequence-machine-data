@@ -1,13 +1,18 @@
 {
   "description": "Covering numbers C(n,4,2).",
   "id": "A011976",
-  "mentions": [],
+  "mentions": [
+    "A011975",
+    "A011977",
+    "A240115"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 4,
-    "size": 17,
+    "size": 59,
     "source": "oeis-entry"
   }
 }

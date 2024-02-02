@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers k less than n and not dividing n such that n-k is squarefree.",
+  "id": "A368677",
+  "mentions": [
+    "A008683",
+    "A368673",
+    "A368679",
+    "A368680"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

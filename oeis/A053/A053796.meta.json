@@ -2,8 +2,7 @@
   "description": "a(n) = (n^2+n) modulo 5.",
   "id": "A053796",
   "mentions": [
-    "A053793",
-    "A070341"
+    "A053793"
   ],
   "tags": [
     "easy",

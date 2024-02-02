@@ -1,0 +1,20 @@
+{
+  "description": "Characteristic function of non-refactorable numbers (A159973).",
+  "id": "A368625",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A159973",
+    "A336040"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

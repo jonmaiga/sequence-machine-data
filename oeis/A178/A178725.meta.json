@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: row n gives coefficients in expansion of Product_{k=1..n} (1 + x^(4*k - 1) for n >= 0.",
+  "description": "Irregular triangle read by rows: row n gives coefficients in expansion of Product_{k=1..n} (1 + x^(4*k - 1)) for n >= 0.",
   "id": "A178725",
   "mentions": [
     "A142724",

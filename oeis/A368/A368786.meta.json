@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the first prime p such that, if q are r are the next two primes, p + r, p + q, q + r and p + q + r all have n prime divisors, counted with multiplicity.",
+  "id": "A368786",
+  "mentions": [
+    "A001222",
+    "A013634",
+    "A368785"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of permutations of (1, 2, ..., n) with longest monotonic subsequence of length k (1<=k<=n).",
+  "id": "A366503",
+  "mentions": [
+    "A000142",
+    "A047874"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Set of n such that the prime quadruple p(n), p(n+1), p(n+2), p(n+3) does not have a solution for the congruence p(n+1)^x - p(n)^x == p(n+2) mod p(n+3).",
+  "description": "Set of n such that the prime quadruple prime(n), prime(n+1), prime(n+2), prime(n+3) does not have a solution for the congruence prime(n+1)^x - prime(n)^x == prime(n+2) mod prime(n+3).",
   "id": "A082374",
   "mentions": [
     "A082371"

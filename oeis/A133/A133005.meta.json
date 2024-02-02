@@ -3,17 +3,16 @@
   "id": "A133005",
   "mentions": [
     "A132092",
-    "A132106",
+    "A132099",
     "A133004"
   ],
   "tags": [
     "frac",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

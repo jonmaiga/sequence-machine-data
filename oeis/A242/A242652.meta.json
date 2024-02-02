@@ -1,5 +1,5 @@
 {
-  "description": "Imaginary part of Product_{k=0..n) (i-k), where i=sqrt(-1).",
+  "description": "Imaginary part of Product_{k=0..n} (i-k), where i=sqrt(-1).",
   "id": "A242652",
   "mentions": [
     "A009454",

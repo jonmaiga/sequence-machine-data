@@ -1,5 +1,5 @@
 {
-  "description": "If n = product(k>=1} p(k)^b(n,k), where p(k) is the k-th prime and where each b(n,k) is a nonnegative integer, then: If n occurs earlier in the sequence, then a(n) = product{k>=2} p(k-1)^b(n,k); If n does not occur earlier in the sequence, then a(n) = product{k>=1} p(k+1)^b(n,k).",
+  "description": "If n = product{k>=1} p(k)^b(n,k), where p(k) is the k-th prime and where each b(n,k) is a nonnegative integer, then: If n occurs earlier in the sequence, then a(n) = product{k>=2} p(k-1)^b(n,k); If n does not occur earlier in the sequence, then a(n) = product{k>=1} p(k+1)^b(n,k).",
   "id": "A118306",
   "mentions": [
     "A003961",

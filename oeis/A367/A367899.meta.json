@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of limit_{n->oo} Product_{k=1..n} BarnesG(k/n)^(k/n^2).",
+  "id": "A367899",
+  "mentions": [
+    "A074962",
+    "A367842",
+    "A367898"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

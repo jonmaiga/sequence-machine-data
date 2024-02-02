@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that 2^n - 9 is prime.",
+  "description": "Numbers k such that 2^k - 9 is prime.",
   "id": "A059610",
   "mentions": [
     "A000043",
     "A050414",
+    "A057220",
     "A059608",
     "A059609",
     "A059611",
@@ -11,7 +12,8 @@
     "A096817",
     "A096818",
     "A096819",
-    "A096820"
+    "A096820",
+    "A356826"
   ],
   "tags": [
     "more",
@@ -19,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

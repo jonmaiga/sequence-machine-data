@@ -1,0 +1,22 @@
+{
+  "description": "LCM-transform of binary Gray code (A003188).",
+  "id": "A369041",
+  "mentions": [
+    "A000523",
+    "A003188",
+    "A014963",
+    "A368900",
+    "A369042",
+    "A369043",
+    "A369044"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

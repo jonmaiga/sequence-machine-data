@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of sigma(n) / A276086(n), where A276086 is the primorial base exp-function.",
+  "id": "A369446",
+  "mentions": [
+    "A000203",
+    "A276086",
+    "A324644",
+    "A369445"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

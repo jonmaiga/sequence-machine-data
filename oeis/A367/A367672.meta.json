@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the denominator of the probability that the free polyomino with binary code A246521(n+1) appears in the version of the Eden growth model described in A367671 when n square cells have been added.",
+  "id": "A367672",
+  "mentions": [
+    "A000105",
+    "A246521",
+    "A335573",
+    "A367671",
+    "A367674",
+    "A367675",
+    "A367676",
+    "A367761"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

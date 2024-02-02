@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of numbers that can be obtained by replacing any positive number without leading zeros, say m, appearing in the decimal expansion of n by one of the divisors of m.",
+  "id": "A368195",
+  "mentions": [
+    "A000005",
+    "A368194",
+    "A368314"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

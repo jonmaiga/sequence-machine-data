@@ -2,9 +2,11 @@
   "description": "Sum of the divisors of n that are prime or the product of 2 (not necessarily distinct) primes.",
   "id": "A350337",
   "mentions": [
+    "A008472",
     "A010051",
     "A037143",
     "A064911",
+    "A076290",
     "A350331"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n+1) * (n!)^3 * Sum_{k=0..n} 1/((k+1) * (k!)^3).",
+  "id": "A368775",
+  "mentions": [
+    "A217284",
+    "A228229",
+    "A368771",
+    "A368776"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

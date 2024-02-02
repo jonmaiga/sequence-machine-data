@@ -1,10 +1,11 @@
 {
-  "description": "Sum_{i=1..n, gcd(6,i)=1} i.",
+  "description": "a(n) = Sum_{i=1..n, gcd(6,i)=1} i.",
   "id": "A115014",
   "mentions": [
     "A115012"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

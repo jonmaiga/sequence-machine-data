@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+3)X6 binary arrays with no more than three of any consecutive four bits set in any row or column",
+  "description": "Number of (n+3) X 6 binary arrays with no more than three of any consecutive four bits set in any row or column.",
   "id": "A202721",
   "mentions": [
     "A202726"

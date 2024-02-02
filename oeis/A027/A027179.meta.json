@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = T(n,0) + T(n,1) + ... + (T(n,[ n/2 ]), T given by A027170.",
+  "description": "a(n) = T(n,0) + T(n,1) + ... + T(n,[ n/2 ]), T given by A027170.",
   "id": "A027179",
   "mentions": [
     "A027170"

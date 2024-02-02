@@ -2,7 +2,8 @@
   "description": "Decimal expansion of square root of 29.",
   "id": "A010484",
   "mentions": [
-    "A010128"
+    "A010128",
+    "A223140"
   ],
   "tags": [
     "cons",

@@ -29,12 +29,13 @@
     "A340020"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

@@ -7,14 +7,13 @@
     "A228562"
   ],
   "tags": [
-    "bref",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

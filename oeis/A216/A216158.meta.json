@@ -1,5 +1,5 @@
 {
-  "description": "The total number of words in all length n finite languages on an alphabet of two letters.",
+  "description": "The total number of nonempty words in all length n finite languages on an alphabet of two letters.",
   "id": "A216158",
   "mentions": [
     "A102866",

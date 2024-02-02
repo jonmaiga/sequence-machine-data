@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = min{denominator(r) with r in R} and R = {0 <= r rational <= 1 and [r*k] = n}. Here k = 10^(floor(log_10(n)+1) and [x] = floor(x+1/2) + ceiling((2*x-1)/4) - floor((2*x-1)/4) - 1.",
+  "description": "a(n) = min{denominator(r) with r in R} and R = {0 <= r rational <= 1 and [r*k] = n}. Here k = 10^(floor(log_10(n))+1) and [x] = floor(x+1/2) + ceiling((2*x-1)/4) - floor((2*x-1)/4) - 1.",
   "id": "A303612",
   "mentions": [
     "A006842",

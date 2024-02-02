@@ -1,9 +1,7 @@
 {
   "description": "a(n) = n^3 mod 30.",
   "id": "A070492",
-  "mentions": [
-    "A070711"
-  ],
+  "mentions": [],
   "tags": [
     "easy",
     "formulas",

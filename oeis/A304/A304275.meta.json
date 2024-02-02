@@ -1,8 +1,13 @@
 {
-  "description": "Sum_{k=1..n} gcd(k,n) / cos(Pi*k/n)^2 for odd n.",
+  "description": "a(n) = Sum_{k = 1..n} gcd(k,n) / cos(Pi*k/n)^2 for odd n.",
   "id": "A304275",
-  "mentions": [],
+  "mentions": [
+    "A002117",
+    "A069097"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

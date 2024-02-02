@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that each of the four consecutive integers n, n+1, n+2, n+3 have squarefree rank 1.",
+  "description": "Numbers m such that each of the four consecutive integers m, m+1, m+2, m+3 has squarefree rank 1.",
   "id": "A290340",
   "mentions": [
     "A162642",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

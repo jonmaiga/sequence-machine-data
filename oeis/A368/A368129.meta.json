@@ -1,0 +1,21 @@
+{
+  "description": "A variant of A367146 with application of the distance minimization to the second of two symmetrized versions of the strip bijection between two square lattices as described in A368126.",
+  "id": "A368129",
+  "mentions": [
+    "A307110",
+    "A367146",
+    "A367150",
+    "A368124",
+    "A368126",
+    "A368130"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

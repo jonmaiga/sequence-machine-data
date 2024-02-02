@@ -2,8 +2,10 @@
   "description": "Permutation of the nonnegative integers: [6k+3, 6k+4, 6k+5, 6k, 6k+1, 6k+2, ...].",
   "id": "A263824",
   "mentions": [
+    "A002162",
     "A004442",
-    "A130151"
+    "A130151",
+    "A279318"
   ],
   "tags": [
     "easy",

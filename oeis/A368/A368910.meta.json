@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A368909.",
+  "id": "A368910",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A005940",
+    "A165560",
+    "A324054",
+    "A347870",
+    "A349909",
+    "A368909"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

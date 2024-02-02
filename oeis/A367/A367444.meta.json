@@ -1,0 +1,17 @@
+{
+  "description": "Number of discrete implications I:L_n^2-> L_n defined on the finite chain L_n={0,1,...n}, which satisfy the exchange principle, i.e., I(x, I(y,z)) = I(y, I(x,z)), for all x,y,z in L_n.",
+  "id": "A367444",
+  "mentions": [
+    "A360612"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 / (1 - x * (1 + x + x^2 + x^3 + x^4) * A(x^5)).",
+  "id": "A367654",
+  "mentions": [
+    "A127680",
+    "A367652",
+    "A367653",
+    "A367661"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

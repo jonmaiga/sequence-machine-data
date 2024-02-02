@@ -1,0 +1,25 @@
+{
+  "description": "Exponentially odious squares.",
+  "id": "A367802",
+  "mentions": [
+    "A000069",
+    "A000290",
+    "A128309",
+    "A270428",
+    "A354180",
+    "A367801",
+    "A367803",
+    "A367804"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

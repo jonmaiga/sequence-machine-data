@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the minimal prime of the form 4k+1 for which s=A008784(n) is the minimal positive integer such that s*a(n)-(floor(sqrt(s*a(n)))^2 is a square.",
+  "description": "a(n) is the minimal prime of the form 4k+1 for which s=A008784(n) is the minimal positive integer such that s*a(n)-floor(sqrt(s*a(n)))^2 is a square.",
   "id": "A145215",
   "mentions": [
     "A008487",

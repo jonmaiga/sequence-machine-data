@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array read by rows. T(n,k) = A002884(n)/A002884(n-k)*2^((n-k)(n-k-1), n>=0,0<=k<=n.",
+  "description": "Triangular array read by rows. T(n,k) = A002884(n)/A002884(n-k)*2^((n-k)(n-k-1)), n>=0, 0<=k<=n.",
   "id": "A348958",
   "mentions": [
     "A002884",

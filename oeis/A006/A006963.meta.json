@@ -1,5 +1,5 @@
 {
-  "description": "Number of planar embedded labeled trees with n nodes: (2n-3)!/(n-1)! for n >= 2, a(1) = 1.",
+  "description": "Number of planar embedded labeled trees with n nodes: (2*n-3)!/(n-1)! for n >= 2, a(1) = 1.",
   "id": "A006963",
   "mentions": [
     "A000081",

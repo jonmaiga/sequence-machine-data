@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 24*(3*n + 1)!/(n!*((n + 2)!)^2).",
+  "id": "A368875",
+  "mentions": [
+    "A082368",
+    "A113424",
+    "A304126",
+    "A368545",
+    "A368650",
+    "A368692"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

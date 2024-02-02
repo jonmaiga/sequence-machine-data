@@ -1,9 +1,13 @@
 {
-  "description": "Not divisible by 31.",
+  "description": "Numbers coprime to 31.",
   "id": "A160547",
-  "mentions": [],
+  "mentions": [
+    "A126572",
+    "A135631"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

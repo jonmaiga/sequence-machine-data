@@ -1,0 +1,19 @@
+{
+  "description": "Number of 9-step self-avoiding king's tours on an n X n board summed over all starting positions.",
+  "id": "A366829",
+  "mentions": [
+    "A186861",
+    "A186864"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

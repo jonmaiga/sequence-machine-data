@@ -1,5 +1,5 @@
 {
-  "description": "Start with a(1)=1; thereafter a(n+1) = Sum_{k=1..n such that d(a(k)) = d(a(n)} d(a(k)) where d = A000005.",
+  "description": "Start with a(1)=1; thereafter a(n+1) = Sum_{k=1..n such that d(a(k)) = d(a(n))} d(a(k)) where d = A000005.",
   "id": "A343327",
   "mentions": [
     "A000005",

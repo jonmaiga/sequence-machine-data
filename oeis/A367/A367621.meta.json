@@ -1,0 +1,19 @@
+{
+  "description": "The lexicographically earliest infinite sequence of positive numbers in which each term is a comma-child of the previous term in base 3.",
+  "id": "A367621",
+  "mentions": [
+    "A367355",
+    "A367618",
+    "A367619",
+    "A367620"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

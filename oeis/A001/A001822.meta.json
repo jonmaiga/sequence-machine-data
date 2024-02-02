@@ -1,13 +1,16 @@
 {
-  "description": "Expansion of Sum x^(3n+2)/(1-x^(3n+2)), n=0..inf.",
+  "description": "Expansion of Sum_{n>=0} x^(3n+2)/(1-x^(3n+2)).",
   "id": "A001822",
   "mentions": [
     "A000005",
+    "A001620",
     "A001817",
     "A002324",
-    "A035191"
+    "A035191",
+    "A256843"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

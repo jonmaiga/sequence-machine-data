@@ -1,5 +1,5 @@
 {
-  "description": "Number of collinear point triples in a 4 X 4 X 4 X... n-dimensional cubic grid",
+  "description": "Number of collinear point triples in a 4 X 4 X 4 X... n-dimensional cubic grid.",
   "id": "A178294",
   "mentions": [
     "A005059"

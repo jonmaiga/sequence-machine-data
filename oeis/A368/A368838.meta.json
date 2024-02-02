@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * (n+3)! * Sum_{k=0..n} 1/(k! * (k+3)!).",
+  "id": "A368838",
+  "mentions": [
+    "A006040",
+    "A099597",
+    "A228229",
+    "A368837"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

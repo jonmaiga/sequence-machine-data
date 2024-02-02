@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 binary arrays with all 1s connected, and all corners 1",
+  "description": "Number of n X 7 binary arrays with all 1's connected, and all corners 1.",
   "id": "A163051",
   "mentions": [],
   "tags": [

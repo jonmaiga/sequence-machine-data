@@ -1,13 +1,17 @@
 {
-  "description": "omega(n) = omega(n+2), where omega(n) is the number of distinct prime divisors of n.",
+  "description": "Numbers k such that omega(k) = omega(k+2), where omega(k) is the number of distinct prime divisors of k.",
   "id": "A063464",
-  "mentions": [],
+  "mentions": [
+    "A001221",
+    "A006049"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

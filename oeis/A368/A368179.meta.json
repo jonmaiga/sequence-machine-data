@@ -1,0 +1,34 @@
+{
+  "description": "Square array read by ascending antidiagonals: row n is the trajectory of n under the A006368 map.",
+  "id": "A368179",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A001477",
+    "A006368",
+    "A010693",
+    "A028393",
+    "A028395",
+    "A094332",
+    "A168221",
+    "A176059",
+    "A180853",
+    "A180864",
+    "A182205",
+    "A217218",
+    "A223086",
+    "A223087",
+    "A223088",
+    "A368180"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

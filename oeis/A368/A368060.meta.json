@@ -1,0 +1,16 @@
+{
+  "description": "Triangle T(n, k), n > 0, k = 1..n, read and filled in the greedy way by rows such that T(n, k) corresponds to the size of the connected component of terms equal to T(n, k) including the position (n, k).",
+  "id": "A368060",
+  "mentions": [
+    "A368148"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n!*Sum_{m=1..floor((n+1)/2)} 1/(m*(binomial(n-m,m-1)).",
+  "description": "a(n) = n!*Sum_{m=1..floor((n+1)/2)} 1/(m*binomial(n-m,m-1)).",
   "id": "A358652",
   "mentions": [],
   "tags": [

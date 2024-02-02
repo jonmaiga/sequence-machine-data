@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: log( 1 + x^4 * exp(x) / 4! ).",
+  "description": "Expansion of e.g.f. log( 1 + x^4 * exp(x) / 4! ).",
   "id": "A346752",
   "mentions": [
     "A000332",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,8 @@
   "description": "Hankel transform of quintuple factorial numbers A008548.",
   "id": "A169620",
   "mentions": [
-    "A008548"
+    "A008548",
+    "A074962"
   ],
   "tags": [
     "easy",

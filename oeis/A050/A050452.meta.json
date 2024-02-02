@@ -1,14 +1,16 @@
 {
-  "description": "a(n) = Sum_{d|n, d=3 mod 4} d.",
+  "description": "a(n) = Sum_{d|n, d == 3 (mod 4)} d.",
   "id": "A050452",
   "mentions": [
     "A000593",
     "A001842",
     "A035462",
     "A050449",
-    "A078182"
+    "A078182",
+    "A245058"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

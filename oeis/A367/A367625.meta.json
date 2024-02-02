@@ -1,0 +1,18 @@
+{
+  "description": "(A036991(n)-1)/2.",
+  "id": "A367625",
+  "mentions": [
+    "A036771",
+    "A036991",
+    "A367626",
+    "A367627"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

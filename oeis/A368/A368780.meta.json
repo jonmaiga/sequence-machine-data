@@ -1,0 +1,19 @@
+{
+  "description": "Cubefree numbers divisible by the square of their largest prime factor.",
+  "id": "A368780",
+  "mentions": [
+    "A004709",
+    "A006530",
+    "A067259",
+    "A070003"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

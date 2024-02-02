@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions p of n such that the multiplicity of 2*min(p)) is a part.",
+  "description": "Number of partitions p of n such that the multiplicity of 2*min(p) is a part.",
   "id": "A240496",
   "mentions": [
     "A240497",

@@ -1,0 +1,51 @@
+{
+  "description": "Number of factorizations of n into positive integers > 1 such that it is possible to choose a different prime factor of each factor.",
+  "id": "A368414",
+  "mentions": [
+    "A000612",
+    "A001055",
+    "A007716",
+    "A007718",
+    "A045778",
+    "A058891",
+    "A133686",
+    "A134964",
+    "A140637",
+    "A140638",
+    "A283877",
+    "A300913",
+    "A323818",
+    "A340596",
+    "A340653",
+    "A355529",
+    "A367769",
+    "A367867",
+    "A367868",
+    "A367901",
+    "A367902",
+    "A367903",
+    "A367906",
+    "A367907",
+    "A368094",
+    "A368095",
+    "A368097",
+    "A368098",
+    "A368100",
+    "A368187",
+    "A368409",
+    "A368411",
+    "A368412",
+    "A368413",
+    "A368421",
+    "A368422"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

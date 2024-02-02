@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(m,n) = number of Yamanouchi words over the alphabet {1, 2, ..., n} of length m that start with n, m >= 1, n = 1..m.",
+  "id": "A369589",
+  "mentions": [
+    "A000012",
+    "A001006",
+    "A037952",
+    "A238728",
+    "A369588",
+    "A369591"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

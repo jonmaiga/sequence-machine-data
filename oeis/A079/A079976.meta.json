@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1/(1-x-x^2-x^4-x^5).",
+  "description": "Expansion of g.f. 1/(1-x-x^2-x^4-x^5).",
   "id": "A079976",
   "mentions": [
     "A002524",

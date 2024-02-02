@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = |Stirling1(2*n + 1, n)|.",
+  "id": "A367777",
+  "mentions": [
+    "A132393"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

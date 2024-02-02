@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(-1)^n*b(2n-1,2) where b(n,p)=sum(k=0,n,p^k*C(2*k,k)*C(n+k,n-k)*B(k)) and B(k)= k-th Bernoulli number.",
+  "description": "a(n) = (-1)^n*b(2n-1,2) where b(n,p) = Sum_{k=0..n} p^k*C(2*k,k)*C(n+k,n-k)*B(k) and B(k) = k-th Bernoulli number.",
   "id": "A095363",
   "mentions": [
     "A006519"

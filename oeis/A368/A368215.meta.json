@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number k >= 1 that has exactly n divisors in A020487.",
+  "id": "A368215",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A020487",
+    "A337326"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Symmetric matrix based on f(i,j) = max{j mod i, i mod j), by antidiagonals.",
+  "description": "Symmetric matrix based on f(i,j) = max(j mod i, i mod j), by antidiagonals.",
   "id": "A204016",
   "mentions": [
     "A000032",

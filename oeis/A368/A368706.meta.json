@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the squarefree numbers that are less than n, not dividing n, and relatively prime to n.",
+  "id": "A368706",
+  "mentions": [
+    "A008683",
+    "A368705"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

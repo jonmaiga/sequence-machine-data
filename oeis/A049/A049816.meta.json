@@ -1,7 +1,8 @@
 {
-  "description": "Triangular array T read by rows: T(n,k)=number of nonzero remainders when Euclidean algorithm acts on n and k, for k=1,2,...,n, n=1,2,...",
+  "description": "Triangular array T read by rows: T(n,k) = number of nonzero remainders when Euclidean algorithm acts on n and k, for k=1..n, n>=1.",
   "id": "A049816",
   "mentions": [
+    "A049817",
     "A107435"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 91,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

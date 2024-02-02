@@ -1,0 +1,20 @@
+{
+  "description": "Least number of inequivalent cells in a polyiamond with n cells.",
+  "id": "A369366",
+  "mentions": [
+    "A000577",
+    "A367758",
+    "A369363",
+    "A369365",
+    "A369367"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

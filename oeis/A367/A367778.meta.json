@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of the squares of the areas under Motzkin paths of length n.",
+  "id": "A367778",
+  "mentions": [
+    "A001006",
+    "A057585"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,12 @@
   "description": "Number of solutions to x^2 + xy + y^2 == 0 (mod n).",
   "id": "A087694",
   "mentions": [
-    "A000086"
+    "A000086",
+    "A073010",
+    "A086724"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

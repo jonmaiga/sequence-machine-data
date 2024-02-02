@@ -1,0 +1,18 @@
+{
+  "description": "Number of beta-stable isotones of neutron number n.",
+  "id": "A368860",
+  "mentions": [
+    "A318998",
+    "A368859"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

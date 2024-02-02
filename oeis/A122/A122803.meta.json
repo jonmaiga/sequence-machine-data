@@ -1,5 +1,5 @@
 {
-  "description": "Powers of -2.",
+  "description": "Powers of -2: a(n) = (-2)^n.",
   "id": "A122803",
   "mentions": [
     "A000035",

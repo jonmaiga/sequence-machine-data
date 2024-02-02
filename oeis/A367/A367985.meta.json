@@ -1,0 +1,15 @@
+{
+  "description": "Number of 4-cycles in the n-cycle complement and (n+1)-wheel complement graph.",
+  "id": "A367985",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 41,
+    "source": "joeis"
+  }
+}

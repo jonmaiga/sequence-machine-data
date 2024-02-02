@@ -1,14 +1,16 @@
 {
-  "description": "E.g.f: 1/(1-2*tanh(x))",
+  "description": "Expansion of e.g.f.: 1/(1-2*tanh(x)).",
   "id": "A190818",
-  "mentions": [],
+  "mentions": [
+    "A011782"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

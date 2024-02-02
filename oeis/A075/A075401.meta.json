@@ -1,5 +1,5 @@
 {
-  "description": "Smallest nontrivial multiple of n (> n and not equal to 10^k*n)) whose digit sum is a multiple of the digit sum of n.",
+  "description": "Smallest nontrivial multiple of n (> n and not equal to 10^k*n) whose digit sum is a multiple of the digit sum of n.",
   "id": "A075401",
   "mentions": [],
   "tags": [

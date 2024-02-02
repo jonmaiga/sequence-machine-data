@@ -1,7 +1,11 @@
 {
   "description": "T(n, k) = k^0 if k = 1 else 0^n. Triangle read by rows, T(n, k) for 0 <= k <= n.",
   "id": "A326822",
-  "mentions": [],
+  "mentions": [
+    "A010054",
+    "A073423",
+    "A073424"
+  ],
   "tags": [
     "nonn",
     "tabl"

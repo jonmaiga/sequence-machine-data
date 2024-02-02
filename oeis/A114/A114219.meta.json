@@ -1,5 +1,5 @@
 {
-  "description": "Number triangle (k-(k-1)*0^(n-k))*[k<=n].",
+  "description": "Number triangle T(n,k) = (k-(k-1)*0^(n-k))*[k<=n].",
   "id": "A114219",
   "mentions": [
     "A000124",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

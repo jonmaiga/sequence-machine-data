@@ -1,0 +1,19 @@
+{
+  "description": "Orders k such that there exists a group of order k with automorphism group of odd order.",
+  "id": "A368480",
+  "mentions": [
+    "A340521",
+    "A365179"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

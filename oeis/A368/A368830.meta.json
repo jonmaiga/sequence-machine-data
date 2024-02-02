@@ -1,0 +1,18 @@
+{
+  "description": "Number of square unlabeled endofunctions from n points to themselves.",
+  "id": "A368830",
+  "mentions": [
+    "A001372",
+    "A102687"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

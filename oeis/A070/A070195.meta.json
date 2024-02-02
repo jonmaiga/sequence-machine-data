@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree numbers in a pair of twin primes.",
+  "description": "Squarefree numbers sandwiched between a pair of twin primes.",
   "id": "A070195",
   "mentions": [
     "A005117",

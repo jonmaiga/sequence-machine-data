@@ -1,8 +1,12 @@
 {
   "description": "Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = 3.",
   "id": "A035186",
-  "mentions": [],
+  "mentions": [
+    "A038875",
+    "A097933"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

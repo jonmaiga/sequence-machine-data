@@ -1,0 +1,16 @@
+{
+  "description": "Number of subsets of {2..n} such that the product of the elements plus 1 is a prime.",
+  "id": "A369392",
+  "mentions": [
+    "A000040",
+    "A127542"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

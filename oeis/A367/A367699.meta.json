@@ -1,0 +1,22 @@
+{
+  "description": "The smallest divisor d of n such that n/d is an exponentially evil number (A262675).",
+  "id": "A367699",
+  "mentions": [
+    "A050985",
+    "A262675",
+    "A366906",
+    "A367698"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

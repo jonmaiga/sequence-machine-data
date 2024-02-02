@@ -1,5 +1,5 @@
 {
-  "description": "Primes p for which the period length of 1/p is prime.",
+  "description": "Primes p for which the period of 1/p is prime.",
   "id": "A072859",
   "mentions": [
     "A002371",

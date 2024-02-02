@@ -1,0 +1,23 @@
+{
+  "description": "The maximal exponent in the prime factorization of the exponentially odd numbers (A268335).",
+  "id": "A368711",
+  "mentions": [
+    "A033150",
+    "A051903",
+    "A268335",
+    "A368472",
+    "A368710",
+    "A368712",
+    "A368713"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

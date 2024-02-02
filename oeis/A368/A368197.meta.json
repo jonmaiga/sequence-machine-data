@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{z=1..n} Sum_{y=1..n} Sum_{x=1..n} [GCD(f(x,y,z), n) = k], where f(x,y,z) = x^2 + y^2 - z^2.",
+  "id": "A368197",
+  "mentions": [
+    "A000005",
+    "A000578",
+    "A023900",
+    "A053191",
+    "A062775",
+    "A063524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) (n >= 0, 0 <= k <= 1+log_2(floor(n)) giving number of non-squashing partitions of n into k parts.",
+  "description": "Triangle read by rows: T(n,k) (n >= 0, 0 <= k <= 1+log_2(floor(n))) giving number of non-squashing partitions of n into k parts.",
   "id": "A089177",
   "mentions": [
     "A000123",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor(1/sin(A070752(n)).",
+  "description": "a(n) = Floor(1/sin(A070752(n))).",
   "id": "A086868",
   "mentions": [
     "A070752"

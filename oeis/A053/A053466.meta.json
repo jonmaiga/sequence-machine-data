@@ -1,8 +1,9 @@
 {
-  "description": "Number of connected 3-multigraphs.",
+  "description": "Number of connected 3-multigraphs on n nodes.",
   "id": "A053466",
   "mentions": [
-    "A053400"
+    "A053400",
+    "A053515"
   ],
   "tags": [
     "easy",

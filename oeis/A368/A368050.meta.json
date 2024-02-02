@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of the array where row n=0 lists the natural numbers and each new row n=1,2,... is found by taking the number n in the previous row, and \"leaping\" it over the next n terms to its right, keeping the other numbers fixed (see example).",
+  "id": "A368050",
+  "mentions": [
+    "A000027",
+    "A026272",
+    "A367634"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

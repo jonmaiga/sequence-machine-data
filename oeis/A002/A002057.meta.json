@@ -1,5 +1,5 @@
 {
-  "description": "Fourth convolution of Catalan numbers: 4*binomial(2n+3,n)/(n+4).",
+  "description": "Fourth convolution of Catalan numbers: a(n) = 4*binomial(2*n+3,n)/(n+4).",
   "id": "A002057",
   "mentions": [
     "A000108",

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. Sum_{n>=1} q^n/(1-q^(2*n)-q^(3*n)).",
+  "id": "A368689",
+  "mentions": [
+    "A007435",
+    "A368687",
+    "A368688"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "AGM transform of positive integers (see Comments for definition).",
+  "id": "A368366",
+  "mentions": [
+    "A000027",
+    "A127610",
+    "A276978",
+    "A368367",
+    "A368371",
+    "A368372",
+    "A368373",
+    "A368374",
+    "A369394"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

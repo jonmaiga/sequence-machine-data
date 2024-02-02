@@ -1,0 +1,22 @@
+{
+  "description": "The sum of square divisors of the largest unitary divisor of n that is a square.",
+  "id": "A367989",
+  "mentions": [
+    "A002117",
+    "A035316",
+    "A268335",
+    "A350388",
+    "A367988"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

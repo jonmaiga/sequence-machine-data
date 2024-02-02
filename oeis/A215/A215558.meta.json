@@ -1,5 +1,5 @@
 {
-  "description": "Cubes whose final digit or final two digits are the cube root.",
+  "description": "Cubes whose final digits are the cube root.",
   "id": "A215558",
   "mentions": [
     "A000578",
@@ -8,13 +8,12 @@
   "tags": [
     "base",
     "easy",
-    "fini",
-    "full",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

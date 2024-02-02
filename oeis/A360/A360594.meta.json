@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the maximum number of locations 0..n-1 which can be visited in a single path starting from i=n-1, where jumps from location i to i +- a(i) are permitted (within 0..n-1) and each location can be visited up to 2 times.",
+  "id": "A360594",
+  "mentions": [
+    "A360593",
+    "A360595"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

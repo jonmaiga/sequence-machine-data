@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of lim_(n->infinity) ((Sum_(k=1..n) 1/sqrt(k)) - Integral_{x=1..n} 1/sqrt(x))), a generalized Euler constant which evaluates to zeta(1/2) + 2.",
+  "description": "Decimal expansion of lim_(n->infinity) ((Sum_(k=1..n) 1/sqrt(k)) - (Integral_{x=1..n} 1/sqrt(x))), a generalized Euler constant which evaluates to zeta(1/2) + 2.",
   "id": "A242616",
   "mentions": [
     "A001620",

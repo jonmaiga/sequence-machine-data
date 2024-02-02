@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n Fishburn matrices with entries in the set {0,1,...,n}.",
+  "id": "A369336",
+  "mentions": [
+    "A000007",
+    "A005321",
+    "A289314",
+    "A289315",
+    "A369415"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, k)^2 * (k - n)^k.",
+  "id": "A367273",
+  "mentions": [
+    "A059297"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

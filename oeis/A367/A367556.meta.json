@@ -1,0 +1,21 @@
+{
+  "description": "Comma transform of the Fibonacci numbers.",
+  "id": "A367556",
+  "mentions": [
+    "A000045",
+    "A003893",
+    "A008963",
+    "A138844",
+    "A367360"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

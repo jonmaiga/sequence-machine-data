@@ -1,5 +1,5 @@
 {
-  "description": "Floor[ concatenation of n+5, n+4,n+3, n+2, n+1 and n divided by 6].",
+  "description": "a(n) = floor(concatenation of n+5, n+4, n+3, n+2, n+1 and n divided by 6).",
   "id": "A075007",
   "mentions": [
     "A073086",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

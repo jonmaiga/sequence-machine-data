@@ -15,15 +15,18 @@
     "A325195",
     "A325196",
     "A325197",
-    "A325199"
+    "A325199",
+    "A366157",
+    "A368986"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

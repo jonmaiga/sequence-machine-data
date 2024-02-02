@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 2^(n + k).",
+  "id": "A368043",
+  "mentions": [
+    "A000079",
+    "A000302",
+    "A001018",
+    "A002697",
+    "A003683",
+    "A004171",
+    "A094014",
+    "A134353",
+    "A171476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

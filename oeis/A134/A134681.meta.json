@@ -2,6 +2,8 @@
   "description": "Number of digits of all the divisors of n.",
   "id": "A134681",
   "mentions": [
+    "A000005",
+    "A007955",
     "A034690",
     "A037278",
     "A055642",
@@ -10,6 +12,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

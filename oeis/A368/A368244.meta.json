@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n into parts 1, 9, and 10.",
+  "id": "A368244",
+  "mentions": [
+    "A276106"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

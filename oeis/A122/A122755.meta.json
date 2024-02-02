@@ -1,5 +1,5 @@
 {
-  "description": "Let f(m) = 10 - last digit of prime(m). Sequence gives numbers n such that (1/n)*Sum( m <= n } f(m) is <= 5.",
+  "description": "Let f(m) = 10 - last digit of prime(m). Sequence gives numbers n such that (1/n)*Sum_{ m <= n } f(m) is <= 5.",
   "id": "A122755",
   "mentions": [
     "A101306"

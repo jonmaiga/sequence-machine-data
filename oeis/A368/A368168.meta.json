@@ -1,0 +1,27 @@
+{
+  "description": "The number of unitary divisors of n that are cubefull exponentially odd numbers (A335988).",
+  "id": "A368168",
+  "mentions": [
+    "A013661",
+    "A034444",
+    "A055076",
+    "A325837",
+    "A335275",
+    "A335988",
+    "A359411",
+    "A367516",
+    "A368167",
+    "A368169"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

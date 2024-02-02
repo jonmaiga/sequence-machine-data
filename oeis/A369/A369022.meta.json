@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least start of a run of exactly n consecutive integers with the same maximal exponent in their prime factorization, or -1 if no such run exists.",
+  "id": "A369022",
+  "mentions": [
+    "A051903",
+    "A071125",
+    "A219452",
+    "A323253",
+    "A369020",
+    "A369021"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

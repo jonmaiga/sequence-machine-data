@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (1/(10*sqrt(2))*((1 + sqrt(2))^(3^n) - (1 - sqrt(2))^(3^n)).",
+  "description": "a(n) = (1/(10*sqrt(2)))*((1 + sqrt(2))^(3^n) - (1 - sqrt(2))^(3^n)).",
   "id": "A145452",
   "mentions": [
     "A000129",

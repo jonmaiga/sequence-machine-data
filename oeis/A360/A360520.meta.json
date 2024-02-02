@@ -2,6 +2,7 @@
   "description": "a(n) = A120963(n) + A341711(floor(n/2)).",
   "id": "A360520",
   "mentions": [
+    "A007617",
     "A120963",
     "A341711"
   ],
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

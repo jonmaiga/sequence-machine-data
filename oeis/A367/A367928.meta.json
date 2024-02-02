@@ -1,0 +1,14 @@
+{
+  "description": "Lower matching number of the n-triangular honeycomb obtuse knight graph.",
+  "id": "A367928",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

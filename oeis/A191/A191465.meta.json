@@ -1,5 +1,5 @@
 {
-  "description": "9^n - 2^n.",
+  "description": "a(n) = 9^n - 2^n.",
   "id": "A191465",
   "mentions": [
     "A016133",

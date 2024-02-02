@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x^2+3*x^3).",
+  "id": "A366950",
+  "mentions": [
+    "A000262",
+    "A189886",
+    "A364324",
+    "A366942"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

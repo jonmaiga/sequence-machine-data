@@ -2,14 +2,19 @@
   "description": "Number of n-node labeled digraphs whose underlying graphs are mating graphs, cf. A006024.",
   "id": "A102579",
   "mentions": [
-    "A006024"
+    "A006024",
+    "A102580",
+    "A102596",
+    "A102598",
+    "A369283"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
   }
 }

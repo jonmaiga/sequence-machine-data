@@ -2,7 +2,9 @@
   "description": "Squares mod 37.",
   "id": "A010398",
   "mentions": [
-    "A028750"
+    "A010435",
+    "A028750",
+    "A070459"
   ],
   "tags": [
     "fini",

@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (1,x/sqrt(2-sqrt(1+4x)).",
+  "description": "Riordan array (1,x/sqrt(2-sqrt(1+4x))).",
   "id": "A141343",
   "mentions": [
     "A000108",

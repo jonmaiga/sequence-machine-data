@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of correct decimal digits of e obtained from the fraction A368620(n)/A368621(n).",
+  "id": "A368659",
+  "mentions": [
+    "A001113",
+    "A368620",
+    "A368621",
+    "A368658"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Composite numbers whose proper substrings (of their decimal expansions) are all primes.",
+  "id": "A366826",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A033274",
+    "A061371",
+    "A062115",
+    "A068669",
+    "A085823",
+    "A202262",
+    "A279366"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

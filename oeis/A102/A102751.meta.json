@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1+(n-1)^2 and ((n-1)/2)^2+((n+1)/2)^2=(1/2)*(n^2+1) are primes.",
+  "description": "Numbers k such that 1 + (k-1)^2 and ((k-1)/2)^2 + ((k+1)/2)^2 = (1/2)*(k^2+1) are primes.",
   "id": "A102751",
   "mentions": [
     "A002496",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

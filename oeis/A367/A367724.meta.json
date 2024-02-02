@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying x = A(x) * (1 - A(x)) / (1 - A(x) - A(x)^4) such that A(0) = 1.",
+  "id": "A367724",
+  "mentions": [
+    "A243156",
+    "A367725"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

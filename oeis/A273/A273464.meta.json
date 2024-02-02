@@ -1,5 +1,5 @@
 {
-  "description": "The number of tilings of an equilateral triangle of side length n with k lozenges and n^2 - 2*k unit triangles. Triangle T(n, k) with n >= 1 and 0 <= k <= n*(n + 1)/2), read by rows.",
+  "description": "The number of tilings of an equilateral triangle of side length n with k lozenges and n^2 - 2*k unit triangles. Triangle T(n, k) with n >= 1 and 0 <= k <= n*(n + 1)/2, read by rows.",
   "id": "A273464",
   "mentions": [
     "A000124",

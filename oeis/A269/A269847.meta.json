@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of natural numbers: a(1) = 1, for n > 1, if n is an odd prime, a(n) = A003961(a(A000720(n)), otherwise a(n) = 2*a(n-A000720(n)).",
+  "description": "Permutation of natural numbers: a(1) = 1, for n > 1, if n is an odd prime, a(n) = A003961(a(A000720(n))), otherwise a(n) = 2*a(n-A000720(n)).",
   "id": "A269847",
   "mentions": [
     "A000040",

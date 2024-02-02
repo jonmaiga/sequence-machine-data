@@ -2,7 +2,8 @@
   "description": "Coordination sequence for 4-dimensional I-centered tetragonal orthogonal lattice.",
   "id": "A001386",
   "mentions": [
-    "A004006"
+    "A004006",
+    "A008527"
   ],
   "tags": [
     "easy",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 39,
     "source": "joeis"
   }
 }

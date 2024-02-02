@@ -2,6 +2,7 @@
   "description": "Numbers k such that phi(k) + k is a fourth power.",
   "id": "A114072",
   "mentions": [
+    "A000010",
     "A114073",
     "A121048"
   ],
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

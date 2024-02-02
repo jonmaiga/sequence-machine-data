@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet g.f.: zeta(s)^3 * (1 - 2^(1-s))^2.",
+  "id": "A369100",
+  "mentions": [
+    "A007425",
+    "A048272",
+    "A288571"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

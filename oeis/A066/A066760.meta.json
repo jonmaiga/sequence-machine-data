@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{1<=k<=n, k is not a divisor of n and k is not coprime to n} k.",
+  "description": "a(n) = Sum_{1<=k<=n, k is not a divisor of n and k is not coprime to n} k.",
   "id": "A066760",
   "mentions": [
     "A000010",
@@ -7,7 +7,8 @@
     "A000217",
     "A023896",
     "A024816",
-    "A045763"
+    "A045763",
+    "A067392"
   ],
   "tags": [
     "easy",

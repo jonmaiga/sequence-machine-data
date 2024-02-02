@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the Mertens constant M(4,1) arising in the formula for the sum of reciprocals of primes p == 1 (mod 4) (negated).",
+  "id": "A368645",
+  "mentions": [
+    "A001620",
+    "A002144",
+    "A064533",
+    "A077761",
+    "A086239",
+    "A161529",
+    "A368644",
+    "A368646"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of evil exponents in the prime factorization of n.",
+  "id": "A367512",
+  "mentions": [
+    "A001221",
+    "A010059",
+    "A262675",
+    "A270428",
+    "A293439",
+    "A367513",
+    "A367516"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,12 +1,18 @@
 {
-  "description": "Composite integers n such that binomial(2*n,n)==2^n (mod n).",
+  "description": "Composite integers j such that binomial(2*j,j) == 2^j (mod j).",
   "id": "A084699",
   "mentions": [
+    "A000396",
+    "A001220",
     "A015910",
     "A059288",
     "A080469",
+    "A082180",
     "A109760",
-    "A109769"
+    "A109769",
+    "A139256",
+    "A228562",
+    "A328497"
   ],
   "tags": [
     "more",

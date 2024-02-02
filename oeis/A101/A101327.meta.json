@@ -1,5 +1,5 @@
 {
-  "description": "2^(2^(2^x-1)-1)-1) == M(M(M(x)))",
+  "description": "2^(2^(2^x-1)-1)-1 == M(M(M(x)))",
   "id": "A101327",
   "mentions": [],
   "tags": [

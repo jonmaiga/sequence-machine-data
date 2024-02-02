@@ -1,0 +1,19 @@
+{
+  "description": "Positions of records in A368698.",
+  "id": "A368988",
+  "mentions": [
+    "A000396",
+    "A324201",
+    "A344005",
+    "A368698",
+    "A368989"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

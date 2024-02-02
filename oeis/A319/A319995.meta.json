@@ -2,11 +2,15 @@
   "description": "Number of divisors of n of the form 6*k + 5.",
   "id": "A319995",
   "mentions": [
+    "A001620",
+    "A016629",
     "A035218",
+    "A222458",
     "A279060",
     "A320005"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

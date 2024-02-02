@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1 - x)/(1 - x - 7*x^2).",
+  "id": "A367456",
+  "mentions": [
+    "A010484",
+    "A015442",
+    "A049310",
+    "A223140",
+    "A367454"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of the e.g.f. (exp(x) / (5 - 4*exp(x)))^(4/5).",
+  "id": "A367376",
+  "mentions": [
+    "A136729",
+    "A201365",
+    "A365570",
+    "A365587",
+    "A365603",
+    "A367374",
+    "A367375"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

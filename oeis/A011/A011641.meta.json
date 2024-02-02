@@ -1,7 +1,9 @@
 {
   "description": "70th cyclotomic polynomial.",
   "id": "A011641",
-  "mentions": [],
+  "mentions": [
+    "A014079"
+  ],
   "tags": [
     "fini",
     "full",

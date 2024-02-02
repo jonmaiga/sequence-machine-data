@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonequivalent cycles of length 2n in the (2n+1) X (2n+1) knight graph.",
+  "id": "A366778",
+  "mentions": [
+    "A001230",
+    "A234623",
+    "A254129",
+    "A356404",
+    "A368499"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

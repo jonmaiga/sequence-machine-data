@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the total number of movable letters in all members of the partitions of [n].",
+  "id": "A367469",
+  "mentions": [
+    "A000110",
+    "A367468"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

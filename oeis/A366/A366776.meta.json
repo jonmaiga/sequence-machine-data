@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2-distant 5-noncrossing partitions of {1,...,n}.",
+  "id": "A366776",
+  "mentions": [
+    "A192126",
+    "A366774",
+    "A366775"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 109/65, being the highest possible win/loss points ratio in a completed 3-set tennis match, with 10-point final tie-break, which the player loses.",
+  "id": "A368476",
+  "mentions": [
+    "A021017",
+    "A368008",
+    "A368009",
+    "A368146"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

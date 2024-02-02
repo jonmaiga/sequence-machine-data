@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest base b such that (b+1)^n in base b is a palindrome.",
+  "id": "A367857",
+  "mentions": [
+    "A001405"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

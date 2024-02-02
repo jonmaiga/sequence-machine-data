@@ -1,5 +1,5 @@
 {
-  "description": "Number of fusenes with 24 hexagons, C_(2h) symmetry and containing n carbon atoms.",
+  "description": "Number of fusenes with 24 hexagons, C_(2h) symmetry and containing 2n carbon atoms.",
   "id": "A123595",
   "mentions": [
     "A121964",
@@ -18,10 +18,12 @@
     "A123289"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 68,
+    "offset": 34,
     "size": 16,
     "source": "oeis-entry"
   }

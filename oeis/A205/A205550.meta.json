@@ -1,5 +1,5 @@
 {
-  "description": "Symmetric matrix by antidiagonals: C(max(g(i),g(j)),min(g(i),g(j)), where g(k)=2k-1.",
+  "description": "Symmetric matrix by antidiagonals: C(max(g(i),g(j)),min(g(i),g(j))), where g(k)=2k-1.",
   "id": "A205550",
   "mentions": [
     "A205456"

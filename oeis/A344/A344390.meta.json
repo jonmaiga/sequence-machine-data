@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction for A073084, the constant LambertW(log(sqrt(2))/log(sqrt(2)).",
+  "description": "Continued fraction for A073084, the constant LambertW(log(sqrt(2)))/log(sqrt(2)).",
   "id": "A344390",
   "mentions": [
     "A073084"

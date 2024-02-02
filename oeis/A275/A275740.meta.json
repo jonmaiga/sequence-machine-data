@@ -1,5 +1,5 @@
 {
-  "description": "Sums of n consecutive nonsquare integers.",
+  "description": "Sums of the next n consecutive nonsquare integers.",
   "id": "A275740",
   "mentions": [
     "A000037",

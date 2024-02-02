@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form x^2+y^2 such that L(x)*L(y) = -1, where L) is the Liouville lambda-function A008836.",
+  "description": "Primes of the form x^2+y^2 such that L(x)*L(y) = -1, where L is the Liouville lambda-function A008836.",
   "id": "A174054",
   "mentions": [
     "A002313",

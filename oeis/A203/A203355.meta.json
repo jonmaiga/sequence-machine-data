@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays avoiding patterns 010 and 101 in rows, columns and nw-to-se diagonals",
+  "description": "T(n,k) = Number of (n+2) X (k+2) binary arrays avoiding patterns 010 and 101 in rows, columns and nw-to-se diagonals.",
   "id": "A203355",
   "mentions": [],
   "tags": [

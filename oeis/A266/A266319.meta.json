@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn arrays containing n copies of 0..3-1 with no element 1 greater than its west or north neighbor modulo 3 and the upper left element equal to 0.",
+  "description": "Number of 3 X n arrays containing n copies of 0..3-1 with no element 1 greater than its west or north neighbor modulo 3 and the upper left element equal to 0.",
   "id": "A266319",
   "mentions": [
     "A266318"

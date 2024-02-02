@@ -2,6 +2,7 @@
   "description": "Number of integer solutions to x' = n, where x' is the arithmetic derivative of x.",
   "id": "A099302",
   "mentions": [
+    "A002375",
     "A002620",
     "A003415",
     "A098699",
@@ -11,9 +12,11 @@
     "A189560",
     "A189561",
     "A189562",
-    "A239433"
+    "A239433",
+    "A369054"
   ],
   "tags": [
+    "formulas",
     "look",
     "nonn"
   ],

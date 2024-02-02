@@ -2,9 +2,11 @@
   "description": "Even elements in the 5-Pascal triangle A028313.",
   "id": "A028317",
   "mentions": [
-    "A028313"
+    "A028313",
+    "A051472"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],

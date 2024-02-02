@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if the k-th arithmetic derivative of A005940(1+n) is zero for some k >= 0, otherwise 0. Here A005940 is the Doudna sequence.",
+  "id": "A368907",
+  "mentions": [
+    "A003415",
+    "A005940",
+    "A328306",
+    "A328308",
+    "A368905",
+    "A368908"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

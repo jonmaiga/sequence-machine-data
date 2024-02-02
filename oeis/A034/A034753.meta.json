@@ -1,7 +1,9 @@
 {
   "description": "Dirichlet convolution of 3^(n-1) with sigma(n).",
   "id": "A034753",
-  "mentions": [],
+  "mentions": [
+    "A000203"
+  ],
   "tags": [
     "formulas",
     "nonn"

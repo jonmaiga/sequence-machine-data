@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 / (1 - x - x * A(x^5)).",
+  "id": "A367661",
+  "mentions": [
+    "A349365",
+    "A367659",
+    "A367660"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

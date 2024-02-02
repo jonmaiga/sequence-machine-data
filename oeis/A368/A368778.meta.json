@@ -1,0 +1,17 @@
+{
+  "description": "Lesser of 2 successive squarefree semiprimes (k, k+6) sandwiching 5 consecutive nonsquarefree numbers.",
+  "id": "A368778",
+  "mentions": [
+    "A006881",
+    "A013929",
+    "A363821"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

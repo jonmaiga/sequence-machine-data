@@ -1,0 +1,21 @@
+{
+  "description": "The number of ways of tiling the n X n grid up to the symmetries of the square by a tile that is fixed under 90-degree rotations, but not reflections.",
+  "id": "A367523",
+  "mentions": [
+    "A054247",
+    "A295229",
+    "A302484",
+    "A367522",
+    "A367524",
+    "A367525"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

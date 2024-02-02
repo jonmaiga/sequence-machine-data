@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A369134(n, 2).",
+  "id": "A369122",
+  "mentions": [
+    "A369121",
+    "A369134"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

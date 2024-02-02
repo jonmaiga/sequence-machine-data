@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = denominator(M(n, k)) where M is the inverse matrix of A368846.",
+  "id": "A368848",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A002457",
+    "A368846",
+    "A368847",
+    "A369134",
+    "A369135"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

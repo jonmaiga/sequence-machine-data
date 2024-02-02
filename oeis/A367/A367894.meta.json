@@ -1,0 +1,18 @@
+{
+  "description": "Length of cycles obtained by repeated application of the distance-minimizing strip bijection for the square lattice (A367150), sorted by increasing minimum radius visited by any cycle of this length.",
+  "id": "A367894",
+  "mentions": [
+    "A367146",
+    "A367150",
+    "A367893"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

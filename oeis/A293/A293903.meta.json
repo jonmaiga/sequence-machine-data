@@ -1,5 +1,5 @@
 {
-  "description": "Sum of proper divisors of form 4k+3.",
+  "description": "Sum of proper divisors of n of the form 4k+3.",
   "id": "A293903",
   "mentions": [
     "A050452",
@@ -8,6 +8,7 @@
     "A293901"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

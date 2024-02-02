@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the semiprime divisors of n. Alternatively, row n lists the semiprime divisors of A002808(n).",
+  "id": "A367096",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A001358",
+    "A002808",
+    "A006881",
+    "A008967",
+    "A027750",
+    "A056170",
+    "A076290",
+    "A079275",
+    "A086971",
+    "A100959",
+    "A220264",
+    "A365829",
+    "A366738",
+    "A366739",
+    "A366740",
+    "A367093",
+    "A367098"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

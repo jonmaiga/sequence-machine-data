@@ -2,7 +2,8 @@
   "description": "Triangle T(n,k) read by rows: number of k X k symmetric (0,1)-matrices with exactly n entries equal to 1 and no zero rows or columns.",
   "id": "A135589",
   "mentions": [
-    "A000085"
+    "A000085",
+    "A135588"
   ],
   "tags": [
     "nonn",

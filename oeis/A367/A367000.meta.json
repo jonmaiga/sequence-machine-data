@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the total number of bubbles of size k found in linear chord diagrams on 2n vertices.",
+  "id": "A367000",
+  "mentions": [
+    "A079267",
+    "A278990"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,11 @@
   "description": "Numbers of form 2^i*3^j*(6k+5), i, j, k >= 0.",
   "id": "A225838",
   "mentions": [
-    "A225837"
+    "A003159",
+    "A026225",
+    "A189716",
+    "A225837",
+    "A325424"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of A011782 [2^(n-1))] with A349450 [Dirichlet inverse of right-shifted Catalan numbers].",
+  "description": "Dirichlet convolution of A011782 [2^(n-1)] with A349450 [Dirichlet inverse of right-shifted Catalan numbers].",
   "id": "A349564",
   "mentions": [
     "A000108",

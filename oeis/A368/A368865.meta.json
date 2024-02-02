@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals; the n-th row is the decimal expansion of the maximum probability that a particular fixed polyomino with n cells appears in diffusion-limited aggregation on the square lattice.",
+  "id": "A368865",
+  "mentions": [
+    "A130866",
+    "A368394",
+    "A368662",
+    "A368863",
+    "A368864"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

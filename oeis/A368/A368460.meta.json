@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = card(k: prime(n)^2 <= k < prime(n + 1)^2 and k term of A368458).",
+  "id": "A368460",
+  "mentions": [
+    "A000203",
+    "A001248",
+    "A050216",
+    "A368207",
+    "A368457",
+    "A368458"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

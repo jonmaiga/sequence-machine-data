@@ -1,0 +1,17 @@
+{
+  "description": "Sequence S of positive integers such that the successive digits d of S are the successive Levenshtein distances between two adjacent terms of S. When possible, S is always extended with the smallest positive integer not yet present.",
+  "id": "A367638",
+  "mentions": [
+    "A118757",
+    "A151875"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

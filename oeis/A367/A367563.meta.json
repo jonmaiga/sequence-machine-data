@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of Erfi(1/2), where Erfi is the imaginary error function.",
+  "id": "A367563",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

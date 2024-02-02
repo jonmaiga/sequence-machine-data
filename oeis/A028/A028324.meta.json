@@ -2,9 +2,11 @@
   "description": "Elements to the right of the central elements of the 5-Pascal triangle A028313 that are not 1.",
   "id": "A028324",
   "mentions": [
-    "A028313"
+    "A028313",
+    "A028323"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],

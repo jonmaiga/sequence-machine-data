@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=f(n,n+4) where f is given in A034261.",
+  "description": "a(n) = f(n,n+4) where f is given in A034261.",
   "id": "A034271",
   "mentions": [
     "A034261"

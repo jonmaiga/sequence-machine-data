@@ -1,5 +1,5 @@
 {
-  "description": "n-th digit after decimal point of sqrt(n^2+4)-n)/2.",
+  "description": "n-th digit after decimal point of (sqrt(n^2+4)-n)/2.",
   "id": "A085552",
   "mentions": [],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "Antidiagonal sums of A367824.",
+  "id": "A367826",
+  "mentions": [
+    "A004086",
+    "A367824"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

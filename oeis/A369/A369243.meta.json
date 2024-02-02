@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer k whose arithmetic derivative is equal to the n-th partial sum of primorials, and 0 if no such k exists.",
+  "id": "A369243",
+  "mentions": [
+    "A003415",
+    "A143293",
+    "A368703",
+    "A369239",
+    "A369244"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

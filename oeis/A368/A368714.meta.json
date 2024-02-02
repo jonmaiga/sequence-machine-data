@@ -1,0 +1,31 @@
+{
+  "description": "Number whose maximal exponent in their prime factorization is even.",
+  "id": "A368714",
+  "mentions": [
+    "A000290",
+    "A000302",
+    "A000583",
+    "A001014",
+    "A001016",
+    "A001025",
+    "A008454",
+    "A051903",
+    "A060476",
+    "A062503",
+    "A067259",
+    "A074661",
+    "A096432",
+    "A240112",
+    "A336064",
+    "A368715"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

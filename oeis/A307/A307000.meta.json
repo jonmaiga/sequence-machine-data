@@ -2,7 +2,11 @@
   "description": "Number of unitary rings with additive group (Z/nZ)^2. Equivalently, number of unitary commutative rings with additive group (Z/nZ)^2.",
   "id": "A307000",
   "mentions": [
+    "A001620",
+    "A082633",
     "A092089",
+    "A201994",
+    "A306016",
     "A341201",
     "A341202",
     "A341547",

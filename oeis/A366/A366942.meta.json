@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(1-x-2*x^2-3*x^3).",
+  "id": "A366942",
+  "mentions": [
+    "A000073",
+    "A000142",
+    "A052567",
+    "A052585",
+    "A101822",
+    "A189886",
+    "A364324"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Indices of records in A368798.",
+  "id": "A368808",
+  "mentions": [
+    "A265316",
+    "A368798"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

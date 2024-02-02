@@ -2,6 +2,7 @@
   "description": "Number of divisors d>1 of n such that d+1 also divides n.",
   "id": "A088722",
   "mentions": [
+    "A059841",
     "A088723",
     "A088724",
     "A088725",

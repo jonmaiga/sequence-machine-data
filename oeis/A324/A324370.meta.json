@@ -1,5 +1,5 @@
 {
-  "description": "Product of all primes p not dividing n such that the sum of the base p digits of n is at least p, or 1 if no such prime.",
+  "description": "Product of all primes p not dividing n such that the sum of the base-p digits of n is at least p, or 1 if no such prime exists.",
   "id": "A324370",
   "mentions": [
     "A002997",
@@ -17,7 +17,12 @@
     "A324369",
     "A324371",
     "A324404",
-    "A324405"
+    "A324405",
+    "A366168",
+    "A366169",
+    "A366186",
+    "A366187",
+    "A366188"
   ],
   "tags": [
     "base",

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the negated imaginary part of i!.",
   "id": "A212878",
   "mentions": [
+    "A090986",
     "A212877",
     "A212879",
     "A212880"

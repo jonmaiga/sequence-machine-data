@@ -1,7 +1,9 @@
 {
-  "description": "Primes of the form 4^n - 3.",
+  "description": "Primes of the form 4^k - 3.",
   "id": "A135535",
   "mentions": [
+    "A000040",
+    "A050415",
     "A057732",
     "A057733",
     "A059266"

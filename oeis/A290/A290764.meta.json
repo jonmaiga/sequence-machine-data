@@ -1,7 +1,11 @@
 {
   "description": "Number of (non-null) connected induced subgraphs in the 2 X n king graph.",
   "id": "A290764",
-  "mentions": [],
+  "mentions": [
+    "A003462",
+    "A367967",
+    "A367968"
+  ],
   "tags": [
     "easy",
     "formulas",

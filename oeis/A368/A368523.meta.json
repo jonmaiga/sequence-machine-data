@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers in decreasing order of tau(k)/k, where tau(k) = A000005(k).",
+  "id": "A368523",
+  "mentions": [
+    "A000005",
+    "A059992",
+    "A090387",
+    "A090395",
+    "A323383",
+    "A354768"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

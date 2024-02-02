@@ -1,5 +1,5 @@
 {
-  "description": "n*(n-1)*6^n.",
+  "description": "a(n) = n*(n-1)*6^n.",
   "id": "A128800",
   "mentions": [
     "A007758",

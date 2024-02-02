@@ -1,0 +1,24 @@
+{
+  "description": "Product of exponents of prime factorization of the numbers whose exponents in their prime power factorization are squares (A197680).",
+  "id": "A368474",
+  "mentions": [
+    "A000290",
+    "A005361",
+    "A085629",
+    "A197680",
+    "A322327",
+    "A357016",
+    "A368472",
+    "A368473"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

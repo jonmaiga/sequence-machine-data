@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k=0..n} ((3*k+1)*(3*k+2))^(n-k).",
+  "id": "A369468",
+  "mentions": [
+    "A074962",
+    "A168440",
+    "A169619",
+    "A169620",
+    "A263416",
+    "A263417"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

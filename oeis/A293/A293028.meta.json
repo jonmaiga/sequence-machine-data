@@ -1,5 +1,5 @@
 {
-  "description": "Period length of the continued fraction for sqrt(5^(2n+1)).",
+  "description": "Period of the continued fraction for sqrt(5^(2n+1)).",
   "id": "A293028",
   "mentions": [
     "A003285",

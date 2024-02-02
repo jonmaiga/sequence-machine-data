@@ -1,5 +1,5 @@
 {
-  "description": "Pisano period length of the 4-Fibonacci numbers A001076.",
+  "description": "Pisano period of the 4-Fibonacci numbers A001076.",
   "id": "A175183",
   "mentions": [
     "A001076",

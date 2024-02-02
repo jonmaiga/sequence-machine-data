@@ -1,0 +1,22 @@
+{
+  "description": "Number of vertices in the hyperoctahedral (or cocktail party) graph of order n.",
+  "id": "A368756",
+  "mentions": [
+    "A007569",
+    "A129348",
+    "A193130",
+    "A282010",
+    "A368755",
+    "A368757",
+    "A368758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

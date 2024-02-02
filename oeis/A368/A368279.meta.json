@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of compositions of n where the first part is the largest part and the last part is not 1. Row sums of A368579.",
+  "id": "A368279",
+  "mentions": [
+    "A007059",
+    "A079500",
+    "A092921",
+    "A186537",
+    "A188541",
+    "A368579",
+    "A369115",
+    "A369116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

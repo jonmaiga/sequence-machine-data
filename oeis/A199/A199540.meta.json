@@ -1,5 +1,5 @@
 {
-  "description": "Expansion 1/(1-x^2*cotan(x))=sum(n>=0, a(n)*x^n/(n)!^2.",
+  "description": "Expansion 1/(1-x^2*cotan(x)) = Sum_{n>=0} a(n)*x^n/(n)!^2.",
   "id": "A199540",
   "mentions": [],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "For any k >= 0, let P(k) = A368357(k) and P(-k) = A368358(k); for any n > 0, a(n) is the unique k such that P(k) = n.",
+  "id": "A368671",
+  "mentions": [
+    "A368357",
+    "A368358"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Degrees of number fields unramified away from 2.",
+  "id": "A368056",
+  "mentions": [
+    "A367643",
+    "A367669",
+    "A368057"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

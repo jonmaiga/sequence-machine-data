@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that gcd(sigma(n), n) != 1 and still have numerator(sigma(n)/n) > n).",
+  "description": "Numbers such that gcd(sigma(n), n) != 1 and still have numerator(sigma(n)/n) > n.",
   "id": "A234367",
   "mentions": [
     "A000203",

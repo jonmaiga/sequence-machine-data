@@ -2,8 +2,7 @@
   "description": "Numbers that are congruent to {0, 3, 4, 5, 6, 7} mod 8.",
   "id": "A047563",
   "mentions": [
-    "A047571",
-    "A054895"
+    "A047571"
   ],
   "tags": [
     "easy",

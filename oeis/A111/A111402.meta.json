@@ -1,5 +1,5 @@
 {
-  "description": "f(f(n+1)-f(f(n), where f() = Bell numbers = A000110.",
+  "description": "f(f(n+1))-f(f(n)), where f() = Bell numbers = A000110.",
   "id": "A111402",
   "mentions": [
     "A000110",

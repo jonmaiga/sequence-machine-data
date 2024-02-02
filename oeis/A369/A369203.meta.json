@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the first number that has exactly n anagrams that each have exactly n prime divisors, counted by multiplicity.",
+  "id": "A369203",
+  "mentions": [
+    "A001222",
+    "A179239",
+    "A369184"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n appears n*(n+1) times.",
+  "description": "k appears k*(k+1) times.",
   "id": "A220104",
   "mentions": [
     "A002378",

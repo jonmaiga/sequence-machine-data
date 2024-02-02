@@ -1,0 +1,13 @@
+{
+  "description": "Least number k such that there exists a subset u of n distinct elements of {1..k} for which Sum_{i = 1..n} u(i) * prime(u(i)) mod Sum_{i = 1..n} u(i) = 0.",
+  "id": "A367063",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

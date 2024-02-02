@@ -1,0 +1,25 @@
+{
+  "description": "The largest cubefull exponentially odd divisor of n.",
+  "id": "A368170",
+  "mentions": [
+    "A004709",
+    "A008834",
+    "A335988",
+    "A350390",
+    "A356192",
+    "A366906",
+    "A368167",
+    "A368171"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

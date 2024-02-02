@@ -1,7 +1,15 @@
 {
-  "description": "Expansion of 1/((1-x^6)(1-x^8)(1-x^9)).",
+  "description": "Expansion of 1/((1-x^6)*(1-x^8)*(1-x^9)).",
   "id": "A025902",
-  "mentions": [],
+  "mentions": [
+    "A025896",
+    "A025897",
+    "A025898",
+    "A025899",
+    "A025900",
+    "A025901",
+    "A025903"
+  ],
   "tags": [
     "nonn"
   ],

@@ -2,11 +2,14 @@
   "description": "Primes of the form 2^k + 21.",
   "id": "A156983",
   "mentions": [
+    "A000040",
     "A019434",
+    "A057201",
     "A057733",
     "A123250"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Central Lehmer-Comtet numbers of first kind: a(n) = A008296(2n,n).",
+  "description": "Central Lehmer-Comtet numbers of the first kind: a(n) = A008296(2n,n).",
   "id": "A298511",
   "mentions": [
     "A008275",

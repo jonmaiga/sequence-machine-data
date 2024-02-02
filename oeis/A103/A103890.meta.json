@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n)! / prime(n)# + 1.",
+  "description": "a(n) = prime(n)! / prime(n)# + 1.",
   "id": "A103890",
   "mentions": [
     "A002110",
@@ -14,6 +14,7 @@
     "A103896"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

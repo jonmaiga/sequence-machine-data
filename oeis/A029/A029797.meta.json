@@ -2,8 +2,11 @@
   "description": "Numbers k such that k^2 and k^3 have the same set of digits.",
   "id": "A029797",
   "mentions": [
+    "A011557",
     "A029793",
-    "A029795"
+    "A029795",
+    "A029800",
+    "A062397"
   ],
   "tags": [
     "base",

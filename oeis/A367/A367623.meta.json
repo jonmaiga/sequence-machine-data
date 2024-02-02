@@ -1,0 +1,21 @@
+{
+  "description": "Number of comma-children of n in base 3.",
+  "id": "A367623",
+  "mentions": [
+    "A121805",
+    "A367355",
+    "A367356",
+    "A367606",
+    "A367609",
+    "A367622"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

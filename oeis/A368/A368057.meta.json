@@ -1,0 +1,17 @@
+{
+  "description": "Number of degree 4 number fields unramified outside the first n prime numbers.",
+  "id": "A368057",
+  "mentions": [
+    "A126646",
+    "A367669"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

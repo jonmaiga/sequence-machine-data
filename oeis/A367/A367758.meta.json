@@ -1,0 +1,18 @@
+{
+  "description": "Least number of inequivalent cells in a polyomino with n cells.",
+  "id": "A367758",
+  "mentions": [
+    "A126202",
+    "A367759"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

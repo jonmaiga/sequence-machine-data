@@ -1,12 +1,15 @@
 {
-  "description": "Tetrahedral numbers of the form n^2 - 1.",
+  "description": "Tetrahedral numbers of the form k^2 - 1.",
   "id": "A216268",
   "mentions": [
     "A000292",
     "A003556",
+    "A175492",
     "A216269"
   ],
   "tags": [
+    "fini",
+    "more",
     "nonn"
   ],
   "terms": {

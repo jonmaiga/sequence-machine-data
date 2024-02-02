@@ -15,12 +15,11 @@
   ],
   "tags": [
     "base",
-    "hard",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 14,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

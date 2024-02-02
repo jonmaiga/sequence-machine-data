@@ -1,0 +1,39 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of labeled loop-graphs with n vertices and n edges, k of which are loops.",
+  "id": "A368928",
+  "mentions": [
+    "A000085",
+    "A000088",
+    "A000612",
+    "A000666",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A014068",
+    "A016031",
+    "A057500",
+    "A058891",
+    "A062740",
+    "A079491",
+    "A100861",
+    "A111924",
+    "A116508",
+    "A322661",
+    "A339065",
+    "A367863",
+    "A368596",
+    "A368597",
+    "A368836",
+    "A368927"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

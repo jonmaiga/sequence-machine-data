@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} binomial(k+4,5) / k!.",
+  "id": "A368576",
+  "mentions": [
+    "A000389",
+    "A007526",
+    "A103519",
+    "A368574",
+    "A368575"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

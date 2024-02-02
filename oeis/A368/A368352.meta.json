@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximal determinant of an n X n Hankel matrix using the integers 1 to 2*n - 1.",
+  "id": "A368352",
+  "mentions": [
+    "A350931",
+    "A350937",
+    "A350938",
+    "A368351"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

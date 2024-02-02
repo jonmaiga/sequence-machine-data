@@ -1,5 +1,5 @@
 {
-  "description": "Product((d+n/d): d divides n and d^2<=n); a(1)=1.",
+  "description": "a(n) = Product_{d|n, d^2<=n} (d+n/d); a(1)=1.",
   "id": "A050214",
   "mentions": [],
   "tags": [

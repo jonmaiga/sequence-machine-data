@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = binomial(n, k) * (n - k)^k where k = floor(n/2).",
+  "id": "A367274",
+  "mentions": [
+    "A059299"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

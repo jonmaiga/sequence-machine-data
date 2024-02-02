@@ -2,9 +2,13 @@
   "description": "Lexicographically earliest sequence such that each set of numbers enclosed by a pair of equal terms, excluding the endpoints, is distinct.",
   "id": "A366631",
   "mentions": [
+    "A008619",
+    "A158416",
     "A366493",
     "A366624",
-    "A366625"
+    "A366625",
+    "A366691",
+    "A369320"
   ],
   "tags": [
     "nonn"
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Partial sums of A147810(n) = tau(n^2 + 1)/2.",
   "id": "A147807",
   "mentions": [
+    "A093582",
     "A147806",
     "A147809",
     "A147810",

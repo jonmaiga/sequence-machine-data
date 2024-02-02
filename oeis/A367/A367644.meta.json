@@ -1,0 +1,18 @@
+{
+  "description": "Number of maximal independent vertex sets and minimal vertex covers in the n-trapezohedral graph.",
+  "id": "A367644",
+  "mentions": [
+    "A001608",
+    "A109377"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

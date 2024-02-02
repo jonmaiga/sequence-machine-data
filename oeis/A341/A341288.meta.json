@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n, k), read by antidiagonals, n, k >= 0; T(n, k) = XOR_{u in B(n), v in B(k)) 2^(u XOR v) where XOR denotes the bitwise XOR operator and B(n) gives the exponents in expression for n as a sum of powers of 2.",
+  "description": "Square array T(n, k), read by antidiagonals, n, k >= 0; T(n, k) = XOR_{u in B(n), v in B(k)} 2^(u XOR v) where XOR denotes the bitwise XOR operator and B(n) gives the exponents in expression for n as a sum of powers of 2.",
   "id": "A341288",
   "mentions": [
     "A000069",

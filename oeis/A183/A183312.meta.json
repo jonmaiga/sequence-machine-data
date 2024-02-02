@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Half the number of nXk binary arrays with no element equal to a strict majority of its horizontal and vertical neighbors",
+  "description": "T(n,k) = Half the number of n X k binary arrays with no element equal to a strict majority of its horizontal and vertical neighbors.",
   "id": "A183312",
   "mentions": [
     "A000045",

@@ -1,5 +1,5 @@
 {
-  "description": "Sequence of primes separated by [sequence of prime] elements. 2, [find 2nd prime after 2 = ] 5, find 3rd prime after 5 =] 13, [find 5th prime after 13 =] 61, ..., etc.",
+  "description": "Sequence of primes separated by [sequence of prime] elements. 2, [find 2nd prime after 2 = ] 5, [find 3rd prime after 5 =] 13, [find 5th prime after 13 =] 61, ..., etc.",
   "id": "A180302",
   "mentions": [
     "A006450",

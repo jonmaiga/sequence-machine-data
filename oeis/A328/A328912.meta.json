@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction expansion of log_2(sqrt(5)+1)/2) = 0.6942419... = A242208.",
+  "description": "Continued fraction expansion of log_2((sqrt(5)+1)/2) = 0.6942419... = A242208.",
   "id": "A328912",
   "mentions": [
     "A000012",

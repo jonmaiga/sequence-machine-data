@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 4*Pi / (5*(sqrt(10-2*sqrt(5))).",
+  "description": "Decimal expansion of 4*Pi / (5*sqrt(10-2*sqrt(5))).",
   "id": "A352324",
   "mentions": [
     "A019669",

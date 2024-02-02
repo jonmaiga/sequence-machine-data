@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^(n-k) * floor(k/4).",
+  "id": "A368346",
+  "mentions": [
+    "A083593",
+    "A178420",
+    "A178452",
+    "A178455",
+    "A178457",
+    "A178459",
+    "A178460",
+    "A178742"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

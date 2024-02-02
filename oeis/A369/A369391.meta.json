@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonempty subsets of {1..n} whose elements have a square average.",
+  "id": "A369391",
+  "mentions": [
+    "A051293",
+    "A126024",
+    "A309160",
+    "A339454",
+    "A357355"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

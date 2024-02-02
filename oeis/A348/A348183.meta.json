@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the determinant of the n X n matrix M = (m_{i,j}), i,j from 0 to n-1: m{i,j} = (i+j)^2 mod n}.",
+  "description": "a(n) is the determinant of the n X n matrix M = (m_{i,j}), i,j from 0 to n-1: m{i,j} = (i+j)^2 mod n.",
   "id": "A348183",
   "mentions": [
     "A070896"

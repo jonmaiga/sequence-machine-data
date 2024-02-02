@@ -1,5 +1,5 @@
 {
-  "description": "Integers a(n) for which the factorization in the real quadratic field Q(sqrt(a(n)) is not unique.",
+  "description": "Integers a(n) for which the factorization in the real quadratic field Q(sqrt(a(n))) is not unique.",
   "id": "A146209",
   "mentions": [
     "A003172",

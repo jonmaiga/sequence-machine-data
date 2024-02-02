@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with the same number of zeros and letters O in their French name.",
+  "id": "A368829",
+  "mentions": [
+    "A368828"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 271801/99990.",
+  "id": "A368656",
+  "mentions": [
+    "A001113",
+    "A007676",
+    "A007677",
+    "A368617",
+    "A368653",
+    "A368654"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

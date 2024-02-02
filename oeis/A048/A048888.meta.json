@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum{T(m,n+1-m): m=1,2,...,n}, array T as in A048887.",
+  "description": "a(n) = Sum_{m=1..n} T(m,n+1-m), array T as in A048887.",
   "id": "A048888",
   "mentions": [
     "A000045",

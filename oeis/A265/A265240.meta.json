@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 arrays of permutations of 5 copies of 0..n-1 with no equal antidiagonal neighbors and new values introduced sequentially from 0.",
+  "description": "Number of n X 5 arrays of permutations of 5 copies of 0..n-1 with no equal antidiagonal neighbors and new values introduced sequentially from 0.",
   "id": "A265240",
   "mentions": [
     "A265241"

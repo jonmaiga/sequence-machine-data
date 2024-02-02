@@ -1,14 +1,18 @@
 {
   "description": "Let f(n) be the number of sequences of 1's and 2's which sum to n. Sequence contains the string of sequences.",
   "id": "A114034",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A242614"
+  ],
   "tags": [
+    "base",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
+    "size": 53,
     "source": "oeis-entry"
   }
 }

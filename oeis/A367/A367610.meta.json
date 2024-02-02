@@ -1,0 +1,18 @@
+{
+  "description": "Comma transform of A367362.",
+  "id": "A367610",
+  "mentions": [
+    "A367360",
+    "A367362"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

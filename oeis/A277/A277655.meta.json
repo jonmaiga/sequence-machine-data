@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..2 arrays with every element equal to some element at offset (-1,0) (-1,1) (0,-1) (0,1) or (1,0) both plus 1 mod 3 and minus 1 mod 3, with new values introduced in order 0..2.",
+  "description": "Number of n X 4 0..2 arrays with every element equal to some element at offset (-1,0) (-1,1) (0,-1) (0,1) or (1,0) both plus 1 mod 3 and minus 1 mod 3, with new values introduced in order 0..2.",
   "id": "A277655",
   "mentions": [
     "A277659"

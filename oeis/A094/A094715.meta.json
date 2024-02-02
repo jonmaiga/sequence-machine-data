@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{2*i+3*j=n, 0<=i<=n, 0<=j<=n} n!/( (2*i)!*(3*j)!) ).",
+  "description": "a(n) = Sum_{2*i+3*j=n, 0<=i<=n, 0<=j<=n} n!/( (2*i)!*(3*j)! ).",
   "id": "A094715",
   "mentions": [
     "A000748",

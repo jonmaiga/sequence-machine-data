@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of -log(sine of 1 degree)).",
+  "description": "Decimal expansion of -log(sine of 1 degree).",
   "id": "A111511",
   "mentions": [
     "A019810"

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. -log(1 - x^3/6 * (exp(x) - 1)).",
+  "id": "A368174",
+  "mentions": [
+    "A052858",
+    "A353999",
+    "A354001",
+    "A368173"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

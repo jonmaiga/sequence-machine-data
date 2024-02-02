@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes in base 10 that are the product of two repdigit numbers.",
+  "id": "A368944",
+  "mentions": [
+    "A002113",
+    "A002283",
+    "A010785",
+    "A368955"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(n) = floor(Sum_{k=1..n} frac(k/5)), where frac() = fractional part.",
   "id": "A194222",
   "mentions": [
+    "A002266",
     "A118015"
   ],
   "tags": [

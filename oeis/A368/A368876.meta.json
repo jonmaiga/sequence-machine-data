@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of ways n can be reached by the following method: we start with 1, then add or multiply alternately, and each operand must be 3 or 4 or 5.",
+  "id": "A368876",
+  "mentions": [
+    "A358094"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

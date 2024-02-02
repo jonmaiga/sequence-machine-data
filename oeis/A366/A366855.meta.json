@@ -1,0 +1,14 @@
+{
+  "description": "Least number such that the concatenation of the exponents in the prime factorization is n.",
+  "id": "A366855",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

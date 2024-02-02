@@ -1,0 +1,16 @@
+{
+  "description": "Triangular array, read by rows: T(n,k) = coefficients of the polynomial (-1)^(n+1)/(n+1)! N(x), where N(x) is the numerator of the (n-1)st derivative of 1/(1-x-x^2), for k = 1..n.",
+  "id": "A363826",
+  "mentions": [
+    "A094440"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

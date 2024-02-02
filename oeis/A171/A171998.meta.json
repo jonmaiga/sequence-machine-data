@@ -1,5 +1,5 @@
 {
-  "description": "In general, let A(n,k,m) denote the (n,k)-th entry of the inverse of the matrix consisting of the (n,k)-th m-restrained Stirling numbers of the second kind (-1)^(n-k) times the number of permutations of an n-set with k disjoint cycles of length less than or equal to m) as the (n+1,k+1)-th entry. The sequence shows A(n,k,3), which is a lower triangular matrix, read by rows.",
+  "description": "In general, let A(n,k,m) denote the (n,k)-th entry of the inverse of the matrix consisting of the (n,k)-th m-restrained Stirling numbers of the second kind (-1)^(n-k) times the number of permutations of an n-set with k disjoint cycles of length less than or equal to m, as the (n+1,k+1)-th entry. The sequence shows A(n,k,3), which is a lower triangular matrix, read by rows.",
   "id": "A171998",
   "mentions": [
     "A111246",

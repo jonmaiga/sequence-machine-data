@@ -1,9 +1,11 @@
 {
-  "description": "Composite numbers n with primitive root 2; i.e., the order of 2 modulo n is phi(n).",
+  "description": "Composite numbers k with primitive root 2; i.e., the order of 2 modulo k is phi(k).",
   "id": "A108989",
   "mentions": [
+    "A000010",
     "A001122",
     "A002326",
+    "A002808",
     "A167791",
     "A216838",
     "A216848",

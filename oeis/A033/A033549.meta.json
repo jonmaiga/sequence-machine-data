@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of digits of n-th prime equals sum of digits of n.",
+  "description": "Numbers k such that sum of digits of k-th prime equals sum of digits of k.",
   "id": "A033549",
   "mentions": [
     "A007605",

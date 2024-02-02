@@ -1,0 +1,29 @@
+{
+  "description": "The number of unitary divisors of the cubefull part of n (A360540).",
+  "id": "A368248",
+  "mentions": [
+    "A004709",
+    "A034444",
+    "A036966",
+    "A061704",
+    "A062838",
+    "A157289",
+    "A304327",
+    "A307428",
+    "A323308",
+    "A360540",
+    "A362852",
+    "A366145"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying A(x/A(x)) = exp(x*A(x)).",
+  "id": "A367385",
+  "mentions": [
+    "A144681"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of expansion of (1 + 5*x + 11*x^2 + 5*x^3 + 7*x^4 + x^5)/(1 - x^3)^2 in powers of x.",
+  "id": "A367705",
+  "mentions": [
+    "A006369",
+    "A007310",
+    "A016921",
+    "A017581",
+    "A017653",
+    "A130196"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

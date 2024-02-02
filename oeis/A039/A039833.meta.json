@@ -1,5 +1,5 @@
 {
-  "description": "Smallest of three consecutive squarefree numbers k, k+1, k+2 of the form p*q where p and q are primes.",
+  "description": "Smallest of three consecutive squarefree numbers k, k+1, k+2 of the form p*q where p and q are distinct primes.",
   "id": "A039833",
   "mentions": [
     "A006881",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of form 4^i*9^j, with i, j >= 0.",
+  "description": "Numbers of the form 4^i * 9^j, with i, j >= 0.",
   "id": "A025620",
   "mentions": [
     "A000290",

@@ -1,0 +1,17 @@
+{
+  "description": "Moebius inversion of A015134.",
+  "id": "A365519",
+  "mentions": [
+    "A008683",
+    "A015134"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

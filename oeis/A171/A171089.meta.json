@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*(Lucas(n)^2 - (-1)^n)).",
+  "description": "a(n) = 2*(Lucas(n)^2 - (-1)^n).",
   "id": "A171089",
   "mentions": [
     "A000032",

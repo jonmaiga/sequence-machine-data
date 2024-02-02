@@ -1,5 +1,5 @@
 {
-  "description": "Primes in A007443 (= binomial transform of primes). Also, first term of iterated successive sums of successive terms, starting with the primes.",
+  "description": "Primes in A007443 (= binomial transform of primes).",
   "id": "A096280",
   "mentions": [
     "A001043",

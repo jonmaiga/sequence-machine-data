@@ -1,8 +1,11 @@
 {
-  "description": "a(0)=a(1)=0, a(2)=a(3)=2, for n>=3 a(n)=a(n-1)+4*a(n-3).",
+  "description": "a(0)=a(1)=0, a(2)=a(3)=2; for n >= 3, a(n) = a(n-1) + 4*a(n-3).",
   "id": "A122946",
   "mentions": [
-    "A002487"
+    "A002487",
+    "A002559",
+    "A089977",
+    "A110512"
   ],
   "tags": [
     "easy",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 36,
     "source": "joeis"
   }
 }

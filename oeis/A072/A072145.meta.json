@@ -1,5 +1,5 @@
 {
-  "description": "The period length of the 'Reverse and Subtract' trajectory of n is greater than 14.",
+  "description": "Numbers k such that the period of the 'Reverse and Subtract' trajectory of k is greater than 14.",
   "id": "A072145",
   "mentions": [
     "A072137",

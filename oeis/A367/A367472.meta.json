@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / (4 - 3 * exp(x))^2.",
+  "id": "A367472",
+  "mentions": [
+    "A005649",
+    "A032033",
+    "A367470",
+    "A367473"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

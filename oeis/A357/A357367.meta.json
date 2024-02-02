@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows. T(n, k) = Sum_{m=0..k} ((-1)^(m + k) * binomial(n + k, n + m) * L(n + m, m), where L denotes the unsigned Lah numbers A271703.",
+  "description": "Triangle read by rows. T(n, k) = Sum_{m=0..k} (-1)^(m + k) * binomial(n + k, n + m) * L(n + m, m), where L denotes the unsigned Lah numbers A271703.",
   "id": "A357367",
   "mentions": [
     "A032037",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number k such that sigma(sigma(k) * k) > n * sigma(k) * k.",
+  "id": "A368063",
+  "mentions": [
+    "A064987",
+    "A134716"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

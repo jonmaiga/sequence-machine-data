@@ -1,14 +1,16 @@
 {
-  "description": "a(0)=1. a(n) = a(n-1) + (n-th divisor from the concatenated sequence of divisors of the terms of {a(k)}).",
+  "description": "a(0) = 1 and a(n) = a(n-1) + A116212(n), where A116212 is the list of the positive divisors of each term of this sequence.",
   "id": "A116137",
-  "mentions": [],
+  "mentions": [
+    "A116212"
+  ],
   "tags": [
-    "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

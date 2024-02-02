@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} BarnesG(k)*BarnesG(n-k).",
+  "id": "A368209",
+  "mentions": [
+    "A000178",
+    "A003149",
+    "A074962"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

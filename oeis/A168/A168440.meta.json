@@ -1,11 +1,13 @@
 {
-  "description": "Product{k=0..n, ((4k+1)*(4k+3))^(n-k)}.",
+  "description": "a(n) = Product_{k=0..n} ((4*k+1)*(4*k+3))^(n-k).",
   "id": "A168440",
   "mentions": [
+    "A074962",
     "A128709"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A363914(n, k)*2^(n - k).",
+  "id": "A367774",
+  "mentions": [
+    "A363914"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

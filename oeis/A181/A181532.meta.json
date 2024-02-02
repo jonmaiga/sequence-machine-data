@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0, a(1) = 1, a(2) = 1; a(n) = a(n-1) + a(n-2) + a(n-4)",
+  "description": "a(0) = 0, a(1) = 1, a(2) = 1, a(3) = 2; a(n) = a(n-1) + a(n-2) + a(n-4).",
   "id": "A181532",
   "mentions": [
     "A035317",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 39,
     "source": "joeis"
   }
 }

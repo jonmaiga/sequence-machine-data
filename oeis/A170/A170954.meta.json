@@ -1,5 +1,5 @@
 {
-  "description": "Indices n such that A000930(n) is prime.",
+  "description": "Indices k such that A000930(k) is prime.",
   "id": "A170954",
   "mentions": [
     "A000930"

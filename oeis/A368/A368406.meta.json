@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A368405(k) = 0.",
+  "id": "A368406",
+  "mentions": [
+    "A028442",
+    "A275547",
+    "A368405"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

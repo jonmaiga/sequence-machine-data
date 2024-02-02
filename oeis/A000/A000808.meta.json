@@ -1,7 +1,10 @@
 {
   "description": "Number of switching networks (see Harrison reference for precise definition).",
   "id": "A000808",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A001146"
+  ],
   "tags": [
     "formulas",
     "nonn"

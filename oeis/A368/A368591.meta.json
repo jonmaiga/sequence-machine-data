@@ -1,0 +1,16 @@
+{
+  "description": "The sequence is both a succession of triples of monotonically increasing numbers and a succession of triples of monotonically increasing digits. This is the lexicographically earliest such sequence starting with a(1) = 0 formed by distinct number-triples.",
+  "id": "A368591",
+  "mentions": [
+    "A336611"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 507,
+    "source": "oeis-entry"
+  }
+}

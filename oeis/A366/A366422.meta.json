@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^4*2^k + 1 is a prime.",
+  "id": "A366422",
+  "mentions": [
+    "A005849",
+    "A058780",
+    "A092506",
+    "A357612",
+    "A367102"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1 and a(n) = prime(a(n-1)+n) mod (a(n-1)+n).",
+  "id": "A366836",
+  "mentions": [
+    "A004648"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

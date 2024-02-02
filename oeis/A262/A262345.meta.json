@@ -1,12 +1,12 @@
 {
-  "description": "Numbers n such that 4^n + 21 is prime.",
+  "description": "Numbers k such that 4^k + 21 is prime.",
   "id": "A262345",
   "mentions": [
     "A057201",
+    "A156983",
     "A253772"
   ],
   "tags": [
-    "formulas",
     "more",
     "nonn"
   ],

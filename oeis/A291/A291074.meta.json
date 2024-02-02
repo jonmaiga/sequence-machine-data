@@ -1,5 +1,5 @@
 {
-  "description": "Take n-th string over {1,2} in lexicographic order and apply the Watanabe tag system (00, 0111} described in A291069 (but adapted to the alphabet {1,2}) just once.",
+  "description": "Take n-th string over {1,2} in lexicographic order and apply the Watanabe tag system {00, 0111} described in A291069 (but adapted to the alphabet {1,2}) just once.",
   "id": "A291074",
   "mentions": [
     "A007931",

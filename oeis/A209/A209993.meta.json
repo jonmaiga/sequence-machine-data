@@ -2,15 +2,18 @@
   "description": "Number of 2 X 2 matrices with all elements in {0,1,...,n} and determinant in {-1,0,1}.",
   "id": "A209993",
   "mentions": [
+    "A000010",
+    "A018804",
     "A209992",
     "A210000"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 41,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,9 @@
 {
   "description": "(Negated) Decimal expansion of value of absolute zero in degrees Celsius.",
   "id": "A356381",
-  "mentions": [],
+  "mentions": [
+    "A356509"
+  ],
   "tags": [
     "cons",
     "fini",

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = period length of the sequence A020639(n^k - 1), k >= 1.",
+  "id": "A368811",
+  "mentions": [
+    "A000720",
+    "A010705",
+    "A020639",
+    "A049479",
+    "A058254",
+    "A366717"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

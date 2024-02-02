@@ -1,0 +1,17 @@
+{
+  "description": "Semiprimes k such that 2 * k - 1 and 2 * k + 1 are also semiprimes.",
+  "id": "A367496",
+  "mentions": [
+    "A001358",
+    "A111153",
+    "A111168"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

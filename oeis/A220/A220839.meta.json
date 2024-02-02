@@ -1,5 +1,5 @@
 {
-  "description": "Tropical version of a degree-6 Somos sequence.",
+  "description": "Tropical version of the degree-6 recurrence x(n+6)*x(n) = (x(n+5)*x(n+1))^2 + x(n+4)^2*x(n+3)^4*x(n+2)^2.",
   "id": "A220839",
   "mentions": [],
   "tags": [

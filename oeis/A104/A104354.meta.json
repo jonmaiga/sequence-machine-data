@@ -7,11 +7,12 @@
     "A104350"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 23,
-    "source": "joeis"
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
   }
 }

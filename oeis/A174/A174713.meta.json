@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, A173305 (A000009 shifted down twice) * A174712 (diagonalized variant of A000041.",
+  "description": "Triangle read by rows, A173305 (A000009 shifted down twice) * A174712 (diagonalized variant of A000041).",
   "id": "A174713",
   "mentions": [
     "A000009",

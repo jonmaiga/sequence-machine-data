@@ -2,11 +2,13 @@
   "description": "Number of primes between successive Lucas numbers.",
   "id": "A052012",
   "mentions": [
+    "A000032",
     "A000204",
-    "A010051",
+    "A000720",
     "A052011"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

@@ -3,11 +3,15 @@
   "id": "A345082",
   "mentions": [
     "A000010",
+    "A022998",
+    "A088245",
     "A319997",
     "A319998"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {

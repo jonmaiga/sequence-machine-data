@@ -1,5 +1,5 @@
 {
-  "description": "Let n be an integer consisting of m digits. Then n is a Pithy number if the n-th m-tuple in the decimal digits of Pi is string n.",
+  "description": "Let k be an integer consisting of m digits. Then k is a Pithy number if the k-th m-tuple in the decimal digits of Pi is k.",
   "id": "A109514",
   "mentions": [
     "A057679",
@@ -12,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 4,
+    "offset": 1,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

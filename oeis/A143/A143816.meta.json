@@ -1,5 +1,5 @@
 {
-  "description": "Let A(0) = 1, B(0) = 0 and C(0) = 0. Let B(n+1) = Sum_{k = 0..n) binomial(n,k)* A(k), C(n+1) = Sum_{k = 0..n) binomial(n,k)*B(k) and A(n+1) = Sum_{k = 0..n) binomial(n,k)*C(k). This entry gives the sequence B(n).",
+  "description": "Let A(0) = 1, B(0) = 0 and C(0) = 0. Let B(n+1) = Sum_{k = 0..n} binomial(n,k)* A(k), C(n+1) = Sum_{k = 0..n} binomial(n,k)*B(k) and A(n+1) = Sum_{k = 0..n} binomial(n,k)*C(k). This entry gives the sequence B(n).",
   "id": "A143816",
   "mentions": [
     "A000110",

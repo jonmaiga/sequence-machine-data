@@ -1,0 +1,33 @@
+{
+  "description": "Number of integer partitions of n whose multiset multiplicity kernel is a submultiset.",
+  "id": "A367684",
+  "mentions": [
+    "A000009",
+    "A000012",
+    "A000041",
+    "A000837",
+    "A032741",
+    "A071625",
+    "A072233",
+    "A091602",
+    "A098859",
+    "A109297",
+    "A114640",
+    "A116608",
+    "A116861",
+    "A130091",
+    "A243978",
+    "A367579",
+    "A367580",
+    "A367581",
+    "A367685"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

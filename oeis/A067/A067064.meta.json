@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(sigma(sigma(n)))) == 0 (mod sigma(n)).",
+  "description": "Numbers n such that sigma(sigma(sigma(n))) == 0 (mod sigma(n)).",
   "id": "A067064",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

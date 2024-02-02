@@ -1,10 +1,11 @@
 {
-  "description": "a(k) is the last term of a sequence analog of A121805, but starting with k.",
+  "description": "a(n) is the last term of the analogous sequence to A121805, but with initial term n, or -1 if that sequence is infinite.",
   "id": "A330129",
   "mentions": [
     "A121805",
     "A139284",
-    "A330128"
+    "A330128",
+    "A366492"
   ],
   "tags": [
     "base",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

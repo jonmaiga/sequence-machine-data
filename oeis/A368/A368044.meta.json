@@ -1,0 +1,18 @@
+{
+  "description": "Pandigital primes that are the concatenation of 9 primes.",
+  "id": "A368044",
+  "mentions": [
+    "A050288",
+    "A368034",
+    "A368035"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

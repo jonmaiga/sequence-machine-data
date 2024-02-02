@@ -2,6 +2,7 @@
   "description": "Decimal expansion of sqrt(5 + sqrt(5 + sqrt(5 + sqrt(5 + ... )))).",
   "id": "A222134",
   "mentions": [
+    "A015440",
     "A090458",
     "A107905",
     "A222135"

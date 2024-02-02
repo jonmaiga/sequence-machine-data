@@ -2,9 +2,11 @@
   "description": "a(n) = 3*a(n-1) - 9*a(n-2), with a(0)=0, a(1)=1.",
   "id": "A190963",
   "mentions": [
+    "A128834",
     "A190958"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

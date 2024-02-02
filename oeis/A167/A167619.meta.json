@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which have nonzero digital product equal to the last digits of n.",
+  "description": "Numbers k which have nonzero digital product equal to the last digits of k.",
   "id": "A167619",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

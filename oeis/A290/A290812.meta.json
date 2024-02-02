@@ -1,5 +1,5 @@
 {
-  "description": "Odd composite numbers n such that k^(n - 1) == 1 (mod n) and gcd(k^((n - 1)/2) - 1, n) = 1 for some integer k in the interval [2, sqrt(n) + 1].",
+  "description": "Odd composite numbers m such that k^(m - 1) == 1 (mod m) and gcd(k^((m - 1)/2) - 1, m) = 1 for some integer k in the interval [2, sqrt(m) + 1].",
   "id": "A290812",
   "mentions": [
     "A130569",

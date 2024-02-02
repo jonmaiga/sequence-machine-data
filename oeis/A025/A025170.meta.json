@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1/(1 + 2*x + 9*x^2).",
+  "description": "Expansion of g.f.: 1/(1 + 2*x + 9*x^2).",
   "id": "A025170",
   "mentions": [
     "A087455",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

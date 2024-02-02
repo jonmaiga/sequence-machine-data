@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} (n-d)^n.",
+  "id": "A367493",
+  "mentions": [
+    "A094471",
+    "A367326",
+    "A367327",
+    "A367368"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

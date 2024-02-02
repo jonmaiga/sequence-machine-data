@@ -1,0 +1,19 @@
+{
+  "description": "Number of free midpoint-free polycubes of size n, identifying rotations and reflections.",
+  "id": "A368029",
+  "mentions": [
+    "A363203",
+    "A363204",
+    "A363207",
+    "A368030"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

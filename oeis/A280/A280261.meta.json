@@ -1,5 +1,5 @@
 {
-  "description": "Period length 12 sequence [0, 1, -1, 0, -1, -1, 0, -1, 1, 0, 1, 1, ...].",
+  "description": "Period 12 sequence [0, 1, -1, 0, -1, -1, 0, -1, 1, 0, 1, 1, ...].",
   "id": "A280261",
   "mentions": [
     "A000045",

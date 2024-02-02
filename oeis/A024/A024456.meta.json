@@ -1,5 +1,5 @@
 {
-  "description": "[ 4th elementary symmetric function of P(n))/(2nd elementary symmetric function of P(n)) ], where P(n) = {first n+3 primes}.",
+  "description": "[ (4th elementary symmetric function of P(n))/(2nd elementary symmetric function of P(n)) ], where P(n) = {first n+3 primes}.",
   "id": "A024456",
   "mentions": [],
   "tags": [

@@ -1,9 +1,10 @@
 {
-  "description": "Composite numbers n == 3 (mod 4) such that (1 + i)^n == 1 - i (mod n), where i = sqrt(-1).",
+  "description": "Composite numbers k == 3 (mod 4) such that (1 + i)^k == 1 - i (mod k), where i = sqrt(-1).",
   "id": "A270697",
   "mentions": [
     "A001262",
     "A001567",
+    "A006971",
     "A047713",
     "A244628",
     "A270698",

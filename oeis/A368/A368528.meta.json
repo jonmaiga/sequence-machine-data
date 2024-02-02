@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2 * 3^(n-k).",
+  "id": "A368528",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A047520",
+    "A052150",
+    "A368524",
+    "A368529"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

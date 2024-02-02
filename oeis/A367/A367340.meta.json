@@ -1,0 +1,19 @@
+{
+  "description": "List of distinct (positive) numbers appearing in A367338.",
+  "id": "A367340",
+  "mentions": [
+    "A121805",
+    "A367338",
+    "A367339",
+    "A367341"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

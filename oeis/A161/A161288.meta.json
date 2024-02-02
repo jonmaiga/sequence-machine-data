@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into numbers not divisible by 3 where every part appears at least 10 times",
+  "description": "Number of partitions of n into numbers not divisible by 3 where every part appears at least 10 times.",
   "id": "A161288",
   "mentions": [],
   "tags": [

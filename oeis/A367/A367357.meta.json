@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A134647.",
+  "id": "A367357",
+  "mentions": [
+    "A121805",
+    "A134647"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

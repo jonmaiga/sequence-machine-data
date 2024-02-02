@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n^(n-k) * binomial(k+n,k).",
+  "id": "A368510",
+  "mentions": [
+    "A293574",
+    "A368489"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

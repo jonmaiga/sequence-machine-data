@@ -1,0 +1,16 @@
+{
+  "description": "Number of maximal sets of pairs (t,d) where 2 <= t <= n, d is a proper divisor of t, no t is repeated, and no d is repeated.",
+  "id": "A368349",
+  "mentions": [
+    "A027751",
+    "A032741"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

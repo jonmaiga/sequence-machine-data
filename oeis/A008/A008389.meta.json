@@ -2,6 +2,7 @@
   "description": "Coordination sequence for A_7 lattice.",
   "id": "A008389",
   "mentions": [
+    "A008527",
     "A103881"
   ],
   "tags": [

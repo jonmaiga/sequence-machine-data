@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle of highly composite numbers h(n) = A002182(n) arranged first according to rad(h(n))/h(n) then by rad(h(n)), where rad(n) = A007947(n).",
+  "id": "A365902",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A002182",
+    "A007947",
+    "A108602",
+    "A301414",
+    "A301415"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of near-repunit primes can be formed from (10^k-1)/9 by changing just one digit from 1 to 0.",
+  "description": "Number of near-repunit primes that can be formed from (10^k - 1)/9 by changing just one digit from 1 to 0.",
   "id": "A034093",
   "mentions": [
     "A004022",

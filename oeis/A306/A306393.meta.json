@@ -1,8 +1,9 @@
 {
-  "description": "Number T(n,k) of defective (binary) heaps on n elements where k ancestor-successor pairs do not have the correct order; triangle T(n,k), n>=0, 0<=k<=A061168(n), read by rows.",
+  "description": "Number T(n,k) of defective (binary) heaps on n elements where k ancestor-successor pairs do not have the correct order; triangle T(n,k), n >= 0, 0 <= k <= A061168(n), read by rows.",
   "id": "A306393",
   "mentions": [
     "A000142",
+    "A000337",
     "A000523",
     "A008302",
     "A056971",

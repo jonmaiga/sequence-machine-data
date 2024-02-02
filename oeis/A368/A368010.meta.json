@@ -1,0 +1,20 @@
+{
+  "description": "Ordinal transform of the leading digit of the factorial numbers.",
+  "id": "A368010",
+  "mentions": [
+    "A000142",
+    "A008905",
+    "A367799"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

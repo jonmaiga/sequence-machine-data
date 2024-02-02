@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of g(1)-g(2)+g(4)-g(5), where g(k) = sum(1/(6*m+k)^2, m >= 0).",
+  "description": "Decimal expansion of g(1)-g(2)+g(4)-g(5), where g(k) = Sum_{m>=0}(1/(6*m+k)^2).",
   "id": "A086724",
   "mentions": [
     "A086722",

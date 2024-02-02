@@ -1,0 +1,24 @@
+{
+  "description": "Primitive practical numbers of the form 2 * 3^i * prime(k).",
+  "id": "A367481",
+  "mentions": [
+    "A000040",
+    "A000244",
+    "A005153",
+    "A005835",
+    "A006036",
+    "A083207",
+    "A233919",
+    "A267124",
+    "A308710"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

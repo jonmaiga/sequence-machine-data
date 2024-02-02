@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows with all zeros removed where T(n,k) is the number of integer partitions of n with k different semi-sums.",
+  "id": "A367412",
+  "mentions": [
+    "A000041",
+    "A001358",
+    "A006881",
+    "A046663",
+    "A065119",
+    "A088922",
+    "A117855",
+    "A122768",
+    "A126796",
+    "A188431",
+    "A238628",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A304792",
+    "A325781",
+    "A365543",
+    "A365658",
+    "A365830",
+    "A365831",
+    "A365832",
+    "A365924",
+    "A365925",
+    "A366738",
+    "A366739",
+    "A366741",
+    "A366753",
+    "A367095"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

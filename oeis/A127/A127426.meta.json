@@ -1,5 +1,5 @@
 {
-  "description": "n!-ceiling(n^(n/2)).",
+  "description": "a(n) = n! - ceiling(n^(n/2)).",
   "id": "A127426",
   "mentions": [],
   "tags": [

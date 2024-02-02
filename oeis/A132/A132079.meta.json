@@ -1,9 +1,12 @@
 {
-  "description": "a(n) = (5^n + 3)/2",
+  "description": "a(n) = (5^n + 3)/2.",
   "id": "A132079",
-  "mentions": [],
+  "mentions": [
+    "A047850"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

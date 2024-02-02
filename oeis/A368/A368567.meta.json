@@ -1,0 +1,17 @@
+{
+  "description": "Number of Young tableaux of shape [n, floor(n/2)].",
+  "id": "A368567",
+  "mentions": [
+    "A026004",
+    "A174687"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

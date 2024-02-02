@@ -2,6 +2,7 @@
   "description": "Integers in alphabetical order in U.S. English.",
   "id": "A004740",
   "mentions": [
+    "A000052",
     "A019440",
     "A026081",
     "A073327",

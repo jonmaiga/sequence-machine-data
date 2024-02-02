@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..4 arrays with each row and column divisible by 7, read as a base-5 number with top and left being the most significant digits.",
+  "description": "Number of (n+1) X (5+1) 0..4 arrays with each row and column divisible by 7, read as a base-5 number with top and left being the most significant digits.",
   "id": "A263555",
   "mentions": [
     "A263558"

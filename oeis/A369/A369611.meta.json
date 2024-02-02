@@ -1,0 +1,21 @@
+{
+  "description": "Tropical version of Somos-7 sequence A006723.",
+  "id": "A369611",
+  "mentions": [
+    "A006723",
+    "A220838",
+    "A333251",
+    "A368483",
+    "A369113"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

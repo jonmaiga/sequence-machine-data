@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays with rows and columns lexicographically nondecreasing and the instance counts of every value within one of each other",
+  "description": "Number of n X n 0..2 arrays with rows and columns lexicographically nondecreasing and the instance counts of every value within one of each other.",
   "id": "A201425",
   "mentions": [
     "A201432"

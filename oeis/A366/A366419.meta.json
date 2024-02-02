@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct integers of the form (x^n + y^n) mod n^3.",
+  "id": "A366419",
+  "mentions": [
+    "A121278",
+    "A365100",
+    "A366418",
+    "A366420"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

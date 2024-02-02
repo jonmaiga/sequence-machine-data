@@ -1,10 +1,14 @@
 {
   "description": "Continued fraction for sqrt(135).",
   "id": "A010194",
-  "mentions": [],
+  "mentions": [
+    "A140248"
+  ],
   "tags": [
     "cofr",
+    "easy",
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {

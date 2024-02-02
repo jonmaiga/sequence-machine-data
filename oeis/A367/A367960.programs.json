@@ -1,0 +1,128 @@
+{
+  "oi": 367960,
+  "ps": [
+    {
+      "d": "2024-01-29",
+      "ix": "de[tanh(acos(0))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "tanh",
+        "de"
+      ]
+    },
+    {
+      "d": "2024-01-29",
+      "ix": "de[tanh(asin(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "tanh",
+        "de"
+      ]
+    },
+    {
+      "d": "2024-01-29",
+      "ix": "de[tanh(π/2)]",
+      "mt": 50,
+      "px": [
+        "π",
+        "2",
+        "/",
+        "tanh",
+        "de"
+      ]
+    },
+    {
+      "d": "2024-02-01",
+      "ix": "limit[tanh(atan(exp(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "exp",
+        "atan",
+        "tanh",
+        "limit"
+      ]
+    },
+    {
+      "d": "2024-01-29",
+      "ix": "de[sin(atan(sinh(acos(0))))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "sinh",
+        "atan",
+        "sin",
+        "de"
+      ]
+    },
+    {
+      "d": "2024-01-29",
+      "ix": "de[sin(atan(sinh(asin(1))))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "sinh",
+        "atan",
+        "sin",
+        "de"
+      ]
+    },
+    {
+      "d": "2024-01-29",
+      "ix": "de[cos(acot(sinh(acos(0))))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "sinh",
+        "acot",
+        "cos",
+        "de"
+      ]
+    },
+    {
+      "d": "2024-01-29",
+      "ix": "de[cos(acot(sinh(asin(1))))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "sinh",
+        "acot",
+        "cos",
+        "de"
+      ]
+    },
+    {
+      "d": "2024-01-29",
+      "ix": "de[-tanh(log(sqrt(exp(π))))]",
+      "mt": 50,
+      "px": [
+        "π",
+        "exp",
+        "sqrt",
+        "log",
+        "tanh",
+        "neg",
+        "de"
+      ]
+    },
+    {
+      "d": "2024-01-30",
+      "ix": "de[1/C367961]",
+      "mt": 50,
+      "px": [
+        "1",
+        "C367961",
+        "/",
+        "de"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the numerator of the maximum expected number of steps of a random walk on the square lattice until it lands on a mined lattice point, given that mines are placed on all but n points.",
+  "id": "A366998",
+  "mentions": [
+    "A365964",
+    "A366999",
+    "A369368",
+    "A369370"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

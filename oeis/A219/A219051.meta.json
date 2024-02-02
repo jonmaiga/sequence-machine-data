@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3^n - 34 is prime.",
+  "description": "Numbers k such that 3^k - 34 is prime.",
   "id": "A219051",
   "mentions": [
     "A014224",
@@ -27,6 +27,7 @@
     "A219050"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -2,9 +2,12 @@
   "description": "a(n) = Sum_{k=1..n} bigomega(tau(k)).",
   "id": "A079057",
   "mentions": [
+    "A000005",
+    "A001222",
     "A058061"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

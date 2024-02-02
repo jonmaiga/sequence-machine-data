@@ -1,0 +1,22 @@
+{
+  "description": "The number of ways of tiling the n X n torus up to the symmetries of the square by a tile that is fixed under 180-degree rotation.",
+  "id": "A368137",
+  "mentions": [
+    "A255016",
+    "A295223",
+    "A367524",
+    "A367533",
+    "A367534",
+    "A367535",
+    "A367536",
+    "A368138"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * (1 + Sum_{k=0..n} (-1)^k * binomial(k+1,2) / k!).",
+  "id": "A368766",
+  "mentions": [
+    "A009574",
+    "A368762",
+    "A368765",
+    "A368767",
+    "A368768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

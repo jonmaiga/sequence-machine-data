@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are congruent to {2, 3} mod 4.",
+  "description": "Numbers that are congruent to 2 or 3 mod 4.",
   "id": "A042964",
   "mentions": [
     "A000040",

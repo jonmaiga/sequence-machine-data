@@ -2,9 +2,11 @@
   "description": "First row of A262057.",
   "id": "A265316",
   "mentions": [
+    "A006997",
     "A262057"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

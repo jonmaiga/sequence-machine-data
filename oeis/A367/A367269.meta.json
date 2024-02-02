@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) read by rows and based on A042948 yields a permutation of the natural numbers.",
+  "id": "A367269",
+  "mentions": [
+    "A006003",
+    "A042948",
+    "A364390"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

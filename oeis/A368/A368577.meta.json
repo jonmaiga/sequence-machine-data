@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..A036497(n), read by rows; the n-th row lists the numbers m such that A331835(m) = n.",
+  "id": "A368577",
+  "mentions": [
+    "A036497",
+    "A200947",
+    "A331835",
+    "A345101",
+    "A345297",
+    "A368578"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

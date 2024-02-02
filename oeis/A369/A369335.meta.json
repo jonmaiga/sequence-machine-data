@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of the numbers inside a square of side length 2n+1 located in Pascal's triangle at and below row n.",
+  "id": "A369335",
+  "mentions": [
+    "A007318",
+    "A030662"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

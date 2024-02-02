@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum(n>=1} |sin((n*Pi)/3)|^n.",
+  "description": "Decimal expansion of Sum_{n>=1} |sin((n*Pi)/3)|^n.",
   "id": "A277755",
   "mentions": [
     "A010527",

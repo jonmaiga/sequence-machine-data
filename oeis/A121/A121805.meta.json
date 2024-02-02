@@ -1,9 +1,23 @@
 {
-  "description": "The \"commas\" sequence: the lexicographically earliest sequence of positive numbers with the property that the sequence formed by the pairs of digits adjacent to the commas between the terms is the same as the sequence of successive differences between the terms.",
+  "description": "The \"comma sequence\": the lexicographically earliest sequence of positive numbers with the property that the sequence formed by the pairs of digits adjacent to the commas between the terms is the same as the sequence of successive differences between the terms.",
   "id": "A121805",
   "mentions": [
+    "A042948",
     "A139284",
-    "A260261"
+    "A260261",
+    "A330128",
+    "A330129",
+    "A366487",
+    "A366492",
+    "A367337",
+    "A367338",
+    "A367349",
+    "A367350",
+    "A367351",
+    "A367352",
+    "A367353",
+    "A367354",
+    "A367360"
   ],
   "tags": [
     "base",

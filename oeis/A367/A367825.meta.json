@@ -1,0 +1,34 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) is the denominator of (R(n) - k)/(n + k), where R(n) is the digit reversal of n, with A(0, 0) = 1.",
+  "id": "A367825",
+  "mentions": [
+    "A000012",
+    "A004086",
+    "A026741",
+    "A051724",
+    "A060789",
+    "A060819",
+    "A106609",
+    "A106611",
+    "A106612",
+    "A106615",
+    "A106617",
+    "A106619",
+    "A231190",
+    "A367728",
+    "A367824",
+    "A367827"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

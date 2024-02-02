@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^(degree(C(n,x))/discriminant(C(n,x)) for the minimal polynomials C(n,x) of 2*cos(Pi/n), given in A187360.",
+  "description": "a(n) = n^degree(C(n,x))/discriminant(C(n,x)) for the minimal polynomials C(n,x) of 2*cos(Pi/n), given in A187360.",
   "id": "A215041",
   "mentions": [
     "A004124",

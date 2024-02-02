@@ -1,0 +1,20 @@
+{
+  "description": "Number of Lucas numbers needed to get n by addition and subtraction.",
+  "id": "A368594",
+  "mentions": [
+    "A000032",
+    "A058978",
+    "A116543",
+    "A364754",
+    "A367816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

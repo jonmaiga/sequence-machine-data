@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+1 are a pair of consecutive powerful numbers.",
+  "description": "Numbers k such that k and k+1 are powerful numbers.",
   "id": "A060355",
   "mentions": [
     "A001694",

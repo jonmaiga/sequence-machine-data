@@ -1,0 +1,20 @@
+{
+  "description": "-a(n)/7! is the coefficient of x^7 in the Taylor expansion of the k-th iteration of sin(x).",
+  "id": "A366827",
+  "mentions": [
+    "A051624",
+    "A285018",
+    "A285019",
+    "A366834"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

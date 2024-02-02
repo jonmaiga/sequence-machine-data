@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} d * sigma(d) * mu(d)^2.",
+  "id": "A367866",
+  "mentions": [
+    "A000203",
+    "A008966",
+    "A343442"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

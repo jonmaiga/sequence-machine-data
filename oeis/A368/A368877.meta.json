@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = f^k(n) where f(n) = A014682(n), the Collatz map, and k = A070939(n), the length of n in base 2.",
+  "id": "A368877",
+  "mentions": [
+    "A014682",
+    "A070939",
+    "A368878"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

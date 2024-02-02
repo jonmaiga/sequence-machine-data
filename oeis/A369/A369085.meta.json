@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying -x = Sum_{n=-oo..+oo} (-1)^n * x^(n*(n-1)/2) * A(x)^(n^2).",
+  "id": "A369085",
+  "mentions": [
+    "A355349"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

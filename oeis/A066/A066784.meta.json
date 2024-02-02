@@ -1,13 +1,16 @@
 {
   "description": "Numbers n such that (n, sigma(n)) lies on the hyperbola y^2 - x^2 = m^2, for some natural number m, i.e., sigma(n)^2 - n^2 = m^2.",
   "id": "A066784",
-  "mentions": [],
+  "mentions": [
+    "A066764"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

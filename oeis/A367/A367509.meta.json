@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} (2*d+1)^n.",
+  "id": "A367509",
+  "mentions": [
+    "A163190",
+    "A367510"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

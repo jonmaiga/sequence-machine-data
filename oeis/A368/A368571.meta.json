@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of positive integers M which have both n and k as factor differences, 1 <= k < n.",
+  "id": "A368571",
+  "mentions": [
+    "A368312"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

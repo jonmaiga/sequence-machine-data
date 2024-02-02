@@ -2,6 +2,7 @@
   "description": "Start with 21 and repeatedly reverse the digits and add 1 to get the next term.",
   "id": "A118296",
   "mentions": [
+    "A118513",
     "A118551"
   ],
   "tags": [

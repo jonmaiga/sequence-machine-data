@@ -1,0 +1,24 @@
+{
+  "description": "Number of integer compositions x1+x2+...+xk of n such that each xj has exactly j bits set.",
+  "id": "A367680",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A014311",
+    "A014313",
+    "A018900",
+    "A023688",
+    "A023689",
+    "A023690",
+    "A023691"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "Largest partial sum of the increasingly ordered divisors of n, not exceeding n.",
   "id": "A117552",
   "mentions": [
+    "A109883",
     "A117553"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

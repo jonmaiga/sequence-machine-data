@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the first positive number that has exactly n anagrams which have 3 prime divisors, counted by multiplicity, or 0 if there is no such number.",
+  "id": "A369184",
+  "mentions": [
+    "A014612",
+    "A175854",
+    "A179239"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

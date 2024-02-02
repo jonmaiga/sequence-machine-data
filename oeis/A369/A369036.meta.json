@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if A327860(n) is of the form 4m+2, otherwise 0, where A327860 is the arithmetic derivative of the primorial base exp-function.",
+  "id": "A369036",
+  "mentions": [
+    "A121262",
+    "A276086",
+    "A327860",
+    "A353495",
+    "A353630",
+    "A369034",
+    "A369037"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

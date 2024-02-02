@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A091255(A369293(n), A369293(n+1)).",
+  "id": "A369302",
+  "mentions": [
+    "A073734",
+    "A091255",
+    "A369293"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

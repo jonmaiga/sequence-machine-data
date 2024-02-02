@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form ((3*x*y-y-6)/(3*x+1), where x=composite and y=prime.",
+  "description": "Primes of the form (3*x*y-y-6)/(3*x+1), where x=composite and y=prime.",
   "id": "A141438",
   "mentions": [
     "A000040",

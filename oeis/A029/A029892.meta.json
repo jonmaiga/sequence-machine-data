@@ -1,14 +1,17 @@
 {
-  "description": "Number of even graphical partitions of order 2n - number of odd partitions.",
+  "description": "Number of even graphical partitions of order 2n - number of odd graphical partitions of order 2n.",
   "id": "A029892",
   "mentions": [
     "A000569",
     "A004250",
     "A004251",
-    "A029889"
+    "A029889",
+    "A029890",
+    "A029891"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

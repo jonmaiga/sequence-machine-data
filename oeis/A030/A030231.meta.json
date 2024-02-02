@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct primes dividing n is even.",
+  "description": "Numbers with an even number of distinct prime factors.",
   "id": "A030231",
   "mentions": [
     "A000005",

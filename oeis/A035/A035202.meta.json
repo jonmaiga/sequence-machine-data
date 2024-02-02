@@ -2,17 +2,23 @@
   "description": "Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = 20.",
   "id": "A035202",
   "mentions": [
+    "A001622",
+    "A003631",
+    "A045468",
     "A083911",
     "A083913",
     "A083917",
     "A083919"
   ],
   "tags": [
+    "easy",
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

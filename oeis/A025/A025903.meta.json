@@ -1,7 +1,10 @@
 {
   "description": "Expansion of 1/((1-x^6)*(1-x^8)*(1-x^11)).",
   "id": "A025903",
-  "mentions": [],
+  "mentions": [
+    "A025902",
+    "A025904"
+  ],
   "tags": [
     "nonn"
   ],

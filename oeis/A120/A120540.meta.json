@@ -1,8 +1,12 @@
 {
-  "description": "Total number of C-rotamers with a given number of carbon atoms.",
+  "description": "Number of C-rotamers with n carbon atoms.",
   "id": "A120540",
-  "mentions": [],
+  "mentions": [
+    "A038169",
+    "A039740"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

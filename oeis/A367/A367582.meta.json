@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n whose multiset multiplicity kernel (in which each multiplicity becomes the least element of that multiplicity), sums to k.",
+  "id": "A367582",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000837",
+    "A032741",
+    "A051731",
+    "A056239",
+    "A066328",
+    "A071625",
+    "A072233",
+    "A072774",
+    "A082090",
+    "A091602",
+    "A116608",
+    "A116861",
+    "A243978",
+    "A367579",
+    "A367580",
+    "A367581"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

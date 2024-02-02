@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest such sequence a that a(i) = a(j) => A048675(i) = A048675((j) for all i, j.",
+  "description": "Lexicographically earliest such sequence a that a(i) = a(j) => A048675(i) = A048675(j) for all i, j.",
   "id": "A322815",
   "mentions": [
     "A046523",

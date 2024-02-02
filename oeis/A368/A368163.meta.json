@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number k > 1 such that bigomega(k^n - 1) = n.",
+  "id": "A368163",
+  "mentions": [
+    "A001222",
+    "A219019",
+    "A241793",
+    "A359070"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

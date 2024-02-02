@@ -1,5 +1,5 @@
 {
-  "description": "Partial sum of Sigma_2(n) is divisible by n, where Sigma_2(n)=A001157(n).",
+  "description": "Numbers k such that A064602(k) is divisible by k.",
   "id": "A064605",
   "mentions": [
     "A001157",
@@ -17,11 +17,12 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

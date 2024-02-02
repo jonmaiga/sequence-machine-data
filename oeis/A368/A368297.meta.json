@@ -1,0 +1,19 @@
+{
+  "description": "Prime plane partition numbers.",
+  "id": "A368297",
+  "mentions": [
+    "A000219",
+    "A049575",
+    "A051005",
+    "A285216"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

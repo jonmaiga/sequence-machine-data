@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-2)^k * |(n - k | k)|, where (a | b) denotes the Kronecker symbol.",
+  "id": "A367545",
+  "mentions": [
+    "A000010",
+    "A023896",
+    "A055034",
+    "A217831",
+    "A349136",
+    "A367544",
+    "A367546"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

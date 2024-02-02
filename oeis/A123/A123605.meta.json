@@ -1,5 +1,5 @@
 {
-  "description": "Number of fusenes with 25 hexagons, C_(3h) symmetry and containing n carbon atoms.",
+  "description": "Number of fusenes with 25 hexagons, C_(3h) symmetry and containing 3n carbon atoms.",
   "id": "A123605",
   "mentions": [
     "A121964",
@@ -21,10 +21,12 @@
     "A123289"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 72,
+    "offset": 24,
     "size": 10,
     "source": "oeis-entry"
   }

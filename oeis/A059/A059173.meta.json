@@ -1,5 +1,5 @@
 {
-  "description": "Maximal number of regions into which 4-space can be divided by n hyper-spheres.",
+  "description": "Maximal number of regions into which 4-space can be divided by n hyperspheres.",
   "id": "A059173",
   "mentions": [
     "A000012",
@@ -21,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

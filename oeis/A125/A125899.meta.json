@@ -1,5 +1,5 @@
 {
-  "description": "Floor(((Pentanacci ratio)^n).",
+  "description": "Floor((Pentanacci ratio)^n).",
   "id": "A125899",
   "mentions": [
     "A103814",

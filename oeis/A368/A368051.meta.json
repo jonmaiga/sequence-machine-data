@@ -1,0 +1,17 @@
+{
+  "description": "Successive primes building the lexicographically earliest k X k 'Futility Squares' (see the Comment and Example sections for more explanations).",
+  "id": "A368051",
+  "mentions": [
+    "A038618",
+    "A091633"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that d(n)=nonisolated number.",
+  "description": "Numbers k such that d(k) is not an isolated number.",
   "id": "A168086",
   "mentions": [
     "A000005",

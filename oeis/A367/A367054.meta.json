@@ -1,0 +1,16 @@
+{
+  "description": "Number of iterations until a repeating cycle begins in rule 161 cellular automaton in a cyclic universe of circumference n starting with one cell on.",
+  "id": "A367054",
+  "mentions": [
+    "A000029",
+    "A334506"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

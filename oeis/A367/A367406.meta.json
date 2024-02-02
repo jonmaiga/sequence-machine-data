@@ -1,0 +1,26 @@
+{
+  "description": "The exponentially odd numbers (A268335) multiplied by their squarefree kernels (A007947).",
+  "id": "A367406",
+  "mentions": [
+    "A000290",
+    "A007947",
+    "A053143",
+    "A064549",
+    "A065463",
+    "A268335",
+    "A355038",
+    "A367407",
+    "A367417",
+    "A367418"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

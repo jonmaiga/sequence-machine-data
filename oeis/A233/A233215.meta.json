@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..5 arrays with no element x(i,j) adjacent to value 5-x(i,j) horizontally or antidiagonally, top left element zero, and 1 appearing before 2 3 and 4, and 2 appearing before 3 in row major order",
+  "description": "Number of n X 6 0..5 arrays with no element x(i,j) adjacent to value 5-x(i,j) horizontally or antidiagonally, top left element zero, and 1 appearing before 2 3 and 4, and 2 appearing before 3 in row major order.",
   "id": "A233215",
   "mentions": [
     "A233217"

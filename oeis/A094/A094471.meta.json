@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*tau(n) - sigma(n) = n*A000005(n) - A000203(n).",
+  "description": "a(n) = Sum_{(n - k)|n, 0 <= k <= n} k.",
   "id": "A094471",
   "mentions": [
     "A000005",

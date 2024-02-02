@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k which is divisible by none of its digits in exactly n bases, or 0 if there is no such k.",
+  "id": "A368930",
+  "mentions": [
+    "A055240"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

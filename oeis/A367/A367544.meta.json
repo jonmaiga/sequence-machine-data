@@ -1,0 +1,24 @@
+{
+  "description": "Euclid's triangle A217831 represented as decimal numbers.",
+  "id": "A367544",
+  "mentions": [
+    "A000010",
+    "A023896",
+    "A055034",
+    "A217831",
+    "A349136",
+    "A367545",
+    "A367546",
+    "A367547"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

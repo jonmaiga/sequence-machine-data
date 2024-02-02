@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number times a Dyck path in an m X m box of any size has area n, counted to the lower right.",
+  "id": "A366920",
+  "mentions": [
+    "A143951",
+    "A227543"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "The number of unitary divisors of n that are exponentially evil numbers (A262675).",
+  "id": "A367516",
+  "mentions": [
+    "A010060",
+    "A034444",
+    "A055076",
+    "A056624",
+    "A262675",
+    "A270428",
+    "A359411",
+    "A366901",
+    "A366902",
+    "A367512",
+    "A367515"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

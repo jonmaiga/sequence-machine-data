@@ -1,14 +1,22 @@
 {
   "description": "a(n) = 3*a(n-1) + 2*a(n-2) - 6*a(n-3).",
   "id": "A135247",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A002624",
+    "A010684",
+    "A016133",
+    "A077957",
+    "A164073"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

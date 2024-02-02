@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the real part of i!, where i = sqrt(-1).",
   "id": "A212877",
   "mentions": [
+    "A090986",
     "A212878",
     "A212879",
     "A212880"

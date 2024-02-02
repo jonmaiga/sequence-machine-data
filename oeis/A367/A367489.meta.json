@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. -x * log(3 - 2*exp(x)).",
+  "id": "A367489",
+  "mentions": [
+    "A027882",
+    "A052862",
+    "A201339",
+    "A367490"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

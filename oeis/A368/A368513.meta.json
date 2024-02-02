@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (6*n+1)!/(n!*(2*n)!*(3*n+1)!).",
+  "id": "A368513",
+  "mentions": [
+    "A113424"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

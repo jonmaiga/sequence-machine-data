@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A002378(A005117(n)-1).",
+  "id": "A368249",
+  "mentions": [
+    "A002378",
+    "A005117",
+    "A059956",
+    "A065469",
+    "A065474",
+    "A229882",
+    "A368250"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

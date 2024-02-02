@@ -1,5 +1,5 @@
 {
-  "description": "Integer values of quotients arising in A087993. The quotient is (n+rev(n))/(abs(n-rev(n)).",
+  "description": "Integer values of quotients arising in A087993. The quotient is (n+rev(n))/abs(n-rev(n)).",
   "id": "A087994",
   "mentions": [
     "A087993"

@@ -2,7 +2,8 @@
   "description": "Bit-reversing masks for 2n bits.",
   "id": "A036214",
   "mentions": [
-    "A036213"
+    "A036213",
+    "A036215"
   ],
   "tags": [
     "formulas",

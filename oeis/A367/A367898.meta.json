@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of limit_{n->oo} Product_{k=1..n} BarnesG(k/n)^(1/n).",
+  "id": "A367898",
+  "mentions": [
+    "A074962",
+    "A367842",
+    "A367899"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

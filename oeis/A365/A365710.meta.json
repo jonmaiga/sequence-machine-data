@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = second smallest distinct prime factor of A126706(n).",
+  "id": "A365710",
+  "mentions": [
+    "A001221",
+    "A119288",
+    "A126706"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

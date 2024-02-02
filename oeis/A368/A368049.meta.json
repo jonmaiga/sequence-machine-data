@@ -1,0 +1,20 @@
+{
+  "description": "Perfect squares whose decimal expansion consists of k > 1 digits, k-1 of which are equal.",
+  "id": "A368049",
+  "mentions": [
+    "A000290",
+    "A018885",
+    "A235717"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

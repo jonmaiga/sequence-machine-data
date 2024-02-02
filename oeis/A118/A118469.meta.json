@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: a(n,m) = If(n = 1, then 1, else Prime(n) - 1 + Sum_{k=n..m} (Prime(k + 1) - Prime(k))/2.",
+  "description": "Triangle read by rows: a(n,m) = If(n = 1, then 1, else Prime(n) - 1 + Sum_{k=n..m} (Prime(k + 1) - Prime(k))/2 ).",
   "id": "A118469",
   "mentions": [
     "A000012",

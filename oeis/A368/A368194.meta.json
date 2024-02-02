@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table T(n, k), n > 0, k = 1..A368195(n), read by rows: the n-th row lists the numbers that can be obtained by replacing any positive number without leading zeros, say m, appearing in the decimal expansion of n by one of the divisors of m.",
+  "id": "A368194",
+  "mentions": [
+    "A027750",
+    "A323286",
+    "A342072",
+    "A368195",
+    "A368313"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

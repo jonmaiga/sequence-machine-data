@@ -1,5 +1,5 @@
 {
-  "description": "Primes obtained as the ratio of successive terms of A084039 + 1; i.e., a(n) = max((A084039(n), A084039(n+1))/min((A084039(n), A084039(n+1)) + 1.",
+  "description": "Primes obtained as the ratio of successive terms of A084039 + 1; i.e., a(n) = max(A084039(n), A084039(n+1))/min(A084039(n), A084039(n+1)) + 1.",
   "id": "A084041",
   "mentions": [
     "A084039",

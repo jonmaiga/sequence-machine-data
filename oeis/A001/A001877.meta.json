@@ -2,11 +2,14 @@
   "description": "Number of divisors of n of the form 5k+2; a(0) = 0.",
   "id": "A001877",
   "mentions": [
+    "A001620",
     "A001876",
     "A001878",
-    "A001899"
+    "A001899",
+    "A256780"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

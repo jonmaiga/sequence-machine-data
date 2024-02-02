@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. x^2*(2+x-x^2)/(1-x).",
+  "description": "Expansion of e.g.f. x^2*(2+x-x^2)/(1-x).",
   "id": "A052642",
   "mentions": [
     "A052628"

@@ -1,0 +1,20 @@
+{
+  "description": "a(1,2,3) = 1,2,3; let j = a(n-1), M(n) = Product_{i = 1..n-2} { p a distinct prime: p | a(i), gcd(p, j) = 1 }. For n > 3, a(n) is the least novel multiple of M(n) if M(n) > 1; otherwise a(n) is the least novel multiple of A053669(j), the smallest prime which does not divide j.",
+  "id": "A368133",
+  "mentions": [
+    "A002110",
+    "A053669",
+    "A351495",
+    "A362855",
+    "A368108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

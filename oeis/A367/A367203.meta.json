@@ -1,0 +1,21 @@
+{
+  "description": "Product of p^(v_p(n)-1) + p^(2*floor(v_p(n)/2)) over all prime divisors p of n with valuation v_p(n).",
+  "id": "A367203",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A048250",
+    "A367197"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

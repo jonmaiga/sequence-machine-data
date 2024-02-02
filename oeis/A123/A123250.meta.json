@@ -1,10 +1,12 @@
 {
-  "description": "Primes of the form 2^n + 5.",
+  "description": "Primes of the form 2^k + 5.",
   "id": "A123250",
   "mentions": [
+    "A000040",
     "A059242"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

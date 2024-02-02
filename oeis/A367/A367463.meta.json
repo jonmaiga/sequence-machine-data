@@ -1,0 +1,17 @@
+{
+  "description": "The orders, without repetition, of the subquotients of finite groups with irreducible representations in GL_4(Z).",
+  "id": "A367463",
+  "mentions": [
+    "A018261"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

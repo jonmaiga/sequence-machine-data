@@ -2,6 +2,7 @@
   "description": "Number of commutative binary operators defined on the finite chain L_n={0,1,...n}, C:L_n^2-> L_n, which are increasing in each argument, and satisfy the boundary conditions C(0,n)=C(n,0)=0 and C(n,n)=n.",
   "id": "A366540",
   "mentions": [
+    "A074962",
     "A360612"
   ],
   "tags": [

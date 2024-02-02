@@ -1,10 +1,20 @@
 {
   "description": "Digital root of 6^n.",
   "id": "A100403",
-  "mentions": [],
+  "mentions": [
+    "A000400",
+    "A001024",
+    "A009968",
+    "A009977",
+    "A009986",
+    "A010888",
+    "A100401",
+    "A159991"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

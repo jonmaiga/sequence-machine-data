@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=1/4 the number of (n+1)X(k+1) binary arrays with all 2X2 subblock sums the same",
+  "description": "T(n,k) = 1/4 the number of (n+1) X (k+1) binary arrays with all 2 X 2 subblock sums the same.",
   "id": "A183986",
   "mentions": [],
   "tags": [

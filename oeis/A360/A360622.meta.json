@@ -2,6 +2,7 @@
   "description": "Number of basic log-concave (with no internal zeros) cyclotomic generating functions of degree n.",
   "id": "A360622",
   "mentions": [
+    "A360620",
     "A360621"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (0, 1, -1), (0, 1, 1), (1, 0, -1), (1, 1, 1)}",
+  "description": "Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (0, 1, -1), (0, 1, 1), (1, 0, -1), (1, 1, 1)}.",
   "id": "A150938",
   "mentions": [],
   "tags": [

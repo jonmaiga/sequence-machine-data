@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if the arithmetic derivative of n is greater than n, otherwise 0.",
+  "id": "A369048",
+  "mentions": [
+    "A003415",
+    "A083348",
+    "A168036",
+    "A341625",
+    "A369049"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

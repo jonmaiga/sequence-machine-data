@@ -1,5 +1,5 @@
 {
-  "description": "Periodic sequence [1,2,0,2,0] of period 5",
+  "description": "Period 5: Repeat [1, 2, 0, 2, 0].",
   "id": "A152855",
   "mentions": [
     "A026039"

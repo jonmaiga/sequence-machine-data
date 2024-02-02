@@ -1,0 +1,16 @@
+{
+  "description": "Total number of partitions of [n-s] whose block maxima sum to s, summed over all s.",
+  "id": "A368102",
+  "mentions": [
+    "A365821",
+    "A367955"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -11,6 +11,7 @@
     "A326401"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "sign"
@@ -18,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

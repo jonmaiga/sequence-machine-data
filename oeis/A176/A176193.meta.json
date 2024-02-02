@@ -2,15 +2,17 @@
   "description": "The positions of semiprimes in A002808.",
   "id": "A176193",
   "mentions": [
+    "A000720",
     "A001358",
     "A002808"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

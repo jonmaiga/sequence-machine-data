@@ -6,7 +6,8 @@
     "A000358",
     "A074048",
     "A093305",
-    "A280218"
+    "A280218",
+    "A322057"
   ],
   "tags": [
     "formulas",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

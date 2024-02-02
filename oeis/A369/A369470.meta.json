@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = number of integer solutions to 1 <= x1 <= x2 <= ... <= xn to 1/x1 + ... + 1/xn = (1 - 1/x1) * ... * (1 - 1/xn).",
+  "id": "A369470",
+  "mentions": [
+    "A002966",
+    "A007850",
+    "A054377",
+    "A085098",
+    "A118086",
+    "A158649",
+    "A164014",
+    "A342267",
+    "A348625",
+    "A369469",
+    "A369607"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

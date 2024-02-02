@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(2)=2, then use \"merge and minus\": a(n)=merge(a(1),...,a(n-1))-a(1)-...-a(n-1)).",
+  "description": "a(1)=1, a(2)=2, then use \"merge and minus\": a(n)=merge(a(1),...,a(n-1))-a(1)-...-a(n-1).",
   "id": "A075538",
   "mentions": [
     "A075537"

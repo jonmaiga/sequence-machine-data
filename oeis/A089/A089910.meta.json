@@ -1,5 +1,5 @@
 {
-  "description": "Indices n at which blocks (1;1) occur in infinite Fibonacci word, i.e., such that A005614(n) = A005614(n+1) = 1.",
+  "description": "Indices n at which blocks (1;1) occur in infinite Fibonacci word, i.e., such that A005614(n-1) = A005614(n-2) = 1.",
   "id": "A089910",
   "mentions": [
     "A000201",

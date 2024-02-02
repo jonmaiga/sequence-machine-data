@@ -1,5 +1,5 @@
 {
-  "description": "Split interval orders on n points.",
+  "description": "Number of split interval orders on n points.",
   "id": "A059685",
   "mentions": [
     "A058259"

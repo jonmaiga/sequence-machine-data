@@ -1,0 +1,19 @@
+{
+  "description": "Main diagonal of A365991: the n-th term in the trajectory of n under the A185452 map.",
+  "id": "A368301",
+  "mentions": [
+    "A185452",
+    "A365991",
+    "A368300"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

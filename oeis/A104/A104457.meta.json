@@ -2,9 +2,11 @@
   "description": "Decimal expansion of 1 + phi = phi^2 = (3 + sqrt(5))/2.",
   "id": "A104457",
   "mentions": [
+    "A000045",
     "A001519",
     "A001622",
     "A001906",
+    "A049310",
     "A094214",
     "A094885",
     "A132338",

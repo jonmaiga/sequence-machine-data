@@ -3,10 +3,13 @@
   "id": "A122172",
   "mentions": [
     "A000041",
+    "A036036",
+    "A036037",
     "A074139",
     "A074141",
     "A078436",
-    "A079025"
+    "A079025",
+    "A185974"
   ],
   "tags": [
     "more",
@@ -16,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
-    "source": "oeis-entry"
+    "size": 95,
+    "source": "oeis-bfile"
   }
 }

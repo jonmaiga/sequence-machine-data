@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which contain the \"Look and Say\" description (cf. A045918) of all their prime factors, counted with multiplicity.",
+  "id": "A367974",
+  "mentions": [
+    "A005150",
+    "A027746",
+    "A045918"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of ((1-sqrt(1-8*x))/((1-x)*(4*x*sqrt(1-8*x))).",
+  "description": "Expansion of (1-sqrt(1-8*x))/((1-x)*(4*x*sqrt(1-8*x))).",
   "id": "A098405",
   "mentions": [
     "A069720"

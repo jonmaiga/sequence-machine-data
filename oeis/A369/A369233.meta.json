@@ -1,0 +1,20 @@
+{
+  "description": "Smallest base for which the digits expansion of 2^n is palindromic.",
+  "id": "A369233",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A016026"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

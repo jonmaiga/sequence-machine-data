@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first number k such that Omega(k) = n and Omega(n - 1) = Omega(n + 1) = n + 1.",
+  "id": "A369295",
+  "mentions": [
+    "A001222",
+    "A322300"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

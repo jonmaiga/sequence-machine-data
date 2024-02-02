@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-step self-avoiding walks on a 2D square lattice where each visited lattice point is either a neighbor of the first visited lattice point, else the first visited lattice point is directly visible (cf. A358036) from the lattice point when it is first visited.",
+  "id": "A368614",
+  "mentions": [
+    "A001411",
+    "A337353",
+    "A358036",
+    "A358046"
+  ],
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

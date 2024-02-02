@@ -14,11 +14,12 @@
     "base",
     "easy",
     "formulas",
+    "look",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 66,
-    "source": "oeis-entry"
+    "size": 74,
+    "source": "oeis-bfile"
   }
 }

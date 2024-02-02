@@ -1,8 +1,13 @@
 {
-  "description": "p(n+1) is next smallest prime beginning with p(n), initial prime is 3.",
+  "description": "a(n+1) is the next smallest prime beginning with a(n), initial prime is 3.",
   "id": "A048550",
   "mentions": [
     "A048549",
+    "A048551",
+    "A048552",
+    "A048553",
+    "A048554",
+    "A048555",
     "A048556"
   ],
   "tags": [
@@ -12,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 16,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

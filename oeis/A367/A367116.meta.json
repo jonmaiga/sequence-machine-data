@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; for n >= 1, a(n) is the largest number m = Product_{j=1..k} (b(j)-1) where {b(1), ..., b(k)} is a vector of positive integers such that Sum_{i=1..k} b(i)^2 = n.",
+  "id": "A367116",
+  "mentions": [
+    "A000290",
+    "A000792",
+    "A078134"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

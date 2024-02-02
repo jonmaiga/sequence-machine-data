@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*3^(n-1) + (3^n+1)/2.",
+  "description": "a(n) = n*3^(n-1) + (3^n + 1)/2.",
   "id": "A086972",
   "mentions": [
     "A007051",

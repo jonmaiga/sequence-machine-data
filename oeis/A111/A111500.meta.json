@@ -2,7 +2,9 @@
   "description": "Number of squares in an n X n grid of squares with diagonals.",
   "id": "A111500",
   "mentions": [
-    "A100583"
+    "A000290",
+    "A100583",
+    "A111746"
   ],
   "tags": [
     "easy",

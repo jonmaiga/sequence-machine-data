@@ -1,8 +1,22 @@
 {
-  "description": "Numbers n such that 2^n + 23 is prime.",
+  "description": "Numbers k such that 2^k + 23 is prime.",
   "id": "A057203",
-  "mentions": [],
+  "mentions": [
+    "A019434",
+    "A057195",
+    "A057196",
+    "A057197",
+    "A057200",
+    "A057201",
+    "A057221",
+    "A057732",
+    "A059242",
+    "A094076",
+    "A102633",
+    "A102634"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

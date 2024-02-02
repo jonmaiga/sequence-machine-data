@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form j-(p(j+3)-p(j))/(p(j+2)-p(j+1))), where p(j)=j-th prime.",
+  "description": "Primes of the form j-(p(j+3)-p(j))/(p(j+2)-p(j+1)), where p(j)=j-th prime.",
   "id": "A141633",
   "mentions": [
     "A000040",

@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the final digits of the distinct prime divisors of n.",
+  "id": "A367476",
+  "mentions": [
+    "A008472",
+    "A010879",
+    "A367466"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

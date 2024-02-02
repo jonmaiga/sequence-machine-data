@@ -2,6 +2,7 @@
   "description": "Number of proper divisors of n that are either of the form 6*k+1 or 6*k + 5.",
   "id": "A320015",
   "mentions": [
+    "A001620",
     "A035218",
     "A232991",
     "A293895",
@@ -10,6 +11,7 @@
     "A320005"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

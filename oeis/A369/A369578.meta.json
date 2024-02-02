@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Product_{j=1..n, k=1..n} (1 + x^(k^j)).",
+  "id": "A369578",
+  "mentions": [
+    "A000009",
+    "A033461",
+    "A279329",
+    "A369570",
+    "A369575"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

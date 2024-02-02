@@ -1,5 +1,5 @@
 {
-  "description": "n^3 mod 9.",
+  "description": "a(n) = n^3 mod 9.",
   "id": "A167176",
   "mentions": [
     "A021559"

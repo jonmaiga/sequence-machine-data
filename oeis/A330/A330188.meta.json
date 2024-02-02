@@ -1,9 +1,7 @@
 {
   "description": "a(n) = round(n^arctan(n!)).",
   "id": "A330188",
-  "mentions": [
-    "A000142"
-  ],
+  "mentions": [],
   "tags": [
     "formulas",
     "nonn"

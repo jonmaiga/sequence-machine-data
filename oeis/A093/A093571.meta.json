@@ -1,5 +1,5 @@
 {
-  "description": "LeastCommonMultiple({(k+prime(k): 1<=k<=n}).",
+  "description": "LeastCommonMultiple({k+prime(k): 1<=k<=n}).",
   "id": "A093571",
   "mentions": [
     "A014688",

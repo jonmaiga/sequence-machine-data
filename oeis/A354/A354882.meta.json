@@ -1,11 +1,12 @@
 {
-  "description": "a(n) is the smallest number k that is divisible by all numbers d, where d < p = prime(n), and such that all of k+1, k-1, k+p, k-p are prime.",
+  "description": "a(n) is the smallest number k that is divisible by all numbers d with d < p = prime(n), and such that all of k+1, k-1, k+p, k-p are prime.",
   "id": "A354882",
   "mentions": [
     "A005235",
     "A099795"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

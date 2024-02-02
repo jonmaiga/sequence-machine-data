@@ -1,5 +1,5 @@
 {
-  "description": "Higgs' semiprimes: a(n+1) = next semiprime such that a(n+1)-1 | (a(1)...a(n))^2.",
+  "description": "a(n+1) is the next semiprime such that a(n+1)-1 divides (a(1)...a(n))^2.",
   "id": "A131457",
   "mentions": [
     "A000040",
@@ -10,7 +10,6 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

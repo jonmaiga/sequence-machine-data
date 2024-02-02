@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors of n that are antiharmonic numbers (A020487).",
+  "id": "A368216",
+  "mentions": [
+    "A005117",
+    "A020487",
+    "A046951",
+    "A368215"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

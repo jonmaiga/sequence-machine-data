@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A003415(gcd(A003415(n), A276086(n))), where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.",
+  "id": "A369449",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A327858"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion 1/(1-x^2*cosech(x)) = sum(n>=0, a(n)*x^n/n!^2.",
+  "description": "Expansion 1/(1-x^2*cosech(x)) = Sum_{n>=0} a(n)*x^n/n!^2.",
   "id": "A199569",
   "mentions": [],
   "tags": [

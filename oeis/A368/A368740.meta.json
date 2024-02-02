@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k = 1..n} gcd(5*k, n).",
+  "id": "A368740",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001620",
+    "A018804",
+    "A344372",
+    "A368736",
+    "A368742"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

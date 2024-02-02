@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n/10) + (5 times last digit of n).",
+  "description": "a(n) = floor(n/10) + (5 times last digit of n).",
   "id": "A336483",
   "mentions": [
     "A008589"

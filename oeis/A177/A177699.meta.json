@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: log(1+x)*sinh(x).",
+  "description": "Expansion of e.g.f. log(1+x)*sinh(x).",
   "id": "A177699",
   "mentions": [],
   "tags": [

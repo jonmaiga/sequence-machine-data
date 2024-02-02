@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{i=1..n, j=1..n} (i^8 + i^4*j^4 + j^8).",
+  "id": "A367670",
+  "mentions": [
+    "A367542",
+    "A367543",
+    "A367550",
+    "A367668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x*A(-x^4)).",
+  "id": "A367723",
+  "mentions": [
+    "A141369",
+    "A367720",
+    "A367721",
+    "A367722"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

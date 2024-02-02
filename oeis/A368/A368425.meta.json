@@ -1,0 +1,19 @@
+{
+  "description": "The corresponding greatest common divisors to A368424(n).",
+  "id": "A368425",
+  "mentions": [
+    "A019320",
+    "A019321",
+    "A191609",
+    "A368424"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

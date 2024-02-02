@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1. a(2)=2. For n>=3, a(n) is the smallest positive integer not occurring earlier in the sequence such that (Sum_{k=1..n) a(k)) divides Product_{j=1..n} a(j).",
+  "description": "a(1)=1. a(2)=2. For n>=3, a(n) is the smallest positive integer not occurring earlier in the sequence such that (Sum_{k=1..n} a(k)) divides Product_{j=1..n} a(j).",
   "id": "A127562",
   "mentions": [
     "A127563",

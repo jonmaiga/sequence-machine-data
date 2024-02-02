@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(2)=2; thereafter a(n) = (1/n!)*Sum_{i=0..floor(n/2)} (4*(2*n+1)!*(2*n-i-4)!/(i!*(n-i-2)!*(2*n-i+1)).",
+  "description": "a(1)=1, a(2)=2; thereafter a(n) = (1/n!)*Sum_{i=0..floor(n/2)} 4*(2*n+1)!*(2*n-i-4)!/(i!*(n-i-2)!*(2*n-i+1)).",
   "id": "A329775",
   "mentions": [
     "A329776"

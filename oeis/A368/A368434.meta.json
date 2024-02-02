@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangular array T, read by rows: T(n,k) = number of sums |x-y|+|y-z| = k, where x,y,z are in {0,1,...,n}.",
+  "id": "A368434",
+  "mentions": [
+    "A000575",
+    "A007590",
+    "A368346",
+    "A368435"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

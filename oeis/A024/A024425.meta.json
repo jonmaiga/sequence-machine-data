@@ -1,5 +1,5 @@
 {
-  "description": "[ max{S(n,m)/max{C(n-1,m-1)} ] for m = 1,2,...,n; S(n,m) are Stirling numbers of second kind.",
+  "description": "[ max{S(n,m)}/max{C(n-1,m-1)} ] for m = 1,2,...,n; S(n,m) are Stirling numbers of second kind.",
   "id": "A024425",
   "mentions": [],
   "tags": [

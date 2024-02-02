@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp( Sum_{n>=0} x^(n^2+1)/(n^2+1) ).",
+  "description": "Expansion of e.g.f.: exp( Sum_{n>=0} x^(n^2+1)/(n^2+1) ).",
   "id": "A214724",
   "mentions": [
     "A002496"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

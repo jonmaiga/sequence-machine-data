@@ -1,8 +1,11 @@
 {
   "description": "Convoluted convolved Fibonacci numbers G_4^(r).",
   "id": "A089108",
-  "mentions": [],
+  "mentions": [
+    "A099837"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

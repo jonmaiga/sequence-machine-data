@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + 2 and n^2 + 4 are primes.",
+  "description": "Numbers k such that k + 2 and k^2 + 4 are primes.",
   "id": "A192794",
   "mentions": [
     "A045378",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Rearrangement of natural numbers disturbing the position of every number such that a(n) is coprime to a(m) if n is coprime to m. ((a(n),a(m)) = 1 if (n,m) = 1.",
+  "description": "Rearrangement of natural numbers disturbing the position of every number such that a(n) is coprime to a(m) if n is coprime to m. (a(n),a(m)) = 1 if (n,m) = 1.",
   "id": "A082748",
   "mentions": [],
   "tags": [

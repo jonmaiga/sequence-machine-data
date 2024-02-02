@@ -1,0 +1,17 @@
+{
+  "description": "Number of Qbar-isomorphism classes of elliptic curves E/Q with good reduction outside the first n prime numbers.",
+  "id": "A368080",
+  "mentions": [
+    "A332545",
+    "A361661"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

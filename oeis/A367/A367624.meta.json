@@ -1,0 +1,16 @@
+{
+  "description": "2-adic valuation of A123581(2*n).",
+  "id": "A367624",
+  "mentions": [
+    "A007814",
+    "A123581"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

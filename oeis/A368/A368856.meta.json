@@ -1,0 +1,19 @@
+{
+  "description": "Atomic numbers with at least two beta-stable isotopes of odd mass number.",
+  "id": "A368856",
+  "mentions": [
+    "A368859",
+    "A368860"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

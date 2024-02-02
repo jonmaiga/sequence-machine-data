@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..1 arrays with the counts of all possible adjacent horizontal and vertical pair sum values being within one of each other",
+  "description": "Number of n X 7 0..1 arrays with the counts of all possible adjacent horizontal and vertical pair sum values being within one of each other.",
   "id": "A203637",
   "mentions": [
     "A203638"

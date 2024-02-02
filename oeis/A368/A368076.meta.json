@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least integer that can be expressed as the difference of two positive tetrahedral numbers in exactly n ways.",
+  "id": "A368076",
+  "mentions": [
+    "A000292",
+    "A136108",
+    "A334007",
+    "A368072"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

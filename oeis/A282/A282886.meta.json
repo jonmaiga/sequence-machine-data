@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=0..n} (-1)^issquare(p(k))*p(k)) where p=A282840 is the lexicographic-first permutation of the nonnegative integers such that these sums always remain nonnegative.",
+  "description": "Sum_{k=0..n} (-1)^issquare(p(k))*p(k) where p=A282840 is the lexicographic-first permutation of the nonnegative integers such that these sums always remain nonnegative.",
   "id": "A282886",
   "mentions": [
     "A282840",

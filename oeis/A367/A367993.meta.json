@@ -1,0 +1,15 @@
+{
+  "description": "Number of 4-cycles in the n X n white bishop graph.",
+  "id": "A367993",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 39,
+    "source": "joeis"
+  }
+}

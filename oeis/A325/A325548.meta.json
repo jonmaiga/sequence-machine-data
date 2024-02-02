@@ -2,9 +2,9 @@
   "description": "Number of compositions of n with strictly decreasing differences.",
   "id": "A325548",
   "mentions": [
-    "A000079",
     "A000740",
     "A008965",
+    "A011782",
     "A070211",
     "A175342",
     "A179254",
@@ -18,12 +18,11 @@
     "A325557"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

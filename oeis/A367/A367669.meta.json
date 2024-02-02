@@ -1,0 +1,17 @@
+{
+  "description": "Number of degree 3 number fields unramified outside the first n prime numbers.",
+  "id": "A367669",
+  "mentions": [
+    "A126646",
+    "A368057"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

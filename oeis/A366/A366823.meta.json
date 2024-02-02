@@ -1,0 +1,18 @@
+{
+  "description": "Primes p that divide gcd(2^k + 1, k! - 1) for some k other than (p-1)/2.",
+  "id": "A366823",
+  "mentions": [
+    "A058302",
+    "A366824"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

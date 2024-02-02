@@ -1,0 +1,25 @@
+{
+  "description": "Iterates of the Christmas tree pattern map (A367508), read by rows and converted to decimal.",
+  "id": "A367562",
+  "mentions": [
+    "A014486",
+    "A367508",
+    "A367555",
+    "A367726",
+    "A367951",
+    "A367953",
+    "A368400",
+    "A368431"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

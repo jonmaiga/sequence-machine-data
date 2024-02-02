@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sqrt(-1) mod n exists; or, numbers n that are primitively represented by x^2 + y^2.",
+  "description": "Numbers n such that sqrt(-1) mod n exists; or, numbers that are primitively represented by x^2 + y^2.",
   "id": "A008784",
   "mentions": [
     "A000404",

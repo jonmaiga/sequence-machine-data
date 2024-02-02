@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)= ((n+k)^2-2*(n+k)+4-(3*n+k-2)*(-1)^(n+k))/2; n , k > 0, read by antidiagonals.",
+  "description": "T(n,k) = ((n+k)^2-2*(n+k)+4-(3*n+k-2)*(-1)^(n+k))/2; n , k > 0, read by antidiagonals.",
   "id": "A221216",
   "mentions": [
     "A000384",

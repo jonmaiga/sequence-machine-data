@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the probability that the straight tromino appears when the 3rd cell is added in diffusion-limited aggregation on the square lattice.",
+  "id": "A368664",
+  "mentions": [
+    "A368660",
+    "A368661",
+    "A368663"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

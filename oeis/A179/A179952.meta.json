@@ -1,5 +1,5 @@
 {
-  "description": "Add 1 to all the divisors of n. a(n)=number of perfect squares in the set.",
+  "description": "Add 1 to all the divisors of n. a(n) = number of perfect squares in the set.",
   "id": "A179952",
   "mentions": [],
   "tags": [

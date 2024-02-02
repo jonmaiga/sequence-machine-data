@@ -1,0 +1,21 @@
+{
+  "description": "The n-th term in the trajectory of the n-th prime P under the 'Px+1' map.",
+  "id": "A368159",
+  "mentions": [
+    "A000040",
+    "A057684",
+    "A057689",
+    "A057690",
+    "A057691",
+    "A368085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

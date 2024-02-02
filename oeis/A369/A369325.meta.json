@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of words of length n over the alphabet [n], avoiding 120 and 210, and sortable by a stack of depth 2.",
+  "id": "A369325",
+  "mentions": [
+    "A000035",
+    "A369324",
+    "A369327"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

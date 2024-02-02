@@ -1,0 +1,20 @@
+{
+  "description": "The number of ways of making change for 5n cents with Canadian coins (5, 10, 25, 100, 200).",
+  "id": "A367253",
+  "mentions": [
+    "A000008",
+    "A001312",
+    "A182086",
+    "A307849"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

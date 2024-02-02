@@ -1,5 +1,5 @@
 {
-  "description": "Maximum possible number of inequivalent abelian squares occurring in a binary word of length n",
+  "description": "Maximum possible number of inequivalent abelian squares occurring in a binary word of length n.",
   "id": "A262265",
   "mentions": [
     "A262249"

@@ -1,0 +1,24 @@
+{
+  "description": "Number of binary relations R on [n] such that the (unique) idempotent in {R,R^2,R^3,...} is an equivalence relation.",
+  "id": "A369397",
+  "mentions": [
+    "A003030",
+    "A355612",
+    "A365534",
+    "A365590",
+    "A365593",
+    "A366218",
+    "A366252",
+    "A366350",
+    "A366866"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

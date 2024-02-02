@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, where row n = L(n) is defined by L(1) = [1,0] and L(n+1) is obtained from L(n) by inserting their binary concatenation between elements x,y.",
+  "id": "A367795",
+  "mentions": [
+    "A000051",
+    "A049456",
+    "A367745"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Analog of A121805, but starting with 9.",
+  "id": "A367353",
+  "mentions": [
+    "A121805",
+    "A139284",
+    "A330128",
+    "A330129",
+    "A366492",
+    "A367337",
+    "A367350",
+    "A367351",
+    "A367352",
+    "A367354"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

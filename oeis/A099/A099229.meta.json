@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*((2^61-1)^2) - 1 and n*((2^61-1)^2) + 1 are twin primes.",
+  "description": "Numbers k such that k*((2^61-1)^2) - 1 and k*((2^61-1)^2) + 1 are twin primes.",
   "id": "A099229",
   "mentions": [
     "A099230",

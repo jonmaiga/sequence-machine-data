@@ -1,8 +1,12 @@
 {
-  "description": "Primes of the form 3^n+14.",
+  "description": "Primes of the form 3^k + 14.",
   "id": "A102874",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A219035"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "Distinct values of A368795, in order of appearance and with offset 0.",
+  "id": "A368797",
+  "mentions": [
+    "A368795",
+    "A368796"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

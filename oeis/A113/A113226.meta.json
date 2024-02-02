@@ -2,6 +2,7 @@
   "description": "Number of permutations avoiding the pattern 12-34.",
   "id": "A113226",
   "mentions": [
+    "A135922",
     "A240885"
   ],
   "tags": [
@@ -9,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

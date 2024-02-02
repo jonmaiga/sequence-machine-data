@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of continued fraction 2+1/(4+3/(6+5/(8+7/(...)))).",
+  "id": "A367120",
+  "mentions": [
+    "A113011",
+    "A113014",
+    "A194807",
+    "A365307"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

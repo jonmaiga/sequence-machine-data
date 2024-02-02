@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 6.",
+  "id": "A367247",
+  "mentions": [
+    "A000351",
+    "A000400",
+    "A000420",
+    "A366963",
+    "A367243",
+    "A367244",
+    "A367245",
+    "A367246",
+    "A367248",
+    "A367249",
+    "A367250"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

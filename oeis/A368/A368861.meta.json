@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers n such that there is only one beta-stable nuclide with mass number n.",
+  "id": "A368861",
+  "mentions": [
+    "A368859",
+    "A368860"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that if k = Product p_i^e_i then p_i=e_i for all i.",
+  "description": "Numbers k such that if k = Product p_i^e_i then p_i = e_i for all i.",
   "id": "A048102",
   "mentions": [
     "A001221",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

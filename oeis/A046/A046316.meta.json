@@ -2,9 +2,21 @@
   "description": "Numbers of the form p*q*r where p,q,r are (not necessarily distinct) odd primes.",
   "id": "A046316",
   "mentions": [
+    "A003415",
     "A014612",
     "A046340",
-    "A255646"
+    "A046373",
+    "A046389",
+    "A046405",
+    "A075814",
+    "A255646",
+    "A338469",
+    "A338556",
+    "A338557",
+    "A369054",
+    "A369058",
+    "A369246",
+    "A369252"
   ],
   "tags": [
     "easy",

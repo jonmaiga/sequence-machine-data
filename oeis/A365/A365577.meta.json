@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of primitive Pythagorean triples beginning with the triple (3,4,5), with each subsequent triple having as its short leg the sum of the legs of the previous triple, and with the long leg and the hypotenuse of each triple being consecutive natural numbers.",
+  "id": "A365577",
+  "mentions": [
+    "A365578",
+    "A365796"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

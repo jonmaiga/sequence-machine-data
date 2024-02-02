@@ -1,0 +1,17 @@
+{
+  "description": "Total number of lattice paths from (0,0) to (k,n-k) for k=0..n using steps (i,j) with i,j>=0 and gcd(i,j)=1.",
+  "id": "A368672",
+  "mentions": [
+    "A059841",
+    "A362242"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

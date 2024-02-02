@@ -1,0 +1,23 @@
+{
+  "description": "Numbers for which there is no representation as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "id": "A369464",
+  "mentions": [
+    "A004773",
+    "A098700",
+    "A369054",
+    "A369056",
+    "A369248",
+    "A369249",
+    "A369251",
+    "A369252",
+    "A369463"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "E.g.f. satisfies: A(x) = exp(x*A(x^7/7!)).",
+  "description": "E.g.f. satisfies A(x) = exp(x*A(x^7/7!)).",
   "id": "A143571",
   "mentions": [
     "A143565"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

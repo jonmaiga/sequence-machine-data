@@ -2,6 +2,7 @@
   "description": "Least number k such that all coefficients of k*B(n,x), the n-th Bernoulli polynomial, are integers.",
   "id": "A144845",
   "mentions": [
+    "A007947",
     "A027642",
     "A053383",
     "A064538",

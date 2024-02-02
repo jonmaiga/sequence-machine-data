@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(3+2) 0..3 arrays with every consecutive three elements in every row, column, diagonal and antidiagonal having exactly two distinct values, and new values 0 upwards introduced in row major order",
+  "description": "Number of (n+2) X (3+2) 0..3 arrays with every consecutive three elements in every row, column, diagonal and antidiagonal having exactly two distinct values, and new values 0 upwards introduced in row major order.",
   "id": "A253039",
   "mentions": [
     "A253044"

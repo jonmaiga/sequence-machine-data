@@ -1,5 +1,5 @@
 {
-  "description": "Least m > 0 such that for every r and s in the set S = {{h*sqrt(2))} : h = 1,..,n} of fractional parts, if r < s, then r < k/m < s for some integer k.",
+  "description": "Least m > 0 such that for every r and s in the set S = {{h*sqrt(2)} : h = 1,..,n} of fractional parts, if r < s, then r < k/m < s for some integer k.",
   "id": "A214921",
   "mentions": [
     "A001000",

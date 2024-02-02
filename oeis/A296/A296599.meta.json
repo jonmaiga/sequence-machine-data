@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with each 1 horizontally, vertically or antidiagonally adjacent to 1, 2 or 3 neighboring 1s.",
+  "description": "T(n,k) = Number of n X k 0..1 arrays with each 1 horizontally, vertically or antidiagonally adjacent to 1, 2 or 3 neighboring 1's.",
   "id": "A296599",
   "mentions": [
     "A005251"

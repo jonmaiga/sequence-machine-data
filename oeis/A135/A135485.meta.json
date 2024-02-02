@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{i=1..n) prime(i)^(i-1), where prime(i) denotes i-th prime number.",
+  "description": "a(n) = Sum_{i=1..n} prime(i)^(i-1), where prime(i) denotes i-th prime number.",
   "id": "A135485",
   "mentions": [
     "A000040",

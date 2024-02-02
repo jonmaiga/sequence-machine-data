@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest natural number such that the number of perfect powers less than n equals the number of perfect powers between n and a(n) (exclusive).",
+  "id": "A367642",
+  "mentions": [
+    "A001597",
+    "A069623"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

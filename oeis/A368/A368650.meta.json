@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (6*n + 1)!*(9*n + 1)!/((2*n)!*(3*n)!*((5*n + 1)!)^2).",
+  "id": "A368650",
+  "mentions": [
+    "A082368",
+    "A113424",
+    "A304126",
+    "A368545"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

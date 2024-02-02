@@ -1,7 +1,9 @@
 {
   "description": "42nd cyclotomic polynomial.",
   "id": "A011635",
-  "mentions": [],
+  "mentions": [
+    "A014051"
+  ],
   "tags": [
     "fini",
     "full",

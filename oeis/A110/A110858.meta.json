@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of order-preserving partial transformations (of an n-element chain) of width and waist both equal to r (width(alpha) = |Dom(alpha)| and waist(alpha) = max(Im(alpha)).",
+  "description": "Triangle read by rows: number of order-preserving partial transformations (of an n-element chain) of width and waist both equal to r (width(alpha) = |Dom(alpha)| and waist(alpha) = max(Im(alpha))).",
   "id": "A110858",
   "mentions": [],
   "tags": [

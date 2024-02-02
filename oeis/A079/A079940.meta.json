@@ -1,5 +1,5 @@
 {
-  "description": "Greedy fractional multiples of 1/e: a(1)=1, sum_{n>0} fractional_part(a(n)/e)).",
+  "description": "Greedy fractional multiples of 1/e: a(1)=1, sum_{n>0} fractional_part(a(n)/e) = 1.",
   "id": "A079940",
   "mentions": [
     "A007676",

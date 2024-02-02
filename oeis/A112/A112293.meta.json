@@ -2,7 +2,10 @@
   "description": "Row sums of number triangle A112292.",
   "id": "A112293",
   "mentions": [
-    "A112292"
+    "A001147",
+    "A060196",
+    "A112292",
+    "A286286"
   ],
   "tags": [
     "easy",
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

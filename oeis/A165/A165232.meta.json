@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1, a(1)=9, a(n)=18*a(n-1)-9*a(n-2) for n>1 .",
+  "description": "a(0)=1, a(1)=9, a(n) = 18*a(n-1) - 9*a(n-2) for n>1.",
   "id": "A165232",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

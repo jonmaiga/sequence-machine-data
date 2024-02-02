@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of multiples of n that have exactly n divisors, or -1 if there are infinitely many such numbers.",
+  "id": "A366918",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A073904",
+    "A080756"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

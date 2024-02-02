@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of (1, 2, ..., n) in which any two adjacent elements differ by a power of 2.",
+  "id": "A369330",
+  "mentions": [
+    "A076220",
+    "A103839",
+    "A242519",
+    "A367704",
+    "A368958"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

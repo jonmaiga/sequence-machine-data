@@ -1,5 +1,5 @@
 {
-  "description": "Least integer k such that Floor(k*f(n+1)>k*f(n), where f(n)=(n^2)/(1+n^2).",
+  "description": "Least integer k such that Floor(k*f(n+1))>k*f(n), where f(n)=(n^2)/(1+n^2).",
   "id": "A183199",
   "mentions": [
     "A010000",

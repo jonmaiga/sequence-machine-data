@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the constant term in expansion of Product_{k=1..n} (x^(k^4) + 1 + 1/x^(k^4)).",
+  "id": "A369358",
+  "mentions": [
+    "A000583",
+    "A007576",
+    "A158465",
+    "A350249"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

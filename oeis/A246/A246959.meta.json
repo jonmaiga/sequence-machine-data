@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of (undirected) Hamiltonian cycles in the n-Sierpiński sieve graph.",
+  "description": "Numbers of (undirected) Hamiltonian cycles in the n-Sierpiński gasket graph.",
   "id": "A246959",
   "mentions": [
     "A234635",

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 2*e.",
   "id": "A019762",
   "mentions": [
+    "A001113",
     "A081749",
     "A081750"
   ],

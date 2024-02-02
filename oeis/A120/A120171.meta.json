@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=2; a(n)=floor((11+sum(a(1) to a(n-1)))/5).",
+  "description": "a(n) = 2 + floor((1 + Sum_{j=1..n-1} a(j))/5)",
   "id": "A120171",
   "mentions": [
     "A072493",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

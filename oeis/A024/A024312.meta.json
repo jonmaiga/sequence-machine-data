@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = s(1)*s(n) + s(2)*s(n-1) + ... + s(k)*s(n+1-k), where k = floor((n+1)/2)), s = (natural numbers >= 3).",
+  "description": "a(n) = s(1)*s(n) + s(2)*s(n-1) + ... + s(k)*s(n+1-k), where k = floor((n+1)/2), s = (natural numbers >= 3).",
   "id": "A024312",
   "mentions": [
     "A024313",

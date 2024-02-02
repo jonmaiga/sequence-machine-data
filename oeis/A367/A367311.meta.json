@@ -1,0 +1,18 @@
+{
+  "description": "Maximum curvature of the curve (1 - 2^(1-x)) zeta(x) from 0 to 1.",
+  "id": "A367311",
+  "mentions": [
+    "A113024",
+    "A367309",
+    "A367312"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -2,15 +2,18 @@
   "description": "Number of divisors of (n!)^n (A036740).",
   "id": "A062960",
   "mentions": [
+    "A000005",
+    "A027423",
     "A036740"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "joeis"
   }
 }

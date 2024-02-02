@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} binomial(k+2,3) / k!.",
+  "id": "A368574",
+  "mentions": [
+    "A000292",
+    "A007526",
+    "A103519",
+    "A337001",
+    "A368575",
+    "A368576"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

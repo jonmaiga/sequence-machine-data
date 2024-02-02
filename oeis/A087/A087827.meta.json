@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(a(Min(n-1,Abs(n-a(n-1)))+a(Abs(n-a(n-3))",
+  "description": "a(n) = a(a(Min(n-1,Abs(n-a(n-1)))))+a(Abs(n-a(n-3))).",
   "id": "A087827",
   "mentions": [
     "A005185"

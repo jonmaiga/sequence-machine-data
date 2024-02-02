@@ -1,0 +1,22 @@
+{
+  "description": "Lesser of twin primes p such that p and p+2 are both in A115591.",
+  "id": "A367318",
+  "mentions": [
+    "A001122",
+    "A001359",
+    "A001917",
+    "A002326",
+    "A014664",
+    "A115591",
+    "A319248",
+    "A333743"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

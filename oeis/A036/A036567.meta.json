@@ -2,7 +2,25 @@
   "description": "Basic numbers used in Sedgewick-Incerpi upper bound for shell sort.",
   "id": "A036567",
   "mentions": [
-    "A036569"
+    "A003462",
+    "A033622",
+    "A036561",
+    "A036562",
+    "A036564",
+    "A036566",
+    "A036569",
+    "A055875",
+    "A055876",
+    "A102549",
+    "A108870",
+    "A112262",
+    "A112263",
+    "A154393",
+    "A204772",
+    "A205669",
+    "A205670",
+    "A361506",
+    "A361507"
   ],
   "tags": [
     "easy",
@@ -10,8 +28,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 30,
+    "offset": 0,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the denominator of Sum_{k=0..n}(Catalan(k)/(2^(2k)(n-k+1)^2).",
+  "description": "a(n) is the denominator of Sum_{k=0..n} Catalan(k)/(2^(2k)(n-k+1)^2).",
   "id": "A282296",
   "mentions": [
     "A000108",

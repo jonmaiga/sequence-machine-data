@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime q such that ((prime(n)^2 + q*prime(n))/(prime(n) + 1) is an integer.",
+  "description": "Smallest prime q such that (prime(n)^2 + q*prime(n))/(prime(n) + 1) is an integer.",
   "id": "A263770",
   "mentions": [
     "A002144",

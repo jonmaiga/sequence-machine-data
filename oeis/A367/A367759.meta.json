@@ -1,0 +1,16 @@
+{
+  "description": "Number of free n-celled polyominoes with the least number (A367758(n)) of inequivalent cells.",
+  "id": "A367759",
+  "mentions": [
+    "A367758"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

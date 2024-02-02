@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} mu(k)^2 * ceiling(n/k), where mu is the Möbius function (A008683).",
+  "id": "A368642",
+  "mentions": [
+    "A008683",
+    "A008966",
+    "A013928",
+    "A034444",
+    "A064608"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

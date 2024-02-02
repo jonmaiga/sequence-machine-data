@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that decimal representation of 1/n is either finite or has even period length.",
+  "description": "Numbers k such that the decimal representation of 1/k is either finite or has even period.",
   "id": "A284602",
   "mentions": [
     "A002371",

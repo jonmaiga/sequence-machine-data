@@ -7,13 +7,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 84,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

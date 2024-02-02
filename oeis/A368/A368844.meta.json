@@ -1,0 +1,19 @@
+{
+  "description": "a(n) gives the number of triples of equally spaced 0's in the binary expansion of n (without leading zeros).",
+  "id": "A368844",
+  "mentions": [
+    "A368842",
+    "A368843"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

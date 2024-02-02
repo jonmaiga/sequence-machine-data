@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative numbers k satisfying sin(k) < sin(k+1) < sin(k+2).",
+  "id": "A369273",
+  "mentions": [
+    "A026309",
+    "A246389",
+    "A369274",
+    "A369275"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

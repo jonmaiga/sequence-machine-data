@@ -1,10 +1,10 @@
 {
-  "description": "Numerators of Blandin-Diaz compositional Bernoulli numbers (B^cos)_2,n.",
+  "description": "Numerators of expansion of e.g.f. x^2/(2*(cos(x)-1)), even powers only.",
   "id": "A132094",
   "mentions": [
     "A132092",
     "A132095",
-    "A132106"
+    "A132099"
   ],
   "tags": [
     "formulas",

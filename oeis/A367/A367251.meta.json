@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence starting 1,2 which can be arranged in a mirror symmetric array shape such that a(n) is the length of the n-th row and no column has the same value more than once.",
+  "id": "A367251",
+  "mentions": [
+    "A253028",
+    "A334081"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

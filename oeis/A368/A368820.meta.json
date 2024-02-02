@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the squares less than n that do not divide n.",
+  "id": "A368820",
+  "mentions": [
+    "A000290",
+    "A010052",
+    "A338236"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

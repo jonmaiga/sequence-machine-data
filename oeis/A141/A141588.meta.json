@@ -1,5 +1,5 @@
 {
-  "description": "Take numerators of expansion for Debye function (D(1,x)) A120082 with 1's instead of 0's. Then (Bernoulli numbers numerators) A027641(n)/a(n) is an integer sequence.",
+  "description": "Numerators of expansion for Debye function (D(1,x)) A120082 with 1's instead of 0's.",
   "id": "A141588",
   "mentions": [
     "A027641",

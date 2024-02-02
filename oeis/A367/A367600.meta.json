@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not the comma-successor of any number.",
+  "id": "A367600",
+  "mentions": [
+    "A121805",
+    "A337338",
+    "A367338",
+    "A367614"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

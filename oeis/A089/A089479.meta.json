@@ -1,21 +1,27 @@
 {
-  "description": "Triangle T(n,k) read by rows, where T(n,k) = number of times the permanent of a real n X n (0,1)-matrix takes the value k, for n >= 1, 0 <= k <= n!.",
+  "description": "Triangle T(n,k) read by rows, where T(n,k) = number of times the permanent of a real n X n (0,1)-matrix takes the value k, for n >= 0, 0 <= k <= n!.",
   "id": "A089479",
   "mentions": [
+    "A000290",
+    "A002416",
+    "A038507",
     "A087983",
     "A088672",
     "A089477",
+    "A089478",
     "A089480",
     "A089481",
-    "A089482"
+    "A089482",
+    "A227414"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 48,
+    "offset": 0,
+    "size": 50,
     "source": "oeis-bfile"
   }
 }

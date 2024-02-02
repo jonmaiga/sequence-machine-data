@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the sum of the digits of k times the square of the sum of the digits cubed of k equals k.",
+  "id": "A366507",
+  "mentions": [
+    "A061209",
+    "A061210",
+    "A115518",
+    "A130680",
+    "A254000",
+    "A257766"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

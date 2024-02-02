@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangular array, read by rows: row n gives the numbers max(p) - min(p), in nondecreasing order, where p ranges through the strict partitions p of n.",
+  "id": "A366614",
+  "mentions": [
+    "A000009",
+    "A117454"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

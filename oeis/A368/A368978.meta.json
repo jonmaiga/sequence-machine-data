@@ -1,0 +1,34 @@
+{
+  "description": "The number of bi-unitary divisors of n that are squares (A000290).",
+  "id": "A368978",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A005117",
+    "A007424",
+    "A013662",
+    "A046951",
+    "A056624",
+    "A062503",
+    "A222266",
+    "A278908",
+    "A286324",
+    "A307848",
+    "A323308",
+    "A358260",
+    "A365549",
+    "A368977",
+    "A368980"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

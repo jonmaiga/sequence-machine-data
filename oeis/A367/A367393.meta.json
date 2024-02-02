@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = A103136(2*n, n), the central terms of the inverse of the Delannoy triangle.",
+  "id": "A367393",
+  "mentions": [
+    "A103136"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -2,11 +2,17 @@
   "description": "a(n) = sigma_2(n) + phi(n) * sigma(n) - 2*n^2, which is A072779(n) - 2*n^2.",
   "id": "A072780",
   "mentions": [
+    "A000010",
+    "A000203",
+    "A001157",
+    "A002117",
     "A051709",
+    "A065465",
     "A072779"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

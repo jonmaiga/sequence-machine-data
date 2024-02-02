@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=2, thereafter a(n) is the least positive integer not yet in the sequence such that Sum_{i=1..n} a(i) == 2 (mod n+2).",
+  "id": "A367065",
+  "mentions": [
+    "A002251",
+    "A340510"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

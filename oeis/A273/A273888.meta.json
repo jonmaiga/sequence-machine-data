@@ -1,5 +1,5 @@
 {
-  "description": "Pick any pair of \"0\" digits in the sequence. Those two \"0\"s are separated by k digits. This is the lexicographically earliest sequence of distinct terms in which all the resulting values of k are distinct",
+  "description": "Pick any pair of \"0\" digits in the sequence. Those two \"0\"s are separated by k digits. This is the lexicographically earliest sequence of distinct terms in which all the resulting values of k are distinct.",
   "id": "A273888",
   "mentions": [
     "A273376"

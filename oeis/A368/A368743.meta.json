@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{1 <= i, j <= n} gcd(i, j, n)^3.",
+  "id": "A368743",
+  "mentions": [
+    "A007434",
+    "A059376",
+    "A069097",
+    "A343497",
+    "A343498",
+    "A360428"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

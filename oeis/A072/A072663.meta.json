@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that Sum_{k=1..m} (-1)^k*k*floor(m/k)) = 0.",
+  "description": "Numbers m such that Sum_{k=1..m} (-1)^k*k*floor(m/k) = 0.",
   "id": "A072663",
   "mentions": [
     "A024919"

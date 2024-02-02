@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct integers of the form (x^n + y^n) mod n^4.",
+  "id": "A366420",
+  "mentions": [
+    "A121278",
+    "A365101",
+    "A366418",
+    "A366419"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

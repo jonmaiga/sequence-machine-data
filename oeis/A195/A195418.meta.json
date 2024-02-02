@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = phi(C(n)) / gcd(C(n)-1, phi(C(n)), where C(n) is the n-th Cullen number.",
+  "description": "a(n) = phi(C(n)) / gcd(C(n)-1, phi(C(n))), where C(n) is the n-th Cullen number.",
   "id": "A195418",
   "mentions": [
     "A000010",

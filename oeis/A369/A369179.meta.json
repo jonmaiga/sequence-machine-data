@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the number of I characters for each of the distinct derivable strings in the MIU formal system that are n characters long.",
+  "id": "A369179",
+  "mentions": [
+    "A024495",
+    "A268643",
+    "A368946",
+    "A369173",
+    "A369174"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

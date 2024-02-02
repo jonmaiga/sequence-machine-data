@@ -1,0 +1,14 @@
+{
+  "description": "Domination number of the n X n fiveleaper graph.",
+  "id": "A369130",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

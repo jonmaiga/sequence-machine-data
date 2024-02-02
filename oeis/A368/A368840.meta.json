@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * (n+1)! * (n+2)! * Sum_{k=0..n} 1/(6^(n-k) * k! * (k+1)! * (k+2)!).",
+  "id": "A368840",
+  "mentions": [
+    "A000522",
+    "A228230",
+    "A368839"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci numbers, which are the product of an odd number of distinct primes for numbers with the same property (mu(n)=mu(fibonacci(n)=-1).",
+  "description": "Fibonacci numbers, which are the product of an odd number of distinct primes for numbers with the same property (mu(n)=mu(fibonacci(n))=-1).",
   "id": "A075742",
   "mentions": [
     "A000045",

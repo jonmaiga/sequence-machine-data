@@ -1,5 +1,5 @@
 {
-  "description": "Sequence related to Fibonacci and \"tribonacci\" sequences : let f(1)=1, f(2)=n, f(k+2)=f(k+1)+f(k), t(1)=t(2)=t(3)=1, t(k+3)=t(k+2)+t(k+1)+t(k) (t(k)=A000213(k-1); sequence gives the smallest value k = a(n) such that t(k)>f(k).",
+  "description": "Sequence related to Fibonacci and \"tribonacci\" sequences : let f(1)=1, f(2)=n, f(k+2)=f(k+1)+f(k), t(1)=t(2)=t(3)=1, t(k+3)=t(k+2)+t(k+1)+t(k) (t(k)=A000213(k-1)); sequence gives the smallest value k = a(n) such that t(k)>f(k).",
   "id": "A072546",
   "mentions": [
     "A000045",

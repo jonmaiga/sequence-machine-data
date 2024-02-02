@@ -1,0 +1,25 @@
+{
+  "description": "Place n equally spaced points on each side of a square, and join each of these points by a chord to the 3*n new points on the other three sides: sequence gives number of vertices in the resulting planar graph.",
+  "id": "A367276",
+  "mentions": [
+    "A255011",
+    "A331448",
+    "A331449",
+    "A334690",
+    "A334698",
+    "A367121",
+    "A367122",
+    "A367277",
+    "A367278",
+    "A367279"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

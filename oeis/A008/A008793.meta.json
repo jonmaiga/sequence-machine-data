@@ -1,5 +1,5 @@
 {
-  "description": "The problem of the calissons: number of ways to tile hexagon of edge n with diamonds of side 1. Also number of plane partitions whose Young diagrams fit inside an n X n X n box.",
+  "description": "The problem of the calissons: number of ways to tile a hexagon of edge n with diamonds of side 1. Also number of plane partitions whose Young diagrams fit inside an n X n X n box.",
   "id": "A008793",
   "mentions": [
     "A000984",

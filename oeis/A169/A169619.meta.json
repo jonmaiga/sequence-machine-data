@@ -2,7 +2,9 @@
   "description": "Hankel transform of quartic (or 4-fold) factorial numbers A007696.",
   "id": "A169619",
   "mentions": [
-    "A007696"
+    "A006752",
+    "A007696",
+    "A074962"
   ],
   "tags": [
     "easy",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 8,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

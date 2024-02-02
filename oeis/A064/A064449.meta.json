@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = gcd(Phi(n!), Phi(n^n), Phi(lcm(1..n)).",
+  "description": "a(n) = gcd(Phi(n!), Phi(n^n), Phi(lcm(1..n))).",
   "id": "A064449",
   "mentions": [
     "A000010",

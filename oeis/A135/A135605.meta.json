@@ -1,5 +1,5 @@
 {
-  "description": "Consider the infinite string S = 12345678910111213141516171819202122232425262728293031...). Sequence gives the first prime that starts at the k-th digit, skipping zero digits.",
+  "description": "Consider the infinite string S = 12345678910111213141516171819202122232425262728293031... Sequence gives the first prime that starts at the k-th digit, skipping zero digits.",
   "id": "A135605",
   "mentions": [
     "A007376",

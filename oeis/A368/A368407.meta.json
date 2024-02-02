@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least start of a run of exactly n consecutive integers with an odd number of Fermi-Dirac factors (A064547).",
+  "id": "A368407",
+  "mentions": [
+    "A000028",
+    "A064547",
+    "A275509",
+    "A368408"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

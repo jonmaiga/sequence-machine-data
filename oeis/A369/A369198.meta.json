@@ -1,0 +1,45 @@
+{
+  "description": "Number of labeled loop-graphs with n vertices and the same number of edges as covered vertices.",
+  "id": "A369198",
+  "mentions": [
+    "A000085",
+    "A000272",
+    "A000666",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A006649",
+    "A014068",
+    "A054548",
+    "A062740",
+    "A066383",
+    "A100861",
+    "A111924",
+    "A116508",
+    "A322661",
+    "A322700",
+    "A367862",
+    "A367863",
+    "A368597",
+    "A368927",
+    "A368951",
+    "A369140",
+    "A369141",
+    "A369142",
+    "A369192",
+    "A369193",
+    "A369194",
+    "A369196",
+    "A369197",
+    "A369199"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

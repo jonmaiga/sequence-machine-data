@@ -1,0 +1,44 @@
+{
+  "description": "Number of sets that can be obtained by choosing a different binary index of each binary index of n.",
+  "id": "A368183",
+  "mentions": [
+    "A000120",
+    "A003465",
+    "A029931",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A072639",
+    "A096111",
+    "A309326",
+    "A323818",
+    "A326031",
+    "A326702",
+    "A326753",
+    "A355739",
+    "A355741",
+    "A355744",
+    "A367771",
+    "A367905",
+    "A367906",
+    "A367907",
+    "A367910",
+    "A367911",
+    "A367912",
+    "A367913",
+    "A367915",
+    "A368109",
+    "A368111",
+    "A368112",
+    "A368184",
+    "A368185"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

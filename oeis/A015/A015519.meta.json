@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*a(n-1) + 7*a(n-2).",
+  "description": "a(n) = 2*a(n-1) + 7*a(n-2), with a(0) = 0, a(1) = 1.",
   "id": "A015519",
   "mentions": [
     "A000129",

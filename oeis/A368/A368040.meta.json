@@ -1,0 +1,26 @@
+{
+  "description": "The powerful part of the nonsquarefree numbers.",
+  "id": "A368040",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A013929",
+    "A057521",
+    "A084936",
+    "A174961",
+    "A229099",
+    "A275699",
+    "A328013",
+    "A368038",
+    "A368039"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

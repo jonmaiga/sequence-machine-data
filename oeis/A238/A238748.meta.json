@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that each integer that appears in the prime signature of n appears an even number of times.",
+  "description": "Numbers k such that each integer that appears in the prime signature of k appears an even number of times.",
   "id": "A238748",
   "mentions": [
     "A000005",
@@ -9,6 +9,7 @@
     "A010052",
     "A030229",
     "A046386",
+    "A063774",
     "A077448",
     "A162142",
     "A179690",

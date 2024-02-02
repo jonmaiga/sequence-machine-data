@@ -1,9 +1,10 @@
 {
-  "description": "n^5 mod 44.",
+  "description": "a(n) = n^5 mod 44.",
   "id": "A070627",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

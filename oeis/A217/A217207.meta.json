@@ -1,5 +1,5 @@
 {
-  "description": "Start with a(1)=0; then a(n) = (curling number of (a(1),...,a(n-1)) mod 2.",
+  "description": "Start with a(1)=0; then a(n) = (curling number of (a(1),...,a(n-1))) mod 2.",
   "id": "A217207",
   "mentions": [
     "A090822",

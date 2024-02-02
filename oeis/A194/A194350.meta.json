@@ -1,5 +1,5 @@
 {
-  "description": "Numbers covering A000027: a(n)=(1, 1, 2, 5) * A011557(n)).",
+  "description": "Numbers covering A000027: a(n) = (1, 1, 2, 5) * A011557(n).",
   "id": "A194350",
   "mentions": [
     "A000027",

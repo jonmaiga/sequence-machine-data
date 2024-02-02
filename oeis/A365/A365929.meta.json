@@ -6,7 +6,6 @@
     "A091908",
     "A092098",
     "A331782",
-    "A366078",
     "A366478",
     "A366932",
     "A367015"
@@ -19,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

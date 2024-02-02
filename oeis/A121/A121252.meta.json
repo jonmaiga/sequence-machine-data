@@ -2,6 +2,7 @@
   "description": "Number of labeled digraphs without isolated vertices and with n arcs.",
   "id": "A121252",
   "mentions": [
+    "A053418",
     "A054545",
     "A054547"
   ],

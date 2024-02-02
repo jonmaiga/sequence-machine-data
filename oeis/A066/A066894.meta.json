@@ -1,5 +1,5 @@
 {
-  "description": "prime(2n) - prime(n) = 0 (mod n).",
+  "description": "Numbers k such that prime(2*k) - prime(k) == 0 (mod k).",
   "id": "A066894",
   "mentions": [
     "A072473"

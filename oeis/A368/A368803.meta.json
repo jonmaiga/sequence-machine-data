@@ -1,0 +1,15 @@
+{
+  "description": "Lower independence number of the n X n zebra graph.",
+  "id": "A368803",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

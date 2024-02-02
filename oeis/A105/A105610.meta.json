@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both p1=2n+3 and p2=4n+5 are primes.",
+  "description": "Numbers k such that both p1=2k+3 and p2=4k+5 are primes.",
   "id": "A105610",
   "mentions": [
     "A005382",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

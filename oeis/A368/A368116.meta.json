@@ -1,0 +1,20 @@
+{
+  "description": "A(m, n) = lcm_{p in Partitions(n)} (Product_{r in p}(r + m)). Array read by ascending antidiagonals, for m, n >= 0.",
+  "id": "A368116",
+  "mentions": [
+    "A000027",
+    "A011379",
+    "A048803",
+    "A091137",
+    "A368048"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

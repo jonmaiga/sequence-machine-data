@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest sequence such that for any distinct j, k, m that are the side lengths of a triangle, a(j), a(k), and a(m) are not the side lengths of a triangle.",
+  "id": "A367196",
+  "mentions": [
+    "A000045",
+    "A001076",
+    "A002620",
+    "A011782",
+    "A070080",
+    "A229037",
+    "A276204",
+    "A316841",
+    "A361933",
+    "A364057"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

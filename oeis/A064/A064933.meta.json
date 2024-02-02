@@ -1,5 +1,5 @@
 {
-  "description": "Period length of the continued fraction for sqrt(3)*n is 2.",
+  "description": "Numbers k such that the period of the continued fraction for sqrt(3)*k is 2.",
   "id": "A064933",
   "mentions": [],
   "tags": [

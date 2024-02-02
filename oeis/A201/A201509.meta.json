@@ -1,24 +1,13 @@
 {
-  "description": "From abs(A028297)=A034839*A007318 to A165241 via A113402. Second row (double triangle).",
+  "description": "Irregular triangle read by rows: T(n,k) = 2*T(n-1,k) + T(n-2,k-1) with T(0,0) = 0, T(n,0) = T(1,1) = 1 and T(n,k) = 0 if k < 0 or if n < k.",
   "id": "A201509",
   "mentions": [
-    "A000079",
-    "A000129",
-    "A001333",
-    "A007318",
-    "A028297",
-    "A034839",
     "A034867",
     "A039991",
-    "A045623",
-    "A049611",
     "A052542",
-    "A055585",
-    "A057711",
-    "A113402",
-    "A129952",
-    "A165241",
-    "A201701"
+    "A201701",
+    "A201780",
+    "A263633"
   ],
   "tags": [
     "formulas",

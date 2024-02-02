@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the length of the central extent of width 0 for the symmetric representation of sigma, SRS(n), when that has an even number of parts otherwise -1.",
+  "id": "A368945",
+  "mentions": [
+    "A071561",
+    "A071562",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237593",
+    "A249223",
+    "A298856"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

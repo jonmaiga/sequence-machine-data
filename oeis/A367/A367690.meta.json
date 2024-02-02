@@ -1,0 +1,19 @@
+{
+  "description": "Total number of steps of Euclid's GCD algorithm to calculate gcd(x,y) for all pairs x,y in the range 1 <= x,y <= n.",
+  "id": "A367690",
+  "mentions": [
+    "A018806",
+    "A049826",
+    "A064951",
+    "A107435"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

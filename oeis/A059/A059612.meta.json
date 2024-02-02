@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that 2^n - 15 is prime.",
+  "description": "Numbers k such that 2^k - 15 is prime.",
   "id": "A059612",
   "mentions": [
     "A000043",
     "A050414",
+    "A057220",
     "A059608",
     "A059609",
     "A059610",
@@ -12,15 +13,15 @@
     "A096817",
     "A096818",
     "A096819",
-    "A096820"
+    "A096820",
+    "A356826"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 43,
     "source": "oeis-entry"
   }
 }

@@ -1,7 +1,9 @@
 {
   "description": "60th cyclotomic polynomial.",
   "id": "A011637",
-  "mentions": [],
+  "mentions": [
+    "A014069"
+  ],
   "tags": [
     "fini",
     "full",

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which there is a prime p such that p^p divides A342001(k).",
+  "id": "A368996",
+  "mentions": [
+    "A342001",
+    "A359550",
+    "A368904",
+    "A368914",
+    "A368995"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions p of n such that (maximal multiplicity of the parts of p) = maximal part of p).",
+  "description": "Number of partitions p of n such that (maximal multiplicity of the parts of p) = (maximal part of p).",
   "id": "A240312",
   "mentions": [
     "A000041",

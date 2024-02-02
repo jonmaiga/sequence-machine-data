@@ -1,5 +1,5 @@
 {
-  "description": "Floor((4n+1/n)^n)",
+  "description": "a(n) = floor((4*n+1/n)^n).",
   "id": "A197324",
   "mentions": [
     "A014052"

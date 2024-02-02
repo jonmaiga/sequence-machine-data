@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes p such that x^n + y^n mod p does not take all values on Z/pZ.",
+  "id": "A367688",
+  "mentions": [
+    "A355920",
+    "A367689"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

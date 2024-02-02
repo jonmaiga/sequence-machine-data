@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array resulting from summing three repeated Pascal sequences; (related to the generalized pentagonal sequence (A001318) and the classical modular tessellation (cf. A054886).",
+  "description": "Triangular array resulting from summing three repeated Pascal sequences; related to the generalized pentagonal sequence (A001318) and the classical modular tessellation (cf. A054886).",
   "id": "A124458",
   "mentions": [
     "A000012",

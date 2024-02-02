@@ -1,0 +1,18 @@
+{
+  "description": "The number of digraphs on n unlabeled nodes with each indegree >=1 and each outdegree >=1.",
+  "id": "A367500",
+  "mentions": [
+    "A002494",
+    "A086193",
+    "A121933",
+    "A361586"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

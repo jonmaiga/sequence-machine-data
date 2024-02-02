@@ -1,7 +1,17 @@
 {
   "description": "Decimal expansion of Pi^12/12!, the absolute density of the Leech lattice.",
   "id": "A260646",
-  "mentions": [],
+  "mentions": [
+    "A008408",
+    "A093766",
+    "A093825",
+    "A222068",
+    "A222069",
+    "A222070",
+    "A222071",
+    "A222072",
+    "A323282"
+  ],
   "tags": [
     "cons",
     "nonn"

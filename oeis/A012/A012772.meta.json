@@ -2,7 +2,8 @@
   "description": "Take every 5th term of Padovan sequence A000931, beginning with the sixth term.",
   "id": "A012772",
   "mentions": [
-    "A000931"
+    "A000931",
+    "A012781"
   ],
   "tags": [
     "easy",

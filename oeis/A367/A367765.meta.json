@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the denominator of the probability that a particular one of the A335573(n+1) fixed polyominoes corresponding to the free polyomino with binary code A246521(n+1) appears in the Eden growth model on the square lattice (see A367760), when n square cells have been added.",
+  "id": "A367765",
+  "mentions": [
+    "A000105",
+    "A246521",
+    "A335573",
+    "A367676",
+    "A367760",
+    "A367761",
+    "A367764",
+    "A367767"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,16 @@
 {
-  "description": "Array of numbers related to certain generalized Catalan sequences.",
+  "description": "Irregular triangle of the Fibonacci polynomials of A011973 multiplied diagonally by the Catalan numbers.",
   "id": "A068763",
   "mentions": [
     "A000007",
     "A000108",
     "A000984",
+    "A001263",
     "A002457",
     "A002802",
+    "A007318",
     "A008619",
+    "A011973",
     "A020918",
     "A020920",
     "A020922",
@@ -15,9 +18,14 @@
     "A025228",
     "A025229",
     "A025230",
+    "A033282",
+    "A033832",
+    "A034867",
     "A068764",
     "A068772",
-    "A091894"
+    "A091894",
+    "A133437",
+    "A134264"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of coefficient of the series reversion in t of the power series (exp(log(1+t*x)/x)-1)*exp(-t) as an e.g.f.",
+  "id": "A364708",
+  "mentions": [
+    "A000142",
+    "A000169",
+    "A079510"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

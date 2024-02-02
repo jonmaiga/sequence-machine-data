@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A369134(n, k).",
+  "id": "A369120",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A368846",
+    "A369134",
+    "A369135"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The number of ways to place one pawn and n+1 nonattacking queens on an n X n chessboard, unchanged by 180-degree rotation.",
+  "id": "A368061",
+  "mentions": [
+    "A103330",
+    "A103331"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

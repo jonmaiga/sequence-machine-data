@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of tanh(Pi/2).",
+  "id": "A367960",
+  "mentions": [
+    "A083124",
+    "A228048",
+    "A308715",
+    "A367959",
+    "A367961"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

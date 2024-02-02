@@ -1,12 +1,12 @@
 {
-  "description": "Decimal expansion of Not_Omega = 2-Omega.",
+  "description": "Decimal expansion of 2 - A100264.",
   "id": "A133250",
   "mentions": [
-    "A079365",
     "A100264"
   ],
   "tags": [
     "cons",
+    "less",
     "nonn"
   ],
   "terms": {

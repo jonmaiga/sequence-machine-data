@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of reciprocals of even divisors of n < 1.",
+  "description": "Numbers n such that the sum of the reciprocals of the even divisors of n is greater than zero and less than one.",
   "id": "A225241",
   "mentions": [
     "A000203",

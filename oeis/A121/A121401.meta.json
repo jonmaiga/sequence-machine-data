@@ -1,11 +1,12 @@
 {
-  "description": "a(n)=((sqrt(3)+1)^n+(sqrt(3)-1)^n)^2/2^(n+1).",
+  "description": "a(n) = ((sqrt(3)+1)^n+(sqrt(3)-1)^n)^2/2^(n+1).",
   "id": "A121401",
   "mentions": [
     "A001075",
     "A102206"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "If n>=3, a(n)= n^(a(n-1)/(n-1))), else a(2)=2^2.",
+  "description": "If n>=3, a(n) = n^(a(n-1)/(n-1)), else a(2)=2^2.",
   "id": "A220189",
   "mentions": [
     "A220190"

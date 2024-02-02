@@ -1,5 +1,5 @@
 {
-  "description": "Similar submodules in cubian ring of index (f(n)^2 where f(n) is the n-th positive integer represented by the quadratic form x^2 - 2 y^2.",
+  "description": "Similar submodules in cubian ring of index f(n)^2 where f(n) is the n-th positive integer represented by the quadratic form x^2 - 2 y^2.",
   "id": "A035285",
   "mentions": [
     "A035284"

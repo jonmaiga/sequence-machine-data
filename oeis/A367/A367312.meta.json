@@ -1,0 +1,18 @@
+{
+  "description": "Minimum value of 2nd derivative of (1 - 2^(1-x)) zeta(x), for 0 < x < 1.",
+  "id": "A367312",
+  "mentions": [
+    "A113024",
+    "A367309",
+    "A367311"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

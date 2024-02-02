@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are both exponentially odd (A268335) and exponentially evil (A262675).",
+  "id": "A367804",
+  "mentions": [
+    "A129771",
+    "A262675",
+    "A268335",
+    "A367801",
+    "A367802",
+    "A367803"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p of [n] such that p(i), p(i+3), p(i+6),... form an up-down sequence for i in {1,2,3}.",
+  "id": "A367336",
+  "mentions": [
+    "A000111",
+    "A000142",
+    "A022916",
+    "A361651"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

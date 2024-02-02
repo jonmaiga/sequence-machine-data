@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k whose decimal expansion can be split into two parts s and t with k = s^2 + t^2.",
+  "id": "A368416",
+  "mentions": [
+    "A101311",
+    "A368417",
+    "A368418"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

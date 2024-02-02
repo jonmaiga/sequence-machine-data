@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers that are not repdigits with digits in nondecreasing order with the property that any nontrivial permutation of the digits gives a composite number.",
+  "id": "A364458",
+  "mentions": [
+    "A028864",
+    "A039986"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

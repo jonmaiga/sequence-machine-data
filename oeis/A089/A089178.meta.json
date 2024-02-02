@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) (n >= 0, 0 <= k <= 1+log_2(floor(n+1)) read by rows: row 0 = {1}, row 1 = {1 1}; for n >=2, row n = row n-1 + (row floor((n-1)/2) shifted one place right).",
+  "description": "Triangle T(n,k) (n >= 0, 0 <= k <= 1+log_2(floor(n+1))) read by rows: row 0 = {1}, row 1 = {1 1}; for n >=2, row n = row n-1 + (row floor((n-1)/2) shifted one place right).",
   "id": "A089178",
   "mentions": [
     "A033485",

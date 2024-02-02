@@ -1,7 +1,9 @@
 {
   "description": "Number of rows with the value true in the truth tables of all bracketed formulas with n distinct propositions p_1, ..., p_n connected by the binary connective of m-implication (case 1).",
   "id": "A218186",
-  "mentions": [],
+  "mentions": [
+    "A025230"
+  ],
   "tags": [
     "formulas",
     "nonn"

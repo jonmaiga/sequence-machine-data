@@ -1,5 +1,5 @@
 {
-  "description": "Period length of the fraction 1/11^n for n >= 1.",
+  "description": "Period of the fraction 1/11^n for n >= 1.",
   "id": "A334603",
   "mentions": [
     "A001020",

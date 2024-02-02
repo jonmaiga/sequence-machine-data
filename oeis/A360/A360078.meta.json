@@ -7,11 +7,12 @@
     "A360079"
   ],
   "tags": [
+    "look",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

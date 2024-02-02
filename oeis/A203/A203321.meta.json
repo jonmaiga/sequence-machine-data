@@ -1,5 +1,5 @@
 {
-  "description": "L.g.f.: Sum_{n>=1} a(n)*x^n/n = Sum_{n>=1} x^n/n * exp( Sum_{k>=1} sigma(n*k)*x^(n*k)/k ) ).",
+  "description": "L.g.f.: Sum_{n>=1} a(n)*x^n/n = Sum_{n>=1} x^n/n * exp( Sum_{k>=1} sigma(n*k)*x^(n*k)/k ).",
   "id": "A203321",
   "mentions": [
     "A000041",

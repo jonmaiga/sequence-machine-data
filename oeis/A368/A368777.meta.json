@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest divisor of n that is a term of the sequence A003418, the least common multiple of the first k natural numbers.",
+  "id": "A368777",
+  "mentions": [
+    "A003418",
+    "A027750",
+    "A051451",
+    "A055874"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

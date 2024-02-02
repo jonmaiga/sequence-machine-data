@@ -1,0 +1,49 @@
+{
+  "description": "Number of ways to choose a set of n nonempty subsets of {1..n} such that it is not possible to choose a different element from each.",
+  "id": "A368600",
+  "mentions": [
+    "A000372",
+    "A000612",
+    "A003024",
+    "A003025",
+    "A003465",
+    "A006126",
+    "A014466",
+    "A055621",
+    "A058891",
+    "A059201",
+    "A088957",
+    "A133686",
+    "A136556",
+    "A323818",
+    "A323819",
+    "A334282",
+    "A355529",
+    "A355740",
+    "A367769",
+    "A367770",
+    "A367862",
+    "A367867",
+    "A367868",
+    "A367901",
+    "A367902",
+    "A367903",
+    "A367904",
+    "A367906",
+    "A367907",
+    "A367908",
+    "A368094",
+    "A368097",
+    "A368601"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

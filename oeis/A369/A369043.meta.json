@@ -1,0 +1,23 @@
+{
+  "description": "LCM-transform of Blue code (A193231).",
+  "id": "A369043",
+  "mentions": [
+    "A000523",
+    "A014963",
+    "A193231",
+    "A368900",
+    "A369041",
+    "A369042",
+    "A369044",
+    "A369045"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

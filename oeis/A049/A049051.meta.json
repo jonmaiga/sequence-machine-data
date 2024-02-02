@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n through n+4 all have same number of divisors.",
+  "description": "Numbers k such that k through k+4 all have the same number of divisors.",
   "id": "A049051",
   "mentions": [
     "A000005",

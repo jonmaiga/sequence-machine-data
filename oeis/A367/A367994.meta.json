@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the numerator of the probability that the free polyomino with binary code A246521(n+1) appears as the image of a simple random walk on the square lattice.",
+  "id": "A367994",
+  "mentions": [
+    "A000105",
+    "A246521",
+    "A335573",
+    "A367671",
+    "A367760",
+    "A367995",
+    "A367996",
+    "A367998",
+    "A368000",
+    "A368001",
+    "A368386"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

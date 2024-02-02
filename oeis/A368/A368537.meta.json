@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(k+2,3) * n^k.",
+  "id": "A368537",
+  "mentions": [
+    "A062806",
+    "A368527",
+    "A368536"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

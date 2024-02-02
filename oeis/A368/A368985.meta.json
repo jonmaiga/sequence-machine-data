@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum of the side lengths of the minimum containing squares of all partitions of n.",
+  "id": "A368985",
+  "mentions": [
+    "A096771",
+    "A115995",
+    "A182094"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

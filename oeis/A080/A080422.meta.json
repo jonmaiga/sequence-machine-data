@@ -1,8 +1,9 @@
 {
-  "description": "(n+1)(n+2)(n+3)(n+12)3^n/72.",
+  "description": "a(n) = (n+1)*(n+2)*(n+3)*(n+12)*3^n/72.",
   "id": "A080422",
   "mentions": [
-    "A080419"
+    "A080419",
+    "A136158"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

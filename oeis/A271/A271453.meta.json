@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows of coefficients of polynomials C_n(x) = Sum_(k=0..n} (2*k)!*(x - 1)^(n-k)/((k + 1)!*k!).",
+  "description": "Triangle read by rows of coefficients of polynomials C_n(x) = Sum_{k=0..n} (2*k)!*(x - 1)^(n-k)/((k + 1)!*k!).",
   "id": "A271453",
   "mentions": [
     "A000108",

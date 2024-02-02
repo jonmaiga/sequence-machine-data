@@ -1,0 +1,15 @@
+{
+  "description": "Number of knight paths from opposite corners of an n X n matrix, using only turns that lower Manhattan distance.",
+  "id": "A367558",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

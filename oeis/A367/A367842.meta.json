@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of limit_{n->oo} Product_{k=1..n} Gamma(k/n)^(k/n^2).",
+  "id": "A367842",
+  "mentions": [
+    "A010767",
+    "A074962",
+    "A092040",
+    "A367898",
+    "A367899"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

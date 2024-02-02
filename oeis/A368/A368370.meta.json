@@ -1,0 +1,17 @@
+{
+  "description": "AGM transform of triangular numbers.",
+  "id": "A368370",
+  "mentions": [
+    "A000217",
+    "A368366"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. satisfies: A(x) = exp(x*A(x^2)).",
+  "description": "E.g.f. satisfies A(x) = exp(x*A(x^2)).",
   "id": "A138292",
   "mentions": [],
   "tags": [

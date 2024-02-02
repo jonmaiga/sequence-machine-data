@@ -1,0 +1,18 @@
+{
+  "description": "Number of simplical-free simple graphs on n unlabeled vertices.",
+  "id": "A367144",
+  "mentions": [
+    "A366367",
+    "A367145"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

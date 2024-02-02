@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers k such that phi(k) > 3*k/4.",
+  "description": "Nonprime numbers k such that phi(k) > 3*k/4.",
   "id": "A067794",
   "mentions": [
     "A000010"

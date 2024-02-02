@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least integer k whose arithmetic derivative is equal to the n-th primorial, or 0 if no such k exists.",
+  "id": "A368703",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A351029",
+    "A366890",
+    "A368704",
+    "A369000",
+    "A369243"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

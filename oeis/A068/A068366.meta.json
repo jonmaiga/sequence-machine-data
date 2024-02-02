@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that phi(sigma(n)+n)=sigma(n).",
+  "description": "Numbers k such that phi(sigma(k)+k) = sigma(k).",
   "id": "A068366",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

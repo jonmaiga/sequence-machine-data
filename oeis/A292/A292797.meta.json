@@ -1,7 +1,9 @@
 {
   "description": "2-Hankel transform of ((2*n - 1)!!, 2^n * n).",
   "id": "A292797",
-  "mentions": [],
+  "mentions": [
+    "A074962"
+  ],
   "tags": [
     "formulas",
     "nonn"

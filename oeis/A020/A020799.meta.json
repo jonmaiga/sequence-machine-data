@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 1/sqrt(42).",
   "id": "A020799",
-  "mentions": [],
+  "mentions": [
+    "A020763",
+    "A020764"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

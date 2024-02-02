@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] where each pair of adjacent elements is coprime and does not differ by a prime.",
+  "id": "A368958",
+  "mentions": [
+    "A076220",
+    "A103839",
+    "A367704"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

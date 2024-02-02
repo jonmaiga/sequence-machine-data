@@ -1,0 +1,16 @@
+{
+  "description": "Primes that are in A070196.",
+  "id": "A368879",
+  "mentions": [
+    "A070196"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

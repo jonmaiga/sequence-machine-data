@@ -1,5 +1,5 @@
 {
-  "description": "Prime cascade: multiplicative with a(p(m)^k) = p(m-1) * p(m)^(k-1).",
+  "description": "Prime cascade: multiplicative with a(prime(m)^k) = prime(m-1) * prime(m)^(k-1).",
   "id": "A065769",
   "mentions": [
     "A000040",
@@ -8,9 +8,11 @@
     "A003557",
     "A007947",
     "A064989",
-    "A065770"
+    "A065770",
+    "A151799"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

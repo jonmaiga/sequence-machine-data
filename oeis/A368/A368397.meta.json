@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number k not ending in 0 such that k^n has at least n 0's in its decimal expansion.",
+  "id": "A368397",
+  "mentions": [
+    "A011540",
+    "A067251"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

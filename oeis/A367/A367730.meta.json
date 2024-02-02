@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of BesselJ(0,2/sqrt(3)).",
+  "id": "A367730",
+  "mentions": [
+    "A091681",
+    "A092615",
+    "A334380",
+    "A334383",
+    "A367729"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

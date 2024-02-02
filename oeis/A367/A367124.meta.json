@@ -1,0 +1,21 @@
+{
+  "description": "Maximum degree of the n-omino graph defined in A098891.",
+  "id": "A367124",
+  "mentions": [
+    "A098891",
+    "A367123",
+    "A367125",
+    "A367126",
+    "A367437"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

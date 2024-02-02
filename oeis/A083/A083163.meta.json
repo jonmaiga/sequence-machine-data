@@ -1,5 +1,5 @@
 {
-  "description": "Define a function f(k) by f(k) = (k*a*b*c...)/{d*e*f...), where a,b,c,...are those nonzero digits of k which do not divide k and d,e,f,... are those nonzero digits of k which divide k. a(n) = Floor[f(k)].",
+  "description": "Define a function f(k) by f(k) = (k*a*b*c...)/(d*e*f...), where a,b,c,...are those nonzero digits of k which do not divide k and d,e,f,... are those nonzero digits of k which divide k. a(n) = Floor[f(k)].",
   "id": "A083163",
   "mentions": [],
   "tags": [

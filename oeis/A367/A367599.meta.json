@@ -1,0 +1,22 @@
+{
+  "description": "Indices of record high-points in A367356.",
+  "id": "A367599",
+  "mentions": [
+    "A121805",
+    "A367355",
+    "A367356",
+    "A367364",
+    "A367365",
+    "A367598"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

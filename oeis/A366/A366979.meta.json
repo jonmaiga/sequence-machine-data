@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors of n less than or equal to d(n).",
+  "id": "A366979",
+  "mentions": [
+    "A000005",
+    "A126131"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

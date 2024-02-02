@@ -2,7 +2,8 @@
   "description": "Decimal expansion of error function of square root of 2.",
   "id": "A110894",
   "mentions": [
-    "A178647"
+    "A178647",
+    "A270712"
   ],
   "tags": [
     "cons",

@@ -1,0 +1,21 @@
+{
+  "description": "Psi-analog of the 5-core partition function.",
+  "id": "A368495",
+  "mentions": [
+    "A000122",
+    "A010054",
+    "A053723",
+    "A121373",
+    "A368490"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

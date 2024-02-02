@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of lim_ {n->oo} (s(0) + s(1) + ... + s(n) - (n+1)*g)), where g = 2.3416277185114784317..., s(n) = (s(n - 1) + Pi)^(1/2), s(0) = Pi.",
+  "description": "Decimal expansion of lim_ {n->oo} (s(0) + s(1) + ... + s(n) - (n+1)*g), where g = 2.3416277185114784317..., s(n) = (s(n - 1) + Pi)^(1/2), s(0) = Pi.",
   "id": "A298531",
   "mentions": [
     "A298512",

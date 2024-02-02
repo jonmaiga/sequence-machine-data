@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=A061680(n!).",
+  "description": "a(n) = A061680(n!).",
   "id": "A069785",
   "mentions": [
     "A000005",
@@ -8,15 +8,19 @@
     "A061680",
     "A061701",
     "A069780",
+    "A069781",
+    "A069782",
+    "A069783",
     "A069784"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of [n] whose cycle maxima sum to k, where k is chosen so as to maximize this number.",
+  "id": "A367594",
+  "mentions": [
+    "A143947",
+    "A368678"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

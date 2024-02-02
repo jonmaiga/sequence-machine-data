@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of s(12)^3*s(18)^2/(s(6)^2*s(36)), where s(k) := subs(q=q^k, eta(q)) and eta(q) is Dedekind's function, cf. A010815. Then replace q^6 with q.",
+  "description": "Expansion of s(12)^3*s(18)^2/(s(6)^2*s(36)), where s(k) = eta(q^k) and eta(q) is Dedekind's function, cf. A010815. Then replace q^6 with q.",
   "id": "A097195",
   "mentions": [
     "A004016",
-    "A010815"
+    "A010815",
+    "A093602"
   ],
   "tags": [
     "easy",

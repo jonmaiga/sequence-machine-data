@@ -1,7 +1,9 @@
 {
-  "description": "Numbers of form 2^i*3^j*(4k+1), i, j, k >= 0.",
+  "description": "Numbers of the form 2^i*3^j*(12k+1) or 2^i*3^j*(12k+5), i, j, k >= 0.",
   "id": "A225857",
   "mentions": [
+    "A059897",
+    "A065330",
     "A225837",
     "A225858"
   ],
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

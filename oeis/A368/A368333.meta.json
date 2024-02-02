@@ -1,0 +1,25 @@
+{
+  "description": "The largest term of A054744 that divide n.",
+  "id": "A368333",
+  "mentions": [
+    "A034444",
+    "A048103",
+    "A054744",
+    "A327939",
+    "A368329",
+    "A368332",
+    "A368334",
+    "A368335"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

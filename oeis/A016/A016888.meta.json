@@ -1,5 +1,5 @@
 {
-  "description": "(5n+3)^4.",
+  "description": "a(n) = (5n + 3)^4.",
   "id": "A016888",
   "mentions": [],
   "tags": [

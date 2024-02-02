@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest number that can be written in exactly n ways as the sum of positive integer powers of its distinct prime factors, or -1 if no such number exists.",
+  "id": "A368498",
+  "mentions": [
+    "A366914"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

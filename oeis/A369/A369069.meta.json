@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet convolution of Liouville's lambda (A008836) with A083345, where A083345(n) = n' / gcd(n,n'), and n' stands for the arithmetic derivative of n, A003415.",
+  "id": "A369069",
+  "mentions": [
+    "A003415",
+    "A008836",
+    "A083345",
+    "A342090",
+    "A347395",
+    "A369068"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

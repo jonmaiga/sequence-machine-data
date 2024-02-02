@@ -1,0 +1,19 @@
+{
+  "description": "Number of free n-celled (planar) polyhexes with the least number (A369363(n)) of inequivalent cells.",
+  "id": "A369364",
+  "mentions": [
+    "A000228",
+    "A367759",
+    "A369363",
+    "A369367"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

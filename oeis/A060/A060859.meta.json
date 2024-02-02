@@ -1,5 +1,5 @@
 {
-  "description": "Powerful numbers of the form k^2 - 1 such that k^2 is also powerful.",
+  "description": "Powerful numbers of the form k^2 - 1.",
   "id": "A060859",
   "mentions": [
     "A001694",

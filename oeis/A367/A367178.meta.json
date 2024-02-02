@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows. T(n, k) = binomial(n, k)^2 * CatalanNumber(k).",
+  "id": "A367178",
+  "mentions": [
+    "A000108",
+    "A086618",
+    "A098474",
+    "A186415",
+    "A367022",
+    "A367023",
+    "A367177",
+    "A387024"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

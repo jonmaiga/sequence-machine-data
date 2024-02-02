@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ceiling((prime(n)/n).",
+  "description": "a(n) = ceiling(prime(n)/n).",
   "id": "A090973",
   "mentions": [
     "A038605",

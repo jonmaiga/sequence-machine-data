@@ -1,5 +1,5 @@
 {
-  "description": "Index of n in A125718, or 0 if n would not occur; A125718(k) = least number congruent to prime(k) (mod k) and not occurring earlier.",
+  "description": "Index of n in A125718, or 0 if n does not occur; A125718(k) = least number congruent to prime(k) (mod k) and not occurring earlier.",
   "id": "A249678",
   "mentions": [
     "A125718"

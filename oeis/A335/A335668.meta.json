@@ -1,5 +1,5 @@
 {
-  "description": "Even composites m such that A002203(m)==2 (mod m).",
+  "description": "Even composites m such that A002203(m) == 2 (mod m).",
   "id": "A335668",
   "mentions": [
     "A000129",

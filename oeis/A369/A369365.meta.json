@@ -1,0 +1,19 @@
+{
+  "description": "Number of free rooted (or pointed) polyiamonds with n cells.",
+  "id": "A369365",
+  "mentions": [
+    "A000577",
+    "A126202",
+    "A369362",
+    "A369366"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

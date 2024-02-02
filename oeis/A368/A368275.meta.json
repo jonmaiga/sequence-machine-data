@@ -1,0 +1,18 @@
+{
+  "description": "Fibonacci zig-zag function.",
+  "id": "A368275",
+  "mentions": [
+    "A000045",
+    "A016813",
+    "A083420"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

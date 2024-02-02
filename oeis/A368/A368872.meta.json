@@ -1,0 +1,16 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into prime parts not greater than sqrt(n).",
+  "id": "A368872",
+  "mentions": [
+    "A023360",
+    "A364526"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

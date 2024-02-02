@@ -2,6 +2,7 @@
   "description": "M * A007318, where M = triangle with (1, 1, 2, 3, ...) in the main diagonal and the rest zeros.",
   "id": "A134400",
   "mentions": [
+    "A002011",
     "A002940",
     "A003506",
     "A007318",
@@ -18,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 66,
     "source": "joeis"
   }
 }

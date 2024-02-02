@@ -1,7 +1,8 @@
 {
-  "description": "5^n + 2.",
+  "description": "a(n) = 5^n + 2.",
   "id": "A242328",
   "mentions": [
+    "A000351",
     "A003463",
     "A034474",
     "A132079",

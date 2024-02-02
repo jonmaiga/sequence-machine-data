@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = Sum_{d|n, d=4 mod 5} d.",
+  "description": "a(n) = Sum_{d|n, d == 4 (mod 5)} d.",
   "id": "A284103",
   "mentions": [
     "A000593",
+    "A013661",
     "A050452",
     "A078182",
     "A109700",
@@ -10,6 +11,7 @@
     "A284105"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

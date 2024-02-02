@@ -1,0 +1,14 @@
+{
+  "description": "Primes p such that (2^(p-1)*(p+1) - 1) / p is prime.",
+  "id": "A367195",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n > 0, a(n-1) and a(n) are congruent modulo n, and the least value not yet in the sequence appears as soon as possible.",
+  "id": "A367288",
+  "mentions": [
+    "A005132",
+    "A125717",
+    "A352713",
+    "A367289",
+    "A367290"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

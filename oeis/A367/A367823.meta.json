@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=0..n} (n^6 + k^6).",
+  "id": "A367823",
+  "mentions": [
+    "A126804",
+    "A272244",
+    "A272246",
+    "A272247",
+    "A272248",
+    "A324439",
+    "A367833"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

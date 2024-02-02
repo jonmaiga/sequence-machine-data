@@ -1,5 +1,5 @@
 {
-  "description": "Integers m such that the sequence defined by f(0)=m and f(n+1)=1+gpf(f(n)), with gpf(n) being the greatest prime factor of n (A006530), ends up in the repetitive cycle 4 -> 3 -> 3 -> ...",
+  "description": "Integers m such that the sequence defined by f(0)=m and f(n+1)=1+gpf(f(n)), with gpf(n) being the greatest prime factor of n (A006530), ends up in the repetitive cycle 4 -> 3 -> 4 -> ...",
   "id": "A120685",
   "mentions": [
     "A006530",

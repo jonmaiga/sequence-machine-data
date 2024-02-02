@@ -1,0 +1,31 @@
+{
+  "description": "Square array T(n, k), n >= 1, k >= 1, read by antidiagonals, of the least numbers whose symmetric representation of sigma instantiate the unimodal width pattern 1, 2, ..., n, ..., 2, 1 repeated k times separated by instances of width 0.",
+  "id": "A367377",
+  "mentions": [
+    "A151800",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A250071",
+    "A262045",
+    "A318843",
+    "A341969",
+    "A342592",
+    "A342594",
+    "A342595",
+    "A342596"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

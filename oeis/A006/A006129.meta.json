@@ -2,9 +2,12 @@
   "description": "a(0), a(1), a(2), ... satisfy Sum_{k=0..n} a(k)*binomial(n,k) = 2^binomial(n,2), for n >= 0.",
   "id": "A006129",
   "mentions": [
+    "A002494",
     "A006123",
     "A006125",
-    "A054548"
+    "A054548",
+    "A086193",
+    "A322661"
   ],
   "tags": [
     "easy",

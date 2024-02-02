@@ -1,13 +1,20 @@
 {
-  "description": "Numbers n such that sigma(phi(n^3)) = phi(sigma(n^3)).",
+  "description": "Numbers k such that sigma(phi(k^3)) = phi(sigma(k^3)).",
   "id": "A063824",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000578",
+    "A062401",
+    "A062402"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

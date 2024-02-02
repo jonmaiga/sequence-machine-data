@@ -1,0 +1,46 @@
+{
+  "description": "Number of unlabeled n-edge loop-graphs with at most n vertices such that it is not possible to choose a different vertex from each edge.",
+  "id": "A368835",
+  "mentions": [
+    "A000081",
+    "A000085",
+    "A000088",
+    "A000612",
+    "A000666",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A014068",
+    "A016031",
+    "A058891",
+    "A062740",
+    "A100861",
+    "A106234",
+    "A111924",
+    "A116508",
+    "A129271",
+    "A133686",
+    "A137916",
+    "A137917",
+    "A322661",
+    "A333331",
+    "A367863",
+    "A368596",
+    "A368598",
+    "A368730",
+    "A368836",
+    "A368924",
+    "A368926",
+    "A368927",
+    "A368984"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

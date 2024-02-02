@@ -1,0 +1,27 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = n*Sum_{k = 0..n-1} binomial(n, k)*(-1)^(1+n+k)*a(k).",
+  "id": "A365863",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000629",
+    "A000670",
+    "A004123",
+    "A007047",
+    "A032033",
+    "A033484",
+    "A094417",
+    "A201339",
+    "A201365",
+    "A367308"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

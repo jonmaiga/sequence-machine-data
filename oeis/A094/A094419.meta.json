@@ -2,8 +2,16 @@
   "description": "Generalized ordered Bell numbers Bo(6,n).",
   "id": "A094419",
   "mentions": [
+    "A032033",
     "A094416",
-    "A131689"
+    "A094417",
+    "A094418",
+    "A131689",
+    "A346985",
+    "A354252",
+    "A365555",
+    "A365556",
+    "A365557"
   ],
   "tags": [
     "formulas",

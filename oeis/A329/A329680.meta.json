@@ -2,6 +2,7 @@
   "description": "Number of excursions of length n with Motzkin-steps consisting only of consecutive steps UH, HD and DU.",
   "id": "A329680",
   "mentions": [
+    "A022003",
     "A079978",
     "A173857",
     "A329682",

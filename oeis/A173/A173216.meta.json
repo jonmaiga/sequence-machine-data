@@ -1,14 +1,17 @@
 {
   "description": "a(n) is the result of multiplying n by the number of letters of the name in Spanish.",
   "id": "A173216",
-  "mentions": [],
+  "mentions": [
+    "A011762"
+  ],
   "tags": [
+    "formulas",
     "nonn",
     "word"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 60,
     "source": "oeis-entry"
   }
 }

@@ -1,7 +1,10 @@
 {
-  "description": "Primes p(9n-1).",
+  "description": "a(n) = prime(9n-1).",
   "id": "A031375",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A017257"
+  ],
   "tags": [
     "nonn"
   ],

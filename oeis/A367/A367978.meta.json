@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct characteristic polynomials for 4 X 4 matrices with entries from {0, 1, ..., n}.",
+  "id": "A367978",
+  "mentions": [
+    "A272659",
+    "A366448",
+    "A366551"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Degrees Centigrade for which Fahrenheit is a prime.",
+  "description": "Degrees Celsius for which Fahrenheit is a prime.",
   "id": "A109952",
   "mentions": [
     "A029925",

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k for which k^2 + (k')^2 is a square, where k' is the arithmetic derivative of k (A003415).",
+  "id": "A365850",
+  "mentions": [
+    "A001359",
+    "A003415",
+    "A077800",
+    "A153417",
+    "A153419",
+    "A156104",
+    "A242476",
+    "A252089",
+    "A252091",
+    "A271347",
+    "A271981",
+    "A271982",
+    "A272176"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

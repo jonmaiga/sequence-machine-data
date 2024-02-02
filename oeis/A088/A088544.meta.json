@@ -1,5 +1,5 @@
 {
-  "description": "Scale factor by which primitive Pythagorean triangle {x=A088509(n),y=A088510(n),z=A088511(n)} needs be enlarged in order to circumscribe the smallest integral square having a side on the hypotenuse.",
+  "description": "Scale factor by which primitive Pythagorean triangle {x=A088509(n), y=A088510(n), z=A088511(n)} needs be enlarged in order to circumscribe the smallest integral square having a side on the hypotenuse.",
   "id": "A088544",
   "mentions": [
     "A063011",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

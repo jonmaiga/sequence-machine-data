@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the number of tilings of the n X k torus up to 180-degree rotation by a tile that is not fixed under 180-degree rotation.",
+  "id": "A368308",
+  "mentions": [
+    "A184271",
+    "A368224",
+    "A368263",
+    "A368304",
+    "A368306",
+    "A368307"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

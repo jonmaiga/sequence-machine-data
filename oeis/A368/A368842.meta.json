@@ -1,0 +1,22 @@
+{
+  "description": "a(n) gives the number of triples of equally spaced equal digits in the binary expansion of n (without leading zeros).",
+  "id": "A368842",
+  "mentions": [
+    "A000225",
+    "A002620",
+    "A368841",
+    "A368843",
+    "A368844"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

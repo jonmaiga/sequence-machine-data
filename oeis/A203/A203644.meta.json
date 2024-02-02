@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of n 0..13 integers with new values introduced in order 0..13 but otherwise unconstrained",
+  "description": "Number of arrays of n 0..13 integers with new values introduced in order 0..13 but otherwise unconstrained.",
   "id": "A203644",
   "mentions": [
     "A203647"

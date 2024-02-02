@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of positive integers such that the binary expansions of two consecutive terms have a 1 at the same position and for any distinct m and n, {a(m}, a(m+1)} <> {a(n), a(n+1)}.",
+  "description": "Lexicographically earliest sequence of positive integers such that the binary expansions of two consecutive terms have a 1 at the same position and for any distinct m and n, {a(m), a(m+1)} <> {a(n), a(n+1)}.",
   "id": "A352836",
   "mentions": [
     "A352835"

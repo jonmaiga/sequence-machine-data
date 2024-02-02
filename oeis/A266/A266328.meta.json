@@ -2,6 +2,8 @@
   "description": "E.g.f. A(x) satisfies: A(x) = exp( Integral B(x) dx ) such that B(x) = exp(-x) * exp( Integral A(x) dx ), where the constant of integration is zero.",
   "id": "A266328",
   "mentions": [
+    "A000142",
+    "A006789",
     "A089148",
     "A266329"
   ],

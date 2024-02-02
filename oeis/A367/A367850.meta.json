@@ -1,0 +1,22 @@
+{
+  "description": "Total sum of the block maxima minus the block minima over all partitions of [n].",
+  "id": "A367850",
+  "mentions": [
+    "A000110",
+    "A002538",
+    "A002620",
+    "A120325",
+    "A124325",
+    "A278677",
+    "A368338"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "description": "Sum of the multiset multiplicity cokernel (in which each multiplicity becomes the greatest element of that multiplicity) of the prime indices of n.",
+  "id": "A367860",
+  "mentions": [
+    "A000079",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A007916",
+    "A007947",
+    "A051904",
+    "A052409",
+    "A052410",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A066328",
+    "A071625",
+    "A072774",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A175781",
+    "A181819",
+    "A181821",
+    "A238747",
+    "A296150",
+    "A304038",
+    "A353742",
+    "A367579",
+    "A367580",
+    "A367581",
+    "A367582",
+    "A367583",
+    "A367584",
+    "A367587",
+    "A367858",
+    "A367859"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

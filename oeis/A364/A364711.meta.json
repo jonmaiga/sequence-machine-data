@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (negative of) the real part of (-sqrt(2))^^10, where ^^ indicates tetration or hyper-4 (e.g., 2^^4 = 2^(2^(2^2))).",
+  "id": "A364711",
+  "mentions": [
+    "A002193",
+    "A359187",
+    "A364806",
+    "A365937"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

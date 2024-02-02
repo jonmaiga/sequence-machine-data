@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n - sqrt(n)) - phi(n) as n runs through the composite numbers (A002808).",
+  "description": "Floor(k - sqrt(k)) - phi(k) as k runs through the composite numbers (A002808).",
   "id": "A079533",
   "mentions": [
     "A000010",
@@ -10,11 +10,12 @@
     "A079534"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 79,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

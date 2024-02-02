@@ -1,8 +1,11 @@
 {
   "description": "Number of subsets T of S={0,1,2,...,n-1} such that the closure of T under addition modulo n is S.",
   "id": "A196021",
-  "mentions": [],
+  "mentions": [
+    "A058622"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

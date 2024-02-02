@@ -1,0 +1,18 @@
+{
+  "description": "Number of commutative discrete aggregation functions defined on the finite chain L_n={0,1,...,n-1,n} that are smooth.",
+  "id": "A367432",
+  "mentions": [
+    "A306372",
+    "A366447"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

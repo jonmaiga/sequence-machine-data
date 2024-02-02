@@ -1,5 +1,5 @@
 {
-  "description": "Pisano period length of the 2-Fibonacci numbers A000129.",
+  "description": "Pisano period of the 2-Fibonacci numbers A000129.",
   "id": "A175181",
   "mentions": [
     "A000129",

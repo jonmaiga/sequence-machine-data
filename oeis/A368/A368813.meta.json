@@ -1,0 +1,20 @@
+{
+  "description": "Number of regions in a regular 2n-gon when all vertices are connect by straight lines except for the n lines joining diametrically opposite vertices.",
+  "id": "A368813",
+  "mentions": [
+    "A007678",
+    "A368755",
+    "A368814",
+    "A368815",
+    "A368816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

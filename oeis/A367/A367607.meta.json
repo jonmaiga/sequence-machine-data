@@ -1,0 +1,23 @@
+{
+  "description": "Comma-successor to n working in base 3, and written in base 3, or -1 if n has no successor.",
+  "id": "A367607",
+  "mentions": [
+    "A007089",
+    "A121085",
+    "A367338",
+    "A367355",
+    "A367356",
+    "A367606",
+    "A367608",
+    "A367609"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

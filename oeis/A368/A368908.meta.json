@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of integers x in range 0..n such that the k-th arithmetic derivative of A005940(1+x) is zero for some k >= 0, where A005940 is the Doudna sequence.",
+  "id": "A368908",
+  "mentions": [
+    "A003415",
+    "A005940",
+    "A051903",
+    "A099308",
+    "A328307",
+    "A328308",
+    "A368906",
+    "A368907"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

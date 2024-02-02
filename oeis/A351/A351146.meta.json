@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=1..n} binomial(2*n,n+k)*A000005(k)).",
+  "description": "a(n) = Sum_{k=1..n} binomial(2*n,n+k)*A000005(k).",
   "id": "A351146",
   "mentions": [
     "A000005",

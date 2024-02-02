@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes k such that prime(k) - k and prime(k) + k are also semiprimes.",
+  "id": "A368615",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001358"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

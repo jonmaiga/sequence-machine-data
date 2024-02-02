@@ -2,9 +2,12 @@
   "description": "Denominator of the sum of inverse products of parts in all compositions of n.",
   "id": "A323340",
   "mentions": [
+    "A000142",
+    "A007840",
     "A323339"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n+1 if n+1 is a prime else a(n) = 2n+1 if 2n+1 is a prime else a(n) = 2*(2n+1) +1 =g(n) if this number is prime else the next candidate is 2* (g(n) +1 etc.",
+  "description": "a(n) = n+1 if n+1 is a prime else a(n) = 2n+1 if 2n+1 is a prime else a(n) = 2*(2n+1) +1 =g(n) if this number is prime else the next candidate is 2*g(n) + 1 etc.",
   "id": "A110359",
   "mentions": [],
   "tags": [

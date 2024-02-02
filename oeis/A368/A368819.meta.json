@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the balanced numbers less than n that do not divide n.",
+  "id": "A368819",
+  "mentions": [
+    "A020492",
+    "A351114",
+    "A368818"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

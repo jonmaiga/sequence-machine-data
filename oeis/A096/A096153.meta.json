@@ -1,12 +1,15 @@
 {
-  "description": "Triangular array of natural numbers (greater than 1) arranged by ordered prime signature.",
+  "description": "Natural numbers (greater than 1) arranged in rows according to their ordered prime signature. Square array A(n,k) read by descending antidiagonals.",
   "id": "A096153",
   "mentions": [
     "A000040",
     "A025487",
     "A055932",
+    "A071364",
+    "A077462",
     "A096011",
-    "A096156"
+    "A335286",
+    "A357126"
   ],
   "tags": [
     "nonn",

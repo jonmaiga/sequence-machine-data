@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of words of length n over the alphabet [n] and sortable by a (2,1)-pop stack of depth 2.",
+  "id": "A369327",
+  "mentions": [
+    "A369325",
+    "A369326"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

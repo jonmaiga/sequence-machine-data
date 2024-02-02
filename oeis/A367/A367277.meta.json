@@ -1,0 +1,18 @@
+{
+  "description": "Place n equally spaced points on each side of a square, and join each of these points by a chord to the 3*n new points on the other three sides: sequence gives number of interior vertices in the resulting planar graph.",
+  "id": "A367277",
+  "mentions": [
+    "A367276",
+    "A367278",
+    "A367279"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

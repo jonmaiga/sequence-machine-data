@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + 2*x*A(x) + 2*x^4*A(x)^4.",
+  "id": "A367115",
+  "mentions": [
+    "A002293",
+    "A071356",
+    "A127902",
+    "A190590",
+    "A367113",
+    "A367114"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

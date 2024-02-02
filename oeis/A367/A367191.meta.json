@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest positive number k such that k^2 + k*n + n^2 is a perfect square, or 0 if no such k exists.",
+  "id": "A367191",
+  "mentions": [
+    "A003136",
+    "A300728"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

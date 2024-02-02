@@ -1,5 +1,5 @@
 {
-  "description": "Numbers are A066926 and distinct x_i parts.",
+  "description": "Numbers k having a partition k = sum x_i for which sum k/x_i is also a partition of k and the x_i are distinct parts.",
   "id": "A067952",
   "mentions": [
     "A066925",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 52,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{i=1..n, j=1..n} (i^2 + 3*j^2).",
+  "id": "A367942",
+  "mentions": [
+    "A324403",
+    "A367542",
+    "A367543",
+    "A367941",
+    "A367943",
+    "A367944"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

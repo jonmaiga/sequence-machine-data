@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions of n with exactly two distinct parts, both appearing with the same multiplicity.",
+  "id": "A367588",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002133",
+    "A007774",
+    "A023645",
+    "A047966",
+    "A072233",
+    "A072774",
+    "A091602",
+    "A116608",
+    "A116861",
+    "A181819",
+    "A182473",
+    "A243978",
+    "A268390",
+    "A367582",
+    "A367589"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

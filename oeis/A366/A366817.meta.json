@@ -1,0 +1,22 @@
+{
+  "description": "Detour index of n body-centered cubic grid unit cells in a row.",
+  "id": "A366817",
+  "mentions": [
+    "A001386",
+    "A007290",
+    "A032091",
+    "A115269",
+    "A273321",
+    "A302351"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

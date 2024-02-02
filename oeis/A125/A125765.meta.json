@@ -1,5 +1,5 @@
 {
-  "description": "Consider the array T(n, m) = m-th prime of the form n*i(i+1)/2) +/- 1. This sequence is the main diagonal.",
+  "description": "Consider the array T(n, m) = m-th prime of the form n*i(i+1)/2 +/- 1. This sequence is the main diagonal.",
   "id": "A125765",
   "mentions": [
     "A000217",

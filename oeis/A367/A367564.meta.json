@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: T(n, k) = binomial(n, k) * A001333(n - k).",
+  "id": "A367564",
+  "mentions": [
+    "A001333",
+    "A006012",
+    "A367211"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

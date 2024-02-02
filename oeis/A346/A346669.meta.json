@@ -1,5 +1,5 @@
 {
-  "description": "Numbers r such that the number of nonnegative m < r such that m^k == m {mod r) is equal to k*(the number of nonnegative m < r such that -m^k == m (mod r)), where k = 2^A007814(r-1) + 1.",
+  "description": "Numbers r such that the number of nonnegative m < r such that m^k == m (mod r) is equal to k*(the number of nonnegative m < r such that -m^k == m (mod r)), where k = 2^A007814(r-1) + 1.",
   "id": "A346669",
   "mentions": [
     "A002997",

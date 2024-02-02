@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) is the number of words of length n on an alphabet [k], avoiding 120 and 210, and sortable by a stack of depth 2, where k >= 0.",
+  "id": "A369324",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000035",
+    "A000079",
+    "A000290",
+    "A001477",
+    "A002064",
+    "A057427",
+    "A131423",
+    "A164039",
+    "A340257",
+    "A369325",
+    "A369326"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

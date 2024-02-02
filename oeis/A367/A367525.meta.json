@@ -1,0 +1,21 @@
+{
+  "description": "The number of ways of tiling the n X n grid up to the symmetries of the square by a tile that is not fixed under any of the symmetries of the square.",
+  "id": "A367525",
+  "mentions": [
+    "A054247",
+    "A295229",
+    "A302484",
+    "A367522",
+    "A367523",
+    "A367524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

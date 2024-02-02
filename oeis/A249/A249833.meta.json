@@ -1,7 +1,9 @@
 {
   "description": "E.g.f. satisfies: A(x) = 1 + Integral A(x) + A(x)^2*log(A(x)) dx.",
   "id": "A249833",
-  "mentions": [],
+  "mentions": [
+    "A235129"
+  ],
   "tags": [
     "formulas",
     "nonn"

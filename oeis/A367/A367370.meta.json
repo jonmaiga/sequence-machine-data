@@ -1,0 +1,32 @@
+{
+  "description": "a(k) is the number of different widths patterns in the symmetric representation of sigma for numbers having k odd divisors.",
+  "id": "A367370",
+  "mentions": [
+    "A001405",
+    "A038547",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A250071",
+    "A262045",
+    "A318843",
+    "A341969",
+    "A342592",
+    "A342594",
+    "A342595",
+    "A342596",
+    "A367377"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

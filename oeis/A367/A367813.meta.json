@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that the Levenshtein distance (Ld) between a(n) and a(n+1) is equal to 3.",
+  "id": "A367813",
+  "mentions": [
+    "A118763",
+    "A367812",
+    "A367814",
+    "A367815"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

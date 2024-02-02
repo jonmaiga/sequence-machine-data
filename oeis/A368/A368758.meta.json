@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-sided regions, k>=3, in the hyperoctahedral (or cocktail party) graph of order n.",
+  "id": "A368758",
+  "mentions": [
+    "A129348",
+    "A193130",
+    "A282010",
+    "A368755",
+    "A368756",
+    "A368757"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

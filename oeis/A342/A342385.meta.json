@@ -1,5 +1,5 @@
 {
-  "description": "Triangle with n>=0 as first column and main diagonal. The (n+2)-th column is (n+1)*A028310(n).",
+  "description": "Triangle T(n,k) read by rows (n >= 0, 0 <= k <= n): first column is A001477 and column k > 0 is k*A028310.",
   "id": "A342385",
   "mentions": [
     "A000290",
@@ -10,12 +10,13 @@
     "A177787"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

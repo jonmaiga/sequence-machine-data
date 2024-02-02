@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of 2 X 2 matrices over the integers mod n that are invertible mod n for every permutation of their elements.",
+  "id": "A367926",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

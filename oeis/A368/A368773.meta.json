@@ -1,0 +1,16 @@
+{
+  "description": "Antidiagonal sums of A059450.",
+  "id": "A368773",
+  "mentions": [
+    "A059450"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

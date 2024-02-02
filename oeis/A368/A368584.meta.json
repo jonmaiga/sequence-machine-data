@@ -1,0 +1,21 @@
+{
+  "description": "Table read by rows: T(n, k) = A124320(n + 1, k) * A048993(n, k).",
+  "id": "A368584",
+  "mentions": [
+    "A001813",
+    "A048993",
+    "A053492",
+    "A124320",
+    "A213236",
+    "A368583"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

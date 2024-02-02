@@ -1,8 +1,18 @@
 {
   "description": "Number of isomeric aza-benzenoids with two nitrogen atoms and n hexagons.",
   "id": "A121950",
-  "mentions": [],
+  "mentions": [
+    "A018190",
+    "A121949",
+    "A121951",
+    "A121952",
+    "A121972",
+    "A121973",
+    "A121974",
+    "A121975"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

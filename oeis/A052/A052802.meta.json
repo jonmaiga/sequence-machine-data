@@ -1,8 +1,10 @@
 {
-  "description": "E.g.f. satisfies: A(x) = 1/(1 + log(1 - x*A(x))).",
+  "description": "E.g.f. satisfies A(x) = 1/(1 + log(1 - x*A(x))).",
   "id": "A052802",
   "mentions": [
-    "A052819"
+    "A052819",
+    "A052894",
+    "A198860"
   ],
   "tags": [
     "easy",

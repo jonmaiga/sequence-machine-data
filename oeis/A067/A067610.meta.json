@@ -1,5 +1,5 @@
 {
-  "description": "Number of stereo alkanes not containing a certain forbidden substructure) with combinatorial diameter n.",
+  "description": "Number of stereo alkanes not containing a certain forbidden substructure with combinatorial diameter n.",
   "id": "A067610",
   "mentions": [
     "A000602",

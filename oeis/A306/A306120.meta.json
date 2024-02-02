@@ -1,5 +1,5 @@
 {
-  "description": "Lengths of largest face diagonal in Euler bricks or Pythagorean cuboids: possible values of max(d, e, f) for solutions to a^2 + b^2 = d^2, a^2 + c^2 = e^2, b^2 + c^2 = f^2 in positive integers a, b, c, d, e, f.",
+  "description": "Lengths of largest face diagonal in primitive Euler bricks or Pythagorean cuboids: possible values of max(d, e, f) for solutions to a^2 + b^2 = d^2, a^2 + c^2 = e^2, b^2 + c^2 = f^2 in coprime positive integers a, b, c, d, e, f.",
   "id": "A306120",
   "mentions": [
     "A031173",

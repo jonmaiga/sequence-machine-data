@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for n > 1, if A192490(2n+1) = 1 [when 2n+1 is Ludic number] a(n) = 1 + 2*a(A266350(n)-1)), otherwise a(n) = 2*a(n-A266350(n)).",
+  "description": "a(1) = 1; for n > 1, if A192490(2n+1) = 1 [when 2n+1 is Ludic number] a(n) = 1 + 2*a(A266350(n)-1), otherwise a(n) = 2*a(n-A266350(n)).",
   "id": "A266417",
   "mentions": [
     "A003309",

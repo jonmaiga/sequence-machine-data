@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows, T(n,k) = f(n,k) - f(n,0) + 1, where f(n, k) = Sum_{j=0..k} (-1)^j*(n+k)!/((n-j)!*(k-j)!*j!) + Sum_{j=0..n-k} (-1)^j*(2*n - k)!/((n-j)!*((n-k-j)!*j!).",
+  "description": "Triangle, read by rows, T(n,k) = f(n,k) - f(n,0) + 1, where f(n, k) = Sum_{j=0..k} (-1)^j*(n+k)!/((n-j)!*(k-j)!*j!) + Sum_{j=0..n-k} (-1)^j*(2*n - k)!/((n-j)!*(n-k-j)!*j!).",
   "id": "A176094",
   "mentions": [],
   "tags": [

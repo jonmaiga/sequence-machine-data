@@ -1,12 +1,26 @@
 {
-  "description": "n-th cyclotomic polynomial is a trinomial.",
+  "description": "Numbers k such that the k-th cyclotomic polynomial is a trinomial.",
   "id": "A065119",
   "mentions": [
+    "A000040",
     "A000079",
+    "A000720",
+    "A001248",
+    "A001358",
     "A003586",
+    "A006881",
+    "A008578",
+    "A014612",
     "A033845",
+    "A046682",
+    "A056239",
     "A063996",
-    "A206787"
+    "A080193",
+    "A086971",
+    "A100959",
+    "A122111",
+    "A206787",
+    "A220264"
   ],
   "tags": [
     "formulas",

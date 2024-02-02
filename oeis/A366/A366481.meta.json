@@ -1,0 +1,17 @@
+{
+  "description": "Number of conjugacy classes of elements of order n in the Monster group.",
+  "id": "A366481",
+  "mentions": [
+    "A367141"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

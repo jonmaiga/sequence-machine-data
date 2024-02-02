@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of self-avoiding paths of length n-1+2*k from NW to SW corners in the n X n grid graph (0 <= k <= A000217(n-1)), n >= 1).",
+  "description": "Triangle read by rows: T(n,k) is the number of self-avoiding paths of length n-1+2*k from NW to SW corners in the n X n grid graph (0 <= k <= A000217(n-1), n >= 1).",
   "id": "A329633",
   "mentions": [
     "A000217",

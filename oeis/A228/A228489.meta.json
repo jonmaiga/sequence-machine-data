@@ -1,5 +1,5 @@
 {
-  "description": "Period length of trace(n*tau), where tau = (1+sqrt(5))/2 = golden ratio.",
+  "description": "Period of trace(n*tau), where tau = (1+sqrt(5))/2 = golden ratio.",
   "id": "A228489",
   "mentions": [
     "A228487",

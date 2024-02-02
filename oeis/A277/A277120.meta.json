@@ -2,8 +2,19 @@
   "description": "Number of branching factorizations of n.",
   "id": "A277120",
   "mentions": [
+    "A006881",
+    "A007304",
+    "A007317",
+    "A025487",
+    "A052886",
     "A074206",
-    "A104725"
+    "A085987",
+    "A101296",
+    "A104725",
+    "A108951",
+    "A277130",
+    "A366377",
+    "A366884"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,18 @@
+{
+  "description": "Array read by descending antidiagonals, where row n=0 lists the natural numbers. Each new row n=1,2,... is found by taking the number n in the previous row and \"leaping\" it over the next n terms to its right, while reversing the order of the skipped terms. (see example).",
+  "id": "A368053",
+  "mentions": [
+    "A000027",
+    "A028310",
+    "A367634"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

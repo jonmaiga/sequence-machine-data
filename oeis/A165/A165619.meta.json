@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of nonexistent values of cos(2*Pi/k) mod n for all k = 1:n-1.",
+  "description": "a(n) = number of nonexistent values of cos(2*Pi/k) mod n, taken over k = 1..n-1.",
   "id": "A165619",
   "mentions": [
     "A164823",

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of [2n] that have at most one block contained in [n].",
+  "id": "A367820",
+  "mentions": [
+    "A008277",
+    "A011655",
+    "A048993",
+    "A108459",
+    "A113547",
+    "A362925"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

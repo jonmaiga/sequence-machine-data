@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of BesselI(0,2/sqrt(3)).",
+  "id": "A367729",
+  "mentions": [
+    "A070910",
+    "A092041",
+    "A197036",
+    "A334381",
+    "A367730"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

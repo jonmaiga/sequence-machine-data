@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{(s - 2)|n, s prime} s if n > 0, a(0) = 1.",
+  "id": "A368117",
+  "mentions": [
+    "A007947",
+    "A027760",
+    "A141056",
+    "A160014"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "a(n) is the constant term in expansion of Product_{k=1..n} (x^prime(k) + 1 + 1/x^prime(k)).",
   "id": "A350880",
   "mentions": [
-    "A007576"
+    "A000040",
+    "A007576",
+    "A022894"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

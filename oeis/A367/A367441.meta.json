@@ -1,0 +1,20 @@
+{
+  "description": "Minimum size of a set of polyominoes with n-1 cells such that all free polyominoes with n cells can be obtained by adding one cell to one of the polyominoes in the set.",
+  "id": "A367441",
+  "mentions": [
+    "A000105",
+    "A365621",
+    "A367435",
+    "A367440",
+    "A367443"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

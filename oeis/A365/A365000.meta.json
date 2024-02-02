@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n for n <= 2; for n > 2, rad(a(m)) != rad(a(n)), m < n, implies a(n+1) is the least novel k such that rad(k) | a(n), rad(a(m)) = rad(a(n)), m < n, implies a(n+1) = q*a(n), where q is the least novel prime such that gcd(q, a(n)) = 1 and rad(a(m)) != rad(q*a(n)), m < n.",
+  "id": "A365000",
+  "mentions": [
+    "A006881",
+    "A007947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

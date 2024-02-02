@@ -1,0 +1,16 @@
+{
+  "description": "First term is 1; thereafter, if u and v are consecutive terms, with decimal expansions u = bc...ef, v = hi...jk, then v-u has decimal expansion efhi, formed by concatenating the last two digits of u and the first two digits of v. If there is a choice for v, pick the smallest.",
+  "id": "A367363",
+  "mentions": [
+    "A121805"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

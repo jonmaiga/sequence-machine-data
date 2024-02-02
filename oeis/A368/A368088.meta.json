@@ -1,0 +1,23 @@
+{
+  "description": "Index of smallest pentagonal number with n digits.",
+  "id": "A368088",
+  "mentions": [
+    "A000326",
+    "A017936",
+    "A020772",
+    "A068092",
+    "A157697",
+    "A180447"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 36*n^2 + 60*n + 16.",
+  "description": "a(n) = 4*(4 + 9*n^2 + 15*n).",
   "id": "A144449",
   "mentions": [
     "A008590",

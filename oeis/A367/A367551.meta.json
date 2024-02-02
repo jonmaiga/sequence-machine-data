@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{d|n} (d^2+1)^n.",
+  "id": "A367551",
+  "mentions": [
+    "A163190",
+    "A308570",
+    "A367552"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

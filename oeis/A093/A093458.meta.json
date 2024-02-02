@@ -1,5 +1,5 @@
 {
-  "description": "Mixed factorials. Define MF(n) as the product prime(1)*composite(1)*(prime(2)*composite(2)...prime(n/2)*composite(n/2) if n is even else MF(n) as the product prime(1)*composite(1)*(prime(2)*composite(2)*...*prime((n+1)/2). a(0)= 1.",
+  "description": "Partial products of A073846.",
   "id": "A093458",
   "mentions": [
     "A059171",
@@ -7,11 +7,12 @@
     "A093459"
   ],
   "tags": [
+    "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 20,
     "source": "joeis"
   }

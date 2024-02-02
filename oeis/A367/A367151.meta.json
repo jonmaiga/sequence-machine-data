@@ -1,0 +1,17 @@
+{
+  "description": "Primes whose reversals are triprimes.",
+  "id": "A367151",
+  "mentions": [
+    "A014612",
+    "A085778"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

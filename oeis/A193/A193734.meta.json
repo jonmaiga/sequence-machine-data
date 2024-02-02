@@ -2,7 +2,11 @@
   "description": "Triangular array: the fusion of polynomial sequences P and Q given by p(n,x)=(2x+1)^n and q(n,x)=(x+2)^n.",
   "id": "A193734",
   "mentions": [
+    "A005053",
+    "A026581",
+    "A081294",
     "A084938",
+    "A133494",
     "A193722",
     "A193735"
   ],
@@ -13,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 52,
+    "size": 55,
     "source": "joeis"
   }
 }

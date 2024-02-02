@@ -2,7 +2,9 @@
   "description": "The bi-unitary gcd-sum function.",
   "id": "A275254",
   "mentions": [
-    "A165430"
+    "A013661",
+    "A165430",
+    "A256392"
   ],
   "tags": [
     "formulas",

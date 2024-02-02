@@ -1,0 +1,41 @@
+{
+  "description": "Square array read by upward antidiagonals: T(n,k) is the n-th number j with the property that the parts of the symmetric representation of sigma(j) are two s-gon of width 1, where s = 2^(k+1), n >= 1, k >= 1.",
+  "id": "A365440",
+  "mentions": [
+    "A008578",
+    "A036563",
+    "A065091",
+    "A071561",
+    "A161344",
+    "A161345",
+    "A161424",
+    "A161835",
+    "A163280",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A239929",
+    "A241008",
+    "A245092",
+    "A246955",
+    "A246956",
+    "A262626",
+    "A362866",
+    "A364639",
+    "A365406"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

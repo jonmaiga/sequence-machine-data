@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n/(2*(p(n+1)-p(n)), where p(n)=n-th prime.",
+  "description": "Primes of the form n/(2*(p(n+1)-p(n))), where p(n)=n-th prime.",
   "id": "A141650",
   "mentions": [
     "A000040"

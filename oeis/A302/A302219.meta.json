@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..1 arrays with every element equal to 1, 2 or 3 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
+  "description": "Number of n X 3 0..1 arrays with every element equal to 1, 2 or 3 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
   "id": "A302219",
   "mentions": [
     "A302224"

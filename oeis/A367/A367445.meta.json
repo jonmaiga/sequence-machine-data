@@ -1,0 +1,19 @@
+{
+  "description": "Number of discrete implications I:L_n^2-> L_n defined on the finite chain L_n={0,1,...n}, which satisfy the contrapositive symmetry with respect to some discrete negation N, i.e., I(x,y) = I(N(y), N(x)), for all x,y in L_n.",
+  "id": "A367445",
+  "mentions": [
+    "A001700",
+    "A360612",
+    "A366540"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

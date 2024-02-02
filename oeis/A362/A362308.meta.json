@@ -2,11 +2,13 @@
   "description": "Triangle read by rows. Number of perfect matchings by number of connected components.",
   "id": "A362308",
   "mentions": [
+    "A000007",
     "A000698",
     "A001147",
     "A177797"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn",
     "tabl"

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) with the coefficient [x^k] of the series (1-x)^(n+1) * sum_{j=0..infinity) *binomial(n+3*j,3*j)*x^j, in row n, column k.",
+  "description": "Triangle T(n,k) with the coefficient [x^k] of the series (1-x)^(n+1) * sum_{j=0..infinity} *binomial(n+3*j,3*j)*x^j, in row n, column k.",
   "id": "A178618",
   "mentions": [
     "A027907",

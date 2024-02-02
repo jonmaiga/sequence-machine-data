@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the lines of a \"normal\" proof (see comments) for the MIU formal system string (theorem) given by A369173(n+1).",
+  "id": "A369409",
+  "mentions": [
+    "A368946",
+    "A369173",
+    "A369408",
+    "A369410",
+    "A369411",
+    "A369414"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

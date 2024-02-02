@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that have no balanced divisors except for 1.",
+  "id": "A367734",
+  "mentions": [
+    "A020492",
+    "A351112"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

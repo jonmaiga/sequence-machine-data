@@ -1,5 +1,5 @@
 {
-  "description": "Product prime(1+((n-1) mod (p-1)), where p ranges over distinct prime divisors of n.",
+  "description": "Product prime(1+((n-1) mod (p-1))), where p ranges over distinct prime divisors of n.",
   "id": "A324291",
   "mentions": [
     "A000040",

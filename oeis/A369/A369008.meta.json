@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A085731(n) / A003557(n).",
+  "id": "A369008",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A083345",
+    "A085731",
+    "A342001",
+    "A342090",
+    "A369009"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

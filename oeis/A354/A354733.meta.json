@@ -2,6 +2,7 @@
   "description": "a(0) = a(1) = 1; a(n) = 2 * Sum_{k=0..n-2} a(k) * a(n-k-2).",
   "id": "A354733",
   "mentions": [
+    "A000108",
     "A007477",
     "A052701",
     "A151374",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

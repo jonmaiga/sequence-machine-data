@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of sequences of binary words (w_1, ..., w_k) such that w_1 corresponds to the binary expansion of n (without leading zeros), for m = 1..k-1, w_{m+1} is obtained by removing one bit from w_m, and w_k is the empty word.",
+  "id": "A368070",
+  "mentions": [
+    "A000225",
+    "A060351",
+    "A367019"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

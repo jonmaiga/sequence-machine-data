@@ -1,0 +1,23 @@
+{
+  "description": "Exponential of Mangoldt function permuted by A243353.",
+  "id": "A369053",
+  "mentions": [
+    "A003188",
+    "A005940",
+    "A014963",
+    "A243353",
+    "A368900",
+    "A369028",
+    "A369029",
+    "A369030"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

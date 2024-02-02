@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = binomial(2*n, n - 1)*(2*n + 1)! / n!.",
+  "id": "A367776",
+  "mentions": [
+    "A000108",
+    "A271703"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

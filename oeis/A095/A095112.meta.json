@@ -2,10 +2,14 @@
   "description": "a(n) is the sum of n/k over all prime powers k > 1 which divide n.",
   "id": "A095112",
   "mentions": [
+    "A000010",
     "A001221",
     "A001222",
+    "A046337",
     "A073093",
-    "A154945"
+    "A116512",
+    "A154945",
+    "A366265"
   ],
   "tags": [
     "formulas",

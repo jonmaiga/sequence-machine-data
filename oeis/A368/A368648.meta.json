@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest increasing sequence of semiprimes such that a(n) + a(n+1) is a semiprime, with a(0) = 4.",
+  "id": "A368648",
+  "mentions": [
+    "A001358",
+    "A361611"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

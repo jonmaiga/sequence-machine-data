@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive integer not already in the sequence whose binary expansion is not the concatenation of any two earlier terms.",
+  "id": "A365018",
+  "mentions": [
+    "A190896",
+    "A364871"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

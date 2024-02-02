@@ -1,0 +1,23 @@
+{
+  "description": "Number of branching factorizations of the primorial inflation of n.",
+  "id": "A366377",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A007317",
+    "A052886",
+    "A108951",
+    "A277120",
+    "A329901",
+    "A366884"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

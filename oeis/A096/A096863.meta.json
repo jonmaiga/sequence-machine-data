@@ -1,5 +1,5 @@
 {
-  "description": "Function A062402(x)=sigma(phi(x) is iterated. Starting with n, a(n) is the count of transient terms of trajectory.",
+  "description": "Function A062402(x)=sigma(phi(x)) is iterated. Starting with n, a(n) is the count of transient terms of trajectory.",
   "id": "A096863",
   "mentions": [
     "A062401",

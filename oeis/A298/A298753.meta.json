@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,m) = Sum_{k=1..m) k*k!*(-1)^(m+k)*Stirling2(m,k)* C(2*n+k-2*m-1,n-m)/(n+k-m), for n >= 0 and 0 <= m <= n.",
+  "description": "Triangle read by rows, T(n,m) = Sum_{k=1..m} k*k!*(-1)^(m+k)*Stirling2(m,k)* C(2*n+k-2*m-1,n-m)/(n+k-m), for n >= 0 and 0 <= m <= n.",
   "id": "A298753",
   "mentions": [
     "A000108",

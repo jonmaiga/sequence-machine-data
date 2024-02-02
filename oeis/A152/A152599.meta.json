@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=10*a(n-1)-12*a(n-2), n>1 ; a(0)=1, a(1)=4 .",
+  "description": "a(n) = 10*a(n-1) - 12*a(n-2) for n > 1; a(0) = 1, a(1) = 4 .",
   "id": "A152599",
   "mentions": [
     "A006012",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

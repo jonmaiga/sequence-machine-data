@@ -1,5 +1,5 @@
 {
-  "description": "Least overpseudoprimes to base 2 a(n) such that the multiplicative order of 2 mod a(n) equals 8n+20.",
+  "description": "a(n) is the least base-2 overpseudoprime k such that the multiplicative order of 2 mod k equals 8*n+20.",
   "id": "A141629",
   "mentions": [
     "A122929",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

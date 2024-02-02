@@ -2,8 +2,10 @@
   "description": "Decimal expansion of 3*zeta(3)/(2*Pi^2), a constant appearing in the asymptotic evaluation of the average LCM of two integers chosen independently from the uniform distribution [1..n].",
   "id": "A240976",
   "mentions": [
+    "A000188",
     "A002117",
     "A013662",
+    "A048250",
     "A048791",
     "A059956"
   ],

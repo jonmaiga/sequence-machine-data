@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(sqrt(log_10(n!))).",
+  "id": "A363743",
+  "mentions": [
+    "A000196",
+    "A034886"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

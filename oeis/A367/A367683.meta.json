@@ -1,0 +1,48 @@
+{
+  "description": "Numbers whose sorted prime signature is the same as the multiset multiplicity kernel of their prime indices.",
+  "id": "A367683",
+  "mentions": [
+    "A000720",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A007947",
+    "A039956",
+    "A051904",
+    "A052409",
+    "A055932",
+    "A056239",
+    "A066328",
+    "A071625",
+    "A072774",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181819",
+    "A181821",
+    "A238747",
+    "A296150",
+    "A304038",
+    "A307539",
+    "A353742",
+    "A367579",
+    "A367580",
+    "A367581",
+    "A367582",
+    "A367583",
+    "A367584",
+    "A367586",
+    "A367587",
+    "A367682"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite squarefree k that are not divisible by 6.",
+  "id": "A367018",
+  "mentions": [
+    "A006881",
+    "A047253",
+    "A120944",
+    "A367455"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

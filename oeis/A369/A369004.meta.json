@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n' / gcd(n,n') is a multiple of 4, otherwise 0, where n' stands for the arithmetic derivative of n, A003415(n).",
+  "id": "A369004",
+  "mentions": [
+    "A003415",
+    "A083345",
+    "A121262",
+    "A353494",
+    "A368994",
+    "A369001",
+    "A369005",
+    "A369006"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

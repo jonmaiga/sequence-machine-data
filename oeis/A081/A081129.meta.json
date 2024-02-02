@@ -1,7 +1,12 @@
 {
   "description": "Differences of Beatty sequence for cube root of 3.",
   "id": "A081129",
-  "mentions": [],
+  "mentions": [
+    "A059539",
+    "A081117",
+    "A081147",
+    "A081168"
+  ],
   "tags": [
     "formulas",
     "nonn"

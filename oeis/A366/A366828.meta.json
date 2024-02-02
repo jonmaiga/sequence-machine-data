@@ -1,0 +1,16 @@
+{
+  "description": "Number of linearly independent solutions to the neighbor sum problem on a 4-dimensional chessboard of length (3n-1).",
+  "id": "A366828",
+  "mentions": [
+    "A366410"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

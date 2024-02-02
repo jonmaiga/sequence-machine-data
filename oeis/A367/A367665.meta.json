@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-sided polygons, for n>=1 and k>=3, in a hexagon when straight line segments connect the n-1 points between each corner that divide each edge into n equal parts to the n-1 points on the edge on the opposite side of the hexagon.",
+  "id": "A367665",
+  "mentions": [
+    "A355801",
+    "A367662",
+    "A367663",
+    "A367664"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

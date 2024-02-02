@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum[ 1/k^p, {k,1,p-1} ]], where p = Prime[n].",
+  "description": "Numerator of Sum[ 1/k^p, {k,1,p-1} ], where p = Prime[n].",
   "id": "A120352",
   "mentions": [
     "A119722",

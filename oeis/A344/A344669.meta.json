@@ -2,20 +2,25 @@
   "description": "a(n) is the number of preference profiles in the stable marriage problem with n men and n women that generate the maximum possible number of stable matchings.",
   "id": "A344669",
   "mentions": [
+    "A010790",
     "A069124",
     "A185141",
     "A344666",
     "A344667",
-    "A344668"
+    "A344668",
+    "A357269",
+    "A357271",
+    "A368433"
   ],
   "tags": [
     "bref",
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

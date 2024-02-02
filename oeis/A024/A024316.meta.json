@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = s(1)*s(n) + s(2)*s(n-1) + ... + s(k)*s(n+1-k), where k = floor((n+1)/2)), s = A023531.",
+  "description": "a(n) = s(1)*s(n) + s(2)*s(n-1) + ... + s(k)*s(n+1-k), where k = floor((n+1)/2), s = A023531.",
   "id": "A024316",
   "mentions": [
     "A023531",

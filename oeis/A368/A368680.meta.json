@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the numbers k less than n and not dividing n such that n-k is squarefree.",
+  "id": "A368680",
+  "mentions": [
+    "A008683",
+    "A368677",
+    "A368679"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

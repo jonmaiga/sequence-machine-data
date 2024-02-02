@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers that have an even number of monotone Bacher representations (A368276).",
+  "id": "A368277",
+  "mentions": [
+    "A368207",
+    "A368276",
+    "A368278"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

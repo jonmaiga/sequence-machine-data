@@ -1,0 +1,16 @@
+{
+  "description": "Positive integers which can be written as a sum of a Zumkeller number and a prime number.",
+  "id": "A368082",
+  "mentions": [
+    "A000040",
+    "A083207"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of times n appears as a term of A105774.",
+  "id": "A368199",
+  "mentions": [
+    "A105774",
+    "A368200"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

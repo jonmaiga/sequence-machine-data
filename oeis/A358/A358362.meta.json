@@ -2,9 +2,11 @@
   "description": "a(n) = 16^n * Sum_{k=0..n} (-1)^k*binomial(-1/2, k)^2.",
   "id": "A358362",
   "mentions": [
+    "A014549",
     "A358363",
     "A358364",
-    "A358365"
+    "A358365",
+    "A367330"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array: R(n,k)=n^3+[(n^3)/2)]+...+[(n^3)/k], where [ ]=floor, by antidiagonals.",
+  "description": "Rectangular array: R(n,k)=n^3+[(n^3)/2]+...+[(n^3)/k], where [ ]=floor, by antidiagonals.",
   "id": "A211785",
   "mentions": [
     "A211701"

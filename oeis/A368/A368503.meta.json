@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of an n-set into blocks of size <= n/2.",
+  "id": "A368503",
+  "mentions": [
+    "A000110",
+    "A110618",
+    "A368502"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,18 @@
 {
-  "description": "a(n) = floor((1/(ceiling(n/2)+1))*binomial(n,floor(n/2))) (interpolates between Catalan numbers).",
+  "description": "a(n) = floor( binomial(n, floor(n/2))/(1 + ceiling(n/2)) ) (interpolates between Catalan numbers).",
   "id": "A028303",
-  "mentions": [],
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A004526"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
-    "source": "joeis"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

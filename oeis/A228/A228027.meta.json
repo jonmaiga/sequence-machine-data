@@ -1,7 +1,8 @@
 {
-  "description": "Primes of the form 4^n + 9.",
+  "description": "Primes of the form 4^k + 9.",
   "id": "A228027",
   "mentions": [
+    "A000040",
     "A057733",
     "A057735",
     "A092506",
@@ -22,11 +23,18 @@
     "A182330",
     "A182331",
     "A217350",
+    "A228026",
+    "A228029",
+    "A228030",
+    "A228031",
+    "A228032",
+    "A228033",
     "A228034",
     "A290200"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

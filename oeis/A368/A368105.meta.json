@@ -1,0 +1,27 @@
+{
+  "description": "The number of bi-unitary divisors of n that are powerful (A001694).",
+  "id": "A368105",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A005361",
+    "A013661",
+    "A062503",
+    "A095691",
+    "A286324",
+    "A323308",
+    "A360721",
+    "A365552"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

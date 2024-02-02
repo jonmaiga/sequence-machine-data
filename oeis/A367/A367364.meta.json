@@ -1,0 +1,23 @@
+{
+  "description": "Record high-points in A330128.",
+  "id": "A367364",
+  "mentions": [
+    "A121805",
+    "A330128",
+    "A330129",
+    "A367365",
+    "A367598",
+    "A367601",
+    "A367602"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

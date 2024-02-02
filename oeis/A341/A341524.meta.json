@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors in A017666(n), counted with multiplicity: a(n) = bigomega(n) - bigomega(gcd(n, sigma(n)).",
+  "description": "Number of prime factors in A017666(n), counted with multiplicity: a(n) = bigomega(n) - bigomega(gcd(n, sigma(n))).",
   "id": "A341524",
   "mentions": [
     "A001222",

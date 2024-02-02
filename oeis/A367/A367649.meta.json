@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the multiplicative order of 3 modulo p is 2 times a power of 3.",
+  "id": "A367649",
+  "mentions": [
+    "A023394",
+    "A367266",
+    "A367648"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

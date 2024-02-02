@@ -1,0 +1,24 @@
+{
+  "description": "Cumulative products of the generalized Clausen numbers. Array read by ascending antidiagonals.",
+  "id": "A368093",
+  "mentions": [
+    "A048803",
+    "A091137",
+    "A160014",
+    "A171080",
+    "A238963",
+    "A368048",
+    "A368092",
+    "A368116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (2^n concatenated with Reverse(2^n))) divided by 11.",
+  "description": "a(n) = (2^n concatenated with Reverse(2^n)) divided by 11.",
   "id": "A084010",
   "mentions": [
     "A084008",

@@ -1,7 +1,10 @@
 {
-  "description": "Primes of the form 3^n+8.",
+  "description": "Primes of the form 3^k + 8.",
   "id": "A102870",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A217136"
+  ],
   "tags": [
     "formulas",
     "nonn"

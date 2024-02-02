@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=a(2)=a(3)=a(4)=a(5)=2; thereafter, a(n) = gpf(1 + Product_{k=1..5}(a(n-k)), where gpf is greatest prime factor.",
+  "description": "a(1)=a(2)=a(3)=a(4)=a(5)=2; thereafter, a(n) = gpf(1 + Product_{k=1..5} a(n-k)), where gpf is greatest prime factor.",
   "id": "A260725",
   "mentions": [
     "A000945",

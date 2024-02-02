@@ -2,14 +2,19 @@
   "description": "a(n) = Sum_{k=0..n} floor(n/(3*k + 1)).",
   "id": "A218442",
   "mentions": [
-    "A001817"
+    "A001620",
+    "A001817",
+    "A218443",
+    "A256425"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 77,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

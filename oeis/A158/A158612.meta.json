@@ -1,5 +1,5 @@
 {
-  "description": "A real part quaternion-Hadamard matrix self-similarity coefficient triangle: m(n)=real(quaternion_Hadamard[2^n)).",
+  "description": "A real part quaternion-Hadamard matrix self-similarity coefficient triangle: m(n)=real(quaternion_Hadamard(2^n)).",
   "id": "A158612",
   "mentions": [],
   "tags": [

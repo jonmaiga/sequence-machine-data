@@ -2,6 +2,7 @@
   "description": "Primes p such that p, p+60, p+120, p+180, p+240 are consecutive primes.",
   "id": "A210727",
   "mentions": [
+    "A058362",
     "A089234",
     "A126771",
     "A210683"

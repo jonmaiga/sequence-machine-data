@@ -2,6 +2,8 @@
   "description": "Decimal expansion of L(3, chi4), where L(s, chi4) is the Dirichlet L-function for the non-principal character modulo 4.",
   "id": "A153071",
   "mentions": [
+    "A003881",
+    "A006752",
     "A101455",
     "A153072",
     "A153073",
@@ -10,7 +12,10 @@
     "A175571",
     "A175572",
     "A233091",
-    "A251809"
+    "A251809",
+    "A258814",
+    "A258815",
+    "A258816"
   ],
   "tags": [
     "cons",

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime of the form (2n)^k +1, or 0 if no such number exists.",
+  "description": "Smallest prime of the form (2n)^k + 1, or 0 if no such number exists.",
   "id": "A084712",
   "mentions": [
     "A002496",
@@ -8,11 +8,12 @@
     "A084713"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
-    "source": "oeis-bfile"
+    "size": 18,
+    "source": "oeis-entry"
   }
 }

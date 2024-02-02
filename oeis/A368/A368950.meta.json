@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with 11 odd divisors.",
+  "id": "A368950",
+  "mentions": [
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237593",
+    "A241008",
+    "A241010",
+    "A249223",
+    "A267983",
+    "A341969",
+    "A367370",
+    "A367377"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

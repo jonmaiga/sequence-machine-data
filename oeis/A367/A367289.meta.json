@@ -1,0 +1,15 @@
+{
+  "description": "Inverse permutation to A367288.",
+  "id": "A367289",
+  "mentions": [
+    "A367288"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

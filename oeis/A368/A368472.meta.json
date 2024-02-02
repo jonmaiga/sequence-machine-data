@@ -1,0 +1,27 @@
+{
+  "description": "Product of exponents of prime factorization of the exponentially odd numbers.",
+  "id": "A368472",
+  "mentions": [
+    "A005361",
+    "A013661",
+    "A065463",
+    "A085629",
+    "A098198",
+    "A268335",
+    "A322327",
+    "A366438",
+    "A366439",
+    "A368473",
+    "A368474"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

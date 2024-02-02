@@ -2,10 +2,14 @@
   "description": "Suppose n has prime factorization n = p1^a1 * p2^a2 * ... * pk^ak. Then a(n) = (-1)^(n1 + n2 + ... + nk) if all the ai are ni^2 and a(n) = 0 otherwise.",
   "id": "A197774",
   "mentions": [
+    "A001222",
     "A197680",
-    "A219009"
+    "A219009",
+    "A357016"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "mult",
     "sign"
   ],

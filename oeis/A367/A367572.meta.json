@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^8*2^k - 1 is a prime.",
+  "id": "A367572",
+  "mentions": [
+    "A000043",
+    "A002234",
+    "A058781",
+    "A367037",
+    "A367102",
+    "A367464",
+    "A367478",
+    "A367561"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the squarefree numbers less than n that do not divide n.",
+  "id": "A368674",
+  "mentions": [
+    "A008683",
+    "A368673"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

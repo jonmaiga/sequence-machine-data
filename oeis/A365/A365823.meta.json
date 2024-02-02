@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of 2*(2 + sqrt(2)).",
+  "id": "A365823",
+  "mentions": [
+    "A000129",
+    "A002193",
+    "A010466",
+    "A014176",
+    "A049310",
+    "A057084",
+    "A086178",
+    "A090488",
+    "A156035",
+    "A157258",
+    "A157259",
+    "A163960"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

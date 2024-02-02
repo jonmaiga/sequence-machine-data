@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with a unique submultiset summing to k.",
+  "id": "A367108",
+  "mentions": [
+    "A000041",
+    "A002219",
+    "A027336",
+    "A046663",
+    "A108917",
+    "A122768",
+    "A275972",
+    "A299702",
+    "A299729",
+    "A301854",
+    "A304792",
+    "A304796",
+    "A364272",
+    "A364911",
+    "A365543",
+    "A365658",
+    "A365661",
+    "A365663",
+    "A366754",
+    "A367094"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

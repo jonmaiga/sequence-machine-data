@@ -1,0 +1,30 @@
+{
+  "description": "The number of exponential divisors of n that are exponentially odd numbers (A268335).",
+  "id": "A368979",
+  "mentions": [
+    "A001227",
+    "A008578",
+    "A049419",
+    "A055076",
+    "A138302",
+    "A268335",
+    "A322483",
+    "A322791",
+    "A359411",
+    "A363825",
+    "A367516",
+    "A368977",
+    "A368980"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Let PG(n) be the graph with one node for each free n-celled polyomino and edges between nodes corresponding to polyominoes that can be obtained from each other by moving one cell, where the intermediate (the set of cells remaining when the cell to be moved is detached) is required to be a (connected) polyomino. a(n) is the number of edges in PG(n).",
+  "id": "A367435",
+  "mentions": [
+    "A000105",
+    "A098891",
+    "A367436",
+    "A367437",
+    "A367438",
+    "A367439",
+    "A367440",
+    "A367441",
+    "A367443"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

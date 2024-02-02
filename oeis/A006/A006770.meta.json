@@ -2,7 +2,8 @@
   "description": "Number of fixed n-celled polyominoes which need only touch at corners.",
   "id": "A006770",
   "mentions": [
-    "A030222"
+    "A030222",
+    "A366767"
   ],
   "tags": [
     "hard",

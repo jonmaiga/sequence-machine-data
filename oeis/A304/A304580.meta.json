@@ -1,5 +1,5 @@
 {
-  "description": "Period length 16: repeat 1,8,3,6,5,4,7,2,9,0,7,2,5,4,3,6.",
+  "description": "Period 16: repeat 1,8,3,6,5,4,7,2,9,0,7,2,5,4,3,6.",
   "id": "A304580",
   "mentions": [
     "A172423",

@@ -1,14 +1,17 @@
 {
-  "description": "Number of proper divisors of form 4k+1.",
+  "description": "Number of proper divisors of n of the form 4k+1.",
   "id": "A293451",
   "mentions": [
+    "A001620",
     "A001826",
     "A091954",
     "A121262",
+    "A256778",
     "A293513",
     "A293901"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

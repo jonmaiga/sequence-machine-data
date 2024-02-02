@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form 12*m-1 for which there is no representation as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "id": "A369463",
+  "mentions": [
+    "A016789",
+    "A017653",
+    "A369054",
+    "A369055",
+    "A369056",
+    "A369248",
+    "A369251",
+    "A369462",
+    "A369464"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

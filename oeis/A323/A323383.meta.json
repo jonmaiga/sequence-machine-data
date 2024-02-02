@@ -1,9 +1,10 @@
 {
-  "description": "Positive integers k such that tau(k) >= k/2.",
+  "description": "Positive integers k such that tau(k) >= k/2, where tau(k) = A000005(k).",
   "id": "A323383",
   "mentions": [
     "A000005",
-    "A018253"
+    "A018253",
+    "A368523"
   ],
   "tags": [
     "fini",

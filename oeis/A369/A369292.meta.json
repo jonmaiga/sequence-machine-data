@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) = -A(n-1,k) + (k+1)*A(n-1,k+1) + A(n-1,k+2) with A(0,k) = 1, n >= 0, k >= 0.",
+  "id": "A369292",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A014206",
+    "A144085"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

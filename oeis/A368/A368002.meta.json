@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the least probability that a particular fixed polyomino with n cells appears as the image of a simple random walk on the square lattice.",
+  "id": "A368002",
+  "mentions": [
+    "A367996",
+    "A368000",
+    "A368001",
+    "A368003",
+    "A368004"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

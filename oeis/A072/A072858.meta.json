@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 1/p has a square period length.",
+  "description": "Primes p such that the period of the decimal expansion of 1/p is a square.",
   "id": "A072858",
   "mentions": [
     "A002371"

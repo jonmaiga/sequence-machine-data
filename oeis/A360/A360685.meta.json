@@ -1,7 +1,9 @@
 {
   "description": "Number of maximum independent vertex sets in the n-halved cube graph Q_n/2.",
   "id": "A360685",
-  "mentions": [],
+  "mentions": [
+    "A290606"
+  ],
   "tags": [
     "hard",
     "more",

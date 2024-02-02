@@ -1,5 +1,5 @@
 {
-  "description": "Array read by anti-diagonals downwards where A(n,k) is the number of ways to write n as a nonnegative linear combination of an integer partition of k.",
+  "description": "Array read by antidiagonals downwards where A(n,k) is the number of ways to write n as a nonnegative linear combination of an integer partition of k.",
   "id": "A365004",
   "mentions": [
     "A000007",
@@ -33,7 +33,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

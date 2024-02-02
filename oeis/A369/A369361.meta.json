@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are not products of primorials.",
+  "id": "A369361",
+  "mentions": [
+    "A000027",
+    "A000079",
+    "A002110",
+    "A005408",
+    "A025487",
+    "A046523",
+    "A056808",
+    "A080259",
+    "A093373"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

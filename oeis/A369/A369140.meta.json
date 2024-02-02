@@ -1,0 +1,49 @@
+{
+  "description": "Number of labeled loop-graphs covering {1..n} such that it is possible to choose a different vertex from each edge (choosable).",
+  "id": "A369140",
+  "mentions": [
+    "A000085",
+    "A000169",
+    "A000272",
+    "A000666",
+    "A002494",
+    "A003465",
+    "A006125",
+    "A006129",
+    "A006649",
+    "A054548",
+    "A062740",
+    "A088957",
+    "A100861",
+    "A111924",
+    "A116508",
+    "A133686",
+    "A137916",
+    "A322661",
+    "A322700",
+    "A333331",
+    "A367862",
+    "A367863",
+    "A367869",
+    "A368596",
+    "A368924",
+    "A368927",
+    "A368984",
+    "A369141",
+    "A369142",
+    "A369145",
+    "A369194",
+    "A369197",
+    "A369199"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

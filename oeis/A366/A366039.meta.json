@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of cells of dimension k in the moduli space of tropical curves of genus n.",
+  "id": "A366039",
+  "mentions": [
+    "A005967",
+    "A174224"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

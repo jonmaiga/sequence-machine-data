@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of the maximum expected number of steps of a random walk on the cells of the triangular lattice before it lands on a mined cell, given that all but n cells are mined.",
+  "id": "A369371",
+  "mentions": [
+    "A366999",
+    "A369369",
+    "A369370"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

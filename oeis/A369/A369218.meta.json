@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into prime power parts (including 1) not greater than sqrt(n).",
+  "id": "A369218",
+  "mentions": [
+    "A023893",
+    "A097356",
+    "A369219"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 78557 (the first Sierpinski number); thereafter a(n+1) = Od(3*5*7*13*19*37*73 - a(n)), where Od(m) is the odd part of m.",
+  "id": "A368560",
+  "mentions": [
+    "A000265",
+    "A076336",
+    "A101036"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

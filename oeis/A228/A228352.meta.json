@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, giving antidiagonals of an array of sequences representing the number of compositions of n when there are N types of ones (the sequences in the array begin (1, N, ...).",
+  "description": "Triangle read by rows, giving antidiagonals of an array of sequences representing the number of compositions of n when there are N types of ones (the sequences in the array begin (1, N, ...)).",
   "id": "A228352",
   "mentions": [
     "A001519",

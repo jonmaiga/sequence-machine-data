@@ -1,0 +1,17 @@
+{
+  "description": "Length of cycles obtained by repeated application of the strip bijection for the triangular lattice (A367147), sorted by increasing minimum radius visited by any cycle of this length.",
+  "id": "A367149",
+  "mentions": [
+    "A307014",
+    "A367147",
+    "A367148"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

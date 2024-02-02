@@ -1,14 +1,17 @@
 {
-  "description": "E.g.f.: exp(x)/sqrt(2-exp(2*x)).",
+  "description": "Expansion of e.g.f. exp(x)/sqrt(2-exp(2*x)).",
   "id": "A124212",
   "mentions": [
     "A000629",
     "A000984",
+    "A014307",
     "A124214",
     "A145901",
     "A176785",
     "A186695",
-    "A229558"
+    "A229558",
+    "A276371",
+    "A365777"
   ],
   "tags": [
     "easy",

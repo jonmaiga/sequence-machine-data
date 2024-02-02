@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability that the T tetromino appears when the 4th cell is added in diffusion-limited aggregation on the square lattice.",
+  "id": "A368667",
+  "mentions": [
+    "A368660",
+    "A368665",
+    "A368666",
+    "A368668",
+    "A368669"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

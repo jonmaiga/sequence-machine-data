@@ -1,0 +1,16 @@
+{
+  "description": "The number of ways of tiling the n X n torus up to matrix transposition by a tile that is asymmetric with respect to matrix transposition.",
+  "id": "A367530",
+  "mentions": [
+    "A103488",
+    "A255015"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Powers of superprimorials.",
+  "id": "A368507",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A006939",
+    "A025487",
+    "A126706",
+    "A246547",
+    "A286708",
+    "A364710",
+    "A364930",
+    "A368508"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

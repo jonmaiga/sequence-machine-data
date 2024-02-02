@@ -1,9 +1,10 @@
 {
-  "description": "The sequence k(m) defined in A005991.",
+  "description": "The sequence {k(m)} defined in A005991.",
   "id": "A155934",
   "mentions": [
     "A003509",
-    "A005991"
+    "A005991",
+    "A368941"
   ],
   "tags": [
     "formulas",

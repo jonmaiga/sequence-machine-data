@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which A342001(k) is squarefree.",
+  "id": "A368902",
+  "mentions": [
+    "A005117",
+    "A342001",
+    "A368904",
+    "A368912"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected graphs with loops (symmetric relations) on n unlabeled vertices with n edges.",
+  "id": "A368983",
+  "mentions": [
+    "A000081",
+    "A001429",
+    "A027852",
+    "A068051",
+    "A283755",
+    "A322114",
+    "A368951",
+    "A368984"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Numbers with binary representation ending in 4*k+2 or 4*k+3 zeros.",
   "id": "A217319",
   "mentions": [
+    "A007814",
     "A050376",
     "A145204",
     "A171949",

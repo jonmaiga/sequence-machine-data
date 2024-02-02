@@ -1,5 +1,5 @@
 {
-  "description": "Odd abundant numbers (odd numbers n whose sum of divisors exceeds 2n).",
+  "description": "Odd abundant numbers (odd numbers m whose sum of divisors exceeds 2m).",
   "id": "A005231",
   "mentions": [
     "A000203",

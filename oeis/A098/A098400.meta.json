@@ -1,10 +1,13 @@
 {
-  "description": "a(n) = 4^n*binomial(2n+1, n).",
+  "description": "a(n) = 4^n*binomial(2*n+1, n).",
   "id": "A098400",
   "mentions": [
+    "A000108",
+    "A001700",
     "A069720",
     "A069723",
-    "A098399"
+    "A098399",
+    "A151403"
   ],
   "tags": [
     "easy",
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "joeis"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

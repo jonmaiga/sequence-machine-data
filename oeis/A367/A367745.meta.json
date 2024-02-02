@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which occur anywhere in A367795, i.e. in lists L(k) where L(1) = [1,0] and L(k+1) is obtained from L(k) by inserting their binary concatenation between elements x,y.",
+  "id": "A367745",
+  "mentions": [
+    "A000010",
+    "A367795"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

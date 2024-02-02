@@ -1,5 +1,5 @@
 {
-  "description": "Nonhomogeneous Beatty sequence: ceiling((n - 1/2)*Pi))",
+  "description": "Nonhomogeneous Beatty sequence: ceiling((n - 1/2)*Pi).",
   "id": "A257984",
   "mentions": [
     "A062380",

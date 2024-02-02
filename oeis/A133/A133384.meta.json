@@ -2,16 +2,19 @@
   "description": "Numbers with n 0's between 1 and 2.",
   "id": "A133384",
   "mentions": [
-    "A052148"
+    "A004086",
+    "A052148",
+    "A126109"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

@@ -1,9 +1,11 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0,...,n} and w",
+  "description": "Number of triples (w,x,y) with all terms in {0,...,n} and w >= floor((x+y)/3).",
   "id": "A212972",
   "mentions": [
+    "A011379",
     "A212959",
-    "A212971"
+    "A212971",
+    "A212973"
   ],
   "tags": [
     "easy",

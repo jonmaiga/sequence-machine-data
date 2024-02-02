@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = numerator of AM(n)-HM(n), where AM(n) and HM(n) are the arithmetic and harmonic means of the first n positive integers.",
+  "id": "A368372",
+  "mentions": [
+    "A102928",
+    "A175441",
+    "A368366",
+    "A368373"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

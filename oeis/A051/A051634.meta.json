@@ -1,9 +1,10 @@
 {
-  "description": "Strong primes: prime(n) > (prime(n-1) + prime(n+1))/2.",
+  "description": "Strong primes: prime(k) > (prime(k-1) + prime(k+1))/2.",
   "id": "A051634",
   "mentions": [
     "A006562",
     "A051635",
+    "A131499",
     "A178943",
     "A225493",
     "A229832"

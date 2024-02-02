@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: log( 1 + x^2 * exp(x) / 2 ).",
+  "description": "Expansion of e.g.f. log( 1 + x^2 * exp(x) / 2 ).",
   "id": "A346750",
   "mentions": [
     "A000217",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

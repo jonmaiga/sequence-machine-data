@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tau(sigma(n)) = rad(n)",
+  "description": "Numbers k such that tau(sigma(k)) = rad(k).",
   "id": "A173581",
   "mentions": [
     "A000005",

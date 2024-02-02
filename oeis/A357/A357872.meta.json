@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n * (3/2)^((v(n, 2) - v(n, 3)) where v(n, k) = valuation(n, k) mod 2 for n > 0.",
+  "description": "a(n) = n * (3/2)^(v(n, 2) - v(n, 3)) where v(n, k) = valuation(n, k) mod 2 for n > 0.",
   "id": "A357872",
   "mentions": [
     "A007814",

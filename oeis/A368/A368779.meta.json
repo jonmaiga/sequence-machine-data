@@ -1,0 +1,19 @@
+{
+  "description": "The number of prime factors of the cubefree numbers, counted with multiplicity.",
+  "id": "A368779",
+  "mentions": [
+    "A001222",
+    "A004709",
+    "A072047"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

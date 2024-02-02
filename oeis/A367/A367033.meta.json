@@ -1,0 +1,19 @@
+{
+  "description": "Von Neumann ordinals in bracket notation encoded by binary bits: '{' -> 0, '}'-> 1.",
+  "id": "A367033",
+  "mentions": [
+    "A092124",
+    "A308187",
+    "A333447"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

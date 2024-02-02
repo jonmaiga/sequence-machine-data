@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^(n-k) * k^n.",
+  "id": "A368270",
+  "mentions": [
+    "A031971",
+    "A120485",
+    "A309419",
+    "A349963"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "Number of divisors of n^2 is a square.",
+  "description": "Numbers k such that the number of divisors of k^2 is a square.",
   "id": "A063774",
   "mentions": [
     "A000290",
-    "A048691"
+    "A030229",
+    "A048691",
+    "A238748"
   ],
   "tags": [
     "easy",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

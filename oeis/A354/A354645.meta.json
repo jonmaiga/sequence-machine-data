@@ -1,7 +1,9 @@
 {
   "description": "G.f. A(x) satisfies: -x = Sum_{n=-oo..+oo} (-1)^n * x^(n*(n-1)/2) * A(x)^n.",
   "id": "A354645",
-  "mentions": [],
+  "mentions": [
+    "A369086"
+  ],
   "tags": [
     "formulas",
     "nonn"

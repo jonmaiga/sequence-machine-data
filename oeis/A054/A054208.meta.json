@@ -1,5 +1,5 @@
 {
-  "description": "Consider all integer triples (i,j,k), j >= k>0, with i^3=binomial(j+2,3)+binomial(k+2,3), ordered by increasing i; sequence gives i values.",
+  "description": "Consider all integer triples (i,j,k), j >= k > 0, with i^3 = binomial(j+2,3) + binomial(k+2,3), ordered by increasing i; sequence gives i values.",
   "id": "A054208",
   "mentions": [
     "A000292",

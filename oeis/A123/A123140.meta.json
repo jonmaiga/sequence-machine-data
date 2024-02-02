@@ -1,7 +1,8 @@
 {
-  "description": "Number of benzenoids with 23 hexagons, D_(2h) symmetry and containing n carbon atoms.",
+  "description": "Number of benzenoids with 23 hexagons, D_(2h) symmetry and containing 2n carbon atoms.",
   "id": "A123140",
   "mentions": [
+    "A121211",
     "A121964",
     "A122539",
     "A122736",
@@ -11,11 +12,14 @@
     "A123106"
   ],
   "tags": [
+    "fini",
+    "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 64,
-    "size": 15,
+    "offset": 32,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

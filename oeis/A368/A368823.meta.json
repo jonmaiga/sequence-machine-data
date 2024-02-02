@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = A055231(a(n-1) * n), where A055231(k) is the powerfree part of k.",
+  "id": "A368823",
+  "mentions": [
+    "A005117",
+    "A055231",
+    "A124010",
+    "A368825"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

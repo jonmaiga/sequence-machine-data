@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. G(x,y) = Integral C(x,y)*S(y,x) dx such that C(x,y)^2 + S(x,y)^2 = 1 and S(y,x) = Integral C(x,y)*C(y,x) dy, as a triangle of coefficients T(n,k) read by rows.",
+  "id": "A367382",
+  "mentions": [
+    "A322222",
+    "A367380",
+    "A367381"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = greatest k such that H(k) - H(6) < H(6) - H(3); a(2) = greatest k such that H(k) - H(a(1)) < H(a(1)) - H(6), and for n > 2, a(n) = greatest k such that H(k) - H(a(n-1) > H(a(n-1)) - H(a(n-2)), where H = harmonic number.",
+  "description": "a(1) = greatest k such that H(k) - H(6) < H(6) - H(3); a(2) = greatest k such that H(k) - H(a(1)) < H(a(1)) - H(6), and for n > 2, a(n) = greatest k such that H(k) - H(a(n-1)) > H(a(n-1)) - H(a(n-2)), where H = harmonic number.",
   "id": "A227816",
   "mentions": [
     "A001008",

@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by descending diagonals: (-1)^n*T(n,k)/n! is the coefficient of x^(2*n+1) in the Taylor expansion of the k-th iteration of sin(x).",
+  "id": "A366834",
+  "mentions": [
+    "A000447",
+    "A003712",
+    "A003715",
+    "A051624",
+    "A160562",
+    "A258018",
+    "A258019",
+    "A285018",
+    "A285019",
+    "A366827"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

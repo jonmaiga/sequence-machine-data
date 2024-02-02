@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k), n>=0 and k>=0: Stern's diatonic array read by antidiagonals (version 5).",
+  "description": "Table T(n,k), n>=0 and k>=0: Stern's diatomic array read by antidiagonals (version 5).",
   "id": "A089595",
   "mentions": [
     "A002487",

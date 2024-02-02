@@ -1,8 +1,9 @@
 {
-  "description": "Triangle, read by rows, defined by f[i, k, l] = binomial(k-l, i - Min(k, l))/2^(k-l), then T(n, m) = f(n, 0, m).",
+  "description": "T(n, m) = 2^m * binomial(-m, n), for 0 <= m <= n, n >= 0, triangle read by rows.",
   "id": "A122496",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "sign",
     "tabl"

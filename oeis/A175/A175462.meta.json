@@ -1,12 +1,14 @@
 {
-  "description": "Number of divisors of integers of form 5 + 8n.",
+  "description": "Number of divisors of integers of the form 5 + 8n.",
   "id": "A175462",
   "mentions": [
     "A000005",
+    "A001620",
     "A004770",
     "A007521"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

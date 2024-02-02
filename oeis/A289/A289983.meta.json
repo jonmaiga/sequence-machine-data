@@ -1,10 +1,12 @@
 {
-  "description": "Prime numbers of the form 3^k - 32.",
+  "description": "Primes of the form 3^k - 32.",
   "id": "A289983",
   "mentions": [
+    "A000040",
     "A219049"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

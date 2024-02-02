@@ -1,0 +1,22 @@
+{
+  "description": "Comma transform of the nonnegative integers.",
+  "id": "A367362",
+  "mentions": [
+    "A000030",
+    "A010879",
+    "A166499",
+    "A367360",
+    "A367361",
+    "A368362"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Position of A002110(n) in A005117.",
+  "id": "A365435",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A071172"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

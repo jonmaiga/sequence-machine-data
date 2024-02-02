@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of the squares of the area under Dyck paths of length 2*n.",
+  "id": "A367780",
+  "mentions": [
+    "A000108",
+    "A008549"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

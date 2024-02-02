@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that, from all indices n with the same a(n) value, the terms reached by a single jump are all distinct, where jumps are allowed from location i to i+-a(i).",
+  "id": "A369475",
+  "mentions": [
+    "A367467",
+    "A367832",
+    "A367849",
+    "A368485"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

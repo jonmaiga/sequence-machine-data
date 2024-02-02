@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of Fibonacci binary words of length n and having k runs of 1's (n >= 0, 0 <= k <= floor((n+1)/2))). A Fibonacci binary word is a binary word having no 00 subword. A run of 1's is a maximal subword of the form 11..1.",
+  "description": "Triangle read by rows: T(n,k) is the number of Fibonacci binary words of length n and having k runs of 1's (n >= 0, 0 <= k <= floor((n+1)/2)). A Fibonacci binary word is a binary word having no 00 subword. A run of 1's is a maximal subword of the form 11..1.",
   "id": "A129718",
   "mentions": [
     "A000045",

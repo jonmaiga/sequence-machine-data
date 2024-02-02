@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(1/2)*Sum{|d(i)-e(i)|} where Sum{d(i)*10^i) is the base 10 representation of n and e(i) are the digits d(i) in nondecreasing order.",
+  "description": "a(n)=(1/2)*Sum{|d(i)-e(i)|} where Sum{d(i)*10^i} is the base 10 representation of n and e(i) are the digits d(i) in nondecreasing order.",
   "id": "A037887",
   "mentions": [
     "A037878"

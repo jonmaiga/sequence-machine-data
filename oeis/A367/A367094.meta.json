@@ -1,0 +1,41 @@
+{
+  "description": "Irregular triangle read by rows with trailing zeros removed where T(n,k) is the number of integer partitions of 2n whose number of submultisets summing to n is k.",
+  "id": "A367094",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002219",
+    "A006827",
+    "A046663",
+    "A058696",
+    "A064914",
+    "A079122",
+    "A108917",
+    "A122768",
+    "A182616",
+    "A213074",
+    "A231429",
+    "A235130",
+    "A237194",
+    "A237258",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A304792",
+    "A357879",
+    "A357976",
+    "A365543",
+    "A366321",
+    "A366530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

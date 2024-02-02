@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of sum(1/A112373(k)): k=0..n), denominators = A112373.",
+  "description": "Numerators of sum(1/A112373(k): k=0..n), denominators = A112373.",
   "id": "A259644",
   "mentions": [
     "A112373"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n)= Sum_{i=1..n} A098168(i).",
+  "description": "a(n) = Sum_{i=1..n} A098168(i).",
   "id": "A098169",
   "mentions": [
     "A005235",

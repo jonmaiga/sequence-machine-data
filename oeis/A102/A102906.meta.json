@@ -1,8 +1,12 @@
 {
-  "description": "Primes of the form 3^n+28=3^n+27+1.",
+  "description": "Primes of the form 3^k + 28.",
   "id": "A102906",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A219046"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

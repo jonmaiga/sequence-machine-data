@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of symbols of a \"normal\" proof (see comments) for strings (theorems) in the MIU formal system that are n characters long.",
+  "id": "A369413",
+  "mentions": [
+    "A024495",
+    "A368946",
+    "A369173",
+    "A369409",
+    "A369411",
+    "A369412"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both n^2+1 and 2^n + 1 are semiprimes.",
+  "description": "Numbers k such that both k^2+1 and 2^k + 1 are semiprimes.",
   "id": "A115398",
   "mentions": [
     "A085722",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

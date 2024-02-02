@@ -1,7 +1,9 @@
 {
   "description": "30th cyclotomic polynomial.",
   "id": "A011633",
-  "mentions": [],
+  "mentions": [
+    "A014039"
+  ],
   "tags": [
     "fini",
     "full",

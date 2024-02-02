@@ -1,11 +1,12 @@
 {
-  "description": "Concatenation of P{1},P{1,2},P{1,2,3}... (P(A) denote the power set of A ordered by the size of the subsets, and in each subset, following the increasing order.",
+  "description": "Concatenation of P{1},P{1,2},P{1,2,3}... where P(A) denotes the power set of A ordered by the size of the subsets, and in each subset, following the increasing order.",
   "id": "A193360",
   "mentions": [
     "A082185"
   ],
   "tags": [
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,

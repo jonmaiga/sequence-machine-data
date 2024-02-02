@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 3^n mod 28.",
   "id": "A070357",
-  "mentions": [],
+  "mentions": [
+    "A000244"
+  ],
   "tags": [
     "easy",
     "formulas",

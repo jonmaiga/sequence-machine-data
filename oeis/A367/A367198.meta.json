@@ -1,0 +1,23 @@
+{
+  "description": "T(n, k) = Sum_{m = 0..n-1} Stirling1(m+1, k)*binomial(n, m)*(-1)^(n + k), where \"Stirling1\" are the signed Stirling numbers of the first kind.",
+  "id": "A367198",
+  "mentions": [
+    "A000027",
+    "A002411",
+    "A002467",
+    "A008275",
+    "A048993",
+    "A180191",
+    "A321331"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -20,14 +20,19 @@
     "A035203",
     "A035210",
     "A035215",
-    "A035219"
+    "A035219",
+    "A038902",
+    "A191022"
   ],
   "tags": [
+    "easy",
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

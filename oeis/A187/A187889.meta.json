@@ -1,5 +1,5 @@
 {
-  "description": "Riordan matrix (1/(1-x-x^2-x^3),(x+x^2+x^3)/(1-x-x^2-x^3).",
+  "description": "Riordan matrix (1/(1-x-x^2-x^3),(x+x^2+x^3)/(1-x-x^2-x^3)).",
   "id": "A187889",
   "mentions": [
     "A027907",

@@ -1,5 +1,5 @@
 {
-  "description": "Mod[2^sigma(n),n].",
+  "description": "a(n) = 2^sigma(n) mod n.",
   "id": "A073816",
   "mentions": [
     "A000203",

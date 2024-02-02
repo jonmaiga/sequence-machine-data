@@ -1,5 +1,5 @@
 {
-  "description": "Last nonzero decimal digit of (10^10^n)!",
+  "description": "Last nonzero decimal digit of (10^10^n)!.",
   "id": "A178969",
   "mentions": [
     "A008904",
@@ -7,14 +7,13 @@
   ],
   "tags": [
     "base",
-    "bref",
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

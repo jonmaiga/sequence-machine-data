@@ -1,0 +1,27 @@
+{
+  "description": "The number of exponentially odd divisors d of n such that n/d is also exponentially odd.",
+  "id": "A369307",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A005117",
+    "A062503",
+    "A268335",
+    "A295316",
+    "A322483",
+    "A365173",
+    "A366308",
+    "A369308"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

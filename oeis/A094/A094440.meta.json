@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array T(n,k) = Fibonacci(n+1-k)*C(n,k-1), k = 1..n; n >= 1.",
+  "description": "Triangular array read by rows: T(n,k) = Fibonacci(n+1-k)*C(n,k-1), k = 1..n; n >= 1.",
   "id": "A094440",
   "mentions": [
     "A000032",
@@ -18,7 +18,11 @@
     "A094443",
     "A094444",
     "A099453",
-    "A132148"
+    "A132148",
+    "A367208",
+    "A367209",
+    "A367210",
+    "A367211"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n + 13 is prime.",
+  "description": "Numbers k such that 2^k + 13 is prime.",
   "id": "A102634",
   "mentions": [
     "A019434",
@@ -13,9 +13,11 @@
     "A057732",
     "A059242",
     "A102633",
-    "A141550"
+    "A141550",
+    "A253772"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that binomial(2*k,k) mod k is odd.",
+  "id": "A367782",
+  "mentions": [
+    "A014847",
+    "A059288"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

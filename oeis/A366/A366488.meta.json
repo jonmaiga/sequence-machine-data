@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n^11 - n)/11.",
+  "id": "A366488",
+  "mentions": [
+    "A000217",
+    "A007290",
+    "A208536",
+    "A208537",
+    "A366489",
+    "A366490",
+    "A366491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

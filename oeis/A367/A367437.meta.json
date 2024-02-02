@@ -1,0 +1,19 @@
+{
+  "description": "Maximum degree of the polyomino graph PG(n) defined in A367435.",
+  "id": "A367437",
+  "mentions": [
+    "A367124",
+    "A367435",
+    "A367438"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

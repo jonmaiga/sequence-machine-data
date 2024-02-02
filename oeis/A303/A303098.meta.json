@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..1 arrays with every element equal to 1, 2, 3, 4 or 6 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
+  "description": "Number of n X 4 0..1 arrays with every element equal to 1, 2, 3, 4 or 6 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
   "id": "A303098",
   "mentions": [
     "A303102"

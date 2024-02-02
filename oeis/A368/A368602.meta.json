@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of labeled acyclic digraphs on {1..n} with sinks {1..k}.",
+  "id": "A368602",
+  "mentions": [
+    "A000169",
+    "A000225",
+    "A000612",
+    "A003024",
+    "A003025",
+    "A003087",
+    "A058877",
+    "A058891",
+    "A059201",
+    "A082402",
+    "A088957",
+    "A134531",
+    "A323818",
+    "A323819",
+    "A334282",
+    "A350415",
+    "A361718",
+    "A367862",
+    "A367904",
+    "A367908",
+    "A368600",
+    "A368601"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

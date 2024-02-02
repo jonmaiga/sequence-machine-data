@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = exp( Sum(n>=1} C(2*n,n)/2 * A(x^n) * x^n/n ).",
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} C(2*n,n)/2 * A(x^n) * x^n/n ).",
   "id": "A199137",
   "mentions": [
     "A000108"

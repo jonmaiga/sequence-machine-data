@@ -2,6 +2,7 @@
   "description": "Number of unlabeled n-vertex graphs for which the lights out puzzle has a unique solution.",
   "id": "A334444",
   "mentions": [
+    "A141040",
     "A334443"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

@@ -1,8 +1,12 @@
 {
-  "description": "Primes of the form 2^n + 33.",
+  "description": "Primes of the form 2^k + 33.",
   "id": "A176926",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A247953"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

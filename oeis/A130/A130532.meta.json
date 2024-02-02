@@ -1,9 +1,8 @@
 {
-  "description": "a(n) + a(n - 1) is alternatively a square or a cube.",
+  "description": "a(n) + a(n - 1) is alternatively a square or a cube, a(1) = 1.",
   "id": "A130532",
   "mentions": [],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

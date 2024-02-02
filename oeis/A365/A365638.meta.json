@@ -1,0 +1,28 @@
+{
+  "description": "Triangular array read by rows: T(n, k) is the number of ways that a k-element transitive tournament can occur as a subtournament of a larger tournament on n labeled vertices.",
+  "id": "A365638",
+  "mentions": [
+    "A002866",
+    "A006125",
+    "A052670",
+    "A095340",
+    "A103904",
+    "A122027",
+    "A224886",
+    "A259105",
+    "A350608",
+    "A350609",
+    "A350610"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

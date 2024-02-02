@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers for which gcd(A325977(n), A325978(n)) is equal to abs(A325978(n)).",
+  "description": "Odd numbers k for which gcd(A325977(k), A325978(k)) is equal to abs(A325978(k)).",
   "id": "A325979",
   "mentions": [
     "A034448",

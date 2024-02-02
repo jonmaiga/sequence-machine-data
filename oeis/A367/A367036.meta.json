@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct bracelets of length n (A000029) that eventually result in a cycle with length 2 or greater when used as the starting conditions for a rule 161 cellular automaton in a cyclic universe of circumference n.",
+  "id": "A367036",
+  "mentions": [
+    "A000029",
+    "A334506"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

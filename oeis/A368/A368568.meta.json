@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the Wolf-Kawalec constant of index 2.",
+  "id": "A368568",
+  "mentions": [
+    "A001620",
+    "A073002",
+    "A086279",
+    "A201994",
+    "A368547",
+    "A368551"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

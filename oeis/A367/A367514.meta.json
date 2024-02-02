@@ -1,0 +1,35 @@
+{
+  "description": "The exponentially odious part of n: the largest unitary divisor of n that is an exponentially odious number (A270428).",
+  "id": "A367514",
+  "mentions": [
+    "A000069",
+    "A001221",
+    "A010060",
+    "A034444",
+    "A056192",
+    "A102392",
+    "A262675",
+    "A270418",
+    "A270428",
+    "A293439",
+    "A350388",
+    "A350389",
+    "A366901",
+    "A366903",
+    "A366905",
+    "A367168",
+    "A367513",
+    "A367515"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

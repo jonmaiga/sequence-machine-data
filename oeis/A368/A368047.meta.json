@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (-1)^n * n*(n + 1)*(2*n + (-1)^n * (4*n + 5) + 1) / 12.",
+  "id": "A368047",
+  "mentions": [
+    "A368045",
+    "A368046"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of free treelike midpoint-free polycubes of size n, identifying rotations and reflections.",
+  "id": "A368031",
+  "mentions": [
+    "A304196",
+    "A368029"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

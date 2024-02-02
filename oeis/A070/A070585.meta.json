@@ -1,5 +1,5 @@
 {
-  "description": "n^4 mod 42.",
+  "description": "a(n) = n^4 mod 42.",
   "id": "A070585",
   "mentions": [],
   "tags": [

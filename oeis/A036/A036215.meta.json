@@ -1,5 +1,5 @@
 {
-  "description": "Binary reversal of 3^n",
+  "description": "Binary reversal of 3^n.",
   "id": "A036215",
   "mentions": [
     "A000244",

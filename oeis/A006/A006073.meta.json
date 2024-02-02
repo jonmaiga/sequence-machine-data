@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n, n+1 and n+2 all have same number of distinct prime divisors.",
+  "description": "Numbers k such that k, k+1 and k+2 all have the same number of distinct prime divisors.",
   "id": "A006073",
   "mentions": [
+    "A001221",
     "A006049",
     "A045932",
     "A364265",

@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n > 1, a(n) = a(n-1) - GCT(a(n-2),a(n-1)) if nonnegative and not already in the sequence, else a(n) = a(n-1) + CT(a(n-2),a(n-1)), where CT(a,b) is the Comma transform (cf. A367360) of a and b, while GCT(a,b) is the largest possible generalized Command transform (cf. A367635) where at least one digit of both a and b can be chosen.",
+  "id": "A367646",
+  "mentions": [
+    "A005132",
+    "A121805",
+    "A367360",
+    "A367578",
+    "A367635"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

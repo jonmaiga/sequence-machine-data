@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), read by rows, of the coefficients of x^k in the expansion of Sum_(m=0..n) binomial(x,m)) = (a(k)*x^k)/n!, n >= 0, 0 <= k <= n.",
+  "description": "Triangle T(n,k), read by rows, of the coefficients of x^k in the expansion of Sum_(m=0..n) binomial(x,m) = (a(k)*x^k)/n!, n >= 0, 0 <= k <= n.",
   "id": "A190782",
   "mentions": [
     "A000142",

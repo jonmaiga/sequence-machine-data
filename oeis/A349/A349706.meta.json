@@ -1,5 +1,5 @@
 {
-  "description": "Array T(n,k) = Sum_{j=0, k} binomial(k,j)*j^n) for n and k >= 0, read by ascending antidiagonals.",
+  "description": "Array T(n,k) = Sum_{j=0, k} binomial(k,j)*j^n for n and k >= 0, read by ascending antidiagonals.",
   "id": "A349706",
   "mentions": [
     "A000079",

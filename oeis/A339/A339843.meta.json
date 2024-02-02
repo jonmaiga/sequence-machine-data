@@ -34,12 +34,13 @@
     "A340019"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

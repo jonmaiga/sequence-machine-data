@@ -1,0 +1,19 @@
+{
+  "description": "Number of free rooted (or pointed) (planar) polyhexes with n cells.",
+  "id": "A369362",
+  "mentions": [
+    "A000228",
+    "A126202",
+    "A369363",
+    "A369365"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

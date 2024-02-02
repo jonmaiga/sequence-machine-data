@@ -1,5 +1,5 @@
 {
-  "description": "Fractional part of the conversion from degrees Centigrade (or Celsius) to Fahrenheit.",
+  "description": "Fractional part of the conversion from degrees Celsius to Fahrenheit.",
   "id": "A177154",
   "mentions": [
     "A005843",
@@ -7,7 +7,9 @@
     "A010879",
     "A022966",
     "A029925",
-    "A085259"
+    "A029926",
+    "A085259",
+    "A085268"
   ],
   "tags": [
     "formulas",

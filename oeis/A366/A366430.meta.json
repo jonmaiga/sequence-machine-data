@@ -1,0 +1,19 @@
+{
+  "description": "Triprimes whose reversal is also a triprime.",
+  "id": "A366430",
+  "mentions": [
+    "A014612",
+    "A046329",
+    "A085751",
+    "A367151"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

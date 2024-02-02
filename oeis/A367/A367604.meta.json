@@ -1,0 +1,19 @@
+{
+  "description": "Length of commas sequence (cf. A121805) if start at 1 and do the calculations in base n; or -1 if the sequence is infinite.",
+  "id": "A367604",
+  "mentions": [
+    "A121805",
+    "A367344",
+    "A367355",
+    "A367605"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

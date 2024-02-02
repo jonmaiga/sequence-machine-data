@@ -1,0 +1,18 @@
+{
+  "description": "Number of reduced contexts on n labeled objects.",
+  "id": "A367565",
+  "mentions": [
+    "A047684",
+    "A102896"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

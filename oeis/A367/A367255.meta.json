@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (n + 1)^(n - 2)*(3*n + 1).",
+  "id": "A367255",
+  "mentions": [
+    "A137452"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

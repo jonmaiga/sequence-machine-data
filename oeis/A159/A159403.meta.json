@@ -1,7 +1,9 @@
 {
   "description": "Number of n X n arrays of squares of integers summing to 19.",
   "id": "A159403",
-  "mentions": [],
+  "mentions": [
+    "A159359"
+  ],
   "tags": [
     "formulas",
     "nonn"

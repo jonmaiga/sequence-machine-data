@@ -1,5 +1,5 @@
 {
-  "description": "Period lengths of convergents for continued fraction expansion of Pi.",
+  "description": "Period of the n-th convergent to the continued fraction expansion of Pi.",
   "id": "A236250",
   "mentions": [
     "A001203",

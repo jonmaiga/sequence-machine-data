@@ -1,5 +1,5 @@
 {
-  "description": "Apply inverse of \"INVERT\" transform to A007097, i.e.; the coefficients of the series [1/(1 + 2x + 3x^2 + 5x^3 + 11x^4 + 31x^5 + 127x^6 + 709x^7 ...",
+  "description": "Apply inverse of \"INVERT\" transform to A007097, i.e.; the coefficients of the series 1/(1 + 2x + 3x^2 + 5x^3 + 11x^4 + 31x^5 + 127x^6 + 709x^7 ... ).",
   "id": "A058316",
   "mentions": [
     "A007097"

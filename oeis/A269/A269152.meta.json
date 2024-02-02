@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with some element plus some horizontally, antidiagonally or vertically adjacent neighbor totalling three exactly once.",
+  "description": "T(n,k) = Number of n X k 0..3 arrays with some element plus some horizontally, antidiagonally or vertically adjacent neighbor totalling three exactly once.",
   "id": "A269152",
   "mentions": [
     "A120908"

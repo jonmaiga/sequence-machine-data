@@ -1,0 +1,17 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the number of tilings of the n X k grid up to 180-degree rotation by two tiles that are each fixed under 180-degree rotation.",
+  "id": "A368223",
+  "mentions": [
+    "A368219",
+    "A368224"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

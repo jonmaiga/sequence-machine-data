@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x * (1 + x + x^2 + x^3) * A(x^4/24)).",
+  "id": "A367756",
+  "mentions": [
+    "A143568",
+    "A367754",
+    "A367755",
+    "A367757"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

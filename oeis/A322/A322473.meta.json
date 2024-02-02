@@ -1,5 +1,5 @@
 {
-  "description": "Number of tilings of a 20 X n rectangle using 2*n copies of the disconnected shape [ooooo ooooo].",
+  "description": "Number of tilings of a 20 X n rectangle using 2*n copies of the disconnected shape [ooooo_____ooooo].",
   "id": "A322473",
   "mentions": [
     "A320437",

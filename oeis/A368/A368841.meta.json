@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative integers whose binary expansions (without leading zeros) have no three equally spaced equal digits.",
+  "id": "A368841",
+  "mentions": [
+    "A005346",
+    "A368842",
+    "A368857"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

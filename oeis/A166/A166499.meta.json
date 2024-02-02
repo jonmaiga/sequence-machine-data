@@ -1,14 +1,19 @@
 {
-  "description": "Concatenate the rightmost digit of n-th prime and the leftmost digit of (n+1)th prime!",
+  "description": "Concatenation of the rightmost digit of the n-th prime and the leftmost digit of the (n+1)th prime.",
   "id": "A166499",
-  "mentions": [],
+  "mentions": [
+    "A007652",
+    "A077648",
+    "A367360"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

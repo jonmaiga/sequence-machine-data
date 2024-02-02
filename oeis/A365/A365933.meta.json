@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the period of the remainders when repdigits are divided by n.",
+  "id": "A365933",
+  "mentions": [
+    "A002275",
+    "A002279",
+    "A010785",
+    "A083118",
+    "A305322",
+    "A366596"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

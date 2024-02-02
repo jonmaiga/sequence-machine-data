@@ -1,5 +1,5 @@
 {
-  "description": "Maximal coefficient of MacMahon polynomial (cf. A060187) p(x,n)=2^n*(1 - x)^(n + 1)* LerchPhi[x, -n, 1/2]; that is, a(n) = Max(coefficients(p(x,n)).",
+  "description": "Maximal coefficient of MacMahon polynomial (cf. A060187) p(x,n)=2^n*(1 - x)^(n + 1)* LerchPhi[x, -n, 1/2]; that is, a(n) = Max(coefficients(p(x,n))).",
   "id": "A154420",
   "mentions": [
     "A006551",

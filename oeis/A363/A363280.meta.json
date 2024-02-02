@@ -1,0 +1,20 @@
+{
+  "description": "Products of primorials that are not highly composite.",
+  "id": "A363280",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A002182",
+    "A025487",
+    "A055932"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows where T(2m - 1,k) = (A051845(2m - 1,k))/(2m - 1) and T(2m,k) = A051845(2m,k))/m for m > 0, k > 0.",
+  "description": "Triangle T(n,k) read by rows where T(2m - 1,k) = (A051845(2m - 1,k))/(2m - 1) and T(2m,k) = A051845(2m,k)/m for m > 0, k > 0.",
   "id": "A358314",
   "mentions": [
     "A051845",

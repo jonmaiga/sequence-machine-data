@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*(Bacher(n) - sigma(n)) + n + 1 = 2*(A368207(n) - A000203(n)) + n + 1.",
+  "id": "A368457",
+  "mentions": [
+    "A000203",
+    "A001248",
+    "A001358",
+    "A006093",
+    "A368207",
+    "A368458",
+    "A368459",
+    "A368460"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

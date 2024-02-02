@@ -1,8 +1,9 @@
 {
-  "description": "G.f.: A(x) satisfies: A(x*A(x)) = A(x)^2/(1+x).",
+  "description": "Expansion of g.f. A(x) satisfying A(x)^2 = (1+x) * A(x*A(x)) with A(0) = 1.",
   "id": "A120056",
   "mentions": [
-    "A088792"
+    "A088792",
+    "A367386"
   ],
   "tags": [
     "formulas",

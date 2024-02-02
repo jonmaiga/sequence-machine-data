@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is the phi(n)-th composite number (n = A002808(phi(n)).",
+  "description": "Numbers m such that m is the phi(m)-th composite number (m = A002808(phi(m))).",
   "id": "A100410",
   "mentions": [
     "A002808",

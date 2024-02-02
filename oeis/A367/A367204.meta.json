@@ -1,0 +1,20 @@
+{
+  "description": "Number of diagonals in a regular n-gon that are parallel to an edge.",
+  "id": "A367204",
+  "mentions": [
+    "A000096",
+    "A002378",
+    "A005563",
+    "A211379"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,6 @@
   "description": "Digital root of n (repeatedly add the digits of n until a single digit is reached).",
   "id": "A010888",
   "mentions": [
-    "A000007",
     "A002264",
     "A002265",
     "A002266",

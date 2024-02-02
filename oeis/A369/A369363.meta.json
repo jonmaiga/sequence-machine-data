@@ -1,0 +1,20 @@
+{
+  "description": "Least number of inequivalent cells in a (planar) polyhex with n cells.",
+  "id": "A369363",
+  "mentions": [
+    "A000228",
+    "A367758",
+    "A369362",
+    "A369364",
+    "A369366"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

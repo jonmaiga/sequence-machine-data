@@ -1,0 +1,44 @@
+{
+  "description": "Number of labeled simple graphs covering n vertices and contradicting a strict version of the axiom of choice.",
+  "id": "A367868",
+  "mentions": [
+    "A000088",
+    "A000612",
+    "A001187",
+    "A001349",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A016031",
+    "A057500",
+    "A058891",
+    "A059201",
+    "A116508",
+    "A129271",
+    "A133686",
+    "A140636",
+    "A140638",
+    "A143543",
+    "A319637",
+    "A326947",
+    "A367769",
+    "A367770",
+    "A367863",
+    "A367867",
+    "A367869",
+    "A367901",
+    "A367902",
+    "A367903",
+    "A367904",
+    "A367907"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

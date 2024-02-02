@@ -1,5 +1,5 @@
 {
-  "description": "Number T(n,k) of permutations p of [n] such that p(i), p(i+k), p(i+2k),... form an updown sequence for i in [k]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "description": "Number T(n,k) of permutations p of [n] such that p(i), p(i+k), p(i+2k),... form an up-down sequence for i in [k]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
   "id": "A361651",
   "mentions": [
     "A000007",
@@ -8,7 +8,8 @@
     "A000680",
     "A248686",
     "A333706",
-    "A361648"
+    "A361648",
+    "A367336"
   ],
   "tags": [
     "look",

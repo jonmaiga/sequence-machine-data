@@ -1,0 +1,18 @@
+{
+  "description": "Length of cycles obtained by repeated application of the strip bijection for the square lattice (A307110), sorted by increasing minimum radius visited by any cycle of this length.",
+  "id": "A367893",
+  "mentions": [
+    "A307110",
+    "A363760",
+    "A367146"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

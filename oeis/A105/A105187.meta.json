@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = determinant of the n X n matrix m(i,j)=(i+j+2)!/i!/j!.",
+  "description": "a(n) = determinant of the n X n matrix m(i,j) = (i+j+2)!/i!/j!.",
   "id": "A105187",
   "mentions": [
     "A001286"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 16,
     "source": "joeis"
   }
 }

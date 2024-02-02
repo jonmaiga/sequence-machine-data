@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=n plus the sorted version of the base-10 digits of n.",
+  "description": "a(n) = n plus the sorted version of the base-10 digits of n.",
   "id": "A070196",
   "mentions": [
     "A004185",

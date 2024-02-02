@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of 4 - restricted Eulerian numbers as polynomials used in exponential data smoothing: m(p,k,x)=((-1)^k*(1 - x)^(p + k)/(k!(p - 1)!))*Sum[(p - 1 + j)!*j^k*x^j/(j!), {j, 0, Infinity}]/x;n=6; t(m,l)=coefficients((-1)^m*m!*M[n, m, x]]]/n",
+  "description": "Triangle of 4 - restricted Eulerian numbers as polynomials used in exponential data smoothing: m(p,k,x)=((-1)^k*(1 - x)^(p + k)/(k!(p - 1)!))*Sum[(p - 1 + j)!*j^k*x^j/(j!), {j, 0, Infinity}]/x;n=6; t(m,l)=coefficients((-1)^m*m!*M[n, m, x])/n",
   "id": "A152249",
   "mentions": [
     "A008292",

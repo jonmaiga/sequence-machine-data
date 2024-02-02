@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=209; for n > 0, a(n) = a(n-1) + floor(sqrt(a(n-1)).",
+  "description": "a(0)=209; for n > 0, a(n) = a(n-1) + floor(sqrt(a(n-1))).",
   "id": "A159274",
   "mentions": [
     "A159016",

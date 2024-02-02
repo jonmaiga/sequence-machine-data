@@ -1,0 +1,13 @@
+{
+  "description": "Largest cost for a permutation problem.",
+  "id": "A367185",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

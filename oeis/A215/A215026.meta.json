@@ -2,6 +2,7 @@
   "description": "Reluctant Fibonacci sequence.",
   "id": "A215026",
   "mentions": [
+    "A000045",
     "A182105"
   ],
   "tags": [

@@ -1,11 +1,12 @@
 {
-  "description": "E.g.f.: exp(3*(1/(1-x)^3 - 1)).",
+  "description": "Expansion of e.g.f. exp(3*(1/(1-x)^3 - 1)).",
   "id": "A294190",
   "mentions": [
     "A202826",
     "A294188"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

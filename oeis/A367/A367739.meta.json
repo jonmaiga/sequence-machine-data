@@ -1,0 +1,18 @@
+{
+  "description": "Table read by ascending antidiagonals: T(n,k) is the number of k-bit numbers m such that m*prime(n)# is the average of a twin prime pair, where prime(n)# is the n-th primorial A002110(n).",
+  "id": "A367739",
+  "mentions": [
+    "A002110",
+    "A014574",
+    "A095017"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

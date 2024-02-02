@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. sin(x)*exp(x).",
+  "description": "Expansion of e.g.f. sin(x)*exp(x).",
   "id": "A009545",
   "mentions": [
     "A000079",

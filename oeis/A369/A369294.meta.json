@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that a(1) = 1, a(2) = 2, a(3) = 3, and for any n > 3, A091255(a(n), a(n-2)) <> 1 and A091255(a(n), a(n-1)) = 1.",
+  "id": "A369294",
+  "mentions": [
+    "A091255",
+    "A098550",
+    "A369293"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

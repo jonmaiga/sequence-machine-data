@@ -1,15 +1,18 @@
 {
-  "description": "a(n) = Product_{3 <= q <= 2n+1, q prime} q^floor((2n/(q-1)).",
+  "description": "a(n) = Product_{3 <= p <= 2*n+1, p prime} p^floor(2*n / (p - 1)).",
   "id": "A171080",
   "mentions": [
-    "A091137"
+    "A091137",
+    "A160014",
+    "A238963"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

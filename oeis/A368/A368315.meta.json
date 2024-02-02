@@ -1,0 +1,20 @@
+{
+  "description": "a(n) gives the number of ways to go from n to 1 with steps consisting of replacing a positive number without leading zero, say m, appearing in the binary expansion of a number, by a proper divisor of m.",
+  "id": "A368315",
+  "mentions": [
+    "A011782",
+    "A368198",
+    "A368313",
+    "A368314"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

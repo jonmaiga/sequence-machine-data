@@ -1,5 +1,5 @@
 {
-  "description": "Sum(j=1,n,floor(A000041(j)/j)))).",
+  "description": "Sum(j=1,n,floor(A000041(j)/j)).",
   "id": "A086736",
   "mentions": [
     "A000041"

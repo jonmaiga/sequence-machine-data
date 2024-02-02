@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n such that n and n^2 have square decimal digits.",
+  "description": "Numbers k such that k and k^2 have square decimal digits.",
   "id": "A077439",
   "mentions": [
     "A000290",
     "A019544",
     "A046030",
+    "A077429",
     "A077440"
   ],
   "tags": [

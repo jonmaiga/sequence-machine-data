@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, Riordan array (1, (1+x/(1-4*x^2))/sqrt(1-4*x^2).",
+  "description": "Triangle read by rows, Riordan array [1, (1+x/(1-4*x^2))/sqrt(1-4*x^2)].",
   "id": "A275328",
   "mentions": [
     "A056040",

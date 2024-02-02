@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that k*Mersenne-prime(n)*Mersenne-prime(n+1) + 1 is prime.",
+  "description": "Least k such that k * M(n) * M(n+1) + 1 is prime where M(n) = A000668(n).",
   "id": "A098917",
   "mentions": [
     "A000668"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

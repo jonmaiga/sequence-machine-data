@@ -1,0 +1,20 @@
+{
+  "description": "AGM transform of the even positive numbers.",
+  "id": "A369395",
+  "mentions": [
+    "A299174",
+    "A368366",
+    "A368367",
+    "A368371",
+    "A369394"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = ((Sum_{i=1..n} A367065(i))-2)/(n+2).",
+  "id": "A367066",
+  "mentions": [
+    "A367065"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

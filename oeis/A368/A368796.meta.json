@@ -1,0 +1,16 @@
+{
+  "description": "Distinct values of A229037, in order of appearance.",
+  "id": "A368796",
+  "mentions": [
+    "A229037"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

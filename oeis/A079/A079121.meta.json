@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = floor((1/n)*(Sum_{k=1..n} a(k)^((n+1)/k)), given a(0)=1, a(1)=3, a(2)=8.",
+  "description": "a(n+1) = floor((1/n)*(Sum_{k=1..n} a(k)^((n+1)/k))), given a(0)=1, a(1)=3, a(2)=8.",
   "id": "A079121",
   "mentions": [
     "A079116",

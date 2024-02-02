@@ -1,7 +1,8 @@
 {
-  "description": "Numbers congruent to {-5,29,39,41,43,45,55,57,59,93,103,105,107,109,119,121} mod 256 .",
+  "description": "Numbers congruent to {-5,29,39,41,43,45,55,57,59,93,103,105,107,109,119,121} mod 256.",
   "id": "A159888",
   "mentions": [
+    "A102370",
     "A159887"
   ],
   "tags": [

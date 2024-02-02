@@ -1,7 +1,10 @@
 {
   "description": "Number of 3 X 5 matrices with elements in 0..n with each row and each column in nondecreasing order. 3,5,n can be permuted, see formula.",
   "id": "A140901",
-  "mentions": [],
+  "mentions": [
+    "A140902",
+    "A140943"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,7 +1,8 @@
 {
-  "description": "2^n + 9.",
+  "description": "a(n) = 2^n + 9.",
   "id": "A188165",
   "mentions": [
+    "A000079",
     "A104070",
     "A168415"
   ],

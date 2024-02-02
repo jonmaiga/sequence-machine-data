@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A011971(n, k) * (-2)^(n - k).",
+  "id": "A367809",
+  "mentions": [
+    "A011971",
+    "A367808"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

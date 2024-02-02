@@ -1,0 +1,50 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of labeled connected loop-graphs with n vertices and k edges.",
+  "id": "A369195",
+  "mentions": [
+    "A000085",
+    "A000124",
+    "A000169",
+    "A000272",
+    "A000666",
+    "A001187",
+    "A001349",
+    "A001862",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A014068",
+    "A054548",
+    "A054923",
+    "A057500",
+    "A062734",
+    "A062740",
+    "A066383",
+    "A100861",
+    "A111924",
+    "A322114",
+    "A322137",
+    "A322147",
+    "A322151",
+    "A322661",
+    "A322700",
+    "A368597",
+    "A368927",
+    "A368951",
+    "A369140",
+    "A369141",
+    "A369142",
+    "A369197",
+    "A369199"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

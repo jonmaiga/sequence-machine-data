@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime >= 9^n.",
+  "description": "Smallest prime > 9^n.",
   "id": "A104086",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "The integer k that minimizes |k/2^n - sqrt(5))|.",
+  "description": "The integer k that minimizes |k/2^n - sqrt(5)|.",
   "id": "A293333",
   "mentions": [
     "A001633",

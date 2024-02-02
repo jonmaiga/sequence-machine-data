@@ -1,0 +1,15 @@
+{
+  "description": "Primes p such that p + q +- 1 and p^3 + q^3 +- 1 are twin prime pairs, where q = nextprime(p).",
+  "id": "A366644",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

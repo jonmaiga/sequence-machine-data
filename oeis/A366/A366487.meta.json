@@ -1,0 +1,18 @@
+{
+  "description": "First differences of \"commas\" sequence A121805.",
+  "id": "A366487",
+  "mentions": [
+    "A121805",
+    "A367349"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

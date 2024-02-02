@@ -1,0 +1,14 @@
+{
+  "description": "Number of (undirected) cycles in the n-Goldberg graph.",
+  "id": "A368192",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled nodes with burning number k = 1..ceiling(sqrt(n)).",
+  "id": "A369278",
+  "mentions": [
+    "A001349",
+    "A369276",
+    "A369280"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

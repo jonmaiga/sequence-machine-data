@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: Nonexistent values of cos(2*Pi/k) mod j, for j >= 2 and k = 1:j-1.",
+  "description": "Irregular triangle read by rows: Nonexistent values of cos(2*Pi/k) mod j, for j >= 2 and 1 <= k <= j-1.",
   "id": "A165609",
   "mentions": [
     "A164823",

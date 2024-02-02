@@ -1,5 +1,5 @@
 {
-  "description": "Minimum value unattainable as the sum of 2 attained values of a*b*c with a,b,c 0..n integers",
+  "description": "Minimum value unattainable as the sum of 2 attained values of a*b*c with a,b,c 0..n integers.",
   "id": "A225264",
   "mentions": [
     "A225258"

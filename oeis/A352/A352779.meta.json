@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = (-3)^n.",
+  "description": "Powers of -3: a(n) = (-3)^n.",
   "id": "A352779",
   "mentions": [
     "A000244",
+    "A033999",
     "A141413"
   ],
   "tags": [

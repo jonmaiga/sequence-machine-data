@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{1 <= i < j <= n} (i^3 + j^3).",
+  "id": "A367517",
+  "mentions": [
+    "A093883",
+    "A203312",
+    "A203475",
+    "A324426"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

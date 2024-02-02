@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the least prime p > prime(n+1) such that ((p mod prime(n)) + (p mod prime(n+1)) is prime.",
+  "description": "a(n) = the least prime p > prime(n+1) such that (p mod prime(n)) + (p mod prime(n+1)) is prime.",
   "id": "A213981",
   "mentions": [],
   "tags": [

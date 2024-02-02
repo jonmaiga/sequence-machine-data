@@ -1,0 +1,40 @@
+{
+  "description": "Numbers k such that MMK(k) = MMK(i) for some i < k, where MMK is multiset multiplicity kernel A367580.",
+  "id": "A367768",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A007947",
+    "A027746",
+    "A027748",
+    "A051904",
+    "A055396",
+    "A071625",
+    "A072774",
+    "A073485",
+    "A073486",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181819",
+    "A246547",
+    "A304038",
+    "A367579",
+    "A367580",
+    "A367581",
+    "A367583",
+    "A367584",
+    "A367585",
+    "A367685"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

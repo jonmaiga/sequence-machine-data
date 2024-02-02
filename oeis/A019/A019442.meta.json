@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that a Hadamard matrix of order n exists.",
+  "description": "Numbers m such that a Hadamard matrix of order m exists.",
   "id": "A019442",
   "mentions": [
     "A007299",

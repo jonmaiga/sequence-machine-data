@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..2 arrays with the maximum of every 2X2 subblock equal",
+  "description": "Number of (n+1) X (6+1) 0..2 arrays with the maximum of every 2 X 2 subblock equal.",
   "id": "A237033",
   "mentions": [
     "A237035"

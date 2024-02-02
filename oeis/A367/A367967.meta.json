@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 3/4*(3^(n + 1) - 2*n - 4*n^2 - 3).",
+  "id": "A367967",
+  "mentions": [
+    "A003462",
+    "A290764",
+    "A367968"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

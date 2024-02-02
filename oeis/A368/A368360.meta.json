@@ -1,0 +1,17 @@
+{
+  "description": "Comma transform of the even numbers.",
+  "id": "A368360",
+  "mentions": [
+    "A005843",
+    "A367360"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

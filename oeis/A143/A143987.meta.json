@@ -1,5 +1,5 @@
 {
-  "description": "Eigentriangle of (A007318)^(-1); row sums = A014182, exp(1-x-exp(-x).",
+  "description": "Eigentriangle of (A007318)^(-1); row sums = A014182, exp(1-x-exp(-x)).",
   "id": "A143987",
   "mentions": [
     "A007318",

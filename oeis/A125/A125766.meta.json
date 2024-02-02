@@ -1,5 +1,5 @@
 {
-  "description": "Consider the array T(n, m) = m-th prime of the form n*i(i+1)/2) +- 1. This sequence is read by antidiagonals.",
+  "description": "Consider the array T(n, m) = m-th prime of the form n*i(i+1)/2 +- 1. This sequence is read by antidiagonals.",
   "id": "A125766",
   "mentions": [
     "A000217",

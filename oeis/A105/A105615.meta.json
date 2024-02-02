@@ -1,5 +1,5 @@
 {
-  "description": "Triangular matrix T, read by rows, that satisfies: SHIFT_LEFT(column 0 of T^((2*p-1)/2) = (2*p-1)*(column p of T), or [T^((2*p-1)/2)](m,0) = (2*p-1)*T(p+m,p+1) for all m>=1 and p>=0.",
+  "description": "Triangular matrix T, read by rows, that satisfies: SHIFT_LEFT(column 0 of T^((2*p-1)/2)) = (2*p-1)*(column p of T), or [T^((2*p-1)/2)](m,0) = (2*p-1)*T(p+m,p+1) for all m>=1 and p>=0.",
   "id": "A105615",
   "mentions": [
     "A000698",

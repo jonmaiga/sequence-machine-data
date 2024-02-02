@@ -2,6 +2,7 @@
   "description": "a(n) = K(n-1) + K(n) + K(n+1), where K(n) = A341711(floor(n/2)).",
   "id": "A361151",
   "mentions": [
+    "A120963",
     "A341711"
   ],
   "tags": [

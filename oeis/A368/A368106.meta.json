@@ -1,0 +1,25 @@
+{
+  "description": "The number of infinitary divisors of the powerful part of n.",
+  "id": "A368106",
+  "mentions": [
+    "A000120",
+    "A001694",
+    "A005117",
+    "A037445",
+    "A057521",
+    "A323308",
+    "A357669",
+    "A368104"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

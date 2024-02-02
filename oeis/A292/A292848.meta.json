@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest prime of form (1/2)((1 + sqrt(2n))^k) + (1 - sqrt(2n))^k)).",
+  "description": "a(n) is the smallest prime of form (1/2)*((1 + sqrt(2*n))^k + (1 - sqrt(2*n))^k).",
   "id": "A292848",
   "mentions": [
     "A001333",

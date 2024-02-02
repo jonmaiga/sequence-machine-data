@@ -2,8 +2,7 @@
   "description": "Number of lattice points on graph of parabola y >= x^2 with y <= n.",
   "id": "A095875",
   "mentions": [
-    "A001650",
-    "A095876"
+    "A001650"
   ],
   "tags": [
     "formulas",

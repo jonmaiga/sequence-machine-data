@@ -1,5 +1,5 @@
 {
-  "description": "Numbers p such that p = (prime(prime(n+1))- prime(prime((n)))/2 is prime.",
+  "description": "Numbers p such that p = (prime(prime(n+1)) - prime(prime(n)))/2 is prime.",
   "id": "A098043",
   "mentions": [],
   "tags": [

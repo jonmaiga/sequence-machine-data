@@ -2,12 +2,14 @@
   "description": "a(0) = 0. If 4 divides n then a(n) = valuation(n, 2) else a(n) = (n mod 2) + 1.",
   "id": "A327491",
   "mentions": [
+    "A007814",
     "A327492",
     "A327493",
     "A327494",
     "A327495"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

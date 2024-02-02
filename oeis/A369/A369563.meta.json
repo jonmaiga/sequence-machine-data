@@ -1,0 +1,26 @@
+{
+  "description": "Powerful numbers whose prime factors are all of the form 4*k + 1.",
+  "id": "A369563",
+  "mentions": [
+    "A001694",
+    "A002144",
+    "A004613",
+    "A008846",
+    "A146945",
+    "A175647",
+    "A334424",
+    "A352492",
+    "A369564",
+    "A369565",
+    "A369566"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

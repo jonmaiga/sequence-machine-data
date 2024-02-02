@@ -1,15 +1,21 @@
 {
-  "description": "a(n) = Sum_{d|n, d=6 mod 7} d.",
+  "description": "a(n) = Sum_{d|n, d == 6 (mod 7)} d.",
   "id": "A284105",
   "mentions": [
     "A000593",
     "A050452",
     "A078182",
     "A109708",
+    "A284099",
     "A284103",
-    "A284104"
+    "A284104",
+    "A284443",
+    "A284444",
+    "A284445",
+    "A284446"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

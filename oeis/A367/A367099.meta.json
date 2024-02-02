@@ -1,0 +1,36 @@
+{
+  "description": "Least positive integer such that the number of divisors having two distinct prime factors is n.",
+  "id": "A367099",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A001248",
+    "A001358",
+    "A005179",
+    "A006881",
+    "A007774",
+    "A024619",
+    "A054753",
+    "A056170",
+    "A076290",
+    "A079275",
+    "A086971",
+    "A100959",
+    "A146289",
+    "A220264",
+    "A366740",
+    "A367093",
+    "A367096",
+    "A367098"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,15 @@
 {
-  "description": "Phi(phi(p))/2 where p = prime(n).",
+  "description": "a(n) = phi(phi(p))/2 where p = prime(n).",
   "id": "A094051",
   "mentions": [
-    "A008330"
+    "A000010",
+    "A000040",
+    "A008330",
+    "A023022"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,9 +1,15 @@
 {
-  "description": "Triangular array: the fusion of polynomial sequences P and Q given by p(n,x)=(n+1)-st Fibonacci polynomial and q(n,x)=(x+1)^n.",
+  "description": "Triangular array: the fusion of polynomial sequences P and Q given by p(n,x) = (n+1)-st Fibonacci polynomial and q(n,x) = (x+1)^n.",
   "id": "A193736",
   "mentions": [
+    "A000007",
+    "A005314",
+    "A029907",
+    "A052542",
+    "A077962",
     "A193722",
-    "A193737"
+    "A193737",
+    "A324969"
   ],
   "tags": [
     "formulas",
@@ -12,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 70,
+    "size": 78,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 integer arrays with each element equal to the number of horizontal, diagonal and antidiagonal neighbors exactly one smaller than itself.",
+  "description": "Number of n X 3 integer arrays with each element equal to the number of horizontal, diagonal and antidiagonal neighbors exactly one smaller than itself.",
   "id": "A266126",
   "mentions": [
     "A266131"

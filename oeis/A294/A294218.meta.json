@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of graphs with n vertices and arboricity k (n >= 1, 1 <= k <= ceiling(n/2).",
+  "description": "Triangle read by rows: T(n,k) is the number of graphs with n vertices and arboricity k (n >= 1, 1 <= k <= ceiling(n/2)).",
   "id": "A294218",
   "mentions": [
     "A000088",

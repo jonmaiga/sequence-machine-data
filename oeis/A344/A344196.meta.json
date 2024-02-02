@@ -8,12 +8,11 @@
     "A346365"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

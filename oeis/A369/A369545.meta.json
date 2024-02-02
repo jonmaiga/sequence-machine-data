@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = A( x^2*(1+x)^2 ) / (x*(1+x)).",
+  "id": "A369545",
+  "mentions": [
+    "A369546",
+    "A369547",
+    "A369548",
+    "A369549",
+    "A369552"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

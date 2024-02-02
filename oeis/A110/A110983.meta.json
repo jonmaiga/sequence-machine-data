@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 5*10^n + 51 is prime.",
+  "description": "Integers k such that 5*10^k + 51 is prime.",
   "id": "A110983",
   "mentions": [
     "A049054",

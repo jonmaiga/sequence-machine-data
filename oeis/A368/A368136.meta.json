@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k for which a generalized Collatz trajectory (x / k if k divides x, x + ceiling(x / k) otherwise) has non-elementary loops starting from a positive integer x_0 < k^2.",
+  "id": "A368136",
+  "mentions": [
+    "A006370",
+    "A033478"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

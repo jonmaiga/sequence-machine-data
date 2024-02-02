@@ -1,0 +1,17 @@
+{
+  "description": "a(n) gives the maximum number of equally spaced equal digits in the binary expansion of n (without leading zeros).",
+  "id": "A368857",
+  "mentions": [
+    "A368841"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

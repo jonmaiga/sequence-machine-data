@@ -1,5 +1,5 @@
 {
-  "description": "Total number of colors summed over all collections of nonempty multisets with a total of n objects having color set {1,...,k} for some k<=n.",
+  "description": "Total number of colors summed over all collections of nonempty multisets with a total of n objects having color set {1,...,k} for some k <= n.",
   "id": "A317178",
   "mentions": [
     "A255903"

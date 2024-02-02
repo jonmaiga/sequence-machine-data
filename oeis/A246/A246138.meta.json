@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = sum(k=0..n-1, A246065(k) ) / n^2.",
+  "description": "a(n) = (Sum_{k=0..n-1} A246065(k)) / n^2.",
   "id": "A246138",
   "mentions": [
+    "A005802",
     "A246065"
   ],
   "tags": [

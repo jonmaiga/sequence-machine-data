@@ -1,0 +1,16 @@
+{
+  "description": "Denominators that appear in A291094 exactly three times.",
+  "id": "A367207",
+  "mentions": [
+    "A291094",
+    "A367206"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

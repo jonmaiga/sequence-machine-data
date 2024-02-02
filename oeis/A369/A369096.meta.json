@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k >= 2 such that omega(k) divides the sum of the triangular numbers T(k) and T(k+1), where omega(k) is the number of distinct primes dividing k (A001221).",
+  "id": "A369096",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A001221",
+    "A090777",
+    "A356410",
+    "A369093",
+    "A369097"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

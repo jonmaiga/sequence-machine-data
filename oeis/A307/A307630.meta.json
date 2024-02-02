@@ -1,8 +1,10 @@
 {
-  "description": "Index of first n in A307720.",
+  "description": "Index at which n first appears in A307720.",
   "id": "A307630",
   "mentions": [
     "A307631",
+    "A307632",
+    "A307633",
     "A307634",
     "A307720",
     "A307730",

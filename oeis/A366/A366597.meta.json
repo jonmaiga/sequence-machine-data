@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangular array, read by rows: T(n,k) = number of vertices (partitions) that have degree k in the distance graph of the partitions of n, for k = 1..A366429(n).",
+  "id": "A366597",
+  "mentions": [
+    "A000041",
+    "A366156",
+    "A366429",
+    "A366598"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Variation of the \"Comma sequence\" A121805: allow one or more digits from both a(n-1) and a(n) to form the magnitude of the difference |a(n) - a(n-1)|, always choosing the minimum possible distinct value for a(n).",
+  "id": "A367635",
+  "mentions": [
+    "A121805",
+    "A367363",
+    "A367645"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

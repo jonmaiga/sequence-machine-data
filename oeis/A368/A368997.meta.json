@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A342001(n) is even, otherwise 0.",
+  "id": "A368997",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A059841",
+    "A342001",
+    "A358680",
+    "A368994",
+    "A368998",
+    "A368999"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

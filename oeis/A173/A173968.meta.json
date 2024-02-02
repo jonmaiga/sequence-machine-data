@@ -2,6 +2,7 @@
   "description": "Sums of 3 consecutive semiprimes.",
   "id": "A173968",
   "mentions": [
+    "A001358",
     "A173966",
     "A173967"
   ],

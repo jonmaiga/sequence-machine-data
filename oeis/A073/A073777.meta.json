@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum(-A068341(k+1)*a(n-k), k=1..n), a(0)=1.",
+  "description": "a(n) = Sum_{k=1..n} -A068341(k+1)*a(n-k), a(0)=1.",
   "id": "A073777",
   "mentions": [
     "A008683",

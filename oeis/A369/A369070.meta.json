@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 if there is at least one prime power p^e in the prime factorization of n such that p|e, otherwise 0.",
+  "id": "A369070",
+  "mentions": [
+    "A342023",
+    "A342090"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 124,
+    "source": "oeis-bfile"
+  }
+}

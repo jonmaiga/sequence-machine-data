@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+3 0..4 arrays with no four consecutive terms having the sum of any three elements equal to three times the fourth",
+  "description": "Number of length n+3 0..4 arrays with no four consecutive terms having the sum of any three elements equal to three times the fourth.",
   "id": "A249286",
   "mentions": [
     "A249290"

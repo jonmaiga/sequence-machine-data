@@ -1,0 +1,24 @@
+{
+  "description": "Array T(n, k) read by ascending antidiagonals is a dispersion based on A367467. Column 1 lists the numbers which cannot be represented by A367467(m) + m. For k >= 1, T(n, k+1) = A367467(T(n, k)) + T(n, k).",
+  "id": "A367832",
+  "mentions": [
+    "A003152",
+    "A083050",
+    "A083051",
+    "A087057",
+    "A184119",
+    "A293078",
+    "A328987",
+    "A367467"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

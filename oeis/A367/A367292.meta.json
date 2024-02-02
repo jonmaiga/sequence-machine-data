@@ -1,0 +1,17 @@
+{
+  "description": "An inventory sequence: the first row contains the value 1, subsequent rows contains the number of terms in prior rows whose binary expansions contain 2^0 (provided this number is nonzero), then the number of terms for 2^1 (provided it is > 0), then for 2^2, etc.",
+  "id": "A367292",
+  "mentions": [
+    "A342585"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

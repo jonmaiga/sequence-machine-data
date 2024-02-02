@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 4^n + 3.",
+  "description": "Primes of the form 4^k + 3.",
   "id": "A228026",
   "mentions": [
     "A057733",
@@ -33,6 +33,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

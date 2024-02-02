@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 2*(Bacher(k) - sigma(k)) + k + 1 < 0.",
+  "id": "A368459",
+  "mentions": [
+    "A000203",
+    "A001248",
+    "A100484",
+    "A368207",
+    "A368457",
+    "A368458",
+    "A368460"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

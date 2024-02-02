@@ -1,5 +1,5 @@
 {
-  "description": "a(6) = 7, for n >= 7, a(n) = a(n - 1) + gcd(n, a(n - 1))",
+  "description": "a(6) = 7, for n >= 7, a(n) = a(n - 1) + gcd(n, a(n - 1)).",
   "id": "A167197",
   "mentions": [
     "A084662",

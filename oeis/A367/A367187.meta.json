@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are the sum of a prime number and a Fibonacci number of index >1 in at least two ways.",
+  "id": "A367187",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A132147",
+    "A367186"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

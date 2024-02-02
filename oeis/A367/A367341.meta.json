@@ -1,0 +1,22 @@
+{
+  "description": "Numbers without comma-successors: these are the numbers k such that if the commas sequence A121805 is started at k instead of 1, there is no second term.",
+  "id": "A367341",
+  "mentions": [
+    "A121805",
+    "A330129",
+    "A367338",
+    "A367339",
+    "A367340",
+    "A367342"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

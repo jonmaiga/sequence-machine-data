@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of ways to make a Secret Santa assignment among n couples such that (i) no one gets their partner's name, (ii) if A gets B's name, B does not get A's name, and (iii) if A gets B's name, then A's partner does not get B's partner's name.",
+  "id": "A367538",
+  "mentions": [
+    "A000166",
+    "A038205",
+    "A367537"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

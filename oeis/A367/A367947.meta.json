@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes s such that 2*s+1 is prime.",
+  "id": "A367947",
+  "mentions": [
+    "A001358",
+    "A005097",
+    "A063640"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

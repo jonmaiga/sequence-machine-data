@@ -1,0 +1,20 @@
+{
+  "description": "Starts of runs of 3 consecutive integers in A268375.",
+  "id": "A368403",
+  "mentions": [
+    "A130091",
+    "A268375",
+    "A342029",
+    "A368402",
+    "A368404"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

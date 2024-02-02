@@ -1,0 +1,14 @@
+{
+  "description": "Number of maximal matchings in the n X n giraffe graph.",
+  "id": "A367459",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

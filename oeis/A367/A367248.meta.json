@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 7.",
+  "id": "A367248",
+  "mentions": [
+    "A000400",
+    "A000420",
+    "A001018",
+    "A366964",
+    "A367243",
+    "A367244",
+    "A367245",
+    "A367246",
+    "A367247",
+    "A367249",
+    "A367250"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

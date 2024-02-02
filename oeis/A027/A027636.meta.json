@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+x^19)/((1-x^2)*(1-x^4)^2*(1-x^6).",
+  "description": "Expansion of (1+x^19)/((1-x^2)*(1-x^4)^2*(1-x^6)).",
   "id": "A027636",
   "mentions": [
     "A027640"

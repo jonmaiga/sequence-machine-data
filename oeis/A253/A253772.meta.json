@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4^n + 13 is prime.",
+  "description": "Numbers k such that 4^k + 13 is prime.",
   "id": "A253772",
   "mentions": [
     "A089437",
@@ -16,6 +16,7 @@
     "A262972"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

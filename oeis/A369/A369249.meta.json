@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 4*m+3 for which there is no representation as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "id": "A369249",
+  "mentions": [
+    "A002145",
+    "A189483",
+    "A369054",
+    "A369056",
+    "A369250"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

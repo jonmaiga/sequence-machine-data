@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest infinite sequence of positive integers such that the Taxicab distance is unique to each pair of distinct points ((n, a(n)), (k, a(k)).",
+  "description": "Lexicographically earliest infinite sequence of positive integers such that the Taxicab distance is unique to each pair of distinct points ((n, a(n)), (k, a(k))).",
   "id": "A284917",
   "mentions": [
     "A005282",

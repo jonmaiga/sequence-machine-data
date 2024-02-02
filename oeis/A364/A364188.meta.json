@@ -2,6 +2,7 @@
   "description": "The sum of the digits present in a(n) and a(n+1) divides exactly the product of the same digits. This is the lexicographically earliest sequence of distinct positive terms with this property.",
   "id": "A364188",
   "mentions": [
+    "A007953",
     "A364120",
     "A364187"
   ],

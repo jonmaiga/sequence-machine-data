@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A354989(A005940(1+n)).",
+  "id": "A368699",
+  "mentions": [
+    "A005940",
+    "A354989",
+    "A368698",
+    "A368700"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

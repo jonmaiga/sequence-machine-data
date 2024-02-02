@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = first exponent k such that n^k starts with 9 or -1 if n is a power of 10.",
+  "id": "A367821",
+  "mentions": [
+    "A018856",
+    "A098174",
+    "A367854"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

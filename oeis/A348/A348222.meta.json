@@ -1,8 +1,11 @@
 {
-  "description": "Number of uniquely-3-colorable graphs on n vertices up to isomorphism.",
+  "description": "Number of uniquely-3-colorable graphs on n vertices.",
   "id": "A348222",
-  "mentions": [],
+  "mentions": [
+    "A369227"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

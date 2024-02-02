@@ -1,5 +1,5 @@
 {
-  "description": "Sum (11^((k^2+3k)/2) from k=1 to n.",
+  "description": "Sum 11^((k^2+3k)/2) from k=1 to n.",
   "id": "A178192",
   "mentions": [
     "A178184",

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = floor(n^2 * (n - 1)^(n - 1) / 2).",
+  "id": "A369027",
+  "mentions": [
+    "A369025",
+    "A369026"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) = number of directed graphs-with-loops with n nodes and k arcs (n >= 0, 0 <= k <= n^2.",
+  "description": "Irregular triangle read by rows: T(n,k) = number of directed graphs-with-loops with n nodes and k arcs (n >= 0, 0 <= k <= n^2).",
   "id": "A046858",
   "mentions": [
     "A000595"

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n, m)=Sum_{k=1..(n-m)/3} C(m, k)*T((n-m)/3, k)), T(n,n)=1.",
+  "description": "Triangle T(n, m)=Sum_{k=1..(n-m)/3} C(m, k)*T((n-m)/3, k), T(n,n)=1.",
   "id": "A253189",
   "mentions": [
     "A003462",

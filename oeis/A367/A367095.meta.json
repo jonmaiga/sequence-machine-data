@@ -1,0 +1,36 @@
+{
+  "description": "Number of distinct sums of pairs (repeats allowed) of prime indices of n.",
+  "id": "A367095",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001248",
+    "A001358",
+    "A004526",
+    "A006881",
+    "A007947",
+    "A008967",
+    "A056239",
+    "A065119",
+    "A086971",
+    "A112798",
+    "A299701",
+    "A304793",
+    "A325986",
+    "A366737",
+    "A366738",
+    "A366739",
+    "A366740",
+    "A367093",
+    "A367096",
+    "A367097"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

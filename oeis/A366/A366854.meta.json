@@ -1,0 +1,25 @@
+{
+  "description": "Powers k^m such that k is neither squarefree nor prime powers, and m > 1.",
+  "id": "A366854",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A052486",
+    "A120944",
+    "A126706",
+    "A131605",
+    "A246547",
+    "A286708",
+    "A303606"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

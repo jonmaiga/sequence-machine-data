@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^(n^4)] Product_{k=1..n} (x^(k^4) + 1/x^(k^4)).",
+  "id": "A368348",
+  "mentions": [
+    "A000583",
+    "A063890",
+    "A158465",
+    "A368243",
+    "A368845"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

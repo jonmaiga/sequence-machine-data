@@ -2,8 +2,13 @@
   "description": "Decimal expansion of the positive root of 4*x^2 + x - 1.",
   "id": "A358945",
   "mentions": [
+    "A006131",
+    "A010473",
+    "A049310",
+    "A052923",
+    "A174930",
     "A189038",
-    "A189039"
+    "A222132"
   ],
   "tags": [
     "cons",

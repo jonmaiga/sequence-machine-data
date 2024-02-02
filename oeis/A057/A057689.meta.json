@@ -24,6 +24,6 @@
   "terms": {
     "offset": 2,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,10 +1,14 @@
 {
-  "description": "Table below read by antidiagonals alternately upwards and downwards.",
+  "description": "Table whose n-th row is constant and equal to n, read by antidiagonals alternately upwards and downwards.",
   "id": "A092542",
   "mentions": [
     "A056011",
     "A056023",
-    "A092543"
+    "A092543",
+    "A319571",
+    "A352911",
+    "A354266",
+    "A366191"
   ],
   "tags": [
     "easy",

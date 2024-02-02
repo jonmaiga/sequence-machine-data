@@ -6,16 +6,19 @@
     "A019461",
     "A019462",
     "A019464",
+    "A019465",
     "A019466",
+    "A019762",
     "A082448",
     "A082458"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the final digits of the prime power divisors (p^k, k>=0) of n.",
+  "id": "A367502",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A010879",
+    "A023888"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

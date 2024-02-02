@@ -1,5 +1,5 @@
 {
-  "description": "Least h such that n divides the h-th difference between distinct numbers (1/2)C(2j,j)), as ordered in A205384.",
+  "description": "Least h such that n divides the h-th difference between distinct numbers (1/2)C(2j,j), as ordered in A205384.",
   "id": "A205385",
   "mentions": [
     "A204892",

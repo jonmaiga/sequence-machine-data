@@ -1,0 +1,26 @@
+{
+  "description": "The number nonsquarefree divisors of n that are powers of squarefree numbers (A072777).",
+  "id": "A368251",
+  "mentions": [
+    "A005117",
+    "A034444",
+    "A046660",
+    "A048105",
+    "A066301",
+    "A072777",
+    "A183094",
+    "A323308",
+    "A327527",
+    "A368248",
+    "A368250"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

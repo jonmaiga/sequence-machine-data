@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays with rows and columns lexicographically nondecreasing and column sums nonincreasing.",
+  "description": "T(n,k) = number of n X k binary arrays with rows and columns lexicographically nondecreasing and column sums nonincreasing.",
   "id": "A266470",
   "mentions": [
     "A000027",

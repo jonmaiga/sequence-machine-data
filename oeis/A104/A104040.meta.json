@@ -1,5 +1,5 @@
 {
-  "description": "Triangular matrix T, read by rows, such that row n equals the absolute values of column (n+1) in the matrix inverse T^-1 (with extrapolated zeros): T(n,k) = -Sum_{j=1..[n+1/2]} (-1)^j*T(n-j+1,n-2*j+1)*T(n-j,k)) with T(n,n)=1 (n>=0) and T(n,n-1)=n (n>=1).",
+  "description": "Triangular matrix T, read by rows, such that row n equals the absolute values of column (n+1) in the matrix inverse T^-1 (with extrapolated zeros): T(n,k) = -Sum_{j=1..[n+1/2]} (-1)^j*T(n-j+1,n-2*j+1)*T(n-j,k) with T(n,n)=1 (n>=0) and T(n,n-1)=n (n>=1).",
   "id": "A104040",
   "mentions": [
     "A000129",

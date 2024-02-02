@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1/((d-1)*n + 1))*Sum_{i=0..n} binomial((d - 1)*n+1, n-i) * binomial((d-1)*n+i, i), with d = 6.",
+  "description": "a(n) = 1/((d-1)*n + 1)*Sum_{i=0..n} binomial((d - 1)*n+1, n-i) * binomial((d-1)*n+i, i), with d = 6.",
   "id": "A363006",
   "mentions": [
     "A006318",

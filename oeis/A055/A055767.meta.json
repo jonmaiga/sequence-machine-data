@@ -1,5 +1,5 @@
 {
-  "description": "Index (or subscript) of the largest primorial (A002110(k)) which divides EulerPhi of the n-th primorial ((A005867(n)).",
+  "description": "Index (or subscript) of the largest primorial (A002110(k)) which divides EulerPhi of the n-th primorial (A005867(n)).",
   "id": "A055767",
   "mentions": [
     "A000010",

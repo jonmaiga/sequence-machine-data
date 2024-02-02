@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the permanent of the n-th order Hankel matrix of Catalan numbers M(n) whose generic element is given by M(i,j) = A000108(i+j+n) with i,j = 0, ..., n-1.",
+  "id": "A368298",
+  "mentions": [
+    "A000108",
+    "A355400",
+    "A368025"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

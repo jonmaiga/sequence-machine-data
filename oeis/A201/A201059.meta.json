@@ -3,7 +3,8 @@
   "id": "A201059",
   "mentions": [
     "A000108",
-    "A201058"
+    "A201058",
+    "A268082"
   ],
   "tags": [
     "frac",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "size": 75,
+    "source": "oeis-bfile"
   }
 }

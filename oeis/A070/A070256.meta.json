@@ -1,5 +1,5 @@
 {
-  "description": "Define P(n,X) by the recursion P(1,X)=1, P(n+1,X)=(P(n,X)+X)^2; then a(1)=0 and for n>1 a(n) is the coefficient of X^(2^(n-2)) in P(n,X) of degree 2^(n-1).",
+  "description": "Define P(n,X) by the recursion P(1,X) = 1, P(n+1,X) = (P(n,X)+X)^2; then a(1) = 0 and for n > 1 a(n) is the coefficient of X^(2^(n-2)) in P(n,X) of degree 2^(n-1).",
   "id": "A070256",
   "mentions": [],
   "tags": [

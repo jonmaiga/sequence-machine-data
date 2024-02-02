@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{j=1..n, k=1..n} (j^2 + k^2 + n^2).",
+  "id": "A368622",
+  "mentions": [
+    "A272244",
+    "A324403",
+    "A324425",
+    "A368720",
+    "A368721"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

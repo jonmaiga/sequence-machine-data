@@ -1,0 +1,20 @@
+{
+  "description": "Alternating sum of A006519.",
+  "id": "A368595",
+  "mentions": [
+    "A006519",
+    "A006520",
+    "A093347",
+    "A136013"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

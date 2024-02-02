@@ -1,10 +1,13 @@
 {
-  "description": "Primes of the form 3^n+20=3^n+19+1.",
+  "description": "Primes of the form 3^k + 20.",
   "id": "A102904",
   "mentions": [
-    "A000960"
+    "A000040",
+    "A000960",
+    "A219040"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

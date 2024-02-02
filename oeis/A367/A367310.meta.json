@@ -1,0 +1,17 @@
+{
+  "description": "Continued fraction of the constant in A367309 (the area under the curve (1 - 2^(1-x)) zeta(x) from 0 to 1).",
+  "id": "A367310",
+  "mentions": [
+    "A367309",
+    "A367311"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

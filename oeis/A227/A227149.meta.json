@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the sum of digits is odd when n is written in the factorial base (A007623).",
+  "description": "Numbers k for which the sum of digits is odd when k is written in the factorial base (A007623).",
   "id": "A227149",
   "mentions": [
     "A000069",
@@ -12,6 +12,7 @@
     "A227148"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

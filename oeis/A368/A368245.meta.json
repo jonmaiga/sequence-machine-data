@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that there is a positive integer r for which k^(1/r) = digsum(k) - r.",
+  "id": "A368245",
+  "mentions": [
+    "A001597",
+    "A007953",
+    "A023106",
+    "A029837",
+    "A128912"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

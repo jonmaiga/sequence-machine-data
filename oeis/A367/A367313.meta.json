@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] with weighted inversion index k.",
+  "id": "A367313",
+  "mentions": [
+    "A000041",
+    "A000142",
+    "A000165",
+    "A001754",
+    "A050407",
+    "A175929"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "The j-invariants of the elliptic curves defined over Q with good reduction away from 2.",
   "id": "A332545",
-  "mentions": [],
+  "mentions": [
+    "A359480"
+  ],
   "tags": [
     "fini",
     "full",

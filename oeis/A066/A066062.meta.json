@@ -1,7 +1,8 @@
 {
-  "description": "Number of distinct subsets S of T={0,1,2,...,n} such that each element of T is the sum of two elements of S.",
+  "description": "Number of subsets S of T={0,1,2,...,n} such that each element of T is the sum of two (not necessarily distinct) elements of S.",
   "id": "A066062",
   "mentions": [
+    "A001405",
     "A008929",
     "A066063",
     "A158291",

@@ -1,5 +1,5 @@
 {
-  "description": "Ranks of (odd i)+j*r, when all i+j*r are ranked; r=golden ratio (1+sqrt(5))/2), i>=0, j>=0. Complement of A183988.",
+  "description": "Ranks of (odd i)+j*r, when all i+j*r are ranked; r=golden ratio (1+sqrt(5))/2, i>=0, j>=0. Complement of A183988.",
   "id": "A183987",
   "mentions": [
     "A001622",

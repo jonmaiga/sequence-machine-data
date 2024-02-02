@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn 0..2 arrays with no element equal to any value at offset (0,-1) (-1,-1) or (-2,0) and new values introduced in order 0..2.",
+  "description": "Number of 7 X n 0..2 arrays with no element equal to any value at offset (0,-1) (-1,-1) or (-2,0) and new values introduced in order 0..2.",
   "id": "A274899",
   "mentions": [
     "A274895"

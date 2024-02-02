@@ -1,0 +1,35 @@
+{
+  "description": "Numbers with exactly two distinct prime factors, both appearing with the same exponent.",
+  "id": "A367590",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002133",
+    "A006881",
+    "A007774",
+    "A039956",
+    "A071625",
+    "A072233",
+    "A072774",
+    "A091602",
+    "A109297",
+    "A116608",
+    "A182473",
+    "A238748",
+    "A243978",
+    "A268390",
+    "A303661",
+    "A367580",
+    "A367588",
+    "A367589"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

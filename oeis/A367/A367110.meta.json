@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k has exactly 3 bits equal to 1 in base 2} 1/k.",
+  "id": "A367110",
+  "mentions": [
+    "A014311",
+    "A179951"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

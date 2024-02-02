@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers of the form (x^4 + y^4) mod 3^n; a(n) = A289559(3^n).",
+  "id": "A367484",
+  "mentions": [
+    "A000244",
+    "A039300",
+    "A046631",
+    "A155918",
+    "A289559"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows. T(n, k) = numerator(Integral_{z=0..1} Eulerian(n, k)*z^(k + 1)*(z - 1)^(n - k - 1), where Eulerian(n, k) = A173018(n, k) for n >= 1, and T(0, 0) = 1.",
+  "description": "Triangle read by rows. T(n, k) = numerator(Integral_{z=0..1} Eulerian(n, k)*z^(k + 1)*(z - 1)^(n - k - 1) dz), where Eulerian(n, k) = A173018(n, k) for n >= 1, and T(0, 0) = 1.",
   "id": "A356602",
   "mentions": [
     "A173018",

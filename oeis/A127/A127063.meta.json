@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that denominator of Sum_{k=1..p-1} 1/k^2} is a square and denominator Sum_{k=1..p-1} 1/k^3} is a cube and denominator Sum_{k=1..p-1} 1/k^4} is a fourth power and denominator Sum_{k=1..p-1} 1/k^5} is a fifth power.",
+  "description": "Primes p such that denominator of Sum_{k=1..p-1} 1/k^2 is a square and denominator Sum_{k=1..p-1} 1/k^3 is a cube and denominator Sum_{k=1..p-1} 1/k^4 is a fourth power and denominator Sum_{k=1..p-1} 1/k^5 is a fifth power.",
   "id": "A127063",
   "mentions": [
     "A034602",

@@ -1,0 +1,18 @@
+{
+  "description": "Table read by rows: row n is the only primitive Pythagorean triple whose inradius is the n-th prime and whose short leg is an odd number.",
+  "id": "A367573",
+  "mentions": [
+    "A072055"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

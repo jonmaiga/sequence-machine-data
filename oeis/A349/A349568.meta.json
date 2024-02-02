@@ -1,5 +1,5 @@
 {
-  "description": "Dirichlet convolution of A011782 [2^(n-1))] with A349453 (Dirichlet inverse of A133494, 3^(n-1)).",
+  "description": "Dirichlet convolution of A011782 [2^(n-1)] with A349453 (Dirichlet inverse of A133494, 3^(n-1)).",
   "id": "A349568",
   "mentions": [
     "A011782",

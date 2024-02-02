@@ -1,5 +1,5 @@
 {
-  "description": "Sum of proper divisors of the form 3k+1.",
+  "description": "Sum of proper divisors of n of the form 3k+1.",
   "id": "A293897",
   "mentions": [
     "A078181",
@@ -8,6 +8,7 @@
     "A293901"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of complete length-k integer partitions of n.",
+  "id": "A367106",
+  "mentions": [
+    "A000041",
+    "A000325",
+    "A002033",
+    "A003513",
+    "A007042",
+    "A018818",
+    "A046663",
+    "A047967",
+    "A055932",
+    "A108917",
+    "A126796",
+    "A188431",
+    "A259941",
+    "A261036",
+    "A276024",
+    "A299701",
+    "A299702",
+    "A304792",
+    "A325781",
+    "A365830",
+    "A365831",
+    "A365921",
+    "A365924"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

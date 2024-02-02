@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of n that are either an odd prime power > 1 or twice such a number.",
+  "id": "A366371",
+  "mentions": [
+    "A000265",
+    "A001222",
+    "A067019",
+    "A353558",
+    "A354108",
+    "A354109"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

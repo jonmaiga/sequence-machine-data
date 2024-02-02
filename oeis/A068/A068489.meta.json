@@ -1,7 +1,8 @@
 {
-  "description": "m for which p(m) is the least prime dividing #p(n) - 1, i.e., one less than primorial n-th prime (A057588).",
+  "description": "m for which prime(m) is the least prime dividing #prime(n) - 1, i.e., one less than primorial n-th prime (A057588).",
   "id": "A068489",
   "mentions": [
+    "A000720",
     "A006794",
     "A057588",
     "A057713",

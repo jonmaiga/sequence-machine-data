@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = Primepi(A002407(n)).",
+  "description": "a(n) = pi(A002407(n)).",
   "id": "A145203",
   "mentions": [
+    "A000040",
+    "A000720",
     "A002407"
   ],
   "tags": [

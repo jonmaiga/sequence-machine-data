@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest infinite sequence of positive integers such that a(n + a(n)) is distinct for all n.",
+  "id": "A367467",
+  "mentions": [
+    "A049472",
+    "A083051",
+    "A087057",
+    "A184119",
+    "A293078",
+    "A323420",
+    "A328987",
+    "A337226",
+    "A359807",
+    "A366691",
+    "A367039",
+    "A367832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

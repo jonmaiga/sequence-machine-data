@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that pi(reversal(prime(k)) = reversal(k). Ignore leading 0's.",
+  "description": "Numbers k such that pi(reversal(prime(k))) = reversal(k). Ignore leading 0's.",
   "id": "A348370",
   "mentions": [
     "A000040",

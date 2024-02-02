@@ -1,0 +1,23 @@
+{
+  "description": "Symmetric array read by antidiagonals: A(n,k) is the number of carryless sums i + j with abs(i) <= n and abs(j) <= k.",
+  "id": "A368310",
+  "mentions": [
+    "A003056",
+    "A003991",
+    "A059692",
+    "A169894",
+    "A368311"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

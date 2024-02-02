@@ -1,0 +1,20 @@
+{
+  "description": "Trace of addition table of group of divisors of n.",
+  "id": "A367197",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A048250",
+    "A367203"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

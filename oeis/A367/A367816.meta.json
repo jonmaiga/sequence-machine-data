@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in a shortest sequence of Lucas numbers that sum to n, allowing Lucas numbers with negative indices.",
+  "id": "A367816",
+  "mentions": [
+    "A000032",
+    "A061084",
+    "A116543",
+    "A365907"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

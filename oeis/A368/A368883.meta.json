@@ -1,0 +1,25 @@
+{
+  "description": "The number of infinitary divisors of n that are cubefree.",
+  "id": "A368883",
+  "mentions": [
+    "A000583",
+    "A001620",
+    "A004709",
+    "A013662",
+    "A037445",
+    "A055076",
+    "A077609",
+    "A261506"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

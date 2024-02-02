@@ -1,5 +1,5 @@
 {
-  "description": "Number of (2+2)X(n+2) arrays of permutations of 0..n*4+7 with each element moved 0 or 1 knight moves and equal numbers of elements advancing and retreating in the array numbered in row major order.",
+  "description": "Number of (2+2) X (n+2) arrays of permutations of 0..n*4+7 with each element moved 0 or 1 knight moves and equal numbers of elements advancing and retreating in the array numbered in row major order.",
   "id": "A263708",
   "mentions": [
     "A263706"

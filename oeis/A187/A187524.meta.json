@@ -1,5 +1,5 @@
 {
-  "description": "Number of 5X5 0..n arrays with the array of 2X2 subblock determinants antisymmetric and no off-diagonal 2X2 subblock determinant zero",
+  "description": "Number of 5 X 5 0..n arrays with the array of 2 X 2 subblock determinants antisymmetric and no off-diagonal 2 X 2 subblock determinant zero.",
   "id": "A187524",
   "mentions": [
     "A187521"

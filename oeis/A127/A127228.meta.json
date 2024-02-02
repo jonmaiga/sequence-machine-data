@@ -1,5 +1,5 @@
 {
-  "description": "a(n)= numerator of ((n + 4)! - (n - 4)!)/(n!).",
+  "description": "a(n) = numerator of ((n + 4)! - (n - 4)!)/(n!).",
   "id": "A127228",
   "mentions": [
     "A028387",
@@ -9,12 +9,13 @@
     "A127230"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 4,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

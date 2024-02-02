@@ -1,5 +1,5 @@
 {
-  "description": "a[1]=1; a[n+1]=a[n]-1 if prime[a[n]]+1)/2 is even, else a[n+1]=a[n]+4.",
+  "description": "a[1]=1; a[n+1]=a[n]-1 if (prime[a[n]]+1)/2 is even, else a[n+1]=a[n]+4.",
   "id": "A086409",
   "mentions": [
     "A086407",

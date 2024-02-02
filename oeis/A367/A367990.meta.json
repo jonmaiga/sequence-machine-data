@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the squarefree divisors of the largest unitary divisor of n that is a square.",
+  "id": "A367990",
+  "mentions": [
+    "A000203",
+    "A048250",
+    "A268335",
+    "A336643",
+    "A350388",
+    "A367991"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

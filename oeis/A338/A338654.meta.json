@@ -1,5 +1,5 @@
 {
-  "description": "T(n, k) = 2^n * Product_{j=1..k}((j/2)^((-1)^(j - 1)). Triangle read by rows, for 0 <= k <= n.",
+  "description": "T(n, k) = 2^n * Product_{j=1..k} (j/2)^((-1)^(j - 1)). Triangle read by rows, for 0 <= k <= n.",
   "id": "A338654",
   "mentions": [
     "A000079",

@@ -1,11 +1,14 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] for which the sum of the positions of the right-to-left minima is k (n <= k <= n(n+1)/2).",
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] for which the sum of the positions of the right-to-left minima is k (1 <= k <= n*(n+1)/2).",
   "id": "A143947",
   "mentions": [
     "A000142",
+    "A000217",
     "A001705",
     "A143946",
-    "A143948"
+    "A143948",
+    "A367594",
+    "A368678"
   ],
   "tags": [
     "formulas",

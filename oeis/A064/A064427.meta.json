@@ -1,9 +1,7 @@
 {
-  "description": "(Number of primes <= n - 1) + n.",
+  "description": "a(n) = n + (number of primes < n).",
   "id": "A064427",
   "mentions": [
-    "A000027",
-    "A000040",
     "A000720",
     "A014688",
     "A095117"

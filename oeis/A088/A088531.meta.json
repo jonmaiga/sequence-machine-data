@@ -1,14 +1,18 @@
 {
-  "description": "Numerator of Bigomega(n!)/Omega(n!).",
+  "description": "Numerator of bigomega(n!)/omega(n!).",
   "id": "A088531",
-  "mentions": [],
+  "mentions": [
+    "A000720",
+    "A022559"
+  ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

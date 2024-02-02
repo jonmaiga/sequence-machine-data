@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn 0..1 arrays with every element equal to 0, 1, 2, 4 or 6 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
+  "description": "Number of 3 X n 0..1 arrays with every element equal to 0, 1, 2, 4 or 6 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
   "id": "A303017",
   "mentions": [
     "A303016"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

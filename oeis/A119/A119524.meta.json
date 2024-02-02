@@ -1,9 +1,16 @@
 {
-  "description": "Decimal expansion of the van der Waerden-Ulam binary measure of the composites.",
+  "description": "Decimal expansion of Sum_{k >= 1} ((-1)^A010051(k))/2^k.",
   "id": "A119524",
-  "mentions": [],
+  "mentions": [
+    "A005171",
+    "A010051",
+    "A065855",
+    "A119523",
+    "A275306"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

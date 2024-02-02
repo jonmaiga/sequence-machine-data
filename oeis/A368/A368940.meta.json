@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations before a repeated value, or -1 if this never occurs, when starting at k = 1 and repeating k = k*n if k does not contain any adjacent equal digits, else k = k with all adjacent equal digits replaced by a single copy of the same digit.",
+  "id": "A368940",
+  "mentions": [
+    "A098282",
+    "A171901",
+    "A316650",
+    "A329624",
+    "A330634",
+    "A330674",
+    "A351328"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

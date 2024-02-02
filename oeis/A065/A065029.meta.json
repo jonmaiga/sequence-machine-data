@@ -1,5 +1,5 @@
 {
-  "description": "Period length of the continued fraction for sqrt(2)*n (A064848) is 2.",
+  "description": "Numbers k such that the period of the continued fraction for sqrt(2)*k (A064848) is 2.",
   "id": "A065029",
   "mentions": [
     "A064848",

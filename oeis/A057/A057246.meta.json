@@ -1,5 +1,5 @@
 {
-  "description": "s=0; d is divisor of n [here d<= n/d)]; if gcd(d,n/d)=1 or gcd(d,n/d)=d then s=s+d+(n/d); [if d=n/d then s=s+d]: The sequence contains composite n for which s = 2*n.",
+  "description": "s=0; d is divisor of n [here d <= n/d]; if gcd(d,n/d)=1 or gcd(d,n/d)=d then s=s+d+(n/d); [if d=n/d then s=s+d]: The sequence contains composite n for which s = 2*n.",
   "id": "A057246",
   "mentions": [
     "A060866"

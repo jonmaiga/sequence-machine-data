@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = exp( Sum(n>=1} A(x^n)/(1-x)^n * x^n/n ).",
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} A(x^n)/(1-x)^n * x^n/n ).",
   "id": "A199104",
   "mentions": [
     "A199103"

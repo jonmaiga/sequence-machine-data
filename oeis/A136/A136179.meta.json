@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{k=1..d(n)-1) gcd(b(k), b(k+1)), where b(k) is the k-th positive divisor of n and d(n) is the number of positive divisors of n.",
+  "description": "a(n) = Product_{k=1..d(n)-1} gcd(b(k), b(k+1)), where b(k) is the k-th positive divisor of n and d(n) is the number of positive divisors of n.",
   "id": "A136179",
   "mentions": [
     "A136178",

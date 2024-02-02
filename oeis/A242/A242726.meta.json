@@ -1,5 +1,5 @@
 {
-  "description": "Sphenic numbers n=p*q*r, where reversal(n) is also a sphenic number and reversal(n) = reversal(p)*reversal(q)*reversal(r).",
+  "description": "Sphenic numbers k = p*q*r such that reversal(k) is also a sphenic number and reversal(k) = reversal(p)*reversal(q)*reversal(r).",
   "id": "A242726",
   "mentions": [
     "A007304",

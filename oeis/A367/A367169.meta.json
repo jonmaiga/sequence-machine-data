@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the sum of the exponents in the prime factorization of n that are powers of 2.",
+  "id": "A367169",
+  "mentions": [
+    "A001222",
+    "A048298",
+    "A077761",
+    "A138302",
+    "A350386",
+    "A350387",
+    "A367168",
+    "A367170",
+    "A367171"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

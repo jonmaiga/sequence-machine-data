@@ -1,0 +1,26 @@
+{
+  "description": "The number of cubefree divisors d of n such that n/d is also cubefree.",
+  "id": "A369306",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A002117",
+    "A004709",
+    "A005117",
+    "A007427",
+    "A069492",
+    "A073184",
+    "A244115"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the sum of cubes of the 4 consecutive primes starting with p is twice a prime.",
+  "id": "A368637",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A133525"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

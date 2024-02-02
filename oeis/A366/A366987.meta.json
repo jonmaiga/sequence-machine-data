@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n, k) = -(2^(n - k)*(-1)^n + 2^k + (-1)^k)/3.",
+  "id": "A366987",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A020989",
+    "A048573",
+    "A053088",
+    "A059570",
+    "A077898",
+    "A078008",
+    "A140966",
+    "A155980",
+    "A282577"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

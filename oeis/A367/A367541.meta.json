@@ -1,0 +1,18 @@
+{
+  "description": "Number of discrete implications I:L_n^2-> L_n defined on the finite chain L_n={0,1,...n}, which satisfy the identity principle, i.e., I(x,x)=n for all x in L_n.",
+  "id": "A367541",
+  "mentions": [
+    "A074962",
+    "A360612"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

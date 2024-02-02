@@ -1,9 +1,8 @@
 {
-  "description": "A sequence related to sine products and the Fibonacci numbers A000045: a(n) = Product_{k=1..n} (1 + 4*sin(2*Pi*k/n)^2).",
+  "description": "a(n) = Product_{k=1..n} (1 + 4*sin(2*Pi*k/n)^2).",
   "id": "A152152",
   "mentions": [
     "A000032",
-    "A000045",
     "A001350",
     "A324487"
   ],

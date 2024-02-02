@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of 2n-regular circulant graphs of order 53.",
+  "id": "A367554",
+  "mentions": [
+    "A000031",
+    "A049287",
+    "A285620"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

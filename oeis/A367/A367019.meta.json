@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of strictly decreasing sequences (w_1, ..., w_k) such that w_1 = n, for m = 1..k-1, w_{m+1} is obtained by removing one significant binary digit from w_m, and w_k = 0.",
+  "id": "A367019",
+  "mentions": [
+    "A000225",
+    "A060351",
+    "A368070"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

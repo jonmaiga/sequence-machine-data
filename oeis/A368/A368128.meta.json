@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the y-coordinate of the n-th point in a square spiral mapped to a square grid rotated by Pi/4 using the symmetrized variant of the distance-limited strip bijection described in A368126.",
+  "id": "A368128",
+  "mentions": [
+    "A367150",
+    "A368126",
+    "A368127"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

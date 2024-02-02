@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = [x^(2^n+n-2)] (x + x^2 + x^4 + x^8 + ... + x^(2^n))^n /(n*(n-1)/2)) for n>=2.",
+  "description": "a(n) = [x^(2^n+n-2)] (x + x^2 + x^4 + x^8 + ... + x^(2^n))^n /(n*(n-1)/2) for n>=2.",
   "id": "A135071",
   "mentions": [
     "A135068",

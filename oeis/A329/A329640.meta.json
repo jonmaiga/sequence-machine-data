@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which A329639(n) is equal to gcd(A329638(n), A329639(n).",
+  "description": "Numbers n for which A329639(n) is equal to gcd(A329638(n), A329639(n)).",
   "id": "A329640",
   "mentions": [
     "A156552",

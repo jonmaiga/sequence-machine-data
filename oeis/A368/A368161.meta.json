@@ -1,0 +1,16 @@
+{
+  "description": "Least perfect power m that is the sum of n consecutive perfect powers, or -1 if m does not exist.",
+  "id": "A368161",
+  "mentions": [
+    "A072103"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

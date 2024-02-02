@@ -1,5 +1,5 @@
 {
-  "description": "Bigomega of Pisano periods mod n, i.e., number of prime divisors with multiplicity of the period length of Fibonacci residues mod n.",
+  "description": "Bigomega of Pisano periods mod n, i.e., number of prime divisors (counted with multiplicity) of the period of Fibonacci residues mod n.",
   "id": "A131597",
   "mentions": [
     "A000045",

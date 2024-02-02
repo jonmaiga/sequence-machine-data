@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. A(x), where A(x)=x*exp(A(x))+x*log(1/(1-A(x)).",
+  "description": "E.g.f. A(x), where A(x)=x*exp(A(x))+x*log(1/(1-A(x))).",
   "id": "A185388",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) = C(n,m)*Sum_{k=0..n} C(n,m-k))*C(n+k,k)/C(2*k,k).",
+  "description": "Triangle T(n,m) = C(n,m)*Sum_{k=0..n} C(n,m-k)*C(n+k,k)/C(2*k,k).",
   "id": "A339000",
   "mentions": [
     "A000045",

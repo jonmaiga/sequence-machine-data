@@ -1,0 +1,20 @@
+{
+  "description": "List of powers of 3 and powers of 4, in increasing order, starting with a(0) = 3^0 = 4^0 = 1.",
+  "id": "A367083",
+  "mentions": [
+    "A000244",
+    "A000302",
+    "A327621",
+    "A367084"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

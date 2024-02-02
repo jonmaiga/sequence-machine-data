@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n, k) = floor(binomial(n, k - 1) * (k - 1)^(k - 1) * k *(n - k + 1)^(n - k) / 2).",
+  "id": "A369025",
+  "mentions": [
+    "A369026",
+    "A369027"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

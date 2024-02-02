@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is a lower bound for the number of distinct stable centroidal Voronoi tessellations (CVTs) of a square with n generators (seeds).",
+  "id": "A366544",
+  "mentions": [
+    "A363822"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

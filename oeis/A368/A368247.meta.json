@@ -1,0 +1,22 @@
+{
+  "description": "The number of cubefree divisors of the cubefull part of n (A360540).",
+  "id": "A368247",
+  "mentions": [
+    "A004709",
+    "A036966",
+    "A073184",
+    "A323308",
+    "A360540"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

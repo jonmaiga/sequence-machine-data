@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n] such that for each block the arithmetic mean of the elements is an integer.",
+  "id": "A369073",
+  "mentions": [
+    "A000110",
+    "A327475",
+    "A369074"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the n-digit denominator of the fraction h/k with h and k coprime positive integers at which abs(h/k-e) is minimal.",
+  "id": "A368621",
+  "mentions": [
+    "A001113",
+    "A007676",
+    "A007677",
+    "A368617",
+    "A368618",
+    "A368619",
+    "A368620",
+    "A368659"
+  ],
+  "tags": [
+    "base",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

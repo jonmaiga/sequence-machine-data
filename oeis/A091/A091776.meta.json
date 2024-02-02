@@ -1,5 +1,5 @@
 {
-  "description": "a(1)= 1, a(n+1) = a(n)*{a(n)+1)}*{a(n)+2)*...*{a(n)+n-1)}/n.",
+  "description": "a(1)= 1, a(n+1) = a(n)*(a(n)+1)*(a(n)+2)*...*(a(n)+n-1)/n.",
   "id": "A091776",
   "mentions": [
     "A091777"

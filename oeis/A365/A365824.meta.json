@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + 5*a(n-2), for n >= 0, with a(0) = 1 and a(1) = 0.",
+  "id": "A365824",
+  "mentions": [
+    "A010477",
+    "A015440",
+    "A049310",
+    "A222134",
+    "A367453"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Array T(n,k) read by antidiagonals: (row 0)=squares, (row 1)={numbers m for which the simple continued fraction (CF) of sqrt(m) has period length 1; once (row n) is defined, let (row n+1) begin with the least positive integer not already in a row and let the rest of (row n+1) be the other k's for which CF(sqrt(k)) has the same period length.",
+  "description": "Array T(n,k) read by antidiagonals: (row 0)=squares, (row 1)={numbers m for which the simple continued fraction (CF) of sqrt(m) has period length 1}; once (row n) is defined, let (row n+1) begin with the least positive integer not already in a row and let the rest of (row n+1) be the other k's for which CF(sqrt(k)) has the same period length.",
   "id": "A091451",
   "mentions": [
     "A091449",

@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of value to which Sum_{k>=2} d(k)/prime(k) appears to converge, where d(k)=-1 if p mod 3 = 1, d(k)=+1 if p mod 3 = 2 and d(k)=0 if p mod 3 = 0.",
   "id": "A086241",
-  "mentions": [],
+  "mentions": [
+    "A161529",
+    "A368644"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "hard",
     "nonn"
   ],

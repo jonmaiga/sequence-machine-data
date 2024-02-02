@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n!)^3 * Sum_{k=0..n} (k/k!)^3.",
+  "id": "A368772",
+  "mentions": [
+    "A193563",
+    "A217284",
+    "A368769",
+    "A368770",
+    "A368771"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

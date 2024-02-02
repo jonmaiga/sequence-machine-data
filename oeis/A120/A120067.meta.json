@@ -1,7 +1,9 @@
 {
   "description": "Swap each two consecutive semiprimes.",
   "id": "A120067",
-  "mentions": [],
+  "mentions": [
+    "A001358"
+  ],
   "tags": [
     "nonn"
   ],

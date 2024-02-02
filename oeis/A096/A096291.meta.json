@@ -1,5 +1,5 @@
 {
-  "description": "(Sum of digits(product of nonzero digits(n^n)).",
+  "description": "Sum of digits(product of nonzero digits(n^n)).",
   "id": "A096291",
   "mentions": [
     "A007953",

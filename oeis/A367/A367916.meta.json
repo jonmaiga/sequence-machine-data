@@ -1,0 +1,40 @@
+{
+  "description": "Number of sets of nonempty subsets of {1..n} with the same number of edges as covered vertices.",
+  "id": "A367916",
+  "mentions": [
+    "A000372",
+    "A000612",
+    "A003465",
+    "A006126",
+    "A006649",
+    "A014466",
+    "A054780",
+    "A055621",
+    "A058891",
+    "A059201",
+    "A092918",
+    "A102896",
+    "A133686",
+    "A136556",
+    "A306445",
+    "A323818",
+    "A355740",
+    "A367770",
+    "A367862",
+    "A367863",
+    "A367869",
+    "A367901",
+    "A367902",
+    "A367905",
+    "A367917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

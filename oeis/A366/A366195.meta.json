@@ -1,0 +1,16 @@
+{
+  "description": "Integers whose binary expansion has the property that there exists a length-k substring of bits in the expansion that is strictly lexicographically later than the first k bits.",
+  "id": "A366195",
+  "mentions": [
+    "A328870"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

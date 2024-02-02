@@ -1,0 +1,17 @@
+{
+  "description": "2*k-digit squares with the left half being a reversed k-digit square and the right half being a k-digit square.",
+  "id": "A367378",
+  "mentions": [
+    "A000290",
+    "A004086"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

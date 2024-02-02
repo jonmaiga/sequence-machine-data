@@ -1,0 +1,25 @@
+{
+  "description": "Place n points in general position on each side of an equilateral triangle, and join every pair of the 3*n+3 boundary points by a chord; sequence gives number of regions in the resulting planar graph.",
+  "id": "A367118",
+  "mentions": [
+    "A091908",
+    "A092098",
+    "A092866",
+    "A092867",
+    "A274585",
+    "A274586",
+    "A331782",
+    "A367015",
+    "A367117",
+    "A367119"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

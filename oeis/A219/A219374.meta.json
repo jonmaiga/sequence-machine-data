@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of F(n,r) of r-geometric numbers, 1<=r<=n.",
+  "description": "Triangle of F(n,r) of r-geometric numbers, 1 <= r <= n.",
   "id": "A219374",
   "mentions": [
     "A000670",

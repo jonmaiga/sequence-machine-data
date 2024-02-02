@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} n^k * binomial(n-2*k,k).",
+  "id": "A368891",
+  "mentions": [
+    "A171180",
+    "A360748",
+    "A368892",
+    "A368893",
+    "A368895",
+    "A368898"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

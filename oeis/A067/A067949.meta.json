@@ -5,12 +5,12 @@
     "A067836"
   ],
   "tags": [
-    "more",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "joeis"
   }
 }

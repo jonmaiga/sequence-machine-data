@@ -1,10 +1,13 @@
 {
-  "description": "a(k) is the number of terms of a sequence analog of A121805, but starting with k.",
+  "description": "a(n) is the number of terms in the analog of A121805 but starting with n, or -1 if that sequence is infinite.",
   "id": "A330128",
   "mentions": [
     "A121805",
     "A139284",
-    "A330129"
+    "A330129",
+    "A366492",
+    "A367364",
+    "A367365"
   ],
   "tags": [
     "base",
@@ -13,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 29,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of r-Egyptian fraction expansion for (1/2)^(1/3)), where r(k) = 1/(k+1).",
+  "description": "Denominators of r-Egyptian fraction expansion for (1/2)^(1/3), where r(k) = 1/(k+1).",
   "id": "A270591",
   "mentions": [
     "A269993"

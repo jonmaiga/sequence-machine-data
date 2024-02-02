@@ -1,5 +1,5 @@
 {
-  "description": "Let f(p,i) = smallest m > p such that m == i mod p; a(n) = Sum_{i=0..p-1) f(p,i), where p = n-th prime.",
+  "description": "Let f(p,i) = smallest prime m >= p such that m == i (mod p); a(n) = Sum_{i=0..p-1} f(p,i), where p = n-th prime.",
   "id": "A243076",
   "mentions": [],
   "tags": [

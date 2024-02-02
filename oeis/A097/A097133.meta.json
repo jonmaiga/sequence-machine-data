@@ -1,5 +1,5 @@
 {
-  "description": "3*Fibonacci(n)+(-1)^n.",
+  "description": "a(n) = 3*Fibonacci(n)+(-1)^n.",
   "id": "A097133",
   "mentions": [
     "A000045",

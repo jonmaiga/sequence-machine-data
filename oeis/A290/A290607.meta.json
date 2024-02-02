@@ -1,14 +1,17 @@
 {
   "description": "Number of maximal independent vertex sets (and minimal vertex covers) in the n-Keller graph.",
   "id": "A290607",
-  "mentions": [],
+  "mentions": [
+    "A258935",
+    "A284854"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

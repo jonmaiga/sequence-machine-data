@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = k is the smallest exponent k such that at least 3 equal decimal digits \"n,n,n\" appear in the decimal representation of 3^k (n=0,1,...,9).",
+  "id": "A367738",
+  "mentions": [
+    "A000244",
+    "A018802",
+    "A171132",
+    "A171242"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

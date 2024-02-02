@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 0; for n > 1, a(n) is the least positive integer k for which k*prime(n) + 2 is prime.",
+  "id": "A367805",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A029707",
+    "A035096",
+    "A117673",
+    "A279756"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

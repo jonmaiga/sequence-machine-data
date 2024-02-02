@@ -1,5 +1,5 @@
 {
-  "description": "Consider a non-palindromic number of k digits n = d_(k)*10^(k-1) + d_(k-1)*10^(k-2) + … + d_(2)*10 + d_(1). Sequence lists the numbers n such that Sum_{i=1..k-1}{phi(Sum_{j=1..i}{d_(j)*10^(j-1)})}} = Sum_{i=1..k-1}{phi(Sum_{j=1..i}{d_(k-j+1)*10^(i-j)})} (see example below).",
+  "description": "Consider a non-palindromic number of k digits n = d_(k)*10^(k-1) + d_(k-1)*10^(k-2) + … + d_(2)*10 + d_(1). Sequence lists the numbers n such that Sum_{i=1..k-1}{phi(Sum_{j=1..i}{d_(j)*10^(j-1)})} = Sum_{i=1..k-1}{phi(Sum_{j=1..i}{d_(k-j+1)*10^(i-j)})} (see example below).",
   "id": "A241503",
   "mentions": [
     "A000010",

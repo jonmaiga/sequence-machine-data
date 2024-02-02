@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(x * (3 - 2*exp(x))).",
+  "id": "A367877",
+  "mentions": [
+    "A367876"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

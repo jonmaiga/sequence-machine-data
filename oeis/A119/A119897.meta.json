@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that 2^n, 3^n, 5^n, 7^n, 11^n, 13^n, 17^n and 19^n have even digit sum.",
+  "description": "Numbers k such that 2^k, 3^k, 5^k, 7^k, 11^k, 13^k, 17^k and 19^k have even digit sum.",
   "id": "A119897",
   "mentions": [
+    "A054683",
     "A118734",
     "A118867",
     "A119894",

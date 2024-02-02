@@ -6,11 +6,12 @@
     "A289460"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 82,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

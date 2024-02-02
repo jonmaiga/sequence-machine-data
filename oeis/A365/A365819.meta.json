@@ -1,0 +1,13 @@
+{
+  "description": "a(n) = a(n-1) - 1 + floor(median(a) - mean(a)) where a(0) = 0, a(1) = 1, and median(a) and mean(a) are respectively the median and mean of all previous terms.",
+  "id": "A365819",
+  "mentions": [],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

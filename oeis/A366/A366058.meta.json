@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-step self-avoiding walks on a 3D cubic lattice where no step is to a lattice point closer to the origin than the current point.",
+  "id": "A366058",
+  "mentions": [
+    "A001412",
+    "A173033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

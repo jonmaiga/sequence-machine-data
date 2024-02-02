@@ -1,0 +1,22 @@
+{
+  "description": "The number of divisors of n whose prime factors are all of the form k^2+1.",
+  "id": "A368544",
+  "mentions": [
+    "A000005",
+    "A002496",
+    "A005574",
+    "A070303",
+    "A180252"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: row n gives the sequence of pairs ((x(n)_j, y(n)_j))_{j=1..A336886(n)}, for all non-Pythagorean triples ((X(n)_j = sqrt(x(n)_j), Y(n)_j = sqrt(y(n)_j), Z(n) = sqrt(z(n))), with integers 1 <= x(n)_j <= y(n)_j <= z(n) = A334818(n), which correspond to non-right triangles with positive integer area A(n)_j with leg pairs (X(n)_j, Y(n)_j) and base Z(n), for j = 1, 2, ..., A336886(n). The order of the pairs in row n is by nondecreasing y(n)_j.",
+  "description": "Irregular triangle read by rows: row n gives the sequence of pairs ((x(n)_j, y(n)_j))_{j=1..A336886(n)}, for all non-Pythagorean triples (X(n)_j = sqrt(x(n)_j), Y(n)_j = sqrt(y(n)_j), Z(n) = sqrt(z(n))), with integers 1 <= x(n)_j <= y(n)_j <= z(n) = A334818(n), which correspond to non-right triangles with positive integer area A(n)_j with leg pairs (X(n)_j, Y(n)_j) and base Z(n), for j = 1, 2, ..., A336886(n). The order of the pairs in row n is by nondecreasing y(n)_j.",
   "id": "A336885",
   "mentions": [
     "A334818",

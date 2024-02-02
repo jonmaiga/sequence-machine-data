@@ -1,0 +1,22 @@
+{
+  "description": "Moduli k for which the number of quadratic residues mod k coprime to k is equal to phi(k)/2^(phi(k)/lambda(k)), where lambda is Carmichael's function.",
+  "id": "A366935",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A033948",
+    "A034380",
+    "A046072",
+    "A046073"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

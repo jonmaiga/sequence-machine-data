@@ -2,7 +2,6 @@
   "description": "Numbers that are congruent to {4, 5, 6, 7} mod 8.",
   "id": "A047566",
   "mentions": [
-    "A002265",
     "A003628",
     "A005408",
     "A042964",

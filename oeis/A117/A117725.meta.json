@@ -1,16 +1,20 @@
 {
-  "description": "Numbers for which the sum of the digits and the product of the digits are both Fibonacci-numbers.",
+  "description": "Zeroless numbers for which the sum of the digits and the product of the digits are both Fibonacci numbers.",
   "id": "A117725",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A028840",
+    "A028890",
+    "A052382",
+    "A117774"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 44,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

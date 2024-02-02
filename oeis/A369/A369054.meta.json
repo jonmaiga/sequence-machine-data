@@ -1,0 +1,36 @@
+{
+  "description": "Number of representations of n as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "id": "A369054",
+  "mentions": [
+    "A002620",
+    "A003415",
+    "A006862",
+    "A046316",
+    "A057588",
+    "A099302",
+    "A369055",
+    "A369056",
+    "A369058",
+    "A369063",
+    "A369064",
+    "A369241",
+    "A369242",
+    "A369245",
+    "A369247",
+    "A369251",
+    "A369252",
+    "A369460",
+    "A369461",
+    "A369462",
+    "A369464"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 124,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the positive values k such that there are no primes between k*n and k*(n + 1), or -1 if no such k exists.",
+  "id": "A367647",
+  "mentions": [
+    "A047845",
+    "A068780",
+    "A110835",
+    "A278425"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

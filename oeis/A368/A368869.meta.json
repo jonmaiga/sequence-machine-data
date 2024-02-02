@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n into prime parts not greater than sqrt(n).",
+  "id": "A368869",
+  "mentions": [
+    "A000607",
+    "A097356"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

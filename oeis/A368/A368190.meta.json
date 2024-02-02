@@ -1,0 +1,19 @@
+{
+  "description": "Number of (undirected) cycles in the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A368190",
+  "mentions": [
+    "A007018",
+    "A367967",
+    "A367968",
+    "A368456"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

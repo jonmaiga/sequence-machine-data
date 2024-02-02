@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..1 arrays with no 1 equal to more than three of its king-move neighbors, with the exception of exactly two elements.",
+  "description": "Number of n X 2 0..1 arrays with no 1 equal to more than three of its king-move neighbors, with the exception of exactly two elements.",
   "id": "A282475",
   "mentions": [
     "A282481"

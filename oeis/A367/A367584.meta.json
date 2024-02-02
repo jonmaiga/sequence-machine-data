@@ -1,0 +1,42 @@
+{
+  "description": "Least number whose multiset multiplicity kernel (in which each prime exponent becomes the least prime factor with that exponent) is n. First position of n in A367580.",
+  "id": "A367584",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A007916",
+    "A007947",
+    "A020639",
+    "A027746",
+    "A027748",
+    "A051904",
+    "A055396",
+    "A071625",
+    "A072774",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A246547",
+    "A304038",
+    "A367579",
+    "A367580",
+    "A367581",
+    "A367583",
+    "A367585",
+    "A367586",
+    "A367768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

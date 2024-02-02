@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the number of divisors of k^2 is a power of 3.",
+  "id": "A369210",
+  "mentions": [
+    "A000005",
+    "A000244",
+    "A000290",
+    "A197680",
+    "A274034",
+    "A361177",
+    "A366762"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "The integer k that minimizes |k/2^n - sqrt(1/3))|.",
+  "description": "The integer k that minimizes |k/2^n - sqrt(1/3)|.",
   "id": "A293329",
   "mentions": [
     "A002194",

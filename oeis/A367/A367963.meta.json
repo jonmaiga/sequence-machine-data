@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{j=0..n} (2*n)! / (n!*(n - j)!).",
+  "id": "A367963",
+  "mentions": [
+    "A367962"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

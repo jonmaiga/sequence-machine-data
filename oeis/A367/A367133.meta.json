@@ -1,0 +1,19 @@
+{
+  "description": "Rank of the n X n matrix whose terms are the n^2 values of isprime(x) from 1 to n^2.",
+  "id": "A367133",
+  "mentions": [
+    "A010051",
+    "A064866",
+    "A221490",
+    "A289777",
+    "A367077"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

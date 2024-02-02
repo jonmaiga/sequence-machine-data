@@ -1,0 +1,22 @@
+{
+  "description": "Square root of the largest square dividing the n-th powerful number.",
+  "id": "A369429",
+  "mentions": [
+    "A000188",
+    "A001694",
+    "A002117",
+    "A078434",
+    "A087050",
+    "A369430"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

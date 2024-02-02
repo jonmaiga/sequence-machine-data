@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k, such that (Sum_{d|k} (-1)^[d is prime] * d) is prime.",
+  "id": "A367176",
+  "mentions": [
+    "A023194",
+    "A114522",
+    "A367175"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

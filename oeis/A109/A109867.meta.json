@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 12; for n >= 1, a(n+1) = abs((a(n) + R(a(n)) * (a(n) - R(a(n))), where R(k) is the digit reversal of k.",
+  "description": "a(1) = 12; for n >= 1, a(n+1) = abs((a(n) + R(a(n))) * (a(n) - R(a(n)))), where R(k) is the digit reversal of k.",
   "id": "A109867",
   "mentions": [],
   "tags": [

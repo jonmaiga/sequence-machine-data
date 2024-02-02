@@ -1,5 +1,5 @@
 {
-  "description": "Period length of the decimal expansion of 1/F as F runs through the Fibonacci numbers not divisible by 2 or 5.",
+  "description": "Period of the decimal expansion of 1/F as F runs through the Fibonacci numbers greater than 1 and not divisible by 2 or 5.",
   "id": "A175550",
   "mentions": [
     "A000045",

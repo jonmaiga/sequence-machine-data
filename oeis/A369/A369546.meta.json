@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = A( x^2*(1+x)^3 ) / (x*(1+x)^2).",
+  "id": "A369546",
+  "mentions": [
+    "A369545",
+    "A369547",
+    "A369548",
+    "A369549",
+    "A369553"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

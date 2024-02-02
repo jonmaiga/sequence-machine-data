@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of the square of the n-th triangular number into cubes.",
+  "id": "A369087",
+  "mentions": [
+    "A000217",
+    "A000537",
+    "A000578",
+    "A003108",
+    "A218495"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

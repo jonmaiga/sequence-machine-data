@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that all primes dividing the k-th composite number divide k as well.",
+  "id": "A368309",
+  "mentions": [
+    "A002808",
+    "A007947",
+    "A137924"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

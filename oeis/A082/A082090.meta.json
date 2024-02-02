@@ -2,12 +2,27 @@
   "description": "Length of iteration sequence if function A056239, a pseudo-logarithm is iterated and started at n. Fixed point equals zero for all initial values.",
   "id": "A082090",
   "mentions": [
+    "A000079",
+    "A000720",
+    "A001221",
+    "A001222",
     "A001414",
+    "A007097",
     "A008475",
+    "A014221",
+    "A052410",
     "A056239",
+    "A066328",
     "A082083",
     "A082086",
-    "A082091"
+    "A082091",
+    "A112798",
+    "A181819",
+    "A225485",
+    "A238747",
+    "A288636",
+    "A296150",
+    "A304038"
   ],
   "tags": [
     "nonn"

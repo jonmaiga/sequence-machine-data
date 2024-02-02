@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs of functions f, g from a size n set into itself satisfying f(g(f(x))) = g(f(f(x)).",
+  "description": "Number of pairs of functions f, g from a size n set into itself satisfying f(g(f(x))) = g(f(f(x))).",
   "id": "A239770",
   "mentions": [
     "A181162",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that n, n+1 and n+(n+1) are all semiprimes.",
+  "description": "Numbers k with the property that k, k+1 and 2*k+1 are all semiprimes.",
   "id": "A188059",
   "mentions": [
     "A001358",

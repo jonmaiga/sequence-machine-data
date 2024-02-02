@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of o.g.f. (1-x)^5/((1-x)^5 - x^4).",
+  "id": "A368475",
+  "mentions": [
+    "A000332",
+    "A290998"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

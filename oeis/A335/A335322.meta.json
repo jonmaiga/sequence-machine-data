@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n, k) = binomial(n, floor((n+k+1)/2) with k <= n.",
+  "description": "Triangle read by rows: T(n, k) = binomial(n, floor((n+k+1)/2)) with k <= n.",
   "id": "A335322",
   "mentions": [
     "A000372",

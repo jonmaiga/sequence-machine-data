@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the floor of the n-th improper fraction (including the ones of the type n/n) sorted by increasing numerator+denominator, then by numerator.",
+  "id": "A366421",
+  "mentions": [
+    "A138099",
+    "A216607"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

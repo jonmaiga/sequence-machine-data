@@ -2,6 +2,7 @@
   "description": "Squares mod 86.",
   "id": "A010447",
   "mentions": [
+    "A010404",
     "A028799"
   ],
   "tags": [

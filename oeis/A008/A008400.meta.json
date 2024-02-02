@@ -1,7 +1,9 @@
 {
   "description": "Crystal ball sequence for E_6 lattice.",
   "id": "A008400",
-  "mentions": [],
+  "mentions": [
+    "A008527"
+  ],
   "tags": [
     "easy",
     "formulas",

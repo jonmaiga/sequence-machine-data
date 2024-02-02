@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the final digits of the squarefree divisors of n.",
+  "id": "A367503",
+  "mentions": [
+    "A005117",
+    "A010879",
+    "A367466"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

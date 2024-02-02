@@ -1,0 +1,21 @@
+{
+  "description": "The squarefree kernels of the exponentially odd numbers: a(n) = A007947(A268335(n)).",
+  "id": "A367417",
+  "mentions": [
+    "A007947",
+    "A013662",
+    "A065463",
+    "A268335",
+    "A367406"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

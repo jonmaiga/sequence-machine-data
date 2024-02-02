@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array by antidiagonals: T(n,m) = rank of n*(r+m) when all the numbers k*(r+h), where r = (1+sqrt(5))/2) (the golden ratio), k>=1, h>=0, are jointly ranked.",
+  "description": "Rectangular array by antidiagonals: T(n,m) = rank of n*(r+m) when all the numbers k*(r+h), where r = (1+sqrt(5))/2 (the golden ratio), k>=1, h>=0, are jointly ranked.",
   "id": "A292959",
   "mentions": [
     "A182801",

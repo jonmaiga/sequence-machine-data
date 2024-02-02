@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n, k) = k * prime(n - k + A061395(k)) for 1 < k <= n, and T(n, 1) = A008578(n).",
+  "id": "A363473",
+  "mentions": [
+    "A000040",
+    "A001747",
+    "A001749",
+    "A001750",
+    "A008578",
+    "A061395",
+    "A112773",
+    "A138636",
+    "A253560",
+    "A272470"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

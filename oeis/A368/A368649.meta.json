@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = round(n*rho), where rho = (5+sqrt(5))/2.",
+  "id": "A368649",
+  "mentions": [
+    "A003231",
+    "A118287",
+    "A296184"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

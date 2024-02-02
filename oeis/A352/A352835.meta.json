@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of nonnegative integers such that the binary expansions of two consecutive terms have no common 1's and for any distinct m and n, {a(m}, a(m+1)} <> {a(n), a(n+1)}.",
+  "description": "Lexicographically earliest sequence of nonnegative integers such that the binary expansions of two consecutive terms have no common 1's and for any distinct m and n, {a(m), a(m+1)} <> {a(n), a(n+1)}.",
   "id": "A352835",
   "mentions": [
     "A352836"

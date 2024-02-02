@@ -1,0 +1,21 @@
+{
+  "description": "Let b(0) = 1, b(n) = Sum_{k=0..n-1} b(k) / b(n-k-1), then a(n) is the numerator of b(n).",
+  "id": "A367787",
+  "mentions": [
+    "A000108",
+    "A022857",
+    "A022858",
+    "A073833",
+    "A367788"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

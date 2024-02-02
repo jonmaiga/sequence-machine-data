@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-sided regions, k>=3, in a graph of n adjacent rectangles in a row with all possible diagonals drawn, as in A306302, but without the rectangles' edges which are perpendicular to the row.",
+  "id": "A369178",
+  "mentions": [
+    "A306302",
+    "A324042",
+    "A324043",
+    "A368758",
+    "A369175",
+    "A369176",
+    "A369177"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

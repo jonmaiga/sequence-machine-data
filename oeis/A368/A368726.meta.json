@@ -1,0 +1,41 @@
+{
+  "description": "Number of non-isomorphic connected multiset partitions of weight n into singletons or pairs.",
+  "id": "A368726",
+  "mentions": [
+    "A000085",
+    "A000666",
+    "A001515",
+    "A007716",
+    "A007717",
+    "A007718",
+    "A054921",
+    "A062740",
+    "A100861",
+    "A111924",
+    "A122848",
+    "A283877",
+    "A302545",
+    "A320462",
+    "A320663",
+    "A320732",
+    "A321405",
+    "A322661",
+    "A322700",
+    "A339839",
+    "A339888",
+    "A368186",
+    "A368598",
+    "A368599",
+    "A368727",
+    "A368731"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

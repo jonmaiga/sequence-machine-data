@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that prime(n+1+k) >= prime(n)+prime(n+1).",
+  "id": "A366274",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001043",
+    "A076273",
+    "A098084",
+    "A098085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

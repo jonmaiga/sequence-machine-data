@@ -2,7 +2,7 @@
   "description": "a(1) = 1; for n>1, a(n) is the smallest square > a(n-1) obtained by inserting digits into a(n-1).",
   "id": "A068175",
   "mentions": [
-    "A091874"
+    "A067633"
   ],
   "tags": [
     "base",

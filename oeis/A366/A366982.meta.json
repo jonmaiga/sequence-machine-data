@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest odd k > 1 such that n^((k+1)/2) == n (mod k).",
+  "id": "A366982",
+  "mentions": [
+    "A033181",
+    "A309316",
+    "A366930",
+    "A366973"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

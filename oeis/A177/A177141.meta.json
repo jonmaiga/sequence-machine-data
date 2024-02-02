@@ -1,13 +1,16 @@
 {
-  "description": "Primes of the form (6*10^n-7)",
+  "description": "Primes of the form (6*10^k-7)",
   "id": "A177141",
-  "mentions": [],
+  "mentions": [
+    "A103025"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 10,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

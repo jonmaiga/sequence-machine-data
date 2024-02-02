@@ -1,0 +1,20 @@
+{
+  "description": "Indices k at which either the leading digit or the length of A121805(k) changes.",
+  "id": "A367358",
+  "mentions": [
+    "A121805",
+    "A366487",
+    "A367359"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the squarefree triangular divisors of n.",
+  "id": "A369189",
+  "mentions": [
+    "A008683",
+    "A010054",
+    "A061304",
+    "A369188"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

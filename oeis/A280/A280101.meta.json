@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sigma(sigma(p(n)) = sum of the divisors of the sum of the divisors of number of partitions of n.",
+  "description": "a(n) = sigma(sigma(p(n))) = sum of the divisors of the sum of the divisors of number of partitions of n.",
   "id": "A280101",
   "mentions": [
     "A000041",

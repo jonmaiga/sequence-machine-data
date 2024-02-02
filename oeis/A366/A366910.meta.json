@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-bit binary reversible primes.",
+  "id": "A366910",
+  "mentions": [
+    "A048054",
+    "A074831",
+    "A074832",
+    "A117773"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

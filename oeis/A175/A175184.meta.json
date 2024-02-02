@@ -1,5 +1,5 @@
 {
-  "description": "Pisano period length of the 5-Fibonacci numbers, A052918 preceded by 0.",
+  "description": "Pisano period of the 5-Fibonacci numbers, A052918 preceded by 0.",
   "id": "A175184",
   "mentions": [
     "A001175",

@@ -1,0 +1,17 @@
+{
+  "description": "Sum of all the numbers less than each divisor d of n that do not divide d.",
+  "id": "A369338",
+  "mentions": [
+    "A369337"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

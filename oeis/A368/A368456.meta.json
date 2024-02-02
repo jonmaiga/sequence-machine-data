@@ -1,0 +1,14 @@
+{
+  "description": "Number of independent vertex sets in the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A368456",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

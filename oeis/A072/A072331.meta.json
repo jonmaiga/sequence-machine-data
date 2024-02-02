@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-1)*sum(k=0..n),((n+k)!/(n-k)!)/k!).",
+  "description": "a(n) = 2^(n-1) * Sum_{k=0..n} ((n+k)!/(n-k)!)/k!.",
   "id": "A072331",
   "mentions": [
     "A001517"

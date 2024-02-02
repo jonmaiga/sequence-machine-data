@@ -1,22 +1,13 @@
 {
-  "description": "Square array T(n, k), n > 0, k >= 0, read by antidiagonals, where T(n, k) = A054429(n + 2^(A000523(n) + 1)) + 2^(A000523(n) + 2)*(2^k - 1).",
+  "description": "Partial sums of A066839.",
   "id": "A359503",
   "mentions": [
-    "A000120",
-    "A000523",
-    "A002487",
-    "A054429",
-    "A059893",
-    "A329369",
-    "A341392",
-    "A347205",
-    "A358612",
-    "A358631"
+    "A066839",
+    "A176314"
   ],
   "tags": [
     "formulas",
-    "nonn",
-    "tabl"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

@@ -1,0 +1,20 @@
+{
+  "description": "Movement sequence in the counter-clockwise undulating spiral, whereby 1, 2, 3, 4 represent moves to the right, down, left and up.",
+  "id": "A367914",
+  "mentions": [
+    "A063826",
+    "A359058",
+    "A359216",
+    "A359217"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

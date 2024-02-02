@@ -1,14 +1,17 @@
 {
-  "description": "For all n, the set consisting of the terms {a(1), a(2), a(3), ..., a(n)} has an odd number of digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9.",
+  "description": "For all n, the set consisting of the terms {a(1), a(2), a(3), ..., a(n)} has an odd number or 0 of digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9.",
   "id": "A283870",
-  "mentions": [],
+  "mentions": [
+    "A283871"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of numbers between prime(n) and prime(n+1) that are not prime powers.",
+  "id": "A368748",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001223",
+    "A014963",
+    "A024619",
+    "A080101",
+    "A085970",
+    "A093555",
+    "A368749"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

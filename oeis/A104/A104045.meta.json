@@ -1,8 +1,11 @@
 {
-  "description": "Numbers n such that n9 is prime and n is a multiple of ten.",
+  "description": "Numbers k such that k9 is prime and k is a multiple of ten.",
   "id": "A104045",
   "mentions": [
-    "A102700"
+    "A008592",
+    "A030433",
+    "A102700",
+    "A166560"
   ],
   "tags": [
     "base",
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

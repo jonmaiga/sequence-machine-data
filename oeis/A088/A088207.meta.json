@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} floor(k*phi^2)) where phi=(1+sqrt(5))/2.",
+  "description": "a(n) = Sum_{k=0..n} floor(k*phi^2) where phi=(1+sqrt(5))/2.",
   "id": "A088207",
   "mentions": [
     "A000201",

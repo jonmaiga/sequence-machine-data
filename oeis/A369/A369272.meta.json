@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive number that has not yet appeared that is a multiple of the smallest prime that does not divide n*a(n-1).",
+  "id": "A369272",
+  "mentions": [
+    "A053669",
+    "A351495",
+    "A369271"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

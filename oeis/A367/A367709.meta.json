@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of BesselJ(0,2*sqrt(2)) (negated).",
+  "id": "A367709",
+  "mentions": [
+    "A091681",
+    "A092553",
+    "A367574",
+    "A367712"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

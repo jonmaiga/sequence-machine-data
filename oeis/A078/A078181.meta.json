@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|n, d==1(mod 3)} d.",
+  "description": "a(n) = Sum_{d|n, d == 1 (mod 3)} d.",
   "id": "A078181",
   "mentions": [
     "A000203",
@@ -15,7 +15,8 @@
     "A284097",
     "A284098",
     "A284099",
-    "A284100"
+    "A284100",
+    "A353908"
   ],
   "tags": [
     "easy",

@@ -1,8 +1,9 @@
 {
-  "description": "Table c(n,k) of the denominators of coefficients [x^k] P(n,x) of the polynomials P(n,x) of A129891.",
+  "description": "Triangle c(n,k) of the denominators of coefficients [x^k] P(n,x) of the polynomials P(n,x) of A129891.",
   "id": "A141412",
   "mentions": [
     "A000254",
+    "A048594",
     "A091137",
     "A129891",
     "A140749"
@@ -11,12 +12,11 @@
     "formulas",
     "frac",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 72,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

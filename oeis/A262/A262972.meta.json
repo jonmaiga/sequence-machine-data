@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4^n + 33 is prime.",
+  "description": "Numbers k such that 4^k + 33 is prime.",
   "id": "A262972",
   "mentions": [
     "A247953",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

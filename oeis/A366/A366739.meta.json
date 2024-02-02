@@ -1,0 +1,46 @@
+{
+  "description": "Number of distinct semi-sums of the multiset of prime indices of n. Number of distinct sums of prime indices of semiprime divisors of n (counted by A086971).",
+  "id": "A366739",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001248",
+    "A001358",
+    "A006881",
+    "A008967",
+    "A056170",
+    "A056239",
+    "A065119",
+    "A076290",
+    "A079275",
+    "A086971",
+    "A108917",
+    "A112798",
+    "A117855",
+    "A220264",
+    "A299701",
+    "A299702",
+    "A304792",
+    "A304793",
+    "A365541",
+    "A365920",
+    "A366738",
+    "A366740",
+    "A366741",
+    "A366753",
+    "A367093",
+    "A367095",
+    "A367096",
+    "A367097"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

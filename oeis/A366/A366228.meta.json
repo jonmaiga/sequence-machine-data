@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying A(x) = 1 + Integral A(x)^A(x) dx.",
+  "id": "A366228",
+  "mentions": [
+    "A176118",
+    "A194786"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

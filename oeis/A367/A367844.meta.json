@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (n+5)*n/2 + 1 + (n^2 mod 3) - 3*k for 0 <= k <= n.",
+  "id": "A367844",
+  "mentions": [
+    "A006003",
+    "A038722",
+    "A109857"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

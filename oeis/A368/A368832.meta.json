@@ -1,0 +1,20 @@
+{
+  "description": "Integers not of one of the 5 forms p^k, p*q^k, 2*p*q^k, p*q*r or 2*p*q*r with p, q, r distinct primes and k>=0.",
+  "id": "A368832",
+  "mentions": [
+    "A001221",
+    "A007304",
+    "A036785",
+    "A051270",
+    "A074969"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

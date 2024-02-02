@@ -1,0 +1,20 @@
+{
+  "description": "Greedy solution a(1) < a(2) < ... to 1/a(1) + 1/a(2) + ... = (1 - 1/a(1)) * (1 - 1/a(2)) * ....",
+  "id": "A369607",
+  "mentions": [
+    "A000058",
+    "A348625",
+    "A348626",
+    "A369469",
+    "A369470"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

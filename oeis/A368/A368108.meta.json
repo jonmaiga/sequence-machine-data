@@ -1,0 +1,16 @@
+{
+  "description": "a(1,2,3) = 1,2,3. For n > 3, a(n) is the smallest of the least novel multiples of all primes which divide an earlier term but do not divide a(n-1). If the prime divisors of all prior terms also divide a(n-1), a(n) is the least novel multiple of the smallest prime which does not divide a(n-1).",
+  "id": "A368108",
+  "mentions": [
+    "A351495"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

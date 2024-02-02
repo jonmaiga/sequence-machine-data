@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of e.g.f.: exp(x) / (4 - 3*exp(x)).",
+  "description": "Expansion of e.g.f. exp(x) / (4 - 3*exp(x)).",
   "id": "A201354",
   "mentions": [
     "A000629",
+    "A032033",
     "A050352",
     "A123125",
     "A123227",

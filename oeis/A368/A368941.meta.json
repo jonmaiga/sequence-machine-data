@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(3/2 + sqrt(n)).",
+  "id": "A368941",
+  "mentions": [
+    "A000194",
+    "A003059",
+    "A155934"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

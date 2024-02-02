@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = n*Sum_{k=0..n-1} binomial(n,k) * a(k).",
+  "id": "A367308",
+  "mentions": [
+    "A365863"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

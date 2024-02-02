@@ -1,5 +1,5 @@
 {
-  "description": "Number of unlabeled 5-trees on n nodes",
+  "description": "Number of unlabeled 5-trees on n nodes.",
   "id": "A201702",
   "mentions": [
     "A054581",

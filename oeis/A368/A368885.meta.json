@@ -1,0 +1,22 @@
+{
+  "description": "The number of unitary divisors of n that are squares of a squarefree number (A062503).",
+  "id": "A368885",
+  "mentions": [
+    "A034444",
+    "A062503",
+    "A294932",
+    "A337050",
+    "A368884"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

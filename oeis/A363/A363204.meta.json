@@ -1,5 +1,5 @@
 {
-  "description": "Number of free linear polycubes of size n, identifying rotations and reflections and avoiding neighbors at [+-1,+-1,+-1].",
+  "description": "Number of free linear polycubes of size n, identifying rotations and reflections and avoiding the eight corner-connected neighbors.",
   "id": "A363204",
   "mentions": [
     "A363203"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

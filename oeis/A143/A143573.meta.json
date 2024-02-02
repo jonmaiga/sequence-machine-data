@@ -1,10 +1,11 @@
 {
-  "description": "E.g.f. satisfies: A(x) = exp(x*A(x^9/9!)).",
+  "description": "E.g.f. satisfies A(x) = exp(x*A(x^9/9!)).",
   "id": "A143573",
   "mentions": [
     "A143565"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = Sum_{d|n, d = 2 mod 5} d.",
+  "description": "a(n) = Sum_{d|n, d == 2 (mod 5)} d.",
   "id": "A284280",
   "mentions": [
+    "A013661",
     "A109698",
     "A284097",
     "A284103",
@@ -9,6 +10,7 @@
     "A284281"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

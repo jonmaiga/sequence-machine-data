@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to tile an n x n square using oblongs with distinct dimensions.",
+  "description": "Number of ways to tile an n X n square using oblongs with distinct dimensions.",
   "id": "A360498",
   "mentions": [
     "A004003",

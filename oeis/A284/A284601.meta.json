@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that decimal representation of 1/k does not terminate and has odd period length.",
+  "description": "Numbers k such that the decimal representation of 1/k does not terminate and has odd period.",
   "id": "A284601",
   "mentions": [
     "A002371",

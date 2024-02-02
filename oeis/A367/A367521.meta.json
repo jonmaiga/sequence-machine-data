@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = binomial(A007310(n+1),n+1)/A007310(n+1).",
+  "id": "A367521",
+  "mentions": [
+    "A006013",
+    "A007310",
+    "A367520"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

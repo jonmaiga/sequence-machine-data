@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that there exists i >= 1 such that k divides 3^3^i + 1.",
+  "id": "A367266",
+  "mentions": [
+    "A014127",
+    "A014220",
+    "A094358",
+    "A357265",
+    "A357266",
+    "A367649"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

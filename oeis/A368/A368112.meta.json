@@ -1,0 +1,38 @@
+{
+  "description": "Sorted positions of first appearances in A368109 (number of ways to choose a binary index of each binary index).",
+  "id": "A368112",
+  "mentions": [
+    "A000120",
+    "A003465",
+    "A029931",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A072639",
+    "A096111",
+    "A253317",
+    "A323818",
+    "A326031",
+    "A326702",
+    "A326753",
+    "A355741",
+    "A367771",
+    "A367905",
+    "A367906",
+    "A367911",
+    "A367912",
+    "A367913",
+    "A367915",
+    "A368109",
+    "A368111",
+    "A368184"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "Prime numbers of the form 3^k - 10.",
   "id": "A290243",
   "mentions": [
+    "A000040",
     "A217347"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

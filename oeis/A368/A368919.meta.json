@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms of A368917 less than 10^n, where A368917 lists the numbers k for which there is no prime p such that p^p divides the arithmetic derivative of A276086(k), where A276086 is the primorial base exp-function.",
+  "id": "A368919",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A327860",
+    "A359550",
+    "A368911",
+    "A368916",
+    "A368917",
+    "A368920"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(2 - exp(x*A(x)^3)).",
+  "id": "A367135",
+  "mentions": [
+    "A000670",
+    "A052894",
+    "A367134",
+    "A367137",
+    "A367139"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

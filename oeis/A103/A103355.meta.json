@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n - floor( sqrt(prime(n) ).",
+  "description": "a(n) = n - floor( sqrt(prime(n) ) ).",
   "id": "A103355",
   "mentions": [],
   "tags": [

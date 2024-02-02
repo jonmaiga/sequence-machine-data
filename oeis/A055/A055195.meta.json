@@ -2,7 +2,8 @@
   "description": "Number of 3-covers of an unlabeled n-set.",
   "id": "A055195",
   "mentions": [
-    "A005783"
+    "A005783",
+    "A055130"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,17 @@
+{
+  "description": "Lee's empirically improved Tokuda gaps for shellsort.",
+  "id": "A366726",
+  "mentions": [
+    "A108870"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

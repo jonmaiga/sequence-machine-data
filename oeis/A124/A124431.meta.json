@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} 2^k*C([(n+k)/2],k)*C([(n+k+1)/2],k)) where [x]=floor(x).",
+  "description": "a(n) = Sum_{k=0..n} 2^k*C([(n+k)/2],k)*C([(n+k+1)/2],k) where [x]=floor(x).",
   "id": "A124431",
   "mentions": [
     "A000108",

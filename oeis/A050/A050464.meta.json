@@ -1,12 +1,19 @@
 {
-  "description": "a(n) = Sum_{d divides n, n/d=3 mod 4} d.",
+  "description": "a(n) = Sum_{d|n, n/d=3 mod 4} d.",
   "id": "A050464",
   "mentions": [
+    "A002131",
     "A050460",
+    "A050465",
+    "A050466",
+    "A050467",
+    "A050469",
+    "A247037",
     "A326400",
     "A363900"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

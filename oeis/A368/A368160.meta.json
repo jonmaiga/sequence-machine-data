@@ -1,0 +1,20 @@
+{
+  "description": "For any n > 0, a(n) is obtained by interpreting the factorial base expansion of n in base m + 1, where m is the maximum digit in the factorial base expansion of n; a(0) = 0.",
+  "id": "A368160",
+  "mentions": [
+    "A059590",
+    "A068505",
+    "A246359"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

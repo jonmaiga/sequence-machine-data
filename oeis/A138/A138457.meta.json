@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ((n-th prime)^6-(n-th prime)^4))/8.",
+  "description": "a(n) = ((n-th prime)^6-(n-th prime)^4)/8.",
   "id": "A138457",
   "mentions": [],
   "tags": [

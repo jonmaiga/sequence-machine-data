@@ -1,5 +1,5 @@
 {
-  "description": "Let f(n) = largest number formed using digits of n, g(n) = smallest number formed using digits of n; then a(n) = floor[f(n)/g(n)].",
+  "description": "Let f(n) = largest number formed using digits of n, g(n) = smallest number formed using digits of n; then a(n) = floor(f(n)/g(n)).",
   "id": "A096089",
   "mentions": [
     "A004185",

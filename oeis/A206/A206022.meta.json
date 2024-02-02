@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (1, x*exp(arcsinh(-2*x)).",
+  "description": "Riordan array (1, x*exp(arcsinh(-2*x))).",
   "id": "A206022",
   "mentions": [
     "A000108",

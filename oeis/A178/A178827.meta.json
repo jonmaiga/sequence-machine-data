@@ -2,7 +2,8 @@
   "description": "Partial sums of floor(8^n/9)/7.",
   "id": "A178827",
   "mentions": [
-    "A033118"
+    "A033118",
+    "A368296"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to reciprocally link elements of an 5Xn array either to themselves or to exactly two horizontal, diagonal and antidiagonal neighbors, without consecutive collinear links",
+  "description": "Number of ways to reciprocally link elements of an 5 X n array either to themselves or to exactly two horizontal, diagonal and antidiagonal neighbors, without consecutive collinear links.",
   "id": "A220742",
   "mentions": [
     "A220738"

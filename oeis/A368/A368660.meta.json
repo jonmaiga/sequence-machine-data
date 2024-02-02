@@ -1,0 +1,31 @@
+{
+  "description": "Square array read by antidiagonals; the n-th row is the decimal expansion of the probability that the free polyomino with binary code A246521(n+1) appears in diffusion-limited aggregation on the square lattice.",
+  "id": "A368660",
+  "mentions": [
+    "A000105",
+    "A130866",
+    "A246521",
+    "A368386",
+    "A368387",
+    "A368661",
+    "A368662",
+    "A368663",
+    "A368664",
+    "A368665",
+    "A368666",
+    "A368667",
+    "A368668",
+    "A368669",
+    "A368863"
+  ],
+  "tags": [
+    "cons",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

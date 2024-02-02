@@ -1,5 +1,5 @@
 {
-  "description": "Reduced numerators of the harmonic means of the first n positive integers.",
+  "description": "Numerator of the harmonic mean of the first n positive integers.",
   "id": "A102928",
   "mentions": [
     "A001008",

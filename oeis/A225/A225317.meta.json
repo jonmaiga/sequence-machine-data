@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10n is a partition number.",
+  "description": "Numbers k such that 10k is a partition number.",
   "id": "A225317",
   "mentions": [
     "A000041",

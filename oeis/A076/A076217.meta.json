@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n) = a(n-1) + n * (sign(n-a(n-1)).",
+  "description": "a(1)=1, a(n) = a(n-1) + n * sign(n-a(n-1)).",
   "id": "A076217",
   "mentions": [
     "A005132",

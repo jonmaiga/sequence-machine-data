@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of free polyominoes that can be obtained from the polyomino with binary code A246521(n+1) by adding one cell.",
+  "id": "A367443",
+  "mentions": [
+    "A000105",
+    "A246521",
+    "A367126",
+    "A367439",
+    "A367441"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

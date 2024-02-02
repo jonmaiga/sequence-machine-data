@@ -1,0 +1,17 @@
+{
+  "description": "Squares in A353729.",
+  "id": "A367451",
+  "mentions": [
+    "A000290",
+    "A353729"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 / (1 - x * A(x^8)).",
+  "id": "A367800",
+  "mentions": [
+    "A000621",
+    "A005710",
+    "A101918",
+    "A367637",
+    "A367794"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

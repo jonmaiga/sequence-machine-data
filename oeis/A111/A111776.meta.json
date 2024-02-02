@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of idempotent order-preserving partial transformations (of an n-element chain) of waist k (waist(alpha) = max(Im(alpha)).",
+  "description": "Triangle read by rows: number of idempotent order-preserving partial transformations (of an n-element chain) of waist k (waist(alpha) = max(Im(alpha))).",
   "id": "A111776",
   "mentions": [
     "A081567"

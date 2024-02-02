@@ -2,6 +2,7 @@
   "description": "A bisection of A049690.",
   "id": "A190815",
   "mentions": [
+    "A000010",
     "A049690",
     "A099958"
   ],

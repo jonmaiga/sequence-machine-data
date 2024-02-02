@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the values of the vertices at the n-th level of the MI graph (see comments).",
+  "id": "A369414",
+  "mentions": [
+    "A000079",
+    "A001651",
+    "A062709",
+    "A368946",
+    "A369409"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

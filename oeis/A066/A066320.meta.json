@@ -1,11 +1,12 @@
 {
-  "description": "Triangle: T(n,k)=C(n,k)*k^k*(n-k)^(n-k-1) k=0..n-1.",
+  "description": "Triangle read by rows: T(n, k) = binomial(n, k)*k^k*(n-k)^(n-k-1) k=0..n-1.",
   "id": "A066320",
   "mentions": [
     "A000169",
     "A000312",
     "A055541",
-    "A055897"
+    "A055897",
+    "A185390"
   ],
   "tags": [
     "formulas",

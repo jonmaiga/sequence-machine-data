@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Pi*(Pi-2)/(4+(Pi-2)^2).",
+  "id": "A369104",
+  "mentions": [
+    "A000796",
+    "A019669",
+    "A369103"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

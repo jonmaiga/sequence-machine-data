@@ -1,9 +1,10 @@
 {
-  "description": "Exponents k such that 2^k - 19 is prime.",
+  "description": "Numbers k such that 2^k - 19 is prime.",
   "id": "A096819",
   "mentions": [
     "A000043",
     "A050414",
+    "A057220",
     "A059608",
     "A059609",
     "A059610",
@@ -12,7 +13,8 @@
     "A096502",
     "A096817",
     "A096818",
-    "A096820"
+    "A096820",
+    "A356826"
   ],
   "tags": [
     "more",

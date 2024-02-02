@@ -1,13 +1,18 @@
 {
   "description": "Numbers k such that phi(k + 1) divides sigma(k).",
   "id": "A015814",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A015834",
+    "A020492"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

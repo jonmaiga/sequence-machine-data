@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first k such that A367566(k) = n, or -1 if no such k exists.",
+  "id": "A367577",
+  "mentions": [
+    "A367566",
+    "A367576"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

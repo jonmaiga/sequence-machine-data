@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors of A083216(n).",
+  "description": "Number of prime factors of A083216(n), counted with multiplicity.",
   "id": "A114566",
   "mentions": [
     "A001222",

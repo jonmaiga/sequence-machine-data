@@ -2,17 +2,23 @@
   "description": "Primes for which golden mean tau is a quadratic residue.",
   "id": "A047650",
   "mentions": [
+    "A000040",
     "A001583",
     "A005968",
-    "A047651"
+    "A047651",
+    "A296240",
+    "A308787",
+    "A308789",
+    "A308793"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

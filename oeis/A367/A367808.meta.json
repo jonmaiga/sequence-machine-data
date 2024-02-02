@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A011971(n, k) * 2^(n - k).",
+  "id": "A367808",
+  "mentions": [
+    "A011971",
+    "A367809"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

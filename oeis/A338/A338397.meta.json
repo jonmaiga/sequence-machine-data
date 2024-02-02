@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,m)= Sum_{k=0..m/2} C(n-k,m-2*k)*C(n-k,m-k)*C(n,k))/C(2*k,k).",
+  "description": "Triangle read by rows: T(n,m)= Sum_{k=0..m/2} C(n-k,m-2*k)*C(n-k,m-k)*C(n,k)/C(2*k,k).",
   "id": "A338397",
   "mentions": [
     "A001263",

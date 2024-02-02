@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form Sum_{k=1..n} phi(prime(k))).",
+  "description": "Primes of the form Sum_{k=1..n} phi(prime(k)).",
   "id": "A101302",
   "mentions": [],
   "tags": [

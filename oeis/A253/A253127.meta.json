@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+2 0..6 arrays with the sum of medians of adjacent triples multiplied by some arrangement of +-1 equal to zero",
+  "description": "Number of length n+2 0..6 arrays with the sum of medians of adjacent triples multiplied by some arrangement of +-1 equal to zero.",
   "id": "A253127",
   "mentions": [
     "A253129"

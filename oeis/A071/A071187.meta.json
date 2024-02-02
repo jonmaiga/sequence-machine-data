@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factor of number of divisors of n.",
+  "description": "Smallest prime factor of number of divisors of n; a(1) = 1.",
   "id": "A071187",
   "mentions": [
     "A000005",
@@ -11,6 +11,7 @@
     "A329614"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

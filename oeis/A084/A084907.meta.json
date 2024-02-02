@@ -1,5 +1,5 @@
 {
-  "description": "Indices of Fibonacci numbers that satisfy: Sum_{k>=1} 1/F(a(k))) = 1, where F(k) gives the k-th Fibonacci number with F(0)=1, such that the partial sums are nearest to, but never exceed, unity.",
+  "description": "Indices of Fibonacci numbers that satisfy: Sum_{k>=1} 1/F(a(k)) = 1, where F(k) gives the k-th Fibonacci number with F(0)=1, such that the partial sums are nearest to, but never exceed, unity.",
   "id": "A084907",
   "mentions": [
     "A000045",

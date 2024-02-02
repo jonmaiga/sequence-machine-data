@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = cos(2*n*arcsin(sqrt(3)) = (-1)^n*cosh(2*n*arcsinh(sqrt(2)).",
+  "description": "a(n) = cos(2*n*arcsin(sqrt(3))) = (-1)^n*cosh(2*n*arcsinh(sqrt(2))).",
   "id": "A146311",
   "mentions": [
     "A001079"

@@ -1,5 +1,5 @@
 {
-  "description": "Greatest number m such that the fractional part of (11/10^A153688(n) >= 1-(1/m).",
+  "description": "Greatest number m such that the fractional part of (11/10)^A153688(n) >= 1-(1/m).",
   "id": "A153692",
   "mentions": [
     "A153664",

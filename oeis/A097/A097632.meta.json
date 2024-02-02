@@ -1,9 +1,12 @@
 {
-  "description": "2^n * Lucas(n).",
+  "description": "a(n) = 2^n * Lucas(n) * (n-1)!.",
   "id": "A097632",
   "mentions": [
     "A000079",
-    "A000204"
+    "A000142",
+    "A000204",
+    "A066318",
+    "A087131"
   ],
   "tags": [
     "formulas",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "joeis"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

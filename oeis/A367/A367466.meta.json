@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the final digits of the divisors of n.",
+  "id": "A367466",
+  "mentions": [
+    "A010879",
+    "A093811"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

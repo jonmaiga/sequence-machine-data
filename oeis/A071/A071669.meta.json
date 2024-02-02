@@ -1,5 +1,5 @@
 {
-  "description": "Permutation A057505 applied six times (\"^6\"), permutation A071661 cubed, permutation A071663 squared.",
+  "description": "Permutation A057505 applied six times, permutation A071661 cubed, permutation A071663 squared.",
   "id": "A071669",
   "mentions": [
     "A057163",
@@ -11,6 +11,7 @@
     "A071670"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

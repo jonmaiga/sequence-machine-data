@@ -1,0 +1,18 @@
+{
+  "description": "The sum of weights of nondegenerated monotone Bacher representations of n.",
+  "id": "A368581",
+  "mentions": [
+    "A368207",
+    "A368276",
+    "A368580"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

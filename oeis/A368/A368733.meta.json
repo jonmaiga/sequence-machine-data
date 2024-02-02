@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = hypergeom([-1 - n, -n, 1 - n], [2, 3], -3).",
+  "id": "A368733",
+  "mentions": [
+    "A001181",
+    "A368708"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

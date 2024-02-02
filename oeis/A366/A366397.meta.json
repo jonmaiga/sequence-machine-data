@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the number whose continued fraction terms are one larger than those of Pi.",
+  "id": "A366397",
+  "mentions": [
+    "A000796",
+    "A001203",
+    "A059833"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

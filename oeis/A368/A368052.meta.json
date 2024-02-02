@@ -1,0 +1,18 @@
+{
+  "description": "The degree of polynomials related to Somos-4 sequences. Also for n > 2 the degree of the (n-3)-th involution in a family of involutions in the Cremona group of rank 3 defined by a Somos-4 sequence.",
+  "id": "A368052",
+  "mentions": [
+    "A006720",
+    "A220838"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

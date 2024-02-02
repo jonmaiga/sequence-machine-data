@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple graphs on n unlabeled vertices without isolated or universal vertices.",
+  "id": "A367143",
+  "mentions": [
+    "A000088",
+    "A002494",
+    "A367142"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

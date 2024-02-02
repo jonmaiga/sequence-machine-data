@@ -2,6 +2,7 @@
   "description": "Column index of n in A191450: a(3n) = 1, a(3n+1) = 1, a(3n+2) = 1 + a(n+1).",
   "id": "A254046",
   "mentions": [
+    "A007949",
     "A051064",
     "A087289",
     "A191450",
@@ -12,6 +13,7 @@
     "A254052"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

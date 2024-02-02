@@ -1,0 +1,22 @@
+{
+  "description": "Doudna-gram for nondeficient numbers; Partial sums of A368990.",
+  "id": "A368991",
+  "mentions": [
+    "A005940",
+    "A023196",
+    "A294936",
+    "A324055",
+    "A368910",
+    "A368990",
+    "A368993"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

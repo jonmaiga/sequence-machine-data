@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the final nonzero digit of n! is the same as the last digit of C(2n,n) (in base 10).",
+  "description": "Numbers k such that the final nonzero digit of k! is the same as the last digit of binomial(2k,k) (in base 10).",
   "id": "A073095",
   "mentions": [
     "A008904"
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

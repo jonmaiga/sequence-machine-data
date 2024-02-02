@@ -1,5 +1,5 @@
 {
-  "description": "Twin primes congruent to {1, 11, 13, 29) mod 30.",
+  "description": "Twin primes congruent to {1, 11, 13, 29} mod 30.",
   "id": "A132245",
   "mentions": [
     "A001097",

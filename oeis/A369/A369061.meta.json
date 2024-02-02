@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k + k'*2 is equal to a partial sum of primorial numbers (a term of A143293), where k' stands for the arithmetic derivative of k, A003415.",
+  "id": "A369061",
+  "mentions": [
+    "A003415",
+    "A068719",
+    "A143293",
+    "A276086",
+    "A276087",
+    "A276150",
+    "A328243"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

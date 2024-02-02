@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which a riffle shuffle permutation with two or more packets permutes all except the first and the last of the n cards.",
+  "description": "Numbers k for which a riffle shuffle permutation with two or more packets permutes all except the first and the last of the k cards.",
   "id": "A318712",
   "mentions": [
     "A217948",

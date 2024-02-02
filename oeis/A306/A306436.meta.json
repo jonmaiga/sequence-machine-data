@@ -1,5 +1,5 @@
 {
-  "description": "The nonnegative integers, the ten successive digits being swapped by pairs.",
+  "description": "Rewrite n by substituting each digit d of n by d-1 if d is odd, d+1 otherwise.",
   "id": "A306436",
   "mentions": [
     "A001477"

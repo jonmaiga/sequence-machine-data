@@ -1,7 +1,11 @@
 {
   "description": "Numbers n such that the number of primes not exceeding sigma(n) equals phi(n), i.e., pi(sigma(n)) = phi(n).",
   "id": "A067787",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000720"
+  ],
   "tags": [
     "more",
     "nonn"

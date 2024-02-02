@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the maximum number of distinct compositions of a polycube of size n using any combination of polycubes of sizes 1 through n.",
+  "id": "A367703",
+  "mentions": [
+    "A367173"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

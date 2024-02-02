@@ -1,0 +1,22 @@
+{
+  "description": "Number of achiral polyominoes composed of n pentagonal cells of the hyperbolic regular tiling with Schläfli symbol {5,oo}.",
+  "id": "A369472",
+  "mentions": [
+    "A002293",
+    "A005038",
+    "A005040",
+    "A047749",
+    "A143546",
+    "A369471"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

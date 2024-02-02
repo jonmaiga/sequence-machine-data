@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A367727(A367593(n)).",
+  "id": "A367740",
+  "mentions": [
+    "A004086",
+    "A011557",
+    "A199682",
+    "A367593",
+    "A367650",
+    "A367727",
+    "A367728"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

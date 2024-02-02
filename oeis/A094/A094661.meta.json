@@ -1,7 +1,9 @@
 {
   "description": "Numerator of the sum of the ratios of consecutive primes.",
   "id": "A094661",
-  "mentions": [],
+  "mentions": [
+    "A000040"
+  ],
   "tags": [
     "formulas",
     "frac",

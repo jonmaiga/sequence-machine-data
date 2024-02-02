@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest increasing sequence a(n) of products of 4 primes such that a(n) - a(n-1) and a(n) + a(n-1) are also products of 4 primes. The 4 primes are counted with multiplicity.",
+  "id": "A368078",
+  "mentions": [
+    "A014613",
+    "A361073"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

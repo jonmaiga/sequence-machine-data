@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: T(m,n) = number of Yamanouchi words of length m that start with n, m >= 1, n = 1..m.",
+  "id": "A369588",
+  "mentions": [
+    "A000085",
+    "A238124",
+    "A369589",
+    "A369590"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

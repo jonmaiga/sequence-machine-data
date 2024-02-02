@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the dimension of the metabelian Lie-admissible operad of degree n.",
+  "id": "A369542",
+  "mentions": [
+    "A337017"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

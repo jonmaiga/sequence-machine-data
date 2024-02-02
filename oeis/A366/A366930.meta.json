@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest odd composite k such that n^((k+1)/2) == n (mod k).",
+  "id": "A366930",
+  "mentions": [
+    "A033181",
+    "A309316",
+    "A366973",
+    "A366982"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

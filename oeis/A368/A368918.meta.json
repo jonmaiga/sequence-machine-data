@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of integers m in the range 0..n such that the arithmetic derivative of A276086(m) has no divisors of the form p^p.",
+  "id": "A368918",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A327860",
+    "A328307",
+    "A359550",
+    "A368916",
+    "A368917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

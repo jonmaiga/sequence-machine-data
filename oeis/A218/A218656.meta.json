@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write 2n+1 as x+y with 0",
+  "description": "Number of ways to write 2n+1 as x+y with 0 < x < y and x^4 + y^4 prime.",
   "id": "A218656",
   "mentions": [
     "A002645",

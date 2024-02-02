@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x * (1-x) * (1-x-x^4) ).",
+  "id": "A368932",
+  "mentions": [
+    "A063021",
+    "A215342",
+    "A236339",
+    "A368931",
+    "A368933"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

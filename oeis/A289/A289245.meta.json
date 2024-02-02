@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of 1/(Sum_{k>=0} [(-1 + (k+1)*r](-x)^k), where r = (3 + sqrt(5))/2 = 1 + golden ratio and [ ] = floor.",
+  "description": "Coefficients of 1/(Sum_{k>=0} [-1 + (k+1)*r](-x)^k), where r = (3 + sqrt(5))/2 = 1 + golden ratio and [ ] = floor.",
   "id": "A289245",
   "mentions": [
     "A001622",

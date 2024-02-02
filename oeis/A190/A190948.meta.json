@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum(binomial(n,k)*(-1)^k/(k^2+1),k=0..n).",
+  "description": "Numerator of Sum_{k=0..n} binomial(n,k)*(-1)^k/(k^2+1).",
   "id": "A190948",
   "mentions": [
     "A190950"

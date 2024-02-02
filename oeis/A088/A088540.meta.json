@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 4/sqrt(Pi)*exp(-gamma/2)*K where K is the Landau-Ramanujan constant and gamma the Euler-Mascheroni constant.",
+  "description": "Decimal expansion of (4/sqrt(Pi))*exp(-gamma/2)*K where K is the Landau-Ramanujan constant and gamma the Euler-Mascheroni constant.",
   "id": "A088540",
   "mentions": [
     "A064533",

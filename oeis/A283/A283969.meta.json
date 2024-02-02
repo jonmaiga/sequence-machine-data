@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n + 1 + Sum_({k=0..n} floor((n-k)/r, where r = (3+sqrt(5))/2).",
+  "description": "a(n) = n + 1 + Sum_{k=0..n} floor((n-k)/r), where r = (3+sqrt(5))/2.",
   "id": "A283969",
   "mentions": [
     "A026352",

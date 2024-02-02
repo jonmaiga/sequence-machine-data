@@ -1,0 +1,15 @@
+{
+  "description": "a(0) = 0, a(1) = 1, for n >= 2, a(n) = a(n-1) - 6*floor(median(a)) - 9*floor(mean(a)). Median(a) and mean(a) are respectively the median and mean of all previous terms.",
+  "id": "A368274",
+  "mentions": [
+    "A365819"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

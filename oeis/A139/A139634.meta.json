@@ -1,5 +1,5 @@
 {
-  "description": "10*2^(n-1) - 9.",
+  "description": "a(n) = 10*2^(n-1) - 9.",
   "id": "A139634",
   "mentions": [
     "A007318",

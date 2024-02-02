@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=0, a(1)=1, a(n) = a(n-1) + sum(a(floor(n/d)), d=2^x, x=1...n.",
+  "description": "a(0)=0, a(1)=1, a(n) = a(n-1) + sum(a(floor(n/d)), d=2^x, x=1...n).",
   "id": "A306777",
   "mentions": [],
   "tags": [

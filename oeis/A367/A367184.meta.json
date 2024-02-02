@@ -1,0 +1,17 @@
+{
+  "description": "Starting index in the Period doubling sequence (A096268) of the first maximum length word in which every subword of length n is distinct.",
+  "id": "A367184",
+  "mentions": [
+    "A096268",
+    "A275202",
+    "A366462"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

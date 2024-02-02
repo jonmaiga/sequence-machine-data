@@ -1,5 +1,5 @@
 {
-  "description": "Carmichael quotients to base 2: a(n) = (2^(lambda(2*n-1)-1)/(2*n-1), where lambda is the Carmichael lambda function (A002322).",
+  "description": "Carmichael quotients to base 2: a(n) = (2^lambda(2*n-1)-1)/(2*n-1), where lambda is the Carmichael lambda function (A002322).",
   "id": "A329238",
   "mentions": [
     "A001226",

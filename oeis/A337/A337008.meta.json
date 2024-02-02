@@ -1,5 +1,5 @@
 {
-  "description": "Product of distinct primes dividing both b(n) and b(n+1)), where b(n) = A336957(n).",
+  "description": "Product of distinct primes dividing both b(n) and b(n+1), where b(n) = A336957(n).",
   "id": "A337008",
   "mentions": [
     "A007947",

@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=0, for n >= 1, a(n) = ((2^(n-1)-1)*n!.",
+  "description": "a(0)=0, for n >= 1, a(n) = (2^(n-1)-1)*n!.",
   "id": "A052665",
   "mentions": [
     "A000022"

@@ -2,6 +2,7 @@
   "description": "Nonnegative integers n such that the difference between n and its reverse is a palindrome.",
   "id": "A131207",
   "mentions": [
+    "A002113",
     "A178403"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

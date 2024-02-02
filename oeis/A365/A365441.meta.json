@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of [2n] whose block maxima sum to 3n.",
+  "id": "A365441",
+  "mentions": [
+    "A000110",
+    "A367955",
+    "A367969",
+    "A368204",
+    "A368675"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

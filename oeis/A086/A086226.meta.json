@@ -1,7 +1,9 @@
 {
   "description": "Number of permutations of length n containing exactly one occurrence of the pattern 1-32.",
   "id": "A086226",
-  "mentions": [],
+  "mentions": [
+    "A000110"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

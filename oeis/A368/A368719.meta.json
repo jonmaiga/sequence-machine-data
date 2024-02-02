@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} k^5 / k!.",
+  "id": "A368719",
+  "mentions": [
+    "A048993",
+    "A337085",
+    "A368718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

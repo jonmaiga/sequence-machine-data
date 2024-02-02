@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0; a(n) = n - a(floor(a(n-1)/4)).",
+  "id": "A366870",
+  "mentions": [
+    "A005206",
+    "A286389",
+    "A366860",
+    "A366871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

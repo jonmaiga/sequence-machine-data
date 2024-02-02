@@ -1,0 +1,26 @@
+{
+  "description": "The product of exponents of prime factorization of the nonsquarefree numbers.",
+  "id": "A368039",
+  "mentions": [
+    "A005117",
+    "A005361",
+    "A013929",
+    "A059956",
+    "A082695",
+    "A084936",
+    "A174961",
+    "A229099",
+    "A275699",
+    "A368038",
+    "A368040"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

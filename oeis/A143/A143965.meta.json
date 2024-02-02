@@ -1,5 +1,5 @@
 {
-  "description": "Factorial eigentriangle: A119502 * (A051295 *0^(n-k); 0 <= k <= n.",
+  "description": "Factorial eigentriangle: A119502 * (A051295 *0^(n-k)); 0 <= k <= n.",
   "id": "A143965",
   "mentions": [
     "A000142",

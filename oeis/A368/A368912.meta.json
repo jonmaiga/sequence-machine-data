@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if A342001(n) is squarefree, and 0 otherwise.",
+  "id": "A368912",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A008966",
+    "A342001",
+    "A354874",
+    "A368902",
+    "A368914"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

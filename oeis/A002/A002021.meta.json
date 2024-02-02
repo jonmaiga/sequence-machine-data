@@ -1,5 +1,5 @@
 {
-  "description": "Pile of coconuts problem: (n-1)(n^n - 1), n even; n^n - n + 1, n odd.",
+  "description": "Pile of coconuts problem: (n-1)*(n^n - 1), n even; n^n - n + 1, n odd.",
   "id": "A002021",
   "mentions": [
     "A002022",

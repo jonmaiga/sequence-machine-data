@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1) / (k^2 * k!).",
+  "id": "A367732",
+  "mentions": [
+    "A002775",
+    "A163931",
+    "A239069",
+    "A355234",
+    "A367731"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

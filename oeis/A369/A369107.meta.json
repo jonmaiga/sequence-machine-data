@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of numbers less than or equal to 10^n that are divisible only by primes congruent to 3 mod 4.",
+  "id": "A369107",
+  "mentions": [
+    "A004614",
+    "A004767",
+    "A011557",
+    "A369105",
+    "A369108",
+    "A369109",
+    "A369111"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

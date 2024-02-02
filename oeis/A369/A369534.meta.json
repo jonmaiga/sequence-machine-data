@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A( 4*A(x)^4 - 64*A(x)^5 ) = 4*x^4.",
+  "id": "A369534",
+  "mentions": [
+    "A291313",
+    "A291314",
+    "A291315",
+    "A369531",
+    "A369532",
+    "A369533",
+    "A369535"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

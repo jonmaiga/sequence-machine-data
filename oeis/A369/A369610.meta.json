@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of nonprime numbers < prime(n) which are not equal to twice a prime.",
+  "id": "A369610",
+  "mentions": [
+    "A000720",
+    "A100484"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

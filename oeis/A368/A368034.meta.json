@@ -1,0 +1,18 @@
+{
+  "description": "Pandigital primes that are the concatenation of 7 primes.",
+  "id": "A368034",
+  "mentions": [
+    "A050288",
+    "A368035",
+    "A368044"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

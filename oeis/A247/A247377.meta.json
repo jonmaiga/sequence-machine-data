@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of integral_{0..infinity} 1/Gamma(1+x) dx, a variation of the Fransén-Robinson constant.",
+  "description": "Decimal expansion of Integral_{0..oo} 1/Gamma(1+x) dx, a variation of the Fransén-Robinson constant.",
   "id": "A247377",
   "mentions": [
     "A058655"

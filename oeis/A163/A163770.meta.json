@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows interpolating the swinging sub-factorial (A163650) with the swinging factorial (A056040).",
+  "description": "Triangle read by rows interpolating the swinging subfactorial (A163650) with the swinging factorial (A056040).",
   "id": "A163770",
   "mentions": [
     "A056040",

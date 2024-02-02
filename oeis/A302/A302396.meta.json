@@ -2,6 +2,7 @@
   "description": "Number of families of 4-subsets of an n-set that cover every element.",
   "id": "A302396",
   "mentions": [
+    "A299471",
     "A302394"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 11,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

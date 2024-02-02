@@ -1,8 +1,10 @@
 {
-  "description": "Expansion of (2-x-2*x^2)/((1-x)*(1-x+x^2)).",
+  "description": "Expansion of g.f. (2-x-2*x^2)/((1-x)*(1-x+x^2)).",
   "id": "A007945",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "The successive sums a(n) + a(n+1) reproduce the decimal expansion of the Champernowne constant.",
+  "id": "A368086",
+  "mentions": [
+    "A033307"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

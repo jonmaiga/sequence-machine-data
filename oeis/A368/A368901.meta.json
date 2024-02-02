@@ -1,0 +1,18 @@
+{
+  "description": "The least common multiple of the first n terms of Doudna sequence, A005940.",
+  "id": "A368901",
+  "mentions": [
+    "A003418",
+    "A005940",
+    "A368900"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sequence identical to its third differences in absolute values: a(2n)=3a(2n-1)-3a(2n-2)+2a(2n-3)), a(2n+1)=3a(2n)-3a(2n-1) n > 1.",
+  "description": "Sequence identical to its third differences in absolute values.",
   "id": "A138278",
   "mentions": [
     "A131292",

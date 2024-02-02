@@ -1,0 +1,29 @@
+{
+  "description": "The number of exponential divisors of n that are squares (A000290).",
+  "id": "A368980",
+  "mentions": [
+    "A000005",
+    "A000037",
+    "A000290",
+    "A046951",
+    "A049419",
+    "A056624",
+    "A183063",
+    "A322791",
+    "A327837",
+    "A358260",
+    "A368978",
+    "A368979"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

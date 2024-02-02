@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability that the straight tetromino appears when the 4th cell is added in diffusion-limited aggregation on the square lattice.",
+  "id": "A368669",
+  "mentions": [
+    "A368660",
+    "A368665",
+    "A368666",
+    "A368667",
+    "A368668"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

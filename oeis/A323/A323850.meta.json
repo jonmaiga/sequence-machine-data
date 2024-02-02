@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) (n>=2, 0<=k<=n) = total number of unbranched k-catapolyheptagons with k pentagons and n-k heptagons).",
+  "description": "Irregular triangle read by rows: T(n,k) (n>=2, 0<=k<=n) = total number of unbranched k-catapolyheptagons with k pentagons and n-k heptagons.",
   "id": "A323850",
   "mentions": [
     "A002215",

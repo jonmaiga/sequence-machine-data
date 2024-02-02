@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sqrt(T(k-1)*T(k)*T(k+1) as k runs through the terms of A072221 and T(i)=i*(i+1)/2.",
+  "description": "a(n) = sqrt(T(k-1)*T(k)*T(k+1)) as k runs through the terms of A072221 and T(i)=i*(i+1)/2.",
   "id": "A169686",
   "mentions": [
     "A001541",

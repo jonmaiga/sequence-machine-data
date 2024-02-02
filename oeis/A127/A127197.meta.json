@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of n-th Van der Waerden-Ulam binary measure of the primes.",
+  "description": "a(n) = numerator( pi(n)/2^n ).",
   "id": "A127197",
   "mentions": [
     "A000079",

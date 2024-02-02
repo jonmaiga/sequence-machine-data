@@ -1,5 +1,5 @@
 {
-  "description": "Number of lesser twin primes (A001359) in range ]2^n,2^(n+1)].",
+  "description": "Number of lesser twin primes (A001359) in range ]2^n, 2^(n+1)].",
   "id": "A095017",
   "mentions": [
     "A001359",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

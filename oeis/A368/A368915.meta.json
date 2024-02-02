@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if there is no prime p such that p^p divides the arithmetic derivative of n, and 0 otherwise.",
+  "id": "A368915",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A328308",
+    "A341996",
+    "A354874",
+    "A358215",
+    "A359550",
+    "A360111",
+    "A368913",
+    "A368914",
+    "A368916"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{n >= 1} (sin(1/n))^2.",
+  "description": "Decimal expansion of Sum_{n >= 1} (sin(1/n))^2.",
   "id": "A248945",
   "mentions": [
     "A248946",

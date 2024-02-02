@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest positive k such that k^2 + 1 has 2*n divisors.",
+  "description": "a(n) is the smallest positive k such that k^2 + 1 has 2*n divisors, or -1 if no such k exists.",
   "id": "A353008",
   "mentions": [
     "A193432"

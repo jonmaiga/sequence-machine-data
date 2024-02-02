@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{d|n and d^2 <= n} (1 + [d^2 < n]) * (2*d - 1), where [.] denote the Iverson brackets.",
+  "id": "A368580",
+  "mentions": [
+    "A368207",
+    "A368276",
+    "A368581"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

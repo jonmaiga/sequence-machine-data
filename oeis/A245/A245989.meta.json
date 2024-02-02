@@ -1,16 +1,17 @@
 {
-  "description": "Number of length n+2 0..2 arrays with no pair in any consecutive three terms totalling exactly 2.",
+  "description": "Number of length n 0..2 arrays with no pair in any consecutive three terms totalling exactly 2.",
   "id": "A245989",
   "mentions": [
     "A245995"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 38,
+    "offset": 0,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

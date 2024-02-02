@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=3, in a regular 2n-gon when all vertices are connect by straight lines except for the n lines joining diametrically opposite vertices.",
+  "id": "A368816",
+  "mentions": [
+    "A368755",
+    "A368758",
+    "A368813",
+    "A368814",
+    "A368815"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Tripartite straight linked graphs as matrices producing polynomials and their triangular sequence: Matrix model (A120658 ): M(n,m,9)={{0, 1, 1, 1, 0, 0, 1, 0, 0}, {1, 0, 1, 0, 1, 0, 0, 1, 0}, {1, 1, 0, 0, 0, 1, 0, 0, 1}, {1, 0, 0, 0, 1, 1, 1, 0, 0}, {0, 1, 0, 1, 0, 1, 0, 1, 0}, {0, 0, 1, 1, 1, 0, 0, 0, 1}, {1, 0, 0, 1, 0, 0, 0, 1, 1}, {0, 1, 0, 0, 1, 0, 1, 0, 1}, {0, 0, 1, 0, 0, 1, 1, 1, 0}} This model is straight hyper-connections between 3 generalized K(n) complete graphs.",
+  "description": "Tripartite straight linked graphs as matrices producing polynomials and their triangular sequence: Matrix model (A120658 ): M(n,m,9)={{0, 1, 1, 1, 0, 0, 1, 0, 0}, {1, 0, 1, 0, 1, 0, 0, 1, 0}, {1, 1, 0, 0, 0, 1, 0, 0, 1}, {1, 0, 0, 0, 1, 1, 1, 0, 0}, {0, 1, 0, 1, 0, 1, 0, 1, 0}, {0, 0, 1, 1, 1, 0, 0, 0, 1}, {1, 0, 0, 1, 0, 0, 0, 1, 1}, {0, 1, 0, 0, 1, 0, 1, 0, 1}, {0, 0, 1, 0, 0, 1, 1, 1, 0}} This model is straight hyperconnections between 3 generalized K(n) complete graphs.",
   "id": "A123590",
   "mentions": [
     "A120658"

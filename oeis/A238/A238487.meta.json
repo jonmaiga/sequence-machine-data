@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions p of n not containing round((min(p) + max(p))/2] as a part.",
+  "description": "Number of partitions p of n not containing round((min(p) + max(p))/2) as a part.",
   "id": "A238487",
   "mentions": [
     "A000041",

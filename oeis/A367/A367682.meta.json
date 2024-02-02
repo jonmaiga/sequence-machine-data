@@ -1,0 +1,33 @@
+{
+  "description": "Number of integer partitions of n whose multiset of multiplicities is the same as their multiset multiplicity kernel.",
+  "id": "A367682",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A025147",
+    "A039956",
+    "A071625",
+    "A072233",
+    "A072774",
+    "A082090",
+    "A091602",
+    "A109297",
+    "A114640",
+    "A116608",
+    "A116861",
+    "A243978",
+    "A367579",
+    "A367580",
+    "A367581",
+    "A367683"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

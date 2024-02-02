@@ -1,0 +1,32 @@
+{
+  "description": "Arithmetic derivative applied to the numbers of the form p*q*r where p,q,r are (not necessarily distinct) odd primes.",
+  "id": "A369252",
+  "mentions": [
+    "A003415",
+    "A004767",
+    "A046316",
+    "A369054",
+    "A369055",
+    "A369058",
+    "A369241",
+    "A369245",
+    "A369248",
+    "A369251",
+    "A369450",
+    "A369451",
+    "A369452",
+    "A369460",
+    "A369461",
+    "A369462",
+    "A369464"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

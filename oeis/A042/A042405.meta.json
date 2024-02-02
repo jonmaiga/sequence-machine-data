@@ -2,7 +2,11 @@
   "description": "Denominators of continued fraction convergents to sqrt(730).",
   "id": "A042405",
   "mentions": [
-    "A042404"
+    "A042404",
+    "A073133",
+    "A157103",
+    "A172236",
+    "A352361"
   ],
   "tags": [
     "easy",

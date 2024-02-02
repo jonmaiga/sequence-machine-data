@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) is the number of length-n weak ascent sequences (prefixed with a zero) with k weak ascents, triangle read by rows.",
+  "id": "A369321",
+  "mentions": [
+    "A000108",
+    "A137251",
+    "A336070",
+    "A369322"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

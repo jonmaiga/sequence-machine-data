@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A110936(n)/6 for n >= 3.",
+  "id": "A366923",
+  "mentions": [
+    "A110936",
+    "A366488"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

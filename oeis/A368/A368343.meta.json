@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n,k), n >= 3, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{j=0..n} k^(n-j) * floor(j/3).",
+  "id": "A368343",
+  "mentions": [
+    "A002264",
+    "A055129",
+    "A130518",
+    "A178455",
+    "A368296",
+    "A368344",
+    "A368345"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

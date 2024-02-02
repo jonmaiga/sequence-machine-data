@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = lcm_{p in Partitions(n)} (Product_{t in p}(t + m)), where m = 2.",
+  "id": "A368048",
+  "mentions": [
+    "A048803",
+    "A091137",
+    "A368092",
+    "A368116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

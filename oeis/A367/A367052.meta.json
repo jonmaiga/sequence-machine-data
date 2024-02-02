@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n matrices with elements {0, 1} whose characteristic polynomial has non-leading coefficients in {-1,0}.",
+  "id": "A367052",
+  "mentions": [
+    "A003024",
+    "A272661",
+    "A367051"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Binary numbers B whose binary expansion can be split into parts s and t where B = s^2 + t^2.",
+  "id": "A368417",
+  "mentions": [
+    "A368416"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

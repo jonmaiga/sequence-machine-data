@@ -1,5 +1,5 @@
 {
-  "description": "The exponential generating function A(x) = Sum a(j) x^j/j! satisfies the functional equation A(x)=1+x*(A(x))*(1-log(A(x)).",
+  "description": "The exponential generating function A(x) = Sum a(j) x^j/j! satisfies the functional equation A(x)=1+x*(A(x))*(1-log(A(x))).",
   "id": "A080073",
   "mentions": [],
   "tags": [

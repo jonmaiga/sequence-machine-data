@@ -1,12 +1,11 @@
 {
-  "description": "A006689(n)/n^2.",
+  "description": "a(n) = A006689(n)/n^2.",
   "id": "A082166",
   "mentions": [
     "A006689"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

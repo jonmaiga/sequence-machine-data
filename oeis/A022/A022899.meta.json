@@ -1,8 +1,9 @@
 {
-  "description": "Number of solutions to c(1)*prime(2) + ... + c(n)*prime(n+1) = 2, where c(i) = +-1 for i>1, c(1) = 1.",
+  "description": "Number of solutions to c(1)*prime(2) + ... + c(n)*prime(n+1) = 2, where c(i) = +-1 for i > 1, c(1) = 1.",
   "id": "A022899",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

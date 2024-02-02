@@ -1,0 +1,21 @@
+{
+  "description": "The number of divisors of n whose prime factors are all of the form 2^k + 1 (A092506).",
+  "id": "A368543",
+  "mentions": [
+    "A000005",
+    "A019434",
+    "A092506",
+    "A143513"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

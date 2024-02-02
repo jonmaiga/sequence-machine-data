@@ -2,6 +2,7 @@
   "description": "Central column of a Moebius-binomial triangle.",
   "id": "A105234",
   "mentions": [
+    "A008683",
     "A105235",
     "A105586",
     "A105597"

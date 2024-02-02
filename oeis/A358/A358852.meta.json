@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n!*Sum_{m=0..floor(n/3)} 1/(binomial(n-m,2*m).",
+  "description": "a(n) = n!*Sum_{m=0..floor(n/3)} 1/binomial(n-m,2*m).",
   "id": "A358852",
   "mentions": [
     "A358446"

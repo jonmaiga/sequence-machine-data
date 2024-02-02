@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the remainder of the harmonic residue of n when divided by n is n-1.",
+  "description": "Numbers k such that the remainder of the harmonic residue of k when divided by k is k-1.",
   "id": "A106317",
   "mentions": [
     "A106315",

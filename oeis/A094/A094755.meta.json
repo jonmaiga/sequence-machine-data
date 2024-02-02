@@ -1,5 +1,5 @@
 {
-  "description": "Least integer value of (1 + 2^n + 3^n + ... + k^n)/{1 + 2 + 3 + ... + k), k > 1.",
+  "description": "Least integer value of (1 + 2^n + 3^n + ... + k^n)/(1 + 2 + 3 + ... + k), k > 1.",
   "id": "A094755",
   "mentions": [
     "A094756"

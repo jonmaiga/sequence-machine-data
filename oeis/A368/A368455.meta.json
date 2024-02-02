@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. 3*exp(-x) / (4 - exp(3*x)).",
+  "id": "A368455",
+  "mentions": [
+    "A368453",
+    "A368454"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

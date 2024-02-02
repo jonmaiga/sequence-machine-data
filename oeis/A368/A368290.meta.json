@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the length of the longest palindromic subsequence at symmetrically-spaced indices ending at a(n-1); a(1)=1.",
+  "id": "A368290",
+  "mentions": [
+    "A308659",
+    "A362881"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

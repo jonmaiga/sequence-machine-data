@@ -1,5 +1,5 @@
 {
-  "description": "Triangle S(n,k) by rows: coefficients of 4^((n-1)/2))*(x^(1/4)*d/dx)^n when n is odd, and of 4^(n/2)*(x^(3/4)*d/dx)^n when n is even.",
+  "description": "Triangle S(n,k) by rows: coefficients of 4^((n-1)/2)*(x^(1/4)*d/dx)^n when n is odd, and of 4^(n/2)*(x^(3/4)*d/dx)^n when n is even.",
   "id": "A223170",
   "mentions": [
     "A008277",

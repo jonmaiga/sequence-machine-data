@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: coefficients T(n,k) of a binomial decomposition of n as Sum(k=0..n)T(n,k)*binomial(n,k).",
+  "description": "Triangle read by rows: coefficients T(n,k) of a binomial decomposition of n as Sum_{k=0..n} T(n,k)*binomial(n,k).",
   "id": "A244130",
   "mentions": [
     "A244116",

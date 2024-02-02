@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the radius of a common circle surrounded by seven tangent unit circles.",
+  "id": "A367480",
+  "mentions": [
+    "A121570",
+    "A121598",
+    "A188582",
+    "A246724"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

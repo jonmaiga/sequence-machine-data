@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if n satisfies the arithmetic differential equation 2n\" - n' - 4 = 0, otherwise 0. Cf. A003415.",
+  "id": "A368701",
+  "mentions": [
+    "A001248",
+    "A003415",
+    "A068346",
+    "A334261"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

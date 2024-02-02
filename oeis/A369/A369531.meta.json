@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: A( 2*A(x)^2 - 24*A(x)^3 ) = 2*x^2.",
+  "id": "A369531",
+  "mentions": [
+    "A291313",
+    "A291314",
+    "A369532",
+    "A369534",
+    "A369535"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

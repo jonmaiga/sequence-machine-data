@@ -1,5 +1,5 @@
 {
-  "description": "Base 3 representation of the positive integers n such that Sum[d[k],k=1..n] is an integer, where d(k) is the base 3 fraction 0.k (e.g., d(22 base 10)=d(211 base 3)=0.221 base 3.",
+  "description": "Base 3 representation of the positive integers n such that Sum[d[k],k=1..n] is an integer, where d(k) is the base 3 fraction 0.k (e.g., d(22 base 10)=d(211 base 3)=0.221 base 3).",
   "id": "A107483",
   "mentions": [
     "A054464"

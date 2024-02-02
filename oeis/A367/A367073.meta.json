@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + 2*x + x^3*A(x)^3.",
+  "id": "A367073",
+  "mentions": [
+    "A001764",
+    "A366555",
+    "A367072",
+    "A367074",
+    "A367112"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

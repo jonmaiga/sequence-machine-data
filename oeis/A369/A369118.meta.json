@@ -1,0 +1,22 @@
+{
+  "description": "k is term if and only if k is a composite number where the bases and the exponents of its factors in the prime decomposition are all odd primes.",
+  "id": "A369118",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A002808",
+    "A013929",
+    "A051674",
+    "A052486",
+    "A246547",
+    "A286708"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

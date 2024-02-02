@@ -1,0 +1,30 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) is the determinant of the n-th order Hankel matrix of Catalan numbers M(n) whose generic element is given by M(i,j) = A000108(i+j+k) with i,j = 0, ..., n-1.",
+  "id": "A368025",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000330",
+    "A005700",
+    "A006149",
+    "A006150",
+    "A006151",
+    "A006858",
+    "A078920",
+    "A091962",
+    "A123352",
+    "A335857",
+    "A355400",
+    "A368026"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Result of using the Fibonacci numbers as coefficients in an infinite polynomial series in x and then expressing this series as (1+a(1)x)(1+a(2)x^2)(1+a(3x^3)...",
+  "description": "Result of using the Fibonacci numbers as coefficients in an infinite polynomial series in x and then expressing this series as (1+a(1)x)(1+a(2)x^2)(1+a(3)x^3)...",
   "id": "A147558",
   "mentions": [
     "A000045",

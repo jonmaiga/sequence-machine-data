@@ -1,0 +1,18 @@
+{
+  "description": "Smallest Sophie Germain prime >= 2^n.",
+  "id": "A367966",
+  "mentions": [
+    "A005384",
+    "A104080",
+    "A111671"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

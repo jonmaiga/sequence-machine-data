@@ -2,10 +2,12 @@
   "description": "a(n) = A047842(A047842(n)), say what you see, once repeated.",
   "id": "A235775",
   "mentions": [
-    "A047842"
+    "A047842",
+    "A328447"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

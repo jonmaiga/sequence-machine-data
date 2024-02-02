@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled forests of rooted Greg hypertrees with n white vertices.",
+  "id": "A364816",
+  "mentions": [
+    "A005264",
+    "A052888"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

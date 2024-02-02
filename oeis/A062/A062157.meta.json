@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 0^n-(-1)^n.",
+  "description": "a(n) = 0^n - (-1)^n.",
   "id": "A062157",
   "mentions": [
     "A000007",

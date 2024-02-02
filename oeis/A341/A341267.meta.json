@@ -1,5 +1,5 @@
 {
-  "description": "Gaps between first elements of quadruple primes of the form {p, p+2, p+6, p+12).",
+  "description": "Gaps between first elements of quadruple primes of the form {p, p+2, p+6, p+12}.",
   "id": "A341267",
   "mentions": [
     "A172454"

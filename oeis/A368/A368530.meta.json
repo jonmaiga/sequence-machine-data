@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^3 * 4^(n-k).",
+  "id": "A368530",
+  "mentions": [
+    "A000537",
+    "A000578",
+    "A014825",
+    "A066999",
+    "A097788",
+    "A213575",
+    "A368525",
+    "A368529"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "description": "Sum of the multiset multiplicity kernel (in which each multiplicity becomes the least element of that multiplicity) of the prime indices of n.",
+  "id": "A367581",
+  "mentions": [
+    "A000079",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A007916",
+    "A007947",
+    "A008578",
+    "A051904",
+    "A052409",
+    "A052410",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A066328",
+    "A071625",
+    "A072774",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A175781",
+    "A181819",
+    "A181821",
+    "A238747",
+    "A296150",
+    "A304038",
+    "A353742",
+    "A367579",
+    "A367580",
+    "A367582",
+    "A367583",
+    "A367584",
+    "A367585",
+    "A367587"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

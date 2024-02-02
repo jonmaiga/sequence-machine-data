@@ -9,14 +9,14 @@
     "A224890"
   ],
   "tags": [
-    "cofr",
+    "base",
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

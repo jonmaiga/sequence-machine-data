@@ -1,5 +1,5 @@
 {
-  "description": "Primes == 7, 19, 23 (mod 40) such that (p-1)/2 is also prime.",
+  "description": "Primes p == 7, 19, 23 (mod 40) such that (p-1)/2 is also prime.",
   "id": "A000353",
   "mentions": [
     "A000355",
@@ -8,11 +8,12 @@
     "A006883"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 46,
     "source": "joeis"
   }
 }

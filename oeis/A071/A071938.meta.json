@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(max(n,R(n),min(n,R(n)) where R(n) is the reversal of n.",
+  "description": "Binomial(max(n,R(n)),min(n,R(n))) where R(n) is the reversal of n.",
   "id": "A071938",
   "mentions": [],
   "tags": [

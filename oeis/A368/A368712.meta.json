@@ -1,0 +1,29 @@
+{
+  "description": "The maximal exponent in the prime factorization of the cubefree numbers.",
+  "id": "A368712",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A005117",
+    "A008966",
+    "A013661",
+    "A013929",
+    "A033150",
+    "A051903",
+    "A067259",
+    "A253905",
+    "A368710",
+    "A368711",
+    "A368713"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

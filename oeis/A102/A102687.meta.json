@@ -1,5 +1,5 @@
 {
-  "description": "Number of different squares of mappings of a finite set of n elements into itself.",
+  "description": "Number of different squares of labeled mappings of a finite set of n elements into itself.",
   "id": "A102687",
   "mentions": [
     "A102709",

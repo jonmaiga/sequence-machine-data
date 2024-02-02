@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_(k>=1} (k^(1/k^k) - 1).",
+  "description": "Decimal expansion of Sum_{k>=1} (k^(1/k^k) - 1).",
   "id": "A308511",
   "mentions": [],
   "tags": [

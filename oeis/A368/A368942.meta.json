@@ -1,0 +1,18 @@
+{
+  "description": "Burning number of the n-antiprism graph.",
+  "id": "A368942",
+  "mentions": [
+    "A156859",
+    "A204166",
+    "A351846"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

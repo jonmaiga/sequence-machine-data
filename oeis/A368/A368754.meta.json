@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (n!)^n * [x^n] * 1/(1 - polylog(n,x)).",
+  "id": "A368754",
+  "mentions": [
+    "A000051",
+    "A000142",
+    "A007840",
+    "A011782",
+    "A036740",
+    "A323339",
+    "A323340",
+    "A336258",
+    "A336259",
+    "A336260",
+    "A336261"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

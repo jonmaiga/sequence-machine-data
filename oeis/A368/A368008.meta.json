@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 171/93, being the highest possible points won/lost ratio in a completed 5-set tennis match which the player loses.",
+  "id": "A368008",
+  "mentions": [
+    "A021061",
+    "A368009",
+    "A368146",
+    "A368476"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

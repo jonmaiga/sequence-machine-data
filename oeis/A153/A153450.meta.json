@@ -2,11 +2,13 @@
   "description": "Number of primes <= 2^(2^n) = pi(A001146(n)).",
   "id": "A153450",
   "mentions": [
+    "A000720",
     "A001146",
     "A007053"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

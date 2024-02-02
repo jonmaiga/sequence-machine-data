@@ -2,6 +2,7 @@
   "description": "a(n) = the total number of permutations (m(1),m(2),m(3)...m(j)) of (1,2,3,...,j) where n = 1*m(1) + 2*m(2) + 3*m(3) + ...+j*m(j), where j is over all positive integers.",
   "id": "A135298",
   "mentions": [
+    "A000292",
     "A126972",
     "A175929"
   ],
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 88,
+    "offset": 0,
+    "size": 89,
     "source": "oeis-bfile"
   }
 }

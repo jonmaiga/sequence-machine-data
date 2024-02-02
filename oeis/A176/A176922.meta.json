@@ -1,7 +1,8 @@
 {
-  "description": "Primes of the form 2^n+23.",
+  "description": "Primes of the form 2^k + 23.",
   "id": "A176922",
   "mentions": [
+    "A000040",
     "A057203"
   ],
   "tags": [

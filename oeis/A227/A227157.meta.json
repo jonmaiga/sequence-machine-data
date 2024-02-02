@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose factorial base representation A007623(n) doesn't contain any nonleading zeros.",
+  "description": "Numbers k whose factorial base representation A007623(k) does not contain any nonleading zeros.",
   "id": "A227157",
   "mentions": [
     "A003422",

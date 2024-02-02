@@ -1,0 +1,19 @@
+{
+  "description": "Brilliant 10-pandigital number (semiprimes whose prime factors are 6-digit numbers) whose prime factors are together 10-pandigital.",
+  "id": "A366897",
+  "mentions": [
+    "A001358",
+    "A078972",
+    "A171102"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

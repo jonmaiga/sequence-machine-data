@@ -2,7 +2,8 @@
   "description": "Decimal expansion of a constant related to the asymptotics of A324437.",
   "id": "A306620",
   "mentions": [
-    "A324437"
+    "A324437",
+    "A367834"
   ],
   "tags": [
     "cons",

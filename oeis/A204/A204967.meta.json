@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X6 0..1 arrays with every 3X3 subblock having three equal elements in a row horizontally, vertically, diagonally or antidiagonally at least two different ways, and new values 0..1 introduced in row major order",
+  "description": "Number of (n+2) X 6 0..1 arrays with every 3 X 3 subblock having three equal elements in a row horizontally, vertically, diagonally or antidiagonally at least two different ways, and new values 0..1 introduced in row major order.",
   "id": "A204967",
   "mentions": [
     "A204971"

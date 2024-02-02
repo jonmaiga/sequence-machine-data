@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..1 arrays with every element unequal to 0, 1, 2, 4, 5, 7 or 8 king-move adjacent elements, with upper left element zero.",
+  "description": "Number of n X 6 0..1 arrays with every element unequal to 0, 1, 2, 4, 5, 7 or 8 king-move adjacent elements, with upper left element zero.",
   "id": "A317151",
   "mentions": [
     "A317153"

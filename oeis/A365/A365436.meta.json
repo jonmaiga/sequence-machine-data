@@ -1,0 +1,18 @@
+{
+  "description": "a(2^k) = 2^k for all k >= 0. let 2^r be the smallest power of 2 which exceeds n, then a(n) = the least novel m*a(k), where k = 2^r-n, and m is not a prior term.",
+  "id": "A365436",
+  "mentions": [
+    "A005940",
+    "A286708",
+    "A303606",
+    "A356886"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

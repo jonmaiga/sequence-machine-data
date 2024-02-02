@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{d|n, d = 5 mod 7} d.",
+  "description": "a(n) = Sum_{d|n, d == 5 (mod 7)} d.",
   "id": "A284446",
   "mentions": [
     "A109707",
@@ -10,6 +10,7 @@
     "A284445"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

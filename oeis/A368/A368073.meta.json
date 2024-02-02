@@ -1,0 +1,18 @@
+{
+  "description": "Number of representations of n as the difference of two positive square pyramidal numbers.",
+  "id": "A368073",
+  "mentions": [
+    "A000330",
+    "A100073",
+    "A296338",
+    "A368072"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

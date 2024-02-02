@@ -2,6 +2,9 @@
   "description": "Decimal expansion of (-1 + sqrt(13))/6 = A223139/3.",
   "id": "A356033",
   "mentions": [
+    "A006130",
+    "A049310",
+    "A052533",
     "A188943",
     "A209927",
     "A223139"

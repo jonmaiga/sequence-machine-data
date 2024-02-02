@@ -1,5 +1,5 @@
 {
-  "description": "The sequence of Microsoft Windows versions that are integers.",
+  "description": "Microsoft Windows editions that are integers, sorted by release date.",
   "id": "A247652",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(log(Catalan(n)).",
+  "description": "a(n) = floor(log(Catalan(n))).",
   "id": "A260816",
   "mentions": [
     "A000108",

@@ -2,7 +2,6 @@
   "description": "Semiprimes with consecutive (ascending) digits.",
   "id": "A215477",
   "mentions": [
-    "A000040",
     "A001358",
     "A006055",
     "A059043",
@@ -11,7 +10,6 @@
   ],
   "tags": [
     "base",
-    "easy",
     "nonn"
   ],
   "terms": {

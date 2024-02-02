@@ -1,0 +1,50 @@
+{
+  "description": "Multiset multiplicity cokernel (MMC) of n. Product of (greatest prime factor with exponent k)^(number of prime factors with exponent k) over all distinct exponents k appearing in the prime factorization of n.",
+  "id": "A367859",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A006530",
+    "A007916",
+    "A007947",
+    "A020639",
+    "A027746",
+    "A027748",
+    "A052409",
+    "A052410",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A071625",
+    "A072774",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A175781",
+    "A181819",
+    "A304038",
+    "A323022",
+    "A353742",
+    "A367579",
+    "A367580",
+    "A367584",
+    "A367585",
+    "A367587",
+    "A367858",
+    "A367860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

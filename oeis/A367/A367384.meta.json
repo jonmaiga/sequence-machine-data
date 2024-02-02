@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A( sqrt(A(x)^2 - 8*A(x)^3) ) = x.",
+  "id": "A367384",
+  "mentions": [
+    "A078531",
+    "A273925"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

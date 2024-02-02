@@ -1,13 +1,20 @@
 {
-  "description": "Nonzero elements, by row, in a matrix of coefficients of Schur functions arising from the Pascal staircase.",
+  "description": "Irregular triangle T(n,k) (n >= 1, k >= 1) read by rows: T(n,1) = 2^n - 1; for k>1, T(n,k) = 0 for n <= 2*(k-1); otherwise T(n+1,k) = T(n,k-1) + T(n,k).",
   "id": "A201385",
-  "mentions": [],
+  "mentions": [
+    "A000225",
+    "A000247",
+    "A130783",
+    "A272352"
+  ],
   "tags": [
-    "nonn"
+    "easy",
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 49,
+    "source": "oeis-bfile"
   }
 }

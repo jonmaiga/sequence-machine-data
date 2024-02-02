@@ -1,0 +1,32 @@
+{
+  "description": "Number of degree 6 vertices in the n-Menger sponge graph.",
+  "id": "A367707",
+  "mentions": [
+    "A001018",
+    "A009964",
+    "A083233",
+    "A271939",
+    "A291066",
+    "A332705",
+    "A359452",
+    "A359453",
+    "A365602",
+    "A365606",
+    "A365607",
+    "A365608",
+    "A367700",
+    "A367701",
+    "A367702",
+    "A367706"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x * (1 + x + x^2 + x^3 + x^4) * A(x^5/120)).",
+  "id": "A367757",
+  "mentions": [
+    "A143569",
+    "A367754",
+    "A367755",
+    "A367756"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

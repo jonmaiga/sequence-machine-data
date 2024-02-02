@@ -1,0 +1,27 @@
+{
+  "description": "The sum of non-unitary divisors of the nonsquarefree numbers.",
+  "id": "A368038",
+  "mentions": [
+    "A002117",
+    "A005117",
+    "A013661",
+    "A013929",
+    "A048146",
+    "A072691",
+    "A084936",
+    "A174961",
+    "A229099",
+    "A275699",
+    "A368039",
+    "A368040"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

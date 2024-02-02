@@ -1,0 +1,18 @@
+{
+  "description": "Number of discrete implications I : L_n^2 -> L_n defined on the finite chain L_n = {0,1,...n} which satisfy the consequent boundary, i.e., I(x,y) >= y for all x,y in L_n.",
+  "id": "A367540",
+  "mentions": [
+    "A360612"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

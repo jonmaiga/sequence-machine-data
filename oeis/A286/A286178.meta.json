@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of Sum_{i=1..n}(A285388(i)*A285389(i+1))/((A285388(i+1)*A285389(i)).",
+  "description": "Denominator of Sum_{i=1..n}(A285388(i)*A285389(i+1))/(A285388(i+1)*A285389(i)).",
   "id": "A286178",
   "mentions": [
     "A285388",

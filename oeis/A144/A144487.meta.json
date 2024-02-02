@@ -1,11 +1,13 @@
 {
-  "description": "Primes of the form 2^n+15.",
+  "description": "Primes of the form 2^k + 15.",
   "id": "A144487",
   "mentions": [
+    "A000040",
     "A057197"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

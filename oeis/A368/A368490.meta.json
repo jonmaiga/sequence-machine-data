@@ -1,0 +1,19 @@
+{
+  "description": "Phi-analog of the 5-core partition function.",
+  "id": "A368490",
+  "mentions": [
+    "A000122",
+    "A053723",
+    "A368495"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

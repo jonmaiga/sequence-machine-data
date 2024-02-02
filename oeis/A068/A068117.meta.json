@@ -1,7 +1,9 @@
 {
   "description": "Smallest square beginning with concatenation of first n natural numbers.",
   "id": "A068117",
-  "mentions": [],
+  "mentions": [
+    "A007908"
+  ],
   "tags": [
     "base",
     "easy",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 14,
+    "source": "joeis"
   }
 }

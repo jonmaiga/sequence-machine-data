@@ -1,13 +1,18 @@
 {
-  "description": "Number of nonequivalent dissections of a polygon into n pentagons by nonintersecting diagonals up to rotation..",
+  "description": "Number of nonequivalent dissections of a polygon into n pentagons by nonintersecting diagonals up to rotation.",
   "id": "A005038",
   "mentions": [
     "A000108",
     "A001683",
     "A005034",
-    "A295224"
+    "A005040",
+    "A221184",
+    "A295224",
+    "A369471",
+    "A369472"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

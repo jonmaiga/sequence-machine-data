@@ -1,0 +1,21 @@
+{
+  "description": "Matula-Goebel number of the prime tower factorization tree of n.",
+  "id": "A369015",
+  "mentions": [
+    "A053810",
+    "A124010",
+    "A368899",
+    "A369099"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

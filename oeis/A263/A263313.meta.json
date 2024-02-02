@@ -2,6 +2,7 @@
   "description": "Permutation of the nonnegative integers: [4k+3, 4k, 4k+1, 4k+2, ...].",
   "id": "A263313",
   "mentions": [
+    "A002162",
     "A005843",
     "A166519"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of (prime(n)+1)*(prime(n+1)+1)/(4*(prime(n)*prime(n+1)+1).",
+  "description": "Numerator of (prime(n)+1)*(prime(n+1)+1)/(4*(prime(n)*prime(n+1)+1)).",
   "id": "A079081",
   "mentions": [
     "A023523",

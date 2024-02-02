@@ -1,0 +1,20 @@
+{
+  "description": "Möbius transform of A083345, where A083345(n) = n' / gcd(n,n'), and n' stands for the arithmetic derivative of n, A003415.",
+  "id": "A369068",
+  "mentions": [
+    "A003415",
+    "A008683",
+    "A083345",
+    "A346485",
+    "A369069"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

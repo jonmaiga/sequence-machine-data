@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (1-x+sqrt(1-6x+x^2))/2, (1+x-sqrt(1-6x+x^2))/4).",
+  "description": "Riordan array ((1-x+sqrt(1-6x+x^2))/2, (1+x-sqrt(1-6x+x^2))/4).",
   "id": "A117354",
   "mentions": [
     "A085403",

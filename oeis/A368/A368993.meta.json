@@ -1,0 +1,22 @@
+{
+  "description": "Doudna-gram for A336547; Partial sums of A368992.",
+  "id": "A368993",
+  "mentions": [
+    "A005940",
+    "A324054",
+    "A336546",
+    "A336547",
+    "A368910",
+    "A368991",
+    "A368992"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

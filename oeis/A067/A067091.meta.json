@@ -1,5 +1,5 @@
 {
-  "description": "Floor[X/Y] where X = concatenation of the (n+1)-st even number through the (2n)-th even number and Y = concatenation of first n even numbers.",
+  "description": "Floor(X/Y) where X = concatenation of the (n+1)-st even number through the (2n)-th even number and Y = concatenation of first n even numbers.",
   "id": "A067091",
   "mentions": [
     "A067088",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

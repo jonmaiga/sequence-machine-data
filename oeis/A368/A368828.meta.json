@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with the same number of zeros and letters O in their English name.",
+  "id": "A368828",
+  "mentions": [
+    "A227857",
+    "A368829"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Table read by ascending diagonals: A(n,m) is the smallest number k such that k and k+1 have the n-th and m-th prime signatures, respectively, or -1 if no such k exists.",
+  "id": "A368735",
+  "mentions": [
+    "A025487",
+    "A046523",
+    "A343144"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

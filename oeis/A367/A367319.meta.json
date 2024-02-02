@@ -1,0 +1,20 @@
+{
+  "description": "Base-2 Fermat pseudoprimes k such that (k-1)/ord(2, k) > (m-1)/ord(2, m) for all base-2 Fermat pseudoprimes m < k, where ord(2, k) is the multiplicative order of 2 modulo k.",
+  "id": "A367319",
+  "mentions": [
+    "A001567",
+    "A002326",
+    "A014664",
+    "A226216",
+    "A300101",
+    "A367320"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

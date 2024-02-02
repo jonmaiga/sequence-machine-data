@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n, m)=Sum_{k=1..(n-m)/2} C(m+k-1, k)*T((n-m)/2, k)), T(n,n)=1.",
+  "description": "Triangle T(n, m)=Sum_{k=1..(n-m)/2} C(m+k-1, k)*T((n-m)/2, k), T(n,n)=1.",
   "id": "A253190",
   "mentions": [
     "A000621",

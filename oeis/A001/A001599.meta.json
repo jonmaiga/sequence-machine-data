@@ -1,5 +1,5 @@
 {
-  "description": "Harmonic or Ore numbers: numbers n such that the harmonic mean of the divisors of n is an integer.",
+  "description": "Harmonic or Ore numbers: numbers k such that the harmonic mean of the divisors of k is an integer.",
   "id": "A001599",
   "mentions": [
     "A000005",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor",
+  "description": "Number of n X 6 arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor.",
   "id": "A221085",
   "mentions": [
     "A221087"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

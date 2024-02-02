@@ -1,8 +1,9 @@
 {
-  "description": "Mixing moments for the waiting time in a M/G/1 waiting queue.",
+  "description": "Mixing moments for the waiting time in an M/G/1 waiting queue.",
   "id": "A289684",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A144685"
   ],
   "tags": [
     "easy",

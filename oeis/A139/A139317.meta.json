@@ -2,6 +2,7 @@
   "description": "a(n) = the smallest value of the form n*k + 1, k = positive integer, that is coprime to all the previous terms of this sequence.",
   "id": "A139317",
   "mentions": [
+    "A132948",
     "A139318",
     "A139319"
   ],

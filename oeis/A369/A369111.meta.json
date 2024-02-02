@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of primes p less than or equal to 10^n such that p+2 has only prime factors congruent to -1 modulo 4.",
+  "id": "A369111",
+  "mentions": [
+    "A001221",
+    "A004614",
+    "A004767",
+    "A027748",
+    "A369105",
+    "A369107",
+    "A369108",
+    "A369109"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

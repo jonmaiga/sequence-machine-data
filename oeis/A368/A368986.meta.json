@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum of the origin-to-boundary graph-distances of all partitions of n.",
+  "id": "A368986",
+  "mentions": [
+    "A325188",
+    "A325189",
+    "A325200"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

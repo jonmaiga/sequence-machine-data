@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A005361(k) = A005361(k+1).",
+  "id": "A369211",
+  "mentions": [
+    "A005361",
+    "A007674",
+    "A052213",
+    "A085651",
+    "A219452",
+    "A335328",
+    "A358817",
+    "A369166"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

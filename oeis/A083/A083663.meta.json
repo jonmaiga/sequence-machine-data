@@ -2,14 +2,17 @@
   "description": "Least k such that k*n!-1 is prime.",
   "id": "A083663",
   "mentions": [
+    "A035093",
+    "A053989",
     "A084730"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

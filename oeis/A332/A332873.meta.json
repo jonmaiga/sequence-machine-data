@@ -2,6 +2,8 @@
   "description": "Number of non-unimodal, non-co-unimodal sequences of length n covering an initial interval of positive integers.",
   "id": "A332873",
   "mentions": [
+    "A000225",
+    "A000670",
     "A001523",
     "A007052",
     "A059204",
@@ -27,12 +29,12 @@
     "A332870"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

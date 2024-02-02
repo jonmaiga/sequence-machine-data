@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2 * n^(n-k).",
+  "id": "A368524",
+  "mentions": [
+    "A062805",
+    "A368505",
+    "A368525",
+    "A368526",
+    "A368534"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

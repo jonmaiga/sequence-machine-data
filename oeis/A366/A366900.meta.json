@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of real roots of the derivative of the cyclotomic polynomial Phi(n, 1/x).",
+  "id": "A366900",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

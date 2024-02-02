@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(sum(bell(n)*z^n/n, n=1..infinity).",
+  "description": "E.g.f.: exp(sum(bell(n)*z^n/n, n=1..infinity)).",
   "id": "A274539",
   "mentions": [
     "A000027",

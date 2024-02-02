@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(n) = max (A000005(n-1) , A000005(a(n-1)) , for n > 1.",
+  "description": "a(1) = 1; a(n) = max (A000005(n-1) , A000005(a(n-1))) , for n > 1.",
   "id": "A339147",
   "mentions": [
     "A000005"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

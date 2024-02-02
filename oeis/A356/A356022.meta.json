@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the infinite series Sum_{j=0..oo) 1/2^^j where ^^ indicates tetration.",
+  "description": "Decimal expansion of the infinite series Sum_{j=0..oo} 1/2^^j where ^^ indicates tetration.",
   "id": "A356022",
   "mentions": [
     "A007404",

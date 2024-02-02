@@ -2,6 +2,8 @@
   "description": "Decimal expansion of the probability that a random real number is evil.",
   "id": "A271880",
   "mentions": [
+    "A001019",
+    "A010734",
     "A100061",
     "A100062",
     "A271881"

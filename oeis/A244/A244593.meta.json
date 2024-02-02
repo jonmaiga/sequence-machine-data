@@ -2,9 +2,20 @@
   "description": "Decimal expansion of z_c = phi^5 (where phi is the golden ratio), a lattice statistics constant which is the exact value of the critical activity of the hard hexagon model.",
   "id": "A244593",
   "mentions": [
+    "A001622",
+    "A014176",
     "A019827",
     "A019863",
+    "A049310",
     "A085850",
+    "A098316",
+    "A098317",
+    "A098318",
+    "A176398",
+    "A176439",
+    "A176458",
+    "A176522",
+    "A176537",
     "A239798"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Let f(n) = floor(r*floor(r*n)) = A341254(n), where r = (2 + sqrt(5))/2). Let a(1) = 1. Then a(n) = f(a(n-1)) for n >= 2.",
+  "description": "Let f(n) = floor(r*floor(r*n)) = A341254(n), where r = (2 + sqrt(5))/2. Let a(1) = 1. Then a(n) = f(a(n-1)) for n >= 2.",
   "id": "A341255",
   "mentions": [
     "A339828",

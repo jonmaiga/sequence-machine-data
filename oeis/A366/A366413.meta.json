@@ -1,0 +1,24 @@
+{
+  "description": "Squarefree composite k such that the smallest nondivisor prime is less than the greatest prime factor, i.e., A053669(k) < A006530(k).",
+  "id": "A366413",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A002110",
+    "A005117",
+    "A006530",
+    "A053669",
+    "A120944"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

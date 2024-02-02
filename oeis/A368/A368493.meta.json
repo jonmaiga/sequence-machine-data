@@ -1,0 +1,18 @@
+{
+  "description": "T(n,m) is the number of m-dimensional isotropic subspaces of a 2n-dimensional symplectic space over Z/2, n >= 0 and 0 <= m <= n.",
+  "id": "A368493",
+  "mentions": [
+    "A022166",
+    "A028362"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

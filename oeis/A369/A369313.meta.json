@@ -1,0 +1,17 @@
+{
+  "description": "Number of interval-closed sets in the boolean lattice of dimension n.",
+  "id": "A369313",
+  "mentions": [
+    "A000372"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

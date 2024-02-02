@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with three or more digits such that every three consecutive digits are a nonzero square.",
+  "id": "A365820",
+  "mentions": [
+    "A000290",
+    "A291334"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that d(r,k) = d(s,k), where d(x,k) = k-th binary digit of x, r = {sqrt(2)}, s = {sqrt(8), and { } = fractional part.",
+  "description": "Numbers k such that d(r,k) = d(s,k), where d(x,k) = k-th binary digit of x, r = {sqrt(2)}, s = {sqrt(8)}, and { } = fractional part.",
   "id": "A247635",
   "mentions": [
     "A247523",

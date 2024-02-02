@@ -1,7 +1,8 @@
 {
-  "description": "Number of polyhexes with 24 hexagons, C_(2h) symmetry and containing n carbon atoms.",
+  "description": "Number of polyhexes with 24 hexagons, C_(2h) symmetry and containing 2n carbon atoms.",
   "id": "A123277",
   "mentions": [
+    "A121210",
     "A121964",
     "A122539",
     "A122736",
@@ -12,10 +13,13 @@
     "A123142"
   ],
   "tags": [
+    "fini",
+    "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 68,
+    "offset": 34,
     "size": 16,
     "source": "oeis-entry"
   }

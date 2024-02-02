@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ((n-th prime)^6-(n-th prime)^4))/12.",
+  "description": "a(n) = ((n-th prime)^6-(n-th prime)^4)/12.",
   "id": "A138459",
   "mentions": [
     "A008837",

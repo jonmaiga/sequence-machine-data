@@ -1,0 +1,13 @@
+{
+  "description": "Sequence of magic constants related to distance magic graphs.",
+  "id": "A367539",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

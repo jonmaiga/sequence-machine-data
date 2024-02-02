@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: Place k points in general position on each side of a regular n-gon and join every pair of the n*(k+1) boundary points by a chord; T(n,k) (n >= 3, k >= 0) gives number of edges in the resulting planar graph.",
+  "id": "A367190",
+  "mentions": [
+    "A135565",
+    "A366253",
+    "A367119",
+    "A367122",
+    "A367183"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

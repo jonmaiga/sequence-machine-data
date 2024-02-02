@@ -1,0 +1,21 @@
+{
+  "description": "A variant of A367150 with application of the distance minimization to an 8-fold symmetrically expanded sector between Pi/4 and Pi/2 of the pair of rotated grids created by the strip bijection of A307110.",
+  "id": "A368126",
+  "mentions": [
+    "A305575",
+    "A305576",
+    "A307110",
+    "A367150",
+    "A368121",
+    "A368129",
+    "A368130"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

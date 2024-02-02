@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest number k such that continued fraction of (1 + sqrt(k))/2 has period length n.",
+  "description": "a(n) = smallest number k such that the continued fraction of (1 + sqrt(k))/2 has period n.",
   "id": "A146343",
   "mentions": [
     "A000290",

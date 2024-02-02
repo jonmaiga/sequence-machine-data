@@ -1,5 +1,5 @@
 {
-  "description": "Negative values of the Inverse binomial transform of A045883.",
+  "description": "Negative values of the inverse binomial transform of A045883.",
   "id": "A140962",
   "mentions": [
     "A001045",
@@ -7,6 +7,7 @@
     "A078008"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form p^2 * m, squarefree m > 1, prime p < lpf(m), where lpf(m) = A020639(m).",
+  "id": "A366825",
+  "mentions": [
+    "A007947",
+    "A020639",
+    "A065642",
+    "A120944",
+    "A126706",
+    "A364996"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

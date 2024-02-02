@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 5n^2 + 2.",
+  "description": "Primes of the form 5*k^2 + 2, k >= 0.",
   "id": "A201481",
   "mentions": [],
   "tags": [

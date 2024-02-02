@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the greatest prime less than 2*k is less than twice the greatest prime less than k.",
+  "id": "A367035",
+  "mentions": [
+    "A006254",
+    "A049711",
+    "A053176",
+    "A151799"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

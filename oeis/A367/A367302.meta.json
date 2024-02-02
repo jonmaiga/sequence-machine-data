@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: Place k equally spaced points on each side of a regular n-gon and join every pair of these n*k points by a chord; T(n,k) (n >= 3, k >= 0) gives the number of vertices in the resulting planar graph.",
+  "id": "A367302",
+  "mentions": [
+    "A366483",
+    "A367276",
+    "A367303",
+    "A367304",
+    "A367305"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

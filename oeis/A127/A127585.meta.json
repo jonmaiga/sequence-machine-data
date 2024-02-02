@@ -2,6 +2,7 @@
   "description": "Exponential error term from Stirling's Approximation.",
   "id": "A127585",
   "mentions": [
+    "A005394",
     "A046968",
     "A046969",
     "A055775",
@@ -13,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 6,
+    "offset": 0,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

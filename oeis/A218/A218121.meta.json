@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of c(n) defined by c(1)=1, c(2)=5/2 and for n>=3, c(n) is the minimal rational number >= c(n-1) such that there are no primes in the interval (Prime(n)/c(n), Prime(n+1)/c(n)).",
+  "description": "Numerator of c(n) defined by c(1)=1, c(2)=5/2 and for n>=3, c(n) is the minimal rational number >= c(n-1) such that there are no primes in the interval (prime(n)/c(n), prime(n+1)/c(n)).",
   "id": "A218121",
   "mentions": [
     "A217689",

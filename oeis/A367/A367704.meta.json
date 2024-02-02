@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations of [n] where each pair of adjacent elements differs by a prime.",
+  "id": "A367704",
+  "mentions": [
+    "A076220",
+    "A103839"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

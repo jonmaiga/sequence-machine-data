@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of e^(3*Zeta(3)/(4*log(2)).",
+  "description": "Decimal expansion of e^(3*Zeta(3)/(4*log(2))).",
   "id": "A275696",
   "mentions": [
     "A001113",

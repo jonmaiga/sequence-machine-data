@@ -2,15 +2,15 @@
   "description": "Number of 3-noncrossing restricted RNA structures with n vertices.",
   "id": "A103140",
   "mentions": [
+    "A049401",
     "A133365"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. T(n, k) is the number of compositions of n where the first part k is the largest part and the last part is not 1.",
+  "id": "A368579",
+  "mentions": [
+    "A000045",
+    "A034008",
+    "A092921",
+    "A368279"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

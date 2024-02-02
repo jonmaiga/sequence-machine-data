@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} (-1)^[d is prime] * d, where [] denotes the Iverson bracket.",
+  "id": "A367175",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A008472",
+    "A033942",
+    "A037143",
+    "A367176"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

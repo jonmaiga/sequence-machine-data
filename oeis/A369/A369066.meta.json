@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet convolution of Liouville's lambda (A008836) with A083345, as reordered by the Doudna sequence.",
+  "id": "A369066",
+  "mentions": [
+    "A005940",
+    "A008836",
+    "A083345",
+    "A366803",
+    "A369067",
+    "A369069"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that the values a(0) XOR ... XOR a(k) (for some k >= 0) are all distinct (where XOR denotes the bitwise XOR operator).",
+  "id": "A367262",
+  "mentions": [
+    "A333400",
+    "A346298",
+    "A367263",
+    "A367264"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

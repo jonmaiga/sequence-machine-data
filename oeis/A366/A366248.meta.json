@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(666).",
+  "id": "A366248",
+  "mentions": [
+    "A021670",
+    "A040640"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

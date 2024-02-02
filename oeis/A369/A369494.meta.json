@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^(n*(n+1)/2)] Product_{k=1..n} (x^(k*(k+1)/2) + 1/x^(k*(k+1)/2)).",
+  "id": "A369494",
+  "mentions": [
+    "A000217",
+    "A063890",
+    "A158380",
+    "A351002",
+    "A368243"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

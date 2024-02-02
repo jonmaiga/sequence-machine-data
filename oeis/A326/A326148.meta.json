@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers > 1, not powers of primes, for which A326147(n) is equal to abs(A326146(n).",
+  "description": "Odd numbers > 1, not powers of primes, for which A326147(n) is equal to abs(A326146(n)).",
   "id": "A326148",
   "mentions": [
     "A020639",

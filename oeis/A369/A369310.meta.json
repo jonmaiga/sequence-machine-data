@@ -1,0 +1,26 @@
+{
+  "description": "The number of divisors d of n such that gcd(d, n/d) is a powerful number.",
+  "id": "A369310",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A001694",
+    "A005117",
+    "A034444",
+    "A046100",
+    "A365171",
+    "A365488",
+    "A369309"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

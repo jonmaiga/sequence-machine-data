@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and k+1 have the same maximal exponent in their prime factorization.",
+  "id": "A369020",
+  "mentions": [
+    "A007674",
+    "A051903",
+    "A071318",
+    "A358817",
+    "A362605",
+    "A369021",
+    "A369022"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

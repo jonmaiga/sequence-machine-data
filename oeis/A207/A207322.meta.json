@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum{k=0..n} (-1)^k*A002893(k)).",
+  "description": "a(n) = Sum{k=0..n} (-1)^k*A002893(k).",
   "id": "A207322",
   "mentions": [
     "A002893"

@@ -2,10 +2,13 @@
   "description": "a(0) = 0, a(n) = n^2 * (a(n-1) + 1).",
   "id": "A193563",
   "mentions": [
-    "A007526"
+    "A006040",
+    "A007526",
+    "A180255"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

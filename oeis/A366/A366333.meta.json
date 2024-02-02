@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of distinct numbers of diagonal transversals that a semicyclic diagonal Latin square of order 2n+1 can have.",
+  "id": "A366333",
+  "mentions": [
+    "A071607",
+    "A338562",
+    "A341585",
+    "A342990",
+    "A345370",
+    "A366331"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

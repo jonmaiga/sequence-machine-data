@@ -2,10 +2,13 @@
   "description": "Number of divisors of n of the form 7*k + 2.",
   "id": "A363795",
   "mentions": [
+    "A001620",
     "A001822",
     "A001877",
+    "A016630",
     "A279061",
     "A284443",
+    "A354628",
     "A363805",
     "A363806",
     "A363807",
@@ -19,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

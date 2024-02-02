@@ -1,10 +1,13 @@
 {
-  "description": "The smallest integer that begins the largest run of consecutive integers with the prime signature of A025487(n).",
+  "description": "The smallest integer that begins the longest run of consecutive integers with the prime signature of A025487(n).",
   "id": "A178811",
   "mentions": [
+    "A001694",
     "A025487",
+    "A060355",
     "A141621",
-    "A178810"
+    "A178810",
+    "A367781"
   ],
   "tags": [
     "more",

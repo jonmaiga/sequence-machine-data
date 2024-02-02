@@ -2,6 +2,7 @@
   "description": "Number of inequivalent n X n binary matrices, where equivalence means permutations of rows or columns.",
   "id": "A002724",
   "mentions": [
+    "A000595",
     "A002623",
     "A002725",
     "A002727",

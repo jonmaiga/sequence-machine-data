@@ -1,8 +1,9 @@
 {
-  "description": "Integer part of the conversion from Centigrade to Fahrenheit.",
+  "description": "Integer part of the conversion from Celsius to Fahrenheit.",
   "id": "A085259",
   "mentions": [
     "A029925",
+    "A029926",
     "A085268",
     "A177154"
   ],
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

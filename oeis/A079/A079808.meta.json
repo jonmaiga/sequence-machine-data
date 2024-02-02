@@ -1,5 +1,5 @@
 {
-  "description": "Consider triangle in which the 2n-th row contains first 2n positive integers in decreasing order and the (2n+1)-st row contains first 2n+1 positive integers in increasing order; sequence contains concatenation of numbers read upward at a 45-degree angle.",
+  "description": "Consider a triangle in which the 2n-th row contains first 2n positive integers in decreasing order and the (2n+1)-st row contains first 2n+1 positive integers in increasing order; sequence contains concatenation of numbers read upward at a 45-degree angle.",
   "id": "A079808",
   "mentions": [
     "A079809"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

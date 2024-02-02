@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{k=0..n} (6*k)! / k!^6.",
+  "id": "A367570",
+  "mentions": [
+    "A000178",
+    "A007685",
+    "A008979",
+    "A074962",
+    "A271946",
+    "A367567",
+    "A367568",
+    "A367569",
+    "A367571"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} binomial(n, k)*(2^k - binomial(k, floor(k/2)).",
+  "description": "a(n) = Sum_{k=0..n} binomial(n, k)*(2^k - binomial(k, floor(k/2))).",
   "id": "A330796",
   "mentions": [
     "A008549",

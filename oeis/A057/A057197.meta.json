@@ -1,11 +1,19 @@
 {
-  "description": "Numbers n such that 2^n + 15 is prime.",
+  "description": "Numbers k such that 2^k + 15 is prime.",
   "id": "A057197",
   "mentions": [
     "A019434",
     "A057195",
+    "A057196",
+    "A057200",
+    "A057201",
+    "A057203",
+    "A057221",
     "A057732",
     "A059242",
+    "A094076",
+    "A102633",
+    "A102634",
     "A125248"
   ],
   "tags": [
@@ -13,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

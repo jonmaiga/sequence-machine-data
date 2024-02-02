@@ -1,5 +1,5 @@
 {
-  "description": "Number of non-congruent integer triangles ABC with largest side BC of length n whose opposite vertex A lies inside the closed boundary formed by BC and a locus of points whose real distance from B is x, from C is y and x^3+y^3=n^3.",
+  "description": "Number of non-congruent integer triangles ABC with largest side BC of length n whose opposite vertex A lies inside the closed boundary formed by BC and a locus of points whose real distance from B is x, from C is y and x^3 + y^3 = n^3.",
   "id": "A251607",
   "mentions": [
     "A002620",

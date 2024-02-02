@@ -1,0 +1,19 @@
+{
+  "description": "a(n) gives the number of triples of equally spaced 1's in the binary expansion of n.",
+  "id": "A368843",
+  "mentions": [
+    "A368842",
+    "A368844"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

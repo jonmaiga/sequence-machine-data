@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the denominator of (R(n) - 1)/(n + 1), where R(n) is the digit reversal of n.",
+  "id": "A367728",
+  "mentions": [
+    "A004086",
+    "A367593",
+    "A367727"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "frac",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

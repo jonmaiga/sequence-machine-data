@@ -1,14 +1,25 @@
 {
-  "description": "a(n) = sum_{d|n, n/d=1 mod 4} d^3 - sum_{d|n, n/d=3 mod 4} d^3.",
+  "description": "a(n) = Sum_{d|n, n/d=1 mod 4} d^3 - Sum_{d|n, n/d=3 mod 4} d^3.",
   "id": "A050471",
   "mentions": [
     "A000578",
+    "A002654",
     "A050468",
     "A050469",
     "A050470",
-    "A101455"
+    "A101455",
+    "A175572",
+    "A321829",
+    "A321830",
+    "A321831",
+    "A321832",
+    "A321833",
+    "A321834",
+    "A321835",
+    "A321836"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

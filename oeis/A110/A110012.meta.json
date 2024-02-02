@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n - F(F(n)) where F(x)=floor(sqrt(2)*floor(x/sqrt(2)).",
+  "description": "a(n) = n - F(F(n)) where F(x)=floor(sqrt(2)*floor(x/sqrt(2))).",
   "id": "A110012",
   "mentions": [
     "A003842",

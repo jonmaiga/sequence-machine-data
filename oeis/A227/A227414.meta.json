@@ -1,14 +1,20 @@
 {
   "description": "Number of ordered n-tuples of subsets of {1,2,...,n} which satisfy the conditions in Hall's Marriage Problem.",
   "id": "A227414",
-  "mentions": [],
+  "mentions": [
+    "A002416",
+    "A088672",
+    "A089479",
+    "A089482"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 7,
+    "offset": 0,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

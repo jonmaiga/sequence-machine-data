@@ -1,5 +1,5 @@
 {
-  "description": "Triangle G(n,k) read by rows: number of order-preserving partial transformations (of an n-element totally ordered set) of waist k (waist(alpha) = max(Im(alpha)).",
+  "description": "Triangle G(n,k) read by rows: number of order-preserving partial transformations (of an n-element totally ordered set) of waist k (waist(alpha) = max(Im(alpha))).",
   "id": "A111516",
   "mentions": [
     "A050146",

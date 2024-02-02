@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the number of symbols of a \"normal\" proof (see comments) for each of the distinct derivable strings (theorems) in the MIU formal system that are n characters long.",
+  "id": "A369411",
+  "mentions": [
+    "A024495",
+    "A368946",
+    "A369173",
+    "A369408",
+    "A369409",
+    "A369410",
+    "A369413"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

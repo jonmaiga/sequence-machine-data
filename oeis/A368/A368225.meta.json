@@ -1,0 +1,25 @@
+{
+  "description": "Irregular table of nonnegative integers read by rows: the 1's in the binary expansion of n exactly match the nonzero digits in the balanced ternary expansions of the terms in the n-th row.",
+  "id": "A368225",
+  "mentions": [
+    "A003462",
+    "A005836",
+    "A048896",
+    "A343231",
+    "A353662",
+    "A368226",
+    "A368229",
+    "A368239"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

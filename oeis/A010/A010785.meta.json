@@ -1,5 +1,5 @@
 {
-  "description": "Repdigit numbers, or numbers with repeated digits.",
+  "description": "Repdigit numbers, or numbers whose digits are all equal.",
   "id": "A010785",
   "mentions": [
     "A000005",

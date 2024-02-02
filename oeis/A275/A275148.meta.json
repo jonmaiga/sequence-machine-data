@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n where the least natural number k such that k^2 + n is prime reaches a new record value.",
+  "description": "Numbers m where the least natural number k such that m + k^2 is prime reaches a new record value.",
   "id": "A275148",
   "mentions": [
     "A085099"

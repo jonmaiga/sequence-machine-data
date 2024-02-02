@@ -1,0 +1,19 @@
+{
+  "description": "Infinitary version of Mertens's function: a(n) = Sum_{k=1..n} A064179(k).",
+  "id": "A368405",
+  "mentions": [
+    "A002321",
+    "A064179",
+    "A174863",
+    "A209802"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

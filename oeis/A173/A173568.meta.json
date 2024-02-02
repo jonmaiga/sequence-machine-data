@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n, k) = f(k, n-k+1) + f(n-k+1, k), where f(n, k) = round( ((1+sqrt(k)^(2*n+1) - (1-sqrt(k))^(2*n+1))/(2*sqrt(k))) - 1, read by rows.",
+  "description": "Triangle T(n, k) = f(k, n-k+1) + f(n-k+1, k), where f(n, k) = round( ((1+sqrt(k))^(2*n+1) - (1-sqrt(k))^(2*n+1))/(2*sqrt(k))) - 1, read by rows.",
   "id": "A173568",
   "mentions": [],
   "tags": [

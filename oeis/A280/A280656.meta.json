@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of Sum_{k=0..n^2-1}((-1)^k*sqrt(Pi)/(Gamma(1/2-k)*Gamma(1+k)))-n).",
+  "description": "Denominator of (Sum_{k=0..n^2-1} (-1)^k*sqrt(Pi)/(Gamma(1/2-k)*Gamma(1+k))) - n.",
   "id": "A280656",
   "mentions": [
     "A280655"

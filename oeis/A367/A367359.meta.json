@@ -1,0 +1,20 @@
+{
+  "description": "Value of A121805(k) for k = A367358(n).",
+  "id": "A367359",
+  "mentions": [
+    "A121805",
+    "A366487",
+    "A367358"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

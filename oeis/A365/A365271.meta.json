@@ -1,0 +1,19 @@
+{
+  "description": "Minimum number of shaded squares needed on an n X n grid divided into rectangular regions so that more than half of the regions have more than half of their squares shaded and the area of the smallest region is more than half that of the largest region.",
+  "id": "A365271",
+  "mentions": [
+    "A172477",
+    "A341319"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

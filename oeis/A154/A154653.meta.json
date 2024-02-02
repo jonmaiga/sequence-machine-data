@@ -1,5 +1,5 @@
 {
-  "description": "Triangular T(n,k) = binomial(prime(n+1) - 1, prime(k+1) - 1)) with T(n,0) = 1, read by rows.",
+  "description": "Triangular T(n,k) = binomial(prime(n+1) - 1, prime(k+1) - 1) with T(n,0) = 1, read by rows.",
   "id": "A154653",
   "mentions": [
     "A154652"

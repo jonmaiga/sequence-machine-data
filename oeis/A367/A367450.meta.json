@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of [n] whose sum of block maxima equals twice the sum of block minima.",
+  "id": "A367450",
+  "mentions": [
+    "A000110",
+    "A368338"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

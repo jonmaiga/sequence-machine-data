@@ -1,0 +1,22 @@
+{
+  "description": "The number of square divisors d of n such that n/d is also a square.",
+  "id": "A369308",
+  "mentions": [
+    "A000005",
+    "A000037",
+    "A001620",
+    "A046951",
+    "A369307"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

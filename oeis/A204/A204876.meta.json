@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) = Number of (n+1) X (k+1) 0..3 arrays with the permanents of all 2X2 subblocks equal and nonzero.",
+  "description": "T(n,k) = Number of (n+1) X (k+1) 0..3 arrays with the permanents of all 2 X 2 subblocks equal and nonzero.",
   "id": "A204876",
   "mentions": [],
   "tags": [

@@ -1,7 +1,12 @@
 {
   "description": "Cubes for which the product of the digits is a cube > 0.",
   "id": "A067070",
-  "mentions": [],
+  "mentions": [
+    "A000578",
+    "A007954",
+    "A052045",
+    "A052382"
+  ],
   "tags": [
     "base",
     "nonn"

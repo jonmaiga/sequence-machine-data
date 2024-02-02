@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array, read by rows: T(n,k) = number of partitions p of n such that d(p, p') = 2k, where p' = contraconjugate of p, and d is the distance function defined in A366156.",
+  "id": "A366745",
+  "mentions": [
+    "A000041",
+    "A080577",
+    "A366156",
+    "A366746"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

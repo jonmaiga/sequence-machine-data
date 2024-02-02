@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose difference between the largest and smallest digits is equal to 2.",
+  "id": "A366959",
+  "mentions": [
+    "A010785",
+    "A037904",
+    "A366958",
+    "A366960",
+    "A366961",
+    "A366962",
+    "A366963",
+    "A366964",
+    "A366965",
+    "A366966"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

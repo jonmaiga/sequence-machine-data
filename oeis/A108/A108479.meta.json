@@ -1,5 +1,5 @@
 {
-  "description": "Diagonal sums of number triangle A086645.",
+  "description": "Anti-diagonal sums of number triangle A086645.",
   "id": "A108479",
   "mentions": [
     "A086645"

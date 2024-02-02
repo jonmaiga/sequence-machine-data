@@ -1,7 +1,11 @@
 {
-  "description": "Expansion of 1/((1-x^5)(1-x^10)(1-x^12)).",
+  "description": "Expansion of 1/((1-x^5)*(1-x^10)*(1-x^12)).",
   "id": "A025895",
-  "mentions": [],
+  "mentions": [
+    "A025893",
+    "A025894",
+    "A025896"
+  ],
   "tags": [
     "nonn"
   ],

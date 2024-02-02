@@ -1,0 +1,22 @@
+{
+  "description": "Table T(n,k) n>=1, k>=1, read by downwards antidiagonals where the n-th row is the fixed point of the morphism 0->R(n), 1->R(n)0, where R(n) is the n-th repunit (A002275).",
+  "id": "A368281",
+  "mentions": [
+    "A002275",
+    "A005206",
+    "A005614",
+    "A285431",
+    "A286389",
+    "A368282"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

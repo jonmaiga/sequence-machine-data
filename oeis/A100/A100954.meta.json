@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 7/2 - sqrt(2)/4.",
   "id": "A100954",
-  "mentions": [],
+  "mentions": [
+    "A365823"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the number of tilings of the n X k torus up to horizontal and vertical reflections by an asymmetric tile.",
+  "id": "A368304",
+  "mentions": [
+    "A184271",
+    "A222188",
+    "A368220",
+    "A368257",
+    "A368302",
+    "A368303",
+    "A368306",
+    "A368308"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

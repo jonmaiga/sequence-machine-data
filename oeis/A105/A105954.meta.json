@@ -1,5 +1,5 @@
 {
-  "description": "Array read by descending antidiagonals: A(n, k) = (n + 1)! * H(k, n + 1), where H(n, k) is a higher-order harmonic number, H(0, k) = 1/k and H(n, k) = Sum_{j=1..k} H(n-1, j)), for 0 <= k <= n.",
+  "description": "Array read by descending antidiagonals: A(n, k) = (n + 1)! * H(k, n + 1), where H(n, k) is a higher-order harmonic number, H(0, k) = 1/k and H(n, k) = Sum_{j=1..k} H(n-1, j), for 0 <= k <= n.",
   "id": "A105954",
   "mentions": [
     "A000142",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that the continued fraction for sqrt(n) has odd period length, omitting those values of n of the form m^2+1.",
+  "description": "Numbers k such that the continued fraction for sqrt(k) has odd period, omitting those values of k of the form m^2+1.",
   "id": "A240950",
   "mentions": [
     "A002522",

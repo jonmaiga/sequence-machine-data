@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with exactly one comma-child.",
+  "id": "A367613",
+  "mentions": [
+    "A121895",
+    "A367338",
+    "A367341",
+    "A367346"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

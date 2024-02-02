@@ -1,5 +1,5 @@
 {
-  "description": "Array T(m,n) (m>=0, n>=0) read by antidiagonals: T(0, 0) = 1, T(0, n) = 0 if n /= 0, T(m, n) = T(m-1, T(m-1, n)) + T(m-1, n - T(m-1, n-1) if m > 0.",
+  "description": "Array T(m,n) (m>=0, n>=0) read by antidiagonals: T(0, 0) = 1, T(0, n) = 0 if n /= 0, T(m, n) = T(m-1, T(m-1, n)) + T(m-1, n - T(m-1, n-1)) if m > 0.",
   "id": "A079408",
   "mentions": [
     "A004001",

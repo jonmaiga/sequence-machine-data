@@ -2,6 +2,7 @@
   "description": "a(n) = (smallest prime > n^2) - n^2.",
   "id": "A053000",
   "mentions": [
+    "A000010",
     "A007491",
     "A013632",
     "A014085",

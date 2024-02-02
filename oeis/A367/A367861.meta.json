@@ -1,0 +1,42 @@
+{
+  "description": "Numbers k whose multiset multiplicity cokernel (in which each prime exponent becomes the greatest prime factor with that exponent) is different from that of all positive integers less than k.",
+  "id": "A367861",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001597",
+    "A007916",
+    "A007947",
+    "A020639",
+    "A027746",
+    "A027748",
+    "A051904",
+    "A061395",
+    "A071625",
+    "A072774",
+    "A073485",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181819",
+    "A304038",
+    "A367582",
+    "A367584",
+    "A367585",
+    "A367768",
+    "A367857",
+    "A367858",
+    "A367859",
+    "A367860"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

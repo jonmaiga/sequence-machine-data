@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * (n+1)! * Sum_{k=0..n} (-1)^k/(k! * (k+1)!).",
+  "id": "A368853",
+  "mentions": [
+    "A000166",
+    "A228229",
+    "A368854"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2n-step walks on square lattice starting and ending at the origin with first step north and avoiding early returns.",
+  "id": "A366924",
+  "mentions": [
+    "A054474"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

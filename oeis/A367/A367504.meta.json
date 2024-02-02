@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) = a(n-1) + 2*gpf(a(n-1)), where gpf(k) = A006530(k) = greatest prime dividing k.",
+  "id": "A367504",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A027746",
+    "A036441",
+    "A076271",
+    "A121805",
+    "A123581",
+    "A180107",
+    "A367465",
+    "A367624"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

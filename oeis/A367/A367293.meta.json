@@ -1,0 +1,22 @@
+{
+  "description": "Main diagonal of the extended Wythoff array (A287870).",
+  "id": "A367293",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001468",
+    "A020941",
+    "A035513",
+    "A099920",
+    "A287870"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,22 @@
   "description": "a(n) = Sum_{d|n, n/d=1 mod 4} d^3.",
   "id": "A050462",
   "mentions": [
-    "A050466"
+    "A007331",
+    "A050460",
+    "A050461",
+    "A050463",
+    "A050466",
+    "A050471",
+    "A175572"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A003415(sigma(A005940(1+n))) mod 2, where A003415 is the arithmetic derivative, sigma is the sum of divisors function, and A005940 is the Doudna sequence.",
+  "id": "A368909",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A005940",
+    "A165560",
+    "A324054",
+    "A347870",
+    "A368910"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of J(n) = A000356(n)/A000309(n) (average number of 4-colorings of rank 0 in a rooted nonseparable map which is trivalent and has 2n nodes.",
+  "description": "Numerator of J(n) = A000356(n)/A000309(n) (average number of 4-colorings of rank 0 in a rooted nonseparable map which is trivalent and has 2n nodes).",
   "id": "A097872",
   "mentions": [
     "A000309",

@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of unlabeled loop-graphs on up to n vertices with k loops and n-k non-loops.",
+  "id": "A368836",
+  "mentions": [
+    "A000085",
+    "A000088",
+    "A000272",
+    "A000612",
+    "A000666",
+    "A001434",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A007717",
+    "A014068",
+    "A058891",
+    "A062740",
+    "A100861",
+    "A111924",
+    "A322661",
+    "A333331",
+    "A368596",
+    "A368598",
+    "A368730",
+    "A368835",
+    "A368928"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

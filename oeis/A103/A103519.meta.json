@@ -1,8 +1,9 @@
 {
-  "description": "a(1) = 1, a(n) = sum of n successive numbers starting with a(n-1) + 1.",
+  "description": "a(1) = 1, a(n) = Sum_{k=1..n} a(n-1) + k.",
   "id": "A103519",
   "mentions": [
     "A000217",
+    "A007526",
     "A103520"
   ],
   "tags": [

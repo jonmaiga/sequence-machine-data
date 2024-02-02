@@ -1,5 +1,5 @@
 {
-  "description": "Partial sum of Sigma_3(n) is divisible by n, where Sigma_3(n)=A001158(n).",
+  "description": "Numbers k such that A064603(k) is divisible by k.",
   "id": "A064606",
   "mentions": [
     "A001158",
@@ -17,11 +17,12 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

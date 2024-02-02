@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-ominoes that have the maximum degree (A367124(n)) in the n-omino graph defined in A098891.",
+  "id": "A367125",
+  "mentions": [
+    "A098891",
+    "A367123",
+    "A367124",
+    "A367438"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

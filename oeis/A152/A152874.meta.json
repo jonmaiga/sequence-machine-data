@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} with k parity changes (n>=2; 1<=k <=n-1; the permutation 372185946 has 5 parity changes: 37-2-1-8-59-46.",
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} with k parity changes (n>=2; 1<=k <=n-1); the permutation 372185946 has 5 parity changes: 37-2-1-8-59-46.",
   "id": "A152874",
   "mentions": [
     "A000142",

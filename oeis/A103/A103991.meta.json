@@ -9,12 +9,11 @@
   "tags": [
     "formulas",
     "frac",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 60,
     "source": "oeis-entry"
   }
 }

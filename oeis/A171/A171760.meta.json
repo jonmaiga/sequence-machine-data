@@ -5,12 +5,13 @@
     "A000170"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (eta(q^6)/(eta(q)eta(q^2)eta(q^3))^2 in powers of q.",
+  "description": "Expansion of (eta(q^6)/(eta(q)*eta(q^2)*eta(q^3)))^2 in powers of q.",
   "id": "A293378",
   "mentions": [
     "A077285",

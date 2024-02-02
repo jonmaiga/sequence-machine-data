@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by antidiagonals; T(n,k) = number of ways a vehicle with capacity k can transport n distinct individuals with distinct starting and finishing points.",
+  "id": "A368028",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A000680",
+    "A034001",
+    "A057427",
+    "A071798",
+    "A080934"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

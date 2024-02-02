@@ -1,0 +1,21 @@
+{
+  "description": "The least k such that exactly n binary near-repunit primes can be formed from 2^k-1 by changing one digit from 1 to 0.",
+  "id": "A367081",
+  "mentions": [
+    "A002275",
+    "A034093",
+    "A065074",
+    "A065083",
+    "A272143"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

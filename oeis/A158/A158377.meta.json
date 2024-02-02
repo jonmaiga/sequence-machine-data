@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 0, a(n) = lcm((A034684(n), A034699(n)) for n >= 2.",
+  "description": "a(1) = 0, a(n) = lcm(A034684(n), A034699(n)) for n >= 2.",
   "id": "A158377",
   "mentions": [
     "A000027",

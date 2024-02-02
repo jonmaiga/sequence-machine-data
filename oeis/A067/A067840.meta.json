@@ -1,8 +1,9 @@
 {
-  "description": "Factorial expansion of e^2 : exp(2)=sum n=1 to infinity a(n)/n!.",
+  "description": "Factorial expansion of e^2 : exp(2) = Sum_{n >= 0} a(n)/n!.",
   "id": "A067840",
   "mentions": [
-    "A007514"
+    "A007514",
+    "A072334"
   ],
   "tags": [
     "easy",
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 77,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
   }
 }

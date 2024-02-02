@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of triangular partitions whose Young diagram fits inside a square of side n.",
+  "id": "A368638",
+  "mentions": [
+    "A352882"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

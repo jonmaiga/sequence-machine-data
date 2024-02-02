@@ -3,15 +3,18 @@
   "id": "A055240",
   "mentions": [
     "A055238",
+    "A055239",
+    "A055241",
     "A055242"
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 91,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

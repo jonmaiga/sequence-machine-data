@@ -1,5 +1,5 @@
 {
-  "description": "Cube of n is equal to sum of four positive distinct squares; n^3=a^2+b^2+c^2+d^2; a>b>c>d>0.)",
+  "description": "Cube of n is equal to sum of four positive distinct squares; n^3=a^2+b^2+c^2+d^2; a>b>c>d>0.",
   "id": "A178096",
   "mentions": [
     "A003294",

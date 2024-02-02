@@ -1,0 +1,23 @@
+{
+  "description": "Maximum length of a \"normal\" proof (see comments) for strings (theorems) in the MIU formal system that are n characters long.",
+  "id": "A369412",
+  "mentions": [
+    "A024495",
+    "A368946",
+    "A369173",
+    "A369409",
+    "A369410",
+    "A369413"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

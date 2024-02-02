@@ -1,5 +1,5 @@
 {
-  "description": "Natural fractal sequence of A087483; a rectangular array, by antidiagonals.",
+  "description": "Natural fractal sequence of A087483.",
   "id": "A194066",
   "mentions": [
     "A087483",
@@ -8,8 +8,7 @@
     "A194068"
   ],
   "tags": [
-    "nonn",
-    "tabl"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

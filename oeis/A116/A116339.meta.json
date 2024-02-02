@@ -1,5 +1,5 @@
 {
-  "description": "n times n+6 gives the concatenation of two numbers m and m+7.",
+  "description": "k times k+6 gives the concatenation of two numbers m and m+7.",
   "id": "A116339",
   "mentions": [
     "A116208",

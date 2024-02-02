@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{k=1..inf} 1/2^(prime(k)-k)).",
+  "description": "Decimal expansion of sum_{k=1..inf} 1/2^(prime(k)-k).",
   "id": "A111120",
   "mentions": [
     "A014689"

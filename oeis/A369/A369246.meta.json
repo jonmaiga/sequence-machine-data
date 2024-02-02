@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows, where row n lists in ascending order all numbers k in A046316 for which k' = the n-th Euclid number, where k' stands for the arithmetic derivative, and the Euclid numbers are given by A006862. Rows of length zero are simply omitted, i.e., when A369245(n) = 0.",
+  "id": "A369246",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A006862",
+    "A008585",
+    "A046316",
+    "A366890",
+    "A369054",
+    "A369240",
+    "A369245",
+    "A369252"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

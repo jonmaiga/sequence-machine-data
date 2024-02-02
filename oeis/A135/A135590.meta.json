@@ -1,9 +1,11 @@
 {
-  "description": "Numbers n such that n^2 + 1 is a Sarrus number (pseudoprime to base 2).",
+  "description": "Numbers k such that k^2 + 1 is a Sarrus number (pseudoprime to base 2).",
   "id": "A135590",
   "mentions": [
     "A000215",
-    "A001567"
+    "A001567",
+    "A002522",
+    "A005574"
   ],
   "tags": [
     "nonn"

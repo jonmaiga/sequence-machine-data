@@ -1,5 +1,5 @@
 {
-  "description": "A number k is included if both (the largest divisor of k that is <= sqrt(k)) and ((the smallest divisor of k that is >= sqrt(k)) are composite.",
+  "description": "A number k is included if both (the largest divisor of k that is <= sqrt(k)) and (the smallest divisor of k that is >= sqrt(k)) are composite.",
   "id": "A140349",
   "mentions": [
     "A033676",

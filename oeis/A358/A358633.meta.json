@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest k > 1 such that the sum of digits of n^k is a power of n (or 0 if no such k exists).",
+  "description": "a(n) is the smallest k > 1 such that the sum of digits of n^k is a power of n (or -1 if no such k exists).",
   "id": "A358633",
   "mentions": [
     "A066005",
@@ -9,7 +9,7 @@
   "tags": [
     "base",
     "more",
-    "nonn"
+    "sign"
   ],
   "terms": {
     "offset": 1,

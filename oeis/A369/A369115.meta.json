@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 - x)^(-2) * Sum_{j>=0} (x^j / (1 - Sum_{k=1..j} x^k)).",
+  "id": "A369115",
+  "mentions": [
+    "A079500",
+    "A186537",
+    "A368279",
+    "A369116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

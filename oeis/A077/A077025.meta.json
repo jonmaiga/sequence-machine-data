@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=1..n} floor(n/(k + 1/2))}.",
+  "description": "a(n) = Sum_{k=1..n} floor(n/(k + 1/2)).",
   "id": "A077025",
   "mentions": [
     "A077024"

@@ -1,5 +1,5 @@
 {
-  "description": "Pisano period length of the 6-Fibonacci numbers A005668.",
+  "description": "Pisano period of the 6-Fibonacci numbers A005668.",
   "id": "A175185",
   "mentions": [
     "A001175",

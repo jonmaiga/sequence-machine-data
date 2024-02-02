@@ -1,0 +1,21 @@
+{
+  "description": "Arithmetic derivative of the odd part of n: a(n) = A003415(A000265(n)).",
+  "id": "A369465",
+  "mentions": [
+    "A000265",
+    "A003415",
+    "A064989",
+    "A349905",
+    "A369449",
+    "A369466"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

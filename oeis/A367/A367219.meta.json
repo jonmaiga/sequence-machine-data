@@ -1,0 +1,47 @@
+{
+  "description": "Number of integer partitions of n whose length cannot be written as a nonnegative linear combination of the distinct parts.",
+  "id": "A367219",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A008284",
+    "A008289",
+    "A068911",
+    "A088314",
+    "A116861",
+    "A124506",
+    "A229816",
+    "A326083",
+    "A364345",
+    "A364350",
+    "A364914",
+    "A365046",
+    "A365073",
+    "A365312",
+    "A365380",
+    "A367212",
+    "A367213",
+    "A367214",
+    "A367215",
+    "A367216",
+    "A367217",
+    "A367218",
+    "A367220",
+    "A367221",
+    "A367222",
+    "A367223",
+    "A367224",
+    "A367225",
+    "A367226",
+    "A367227"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

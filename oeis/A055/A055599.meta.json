@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k)r read by rows, giving the number of n X n binary matrices with no zero rows or columns and with k=0..n^2 ones.",
+  "description": "Triangle T(n,k) read by rows, giving the number of n X n binary matrices with no zero rows or columns and with k=0..n^2 ones.",
   "id": "A055599",
   "mentions": [
     "A048291"

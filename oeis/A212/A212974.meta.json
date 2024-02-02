@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0,...,n} and w>floor((x+y)/3)).",
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and w>floor((x+y)/3).",
   "id": "A212974",
   "mentions": [
     "A212959",

@@ -1,5 +1,5 @@
 {
-  "description": "(#1's in (s(1),...,s(n)) - (#1's in r(1),...,r(n)), where s = A025142 and r = A025143.",
+  "description": "(#1's in s(1),...,s(n)) - (#1's in r(1),...,r(n)), where s = A025142 and r = A025143.",
   "id": "A025146",
   "mentions": [
     "A025142",

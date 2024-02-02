@@ -1,10 +1,11 @@
 {
-  "description": "Generalized Fibonacci numbers: a(n) = a(n-1) + 7*a(n-2), a(0)=0, a(1)=1.",
+  "description": "a(n) = a(n-1) + 7*a(n-2), a(0)=0, a(1)=1.",
   "id": "A015442",
   "mentions": [
     "A015440",
     "A015441",
     "A015523",
+    "A049310",
     "A109466",
     "A197189"
   ],

@@ -1,13 +1,21 @@
 {
-  "description": "Largest prime factor of number of divisors of n.",
+  "description": "Largest prime factor of number of divisors of n; a(1)=1.",
   "id": "A071188",
   "mentions": [
     "A000005",
     "A006530",
     "A071187",
-    "A071190"
+    "A071190",
+    "A078542",
+    "A078543",
+    "A078544",
+    "A124010",
+    "A327839",
+    "A354181"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

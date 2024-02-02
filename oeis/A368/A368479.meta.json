@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{j=0..n} 2^j * j^k.",
+  "id": "A368479",
+  "mentions": [
+    "A036799",
+    "A036800",
+    "A036827",
+    "A103438",
+    "A126646",
+    "A173018",
+    "A368466",
+    "A368486"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

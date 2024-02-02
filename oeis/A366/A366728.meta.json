@@ -1,0 +1,21 @@
+{
+  "description": "2-tone chromatic number of the square of a cycle with n vertices.",
+  "id": "A366728",
+  "mentions": [
+    "A003057",
+    "A350361",
+    "A350362",
+    "A350715",
+    "A351120",
+    "A366727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The smallest divisor d of n such that n/d is an exponentially odious number (A270428).",
+  "id": "A367698",
+  "mentions": [
+    "A055229",
+    "A270428",
+    "A366905",
+    "A367699"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

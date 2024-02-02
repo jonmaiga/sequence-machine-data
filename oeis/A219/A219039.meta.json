@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3^n - 16 is prime.",
+  "description": "Numbers k such that 3^k - 16 is prime.",
   "id": "A219039",
   "mentions": [
     "A014224",
@@ -17,6 +17,7 @@
     "A219041"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

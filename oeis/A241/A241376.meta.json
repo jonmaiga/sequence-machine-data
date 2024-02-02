@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn 0..2 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..2 introduced in row major order",
+  "description": "Number of 7 X n 0..2 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..2 introduced in row major order.",
   "id": "A241376",
   "mentions": [
     "A241370"

@@ -2,10 +2,12 @@
   "description": "The number of divisors d of n of the form d == 1 (mod 8).",
   "id": "A188169",
   "mentions": [
+    "A001620",
     "A001826",
     "A188170",
     "A188171",
-    "A188172"
+    "A188172",
+    "A256781"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that gcd(n, numerator(B(2n)) is not squarefree where B(2n) are the Bernoulli numbers.",
+  "description": "Numbers n such that gcd(n, numerator(B(2n))) is not squarefree where B(2n) are the Bernoulli numbers.",
   "id": "A067778",
   "mentions": [
     "A097704"

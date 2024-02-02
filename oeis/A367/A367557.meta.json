@@ -1,0 +1,17 @@
+{
+  "description": "The number of fixed kissing polyominoes with n cells.",
+  "id": "A367557",
+  "mentions": [
+    "A182644"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

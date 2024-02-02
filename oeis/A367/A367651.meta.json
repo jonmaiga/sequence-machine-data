@@ -1,0 +1,17 @@
+{
+  "description": "Inverse of permutation of A160079.",
+  "id": "A367651",
+  "mentions": [
+    "A160079"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

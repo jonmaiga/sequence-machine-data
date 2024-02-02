@@ -1,0 +1,17 @@
+{
+  "description": "Euclid's triangle A217831 represented as binary numbers.",
+  "id": "A367547",
+  "mentions": [
+    "A217831",
+    "A367544"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

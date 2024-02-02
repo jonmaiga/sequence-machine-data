@@ -1,13 +1,17 @@
 {
-  "description": "Squares such that sqrt(n), n and n^(3/2) all have same digits.",
+  "description": "Squares k such that sqrt(k), k and k^(3/2) all have the same digits.",
   "id": "A029801",
-  "mentions": [],
+  "mentions": [
+    "A029800",
+    "A029802"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 16,
     "source": "joeis"
   }

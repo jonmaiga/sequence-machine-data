@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (n^19 - n)/19.",
+  "id": "A366491",
+  "mentions": [
+    "A000217",
+    "A007290",
+    "A110936",
+    "A208536",
+    "A208537",
+    "A366488",
+    "A366489",
+    "A366490"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

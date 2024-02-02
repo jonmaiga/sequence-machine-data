@@ -2,7 +2,10 @@
   "description": "a(0) = 1; a(n+1) = Sum_{k=0..n} a(n-k)*a(floor(k/2)).",
   "id": "A127680",
   "mentions": [
-    "A127681"
+    "A127681",
+    "A367652",
+    "A367653",
+    "A367654"
   ],
   "tags": [
     "easy",
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

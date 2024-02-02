@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if there is no prime p such that p^p divides A342001(n), but for A003415(n) such a prime exists, otherwise 0. Here A003415(n) is the arithmetic derivative of n, and A342001(n) = A003415(n) / A003557(n).",
+  "id": "A368913",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A048103",
+    "A276086",
+    "A342001",
+    "A359550",
+    "A368903",
+    "A368914",
+    "A368915"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

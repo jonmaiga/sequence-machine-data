@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of nonnegative integers: a(0) = 0; for n >= 1, a(n) = 1+A225901(A225901(n)-1))",
+  "description": "Permutation of nonnegative integers: a(0) = 0; for n >= 1, a(n) = 1+A225901(A225901(n)-1).",
   "id": "A302852",
   "mentions": [
     "A225901",

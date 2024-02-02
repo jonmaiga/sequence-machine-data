@@ -1,0 +1,25 @@
+{
+  "description": "Odd terms in A366825.",
+  "id": "A366460",
+  "mentions": [
+    "A007947",
+    "A020639",
+    "A065642",
+    "A120944",
+    "A126706",
+    "A364996",
+    "A364997",
+    "A364999",
+    "A366825"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

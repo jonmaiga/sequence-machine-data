@@ -2,11 +2,15 @@
   "description": "Möbius transform of A064664, the inverse of EKG-sequence.",
   "id": "A304526",
   "mentions": [
+    "A000010",
     "A000040",
     "A008683",
     "A064423",
     "A064664",
-    "A304527"
+    "A304527",
+    "A323411",
+    "A327867",
+    "A349617"
   ],
   "tags": [
     "formulas",

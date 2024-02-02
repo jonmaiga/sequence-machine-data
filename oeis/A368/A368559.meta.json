@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number not occurring earlier such that a(n) contains all the distinct digits of a(n-1) - a(n-2).",
+  "id": "A368559",
+  "mentions": [
+    "A069638",
+    "A184992",
+    "A362075",
+    "A362093"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

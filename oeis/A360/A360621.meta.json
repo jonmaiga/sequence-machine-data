@@ -2,6 +2,7 @@
   "description": "Number of basic unimodal cyclotomic generating functions of degree n.",
   "id": "A360621",
   "mentions": [
+    "A360620",
     "A360622"
   ],
   "tags": [

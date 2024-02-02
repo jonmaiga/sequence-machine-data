@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n, k) = [x^k] p(n), where p(n) = 4^n * hypergeom([1/2, -n - 1, -n], [2, 2], x).",
+  "id": "A367022",
+  "mentions": [
+    "A001263",
+    "A005802",
+    "A038845",
+    "A128088",
+    "A246513"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

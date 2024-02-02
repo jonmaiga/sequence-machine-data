@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 4/n^2*( Sum_{k=0..n-1} k*A246459(k) ).",
+  "description": "a(n) = (4/n^2)*( Sum_{k=0..n-1} k*A246459(k) ).",
   "id": "A246513",
   "mentions": [
+    "A005802",
     "A246459",
     "A246460"
   ],

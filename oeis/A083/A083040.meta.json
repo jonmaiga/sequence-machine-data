@@ -1,5 +1,5 @@
 {
-  "description": "Number of divisors of n that are <= 4",
+  "description": "Number of divisors of n that are <= 4.",
   "id": "A083040",
   "mentions": [
     "A000005",

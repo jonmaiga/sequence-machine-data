@@ -1,8 +1,10 @@
 {
-  "description": "Number of isomorphism classes of kei (involutary quandles) of order n.",
+  "description": "Number of isomorphism classes of kei (involutory quandles) of order n.",
   "id": "A178432",
   "mentions": [
-    "A181769"
+    "A181769",
+    "A226173",
+    "A242044"
   ],
   "tags": [
     "hard",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

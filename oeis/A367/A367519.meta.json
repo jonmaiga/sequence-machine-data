@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of even-numbered Maclaurin coefficients of sqrt(tan(x)/x).",
+  "id": "A367519",
+  "mentions": [
+    "A036279",
+    "A367518"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

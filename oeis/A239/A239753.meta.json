@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs of functions (f,g) on a set of n elements into itself satisfying f(x) = g(f(g(x)).",
+  "description": "Number of pairs of functions (f,g) on a set of n elements into itself satisfying f(x) = g(f(g(x))).",
   "id": "A239753",
   "mentions": [
     "A000248",

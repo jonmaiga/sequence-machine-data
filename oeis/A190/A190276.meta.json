@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tau(2n-1) = tau(2n+1) where tau(n) = A000005(n).",
+  "description": "Numbers k such that tau(2k-1) = tau(2k+1) where tau(k) = A000005(k).",
   "id": "A190276",
   "mentions": [
     "A000005",

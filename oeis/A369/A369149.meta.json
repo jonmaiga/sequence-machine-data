@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the size of the largest subset of {1,...,n} such that no two elements differ by 4 or 7.",
+  "id": "A369149",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

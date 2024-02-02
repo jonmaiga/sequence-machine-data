@@ -1,0 +1,19 @@
+{
+  "description": "The smallest positive number that has not yet appeared that is a multiple of the smallest prime that does not divide n.",
+  "id": "A369271",
+  "mentions": [
+    "A002110",
+    "A053669",
+    "A351495",
+    "A369272"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

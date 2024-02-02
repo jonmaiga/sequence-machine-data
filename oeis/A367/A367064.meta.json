@@ -1,0 +1,20 @@
+{
+  "description": "Determinant of the matrix d*e/gcd(d, e)^2, where d, e run through the unitary divisors of n.",
+  "id": "A367064",
+  "mentions": [
+    "A001221",
+    "A034444",
+    "A034448",
+    "A047994",
+    "A246655"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

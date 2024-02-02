@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sinh(Pi/2).",
+  "id": "A367959",
+  "mentions": [
+    "A049006",
+    "A308715",
+    "A308716"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

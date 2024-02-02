@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*4^n*(-Z(1-n, 1/4)/2 + Z(1-n, 3/4)/2 - Z(1-n, 1)*(1 - 2^(-n)))) for n > 0 and a(0) = 0, where Z(n, c) is the Hurwitz zeta function.",
+  "description": "a(n) = n*4^n*(-Z(1-n, 1/4)/2 + Z(1-n, 3/4)/2 - Z(1-n, 1)*(1 - 2^(-n))) for n > 0 and a(0) = 0, where Z(n, c) is the Hurwitz zeta function.",
   "id": "A243963",
   "mentions": [
     "A009752",

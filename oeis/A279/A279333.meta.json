@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of coefficients in expansion of (sin x))/(1 - x - x^2).",
+  "description": "Denominators of coefficients in expansion of (sin(x))/(1 - x - x^2).",
   "id": "A279333",
   "mentions": [
     "A279332"

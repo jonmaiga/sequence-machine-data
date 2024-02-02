@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime beginning (through <*2+1>) or/and <*2-1>) a complete Cunningham chain (of the first or the second kind) of length n.",
+  "description": "Smallest prime beginning (through <*2+1> or/and <*2-1>) a complete Cunningham chain (of the first or the second kind) of length n.",
   "id": "A110089",
   "mentions": [
     "A005384",

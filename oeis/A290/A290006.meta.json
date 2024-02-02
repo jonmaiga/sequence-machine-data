@@ -2,9 +2,11 @@
   "description": "Primes of the form 3^k + 34.",
   "id": "A290006",
   "mentions": [
+    "A000040",
     "A219050"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

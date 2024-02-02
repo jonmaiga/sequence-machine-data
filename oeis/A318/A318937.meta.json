@@ -2,9 +2,12 @@
   "description": "a(n) = 16 times the sum of the cubes of the divisors of 2*n+1.",
   "id": "A318937",
   "mentions": [
+    "A013662",
     "A045823"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

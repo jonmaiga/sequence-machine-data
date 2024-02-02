@@ -1,5 +1,5 @@
 {
-  "description": "Consider the 2^n compositions of n per row and mark only those ending in an odd part.",
+  "description": "a(n) = A065120(n) modulo 2.",
   "id": "A123640",
   "mentions": [
     "A001045",
@@ -10,7 +10,6 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "The number of divisors of n whose prime factors are all Mersenne primes (A000668).",
+  "id": "A368542",
+  "mentions": [
+    "A000005",
+    "A000668",
+    "A056652",
+    "A161790"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

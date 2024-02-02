@@ -1,21 +1,23 @@
 {
-  "description": "Irregular array, read by descending antidiagonals: row n lists the primes whose base-2 representation has exactly n ones.",
+  "description": "Square array, read by descending antidiagonals: row n lists the primes whose base-2 representation has exactly n ones, starting from n=3.",
   "id": "A362979",
   "mentions": [
     "A000040",
     "A014499",
-    "A019434"
+    "A019434",
+    "A061712",
+    "A081091",
+    "A095077"
   ],
   "tags": [
     "base",
-    "hard",
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 2,
-    "size": 15,
+    "offset": 3,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

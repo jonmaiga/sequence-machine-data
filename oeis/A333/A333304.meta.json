@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (arccosh(2)/6)^(1/4)*Gamma(3/4))/(2*sqrt(Pi)).",
+  "description": "Decimal expansion of (arccosh(2)/6)^(1/4)*Gamma(3/4)/(2*sqrt(Pi)).",
   "id": "A333304",
   "mentions": [
     "A301430",

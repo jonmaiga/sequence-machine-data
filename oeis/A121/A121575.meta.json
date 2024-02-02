@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (-sqrt(4*x^2+8*x+1)+2*x+2), (sqrt(4*x^2+8*x+1)-2*x-1)/2).",
+  "description": "Riordan array (-sqrt(4*x^2+8*x+1)+2*x+2, (sqrt(4*x^2+8*x+1)-2*x-1)/2).",
   "id": "A121575",
   "mentions": [
     "A054872",

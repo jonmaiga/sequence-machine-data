@@ -3,6 +3,7 @@
   "id": "A367004",
   "mentions": [
     "A002064",
+    "A005849",
     "A020639",
     "A049479",
     "A367002",
@@ -14,8 +15,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 76,
-    "source": "joeis"
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
   }
 }

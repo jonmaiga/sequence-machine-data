@@ -1,0 +1,19 @@
+{
+  "description": "Number of shapes of labeled rooted hypertrees with n vertices.",
+  "id": "A367752",
+  "mentions": [
+    "A052888",
+    "A210586",
+    "A364709",
+    "A364816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

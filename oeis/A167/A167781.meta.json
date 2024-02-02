@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest number b such that b+n is the first number after b with phi(phi((b)) = phi(phi(b+n)).",
+  "description": "a(n) = smallest number b such that b+n is the first number after b with phi(phi(b)) = phi(phi(b+n)).",
   "id": "A167781",
   "mentions": [
     "A167766",

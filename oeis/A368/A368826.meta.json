@@ -1,0 +1,29 @@
+{
+  "description": "Square array T(n,k) = 3*2^k - n read by ascending antidiagonals.",
+  "id": "A368826",
+  "mentions": [
+    "A000225",
+    "A000918",
+    "A007283",
+    "A033484",
+    "A048488",
+    "A079583",
+    "A083329",
+    "A095151",
+    "A101945",
+    "A123720",
+    "A165751",
+    "A367559"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

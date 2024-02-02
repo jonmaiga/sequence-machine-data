@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of regions into which three-dimensional Euclidean space is divided by n planes parallel to each face of a regular tetrahedron with edge length n, dividing the edges into unit segments.",
+  "description": "a(n) is the number of regions into which three-dimensional Euclidean space is divided by n-1 planes parallel to each face of a regular tetrahedron with edge length n, dividing the edges into unit segments.",
   "id": "A364401",
   "mentions": [
     "A000125",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 44,
     "source": "joeis"
   }
 }

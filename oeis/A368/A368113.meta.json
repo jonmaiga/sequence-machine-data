@@ -1,0 +1,16 @@
+{
+  "description": "Trajectory of 7 under the '7x+1' map.",
+  "id": "A368113",
+  "mentions": [
+    "A368085"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

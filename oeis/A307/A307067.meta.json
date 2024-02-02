@@ -7,6 +7,7 @@
     "A299106",
     "A304969",
     "A307057",
+    "A307060",
     "A317536"
   ],
   "tags": [
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

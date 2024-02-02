@@ -1,5 +1,5 @@
 {
-  "description": "Three-column table T(n,k) read by rows where the elements in the pair of two adjacent rows, starting with the odd-indexed row T(2j-1,k) and followed by the even-indexed one T(2j,k)), are such that they are not multiples of the elements presented in the previous rows and that Sum_{k=1..3} T(2j-1,k)^2 = Sum_{k=1..3} T(2j,k)^2 and Sum_{k=1..3} T(2j-1,k)^6 = Sum_{k=1..3} T(2j,k)^6 for j > 0 and k = 1, 2, 3.",
+  "description": "Three-column table T(n,k) read by rows where the elements in the pair of two adjacent rows, starting with the odd-indexed row T(2j-1,k) and followed by the even-indexed one T(2j,k), are such that they are not multiples of the elements presented in the previous rows and that Sum_{k=1..3} T(2j-1,k)^2 = Sum_{k=1..3} T(2j,k)^2 and Sum_{k=1..3} T(2j-1,k)^6 = Sum_{k=1..3} T(2j,k)^6 for j > 0 and k = 1, 2, 3.",
   "id": "A359314",
   "mentions": [],
   "tags": [

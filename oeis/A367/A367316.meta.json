@@ -1,0 +1,19 @@
+{
+  "description": "Number of interval-closed sets in the root poset of type A(n).",
+  "id": "A367316",
+  "mentions": [
+    "A000108",
+    "A367109",
+    "A369313"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

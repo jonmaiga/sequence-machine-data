@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n,k) giving the length of the least significant run of 0-bits in binary expansion of A000225(n)^k, or 0 if A000225(n)^k is a binary repunit.",
+  "id": "A366370",
+  "mentions": [
+    "A000225",
+    "A001511",
+    "A007088",
+    "A007814",
+    "A285097"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

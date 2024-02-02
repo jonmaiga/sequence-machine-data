@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] whose cycle minima sum to n.",
+  "id": "A368246",
+  "mentions": [
+    "A001620",
+    "A080130",
+    "A143946",
+    "A368204",
+    "A368678"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

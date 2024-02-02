@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows. T(n, k) = Sum_{j=0..k} (n!/j!).",
+  "id": "A367962",
+  "mentions": [
+    "A000142",
+    "A000522",
+    "A001339",
+    "A007526",
+    "A038154",
+    "A052849",
+    "A053482",
+    "A082030",
+    "A087208",
+    "A094587",
+    "A331689",
+    "A355268",
+    "A367963"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

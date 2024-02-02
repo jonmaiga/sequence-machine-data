@@ -1,8 +1,11 @@
 {
-  "description": "Convert n from degrees Fahrenheit to Centigrade (or Celsius).",
+  "description": "Convert n from degrees Fahrenheit to nearest integer Celsius.",
   "id": "A029926",
   "mentions": [
-    "A029925"
+    "A029925",
+    "A085259",
+    "A085268",
+    "A177154"
   ],
   "tags": [
     "formulas",

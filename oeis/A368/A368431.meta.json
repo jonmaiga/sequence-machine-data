@@ -1,0 +1,19 @@
+{
+  "description": "Distinct values of A367562, in order of appearance and with offset 0.",
+  "id": "A368431",
+  "mentions": [
+    "A367508",
+    "A367562",
+    "A368432"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

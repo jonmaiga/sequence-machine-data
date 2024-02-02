@@ -1,0 +1,19 @@
+{
+  "description": "Matula-Göbel number of the prime tower factorization tree of A284456(n).",
+  "id": "A369136",
+  "mentions": [
+    "A284456",
+    "A369015",
+    "A369099",
+    "A369137"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

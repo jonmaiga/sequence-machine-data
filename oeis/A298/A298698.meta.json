@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = Sum_{n>=1} Series_Reversion( x/A(x)^n )^n ).",
+  "description": "G.f. A(x) satisfies: A(x) = Sum_{n>=0} Series_Reversion( x/A(x)^n )^n.",
   "id": "A298698",
   "mentions": [
     "A125224"

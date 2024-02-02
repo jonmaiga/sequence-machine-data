@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of the divisors of A000058(n) (Sylvester's sequence).",
+  "id": "A367131",
+  "mentions": [
+    "A000058",
+    "A000203",
+    "A091335",
+    "A367130"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

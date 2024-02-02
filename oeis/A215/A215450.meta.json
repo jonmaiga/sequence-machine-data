@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=0, a(1)=1, a(n) = a(n-1) + (Sum_{i=0...n-1)a(i)) mod n.",
+  "description": "a(0)=0, a(1)=1, a(n) = a(n-1) + (Sum_{i=0...n-1} a(i)) mod n.",
   "id": "A215450",
   "mentions": [
     "A001519",

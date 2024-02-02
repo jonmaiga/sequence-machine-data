@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: row n gives the h-vector of the n-th halohedron.",
+  "id": "A367505",
+  "mentions": [
+    "A000012",
+    "A002061",
+    "A039623",
+    "A051960",
+    "A110556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

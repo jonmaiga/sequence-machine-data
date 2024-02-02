@@ -2,7 +2,10 @@
   "description": "Number of proper divisors of n of the form 6*k + 1.",
   "id": "A320001",
   "mentions": [
+    "A001620",
     "A007814",
+    "A016629",
+    "A222457",
     "A279060",
     "A293895",
     "A319991",
@@ -11,6 +14,7 @@
     "A320015"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

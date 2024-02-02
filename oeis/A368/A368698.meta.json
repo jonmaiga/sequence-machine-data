@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest positive k such that A005940(1+n) divides the oblong number k*(k+1).",
+  "id": "A368698",
+  "mentions": [
+    "A000225",
+    "A002378",
+    "A005940",
+    "A006093",
+    "A344005",
+    "A368693",
+    "A368699",
+    "A368700",
+    "A368988",
+    "A368989"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

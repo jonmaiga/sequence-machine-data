@@ -1,15 +1,17 @@
 {
-  "description": "Prime divisors (not necessarily distinct) of n-th term of sequence A024675 (averages of two consecutive odd primes).",
+  "description": "a(n) is the number of prime divisors (counted by multiplicity) of A024675(n)",
   "id": "A024676",
   "mentions": [
+    "A001222",
     "A024675"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

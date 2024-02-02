@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the comma-child of exactly one positive number.",
+  "id": "A367612",
+  "mentions": [
+    "A121805",
+    "A367338",
+    "A367611"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

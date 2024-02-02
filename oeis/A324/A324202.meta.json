@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A046523(A332461(n)), where A332461(n) = Product_{d|n, d>1} prime(1+A297167(d))).",
+  "description": "a(n) = A046523(A332461(n)), where A332461(n) = Product_{d|n, d>1} prime(1+A297167(d)).",
   "id": "A324202",
   "mentions": [
     "A001221",

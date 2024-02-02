@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) = 3*(m+1)*C(n+m+3,m)*C(2*n+2,n-m)/((n+m+3)*(C(n+1,m)).",
+  "description": "Triangle T(n,m) = 3*(m+1)*C(n+m+3,m)*C(2*n+2,n-m)/((n+m+3)*C(n+1,m)).",
   "id": "A339028",
   "mentions": [
     "A000108",

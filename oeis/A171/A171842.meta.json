@@ -2,6 +2,7 @@
   "description": "Binomial transform of 1,0,1,0,2,0,4,0,8,0,16,...",
   "id": "A171842",
   "mentions": [
+    "A001006",
     "A024537"
   ],
   "tags": [

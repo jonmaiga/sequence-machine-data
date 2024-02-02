@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the constant Sum_{k>=1} log(k+1)/k/(k+1).",
+  "description": "Decimal expansion of the constant Sum_{k>=1} log(k + 1) / (k * (k + 1)).",
   "id": "A131688",
   "mentions": [
     "A000005",

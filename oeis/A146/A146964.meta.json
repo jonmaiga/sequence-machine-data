@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ((4 + sqrt(7))^n + (4 - sqrt(7))^n))/2.",
+  "description": "a(n) = ((4 + sqrt(7))^n + (4 - sqrt(7))^n)/2.",
   "id": "A146964",
   "mentions": [
     "A098158",

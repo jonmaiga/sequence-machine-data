@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the sum of digits is even when n is written in the factorial base (A007623).",
+  "description": "Numbers k for which the sum of digits is even when k is written in the factorial base (A007623).",
   "id": "A227148",
   "mentions": [
     "A001969",
@@ -12,6 +12,7 @@
     "A227149"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

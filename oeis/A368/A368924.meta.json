@@ -1,0 +1,50 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of labeled loop-graphs on n vertices with k loops and n-k non-loops such that it is possible to choose a different vertex from each edge.",
+  "id": "A368924",
+  "mentions": [
+    "A000085",
+    "A000088",
+    "A000169",
+    "A000272",
+    "A000666",
+    "A002378",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A014068",
+    "A057500",
+    "A061356",
+    "A062740",
+    "A100861",
+    "A111924",
+    "A116508",
+    "A129271",
+    "A133686",
+    "A137916",
+    "A137917",
+    "A322661",
+    "A333331",
+    "A367863",
+    "A367869",
+    "A367902",
+    "A368596",
+    "A368597",
+    "A368601",
+    "A368730",
+    "A368835",
+    "A368836",
+    "A368926",
+    "A368927",
+    "A368928"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

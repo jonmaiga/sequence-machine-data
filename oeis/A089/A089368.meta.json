@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that 2*pi(n) = pi(n+k), where pi(n) = number of primes up to n. (The number of primes between 1 to n is the same as the number of primes between n+1 and n+k.",
+  "description": "Least k such that 2*pi(n) = pi(n+k), where pi(n) = number of primes up to n. (The number of primes between 1 to n is the same as the number of primes between n+1 and n+k.)",
   "id": "A089368",
   "mentions": [],
   "tags": [

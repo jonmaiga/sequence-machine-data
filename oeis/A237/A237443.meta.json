@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (2n)! - n! + 1 is prime.",
+  "description": "Numbers m such that (2m)! - m! + 1 is prime.",
   "id": "A237443",
   "mentions": [
     "A118812"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

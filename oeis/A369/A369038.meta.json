@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of ratio A003415(n) / A003415(A276086(n)), where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.",
+  "id": "A369038",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A327860",
+    "A345000",
+    "A351230",
+    "A351250",
+    "A369039"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

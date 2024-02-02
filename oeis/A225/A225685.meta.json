@@ -1,5 +1,5 @@
 {
-  "description": "Number of words of length n over (0,1,2,3,4,5} which have no factor iji with i>j.",
+  "description": "Number of words of length n over {0,1,2,3,4,5} which have no factor iji with i>j.",
   "id": "A225685",
   "mentions": [
     "A005251",

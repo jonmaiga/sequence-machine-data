@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of 2n into n divisors of 2n.",
+  "id": "A367189",
+  "mentions": [
+    "A065091",
+    "A320638"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

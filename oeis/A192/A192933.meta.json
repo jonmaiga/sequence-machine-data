@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = Sum_{i <= n, j <= k, (i,j) <> (n,k)}} T(i,j), starting with T(1,1) = 1, for n >= 1 and 1 <= k <= n.",
+  "description": "Triangle read by rows: T(n,k) = Sum_{i <= n, j <= k, (i,j) <> (n,k)} T(i,j), starting with T(1,1) = 1, for n >= 1 and 1 <= k <= n.",
   "id": "A192933",
   "mentions": [
     "A001003",

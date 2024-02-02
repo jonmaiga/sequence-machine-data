@@ -10,12 +10,12 @@
     "A364791"
   ],
   "tags": [
-    "more",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 78,
     "source": "oeis-entry"
   }
 }

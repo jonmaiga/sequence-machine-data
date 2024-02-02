@@ -1,7 +1,10 @@
 {
   "description": "a(n) = prime(6*n - 1).",
   "id": "A031372",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A016969"
+  ],
   "tags": [
     "nonn"
   ],

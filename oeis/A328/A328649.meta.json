@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangular array read by rows: row n shows the coefficients of the following polynomial of degree n: (1/n!)*(numerator of n-th derivative of (x-2)/(1-x-x^2).",
+  "description": "Irregular triangular array read by rows: row n shows the coefficients of the following polynomial of degree n: (1/n!)*(numerator of n-th derivative of (x-2)/(1-x-x^2)).",
   "id": "A328649",
   "mentions": [
     "A000032",

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying A(x/A(x)^2) = exp(x*A(x)^2).",
+  "id": "A368632",
+  "mentions": [
+    "A144682",
+    "A367385"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

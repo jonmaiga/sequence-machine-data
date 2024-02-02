@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Product_{k=1..n} (n^2 + k^2)^k.",
+  "id": "A367927",
+  "mentions": [
+    "A272244"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

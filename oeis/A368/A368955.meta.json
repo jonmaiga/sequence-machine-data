@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the product of two repdigit numbers.",
+  "id": "A368955",
+  "mentions": [
+    "A002283",
+    "A010785",
+    "A140332",
+    "A368944"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

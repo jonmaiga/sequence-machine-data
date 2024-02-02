@@ -1,5 +1,5 @@
 {
-  "description": "Maximal number of regions into which 5-space can be divided by n hyper-spheres.",
+  "description": "Maximal number of regions into which 5-space can be divided by n hyperspheres.",
   "id": "A059174",
   "mentions": [
     "A006261",

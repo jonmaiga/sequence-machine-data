@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Product_{k=1..n} (k^2 + 2*n^2).",
+  "id": "A368623",
+  "mentions": [
+    "A272244",
+    "A324403",
+    "A324425"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -5,15 +5,17 @@
     "A000927",
     "A035115",
     "A055514",
-    "A061653"
+    "A061653",
+    "A230869",
+    "A230870"
   ],
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 37,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

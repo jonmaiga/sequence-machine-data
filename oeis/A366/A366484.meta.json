@@ -1,0 +1,26 @@
+{
+  "description": "Place n equally spaced points on each side of an equilateral triangle, and join each of these points by a chord to the 2*n new points on the other two sides: sequence gives number of interior vertices in the resulting planar graph.",
+  "id": "A366484",
+  "mentions": [
+    "A092866",
+    "A092867",
+    "A274585",
+    "A274586",
+    "A365929",
+    "A366478",
+    "A366483",
+    "A366485",
+    "A366486",
+    "A366932",
+    "A367015"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

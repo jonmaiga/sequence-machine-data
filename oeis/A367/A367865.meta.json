@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} d * phi(d) * mu(d)^2.",
+  "id": "A367865",
+  "mentions": [
+    "A000010",
+    "A007947",
+    "A008966",
+    "A202535"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

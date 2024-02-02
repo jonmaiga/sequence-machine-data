@@ -1,5 +1,5 @@
 {
-  "description": "Composite solutions of the form 4k+3 of the equation (*): sigma(phi(sigma(x)))=phi(sigma(phi(x)).",
+  "description": "Composite solutions of the form 4k+3 of the equation (*): sigma(phi(sigma(x)))=phi(sigma(phi(x))).",
   "id": "A112017",
   "mentions": [
     "A112016"

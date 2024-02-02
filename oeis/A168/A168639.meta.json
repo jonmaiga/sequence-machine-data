@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x*(1 + x^2 - x^3) ) / ( (1-x)*(1-x-x^4) ).",
+  "description": "Expansion of x*(1 + x^2 - x^3) / ( (1-x)*(1-x-x^4) ).",
   "id": "A168639",
   "mentions": [
     "A086106",

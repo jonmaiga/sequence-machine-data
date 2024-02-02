@@ -1,7 +1,8 @@
 {
-  "description": "Primes of the form floor(((2 + sqrt(3))^n + (2 - sqrt(3))^n)/4).",
+  "description": "Primes of the form ((2 + sqrt(3))^(2*n+1) + (2 - sqrt(3))^(2*n+1))/4.",
   "id": "A117808",
   "mentions": [
+    "A001570",
     "A108946"
   ],
   "tags": [

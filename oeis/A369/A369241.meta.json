@@ -1,0 +1,23 @@
+{
+  "description": "Number of representations of 2^n - 1 as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "id": "A369241",
+  "mentions": [
+    "A000225",
+    "A369054",
+    "A369055",
+    "A369242",
+    "A369245",
+    "A369248"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

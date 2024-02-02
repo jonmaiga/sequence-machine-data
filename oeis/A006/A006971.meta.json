@@ -2,16 +2,19 @@
   "description": "Composite numbers k such that k == +-1 (mod 8) and 2^((k-1)/2) == 1 (mod k).",
   "id": "A006971",
   "mentions": [
+    "A001567",
     "A047713",
     "A244626",
-    "A244628"
+    "A244628",
+    "A270697",
+    "A270698"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
-    "source": "joeis"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

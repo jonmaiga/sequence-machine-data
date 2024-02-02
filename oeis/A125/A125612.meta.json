@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime p such that 11^n divides p^10 - 1.",
+  "description": "a(n) is the smallest prime p such that 11^n divides p^10 - 1.",
   "id": "A125612",
   "mentions": [
     "A125609",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

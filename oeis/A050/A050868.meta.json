@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 233*2^n-1 is prime.",
+  "description": "Numbers k such that 233*2^k-1 is prime.",
   "id": "A050868",
   "mentions": [],
   "tags": [

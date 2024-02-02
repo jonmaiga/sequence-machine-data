@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ceiling(log_2(A064630(n)).",
+  "description": "a(n) = ceiling(log_2(A064630(n))).",
   "id": "A064631",
   "mentions": [
     "A002379",

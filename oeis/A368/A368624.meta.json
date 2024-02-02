@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k = 1..n} (-1)^(n+k) * gcd(2*k, n).",
+  "id": "A368624",
+  "mentions": [
+    "A344371",
+    "A344372"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

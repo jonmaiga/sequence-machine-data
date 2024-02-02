@@ -1,5 +1,5 @@
 {
-  "description": "Exponents of prime-powers corresponding to terms of A053705[n]+2.",
+  "description": "Exponents of prime-powers corresponding to terms of A053705(n)+2.",
   "id": "A067025",
   "mentions": [
     "A025475",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

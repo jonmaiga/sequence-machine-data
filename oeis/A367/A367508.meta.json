@@ -1,0 +1,32 @@
+{
+  "description": "Iterates of the Christmas tree pattern map, read by rows, with leading zeros removed and interpreted as decimal numbers (see description in Comments).",
+  "id": "A367508",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A363718",
+    "A367555",
+    "A367562",
+    "A367951",
+    "A367953",
+    "A368175",
+    "A368398",
+    "A368399",
+    "A368400",
+    "A368427",
+    "A368463",
+    "A368464",
+    "A368465"
+  ],
+  "tags": [
+    "base",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

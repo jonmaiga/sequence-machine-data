@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{k1=1..k2, k2=1..k3, k3=1..k4, k4=1..n} (k1 + k2 + k3 + k4).",
+  "id": "A368807",
+  "mentions": [
+    "A324427",
+    "A324441"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

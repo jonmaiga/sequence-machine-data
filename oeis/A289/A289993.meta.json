@@ -1,11 +1,10 @@
 {
-  "description": "Primes p having the property that gpf(A288814(p)) < q, where q is greatest prime < p.",
+  "description": "Primes p such that gpf(A288814(p)) < q, where q is greatest prime < p.",
   "id": "A289993",
   "mentions": [
     "A000040",
     "A001223",
     "A056240",
-    "A060769",
     "A288313",
     "A288814",
     "A292081"

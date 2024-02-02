@@ -1,0 +1,16 @@
+{
+  "description": "The successive digits of the number k are the successive \"inside Levenshtein distances\" of k (except for the last digit of k). See the Comment section for the definition of an \"inside Levenshtein distance\".",
+  "id": "A367797",
+  "mentions": [
+    "A367638"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric binary arrays with rows, considered as binary numbers, in strictly increasing order, and no more than 4 ones in any row",
+  "description": "Number of n X n symmetric binary arrays with rows, considered as binary numbers, in strictly increasing order, and no more than 4 ones in any row.",
   "id": "A162094",
   "mentions": [],
   "tags": [

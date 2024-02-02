@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) of the numbers of k-matchings in the n-pan graph (0 <= k <= ceiling(n/2).",
+  "description": "Triangle T(n,k) of the numbers of k-matchings in the n-pan graph (0 <= k <= ceiling(n/2)).",
   "id": "A302240",
   "mentions": [],
   "tags": [

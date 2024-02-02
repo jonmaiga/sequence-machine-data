@@ -1,14 +1,16 @@
 {
   "description": "Integer part of the area of circles with prime radii.",
   "id": "A097427",
-  "mentions": [],
+  "mentions": [
+    "A000040"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

@@ -1,10 +1,13 @@
 {
-  "description": "Trajectory of 12 under repeated application of the map n --> A102370(n) .",
+  "description": "Trajectory of 12 under repeated application of the map n -> A102370(n).",
   "id": "A158953",
   "mentions": [
-    "A098402",
     "A098502",
-    "A102370"
+    "A102370",
+    "A103192",
+    "A103621",
+    "A103747",
+    "A159887"
   ],
   "tags": [
     "base",
@@ -13,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: A(x) = exp( Sum_{n>=1} (x^n/n) * (1 + x^n*A(x)^n) / (1 - x^n*A(x)^n).",
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} (x^n/n) * (1 + x^n*A(x)^n) / (1 - x^n*A(x)^n)).",
   "id": "A325213",
   "mentions": [
     "A210043"

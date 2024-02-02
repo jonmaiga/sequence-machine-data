@@ -1,11 +1,14 @@
 {
-  "description": "Pisano period length of A006130 modulo n.",
+  "description": "Pisano period of A006130 modulo n.",
   "id": "A175291",
   "mentions": [
     "A001175",
     "A006130",
     "A046738",
     "A175181",
+    "A175182",
+    "A175183",
+    "A175184",
     "A175185",
     "A175286"
   ],

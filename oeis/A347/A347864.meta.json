@@ -1,5 +1,5 @@
 {
-  "description": "Left-or right-truncatable primes, restricted to one consecutive zero.",
+  "description": "Left- or right-truncatable primes, restricted to one consecutive zero.",
   "id": "A347864",
   "mentions": [
     "A137812",

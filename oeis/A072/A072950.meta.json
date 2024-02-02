@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of (1,2,3,...,n) such that at least one value of abs(k-p(k))) is prime.",
+  "description": "Number of permutations p of (1,2,3,...,n) such that at least one value of abs(k-p(k)) is prime.",
   "id": "A072950",
   "mentions": [],
   "tags": [

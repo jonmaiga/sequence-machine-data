@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of permutations pi of [n] that avoid {231,321} so that pi^4 avoids 132.",
+  "id": "A368299",
+  "mentions": [
+    "A000071",
+    "A077868",
+    "A181532",
+    "A274110",
+    "A303666"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

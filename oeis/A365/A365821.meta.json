@@ -1,0 +1,17 @@
+{
+  "description": "Total number of partitions of [n-s] whose block minima sum to s, summed over all s.",
+  "id": "A365821",
+  "mentions": [
+    "A124327",
+    "A368102"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

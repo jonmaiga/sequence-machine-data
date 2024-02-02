@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number k such that k^2 can be written as the difference of two positive squares in exactly n ways.",
+  "id": "A368041",
+  "mentions": [
+    "A025487",
+    "A046079",
+    "A068314",
+    "A071571",
+    "A094191",
+    "A100073",
+    "A122842"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

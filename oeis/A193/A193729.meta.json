@@ -2,9 +2,16 @@
   "description": "Mirror of the triangle A193728.",
   "id": "A193729",
   "mentions": [
+    "A000420",
+    "A033999",
+    "A081038",
+    "A081294",
     "A084938",
+    "A108981",
+    "A133494",
     "A193722",
-    "A193728"
+    "A193728",
+    "A247560"
   ],
   "tags": [
     "formulas",
@@ -13,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 45,
     "source": "joeis"
   }
 }

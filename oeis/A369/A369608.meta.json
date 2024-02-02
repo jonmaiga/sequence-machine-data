@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to +- 2 +- 3 +- 5 +- 7 +- ... +- prime(2*n) = prime(2*n).",
+  "id": "A369608",
+  "mentions": [
+    "A000040",
+    "A022894",
+    "A063890",
+    "A113040",
+    "A350695",
+    "A369390"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

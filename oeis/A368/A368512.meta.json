@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered partitions of an n-set into blocks of size <= n/2.",
+  "id": "A368512",
+  "mentions": [
+    "A000670",
+    "A368503",
+    "A368511"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

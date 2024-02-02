@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (2*x-1)*(x^2-x-1) ) / ( 1-2*x^2+2*x^4 ).",
+  "description": "Expansion of (2*x-1)*(x^2-x-1) / ( 1-2*x^2+2*x^4 ).",
   "id": "A138614",
   "mentions": [
     "A138231",

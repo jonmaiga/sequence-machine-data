@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the permanent of the n-th order Hankel matrix of Catalan numbers M(n) whose generic element is given by M(i,j) = A000108(i+j+6) with i,j = 0, ..., n-1.",
+  "id": "A368024",
+  "mentions": [
+    "A000108",
+    "A278843",
+    "A335857",
+    "A368012",
+    "A368019",
+    "A368021",
+    "A368022",
+    "A368023",
+    "A368025",
+    "A368026"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

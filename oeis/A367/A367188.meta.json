@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, thereafter a(n) = a(n-1) - A007504(n-1) if positive and novel, else a(n-1) + A007504(n-1).",
+  "id": "A367188",
+  "mentions": [
+    "A000040",
+    "A006509",
+    "A007504"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

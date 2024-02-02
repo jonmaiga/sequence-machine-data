@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/((1-x) * (1-4*x)^3).",
+  "id": "A367592",
+  "mentions": [
+    "A038845",
+    "A055580",
+    "A367591"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

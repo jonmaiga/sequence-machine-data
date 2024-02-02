@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of [n] such that the element sum of each block is odd.",
+  "id": "A369079",
+  "mentions": [
+    "A000009",
+    "A000110",
+    "A152140",
+    "A290383",
+    "A369080"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which there is an even number of nonzero digits when n is written in the factorial base (A007623).",
+  "description": "Numbers k for which there is an even number of nonzero digits when k is written in the factorial base (A007623).",
   "id": "A227130",
   "mentions": [
     "A001969",
@@ -11,6 +11,7 @@
     "A227148"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

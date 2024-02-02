@@ -1,0 +1,28 @@
+{
+  "description": "Alternative version of the Markov tree A327345.",
+  "id": "A368546",
+  "mentions": [
+    "A001519",
+    "A001653",
+    "A002559",
+    "A007305",
+    "A007306",
+    "A064098",
+    "A253809",
+    "A291694",
+    "A305313",
+    "A305314",
+    "A327345",
+    "A350922"
+  ],
+  "tags": [
+    "nonn",
+    "tabf",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

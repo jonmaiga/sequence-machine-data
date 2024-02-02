@@ -1,5 +1,5 @@
 {
-  "description": "A084938 * [1,2,3,...], where A084938 = the Delta operator.",
+  "description": "A084938 * [1,2,3,...], where A084938 is taken as lower triangular matrix.",
   "id": "A134378",
   "mentions": [
     "A084938",

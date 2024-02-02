@@ -1,0 +1,19 @@
+{
+  "description": "Number of 6-cycles in the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A367968",
+  "mentions": [
+    "A003462",
+    "A290764",
+    "A367967"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

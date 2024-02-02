@@ -1,0 +1,18 @@
+{
+  "description": "Binomial transform of Gould's sequence (A001316).",
+  "id": "A368655",
+  "mentions": [
+    "A000120",
+    "A001316"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

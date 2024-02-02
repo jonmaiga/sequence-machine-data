@@ -1,5 +1,5 @@
 {
-  "description": "(n^n - n^2)/2.",
+  "description": "a(n) = (n^n - n^2)/2.",
   "id": "A214698",
   "mentions": [
     "A000217",

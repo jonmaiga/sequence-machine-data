@@ -1,5 +1,5 @@
 {
-  "description": "Number of subsets of {1..n} with two elements (possibly equal) summing to n.",
+  "description": "Number of subsets of {1..n} with two elements (possibly the same) summing to n.",
   "id": "A366131",
   "mentions": [
     "A008967",
@@ -18,12 +18,13 @@
     "A365544"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "joeis"
   }
 }

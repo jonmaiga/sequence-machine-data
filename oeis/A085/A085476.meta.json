@@ -1,5 +1,5 @@
 {
-  "description": "Periodic Pascal array, read by antidiagonals.",
+  "description": "Periodic Pascal array, read by upward antidiagonals.",
   "id": "A085476",
   "mentions": [
     "A000749",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

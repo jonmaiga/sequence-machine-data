@@ -1,0 +1,19 @@
+{
+  "description": "The number of ways of tiling the n X n torus up to diagonal and antidiagonal reflection of the square by a tile that is fixed under only diagonal reflection.",
+  "id": "A368140",
+  "mentions": [
+    "A295223",
+    "A367526",
+    "A368139",
+    "A368141",
+    "A368142"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

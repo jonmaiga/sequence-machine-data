@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the sum of p and its reversal is the square of a prime.",
+  "id": "A367796",
+  "mentions": [
+    "A056964",
+    "A061783",
+    "A067030",
+    "A367793"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

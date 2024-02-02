@@ -1,0 +1,37 @@
+{
+  "description": "Number of divisors of n with exactly two distinct prime factors.",
+  "id": "A367098",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A001248",
+    "A001358",
+    "A006881",
+    "A007774",
+    "A024619",
+    "A054753",
+    "A056170",
+    "A076290",
+    "A079275",
+    "A086971",
+    "A090885",
+    "A100959",
+    "A146289",
+    "A220264",
+    "A366740",
+    "A367096",
+    "A367099"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

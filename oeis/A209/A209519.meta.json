@@ -1,5 +1,5 @@
 {
-  "description": "Expansion A(x)=sum(n>0, a(n)*x^n/(3^(n-1)*n!), A(x) satisfies A(A(A(x)))=e^x-1.",
+  "description": "Expansion A(x) = Sum_{n>0} a(n)*x^n/(3^(n-1)*n!), A(x) satisfies A(A(A(x)))=e^x-1.",
   "id": "A209519",
   "mentions": [],
   "tags": [

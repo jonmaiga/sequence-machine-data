@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 12345*10^n + 6789.",
+  "id": "A367650",
+  "mentions": [
+    "A004086",
+    "A011557",
+    "A367593"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

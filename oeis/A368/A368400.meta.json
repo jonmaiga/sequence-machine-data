@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the position of k within the Christmas tree pattern (A367562) of order n, with n >= 1 and k >= 0.",
+  "id": "A368400",
+  "mentions": [
+    "A367508",
+    "A367562",
+    "A368399"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

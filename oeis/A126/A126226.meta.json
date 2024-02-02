@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction of Product_{primes p} ((p-1)/p)^(1/p)).",
+  "description": "Continued fraction of Product_{primes p} ((p-1)/p)^(1/p).",
   "id": "A126226",
   "mentions": [
     "A085541",

@@ -1,0 +1,35 @@
+{
+  "description": "Triangular array T(n,k), read by rows: coefficients of strong divisibility sequence of polynomials p(1,x) = 1, p(2,x) = 1 + 3x, p(n,x) = u*p(n-1,x) + v*p(n-2,x) for n >=3, where u = p(2,x), v = 2 - x^2.",
+  "id": "A368151",
+  "mentions": [
+    "A001045",
+    "A001076",
+    "A001906",
+    "A023000",
+    "A077985",
+    "A094440",
+    "A107839",
+    "A186446",
+    "A190989",
+    "A367208",
+    "A367209",
+    "A367210",
+    "A367211",
+    "A367297",
+    "A367298",
+    "A367299",
+    "A367300",
+    "A367301",
+    "A368150"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

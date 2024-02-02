@@ -1,10 +1,13 @@
 {
-  "description": "Nonsquarefree numbers n such that n is divisible by the maximal exponent in the prime factorization of n.",
+  "description": "Nonsquarefree numbers k such that k is divisible by the maximal exponent in the prime factorization of k.",
   "id": "A144976",
   "mentions": [
     "A013929",
     "A051903",
-    "A137257"
+    "A059956",
+    "A137257",
+    "A336064",
+    "A336065"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest odd number k > 1 for which the Jacobi symbol (n / k) >= 0.",
+  "id": "A367034",
+  "mentions": [
+    "A366973"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

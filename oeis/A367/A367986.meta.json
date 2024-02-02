@@ -1,0 +1,16 @@
+{
+  "description": "Number of 4-cycles in the n-Mycielski graph.",
+  "id": "A367986",
+  "mentions": [
+    "A301769"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

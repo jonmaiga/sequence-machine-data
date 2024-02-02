@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n)*prime(n+1)-prime(n+1).",
+  "description": "a(n) = prime(n)*prime(n+1)-prime(n+1).",
   "id": "A037167",
   "mentions": [
     "A000040",

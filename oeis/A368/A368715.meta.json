@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not coprime to the maximal exponent in their prime factorization.",
+  "id": "A368715",
+  "mentions": [
+    "A013929",
+    "A051903",
+    "A060476",
+    "A074661",
+    "A096432",
+    "A137257",
+    "A336064",
+    "A368714"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

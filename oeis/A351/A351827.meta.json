@@ -2,7 +2,10 @@
   "description": "Sum of the numbers <= n that are either prime, a divisor of n, or both.",
   "id": "A351827",
   "mentions": [
+    "A000203",
+    "A008472",
     "A010051",
+    "A034387",
     "A351519"
   ],
   "tags": [

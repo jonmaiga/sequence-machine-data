@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=a(2)=1; thereafter a(n) is the diameter of the sequence's digraph, where jumps from location i to i+-a(i) are permitted (within 1..n-1).",
+  "id": "A367129",
+  "mentions": [
+    "A360744",
+    "A360745",
+    "A360746",
+    "A362248",
+    "A364392",
+    "A365576",
+    "A367128"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

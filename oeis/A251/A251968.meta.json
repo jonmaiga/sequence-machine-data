@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..3 arrays with nondecreasing sum of every two consecutive values in every row and column",
+  "description": "Number of (n+1) X (n+1) 0..3 arrays with nondecreasing sum of every two consecutive values in every row and column.",
   "id": "A251968",
   "mentions": [
     "A251974"

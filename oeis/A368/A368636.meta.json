@@ -1,0 +1,16 @@
+{
+  "description": "Number of modified ascent sequences of length n avoiding the pattern 221.",
+  "id": "A368636",
+  "mentions": [
+    "A022493"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

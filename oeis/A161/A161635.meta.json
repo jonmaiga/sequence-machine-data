@@ -2,7 +2,8 @@
   "description": "E.g.f. satisfies A(x) = exp( x/(1 - x*A(x))^2 ).",
   "id": "A161635",
   "mentions": [
-    "A161630"
+    "A161630",
+    "A364980"
   ],
   "tags": [
     "formulas",

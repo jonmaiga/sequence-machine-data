@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 11; thereafter, a(n+1) = a(n) + x + 10*y, where x and y are respectively the first and last digits of a(n).",
+  "id": "A367348",
+  "mentions": [
+    "A121805",
+    "A367347"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

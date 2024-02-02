@@ -1,0 +1,22 @@
+{
+  "description": "Comma sequence, analogous to A121805, starting at 1, but the calculations are done in base 3.",
+  "id": "A367355",
+  "mentions": [
+    "A121805",
+    "A367343",
+    "A367344",
+    "A367356",
+    "A367605"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

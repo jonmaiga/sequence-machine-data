@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers in Narayana's cows sequence A000930.",
+  "id": "A368396",
+  "mentions": [
+    "A000040",
+    "A000930",
+    "A170954"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

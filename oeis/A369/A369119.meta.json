@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n + 1)^[is_prime(n + 1)] * n!.",
+  "id": "A369119",
+  "mentions": [
+    "A000142",
+    "A000367",
+    "A002445",
+    "A089026",
+    "A347425"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

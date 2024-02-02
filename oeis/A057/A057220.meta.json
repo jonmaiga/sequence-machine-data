@@ -1,14 +1,28 @@
 {
   "description": "Numbers k such that 2^k - 23 is prime.",
   "id": "A057220",
-  "mentions": [],
+  "mentions": [
+    "A000043",
+    "A050414",
+    "A059608",
+    "A059609",
+    "A059610",
+    "A059611",
+    "A059612",
+    "A096502",
+    "A096817",
+    "A096818",
+    "A096819",
+    "A096820",
+    "A356826"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Smallest odd prime that is relatively prime to 2n+1.",
   "id": "A284721",
   "mentions": [
+    "A002110",
     "A007947",
     "A239278",
     "A284722",

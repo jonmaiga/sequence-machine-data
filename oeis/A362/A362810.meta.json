@@ -1,14 +1,15 @@
 {
   "description": "Define G(n, k) to be the n-th derivative of Gamma(x) at k. a(n)=floor(min(G(2n, x))), where min(f) is the local minimum of f in [0,oo).",
   "id": "A362810",
-  "mentions": [],
+  "mentions": [
+    "A030171"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

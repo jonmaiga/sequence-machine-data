@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} (x^prime(k) + 1 + 1/x^prime(k)).",
+  "id": "A369560",
+  "mentions": [
+    "A000040",
+    "A022894",
+    "A113040",
+    "A316706",
+    "A350404",
+    "A350695",
+    "A350880",
+    "A369390"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

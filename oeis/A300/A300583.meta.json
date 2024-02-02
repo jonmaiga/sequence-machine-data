@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of Product_{k>=1} 1 / (1 - 2*3^k*x^k)).",
+  "description": "Expansion of Product_{k>=1} 1 / (1 - 2*3^k*x^k).",
   "id": "A300583",
   "mentions": [
     "A065446",

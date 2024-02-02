@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of Sum_{i=1..n} 1/((prime(i)*prime(i+1)*prime(i+2)).",
+  "description": "Denominator of Sum_{i=1..n} 1/(prime(i)*prime(i+1)*prime(i+2)).",
   "id": "A241192",
   "mentions": [
     "A002110",

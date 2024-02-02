@@ -2,7 +2,8 @@
   "description": "Number of noncrossing partitions of an n-set with distinct block sizes.",
   "id": "A361529",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A007837"
   ],
   "tags": [
     "nonn"

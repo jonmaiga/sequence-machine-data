@@ -1,5 +1,5 @@
 {
-  "description": "Index of the largest prime which divides n(n+1).",
+  "description": "Index of the largest prime which divides n*(n+1).",
   "id": "A252489",
   "mentions": [
     "A000720",

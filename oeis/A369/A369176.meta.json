@@ -1,0 +1,21 @@
+{
+  "description": "Number of vertices in a graph of n adjacent rectangles in a row with all possible diagonals drawn, as in A306302, but without the rectangles' edges which are perpendicular to the row.",
+  "id": "A369176",
+  "mentions": [
+    "A306302",
+    "A331755",
+    "A368756",
+    "A369175",
+    "A369177",
+    "A369178"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

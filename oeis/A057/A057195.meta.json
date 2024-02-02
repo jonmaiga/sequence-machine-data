@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n such that 2^n + 7 is prime.",
+  "description": "Numbers k such that 2^k + 7 is prime.",
   "id": "A057195",
   "mentions": [
-    "A104066"
+    "A104066",
+    "A217349"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

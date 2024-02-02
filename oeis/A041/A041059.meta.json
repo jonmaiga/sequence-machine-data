@@ -7,7 +7,6 @@
     "A041058"
   ],
   "tags": [
-    "cofr",
     "easy",
     "formulas",
     "frac",
@@ -15,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

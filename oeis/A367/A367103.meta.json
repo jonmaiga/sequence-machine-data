@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers c such that pi(c) is the product of pi applied to the distinct prime factors of c.",
+  "id": "A367103",
+  "mentions": [
+    "A000720",
+    "A002808",
+    "A027748",
+    "A156061",
+    "A235623"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

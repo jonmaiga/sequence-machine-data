@@ -1,15 +1,16 @@
 {
-  "description": "Differences between (n-1)*(n-2)^4 and A028294.",
+  "description": "a(n) = (n-1)*(n-2)^4 - A028294(n), for n > 4, with a(1) = a(2) = 0, a(3) = 2, and a(4) = 48.",
   "id": "A075690",
   "mentions": [
     "A028294"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

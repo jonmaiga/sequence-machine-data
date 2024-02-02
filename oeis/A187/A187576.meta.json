@@ -1,5 +1,5 @@
 {
-  "description": "Rank transform of the sequence 2*floor((n-1)/2)); complement of A187577.",
+  "description": "Rank transform of the sequence 2*floor((n-1)/2); complement of A187577.",
   "id": "A187576",
   "mentions": [
     "A000027",

@@ -1,0 +1,15 @@
+{
+  "description": "AGM transform of squares.",
+  "id": "A368368",
+  "mentions": [
+    "A368366"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

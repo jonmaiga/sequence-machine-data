@@ -1,0 +1,16 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into triangular numbers not greater than sqrt(n).",
+  "id": "A369341",
+  "mentions": [
+    "A023361",
+    "A364526"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

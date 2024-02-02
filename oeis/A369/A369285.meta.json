@@ -1,0 +1,17 @@
+{
+  "description": "Number of connected binary matrices with n ones, no zero rows or columns, and distinct rows and columns.",
+  "id": "A369285",
+  "mentions": [
+    "A321446",
+    "A321515",
+    "A321588"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

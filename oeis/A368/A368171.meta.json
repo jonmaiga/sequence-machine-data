@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest divisor d of n such that n/d is a cubefull exponentially odd number (A335988).",
+  "id": "A368171",
+  "mentions": [
+    "A004709",
+    "A050985",
+    "A335988",
+    "A367699",
+    "A368170"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

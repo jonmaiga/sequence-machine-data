@@ -1,0 +1,21 @@
+{
+  "description": "Number of edges in the hyperoctahedral (or cocktail party) graph of order n.",
+  "id": "A368757",
+  "mentions": [
+    "A129348",
+    "A193130",
+    "A282010",
+    "A368755",
+    "A368756",
+    "A368758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a[n]=Mod[q(n),PrimePi[q(n)]]=Mod[A001359(n), A000720[A001359(n))] where q(n) is the n-th lesser-twin-prime. A004648 restricted to lesser twins.",
+  "description": "a[n]=Mod[q(n),PrimePi[q(n)]]=Mod[A001359(n), A000720(A001359(n))] where q(n) is the n-th lesser-twin-prime. A004648 restricted to lesser twins.",
   "id": "A099644",
   "mentions": [
     "A000720",

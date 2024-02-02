@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are both exponentially odd (A268335) and exponentially odious (A270428).",
+  "id": "A367801",
+  "mentions": [
+    "A005117",
+    "A077377",
+    "A092246",
+    "A092759",
+    "A268335",
+    "A270428",
+    "A348506",
+    "A367802",
+    "A367803",
+    "A367804"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Place n equally spaced points on each side of a square, and join each of these points by a chord to the 3*n new points on the other three sides: sequence gives number of edges in the resulting planar graph.",
+  "id": "A367279",
+  "mentions": [
+    "A367276",
+    "A367277",
+    "A367278"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

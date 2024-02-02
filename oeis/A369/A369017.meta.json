@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n-1, k-1) * (k - 1)^(k - 1) * k * (n - k + 1)^(n - k - 1).",
+  "id": "A369017",
+  "mentions": [
+    "A066320",
+    "A369016"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

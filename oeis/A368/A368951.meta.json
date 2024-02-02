@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected labeled graphs with n edges and n vertices and with loops allowed.",
+  "id": "A368951",
+  "mentions": [
+    "A000169",
+    "A053506",
+    "A057500",
+    "A063170",
+    "A333331"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

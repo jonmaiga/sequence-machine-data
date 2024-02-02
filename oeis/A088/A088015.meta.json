@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. cosh(sqrt(2)*x) + exp(x)*(cosh(sqrt(2*x) - 1).",
+  "description": "Expansion of e.g.f. cosh(sqrt(2)*x) + exp(x)*(cosh(sqrt(2)*x) - 1).",
   "id": "A088015",
   "mentions": [
     "A000079",

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with each row and column divisible by 3, read as a binary number with top and left being the most significant bits.",
+  "description": "T(n,k) = Number of (n+1) X (k+1) 0..1 arrays with each row and column divisible by 3, read as a binary number with top and left being the most significant bits.",
   "id": "A262332",
   "mentions": [
     "A005578"

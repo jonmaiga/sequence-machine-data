@@ -1,5 +1,5 @@
 {
-  "description": "Product of primes in the range [T(n-1} + 1, T(n - 1) + n], where T(n) is the n-th triangular number.",
+  "description": "Product of primes in the range [T(n-1) + 1, T(n - 1) + n], where T(n) is the n-th triangular number.",
   "id": "A093457",
   "mentions": [
     "A093455",

@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers whose decimal expansions are covered by that of prime numbers (without leading zeros).",
+  "id": "A369331",
+  "mentions": [
+    "A000040",
+    "A046034",
+    "A152242"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

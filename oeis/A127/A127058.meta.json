@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows, defined by: T(n,k) = Sum_{j=0..n-k-1) T(j+k,k)*T(n-j,k+1) for n > k >= 0, with T(n,n) = n+1.",
+  "description": "Triangle, read by rows, defined by: T(n,k) = Sum_{j=0..n-k-1} T(j+k,k)*T(n-j,k+1) for n > k >= 0, with T(n,n) = n+1.",
   "id": "A127058",
   "mentions": [
     "A000698",

@@ -1,5 +1,5 @@
 {
-  "description": "Integers of the form C(2n,n)*sum(i=1,n,1/phi(i)).",
+  "description": "Integers of the form C(2n,n)^2 * Sum_{i=1..n} 1/phi(i).",
   "id": "A066992",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

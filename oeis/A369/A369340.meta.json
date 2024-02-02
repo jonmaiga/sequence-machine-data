@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n into squares not greater than sqrt(n).",
+  "id": "A369340",
+  "mentions": [
+    "A001156",
+    "A097356"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

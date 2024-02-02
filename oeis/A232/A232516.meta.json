@@ -1,5 +1,5 @@
 {
-  "description": "Number of (1+1)X(n+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally, diagonally or antidiagonally, with no adjacent elements equal",
+  "description": "Number of (1+1) X (n+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally, diagonally or antidiagonally, with no adjacent elements equal.",
   "id": "A232516",
   "mentions": [
     "A232515"

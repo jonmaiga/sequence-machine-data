@@ -1,5 +1,5 @@
 {
-  "description": "a(n)*10^n are the denominators of the greedy alternating Egyptian fraction expansion of Pi - 3 of the form Sum_{n>=0} ((-1)^n / (a(n)*10^n).",
+  "description": "a(n)*10^n are the denominators of the greedy alternating Egyptian fraction expansion of Pi - 3 of the form Sum_{n>=0} (-1)^n / (a(n)*10^n).",
   "id": "A052385",
   "mentions": [
     "A000796",

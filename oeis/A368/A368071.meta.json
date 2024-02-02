@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, and for any n > 0, a(2*n) = a(n), a(2*n+1) is the least positive number not yet in the sequence coprime to a(n) and a(n+1).",
+  "id": "A368071",
+  "mentions": [
+    "A002487",
+    "A368147"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

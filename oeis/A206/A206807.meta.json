@@ -2,6 +2,10 @@
   "description": "Position of 3^n when {2^j} and {3^k} are jointly ranked; complement of A206805.",
   "id": "A206807",
   "mentions": [
+    "A006899",
+    "A056576",
+    "A098294",
+    "A122437",
     "A206805"
   ],
   "tags": [

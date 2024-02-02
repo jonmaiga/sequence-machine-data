@@ -1,13 +1,16 @@
 {
-  "description": "Numbers k such that p1=10k+9 and p2=p1+2 are twin primes (and p1^2 == p2^2 == 1 (mod 10)).",
+  "description": "Numbers k such that p1 = 10k+9 and p2 = p1+2 are twin primes.",
   "id": "A131356",
-  "mentions": [],
+  "mentions": [
+    "A001359",
+    "A006512"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

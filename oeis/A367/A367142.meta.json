@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected simple graphs on n unlabeled vertices without universal vertices.",
+  "id": "A367142",
+  "mentions": [
+    "A000088",
+    "A001349",
+    "A002494",
+    "A332760",
+    "A367143"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

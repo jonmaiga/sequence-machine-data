@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows. T(n, k) = (k*(k + 1)*(2*k + 1) + n*(n + 1)*(2*n + 1)) / 6.",
+  "id": "A368045",
+  "mentions": [
+    "A000330",
+    "A005900",
+    "A006331",
+    "A051162",
+    "A056520",
+    "A094952",
+    "A143216",
+    "A367964",
+    "A368043",
+    "A368046",
+    "A368047"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

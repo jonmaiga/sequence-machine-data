@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n] whose block minima sum to n.",
+  "id": "A368204",
+  "mentions": [
+    "A124327",
+    "A365441",
+    "A368246"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

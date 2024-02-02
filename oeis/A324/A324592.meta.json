@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n, k) read by diagonals, n > 0, k > 0; for any number m > 0 with prime factorization Product_{i > 0} prime(i)^e(i), let f(m) = Sum_{i > 0) e(i) * sqrt(A005117(i)); f establishes a bijection between the positive numbers and the finite sums of square roots of squarefree numbers; let g be the inverse of f; T(n, k) = g(f(n) * f(k)).",
+  "description": "Square array T(n, k) read by diagonals, n > 0, k > 0; for any number m > 0 with prime factorization Product_{i > 0} prime(i)^e(i), let f(m) = Sum_{i > 0} e(i) * sqrt(A005117(i)); f establishes a bijection between the positive numbers and the finite sums of square roots of squarefree numbers; let g be the inverse of f; T(n, k) = g(f(n) * f(k)).",
   "id": "A324592",
   "mentions": [
     "A001221",

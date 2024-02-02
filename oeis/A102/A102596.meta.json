@@ -2,14 +2,19 @@
   "description": "Number of n-node labeled oriented graphs whose underlying graphs are mating graphs, cf. A006024.",
   "id": "A102596",
   "mentions": [
-    "A006024"
+    "A006024",
+    "A102579",
+    "A102597",
+    "A102599",
+    "A369283"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

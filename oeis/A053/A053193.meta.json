@@ -2,7 +2,8 @@
   "description": "Cototient of odd numbers.",
   "id": "A053193",
   "mentions": [
-    "A051953"
+    "A051953",
+    "A217739"
   ],
   "tags": [
     "easy",

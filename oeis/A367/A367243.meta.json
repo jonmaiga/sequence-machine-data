@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of n-digit numbers whose difference between the largest and smallest digits is equal to 2.",
+  "id": "A367243",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A366959",
+    "A367244",
+    "A367245",
+    "A367246",
+    "A367247",
+    "A367248",
+    "A367249",
+    "A367250"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

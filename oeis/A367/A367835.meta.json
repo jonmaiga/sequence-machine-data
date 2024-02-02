@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1/(2 - x - exp(2*x)).",
+  "id": "A367835",
+  "mentions": [
+    "A006155",
+    "A126390",
+    "A216794",
+    "A343672",
+    "A355110",
+    "A367836",
+    "A367837",
+    "A367838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "Lexicographically earliest sequence of distinct positive numbers such that the prime factorizations of two consecutive terms never share a prime exponent > 1.",
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that the prime factorizations of two consecutive terms never share a prime exponent >= 1.",
   "id": "A297075",
   "mentions": [
+    "A001694",
     "A038109",
     "A052485",
+    "A181819",
     "A297403",
     "A297404"
   ],

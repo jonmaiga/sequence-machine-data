@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/8)*(4*n^2 + 6*n + (-1)^n*(2*n*(n + 1) - 1) + 1).",
+  "id": "A367965",
+  "mentions": [
+    "A000290",
+    "A045944",
+    "A367964"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

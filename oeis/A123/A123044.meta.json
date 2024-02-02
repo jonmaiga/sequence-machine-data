@@ -1,5 +1,5 @@
 {
-  "description": "Number of benzenoids with 22 hexagons, C_(3h) symmetry and containing n carbon atoms.",
+  "description": "Number of benzenoids with 22 hexagons, C_(3h) symmetry and containing 3n carbon atoms.",
   "id": "A123044",
   "mentions": [
     "A121964",
@@ -7,10 +7,12 @@
     "A122736"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 63,
+    "offset": 21,
     "size": 10,
     "source": "oeis-entry"
   }

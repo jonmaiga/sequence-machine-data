@@ -1,5 +1,5 @@
 {
-  "description": "Dan numbers: numbers n of the form 2^a*3^b such that n +- 1 are twin primes.",
+  "description": "Dan numbers: numbers m of the form 2^j * 3^k such that m +- 1 are twin primes.",
   "id": "A027856",
   "mentions": [
     "A002822",

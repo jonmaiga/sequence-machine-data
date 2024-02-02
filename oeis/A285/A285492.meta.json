@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least positive integer not already appearing such that no two distinct, unordered pairs of distinct points ((n, a(n), (m, a(m))) and ((k, a(k)), (j, a(j))) have the same midpoint.",
+  "description": "a(n) is the least positive integer not already appearing such that no two distinct, unordered pairs of distinct points ((n, a(n)), (m, a(m))) and ((k, a(k)), (j, a(j))) have the same midpoint.",
   "id": "A285492",
   "mentions": [
     "A285490"

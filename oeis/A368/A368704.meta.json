@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the greatest integer k whose arithmetic derivative is equal to the n-th primorial, and 0 if no such k exists.",
+  "id": "A368704",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A116979",
+    "A351029",
+    "A368703",
+    "A369059",
+    "A369244"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

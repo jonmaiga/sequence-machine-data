@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that denominator of Sum_{k=1..p-1} 1/k^2} is a square and denominator Sum_{k=1..p-1} 1/k^3} is a cube.",
+  "description": "Primes p such that denominator of Sum_{k=1..p-1} 1/k^2 is a square and denominator Sum_{k=1..p-1} 1/k^3 is a cube.",
   "id": "A127061",
   "mentions": [
     "A034602",

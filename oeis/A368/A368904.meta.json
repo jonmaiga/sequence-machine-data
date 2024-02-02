@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k for which there is no prime p such that p^p divides A342001(k).",
+  "id": "A368904",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A100716",
+    "A342001",
+    "A358215",
+    "A359550",
+    "A368902",
+    "A368903",
+    "A368914",
+    "A368920",
+    "A368996"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

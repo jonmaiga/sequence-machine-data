@@ -1,5 +1,5 @@
 {
-  "description": "Numbers in the 5-cycle-attractor if the function f(x)=A063919(x) is iterated; f(x) is the sum of unitary proper divisors.",
+  "description": "Numbers in the 5-cycle-attractor of the function f(x)=A063919(x).",
   "id": "A097024",
   "mentions": [
     "A002827",

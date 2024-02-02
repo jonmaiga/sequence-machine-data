@@ -1,16 +1,9 @@
 {
-  "description": "Period 9:repeat 81,27,9,27,27,9,27,81,9.",
+  "description": "Period 9: repeat 81,27,9,27,27,9,27,81,9.",
   "id": "A147674",
-  "mentions": [
-    "A017162",
-    "A028560",
-    "A061039",
-    "A061040",
-    "A144454",
-    "A147650"
-  ],
+  "mentions": [],
   "tags": [
-    "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

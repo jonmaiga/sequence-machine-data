@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the heights of all directed column-convex polyominoes of area n; here by the height of a polyomino one means the number of lines of slope -1 that pass through the centers of the polyomino cells).",
+  "description": "Sum of the heights of all directed column-convex polyominoes of area n; here by the height of a polyomino one means the number of lines of slope -1 that pass through the centers of the polyomino cells.",
   "id": "A121299",
   "mentions": [
     "A121298"

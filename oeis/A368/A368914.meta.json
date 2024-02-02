@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = 1 if there is no prime p such that p^p divides A342001(n), otherwise 0.",
+  "id": "A368914",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A005940",
+    "A276086",
+    "A342001",
+    "A359550",
+    "A368904",
+    "A368905",
+    "A368912",
+    "A368913",
+    "A368915",
+    "A368916",
+    "A368920",
+    "A368996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

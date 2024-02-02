@@ -1,0 +1,27 @@
+{
+  "description": "The sum of the divisors of the squarefree part of n.",
+  "id": "A367991",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A002117",
+    "A005117",
+    "A007913",
+    "A013662",
+    "A048250",
+    "A344695",
+    "A348503",
+    "A367990"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

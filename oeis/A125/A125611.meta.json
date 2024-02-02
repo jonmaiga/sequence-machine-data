@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime p such that 7^n divides p^6 - 1.",
+  "description": "a(n) is the smallest prime p such that 7^n divides p^6 - 1.",
   "id": "A125611",
   "mentions": [
     "A125609",
@@ -11,12 +11,11 @@
     "A125635"
   ],
   "tags": [
-    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,9 @@
 {
-  "description": "Denominators for Fibonacci Binary Verticals viewed as Periodic Binary Fractions: a(n) = ((2^(3*(2^n))) - 1).",
+  "description": "a(n) = ((2^(3*(2^n))) - 1).",
   "id": "A036287",
   "mentions": [
     "A000045",
+    "A036284",
     "A036286"
   ],
   "tags": [

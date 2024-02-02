@@ -2,7 +2,9 @@
   "description": "Differences of Beatty sequence for square root of 10.",
   "id": "A081168",
   "mentions": [
-    "A006337"
+    "A006337",
+    "A010467",
+    "A177102"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

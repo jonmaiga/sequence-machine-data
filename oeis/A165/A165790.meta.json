@@ -2,6 +2,7 @@
   "description": "a(n) = the smallest positive multiple, k, of n that when written in binary, and leading 0's of k are ignored, contains the reversal of the digits of binary n.",
   "id": "A165790",
   "mentions": [
+    "A006995",
     "A161980"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Odd composites of the form n-(p(n+2)-p(n)/(p(n+1)-p(n-1)), where p(n)=n-th prime.",
+  "description": "Odd composites of the form n-(p(n+2)-p(n))/(p(n+1)-p(n-1)), where p(n)=n-th prime.",
   "id": "A141603",
   "mentions": [
     "A000040"

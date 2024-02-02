@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple graphs on n unlabeled nodes with k simplical vertices, 0 <= k <= n.",
+  "id": "A367145",
+  "mentions": [
+    "A000041",
+    "A000088",
+    "A367144"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

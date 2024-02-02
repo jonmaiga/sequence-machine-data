@@ -2,6 +2,7 @@
   "description": "Primes which remain prime when the digits are rotated once to the right.",
   "id": "A234901",
   "mentions": [
+    "A061461",
     "A227916",
     "A227919"
   ],

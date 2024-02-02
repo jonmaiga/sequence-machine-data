@@ -1,9 +1,10 @@
 {
-  "description": "Exponents k such that 2^k - 11 is prime.",
+  "description": "Numbers k such that 2^k - 11 is prime.",
   "id": "A096817",
   "mentions": [
     "A000043",
     "A050414",
+    "A057220",
     "A059608",
     "A059609",
     "A059610",
@@ -12,7 +13,8 @@
     "A096502",
     "A096818",
     "A096819",
-    "A096820"
+    "A096820",
+    "A356826"
   ],
   "tags": [
     "more",
@@ -20,7 +22,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

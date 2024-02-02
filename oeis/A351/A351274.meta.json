@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} (2*k)^k * Stirling1(n,k).",
+  "description": "a(0) = 1; thereafter a(n) = Sum_{k=1..n} (2*k)^k * Stirling1(n,k).",
   "id": "A351274",
   "mentions": [
     "A305819",

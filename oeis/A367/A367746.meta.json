@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 0, a(2) = 1. For n > 2, if a(n-1) is a novel term, a(n) = |a(n-1) - a(n-2) + 1|, else if a(n-1) is a repeat term, last seen at a(m), a(n) = n-m-1.",
+  "id": "A367746",
+  "mentions": [
+    "A181391",
+    "A341094"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

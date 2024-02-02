@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that n^2, n^2+1 and n^2+2 are all semiprimes.",
+  "description": "Numbers k with the property that k^2, k^2+1 and k^2+2 are all semiprimes.",
   "id": "A179502",
   "mentions": [
     "A001358",

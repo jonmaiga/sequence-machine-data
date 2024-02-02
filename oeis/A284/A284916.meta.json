@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of positive integers such that the same (Euclidean) distance does not occur twice between any two distinct pairs of points ((n, a(n)), (k, a(k)).",
+  "description": "Lexicographically earliest sequence of positive integers such that the same (Euclidean) distance does not occur twice between any two distinct pairs of points ((n, a(n)), (k, a(k))).",
   "id": "A284916",
   "mentions": [
     "A005282",

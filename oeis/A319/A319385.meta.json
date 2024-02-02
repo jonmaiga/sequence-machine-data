@@ -1,5 +1,5 @@
 {
-  "description": "Assuming the truth of the Collatz conjecture, let {m, f(m), f(f(m)), ..., 1} be the set where f is the Collatz function. The sequence lists the numbers m such that m/phi(m) + f(m)/phi(f(m)) + f(f(m))/phi(f(f(m)) + ... + 1/phi(1) is an integer, where phi is the Euler totient function A000010.",
+  "description": "Assuming the truth of the Collatz conjecture, let {m, f(m), f(f(m)), ..., 1} be the set where f is the Collatz function. The sequence lists the numbers m such that m/phi(m) + f(m)/phi(f(m)) + f(f(m))/phi(f(f(m))) + ... + 1/phi(1) is an integer, where phi is the Euler totient function A000010.",
   "id": "A319385",
   "mentions": [
     "A000010",

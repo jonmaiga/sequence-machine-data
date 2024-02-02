@@ -1,5 +1,5 @@
 {
-  "description": "Odd integers n such that 10^n - 1 - 10^((n-1)/2) is a prime of the form 9...989...9, called a palindromic wing prime or a near-repdigit palindromic prime.",
+  "description": "Odd integers k such that 10^k - 1 - 10^((k-1)/2) is a prime of the form 9...989...9, called a palindromic wing prime or a near-repdigit palindromic prime.",
   "id": "A077794",
   "mentions": [
     "A004023",

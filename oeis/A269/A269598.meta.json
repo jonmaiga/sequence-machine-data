@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle giving T(n, k) = -(2*A269596(n, k)^(prime(n)-2) modulo prime(n) for n >= 2.",
+  "description": "Irregular triangle giving T(n, k) = -(2*A269596(n, k))^(prime(n)-2) modulo prime(n) for n >= 2.",
   "id": "A269598",
   "mentions": [
     "A000040",

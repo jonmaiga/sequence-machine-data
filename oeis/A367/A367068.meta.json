@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ((Sum_{i=1..n} A340510(i))-1)/(n+1).",
+  "id": "A367068",
+  "mentions": [
+    "A005379",
+    "A073869",
+    "A340510",
+    "A367066"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

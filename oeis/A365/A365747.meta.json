@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Trinv(1 + Trinv(2 + Trinv(3 + Trinv(4 + ... )))) where Trinv(n) = (sqrt(8*n+1)-1)/2.",
+  "id": "A365747",
+  "mentions": [
+    "A000217",
+    "A003056",
+    "A072449",
+    "A099874"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

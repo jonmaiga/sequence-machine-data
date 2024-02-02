@@ -1,0 +1,15 @@
+{
+  "description": "Number of equivalence classes of degree n integer polynomials whose discriminants are powers of 2 (in absolute value).",
+  "id": "A367643",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

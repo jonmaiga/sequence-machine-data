@@ -1,0 +1,16 @@
+{
+  "description": "Positive integers k such that there is no m different from k where both s(k) = s(m) and s(k+1) = s(m+1), where s(k) is the prime signature of k.",
+  "id": "A368448",
+  "mentions": [
+    "A124832",
+    "A161460"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the squarefree values of (n-k) where the numbers k are the numbers less than n that do not divide n.",
+  "id": "A368679",
+  "mentions": [
+    "A008683",
+    "A368677",
+    "A368680"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

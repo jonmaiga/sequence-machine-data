@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=0, a(1)=1, a(n+2)=abs(concatenate(a(n+1)a(n))-concatenate(a(n)a(n+1)).",
+  "description": "a(1)=0, a(1)=1, a(n+2)=abs(concatenate(a(n+1)a(n))-concatenate(a(n)a(n+1))).",
   "id": "A070823",
   "mentions": [],
   "tags": [

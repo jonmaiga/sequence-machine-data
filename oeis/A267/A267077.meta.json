@@ -10,12 +10,11 @@
     "A188621"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

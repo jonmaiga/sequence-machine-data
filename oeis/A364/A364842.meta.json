@@ -1,0 +1,25 @@
+{
+  "description": "Table read by antidiagonals: row n gives the Euler transform of the sequence (2,...,2,0,0,...) that contains n 2s followed by 0s.",
+  "id": "A364842",
+  "mentions": [
+    "A000027",
+    "A000712",
+    "A005195",
+    "A006918",
+    "A008284",
+    "A115994",
+    "A117485",
+    "A117486",
+    "A117487",
+    "A160647"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

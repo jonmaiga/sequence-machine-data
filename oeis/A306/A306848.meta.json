@@ -1,5 +1,5 @@
 {
-  "description": "Product of first n odd nonprimes, a(n) = Product_{k=1..n) A071904(k).",
+  "description": "Product of first n odd nonprimes, a(n) = Product_{k=1..n} A071904(k).",
   "id": "A306848",
   "mentions": [
     "A001147",

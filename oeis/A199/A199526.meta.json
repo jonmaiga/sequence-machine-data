@@ -1,5 +1,5 @@
 {
-  "description": "Number of -4..4 arrays x(0..n-1) of n elements with zero sum and no two consecutive zero elements",
+  "description": "Number of -4..4 arrays x(0..n-1) of n elements with zero sum and no two consecutive zero elements.",
   "id": "A199526",
   "mentions": [
     "A199530"

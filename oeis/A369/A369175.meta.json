@@ -1,0 +1,21 @@
+{
+  "description": "Number of regions in a graph of n adjacent rectangles in a row with all possible diagonals drawn, as in A306302, but without the rectangles' edges which are perpendicular to the row.",
+  "id": "A369175",
+  "mentions": [
+    "A290131",
+    "A306302",
+    "A368755",
+    "A369176",
+    "A369177",
+    "A369178"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

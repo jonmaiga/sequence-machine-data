@@ -2,15 +2,24 @@
   "description": "Elements in the 5-Pascal triangle A028313 that are not 1.",
   "id": "A028314",
   "mentions": [
-    "A028313"
+    "A000027",
+    "A010892",
+    "A022112",
+    "A028313",
+    "A028322",
+    "A051936",
+    "A051937",
+    "A121262",
+    "A176448"
   ],
   "tags": [
+    "formulas",
     "nonn",
-    "tabf"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 63,
+    "size": 66,
     "source": "joeis"
   }
 }

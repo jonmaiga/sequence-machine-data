@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = 1 + x*(3*A(x)^2 + A(-x)^2)/4.",
+  "id": "A369082",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A002293",
+    "A006632",
+    "A368627",
+    "A368629",
+    "A368633",
+    "A368634",
+    "A368635",
+    "A369083"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

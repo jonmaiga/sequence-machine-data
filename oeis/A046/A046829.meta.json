@@ -2,7 +2,8 @@
   "description": "Numbers k such that digits of k^2 include digits of k as subsequence.",
   "id": "A046829",
   "mentions": [
-    "A046827"
+    "A046827",
+    "A062118"
   ],
   "tags": [
     "base",

@@ -1,5 +1,5 @@
 {
-  "description": "1/81 the number of (n+1)X5 0..2 arrays with no 2X2 subblock being a reflection across the shared element pair of any horizontal or vertical neighbor",
+  "description": "1/81 the number of (n+1) X 5 0..2 arrays with no 2 X 2 subblock being a reflection across the shared element pair of any horizontal or vertical neighbor.",
   "id": "A183815",
   "mentions": [
     "A183819"

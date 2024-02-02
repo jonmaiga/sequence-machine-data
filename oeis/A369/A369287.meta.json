@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of non-isomorphic multiset partitions of weight n with k parts and no singletons or vertices that appear only once, 0 <= k <= floor(n/2).",
+  "id": "A369287",
+  "mentions": [
+    "A000007",
+    "A002865",
+    "A050535",
+    "A320665",
+    "A369286"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

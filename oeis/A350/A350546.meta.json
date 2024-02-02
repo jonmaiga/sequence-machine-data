@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the continued fraction for sqrt(k) has prime period length.",
+  "description": "Numbers k such that the period of the continued fraction for sqrt(k) is a prime.",
   "id": "A350546",
   "mentions": [
     "A003285",

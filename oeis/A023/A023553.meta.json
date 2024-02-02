@@ -1,7 +1,9 @@
 {
-  "description": "Convolution of natural numbers >= 3 and Lucas numbers.",
+  "description": "Convolution of integers >= 3 and Lucas numbers.",
   "id": "A023553",
-  "mentions": [],
+  "mentions": [
+    "A000204"
+  ],
   "tags": [
     "formulas",
     "nonn"

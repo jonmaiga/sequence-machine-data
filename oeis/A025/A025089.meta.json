@@ -1,13 +1,18 @@
 {
-  "description": "a(n) = s(1)s(n) + s(2)s(n-1) + ... + s(k)s(n-k+1), where k = [ n/2 ], s = (Lucas numbers).",
+  "description": "a(n) = s(1)*s(n) + s(2)*s(n-1) + ... + s(k)*s(n-k+1), where k = [n/2], s = (Lucas numbers).",
   "id": "A025089",
-  "mentions": [],
+  "mentions": [
+    "A000204",
+    "A004526"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "joeis"
+    "size": 36,
+    "source": "oeis-entry"
   }
 }

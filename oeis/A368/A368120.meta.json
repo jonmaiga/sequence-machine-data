@@ -1,0 +1,15 @@
+{
+  "description": "Repeated application of the Syracuse map over F_2[x] starting from 1+x^3, m = 1+x^2. Represented as the integers resulting from evaluating the polynomial at 2 over Z.",
+  "id": "A368120",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

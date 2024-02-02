@@ -2,7 +2,8 @@
   "description": "Decimal expansion of square root of 17.",
   "id": "A010473",
   "mentions": [
-    "A040012"
+    "A040012",
+    "A222132"
   ],
   "tags": [
     "cons",

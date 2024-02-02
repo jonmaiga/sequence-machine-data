@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = abs(a(n-1) - count(a(n-1)) where count(a(n-1)) is the number of times a(n-1) has appeared so far in the sequence, a(1)=0.",
+  "description": "a(n) = abs(a(n-1) - count(a(n-1))) where count(a(n-1)) is the number of times a(n-1) has appeared so far in the sequence, a(1)=0.",
   "id": "A358338",
   "mentions": [
     "A337835",

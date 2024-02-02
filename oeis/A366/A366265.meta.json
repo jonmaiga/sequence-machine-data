@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of the sum of n/k over all prime powers k which divide n (including 1).",
+  "id": "A366265",
+  "mentions": [
+    "A095112",
+    "A358777",
+    "A359589",
+    "A359595",
+    "A359596"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

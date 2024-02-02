@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence of positive integers such that for each n, the values in a path of locations starting from any i=n are all distinct, where jumps are allowed from location i to i+a(i).",
+  "id": "A367849",
+  "mentions": [
+    "A002260",
+    "A133263",
+    "A362248",
+    "A367467",
+    "A367832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

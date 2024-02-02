@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the constant B such that ceiling(B^(3^k))) = A118910(k) is prime for all k >= 0.",
+  "description": "Decimal expansion of the constant B such that ceiling(B^(3^k)) = A118910(k) is prime for all k >= 0.",
   "id": "A300753",
   "mentions": [
     "A051021",

@@ -1,0 +1,35 @@
+{
+  "description": "Minimal numbers whose binary indices of binary indices contradict a strict version of the axiom of choice.",
+  "id": "A368532",
+  "mentions": [
+    "A000110",
+    "A000612",
+    "A003465",
+    "A007716",
+    "A048793",
+    "A055621",
+    "A058891",
+    "A134964",
+    "A140637",
+    "A283877",
+    "A300913",
+    "A323818",
+    "A355529",
+    "A367867",
+    "A367903",
+    "A367905",
+    "A367907",
+    "A368094",
+    "A368097",
+    "A368187",
+    "A368413"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

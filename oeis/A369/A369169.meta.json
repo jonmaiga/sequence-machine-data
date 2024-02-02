@@ -1,0 +1,21 @@
+{
+  "description": "Terms k of A025487 such that A000005(k) = A000688(k).",
+  "id": "A369169",
+  "mentions": [
+    "A000005",
+    "A000688",
+    "A002110",
+    "A025487",
+    "A046523",
+    "A124832",
+    "A369168"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

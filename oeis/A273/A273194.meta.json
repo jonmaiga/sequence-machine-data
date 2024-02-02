@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = numerator(R(n,3)), where R(n,d) = (Product_{j prime to d)} Pochhammer(j/d, n)) / n!.",
+  "description": "a(n) = numerator(R(n,3)), where R(n,d) = (Product_{j prime to d} Pochhammer(j/d, n)) / n!.",
   "id": "A273194",
   "mentions": [
     "A000012",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes with a single 0-bit (A095078) in range [2^n,2^(n+1)].",
+  "description": "Number of primes with a single 0-bit (A095078) in range ]2^n,2^(n+1)].",
   "id": "A095058",
   "mentions": [
     "A095018",

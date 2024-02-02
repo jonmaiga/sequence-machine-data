@@ -1,9 +1,15 @@
 {
-  "description": "E.g.f.: 1/(1-x+log(1-x)).",
+  "description": "Expansion of e.g.f. 1/(1 - x + log(1 - x)).",
   "id": "A052820",
   "mentions": [
     "A007840",
-    "A030178"
+    "A030178",
+    "A367845",
+    "A367846",
+    "A367847",
+    "A367851",
+    "A367852",
+    "A367853"
   ],
   "tags": [
     "easy",
@@ -13,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

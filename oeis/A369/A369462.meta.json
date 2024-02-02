@@ -1,0 +1,23 @@
+{
+  "description": "Number of representations of 12n-1 as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "id": "A369462",
+  "mentions": [
+    "A017653",
+    "A369054",
+    "A369055",
+    "A369252",
+    "A369452",
+    "A369460",
+    "A369461",
+    "A369463"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

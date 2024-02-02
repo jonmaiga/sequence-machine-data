@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = greatest number of unrestricted partitions between successive strict partitions of n; see Comments.",
+  "id": "A366883",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A080577"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Minimum size of a set of polyominoes with n cells such that all other free polyominoes with n cells can be obtained by moving one cell of one of the polyominoes in the set.",
+  "id": "A365621",
+  "mentions": [
+    "A098891",
+    "A367123",
+    "A367124",
+    "A367127",
+    "A367441"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

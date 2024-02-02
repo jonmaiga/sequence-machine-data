@@ -2,7 +2,8 @@
   "description": "Covering numbers C(n,5,2).",
   "id": "A011977",
   "mentions": [
-    "A011975"
+    "A011975",
+    "A240116"
   ],
   "tags": [
     "hard",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 5,
-    "size": 23,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Starting values of runs of consecutive numbers in A367090, i.e., minima of gaps in the set of sums of distinct powers of 3 and distinct powers of 4.",
+  "id": "A367092",
+  "mentions": [
+    "A000695",
+    "A005836",
+    "A367090",
+    "A367091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

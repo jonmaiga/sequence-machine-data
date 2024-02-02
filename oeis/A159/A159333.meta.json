@@ -2,12 +2,12 @@
   "description": "Roman factorial of n.",
   "id": "A159333",
   "mentions": [
-    "A000142",
-    "A165680"
+    "A000142"
   ],
   "tags": [
     "easy",
     "formulas",
+    "less",
     "sign"
   ],
   "terms": {

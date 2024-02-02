@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+x)/(1-x)^2-5x^3).",
+  "description": "Expansion of (1+x)/((1-x)^2-5x^3).",
   "id": "A097118",
   "mentions": [],
   "tags": [

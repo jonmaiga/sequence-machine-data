@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} binomial(-n, k) * 2^(n - k).",
+  "id": "A367548",
+  "mentions": [
+    "A032443"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

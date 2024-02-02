@@ -2,6 +2,7 @@
   "description": "Dimension of invariants of 2n-th tensor power of 6-dimensional irreducible representation of A_3.",
   "id": "A247591",
   "mentions": [
+    "A005802",
     "A059710",
     "A095922"
   ],

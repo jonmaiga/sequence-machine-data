@@ -1,7 +1,11 @@
 {
   "description": "Smallest number m such that m^m+1 is divisible by n.",
   "id": "A009661",
-  "mentions": [],
+  "mentions": [
+    "A014566",
+    "A133090",
+    "A268466"
+  ],
   "tags": [
     "nonn"
   ],

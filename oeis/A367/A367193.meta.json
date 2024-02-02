@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the numerator of the fraction whose numerator + denominator = n that is closest to Pi. The fraction does not need to be in simplest form; the numerator and denominator must be integers.",
+  "id": "A367193",
+  "mentions": [
+    "A000796",
+    "A002485",
+    "A367194"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

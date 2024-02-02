@@ -1,0 +1,18 @@
+{
+  "description": "Iterates of the Christmas tree pattern map (A367508), where each row is interpreted as a single binary word and converted to decimal.",
+  "id": "A368398",
+  "mentions": [
+    "A367508",
+    "A367555",
+    "A367562"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

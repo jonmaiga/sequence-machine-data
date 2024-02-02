@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{0 < k < n: p = prime(k) + phi(n-k), p + 2 and prime(p) + 2 are all prime}}, where phi(.) is Euler's totient function.",
+  "description": "a(n) = |{0 < k < n: p = prime(k) + phi(n-k), p + 2 and prime(p) + 2 are all prime}|, where phi(.) is Euler's totient function.",
   "id": "A236470",
   "mentions": [
     "A000010",

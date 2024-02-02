@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime p such that (n^p+(n+1)^p)/(2n+1) is prime, or 0 if no such p exists.",
+  "description": "Smallest prime p such that (n^p + (n+1)^p)/(2n+1) is prime, or -1 if no such p exists.",
   "id": "A247244",
   "mentions": [
     "A000978",
@@ -29,12 +29,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 78,
     "source": "oeis-bfile"
   }
 }

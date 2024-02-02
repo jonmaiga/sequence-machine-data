@@ -2,7 +2,8 @@
   "description": "Number of pairs of parallel diagonals in a regular n-gon.",
   "id": "A211379",
   "mentions": [
-    "A000096"
+    "A000096",
+    "A367204"
   ],
   "tags": [
     "easy",

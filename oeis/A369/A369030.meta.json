@@ -1,0 +1,23 @@
+{
+  "description": "Exponential of Mangoldt function permuted by A163511 (\"Doudna-permutation mirrored\").",
+  "id": "A369030",
+  "mentions": [
+    "A014963",
+    "A054429",
+    "A163511",
+    "A365805",
+    "A368900",
+    "A369028",
+    "A369029",
+    "A369053"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

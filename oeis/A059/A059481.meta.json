@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = binomial(n+k-1,k), 0 <= k <= n, read by rows.",
+  "description": "Triangle read by rows. T(n, k) = binomial(n+k-1, k) for 0 <= k <= n.",
   "id": "A059481",
   "mentions": [
     "A000027",

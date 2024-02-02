@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the refactorable numbers less than n that do not divide n.",
+  "id": "A368817",
+  "mentions": [
+    "A033950",
+    "A336040",
+    "A368572"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

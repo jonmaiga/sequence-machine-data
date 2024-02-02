@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=1..n} stirling2(n,k)*(k!)^3).",
+  "description": "a(n) = Sum_{k=1..n} stirling2(n,k)*(k!)^3.",
   "id": "A263158",
   "mentions": [
     "A000670",

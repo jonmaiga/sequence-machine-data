@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k whose number of divisors equals the number of divisors in each of R(k), k+R(k), R(k+R(k)), abs(k-R(k)), and R(abs(k-R(k)), where R(m) is the digit reversal of m and where the reversals of m do not equal m.",
+  "description": "Numbers k whose number of divisors equals the number of divisors in each of R(k), k+R(k), R(k+R(k)), abs(k-R(k)), and R(abs(k-R(k))), where R(m) is the digit reversal of m and where the reversals of m do not equal m.",
   "id": "A346141",
   "mentions": [
     "A000005",

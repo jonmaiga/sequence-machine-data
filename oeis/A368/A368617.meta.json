@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of 878/323.",
+  "id": "A368617",
+  "mentions": [
+    "A001113",
+    "A002113",
+    "A007676",
+    "A007677",
+    "A368618",
+    "A368619",
+    "A368620",
+    "A368621",
+    "A368653",
+    "A368654",
+    "A368656"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

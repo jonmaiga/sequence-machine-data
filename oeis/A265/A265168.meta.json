@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 arrays containing 3 copies of 0..n-1 with no equal horizontal or vertical neighbors and new values introduced sequentially from 0.",
+  "description": "Number of n X 3 arrays containing 3 copies of 0..n-1 with no equal horizontal or vertical neighbors and new values introduced sequentially from 0.",
   "id": "A265168",
   "mentions": [
     "A265170"

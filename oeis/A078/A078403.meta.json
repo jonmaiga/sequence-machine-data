@@ -1,8 +1,11 @@
 {
-  "description": "Primes such that digital root (A038194) is prime.",
+  "description": "Primes whose digital root (A038194) is prime.",
   "id": "A078403",
   "mentions": [
     "A038194",
+    "A061238",
+    "A061240",
+    "A061241",
     "A070027",
     "A078400"
   ],

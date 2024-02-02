@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled mappings from n points to themselves with unique square root (endofunctions).",
+  "id": "A368943",
+  "mentions": [
+    "A000700",
+    "A001372",
+    "A368830",
+    "A368867"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

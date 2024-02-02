@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 5n^4 + 1 is prime.",
+  "description": "Numbers k such that 5*k^4 + 1 is prime.",
   "id": "A207838",
   "mentions": [
     "A005097",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

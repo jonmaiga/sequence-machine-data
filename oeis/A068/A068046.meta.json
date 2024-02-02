@@ -1,5 +1,5 @@
 {
-  "description": "Palindromes of length greater than 1 in decimal expansion of Pi.",
+  "description": "Palindromes of length greater than 1 in decimal expansion of Pi (not showing leading 0's).",
   "id": "A068046",
   "mentions": [
     "A000796",
@@ -8,11 +8,12 @@
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 48,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

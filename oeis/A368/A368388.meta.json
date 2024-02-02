@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of the least probability that a particular free polyomino with n cells appears in internal diffusion-limited aggregation on the square lattice.",
+  "id": "A368388",
+  "mentions": [
+    "A367996",
+    "A368386",
+    "A368387",
+    "A368389",
+    "A368390",
+    "A368661"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

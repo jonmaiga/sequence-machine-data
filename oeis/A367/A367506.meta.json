@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} (d+n)^n.",
+  "id": "A367506",
+  "mentions": [
+    "A163190",
+    "A163191",
+    "A367493",
+    "A367507",
+    "A367510"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that k*A000668(n)*A000668(n+4) + 1 is prime, where A000668(n) is the n-th Mersenne prime.",
+  "description": "Least k such that k*M(n)*M(n+4) + 1 is prime, where M(n) = A000668(n).",
   "id": "A365065",
   "mentions": [
     "A000668",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

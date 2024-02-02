@@ -1,0 +1,20 @@
+{
+  "description": "Powers s^m, m > 1, where s is a composite squarefree number that is not a primorial.",
+  "id": "A365745",
+  "mentions": [
+    "A002110",
+    "A120944",
+    "A303606",
+    "A365308"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

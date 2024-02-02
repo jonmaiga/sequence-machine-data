@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are equal to the sum of the first k proper prime powers for some k.",
+  "id": "A368850",
+  "mentions": [
+    "A000040",
+    "A013918",
+    "A025475",
+    "A066525",
+    "A098562",
+    "A246547"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

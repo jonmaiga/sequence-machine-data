@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0, and for n > 0, a(n) is the square of the product of first n-1 odd primes.",
+  "id": "A369059",
+  "mentions": [
+    "A000005",
+    "A000244",
+    "A002110",
+    "A002620",
+    "A061742",
+    "A070826",
+    "A360435",
+    "A368704"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

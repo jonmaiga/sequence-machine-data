@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of coth(Pi/2).",
+  "id": "A367961",
+  "mentions": [
+    "A308715",
+    "A367959",
+    "A367960"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

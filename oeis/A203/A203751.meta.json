@@ -1,5 +1,5 @@
 {
-  "description": "Square root of v(2n+1)/(3v(2n), where v=A203748.",
+  "description": "Square root of v(2n+1)/(3v(2n)), where v=A203748.",
   "id": "A203751",
   "mentions": [
     "A203748"

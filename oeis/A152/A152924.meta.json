@@ -1,9 +1,8 @@
 {
-  "description": "A polynomial sum of two Stirling types: p(x,n)=(If[n == 0, 0, Sum[StirlingS2[ n, m]*x^m, {m, 0, n}]/x] + Sum[Abs[StirlingS1[n, m]]*x^m, {m, 0, n}].",
+  "description": "Triangle read by rows: T(n,k) = Stirling2(n, k+1) + abs(Stirling1(n,k)), 0 <= k <= n.",
   "id": "A152924",
   "mentions": [],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],

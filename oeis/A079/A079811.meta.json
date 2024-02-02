@@ -3,15 +3,18 @@
   "id": "A079811",
   "mentions": [
     "A079808",
-    "A079809"
+    "A079809",
+    "A092542",
+    "A211538",
+    "A309805"
   ],
   "tags": [
-    "more",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 57,
     "source": "oeis-entry"
   }
 }

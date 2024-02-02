@@ -1,5 +1,5 @@
 {
-  "description": "Prime exponent of the first Fermi-Dirac factor (number of form p^(2^k)), A050376) reached, when starting from n and iterating with A334870, with a(1) = 0.",
+  "description": "Prime exponent of the first Fermi-Dirac factor (number of form p^(2^k), A050376) reached, when starting from n and iterating with A334870, with a(1) = 0.",
   "id": "A335428",
   "mentions": [
     "A050376",

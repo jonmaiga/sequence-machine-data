@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^n*E2poly(n, -1/2), where E2poly(n, x) = Sum_{k=0..n) A340556(n, k)*x^k, are the second-order Eulerian polynomials.",
+  "description": "a(n) = 2^n*E2poly(n, -1/2), where E2poly(n, x) = Sum_{k=0..n} A340556(n, k)*x^k, are the second-order Eulerian polynomials.",
   "id": "A341106",
   "mentions": [
     "A340556"

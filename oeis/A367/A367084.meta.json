@@ -1,0 +1,16 @@
+{
+  "description": "Indices k such that A367083(k) and A367083(k+1) are both odd.",
+  "id": "A367084",
+  "mentions": [
+    "A327621",
+    "A367083"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

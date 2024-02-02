@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest prime p such that there are n numbers between p and nextprime(p) which are not prime powers.",
+  "id": "A368749",
+  "mentions": [
+    "A000040",
+    "A000230",
+    "A000961",
+    "A014963",
+    "A024619",
+    "A080101",
+    "A085970",
+    "A093555",
+    "A368748"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

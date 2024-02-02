@@ -1,0 +1,15 @@
+{
+  "description": "Number of tilings of a right isosceles triangle by n right isosceles triangular tiles of any size, such that the intersection of any two tiles is either empty, a vertex of both tiles, or an edge of both tiles.",
+  "id": "A369237",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

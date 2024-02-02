@@ -1,5 +1,5 @@
 {
-  "description": "Replace in the binary expansion of n each run of k 0's (or 1's) with 2k-1 0's (or 1's), except in the most significant run, double the number of 0's (or 1's).",
+  "description": "In the binary expansion of n replace each run of k 0's (or 1's) with 2k-1 0's (or 1's), except in the most significant run where we double the number of 0's (or 1's).",
   "id": "A129602",
   "mentions": [
     "A004760",

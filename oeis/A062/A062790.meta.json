@@ -2,6 +2,7 @@
   "description": "Moebius transform of the cototient function A051953.",
   "id": "A062790",
   "mentions": [
+    "A000010",
     "A001065",
     "A007431",
     "A051953",

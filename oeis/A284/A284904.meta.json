@@ -1,5 +1,5 @@
 {
-  "description": "The number of integers k less than 2^n whose decimal representation of their reciprocals has an odd periodic length.",
+  "description": "The number of integers k less than 2^n whose decimal representation of their reciprocals has an odd period.",
   "id": "A284904",
   "mentions": [
     "A284601"

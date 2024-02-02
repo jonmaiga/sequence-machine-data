@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{k=0..n} (7*k)! / k!^7.",
+  "id": "A367571",
+  "mentions": [
+    "A000178",
+    "A007685",
+    "A071549",
+    "A074962",
+    "A271947",
+    "A367567",
+    "A367568",
+    "A367569",
+    "A367570"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

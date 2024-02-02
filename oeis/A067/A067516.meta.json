@@ -1,15 +1,18 @@
 {
-  "description": "Fibonacci numbers starting with a Fibonacci number of at least two digits.",
+  "description": "Fibonacci numbers starting with a different Fibonacci number of at least two digits.",
   "id": "A067516",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "base",
     "easy",
+    "less",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
   }
 }

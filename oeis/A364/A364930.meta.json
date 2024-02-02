@@ -1,0 +1,25 @@
+{
+  "description": "Products of primorials that are squareful but not prime powers.",
+  "id": "A364930",
+  "mentions": [
+    "A000079",
+    "A001694",
+    "A002110",
+    "A025487",
+    "A055932",
+    "A126706",
+    "A286708",
+    "A332785",
+    "A364710"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of idempotent order-preserving partial transformations (of an n-element totally ordered set) of width k (width(alpha) = |Dom(alpha)|",
+  "description": "Triangle read by rows: number of idempotent order-preserving partial transformations (of an n-element totally ordered set) of width k (width(alpha) = |Dom(alpha)|).",
   "id": "A111589",
   "mentions": [
     "A001906"

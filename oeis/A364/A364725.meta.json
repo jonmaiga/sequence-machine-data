@@ -2,7 +2,8 @@
   "description": "Starting with a plane on which two parallel lines and two additional lines have been drawn such that the four lines form two non-congruent triangles, a(n) is the total number of lines on the plane after the n-th step, where each step consists of drawing lines that connect every intersection of two lines.",
   "id": "A364725",
   "mentions": [
-    "A050534"
+    "A050534",
+    "A365553"
   ],
   "tags": [
     "formulas",

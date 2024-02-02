@@ -1,0 +1,17 @@
+{
+  "description": "Wiener index in diamond nanowires obtained by connecting n unit cells in a sequence.",
+  "id": "A366816",
+  "mentions": [
+    "A366815"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

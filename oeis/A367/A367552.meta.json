@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} (d^2-1)^n.",
+  "id": "A367552",
+  "mentions": [
+    "A163191",
+    "A367551"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

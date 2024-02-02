@@ -2,14 +2,16 @@
   "description": "2nd differences of A075681.",
   "id": "A075683",
   "mentions": [
-    "A075681"
+    "A075681",
+    "A075682"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 62,
+    "source": "joeis"
   }
 }

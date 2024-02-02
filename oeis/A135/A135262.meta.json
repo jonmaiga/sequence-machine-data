@@ -1,9 +1,7 @@
 {
   "description": "a(3n)=10^n. a(3n+1)=4*10^n. a(3n+2)=7*10^n.",
   "id": "A135262",
-  "mentions": [
-    "A002264"
-  ],
+  "mentions": [],
   "tags": [
     "easy",
     "formulas",

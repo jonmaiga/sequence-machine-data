@@ -1,5 +1,5 @@
 {
-  "description": "If n mod 2 == 0, a(n) = a(floor(n/2)), otherwise a(n) = a(a(floor((n-1)/2))) + a(n - a(floor((n-1)/2)))).",
+  "description": "If n mod 2 == 0, a(n) = a(floor(n/2)), otherwise a(n) = a(a(floor((n-1)/2))) + a(n - a(floor((n-1)/2))).",
   "id": "A178677",
   "mentions": [
     "A002487",

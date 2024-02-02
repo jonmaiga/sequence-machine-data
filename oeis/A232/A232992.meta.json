@@ -1,5 +1,5 @@
 {
-  "description": "Let b(i) = A134204(i) and c(n) = A133242(n); a(n) is the number of primes p <= c(n) such that p is not in {b(0), b(1), ..., b(c(n)-1).",
+  "description": "Let b(i) = A134204(i) and c(n) = A133242(n); a(n) is the number of primes p <= c(n) such that p is not in {b(0), b(1), ..., b(c(n)-1)}.",
   "id": "A232992",
   "mentions": [
     "A133242",

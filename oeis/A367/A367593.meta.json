@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative integers k such that (R(k) - 1)/(k + 1) is an integer, where R(k) is the digit reversal of k.",
+  "id": "A367593",
+  "mentions": [
+    "A004086",
+    "A011557",
+    "A199682",
+    "A367650",
+    "A367727",
+    "A367728",
+    "A367740"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

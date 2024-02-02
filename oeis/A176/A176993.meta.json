@@ -1,5 +1,5 @@
 {
-  "description": "Triangle t(n,m) read by rows which contains in row n integer values of n! *binomial(n+m+1),m+1) /binomial(n-m-1,m+1) sorted along increasing m.",
+  "description": "Triangle t(n,m) read by rows which contains in row n integer values of n! * binomial(n+m+1,m+1) / binomial(n-m-1,m+1) sorted along increasing m.",
   "id": "A176993",
   "mentions": [],
   "tags": [

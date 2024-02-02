@@ -2,17 +2,19 @@
   "description": "Numbers that are the sum of six squares in ten or more ways.",
   "id": "A345477",
   "mentions": [
+    "A025430",
     "A344803",
     "A345476",
     "A345487",
     "A345519"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

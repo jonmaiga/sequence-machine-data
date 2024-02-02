@@ -2,9 +2,11 @@
   "description": "Number of distinct prime factors of A095134(n).",
   "id": "A095136",
   "mentions": [
+    "A001221",
     "A095134"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

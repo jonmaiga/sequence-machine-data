@@ -1,11 +1,12 @@
 {
-  "description": "Number of labeled connected digraphs where every node has indegree 0 or outdegree 0 and no isolated nodes.",
+  "description": "Number of labeled connected digraphs on n nodes where every node has indegree 0 or outdegree 0 and no isolated nodes.",
   "id": "A002031",
   "mentions": [
     "A001831",
     "A001832",
     "A002027",
     "A002032",
+    "A007776",
     "A047863",
     "A052332"
   ],

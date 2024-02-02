@@ -1,10 +1,13 @@
 {
-  "description": "Primes of the form 3^n + 26.",
+  "description": "Primes of the form 3^k + 26.",
   "id": "A243439",
   "mentions": [
-    "A102903"
+    "A000040",
+    "A102903",
+    "A219044"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

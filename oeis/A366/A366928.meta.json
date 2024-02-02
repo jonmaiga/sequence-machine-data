@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest nonnegative k such that A301573(k) = n.",
+  "id": "A366928",
+  "mentions": [
+    "A001597",
+    "A301573"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

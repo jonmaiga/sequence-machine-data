@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first semiprime k such that there are as many semiprimes as possible in the n numbers starting at k.",
+  "id": "A368683",
+  "mentions": [
+    "A001358"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

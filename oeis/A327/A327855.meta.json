@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) = [x^k] (Sum_{i=0..prime(n)-1} (1+Legendre(i,prime(n)) * x^i)^2, for 0 <= k <= 2*prime(n)-2.",
+  "description": "Irregular triangle read by rows: T(n,k) = [x^k] (Sum_{i=0..prime(n)-1} (1+Legendre(i,prime(n))) * x^i)^2, for 0 <= k <= 2*prime(n)-2.",
   "id": "A327855",
   "mentions": [
     "A073579",

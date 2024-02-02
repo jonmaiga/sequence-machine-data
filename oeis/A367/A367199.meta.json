@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies A(x) = (1 + x*A(x))^(A(x)^3).",
+  "id": "A367199",
+  "mentions": [
+    "A162655",
+    "A162656",
+    "A349505",
+    "A367157",
+    "A367200",
+    "A367201"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

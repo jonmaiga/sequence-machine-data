@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into 2 parts such that the smaller part divides both n and floor(n/2).",
+  "id": "A368684",
+  "mentions": [
+    "A000005",
+    "A057979",
+    "A060576"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

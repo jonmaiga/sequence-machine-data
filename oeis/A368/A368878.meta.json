@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that A368877^k(n) < n or -1 if no such k exists.",
+  "id": "A368878",
+  "mentions": [
+    "A014682",
+    "A070939",
+    "A368877"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

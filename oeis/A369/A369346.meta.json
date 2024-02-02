@@ -1,0 +1,16 @@
+{
+  "description": "Continued fraction expansion of the real root of x^3 - x^2 - 1 = 0.",
+  "id": "A369346",
+  "mentions": [
+    "A092526"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

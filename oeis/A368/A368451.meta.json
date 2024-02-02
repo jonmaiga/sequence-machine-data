@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(-x) / (1 + log(1 - 2*x)/2).",
+  "id": "A368451",
+  "mentions": [
+    "A330149",
+    "A368452"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

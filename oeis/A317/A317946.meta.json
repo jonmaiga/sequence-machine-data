@@ -1,5 +1,5 @@
 {
-  "description": "Additive with a(p^n) = A011371(n); the 2-adic valuation of A317934(n).",
+  "description": "Additive with a(p^e) = A011371(e); the 2-adic valuation of A317934(n).",
   "id": "A317946",
   "mentions": [
     "A000302",

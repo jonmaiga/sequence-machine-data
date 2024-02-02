@@ -1,15 +1,20 @@
 {
-  "description": "Sum {k=1 to n} H(k) k! (n-k)!, where H(k) is the k-th harmonic number.",
+  "description": "a(n) = Sum_{k=1..n} H(k) k! (n-k)!, where H(k) is the k-th harmonic number.",
   "id": "A091530",
   "mentions": [
+    "A000142",
+    "A001008",
+    "A001620",
+    "A002805",
     "A091528"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

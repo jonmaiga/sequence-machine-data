@@ -1,0 +1,22 @@
+{
+  "description": "Number of nontrivial solutions to the P^*_k problem in base n.",
+  "id": "A366412",
+  "mentions": [
+    "A159975",
+    "A159976",
+    "A291093",
+    "A291094",
+    "A291965",
+    "A291966"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

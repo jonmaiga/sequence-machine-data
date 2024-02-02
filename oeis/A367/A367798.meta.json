@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p^2 is the sum of a prime and its reverse.",
+  "id": "A367798",
+  "mentions": [
+    "A056964",
+    "A367796",
+    "A367871",
+    "A367900"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

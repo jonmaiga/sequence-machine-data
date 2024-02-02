@@ -1,5 +1,5 @@
 {
-  "description": "Isolated primes congruent to {1, 29) mod 30.",
+  "description": "Isolated primes congruent to {1, 29} mod 30.",
   "id": "A132256",
   "mentions": [
     "A007510",

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) = 2^k*binomial(n,2k+1), where 0 <= k <= floor((n-1)/2, n >= 1.",
+  "description": "T(n,k) = 2^k*binomial(n,2k+1), where 0 <= k <= floor((n-1)/2), n >= 1.",
   "id": "A105070",
   "mentions": [
     "A000129",

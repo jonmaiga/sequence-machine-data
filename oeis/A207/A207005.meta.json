@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that omega(n) = omega(n - omega(n)) where omega(n) is the number of distinct primes dividing n.",
+  "description": "Numbers k such that omega(k) = omega(k - omega(k)) where omega(k) is the number of distinct primes dividing k.",
   "id": "A207005",
   "mentions": [
     "A001221",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

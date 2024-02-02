@@ -1,5 +1,5 @@
 {
-  "description": "Magic constants of 4 X 4 magic squares which consist of consecutive primes",
+  "description": "Magic constants of 4 X 4 magic squares which consist of consecutive primes.",
   "id": "A173981",
   "mentions": [
     "A000040",
@@ -20,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

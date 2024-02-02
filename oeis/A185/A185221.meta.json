@@ -2,6 +2,8 @@
   "description": "E.g.f. is solution to y = 1 + log(1 + x*y) in powers of x.",
   "id": "A185221",
   "mentions": [
+    "A097718",
+    "A138013",
     "A177380",
     "A238274"
   ],

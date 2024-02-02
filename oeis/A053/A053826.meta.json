@@ -2,8 +2,14 @@
   "description": "Dirichlet inverse of sigma_4 function (A001159).",
   "id": "A053826",
   "mentions": [
+    "A000010",
     "A001159",
-    "A046099"
+    "A007427",
+    "A046099",
+    "A046692",
+    "A053822",
+    "A053825",
+    "A178448"
   ],
   "tags": [
     "formulas",

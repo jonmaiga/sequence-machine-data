@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of exponentially odd divisors of the n-th exponentially odd number.",
+  "id": "A368469",
+  "mentions": [
+    "A033634",
+    "A065463",
+    "A268335",
+    "A368468"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

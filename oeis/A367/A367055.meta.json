@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = A000120(n) + A000120(k), 0 <= k <= n.",
+  "id": "A367055",
+  "mentions": [
+    "A000069",
+    "A000120",
+    "A000788",
+    "A001969",
+    "A365618"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

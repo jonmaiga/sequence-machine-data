@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the factor differences of n.",
+  "id": "A368312",
+  "mentions": [
+    "A038548",
+    "A056737",
+    "A068333",
+    "A079667",
+    "A161908",
+    "A335572"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

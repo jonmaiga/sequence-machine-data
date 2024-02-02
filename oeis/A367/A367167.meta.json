@@ -1,0 +1,23 @@
+{
+  "description": "Let Product_{i = 1..omega(n)} p_i^e_i be the prime factorization of n. Then a(n) = Sum_{i = 1..omega(n)} Product_{j = 1..n} p_i^(e_((i+j-1) mod omega(n) + 1)).",
+  "id": "A367167",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A006881",
+    "A007947",
+    "A105119",
+    "A367140"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

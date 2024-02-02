@@ -1,14 +1,16 @@
 {
   "description": "Squares of primes, with property that all even digits occur together and all odd digits occur together.",
   "id": "A030481",
-  "mentions": [],
+  "mentions": [
+    "A296444"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 32,
-    "source": "joeis"
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

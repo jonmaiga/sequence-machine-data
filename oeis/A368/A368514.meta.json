@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: similar to A009766 but length of rows grows like log(3)/log(2).",
+  "id": "A368514",
+  "mentions": [
+    "A009766",
+    "A055998",
+    "A098294",
+    "A100982",
+    "A111396"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

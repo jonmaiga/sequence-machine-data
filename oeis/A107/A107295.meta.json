@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n^2) - n^2 is prime.",
+  "description": "Numbers k such that prime(k^2) - k^2 is prime.",
   "id": "A107295",
   "mentions": [
     "A064269",

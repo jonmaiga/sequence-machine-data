@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the infinite product of the Zeta Functions with arguments that are multiples of 3.",
+  "id": "A369634",
+  "mentions": [
+    "A000688",
+    "A002117",
+    "A013664",
+    "A013667",
+    "A013670",
+    "A080729"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

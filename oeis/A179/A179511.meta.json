@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a( n) = prime(a(n-1)) + 2a(n-1).",
+  "description": "a(1) = 1, a(n) = prime(a(n-1)) + 2*a(n-1).",
   "id": "A179511",
   "mentions": [
     "A007097",
@@ -14,6 +14,7 @@
     "A179518"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

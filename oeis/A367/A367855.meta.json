@@ -1,0 +1,17 @@
+{
+  "description": "The slowest increasing sequence of semiprimes such that a(n-1) + a(n) is prime.",
+  "id": "A367855",
+  "mentions": [
+    "A001358",
+    "A116656",
+    "A126938"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

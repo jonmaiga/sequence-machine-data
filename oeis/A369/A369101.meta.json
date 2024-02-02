@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet g.f.: zeta(s-3)^2 * (1 - 2^(4-s)) / zeta(s).",
+  "id": "A369101",
+  "mentions": [
+    "A000578",
+    "A048272",
+    "A059376",
+    "A332794",
+    "A368929"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

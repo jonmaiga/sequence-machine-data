@@ -1,5 +1,5 @@
 {
-  "description": "Integers that can occur as either leg in more than one primitive Pythagorean triple",
+  "description": "Integers that can occur as either leg in more than one primitive Pythagorean triple.",
   "id": "A156683",
   "mentions": [
     "A024355",

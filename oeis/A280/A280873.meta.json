@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose binary expansion does not begin 10 and do not contain 2 adjacent 0's; Ahnentafel numbers of X-chromosome inheritance of a male.",
+  "description": "Numbers whose binary expansion does not begin 10 and does not contain 2 adjacent 0's; Ahnentafel numbers of X-chromosome inheritance of a male.",
   "id": "A280873",
   "mentions": [
     "A003714",
@@ -9,10 +9,13 @@
     "A054429",
     "A163511",
     "A277006",
-    "A293437"
+    "A293437",
+    "A365538"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

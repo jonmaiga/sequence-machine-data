@@ -1,10 +1,21 @@
 {
   "description": "Digital root of 3^n.",
   "id": "A100401",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A001021",
+    "A009965",
+    "A009974",
+    "A009983",
+    "A009992",
+    "A010888",
+    "A100403",
+    "A225374"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

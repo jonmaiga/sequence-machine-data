@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of numbers b(i,j) = A(binomial(A(i),(A(j))), where A = A007913, with the convention that A(0)=0.",
+  "description": "Triangle of numbers b(i,j) = A(binomial(A(i), A(j))), where A = A007913, with the convention that A(0)=0.",
   "id": "A248473",
   "mentions": [
     "A005117",

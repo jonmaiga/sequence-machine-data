@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} sigma(k)/(2^k-1), where sigma(k) is the sum of divisors of k (A000203).",
+  "id": "A367325",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A065442",
+    "A066766",
+    "A116217",
+    "A335763",
+    "A335764"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

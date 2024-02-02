@@ -1,5 +1,5 @@
 {
-  "description": "(2*5^n-(4^n-2^n))/2.",
+  "description": "a(n) = (2*5^n-(4^n-2^n))/2.",
   "id": "A083315",
   "mentions": [
     "A083314",

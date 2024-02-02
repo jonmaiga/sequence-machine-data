@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{i=1..n, j=1..n} (i + 5*j).",
+  "id": "A367958",
+  "mentions": [
+    "A074962",
+    "A079478",
+    "A324402",
+    "A367842",
+    "A367944",
+    "A367956",
+    "A367957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The number of powerful divisors d of n such that n/d is also powerful.",
+  "id": "A369309",
+  "mentions": [
+    "A001620",
+    "A001694",
+    "A002117",
+    "A005361",
+    "A078434",
+    "A244115",
+    "A369310"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

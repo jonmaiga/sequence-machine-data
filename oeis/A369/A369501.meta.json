@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the integral of the reciprocal of the Cantor function.",
+  "id": "A369501",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A095844",
+    "A095845"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

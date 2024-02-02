@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the constant term in expansion of Product_{k=1..n} (x^(k*(k+1)/2) + 1 + 1/x^(k*(k+1)/2)).",
+  "id": "A369344",
+  "mentions": [
+    "A000217",
+    "A007576",
+    "A158380",
+    "A350249"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Ana sequence.",
+  "description": "Fixed point of the morphism 1 -> 121, 2 -> 122, starting from 1.",
   "id": "A060032",
   "mentions": [
     "A060236"

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k for which the quotient q(k)=(k+rev(k))/(abs(k-rev(k)) is an integer.",
+  "description": "Numbers k for which the quotient q(k)=(k+rev(k))/abs(k-rev(k)) is an integer.",
   "id": "A087993",
   "mentions": [
     "A087994",

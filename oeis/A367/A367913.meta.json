@@ -1,0 +1,43 @@
+{
+  "description": "Least number k such that there are exactly n ways to choose a multiset consisting of a binary index of each binary index of k.",
+  "id": "A367913",
+  "mentions": [
+    "A000120",
+    "A003465",
+    "A029931",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A072639",
+    "A096111",
+    "A309326",
+    "A323818",
+    "A326031",
+    "A326702",
+    "A326749",
+    "A326753",
+    "A355733",
+    "A355734",
+    "A355741",
+    "A355744",
+    "A367905",
+    "A367910",
+    "A367911",
+    "A367912",
+    "A367915",
+    "A368109",
+    "A368111",
+    "A368112",
+    "A368183",
+    "A368184",
+    "A368185"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

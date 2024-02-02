@@ -1,0 +1,18 @@
+{
+  "description": "The orders, without repetition, of elements of the Monster simple group.",
+  "id": "A367141",
+  "mentions": [
+    "A174670",
+    "A366481"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

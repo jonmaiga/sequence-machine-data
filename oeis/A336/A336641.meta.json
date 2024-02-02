@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that A007913(k) divides sigma(k) and A008833(k)-1 either divides A326127(k) (= (sigma(k)-core(k)-k), or both are zero.",
+  "description": "Numbers k such that A007913(k) divides sigma(k) and A008833(k)-1 either divides A326127(k) (= sigma(k)-core(k)-k), or both are zero.",
   "id": "A336641",
   "mentions": [
     "A000203",

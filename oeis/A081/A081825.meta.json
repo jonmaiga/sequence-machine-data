@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of atomic mass constant, in kg.",
   "id": "A081825",
-  "mentions": [],
+  "mentions": [
+    "A081813",
+    "A322578"
+  ],
   "tags": [
     "cons",
     "nonn"

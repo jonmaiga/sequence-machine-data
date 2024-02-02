@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n such that the sum of primes indexed by all parts greater than one is k.",
+  "id": "A366851",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A014689",
+    "A055670",
+    "A099773",
+    "A113685",
+    "A113686",
+    "A116598",
+    "A239261",
+    "A330953",
+    "A331381",
+    "A331383",
+    "A331385",
+    "A331416",
+    "A331417",
+    "A331418",
+    "A365067",
+    "A366528",
+    "A366842"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of one-sided 3-dimensional polyominoes with n cells.",
+  "description": "Number of one-sided strictly 3-dimensional polyominoes with n cells.",
   "id": "A006759",
   "mentions": [
     "A000105",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

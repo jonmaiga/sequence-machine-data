@@ -1,0 +1,30 @@
+{
+  "description": "Multiplicative with a(p^e) = p^(e+1-p) if p|e, and p^(e+1) otherwise.",
+  "id": "A366423",
+  "mentions": [
+    "A000040",
+    "A001694",
+    "A005117",
+    "A007947",
+    "A011262",
+    "A011264",
+    "A048102",
+    "A051674",
+    "A072873",
+    "A100717",
+    "A103889",
+    "A130508",
+    "A342090"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

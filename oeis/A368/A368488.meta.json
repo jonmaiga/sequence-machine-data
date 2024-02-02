@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n^k * binomial(k+n-1,k).",
+  "id": "A368488",
+  "mentions": [
+    "A000984",
+    "A072547",
+    "A368487"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

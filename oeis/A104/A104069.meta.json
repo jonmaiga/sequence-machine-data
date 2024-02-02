@@ -2,9 +2,11 @@
   "description": "Primes of the form 2^k + 31.",
   "id": "A104069",
   "mentions": [
+    "A000040",
     "A247952"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "Number of fractions i/n that are in the Cantor set.",
+  "id": "A368558",
+  "mentions": [
+    "A054591",
+    "A170951"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

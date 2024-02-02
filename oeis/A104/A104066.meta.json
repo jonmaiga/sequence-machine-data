@@ -1,11 +1,13 @@
 {
-  "description": "Primes of the form 2^n+7.",
+  "description": "Primes of the form 2^k + 7.",
   "id": "A104066",
   "mentions": [
+    "A000040",
     "A057195",
     "A217349"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

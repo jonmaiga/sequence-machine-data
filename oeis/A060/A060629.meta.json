@@ -1,11 +1,12 @@
 {
-  "description": "1/2+Sum_{n >= 1) a(n)*x^(2*n)/(4^n*(2*n)!) = 1/Pi*EllipticK(x).",
+  "description": "1/2+Sum_{n >= 1} a(n)*x^(2*n)/(4^n*(2*n)!) = 1/Pi*EllipticK(x).",
   "id": "A060629",
   "mentions": [
     "A038533",
     "A038534"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

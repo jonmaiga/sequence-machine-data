@@ -2,17 +2,24 @@
   "description": "Triangle read by rows: T(n,m), n >= 0, 0 <= m <= n, is number of partitions of the set {1,2,...,n} that have at most one block contained in {1,...,m}.",
   "id": "A362925",
   "mentions": [
+    "A000012",
+    "A000079",
     "A000110",
+    "A007689",
+    "A040027",
+    "A078468",
     "A113547",
-    "A362924"
+    "A362924",
+    "A367820"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

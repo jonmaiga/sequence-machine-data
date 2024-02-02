@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = 1 if there is no prime p such that p^p divides the arithmetic derivative of A276086(n), and 0 otherwise. Here A276086 is the primorial base exp-function.",
+  "id": "A368916",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A276086",
+    "A327860",
+    "A328306",
+    "A341996",
+    "A342002",
+    "A342018",
+    "A342019",
+    "A359550",
+    "A360111",
+    "A368906",
+    "A368914",
+    "A368915",
+    "A368917",
+    "A368918"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

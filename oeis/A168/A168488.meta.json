@@ -2,7 +2,9 @@
   "description": "Hankel transform of Genocchi medians.",
   "id": "A168488",
   "mentions": [
-    "A005439"
+    "A000178",
+    "A005439",
+    "A074962"
   ],
   "tags": [
     "easy",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 8,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

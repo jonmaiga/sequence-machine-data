@@ -1,0 +1,25 @@
+{
+  "description": "The number of divisors of the largest term of A054744 that divides of n.",
+  "id": "A368335",
+  "mentions": [
+    "A000005",
+    "A048103",
+    "A054744",
+    "A368331",
+    "A368332",
+    "A368333",
+    "A368334",
+    "A368336"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

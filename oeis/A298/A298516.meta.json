@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of lim_ {n->oo} (2n+2 - s(0) - s(1) - ... - s(n)), where s(n) = ((s(n - 1) + 2)^(1/2), s(0) = 1.",
+  "description": "Decimal expansion of lim_ {n->oo} (2n+2 - s(0) - s(1) - ... - s(n)), where s(n) = (s(n - 1) + 2)^(1/2), s(0) = 1.",
   "id": "A298516",
   "mentions": [
     "A298512",

@@ -1,5 +1,5 @@
 {
-  "description": "Composites of the form ((3*x*y-y-6)/(3*x+1), where x=composite and y=composite.",
+  "description": "Composites of the form (3*x*y-y-6)/(3*x+1), where x=composite and y=composite.",
   "id": "A140389",
   "mentions": [
     "A000040",

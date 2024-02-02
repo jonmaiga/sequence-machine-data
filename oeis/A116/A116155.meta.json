@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) defined by: T(0,0)=1, T(n,k)=0 if k < 0 or k > n, T(n,k) = T(n-1,k-1) + k*T(n-1,k) + Sum_{j>=1} T(n-1,k+j}.",
+  "description": "Triangle T(n,k) defined by: T(0,0)=1, T(n,k)=0 if k < 0 or k > n, T(n,k) = T(n-1,k-1) + k*T(n-1,k) + Sum_{j>=1} T(n-1,k+j).",
   "id": "A116155",
   "mentions": [
     "A098742"

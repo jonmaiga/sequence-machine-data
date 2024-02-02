@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the number of tilings of the n X k grid up to horizontal and vertical reflections by an asymmetric tile.",
+  "id": "A368220",
+  "mentions": [
+    "A117401",
+    "A225910",
+    "A368218",
+    "A368219",
+    "A368222",
+    "A368224"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

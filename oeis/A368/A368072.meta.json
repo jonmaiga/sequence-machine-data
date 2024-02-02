@@ -1,0 +1,19 @@
+{
+  "description": "Number of representations of n as the difference of two positive tetrahedral numbers.",
+  "id": "A368072",
+  "mentions": [
+    "A000292",
+    "A136107",
+    "A307666",
+    "A368073",
+    "A368076"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

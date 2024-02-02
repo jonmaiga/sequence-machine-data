@@ -1,5 +1,5 @@
 {
-  "description": "Table of A(n,k) read by antidiagonals, where A(n,k)=(n*k) mod (n+1).",
+  "description": "Table of A(n,k) read by antidiagonals, where A(n,k) = (n*k) mod (n+1).",
   "id": "A326934",
   "mentions": [
     "A004736"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

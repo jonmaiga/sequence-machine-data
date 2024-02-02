@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A342001(k) is a multiple of four, and 0 otherwise.",
+  "id": "A368994",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A121262",
+    "A342001",
+    "A353494",
+    "A358680",
+    "A368995",
+    "A368997"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

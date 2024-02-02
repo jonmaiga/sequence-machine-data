@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 / ((1 - x) * (1 - x * (1 + x + x^2 + x^3) * A(x^4))).",
+  "id": "A367715",
+  "mentions": [
+    "A367657",
+    "A367692",
+    "A367713",
+    "A367714"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

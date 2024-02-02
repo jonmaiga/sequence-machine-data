@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 6*gamma/Pi^2 - 72*zeta'(2)/Pi^4.",
+  "id": "A368551",
+  "mentions": [
+    "A000796",
+    "A001620",
+    "A008683",
+    "A073002",
+    "A074962",
+    "A368547",
+    "A368568"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

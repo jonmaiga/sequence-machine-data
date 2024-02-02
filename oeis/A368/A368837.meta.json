@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * (n+2)! * Sum_{k=0..n} 1/(k! * (k+2)!).",
+  "id": "A368837",
+  "mentions": [
+    "A006040",
+    "A099597",
+    "A228229",
+    "A368838"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

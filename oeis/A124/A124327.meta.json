@@ -1,9 +1,14 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of partitions of the set {1,2,...,n} such that the sum of the least entries of the blocks is k (1<=k<=n).",
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of the set {1,2,...,n} such that the sum of the least entries of the blocks is k (1<=k<=n*(n+1)/2).",
   "id": "A124327",
   "mentions": [
     "A000110",
-    "A000217"
+    "A000217",
+    "A124325",
+    "A365821",
+    "A365903",
+    "A367955",
+    "A368204"
   ],
   "tags": [
     "formulas",

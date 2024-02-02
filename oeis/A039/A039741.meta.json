@@ -1,7 +1,10 @@
 {
-  "description": "Lattice animals in the b.c.c. lattice (8 nearest neighbors), connected truncated octahedra, vertex-connected cubes.",
+  "description": "Number of fixed n-celled lattice animals in the b.c.c. lattice (8 nearest neighbors), or connected truncated octahedra, or vertex-connected cubes.",
   "id": "A039741",
-  "mentions": [],
+  "mentions": [
+    "A038171",
+    "A366767"
+  ],
   "tags": [
     "more",
     "nonn"

@@ -2,7 +2,8 @@
   "description": "Rounded error in Stirling's formula: a(n) = round(n! - exp(-n)*n^(n+1/2)*sqrt(2*Pi)).",
   "id": "A260657",
   "mentions": [
-    "A000142"
+    "A000142",
+    "A005394"
   ],
   "tags": [
     "formulas",

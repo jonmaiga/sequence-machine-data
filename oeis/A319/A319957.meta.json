@@ -2,7 +2,9 @@
   "description": "Number of lattice 3-polytopes of width larger than 1 and size n.",
   "id": "A319957",
   "mentions": [
-    "A319958"
+    "A319958",
+    "A319959",
+    "A319965"
   ],
   "tags": [
     "more",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 5,
-    "size": 7,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

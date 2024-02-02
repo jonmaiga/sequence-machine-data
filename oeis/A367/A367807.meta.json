@@ -1,0 +1,18 @@
+{
+  "description": "Even palindromes, divided by 2.",
+  "id": "A367807",
+  "mentions": [
+    "A029951"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

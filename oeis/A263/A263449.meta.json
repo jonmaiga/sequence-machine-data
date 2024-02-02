@@ -2,6 +2,7 @@
   "description": "Permutation of the natural numbers: [4k+1, 4k+4, 4k+3, 4k+2, ...].",
   "id": "A263449",
   "mentions": [
+    "A002162",
     "A005408",
     "A014681"
   ],

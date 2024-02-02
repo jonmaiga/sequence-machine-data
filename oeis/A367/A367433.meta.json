@@ -1,0 +1,21 @@
+{
+  "description": "Number of successive Patcail predecessors of n-th binary tree.",
+  "id": "A367433",
+  "mentions": [
+    "A000108",
+    "A014138",
+    "A014486",
+    "A056207",
+    "A063171",
+    "A072771",
+    "A072772"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

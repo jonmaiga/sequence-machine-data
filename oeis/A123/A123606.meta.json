@@ -21,11 +21,13 @@
     "A123289"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 67,
-    "size": 31,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

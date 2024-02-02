@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2-distant 4-noncrossing partitions of {1,...,n}.",
+  "id": "A366775",
+  "mentions": [
+    "A108305",
+    "A366774",
+    "A366776"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

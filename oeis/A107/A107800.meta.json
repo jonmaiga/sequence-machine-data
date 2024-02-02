@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of distinct primes dividing A006049(n) (and dividing (A006049(n)+1).",
+  "description": "a(n) = number of distinct primes dividing A006049(n) (and dividing A006049(n)+1).",
   "id": "A107800",
   "mentions": [
     "A001221",

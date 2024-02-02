@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(e^gamma/Pi).",
+  "id": "A369106",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A001620",
+    "A073004",
+    "A088540",
+    "A243376"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Form list of fractions with nontrivial anomalous cancellation, sorted first by denominators, then by numerators; sequence lists the numerators.",
+  "description": "Form the list of fractions with nontrivial anomalous cancellation, sorted first by denominators, then by numerators; sequence lists the numerators.",
   "id": "A291093",
   "mentions": [
     "A159975",

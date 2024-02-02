@@ -1,0 +1,17 @@
+{
+  "description": "Number of length-n overlap-free binary words that are squares.",
+  "id": "A368707",
+  "mentions": [
+    "A007777"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

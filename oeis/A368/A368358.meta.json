@@ -1,0 +1,16 @@
+{
+  "description": "Consider the doubly-infinite permutation P defined on page 87 of Davis et al. (1977); sequence gives the terms starting at and to the left of 1, in reverse order.",
+  "id": "A368358",
+  "mentions": [
+    "A003407",
+    "A368357"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

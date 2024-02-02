@@ -1,7 +1,9 @@
 {
   "description": "Ordered areas of primitive integer Soddyian triangles.",
   "id": "A210484",
-  "mentions": [],
+  "mentions": [
+    "A367737"
+  ],
   "tags": [
     "formulas",
     "nonn"

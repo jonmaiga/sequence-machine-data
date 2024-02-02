@@ -1,7 +1,10 @@
 {
-  "description": "Phi(n + 12) | sigma(n) + 12.",
+  "description": "Numbers k such that phi(k + 12) | sigma(k) + 12.",
   "id": "A015875",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
   "tags": [
     "nonn"
   ],

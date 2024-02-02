@@ -1,7 +1,9 @@
 {
   "description": "63rd cyclotomic polynomial.",
   "id": "A011638",
-  "mentions": [],
+  "mentions": [
+    "A014072"
+  ],
   "tags": [
     "fini",
     "full",

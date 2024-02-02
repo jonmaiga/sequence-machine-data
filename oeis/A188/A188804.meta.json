@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction for (Pi - sqrt(-4 + Pi^2)/2.",
+  "description": "Continued fraction for (Pi - sqrt(-4 + Pi^2))/2.",
   "id": "A188804",
   "mentions": [
     "A189044"

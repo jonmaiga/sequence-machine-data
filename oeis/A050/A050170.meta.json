@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(n) = floor(a(n-1)/sqrt(5)) if this is not among 0,a(1),...,a(n-1); otherwise a(n) = floor(a(n-1))*sqrt(5)).",
+  "description": "a(1) = 1, a(n) = floor(a(n-1)/sqrt(5)) if this is not among 0,a(1),...,a(n-1); otherwise a(n) = floor(a(n-1)*sqrt(5)).",
   "id": "A050170",
   "mentions": [],
   "tags": [

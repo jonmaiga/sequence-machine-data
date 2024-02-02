@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 73, a(n) = prime(a(n-1)) - 4a(n-1).",
+  "description": "a(1) = 73, a(n) = prime(a(n-1)) - 4*a(n-1).",
   "id": "A179516",
   "mentions": [
     "A007097",

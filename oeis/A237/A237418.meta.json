@@ -1,11 +1,14 @@
 {
-  "description": "Primes of the form 4^n + 15.",
+  "description": "Primes of the form 4^k + 15.",
   "id": "A237418",
   "mentions": [
-    "A144487"
+    "A000040",
+    "A144487",
+    "A253773"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

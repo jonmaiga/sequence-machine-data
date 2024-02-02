@@ -1,0 +1,23 @@
+{
+  "description": "Symmetric array read by antidiagonals: A(n,k) is the number of sums with carries i + j with abs(i) <= n and abs(j) <= k.",
+  "id": "A368311",
+  "mentions": [
+    "A003056",
+    "A003991",
+    "A059692",
+    "A169894",
+    "A368310"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

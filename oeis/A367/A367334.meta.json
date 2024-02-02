@@ -1,0 +1,19 @@
+{
+  "description": "Integers using the same number of letters in U.S. English and French.",
+  "id": "A367334",
+  "mentions": [
+    "A005589",
+    "A167507"
+  ],
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

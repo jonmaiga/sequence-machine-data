@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Lim_{n>=0} Sum_{k=1..2*n} Bernoulli(1 + k) / ((1 + k) * k^(1 + k))).",
+  "description": "Decimal expansion of Lim_{n>=0} Sum_{k=1..2*n} Bernoulli(1 + k) / ((1 + k) * k^(1 + k)).",
   "id": "A346718",
   "mentions": [
     "A346716",

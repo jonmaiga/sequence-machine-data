@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) is the coefficient of x^a(n-1) in the expansion of Product_{k=0..n-1} (x^a(k) + 1 + 1/x^a(k)).",
+  "id": "A367736",
+  "mentions": [
+    "A063890",
+    "A265853",
+    "A316706"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

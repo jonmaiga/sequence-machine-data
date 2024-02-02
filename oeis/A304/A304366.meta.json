@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n with additive persistence = 1.",
+  "description": "Numbers with additive persistence = 1.",
   "id": "A304366",
   "mentions": [
+    "A000581",
     "A031286",
     "A304367",
     "A304368",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

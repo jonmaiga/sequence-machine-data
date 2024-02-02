@@ -1,12 +1,18 @@
 {
-  "description": "Sum_{d|n, n/d=3 mod 4} d^2.",
+  "description": "a(n) = Sum_{d|n, n/d=3 mod 4} d^2.",
   "id": "A050465",
   "mentions": [
+    "A002117",
     "A027750",
     "A050461",
-    "A050470"
+    "A050464",
+    "A050466",
+    "A050467",
+    "A050470",
+    "A076577"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

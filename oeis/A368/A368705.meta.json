@@ -1,0 +1,18 @@
+{
+  "description": "Number of squarefree numbers that are less than n, not dividing n, and relatively prime to n.",
+  "id": "A368705",
+  "mentions": [
+    "A008683",
+    "A368706"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

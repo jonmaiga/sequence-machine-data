@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=a(a(n-1))+a(n-a(n-1)) p(a(n))=n, b(n)=p(p(n-1))+a(n-a(n-1))",
+  "description": "a(n)=a(a(n-1))+a(n-a(n-1)) p(a(n))=n, b(n)=p(p(n-1))+a(n-a(n-1)).",
   "id": "A087873",
   "mentions": [
     "A004001",

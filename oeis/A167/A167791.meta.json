@@ -2,6 +2,7 @@
   "description": "Numbers with primitive root 2.",
   "id": "A167791",
   "mentions": [
+    "A000010",
     "A001122",
     "A033948"
   ],

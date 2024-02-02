@@ -1,0 +1,17 @@
+{
+  "description": "Tropical version of Somos-6 sequence A006722.",
+  "id": "A369113",
+  "mentions": [
+    "A006722"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

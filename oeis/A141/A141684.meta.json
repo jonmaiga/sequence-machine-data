@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows formed from Euler polynomials: p(x,n) = if(n mod 2 = 1, 2^(1 + ((n - 1)/2))*EulerE(n, x), EulerE(n, x)); t(n,m) = Coefficients(p(x,n).",
+  "description": "Triangle read by rows formed from Euler polynomials: p(x,n) = if(n mod 2 = 1, 2^(1 + ((n - 1)/2))*EulerE(n, x), EulerE(n, x)); t(n,m) = Coefficients(p(x,n)).",
   "id": "A141684",
   "mentions": [
     "A004172",

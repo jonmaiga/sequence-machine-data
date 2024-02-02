@@ -1,5 +1,5 @@
 {
-  "description": "Period length of the decimal expansion of 1/h(n) where h(n) is the length of the finite sequence {n, f(n), f(f(n)),...,1} in the Collatz (or 3n + 1) problem.",
+  "description": "Period of the decimal expansion of 1/h(n) where h(n) is the length of the finite sequence {n, f(n), f(f(n)),...,1} in the Collatz (or 3n + 1) problem.",
   "id": "A268731",
   "mentions": [
     "A006577",

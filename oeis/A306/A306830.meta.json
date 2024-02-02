@@ -1,5 +1,5 @@
 {
-  "description": "Integers k for which there exists a nonnegative integer j such that (s(k) + j)*(reversal(s(k) + j) = k where s(k) is the sum of digits of k.",
+  "description": "Integers k for which there exists a nonnegative integer j such that (s(k) + j) * reversal(s(k) + j) = k where s(k) is the sum of digits of k.",
   "id": "A306830",
   "mentions": [
     "A004086",

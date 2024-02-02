@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{i=0..n} 3^i*i!.",
+  "description": "a(n) = Sum_{i=0..n} 3^i*i!.",
   "id": "A112370",
   "mentions": [
     "A112368"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

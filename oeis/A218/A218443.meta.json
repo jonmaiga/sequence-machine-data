@@ -2,10 +2,13 @@
   "description": "a(n) = Sum_{k=0..n} floor(n/(3k+2)).",
   "id": "A218443",
   "mentions": [
+    "A001620",
     "A001822",
-    "A218442"
+    "A218442",
+    "A256843"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

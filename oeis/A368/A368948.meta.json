@@ -1,0 +1,16 @@
+{
+  "description": "First track of a certain single track permutation.",
+  "id": "A368948",
+  "mentions": [
+    "A123400",
+    "A159880"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

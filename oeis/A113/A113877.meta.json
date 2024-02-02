@@ -2,7 +2,6 @@
   "description": "Semiprimes to semiprime powers.",
   "id": "A113877",
   "mentions": [
-    "A000040",
     "A001358",
     "A053810",
     "A113854"

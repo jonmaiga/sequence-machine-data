@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = (1 + x*A(x))^2 * (1 + x^2*A(x)^3).",
+  "description": "G.f. satisfies A(x) = (1 + x*A(x))^2 * (1 + x^2*A(x)^3).",
   "id": "A274378",
   "mentions": [
     "A181734",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

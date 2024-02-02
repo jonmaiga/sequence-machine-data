@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n into odd parts not greater than sqrt(n).",
+  "id": "A368868",
+  "mentions": [
+    "A000009",
+    "A097356"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

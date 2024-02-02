@@ -1,0 +1,29 @@
+{
+  "description": "The number of bi-unitary divisors of n that are exponentially odd numbers (A268335).",
+  "id": "A368977",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A005117",
+    "A055076",
+    "A062503",
+    "A222266",
+    "A268335",
+    "A286324",
+    "A322483",
+    "A363825",
+    "A368978",
+    "A368979"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

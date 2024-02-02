@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * (1 + Sum_{k=0..n} binomial(k+3,4) / k!).",
+  "id": "A368764",
+  "mentions": [
+    "A033540",
+    "A368575",
+    "A368762",
+    "A368763",
+    "A368768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

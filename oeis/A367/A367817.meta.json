@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in a shortest sequence of Fibonacci numbers that sum to n, allowing Fibonacci numbers with negative indices.",
+  "id": "A367817",
+  "mentions": [
+    "A000045",
+    "A001076",
+    "A007895",
+    "A039834"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

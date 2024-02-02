@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, a(n) and a(n+1) are congruent modulo the n-th prime number, and the least value not yet in the sequence appears as soon as possible.",
+  "id": "A367290",
+  "mentions": [
+    "A364054",
+    "A367288",
+    "A367291"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(3rd elementary symmetric function of 2,3,...,n+3)/ 2nd elementary symmetric function of (2,3,...,n+3) ).",
+  "description": "a(n) = floor((3rd elementary symmetric function of 2,3,...,n+3) / (2nd elementary symmetric function of 2,3,...,n+3) ).",
   "id": "A024180",
   "mentions": [
     "A001701",

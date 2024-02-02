@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{i=1..n, j=1..n} (i^2 - i*j + j^2).",
+  "id": "A367543",
+  "mentions": [
+    "A079478",
+    "A203312",
+    "A324403",
+    "A324426",
+    "A367542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The number of ways of tiling the n X n grid up to 90-degree rotation by a tile that is not fixed under 180-degree rotation.",
+  "id": "A367532",
+  "mentions": [
+    "A047937",
+    "A367525",
+    "A367529",
+    "A367531"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

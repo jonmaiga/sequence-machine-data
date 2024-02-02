@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers q of primitive Pythagorean triangles such that perimeters are Averages of twin prime pairs, p+1=q(prime), a=q^2-p^2, c=q^2+p^2, b=2*p*q, ar=a*b/2; s=a+b+c, s-+1 are primes.",
+  "description": "Prime numbers q of primitive Pythagorean triangles such that perimeters are averages of twin prime pairs, p+1=q(prime), a=q^2-p^2, c=q^2+p^2, b=2*p*q, ar=a*b/2; s=a+b+c, s-+1 are primes.",
   "id": "A155187",
   "mentions": [
     "A001844",

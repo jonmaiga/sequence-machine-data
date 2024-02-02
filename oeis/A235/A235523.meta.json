@@ -1,5 +1,5 @@
 {
-  "description": "Number of (3+1)X(n+1) 0..3 arrays with 2X2 subblock sum of squares lexicographically nondecreasing rowwise and nonincreasing columnwise",
+  "description": "Number of (3+1) X (n+1) 0..3 arrays with 2 X 2 subblock sum of squares lexicographically nondecreasing rowwise and nonincreasing columnwise.",
   "id": "A235523",
   "mentions": [
     "A235521"

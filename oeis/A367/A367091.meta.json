@@ -1,0 +1,17 @@
+{
+  "description": "Length of runs of consecutive numbers in A367090, i.e., size of gaps in the set of sums of distinct powers of 3 and distinct powers of 4.",
+  "id": "A367091",
+  "mentions": [
+    "A000695",
+    "A005836",
+    "A367090"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

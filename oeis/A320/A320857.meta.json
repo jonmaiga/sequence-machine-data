@@ -2,6 +2,7 @@
   "description": "a(n) = Pi(8,5)(n) + Pi(8,7)(n) - Pi(8,1)(n) - Pi(8,3)(n) where Pi(a,b)(x) denotes the number of primes in the arithmetic progression a*k + b less than or equal to x.",
   "id": "A320857",
   "mentions": [
+    "A007350",
     "A038698",
     "A066520",
     "A071838",

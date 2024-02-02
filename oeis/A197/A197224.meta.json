@@ -1,5 +1,5 @@
 {
-  "description": "Power of 2 which is the period length of the decimal fraction 1/A072982(n).",
+  "description": "Exponent in the power of 2 which is the period of the decimal fraction 1/A072982(n).",
   "id": "A197224",
   "mentions": [
     "A072982",

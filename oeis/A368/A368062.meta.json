@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k = A257850(k) + A257297(k).",
+  "id": "A368062",
+  "mentions": [
+    "A257297",
+    "A257850"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

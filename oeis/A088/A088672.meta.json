@@ -2,8 +2,10 @@
   "description": "Number of n X n (0,1)-matrices with zero permanent.",
   "id": "A088672",
   "mentions": [
+    "A002416",
     "A089479",
-    "A089482"
+    "A089482",
+    "A227414"
   ],
   "tags": [
     "formulas",
@@ -12,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 6,
+    "offset": 0,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

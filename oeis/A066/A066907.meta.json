@@ -2,6 +2,7 @@
   "description": "Number of elements in GL(2,Z_n) x with x^2 == I mod n where I is the identity matrix.",
   "id": "A066907",
   "mentions": [
+    "A002117",
     "A060594",
     "A066947"
   ],

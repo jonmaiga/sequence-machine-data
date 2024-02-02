@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4*Sum_{i=1..n-1} Sum_{j=1..m} floor((j*i)/n)) - (m-1)*m*(n-1) where m is floor(sqrt(n)).",
+  "description": "a(n) = 4*Sum_{i=1..n-1} Sum_{j=1..m} floor((j*i)/n) - (m-1)*m*(n-1) where m is floor(sqrt(n)).",
   "id": "A281981",
   "mentions": [],
   "tags": [

@@ -2,11 +2,13 @@
   "description": "Primes followed by a larger-than-average prime gap.",
   "id": "A082885",
   "mentions": [
+    "A001113",
     "A002386",
     "A082862",
     "A082884"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

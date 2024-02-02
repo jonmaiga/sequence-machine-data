@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of steps required for the n-th odd prime number to reach 3 when iterating the following hailstone map: If P+1 == 0 (mod 6), then the next number = smallest prime >= P + (P-1)/2; otherwise the next number = largest prime <= (P+1)/2.",
+  "id": "A365048",
+  "mentions": [
+    "A007528",
+    "A065091"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

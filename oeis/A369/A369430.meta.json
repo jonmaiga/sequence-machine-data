@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number whose square is divisible by the n-th powerful number.",
+  "id": "A369430",
+  "mentions": [
+    "A001620",
+    "A001694",
+    "A002117",
+    "A019554",
+    "A078434",
+    "A369429"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

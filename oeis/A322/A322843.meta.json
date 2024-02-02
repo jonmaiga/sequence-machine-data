@@ -1,7 +1,9 @@
 {
   "description": "Composites k such that the concatenation of the prime factors of k, with multiplicity, in some order is divisible by k.",
   "id": "A322843",
-  "mentions": [],
+  "mentions": [
+    "A002808"
+  ],
   "tags": [
     "base",
     "nonn"

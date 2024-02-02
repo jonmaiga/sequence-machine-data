@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=T(n,n)+T(n+1,n)+...+T(2n-1,n)=sum over a period of n-th column of array T given by A049816.",
+  "description": "a(n) = T(n,n) + T(n+1,n) + ... + T(2n-1,n) = sum over a period of n-th column of array T given by A049816.",
   "id": "A049826",
   "mentions": [
     "A049816",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
-    "source": "joeis"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

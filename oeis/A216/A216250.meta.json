@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=((n+k)^2-4*k+3-2*(-1)^n-(-1)^k-(n+k-4)*(-1)^(n+k))/2-3, if k=1 and (n mod 2)=1; T(n,k)=((n+k)^2-4*k+3-2*(-1)^n-(-1)^k-(n+k-4)*(-1)^(n+k))/2, else. Table T(n,k) read by antidiagonals; n , k > 0.",
+  "description": "T(n,k) = ((n+k)^2-4*k+3-2*(-1)^n-(-1)^k-(n+k-4)*(-1)^(n+k))/2-3, if k=1 and (n mod 2)=1; T(n,k) = ((n+k)^2-4*k+3-2*(-1)^n-(-1)^k-(n+k-4)*(-1)^(n+k))/2, else. Table T(n,k) read by antidiagonals; n, k > 0.",
   "id": "A216250",
   "mentions": [
     "A000384",

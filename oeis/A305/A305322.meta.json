@@ -2,8 +2,11 @@
   "description": "Repdigit numbers that are divisible by 3.",
   "id": "A305322",
   "mentions": [
+    "A002279",
     "A008585",
-    "A010785"
+    "A010785",
+    "A083118",
+    "A366596"
   ],
   "tags": [
     "base",

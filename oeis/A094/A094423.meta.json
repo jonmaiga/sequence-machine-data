@@ -1,17 +1,19 @@
 {
-  "description": "A045873(n)^2.",
+  "description": "a(n) = A045873(n)^2.",
   "id": "A094423",
   "mentions": [
     "A045873",
+    "A066771",
     "A250102"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Table c(n,k) of the numerators of coefficients [x^k] P(n,x) of the polynomials P(n,x) of A129891.",
+  "description": "Triangle c(n,k) of the numerators of coefficients [x^k] P(n,x) of the polynomials P(n,x) of A129891.",
   "id": "A140749",
   "mentions": [
     "A048594",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 69,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

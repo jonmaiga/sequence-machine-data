@@ -2,9 +2,12 @@
   "description": "a(n) = 10*a(n-1) - 4*a(n-2), with a(0)=0, a(1)=1.",
   "id": "A190986",
   "mentions": [
+    "A004254",
+    "A049310",
     "A190958"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

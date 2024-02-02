@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n into squarefree parts not greater than sqrt(n).",
+  "id": "A369217",
+  "mentions": [
+    "A073576",
+    "A097356"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

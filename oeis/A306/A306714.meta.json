@@ -2,9 +2,14 @@
   "description": "Permanent of the circulant matrix whose first row is given by the binary expansion of n.",
   "id": "A306714",
   "mentions": [
+    "A000051",
     "A000079",
     "A000142",
+    "A000225",
+    "A007283",
+    "A007395",
     "A008305",
+    "A040000",
     "A113473",
     "A126646",
     "A306595"

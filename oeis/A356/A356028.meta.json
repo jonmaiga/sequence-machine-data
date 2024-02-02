@@ -12,12 +12,13 @@
   "tags": [
     "base",
     "easy",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
     "size": 120,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

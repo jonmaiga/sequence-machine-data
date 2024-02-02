@@ -1,5 +1,5 @@
 {
-  "description": "n-th prime + n-th nonprime.",
+  "description": "a(n) = n-th prime + n-th nonprime.",
   "id": "A022797",
   "mentions": [
     "A000040",

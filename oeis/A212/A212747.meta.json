@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y,z) with all terms in {0,...,n} and 2w=floor((x+y+z)/2)).",
+  "description": "Number of (w,x,y,z) with all terms in {0,...,n} and 2w=floor((x+y+z)/2).",
   "id": "A212747",
   "mentions": [
     "A211795"

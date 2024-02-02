@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = denominator of b(n), where sum{m>=0} b(m)*x^m/m! = x/(sum(m>=1} H(m) x^m/ m!) = exp(-x)*x/(sum{m>=1} x^m (-1)^(m+1)/(m!*m)). (H(m) = sum{k=1 to m} 1/k.).",
+  "description": "a(n) = denominator of b(n), where sum{m>=0} b(m)*x^m/m! = x/(sum{m>=1} H(m) x^m/ m!) = exp(-x)*x/(sum{m>=1} x^m (-1)^(m+1)/(m!*m)). (H(m) = sum{k=1 to m} 1/k.).",
   "id": "A128062",
   "mentions": [
     "A128061"

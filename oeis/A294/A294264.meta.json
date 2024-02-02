@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (5/128)*n^4*(n mod 2) + ((-5/128)*n^4*(n mod 2) - 26) mod n) + n^3 (n > 0).",
+  "description": "a(n) = (5/128)*n^4*(n mod 2) + (((-5/128)*n^4*(n mod 2) - 26) mod n) + n^3 (n > 0).",
   "id": "A294264",
   "mentions": [],
   "tags": [

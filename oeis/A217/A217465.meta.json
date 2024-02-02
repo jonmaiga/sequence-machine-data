@@ -1,5 +1,5 @@
 {
-  "description": "Composite integers n such that 2^n == 2 (mod n*(n+1)).",
+  "description": "Composite integers k such that 2^k == 2 (mod k*(k+1)).",
   "id": "A217465",
   "mentions": [
     "A019320",

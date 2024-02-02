@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = 1 + x*(5*A(x)^2 - A(-x)^2)/4.",
+  "id": "A369083",
+  "mentions": [
+    "A263133",
+    "A368627",
+    "A368629",
+    "A368633",
+    "A368634",
+    "A368635"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4^n + 7 is prime.",
+  "description": "Numbers k such that 4^k + 7 is prime.",
   "id": "A217349",
   "mentions": [
     "A057195",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
+    "size": 54,
     "source": "oeis-entry"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Consider Pascal's triangle A007318; a(n) = product of terms at +45 degrees slope with the horizontal.",
   "id": "A073617",
   "mentions": [
+    "A000045",
     "A000984",
     "A007318",
     "A007685",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 22,
     "source": "joeis"
   }
 }

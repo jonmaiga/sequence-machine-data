@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1 - DawsonF(1/2).",
+  "id": "A367549",
+  "mentions": [
+    "A019704",
+    "A092042",
+    "A367563"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

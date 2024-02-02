@@ -1,0 +1,45 @@
+{
+  "description": "Least positive integer with n more semiprime divisors than semi-sums of prime indices.",
+  "id": "A367093",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001248",
+    "A001358",
+    "A006881",
+    "A008967",
+    "A056170",
+    "A056239",
+    "A065119",
+    "A076290",
+    "A079275",
+    "A086971",
+    "A112798",
+    "A117855",
+    "A220264",
+    "A299701",
+    "A304792",
+    "A304793",
+    "A365541",
+    "A365920",
+    "A366738",
+    "A366739",
+    "A366740",
+    "A366753",
+    "A367095",
+    "A367096",
+    "A367097",
+    "A367105"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

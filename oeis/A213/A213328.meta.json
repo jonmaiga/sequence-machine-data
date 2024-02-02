@@ -1,5 +1,5 @@
 {
-  "description": "Analog of Fermat quotients: a(n) = ((round((phi_3)^p)-3)/p, where phi_3 = (3+sqrt(13))/2 and p = prime(n).",
+  "description": "Analog of Fermat quotients: a(n) = (round((phi_3)^p)-3)/p, where phi_3 = (3+sqrt(13))/2 and p = prime(n).",
   "id": "A213328",
   "mentions": [
     "A007663",

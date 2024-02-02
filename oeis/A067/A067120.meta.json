@@ -1,5 +1,5 @@
 {
-  "description": "a(n) =floor[X/Y] where X= concatenation of first n ODD numbers in increasing order and Y = n-th triangular number.",
+  "description": "a(n) = floor(X/Y) where X = concatenation of first n odd numbers in increasing order and Y = n-th triangular number.",
   "id": "A067120",
   "mentions": [
     "A067112",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of chiral pairs of polyominoes composed of n triangular cells of the hyperbolic regular tiling with Schläfli symbol {3,oo}.",
+  "id": "A369314",
+  "mentions": [
+    "A000207",
+    "A001683",
+    "A208355"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

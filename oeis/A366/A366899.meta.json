@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime factors of n*2^n - 1, counted with multiplicity.",
+  "id": "A366899",
+  "mentions": [
+    "A001222",
+    "A003261",
+    "A085723",
+    "A366898",
+    "A367006"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Number of n-element sets of singletons or pairs of distinct elements of {1..n} with union {1..n}, or loop-graphs covering n vertices with n edges, such that it is not possible to choose a different element from each.",
+  "id": "A368730",
+  "mentions": [
+    "A000085",
+    "A000088",
+    "A000272",
+    "A000666",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A014068",
+    "A062740",
+    "A100861",
+    "A111924",
+    "A116508",
+    "A133686",
+    "A322661",
+    "A333331",
+    "A367863",
+    "A367867",
+    "A367868",
+    "A367869",
+    "A367901",
+    "A367903",
+    "A367907",
+    "A368532",
+    "A368596",
+    "A368597",
+    "A368600"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(2) = 7, for n >= 3, a(n) = smallest prime such that a(n) mod a(n-1) = a(n-2).",
+  "description": "a(1) = 1, a(2) = 7, for n >= 3, a(n) = smallest prime > a(n-1) such that a(n) mod a(n-1) = a(n-2).",
   "id": "A175208",
   "mentions": [
     "A175093",

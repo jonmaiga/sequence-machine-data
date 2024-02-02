@@ -1,5 +1,5 @@
 {
-  "description": "6 * binomial(2*n,n-1) + binomial(2*n-1,n).",
+  "description": "a(n) = 6 * binomial(2*n,n-1) + binomial(2*n-1,n).",
   "id": "A185080",
   "mentions": [
     "A007318",

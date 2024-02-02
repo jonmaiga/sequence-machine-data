@@ -1,7 +1,8 @@
 {
-  "description": "Prime numbers of the form 3^k - 26.",
+  "description": "Primes of the form 3^k - 26.",
   "id": "A289725",
   "mentions": [
+    "A000040",
     "A219045"
   ],
   "tags": [

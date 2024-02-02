@@ -1,0 +1,20 @@
+{
+  "description": "Exponential of Mangoldt function M(n) applied to primorial base exp-function: a(n) = A014963(A276086(n)).",
+  "id": "A369010",
+  "mentions": [
+    "A002110",
+    "A014963",
+    "A060735",
+    "A276086",
+    "A368900"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

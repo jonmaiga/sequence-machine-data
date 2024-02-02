@@ -1,0 +1,18 @@
+{
+  "description": "Number of beta-stable isotopes of the n-th element.",
+  "id": "A368859",
+  "mentions": [
+    "A179301",
+    "A368860"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

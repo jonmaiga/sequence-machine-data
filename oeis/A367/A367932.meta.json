@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number k such that k*n is an exponentially evil number (A262675).",
+  "id": "A367932",
+  "mentions": [
+    "A001969",
+    "A262675",
+    "A365298",
+    "A365685",
+    "A367931",
+    "A367934"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

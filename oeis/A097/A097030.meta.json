@@ -1,5 +1,5 @@
 {
-  "description": "Numbers in the cycle-attractors of length=14 if the function f(x)=A063919(x) is iterated; f(x) is the sum of unitary proper divisors.",
+  "description": "Numbers in the cycle-attractors of length=14 of the function f(x)=A063919(x).",
   "id": "A097030",
   "mentions": [
     "A002827",

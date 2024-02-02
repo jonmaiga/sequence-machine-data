@@ -1,5 +1,5 @@
 {
-  "description": "Arcsinh(arctan(x)^2)) = 2/2!*x^2 - 16/4!*x^4 + 248/6!*x^6 - 3456/8!*x^8 + ...",
+  "description": "Arcsinh(arctan(x)^2) = 2/2!*x^2 - 16/4!*x^4 + 248/6!*x^6 - 3456/8!*x^8 + ...",
   "id": "A012462",
   "mentions": [],
   "tags": [

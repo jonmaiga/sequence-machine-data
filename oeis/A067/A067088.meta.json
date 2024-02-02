@@ -1,5 +1,5 @@
 {
-  "description": "Floor[X/Y] where X = concatenation of (n+1), (n+2), ...up to 2n and Y = concatenation of 1,2,3,4,... up to n.",
+  "description": "Floor(X/Y) where X = concatenation of (n+1), (n+2), ...up to 2n and Y = concatenation of 1,2,3,4,... up to n.",
   "id": "A067088",
   "mentions": [],
   "tags": [
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

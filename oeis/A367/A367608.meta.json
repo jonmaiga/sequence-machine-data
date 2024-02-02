@@ -1,0 +1,22 @@
+{
+  "description": "Comma-number associated with A367606(n), but written in base 10, or -1 if A367606(n) = -1.",
+  "id": "A367608",
+  "mentions": [
+    "A121085",
+    "A367338",
+    "A367339",
+    "A367355",
+    "A367356",
+    "A367606",
+    "A367609"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

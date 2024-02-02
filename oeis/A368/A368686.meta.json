@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{j=0..n, k=0..n} (j + k + n).",
+  "id": "A368686",
+  "mentions": [
+    "A079478",
+    "A306594",
+    "A324444",
+    "A368622",
+    "A368685"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

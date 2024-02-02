@@ -2,7 +2,8 @@
   "description": "Partial sums of (1/5)*floor(6^n/7).",
   "id": "A178719",
   "mentions": [
-    "A033116"
+    "A033116",
+    "A368296"
   ],
   "tags": [
     "formulas",

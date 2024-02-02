@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose difference between the largest and smallest digits is equal to 5.",
+  "id": "A366962",
+  "mentions": [
+    "A010785",
+    "A037904",
+    "A366958",
+    "A366959",
+    "A366960",
+    "A366961",
+    "A366963",
+    "A366964",
+    "A366965",
+    "A366966"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

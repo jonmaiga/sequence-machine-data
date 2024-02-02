@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonnegative sequences of integers S with the properties that (1) sum(S) + length(S) = n and (2) there exists a nonnegative sequence whose Euler transform begins with S starting at index 1.",
+  "id": "A367205",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000035",
+    "A000217",
+    "A079978",
+    "A142150",
+    "A228369"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

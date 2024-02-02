@@ -1,0 +1,24 @@
+{
+  "description": "Bacher numbers: number of nonnegative representations of n = w*x+y*z with max(w,x) < min(y,z).",
+  "id": "A368207",
+  "mentions": [
+    "A000203",
+    "A038548",
+    "A066839",
+    "A071561",
+    "A368276",
+    "A368341",
+    "A368457",
+    "A368458",
+    "A368580"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

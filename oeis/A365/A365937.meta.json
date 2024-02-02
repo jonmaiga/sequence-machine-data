@@ -1,10 +1,11 @@
 {
-  "description": "Decimal expansion of of the real part of (-sqrt(2))^^8, where ^^ indicates tetration or hyper-4 (e.g., 2^^4 = 2^(2^(2^2)).",
+  "description": "Decimal expansion of the real part of (-sqrt(2))^^8, where ^^ indicates tetration or hyper-4 (e.g., 2^^4 = 2^(2^(2^2))).",
   "id": "A365937",
   "mentions": [
     "A002193",
     "A198094",
     "A359187",
+    "A364711",
     "A364806"
   ],
   "tags": [

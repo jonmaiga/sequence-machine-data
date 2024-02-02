@@ -2,6 +2,8 @@
   "description": "Primes of the form 2^k + 17.",
   "id": "A156973",
   "mentions": [
+    "A000040",
+    "A057200",
     "A057733",
     "A104066",
     "A104067",
@@ -9,6 +11,7 @@
     "A156940"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

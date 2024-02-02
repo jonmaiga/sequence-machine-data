@@ -2,15 +2,18 @@
   "description": "Sequence generated from A089080.",
   "id": "A208147",
   "mentions": [
+    "A000142",
+    "A067281",
     "A089080"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

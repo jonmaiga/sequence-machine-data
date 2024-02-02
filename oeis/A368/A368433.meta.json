@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of reduced instances in the stable marriage problem of order n that generate the maximum possible number of stable matchings.",
+  "id": "A368433",
+  "mentions": [
+    "A010790",
+    "A344669",
+    "A351409",
+    "A351430",
+    "A368419"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

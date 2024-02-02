@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = [x^n] ( S(x/(1 + x) )^n, where S(x) = (1 - x - sqrt(1 - 6*x + x^2))/(2*x) is the o.g.f. of the large Schröder numbers A006318.",
+  "description": "a(n) = [x^n] ( S(x/(1 + x)) )^n, where S(x) = (1 - x - sqrt(1 - 6*x + x^2))/(2*x) is the o.g.f. of the large Schröder numbers A006318.",
   "id": "A333473",
   "mentions": [
     "A000108",

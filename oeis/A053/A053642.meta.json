@@ -1,19 +1,21 @@
 {
-  "description": "Rotate one binary digit to the left, calculate, then rotate one binary digit to the right.",
+  "description": "Rotate n one binary digit to the left, drop leading zeros, then rotate one binary digit to the right.",
   "id": "A053642",
   "mentions": [
     "A004760",
     "A006257",
-    "A038572"
+    "A038572",
+    "A053641"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

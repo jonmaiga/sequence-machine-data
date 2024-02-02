@@ -1,11 +1,13 @@
 {
-  "description": "n-th prime minus n, p(n)-n, repeated (p(n)-n) times.",
+  "description": "prime(n)-n, repeated (prime(n)-n) times.",
   "id": "A115733",
   "mentions": [
     "A002024",
+    "A014689",
     "A115732"
   ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {

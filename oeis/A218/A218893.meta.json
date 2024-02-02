@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random 0..1 nX4 array",
+  "description": "Number of n X 4 arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random 0..1 n X 4 array.",
   "id": "A218893",
   "mentions": [
     "A218897"

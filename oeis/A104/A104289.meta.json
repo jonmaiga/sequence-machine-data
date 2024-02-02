@@ -1,10 +1,13 @@
 {
-  "description": "Number of primes between n*p(n) and n*p(n+1).",
+  "description": "Number of primes between n*prime(n) and n*prime(n+1).",
   "id": "A104289",
   "mentions": [
+    "A000040",
+    "A000720",
     "A102820"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

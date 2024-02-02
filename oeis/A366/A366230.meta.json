@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. A(x,y) satisfying A(x,y) = 1 + x*A(x,y) * exp(x*y * A(x,y)), as a triangle read by rows.",
+  "id": "A366230",
+  "mentions": [
+    "A161633",
+    "A366232",
+    "A366233",
+    "A366234",
+    "A366235"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

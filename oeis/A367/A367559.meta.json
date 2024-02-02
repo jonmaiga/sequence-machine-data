@@ -1,0 +1,29 @@
+{
+  "description": "Square array T(n, k) = 2^k - n, read by ascending antidiagonals.",
+  "id": "A367559",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000295",
+    "A000325",
+    "A000918",
+    "A002262",
+    "A025581",
+    "A036563",
+    "A084634",
+    "A168616",
+    "A185346",
+    "A246168"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

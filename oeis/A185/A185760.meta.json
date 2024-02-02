@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) binary arrays with no 2X2 subblock trace equal to any horizontal or vertical neighbor 2X2 subblock trace",
+  "description": "Number of (n+1) X (n+1) binary arrays with no 2 X 2 subblock trace equal to any horizontal or vertical neighbor 2 X 2 subblock trace.",
   "id": "A185760",
   "mentions": [
     "A185769"

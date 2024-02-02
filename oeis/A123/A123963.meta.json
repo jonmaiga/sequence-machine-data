@@ -4,11 +4,12 @@
   "mentions": [],
   "tags": [
     "formulas",
-    "sign"
+    "sign",
+    "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

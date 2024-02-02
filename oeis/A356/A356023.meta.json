@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{j>=1) 2^^j/2^^(j+1) where ^^ indicates tetration.",
+  "description": "Decimal expansion of Sum_{j>=1} 2^^j/2^^(j+1) where ^^ indicates tetration.",
   "id": "A356023",
   "mentions": [
     "A356022"

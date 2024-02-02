@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=sum(k=0..n, C(n,floor(k/2))*(-3)^(n-k)}.",
+  "description": "a(n) = Sum_{k=0..n} C(n,floor(k/2))*(-3)^(n-k).",
   "id": "A127362",
   "mentions": [
     "A000108"

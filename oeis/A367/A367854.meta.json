@@ -1,0 +1,16 @@
+{
+  "description": "Indices at which record high values occur in A367821.",
+  "id": "A367854",
+  "mentions": [
+    "A367821"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

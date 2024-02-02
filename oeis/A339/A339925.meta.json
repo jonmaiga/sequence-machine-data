@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 105*zeta(3)/Pi^4.",
   "id": "A339925",
   "mentions": [
+    "A001615",
     "A002117",
     "A005597",
     "A082695"

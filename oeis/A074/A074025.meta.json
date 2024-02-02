@@ -3,13 +3,14 @@
   "id": "A074025",
   "mentions": [],
   "tags": [
+    "bref",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

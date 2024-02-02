@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges in a regular 2n-gon when all vertices are connect by straight lines except for the n lines joining diametrically opposite vertices.",
+  "id": "A368815",
+  "mentions": [
+    "A135565",
+    "A368757",
+    "A368813",
+    "A368814",
+    "A368816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Coordination sequence for A_5 lattice.",
   "id": "A008385",
-  "mentions": [],
+  "mentions": [
+    "A008527"
+  ],
   "tags": [
     "easy",
     "formulas",

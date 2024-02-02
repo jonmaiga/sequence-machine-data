@@ -1,0 +1,21 @@
+{
+  "description": "Results of the strip bijection as described in A307110 with subsequent reassignment of the pair connections at all locations, in which 4 points of a unit square in one grid are mapped to a unit square in the other (rotated by Pi/4) grid in such a way that the maximum distance of the two points in the 4 assigned pairs is minimized.",
+  "id": "A367150",
+  "mentions": [
+    "A305575",
+    "A305576",
+    "A307110",
+    "A307731",
+    "A367146",
+    "A367895",
+    "A367896"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

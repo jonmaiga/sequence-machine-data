@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number such that twice the number of divisors of (a(n)-n)/3 gives the n-th term in the first differences of the sequence produced by the Flavius-Josephus sieve, A000960.",
+  "description": "a(n) is the smallest number such that twice the number of divisors of (a(n)-n)/3 gives the n-th term in the first differences of the sequence produced by the Flavius Josephus sieve, A000960.",
   "id": "A130826",
   "mentions": [
     "A000960",

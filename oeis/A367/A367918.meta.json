@@ -1,0 +1,17 @@
+{
+  "description": "Numbers formed by concatenating n with the distinct prime factors of n, left to right, smallest factors to largest, with a(1) = 10.",
+  "id": "A367918",
+  "mentions": [
+    "A027748",
+    "A037274"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

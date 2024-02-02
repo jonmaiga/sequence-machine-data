@@ -2,6 +2,7 @@
   "description": "Maximal possible number of states in a minimal deterministic automaton, equivalent to an n-state nondeterministic automaton over 1-symbol alphabet.",
   "id": "A157656",
   "mentions": [
+    "A000793",
     "A059100"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n = Sum_{j>=1} c(j) where c(0) = n, c(j) = floor((c(j-1)/10^k)*(c(j-1) mod 10^k) for j>0, and k is half the number of digits of n, rounded up if the number of digits of n is odd.",
+  "description": "Numbers n such that n = Sum_{j>=1} c(j) where c(0) = n, c(j) = floor(c(j-1)/10^k)*(c(j-1) mod 10^k) for j>0, and k is half the number of digits of n, rounded up if the number of digits of n is odd.",
   "id": "A258584",
   "mentions": [
     "A003001",

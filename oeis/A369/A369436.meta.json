@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2-Motzkin meanders with catastrophes of length n.",
+  "id": "A369436",
+  "mentions": [
+    "A054391",
+    "A274115"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

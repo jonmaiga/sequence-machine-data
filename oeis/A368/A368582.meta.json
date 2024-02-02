@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor((sigma(n) + 1) / 2).",
+  "id": "A368582",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A000396",
+    "A088580",
+    "A317306",
+    "A368207"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

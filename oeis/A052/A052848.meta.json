@@ -2,6 +2,7 @@
   "description": "Number of ordered set partitions with a designated element in each block and no block containing less than two elements.",
   "id": "A052848",
   "mentions": [
+    "A000296",
     "A006153"
   ],
   "tags": [

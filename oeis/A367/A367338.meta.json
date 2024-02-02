@@ -1,0 +1,28 @@
+{
+  "description": "Comma-successor to n: second term of commas sequence if initial term is n, or -1 if there is no second term.",
+  "id": "A367338",
+  "mentions": [
+    "A042948",
+    "A042964",
+    "A121803",
+    "A121805",
+    "A139284",
+    "A366492",
+    "A367312",
+    "A367337",
+    "A367339",
+    "A367340",
+    "A367341",
+    "A367346",
+    "A367612"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

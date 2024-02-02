@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct characteristic polynomials for 3 X 3 matrices with entries from {0, 1, ..., n}.",
+  "id": "A366551",
+  "mentions": [
+    "A016777",
+    "A227776",
+    "A272659",
+    "A366158",
+    "A366448"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

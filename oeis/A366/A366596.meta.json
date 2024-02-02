@@ -2,19 +2,22 @@
   "description": "Repdigit numbers that are divisible by 7.",
   "id": "A366596",
   "mentions": [
+    "A002279",
     "A002281",
     "A008589",
     "A010785",
+    "A083118",
     "A305322"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

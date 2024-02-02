@@ -1,7 +1,9 @@
 {
   "description": "Numbers of the form k^2 - k - 1 whose digit sum is also a number of the form k^2 - k - 1.",
   "id": "A117746",
-  "mentions": [],
+  "mentions": [
+    "A028387"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

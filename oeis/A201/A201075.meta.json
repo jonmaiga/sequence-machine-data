@@ -1,15 +1,21 @@
 {
-  "description": "Irregular triangle read by rows: number of Schroeder paths of length n and weighted area k.",
+  "description": "Irregular triangle read by rows: number of Schroeder paths of length n and weighted area n^2-k.",
   "id": "A201075",
-  "mentions": [],
+  "mentions": [
+    "A129176",
+    "A129179",
+    "A201076",
+    "A201079",
+    "A201080",
+    "A201159"
+  ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 78,
     "source": "oeis-entry"
   }
 }

@@ -1,7 +1,9 @@
 {
   "description": "Number of commutative discrete aggregation functions defined on the finite chain L_n={0,1,...,n-1,n}.",
   "id": "A366447",
-  "mentions": [],
+  "mentions": [
+    "A074962"
+  ],
   "tags": [
     "formulas",
     "nonn"

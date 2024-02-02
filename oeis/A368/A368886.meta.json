@@ -1,0 +1,20 @@
+{
+  "description": "The largest unitary divisor of n without an exponent 2 in its prime factorization (A337050).",
+  "id": "A368886",
+  "mentions": [
+    "A062503",
+    "A337050",
+    "A368884"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

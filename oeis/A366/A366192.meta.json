@@ -2,14 +2,19 @@
   "description": "Pairs (i, j) of noncoprime positive integers sorted first by i + j then by i.",
   "id": "A366192",
   "mentions": [
+    "A016035",
+    "A290600",
     "A352911"
   ],
   "tags": [
-    "nonn"
+    "easy",
+    "look",
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,
     "size": 82,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

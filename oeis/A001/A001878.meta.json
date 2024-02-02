@@ -1,12 +1,15 @@
 {
-  "description": "Number of divisors of n of form 5k+3; a(0) = 0.",
+  "description": "Number of divisors of n of the form 5k+3; a(0) = 0.",
   "id": "A001878",
   "mentions": [
+    "A001620",
     "A001876",
     "A001877",
-    "A001899"
+    "A001899",
+    "A256848"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

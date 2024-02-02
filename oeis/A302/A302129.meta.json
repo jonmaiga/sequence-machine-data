@@ -10,15 +10,17 @@
     "A301481",
     "A301920",
     "A301924",
-    "A306021"
+    "A306019",
+    "A306021",
+    "A331508"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

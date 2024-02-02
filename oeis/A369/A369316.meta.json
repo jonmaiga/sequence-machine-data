@@ -1,0 +1,17 @@
+{
+  "description": "Number of Dyck bridges with resets to zero from (0,0) to (n,0).",
+  "id": "A369316",
+  "mentions": [
+    "A224747"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

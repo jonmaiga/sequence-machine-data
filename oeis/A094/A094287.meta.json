@@ -1,15 +1,17 @@
 {
   "description": "Number of (s(0), s(1), ..., s(n)) such that 0 < s(i) < 7 and |s(i) - s(i-1)| <= 1 for i = 1,2,...,n, s(0) = 1, s(n) = 1.",
   "id": "A094287",
-  "mentions": [],
+  "mentions": [
+    "A001006"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 28,
+    "offset": 0,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

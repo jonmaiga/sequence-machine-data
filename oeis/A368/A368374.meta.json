@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = smallest k such that AM(k) - GM(k) >= n, where AM(k) and GM(k) are the arithmetic and geometric means of [1,...,k].",
+  "id": "A368374",
+  "mentions": [
+    "A068996",
+    "A368366"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

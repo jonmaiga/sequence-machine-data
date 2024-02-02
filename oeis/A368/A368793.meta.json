@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (3*n-2)!!! * Sum_{k=0..n} k/(3*k-2)!!!.",
+  "id": "A368793",
+  "mentions": [
+    "A007559",
+    "A368792"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

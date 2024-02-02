@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{j=1..n} Sum_{i=1..n} (j mod i).",
+  "id": "A367379",
+  "mentions": [
+    "A000292",
+    "A002411",
+    "A049766",
+    "A072481",
+    "A175254"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

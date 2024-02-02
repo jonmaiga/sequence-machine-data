@@ -2,10 +2,12 @@
   "description": "Number of Baxter permutations: A001181/2.",
   "id": "A046996",
   "mentions": [
-    "A001181"
+    "A001181",
+    "A359363"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

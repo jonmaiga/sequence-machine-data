@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers k, such that d(k) <> Omega(k) + omega(k), where d = A000005, Omega = A001222 and omega = A001221.",
+  "description": "Positive integers k such that d(k) <> Omega(k) + omega(k), where d = A000005, Omega = A001222 and omega = A001221.",
   "id": "A102467",
   "mentions": [
     "A000005",

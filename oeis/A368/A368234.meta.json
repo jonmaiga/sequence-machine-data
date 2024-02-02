@@ -1,0 +1,18 @@
+{
+  "description": "Number of nondeterministic Dyck excursions of length 2*n.",
+  "id": "A368234",
+  "mentions": [
+    "A000244",
+    "A151281",
+    "A368164"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

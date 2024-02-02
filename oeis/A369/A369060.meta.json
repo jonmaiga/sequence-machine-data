@@ -1,0 +1,18 @@
+{
+  "description": "LCM-transform of Sycamore's D(3) variant of Doudna sequence (A356867).",
+  "id": "A369060",
+  "mentions": [
+    "A014963",
+    "A356867",
+    "A368900"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

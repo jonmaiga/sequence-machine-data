@@ -1,13 +1,17 @@
 {
-  "description": "Arises in counting intersections of line segments; exact definition not clear to me.",
+  "description": "Draw a line through every pair of points with coordinates (x, 1) and (x', 2) with x, x' in 1..n, and then count the number of intersection points above the line y = 2.",
   "id": "A092275",
-  "mentions": [],
+  "mentions": [
+    "A331755",
+    "A347750"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 8,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

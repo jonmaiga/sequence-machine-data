@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the maximum number of distinct tilings of a polyomino of size n using any combination of polyomino tiles of sizes 1 through n.",
+  "id": "A367173",
+  "mentions": [
+    "A000105",
+    "A367172",
+    "A367174"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

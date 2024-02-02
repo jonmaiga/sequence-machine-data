@@ -1,5 +1,5 @@
 {
-  "description": "Irregular table related to f[(a*x+b)/(c*x+d)]=c*x+d)^(2*n)*f[x], and f[x]=1/(x+1), f[x]=(a*x+b)/(c*x+d).",
+  "description": "Irregular table related to f[(a*x+b)/(c*x+d)]=(c*x+d)^(2*n)*f[x], and f[x]=1/(x+1), f[x]=(a*x+b)/(c*x+d).",
   "id": "A321044",
   "mentions": [],
   "tags": [

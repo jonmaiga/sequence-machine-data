@@ -1,13 +1,20 @@
 {
-  "description": "Numbers n such that 2^n + 9 is prime.",
+  "description": "Numbers k such that 2^k + 9 is prime.",
   "id": "A057196",
   "mentions": [
     "A019434",
     "A057195",
     "A057197",
+    "A057200",
+    "A057201",
+    "A057203",
+    "A057221",
     "A057732",
     "A059242",
+    "A094076",
     "A101223",
+    "A102633",
+    "A102634",
     "A104070"
   ],
   "tags": [

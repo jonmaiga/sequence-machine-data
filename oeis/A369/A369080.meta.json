@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations of [n] such that the element sum of each cycle is odd.",
+  "id": "A369080",
+  "mentions": [
+    "A000142",
+    "A369079"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "n^6 mod 31.",
+  "description": "a(n) = n^6 mod 31.",
   "id": "A070654",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

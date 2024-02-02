@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime of the form 5 followed by n copies of some digit k.",
+  "description": "Smallest prime of the form 5 followed by n copies of some k.",
   "id": "A112749",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x * (1 + x + x^2) * A(x^3)).",
+  "id": "A367748",
+  "mentions": [
+    "A367652",
+    "A367719",
+    "A367747",
+    "A367749",
+    "A367751"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

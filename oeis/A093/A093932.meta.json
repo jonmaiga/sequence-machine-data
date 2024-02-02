@@ -1,5 +1,5 @@
 {
-  "description": "For n > 0, a(n+1) is the least prime not already used such that abs(a(n+1)-a(n)/2n is prime.",
+  "description": "For n > 0, a(n+1) is the least prime not already used such that abs(a(n+1)-a(n))/2n is prime.",
   "id": "A093932",
   "mentions": [
     "A093931"

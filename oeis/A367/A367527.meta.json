@@ -1,0 +1,19 @@
+{
+  "description": "The number of ways of tiling the n X n grid up to diagonal and antidiagonal reflections by a tile that is fixed under diagonal reflection, but not antidiagonal reflection.",
+  "id": "A367527",
+  "mentions": [
+    "A302484",
+    "A367526",
+    "A367528",
+    "A367529"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

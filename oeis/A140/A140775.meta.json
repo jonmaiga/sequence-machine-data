@@ -1,9 +1,10 @@
 {
-  "description": "A number n is included if p + n/p is prime for every prime p that divides n.",
+  "description": "Numbers k > 1 such that p + k/p is prime for every prime p that divides k.",
   "id": "A140775",
   "mentions": [
     "A140776",
-    "A140777"
+    "A140777",
+    "A294925"
   ],
   "tags": [
     "nonn"

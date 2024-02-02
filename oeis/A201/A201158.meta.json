@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. exp(x)/(cos(x)-sin(x)).",
+  "description": "E.g.f. exp(x)/(cos(x) - sin(x)).",
   "id": "A201158",
   "mentions": [],
   "tags": [

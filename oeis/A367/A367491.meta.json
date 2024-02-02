@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically least increasing sequence, starting with 2, such that no two terms (possibly identical) sum to a Fibonacci number.",
+  "id": "A367491",
+  "mentions": [
+    "A005652",
+    "A005653"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

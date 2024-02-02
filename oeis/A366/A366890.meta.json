@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle, wherein row n lists in ascending order all numbers k whose arithmetic derivative k' is equal to the n-th primorial, A002110(n), and that have more than two prime factors with multiplicity. Rows of length zero are simply omitted, i.e., when A369000(n) = 0.",
+  "id": "A366890",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A002110",
+    "A003415",
+    "A004709",
+    "A036785",
+    "A116979",
+    "A327862",
+    "A327978",
+    "A328234",
+    "A328243",
+    "A351029",
+    "A368697",
+    "A368703",
+    "A369000",
+    "A369240"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

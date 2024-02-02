@@ -1,9 +1,9 @@
 {
-  "description": "Coefficients of polynomial recursion p(n,x) = (x-1)*(p(n-1,x) + (x+1)*p(n-2,x)), p(0,x) = 1, p(1,x) = x+1.",
+  "description": "Coefficients of polynomial recursion p(n,x) = (x-1)*(p(n-1,x) - (x+1)*p(n-2,x)), p(0,x) = 1, p(1,x) = x+1.",
   "id": "A136487",
   "mentions": [
     "A000045",
-    "A019590"
+    "A130706"
   ],
   "tags": [
     "formulas",

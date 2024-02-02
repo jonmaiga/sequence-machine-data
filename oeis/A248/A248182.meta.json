@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that r - sum{1/C(h,[h/2]}, h = 0..k} < 1/2^n, where r = sum{1/C(h,[h/2]}, h = 0..infinity}.",
+  "description": "Least k such that r - sum{1/C(h,[h/2]), h = 0..k} < 1/2^n, where r = sum{1/C(h,[h/2]), h = 0..infinity}.",
   "id": "A248182",
   "mentions": [
     "A248148",

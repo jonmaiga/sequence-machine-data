@@ -1,8 +1,14 @@
 {
-  "description": "Lodumo_4 of Fibonacci numbers .",
+  "description": "Lodumo_4 of Fibonacci numbers.",
   "id": "A160080",
   "mentions": [
     "A000045",
+    "A004767",
+    "A008586",
+    "A016825",
+    "A017533",
+    "A017581",
+    "A017629",
     "A079343"
   ],
   "tags": [
@@ -13,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -2,9 +2,13 @@
   "description": "Central terms of Pascal's triangle mod 10 (A008975).",
   "id": "A208279",
   "mentions": [
-    "A008975"
+    "A000984",
+    "A008904",
+    "A008975",
+    "A073095"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],

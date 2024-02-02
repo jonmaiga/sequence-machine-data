@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum[ i^3/(n-i+1), {i,1,n}].",
+  "description": "Numerator of Sum_{i=1..n} i^3/(n-i+1).",
   "id": "A119783",
   "mentions": [
     "A001008",

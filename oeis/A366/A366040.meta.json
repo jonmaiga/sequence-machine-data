@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of cells of dimension k in the tropical Schottky locus of genus n.",
+  "id": "A366040",
+  "mentions": [
+    "A220444"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

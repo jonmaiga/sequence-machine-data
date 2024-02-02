@@ -1,5 +1,5 @@
 {
-  "description": "Difference between (n-1)*(n-2)^3 and A003878(n).",
+  "description": "a(n) = (n-1)*(n-2)^3 - A003878(n-3), with a(1) = a(2) = 0 and a(3) = 2.",
   "id": "A075681",
   "mentions": [
     "A003878"

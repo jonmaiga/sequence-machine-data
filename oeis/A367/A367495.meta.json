@@ -1,0 +1,16 @@
+{
+  "description": "Number of up-down permutations p of [n] such that for all ii+1 differs from the number of elements p(k) between p(i+1) and p(i+2) for k>i+2.",
+  "id": "A367495",
+  "mentions": [
+    "A000111",
+    "A005817"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

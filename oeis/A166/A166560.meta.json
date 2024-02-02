@@ -1,9 +1,12 @@
 {
   "description": "Primes of the form 100*n+9.",
   "id": "A166560",
-  "mentions": [],
+  "mentions": [
+    "A104045"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

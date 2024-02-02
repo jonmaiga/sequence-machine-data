@@ -1,13 +1,16 @@
 {
-  "description": "Number of proper divisors of the form 3k+2.",
+  "description": "Number of proper divisors of n of the form 3k+2.",
   "id": "A293896",
   "mentions": [
+    "A001620",
     "A001822",
+    "A256843",
     "A293895",
     "A293898",
     "A293899"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

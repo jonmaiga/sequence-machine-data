@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 3*2^n or 9*2^n.",
+  "description": "Numbers of the form 3*2^k or 9*2^k.",
   "id": "A354785",
   "mentions": [
     "A000079",
@@ -26,6 +26,8 @@
     "A354789"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

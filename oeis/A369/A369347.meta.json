@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose decimal expansion is quasiperiodic.",
+  "id": "A369347",
+  "mentions": [
+    "A020338",
+    "A239019",
+    "A320441"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

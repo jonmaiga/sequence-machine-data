@@ -1,0 +1,16 @@
+{
+  "description": "Ordered product of the terms in a primitive Pythagorean quadruple (with repetitions).",
+  "id": "A367737",
+  "mentions": [
+    "A063011",
+    "A210484"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

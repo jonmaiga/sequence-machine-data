@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k for which A342671(k) [= gcd(sigma(k), A003961(k)] and A349161(k) [= A003961(k)/A342671(k)] are relatively prime, where A003961(n) is fully multiplicative with a(prime(k)) = prime(k+1), and sigma is the sum of divisors function.",
+  "description": "Numbers k for which A342671(k) [= gcd(sigma(k), A003961(k))] and A349161(k) [= A003961(k)/A342671(k)] are relatively prime, where A003961(n) is fully multiplicative with a(prime(k)) = prime(k+1), and sigma is the sum of divisors function.",
   "id": "A349144",
   "mentions": [
     "A000203",

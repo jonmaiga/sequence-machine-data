@@ -2,7 +2,8 @@
   "description": "a(n) = floor(n^2/12).",
   "id": "A008724",
   "mentions": [
-    "A001399"
+    "A001399",
+    "A174709"
   ],
   "tags": [
     "easy",

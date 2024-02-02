@@ -1,14 +1,16 @@
 {
-  "description": "Coefficients of inverse of Poincaré series [or Poincare series] of the 5-Tetrad operad.",
+  "description": "Coefficients of inverse of Poincaré series [or Poincare series] of the 5-Gonal operad.",
   "id": "A113207",
-  "mentions": [],
+  "mentions": [
+    "A002294"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 7,
+    "offset": 1,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

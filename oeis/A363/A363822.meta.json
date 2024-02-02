@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the conjectured number of stable distinct centroidal Voronoi tessellations (CVTs) of a unit disk with n generators (seeds).",
+  "id": "A363822",
+  "mentions": [
+    "A366544"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

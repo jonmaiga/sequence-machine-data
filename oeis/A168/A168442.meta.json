@@ -1,11 +1,13 @@
 {
-  "description": "Product{k=0..n, (2*0^k+4k(4k+2))^(n-k)}.",
+  "description": "a(n) = 2^n * Product_{k=1..n} (4*k*(4*k+2))^(n-k).",
   "id": "A168442",
   "mentions": [
+    "A074962",
     "A168441"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

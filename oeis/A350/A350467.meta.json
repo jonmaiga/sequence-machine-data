@@ -2,6 +2,7 @@
   "description": "a(n) = hypergeom([1/2 - n/2, -n/2], [-n], -8*n).",
   "id": "A350467",
   "mentions": [
+    "A171180",
     "A350470"
   ],
   "tags": [

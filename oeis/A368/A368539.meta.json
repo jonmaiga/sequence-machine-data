@@ -1,0 +1,18 @@
+{
+  "description": "Maximal sum of elements of A^2 where A is a square matrix of size n whose elements are a permutation of {1, 2, ..., n^2}.",
+  "id": "A368539",
+  "mentions": [
+    "A085000",
+    "A350566"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

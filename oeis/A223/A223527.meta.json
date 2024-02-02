@@ -1,5 +1,5 @@
 {
-  "description": "Triangle S(n,k) by rows: coefficients of 4^((n-1)/2))*(x^(1/4)*d/dx)^n when n=1,3,5,...",
+  "description": "Triangle S(n,k) by rows: coefficients of 4^((n-1)/2)*(x^(1/4)*d/dx)^n when n=1,3,5,...",
   "id": "A223527",
   "mentions": [
     "A008277",

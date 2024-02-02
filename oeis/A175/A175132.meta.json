@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n such that p(i)+p(i+1)=n*(n+1)/2, p(i) i-th prime, n an integer. Sum of two consecutive primes is a triangular number.",
+  "description": "Integers k such that the k-th triangular number is the sum of 2 consecutive primes.",
   "id": "A175132",
   "mentions": [
     "A000040",
     "A000217",
-    "A001043"
+    "A001043",
+    "A225077"
   ],
   "tags": [
     "easy",

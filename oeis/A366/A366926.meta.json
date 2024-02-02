@@ -1,0 +1,16 @@
+{
+  "description": "Odd numbers m that can be written j * k, j >= k > 1, with floor(log_2(m)) = floor(log_2(j)) + floor(log_2(k)).",
+  "id": "A366926",
+  "mentions": [
+    "A000523"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

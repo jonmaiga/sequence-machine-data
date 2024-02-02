@@ -2,6 +2,7 @@
   "description": "Digitsum of a(n) + digitsum of a(n+1) divides a(n+2). This is the lexicographically earliest sequence of distinct positive terms with this property.",
   "id": "A364120",
   "mentions": [
+    "A007953",
     "A364187",
     "A364188"
   ],

@@ -2,16 +2,19 @@
   "description": "Number of partitions of n avoiding the partition (4,3,1).",
   "id": "A309099",
   "mentions": [
+    "A002378",
+    "A078567",
     "A309058",
     "A309097",
     "A309098"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

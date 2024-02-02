@@ -1,5 +1,5 @@
 {
-  "description": "Sequence A085188 shown in factorial base. (The longest prefix which can be shown with digits < 10).",
+  "description": "Sequence A085188 shown in factorial base. (The longest prefix which can be shown with digits < 10.)",
   "id": "A085187",
   "mentions": [
     "A007623",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of triangular partitions of size n with just one removable cell.",
+  "id": "A368556",
+  "mentions": [
+    "A352882",
+    "A368554"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

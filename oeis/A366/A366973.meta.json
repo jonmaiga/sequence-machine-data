@@ -1,0 +1,17 @@
+{
+  "description": "Smallest odd prime p such that n^((p+1)/2) == n (mod p).",
+  "id": "A366973",
+  "mentions": [
+    "A309316",
+    "A366930",
+    "A366982"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

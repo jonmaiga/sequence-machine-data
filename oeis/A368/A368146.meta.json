@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 174/96 = 29/16, being the highest possible win/loss points ratio in a completed 5-set tennis match, with 10-point final tie-break, which the player loses.",
+  "id": "A368146",
+  "mentions": [
+    "A021061",
+    "A368008",
+    "A368009",
+    "A368476"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

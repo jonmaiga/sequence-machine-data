@@ -1,5 +1,5 @@
 {
-  "description": "2^(n-1) mod composite(n).",
+  "description": "a(n) = 2^(n-1) mod composite(n).",
   "id": "A175156",
   "mentions": [
     "A000079",

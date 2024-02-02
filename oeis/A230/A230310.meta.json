@@ -1,8 +1,9 @@
 {
-  "description": "Numbers k such that Sum_{a=0..72*k-1, b=0..72*k-1)} (a+b*i)^(72*k) !== 0 (mod 72*k), where i is the imaginary unit.",
+  "description": "Numbers k such that Sum_{a=0..72*k-1, b=0..72*k-1} (a+b*i)^(72*k) !== 0 (mod 72*k), where i is the imaginary unit.",
   "id": "A230310",
   "mentions": [
-    "A230308"
+    "A230308",
+    "A230309"
   ],
   "tags": [
     "nonn"

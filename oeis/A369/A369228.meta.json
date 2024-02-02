@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k that starts a sequence of exactly n numbers on which i + Omega(i) is constant, where Omega = A001222.",
+  "id": "A369228",
+  "mentions": [
+    "A001222",
+    "A369139",
+    "A369185"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

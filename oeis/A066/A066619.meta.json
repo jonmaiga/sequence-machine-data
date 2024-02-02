@@ -1,7 +1,9 @@
 {
   "description": "Both n and its reverse are one less than a square.",
   "id": "A066619",
-  "mentions": [],
+  "mentions": [
+    "A028504"
+  ],
   "tags": [
     "base",
     "nonn"

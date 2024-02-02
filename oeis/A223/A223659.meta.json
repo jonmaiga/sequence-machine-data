@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X 1 [0..3] arrays with row sums unimodal and column sums inverted unimodal.",
+  "description": "Number of unimodal maps [1..n]->[0..2].",
   "id": "A223659",
   "mentions": [
     "A071920",

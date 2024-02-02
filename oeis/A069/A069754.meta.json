@@ -1,5 +1,5 @@
 {
-  "description": "Counts transitions between prime and composite to reach the number n.",
+  "description": "Counts transitions between prime and nonprime to reach the number n.",
   "id": "A069754",
   "mentions": [
     "A000720",

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which there are exactly k pairs (i, j), 1 <= i < j < k, such that i + j is a divisor of k.",
+  "id": "A367449",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A138636",
+    "A183063",
+    "A367588"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

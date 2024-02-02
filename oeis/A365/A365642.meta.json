@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1, a(2) = 2; a(n) = smallest k such that rad(k) | (a(n-2)+a(n-1)) and k != a(m), m < n, where rad(n) = A007947(n).",
+  "id": "A365642",
+  "mentions": [
+    "A003586",
+    "A007947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

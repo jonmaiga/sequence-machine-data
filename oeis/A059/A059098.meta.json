@@ -1,10 +1,11 @@
 {
-  "description": "Triangle T(n,m) = Sum_{i=0..n} Stirling2(n,i)*Product_{j=1..m} (i-j+1), m=0..n.",
+  "description": "Triangle read by rows. T(n, k) = Sum_{i=0..n} Stirling2(n, i)*Product_{j=1..k} (i - j + 1) for 0 <= k <= n.",
   "id": "A059098",
   "mentions": [
     "A000110",
     "A001861",
     "A005493",
+    "A046716",
     "A049020",
     "A059099"
   ],

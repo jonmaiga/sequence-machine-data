@@ -1,12 +1,14 @@
 {
   "description": "a(n) = smallest number m (obviously prime) such that pi(m) = 2*pi(n).",
   "id": "A073881",
-  "mentions": [],
+  "mentions": [
+    "A000720"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 62,
     "source": "oeis-entry"
   }

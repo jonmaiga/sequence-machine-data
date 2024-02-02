@@ -1,17 +1,18 @@
 {
-  "description": "Numbers n such that 4^n + 31 is prime.",
+  "description": "Numbers k such that 4^k + 31 is prime.",
   "id": "A262971",
   "mentions": [
     "A247952",
     "A253772"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2 * 4^(n-k).",
+  "id": "A368529",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A014825",
+    "A047520",
+    "A052161",
+    "A368524",
+    "A368528",
+    "A368530"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

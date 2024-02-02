@@ -1,5 +1,5 @@
 {
-  "description": "Array: T(m,n) = ((F(n) + F(2*n) + ... + F(n*m))/F(n), by antidiagonals; transpose of A214984.",
+  "description": "Array: T(m,n) = (F(n) + F(2*n) + ... + F(n*m))/F(n), by antidiagonals; transpose of A214984.",
   "id": "A214985",
   "mentions": [
     "A000071",

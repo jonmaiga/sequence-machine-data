@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th prime + n-th semiprime is semiprime.",
+  "description": "Numbers k such that k-th prime + k-th semiprime is semiprime.",
   "id": "A092021",
   "mentions": [
     "A092108"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

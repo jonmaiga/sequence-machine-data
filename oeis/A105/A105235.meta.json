@@ -2,6 +2,7 @@
   "description": "Partial sums of the central column of a Moebius-binomial triangle.",
   "id": "A105235",
   "mentions": [
+    "A008683",
     "A105234"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

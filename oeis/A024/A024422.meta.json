@@ -1,7 +1,11 @@
 {
-  "description": "a(n) = [ (sum of S(n,m)/C(n-1,m-1) ] for m = 1,2,...,n; S(n,m) are Stirling numbers of second kind.",
+  "description": "a(n) = floor(Sum_{m=1..n} Stirling2(n,m) / binomial(n-1,m-1)).",
   "id": "A024422",
-  "mentions": [],
+  "mentions": [
+    "A024423",
+    "A024424",
+    "A024425"
+  ],
   "tags": [
     "nonn"
   ],

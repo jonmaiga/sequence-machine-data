@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest k such that the commas sequence (cf. A121805) with initial term k contains n.",
+  "id": "A367366",
+  "mentions": [
+    "A121805",
+    "A139284",
+    "A330128",
+    "A366492",
+    "A367338",
+    "A367341",
+    "A367614",
+    "A367617"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x * (1-x-x^4/(1-x)^3) ).",
+  "id": "A367415",
+  "mentions": [
+    "A063021",
+    "A367317",
+    "A367414"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

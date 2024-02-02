@@ -1,0 +1,20 @@
+{
+  "description": "The denominators of a series that converges to 1/e obtained using Whittaker's Root Series Formula.",
+  "id": "A365594",
+  "mentions": [
+    "A068985",
+    "A323339",
+    "A323340",
+    "A365595"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 0} (-1)^k/(1+k^2).",
+  "id": "A367976",
+  "mentions": [
+    "A090986",
+    "A113319",
+    "A228048",
+    "A367961"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

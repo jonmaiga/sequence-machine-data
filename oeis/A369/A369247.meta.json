@@ -1,0 +1,20 @@
+{
+  "description": "Number of representations of 3*A057588(n) as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r, where A057588 is Kummer numbers, one less than primorials.",
+  "id": "A369247",
+  "mentions": [
+    "A002110",
+    "A057588",
+    "A369054"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

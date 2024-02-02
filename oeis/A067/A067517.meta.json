@@ -1,13 +1,14 @@
 {
-  "description": "Fibonacci numbers which can be partitioned into group of digits which are Fibonacci numbers.",
+  "description": "Fibonacci numbers which can be partitioned into groups of digits which are Fibonacci numbers.",
   "id": "A067517",
   "mentions": [],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 12,
     "source": "oeis-entry"
   }

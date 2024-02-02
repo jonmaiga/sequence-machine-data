@@ -2,7 +2,8 @@
   "description": "Largest elements of triples (a, b, c) with a > b > c = 1 such that ab+c, ac+b and bc+a are perfect squares.",
   "id": "A366861",
   "mentions": [
-    "A000290"
+    "A000290",
+    "A058331"
   ],
   "tags": [
     "easy",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

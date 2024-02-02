@@ -1,0 +1,51 @@
+{
+  "description": "Number of non-isomorphic set multipartitions of weight n contradicting a strict version of the axiom of choice.",
+  "id": "A368421",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A000612",
+    "A003465",
+    "A007716",
+    "A007718",
+    "A055621",
+    "A058891",
+    "A073576",
+    "A133686",
+    "A134964",
+    "A140637",
+    "A283877",
+    "A300913",
+    "A302478",
+    "A302545",
+    "A306005",
+    "A316983",
+    "A317533",
+    "A318360",
+    "A323818",
+    "A355529",
+    "A367867",
+    "A367903",
+    "A367905",
+    "A367907",
+    "A368094",
+    "A368095",
+    "A368097",
+    "A368098",
+    "A368100",
+    "A368409",
+    "A368410",
+    "A368413",
+    "A368414",
+    "A368422"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

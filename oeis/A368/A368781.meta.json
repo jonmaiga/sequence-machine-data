@@ -1,0 +1,27 @@
+{
+  "description": "The maximal exponent in the unique factorization of n in terms of distinct \"Fermi-Dirac primes\".",
+  "id": "A368781",
+  "mentions": [
+    "A000079",
+    "A050376",
+    "A050377",
+    "A051903",
+    "A053644",
+    "A182979",
+    "A246655",
+    "A299090",
+    "A335428",
+    "A344417",
+    "A347437"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

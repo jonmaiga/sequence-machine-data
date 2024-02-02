@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of partitions of [n] whose block maxima sum to k, triangle T(n,k), n>=0, n<=k<=n*(n+1)/2, read by rows.",
+  "id": "A367955",
+  "mentions": [
+    "A000110",
+    "A000124",
+    "A000217",
+    "A124327",
+    "A200660",
+    "A204856",
+    "A278677",
+    "A365441",
+    "A367969",
+    "A368102",
+    "A368675"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

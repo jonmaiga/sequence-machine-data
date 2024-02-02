@@ -1,0 +1,36 @@
+{
+  "description": "Number of representations of 4n-1 as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "id": "A369055",
+  "mentions": [
+    "A002620",
+    "A003415",
+    "A046316",
+    "A351029",
+    "A369054",
+    "A369056",
+    "A369057",
+    "A369058",
+    "A369064",
+    "A369239",
+    "A369241",
+    "A369245",
+    "A369248",
+    "A369252",
+    "A369450",
+    "A369451",
+    "A369452",
+    "A369460",
+    "A369461",
+    "A369462",
+    "A369463"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

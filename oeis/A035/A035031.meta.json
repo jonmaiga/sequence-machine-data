@@ -1,8 +1,9 @@
 {
-  "description": "For n >= 6, max( prevprime(n), 2*prevprime(floor((n-1)/2))).",
+  "description": "For n >= 7, max(A151799(n), 2*A151799(floor((n-1)/2))).",
   "id": "A035031",
   "mentions": [
-    "A035032"
+    "A035032",
+    "A151799"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n] whose block maxima sum to 2n.",
+  "id": "A368675",
+  "mentions": [
+    "A365441",
+    "A367955",
+    "A368678"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

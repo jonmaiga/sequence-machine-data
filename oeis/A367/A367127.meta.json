@@ -1,0 +1,20 @@
+{
+  "description": "Independence number of the n-omino graph defined in A098891.",
+  "id": "A367127",
+  "mentions": [
+    "A098891",
+    "A367123",
+    "A367124",
+    "A367440"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

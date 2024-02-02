@@ -1,0 +1,13 @@
+{
+  "description": "a(n) = a(a(n-1)) if n is even, a(n) is the number of times a(n-1) occurs in the sequence so far if n is odd, with a(1) = 1.",
+  "id": "A364969",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,17 +1,15 @@
 {
-  "description": "Number of unique iterations required to generate emergent regular squares using LQTL logic.",
+  "description": "Number of iterations of the LQTL cellular automaton required to generate a square of cells in identical states.",
   "id": "A094867",
   "mentions": [
     "A094266",
     "A102110",
-    "A255938"
+    "A102127",
+    "A204810"
   ],
   "tags": [
-    "easy",
     "fini",
-    "nonn",
-    "obsc",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

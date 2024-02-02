@@ -1,0 +1,16 @@
+{
+  "description": "Total number of representations of natural numbers in range 1 .. 4n-1 as sums of the form p*q + p*r + q*r, with three odd primes p <= q <= r.",
+  "id": "A369057",
+  "mentions": [
+    "A369054",
+    "A369055"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

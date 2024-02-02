@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = binomial(2*n, n) * n^n.",
+  "id": "A367271",
+  "mentions": [
+    "A059297",
+    "A293270"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

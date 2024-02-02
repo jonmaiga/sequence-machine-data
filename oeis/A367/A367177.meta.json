@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n, k) = [x^k] hypergeom([1/2, -n, -n], [1, 1], 4*x).",
+  "id": "A367177",
+  "mentions": [
+    "A000984",
+    "A002893",
+    "A002897",
+    "A367022",
+    "A367023",
+    "A387024"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

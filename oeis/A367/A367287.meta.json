@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^6*2^k + 1 is a prime.",
+  "id": "A367287",
+  "mentions": [
+    "A005849",
+    "A058780",
+    "A357612",
+    "A366422",
+    "A367421",
+    "A367478"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

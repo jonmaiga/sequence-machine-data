@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: Place k equally spaced points on each side of a regular n-gon and join every pair of these n*k points by a chord; T(n,k) (n >= 3, k >= 0) gives the number of edges in the resulting planar graph.",
+  "id": "A367305",
+  "mentions": [
+    "A366485",
+    "A367279",
+    "A367302",
+    "A367303",
+    "A367304"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of exponentially odd divisors of the largest unitary divisor of n that is an exponentially odd number (A268335).",
+  "id": "A368470",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A001620",
+    "A005117",
+    "A033634",
+    "A268335",
+    "A350389",
+    "A368471"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

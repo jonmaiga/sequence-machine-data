@@ -1,5 +1,5 @@
 {
-  "description": "Let the operation <+> be defined by x<+>y = A038502(x+y). a(n) is the period length in the track of the iterated application x<+>(x<+>....(x<+>1)) for x = A001651(n-1).",
+  "description": "Let the operation <+> be defined by x<+>y = A038502(x+y). a(n) is the period in the track of the iterated application x<+>(x<+>...(x<+>1)) for x = A001651(n-1).",
   "id": "A179787",
   "mentions": [
     "A001651",

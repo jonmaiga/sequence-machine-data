@@ -1,0 +1,19 @@
+{
+  "description": "Number of perfect cube unlabeled endofunctions from n points to themselves.",
+  "id": "A368858",
+  "mentions": [
+    "A001372",
+    "A163859",
+    "A368830"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

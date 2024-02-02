@@ -1,0 +1,17 @@
+{
+  "description": "Maximum distance between a partition of n and its contraconjugate.",
+  "id": "A366746",
+  "mentions": [
+    "A000041",
+    "A366745"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

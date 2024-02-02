@@ -1,0 +1,23 @@
+{
+  "description": "Powers of superprimorials S(k)^m such that both k > 1 and m > 1, where S(n) = A006939(n).",
+  "id": "A368508",
+  "mentions": [
+    "A002110",
+    "A006939",
+    "A025487",
+    "A126706",
+    "A286708",
+    "A364710",
+    "A364930",
+    "A368507"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

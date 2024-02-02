@@ -1,0 +1,24 @@
+{
+  "description": "Powerful numbers whose prime factors are all of the form 3*k + 1.",
+  "id": "A369565",
+  "mentions": [
+    "A001694",
+    "A002476",
+    "A004611",
+    "A175646",
+    "A334477",
+    "A352492",
+    "A369563",
+    "A369564",
+    "A369566"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

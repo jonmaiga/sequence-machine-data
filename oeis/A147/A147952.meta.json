@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0, a(1) = a(2) = 1, and for n >= 3, a(n) = a(a(n-2)) + r(n), where r(n) = a(a(floor(n/3)) when n == 0 or 1 (mod 3) and = a(n - a(floor(n/3))) when n == 2 (mod 3).",
+  "description": "a(0) = 0, a(1) = a(2) = 1, and for n >= 3, a(n) = a(a(n-2)) + r(n), where r(n) = a(a(floor(n/3))) when n == 0 or 1 (mod 3) and = a(n - a(floor(n/3))) when n == 2 (mod 3).",
   "id": "A147952",
   "mentions": [
     "A147665",

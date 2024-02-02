@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = A( x^2*(1+x)^5 ) / x.",
+  "id": "A369555",
+  "mentions": [
+    "A350432",
+    "A369548",
+    "A369552",
+    "A369553",
+    "A369554",
+    "A369556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

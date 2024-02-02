@@ -1,5 +1,5 @@
 {
-  "description": "Period length of the decimal representation of 1/Fibonacci(n).",
+  "description": "Period of the decimal representation of 1/Fibonacci(n).",
   "id": "A175561",
   "mentions": [
     "A000045",

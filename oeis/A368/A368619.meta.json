@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the n-digit denominator of the fraction h/k with h and k coprime palindrome positive integers at which abs(h/k-e) is minimal.",
+  "id": "A368619",
+  "mentions": [
+    "A001113",
+    "A002113",
+    "A007676",
+    "A007677",
+    "A070252",
+    "A364845",
+    "A368617",
+    "A368618",
+    "A368620",
+    "A368621",
+    "A368658"
+  ],
+  "tags": [
+    "base",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

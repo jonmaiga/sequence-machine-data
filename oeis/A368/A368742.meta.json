@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k = 1..n} gcd(6*k, n).",
+  "id": "A368742",
+  "mentions": [
+    "A000010",
+    "A001620",
+    "A018804",
+    "A344372",
+    "A368736",
+    "A368737",
+    "A368741"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

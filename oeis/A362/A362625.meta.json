@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*(n-1)/2 - n*tau(n) + sigma(n).",
+  "description": "a(n) = Sum_{k not divides n - k, 0 <= k < n} k.",
   "id": "A362625",
   "mentions": [
     "A000005",

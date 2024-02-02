@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the asymptotic probability that 3 random integer 3 X 3 matrices generate the ring M_3(Z).",
+  "id": "A369095",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A013662",
+    "A369094"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

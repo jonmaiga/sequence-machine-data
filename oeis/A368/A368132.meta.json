@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{k=1..n} (n + k)^k.",
+  "id": "A368132",
+  "mentions": [
+    "A002109",
+    "A367927"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

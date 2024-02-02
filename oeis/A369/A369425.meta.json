@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of Sum_{n>=1} x^(n*(n+1)/2)*((1+x)/(1-x))^n.",
+  "id": "A369425",
+  "mentions": [
+    "A369424"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

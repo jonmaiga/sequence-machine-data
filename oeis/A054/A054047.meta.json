@@ -1,5 +1,5 @@
 {
-  "description": "Numbers which can be read as (possibly different) numbers when rotated by 180 degrees *final zeros allowed).",
+  "description": "Numbers which can be read as (possibly different) numbers when rotated by 180 degrees (final zeros allowed).",
   "id": "A054047",
   "mentions": [
     "A006933",

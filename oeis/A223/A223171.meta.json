@@ -1,5 +1,5 @@
 {
-  "description": "Triangle S(n,k) by rows: coefficients of 5^((n-1)/2))*(x^(1/5)*d/dx)^n when n is odd, and of 5^(n/2)*(x^(4/5)*d/dx)^n when n is even.",
+  "description": "Triangle S(n,k) by rows: coefficients of 5^((n-1)/2)*(x^(1/5)*d/dx)^n when n is odd, and of 5^(n/2)*(x^(4/5)*d/dx)^n when n is even.",
   "id": "A223171",
   "mentions": [
     "A008277",

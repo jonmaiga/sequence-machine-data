@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: A113547 without its initial column of 1's.",
+  "description": "Triangle read by rows: A113547 without its main diagonal.",
   "id": "A362926",
   "mentions": [
     "A113547",

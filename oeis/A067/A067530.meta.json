@@ -1,5 +1,5 @@
 {
-  "description": "n - k! is a prime or 1 for all k > 1 and n > k!.",
+  "description": "Numbers k such that k - m! is a prime or 1 for all m > 1 and k > m!.",
   "id": "A067530",
   "mentions": [
     "A067526",
@@ -7,12 +7,11 @@
     "A067528"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 33,
+    "offset": 1,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

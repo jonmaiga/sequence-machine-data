@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the sum of digits of k is equal to the sum of digits of k+9.",
+  "id": "A367733",
+  "mentions": [
+    "A007953",
+    "A023804",
+    "A043095",
+    "A052382",
+    "A067251",
+    "A209931"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: row n gives the pairs x(n)_j, y(n)_j, for j = 1, 2, ..., A336889(n), such that the legs of nonrectangular (nondegenerate) triangles X(n)_j = sqrt(x(n)_j)), Y(n)_j = sqrt(y(n)_j), with base Z(n) = sqrt(z(n)), and integers 1 <= x(n)_j <= y(n)_j <= z(n), lead to primitive quartets (x(n)_j, y(n)_j, z(n), A(n)_j) with positive integer area A(n)_j. Hence z(n) = A337215(n) and A(n)_j = A337216(n, j).",
+  "description": "Irregular triangle read by rows: row n gives the pairs x(n)_j, y(n)_j, for j = 1, 2, ..., A336889(n), such that the legs of nonrectangular (nondegenerate) triangles X(n)_j = sqrt(x(n)_j), Y(n)_j = sqrt(y(n)_j), with base Z(n) = sqrt(z(n)), and integers 1 <= x(n)_j <= y(n)_j <= z(n), lead to primitive quartets (x(n)_j, y(n)_j, z(n), A(n)_j) with positive integer area A(n)_j. Hence z(n) = A337215(n) and A(n)_j = A337216(n, j).",
   "id": "A336888",
   "mentions": [
     "A334818",

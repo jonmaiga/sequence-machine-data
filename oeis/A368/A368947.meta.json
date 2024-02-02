@@ -1,0 +1,20 @@
+{
+  "description": "Row lengths of A368946: in the MIU formal system, number of (possibly not distinct) strings n steps distant from the MI string.",
+  "id": "A368947",
+  "mentions": [
+    "A331536",
+    "A368946",
+    "A368954"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

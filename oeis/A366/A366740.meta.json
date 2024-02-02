@@ -1,0 +1,49 @@
+{
+  "description": "Positive integers whose semiprime divisors do not all have different Heinz weights (sum of prime indices, A056239).",
+  "id": "A366740",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001248",
+    "A001358",
+    "A006881",
+    "A008967",
+    "A056170",
+    "A056239",
+    "A065119",
+    "A076290",
+    "A079275",
+    "A086971",
+    "A108917",
+    "A112798",
+    "A220264",
+    "A275972",
+    "A299701",
+    "A299702",
+    "A299729",
+    "A304793",
+    "A316402",
+    "A365541",
+    "A365920",
+    "A366737",
+    "A366738",
+    "A366739",
+    "A366741",
+    "A366753",
+    "A366754",
+    "A367093",
+    "A367095",
+    "A367096",
+    "A367097"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Intersection of A126706 and A055932.",
+  "id": "A363814",
+  "mentions": [
+    "A002110",
+    "A003586",
+    "A003592",
+    "A003593",
+    "A013929",
+    "A024619",
+    "A055932",
+    "A126706"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

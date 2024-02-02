@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct prime divisors of Product_{k=1+(n-1)n/2..n(n+1)/2)} k (i.e., of 1, 2*3, 4*5*6, 7*8*9*10, ...).",
+  "description": "Number of distinct prime divisors of Product_{k=1+(n-1)n/2..n(n+1)/2} k (i.e., of 1, 2*3, 4*5*6, 7*8*9*10, ...).",
   "id": "A093451",
   "mentions": [
     "A001221",

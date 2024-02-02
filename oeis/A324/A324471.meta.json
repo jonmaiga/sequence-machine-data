@@ -2,12 +2,15 @@
   "description": "a(n) = 10 mod n.",
   "id": "A324471",
   "mentions": [
+    "A010692",
+    "A010879",
     "A048158",
     "A051127",
     "A090976",
     "A324472"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

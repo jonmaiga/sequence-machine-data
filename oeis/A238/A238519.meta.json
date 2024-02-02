@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..3 arrays with no element equal to all horizontal neighbors or equal to all vertical neighbors",
+  "description": "Number of (n+1) X (2+1) 0..3 arrays with no element equal to all horizontal neighbors or equal to all vertical neighbors.",
   "id": "A238519",
   "mentions": [
     "A238523"

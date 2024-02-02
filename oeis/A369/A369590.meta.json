@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of Yamanouchi words of length n that start with 3.",
+  "id": "A369590",
+  "mentions": [
+    "A000085",
+    "A238124",
+    "A369588",
+    "A369591"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

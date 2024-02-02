@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that phi(sum of the divisors of m)) = phi(sum of the distinct prime divisors of m) where phi is the Euler totient function.",
+  "description": "Numbers m such that phi(sum of the divisors of m) = phi(sum of the distinct prime divisors of m) where phi is the Euler totient function.",
   "id": "A282515",
   "mentions": [
     "A000010",

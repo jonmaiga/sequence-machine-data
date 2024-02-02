@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that denominator of Sum_{k=1..p-1} 1/k^2} is not a square.",
+  "description": "Primes p such that denominator of Sum_{k=1..p-1} 1/k^2 is not a square.",
   "id": "A127043",
   "mentions": [
     "A034602",

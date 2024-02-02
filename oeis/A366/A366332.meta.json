@@ -1,0 +1,22 @@
+{
+  "description": "Minimum number of diagonal transversals in a semicyclic diagonal Latin square of order 2n+1.",
+  "id": "A366332",
+  "mentions": [
+    "A071607",
+    "A342990",
+    "A342997",
+    "A342998",
+    "A348212",
+    "A366331"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

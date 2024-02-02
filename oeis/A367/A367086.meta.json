@@ -1,0 +1,22 @@
+{
+  "description": "Exponents k > 0 such that the interval [4^(k-1), 4^k] contains two powers of 3.",
+  "id": "A367086",
+  "mentions": [
+    "A000244",
+    "A000302",
+    "A235127",
+    "A327621",
+    "A367083",
+    "A367084",
+    "A367085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = 2 - exp(-x*A(x)^2).",
+  "id": "A367153",
+  "mentions": [
+    "A097718",
+    "A367078",
+    "A367080",
+    "A367154"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

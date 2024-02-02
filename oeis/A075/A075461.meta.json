@@ -1,16 +1,25 @@
 {
-  "description": "Sorted list of solutions to the n-term Znám problem.",
+  "description": "List of solutions to the Znám problem sorted first by length, then lexicographically.",
   "id": "A075461",
   "mentions": [
-    "A075441"
+    "A006585",
+    "A007850",
+    "A054377",
+    "A075441",
+    "A085098",
+    "A118086",
+    "A158649",
+    "A164014",
+    "A343074",
+    "A369469"
   ],
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 5,
+    "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

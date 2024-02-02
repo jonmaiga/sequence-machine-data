@@ -2,6 +2,7 @@
   "description": "Coordination sequence for D_5 lattice.",
   "id": "A008355",
   "mentions": [
+    "A008527",
     "A103903"
   ],
   "tags": [

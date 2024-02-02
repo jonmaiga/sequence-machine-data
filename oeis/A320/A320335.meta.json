@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of the fractions a(0)/(a(1) - a(0)), a(1)/(a(2) - a(1)), a(2)/(a(3) - a(2)), ... such that the sum Sum_{n>=1} a(n-1)/(a(n) - a(n-1) has the concatenation of these numerators, starting from a(1), as decimal part. Case a(0) = 1, a(1) = 4.",
+  "description": "Numerators of the fractions a(0)/(a(1) - a(0)), a(1)/(a(2) - a(1)), a(2)/(a(3) - a(2)), ... such that the sum Sum_{n>=1} a(n-1)/(a(n) - a(n-1)) has the concatenation of these numerators, starting from a(1), as decimal part. Case a(0) = 1, a(1) = 4.",
   "id": "A320335",
   "mentions": [
     "A302932",

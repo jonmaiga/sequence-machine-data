@@ -2,7 +2,7 @@
   "description": "a(n) is the smallest number k such that 2k - sigma(k) = 2^n.",
   "id": "A292557",
   "mentions": [
-    "A019734",
+    "A019434",
     "A033879",
     "A125246",
     "A125247",

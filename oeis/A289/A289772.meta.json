@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the numerator of b(n) where b(n) = 1/(3*(1+2*A112765(n) - b(n-1)) and b(0) = 0, where A112765(n) is the 5-adic valuation of n.",
+  "description": "a(n) is the numerator of b(n) where b(n) = 1/(3*(1+2*A112765(n) - b(n-1))) and b(0) = 0, where A112765(n) is the 5-adic valuation of n.",
   "id": "A289772",
   "mentions": [
     "A002487",

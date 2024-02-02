@@ -1,7 +1,8 @@
 {
-  "description": "Prime(A213520(n)).",
+  "description": "a(n) = prime(A213520(n)).",
   "id": "A213521",
   "mentions": [
+    "A000040",
     "A213520"
   ],
   "tags": [

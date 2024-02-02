@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors of n in the set {3,4,5}.",
+  "id": "A366981",
+  "mentions": [
+    "A080671",
+    "A354591"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

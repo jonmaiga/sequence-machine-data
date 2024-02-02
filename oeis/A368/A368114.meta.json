@@ -1,0 +1,16 @@
+{
+  "description": "Trajectory of 11 under the '11x+1' map.",
+  "id": "A368114",
+  "mentions": [
+    "A368085"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

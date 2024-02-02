@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x / (1+x+x^4/(1+x)) ).",
+  "id": "A369525",
+  "mentions": [
+    "A367317"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

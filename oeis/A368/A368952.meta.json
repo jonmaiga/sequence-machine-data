@@ -1,0 +1,22 @@
+{
+  "description": "The larger number in each pair of triangular numbers (a, b) satisfying a - b = n, listed by rows in the irregular triangle T(n, k).",
+  "id": "A368952",
+  "mentions": [
+    "A000217",
+    "A001227",
+    "A038547",
+    "A136107",
+    "A237048",
+    "A280851"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

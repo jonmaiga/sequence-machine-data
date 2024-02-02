@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of A357914.",
+  "id": "A368429",
+  "mentions": [
+    "A008683",
+    "A357914"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

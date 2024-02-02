@@ -1,9 +1,12 @@
 {
   "description": "In base-2 lunar arithmetic, number of binary numbers x of length n such that x*x has no zeros.",
   "id": "A191701",
-  "mentions": [],
+  "mentions": [
+    "A167510"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

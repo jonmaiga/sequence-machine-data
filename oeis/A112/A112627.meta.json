@@ -2,7 +2,8 @@
   "description": "Decimal equivalent of number defined by last k bits of the infinite binary string ...0011001100110011 (numbers with leading zeros omitted).",
   "id": "A112627",
   "mentions": [
-    "A021913"
+    "A021913",
+    "A182512"
   ],
   "tags": [
     "base",

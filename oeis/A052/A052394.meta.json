@@ -1,5 +1,5 @@
 {
-  "description": "Number of unlabeled 4-ary cacti having n polygons",
+  "description": "Number of unlabeled 4-ary cacti having n polygons.",
   "id": "A052394",
   "mentions": [
     "A052395",

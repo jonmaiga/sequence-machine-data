@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} pi(k) * floor(n/k).",
+  "id": "A368611",
+  "mentions": [
+    "A000720",
+    "A013939",
+    "A046992",
+    "A368610",
+    "A368612",
+    "A368613"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

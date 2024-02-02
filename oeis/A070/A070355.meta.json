@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 3^n mod 22.",
   "id": "A070355",
-  "mentions": [],
+  "mentions": [
+    "A000244"
+  ],
   "tags": [
     "easy",
     "formulas",

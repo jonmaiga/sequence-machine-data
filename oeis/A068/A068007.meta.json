@@ -1,8 +1,8 @@
 {
-  "description": "Least number k such that the number of primes of the form [k/j] for j=1..k (A067514) is n, or zero if impossible.",
+  "description": "Least number k such that the number of primes of the form [k/j] for j=1..k (A068050) is n, or zero if impossible.",
   "id": "A068007",
   "mentions": [
-    "A067514"
+    "A068050"
   ],
   "tags": [
     "nonn"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

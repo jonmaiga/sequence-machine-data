@@ -1,5 +1,5 @@
 {
-  "description": "Convolution triangle by rows, A004736 * (A154108 * 0^n-k)); row sums = Bell numbers.",
+  "description": "Convolution triangle by rows, A004736 * (A154108 * 0^(n-k)); row sums = Bell numbers.",
   "id": "A154109",
   "mentions": [
     "A000110",

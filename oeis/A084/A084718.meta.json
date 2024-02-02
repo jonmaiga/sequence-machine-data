@@ -1,5 +1,5 @@
 {
-  "description": "A084717(n+1)/A084717(n).",
+  "description": "a(n) = A084717(n+1)/A084717(n).",
   "id": "A084718",
   "mentions": [
     "A036012",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

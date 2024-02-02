@@ -1,5 +1,5 @@
 {
-  "description": "Min(|d(k+1-i) - d(i)|, for i = 1..k, where d(1),..,d(k) are the divisors of n^2+1.",
+  "description": "Min(|d(k+1-i) - d(i)|, for i = 1..k), where d(1),..,d(k) are the divisors of n^2+1.",
   "id": "A285122",
   "mentions": [
     "A002378",

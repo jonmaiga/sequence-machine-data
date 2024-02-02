@@ -1,5 +1,5 @@
 {
-  "description": "Sum of iterated logs; a(n) = 0 if n = 0; otherwise n + a(floor(log_2(n)).",
+  "description": "Sum of iterated logs; a(n) = 0 if n = 0; otherwise n + a(floor(log_2(n))).",
   "id": "A232779",
   "mentions": [
     "A216761"

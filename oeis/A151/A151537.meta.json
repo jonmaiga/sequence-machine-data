@@ -1,10 +1,12 @@
 {
-  "description": "Number of 1-sided polyedges with n cells.",
+  "description": "Number of 1-sided polyedges with n edges.",
   "id": "A151537",
   "mentions": [
     "A019988",
     "A037245",
-    "A151538"
+    "A096267",
+    "A151538",
+    "A333249"
   ],
   "tags": [
     "hard",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

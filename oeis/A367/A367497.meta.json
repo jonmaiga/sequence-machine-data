@@ -1,0 +1,16 @@
+{
+  "description": "Number of 4-regular loopless multigraphs on n vertices.",
+  "id": "A367497",
+  "mentions": [
+    "A000217",
+    "A333351"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

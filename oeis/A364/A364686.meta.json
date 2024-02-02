@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of parity self-conjugate partitions of n.",
+  "id": "A364686",
+  "mentions": [
+    "A000700",
+    "A110654"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

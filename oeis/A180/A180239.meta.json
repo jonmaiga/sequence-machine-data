@@ -1,5 +1,5 @@
 {
-  "description": "a(n) counts the distinct billiard words with length n on alphabet of 4 symbols.",
+  "description": "a(n) is the number of distinct billiard words with length n on an alphabet of 4 symbols.",
   "id": "A180239",
   "mentions": [
     "A005598",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

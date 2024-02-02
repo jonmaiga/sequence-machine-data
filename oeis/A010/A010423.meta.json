@@ -2,6 +2,7 @@
   "description": "Squares mod 62.",
   "id": "A010423",
   "mentions": [
+    "A010392",
     "A028775",
     "A096008"
   ],

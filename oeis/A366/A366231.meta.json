@@ -1,0 +1,14 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 1 = Sum_{n>=0} (-1)^n * x^n * A(x)^(2*n+1) * Product_{k=1..n} (1 + x^k).",
+  "id": "A366231",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

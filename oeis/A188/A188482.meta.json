@@ -1,5 +1,5 @@
 {
-  "description": "Diagonal sums of the Riordan matrix (1/(1-4x),(1-sqrt(1-4x))/(2*sqrt(1-4x)) (A188481).",
+  "description": "Diagonal sums of the Riordan matrix (1/(1-4x),(1-sqrt(1-4x))/(2*sqrt(1-4x))) (A188481).",
   "id": "A188482",
   "mentions": [
     "A141223",

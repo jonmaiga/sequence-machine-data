@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by raising antidiagonals. T(n, k) is the k-th root of the number of root sets modulo p the n-th prime.",
+  "description": "Square array read by rising antidiagonals. T(n, k) is the k-th root of the number of root sets modulo p the n-th prime.",
   "id": "A339176",
   "mentions": [
     "A007395",

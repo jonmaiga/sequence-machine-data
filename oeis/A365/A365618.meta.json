@@ -1,0 +1,20 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) = A000120(n) + A000120(k).",
+  "id": "A365618",
+  "mentions": [
+    "A000120",
+    "A367055"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

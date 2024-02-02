@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k! * 3^(n-k).",
+  "id": "A368555",
+  "mentions": [
+    "A003422",
+    "A058006",
+    "A112370",
+    "A112541",
+    "A233449"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

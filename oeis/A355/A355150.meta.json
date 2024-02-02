@@ -1,5 +1,5 @@
 {
-  "description": "The Hamming weight of A354169, a(n) = A000120(A354169(n))).",
+  "description": "The Hamming weight of A354169, a(n) = A000120(A354169(n)).",
   "id": "A355150",
   "mentions": [
     "A000120",

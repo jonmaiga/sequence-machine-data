@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes that contain only digits 4 and 9.",
+  "id": "A368337",
+  "mentions": [
+    "A001358",
+    "A020466",
+    "A284973"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

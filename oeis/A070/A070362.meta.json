@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 3^n mod 44.",
   "id": "A070362",
-  "mentions": [],
+  "mentions": [
+    "A000244"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of length n avoiding simultaneously the patterns 123 and 132 with the maximum number of non-overlapping descents equal k.",
+  "id": "A367631",
+  "mentions": [
+    "A000079",
+    "A005054",
+    "A011782",
+    "A053220",
+    "A133494"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

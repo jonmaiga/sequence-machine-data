@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that have at least one representation as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "id": "A369251",
+  "mentions": [
+    "A004767",
+    "A239433",
+    "A369054",
+    "A369055",
+    "A369056",
+    "A369250",
+    "A369252",
+    "A369464"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

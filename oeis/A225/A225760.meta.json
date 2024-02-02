@@ -7,12 +7,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

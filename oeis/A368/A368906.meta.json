@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of integers k in the range 0..n such that A342001(A005940(1+k)) is not divisible by p^p for any prime p.",
+  "id": "A368906",
+  "mentions": [
+    "A003415",
+    "A005940",
+    "A048103",
+    "A342001",
+    "A359550",
+    "A366801",
+    "A368905",
+    "A368918"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

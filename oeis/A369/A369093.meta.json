@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k >= 1 such that sigma(k) divides the sum of the triangular numbers T(k) and T(k+1), where sigma(k) = A000203(k) is the sum of the divisors of k.",
+  "id": "A369093",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A000217",
+    "A090777",
+    "A210494",
+    "A356410",
+    "A369096",
+    "A369097"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

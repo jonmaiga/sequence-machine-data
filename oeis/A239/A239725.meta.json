@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum(1/(k^(phi(k)), k=1..infinity), where phi(n) is the Euler totient function.",
+  "description": "Decimal expansion of sum(1/k^(phi(k)), k=1..infinity), where phi(n) is the Euler totient function.",
   "id": "A239725",
   "mentions": [
     "A000010",

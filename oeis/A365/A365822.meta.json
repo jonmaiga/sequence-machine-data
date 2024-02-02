@@ -1,0 +1,18 @@
+{
+  "description": "List the positive integers but erase commas between terms if the digits just before and just after the comma have the same parity.",
+  "id": "A365822",
+  "mentions": [
+    "A000027",
+    "A367595"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

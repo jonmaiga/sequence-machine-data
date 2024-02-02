@@ -1,5 +1,5 @@
 {
-  "description": "Let b(m)= base ten expansion of prime(n); then a(n)=Sum[Mod(10-b(l),10)*10^l,{l,1,10}]",
+  "description": "Let b(m)= base ten expansion of prime(n); then a(n)=Sum[Mod(10-b(l),10)*10^l,{l,1,10}].",
   "id": "A089739",
   "mentions": [],
   "tags": [

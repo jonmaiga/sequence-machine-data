@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with sum of digits equal to the period length of 1/n.",
+  "description": "Numbers k whose sum of digits equals the period of 1/k.",
   "id": "A178495",
   "mentions": [
     "A002329",

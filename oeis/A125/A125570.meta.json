@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum_(x=1..n) (x-1)*6^(x-1))/6 is prime.",
+  "description": "Numbers n such that Sum_(x=1..n) (x-1)*6^(x-1)/6 is prime.",
   "id": "A125570",
   "mentions": [
     "A119529"

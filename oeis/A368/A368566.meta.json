@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of pairs (p,q) of partitions of n such that d(p,q) > o(p,q), where d and o are distance functions; see Comments.",
+  "id": "A368566",
+  "mentions": [
+    "A000041",
+    "A001255",
+    "A366156",
+    "A368564",
+    "A368565",
+    "A368567"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

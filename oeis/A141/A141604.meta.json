@@ -1,5 +1,5 @@
 {
-  "description": "Triangle t(n,m) = round(A006720(n)/(A006720(n-m)*A006720(m)) read by rows, 0 <= m <= n.",
+  "description": "Triangle t(n,m) = round(A006720(n)/(A006720(n-m)*A006720(m))) read by rows, 0 <= m <= n.",
   "id": "A141604",
   "mentions": [
     "A006720"

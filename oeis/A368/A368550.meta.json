@@ -1,0 +1,17 @@
+{
+  "description": "Numbers such that the square root of the sum of each digit cubed is equal to the digital sum of the number.",
+  "id": "A368550",
+  "mentions": [
+    "A007953",
+    "A055012"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

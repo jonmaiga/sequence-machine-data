@@ -1,0 +1,20 @@
+{
+  "description": "Parity of the iterates of the Christmas tree pattern map (A367508), read by rows.",
+  "id": "A368463",
+  "mentions": [
+    "A367508",
+    "A367562",
+    "A368464",
+    "A368465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

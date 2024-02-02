@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1)* d(n) if gcd((n,a(n-1))=1, otherwise a(n) = a(n-1)/gcd(n,a(n-1)). Here gcd(n,a(n-1)) is greatest common divisor, d(n) is number of divisors.",
+  "description": "a(n) = a(n-1)* d(n) if gcd(n,a(n-1))=1, otherwise a(n) = a(n-1)/gcd(n,a(n-1)). Here gcd(n,a(n-1)) is greatest common divisor, d(n) is number of divisors.",
   "id": "A133902",
   "mentions": [
     "A000005",

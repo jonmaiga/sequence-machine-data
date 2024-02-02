@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum_{ d | n } phi(lcm(d,n/d)), where phi(n) = Euler totient A000010.",
+  "description": "a(n) = Sum_{ d | n } phi(lcm(d,n/d)), where phi(n) = Euler totient A000010.",
   "id": "A061884",
   "mentions": [
     "A000010",

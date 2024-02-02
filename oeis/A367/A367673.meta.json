@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the greatest probability that a particular free polyomino with n cells appears in the version of the Eden growth model described in A367671.",
+  "id": "A367673",
+  "mentions": [
+    "A367671",
+    "A367672",
+    "A367674",
+    "A367677",
+    "A367762"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

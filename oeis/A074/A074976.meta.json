@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = round(1/(sqrt(prime(n+1)) - sqrt(prime(n))).",
+  "description": "a(n) = round(1/(sqrt(prime(n+1)) - sqrt(prime(n)))).",
   "id": "A074976",
   "mentions": [
     "A000040",

@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet inverse of A369257, where A369257 is the number of divisors of n that are odd numbers with an even number of prime factors with multiplicity.",
+  "id": "A369454",
+  "mentions": [
+    "A353557",
+    "A358777",
+    "A369257"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

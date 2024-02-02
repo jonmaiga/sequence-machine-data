@@ -1,5 +1,5 @@
 {
-  "description": "Sum binomial(Fibonacci(n),i); i=0..3).",
+  "description": "Sum_{i=0..3} binomial(Fibonacci(n),i).",
   "id": "A032440",
   "mentions": [],
   "tags": [

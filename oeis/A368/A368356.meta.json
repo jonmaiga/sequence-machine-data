@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A121805(k) is prime.",
+  "id": "A368356",
+  "mentions": [
+    "A000045",
+    "A121805"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

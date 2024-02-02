@@ -2,7 +2,10 @@
   "description": "Numerator of the sum of inverse products of parts in all compositions of n.",
   "id": "A323339",
   "mentions": [
+    "A000142",
+    "A007840",
     "A011782",
+    "A088305",
     "A177208",
     "A177209",
     "A322364",

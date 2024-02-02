@@ -1,0 +1,20 @@
+{
+  "description": "Number of squarefree numbers less than n that do not divide n.",
+  "id": "A368673",
+  "mentions": [
+    "A008683",
+    "A064608",
+    "A368642",
+    "A368674"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of vertices formed in a hexagon by straight line segments when connecting the n-1 points between each corner that divide each edge into n equal parts to the n-1 points on the edge on the opposite side of the hexagon.",
+  "id": "A367663",
+  "mentions": [
+    "A355799",
+    "A367662",
+    "A367664",
+    "A367665"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Let r(n,k) = if k=0 then n else r(A081210(n),k-1), then a(n)=Min{i:r(n,i)=r(n,i+1)}.",
+  "description": "Let r(n,k) = if k=0 then n else r(A081210(n),k-1), then a(n) = Min{i:r(n,i) = r(n,i+1)}.",
   "id": "A081212",
   "mentions": [
     "A081210",

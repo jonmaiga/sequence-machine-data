@@ -1,0 +1,33 @@
+{
+  "description": "The exponentially evil part of n: the largest unitary divisor of n that is an exponentially evil number (A262675).",
+  "id": "A367513",
+  "mentions": [
+    "A001221",
+    "A001969",
+    "A010059",
+    "A034444",
+    "A102391",
+    "A262675",
+    "A270428",
+    "A350388",
+    "A350389",
+    "A366902",
+    "A366904",
+    "A366906",
+    "A367168",
+    "A367512",
+    "A367514",
+    "A367516"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

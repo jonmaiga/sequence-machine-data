@@ -3,9 +3,11 @@
   "id": "A065745",
   "mentions": [
     "A035316",
-    "A065704"
+    "A065704",
+    "A078434"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

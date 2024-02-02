@@ -6,12 +6,13 @@
     "A101684"
   ],
   "tags": [
+    "formulas",
     "frac",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

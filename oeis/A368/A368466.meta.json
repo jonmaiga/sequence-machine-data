@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^k * k^n.",
+  "id": "A368466",
+  "mentions": [
+    "A031971",
+    "A120485",
+    "A349963",
+    "A368479"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

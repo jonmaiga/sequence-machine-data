@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{j=1..n} floor(j*(3-sqrt(3)); n-th partial sum of Beatty sequence for 3-sqrt(3).",
+  "description": "a(n) = Sum_{j=1..n} floor(j*(3-sqrt(3))); n-th partial sum of Beatty sequence for 3-sqrt(3).",
   "id": "A194142",
   "mentions": [
     "A182777"

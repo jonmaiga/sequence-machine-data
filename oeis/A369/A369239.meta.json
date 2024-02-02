@@ -1,0 +1,24 @@
+{
+  "description": "Number of integers whose arithmetic derivative is larger than 1 and equal to the n-th partial sum of primorial numbers.",
+  "id": "A369239",
+  "mentions": [
+    "A003415",
+    "A046316",
+    "A143293",
+    "A328243",
+    "A351029",
+    "A369000",
+    "A369055",
+    "A369240"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

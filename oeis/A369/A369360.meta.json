@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of interior points over all Motzkin polyominoes of length n.",
+  "id": "A369360",
+  "mentions": [
+    "A001006",
+    "A002426",
+    "A369359"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

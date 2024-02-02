@@ -1,0 +1,20 @@
+{
+  "description": "The number of ways of tiling the n X n torus up to 90-degree rotations of the square by an asymmetric tile.",
+  "id": "A368145",
+  "mentions": [
+    "A367530",
+    "A367532",
+    "A368138",
+    "A368142",
+    "A368143",
+    "A368144"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

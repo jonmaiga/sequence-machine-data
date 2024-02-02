@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} (d+2)^n.",
+  "id": "A367507",
+  "mentions": [
+    "A163190",
+    "A163191",
+    "A367506",
+    "A367509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

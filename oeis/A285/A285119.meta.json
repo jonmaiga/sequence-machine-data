@@ -1,5 +1,5 @@
 {
-  "description": "Min(|d(k+1-i) - d(i)|, for i = 1..k, where d(1)..d(k) are the divisors of n^3.",
+  "description": "Min(|d(k+1-i) - d(i)|, for i = 1..k), where d(1)..d(k) are the divisors of n^3.",
   "id": "A285119",
   "mentions": [
     "A000290",

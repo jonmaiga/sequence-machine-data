@@ -1,13 +1,16 @@
 {
-  "description": "G.f. A(x) satisfies A(x) = 1 + x / (1- x * A(x^2)).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x / (1 - x * A(x^2)).",
   "id": "A218032",
-  "mentions": [],
+  "mentions": [
+    "A319436",
+    "A349365"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,8 @@
   "description": "Odd pentagonal numbers.",
   "id": "A014632",
   "mentions": [
-    "A000326"
+    "A000326",
+    "A014633"
   ],
   "tags": [
     "easy",

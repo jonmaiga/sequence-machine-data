@@ -1,5 +1,5 @@
 {
-  "description": "Array: T(m,n) = ((F(m) + F(2*m) + ... + F(n*m))/F(m), by antidiagonals, where F = A000045 (Fibonacci numbers).",
+  "description": "Array: T(m,n) = (F(m) + F(2*m) + ... + F(n*m))/F(m), by antidiagonals, where F = A000045 (Fibonacci numbers).",
   "id": "A214984",
   "mentions": [
     "A000045",

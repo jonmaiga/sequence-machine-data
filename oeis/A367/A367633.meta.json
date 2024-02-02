@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the nontrivial divisors of n whose arithmetic derivative is coprime to n.",
+  "id": "A367633",
+  "mentions": [
+    "A003415",
+    "A367483"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

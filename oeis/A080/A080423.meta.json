@@ -1,8 +1,9 @@
 {
-  "description": "(n+1)(n+2)(n+3)(n+4)(n+15)3^n/360.",
+  "description": "a(n) = (n+1)*(n+2)*(n+3)*(n+4)*(n+15)*3^n/360.",
   "id": "A080423",
   "mentions": [
-    "A080419"
+    "A080419",
+    "A136158"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

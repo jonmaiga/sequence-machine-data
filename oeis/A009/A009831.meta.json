@@ -1,9 +1,10 @@
 {
-  "description": "E.g.f.: tanh(x)*exp(tanh(x)).",
+  "description": "Expansion of e.g.f. tanh(x)*exp(tanh(x)).",
   "id": "A009831",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

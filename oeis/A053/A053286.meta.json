@@ -1,5 +1,5 @@
 {
-  "description": "Cototient of 2^n +1.",
+  "description": "Cototient of 2^n + 1.",
   "id": "A053286",
   "mentions": [
     "A000010",
@@ -12,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 34,
-    "source": "joeis"
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

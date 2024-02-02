@@ -1,7 +1,9 @@
 {
   "description": "Coordination sequence for net formed by holes in D_4 lattice.",
   "id": "A010079",
-  "mentions": [],
+  "mentions": [
+    "A008527"
+  ],
   "tags": [
     "easy",
     "formulas",

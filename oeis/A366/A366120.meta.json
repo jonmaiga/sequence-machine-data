@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways to choose a multiset of values whose sum is n from the first floor(1+log_2(n)) rows of Pascal's triangle.",
+  "id": "A366120",
+  "mentions": [
+    "A007318"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

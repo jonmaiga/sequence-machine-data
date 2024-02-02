@@ -2,6 +2,8 @@
   "description": "Decimal expansion of Sum_{n>=2} log(n)/n!.",
   "id": "A306243",
   "mentions": [
+    "A001620",
+    "A061444",
     "A193424",
     "A296301"
   ],

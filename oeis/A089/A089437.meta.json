@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that 4^n + 3 is prime.",
+  "description": "Numbers k such that 4^k + 3 is prime.",
   "id": "A089437",
   "mentions": [
     "A057732",
     "A228026"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

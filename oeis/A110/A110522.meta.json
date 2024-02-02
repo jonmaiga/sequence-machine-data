@@ -1,11 +1,17 @@
 {
-  "description": "Riordan array (1/(1+x), x(1-2x)/(1+x)^2).",
+  "description": "Riordan array (1/(1+x), x*(1-2*x)/(1+x)^2).",
   "id": "A110522",
   "mentions": [
+    "A000326",
+    "A016813",
+    "A033999",
+    "A052924",
+    "A078005",
     "A110517",
     "A110519",
     "A110523",
-    "A110524"
+    "A110524",
+    "A236267"
   ],
   "tags": [
     "easy",
@@ -15,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 67,
+    "size": 66,
     "source": "joeis"
   }
 }

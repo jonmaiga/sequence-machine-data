@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence such that no two distinct, unordered pairs of distinct points ((n, a(n), (m, a(m))) and ((k, a(k)), (j, a(j))) have the same midpoint.",
+  "description": "Lexicographically earliest sequence such that no two distinct, unordered pairs of distinct points ((n, a(n)), (m, a(m))) and ((k, a(k)), (j, a(j))) have the same midpoint.",
   "id": "A285490",
   "mentions": [
     "A285491"

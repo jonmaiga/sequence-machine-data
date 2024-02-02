@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. -log(1 - x^3 * exp(x)).",
+  "id": "A366546",
+  "mentions": [
+    "A009444",
+    "A292889",
+    "A346754",
+    "A358081",
+    "A366459"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

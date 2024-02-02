@@ -2,12 +2,14 @@
   "description": "Decimal expansion of the midsphere radius in a regular dodecahedron with unit edges.",
   "id": "A239798",
   "mentions": [
+    "A000045",
     "A001622",
     "A010503",
     "A019827",
     "A019863",
     "A020761",
-    "A020765"
+    "A020765",
+    "A066983"
   ],
   "tags": [
     "cons",

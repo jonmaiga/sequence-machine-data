@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled point-determining graphs with n nodes and k edges, n >= 0, 0 <= k <= n*(n - 1)/2.",
+  "id": "A369283",
+  "mentions": [
+    "A006024",
+    "A102579",
+    "A102596",
+    "A368987"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

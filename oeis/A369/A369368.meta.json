@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of the maximum expected number of steps of a random walk on the cells of the hexagonal lattice before it lands on a mined cell, given that all but n cells are mined.",
+  "id": "A369368",
+  "mentions": [
+    "A366998",
+    "A369369",
+    "A369370"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

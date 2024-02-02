@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with sum (i-p(i))^2 <= n*(n-1)/2",
+  "description": "Number of permutations of 1..n with sum (i-p(i))^2 <= n*(n-1)/2.",
   "id": "A179263",
   "mentions": [],
   "tags": [

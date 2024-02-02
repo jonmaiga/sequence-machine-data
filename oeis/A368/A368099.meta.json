@@ -1,0 +1,48 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of non-isomorphic k-element sets of finite nonempty multisets with cardinalities summing to n, or strict multiset partitions of weight n and length k.",
+  "id": "A368099",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A000612",
+    "A003465",
+    "A007716",
+    "A007718",
+    "A049311",
+    "A055621",
+    "A056156",
+    "A058891",
+    "A255903",
+    "A283877",
+    "A296122",
+    "A300913",
+    "A302545",
+    "A306005",
+    "A316980",
+    "A317532",
+    "A317533",
+    "A317775",
+    "A317776",
+    "A317794",
+    "A317795",
+    "A319557",
+    "A319560",
+    "A321194",
+    "A322133",
+    "A323818",
+    "A330787",
+    "A334550",
+    "A368094",
+    "A368095",
+    "A368096"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

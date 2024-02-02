@@ -1,0 +1,19 @@
+{
+  "description": "a(1), a(2) = 2. Thereafter a(n) is the least novel multiple of the greatest prime which divides precisely one of a(n-1), a(n-2) but not the other. If no such prime exists a(n) is the least novel multiple of the smallest prime dividing neither a(n-1) nor a(n-2).",
+  "id": "A367082",
+  "mentions": [
+    "A007947",
+    "A008578",
+    "A351495",
+    "A359804"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

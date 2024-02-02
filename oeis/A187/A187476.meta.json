@@ -1,5 +1,5 @@
 {
-  "description": "Rank transform of the sequence floor(3(n-1)/2)); complement of A187477.",
+  "description": "Rank transform of the sequence floor(3(n-1)/2); complement of A187477.",
   "id": "A187476",
   "mentions": [
     "A000027",

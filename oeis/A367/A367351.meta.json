@@ -1,0 +1,27 @@
+{
+  "description": "Analog of A121805, but starting with 7.",
+  "id": "A367351",
+  "mentions": [
+    "A121805",
+    "A139284",
+    "A330128",
+    "A330129",
+    "A366492",
+    "A367337",
+    "A367350",
+    "A367352",
+    "A367353",
+    "A367354"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

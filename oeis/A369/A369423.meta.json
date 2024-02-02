@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3 X 3 Fishburn matrices with entries in the set {0,1,...,n}.",
+  "id": "A369423",
+  "mentions": [
+    "A369415"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

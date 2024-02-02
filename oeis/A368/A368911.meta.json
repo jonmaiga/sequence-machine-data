@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms of A327934 less than 10^n, where A327934 gives numbers k such that there is no prime p such that p^p divides k, but for its arithmetic derivative a positive finite number of such primes exist.",
+  "id": "A368911",
+  "mentions": [
+    "A003415",
+    "A327934",
+    "A359550",
+    "A360111",
+    "A368919",
+    "A368920"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

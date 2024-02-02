@@ -1,0 +1,17 @@
+{
+  "description": "Total number of weak ascents in all length-n weak ascent sequences.",
+  "id": "A369476",
+  "mentions": [
+    "A336070",
+    "A369321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

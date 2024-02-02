@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A( 5*A(x)^5 - 125*A(x)^6 ) = 5*x^5.",
+  "id": "A369535",
+  "mentions": [
+    "A291313",
+    "A291314",
+    "A291315",
+    "A369531",
+    "A369532",
+    "A369533",
+    "A369534"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) = number of compositions of n with k inversions (n >= 0, 0 <= k <= floor(n^2/8).",
+  "description": "Irregular triangle read by rows: T(n,k) = number of compositions of n with k inversions (n >= 0, 0 <= k <= floor(n^2/8)).",
   "id": "A189074",
   "mentions": [
     "A000041",

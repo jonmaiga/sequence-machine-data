@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} pp(k)) where pp(k) is the parity of p(k) the k-th partition number = A040051(k).",
+  "description": "a(n) = Sum_{k=0..n} pp(k) where pp(k) is the parity of p(k) the k-th partition number = A040051(k).",
   "id": "A071754",
   "mentions": [
     "A040051"

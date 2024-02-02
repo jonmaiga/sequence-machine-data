@@ -1,0 +1,29 @@
+{
+  "description": "Square array T(n,k), n >= 2, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{j=0..n} k^(n-j) * floor(j/2).",
+  "id": "A368296",
+  "mentions": [
+    "A002620",
+    "A004526",
+    "A055129",
+    "A097137",
+    "A097138",
+    "A097139",
+    "A126885",
+    "A178420",
+    "A178719",
+    "A178730",
+    "A178827",
+    "A368343"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

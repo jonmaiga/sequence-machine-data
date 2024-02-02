@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A000005(k) <= A000688(k).",
+  "id": "A369170",
+  "mentions": [
+    "A000005",
+    "A000688",
+    "A369168",
+    "A369169"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

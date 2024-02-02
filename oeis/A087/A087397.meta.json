@@ -1,5 +1,5 @@
 {
-  "description": "Smallest triangular number > 1 and == 1 (mod (prime(n)).",
+  "description": "Smallest triangular number > 1 and == 1 (mod prime(n)).",
   "id": "A087397",
   "mentions": [],
   "tags": [

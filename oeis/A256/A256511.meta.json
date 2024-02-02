@@ -1,8 +1,13 @@
 {
-  "description": "a(n) = ((n^2)-1)!.",
+  "description": "a(n) = (n^2 - 1)!.",
   "id": "A256511",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A088020"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

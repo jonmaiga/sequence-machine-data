@@ -1,0 +1,22 @@
+{
+  "description": "Products of primorials that are perfect powers.",
+  "id": "A368681",
+  "mentions": [
+    "A000079",
+    "A001597",
+    "A002110",
+    "A025487",
+    "A131605",
+    "A365308",
+    "A368508",
+    "A368682"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of [n] whose block minima sum to k, where k is chosen so as to maximize this number.",
+  "id": "A365903",
+  "mentions": [
+    "A124327",
+    "A367969"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

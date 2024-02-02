@@ -1,0 +1,19 @@
+{
+  "description": "The denominators of a series that converges to log(2) obtained using Whittaker's root series formula.",
+  "id": "A367596",
+  "mentions": [
+    "A002162",
+    "A365594",
+    "A367597"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = Sum_n>=0} x^n * A(x)^n * Product_{k=0..n-1} (5*k + 1).",
+  "description": "G.f. A(x) satisfies: A(x) = Sum_{n>=0} x^n * A(x)^n * Product_{k=0..n-1} (5*k + 1).",
   "id": "A302565",
   "mentions": [
     "A008548",

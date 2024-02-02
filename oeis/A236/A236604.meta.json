@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..2 arrays colored with the maximum plus the lower median minus the minimum of every 2X2 subblock",
+  "description": "Number of (n+1) X (1+1) 0..2 arrays colored with the maximum plus the lower median minus the minimum of every 2 X 2 subblock.",
   "id": "A236604",
   "mentions": [
     "A236610"

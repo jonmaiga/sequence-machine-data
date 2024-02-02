@@ -1,0 +1,19 @@
+{
+  "description": "Indices k where A368825(k) = 1.",
+  "id": "A368827",
+  "mentions": [
+    "A005117",
+    "A055231",
+    "A124010",
+    "A368823",
+    "A368825"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

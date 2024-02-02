@@ -1,5 +1,5 @@
 {
-  "description": "Sum{floor(j*sqrt(3) : 1<=j<=n}; n-th partial sum of Beatty sequence for sqrt(3).",
+  "description": "Sum{floor(j*sqrt(3)) : 1<=j<=n}; n-th partial sum of Beatty sequence for sqrt(3).",
   "id": "A194106",
   "mentions": [
     "A022838",

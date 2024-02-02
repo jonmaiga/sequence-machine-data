@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the number c = Sum_{n>=1} (zeta(n+1)-1)/n).",
+  "description": "Decimal expansion of the number c = Sum_{n>=1} (zeta(n+1)-1)/n.",
   "id": "A085361",
   "mentions": [
     "A002210",

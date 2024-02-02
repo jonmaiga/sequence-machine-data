@@ -2,6 +2,7 @@
   "description": "Number of primes of the form 3*m + 2 <= n minus number of primes of the form 3*m + 1 <= n.",
   "id": "A321856",
   "mentions": [
+    "A007350",
     "A038698",
     "A066520",
     "A071838",

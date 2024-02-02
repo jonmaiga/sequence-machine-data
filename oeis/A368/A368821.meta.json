@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n into 2 refactorable parts.",
+  "id": "A368821",
+  "mentions": [
+    "A033950",
+    "A336040"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Index of the first occurrence of n in A076982.",
+  "id": "A368855",
+  "mentions": [
+    "A000217",
+    "A002378",
+    "A076982",
+    "A076983",
+    "A225400"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if A342001(A005940(1+n)) is not divisible by p^p for any prime p, otherwise 0.",
+  "id": "A368905",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A005940",
+    "A342001",
+    "A359550",
+    "A366801",
+    "A368906",
+    "A368907",
+    "A368914",
+    "A368916"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

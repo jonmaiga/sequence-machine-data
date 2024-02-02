@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} n^(2*k) * binomial(n-k,k).",
+  "id": "A368888",
+  "mentions": [
+    "A171180",
+    "A176233",
+    "A350467",
+    "A368889"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

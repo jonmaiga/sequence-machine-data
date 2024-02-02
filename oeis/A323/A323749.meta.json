@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,m (1 <= n < m) = number of moves of a (m,n)-leaper (a generalization of a chess knight) until it can no longer move, starting on a board with squares spirally numbered from 1. Each move is to the lowest-numbered unvisited square. T(n,m) = -1 if the path never terminates.",
+  "description": "Triangle read by rows: T(n,m) (1 <= n < m) = number of moves of a (m,n)-leaper (a generalization of a chess knight) until it can no longer move, starting on a board with squares spirally numbered from 1. Each move is to the lowest-numbered unvisited square. T(n,m) = -1 if the path never terminates.",
   "id": "A323749",
   "mentions": [
     "A316667",

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangular array, read by rows: T(n,k) = out-degree of k-th vertex in the distance graph of the strict partitions of n, where the parts of partitions and the list of partitions are in reverse-lexicographic order (Mathematica order).",
+  "id": "A366747",
+  "mentions": [
+    "A000009",
+    "A000097",
+    "A080577",
+    "A096778",
+    "A366156",
+    "A366597"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

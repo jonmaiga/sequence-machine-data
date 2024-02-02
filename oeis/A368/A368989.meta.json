@@ -1,0 +1,19 @@
+{
+  "description": "Values of records in A368698.",
+  "id": "A368989",
+  "mentions": [
+    "A324201",
+    "A344005",
+    "A368698",
+    "A368988"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

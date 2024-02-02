@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling(n^(1/3)).",
+  "description": "a(n) = ceiling(n^(1/3)).",
   "id": "A134914",
   "mentions": [
     "A003059",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 78,
+    "size": 105,
     "source": "joeis"
   }
 }

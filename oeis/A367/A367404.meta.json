@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with a semi-sum k.",
+  "id": "A367404",
+  "mentions": [
+    "A000041",
+    "A004526",
+    "A046663",
+    "A108917",
+    "A122768",
+    "A299701",
+    "A304792",
+    "A364272",
+    "A364911",
+    "A365381",
+    "A365541",
+    "A365543",
+    "A365658",
+    "A365661",
+    "A365663",
+    "A366738",
+    "A367405"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

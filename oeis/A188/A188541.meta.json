@@ -1,14 +1,15 @@
 {
-  "description": "a(n) = A079500(n) - 2*A079500(n-1).",
+  "description": "a(n) = 2 * A079500(n) - A079500(n+1).",
   "id": "A188541",
   "mentions": [
     "A079500"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 0,
     "size": 47,
     "source": "oeis-bfile"
   }

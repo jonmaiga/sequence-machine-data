@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Product_{n>0} 1/(1 - 2^(n-1)*x^n).",
+  "description": "Expansion of g.f.: Product_{n>0} 1/(1 - 2^(n-1)*x^n).",
   "id": "A075900",
   "mentions": [
     "A001970",

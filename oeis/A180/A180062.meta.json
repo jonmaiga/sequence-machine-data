@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle by rows derived from variants of Cartan matrices: (1's in the super and subdiagonals and 3,4,4,4,... in the main diagonal alternating with 4,4,4,...",
+  "description": "Irregular triangle by rows derived from variants of Cartan matrices: 1's in the super and subdiagonals and 3,4,4,4,... in the main diagonal alternating with 4,4,4,...",
   "id": "A180062",
   "mentions": [
     "A002530",

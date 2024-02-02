@@ -1,0 +1,19 @@
+{
+  "description": "Products of two consecutive Fermat numbers: a(n) = A000215(n) * A000215(n+1).",
+  "id": "A367228",
+  "mentions": [
+    "A000215",
+    "A050217",
+    "A281576"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

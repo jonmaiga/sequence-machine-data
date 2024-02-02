@@ -2,10 +2,12 @@
   "description": "a(n) is the largest integer m such that 2^m divides (2*n)^n, i.e., the exponent of 2 in (2*n)^n.",
   "id": "A091512",
   "mentions": [
+    "A000027",
     "A000312",
     "A001511",
     "A001787",
     "A007814",
+    "A048298",
     "A069895",
     "A090739",
     "A090740",

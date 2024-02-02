@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(0,0) = 1; T(n,k) = T(n-1, k) + T(n-1, k-1) + T(n-1, k-2) + 3*T(n-1, k-3) + T(n-1, k-4) + T(n-1, k-5) + T(n-1, k-6) + T(n-1, k-7)) for k = 0..7*n; T(n,k) = 0 for n or k < 0.",
+  "description": "Triangle read by rows: T(0,0) = 1; T(n,k) = T(n-1, k) + T(n-1, k-1) + T(n-1, k-2) + 3*T(n-1, k-3) + T(n-1, k-4) + T(n-1, k-5) + T(n-1, k-6) + T(n-1, k-7) for k = 0..7*n; T(n,k) = 0 for n or k < 0.",
   "id": "A319095",
   "mentions": [
     "A171890"

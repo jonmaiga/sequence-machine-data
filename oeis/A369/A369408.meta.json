@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the length of the shortest proof for the MIU formal system string (theorem) given by A369173(n,k).",
+  "id": "A369408",
+  "mentions": [
+    "A024495",
+    "A331536",
+    "A368946",
+    "A369173",
+    "A369410",
+    "A369586",
+    "A369587"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

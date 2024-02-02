@@ -1,9 +1,11 @@
 {
-  "description": "(n+1)(n+2)(n+9)3^n/18.",
+  "description": "a(n) = (n+1)*(n+2)*(n+9)*3^n/18.",
   "id": "A080421",
   "mentions": [
     "A006503",
-    "A080419"
+    "A036068",
+    "A080419",
+    "A136158"
   ],
   "tags": [
     "easy",
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

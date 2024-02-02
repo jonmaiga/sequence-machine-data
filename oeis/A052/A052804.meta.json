@@ -1,7 +1,10 @@
 {
   "description": "A simple grammar: cycles of rooted cycles.",
   "id": "A052804",
-  "mentions": [],
+  "mentions": [
+    "A052830",
+    "A052858"
+  ],
   "tags": [
     "easy",
     "formulas",

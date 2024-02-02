@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k) * (1 + x^(k^2)) * (1 + x^(k^3)).",
+  "id": "A369575",
+  "mentions": [
+    "A000009",
+    "A033461",
+    "A279329",
+    "A369570",
+    "A369571",
+    "A369572"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

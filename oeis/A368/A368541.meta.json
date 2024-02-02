@@ -1,0 +1,28 @@
+{
+  "description": "The number of exponential divisors of the nonsquarefree numbers.",
+  "id": "A368541",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A013929",
+    "A049419",
+    "A059956",
+    "A084936",
+    "A174961",
+    "A229099",
+    "A275699",
+    "A327837",
+    "A368038",
+    "A368039",
+    "A368040"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 118,
+    "source": "oeis-bfile"
+  }
+}

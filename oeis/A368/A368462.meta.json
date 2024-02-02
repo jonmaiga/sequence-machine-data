@@ -1,0 +1,19 @@
+{
+  "description": "Prime averages of first k odd primes for some k.",
+  "id": "A368462",
+  "mentions": [
+    "A050248",
+    "A071148",
+    "A097961",
+    "A363477"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

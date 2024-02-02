@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that have a comma-successor.",
+  "id": "A367615",
+  "mentions": [
+    "A121805",
+    "A367338",
+    "A367340",
+    "A367341"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

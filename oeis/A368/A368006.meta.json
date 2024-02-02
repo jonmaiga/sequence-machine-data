@@ -1,0 +1,16 @@
+{
+  "description": "Rayo's function: smallest natural number larger than any number uniquely defined by an n-symbol formula in First Order Set Theory.",
+  "id": "A368006",
+  "mentions": [
+    "A028444"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

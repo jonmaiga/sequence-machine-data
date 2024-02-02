@@ -1,5 +1,5 @@
 {
-  "description": "Sum of non-Fibonacci numbers between successive Fibonacci numbers: a(n) = Sum_{k=F(n)+1..F(n+1)-1)} k.",
+  "description": "Sum of non-Fibonacci numbers between successive Fibonacci numbers: a(n) = Sum_{k=F(n)+1..F(n+1)-1} k.",
   "id": "A109454",
   "mentions": [
     "A000045",

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{i=1..n, j=1..n} (i^2 + 4*i*j + j^2).",
+  "id": "A368064",
+  "mentions": [
+    "A079478",
+    "A324403",
+    "A367542",
+    "A367543",
+    "A368065",
+    "A368066",
+    "A368067"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least integer which begins n consecutive integers with the same prime tower factorization tree.",
+  "id": "A368899",
+  "mentions": [
+    "A034173",
+    "A369015"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

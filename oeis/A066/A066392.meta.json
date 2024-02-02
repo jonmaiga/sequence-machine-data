@@ -1,11 +1,12 @@
 {
-  "description": "a(n)^2 is smallest positive square that contains n consecutive internal 0's.",
+  "description": "a(n)^2 is the smallest positive square that contains n consecutive internal 0's.",
   "id": "A066392",
   "mentions": [
     "A066371"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

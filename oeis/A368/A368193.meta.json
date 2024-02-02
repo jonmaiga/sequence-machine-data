@@ -1,0 +1,14 @@
+{
+  "description": "Number of (undirected) cycles in the n X n camel graph.",
+  "id": "A368193",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

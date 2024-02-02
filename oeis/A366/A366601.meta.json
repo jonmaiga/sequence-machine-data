@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0. For a(n-1) a novel term a(n) = a(A025480(a(n-1)), and if a(n-1) has occurred k (>1) times, a(n) = k-1 (the number of repetitions of a(n-1) in all prior terms).",
+  "description": "a(0) = 0. For a(n-1) a novel term a(n) = a(A025480(a(n-1))), and if a(n-1) has occurred k (>1) times, a(n) = k-1 (the number of repetitions of a(n-1) in all prior terms).",
   "id": "A366601",
   "mentions": [
     "A001477",

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if there is no prime p such that p^p divides n' / gcd(n,n'), and 0 otherwise, where n' stands for the arithmetic derivative of n, A003415(n).",
+  "id": "A369006",
+  "mentions": [
+    "A003415",
+    "A083345",
+    "A276086",
+    "A359550",
+    "A368914",
+    "A368916",
+    "A369004",
+    "A369007"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

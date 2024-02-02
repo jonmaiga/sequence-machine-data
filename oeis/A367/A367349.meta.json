@@ -1,0 +1,19 @@
+{
+  "description": "List of numbers in the range 1 to 99 missing from A366487.",
+  "id": "A367349",
+  "mentions": [
+    "A121805",
+    "A366487"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

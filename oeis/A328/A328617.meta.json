@@ -1,5 +1,5 @@
 {
-  "description": "Multiplicative with a(p^e) = p^e, if e = 0 mod p, otherwise a(p^e) = p^((p*floor(e/p)) + A124223(A000720(p),e mod p).",
+  "description": "Multiplicative with a(p^e) = p^e, if e = 0 mod p, otherwise a(p^e) = p^((p*floor(e/p)) + A124223(A000720(p),e mod p)).",
   "id": "A328617",
   "mentions": [
     "A000720",

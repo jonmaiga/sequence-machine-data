@@ -2,7 +2,10 @@
   "description": "Odd elements in the 5-Pascal triangle A028313 that are not 1.",
   "id": "A028316",
   "mentions": [
-    "A028313"
+    "A028313",
+    "A028314",
+    "A028315",
+    "A028325"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,25 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) is the number of words of length n over the alphabet [k] and sortable by a (2,1)-pop stack of depth 2.",
+  "id": "A369326",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000079",
+    "A000290",
+    "A001477",
+    "A256857",
+    "A369324",
+    "A369327",
+    "A369328"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Multinomial coefficients(TOP, BOTTOM), where TOP = 2^n, BOTTOM = ( C(n,0) C(n,1) C(n,2) ... C(n,n) ).",
   "id": "A022914",
-  "mentions": [],
+  "mentions": [
+    "A051459"
+  ],
   "tags": [
     "nonn"
   ],

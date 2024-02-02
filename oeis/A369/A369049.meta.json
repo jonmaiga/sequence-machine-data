@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n mod n', where n' is the arithmetic derivative of n, A003415.",
+  "id": "A369049",
+  "mentions": [
+    "A003415",
+    "A085731",
+    "A328382",
+    "A342014",
+    "A369050"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

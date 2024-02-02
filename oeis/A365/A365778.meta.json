@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. (exp(3*x) / (2 - exp(3*x)))^(1/6).",
+  "id": "A365778",
+  "mentions": [
+    "A365779"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

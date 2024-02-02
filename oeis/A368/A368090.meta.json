@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows. T(n, k) = Sum_{p in P(n, k)} Product_{r in p}(r + 1), where P(n, k) are the partitions of n with length k.",
+  "id": "A368090",
+  "mentions": [
+    "A074141",
+    "A238963",
+    "A368091"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] whose cycle maxima sum to 2n.",
+  "id": "A368678",
+  "mentions": [
+    "A143947",
+    "A367594",
+    "A368246",
+    "A368675"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

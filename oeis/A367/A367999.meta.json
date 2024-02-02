@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of the greatest probability that a particular free polyomino with n cells appears as the image of a simple random walk on the square lattice.",
+  "id": "A367999",
+  "mentions": [
+    "A367674",
+    "A367763",
+    "A367994",
+    "A367995",
+    "A367997",
+    "A367998",
+    "A368005"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

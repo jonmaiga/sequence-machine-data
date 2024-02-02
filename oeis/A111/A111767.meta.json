@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of abs(log(tan(1 degree)))).",
+  "description": "Decimal expansion of abs(log(tan(1 degree))).",
   "id": "A111767",
   "mentions": [
     "A019810",

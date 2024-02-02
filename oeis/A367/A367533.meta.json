@@ -1,0 +1,17 @@
+{
+  "description": "The number of ways of tiling the n X n torus up to the symmetries of the square by a tile that is fixed under both horizontal and vertical reflection, but not diagonal reflection.",
+  "id": "A367533",
+  "mentions": [
+    "A255016",
+    "A295223",
+    "A367522"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

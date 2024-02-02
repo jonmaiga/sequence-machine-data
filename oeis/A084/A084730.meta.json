@@ -2,14 +2,16 @@
   "description": "Smallest prime of the form k*n! - 1.",
   "id": "A084730",
   "mentions": [
+    "A038700",
     "A083663"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

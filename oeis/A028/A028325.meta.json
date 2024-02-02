@@ -2,11 +2,11 @@
   "description": "Odd elements to the right of the central elements of the 5-Pascal triangle A028313.",
   "id": "A028325",
   "mentions": [
-    "A028313"
+    "A028313",
+    "A028323"
   ],
   "tags": [
-    "nonn",
-    "tabf"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

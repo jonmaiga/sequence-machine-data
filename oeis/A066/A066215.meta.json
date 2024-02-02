@@ -2,6 +2,7 @@
   "description": "Numbers which are sums of cubes of some subset of divisors.",
   "id": "A066215",
   "mentions": [
+    "A000578",
     "A066213",
     "A066214",
     "A066216"
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

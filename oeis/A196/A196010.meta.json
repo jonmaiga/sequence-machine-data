@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = [x^(n*(n+1)/2)] G(x)^n where G(x) = Sum_{n>=0} x^(n*(n+1)/2)).",
+  "description": "a(n) = [x^(n*(n+1)/2)] G(x)^n where G(x) = Sum_{n>=0} x^(n*(n+1)/2).",
   "id": "A196010",
   "mentions": [
     "A000217",

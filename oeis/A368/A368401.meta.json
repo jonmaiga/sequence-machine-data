@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of permutations of [n] whose sum of cycle maxima minus cycle minima gives k, triangle T(n,k), n>=0, 0<=k<=A002620(n), read by rows.",
+  "id": "A368401",
+  "mentions": [
+    "A000142",
+    "A002538",
+    "A002620",
+    "A124327",
+    "A143946",
+    "A367955",
+    "A368338"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

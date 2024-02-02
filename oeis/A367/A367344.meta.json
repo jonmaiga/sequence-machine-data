@@ -1,0 +1,17 @@
+{
+  "description": "Compute the commas sequence starting at 1, as in A121805, except do the calculations in octal. The terms are written here in octal (see also A367343).",
+  "id": "A367344",
+  "mentions": [
+    "A121805",
+    "A367343"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

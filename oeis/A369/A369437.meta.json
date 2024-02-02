@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} (x^(k^3) + 1 + 1/x^(k^3)).",
+  "id": "A369437",
+  "mentions": [
+    "A000578",
+    "A316706",
+    "A348892",
+    "A369345"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0, a(1) = a(2) = 1, a(n) = a(a(n-1)) + a(n-a(n-1)) for 3 <= n <= 5, and a(n) = a(a(n-1)) + r(n) for n >= 6, where r(n) = a(a(floor(n/6)) for n == 0, 1, 2, 3, 4 (mod 6), and = a(n - a(floor(n/6)) for n == 5 (mod 6).",
+  "description": "a(0) = 0, a(1) = a(2) = 1, a(n) = a(a(n-1)) + a(n-a(n-1)) for 3 <= n <= 5, and a(n) = a(a(n-1)) + r(n) for n >= 6, where r(n) = a(a(floor(n/6))) for n == 0, 1, 2, 3, 4 (mod 6), and r(n) = a(n - a(floor(n/6))) for n == 5 (mod 6).",
   "id": "A147954",
   "mentions": [
     "A004001",

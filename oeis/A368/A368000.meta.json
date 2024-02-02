@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the numerator of the probability that a particular one of the A335573(n+1) fixed polyominoes corresponding to the free polyomino with binary code A246521(n+1) appears as the image of a simple random walk on the square lattice.",
+  "id": "A368000",
+  "mentions": [
+    "A000105",
+    "A246521",
+    "A335573",
+    "A367675",
+    "A367764",
+    "A367994",
+    "A367995",
+    "A368001",
+    "A368002",
+    "A368004"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

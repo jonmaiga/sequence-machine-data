@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = MAX{T(n,k} for k=1,2,...,n, T given in A026836.",
+  "description": "a(n) = MAX{T(n,k) for k=1,2,...,n}, T given in A026836.",
   "id": "A026839",
   "mentions": [
     "A026836"

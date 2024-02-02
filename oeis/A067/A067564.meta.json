@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that determinant[{{n, phi(n), sigma(n)}, {n+1, phi(n+1), sigma(n+1)}, {n+2, phi(n+2), sigma(n+2)}] is a nonnegative cube.",
+  "description": "Numbers n such that determinant[{{n, phi(n), sigma(n)}, {n+1, phi(n+1), sigma(n+1)}, {n+2, phi(n+2), sigma(n+2)}}] is a nonnegative cube.",
   "id": "A067564",
   "mentions": [],
   "tags": [

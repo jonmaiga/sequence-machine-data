@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. -log(1 - x^2 * (exp(x) - 1)).",
+  "id": "A366564",
+  "mentions": [
+    "A052858",
+    "A366459",
+    "A366751",
+    "A368173"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

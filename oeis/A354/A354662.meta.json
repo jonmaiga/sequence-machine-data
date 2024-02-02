@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: 2 = Sum_{n=-oo..oo} (-x)^(n*(n+1)/2) * A(x)^(n*(n-1)/2).",
+  "description": "G.f. A(x) satisfies: 2 = Sum_{n=-oo..+oo} (-x)^(n*(n+1)/2) * A(x)^(n*(n-1)/2).",
   "id": "A354662",
   "mentions": [
     "A268299",

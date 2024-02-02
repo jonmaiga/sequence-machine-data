@@ -1,0 +1,21 @@
+{
+  "description": "Primes with a single 0-bit in binary expansion such that changing the position of the 0-bit always gives a nonprime (including the one with a leading zero).",
+  "id": "A368214",
+  "mentions": [
+    "A039986",
+    "A081118",
+    "A095058",
+    "A095078",
+    "A138290",
+    "A208083"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

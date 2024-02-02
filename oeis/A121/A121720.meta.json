@@ -1,5 +1,5 @@
 {
-  "description": "a(n)= 4*a(n-2) -2*a(n-4).",
+  "description": "a(n) = 4*a(n-2) - 2*a(n-4).",
   "id": "A121720",
   "mentions": [
     "A002530",
@@ -9,6 +9,7 @@
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

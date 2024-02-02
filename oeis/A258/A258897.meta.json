@@ -1,5 +1,5 @@
 {
-  "description": "Divisorial primes p such that p-1 = Product_{d|k} d for some k < sqrt(p-1)).",
+  "description": "Divisorial primes p such that p-1 = Product_{d|k} d for some k < sqrt(p-1).",
   "id": "A258897",
   "mentions": [
     "A007955",

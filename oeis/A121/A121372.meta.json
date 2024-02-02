@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows of length A003056(n) for n>=1, defined by the recurrence: T(n,k) = T(n-k,k-1) - T(n-k,k) for n>k>1, with T(n,1)=(-1)^(n-1) for n>=1.",
+  "description": "Triangle, read by rows of length A003056(n) for n >= 1, defined by the recurrence: T(n,k) = T(n-k,k-1) - T(n-k,k) for n > k > 1, with T(n,1) =(-1)^(n-1) for n >= 1.",
   "id": "A121372",
   "mentions": [
     "A003056",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

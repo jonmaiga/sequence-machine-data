@@ -2,7 +2,9 @@
   "description": "a(n) = Product_{k=0...n} (k!^3).",
   "id": "A061719",
   "mentions": [
-    "A000442"
+    "A000178",
+    "A000442",
+    "A074962"
   ],
   "tags": [
     "easy",

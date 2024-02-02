@@ -2,9 +2,11 @@
   "description": "Number of non-congruent solutions to x^2 == 2 mod n.",
   "id": "A087780",
   "mentions": [
+    "A013661",
     "A038873",
     "A057126",
-    "A060594"
+    "A060594",
+    "A196525"
   ],
   "tags": [
     "easy",

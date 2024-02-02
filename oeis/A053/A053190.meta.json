@@ -1,11 +1,10 @@
 {
-  "description": "Numerators in the convergents of [L_1, L_2, L_3, . . . ] where L_i is period length of the continued fraction for sqrt(i).",
+  "description": "a(n) is the numerator of the n-th convergent of [L_1, L_2, L_3, ...] where L_i is the period of the continued fraction for sqrt(i).",
   "id": "A053190",
   "mentions": [
     "A053011"
   ],
   "tags": [
-    "cofr",
     "frac",
     "nonn"
   ],

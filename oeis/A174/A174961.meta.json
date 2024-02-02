@@ -1,11 +1,12 @@
 {
-  "description": "Number of non-unitary divisors of a nonsquarefree number n.",
+  "description": "Number of non-unitary divisors of the n-th nonsquarefree number.",
   "id": "A174961",
   "mentions": [
-    "A000005",
-    "A001221",
+    "A001620",
+    "A013661",
     "A013929",
-    "A048105"
+    "A048105",
+    "A306016"
   ],
   "tags": [
     "formulas",

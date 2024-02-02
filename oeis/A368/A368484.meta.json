@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into parts not greater than n/2.",
+  "id": "A368484",
+  "mentions": [
+    "A011782",
+    "A110618",
+    "A258259"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

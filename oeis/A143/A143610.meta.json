@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form p^2*q^3, where p,q are distinct primes.",
+  "description": "Numbers of the form p^2 * q^3, where p,q are distinct primes.",
   "id": "A143610",
   "mentions": [
     "A052486",

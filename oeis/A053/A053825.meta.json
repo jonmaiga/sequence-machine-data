@@ -2,6 +2,7 @@
   "description": "Dirichlet inverse of sigma_3 function (A001158).",
   "id": "A053825",
   "mentions": [
+    "A000010",
     "A001158",
     "A046692",
     "A053822",

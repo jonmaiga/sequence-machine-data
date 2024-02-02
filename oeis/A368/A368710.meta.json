@@ -1,0 +1,25 @@
+{
+  "description": "The maximal exponent in the prime factorization of the powerful numbers.",
+  "id": "A368710",
+  "mentions": [
+    "A001694",
+    "A033150",
+    "A048250",
+    "A051903",
+    "A059956",
+    "A090699",
+    "A368711",
+    "A368712",
+    "A368713"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

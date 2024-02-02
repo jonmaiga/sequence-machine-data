@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; for n>1, a(n) is the smallest number not already used which has a factor difference in common with a(n-1).",
+  "id": "A368103",
+  "mentions": [
+    "A359035",
+    "A360995",
+    "A368059",
+    "A368312"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

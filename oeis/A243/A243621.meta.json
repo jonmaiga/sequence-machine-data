@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose digital sum equals the number of bits in its binary expansion. Repeated digits in decimal expansion are not allowed.",
+  "description": "Numbers whose digital sum equals the number of bits in its binary expansion. Repeated digits in decimal expansion are not allowed.",
   "id": "A243621",
   "mentions": [
     "A243615"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 53,
     "source": "oeis-bfile"
   }
 }

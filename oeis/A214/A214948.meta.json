@@ -2,7 +2,8 @@
   "description": "a(n) is the sum over all proper integer partitions of n of the previous terms.",
   "id": "A214948",
   "mentions": [
-    "A000041"
+    "A000041",
+    "A246828"
   ],
   "tags": [
     "formulas",

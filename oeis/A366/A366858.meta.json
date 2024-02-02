@@ -1,0 +1,24 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = n! * [x^n] exp((k-1)*x)*(k*cosh(sqrt(k)*x) + sqrt(k)*sinh(sqrt(k)*x))/k, with 1 <= k <= n.",
+  "id": "A366858",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000129",
+    "A001835",
+    "A028387",
+    "A083065",
+    "A163073",
+    "A366859"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "phi(n) + n is a square.",
+  "description": "Numbers k such that phi(k) + k is a square.",
   "id": "A114073",
   "mentions": [
+    "A000010",
     "A114072",
     "A121048"
   ],
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

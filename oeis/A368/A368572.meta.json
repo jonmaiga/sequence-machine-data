@@ -1,0 +1,19 @@
+{
+  "description": "Number of refactorable numbers less than n that do not divide n.",
+  "id": "A368572",
+  "mentions": [
+    "A033950",
+    "A336040",
+    "A368817"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Number of n-element sets of singletons or pairs of distinct elements of {1..n} with union {1..n}, or loop-graphs covering n vertices with n edges.",
+  "id": "A368597",
+  "mentions": [
+    "A000085",
+    "A000272",
+    "A000612",
+    "A000666",
+    "A001187",
+    "A006129",
+    "A014068",
+    "A054780",
+    "A057500",
+    "A058891",
+    "A062740",
+    "A100861",
+    "A111924",
+    "A116508",
+    "A136556",
+    "A322661",
+    "A333331",
+    "A367863",
+    "A367869",
+    "A368596",
+    "A368599",
+    "A368600",
+    "A368730"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

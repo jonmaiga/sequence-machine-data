@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of partitions of [n] whose sum of block maxima minus block minima gives k, triangle T(n,k), n>=0, 0<=k<=A002620(n), read by rows.",
+  "id": "A368338",
+  "mentions": [
+    "A000012",
+    "A000096",
+    "A000110",
+    "A000297",
+    "A001477",
+    "A002620",
+    "A081123",
+    "A367450",
+    "A367850",
+    "A368401"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Product_{primes p} ((p-1)/p)^(1/p)).",
+  "description": "Decimal expansion of Product_{primes p} ((p-1)/p)^(1/p).",
   "id": "A124175",
   "mentions": [
     "A001088",

@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of natural numbers: a(1) = 1; thereafter, if n is k-th number with an odd number of prime divisors (counted with multiplicity) [i.e., n = A026424(k)], a(n) = A244991(a(k)), otherwise, when n is k-th number > 1 with an even number of prime divisors [i.e., n = A028260(1+k)], a(n) = A244990(1+a(k))).",
+  "description": "Permutation of natural numbers: a(1) = 1; thereafter, if n is k-th number with an odd number of prime divisors (counted with multiplicity) [i.e., n = A026424(k)], a(n) = A244991(a(k)), otherwise, when n is k-th number > 1 with an even number of prime divisors [i.e., n = A028260(1+k)], a(n) = A244990(1+a(k)).",
   "id": "A245613",
   "mentions": [
     "A026424",

@@ -2,6 +2,7 @@
   "description": "Minimal lengths of prime knots formed by orthogonal unit line segments of the cubic lattice.",
   "id": "A366190",
   "mentions": [
+    "A076770",
     "A122059"
   ],
   "tags": [

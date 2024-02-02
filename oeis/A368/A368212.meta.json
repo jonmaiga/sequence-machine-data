@@ -1,0 +1,15 @@
+{
+  "description": "Square spiral of positive integers built by greedy algorithm such that each value corresponds to the area of the connected component with terms of the same value and containing this value.",
+  "id": "A368212",
+  "mentions": [
+    "A368148"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

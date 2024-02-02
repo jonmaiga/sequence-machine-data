@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) = Sum_{i=ceiling((k-n)/2)..floor((k+n-1)/2)} binomial(k,i), with n >= 1, k >= 0.",
+  "id": "A368175",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A000225",
+    "A001405",
+    "A014495",
+    "A026010",
+    "A026023",
+    "A191781",
+    "A367508"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

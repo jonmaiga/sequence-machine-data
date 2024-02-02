@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions to +- 1^2 +- 2^2 +- 3^2 +- ... +- n^2 = n^2.",
+  "id": "A368243",
+  "mentions": [
+    "A063890",
+    "A158092",
+    "A348165"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,23 @@
 {
-  "description": "Sum_{d|n, n/d=3 mod 4} d^4.",
+  "description": "a(n) = Sum_{d|n, n/d=3 mod 4} d^4.",
   "id": "A050467",
-  "mentions": [],
+  "mentions": [
+    "A013663",
+    "A050463",
+    "A050464",
+    "A050465",
+    "A050466",
+    "A050468",
+    "A285989"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

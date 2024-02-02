@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n for n a power of 2; otherwise let 2^r be the greatest power of 2 which does not exceed n, then a(n) = the least novel m*a(k) where k = n - 2^r, and m is not a prior term.",
+  "id": "A367408",
+  "mentions": [
+    "A000027",
+    "A005940",
+    "A053644",
+    "A365436"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

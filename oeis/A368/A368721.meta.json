@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{j=1..n, k=1..n} (j^4 + k^4 + n^4).",
+  "id": "A368721",
+  "mentions": [
+    "A324437",
+    "A368622",
+    "A368685",
+    "A368720",
+    "A368723"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

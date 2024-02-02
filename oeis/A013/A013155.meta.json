@@ -1,15 +1,16 @@
 {
-  "description": "Expansion of e.g.f.: exp(arctanh(x)+log(x+1))=1+2*x+3/2!*x^2+6/3!*x^3+21/4!*x^4+90/5!*x^5...",
+  "description": "Expansion of e.g.f. exp(arctanh(x)+log(x+1)).",
   "id": "A013155",
   "mentions": [
     "A079484"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

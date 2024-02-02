@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..n arrays of length n+6 avoiding the consecutive pattern 0..n",
+  "description": "Number of 0..n arrays of length n+6 avoiding the consecutive pattern 0..n.",
   "id": "A206460",
   "mentions": [
     "A206455"

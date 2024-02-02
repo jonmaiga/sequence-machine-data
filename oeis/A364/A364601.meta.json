@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that, if k is the number of digits of m, then for some r > 1, the sum of the k-th powers of the digits of m^r is equal to m.",
+  "id": "A364601",
+  "mentions": [
+    "A005188",
+    "A065999",
+    "A066003",
+    "A066004"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

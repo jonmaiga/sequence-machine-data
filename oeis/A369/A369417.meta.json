@@ -1,0 +1,28 @@
+{
+  "description": "Powerful numbers k with multiple distinct prime factors such that rad(k) is not a primorial, where rad(k) = A007947(k).",
+  "id": "A369417",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A002110",
+    "A003591",
+    "A003592",
+    "A003593",
+    "A007947",
+    "A055932",
+    "A120944",
+    "A126706",
+    "A286708",
+    "A366413",
+    "A369374"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. log(1/(2-tan(x)-sec(x)).",
+  "description": "E.g.f. log(1/(2-tan(x)-sec(x))).",
   "id": "A185324",
   "mentions": [
     "A147315"

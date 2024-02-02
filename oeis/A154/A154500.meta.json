@@ -1,5 +1,5 @@
 {
-  "description": "Sum of any 3 consecutive numbers is prime and a(n+2)-(a(n+1)+a(n)) is prime, a(1)=3,a(2)=5.",
+  "description": "Sum of any 3 consecutive numbers is prime and |a(n+2) - (a(n+1) + a(n))| is prime, a(1)=3, a(2)=5.",
   "id": "A154500",
   "mentions": [
     "A062391",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 63,
+    "source": "oeis-bfile"
   }
 }

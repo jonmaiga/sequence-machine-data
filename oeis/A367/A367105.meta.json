@@ -1,0 +1,32 @@
+{
+  "description": "Least positive integer with n more divisors than distinct subset-sums of prime indices.",
+  "id": "A367105",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A056239",
+    "A086971",
+    "A112798",
+    "A220264",
+    "A299701",
+    "A304792",
+    "A304793",
+    "A325801",
+    "A365920",
+    "A366739",
+    "A366740",
+    "A367093",
+    "A367097"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

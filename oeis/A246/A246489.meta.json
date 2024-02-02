@@ -1,5 +1,5 @@
 {
-  "description": "The duodecimal period length of 1/(n-th prime) (0 by convention for the primes 2 and 3).",
+  "description": "Duodecimal period of 1/(n-th prime) (0 by convention for the primes 2 and 3).",
   "id": "A246489",
   "mentions": [
     "A002371",

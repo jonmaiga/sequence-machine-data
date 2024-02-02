@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent strict interval closure operators on a set of n elements.",
+  "id": "A367422",
+  "mentions": [
+    "A334255",
+    "A356544",
+    "A358144",
+    "A358152",
+    "A364656"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

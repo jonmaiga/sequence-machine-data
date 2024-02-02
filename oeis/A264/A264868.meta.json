@@ -2,6 +2,7 @@
   "description": "Number of rooted tandem duplication trees on n gene segments.",
   "id": "A264868",
   "mentions": [
+    "A005773",
     "A086521",
     "A264869",
     "A264870",

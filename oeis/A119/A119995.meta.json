@@ -1,5 +1,5 @@
 {
-  "description": "Fixed point of the morphism a -> {a, a + 1, Ceiling(Log(a + 1)}, beginning with 0.",
+  "description": "Fixed point of the morphism a -> {a, a + 1, Ceiling(Log(a + 1))}, beginning with 0.",
   "id": "A119995",
   "mentions": [],
   "tags": [

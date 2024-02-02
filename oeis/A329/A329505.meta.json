@@ -2,6 +2,7 @@
   "description": "Expansion of (1 + x)*(1 + 2*x - x^2) / (1 - x).",
   "id": "A329505",
   "mentions": [
+    "A000655",
     "A329504"
   ],
   "tags": [

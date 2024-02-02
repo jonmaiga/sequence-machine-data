@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^7*2^k + 1 is a prime.",
+  "id": "A367560",
+  "mentions": [
+    "A005849",
+    "A058780",
+    "A092506",
+    "A357612",
+    "A366422",
+    "A367287",
+    "A367421"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

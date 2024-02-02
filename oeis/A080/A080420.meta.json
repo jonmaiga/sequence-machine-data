@@ -2,7 +2,9 @@
   "description": "a(n) = (n+1)*(n+6)*3^n/6.",
   "id": "A080420",
   "mentions": [
-    "A080419"
+    "A080419",
+    "A136158",
+    "A288834"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

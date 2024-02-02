@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|n, d==1 (mod 8)} d.",
+  "description": "a(n) = Sum_{d|n, d == 1 (mod 8)} d.",
   "id": "A284100",
   "mentions": [
     "A000593",

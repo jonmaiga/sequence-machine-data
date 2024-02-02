@@ -1,14 +1,16 @@
 {
-  "description": "n^4+(9/2)*n^3+n^2-(9/2)*n+1.",
+  "description": "a(n) = n^4 + (9/2)*n^3 + n^2 - (9/2)*n + 1.",
   "id": "A003878",
-  "mentions": [],
+  "mentions": [
+    "A075681"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 30,
+    "offset": 0,
+    "size": 36,
     "source": "joeis"
   }
 }

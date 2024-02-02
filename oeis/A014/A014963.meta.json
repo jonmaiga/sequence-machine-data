@@ -2,6 +2,7 @@
   "description": "Exponential of Mangoldt function M(n): a(n) = 1 unless n is a prime or prime power, in which case a(n) = that prime.",
   "id": "A014963",
   "mentions": [
+    "A000027",
     "A001221",
     "A001620",
     "A003418",
@@ -33,7 +34,8 @@
     "A191898",
     "A297108",
     "A297109",
-    "A340675"
+    "A340675",
+    "A348846"
   ],
   "tags": [
     "easy",

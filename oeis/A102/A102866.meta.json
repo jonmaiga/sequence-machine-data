@@ -1,5 +1,5 @@
 {
-  "description": "Number of finite languages over a binary alphabet (set of binary words of total length n).",
+  "description": "Number of finite languages over a binary alphabet (set of nonempty binary words of total length n).",
   "id": "A102866",
   "mentions": [
     "A000079",

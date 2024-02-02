@@ -1,0 +1,43 @@
+{
+  "description": "Number of strict integer partitions of n whose semi-sums do not cover an interval of positive integers.",
+  "id": "A367411",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001227",
+    "A002033",
+    "A034296",
+    "A046663",
+    "A055932",
+    "A073491",
+    "A073492",
+    "A126796",
+    "A188431",
+    "A238007",
+    "A239955",
+    "A261036",
+    "A264401",
+    "A276024",
+    "A284640",
+    "A304792",
+    "A325781",
+    "A364272",
+    "A365543",
+    "A365661",
+    "A365663",
+    "A365830",
+    "A365831",
+    "A365924",
+    "A367402",
+    "A367403",
+    "A367410"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

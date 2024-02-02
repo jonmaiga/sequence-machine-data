@@ -2,15 +2,19 @@
   "description": "Start of the smallest string of n consecutive positive numbers with a cube sum, or 0 if no such number exists.",
   "id": "A076116",
   "mentions": [
+    "A007814",
+    "A019555",
     "A076114",
     "A076117"
   ],
   "tags": [
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

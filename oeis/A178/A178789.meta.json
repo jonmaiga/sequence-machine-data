@@ -1,10 +1,11 @@
 {
-  "description": "4^(n-1) + 2: Number of acute angles after n iterations of the Koch snowflake construction.",
+  "description": "a(n) = 4^(n-1) + 2: Number of acute angles after n iterations of the Koch snowflake construction.",
   "id": "A178789",
   "mentions": [
     "A000302",
     "A002001",
     "A010502",
+    "A047849",
     "A164346",
     "A196265"
   ],

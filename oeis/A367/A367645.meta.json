@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers with the property that the sequence formed by the pairs of digits adjacent to the commas between the terms equals the magnitude of the successive differences between the terms.",
+  "id": "A367645",
+  "mentions": [
+    "A121805",
+    "A367341",
+    "A367635"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

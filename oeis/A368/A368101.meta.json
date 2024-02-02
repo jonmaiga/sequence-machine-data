@@ -1,0 +1,40 @@
+{
+  "description": "Numbers of which there is exactly one way to choose a different prime factor of each prime index.",
+  "id": "A368101",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003465",
+    "A007716",
+    "A056239",
+    "A058891",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A296150",
+    "A323818",
+    "A355529",
+    "A355535",
+    "A355737",
+    "A355739",
+    "A355740",
+    "A355741",
+    "A355744",
+    "A355745",
+    "A367771",
+    "A367904",
+    "A367905",
+    "A367906",
+    "A367907",
+    "A367908",
+    "A368100"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

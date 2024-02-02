@@ -1,7 +1,11 @@
 {
   "description": "Number of n X n binary matrices of order dividing 2 (also number of solutions to X^2=I in GL(n,2)).",
   "id": "A053722",
-  "mentions": [],
+  "mentions": [
+    "A053725",
+    "A063505",
+    "A225371"
+  ],
   "tags": [
     "formulas",
     "nonn"

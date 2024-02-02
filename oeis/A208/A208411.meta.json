@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors",
+  "description": "Number of 4 X n 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors.",
   "id": "A208411",
   "mentions": [
     "A208408"

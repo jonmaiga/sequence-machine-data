@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that denominator of Sum_{k=1..p-1} 1/k^9} is a 9th power.",
+  "description": "Primes p such that denominator of Sum_{k=1..p-1} 1/k^9 is a 9th power.",
   "id": "A127045",
   "mentions": [
     "A034602",

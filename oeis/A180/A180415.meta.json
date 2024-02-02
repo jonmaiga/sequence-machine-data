@@ -1,5 +1,5 @@
 {
-  "description": "(n^3 - 3n^2 + 14n - 6)/6.",
+  "description": "a(n) = (n^3 - 3n^2 + 14n - 6)/6.",
   "id": "A180415",
   "mentions": [],
   "tags": [

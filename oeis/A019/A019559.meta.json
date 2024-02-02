@@ -1,10 +1,10 @@
 {
-  "description": "Distance between vowels when alphabet is written around a daisy wheel.",
+  "description": "Period 5: repeat [4, 4, 6, 6, 6].",
   "id": "A019559",
   "mentions": [],
   "tags": [
     "easy",
-    "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

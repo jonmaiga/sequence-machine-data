@@ -1,0 +1,24 @@
+{
+  "description": "Denominator of the greatest probability that a particular free polyomino with n cells appears in internal diffusion-limited aggregation on the square lattice.",
+  "id": "A368391",
+  "mentions": [
+    "A367674",
+    "A367763",
+    "A367999",
+    "A368386",
+    "A368387",
+    "A368389",
+    "A368390",
+    "A368395",
+    "A368662"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

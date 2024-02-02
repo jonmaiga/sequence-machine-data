@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m such that the continued fraction expansion of sqrt(m) has period length 2n + 1.",
+  "description": "Smallest number m such that the continued fraction expansion of sqrt(m) has period 2n + 1.",
   "id": "A062769",
   "mentions": [
     "A003654",
@@ -11,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 47,
     "source": "oeis-bfile"
   }

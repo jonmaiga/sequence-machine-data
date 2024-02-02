@@ -1,0 +1,29 @@
+{
+  "description": "Powerful numbers k that have a primorial kernel and more than 1 distinct prime factor.",
+  "id": "A369374",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001694",
+    "A002110",
+    "A002473",
+    "A003586",
+    "A007947",
+    "A051037",
+    "A055932",
+    "A126706",
+    "A286708",
+    "A364930",
+    "A367268",
+    "A369417"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

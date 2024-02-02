@@ -1,5 +1,5 @@
 {
-  "description": "Number of unlabeled 2-ary cacti having n polygons. Also number of bi-colored plane trees with n edges.",
+  "description": "Number of unlabeled 2-ary cacti having n polygons. Also number of bicolored plane trees with n edges.",
   "id": "A054357",
   "mentions": [
     "A000041",

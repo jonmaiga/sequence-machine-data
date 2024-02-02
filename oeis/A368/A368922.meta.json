@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n' - n''*2, where n' is the arithmetic derivative of n, A003415(n) and n'' is the second arithmetic defivative, A068346(n).",
+  "id": "A368922",
+  "mentions": [
+    "A003415",
+    "A068346",
+    "A334261",
+    "A368701",
+    "A368921"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of area under the curve (1-2^(1-x))*zeta(x) from 0 to 1.",
+  "id": "A367309",
+  "mentions": [
+    "A113024",
+    "A367310",
+    "A367311"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

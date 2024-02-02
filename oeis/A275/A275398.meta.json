@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..2 arrays with no element equal to any value at offset (-2,-1) (-2,0) or (-1,1) and new values introduced in order 0..2.",
+  "description": "Number of n X 5 0..2 arrays with no element equal to any value at offset (-2,-1) (-2,0) or (-1,1) and new values introduced in order 0..2.",
   "id": "A275398",
   "mentions": [
     "A275401"

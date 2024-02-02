@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of ways to reciprocally link elements of an nXk array either to themselves or to exactly two king-move neighbors",
+  "description": "T(n,k) = Number of ways to reciprocally link elements of an n X k array either to themselves or to exactly two king-move neighbors.",
   "id": "A220595",
   "mentions": [],
   "tags": [

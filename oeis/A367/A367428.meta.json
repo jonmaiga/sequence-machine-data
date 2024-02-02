@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - log(1 + 3*x))^(2/3).",
+  "id": "A367428",
+  "mentions": [
+    "A352070",
+    "A365599"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

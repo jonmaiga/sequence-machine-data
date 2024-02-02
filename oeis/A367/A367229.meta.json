@@ -1,0 +1,21 @@
+{
+  "description": "Fermat pseudoprimes to base 2 that are products of two Mersenne numbers (not necessarily distinct) that are larger than 1.",
+  "id": "A367229",
+  "mentions": [
+    "A000010",
+    "A000225",
+    "A001567",
+    "A007522",
+    "A014663",
+    "A065341",
+    "A367230"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

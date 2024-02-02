@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{(n - k)|n} k^2.",
+  "id": "A367326",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A007434",
+    "A094471"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

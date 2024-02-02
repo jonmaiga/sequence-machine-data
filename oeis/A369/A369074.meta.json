@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] such that for each cycle the arithmetic mean of the elements is an integer.",
+  "id": "A369074",
+  "mentions": [
+    "A000142",
+    "A327475",
+    "A369073"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,11 @@
   "description": "Triangle read by rows: T(n,k) is the number of lattice paths from (0,0) to (k,n-k) using steps (i,j) with i,j>=0 and gcd(i,j)=1.",
   "id": "A362242",
   "mentions": [
-    "A059576"
+    "A000012",
+    "A000217",
+    "A059576",
+    "A368639",
+    "A368672"
   ],
   "tags": [
     "nonn",
@@ -11,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

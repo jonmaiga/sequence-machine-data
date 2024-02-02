@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(k+2,3) * n^(n-k).",
+  "id": "A368535",
+  "mentions": [
+    "A002663",
+    "A062805",
+    "A097786",
+    "A097788",
+    "A368534"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that gcd(2^k + 1, k! - 1) has a prime divisor different from 2*k + 1.",
+  "id": "A366824",
+  "mentions": [
+    "A366823"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

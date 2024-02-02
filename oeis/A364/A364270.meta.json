@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^^n + 3^^n, where ^^ indicates tetration.",
+  "id": "A364270",
+  "mentions": [
+    "A004249",
+    "A014221",
+    "A014222",
+    "A321312"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

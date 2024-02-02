@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..7 arrays with every row and column running average nondecreasing rightwards and downwards, and the number of instances of each value within one of each other",
+  "description": "Number of n X 2 0..7 arrays with every row and column running average nondecreasing rightwards and downwards, and the number of instances of each value within one of each other.",
   "id": "A201102",
   "mentions": [
     "A201105"

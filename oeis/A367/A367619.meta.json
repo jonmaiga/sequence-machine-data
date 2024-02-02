@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the most remote positive ancestor of n in the comma-child graph in base 3.",
+  "id": "A367619",
+  "mentions": [
+    "A367338",
+    "A367355",
+    "A367617",
+    "A367618"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

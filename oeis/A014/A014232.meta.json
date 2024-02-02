@@ -1,11 +1,13 @@
 {
-  "description": "Primes of form 3^m - 2.",
+  "description": "Primes of the form 3^k - 2.",
   "id": "A014232",
   "mentions": [
+    "A000040",
     "A007593",
     "A014224"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "Inverse of A342131.",
+  "id": "A367286",
+  "mentions": [
+    "A006369",
+    "A342131"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{i=1..n, j=1..n} (i^4 - i^3*j + i^2*j^2 - i*j^3 + j^4).",
+  "id": "A367679",
+  "mentions": [
+    "A001622",
+    "A079478",
+    "A324437",
+    "A324438",
+    "A367550",
+    "A367668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

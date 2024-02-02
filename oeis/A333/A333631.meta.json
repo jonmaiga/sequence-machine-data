@@ -2,6 +2,7 @@
   "description": "Number of permutations of {1..n} with three consecutive terms in arithmetic progression.",
   "id": "A333631",
   "mentions": [
+    "A000142",
     "A007862",
     "A049980",
     "A049988",
@@ -16,12 +17,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numerators in recursive bijection from positive integers to positive rationals (the bijection is f(1) = 1, f(2n) = 1/(f(n)+1), f(2n+1) = f(n)+1 .",
+  "description": "Numerators in recursive bijection from positive integers to positive rationals, where the bijection is f(1) = 1, f(2n) = 1/(f(n)+1), f(2n+1) = f(n)+1.",
   "id": "A245327",
   "mentions": [
     "A002487",

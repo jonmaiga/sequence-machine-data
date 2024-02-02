@@ -1,0 +1,19 @@
+{
+  "description": "Number of times n appears in A362965 (number of primes <= the n-th prime power).",
+  "id": "A366833",
+  "mentions": [
+    "A068435",
+    "A075526",
+    "A246655",
+    "A362965",
+    "A366835"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

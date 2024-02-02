@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A160014(m, n) * a(n - 1) for m = 2 and n > 0, a(0) = 1.",
+  "id": "A368092",
+  "mentions": [
+    "A048803",
+    "A091137",
+    "A160014",
+    "A368048",
+    "A368093",
+    "A368117"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

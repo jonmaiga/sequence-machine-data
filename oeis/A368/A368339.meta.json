@@ -1,0 +1,20 @@
+{
+  "description": "Take the solution to Pellian equation x^2 - 8*n*y^2 = 1 with smallest positive y and x >= 0; sequence gives a(n) = y, or 0 if n is twice a positive square. A368340 gives values of x.",
+  "id": "A368339",
+  "mentions": [
+    "A000217",
+    "A002349",
+    "A268856",
+    "A368340"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

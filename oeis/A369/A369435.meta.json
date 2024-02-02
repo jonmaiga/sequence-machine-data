@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n, k) = n! * [t^n] (exp(t)/(1+k-k*exp(t))) for n >= 0 and k >= 0, read by antidiagonals upwards.",
+  "id": "A369435",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000384",
+    "A000629",
+    "A028246",
+    "A163626",
+    "A201339",
+    "A201354",
+    "A201365",
+    "A321189"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

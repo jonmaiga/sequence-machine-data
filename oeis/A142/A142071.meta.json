@@ -2,6 +2,7 @@
   "description": "Expansion of the exponential generating function 1 - log(1 - x*(exp(z) - 1)), triangle read by rows, T(n,k) for n >= 0 and 0 <= k <= n.",
   "id": "A142071",
   "mentions": [
+    "A000007",
     "A000629",
     "A007318",
     "A028246",

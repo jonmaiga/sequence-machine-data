@@ -1,5 +1,5 @@
 {
-  "description": "Centered 12-gonal numbers. Also star numbers: 6*n*(n-1) + 1.",
+  "description": "Centered 12-gonal numbers, or centered dodecagonal numbers: numbers of the form 6*k*(k-1) + 1.",
   "id": "A003154",
   "mentions": [
     "A000051",
@@ -7,6 +7,7 @@
     "A001263",
     "A001318",
     "A003215",
+    "A005448",
     "A007588",
     "A016754",
     "A016946",
@@ -14,6 +15,7 @@
     "A033581",
     "A049598",
     "A056827",
+    "A146325",
     "A257565",
     "A306980"
   ],

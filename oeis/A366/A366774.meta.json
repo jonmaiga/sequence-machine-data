@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2-distant 3-noncrossing partitions of {1,...,n}.",
+  "id": "A366774",
+  "mentions": [
+    "A108304",
+    "A366775",
+    "A366776"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

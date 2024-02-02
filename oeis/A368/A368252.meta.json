@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with a record value of number of uniform divisors (A327527).",
+  "id": "A368252",
+  "mentions": [
+    "A025487",
+    "A282472",
+    "A327527",
+    "A346016"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

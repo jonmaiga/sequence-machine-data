@@ -1,12 +1,11 @@
 {
-  "description": "Eigentriangle, row sums and borders = offset variations of Motzkin numbers",
+  "description": "Equals product A*B, where A is an infinite lower triangular matrix with A086246 in every column and B is the diagonal matrix with A001006 as diagonal.",
   "id": "A144218",
   "mentions": [
     "A001006",
     "A086246"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],

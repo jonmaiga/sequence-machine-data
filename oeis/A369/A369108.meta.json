@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of numbers less than or equal to 10^n that are divisible only by primes congruent to 1 mod 4.",
+  "id": "A369108",
+  "mentions": [
+    "A004613",
+    "A369105",
+    "A369107",
+    "A369109",
+    "A369111"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

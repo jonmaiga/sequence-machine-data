@@ -1,5 +1,5 @@
 {
-  "description": "A000110 / (1,2,3,...): (convolved with (1,2,3,...) = Bell numbers.",
+  "description": "A000110 / (1,2,3,...): (convolved with (1,2,3,...) = Bell numbers).",
   "id": "A154108",
   "mentions": [
     "A000110",

@@ -2,6 +2,7 @@
   "description": "Inverted decimal expansion of Pi.",
   "id": "A066795",
   "mentions": [
+    "A000796",
     "A065529"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

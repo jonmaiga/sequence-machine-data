@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows. Each number of the triangle is positive and distinct. In row k are the next least k numbers such that the sum of any one number in each of the first k row is a prime number.",
+  "description": "Triangle read by rows. Each term of the triangle is positive and distinct. In row k are the next k least numbers such that the sum of any one number from each of the first k rows is a prime number.",
   "id": "A359668",
   "mentions": [
     "A000040",
@@ -8,6 +8,7 @@
     "A001097"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn",
     "tabl"

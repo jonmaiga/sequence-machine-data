@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A008544(n) * Sum_{k=0..n} 1/A008544(k).",
+  "id": "A368791",
+  "mentions": [
+    "A008544",
+    "A112333",
+    "A368790"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -2,11 +2,14 @@
   "description": "a(n) = Sum_{k=1..n} phi(k) * (floor(n/k)^2 - floor((n-1)/k)^2).",
   "id": "A344598",
   "mentions": [
+    "A018804",
     "A018806",
+    "A344372",
     "A344599",
     "A344600"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

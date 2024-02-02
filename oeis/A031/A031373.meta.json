@@ -1,7 +1,10 @@
 {
-  "description": "Primes p(7n-1).",
+  "description": "a(n) = prime(7n-1).",
   "id": "A031373",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A017053"
+  ],
   "tags": [
     "nonn"
   ],

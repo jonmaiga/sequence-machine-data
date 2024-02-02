@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that row k of Pascal's triangle mod 10 contains all the numbers 0 to 9.",
+  "id": "A368077",
+  "mentions": [
+    "A208280"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

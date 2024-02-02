@@ -1,0 +1,21 @@
+{
+  "description": "Sum of digits of the numbers 0..n-1 in factorial base (A108731).",
+  "id": "A368342",
+  "mentions": [
+    "A001809",
+    "A034968",
+    "A084558",
+    "A108731",
+    "A301652"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

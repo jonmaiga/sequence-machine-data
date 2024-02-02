@@ -1,15 +1,17 @@
 {
-  "description": "Triangular numbers whose index is a multiple of the sum of the digits.",
+  "description": "Triangular numbers whose index is a multiple of the sum of their digits.",
   "id": "A067520",
-  "mentions": [],
+  "mentions": [
+    "A037156"
+  ],
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

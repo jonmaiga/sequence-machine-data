@@ -1,0 +1,41 @@
+{
+  "description": "Numbers of which it is possible to choose a different divisor of each prime index.",
+  "id": "A368110",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A001222",
+    "A003963",
+    "A056239",
+    "A076610",
+    "A111774",
+    "A112798",
+    "A120383",
+    "A324850",
+    "A335433",
+    "A335448",
+    "A340852",
+    "A355529",
+    "A355535",
+    "A355731",
+    "A355732",
+    "A355733",
+    "A355734",
+    "A355737",
+    "A355739",
+    "A355740",
+    "A355741",
+    "A355744",
+    "A355745",
+    "A355749",
+    "A368100"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

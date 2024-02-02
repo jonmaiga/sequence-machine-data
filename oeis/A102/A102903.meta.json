@@ -1,7 +1,8 @@
 {
-  "description": "Primes of the form 3^n+4 = 3^n+3+1.",
+  "description": "Primes of the form 3^k + 4.",
   "id": "A102903",
   "mentions": [
+    "A000040",
     "A057735",
     "A058958",
     "A102870",
@@ -14,6 +15,7 @@
     "A243439"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

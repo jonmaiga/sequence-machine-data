@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. exp(exp(3*x) - x - 1).",
+  "id": "A367785",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A124311",
+    "A247452",
+    "A284859",
+    "A284860",
+    "A330605",
+    "A367744",
+    "A367786"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

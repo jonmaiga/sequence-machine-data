@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n, d odd} (n-d).",
+  "id": "A367870",
+  "mentions": [
+    "A000593",
+    "A001227",
+    "A094471",
+    "A245579"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

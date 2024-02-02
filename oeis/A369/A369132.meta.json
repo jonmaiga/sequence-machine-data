@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose \"Look and Say\" description (cf. A045918) is a substring of the number.",
+  "id": "A369132",
+  "mentions": [
+    "A002275",
+    "A005150",
+    "A045918",
+    "A369092"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of an n-set into blocks of size <= sqrt(n).",
+  "id": "A368502",
+  "mentions": [
+    "A000110",
+    "A097356",
+    "A368503"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

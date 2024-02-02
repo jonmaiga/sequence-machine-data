@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1-x)*(1-x-x^3)).",
+  "description": "Expansion of 1/((1-x)*(1-x-x^3)).",
   "id": "A077868",
   "mentions": [
     "A000071",

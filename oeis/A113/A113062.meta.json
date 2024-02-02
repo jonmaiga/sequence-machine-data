@@ -2,13 +2,19 @@
   "description": "Expansion of theta series of hexagonal net with respect to a node.",
   "id": "A113062",
   "mentions": [
+    "A000122",
+    "A000700",
     "A004016",
     "A005882",
     "A005928",
+    "A010054",
     "A033685",
-    "A113063"
+    "A113063",
+    "A121373",
+    "A275486"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

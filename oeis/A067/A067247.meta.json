@@ -1,5 +1,5 @@
 {
-  "description": "Number of difference sets of subsets of {1,2,...,n}, i.e., the size of {A-A : A \\subset [n] }, where A-A={a_i-a_j : a_i>a_j and a_i,a_j \\in A}.",
+  "description": "Number of difference sets of subsets of {1,2,...,n}, i.e., the size of {D(A) : A subset [n] }, where D(A)={a_i-a_j : a_i>a_j and a_i,a_j in A}.",
   "id": "A067247",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

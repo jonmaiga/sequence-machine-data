@@ -1,5 +1,5 @@
 {
-  "description": "Triangle S(n,k) by rows: coefficients of 6^((n-1)/2))*(x^(1/6)*d/dx)^n when n is odd, and of 6^(n/2)*(x^(5/6)*d/dx)^n when n is even.",
+  "description": "Triangle S(n,k) by rows: coefficients of 6^((n-1)/2)*(x^(1/6)*d/dx)^n when n is odd, and of 6^(n/2)*(x^(5/6)*d/dx)^n when n is even.",
   "id": "A223172",
   "mentions": [
     "A008277",

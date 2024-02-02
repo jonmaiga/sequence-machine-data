@@ -1,7 +1,9 @@
 {
-  "description": "n + sigma(n) + phi(n) is a fourth power.",
+  "description": "Numbers k such that k + sigma(k) + phi(k) is a fourth power.",
   "id": "A116007",
   "mentions": [
+    "A000010",
+    "A000203",
     "A116008",
     "A116009"
   ],
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

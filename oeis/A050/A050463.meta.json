@@ -2,13 +2,18 @@
   "description": "a(n) = Sum_{d|n, n/d=1 mod 4} d^4.",
   "id": "A050463",
   "mentions": [
+    "A013663",
     "A050448",
     "A050460",
     "A050461",
     "A050462",
-    "A050467"
+    "A050467",
+    "A050468",
+    "A285989"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays with rows and columns, considered as binary numbers, in nondecreasing order, and no more than 7 ones in any row or column",
+  "description": "Number of n X n binary arrays with rows and columns, considered as binary numbers, in nondecreasing order, and no more than 7 ones in any row or column.",
   "id": "A162049",
   "mentions": [],
   "tags": [

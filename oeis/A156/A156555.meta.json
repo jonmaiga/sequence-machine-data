@@ -2,6 +2,7 @@
   "description": "Primes of the form 3^k - 4.",
   "id": "A156555",
   "mentions": [
+    "A000040",
     "A058959"
   ],
   "tags": [

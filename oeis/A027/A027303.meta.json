@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..floor((n-3)/2)} T(n,k) * T(n,k+2)}, with T given by A008315.",
+  "description": "a(n) = Sum_{k=0..floor((n-3)/2)} T(n,k) * T(n,k+2), with T given by A008315.",
   "id": "A027303",
   "mentions": [
     "A008315"

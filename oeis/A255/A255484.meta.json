@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{k=0..n} (prime(k+1)*(binomial(n,k) mod 2).",
+  "description": "a(n) = Product_{k=0..n} prime(k+1)*(binomial(n,k) mod 2).",
   "id": "A255484",
   "mentions": [
     "A123098",

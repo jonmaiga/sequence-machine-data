@@ -2,15 +2,18 @@
   "description": "Where records occur in A001917.",
   "id": "A152597",
   "mentions": [
+    "A000720",
     "A001917",
-    "A152598"
+    "A152598",
+    "A226216"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

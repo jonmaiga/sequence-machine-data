@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of points with integer coordinates located strictly between the parabolas y = n - x^2 and y = x^2 - n.",
+  "id": "A368874",
+  "mentions": [
+    "A001650",
+    "A095875"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

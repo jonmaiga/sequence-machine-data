@@ -2,10 +2,12 @@
   "description": "LCM-transform of EKG sequence A064413.",
   "id": "A265576",
   "mentions": [
+    "A014963",
     "A061446",
     "A064413",
     "A265574",
-    "A265575"
+    "A265575",
+    "A368900"
   ],
   "tags": [
     "nonn"

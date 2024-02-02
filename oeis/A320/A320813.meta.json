@@ -1,5 +1,5 @@
 {
-  "description": "Number of non-isomorphic multiset partitions of weight n with no singletons in which all parts are aperiodic multisets.",
+  "description": "Number of non-isomorphic multiset partitions of an aperiodic multiset of weight n such that there are no singletons and all parts are themselves aperiodic multisets.",
   "id": "A320813",
   "mentions": [
     "A000740",
@@ -14,6 +14,7 @@
     "A303707",
     "A303708",
     "A320797",
+    "A320804",
     "A321283",
     "A321390"
   ],

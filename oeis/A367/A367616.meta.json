@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the unique k such that n is a comma-child of k, or -1 if k does not exist.",
+  "id": "A367616",
+  "mentions": [
+    "A121805",
+    "A367338",
+    "A367346",
+    "A367614"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

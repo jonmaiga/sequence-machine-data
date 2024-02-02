@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2*n-1)!! * Sum_{k=0..n} k/(2*k-1)!!.",
+  "id": "A368792",
+  "mentions": [
+    "A001147",
+    "A286286",
+    "A368793"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

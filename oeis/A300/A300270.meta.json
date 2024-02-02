@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{1 <= i <= j <= n} mu(i*j)*floor((n/i)/j)).",
+  "description": "a(n) = Sum_{1 <= i <= j <= n} mu(i*j)*floor((n/i)/j).",
   "id": "A300270",
   "mentions": [],
   "tags": [

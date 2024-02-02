@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of area under the curve d^2/(Gamma(x) dx^2) from zero to infinity.",
+  "description": "Decimal expansion of Integral_{x>=0} (1 / Gamma''(x)) dx.",
   "id": "A245635",
   "mentions": [
     "A058655"

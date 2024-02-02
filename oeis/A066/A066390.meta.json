@@ -6,13 +6,13 @@
     "A066391"
   ],
   "tags": [
+    "base",
     "less",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "(2^n + 3^n) modulo n.",
+  "description": "a(n) = (2^n + 3^n) modulo n.",
   "id": "A220235",
   "mentions": [
     "A015910",

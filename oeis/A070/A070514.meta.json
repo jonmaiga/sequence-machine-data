@@ -1,5 +1,5 @@
 {
-  "description": "Final digit of n^4: n^4 mod 10.",
+  "description": "Final digit of n^4: a(n) = n^4 mod 10.",
   "id": "A070514",
   "mentions": [
     "A008959",

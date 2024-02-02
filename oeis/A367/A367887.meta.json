@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(2*x) / (1 - 2*sinh(x)).",
+  "id": "A367887",
+  "mentions": [
+    "A000045",
+    "A000557",
+    "A005923",
+    "A341723",
+    "A341724",
+    "A341725"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

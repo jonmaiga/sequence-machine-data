@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the constant term in expansion of Product_{k=1..n} (x^(2*k-1) + 1 + 1/x^(2*k-1)).",
+  "id": "A369343",
+  "mentions": [
+    "A005408",
+    "A007576",
+    "A156700",
+    "A292476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

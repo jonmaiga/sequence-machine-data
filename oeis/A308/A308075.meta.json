@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of distinct positive integers such that the sum of the digits of a(n) is either the sum of all the digits of a(n-1) and a(n+1), or is the absolute difference |((sum of digits of a(n-1)) - ((sum of digits of a(n+1))|, for n > 1.",
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the sum of the digits of a(n) is either the sum of all the digits of a(n-1) and a(n+1), or is the absolute difference |(sum of digits of a(n-1)) - (sum of digits of a(n+1))|, for n > 1.",
   "id": "A308075",
   "mentions": [
     "A007953",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least semiprime that is the first of n consecutive semiprimes s(1) ... s(n) such that s(i) - prime(i) are all equal.",
+  "id": "A367075",
+  "mentions": [
+    "A001358",
+    "A070552"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

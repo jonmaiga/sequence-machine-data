@@ -1,0 +1,14 @@
+{
+  "description": "Number of maximal independent vertex sets in the n X n zebra graph.",
+  "id": "A367089",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1, a(1)=2, a(n)=31a(n-1)-29a(n-2).",
+  "description": "a(0)=1, a(1)=2, a(n) = 31*a(n-1) - 29*a(n-2).",
   "id": "A256278",
   "mentions": [
     "A001622",

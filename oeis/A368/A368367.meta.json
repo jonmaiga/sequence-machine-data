@@ -1,0 +1,17 @@
+{
+  "description": "AGM transform of factorials.",
+  "id": "A368367",
+  "mentions": [
+    "A000142",
+    "A368366"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

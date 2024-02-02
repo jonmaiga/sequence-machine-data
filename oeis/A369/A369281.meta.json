@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, A091255(a(n), a(n+1)) = 1.",
+  "id": "A369281",
+  "mentions": [
+    "A014580",
+    "A091255",
+    "A369282",
+    "A369293",
+    "A369317",
+    "A369318"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

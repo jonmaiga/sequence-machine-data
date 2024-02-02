@@ -1,5 +1,5 @@
 {
-  "description": "Positions of incrementally largest terms in continued fraction for Copeland-Erdos constant.",
+  "description": "Positions of incrementally largest terms in continued fraction for Copeland-Erdős constant.",
   "id": "A224890",
   "mentions": [
     "A030168",
@@ -7,8 +7,10 @@
     "A033311"
   ],
   "tags": [
+    "base",
     "formulas",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

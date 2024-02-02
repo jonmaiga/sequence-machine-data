@@ -1,0 +1,19 @@
+{
+  "description": "Compute the commas sequence starting at 1, as in A121805, except do the calculations in hexadecimal. The terms are written here in decimal.",
+  "id": "A367345",
+  "mentions": [
+    "A121805",
+    "A367343",
+    "A367344"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

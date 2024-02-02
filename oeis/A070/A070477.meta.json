@@ -1,9 +1,7 @@
 {
   "description": "a(n) = n^3 mod 15.",
   "id": "A070477",
-  "mentions": [
-    "A070697"
-  ],
+  "mentions": [],
   "tags": [
     "easy",
     "formulas",

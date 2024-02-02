@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k! * k^k.",
+  "id": "A368573",
+  "mentions": [
+    "A058006",
+    "A061711",
+    "A112368",
+    "A112370",
+    "A367011",
+    "A367012",
+    "A368561"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

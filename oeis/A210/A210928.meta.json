@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..3 symmetric matrices with every element equal to zero or one horizontal and vertical neighbors, and new values 0..3 introduced in lower triangle row major order",
+  "description": "Number of n X n 0..3 symmetric matrices with every element equal to zero or one horizontal and vertical neighbors, and new values 0..3 introduced in lower triangle row major order.",
   "id": "A210928",
   "mentions": [],
   "tags": [

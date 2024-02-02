@@ -1,11 +1,14 @@
 {
   "description": "Continued fraction for sqrt(120).",
   "id": "A040109",
-  "mentions": [],
+  "mentions": [
+    "A245294"
+  ],
   "tags": [
     "cofr",
     "easy",
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {

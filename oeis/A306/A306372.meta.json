@@ -2,7 +2,8 @@
   "description": "Number of n X n integer matrices (m_{i,j}) such that m_{1,1}=1, m_{n,n}=n, and all rows and columns are (weakly) monotonic without jumps larger than 1.",
   "id": "A306372",
   "mentions": [
-    "A323849"
+    "A323849",
+    "A367432"
   ],
   "tags": [
     "formulas",

@@ -2,8 +2,11 @@
   "description": "Inverse Moebius transform of A065958.",
   "id": "A158949",
   "mentions": [
+    "A000005",
     "A002117",
+    "A007434",
     "A013664",
+    "A059377",
     "A065958"
   ],
   "tags": [

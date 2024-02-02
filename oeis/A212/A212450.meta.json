@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling(n + log(n)).",
+  "description": "a(n) = ceiling(n + log(n)).",
   "id": "A212450",
   "mentions": [
     "A000523",

@@ -1,5 +1,5 @@
 {
-  "description": "The number of iterations needed to reach 1 under the map n-> n-bigomega(n)).",
+  "description": "The number of iterations needed to reach 1 under the map n-> n-bigomega(n).",
   "id": "A176814",
   "mentions": [
     "A001222",

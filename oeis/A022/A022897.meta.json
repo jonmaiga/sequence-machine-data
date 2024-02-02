@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions to c(1)*prime(2) +...+ c(n)*prime(n+1) = 0, where c(i) = +-1 for i>1, c(1) = 1.",
+  "description": "Number of solutions to c(1)*prime(2) +...+ c(n)*prime(n+1) = 0, where c(i) = +-1 for i > 1, c(1) = 1.",
   "id": "A022897",
   "mentions": [
     "A022894",

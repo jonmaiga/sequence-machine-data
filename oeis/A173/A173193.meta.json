@@ -1,5 +1,5 @@
 {
-  "description": "(2*10^n+43)/9.",
+  "description": "a(n) = (2*10^n+43)/9.",
   "id": "A173193",
   "mentions": [],
   "tags": [

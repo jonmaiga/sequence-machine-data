@@ -1,0 +1,18 @@
+{
+  "description": "Number of Dyck excursions with catastrophes from (0,0) to (n,0).",
+  "id": "A369432",
+  "mentions": [
+    "A054341",
+    "A224747"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

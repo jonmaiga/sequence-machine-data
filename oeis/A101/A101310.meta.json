@@ -1,5 +1,5 @@
 {
-  "description": "Sum((prime(k)*10^(k),k=1..n))).",
+  "description": "Sum(prime(k)*10^(k),k=1..n).",
   "id": "A101310",
   "mentions": [],
   "tags": [

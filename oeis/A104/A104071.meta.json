@@ -1,8 +1,12 @@
 {
-  "description": "Primes of the form 2^k + 3^3.",
+  "description": "Primes of the form 2^k + 27.",
   "id": "A104071",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A157007"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

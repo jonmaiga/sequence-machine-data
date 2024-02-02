@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k), n >= 2, 1 <= k <= n/2), = number of rooted forests with n nodes and k trees, with at least two nodes in each tree.",
+  "description": "Irregular triangle read by rows: T(n,k), n >= 2, 1 <= k <= n/2, = number of rooted forests with n nodes and k trees, with at least two nodes in each tree.",
   "id": "A174135",
   "mentions": [
     "A000081",

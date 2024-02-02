@@ -1,0 +1,16 @@
+{
+  "description": "Compositions (ordered partitions) of n into odd parts where the first part must be a maximal part.",
+  "id": "A368746",
+  "mentions": [
+    "A079500"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

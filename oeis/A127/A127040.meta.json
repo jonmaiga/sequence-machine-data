@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = binomial(floor((3n+4)/2)),floor(n/2)).",
+  "description": "a(n) = binomial(floor((3n+4)/2),floor(n/2)).",
   "id": "A127040",
   "mentions": [
     "A004319",

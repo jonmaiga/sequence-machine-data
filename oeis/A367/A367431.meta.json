@@ -1,0 +1,17 @@
+{
+  "description": "Write down the positive integers. To obtain the terms of the sequence, concatenate groups of these so that the last number of each concatenated group is a prime.",
+  "id": "A367431",
+  "mentions": [
+    "A000027",
+    "A000040"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

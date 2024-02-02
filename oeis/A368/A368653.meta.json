@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 58291/21444.",
+  "id": "A368653",
+  "mentions": [
+    "A001113",
+    "A007676",
+    "A007677",
+    "A368617",
+    "A368654",
+    "A368656"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

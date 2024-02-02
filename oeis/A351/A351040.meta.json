@@ -1,19 +1,24 @@
 {
-  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A000593(i) = A000593(j), A336158(i) = A336158(j) and A336467(i) = A336467(j), for all i, j >= 1.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A336158(i) = A336158(j), A206787(i) = A206787(j) and A336651(i) = A336651(j) for all i, j >= 1.",
   "id": "A351040",
   "mentions": [
     "A000265",
     "A000593",
     "A003602",
     "A046523",
+    "A113415",
+    "A206787",
     "A336158",
     "A336390",
     "A336391",
     "A336467",
+    "A336651",
     "A347374",
     "A351035",
     "A351036",
-    "A351037"
+    "A351037",
+    "A351461",
+    "A366891"
   ],
   "tags": [
     "easy",

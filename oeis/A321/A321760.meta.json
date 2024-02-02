@@ -8,18 +8,19 @@
     "A055884",
     "A120733",
     "A317533",
+    "A320665",
     "A320798",
     "A320801",
     "A320808",
-    "A321407"
+    "A321407",
+    "A369286"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

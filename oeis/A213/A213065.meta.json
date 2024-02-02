@@ -1,5 +1,5 @@
 {
-  "description": "n^n! - n!^n.",
+  "description": "a(n) = n^n! - n!^n.",
   "id": "A213065",
   "mentions": [
     "A036740",

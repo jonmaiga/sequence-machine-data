@@ -1,5 +1,5 @@
 {
-  "description": "On a 3 X 3 board, number of distinct positions of n digits (modulo rotation/reflection)).",
+  "description": "On a 3 X 3 board, number of distinct positions of n digits (modulo rotation/reflection).",
   "id": "A086836",
   "mentions": [
     "A087074"

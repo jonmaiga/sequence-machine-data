@@ -1,5 +1,5 @@
 {
-  "description": "Minimum number of integer-sided squares needed to tile an m by n rectangle.",
+  "description": "Minimum number of integer-sided squares needed to tile an m X n rectangle.",
   "id": "A219158",
   "mentions": [
     "A001477",

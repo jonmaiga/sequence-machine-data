@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals, where T(n,k) is the number of ordered k-tuples (x_1,x_2, ... ,x_k) with gcd(x_1,x_2, ... ,x_k)=1 (1<= {x_1,x_2, ... ,x_k} <= n).",
+  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals, where T(n,k) is the number of ordered k-tuples (x_1, x_2, ..., x_k) with gcd(x_1, x_2, ..., x_k) = 1 (1 <= {x_1, x_2, ..., x_k} <= n).",
   "id": "A344527",
   "mentions": [
     "A000012",

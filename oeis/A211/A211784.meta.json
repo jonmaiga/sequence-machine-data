@@ -1,7 +1,8 @@
 {
-  "description": "n^2 + floor(n^2/2) + floor(n^2/3).",
+  "description": "a(n) = n^2 + floor(n^2/2) + floor(n^2/3).",
   "id": "A211784",
   "mentions": [
+    "A061347",
     "A211701",
     "A211783"
   ],

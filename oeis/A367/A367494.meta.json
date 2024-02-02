@@ -1,0 +1,16 @@
+{
+  "description": "Number of (2+2)-free naturally labeled posets on [n].",
+  "id": "A367494",
+  "mentions": [
+    "A006455",
+    "A113226"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

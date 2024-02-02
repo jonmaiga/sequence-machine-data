@@ -1,5 +1,5 @@
 {
-  "description": "Period length of the continued fraction for sqrt(2^n-1).",
+  "description": "Period of the continued fraction for sqrt(2^n-1).",
   "id": "A059866",
   "mentions": [
     "A003285",

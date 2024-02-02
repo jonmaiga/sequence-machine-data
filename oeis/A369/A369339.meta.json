@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n into triangular numbers not greater than sqrt(n).",
+  "id": "A369339",
+  "mentions": [
+    "A007294",
+    "A097356"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

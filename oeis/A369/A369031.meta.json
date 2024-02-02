@@ -1,0 +1,22 @@
+{
+  "description": "LCM-transform of permutation induced by partition conjugation via Heinz numbers (A122111).",
+  "id": "A369031",
+  "mentions": [
+    "A000040",
+    "A014963",
+    "A101296",
+    "A122111",
+    "A368900",
+    "A369032",
+    "A369033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

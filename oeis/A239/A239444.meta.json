@@ -1,5 +1,5 @@
 {
-  "description": "Sum{gcd(k^2 + t^2, n)* cos(2*Pi*(k^2 + t^2)/n)): 0",
+  "description": "Sum{gcd(k^2 + t^2, n) * cos(2*Pi*(k^2 + t^2)/n): 0",
   "id": "A239444",
   "mentions": [],
   "tags": [

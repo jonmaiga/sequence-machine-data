@@ -3,15 +3,19 @@
   "id": "A306960",
   "mentions": [
     "A306958",
-    "A306959"
+    "A306959",
+    "A306961",
+    "A306962",
+    "A306964"
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "joeis"
   }
 }

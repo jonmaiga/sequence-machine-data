@@ -1,16 +1,18 @@
 {
-  "description": "a(n) = Sum_{d|n, d==1 (mod 6)} d.",
+  "description": "a(n) = Sum_{d|n, d == 1 (mod 6)} d.",
   "id": "A284098",
   "mentions": [
     "A000593",
     "A050449",
     "A078181",
+    "A086729",
     "A109701",
     "A284097",
     "A284099",
     "A284100"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

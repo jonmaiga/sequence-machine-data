@@ -1,5 +1,5 @@
 {
-  "description": "A128174 * A134309.",
+  "description": "Triangle, A128174 * A134309 as infinite lower triangular matrices.",
   "id": "A134317",
   "mentions": [
     "A001045",
@@ -8,7 +8,6 @@
     "A134309"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],

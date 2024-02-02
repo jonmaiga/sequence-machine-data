@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = x/f(x,A(x)) where f(,) is Ramanujan's theta function; i.e., A(x) = x/Sum_{n=-oo,+oo} x^(n*(n+1)/2)*A(x)^(n*(n-1)/2)).",
+  "description": "G.f. A(x) satisfies: A(x) = x/f(x,A(x)) where f(,) is Ramanujan's theta function; i.e., A(x) = x/Sum_{n=-oo,+oo} x^(n*(n+1)/2)*A(x)^(n*(n-1)/2).",
   "id": "A107944",
   "mentions": [
     "A107902",

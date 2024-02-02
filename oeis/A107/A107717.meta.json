@@ -1,5 +1,5 @@
 {
-  "description": "Triangular matrix T, read by rows, that satisfies: SHIFT_LEFT(column 0 of T^((3*p-1)/3) = (3*p-1)*(column p of T), or [T^((3*p-1)/3)](m,0) = (3*p-1)*T(p+m,p) for all m>=1 and p>=0.",
+  "description": "Triangular matrix T, read by rows, that satisfies: SHIFT_LEFT(column 0 of T^((3*p-1)/3)) = (3*p-1)*(column p of T), or [T^((3*p-1)/3)](m,0) = (3*p-1)*T(p+m,p) for all m>=1 and p>=0.",
   "id": "A107717",
   "mentions": [
     "A105615",

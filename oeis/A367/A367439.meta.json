@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the degree of the polyomino with binary code A246521(n+1) in the polyomino graph PG(n) defined in A367435.",
+  "id": "A367439",
+  "mentions": [
+    "A000105",
+    "A246521",
+    "A367126",
+    "A367435",
+    "A367437",
+    "A367438",
+    "A367443"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

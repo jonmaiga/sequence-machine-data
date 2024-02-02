@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: Sum_{n>=0} ( -log(1 - n*x)/n )^n / n! ).",
+  "description": "E.g.f.: Sum_{n>=0} ( -log(1 - n*x)/n )^n / n!.",
   "id": "A232549",
   "mentions": [
     "A128943"

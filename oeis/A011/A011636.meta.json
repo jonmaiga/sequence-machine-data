@@ -1,7 +1,9 @@
 {
   "description": "45th cyclotomic polynomial.",
   "id": "A011636",
-  "mentions": [],
+  "mentions": [
+    "A014054"
+  ],
   "tags": [
     "fini",
     "full",

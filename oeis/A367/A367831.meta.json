@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = (1 + (exp(x) - 1) * A(3*x)) / (1 - x).",
+  "id": "A367831",
+  "mentions": [
+    "A006155",
+    "A367830",
+    "A367836"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the smaller parts of the partitions of n into two distinct parts with larger part prime.",
+  "id": "A368058",
+  "mentions": [
+    "A010051",
+    "A294111",
+    "A294487",
+    "A294602"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

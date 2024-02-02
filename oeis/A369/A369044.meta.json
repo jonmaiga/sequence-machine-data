@@ -1,0 +1,24 @@
+{
+  "description": "LCM-transform of bijective bit reverse (A057889).",
+  "id": "A369044",
+  "mentions": [
+    "A000523",
+    "A014963",
+    "A030101",
+    "A057889",
+    "A368900",
+    "A369041",
+    "A369042",
+    "A369043",
+    "A369045"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

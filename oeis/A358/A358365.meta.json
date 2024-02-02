@@ -2,9 +2,11 @@
   "description": "a(n) = 16^n * Sum_{k=0..n} binomial(-1/2, k)^2.",
   "id": "A358365",
   "mentions": [
+    "A001620",
     "A358362",
     "A358363",
-    "A358364"
+    "A358364",
+    "A367333"
   ],
   "tags": [
     "formulas",

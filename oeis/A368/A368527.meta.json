@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^3 * n^k.",
+  "id": "A368527",
+  "mentions": [
+    "A062806",
+    "A303991",
+    "A368525",
+    "A368526"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

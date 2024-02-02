@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} (-1)^(n-k) * k^3 / k!.",
+  "id": "A368716",
+  "mentions": [
+    "A048993",
+    "A337001",
+    "A368585",
+    "A368724"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. 1 / (3 - 2 * exp(2*x))^(3/4).",
+  "id": "A365794",
+  "mentions": [
+    "A365777",
+    "A365782"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

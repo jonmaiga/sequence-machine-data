@@ -1,0 +1,16 @@
+{
+  "description": "Smallest prime number p such that x^n + y^n mod p does not take all values on Z/pZ.",
+  "id": "A367689",
+  "mentions": [
+    "A355920",
+    "A367688"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

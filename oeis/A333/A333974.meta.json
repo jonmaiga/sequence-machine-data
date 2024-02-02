@@ -1,5 +1,5 @@
 {
-  "description": "Eventual periodic length of A007660 modulo n.",
+  "description": "Eventual period of A007660 modulo n.",
   "id": "A333974",
   "mentions": [
     "A007660"

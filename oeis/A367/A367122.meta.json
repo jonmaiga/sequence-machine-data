@@ -1,0 +1,19 @@
+{
+  "description": "Place n points in general position on each side of a square, and join every pair of the 4*n+4 boundary points by a chord; sequence gives number of edges in the resulting planar graph.",
+  "id": "A367122",
+  "mentions": [
+    "A331448",
+    "A334698",
+    "A367119",
+    "A367121"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

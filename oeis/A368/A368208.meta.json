@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that, if p is the greatest prime less than k, there is a prime between n*p and n*k, but for 1 < j < n there is no prime between j*p and j*k.",
+  "id": "A368208",
+  "mentions": [
+    "A002386",
+    "A008864",
+    "A049711",
+    "A151799",
+    "A367035"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

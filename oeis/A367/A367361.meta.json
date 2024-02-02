@@ -1,0 +1,21 @@
+{
+  "description": "Comma transform of powers of 2.",
+  "id": "A367361",
+  "mentions": [
+    "A000079",
+    "A000689",
+    "A008952",
+    "A166499",
+    "A367360"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

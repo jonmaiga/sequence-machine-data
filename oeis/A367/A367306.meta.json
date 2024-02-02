@@ -1,0 +1,18 @@
+{
+  "description": "Permutation of nonnegative integers: a(n) = A200714(p(n) + 1) where p(n) is an inverse permutation to A358654.",
+  "id": "A367306",
+  "mentions": [
+    "A200714",
+    "A358654"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

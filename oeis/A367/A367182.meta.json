@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form (k-th primorial) - (k+1)st prime.",
+  "id": "A367182",
+  "mentions": [
+    "A002110",
+    "A038708",
+    "A060882",
+    "A093078",
+    "A249798"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

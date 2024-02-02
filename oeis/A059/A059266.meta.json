@@ -1,16 +1,16 @@
 {
-  "description": "Numbers n such that 4^n - 3 is prime.",
+  "description": "Numbers k such that 4^k - 3 is prime.",
   "id": "A059266",
   "mentions": [
-    "A000040",
-    "A050414"
+    "A050414",
+    "A217348"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

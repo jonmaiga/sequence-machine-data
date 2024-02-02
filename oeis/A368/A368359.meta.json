@@ -1,0 +1,18 @@
+{
+  "description": "Comma transform of Catalan numbers.",
+  "id": "A368359",
+  "mentions": [
+    "A000108",
+    "A367360"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

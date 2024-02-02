@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of strongly connected binary relations on [n] (A186081) with period k, n >= 1, 1<=k<=n.",
+  "id": "A367948",
+  "mentions": [
+    "A070322",
+    "A186081"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

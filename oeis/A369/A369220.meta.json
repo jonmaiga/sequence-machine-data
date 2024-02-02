@@ -1,0 +1,16 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into squarefree parts not greater than sqrt(n).",
+  "id": "A369220",
+  "mentions": [
+    "A280194",
+    "A364526"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

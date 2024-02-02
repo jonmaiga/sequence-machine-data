@@ -1,7 +1,10 @@
 {
   "description": "Number of maximal independent vertex sets in the n-hypercube graph Q_n.",
   "id": "A284707",
-  "mentions": [],
+  "mentions": [
+    "A027624",
+    "A366425"
+  ],
   "tags": [
     "formulas",
     "more",

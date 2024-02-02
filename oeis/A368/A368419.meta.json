@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of reduced stable marriage problem instances of order 5 that generate 16 - n possible stable matchings.",
+  "id": "A368419",
+  "mentions": [
+    "A344669",
+    "A351409",
+    "A351430",
+    "A357269",
+    "A368433"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

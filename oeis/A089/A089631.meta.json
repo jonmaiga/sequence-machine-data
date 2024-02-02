@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (Product_{p is a prime factor of n} p)) mod (Product_{p is a prime factor of n} p-1).",
+  "description": "a(n) = (Product_{p is a prime factor of n} p) mod (Product_{p is a prime factor of n} p-1).",
   "id": "A089631",
   "mentions": [
     "A007947",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X5 0..6 arrays with column and row pair sums b(i,j)=a(i,j)+a(i,j-1) and c(i,j)=a(i,j)+a(i-1,j) nondecreasing in column and row directions, respectively",
+  "description": "Number of (n+1) X 5 0..6 arrays with column and row pair sums b(i,j)=a(i,j)+a(i,j-1) and c(i,j)=a(i,j)+a(i-1,j) nondecreasing in column and row directions, respectively.",
   "id": "A203668",
   "mentions": [
     "A203672"

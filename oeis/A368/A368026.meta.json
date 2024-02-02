@@ -1,0 +1,26 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) is the permanent of the n-th order Hankel matrix of Catalan numbers M(n) whose generic element is given by M(i,j) = A000108(i+j+k) with i,j = 0, ..., n-1.",
+  "id": "A368026",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A278843",
+    "A368012",
+    "A368019",
+    "A368021",
+    "A368022",
+    "A368023",
+    "A368024",
+    "A368025",
+    "A368298"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

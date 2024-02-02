@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=position of first occurrence of n in the decimal places of zeta(3) (Apery's constant). First value is a(0).",
+  "description": "a(n)=position of first occurrence of n in the decimal places of zeta(3)-1.",
   "id": "A100078",
   "mentions": [
     "A002117"

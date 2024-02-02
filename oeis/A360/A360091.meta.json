@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of (n-2)!*Sum_{k=1..n} (-1)^(k+1)/((n-k)!*k^k)).",
+  "description": "Numerator of (n-2)!*Sum_{k=1..n} (-1)^(k+1)/((n-k)!*k^k).",
   "id": "A360091",
   "mentions": [
     "A001620",

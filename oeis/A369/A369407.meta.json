@@ -1,0 +1,16 @@
+{
+  "description": "A variant of A008336 based on polynomials over GF(2) (see Comments for precise definition).",
+  "id": "A369407",
+  "mentions": [
+    "A008336"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

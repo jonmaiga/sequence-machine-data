@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = smallest number >1 such that a(1)a(2)...a(n) - 1 is prime (or 1).",
+  "description": "a(n) = smallest number > 1 such that a(1)a(2)...a(n) - 1 is prime (or 1).",
   "id": "A036013",
   "mentions": [
-    "A036012"
+    "A036012",
+    "A058000"
   ],
   "tags": [
     "easy",

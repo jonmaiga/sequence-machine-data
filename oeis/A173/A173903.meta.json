@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both (2^n+1)^2-2 and (2^n-1)^2-2 are prime.",
+  "description": "Numbers k such that both (2^k+1)^2-2 and (2^k-1)^2-2 are prime.",
   "id": "A173903",
   "mentions": [
     "A091513",

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Chaitin's constant.",
+  "description": "Decimal expansion of a non-random Chaitin's constant.",
   "id": "A100264",
   "mentions": [
     "A079365"

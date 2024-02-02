@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_digits{C(n,Sum_digits[a(n-1)]}, with a(0)=1.",
+  "description": "a(n) = Sum_digits{C(n,Sum_digits[a(n-1)])}, with a(0)=1.",
   "id": "A135208",
   "mentions": [
     "A128936",

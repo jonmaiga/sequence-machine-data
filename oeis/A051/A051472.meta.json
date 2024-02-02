@@ -1,12 +1,13 @@
 {
-  "description": "(A028317)/2.",
+  "description": "a(n) = A028317(n)/2.",
   "id": "A051472",
   "mentions": [
     "A028313",
     "A028317"
   ],
   "tags": [
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,

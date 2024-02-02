@@ -1,0 +1,17 @@
+{
+  "description": "Terms of A105774 given in ascending order.",
+  "id": "A368200",
+  "mentions": [
+    "A105774",
+    "A368199"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

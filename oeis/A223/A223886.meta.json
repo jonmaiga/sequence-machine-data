@@ -1,5 +1,5 @@
 {
-  "description": "Numbers ((binomial (j*k*prime(n), j*prime(n)) - binomial(k*j, j))/(k*prime(n)^3) for k=4, j=3 and n>=2.",
+  "description": "Numbers (binomial(j*k*prime(n), j*prime(n)) - binomial(k*j, j))/(k*prime(n)^3) for k=4, j=3 and n>=2.",
   "id": "A223886",
   "mentions": [
     "A034602",

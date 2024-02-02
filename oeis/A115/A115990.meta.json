@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (1/sqrt(1-2*x-3*x^2), ((1-2*x-3*x^2)/(2*(1-3*x)) - sqrt(1-2*x-3*x^2)/2).",
+  "description": "Riordan array (1/sqrt(1-2*x-3*x^2), (1-2*x-3*x^2)/(2*(1-3*x)) - sqrt(1-2*x-3*x^2)/2).",
   "id": "A115990",
   "mentions": [
     "A002426",

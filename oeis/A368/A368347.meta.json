@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive integer that has not yet appeared which contains all the distinct digits of the sum of all previous terms a(1)..a(n-1).",
+  "id": "A368347",
+  "mentions": [
+    "A342382",
+    "A342383",
+    "A362075",
+    "A362093",
+    "A368181"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

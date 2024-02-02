@@ -2,8 +2,10 @@
   "description": "Numbers k that are the start of a sequence of 7 maximally-squarefree numbers.",
   "id": "A194002",
   "mentions": [
+    "A005117",
     "A007674",
-    "A007675"
+    "A007675",
+    "A017077"
   ],
   "tags": [
     "nonn"

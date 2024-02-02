@@ -1,0 +1,20 @@
+{
+  "description": "Starts of runs of 4 consecutive integers in A268375.",
+  "id": "A368404",
+  "mentions": [
+    "A130091",
+    "A268375",
+    "A342030",
+    "A368402",
+    "A368403"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Table read by rows of numbers of unordered pairs of partitions of n-element set that have Rand distance k (n>=2, 1 <= k <= n(n-1)/2.",
+  "description": "Table read by rows of numbers of unordered pairs of partitions of n-element set that have Rand distance k (n>=2, 1 <= k <= n(n-1)/2).",
   "id": "A192100",
   "mentions": [
     "A105479",

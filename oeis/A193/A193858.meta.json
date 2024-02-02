@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array: the fission of ((x+1)^n) by ((2x+1)^n.",
+  "description": "Triangular array: the fission of ((x+1)^n) by ((2x+1)^n).",
   "id": "A193858",
   "mentions": [
     "A193842",

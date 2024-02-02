@@ -1,0 +1,42 @@
+{
+  "description": "Number of unlabeled simple graphs covering n vertices such that it is possible to choose a different vertex from each edge (choosable).",
+  "id": "A368834",
+  "mentions": [
+    "A000088",
+    "A001434",
+    "A002494",
+    "A005703",
+    "A006129",
+    "A006649",
+    "A007716",
+    "A007718",
+    "A054548",
+    "A055621",
+    "A116508",
+    "A129271",
+    "A133686",
+    "A134964",
+    "A137916",
+    "A137917",
+    "A140637",
+    "A283877",
+    "A300913",
+    "A367868",
+    "A367869",
+    "A368984",
+    "A369146",
+    "A369147",
+    "A369199",
+    "A369200",
+    "A369202"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

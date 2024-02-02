@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 4^(n-k) * floor(k/3).",
+  "id": "A368345",
+  "mentions": [
+    "A033140",
+    "A097138",
+    "A368343"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

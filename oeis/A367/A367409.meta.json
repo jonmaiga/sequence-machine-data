@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of arclength of (1 - 2^(1-x)) zeta(x), for 0 < x < 1.",
+  "id": "A367409",
+  "mentions": [
+    "A113024",
+    "A367309",
+    "A367311"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

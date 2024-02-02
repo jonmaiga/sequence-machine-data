@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A340556(2*n, n), the central terms of the second order Eulerian numbers.",
+  "id": "A367369",
+  "mentions": [
+    "A008517",
+    "A201637",
+    "A340556"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

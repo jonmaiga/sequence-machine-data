@@ -1,10 +1,13 @@
 {
-  "description": "Numbers n such that the elliptic curve y^2=x^3+nx has rank 2.",
+  "description": "Some numbers k such that the elliptic curve y^2 = x^3 + k*x has rank 2.",
   "id": "A107484",
   "mentions": [
-    "A002151"
+    "A002151",
+    "A076329",
+    "A309032"
   ],
   "tags": [
+    "less",
     "sign"
   ],
   "terms": {

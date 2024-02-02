@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 5n^4 + 1.",
+  "description": "Primes of the form 5*k^4 + 1.",
   "id": "A207837",
   "mentions": [
     "A002648",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

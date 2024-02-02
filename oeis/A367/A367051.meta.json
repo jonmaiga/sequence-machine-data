@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n matrices with elements {0, 1} whose characteristic polynomial has coefficients in {-1,0,1}.",
+  "id": "A367051",
+  "mentions": [
+    "A272661",
+    "A367052"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

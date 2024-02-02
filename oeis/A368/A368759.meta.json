@@ -1,0 +1,21 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = n! * (1 + Sum_{j=0..n} j^k/j!).",
+  "id": "A368759",
+  "mentions": [
+    "A033540",
+    "A038159",
+    "A053817",
+    "A337085",
+    "A368760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

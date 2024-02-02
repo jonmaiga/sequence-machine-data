@@ -1,5 +1,5 @@
 {
-  "description": "G-Lehmer numbers: Composite number n such that A060968(n) divides A201629(n).",
+  "description": "G-Lehmer numbers: Composite numbers k such that A060968(k) divides A201629(k).",
   "id": "A235864",
   "mentions": [
     "A060968",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

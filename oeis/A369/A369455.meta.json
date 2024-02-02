@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet convolution of A083345 with A055615 (Dirichlet inverse of n), where A083345(n) = (n'/gcd(n,n')) and n' is the arithmetic derivative of n.",
+  "id": "A369455",
+  "mentions": [
+    "A000010",
+    "A055615",
+    "A083345",
+    "A349394",
+    "A349396",
+    "A369068",
+    "A369069"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

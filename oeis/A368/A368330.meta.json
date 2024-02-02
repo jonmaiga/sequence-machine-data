@@ -1,0 +1,25 @@
+{
+  "description": "The number of terms of A054743 that are unitary divisors of n.",
+  "id": "A368330",
+  "mentions": [
+    "A034444",
+    "A043281",
+    "A054743",
+    "A207481",
+    "A368328",
+    "A368329",
+    "A368331",
+    "A368334"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

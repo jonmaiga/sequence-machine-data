@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having k as the length of the longest initial sequence of the form UHUH... (n>=2, 1<=k<=2*floor(n/2).",
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having k as the length of the longest initial sequence of the form UHUH... (n>=2, 1<=k<=2*floor(n/2)).",
   "id": "A274494",
   "mentions": [
     "A082582",

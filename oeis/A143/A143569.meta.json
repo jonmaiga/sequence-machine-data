@@ -1,10 +1,11 @@
 {
-  "description": "E.g.f. satisfies: A(x) = exp(x*A(x^5/5!)).",
+  "description": "E.g.f. satisfies A(x) = exp(x*A(x^5/5!)).",
   "id": "A143569",
   "mentions": [
     "A143565"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

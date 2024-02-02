@@ -1,8 +1,13 @@
 {
-  "description": "Number of n X n arrays of squares of integers with every (n-2)X(n-2) subblock summing to 10",
+  "description": "Number of n X n arrays of squares of integers with every (n-2) X (n-2) subblock summing to 10.",
   "id": "A159381",
-  "mentions": [],
+  "mentions": [
+    "A159377",
+    "A159379",
+    "A159380"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

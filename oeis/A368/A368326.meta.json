@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0; a(n) = (1+a(n-1))^4 for n > 0.",
+  "id": "A368326",
+  "mentions": [
+    "A004019",
+    "A115590",
+    "A368327"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R*(n,k) (n>=2, k from 2 to n-1 (to 2 if n = 2), where R*(n,k) = number of trees with n nodes and k unlabeled end-nodes.",
+  "description": "Triangle read by rows: R*(n,k) (n>=2, k from 2 to n-1 or to 2 if n = 2), where R*(n,k) = number of trees with n nodes and k unlabeled end-nodes.",
   "id": "A213262",
   "mentions": [
     "A001258",

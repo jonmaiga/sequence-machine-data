@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 1+n^phi(n).",
+  "description": "Primes of the form 1 + k^phi(k).",
   "id": "A067976",
   "mentions": [
     "A000010",

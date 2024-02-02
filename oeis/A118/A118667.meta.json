@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1)+ ((abs(2^a(n-1)*a(n-1)) mod 10).",
+  "description": "a(n) = a(n-1)+ (abs(2^a(n-1)*a(n-1)) mod 10).",
   "id": "A118667",
   "mentions": [],
   "tags": [

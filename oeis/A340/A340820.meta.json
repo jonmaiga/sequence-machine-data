@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (1 + Product_{p prime} (1 - 2/(p*(p+1)))/2.",
+  "description": "Decimal expansion of (1 + Product_{p prime} (1 - 2/(p*(p+1))))/2.",
   "id": "A340820",
   "mentions": [
     "A013661",

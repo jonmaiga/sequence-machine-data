@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of divisors of A000058(n) (Sylvester's sequence).",
+  "id": "A367130",
+  "mentions": [
+    "A000005",
+    "A000058",
+    "A091335",
+    "A367131"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -2,10 +2,12 @@
   "description": "a(n) = floor(n/2)^n.",
   "id": "A206344",
   "mentions": [
+    "A059841",
     "A206345",
     "A206346",
     "A276978",
-    "A276979"
+    "A276979",
+    "A368366"
   ],
   "tags": [
     "easy",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

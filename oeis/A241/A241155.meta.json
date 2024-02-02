@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=1 for n <= s+k; thereafter a(n) = Sum(a(n-i-s-a(n-i-1)),i=0..k-1) where s=0, k=6.",
+  "description": "a(n)=1 for n <= s+k; thereafter a(n) = Sum_{i=0..k-1} a(n-i-s-a(n-i-1)) where s=0, k=6.",
   "id": "A241155",
   "mentions": [
     "A000012",

@@ -1,5 +1,5 @@
 {
-  "description": "Prime(prime(n))^2+1)/2.",
+  "description": "(Prime(prime(n))^2+1)/2.",
   "id": "A092773",
   "mentions": [],
   "tags": [

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that gcd(2*k^7+1, 3*k^3+2) > 1.",
+  "id": "A369153",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Expansion of exp(x)*cosh(log(1+x)).",
+  "description": "Expansion of e.g.f. exp(x)*cosh(log(1+x)).",
   "id": "A009281",
-  "mentions": [],
+  "mentions": [
+    "A000387"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 25,
     "source": "joeis"
   }
 }

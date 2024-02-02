@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k neither squarefree nor prime powers whose squarefree kernel is not a primorial.",
+  "id": "A368089",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A002110",
+    "A007947",
+    "A055932",
+    "A126706",
+    "A367268"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

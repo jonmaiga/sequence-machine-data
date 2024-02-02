@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which A342001(k) is even.",
+  "id": "A368998",
+  "mentions": [
+    "A000290",
+    "A342001",
+    "A368995",
+    "A368997",
+    "A368999"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(n) is the smallest number k such that the symmetric representation of sigma(k) consists of n parts of width 1.",
   "id": "A318843",
   "mentions": [
+    "A038547",
     "A174905",
     "A237048",
     "A237270",
@@ -16,6 +17,7 @@
     "A249223",
     "A249351",
     "A298856",
+    "A341969",
     "A348171"
   ],
   "tags": [

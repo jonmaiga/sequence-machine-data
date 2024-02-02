@@ -1,0 +1,20 @@
+{
+  "description": "Reverse bits in blocks in binary expansion of n where blocks are separated by every second 1 bit starting from the most significant 1 bit as the first separator.",
+  "id": "A367307",
+  "mentions": [
+    "A053644",
+    "A053645",
+    "A059893"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

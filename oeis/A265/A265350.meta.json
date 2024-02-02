@@ -1,5 +1,5 @@
 {
-  "description": "Numbers in whose factorial base representation (A007623) at least one of the nonzero digits occurs more than once (although not necessarily in adjacent positions).",
+  "description": "Numbers whose factorial base representation (A007623) contains at least one of the nonzero digits occurs more than once (although not necessarily in adjacent positions).",
   "id": "A265350",
   "mentions": [
     "A007489",

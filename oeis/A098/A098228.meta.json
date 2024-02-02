@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(n/(n-phi(n)) = floor(n/cototient(n)).",
+  "description": "a(n) = floor(n/(n-phi(n))) = floor(n/cototient(n)).",
   "id": "A098228",
   "mentions": [],
   "tags": [

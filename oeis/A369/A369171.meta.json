@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A000688(k) = A046660(k+1).",
+  "id": "A369171",
+  "mentions": [
+    "A000688",
+    "A046660"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

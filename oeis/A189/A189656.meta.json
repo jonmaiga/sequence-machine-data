@@ -1,5 +1,5 @@
 {
-  "description": "Number of 8Xn array permutations with each element moving zero or one space horizontally, diagonally or antidiagonally",
+  "description": "Number of 8 X n array permutations with each element moving zero or one space horizontally, diagonally or antidiagonally.",
   "id": "A189656",
   "mentions": [
     "A189650"

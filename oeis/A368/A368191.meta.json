@@ -1,0 +1,14 @@
+{
+  "description": "Number of (undirected) cycles in the n-flower graph.",
+  "id": "A368191",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

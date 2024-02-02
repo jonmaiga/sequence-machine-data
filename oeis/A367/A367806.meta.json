@@ -1,0 +1,23 @@
+{
+  "description": "Inverse permutation of A160080.",
+  "id": "A367806",
+  "mentions": [
+    "A008585",
+    "A008588",
+    "A016945",
+    "A016957",
+    "A047268",
+    "A160080"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

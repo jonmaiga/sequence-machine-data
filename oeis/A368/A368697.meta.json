@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are divisible by the squares of two distinct primes and whose arithmetic derivative (A003415) is a squarefree number of the form 4k+2.",
+  "id": "A368697",
+  "mentions": [
+    "A003415",
+    "A036785",
+    "A057521",
+    "A327862",
+    "A328393",
+    "A368696"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Carmichael numbers k such that (k-1)/lambda(k) > (m-1)/lambda(m) for all Carmichael numbers m < k, where lambda is the Carmichael lambda function (A002322).",
+  "id": "A367320",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A174590",
+    "A226216",
+    "A306414",
+    "A367319"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

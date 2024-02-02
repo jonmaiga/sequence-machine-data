@@ -2,7 +2,6 @@
   "description": "n^3 mod 8; the periodic sequence {0,1,0,3,0,5,0,7}.",
   "id": "A109753",
   "mentions": [
-    "A010698",
     "A010877",
     "A070432"
   ],

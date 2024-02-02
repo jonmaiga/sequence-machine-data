@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the integer r with |r| < prime(n)/2 such that (T(prime(n)^2)-T(prime(n))/prime(n)^4 == r (mod prime(n)), where T(k) denotes the central trinomial coefficient A002426(k).",
+  "description": "a(n) is the integer r with |r| < prime(n)/2 such that (T(prime(n)^2)-T(prime(n)))/prime(n)^4 == r (mod prime(n)), where T(k) denotes the central trinomial coefficient A002426(k).",
   "id": "A277640",
   "mentions": [
     "A000040",

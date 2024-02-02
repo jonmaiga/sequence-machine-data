@@ -1,0 +1,20 @@
+{
+  "description": "Arithmetic derivative of the odd part of n, permuted by A163511 (\"Doudna-sequence mirrored\").",
+  "id": "A369458",
+  "mentions": [
+    "A000265",
+    "A003415",
+    "A163511",
+    "A369459",
+    "A369465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

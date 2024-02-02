@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: gcd(binomial(n,floor(n/2)), binomial(n,i), i=0..n; greatest common divisor of binomial coefficients and corresponding central binomial coefficient.",
+  "description": "Triangle read by rows: gcd(binomial(n,floor(n/2)), binomial(n,i)), i=0..n; greatest common divisor of binomial coefficients and corresponding central binomial coefficient.",
   "id": "A080381",
   "mentions": [
     "A001405",

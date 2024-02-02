@@ -1,0 +1,25 @@
+{
+  "description": "Number A(n,k) of n X n Fishburn matrices with entries in the set {0,1,...,k}; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A369415",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A005321",
+    "A011379",
+    "A289314",
+    "A289315",
+    "A369336",
+    "A369423"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

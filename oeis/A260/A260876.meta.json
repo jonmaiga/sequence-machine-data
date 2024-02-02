@@ -1,5 +1,5 @@
 {
-  "description": "Number of m-shape set partitions, square array read by ascending antidiagonals, A(m, n) for m, n >= 0.",
+  "description": "Number of m-shape set partitions, square array read by ascending antidiagonals, A(m,n) for m, n >= 0.",
   "id": "A260876",
   "mentions": [
     "A000012",

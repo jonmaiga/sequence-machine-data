@@ -1,5 +1,5 @@
 {
-  "description": "Sum of 2 terms is never a Fibonacci number.",
+  "description": "Lexicographically least increasing sequence, starting with 1, such that the sum of 2 distinct terms is never a Fibonacci number.",
   "id": "A005652",
   "mentions": [
     "A005653",

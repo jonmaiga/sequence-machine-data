@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of idempotent numbers binomial(n,k)*k^(n-k), version 3.",
+  "description": "Triangle of idempotent numbers (version 3), T(n, k) = binomial(n, k) * (n - k)^k.",
   "id": "A059299",
   "mentions": [
     "A000248",

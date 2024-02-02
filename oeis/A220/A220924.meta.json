@@ -1,5 +1,5 @@
 {
-  "description": "Majority value maps: number of 3Xn binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, diagonal and antidiagonal neighbors in a random 0..2 3Xn array",
+  "description": "Majority value maps: number of 3 X n binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, diagonal and antidiagonal neighbors in a random 0..2 3 X n array.",
   "id": "A220924",
   "mentions": [
     "A220922"

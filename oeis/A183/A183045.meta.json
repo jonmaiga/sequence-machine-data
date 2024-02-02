@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array, T(i,j)=number of knight's moves to points on vertical segments (n,-n), (n,-n+1, ... (n,n) on infinite chessboard.",
+  "description": "Triangular array, T(i,j)=number of knight's moves to points on vertical segments (n,-n), (n,-n+1), ... (n,n) on infinite chessboard.",
   "id": "A183045",
   "mentions": [
     "A065775",

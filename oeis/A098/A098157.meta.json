@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) with diagonals T(n,n-k)=binomial(n+1,2k).",
+  "description": "Triangle T(n,k) with diagonals T(n,n-k) = binomial(n+1,2k).",
   "id": "A098157",
   "mentions": [
     "A000079",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 86,
+    "size": 91,
     "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct ways to partition the set {1,2,...,n} into nonempty subsets such that the sum of the pi(x)*(pi(x) + 1)/2 values of each subset's size x equals n, where pi() is the prime counting function given by A000720.",
+  "id": "A364525",
+  "mentions": [
+    "A000720",
+    "A166444",
+    "A365062"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

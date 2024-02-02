@@ -9,13 +9,13 @@
     "A348445"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 56,
-    "source": "oeis-entry"
+    "size": 71,
+    "source": "oeis-bfile"
   }
 }

@@ -2,9 +2,12 @@
   "description": "a(n) = Product_{k=1..n} A002109(k).",
   "id": "A125760",
   "mentions": [
-    "A002109"
+    "A002109",
+    "A074962",
+    "A255269"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

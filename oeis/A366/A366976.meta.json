@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that cannot be written as sum of two or more consecutive nonprimes.",
+  "id": "A366976",
+  "mentions": [
+    "A018252",
+    "A051349",
+    "A257393",
+    "A367021"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

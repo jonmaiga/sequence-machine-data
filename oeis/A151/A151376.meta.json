@@ -1,5 +1,5 @@
 {
-  "description": "Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, -1), (0, 1), (1, 0)}",
+  "description": "Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0), ending on the vertical axis and consisting of n steps taken from {(-1, -1), (0, 1), (1, 0)}.",
   "id": "A151376",
   "mentions": [],
   "tags": [

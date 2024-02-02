@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of n X n binary arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors",
+  "description": "Half the number of n X n binary arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors.",
   "id": "A183398",
   "mentions": [
     "A183402"

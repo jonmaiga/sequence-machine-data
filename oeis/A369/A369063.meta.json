@@ -1,0 +1,16 @@
+{
+  "description": "Positions of records in A369054.",
+  "id": "A369063",
+  "mentions": [
+    "A369054",
+    "A369064"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

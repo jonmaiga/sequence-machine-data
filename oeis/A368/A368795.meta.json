@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that the doubly-infinite symmetric sequence b defined by b(n) = b(-n) = a(n) for any n >= 0 has no three equidistant terms in arithmetic progression.",
+  "id": "A368795",
+  "mentions": [
+    "A229037",
+    "A248625",
+    "A368797",
+    "A368798"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A369461, where A369461(n) = number of representations of 12n-5 as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r.",
+  "id": "A369451",
+  "mentions": [
+    "A369054",
+    "A369057",
+    "A369252",
+    "A369450",
+    "A369452",
+    "A369461"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: Number of permutations of [n] that factor into exactly k-cycles, ordered by n (rows) and divisors k of n (columns).",
+  "id": "A368213",
+  "mentions": [
+    "A005225",
+    "A008290",
+    "A052502",
+    "A060706",
+    "A123023"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

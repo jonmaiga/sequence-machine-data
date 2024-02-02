@@ -1,7 +1,9 @@
 {
   "description": "35th cyclotomic polynomial.",
   "id": "A011634",
-  "mentions": [],
+  "mentions": [
+    "A014044"
+  ],
   "tags": [
     "fini",
     "full",

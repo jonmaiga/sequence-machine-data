@@ -2,6 +2,7 @@
   "description": "a(n) = floor(n/2)!.",
   "id": "A081123",
   "mentions": [
+    "A000142",
     "A004526",
     "A081124",
     "A081125"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

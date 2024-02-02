@@ -1,5 +1,5 @@
 {
-  "description": "Least m > 0 for which (s(m), ..., s(n+m-1) = (s(0), ..., s(n)), the first n+1 terms of the infinite Fibonacci word A003849.",
+  "description": "Least m > 0 for which (s(m), ..., s(n+m-1)) = (s(0), ..., s(n)), the first n+1 terms of the infinite Fibonacci word A003849.",
   "id": "A246104",
   "mentions": [
     "A000045",

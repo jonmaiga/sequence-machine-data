@@ -1,0 +1,25 @@
+{
+  "description": "Products of primorials that are perfect powers but not prime powers.",
+  "id": "A368682",
+  "mentions": [
+    "A000079",
+    "A000961",
+    "A001597",
+    "A002110",
+    "A025487",
+    "A131605",
+    "A286708",
+    "A365308",
+    "A368508",
+    "A368681"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

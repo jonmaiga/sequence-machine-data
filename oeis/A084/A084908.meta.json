@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci numbers that satisfy: Sum_{k>=1} 1/a(k)) = 1, such that the partial sums are nearest to, but never exceed, unity.",
+  "description": "Fibonacci numbers that satisfy: Sum_{k>=1} 1/a(k) = 1, such that the partial sums are nearest to, but never exceed, unity.",
   "id": "A084908",
   "mentions": [
     "A000045",

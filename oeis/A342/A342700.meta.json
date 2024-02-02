@@ -1,5 +1,5 @@
 {
-  "description": "For any number n with binary expansion (b(1), b(2), ..., b(k)), the binary expansion of a(n) is (1-floor((b(k)+b(1)+b(2))/2), 1-floor((b(1)+b(2)+b(3))/2), ..., 1-floor((b(k-1)+b(k)+b(1))/2).",
+  "description": "For any number n with binary expansion (b(1), b(2), ..., b(k)), the binary expansion of a(n) is (1-floor((b(k)+b(1)+b(2))/2), 1-floor((b(1)+b(2)+b(3))/2), ..., 1-floor((b(k-1)+b(k)+b(1))/2)).",
   "id": "A342700",
   "mentions": [
     "A003817",

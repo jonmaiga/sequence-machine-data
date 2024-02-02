@@ -1,18 +1,21 @@
 {
-  "description": "Number of nX1 0..2 arrays with rows, antidiagonals and columns unimodal.",
+  "description": "Number of unimodal functions [1..n]->[0..2].",
   "id": "A223718",
   "mentions": [
+    "A000124",
     "A051744",
     "A071920",
+    "A088536",
     "A223725"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 40,
-    "source": "joeis"
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

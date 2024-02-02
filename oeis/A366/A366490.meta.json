@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (n^17 - n)/17.",
+  "id": "A366490",
+  "mentions": [
+    "A000217",
+    "A007290",
+    "A110936",
+    "A208536",
+    "A208537",
+    "A366488",
+    "A366489",
+    "A366491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations whose reverse-complement shares the same recording tableau in the Robinson-Schensted correspondence.",
+  "id": "A365643",
+  "mentions": [
+    "A059304"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

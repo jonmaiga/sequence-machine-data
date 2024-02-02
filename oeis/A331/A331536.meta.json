@@ -1,7 +1,12 @@
 {
   "description": "Number of theorems in the MIU formal system which can be proved in n steps or fewer starting with the axiom 'mi'.",
   "id": "A331536",
-  "mentions": [],
+  "mentions": [
+    "A368946",
+    "A368953",
+    "A369148",
+    "A369173"
+  ],
   "tags": [
     "more",
     "nonn"

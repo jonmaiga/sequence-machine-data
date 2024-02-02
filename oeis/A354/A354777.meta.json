@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) is the number of integer quadruples (u,v,w,x) such that u^2+v^2+w^2+x^2 = n and u+v+w+x = k (n>=0, 0 <= k <= A307531(n).",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of integer quadruples (u,v,w,x) such that u^2+v^2+w^2+x^2 = n and u+v+w+x = k (n>=0, 0 <= k <= A307531(n)).",
   "id": "A354777",
   "mentions": [
     "A000118",

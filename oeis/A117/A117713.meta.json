@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(2)=3, a(3)=8; for n>=4, a(n) = 10*a(n-3) + 8 (if a(n-3) is odd) or + 9 if a(n-3) is even).",
+  "description": "a(1)=1, a(2)=3, a(3)=8; for n>=4, a(n) = 10*a(n-3) + 8 (if a(n-3) is odd) or + 9 (if a(n-3) is even).",
   "id": "A117713",
   "mentions": [
     "A010892",

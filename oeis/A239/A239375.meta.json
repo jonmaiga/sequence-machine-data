@@ -1,5 +1,5 @@
 {
-  "description": "Words of length n over the alphabet {0,...,n-1} that avoid the pattern 1221.",
+  "description": "Number of words of length n over the alphabet {0, ..., n-1} that avoid the pattern 1221.",
   "id": "A239375",
   "mentions": [
     "A239295"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

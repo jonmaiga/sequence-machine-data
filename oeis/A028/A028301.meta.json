@@ -1,7 +1,9 @@
 {
-  "description": "a(n+1) = a(n)^2 + prime(n).",
+  "description": "a(n) = a(n-1)^2 + prime(n-1), with a(1) = 1.",
   "id": "A028301",
-  "mentions": [],
+  "mentions": [
+    "A028300"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

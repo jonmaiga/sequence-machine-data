@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of the highest power of two that divides sigma(n), applied to A163511(n).",
+  "id": "A368694",
+  "mentions": [
+    "A082903",
+    "A163511",
+    "A366889",
+    "A368695"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

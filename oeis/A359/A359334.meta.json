@@ -1,5 +1,5 @@
 {
-  "description": "Amicable numbers k that can be expressed as a sum k = x+y = A001065(x) + A001065(y) and a sum k = z+t = (A001065(z) + A001065(t) where (x, y, z, t) are parts of two amicable pairs and A001065(i) is the sum of the aliquot parts of i.",
+  "description": "Amicable numbers k that can be expressed as a sum k = x+y = A001065(x) + A001065(y) and a sum k = z+t = A001065(z) + A001065(t) where (x, y, z, t) are parts of two amicable pairs and A001065(i) is the sum of the aliquot parts of i.",
   "id": "A359334",
   "mentions": [
     "A001065",

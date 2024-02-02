@@ -1,5 +1,5 @@
 {
-  "description": "(Theta series of E_8)^(1/8) - (theta series of Leech lattice)^(1/24) ) / 30.",
+  "description": "( (Theta series of E_8)^(1/8) - (theta series of Leech lattice)^(1/24) ) / 30.",
   "id": "A108772",
   "mentions": [
     "A108091",

@@ -2,10 +2,13 @@
   "description": "Decimal expansion of the characteristic impedance of vacuum in SI units as defined before 20 May 2019.",
   "id": "A213610",
   "mentions": [
+    "A003673",
+    "A003676",
     "A003678",
     "A019694",
     "A072915",
     "A081799",
+    "A081823",
     "A182999",
     "A213611",
     "A213612",

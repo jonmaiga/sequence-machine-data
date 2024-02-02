@@ -1,0 +1,24 @@
+{
+  "description": "The number of terms of A054744 that divide n.",
+  "id": "A368332",
+  "mentions": [
+    "A048103",
+    "A054744",
+    "A365632",
+    "A368328",
+    "A368333",
+    "A368334",
+    "A368335"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

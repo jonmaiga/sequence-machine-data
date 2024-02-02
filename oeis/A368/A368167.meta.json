@@ -1,0 +1,27 @@
+{
+  "description": "The largest unitary divisor of n that is a cubefull exponentially odd number (A335988).",
+  "id": "A368167",
+  "mentions": [
+    "A056191",
+    "A057521",
+    "A077610",
+    "A335275",
+    "A335988",
+    "A350389",
+    "A366126",
+    "A367513",
+    "A368168",
+    "A368169"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

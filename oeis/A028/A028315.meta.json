@@ -2,7 +2,9 @@
   "description": "Odd elements in the 5-Pascal triangle A028313.",
   "id": "A028315",
   "mentions": [
-    "A028313"
+    "A028313",
+    "A028316",
+    "A028325"
   ],
   "tags": [
     "nonn",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 71,
+    "size": 78,
     "source": "joeis"
   }
 }

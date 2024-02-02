@@ -1,0 +1,19 @@
+{
+  "description": "Index of matching grid point in the bijection between two infinite triangular grids with one grid rotated by Pi/6 around the common point (0,0), using an enumeration of the grid points by A307014 and A307016.",
+  "id": "A367147",
+  "mentions": [
+    "A307014",
+    "A307016",
+    "A307110",
+    "A307731",
+    "A367148"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

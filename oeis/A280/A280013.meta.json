@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of squarefree divisors of n > sum of squarefree divisors of m for all m < n.",
+  "description": "Numbers k such that sum of squarefree divisors of k > sum of squarefree divisors of m for all m < k.",
   "id": "A280013",
   "mentions": [
     "A001615",

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the Mertens constant M(3,2) arising in the formula for the sum of reciprocals of primes p == 2 (mod 3).",
+  "id": "A368644",
+  "mentions": [
+    "A001620",
+    "A003627",
+    "A077761",
+    "A086241",
+    "A161529",
+    "A301429",
+    "A368645",
+    "A368646"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

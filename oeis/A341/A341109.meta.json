@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = denominator(p(n, x)) / (n!*denominator(bernoulli(n, x))), where p(n, x) = Sum_{k=0..n} E2(n, k)*binomial(x + k, 2*n), k = 0..n) / Product_{j=1..n} (j - x) and E2(n, k) are the second-order Eulerian numbers A201637.",
+  "description": "a(n) = denominator(p(n, x)) / (n!*denominator(bernoulli(n, x))), where p(n, x) = Sum_{k=0..n} E2(n, k)*binomial(x + k, 2*n) / Product_{j=1..n} (j - x) and E2(n, k) are the second-order Eulerian numbers A201637.",
   "id": "A341109",
   "mentions": [
     "A007947",

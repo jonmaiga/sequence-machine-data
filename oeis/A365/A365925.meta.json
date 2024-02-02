@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct subset-sums of strict integer partitions of n.",
+  "description": "Number of subset-sums of strict integer partitions of n.",
   "id": "A365925",
   "mentions": [
     "A000009",

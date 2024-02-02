@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Sum_{n>0} a(n)/n^s = ((zeta(s)*zeta(6*s))/((zeta(2*s)*zeta(3*s)).",
+  "description": "Dirichlet g.f.: Sum_{n>0} a(n)/n^s = (zeta(s)*zeta(6*s))/(zeta(2*s)*zeta(3*s)).",
   "id": "A299406",
   "mentions": [
     "A000005",

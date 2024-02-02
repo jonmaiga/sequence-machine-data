@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(m,n), read by ascending antidiagonals. Let f(k) = k/2 if k is even, otherwise ((2*n+1)*k+2*T(m,n)+1)/2, T(m,n) is the smallest integer greater than -1, where m = f^j(m) for j > 0 exists. f^j(m) means the j-th iterate of f(m).",
+  "description": "Square array T(m, n), read by ascending antidiagonals. Let f(k) = k/2 if k is even, otherwise ((2*n+1)*k + 2*T(m, n) + 1)/2, T(m, n) is the smallest integer greater than -1, where m = f^j(m) for j > 0 exists. f^j(m) means the j-th iterate of f(m).",
   "id": "A345228",
   "mentions": [
     "A000265",

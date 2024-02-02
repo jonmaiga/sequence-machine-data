@@ -2,9 +2,12 @@
   "description": "Number of ways of placing n nonattacking queens on an n X n toroidal chessboard.",
   "id": "A051906",
   "mentions": [
-    "A007705"
+    "A000170",
+    "A007705",
+    "A071607"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nice",

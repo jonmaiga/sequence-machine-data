@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of real number whose continued fraction is defined by property that k-th partial quotient is the period length of the continued fraction for sqrt(k).",
+  "description": "Decimal expansion of the real number whose continued fraction is defined by the property that the k-th partial quotient is the period of the continued fraction for sqrt(k).",
   "id": "A053011",
   "mentions": [
     "A003285"

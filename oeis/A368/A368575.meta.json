@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} binomial(k+3,4) / k!.",
+  "id": "A368575",
+  "mentions": [
+    "A000332",
+    "A007526",
+    "A103519",
+    "A337002",
+    "A368574",
+    "A368576"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

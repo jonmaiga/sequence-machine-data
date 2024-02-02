@@ -2,7 +2,8 @@
   "description": "Let a(1) = 0, a(2) = 1; and a(n) = a(n-1) + [the two-digit integer split by the comma which separates a(n-1) and a(n-2)].",
   "id": "A134647",
   "mentions": [
-    "A121805"
+    "A121805",
+    "A367357"
   ],
   "tags": [
     "base",

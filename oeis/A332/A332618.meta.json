@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{d|n} lcm(d, n/d) / gcd(d, n/d).",
   "id": "A332618",
   "mentions": [
+    "A007913",
     "A055155",
     "A056789",
     "A057670",

@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 0..floor((n*n-1)/2) on even squares of an n X n array such that each row and column of even squares is increasing",
+  "description": "Number of permutations of 0..floor((n*n-1)/2) on even squares of an n X n array such that each row and column of even squares is increasing.",
   "id": "A215286",
   "mentions": [
     "A060854",

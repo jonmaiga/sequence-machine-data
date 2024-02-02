@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{k=1..d(n)-1) lcm(b(k), b(k+1)), where b(k) is the k-th positive divisor of n and d(n) = the number of positive divisors of n.",
+  "description": "a(n) = Product_{k=1..d(n)-1} lcm(b(k), b(k+1)), where b(k) is the k-th positive divisor of n and d(n) = the number of positive divisors of n.",
   "id": "A136182",
   "mentions": [
     "A136179",

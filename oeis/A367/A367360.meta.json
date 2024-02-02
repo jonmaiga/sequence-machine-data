@@ -1,0 +1,24 @@
+{
+  "description": "Comma transform of squares.",
+  "id": "A367360",
+  "mentions": [
+    "A000030",
+    "A002993",
+    "A008959",
+    "A121805",
+    "A166499",
+    "A367361",
+    "A367362",
+    "A368362"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

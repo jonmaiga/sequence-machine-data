@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that Sum_{k=0..m-1} exp(2*Pi*i*k^s/m) <> 0 for all s>=2.",
+  "id": "A368959",
+  "mentions": [
+    "A001074",
+    "A001694",
+    "A042965",
+    "A338325",
+    "A368812"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

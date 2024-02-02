@@ -2,14 +2,16 @@
   "description": "If A is the n X n matrix containing the first n^2 primes, a(n) is the sum of the elements of the square of A.",
   "id": "A202298",
   "mentions": [
+    "A000040",
     "A109724"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

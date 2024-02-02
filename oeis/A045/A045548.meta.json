@@ -2,6 +2,7 @@
   "description": "Numbers whose factorial has '4' as its final nonzero digit.",
   "id": "A045548",
   "mentions": [
+    "A000142",
     "A008904",
     "A045547",
     "A045549",

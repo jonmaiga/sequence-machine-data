@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) = B(x^2)/(1 - 2*x*B(x^2)) where B(x) = 1 + 2*x*B(x)^3 is the g.f. of A153231.",
+  "id": "A367389",
+  "mentions": [
+    "A153231"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

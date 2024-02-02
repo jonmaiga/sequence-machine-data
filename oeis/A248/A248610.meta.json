@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that (Pi^2)/18 - sum{1/(h^2)*C(2h,h)), h = 1..k} < 1/3^n.",
+  "description": "Least k such that (Pi^2)/18 - sum{1/(h^2*C(2h,h)), h = 1..k} < 1/3^n.",
   "id": "A248610",
   "mentions": [
     "A248607",

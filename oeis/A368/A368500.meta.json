@@ -1,0 +1,16 @@
+{
+  "description": "Table read by rows: T(n, k) is the number of permutations of size n whose incidence graph has treewidth k.",
+  "id": "A368500",
+  "mentions": [
+    "A000142"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -2,10 +2,15 @@
   "description": "Smallest prime dividing 6^n + 1.",
   "id": "A366670",
   "mentions": [
+    "A002586",
     "A020639",
+    "A038371",
     "A062394",
     "A274904",
-    "A366630"
+    "A366609",
+    "A366630",
+    "A366671",
+    "A366719"
   ],
   "tags": [
     "formulas",
@@ -14,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

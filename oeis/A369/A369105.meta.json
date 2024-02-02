@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p+2 has only prime factors congruent to -1 modulo 4.",
+  "id": "A369105",
+  "mentions": [
+    "A001221",
+    "A004614",
+    "A004767",
+    "A027748",
+    "A369107",
+    "A369108",
+    "A369109",
+    "A369111"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

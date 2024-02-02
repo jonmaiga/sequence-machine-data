@@ -2,7 +2,8 @@
   "description": "First differences of A075681.",
   "id": "A075682",
   "mentions": [
-    "A075681"
+    "A075681",
+    "A075683"
   ],
   "tags": [
     "formulas",

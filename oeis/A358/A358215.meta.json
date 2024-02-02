@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k for which there are no such prime p that p^p would divide the arithmetic derivative of k, A003415(k).",
+  "description": "Numbers k for which there is no prime p such that p^p divides the arithmetic derivative of k, A003415(k).",
   "id": "A358215",
   "mentions": [
     "A003415",

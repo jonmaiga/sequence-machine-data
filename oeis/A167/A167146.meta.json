@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Im(rz(n)) - Im(-log(exp(-rz(n)))))/Pi where rz(n) is the n-th zero of Zeta(s).",
+  "description": "a(n) = (Im(rz(n)) - Im(-log(exp(-rz(n)))))/Pi where rz(n) is the n-th zero of Zeta(s).",
   "id": "A167146",
   "mentions": [
     "A002410",

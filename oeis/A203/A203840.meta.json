@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..3 arrays with every nonzero element less than or equal to at least two horizontal and vertical neighbors",
+  "description": "Number of n X 2 0..3 arrays with every nonzero element less than or equal to at least two horizontal and vertical neighbors.",
   "id": "A203840",
   "mentions": [
     "A203846"

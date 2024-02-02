@@ -1,0 +1,21 @@
+{
+  "description": "Starts of runs of 15 consecutive integers that are exponentially odious numbers (A270428).",
+  "id": "A367697",
+  "mentions": [
+    "A007675",
+    "A194002",
+    "A270428",
+    "A325058",
+    "A328016",
+    "A367696"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

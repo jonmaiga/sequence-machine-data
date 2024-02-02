@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows. T(n, k) = Sum_{j=0..n-k}(binomial(-n, j) * A268437(n - k, j).",
+  "description": "Triangle read by rows. T(n, k) = Sum_{j=0..n-k} binomial(-n, j) * A268437(n - k, j).",
   "id": "A357339",
   "mentions": [
     "A268437",

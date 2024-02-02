@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1 / (k^2 * k!).",
+  "id": "A367731",
+  "mentions": [
+    "A002775",
+    "A076788",
+    "A229837",
+    "A367732"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

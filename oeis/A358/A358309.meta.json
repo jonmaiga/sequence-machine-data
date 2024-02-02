@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(n*sqrt(gamma(n)) - sigma(n), where sigma(n) = A000203(n) is the sum of the divisors of n and gamma(n) = A007947(n) is the greatest squarefree divisor of n.",
+  "description": "a(n) = floor(n*sqrt(gamma(n))) - sigma(n), where sigma(n) = A000203(n) is the sum of the divisors of n and gamma(n) = A007947(n) is the greatest squarefree divisor of n.",
   "id": "A358309",
   "mentions": [
     "A000203",

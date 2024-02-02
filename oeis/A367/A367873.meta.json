@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of permutations of length n avoiding simultaneously the patterns 132 and 321 with the maximum number of non-overlapping ascents equal to k.",
+  "id": "A367873",
+  "mentions": [
+    "A367631"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

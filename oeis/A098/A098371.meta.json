@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; for n > 1, a(n) is the number of i in range 1..n-1 for which gcd(n, a(i)) = Max_{k=1..n-1} gcd(n, a(k))}.",
+  "description": "a(1) = 1; for n > 1, a(n) is the number of i in range 1..n-1 for which gcd(n, a(i)) = Max_{k=1..n-1} gcd(n, a(k)).",
   "id": "A098371",
   "mentions": [
     "A000010",

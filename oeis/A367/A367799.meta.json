@@ -1,0 +1,20 @@
+{
+  "description": "Ordinal transform of the final nonzero digit of the factorial numbers.",
+  "id": "A367799",
+  "mentions": [
+    "A000142",
+    "A004154",
+    "A008904",
+    "A368010"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

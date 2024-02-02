@@ -2,6 +2,7 @@
   "description": "a(n) = gcd(n^2, n!).",
   "id": "A170826",
   "mentions": [
+    "A010051",
     "A092043"
   ],
   "tags": [

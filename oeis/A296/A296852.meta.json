@@ -1,5 +1,5 @@
 {
-  "description": "Domination number of the n-odd graph.",
+  "description": "Domination and lower independence number of the n-odd graph.",
   "id": "A296852",
   "mentions": [],
   "tags": [

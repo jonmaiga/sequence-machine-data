@@ -1,5 +1,5 @@
 {
-  "description": "Nearest integer to n*tau.",
+  "description": "Nearest integer to n*tau where tau = (1+sqrt(5))/2.",
   "id": "A007067",
   "mentions": [
     "A000045",

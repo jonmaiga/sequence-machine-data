@@ -1,5 +1,5 @@
 {
-  "description": "Integers of the form (prime(m) + prime(m+1)/10 for some m.",
+  "description": "Integers of the form (prime(m) + prime(m+1))/10 for some m.",
   "id": "A268328",
   "mentions": [
     "A001043"

@@ -1,0 +1,21 @@
+{
+  "description": "The smallest positive number such that 2^a(n) when written in base n contains adjacent equal digits.",
+  "id": "A368866",
+  "mentions": [
+    "A000079",
+    "A000866",
+    "A004642",
+    "A004643",
+    "A011557",
+    "A171901"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (-1 + sqrt(21))/10 = 1/A222134.",
+  "id": "A367453",
+  "mentions": [
+    "A010477",
+    "A015440",
+    "A049310",
+    "A222134",
+    "A365824"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

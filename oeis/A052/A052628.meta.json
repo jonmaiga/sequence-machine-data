@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. (2+x^3-x^4)/(1-x).",
+  "description": "Expansion of e.g.f. (2+x^3-x^4)/(1-x).",
   "id": "A052628",
   "mentions": [],
   "tags": [

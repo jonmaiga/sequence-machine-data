@@ -1,0 +1,44 @@
+{
+  "description": "Sorted list of positions of first appearances in A368183 (number of sets that can be obtained by choosing a different binary index of each binary index).",
+  "id": "A368185",
+  "mentions": [
+    "A000120",
+    "A003465",
+    "A029931",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A072639",
+    "A096111",
+    "A253317",
+    "A323818",
+    "A326031",
+    "A326702",
+    "A326753",
+    "A355739",
+    "A355741",
+    "A367771",
+    "A367905",
+    "A367906",
+    "A367907",
+    "A367910",
+    "A367911",
+    "A367912",
+    "A367913",
+    "A367915",
+    "A368109",
+    "A368111",
+    "A368112",
+    "A368183",
+    "A368184"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

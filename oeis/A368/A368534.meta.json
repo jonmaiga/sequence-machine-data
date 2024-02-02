@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(k+1,2) * n^(n-k).",
+  "id": "A368534",
+  "mentions": [
+    "A002662",
+    "A052150",
+    "A052161",
+    "A062805",
+    "A368535"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

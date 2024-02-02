@@ -1,0 +1,32 @@
+{
+  "description": "Number of representations of the n-th Euclid number, A002110(n) + 1, as a sum (p*q + p*r + q*r) with three odd primes p <= q <= r. (Definition implies that p=3 and q > 3).",
+  "id": "A369245",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A006862",
+    "A033312",
+    "A046316",
+    "A116979",
+    "A369000",
+    "A369054",
+    "A369239",
+    "A369241",
+    "A369242",
+    "A369246",
+    "A369247",
+    "A369252",
+    "A369461"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

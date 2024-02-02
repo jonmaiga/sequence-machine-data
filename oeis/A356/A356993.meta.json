@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = b(n - b(n - b(n - b(n)))))) for n >= 2, where b(n) = A356988(n).",
+  "description": "a(n) = b(n - b(n - b(n - b(n)))) for n >= 2, where b(n) = A356988(n).",
   "id": "A356993",
   "mentions": [
     "A000032",

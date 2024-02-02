@@ -1,15 +1,18 @@
 {
-  "description": "n! divided by the product of the decimal digits of n.",
+  "description": "Let m be the product of the decimal digits in n, then a(n) = 0 if m = 0, otherwise a(n) = n!/m.",
   "id": "A067455",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A007954"
+  ],
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 22,
+    "offset": 1,
+    "size": 24,
     "source": "joeis"
   }
 }

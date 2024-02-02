@@ -1,5 +1,5 @@
 {
-  "description": "18^n-(-6)^n)/24.",
+  "description": "a(n) = (18^n - (-6)^n)/24.",
   "id": "A099139",
   "mentions": [
     "A015518",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "joeis"
   }
 }

@@ -1,17 +1,21 @@
 {
-  "description": "Irregular triangle read by rows: number of [0,2[-shifted Schroeder paths of length n and area k.",
+  "description": "Irregular triangle read by rows: number of {0,2,4,6...}-shifted Schroeder paths of length n and area k.",
   "id": "A201079",
   "mentions": [
-    "A052709"
+    "A015128",
+    "A063020",
+    "A201075",
+    "A201076",
+    "A201080",
+    "A201159"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
+    "size": 76,
     "source": "oeis-entry"
   }
 }

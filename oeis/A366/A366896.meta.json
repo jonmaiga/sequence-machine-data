@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive integer not already in the sequence with the property that the concatenation a(0)a(1)...a(n) forms an integer with n distinct prime factors.",
+  "id": "A366896",
+  "mentions": [
+    "A001221"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

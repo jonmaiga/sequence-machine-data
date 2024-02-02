@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the largest prime factor of n*2^n+1.",
+  "description": "a(n) is the largest prime factor of n*2^n+1 for n>0, and a(0)=1.",
   "id": "A367005",
   "mentions": [
     "A002064",

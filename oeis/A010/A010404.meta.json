@@ -1,7 +1,10 @@
 {
   "description": "Squares mod 43.",
   "id": "A010404",
-  "mentions": [],
+  "mentions": [
+    "A010447",
+    "A070465"
+  ],
   "tags": [
     "fini",
     "full",

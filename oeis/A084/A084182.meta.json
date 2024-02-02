@@ -1,5 +1,5 @@
 {
-  "description": "3^n+(-1)^n-[1/(n+1)], where [] represents the floor function.",
+  "description": "a(n) = 3^n + (-1)^n - [1/(n+1)], where [] represents the floor function.",
   "id": "A084182",
   "mentions": [
     "A046717",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 28,
     "source": "joeis"
   }
 }

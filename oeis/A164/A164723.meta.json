@@ -1,5 +1,5 @@
 {
-  "description": "Numbers belonging to cycles of length 2 under the Kaprekar map A151949",
+  "description": "Numbers belonging to cycles of length 2 under the Kaprekar map A151949.",
   "id": "A164723",
   "mentions": [
     "A099009",

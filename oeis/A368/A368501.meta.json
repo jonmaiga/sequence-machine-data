@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts not greater than n/2.",
+  "id": "A368501",
+  "mentions": [
+    "A008289",
+    "A032020",
+    "A072575",
+    "A110618",
+    "A258259",
+    "A368484"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

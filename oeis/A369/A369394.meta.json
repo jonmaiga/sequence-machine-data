@@ -1,0 +1,17 @@
+{
+  "description": "AGM transform of the primes.",
+  "id": "A369394",
+  "mentions": [
+    "A368366"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

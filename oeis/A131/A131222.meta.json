@@ -1,5 +1,5 @@
 {
-  "description": "Exponential Riordan array [1, log((1-x)/(1-2x)].",
+  "description": "Exponential Riordan array [1, log((1-x)/(1-2x))].",
   "id": "A131222",
   "mentions": [
     "A000007",

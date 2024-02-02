@@ -1,0 +1,16 @@
+{
+  "description": "Trajectory of 17 under the '17x+1' map.",
+  "id": "A368115",
+  "mentions": [
+    "A368085"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

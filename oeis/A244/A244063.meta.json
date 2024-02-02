@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors (with multiplicity) of the number of distinct prime factors of n; i.e., Omega(omega(n)).",
+  "description": "Number of prime factors (with multiplicity) of the number of distinct prime factors of n; a(n) = Omega(omega(n)).",
   "id": "A244063",
   "mentions": [
     "A001221",

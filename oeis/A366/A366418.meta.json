@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct integers of the form (x^n + y^n) mod n.",
+  "id": "A366418",
+  "mentions": [
+    "A121278",
+    "A195637",
+    "A366419"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

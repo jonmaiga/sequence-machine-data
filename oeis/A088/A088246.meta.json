@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 21/(2*Pi^2).",
   "id": "A088246",
   "mentions": [
+    "A007434",
     "A030229",
     "A082020",
     "A088245",

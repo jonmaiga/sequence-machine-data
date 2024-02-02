@@ -1,0 +1,18 @@
+{
+  "description": "Cycle lengths obtained by repeated application of the distance-minimizing variant of the strip bijection for the square lattice described in A367150.",
+  "id": "A367146",
+  "mentions": [
+    "A307110",
+    "A363760",
+    "A367150",
+    "A367894"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

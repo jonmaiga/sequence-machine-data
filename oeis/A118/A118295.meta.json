@@ -2,10 +2,12 @@
   "description": "Start with 20 and repeatedly reverse the digits and add 1 to get the next term.",
   "id": "A118295",
   "mentions": [
+    "A117230",
     "A118551"
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {

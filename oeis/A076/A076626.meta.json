@@ -1,5 +1,5 @@
 {
-  "description": "Array of coefficients of polynomials p(n,x) = 2^(n-1)*Product_{i=0..n} (x - cos(i*Pi/n)) of degree (n+1) with P(-1,x)) = 1, P(0,x) = 0.",
+  "description": "Array of coefficients of polynomials p(n,x) = 2^(n-1)*Product_{i=0..n} (x - cos(i*Pi/n)) of degree (n+1) with P(-1,x) = 1, P(0,x) = 0.",
   "id": "A076626",
   "mentions": [
     "A201509",

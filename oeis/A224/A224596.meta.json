@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+7)X14 0..1 matrices with each 8X8 subblock idempotent",
+  "description": "Number of (n+7) X 14 0..1 matrices with each 8 X 8 subblock idempotent.",
   "id": "A224596",
   "mentions": [
     "A224597"

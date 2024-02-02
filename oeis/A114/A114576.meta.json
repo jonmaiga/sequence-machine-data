@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is number of Motzkin paths of length n having k UH's, where U=(1,1), H=(1,0) (0<=k<=floor(n/3).",
+  "description": "Triangle read by rows: T(n,k) is number of Motzkin paths of length n having k UH's, where U=(1,1), H=(1,0) (0<=k<=floor(n/3)).",
   "id": "A114576",
   "mentions": [
     "A001006",

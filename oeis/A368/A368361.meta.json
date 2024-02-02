@@ -1,0 +1,17 @@
+{
+  "description": "Comma transform of the odd numbers.",
+  "id": "A368361",
+  "mentions": [
+    "A005408",
+    "A367360"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

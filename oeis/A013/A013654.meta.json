@@ -1,8 +1,15 @@
 {
-  "description": "Each term of the period of continued fraction for sqrt(n) divides n.",
+  "description": "Positive nonsquare integers k such that each term of the regular continued fraction of sqrt(k) divides k.",
   "id": "A013654",
-  "mentions": [],
+  "mentions": [
+    "A002378",
+    "A002939",
+    "A005563",
+    "A013642",
+    "A033996"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

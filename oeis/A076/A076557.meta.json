@@ -1,5 +1,5 @@
 {
-  "description": "Greatest prime divisor of n-th prime - n.",
+  "description": "Greatest prime divisor of (n-th prime - n).",
   "id": "A076557",
   "mentions": [
     "A006530",
