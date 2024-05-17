@@ -1,0 +1,21 @@
+{
+  "description": "Smallest Fibonacci number > 1 such that some permutation of its digits is a perfect n-th power.",
+  "id": "A371588",
+  "mentions": [
+    "A000045",
+    "A001597",
+    "A118715",
+    "A227875",
+    "A370071"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

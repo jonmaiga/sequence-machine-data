@@ -1,0 +1,16 @@
+{
+  "description": "Coefficient of x^n in the expansion of ( (1+x) / (1-x^3)^3 )^n.",
+  "id": "A370216",
+  "mentions": [
+    "A369401"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

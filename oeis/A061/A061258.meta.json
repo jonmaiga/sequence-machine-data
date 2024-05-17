@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=Sum_{d|n} d*psi(d), where psi(d) is reduced totient function, cf. A002322.",
+  "description": "a(n) = Sum_{d|n} d*psi(d), where psi(d) is reduced totient function, cf. A002322.",
   "id": "A061258",
   "mentions": [
     "A000005",
@@ -13,6 +13,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

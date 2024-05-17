@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of probability to directly sort n uniform random values in [0,1] with perfect strategy.",
+  "id": "A370449",
+  "mentions": [
+    "A370448",
+    "A370450",
+    "A370451"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

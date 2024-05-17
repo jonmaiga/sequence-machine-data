@@ -1,0 +1,19 @@
+{
+  "description": "Array read by ascending antidiagonals where T(n,k) is the number of paths of length k from the origin to a facet of the cross polytope of size k in Z^n.",
+  "id": "A371064",
+  "mentions": [
+    "A002939",
+    "A028399",
+    "A366058"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

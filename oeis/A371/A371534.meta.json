@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (1/8) * Pi^(3/2).",
+  "id": "A371534",
+  "mentions": [
+    "A003881",
+    "A019704",
+    "A175476",
+    "A222068"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "Number of non-isomorphic n-element sets of singletons or pairs of elements of {1..n}, or unlabeled loop-graphs with n edges.",
+  "description": "Number of non-isomorphic n-element sets of singletons or pairs of elements of {1..n}, or unlabeled loop-graphs with n edges and up to n vertices.",
   "id": "A368598",
   "mentions": [
     "A000085",
     "A000612",
     "A000666",
+    "A001434",
     "A001515",
     "A007716",
     "A007717",
@@ -27,7 +28,9 @@
     "A339888",
     "A368186",
     "A368599",
-    "A368731"
+    "A368731",
+    "A368836",
+    "A370168"
   ],
   "tags": [
     "formulas",

@@ -1,7 +1,11 @@
 {
-  "description": "Number of binary strings of length n with equal numbers of 0000 and 0001 substrings",
+  "description": "Number of binary strings of length n with equal numbers of 0000 and 0001 substrings.",
   "id": "A164147",
-  "mentions": [],
+  "mentions": [
+    "A163493",
+    "A164137",
+    "A164178"
+  ],
   "tags": [
     "nonn"
   ],

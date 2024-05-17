@@ -1,15 +1,14 @@
 {
-  "description": "Numbers n such that (10^n+1)^2-2 is prime.",
+  "description": "Numbers k such that (10^k+1)^2-2 is prime.",
   "id": "A100904",
   "mentions": [],
   "tags": [
-    "bref",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

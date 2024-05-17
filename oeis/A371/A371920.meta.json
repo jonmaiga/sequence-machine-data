@@ -1,0 +1,25 @@
+{
+  "description": "Abundant numbers whose abundance is also an abundant number.",
+  "id": "A371920",
+  "mentions": [
+    "A000396",
+    "A005101",
+    "A007691",
+    "A033880",
+    "A125639",
+    "A141545",
+    "A166069",
+    "A223610",
+    "A223611",
+    "A223613"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

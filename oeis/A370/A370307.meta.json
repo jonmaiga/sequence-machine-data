@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A002623(n) + n.",
+  "id": "A370307",
+  "mentions": [
+    "A002623"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

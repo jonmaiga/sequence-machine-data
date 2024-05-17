@@ -2,7 +2,11 @@
   "description": "Triangle in which n-th row gives the prime factors of the n-th composite number with repetition.",
   "id": "A109709",
   "mentions": [
-    "A027746"
+    "A002808",
+    "A027746",
+    "A052369",
+    "A056608",
+    "A062502"
   ],
   "tags": [
     "nonn",
@@ -10,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 101,
+    "size": 102,
     "source": "oeis-entry"
   }
 }

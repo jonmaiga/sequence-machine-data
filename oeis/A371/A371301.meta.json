@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of (x^2 + x - 1)/((1 - x)*(2*x^2 + 3*x - 1)). Row sums of A371300.",
+  "id": "A371301",
+  "mentions": [
+    "A371300"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

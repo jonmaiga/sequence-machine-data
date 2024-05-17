@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which 10n+1, 10n+3, 10n+7 and 10n+9 are primes.",
+  "description": "Numbers k for which 10k+1, 10k+3, 10k+7 and 10k+9 are primes.",
   "id": "A007811",
   "mentions": [
     "A007530",

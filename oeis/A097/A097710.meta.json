@@ -2,6 +2,8 @@
   "description": "Lower triangular matrix T, read by rows, such that row (n) is formed from the sums of adjacent terms in row (n-1) of the matrix square T^2, with T(0,0)=1.",
   "id": "A097710",
   "mentions": [
+    "A000007",
+    "A000225",
     "A008934",
     "A093654",
     "A093657",

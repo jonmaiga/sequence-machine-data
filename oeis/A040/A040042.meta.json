@@ -2,11 +2,16 @@
   "description": "Continued fraction for sqrt(50) = 5*sqrt(2).",
   "id": "A040042",
   "mentions": [
-    "A010503"
+    "A010503",
+    "A040000",
+    "A041084",
+    "A041085",
+    "A248275"
   ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

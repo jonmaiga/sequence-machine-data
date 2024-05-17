@@ -1,0 +1,16 @@
+{
+  "description": "Number of maximal distance-critical graphs on n vertices.",
+  "id": "A371674",
+  "mentions": [
+    "A349402"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

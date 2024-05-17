@@ -1,5 +1,5 @@
 {
-  "description": "-4 + 5*Fibonacci(n+1)^2.",
+  "description": "a(n) = -4 + 5*Fibonacci(n+1)^2.",
   "id": "A200408",
   "mentions": [
     "A005248",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 28,
-    "source": "joeis"
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
   }
 }

@@ -2,14 +2,16 @@
   "description": "Main diagonal of A101858.",
   "id": "A101863",
   "mentions": [
+    "A001622",
     "A101858"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

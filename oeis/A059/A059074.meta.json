@@ -1,11 +1,13 @@
 {
-  "description": "Card-matching numbers (Dinner-Diner matching numbers).",
+  "description": "Number of derangements of a multiset comprising 4 repeats of an n-element set.",
   "id": "A059074",
   "mentions": [
     "A000166",
     "A008290",
+    "A014608",
     "A059056",
-    "A059071"
+    "A059071",
+    "A371252"
   ],
   "tags": [
     "formulas",

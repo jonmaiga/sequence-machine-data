@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1. For n > 0, a(n) is the smallest integer k > n such that (Sum_{i = 1..n} i)/(Sum_{i = n + 1..k} i) < 1/n.",
+  "id": "A368784",
+  "mentions": [
+    "A003067",
+    "A061465",
+    "A126022",
+    "A130243"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

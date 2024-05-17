@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of sides of simple polygons (sorted in ascending order) for which one or more arithmetic sequences can be formed from all their interior angles (all integer, in degrees).",
+  "id": "A371663",
+  "mentions": [
+    "A000244",
+    "A007283",
+    "A018412",
+    "A018609",
+    "A069976",
+    "A371664"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

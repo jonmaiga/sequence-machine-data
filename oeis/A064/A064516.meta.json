@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that pi(n^2) is prime.",
+  "description": "Numbers k such that pi(k^2) is prime.",
   "id": "A064516",
   "mentions": [
     "A000720"

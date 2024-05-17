@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers ordered by A371944 and then by value, with offset 0.",
+  "id": "A371961",
+  "mentions": [
+    "A070939",
+    "A371944",
+    "A371962"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

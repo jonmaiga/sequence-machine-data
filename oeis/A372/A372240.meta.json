@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{j=1..n} j^(floor(sqrt(j))).",
+  "id": "A372240",
+  "mentions": [
+    "A255322",
+    "A372241"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

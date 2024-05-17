@@ -1,0 +1,14 @@
+{
+  "description": "Number of dominating sets in the n-trapezohedral graph.",
+  "id": "A370089",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

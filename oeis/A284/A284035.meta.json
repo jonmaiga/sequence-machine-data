@@ -1,5 +1,5 @@
 {
-  "description": "Upper twin primes which correspond to the hypotenuse in a Pythagorean triple whose small leg is also a prime.",
+  "description": "Upper twin primes which correspond to the hypotenuse in a Pythagorean triple whose short leg is also a prime.",
   "id": "A284035",
   "mentions": [
     "A051859",

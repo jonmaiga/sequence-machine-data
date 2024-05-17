@@ -1,7 +1,9 @@
 {
-  "description": "Numbers of the form (2^{mr}-1)/(2^r-1) for positive integers m, r.",
+  "description": "Numbers of the form (2^(m*r)-1)/(2^r-1) for positive integers m, r.",
   "id": "A064896",
   "mentions": [
+    "A000668",
+    "A019434",
     "A056538",
     "A064894",
     "A076270",
@@ -18,6 +20,7 @@
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

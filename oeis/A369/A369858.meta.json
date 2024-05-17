@@ -1,0 +1,15 @@
+{
+  "description": "Number of fixed elements when the first n prime gaps are sorted.",
+  "id": "A369858",
+  "mentions": [
+    "A001223"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

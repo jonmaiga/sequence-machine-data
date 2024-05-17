@@ -1,0 +1,20 @@
+{
+  "description": "Lesser of two consecutive primes such that the product of its digits is also prime and that of the other is composite.",
+  "id": "A370851",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A053666",
+    "A370848",
+    "A370850"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

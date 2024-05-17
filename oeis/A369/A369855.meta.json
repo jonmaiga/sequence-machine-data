@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest error in trying to solve n^5 = x^5 + y^5: for each n from 2 on, find positive integers x and y, x <= y < n such that |n^5 - x^5 - y^5| is minimal and let a(n) = n^5 - x^5 - y^5. In case of a tie, choose the solution with smallest y.",
+  "id": "A369855",
+  "mentions": [
+    "A135998",
+    "A308834"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

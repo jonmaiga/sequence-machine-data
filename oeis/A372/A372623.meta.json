@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp( exp(x) * (1 + x^2 / 2) - 1 ).",
+  "id": "A372623",
+  "mentions": [
+    "A000124",
+    "A209801",
+    "A279361"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

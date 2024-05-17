@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of connected induced k-vertex subgraphs, up to isomorphism, of the hypercube graph of dimension n >= 0, 1 <= k <= 2^n.",
+  "id": "A369997",
+  "mentions": [
+    "A369605",
+    "A369995",
+    "A369998",
+    "A369999"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=1..n} A000178(k)^k.",
+  "id": "A371339",
+  "mentions": [
+    "A000178",
+    "A002117",
+    "A055462",
+    "A074962",
+    "A255269",
+    "A259068",
+    "A372140"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

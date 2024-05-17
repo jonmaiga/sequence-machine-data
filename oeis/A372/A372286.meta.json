@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of terms of A086893 that are in the interval [n, A371094(n)].",
+  "id": "A372286",
+  "mentions": [
+    "A002450",
+    "A086893",
+    "A096773",
+    "A371094",
+    "A372285"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

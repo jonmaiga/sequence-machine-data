@@ -1,5 +1,5 @@
 {
-  "description": "2^(n-3)*binomial(n,4).",
+  "description": "a(n) = 2^(n-3)*binomial(n,4).",
   "id": "A213432",
   "mentions": [
     "A003472"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 35,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2Xn 0..2 arrays with no element equal to a strict majority of its horizontal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.",
+  "description": "Number of 2 X n 0..2 arrays with no element equal to a strict majority of its horizontal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.",
   "id": "A279658",
   "mentions": [
     "A279657"

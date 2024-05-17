@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k=0..n} (n^2 + k^2)! / (n^2 - k^2)!.",
+  "id": "A371642",
+  "mentions": [
+    "A074962",
+    "A255504",
+    "A272241",
+    "A371603",
+    "A371624",
+    "A371643"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,10 @@
 {
-  "description": "Powers of the form 2*prime(n)-prime(n+1).",
+  "description": "Terms in A062234 that are powers > 1.",
   "id": "A111005",
   "mentions": [
     "A062234"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

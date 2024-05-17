@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the smallest natural number k such that every sequence of length k in Z_n has an A-weighted zero-sum subsequence where A is the set of all nonzero squares in Z_n.",
+  "id": "A371769",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

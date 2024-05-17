@@ -1,5 +1,5 @@
 {
-  "description": "Smallest digit of n = number of prime divisors of n (counted with multiplicity).",
+  "description": "Numbers k such that the smallest digit of k = number of prime divisors of k (counted with multiplicity).",
   "id": "A084374",
   "mentions": [
     "A001222",

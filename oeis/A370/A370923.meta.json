@@ -1,0 +1,18 @@
+{
+  "description": "Rectangular array read by antidiagonals: row n shows the numbers m >=2 such that the maximum number of consecutive 0's in (e(1), e(2), ..., e(k)) is n-1, where p(1)^e(1) * p(2)^e(2) * ... * p(k)^e(k) is the prime factorization of m.",
+  "id": "A370923",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A055932"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

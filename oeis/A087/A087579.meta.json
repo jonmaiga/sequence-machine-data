@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(1/6)*sum(k=0,n,binomial(n,k)*Fibonacci(k)*6^k).",
+  "description": "a(n) = (1/6)*Sum_{k=0..n} binomial(n,k)*Fibonacci(k)*6^k.",
   "id": "A087579",
   "mentions": [
     "A014445",

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} sqrt(1 - x^3) dx.",
+  "id": "A371861",
+  "mentions": [
+    "A002161",
+    "A003881",
+    "A073005",
+    "A118292",
+    "A203131",
+    "A225119"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "Numbers k in A045954 such that 2*k+1 is prime.",
   "id": "A045962",
   "mentions": [
-    "A045954"
+    "A005097",
+    "A045954",
+    "A045963"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

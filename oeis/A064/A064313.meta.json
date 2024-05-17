@@ -1,7 +1,9 @@
 {
   "description": "Integer part of area of a regular polygon with n sides each of length 1.",
   "id": "A064313",
-  "mentions": [],
+  "mentions": [
+    "A134030"
+  ],
   "tags": [
     "formulas",
     "nonn"

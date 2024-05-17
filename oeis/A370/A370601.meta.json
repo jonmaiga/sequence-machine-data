@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of integer values of the function F_2n(x) = Product_{i=0..2n-1} (x + i) / Sum_{i=0..2n-1} (x + i).",
+  "id": "A370601",
+  "mentions": [
+    "A000005",
+    "A001818",
+    "A126695"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

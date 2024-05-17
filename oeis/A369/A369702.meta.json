@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k > n such that the decimal expansion of k*n contains n as a substring of consecutive decimal digits.",
+  "id": "A369702",
+  "mentions": [
+    "A055642"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

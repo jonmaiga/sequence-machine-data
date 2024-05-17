@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 + x^k/k!)^(k^2).",
+  "id": "A371309",
+  "mentions": [
+    "A000290",
+    "A007837",
+    "A027998",
+    "A032315",
+    "A032316"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

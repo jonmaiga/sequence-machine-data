@@ -1,11 +1,12 @@
 {
-  "description": "For n>2, a(n) > 0 is such that a(n-1)^2+4*a(n-2)*a(n) is a minimal square, a(1)=1,a(2)=12.",
+  "description": "For n>2, a(n) > 0 is such that a(n-1)^2+4*a(n-2)*a(n) is a minimal square, a(1)=1, a(2)=12.",
   "id": "A105745",
   "mentions": [
     "A105734",
     "A105746"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

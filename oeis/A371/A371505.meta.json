@@ -1,0 +1,14 @@
+{
+  "description": "Number of sub-monoids of the monoid of uniform block permutations of size n that contain the symmetric group S_n.",
+  "id": "A371505",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

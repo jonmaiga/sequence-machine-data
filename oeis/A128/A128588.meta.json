@@ -1,5 +1,5 @@
 {
-  "description": "A007318 * A128587.",
+  "description": "Expansion of g.f. x*(1+x+x^2)/(1-x-x^2).",
   "id": "A128588",
   "mentions": [
     "A000045",

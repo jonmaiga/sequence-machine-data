@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 4th root of 2.",
   "id": "A010767",
   "mentions": [
+    "A000120",
     "A228497"
   ],
   "tags": [

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of acyclic orientations of the complete tripartite graph K_{n,n,n}.",
+  "id": "A370961",
+  "mentions": [
+    "A212220",
+    "A266858",
+    "A267383",
+    "A370960",
+    "A372254",
+    "A372326"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

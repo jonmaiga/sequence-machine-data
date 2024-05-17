@@ -2,7 +2,9 @@
   "description": "Positive integers m such that there exist distinct pairs (a,b) and (c,d) with a <= b, c <= d, and m = a*b*(c+d) = (a+b)*c*d.",
   "id": "A369333",
   "mentions": [
-    "A369334"
+    "A088915",
+    "A369334",
+    "A371721"
   ],
   "tags": [
     "nonn"

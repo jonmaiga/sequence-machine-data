@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n+1) divides sigma(n-1).",
+  "description": "Numbers k such that sigma(k+1) divides sigma(k-1).",
   "id": "A227304",
   "mentions": [
     "A000203",

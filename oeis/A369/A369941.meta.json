@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. exp(x^2/(2 * sqrt(1-2*x))).",
+  "id": "A369941",
+  "mentions": [
+    "A362204"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

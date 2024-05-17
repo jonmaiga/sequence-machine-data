@@ -1,0 +1,17 @@
+{
+  "description": "Coefficient of x^n in the expansion of 1 / ( (1-x) * (1-x+x^2)^2 )^n.",
+  "id": "A372462",
+  "mentions": [
+    "A368973",
+    "A372458"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

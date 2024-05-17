@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n^k * binomial(2*n,n-k).",
+  "id": "A371825",
+  "mentions": [
+    "A371826",
+    "A371827"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n such that n | sigma(n-1)+sigma(n+1).",
+  "description": "Numbers k such that k | sigma(k-1) + sigma(k+1).",
   "id": "A186103",
   "mentions": [],
   "tags": [

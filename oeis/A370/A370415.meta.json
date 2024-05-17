@@ -1,0 +1,19 @@
+{
+  "description": "T(n, k) = denominator([x^n] N(1/2, n, x)) where N(a, n, x) is the n-th Nørlund polynomial.",
+  "id": "A370415",
+  "mentions": [
+    "A370414",
+    "A370416",
+    "A370417"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

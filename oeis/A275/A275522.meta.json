@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (28*10^n + 773)/9 is prime.",
+  "description": "Numbers k such that (28*10^k + 773)/9 is prime.",
   "id": "A275522",
   "mentions": [
     "A056654",

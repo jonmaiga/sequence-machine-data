@@ -1,0 +1,16 @@
+{
+  "description": "Number of traceless symmetric binary matrices with 2n 1's and all row sums >= 2.",
+  "id": "A370059",
+  "mentions": [
+    "A001205",
+    "A369931"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

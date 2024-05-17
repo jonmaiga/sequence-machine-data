@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX6 0..2 arrays with row sums equal and column sums equal",
+  "description": "Number of n X 6 0..2 arrays with row sums equal and column sums equal.",
   "id": "A203562",
   "mentions": [
     "A203564"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

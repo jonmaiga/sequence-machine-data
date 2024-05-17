@@ -1,5 +1,5 @@
 {
-  "description": "5^n + 5n + 1.",
+  "description": "a(n) = 5^n + 5n + 1.",
   "id": "A176916",
   "mentions": [
     "A000351",
@@ -9,6 +9,7 @@
     "A176805"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions to +- 1^3 +- 2^3 +- 3^3 +- ... +- n^3 = 1.",
+  "id": "A369731",
+  "mentions": [
+    "A000578",
+    "A063866",
+    "A158118",
+    "A348892",
+    "A350861",
+    "A369730",
+    "A369732"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

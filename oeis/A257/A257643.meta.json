@@ -1,10 +1,11 @@
 {
-  "description": "Carmichael numbers n such that n-1 is squarefree.",
+  "description": "Carmichael numbers k such that k-1 is squarefree.",
   "id": "A257643",
   "mentions": [
     "A002322",
     "A002997",
     "A007674",
+    "A055553",
     "A185321",
     "A264012"
   ],

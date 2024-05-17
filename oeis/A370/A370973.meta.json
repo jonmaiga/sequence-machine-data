@@ -1,0 +1,15 @@
+{
+  "description": "Nearest integer to e*n!.",
+  "id": "A370973",
+  "mentions": [
+    "A000522"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

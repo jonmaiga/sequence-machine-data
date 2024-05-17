@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = binary string starting with 1 such that the runs of identical bits in a(n) have lengths n, n-1, n-2, ..., 3, 2, 1.",
+  "id": "A371032",
+  "mentions": [
+    "A007088",
+    "A371033"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The total number of levels visited by all Motzkin paths of length n.",
+  "id": "A372033",
+  "mentions": [
+    "A001006",
+    "A261003",
+    "A333498",
+    "A372014"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

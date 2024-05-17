@@ -1,0 +1,22 @@
+{
+  "description": "The orbit of n under iterations of x -> c(x)*(10^L(x-c(x))-1) + x, where c(x) = floor(x^(1/3))^3, L(x) = floor(log_10(max(x,1))+1), enters a pseudo-loop x(k) = a^3 * 10^((k-k0)*L(b)) + b beyond some k0. This sequence lists the a-values.",
+  "id": "A369860",
+  "mentions": [
+    "A000578",
+    "A048762",
+    "A048766",
+    "A055400",
+    "A055642",
+    "A122840",
+    "A369861"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

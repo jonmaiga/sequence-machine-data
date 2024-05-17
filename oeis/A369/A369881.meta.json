@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 1/(2*sqrt(e)).",
+  "id": "A369881",
+  "mentions": [
+    "A001113",
+    "A019774",
+    "A019778",
+    "A066318",
+    "A092605",
+    "A187832",
+    "A249455"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

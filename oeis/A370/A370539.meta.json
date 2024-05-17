@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. (1 - x*C(x)) * (1 - x*C(x^2)) / (1 - 4*x), where C(x) = 1 + x*C(x)^2 is the Catalan function (A000108).",
+  "id": "A370539",
+  "mentions": [
+    "A000108",
+    "A370540"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

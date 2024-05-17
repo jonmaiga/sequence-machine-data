@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = index of n in A368382, or -1 if n is missing from that sequence.",
+  "id": "A368383",
+  "mentions": [
+    "A368382"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

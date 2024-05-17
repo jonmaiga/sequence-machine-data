@@ -4,10 +4,12 @@
   "mentions": [
     "A000010",
     "A001160",
+    "A069091",
     "A343510",
     "A343520"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

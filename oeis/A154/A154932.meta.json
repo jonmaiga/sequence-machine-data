@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{q in A006881} 1/(q(q-1)) over the squarefree semiprimes q.",
+  "description": "Decimal expansion of Sum_{q in A006881} 1/(q(q-1)) over the squarefree semiprimes q.",
   "id": "A154932",
   "mentions": [
     "A000040",
@@ -10,6 +10,7 @@
   "tags": [
     "cons",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

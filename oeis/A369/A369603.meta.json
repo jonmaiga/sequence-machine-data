@@ -1,0 +1,20 @@
+{
+  "description": "S is a \"boomerang sequence\": adding 9 to each digit of S and following the result with a comma leaves S unchanged.",
+  "id": "A369603",
+  "mentions": [
+    "A103700",
+    "A369604",
+    "A369798",
+    "A369823",
+    "A369824"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

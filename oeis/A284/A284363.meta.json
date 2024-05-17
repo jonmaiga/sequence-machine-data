@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{d|n, d = 0, 1, or 6 mod 7} d.",
+  "description": "a(n) = Sum_{d|n, d = 0, 1, or 6 mod 7} d.",
   "id": "A284363",
   "mentions": [
     "A000203",
@@ -9,6 +9,7 @@
     "A284372"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

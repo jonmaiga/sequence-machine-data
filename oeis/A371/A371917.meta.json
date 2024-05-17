@@ -1,0 +1,18 @@
+{
+  "description": "Number of inequivalent convex lattice polygons containing n lattice points (including points on the boundary).",
+  "id": "A371917",
+  "mentions": [
+    "A187015",
+    "A322343",
+    "A322344"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

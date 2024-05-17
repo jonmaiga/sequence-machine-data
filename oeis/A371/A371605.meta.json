@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - x + x^2/2 - x^3/3).",
+  "id": "A371605",
+  "mentions": [
+    "A006252",
+    "A009775",
+    "A217260",
+    "A317111",
+    "A355293",
+    "A371621"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

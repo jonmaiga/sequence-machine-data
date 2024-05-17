@@ -1,5 +1,5 @@
 {
-  "description": "Alternating compositions, i.e., compositions with alternating increases and decreases, starting with either an increase or a decrease.",
+  "description": "Number of alternating compositions, i.e., compositions with alternating increases and decreases, starting with either an increase or a decrease.",
   "id": "A025047",
   "mentions": [
     "A000070",
@@ -50,7 +50,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

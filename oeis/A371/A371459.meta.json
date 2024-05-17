@@ -1,0 +1,23 @@
+{
+  "description": "For any positive integer with binary digits (b_1, ..., b_w) (where b_1 = 1), the binary digits of a(n), possibly with leading zeros, are (b_2, b_4, ..., b_{floor(w/2) * 2}); a(0) = 0.",
+  "id": "A371459",
+  "mentions": [
+    "A000695",
+    "A001196",
+    "A059906",
+    "A063695",
+    "A126684",
+    "A371442"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

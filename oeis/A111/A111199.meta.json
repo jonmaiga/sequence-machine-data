@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4k + 9 is prime.",
+  "description": "Numbers k such that 4k + 9 is prime.",
   "id": "A111199",
   "mentions": [
     "A005098",

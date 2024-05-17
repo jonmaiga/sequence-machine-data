@@ -1,5 +1,5 @@
 {
-  "description": "Filter sequence combining A003557(n) and A051953(n).",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A003557(i) = A003557(j) and A051953(i) = A051953(j), for all i, j >= 1.",
   "id": "A319348",
   "mentions": [
     "A003557",

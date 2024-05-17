@@ -1,7 +1,9 @@
 {
-  "description": "Number of dissections of a convex (3n+3)-sided polygon into n pentagons and one triangle (up to equivalence)",
+  "description": "Number of dissections of a convex (3n+3)-sided polygon into n pentagons and one triangle (up to equivalence).",
   "id": "A185113",
   "mentions": [
+    "A000217",
+    "A000260",
     "A001700",
     "A002293",
     "A002450",
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

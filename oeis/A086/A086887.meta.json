@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=least semiprime with factors not previously used containing integers 2n and 2n+1 as substrings.",
+  "description": "a(n) = least semiprime with factors not previously used containing integers 2n and 2n+1 as substrings.",
   "id": "A086887",
   "mentions": [],
   "tags": [

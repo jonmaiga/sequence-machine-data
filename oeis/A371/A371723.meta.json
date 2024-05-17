@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = ( 1 + x * A(x)^(1/4) * (1 + A(x)^(5/4)) )^2.",
+  "id": "A371723",
+  "mentions": [
+    "A000292",
+    "A370471",
+    "A370472",
+    "A370891",
+    "A371725"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

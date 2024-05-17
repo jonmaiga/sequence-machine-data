@@ -1,0 +1,16 @@
+{
+  "description": "First appearance of prime_i in A369797 or 0 if no such appearance occurs, with p_0 being 1. (A008578 but with a different offset.)",
+  "id": "A370388",
+  "mentions": [
+    "A008578",
+    "A369797"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

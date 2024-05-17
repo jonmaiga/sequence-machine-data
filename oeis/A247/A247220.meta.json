@@ -1,7 +1,10 @@
 {
   "description": "Numbers k such that k^2 + 1 divides 2^k + 1.",
   "id": "A247220",
-  "mentions": [],
+  "mentions": [
+    "A135590",
+    "A247165"
+  ],
   "tags": [
     "more",
     "nonn"

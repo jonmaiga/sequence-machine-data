@@ -2,12 +2,14 @@
   "description": "Numbers that are the sum of ten squares in two or more ways.",
   "id": "A345509",
   "mentions": [
+    "A025429",
     "A345499",
     "A345508",
     "A345510",
     "A345550"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that no two equal unordered pairs (a(j), a(k)) have the same distance abs(j-k).",
+  "id": "A369422",
+  "mentions": [
+    "A136119",
+    "A184119",
+    "A337226",
+    "A357256",
+    "A366691"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

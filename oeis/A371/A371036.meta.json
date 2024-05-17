@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ways to place n indistinguishable balls into n distinguishable boxes with at least one box remaining empty and not all balls placed in a single box.",
+  "id": "A371036",
+  "mentions": [
+    "A001700",
+    "A010763",
+    "A048775",
+    "A352027",
+    "A359435"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

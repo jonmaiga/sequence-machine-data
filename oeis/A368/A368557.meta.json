@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n such that the set of absolute differences is a subset of the set of parts.",
+  "id": "A368557",
+  "mentions": [
+    "A003242",
+    "A032020",
+    "A173258",
+    "A214248",
+    "A214270"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

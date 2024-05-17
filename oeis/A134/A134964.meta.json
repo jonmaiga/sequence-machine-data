@@ -1,5 +1,5 @@
 {
-  "description": "Number of different unlabeled n-node graphs with at most one cycle in each connected component.",
+  "description": "Number of unlabeled n-node simple graphs with at most one cycle in each connected component.",
   "id": "A134964",
   "mentions": [
     "A000055",

@@ -1,7 +1,9 @@
 {
-  "description": "2^n minus the number of partitions of n",
+  "description": "2^n minus the number of partitions of n.",
   "id": "A208739",
   "mentions": [
+    "A000041",
+    "A000079",
     "A208738",
     "A208740"
   ],
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "joeis"
   }
 }

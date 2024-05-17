@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the constant term in the expansion of Product_{d|n} (x^d + 1/x^d).",
+  "id": "A369873",
+  "mentions": [
+    "A000005",
+    "A033630",
+    "A063865",
+    "A083206",
+    "A083207"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

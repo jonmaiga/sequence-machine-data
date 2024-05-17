@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (n-1)! * Sum_{d|n} d/(d-1)!.",
+  "id": "A370580",
+  "mentions": [
+    "A087906",
+    "A370579"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of different coefficient values in expansion of Product_{k=1..n} (1-x^k).",
+  "id": "A369879",
+  "mentions": [
+    "A010815",
+    "A039822",
+    "A369790"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

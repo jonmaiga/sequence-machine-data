@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = lcm(A020639(n), A032742(n)).",
+  "id": "A371573",
+  "mentions": [
+    "A020639",
+    "A032742",
+    "A088835"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

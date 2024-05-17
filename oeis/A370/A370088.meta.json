@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the two-dimensional backbone constant.",
+  "id": "A370088",
+  "mentions": [
+    "A003197",
+    "A003198",
+    "A003202",
+    "A006809"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (undirected) Hamiltonian paths in the n-Andrasfai graph.",
+  "description": "Number of (undirected) Hamiltonian paths in the n-Andrásfai graph.",
   "id": "A307932",
   "mentions": [
     "A137884"

@@ -1,7 +1,8 @@
 {
-  "description": "G.f. (3*x^2+1)/((1-x)*(2*x^2+x+1)*(2*x^2-x+1)).",
+  "description": "Expansion of g.f.: (1+3*x^2)/((1-x)*(1+x+2*x^2)*(1-x+2*x^2)).",
   "id": "A107443",
   "mentions": [
+    "A001607",
     "A174565"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

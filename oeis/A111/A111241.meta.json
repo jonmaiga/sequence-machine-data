@@ -1,5 +1,5 @@
 {
-  "description": "A109735(n)/A109890(n+1).",
+  "description": "a(n) = A109735(n)/A109890(n+1).",
   "id": "A111241",
   "mentions": [
     "A094339",
@@ -11,11 +11,12 @@
     "A111316"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

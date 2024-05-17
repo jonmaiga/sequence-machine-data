@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the prime zeta function at 2: Sum_{p prime} 1/p^2.",
   "id": "A085548",
   "mentions": [
+    "A000720",
     "A001248",
     "A001692",
     "A013661",

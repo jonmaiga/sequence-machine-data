@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 4n whose xor-sum is 2n.",
+  "id": "A370874",
+  "mentions": [
+    "A000041",
+    "A050314",
+    "A058696"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

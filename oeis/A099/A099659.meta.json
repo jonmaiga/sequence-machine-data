@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least prime following A002279[n] repdigits.",
+  "description": "a(n) is the least prime following A002279(n) repdigits.",
   "id": "A099659",
   "mentions": [
     "A002275",
@@ -18,8 +18,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 18,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Additive with a(p^1) = 1, a(p^e) = a(A276086(e)) for e > 1, where A276086 is the primorial base exp-function.",
+  "id": "A371090",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A058061",
+    "A064547",
+    "A276086",
+    "A371091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

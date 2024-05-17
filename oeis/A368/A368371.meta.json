@@ -2,7 +2,8 @@
   "description": "AGM transform of powers of 2.",
   "id": "A368371",
   "mentions": [
-    "A368366"
+    "A368366",
+    "A369394"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 12,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

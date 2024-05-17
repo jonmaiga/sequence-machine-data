@@ -1,0 +1,19 @@
+{
+  "description": "Determinant of n X n Fibonacci word matrix.",
+  "id": "A370724",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A003849",
+    "A370725"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

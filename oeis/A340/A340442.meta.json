@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of zeta''(3), the second derivative of the Riemann Zeta Function at 3.",
+  "description": "Decimal expansion of zeta''(3), the second derivative of the Riemann zeta function at 3.",
   "id": "A340442",
   "mentions": [
     "A201994",

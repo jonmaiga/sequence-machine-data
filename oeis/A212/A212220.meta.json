@@ -1,14 +1,15 @@
 {
-  "description": "Triangle T(n,k), n>=1, 0<=k<=3n, read by rows: row n gives the coefficients of the chromatic polynomial of the complete tripartite graph K_(n,n,n), highest powers first.",
+  "description": "Triangle T(n,k), n>=0, 0<=k<=3n, read by rows: row n gives the coefficients of the chromatic polynomial of the complete tripartite graph K_(n,n,n), highest powers first.",
   "id": "A212220",
   "mentions": [
-    "A000004",
+    "A000007",
     "A000012",
     "A008277",
     "A016777",
     "A033428",
     "A182553",
-    "A212221"
+    "A212221",
+    "A370961"
   ],
   "tags": [
     "formulas",
@@ -16,8 +17,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 41,
+    "offset": 0,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

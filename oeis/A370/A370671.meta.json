@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{i=2..n-1} i*n^(i-2).",
+  "id": "A370671",
+  "mentions": [
+    "A051846",
+    "A062813",
+    "A370371"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

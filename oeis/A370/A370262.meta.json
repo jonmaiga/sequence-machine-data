@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n+k, n-k)/(2*k + 1) * (2*n + 1)^k.",
+  "id": "A370262",
+  "mentions": [
+    "A000330",
+    "A008310",
+    "A052750",
+    "A082985",
+    "A258708",
+    "A370259",
+    "A370260",
+    "A371697"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

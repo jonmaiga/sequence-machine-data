@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with an even number of prime factors not of the form 8m+-1 (counting repetitions).",
+  "id": "A370267",
+  "mentions": [
+    "A002481",
+    "A004215",
+    "A017077",
+    "A042999",
+    "A055042",
+    "A055043",
+    "A059897",
+    "A189715",
+    "A234000",
+    "A242664",
+    "A370268"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

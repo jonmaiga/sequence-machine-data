@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of the cubed areas under Motzkin paths of length n.",
+  "id": "A367779",
+  "mentions": [
+    "A001006",
+    "A057585"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

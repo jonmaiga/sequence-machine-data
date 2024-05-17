@@ -2,8 +2,11 @@
   "description": "a(1) = 4, a(n) = smallest palindromic nontrivial multiple of a(n-1) containing all decimal digits of a(n-1).",
   "id": "A342346",
   "mentions": [
+    "A002275",
     "A055642",
-    "A082779"
+    "A082779",
+    "A370052",
+    "A370053"
   ],
   "tags": [
     "base",
@@ -12,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

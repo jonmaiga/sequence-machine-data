@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest strictly increasing sequence of positive integers in which every triple of consecutive digits contains only one pair that is not coprime.",
+  "id": "A371182",
+  "mentions": [
+    "A353187",
+    "A371060",
+    "A371183"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected spanning subgraphs of the n-dimensional hypercube graph.",
+  "id": "A372705",
+  "mentions": [
+    "A006237",
+    "A290758",
+    "A359992"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

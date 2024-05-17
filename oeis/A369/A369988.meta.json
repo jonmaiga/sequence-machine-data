@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Mallows's constant or stribolic constant kappa (of order 1).",
+  "id": "A369988",
+  "mentions": [
+    "A011784",
+    "A012257",
+    "A014621",
+    "A369990",
+    "A369991",
+    "A369992",
+    "A369993"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Number T(n,k) of permutations of [n] whose fixed points sum to k; triangle T(n,k), n>=0, 0<=k<=A000217(n), read by rows.",
+  "id": "A369596",
+  "mentions": [
+    "A000124",
+    "A000142",
+    "A000166",
+    "A000217",
+    "A000255",
+    "A001710",
+    "A008289",
+    "A008290",
+    "A038720",
+    "A053632",
+    "A062869",
+    "A124327",
+    "A143946",
+    "A143947",
+    "A161680",
+    "A263753",
+    "A263756",
+    "A317527",
+    "A331518",
+    "A367955",
+    "A368338",
+    "A369796"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

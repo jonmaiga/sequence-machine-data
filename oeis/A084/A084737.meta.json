@@ -1,8 +1,15 @@
 {
-  "description": "Beginning with 1, numbers such that {a(n+2)-a(n+1)}/{a(n+1)-a(n)} =prime(n).",
+  "description": "Beginning with 1, numbers such that (a(n+2)-a(n+1))/(a(n+1)-a(n)) = prime(n).",
   "id": "A084737",
-  "mentions": [],
+  "mentions": [
+    "A002110",
+    "A060389",
+    "A088860",
+    "A143293",
+    "A276085"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

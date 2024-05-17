@@ -2,9 +2,11 @@
   "description": "Decimal expansion of (sqrt(29) + 1)/2.",
   "id": "A223140",
   "mentions": [
+    "A015442",
     "A085551",
     "A098318",
-    "A223141"
+    "A223141",
+    "A367454"
   ],
   "tags": [
     "cons",

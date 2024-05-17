@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple graphs on n labeled vertices with k edges and without endpoints, n >= 0, 0 <= k <= n*(n-1)/2.",
+  "id": "A369928",
+  "mentions": [
+    "A059167",
+    "A084546",
+    "A123551",
+    "A245796"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

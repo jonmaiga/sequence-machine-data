@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the maximal coefficient of (1 + x^a(1)) * (1 + x^a(1) + x^a(2)) * ... * (1 + x^a(1) + x^a(2) + ... + x^a(n-1)).",
+  "id": "A369791",
+  "mentions": [
+    "A000140"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

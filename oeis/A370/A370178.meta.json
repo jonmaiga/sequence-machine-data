@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(x*a(n-1)) for n > 0 where x = 4 + 2*sqrt(6), a(0) = 1.",
+  "id": "A370178",
+  "mentions": [
+    "A057091",
+    "A090654",
+    "A370174"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

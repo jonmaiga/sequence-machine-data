@@ -2,6 +2,7 @@
   "description": "a(n) is the minimal absolute difference between n and each of the powers of the previous terms; a(1) = 1.",
   "id": "A322522",
   "mentions": [
+    "A227802",
     "A301573"
   ],
   "tags": [

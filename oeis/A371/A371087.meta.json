@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if A003557(n) divides A276086(n), otherwise a(n) = 0, where A003557(k) is k divided by its largest squarefree divisor, and A276086 is the primorial base exp-function.",
+  "id": "A371087",
+  "mentions": [
+    "A003557",
+    "A008966",
+    "A276086",
+    "A358220",
+    "A371088",
+    "A371089"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

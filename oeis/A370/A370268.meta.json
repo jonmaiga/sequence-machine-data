@@ -1,0 +1,24 @@
+{
+  "description": "Intersection of A189715 and A370267.",
+  "id": "A370268",
+  "mentions": [
+    "A002480",
+    "A002481",
+    "A042999",
+    "A045309",
+    "A059897",
+    "A189715",
+    "A334832",
+    "A370267"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled nodes with k articulation vertices, (0 <= k < n).",
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled nodes with k articulation vertices, (0 <= k <= n).",
   "id": "A325111",
   "mentions": [
     "A001349",
@@ -9,16 +9,16 @@
     "A241769",
     "A241770",
     "A241771",
-    "A327077"
+    "A327077",
+    "A370064"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 55,
+    "offset": 0,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

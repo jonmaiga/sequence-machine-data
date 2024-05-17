@@ -1,5 +1,5 @@
 {
-  "description": "EulerPhi of multiperfect numbers.",
+  "description": "Euler totient function phi values of multiperfect numbers.",
   "id": "A098203",
   "mentions": [
     "A000010",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

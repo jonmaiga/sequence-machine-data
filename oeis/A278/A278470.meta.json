@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n - 201 is prime.",
+  "description": "Numbers k such that 10^k - 201 is prime.",
   "id": "A278470",
   "mentions": [
     "A108327",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

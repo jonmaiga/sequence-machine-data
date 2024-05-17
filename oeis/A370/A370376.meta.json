@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n where there are A025174(k) sorts of part k.",
+  "id": "A370376",
+  "mentions": [
+    "A005809",
+    "A025174",
+    "A049027",
+    "A370375"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

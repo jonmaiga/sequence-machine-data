@@ -1,9 +1,14 @@
 {
   "description": "Decimal expansion of 1/304.",
   "id": "A021308",
-  "mentions": [],
+  "mentions": [
+    "A007450",
+    "A021156"
+  ],
   "tags": [
     "cons",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

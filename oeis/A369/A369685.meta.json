@@ -1,0 +1,19 @@
+{
+  "description": "Least common multiple of the first n terms of A359804.",
+  "id": "A369685",
+  "mentions": [
+    "A003418",
+    "A359804",
+    "A368901",
+    "A369686"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

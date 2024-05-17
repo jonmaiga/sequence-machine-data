@@ -1,7 +1,9 @@
 {
   "description": "Erdős-Selfridge function: a(n) is the least number m > n+1 such that the least prime factor of binomial(m, n) is > n.",
   "id": "A003458",
-  "mentions": [],
+  "mentions": [
+    "A020639"
+  ],
   "tags": [
     "easy",
     "nice",

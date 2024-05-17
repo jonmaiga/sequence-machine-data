@@ -1,7 +1,11 @@
 {
-  "description": "Expansion of 1/sqrt(1-4x)-x/sqrt(1-4x^2).",
+  "description": "Expansion of 1/sqrt(1-4*x) - x/sqrt(1-4*x^2).",
   "id": "A129369",
   "mentions": [
+    "A000108",
+    "A000984",
+    "A001448",
+    "A002458",
     "A129368"
   ],
   "tags": [
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

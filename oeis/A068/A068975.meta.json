@@ -1,5 +1,5 @@
 {
-  "description": "Composite n such that (n+1)*sum(d|n,d/sigma(d)) is an integer (1 excluded).",
+  "description": "Composite k such that (k+1) * Sum_{d|k} d/sigma(d) is an integer.",
   "id": "A068975",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

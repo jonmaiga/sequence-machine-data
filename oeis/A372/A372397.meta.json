@@ -1,0 +1,20 @@
+{
+  "description": "Numbers occurring exactly twice in Hofstadter G/H-like sequence H_4 (A005375).",
+  "id": "A372397",
+  "mentions": [
+    "A000291",
+    "A005374",
+    "A005375",
+    "A005376",
+    "A372398"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

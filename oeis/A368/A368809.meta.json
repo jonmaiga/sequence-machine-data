@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4 X n binary arrays with a path of adjacent 1's from top row to bottom row using only left, right, and downward steps.",
+  "id": "A368809",
+  "mentions": [
+    "A069362",
+    "A359576",
+    "A369892"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

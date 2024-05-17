@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k <= n} u_3(k), where u_3 = A034836.",
+  "description": "a(n) = Sum_{k = 1..n} u_3(k), where u_3 = A034836.",
   "id": "A331072",
   "mentions": [
     "A034836",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

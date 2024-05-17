@@ -2,6 +2,7 @@
   "description": "a(0) = 1, a(n) = 21*n^2 + 2 for n>0.",
   "id": "A010011",
   "mentions": [
+    "A069178",
     "A206399"
   ],
   "tags": [

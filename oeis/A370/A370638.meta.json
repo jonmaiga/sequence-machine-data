@@ -1,0 +1,46 @@
+{
+  "description": "Number of subsets of {1..n} such that a unique set can be obtained by choosing a different binary index of each element.",
+  "id": "A370638",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A003465",
+    "A029931",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A096111",
+    "A133686",
+    "A134964",
+    "A272020",
+    "A323818",
+    "A326031",
+    "A326702",
+    "A367772",
+    "A367867",
+    "A367904",
+    "A367905",
+    "A367908",
+    "A367909",
+    "A367912",
+    "A368101",
+    "A368109",
+    "A370584",
+    "A370636",
+    "A370637",
+    "A370640",
+    "A370641",
+    "A370645",
+    "A370818"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

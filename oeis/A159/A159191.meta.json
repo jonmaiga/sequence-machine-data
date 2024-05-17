@@ -28,12 +28,13 @@
     "A184945"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

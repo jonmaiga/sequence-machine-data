@@ -1,8 +1,10 @@
 {
-  "description": "A127648 * A128174.",
+  "description": "A127648 * A128174 as an infinite lower triangular matrix.",
   "id": "A128621",
   "mentions": [
+    "A000326",
     "A093005",
+    "A123684",
     "A127648",
     "A128174"
   ],
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 91,
     "source": "joeis"
   }
 }

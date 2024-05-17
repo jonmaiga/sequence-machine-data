@@ -2,8 +2,12 @@
   "description": "Frieze pattern with 4 rows, read by diagonals.",
   "id": "A139434",
   "mentions": [
+    "A000108",
+    "A000207",
+    "A135352",
     "A139438",
-    "A139458"
+    "A139458",
+    "A245477"
   ],
   "tags": [
     "nonn",

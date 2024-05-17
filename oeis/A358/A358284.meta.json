@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected planer cubic graphs with 2*n nodes and zero edge-Kempe equivalence classes.",
+  "description": "Number of connected planar cubic graphs with 2*n nodes and zero edge-Kempe equivalence classes.",
   "id": "A358284",
   "mentions": [
     "A005964"

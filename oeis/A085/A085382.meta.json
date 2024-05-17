@@ -1,14 +1,19 @@
 {
-  "description": "Sum of prime p and largest prime divisor of p-1.",
+  "description": "Sum of p = prime(n) and largest prime divisor of p-1.",
   "id": "A085382",
-  "mentions": [],
+  "mentions": [
+    "A006530",
+    "A023503",
+    "A274022"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 5,
-    "size": 57,
+    "offset": 2,
+    "size": 58,
     "source": "oeis-entry"
   }
 }

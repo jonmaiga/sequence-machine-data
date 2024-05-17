@@ -1,0 +1,16 @@
+{
+  "description": "Least positive number k such that binomial(k^2,k) is divisible by n.",
+  "id": "A371306",
+  "mentions": [
+    "A014062"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

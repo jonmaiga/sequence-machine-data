@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n * Sum_{p|n, p prime} mu(n/p)^2 / p.",
+  "id": "A369865",
+  "mentions": [
+    "A008683",
+    "A143519",
+    "A369742",
+    "A369864"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

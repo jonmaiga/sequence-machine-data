@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct circles that can be constructed from the 3 vertices and the equally spaced 3*n points placed on the sides of an equilateral triangle, using only a compass.",
+  "id": "A372682",
+  "mentions": [
+    "A359931",
+    "A360350",
+    "A361622",
+    "A365669",
+    "A372614",
+    "A372615"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

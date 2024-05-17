@@ -1,11 +1,16 @@
 {
-  "description": "Numbers with prime factorization p^2q^2r^2s^2",
+  "description": "Numbers with prime factorization p^2*q^2*r^2*s^2 where p, q, r, and s are distinct primes.",
   "id": "A190377",
   "mentions": [
+    "A085548",
+    "A085964",
+    "A085966",
+    "A085968",
     "A190108",
     "A190109"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

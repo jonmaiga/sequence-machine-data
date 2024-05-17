@@ -1,0 +1,17 @@
+{
+  "description": "Determinant of the matrix [Jacobi(i^2 + 3*i*j + 2*j^2, 2*n + 1)]_{1 < i, j < 2*n}, where Jacobi(a, m) denotes the Jacobi symbol (a / m).",
+  "id": "A372314",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001481"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

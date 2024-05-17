@@ -1,9 +1,10 @@
 {
-  "description": "3^n + 3*n.",
+  "description": "a(n) = 3^n + 3*n.",
   "id": "A221905",
   "mentions": [
     "A107583",
-    "A176805"
+    "A176805",
+    "A370658"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(A(A(A(A(A(x)))))) = Sum_{k>=1} k * 18^(k-1) * x^k.",
+  "id": "A372522",
+  "mentions": [
+    "A309509",
+    "A372492",
+    "A372499",
+    "A372520"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

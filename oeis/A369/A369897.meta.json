@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k + 1 each have 10 prime divisors, counted with multiplicity.",
+  "id": "A369897",
+  "mentions": [
+    "A001222",
+    "A046312",
+    "A046314",
+    "A115186"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

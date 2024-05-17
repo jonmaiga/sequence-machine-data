@@ -2,10 +2,12 @@
   "description": "Decimal expansion of fifth root of 4.",
   "id": "A005533",
   "mentions": [
+    "A000120",
     "A003118"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

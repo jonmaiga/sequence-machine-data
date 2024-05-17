@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n with parts (p_1, ..., p_i) such that the set of adjacent differences is a subset of {-k,k} for some k > 0 and the number of parts equals ceiling(p_1/k).",
+  "id": "A370929",
+  "mentions": [
+    "A003242",
+    "A173258",
+    "A214247",
+    "A214254"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

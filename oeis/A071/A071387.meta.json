@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number for which InvPhi-Set has 2n-1 entries.",
+  "description": "Smallest number k for which the set of solutions to phi(x) = k has 2n-1 entries.",
   "id": "A071387",
   "mentions": [
     "A000010",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

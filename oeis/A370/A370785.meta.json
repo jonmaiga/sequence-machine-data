@@ -1,0 +1,22 @@
+{
+  "description": "Powerful numbers with an even number of prime factors (counted with multiplicity).",
+  "id": "A370785",
+  "mentions": [
+    "A001694",
+    "A002117",
+    "A028260",
+    "A078434",
+    "A090699",
+    "A370786",
+    "A370787"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

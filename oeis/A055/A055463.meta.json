@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = a(n-1)*2*a(n-2)-3*a(n-3).",
+  "description": "a(n) = 2*a(n-1)*a(n-2) - 3*a(n-3), with a(0) = 0, a(1) = 1, a(2) = 2.",
   "id": "A055463",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,30 @@
+{
+  "description": "Riordan array (1-x-x^2, x*(1+x)).",
+  "id": "A370173",
+  "mentions": [
+    "A000007",
+    "A084938",
+    "A130595",
+    "A155020",
+    "A155112",
+    "A155116",
+    "A155117",
+    "A155119",
+    "A155127",
+    "A155130",
+    "A155132",
+    "A155144",
+    "A155157"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

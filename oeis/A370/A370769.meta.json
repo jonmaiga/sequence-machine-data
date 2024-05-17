@@ -1,0 +1,21 @@
+{
+  "description": "Number of achiral unicursal star polygons (no edge joins adjacent vertices) that can be formed by connecting the vertices of a regular n-gon.",
+  "id": "A370769",
+  "mentions": [
+    "A231091",
+    "A283184",
+    "A370459",
+    "A370766",
+    "A370767",
+    "A370768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

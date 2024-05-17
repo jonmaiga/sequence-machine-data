@@ -1,0 +1,27 @@
+{
+  "description": "Nonzero numbers k in A341518 for which A051903(k) attains novel values.",
+  "id": "A369647",
+  "mentions": [
+    "A003415",
+    "A049345",
+    "A051903",
+    "A276086",
+    "A327859",
+    "A328114",
+    "A341518",
+    "A351073",
+    "A369642",
+    "A369646",
+    "A369649"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

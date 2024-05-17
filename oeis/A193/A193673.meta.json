@@ -2,9 +2,13 @@
   "description": "Triangle given by p(n,k)=(coefficient of x^(n-k) in (1/2) ((x+3)^n+(x+1)^n)), 0<=k<=n.",
   "id": "A193673",
   "mentions": [
+    "A007318",
+    "A119467",
+    "A119468",
     "A193661"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"

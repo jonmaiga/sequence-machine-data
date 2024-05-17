@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which k swaps are needed to bubble-sort the US English number name of k.",
+  "id": "A371478",
+  "mentions": [
+    "A033860",
+    "A064038",
+    "A070196"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

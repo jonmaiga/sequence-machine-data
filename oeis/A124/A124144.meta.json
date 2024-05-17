@@ -1,5 +1,5 @@
 {
-  "description": "Perfect powers pp such that sigma(n)=pp for some abundant number n.",
+  "description": "Perfect powers pp such that sigma(k) = pp for some abundant number k.",
   "id": "A124144",
   "mentions": [
     "A001597",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if n' is odd and also n'' is odd, otherwise 0, where n' stands for the arithmetic derivative, A003415.",
+  "id": "A369655",
+  "mentions": [
+    "A000035",
+    "A003415",
+    "A068346",
+    "A165560",
+    "A369656"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

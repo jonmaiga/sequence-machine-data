@@ -1,0 +1,19 @@
+{
+  "description": "Total number of levels in all Dyck paths of semilength n containing exactly 2 path nodes.",
+  "id": "A371903",
+  "mentions": [
+    "A000108",
+    "A051485",
+    "A152880",
+    "A371928"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

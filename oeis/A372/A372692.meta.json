@@ -1,0 +1,23 @@
+{
+  "description": "The sum of infinitary divisors of the smallest number k such that k*n is a number whose number of divisors is a power of 2 (A036537).",
+  "id": "A372692",
+  "mentions": [
+    "A001146",
+    "A036537",
+    "A049417",
+    "A064379",
+    "A372328",
+    "A372331"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,10 @@
   "description": "Number of Barlow packings with group P63/mmc(S) that repeat after 4n layers.",
   "id": "A011946",
   "mentions": [
+    "A000048",
+    "A008683",
+    "A045683",
+    "A127804",
     "A195095"
   ],
   "tags": [
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "joeis"
   }
 }

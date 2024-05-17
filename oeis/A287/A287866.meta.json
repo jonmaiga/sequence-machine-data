@@ -1,5 +1,5 @@
 {
-  "description": "n - A274933(n).",
+  "description": "a(n) = n - A274933(n).",
   "id": "A287866",
   "mentions": [
     "A274933",
@@ -7,12 +7,11 @@
     "A287867"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 99,
     "source": "oeis-entry"
   }
 }

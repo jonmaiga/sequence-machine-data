@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = gcd(n, A276086(n)).",
+  "description": "a(n) = gcd(n, A276086(n)), where A276086 is the primorial base exp-function.",
   "id": "A324198",
   "mentions": [
     "A000005",
@@ -21,7 +21,11 @@
     "A328316",
     "A328323",
     "A328386",
-    "A328584"
+    "A328584",
+    "A346242",
+    "A351254",
+    "A371098",
+    "A371099"
   ],
   "tags": [
     "formulas",

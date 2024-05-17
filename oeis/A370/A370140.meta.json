@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g.f. A(x,y) satisfying Sum_{n>=0} Product_{k=1..n} (x^k + y*A(x,y)) = 1 + (y+1) * Sum_{n>=1} x^(n*(n+1)/2), as a triangle of coefficients T(n,k) of x^n*y^k in A(x,y) read by rows.",
+  "id": "A370140",
+  "mentions": [
+    "A370141",
+    "A370142",
+    "A370143",
+    "A370144",
+    "A370145",
+    "A370146"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

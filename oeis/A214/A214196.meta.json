@@ -1,17 +1,17 @@
 {
-  "description": "Primes of the \"first kind\".",
+  "description": "Unique terms in sequence A210144.",
   "id": "A214196",
   "mentions": [
     "A002110",
+    "A210144",
     "A214197"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
-    "source": "oeis-entry"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

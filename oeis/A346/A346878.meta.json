@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the divisors, except the largest, of the n-th positive even number.",
+  "description": "Sum of the divisors, except for the largest, of the n-th positive even number.",
   "id": "A346878",
   "mentions": [
     "A000203",

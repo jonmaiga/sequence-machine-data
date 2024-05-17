@@ -1,15 +1,15 @@
 {
-  "description": "Symmetric triangular sequence of powers: t(n,m)=m^n + (n - m)^n - n*m*(n - m).",
+  "description": "Triangle read by rows: T(n, k) = (n-k)^n - n*k*(n-k) + k^n, with T(0, 0) = 1.",
   "id": "A129821",
   "mentions": [],
   "tags": [
     "formulas",
     "nonn",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

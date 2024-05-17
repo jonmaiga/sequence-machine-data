@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k) in which row n lists in increasing order the number of acyclic orientations of complete multipartite graphs K_lambda, where lambda is a partition of n; triangle T(n,k), n>=0, k = 1..A000041(n), read by rows.",
+  "id": "A372396",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000142",
+    "A001563",
+    "A011782",
+    "A027649",
+    "A267383",
+    "A370614",
+    "A372254",
+    "A372261",
+    "A372326",
+    "A372395"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

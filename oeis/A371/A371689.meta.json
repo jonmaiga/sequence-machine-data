@@ -1,0 +1,22 @@
+{
+  "description": "Main diagonal of A365495: parity of the n-th term in the trajectory of n under the A014682 map.",
+  "id": "A371689",
+  "mentions": [
+    "A014682",
+    "A365484",
+    "A365495",
+    "A368300",
+    "A371690",
+    "A371691"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

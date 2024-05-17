@@ -1,0 +1,33 @@
+{
+  "description": "Array read by antidiagonals: The number of parades with n girls and k boys that begin with a girl and end with a boy.",
+  "id": "A371761",
+  "mentions": [
+    "A004248",
+    "A006230",
+    "A028246",
+    "A048144",
+    "A075263",
+    "A099594",
+    "A136126",
+    "A136301",
+    "A163626",
+    "A173018",
+    "A226158",
+    "A272644",
+    "A297195",
+    "A344499",
+    "A344920",
+    "A371762"
+  ],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

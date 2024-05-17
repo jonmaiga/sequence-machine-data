@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/Fibonacci(k!).",
+  "id": "A371136",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A063374",
+    "A343202",
+    "A371137"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

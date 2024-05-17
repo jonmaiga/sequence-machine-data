@@ -1,5 +1,5 @@
 {
-  "description": "The degree of polynomials related to Somos-7 sequences. Also for n > 5 the degree of the (n-6)-th involution in a family of involutions in the Cremona group of rank 6 defined by a Somos-6 sequence.",
+  "description": "The degree of polynomials related to Somos-7 sequences. Also for n > 6 the degree of the (n-6)-th involution in a family of involutions in the Cremona group of rank 6 defined by a Somos-7 sequence.",
   "id": "A368483",
   "mentions": [
     "A006723",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n = Sum_digits[(n+k)*abs(n-k)] for some k>=0.",
+  "description": "Numbers m such that digitsum((m+k)*abs(m-k)) = m for some k >= 0.",
   "id": "A130881",
   "mentions": [],
   "tags": [

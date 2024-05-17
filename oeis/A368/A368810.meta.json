@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = numerator of Sum_{i=1..n} Sum_{j=1..n} (1/i + 1/j).",
+  "id": "A368810",
+  "mentions": [
+    "A027611",
+    "A096620",
+    "A193758"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Half of the (n+1)-st component of the continued fraction expansion of Sum_{k>=1} 1/2^(2^k).",
+  "description": "Half of the (n+1)-st component of the continued fraction expansion of Sum_{k>=0} 1/2^(2^k).",
   "id": "A088431",
   "mentions": [
     "A007400",

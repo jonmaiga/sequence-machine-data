@@ -1,5 +1,5 @@
 {
-  "description": "Nonnegative numbers n such that 2n + 13 is prime.",
+  "description": "Nonnegative numbers k such that 2k + 13 is prime.",
   "id": "A153081",
   "mentions": [
     "A000040",

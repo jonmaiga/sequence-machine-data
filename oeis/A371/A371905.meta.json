@@ -1,0 +1,16 @@
+{
+  "description": "Let k = 0 and let A007814(2*n) = m; If m > k then a(n) = k = k + m, otherwise a(n) = k = k - m.",
+  "id": "A371905",
+  "mentions": [
+    "A007814"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

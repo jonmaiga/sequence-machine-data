@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of A370942: a(n) is the total number of nonempty, longest nonoverlapping properly nested substrings among all strings of parentheses of length n.",
+  "id": "A370943",
+  "mentions": [
+    "A063171",
+    "A370883",
+    "A370942"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

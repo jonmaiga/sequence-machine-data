@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the string 555n is prime.",
+  "description": "Numbers k such that the string 555k is prime.",
   "id": "A110572",
   "mentions": [],
   "tags": [

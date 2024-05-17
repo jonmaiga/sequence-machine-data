@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(4*n-k-1,n-k).",
+  "id": "A371814",
+  "mentions": [
+    "A005810",
+    "A072547",
+    "A262977",
+    "A371813"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "For any n > 0 with leading ternary digit h = A122586(n), reverse digits in blocks in ternary expansion of n where blocks are separated by h's; a(0) = 0.",
+  "id": "A372317",
+  "mentions": [
+    "A122586",
+    "A125292",
+    "A367307",
+    "A372318"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

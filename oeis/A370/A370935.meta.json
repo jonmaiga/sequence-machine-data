@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first term of A351048 with n prime factors, counted with multiplicity, or 0 if there is no such term.",
+  "id": "A370935",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A003415",
+    "A351048"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

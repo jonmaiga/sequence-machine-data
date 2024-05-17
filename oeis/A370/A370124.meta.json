@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0, a(1) = 1, and for n > 1, a(n) = 1 if the least prime dividing the arithmetic derivative of n is equal to the least prime not dividing n, otherwise a(n) = 0.",
+  "id": "A370124",
+  "mentions": [
+    "A003415",
+    "A020639",
+    "A053669",
+    "A276086",
+    "A370125"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 130,
+    "source": "oeis-bfile"
+  }
+}

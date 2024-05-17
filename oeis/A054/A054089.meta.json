@@ -1,5 +1,5 @@
 {
-  "description": "For k >= 1, let p(k)=least h in N not already an a(i), q(k)=p(k)+k, a(2k)=q(k), a(2k+1)=p(k).",
+  "description": "For k >= 1, let p(k) = least h in N not already an a(i), q(k) = p(k)+k, a(2k) = q(k), a(2k+1) = p(k).",
   "id": "A054089",
   "mentions": [
     "A004957",

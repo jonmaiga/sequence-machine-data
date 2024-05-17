@@ -1,0 +1,20 @@
+{
+  "description": "Aliquot-like sequence based on the largest aliquot divisor of the sum of divisors of n (A371418) that starts with 222.",
+  "id": "A371423",
+  "mentions": [
+    "A008892",
+    "A323328",
+    "A361421",
+    "A371418",
+    "A371421",
+    "A371422"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

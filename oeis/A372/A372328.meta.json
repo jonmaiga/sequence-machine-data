@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the smallest number k such that k*n is a number whose number of divisors is a power of 2 (A036537).",
+  "id": "A372328",
+  "mentions": [
+    "A036537",
+    "A064379",
+    "A077609",
+    "A331738",
+    "A365297",
+    "A365298",
+    "A365637",
+    "A365685",
+    "A367931",
+    "A367932",
+    "A372329"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

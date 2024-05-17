@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the van der Waerden number W_t(2,n) of the Thue-Morse word (A010060).",
+  "id": "A370756",
+  "mentions": [
+    "A005346",
+    "A010060",
+    "A342818",
+    "A342827"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

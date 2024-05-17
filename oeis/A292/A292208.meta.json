@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that sigma(cototient(n)) = cototient(sigma(n) - n) + cototient(n); that is, f(g(n)) = g(f(n)) where f = A001065 and g = A051953.",
+  "description": "Composite numbers k such that sigma(cototient(k)) = cototient(sigma(k) - k) + cototient(k); that is, f(g(k)) = g(f(k)) where f = A001065 and g = A051953.",
   "id": "A292208",
   "mentions": [
     "A000203",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

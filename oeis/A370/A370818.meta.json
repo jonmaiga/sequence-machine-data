@@ -1,0 +1,41 @@
+{
+  "description": "Number of sets of nonempty subsets of {1..n} with only one possible way to choose a set of different vertices of each edge.",
+  "id": "A370818",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A003465",
+    "A029931",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A096111",
+    "A133686",
+    "A134964",
+    "A272020",
+    "A323818",
+    "A367772",
+    "A367867",
+    "A367902",
+    "A367903",
+    "A367904",
+    "A367908",
+    "A368101",
+    "A368109",
+    "A368600",
+    "A368601",
+    "A370584",
+    "A370638",
+    "A370645"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

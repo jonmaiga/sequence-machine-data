@@ -1,12 +1,12 @@
 {
-  "description": "Numbers n such that cardinality of InvPhi[n] is odd.",
+  "description": "Numbers k such that the cardinality of the set of solutions to phi(x) = k is odd.",
   "id": "A071386",
   "mentions": [
     "A000010",
     "A014197",
     "A058277",
     "A063512",
-    "A071397"
+    "A071387"
   ],
   "tags": [
     "formulas",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

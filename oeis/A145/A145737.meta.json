@@ -2,6 +2,7 @@
   "description": "a(n) = square part of A145609(n).",
   "id": "A145737",
   "mentions": [
+    "A008833",
     "A128059",
     "A145609",
     "A145738"

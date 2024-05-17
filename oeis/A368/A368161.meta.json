@@ -1,8 +1,8 @@
 {
-  "description": "Least perfect power m that is the sum of n consecutive perfect powers, or -1 if m does not exist.",
+  "description": "a(n) = least perfect power m that is the sum of n consecutive perfect powers, or -1 if m does not exist.",
   "id": "A368161",
   "mentions": [
-    "A072103"
+    "A001597"
   ],
   "tags": [
     "more",

@@ -2,7 +2,9 @@
   "description": "a(n) is the number of distinct products of nonempty submultisets of the digits of n.",
   "id": "A364136",
   "mentions": [
+    "A000005",
     "A007954",
+    "A051801",
     "A055642",
     "A360391"
   ],
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

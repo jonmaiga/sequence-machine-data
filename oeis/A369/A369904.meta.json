@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n * Sum_{p|n, p prime} sigma(n/p) / p.",
+  "id": "A369904",
+  "mentions": [
+    "A000203",
+    "A323599",
+    "A329354",
+    "A369740",
+    "A369903"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

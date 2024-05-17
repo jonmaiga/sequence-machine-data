@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1 - 2*x) * (1 - 4*x + 2*x^2) / (1 - 9*x + 28*x^2 - 35*x^3 + 15*x^4 - x^5).",
+  "id": "A370074",
+  "mentions": [
+    "A007318",
+    "A122588",
+    "A211216",
+    "A221863",
+    "A224422",
+    "A370568"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

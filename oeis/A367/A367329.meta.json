@@ -1,0 +1,19 @@
+{
+  "description": "The y-coordinate of the point where x + y = n, x & y are integers and x/y is as close as possible to e.",
+  "id": "A367329",
+  "mentions": [
+    "A001113",
+    "A007677",
+    "A367328"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

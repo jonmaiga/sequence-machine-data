@@ -1,5 +1,5 @@
 {
-  "description": "Table by antidiagonals of floor[ n^k / k^n ].",
+  "description": "Square array read by descending antidiagonals: T(n,k) = floor(n^k/k^n).",
   "id": "A062283",
   "mentions": [
     "A055651",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 94,
-    "source": "joeis"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

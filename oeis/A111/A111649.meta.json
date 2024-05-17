@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A001541(n)*A001653(n) + A001541(n)*A002315(n) + A001653(n)*A002315(n).",
+  "description": "a(n) = A001541(n)*A001653(n+1) + A001541(n)*A002315(n) + A001653(n+1)*A002315(n).",
   "id": "A111649",
   "mentions": [
     "A001541",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

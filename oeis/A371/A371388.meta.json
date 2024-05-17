@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*n*floor(n*(1 + sqrt(5))/2) - n^2. Main diagonal of A340429.",
+  "id": "A371388",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A340429"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

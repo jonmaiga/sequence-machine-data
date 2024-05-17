@@ -1,0 +1,41 @@
+{
+  "description": "Numbers whose product of prime indices has exactly two distinct prime factors.",
+  "id": "A371287",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A001358",
+    "A003963",
+    "A006881",
+    "A007416",
+    "A027746",
+    "A056239",
+    "A076610",
+    "A112798",
+    "A302540",
+    "A302596",
+    "A303975",
+    "A319899",
+    "A320698",
+    "A336101",
+    "A355731",
+    "A355732",
+    "A355739",
+    "A355741",
+    "A370802",
+    "A370820",
+    "A371127"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

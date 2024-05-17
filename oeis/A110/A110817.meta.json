@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (1/n)sigma(n+1) is an integer.",
+  "description": "Numbers k such that (1/k)*sigma(k+1) is an integer.",
   "id": "A110817",
   "mentions": [],
   "tags": [

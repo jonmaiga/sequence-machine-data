@@ -1,0 +1,17 @@
+{
+  "description": "The smallest number in base n such that two digits (and no fewer) need to be changed to get a prime.",
+  "id": "A370531",
+  "mentions": [
+    "A133219",
+    "A186995",
+    "A322614"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

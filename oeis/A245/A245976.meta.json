@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the number whose continued fraction is given by A245920 (limit-reverse of an infinite Fibonacci word).",
   "id": "A245976",
   "mentions": [
+    "A003849",
     "A014675",
     "A245920",
     "A245975"

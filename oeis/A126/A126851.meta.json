@@ -1,7 +1,10 @@
 {
-  "description": "SPM4Sigma(n) = (-1)^(1/2*((Sum_i p_i)-Omega(m'))*Sum_{d|n} (-1)^(1/2*((Sum_j p_j)-Omega(d'))*d =(2^(r+1)-1)*Product_i (Sum_{1<=s_i<=r_i} p_i^s_i)+(-1)^(1/2*(p_i-1)) where n=2^r*m', gcd(2,m')=1, m'=Product_i p_i^r_i, d=2^k*d', gcd(2,d')=1, d'=Product_j p_j^r_j SPM4 for Signed by Prime factors Mod 4.",
+  "description": "SPM4Sigma(n) = (-1)^(1/2*((Sum_i p_i)-Omega(m'))*Sum_{d|n} (-1)^(1/2*((Sum_j p_j)-Omega(d'))*d =(2^(r+1)-1)*Product_i [Sum_{1<=s_i<=r_i} p_i^s_i +(-1)^((p_i-1)/2)] where n=2^r*m', gcd(2,m')=1, m'=Product_i p_i^r_i, d=2^k*d', gcd(2,d')=1, d'=Product_j p_j^r_j SPM4 for Signed by Prime factors Mod 4.",
   "id": "A126851",
   "mentions": [
+    "A000225",
+    "A007814",
+    "A038712",
     "A126852"
   ],
   "tags": [
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 80,
     "source": "oeis-entry"
   }
 }

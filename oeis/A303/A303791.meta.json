@@ -4,6 +4,7 @@
   "mentions": [
     "A002061",
     "A002997",
+    "A055553",
     "A265285",
     "A265628"
   ],
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

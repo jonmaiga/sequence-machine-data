@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, a(n+1), a(2*n+1) and a(2*n+2) have a common prime factor.",
+  "id": "A372144",
+  "mentions": [
+    "A370843",
+    "A372030",
+    "A372130",
+    "A372143",
+    "A372185"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

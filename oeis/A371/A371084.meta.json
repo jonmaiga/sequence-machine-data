@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if n is a nonsquarefree number not divisible by p^p for any prime p, otherwise 0.",
+  "id": "A371084",
+  "mentions": [
+    "A008966",
+    "A059956",
+    "A359550",
+    "A371083"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

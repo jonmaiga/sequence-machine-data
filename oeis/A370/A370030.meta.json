@@ -1,0 +1,28 @@
+{
+  "description": "Table in which the g.f. of row n, R(n,x), satisfies Sum_{k=-oo..+oo} (x^k - n*R(n,x))^k = 1 - (n-2)*Sum_{k>=1} x^(k^2), for n >= 1, as read by antidiagonals.",
+  "id": "A370030",
+  "mentions": [
+    "A355868",
+    "A370020",
+    "A370031",
+    "A370033",
+    "A370034",
+    "A370035",
+    "A370036",
+    "A370037",
+    "A370038",
+    "A370039",
+    "A370041",
+    "A370043"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

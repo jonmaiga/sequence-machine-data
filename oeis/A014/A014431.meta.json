@@ -2,10 +2,12 @@
   "description": "a(1) = 1, a(2) = 2, a(n) = a(1)*a(n-1) + a(2)*a(n-2) + ...+ a(n-2)*a(2) for n >= 3.",
   "id": "A014431",
   "mentions": [
+    "A006318",
     "A025235",
     "A084601"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

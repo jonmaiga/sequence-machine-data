@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest prime < prime(n)^prime(n).",
+  "id": "A371346",
+  "mentions": [
+    "A051674",
+    "A151799",
+    "A371347"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

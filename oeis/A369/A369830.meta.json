@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of distinct values of the determinant of an n X n symmetric Toeplitz matrix using the integers 1 to n.",
+  "id": "A369830",
+  "mentions": [
+    "A000142",
+    "A350953",
+    "A350954",
+    "A356865",
+    "A369831",
+    "A369832",
+    "A369833",
+    "A369834",
+    "A369835"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

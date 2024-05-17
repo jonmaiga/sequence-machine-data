@@ -1,5 +1,5 @@
 {
-  "description": "A positive integer n is included if every nonzero exponent in the prime factorization of n is coprime to n.",
+  "description": "A positive integer k is included if every nonzero exponent in the prime factorization of k is coprime to k.",
   "id": "A144146",
   "mentions": [],
   "tags": [

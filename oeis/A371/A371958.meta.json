@@ -1,0 +1,19 @@
+{
+  "description": "The smallest number k that has a factorization k = f1*f2*...*fr where the numbers k, f1, f2, ..., fr together contain every number from 0 to n, without overlap, as substrings.",
+  "id": "A371958",
+  "mentions": [
+    "A001055",
+    "A027746",
+    "A370970"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,19 +1,21 @@
 {
-  "description": "First order recursion: a(0)=1; a(n)=phi(n)-a(n-1)=A000010(n)-a(n-1).",
+  "description": "First order recursion: a(0) = 1; a(n) = phi(n) - a(n-1) = A000010(n) - a(n-1).",
   "id": "A083239",
   "mentions": [
     "A000010",
-    "A000213",
+    "A068773",
     "A083236",
     "A083237",
     "A083238"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 67,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

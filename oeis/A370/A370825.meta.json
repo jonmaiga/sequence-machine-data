@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the numerator of the ratio of winning probabilities in a game similar to A370823, but with a draw and single round odds A:B:draw of 3:2:1.",
+  "id": "A370825",
+  "mentions": [
+    "A052548",
+    "A370823",
+    "A370824",
+    "A370826"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

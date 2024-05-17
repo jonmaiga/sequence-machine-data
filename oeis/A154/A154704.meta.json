@@ -1,16 +1,18 @@
 {
-  "description": "a(n) = smallest number k such that k-1 and k+1 both have n prime divisors (counted with multiplicity).",
+  "description": "a(n) = smallest number k such that k-1 and k+1 both have exactly n prime divisors (counted with multiplicity).",
   "id": "A154704",
   "mentions": [
     "A001222",
+    "A115186",
     "A154598"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

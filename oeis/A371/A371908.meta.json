@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2-adic valuation of A008336(2*n).",
+  "id": "A371908",
+  "mentions": [
+    "A007814",
+    "A008336",
+    "A371905"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

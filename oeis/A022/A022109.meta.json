@@ -2,7 +2,6 @@
   "description": "Fibonacci sequence beginning 1, 19.",
   "id": "A022109",
   "mentions": [
-    "A000045",
     "A093645",
     "A101220",
     "A109754"
@@ -14,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
-    "source": "joeis"
+    "size": 36,
+    "source": "oeis-bfile"
   }
 }

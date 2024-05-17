@@ -1,14 +1,16 @@
 {
   "description": "If n = p_1^a_1 * p_2^a_2 * p_3^a_3 * ..., where p_k is the k-th prime and the a's are nonnegative integers, then a(n) = n!/product_{k >= 1} [(p_k)!^a_k].",
   "id": "A056218",
-  "mentions": [],
+  "mentions": [
+    "A075072"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
-    "source": "joeis"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

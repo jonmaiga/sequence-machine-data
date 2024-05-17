@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first prime p such that p - 2 and p + 2 both have exactly n prime factors, counted with multiplicity.",
+  "id": "A371651",
+  "mentions": [
+    "A001222",
+    "A115186",
+    "A154704",
+    "A371622"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Let L_1 = (1) and L_2 = (1, 2); for any n > 2, L_n is obtained by inserting one n between each pair of consecutive terms of L_{n-1} coprime to n; a(n) gives the number of n's in L_n.",
+  "id": "A370857",
+  "mentions": [
+    "A049456",
+    "A370858"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

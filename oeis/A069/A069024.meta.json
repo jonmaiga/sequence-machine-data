@@ -1,8 +1,10 @@
 {
-  "description": "Palindromic in base 2 as well as in base 10 (initial zeros may be prepended).",
+  "description": "Numbers that are palindromic in base 2 as well as in base 10 (initial zeros may be prepended).",
   "id": "A069024",
   "mentions": [
-    "A007632"
+    "A007632",
+    "A057890",
+    "A061917"
   ],
   "tags": [
     "base",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "size": 52,
+    "source": "oeis-bfile"
   }
 }

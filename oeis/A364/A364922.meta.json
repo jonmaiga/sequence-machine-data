@@ -1,19 +1,18 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x*A(x)^3 / (1 - 2*x*A(x)^2).",
+  "description": "a(n) is the square of the side length of a simplex whose n-dimensional inner hypervolume is equal to its (n-1)-dimensional surface hypervolume. As a result, the sequence starts at n=2.",
   "id": "A364922",
   "mentions": [
-    "A003168",
-    "A007564",
-    "A364923",
-    "A364924"
+    "A019582",
+    "A179824"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 22,
-    "source": "joeis"
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
   }
 }

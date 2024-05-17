@@ -2,8 +2,10 @@
   "description": "Triangle of B-analogs of Stirling numbers of the second kind.",
   "id": "A039755",
   "mentions": [
+    "A001147",
     "A007405",
     "A008277",
+    "A028246",
     "A035342",
     "A039756",
     "A039757",

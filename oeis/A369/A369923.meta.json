@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of permutations of n copies of 1..k with values introduced in order and without cyclically adjacent elements equal.",
+  "id": "A369923",
+  "mentions": [
+    "A003436",
+    "A197657",
+    "A209183",
+    "A322013",
+    "A322093",
+    "A348813",
+    "A348815",
+    "A348818",
+    "A348821"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

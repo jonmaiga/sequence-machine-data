@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that every (prime) factor of n!+1 is one more than a multiple of n.",
+  "description": "Numbers k such that every (prime) factor of k!+1 is one more than a multiple of k.",
   "id": "A064295",
   "mentions": [
     "A002981",

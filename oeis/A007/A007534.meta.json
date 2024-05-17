@@ -1,9 +1,10 @@
 {
-  "description": "Even numbers that are not the sum of a pair of twin primes.",
+  "description": "Positive even numbers that are not the sum of a pair of twin primes.",
   "id": "A007534",
   "mentions": [
     "A001747",
     "A051345",
+    "A064409",
     "A129363",
     "A179825"
   ],

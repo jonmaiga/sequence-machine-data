@@ -2,7 +2,8 @@
   "description": "Run lengths of the Fibonacci word (A003849).",
   "id": "A363057",
   "mentions": [
-    "A003849"
+    "A003849",
+    "A096270"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

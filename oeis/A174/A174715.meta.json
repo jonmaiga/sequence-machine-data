@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, Q*M as infinite lower triangular matrices. Q = A001935 shifted down four times by columns, M = A174712, the diagonalized variant of A000041.",
+  "description": "Triangle read by rows, Q*M as infinite lower triangular matrices. Q = A001935 shifted down four times by columns, M = A174712.",
   "id": "A174715",
   "mentions": [
     "A000041",
@@ -11,7 +11,8 @@
   "tags": [
     "formulas",
     "nonn",
-    "tabf"
+    "tabf",
+    "uned"
   ],
   "terms": {
     "offset": 0,

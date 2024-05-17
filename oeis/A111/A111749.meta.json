@@ -1,5 +1,5 @@
 {
-  "description": "Number of (-1,0,1) periodic irreducible matrices (with Tij=-Tji for i",
+  "description": "Number of (-1,0,1) periodic irreducible matrices (with Tij = -Tji for i < j) up to sign change, transposition and row and column permutations.",
   "id": "A111749",
   "mentions": [
     "A072148",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

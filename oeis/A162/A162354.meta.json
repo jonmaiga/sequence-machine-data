@@ -1,5 +1,5 @@
 {
-  "description": "Primes that are anagrams of triangular numbers",
+  "description": "Primes that are anagrams of triangular numbers.",
   "id": "A162354",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n^k * Sum_{j=0..n} binomial(n - j, n - k) * Eulerian1(n, j).",
+  "id": "A372311",
+  "mentions": [
+    "A061711",
+    "A066524",
+    "A163626",
+    "A173018",
+    "A372312"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

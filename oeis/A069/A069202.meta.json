@@ -2,6 +2,7 @@
   "description": "A Collatz-Fibonacci mixture: a(1) = 1, a(2) = 2, a(n+2) = a(n+1)/2+a(n)/2 if a(n+1) and a(n) have the same parity, a(n+2) = a(n+1)+a(n) otherwise.",
   "id": "A069202",
   "mentions": [
+    "A069162",
     "A151749"
   ],
   "tags": [

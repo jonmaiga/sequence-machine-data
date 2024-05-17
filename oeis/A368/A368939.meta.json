@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the sum of the digits times the sum of the fourth powers of the digits equals k.",
+  "id": "A368939",
+  "mentions": [
+    "A061209",
+    "A061210",
+    "A115518",
+    "A130680",
+    "A254000",
+    "A257766",
+    "A366507",
+    "A366512"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

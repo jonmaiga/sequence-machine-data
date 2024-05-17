@@ -1,12 +1,8 @@
 {
   "description": "Positive integers k such that the sum of the divisors of k, excluding 1, is a multiple of the number of divisors of k.",
   "id": "A110878",
-  "mentions": [
-    "A000005",
-    "A000203"
-  ],
+  "mentions": [],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

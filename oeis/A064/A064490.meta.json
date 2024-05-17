@@ -2,16 +2,18 @@
   "description": "Smallest prime with prime(n) decimal digits.",
   "id": "A064490",
   "mentions": [
+    "A000040",
+    "A003617",
     "A064489"
   ],
   "tags": [
     "base",
-    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographic rank of the permutation which is the Eytzinger array layout of n elements.",
+  "id": "A368783",
+  "mentions": [
+    "A030298",
+    "A369802",
+    "A370006"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

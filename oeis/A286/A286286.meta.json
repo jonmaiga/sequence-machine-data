@@ -2,12 +2,14 @@
   "description": "a(0) = 0; thereafter, a(n) = (2*n-1)*a(n-1) + 1.",
   "id": "A286286",
   "mentions": [
+    "A000522",
     "A001147",
     "A002627",
     "A060196",
     "A132424"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

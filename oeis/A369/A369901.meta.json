@@ -1,0 +1,20 @@
+{
+  "description": "Proth numbers h*2^k+1, with odd h < 2^k, ordered first by k then by h.",
+  "id": "A369901",
+  "mentions": [
+    "A000051",
+    "A020515",
+    "A080075"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

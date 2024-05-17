@@ -1,18 +1,20 @@
 {
-  "description": "Maximal size of a connected acyclic domain of size n and diameter n*(n-1)/2.",
+  "description": "Maximal size of a connected acyclic domain of permutations of n elements with diameter n*(n-1)/2.",
   "id": "A144686",
   "mentions": [
     "A090245",
     "A144685",
-    "A144687"
+    "A144687",
+    "A369614"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 5,
+    "offset": 1,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

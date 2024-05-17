@@ -1,0 +1,17 @@
+{
+  "description": "Rectangular array, read by antidiagonals: T(n,k) = greatest m such that 2^m divides prime(n+k+1)-prime(n+1).",
+  "id": "A370265",
+  "mentions": [
+    "A000040",
+    "A023572"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

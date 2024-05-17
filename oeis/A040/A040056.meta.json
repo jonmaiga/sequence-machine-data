@@ -2,11 +2,18 @@
   "description": "Continued fraction for sqrt(65).",
   "id": "A040056",
   "mentions": [
-    "A010517"
+    "A010517",
+    "A040000",
+    "A040002",
+    "A040012",
+    "A041112",
+    "A041113",
+    "A248289"
   ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

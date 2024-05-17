@@ -1,0 +1,29 @@
+{
+  "description": "The largest aliquot divisor of the sum of divisors of n; a(1) = 1.",
+  "id": "A371418",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005820",
+    "A023194",
+    "A028982",
+    "A028983",
+    "A032742",
+    "A071189",
+    "A371419",
+    "A371420",
+    "A371421",
+    "A371422",
+    "A371423"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the numerator of the imaginary part of 1/(1+i/2)^n, where i is the imaginary unit.",
+  "id": "A370192",
+  "mentions": [
+    "A000351",
+    "A370191"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

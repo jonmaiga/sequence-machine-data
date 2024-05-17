@@ -1,0 +1,19 @@
+{
+  "description": "Number of deranged matchings of 2n people with partners (of either sex) such that at least one person is matched with their spouse.",
+  "id": "A370253",
+  "mentions": [
+    "A001147",
+    "A053871",
+    "A055140",
+    "A057427"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

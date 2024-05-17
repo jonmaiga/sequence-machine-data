@@ -1,12 +1,15 @@
 {
-  "description": "a(n) = sigma(n) + usigma(n), or A000203(n) + A034448(n).",
+  "description": "a(n) = sigma(n) + usigma(n) = A000203(n) + A034448(n).",
   "id": "A064212",
   "mentions": [
     "A000203",
+    "A002117",
     "A034448",
-    "A048146"
+    "A048146",
+    "A072691"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

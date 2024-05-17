@@ -1,0 +1,15 @@
+{
+  "description": "Indices of records in A371729: numbers k with A371729(k) > A371729(m) for all m < k.",
+  "id": "A371730",
+  "mentions": [
+    "A371729"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

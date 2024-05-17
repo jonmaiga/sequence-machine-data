@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling(((10^n - 1)^2/9 + 10^n)/18).",
+  "description": "a(n) = ceiling(((10^n - 1)^2/9 + 10^n)/18).",
   "id": "A202606",
   "mentions": [
     "A000217",

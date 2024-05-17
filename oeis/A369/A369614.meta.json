@@ -1,0 +1,20 @@
+{
+  "description": "Maximal size of Condorcet domain on n alternatives.",
+  "id": "A369614",
+  "mentions": [
+    "A144685",
+    "A144686",
+    "A144687",
+    "A289684"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

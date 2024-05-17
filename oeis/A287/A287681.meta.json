@@ -1,5 +1,5 @@
 {
-  "description": "Twin practical numbers: numbers n such that both n and n+2 are practical numbers.",
+  "description": "Twin practical numbers: numbers k such that both k and k+2 are practical numbers.",
   "id": "A287681",
   "mentions": [
     "A005153",

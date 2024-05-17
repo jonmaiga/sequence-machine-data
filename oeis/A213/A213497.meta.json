@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0,...,n} and w = min(|w-x|,|x-y|)",
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and w = min(|w-x|, |x-y|).",
   "id": "A213497",
   "mentions": [
     "A212959",

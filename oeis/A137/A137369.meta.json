@@ -1,9 +1,8 @@
 {
-  "description": "A triangular sequence based on a coefficient expansion of a kind of Boole Polynomial( Lambda=n);b(x,n,Lambda)=b(x,n): Expansion of p(t) = (1 + t)^x/(1 + (1 + t)^n) with weight factor 2^(n+1)*n!.",
+  "description": "Triangle read by rows: expansion of p(t) = (1 + t)^x/(1 + (1 + t)^n) with weight factor 2^(n+1)*n!.",
   "id": "A137369",
   "mentions": [],
   "tags": [
-    "formulas",
     "sign",
     "tabl",
     "uned"

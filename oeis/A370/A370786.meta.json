@@ -1,0 +1,22 @@
+{
+  "description": "Powerful numbers with an odd number of prime factors (counted with multiplicity).",
+  "id": "A370786",
+  "mentions": [
+    "A001694",
+    "A002117",
+    "A026424",
+    "A078434",
+    "A090699",
+    "A370785",
+    "A370788"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

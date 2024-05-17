@@ -1,5 +1,5 @@
 {
-  "description": "7-almost primes (A046308) whose digit reversal is different and also has 7 prime factors (with multiplicity). \"Emirp Tsomla-7.\".",
+  "description": "Numbers that have exactly seven prime factors counted with multiplicity (A046308) whose digit reversal is different and also has 7 prime factors (with multiplicity).",
   "id": "A109027",
   "mentions": [
     "A006567",
@@ -11,7 +11,9 @@
     "A109025",
     "A109026",
     "A109028",
-    "A109131"
+    "A109029",
+    "A109030",
+    "A109031"
   ],
   "tags": [
     "base",
@@ -20,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

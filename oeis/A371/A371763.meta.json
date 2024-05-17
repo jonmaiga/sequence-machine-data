@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: Trace of the Akiyama-Tanigawa algorithm for powers x^2.",
+  "id": "A371763",
+  "mentions": [
+    "A023531",
+    "A099594",
+    "A193738",
+    "A344920",
+    "A371761",
+    "A371764"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

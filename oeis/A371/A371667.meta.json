@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of -Ei(-1) / log(2).",
+  "id": "A371667",
+  "mentions": [
+    "A007525",
+    "A019704",
+    "A099285",
+    "A232734"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

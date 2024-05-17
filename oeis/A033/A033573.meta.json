@@ -1,7 +1,10 @@
 {
   "description": "a(n) = (2*n+1)*(9*n+1).",
   "id": "A033573",
-  "mentions": [],
+  "mentions": [
+    "A001620",
+    "A354636"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -7,13 +7,14 @@
     "A096399"
   ],
   "tags": [
+    "bref",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 4,
+    "offset": 1,
+    "size": 3,
     "source": "oeis-entry"
   }
 }

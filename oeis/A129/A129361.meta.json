@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=floor((n+1)/2)..n} F(k+1), F(k) = A000045(k).",
+  "description": "a(n) = Sum_{k=floor((n+1)/2)..n} Fibonacci(k+1).",
   "id": "A129361",
   "mentions": [
     "A000045",

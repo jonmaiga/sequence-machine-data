@@ -2,6 +2,8 @@
   "description": "Index at which n-th prime appears in A109890.",
   "id": "A111240",
   "mentions": [
+    "A000040",
+    "A000720",
     "A109890"
   ],
   "tags": [
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

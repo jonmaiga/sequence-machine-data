@@ -1,5 +1,5 @@
 {
-  "description": "Triangle with tangent numbers, read by rows, T(n, k) for n >= 1, 0 <= k <= n.",
+  "description": "Triangle read by rows: T(n, k) = (-1)^(n - k) * binomial(n, k) * A000182(n).",
   "id": "A326723",
   "mentions": [
     "A000182",
@@ -9,11 +9,11 @@
   "tags": [
     "formulas",
     "sign",
-    "tabf"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 35,
+    "offset": 0,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

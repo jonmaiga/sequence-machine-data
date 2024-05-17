@@ -1,0 +1,24 @@
+{
+  "description": "Partial alternating sums of the sum of unitary divisors function (A034448).",
+  "id": "A370898",
+  "mentions": [
+    "A002117",
+    "A034448",
+    "A064609",
+    "A068762",
+    "A068773",
+    "A307704",
+    "A357817",
+    "A362028"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

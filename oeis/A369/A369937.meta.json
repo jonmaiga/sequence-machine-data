@@ -1,0 +1,33 @@
+{
+  "description": "Numbers whose maximal exponent in their prime factorization is square.",
+  "id": "A369937",
+  "mentions": [
+    "A000290",
+    "A002416",
+    "A005117",
+    "A013661",
+    "A030514",
+    "A030635",
+    "A051903",
+    "A113849",
+    "A178739",
+    "A179665",
+    "A179692",
+    "A197680",
+    "A361177",
+    "A366762",
+    "A368714",
+    "A369210",
+    "A369938",
+    "A369939"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

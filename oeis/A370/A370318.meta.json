@@ -1,0 +1,41 @@
+{
+  "description": "Number of labeled simple graphs with n vertices and the same number of edges as covered vertices, such that the edge set is connected.",
+  "id": "A370318",
+  "mentions": [
+    "A000088",
+    "A001187",
+    "A001349",
+    "A001429",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A006649",
+    "A057500",
+    "A061540",
+    "A062734",
+    "A116508",
+    "A129271",
+    "A133686",
+    "A140638",
+    "A143543",
+    "A323818",
+    "A367862",
+    "A367863",
+    "A367867",
+    "A367868",
+    "A367869",
+    "A367916",
+    "A368951",
+    "A369197",
+    "A370317"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

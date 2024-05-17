@@ -1,12 +1,16 @@
 {
-  "description": "The 4-cycle of the n => sigma(n)-n process. sigma(n) is the sum of divisors of n. (A000203) a(4+n)=a(n).",
+  "description": "The 4-cycle of the n => sigma(n)-n process. sigma(n) is the sum of divisors of n. (A000203).",
   "id": "A072892",
   "mentions": [
     "A000203",
-    "A045477"
+    "A001065",
+    "A072890",
+    "A072891",
+    "A090615"
   ],
   "tags": [
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],

@@ -2,6 +2,7 @@
   "description": "Number of permutations sigma of [n] such that i! divides Product_{k=1..i} sigma(k) for 1 <= i <= n.",
   "id": "A333710",
   "mentions": [
+    "A263987",
     "A320843",
     "A333892"
   ],

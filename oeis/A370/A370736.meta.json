@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4^n * [x^n] Product_{k>=1} (1 + 2*x^k)^(1/4).",
+  "id": "A370736",
+  "mentions": [
+    "A032302",
+    "A370709",
+    "A370716",
+    "A370737"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,17 @@
 {
-  "description": "tau(n) (mod 3).",
+  "description": "a(n) = tau(n) mod 3.",
   "id": "A074943",
   "mentions": [
-    "A000005"
+    "A000005",
+    "A002117",
+    "A010872",
+    "A059269",
+    "A211337",
+    "A211338"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

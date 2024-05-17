@@ -2,6 +2,7 @@
   "description": "Sum of the numbers in row n of the triangular array at A248686.",
   "id": "A248687",
   "mentions": [
+    "A126646",
     "A248686"
   ],
   "tags": [

@@ -2,7 +2,6 @@
   "description": "Repeat 3^n three times.",
   "id": "A127975",
   "mentions": [
-    "A002264",
     "A108411",
     "A111575"
   ],

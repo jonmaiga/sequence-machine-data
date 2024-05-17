@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3*2^n + 5*(-1)^n.",
+  "id": "A369404",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A014551",
+    "A033999"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

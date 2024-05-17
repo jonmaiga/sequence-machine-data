@@ -1,0 +1,16 @@
+{
+  "description": "a(n) depends on the primality of a(n-1) and parity of n (see Comments lines for definition).",
+  "id": "A371155",
+  "mentions": [
+    "A093513"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

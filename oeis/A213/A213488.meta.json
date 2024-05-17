@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0,...,n} and |w-x|+|x-y|+|y-w| < w+x+y.",
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and |w-x| + |x-y| + |y-w| < w+x+y.",
   "id": "A213488",
   "mentions": [
     "A212959",

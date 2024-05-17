@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that d(k) < d(k - 1) and d(k) < d(k + 1), and d(k) is also a record for this type of number where d(k) is the number of divisors of k.",
+  "id": "A369155",
+  "mentions": [
+    "A000005",
+    "A075025"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

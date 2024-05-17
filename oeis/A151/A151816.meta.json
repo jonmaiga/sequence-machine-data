@@ -1,10 +1,12 @@
 {
-  "description": "a(n) = n! - A001147(n)^2.",
+  "description": "a(n) = (2*n)! - ((2*n-1)!!)^2.",
   "id": "A151816",
   "mentions": [
     "A000142",
     "A001147",
-    "A001818"
+    "A001818",
+    "A010050",
+    "A088979"
   ],
   "tags": [
     "formulas",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

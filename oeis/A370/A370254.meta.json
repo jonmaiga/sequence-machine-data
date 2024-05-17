@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1, a(n) = result of eliminating the digit 7 from the sum of all previous terms for n>=1.",
+  "id": "A370254",
+  "mentions": [
+    "A004182",
+    "A011782",
+    "A069638",
+    "A108566"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

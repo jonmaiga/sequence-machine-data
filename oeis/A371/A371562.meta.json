@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x/A(x)^3 * (1 + A(x)^5).",
+  "id": "A371562",
+  "mentions": [
+    "A364395",
+    "A364396",
+    "A364398",
+    "A364399",
+    "A364400",
+    "A364407"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive number such that a(n) - a(n-1) = sopfr(a(n)) + sopfr(a(n-1)), where sopfr(k) is the sum of the primes dividing k, with repetition.",
+  "id": "A369348",
+  "mentions": [
+    "A001414",
+    "A369349",
+    "A369350",
+    "A369351",
+    "A369352",
+    "A369353"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

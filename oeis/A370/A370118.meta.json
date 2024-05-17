@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if the arithmetic derivative of n is a multiple of 9, otherwise 0.",
+  "id": "A370118",
+  "mentions": [
+    "A003415",
+    "A079978",
+    "A267142",
+    "A359430",
+    "A369658",
+    "A369669",
+    "A370119",
+    "A370122"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

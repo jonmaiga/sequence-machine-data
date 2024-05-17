@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A371764(n, 2).",
+  "id": "A372148",
+  "mentions": [
+    "A371764"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

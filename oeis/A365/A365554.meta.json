@@ -1,0 +1,16 @@
+{
+  "description": "Number of increasing paths from the bottom to the top of the n-hypercube (as a graded poset) which first encounter a vector of isolated zeros at stage k, weighted by k.",
+  "id": "A365554",
+  "mentions": [
+    "A067331"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

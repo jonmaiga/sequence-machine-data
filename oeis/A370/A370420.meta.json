@@ -1,0 +1,22 @@
+{
+  "description": "Number of genus g partitions of the n-set which are partitions into k nonempty subsets (blocks). Flattened 3-dimensional array read by n, then by g:0..floor(n-1)/2, then by k:1..n.",
+  "id": "A370420",
+  "mentions": [
+    "A000110",
+    "A001263",
+    "A008277",
+    "A297178",
+    "A370235",
+    "A370236"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

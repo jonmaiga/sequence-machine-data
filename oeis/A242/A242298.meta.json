@@ -2,6 +2,7 @@
   "description": "Once a number in this sequence is divisible by all numbers 1 to m, subsequent terms are constrained to have the same property; choose the smallest permissible number that is greater than the previous term.",
   "id": "A242298",
   "mentions": [
+    "A003418",
     "A051451",
     "A080765",
     "A095848",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

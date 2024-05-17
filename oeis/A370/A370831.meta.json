@@ -1,0 +1,17 @@
+{
+  "description": "Alternating sum of composites.",
+  "id": "A370831",
+  "mentions": [
+    "A002808",
+    "A008347"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

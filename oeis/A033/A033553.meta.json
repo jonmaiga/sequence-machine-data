@@ -1,5 +1,5 @@
 {
-  "description": "3-Knödel numbers or D-numbers: numbers n > 3 such that n | k^(n-2)-k for all k with gcd(k, n) = 1.",
+  "description": "3-Knödel numbers or D-numbers: numbers m > 3 such that m | k^(m-2)-k for all k with gcd(k, m) = 1.",
   "id": "A033553",
   "mentions": [
     "A000010",
@@ -11,6 +11,9 @@
     "A050993",
     "A106317",
     "A208154",
+    "A208155",
+    "A208156",
+    "A208157",
     "A208158",
     "A277344"
   ],

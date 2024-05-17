@@ -1,5 +1,5 @@
 {
-  "description": "Composites in base 10 that remain composite in seven bases b, 2<=b<=10, expansions interpreted as decimal numbers.",
+  "description": "Composites in base 10 that remain composite in exactly seven bases b, 2 <= b <= 10, expansions interpreted as decimal numbers.",
   "id": "A256351",
   "mentions": [
     "A038537",
@@ -22,7 +22,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

@@ -1,18 +1,19 @@
 {
-  "description": "Prime number of trailing end 0's associated with p! where p = A181576.",
+  "description": "Prime number of trailing end 0's associated with p! where p = A181576(n).",
   "id": "A181577",
   "mentions": [
+    "A027868",
     "A181575",
     "A181576"
   ],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "formulas",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

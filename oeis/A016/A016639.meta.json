@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of log(16).",
+  "description": "Decimal expansion of log(16) = 4*log(2).",
   "id": "A016639",
   "mentions": [
     "A001008",
@@ -7,6 +7,7 @@
     "A002805",
     "A016444",
     "A016655",
+    "A188859",
     "A303658"
   ],
   "tags": [

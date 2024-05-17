@@ -10,13 +10,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "sign",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

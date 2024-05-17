@@ -1,18 +1,18 @@
 {
-  "description": "3*A131821 - 2*A000012.",
+  "description": "3*A131821 - 2.",
   "id": "A131844",
   "mentions": [
-    "A000012",
     "A016993",
     "A131821"
   ],
   "tags": [
     "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

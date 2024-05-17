@@ -1,7 +1,9 @@
 {
   "description": "Katadromes: digits in base 16 are in strict descending order.",
   "id": "A023797",
-  "mentions": [],
+  "mentions": [
+    "A987654"
+  ],
   "tags": [
     "base",
     "easy",

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A000166(floor(n/2)) if n is even otherwise A000240(floor((n + 1)/2)).",
+  "id": "A371998",
+  "mentions": [
+    "A000166",
+    "A000240"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

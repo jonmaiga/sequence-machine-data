@@ -1,16 +1,15 @@
 {
-  "description": "a(n) = 2^n*A185181(n).",
+  "description": "a(n) = 2^n*A122705(n).",
   "id": "A185182",
   "mentions": [
-    "A185181"
+    "A122705"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 8,
+    "offset": 1,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

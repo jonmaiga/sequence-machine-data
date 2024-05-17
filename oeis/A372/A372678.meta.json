@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(14 * n)/6.",
+  "id": "A372678",
+  "mentions": [
+    "A008683",
+    "A372673"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

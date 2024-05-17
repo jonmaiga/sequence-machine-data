@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. satisfying A(x) = A( x*A(x)^4 + 5*x*A(x)^5 )^(1/5).",
+  "id": "A370546",
+  "mentions": [
+    "A356782",
+    "A370439",
+    "A370545"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

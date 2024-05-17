@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that gcd(k! + 1, k^k + 1) is neither 1 nor 2n+1.",
+  "description": "Numbers k such that gcd(k! + 1, k^k + 1) is neither 1 nor 2k+1.",
   "id": "A116894",
   "mentions": [
     "A014566",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

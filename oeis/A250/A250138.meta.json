@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n+2 0..6 arrays with the medians of every three consecutive terms nondecreasing",
+  "description": "Number of length n+2 0..6 arrays with the medians of every three consecutive terms nondecreasing.",
   "id": "A250138",
   "mentions": [
     "A250140"

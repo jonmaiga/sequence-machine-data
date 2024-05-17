@@ -1,0 +1,28 @@
+{
+  "description": "Largest pandigital number whose n-th power contains each digit (0-9) exactly n times.",
+  "id": "A370667",
+  "mentions": [
+    "A050278",
+    "A078255",
+    "A154532",
+    "A154566",
+    "A199630",
+    "A199631",
+    "A199632",
+    "A199633",
+    "A357755",
+    "A365144"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

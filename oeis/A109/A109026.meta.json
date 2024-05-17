@@ -1,5 +1,5 @@
 {
-  "description": "6-almost primes (A046306) whose digit reversal is different and also has 6 prime factors (with multiplicity). \"Emirp Tsomla-6.\".",
+  "description": "Numbers that have exactly six prime factors counted with multiplicity (A046306) whose digit reversal is different and also has 6 prime factors (with multiplicity).",
   "id": "A109026",
   "mentions": [
     "A006567",
@@ -10,7 +10,10 @@
     "A109024",
     "A109025",
     "A109027",
-    "A109131"
+    "A109028",
+    "A109029",
+    "A109030",
+    "A109031"
   ],
   "tags": [
     "base",
@@ -19,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

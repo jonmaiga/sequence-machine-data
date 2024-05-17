@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number whose name in Bengali has n letters, or -1 if so such word exists.",
+  "description": "a(n) is the smallest number whose name in Bengali has n letters, or -1 if no such word exists.",
   "id": "A353043",
   "mentions": [],
   "tags": [

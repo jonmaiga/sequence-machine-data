@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = 1 + 4*x * AGM(1, A(x)^4).",
+  "id": "A369536",
+  "mentions": [
+    "A171454",
+    "A272823",
+    "A369537",
+    "A369538",
+    "A369539"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

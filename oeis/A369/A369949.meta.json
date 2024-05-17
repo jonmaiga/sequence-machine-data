@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct values of the determinant of an n X n Hankel matrix using the first 2*n - 1 prime numbers.",
+  "id": "A369949",
+  "mentions": [
+    "A024356",
+    "A350933",
+    "A369946",
+    "A369947"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

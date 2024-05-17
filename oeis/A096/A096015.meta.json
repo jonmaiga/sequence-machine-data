@@ -1,5 +1,5 @@
 {
-  "description": "A096014(n) / 2.",
+  "description": "a(n) = A096014(n) / 2.",
   "id": "A096015",
   "mentions": [
     "A020639",
@@ -7,6 +7,8 @@
     "A096014"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

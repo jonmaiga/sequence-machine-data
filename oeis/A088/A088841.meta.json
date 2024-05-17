@@ -1,20 +1,29 @@
 {
-  "description": "Numerator of quotient=sigma[7n]/sigma[n].",
+  "description": "Numerator of the quotient sigma(7*n)/sigma(n).",
   "id": "A088841",
   "mentions": [
     "A000203",
+    "A001620",
     "A038712",
     "A080278",
     "A088837",
-    "A088842"
+    "A088838",
+    "A088839",
+    "A088840",
+    "A088842",
+    "A214411",
+    "A268354",
+    "A283078"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 97,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of log(2)/3.",
   "id": "A193535",
   "mentions": [
+    "A052502",
     "A113476"
   ],
   "tags": [

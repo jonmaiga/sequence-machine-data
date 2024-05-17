@@ -1,8 +1,9 @@
 {
-  "description": "4^n + 4*n.",
+  "description": "a(n) = 4^n + 4*n.",
   "id": "A221906",
   "mentions": [
-    "A107584"
+    "A107584",
+    "A370659"
   ],
   "tags": [
     "easy",

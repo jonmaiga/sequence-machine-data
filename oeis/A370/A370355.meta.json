@@ -1,0 +1,22 @@
+{
+  "description": "Highly touchable numbers sandwiched between untouchable twin pairs.",
+  "id": "A370355",
+  "mentions": [
+    "A001065",
+    "A005114",
+    "A068507",
+    "A113839",
+    "A231964",
+    "A238895"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

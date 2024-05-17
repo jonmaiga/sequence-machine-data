@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Product_{k>=0} (1 + 1/Fibonacci(5^k)).",
+  "id": "A371648",
+  "mentions": [
+    "A000045",
+    "A145232",
+    "A337668",
+    "A337669",
+    "A371647",
+    "A371650"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

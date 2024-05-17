@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying Sum_{n=-oo..+oo} (x^n - 7*A(x))^n = 1 - 5*Sum_{n>=1} x^(n^2).",
+  "id": "A370037",
+  "mentions": [
+    "A355868",
+    "A370030",
+    "A370031",
+    "A370033",
+    "A370034",
+    "A370035",
+    "A370036",
+    "A370038",
+    "A370039",
+    "A370041",
+    "A370043"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

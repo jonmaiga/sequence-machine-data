@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k!*binomial(n, k)*Pochhammer(n, k). Row sums of A370707.",
+  "id": "A370704",
+  "mentions": [
+    "A370707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

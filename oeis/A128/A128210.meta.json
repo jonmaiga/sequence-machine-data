@@ -1,5 +1,5 @@
 {
-  "description": "Number triangle T(n,k)=(-1)^(n-k)*[k<=n]*Product{i=k+1..n,Sum{j=0..i-1,A078008(j-1)}}.",
+  "description": "Number triangle T(n,k) = (-1)^(n-k)*[k<=n]*Product_{i=k+1..n} Sum_{j=0..i-1} A078008(j-1).",
   "id": "A128210",
   "mentions": [
     "A001045",

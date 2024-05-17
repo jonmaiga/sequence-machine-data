@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(5*n-2*k,n-3*k).",
+  "id": "A371756",
+  "mentions": [
+    "A144904",
+    "A371754",
+    "A371755"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -3,9 +3,11 @@
   "id": "A368482",
   "mentions": [
     "A006722",
+    "A212979",
     "A368052",
     "A368481",
-    "A368483"
+    "A368483",
+    "A369113"
   ],
   "tags": [
     "formulas",
@@ -14,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

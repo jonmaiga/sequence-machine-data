@@ -1,0 +1,18 @@
+{
+  "description": "For any positive integer n with binary expansion (b_1, ..., b_w) (where b_1 = 1), the binary expansion of a(n) is (c_1, ..., c_w) with c_k = (Sum_{i = 1..ceiling(k/2)} b_i * b_{k + 1 - i}) mod 2 for any k = 1..w; a(0) = 0.",
+  "id": "A371959",
+  "mentions": [
+    "A070939",
+    "A371960"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

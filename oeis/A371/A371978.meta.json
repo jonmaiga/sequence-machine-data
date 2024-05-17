@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of placing n non-attacking wazirs on a 3 X n board.",
+  "id": "A371978",
+  "mentions": [
+    "A201511",
+    "A371967",
+    "A371979"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

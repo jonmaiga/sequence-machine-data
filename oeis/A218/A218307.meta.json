@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. A(x) satisfies: A( x/(exp(4*x)*cosh(4*x)) ) = exp(x)*cosh(x).",
+  "description": "E.g.f. A(x) satisfies A( x/(exp(4*x)*cosh(4*x)) ) = exp(x)*cosh(x).",
   "id": "A218307",
   "mentions": [
     "A201595",

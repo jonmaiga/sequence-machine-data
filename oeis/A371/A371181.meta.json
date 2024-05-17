@@ -1,0 +1,39 @@
+{
+  "description": "Sorted list of positions of first appearances in the sequence A370820, which counts distinct divisors of prime indices.",
+  "id": "A371181",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000720",
+    "A000792",
+    "A001221",
+    "A001222",
+    "A002110",
+    "A003963",
+    "A005179",
+    "A007416",
+    "A027746",
+    "A062447",
+    "A112798",
+    "A303975",
+    "A355731",
+    "A355732",
+    "A355739",
+    "A355741",
+    "A370348",
+    "A370802",
+    "A370808",
+    "A370820",
+    "A371131",
+    "A371165",
+    "A371177"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k which have a factorization k = f_1*f_2*...*f_r where f_i >= 1 and the digits of {k, f_1, f_2, ..., f_r} together give 0,1,...,9 exactly once.",
+  "id": "A372259",
+  "mentions": [
+    "A370970",
+    "A370972",
+    "A372106"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

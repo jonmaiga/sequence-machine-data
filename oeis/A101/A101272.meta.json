@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=n, n <=6; a(n)=6, n > 6.",
+  "description": "a(n) = n, n <= 6; a(n) = 6, n > 6.",
   "id": "A101272",
   "mentions": [
     "A040000"

@@ -1,0 +1,22 @@
+{
+  "description": "Array read by upward antidiagonals: A(n, k) = A000523(A372282(n, k)), n,k >= 1, where A000523(x) is one less than the number of bits in the binary expansion of x.",
+  "id": "A372354",
+  "mentions": [
+    "A000523",
+    "A113473",
+    "A371094",
+    "A372282",
+    "A372356",
+    "A372357"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

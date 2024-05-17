@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Product_{k>=0} 1 / (1 + 1/3^k).",
+  "id": "A371746",
+  "mentions": [
+    "A000244",
+    "A083864",
+    "A100220",
+    "A132323",
+    "A370466",
+    "A371749",
+    "A371752"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

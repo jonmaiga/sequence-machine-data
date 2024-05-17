@@ -1,12 +1,13 @@
 {
-  "description": "Carmichael numbers n such that Euler totient function of n (phi(n)) is a perfect square.",
+  "description": "Carmichael numbers k such that Euler totient function of k (phi(k)) is a perfect square.",
   "id": "A272798",
   "mentions": [
     "A000010",
     "A000290",
     "A002997",
     "A039770",
-    "A262406"
+    "A262406",
+    "A290793"
   ],
   "tags": [
     "nonn"

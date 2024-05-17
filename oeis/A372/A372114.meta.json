@@ -1,0 +1,19 @@
+{
+  "description": "Sum of squares of divisors of the numbers m such that m and m+2 have the same sum of squares of divisors.",
+  "id": "A372114",
+  "mentions": [
+    "A001157",
+    "A053215",
+    "A053249",
+    "A169635"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

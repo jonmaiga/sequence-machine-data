@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n! / number of divisors of n.",
+  "description": "a(n) = n! / d(n), where d(n) is the number of divisors of n.",
   "id": "A062358",
   "mentions": [],
   "tags": [

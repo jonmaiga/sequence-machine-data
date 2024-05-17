@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (n+1)^n - (2n)!!.",
+  "description": "a(n) = (n+1)^n - n!!.",
   "id": "A127688",
   "mentions": [
     "A000165",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

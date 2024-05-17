@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (Product_{i=1..n} Fibonacci(i)) mod Fibonacci(n + 1).",
+  "id": "A371598",
+  "mentions": [
+    "A000045",
+    "A003266",
+    "A062347",
+    "A333599"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,16 +1,18 @@
 {
-  "description": "Composite n such that phi(n) divides sigma(n) - 2*n.",
+  "description": "Composite numbers k such that phi(k) divides sigma(k) - 2*k.",
   "id": "A068412",
   "mentions": [
-    "A000396"
+    "A000010",
+    "A000203",
+    "A000396",
+    "A033880"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

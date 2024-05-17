@@ -1,0 +1,21 @@
+{
+  "description": "The second arithmetic derivative of primorial numbers.",
+  "id": "A369651",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A024451",
+    "A068346",
+    "A109628",
+    "A368702"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Max (k : prime(k+n)-prime(k)=0 mod(k))",
+  "description": "Max (k : prime(k+n)-prime(k) = 0 mod(k)).",
   "id": "A066891",
   "mentions": [],
   "tags": [

@@ -1,0 +1,20 @@
+{
+  "description": "The smallest composite number k that shares exactly n distinct prime factors with sopfr(k), the sum of the primes dividing k, with repetition.",
+  "id": "A372524",
+  "mentions": [
+    "A001221",
+    "A001414",
+    "A002808",
+    "A027746",
+    "A370354"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

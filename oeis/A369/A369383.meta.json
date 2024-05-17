@@ -1,0 +1,17 @@
+{
+  "description": "The smallest number k that can be partitioned in n ways as the sum of two numbers from A003601.",
+  "id": "A369383",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

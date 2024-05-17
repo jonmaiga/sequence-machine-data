@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = n! * [x^n] (log(2*x - 1) - log(x - 1) - log(x + 1)) / (x - 1). Row sums of A371685.",
+  "id": "A371768",
+  "mentions": [
+    "A371685"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

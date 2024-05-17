@@ -2,9 +2,12 @@
   "description": "Excess area when consecutive squares of sizes 1 to n are packed into the smallest possible rectangle.",
   "id": "A081287",
   "mentions": [
-    "A038666"
+    "A000330",
+    "A038666",
+    "A369891"
   ],
   "tags": [
+    "formulas",
     "more",
     "nice",
     "nonn"

@@ -2,10 +2,15 @@
   "description": "Enumeration of the rational numbers in the closed real interval [0, 1] after Cantor.",
   "id": "A366191",
   "mentions": [
+    "A182972",
+    "A182973",
+    "A333856",
     "A352911"
   ],
   "tags": [
-    "nonn"
+    "easy",
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = F(n+1)+cos(n*Pi/2).",
+  "description": "a(n) = Fibonacci(n+1)+cos(n*Pi/2).",
   "id": "A074662",
   "mentions": [
     "A000045",

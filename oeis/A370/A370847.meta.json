@@ -1,0 +1,14 @@
+{
+  "description": "a(n) = (n-1)*n!*(n-1)!.",
+  "id": "A370847",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

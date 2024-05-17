@@ -1,16 +1,17 @@
 {
-  "description": "Row sums of triangle A131876.",
+  "description": "a(n) = 7*n^2 + 14*n + 1",
   "id": "A131878",
   "mentions": [
     "A131876"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

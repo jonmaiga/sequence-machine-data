@@ -1,5 +1,5 @@
 {
-  "description": "Normal undulating numbers where 'undulating' means that the alternate digits go up and down (or down and up) and 'normal' means that the absolute difference values between two adjacent digits may differ.",
+  "description": "Normal undulating numbers where \"undulating\" means that the alternate digits go up and down (or down and up) and \"normal\" means that the absolute differences between two adjacent digits may differ.",
   "id": "A355301",
   "mentions": [
     "A010784",

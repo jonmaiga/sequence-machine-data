@@ -2,6 +2,7 @@
   "description": "Numbers n such that sum of exponents in prime factorization of n is > log(n).",
   "id": "A067712",
   "mentions": [
+    "A067715",
     "A081209"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that A188999(A034448(m)) = k*m for some k, where A034448 and A188999 are respectively the unitary and the bi-unitary sigma function.",
+  "id": "A369205",
+  "mentions": [
+    "A034448",
+    "A038843",
+    "A188999",
+    "A318175",
+    "A369204"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

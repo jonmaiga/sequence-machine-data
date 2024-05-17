@@ -2,6 +2,7 @@
   "description": "Unexplained difference between two partition g.f.s.",
   "id": "A007330",
   "mentions": [
+    "A000219",
     "A000427",
     "A000428",
     "A007326",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

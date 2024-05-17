@@ -1,0 +1,25 @@
+{
+  "description": "Zeroless analog of tetranacci numbers.",
+  "id": "A371916",
+  "mentions": [
+    "A000045",
+    "A000213",
+    "A000288",
+    "A004719",
+    "A242350",
+    "A243063",
+    "A243657",
+    "A243658",
+    "A371911"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

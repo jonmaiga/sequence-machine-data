@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{squarefree k>=1} k / 2^k.",
+  "id": "A371134",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A333182",
+    "A346173",
+    "A371135"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number A(n,k) of acyclic orientations of the Turán graph T(k*n,n); square array A(n,k), n>=0, k>=1, read by antidiagonals.",
+  "id": "A372326",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A033815",
+    "A048163",
+    "A267383",
+    "A370961",
+    "A372084"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

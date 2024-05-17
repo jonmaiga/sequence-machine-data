@@ -7,13 +7,13 @@
     "A093683"
   ],
   "tags": [
-    "easy",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

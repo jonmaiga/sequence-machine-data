@@ -1,14 +1,18 @@
 {
   "description": "Pandigital emirps.",
   "id": "A159292",
-  "mentions": [],
+  "mentions": [
+    "A006567",
+    "A050288"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

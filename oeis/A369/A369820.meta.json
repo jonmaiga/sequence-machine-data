@@ -1,0 +1,16 @@
+{
+  "description": "Number of (undirected) Eulerian circuits on the complete graph K_{2n+1}.",
+  "id": "A369820",
+  "mentions": [
+    "A135388"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

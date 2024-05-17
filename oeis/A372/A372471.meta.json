@@ -1,0 +1,39 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the binary indices of the n-th prime number.",
+  "id": "A372471",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A001511",
+    "A005940",
+    "A014499",
+    "A019565",
+    "A023506",
+    "A029837",
+    "A029931",
+    "A035100",
+    "A048675",
+    "A048793",
+    "A056239",
+    "A070939",
+    "A071814",
+    "A096111",
+    "A191232",
+    "A230877",
+    "A231204",
+    "A272020",
+    "A372427",
+    "A372429",
+    "A372442"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

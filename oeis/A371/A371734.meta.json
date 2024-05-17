@@ -1,0 +1,45 @@
+{
+  "description": "Maximal length of a factorization of n into factors > 1 all having different sums of prime indices.",
+  "id": "A371734",
+  "mentions": [
+    "A000120",
+    "A000430",
+    "A001055",
+    "A001222",
+    "A002219",
+    "A035470",
+    "A038041",
+    "A056239",
+    "A080257",
+    "A112798",
+    "A279787",
+    "A296150",
+    "A305551",
+    "A321142",
+    "A321451",
+    "A321452",
+    "A321453",
+    "A321454",
+    "A321455",
+    "A321469",
+    "A322794",
+    "A326515",
+    "A326518",
+    "A326534",
+    "A336137",
+    "A357976",
+    "A371733",
+    "A371735",
+    "A371783",
+    "A371789",
+    "A371791"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

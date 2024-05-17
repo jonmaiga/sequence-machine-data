@@ -1,0 +1,22 @@
+{
+  "description": "Let n = Product_{j=1..k} p_j^e_j and gpf(n)! = Product_{j=1..k} p_j^f_j, where p_j = A000040(j) is the j-th prime and p_k = gpf(n) = A006530(n) is the greatest prime factor of n. a(n) is the numerator of the maximum of e_j/f_j.",
+  "id": "A371148",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A362333",
+    "A371149",
+    "A371150",
+    "A371151"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

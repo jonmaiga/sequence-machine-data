@@ -8,11 +8,12 @@
     "A278770"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 10,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,13 @@
 {
   "description": "Number of compositions of even natural numbers into 8 parts <= n.",
   "id": "A191495",
-  "mentions": [],
+  "mentions": [
+    "A036486",
+    "A171714",
+    "A191484",
+    "A191489",
+    "A191494"
+  ],
   "tags": [
     "easy",
     "formulas",

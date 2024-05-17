@@ -2,9 +2,6 @@
   "description": "Partial sums of Proth primes A080076.",
   "id": "A172243",
   "mentions": [
-    "A000040",
-    "A002253",
-    "A002256",
     "A080076"
   ],
   "tags": [

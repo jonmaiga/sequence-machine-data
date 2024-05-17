@@ -1,0 +1,17 @@
+{
+  "description": "Number of multiplex juggling cards with n balls and capacity 2.",
+  "id": "A370304",
+  "mentions": [
+    "A370306"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

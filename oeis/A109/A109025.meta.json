@@ -1,15 +1,19 @@
 {
-  "description": "5-almost primes (A014613) whose digit reversal is different and also has 5 prime factors (with multiplicity). \"Emirp Tsomla-5.\"",
+  "description": "Numbers that have exactly five prime factors counted with multiplicity (A014614) whose digit reversal is different and also has 5 prime factors (with multiplicity).",
   "id": "A109025",
   "mentions": [
     "A006567",
-    "A014613",
+    "A014614",
     "A097393",
     "A109018",
     "A109023",
     "A109024",
     "A109026",
-    "A109131"
+    "A109027",
+    "A109028",
+    "A109029",
+    "A109030",
+    "A109031"
   ],
   "tags": [
     "base",
@@ -18,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

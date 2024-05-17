@@ -2,11 +2,13 @@
   "description": "a(n) = 153*n + 18.",
   "id": "A139618",
   "mentions": [
+    "A008599",
     "A057145",
     "A139600"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

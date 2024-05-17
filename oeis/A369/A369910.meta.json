@@ -1,0 +1,17 @@
+{
+  "description": "Number of pairs (p,q) of partitions of n such that the set of parts in q is a proper subset of the set of parts in p.",
+  "id": "A369910",
+  "mentions": [
+    "A297388",
+    "A369704",
+    "A369707"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

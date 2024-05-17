@@ -10,12 +10,13 @@
     "A056005"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "joeis"
   }
 }

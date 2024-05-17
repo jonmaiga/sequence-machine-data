@@ -1,13 +1,18 @@
 {
-  "description": "Number of 3^m between 5^n and 5^(n+1).",
+  "description": "Number of integers m such that 5^n < 3^m < 5^(n+1).",
   "id": "A022927",
-  "mentions": [],
+  "mentions": [
+    "A022922",
+    "A113209"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

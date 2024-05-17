@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of least prime signature (A025487) whose prime factorization has equal number of even and odd exponents.",
+  "id": "A371599",
+  "mentions": [
+    "A025487",
+    "A162641",
+    "A162642",
+    "A187039",
+    "A371600"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

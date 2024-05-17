@@ -1,17 +1,22 @@
 {
-  "description": "Primes greater than 2 that divide the numerator of the sum of the reciprocals of all smaller primes.",
+  "description": "Primes that divide the numerator of the sum of the reciprocals of all smaller primes.",
   "id": "A293457",
   "mentions": [
+    "A000040",
+    "A000720",
     "A024451",
-    "A120289"
+    "A120289",
+    "A369972",
+    "A369973"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

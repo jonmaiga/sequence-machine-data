@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of the two divisors of a semiprime, smallest divisor first.",
+  "description": "Concatenation of the two prime divisors of a semiprime, smallest divisor first.",
   "id": "A106554",
   "mentions": [
     "A001358",

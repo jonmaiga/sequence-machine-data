@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors of n that are numbers whose number of divisors is a power of 2.",
+  "id": "A372380",
+  "mentions": [
+    "A000005",
+    "A005117",
+    "A036537",
+    "A061389",
+    "A322483",
+    "A372379"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

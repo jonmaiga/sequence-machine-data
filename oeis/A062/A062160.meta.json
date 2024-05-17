@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n,k) = (n^k - (-1)^k)/(n+1), n >= 0, k >= 0, read by antidiagonals.",
+  "description": "Square array T(n,k) = (n^k - (-1)^k)/(n+1), n >= 0, k >= 0, read by falling antidiagonals.",
   "id": "A062160",
   "mentions": [
     "A000004",

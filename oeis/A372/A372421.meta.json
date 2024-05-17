@@ -1,0 +1,22 @@
+{
+  "description": "Number of steps required to kill the hydra in a version of the hydra game (see comments) where the rightmost head is chopped off in each step and new heads are grown to the left.",
+  "id": "A372421",
+  "mentions": [
+    "A000217",
+    "A006894",
+    "A007501",
+    "A180368",
+    "A370615",
+    "A372101",
+    "A372593"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

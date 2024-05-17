@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that the Mersenne number 2^m - 1 is a de Polignac number (A006285).",
+  "id": "A369375",
+  "mentions": [
+    "A000225",
+    "A000668",
+    "A006285",
+    "A101036",
+    "A138290",
+    "A208083",
+    "A232565",
+    "A369378"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

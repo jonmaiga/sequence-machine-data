@@ -1,7 +1,9 @@
 {
   "description": "Partial sums of periods of reciprocals.",
   "id": "A092280",
-  "mentions": [],
+  "mentions": [
+    "A051626"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 2,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

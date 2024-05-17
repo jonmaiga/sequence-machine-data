@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n = concat(a,b) such that sigma(n) = sigma(a) * sigma(b), where sigma = A000203.",
+  "description": "Numbers k = concat(a,b) such that sigma(k) = sigma(a) * sigma(b), where sigma = A000203.",
   "id": "A147616",
   "mentions": [
     "A000203",

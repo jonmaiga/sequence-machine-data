@@ -1,10 +1,15 @@
 {
   "description": "Continued fraction for sqrt(362).",
   "id": "A040342",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A041684",
+    "A041685"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

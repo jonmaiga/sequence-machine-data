@@ -1,7 +1,9 @@
 {
-  "description": "Floor( Sqrt( p * (p+2) / 2)) where p is the lesser of the twin primes.",
+  "description": "a(n) = floor( sqrt( p * (p+2) / 2)) where p is the lesser of the twin primes.",
   "id": "A076651",
-  "mentions": [],
+  "mentions": [
+    "A001359"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that A231589(n) = floor(n*(n-1)/4) - n.",
+  "description": "Integers k such that A231589(k) = floor(k*(k-1)/4) - k.",
   "id": "A231791",
   "mentions": [
     "A002144",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

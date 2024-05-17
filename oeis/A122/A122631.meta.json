@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = gpf(2*prime(a(n-1))+prime(a(n))) where gpf = greatest prime factor, with a(0)=1, a(1)=2.",
+  "description": "a(n+1) = gpf(2*prime(a(n-1)) + prime(a(n))) where gpf = greatest prime factor, with a(0)=1, a(1)=2.",
   "id": "A122631",
   "mentions": [
     "A006530"

@@ -1,0 +1,21 @@
+{
+  "description": "Draw a regular n-gon and the enclosing circle, then for each pair of vertices X, Y, draw a circle with diameter XY; the union of these figures is the graph H_n; sequence gives number of regions in H_n.",
+  "id": "A370978",
+  "mentions": [
+    "A358746",
+    "A358782",
+    "A358783",
+    "A370976",
+    "A370977",
+    "A370979"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

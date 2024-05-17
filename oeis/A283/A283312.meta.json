@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest missing positive number, unless a(n-1) was a prime in which case a(n)=2*a(n-1).",
+  "description": "a(n) = smallest missing positive number, unless a(n-1) was a prime in which case a(n) = 2*a(n-1).",
   "id": "A283312",
   "mentions": [
     "A001747",

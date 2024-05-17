@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array T, read by rows: T(n,k) = number of sums |x-y| + |y-z| - |x-z| = 2n-2-k, where x,y,z are in {1,2,...,n}.",
+  "id": "A368522",
+  "mentions": [
+    "A000578",
+    "A001105",
+    "A084990",
+    "A368521"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

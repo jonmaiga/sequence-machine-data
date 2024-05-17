@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of segments between n points on a circle so that they can be colored in 2 colors so that each of them intersects (at an internal point) at most one other segment of the same color.",
+  "id": "A369801",
+  "mentions": [
+    "A047452",
+    "A047461"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 58,
+    "source": "joeis"
+  }
+}

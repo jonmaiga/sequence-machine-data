@@ -1,0 +1,18 @@
+{
+  "description": "Number of dissections of a convex (4n+4)-sided polygon into n hexagons and one square (up to equivalence).",
+  "id": "A367872",
+  "mentions": [
+    "A118970",
+    "A174687",
+    "A185113"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

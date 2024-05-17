@@ -1,0 +1,42 @@
+{
+  "description": "Number of labeled simple graphs on n vertices with exactly one triangle.",
+  "id": "A372172",
+  "mentions": [
+    "A000088",
+    "A000272",
+    "A001858",
+    "A002494",
+    "A005195",
+    "A006125",
+    "A006129",
+    "A054548",
+    "A105784",
+    "A121251",
+    "A137916",
+    "A213434",
+    "A263340",
+    "A370167",
+    "A372167",
+    "A372168",
+    "A372169",
+    "A372170",
+    "A372171",
+    "A372173",
+    "A372174",
+    "A372176",
+    "A372192",
+    "A372193",
+    "A372194",
+    "A372195"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

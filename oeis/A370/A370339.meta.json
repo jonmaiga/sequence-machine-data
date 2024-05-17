@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying A(x) = 1 / Product_{n>=1} cos(x^n*A(x)).",
+  "id": "A370339",
+  "mentions": [
+    "A000182",
+    "A000796",
+    "A370436"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

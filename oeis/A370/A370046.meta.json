@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest unused positive number whose binary value is a substring of the binary value of the sum of all previous terms.",
+  "id": "A370046",
+  "mentions": [
+    "A317788",
+    "A333410",
+    "A363186",
+    "A369899"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

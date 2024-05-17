@@ -1,5 +1,5 @@
 {
-  "description": "Differences between the prime-counting function and Gauss's approximation.",
+  "description": "Differences between the prime-counting function and Gauss's approximation for number of primes < 10^n.",
   "id": "A106313",
   "mentions": [
     "A006880",
@@ -11,12 +11,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

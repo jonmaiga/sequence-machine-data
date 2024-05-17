@@ -1,0 +1,22 @@
+{
+  "description": "Odd bisection of A371094.",
+  "id": "A372351",
+  "mentions": [
+    "A371094",
+    "A371100",
+    "A372282",
+    "A372290",
+    "A372291",
+    "A372292",
+    "A372293"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

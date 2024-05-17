@@ -2,6 +2,7 @@
   "description": "Number of vertex cuts in the n-gear graph.",
   "id": "A362516",
   "mentions": [
+    "A206776",
     "A286188"
   ],
   "tags": [

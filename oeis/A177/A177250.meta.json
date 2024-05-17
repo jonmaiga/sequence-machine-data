@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k adjacent 3-cycles (0 <= k <= floor(n/3)), i.e., no cycles of the form (i, i+1, i+2).",
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k adjacent 3-cycles (0 <= k <= floor(n/3)), i.e., having k cycles of the form (i, i+1, i+2).",
   "id": "A177250",
   "mentions": [
     "A000142",
@@ -9,7 +9,10 @@
     "A177249",
     "A177251",
     "A177252",
-    "A177253"
+    "A177253",
+    "A370525",
+    "A370528",
+    "A370530"
   ],
   "tags": [
     "formulas",
@@ -18,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 43,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

@@ -2,12 +2,15 @@
   "description": "Number of moduli m such that (prime(n) mod m) = 3.",
   "id": "A244798",
   "mentions": [
+    "A070824",
+    "A086801",
     "A244740",
     "A244796",
     "A244797"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

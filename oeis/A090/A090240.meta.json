@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n which occur as the harmonic mean of the divisors of m for some m.",
+  "description": "Numbers which occur as the harmonic mean of the divisors of m for some m.",
   "id": "A090240",
   "mentions": [
     "A000005",
+    "A000043",
     "A000203",
     "A001599",
     "A001600",
@@ -11,7 +12,8 @@
     "A090760",
     "A090761",
     "A090762",
-    "A091911"
+    "A091911",
+    "A157849"
   ],
   "tags": [
     "nonn"

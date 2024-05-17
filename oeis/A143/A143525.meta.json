@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the number of divisors of (A005179(n)-1), where A005179(n) is the smallest positive integer with n divisors.",
+  "description": "a(n) is the number of divisors of (A005179(n)-1), where A005179(n) is the smallest positive integer with n divisors.",
   "id": "A143525",
   "mentions": [
     "A000005",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 2,
     "size": 85,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

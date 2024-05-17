@@ -1,10 +1,15 @@
 {
   "description": "Continued fraction for sqrt(530).",
   "id": "A040506",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A042012",
+    "A042013"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "less",
     "nonn"
   ],

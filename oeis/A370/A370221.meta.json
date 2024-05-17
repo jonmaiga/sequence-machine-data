@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: row n lists the values encoding a permutation (see comments) related to the properly nested string of parentheses encoded by A063171(n).",
+  "id": "A370221",
+  "mentions": [
+    "A000108",
+    "A063171",
+    "A072643",
+    "A370219",
+    "A370220",
+    "A370222",
+    "A370291"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

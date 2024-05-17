@@ -1,0 +1,26 @@
+{
+  "description": "The number of infinitary divisors of the smallest number k such that k*n is a number whose number of divisors is a power of 2 (A036537).",
+  "id": "A372331",
+  "mentions": [
+    "A023416",
+    "A036537",
+    "A037445",
+    "A064379",
+    "A077609",
+    "A080100",
+    "A370077",
+    "A370080",
+    "A372328"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

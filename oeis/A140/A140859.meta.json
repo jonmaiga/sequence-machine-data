@@ -1,14 +1,17 @@
 {
-  "description": "Border-domination number of queen's graph for n X n board.",
+  "description": "Border-domination number of queen graph for n X n board.",
   "id": "A140859",
-  "mentions": [],
+  "mentions": [
+    "A075458"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

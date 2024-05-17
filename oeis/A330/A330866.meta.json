@@ -2,7 +2,10 @@
   "description": "a(n) = Sum_{d|n, d",
   "id": "A330866",
   "mentions": [
-    "A001065"
+    "A000005",
+    "A000203",
+    "A001065",
+    "A065608"
   ],
   "tags": [
     "easy",
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

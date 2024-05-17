@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n - 13, n + 1, n + 5, n + 7, and n + 13 are all prime.",
+  "description": "Numbers k such that k - 13, k + 1, k + 5, k + 7, and k + 13 are all prime.",
   "id": "A281937",
   "mentions": [],
   "tags": [

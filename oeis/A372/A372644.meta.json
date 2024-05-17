@@ -1,0 +1,15 @@
+{
+  "description": "For n >= 1, a(n) is the least k >= 1 such that for some x >= 1, n^2 - k^2 = x^3 or a(n) = -1 if no such k exists.",
+  "id": "A372644",
+  "mentions": [
+    "A070745"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of achiral noncrossing partitions composed of n blocks of size 4.",
+  "id": "A369930",
+  "mentions": [
+    "A369929"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

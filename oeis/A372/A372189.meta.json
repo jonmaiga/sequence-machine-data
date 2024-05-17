@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms of A372186 that do not exceed 10^n.",
+  "id": "A372189",
+  "mentions": [
+    "A002997",
+    "A036060",
+    "A126797",
+    "A372186",
+    "A372190"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

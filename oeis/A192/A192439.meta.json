@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1) - a(n-2) is n is prime or a(n-1) + a(n-2) otherwise. a(1) = a(2) = 1.",
+  "description": "a(n) = a(n-1) - a(n-2) if n is prime or a(n-1) + a(n-2) otherwise. a(1) = a(2) = 1.",
   "id": "A192439",
   "mentions": [
     "A000045",

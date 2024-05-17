@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = arithmetic derivative of ((A002110(n) + A002110(k)) / A002110(k)), 1 <= k <= n.",
+  "id": "A370136",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A370129",
+    "A370135"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

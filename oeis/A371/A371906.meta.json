@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum of 2^(k-1) such that floor(n/prime(k)) is odd.",
+  "id": "A371906",
+  "mentions": [
+    "A008336",
+    "A260850",
+    "A372000"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

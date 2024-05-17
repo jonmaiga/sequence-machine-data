@@ -1,7 +1,8 @@
 {
-  "description": "Even numbers n such that there is only one beta-stable nuclide with mass number n.",
+  "description": "Even mass numbers with only one beta-stable isobar.",
   "id": "A368861",
   "mentions": [
+    "A367461",
     "A368859",
     "A368860"
   ],

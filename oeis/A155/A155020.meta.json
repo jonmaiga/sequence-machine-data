@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*a(n-1) + 2*a(n-2) for n>2, a(0)=1, a(1)=1, a(2)=3.",
+  "description": "a(n) = 2*a(n-1) + 2*a(n-2) for n > 2, a(0)=1, a(1)=1, a(2)=3.",
   "id": "A155020",
   "mentions": [
     "A000045",

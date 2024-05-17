@@ -1,0 +1,15 @@
+{
+  "description": "Related to packing density of arrangements of down facing T polyominoes with 4 cells.",
+  "id": "A372096",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

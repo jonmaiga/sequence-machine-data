@@ -1,0 +1,19 @@
+{
+  "description": "Exponents k > 0 of powers of 2 such that the decimal expansion of 2^k contains more than one 666 substring (overlapping substrings are counted as distinct).",
+  "id": "A371808",
+  "mentions": [
+    "A007356",
+    "A371806",
+    "A371809"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

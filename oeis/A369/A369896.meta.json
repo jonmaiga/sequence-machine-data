@@ -1,0 +1,15 @@
+{
+  "description": "Positive integers k such that k = a/(b+c) + b/(a+c) + c/(a+b) for some positive integers a, b and c.",
+  "id": "A369896",
+  "mentions": [
+    "A283564"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Squared volumes of tetrahedra with integer edge lengths, multiplied by 144.",
+  "id": "A371071",
+  "mentions": [
+    "A097125",
+    "A208454",
+    "A371070",
+    "A371072",
+    "A371344"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

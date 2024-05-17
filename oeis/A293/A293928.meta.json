@@ -1,5 +1,5 @@
 {
-  "description": "Totients having one or more solutions to phi(m)^(k+1) = phi(phi(m)^k*m), k >= 1, m >= 1.",
+  "description": "Totients phi(m) having one or more solutions to phi(m)^(k+1) = phi(phi(m)^k*m), k >= 1, m >= 1.",
   "id": "A293928",
   "mentions": [
     "A000010",
@@ -7,7 +7,8 @@
     "A006511",
     "A007366",
     "A032447",
-    "A068997"
+    "A068997",
+    "A151999"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled Laman graphs on n vertices of degree at most 4.",
+  "id": "A371901",
+  "mentions": [
+    "A121941",
+    "A227117",
+    "A273468",
+    "A306420",
+    "A328060",
+    "A328061"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n!^2 * [x^n] polylog(2,x)^4.",
+  "id": "A370226",
+  "mentions": [
+    "A302827",
+    "A370225"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of squares such that any two consecutive digits of their base-n expansions differ by 1 after arranging the digits in decreasing order.",
+  "id": "A370370",
+  "mentions": [
+    "A215014",
+    "A258103",
+    "A370362",
+    "A370369",
+    "A370371",
+    "A370610",
+    "A370611"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

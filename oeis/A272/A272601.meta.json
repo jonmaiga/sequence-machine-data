@@ -1,5 +1,5 @@
 {
-  "description": "Composite n such that p-1 does not divide n-1 for at least one prime divisor of n-1.",
+  "description": "Composites n such that p-1 does not divide n-1 for at least one prime divisor of n-1.",
   "id": "A272601",
   "mentions": [
     "A272600"

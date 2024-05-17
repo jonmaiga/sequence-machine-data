@@ -2,10 +2,15 @@
   "description": "Non-balanced numbers in A015771.",
   "id": "A078549",
   "mentions": [
-    "A000005",
     "A000010",
+    "A000203",
+    "A013961",
     "A015771",
     "A020492",
+    "A074866",
+    "A074868",
+    "A077801",
+    "A077803",
     "A078539",
     "A078544",
     "A078550"
@@ -17,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

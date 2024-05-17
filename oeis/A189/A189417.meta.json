@@ -2,6 +2,7 @@
   "description": "Number of kites on an n X n grid (or geoboard).",
   "id": "A189417",
   "mentions": [
+    "A181946",
     "A189413",
     "A189414"
   ],
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

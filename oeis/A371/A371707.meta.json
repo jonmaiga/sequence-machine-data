@@ -1,0 +1,17 @@
+{
+  "description": "Constant r > 0 satisfying: Sum_{n>=0} (r^n + 2*Pi*i)^n/n! = C + i*S such that C^2 + S^2 = 1.",
+  "id": "A371707",
+  "mentions": [
+    "A326600"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,10 @@
 {
-  "description": "Indices n where A109890(n) is prime.",
+  "description": "Indices k where A109890(k) is prime.",
   "id": "A111238",
   "mentions": [
-    "A109890"
+    "A109890",
+    "A111239",
+    "A111240"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

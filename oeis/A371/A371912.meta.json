@@ -1,0 +1,20 @@
+{
+  "description": "Maximum Zagreb index of maximal 3-degenerate graphs with n vertices.",
+  "id": "A371912",
+  "mentions": [
+    "A002378",
+    "A046691",
+    "A060577",
+    "A152811"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^k /(k^2 + 1)!.",
+  "id": "A371506",
+  "mentions": [
+    "A371507"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

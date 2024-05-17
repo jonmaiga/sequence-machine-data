@@ -1,5 +1,5 @@
 {
-  "description": "Even indexed Chebyshev U-polynomials evaluated at sqrt(11)/2.",
+  "description": "Even-indexed Chebyshev U-polynomials evaluated at sqrt(11)/2.",
   "id": "A057081",
   "mentions": [
     "A001834",

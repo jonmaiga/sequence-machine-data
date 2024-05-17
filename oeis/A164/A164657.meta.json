@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of partial sums of Theta(5) = sum(1/(2*j-1)^5, j=1..infinity).",
+  "description": "Denominators of partial sums of Theta(5) = Sum_{j>=1} 1/(2*j-1)^5.",
   "id": "A164657",
   "mentions": [
     "A164656"

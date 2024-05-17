@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic prime numbers that consist only of the digits {0,1,6,8,9} and which remain palindromic primes when their digits are rotated by 180 degrees.",
+  "id": "A370447",
+  "mentions": [
+    "A002385",
+    "A007597",
+    "A178316"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

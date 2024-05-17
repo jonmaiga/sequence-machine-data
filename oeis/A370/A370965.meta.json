@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of \"weakly lonesum\" n X n X n tensors.",
+  "id": "A370965",
+  "mentions": [
+    "A370962",
+    "A370963",
+    "A370964"
+  ],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

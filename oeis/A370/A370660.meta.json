@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that (7^k + 7*k)/7 is prime.",
+  "id": "A370660",
+  "mentions": [
+    "A221909",
+    "A226199",
+    "A370190",
+    "A370657",
+    "A370661"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,6 @@
   "description": "a(n) = pi(n) + n, where pi(n) = A000720(n) is the number of primes <= n.",
   "id": "A095117",
   "mentions": [
-    "A000027",
     "A000720",
     "A064427",
     "A095116",

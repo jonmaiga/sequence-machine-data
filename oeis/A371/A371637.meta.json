@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (-8)^k*binomial(2*n, 2*k)*Euler(2*k, 1/2).",
+  "id": "A371637",
+  "mentions": [
+    "A000079",
+    "A000364",
+    "A001105",
+    "A002939",
+    "A012816",
+    "A081658",
+    "A084938",
+    "A086645",
+    "A371683",
+    "A371684"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

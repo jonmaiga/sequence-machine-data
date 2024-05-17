@@ -2,6 +2,8 @@
   "description": "Let S_n = 0 followed by base-2 expansion of n, reversed; sequence is concatenation of S_0, S_1, S_2, ...",
   "id": "A234577",
   "mentions": [
+    "A007088",
+    "A234578",
     "A234585"
   ],
   "tags": [
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

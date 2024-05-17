@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically latest sequence of distinct nonnegative integers such that for any n >= 0, A371442(a(n)) = A371442(n).",
+  "id": "A371461",
+  "mentions": [
+    "A371442"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

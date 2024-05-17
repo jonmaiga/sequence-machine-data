@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = greatest m such that 2^m divides prime(n+1)*prime(n+2) - prime(n)*prime(n+3).",
+  "id": "A370455",
+  "mentions": [
+    "A007814",
+    "A117301",
+    "A117302"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Row sums of the Riordan matrix (1+x/sqrt(1-4*x),(1-sqrt(1-4*x))/2) (A189175).",
   "id": "A189176",
   "mentions": [
+    "A090181",
     "A189175"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 27,
     "source": "joeis"
   }
 }

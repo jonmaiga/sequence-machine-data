@@ -1,0 +1,20 @@
+{
+  "description": "Alternating sum of the k-adic valuations (ruler functions) of n.",
+  "id": "A369180",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A222171",
+    "A235127",
+    "A309891"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

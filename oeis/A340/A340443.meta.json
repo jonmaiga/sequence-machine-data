@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of zeta''(4), the second derivative of the Riemann Zeta Function at 4.",
+  "description": "Decimal expansion of zeta''(4), the second derivative of the Riemann zeta function at 4.",
   "id": "A340443",
   "mentions": [
     "A201994",

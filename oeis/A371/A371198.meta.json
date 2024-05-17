@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 + x^3 * log(1 - x - x^2)).",
+  "id": "A371198",
+  "mentions": [
+    "A371158",
+    "A371196",
+    "A371197"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

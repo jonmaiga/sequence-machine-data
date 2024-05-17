@@ -1,0 +1,21 @@
+{
+  "description": "The number of divisors of the numbers whose number of divisors is a power of 2 (A036537).",
+  "id": "A372468",
+  "mentions": [
+    "A000005",
+    "A036537",
+    "A037445",
+    "A372469",
+    "A372470"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

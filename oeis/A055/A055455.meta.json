@@ -1,15 +1,20 @@
 {
-  "description": "T(n,n-5), array T as in A055450.",
+  "description": "a(n) = A055450(n, n-5).",
   "id": "A055455",
   "mentions": [
-    "A055450"
+    "A055450",
+    "A055451",
+    "A055452",
+    "A055453",
+    "A055454"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 5,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

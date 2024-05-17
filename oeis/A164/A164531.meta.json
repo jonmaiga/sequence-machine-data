@@ -2,14 +2,16 @@
   "description": "a(1)=1. a(n) = the smallest multiple of d(n) that is >= a(n-1), where d(n) = the number of positive divisors of n.",
   "id": "A164531",
   "mentions": [
+    "A000005",
     "A164530"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

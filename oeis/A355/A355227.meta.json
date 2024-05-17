@@ -2,7 +2,9 @@
   "description": "Irregular triangle read by rows where T(n,k) is the number of independent sets of size k in the n-folded cube graph.",
   "id": "A355227",
   "mentions": [
-    "A058622"
+    "A058622",
+    "A290888",
+    "A355559"
   ],
   "tags": [
     "nonn",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of induced subgraphs, up to isomorphism, of the hypercube graph of dimension n.",
+  "id": "A369996",
+  "mentions": [
+    "A000616",
+    "A369995",
+    "A369998"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

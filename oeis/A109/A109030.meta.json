@@ -1,5 +1,5 @@
 {
-  "description": "10-almost primes (A046314) whose digit reversal is different and also has 10 prime factors (with multiplicity). \"Emirp Tsomla-10.\".",
+  "description": "Numbers that have exactly ten prime factors counted with multiplicity (A046314) whose digit reversal is different and also has 10 prime factors (with multiplicity).",
   "id": "A109030",
   "mentions": [
     "A006567",
@@ -13,8 +13,7 @@
     "A109027",
     "A109028",
     "A109029",
-    "A109031",
-    "A109131"
+    "A109031"
   ],
   "tags": [
     "base",
@@ -23,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

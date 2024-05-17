@@ -1,0 +1,14 @@
+{
+  "description": "Minimum number of curves of length 1 required to form a convex perimeter around n non-overlapping unit circles.",
+  "id": "A370007",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

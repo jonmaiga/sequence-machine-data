@@ -1,5 +1,5 @@
 {
-  "description": "Sequence A154694 adjusted to leading one:t(n,m)=A154694(n,m)-A154694(n,0)+1",
+  "description": "Triangle read by rows: T(n,m)=A154694(n,m)-A154694(n,0)+1.",
   "id": "A174673",
   "mentions": [
     "A154690",
@@ -10,9 +10,9 @@
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,

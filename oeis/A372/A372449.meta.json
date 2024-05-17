@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A000523(A372444(n)); One less than the length of binary expansion of the n-th iterate of 27 with A371094.",
+  "id": "A372449",
+  "mentions": [
+    "A000265",
+    "A000523",
+    "A371093",
+    "A371094",
+    "A372354",
+    "A372443",
+    "A372444",
+    "A372447",
+    "A372448"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

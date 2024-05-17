@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} floor(k*e^(Pi*sqrt(163/9)))/2^k.",
+  "id": "A372719",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A038152",
+    "A039661"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

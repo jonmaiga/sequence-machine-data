@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>=1} k^2 * x^(k^2) / (1 + x^k).",
+  "id": "A372625",
+  "mentions": [
+    "A064027",
+    "A066839",
+    "A078306",
+    "A095118",
+    "A321543",
+    "A321558",
+    "A348608"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

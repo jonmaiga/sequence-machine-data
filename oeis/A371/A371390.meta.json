@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that prime(k), prime(k+1), prime(k+2), prime(k+3) and prime(k+4) all have the same last digit.",
+  "id": "A371390",
+  "mentions": [
+    "A000040",
+    "A007652",
+    "A107730",
+    "A129750"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

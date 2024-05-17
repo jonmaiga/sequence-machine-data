@@ -1,0 +1,48 @@
+{
+  "description": "Numbers whose binary indices are connected and pairwise indivisible, where two numbers are connected iff they have a common factor. A hybrid ranking sequence for connected antichains of multisets.",
+  "id": "A371294",
+  "mentions": [
+    "A000120",
+    "A001187",
+    "A001222",
+    "A007718",
+    "A029931",
+    "A048143",
+    "A048793",
+    "A051026",
+    "A070939",
+    "A087086",
+    "A096111",
+    "A112798",
+    "A272020",
+    "A285572",
+    "A303362",
+    "A304713",
+    "A305078",
+    "A305079",
+    "A316476",
+    "A319496",
+    "A319719",
+    "A323818",
+    "A325118",
+    "A326704",
+    "A326749",
+    "A326750",
+    "A326964",
+    "A328671",
+    "A329559",
+    "A371291",
+    "A371445",
+    "A371446",
+    "A371452"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Neutron numbers with no beta-stable isotones of odd mass number.",
+  "id": "A370460",
+  "mentions": [
+    "A367461",
+    "A368856",
+    "A368859",
+    "A368860"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

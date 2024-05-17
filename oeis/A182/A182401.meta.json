@@ -2,12 +2,17 @@
   "description": "Number of paths from (0,0) to (n,0), never going below the x-axis, using steps U=(1,1), H=(1,0) and D=(1,-1), where the H steps come in five colors.",
   "id": "A182401",
   "mentions": [
+    "A000108",
+    "A001006",
     "A002212",
     "A005572",
+    "A025230",
     "A125906",
+    "A126120",
     "A257290"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

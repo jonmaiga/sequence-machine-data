@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(x*a(n-1)) for n > 0 where x = 3+sqrt(15), a(0) = 1.",
+  "id": "A370176",
+  "mentions": [
+    "A057089",
+    "A092294",
+    "A370174"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

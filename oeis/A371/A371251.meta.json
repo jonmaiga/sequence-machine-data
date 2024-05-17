@@ -1,0 +1,17 @@
+{
+  "description": "Number of genus 2 partitions of the set [3n] into n blocks of length 3.",
+  "id": "A371251",
+  "mentions": [
+    "A001764",
+    "A371250"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x/(3 - 2*exp(x)) ).",
+  "id": "A371008",
+  "mentions": [
+    "A371009"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

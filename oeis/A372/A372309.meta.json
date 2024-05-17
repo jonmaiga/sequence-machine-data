@@ -1,0 +1,24 @@
+{
+  "description": "The smallest number whose prime factor concatenation, when written in base n, contains all digits 0,1,...,(n-1).",
+  "id": "A372309",
+  "mentions": [
+    "A027746",
+    "A058760",
+    "A058909",
+    "A185122",
+    "A371958",
+    "A371993",
+    "A372249"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

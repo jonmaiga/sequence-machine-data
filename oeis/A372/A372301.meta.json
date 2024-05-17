@@ -1,0 +1,17 @@
+{
+  "description": "Erasing the digits that are not at the extremities of a(n) does not change the general succession of the sequence's digits. The sequence starts with a(1) = 99.",
+  "id": "A372301",
+  "mentions": [
+    "A127204",
+    "A127274"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

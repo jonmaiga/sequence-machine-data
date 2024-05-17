@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the fixed point c = S(c) of S(x) = Sum_{k>=1} (prime(k) - x) / Product_{i=1..k-1} prime(i).",
+  "id": "A368497",
+  "mentions": [
+    "A000040",
+    "A064648",
+    "A249270",
+    "A340469",
+    "A341930"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

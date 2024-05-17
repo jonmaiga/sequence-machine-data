@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n > 0, a(n-1) + a(n) is a multiple of n, and the least value not yet in the sequence appears as soon as possible.",
+  "id": "A371214",
+  "mentions": [
+    "A099506",
+    "A367288",
+    "A371215"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

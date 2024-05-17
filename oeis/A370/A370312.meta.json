@@ -1,0 +1,15 @@
+{
+  "description": "Number of chordless cycles in the n-middle layer graph.",
+  "id": "A370312",
+  "mentions": [],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose divisors can be partitioned into two disjoint sets without singletons whose arithmetic means are integers in a record number of ways.",
+  "description": "Numbers k delivering the records in the number of partitions of divisors of k into two sets of size > 1 with an integer arithmetic mean in each set.",
   "id": "A348719",
   "mentions": [
     "A348716",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

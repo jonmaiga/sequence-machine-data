@@ -2,7 +2,8 @@
   "description": "a(n) = 3^n - 2*n.",
   "id": "A186948",
   "mentions": [
-    "A186947"
+    "A186947",
+    "A186949"
   ],
   "tags": [
     "easy",

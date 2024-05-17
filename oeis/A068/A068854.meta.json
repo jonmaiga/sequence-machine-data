@@ -2,6 +2,7 @@
   "description": "a(1) = 1; a(n) is the smallest square > a(n-1) which differs from it at every digit.",
   "id": "A068854",
   "mentions": [
+    "A000290",
     "A068853"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the minimum value of k > 0 such that A075860(n) = A075860(n+k) with n > 1.",
+  "id": "A369558",
+  "mentions": [
+    "A075860"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

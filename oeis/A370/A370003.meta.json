@@ -1,0 +1,17 @@
+{
+  "description": "Least number of vertices of a universal graph for connected n-vertex graphs, i.e., a graph containing as induced subgraphs isomorphic copies of all connected n-vertex graphs.",
+  "id": "A370003",
+  "mentions": [
+    "A097911",
+    "A370002"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

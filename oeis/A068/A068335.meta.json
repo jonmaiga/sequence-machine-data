@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3^tau(n)<=n",
+  "description": "Numbers k such that 3^tau(k) <= k < 2*3^tau(k).",
   "id": "A068335",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

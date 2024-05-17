@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that cannot be the larger leg of an integer right triangle.",
+  "description": "Numbers that cannot be a long leg of an integer right triangle.",
   "id": "A074235",
   "mentions": [
     "A009012",

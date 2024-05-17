@@ -1,0 +1,17 @@
+{
+  "description": "Number of non-isomorphic set multipartitions (multisets of sets) of weight n without endpoints or singletons.",
+  "id": "A369926",
+  "mentions": [
+    "A321677",
+    "A330055",
+    "A369927"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

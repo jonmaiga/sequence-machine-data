@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the dimension of the multilinear part of the free flexible Lie-admissible algebra with n generators.",
+  "id": "A370677",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

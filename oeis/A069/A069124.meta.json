@@ -1,7 +1,9 @@
 {
   "description": "Pseudo-Latin stable matchings.",
   "id": "A069124",
-  "mentions": [],
+  "mentions": [
+    "A371810"
+  ],
   "tags": [
     "more",
     "nonn"

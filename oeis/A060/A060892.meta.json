@@ -1,5 +1,5 @@
 {
-  "description": "n^8-n^6+n^4-n^2+1.",
+  "description": "a(n) = n^8 - n^6 + n^4 - n^2 + 1.",
   "id": "A060892",
   "mentions": [],
   "tags": [

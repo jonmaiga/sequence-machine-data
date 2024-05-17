@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the greatest prime less than 3*prime(n).",
+  "id": "A370008",
+  "mentions": [
+    "A000040",
+    "A001748",
+    "A059786",
+    "A059788",
+    "A370009"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

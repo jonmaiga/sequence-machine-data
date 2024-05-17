@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1-x)/(1-16x).",
+  "description": "Expansion of (1-x)/(1-16x).",
   "id": "A090411",
   "mentions": [
     "A001025",

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 1 if n is not multiple of 3, but its arithmetic derivative is, otherwise 0.",
+  "id": "A369658",
+  "mentions": [
+    "A003415",
+    "A007352",
+    "A011655",
+    "A079978",
+    "A096629",
+    "A353557",
+    "A359430",
+    "A360109",
+    "A369252",
+    "A369643",
+    "A369653",
+    "A369659",
+    "A369968"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

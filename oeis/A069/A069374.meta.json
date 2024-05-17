@@ -1,5 +1,5 @@
 {
-  "description": "16 X n binary arrays with a path of adjacent 1's from top row to bottom row.",
+  "description": "Number of 16 X n binary arrays with a path of adjacent 1's from top row to bottom row.",
   "id": "A069374",
   "mentions": [
     "A000225",
@@ -21,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
-    "source": "oeis-entry"
+    "size": 9,
+    "source": "joeis"
   }
 }

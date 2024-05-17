@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of primes p <= prime(n) with Delta(p) == 2 mod 4, where Delta(p) = nextprime(p) - p.",
+  "description": "a(n) = number of primes p <= prime(n) with Delta(p) == 2 (mod 4), where Delta(p) = nextprime(p) - p.",
   "id": "A330560",
   "mentions": [
     "A001223",
@@ -7,6 +7,9 @@
     "A080378",
     "A104120",
     "A330556",
+    "A330557",
+    "A330558",
+    "A330559",
     "A330561"
   ],
   "tags": [

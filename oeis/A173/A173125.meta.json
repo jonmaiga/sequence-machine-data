@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=floor[n/2] mod 5} C(n,k).",
+  "description": "a(n) = Sum_{k == floor(n/2) (mod 5)} C(n,k).",
   "id": "A173125",
   "mentions": [
     "A000045",

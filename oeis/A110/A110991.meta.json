@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of Zeta(Zeta(8)).",
   "id": "A110991",
-  "mentions": [],
+  "mentions": [
+    "A013666"
+  ],
   "tags": [
     "cons",
     "easy",
@@ -9,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 3,
     "size": 99,
     "source": "oeis-entry"
   }

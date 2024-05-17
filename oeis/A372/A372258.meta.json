@@ -1,0 +1,18 @@
+{
+  "description": "An infinite sequence over {0,1} with no palindromes of length > 12.",
+  "id": "A372258",
+  "mentions": [
+    "A014707",
+    "A372257"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

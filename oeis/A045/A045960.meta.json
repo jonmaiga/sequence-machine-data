@@ -2,6 +2,7 @@
   "description": "Palindromic even lucky numbers.",
   "id": "A045960",
   "mentions": [
+    "A002113",
     "A045954"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

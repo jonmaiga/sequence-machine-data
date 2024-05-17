@@ -1,16 +1,18 @@
 {
-  "description": "a(1)=1; for n>1, a(n) is the smallest number > a(n-1) such that a(1) + a(2) +...+ a(n) is a composite number.",
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest number > a(n-1) such that a(1) + a(2) + ... + a(n) is a composite number.",
   "id": "A233334",
   "mentions": [
     "A051935",
     "A056115"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

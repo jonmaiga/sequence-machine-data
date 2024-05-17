@@ -7,13 +7,12 @@
     "A227628"
   ],
   "tags": [
-    "more",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 52,
     "source": "oeis-entry"
   }
 }

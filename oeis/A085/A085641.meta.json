@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime == 1 mod(p*q*...k) where p, q, ...k are all the distinct prime divisors of n. Or, smallest prime == 1 (mod the largest squarefree divisor of n).",
+  "description": "Smallest prime == 1 (mod p*q*...*k) where p, q, ..., k are all the distinct prime divisors of n. Or, smallest prime == 1 (mod the largest squarefree divisor of n).",
   "id": "A085641",
   "mentions": [
     "A007947",

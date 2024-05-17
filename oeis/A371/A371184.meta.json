@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. (1 + x^3 + x^4)^x.",
+  "id": "A371184",
+  "mentions": [
+    "A371160"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

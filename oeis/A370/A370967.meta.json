@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of max-closed n X n X n relations.",
+  "id": "A370967",
+  "mentions": [
+    "A370966"
+  ],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

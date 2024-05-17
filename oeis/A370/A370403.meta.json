@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the first digit of a(n) is present in a(n+1) and the first letter of the English name of a(n) is present in the English name of a(n+1).",
+  "id": "A370403",
+  "mentions": [
+    "A370400",
+    "A370401",
+    "A370402",
+    "A370404",
+    "A370405"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

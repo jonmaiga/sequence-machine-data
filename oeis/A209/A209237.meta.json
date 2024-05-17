@@ -2,15 +2,18 @@
   "description": "Number of practical numbers not exceeding 2^n.",
   "id": "A209237",
   "mentions": [
-    "A005153"
+    "A005153",
+    "A214932",
+    "A322257",
+    "A327824"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

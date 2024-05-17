@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that are the sum of the final digits of the squarefree divisors of some positive integer.",
+  "id": "A371925",
+  "mentions": [
+    "A367503"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

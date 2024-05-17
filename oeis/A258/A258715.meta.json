@@ -2,11 +2,13 @@
   "description": "Decimal expansion of 2*Sum_{k>=0} 1/Product_{i=0..k} (2^(2^i) - 1).",
   "id": "A258715",
   "mentions": [
+    "A215016",
     "A258714",
     "A258716"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

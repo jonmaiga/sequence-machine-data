@@ -1,0 +1,39 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n that can be partitioned into k multisets with equal sums (k-quanimous).",
+  "id": "A371954",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A002219",
+    "A002220",
+    "A002221",
+    "A002222",
+    "A006827",
+    "A035470",
+    "A064914",
+    "A237258",
+    "A321142",
+    "A321451",
+    "A321452",
+    "A321453",
+    "A321454",
+    "A321455",
+    "A357976",
+    "A365543",
+    "A371783",
+    "A371789",
+    "A371795",
+    "A371796",
+    "A371955",
+    "A372121"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=10*a(n-1)+/- n",
+  "description": "a(n) = 10*a(n-1) - (-1)^n * n, a(1) = 1.",
   "id": "A179980",
   "mentions": [
     "A007908",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 21,
     "source": "joeis"
   }
 }

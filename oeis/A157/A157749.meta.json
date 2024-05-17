@@ -1,9 +1,10 @@
 {
-  "description": "Antidiagonal of a Golay code related matrix: H = Transpose[m].IdentityMatrix[11]",
+  "description": "Triangle, see Mathematica code.",
   "id": "A157749",
   "mentions": [],
   "tags": [
-    "formulas",
+    "fini",
+    "less",
     "nonn",
     "tabl",
     "uned"

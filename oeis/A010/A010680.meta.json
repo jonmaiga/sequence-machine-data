@@ -1,7 +1,12 @@
 {
   "description": "Decimal expansion of 1/11.",
   "id": "A010680",
-  "mentions": [],
+  "mentions": [
+    "A000004",
+    "A000035",
+    "A010674",
+    "A010734"
+  ],
   "tags": [
     "cons",
     "easy",
@@ -10,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 81,
+    "size": 104,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least integer k>=0 such that n=Floor[(5^j)/(2^k)] for some integer j>=0.",
+  "description": "a(n) = least integer k>=0 such that n = floor((5^j)/(2^k)) for some integer j>=0.",
   "id": "A124919",
   "mentions": [
     "A124911"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

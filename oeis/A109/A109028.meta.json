@@ -1,5 +1,5 @@
 {
-  "description": "8-almost primes (A046310) whose digit reversal is different and also has 8 prime factors (with multiplicity). \"Emirp Tsomla-8.\".",
+  "description": "Numbers that have exactly eight prime factors counted with multiplicity (A046310) whose digit reversal is different and also has 8 prime factors (with multiplicity).",
   "id": "A109028",
   "mentions": [
     "A006567",
@@ -12,7 +12,8 @@
     "A109026",
     "A109027",
     "A109029",
-    "A109131"
+    "A109030",
+    "A109031"
   ],
   "tags": [
     "base",
@@ -21,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

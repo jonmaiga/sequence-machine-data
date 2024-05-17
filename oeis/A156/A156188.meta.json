@@ -1,5 +1,5 @@
 {
-  "description": "A generalized recursion triangle sequence : m=5; e(n,k,n)=(k + m - 1)*e(n - 1, k, m) + (m*n - k + 1 - m)*e(n - 1, k - 1, m); t(n,k)=e(n,k,m)+e(n,n-k,m).",
+  "description": "Triangle: m=5; e(n,k,n)=(k + m - 1)*e(n - 1, k, m) + (m*n - k + 1 - m)*e(n - 1, k - 1, m); t(n,k)=e(n,k,m)+e(n,n-k,m).",
   "id": "A156188",
   "mentions": [
     "A008517",

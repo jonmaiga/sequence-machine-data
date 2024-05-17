@@ -1,5 +1,5 @@
 {
-  "description": "Carmichael numbers: composite numbers n such that a^(n-1) == 1 (mod n) for every a coprime to n.",
+  "description": "Carmichael numbers: composite numbers k such that a^(k-1) == 1 (mod k) for every a coprime to k.",
   "id": "A002997",
   "mentions": [
     "A000010",
@@ -45,7 +45,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

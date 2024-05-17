@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) is the difference between the number of k-dist-increasing and (k-1)-dist-increasing permutations of [n], where p is k-dist-increasing if k>=0 and p(i)=0, 0<=k<=n, read by rows.",
+  "id": "A370505",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000680",
+    "A001710",
+    "A014495",
+    "A057427",
+    "A248686",
+    "A248687",
+    "A370506",
+    "A370507",
+    "A370576"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

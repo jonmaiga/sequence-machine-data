@@ -2,7 +2,8 @@
   "description": "Carmichael numbers with a record number of aliquot divisors that are also Carmichael numbers.",
   "id": "A290497",
   "mentions": [
-    "A002997"
+    "A002997",
+    "A055553"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

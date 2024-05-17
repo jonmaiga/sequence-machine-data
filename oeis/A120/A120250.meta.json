@@ -1,17 +1,15 @@
 {
-  "description": "Denominator of cfenc[n] (see definition in comments).",
+  "description": "Denominator of cfenc(n) (see definition in comments).",
   "id": "A120250",
   "mentions": [
-    "A000040",
-    "A000045",
     "A120249",
     "A120251"
   ],
   "tags": [
     "formulas",
     "frac",
-    "hard",
-    "nonn"
+    "nonn",
+    "uned"
   ],
   "terms": {
     "offset": 1,

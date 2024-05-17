@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of the n-th partial sum of the generalized harmonic numbers A007406/A007407.",
+  "id": "A370774",
+  "mentions": [
+    "A007406",
+    "A007407",
+    "A120286"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

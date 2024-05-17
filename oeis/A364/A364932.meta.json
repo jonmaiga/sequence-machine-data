@@ -4,15 +4,17 @@
   "mentions": [
     "A000010",
     "A001615",
+    "A293713",
     "A364631"
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

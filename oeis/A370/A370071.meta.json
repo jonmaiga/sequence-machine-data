@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers such that some permutation of their digits is a perfect power.",
+  "id": "A370071",
+  "mentions": [
+    "A000045",
+    "A001597",
+    "A118715",
+    "A227875"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

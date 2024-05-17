@@ -1,5 +1,5 @@
 {
-  "description": "Absolute values of numerators of series expansion of cosh(x)/sqrt((cosh(x))^2+(sinh(x))^2) about 0 (even indexed coefficients only).",
+  "description": "Absolute values of numerators of series expansion of cosh(x)/sqrt((cosh(x))^2+(sinh(x))^2) about 0 (even-indexed coefficients only).",
   "id": "A128274",
   "mentions": [
     "A012085",

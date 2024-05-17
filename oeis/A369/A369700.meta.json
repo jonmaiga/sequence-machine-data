@@ -1,0 +1,19 @@
+{
+  "description": "Möbius transform of reduced totient function (A002322).",
+  "id": "A369700",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A007431",
+    "A008683"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

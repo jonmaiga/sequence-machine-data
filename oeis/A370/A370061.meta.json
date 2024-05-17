@@ -1,0 +1,16 @@
+{
+  "description": "Number of achiral dissections of a polygon into n hexagons by nonintersecting diagonals rooted at a cell.",
+  "id": "A370061",
+  "mentions": [
+    "A370060"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -6,13 +6,13 @@
     "A220434"
   ],
   "tags": [
+    "formulas",
     "frac",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

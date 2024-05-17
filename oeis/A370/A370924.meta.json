@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array, read by antidiagonals: row n consists of the numbers m whose ternary representation starts with 1 and has exactly n runs.",
+  "id": "A370924",
+  "mentions": [
+    "A007089",
+    "A043555",
+    "A132141",
+    "A370893",
+    "A370925"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

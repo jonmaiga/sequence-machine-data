@@ -1,10 +1,18 @@
 {
   "description": "Continued fraction for sqrt(257).",
   "id": "A040240",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A040002",
+    "A040012",
+    "A040056",
+    "A041480",
+    "A041481"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

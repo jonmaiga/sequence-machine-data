@@ -1,7 +1,9 @@
 {
   "description": "Number of essential graphs with n nodes (in 1-1 correspondence with Markov equivalence classes of acyclic digraphs).",
   "id": "A007984",
-  "mentions": [],
+  "mentions": [
+    "A368569"
+  ],
   "tags": [
     "nonn"
   ],

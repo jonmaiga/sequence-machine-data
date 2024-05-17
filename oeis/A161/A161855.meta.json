@@ -1,14 +1,16 @@
 {
   "description": "Cubes which are anagrams of primes.",
   "id": "A161855",
-  "mentions": [],
+  "mentions": [
+    "A000578"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

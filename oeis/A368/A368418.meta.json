@@ -1,5 +1,5 @@
 {
-  "description": "Numbers X such that X^2 + Y^2 = 10^(2*k) + 1, with X > Y and k is the decimal digit length of X-1.",
+  "description": "Numbers X such that X^2 + Y^2 = 10^(2*k) + 1, with X > Y > 0 and k is the decimal digit length of X-1.",
   "id": "A368418",
   "mentions": [
     "A098608",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

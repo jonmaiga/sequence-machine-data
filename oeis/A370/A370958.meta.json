@@ -1,0 +1,17 @@
+{
+  "description": "Normalized first differences of A125717.",
+  "id": "A370958",
+  "mentions": [
+    "A125717",
+    "A370957"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

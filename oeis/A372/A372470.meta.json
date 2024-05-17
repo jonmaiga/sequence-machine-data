@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative with a(p^e) = e+1 if e+1 is a power of 2, and 0 otherwise.",
+  "id": "A372470",
+  "mentions": [
+    "A000005",
+    "A036537",
+    "A359473",
+    "A372468"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

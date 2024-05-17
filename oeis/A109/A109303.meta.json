@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with at least one duplicate base-10 digit (A107846(n) > 0).",
+  "description": "Numbers k with at least one duplicate base-10 digit (A107846(k) > 0).",
   "id": "A109303",
   "mentions": [
     "A010784",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (25*10^n + 167) / 3 is prime.",
+  "description": "Numbers k such that (25*10^k + 167) / 3 is prime.",
   "id": "A276470",
   "mentions": [
     "A056654",

@@ -1,5 +1,5 @@
 {
-  "description": "Array read by rows: T(n,k) is the number of automorphisms of the k^th group of order n, where the ordering is such that the rows are nondecreasing.",
+  "description": "Array read by rows: T(n,k) is the number of automorphisms of the k-th group of order n, where the ordering is such that the rows are nondecreasing.",
   "id": "A137316",
   "mentions": [
     "A000001",

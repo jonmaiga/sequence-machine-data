@@ -2,15 +2,19 @@
   "description": "Number of primes in the interval (n,3n].",
   "id": "A074990",
   "mentions": [
+    "A000040",
+    "A000720",
+    "A010051",
     "A075699",
     "A108954"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

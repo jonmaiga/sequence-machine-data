@@ -2,14 +2,17 @@
   "description": "Numbers repeated except that powers of 2 only appear once.",
   "id": "A274089",
   "mentions": [
-    "A002960"
+    "A002960",
+    "A057716"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

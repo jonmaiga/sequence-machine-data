@@ -1,15 +1,16 @@
 {
-  "description": "Number of n X n 0..1 arrays with rows and antidiagonals unimodal and columns nondecreasing",
+  "description": "Number of n X n 0..1 arrays with rows and antidiagonals unimodal and columns nondecreasing.",
   "id": "A223832",
   "mentions": [
     "A223838"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

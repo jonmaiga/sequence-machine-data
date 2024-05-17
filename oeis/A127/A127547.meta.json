@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 13n + 4.",
+  "description": "a(n) = 13*n + 4.",
   "id": "A127547",
   "mentions": [
     "A092464",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

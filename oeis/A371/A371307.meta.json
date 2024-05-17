@@ -1,0 +1,19 @@
+{
+  "description": "The smallest nonpalindromic number in base n that shares the same prime divisors as its digit reversal in base n.",
+  "id": "A371307",
+  "mentions": [
+    "A027746",
+    "A110819",
+    "A372384",
+    "A372488"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

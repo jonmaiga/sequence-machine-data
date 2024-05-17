@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n of the form a_1*b_1^2 + a_2*b_2^2 + ...; number of semi-simple rings with n elements.",
+  "description": "Number of partitions of n of the form a_1*b_1^2 + a_2*b_2^2 + ...; number of semisimple rings with p^n elements for any prime p.",
   "id": "A004101",
   "mentions": [
     "A000688",

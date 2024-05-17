@@ -1,7 +1,9 @@
 {
   "description": "Number of facets of the Alternating Sign Matrix polytope ASM(n).",
   "id": "A128445",
-  "mentions": [],
+  "mentions": [
+    "A005130"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-entry"
   }
 }

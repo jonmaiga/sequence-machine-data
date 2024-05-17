@@ -1,5 +1,5 @@
 {
-  "description": "n!*((n+1)!)^2.",
+  "description": "a(n) = n!*((n+1)!)^2.",
   "id": "A224900",
   "mentions": [
     "A172492"

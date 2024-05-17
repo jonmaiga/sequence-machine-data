@@ -1,5 +1,5 @@
 {
-  "description": "Sum{k=1 to phi(n)-1} t(n,k)*t(n,k+1), where t(n,k) is the k-th positive integer which is coprime to n and phi(n) is the number of positive integers which are <= n and are coprime to n.",
+  "description": "a(n) = Sum_{k=1..phi(n)-1} t(n,k)*t(n,k+1), where t(n,k) is the k-th positive integer which is coprime to n and phi(n) is the number of positive integers which are <= n and are coprime to n.",
   "id": "A119584",
   "mentions": [
     "A120033"

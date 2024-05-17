@@ -2,16 +2,18 @@
   "description": "Number of permutations of [n] having no isolated entries. An entry j of a permutation p is isolated if it is not preceded by j-1 and not followed by j+1. For example, the permutation 23178564 has 2 isolated entries: 1 and 4.",
   "id": "A180564",
   "mentions": [
+    "A000142",
     "A000166",
-    "A180196"
+    "A180196",
+    "A184181"
   ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

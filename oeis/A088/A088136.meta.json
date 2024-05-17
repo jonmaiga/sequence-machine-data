@@ -2,7 +2,11 @@
   "description": "Primes such that sum of first and last digits is prime.",
   "id": "A088136",
   "mentions": [
+    "A000030",
     "A007953",
+    "A008040",
+    "A010051",
+    "A010879",
     "A046704",
     "A088133",
     "A088134",

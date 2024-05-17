@@ -1,5 +1,5 @@
 {
-  "description": "a(4n+k)=(k+1)*binomial(5n+k,n)/(4n+k+1), k=0,..3.",
+  "description": "a(4n+k) = (k+1)*binomial(5n+k,n)/(4n+k+1), k=0..3.",
   "id": "A118968",
   "mentions": [
     "A002294",

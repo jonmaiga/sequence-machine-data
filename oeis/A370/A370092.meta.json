@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1, a(n) = (-1)^n + (1/2) * Sum_{j=1..n} (1-(-1)^j-(-2)^j) * binomial(n,j) * a(n-j) for n > 0.",
+  "id": "A370092",
+  "mentions": [
+    "A000010",
+    "A000670",
+    "A370163",
+    "A370456"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Starting prime (and 1): where number of consecutive squares m^2 satisfy r=p+4*m^2, prime",
+  "description": "Starting prime (and 1): where number of consecutive squares m^2 satisfy r=p+4*m^2, prime.",
   "id": "A145897",
   "mentions": [
+    "A023200",
+    "A049492",
     "A145741",
     "A145896",
     "A145898"

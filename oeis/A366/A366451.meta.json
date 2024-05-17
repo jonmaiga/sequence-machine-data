@@ -1,0 +1,17 @@
+{
+  "description": "The sum s > n which has the greatest probability of occurring when summing rolls of an n-sided die.",
+  "id": "A366451",
+  "mentions": [
+    "A060644",
+    "A365443"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

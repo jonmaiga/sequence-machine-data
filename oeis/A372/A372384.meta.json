@@ -1,0 +1,22 @@
+{
+  "description": "The smallest composite number k such that the digits of k and its prime factors, both written in base n, contain the same set of distinct digits.",
+  "id": "A372384",
+  "mentions": [
+    "A000668",
+    "A027746",
+    "A035140",
+    "A035141",
+    "A371695",
+    "A372309"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

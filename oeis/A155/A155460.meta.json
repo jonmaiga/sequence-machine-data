@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=8*a(n-1)+49*a(n-2), n>2 ; a(0)=1, a(1)=1, a(2)=8 .",
+  "description": "a(n) = 8*a(n-1)+49*a(n-2), n>2 ; a(0)=1, a(1)=1, a(2)=8 .",
   "id": "A155460",
   "mentions": [],
   "tags": [

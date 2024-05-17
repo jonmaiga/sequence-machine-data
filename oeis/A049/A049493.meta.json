@@ -2,9 +2,11 @@
   "description": "Numbers n such that n and n+4^k are all primes for k=1,2,3.",
   "id": "A049493",
   "mentions": [
-    "A023200"
+    "A049490",
+    "A049492"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,12 +1,15 @@
 {
-  "description": "Number of dissectable polyhedra with symmetry of type D.",
+  "description": "Number of dissectable polyhedra with n tetrahedral cells and symmetry of type D.",
   "id": "A047773",
   "mentions": [
+    "A001764",
+    "A007173",
     "A027610",
     "A047749",
     "A047750",
     "A047751",
-    "A047764"
+    "A047764",
+    "A371351"
   ],
   "tags": [
     "formulas",

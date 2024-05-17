@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 60*n+41, 90*n+61 and 150*n+101 are all prime.",
+  "description": "Numbers k such that 60*k+41, 90*k+61 and 150*k+101 are all prime.",
   "id": "A255512",
   "mentions": [
     "A202113",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

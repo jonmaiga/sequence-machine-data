@@ -2,7 +2,9 @@
   "description": "Expansion of (1/x) * Series_Reversion( x * ((1-x)^2-x^2)^2 ).",
   "id": "A369510",
   "mentions": [
+    "A006013",
     "A151374",
+    "A153231",
     "A368961",
     "A369513"
   ],

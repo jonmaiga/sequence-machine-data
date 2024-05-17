@@ -1,8 +1,15 @@
 {
   "description": "a(n) = n^3 - 2*n^2 + 2.",
   "id": "A100109",
-  "mentions": [],
+  "mentions": [
+    "A000578",
+    "A001093",
+    "A005563",
+    "A056220"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

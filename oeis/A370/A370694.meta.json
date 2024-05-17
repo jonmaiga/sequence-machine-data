@@ -1,0 +1,17 @@
+{
+  "description": "Irregular array read by rows: T(n,k) is the number of endomorphisms of the k-th group of order n, with each row ordered so as to be nondecreasing.",
+  "id": "A370694",
+  "mentions": [
+    "A137316"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

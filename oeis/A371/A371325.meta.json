@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1)/(2^k * Lucas(k!)).",
+  "id": "A371325",
+  "mentions": [
+    "A000032",
+    "A000142",
+    "A101293",
+    "A343202",
+    "A371322",
+    "A371323",
+    "A371324"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

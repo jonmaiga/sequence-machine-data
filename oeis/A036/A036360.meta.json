@@ -1,7 +1,9 @@
 {
-  "description": "Number of labeled connected functional digraphs.",
+  "description": "a(n) = Sum_{k=1..n} n! * n^(n-k+1) / (n-k)!",
   "id": "A036360",
   "mentions": [
+    "A000435",
+    "A001373",
     "A001865"
   ],
   "tags": [
@@ -10,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 17,
-    "source": "joeis"
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

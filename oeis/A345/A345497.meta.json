@@ -2,12 +2,16 @@
   "description": "Numbers that are the sum of eight squares in ten or more ways.",
   "id": "A345497",
   "mentions": [
+    "A025427",
+    "A025429",
+    "A345397",
     "A345487",
     "A345496",
     "A345540",
     "A346803"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of unordered pairs of partitions of n with exactly k common parts; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A370207",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A008284",
+    "A072233",
+    "A086737",
+    "A260669",
+    "A370005"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Arises from enumeration of a certain class of partial knight's paths on the square grid.",
+  "id": "A368375",
+  "mentions": [
+    "A005221"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

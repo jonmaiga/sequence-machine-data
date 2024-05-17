@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nondecreasing arrangements of n numbers in -k..k with sum zero",
+  "description": "T(n,k) = number of nondecreasing arrangements of n numbers in -k..k with sum zero.",
   "id": "A183917",
   "mentions": [
     "A000982",

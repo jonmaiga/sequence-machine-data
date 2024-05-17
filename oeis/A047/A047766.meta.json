@@ -1,11 +1,14 @@
 {
-  "description": "Number of dissectable polyhedra with symmetry of type O.",
+  "description": "Number of dissectable polyhedra with n tetrahedral cells with symmetry of type N or chiral pairs with symmetry of type O.",
   "id": "A047766",
   "mentions": [
     "A001764",
+    "A007173",
     "A027610",
     "A047764",
-    "A047768"
+    "A047768",
+    "A371350",
+    "A371351"
   ],
   "tags": [
     "formulas",

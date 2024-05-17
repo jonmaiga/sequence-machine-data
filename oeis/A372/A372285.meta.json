@@ -1,0 +1,21 @@
+{
+  "description": "Array read by upward antidiagonals: A(n,k) is the number of terms of A086893 in the interval [b(n, k), b(n+1, k)], n,k >= 1, where b = A372282.",
+  "id": "A372285",
+  "mentions": [
+    "A086893",
+    "A371094",
+    "A371102",
+    "A372282",
+    "A372286"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

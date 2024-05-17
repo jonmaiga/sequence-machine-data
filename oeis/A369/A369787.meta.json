@@ -1,0 +1,16 @@
+{
+  "description": "Number of different coefficient values in expansion of Product_{k=1..n} (1+x^(k*(k+1)/2)).",
+  "id": "A369787",
+  "mentions": [
+    "A024940",
+    "A039822"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

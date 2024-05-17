@@ -1,10 +1,13 @@
 {
-  "description": "E.g.f. satisfies: A(x) = exp(x*A(x)) * cosh(x*A(x)).",
+  "description": "E.g.f. satisfies A(x) = exp(x*A(x)) * cosh(x*A(x)).",
   "id": "A201595",
   "mentions": [
     "A074932",
     "A201594",
-    "A214225"
+    "A214225",
+    "A218300",
+    "A218301",
+    "A218302"
   ],
   "tags": [
     "formulas",

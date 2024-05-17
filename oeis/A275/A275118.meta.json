@@ -1,14 +1,16 @@
 {
-  "description": "Split primes p such that prime P lying above p is a Wieferich place of K (with discriminant D_K).",
+  "description": "Split primes p such that prime P lying above p is a Wieferich place of K (with discriminant D_K), for some imaginary quadratic field K of class number 1.",
   "id": "A275118",
-  "mentions": [],
+  "mentions": [
+    "A239902"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

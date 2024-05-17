@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered factorizations of n into factors > 5.",
+  "id": "A371213",
+  "mentions": [
+    "A002033",
+    "A017900",
+    "A074206",
+    "A185326",
+    "A371209",
+    "A371211",
+    "A371212"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

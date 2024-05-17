@@ -1,14 +1,19 @@
 {
-  "description": "a(n) = Sum_{ d divides n } sigma(gcd(d,n/d)), where sigma is the sum of divisors function, A000203.",
+  "description": "a(n) = Sum_{d|n} sigma(gcd(d,n/d)), where sigma is the sum of divisors function, A000203.",
   "id": "A124316",
   "mentions": [
     "A000203",
     "A001616",
+    "A001620",
     "A061884",
     "A069290",
+    "A082633",
     "A124315"
   ],
   "tags": [
+    "easy",
+    "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {

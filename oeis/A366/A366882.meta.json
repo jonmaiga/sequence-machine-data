@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers that are not primorials.",
+  "id": "A366882",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A006530",
+    "A053669",
+    "A087246",
+    "A366413"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

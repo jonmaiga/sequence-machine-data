@@ -1,0 +1,18 @@
+{
+  "description": "Deterministic complexity of binary strings, in shortlex order.",
+  "id": "A370489",
+  "mentions": [
+    "A059412",
+    "A076478",
+    "A370821"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "x-values in the solution to x^2 - 19*y^2 = 1.",
   "id": "A114048",
   "mentions": [
+    "A167774",
     "A174765"
   ],
   "tags": [

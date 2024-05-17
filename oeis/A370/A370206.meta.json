@@ -1,0 +1,31 @@
+{
+  "description": "Numbers j whose symmetric representation of sigma(j) consists of two copies of unimodal width pattern 121 separated by 0.",
+  "id": "A370206",
+  "mentions": [
+    "A082662",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A262045",
+    "A262259",
+    "A341969",
+    "A342592",
+    "A342594",
+    "A342595",
+    "A342596",
+    "A367377",
+    "A370205"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 3^n is odious (A000069).",
+  "description": "Numbers k such that 3^k is odious (A000069).",
   "id": "A223024",
   "mentions": [
     "A000069",
     "A000244",
     "A001969",
-    "A237545"
+    "A237545",
+    "A371970"
   ],
   "tags": [
     "base",

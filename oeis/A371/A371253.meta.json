@@ -1,0 +1,25 @@
+{
+  "description": "Number of regions formed when n equally spaced points are placed around a circle and all pairs of points are joined by an interior arc whose radius equals the circle's radius.",
+  "id": "A371253",
+  "mentions": [
+    "A006533",
+    "A007678",
+    "A358782",
+    "A359046",
+    "A359253",
+    "A370980",
+    "A371254",
+    "A371255",
+    "A371274",
+    "A371374"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

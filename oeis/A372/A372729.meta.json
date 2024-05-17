@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that the first n digits of Fibonacci(k) are the reverse of its last n digits.",
+  "id": "A372729",
+  "mentions": [
+    "A000045",
+    "A002113",
+    "A045504"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

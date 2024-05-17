@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence such that each subsequence enclosed by a pair of equal values, including the endpoints, has a unique sum.",
+  "id": "A370264",
+  "mentions": [
+    "A366493",
+    "A366624",
+    "A366625",
+    "A366631"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

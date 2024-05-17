@@ -1,0 +1,22 @@
+{
+  "description": "Nonsquarefree numbers k such that A003415(k) divides A276086(k), where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A371085",
+  "mentions": [
+    "A003415",
+    "A013929",
+    "A276086",
+    "A358220",
+    "A358221",
+    "A358222",
+    "A371083",
+    "A371086"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

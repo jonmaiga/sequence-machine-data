@@ -1,16 +1,21 @@
 {
-  "description": "Table T(n,k) read along rows: the coefficient [q^k] of the Sum_{m=0..n} [n,m]_q over q-Binomial coefficients.",
+  "description": "Table read by rows: T(n, k) is the number of length n binary words with exactly k inversions.",
   "id": "A083906",
   "mentions": [
+    "A000025",
+    "A000034",
     "A000041",
+    "A016116",
     "A029552",
     "A033638",
     "A049597",
+    "A060546",
     "A063746",
     "A077028",
     "A083479",
     "A083480",
-    "A098613"
+    "A098613",
+    "A260460"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k=0..n} binomial(n^3, k^3).",
+  "id": "A371646",
+  "mentions": [
+    "A001142",
+    "A007685",
+    "A074962",
+    "A255358",
+    "A371468",
+    "A371603"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

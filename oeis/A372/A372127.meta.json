@@ -1,0 +1,15 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, a(2*n+2) = LCM(a(2*n+1), a(n+1)).",
+  "id": "A372127",
+  "mentions": [
+    "A372030"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

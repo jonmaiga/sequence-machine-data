@@ -1,0 +1,47 @@
+{
+  "description": "Number of minimal subsets of {1..n} such that it is not possible to choose a different binary index of each element.",
+  "id": "A370642",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A048793",
+    "A070939",
+    "A072639",
+    "A096111",
+    "A140637",
+    "A272020",
+    "A326031",
+    "A355529",
+    "A367902",
+    "A367903",
+    "A367905",
+    "A367906",
+    "A367907",
+    "A368094",
+    "A368095",
+    "A368100",
+    "A368109",
+    "A370582",
+    "A370583",
+    "A370585",
+    "A370589",
+    "A370591",
+    "A370593",
+    "A370636",
+    "A370637",
+    "A370638",
+    "A370639",
+    "A370640",
+    "A370641",
+    "A370644"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

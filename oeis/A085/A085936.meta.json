@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the digits sorted in ascending order + the sum of the squares of the digits of n is a palindrome. Or, sortdigits(n)+digitsumsquare(n) is a palindrome.",
+  "description": "Numbers k such that the number resulting from sorting the digits of k in ascending order + the sum of the squares of the digits of k is a palindrome. Or, sortdigits(k) + digitsumsquare(k) is a palindrome.",
   "id": "A085936",
   "mentions": [
     "A085937"

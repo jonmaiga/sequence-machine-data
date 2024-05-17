@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{i=1..n} Sum_{j=1..n} Sum_{k=1..n} mu(i*j*k), where mu is the Moebius function A008683.",
+  "id": "A372701",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A372700"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

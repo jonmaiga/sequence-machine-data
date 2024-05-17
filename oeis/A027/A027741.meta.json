@@ -1,13 +1,15 @@
 {
   "description": "Number of primitive polynomials of degree n over GF(5).",
   "id": "A027741",
-  "mentions": [],
+  "mentions": [
+    "A369291"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "joeis"
   }
 }

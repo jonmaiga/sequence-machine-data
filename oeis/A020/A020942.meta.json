@@ -1,8 +1,11 @@
 {
-  "description": "First column of 3rd-order Zeckendorf array.",
+  "description": "First column of 3rd-order Zeckendorf array A136189.",
   "id": "A020942",
   "mentions": [
     "A000930",
+    "A064105",
+    "A064106",
+    "A136189",
     "A202342"
   ],
   "tags": [
@@ -14,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

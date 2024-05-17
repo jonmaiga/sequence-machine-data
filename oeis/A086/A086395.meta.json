@@ -2,8 +2,11 @@
   "description": "Primes found among the numerators of the continued fraction rational approximations to sqrt(2).",
   "id": "A086395",
   "mentions": [
+    "A000129",
     "A001333",
-    "A086383"
+    "A086383",
+    "A099088",
+    "A257553"
   ],
   "tags": [
     "formulas",

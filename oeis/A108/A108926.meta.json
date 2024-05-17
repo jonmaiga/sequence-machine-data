@@ -1,8 +1,14 @@
 {
-  "description": "Initial members of abundant quintuplets, i.e., values of n such that (n, n+2, n+4, n+6, n+8) are all abundant numbers.",
+  "description": "Initial members of abundant quintuplets, i.e., values of k such that (k, k+2, k+4, k+6, k+8) are all abundant numbers.",
   "id": "A108926",
   "mentions": [
-    "A005101"
+    "A005101",
+    "A096399",
+    "A231086",
+    "A231089",
+    "A231090",
+    "A231092",
+    "A231093"
   ],
   "tags": [
     "nonn"

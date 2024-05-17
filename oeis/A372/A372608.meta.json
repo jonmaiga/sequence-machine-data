@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} phi(n*k).",
+  "id": "A372608",
+  "mentions": [
+    "A000010",
+    "A070639",
+    "A372606"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

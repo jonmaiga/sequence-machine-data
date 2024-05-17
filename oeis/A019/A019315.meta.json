@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of e^Pi + Pi + e.",
   "id": "A019315",
-  "mentions": [],
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A039661"
+  ],
   "tags": [
     "cons",
     "nonn"

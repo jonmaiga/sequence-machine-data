@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that sum of digits of n+1 is a prime.",
+  "description": "Numbers k such that sum of digits of (k+1) is a prime.",
   "id": "A129630",
   "mentions": [
+    "A007953",
     "A028834"
   ],
   "tags": [

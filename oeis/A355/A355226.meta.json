@@ -2,7 +2,9 @@
   "description": "Irregular triangle read by rows where T(n,k) is the number of independent sets of size k in the n-halved cube graph.",
   "id": "A355226",
   "mentions": [
-    "A005864"
+    "A005864",
+    "A288943",
+    "A355558"
   ],
   "tags": [
     "nonn",

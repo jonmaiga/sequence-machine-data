@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of genus 1 and k parts of the n-set (n >= 4, 2 <= k <= n-2).",
+  "id": "A370236",
+  "mentions": [
+    "A000332",
+    "A002802",
+    "A297178"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

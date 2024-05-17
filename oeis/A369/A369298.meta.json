@@ -2,9 +2,11 @@
   "description": "Expansion of (1/x) * Series_Reversion( x * (1-x)^2 * (1-x^3)^2 ).",
   "id": "A369298",
   "mentions": [
+    "A251592",
     "A369296",
     "A369297",
-    "A369300"
+    "A369300",
+    "A370275"
   ],
   "tags": [
     "formulas",

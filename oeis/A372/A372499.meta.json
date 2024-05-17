@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(A(A(x))) = F(x), where F(x) is the g.f. for A053540(n) = n*9^(n-1).",
+  "id": "A372499",
+  "mentions": [
+    "A053540",
+    "A141118",
+    "A309509",
+    "A372492",
+    "A372500"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

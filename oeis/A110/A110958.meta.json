@@ -1,14 +1,18 @@
 {
-  "description": "Floor(e^(n+1)-e(n))-Fibonacci(n).",
+  "description": "a(n) = floor(e^(n+1) - e^n) - Fibonacci(n).",
   "id": "A110958",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A248873"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 23,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
   }
 }

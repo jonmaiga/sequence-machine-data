@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (1 / (k^2 + k + 1)).",
+  "id": "A372253",
+  "mentions": [
+    "A371804"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

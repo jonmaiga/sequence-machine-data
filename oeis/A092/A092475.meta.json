@@ -1,8 +1,12 @@
 {
   "description": "Primes p such that p + 2^2, p + 4^2 and p + 6^2 are also primes.",
   "id": "A092475",
-  "mentions": [],
+  "mentions": [
+    "A049492",
+    "A156104"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] with the property that no subsequence k(k+1)(k+2) or (k+2)(k+1)k occurs but k(k+1) or (k+1)k occurs.",
+  "id": "A370485",
+  "mentions": [
+    "A002464",
+    "A095816",
+    "A370390"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

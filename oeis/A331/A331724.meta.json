@@ -6,7 +6,6 @@
     "A000203",
     "A003601",
     "A007691",
-    "A007814",
     "A046985",
     "A325025",
     "A330533"
@@ -17,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

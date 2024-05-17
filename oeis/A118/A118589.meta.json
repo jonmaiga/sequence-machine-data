@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: A(x) = exp(x + x^2 + x^3).",
+  "description": "Expansion of e.g.f. exp(x + x^2 + x^3).",
   "id": "A118589",
   "mentions": [
     "A118588",

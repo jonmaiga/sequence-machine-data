@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of achiral dissections of a polygon into n k-gons by nonintersecting diagonals, n >= 1, k >= 3.",
+  "id": "A370062",
+  "mentions": [
+    "A047749",
+    "A070914",
+    "A143546",
+    "A143547",
+    "A143554",
+    "A192893",
+    "A208355",
+    "A295224",
+    "A295260",
+    "A369472",
+    "A369929",
+    "A370060"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

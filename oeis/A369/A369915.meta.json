@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} lcm(p, n/p) / p.",
+  "id": "A369915",
+  "mentions": [
+    "A332619",
+    "A345266",
+    "A345302"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

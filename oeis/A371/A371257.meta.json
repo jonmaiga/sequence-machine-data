@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..2^A005811(n), read by rows; the n-th row lists the numbers m such that A371256(m) = n.",
+  "id": "A371257",
+  "mentions": [
+    "A005811",
+    "A166242",
+    "A368229",
+    "A371256",
+    "A371258",
+    "A371265"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

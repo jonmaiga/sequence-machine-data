@@ -1,11 +1,9 @@
 {
-  "description": "Number of truncated ST-pairs O(q^N).",
+  "description": "Number of truncated ST-pairs O(q^n).",
   "id": "A094866",
   "mentions": [],
   "tags": [
-    "nonn",
-    "obsc",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 3,

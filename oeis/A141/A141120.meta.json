@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(A(A(A(A(x))))) = x + 25*x^2.",
+  "description": "G.f. A(x) satisfies A(A(A(A(A(x))))) = x + 25*x^2.",
   "id": "A141120",
   "mentions": [
     "A027436",
@@ -8,6 +8,7 @@
     "A141121"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

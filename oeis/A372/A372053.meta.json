@@ -1,0 +1,14 @@
+{
+  "description": "Irregular array read by rows: Row n lists the factorizations of n into a product of nondecreasing integers >= 2.",
+  "id": "A372053",
+  "mentions": [],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 123,
+    "source": "oeis-bfile"
+  }
+}

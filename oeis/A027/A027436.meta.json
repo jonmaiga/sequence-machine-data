@@ -1,5 +1,5 @@
 {
-  "description": "f(x) = Sum a(n)*x^n, n = 1..inf satisfies f(f(x)) = x*(1 + 4*x).",
+  "description": "G.f. f(x) = Sum_{n>=1} a(n)*x^n satisfies f(f(x)) = x*(1 + 4*x).",
   "id": "A027436",
   "mentions": [
     "A097088",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

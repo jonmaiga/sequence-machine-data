@@ -1,5 +1,5 @@
 {
-  "description": "Simple continued fraction expansion of an infinite product.",
+  "description": "Simple continued fraction expansion of product {n >= 0} {1 - sqrt(m)*[sqrt(m) - sqrt(m-1)]^(4*n+3)}/{1 - sqrt(m)*[sqrt(m) - sqrt(m-1)]^(4*n+1)} at m = 3.",
   "id": "A221074",
   "mentions": [
     "A098297",

@@ -1,0 +1,20 @@
+{
+  "description": "Indices of the squarefree numbers in the sequence of cubefree numbers.",
+  "id": "A371188",
+  "mentions": [
+    "A004709",
+    "A005117",
+    "A253905",
+    "A306633"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

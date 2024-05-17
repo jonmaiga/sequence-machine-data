@@ -2,9 +2,15 @@
   "description": "Numbers k neither squarefree nor prime power such that both rad(k)*A119288(k) > k and rad(k)*A053669(k) > k.",
   "id": "A364999",
   "mentions": [
+    "A002110",
     "A007947",
+    "A025487",
+    "A039956",
     "A053669",
+    "A055932",
     "A081770",
+    "A088860",
+    "A092742",
     "A119288",
     "A126706",
     "A355432",
@@ -14,7 +20,9 @@
     "A361098",
     "A363082",
     "A364997",
-    "A364998"
+    "A364998",
+    "A366460",
+    "A366825"
   ],
   "tags": [
     "formulas",

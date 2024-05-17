@@ -2,6 +2,7 @@
   "description": "a(1)=1, then a(n)=2*a(n-1) if a(n-1) is prime, a(n)=a(n-1)+1 otherwise.",
   "id": "A080735",
   "mentions": [
+    "A055496",
     "A163962"
   ],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "Number of cross-equivalence classes of the symmetric group S_n, where two permutations are cross-equivalent if the multiset of forward distances for every element i in the permutation, for 1 <= i <= n-1, up to and including n, is the same.",
+  "id": "A370656",
+  "mentions": [
+    "A000142",
+    "A001710"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

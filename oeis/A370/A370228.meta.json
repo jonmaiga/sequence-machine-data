@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles in the n-triangular honeycomb bishop graph.",
+  "id": "A370228",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

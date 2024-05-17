@@ -1,5 +1,5 @@
 {
-  "description": "Array of Ramsey numbers R(n,k) (n >= 1, k >= 1) read by antidiagonals.3",
+  "description": "Array of Ramsey numbers R(n,k) (n >= 1, k >= 1) read by antidiagonals.",
   "id": "A212954",
   "mentions": [
     "A000791",

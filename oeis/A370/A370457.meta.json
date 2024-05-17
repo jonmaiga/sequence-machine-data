@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n - A368887(n) is the neutron number of the nuclide with the lowest energy among the isobars of mass number n.",
+  "id": "A370457",
+  "mentions": [
+    "A367461",
+    "A368859",
+    "A368860",
+    "A368887",
+    "A370460"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

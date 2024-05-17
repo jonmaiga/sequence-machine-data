@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n+j) mod (2+j) = 1 for j from 0 to 8 and (n+9) mod 11 <> 1.",
+  "description": "Numbers k such that (k+j) mod (2+j) = 1 for j from 0 to 8 and (k+9) mod 11 <> 1.",
   "id": "A096026",
   "mentions": [
     "A007310",

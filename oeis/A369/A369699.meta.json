@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ( Product_{k=2..n-1} k^k )^2*2^n.",
+  "id": "A369699",
+  "mentions": [
+    "A002109",
+    "A059332",
+    "A172286",
+    "A290770"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0..4 arrays with values 0..4 introduced in row major order and each element equal to at least one horizontal or vertical neighbor",
+  "description": "Number of n X n 0..4 arrays with values 0..4 introduced in row major order and each element equal to at least one horizontal or vertical neighbor.",
   "id": "A198701",
   "mentions": [
     "A198708"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

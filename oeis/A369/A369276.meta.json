@@ -1,19 +1,19 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of simple graphs on n unlabeled nodes with burning number k = 1..n.",
+  "description": "Numbers k in A126706 such that either k-1 or k+1 or both are also in A126706.",
   "id": "A369276",
   "mentions": [
-    "A000088",
-    "A369278",
-    "A369279"
+    "A126706",
+    "A356322",
+    "A369516",
+    "A369954"
   ],
   "tags": [
-    "more",
-    "nonn",
-    "tabl"
+    "easy",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = f(prime(n)), where f(2)=0 and for an odd prime p, f(p) = max{a(q)+1: q ranges over all prime factors of p-1}.",
+  "description": "a(n) = f(prime(n)), where f(2) = 0 and for an odd prime p, f(p) = max{f(q)+1: q ranges over all prime factors of p-1}.",
   "id": "A364332",
   "mentions": [
+    "A019434",
+    "A082449",
     "A083647",
     "A364334"
   ],
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

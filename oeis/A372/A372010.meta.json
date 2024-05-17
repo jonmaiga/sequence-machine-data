@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the n-digit number k such that R(k)/k is maximal for any n-digit number.",
+  "id": "A372010",
+  "mentions": [
+    "A004086"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

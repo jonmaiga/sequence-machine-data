@@ -2,15 +2,16 @@
   "description": "Odd numbers in A138123.",
   "id": "A142248",
   "mentions": [
+    "A000204",
     "A138123"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

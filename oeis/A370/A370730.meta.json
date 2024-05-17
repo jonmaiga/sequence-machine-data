@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least Fibonacci number f such that f AND n = n (where AND denotes the bitwise AND operator).",
+  "id": "A370730",
+  "mentions": [
+    "A000045",
+    "A007283",
+    "A295609",
+    "A370731",
+    "A370744"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

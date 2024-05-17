@@ -1,5 +1,5 @@
 {
-  "description": "None of the digits in n is present in n^2 or n^3.",
+  "description": "None of the digits in k is present in k^2 or k^3.",
   "id": "A029790",
   "mentions": [],
   "tags": [

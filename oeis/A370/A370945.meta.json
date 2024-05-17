@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of partitions of [n] whose singletons sum to k; triangle T(n,k), n>=0, 0<=k<=A000217(n), read by rows.",
+  "id": "A370945",
+  "mentions": [
+    "A000110",
+    "A000124",
+    "A000217",
+    "A000296",
+    "A053632",
+    "A105479",
+    "A161680",
+    "A369596",
+    "A370946",
+    "A370947"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

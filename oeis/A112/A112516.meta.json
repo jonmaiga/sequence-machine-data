@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the first 9 decimal digits of the n-th Fibonacci number is 1-9 pandigital.",
+  "description": "Numbers k such that the first 9 decimal digits of the k-th Fibonacci number is 1-9 pandigital.",
   "id": "A112516",
   "mentions": [
     "A000045",

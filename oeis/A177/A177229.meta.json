@@ -1,16 +1,21 @@
 {
-  "description": "A combinatorial differential triangle sequence:q=4;t=1/q;f(t,n)=d^n/dt^n*(t/(1+t); c(t.n,m)=(1/(1+t)*f(n,t)/(f(t,m)*f(t,(n-m))",
+  "description": "Triangle, read by rows, T(n, k) = -binomial(n,k) for 1 <= k <= n-1, otherwise T(n, k) = 4.",
   "id": "A177229",
-  "mentions": [],
+  "mentions": [
+    "A007318",
+    "A177227",
+    "A177228"
+  ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 65,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

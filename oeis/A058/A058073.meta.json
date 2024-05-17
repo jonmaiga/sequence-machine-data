@@ -1,9 +1,7 @@
 {
   "description": "Numbers k such that sigma(k+1) divides sigma(k), where sigma(k) is the sum of positive divisors of k.",
   "id": "A058073",
-  "mentions": [
-    "A002961"
-  ],
+  "mentions": [],
   "tags": [
     "nonn"
   ],

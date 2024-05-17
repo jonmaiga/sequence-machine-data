@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 666^666, the Legion's number of the first kind.",
+  "id": "A371838",
+  "mentions": [
+    "A007356",
+    "A051003",
+    "A115983"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1881,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

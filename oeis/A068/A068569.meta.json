@@ -1,5 +1,5 @@
 {
-  "description": "Positive numbers that are not the ratio of any n/(# of letters to express n in English).",
+  "description": "Positive numbers that are not the ratio of any n/(number of letters to express n in English).",
   "id": "A068569",
   "mentions": [],
   "tags": [
@@ -8,8 +8,8 @@
     "word"
   ],
   "terms": {
-    "offset": 0,
-    "size": 58,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
   }
 }

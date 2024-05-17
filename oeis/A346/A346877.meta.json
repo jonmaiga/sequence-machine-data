@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the divisors, except the largest, of the n-th odd number.",
+  "description": "Sum of the divisors, except for the largest, of the n-th odd number.",
   "id": "A346877",
   "mentions": [
     "A000203",

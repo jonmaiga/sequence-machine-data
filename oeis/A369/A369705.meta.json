@@ -1,0 +1,18 @@
+{
+  "description": "Maximal coefficient of (1 + x) * (1 - x^2) * (1 + x^3) * ... * (1 - (-x)^n).",
+  "id": "A369705",
+  "mentions": [
+    "A025591",
+    "A039828",
+    "A086376",
+    "A121373"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

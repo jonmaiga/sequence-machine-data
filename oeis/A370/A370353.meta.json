@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the average number of rolls of a fair standard dice until the total sum of all rolls is a prime number.",
+  "id": "A370353",
+  "mentions": [
+    "A096256"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

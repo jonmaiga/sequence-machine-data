@@ -2,7 +2,8 @@
   "description": "Least m such that if r and s in {Pi/2 - atn(h): h = 1,2,...,n} satisfy r < s, then r < k/m < s for some integer k.",
   "id": "A024832",
   "mentions": [
-    "A001000"
+    "A001000",
+    "A054060"
   ],
   "tags": [
     "nonn"

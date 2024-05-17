@@ -1,7 +1,12 @@
 {
   "description": "a(n) = prime(8*n - 6).",
   "id": "A031912",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A031911",
+    "A031913",
+    "A031914"
+  ],
   "tags": [
     "nonn"
   ],

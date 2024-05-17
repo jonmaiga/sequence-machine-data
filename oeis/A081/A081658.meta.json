@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, coefficients of polynomials related to the Euler numbers ordered by falling powers.",
+  "description": "Triangle read by rows: T(n, k) = (-2)^k*binomial(n, k)*Euler(k, 1/2).",
   "id": "A081658",
   "mentions": [
     "A000364",
@@ -23,7 +23,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 85,
+    "size": 84,
     "source": "oeis-entry"
   }
 }

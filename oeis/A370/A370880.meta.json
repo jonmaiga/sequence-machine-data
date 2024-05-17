@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers repeated 3 times are taken in parts of successive lengths 1,2,3,..., and a(n) is the sum of the numbers in the part with length n.",
+  "id": "A370880",
+  "mentions": [
+    "A000217",
+    "A002264",
+    "A008620"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

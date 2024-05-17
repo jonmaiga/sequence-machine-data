@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes that are also the sums of two, three and four successive semiprimes.",
+  "id": "A370685",
+  "mentions": [
+    "A001358",
+    "A092192",
+    "A131610",
+    "A158339",
+    "A370162"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

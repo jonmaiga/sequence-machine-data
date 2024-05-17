@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors of the largest divisor of n whose exponents in its prime factorization are all powers of 2.",
+  "id": "A369890",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A053644",
+    "A138302",
+    "A353897",
+    "A369015"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

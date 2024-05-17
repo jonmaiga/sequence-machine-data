@@ -1,5 +1,5 @@
 {
-  "description": "Number of idempotent Boolean relation matrices on [n] that have no proper primitive power.",
+  "description": "Number of idempotent Boolean relation matrices on [n] that have no proper power primitive.",
   "id": "A360718",
   "mentions": [
     "A001831",

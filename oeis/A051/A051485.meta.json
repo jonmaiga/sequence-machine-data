@@ -1,13 +1,17 @@
 {
   "description": "Number of double nodes (exactly two nodes on that level) for all Motzkin paths of length n.",
   "id": "A051485",
-  "mentions": [],
+  "mentions": [
+    "A001006",
+    "A088457",
+    "A372014"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

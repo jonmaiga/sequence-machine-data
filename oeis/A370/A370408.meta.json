@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that no three equal terms appear at distinct indices that are the side lengths of a triangle.",
+  "id": "A370408",
+  "mentions": [
+    "A100480",
+    "A107572",
+    "A367196"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

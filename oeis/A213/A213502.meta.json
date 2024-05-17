@@ -1,10 +1,9 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0,...,n} and x != min(|w-x|,|x-y|)",
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and x != min(|w-x|, |x-y|).",
   "id": "A213502",
   "mentions": [
     "A212959",
-    "A213398",
-    "A213503"
+    "A213398"
   ],
   "tags": [
     "easy",

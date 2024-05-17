@@ -1,7 +1,13 @@
 {
   "description": "Number of compositions of even natural numbers into 5 parts <= n.",
   "id": "A191484",
-  "mentions": [],
+  "mentions": [
+    "A036486",
+    "A171714",
+    "A191489",
+    "A191494",
+    "A191495"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "1+9*10^n+100^n.",
+  "description": "a(n) = 1+9*10^n+100^n.",
   "id": "A171553",
   "mentions": [
     "A100459"

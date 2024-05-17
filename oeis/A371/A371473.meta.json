@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; for n>1, if a(n-1) is squarefree, a(n) = a(n-1) + n, otherwise a(n) = squarefree kernel of a(n-1).",
+  "id": "A371473",
+  "mentions": [
+    "A005117",
+    "A005132",
+    "A007947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

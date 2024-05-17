@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 + k*x^k/(k-1)!).",
+  "id": "A371311",
+  "mentions": [
+    "A000290",
+    "A007837",
+    "A032299",
+    "A032300",
+    "A092484"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

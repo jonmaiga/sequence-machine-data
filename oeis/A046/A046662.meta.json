@@ -2,6 +2,7 @@
   "description": "Sum of mistyped version of binomial coefficients.",
   "id": "A046662",
   "mentions": [
+    "A000522",
     "A003149",
     "A064570",
     "A229464"

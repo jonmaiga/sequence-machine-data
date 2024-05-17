@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1-x^5-x^6).",
+  "description": "Expansion of 1/(1 - x^5 - x^6).",
   "id": "A017837",
   "mentions": [
     "A099132",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 62,
+    "size": 77,
     "source": "oeis-bfile"
   }
 }

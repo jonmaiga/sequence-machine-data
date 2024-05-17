@@ -1,0 +1,21 @@
+{
+  "description": "For any number n >= 0 with ternary expansion Sum_{i >= 0} t_i * 3^i, a(n) = Sum_{i >= 0} ((Sum_{j >= 0} (-1)^j * t_{i+j}) mod 3) * 3^i.",
+  "id": "A370932",
+  "mentions": [
+    "A006068",
+    "A081604",
+    "A105529",
+    "A122586",
+    "A370933"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

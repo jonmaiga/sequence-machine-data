@@ -1,5 +1,5 @@
 {
-  "description": "Number of complete quadrangles on an (n X n)-grid (or geoplane)",
+  "description": "Number of complete quadrangles on an n X n grid (or geoplane).",
   "id": "A175383",
   "mentions": [
     "A178256",

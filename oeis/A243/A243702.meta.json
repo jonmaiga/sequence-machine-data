@@ -1,9 +1,10 @@
 {
-  "description": "Nonnegative numbers represented by the indefinite quadratic form x^2+13xy-9y^2.",
+  "description": "Nonnegative numbers represented by the indefinite quadratic form x^2 + 13xy - 9y^2.",
   "id": "A243702",
   "mentions": [
     "A243655",
-    "A243701"
+    "A243701",
+    "A372518"
   ],
   "tags": [
     "nonn"

@@ -1,8 +1,14 @@
 {
-  "description": "Number of 2^m between 7^n and 7^(n+1).",
+  "description": "Number of integers m such that 7^n < 2^m < 7^(n+1).",
   "id": "A022923",
-  "mentions": [],
+  "mentions": [
+    "A020860",
+    "A022921",
+    "A022922"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

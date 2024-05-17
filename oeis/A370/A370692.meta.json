@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by upward antidiagonals: T(n, k) = numerator( 2*k!*(-2)^k*Sum_{m=1..n}( 1/(2*m-1)^(k+1) ) ).",
+  "id": "A370692",
+  "mentions": [
+    "A074599",
+    "A173945",
+    "A255008",
+    "A255009",
+    "A370691"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

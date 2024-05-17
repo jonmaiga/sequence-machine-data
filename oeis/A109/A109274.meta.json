@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+1 is prime, 2n+1 composite.",
+  "description": "Numbers k such that k+1 is prime, 2k+1 composite.",
   "id": "A109274",
   "mentions": [
     "A109273",

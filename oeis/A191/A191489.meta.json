@@ -2,7 +2,12 @@
   "description": "Number of compositions of even natural numbers into 6 parts <= n.",
   "id": "A191489",
   "mentions": [
-    "A175113"
+    "A036486",
+    "A171714",
+    "A175113",
+    "A191484",
+    "A191494",
+    "A191495"
   ],
   "tags": [
     "easy",

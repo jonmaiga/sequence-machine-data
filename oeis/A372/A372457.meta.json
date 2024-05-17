@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least k such that k^2 + k + 1 is divisible by the n-th power of a prime.",
+  "id": "A372457",
+  "mentions": [
+    "A002476"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

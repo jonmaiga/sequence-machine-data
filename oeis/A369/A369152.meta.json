@@ -1,0 +1,19 @@
+{
+  "description": "Total number of digits in row n of Pascal's triangle.",
+  "id": "A369152",
+  "mentions": [
+    "A003590",
+    "A007318",
+    "A055642"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

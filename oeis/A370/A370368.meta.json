@@ -1,0 +1,18 @@
+{
+  "description": "Total sum over all j in [n] of the number of partitions of [j*(n-j)] into (n-j) sets of size j having no set of consecutive numbers whose maximum (if j>0) is a multiple of j.",
+  "id": "A370368",
+  "mentions": [
+    "A370365",
+    "A370366",
+    "A370407"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

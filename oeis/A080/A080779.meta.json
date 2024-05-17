@@ -1,7 +1,8 @@
 {
-  "description": "Triangle read by rows: n-th row gives expansion of the series for HarmonicNumber[n, -p].",
+  "description": "Triangle read by rows: n-th row gives expansion of the series for HarmonicNumber(n, -r).",
   "id": "A080779",
   "mentions": [
+    "A103438",
     "A264388",
     "A264389"
   ],

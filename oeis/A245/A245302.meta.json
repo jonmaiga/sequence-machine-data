@@ -1,5 +1,5 @@
 {
-  "description": "Circle curvature (rounded down) inscribed between a unit circle and a circumscribed regular n-gon.",
+  "description": "Curvature (truncated to integer) of a circle inscribed between a unit circle and a vertex of a circumscribed regular n-gon.",
   "id": "A245302",
   "mentions": [],
   "tags": [

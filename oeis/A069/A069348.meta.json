@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n + Omega(n), where Omega(n) is the number of prime-factors of n, A001222(n).",
+  "description": "Primes of the form k + Omega(k), where Omega(k) is the number of prime factors of k, A001222(k).",
   "id": "A069348",
   "mentions": [
     "A001222",

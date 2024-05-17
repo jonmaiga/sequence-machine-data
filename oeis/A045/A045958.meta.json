@@ -2,15 +2,16 @@
   "description": "Numbers k in A045954 such that k+1 is prime.",
   "id": "A045958",
   "mentions": [
-    "A045954"
+    "A006093",
+    "A045954",
+    "A045959"
   ],
   "tags": [
-    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

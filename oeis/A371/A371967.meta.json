@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle T(r,w) read by rows: number of ways of placing w non-attacking wazirs on a 3 X r board.",
+  "id": "A371967",
+  "mentions": [
+    "A007494",
+    "A011973",
+    "A035607",
+    "A051736",
+    "A064225",
+    "A172229",
+    "A232833",
+    "A371978",
+    "A371979"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

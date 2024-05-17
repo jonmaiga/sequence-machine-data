@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer partitions of n containing some three possibly equal parts (a,b,c) such that a + b = c. A variation of sum-full partitions.",
+  "description": "Number of integer partitions of n containing three parts (a,b,c) (repeats allowed) such that a + b = c. A variation of sum-full partitions.",
   "id": "A363225",
   "mentions": [
     "A000009",
@@ -27,7 +27,8 @@
     "A364345",
     "A364346",
     "A364347",
-    "A364348"
+    "A364348",
+    "A364350"
   ],
   "tags": [
     "nonn"

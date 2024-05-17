@@ -1,5 +1,5 @@
 {
-  "description": "A084022(n)/n.",
+  "description": "a(n) = A084022(n)/n.",
   "id": "A084023",
   "mentions": [
     "A084022"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

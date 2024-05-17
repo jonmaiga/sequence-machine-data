@@ -1,0 +1,21 @@
+{
+  "description": "Numbers formed by the rightmost decimal digits of n^(n^n) that are the same as those of n^(n^(n^n)).",
+  "id": "A369624",
+  "mentions": [
+    "A002488",
+    "A317824",
+    "A317903",
+    "A317905",
+    "A349425"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

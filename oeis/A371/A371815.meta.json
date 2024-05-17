@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^k * binomial(4*n-2*k-1,n-2*k).",
+  "id": "A371815",
+  "mentions": [
+    "A147855",
+    "A225006",
+    "A262977",
+    "A371798"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

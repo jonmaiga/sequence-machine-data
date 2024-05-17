@@ -1,0 +1,25 @@
+{
+  "description": "The run lengths transform of the ternary expansion of n corresponds to the run lengths transform of the binary expansion of a(n).",
+  "id": "A371256",
+  "mentions": [
+    "A004488",
+    "A005811",
+    "A005823",
+    "A005836",
+    "A101211",
+    "A166242",
+    "A371257",
+    "A371263"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

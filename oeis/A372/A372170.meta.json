@@ -1,0 +1,46 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of labeled simple graphs with n vertices and exactly k triangles.",
+  "id": "A372170",
+  "mentions": [
+    "A000088",
+    "A000272",
+    "A001858",
+    "A002494",
+    "A005195",
+    "A006125",
+    "A006129",
+    "A006785",
+    "A050407",
+    "A053530",
+    "A054548",
+    "A062734",
+    "A084546",
+    "A121251",
+    "A213434",
+    "A263340",
+    "A367867",
+    "A367868",
+    "A372167",
+    "A372168",
+    "A372171",
+    "A372172",
+    "A372173",
+    "A372175",
+    "A372176",
+    "A372191",
+    "A372192",
+    "A372193",
+    "A372194"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -2,17 +2,20 @@
   "description": "a(n) = Sum_{m=0..n} m*n^(m-1).",
   "id": "A068475",
   "mentions": [
+    "A023037",
     "A031972",
+    "A062805",
     "A062806",
-    "A113630"
+    "A368534"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

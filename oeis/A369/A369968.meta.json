@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is not multiple of 5, but its arithmetic derivative is, otherwise 0.",
+  "id": "A369968",
+  "mentions": [
+    "A003415",
+    "A011558",
+    "A353557",
+    "A360109",
+    "A369658",
+    "A369967",
+    "A369969"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

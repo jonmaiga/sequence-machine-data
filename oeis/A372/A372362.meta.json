@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the 2-adic valuation of 1 + 3*{the n-th iterate of 27 with Reduced Collatz-function R}.",
+  "id": "A372362",
+  "mentions": [
+    "A000265",
+    "A351122",
+    "A371093",
+    "A372443",
+    "A372447",
+    "A372448"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x/(x+1/(1+x^2)) ).",
+  "id": "A370836",
+  "mentions": [
+    "A049130",
+    "A370799",
+    "A370837",
+    "A370838"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

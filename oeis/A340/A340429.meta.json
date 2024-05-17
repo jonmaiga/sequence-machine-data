@@ -1,12 +1,15 @@
 {
-  "description": "Array T(n,k) is the number x such that frac(x*phi) + frac(n*phi)*frac(k*phi) = 1 where phi is the golden ratio A001622 and frac(y) is the fractional part of y, read by descending antidiagonals.",
+  "description": "Array T(n, k) is the number x such that frac(x*phi) + frac(n*phi)*frac(k*phi) = 1 where phi is the golden ratio A001622 and frac(y) is the fractional part of y, read by antidiagonals.",
   "id": "A340429",
   "mentions": [
     "A000201",
     "A001622",
     "A003623",
+    "A101330",
+    "A189663",
     "A190509",
-    "A339765"
+    "A339765",
+    "A371388"
   ],
   "tags": [
     "formulas",
@@ -16,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

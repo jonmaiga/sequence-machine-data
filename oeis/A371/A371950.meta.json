@@ -1,0 +1,20 @@
+{
+  "description": "Weird numbers (A006037) whose sum of aliquot divisors is also a weird number.",
+  "id": "A371950",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A006037",
+    "A125639",
+    "A371951",
+    "A371952"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

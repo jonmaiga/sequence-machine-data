@@ -1,12 +1,14 @@
 {
-  "description": "78n + 13.",
+  "description": "a(n) = 78*n + 13.",
   "id": "A139613",
   "mentions": [
+    "A016921",
     "A057145",
     "A139600"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

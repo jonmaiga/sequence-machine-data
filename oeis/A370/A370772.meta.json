@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-trees with n unlabeled nodes rooted at a hedron.",
+  "id": "A370772",
+  "mentions": [
+    "A027852",
+    "A063688",
+    "A370770",
+    "A370771",
+    "A370773"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

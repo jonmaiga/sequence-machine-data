@@ -1,10 +1,17 @@
 {
   "description": "Continued fraction for sqrt(730).",
   "id": "A040702",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A040006",
+    "A040072",
+    "A042404",
+    "A042405"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

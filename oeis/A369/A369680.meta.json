@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{k=0..n} (2^k + 3^(n-k)).",
+  "id": "A369680",
+  "mentions": [
+    "A323715",
+    "A369673",
+    "A369674",
+    "A369675",
+    "A369676",
+    "A369677",
+    "A369678",
+    "A369679"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

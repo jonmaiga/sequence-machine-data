@@ -2,21 +2,26 @@
   "description": "Number of finite connected sets of positive integers greater than one with least common multiple n.",
   "id": "A286518",
   "mentions": [
+    "A025487",
     "A048143",
     "A054921",
+    "A069626",
     "A076078",
     "A259936",
     "A281116",
     "A285572",
     "A285573",
-    "A286520"
+    "A286520",
+    "A305193",
+    "A318670"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 75,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
   }
 }

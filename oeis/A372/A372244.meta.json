@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the maverick constant lambda^*.",
+  "id": "A372244",
+  "mentions": [
+    "A060006"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

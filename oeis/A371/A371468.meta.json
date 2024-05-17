@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Product_{k=0..n} (n^3 + k^3)!.",
+  "id": "A371468",
+  "mentions": [
+    "A296591",
+    "A371643",
+    "A371646"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

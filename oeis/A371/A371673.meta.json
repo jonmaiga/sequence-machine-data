@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying [x^(n-1)] A(x)^(n^2) = A000108(n-1) * n^n for n >= 1, where A000108 is the Catalan numbers.",
+  "id": "A371673",
+  "mentions": [
+    "A000108",
+    "A003714",
+    "A118113",
+    "A171791",
+    "A263075",
+    "A263190"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

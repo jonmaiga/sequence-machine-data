@@ -1,0 +1,26 @@
+{
+  "description": "Array read by upward antidiagonals: A(n, k) = A371092(A372283(n, k)), n,k >= 1.",
+  "id": "A372287",
+  "mentions": [
+    "A000265",
+    "A257852",
+    "A371092",
+    "A371094",
+    "A371097",
+    "A371101",
+    "A371103",
+    "A372282",
+    "A372283",
+    "A372288"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

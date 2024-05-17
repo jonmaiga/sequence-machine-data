@@ -1,21 +1,25 @@
 {
-  "description": "Numbers k such that k^3 - 1 and k^3 + 1 are semiprime.",
+  "description": "Numbers k such that k^3 - 1 and k^3 + 1 are both semiprimes.",
   "id": "A268043",
   "mentions": [
+    "A001157",
     "A002384",
     "A014574",
     "A055494",
     "A088707",
     "A096173",
     "A096175",
-    "A109373"
+    "A109373",
+    "A136242",
+    "A169635"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

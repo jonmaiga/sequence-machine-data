@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers whose ternary representation includes at least one 1, and every 1 is followed by 0.",
+  "id": "A370918",
+  "mentions": [
+    "A007089",
+    "A081606",
+    "A370916",
+    "A370917",
+    "A370919",
+    "A370920",
+    "A370921",
+    "A370922",
+    "A370923"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

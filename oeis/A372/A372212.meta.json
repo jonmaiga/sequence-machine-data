@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] f(x)^n, where f(x) = (1 - x^7)^7/((1 - x^2)^2 * (1 - x^5)^5).",
+  "id": "A372212",
+  "mentions": [
+    "A351858",
+    "A372211",
+    "A372213"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

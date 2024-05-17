@@ -18,13 +18,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

@@ -1,13 +1,14 @@
 {
-  "description": "Related to Lucas property of a number array.",
+  "description": "a(n) is the number of 0's in a p X p square of a particular function mod p (see Formula) where p is the n-th prime.",
   "id": "A069089",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 56,
+    "source": "joeis"
   }
 }

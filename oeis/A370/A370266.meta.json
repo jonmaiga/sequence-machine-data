@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k that are not prime powers, such that k/rad(k) >= rad(k), where rad(k) = A007947(k).",
+  "id": "A370266",
+  "mentions": [
+    "A007947",
+    "A010846",
+    "A024619",
+    "A033845",
+    "A033846",
+    "A033847",
+    "A033849",
+    "A120944",
+    "A126706",
+    "A177492",
+    "A246547",
+    "A286708",
+    "A341645",
+    "A366250"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of 80^n",
+  "description": "Partial sums of 80^n.",
   "id": "A178513",
   "mentions": [
     "A000129",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

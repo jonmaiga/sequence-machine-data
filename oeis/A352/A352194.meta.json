@@ -2,9 +2,12 @@
   "description": "It seems that the n-th prime p appears in A064413 at around position 2*p; if in fact A064413(w) = p then set a(n) = 2*p-w.",
   "id": "A352194",
   "mentions": [
-    "A064413"
+    "A008578",
+    "A064413",
+    "A064955"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "a(n)/144 is the minimum squared volume > 0 of a tetrahedron with integer edge lengths whose largest is n.",
+  "id": "A371344",
+  "mentions": [
+    "A000027",
+    "A001014",
+    "A097125",
+    "A371071",
+    "A371072",
+    "A371345"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

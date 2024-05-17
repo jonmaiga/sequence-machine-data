@@ -1,8 +1,10 @@
 {
-  "description": "9^n + 9*n.",
+  "description": "a(n) = 9^n + 9*n.",
   "id": "A221911",
   "mentions": [
-    "A198399"
+    "A198399",
+    "A226202",
+    "A370663"
   ],
   "tags": [
     "easy",

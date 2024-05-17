@@ -1,5 +1,5 @@
 {
-  "description": "Smallest integer m, in absolute value, such that |m(n+m)| has as prime factors exactly all primes <= sqrt(n); zero if no such m exists.",
+  "description": "Smallest integer m, in absolute value, such that |m(n+m)| has as prime factors exactly all primes <= sqrt(n); take m > 0 if m and -m both are solutions; a(n) = 0 if no such m exists.",
   "id": "A159272",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 76,
-    "source": "oeis-entry"
+    "size": 75,
+    "source": "oeis-bfile"
   }
 }

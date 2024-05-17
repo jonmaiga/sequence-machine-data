@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/phi(n)) * Sum_{j=1..n} Sum_{k=1..n} phi(n*j*k).",
+  "id": "A372668",
+  "mentions": [
+    "A000010",
+    "A070639",
+    "A372669"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "Short leg of more than one primitive Pythagorean triangle.",
   "id": "A024411",
-  "mentions": [],
+  "mentions": [
+    "A020884",
+    "A024352"
+  ],
   "tags": [
     "nonn"
   ],

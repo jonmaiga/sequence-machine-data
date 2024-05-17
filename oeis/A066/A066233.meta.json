@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of digits of n^n is a prime.",
+  "description": "Numbers k such that the sum of digits of k^k is a prime.",
   "id": "A066233",
   "mentions": [
     "A000040",

@@ -1,0 +1,18 @@
+{
+  "description": "The smallest number such that the concatenation of n, a(n), n+1 is divisible by the concatenation of n and n+1.",
+  "id": "A371144",
+  "mentions": [
+    "A001704",
+    "A215027",
+    "A248378"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

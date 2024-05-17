@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the k-th Lie-Betti number of the Fibonacci trees of order n >= 2.",
+  "id": "A368135",
+  "mentions": [
+    "A088459",
+    "A360572",
+    "A360625",
+    "A360937",
+    "A360938"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

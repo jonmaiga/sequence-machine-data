@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the area of a unit heptadecagon (17-gon).",
+  "id": "A370393",
+  "mentions": [
+    "A007450",
+    "A010473",
+    "A019684",
+    "A210644",
+    "A210649",
+    "A228787",
+    "A241243",
+    "A329592",
+    "A343061"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least number of Jacobsthal numbers that add up to n.",
+  "id": "A372555",
+  "mentions": [
+    "A001045",
+    "A130249",
+    "A147612",
+    "A265745",
+    "A372556",
+    "A372557",
+    "A372561"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

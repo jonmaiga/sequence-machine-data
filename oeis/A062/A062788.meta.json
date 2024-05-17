@@ -2,9 +2,11 @@
   "description": "Squares of the form 5n*(n-1)+1.",
   "id": "A062788",
   "mentions": [
-    "A049683"
+    "A049683",
+    "A062786"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

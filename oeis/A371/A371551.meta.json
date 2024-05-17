@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 - x^k/k!)^2.",
+  "id": "A371551",
+  "mentions": [
+    "A002107",
+    "A032312",
+    "A185895",
+    "A371552"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that S(n) = n/2, where S(n) is the Kempner function A002034.",
+  "description": "Numbers k such that S(k) = k/2, where S(k) is the Kempner function A002034.",
   "id": "A073582",
   "mentions": [
     "A000203",

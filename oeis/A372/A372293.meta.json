@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers that do not occur in the odd bisection of A371094.",
+  "id": "A372293",
+  "mentions": [
+    "A004767",
+    "A005408",
+    "A017077",
+    "A371094",
+    "A371100",
+    "A372290"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

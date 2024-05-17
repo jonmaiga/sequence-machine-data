@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) with partial column sums of the even indexed Fibonacci numbers.",
+  "description": "Triangle T(n,k) with partial column sums of the even-indexed Fibonacci numbers.",
   "id": "A125172",
   "mentions": [
     "A001906",

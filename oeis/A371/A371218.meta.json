@@ -1,0 +1,16 @@
+{
+  "description": "Greedy Cantor Dust Partition level 2.",
+  "id": "A371218",
+  "mentions": [
+    "A348636"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

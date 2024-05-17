@@ -1,9 +1,10 @@
 {
-  "description": "Larger prime in pair prime(n) +/- n for some n.",
+  "description": "Larger prime in pair prime(k) +/- k for some k.",
   "id": "A107637",
   "mentions": [
     "A064403",
-    "A107636"
+    "A107636",
+    "A143794"
   ],
   "tags": [
     "formulas",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "joeis"
   }
 }

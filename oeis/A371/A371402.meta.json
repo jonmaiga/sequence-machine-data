@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(2*n, 4^n)^(2*n + 1) mod (2^(2*n + 1) - 1)^2.",
+  "id": "A371402",
+  "mentions": [
+    "A001511",
+    "A004171",
+    "A013709",
+    "A085058",
+    "A089080",
+    "A123725",
+    "A171977"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

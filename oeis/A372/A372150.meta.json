@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=1..n} k!^(k^2).",
+  "id": "A372150",
+  "mentions": [
+    "A002117",
+    "A051675",
+    "A074962",
+    "A255269",
+    "A259068"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

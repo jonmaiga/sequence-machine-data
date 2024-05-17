@@ -2,7 +2,15 @@
   "description": "Maximum number of primes between consecutive multiples of n, as permitted by divisibility considerations.",
   "id": "A364678",
   "mentions": [
-    "A023193"
+    "A000010",
+    "A005097",
+    "A007811",
+    "A023193",
+    "A056956",
+    "A123985",
+    "A123986",
+    "A144769",
+    "A309871"
   ],
   "tags": [
     "nonn"

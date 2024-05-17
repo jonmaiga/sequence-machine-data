@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 3*10^n + 71 is a prime number.",
+  "description": "Integers k such that 3*10^k + 71 is a prime number.",
   "id": "A110933",
   "mentions": [
     "A049054",

@@ -2,6 +2,8 @@
   "description": "Minimal multiplicative semigroup of numbers n > 1 such that in the prime factorization of n an initial product of primes is greater than a later prime in the factorization.",
   "id": "A291046",
   "mentions": [
+    "A007947",
+    "A164596",
     "A212666",
     "A289484"
   ],

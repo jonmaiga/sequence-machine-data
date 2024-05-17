@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = A003415(A002110(n)+A002110(k)), 0 <= k <= n; arithmetic derivatives of the sums of two primorial numbers.",
+  "id": "A370129",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A014545",
+    "A024451",
+    "A087112",
+    "A370121",
+    "A370135",
+    "A370136"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

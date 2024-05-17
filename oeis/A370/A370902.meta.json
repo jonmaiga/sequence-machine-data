@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of the powerful part function (A057521).",
+  "id": "A370902",
+  "mentions": [
+    "A057521",
+    "A328013",
+    "A370903"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

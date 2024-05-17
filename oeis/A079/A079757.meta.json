@@ -1,5 +1,5 @@
 {
-  "description": "Periodic sequence 1 0 -2 3 -2 0,...",
+  "description": "Periodic sequence 1, 0, -2, 3, -2, 0, ...",
   "id": "A079757",
   "mentions": [
     "A057079"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

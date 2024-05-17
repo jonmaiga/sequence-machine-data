@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k * sigma(k)-1 is a prime.",
+  "description": "Numbers k such that k*sigma(k) - 1 is a prime.",
   "id": "A063451",
   "mentions": [],
   "tags": [

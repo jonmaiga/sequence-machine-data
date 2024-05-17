@@ -1,17 +1,17 @@
 {
-  "description": "Triangular form sequence made from a version of A082605 Euler extension.",
+  "description": "Irregular triangle T(n, k) = b(n) + k^2 + k + 1, where b(n) = A056486(n-1) - (1/2)*[n=1], for n >= 1 and 1 <= k <= b(n) - 1, read by rows.",
   "id": "A107448",
   "mentions": [
+    "A056486",
     "A082605"
   ],
   "tags": [
     "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

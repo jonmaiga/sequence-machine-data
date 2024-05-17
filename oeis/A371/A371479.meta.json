@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the numbers k such that 1<=k<=N/2 and k/N + i/N is in the modular group orbit of i, for N = A008784(n).",
+  "id": "A371479",
+  "mentions": [
+    "A008784",
+    "A057756"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

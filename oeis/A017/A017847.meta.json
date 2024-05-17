@@ -1,7 +1,9 @@
 {
   "description": "Expansion of 1/(1-x^6-x^7).",
   "id": "A017847",
-  "mentions": [],
+  "mentions": [
+    "A306713"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 67,
+    "size": 79,
     "source": "joeis"
   }
 }

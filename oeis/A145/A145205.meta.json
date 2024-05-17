@@ -1,7 +1,9 @@
 {
-  "description": "Numbers X such that (X^2-67)/201 is a square",
+  "description": "Numbers X such that (X^2-67)/201 is a square.",
   "id": "A145205",
-  "mentions": [],
+  "mentions": [
+    "A145207"
+  ],
   "tags": [
     "easy",
     "formulas",

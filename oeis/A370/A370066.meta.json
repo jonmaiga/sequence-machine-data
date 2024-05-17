@@ -1,0 +1,16 @@
+{
+  "description": "Number of simple graphs on n labeled nodes with 0 cutpoints (articulation vertices).",
+  "id": "A370066",
+  "mentions": [
+    "A013922",
+    "A370065"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

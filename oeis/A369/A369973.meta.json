@@ -1,0 +1,22 @@
+{
+  "description": "Primorials whose arithmetic derivative is divisible by the next larger prime not present in that primorial.",
+  "id": "A369973",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A003415",
+    "A024451",
+    "A293457",
+    "A369970",
+    "A369972"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

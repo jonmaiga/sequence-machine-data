@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A000203(n) == n*A001221(n).",
+  "description": "Numbers k such that A000203(k) = k*A001221(k).",
   "id": "A260508",
   "mentions": [
     "A000203",
@@ -9,12 +9,11 @@
     "A007774"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 14,
+    "source": "oeis-bfile"
   }
 }

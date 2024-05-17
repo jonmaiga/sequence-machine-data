@@ -1,15 +1,18 @@
 {
-  "description": "5^n mod 10000.",
+  "description": "a(n) = 5^n mod 10000.",
   "id": "A216126",
-  "mentions": [],
+  "mentions": [
+    "A070370"
+  ],
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 46,
-    "source": "joeis"
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
   }
 }

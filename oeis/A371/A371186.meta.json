@@ -1,0 +1,23 @@
+{
+  "description": "Indices of the cubes in the sequence of cubefull numbers.",
+  "id": "A371186",
+  "mentions": [
+    "A000578",
+    "A036966",
+    "A337736",
+    "A361936",
+    "A362974",
+    "A371185",
+    "A371187"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Bases n for which the smallest (Fermat) pseudoprime greater than n has Moebius function mu = -1.",
+  "description": "Bases k for which the smallest (Fermat) pseudoprime greater than k has Moebius function mu = -1.",
   "id": "A074485",
   "mentions": [
     "A007535",
+    "A008683",
     "A074228"
   ],
   "tags": [

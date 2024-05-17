@@ -1,0 +1,19 @@
+{
+  "description": "Largest palindromic square which is a concatenation of partitions of n; or 0 if no such number exists.",
+  "id": "A370512",
+  "mentions": [
+    "A002779",
+    "A079842"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

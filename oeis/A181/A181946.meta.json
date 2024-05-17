@@ -1,17 +1,16 @@
 {
-  "description": "Number of kites, distinct up to congruence, on an (n X n)-grid (or geoboard).",
+  "description": "Number of kites, distinct up to congruence, on an n X n grid (or geoboard).",
   "id": "A181946",
   "mentions": [
     "A181944",
     "A189417"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

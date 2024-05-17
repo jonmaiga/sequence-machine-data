@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 of triangle A370041.",
+  "id": "A370154",
+  "mentions": [
+    "A370041",
+    "A370153",
+    "A370155"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

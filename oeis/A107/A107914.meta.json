@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n that require four iterations of the sigma function to be >= 2n.",
+  "description": "Numbers k that require four iterations of the sigma function to be >= 2*k.",
   "id": "A107914",
   "mentions": [
     "A000203",
+    "A055020",
     "A055021",
     "A107912",
     "A107913"
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

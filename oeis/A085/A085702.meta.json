@@ -1,13 +1,17 @@
 {
-  "description": "Sum of primes dividing n (with repetition) / smallest prime dividing n = largest prime dividing n.",
+  "description": "Numbers k such that the sum of primes dividing k (with repetition) / smallest prime dividing k = largest prime dividing k.",
   "id": "A085702",
-  "mentions": [],
+  "mentions": [
+    "A001414",
+    "A006530",
+    "A020639"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 46,
     "source": "oeis-entry"
   }

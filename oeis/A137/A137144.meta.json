@@ -1,9 +1,18 @@
 {
-  "description": "Numbers n such that n and the square of n use only the digits 4, 6, 7 and 8.",
+  "description": "Numbers k such that k and the square of k use only the digits 4, 6, 7 and 8.",
   "id": "A137144",
-  "mentions": [],
+  "mentions": [
+    "A077439",
+    "A136809",
+    "A136813",
+    "A136985",
+    "A137028",
+    "A137105",
+    "A137147"
+  ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

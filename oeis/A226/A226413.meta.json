@@ -1,10 +1,11 @@
 {
-  "description": "Number of nondecreasing -n..n vectors of length 5 whose dot product with some nondecreasing -n..n vector equals 5",
+  "description": "Number of nondecreasing -n..n vectors of length 5 whose dot product with some nondecreasing -n..n vector equals 5.",
   "id": "A226413",
   "mentions": [
     "A226410"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

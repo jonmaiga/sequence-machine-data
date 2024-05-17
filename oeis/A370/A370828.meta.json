@@ -1,0 +1,19 @@
+{
+  "description": "a(n) are the denominators corresponding to A370827(n).",
+  "id": "A370828",
+  "mentions": [
+    "A370823",
+    "A370827"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

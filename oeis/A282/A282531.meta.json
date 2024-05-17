@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n where records occur for d(n+1)/d(n), where d(n) is A000005(n).",
+  "description": "Numbers k where records occur for d(k+1)/d(k), where d(k) is A000005(k).",
   "id": "A282531",
   "mentions": [
-    "A000005"
+    "A000005",
+    "A372092"
   ],
   "tags": [
     "nonn"

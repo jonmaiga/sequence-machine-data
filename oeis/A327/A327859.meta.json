@@ -1,13 +1,22 @@
 {
-  "description": "a(n) = A276086(A003415(n)), where A003415 is the arithmetic derivative and A276086 converts digits of primorial base representation to exponents in prime factorization.",
+  "description": "a(n) = A276086(A003415(n)), where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
   "id": "A327859",
   "mentions": [
     "A003415",
+    "A008591",
+    "A047257",
     "A048103",
     "A131117",
     "A276086",
     "A327858",
-    "A327860"
+    "A327860",
+    "A341517",
+    "A341518",
+    "A369641",
+    "A369642",
+    "A369650",
+    "A370114",
+    "A370115"
   ],
   "tags": [
     "base",

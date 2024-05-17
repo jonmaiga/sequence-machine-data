@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: row n is the unique primitive Pythagorean triple (a,b,c) such that a = prime(n).",
+  "id": "A370760",
+  "mentions": [
+    "A000040",
+    "A005097",
+    "A065091",
+    "A066885",
+    "A216244"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

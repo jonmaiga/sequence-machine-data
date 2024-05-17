@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that sigma(n)/n, sigma_3(n)/n and sigma_5(n)/n are integers.",
+  "description": "Numbers k such that sigma(k)/k, sigma_3(k)/k and sigma_5(k)/k are all integers.",
   "id": "A076231",
   "mentions": [
+    "A000203",
+    "A001158",
+    "A001160",
     "A007691",
     "A046763",
     "A055709",
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

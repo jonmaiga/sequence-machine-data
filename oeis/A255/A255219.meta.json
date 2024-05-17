@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree numbers n such that mu(n) = mu(phi(n)) where mu(k) is the Möbius function and phi(k) is Euler's totient function.",
+  "description": "Squarefree numbers k such that mu(k) = mu(phi(k)) where mu(k) is the Möbius function and phi(k) is Euler's totient function.",
   "id": "A255219",
   "mentions": [
     "A000010",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

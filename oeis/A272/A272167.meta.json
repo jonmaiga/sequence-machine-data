@@ -2,6 +2,7 @@
   "description": "a(n) = Product_{k=2..n} (k^2-k)^k.",
   "id": "A272167",
   "mentions": [
+    "A002109",
     "A074962",
     "A272168"
   ],

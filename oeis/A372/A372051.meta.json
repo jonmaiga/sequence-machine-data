@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the index of the Lucas number that is a ratio of the sum of the first A000217(n) Fibonacci numbers divided by the largest possible Fibonacci number.",
+  "id": "A372051",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000071",
+    "A000217",
+    "A372048",
+    "A372049",
+    "A372050"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

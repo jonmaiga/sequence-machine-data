@@ -1,0 +1,21 @@
+{
+  "description": "Maximum second Zagreb index of maximal outerplanar graphs with n vertices.",
+  "id": "A372027",
+  "mentions": [
+    "A002378",
+    "A051624",
+    "A152811",
+    "A371912",
+    "A372025",
+    "A372026"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

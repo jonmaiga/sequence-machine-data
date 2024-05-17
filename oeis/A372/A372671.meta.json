@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = phi(6 * n)/2.",
+  "id": "A372671",
+  "mentions": [
+    "A008683",
+    "A372637",
+    "A372673"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

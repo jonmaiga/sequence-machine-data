@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k > 2 such that all positive values of k - 2^(2^m) are prime, with integer m >= 0.",
+  "id": "A370523",
+  "mentions": [
+    "A039669",
+    "A129613"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

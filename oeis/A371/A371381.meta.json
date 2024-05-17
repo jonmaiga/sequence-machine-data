@@ -1,0 +1,23 @@
+{
+  "description": "Main diagonal of A219875.",
+  "id": "A371381",
+  "mentions": [
+    "A001622",
+    "A019446",
+    "A101332",
+    "A101863",
+    "A101867",
+    "A219875",
+    "A371382"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

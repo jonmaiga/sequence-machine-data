@@ -1,0 +1,16 @@
+{
+  "description": "Lowest prime p in a ladder of 5 consecutive primes p, p+2, p+6, p+14, p+30.",
+  "id": "A372248",
+  "mentions": [
+    "A372085",
+    "A372247"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

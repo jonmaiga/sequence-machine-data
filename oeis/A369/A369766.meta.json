@@ -1,0 +1,17 @@
+{
+  "description": "Maximal coefficient of Product_{i=1..n} Sum_{j=0..i} x^(i*j).",
+  "id": "A369766",
+  "mentions": [
+    "A000140",
+    "A025591",
+    "A052335"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

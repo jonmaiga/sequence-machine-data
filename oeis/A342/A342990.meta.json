@@ -2,6 +2,7 @@
   "description": "Number of horizontally or vertically semicyclic diagonal Latin squares of order 2n+1.",
   "id": "A342990",
   "mentions": [
+    "A007705",
     "A071607",
     "A338562",
     "A343867"

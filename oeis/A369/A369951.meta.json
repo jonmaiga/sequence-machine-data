@@ -1,0 +1,18 @@
+{
+  "description": "Volumes of integer-sided cuboids in which either the surface area divides the volume or vice versa (assuming dimensionless unit of length).",
+  "id": "A369951",
+  "mentions": [
+    "A066955",
+    "A230400"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

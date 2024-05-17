@@ -2,6 +2,8 @@
   "description": "Numbers k such that the square of the number of divisors of k does not divide the sum of the divisors of k.",
   "id": "A049692",
   "mentions": [
+    "A000005",
+    "A000203",
     "A003601",
     "A049642",
     "A049645"
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

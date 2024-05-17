@@ -2,14 +2,19 @@
   "description": "Row sums of array in A055450.",
   "id": "A055451",
   "mentions": [
-    "A055450"
+    "A055450",
+    "A055452",
+    "A055453",
+    "A055454",
+    "A055455"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

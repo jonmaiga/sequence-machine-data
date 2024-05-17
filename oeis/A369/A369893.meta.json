@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} n^tau(n/p).",
+  "id": "A369893",
+  "mentions": [
+    "A000005",
+    "A062799",
+    "A319131"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

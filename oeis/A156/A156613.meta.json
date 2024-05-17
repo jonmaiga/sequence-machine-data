@@ -1,7 +1,10 @@
 {
-  "description": "First nonzero digit in decimal expansion in (e^n)/n!",
+  "description": "First nonzero digit in decimal expansion in (e^n)/n!.",
   "id": "A156613",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A001113"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

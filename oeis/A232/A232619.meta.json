@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) and sigma(2*n) are triangular numbers.",
+  "description": "Numbers k such that sigma(k) and sigma(2*k) are triangular numbers.",
   "id": "A232619",
   "mentions": [
     "A000203",
@@ -9,12 +9,11 @@
   ],
   "tags": [
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*(3*n+1)!/(2*n+2)!.",
+  "id": "A370054",
+  "mentions": [
+    "A000142",
+    "A001763",
+    "A006013",
+    "A370055"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

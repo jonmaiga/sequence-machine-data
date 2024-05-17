@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n divides the concatenation all divisors in ascending order, i.e., n divides A037278(n).",
+  "description": "Numbers k such that k divides the concatenation all divisors in ascending order, i.e., k divides A037278(k).",
   "id": "A069872",
   "mentions": [
     "A037278",

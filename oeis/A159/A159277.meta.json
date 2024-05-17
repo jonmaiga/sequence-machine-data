@@ -7,12 +7,11 @@
   "tags": [
     "easy",
     "formulas",
-    "nonn",
-    "obsc"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-entry"
   }
 }

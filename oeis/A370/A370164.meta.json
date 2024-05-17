@@ -1,0 +1,19 @@
+{
+  "description": "The number of residues mod n that occur among the Markov numbers.",
+  "id": "A370164",
+  "mentions": [
+    "A002559",
+    "A327345",
+    "A368546",
+    "A370852"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

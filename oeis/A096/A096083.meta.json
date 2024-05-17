@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the squared digits of n plus the largest digit of n is a square.",
+  "description": "Numbers k such that the sum of the squared digits of k plus the largest digit of k is a square.",
   "id": "A096083",
   "mentions": [
     "A003132",

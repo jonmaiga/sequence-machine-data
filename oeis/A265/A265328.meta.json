@@ -1,19 +1,20 @@
 {
-  "description": "Carmichael numbers (A002997) n such that n-1 is a perfect power (A001597).",
+  "description": "Carmichael numbers (A002997) k such that k-1 is a perfect power (A001597).",
   "id": "A265328",
   "mentions": [
     "A001597",
     "A002997",
+    "A135590",
+    "A265285",
     "A270840"
   ],
   "tags": [
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

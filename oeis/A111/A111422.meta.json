@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = n-th decimal digit of the fraction formed by the cube root of the n-th prime.",
+  "description": "a(n) = n-th decimal digit of the fractional part of the cube root of the n-th prime.",
   "id": "A111422",
-  "mentions": [],
+  "mentions": [
+    "A071901"
+  ],
   "tags": [
     "base",
     "easy",

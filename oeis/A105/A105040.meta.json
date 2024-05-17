@@ -1,7 +1,9 @@
 {
-  "description": "Nonnegative n such that 7*n^2 + 7*n + 1 is a square.",
+  "description": "Nonnegative k such that 7*k^2 + 7*k + 1 is a square.",
   "id": "A105040",
-  "mentions": [],
+  "mentions": [
+    "A253460"
+  ],
   "tags": [
     "easy",
     "formulas",

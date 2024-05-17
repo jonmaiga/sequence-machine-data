@@ -1,8 +1,10 @@
 {
-  "description": "n^k has n divisors for some k >= 1.",
+  "description": "Numbers m such that m^k has m divisors for some k >= 1.",
   "id": "A180934",
   "mentions": [
     "A000005",
+    "A036878",
+    "A046315",
     "A180935"
   ],
   "tags": [

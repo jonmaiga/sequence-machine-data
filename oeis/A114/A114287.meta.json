@@ -1,15 +1,8 @@
 {
-  "description": "Sum of the cubes of the first n cubeful numbers.",
+  "description": "Sum of the cubes of the first n noncubefree numbers.",
   "id": "A114287",
   "mentions": [
-    "A000217",
-    "A000537",
-    "A004709",
-    "A005117",
-    "A013929",
     "A046099",
-    "A111715",
-    "A111732",
     "A114286"
   ],
   "tags": [

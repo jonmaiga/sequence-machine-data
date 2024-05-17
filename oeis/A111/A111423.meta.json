@@ -1,7 +1,10 @@
 {
-  "description": "a(n) = n-th decimal digit of the fraction formed by the 4th root of the n-th prime.",
+  "description": "a(n) = n-th decimal digit of the fractional part formed by the 4th root of the n-th prime.",
   "id": "A111423",
-  "mentions": [],
+  "mentions": [
+    "A071901",
+    "A111422"
+  ],
   "tags": [
     "base",
     "easy",

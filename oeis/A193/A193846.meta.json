@@ -8,12 +8,13 @@
     "A193849"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 44,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

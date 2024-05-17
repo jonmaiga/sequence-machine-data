@@ -1,0 +1,15 @@
+{
+  "description": "Sums of antidiagonals of A372001.",
+  "id": "A371999",
+  "mentions": [
+    "A372001"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

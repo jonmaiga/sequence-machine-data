@@ -2,7 +2,9 @@
   "description": "English name for number and its reverse have the same number of letters.",
   "id": "A107322",
   "mentions": [
-    "A002113"
+    "A002113",
+    "A004086",
+    "A005589"
   ],
   "tags": [
     "base",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 64,
-    "source": "oeis-entry"
+    "size": 65,
+    "source": "oeis-bfile"
   }
 }

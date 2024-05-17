@@ -1,5 +1,5 @@
 {
-  "description": "A convolution triangle of numbers based on A001906 (even indexed Fibonacci numbers).",
+  "description": "A convolution triangle of numbers based on A001906 (even-indexed Fibonacci numbers).",
   "id": "A125662",
   "mentions": [
     "A000012",

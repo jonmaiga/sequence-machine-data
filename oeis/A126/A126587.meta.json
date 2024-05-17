@@ -2,6 +2,7 @@
   "description": "a(n) is the number of integer lattice points inside the right triangle with legs 3n and 4n (and hypotenuse 5n).",
   "id": "A126587",
   "mentions": [
+    "A000326",
     "A186424",
     "A193832"
   ],

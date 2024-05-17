@@ -1,0 +1,16 @@
+{
+  "description": "Number of simple graphs on 2n labeled nodes with n edges where each maximally connected subgraph has at most one cycle.",
+  "id": "A369828",
+  "mentions": [
+    "A144228"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

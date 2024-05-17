@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = binomial(2*n-1,n)*(-1)^n for n>0; a(0) = 1.",
+  "description": "a(n) = binomial(2*n-1, n)*(-1)^n.",
   "id": "A110556",
   "mentions": [
     "A000027",
+    "A000108",
     "A000984",
     "A001700",
     "A007318",
@@ -11,6 +12,7 @@
     "A110555"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

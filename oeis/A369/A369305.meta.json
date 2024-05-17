@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in A343524 that are less than 10^n.",
+  "id": "A369305",
+  "mentions": [
+    "A134941",
+    "A173070",
+    "A343524"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

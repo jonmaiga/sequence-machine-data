@@ -2,9 +2,11 @@
   "description": "Low temperature series for spin-1/2 Ising partition function on 2D square lattice.",
   "id": "A002890",
   "mentions": [
-    "A002891"
+    "A002891",
+    "A006752"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

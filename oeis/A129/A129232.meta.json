@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=Floor(n*r)+Floor((n-2)*r)+Floor((n-4)*r)+...+Floor(k*r), where r = 2^(1/2) and k=0 if n is even, k=1 if n is odd.",
+  "description": "a(n) = floor(n*r) + floor((n-2)*r) + floor((n-4)*r) + ... + floor(k*r), where r = 2^(1/2) and k = 0 if n is even, k = 1 if n is odd.",
   "id": "A129232",
   "mentions": [
     "A129231"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

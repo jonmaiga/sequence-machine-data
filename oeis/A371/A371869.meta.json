@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2-connected chordal bipartite graphs on n unlabeled vertices.",
+  "id": "A371869",
+  "mentions": [
+    "A371867",
+    "A371868"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

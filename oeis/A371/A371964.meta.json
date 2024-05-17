@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of all symmetric valleys in the set of Catalan words of length n.",
+  "id": "A371964",
+  "mentions": [
+    "A000108",
+    "A002694",
+    "A079309",
+    "A371963",
+    "A371965"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

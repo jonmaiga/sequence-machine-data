@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n > 0, the binary expansions of a(n), a(2*n) and a(2*n+1) have a common 1 bit.",
+  "id": "A372143",
+  "mentions": [
+    "A372030",
+    "A372129"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

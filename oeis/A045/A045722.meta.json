@@ -2,6 +2,7 @@
   "description": "Number of border edges in all noncrossing rooted trees on n nodes.",
   "id": "A045722",
   "mentions": [
+    "A006013",
     "A026004"
   ],
   "tags": [

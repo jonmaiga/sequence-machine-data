@@ -1,11 +1,12 @@
 {
-  "description": "Sum_{d|n, d = 0, 1, or 11 mod 12} d.",
+  "description": "a(n) = Sum_{d|n, d = 0, 1, or 11 mod 12} d.",
   "id": "A284372",
   "mentions": [
     "A000203",
     "A113184",
     "A195818",
     "A210964",
+    "A245058",
     "A284361",
     "A284362",
     "A284363"

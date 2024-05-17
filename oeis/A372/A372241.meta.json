@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Product_{j=1..n} j^(ceiling(sqrt(j))).",
+  "id": "A372241",
+  "mentions": [
+    "A088021",
+    "A255322",
+    "A372240"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

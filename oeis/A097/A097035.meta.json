@@ -1,8 +1,8 @@
 {
-  "description": "Initial values for iteration of A063919(x) function such that iteration ends in the 5-cycle, i.e., in A097024.",
+  "description": "Initial values for the iteration of the function f(x) = A063919(x) such that the iteration ends in a 5-cycle, i.e., in A097024.",
   "id": "A097035",
   "mentions": [
-    "A002187",
+    "A002827",
     "A063919",
     "A063991",
     "A097024",

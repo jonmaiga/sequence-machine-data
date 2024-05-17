@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles in the n-triangular honeycomb acute knight graph.",
+  "id": "A370227",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,23 +1,21 @@
 {
-  "description": "Multiply perfect numbers for which quotient=sigma[7,x]/x=A013955[x]/x is nonintegral.",
+  "description": "Multiply perfect numbers k for which the quotient sigma_7(k)/k = A013955(k)/k is nonintegral.",
   "id": "A088846",
   "mentions": [
     "A001158",
-    "A001160",
     "A007691",
     "A013955",
     "A066269",
     "A088843",
+    "A088844",
     "A088845"
   ],
   "tags": [
-    "bref",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 13,
+    "source": "oeis-bfile"
   }
 }

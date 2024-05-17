@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with every 3X3 subblock having three equal elements in a row horizontally, vertically or nw-to-se diagonally exactly one way, and new values 0..2 introduced in row major order",
+  "description": "T(n,k) = Number of (n+2) X (k+2) 0..2 arrays with every 3 X 3 subblock having three equal elements in a row horizontally, vertically or nw-to-se diagonally exactly one way, and new values 0..2 introduced in row major order.",
   "id": "A204945",
   "mentions": [],
   "tags": [

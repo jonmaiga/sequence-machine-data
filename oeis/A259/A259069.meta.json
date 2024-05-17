@@ -2,15 +2,7 @@
   "description": "Decimal expansion of zeta'(-4) (the derivative of Riemann's zeta function at -4).",
   "id": "A259069",
   "mentions": [
-    "A075700",
-    "A084448",
-    "A240966",
-    "A243264",
-    "A259068",
-    "A259070",
-    "A259071",
-    "A259072",
-    "A259073"
+    "A243264"
   ],
   "tags": [
     "cons",

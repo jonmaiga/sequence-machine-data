@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of zeta(5/4).",
+  "id": "A371336",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

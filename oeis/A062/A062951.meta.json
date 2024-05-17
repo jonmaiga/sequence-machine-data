@@ -1,16 +1,17 @@
 {
-  "description": "H(A005117(n)) where H(n) is the half-totient function and A005117(n) are the squarefree numbers.",
+  "description": "a(n) = H(A005117(n)) where H(n) is the half-totient function and A005117(n) are the squarefree numbers.",
   "id": "A062951",
   "mentions": [
     "A005117",
     "A023022"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

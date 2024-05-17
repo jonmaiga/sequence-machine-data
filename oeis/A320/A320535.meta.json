@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions to (x+1)^p - x^p == 1 (mod p) in the range 1 <= x <= p - 2, p = prime(n).",
+  "description": "Number of solutions to (x+1)^p - x^p == 1 (mod p^2) in the range 1 <= x <= p - 2, p = prime(n).",
   "id": "A320535",
   "mentions": [
     "A001220",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

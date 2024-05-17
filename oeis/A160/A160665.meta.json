@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that the arithmetic mean of the first n Lucas numbers A000032 is an integer.",
+  "description": "Numbers k such that the arithmetic mean of the first k Lucas numbers A000032 is an integer.",
   "id": "A160665",
   "mentions": [
     "A000032",
     "A001610",
+    "A111058",
     "A140826",
     "A140971",
     "A140972",

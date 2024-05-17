@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest (prime) integer such that the sequence {p_1, p_2, ..., p_n = a(n)} consists entirely of primes, where p_i = a(n)^(i/n).",
+  "description": "a(n) is the smallest (prime) integer such that the sequence {p_1, p_2, ..., p_n = a(n)} consists entirely of primes, where p_i = floor(a(n)^(i/n)).",
   "id": "A076501",
   "mentions": [
     "A063636",
@@ -7,6 +7,7 @@
     "A076357"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

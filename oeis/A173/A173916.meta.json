@@ -1,8 +1,11 @@
 {
-  "description": "Primes of the form R(n!!-1), where R(k) is the digit reversal of k.",
+  "description": "Primes of the form R(k!!-1), where R(k) is the digit reversal of k.",
   "id": "A173916",
   "mentions": [
+    "A004086",
+    "A006882",
     "A173913",
+    "A173914",
     "A173915"
   ],
   "tags": [

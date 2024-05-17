@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n >= 2, a(n) = a(n - GCD(n - 1, a(n - 1))) + GCD(n, a(n - 1)).",
+  "id": "A364918",
+  "mentions": [
+    "A001462",
+    "A004001",
+    "A005185",
+    "A369772"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

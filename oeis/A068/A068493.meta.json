@@ -1,14 +1,17 @@
 {
-  "description": "Primes which are concatenations of squares.",
+  "description": "Primes which are concatenations of positive squares.",
   "id": "A068493",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A066591"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
-    "source": "oeis-entry"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

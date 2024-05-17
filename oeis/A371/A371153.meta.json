@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the permanent of the 2n+1 X 2n+1 matrix P(2n+1) defined by P[1,j] = 1, P[i,j] = i-1 if i<=j, and P[i,i] = i-n-1 otherwise with 1 <= i,j <= 2n+1.",
+  "id": "A371153",
+  "mentions": [
+    "A000169",
+    "A005408",
+    "A084849",
+    "A085530"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

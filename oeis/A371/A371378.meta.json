@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers wherein digit values decrease, increase, and finally decrease.",
+  "id": "A371378",
+  "mentions": [
+    "A062351",
+    "A062352",
+    "A156116",
+    "A367735"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

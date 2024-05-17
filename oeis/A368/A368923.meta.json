@@ -1,0 +1,18 @@
+{
+  "description": "Number of congruences of the 0-twisted Brauer monoid of degree n.",
+  "id": "A368923",
+  "mentions": [
+    "A008585",
+    "A147677"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

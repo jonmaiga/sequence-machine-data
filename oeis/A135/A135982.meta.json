@@ -1,5 +1,5 @@
 {
-  "description": "2^(24n+7)-1.",
+  "description": "a(n) = 2^(24n+7)-1.",
   "id": "A135982",
   "mentions": [
     "A107006",

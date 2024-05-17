@@ -1,7 +1,9 @@
 {
-  "description": "From generalized Catalan numbers.",
+  "description": "Expansion of hypergeom([3/2, 7/4, 2, 9/4], [7/3, 8/3, 3], (256/27)*x).",
   "id": "A006633",
   "mentions": [
+    "A000027",
+    "A000260",
     "A006631",
     "A006632",
     "A006634",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

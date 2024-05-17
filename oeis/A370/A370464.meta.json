@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of binary relations R on [n] such that the unique idempotent in {R^i:i>=1} contains exactly k non-arcless strongly connected components, n>=0, 0<=k<=n.",
+  "id": "A370464",
+  "mentions": [
+    "A002416",
+    "A003024",
+    "A011266",
+    "A367948",
+    "A370385"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

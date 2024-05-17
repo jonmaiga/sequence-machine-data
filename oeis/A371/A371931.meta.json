@@ -1,0 +1,15 @@
+{
+  "description": "Center column of elementary triangular automaton rule 62, from a lone 1 cell.",
+  "id": "A371931",
+  "mentions": [
+    "A371844"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

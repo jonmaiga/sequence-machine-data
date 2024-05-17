@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; for n>1, a(n) = a(n-1) * k or a(n-1) - k to give the smallest, distinct positive integer, where each k can be used only once.",
+  "id": "A371282",
+  "mentions": [
+    "A081145",
+    "A084337",
+    "A371295"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

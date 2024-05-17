@@ -2,6 +2,7 @@
   "description": "Sturdy prime numbers: p such that in binary notation k*p has at least as many 1-bits as p for all k > 0.",
   "id": "A143027",
   "mentions": [
+    "A000120",
     "A000668",
     "A005360",
     "A019434",
@@ -17,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

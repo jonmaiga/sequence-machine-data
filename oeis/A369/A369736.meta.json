@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. T(n, k) = 0 if n - k is odd otherwise if 4 divides n - k then 1 otherwise -1.",
+  "id": "A369736",
+  "mentions": [
+    "A056594",
+    "A128174",
+    "A133872",
+    "A219977"
+  ],
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

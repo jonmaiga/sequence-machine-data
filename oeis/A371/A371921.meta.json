@@ -1,0 +1,26 @@
+{
+  "description": "The number of iterations of the map x -> A033880(x) starting at n until the a nonpositive number is reached, or 0 if this does not happen.",
+  "id": "A371921",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A005101",
+    "A005820",
+    "A033880",
+    "A069085",
+    "A098007",
+    "A113285",
+    "A263837",
+    "A371920"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

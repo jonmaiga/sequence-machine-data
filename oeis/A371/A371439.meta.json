@@ -1,0 +1,18 @@
+{
+  "description": "Number of bounded polygonal regions formed by drawing all least squares regression lines fitted to n points (j,y_j), 0 <= j < n, where each y_j is 0 or 1.",
+  "id": "A371439",
+  "mentions": [
+    "A000125",
+    "A371437",
+    "A371438"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

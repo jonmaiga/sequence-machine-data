@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1-5*x+6*x^2-x^3)/(1-9*x+28*x^2-35*x^3+15*x^4-x^5).",
+  "id": "A370051",
+  "mentions": [
+    "A007318",
+    "A122588",
+    "A211216",
+    "A221863",
+    "A224422"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

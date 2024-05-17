@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the first of three consecutive Harshad numbers in arithmetic progression.",
+  "id": "A371260",
+  "mentions": [
+    "A005349",
+    "A122535",
+    "A154701"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

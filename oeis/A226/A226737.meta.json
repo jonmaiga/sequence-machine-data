@@ -1,5 +1,5 @@
 {
-  "description": "11^n + n.",
+  "description": "a(n) = 11^n + n.",
   "id": "A226737",
   "mentions": [
     "A006127",

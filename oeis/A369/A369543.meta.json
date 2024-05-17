@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; for n >= 0, a(n+1) = n - a(n) if a(n) odd, else a(n+1) = floor((3*n + a(n))/2).",
+  "id": "A369543",
+  "mentions": [
+    "A133058"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

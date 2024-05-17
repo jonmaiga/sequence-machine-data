@@ -1,0 +1,18 @@
+{
+  "description": "Number of standard hexagonal Young tableaux with n cells.",
+  "id": "A370665",
+  "mentions": [
+    "A000085",
+    "A173258",
+    "A300121"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1 / ( (1 - x)*(1 + 2*x)*(1 - 4*x) )^(1/3).",
+  "id": "A370781",
+  "mentions": [
+    "A370145"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

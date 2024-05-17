@@ -1,0 +1,21 @@
+{
+  "description": "For a positive number k, let L(k) denote the list consisting of k followed by the prime factors of k, with repetition, in nondecreasing order; sequence gives composite k such that the digits of L(k) alternate being smaller than and then larger than the previous digit.",
+  "id": "A372336",
+  "mentions": [
+    "A056704",
+    "A372029",
+    "A372034",
+    "A372280",
+    "A372308",
+    "A372335"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

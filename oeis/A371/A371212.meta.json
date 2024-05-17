@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered factorizations of n into factors > 4.",
+  "id": "A371212",
+  "mentions": [
+    "A002033",
+    "A017899",
+    "A074206",
+    "A185325",
+    "A371209",
+    "A371211",
+    "A371213"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

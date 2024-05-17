@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + 16*x*A(x)/(1 - x*A(x)) )^(1/4).",
+  "id": "A372020",
+  "mentions": [
+    "A372005",
+    "A372018",
+    "A372019"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

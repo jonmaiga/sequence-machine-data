@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form (4^(p^(k+1)) + 1)/(4^(p^k)) + 1), where k >= 1 and p is an odd prime other than 5.",
+  "id": "A371757",
+  "mentions": [
+    "A001567",
+    "A210454",
+    "A293626"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

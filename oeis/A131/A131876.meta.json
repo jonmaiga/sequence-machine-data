@@ -1,8 +1,7 @@
 {
-  "description": "2*A131873 - A000012.",
+  "description": "2*A131873 - 1.",
   "id": "A131876",
   "mentions": [
-    "A000012",
     "A016921",
     "A131873",
     "A131877",
@@ -15,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

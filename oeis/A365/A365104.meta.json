@@ -11,12 +11,13 @@
     "A365102"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

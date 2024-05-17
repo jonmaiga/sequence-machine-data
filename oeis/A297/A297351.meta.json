@@ -1,7 +1,9 @@
 {
   "description": "Smallest number k such that, for any set S of k distinct nonzero residues mod p = prime(n), any residue mod p can be represented as a sum of zero or more distinct elements of S.",
   "id": "A297351",
-  "mentions": [],
+  "mentions": [
+    "A060019"
+  ],
   "tags": [
     "formulas",
     "hard",

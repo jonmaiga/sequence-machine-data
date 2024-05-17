@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: A(x) = 1/(1 - LambertW(-x)^2).",
+  "description": "Expansion of e.g.f. A(x) = 1/(1 - LambertW(-x)^2).",
   "id": "A134095",
   "mentions": [
     "A060435",

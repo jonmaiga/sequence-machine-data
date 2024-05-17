@@ -2,6 +2,7 @@
   "description": "Array read by antidiagonals: T(n,k) = Porta-Stolarsky star product T(n,k) = n * k = nk + floor(phi n) floor(phi k) where phi = (1 + sqrt(5))/2.",
   "id": "A101858",
   "mentions": [
+    "A001622",
     "A001950",
     "A101330",
     "A101385",

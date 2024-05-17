@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets of the integer lattice Z^2 of cardinality n such that there is no monotone lattice path which splits the set in half, up to lattice symmetry.",
+  "id": "A369382",
+  "mentions": [
+    "A000009",
+    "A000292",
+    "A005232",
+    "A367783"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

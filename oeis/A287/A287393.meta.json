@@ -1,5 +1,5 @@
 {
-  "description": "Domination number for knight's graph on a 2 X n board.",
+  "description": "Domination number for knight graph on a 2 X n board.",
   "id": "A287393",
   "mentions": [
     "A099480",

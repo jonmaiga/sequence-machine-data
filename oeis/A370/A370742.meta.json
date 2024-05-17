@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} H(k-1) * F(k) / (k*2^k), where H(k) = A001008(k)/A002805(k) is the k-th harmonic number and F(k) = A000045(k) is the k-th Fibonacci number.",
+  "id": "A370742",
+  "mentions": [
+    "A000045",
+    "A001008",
+    "A001622",
+    "A002162",
+    "A002163",
+    "A002390",
+    "A002805",
+    "A349850",
+    "A370743"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

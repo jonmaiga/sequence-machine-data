@@ -1,0 +1,16 @@
+{
+  "description": "Inverse permutation to A371214.",
+  "id": "A371215",
+  "mentions": [
+    "A371214"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

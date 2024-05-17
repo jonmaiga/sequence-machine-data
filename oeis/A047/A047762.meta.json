@@ -1,7 +1,9 @@
 {
-  "description": "Number of dissectable polyhedra with symmetry of type E.",
+  "description": "Number of chiral pairs of dissectable polyhedra with n tetrahedral cells and symmetry of type E.",
   "id": "A047762",
   "mentions": [
+    "A001764",
+    "A007173",
     "A027610",
     "A047749",
     "A047751",
@@ -10,7 +12,8 @@
     "A047754",
     "A047758",
     "A047760",
-    "A047763"
+    "A047763",
+    "A371350"
   ],
   "tags": [
     "formulas",

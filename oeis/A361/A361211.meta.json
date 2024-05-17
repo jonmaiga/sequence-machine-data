@@ -1,5 +1,5 @@
 {
-  "description": "Busy Beaver for the Binary Lambda Calculus (BLC) language: the maximum output size of self-delimiting BLC programs of size n, or 0 if no program of size n exists.",
+  "description": "Busy Beaver for the Binary Lambda Calculus (BLC) language BBλ2: the maximum output size of self-delimiting BLC programs of size n, or 0 if no program of size n exists.",
   "id": "A361211",
   "mentions": [
     "A333479"

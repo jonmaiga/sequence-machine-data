@@ -3,11 +3,12 @@
   "id": "A158904",
   "mentions": [],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

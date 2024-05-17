@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n * Sum_{p|n, p prime} pi(n/p) / p.",
+  "id": "A369869",
+  "mentions": [
+    "A000720",
+    "A345301",
+    "A369745",
+    "A369747",
+    "A369868"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

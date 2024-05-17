@@ -1,5 +1,5 @@
 {
-  "description": "Composite n such that p-1 divides n-1 for each prime divisor of n-1.",
+  "description": "Composites k such that p-1 divides k-1 for each prime divisor of k-1.",
   "id": "A272600",
   "mentions": [
     "A080062",

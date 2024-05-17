@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that the sum of the final digits of the prime-power divisors of k (including 1) is n.",
+  "id": "A371885",
+  "mentions": [
+    "A000961",
+    "A367502"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

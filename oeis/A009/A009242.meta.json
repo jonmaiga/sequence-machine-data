@@ -2,15 +2,18 @@
   "description": "a(n) = lcm(n, sigma(n)).",
   "id": "A009242",
   "mentions": [
-    "A017665"
+    "A009194",
+    "A017665",
+    "A064987"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

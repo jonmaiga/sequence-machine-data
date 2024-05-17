@@ -1,0 +1,45 @@
+{
+  "description": "Greatest number of multisets that can be obtained by choosing a prime factor of each factor in an integer factorization of n into unordered factors > 1.",
+  "id": "A370817",
+  "mentions": [
+    "A000005",
+    "A000792",
+    "A001055",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A027746",
+    "A045778",
+    "A048249",
+    "A066739",
+    "A096825",
+    "A112798",
+    "A319055",
+    "A319057",
+    "A343943",
+    "A345926",
+    "A355529",
+    "A355535",
+    "A355741",
+    "A355744",
+    "A355745",
+    "A367771",
+    "A368100",
+    "A368413",
+    "A368414",
+    "A370585",
+    "A370808",
+    "A370809",
+    "A370813",
+    "A370814",
+    "A370816"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

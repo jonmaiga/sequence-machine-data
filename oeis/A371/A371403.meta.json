@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that prime(k), prime(k+1), prime(k+2), ..., prime(k+n) all have the same last digit.",
+  "id": "A371403",
+  "mentions": [
+    "A000040",
+    "A107730",
+    "A129750",
+    "A371390"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

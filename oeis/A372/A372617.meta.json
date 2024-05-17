@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=2, among all distinct circles that can be constructed from the 3 vertices and the equally spaced 3*n points placed on the sides of an equilateral triangle, using only a compass.",
+  "id": "A372617",
+  "mentions": [
+    "A360354",
+    "A361623",
+    "A371376",
+    "A372614",
+    "A372615",
+    "A372616",
+    "A372682"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

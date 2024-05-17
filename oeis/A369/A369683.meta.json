@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying Sum_{n>=0} (-1)^n * x^n * Product_{k=0..n} (x^(2*k+1) + A(x)) = theta_3(x).",
+  "id": "A369683",
+  "mentions": [
+    "A000122",
+    "A369672",
+    "A369682",
+    "A369684"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

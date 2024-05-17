@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n - A329004(n).",
+  "id": "A369183",
+  "mentions": [
+    "A067128",
+    "A329004"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

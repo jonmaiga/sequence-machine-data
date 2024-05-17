@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factors of powerful numbers (A001694).",
+  "description": "a(1) = 1; thereafter a(n) = smallest prime factor of the powerful number A001694(n).",
   "id": "A258567",
   "mentions": [
     "A000040",

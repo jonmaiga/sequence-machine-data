@@ -1,0 +1,26 @@
+{
+  "description": "Partial alternating sums of the powerful part function (A057521).",
+  "id": "A370903",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A057521",
+    "A068762",
+    "A068773",
+    "A078434",
+    "A307704",
+    "A357817",
+    "A362028",
+    "A370902"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

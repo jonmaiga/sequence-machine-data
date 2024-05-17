@@ -1,5 +1,5 @@
 {
-  "description": "All digits are composite.",
+  "description": "Numbers in which all digits are composite.",
   "id": "A029581",
   "mentions": [
     "A001743",

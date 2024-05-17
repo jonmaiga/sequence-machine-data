@@ -1,0 +1,17 @@
+{
+  "description": "n-th digit of the decimal expansion of 1/n, with the digit to the left of the decimal point counted as the first digit.",
+  "id": "A369841",
+  "mentions": [
+    "A061480"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

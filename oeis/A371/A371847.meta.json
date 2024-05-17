@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2^86243 - 1, the 28th Mersenne prime.",
+  "id": "A371847",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A028335"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 25962,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

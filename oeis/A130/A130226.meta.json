@@ -1,5 +1,5 @@
 {
-  "description": "Smallest integer x satisfying the Pell equation x^2-ny^2=-1 for the values of n given in A031396.",
+  "description": "Smallest integer x satisfying the Pell equation x^2-k*y^2=-1 for the values of k given in A031396.",
   "id": "A130226",
   "mentions": [
     "A031396",

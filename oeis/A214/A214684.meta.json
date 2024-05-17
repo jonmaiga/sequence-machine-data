@@ -2,6 +2,8 @@
   "description": "a(1)=1, a(2)=1, and, for n>2, a(n)=(a(n-1)+a(n-2))/5^k, where 5^k is the highest power of 5 dividing a(n-1)+a(n-2).",
   "id": "A214684",
   "mentions": [
+    "A010892",
+    "A049347",
     "A078412",
     "A078414",
     "A132739"
@@ -14,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

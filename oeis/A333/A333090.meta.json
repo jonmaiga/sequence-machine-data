@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the n-th order Taylor polynomial (centered at 0) of S(x)^n evaluated at x = 1, where S(x) = (1 - x - sqrt(1 - 6*x + x^2))/(2*x) is the o.g.f. of the Schröder numbers A006318.",
+  "description": "a(n) is equal to the n-th order Taylor polynomial (centered at 0) of S(x)^n evaluated at x = 1, where S(x) = (1 - x - sqrt(1 - 6*x + x^2))/(2*x) is the o.g.f. of the Schröder numbers A006318.",
   "id": "A333090",
   "mentions": [
     "A001622",
@@ -9,7 +9,9 @@
     "A333091",
     "A333092",
     "A333093",
-    "A333097"
+    "A333097",
+    "A372214",
+    "A372215"
   ],
   "tags": [
     "easy",

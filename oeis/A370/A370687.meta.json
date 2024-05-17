@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first number that is the sum of k successive semiprimes for 1 <= k <= n.",
+  "id": "A370687",
+  "mentions": [
+    "A001358",
+    "A092192",
+    "A370162",
+    "A370685"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

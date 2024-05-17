@@ -2,7 +2,8 @@
   "description": "Areas of primitive Heron triangles with two rational triangle medians.",
   "id": "A223941",
   "mentions": [
-    "A181928"
+    "A181928",
+    "A360537"
   ],
   "tags": [
     "hard",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

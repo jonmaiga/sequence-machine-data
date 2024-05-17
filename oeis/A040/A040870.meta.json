@@ -2,7 +2,9 @@
   "description": "Continued fraction for sqrt(901).",
   "id": "A040870",
   "mentions": [
-    "A040000"
+    "A040000",
+    "A042740",
+    "A042741"
   ],
   "tags": [
     "cofr",

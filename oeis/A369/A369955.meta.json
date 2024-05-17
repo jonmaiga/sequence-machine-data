@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least integer m such that the sum of the digits of m^2 is 9*(k+n) where k is the number of digits of m.",
+  "id": "A369955",
+  "mentions": [
+    "A004159",
+    "A067179",
+    "A369953"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

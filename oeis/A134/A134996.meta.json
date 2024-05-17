@@ -2,6 +2,7 @@
   "description": "Dihedral calculator primes: p, p upside down, p in a mirror, p upside-down-and-in-a-mirror are all primes.",
   "id": "A134996",
   "mentions": [
+    "A048661",
     "A134997",
     "A134998"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

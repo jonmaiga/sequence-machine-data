@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum[Sum[(i+j)!/(i!*j!),{i,1,n}],{j,1,n}].",
+  "description": "a(n) = Sum_{j = 1..n} Sum_{i = 1..n} (i + j)! / (i! * j!).",
   "id": "A144657",
   "mentions": [
     "A048775"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

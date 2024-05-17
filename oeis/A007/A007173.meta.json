@@ -2,6 +2,9 @@
   "description": "Number of simplicial 3-clusters with n cells.",
   "id": "A007173",
   "mentions": [
+    "A001683",
+    "A001764",
+    "A007175",
     "A027610",
     "A047751",
     "A047752",
@@ -18,10 +21,13 @@
     "A047773",
     "A047774",
     "A047775",
-    "A047776"
+    "A047776",
+    "A371350",
+    "A371351"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

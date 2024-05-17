@@ -1,5 +1,5 @@
 {
-  "description": "Number of zero trace primitive elements in Galois field GF(7^n)",
+  "description": "Number of zero trace primitive elements in Galois field GF(7^n).",
   "id": "A192214",
   "mentions": [
     "A192211",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

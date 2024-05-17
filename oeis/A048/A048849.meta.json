@@ -2,6 +2,8 @@
   "description": "a(n) = prime(phi(n)) + phi(prime(n)).",
   "id": "A048849",
   "mentions": [
+    "A000010",
+    "A000040",
     "A048848"
   ],
   "tags": [
@@ -9,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 53,
-    "source": "joeis"
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length-n Catalan-RGS (restricted growth strings) such that the RGS is a valid mixed radix number in falling factorial basis.",
+  "description": "Number of length-n Catalan-RGS (restricted growth strings) such that the RGS is a valid mixed-radix number in falling factorial basis.",
   "id": "A206464",
   "mentions": [
     "A080935",

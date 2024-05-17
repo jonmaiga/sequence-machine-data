@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/7)} binomial(n-4*k,3*k).",
+  "id": "A370722",
+  "mentions": [
+    "A003520",
+    "A003522",
+    "A005689",
+    "A100134",
+    "A137356",
+    "A348289"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

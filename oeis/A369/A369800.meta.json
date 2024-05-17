@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the parity of the successive bits of the concatenated binary expansions of the terms is equal to the parity of the terms.",
+  "id": "A369800",
+  "mentions": [
+    "A030190"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

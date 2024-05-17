@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-trees with n unlabeled nodes.",
+  "id": "A370770",
+  "mentions": [
+    "A000012",
+    "A000055",
+    "A054581",
+    "A078792",
+    "A078793",
+    "A135021",
+    "A201702",
+    "A202037",
+    "A322754",
+    "A370771",
+    "A370772",
+    "A370773"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

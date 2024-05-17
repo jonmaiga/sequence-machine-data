@@ -1,17 +1,19 @@
 {
-  "description": "Triangle a(n,m) = A039701(n) + A039701(m) - A039701(n)*A039701(m) read by rows.",
+  "description": "Triangle, T(n,k) = A039701(n) + A039701(k) - A039701(n)*A039701(k), read by rows.",
   "id": "A118683",
   "mentions": [
-    "A039701"
+    "A039701",
+    "A099618"
   ],
   "tags": [
     "easy",
+    "less",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 106,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

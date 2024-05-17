@@ -2,9 +2,11 @@
   "description": "Number of permutations of [1..n] which avoid 4231 and 42513.",
   "id": "A098746",
   "mentions": [
+    "A000108",
     "A001764"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

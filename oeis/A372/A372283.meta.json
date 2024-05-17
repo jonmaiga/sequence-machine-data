@@ -1,0 +1,30 @@
+{
+  "description": "Array read by upward antidiagonals: A(n, k) = R(A(n-1, k)) for n > 1, k >= 1; A(1, k) = 2*k-1, where Reduced Collatz function R(n) gives the odd part of 3n+1.",
+  "id": "A372283",
+  "mentions": [
+    "A005408",
+    "A075677",
+    "A075680",
+    "A256598",
+    "A257852",
+    "A258145",
+    "A371093",
+    "A371095",
+    "A372282",
+    "A372287",
+    "A372288",
+    "A372360",
+    "A372361",
+    "A372443"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

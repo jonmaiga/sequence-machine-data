@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = A371898(n, k) / A371767(n, k).",
+  "id": "A371766",
+  "mentions": [
+    "A181783",
+    "A371767",
+    "A371898"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

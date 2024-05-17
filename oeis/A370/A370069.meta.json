@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct integers such that the concatenated binary expansions of the terms is A010051.",
+  "id": "A370069",
+  "mentions": [
+    "A003714",
+    "A010051",
+    "A022340",
+    "A030190",
+    "A139102"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

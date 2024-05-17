@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that f(p) > f(q) for all q < p, where f(n) is the sum of factorials of the digits of n if that sum is the square of a prime, otherwise f(n)=0.",
+  "description": "Primes p such that f(p) > f(q) for all primes q < p, where f(n) is the sum of factorials of the digits of n if that sum is the square of a prime, otherwise f(n)=0.",
   "id": "A052286",
   "mentions": [
     "A000040",
@@ -9,13 +9,11 @@
   ],
   "tags": [
     "base",
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

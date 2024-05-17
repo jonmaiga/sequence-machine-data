@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k = 1..n-1 such that n == k (mod 2^k)} 2^(k-1).",
+  "description": "a(n) = Sum_{k = 1..n-1 such that n == k (mod 2^k)} 2^(k-1).",
   "id": "A103528",
   "mentions": [
     "A000523",

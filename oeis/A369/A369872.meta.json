@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of -2*gamma + 2*log(2*Pi), where gamma=A001620 is the Euler-Mascheroni constant.",
+  "id": "A369872",
+  "mentions": [
+    "A001620",
+    "A023900",
+    "A061444",
+    "A191898",
+    "A344326"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,17 @@
 {
-  "description": "Numbers n such that there exists a k less than n with k*n and n^2 having an equal number of divisors.",
+  "description": "Numbers m such that there exists a number k less than m with k*m and m^2 having an equal number of divisors.",
   "id": "A093617",
   "mentions": [
     "A000005",
     "A000290",
+    "A007913",
+    "A013929",
     "A048691",
     "A093616",
     "A093618"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

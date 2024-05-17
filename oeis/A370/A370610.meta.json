@@ -1,0 +1,21 @@
+{
+  "description": "Squares such that any two consecutive decimal digits differ by 1 after arranging the digits in decreasing order.",
+  "id": "A370610",
+  "mentions": [
+    "A036745",
+    "A215014",
+    "A370362",
+    "A370370"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

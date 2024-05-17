@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Gamma(3/2) * zeta(3/2).",
+  "id": "A371356",
+  "mentions": [
+    "A019704",
+    "A078434"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} sqrt(k)*exp(-k/2).",
+  "id": "A372479",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

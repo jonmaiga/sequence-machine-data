@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (0 <= n, 0 <= k < 2^n). T(n,k) = -Sum_{i=0..k} A365968(n,i).",
+  "id": "A367076",
+  "mentions": [
+    "A000217",
+    "A004074",
+    "A028552",
+    "A192021",
+    "A249071",
+    "A274575",
+    "A277914",
+    "A296062",
+    "A365968"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

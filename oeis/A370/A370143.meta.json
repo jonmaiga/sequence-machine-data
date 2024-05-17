@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying Sum_{n>=0} Product_{k=1..n} (x^k + 3*A(x)) = 1 + 4*Sum_{n>=1} x^(n*(n+1)/2).",
+  "id": "A370143",
+  "mentions": [
+    "A370140",
+    "A370141",
+    "A370142",
+    "A370144"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

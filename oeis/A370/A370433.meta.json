@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. T(x,k) satisfying T(x,k) = (1/k) * sinh( k*x*cosh(x*sqrt(1 + k^2*T(x,k)^2)) ), as a triangle read by rows.",
+  "id": "A370433",
+  "mentions": [
+    "A007106",
+    "A370333",
+    "A370430",
+    "A370431",
+    "A370432"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

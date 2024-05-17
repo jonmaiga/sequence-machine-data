@@ -2,11 +2,14 @@
   "description": "Decimal expansion of sqrt(4+sqrt(15)).",
   "id": "A188924",
   "mentions": [
+    "A020797",
+    "A115754",
     "A188640",
     "A188925"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

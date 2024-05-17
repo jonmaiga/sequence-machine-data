@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4Xn binary matrices M with rows in strictly increasing order and rows of M*Mtranspose (mod 2) in strictly increasing order",
+  "description": "Number of 4 X n binary matrices M with rows in strictly increasing order and rows of M*transpose(M) (mod 2) in strictly increasing order.",
   "id": "A181272",
   "mentions": [
     "A181266"

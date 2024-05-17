@@ -1,7 +1,8 @@
 {
-  "description": "Triangle read by rows: binomial(n,floor(m^(1/3))).",
+  "description": "Triangle read by rows: binomial(n, m^3).",
   "id": "A177815",
   "mentions": [
+    "A000581",
     "A003099",
     "A181543"
   ],

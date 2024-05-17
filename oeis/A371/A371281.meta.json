@@ -1,0 +1,20 @@
+{
+  "description": "Last digit of the product of decimal digits of n.",
+  "id": "A371281",
+  "mentions": [
+    "A007954",
+    "A010879",
+    "A036987",
+    "A053837"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

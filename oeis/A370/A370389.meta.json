@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct multisets of cycle lengths in the cell mapping schemes in extended self-orthogonal diagonal Latin squares of order n.",
+  "id": "A370389",
+  "mentions": [
+    "A309210",
+    "A309598",
+    "A309599"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

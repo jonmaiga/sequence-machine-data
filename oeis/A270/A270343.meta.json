@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that end with ( sum of digits of n )^2.",
+  "description": "Numbers k that end with ( sum of digits of k )^2.",
   "id": "A270343",
   "mentions": [
     "A003226",

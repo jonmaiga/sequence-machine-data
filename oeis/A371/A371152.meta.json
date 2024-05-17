@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: row n lists numbers m >= 2 with A362333(m) = n.",
+  "id": "A371152",
+  "mentions": [
+    "A048839",
+    "A057109",
+    "A362333"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Define the sequence S(a(0)a(1)) by a(n+2) is the least integer such that a(n+2)/a(n+1) > a(n+1)/a(n) for n >= 0. This is S(6,66).",
+  "description": "Define the sequence S(a(0),a(1)) by a(n+2) is the least integer such that a(n+2)/a(n+1) > a(n+1)/a(n) for n >= 0. This is S(6,66).",
   "id": "A022024",
   "mentions": [
     "A022018",

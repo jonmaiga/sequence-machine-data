@@ -1,12 +1,15 @@
 {
   "description": "4-infinitary perfect numbers: n such that 4-infinitary-sigma(n)=2*n.",
   "id": "A074849",
-  "mentions": [],
+  "mentions": [
+    "A074847"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 7,
     "source": "oeis-entry"
   }

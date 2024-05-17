@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A068346(A276086(n)), where A068346 is the second arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A370131",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A068346",
+    "A143293",
+    "A276086",
+    "A327860",
+    "A328233",
+    "A328240",
+    "A369651",
+    "A370130"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

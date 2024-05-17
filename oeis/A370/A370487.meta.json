@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of [3n] into 3 sets of size n having at least one set of consecutive numbers whose maximum (if n>0) is a multiple of n.",
+  "id": "A370487",
+  "mentions": [
+    "A000079",
+    "A001700",
+    "A003409",
+    "A029651",
+    "A131577",
+    "A255738",
+    "A370363"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

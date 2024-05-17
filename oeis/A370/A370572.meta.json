@@ -1,0 +1,20 @@
+{
+  "description": "The smallest number which in base n requires 3 digit changes to convert k into a prime.",
+  "id": "A370572",
+  "mentions": [
+    "A133219",
+    "A186995",
+    "A322614",
+    "A370531"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

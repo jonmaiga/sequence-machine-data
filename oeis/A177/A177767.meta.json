@@ -2,10 +2,12 @@
   "description": "Triangle read by rows: T(n,k) = binomial(n - 1, k - 1), 1 <= k <= n, and T(n,0) = A153881(n+1), n >= 0.",
   "id": "A177767",
   "mentions": [
+    "A000071",
     "A000225",
     "A007318",
     "A014473",
     "A097805",
+    "A131026",
     "A135225",
     "A153881"
   ],

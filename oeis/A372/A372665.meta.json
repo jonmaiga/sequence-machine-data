@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{j=1..n} Sum_{k=1..n} phi(2*j*k) / phi(j*k).",
+  "id": "A372665",
+  "mentions": [
+    "A000010",
+    "A372664"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n)+sigma(n) is a perfect cube.",
+  "description": "Numbers k such that phi(k)+sigma(k) is a perfect cube.",
   "id": "A061366",
   "mentions": [
     "A000578",

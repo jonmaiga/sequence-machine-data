@@ -2,13 +2,11 @@
   "description": "List of strings in lexicographic order with property that for the 2^(m-1) strings of length m, the first entry is 1, the second distinct entry (reading from left to right) is 2, the third distinct entry is 3, etc.",
   "id": "A096299",
   "mentions": [
-    "A000120",
     "A095684",
     "A110382"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

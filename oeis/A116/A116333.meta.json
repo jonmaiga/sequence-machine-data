@@ -1,5 +1,5 @@
 {
-  "description": "n times n+8 gives the concatenation of two numbers m and m+6.",
+  "description": "k times k+8 gives the concatenation of two numbers m and m+6.",
   "id": "A116333",
   "mentions": [
     "A116202",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 10,
     "source": "joeis"
   }
 }

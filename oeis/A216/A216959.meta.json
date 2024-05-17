@@ -1,16 +1,15 @@
 {
-  "description": "A216958/2.",
+  "description": "a(n) = A216958(n)/2.",
   "id": "A216959",
   "mentions": [
     "A216958"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 36,
+    "source": "oeis-bfile"
   }
 }

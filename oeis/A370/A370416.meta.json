@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = numerator(N(1/2, n, 1)) where N(a, n, x) is the n-th Nørlund polynomial.",
+  "id": "A370416",
+  "mentions": [
+    "A370414",
+    "A370415",
+    "A370417"
+  ],
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

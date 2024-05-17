@@ -1,0 +1,21 @@
+{
+  "description": "The index of the largest Fibonacci number that divides the sum of Fibonacci numbers with indices 1 through n.",
+  "id": "A372048",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000071",
+    "A054494",
+    "A075850",
+    "A372049"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

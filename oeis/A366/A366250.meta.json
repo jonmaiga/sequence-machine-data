@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k that are not powerful and do not have a strictly superior squarefree divisor.",
+  "id": "A366250",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A002110",
+    "A003557",
+    "A006939",
+    "A007947",
+    "A052485",
+    "A191743",
+    "A290110",
+    "A341645",
+    "A364702"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

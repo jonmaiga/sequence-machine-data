@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^(2^13) + 1 is prime (a generalized Fermat prime).",
+  "description": "Numbers k such that k^(2^13) + 1 is prime (a generalized Fermat prime).",
   "id": "A226528",
   "mentions": [
     "A000068",
@@ -24,7 +24,6 @@
     "A321323"
   ],
   "tags": [
-    "hard",
     "nonn"
   ],
   "terms": {

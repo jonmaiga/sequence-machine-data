@@ -1,0 +1,25 @@
+{
+  "description": "Base-12 numbers k such that k = (product of nonzero digits of k) * (sum of digits of k) (written in base 10).",
+  "id": "A370251",
+  "mentions": [
+    "A023651",
+    "A038364",
+    "A038369",
+    "A062237",
+    "A062331",
+    "A066282",
+    "A366832",
+    "A367070"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

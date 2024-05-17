@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n | (sigma(n) - d(n) - phi(n)) and n is not a prime or twice a prime.",
+  "description": "Numbers k such that k | (sigma(k) - d(k) - phi(k)) and k is not a prime or twice a prime.",
   "id": "A055971",
   "mentions": [
     "A000005",
@@ -7,7 +7,7 @@
     "A000203"
   ],
   "tags": [
-    "easy",
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "Periodic sequence S_1 of length 28: used to compute the number of times a day from 1 to 28 of a month occurs on a day of the week for the Gregorian cycle of 400 years.",
+  "id": "A370558",
+  "mentions": [
+    "A370559",
+    "A370560",
+    "A370561"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Denominators of fractions that answer the question \"If x + y = 1 and x^2 + y^2 = 2, then x^n + y^n =\"",
+  "description": "a(n) is the denominator of the fraction f = x^n + y^n given that x + y = 1 and x^2 + y^2 = 2.",
   "id": "A173300",
   "mentions": [
     "A173299",
+    "A173989",
     "A179596"
   ],
   "tags": [

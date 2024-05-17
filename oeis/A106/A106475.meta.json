@@ -2,9 +2,11 @@
   "description": "An alternating sum of greatest common divisors.",
   "id": "A106475",
   "mentions": [
+    "A001620",
     "A003989",
     "A006579",
     "A199084",
+    "A306016",
     "A344371",
     "A344372",
     "A344373"

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that the first digit of a(n) is present in a(n+1).",
+  "id": "A370401",
+  "mentions": [
+    "A370400",
+    "A370402",
+    "A370403",
+    "A370404",
+    "A370405"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

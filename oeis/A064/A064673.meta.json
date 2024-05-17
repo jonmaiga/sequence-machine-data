@@ -2,6 +2,8 @@
   "description": "Where the least prime p such that n = (p-1)/(q-1) and p > q is not the least prime == 1 (mod n) (A034694).",
   "id": "A064673",
   "mentions": [
+    "A005097",
+    "A006093",
     "A034694",
     "A064632",
     "A064652"
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

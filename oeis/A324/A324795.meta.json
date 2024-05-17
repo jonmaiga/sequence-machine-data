@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*p(n)*p(n+2)-p(n+1)^2 where p(k) = k-th prime.",
+  "description": "a(n) = 2*p(n)*p(n+2) - p(n+1)^2 where p(k) = k-th prime.",
   "id": "A324795",
   "mentions": [
     "A056221",

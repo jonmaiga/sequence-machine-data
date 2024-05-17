@@ -1,0 +1,16 @@
+{
+  "description": "Number of Dyck paths of semilength n with strongly unimodal peak heights such that neighboring peaks differ in height by exactly one and first and last peak are at height one.",
+  "id": "A371926",
+  "mentions": [
+    "A000108",
+    "A371727"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

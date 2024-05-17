@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the denominator of the probability of winning a certain game while playing optimally.",
+  "id": "A370399",
+  "mentions": [
+    "A083864",
+    "A370398"
+  ],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

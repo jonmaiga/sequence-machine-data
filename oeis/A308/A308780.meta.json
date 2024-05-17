@@ -1,7 +1,8 @@
 {
-  "description": "First element of the period of the continued fraction expansion of sqrt(k), where the period has length 2.",
+  "description": "First element of the periodic part of the continued fraction expansion of sqrt(k), where the period is 2.",
   "id": "A308780",
   "mentions": [
+    "A013642",
     "A308778"
   ],
   "tags": [

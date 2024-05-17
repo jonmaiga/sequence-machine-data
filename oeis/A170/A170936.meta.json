@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of Re(tan(1+i)).",
   "id": "A170936",
-  "mentions": [],
+  "mentions": [
+    "A170937"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

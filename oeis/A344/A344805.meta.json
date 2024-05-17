@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of six second powers in one or more ways.",
+  "description": "Numbers that are the sum of six squares in one or more ways.",
   "id": "A344805",
   "mentions": [
     "A003329",

@@ -1,17 +1,17 @@
 {
-  "description": "Binomial coefficients C(n,j) reduced modulo j, j=1..n; read by rows, j=0 is omitted because of n mod 0. a(n) is the number of zero residues counted in n-th row.",
+  "description": "a(n) is the number of j from 1 to n such that binomial(n,j) is divisible by j.",
   "id": "A081372",
   "mentions": [
     "A007318",
     "A081371"
   ],
   "tags": [
-    "nonn",
-    "tabl"
+    "look",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(10 * n)/4.",
+  "id": "A372672",
+  "mentions": [
+    "A008683",
+    "A372639",
+    "A372673"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

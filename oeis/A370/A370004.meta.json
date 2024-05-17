@@ -1,0 +1,17 @@
+{
+  "description": "Least k>0 such that the decimal expansion of k^2 contains k+n as a substring.",
+  "id": "A370004",
+  "mentions": [
+    "A000290",
+    "A018834"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

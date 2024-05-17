@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x - x^2)^(x^2).",
+  "id": "A371157",
+  "mentions": [
+    "A001622",
+    "A088369",
+    "A371158"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

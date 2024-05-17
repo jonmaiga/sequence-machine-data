@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: Trace of the Akiyama-Tanigawa algorithm for powers x^3.",
+  "id": "A371764",
+  "mentions": [
+    "A006230",
+    "A371761",
+    "A371763"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=Product{k=0..n-1, A084057(k+1)}.",
+  "description": "a(n) = Product_{k=0..n-1} A084057(k+1).",
   "id": "A186269",
   "mentions": [
     "A000032",

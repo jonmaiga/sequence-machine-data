@@ -9,12 +9,11 @@
     "A216719"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 13,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

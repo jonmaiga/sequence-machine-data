@@ -1,5 +1,5 @@
 {
-  "description": "Simple continued fraction expansion of an infinite product.",
+  "description": "Simple continued fraction expansion of product {k >= 0} (1 - 2*(N - sqrt(N^2-1))^(4*k+3))/(1 - 2*(N - sqrt(N^2-1))^(4*k+1)) at N = 5.",
   "id": "A221195",
   "mentions": [
     "A174500",

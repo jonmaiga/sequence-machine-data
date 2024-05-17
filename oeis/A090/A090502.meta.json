@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tau(n) = tau(n-1)+tau(n+1).",
+  "description": "Numbers k such that tau(k) = tau(k-1) + tau(k+1).",
   "id": "A090502",
   "mentions": [
     "A074757"

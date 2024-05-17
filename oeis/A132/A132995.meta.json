@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = gcd(sum{k=1...n} p(k), product{j=1...n} p(j)), where p(k) is the k-th prime.",
+  "description": "a(n) = gcd(Sum_{k=1..n} prime(k), Product{j=1..n} prime(j)).",
   "id": "A132995",
   "mentions": [
     "A002110",

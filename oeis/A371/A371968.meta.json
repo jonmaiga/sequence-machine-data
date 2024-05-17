@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k that are not the sum of distinct squares that do not divide k.",
+  "id": "A371968",
+  "mentions": [
+    "A294266"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the maximal determinant of an n X n Hankel matrix using the first 2*n - 1 prime numbers.",
+  "id": "A369947",
+  "mentions": [
+    "A024356",
+    "A350933",
+    "A350940",
+    "A368352",
+    "A369946",
+    "A369949"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

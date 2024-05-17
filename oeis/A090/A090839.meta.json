@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 6*n+1, 6*n+7, 6*n+13, 6*n+19 are consecutive primes.",
+  "description": "Numbers k such that 6*k+1, 6*k+7, 6*k+13, 6*k+19 are consecutive primes.",
   "id": "A090839",
   "mentions": [
     "A033451",

@@ -2,6 +2,7 @@
   "description": "Numbers n such that 2^n-1 has only one primitive prime factor, sorted according to the magnitude of the corresponding prime.",
   "id": "A247071",
   "mentions": [
+    "A002326",
     "A007498",
     "A007615",
     "A040017",
@@ -11,11 +12,13 @@
     "A161509"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 62,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

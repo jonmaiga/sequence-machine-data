@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: the polynomial coefficients of the numerator of the rational solution of the linear recurrence equations of the rows of A371761.",
+  "id": "A371762",
+  "mentions": [
+    "A000142",
+    "A029767",
+    "A067318",
+    "A371761"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

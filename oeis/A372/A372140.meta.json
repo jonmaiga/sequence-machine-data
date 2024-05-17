@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=1..n} BarnesG(k)^k.",
+  "id": "A372140",
+  "mentions": [
+    "A002117",
+    "A055462",
+    "A074962",
+    "A255269",
+    "A259068"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

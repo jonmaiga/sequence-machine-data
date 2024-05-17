@@ -1,17 +1,23 @@
 {
-  "description": "(n-1)-st elementary symmetric function of the first n odd primes.",
+  "description": "(n-1)-st elementary symmetric function of the first n odd primes; a(0) = 0.",
   "id": "A203008",
   "mentions": [
+    "A000035",
+    "A002110",
+    "A003415",
     "A024451",
+    "A060389",
     "A070826",
-    "A071148"
+    "A071148",
+    "A327860"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 17,
-    "source": "joeis"
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the denominator of the probability that there is a survivor in \"group Russian roulette\" starting with n people.",
+  "id": "A372487",
+  "mentions": [
+    "A372480",
+    "A372486"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

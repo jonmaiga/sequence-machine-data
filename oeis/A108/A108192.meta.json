@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that n and the product of the digits of n have at least one digit in common.",
+  "description": "Numbers k such that k and the product of the digits of k have at least one digit in common.",
   "id": "A108192",
-  "mentions": [],
+  "mentions": [
+    "A007954"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

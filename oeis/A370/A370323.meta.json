@@ -1,0 +1,19 @@
+{
+  "description": "Number of derangements of [n] having no adjacent 2-cycles, no adjacent 3-cycles and no adjacent 4-cycles.",
+  "id": "A370323",
+  "mentions": [
+    "A000166",
+    "A177258",
+    "A177261",
+    "A370324"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

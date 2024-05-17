@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=0..n} binomial(n^2 + k^2, n^2 - k^2).",
+  "id": "A371644",
+  "mentions": [
+    "A074962",
+    "A255504",
+    "A371603",
+    "A371624",
+    "A371642",
+    "A371643",
+    "A371645"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "joeis"
+  }
+}

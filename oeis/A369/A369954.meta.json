@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k that are neither squarefree nor prime powers and also coprime to 6.",
+  "id": "A369954",
+  "mentions": [
+    "A003557",
+    "A007310",
+    "A008586",
+    "A013929",
+    "A024619",
+    "A053669",
+    "A126706",
+    "A356322",
+    "A360765",
+    "A367455",
+    "A369276",
+    "A369516"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

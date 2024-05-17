@@ -1,5 +1,5 @@
 {
-  "description": "Antiharmonic numbers: numbers n such that sigma_1(n) divides sigma_2(n).",
+  "description": "Antiharmonic numbers: numbers k such that sigma_1(k) divides sigma_2(k).",
   "id": "A020487",
   "mentions": [
     "A000203",

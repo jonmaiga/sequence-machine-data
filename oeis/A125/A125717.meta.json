@@ -1,14 +1,18 @@
 {
-  "description": "a(0)=0. a(n) = the smallest positive integer not occurring earlier in the sequence such that a(n-1) is congruent to a(n) (mod n).",
+  "description": "a(0)=0; thereafter a(n) = the smallest nonnegative integer not already in the sequence such that a(n-1) is congruent to a(n) (mod n).",
   "id": "A125717",
   "mentions": [
     "A005132",
+    "A099506",
     "A125715",
     "A125718",
     "A125725",
     "A245340",
     "A245394",
-    "A245395"
+    "A245395",
+    "A370956",
+    "A370957",
+    "A370959"
   ],
   "tags": [
     "look",

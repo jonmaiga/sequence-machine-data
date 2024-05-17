@@ -1,0 +1,21 @@
+{
+  "description": "Total number of acyclic orientations in all complete multipartite graphs K_lambda, where lambda ranges over all partitions of n.",
+  "id": "A372395",
+  "mentions": [
+    "A000041",
+    "A267383",
+    "A370613",
+    "A372254",
+    "A372261",
+    "A372326",
+    "A372396"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum(e/p: n=Product(p^e)) < 1.",
+  "description": "Numbers k such that Sum(e/p: k=Product(p^e)) < 1.",
   "id": "A083347",
   "mentions": [
     "A003415",

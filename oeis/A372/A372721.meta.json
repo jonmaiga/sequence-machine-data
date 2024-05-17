@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of [n] having exactly one block of maximal size.",
+  "id": "A372721",
+  "mentions": [
+    "A000110",
+    "A372722"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Squares mod 81.",
   "id": "A010442",
   "mentions": [
-    "A028794"
+    "A028794",
+    "A055047"
   ],
   "tags": [
     "easy",

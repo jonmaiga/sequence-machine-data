@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k >= 1 such that k = A008472(k)*A066328(k).",
+  "id": "A370881",
+  "mentions": [
+    "A008472",
+    "A066328"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

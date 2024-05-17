@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of n digits 1 and 2n-1 digits 0.",
+  "description": "Concatenation of n digits 1 and 2*n-1 digits 0.",
   "id": "A138119",
   "mentions": [
     "A138118",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest a(n) so that division by n can be performed by floor(x/n) = floor(x*a(n))/2^A346496(n) for any 0 <= x < 2^32.",
+  "description": "Smallest a(n) so that division by n can be performed by floor(x/n) = floor(x*a(n)/2^A346496(n)) for any 0 <= x < 2^32.",
   "id": "A346495",
   "mentions": [
     "A346496"

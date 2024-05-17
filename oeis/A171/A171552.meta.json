@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=2^n*floor((5-2n)/3).",
+  "description": "a(n) = 2^n*floor((5-2n)/3).",
   "id": "A171552",
   "mentions": [
     "A131428"

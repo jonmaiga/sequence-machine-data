@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n! * Sum_{d|n} 1/((d-1)! * (n/d)!^d).",
+  "id": "A370605",
+  "mentions": [
+    "A370581"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

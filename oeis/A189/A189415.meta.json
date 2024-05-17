@@ -2,6 +2,7 @@
   "description": "Number of trapezoids on an n X n grid (or geoboard).",
   "id": "A189415",
   "mentions": [
+    "A181945",
     "A186434",
     "A189413",
     "A189414",

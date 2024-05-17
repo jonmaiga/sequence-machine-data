@@ -1,7 +1,15 @@
 {
   "description": "Connected domination number of Fibonacci cube Gamma_n.",
   "id": "A291298",
-  "mentions": [],
+  "mentions": [
+    "A291294",
+    "A291295",
+    "A291296",
+    "A291297",
+    "A291299",
+    "A291300",
+    "A298115"
+  ],
   "tags": [
     "more",
     "nonn"

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive n-digit number divisible by 7.",
+  "id": "A369562",
+  "mentions": [
+    "A033940",
+    "A241217",
+    "A369613"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

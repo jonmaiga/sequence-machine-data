@@ -1,12 +1,15 @@
 {
-  "description": "Triangle read by rows: matrix inverse of A036969.",
+  "description": "Triangle read by rows: matrix inverse of the central factorial numbers T(2n, 2k) (A036969).",
   "id": "A204579",
   "mentions": [
+    "A001044",
     "A008275",
     "A008955",
     "A036969",
     "A048994",
-    "A121408"
+    "A101686",
+    "A121408",
+    "A234324"
   ],
   "tags": [
     "formulas",
@@ -15,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 45,
     "source": "joeis"
   }
 }

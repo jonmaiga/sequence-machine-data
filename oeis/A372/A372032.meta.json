@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, a(2*n+1) = a(2*n) XOR a(n) (where XOR denotes the bitwise XOR operator).",
+  "id": "A372032",
+  "mentions": [
+    "A372030",
+    "A372128"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

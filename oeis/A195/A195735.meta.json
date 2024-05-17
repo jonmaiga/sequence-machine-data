@@ -1,8 +1,9 @@
 {
-  "description": "2*sigma(n^2) - sigma(n)^2.",
+  "description": "a(n) = 2*sigma(n^2) - sigma(n)^2.",
   "id": "A195735",
   "mentions": [
     "A000203",
+    "A002117",
     "A065764",
     "A067807",
     "A195734"

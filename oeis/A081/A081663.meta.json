@@ -1,5 +1,5 @@
 {
-  "description": "F(2n+1)+n*2^(n-1).",
+  "description": "a(n) = Fibonacci(2n+1) + n*2^(n-1).",
   "id": "A081663",
   "mentions": [
     "A000045",

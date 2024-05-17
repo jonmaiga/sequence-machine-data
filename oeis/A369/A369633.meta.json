@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of integral of frac(1/x)^3 dx for x=0 to 1.",
+  "id": "A369633",
+  "mentions": [
+    "A074962",
+    "A345208"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is equal to the n-th order Taylor polynomial (centered at 0) of G(x)^n evaluated at x = 1, where G(x) = (1 - 2*x - sqrt(1 - 8*x + 4*x^2))/(2*x).",
+  "id": "A372214",
+  "mentions": [
+    "A047891",
+    "A219535",
+    "A333090",
+    "A333093",
+    "A372215"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

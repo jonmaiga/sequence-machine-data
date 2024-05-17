@@ -2,6 +2,7 @@
   "description": "Partial sums of A035100: number of binary digits of the primes.",
   "id": "A328659",
   "mentions": [
+    "A000040",
     "A004676",
     "A035100",
     "A066747",

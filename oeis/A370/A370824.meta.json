@@ -1,0 +1,17 @@
+{
+  "description": "a(n) are the denominators corresponding to A370823(n).",
+  "id": "A370824",
+  "mentions": [
+    "A370823"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,12 @@
 {
   "description": "Primes p such that 10*p - 3 and 10*p + 3 are both primes.",
   "id": "A106008",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A093013"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

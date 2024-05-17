@@ -1,14 +1,16 @@
 {
   "description": "Number of distinct binary strings in the n-th Fibonacci shuffle set.",
   "id": "A306893",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

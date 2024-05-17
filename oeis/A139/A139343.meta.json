@@ -1,9 +1,10 @@
 {
-  "description": "A triangular sequence of polynomials of the coefficients of the characteristic polynomials of the Sylvester resultant matrices of the Cyclotomic polynomials: example matrix:for x^2+x+1 and x+1; {{1, 1, 1}, {1, 1, 0}, {0, 1, 1}}.",
+  "description": "A nonsense sequence.",
   "id": "A139343",
   "mentions": [],
   "tags": [
     "formulas",
+    "less",
     "sign",
     "tabf",
     "uned"

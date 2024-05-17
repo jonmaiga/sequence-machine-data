@@ -1,5 +1,5 @@
 {
-  "description": "C(n^2)-C(n), where C(n) is Chowla's function (A048050).",
+  "description": "a(n) = C(n^2) - C(n), where C(n) is Chowla's function (A048050).",
   "id": "A062957",
   "mentions": [
     "A048050"

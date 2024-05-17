@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. An encoding of compositions of n where the first part is the largest part and the last part is not 1. The number of these compositions (the length of row n) is given by A368279.",
+  "id": "A369492",
+  "mentions": [
+    "A000079",
+    "A002865",
+    "A052548",
+    "A066099",
+    "A368279",
+    "A368579",
+    "A369491"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

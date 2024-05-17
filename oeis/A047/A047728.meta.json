@@ -1,7 +1,9 @@
 {
-  "description": "Intersection of A046985 and A007691: multiply perfect, refactorable numbers with integer average divisor dividing the number.",
+  "description": "Intersection of A046985 and A033950: multiply perfect, refactorable numbers with integer average divisor dividing the number.",
   "id": "A047728",
   "mentions": [
+    "A000005",
+    "A000203",
     "A000396",
     "A001599",
     "A007691",
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

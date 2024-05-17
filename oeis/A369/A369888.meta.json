@@ -1,0 +1,18 @@
+{
+  "description": "Sum of products of cubes of parts , counted without multiplicity, in all partitions of n.",
+  "id": "A369888",
+  "mentions": [
+    "A162506",
+    "A265837",
+    "A369887"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

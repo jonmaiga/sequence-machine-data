@@ -2,11 +2,13 @@
   "description": "Powers of ten in factorial base.",
   "id": "A139389",
   "mentions": [
-    "A007623"
+    "A007623",
+    "A011557"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

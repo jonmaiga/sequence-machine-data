@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] having exactly three adjacent 2-cycles.",
+  "id": "A370529",
+  "mentions": [
+    "A177248",
+    "A177249",
+    "A370426",
+    "A370524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

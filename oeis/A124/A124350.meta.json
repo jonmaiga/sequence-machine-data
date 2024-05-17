@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4*n*(floor(n^2/2)+1). For n>=3, this is the number of directed Hamiltonian paths on the n-prism graph.",
+  "description": "a(n) = 4*n*(floor(n^2/2)+1). For n >= 3, this is the number of directed Hamiltonian paths on the n-prism graph.",
   "id": "A124350",
   "mentions": [
     "A080827",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

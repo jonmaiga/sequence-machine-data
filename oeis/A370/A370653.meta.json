@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] having exactly three adjacent 4-cycles.",
+  "id": "A370653",
+  "mentions": [
+    "A177252",
+    "A370529",
+    "A370530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

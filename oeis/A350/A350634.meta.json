@@ -1,7 +1,9 @@
 {
-  "description": "Products of the parts s,t in each partition of k (= 2,3,..) into two parts, ordered by increasing k and then by increasing values of s*t (see example).",
+  "description": "Products of the parts s,t in each partition of k (= 2,3,...) into two parts, ordered by increasing k and then by increasing values of s*t (see example).",
   "id": "A350634",
   "mentions": [
+    "A027434",
+    "A082375",
     "A122197",
     "A199474",
     "A339399"

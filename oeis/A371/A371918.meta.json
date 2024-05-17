@@ -1,0 +1,19 @@
+{
+  "description": "The smallest unused positive number such that 2^a(n) contains n as a substring.",
+  "id": "A371918",
+  "mentions": [
+    "A000079",
+    "A063565",
+    "A368866",
+    "A371904"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

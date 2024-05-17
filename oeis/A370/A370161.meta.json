@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the dimension of the multilinear part of the free flexible algebra with n generators.",
+  "id": "A370161",
+  "mentions": [
+    "A370677"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

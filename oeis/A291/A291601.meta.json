@@ -1,5 +1,5 @@
 {
-  "description": "Composite integers n such that 2^d == 2^(n/d) (mod n) for all d|n.",
+  "description": "Composite integers k such that 2^d == 2^(k/d) (mod k) for all d|k.",
   "id": "A291601",
   "mentions": [
     "A001567",

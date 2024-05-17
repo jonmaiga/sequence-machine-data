@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having one 5 in base 9.",
+  "description": "Numbers having exactly one 5 in base 9.",
   "id": "A043473",
   "mentions": [
     "A007095"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 56,
     "source": "joeis"
   }
 }

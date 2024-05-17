@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the ratio A000688(k)/A038538(k).",
+  "id": "A369763",
+  "mentions": [
+    "A000041",
+    "A000688",
+    "A004101",
+    "A038538",
+    "A046100",
+    "A215267"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

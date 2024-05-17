@@ -2,6 +2,7 @@
   "description": "The size of an optimal binary code of length n and edit distance 4.",
   "id": "A230380",
   "mentions": [
+    "A005864",
     "A179183",
     "A230381"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling(n-th composite/n).",
+  "description": "a(n) = ceiling(n-th composite/n).",
   "id": "A171627",
   "mentions": [
     "A000027",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

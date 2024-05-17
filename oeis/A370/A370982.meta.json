@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^(n - k)*Pochhammer(k/2, n - k). Row sums of A370419(n - k, k).",
+  "id": "A370982",
+  "mentions": [
+    "A000522",
+    "A370419",
+    "A371079"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

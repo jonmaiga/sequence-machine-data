@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct elements appearing in the sequence formed by recursively applying A063655 when starting from n.",
+  "id": "A369110",
+  "mentions": [
+    "A056737",
+    "A063655"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

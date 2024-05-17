@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number k such that the k-th n-gonal number is a Fermat pseudoprime to base 2 (A001567), or -1 if no such number exists.",
+  "id": "A371760",
+  "mentions": [
+    "A001567",
+    "A293622",
+    "A293623",
+    "A321868",
+    "A321870",
+    "A322123",
+    "A322130",
+    "A322160",
+    "A371759"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

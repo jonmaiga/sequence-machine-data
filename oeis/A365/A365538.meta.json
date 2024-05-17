@@ -2,10 +2,13 @@
   "description": "a(0) = 1; otherwise, for i >= 0, a(4i+0) = a(4i+1) = a(2i), a(4i+2) = 2*a(2i+1), a(4i+3) = 0.",
   "id": "A365538",
   "mentions": [
+    "A003714",
     "A003754",
+    "A004780",
     "A280873"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabf"

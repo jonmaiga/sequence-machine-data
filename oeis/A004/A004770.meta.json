@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of form 8n+5; or, numbers whose binary expansion ends in 101.",
+  "description": "Numbers of the form 8k+5; or, numbers whose binary expansion ends in 101.",
   "id": "A004770",
   "mentions": [
     "A004776",

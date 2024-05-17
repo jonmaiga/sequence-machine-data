@@ -2,6 +2,8 @@
   "description": "Number of permutations which are the union of an increasing and a decreasing subsequence.",
   "id": "A029759",
   "mentions": [
+    "A000984",
+    "A038207",
     "A220589"
   ],
   "tags": [

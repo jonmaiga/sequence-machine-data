@@ -1,0 +1,14 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the lexicographically first Erdős sequence for the n-cycle graph having smallest possible maximum value.",
+  "id": "A370654",
+  "mentions": [],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

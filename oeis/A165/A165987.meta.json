@@ -1,18 +1,19 @@
 {
-  "description": "As mentioned in the short description (cf. A165806 & A165808) polynomials have the property: f(x + k*f(x) is congruent to 0 mod(f(x)). This is true even if the variable is a square matrix. For this sequence let X be a 2x2 matrix (X belongs to Z): col1:-13, 31;col2: 17, 97. Let the polynomial be X^3 -5X + 67. The present sequence is a sequence of traces of the matrices resulting from the division of f(X + k*f(X))/f(X). Here k belongs to N.",
+  "description": "a(n) is the trace of the matrix f(X + n*f(X))/f(X), where X is the 2 X 2 matrix [-13, 17; 31, 97] and f(x) = x^3 - 5*x + 67.",
   "id": "A165987",
   "mentions": [
     "A165806",
     "A165808"
   ],
   "tags": [
-    "more",
-    "nonn",
-    "uned"
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "joeis"
   }
 }

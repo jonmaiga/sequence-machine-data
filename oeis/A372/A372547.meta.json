@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic Zumkeller numbers in base 10.",
+  "id": "A372547",
+  "mentions": [
+    "A002113",
+    "A083207",
+    "A098775"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

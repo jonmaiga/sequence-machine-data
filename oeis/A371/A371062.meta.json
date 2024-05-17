@@ -1,0 +1,18 @@
+{
+  "description": "Number of one-sided generalized polyforms on the tetrahedral-octahedral honeycomb with n cells.",
+  "id": "A371062",
+  "mentions": [
+    "A000162",
+    "A343909"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

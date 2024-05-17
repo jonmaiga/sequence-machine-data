@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,s) is the numerator of the probability that the sum s occurs when repeated rolls of an n-sided die are summed for s = 0..2n.",
+  "id": "A365443",
+  "mentions": [
+    "A366451"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of sinh(Pi/2)/(Pi/2)^2.",
+  "id": "A369880",
+  "mentions": [
+    "A000120",
+    "A019669",
+    "A060294",
+    "A091476",
+    "A096111",
+    "A185199",
+    "A258232",
+    "A308716",
+    "A367959"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

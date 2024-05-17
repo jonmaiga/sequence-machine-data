@@ -1,8 +1,12 @@
 {
   "description": "Number of odd chordless cycles in the n-antiprism graph.",
   "id": "A301772",
-  "mentions": [],
+  "mentions": [
+    "A005314",
+    "A077990"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

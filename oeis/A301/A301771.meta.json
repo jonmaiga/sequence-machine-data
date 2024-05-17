@@ -1,5 +1,5 @@
 {
-  "description": "Number of odd chordless cycles in the n-Andrasfai graph.",
+  "description": "Number of odd chordless cycles in the n-Andrásfai graph.",
   "id": "A301771",
   "mentions": [
     "A234602"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

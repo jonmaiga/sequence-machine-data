@@ -1,0 +1,21 @@
+{
+  "description": "The number of \"Fermi-Dirac primes\" (A050376) that are noninfinitary divisors of n.",
+  "id": "A372332",
+  "mentions": [
+    "A023416",
+    "A050376",
+    "A064547",
+    "A348341",
+    "A372331"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

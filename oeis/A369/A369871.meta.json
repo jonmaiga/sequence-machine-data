@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least prime factor of A024411(n).",
+  "id": "A369871",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A024411"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

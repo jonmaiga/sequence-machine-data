@@ -1,0 +1,24 @@
+{
+  "description": "Convergence speed of n at height 3 (i.e., A369771(n) - A369826(n)).",
+  "id": "A370211",
+  "mentions": [
+    "A002488",
+    "A002489",
+    "A007814",
+    "A112765",
+    "A317905",
+    "A369624",
+    "A369771",
+    "A369826"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

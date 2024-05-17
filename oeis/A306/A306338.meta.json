@@ -1,5 +1,5 @@
 {
-  "description": "Carmichael numbers n such that phi(n) divides (n-1)*lambda(n).",
+  "description": "Carmichael numbers k such that phi(k) divides (k-1)*lambda(k).",
   "id": "A306338",
   "mentions": [
     "A000010",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

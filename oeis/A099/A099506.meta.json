@@ -2,7 +2,8 @@
   "description": "a(1)=1; for n > 1, a(n)=smallest m>0 that has not appeared so far in the sequence such that m+a(n-1) is a multiple of n.",
   "id": "A099506",
   "mentions": [
-    "A099507"
+    "A099507",
+    "A125717"
   ],
   "tags": [
     "easy",

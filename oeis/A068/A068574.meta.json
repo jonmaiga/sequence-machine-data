@@ -1,5 +1,5 @@
 {
-  "description": "As strings, n is a substring of Fibonacci(n).",
+  "description": "Numbers k such that, treated as a string, k is a substring of Fibonacci(k).",
   "id": "A068574",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

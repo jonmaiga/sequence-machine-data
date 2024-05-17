@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k of the form 4m+1, whose arithmetic derivative k' is of the form 4u+2, and k' has an odd number of prime factors.",
+  "id": "A369664",
+  "mentions": [
+    "A003415",
+    "A016813",
+    "A351228",
+    "A369662",
+    "A369666"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

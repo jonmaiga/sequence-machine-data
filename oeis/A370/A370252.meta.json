@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer k for which there is an identity of the form k*x = Sum_{i=1..m} k_i*g_i(x)^n where k_1, ..., k_m are in Z and g_1(x), ..., g_m(x) are in Z[x].",
+  "id": "A370252",
+  "mentions": [
+    "A005729",
+    "A005730",
+    "A005731"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

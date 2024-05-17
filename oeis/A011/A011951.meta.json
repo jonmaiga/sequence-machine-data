@@ -1,7 +1,9 @@
 {
   "description": "Number of Barlow packings with group P3(bar)m1(S) that repeat after 2n layers.",
   "id": "A011951",
-  "mentions": [],
+  "mentions": [
+    "A045683"
+  ],
   "tags": [
     "easy",
     "nonn"

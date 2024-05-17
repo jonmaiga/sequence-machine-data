@@ -1,0 +1,23 @@
+{
+  "description": "Number of the rightmost decimal digits of n that are the same as those of n^n.",
+  "id": "A371074",
+  "mentions": [
+    "A000312",
+    "A082576",
+    "A317905",
+    "A349425",
+    "A369624",
+    "A369826",
+    "A370211"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

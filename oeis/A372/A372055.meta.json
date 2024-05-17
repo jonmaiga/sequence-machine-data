@@ -1,0 +1,17 @@
+{
+  "description": "For a positive number k, let L(k) denote the list consisting of k followed by the prime factors of k, with repetition, in nondecreasing order; sequence gives k such that the digits of L(k) are in nondecreasing order.",
+  "id": "A372055",
+  "mentions": [
+    "A004022",
+    "A372029"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

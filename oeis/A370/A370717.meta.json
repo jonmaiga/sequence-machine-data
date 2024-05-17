@@ -1,0 +1,17 @@
+{
+  "description": "Arithmetic derivative of elements of GF(2)[x], evaluated at x=2.",
+  "id": "A370717",
+  "mentions": [
+    "A003415",
+    "A099379",
+    "A099380"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

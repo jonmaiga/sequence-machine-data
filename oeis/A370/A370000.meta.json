@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^k/(3*k+2)^3.",
+  "id": "A370000",
+  "mentions": [
+    "A016791",
+    "A226735"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

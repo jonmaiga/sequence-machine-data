@@ -1,0 +1,25 @@
+{
+  "description": "Partial alternating sums of Pillai's arithmetical function (A018804).",
+  "id": "A370895",
+  "mentions": [
+    "A001620",
+    "A018804",
+    "A068762",
+    "A068773",
+    "A272718",
+    "A306016",
+    "A307704",
+    "A357817",
+    "A362028"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

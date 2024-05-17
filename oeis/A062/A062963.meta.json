@@ -1,16 +1,18 @@
 {
-  "description": "Mu(n) * H(n) where H(n) is A023022.",
+  "description": "a(n) = mu(n) * H(n) where H(n) is A023022.",
   "id": "A062963",
   "mentions": [
+    "A008683",
     "A023022"
   ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 3,
-    "size": 93,
-    "source": "joeis"
+    "offset": 2,
+    "size": 94,
+    "source": "oeis-bfile"
   }
 }

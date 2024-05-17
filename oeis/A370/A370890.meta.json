@@ -1,0 +1,24 @@
+{
+  "description": "A(n, k) = 2^n*Pochhammer(k/2, floor((n+1)/2)). Square array read by ascending antidiagonals.",
+  "id": "A370890",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A005843",
+    "A054000",
+    "A081125",
+    "A134582",
+    "A355989",
+    "A370419"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

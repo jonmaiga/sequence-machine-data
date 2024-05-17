@@ -1,0 +1,17 @@
+{
+  "description": "Integers k such that there exists a group of order k with exactly k subgroups.",
+  "id": "A368538",
+  "mentions": [
+    "A018216",
+    "A061034"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

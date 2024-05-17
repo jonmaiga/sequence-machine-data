@@ -1,10 +1,17 @@
 {
   "description": "Continued fraction for sqrt(677).",
   "id": "A040650",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A040002",
+    "A040156",
+    "A042300",
+    "A042301"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "Primitive infinitary abundant numbers (definition 2): infinitary abundant numbers (A129656) having no proper infinitary divisors that are infinitary abundant numbers.",
+  "id": "A372299",
+  "mentions": [
+    "A077609",
+    "A091191",
+    "A129656",
+    "A129657",
+    "A302574",
+    "A339940",
+    "A372298"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

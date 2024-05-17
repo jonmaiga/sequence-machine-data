@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of [3n] into n sets of size 3 avoiding any set {3j-2,3j-1,3j} (1<=j<=n).",
+  "id": "A370357",
+  "mentions": [
+    "A000007",
+    "A025035",
+    "A059841",
+    "A370347",
+    "A370358",
+    "A370366"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The maximal exponent in the prime factorization of the numbers whose all exponents are squares (A197680).",
+  "id": "A369935",
+  "mentions": [
+    "A000290",
+    "A051903",
+    "A197680",
+    "A357016",
+    "A368474",
+    "A369936"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

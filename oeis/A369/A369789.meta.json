@@ -1,0 +1,16 @@
+{
+  "description": "Number of different coefficient values in expansion of Product_{k=1..n} (1+x^prime(k))^2.",
+  "id": "A369789",
+  "mentions": [
+    "A280245",
+    "A369788"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

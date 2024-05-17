@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n!^2 * [x^n] polylog(2,x)^3.",
+  "id": "A370225",
+  "mentions": [
+    "A302827",
+    "A370226"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

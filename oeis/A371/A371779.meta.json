@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(4*n+2,n-3*k).",
+  "id": "A371779",
+  "mentions": [
+    "A066381",
+    "A371777",
+    "A371778",
+    "A371780"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of prime quadruples of the form {p, p+2, p+6, p+12} with p < 10^n.",
+  "id": "A370158",
+  "mentions": [
+    "A007530",
+    "A086140",
+    "A341267"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

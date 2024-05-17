@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. (1 - sqrt(1 - 2*x + 2*x*sqrt(1 - 4*x)))/(2*x).",
+  "id": "A369528",
+  "mentions": [
+    "A000108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

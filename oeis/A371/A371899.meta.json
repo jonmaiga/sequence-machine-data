@@ -1,0 +1,17 @@
+{
+  "description": "The (2n-1)st pair of terms and the (2n)th pair of terms share the same palindromic digit succession. This is the lexicographically earliest sequence of distinct terms > 0 with this property.",
+  "id": "A371899",
+  "mentions": [
+    "A371113"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

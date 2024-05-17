@@ -8,12 +8,11 @@
     "A260997"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

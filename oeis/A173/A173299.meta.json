@@ -2,6 +2,7 @@
   "description": "Numerators of fractions x^n + y^n, where x + y = 1 and x^2 + y^2 = 2.",
   "id": "A173299",
   "mentions": [
+    "A026150",
     "A152422",
     "A173300"
   ],

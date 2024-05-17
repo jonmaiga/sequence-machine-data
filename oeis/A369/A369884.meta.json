@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of - Integral_{x=0..1} log(1 - x)/(x^2 + x) dx.",
+  "id": "A369884",
+  "mentions": [
+    "A000796",
+    "A001008",
+    "A002162",
+    "A002805",
+    "A348373"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 107,
+    "source": "joeis"
+  }
+}

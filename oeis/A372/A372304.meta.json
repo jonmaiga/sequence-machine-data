@@ -1,0 +1,17 @@
+{
+  "description": "Binomial transform of the Gray code sequence.",
+  "id": "A372304",
+  "mentions": [
+    "A003188",
+    "A109629"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

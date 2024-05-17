@@ -11,11 +11,12 @@
     "A333705"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

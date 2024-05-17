@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] having exactly one adjacent 2-cycle.",
+  "id": "A370524",
+  "mentions": [
+    "A177248",
+    "A177249",
+    "A370426",
+    "A370527",
+    "A370529"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,17 +1,16 @@
 {
-  "description": "Integers n such that A001006(n) is divisible by n.",
+  "description": "Integers k such that A001006(k) is divisible by k.",
   "id": "A266969",
   "mentions": [
     "A001006",
     "A081735"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

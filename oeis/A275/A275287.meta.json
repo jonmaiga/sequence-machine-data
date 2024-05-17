@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (26*10^n - 107)/9 is prime.",
+  "description": "Numbers k such that (26*10^k - 107)/9 is prime.",
   "id": "A275287",
   "mentions": [
     "A056654",

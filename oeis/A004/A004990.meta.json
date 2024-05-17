@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (3^n/n!)*Product_{k=0..n-1}(3*k - 1).",
+  "description": "a(n) = (3^n/n!)*Product_{k=0..n-1} (3*k - 1).",
   "id": "A004990",
   "mentions": [
     "A004988",

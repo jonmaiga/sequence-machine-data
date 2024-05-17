@@ -1,5 +1,5 @@
 {
-  "description": "sin(x)+exp(x)-1-2x=sum(n>=1,x^(2n)/a(n)).",
+  "description": "Nonzero denominators in the expansion of sin(x)+exp(x)-1-2x.",
   "id": "A068878",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

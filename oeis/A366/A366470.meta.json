@@ -2,9 +2,11 @@
   "description": "a(n) = A364054(n-1) mod prime(n-1).",
   "id": "A366470",
   "mentions": [
-    "A364054"
+    "A364054",
+    "A366475"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

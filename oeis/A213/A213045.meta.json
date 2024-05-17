@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0,...,n} and 2|w-x|>max(w,x,y)-min(w,x,y).",
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and 2*|w-x| > max(w,x,y) - min(w,x,y).",
   "id": "A213045",
   "mentions": [
     "A087035",

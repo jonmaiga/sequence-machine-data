@@ -1,8 +1,18 @@
 {
-  "description": "T(n,k)=1/9 the number of (n+1)X(k+1) 0..2 arrays with all 2X2 subblocks having the same four values",
+  "description": "T(n,k) = 1/9 the number of (n+1) X (k+1) 0..2 arrays with all 2 X 2 subblocks having the same four values.",
   "id": "A184048",
   "mentions": [
-    "A183978"
+    "A183978",
+    "A183986",
+    "A184039",
+    "A184040",
+    "A184041",
+    "A184042",
+    "A184043",
+    "A184044",
+    "A184045",
+    "A184046",
+    "A184047"
   ],
   "tags": [
     "formulas",

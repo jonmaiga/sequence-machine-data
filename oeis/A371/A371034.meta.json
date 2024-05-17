@@ -1,0 +1,25 @@
+{
+  "description": "For n >= 1, a(n) = A004086(n) if A055483(n) = 1, otherwise a(n) = n / A055483(n).",
+  "id": "A371034",
+  "mentions": [
+    "A001232",
+    "A002113",
+    "A002275",
+    "A004086",
+    "A008918",
+    "A011557",
+    "A055483",
+    "A306273"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

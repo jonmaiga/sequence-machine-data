@@ -1,0 +1,19 @@
+{
+  "description": "Total sum over all partitions of [n] of the number of maximal blocks.",
+  "id": "A372649",
+  "mentions": [
+    "A000110",
+    "A097148",
+    "A372650",
+    "A372722"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "2*n^2 - 7 is a square.",
+  "description": "Integers k such that 2*k^2 - 7 is a square.",
   "id": "A217975",
   "mentions": [
     "A006452",

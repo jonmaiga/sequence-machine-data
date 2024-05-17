@@ -2,7 +2,8 @@
   "description": "a(n) = n*(3*n + 23).",
   "id": "A277976",
   "mentions": [
-    "A132761"
+    "A132761",
+    "A370238"
   ],
   "tags": [
     "easy",

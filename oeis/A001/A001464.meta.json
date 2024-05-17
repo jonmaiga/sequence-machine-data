@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. exp( -x -(1/2)*x^2 ).",
+  "description": "Expansion of e.g.f. exp(-x - (1/2)*x^2).",
   "id": "A001464",
   "mentions": [
     "A000085",
@@ -8,7 +8,10 @@
     "A066325",
     "A069834",
     "A099174",
-    "A200675"
+    "A200675",
+    "A252284",
+    "A369755",
+    "A369756"
   ],
   "tags": [
     "easy",

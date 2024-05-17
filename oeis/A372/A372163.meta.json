@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x * (1+3*x)^(1/3) * A(x) ).",
+  "id": "A372163",
+  "mentions": [
+    "A362771",
+    "A372162"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

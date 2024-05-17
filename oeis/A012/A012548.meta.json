@@ -1,13 +1,15 @@
 {
-  "description": "arctan(sinh(x)*tan(x))=2/2!*x^2+12/4!*x^4-98/6!*x^6-16968/8!*x^8...",
+  "description": "Expansion of e.g.f. arctan(sinh(x)*tan(x)) (even powers only).",
   "id": "A012548",
-  "mentions": [],
+  "mentions": [
+    "A012816"
+  ],
   "tags": [
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "joeis"
+    "size": 16,
+    "source": "oeis-entry"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "description": "Triangle T(n,m) read by rows: T(n,m) = If[n == 1, 1, n - m + 1]*If[n == 1, n, If[Mod[n, m + 1] == 0, n/(m + 1), 1]].",
+  "description": "Triangle, T(n, k) = n*(n-k+1)/(k+1) if n mod k+1 = 0, otherwise T(n, k) = n-k+1, read by rows.",
   "id": "A141675",
   "mentions": [
     "A126988"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "formulas",
+    "nonn"
   ],
   "terms": {
     "offset": 1,

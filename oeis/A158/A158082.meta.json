@@ -2,6 +2,8 @@
   "description": "Squares whose decimal expansion contains no digit greater than 4.",
   "id": "A158082",
   "mentions": [
+    "A000290",
+    "A007091",
     "A158304"
   ],
   "tags": [

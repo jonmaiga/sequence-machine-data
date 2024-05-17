@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest error in trying to solve n^2 = x^2 + y^2: given n >= 2, find positive integers x <= y < n such that |n^2 - x^2 - y^2| is minimal and let a(n) = n^2 - x^2 - y^2. In case of a tie, choose the value with the smallest y.",
+  "id": "A369862",
+  "mentions": [
+    "A009003",
+    "A135998",
+    "A308834",
+    "A369855"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

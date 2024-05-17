@@ -2,16 +2,18 @@
   "description": "Independence numbers for KT_4 knight on hexagonal board.",
   "id": "A087329",
   "mentions": [
+    "A003215",
     "A087327",
     "A087328"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

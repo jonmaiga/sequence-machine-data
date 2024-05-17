@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which divide number of groups of order <= n (A063756).",
+  "description": "Numbers k which divide number of groups of order <= k (A063756).",
   "id": "A173669",
   "mentions": [
     "A000001",

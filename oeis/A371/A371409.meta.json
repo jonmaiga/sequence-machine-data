@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: row n lists the positions of right parentheses in the properly nested string of parentheses encoded by A063171(n).",
+  "id": "A371409",
+  "mentions": [
+    "A063171",
+    "A072643",
+    "A370220",
+    "A371410"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

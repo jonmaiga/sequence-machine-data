@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 + x^k/k!)^prime(k).",
+  "id": "A371308",
+  "mentions": [
+    "A000040",
+    "A007837",
+    "A032315",
+    "A032316",
+    "A061152"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the n-th term of the leading column of right triangle in A274650 minus n.",
+  "description": "a(n) is the n-th term of the leading column of the right triangle in A274650 minus n.",
   "id": "A288384",
   "mentions": [
     "A274650",

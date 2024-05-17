@@ -1,5 +1,5 @@
 {
-  "description": "Table of x^y, where (x,y) = (0,0), (0,1), (1,0), (0,2), (1,1), (2,0), ...",
+  "description": "Array read by ascending antidiagonals: A(n, k) = k^n.",
   "id": "A004248",
   "mentions": [
     "A003992",
@@ -7,7 +7,9 @@
     "A026898",
     "A048723",
     "A051129",
-    "A104872"
+    "A104872",
+    "A344499",
+    "A371761"
   ],
   "tags": [
     "easy",

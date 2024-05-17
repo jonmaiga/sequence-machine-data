@@ -2,7 +2,8 @@
   "description": "Composite numbers satisfying A073078(n)=(n+1)/2.",
   "id": "A079290",
   "mentions": [
-    "A073078"
+    "A073078",
+    "A244623"
   ],
   "tags": [
     "nonn"

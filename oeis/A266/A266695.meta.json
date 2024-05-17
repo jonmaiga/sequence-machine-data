@@ -2,7 +2,9 @@
   "description": "Number of acyclic orientations of the Turán graph T(n,2).",
   "id": "A266695",
   "mentions": [
+    "A048163",
     "A099594",
+    "A188634",
     "A212084",
     "A212085",
     "A266858",

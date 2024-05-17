@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that 2*A000005(n)=3*A000005(n+1).",
+  "description": "Numbers k such that 2*A000005(k) = 3*A000005(k+1).",
   "id": "A172624",
   "mentions": [
     "A000005",
-    "A059269"
+    "A059269",
+    "A172969"
   ],
   "tags": [
     "formulas",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

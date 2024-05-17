@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi^(1/2)*Gamma(1/10)/(5*Gamma(3/5)).",
+  "id": "A371824",
+  "mentions": [
+    "A001622",
+    "A085565",
+    "A113477",
+    "A262427"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

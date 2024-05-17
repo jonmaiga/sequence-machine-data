@@ -1,5 +1,5 @@
 {
-  "description": "Acyclic orientations of the Hamming graph (K_2) x (K_n).",
+  "description": "Number of acyclic orientations of the Hamming graph (K_2) x (K_n).",
   "id": "A054652",
   "mentions": [
     "A002720",

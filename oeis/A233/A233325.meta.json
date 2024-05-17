@@ -1,5 +1,5 @@
 {
-  "description": "(2*6^(n+1) - 7) / 5.",
+  "description": "a(n) = (2*6^(n+1) - 7) / 5.",
   "id": "A233325",
   "mentions": [
     "A026567"

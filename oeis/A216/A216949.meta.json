@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1-6*x+7*x^2)/(1-7*x+11*x^2-x^3).",
+  "description": "Expansion of g.f. (1-6*x+7*x^2)/(1-7*x+11*x^2-x^3).",
   "id": "A216949",
   "mentions": [],
   "tags": [

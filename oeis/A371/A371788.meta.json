@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of set partitions of {1..n} with exactly k distinct block-sums.",
+  "id": "A371788",
+  "mentions": [
+    "A000110",
+    "A007837",
+    "A008277",
+    "A035470",
+    "A038041",
+    "A116608",
+    "A208437",
+    "A275780",
+    "A321452",
+    "A327899",
+    "A336137",
+    "A336138",
+    "A365661",
+    "A365663",
+    "A365925",
+    "A371737",
+    "A371789",
+    "A371790"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

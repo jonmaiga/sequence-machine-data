@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonequivalent directed unicursal star polygons (no edge joins adjacent vertices) that can be formed by connecting the vertices of a regular n-gon up to rotations.",
+  "id": "A370068",
+  "mentions": [
+    "A002619",
+    "A231091",
+    "A326411",
+    "A370459"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

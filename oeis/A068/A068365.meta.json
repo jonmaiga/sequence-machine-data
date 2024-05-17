@@ -1,8 +1,12 @@
 {
-  "description": "Numbers n such that sigma(n)=phi((prime(n)+prime(n+1))/2).",
+  "description": "Numbers k such that sigma(k) = phi((prime(k)+prime(k+1))/2).",
   "id": "A068365",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

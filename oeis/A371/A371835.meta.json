@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of points (x,y,z) satisfying |x|+|y|+|z|<=n and max(|x|,|y|,|z|)<=k; 0<=k<=n.",
+  "id": "A371835",
+  "mentions": [
+    "A001845",
+    "A016755",
+    "A371515",
+    "A371532"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

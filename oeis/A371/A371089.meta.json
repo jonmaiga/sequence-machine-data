@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A003557(k) does not divide A276086(k), where A003557(k) is k divided by its largest squarefree divisor, and A276086 is the primorial base exp-function.",
+  "id": "A371089",
+  "mentions": [
+    "A003557",
+    "A013929",
+    "A276086",
+    "A371087",
+    "A371088"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

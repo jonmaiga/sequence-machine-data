@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] whose longest block is of length 2. A block of a permutation is a maximal sequence of consecutive integers which appear in consecutive positions.",
+  "id": "A370390",
+  "mentions": [
+    "A000255",
+    "A002628",
+    "A184182"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

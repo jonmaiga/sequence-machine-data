@@ -1,0 +1,41 @@
+{
+  "description": "Number of strict integer partitions of n with fewer parts than distinct divisors of parts.",
+  "id": "A371180",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A008284",
+    "A239312",
+    "A303975",
+    "A319055",
+    "A355529",
+    "A370802",
+    "A370803",
+    "A370808",
+    "A370813",
+    "A370820",
+    "A371128",
+    "A371130",
+    "A371132",
+    "A371165",
+    "A371168",
+    "A371171",
+    "A371172",
+    "A371173",
+    "A371177",
+    "A371178",
+    "A371179"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime beginning and ending in at least n seven's.",
+  "description": "Smallest prime beginning and ending in at least n 7's.",
   "id": "A068162",
   "mentions": [
     "A068160",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

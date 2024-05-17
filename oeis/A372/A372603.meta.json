@@ -1,0 +1,30 @@
+{
+  "description": "The maximal exponent in the prime factorization of the powerful part of n.",
+  "id": "A372603",
+  "mentions": [
+    "A007424",
+    "A013661",
+    "A033150",
+    "A051903",
+    "A057521",
+    "A059956",
+    "A087156",
+    "A212172",
+    "A275812",
+    "A368710",
+    "A368781",
+    "A372601",
+    "A372602",
+    "A372604"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

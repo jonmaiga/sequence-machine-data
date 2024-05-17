@@ -1,5 +1,5 @@
 {
-  "description": "The number of equivalence classes of n-leaf binary trees with respect to pattern avoidance.",
+  "description": "The number of equivalence classes of n-leaf binary trees with respect to contiguous pattern avoidance.",
   "id": "A161746",
   "mentions": [
     "A036766",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

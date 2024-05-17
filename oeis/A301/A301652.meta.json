@@ -1,11 +1,13 @@
 {
-  "description": "Triangle read by rows: row n gives inversion of digits of n in factorial base.",
+  "description": "Triangle read by rows: row n gives the digits of n in factorial base in reversed order.",
   "id": "A301652",
   "mentions": [
+    "A007623",
     "A034968",
     "A108731",
     "A208575",
     "A227153",
+    "A276076",
     "A301593"
   ],
   "tags": [

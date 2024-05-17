@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of canonical iterated stribolic area Integral_{t=0..1} h_n(t) dt (of order 1).",
+  "id": "A369990",
+  "mentions": [
+    "A369988",
+    "A369991",
+    "A369992",
+    "A369993"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

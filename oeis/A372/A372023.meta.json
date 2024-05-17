@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of ( (1 + 3*x)/(1 - x) )^(1/2).",
+  "id": "A372023",
+  "mentions": [
+    "A005043",
+    "A103872",
+    "A372024"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

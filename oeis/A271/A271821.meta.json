@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (5*10^n-143)/3 is prime.",
+  "description": "Numbers k such that (5*10^k - 143)/3 is prime.",
   "id": "A271821",
   "mentions": [
     "A056654",

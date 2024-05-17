@@ -1,0 +1,17 @@
+{
+  "description": "The fifth term of the greedy B_n set of natural numbers.",
+  "id": "A369817",
+  "mentions": [
+    "A365515"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

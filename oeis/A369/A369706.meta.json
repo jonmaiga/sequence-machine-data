@@ -1,0 +1,17 @@
+{
+  "description": "Maximal coefficient of (1 + x^2) * (1 + x^3) * (1 + x^4) * ... * (1 + x^n).",
+  "id": "A369706",
+  "mentions": [
+    "A025147",
+    "A025591"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

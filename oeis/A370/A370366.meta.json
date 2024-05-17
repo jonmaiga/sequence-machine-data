@@ -1,0 +1,26 @@
+{
+  "description": "Number A(n,k) of partitions of [k*n] into n sets of size k having no set of consecutive numbers whose maximum (if k>0) is a multiple of k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A370366",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000012",
+    "A010763",
+    "A053871",
+    "A060540",
+    "A370357",
+    "A370363",
+    "A370367",
+    "A370368"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

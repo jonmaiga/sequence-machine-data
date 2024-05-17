@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose representation can be split in two parts which can be used as seeds for a Fibonacci-like sequence containing n itself.",
+  "description": "Numbers k whose representation can be split in two parts which can be used as seeds for a Fibonacci-like sequence containing k itself.",
   "id": "A130792",
   "mentions": [
     "A007629"

@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k = 1 to n} [u_2(k)*u_3(k)], where u_2 = A038548, d_3 = A034836.",
+  "description": "a(n) = Sum_{k = 1..n} [u_2(k)*u_3(k)], where u_2 = A038548, u_3 = A034836.",
   "id": "A331078",
   "mentions": [
     "A034836",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

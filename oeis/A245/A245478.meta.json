@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th cyclotomic polynomial has a root mod 5.",
+  "description": "Numbers k such that the k-th cyclotomic polynomial has a root mod 5.",
   "id": "A245478",
   "mentions": [
     "A000079",

@@ -1,5 +1,5 @@
 {
-  "description": "Alternate n and 10n for each n.",
+  "description": "Alternate k and 10k for each k.",
   "id": "A173237",
   "mentions": [
     "A008592",

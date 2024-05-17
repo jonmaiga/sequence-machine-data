@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-congruent simple polygons with 2n sides on the unbounded chessboard such that each side is an edge of the corresponding knight graph.",
+  "id": "A368499",
+  "mentions": [
+    "A001230",
+    "A234623",
+    "A254129",
+    "A356404",
+    "A366778"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

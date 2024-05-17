@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = lambda(lambda(lambda(n))), where lambda(n) is the Carmichael lambda function (A002322).",
+  "id": "A366779",
+  "mentions": [
+    "A002322",
+    "A181776"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

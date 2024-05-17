@@ -1,0 +1,27 @@
+{
+  "description": "Partial alternating sums of the number of abelian groups sequence (A000688).",
+  "id": "A370897",
+  "mentions": [
+    "A000688",
+    "A021002",
+    "A048651",
+    "A063966",
+    "A068762",
+    "A068773",
+    "A084892",
+    "A084893",
+    "A307704",
+    "A357817",
+    "A362028"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

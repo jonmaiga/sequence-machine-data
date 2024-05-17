@@ -4,17 +4,23 @@
   "mentions": [
     "A052221",
     "A069521",
+    "A069522",
+    "A069523",
+    "A069524",
+    "A069525",
+    "A069527",
     "A069528",
     "A088396"
   ],
   "tags": [
     "base",
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

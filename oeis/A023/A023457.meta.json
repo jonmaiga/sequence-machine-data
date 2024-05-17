@@ -1,11 +1,12 @@
 {
-  "description": "n-15.",
+  "description": "a(n) = n-15.",
   "id": "A023457",
   "mentions": [
     "A001477"
   ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Worpitzky form polynomials for the {1,16,1} A142462 sequence: p(x,n) = Sum[A(n, k)*Binomial[x + k - 1, n - 1], {k, 1, n}]",
+  "description": "Worpitzky form polynomials for the {1,16,1} A142462 sequence: p(x,n) = Sum_{k=1..n} A(n, k)*binomial(x + k - 1, n - 1).",
   "id": "A168296",
   "mentions": [
     "A142462"

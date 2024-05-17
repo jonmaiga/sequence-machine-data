@@ -1,12 +1,11 @@
 {
-  "description": "Primes squared of the form n+prime(n).",
+  "description": "Primes squared of the form k + prime(k).",
   "id": "A104935",
   "mentions": [
     "A014688",
     "A104992"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {

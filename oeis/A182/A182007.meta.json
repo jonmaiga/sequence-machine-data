@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 2*sin(Pi/5); the 'associate' of the golden ratio.",
+  "description": "Decimal expansion of 2*sin(Pi/5).",
   "id": "A182007",
   "mentions": [
     "A001622",

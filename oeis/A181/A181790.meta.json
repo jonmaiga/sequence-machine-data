@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n concatenated with itself is a pandigital biperiod square.",
+  "description": "Numbers k such that k concatenated with itself is a pandigital biperiod square.",
   "id": "A181790",
   "mentions": [
     "A102567",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

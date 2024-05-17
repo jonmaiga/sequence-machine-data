@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} n^Omega(n/p).",
+  "id": "A369908",
+  "mentions": [
+    "A001222",
+    "A369741"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of nonnegative integer matrices with sum of entries equal to 2*n or 2*n+1, no zero rows or columns, which are symmetric about both diagonals.",
+  "id": "A370396",
+  "mentions": [
+    "A135401"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

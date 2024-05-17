@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A371092(A372443(n)).",
+  "id": "A372445",
+  "mentions": [
+    "A000265",
+    "A257852",
+    "A371092",
+    "A371103",
+    "A372287",
+    "A372443",
+    "A372444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

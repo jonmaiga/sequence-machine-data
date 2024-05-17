@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of Im(tan(1+I)).",
   "id": "A170937",
-  "mentions": [],
+  "mentions": [
+    "A170936"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

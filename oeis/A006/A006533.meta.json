@@ -1,5 +1,5 @@
 {
-  "description": "Join n equal points around circle in all ways, count regions.",
+  "description": "Place n equally-spaced points around a circle and join every pair of points by a chord; this divides the circle into a(n) regions.",
   "id": "A006533",
   "mentions": [
     "A001006",

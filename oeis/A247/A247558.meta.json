@@ -1,5 +1,5 @@
 {
-  "description": "Smallest integer x>0 such that the number of semiprimes in the interval (x/2, x] equals n.",
+  "description": "Smallest integer x > 0 such that the number of semiprimes in the interval (x/2, x] equals n.",
   "id": "A247558",
   "mentions": [
     "A001358",

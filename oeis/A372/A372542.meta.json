@@ -1,0 +1,19 @@
+{
+  "description": "Total number of modes in all partitions of n.",
+  "id": "A372542",
+  "mentions": [
+    "A000041",
+    "A003056",
+    "A362614",
+    "A372632"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

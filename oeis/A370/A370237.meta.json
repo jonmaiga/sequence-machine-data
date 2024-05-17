@@ -1,0 +1,23 @@
+{
+  "description": "Number of genus 3 partitions of the n-set.",
+  "id": "A370237",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A002802",
+    "A297178",
+    "A297179",
+    "A370235",
+    "A370236"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 8,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

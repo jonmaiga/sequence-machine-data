@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (65*10^n+691)/9 is prime.",
+  "description": "Numbers k such that (65*10^k + 691)/9 is prime.",
   "id": "A272717",
   "mentions": [
     "A056654",

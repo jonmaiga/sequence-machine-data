@@ -1,0 +1,16 @@
+{
+  "description": "Primes of the form Fibonacci(m^(k+1))/Fibonacci(m^k), where m > 1 and k >= 1.",
+  "id": "A371866",
+  "mentions": [
+    "A000045",
+    "A181419"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

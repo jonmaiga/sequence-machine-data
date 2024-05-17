@@ -1,0 +1,20 @@
+{
+  "description": "Weird numbers whose abundance is also a weird number.",
+  "id": "A371952",
+  "mentions": [
+    "A000203",
+    "A006037",
+    "A033880",
+    "A371920",
+    "A371950",
+    "A371953"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

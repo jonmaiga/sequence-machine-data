@@ -2,11 +2,10 @@
   "description": "Susceptibility series for b.c.c. lattice.",
   "id": "A002925",
   "mentions": [
-    "A002891",
-    "A002892",
     "A002924",
     "A002926",
-    "A007239"
+    "A007239",
+    "A371049"
   ],
   "tags": [
     "more",

@@ -1,5 +1,5 @@
 {
-  "description": "Positive integer values of n such that 10n^2 - 9 is a square.",
+  "description": "Positive integer values of k such that 10*k^2 - 9 is a square.",
   "id": "A052454",
   "mentions": [
     "A077442",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

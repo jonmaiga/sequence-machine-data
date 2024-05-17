@@ -1,5 +1,5 @@
 {
-  "description": "12 X n binary arrays with a path of adjacent 1's from upper left corner to anywhere in right hand column.",
+  "description": "Number of 12 X n binary arrays with a path of adjacent 1's from upper left corner to anywhere in right hand column.",
   "id": "A069316",
   "mentions": [
     "A069294",
@@ -24,7 +24,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 4,
-    "source": "oeis-entry"
+    "size": 10,
+    "source": "oeis-bfile"
   }
 }

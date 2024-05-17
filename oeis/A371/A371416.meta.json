@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x * (1 - 3*x - x^3) ).",
+  "id": "A371416",
+  "mentions": [
+    "A049140",
+    "A120985"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

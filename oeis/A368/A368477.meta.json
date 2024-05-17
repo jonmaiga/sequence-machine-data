@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of integer tuples (b_1, b_2, ..., b_(k+1)) where 0 <= b_i <= 9, such that |b_i - b_(i+1)| = d_i for all i, where (d_1, d_2, ..., d_k) is the decimal expansion of n.",
+  "id": "A368477",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

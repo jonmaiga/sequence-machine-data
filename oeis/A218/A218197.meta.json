@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the Perrin's argument a (see below).",
+  "description": "Decimal expansion of the Perrin argument a (see below).",
   "id": "A218197",
   "mentions": [
     "A001608",
@@ -8,11 +8,12 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 120,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Unhappy numbers which enter the cycle (4, 16, 37, 58, 89, 145, 42, 20) at 4",
+  "description": "Unhappy numbers which enter the cycle (4, 16, 37, 58, 89, 145, 42, 20) at 4.",
   "id": "A193565",
   "mentions": [
     "A031177",

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x / ((1+x)^4 - x^2) ).",
+  "id": "A371430",
+  "mentions": [
+    "A317133",
+    "A369156",
+    "A369213"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

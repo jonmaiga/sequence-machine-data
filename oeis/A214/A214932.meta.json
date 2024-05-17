@@ -1,17 +1,19 @@
 {
-  "description": "Number of practical numbers between powers of 2 where the practical numbers b(k) are A005153.",
+  "description": "Number of practical numbers between powers of 2 where the practical numbers are A005153.",
   "id": "A214932",
   "mentions": [
     "A005153",
-    "A036378"
+    "A036378",
+    "A209237",
+    "A322257",
+    "A327824"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

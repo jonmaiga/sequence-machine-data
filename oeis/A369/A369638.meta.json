@@ -1,0 +1,21 @@
+{
+  "description": "The n-th arithmetic derivative of 2^7.",
+  "id": "A369638",
+  "mentions": [
+    "A001787",
+    "A003415",
+    "A129150",
+    "A258651",
+    "A328114",
+    "A369652"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

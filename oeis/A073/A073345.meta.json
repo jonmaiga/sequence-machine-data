@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k) (listed antidiagonalwise in order T(0,0), T(1,0), T(0,1), T(2,0), T(1,1), ...) giving the number of rooted plane binary trees of size n and height k.",
+  "description": "Table T(n,k), read by ascending antidiagonals, giving the number of rooted plane binary trees of size n and height k.",
   "id": "A073345",
   "mentions": [
     "A000108",

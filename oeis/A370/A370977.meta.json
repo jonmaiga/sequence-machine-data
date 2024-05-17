@@ -1,0 +1,21 @@
+{
+  "description": "Let G_n denote the planar graph defined in A358746 with the addition, if n is odd, of the circle containing the initial n points; sequence gives the number of edges in G_n.",
+  "id": "A370977",
+  "mentions": [
+    "A358746",
+    "A358782",
+    "A358783",
+    "A370976",
+    "A370978",
+    "A370979"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 2^(n-1) == 1 (mod n).",
+  "description": "Integers k such that 2^(k-1) == 1 (mod k).",
   "id": "A176997",
   "mentions": [
     "A000079",

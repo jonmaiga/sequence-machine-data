@@ -1,15 +1,15 @@
 {
-  "description": "A designed symmetrical triangle sequence: t(n,m)=If[m*(n - m) == 0, 1, (1 + Abs[(1 + n - m) - (1 + m)])*Binomial[n, m]].",
+  "description": "Triangle read by rows: T(n, k) = (1 + abs(n-2*k))*binomial(n,k), with T(n, 0) = T(n, n) = 1.",
   "id": "A143185",
   "mentions": [],
   "tags": [
     "formulas",
     "nonn",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

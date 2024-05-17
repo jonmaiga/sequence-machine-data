@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n mixed radix numbers with base [2, 3, 4, ...] (factorial base) such that the parities of adjacent digits differ.",
+  "description": "Number of length n mixed-radix numbers with base [2, 3, 4, ...] (factorial base) such that the parities of adjacent digits differ.",
   "id": "A219024",
   "mentions": [],
   "tags": [

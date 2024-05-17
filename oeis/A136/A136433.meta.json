@@ -1,5 +1,5 @@
 {
-  "description": "a(n+2)=a(n+1)*(n mod 3 + 1) + (n mod 2 + 1), a(1)=11.",
+  "description": "a(n+2) = a(n+1)*(n mod 3 + 1) + (n mod 2 + 1), a(1) = 11.",
   "id": "A136433",
   "mentions": [],
   "tags": [

@@ -2,10 +2,12 @@
   "description": "Crystal ball sequence for the lattice C_6.",
   "id": "A305549",
   "mentions": [
+    "A008310",
     "A019562",
     "A142992"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

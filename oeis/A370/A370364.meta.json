@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n^2] into n sets of size n having at least one set of consecutive numbers whose maximum (if n>0) is a multiple of n.",
+  "id": "A370364",
+  "mentions": [
+    "A057599",
+    "A370363",
+    "A370367"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

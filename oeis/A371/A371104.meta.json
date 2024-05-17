@@ -1,0 +1,20 @@
+{
+  "description": "Starting from k=7, each subsequent term is the next larger k such that the ratio A276086(k)/A003415(k) is nearer to 1 than for the previous k in the sequence.",
+  "id": "A371104",
+  "mentions": [
+    "A003415",
+    "A049345",
+    "A276086",
+    "A351228"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

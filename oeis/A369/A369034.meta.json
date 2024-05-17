@@ -2,6 +2,8 @@
   "description": "a(n) = 1 if A327860(n) is a multiple of 4, otherwise 0, where A327860 is the arithmetic derivative of the primorial base exp-function.",
   "id": "A369034",
   "mentions": [
+    "A038698",
+    "A046337",
     "A121262",
     "A235992",
     "A276086",
@@ -9,10 +11,14 @@
     "A342019",
     "A353494",
     "A353630",
+    "A358846",
+    "A360109",
+    "A360110",
     "A368994",
     "A369004",
     "A369035",
-    "A369036"
+    "A369036",
+    "A369653"
   ],
   "tags": [
     "formulas",

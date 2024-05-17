@@ -1,10 +1,17 @@
 {
   "description": "Continued fraction for sqrt(485).",
   "id": "A040462",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A040002",
+    "A040110",
+    "A041924",
+    "A041925"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "less",
     "nonn"
   ],

@@ -1,0 +1,22 @@
+{
+  "description": "Product of digits of (n written in base 3) mod 3.",
+  "id": "A371222",
+  "mentions": [
+    "A007089",
+    "A010059",
+    "A032924",
+    "A081605",
+    "A309953",
+    "A371281"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "joeis"
+  }
+}

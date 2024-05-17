@@ -1,7 +1,9 @@
 {
   "description": "x such that x^2 - 27*y^2 = 1.",
   "id": "A114052",
-  "mentions": [],
+  "mentions": [
+    "A370188"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

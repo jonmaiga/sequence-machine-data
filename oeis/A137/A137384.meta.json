@@ -1,11 +1,11 @@
 {
-  "description": "A triangular sequence of coefficients of a modified Neumann polynomial recursion: No(x, n) = (2*n/x)*No(x, n - 1) + (-n/(n - 2))*No( x, n - 2) + Ceiling[(2*(n - 1)/((n - 2)))*Sin[(n - 1)*Pi/2]]/x; weighted by 2*x^(n + 1).",
+  "description": "Triangle: No(x, n) = (2*n/x)*No(x, n - 1) + (-n/(n - 2))*No( x, n - 2) + Ceiling[(2*(n - 1)/((n - 2)))*Sin[(n - 1)*Pi/2]]/x; weighted by 2*x^(n + 1).",
   "id": "A137384",
   "mentions": [],
   "tags": [
-    "formulas",
+    "less",
     "sign",
-    "tabl",
+    "tabf",
     "uned"
   ],
   "terms": {

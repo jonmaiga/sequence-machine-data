@@ -2,10 +2,14 @@
   "description": "Number of ways of arranging 2n+1 nonattacking queens on a 2n+1 X 2n+1 toroidal board.",
   "id": "A007705",
   "mentions": [
-    "A051906"
+    "A051906",
+    "A071607",
+    "A342990"
   ],
   "tags": [
+    "formulas",
     "hard",
+    "more",
     "nice",
     "nonn"
   ],

@@ -1,7 +1,10 @@
 {
   "description": "Denominator(sum(i=1,n,1/i^4))/denominator(sum(i=1,n,1/i)).",
   "id": "A069045",
-  "mentions": [],
+  "mentions": [
+    "A002805",
+    "A007480"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,10 +1,11 @@
 {
-  "description": "Floor(6*n*sqrt(n)/Pi^2) - sigma(n), where sigma(n) is the sum of the divisors of n (A000203).",
+  "description": "a(n) = floor(6*n*sqrt(n)/Pi^2) - sigma(n), where sigma(n) is the sum of the divisors of n (A000203).",
   "id": "A058208",
   "mentions": [
     "A000203",
     "A055682",
-    "A057641"
+    "A057641",
+    "A059956"
   ],
   "tags": [
     "sign"

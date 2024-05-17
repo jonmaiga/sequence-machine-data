@@ -1,5 +1,5 @@
 {
-  "description": "Smallest odd number that requires n Miller-Rabin primality tests.",
+  "description": "Smallest odd composite number that requires n Miller-Rabin primality tests.",
   "id": "A006945",
   "mentions": [
     "A014233",

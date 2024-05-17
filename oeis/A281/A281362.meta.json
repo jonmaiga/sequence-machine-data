@@ -2,6 +2,7 @@
   "description": "a(0) = 1, a(1) = 2; for n>1, a(n) = a(n-1) + a(n-2) + floor(n/2).",
   "id": "A281362",
   "mentions": [
+    "A000045",
     "A215004",
     "A215005"
   ],

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: exp(Sum_{k>=1} binomial(2*k,k) * x^k).",
+  "id": "A370326",
+  "mentions": [
+    "A000984",
+    "A065866",
+    "A213507",
+    "A251568",
+    "A370327"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

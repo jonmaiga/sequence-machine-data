@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n * (n + 4) * (n + 8).",
+  "id": "A370914",
+  "mentions": [
+    "A370915"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

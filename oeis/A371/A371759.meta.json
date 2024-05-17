@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest n-gonal number that is a Fermat pseudoprime to base 2 (A001567), or -1 if no such number exists.",
+  "id": "A371759",
+  "mentions": [
+    "A001220",
+    "A001567",
+    "A293622",
+    "A293623",
+    "A321868",
+    "A321870",
+    "A322123",
+    "A322130",
+    "A322160",
+    "A371760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

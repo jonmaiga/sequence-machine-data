@@ -1,7 +1,10 @@
 {
-  "description": "T(n,k)=Number of 2:3:sqrt(13) proportioned triangles on a (n+1)X(k+1) grid",
+  "description": "T(n,k) = number of 2:3:sqrt(13) proportioned triangles on a (n+1) X (k+1) grid.",
   "id": "A190113",
-  "mentions": [],
+  "mentions": [
+    "A189885",
+    "A190112"
+  ],
   "tags": [
     "formulas",
     "nonn",

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the digital sum of k^4 is a fourth power.",
+  "id": "A371047",
+  "mentions": [
+    "A000583",
+    "A007953",
+    "A011557",
+    "A038444",
+    "A061910",
+    "A237525",
+    "A371004"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

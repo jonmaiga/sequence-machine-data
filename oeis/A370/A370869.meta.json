@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0; thereafter, a(n) = a(n-1)^2 - 3*A058891(n).",
+  "id": "A370869",
+  "mentions": [
+    "A001146",
+    "A058891"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

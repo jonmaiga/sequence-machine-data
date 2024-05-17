@@ -1,9 +1,18 @@
 {
   "description": "Decimal expansion of Gamma(1/10).",
   "id": "A256191",
-  "mentions": [],
+  "mentions": [
+    "A175380",
+    "A246745",
+    "A340721",
+    "A340722",
+    "A340723",
+    "A340724",
+    "A340725"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

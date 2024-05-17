@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 4^n*Sum_{j=0..k} (-1)^(k - j)*binomial(k, j)* Pochhammer(j/4, n).",
+  "id": "A371026",
+  "mentions": [
+    "A000142",
+    "A007696",
+    "A371025",
+    "A371027"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n-th decimal digit + 1 of the fraction formed by the square root of the n-th prime.",
+  "description": "a(n) = n-th decimal digit + 1 of the fractional part formed by the square root of the n-th prime.",
   "id": "A111421",
   "mentions": [
     "A071901"

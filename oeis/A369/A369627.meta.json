@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(1 - x^2/(1-9*x)^(1/3)).",
+  "id": "A369627",
+  "mentions": [
+    "A104625",
+    "A362206",
+    "A369940"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

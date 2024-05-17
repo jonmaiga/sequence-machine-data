@@ -2,6 +2,7 @@
   "description": "Number of rhombi on an n X n grid (or geoboard).",
   "id": "A189418",
   "mentions": [
+    "A181947",
     "A189413",
     "A189414"
   ],

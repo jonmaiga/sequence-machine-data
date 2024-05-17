@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 3+sqrt(10).",
   "id": "A176398",
   "mentions": [
+    "A005668",
     "A010467",
     "A010722",
     "A049310",

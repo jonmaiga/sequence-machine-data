@@ -1,0 +1,16 @@
+{
+  "description": "Number of labeled graphs on 2n nodes with n connected components.",
+  "id": "A369827",
+  "mentions": [
+    "A143543"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

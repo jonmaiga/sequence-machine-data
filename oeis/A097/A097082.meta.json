@@ -1,7 +1,8 @@
 {
-  "description": "Number of permutations p of (1,2,3,...,n) such that k+p(k) is a Fibonacci number for 1<=k<=n.",
+  "description": "Number of permutations p of (1,2,3,...,n) such that k+p(k) is a Fibonacci number for 1 <= k <= n.",
   "id": "A097082",
   "mentions": [
+    "A010056",
     "A073364",
     "A095986",
     "A097083"
@@ -11,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 67,
+    "offset": 0,
+    "size": 68,
     "source": "oeis-entry"
   }
 }

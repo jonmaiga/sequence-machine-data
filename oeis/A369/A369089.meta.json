@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of Sum_{n>=0} ( (1+x)^n/(1-x)^n + (1-x)^n/(1+x)^n )^n / 4^n, listing the coefficients of only the even powers of x.",
+  "id": "A369089",
+  "mentions": [
+    "A369088"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

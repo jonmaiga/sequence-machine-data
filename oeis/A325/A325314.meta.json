@@ -2,6 +2,7 @@
   "description": "a(n) = n - A162296(n), where A162296(n) is the sum of divisors of n that have a square factor.",
   "id": "A325314",
   "mentions": [
+    "A013661",
     "A033879",
     "A162296",
     "A228058",

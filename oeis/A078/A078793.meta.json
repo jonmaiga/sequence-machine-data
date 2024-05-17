@@ -2,7 +2,8 @@
   "description": "Number of unlabeled 4-trees on n vertices.",
   "id": "A078793",
   "mentions": [
-    "A036506"
+    "A036506",
+    "A370770"
   ],
   "tags": [
     "nonn"

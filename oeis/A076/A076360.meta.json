@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = commutator[sigma,tau](n) = d0(d1(w)) - d1(d0(w)), where d0()=number of, d1()=sum of divisors of n.",
+  "description": "a(n) = d0(d1(w)) - d1(d0(w)), where d0()=number of divisors, d1()=sum of divisors.",
   "id": "A076360",
   "mentions": [
     "A000005",

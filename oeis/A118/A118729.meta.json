@@ -1,5 +1,5 @@
 {
-  "description": "Infinite square array which contains the 8 numbers 4*r^2 - 3*r, 4*r^2 - 2*r, ..., 4*r^2 + 4*r in row r.",
+  "description": "Rectangular array where row r contains the 8 numbers 4*r^2 - 3*r, 4*r^2 - 2*r, ..., 4*r^2 + 4*r.",
   "id": "A118729",
   "mentions": [
     "A000217",

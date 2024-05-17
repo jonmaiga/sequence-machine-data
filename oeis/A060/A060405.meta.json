@@ -1,5 +1,5 @@
 {
-  "description": "Sum of Lucas (A000032) and Pell (A000129) numbers.",
+  "description": "Sum of n-th Lucas number (A000032(n)) and n-th Pell number (A000129(n)).",
   "id": "A060405",
   "mentions": [
     "A000032",

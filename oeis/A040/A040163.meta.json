@@ -2,6 +2,8 @@
   "description": "a(n) is the absolute value of (the first digit of n minus the last digit of n).",
   "id": "A040163",
   "mentions": [
+    "A000030",
+    "A010879",
     "A037904",
     "A040114",
     "A040115",

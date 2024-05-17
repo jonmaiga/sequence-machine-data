@@ -2,7 +2,11 @@
   "description": "Expansion of (1/x) * Series_Reversion( x / (1/(1-x)^3 + x) ).",
   "id": "A369617",
   "mentions": [
-    "A274735"
+    "A006632",
+    "A007317",
+    "A274735",
+    "A369616",
+    "A370844"
   ],
   "tags": [
     "formulas",
@@ -11,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

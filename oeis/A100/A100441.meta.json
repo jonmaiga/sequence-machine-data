@@ -2,6 +2,7 @@
   "description": "a(n) is the denominator of f(n) where f(1) = 2 and f(n+1) is the solution of x + Sum_{i=1..n} f(i) = x * Product_{i=1..n} f(i).",
   "id": "A100441",
   "mentions": [
+    "A000058",
     "A001146",
     "A076628"
   ],

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..2^n, read by rows; the n-th row lists the nonnegative integers whose dual Zeckendorf-binary representation has n ones.",
+  "id": "A371592",
+  "mentions": [
+    "A001911",
+    "A035508",
+    "A112310",
+    "A371590",
+    "A371593"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

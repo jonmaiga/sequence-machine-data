@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Sum_{i >= 0} (i!)^2/(2*i+1)!.",
   "id": "A248897",
   "mentions": [
+    "A000407",
     "A000796",
     "A002194",
     "A091682",
@@ -14,6 +15,7 @@
   ],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],

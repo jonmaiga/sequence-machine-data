@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the smallest multiple of n whose number of divisors is a power of 2 (A036537).",
+  "id": "A372329",
+  "mentions": [
+    "A036537",
+    "A053143",
+    "A053149",
+    "A053167",
+    "A066638",
+    "A087320",
+    "A087321",
+    "A102631",
+    "A197863",
+    "A356191",
+    "A356192",
+    "A356193",
+    "A356194",
+    "A372328"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

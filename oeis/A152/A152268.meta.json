@@ -1,9 +1,7 @@
 {
-  "description": "A hidden Markov recursion involving the matrices: M0 = {{0, 1}, {1, 1/2}}; M = {{0, 2}, {2, 1}}; as Mh=M0.M.(M0+I); v[(n)=Mh.v(n-1): first element of v.",
+  "description": "Expansion of g.f. x/(1-7*x+8*x^2).",
   "id": "A152268",
-  "mentions": [
-    "A006131"
-  ],
+  "mentions": [],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,15 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the numerator of the probability of attacker victory in the game of Risk when n attacking armies face k defending armies in a territory.",
+  "id": "A371949",
+  "mentions": [],
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

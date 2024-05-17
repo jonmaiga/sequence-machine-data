@@ -2,9 +2,20 @@
   "description": "T(n, k) = F(n - k, k), where F(n, x) is the Fubini polynomial. Triangle read by rows, T(n, k) for 0 <= k <= n.",
   "id": "A344499",
   "mentions": [
+    "A000007",
+    "A000670",
+    "A004123",
+    "A004248",
+    "A032033",
     "A094416",
+    "A094417",
+    "A094418",
+    "A094419",
     "A094420",
-    "A131689"
+    "A131689",
+    "A238464",
+    "A371761",
+    "A372346"
   ],
   "tags": [
     "formulas",

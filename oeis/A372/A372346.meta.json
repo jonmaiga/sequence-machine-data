@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{j=0..n} p(n - j, j) where p(n, x) = Sum_{k=0..n} k! * Stirling2(n, k) * x^k). Row sums of A344499.",
+  "id": "A372346",
+  "mentions": [
+    "A094422",
+    "A131689",
+    "A344499"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

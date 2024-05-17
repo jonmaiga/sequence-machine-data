@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that 3 does not divide the m-th Catalan number A000108(m); m such that A067397(m) = 0.",
+  "id": "A370662",
+  "mentions": [
+    "A000108",
+    "A000989",
+    "A005836",
+    "A067397"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

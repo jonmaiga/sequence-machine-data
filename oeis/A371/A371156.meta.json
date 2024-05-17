@@ -1,0 +1,22 @@
+{
+  "description": "Length of the longest subsequence of 1, ..., n on which the Dedekind psi function (A001615) is nondecreasing.",
+  "id": "A371156",
+  "mentions": [
+    "A000720",
+    "A001615",
+    "A365339",
+    "A365397",
+    "A365398",
+    "A365399",
+    "A365740"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

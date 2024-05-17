@@ -1,0 +1,22 @@
+{
+  "description": "Number of binary strings of length n in which the number of substrings 00 is one more than that of substrings 01.",
+  "id": "A370048",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A090129",
+    "A163493",
+    "A182027",
+    "A371358",
+    "A371564"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

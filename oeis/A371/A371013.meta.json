@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of 2 squares and divisible by the square of their largest prime factor.",
+  "id": "A371013",
+  "mentions": [
+    "A001481",
+    "A070003"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

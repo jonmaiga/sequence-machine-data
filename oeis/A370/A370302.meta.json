@@ -1,0 +1,17 @@
+{
+  "description": "Least number of vertices of a graph that contains an induced cycle of length k_i + 3 for i = 1, 2, ..., where n = 2^k_1 + 2^k_2 + ... is the binary expansion of n.",
+  "id": "A370302",
+  "mentions": [
+    "A370301",
+    "A370303"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest multiple of n that when written in base 10 uses only 0's and 1's and at least one of each.",
+  "id": "A370571",
+  "mentions": [
+    "A004290",
+    "A007088",
+    "A244859"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

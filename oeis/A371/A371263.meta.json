@@ -1,0 +1,19 @@
+{
+  "description": "The run lengths transform of the balanced ternary expansion of n corresponds to the run lengths transform of the binary expansion of a(n).",
+  "id": "A371263",
+  "mentions": [
+    "A225081",
+    "A371256",
+    "A371265"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

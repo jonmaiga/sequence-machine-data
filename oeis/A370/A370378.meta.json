@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n where there are (2*k)! sorts of part k.",
+  "id": "A370378",
+  "mentions": [
+    "A010050",
+    "A051296",
+    "A370379"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

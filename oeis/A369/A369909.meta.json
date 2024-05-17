@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n * Sum_{p|n, p prime} Omega(n/p) / p.",
+  "id": "A369909",
+  "mentions": [
+    "A001222",
+    "A369741",
+    "A369908"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

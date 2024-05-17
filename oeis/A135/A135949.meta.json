@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=5a(n-2)+2a(n-3).",
+  "description": "a(n) = 5*a(n-2) + 2*a(n-3).",
   "id": "A135949",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 32,
     "source": "joeis"
   }
 }

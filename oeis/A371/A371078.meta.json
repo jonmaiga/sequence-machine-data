@@ -1,0 +1,24 @@
+{
+  "description": "Numbers formed by the rightmost decimal digits of n^n that are the same as those n^(n^n), where -1 indicates that n^n <> n^(n^n) (mod 10).",
+  "id": "A371078",
+  "mentions": [
+    "A000312",
+    "A317905",
+    "A349425",
+    "A369624",
+    "A369826",
+    "A370211",
+    "A371048",
+    "A371074"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

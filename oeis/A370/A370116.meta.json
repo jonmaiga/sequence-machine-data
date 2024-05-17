@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of n/A276086(A003415(n)), where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A370116",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A327859",
+    "A369964",
+    "A370114",
+    "A370117"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

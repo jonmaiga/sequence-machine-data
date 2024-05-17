@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-sided regions, k>=2, formed when n equally spaced points are placed around a circle and all pairs of points are joined by an interior arc whose radius equals the circle's radius.",
+  "id": "A371274",
+  "mentions": [
+    "A331450",
+    "A359009",
+    "A359061",
+    "A359258",
+    "A371253",
+    "A371254",
+    "A371255"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

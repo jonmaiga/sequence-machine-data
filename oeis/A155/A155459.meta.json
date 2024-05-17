@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=7*a(n-1)+36*a(n-2), n>2 ; a(0)=1, a(1)=1, a(2)=7 .",
+  "description": "a(n) = 7*a(n-1)+36*a(n-2), n>2 ; a(0)=1, a(1)=1, a(2)=7 .",
   "id": "A155459",
   "mentions": [],
   "tags": [

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = log_2(A372466(n) + 1).",
+  "id": "A372467",
+  "mentions": [
+    "A036537",
+    "A051903",
+    "A327839",
+    "A369934",
+    "A372466"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,17 +1,19 @@
 {
-  "description": "G.f. A(x) satisfies: A(A(A(A(A(A(x)))))) = x + 36*x^2.",
+  "description": "G.f. A(x) satisfies A(A(A(A(A(A(x)))))) = x + 36*x^2.",
   "id": "A141121",
   "mentions": [
     "A027436",
+    "A141118",
     "A141119",
     "A141120"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

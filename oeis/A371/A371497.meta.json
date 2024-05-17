@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: n-th row gives congruence classes s such that the n-th prime q is a quadratic residue modulo an odd prime p if and only if p = plus or minus s for some s (mod m), where m = q if q is of the form 4k + 1, else m = 4q.",
+  "id": "A371497",
+  "mentions": [
+    "A063987",
+    "A081728"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

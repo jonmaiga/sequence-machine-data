@@ -1,11 +1,10 @@
 {
-  "description": "Triangular sequence of coefficients of central statistical moments as a recursion. c = -(x - x^2); b = (-1 - a + 2 x)/x; a = 0; p(x, n) = (a + b*x)*p(x, n - 1) + c*p(x, n - 2).",
+  "description": "Irregular triangle read by rows: let c = -(x - x^2), b = (-1 - a + 2 x)/x, and a = 0, expansion of p(x, n) = (a + b*x)*p(x, n - 1) + c*p(x, n - 2).",
   "id": "A139144",
   "mentions": [],
   "tags": [
-    "formulas",
     "sign",
-    "tabl",
+    "tabf",
     "uned"
   ],
   "terms": {

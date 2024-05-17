@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of log(4/3) / log(3/2).",
+  "id": "A369522",
+  "mentions": [
+    "A016578",
+    "A083679",
+    "A368131"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

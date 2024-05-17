@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3*10^n - 11 is prime.",
+  "description": "Numbers k such that 3*10^k - 11 is prime.",
   "id": "A102737",
   "mentions": [],
   "tags": [

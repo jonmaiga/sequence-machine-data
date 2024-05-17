@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k = 1 to floor(n/2)} [d_3(k)*d_3(n+1-k)], where d_3 = A007425.",
+  "description": "a(n) = Sum_{k = 1..ceiling(n/2)} [d_3(k)*d_3(n+1-k)], where d_3 = A007425.",
   "id": "A331074",
   "mentions": [
     "A007425",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

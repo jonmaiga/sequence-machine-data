@@ -1,0 +1,19 @@
+{
+  "description": "Rectangular array read by antidiagonals: A(n,k) = prime(A114537(n,k)).",
+  "id": "A370094",
+  "mentions": [
+    "A000040",
+    "A007821",
+    "A114537"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

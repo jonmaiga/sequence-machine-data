@@ -1,0 +1,19 @@
+{
+  "description": "Number of Dabbaghian-Wu pandiagonal Latin squares of order 2n+1 with the first row in order.",
+  "id": "A369379",
+  "mentions": [
+    "A338562",
+    "A342306",
+    "A368027",
+    "A369380"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

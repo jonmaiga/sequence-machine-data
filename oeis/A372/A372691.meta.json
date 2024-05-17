@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+1 are both nonsquarefree numbers whose number of divisors is a power of 2 (A175496).",
+  "id": "A372691",
+  "mentions": [
+    "A013929",
+    "A068781",
+    "A175496",
+    "A176313",
+    "A372690"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

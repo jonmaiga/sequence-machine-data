@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=0..n} (n^2 - k^2)!.",
+  "id": "A371624",
+  "mentions": [
+    "A001142",
+    "A074962",
+    "A255322",
+    "A255504",
+    "A296591",
+    "A362288",
+    "A371603"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "joeis"
+  }
+}

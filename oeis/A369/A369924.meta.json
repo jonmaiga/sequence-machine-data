@@ -1,0 +1,18 @@
+{
+  "description": "Number of uniform words of length n with adjacent elements unequal using an infinite alphabet up to permutations of the alphabet.",
+  "id": "A369924",
+  "mentions": [
+    "A038041",
+    "A322013",
+    "A369925"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

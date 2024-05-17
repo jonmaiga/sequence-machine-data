@@ -1,5 +1,5 @@
 {
-  "description": "Position of Matula-Goebel number n among Matula-Goebel numbers sorted by number of vertices then numerically as per A061773.",
+  "description": "Position of Matula-Goebel number n among Matula-Goebel numbers sorted by number of vertices then numerically as in A061773.",
   "id": "A347620",
   "mentions": [
     "A005517",

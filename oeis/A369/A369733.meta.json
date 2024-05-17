@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to 2*k_1 + 3*k_2 + ... + prime(n)*k_n = 1, where k_i are from {-1,0,1}, i=1..n.",
+  "id": "A369733",
+  "mentions": [
+    "A007576",
+    "A063866",
+    "A113040",
+    "A350880",
+    "A369560",
+    "A369628"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

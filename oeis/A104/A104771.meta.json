@@ -1,5 +1,5 @@
 {
-  "description": "G.f. (1-x+x^2)/(1+x-x^3).",
+  "description": "Expansion of g.f. (1-x+x^2)/(1+x-x^3).",
   "id": "A104771",
   "mentions": [
     "A104769",

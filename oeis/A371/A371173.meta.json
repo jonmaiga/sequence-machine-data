@@ -1,0 +1,41 @@
+{
+  "description": "Number of integer partitions of n with fewer parts than distinct divisors of parts.",
+  "id": "A371173",
+  "mentions": [
+    "A000005",
+    "A003963",
+    "A239312",
+    "A319055",
+    "A355529",
+    "A355731",
+    "A355732",
+    "A355739",
+    "A355740",
+    "A368100",
+    "A368110",
+    "A370320",
+    "A370348",
+    "A370592",
+    "A370593",
+    "A370802",
+    "A370803",
+    "A370808",
+    "A370809",
+    "A370813",
+    "A370814",
+    "A370820",
+    "A371128",
+    "A371130",
+    "A371166",
+    "A371168",
+    "A371171"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

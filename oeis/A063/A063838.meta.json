@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that mu(n) + mu(n+1) + mu(n+2) = 3.",
+  "description": "Numbers k such that mu(k) + mu(k+1) + mu(k+2) = 3.",
   "id": "A063838",
   "mentions": [
     "A007675",

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 + 2*x^k/k).",
+  "id": "A371548",
+  "mentions": [
+    "A001620",
+    "A007838",
+    "A032297",
+    "A371547"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

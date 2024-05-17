@@ -1,13 +1,21 @@
 {
-  "description": "Prime(2^(2^n)).",
+  "description": "a(n) = prime(2^(2^n)).",
   "id": "A095124",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A001146",
+    "A033844",
+    "A121046"
+  ],
   "tags": [
+    "formulas",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

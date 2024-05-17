@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct numbers of intercalates in Latin squares of order n.",
+  "id": "A368182",
+  "mentions": [
+    "A092237",
+    "A309344",
+    "A345760"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

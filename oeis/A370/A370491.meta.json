@@ -1,0 +1,17 @@
+{
+  "description": "The numerators of a series that converges to the Omega constant (A030178) obtained using Whittaker's root series formula.",
+  "id": "A370491",
+  "mentions": [
+    "A030178",
+    "A370490"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

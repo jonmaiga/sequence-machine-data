@@ -1,9 +1,10 @@
 {
-  "description": "Triangle read by rows: T(n,k) = prime(n) mod (prime(n+1)-prime(k)) for 0",
+  "description": "Triangle read by rows: T(n,k) = prime(n) mod (prime(n+1) - prime(k)) for 0 < k < n+1.",
   "id": "A174497",
   "mentions": [
     "A000040",
-    "A086800"
+    "A086800",
+    "A177226"
   ],
   "tags": [
     "easy",

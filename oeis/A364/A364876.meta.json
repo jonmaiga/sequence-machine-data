@@ -1,5 +1,5 @@
 {
-  "description": "Number of chordless cycles (of length >= 4) in the n-middle layer graph.",
+  "description": "Number of chordless cycles (of length >= 4) in the complement of the n-middle layer graph.",
   "id": "A364876",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

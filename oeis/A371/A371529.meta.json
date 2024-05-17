@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Product_{k>=2} (1 + (-1)^k/Lucas(k)).",
+  "id": "A371529",
+  "mentions": [
+    "A000032",
+    "A001622",
+    "A002390",
+    "A337668",
+    "A337669",
+    "A371525",
+    "A371526",
+    "A371527",
+    "A371528",
+    "A371530"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

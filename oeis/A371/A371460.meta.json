@@ -1,0 +1,16 @@
+{
+  "description": "Binomial transform of A355409.",
+  "id": "A371460",
+  "mentions": [
+    "A355409"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

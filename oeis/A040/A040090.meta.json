@@ -1,10 +1,18 @@
 {
   "description": "Continued fraction for sqrt(101).",
   "id": "A040090",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A040002",
+    "A040020",
+    "A041180",
+    "A041181",
+    "A248803"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. arcsin(x)^2/(2*(1 - x)).",
+  "id": "A372324",
+  "mentions": [
+    "A296726"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

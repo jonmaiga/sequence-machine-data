@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: row n is the unique primitive Pythagorean triple (a,b,c) such that a = prime(n)*prime(n+1) and its long leg and hypotenuse are consecutive natural numbers.",
+  "id": "A370763",
+  "mentions": [
+    "A000040",
+    "A006094",
+    "A102770"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

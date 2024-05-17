@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n * Sum_{p|n, p prime} prime(n/p) / p.",
+  "id": "A369867",
+  "mentions": [
+    "A000040",
+    "A003557",
+    "A033286",
+    "A246655",
+    "A351368",
+    "A369748",
+    "A369749",
+    "A369750",
+    "A369866"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

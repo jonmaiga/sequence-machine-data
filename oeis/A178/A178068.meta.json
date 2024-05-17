@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 2p+1, 3p+2 and 5p-2 are also prime.",
+  "description": "Primes p such that 2p+1, 3p+2 and 5p-2 are also primes.",
   "id": "A178068",
   "mentions": [
     "A067256"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

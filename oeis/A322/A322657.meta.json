@@ -2,6 +2,7 @@
   "description": "Integers whose set of divisors, excluding 1, can be partitioned into two nonempty subsets having equal sum.",
   "id": "A322657",
   "mentions": [
+    "A028982",
     "A083207",
     "A322658"
   ],
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

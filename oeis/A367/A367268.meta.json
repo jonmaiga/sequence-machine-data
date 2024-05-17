@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k that are not squarefree, not prime powers, and not products of primorials.",
+  "id": "A367268",
+  "mentions": [
+    "A000961",
+    "A002110",
+    "A005117",
+    "A013929",
+    "A024619",
+    "A025487",
+    "A126706",
+    "A368089",
+    "A369361"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

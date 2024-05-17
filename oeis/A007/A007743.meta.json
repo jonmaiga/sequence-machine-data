@@ -1,12 +1,15 @@
 {
-  "description": "Number of n-celled mirror-symmetric solid polyominoes (or polycubes).",
+  "description": "Number of achiral polyominoes with n cubical cells of the regular tiling with Schläfli symbol {4,3,4} (or polycubes).",
   "id": "A007743",
   "mentions": [
     "A000162",
+    "A001931",
     "A007741",
-    "A038119"
+    "A038119",
+    "A371397"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

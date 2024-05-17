@@ -1,7 +1,9 @@
 {
   "description": "3n+2 sandwiched by tripled 3n+1 .",
   "id": "A130766",
-  "mentions": [],
+  "mentions": [
+    "A073010"
+  ],
   "tags": [
     "formulas",
     "nonn"

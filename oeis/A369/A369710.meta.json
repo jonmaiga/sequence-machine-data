@@ -1,0 +1,17 @@
+{
+  "description": "Maximal coefficient of (1 - x)^2 * (1 - x^2)^2 * (1 - x^3)^2 * ... * (1 - x^n)^2.",
+  "id": "A369710",
+  "mentions": [
+    "A002107",
+    "A047653",
+    "A086376"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,17 +1,20 @@
 {
-  "description": "The numbers formed by removing the required prime factors to form the number from a set which is initially empty and that has primes added via the addition of the prime factors of numbers which cannot be created from those currently in the set. Start by trying to create the number 2.",
+  "description": "Numbers k such that b(k+1) divides b(k), where b() is Recamán's multiplicative sequence A008336.",
   "id": "A337486",
   "mentions": [
+    "A005132",
+    "A008336",
     "A109895",
     "A330430",
-    "A331276"
+    "A331276",
+    "A370969"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 67,
+    "size": 68,
     "source": "oeis-bfile"
   }
 }

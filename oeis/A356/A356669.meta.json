@@ -1,7 +1,9 @@
 {
   "description": "The number of controllable graphs on n vertices.",
   "id": "A356669",
-  "mentions": [],
+  "mentions": [
+    "A371897"
+  ],
   "tags": [
     "hard",
     "more",

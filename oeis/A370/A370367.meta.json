@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n^2] into n sets of size n having no set of consecutive numbers whose maximum (if k>n) is a multiple of n.",
+  "id": "A370367",
+  "mentions": [
+    "A057599",
+    "A370364",
+    "A370366"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

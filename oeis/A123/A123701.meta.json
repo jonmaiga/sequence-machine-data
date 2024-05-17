@@ -1,5 +1,5 @@
 {
-  "description": "Minimum number k>0 such that Abs[n^k - k^n] = A078202[n] is prime; or -1 if such k>0 does not exist.",
+  "description": "Minimum number k > 0 such that abs(n^k - k^n) = A078202(n) is prime, or -1 if such k > 0 does not exist.",
   "id": "A123701",
   "mentions": [
     "A008864",

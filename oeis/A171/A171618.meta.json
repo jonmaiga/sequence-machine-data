@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways of writing n=k1+k2 with k1 and k2 non-single or nonisolated numbers A167707.",
+  "description": "Number of ways of writing n=k1+k2 with k1 and k2 in A167707.",
   "id": "A171618",
   "mentions": [
     "A001097",

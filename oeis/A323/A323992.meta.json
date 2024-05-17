@@ -1,17 +1,16 @@
 {
-  "description": "Fourier coefficients of Eisenstein series of degree 2 and weight 4: coefficients of certain imprimitive matrices.",
+  "description": "Fourier coefficients of Eisenstein series of degree 2 and weight 4: a(n) = coefficient of the imprimitive matrix [n, n/2; n/2, n].",
   "id": "A323992",
   "mentions": [
     "A323990",
     "A323991"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

@@ -1,13 +1,19 @@
 {
   "description": "Numbers of the form 4^i*(8j+7) or 4^i*(8j+5).",
   "id": "A055052",
-  "mentions": [],
+  "mentions": [
+    "A003159",
+    "A004215",
+    "A055045",
+    "A097700"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

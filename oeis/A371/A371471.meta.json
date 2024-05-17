@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = binomial(n^2,n) mod n^5.",
+  "id": "A371471",
+  "mentions": [
+    "A014062",
+    "A081369"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

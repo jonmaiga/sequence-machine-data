@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Bernoulli number B_n has denominator 2730.",
+  "description": "Numbers k such that Bernoulli number B_k has denominator 2730.",
   "id": "A249134",
   "mentions": [
     "A000367",

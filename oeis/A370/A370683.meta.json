@@ -1,0 +1,18 @@
+{
+  "description": "Nonsquarefree numbers k such that A370681(k) = A071324(k).",
+  "id": "A370683",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A071324",
+    "A370681"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

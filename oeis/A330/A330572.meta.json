@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k = 1..n} [u_2(k)*u_2(n+1-k)], where u_2(k) is the number of unordered factorizations k = i*j (A038548).",
+  "description": "a(n) = Sum_{k = 1..n} [u_2(k)*u_2(n+1-k)], where u_2(k) is the number of unordered factorizations k = i*j (A038548).",
   "id": "A330572",
   "mentions": [
     "A000005",

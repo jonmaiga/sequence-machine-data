@@ -1,0 +1,15 @@
+{
+  "description": "The 180-degree rotations of those numbers which can be rotated 180 degrees, where digits 2 and 7 are 180-degree rotations of each other.",
+  "id": "A369235",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

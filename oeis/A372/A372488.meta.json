@@ -1,0 +1,21 @@
+{
+  "description": "The smallest nonpalindromic number that shares n or more distinct prime factors with the prime factors of its reverse.",
+  "id": "A372488",
+  "mentions": [
+    "A027746",
+    "A029742",
+    "A046399",
+    "A335645",
+    "A372384"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

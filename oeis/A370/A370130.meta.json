@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = A369669(A276086(n)), where A369669 is the greatest common divisor of the first and second arithmetic derivative of n, and A276086 is the primorial base exp-function.",
+  "id": "A370130",
+  "mentions": [
+    "A000012",
+    "A003415",
+    "A024451",
+    "A068346",
+    "A085731",
+    "A143293",
+    "A276086",
+    "A327860",
+    "A328242",
+    "A369669",
+    "A370131"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

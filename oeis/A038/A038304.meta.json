@@ -1,9 +1,14 @@
 {
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*10^(i-j)*2^j.",
   "id": "A038304",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A001021",
+    "A011557"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

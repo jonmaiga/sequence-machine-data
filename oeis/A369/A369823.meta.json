@@ -1,0 +1,20 @@
+{
+  "description": "S is a \"boomerang sequence\": replace each digit d of S by its sixth power: the sequence S remains identical to itself if we follow each result with a comma.",
+  "id": "A369823",
+  "mentions": [
+    "A001014",
+    "A369603",
+    "A369604",
+    "A369798",
+    "A369824"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

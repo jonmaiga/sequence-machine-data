@@ -1,5 +1,5 @@
 {
-  "description": "Even numbers n such that the decimal expansion of n contains the decimal expansion of the greatest odd divisor of n as a substring.",
+  "description": "Even numbers m whose decimal expansion contains the decimal expansion of the greatest odd divisor of m as a substring.",
   "id": "A291460",
   "mentions": [
     "A000265",

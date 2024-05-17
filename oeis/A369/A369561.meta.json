@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles in the complement of the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A369561",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

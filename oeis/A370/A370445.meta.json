@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(q) satisfying -5 = Product_{n>=0} (1 - 6*q^n*A(q)).",
+  "id": "A370445",
+  "mentions": [
+    "A152807",
+    "A370442",
+    "A370443",
+    "A370444"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

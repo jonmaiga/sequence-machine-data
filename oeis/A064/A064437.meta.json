@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n)=a(n-1)+3 if n is already in the sequence, a(n)=a(n-1)+2 otherwise.",
+  "description": "a(1)=1, a(n) = a(n-1) + 3 if n is already in the sequence, a(n) = a(n-1) + 2 otherwise.",
   "id": "A064437",
   "mentions": [
     "A004956",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sqrt(A370259(2*n)/(n+1)) for n >= 1.",
+  "id": "A370261",
+  "mentions": [
+    "A008310",
+    "A342205",
+    "A370259",
+    "A370260"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

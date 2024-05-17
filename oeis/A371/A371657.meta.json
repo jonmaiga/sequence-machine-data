@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x * A(x)^2 * (1 + A(x) + A(x)^2).",
+  "id": "A371657",
+  "mentions": [
+    "A107708",
+    "A156016",
+    "A219534",
+    "A219537",
+    "A371658"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

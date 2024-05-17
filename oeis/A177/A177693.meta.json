@@ -1,16 +1,17 @@
 {
-  "description": "A symmetrical triangular sequence based on products:a=2;f(n)=-f(n-1)-a*f(n-2); p(n)=If[n == 0, 1, Product[f(i), {i, 1, n}]];c(n,m)=p(n)/(p(m)*p(n-m))",
+  "description": "Triangle, read by rows, T(n, k) = p(n)/(p(k)*p(n-k)), where p(n) = Product_{j=1..n} A001607(j).",
   "id": "A177693",
-  "mentions": [],
+  "mentions": [
+    "A001607"
+  ],
   "tags": [
     "formulas",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "sum{i*(n^(n-i-1)+n^(n+i-1)) | 1<=i",
+  "description": "a(n) = Sum_{i=1..n} i*(n^(n-i-1) + n^(n+i-1)).",
   "id": "A068793",
   "mentions": [
     "A023811",

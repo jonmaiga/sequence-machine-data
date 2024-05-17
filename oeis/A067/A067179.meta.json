@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose squares give sum of digits which is the n-th term of A056991.",
+  "description": "Smallest number whose square has sum of digits A056991(n).",
   "id": "A067179",
   "mentions": [
     "A056991",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

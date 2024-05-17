@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: BellMatrix(Product_{p in P(n)} p), where P(n) = {k : k mod m = 1 and 1 <= k <= m*(n + 1)} and m = 3.",
+  "id": "A371080",
+  "mentions": [
+    "A035469",
+    "A264428",
+    "A371076",
+    "A371077"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

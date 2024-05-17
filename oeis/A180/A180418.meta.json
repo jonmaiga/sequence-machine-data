@@ -1,5 +1,5 @@
 {
-  "description": "( A000111(p) -(-1)^((p-1)/2) )/p, where p = prime(n).",
+  "description": "a(n) = ( A000111(p) -(-1)^((p-1)/2) )/p, where p = prime(n).",
   "id": "A180418",
   "mentions": [
     "A000040",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 2,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

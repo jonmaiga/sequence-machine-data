@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + (largest digit of n)! is a palindrome.",
+  "description": "Numbers k such that k + (largest digit of k)! is a palindrome.",
   "id": "A095919",
   "mentions": [
     "A054055"

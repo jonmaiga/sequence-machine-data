@@ -2,6 +2,7 @@
   "description": "Product of products of parts over all strict integer partitions of n.",
   "id": "A325504",
   "mentions": [
+    "A000009",
     "A001222",
     "A003963",
     "A006128",

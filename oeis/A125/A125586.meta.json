@@ -1,5 +1,5 @@
 {
-  "description": "2^(2n-1) - (n+2)*3^(n-2).",
+  "description": "a(n) = 2^(2n-1) - (n+2)*3^(n-2).",
   "id": "A125586",
   "mentions": [
     "A006234",

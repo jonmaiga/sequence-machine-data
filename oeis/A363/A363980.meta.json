@@ -4,8 +4,7 @@
   "mentions": [
     "A204189",
     "A260751",
-    "A327760",
-    "A336398"
+    "A327760"
   ],
   "tags": [
     "easy",
@@ -17,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

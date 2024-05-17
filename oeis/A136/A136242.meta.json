@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n among A008864 such that n^2 - n + 1 is prime.",
+  "description": "Numbers k among A008864 such that k^2 - k + 1 is prime.",
   "id": "A136242",
   "mentions": [
     "A008864",
@@ -8,12 +8,13 @@
     "A136243"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,10 +2,12 @@
   "description": "Number of Barlow packings with group P63/mmc(O) that repeat after 4n+2 layers.",
   "id": "A011947",
   "mentions": [
+    "A045683",
     "A129629"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

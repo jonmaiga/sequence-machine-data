@@ -2,10 +2,12 @@
   "description": "Decimal expansion of Product_{p prime} (1 + 1/(p*(p^2-1))).",
   "id": "A065487",
   "mentions": [
+    "A000010",
     "A001615",
     "A001692",
     "A003557",
     "A036966",
+    "A047994",
     "A072802"
   ],
   "tags": [

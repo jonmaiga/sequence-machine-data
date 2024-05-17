@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A372449(1+n) - A372449(n).",
+  "id": "A372451",
+  "mentions": [
+    "A000523",
+    "A372356",
+    "A372443",
+    "A372444",
+    "A372449"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

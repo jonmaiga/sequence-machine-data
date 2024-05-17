@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(A(x)) = Sum_{k>=1} k^2 * 2^(k-1) * x^k.",
+  "id": "A372493",
+  "mentions": [
+    "A014477",
+    "A309509"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest weak prime in base 2n+1.",
+  "id": "A371475",
+  "mentions": [
+    "A050249",
+    "A137985",
+    "A186995"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

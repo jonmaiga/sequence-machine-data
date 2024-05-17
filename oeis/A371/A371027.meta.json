@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n, k) * Pochhammer(1/4, k) * 4^k * a(n - k) for n > 0 and a(0) = 1. Row sums of triangle A371026.",
+  "id": "A371027",
+  "mentions": [
+    "A007696",
+    "A371026"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

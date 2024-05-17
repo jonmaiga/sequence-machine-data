@@ -2,6 +2,7 @@
   "description": "Nonprimes that are the sum of two consecutive nonprimes.",
   "id": "A167611",
   "mentions": [
+    "A018252",
     "A141468",
     "A151740"
   ],
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Manhattan distance from the origin of triangular number point T(n) = n*(n+1)/2 in a square spiral with point 0 at the origin.",
+  "id": "A368643",
+  "mentions": [
+    "A000217",
+    "A214526"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

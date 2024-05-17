@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: A(x) = Sum_{a(n)/2^A005187(n)*x^n} = limit_{n->oo} F(n)^(1/2^n) where F(n) is the n-th iteration of: F(0) = 1, F(n) = F(n-1)^2 + x^(2^n-1) for n>=1.",
+  "description": "G.f.: A(x) = Sum_{n>=0} a(n)/2^A005187(n) * x^n = lim_{n->oo} F(n)^(1/2^n) where F(n) is defined by F(n) = F(n-1)^2 + x^(2^n-1) for n >= 1 with F(0) = 1.",
   "id": "A101190",
   "mentions": [
     "A000108",

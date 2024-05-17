@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of induced subgraphs, up to isomorphism, of an n-vertex graph.",
+  "id": "A370001",
+  "mentions": [
+    "A000088",
+    "A097911",
+    "A263342",
+    "A370002"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Nonsquarefree numbers whose largest nonunitary prime divisor is smaller than their smallest unitary prime divisor, if it exists.",
+  "id": "A371601",
+  "mentions": [
+    "A001694",
+    "A006530",
+    "A013929",
+    "A020639",
+    "A052485",
+    "A055231",
+    "A057521",
+    "A059956",
+    "A249740",
+    "A277698",
+    "A283050"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

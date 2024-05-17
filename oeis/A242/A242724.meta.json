@@ -2,6 +2,7 @@
   "description": "Decimal expansion of a constant associated with self-generating continued fractions and Cahen's constant.",
   "id": "A242724",
   "mentions": [
+    "A006277",
     "A006279",
     "A006280",
     "A006281",
@@ -10,6 +11,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

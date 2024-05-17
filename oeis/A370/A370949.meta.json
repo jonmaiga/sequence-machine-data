@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of forests of labeled rooted Greg hypertrees with n white vertices and k black vertices, 0 <= k < n.",
+  "id": "A370949",
+  "mentions": [
+    "A001147",
+    "A048160",
+    "A052888",
+    "A364816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the 1-based positions (starting from the left) of zeros in the binary expansion of n, or 0 if the binary expansion of n contains only ones.",
+  "id": "A371571",
+  "mentions": [
+    "A359359",
+    "A368494",
+    "A371572"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

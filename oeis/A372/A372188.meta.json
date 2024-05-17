@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that 18*m + 1, 36*m + 1, 108*m + 1, and 162*m + 1 are all primes.",
+  "id": "A372188",
+  "mentions": [
+    "A002997",
+    "A046025",
+    "A206024",
+    "A206349",
+    "A257035",
+    "A318646",
+    "A372186",
+    "A372187",
+    "A372190"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

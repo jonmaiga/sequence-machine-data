@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(1 - x^5/(1-x)^6).",
+  "id": "A369794",
+  "mentions": [
+    "A000389",
+    "A017837",
+    "A095263",
+    "A099242",
+    "A107025",
+    "A290998",
+    "A368475"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

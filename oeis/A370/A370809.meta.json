@@ -1,0 +1,46 @@
+{
+  "description": "Greatest number of multisets that can be obtained by choosing a prime factor of each part of an integer partition of n.",
+  "id": "A370809",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000792",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A027746",
+    "A048249",
+    "A063834",
+    "A112798",
+    "A239312",
+    "A319055",
+    "A339095",
+    "A355529",
+    "A355733",
+    "A355740",
+    "A355741",
+    "A355744",
+    "A355745",
+    "A367771",
+    "A368100",
+    "A368413",
+    "A368414",
+    "A370320",
+    "A370585",
+    "A370592",
+    "A370593",
+    "A370594",
+    "A370807",
+    "A370808",
+    "A370816",
+    "A370817"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n XOR A086893(1+A000523(n)), where XOR is a bitwise-XOR, A003987.",
+  "id": "A372358",
+  "mentions": [
+    "A000523",
+    "A003987",
+    "A007088",
+    "A053754",
+    "A086893",
+    "A372359",
+    "A372360",
+    "A372361",
+    "A372446"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

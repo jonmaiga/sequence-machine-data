@@ -1,19 +1,17 @@
 {
-  "description": "Row sums of triangle A217537.",
+  "description": "a(n) = n! * [x^n] exp(2*exp(x) - x - 2). Row sums of triangle A217537.",
   "id": "A217924",
   "mentions": [
     "A000023",
-    "A000296",
-    "A007814",
     "A087981",
     "A124758",
     "A194689",
     "A217537",
     "A243499",
     "A284005",
-    "A288268",
     "A329369",
-    "A341392"
+    "A341392",
+    "A372205"
   ],
   "tags": [
     "formulas",

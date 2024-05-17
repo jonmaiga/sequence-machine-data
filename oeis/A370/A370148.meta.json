@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of A(x) = [ Sum_{n>=0} (-7)^(n*(n-1)/2) * (1 + (-7)^(2*n+1))/(-6) * x^(n*(n+1)/2) ]^(1/3).",
+  "id": "A370148",
+  "mentions": [
+    "A370016",
+    "A370019",
+    "A370147",
+    "A370334",
+    "A370336"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

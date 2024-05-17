@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of n where there are A005809(k) sorts of part k.",
+  "id": "A370375",
+  "mentions": [
+    "A005809",
+    "A024485",
+    "A075436",
+    "A370327",
+    "A370376"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n-th composite / n).",
+  "description": "a(n) = floor(n-th composite / n).",
   "id": "A171623",
   "mentions": [
     "A000027",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

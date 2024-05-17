@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form A002110(k)/prime(i); i = 2..k-1; sorted.",
+  "id": "A372666",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005117",
+    "A077011"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

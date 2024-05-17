@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. -exp(x) * LambertW(-2*x)/2.",
+  "id": "A372333",
+  "mentions": [
+    "A277473",
+    "A360548",
+    "A372315",
+    "A372334"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

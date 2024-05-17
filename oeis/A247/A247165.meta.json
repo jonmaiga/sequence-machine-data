@@ -1,8 +1,11 @@
 {
-  "description": "Numbers n such that n^2 + 1 divides 2^n - 1.",
+  "description": "Numbers m such that m^2 + 1 divides 2^m - 1.",
   "id": "A247165",
   "mentions": [
     "A001146",
+    "A005574",
+    "A135590",
+    "A176997",
     "A247219",
     "A247220"
   ],

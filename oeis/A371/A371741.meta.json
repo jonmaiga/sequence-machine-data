@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: g.f. (1 - t)^(-x) * (1 + t)^(3-x).",
+  "id": "A371741",
+  "mentions": [
+    "A130534",
+    "A132393",
+    "A371740"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

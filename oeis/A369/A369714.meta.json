@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions to 1^4*k_1 + 2^4*k_2 + ... + n^4*k_n = 1, where k_i are from {-1,0,1}, i=1..n.",
+  "id": "A369714",
+  "mentions": [
+    "A007576",
+    "A063866",
+    "A368478",
+    "A369358",
+    "A369628",
+    "A369734",
+    "A369735"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

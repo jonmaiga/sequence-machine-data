@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n * Sum_{p|n, p prime} sopf(n/p) / p.",
+  "id": "A369914",
+  "mentions": [
+    "A008472",
+    "A369744",
+    "A369911",
+    "A369912",
+    "A369913"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

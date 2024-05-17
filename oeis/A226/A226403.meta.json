@@ -1,10 +1,11 @@
 {
-  "description": "Number of nondecreasing -n..n vectors of length 6 whose dot product with some nonincreasing -n..n vector equals 6",
+  "description": "Number of nondecreasing -n..n vectors of length 6 whose dot product with some nonincreasing -n..n vector equals 6.",
   "id": "A226403",
   "mentions": [
     "A226398"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

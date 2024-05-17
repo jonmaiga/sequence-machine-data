@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: exp( Sum_{k>=1} (3*k)! / (2 * k!^3) * x^k/k ).",
+  "id": "A370288",
+  "mentions": [
+    "A229451",
+    "A229452",
+    "A370289",
+    "A370293"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

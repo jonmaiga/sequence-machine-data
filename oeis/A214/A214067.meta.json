@@ -1,5 +1,5 @@
 {
-  "description": "[(5/2)*[(5/2)*n]], where [ ] = floor.",
+  "description": "a(n) = [(5/2)*[(5/2)*n]], where [ ] = floor.",
   "id": "A214067",
   "mentions": [
     "A214066",

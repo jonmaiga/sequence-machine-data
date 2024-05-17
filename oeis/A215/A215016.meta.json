@@ -2,8 +2,11 @@
   "description": "Decimal expansion of the product of 1 - 1/2^2^n over all n >= 0.",
   "id": "A215016",
   "mentions": [
+    "A001146",
     "A014571",
-    "A106400"
+    "A106400",
+    "A258714",
+    "A258716"
   ],
   "tags": [
     "cons",

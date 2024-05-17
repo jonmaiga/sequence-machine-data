@@ -1,5 +1,5 @@
 {
-  "description": "Positive numbers n such that sum of digits of n^2 is a square.",
+  "description": "Positive numbers k such that sum of digits of k^2 is a square.",
   "id": "A061910",
   "mentions": [
     "A004159",

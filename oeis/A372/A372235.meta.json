@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x * (1 + A(x)^(3/2)) ).",
+  "id": "A372235",
+  "mentions": [
+    "A349562",
+    "A362694",
+    "A362734",
+    "A372236"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

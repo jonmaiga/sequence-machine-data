@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3^(n+1) + 2*(-2)^(n+1).",
+  "id": "A369490",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A003063",
+    "A015441",
+    "A085279"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

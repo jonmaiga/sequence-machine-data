@@ -1,0 +1,27 @@
+{
+  "description": "Array read by upward antidiagonals: A(n, k) = A265745(A372282(n, k)), n,k >= 1, where A265745(n) is the sum of digits in \"Jacobsthal greedy base\".",
+  "id": "A372288",
+  "mentions": [
+    "A001045",
+    "A002450",
+    "A130249",
+    "A265745",
+    "A265747",
+    "A371094",
+    "A372282",
+    "A372283",
+    "A372287",
+    "A372351",
+    "A372443",
+    "A372561"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

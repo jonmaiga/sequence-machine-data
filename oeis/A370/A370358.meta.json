@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of [3n] into n sets of size 3 having at least one set {3j-2,3j-1,3j} (1<=j<=n).",
+  "id": "A370358",
+  "mentions": [
+    "A025035",
+    "A057427",
+    "A059841",
+    "A370347",
+    "A370357",
+    "A370363"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

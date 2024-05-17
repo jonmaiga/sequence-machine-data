@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: Related to the Euler numbers.",
+  "id": "A371994",
+  "mentions": [
+    "A000364",
+    "A084938",
+    "A371637",
+    "A371765",
+    "A372001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

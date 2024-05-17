@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k such that A003415(k) = A276085(k), where A003415 is the arithmetic derivative, and A276085 is the primorial base log-function.",
+  "id": "A369650",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A026424",
+    "A028260",
+    "A046337",
+    "A048103",
+    "A276085",
+    "A276086",
+    "A327859",
+    "A328110",
+    "A351228",
+    "A358772",
+    "A358774",
+    "A360110",
+    "A369002",
+    "A369668"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

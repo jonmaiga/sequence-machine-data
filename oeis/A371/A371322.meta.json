@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/(2^k * Fibonacci(k!)).",
+  "id": "A371322",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A063374",
+    "A343202",
+    "A371323",
+    "A371324",
+    "A371325"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

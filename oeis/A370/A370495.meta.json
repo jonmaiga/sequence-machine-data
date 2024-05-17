@@ -1,0 +1,23 @@
+{
+  "description": "Oblong numbers of the form (k-1)*k where k is the product of an even number of distinct primes.",
+  "id": "A370495",
+  "mentions": [
+    "A002378",
+    "A030059",
+    "A030229",
+    "A033150",
+    "A368249",
+    "A368250",
+    "A370494"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of complete compositions of n with k parts.",
+  "id": "A371417",
+  "mentions": [
+    "A000670",
+    "A066099",
+    "A107428",
+    "A107429",
+    "A124774",
+    "A152947",
+    "A251729"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

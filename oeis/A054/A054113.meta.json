@@ -1,5 +1,5 @@
 {
-  "description": "T(2n,n), array T as in A054110.",
+  "description": "T(2*n,n), array T as in A054110.",
   "id": "A054113",
   "mentions": [
     "A054110",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
-    "source": "joeis"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

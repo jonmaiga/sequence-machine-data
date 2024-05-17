@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that 72*m + 1, 576*m + 1, 648*m + 1, 1296*m + 1, and 2592*m + 1 are all primes.",
+  "id": "A372187",
+  "mentions": [
+    "A002997",
+    "A046025",
+    "A126797",
+    "A206024",
+    "A206349",
+    "A257035",
+    "A318646",
+    "A372186",
+    "A372188"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

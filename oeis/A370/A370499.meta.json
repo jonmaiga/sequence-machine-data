@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is smallest unused number such that a(n) is coprime to a(n-1), sopfr(a(n)) is coprime to sopfr(a(n-1)), Omega(a(n)) does not equal Omega(a(n-1)), the string length of a(n) does not equal the string length of a(n-1), and a(n) has no digit in common with a(n-1), where sopfr(k) is the sum of the primes dividing k, with repetition.",
+  "id": "A370499",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A027748",
+    "A064413",
+    "A277272",
+    "A370047",
+    "A370496",
+    "A370497"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

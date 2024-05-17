@@ -1,5 +1,5 @@
 {
-  "description": "The number of numerical semigroups of \"genus\" n; conjecturally also the number of power sum bases for symmetric functions in n variables.",
+  "description": "The number of numerical semigroups of genus n; conjecturally also the number of power sum bases for symmetric functions in n variables.",
   "id": "A007323",
   "mentions": [
     "A066062",

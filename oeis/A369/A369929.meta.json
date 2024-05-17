@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of achiral noncrossing partitions composed of n blocks of size k.",
+  "id": "A369929",
+  "mentions": [
+    "A000012",
+    "A001405",
+    "A047749",
+    "A070914",
+    "A143546",
+    "A143547",
+    "A143554",
+    "A192893",
+    "A303694",
+    "A303929",
+    "A361236",
+    "A361239",
+    "A369930",
+    "A370060",
+    "A370062"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

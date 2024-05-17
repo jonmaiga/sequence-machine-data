@@ -8,14 +8,16 @@
     "A114136",
     "A333703",
     "A333704",
-    "A333705"
+    "A333705",
+    "A368342"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (7*n^2 + 7*n - 12)/2.",
   "id": "A166146",
-  "mentions": [],
+  "mentions": [
+    "A000217"
+  ],
   "tags": [
     "easy",
     "formulas",

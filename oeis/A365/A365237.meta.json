@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 1/A033307 (decimal Champernowne constant).",
+  "id": "A365237",
+  "mentions": [
+    "A030167",
+    "A031310",
+    "A033307",
+    "A090903",
+    "A365238"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

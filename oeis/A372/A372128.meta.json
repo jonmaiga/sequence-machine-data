@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, a(2*n+1) = a(2*n) OR a(n) (where OR denotes the bitwise OR operator).",
+  "id": "A372128",
+  "mentions": [
+    "A372030",
+    "A372032"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

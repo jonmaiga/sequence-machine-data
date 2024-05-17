@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of length n necklaces using at most k colors in which the convex hull of a set of beads of any color A can be transformed by rotation into the convex hull of a set of beads of any other color B (n >= 1, k >= 1).",
+  "id": "A370108",
+  "mentions": [
+    "A000007",
+    "A000013",
+    "A000217",
+    "A007290",
+    "A059593",
+    "A062026",
+    "A153760"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

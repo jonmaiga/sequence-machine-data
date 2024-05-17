@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs (p,q) of partitions of n such that the set of parts in q is a subset of the set of parts in p.",
+  "id": "A369704",
+  "mentions": [
+    "A000041",
+    "A001255",
+    "A077285",
+    "A297388",
+    "A369707",
+    "A369910"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

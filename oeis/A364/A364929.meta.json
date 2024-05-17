@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0; for n > 0, if n appears in the sequence then a(n) is the product of the indices of all previous appearances of n. Otherwise a(n) = a(n-1) - n if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + n.",
+  "id": "A364929",
+  "mentions": [
+    "A005132",
+    "A340612",
+    "A362373"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

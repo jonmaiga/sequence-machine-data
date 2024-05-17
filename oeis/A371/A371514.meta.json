@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of subsets of [floor(n/2)]* that are realizable by a graph G with n vertices.",
+  "id": "A371514",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

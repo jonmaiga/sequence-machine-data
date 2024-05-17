@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of o.g.f. x^3/((1-2*x)^3*(1-3*x)^2).",
+  "id": "A369421",
+  "mentions": [
+    "A369416",
+    "A369418"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

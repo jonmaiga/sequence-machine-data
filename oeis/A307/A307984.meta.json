@@ -1,9 +1,16 @@
 {
   "description": "a(n) is the number of Q-bases which can be build from the set {log(1),...,log(n)}.",
   "id": "A307984",
-  "mentions": [],
+  "mentions": [
+    "A333331",
+    "A355529",
+    "A370582",
+    "A370585",
+    "A370640"
+  ],
   "tags": [
     "formulas",
+    "nice",
     "nonn"
   ],
   "terms": {

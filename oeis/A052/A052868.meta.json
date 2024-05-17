@@ -2,7 +2,8 @@
   "description": "Expansion of e.g.f. LambertW(x/(-1+x))/x*(-1+x).",
   "id": "A052868",
   "mentions": [
-    "A352410"
+    "A352410",
+    "A370436"
   ],
   "tags": [
     "easy",

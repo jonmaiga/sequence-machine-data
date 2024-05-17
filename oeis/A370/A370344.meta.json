@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying Sum_{n>=0} Product_{k=1..n} (x^(2*k-1) + A(x)) = Product_{k>=0} (1 - x^(2*k)) * (1 + x^k + A(x))^2 / (1 + x^(2*k) + A(x))^2 ).",
+  "id": "A370344",
+  "mentions": [
+    "A370341",
+    "A370345",
+    "A370346"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

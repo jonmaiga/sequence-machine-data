@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (T(n,n+1) - 1)/n^3 for n >= 1, where T(n,x) is the n-th Chebyshev polynomial of the first kind.",
+  "id": "A370259",
+  "mentions": [
+    "A008310",
+    "A342205",
+    "A370260",
+    "A370261"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

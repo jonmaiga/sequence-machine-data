@@ -1,0 +1,19 @@
+{
+  "description": "Sum over all partitions of n of the number of elements with minimal multiplicity in their partition.",
+  "id": "A372632",
+  "mentions": [
+    "A000041",
+    "A003056",
+    "A362615",
+    "A372542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

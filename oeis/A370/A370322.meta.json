@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p such that exactly n distinct primes can be formed using one or more of the digits of p.",
+  "id": "A370322",
+  "mentions": [
+    "A072857",
+    "A075053",
+    "A076449"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

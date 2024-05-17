@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k which are the sum k = b+c where the digits of {k, b ,c} together give 0,1,...,9 exactly once.",
+  "id": "A371982",
+  "mentions": [
+    "A370970"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

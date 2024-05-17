@@ -1,7 +1,15 @@
 {
-  "description": "Number of distinct sets of numbers whose least common multiple is n.",
+  "description": "Number of sets of integers larger than one whose least common multiple is n.",
   "id": "A069626",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A008683",
+    "A045778",
+    "A076078",
+    "A100577",
+    "A286518",
+    "A318670"
+  ],
   "tags": [
     "easy",
     "formulas",

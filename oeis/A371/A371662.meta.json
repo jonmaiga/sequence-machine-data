@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary strings of length n with more 000 than 001 substrings.",
+  "id": "A371662",
+  "mentions": [
+    "A164137",
+    "A371682"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

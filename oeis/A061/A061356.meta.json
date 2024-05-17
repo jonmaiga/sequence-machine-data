@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows. T(n,k) are the labeled trees on n nodes with maximal node degree k (0 < k < n).",
+  "description": "Triangle read by rows: T(n, k) is the number of labeled trees on n nodes with maximal node degree k (0 < k < n).",
   "id": "A061356",
   "mentions": [
     "A000169",

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number k such that prime(k) is expressible as the sum of (at least two) consecutive primes in n ways.",
+  "id": "A372507",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A054859",
+    "A067376",
+    "A067381",
+    "A348791"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

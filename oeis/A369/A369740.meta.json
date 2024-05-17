@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} p^sigma(n/p).",
+  "id": "A369740",
+  "mentions": [
+    "A000203",
+    "A323599"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

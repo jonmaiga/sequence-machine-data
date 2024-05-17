@@ -2,7 +2,8 @@
   "description": "Triangle M(k,n) read by rows: coefficients of Meixner polynomials.",
   "id": "A094368",
   "mentions": [
-    "A060338"
+    "A060338",
+    "A060524"
   ],
   "tags": [
     "formulas",

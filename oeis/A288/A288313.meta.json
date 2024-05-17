@@ -1,5 +1,5 @@
 {
-  "description": "Let b(k) denote A056240(k); the sequence lists numbers b(2n) where for all m > n, b(2m) > b(2n).",
+  "description": "Let b(k) denote A056240(k); the sequence lists numbers b(2*n) where for all m > n, b(2*m) > b(2*n).",
   "id": "A288313",
   "mentions": [
     "A000040",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

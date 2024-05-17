@@ -1,7 +1,13 @@
 {
   "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(2*n-3*k, n).",
   "id": "A105872",
-  "mentions": [],
+  "mentions": [
+    "A144904",
+    "A360150",
+    "A360151",
+    "A360152",
+    "A360153"
+  ],
   "tags": [
     "easy",
     "formulas",

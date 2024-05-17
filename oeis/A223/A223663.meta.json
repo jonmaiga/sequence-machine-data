@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with row sums unimodal and column sums inverted unimodal",
+  "description": "T(n,k) = Number of n X k 0..3 arrays with row sums unimodal and column sums inverted unimodal.",
   "id": "A223663",
   "mentions": [],
   "tags": [

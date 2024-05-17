@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=1..n} k^phi(n) (mod n) where phi(n) = A000010(n).",
+  "description": "a(n) = Sum_{k=1..n} k^phi(n) (mod n) where phi(n) = A000010(n).",
   "id": "A235138",
   "mentions": [
     "A000010",

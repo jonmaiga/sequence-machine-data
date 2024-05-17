@@ -1,18 +1,20 @@
 {
-  "description": "A symmetrical triangle of coefficient weights: A002415 :f(n)=n^2*(n^2 - 1)/12; t(n,m)=f(n - m + 1)*f(m + 1).",
+  "description": "Triangle T(n, k) = A002415(n-k+3)*A002415(k+3), read by rows.",
   "id": "A129367",
   "mentions": [
     "A002415",
     "A117662"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 41,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{q in A001358} log(q)/q^2 over the semiprimes q = 4,6,9,...",
+  "description": "Decimal expansion of Sum_{q in A001358} log(q)/q^2 over the semiprimes q = 4,6,9,...",
   "id": "A154928",
   "mentions": [
     "A001358",
@@ -9,6 +9,7 @@
   "tags": [
     "cons",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

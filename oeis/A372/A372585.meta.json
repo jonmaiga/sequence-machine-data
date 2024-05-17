@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (25/297)*Pi^2.",
+  "id": "A372585",
+  "mentions": [
+    "A000796",
+    "A002388",
+    "A196564",
+    "A372609"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

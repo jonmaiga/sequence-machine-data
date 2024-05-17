@@ -1,0 +1,23 @@
+{
+  "description": "LCM-transform of A359804 (see Comment and links).",
+  "id": "A369686",
+  "mentions": [
+    "A000027",
+    "A005940",
+    "A014963",
+    "A359804",
+    "A368900",
+    "A369685",
+    "A369804",
+    "A369865"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

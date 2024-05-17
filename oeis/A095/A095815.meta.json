@@ -1,5 +1,5 @@
 {
-  "description": "n + largest digit of n.",
+  "description": "a(n) = n + largest digit of n.",
   "id": "A095815",
   "mentions": [
     "A045844",

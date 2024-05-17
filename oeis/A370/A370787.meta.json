@@ -1,0 +1,20 @@
+{
+  "description": "Cubefull numbers with an even number of prime factors (counted with multiplicity).",
+  "id": "A370787",
+  "mentions": [
+    "A028260",
+    "A036966",
+    "A362974",
+    "A370785",
+    "A370788"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of exp(sinh(log(1+x))).",
+  "description": "Expansion of e.g.f. exp(sinh(log(1+x))).",
   "id": "A009218",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

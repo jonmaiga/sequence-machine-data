@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the alternating sum of the unitary divisors of n, when these divisors are starting with n and decreasing.",
+  "id": "A370681",
+  "mentions": [
+    "A005117",
+    "A034448",
+    "A071323",
+    "A071324",
+    "A077610",
+    "A370683"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

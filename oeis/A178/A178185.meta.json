@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of sum (1/2)^((k^2+3k)/2) from k=1 to n.",
+  "description": "Numerator of Sum_{k=1..n} 1/2^((k^2 + 3*k)/2).",
   "id": "A178185",
   "mentions": [
     "A036442",
@@ -7,6 +7,7 @@
     "A178193"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

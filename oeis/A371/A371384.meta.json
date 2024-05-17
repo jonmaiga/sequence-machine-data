@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the denominator of the arithmetic mean of the digits of n.",
+  "id": "A371384",
+  "mentions": [
+    "A004426",
+    "A004427",
+    "A007953",
+    "A055642",
+    "A061383",
+    "A371383"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

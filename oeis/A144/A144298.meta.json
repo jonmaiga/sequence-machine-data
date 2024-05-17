@@ -1,5 +1,5 @@
 {
-  "description": "Number of cycles of length 3 in the queen's graph associated with an n X n chessboard.",
+  "description": "Number of cycles of length 3 in the queen graph associated with an n X n chessboard.",
   "id": "A144298",
   "mentions": [
     "A030117",

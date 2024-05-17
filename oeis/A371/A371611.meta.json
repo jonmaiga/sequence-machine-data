@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2*n-sided cycles with the property that one makes the same number of left and right turns while following its edges.",
+  "id": "A371611",
+  "mentions": [
+    "A295264",
+    "A365094"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

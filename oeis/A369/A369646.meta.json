@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the difference A051903(k) - A328114(A003415(k)) reaches a new maximum in range 1..k, where A051903 is the maximal exponent in the prime factorization of n, A328114 is the maximal digit in the primorial base expansion of n, and A003415 is the arithmetic derivative.",
+  "id": "A369646",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A049345",
+    "A051903",
+    "A328114",
+    "A351097",
+    "A351098",
+    "A369645",
+    "A369647"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

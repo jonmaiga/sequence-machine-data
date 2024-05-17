@@ -1,7 +1,9 @@
 {
-  "description": "24n + 21.",
+  "description": "a(n) = 24*n + 21.",
   "id": "A102603",
-  "mentions": [],
+  "mentions": [
+    "A004771"
+  ],
   "tags": [
     "easy",
     "nonn"

@@ -1,0 +1,17 @@
+{
+  "description": "Maximal coefficient of (1 + x^3) * (1 + x^5) * (1 + x^7) * ... * (1 + x^prime(n)).",
+  "id": "A369708",
+  "mentions": [
+    "A024939",
+    "A025591",
+    "A350457"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

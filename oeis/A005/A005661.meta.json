@@ -1,8 +1,9 @@
 {
-  "description": "n in S implies 2n-2, 3n-3 in S.",
+  "description": "k in S implies 2k-2, 3k-3 in S.",
   "id": "A005661",
   "mentions": [
-    "A005658"
+    "A005658",
+    "A005659"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

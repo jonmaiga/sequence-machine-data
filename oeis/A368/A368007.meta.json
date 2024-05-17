@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers which cannot be written as a sum of two Zumkeller numbers.",
+  "id": "A368007",
+  "mentions": [
+    "A083207"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2^110503 - 1, the 29th Mersenne prime.",
+  "id": "A371848",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A028335"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 33265,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

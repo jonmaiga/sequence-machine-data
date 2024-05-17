@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp( Sum_{k>=1} (2*k)! * (x/2)^k/k ).",
+  "id": "A370084",
+  "mentions": [
+    "A158876",
+    "A370085",
+    "A370086"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "List of Restricted-Growth Strings a_{k-1}a_{k-2}...a_2a_1, with k=2 and a_1 in {0,1} or k>2, a_{k-1}=1 and a_{j+1}>=1+a_j, for k-1>j>0.",
+  "description": "List of Restricted-Growth Strings a_{k-1}a_{k-2}...a_{2}a_{1}, with k=2 and a_1 in {0,1} or k>2, a_{k-1}=1 and a_{j+1}>=1+a_j, for k-1>j>0.",
   "id": "A239903",
   "mentions": [
     "A000108",
@@ -32,7 +32,8 @@
     "A244157",
     "A244158",
     "A244159",
-    "A244160"
+    "A244160",
+    "A370222"
   ],
   "tags": [
     "base",

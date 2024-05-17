@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not multiples of 5, but their arithmetic derivative is.",
+  "id": "A369969",
+  "mentions": [
+    "A003415",
+    "A046337",
+    "A047201",
+    "A050997",
+    "A327865",
+    "A360110",
+    "A369659",
+    "A369968"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

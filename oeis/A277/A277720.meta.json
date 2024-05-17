@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n > 2 such that lambda(n)^2 divides n-1, where lambda(n) = A002322(n).",
+  "description": "Numbers k > 2 such that lambda(k)^2 divides k-1, where lambda(k) = A002322(k).",
   "id": "A277720",
   "mentions": [
     "A002322",
     "A002997",
+    "A055553",
     "A277389"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

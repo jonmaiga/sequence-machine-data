@@ -2,7 +2,8 @@
   "description": "a(n) = n! - ((n-1)!!)^2.",
   "id": "A088979",
   "mentions": [
-    "A006882"
+    "A006882",
+    "A151816"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 19,
+    "size": 21,
     "source": "joeis"
   }
 }

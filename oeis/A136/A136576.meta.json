@@ -1,8 +1,10 @@
 {
-  "description": "Series reversion of x*c(x)/(1-2x), c(x) the g.f. of A000108.",
+  "description": "Series reversion of x*c(x)/(1 - 2*x), c(x) the g.f. of A000108.",
   "id": "A136576",
   "mentions": [
     "A000108",
+    "A069731",
+    "A071356",
     "A136577"
   ],
   "tags": [

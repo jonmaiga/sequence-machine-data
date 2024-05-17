@@ -1,5 +1,5 @@
 {
-  "description": "Left-most path in the tree T_0 of all negasemiternary (or NST) fractions whose 2-adic part is zero.",
+  "description": "Leftmost path in the tree T_0 of all negasemiternary (or NST) fractions whose 2-adic part is zero.",
   "id": "A355905",
   "mentions": [
     "A355904",

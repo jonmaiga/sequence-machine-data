@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquare terms of A349062.",
+  "id": "A371191",
+  "mentions": [
+    "A000037",
+    "A227297",
+    "A349062"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

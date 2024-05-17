@@ -2,9 +2,11 @@
   "description": "Decimal expansion of the infinite product of zeta functions for even arguments.",
   "id": "A080729",
   "mentions": [
+    "A000688",
     "A021002",
     "A076813",
-    "A080730"
+    "A080730",
+    "A369634"
   ],
   "tags": [
     "cons",

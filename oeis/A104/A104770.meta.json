@@ -1,11 +1,12 @@
 {
-  "description": "G.f. (1+x^2)/(1+x-x^3).",
+  "description": "Expansion of g.f. (1+x^2)/(1+x-x^3).",
   "id": "A104770",
   "mentions": [
     "A104769",
     "A104771"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

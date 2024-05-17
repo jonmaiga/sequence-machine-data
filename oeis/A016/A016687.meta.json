@@ -1,11 +1,13 @@
 {
-  "description": "Decimal expansion of log(64).",
+  "description": "Decimal expansion of log(64) = 6*log(2).",
   "id": "A016687",
   "mentions": [
     "A002162",
+    "A005900",
     "A016492",
     "A016627",
-    "A016631"
+    "A016631",
+    "A142983"
   ],
   "tags": [
     "cons",

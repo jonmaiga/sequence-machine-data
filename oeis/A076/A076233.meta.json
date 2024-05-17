@@ -1,7 +1,9 @@
 {
-  "description": "Sigma[1, n]/n, Sigma[3, n]/n are integers.",
+  "description": "Numbers k such that sigma(k)/k and sigma_3(k)/k are both integers.",
   "id": "A076233",
   "mentions": [
+    "A000203",
+    "A001158",
     "A007691",
     "A046763",
     "A055709",
@@ -9,12 +11,11 @@
     "A076234"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

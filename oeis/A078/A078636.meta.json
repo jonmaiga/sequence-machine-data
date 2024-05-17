@@ -1,5 +1,5 @@
 {
-  "description": "rad{n(n+1)}.",
+  "description": "a(n) = rad(n*(n+1)).",
   "id": "A078636",
   "mentions": [
     "A007947",

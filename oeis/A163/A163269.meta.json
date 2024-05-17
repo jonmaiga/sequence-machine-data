@@ -1,8 +1,12 @@
 {
-  "description": "T(n,k) = largest coefficient in the expansion of (1+...+x^(n-1)) ^ (2*k)",
+  "description": "T(n,k) = largest coefficient in the expansion of (1 + ... + x^(n-1))^(2*k).",
   "id": "A163269",
-  "mentions": [],
+  "mentions": [
+    "A273975",
+    "A349933"
+  ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

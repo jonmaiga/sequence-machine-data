@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the denominator of the sum of the reciprocals of the squarefree divisors of the powerful part of n.",
+  "id": "A370784",
+  "mentions": [
+    "A005117",
+    "A057521",
+    "A295295",
+    "A332881",
+    "A370783"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

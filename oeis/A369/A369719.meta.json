@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors of the smallest cubefull number that is a multiple of n.",
+  "id": "A369719",
+  "mentions": [
+    "A000005",
+    "A036966",
+    "A356193",
+    "A369716",
+    "A369720",
+    "A369721"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

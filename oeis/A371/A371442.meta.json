@@ -1,0 +1,26 @@
+{
+  "description": "For any positive integer n with binary digits (b_1, ..., b_w) (where b_1 = 1), the binary digits of a(n) are (b_1, b_3, ..., b_{2*ceiling(w/2)-1}); a(0) = 0.",
+  "id": "A371442",
+  "mentions": [
+    "A000695",
+    "A001196",
+    "A003945",
+    "A059905",
+    "A063694",
+    "A070939",
+    "A165199",
+    "A371459",
+    "A371461"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Split-and-swap on 8-bit integers.",
   "id": "A217558",
-  "mentions": [],
+  "mentions": [
+    "A008599"
+  ],
   "tags": [
     "base",
     "fini",

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{j=0..n} p(n - j, j) where p(n, x) = Sum_{k=0..n} k! * Stirling1(n, k) * x^k).",
+  "id": "A372347",
+  "mentions": [
+    "A225479"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

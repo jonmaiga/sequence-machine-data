@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th cyclotomic polynomial has exactly 9 nonzero terms.",
+  "description": "Numbers k such that the k-th cyclotomic polynomial has exactly 9 nonzero terms.",
   "id": "A086794",
   "mentions": [
     "A051664",

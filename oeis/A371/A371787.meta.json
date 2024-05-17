@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^k * binomial(5*n-k,n-2*k).",
+  "id": "A371787",
+  "mentions": [
+    "A024718",
+    "A371744",
+    "A371785",
+    "A371786"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

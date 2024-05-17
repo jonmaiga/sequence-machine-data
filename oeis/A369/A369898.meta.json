@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and k + 1 each have 9 prime divisors, counted with multiplicity.",
+  "id": "A369898",
+  "mentions": [
+    "A001222",
+    "A046310",
+    "A046312",
+    "A115186",
+    "A369897"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

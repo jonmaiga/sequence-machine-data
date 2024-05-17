@@ -1,0 +1,17 @@
+{
+  "description": "Terms of A370650 that are of least prime signature.",
+  "id": "A370651",
+  "mentions": [
+    "A025487",
+    "A039004",
+    "A370650"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

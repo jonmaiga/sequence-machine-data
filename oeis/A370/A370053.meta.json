@@ -1,0 +1,17 @@
+{
+  "description": "Non-palindromic numbers m such that m * repunit of length k is palindromic for all large enough k.",
+  "id": "A370053",
+  "mentions": [
+    "A002275",
+    "A370052"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

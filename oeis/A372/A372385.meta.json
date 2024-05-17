@@ -1,0 +1,17 @@
+{
+  "description": "Determinant of the matrix [Jacobi(i - j, 2n + 1)]_{0 < i, j < n}, where Jacobi(a, m) denotes the Jacobi symbol (a/m).",
+  "id": "A372385",
+  "mentions": [
+    "A179071",
+    "A179072",
+    "A372314"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,13 +1,19 @@
 {
-  "description": "Non-balanced numbers in A015773.",
+  "description": "Non-balanced numbers in A015774.",
   "id": "A078550",
   "mentions": [
-    "A000005",
     "A000010",
-    "A015773",
+    "A000203",
+    "A013963",
+    "A015774",
     "A020492",
+    "A074866",
+    "A074868",
+    "A077801",
+    "A077803",
     "A078539",
-    "A078544"
+    "A078544",
+    "A078549"
   ],
   "tags": [
     "formulas",
@@ -16,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is of the form 4m+2 and it has an even number of prime factors with multiplicity, otherwise 0.",
+  "id": "A369965",
+  "mentions": [
+    "A003415",
+    "A059841",
+    "A065043",
+    "A121262",
+    "A165560",
+    "A353558",
+    "A369660",
+    "A369966"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

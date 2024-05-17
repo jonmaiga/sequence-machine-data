@@ -1,0 +1,19 @@
+{
+  "description": "Number of beta-stable nuclides with neutron excess n, i.e., (neutron number) - (proton number) = n.",
+  "id": "A367461",
+  "mentions": [
+    "A318999",
+    "A368859",
+    "A368860"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -8,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

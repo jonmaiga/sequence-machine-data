@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative numbers whose balanced ternary expansions have no consecutive equal digits (with offset 0).",
+  "id": "A371276",
+  "mentions": [
+    "A031941",
+    "A134021"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

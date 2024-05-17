@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers k such that the digits of k are in nondecreasing order while the digits of the concatenation of k's ascending order prime factors, with repetition, are in nonincreasing order.",
+  "id": "A372280",
+  "mentions": [
+    "A027746",
+    "A056704",
+    "A372029",
+    "A372034",
+    "A372055",
+    "A372249",
+    "A372308"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

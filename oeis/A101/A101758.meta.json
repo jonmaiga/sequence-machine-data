@@ -7,11 +7,12 @@
     "A101757"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 12,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

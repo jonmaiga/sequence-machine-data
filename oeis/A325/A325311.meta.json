@@ -1,5 +1,5 @@
 {
-  "description": "Odd abundant numbers n for which sigma(n) == 3 (mod 4).",
+  "description": "Odd abundant numbers k for which sigma(k) == 3 (mod 4).",
   "id": "A325311",
   "mentions": [
     "A000203",
@@ -10,6 +10,7 @@
     "A325312"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,9 @@
 {
   "description": "Number of 4-cycles in the n-Sierpinski carpet graph.",
   "id": "A365934",
-  "mentions": [],
+  "mentions": [
+    "A016214"
+  ],
   "tags": [
     "easy",
     "formulas",

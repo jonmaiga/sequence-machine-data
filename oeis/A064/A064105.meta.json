@@ -1,9 +1,11 @@
 {
-  "description": "2nd column of 3rd-order Zeckendorf array.",
+  "description": "2nd column of 3rd-order Zeckendorf array A136189.",
   "id": "A064105",
   "mentions": [
     "A000930",
-    "A020942"
+    "A020942",
+    "A064106",
+    "A136189"
   ],
   "tags": [
     "easy",
@@ -11,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Integers m > 0 such that m^m and m^(m^m) have the same rightmost m digits.",
+  "id": "A370532",
+  "mentions": [
+    "A002489",
+    "A008592",
+    "A317905",
+    "A369826",
+    "A370211"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

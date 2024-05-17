@@ -1,5 +1,5 @@
 {
-  "description": "Integers k such that 19*(10^k)+1 is prime.",
+  "description": "Integers k such that 19*(10^k) + 1 is prime.",
   "id": "A267420",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x)^2 = 1 + 4*x*A(x)^6.",
+  "description": "G.f. A(x) satisfies: A(x)^2 = 1 + 4*x*A(x)^6.",
   "id": "A245113",
   "mentions": [
     "A001764",

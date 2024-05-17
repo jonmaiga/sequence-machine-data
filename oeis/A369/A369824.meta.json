@@ -1,0 +1,21 @@
+{
+  "description": "S is a \"boomerang sequence\": replace each digit d of S by its eighth power: the sequence S remains identical to itself if we follow each result with a comma.",
+  "id": "A369824",
+  "mentions": [
+    "A001014",
+    "A001016",
+    "A369603",
+    "A369604",
+    "A369798",
+    "A369823"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

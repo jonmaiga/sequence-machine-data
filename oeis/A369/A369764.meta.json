@@ -1,0 +1,19 @@
+{
+  "description": "Maximal coefficient of (1 - x) * (1 - x^8) * (1 - x^27) * ... * (1 - x^(n^3)).",
+  "id": "A369764",
+  "mentions": [
+    "A000578",
+    "A086376",
+    "A279484",
+    "A359319",
+    "A369728"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

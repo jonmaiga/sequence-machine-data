@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form Fibonacci(p^{n+1})/Fibonacci(p^n) where p are primes, n>=1.",
+  "description": "Numbers of the form Fibonacci(p^{k+1})/Fibonacci(p^k) where p are primes, k>=1.",
   "id": "A181419",
   "mentions": [
     "A001566",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

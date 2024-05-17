@@ -1,5 +1,5 @@
 {
-  "description": "Composite integers n satisfying 2^d == 2^(n/d) (mod n) for all d|n and that are not Super-Poulet (A050217).",
+  "description": "Composite integers k satisfying 2^d == 2^(k/d) (mod k) for all d|k and that are not Super-Poulet (A050217).",
   "id": "A291602",
   "mentions": [
     "A001567",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

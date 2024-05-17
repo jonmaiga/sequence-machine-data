@@ -2,6 +2,8 @@
   "description": "Numbers n such that n + pi(n) is a prime.",
   "id": "A077510",
   "mentions": [
+    "A000040",
+    "A000720",
     "A061067",
     "A076757"
   ],

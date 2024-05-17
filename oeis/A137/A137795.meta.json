@@ -2,12 +2,16 @@
   "description": "Smallest positive m such that m*n is free of prime gaps in canonical factorization.",
   "id": "A137795",
   "mentions": [
+    "A020639",
+    "A034386",
     "A073490",
     "A073491",
     "A073492",
+    "A083720",
     "A137794"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

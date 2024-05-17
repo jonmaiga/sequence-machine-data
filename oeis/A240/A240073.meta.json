@@ -1,5 +1,5 @@
 {
-  "description": "Deficient numbers n for which sigma(n), the sum of divisors of n, reaches a new maximum.",
+  "description": "Deficient numbers k for which sigma(k), the sum of divisors of k, reaches a new maximum.",
   "id": "A240073",
   "mentions": [
     "A002093",

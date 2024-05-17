@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (-1)^k*Product_{j=0..k-1} (j - n)*(j + n), for 0 <= k <= n.",
+  "id": "A370707",
+  "mentions": [
+    "A000290",
+    "A002674",
+    "A008955",
+    "A047928",
+    "A048994",
+    "A094728",
+    "A130595",
+    "A204579",
+    "A269944",
+    "A269947",
+    "A327882",
+    "A370704",
+    "A370706"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

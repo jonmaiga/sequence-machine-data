@@ -1,0 +1,17 @@
+{
+  "description": "Minimum possible uncovered area when at most k squares of side k, k = 1..n, are packed into a square of side n*(n+1)/2 = A000217(n).",
+  "id": "A369891",
+  "mentions": [
+    "A000217"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

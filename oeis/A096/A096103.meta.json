@@ -2,6 +2,7 @@
   "description": "Table read by rows: row n contains the quadratic residues modulo n which are coprime to n.",
   "id": "A096103",
   "mentions": [
+    "A046071",
     "A046073"
   ],
   "tags": [

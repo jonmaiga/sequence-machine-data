@@ -1,0 +1,17 @@
+{
+  "description": "After A125717(n) has been found, a(n) is the smallest missing number.",
+  "id": "A372057",
+  "mentions": [
+    "A125717",
+    "A370956",
+    "A370959"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

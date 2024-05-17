@@ -2,6 +2,7 @@
   "description": "a(n) = smallest integer >= n which is coprime to A118000(n-1). a(n) = A118000(n) - A118000(n-1).",
   "id": "A118001",
   "mentions": [
+    "A110800",
     "A118000",
     "A118003"
   ],

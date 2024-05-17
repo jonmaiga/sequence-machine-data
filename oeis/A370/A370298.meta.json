@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles in the complement of the n-Sierpinski carpet graph.",
+  "id": "A370298",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

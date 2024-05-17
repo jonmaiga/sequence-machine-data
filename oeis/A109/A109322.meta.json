@@ -2,6 +2,8 @@
   "description": "a(n) is the minimum positive integer j such that [j, j+n-1] does not contain any values of sigma(k) (i.e., sum of all positive divisors of k).",
   "id": "A109322",
   "mentions": [
+    "A002191",
+    "A083531",
     "A109323",
     "A109324",
     "A110875"

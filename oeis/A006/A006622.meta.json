@@ -1,8 +1,30 @@
 {
-  "description": "Zarankiewicz's problem.",
+  "description": "A variant of Zarankiewicz's problem: a(n) is the least k such that every n X (n+1) {0,1}-matrix with k ones contains an all-ones 3 X 4 submatrix.",
   "id": "A006622",
   "mentions": [
-    "A001197"
+    "A001197",
+    "A001198",
+    "A006613",
+    "A006614",
+    "A006615",
+    "A006616",
+    "A006617",
+    "A006618",
+    "A006619",
+    "A006620",
+    "A006621",
+    "A006623",
+    "A006624",
+    "A006625",
+    "A006626",
+    "A072567",
+    "A191873",
+    "A191965",
+    "A205805",
+    "A347473",
+    "A347474",
+    "A350237",
+    "A350304"
   ],
   "tags": [
     "more",
@@ -10,7 +32,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

@@ -7,12 +7,11 @@
     "A276193"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 43,
     "source": "oeis-entry"
   }
 }

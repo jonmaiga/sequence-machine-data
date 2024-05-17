@@ -1,5 +1,5 @@
 {
-  "description": "Number of total dominating sets in the n-Andrasfai graph.",
+  "description": "Number of total dominating sets in the n-Andrásfai graph.",
   "id": "A302759",
   "mentions": [
     "A285272",
@@ -7,6 +7,7 @@
     "A302762"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

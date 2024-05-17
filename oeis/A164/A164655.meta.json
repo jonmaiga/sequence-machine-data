@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of partial sums of Theta(3) = sum(1/(2*j-1)^3, j=1..infinity).",
+  "description": "Numerators of partial sums of Theta(3) = Sum_{j>=1} 1/(2*j-1)^3.",
   "id": "A164655",
   "mentions": [
     "A025547",

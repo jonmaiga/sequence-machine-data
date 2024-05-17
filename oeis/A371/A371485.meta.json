@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=2} 1 / (1 - x^k/k!).",
+  "id": "A371485",
+  "mentions": [
+    "A005651",
+    "A032311"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

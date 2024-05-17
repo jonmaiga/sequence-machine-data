@@ -2,6 +2,7 @@
   "description": "Number of set partitions of {1, 2, ..., 2*n} with sizes in {[n, n], [2n]}.",
   "id": "A260878",
   "mentions": [
+    "A000108",
     "A001700",
     "A052473",
     "A088218",

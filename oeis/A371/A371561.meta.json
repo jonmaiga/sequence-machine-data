@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with multiplicative digital root of 5 that are free of 1s and have their digits in ascending order.",
+  "id": "A371561",
+  "mentions": [
+    "A031347",
+    "A034052",
+    "A263473",
+    "A263479"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

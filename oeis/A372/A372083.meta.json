@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime that occurs as an order of a rational point of an elliptic curve over a number field of degree n.",
+  "id": "A372083",
+  "mentions": [
+    "A372206"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

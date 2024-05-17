@@ -2,7 +2,8 @@
   "description": "Even Padovan numbers.",
   "id": "A134720",
   "mentions": [
-    "A000931"
+    "A000931",
+    "A135619"
   ],
   "tags": [
     "easy",

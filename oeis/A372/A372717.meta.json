@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: If k is prime then T(n, k) is the exponent of the highest power of k that divides n. T(0, 0) = T(1, 1) = 1. In all other cases T(n, k) = 0.",
+  "id": "A372717",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A001477",
+    "A007814",
+    "A007949",
+    "A010051"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

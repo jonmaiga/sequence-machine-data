@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers m such that c(0) > c(1) >= c(2), where c(k) = number of k's in the ternary representation of m.",
+  "id": "A370872",
+  "mentions": [
+    "A007089",
+    "A062756",
+    "A077267",
+    "A081603",
+    "A370870",
+    "A370871",
+    "A370873"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A006530(k) = A051903(k).",
+  "id": "A370493",
+  "mentions": [
+    "A002110",
+    "A006530",
+    "A017665",
+    "A017666",
+    "A051674",
+    "A051903",
+    "A100042",
+    "A370492"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

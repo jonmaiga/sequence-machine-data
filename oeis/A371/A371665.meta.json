@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k) is the number of reduced unicellular hypermonopoles on n points with k hyperedges, where T(n,k), 1 <= k <= floor(n/2), is an array read by rows.",
+  "id": "A371665",
+  "mentions": [
+    "A060593",
+    "A164652"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

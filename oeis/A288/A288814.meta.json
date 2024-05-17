@@ -2,6 +2,7 @@
   "description": "a(n) is the smallest composite number whose prime divisors (with multiplicity) sum to n.",
   "id": "A288814",
   "mentions": [
+    "A001414",
     "A046343",
     "A056240",
     "A088685",

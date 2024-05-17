@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * Sum_{d|n} d/(d! * (n/d)!).",
+  "id": "A370581",
+  "mentions": [
+    "A121860",
+    "A370579",
+    "A370580"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

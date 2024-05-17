@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(m,n) = Resultant(X^m+n,(X+1)^m+n), read by (falling) antidiagonals, m >= 1, n >= 0",
+  "description": "Square array A(m,n) = Resultant(X^m+n,(X+1)^m+n), read by (falling) antidiagonals, m >= 1, n >= 0.",
   "id": "A255831",
   "mentions": [
     "A010034",

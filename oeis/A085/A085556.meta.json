@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime digits = number of nonprime digits.",
+  "description": "Numbers that have exactly as many prime digits as nonprime digits.",
   "id": "A085556",
   "mentions": [
     "A085520"

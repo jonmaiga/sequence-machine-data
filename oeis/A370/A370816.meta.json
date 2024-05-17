@@ -1,0 +1,37 @@
+{
+  "description": "Greatest number of multisets that can be obtained by choosing a divisor of each factor in an integer factorization of n into unordered factors > 1.",
+  "id": "A370816",
+  "mentions": [
+    "A000005",
+    "A000792",
+    "A001055",
+    "A045778",
+    "A048249",
+    "A066739",
+    "A319055",
+    "A319057",
+    "A355731",
+    "A355732",
+    "A355737",
+    "A355739",
+    "A355740",
+    "A355741",
+    "A368110",
+    "A368413",
+    "A368414",
+    "A370803",
+    "A370808",
+    "A370809",
+    "A370813",
+    "A370814",
+    "A370817"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

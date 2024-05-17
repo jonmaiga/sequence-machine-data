@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) = G( x*(1 + 2*x)*G(x) )^(1/2) = G( x^2*(1 + 3*x)*G(x) )^(1/3), where G(x) is the g.f. of A370437.",
+  "id": "A370438",
+  "mentions": [
+    "A370437",
+    "A370538"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

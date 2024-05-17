@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..floor(n/2)} (n-k)^2.",
   "id": "A129371",
   "mentions": [
+    "A055461",
     "A129370"
   ],
   "tags": [

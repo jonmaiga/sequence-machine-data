@@ -2,7 +2,8 @@
   "description": "Matchings avoiding the pattern 231.",
   "id": "A220910",
   "mentions": [
-    "A002293"
+    "A002293",
+    "A220911"
   ],
   "tags": [
     "formulas",

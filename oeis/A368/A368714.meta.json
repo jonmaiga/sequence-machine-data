@@ -1,5 +1,5 @@
 {
-  "description": "Number whose maximal exponent in their prime factorization is even.",
+  "description": "Numbers whose maximal exponent in their prime factorization is even.",
   "id": "A368714",
   "mentions": [
     "A000290",

@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the largest positive zero of the Legendre polynomial of degree 4.",
+  "id": "A372268",
+  "mentions": [
+    "A008316",
+    "A010513",
+    "A020760",
+    "A100258",
+    "A372267",
+    "A372269",
+    "A372270",
+    "A372271",
+    "A372272",
+    "A372273",
+    "A372274",
+    "A372275",
+    "A372276"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

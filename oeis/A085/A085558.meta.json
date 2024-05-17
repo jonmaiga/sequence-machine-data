@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with the property that the number of prime digits < number of nonprime digits.",
+  "description": "Numbers that have more nonprime digits than prime digits.",
   "id": "A085558",
   "mentions": [
     "A084984"

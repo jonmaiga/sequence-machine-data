@@ -1,0 +1,16 @@
+{
+  "description": "Number of partial order-preserving or -reversing transformations of a chain of length n.",
+  "id": "A371698",
+  "mentions": [
+    "A002003"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that there is no j with 2 <= j < k such that j*k divides binomial(k,j).",
+  "id": "A370684",
+  "mentions": [
+    "A051574"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

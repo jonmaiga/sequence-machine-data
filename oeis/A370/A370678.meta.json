@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of pairs x <= y of n-digit numbers such that the number of distinct digits in their product is less than in their concatenation.",
+  "id": "A370678",
+  "mentions": [
+    "A370675",
+    "A370676",
+    "A370679",
+    "A370680"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

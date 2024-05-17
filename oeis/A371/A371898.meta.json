@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n * k * (T(n-1, k-1) + T(n-1, k)) for k > 0 with initial values T(n, 0) = 1 and T(i, j) = 0 for j > i.",
+  "id": "A371898",
+  "mentions": [
+    "A000012",
+    "A000166",
+    "A001044",
+    "A007526",
+    "A048993",
+    "A131689",
+    "A320031",
+    "A371766",
+    "A371767"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

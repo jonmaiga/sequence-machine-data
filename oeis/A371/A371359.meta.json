@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1; for n>1, a(n) = a(n-1) / k if there exists an unused positive integer k (choose the smallest) such that a(n) is a distinct positive integer; otherwise a(n) = a(n-1) * k if the same conditions apply.",
+  "id": "A371359",
+  "mentions": [
+    "A100707",
+    "A371360"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

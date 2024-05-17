@@ -1,5 +1,5 @@
 {
-  "description": "Areas of regular n-sided polygons with length of each side equal to 1 (rounded).",
+  "description": "Area of regular n-sided polygon with length of each side equal to 1 (rounded).",
   "id": "A134030",
   "mentions": [
     "A064313"
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 4,
-    "size": 57,
-    "source": "oeis-entry"
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-bfile"
   }
 }

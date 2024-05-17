@@ -1,0 +1,15 @@
+{
+  "description": "Count of iteration steps for the iterates in A267371 that end in 1.",
+  "id": "A371440",
+  "mentions": [
+    "A267371"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

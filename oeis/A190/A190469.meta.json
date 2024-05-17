@@ -1,12 +1,17 @@
 {
-  "description": "Numbers with prime factorization p^2q^2r^6.",
+  "description": "Numbers with prime factorization p^2*q^2*r^6 where p, q, and r are distinct primes.",
   "id": "A190469",
   "mentions": [
+    "A085548",
+    "A085964",
+    "A085966",
+    "A085968",
     "A190466",
     "A190467",
     "A190468"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=0..n} (2^k + 5^(n-k)).",
+  "id": "A369677",
+  "mentions": [
+    "A369673",
+    "A369674",
+    "A369675",
+    "A369676",
+    "A369678",
+    "A369679",
+    "A369680"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

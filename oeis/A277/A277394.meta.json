@@ -1,5 +1,5 @@
 {
-  "description": "Lagrange inversion, or reversion, for divided power series with odd powers only",
+  "description": "Lagrange inversion, or reversion, for divided power series with odd powers only.",
   "id": "A277394",
   "mentions": [
     "A133437",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

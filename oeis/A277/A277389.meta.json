@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that lambda(n)^3 divides (n-1)^2, where lambda(n) = A002322(n).",
+  "description": "Numbers k such that lambda(k)^3 divides (k-1)^2, where lambda(k) = A002322(k).",
   "id": "A277389",
   "mentions": [
     "A002322",
     "A002997",
+    "A055553",
     "A265628"
   ],
   "tags": [

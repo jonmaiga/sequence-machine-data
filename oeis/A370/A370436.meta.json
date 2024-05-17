@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying A(x) = Product_{n>=1} cosh(x^n*A(x)).",
+  "id": "A370436",
+  "mentions": [
+    "A000182",
+    "A052868",
+    "A133916",
+    "A370339"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

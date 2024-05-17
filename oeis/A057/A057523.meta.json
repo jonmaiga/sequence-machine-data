@@ -2,14 +2,18 @@
   "description": "Number of ways n-th powerful (1) number can be expressed as b^2*c^3.",
   "id": "A057523",
   "mentions": [
-    "A001694"
+    "A001694",
+    "A002117",
+    "A370256"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

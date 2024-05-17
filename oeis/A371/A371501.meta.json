@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1 / (k^2 - k)!.",
+  "id": "A371501",
+  "mentions": [
+    "A370013",
+    "A371500"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

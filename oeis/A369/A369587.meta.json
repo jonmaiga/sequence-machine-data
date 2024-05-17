@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the number of symbols of the shortest proof (see comments) for each of the distinct derivable strings (theorems) in the MIU formal system that are n characters long.",
+  "id": "A369587",
+  "mentions": [
+    "A024495",
+    "A368946",
+    "A369173",
+    "A369408",
+    "A369411",
+    "A369586"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

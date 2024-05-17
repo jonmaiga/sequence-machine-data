@@ -1,0 +1,18 @@
+{
+  "description": "Number of Dyck paths of semilength 2n having exactly n (possibly overlapping) occurrences of the consecutive step pattern UDU, where U = (1,1) and D = (1,-1).",
+  "id": "A371411",
+  "mentions": [
+    "A000108",
+    "A081294",
+    "A091869"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the k X k Fibonacci word matrix has determinant 0.",
+  "id": "A370725",
+  "mentions": [
+    "A003849",
+    "A370724"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

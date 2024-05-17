@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays with every one adjacent to another one horizontally, diagonally, antidiagonally or vertically",
+  "description": "Number of n X n binary arrays with every one adjacent to another one horizontally, diagonally, antidiagonally or vertically.",
   "id": "A202788",
   "mentions": [
     "A202795"

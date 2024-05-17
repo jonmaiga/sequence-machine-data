@@ -1,0 +1,20 @@
+{
+  "description": "AGM transform of the numbers of partitions (A000041) of the positive numbers.",
+  "id": "A369701",
+  "mentions": [
+    "A000041",
+    "A000312",
+    "A026905",
+    "A058694",
+    "A368366"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

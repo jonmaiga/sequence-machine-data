@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that the string n is found at position n^2 in the decimal digits of Pi.",
+  "description": "Numbers k such that the string k is found at position k^2 in the decimal digits of Pi.",
   "id": "A153230",
   "mentions": [
+    "A000796",
     "A057679",
     "A057680",
     "A109513",

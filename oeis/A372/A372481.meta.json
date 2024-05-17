@@ -1,0 +1,17 @@
+{
+  "description": "Positions of local minima of the probability that there will be a survivor in \"group Russian roulette\" as a function of initial group size.",
+  "id": "A372481",
+  "mentions": [
+    "A372480"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

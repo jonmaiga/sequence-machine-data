@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum_{i=1..n} tau(i)^i == 0 (mod n), where tau(i) = A000005(i), the number of divisors of i.",
+  "description": "Numbers k such that Sum_{j=1..k} tau(j)^j == 0 (mod k), where tau(j) = A000005(j), the number of divisors of j.",
   "id": "A229207",
   "mentions": [
     "A000005",
@@ -9,6 +9,8 @@
     "A227848",
     "A229095",
     "A229208",
+    "A229209",
+    "A229210",
     "A229211"
   ],
   "tags": [
@@ -17,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

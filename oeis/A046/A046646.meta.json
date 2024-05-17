@@ -1,8 +1,9 @@
 {
-  "description": "Number of certain rooted planar maps.",
+  "description": "a(n) = 2*binomial(3*n-3, n-1)/(2*n-1) for n >= 2, and a(1) = 1.",
   "id": "A046646",
   "mentions": [
     "A000087",
+    "A000139",
     "A001764",
     "A005470",
     "A046647",

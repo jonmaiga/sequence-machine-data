@@ -1,5 +1,5 @@
 {
-  "description": "A012249(2n) divided by 2^(2n-1).",
+  "description": "a(n) = A012249(2*n) / 2^(2*n-1).",
   "id": "A012250",
   "mentions": [
     "A012249"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 16,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

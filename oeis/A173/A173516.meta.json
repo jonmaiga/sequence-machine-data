@@ -1,8 +1,13 @@
 {
-  "description": "a(1)=1, a(n)= 3*n*a(n-1)+1, n>1",
+  "description": "a(1)=1, a(n) = 3*n*a(n-1) + 1, n > 1.",
   "id": "A173516",
-  "mentions": [],
+  "mentions": [
+    "A002627",
+    "A056541"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

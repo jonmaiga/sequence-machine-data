@@ -1,19 +1,19 @@
 {
-  "description": "Triangular sequence: t(n,m) = If[m == 0, n + 1, If[Mod[n, m] == 0, n/m, 0]].",
+  "description": "Triangle T(n, k) = n/k if n mod k = 0, otherwise T(n, k) = 0, with T(n, 0) = n+1, read by rows.",
   "id": "A141671",
   "mentions": [
+    "A126988",
     "A141672"
   ],
   "tags": [
     "easy",
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 65,
+    "offset": 0,
+    "size": 91,
     "source": "joeis"
   }
 }

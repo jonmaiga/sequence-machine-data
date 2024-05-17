@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimum vertex colorings in the n X n bishop graph.",
+  "id": "A371204",
+  "mentions": [
+    "A371202",
+    "A371203"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

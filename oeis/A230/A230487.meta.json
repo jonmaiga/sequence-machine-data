@@ -1,5 +1,5 @@
 {
-  "description": "Strong pseudoprimes n to base 2 such that either n-2 or n+2 is prime.",
+  "description": "Strong pseudoprimes k to base 2 such that either k-2 or k+2 is prime.",
   "id": "A230487",
   "mentions": [
     "A001262",

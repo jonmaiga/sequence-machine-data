@@ -1,5 +1,5 @@
 {
-  "description": "Number of 1's in binary representation of n equals bigomega(n), the number of prime divisors of n (counted with multiplicity).",
+  "description": "Numbers k such that the number of 1's in the binary representation of k equals bigomega(k), the number of prime divisors of k (counted with multiplicity).",
   "id": "A071814",
   "mentions": [
     "A000120",

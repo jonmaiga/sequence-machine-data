@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (-1)^n * F(n) + 1, where F = A000045 (Fibonacci numbers).",
+  "description": "a(n) = (-1)^n * A000045(n) + 1.",
   "id": "A355020",
   "mentions": [
     "A000032",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

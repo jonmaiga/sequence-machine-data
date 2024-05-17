@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the smallest number of the form 2^k * p * (2^(k+1) * p + 1) where 2 < p < 2^(k+1) is the n-th prime and 2^(k+1) * p + 1 is prime, or -1 if no such number exists.",
+  "id": "A370209",
+  "mentions": [
+    "A082662",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A262045",
+    "A262259",
+    "A341969",
+    "A342592",
+    "A342594",
+    "A342595",
+    "A342596",
+    "A367377",
+    "A370205",
+    "A370206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

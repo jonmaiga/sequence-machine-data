@@ -1,7 +1,12 @@
 {
   "description": "Decimal expansion of phi rounded to n places.",
   "id": "A011552",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A011544",
+    "A011546",
+    "A011548"
+  ],
   "tags": [
     "base",
     "easy",

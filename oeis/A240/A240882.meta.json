@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n - 4*k^2 is a prime for all k > 0 with k^2 < n/4.",
+  "description": "Numbers m such that m - 4*k^2 is a prime for all k > 0 with k^2 < m/4.",
   "id": "A240882",
   "mentions": [
     "A240842"

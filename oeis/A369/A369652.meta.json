@@ -1,0 +1,24 @@
+{
+  "description": "Maximal digit in the primorial base representation of the n-th arithmetic derivative of 128.",
+  "id": "A369652",
+  "mentions": [
+    "A003415",
+    "A049345",
+    "A051903",
+    "A099306",
+    "A258644",
+    "A276086",
+    "A327969",
+    "A328114",
+    "A369638"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

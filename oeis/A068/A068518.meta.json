@@ -1,5 +1,5 @@
 {
-  "description": "The sequence S(n,-3,1,1), where S(r,k,t,q) is defined by Sum(0<=j<=r){combin(r+q,j)^t*B(j,k)} and B(j,k) is the j-th k-poly-Bernoulli number.",
+  "description": "The sequence S(n,-3,1,1), where S(n,k,t,q) is defined by Sum_{j=0..n} binomial(n+q,j)^t * B(j,k) and B(j,k) is the j-th k-poly-Bernoulli number.",
   "id": "A068518",
   "mentions": [
     "A016269"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 22,
+    "source": "joeis"
   }
 }

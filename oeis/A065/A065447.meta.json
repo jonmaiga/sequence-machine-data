@@ -2,10 +2,12 @@
   "description": "Concatenation of 1, 00, 111, 0000, ..., n 1's (if n is odd) or n 0's (if n is even).",
   "id": "A065447",
   "mentions": [
+    "A000217",
     "A002275",
     "A065760",
     "A065761",
-    "A262806"
+    "A262806",
+    "A371032"
   ],
   "tags": [
     "base",

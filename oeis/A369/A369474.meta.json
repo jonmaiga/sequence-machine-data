@@ -1,0 +1,20 @@
+{
+  "description": "Number of chiral pairs of polyominoes composed of n pentachoral cells of the hyperbolic regular tiling with Schläfli symbol {3,3,3,oo}.",
+  "id": "A369474",
+  "mentions": [
+    "A002293",
+    "A007175",
+    "A182299",
+    "A182322",
+    "A371350"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

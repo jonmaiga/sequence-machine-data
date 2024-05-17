@@ -1,17 +1,18 @@
 {
-  "description": "Number of unimodal maps [1..n]->[0..2].",
+  "description": "Number of unimodal maps [1..n]->[0..3].",
   "id": "A223659",
   "mentions": [
     "A071920",
-    "A223663"
+    "A223663",
+    "A223718"
   ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 34,
+    "offset": 0,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

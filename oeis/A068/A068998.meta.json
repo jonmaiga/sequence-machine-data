@@ -1,7 +1,12 @@
 {
-  "description": "Numbers n such that the concatenation of the prime factors of n (in increasing order) is prime.",
+  "description": "Numbers m such that the concatenation of the prime factors of m (in increasing order and ignoring multiplicity) is prime.",
   "id": "A068998",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A027748",
+    "A246655",
+    "A343027"
+  ],
   "tags": [
     "base",
     "easy",
@@ -9,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

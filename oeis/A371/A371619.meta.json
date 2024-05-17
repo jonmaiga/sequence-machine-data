@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least integer m such that p#*m - 1 is prime for all primes p <= prime(n).",
+  "id": "A371619",
+  "mentions": [
+    "A002110"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/(k*phi(2*k)), where phi is the Euler totient function (A000010).",
+  "id": "A370746",
+  "mentions": [
+    "A000010",
+    "A065484",
+    "A370745"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

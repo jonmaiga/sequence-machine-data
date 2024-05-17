@@ -1,5 +1,5 @@
 {
-  "description": "Number of divisors of n does not divide sum of divisors of n.",
+  "description": "Numbers k such that the number of divisors of k does not divide the sum of divisors of k.",
   "id": "A049642",
   "mentions": [
     "A000005",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Least integer value of (1 + 2^n + 3^n + ... + k^n)/(1 + 2 + 3 + ... + k), k > 1.",
   "id": "A094755",
   "mentions": [
+    "A000217",
     "A094756"
   ],
   "tags": [
@@ -9,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

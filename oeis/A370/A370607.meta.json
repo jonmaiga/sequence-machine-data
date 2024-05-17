@@ -1,0 +1,15 @@
+{
+  "description": "2-valuations of terms of A370606.",
+  "id": "A370607",
+  "mentions": [
+    "A370606"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,8 +2,12 @@
   "description": "Expansion of e.g.f. 1/(1 + exp(2*x) - exp(3*x)).",
   "id": "A355409",
   "mentions": [
+    "A000010",
+    "A354242",
     "A355381",
-    "A355408"
+    "A355408",
+    "A370092",
+    "A371460"
   ],
   "tags": [
     "formulas",

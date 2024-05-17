@@ -1,10 +1,13 @@
 {
   "description": "Numbers k such that k and k^2 use only the digits 1, 2 and 4.",
   "id": "A136986",
-  "mentions": [],
+  "mentions": [
+    "A137002"
+  ],
   "tags": [
     "base",
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "a(n) = 16^n * Sum_{k=0..n} (-1)^k * binomial(1/2, k)^2 * binomial(n, k).",
   "id": "A358113",
   "mentions": [
+    "A001620",
     "A143583",
     "A358108",
     "A358109"

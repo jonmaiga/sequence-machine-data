@@ -1,0 +1,28 @@
+{
+  "description": "The maximal exponent in the prime factorization of the largest divisor of n whose number of divisors is a power of 2.",
+  "id": "A372604",
+  "mentions": [
+    "A000225",
+    "A007424",
+    "A051903",
+    "A092323",
+    "A331273",
+    "A368247",
+    "A368781",
+    "A372379",
+    "A372466",
+    "A372601",
+    "A372602",
+    "A372603"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

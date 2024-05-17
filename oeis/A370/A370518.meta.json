@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of numbers read by rows: T(n,k) = Sum_{i=0..n} binomial(n,i)*(n-i)!*Stirling1(i,k)*TC(n,i) where TC(n,k) = Sum_{i=0..n-k} binomial(n+1,n-k-i)*Stirling2(i+3,i+1)*(-1)^(i) for n >= 0, 0 <= k <= n.",
+  "id": "A370518",
+  "mentions": [
+    "A094645",
+    "A130534"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

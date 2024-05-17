@@ -2,6 +2,8 @@
   "description": "Number of fixed hexagonal polyominoes with n cells.",
   "id": "A001207",
   "mentions": [
+    "A000228",
+    "A006535",
     "A006770"
   ],
   "tags": [

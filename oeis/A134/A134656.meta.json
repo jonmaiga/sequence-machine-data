@@ -2,6 +2,7 @@
   "description": "Corresponding GCD values in A116894.",
   "id": "A134656",
   "mentions": [
+    "A116893",
     "A116894"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

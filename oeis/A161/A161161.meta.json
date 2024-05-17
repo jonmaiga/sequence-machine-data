@@ -1,14 +1,16 @@
 {
-  "description": "Irregular triangle of differences T(n,k) = A083906(n,k)-A083906(n-1,k) of q-Binomial coefficients.",
+  "description": "Irregular triangle of differences T(n,k) = A083906(n,k) - A083906(n-1,k) of q-Binomial coefficients.",
   "id": "A161161",
   "mentions": [
     "A000079",
     "A002865",
     "A033638",
+    "A077957",
     "A083906"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabf"
   ],

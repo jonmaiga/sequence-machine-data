@@ -2,7 +2,8 @@
   "description": "Denominator of fraction equal to the continued fraction [ 0, 2, 4, ...2n ].",
   "id": "A036243",
   "mentions": [
-    "A036242"
+    "A036242",
+    "A369585"
   ],
   "tags": [
     "formulas",
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 18,
-    "source": "joeis"
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
   }
 }

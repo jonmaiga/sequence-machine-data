@@ -1,0 +1,17 @@
+{
+  "description": "Inversion count of the Eytzinger array layout of n elements.",
+  "id": "A369802",
+  "mentions": [
+    "A006095",
+    "A261692"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

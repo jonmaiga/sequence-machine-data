@@ -2,16 +2,27 @@
   "description": "a(n) = 1 if n' / gcd(n,n') is even, otherwise 0, where n' stands for the arithmetic derivative of n, A003415.",
   "id": "A369001",
   "mentions": [
+    "A001787",
     "A003415",
+    "A007814",
+    "A035263",
     "A059841",
+    "A066829",
     "A083345",
     "A085731",
+    "A121262",
+    "A276085",
+    "A276086",
+    "A327860",
+    "A342002",
     "A353557",
     "A358680",
+    "A359820",
     "A368997",
     "A369002",
     "A369003",
-    "A369004"
+    "A369004",
+    "A369643"
   ],
   "tags": [
     "formulas",

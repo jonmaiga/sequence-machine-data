@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquarefree numbers k such that A003557(k) divides A276086(k), where A003557(k) is k divided by its largest squarefree divisor, and A276086 is the primorial base exp-function.",
+  "id": "A371086",
+  "mentions": [
+    "A003557",
+    "A013929",
+    "A276086",
+    "A371085",
+    "A371088"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

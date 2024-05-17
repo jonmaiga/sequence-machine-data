@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of exp(1)/(1+exp(1)).",
+  "id": "A370325",
+  "mentions": [
+    "A001113",
+    "A068985",
+    "A076538",
+    "A201776"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

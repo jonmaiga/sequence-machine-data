@@ -1,14 +1,16 @@
 {
-  "description": "Number of different coefficient values in expansion of Product (1+q^i), i=1 to n.",
+  "description": "Number of different coefficient values in expansion of Product_{i=1..n} (1+q^i).",
   "id": "A039822",
-  "mentions": [],
+  "mentions": [
+    "A000009"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 50,
-    "source": "joeis"
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
   }
 }

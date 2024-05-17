@@ -1,0 +1,39 @@
+{
+  "description": "Numbers whose binary indices are connected, where two numbers are connected iff they have a common factor.",
+  "id": "A371291",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A000720",
+    "A001187",
+    "A001222",
+    "A007718",
+    "A029931",
+    "A048143",
+    "A048793",
+    "A070939",
+    "A087086",
+    "A096111",
+    "A272020",
+    "A305078",
+    "A305079",
+    "A323818",
+    "A325118",
+    "A326749",
+    "A326753",
+    "A326964",
+    "A371294",
+    "A371445",
+    "A371446",
+    "A371452"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

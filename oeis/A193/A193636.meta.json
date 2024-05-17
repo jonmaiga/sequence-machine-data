@@ -2,6 +2,7 @@
   "description": "Triangle: T(n,k) = C(3n-2k,k), 0 <= k <= n.",
   "id": "A193636",
   "mentions": [
+    "A102547",
     "A193635"
   ],
   "tags": [

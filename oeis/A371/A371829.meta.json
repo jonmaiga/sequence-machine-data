@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled n-vertex hypergraphs (or set systems) that have a solution to the One Up puzzle.",
+  "id": "A371829",
+  "mentions": [
+    "A000612",
+    "A371476",
+    "A371828"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

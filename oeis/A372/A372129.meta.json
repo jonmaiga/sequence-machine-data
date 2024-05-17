@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, the binary expansions of a(n), a(2*n+1) and a(2*n+2) have distinct 1's.",
+  "id": "A372129",
+  "mentions": [
+    "A372030",
+    "A372130",
+    "A372131",
+    "A372143"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

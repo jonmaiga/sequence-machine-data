@@ -1,0 +1,20 @@
+{
+  "description": "Exponentially powerful numbers whose prime factorization exponents are all powerful numbers > 1.",
+  "id": "A372405",
+  "mentions": [
+    "A001694",
+    "A036967",
+    "A277562",
+    "A277652",
+    "A361177"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

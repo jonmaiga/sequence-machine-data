@@ -1,0 +1,17 @@
+{
+  "description": "Value k at the n-th step of A371282, where multiplied values are positive and subtracted values are negative.",
+  "id": "A371295",
+  "mentions": [
+    "A099004",
+    "A360597",
+    "A371282"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^n + L(n) is prime, where L(n)=A000032(n) is the n-th Lucas number.",
+  "description": "Numbers n such that n^n + L(n) is prime, where L(n) = A000032(n) is the n-th Lucas number.",
   "id": "A098811",
   "mentions": [
     "A000032"

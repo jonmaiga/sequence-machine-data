@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] f(x)^n, where f(x) = (1 - x^7)^7/((1 - x^3)^3 * (1 - x^4)^4).",
+  "id": "A372213",
+  "mentions": [
+    "A351858",
+    "A372211",
+    "A372212"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

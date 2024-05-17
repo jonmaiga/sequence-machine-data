@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=10*a(n-1)+n^3, a(0)=0.",
+  "description": "a(n) = 10*a(n-1)+n^3, a(0)=0.",
   "id": "A055528",
   "mentions": [
     "A014824"

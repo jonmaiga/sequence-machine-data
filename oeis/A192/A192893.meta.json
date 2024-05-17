@@ -1,19 +1,22 @@
 {
-  "description": "Number of symmetric 11-ary factorizations of the n-cycle (12...n).",
+  "description": "Number of symmetric 11-ary factorizations of the n-cycle (1,2...n).",
   "id": "A192893",
   "mentions": [
     "A047749",
     "A143546",
     "A143547",
     "A143554",
-    "A192894"
+    "A192894",
+    "A369929",
+    "A370062"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 26,
+    "offset": 0,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

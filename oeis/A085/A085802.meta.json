@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits of n is a semiprime.",
+  "description": "Numbers whose sum of digits is a semiprime.",
   "id": "A085802",
   "mentions": [
     "A001358"

@@ -2,6 +2,8 @@
   "description": "Solutions x to equation floor(x*r*floor(x/r)) = floor(x/r*floor(x*r)) when r = sqrt(2).",
   "id": "A090892",
   "mentions": [
+    "A001951",
+    "A002193",
     "A120752"
   ],
   "tags": [

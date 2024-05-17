@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that have an even number of prime factors with multiplicity and whose arithmetic derivative is of the form 4k+3.",
+  "id": "A369668",
+  "mentions": [
+    "A001222",
+    "A003415",
+    "A028260",
+    "A235991",
+    "A235992",
+    "A358774",
+    "A369663",
+    "A369667",
+    "A369966"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

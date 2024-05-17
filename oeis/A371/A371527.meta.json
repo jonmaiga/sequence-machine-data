@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Product_{k>=2} (1 + (-1)^k/Fibonacci(k)).",
+  "id": "A371527",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A002390",
+    "A337668",
+    "A337669",
+    "A371525",
+    "A371526",
+    "A371528",
+    "A371529",
+    "A371530"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

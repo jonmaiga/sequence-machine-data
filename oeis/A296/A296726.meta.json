@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. arcsin(x)/(1 - x).",
   "id": "A296726",
   "mentions": [
+    "A001147",
     "A001818",
     "A009551",
     "A081358",

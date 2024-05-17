@@ -2,6 +2,8 @@
   "description": "Decimal expansion of sum of alternating series of reciprocals of primes.",
   "id": "A078437",
   "mentions": [
+    "A002110",
+    "A024530",
     "A242301",
     "A242302",
     "A242303",
@@ -9,6 +11,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "hard",
     "more",
     "nonn"

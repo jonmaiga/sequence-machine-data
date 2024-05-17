@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 + largest digit of n is prime.",
+  "description": "Numbers k such that k^2 + largest digit of k is prime.",
   "id": "A095679",
   "mentions": [
     "A054055"

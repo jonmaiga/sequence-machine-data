@@ -2,6 +2,7 @@
   "description": "sigma(2*n^2) - sigma(n^2).",
   "id": "A195585",
   "mentions": [
+    "A002117",
     "A015128",
     "A054785",
     "A195584",

@@ -1,5 +1,5 @@
 {
-  "description": "Sum( k=0..n, C(floor((n+1)/2),floor((k+1)/2))*2^k ).",
+  "description": "a(n) = Sum_{k=0..n} C(floor((n+1)/2),floor((k+1)/2))*2^k.",
   "id": "A097162",
   "mentions": [
     "A057651",

@@ -2,6 +2,7 @@
   "description": "Number of integer partitions of n with no alternating permutation covering an initial interval of positive integers.",
   "id": "A345162",
   "mentions": [
+    "A000009",
     "A000041",
     "A000070",
     "A000670",
@@ -39,12 +40,12 @@
     "A348609"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

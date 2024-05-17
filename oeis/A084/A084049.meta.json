@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+1 have the same sum of digits of divisors; A034690(n) = A034690(n+1).",
+  "description": "Numbers k such that k and k+1 have the same sum of digits of divisors; A034690(k) = A034690(k+1).",
   "id": "A084049",
   "mentions": [
     "A034690"

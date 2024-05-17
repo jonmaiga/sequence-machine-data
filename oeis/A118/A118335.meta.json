@@ -1,11 +1,12 @@
 {
-  "description": "a(n)= smallest multiple of (prime(n+1)-p(n)) which is >= prime(n+1), where prime(m) is the m-th prime.",
+  "description": "a(n)= smallest multiple of (prime(n+1)-prime(n)) which is >= prime(n+1), where prime(m) is the m-th prime.",
   "id": "A118335",
   "mentions": [
     "A113709",
     "A118336"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 10^(2k)/2 - 10^k + 1 are prime.",
+  "description": "Numbers k such that 10^(2k)/2 - 10^k + 1 is prime.",
   "id": "A296445",
   "mentions": [
     "A296446"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

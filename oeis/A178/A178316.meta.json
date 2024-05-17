@@ -1,5 +1,5 @@
 {
-  "description": "Primes with the property that their digital rotation is still prime.",
+  "description": "Primes whose digital rotation is still prime.",
   "id": "A178316",
   "mentions": [
     "A007500",

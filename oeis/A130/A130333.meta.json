@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which n!!/sum(i=0..n,n), with n>=1, is an integer.",
+  "description": "Numbers k >= 1 for which k!!/Sum_{i=1..k} k is an integer.",
   "id": "A130333",
   "mentions": [
     "A130319",

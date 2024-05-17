@@ -1,8 +1,15 @@
 {
-  "description": "a(n) = s(1)*s(2)*...*s(n)*(1/s(1) - 1/s(2) + ... + c/s(n)), where c = (-1)^(n+1) and s(k) = 4k-3 for k = 1,2,3,...",
+  "description": "a(n) = s(1)*s(2)*...*s(n)*(1/s(1) - 1/s(2) + ... + c/s(n)), where c = (-1)^(n+1) and s(k) = 4*k - 3 for k = 1, 2, 3, ....",
   "id": "A024383",
-  "mentions": [],
+  "mentions": [
+    "A007696",
+    "A024199",
+    "A024217",
+    "A024396",
+    "A181048"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

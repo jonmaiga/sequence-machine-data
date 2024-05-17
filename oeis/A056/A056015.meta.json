@@ -1,17 +1,18 @@
 {
-  "description": "A recursive sequence.",
+  "description": "a(n) = 6*a(n-1) - 5*a(n-2) - 4*a(n-3) - 3*a(n-4) + 2*a(n-5) + a(n-6), with a(0)=...=a(4)=0, a(5)=1.",
   "id": "A056015",
   "mentions": [
     "A000073",
     "A056014"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 5,
-    "size": 22,
-    "source": "joeis"
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
   }
 }

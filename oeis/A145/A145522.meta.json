@@ -2,16 +2,19 @@
   "description": "a(n) is such that A145521(n) = A053810(a(n)).",
   "id": "A145522",
   "mentions": [
+    "A000720",
     "A053810",
+    "A060967",
     "A145521"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

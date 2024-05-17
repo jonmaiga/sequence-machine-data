@@ -1,0 +1,16 @@
+{
+  "description": "Table read by rows: row n is the unique primitive Pythagorean quadruple (a,b,c,d) such that (a+b+c-d)/2 = n and a+c=d.",
+  "id": "A370777",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "description": "Number of integer partitions of n such that only one set can be obtained by choosing a different prime factor of each part.",
+  "id": "A370594",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A000720",
+    "A001222",
+    "A003963",
+    "A006530",
+    "A020639",
+    "A027746",
+    "A112798",
+    "A355529",
+    "A355739",
+    "A355740",
+    "A355741",
+    "A367904",
+    "A367905",
+    "A367908",
+    "A368100",
+    "A368101",
+    "A368110",
+    "A368413",
+    "A368414",
+    "A370582",
+    "A370583",
+    "A370584",
+    "A370585",
+    "A370586",
+    "A370587",
+    "A370592",
+    "A370593",
+    "A370595",
+    "A370636",
+    "A370637",
+    "A370638",
+    "A370645",
+    "A370647"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

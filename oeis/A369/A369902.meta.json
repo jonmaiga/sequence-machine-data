@@ -1,0 +1,17 @@
+{
+  "description": "Number of isomorphism classes of elliptic curves over the finite field of order prime(n) whose trace of Frobenius is zero.",
+  "id": "A369902",
+  "mentions": [
+    "A259825",
+    "A362243"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

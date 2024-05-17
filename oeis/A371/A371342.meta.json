@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = log(1 + x/(1 - A(x))).",
+  "id": "A371342",
+  "mentions": [
+    "A052842",
+    "A052892",
+    "A370922",
+    "A371326"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

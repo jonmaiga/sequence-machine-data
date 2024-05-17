@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n for which A276086(n) <= A002620(n).",
+  "description": "Numbers k for which A276086(k) <= A002620(k), where A276086 is the primorial base exp-function and A002620(k) = floor(k^2/4).",
   "id": "A328118",
   "mentions": [
     "A002620",
     "A276086",
     "A328110",
-    "A328119"
+    "A328119",
+    "A351228",
+    "A370127"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = b(n, 1/2) where b(n, x) = (Pi/4)*(Y(0, x)*J(n, x) - J(0, x)*Y(n, x)) and Y, J are Bessel functions.",
+  "id": "A369737",
+  "mentions": [
+    "A036243",
+    "A093985"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 3/2*(n^2 - n + 2).",
   "id": "A290768",
-  "mentions": [],
+  "mentions": [
+    "A000124"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,21 @@
+{
+  "description": "Product of n!, n-th Pell number and n-th harmonic number.",
+  "id": "A372210",
+  "mentions": [
+    "A000129",
+    "A000142",
+    "A000254",
+    "A001008",
+    "A002805",
+    "A052631"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

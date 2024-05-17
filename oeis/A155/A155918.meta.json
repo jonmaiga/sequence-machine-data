@@ -2,7 +2,9 @@
   "description": "Number of squared hypotenuses mod n in two dimensions.",
   "id": "A155918",
   "mentions": [
-    "A305191"
+    "A305191",
+    "A334427",
+    "A334448"
   ],
   "tags": [
     "formulas",

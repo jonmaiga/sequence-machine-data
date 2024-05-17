@@ -1,21 +1,25 @@
 {
-  "description": "Subscript m such that Sigma-Harmonic sequence, ssi[m]=Sum[1/sigma[k],{k,1,m}] >= n.",
+  "description": "Least number m such that the Sigma-Harmonic sequence Sum_{k=1..m} 1/sigma(k) >= n.",
   "id": "A074468",
   "mentions": [
+    "A000203",
     "A002387",
     "A004080",
     "A046024",
     "A074467",
     "A074631",
-    "A074633"
+    "A074633",
+    "A212717",
+    "A308039"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-2)^(3*k)*binomial(2*n, 2*k)*Euler(2*k, 1/2). Row sums of A371637.",
+  "id": "A371683",
+  "mentions": [
+    "A371637",
+    "A371684"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

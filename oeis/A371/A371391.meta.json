@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x * (1-x) / (1+2*x)^2 ).",
+  "id": "A371391",
+  "mentions": [
+    "A047891",
+    "A371392"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

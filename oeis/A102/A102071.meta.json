@@ -2,8 +2,10 @@
   "description": "Pairwise sums of general ballot numbers (A002026).",
   "id": "A102071",
   "mentions": [
+    "A000108",
     "A001006",
     "A002026",
+    "A002057",
     "A005554",
     "A026269",
     "A348840"

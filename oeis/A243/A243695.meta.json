@@ -1,14 +1,17 @@
 {
-  "description": "Number of Sylvester classes of 5-multiparking functions of length n.",
+  "description": "Number of Hyposylvester classes of 5-multiparking functions of length n.",
   "id": "A243695",
-  "mentions": [],
+  "mentions": [
+    "A243693",
+    "A243694"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 5,
+    "offset": 0,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

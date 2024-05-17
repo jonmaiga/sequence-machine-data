@@ -2,11 +2,13 @@
   "description": "Numbers that are the sum of ten squares in three or more ways.",
   "id": "A345510",
   "mentions": [
+    "A025429",
     "A345500",
     "A345509",
     "A345551"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

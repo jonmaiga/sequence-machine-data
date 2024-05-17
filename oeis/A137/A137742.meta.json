@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (n-1)*(n+4)*(n+6)/6 for n>1, a(1)=1.",
+  "description": "a(n) = (n-1)*(n+4)*(n+6)/6 for n > 1, a(1)=1.",
   "id": "A137742",
   "mentions": [
     "A000297",

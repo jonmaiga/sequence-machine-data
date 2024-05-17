@@ -1,10 +1,11 @@
 {
-  "description": "Union of A057080 and A001090",
+  "description": "Union of A057080 and A001090.",
   "id": "A177187",
   "mentions": [
     "A000108",
     "A001090",
     "A004189",
+    "A010472",
     "A041059",
     "A057080"
   ],

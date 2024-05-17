@@ -1,7 +1,8 @@
 {
-  "description": "sigma(n) - ceiling(n + sqrt n) as n runs through the composite numbers A002808.",
+  "description": "a(n) = sigma(n) - ceiling(n + sqrt n) as n runs through the composite numbers A002808.",
   "id": "A079529",
   "mentions": [
+    "A000203",
     "A002808",
     "A055682",
     "A058208",

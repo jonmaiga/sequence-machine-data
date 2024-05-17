@@ -1,0 +1,16 @@
+{
+  "description": "Primes consisting of exactly three 3's, five 5's and seven 7's.",
+  "id": "A371834",
+  "mentions": [],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Array: T(d,n) = number of ways of writing n as a sum of d squares, read along diagonals.",
+  "description": "Array: T(d,n) = number of ways of writing n as a sum of d squares, read by ascending antidiagonals.",
   "id": "A122141",
   "mentions": [
     "A000118",

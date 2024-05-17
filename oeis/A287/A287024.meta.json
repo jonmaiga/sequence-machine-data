@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n,k) is the number of graphs with n vertices with vertex cover number k-1.",
   "id": "A287024",
   "mentions": [
+    "A000088",
     "A115196",
     "A263341"
   ],

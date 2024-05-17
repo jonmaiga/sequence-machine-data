@@ -1,5 +1,5 @@
 {
-  "description": "5*7^n",
+  "description": "a(n) = 5*7^n.",
   "id": "A193577",
   "mentions": [
     "A000420",

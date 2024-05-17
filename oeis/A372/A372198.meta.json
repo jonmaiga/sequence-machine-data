@@ -1,0 +1,19 @@
+{
+  "description": "The number of ways of 2-coloring the diagram for the n-th centered square number up to rotation and reflection of the square.",
+  "id": "A372198",
+  "mentions": [
+    "A000124",
+    "A001844",
+    "A002061",
+    "A014848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

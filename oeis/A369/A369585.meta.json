@@ -1,0 +1,24 @@
+{
+  "description": "Table read by rows. T(n, k) = [z^k] h(n, 1, z) where h(n, v, z) are the modified Lommel polynomials (A369117).",
+  "id": "A369585",
+  "mentions": [
+    "A000165",
+    "A001105",
+    "A014479",
+    "A036243",
+    "A093985",
+    "A254371",
+    "A286725",
+    "A369117"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k with the property that there is a finite set W of groups of order divisible by k such that if k divides the order of a group G, then G has a subgroup isomorphic to a group in W.",
+  "id": "A371022",
+  "mentions": [
+    "A000961",
+    "A019434"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

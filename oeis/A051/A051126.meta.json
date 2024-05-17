@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k) = n mod k read by antidiagonals (n >= 1, k >= 1).",
+  "description": "Table T(n,k) = n mod k read by downward antidiagonals (n >= 1, k >= 1).",
   "id": "A051126",
   "mentions": [
     "A002260",

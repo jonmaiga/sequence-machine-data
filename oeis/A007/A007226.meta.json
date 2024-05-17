@@ -2,6 +2,7 @@
   "description": "a(n) = 2*det(M(n; -1))/det(M(n; 0)), where M(n; m) is the n X n matrix with (i,j)-th element equal to 1/binomial(n + i + j + m, n).",
   "id": "A007226",
   "mentions": [
+    "A000139",
     "A006013",
     "A007223",
     "A007224",

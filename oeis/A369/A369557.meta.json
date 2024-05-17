@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{n>=0} Product_{k=0..n} (x^k + x^(n-k)).",
+  "id": "A369557",
+  "mentions": [
+    "A369673",
+    "A369674",
+    "A369675",
+    "A369676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

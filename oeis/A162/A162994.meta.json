@@ -1,5 +1,5 @@
 {
-  "description": "The third left hand column of triangle A162990",
+  "description": "The third left hand column of triangle A162990.",
   "id": "A162994",
   "mentions": [
     "A001044",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 12,
+    "size": 14,
     "source": "joeis"
   }
 }

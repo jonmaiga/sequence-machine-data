@@ -1,0 +1,22 @@
+{
+  "description": "LCM-transform of permutation A241916.",
+  "id": "A369033",
+  "mentions": [
+    "A014963",
+    "A122111",
+    "A209229",
+    "A241916",
+    "A368900",
+    "A369031",
+    "A369032"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

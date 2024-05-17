@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying Sum_{n>=0} (-1)^n * x^n * Product_{k=0..n} (x^k + A(x)) = theta_2(x^(1/2)) / x^(1/8).",
+  "id": "A369682",
+  "mentions": [
+    "A089799",
+    "A369683",
+    "A369684"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

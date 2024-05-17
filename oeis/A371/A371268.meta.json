@@ -1,0 +1,21 @@
+{
+  "description": "If the ternary expansion of n starts with a 1, replace 1's by 2's, 2's by 0's, 0's by 1's, if it starts with a 2, replace 2's by 1's, 1's by 0's, 0's by 2's.",
+  "id": "A371268",
+  "mentions": [
+    "A004488",
+    "A338246",
+    "A361945",
+    "A371256"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

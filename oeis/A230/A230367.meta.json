@@ -1,5 +1,5 @@
 {
-  "description": "Number of graphs on n vertices with edges colored with at most three interchangeable colors under the symmetries of the full edge permutation group.",
+  "description": "Number of colorings of the edges of the complete graph on n unlabeled vertices using at most three interchangeable colors under the symmetries of the full edge permutation group.",
   "id": "A230367",
   "mentions": [
     "A007869"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

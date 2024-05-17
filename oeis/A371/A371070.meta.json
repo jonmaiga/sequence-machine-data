@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct volumes > 0 of tetrahedra with the sum of their integer edge lengths equal to n.",
+  "id": "A371070",
+  "mentions": [
+    "A001402",
+    "A097125",
+    "A208454",
+    "A346575",
+    "A371071",
+    "A371345"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

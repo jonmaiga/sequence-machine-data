@@ -2,10 +2,13 @@
   "description": "Numerator of sigma(8*n^2)/sigma(4*n^2).",
   "id": "A065915",
   "mentions": [
-    "A000203"
+    "A000203",
+    "A065916"
   ],
   "tags": [
     "easy",
+    "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {

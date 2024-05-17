@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k >= 0 such that n OR k is a binary palindrome (where OR denotes the bitwise OR operator).",
+  "id": "A370427",
+  "mentions": [
+    "A006995",
+    "A030101",
+    "A175297",
+    "A344220"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

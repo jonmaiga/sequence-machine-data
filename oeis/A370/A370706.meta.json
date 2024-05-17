@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n, k) * Pochhammer(n, k).",
+  "id": "A370706",
+  "mentions": [
+    "A000407",
+    "A278070",
+    "A370707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

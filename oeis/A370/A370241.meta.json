@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{n>=0} Product_{k=0..n} (x^k*(1+x)^(n-k) + x^(n-k)*(1+x)^k).",
+  "id": "A370241",
+  "mentions": [
+    "A369557",
+    "A369674",
+    "A369675",
+    "A369676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

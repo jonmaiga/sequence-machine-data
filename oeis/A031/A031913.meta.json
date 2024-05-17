@@ -1,8 +1,15 @@
 {
   "description": "a(n) = prime(9*n - 6).",
   "id": "A031913",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A017197",
+    "A031911",
+    "A031912",
+    "A031914"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

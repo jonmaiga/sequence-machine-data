@@ -1,5 +1,5 @@
 {
-  "description": "The number of primitive roots g such that there exists an x with g^x (mod p) = x, where p=prime(n).",
+  "description": "The number of primitive roots g such that there exists an x with g^x == x (mod p), where p=prime(n).",
   "id": "A174407",
   "mentions": [
     "A174329",

@@ -1,5 +1,5 @@
 {
-  "description": "Essicran numbers.",
+  "description": "Numbers k such that the iterated subtraction of the decimal digits eventually reaches -k.",
   "id": "A263808",
   "mentions": [
     "A005349",

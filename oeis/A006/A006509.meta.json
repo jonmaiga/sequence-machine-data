@@ -1,5 +1,5 @@
 {
-  "description": "Cald's sequence: a(n+1) = a(n) - prime(n) if that value is positive and new, otherwise a(n) + prime(n) if new, otherwise 0.",
+  "description": "Cald's sequence: a(n+1) = a(n) - prime(n) if that value is positive and new, otherwise a(n) + prime(n) if new, otherwise 0; start with a(1)=1.",
   "id": "A006509",
   "mentions": [
     "A000040",
@@ -10,10 +10,10 @@
     "A111339",
     "A112877",
     "A117128",
-    "A117129"
+    "A117129",
+    "A370951"
   ],
   "tags": [
-    "easy",
     "nice",
     "nonn"
   ],

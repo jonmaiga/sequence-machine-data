@@ -2,9 +2,11 @@
   "description": "k appears partition(k) times.",
   "id": "A036042",
   "mentions": [
-    "A000041"
+    "A000041",
+    "A052002"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

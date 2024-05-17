@@ -1,0 +1,15 @@
+{
+  "description": "Integers k for which there is a lacunary modular form of weight k/2 which is a product of eta functions.",
+  "id": "A368381",
+  "mentions": [],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

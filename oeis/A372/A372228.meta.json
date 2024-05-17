@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest prime factor of n^n + n.",
+  "id": "A372228",
+  "mentions": [
+    "A006486",
+    "A006530",
+    "A007571",
+    "A066068",
+    "A372229"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

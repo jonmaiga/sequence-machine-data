@@ -1,0 +1,31 @@
+{
+  "description": "Number of achiral polyominoes composed of n tetrahedral cells of the hyperbolic regular tiling with Schläfli symbol {3,3,oo}.",
+  "id": "A371351",
+  "mentions": [
+    "A001764",
+    "A007173",
+    "A027610",
+    "A047751",
+    "A047753",
+    "A047754",
+    "A047760",
+    "A047764",
+    "A047765",
+    "A047766",
+    "A047771",
+    "A047773",
+    "A047775",
+    "A182299",
+    "A208355",
+    "A371350"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

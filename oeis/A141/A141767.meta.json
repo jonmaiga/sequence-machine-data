@@ -1,5 +1,5 @@
 {
-  "description": "A positive integer n is included if (p-1)*(p+1) divides n for every prime p that divides n.",
+  "description": "A positive integer k is included if (p-1)*(p+1) divides k for every prime p that divides k.",
   "id": "A141767",
   "mentions": [
     "A027748",

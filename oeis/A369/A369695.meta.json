@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered pairs (p,q) of partitions of n such that the set of parts in q is equal to the set of parts in p.",
+  "id": "A369695",
+  "mentions": [
+    "A000041",
+    "A040051",
+    "A297388",
+    "A369696",
+    "A369697"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

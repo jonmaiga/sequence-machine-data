@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as +- 1 +- 2 +- 3 +- ... +- n in exactly n ways, or -1 if no such integer exists.",
+  "id": "A369886",
+  "mentions": [
+    "A038547",
+    "A063890"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

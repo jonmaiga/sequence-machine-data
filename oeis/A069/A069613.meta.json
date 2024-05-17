@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(2n) = smallest prime starting ( the most significant digits) with a(2n-1). and a(2n+1) = smallest prime ending in ( the least significant digits) a(2n-1). Alternate left and right concatenation yielding primes.",
+  "description": "a(1) = 1; a(2n) is smallest prime starting with a(2n-1) and a number with no insignificant zeros, and a(2n+1) is smallest prime ending in a(2n-1). Alternate left and right concatenation yielding primes.",
   "id": "A069613",
   "mentions": [
     "A053582",
@@ -9,7 +9,8 @@
     "A069608",
     "A069609",
     "A069610",
-    "A069611"
+    "A069611",
+    "A069614"
   ],
   "tags": [
     "base",
@@ -18,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

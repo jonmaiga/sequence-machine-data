@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Product_{k=0..n} (2*k^2)!.",
+  "id": "A371645",
+  "mentions": [
+    "A255322"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

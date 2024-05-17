@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..floor(n/2)} C(n-k), where C(n) = A000108(n).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} A000108(n-k).",
   "id": "A129366",
   "mentions": [
     "A000108",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

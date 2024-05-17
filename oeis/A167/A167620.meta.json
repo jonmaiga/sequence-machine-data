@@ -2,7 +2,9 @@
   "description": "Numbers that are multiples of their digital product, where this digital product also appears as their least significant digits.",
   "id": "A167620",
   "mentions": [
-    "A007602"
+    "A007602",
+    "A194356",
+    "A238985"
   ],
   "tags": [
     "base",

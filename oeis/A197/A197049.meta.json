@@ -2,15 +2,17 @@
   "description": "Number of n X 3 0..4 arrays with each element equal to the number its horizontal and vertical zero neighbors.",
   "id": "A197049",
   "mentions": [
+    "A157049",
     "A197054"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 31,
+    "offset": 0,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

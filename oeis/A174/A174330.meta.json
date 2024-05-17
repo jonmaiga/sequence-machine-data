@@ -1,5 +1,5 @@
 {
-  "description": "Least number x such that g^x = x (mod p) for g=A174329(n), where p=prime(n).",
+  "description": "Least positive x such that g^x = x (mod p) for g=A174329(n), where p=prime(n).",
   "id": "A174330",
   "mentions": [
     "A084793",

@@ -1,0 +1,19 @@
+{
+  "description": "Number of balanced nondegenerate monotone Boolean functions of n or fewer variables.",
+  "id": "A371722",
+  "mentions": [
+    "A000372",
+    "A006126",
+    "A341633"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

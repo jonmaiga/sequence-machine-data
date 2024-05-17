@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct areas > 0 of triangles with integer sides and perimeter n.",
+  "id": "A371973",
+  "mentions": [
+    "A005044",
+    "A007237",
+    "A024153",
+    "A070083",
+    "A316841",
+    "A317182",
+    "A371070"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

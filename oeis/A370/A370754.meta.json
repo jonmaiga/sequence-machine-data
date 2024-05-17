@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2 + n^2*floor((n+3)/2) + floor(3*n/2).",
+  "id": "A370754",
+  "mentions": [
+    "A347570",
+    "A365515",
+    "A369817"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

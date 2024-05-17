@@ -1,8 +1,12 @@
 {
   "description": "a(n) = the number of iterations the \"HyperbolaTiles\" algorithm takes to factorize n.",
   "id": "A288966",
-  "mentions": [],
+  "mentions": [
+    "A020639",
+    "A032742"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

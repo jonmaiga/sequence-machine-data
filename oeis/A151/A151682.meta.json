@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum_{k >= 0, k odd} binomial(wt(n+k),k+1), where wt() = A000120().",
+  "description": "a(n) = Sum_{k >= 0, k odd} binomial(wt(n+k),k+1), where wt() = A000120().",
   "id": "A151682",
   "mentions": [
     "A000120"

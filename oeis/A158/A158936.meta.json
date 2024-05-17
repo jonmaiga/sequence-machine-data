@@ -1,5 +1,5 @@
 {
-  "description": "List of coprime pairs (x,y) such that x^2+y^2=13^n with 0",
+  "description": "List of coprime pairs (x,y) such that x^2+y^2 = 13^n with 0",
   "id": "A158936",
   "mentions": [
     "A098122",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 44,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

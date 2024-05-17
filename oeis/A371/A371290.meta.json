@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose product of binary indices is a prime power > 1.",
+  "id": "A371290",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A000961",
+    "A005117",
+    "A029931",
+    "A048793",
+    "A070939",
+    "A096111",
+    "A253317",
+    "A272020",
+    "A320698",
+    "A326782",
+    "A368533",
+    "A371289",
+    "A371292",
+    "A371443",
+    "A371452"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

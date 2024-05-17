@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest penholodigital prime in base n.",
+  "id": "A371194",
+  "mentions": [
+    "A023811",
+    "A185122"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

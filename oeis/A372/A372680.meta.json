@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that 2^k contains all powers of 2 not exceeding k as substrings.",
+  "id": "A372680",
+  "mentions": [
+    "A046300",
+    "A094776",
+    "A371808"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

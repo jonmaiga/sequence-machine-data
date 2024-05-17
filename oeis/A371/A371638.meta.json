@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*n + valuation(n, 3) with valuation(n, 3) = A007949(n).",
+  "id": "A371638",
+  "mentions": [
+    "A007949",
+    "A292608",
+    "A371639"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

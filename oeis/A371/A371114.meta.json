@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is n! times the coefficient of x in the associated Laguerre polynomial Laguerre(n,x,1).",
+  "id": "A371114",
+  "mentions": [
+    "A009940"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

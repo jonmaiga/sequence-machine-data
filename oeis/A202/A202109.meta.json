@@ -1,9 +1,10 @@
 {
-  "description": "n^3*(n+1)^3*(n+2)^3/72.",
+  "description": "a(n) = n^3*(n+1)^3*(n+2)^3/72.",
   "id": "A202109",
   "mentions": [
     "A000217",
-    "A000292"
+    "A000292",
+    "A002117"
   ],
   "tags": [
     "easy",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

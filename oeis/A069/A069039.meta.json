@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x(1+x)^5/(1-x)^7.",
+  "description": "Expansion of g.f. x*(1+x)^5/(1-x)^7.",
   "id": "A069039",
   "mentions": [
     "A000332",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

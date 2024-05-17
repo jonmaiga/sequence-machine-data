@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^(n - HammingWeight(n)) * binomial(2*n, n).",
+  "id": "A371357",
+  "mentions": [
+    "A000984",
+    "A060818"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*(n + 2)*(n + 4).",
+  "id": "A370912",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A005563",
+    "A077415",
+    "A190577",
+    "A370419",
+    "A370890"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

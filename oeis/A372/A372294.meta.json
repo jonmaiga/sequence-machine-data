@@ -1,0 +1,21 @@
+{
+  "description": "The smallest number k which, when written in base n, has a factorization k = f_1*f_2*...*f_r where f_i >= 1 and the digits of {k, f_1, f_2, ..., f_r} together contain the digits 0,1,...,(n-1) exactly once. Set a(n) = -1 if no such k exists.",
+  "id": "A372294",
+  "mentions": [
+    "A370970",
+    "A371958",
+    "A372053",
+    "A372249"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

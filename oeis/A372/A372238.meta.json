@@ -1,0 +1,19 @@
+{
+  "description": "Least number m such that 9*k*m+1 is prime for k=1..n.",
+  "id": "A372238",
+  "mentions": [
+    "A088250",
+    "A372188"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

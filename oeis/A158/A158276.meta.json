@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that sigma_1(k) not divides sigma_2(k).",
+  "description": "Numbers k such that sigma_1(k) does not divide sigma_2(k).",
   "id": "A158276",
   "mentions": [
     "A000203",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 67,
     "source": "oeis-entry"
   }
 }

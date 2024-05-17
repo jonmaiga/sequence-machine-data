@@ -1,5 +1,5 @@
 {
-  "description": "Floor((n + 1/2)^5).",
+  "description": "a(n) = floor((n + 1/2)^5).",
   "id": "A219088",
   "mentions": [
     "A219085"

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2^756839 - 1, the 32nd Mersenne prime.",
+  "id": "A371851",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A028335"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 227832,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

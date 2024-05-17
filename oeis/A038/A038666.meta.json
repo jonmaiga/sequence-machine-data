@@ -2,9 +2,11 @@
   "description": "Minimum area rectangle into which squares of sizes 1, 2, 3, ... n can be packed.",
   "id": "A038666",
   "mentions": [
+    "A000330",
     "A081287"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

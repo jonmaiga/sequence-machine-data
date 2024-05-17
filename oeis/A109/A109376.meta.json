@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n * (sum of the digits of n raised to their own power) + 1 is prime and sets a new record for number of digits.",
+  "description": "Numbers k such that k * (sum of the digits of k raised to their own power) + 1 is prime and sets a new record for number of digits.",
   "id": "A109376",
   "mentions": [
     "A109372"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

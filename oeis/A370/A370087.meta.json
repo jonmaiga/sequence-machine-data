@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp( Sum_{k>=1} (3*k)!/k! * (x/6)^k/k ).",
+  "id": "A370087",
+  "mentions": [
+    "A014606",
+    "A370085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

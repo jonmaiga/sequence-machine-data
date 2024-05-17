@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = smallest Carmichael numbers (A002997) with n-th prime as smallest prime divisor, or 0 if no such number exists.",
+  "description": "a(n) is the smallest Carmichael number (A002997) with the n-th prime as its smallest prime divisor, or 0 if no such number exists.",
   "id": "A135720",
   "mentions": [
     "A002997",
     "A006931",
+    "A055553",
     "A135717",
     "A135719",
     "A135721",

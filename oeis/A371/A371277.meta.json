@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows, (3, 2)-Lah numbers.",
+  "id": "A371277",
+  "mentions": [
+    "A143497"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

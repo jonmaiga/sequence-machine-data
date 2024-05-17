@@ -1,5 +1,5 @@
 {
-  "description": "G.f. defined as the limit: A(x) = limit_{n->oo} F(n)^(1/2^(n-1)) where F(n) is the n-th iteration of: F(0) = 1, F(n) = F(n-1)^2 + (2x)^(2^n-1) for n>=1.",
+  "description": "G.f. A(x) is defined as the limit A(x) = lim_{n->oo} F(n)^(1/2^(n-1)) where F(n) is defined by F(n) = F(n-1)^2 + (2*x)^(2^n-1) for n >= 1 with F(0) = 1.",
   "id": "A101189",
   "mentions": [
     "A000108",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 29,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

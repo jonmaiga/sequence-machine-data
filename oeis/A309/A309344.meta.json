@@ -2,9 +2,13 @@
   "description": "a(n) is the number of distinct numbers of transversals of order n Latin squares.",
   "id": "A309344",
   "mentions": [
+    "A003090",
+    "A090741",
+    "A091323",
     "A301371",
     "A308853",
-    "A309088"
+    "A309088",
+    "A344105"
   ],
   "tags": [
     "hard",

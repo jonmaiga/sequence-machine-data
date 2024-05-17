@@ -1,0 +1,30 @@
+{
+  "description": "Number of unlabeled loop-graphs covering n vertices without a non-loop edge with loops at both ends.",
+  "id": "A370166",
+  "mentions": [
+    "A000085",
+    "A000666",
+    "A001187",
+    "A001349",
+    "A002494",
+    "A006125",
+    "A006129",
+    "A048291",
+    "A062740",
+    "A079491",
+    "A116539",
+    "A322661",
+    "A322700",
+    "A339832",
+    "A370165"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

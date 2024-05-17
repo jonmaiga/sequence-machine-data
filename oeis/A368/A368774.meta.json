@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct real roots of the polynomial whose coefficients are the digits of the binary expansion of n.",
+  "id": "A368774",
+  "mentions": [
+    "A362344",
+    "A368824"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

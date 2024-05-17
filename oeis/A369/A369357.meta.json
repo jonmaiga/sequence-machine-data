@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that there exists a number p such that k - p = sopfr(k + p) but no number q exists such that q - k = sopfr(q + k), where sopfr(m) is the sum of the primes dividing m, with repetition.",
+  "id": "A369357",
+  "mentions": [
+    "A001414",
+    "A369348",
+    "A369349",
+    "A369354",
+    "A369355",
+    "A369356",
+    "A369812",
+    "A369981"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

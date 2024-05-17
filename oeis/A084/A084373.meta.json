@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that smallest digit of n = total number of divisors of n.",
+  "description": "Numbers k such that smallest digit of k = total number of divisors of k.",
   "id": "A084373",
   "mentions": [
     "A000005",

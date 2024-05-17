@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n-th semiprime + (concatenation of its two factors, smallest factor first).",
+  "description": "a(n) = n-th semiprime + (concatenation of its two prime factors, smallest factor first).",
   "id": "A106550",
   "mentions": [
     "A001358",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 54,
     "source": "oeis-entry"
   }
 }

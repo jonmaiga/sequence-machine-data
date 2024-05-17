@@ -1,0 +1,14 @@
+{
+  "description": "Number of Git graphs (also called Git feature branch graphs) with n vertices.",
+  "id": "A370886",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

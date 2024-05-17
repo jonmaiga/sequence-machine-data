@@ -1,8 +1,7 @@
 {
-  "description": "An analog of Pascal's triangle based on A129454. T(n,k)= A129454(n)/(A129454(n-k)*A129454(k)).",
+  "description": "An analog of Pascal's triangle based on A129454. T(n, k) = A129454(n+1)/(A129454(n-k+1)*A129454(k+1)).",
   "id": "A129455",
   "mentions": [
-    "A007318",
     "A092287",
     "A129453",
     "A129454"
@@ -14,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

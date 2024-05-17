@@ -1,7 +1,14 @@
 {
-  "description": "Triangle read by rows: T(n,r) = number of maximum r-uniform acyclic hypergraphs of order n and size n-r+1.",
+  "description": "Triangle read by rows: T(n,r) = number of maximum r-uniform acyclic hypergraphs of order n and size n-r+1, 1 <= r <= n+1.",
   "id": "A135021",
-  "mentions": [],
+  "mentions": [
+    "A000012",
+    "A000272",
+    "A036361",
+    "A036362",
+    "A036506",
+    "A370770"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +16,7 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 66,
     "source": "oeis-bfile"
   }

@@ -1,5 +1,5 @@
 {
-  "description": "Last digit of F(n) is 7 where F(n) is the n-th Fibonacci number.",
+  "description": "Integers m such that the last digit of Fibonacci(m) is 7.",
   "id": "A072709",
   "mentions": [
     "A000045",

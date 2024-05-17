@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2Xn 0..2*n-1 arrays with upper left zero and lower right 2*n-1 and each element differing from its horizontal, diagonal and antidiagonal neighbors by a power of two.",
+  "description": "Number of 2 X n 0..2*n-1 arrays with upper left zero and lower right 2*n-1 and each element differing from its horizontal, diagonal and antidiagonal neighbors by a power of two.",
   "id": "A265636",
   "mentions": [
     "A265635"

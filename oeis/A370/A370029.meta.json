@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying Sum_{n=-oo..+oo} (-1)^n * (x^n + 9*A(x))^n = 1 + 11*Sum_{n>=1} (-1)^n * x^(n^2).",
+  "id": "A370029",
+  "mentions": [
+    "A370020",
+    "A370021",
+    "A370022",
+    "A370023",
+    "A370024",
+    "A370025",
+    "A370026",
+    "A370027",
+    "A370028",
+    "A370042"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

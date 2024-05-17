@@ -1,7 +1,8 @@
 {
-  "description": "Smallest prime p such that n is a palindrome in base p representation.",
+  "description": "Smallest prime p such that n is a palindrome in base-p representation.",
   "id": "A086757",
   "mentions": [
+    "A006995",
     "A007918",
     "A016026"
   ],

@@ -2,9 +2,12 @@
   "description": "Sums of two numbers that are both consecutive and squarefree.",
   "id": "A295243",
   "mentions": [
-    "A005117"
+    "A005117",
+    "A007674",
+    "A065474"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

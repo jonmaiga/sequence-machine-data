@@ -1,0 +1,22 @@
+{
+  "description": "If n is even, (n^2-2*n+2)/2, otherwise (n^2-n+2)/2.",
+  "id": "A370980",
+  "mentions": [
+    "A001844",
+    "A004526",
+    "A084849",
+    "A371253",
+    "A371254",
+    "A371373",
+    "A371374",
+    "A371375"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,17 +1,16 @@
 {
-  "description": "Composite n such that Sum phi(d)^2; d|n > n(n+1)/2.",
+  "description": "Composite k such that A029939(k) > k*(k+1)/2 where A029939(k) = Sum_{d|k} phi(d)^2.",
   "id": "A069063",
   "mentions": [
     "A029939"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,7 +1,12 @@
 {
   "description": "a(n) = prime(10*n-7).",
   "id": "A031917",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A031343",
+    "A031915",
+    "A031916"
+  ],
   "tags": [
     "nonn"
   ],

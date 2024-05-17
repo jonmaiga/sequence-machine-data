@@ -1,13 +1,15 @@
 {
-  "description": "Numbers of the form (2^s+1)/(2^r+1) for s>1, 1<=r<=s-1.",
+  "description": "Triangular array read by rows: row s contains integers of the form (2^s+1)/(2^r+1) in order of increasing r <= s-1.",
   "id": "A079665",
   "mentions": [
     "A079581",
     "A079672",
-    "A079673"
+    "A079673",
+    "A370425"
   ],
   "tags": [
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,

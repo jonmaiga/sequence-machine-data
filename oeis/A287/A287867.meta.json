@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n/2) - A287864(n).",
+  "description": "a(n) = floor(n/2) - A287864(n).",
   "id": "A287867",
   "mentions": [
     "A274933",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

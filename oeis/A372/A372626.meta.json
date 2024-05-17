@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; a(n) = Sum_{d|n, d <= sqrt(n)} (-1)^(n/d + 1) * a(d).",
+  "id": "A372626",
+  "mentions": [
+    "A308077",
+    "A337135",
+    "A348660"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

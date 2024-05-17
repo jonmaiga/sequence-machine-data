@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions to +- 1^2 +- 2^2 +- 3^2 +- ... +- n^2 = 1.",
+  "id": "A369730",
+  "mentions": [
+    "A000290",
+    "A063866",
+    "A158092",
+    "A348165",
+    "A350403",
+    "A369731",
+    "A369732"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

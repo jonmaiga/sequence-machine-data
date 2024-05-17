@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers n for which sigma(n) == 3 (mod 4).",
+  "description": "Odd numbers k for which sigma(k) == 3 (mod 4).",
   "id": "A324899",
   "mentions": [
     "A000203",
@@ -9,6 +9,7 @@
     "A325311"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

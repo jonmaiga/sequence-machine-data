@@ -1,5 +1,5 @@
 {
-  "description": "The average of the primes p and nextprime(p) is a power of 3.",
+  "description": "Primes p such that the average of p and nextprime(p) is a power of 3.",
   "id": "A115986",
   "mentions": [
     "A115987",

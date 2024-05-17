@@ -1,8 +1,11 @@
 {
   "description": "Numerator of I(n) = 2*(Integral_{x=0..1/2} (1+x^2)^n dx).",
   "id": "A092145",
-  "mentions": [],
+  "mentions": [
+    "A034910"
+  ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. exp( Sum_{n>=1} ( Sum_{k>=1} k^n*x^k )^n * (1-x)^n / n ).",
+  "id": "A370017",
+  "mentions": [
+    "A008292",
+    "A156170"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

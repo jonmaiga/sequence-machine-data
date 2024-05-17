@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n' / gcd(n,n') is a multiple of 3, otherwise 0. Here n' stands for the arithmetic derivative of n, A003415.",
+  "id": "A369643",
+  "mentions": [
+    "A003415",
+    "A079978",
+    "A083345",
+    "A359430",
+    "A369001",
+    "A369004",
+    "A369644",
+    "A369653"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

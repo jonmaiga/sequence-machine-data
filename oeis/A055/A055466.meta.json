@@ -1,10 +1,13 @@
 {
-  "description": "Numbers n such that d(n)^2 divides phi(n) + sigma(n).",
+  "description": "Numbers k such that d(k)^2 divides phi(k) + sigma(k).",
   "id": "A055466",
   "mentions": [
     "A000005",
     "A000010",
-    "A000203"
+    "A000203",
+    "A055465",
+    "A055467",
+    "A055468"
   ],
   "tags": [
     "formulas",

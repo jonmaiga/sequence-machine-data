@@ -1,8 +1,11 @@
 {
   "description": "Lower prime of a difference of 20 between consecutive primes.",
   "id": "A031938",
-  "mentions": [],
+  "mentions": [
+    "A320708"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

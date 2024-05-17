@@ -1,7 +1,9 @@
 {
   "description": "Expansion of 1 + x/(1 - 2*x - x^3 + x^4).",
   "id": "A052908",
-  "mentions": [],
+  "mentions": [
+    "A052903"
+  ],
   "tags": [
     "easy",
     "formulas",

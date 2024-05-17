@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number reachable starting from 1 and taking n steps either doubling or doubling+reversing.",
+  "id": "A371880",
+  "mentions": [
+    "A000079",
+    "A004086",
+    "A004094",
+    "A036447",
+    "A371966"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

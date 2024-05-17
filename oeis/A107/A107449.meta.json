@@ -1,17 +1,19 @@
 {
-  "description": "Triangular form sequence made from a version of A082605 Euler extension.",
+  "description": "Irregular triangle T(n, k) = 10 - ( (b(n) + k^2 + k + 1) mod 10 ), where b(n) = A056486(n-1) - (1/2)*[n=1], for n >= 1 and 1 <= k <= b(n) - 1, read by rows.",
   "id": "A107449",
   "mentions": [
-    "A082605"
+    "A056486",
+    "A082605",
+    "A107448"
   ],
   "tags": [
     "formulas",
-    "nonn",
-    "uned"
+    "less",
+    "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

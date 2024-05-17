@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A005361(k) is prime.",
+  "id": "A370076",
+  "mentions": [
+    "A005117",
+    "A005361",
+    "A009087",
+    "A023194",
+    "A053810",
+    "A059956"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

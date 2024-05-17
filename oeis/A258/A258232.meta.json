@@ -2,7 +2,9 @@
   "description": "Decimal expansion of Integral_{x=0..1} Product_{k>=1} (1-x^k) dx.",
   "id": "A258232",
   "mentions": [
+    "A000120",
     "A010815",
+    "A029931",
     "A242168",
     "A258229",
     "A258230",

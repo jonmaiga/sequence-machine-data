@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (10/99)*log(10).",
+  "id": "A372597",
+  "mentions": [
+    "A002392"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

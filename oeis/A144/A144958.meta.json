@@ -1,16 +1,35 @@
 {
-  "description": "A005195(n) - A005195(n-1).",
+  "description": "Number of unlabeled acyclic graphs covering n vertices.",
   "id": "A144958",
   "mentions": [
+    "A000055",
+    "A000088",
+    "A000272",
+    "A001858",
+    "A002494",
     "A005195",
-    "A144959"
+    "A006125",
+    "A006129",
+    "A006785",
+    "A053530",
+    "A054548",
+    "A105784",
+    "A137917",
+    "A144959",
+    "A372169",
+    "A372174",
+    "A372191",
+    "A372192",
+    "A372193",
+    "A372195"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 31,
-    "source": "joeis"
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
   }
 }

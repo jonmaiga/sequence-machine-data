@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi^(1/2)*Gamma(1/18)/(9*Gamma(5/9)).",
+  "id": "A372327",
+  "mentions": [
+    "A085565",
+    "A113477",
+    "A262427",
+    "A371929",
+    "A371930"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

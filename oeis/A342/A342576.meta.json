@@ -1,5 +1,5 @@
 {
-  "description": "Independent domination number for knight's graph on an n X n board.",
+  "description": "Independent domination number for knight graph on an n X n board.",
   "id": "A342576",
   "mentions": [
     "A006075",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

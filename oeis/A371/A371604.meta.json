@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 5 * sqrt(3 - phi) / (2 * Pi).",
+  "id": "A371604",
+  "mentions": [
+    "A019845",
+    "A060294",
+    "A086089",
+    "A089491",
+    "A094874",
+    "A112628",
+    "A182007",
+    "A258403"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

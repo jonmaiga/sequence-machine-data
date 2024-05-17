@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n * Sum_{p|n, p prime} tau(n/p) / p.",
+  "id": "A369894",
+  "mentions": [
+    "A000005",
+    "A062799",
+    "A319131",
+    "A369893"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

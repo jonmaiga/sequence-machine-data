@@ -2,7 +2,8 @@
   "description": "Carmichael numbers m that have at least 3 prime factors p such that (p-1)*p^2 divides m-p.",
   "id": "A329417",
   "mentions": [
-    "A002997"
+    "A002997",
+    "A055553"
   ],
   "tags": [
     "nonn"

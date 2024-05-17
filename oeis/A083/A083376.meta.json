@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A053664(n) is prime.",
+  "description": "Numbers k such that A053664(k) is prime.",
   "id": "A083376",
   "mentions": [
     "A053664"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

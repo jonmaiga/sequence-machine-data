@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest positive integer k with k != 10^m (m: nonnegative integer) for which 1/n can be obtained by incorrectly reducing k/(n*k) - by deleting the same digit in the numerator and denominator as often as possible, leaving one digit \"1\" in the numerator.",
+  "id": "A370911",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

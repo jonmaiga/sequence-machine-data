@@ -1,20 +1,22 @@
 {
-  "description": "Near-perfect numbers (A181595) of the form m*2^k, where m=2^(k-1)*(2^k-1) is perfect number (A000396).",
+  "description": "Near-perfect numbers (A181595) of the form m*2^p, where m = 2^(p-1)*(2^p-1) is a perfect number (A000396).",
   "id": "A181710",
   "mentions": [
+    "A000043",
     "A000396",
+    "A147538",
     "A181595",
     "A181596",
     "A181701",
     "A181702"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "formulas",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 9,
+    "source": "oeis-bfile"
   }
 }

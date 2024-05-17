@@ -1,13 +1,18 @@
 {
-  "description": "Abundancy of the abundant or perfect numbers: m = sigma(n)-2n for n such that m >= 0.",
+  "description": "Abundancy of the abundant or perfect numbers: m = sigma(k)-2k for n such that m >= 0.",
   "id": "A033882",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A023196",
+    "A033880"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k > 1 such that k / A054841(k) is an integer.",
+  "id": "A371278",
+  "mentions": [
+    "A001146",
+    "A054841"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

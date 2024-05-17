@@ -1,0 +1,17 @@
+{
+  "description": "Number of defective (binary) heaps on 2n elements from the set {0,1} with exactly n defects.",
+  "id": "A372489",
+  "mentions": [
+    "A091980",
+    "A370484"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of symmetrical linear hydrocarbon chains with n C-C bonds.",
+  "id": "A370377",
+  "mentions": [
+    "A006054",
+    "A006356",
+    "A306334"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

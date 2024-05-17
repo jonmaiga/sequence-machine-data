@@ -2,9 +2,11 @@
   "description": "Expansion of sqrt(1-8x)/sqrt(1-4x).",
   "id": "A104497",
   "mentions": [
+    "A000108",
     "A000984",
     "A002315",
-    "A098579"
+    "A098579",
+    "A104498"
   ],
   "tags": [
     "easy",

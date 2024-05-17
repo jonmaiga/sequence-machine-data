@@ -1,0 +1,17 @@
+{
+  "description": "Indices of record high values in A370278.",
+  "id": "A370279",
+  "mentions": [
+    "A370277",
+    "A370278"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

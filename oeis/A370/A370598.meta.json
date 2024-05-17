@@ -1,0 +1,22 @@
+{
+  "description": "Characteristic function of exponentially squarefree numbers (A209061).",
+  "id": "A370598",
+  "mentions": [
+    "A008683",
+    "A130897",
+    "A166234",
+    "A209061",
+    "A262276"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

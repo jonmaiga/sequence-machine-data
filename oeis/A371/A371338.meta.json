@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k>0 such that k = |(product of nonzero digits of k^2) - (sum of digits of k^2)|.",
+  "id": "A371338",
+  "mentions": [
+    "A038364",
+    "A061763"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

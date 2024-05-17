@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x^2 - x^3)^x.",
+  "id": "A371159",
+  "mentions": [
+    "A088369",
+    "A371160"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

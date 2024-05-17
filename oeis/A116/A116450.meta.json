@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n such that the numbers of prime and composite parts differ at least by 1.",
+  "description": "Number of partitions of n such that the numbers of prime and composite parts differ by at least 1.",
   "id": "A116450",
   "mentions": [
     "A002865",

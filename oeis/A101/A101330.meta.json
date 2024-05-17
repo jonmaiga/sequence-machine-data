@@ -1,10 +1,11 @@
 {
-  "description": "Array read by antidiagonals: T(n,k) = Knuth's Fibonacci (or circle) product of n and k (\"n o k\"), n >= 1, k >= 1.",
+  "description": "Array read by antidiagonals: T(n, k) = Knuth's Fibonacci (or circle) product of n and k (\"n o k\"), n >= 1, k >= 1.",
   "id": "A101330",
   "mentions": [
     "A014417",
     "A026274",
     "A035517",
+    "A060144",
     "A101332",
     "A101345",
     "A101385",

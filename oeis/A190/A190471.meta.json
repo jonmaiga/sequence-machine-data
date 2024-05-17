@@ -1,11 +1,16 @@
 {
-  "description": "Numbers with prime factorization p^2q^4r^4.",
+  "description": "Numbers with prime factorization p^2*q^4*r^4 where p, q, and r are distinct primes.",
   "id": "A190471",
   "mentions": [
+    "A085548",
+    "A085964",
+    "A085966",
+    "A085968",
     "A190469",
     "A190470"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

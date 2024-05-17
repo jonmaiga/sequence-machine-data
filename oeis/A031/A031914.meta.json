@@ -1,8 +1,15 @@
 {
   "description": "a(n) = prime(10*n - 6).",
   "id": "A031914",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A017317",
+    "A031911",
+    "A031912",
+    "A031913"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

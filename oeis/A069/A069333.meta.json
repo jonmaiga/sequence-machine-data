@@ -1,5 +1,5 @@
 {
-  "description": "11 X n binary arrays with path of adjacent 1's from upper right corner to lower left corner.",
+  "description": "Number of 11 X n binary arrays with path of adjacent 1's from upper right corner to lower left corner.",
   "id": "A069333",
   "mentions": [
     "A048739",
@@ -28,7 +28,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

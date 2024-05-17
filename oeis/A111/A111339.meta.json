@@ -1,11 +1,12 @@
 {
-  "description": "Complement of A111338 (A006509 sorted).",
+  "description": "Conjectured to be the numbers that do not appear in A006509.",
   "id": "A111339",
   "mentions": [
     "A006509",
     "A111338"
   ],
   "tags": [
+    "hard",
     "nonn"
   ],
   "terms": {

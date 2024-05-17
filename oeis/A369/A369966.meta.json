@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form 4m+2 that have an even number of prime factors with multiplicity.",
+  "id": "A369966",
+  "mentions": [
+    "A003415",
+    "A016825",
+    "A028260",
+    "A067019",
+    "A235991",
+    "A369661",
+    "A369668",
+    "A369965"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

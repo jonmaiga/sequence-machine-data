@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. D(x,k) satisfying D(x,k) = cos( k*x*cos(x*D(x,k)) ), as a triangle read by rows.",
+  "id": "A370332",
+  "mentions": [
+    "A143601",
+    "A370330",
+    "A370331",
+    "A370333",
+    "A370432"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

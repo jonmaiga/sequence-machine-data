@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2^1398269 - 1, the 35th Mersenne prime.",
+  "id": "A371874",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A028335"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 420921,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

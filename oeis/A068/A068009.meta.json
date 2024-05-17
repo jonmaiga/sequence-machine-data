@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(m,n) with m (row) >= 1 and n (column) >= 0 read by antidiagonals: number of subsets of {1,2,3,...n} that sum to 0 mod m (including the empty set whose sum is 0).",
+  "description": "Square array T(m,n) with m (row) >= 1 and n (column) >= 0 read by antidiagonals: number of subsets of {1,2,3,...n} that sum to 0 mod m (including the empty set, whose sum is 0).",
   "id": "A068009",
   "mentions": [
     "A000009",

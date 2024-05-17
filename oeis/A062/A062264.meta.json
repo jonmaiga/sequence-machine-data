@@ -2,10 +2,12 @@
   "description": "Coefficient triangle of certain polynomials N(4; m,x).",
   "id": "A062264",
   "mentions": [
+    "A008459",
     "A062140",
     "A062145",
     "A062190",
-    "A062196"
+    "A062196",
+    "A132813"
   ],
   "tags": [
     "formulas",

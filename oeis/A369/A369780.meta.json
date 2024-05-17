@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of subsets of {1,2,...,n} that contain more primes than nonprimes.",
+  "id": "A369780",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A018252",
+    "A037031",
+    "A369781",
+    "A369853",
+    "A369854"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

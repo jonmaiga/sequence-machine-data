@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(m, n) is the number of m X n binary arrays with a path of adjacent 1's from top row to bottom row using only left, right, and downward steps.",
+  "id": "A369892",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A001333",
+    "A005061",
+    "A069361",
+    "A069378",
+    "A069379",
+    "A359576"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

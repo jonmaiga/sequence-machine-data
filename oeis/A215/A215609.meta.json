@@ -2,16 +2,16 @@
   "description": "Smallest prime p congruent to 1 modulo prime(10^n).",
   "id": "A215609",
   "mentions": [
+    "A006988",
     "A035095"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

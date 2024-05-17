@@ -1,0 +1,17 @@
+{
+  "description": "Number of different closest packings of equal spheres for rhombohedral crystals having repeat period n.",
+  "id": "A371992",
+  "mentions": [
+    "A000046",
+    "A371991"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

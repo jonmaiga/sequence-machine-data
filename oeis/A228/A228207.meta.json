@@ -2,7 +2,8 @@
   "description": "x-values in the solution to x^2 - 20y^2 = 176.",
   "id": "A228207",
   "mentions": [
-    "A228208"
+    "A228208",
+    "A228210"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p, q and p + q but not q - p have distinct digits, where q is the next prime after p.",
+  "id": "A371354",
+  "mentions": [
+    "A010784",
+    "A356196"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

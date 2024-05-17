@@ -2,6 +2,7 @@
   "description": "Self-convolution 4th power of A001764, which enumerates ternary trees.",
   "id": "A006629",
   "mentions": [
+    "A000139",
     "A001764",
     "A092276"
   ],

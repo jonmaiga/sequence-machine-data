@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with no digit larger than 3 in primorial base, A049345.",
+  "id": "A370133",
+  "mentions": [
+    "A046100",
+    "A049345",
+    "A276086",
+    "A276156",
+    "A328114",
+    "A351576",
+    "A369639",
+    "A370132"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

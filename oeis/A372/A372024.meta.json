@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of ( (1 + 8*x)/(1 - x) )^(1/3).",
+  "id": "A372024",
+  "mentions": [
+    "A372023"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

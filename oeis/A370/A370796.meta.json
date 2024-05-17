@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes between (prime(n)+1)^2 and (prime(n+1)-1)^2.",
+  "id": "A370796",
+  "mentions": [
+    "A000040",
+    "A038107",
+    "A050216"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

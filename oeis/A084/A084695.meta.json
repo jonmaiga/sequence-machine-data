@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows in which row n contains the n smallest (greater than zero) numbers such that when they are incremented by n yield a prime.",
+  "description": "Triangle read by rows in which row n lists the n smallest positive numbers k such that k + n is a prime.",
   "id": "A084695",
   "mentions": [
     "A000040",

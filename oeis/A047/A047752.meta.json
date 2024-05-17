@@ -1,11 +1,12 @@
 {
-  "description": "Number of dissectable polyhedra with symmetry of type J.",
+  "description": "Number of chiral pairs of dissectable polyhedra with n tetrahedral cells and symmetry of type J.",
   "id": "A047752",
   "mentions": [
     "A001764",
+    "A007173",
     "A027610",
     "A047751",
-    "A047755"
+    "A371350"
   ],
   "tags": [
     "formulas",

@@ -2,7 +2,8 @@
   "description": "Sum of multinomials M(n; lambda), where lambda ranges over all partitions of n into parts that form a set of size two.",
   "id": "A327826",
   "mentions": [
-    "A327803"
+    "A327803",
+    "A331373"
   ],
   "tags": [
     "formulas",

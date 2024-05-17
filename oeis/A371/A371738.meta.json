@@ -1,0 +1,42 @@
+{
+  "description": "Numbers with non-quanimous binary indices. Numbers whose binary indices have only one set partition with all equal block-sums.",
+  "id": "A371738",
+  "mentions": [
+    "A000110",
+    "A000120",
+    "A001055",
+    "A002219",
+    "A006827",
+    "A029931",
+    "A035470",
+    "A038041",
+    "A048793",
+    "A070939",
+    "A272020",
+    "A305551",
+    "A321451",
+    "A321452",
+    "A321453",
+    "A321454",
+    "A321455",
+    "A326534",
+    "A336137",
+    "A357976",
+    "A371733",
+    "A371735",
+    "A371784",
+    "A371789",
+    "A371790",
+    "A371796",
+    "A371797"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

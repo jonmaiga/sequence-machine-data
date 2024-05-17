@@ -1,8 +1,11 @@
 {
-  "description": "Number of dissections of a ball.",
+  "description": "Number of labeled n-vertex dissections of a ball.",
   "id": "A001762",
   "mentions": [
-    "A001763"
+    "A000407",
+    "A001763",
+    "A001764",
+    "A027610"
   ],
   "tags": [
     "formulas",

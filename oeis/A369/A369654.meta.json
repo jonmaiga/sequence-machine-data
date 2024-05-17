@@ -1,0 +1,16 @@
+{
+  "description": "Positions of multiples of 3 in A327860.",
+  "id": "A369654",
+  "mentions": [
+    "A327860",
+    "A369653"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

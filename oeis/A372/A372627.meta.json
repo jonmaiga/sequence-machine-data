@@ -1,0 +1,16 @@
+{
+  "description": "Array read by antidiagonals. Row m consists of numbers k such that the sum of 2*m-1 primes starting at prime(k) is prime.",
+  "id": "A372627",
+  "mentions": [
+    "A215235"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

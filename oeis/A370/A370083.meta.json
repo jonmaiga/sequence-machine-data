@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles in the n-triangular queen graph.",
+  "id": "A370083",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

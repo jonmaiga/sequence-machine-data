@@ -1,10 +1,11 @@
 {
-  "description": "The number of down-up permutations of [n] where adjacent elements differ at least by 3.",
+  "description": "The number of down-up permutations of [n] where adjacent elements differ by at least 3.",
   "id": "A249390",
   "mentions": [
     "A127697",
     "A245377",
     "A249391",
+    "A249392",
     "A249393"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

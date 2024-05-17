@@ -2,15 +2,16 @@
   "description": "Column 3 of the array in A107735.",
   "id": "A107734",
   "mentions": [
+    "A107732",
+    "A107733",
     "A107735"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 7,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

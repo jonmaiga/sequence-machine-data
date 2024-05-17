@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that cos(k) > cos(k+1) < cos(k+2) > cos(k+3).",
+  "description": "Numbers k such that cos(k) > cos(k+1) > cos(k+2) < cos(k+3).",
   "id": "A246305",
   "mentions": [
     "A026303",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

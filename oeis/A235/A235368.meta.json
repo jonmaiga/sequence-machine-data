@@ -6,14 +6,12 @@
     "A171607"
   ],
   "tags": [
-    "bref",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 4,
+    "source": "oeis-bfile"
   }
 }

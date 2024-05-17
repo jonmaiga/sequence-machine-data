@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (19*10^n + 161)/9 is prime.",
+  "description": "Numbers k such that (19*10^k + 161)/9 is prime.",
   "id": "A275323",
   "mentions": [
     "A056654",

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is smallest unused number such that a(n) is coprime to a(n-1) and sopfr(a(n)) is coprime to sopfr(a(n-1)), where sopfr(k) is the sum of the primes dividing k, with repetition.",
+  "id": "A370496",
+  "mentions": [
+    "A001414",
+    "A027748",
+    "A064413",
+    "A277272",
+    "A370047",
+    "A370497"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

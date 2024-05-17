@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of binary relations on [n] that have exactly k accessible points, n>=0, 0<=k<=n.",
+  "id": "A370203",
+  "mentions": [
+    "A002416",
+    "A003024",
+    "A003030",
+    "A366866"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

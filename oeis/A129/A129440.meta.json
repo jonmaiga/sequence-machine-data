@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=0, a(1)=1, a(2)=5 and for n>2: a(n)=a(n-1)*(a(n-1)+1)*(2*a(n-1)+1)/6.",
+  "description": "a(0)=0, a(1)=1, a(2)=5 and for n>2: a(n) = a(n-1)*(a(n-1) + 1)*(2*a(n-1) + 1)/6.",
   "id": "A129440",
   "mentions": [
     "A000330",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

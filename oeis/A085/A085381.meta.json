@@ -1,5 +1,5 @@
 {
-  "description": "(Greatest prime as sum of distinct divisors of n) < (greatest prime not greater sum of divisors of n).",
+  "description": "Numbers k such that (greatest prime as sum of distinct divisors of k) < (greatest prime not greater sum of divisors of k).",
   "id": "A085381",
   "mentions": [
     "A070801",
@@ -7,11 +7,12 @@
     "A085380"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

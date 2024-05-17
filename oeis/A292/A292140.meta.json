@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Im((2*i; x)_inf), where (a; q)_inf is the q-Pochhammer symbol, i = sqrt(-1).",
+  "description": "G.f.: Im((2*i; x)_oo), where (a; q)_oo is the q-Pochhammer symbol, i = sqrt(-1).",
   "id": "A292140",
   "mentions": [
     "A278400",

@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{j=1..n, k=1..n} (1 + x^(k^j)) / (1 - x^(k^j)).",
+  "id": "A361805",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001156",
+    "A003108",
+    "A015128",
+    "A033461",
+    "A103265",
+    "A279329",
+    "A280263",
+    "A369577",
+    "A369578"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

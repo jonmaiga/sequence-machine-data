@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of sqrt(c'*(exp(1/c') - 1)) where c'=7/4.",
+  "id": "A371348",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

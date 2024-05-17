@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of A371409: sums of the positions of right parentheses in the properly nested string of parentheses encoded by A063171(n).",
+  "id": "A371410",
+  "mentions": [
+    "A063171",
+    "A370220",
+    "A370290",
+    "A371409"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

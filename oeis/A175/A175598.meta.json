@@ -2,6 +2,7 @@
   "description": "Numbers k such that k^4 = x^4 - y^4 - z^4.",
   "id": "A175598",
   "mentions": [
+    "A003828",
     "A175610"
   ],
   "tags": [

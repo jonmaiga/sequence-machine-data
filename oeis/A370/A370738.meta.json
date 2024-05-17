@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 8^n * [x^n] Product_{k>=1} (1 + 3*x^k)^(1/4).",
+  "id": "A370738",
+  "mentions": [
+    "A032308",
+    "A370711",
+    "A370712",
+    "A370739"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

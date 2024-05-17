@@ -1,17 +1,19 @@
 {
-  "description": "Self-inverse permutation of natural numbers induced by Catalan Automorphism *A072797 acting on the parenthesizations encoded by A014486.",
+  "description": "Self-inverse permutation of natural numbers induced by a Catalan bijection acting on binary trees as encoded by A014486. See comments and examples for details.",
   "id": "A072797",
   "mentions": [
     "A014137",
-    "A014138",
     "A014486",
     "A057163",
     "A072796",
     "A073190",
     "A073191",
-    "A089840"
+    "A089840",
+    "A127301",
+    "A129593"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

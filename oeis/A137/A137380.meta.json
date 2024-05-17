@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes between (Prime[n + 1])^Pi and (Prime[n])^Pi.",
+  "description": "Number of primes between (prime(n + 1))^Pi and (prime(n))^Pi.",
   "id": "A137380",
   "mentions": [],
   "tags": [

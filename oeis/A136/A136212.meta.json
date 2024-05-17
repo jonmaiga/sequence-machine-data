@@ -1,5 +1,5 @@
 {
-  "description": "Triple factorial array, read by antidiagonals, where row n+1 is generated from row n by first removing terms in row n at positions {[m*(m+5)/6], m>=0} and then taking partial sums, starting with all 1's in row 0.",
+  "description": "Triple factorial array, read by antidiagonals, where row n+1 is generated from row n by first removing terms in row n at positions {[m*(m+5)/6], m >= 0} and then taking partial sums, starting with all 1's in row 0.",
   "id": "A136212",
   "mentions": [
     "A007559",

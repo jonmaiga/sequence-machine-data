@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k = (product of nonzero digits) * (sum of digits) for the digits of k in base 9.",
+  "id": "A366832",
+  "mentions": [
+    "A023651",
+    "A038364",
+    "A038369",
+    "A062237",
+    "A062331",
+    "A066282"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

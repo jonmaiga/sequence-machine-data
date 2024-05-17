@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x * sqrt(1+2*x) * A(x) ).",
+  "id": "A372162",
+  "mentions": [
+    "A362771",
+    "A372163"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

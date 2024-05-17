@@ -1,0 +1,20 @@
+{
+  "description": "T is a \"boomerang sequence\": adding 9 to the 1st digit of T, 10 to the 2nd digit of T, 11 to the 3rd digit of T, 12 to the 4th digit of T, 13 to the 5th digit of T, 14 to the 6th digit of T, etc., and following each result with a comma leaves T unchanged.",
+  "id": "A369604",
+  "mentions": [
+    "A103700",
+    "A369603",
+    "A369798",
+    "A369823",
+    "A369824"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

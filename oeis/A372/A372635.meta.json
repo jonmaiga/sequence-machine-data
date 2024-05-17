@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{j=1..n} Sum_{k=1..n} phi(j)*phi(k).",
+  "id": "A372635",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A372633"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

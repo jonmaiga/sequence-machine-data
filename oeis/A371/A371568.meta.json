@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) is the number of paths of length k in Z^n from the origin to points such that x1+x2+...+xn = k with x1,...,xn > 0.",
+  "id": "A371568",
+  "mentions": [
+    "A000918",
+    "A000919",
+    "A000920",
+    "A001117",
+    "A001118",
+    "A007318",
+    "A019538",
+    "A131689",
+    "A133068",
+    "A133132",
+    "A133360",
+    "A135456",
+    "A371064"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Record high values in A245340.",
+  "id": "A370956",
+  "mentions": [
+    "A125717",
+    "A245340",
+    "A245394",
+    "A245395",
+    "A370951",
+    "A370959"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -2,10 +2,13 @@
   "description": "Least positive number m such that m^k for k = 1..n have no digit 1.",
   "id": "A275533",
   "mentions": [
-    "A052383"
+    "A052383",
+    "A371706"
   ],
   "tags": [
     "base",
+    "fini",
+    "formulas",
     "more",
     "nonn"
   ],

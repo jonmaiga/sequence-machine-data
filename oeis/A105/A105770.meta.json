@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (x^2-x+1)(4x^2+x+1) / ((1+x+x^2)(1-x)^3).",
+  "description": "Expansion of (x^2-x+1)*(4*x^2+x+1) / ((1+x+x^2)*(1-x)^3).",
   "id": "A105770",
   "mentions": [
     "A002522",

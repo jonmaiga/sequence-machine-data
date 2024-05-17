@@ -1,5 +1,5 @@
 {
-  "description": "Triangle formed by Pascal's rule with left borders = A000108.",
+  "description": "Triangle formed by Pascal's rule with borders = A000108.",
   "id": "A134634",
   "mentions": [
     "A000108",

@@ -1,18 +1,21 @@
 {
-  "description": "Number of dissectable polyhedra with symmetry of type I.",
+  "description": "Number of dissectable polyhedra with n tetrahedral cells and symmetry of type I.",
   "id": "A047753",
   "mentions": [
+    "A001764",
+    "A007173",
     "A027610",
     "A047749",
     "A047751",
-    "A047767"
+    "A047767",
+    "A371351"
   ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 76,
     "source": "joeis"
   }

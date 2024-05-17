@@ -1,10 +1,15 @@
 {
   "description": "Continued fraction for sqrt(170).",
   "id": "A040156",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A041312",
+    "A041313"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

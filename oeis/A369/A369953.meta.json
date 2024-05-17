@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least integer k such that the sum of the digits of k^2 is 9*n.",
+  "id": "A369953",
+  "mentions": [
+    "A004159",
+    "A008591",
+    "A067179",
+    "A369955"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (3*x/2 - 1 - (7*x-2)/(2*sqrt(1 - 4*x)))/x.",
+  "description": "Expansion of (3*x/2 - 1 - (7*x - 2)/(2*sqrt(1 - 4*x)))/x.",
   "id": "A246434",
   "mentions": [
     "A000108"

@@ -1,9 +1,11 @@
 {
-  "description": "Numbers of form 2x^2 + 3y^2.",
+  "description": "Numbers of the form 2x^2 + 3y^2.",
   "id": "A002480",
   "mentions": [
     "A000075",
-    "A084865"
+    "A002481",
+    "A084865",
+    "A108563"
   ],
   "tags": [
     "nonn"

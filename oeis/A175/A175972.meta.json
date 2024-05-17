@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p^k with k=1..6 have exactly two 1's.",
+  "description": "Primes p such that each of the decimal numbers p^k for k=1..6 has exactly two 1s.",
   "id": "A175972",
   "mentions": [
     "A175964"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

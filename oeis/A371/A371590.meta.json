@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..max(2, 2^n), read by rows; the n-th row lists the nonnegative numbers whose Zeckendorf-binary representation has n nonleading zeros.",
+  "id": "A371590",
+  "mentions": [
+    "A000045",
+    "A027941",
+    "A102364",
+    "A371591",
+    "A371592"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

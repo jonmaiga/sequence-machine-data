@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/A007018(k).",
+  "id": "A371321",
+  "mentions": [
+    "A000058",
+    "A007018",
+    "A118227",
+    "A242724"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

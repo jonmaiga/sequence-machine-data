@@ -2,7 +2,9 @@
   "description": "Least k such that n divides C(2k,k).",
   "id": "A073078",
   "mentions": [
-    "A079290"
+    "A000984",
+    "A079290",
+    "A111869"
   ],
   "tags": [
     "easy",

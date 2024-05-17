@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of the partition function per spin, x(k) (divided by 2), in the low temperature region, expressed as a power series in the parameter k^2, for the spin-1/2 Ising model on square lattice.",
+  "id": "A370955",
+  "mentions": [
+    "A002890",
+    "A006752",
+    "A370953",
+    "A370954"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

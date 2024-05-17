@@ -2,6 +2,7 @@
   "description": "Crystal ball sequence for the lattice C_5.",
   "id": "A142994",
   "mentions": [
+    "A008310",
     "A019561",
     "A063496",
     "A142992",

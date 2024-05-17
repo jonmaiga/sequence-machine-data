@@ -1,5 +1,5 @@
 {
-  "description": "The smallest unused numbers when A109812(n) is being calculated.",
+  "description": "Define a sequence B = {b(i): i >= 1} by b(i) = smallest unused number when A109812(i) is being calculated, and then remove duplicates from B.",
   "id": "A352336",
   "mentions": [
     "A109812",

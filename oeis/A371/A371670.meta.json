@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime number p such that x^n + y^n + z^n mod p does not take all values on Z/pZ.",
+  "id": "A371670",
+  "mentions": [
+    "A355920",
+    "A368055"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

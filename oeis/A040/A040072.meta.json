@@ -2,11 +2,17 @@
   "description": "Continued fraction for sqrt(82).",
   "id": "A040072",
   "mentions": [
-    "A010533"
+    "A010533",
+    "A040000",
+    "A040006",
+    "A041144",
+    "A041145",
+    "A248305"
   ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

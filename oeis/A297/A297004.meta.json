@@ -1,5 +1,5 @@
 {
-  "description": "Number of edge covers in the n-Andrasfai graph.",
+  "description": "Number of edge covers in the n-Andrásfai graph.",
   "id": "A297004",
   "mentions": [
     "A290702"

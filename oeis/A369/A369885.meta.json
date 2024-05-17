@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} log(k+1)/k^2.",
+  "id": "A369885",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002805",
+    "A006232",
+    "A006233",
+    "A073002",
+    "A210593"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of vertices for a given diameter n of a Cayley digraph on the cyclic group with generators s=1 and t>s.",
+  "id": "A371154",
+  "mentions": [
+    "A008810"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

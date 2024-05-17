@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(A(A(A(A(x))))) = x + 5*x^2 + 25*x^3.",
+  "id": "A372521",
+  "mentions": [
+    "A220110",
+    "A220288",
+    "A371841",
+    "A372537"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

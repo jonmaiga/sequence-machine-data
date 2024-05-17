@@ -1,0 +1,24 @@
+{
+  "description": "Partial alternating sums of the unitary totient function (A047994).",
+  "id": "A370899",
+  "mentions": [
+    "A047994",
+    "A065463",
+    "A068762",
+    "A068773",
+    "A177754",
+    "A307704",
+    "A357817",
+    "A362028"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary relations R on [n] such that q(R) is a quasi-order and s(R) is a strict partial order (where q(R) and s(R) are defined below).",
+  "id": "A369799",
+  "mentions": [
+    "A000798",
+    "A001035",
+    "A369776",
+    "A369778"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

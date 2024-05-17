@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A052410(k) = A010888(k).",
+  "id": "A370688",
+  "mentions": [
+    "A010888",
+    "A052409",
+    "A052410"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

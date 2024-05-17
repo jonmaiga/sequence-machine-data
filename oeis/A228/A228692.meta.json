@@ -1,9 +1,10 @@
 {
-  "description": "A001676(4n+2).",
+  "description": "a(n) = A001676(4n+2).",
   "id": "A228692",
   "mentions": [
     "A001676",
     "A228689",
+    "A228690",
     "A228691"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

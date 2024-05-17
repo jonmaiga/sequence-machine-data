@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the distance from exp(k) to the closest average of two consecutive primes is less than 1.",
+  "id": "A370305",
+  "mentions": [
+    "A037028",
+    "A040016",
+    "A050808",
+    "A059303",
+    "A074496"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

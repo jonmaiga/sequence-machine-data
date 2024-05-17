@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{x=-oo..oo} exp(-x^4) dx.",
+  "id": "A371855",
+  "mentions": [
+    "A002161",
+    "A068466",
+    "A068467"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

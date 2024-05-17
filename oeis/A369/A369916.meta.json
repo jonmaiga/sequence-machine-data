@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into two arithmetic numbers.",
+  "id": "A369916",
+  "mentions": [
+    "A003601",
+    "A245656",
+    "A369917"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

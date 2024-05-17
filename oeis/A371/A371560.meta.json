@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n!*(n+1)!^3.",
+  "id": "A371560",
+  "mentions": [
+    "A000142",
+    "A224900"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

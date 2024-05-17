@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. atan(1 - sqrt(1 - x^2)) (even powers only).",
+  "description": "Expansion of e.g.f. arctan(1 - sqrt(1 - x^2)) (even powers only).",
   "id": "A333691",
   "mentions": [],
   "tags": [

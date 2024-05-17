@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the diagonal domination number for the Queen's graph on an n X n chessboard.",
+  "description": "a(n) is the diagonal domination number for the queen graph on an n X n chessboard.",
   "id": "A358062",
   "mentions": [
     "A003002"

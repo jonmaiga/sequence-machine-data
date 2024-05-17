@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p - 2 and p + 2 have the same number of prime factors, counted with multiplicity.",
+  "id": "A371622",
+  "mentions": [
+    "A001222",
+    "A063643",
+    "A063645",
+    "A115103",
+    "A371651",
+    "A371656"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

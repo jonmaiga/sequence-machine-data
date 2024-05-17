@@ -1,0 +1,49 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of labeled simple graphs on n vertices with exactly 2k directed cycles of length > 2.",
+  "id": "A372176",
+  "mentions": [
+    "A000088",
+    "A000272",
+    "A001858",
+    "A002494",
+    "A002807",
+    "A005195",
+    "A006125",
+    "A006129",
+    "A008406",
+    "A053530",
+    "A054548",
+    "A084546",
+    "A105784",
+    "A137916",
+    "A144958",
+    "A213434",
+    "A263340",
+    "A322661",
+    "A322700",
+    "A367863",
+    "A370167",
+    "A372167",
+    "A372168",
+    "A372169",
+    "A372170",
+    "A372171",
+    "A372172",
+    "A372173",
+    "A372175",
+    "A372191",
+    "A372192",
+    "A372193",
+    "A372195"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

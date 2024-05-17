@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} 1 / (1 - mu(k)^2*x^k/k!).",
+  "id": "A371549",
+  "mentions": [
+    "A005117",
+    "A005651",
+    "A008683",
+    "A073576",
+    "A294531",
+    "A351991",
+    "A371550"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

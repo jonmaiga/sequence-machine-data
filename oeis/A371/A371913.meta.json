@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 - x/A(x)^4 * (1 - A(x) - A(x)^5).",
+  "id": "A371913",
+  "mentions": [
+    "A349332",
+    "A367725",
+    "A371889",
+    "A371890",
+    "A371914",
+    "A371915"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

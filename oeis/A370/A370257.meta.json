@@ -1,0 +1,16 @@
+{
+  "description": "Number of linear extensions of a 2 X n X n lattice.",
+  "id": "A370257",
+  "mentions": [
+    "A114715"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

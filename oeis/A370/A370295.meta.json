@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: exp(Sum_{k>=1} (5*k)!/(5!*k!^5) * x^k/k).",
+  "id": "A370295",
+  "mentions": [
+    "A008978",
+    "A229452",
+    "A322252",
+    "A333043",
+    "A370294"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

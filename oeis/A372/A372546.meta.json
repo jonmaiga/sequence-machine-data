@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime factors of n^n+n.",
+  "id": "A372546",
+  "mentions": [
+    "A001221",
+    "A066068",
+    "A344869",
+    "A344870",
+    "A372228",
+    "A372599"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

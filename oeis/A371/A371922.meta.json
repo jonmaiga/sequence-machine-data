@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A371921: numbers k such that A371921(k) > A371921(m) for all m < k.",
+  "id": "A371922",
+  "mentions": [
+    "A033880",
+    "A098007",
+    "A371921"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

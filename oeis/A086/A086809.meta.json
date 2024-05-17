@@ -1,16 +1,17 @@
 {
-  "description": "Indices n where A057176(n)=2.",
+  "description": "Indices k where A057176(k) = 2.",
   "id": "A086809",
   "mentions": [
     "A057176",
     "A087045"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

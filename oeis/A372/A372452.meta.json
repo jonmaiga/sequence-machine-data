@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms of A086893 in the interval [A372444(n), A372444(1+n)].",
+  "id": "A372452",
+  "mentions": [
+    "A086893",
+    "A372285",
+    "A372286",
+    "A372444",
+    "A372449",
+    "A372451",
+    "A372453"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

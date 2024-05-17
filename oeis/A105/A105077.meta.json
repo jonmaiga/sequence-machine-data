@@ -1,5 +1,5 @@
 {
-  "description": "G.f. -(x^3+5x+5)/((x^2-x+1)*(x+1)^2).",
+  "description": "Expansion of g.f. -(x^3+5x+5)/((x^2-x+1)*(x+1)^2).",
   "id": "A105077",
   "mentions": [],
   "tags": [

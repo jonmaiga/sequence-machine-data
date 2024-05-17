@@ -2,14 +2,11 @@
   "description": "Emirps which remain primes when rotated by 180 degrees on a digital clock display.",
   "id": "A159064",
   "mentions": [
-    "A006567",
-    "A048890",
     "A048895",
     "A145750"
   ],
   "tags": [
     "base",
-    "formulas",
     "nonn"
   ],
   "terms": {

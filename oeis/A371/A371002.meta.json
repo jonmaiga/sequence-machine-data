@@ -1,0 +1,17 @@
+{
+  "description": "a(n) are the records of the number of square addends producing a sequence of consecutive composites starting at A371001(n).",
+  "id": "A371002",
+  "mentions": [
+    "A000290",
+    "A002808",
+    "A371001"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

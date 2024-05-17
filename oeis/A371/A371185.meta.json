@@ -1,0 +1,22 @@
+{
+  "description": "Indices of the cubefull numbers in the sequence of powerful numbers.",
+  "id": "A371185",
+  "mentions": [
+    "A001694",
+    "A036966",
+    "A090699",
+    "A361936",
+    "A362974",
+    "A371186"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

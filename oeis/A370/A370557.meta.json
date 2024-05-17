@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A362555(k) = (5^k + 5*k)/5 is prime.",
+  "id": "A370557",
+  "mentions": [
+    "A104745",
+    "A362555",
+    "A370190"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

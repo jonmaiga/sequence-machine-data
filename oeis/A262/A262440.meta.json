@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = Sum_{k=0..n}(binomial(n,k)*binomial(n+k-1,n-k)).",
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n+k-1,n-k).",
   "id": "A262440",
   "mentions": [
     "A109081",
+    "A246437",
     "A262441",
     "A262442"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of integer triples (x,y,z) satisfying: n + x + y + z >= 0, 49*n + 13*x - 11*y - 23*z >= 0, 49*n - 11*x - 23*y + 13*z >= 0, 49*n - 23*x + 13*y - 11*z >= 0, n + x + y + z == 0 (mod 12), 49*n + 13*x - 11*y - 23*z == 0 (mod 7).",
+  "id": "A370349",
+  "mentions": [
+    "A002620",
+    "A102283",
+    "A141530"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

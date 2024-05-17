@@ -1,15 +1,17 @@
 {
-  "description": "1/4 the number of (n+1)X(n+1) binary arrays with all 2X2 subblock sums the same",
+  "description": "1/4 the number of (n+1) X (n+1) binary arrays with all 2 X 2 subblock sums the same.",
   "id": "A183977",
   "mentions": [
     "A183986"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

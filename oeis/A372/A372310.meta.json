@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations of length n avoiding the pattern 1324 and with 1 appearing before n.",
+  "id": "A372310",
+  "mentions": [
+    "A000139"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

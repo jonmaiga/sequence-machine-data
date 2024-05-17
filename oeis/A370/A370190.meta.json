@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that (6^k + 6*k)/6 is prime.",
+  "id": "A370190",
+  "mentions": [
+    "A058828",
+    "A221908",
+    "A226200"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

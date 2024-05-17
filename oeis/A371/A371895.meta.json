@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k>0 such that n*k contains the n-th prime as a substring.",
+  "id": "A371895",
+  "mentions": [
+    "A000040",
+    "A086064"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

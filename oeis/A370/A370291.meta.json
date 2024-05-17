@@ -1,0 +1,22 @@
+{
+  "description": "Triangular number T(n) = A000217(n) occurs C(n) = A000108(n) times.",
+  "id": "A370291",
+  "mentions": [
+    "A000108",
+    "A000217",
+    "A002457",
+    "A072643",
+    "A370221"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

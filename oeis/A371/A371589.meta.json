@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number m > 1 such that some permutation of the digits of m^n is a Fibonacci number.",
+  "id": "A371589",
+  "mentions": [
+    "A000045",
+    "A001597",
+    "A118715",
+    "A227875",
+    "A370071",
+    "A371588"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

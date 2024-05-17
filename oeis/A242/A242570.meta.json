@@ -1,8 +1,16 @@
 {
-  "description": "Multiples of 252.",
+  "description": "a(n) = 252 * n.",
   "id": "A242570",
   "mentions": [
-    "A008603"
+    "A001477",
+    "A008589",
+    "A008591",
+    "A008594",
+    "A008596",
+    "A008600",
+    "A008603",
+    "A044102",
+    "A135628"
   ],
   "tags": [
     "easy",
@@ -11,7 +19,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 46,
     "source": "joeis"
   }

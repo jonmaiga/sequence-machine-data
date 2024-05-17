@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array, read by downward antidiagonals: row n shows the numbers m>1 in whose prime factorization p(1)^e(1)*p(2)^e(2)* ...*p(k)^e(k), all e(i) are <= 1 and the number of 0' s in {e(i)} is n-1.",
+  "id": "A371799",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005117",
+    "A340316",
+    "A371801",
+    "A371802",
+    "A371803",
+    "A371804"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

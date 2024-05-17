@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{k>=1} k * prime(k) * x^prime(k) / (1 - x^prime(k)).",
+  "id": "A372620",
+  "mentions": [
+    "A000720",
+    "A001414",
+    "A005063",
+    "A008472",
+    "A056239",
+    "A061150",
+    "A066328",
+    "A328639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

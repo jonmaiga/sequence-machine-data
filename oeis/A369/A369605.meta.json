@@ -2,9 +2,18 @@
   "description": "Irregular triangle read by rows: T(n,k) is the number of inequivalent connected induced k-vertex subgraphs of the hypercube graph of dimension n >= 0, 1 <= k <= 2^n.",
   "id": "A369605",
   "mentions": [
+    "A000616",
+    "A001146",
     "A039754",
     "A049540",
-    "A369606"
+    "A290758",
+    "A345135",
+    "A369606",
+    "A369995",
+    "A369996",
+    "A369997",
+    "A369998",
+    "A369999"
   ],
   "tags": [
     "formulas",

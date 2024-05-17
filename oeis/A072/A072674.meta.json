@@ -1,5 +1,5 @@
 {
-  "description": "3^n+2*2^n-3.",
+  "description": "a(n) = 3^n+2*2^n-3.",
   "id": "A072674",
   "mentions": [],
   "tags": [

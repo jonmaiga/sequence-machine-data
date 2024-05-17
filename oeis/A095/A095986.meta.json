@@ -2,15 +2,19 @@
   "description": "A card-arranging problem: number of permutations p_1, ..., p_n of 1, ..., n such that i + p_i is a square for every i.",
   "id": "A095986",
   "mentions": [
-    "A006063"
+    "A006063",
+    "A010052",
+    "A073364"
   ],
   "tags": [
     "formulas",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 45,
+    "offset": 0,
+    "size": 46,
     "source": "oeis-entry"
   }
 }

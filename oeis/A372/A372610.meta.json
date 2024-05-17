@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} floor((Pi/2)*k)/2^k.",
+  "id": "A372610",
+  "mentions": [
+    "A000796",
+    "A019669",
+    "A140758"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

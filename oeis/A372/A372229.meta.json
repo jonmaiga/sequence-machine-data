@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest prime factor of n^n - n.",
+  "id": "A372229",
+  "mentions": [
+    "A006486",
+    "A006530",
+    "A007571",
+    "A061190",
+    "A372228"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

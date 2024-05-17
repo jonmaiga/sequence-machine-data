@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = k, if A086893(k) is the first term of A086893 reached on the trajectory of reduced Collatz-function R, when starting from 2n-1, or -1 if no term of A086893 is ever encountered.",
+  "id": "A372450",
+  "mentions": [
+    "A000265",
+    "A000523",
+    "A016789",
+    "A075677",
+    "A086893",
+    "A372358",
+    "A372443"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n of form (sum of digits of n)^k, k > 1.",
+  "description": "Numbers m of the form (sum of digits of m)^k, k > 1.",
   "id": "A128912",
   "mentions": [
     "A001597",

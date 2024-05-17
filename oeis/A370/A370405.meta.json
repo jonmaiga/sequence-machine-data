@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that the first digit of a(n) is present in a(n+1), the first letter of the English name of a(n) is present in the English name of a(n+1) and the first letter of the French name of a(n) is present in the French name of a(n+1).",
+  "id": "A370405",
+  "mentions": [
+    "A370400",
+    "A370401",
+    "A370402",
+    "A370403",
+    "A370404"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

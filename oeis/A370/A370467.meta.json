@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{k>=2} (1 - 1/k^k).",
+  "id": "A370467",
+  "mentions": [
+    "A000312",
+    "A048651",
+    "A100220",
+    "A370468"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

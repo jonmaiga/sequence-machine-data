@@ -1,0 +1,18 @@
+{
+  "description": "Product of Fibonacci and self-convolution of Fibonacci numbers: a(n) = A000045(n+1)*A001629(n+1).",
+  "id": "A372015",
+  "mentions": [
+    "A000045",
+    "A001629"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

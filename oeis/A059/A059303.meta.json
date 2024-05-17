@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that floor(e^n) + 1 is prime.",
+  "description": "Numbers k such that floor(e^k) + 1 is prime.",
   "id": "A059303",
-  "mentions": [],
+  "mentions": [
+    "A001671",
+    "A050808"
+  ],
   "tags": [
     "more",
     "nonn"

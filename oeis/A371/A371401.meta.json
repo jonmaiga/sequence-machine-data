@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = [x^k] (n*x + 1)*Hypergeometric([-n, -n + 1], [1], x).",
+  "id": "A371401",
+  "mentions": [
+    "A097070",
+    "A371400"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

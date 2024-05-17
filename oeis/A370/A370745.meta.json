@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that have at least one divisor d such that p = k/d-1 is prime and (2*d)|(p-1).",
+  "id": "A370745",
+  "mentions": [
+    "A008864",
+    "A370746"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

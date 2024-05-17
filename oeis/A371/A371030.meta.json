@@ -1,0 +1,19 @@
+{
+  "description": "n written in compositorial base.",
+  "id": "A371030",
+  "mentions": [
+    "A002808",
+    "A036691",
+    "A049345"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

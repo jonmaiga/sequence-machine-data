@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=1; a(n) = sum of all previous terms, eliminating repeated digits (starting from the left).",
+  "id": "A370748",
+  "mentions": [
+    "A010784",
+    "A137564",
+    "A370254",
+    "A371863",
+    "A371864"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

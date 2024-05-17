@@ -1,0 +1,17 @@
+{
+  "description": "Ternary numbers consisting of a run of 2's, then a run of 1's, then a run of 0's.",
+  "id": "A371053",
+  "mentions": [
+    "A007089",
+    "A371052"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

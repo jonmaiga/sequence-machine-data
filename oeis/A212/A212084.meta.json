@@ -1,8 +1,8 @@
 {
-  "description": "Triangle T(n,k), n>=1, 0<=k<=2n, read by rows: row n gives the coefficients of the chromatic polynomial of the complete bipartite graph K_(n,n), highest powers first.",
+  "description": "Triangle T(n,k), n>=0, 0<=k<=2n, read by rows: row n gives the coefficients of the chromatic polynomial of the complete bipartite graph K_(n,n), highest powers first.",
   "id": "A212084",
   "mentions": [
-    "A000004",
+    "A000007",
     "A000012",
     "A000290",
     "A005408",
@@ -25,8 +25,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 46,
+    "offset": 0,
+    "size": 47,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by descending antidiagonals: Define function b(i,n,k) where b(0,n,k) = n, b(1,n,k) = k, b(i,n,k) = A038502(b(i-1,n,k) + b(i-2,n,k)). T(n,k) is the number of steps until reaching the cyclic part of {b(i,n,k)}, or -1 if no cycle exists.",
+  "id": "A370526",
+  "mentions": [
+    "A000057",
+    "A038502",
+    "A369876"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

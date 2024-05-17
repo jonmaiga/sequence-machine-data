@@ -1,0 +1,22 @@
+{
+  "description": "The number of pseudoprimes to base n that are smaller than n.",
+  "id": "A371729",
+  "mentions": [
+    "A001567",
+    "A005936",
+    "A020138",
+    "A090086",
+    "A316504",
+    "A371730"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

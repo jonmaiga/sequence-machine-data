@@ -1,5 +1,5 @@
 {
-  "description": "Number of L-convex polyominoes with n cells, that is, convex polyominoes where any two cells can be connected by a path internal to the polyomino and which has at most 1 change of direction (i.e., one of the four orientation of the letter L).",
+  "description": "Number of L-convex polyominoes with n cells, that is, convex polyominoes where any two cells can be connected by a path internal to the polyomino and which has at most 1 change of direction (i.e., one of the four orientations of the letter L).",
   "id": "A126764",
   "mentions": [
     "A000105",

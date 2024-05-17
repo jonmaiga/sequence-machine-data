@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of vertices of a chordal ring graph with diameter n.",
+  "id": "A371396",
+  "mentions": [
+    "A309805"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

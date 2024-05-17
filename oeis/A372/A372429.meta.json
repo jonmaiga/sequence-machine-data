@@ -1,0 +1,46 @@
+{
+  "description": "Sum of binary indices of prime(n). Sum of positions of ones in the reversed binary expansion of prime(n).",
+  "id": "A372429",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A001511",
+    "A005940",
+    "A014499",
+    "A019565",
+    "A023506",
+    "A029837",
+    "A029931",
+    "A030101",
+    "A035100",
+    "A048675",
+    "A048793",
+    "A056239",
+    "A059893",
+    "A070939",
+    "A071814",
+    "A096111",
+    "A230877",
+    "A231204",
+    "A272020",
+    "A326031",
+    "A358134",
+    "A359359",
+    "A359401",
+    "A372427",
+    "A372430",
+    "A372437",
+    "A372441",
+    "A372471"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

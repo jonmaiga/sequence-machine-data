@@ -1,0 +1,26 @@
+{
+  "description": "The product of the odd exponents of the prime factorization of n.",
+  "id": "A370079",
+  "mentions": [
+    "A005361",
+    "A013661",
+    "A268335",
+    "A335275",
+    "A350387",
+    "A350389",
+    "A363329",
+    "A368472",
+    "A370080"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

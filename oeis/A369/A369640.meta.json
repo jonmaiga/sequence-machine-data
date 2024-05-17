@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is composite and n' is a sum of distinct primorial numbers, otherwise 0, where n' stands for the arithmetic derivative of n, A003415.",
+  "id": "A369640",
+  "mentions": [
+    "A003415",
+    "A008966",
+    "A010051",
+    "A276086",
+    "A327859",
+    "A341517",
+    "A369641"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

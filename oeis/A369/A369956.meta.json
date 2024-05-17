@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least integer m such that the sum of the digits of m^2 is k+n where k is the number of digits of n.",
+  "id": "A369956",
+  "mentions": [
+    "A004159",
+    "A369953",
+    "A369955"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

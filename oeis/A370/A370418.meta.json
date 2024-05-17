@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. T(n, k) = (n - k)! * (n + k)!.",
+  "id": "A370418",
+  "mentions": [
+    "A001044",
+    "A009445",
+    "A010050",
+    "A024420",
+    "A119502",
+    "A143084",
+    "A175430"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Composite numbers k such that k' is a sum of distinct primorial numbers, where k' stands for the arithmetic derivative of k, A003415.",
+  "id": "A369641",
+  "mentions": [
+    "A003415",
+    "A158611",
+    "A276086",
+    "A276156",
+    "A327859",
+    "A327978",
+    "A328243",
+    "A341517",
+    "A341518",
+    "A369640",
+    "A369642"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

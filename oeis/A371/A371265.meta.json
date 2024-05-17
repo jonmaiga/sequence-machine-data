@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, read by rows; the n-th row lists the numbers m such that A371263(m) = n.",
+  "id": "A371265",
+  "mentions": [
+    "A225081",
+    "A371257",
+    "A371263",
+    "A371266"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

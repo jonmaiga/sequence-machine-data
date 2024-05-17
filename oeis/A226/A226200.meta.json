@@ -1,8 +1,9 @@
 {
-  "description": "6^n + n.",
+  "description": "a(n) = 6^n + n.",
   "id": "A226200",
   "mentions": [
     "A006127",
+    "A058828",
     "A081552",
     "A104743",
     "A104745",

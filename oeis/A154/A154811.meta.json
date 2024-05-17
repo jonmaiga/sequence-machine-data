@@ -1,14 +1,12 @@
 {
-  "description": "a(n) = Fibonacci(2n+1) mod 9.",
+  "description": "a(n) = Fibonacci(2*n+1) mod 9.",
   "id": "A154811",
   "mentions": [
     "A001519",
     "A010689",
     "A010875",
-    "A014217",
     "A099496",
-    "A122367",
-    "A153990"
+    "A122367"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,26 @@
+{
+  "description": "Number of vertices formed when n equally spaced points are placed around a circle and all pairs of points are joined by an interior arc whose radius equals the circle's radius.",
+  "id": "A371254",
+  "mentions": [
+    "A007569",
+    "A331702",
+    "A335102",
+    "A358746",
+    "A359252",
+    "A370980",
+    "A371253",
+    "A371255",
+    "A371264",
+    "A371274",
+    "A371373"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

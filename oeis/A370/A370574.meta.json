@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k > 0 such that n^2 XOR k^2 is a positive square number (where XOR denotes the bitwise XOR operator), or -1 if no such k exists.",
+  "id": "A370574",
+  "mentions": [
+    "A055527"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

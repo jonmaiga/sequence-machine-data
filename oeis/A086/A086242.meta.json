@@ -2,6 +2,8 @@
   "description": "Decimal expansion of the sum of 1/(p-1)^2 over all primes p.",
   "id": "A086242",
   "mentions": [
+    "A000010",
+    "A007434",
     "A119686",
     "A221712",
     "A334746"

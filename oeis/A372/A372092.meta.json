@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k where records occur for d(k)/d(k+1), where d(k) is the number of divisors of k (A000005).",
+  "id": "A372092",
+  "mentions": [
+    "A000005",
+    "A103199",
+    "A282531"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

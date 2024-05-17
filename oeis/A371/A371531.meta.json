@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the multiplicative order of A053669(n) modulo n.",
+  "id": "A371531",
+  "mentions": [
+    "A002326",
+    "A053669",
+    "A284723"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

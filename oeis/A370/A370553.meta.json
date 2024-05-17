@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the numerator of the imaginary part of Product_{k=1..n} (1 + i/k) where i is the imaginary unit.",
+  "id": "A370553",
+  "mentions": [
+    "A231531",
+    "A370551",
+    "A370552",
+    "A370554"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

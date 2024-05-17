@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 5^(2*n) * [x^n] Product_{k>=1} (1 + 2*x^k)^(1/5).",
+  "id": "A370737",
+  "mentions": [
+    "A032302",
+    "A370709",
+    "A370716",
+    "A370736"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n - {sum of prime power components of n}.",
+  "description": "a(n) = n - (sum of prime power components of n).",
   "id": "A086664",
   "mentions": [
     "A008475"

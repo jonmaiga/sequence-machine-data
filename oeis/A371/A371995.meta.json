@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n - k, k) * subfactorial(k), for n >= 0 and 0 <= k <= floor(n/2).",
+  "id": "A371995",
+  "mentions": [
+    "A000166",
+    "A011973",
+    "A098825",
+    "A371998",
+    "A372102"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

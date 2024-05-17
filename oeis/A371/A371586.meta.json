@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = ( 1 + x*A(x)^2 * (1 + x*A(x)^2)^2 )^2.",
+  "id": "A371586",
+  "mentions": [
+    "A367282"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

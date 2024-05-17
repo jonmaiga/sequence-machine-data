@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} (-1)^(d+1)*phi(d), where phi(n) = A000010(n).",
+  "id": "A368744",
+  "mentions": [
+    "A000010",
+    "A006519",
+    "A048272",
+    "A321543"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

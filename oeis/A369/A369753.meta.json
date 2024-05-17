@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(1 - (1+x)^5).",
+  "id": "A369753",
+  "mentions": [
+    "A000587",
+    "A202825",
+    "A369738"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

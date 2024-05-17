@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n^5 has n as a substring of its representation.",
+  "description": "Numbers k such that k^5 has k as a substring of its representation.",
   "id": "A075905",
   "mentions": [
+    "A018834",
     "A029942",
     "A075904"
   ],

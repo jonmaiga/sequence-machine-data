@@ -1,11 +1,10 @@
 {
-  "description": "Zero, together with positive numbers n such that the n-th prime + n is a square.",
+  "description": "Zero, together with positive numbers k such that prime(k) + k is a square.",
   "id": "A064371",
   "mentions": [
     "A014688"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {

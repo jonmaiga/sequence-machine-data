@@ -2,6 +2,7 @@
   "description": "Composites that are the sum of two consecutive composite numbers.",
   "id": "A151740",
   "mentions": [
+    "A002808",
     "A060254",
     "A060327",
     "A060339",
@@ -9,7 +10,11 @@
     "A096787",
     "A135170",
     "A151741",
-    "A151745"
+    "A151742",
+    "A151743",
+    "A151744",
+    "A151745",
+    "A167611"
   ],
   "tags": [
     "nonn"
@@ -17,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

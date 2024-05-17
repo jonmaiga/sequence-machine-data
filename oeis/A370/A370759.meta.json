@@ -1,0 +1,17 @@
+{
+  "description": "Numbers expressible in the form k*m + 2*(k+m) - 1, for positive k and m.",
+  "id": "A370759",
+  "mentions": [
+    "A028875",
+    "A264828"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

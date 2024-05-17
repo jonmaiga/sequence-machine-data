@@ -1,5 +1,5 @@
 {
-  "description": "Least imprimitive Carmichael number (A328935) with n prime factors.",
+  "description": "Least imprimitive Carmichael number (A328935) with n prime factors, or -1 if no such number exists.",
   "id": "A328938",
   "mentions": [
     "A002997",

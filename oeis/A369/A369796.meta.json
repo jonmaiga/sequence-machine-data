@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] whose fixed points sum to n.",
+  "id": "A369796",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A008289",
+    "A331518",
+    "A369596"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

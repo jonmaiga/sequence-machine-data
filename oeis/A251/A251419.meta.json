@@ -8,12 +8,13 @@
     "A302486"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

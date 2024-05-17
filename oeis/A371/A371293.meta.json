@@ -1,0 +1,45 @@
+{
+  "description": "Numbers whose binary indices have (1) prime indices covering an initial interval and (2) squarefree product.",
+  "id": "A371293",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000120",
+    "A000629",
+    "A000670",
+    "A001222",
+    "A005117",
+    "A011782",
+    "A029931",
+    "A048793",
+    "A070939",
+    "A096111",
+    "A107429",
+    "A112798",
+    "A131689",
+    "A255906",
+    "A272020",
+    "A302478",
+    "A302505",
+    "A302521",
+    "A326701",
+    "A326782",
+    "A368533",
+    "A371289",
+    "A371291",
+    "A371292",
+    "A371294",
+    "A371447",
+    "A371448",
+    "A371452"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

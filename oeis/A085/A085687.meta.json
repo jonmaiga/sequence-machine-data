@@ -1,8 +1,9 @@
 {
-  "description": "G.f.: 8/(1+sqrt(1-8*x))^3.",
+  "description": "Expansion of g.f. 8/(1+sqrt(1-8*x))^3.",
   "id": "A085687",
   "mentions": [
     "A000108",
+    "A000257",
     "A002421"
   ],
   "tags": [

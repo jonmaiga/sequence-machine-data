@@ -1,0 +1,22 @@
+{
+  "description": "Moduli k for which the number of quadratic residues mod k coprime to k is phi(k)/2^r for positive r = (phi(k)/lambda(k)) - x, x > 0, where lambda is Carmichael's function. Complement of A366935.",
+  "id": "A368042",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A033948",
+    "A034380",
+    "A046072",
+    "A046073",
+    "A366935"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

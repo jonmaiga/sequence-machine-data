@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of [n] whose non-singleton elements sum to n.",
+  "id": "A370946",
+  "mentions": [
+    "A161680",
+    "A370945"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k = 1 to n} [u_3(k)*u_3(n+1-k)], where u_3 = A034836.",
+  "description": "a(n) = Sum_{k = 1..n} [u_3(k)*u_3(n+1-k)], where u_3 = A034836.",
   "id": "A331075",
   "mentions": [
     "A034836",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

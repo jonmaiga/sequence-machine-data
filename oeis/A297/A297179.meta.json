@@ -1,16 +1,17 @@
 {
-  "description": "Number of genus-2 partitions of n.",
+  "description": "Number of genus-2 partitions of [n].",
   "id": "A297179",
   "mentions": [
-    "A297178"
+    "A297178",
+    "A370235"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 6,
-    "size": 7,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

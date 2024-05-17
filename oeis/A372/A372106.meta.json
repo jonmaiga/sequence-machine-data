@@ -1,0 +1,17 @@
+{
+  "description": "A370972 terms composed of nine distinct digits which may repeat.",
+  "id": "A372106",
+  "mentions": [
+    "A370970",
+    "A370972"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

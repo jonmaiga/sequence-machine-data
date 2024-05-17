@@ -1,0 +1,21 @@
+{
+  "description": "Euler phi function applied to the cubefull exponentially odd numbers (A335988).",
+  "id": "A371414",
+  "mentions": [
+    "A000010",
+    "A098198",
+    "A323333",
+    "A335988",
+    "A371415"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

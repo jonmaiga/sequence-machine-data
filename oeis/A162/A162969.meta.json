@@ -2,7 +2,9 @@
   "description": "Number of permutations of {1,2,...,n} in which the fixed points and the non-fixed points alternate.",
   "id": "A162969",
   "mentions": [
-    "A000166"
+    "A000035",
+    "A000166",
+    "A372102"
   ],
   "tags": [
     "easy",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

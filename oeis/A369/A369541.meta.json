@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k neither squarefree nor prime powers that are products of primorials such that A119288(k) <= k/A007947(k) < A053669(k).",
+  "id": "A369541",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A025487",
+    "A053669",
+    "A055932",
+    "A060735",
+    "A119288",
+    "A364998",
+    "A369540"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

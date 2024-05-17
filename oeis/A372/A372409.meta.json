@@ -1,0 +1,17 @@
+{
+  "description": "Determinant of the matrix obtained from [Jacobi(i-j, 2*n+1)]_{0",
+  "id": "A372409",
+  "mentions": [
+    "A179071",
+    "A179072",
+    "A372385"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

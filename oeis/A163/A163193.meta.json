@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) = 2*sigma(n+1).",
+  "description": "Numbers k such that sigma(k) = 2*sigma(k+1).",
   "id": "A163193",
   "mentions": [
     "A000203",

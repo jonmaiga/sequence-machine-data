@@ -1,5 +1,5 @@
 {
-  "description": "Number of (undirected) Hamiltonian cycles in the n-Andrasfai graph.",
+  "description": "Number of (undirected) Hamiltonian cycles in the n-Andrásfai graph.",
   "id": "A307902",
   "mentions": [
     "A143249"

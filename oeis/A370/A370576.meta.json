@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the difference between the number of n-dist-increasing and (n-1)-dist-increasing permutations p of [2n], where p is k-dist-increasing if k>=0 and p(i)",
+  "id": "A370576",
+  "mentions": [
+    "A000384",
+    "A000680",
+    "A370505"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

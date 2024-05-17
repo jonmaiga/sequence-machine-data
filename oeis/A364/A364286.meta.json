@@ -1,12 +1,16 @@
 {
-  "description": "Composite numbers for which A324644(n)/A324198(n) = 2.",
+  "description": "Composite numbers k for which A324644(k)/A324198(k) = 2.",
   "id": "A364286",
   "mentions": [
     "A000203",
+    "A082686",
     "A276086",
     "A324198",
     "A324644",
-    "A351458"
+    "A332458",
+    "A349169",
+    "A351458",
+    "A371082"
   ],
   "tags": [
     "nonn"
@@ -14,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

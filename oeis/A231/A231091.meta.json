@@ -1,18 +1,24 @@
 {
-  "description": "Number of distinct (modulo reflection and rotation) unicursal star polygons (not necessarily regular, no edge joins adjacent vertices) that can be formed by connecting the vertices of a regular n-gon.",
+  "description": "Number of distinct (modulo rotation) unicursal star polygons (not necessarily regular, no edge joins adjacent vertices) that can be formed by connecting the vertices of a regular n-gon.",
   "id": "A231091",
   "mentions": [
     "A000939",
     "A000940",
-    "A000949"
+    "A000949",
+    "A002816",
+    "A283184",
+    "A326411",
+    "A370068",
+    "A370459"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

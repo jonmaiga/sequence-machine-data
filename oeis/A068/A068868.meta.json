@@ -1,5 +1,5 @@
 {
-  "description": "Numbers prime(n) such that A068863(n) = prime(n).",
+  "description": "Numbers prime(k) such that A068863(k) = prime(k).",
   "id": "A068868",
   "mentions": [
     "A068853",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

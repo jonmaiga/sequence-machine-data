@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, a(n) AND a(n+1) equals 0 or a(n) (where AND denotes the bitwise AND operator).",
+  "id": "A370793",
+  "mentions": [
+    "A109812",
+    "A303767",
+    "A370790",
+    "A370794"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

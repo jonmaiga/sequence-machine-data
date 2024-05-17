@@ -1,5 +1,5 @@
 {
-  "description": "Extended three term Fibonacci sequence a(n)=a(n-1)+a(n-2)+n^2. a(1)=2; a(2)=5",
+  "description": "a(n) = a(n-1) + a(n-2) + n^2 for n >= 3, a(1)=2, and a(2)=5.",
   "id": "A179992",
   "mentions": [
     "A000045",

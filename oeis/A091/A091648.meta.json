@@ -2,6 +2,7 @@
   "description": "Decimal expansion of arccosh(sqrt(2)), the inflection point of sech(x).",
   "id": "A091648",
   "mentions": [
+    "A014176",
     "A103710",
     "A103711",
     "A103712",

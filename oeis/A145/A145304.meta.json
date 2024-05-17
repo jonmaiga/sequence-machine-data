@@ -1,5 +1,5 @@
 {
-  "description": "Numbers X such that there exists Y in N : X^2=237*Y^2+79",
+  "description": "Numbers X such that there exists Y in N : X^2=237*Y^2+79.",
   "id": "A145304",
   "mentions": [],
   "tags": [

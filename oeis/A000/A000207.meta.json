@@ -1,5 +1,5 @@
 {
-  "description": "Number of inequivalent ways of dissecting a regular (n+2)-gon into n triangles by n-1 non-intersecting diagonals under rotations and reflections; also the number of planar 2-trees.",
+  "description": "Number of inequivalent ways of dissecting a regular (n+2)-gon into n triangles by n-1 non-intersecting diagonals under rotations and reflections; also the number of (unlabeled) maximal outerplanar graphs on n+2 vertices.",
   "id": "A000207",
   "mentions": [
     "A000108",
@@ -10,6 +10,14 @@
     "A006078",
     "A007173",
     "A070765",
+    "A097998",
+    "A097999",
+    "A098000",
+    "A111563",
+    "A111564",
+    "A111757",
+    "A111758",
+    "A111759",
     "A169808",
     "A208355",
     "A295260",

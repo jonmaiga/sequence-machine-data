@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of permutations of [n] which avoid the patterns 1234, 1324, and 2413.",
+  "id": "A369626",
+  "mentions": [
+    "A033321",
+    "A369431"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

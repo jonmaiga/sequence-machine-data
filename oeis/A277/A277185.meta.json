@@ -1,19 +1,19 @@
 {
-  "description": "Odd numbers n such that d(n) divides 2^n-1.",
+  "description": "Odd numbers k such that d(k) divides 2^k-1.",
   "id": "A277185",
   "mentions": [
     "A000005",
     "A000225",
     "A002110",
+    "A016754",
     "A277285"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

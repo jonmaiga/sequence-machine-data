@@ -2,6 +2,7 @@
   "description": "Coefficients of reduced partition polynomials of A134264 for computing Lagrange compositional inversion.",
   "id": "A249548",
   "mentions": [
+    "A002865",
     "A005043",
     "A049019",
     "A074909",
@@ -12,13 +13,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 78,
     "source": "oeis-entry"
   }
 }

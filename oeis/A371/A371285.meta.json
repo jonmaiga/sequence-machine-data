@@ -1,0 +1,39 @@
+{
+  "description": "Heinz number of the multiset union of the divisor sets of each prime index of n.",
+  "id": "A371285",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A005179",
+    "A007416",
+    "A027746",
+    "A034729",
+    "A054973",
+    "A056239",
+    "A112798",
+    "A275700",
+    "A321898",
+    "A355731",
+    "A355732",
+    "A355741",
+    "A370820",
+    "A371165",
+    "A371181",
+    "A371284",
+    "A371286",
+    "A371288"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

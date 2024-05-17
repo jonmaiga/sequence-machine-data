@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows, where the n-th row gives the number of steps in the hydra game (the version described in A180368) when the initial hydra is each of the A000108(n) ordered trees with n edges (ordered by lexicographic order of their corresponding Dyck words as in A063171).",
+  "id": "A372594",
+  "mentions": [
+    "A000108",
+    "A063171",
+    "A180368",
+    "A372592",
+    "A372593",
+    "A372595"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

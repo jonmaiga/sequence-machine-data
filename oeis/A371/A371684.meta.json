@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^(3*k)*binomial(2*n, 2*k)*Euler(2*k, 1/2). Alternating row sums of A371637.",
+  "id": "A371684",
+  "mentions": [
+    "A371637",
+    "A371683"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

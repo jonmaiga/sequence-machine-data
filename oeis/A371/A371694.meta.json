@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 2; a(n+1) is the larger prime between nextprime(a(n)) and prevprime(a(n)+n-m+1), where m is the number of primes < a(n) that are missing from the sequence.",
+  "id": "A371694",
+  "mentions": [
+    "A362527"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

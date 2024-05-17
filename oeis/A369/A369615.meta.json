@@ -1,0 +1,20 @@
+{
+  "description": "Powers of primes (A000961) whose neighbors have a prime number as their greatest odd divisor.",
+  "id": "A369615",
+  "mentions": [
+    "A000961",
+    "A038550",
+    "A275598",
+    "A343973",
+    "A369329"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Odd addends k > 0 such that x^2 + x + k produces a new minimum of its Hardy-Littlewood Constant.",
+  "id": "A371349",
+  "mentions": [
+    "A331940"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

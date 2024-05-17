@@ -1,0 +1,16 @@
+{
+  "description": "Triangle T(n, k), n >= 0, k = 0..n, read and filled in the greedy way by rows with distinct nonnegative integers, such that for any n > 0 and any k in 0..n, T(n, k) is congruent modulo n to T(n-1, k-1) (provided that k > 0) or to T(n-1, k) (provided that k < n).",
+  "id": "A370981",
+  "mentions": [
+    "A125717"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Exponents k such that the binary expansion of 3^k has an even number of ones.",
+  "id": "A371970",
+  "mentions": [
+    "A000120",
+    "A000244",
+    "A001969",
+    "A011754",
+    "A078839",
+    "A223024"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

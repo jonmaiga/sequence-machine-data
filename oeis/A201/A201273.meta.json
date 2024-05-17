@@ -1,16 +1,17 @@
 {
-  "description": "Number of nX4 0..2 arrays with every row and column nondecreasing rightwards and downwards, and the number of instances of each value within one of each other",
+  "description": "Number of n X 4 0..2 arrays with every row and column nondecreasing rightwards and downwards, and the number of instances of each value within one of each other.",
   "id": "A201273",
   "mentions": [
     "A201277"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 36,
+    "offset": 0,
+    "size": 39,
     "source": "oeis-bfile"
   }
 }

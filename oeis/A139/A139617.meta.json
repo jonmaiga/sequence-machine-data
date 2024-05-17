@@ -2,11 +2,13 @@
   "description": "a(n) = 136*n + 17.",
   "id": "A139617",
   "mentions": [
+    "A017077",
     "A057145",
     "A139600"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

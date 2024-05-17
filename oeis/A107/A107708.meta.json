@@ -2,7 +2,9 @@
   "description": "Number of paths from (0,0) to (3n,0) that stay in the first quadrant (x,y >= 0) and where each step is (3,0), (2,1), (1,2), or (1,-1).",
   "id": "A107708",
   "mentions": [
-    "A027307"
+    "A027307",
+    "A106228",
+    "A346626"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,41 @@
+{
+  "description": "Number of strict integer partitions of n containing all distinct divisors of all parts.",
+  "id": "A371128",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A000837",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A008284",
+    "A239312",
+    "A285573",
+    "A303362",
+    "A303975",
+    "A305148",
+    "A316476",
+    "A319055",
+    "A370802",
+    "A370803",
+    "A370808",
+    "A370820",
+    "A371130",
+    "A371132",
+    "A371171",
+    "A371172",
+    "A371173",
+    "A371177",
+    "A371178",
+    "A371180"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

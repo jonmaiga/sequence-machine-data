@@ -1,5 +1,5 @@
 {
-  "description": "(4^(5*n+1) + 7)/11.",
+  "description": "a(n) = (4^(5*n+1) + 7)/11.",
   "id": "A171216",
   "mentions": [
     "A165806",

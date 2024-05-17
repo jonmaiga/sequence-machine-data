@@ -1,5 +1,5 @@
 {
-  "description": "[2n/3]^2 -[n/3]^2, where []=floor.",
+  "description": "a(n) = floor(2*n/3)^2 - floor(n/3)^2.",
   "id": "A213030",
   "mentions": [],
   "tags": [

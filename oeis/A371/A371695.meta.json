@@ -1,0 +1,23 @@
+{
+  "description": "The smallest composite number that divides the reverse of the concatenation of its ascending ordered prime factors, with repetition, when written in base n.",
+  "id": "A371695",
+  "mentions": [
+    "A020639",
+    "A027746",
+    "A248915",
+    "A259047",
+    "A322843",
+    "A371641",
+    "A371948"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

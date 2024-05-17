@@ -1,8 +1,14 @@
 {
-  "description": "Numbers n such that 3^n + n is prime.",
+  "description": "Numbers k such that 3^k + k is prime.",
   "id": "A057900",
-  "mentions": [],
+  "mentions": [
+    "A052007",
+    "A057909",
+    "A104743"
+  ],
   "tags": [
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

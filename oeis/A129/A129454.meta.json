@@ -1,16 +1,17 @@
 {
-  "description": "Product{i=1..n}Product{j=1..n}Product{k=1..n} gcd(i,j,k).",
+  "description": "a(n) = Product{i=1..n-1} Product{j=1..n-1} Product{k=1..n-1} gcd(i,j,k).",
   "id": "A129454",
   "mentions": [
     "A092287",
     "A129455"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 12,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

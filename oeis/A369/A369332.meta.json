@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of numbers whose binary forms can be constructed using some or all of the binary digits of 1..n.",
+  "id": "A369332",
+  "mentions": [
+    "A000788",
+    "A181132"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

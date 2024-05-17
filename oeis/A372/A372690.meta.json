@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+1 are both numbers whose number of divisors is a power of 2 (A036537).",
+  "id": "A372690",
+  "mentions": [
+    "A005237",
+    "A007674",
+    "A036537",
+    "A327839",
+    "A372691"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

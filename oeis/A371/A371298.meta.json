@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = 2/(3 - exp(2*x*A(x)^2)).",
+  "id": "A371298",
+  "mentions": [
+    "A122704",
+    "A370894",
+    "A371296"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

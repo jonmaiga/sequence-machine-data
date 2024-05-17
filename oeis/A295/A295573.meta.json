@@ -2,8 +2,10 @@
   "description": "Array read by upwards antidiagonals: T(n,k) = nk + floor(phi n) ceiling(phi k) where phi = (1 + sqrt(5))/2.",
   "id": "A295573",
   "mentions": [
+    "A001622",
     "A101858",
-    "A101866"
+    "A101866",
+    "A371382"
   ],
   "tags": [
     "nonn",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

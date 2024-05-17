@@ -1,5 +1,5 @@
 {
-  "description": "Minimal determinant of an n X n Toeplitz matrix using the first 2*n - 1 prime numbers.",
+  "description": "Minimal determinant of an n X n Toeplitz matrix using the first 2*n - 1 prime numbers, with a(0) = 1.",
   "id": "A350932",
   "mentions": [
     "A318173",

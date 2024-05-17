@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers that divide the concatenation of the reverse of their ascending order prime factors, with repetition.",
+  "id": "A372046",
+  "mentions": [
+    "A027746",
+    "A056712",
+    "A371641",
+    "A371695",
+    "A371696"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

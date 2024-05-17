@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of ((1+sqrt(5))/2)*sqrt(3) = A001622*A002194.",
+  "id": "A370944",
+  "mentions": [
+    "A001622",
+    "A002194",
+    "A094887",
+    "A104457",
+    "A179296"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Let B(n) be the sum of binary digits of n. Sequence contains n such that B(n) = B(digit sum(n)).",
+  "description": "Let B(k) be the sum of binary digits of k. Sequence lists the numbers k such that B(k) = B(digit sum(k)).",
   "id": "A095160",
   "mentions": [
     "A000120",

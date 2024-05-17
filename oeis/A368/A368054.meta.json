@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of k-crossing partitions on 2n nodes, where all partition terms alternate in parity, counted up to reflection.",
+  "id": "A368054",
+  "mentions": [
+    "A001044",
+    "A005316",
+    "A008828",
+    "A077054",
+    "A287220"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

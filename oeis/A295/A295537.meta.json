@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x)^2 = 1 + x + x*A(x)^7.",
+  "description": "G.f. A(x) satisfies A(x)^2 = 1 + x + x*A(x)^7.",
   "id": "A295537",
   "mentions": [
     "A001764",

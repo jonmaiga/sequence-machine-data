@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = 2*x + A(2*x^2)^(1/2) with A(0) = 1.",
+  "id": "A371711",
+  "mentions": [
+    "A371712"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

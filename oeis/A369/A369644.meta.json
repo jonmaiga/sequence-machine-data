@@ -1,0 +1,17 @@
+{
+  "description": "Positions of multiples of 3 in A083345.",
+  "id": "A369644",
+  "mentions": [
+    "A083345",
+    "A327863",
+    "A369643"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

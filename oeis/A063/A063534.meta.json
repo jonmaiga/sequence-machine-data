@@ -1,5 +1,5 @@
 {
-  "description": "C(n) = H(n) + d(n), where C(n) is Chowla's function A048050, H(n) is the half-totient function A023022 and d(n) is the number of divisors function A000005.",
+  "description": "Numbers k such that C(k) = H(k) + d(k), where C(k) is Chowla's function A048050, H(k) is the half-totient function A023022 and d(k) is the number of divisors function A000005.",
   "id": "A063534",
   "mentions": [
     "A000005",

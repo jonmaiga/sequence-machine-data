@@ -2,7 +2,8 @@
   "description": "Cubes whose digit sum is also a cube.",
   "id": "A053058",
   "mentions": [
-    "A000578"
+    "A000578",
+    "A237525"
   ],
   "tags": [
     "base",

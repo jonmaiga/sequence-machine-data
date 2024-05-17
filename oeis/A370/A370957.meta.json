@@ -1,0 +1,16 @@
+{
+  "description": "First differences of A125717.",
+  "id": "A370957",
+  "mentions": [
+    "A125717",
+    "A370958"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

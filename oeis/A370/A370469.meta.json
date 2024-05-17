@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by columns where T(n,k) is the number of points in Z^n such that |x1| + ... + |xn| = k, |x1|, ..., |xn| > 0.",
+  "id": "A370469",
+  "mentions": [
+    "A001815",
+    "A013609",
+    "A033996",
+    "A036289",
+    "A036909",
+    "A097064",
+    "A102860",
+    "A134401",
+    "A333714",
+    "A371064"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

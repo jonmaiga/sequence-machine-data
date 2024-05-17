@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients in function A(x) such that A(x) = x * Product_{n>=0} (1 + 2*A(x)^(2^n)).",
+  "description": "Expansion of g.f. A(x) satisfies A(x) = x * Product_{n>=0} (1 + 2*A(x)^(2^n)).",
   "id": "A356782",
   "mentions": [
     "A000120",

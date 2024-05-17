@@ -1,0 +1,16 @@
+{
+  "description": "Value of k at the n-th step of A371359, where multiplied values are positive and divided values are negative.",
+  "id": "A371360",
+  "mentions": [
+    "A100708",
+    "A371359"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

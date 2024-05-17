@@ -4,15 +4,15 @@
   "mentions": [
     "A259825",
     "A306935",
+    "A306936",
     "A306937"
   ],
   "tags": [
-    "more",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 62,
     "source": "oeis-entry"
   }
 }

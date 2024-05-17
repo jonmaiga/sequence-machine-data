@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors of the smallest multiple of n whose prime factorization exponents are all powers of 2.",
+  "id": "A369760",
+  "mentions": [
+    "A000005",
+    "A138302",
+    "A353897",
+    "A356194",
+    "A369761",
+    "A369762"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

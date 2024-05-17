@@ -1,7 +1,9 @@
 {
   "description": "Johnson's non-Wieferich numbers of the first kind.",
   "id": "A281728",
-  "mentions": [],
+  "mentions": [
+    "A370425"
+  ],
   "tags": [
     "more",
     "nonn"

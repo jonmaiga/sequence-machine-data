@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, a(n), a(2*n) and a(2*n+1) have distinct prime factors.",
+  "id": "A372130",
+  "mentions": [
+    "A372030",
+    "A372129",
+    "A372132"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

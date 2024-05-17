@@ -2,6 +2,7 @@
   "description": "Smallest triangular number with exactly n divisors, or 0 if no such number exists.",
   "id": "A081978",
   "mentions": [
+    "A000043",
     "A000129",
     "A001110",
     "A001653",

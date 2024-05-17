@@ -1,5 +1,5 @@
 {
-  "description": "Number of (5+2)X(n+2) 0..1 arrays with every 3X3 subblock diagonal sum minus antidiagonal median nondecreasing horizontally, vertically and ne-to-sw antidiagonally",
+  "description": "Number of (5+2) X (n+2) 0..1 arrays with every 3 X 3 subblock diagonal sum minus antidiagonal median nondecreasing horizontally, vertically and ne-to-sw antidiagonally.",
   "id": "A254808",
   "mentions": [
     "A254804"

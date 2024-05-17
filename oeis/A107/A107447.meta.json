@@ -1,5 +1,5 @@
 {
-  "description": "C(n!,n^2).",
+  "description": "a(n) = binomial(n!, n^2).",
   "id": "A107447",
   "mentions": [
     "A014062",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

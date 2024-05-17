@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..3 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2X2 subblock",
+  "description": "Number of (n+1) X (n+1) 0..3 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.",
   "id": "A235885",
   "mentions": [
     "A235893"

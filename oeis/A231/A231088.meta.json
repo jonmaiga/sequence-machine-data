@@ -1,8 +1,9 @@
 {
-  "description": "Initial members of abundant triples, i.e., values of n such that (n, n+2, n+4) are all abundant numbers.",
+  "description": "Initial members of abundant triples, i.e., values of k such that (k, k+2, k+4) are all abundant numbers.",
   "id": "A231088",
   "mentions": [
     "A005101",
+    "A096399",
     "A108926",
     "A231086",
     "A231089",

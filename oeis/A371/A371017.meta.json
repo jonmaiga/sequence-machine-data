@@ -1,0 +1,14 @@
+{
+  "description": "The second row of generalized Knuth's old sum.",
+  "id": "A371017",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of labeled cyclic groups.",
+  "description": "Number of labeled cyclic groups with n elements.",
   "id": "A034381",
   "mentions": [
     "A000010",
@@ -9,12 +9,13 @@
     "A058161"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

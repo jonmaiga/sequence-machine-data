@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + 2^(k+1)*x^k) * (1 + 2^(k-1)*x^k).",
+  "id": "A370761",
+  "mentions": [
+    "A032302",
+    "A304961",
+    "A370016",
+    "A370764",
+    "A370765",
+    "A370792"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

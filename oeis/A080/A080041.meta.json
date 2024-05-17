@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=floor((1+sqrt(3))^n).",
+  "description": "a(n) = floor((1+sqrt(3))^n).",
   "id": "A080041",
   "mentions": [
     "A080040"

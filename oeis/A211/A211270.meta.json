@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer pairs (x,y) such that 0",
+  "description": "Number of integer pairs (x,y) such that 0 < x <= y <= n and x*y = 2n.",
   "id": "A211270",
   "mentions": [
     "A000005",

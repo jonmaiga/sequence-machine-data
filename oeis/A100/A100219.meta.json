@@ -2,6 +2,7 @@
   "description": "Expansion of (1-2*x)/((1-x)*(1-x+x^2)).",
   "id": "A100219",
   "mentions": [
+    "A000108",
     "A079757",
     "A100218"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

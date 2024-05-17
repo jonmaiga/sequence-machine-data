@@ -1,5 +1,5 @@
 {
-  "description": "A number n is included if n is coprime to sum{k=1 to n} d(k), where d(k) is the number of divisors of k.",
+  "description": "A number n is included if n is coprime to Sum_{k=1..n} d(k), where d(k) is the number of divisors of k.",
   "id": "A140221",
   "mentions": [
     "A006218",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

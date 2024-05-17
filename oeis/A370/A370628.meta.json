@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = GCD(A280864(n), A280864(n+1)).",
+  "id": "A370628",
+  "mentions": [
+    "A007947",
+    "A280738",
+    "A280774",
+    "A280864"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

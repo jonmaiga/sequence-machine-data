@@ -2,9 +2,12 @@
   "description": "Maximal determinant of an n X n Toeplitz matrix using the first 2*n - 1 prime numbers.",
   "id": "A350933",
   "mentions": [
+    "A024356",
     "A318173",
     "A350931",
-    "A350932"
+    "A350932",
+    "A369946",
+    "A369947"
   ],
   "tags": [
     "more",

@@ -2,6 +2,7 @@
   "description": "a(n) is the number of different shapes of balanced binary trees with n nodes. The tree is balanced if the total number of nodes in the left and right branch of every node differ by at most one.",
   "id": "A110316",
   "mentions": [
+    "A000225",
     "A221857"
   ],
   "tags": [

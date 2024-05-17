@@ -2,9 +2,11 @@
   "description": "Number of equivalence classes of S_n under transformations of positionally and numerically adjacent elements of the form abc <--> acb <--> cba where a",
   "id": "A212432",
   "mentions": [
+    "A212580",
     "A212581"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

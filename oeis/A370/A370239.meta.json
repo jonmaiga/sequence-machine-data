@@ -1,0 +1,25 @@
+{
+  "description": "The sum of divisors of n that are squares of squarefree numbers.",
+  "id": "A370239",
+  "mentions": [
+    "A005117",
+    "A036785",
+    "A048250",
+    "A062503",
+    "A071327",
+    "A078434",
+    "A323308",
+    "A370240"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "The n-th iterate of 27 with Reduced Collatz-function R, which gives the odd part of 3n+1.",
+  "id": "A372443",
+  "mentions": [
+    "A000265",
+    "A075677",
+    "A086893",
+    "A088593",
+    "A256598",
+    "A257852",
+    "A371093",
+    "A372283",
+    "A372362",
+    "A372444",
+    "A372445",
+    "A372446",
+    "A372447",
+    "A372453",
+    "A372560"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

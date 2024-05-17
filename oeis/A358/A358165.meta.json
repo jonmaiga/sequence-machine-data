@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangular array read by rows. T(n,k) is the number of direct sum decompositions V_1 + V_2 + ... + V_m = GF(2)^n with the dimensions of the V_i corresponding to the kth partition of n in canonical ordering, n>=0, 1<=k<=A000041(n).",
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of direct sum decompositions V_1 + V_2 + ... + V_m = GF(2)^n with the dimensions of the V_i corresponding to the k-th partition of n in canonical ordering, n >= 0, 1 <= k <= A000041(n).",
   "id": "A358165",
   "mentions": [
     "A000041",

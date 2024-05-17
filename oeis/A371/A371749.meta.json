@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Product_{k>=0} 1 / (1 + 1/4^k).",
+  "id": "A371749",
+  "mentions": [
+    "A000302",
+    "A083864",
+    "A100221",
+    "A273413",
+    "A371746",
+    "A371747",
+    "A371748",
+    "A371752"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

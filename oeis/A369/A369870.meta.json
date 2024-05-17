@@ -1,0 +1,17 @@
+{
+  "description": "Cumulative sum of digits of base-2 representation of Euler number \"e\".",
+  "id": "A369870",
+  "mentions": [
+    "A001113",
+    "A004593",
+    "A302342"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

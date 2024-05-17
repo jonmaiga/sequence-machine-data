@@ -1,10 +1,18 @@
 {
   "description": "Continued fraction for sqrt(145).",
   "id": "A040132",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A040002",
+    "A040006",
+    "A041264",
+    "A041265",
+    "A176910"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

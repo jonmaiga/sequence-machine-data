@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if the arithmetic derivative of n is a multiple of 5, otherwise 0.",
+  "id": "A369967",
+  "mentions": [
+    "A003415",
+    "A327865",
+    "A353494",
+    "A358680",
+    "A359430",
+    "A369968"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

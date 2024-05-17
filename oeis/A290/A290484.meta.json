@@ -2,10 +2,12 @@
   "description": "Odd prime numbers that are factors of only one 3-Carmichael number.",
   "id": "A290484",
   "mentions": [
+    "A033270",
     "A051663",
     "A065091",
     "A087788",
-    "A290481"
+    "A290481",
+    "A369777"
   ],
   "tags": [
     "more",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

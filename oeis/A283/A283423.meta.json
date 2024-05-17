@@ -1,5 +1,5 @@
 {
-  "description": "Prime power pseudoperfect numbers: numbers n > 1 such that 1/n + sum 1/p^k = 1, where the sum is over the prime powers p^k | n.",
+  "description": "Prime power pseudoperfect numbers: numbers m > 1 such that 1/m + Sum 1/p^k = 1, where the sum is over the prime powers p^k | m.",
   "id": "A283423",
   "mentions": [
     "A005835",

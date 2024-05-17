@@ -1,5 +1,5 @@
 {
-  "description": "Number of subsets of divisors of n having equal sums as their complements.",
+  "description": "a(n) is the number of ways of partitioning the divisors of n into two disjoint sets with equal sum.",
   "id": "A083206",
   "mentions": [
     "A000005",

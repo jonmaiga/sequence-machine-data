@@ -1,5 +1,5 @@
 {
-  "description": "3^(n-1)*(3^n - 1), n >= 0.",
+  "description": "a(n) = 3^(n-1)*(3^n - 1), n >= 0.",
   "id": "A219205",
   "mentions": [
     "A006516",

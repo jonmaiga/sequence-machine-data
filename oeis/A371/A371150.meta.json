@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that A371149(k) > 1.",
+  "id": "A371150",
+  "mentions": [
+    "A371148",
+    "A371149"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

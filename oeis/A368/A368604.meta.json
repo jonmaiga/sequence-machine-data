@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangular array T, read by rows: T(n,k) = number of sums |x-y|+|y-z| = k, where x,y,z are in {1,2,...,n} and x < y and y > z.",
+  "description": "Triangular array T, read by rows: T(n,k) = number of sums |x-y|+|y-z| = k, where x,y,z are in {1,2,...,n} and x < y and y > z.",
   "id": "A368604",
   "mentions": [
     "A000027",

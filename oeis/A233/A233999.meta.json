@@ -2,9 +2,15 @@
   "description": "Values of n such that numbers of the form x^2+n*y^2 for some integers x, y cannot have prime factor of 7 raised to an odd power.",
   "id": "A233999",
   "mentions": [
+    "A003159",
+    "A047350",
     "A055046",
     "A055047",
-    "A233998"
+    "A233998",
+    "A234000",
+    "A277549",
+    "A334832",
+    "A352272"
   ],
   "tags": [
     "easy",

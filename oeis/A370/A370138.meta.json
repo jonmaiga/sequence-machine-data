@@ -1,0 +1,22 @@
+{
+  "description": "Arithmetic derivatives of the sums of three primorials > 1.",
+  "id": "A370138",
+  "mentions": [
+    "A000292",
+    "A002110",
+    "A003415",
+    "A024451",
+    "A369979",
+    "A370129",
+    "A370137"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

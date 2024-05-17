@@ -4,6 +4,7 @@
   "mentions": [
     "A000041",
     "A002024",
+    "A003056",
     "A008284",
     "A026794",
     "A096144",
@@ -22,15 +23,17 @@
     "A362611",
     "A362612",
     "A362613",
-    "A362614"
+    "A362614",
+    "A372632"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

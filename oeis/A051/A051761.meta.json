@@ -1,9 +1,10 @@
 {
-  "description": "Numbers that are simultaneously a sum of distinct factorials and of the form a^b with b >= 2.",
+  "description": "Numbers that are simultaneously a sum of factorials of distinct integers and of the form a^b with b >= 2.",
   "id": "A051761",
   "mentions": [
     "A025494",
-    "A051760"
+    "A051760",
+    "A059589"
   ],
   "tags": [
     "more",

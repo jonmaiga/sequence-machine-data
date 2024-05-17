@@ -1,5 +1,5 @@
 {
-  "description": "Let P(x) = Product_{p_k|n}(x-p_k), p_k are all the primes dividing n with multiplicity. Consider the absolute values of the coefficients in P(x), then a(n) is the maximum of these.",
+  "description": "a(n) is the largest coefficient of P(x) := Product_{k} (x + p_k), where (p_k) are the primes dividing n listed with multiplicity.",
   "id": "A356253",
   "mentions": [
     "A002110",
@@ -9,7 +9,8 @@
     "A070918",
     "A083348",
     "A109388",
-    "A260613"
+    "A260613",
+    "A369657"
   ],
   "tags": [
     "formulas",
@@ -18,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

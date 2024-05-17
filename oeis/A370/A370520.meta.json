@@ -1,0 +1,18 @@
+{
+  "description": "Triangular numbers (A000217) in A353729.",
+  "id": "A370520",
+  "mentions": [
+    "A000217",
+    "A353729",
+    "A367451"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

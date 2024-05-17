@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = ( 1 + x * A(x)^(1/3) * (1 + A(x)) )^(3/2).",
+  "id": "A371724",
+  "mentions": [
+    "A106228",
+    "A262441",
+    "A370891",
+    "A371725"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

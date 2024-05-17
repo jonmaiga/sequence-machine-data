@@ -2,7 +2,9 @@
   "description": "Aliquot sequence starting at 660.",
   "id": "A014362",
   "mentions": [
-    "A001065"
+    "A001065",
+    "A014361",
+    "A014363"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

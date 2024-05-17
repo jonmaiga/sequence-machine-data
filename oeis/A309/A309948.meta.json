@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the real part of the square root of 1 + i.",
   "id": "A309948",
   "mentions": [
+    "A010060",
     "A309949"
   ],
   "tags": [

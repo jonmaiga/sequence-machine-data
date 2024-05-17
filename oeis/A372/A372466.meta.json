@@ -1,0 +1,27 @@
+{
+  "description": "The maximal exponent in the prime factorization of the numbers whose number of divisors is a power of 2 (A036537).",
+  "id": "A372466",
+  "mentions": [
+    "A000225",
+    "A036537",
+    "A051903",
+    "A327839",
+    "A368710",
+    "A368711",
+    "A368712",
+    "A368713",
+    "A369933",
+    "A369935",
+    "A372467"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

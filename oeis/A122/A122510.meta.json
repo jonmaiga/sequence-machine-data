@@ -1,5 +1,5 @@
 {
-  "description": "Array T(d,n) = number of integer lattice points inside the d-dimensional hypersphere of radius sqrt(n), read along diagonals.",
+  "description": "Array T(d,n) = number of integer lattice points inside the d-dimensional hypersphere of radius sqrt(n), read by ascending antidiagonals.",
   "id": "A122510",
   "mentions": [
     "A001650",

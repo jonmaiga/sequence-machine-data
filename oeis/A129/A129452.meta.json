@@ -1,7 +1,8 @@
 {
-  "description": "Expansion of (-1+9*x^2+27*x^3) / ((1+3*x+9*x^2) *(-1+4*x+9*x^2+9*x^3-81*x^4)).",
+  "description": "Expansion of (1-9*x^2-27*x^3)/((1+3*x+9*x^2)*(1-4*x-9*x^2-9*x^3+81*x^4)).",
   "id": "A129452",
   "mentions": [
+    "A129441",
     "A129443"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

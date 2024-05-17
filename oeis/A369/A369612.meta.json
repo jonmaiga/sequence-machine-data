@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k divides Sum_{i=1..k} A004086(i).",
+  "id": "A369612",
+  "mentions": [
+    "A004086",
+    "A062918"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

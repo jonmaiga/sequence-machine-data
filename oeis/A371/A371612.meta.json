@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = ( 1 + x / (1 - x*A(x)^2) )^2.",
+  "id": "A371612",
+  "mentions": [
+    "A364743",
+    "A365118",
+    "A371607",
+    "A371613"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

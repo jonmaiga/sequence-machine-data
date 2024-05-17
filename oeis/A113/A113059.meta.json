@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = n!*Sum_{k=0..n} A000296(k)/k!, n=0,1,... .",
+  "description": "a(n) = n! * Sum_{k=0..n} A000296(k)/k!.",
   "id": "A113059",
   "mentions": [
+    "A000142",
     "A000296",
     "A101053",
     "A101054"

@@ -1,0 +1,51 @@
+{
+  "description": "Number of integer partitions of n such that it is not possible to choose a different prime factor of each part.",
+  "id": "A370593",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A000720",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A027746",
+    "A112798",
+    "A133686",
+    "A239312",
+    "A355529",
+    "A355739",
+    "A355740",
+    "A355741",
+    "A367771",
+    "A367867",
+    "A367902",
+    "A367903",
+    "A367905",
+    "A367906",
+    "A367907",
+    "A368094",
+    "A368095",
+    "A368097",
+    "A368098",
+    "A368100",
+    "A368110",
+    "A368413",
+    "A368414",
+    "A370583",
+    "A370585",
+    "A370586",
+    "A370592",
+    "A370594",
+    "A370636",
+    "A370647"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

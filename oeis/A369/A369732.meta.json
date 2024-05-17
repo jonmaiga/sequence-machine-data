@@ -1,0 +1,23 @@
+{
+  "description": "Number of solutions to +- 1^4 +- 2^4 +- 3^4 +- ... +- n^4 = 1.",
+  "id": "A369732",
+  "mentions": [
+    "A000583",
+    "A063866",
+    "A111253",
+    "A158465",
+    "A368206",
+    "A369629",
+    "A369730",
+    "A369731"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

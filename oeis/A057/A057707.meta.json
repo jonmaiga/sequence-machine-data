@@ -1,5 +1,5 @@
 {
-  "description": "Number of poly-octagon squares: a(n) = number of 'polyominoes' that can be formed by n octagons and n squares (of perimeter 8m and 4m respectively) not counting rotations or reflections such that the resulting objects will fit on the plane that is uniformly tiled by the same size octagons and squares.",
+  "description": "a(n) is the number of free 'polyominoes' on the (4.8.8) grid with n octagons and n squares.",
   "id": "A057707",
   "mentions": [
     "A343577"

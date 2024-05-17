@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of the Jacobi elliptic function sn(x,k) at k = 2 (odd powers only).",
+  "id": "A370542",
+  "mentions": [
+    "A000182",
+    "A060628",
+    "A068521",
+    "A249282",
+    "A370543",
+    "A370544"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

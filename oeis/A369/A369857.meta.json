@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonzero bits (a.k.a. binary or Hamming weight) of 7^n.",
+  "id": "A369857",
+  "mentions": [
+    "A000120",
+    "A000420",
+    "A011754",
+    "A118738"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

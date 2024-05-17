@@ -1,0 +1,18 @@
+{
+  "description": "Least of the smoothest two-nonzero-digit numbers of length n.",
+  "id": "A370849",
+  "mentions": [
+    "A006530",
+    "A101594",
+    "A370361"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

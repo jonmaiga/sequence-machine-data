@@ -1,16 +1,18 @@
 {
-  "description": "Let fw[n_] := Mod[n, 3], fb[n_] := Mod[n, 2]; a(n) = a(n-a(n-1))+1+fw[n-a(n-2)]-fb[n-a(n-1)].",
+  "description": "a(n) = 1 + a(n - a(n-1)) (n - a(n-1)) mod 2 + (n - a(n-2)) mod 3, with a(0) = 0, a(1) = 1.",
   "id": "A110897",
-  "mentions": [],
+  "mentions": [
+    "A110898",
+    "A206012"
+  ],
   "tags": [
     "easy",
     "less",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 84,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

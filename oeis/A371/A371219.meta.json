@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} (1 - 1/(2*k+1)^4).",
+  "id": "A371219",
+  "mentions": [
+    "A003881",
+    "A175615",
+    "A258870",
+    "A369880",
+    "A371465"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

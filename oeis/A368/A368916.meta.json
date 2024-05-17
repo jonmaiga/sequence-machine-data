@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1 if there is no prime p such that p^p divides the arithmetic derivative of A276086(n), and 0 otherwise. Here A276086 is the primorial base exp-function.",
+  "description": "a(n) = 1 if there is no prime p such that p^p divides the arithmetic derivative of A276086(n), and 0 otherwise, where A276086 is the primorial base exp-function.",
   "id": "A368916",
   "mentions": [
     "A003415",
@@ -17,7 +17,9 @@
     "A368914",
     "A368915",
     "A368917",
-    "A368918"
+    "A368918",
+    "A368919",
+    "A369653"
   ],
   "tags": [
     "formulas",

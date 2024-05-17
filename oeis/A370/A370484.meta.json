@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of defective (binary) heaps on n elements from the set {0,1} with k defects; triangle T(n,k), n>=0, read by rows.",
+  "id": "A370484",
+  "mentions": [
+    "A000079",
+    "A045623",
+    "A056971",
+    "A091980",
+    "A139756",
+    "A306343",
+    "A372489",
+    "A372628",
+    "A372640"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

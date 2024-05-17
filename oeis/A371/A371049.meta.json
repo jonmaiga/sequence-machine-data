@@ -1,0 +1,21 @@
+{
+  "description": "Low temperature series for spin-1/2 Ising partition function on body-centered cubic lattice.",
+  "id": "A371049",
+  "mentions": [
+    "A001406",
+    "A002891",
+    "A002892",
+    "A002925",
+    "A003193",
+    "A007218"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Smallest number n with ||n-1||-||n|| = k where ||n||=A005245(n) denotes the complexity of n.",
   "id": "A244743",
   "mentions": [
-    "A005245"
+    "A005245",
+    "A252739"
   ],
   "tags": [
     "more",

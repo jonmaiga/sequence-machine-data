@@ -1,0 +1,20 @@
+{
+  "description": "Indices k such that A124652(k) is prime.",
+  "id": "A372009",
+  "mentions": [
+    "A109890",
+    "A111238",
+    "A124652",
+    "A372028",
+    "A372284"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

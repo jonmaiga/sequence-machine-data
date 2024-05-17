@@ -1,10 +1,11 @@
 {
-  "description": "Numbers m such that the number of primes less than 3^m is itself prime.",
+  "description": "Prime numbers of the form primepi(3^m), for some integer m.",
   "id": "A087865",
   "mentions": [
     "A055729"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

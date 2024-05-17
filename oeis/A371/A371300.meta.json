@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: Riordan array (1/(1 - x), (1 + x)/(1 - x - x^2)).",
+  "id": "A371300",
+  "mentions": [
+    "A256893",
+    "A370174",
+    "A371301"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

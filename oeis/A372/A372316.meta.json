@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp( x - LambertW(-3*x)/3 ).",
+  "id": "A372316",
+  "mentions": [
+    "A088957",
+    "A360193",
+    "A362734",
+    "A372315",
+    "A372320",
+    "A372321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

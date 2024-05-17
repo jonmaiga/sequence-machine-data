@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form (3^s+1)/(3^r+1) for s>1, 1<=r<=s-1.",
+  "description": "Numbers of the form (3^s+1)/(3^r+1) for s > 1, 1 <= r <= s-1.",
   "id": "A079672",
   "mentions": [
     "A079581",
@@ -7,7 +7,6 @@
     "A079673"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

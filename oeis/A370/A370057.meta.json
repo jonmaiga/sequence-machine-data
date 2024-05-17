@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3*(4*n+2)!/(3*n+3)!.",
+  "id": "A370057",
+  "mentions": [
+    "A000142",
+    "A006632",
+    "A365340",
+    "A370056",
+    "A370058"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Expansion of x/(1+x+x^2-x^3-x^4-x^5).",
+  "description": "Expansion of x/(1 + x + x^2 - x^3 - x^4 - x^5).",
   "id": "A128615",
   "mentions": [
+    "A049347",
     "A087508"
   ],
   "tags": [

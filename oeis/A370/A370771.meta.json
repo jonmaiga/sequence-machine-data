@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-trees with n unlabeled nodes rooted at a front.",
+  "id": "A370771",
+  "mentions": [
+    "A000012",
+    "A000081",
+    "A058866",
+    "A370770",
+    "A370772",
+    "A370773"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

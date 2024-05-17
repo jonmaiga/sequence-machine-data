@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that the last digit of a(n) is present in a(n+1) and the last letter of the English name of a(n) is present in the English name of a(n+1).",
+  "id": "A370402",
+  "mentions": [
+    "A370400",
+    "A370401",
+    "A370403",
+    "A370404",
+    "A370405"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

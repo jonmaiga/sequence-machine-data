@@ -1,0 +1,15 @@
+{
+  "description": "Number of maverick graphs on n vertices.",
+  "id": "A372243",
+  "mentions": [],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

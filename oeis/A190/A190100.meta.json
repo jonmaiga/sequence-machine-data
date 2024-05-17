@@ -1,7 +1,10 @@
 {
-  "description": "T(n,k)=Number of 1:2:sqrt(5) proportioned triangles on a (n+1)X(k+1) grid",
+  "description": "T(n,k) = number of 1:2:sqrt(5) proportioned triangles on a (n+1) X (k+1) grid.",
   "id": "A190100",
-  "mentions": [],
+  "mentions": [
+    "A189885",
+    "A190099"
+  ],
   "tags": [
     "formulas",
     "nonn",

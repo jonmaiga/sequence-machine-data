@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the first root of the Weierstrass elliptic function P(1/2 | 1/2, i/2).",
   "id": "A133748",
   "mentions": [
+    "A062539",
     "A133747"
   ],
   "tags": [

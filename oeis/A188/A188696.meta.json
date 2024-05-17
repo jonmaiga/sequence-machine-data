@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1+x^2)/(1-26*x+x^2-26*x^3+2*x^4).",
+  "description": "Expansion of (1+x^2)/(1-26*x+x^2-26*x^3+2*x^4).",
   "id": "A188696",
   "mentions": [
     "A188697"

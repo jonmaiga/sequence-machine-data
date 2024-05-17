@@ -1,11 +1,14 @@
 {
-  "description": "Floor(n*sqrt(n)) - d(n), where d(n) is the number of divisors function.",
+  "description": "a(n) = floor(n*sqrt(n)) - d(n), where d(n) is the number of divisors function.",
   "id": "A063038",
   "mentions": [
+    "A000005",
+    "A000093",
     "A055682"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

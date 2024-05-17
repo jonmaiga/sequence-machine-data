@@ -1,0 +1,17 @@
+{
+  "description": "Hyper-Wiener index in diamond nanowires obtained by connecting n unit cells in a sequence.",
+  "id": "A366815",
+  "mentions": [
+    "A366816"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

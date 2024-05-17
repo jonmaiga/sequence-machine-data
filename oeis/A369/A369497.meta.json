@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: row n is the unique primitive Pythagorean triple (a,b,c) such that (a-b+c)/2 = prime(n+2) and whose short leg \"a\" is even.",
+  "id": "A369497",
+  "mentions": [
+    "A000040",
+    "A037168",
+    "A040976"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations p of [n] whose fixed points j < n have a larger right neighbor p(j+1) > j.",
+  "id": "A371800",
+  "mentions": [
+    "A000035",
+    "A372102"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Powerful numbers that are the sum of 2 squares.",
+  "id": "A371010",
+  "mentions": [
+    "A001481",
+    "A001694",
+    "A004614",
+    "A020893",
+    "A334424",
+    "A369563",
+    "A371011"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

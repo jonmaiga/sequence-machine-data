@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) = Product_{n>=1} (1 + x^(n-1) + x^(2*n-1)) * (1 + x^n + x^(2*n-1)) * (1 - x^n - x^(2*n)).",
+  "id": "A370541",
+  "mentions": [
+    "A000726",
+    "A319668"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

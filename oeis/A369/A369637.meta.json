@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if the maximal digit in the primorial base representation of n' is less than the maximal exponent in the prime factorization of n, where n' stands for the arithmetic derivative of n, A003415.",
+  "id": "A369637",
+  "mentions": [
+    "A003415",
+    "A051903",
+    "A327859",
+    "A328114",
+    "A328390",
+    "A351098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

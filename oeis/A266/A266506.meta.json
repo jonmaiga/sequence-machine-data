@@ -1,38 +1,14 @@
 {
-  "description": "a(2n) = a(2n - 4) + a(2n - 3) and a(2n + 1) = 2*a(2n - 4) + a(2n - 3), with a(0) = 2, a(1) = -1, a(2) = 2, a(3) = 1. Alternatively, interleave denominators (A266504) and numerators (A266505) of convergents to sqrt(2).",
+  "description": "a(n) = 2*a(n-4) + a(n-8) for n >= 8.",
   "id": "A266506",
   "mentions": [
-    "A000129",
-    "A001333",
-    "A002203",
-    "A002965",
-    "A006451",
-    "A006452",
-    "A038761",
-    "A038762",
-    "A048654",
-    "A048655",
-    "A052542",
-    "A054490",
-    "A078343",
-    "A098586",
-    "A098790",
-    "A100525",
-    "A101386",
-    "A124124",
-    "A135532",
-    "A216134",
-    "A216162",
-    "A226507",
-    "A253811",
-    "A255236",
     "A266504",
-    "A266505",
-    "A266507"
+    "A266505"
   ],
   "tags": [
     "easy",
     "formulas",
+    "less",
     "sign"
   ],
   "terms": {

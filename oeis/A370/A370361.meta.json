@@ -1,0 +1,21 @@
+{
+  "description": "Minimum greatest prime factor for a length n number with 2 distinct digits, excluding multiples of 10.",
+  "id": "A370361",
+  "mentions": [
+    "A006530",
+    "A010716",
+    "A370849"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

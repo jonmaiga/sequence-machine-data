@@ -1,0 +1,17 @@
+{
+  "description": "Self-convolution of A138020.",
+  "id": "A370276",
+  "mentions": [
+    "A000984",
+    "A138020"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

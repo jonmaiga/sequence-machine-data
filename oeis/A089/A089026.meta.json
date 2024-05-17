@@ -2,9 +2,11 @@
   "description": "a(n) = n if n is a prime, otherwise a(n) = 1.",
   "id": "A089026",
   "mentions": [
+    "A000027",
     "A000217",
     "A007406",
     "A007619",
+    "A007947",
     "A008683",
     "A010051",
     "A014963",

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of -x/((x^2+x+1)*(x^2+3*x+1)); Invert transform gives signed version of Tetrahedral numbers A000292.",
+  "description": "Expansion of -x/((x^2+x+1)*(x^2+3*x+1)); invert transform gives signed version of tetrahedral numbers A000292.",
   "id": "A113067",
   "mentions": [
     "A000292",

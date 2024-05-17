@@ -1,0 +1,13 @@
+{
+  "description": "G.f. A(x) = Sum_{n>=0} a(n)*x^n where a(n) = Sum_{k=0..n} ( [x^k] A(2*x)^(n+1) (mod 2^(n+1)) ) for n >= 0 with a(0) = 1.",
+  "id": "A371715",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

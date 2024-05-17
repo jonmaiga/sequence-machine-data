@@ -1,5 +1,5 @@
 {
-  "description": "Triangle red by rows: T(n,m) = binomial(n+m,1+n), 1<=m<=n.",
+  "description": "Triangle read by rows: T(n,m) = binomial(n+m,1+n), 1<=m<=n.",
   "id": "A130746",
   "mentions": [
     "A000292",

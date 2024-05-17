@@ -1,17 +1,18 @@
 {
-  "description": "a(n) = number of prime knots with determinant 2n+1 and signature 0.",
+  "description": "a(n) = number of prime knots up to nine crossings with determinant 2n+1 and signature 0.",
   "id": "A172293",
   "mentions": [
     "A002863",
     "A172184"
   ],
   "tags": [
-    "more",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

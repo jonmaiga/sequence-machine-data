@@ -1,0 +1,53 @@
+{
+  "description": "Number of subsets of {1..n} containing n such that it is not possible to choose a different prime factor of each element (non-choosable).",
+  "id": "A370587",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001222",
+    "A005117",
+    "A006530",
+    "A020639",
+    "A027746",
+    "A045778",
+    "A112798",
+    "A133686",
+    "A355529",
+    "A355739",
+    "A355741",
+    "A355744",
+    "A355745",
+    "A367902",
+    "A367903",
+    "A367905",
+    "A367906",
+    "A367907",
+    "A368094",
+    "A368095",
+    "A368097",
+    "A368098",
+    "A368100",
+    "A368413",
+    "A368414",
+    "A370582",
+    "A370583",
+    "A370584",
+    "A370585",
+    "A370586",
+    "A370588",
+    "A370589",
+    "A370592",
+    "A370593",
+    "A370636",
+    "A370639"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

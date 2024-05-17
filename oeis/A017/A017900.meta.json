@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of 1/(1 -x^6 -x^7 -x^8 - ...).",
+  "description": "Expansion of 1/(1 - x^6 - x^7 - x^8 - ...).",
   "id": "A017900",
   "mentions": [
     "A000045",
     "A000930",
+    "A005708",
     "A017898",
     "A017904"
   ],

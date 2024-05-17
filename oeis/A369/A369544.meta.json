@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = Sum_{n>=0} x^(n+1) * Product_{k=0..n} (x^k + A(x)).",
+  "id": "A369544",
+  "mentions": [
+    "A229188"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

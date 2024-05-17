@@ -1,5 +1,5 @@
 {
-  "description": "[n/1][n/2][n/3] ...[n/n] / n^(tau(n)/2).",
+  "description": "a(n) = [n/1][n/2][n/3] ...[n/n] / n^(tau(n)/2).",
   "id": "A076891",
   "mentions": [
     "A000005",

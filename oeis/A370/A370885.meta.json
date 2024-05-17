@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the total number of unmatched parentheses (both left and right) in the k-th string of parentheses of length n, where strings within a row are in reverse lexicographical order.",
+  "id": "A370885",
+  "mentions": [
+    "A000079",
+    "A189391",
+    "A370883",
+    "A370884"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

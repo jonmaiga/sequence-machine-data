@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(A(A(A(x)))) = F(x), where F(x) is the g.f. for A002697(n) = n*4^(n-1).",
+  "id": "A372492",
+  "mentions": [
+    "A002697",
+    "A309509"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

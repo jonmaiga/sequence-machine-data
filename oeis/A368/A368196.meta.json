@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows where row n is the trajectory starting from n and ending with 2 of the map x -> A368241(x).",
+  "id": "A368196",
+  "mentions": [
+    "A000720",
+    "A005171",
+    "A006512",
+    "A010051",
+    "A368241"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

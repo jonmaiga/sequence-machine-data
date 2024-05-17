@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of integers m from 1 to n inclusive such that m^m is a cube.",
+  "id": "A371587",
+  "mentions": [
+    "A000578",
+    "A329547"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

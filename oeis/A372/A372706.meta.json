@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} mu(n*k), where mu is the Moebius function A008683.",
+  "id": "A372706",
+  "mentions": [
+    "A002321",
+    "A008663",
+    "A008683",
+    "A013929",
+    "A372700"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

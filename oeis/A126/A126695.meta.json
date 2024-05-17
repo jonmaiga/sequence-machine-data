@@ -1,7 +1,9 @@
 {
   "description": "Numbers that can be expressed as the ratio between the product and the sum of n consecutive numbers with n>1.",
   "id": "A126695",
-  "mentions": [],
+  "mentions": [
+    "A370601"
+  ],
   "tags": [
     "easy",
     "formulas",

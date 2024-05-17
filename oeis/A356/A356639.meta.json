@@ -1,5 +1,5 @@
 {
-  "description": "Number of integer sequences b with b(1) = 1, b(m) > 0 and b(m+1) - b(m) > 0, of length n which transform under the map S into a nonnegative integer sequence. The transform c = S(b) is defined by c(m) = Product_{k=1..m} b(k) / Product_{k=2..m}( b(k)-b(k-1)).",
+  "description": "Number of integer sequences b with b(1) = 1, b(m) > 0 and b(m+1) - b(m) > 0, of length n which transform under the map S into a nonnegative integer sequence. The transform c = S(b) is defined by c(m) = Product_{k=1..m} b(k) / Product_{k=2..m} (b(k) - b(k-1)).",
   "id": "A356639",
   "mentions": [
     "A000005",

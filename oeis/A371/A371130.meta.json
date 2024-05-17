@@ -1,0 +1,47 @@
+{
+  "description": "Number of integer partitions of n such that the number of parts is equal to the number of distinct divisors of parts.",
+  "id": "A371130",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000021",
+    "A000041",
+    "A001222",
+    "A003963",
+    "A008284",
+    "A239312",
+    "A303975",
+    "A319055",
+    "A355529",
+    "A355731",
+    "A355740",
+    "A368100",
+    "A368110",
+    "A370320",
+    "A370348",
+    "A370592",
+    "A370593",
+    "A370802",
+    "A370803",
+    "A370808",
+    "A370809",
+    "A370813",
+    "A370814",
+    "A370820",
+    "A371128",
+    "A371168",
+    "A371171",
+    "A371172",
+    "A371173",
+    "A371177",
+    "A371178"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

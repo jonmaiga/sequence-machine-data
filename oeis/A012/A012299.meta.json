@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. arcsinh(sin(x)*sin(x)), even indexed terms only.",
+  "description": "Expansion of e.g.f. arcsinh(sin(x)*sin(x)), even-indexed terms only.",
   "id": "A012299",
   "mentions": [],
   "tags": [

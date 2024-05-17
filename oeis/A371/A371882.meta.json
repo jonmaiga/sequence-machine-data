@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^7 * (1 - 7*k*(H(k) - H(n-k))), where H(n) is the n-th harmonic number.",
+  "id": "A371882",
+  "mentions": [
+    "A000984",
+    "A001008",
+    "A005258",
+    "A183204"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

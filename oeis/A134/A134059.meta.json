@@ -2,7 +2,7 @@
   "description": "Triangle T(n, k) = 3*binomial(n,k) with T(0, 0) = 1, read by rows.",
   "id": "A134059",
   "mentions": [
-    "A003718",
+    "A007318",
     "A082505",
     "A084938",
     "A134058"

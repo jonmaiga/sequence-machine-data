@@ -8,6 +8,7 @@
     "A005649",
     "A106356",
     "A238424",
+    "A238594",
     "A261962",
     "A292884",
     "A325534",
@@ -23,8 +24,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 50,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

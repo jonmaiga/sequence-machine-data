@@ -2,9 +2,11 @@
   "description": "Fixed point of the morphism 0->{1}, 1->{1,0,1}.",
   "id": "A104521",
   "mentions": [
+    "A049473",
     "A080764"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

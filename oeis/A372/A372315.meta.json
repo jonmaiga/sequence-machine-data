@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp( x - LambertW(-2*x)/2 ).",
+  "id": "A372315",
+  "mentions": [
+    "A088957",
+    "A360193",
+    "A362694",
+    "A372316",
+    "A372320",
+    "A372321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

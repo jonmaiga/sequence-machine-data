@@ -1,0 +1,38 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of unlabeled simple graphs covering n vertices with k = 0..binomial(n,2) edges.",
+  "id": "A370167",
+  "mentions": [
+    "A000664",
+    "A000666",
+    "A001349",
+    "A002494",
+    "A002905",
+    "A006125",
+    "A006129",
+    "A006649",
+    "A008406",
+    "A054547",
+    "A054548",
+    "A054921",
+    "A054924",
+    "A062734",
+    "A066383",
+    "A084546",
+    "A121251",
+    "A173219",
+    "A283755",
+    "A322661",
+    "A322700",
+    "A369195",
+    "A369199"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

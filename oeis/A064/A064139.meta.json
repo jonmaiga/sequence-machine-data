@@ -1,5 +1,5 @@
 {
-  "description": "Sum of divisors of central binomial coefficient C(n, floor(n/2)).",
+  "description": "Sum of divisors of central binomial coefficient binomial(n, floor(n/2)).",
   "id": "A064139",
   "mentions": [
     "A000203",

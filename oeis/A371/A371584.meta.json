@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = ( 1 + x*A(x)^(5/2) / (1 - x*A(x))^2 )^2.",
+  "id": "A371584",
+  "mentions": [
+    "A371579"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

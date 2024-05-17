@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically latest sequence of distinct nonnegative integers such that the run lengths transforms of the balanced ternary expansions of n and of a(n) are the same.",
+  "id": "A371267",
+  "mentions": [
+    "A003462",
+    "A371261",
+    "A371263"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

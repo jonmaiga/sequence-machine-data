@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n/2)*floor(n/3)-floor(n/6)^2.",
+  "description": "a(n) = floor(n/2)*floor(n/3)-floor(n/6)^2.",
   "id": "A213032",
   "mentions": [],
   "tags": [

@@ -2,15 +2,17 @@
   "description": "Contains exactly once every triple i,j,k such that 0",
   "id": "A097293",
   "mentions": [
+    "A001399",
     "A098294"
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 104,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

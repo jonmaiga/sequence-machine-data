@@ -1,15 +1,16 @@
 {
   "description": "Decimal expansion of Zeta(Zeta(5)).",
   "id": "A110988",
-  "mentions": [],
+  "mentions": [
+    "A013663"
+  ],
   "tags": [
     "cons",
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 99,
     "source": "oeis-entry"
   }

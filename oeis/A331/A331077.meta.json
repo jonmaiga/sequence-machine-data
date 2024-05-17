@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k = 1 to n} [d(k)*d_3(k)], where d = A000005, d_3 = A007425.",
+  "description": "a(n) = Sum_{k = 1..n} [d(k)*d_3(k)], where d = A000005, d_3 = A007425.",
   "id": "A331077",
   "mentions": [
     "A000005",
@@ -7,11 +7,12 @@
     "A330570"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

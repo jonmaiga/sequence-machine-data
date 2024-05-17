@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of letters in the Italian name of the n-th ordinal number.",
+  "id": "A372204",
+  "mentions": [
+    "A006944",
+    "A026858"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

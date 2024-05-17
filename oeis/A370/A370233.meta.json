@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows. T(n, k) = (n - k + 1) * binomial(n + k + 1, 2*k)^2 / (n + k + 1).",
+  "id": "A370233",
+  "mentions": [
+    "A370232",
+    "A370234"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

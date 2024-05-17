@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of runs in the balanced ternary expansion of n.",
+  "id": "A371275",
+  "mentions": [
+    "A005811",
+    "A043555",
+    "A134021",
+    "A153773",
+    "A297770"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways to place n indistinguishable balls into n distinguishable boxes with at least 4 boxes remaining empty.",
+  "id": "A370197",
+  "mentions": [
+    "A001700",
+    "A010763",
+    "A352027",
+    "A371003"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

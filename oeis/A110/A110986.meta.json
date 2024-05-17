@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of Zeta(Zeta(3)).",
   "id": "A110986",
-  "mentions": [],
+  "mentions": [
+    "A002117"
+  ],
   "tags": [
     "cons",
     "easy",

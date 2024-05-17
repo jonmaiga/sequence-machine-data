@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (3*n - 1)!*n/2.",
   "id": "A065961",
-  "mentions": [],
+  "mentions": [
+    "A100732"
+  ],
   "tags": [
     "formulas",
     "nonn"

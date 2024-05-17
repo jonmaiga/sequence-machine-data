@@ -1,17 +1,22 @@
 {
-  "description": "Number of energy levels in atoms of n-th element of periodic table.",
+  "description": "Number of energy levels in atoms of the n-th element of the periodic table.",
   "id": "A058318",
   "mentions": [
     "A007656",
-    "A058317"
+    "A018227",
+    "A058317",
+    "A137583",
+    "A173592"
   ],
   "tags": [
     "fini",
+    "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 105,
+    "size": 118,
     "source": "oeis-entry"
   }
 }

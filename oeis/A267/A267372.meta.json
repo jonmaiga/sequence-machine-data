@@ -1,8 +1,9 @@
 {
-  "description": "Lengths of iterates in A267371",
+  "description": "Lengths of iterates in A267371.",
   "id": "A267372",
   "mentions": [
-    "A267371"
+    "A267371",
+    "A267373"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

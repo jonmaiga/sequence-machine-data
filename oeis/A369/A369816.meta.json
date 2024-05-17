@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 - x^5 - x^7).",
+  "id": "A369816",
+  "mentions": [
+    "A005709",
+    "A017847",
+    "A369813",
+    "A369814",
+    "A369815"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

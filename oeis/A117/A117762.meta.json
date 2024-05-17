@@ -2,7 +2,9 @@
   "description": "a(1) = 6; for n>1, a(n) = prime(n)*(prime(n)^2 - 1)/2.",
   "id": "A117762",
   "mentions": [
+    "A000040",
     "A084920",
+    "A084921",
     "A127918"
   ],
   "tags": [

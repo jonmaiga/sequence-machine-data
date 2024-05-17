@@ -1,5 +1,5 @@
 {
-  "description": "'Even' fractal sequence for the natural numbers: Deleting every even-index term results in the same sequence.",
+  "description": "\"Even\" fractal sequence for the natural numbers: Deleting every even-indexed term results in the same sequence.",
   "id": "A103391",
   "mentions": [
     "A003602",

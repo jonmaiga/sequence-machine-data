@@ -8,17 +8,17 @@
     "A362168",
     "A362169",
     "A362171",
-    "A362172"
+    "A362172",
+    "A369288"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

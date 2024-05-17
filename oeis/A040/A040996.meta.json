@@ -1,7 +1,9 @@
 {
   "description": "Maximum number of distinct functions at the bottom of a Boolean (or Binary) Decision Diagram (or BDD) with negation by pointer complementation.",
   "id": "A040996",
-  "mentions": [],
+  "mentions": [
+    "A000217"
+  ],
   "tags": [
     "formulas",
     "nonn"

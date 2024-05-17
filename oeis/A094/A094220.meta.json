@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p+210*(i-1) is prime for i=1 to 10.",
+  "description": "Primes p such that p+210*i is prime for i=1 to 9.",
   "id": "A094220",
   "mentions": [
     "A227284"

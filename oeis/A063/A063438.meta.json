@@ -1,7 +1,8 @@
 {
-  "description": "Floor((n+1)*Pi)-Floor(n*Pi).",
+  "description": "a(n) = floor((n+1)*Pi) - floor(n*Pi).",
   "id": "A063438",
   "mentions": [
+    "A000796",
     "A003849",
     "A006337",
     "A010056",

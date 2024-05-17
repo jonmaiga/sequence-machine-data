@@ -1,0 +1,16 @@
+{
+  "description": "The number of digits in max(a,b,c), where a, b, and c are the smallest positive integer solutions to a/(b+c) + b/(a+c) + c/(a+b) = A283564(n).",
+  "id": "A371846",
+  "mentions": [
+    "A283564"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

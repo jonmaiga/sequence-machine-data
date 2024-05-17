@@ -1,5 +1,5 @@
 {
-  "description": "Number of (1, 1)-steps in all Delannoy paths of length n.",
+  "description": "Number of (1,1)-steps in all Delannoy paths of length n.",
   "id": "A108666",
   "mentions": [
     "A001850",

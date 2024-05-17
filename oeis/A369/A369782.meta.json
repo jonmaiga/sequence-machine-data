@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} n^phi(n/p).",
+  "id": "A369782",
+  "mentions": [
+    "A000010",
+    "A345893",
+    "A347104",
+    "A369687",
+    "A369779"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

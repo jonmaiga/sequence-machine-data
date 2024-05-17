@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that all prime factors of n are a substring of n.",
+  "description": "Composite numbers k such that all prime factors of k are a substring of k.",
   "id": "A050694",
   "mentions": [
     "A035140",

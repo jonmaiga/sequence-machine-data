@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes in A007443: binomial transform of the primes.",
+  "description": "Indices of primes in A007443.",
   "id": "A287915",
   "mentions": [
     "A000040",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that A068864(n) = n.",
+  "description": "Squares k^2 such that A068864(k) = k^2.",
   "id": "A068867",
   "mentions": [
+    "A000290",
     "A068854",
     "A068864"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "joeis"
   }
 }

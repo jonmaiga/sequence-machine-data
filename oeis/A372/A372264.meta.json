@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! - n^2 + 2n - 1.",
+  "id": "A372264",
+  "mentions": [
+    "A370888",
+    "A371217",
+    "A372255",
+    "A372256"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

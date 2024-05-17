@@ -2,8 +2,10 @@
   "description": "A001333(n), n >= 1, convolved with itself.",
   "id": "A054459",
   "mentions": [
+    "A000129",
     "A001333",
     "A002203",
+    "A006645",
     "A054458"
   ],
   "tags": [

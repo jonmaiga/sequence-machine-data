@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the Zeckendorf expansions of two consecutive terms have at least one common term.",
+  "id": "A370631",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A003714",
+    "A115510",
+    "A370630",
+    "A370632"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

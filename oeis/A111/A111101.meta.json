@@ -2,16 +2,18 @@
   "description": "Cumulative sum of A000001(n)^A000001(n).",
   "id": "A111101",
   "mentions": [
-    "A000001"
+    "A000001",
+    "A000312"
   ],
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

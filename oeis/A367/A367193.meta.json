@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the numerator of the fraction whose numerator + denominator = n that is closest to Pi. The fraction does not need to be in simplest form; the numerator and denominator must be integers.",
+  "description": "The x-coordinate of the point where x + y = n, x and y are integers and x/y is as close as possible to Pi.",
   "id": "A367193",
   "mentions": [
     "A000796",

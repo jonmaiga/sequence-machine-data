@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A( 2*x^2/(1-2*x)^2 ) = 2*A(x)^2.",
+  "id": "A371712",
+  "mentions": [
+    "A000108",
+    "A371711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

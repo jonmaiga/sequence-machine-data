@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k > 0 such that n^k contains the digit 1.",
+  "id": "A371706",
+  "mentions": [
+    "A098174",
+    "A255357",
+    "A255430",
+    "A275533"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

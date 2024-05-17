@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Sum_{n>=0} ( (1+x)^n/(1-x)^n - (1-x)^n/(1+x)^n )^n / 4^n.",
+  "id": "A369088",
+  "mentions": [
+    "A319466",
+    "A319947",
+    "A369089"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

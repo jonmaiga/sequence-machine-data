@@ -1,0 +1,19 @@
+{
+  "description": "Maximal coefficient of (1 + x^2) * (1 + x^2 + x^3) * (1 + x^2 + x^3 + x^5) * ... * (1 + x^2 + ... + x^prime(n)).",
+  "id": "A369775",
+  "mentions": [
+    "A000040",
+    "A000140",
+    "A039831",
+    "A350457",
+    "A359328"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices of novel terms in A351073, where A351073 is the maximal exponent in the prime factorization of the numbers that are sums of distinct primorial numbers.",
+  "id": "A369648",
+  "mentions": [
+    "A002110",
+    "A051903",
+    "A276156",
+    "A351073",
+    "A369647",
+    "A369649"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

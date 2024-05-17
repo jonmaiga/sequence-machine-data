@@ -1,8 +1,9 @@
 {
-  "description": "Number of binary strings of length n with no substrings equal to 0001 0011 or 1110",
+  "description": "Number of binary strings of length n with no substrings equal to 0001 0011 or 1110.",
   "id": "A164461",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

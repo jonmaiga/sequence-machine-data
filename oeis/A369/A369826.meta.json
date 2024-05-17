@@ -1,0 +1,21 @@
+{
+  "description": "Number of the rightmost decimal digits of n^n that are the same as those of n^(n^n).",
+  "id": "A369826",
+  "mentions": [
+    "A002488",
+    "A317905",
+    "A349425",
+    "A369771"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

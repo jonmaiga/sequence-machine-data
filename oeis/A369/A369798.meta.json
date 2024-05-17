@@ -1,0 +1,19 @@
+{
+  "description": "S is a \"boomerang sequence\": multiply each digit d of S by the number to which d belongs: the sequence S remains identical to itself if we follow each multiplication with a comma.",
+  "id": "A369798",
+  "mentions": [
+    "A369603",
+    "A369604",
+    "A369823",
+    "A369824"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

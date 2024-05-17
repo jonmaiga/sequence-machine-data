@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the 2-adic valuation of 3n+1.",
+  "id": "A371093",
+  "mentions": [
+    "A000004",
+    "A004736",
+    "A007814",
+    "A016777",
+    "A067745",
+    "A087230",
+    "A257852",
+    "A371092"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

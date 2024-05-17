@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of inequivalent (as defined below) transitive binary relations R on [n] such that |domain(R intersect R^(-1))| = k, n>=0, 0<=k<=n.",
+  "id": "A369776",
+  "mentions": [
+    "A000798",
+    "A001035",
+    "A006059",
+    "A006905",
+    "A369778",
+    "A369799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

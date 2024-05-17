@@ -2,12 +2,9 @@
   "description": "Numbers k such that d(k) does not divide phi(k).",
   "id": "A015733",
   "mentions": [
-    "A000005",
-    "A000010",
     "A020491"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

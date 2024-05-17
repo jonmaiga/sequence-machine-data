@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of [n] having exactly one adjacent 4-cycle.",
+  "id": "A369098",
+  "mentions": [
+    "A177252",
+    "A370527"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

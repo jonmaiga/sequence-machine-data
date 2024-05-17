@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of pseudo-Latin stable matchings in a particular matrix of size n (see Comments for detail).",
+  "id": "A371810",
+  "mentions": [
+    "A069124"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

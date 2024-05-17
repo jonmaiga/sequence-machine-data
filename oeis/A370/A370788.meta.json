@@ -1,0 +1,20 @@
+{
+  "description": "Cubefull numbers with an odd number of prime factors (counted with multiplicity).",
+  "id": "A370788",
+  "mentions": [
+    "A026424",
+    "A036966",
+    "A362974",
+    "A370786",
+    "A370787"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

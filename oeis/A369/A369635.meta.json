@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in whose base 3-representation every two consecutive digits and every three consecutive digits are distinct.",
+  "id": "A369635",
+  "mentions": [
+    "A023798",
+    "A037496",
+    "A037504",
+    "A037512",
+    "A037520"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

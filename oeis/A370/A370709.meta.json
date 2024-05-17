@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^n * [x^n] Product_{k>=1} (1 + 2*x^k)^(1/2).",
+  "id": "A370709",
+  "mentions": [
+    "A032302",
+    "A075900",
+    "A298994",
+    "A300581",
+    "A304961",
+    "A327550",
+    "A370713"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

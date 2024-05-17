@@ -2,6 +2,7 @@
   "description": "a(n) = 5*a(n-2), starting 1,2,4.",
   "id": "A026395",
   "mentions": [
+    "A000010",
     "A026386"
   ],
   "tags": [

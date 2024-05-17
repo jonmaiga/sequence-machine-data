@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least positive k such that Product_{i=1..k} (1 + 1/(2*i-1)) >= n.",
+  "id": "A371702",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A001803",
+    "A046161",
+    "A072986",
+    "A371701"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

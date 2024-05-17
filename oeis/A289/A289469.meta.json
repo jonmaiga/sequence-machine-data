@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that it is possible to form a palindrome by concatenating the first k positive integers in some order.",
   "id": "A289469",
-  "mentions": [],
+  "mentions": [
+    "A291633"
+  ],
   "tags": [
     "base",
     "hard",

@@ -1,0 +1,19 @@
+{
+  "description": "Primes that do not divide any 3-Carmichael numbers.",
+  "id": "A369777",
+  "mentions": [
+    "A033270",
+    "A051663",
+    "A087788",
+    "A290481",
+    "A290484"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

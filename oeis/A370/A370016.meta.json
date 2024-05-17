@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of A(x) = [ Sum_{n>=0} 2^(n*(n-1)/2) * (1 + 2^(2*n+1))/3 * x^(n*(n+1)/2) ]^(1/3).",
+  "id": "A370016",
+  "mentions": [
+    "A304961",
+    "A370015",
+    "A370019",
+    "A370145",
+    "A370148",
+    "A370334",
+    "A370336",
+    "A370716",
+    "A370765"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

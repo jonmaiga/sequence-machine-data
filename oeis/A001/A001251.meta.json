@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of order n with the length of longest run equal 3.",
+  "description": "Number of permutations of order n with the length of longest run equal to 3.",
   "id": "A001251",
   "mentions": [
     "A001250",

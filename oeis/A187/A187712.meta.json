@@ -1,5 +1,5 @@
 {
-  "description": "Composites n such that n = (product of divisors of n) mod (sum of divisors of n).",
+  "description": "Composite numbers k such that k = (product of divisors of k) mod (sum of divisors of k).",
   "id": "A187712",
   "mentions": [
     "A000203",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
-    "source": "oeis-entry"
+    "size": 46,
+    "source": "oeis-bfile"
   }
 }

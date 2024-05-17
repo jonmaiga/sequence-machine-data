@@ -1,0 +1,20 @@
+{
+  "description": "The smallest number k that has a factorization k = f1*f2*...*fr where the digits of {k, f1, f2, ..., fr} together contain all, and only, the digits 0..n, where n<=9.",
+  "id": "A371993",
+  "mentions": [
+    "A370970",
+    "A370972",
+    "A371958"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,17 @@
 {
-  "description": "a(1)=0; for n>1, a(n) = k if n is a non-prime-power, A007916(k), say; or 0 if n is a prime power.",
+  "description": "a(1) = 0; for n > 1, a(n) = k if n is a non-perfect-power, A007916(k); or 0 if n is a perfect power.",
   "id": "A278029",
   "mentions": [
     "A007916",
     "A052409",
+    "A072813",
     "A089723",
     "A277564",
-    "A278028"
+    "A278028",
+    "A289023"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

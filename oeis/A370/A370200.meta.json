@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = numerator((n!)^2/(2*(n-2)!*n^n)).",
+  "id": "A370200",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A001044",
+    "A370201"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 24,
+    "source": "joeis"
+  }
+}

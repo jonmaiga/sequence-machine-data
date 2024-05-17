@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n) = n*(a(n-1) + a(n-2) + ... + a(2) + a(1)) - 1.",
+  "description": "a(1)=1, a(n) = -1 + n*Sum_{j=1..n-1} a(j).",
   "id": "A082425",
   "mentions": [
     "A001339",
@@ -13,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

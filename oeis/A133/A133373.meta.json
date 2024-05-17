@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which n^3+n+1 is abundant (A005101).",
+  "description": "Numbers k for which k^3 + k + 1 is abundant (A005101).",
   "id": "A133373",
   "mentions": [
     "A005101",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

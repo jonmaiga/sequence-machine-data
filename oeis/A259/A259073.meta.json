@@ -1,16 +1,7 @@
 {
   "description": "Decimal expansion of zeta'(-8) (the derivative of Riemann's zeta function at -8).",
   "id": "A259073",
-  "mentions": [
-    "A075700",
-    "A084448",
-    "A240966",
-    "A259068",
-    "A259069",
-    "A259070",
-    "A259071",
-    "A259072"
-  ],
+  "mentions": [],
   "tags": [
     "cons",
     "formulas",

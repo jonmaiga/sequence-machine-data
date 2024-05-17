@@ -1,18 +1,19 @@
 {
-  "description": "A set of Cartan-like matrices with the properties that either the rows or columns as sums are zero that give a triangle of coefficients of characteristic polynomials: Example 3 X 3 matrix (row sums zero): {{2, -2, 0}, {-1, 2, -1}, {0, -2, 2}}.",
+  "description": "Triangle by rows with row n formed by coefficients of the characteristic polynomial of the n X n tridiagonal matrix with m_{i,i} = 2 for i=1..n, m_{i,i-1} = m_{i,i+1} = -1 for i=2..n-1, and m_{1,2} = m_{n,n-1} = -2.",
   "id": "A140882",
   "mentions": [
+    "A049310",
+    "A133156",
     "A228785",
     "A267633"
   ],
   "tags": [
     "formulas",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 66,
     "source": "oeis-entry"
   }

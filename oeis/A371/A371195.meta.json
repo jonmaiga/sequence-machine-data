@@ -1,0 +1,16 @@
+{
+  "description": "List of values q^5-q^4 as q runs through A000961 (that is, 1, primes, and prime powers).",
+  "id": "A371195",
+  "mentions": [
+    "A000961",
+    "A371193"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

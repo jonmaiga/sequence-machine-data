@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that every prime p that divides d(n) (A000005) also divides n.",
+  "description": "Numbers k such that every prime p that divides d(k) (A000005) also divides k.",
   "id": "A120736",
   "mentions": [
     "A000005",

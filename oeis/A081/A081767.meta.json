@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2-1 divides binomial(2n,n).",
+  "description": "Numbers k such that k^2 - 1 divides binomial(2k,k).",
   "id": "A081767",
   "mentions": [
     "A000108",

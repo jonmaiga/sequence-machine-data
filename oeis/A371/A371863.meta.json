@@ -1,0 +1,19 @@
+{
+  "description": "Records in A370748.",
+  "id": "A371863",
+  "mentions": [
+    "A370748",
+    "A371864"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

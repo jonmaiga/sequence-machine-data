@@ -1,5 +1,5 @@
 {
-  "description": "G.f. (1-x)(x^2-5x+3)/(x^4-6x^3+13x^2-6x+1).",
+  "description": "Expansion of g.f. (1-x)(x^2-5x+3)/(x^4-6x^3+13x^2-6x+1).",
   "id": "A105660",
   "mentions": [],
   "tags": [

@@ -1,0 +1,23 @@
+{
+  "description": "Dedekind psi function applied to the cubefull exponentially odd numbers (A335988).",
+  "id": "A371415",
+  "mentions": [
+    "A001615",
+    "A065464",
+    "A098198",
+    "A323332",
+    "A335988",
+    "A371413",
+    "A371414"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

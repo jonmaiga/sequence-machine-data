@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(4*n,k) * binomial(5*n-k-1,n-k).",
+  "id": "A370102",
+  "mentions": [
+    "A001448",
+    "A365847",
+    "A370098",
+    "A370099",
+    "A370100",
+    "A370101"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

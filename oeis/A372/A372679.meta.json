@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(15 * n)/8.",
+  "id": "A372679",
+  "mentions": [
+    "A008683",
+    "A372673"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

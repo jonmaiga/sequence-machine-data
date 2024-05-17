@@ -2,6 +2,7 @@
   "description": "Row sums of triangle A049424.",
   "id": "A049427",
   "mentions": [
+    "A005011",
     "A049424",
     "A157394",
     "A293991"

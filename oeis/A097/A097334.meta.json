@@ -1,5 +1,5 @@
 {
-  "description": "Sum k=0..n, C(n-k, floor(k/2))2^k.",
+  "description": "a(n) = Sum_{k=0..n} C(n-k, floor(k/2))*2^k.",
   "id": "A097334",
   "mentions": [
     "A089977",

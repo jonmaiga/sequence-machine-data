@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the repunit of length n (11...11, with n 1's) has exactly 2 prime factors.",
+  "description": "Numbers k such that the repunit of length k (11...11, with k 1's) has exactly 2 prime factors.",
   "id": "A046413",
   "mentions": [
     "A000042",

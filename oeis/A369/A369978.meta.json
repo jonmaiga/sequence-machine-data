@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet inverse of sequence b(n) = 1+A083345(n), where A083345(n) = n' / gcd(n,n'), and n' stands for the arithmetic derivative of n, A003415.",
+  "id": "A369978",
+  "mentions": [
+    "A003415",
+    "A083345",
+    "A359790",
+    "A366265",
+    "A369001",
+    "A369974",
+    "A369975",
+    "A369976"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

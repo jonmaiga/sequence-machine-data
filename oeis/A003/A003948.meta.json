@@ -2,6 +2,7 @@
   "description": "Expansion of (1+x)/(1-5*x).",
   "id": "A003948",
   "mentions": [
+    "A001177",
     "A003946",
     "A003947",
     "A003949",

@@ -1,0 +1,30 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals downwards, where T(n,k) = phi(k*n) / phi(k).",
+  "id": "A372673",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A005117",
+    "A062570",
+    "A195459",
+    "A359101",
+    "A359102",
+    "A372619",
+    "A372671",
+    "A372672",
+    "A372676",
+    "A372677",
+    "A372678",
+    "A372679",
+    "A372681"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

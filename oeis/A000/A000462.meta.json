@@ -2,6 +2,7 @@
   "description": "Numbers written in base of triangular numbers.",
   "id": "A000462",
   "mentions": [
+    "A000217",
     "A003056",
     "A057945"
   ],

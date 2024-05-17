@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (266*10^n-17)/3 is prime.",
+  "description": "Numbers k such that (266*10^k - 17)/3 is prime.",
   "id": "A273944",
   "mentions": [
     "A056654",

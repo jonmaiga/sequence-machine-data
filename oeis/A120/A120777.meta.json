@@ -1,9 +1,10 @@
 {
-  "description": "One half of denominators of partial sums of a series for sqrt(2).",
+  "description": "a(n) = 2^(2*n - valuation(CatalanNumber(n), 2)).",
   "id": "A120777",
   "mentions": [
     "A000108",
     "A001511",
+    "A048881",
     "A120088",
     "A120778",
     "A120783",
@@ -11,7 +12,8 @@
     "A120788",
     "A120793",
     "A120796",
-    "A162446"
+    "A162446",
+    "A283208"
   ],
   "tags": [
     "easy",
@@ -21,7 +23,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

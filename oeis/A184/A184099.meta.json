@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk toroidal 0..2 arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors",
+  "description": "T(n,k) = Number of n X k toroidal 0..2 arrays with each element having the sum of its vertical neighbors equal to the sum of its horizontal neighbors.",
   "id": "A184099",
   "mentions": [],
   "tags": [

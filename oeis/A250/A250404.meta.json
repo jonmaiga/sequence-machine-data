@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the set of all distinct values of phi of all divisors of n equals the set of all proper divisors of n+1 where phi is the Euler totient function (A000010).",
+  "description": "Numbers k such that the set of all distinct values of phi of all divisors of k equals the set of all proper divisors of k+1 where phi is the Euler totient function (A000010).",
   "id": "A250404",
   "mentions": [
     "A000010",
@@ -7,12 +7,13 @@
     "A250405"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

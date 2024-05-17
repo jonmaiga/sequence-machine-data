@@ -1,0 +1,18 @@
+{
+  "description": "Number of tilings of a 5 X n rectangle using n pentominoes of shapes T, W, I, X.",
+  "id": "A372221",
+  "mentions": [
+    "A003520",
+    "A174249",
+    "A366324"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

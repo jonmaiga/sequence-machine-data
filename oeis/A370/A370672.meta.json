@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of arranging 2n+1 nonattacking queens on a 2n+1 X 2n+1 toroidal board using knight moves.",
+  "id": "A370672",
+  "mentions": [
+    "A007705",
+    "A051906",
+    "A123565",
+    "A338562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

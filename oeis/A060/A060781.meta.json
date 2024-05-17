@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that lcm(sigma(n+1), sigma(n)) = lcm(A000203(n+1), A000203(n)).",
+  "description": "a(n) = lcm(sigma(n+1), sigma(n)) = lcm(A000203(n+1), A000203(n)).",
   "id": "A060781",
   "mentions": [
     "A000203"

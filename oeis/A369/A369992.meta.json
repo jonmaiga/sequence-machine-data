@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = (2^floor(n/2)+k)-th numerator coefficient of the polynomial q_n used to parametrize the canonical stribolic iterates h_n (of order 1), for n=0,1,2,... and 0 <= k <= A000045(n+1) - 2^floor(n/2).",
+  "id": "A369992",
+  "mentions": [
+    "A000045",
+    "A369988",
+    "A369990",
+    "A369991",
+    "A369993"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

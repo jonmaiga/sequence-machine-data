@@ -1,12 +1,14 @@
 {
-  "description": "Sum of exponents in prime factorization of n is < log(n).",
+  "description": "Numbers k such that the sum of exponents in the prime factorization of k is < log(k).",
   "id": "A067715",
-  "mentions": [],
+  "mentions": [
+    "A067712"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 70,
     "source": "joeis"
   }

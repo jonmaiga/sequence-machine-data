@@ -1,5 +1,5 @@
 {
-  "description": "Number of 1:4:sqrt(17) proportioned triangles on a (n+1)X(n+1) grid",
+  "description": "Number of 1:4:sqrt(17) proportioned triangles on a (n+1) X (n+1) grid.",
   "id": "A189884",
   "mentions": [
     "A189885"

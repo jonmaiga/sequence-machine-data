@@ -1,7 +1,8 @@
 {
-  "description": "Constant term when a polynomial of degree n is fitted to the first n+1 lower members of the twin prime pairs.",
+  "description": "Constant term when a polynomial of degree n is fitted to the lower members of the first n+1 twin prime pairs.",
   "id": "A082674",
   "mentions": [
+    "A001359",
     "A082594",
     "A082675",
     "A088460"

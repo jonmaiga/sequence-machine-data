@@ -1,12 +1,14 @@
 {
-  "description": "66n + 12.",
+  "description": "a(n) = 66*n + 12.",
   "id": "A139612",
   "mentions": [
+    "A017413",
     "A057145",
     "A139600"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

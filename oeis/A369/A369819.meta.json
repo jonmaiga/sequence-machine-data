@@ -1,0 +1,17 @@
+{
+  "description": "The seventh term of the greedy B_n set of natural numbers.",
+  "id": "A369819",
+  "mentions": [
+    "A365515",
+    "A369818"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

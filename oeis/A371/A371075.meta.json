@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are equal to the sum of their proper prime factors and of all the proper prime factors obtained in the proper prime factorization of the composite factors till no composite numbers remain.",
+  "id": "A371075",
+  "mentions": [
+    "A000396",
+    "A005101",
+    "A299795"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

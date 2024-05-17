@@ -1,7 +1,9 @@
 {
   "description": "Number of distinct quadratic residues mod 8^n.",
   "id": "A039305",
-  "mentions": [],
+  "mentions": [
+    "A001018"
+  ],
   "tags": [
     "easy",
     "formulas",

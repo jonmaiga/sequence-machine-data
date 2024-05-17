@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows: T(n, k) is the number of n X 2 Young tableaux with k vertical walls.",
+  "id": "A368745",
+  "mentions": [
+    "A336524"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 1's in binary expansion of n is equal to the number of 1's in binary expansion of the reversal of n.",
+  "description": "Numbers k such that the number of 1's in the binary expansion of k is equal to the number of 1's in the binary expansion of the reversal of k.",
   "id": "A085429",
   "mentions": [
     "A000120",

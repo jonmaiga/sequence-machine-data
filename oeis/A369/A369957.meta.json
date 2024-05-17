@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p - 3 and p + 3 are triprimes.",
+  "id": "A369957",
+  "mentions": [
+    "A001222",
+    "A014612",
+    "A063643"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

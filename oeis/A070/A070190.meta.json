@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: I_0(2*x)^5 + 2*Sum_{k>=1} I_k(2*x)^5, where I_n(z) are modified Bessel functions of order n.",
+  "description": "Expansion of e.g.f. I_0(2*x)^5 + 2*Sum_{k>=1} I_k(2*x)^5, where I_n(z) are modified Bessel functions of order n.",
   "id": "A070190",
   "mentions": [
     "A002898"

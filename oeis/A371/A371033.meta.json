@@ -1,0 +1,17 @@
+{
+  "description": "Decimal version of A371032.",
+  "id": "A371033",
+  "mentions": [
+    "A007088",
+    "A371032"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

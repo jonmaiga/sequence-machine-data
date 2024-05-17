@@ -1,8 +1,9 @@
 {
-  "description": "[3n/2]*[n/3], where [] = floor.",
+  "description": "a(n) = floor(3*n/2)*floor(n/3).",
   "id": "A213034",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

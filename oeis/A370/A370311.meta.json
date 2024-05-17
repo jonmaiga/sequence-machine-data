@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles in the n-Lucas cube graph.",
+  "id": "A370311",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

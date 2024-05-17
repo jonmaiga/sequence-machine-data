@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(q) satisfying -2 = Product_{n>=0} (1 - 3*q^n*A(q)).",
+  "id": "A370442",
+  "mentions": [
+    "A152807",
+    "A370443",
+    "A370444",
+    "A370445"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

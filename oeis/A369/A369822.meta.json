@@ -1,0 +1,16 @@
+{
+  "description": "Number of (undirected) Eulerian cycles in the (2n)-dipyramid graph.",
+  "id": "A369822",
+  "mentions": [
+    "A193858"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

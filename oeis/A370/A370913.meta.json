@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 4^(n - k)*Pochhammer(k/4, n - k). Row sums of A370915(n - k, k).",
+  "id": "A370913",
+  "mentions": [
+    "A370915"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

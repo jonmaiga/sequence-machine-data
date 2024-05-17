@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} k! * x^k/(1+x^k)^(k+1).",
+  "id": "A370674",
+  "mentions": [
+    "A177249",
+    "A177251",
+    "A177253",
+    "A344777",
+    "A358411"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

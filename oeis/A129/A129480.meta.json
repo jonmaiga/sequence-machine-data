@@ -1,5 +1,5 @@
 {
-  "description": "Prime(17n).",
+  "description": "a(n) = Prime(17*n).",
   "id": "A129480",
   "mentions": [
     "A031336",

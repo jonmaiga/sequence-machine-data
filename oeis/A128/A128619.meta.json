@@ -1,8 +1,9 @@
 {
-  "description": "A127647 * A128174.",
+  "description": "Triangle T(n, k) = A127647(n,k) * A128174(n,k), read by rows.",
   "id": "A128619",
   "mentions": [
     "A000045",
+    "A096140",
     "A127646",
     "A127647",
     "A128174",

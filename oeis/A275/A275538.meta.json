@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (38*10^n + 547)/9 is prime.",
+  "description": "Numbers k such that (38*10^k + 547)/9 is prime.",
   "id": "A275538",
   "mentions": [
     "A056654",

@@ -1,9 +1,17 @@
 {
-  "description": "Squares of A041041(n-1), n>=1 (generalized Fibonacci).",
+  "description": "a(n) = A041041(n-1)^2, n >= 1.",
   "id": "A099374",
   "mentions": [
+    "A007598",
     "A041041",
-    "A099279"
+    "A079291",
+    "A092936",
+    "A099279",
+    "A099365",
+    "A099366",
+    "A099367",
+    "A099369",
+    "A099372"
   ],
   "tags": [
     "easy",

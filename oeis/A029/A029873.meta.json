@@ -1,8 +1,11 @@
 {
   "description": "Low temperature series for spin-1/2 Ising specific heat on 2D square lattice, multiplied by 4.",
   "id": "A029873",
-  "mentions": [],
+  "mentions": [
+    "A029872"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

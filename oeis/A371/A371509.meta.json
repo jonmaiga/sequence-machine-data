@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime that becomes composite if any single digit of its base-(2n+1) expansion is changed to a different digit (but not to zero).",
+  "id": "A371509",
+  "mentions": [
+    "A186995",
+    "A323745",
+    "A371475"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

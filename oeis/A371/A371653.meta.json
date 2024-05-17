@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the number formed by putting the digits of k in descending order is prime.",
+  "id": "A371653",
+  "mentions": [
+    "A004186",
+    "A007500",
+    "A095179",
+    "A371654"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. T(x,k) satisfying T(x,k) = (1/k) * sin( k*x*cos(x*sqrt(1 - k^2*T(x,k)^2)) ), as a triangle read by rows.",
+  "id": "A370333",
+  "mentions": [
+    "A007106",
+    "A370330",
+    "A370331",
+    "A370332",
+    "A370433"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

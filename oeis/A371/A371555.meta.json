@@ -1,0 +1,16 @@
+{
+  "description": "Smallest position m such that A005350(m)=n.",
+  "id": "A371555",
+  "mentions": [
+    "A005350",
+    "A188163"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

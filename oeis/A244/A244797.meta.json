@@ -2,12 +2,15 @@
   "description": "Number of moduli m such that (prime(n) mod m) = 2.",
   "id": "A244797",
   "mentions": [
+    "A032741",
+    "A040976",
     "A244740",
     "A244796",
     "A244798"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

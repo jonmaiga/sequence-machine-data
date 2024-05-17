@@ -1,0 +1,43 @@
+{
+  "description": "Square array T(n, k) = numerator( zeta_r(2*n) * sqrt(A003658(k + 2)) / Pi^(4*n) ), read by antidiagonals, where zeta_r is the Dedekind zeta-function over r and r is the real quadratic field with discriminant A003658(k + 2).",
+  "id": "A370412",
+  "mentions": [
+    "A000191",
+    "A000411",
+    "A000464",
+    "A002432",
+    "A003658",
+    "A035185",
+    "A035187",
+    "A035188",
+    "A035192",
+    "A035194",
+    "A035195",
+    "A035199",
+    "A035203",
+    "A035210",
+    "A035211",
+    "A035215",
+    "A035219",
+    "A046988",
+    "A064072",
+    "A064075",
+    "A080891",
+    "A097916",
+    "A097917",
+    "A230375",
+    "A370411",
+    "A370413"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

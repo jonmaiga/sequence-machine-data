@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(x*a(n-1)) for n > 0 where x = (7 + sqrt(77))/2, a(0) = 1.",
+  "id": "A370177",
+  "mentions": [
+    "A057090",
+    "A092290",
+    "A370174"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

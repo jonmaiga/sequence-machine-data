@@ -1,8 +1,9 @@
 {
-  "description": "Sum( d divides n,(-1)^d/d) is an integer.",
+  "description": "Numbers k such that the sum of the odd aliquot parts of k divides k.",
   "id": "A069519",
   "mentions": [
-    "A066192"
+    "A066192",
+    "A066912"
   ],
   "tags": [
     "easy",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

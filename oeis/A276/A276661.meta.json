@@ -2,6 +2,8 @@
   "description": "Least k such that there is a set S in {1, 2, ..., k} with n elements and the property that each of its subsets has a distinct sum.",
   "id": "A276661",
   "mentions": [
+    "A003271",
+    "A005255",
     "A005318",
     "A201052"
   ],

@@ -1,13 +1,17 @@
 {
   "description": "Poincaré series [or Poincare series] P(C_{3,2}(0); t).",
   "id": "A124636",
-  "mentions": [],
+  "mentions": [
+    "A123991"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 49,
+    "source": "joeis"
   }
 }

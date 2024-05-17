@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the minimal determinant of an n X n Hankel matrix using the first 2*n - 1 prime numbers.",
+  "id": "A369946",
+  "mentions": [
+    "A024356",
+    "A350933",
+    "A350939",
+    "A368351",
+    "A369947",
+    "A369949"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Values of n for which there are no empty intervals when fractional part(m*Pi) for m = 1, ..., n is plotted along [ 0, 1 ] subdivided into n equal regions.",
+  "description": "Values of k for which there are no empty intervals when fractional part(m*Pi) for m = 1, ..., k is plotted along [ 0, 1 ] subdivided into k equal regions.",
   "id": "A036417",
   "mentions": [
+    "A002486",
     "A036416"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of the matrix [Jacobi(i^2+5*i*j+5*j^2,2*n+1)]_{1",
+  "id": "A372394",
+  "mentions": [
+    "A000290",
+    "A001481",
+    "A372314",
+    "A372385"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

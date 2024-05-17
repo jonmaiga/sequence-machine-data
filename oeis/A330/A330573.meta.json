@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k = 1 to floor(n/2)} [u_2(k)*u_2(n+1-k)], where u_2(k) is number of unordered factorization k = i*j (A038548).",
+  "description": "a(n) = Sum_{k = 1..ceiling(n/2)} [u_2(k)*u_2(n+1-k)], where u_2(k) is number of unordered factorization k = i*j (A038548).",
   "id": "A330573",
   "mentions": [
     "A000005",
@@ -12,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

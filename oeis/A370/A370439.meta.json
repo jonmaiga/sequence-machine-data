@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = A( x*A(x)^2 + 3*x*A(x)^3 )^(1/3).",
+  "id": "A370439",
+  "mentions": [
+    "A000108",
+    "A117940",
+    "A356782",
+    "A370546"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

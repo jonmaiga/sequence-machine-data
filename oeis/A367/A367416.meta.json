@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of solutions to +- 1^k +- 2^k +- 3^k +- ... +- n^k is a k-th power, n >= 2.",
+  "id": "A367416",
+  "mentions": [
+    "A063890",
+    "A215083",
+    "A368243",
+    "A368845",
+    "A369629"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

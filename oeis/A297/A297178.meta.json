@@ -1,18 +1,18 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of partitions of genus 2 of n elements with k parts (n >= 6, 2 <=k <= n-4),",
+  "description": "Triangle read by rows: T(n,k) = number of partitions of genus 2 of n elements with k parts (n >= 6, 2 <= k <= n-4).",
   "id": "A297178",
   "mentions": [
     "A000579",
     "A297179"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 6,
-    "size": 28,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

@@ -1,7 +1,9 @@
 {
-  "description": "E.g.f.: exp(x/(1-4*x)^(1/2)).",
+  "description": "Expansion of e.g.f. exp(x/(1-4*x)^(1/2)).",
   "id": "A052142",
-  "mentions": [],
+  "mentions": [
+    "A362158"
+  ],
   "tags": [
     "formulas",
     "nonn"

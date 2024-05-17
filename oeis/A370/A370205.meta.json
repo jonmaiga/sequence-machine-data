@@ -1,0 +1,28 @@
+{
+  "description": "Numbers j whose symmetric representation of sigma(j) consists of the single unimodal width pattern 121.",
+  "id": "A370205",
+  "mentions": [
+    "A082662",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A262045",
+    "A341969",
+    "A342592",
+    "A342594",
+    "A342595",
+    "A342596"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Primes of form n^3-(n+1)^2.",
+  "description": "Primes in A153257.",
   "id": "A140719",
-  "mentions": [],
+  "mentions": [
+    "A153257"
+  ],
   "tags": [
     "nonn"
   ],

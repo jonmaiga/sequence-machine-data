@@ -1,0 +1,16 @@
+{
+  "description": "Number of conjugacy classes of pairs of commuting elements in the alternating group A_n.",
+  "id": "A371059",
+  "mentions": [
+    "A000702"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

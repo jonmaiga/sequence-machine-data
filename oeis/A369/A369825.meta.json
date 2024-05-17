@@ -1,0 +1,17 @@
+{
+  "description": "a(1,2) = 1,2; thereafter let i = a(n-2) and r(n) = a(1)*a(2)*...*a(n-1): a(n) is the smallest novel multiple m of w = rad(r(n))/rad(i), where rad is A007947.",
+  "id": "A369825",
+  "mentions": [
+    "A000027",
+    "A002110",
+    "A007947"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

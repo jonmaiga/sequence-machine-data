@@ -1,5 +1,5 @@
 {
-  "description": "Fixed points of a sequence that counts how long a chain of 1,2,1,2,1.. needs to be at minimum until the equation n*[n,1,2,1...,n] = [x,....,y] between terminating continued fractions has a solution with x >= n^2 and y >= n^2.",
+  "description": "Fixed points of a sequence that gives the minimum length of a chain of 1,2,1,2,1,... so that the equation n*[n,1,2,1,...,n] = [x,...,y] between terminating continued fractions has a solution with x >= n^2 and y >= n^2.",
   "id": "A213901",
   "mentions": [
     "A000057",

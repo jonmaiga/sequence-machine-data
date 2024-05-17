@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(13 * n)/12.",
+  "id": "A372677",
+  "mentions": [
+    "A008683",
+    "A372673"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Lesser member of Carmichael's variant of amicable pair: numbers k < m such that s(k) = m and s(m) = k, where s(k) = A371418(k).",
+  "id": "A371419",
+  "mentions": [
+    "A000043",
+    "A001065",
+    "A002025",
+    "A002046",
+    "A002952",
+    "A126165",
+    "A126169",
+    "A259038",
+    "A292980",
+    "A322541",
+    "A324708",
+    "A337874",
+    "A337876",
+    "A348343",
+    "A371418",
+    "A371420"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

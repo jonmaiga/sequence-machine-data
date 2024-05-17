@@ -1,5 +1,5 @@
 {
-  "description": "n^2-[n/3]^2, where [] = floor.",
+  "description": "a(n) = n^2 - floor(n/3)^2.",
   "id": "A213035",
   "mentions": [],
   "tags": [

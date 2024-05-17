@@ -1,0 +1,21 @@
+{
+  "description": "Number of unordered pairs of natural numbers k1, k2 such that their product is an n-digit number and has the same multiset of digits as in both k1 and k2.",
+  "id": "A370676",
+  "mentions": [
+    "A020342",
+    "A370675",
+    "A370678",
+    "A370679",
+    "A370680"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

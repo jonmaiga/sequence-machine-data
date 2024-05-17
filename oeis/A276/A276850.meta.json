@@ -5,11 +5,12 @@
     "A133437"
   ],
   "tags": [
-    "sign"
+    "sign",
+    "tabf"
   ],
   "terms": {
     "offset": 3,
-    "size": 41,
+    "size": 58,
     "source": "oeis-entry"
   }
 }

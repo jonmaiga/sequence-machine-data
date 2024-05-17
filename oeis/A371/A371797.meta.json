@@ -1,0 +1,34 @@
+{
+  "description": "Number of quanimous subsets of {1..n} containing n, meaning there is more than one set partition with equal block-sums.",
+  "id": "A371797",
+  "mentions": [
+    "A000005",
+    "A002219",
+    "A035470",
+    "A038041",
+    "A232466",
+    "A275972",
+    "A279791",
+    "A321452",
+    "A321454",
+    "A371736",
+    "A371737",
+    "A371783",
+    "A371789",
+    "A371790",
+    "A371791",
+    "A371792",
+    "A371793",
+    "A371795",
+    "A371796"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

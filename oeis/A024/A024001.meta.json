@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1-n^3.",
+  "description": "a(n) = 1 - n^3.",
   "id": "A024001",
   "mentions": [],
   "tags": [

@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that for all initial conditions (x(0),x(1),x(2),x(3),x(4)) in [0..p-1]^5 except [0,0,0,0,0], the 5-step recurrence x(k) = x(k-1) + x(k-2) + x(k-3) + x(k-4) + x(k-5) (mod p) has the same period, but x^5 - x^4 - x^3 - x^2 - x - 1 is reducible (mod p).",
+  "id": "A371569",
+  "mentions": [
+    "A106309",
+    "A371566"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

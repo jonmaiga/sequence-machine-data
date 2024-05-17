@@ -1,5 +1,5 @@
 {
-  "description": "Least primary Carmichael number (A324316) with n prime factors.",
+  "description": "Least primary Carmichael number (A324316) with n prime factors, or -1 if no such number exists.",
   "id": "A306657",
   "mentions": [
     "A002997",
@@ -7,6 +7,7 @@
     "A324316"
   ],
   "tags": [
+    "bref",
     "hard",
     "more",
     "nonn"

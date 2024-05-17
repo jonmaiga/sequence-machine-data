@@ -1,7 +1,10 @@
 {
-  "description": "Sigma_(n^n)(n).",
+  "description": "a(n) = sigma_(n^n)(n).",
   "id": "A157255",
-  "mentions": [],
+  "mentions": [
+    "A000312",
+    "A023887"
+  ],
   "tags": [
     "bref",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 3,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

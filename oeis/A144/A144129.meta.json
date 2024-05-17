@@ -1,5 +1,5 @@
 {
-  "description": "ChebyshevT(3, n).",
+  "description": "a(n) = ChebyshevT(3, n).",
   "id": "A144129",
   "mentions": [
     "A000292",

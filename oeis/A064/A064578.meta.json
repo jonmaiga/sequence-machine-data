@@ -2,10 +2,13 @@
   "description": "Inverse permutation to A057027.",
   "id": "A064578",
   "mentions": [
-    "A057027"
+    "A057027",
+    "A057944",
+    "A194959"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

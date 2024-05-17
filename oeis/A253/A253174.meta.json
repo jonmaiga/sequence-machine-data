@@ -1,5 +1,5 @@
 {
-  "description": "For a permutation of the positive integers B={b(k)}, denote L_B(n) = sum_{k=1..n} lambda(b(k)), where lambda(n) is Liouville's function (A008836). In this sequence, a(n) = L_B(n) in case B = A098550.",
+  "description": "For a permutation of the positive integers B={b(k)}, denote L_B(n) = Sum_{k=1..n} lambda(b(k)), where lambda(n) is Liouville's function (A008836). In this sequence, a(n) = L_B(n) in case B = A098550.",
   "id": "A253174",
   "mentions": [
     "A000027",

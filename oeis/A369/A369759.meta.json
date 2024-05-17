@@ -1,0 +1,26 @@
+{
+  "description": "The sum of unitary divisors of the smallest cubefull exponentially odd number that is divisible by n.",
+  "id": "A369759",
+  "mentions": [
+    "A013661",
+    "A013662",
+    "A013664",
+    "A034448",
+    "A335988",
+    "A356192",
+    "A365480",
+    "A369757",
+    "A369758"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

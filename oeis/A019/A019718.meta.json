@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of sqrt(Pi)/16.",
   "id": "A019718",
-  "mentions": [],
+  "mentions": [
+    "A245885"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

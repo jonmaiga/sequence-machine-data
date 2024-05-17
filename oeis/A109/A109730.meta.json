@@ -1,5 +1,5 @@
 {
-  "description": "Lesser of twin admirable numbers: n such that n and n+2 are both admirable numbers.",
+  "description": "Lesser of twin admirable numbers: k such that k and k+2 are both admirable numbers.",
   "id": "A109730",
   "mentions": [
     "A111592"

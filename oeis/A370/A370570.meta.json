@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations of [n] having no adjacent 2-cycles and no adjacent 3-cycles.",
+  "id": "A370570",
+  "mentions": [
+    "A370569"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

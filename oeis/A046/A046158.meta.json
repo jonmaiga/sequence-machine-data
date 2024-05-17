@@ -1,7 +1,11 @@
 {
-  "description": "Values of n for which there are no empty intervals when frac(m gamma) for m = 1, ..., n is plotted along [ 0, 1 ] subdivided into n equal regions.",
+  "description": "Values of n for which there are no empty intervals when frac(m*gamma) for m = 1, ..., n is plotted along [0, 1] subdivided into n equal regions.",
   "id": "A046158",
   "mentions": [
+    "A036413",
+    "A036415",
+    "A036417",
+    "A046115",
     "A046157"
   ],
   "tags": [
@@ -10,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

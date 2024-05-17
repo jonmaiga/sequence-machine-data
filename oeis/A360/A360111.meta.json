@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 1 if there is no prime p such that p^p divides n, but for the arithmetic derivative of n such a prime exists; a(1) = 0 by convention.",
+  "description": "a(n) = 1 if there is no prime p such that p^p divides n, but for the arithmetic derivative of n such a prime exists, otherwise a(n) = 0; a(1) = 0 by convention.",
   "id": "A360111",
   "mentions": [
     "A003415",
@@ -9,6 +9,7 @@
     "A353479",
     "A359550",
     "A360109",
+    "A368911",
     "A368915",
     "A368916"
   ],

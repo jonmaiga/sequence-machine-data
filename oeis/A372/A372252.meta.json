@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A000045(n+1)*A000292(n) (product of a Fibonacci number and a tetrahedral number).",
+  "id": "A372252",
+  "mentions": [
+    "A000045",
+    "A000292"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

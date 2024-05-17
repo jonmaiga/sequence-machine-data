@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of defective (binary) heaps on n elements from the set {0,1} where k ancestor-successor pairs do not have the correct order; triangle T(n,k), n>=0, read by rows.",
+  "id": "A372640",
+  "mentions": [
+    "A000079",
+    "A091980",
+    "A306393",
+    "A370484",
+    "A372641",
+    "A372642",
+    "A372643"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

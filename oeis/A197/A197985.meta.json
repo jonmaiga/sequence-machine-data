@@ -1,5 +1,5 @@
 {
-  "description": "Round((n+1/n)^2)",
+  "description": "a(n) = round((n+1/n)^2).",
   "id": "A197985",
   "mentions": [
     "A059100",

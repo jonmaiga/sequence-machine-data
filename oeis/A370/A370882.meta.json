@@ -1,0 +1,29 @@
+{
+  "description": "Square array T(n,k) = 9*2^k - n read by ascending antidiagonals.",
+  "id": "A370882",
+  "mentions": [
+    "A000225",
+    "A005010",
+    "A023443",
+    "A033484",
+    "A048491",
+    "A052996",
+    "A053209",
+    "A083329",
+    "A154251",
+    "A176449",
+    "A304383",
+    "A367559",
+    "A368826"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For any number k >= 0, let T_k be the triangle with values in {-1, 0, +1} whose base corresponds to the balanced ternary expansion of k (without leading zeros) and other values, say t above u and v, satisfy t+u+v = 0 mod 3; the balanced ternary expansion of a(n) corresponds to the left border of T_n (the most significant digit being at the bottom left corner).",
+  "id": "A371635",
+  "mentions": [
+    "A334727",
+    "A361832",
+    "A371636"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

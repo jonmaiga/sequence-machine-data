@@ -2,7 +2,9 @@
   "description": "a(n) gives the alternating sum of length n, starting at n: n - (n+1) + (n+2) - ... + (-1)^(n+1) * (2n-1).",
   "id": "A319556",
   "mentions": [
-    "A123684"
+    "A094727",
+    "A123684",
+    "A128622"
   ],
   "tags": [
     "easy",

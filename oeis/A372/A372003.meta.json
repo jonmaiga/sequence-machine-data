@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + 9*x*(1 + x*A(x)) )^(1/3).",
+  "id": "A372003",
+  "mentions": [
+    "A372002"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

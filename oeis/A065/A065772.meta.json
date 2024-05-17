@@ -1,5 +1,5 @@
 {
-  "description": "Nontrivial prime powers n from A025475 such that tau[n^2] is prime but sigma[n^2] is a composite number.",
+  "description": "Nontrivial prime powers k from A025475 such that tau(k^2) is prime but sigma(k^2) is a composite number.",
   "id": "A065772",
   "mentions": [
     "A000005",
@@ -7,15 +7,15 @@
     "A025475",
     "A028982",
     "A065403",
+    "A065404",
     "A065405"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

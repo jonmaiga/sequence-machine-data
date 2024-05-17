@@ -1,0 +1,17 @@
+{
+  "description": "Let F be the set of lattice points {(x, y) in N^2 | A005206(x) <= y <= A005206(x) + x}; order the points of F by ascending Y-coordinates and then by ascending X-coordinates; the n-th and a(n)-th points of F are arranged symmetrically with respect to the line x = y.",
+  "id": "A372341",
+  "mentions": [
+    "A005206",
+    "A345067",
+    "A372231"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Primes starting a sequence of 6 consecutive primes with gaps 2, 4, 8, 16, 32.",
+  "id": "A372085",
+  "mentions": [
+    "A079015",
+    "A372248"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

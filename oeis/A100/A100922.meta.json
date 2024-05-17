@@ -2,6 +2,7 @@
   "description": "n appears A000120(n) times (appearances equal number of 1-bits).",
   "id": "A100922",
   "mentions": [
+    "A000069",
     "A000120",
     "A000788",
     "A030530",

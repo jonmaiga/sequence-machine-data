@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} (32*A102683(k)-A316869(k)/32)/2^k.",
+  "id": "A372551",
+  "mentions": [
+    "A102683",
+    "A316869"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k with the property that Dirichlet's Simultaneous Approximation Theorem applied to Z_k is tight (for d = 3).",
+  "id": "A370277",
+  "mentions": [
+    "A370278",
+    "A370279"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

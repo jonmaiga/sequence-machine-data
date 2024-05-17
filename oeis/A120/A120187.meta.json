@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=2; a(n)=floor((15+sum(a(1) to a(n-1)))/7).",
+  "description": "a(1)=2; a(n) = floor((15 + Sum_{j=1..n-1} a(j))/7).",
   "id": "A120187",
   "mentions": [
     "A072493",

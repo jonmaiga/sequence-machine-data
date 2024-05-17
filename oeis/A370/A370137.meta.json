@@ -1,0 +1,23 @@
+{
+  "description": "Sums of three primorials > 1.",
+  "id": "A370137",
+  "mentions": [
+    "A000292",
+    "A002110",
+    "A276086",
+    "A276150",
+    "A369979",
+    "A370133",
+    "A370134",
+    "A370138"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

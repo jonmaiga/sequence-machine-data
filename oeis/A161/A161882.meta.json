@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that n^2 = a_1^2+...+a_k^2 and all a_i are positive integers less than n.",
+  "description": "Smallest k such that n^2 = a_1^2 + ... + a_k^2 and all a_i are positive integers less than n.",
   "id": "A161882",
   "mentions": [
     "A000079",

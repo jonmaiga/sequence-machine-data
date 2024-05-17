@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: row n is the unique primitive Pythagorean triple (a,b,c) such that (a-b+c)/2 = prime(n) and the short leg \"a\" is odd.",
+  "id": "A369493",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A076274"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

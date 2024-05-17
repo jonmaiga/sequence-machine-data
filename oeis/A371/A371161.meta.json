@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of unlabeled graphs with at most n nodes such that neither one is a subgraph of another.",
+  "id": "A371161",
+  "mentions": [
+    "A006897",
+    "A371162"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

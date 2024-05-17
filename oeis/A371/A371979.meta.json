@@ -1,0 +1,16 @@
+{
+  "description": "Number of ways of placing k non-attacking wazirs on a 3 X n board, where k is chosen so as to maximize this number.",
+  "id": "A371979",
+  "mentions": [
+    "A371967",
+    "A371978"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

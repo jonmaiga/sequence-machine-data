@@ -1,9 +1,10 @@
 {
-  "description": "Triangular array read by rows. T(n,k) is the number of parts equal to k over all palindromic compositions of n, n>=1, 1<=k<=n.",
+  "description": "Triangular array read by rows: T(n,k) is the number of parts equal to k over all palindromic compositions of n, n>=1, 1<=k<=n.",
   "id": "A239631",
   "mentions": [
     "A016116",
     "A078836",
+    "A079859",
     "A079861",
     "A079862",
     "A079863",

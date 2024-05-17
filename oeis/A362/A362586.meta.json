@@ -1,5 +1,5 @@
 {
-  "description": "Triangle red by rows, T(n, k) = A094088(n) * binomial(n, k).",
+  "description": "Triangle read by rows, T(n, k) = A094088(n) * binomial(n, k).",
   "id": "A362586",
   "mentions": [
     "A055372",

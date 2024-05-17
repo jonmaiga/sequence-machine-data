@@ -1,14 +1,17 @@
 {
   "description": "Numbers in which starting from most significant digit the n-th digit is obtained by adding n to the (n-1)-st digit (the digit to the left of it) and then ignoring the carry. Alternately the n-th digit starting from the most significant digit is the n-th triangular number mod 10.",
   "id": "A069511",
-  "mentions": [],
+  "mentions": [
+    "A000217"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 18,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
   }
 }

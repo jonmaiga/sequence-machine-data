@@ -1,15 +1,16 @@
 {
-  "description": "Reduced A276850",
+  "description": "Reduced A276850.",
   "id": "A276851",
   "mentions": [
     "A276850"
   ],
   "tags": [
-    "sign"
+    "sign",
+    "tabf"
   ],
   "terms": {
     "offset": 3,
-    "size": 41,
+    "size": 58,
     "source": "oeis-entry"
   }
 }

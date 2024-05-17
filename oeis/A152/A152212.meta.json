@@ -1,9 +1,8 @@
 {
-  "description": "Numbers n such that (n*sigma_1(n)-sigma_2(n))/sigma_0(n) = c, c is an integer.",
+  "description": "Numbers k such that sigma_0(k) divides (k*sigma_1(k) - sigma_2(k)).",
   "id": "A152212",
   "mentions": [
     "A000005",
-    "A000027",
     "A000203",
     "A001157",
     "A064987"
@@ -15,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 64,
     "source": "oeis-bfile"
   }
 }

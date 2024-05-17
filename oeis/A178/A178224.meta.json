@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that d(1)^1 + d(2)^2 +... + d(p)^p is a square, where d(i), i=1..p, are the decimal digits of n.",
+  "description": "Numbers k such that d(1)^1 + d(2)^2 +... + d(p)^p is a square, where d(i), i=1..p, are the decimal digits of k.",
   "id": "A178224",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

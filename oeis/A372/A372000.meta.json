@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = product of primes p such that floor(n/p) is odd.",
+  "id": "A372000",
+  "mentions": [
+    "A000720",
+    "A005117",
+    "A008336",
+    "A034386",
+    "A055773",
+    "A260850",
+    "A371906"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

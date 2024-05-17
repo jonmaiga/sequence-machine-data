@@ -1,0 +1,15 @@
+{
+  "description": "Minimum diameter of a Cayley digraph on the cyclic group Z_n with two generators.",
+  "id": "A370461",
+  "mentions": [
+    "A202304"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

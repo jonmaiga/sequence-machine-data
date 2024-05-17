@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 3^(n - k)*Pochhammer(k/3, n - k). Row sums of A371077.",
+  "id": "A371079",
+  "mentions": [
+    "A000522",
+    "A370982",
+    "A371077"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

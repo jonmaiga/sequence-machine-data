@@ -1,7 +1,9 @@
 {
-  "description": "Primes other than prime(prime(n)+n-1).",
+  "description": "Primes other than those of the form prime(prime(n)+n-1).",
   "id": "A084792",
-  "mentions": [],
+  "mentions": [
+    "A000040"
+  ],
   "tags": [
     "easy",
     "less",

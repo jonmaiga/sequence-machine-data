@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Ceiling(n*Pi).",
+  "description": "a(n) = ceiling(n*Pi).",
   "id": "A121381",
   "mentions": [
     "A004084",

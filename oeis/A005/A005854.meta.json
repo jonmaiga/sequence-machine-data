@@ -4,11 +4,12 @@
   "mentions": [],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 6,
-    "size": 23,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

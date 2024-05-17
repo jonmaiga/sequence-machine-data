@@ -1,0 +1,36 @@
+{
+  "description": "Numbers k for which the Zeckendorf representation A014417(k) ends with \"1001\".",
+  "id": "A372302",
+  "mentions": [
+    "A000027",
+    "A000045",
+    "A003622",
+    "A005614",
+    "A014417",
+    "A022342",
+    "A026274",
+    "A035336",
+    "A035337",
+    "A035338",
+    "A035339",
+    "A035340",
+    "A035513",
+    "A083412",
+    "A101345",
+    "A101642",
+    "A134859",
+    "A134860",
+    "A134861",
+    "A134863",
+    "A151915"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least positive number k such that k^2 is the concatenation of m and m + n for some positive number m, or -1 if there is no such k.",
+  "id": "A369689",
+  "mentions": [
+    "A106497"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

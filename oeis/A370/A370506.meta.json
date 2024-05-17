@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) is the number permutations p of [n] that are j-dist-increasing for exactly k distinct values j in [n], where p is j-dist-increasing if j>=0 and p(i)=0, 0<=k<=n, read by rows.",
+  "id": "A370506",
+  "mentions": [
+    "A000007",
+    "A000071",
+    "A000142",
+    "A248687",
+    "A370505",
+    "A370507",
+    "A370514"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

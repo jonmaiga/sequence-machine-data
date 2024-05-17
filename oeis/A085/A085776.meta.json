@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that n concatenated with n+1 is a semiprime.",
+  "description": "Numbers k such that k concatenated with k+1 is a semiprime.",
   "id": "A085776",
-  "mentions": [],
+  "mentions": [
+    "A001358",
+    "A001704"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = floor(e^(n+1)-e^n).",
+  "description": "a(n) = floor(e^(n+1) - e^n).",
   "id": "A248873",
   "mentions": [
     "A000149",
+    "A001113",
     "A064780",
     "A068996"
   ],

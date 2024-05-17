@@ -1,0 +1,21 @@
+{
+  "description": "S is a \"boomerang sequence\". Replace each digit d of S by a base-10 palindrome not yet used that contains d: the sequence S remains identical to itself if we follow each palindrome with a comma.",
+  "id": "A369127",
+  "mentions": [
+    "A002113",
+    "A369603",
+    "A369604",
+    "A369798",
+    "A369823",
+    "A369824"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

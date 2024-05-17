@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(A(A(A(A(A(x)))))) = x + 6*x^2 + 36*x^3.",
+  "id": "A371841",
+  "mentions": [
+    "A220110",
+    "A220288",
+    "A372521",
+    "A372537"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

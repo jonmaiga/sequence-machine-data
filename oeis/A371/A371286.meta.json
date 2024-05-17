@@ -1,0 +1,35 @@
+{
+  "description": "Products of elements of A275700 (Heinz numbers of divisor sets). Numbers with a (necessarily unique) factorization into elements of A275700.",
+  "id": "A371286",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A005179",
+    "A007416",
+    "A027746",
+    "A034729",
+    "A054973",
+    "A056239",
+    "A112798",
+    "A275700",
+    "A355731",
+    "A355732",
+    "A355741",
+    "A370820",
+    "A371283",
+    "A371284",
+    "A371285",
+    "A371288"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

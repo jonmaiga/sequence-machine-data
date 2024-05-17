@@ -8,11 +8,13 @@
     "A172441"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

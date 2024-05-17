@@ -1,0 +1,18 @@
+{
+  "description": "Centered truncated octahedral numbers: the number of integer triples (x,y,z) such that max(|x|,|y|,|z|) <= 2n and |x|+|y|+|z| <= 3n.",
+  "id": "A371515",
+  "mentions": [
+    "A001845",
+    "A005900"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

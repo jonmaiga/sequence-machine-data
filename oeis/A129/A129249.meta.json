@@ -2,9 +2,6 @@
   "description": "Primes of Erdos-Selfridge class 15-.",
   "id": "A129249",
   "mentions": [
-    "A056637",
-    "A081640",
-    "A081641",
     "A129248"
   ],
   "tags": [

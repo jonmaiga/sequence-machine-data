@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations that end with a consecutive pattern 123, and avoid consecutive patterns 123 and 213 elsewhere.",
+  "id": "A371943",
+  "mentions": [
+    "A059480"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

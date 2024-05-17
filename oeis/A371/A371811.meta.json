@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes q*p such that the congruence 2^x == q (mod p) is solvable, where q < p.",
+  "id": "A371811",
+  "mentions": [
+    "A001915",
+    "A001916",
+    "A006881",
+    "A100484"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

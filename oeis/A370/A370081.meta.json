@@ -1,0 +1,16 @@
+{
+  "description": "Number of left-labeled (3,n)-bipartite graphs.",
+  "id": "A370081",
+  "mentions": [
+    "A002727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

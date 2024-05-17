@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct values of the permanent of an n X n Hankel matrix using the first 2*n - 1 prime numbers.",
+  "id": "A369952",
+  "mentions": [
+    "A290302",
+    "A350939",
+    "A350940"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

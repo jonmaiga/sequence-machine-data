@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1-x^2)/(1-x+x^4)",
+  "description": "Expansion of o.g.f. (1-x^2)/(1-x+x^4).",
   "id": "A193884",
   "mentions": [
     "A099530",

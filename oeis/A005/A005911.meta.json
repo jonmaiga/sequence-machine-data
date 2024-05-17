@@ -1,5 +1,5 @@
 {
-  "description": "Number of points on surface of truncated cube: 46n^2 + 2.",
+  "description": "Number of points on surface of truncated cube: 46n^2 + 2 for n>0.",
   "id": "A005911",
   "mentions": [
     "A000051"

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+2x)/((1+x)(1-x^2-x^3)).",
+  "description": "Expansion of (1+2*x)/((1+x)*(1-x^2-x^3)).",
   "id": "A098601",
   "mentions": [
     "A000931",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

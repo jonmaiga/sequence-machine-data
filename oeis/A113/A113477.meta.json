@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Gamma(1/3)^3/2^(4/3)/Pi.",
+  "description": "Decimal expansion of Gamma(1/3)^3/(2^(4/3)*Pi).",
   "id": "A113477",
   "mentions": [
     "A085565"

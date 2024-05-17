@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfies A( x*A(x)^3 + x*A(x)^4 ) = A(x)^4.",
+  "id": "A371716",
+  "mentions": [
+    "A371709",
+    "A371713"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

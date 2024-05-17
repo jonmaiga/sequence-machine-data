@@ -1,13 +1,13 @@
 {
-  "description": "Positive integers n such that x^2 - 23xy + y^2 + n = 0 has integer solutions.",
+  "description": "Positive integers k such that x^2 - 23xy + y^2 + k = 0 has integer solutions.",
   "id": "A261522",
   "mentions": [
     "A004253",
     "A031363",
+    "A084917",
     "A236330",
     "A236331",
     "A237254",
-    "A237350",
     "A237351",
     "A237599",
     "A237606",

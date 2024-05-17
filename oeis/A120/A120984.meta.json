@@ -2,7 +2,8 @@
   "description": "Number of ternary trees with n edges and having no vertices of degree 1. A ternary tree is a rooted tree in which each vertex has at most three children and each child of a vertex is designated as its left or middle or right child.",
   "id": "A120984",
   "mentions": [
-    "A120981"
+    "A120981",
+    "A120985"
   ],
   "tags": [
     "formulas",

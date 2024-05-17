@@ -1,5 +1,5 @@
 {
-  "description": "Sum of anti-divisors is a square.",
+  "description": "Numbers whose sum of anti-divisors is a square.",
   "id": "A074729",
   "mentions": [
     "A066272",

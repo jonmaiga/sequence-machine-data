@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows. An infinite rooted tree having root node 1 in row n = 0. Nodes in row n each have n + 1 children with values m + k, where m is the value of the parent node and k takes the values of all nodes from the root to the parent including the parent itself.",
+  "id": "A370386",
+  "mentions": [
+    "A000142",
+    "A002720",
+    "A114622",
+    "A364673"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

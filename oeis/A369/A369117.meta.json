@@ -1,0 +1,15 @@
+{
+  "description": "Table read by rows. T(n, k) = [z^k] LommelR(n, n, 1/z) where LommelR are the Lommel polynomials.",
+  "id": "A369117",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

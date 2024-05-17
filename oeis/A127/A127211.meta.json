@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 4^n*Lucas(n), where Lucas = A000204.",
+  "description": "a(n) = 4^n*Lucas(n), where Lucas = A000032.",
   "id": "A127211",
   "mentions": [
+    "A000032",
     "A000204",
     "A087131",
     "A127210",
@@ -17,8 +18,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
+    "offset": 0,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

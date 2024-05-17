@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of distinct values of the permanent of an n X n symmetric Toeplitz matrix using the integers 0 to n-1.",
+  "id": "A369835",
+  "mentions": [
+    "A000142",
+    "A358326",
+    "A358327",
+    "A369830",
+    "A369831",
+    "A369832",
+    "A369833",
+    "A369834"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

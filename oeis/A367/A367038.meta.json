@@ -1,0 +1,15 @@
+{
+  "description": "Number of 2^n-page booklets that can be made with n folds.",
+  "id": "A367038",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Minimum second Zagreb index of maximal 2-degenerate graphs with n vertices.",
+  "id": "A372026",
+  "mentions": [
+    "A002378",
+    "A051624",
+    "A152811",
+    "A371912",
+    "A372025",
+    "A372027"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

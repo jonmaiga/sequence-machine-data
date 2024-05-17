@@ -1,5 +1,5 @@
 {
-  "description": "Irregular table read by rows; the first row is [1]; to obtain the next row, replace each odd indexed term u by (u, u), and each even indexed terms v by (2*v).",
+  "description": "Irregular table read by rows; the first row is [1]; to obtain the next row, replace each odd-indexed term u with (u, u), and each even-indexed term v with (2*v).",
   "id": "A343856",
   "mentions": [
     "A061419",

@@ -1,0 +1,18 @@
+{
+  "description": "Largest number reachable starting from 1 and taking n steps either doubling or doubling+reversing.",
+  "id": "A371966",
+  "mentions": [
+    "A004086",
+    "A371880"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

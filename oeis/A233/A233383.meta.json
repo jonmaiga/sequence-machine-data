@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the absolute value of sum_{n>=1} (-1)^n*sin(1/n).",
+  "description": "Decimal expansion of the absolute value of Sum_{n>=1} (-1)^n*sin(1/n).",
   "id": "A233383",
   "mentions": [
     "A049469"

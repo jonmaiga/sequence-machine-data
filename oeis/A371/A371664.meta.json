@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of arithmetic progressions that can be formed from all the interior angles (all integers when measured in degrees) of a regular polygon with A371663(n) sides.",
+  "id": "A371664",
+  "mentions": [
+    "A000244",
+    "A007283",
+    "A018412",
+    "A018609",
+    "A069976",
+    "A371663"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

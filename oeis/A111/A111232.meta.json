@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that k^prime(n)-k^((prime(n)+1)/2)+1 is prime for n>1.",
+  "description": "Least k such that k^prime(n) - k^((prime(n)+1)/2) + 1 is prime for n > 1.",
   "id": "A111232",
   "mentions": [],
   "tags": [

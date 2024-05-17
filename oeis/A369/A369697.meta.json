@@ -1,0 +1,19 @@
+{
+  "description": "Number of unordered pairs (p,q) of distinct partitions of n such that the set of parts in q is equal to the set of parts in p.",
+  "id": "A369697",
+  "mentions": [
+    "A000041",
+    "A297388",
+    "A369695",
+    "A369696"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

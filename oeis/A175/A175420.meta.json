@@ -1,5 +1,5 @@
 {
-  "description": "Sequence of resulting numbers after 1st step of iteration defined in A175419.",
+  "description": "Sequence of numbers after 1st step of iteration defined in A175419.",
   "id": "A175420",
   "mentions": [
     "A055642",
@@ -15,11 +15,12 @@
   "tags": [
     "base",
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

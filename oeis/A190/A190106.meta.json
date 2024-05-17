@@ -1,13 +1,19 @@
 {
-  "description": "Numbers with prime factorization p^2*q^3*r^3.",
+  "description": "Numbers with prime factorization p^2*q^3*r^3 where p, q, and r are distinct primes.",
   "id": "A190106",
   "mentions": [
+    "A085541",
+    "A085548",
+    "A085965",
+    "A085966",
+    "A085968",
     "A179691",
     "A179698",
     "A179746",
     "A189991"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

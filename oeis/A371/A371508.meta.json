@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that A000045(k) + A004091(k) is prime (A000040).",
+  "id": "A371508",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A004091",
+    "A072366"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

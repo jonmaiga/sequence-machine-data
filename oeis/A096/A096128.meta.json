@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that reversing digits and adding largest digit produces a prime.",
+  "description": "Numbers k with the property that reversing the digits and adding the largest digit produces a prime.",
   "id": "A096128",
   "mentions": [],
   "tags": [

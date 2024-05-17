@@ -1,5 +1,5 @@
 {
-  "description": "Sequence of resulting numbers after 2nd step of iteration defined in A175419.",
+  "description": "Sequence of numbers after 2nd step of iteration defined in A175419.",
   "id": "A175421",
   "mentions": [
     "A175419",

@@ -1,5 +1,5 @@
 {
-  "description": "n times n+8 gives the concatenation of two numbers m and m+5.",
+  "description": "k times k+8 gives the concatenation of two numbers m and m+5.",
   "id": "A116327",
   "mentions": [
     "A116196",

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, prime(n) AND a(n) = a(n) (where prime(n) denotes the n-th prime number and AND denotes the bitwise AND operator).",
+  "id": "A370727",
+  "mentions": [
+    "A295609",
+    "A295989",
+    "A370728"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

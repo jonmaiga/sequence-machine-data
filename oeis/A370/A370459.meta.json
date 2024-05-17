@@ -1,0 +1,21 @@
+{
+  "description": "Number of unicursal stars with n vertices.",
+  "id": "A370459",
+  "mentions": [
+    "A000940",
+    "A002816",
+    "A055684",
+    "A231091",
+    "A370068",
+    "A370769"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

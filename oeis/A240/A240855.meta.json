@@ -3,16 +3,16 @@
   "id": "A240855",
   "mentions": [
     "A000009",
+    "A008967",
     "A240861"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

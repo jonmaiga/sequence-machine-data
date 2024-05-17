@@ -2,9 +2,11 @@
   "description": "Totally multiplicative sequence with a(p) = p+2 for prime p.",
   "id": "A166590",
   "mentions": [
-    "A001620"
+    "A001620",
+    "A003959"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1. Thereafter a(n) is the least novel k such that A007947(k*a(n-1)) is the smallest number in A002110 which is not already a term.",
+  "id": "A370740",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000961",
+    "A002110",
+    "A007947",
+    "A362855",
+    "A368133"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

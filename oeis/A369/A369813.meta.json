@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(1 - x^2 - x^7).",
+  "id": "A369813",
+  "mentions": [
+    "A005709",
+    "A007380",
+    "A017847",
+    "A369814",
+    "A369815",
+    "A369816"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

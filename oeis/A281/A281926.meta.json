@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the product of exactly 5 primes and are of the form prime(n) + prime(n + 1).",
+  "description": "Numbers that are the product of exactly 5 primes and are of the form prime(k) + prime(k + 1).",
   "id": "A281926",
   "mentions": [
     "A001043",

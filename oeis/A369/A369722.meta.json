@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp( (3/2) * (1-sqrt(1-4*x)) ).",
+  "id": "A369722",
+  "mentions": [
+    "A000108",
+    "A001517",
+    "A101682",
+    "A243953",
+    "A369723",
+    "A369724"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

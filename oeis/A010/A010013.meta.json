@@ -2,6 +2,7 @@
   "description": "a(0) = 1, a(n) = 23*n^2 + 2 for n>0.",
   "id": "A010013",
   "mentions": [
+    "A069174",
     "A206399"
   ],
   "tags": [

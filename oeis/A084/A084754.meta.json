@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: row n contains the first n primes greater than n.",
+  "description": "Triangle read by rows: row n lists the first n primes greater than n.",
   "id": "A084754",
   "mentions": [
     "A000040",

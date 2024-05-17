@@ -1,0 +1,17 @@
+{
+  "description": "Number of swaps needed to bubble-sort the US English name of n.",
+  "id": "A371510",
+  "mentions": [
+    "A371478"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

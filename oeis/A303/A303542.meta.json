@@ -2,9 +2,12 @@
   "description": "Number of chordless cycles in the n X n white bishop graph.",
   "id": "A303542",
   "mentions": [
-    "A070968"
+    "A070968",
+    "A370210",
+    "A370224"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

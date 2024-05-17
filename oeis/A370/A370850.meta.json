@@ -1,0 +1,20 @@
+{
+  "description": "Lesser of two consecutive primes whose digits' products are also prime.",
+  "id": "A370850",
+  "mentions": [
+    "A000040",
+    "A053666",
+    "A370848",
+    "A370851"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

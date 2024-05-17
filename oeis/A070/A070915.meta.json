@@ -2,12 +2,10 @@
   "description": "Numbers having at most two distinct prime factors.",
   "id": "A070915",
   "mentions": [
-    "A000040",
     "A000961",
     "A000977",
     "A001221",
     "A003586",
-    "A006681",
     "A007774"
   ],
   "tags": [

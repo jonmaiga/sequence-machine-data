@@ -1,0 +1,18 @@
+{
+  "description": "Number of Dyck paths of semilength n such that neighboring peaks differ in height by exactly one and first and last peak are at height one.",
+  "id": "A371727",
+  "mentions": [
+    "A000108",
+    "A371705",
+    "A371726",
+    "A371926"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

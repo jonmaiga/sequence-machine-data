@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows where T(n,k) is the number of labeled connected loop-graphs with n vertices and k edges.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of labeled connected loop-graphs covering n vertices with k edges.",
   "id": "A369195",
   "mentions": [
     "A000085",
@@ -38,13 +38,13 @@
     "A369199"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
-    "source": "oeis-entry"
+    "size": 63,
+    "source": "oeis-bfile"
   }
 }

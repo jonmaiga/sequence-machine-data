@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sqrt((A114052(n)^2 - 1)/27)/5.",
+  "id": "A370188",
+  "mentions": [
+    "A114052"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

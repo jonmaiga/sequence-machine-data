@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} 1 / sqrt(1 + x^5) dx.",
+  "id": "A371859",
+  "mentions": [
+    "A001622",
+    "A087197",
+    "A093341",
+    "A118292",
+    "A340723",
+    "A352324"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

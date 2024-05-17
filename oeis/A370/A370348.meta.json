@@ -1,0 +1,41 @@
+{
+  "description": "Numbers k such that there are fewer divisors of prime indices of k than there are prime indices of k.",
+  "id": "A370348",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A027746",
+    "A112798",
+    "A239312",
+    "A303975",
+    "A319899",
+    "A355529",
+    "A355731",
+    "A355732",
+    "A355739",
+    "A368110",
+    "A370802",
+    "A370808",
+    "A370820",
+    "A371127",
+    "A371128",
+    "A371130",
+    "A371131",
+    "A371167",
+    "A371168",
+    "A371169",
+    "A371170",
+    "A371171",
+    "A371173"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,17 +1,23 @@
 {
-  "description": "Number of leafless multigraphs with n edges.",
+  "description": "Number of unlabeled leafless loopless multigraphs with n edges.",
   "id": "A307316",
   "mentions": [
+    "A050535",
     "A226919",
-    "A307317"
+    "A254342",
+    "A307317",
+    "A369286",
+    "A369290",
+    "A369927",
+    "A370063"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

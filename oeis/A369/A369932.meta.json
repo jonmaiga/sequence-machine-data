@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled simple graphs with n edges and k vertices and without endpoints or isolated vertices.",
+  "id": "A369932",
+  "mentions": [
+    "A008483",
+    "A123551",
+    "A261919",
+    "A342557",
+    "A369290"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

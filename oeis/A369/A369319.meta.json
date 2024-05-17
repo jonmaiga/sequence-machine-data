@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the sum of the greatest common exponential divisor of n and k over the positive numbers k that do not exceed n.",
+  "id": "A369319",
+  "mentions": [
+    "A000010",
+    "A007947",
+    "A018804",
+    "A072911",
+    "A308056",
+    "A335004",
+    "A336465"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

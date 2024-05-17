@@ -1,0 +1,34 @@
+{
+  "description": "Number of subsets of {1..n-1} whose cardinality is one less than the length of the binary expansion of n; a(0) = 0.",
+  "id": "A370819",
+  "mentions": [
+    "A000120",
+    "A003465",
+    "A007318",
+    "A029837",
+    "A029931",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A096111",
+    "A113473",
+    "A272020",
+    "A323818",
+    "A326031",
+    "A357812",
+    "A367905",
+    "A368109",
+    "A370636",
+    "A370640",
+    "A370641"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

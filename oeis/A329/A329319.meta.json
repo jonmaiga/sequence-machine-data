@@ -2,20 +2,16 @@
   "description": "Number of (directed) Hamiltonian paths in K_{n} X K_{3}.",
   "id": "A329319",
   "mentions": [
-    "A035263",
-    "A091297",
     "A096121",
-    "A162991",
-    "A269565",
-    "A329320"
+    "A269565"
   ],
   "tags": [
-    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = index of smallest Carmichael number (A002997) with n prime divisors, or 0 if no such number exists.",
+  "description": "a(n) is the index of the smallest Carmichael number (A002997) with n prime divisors, or 0 if no such number exists.",
   "id": "A135719",
   "mentions": [
     "A002997",
     "A006931",
+    "A055553",
     "A135717"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

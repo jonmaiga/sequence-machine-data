@@ -1,0 +1,17 @@
+{
+  "description": "Number of minimal deterministic Mealy automata with n states outputting ternary strings",
+  "id": "A370821",
+  "mentions": [
+    "A059412",
+    "A143324"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

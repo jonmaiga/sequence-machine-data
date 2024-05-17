@@ -1,5 +1,5 @@
 {
-  "description": "Numerators on factorial moments of order 2 for the number of parts in dissections of rooted and convex polygons.",
+  "description": "Numerators of factorial moments of order 2 for the number of parts in dissections of rooted and convex polygons.",
   "id": "A277652",
   "mentions": [
     "A001003",

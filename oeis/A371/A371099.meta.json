@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(36*n+9, A276086(36*n+9)), where A276086 is the primorial base exp-function.",
+  "id": "A371099",
+  "mentions": [
+    "A007949",
+    "A139609",
+    "A276086",
+    "A324198"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

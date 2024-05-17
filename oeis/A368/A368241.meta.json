@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n - prevprime(n) if n is prime, n + primepi(n) otherwise; a(2) = 2.",
+  "id": "A368241",
+  "mentions": [
+    "A000720",
+    "A005171",
+    "A006512",
+    "A010051",
+    "A095117",
+    "A151799",
+    "A368196"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

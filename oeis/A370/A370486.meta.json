@@ -1,0 +1,16 @@
+{
+  "description": "Terms in A116260 that are not of the form 10^d-1.",
+  "id": "A370486",
+  "mentions": [
+    "A116260"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

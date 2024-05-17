@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest number k for which the length of the central extent of width 0 in the symmetric representation of sigma, SRS(k), equals 2*n and is -1 if there is no such extent of length 2*n.",
+  "id": "A370204",
+  "mentions": [
+    "A000040",
+    "A071561",
+    "A071562",
+    "A086801",
+    "A100484",
+    "A154115",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237593",
+    "A249223",
+    "A368945"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Partial alternating sums of the powerfree part function (A055231).",
+  "id": "A370901",
+  "mentions": [
+    "A055231",
+    "A068762",
+    "A068773",
+    "A191622",
+    "A307704",
+    "A357817",
+    "A362028",
+    "A370900"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

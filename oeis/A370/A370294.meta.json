@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: exp(Sum_{k>=1} (4*k)!/(4!*k!^4) * x^k/k).",
+  "id": "A370294",
+  "mentions": [
+    "A008977",
+    "A082368",
+    "A229452",
+    "A333042",
+    "A370295"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

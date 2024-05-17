@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2^1257787 - 1, the 34th Mersenne prime.",
+  "id": "A371853",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A028335"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 378632,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

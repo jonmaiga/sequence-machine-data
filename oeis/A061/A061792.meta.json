@@ -1,5 +1,5 @@
 {
-  "description": "49*(n*(n+1)/2)+6.",
+  "description": "a(n) = 49*(n*(n+1)/2) + 6.",
   "id": "A061792",
   "mentions": [
     "A000217"

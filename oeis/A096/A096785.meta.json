@@ -1,5 +1,5 @@
 {
-  "description": "Primes of form 4n+1 which are the sum of two consecutive composite numbers.",
+  "description": "Primes of form 4k+1 which are the sum of two consecutive composite numbers.",
   "id": "A096785",
   "mentions": [
     "A060254",

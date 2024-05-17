@@ -1,19 +1,20 @@
 {
-  "description": "Multiply perfect numbers for which the quotient sigma(5,x)/x A001160(x)/x is nonintegral.",
+  "description": "Multiply perfect numbers k for which the quotient sigma_5(k)/k = A001160(k)/k is nonintegral.",
   "id": "A088845",
   "mentions": [
     "A001158",
     "A001160",
     "A007691",
     "A066269",
-    "A088843"
+    "A088843",
+    "A088844"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,38 @@
+{
+  "description": "Least number with exactly n distinct divisors of prime indices. Position of first appearance of n in A370820.",
+  "id": "A371131",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A000792",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A005179",
+    "A007416",
+    "A027746",
+    "A062447",
+    "A112798",
+    "A303975",
+    "A355731",
+    "A355732",
+    "A355739",
+    "A355741",
+    "A370348",
+    "A370802",
+    "A370808",
+    "A370820",
+    "A371130",
+    "A371165",
+    "A371177",
+    "A371181"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

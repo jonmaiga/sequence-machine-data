@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m = n + 3^n such that the equation x = 3^(m-x) has solution x = 3^n.",
+  "description": "a(n) = 3^n + n.",
   "id": "A104743",
   "mentions": [
     "A005408",

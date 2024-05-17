@@ -1,10 +1,11 @@
 {
-  "description": "4*(4^n-3^n).",
+  "description": "a(n) = 4*(4^n-3^n).",
   "id": "A145544",
   "mentions": [
     "A005061"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,14 +1,13 @@
 {
-  "description": "Numbers n such that (89 + 10^(2*n+1))/99 is prime.",
+  "description": "Numbers k such that (89 + 10^(2*k+1))/99 is prime.",
   "id": "A085512",
   "mentions": [],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

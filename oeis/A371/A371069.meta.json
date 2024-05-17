@@ -1,0 +1,19 @@
+{
+  "description": "Positions of records in A370998.",
+  "id": "A371069",
+  "mentions": [
+    "A239392",
+    "A370998"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Row sums of A059026: a(n) = sum( lcm(n,m)/n + lcm(n,m)/m - 1, m = 1..n ).",
+  "description": "Row sums of A059026: a(n) = Sum_{m=1..n} (lcm(n,m)/n + lcm(n,m)/m - 1).",
   "id": "A059028",
   "mentions": [
     "A059026"

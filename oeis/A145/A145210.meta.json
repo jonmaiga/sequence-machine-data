@@ -2,6 +2,7 @@
   "description": "Numbers n such that there exists x in N : (x+1)^3-x^3=67*n^2.",
   "id": "A145210",
   "mentions": [
+    "A145205",
     "A145207"
   ],
   "tags": [

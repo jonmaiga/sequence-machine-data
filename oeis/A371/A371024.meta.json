@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime p such that p + 4*k*(k+1) is prime for 0 <= k <= n-1 but not for k=n.",
+  "id": "A371024",
+  "mentions": [
+    "A164926",
+    "A370387"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

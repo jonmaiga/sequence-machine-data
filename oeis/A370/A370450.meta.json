@@ -1,0 +1,20 @@
+{
+  "description": "Numerator triangle of PDF coefficients for probability A370448/A370449 read by rows.",
+  "id": "A370450",
+  "mentions": [
+    "A370448",
+    "A370449",
+    "A370451"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,12 @@
   "description": "Minimal permanent of an n X n Toeplitz matrix using the first 2*n - 1 prime numbers.",
   "id": "A350939",
   "mentions": [
+    "A290302",
     "A318173",
     "A350932",
-    "A350940"
+    "A350937",
+    "A350940",
+    "A369952"
   ],
   "tags": [
     "hard",

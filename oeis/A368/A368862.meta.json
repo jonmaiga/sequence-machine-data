@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of an infinite series that converges to the negative inverse of Backhouse's constant (A088751).",
+  "id": "A368862",
+  "mentions": [
+    "A030018",
+    "A072508",
+    "A088751"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

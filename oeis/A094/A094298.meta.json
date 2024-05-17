@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and its 10's complement are both semiprimes, i.e., n and 10^k - n where k is the number of digits of n, are semiprime.",
+  "description": "Numbers m such that m and its 10's complement are both semiprimes, i.e., m and 10^k - m, where k is the number of digits of m, are semiprime.",
   "id": "A094298",
   "mentions": [
     "A001358"

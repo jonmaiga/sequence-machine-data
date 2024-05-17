@@ -1,0 +1,18 @@
+{
+  "description": "Sum of products of squares of parts , counted without multiplicity, in all partitions of n.",
+  "id": "A369887",
+  "mentions": [
+    "A077335",
+    "A162506",
+    "A369888"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

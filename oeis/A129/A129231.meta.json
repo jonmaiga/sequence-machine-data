@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=Floor(n*r)-a(n-1), where r=2^(1/2).",
+  "description": "a(n) = floor(n*r) - a(n-1), where r = sqrt(2) and a(0) = 0.",
   "id": "A129231",
   "mentions": [
     "A129229",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

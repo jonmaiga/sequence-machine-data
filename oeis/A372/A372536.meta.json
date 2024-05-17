@@ -1,0 +1,14 @@
+{
+  "description": "Expansion of g.f. A(x) satisfies A( A(x)^2/(1 + 3*A(x))^2 ) = x*A(x).",
+  "id": "A372536",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

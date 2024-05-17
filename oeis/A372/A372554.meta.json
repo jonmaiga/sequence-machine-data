@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A050602(n, 2n+1).",
+  "id": "A372554",
+  "mentions": [
+    "A002450",
+    "A022340",
+    "A050602",
+    "A329603"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

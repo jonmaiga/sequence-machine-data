@@ -1,0 +1,20 @@
+{
+  "description": "Number of 666 substrings contained in the decimal expansion of the n-th apocalyptic number, where overlapping substrings are counted as distinct.",
+  "id": "A371809",
+  "mentions": [
+    "A007356",
+    "A371807",
+    "A371808"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

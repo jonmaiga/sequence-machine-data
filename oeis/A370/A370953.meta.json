@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients of the partition function per spin, lambda (divided by 2), in the very high temperature region, expressed as a power series in the parameter K^2, for the spin-1/2 Ising model on square lattice.",
+  "id": "A370953",
+  "mentions": [
+    "A002890",
+    "A002908",
+    "A370954",
+    "A370955"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

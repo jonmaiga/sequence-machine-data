@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions to k_1 + 2*k_2 + ... + n*k_n = 1, where k_i are from {-1,0,1}, i=1..n.",
+  "id": "A369628",
+  "mentions": [
+    "A007576",
+    "A063866",
+    "A316706"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

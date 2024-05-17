@@ -2,6 +2,7 @@
   "description": "Generalized Fibonacci numbers.",
   "id": "A015453",
   "mentions": [
+    "A046854",
     "A049310",
     "A054413",
     "A055830",

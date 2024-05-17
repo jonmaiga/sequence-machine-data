@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(2) = 2; for n > 2, a(n) is smallest unused number such that a(n) shares a factor with a(n-1) and sopfr(a(n)) shares a factor with sopfr(a(n-1)), where sopfr(k) is the sum of the primes dividing k, with repetition.",
+  "id": "A370047",
+  "mentions": [
+    "A001414",
+    "A027748",
+    "A064413",
+    "A277272",
+    "A370496",
+    "A370497"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

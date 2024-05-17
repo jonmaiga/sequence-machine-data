@@ -2,6 +2,8 @@
   "description": "Determinant of character table of symmetric group S_n.",
   "id": "A007870",
   "mentions": [
+    "A000041",
+    "A000142",
     "A000720",
     "A001221",
     "A001222",

@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions of n whose distinct parts form the set of divisors of some number.",
+  "id": "A371284",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A001221",
+    "A002865",
+    "A008284",
+    "A008289",
+    "A027750",
+    "A054973",
+    "A239312",
+    "A275700",
+    "A370803",
+    "A371172",
+    "A371283",
+    "A371285",
+    "A371286",
+    "A371288"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

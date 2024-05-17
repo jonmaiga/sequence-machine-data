@@ -1,8 +1,10 @@
 {
-  "description": "Smallest prime obtained by appending 3's to n, as n runs through the numbers not divisible by 3.",
+  "description": "Smallest prime obtained by appending 3's to k, where k runs through the numbers not divisible by 3, or -1 if no such prime exists.",
   "id": "A112394",
   "mentions": [
-    "A112386"
+    "A001651",
+    "A112386",
+    "A372056"
   ],
   "tags": [
     "base",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-bfile"
+    "source": "oeis-entry"
   }
 }

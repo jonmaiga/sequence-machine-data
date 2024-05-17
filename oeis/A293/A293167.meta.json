@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum{k = 1 to n} d(d(d(k))), where d(k) is the number of divisors of k (A000005).",
+  "description": "a(n) = Sum_{k = 1..n} d(d(d(k))), where d(k) is the number of divisors of k (A000005).",
   "id": "A293167",
   "mentions": [
     "A000005",

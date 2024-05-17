@@ -1,12 +1,11 @@
 {
-  "description": "Members of a pair (m,n) such that sigma(m) = sigma(n) = sigma(m+n), m < n where sigma = A000203.",
+  "description": "Members of a pair (m,k) such that sigma(m) = sigma(k) = sigma(m+k), m < k where sigma = A000203.",
   "id": "A239436",
   "mentions": [
     "A000203",
     "A005276"
   ],
   "tags": [
-    "hard",
     "nonn"
   ],
   "terms": {

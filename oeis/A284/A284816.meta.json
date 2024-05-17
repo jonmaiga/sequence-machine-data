@@ -2,6 +2,7 @@
   "description": "Sum of entries in the first cycles of all permutations of [n].",
   "id": "A284816",
   "mentions": [
+    "A006595",
     "A180119",
     "A185105",
     "A285363",

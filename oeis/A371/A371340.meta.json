@@ -1,0 +1,16 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of chordless cycles of length k in the n-diagonal intersection graph, 4 <= k <= kmax.",
+  "id": "A371340",
+  "mentions": [
+    "A362537"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

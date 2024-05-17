@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A369974(k) is odd.",
+  "id": "A369976",
+  "mentions": [
+    "A083345",
+    "A359780",
+    "A369001",
+    "A369002",
+    "A369974",
+    "A369975",
+    "A369978"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

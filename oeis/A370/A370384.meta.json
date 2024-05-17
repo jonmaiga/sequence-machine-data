@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] having no substring [k,k+1,k+2,k+3,k+4,k+5].",
+  "id": "A370384",
+  "mentions": [
+    "A000255",
+    "A002628",
+    "A132647",
+    "A184182",
+    "A370383"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

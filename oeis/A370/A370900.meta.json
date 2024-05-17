@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of the powerfree part function (A055231).",
+  "id": "A370900",
+  "mentions": [
+    "A055231",
+    "A191622",
+    "A370901"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

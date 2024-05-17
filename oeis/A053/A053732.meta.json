@@ -2,16 +2,16 @@
   "description": "Number of ways to partition {1,...,n} into arithmetic progressions of length >= 1.",
   "id": "A053732",
   "mentions": [
-    "A000110"
+    "A000110",
+    "A072255"
   ],
   "tags": [
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 21,
+    "offset": 0,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

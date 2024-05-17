@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of \"lonesum\" 2 X 2 X n tensors.",
+  "id": "A370962",
+  "mentions": [
+    "A370963",
+    "A370964",
+    "A370965"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if the second arithmetic derivative of n is a multiple of 3, otherwise 0.",
+  "id": "A370122",
+  "mentions": [
+    "A003415",
+    "A068346",
+    "A079978",
+    "A359430",
+    "A369658",
+    "A370118",
+    "A370123"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

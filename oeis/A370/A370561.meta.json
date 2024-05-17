@@ -1,0 +1,19 @@
+{
+  "description": "Periodic sequence S_{31} of length 28: used to compute the number that the day 31 of a month occurs on a day of the week for the Gregorian cycle of 400 years.",
+  "id": "A370561",
+  "mentions": [
+    "A370558",
+    "A370559",
+    "A370560"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

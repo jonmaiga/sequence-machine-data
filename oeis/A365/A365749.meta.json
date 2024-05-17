@@ -2,7 +2,8 @@
   "description": "Number of iterations that produce a record high of the digest of the SHA2-256 hash of the empty string.",
   "id": "A365749",
   "mentions": [
-    "A234849"
+    "A234849",
+    "A366061"
   ],
   "tags": [
     "base",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with row sums equal and column sums equal",
+  "description": "T(n,k) = Number of n X k 0..2 arrays with row sums equal and column sums equal.",
   "id": "A203564",
   "mentions": [
     "A202779"

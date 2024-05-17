@@ -1,5 +1,5 @@
 {
-  "description": "2(2n-3)!/n!(n-1)! is an integer.",
+  "description": "Numbers k such that 2*(2k-3)!/(k!*(k-1)!) is an integer.",
   "id": "A004782",
   "mentions": [
     "A000108",

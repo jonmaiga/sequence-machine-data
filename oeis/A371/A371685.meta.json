@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n! * Sum_{j=0..n-1} binomial(k - 1, j) / (j + 1).",
+  "id": "A371685",
+  "mentions": [
+    "A024167",
+    "A029767",
+    "A371768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

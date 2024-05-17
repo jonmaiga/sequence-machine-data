@@ -1,12 +1,14 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*(A(x)^2 + A(x)^4).",
+  "description": "G.f. satisfies A(x) = 1 + x*(A(x)^2 + A(x)^4).",
   "id": "A219534",
   "mentions": [
+    "A006318",
     "A025227",
     "A219535",
     "A219536",
     "A219537",
-    "A219538"
+    "A219538",
+    "A364167"
   ],
   "tags": [
     "formulas",

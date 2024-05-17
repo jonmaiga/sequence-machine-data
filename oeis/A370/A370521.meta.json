@@ -1,0 +1,15 @@
+{
+  "description": "The smallest number k that can be partitioned in n ways as the sum of two Blum numbers (A016105).",
+  "id": "A370521",
+  "mentions": [
+    "A016105"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

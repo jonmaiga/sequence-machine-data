@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not multiples of 10 and that yield a prime if their digits are arranged in ascending order.",
+  "id": "A371654",
+  "mentions": [
+    "A007500",
+    "A095179",
+    "A371653"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

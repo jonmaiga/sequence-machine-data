@@ -1,10 +1,11 @@
 {
-  "description": "Composite numbers n such that phi(n)*lambda(n) divides (n-1)^2, where phi(n) = A000010(n) and lambda(n) = A002322(n).",
+  "description": "Composite numbers k such that phi(k)*lambda(k) divides (k-1)^2, where phi(k) = A000010(k) and lambda(k) = A002322(k).",
   "id": "A277366",
   "mentions": [
     "A000010",
     "A002322",
     "A002997",
+    "A055553",
     "A173703"
   ],
   "tags": [

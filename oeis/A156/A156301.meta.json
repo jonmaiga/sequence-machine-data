@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ceiling( n * (log_3 2)) = ceiling(n * 0.6309297535714574371...).",
+  "description": "a(n) = ceiling( n * log_3(2) ) = ceiling(n * 0.6309297535714574371...).",
   "id": "A156301",
   "mentions": [
     "A020915",

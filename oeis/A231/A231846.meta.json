@@ -4,6 +4,7 @@
   "mentions": [
     "A000165",
     "A001147",
+    "A036036",
     "A036039",
     "A039683",
     "A055140",
@@ -12,13 +13,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 67,
     "source": "oeis-entry"
   }
 }

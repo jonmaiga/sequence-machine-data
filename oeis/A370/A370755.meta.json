@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the van der Waerden number W_f(2,n) of the Fibonacci word (A003849).",
+  "id": "A370755",
+  "mentions": [
+    "A003849",
+    "A005346",
+    "A339949",
+    "A364648"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

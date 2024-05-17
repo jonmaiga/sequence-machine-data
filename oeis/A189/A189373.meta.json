@@ -1,11 +1,14 @@
 {
-  "description": "Perfect numbers n such that n+1 is prime.",
+  "description": "Perfect numbers k such that k+1 is prime.",
   "id": "A189373",
   "mentions": [
+    "A000396",
+    "A061644",
     "A099057"
   ],
   "tags": [
     "bref",
+    "formulas",
     "hard",
     "more",
     "nonn"

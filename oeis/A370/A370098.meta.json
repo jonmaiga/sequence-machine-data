@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(3*n,k) * binomial(4*n-k-1,n-k).",
+  "id": "A370098",
+  "mentions": [
+    "A091527",
+    "A365843",
+    "A370097",
+    "A370099",
+    "A370102"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

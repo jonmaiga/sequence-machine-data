@@ -1,0 +1,20 @@
+{
+  "description": "Reciprocal of content of the polynomial q_n used to parametrize the canonical stribolic iterates h_n (of order 1).",
+  "id": "A369993",
+  "mentions": [
+    "A369988",
+    "A369990",
+    "A369991",
+    "A369992"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

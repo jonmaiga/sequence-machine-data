@@ -1,0 +1,23 @@
+{
+  "description": "A124652(n) is the a(n)-th term in row A372111(n-1) of irregular triangle A162306.",
+  "id": "A372323",
+  "mentions": [
+    "A007947",
+    "A010846",
+    "A109735",
+    "A109890",
+    "A124652",
+    "A162306",
+    "A371910",
+    "A372111",
+    "A372322"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A( x*A(x - x^2) ) = x^2.",
+  "id": "A371708",
+  "mentions": [
+    "A000108",
+    "A213591",
+    "A272483",
+    "A372528"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

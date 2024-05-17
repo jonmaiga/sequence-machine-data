@@ -1,0 +1,17 @@
+{
+  "description": "Number of signed permutations of length n with adjacent elements differing by more than 1.",
+  "id": "A370766",
+  "mentions": [
+    "A370767",
+    "A370768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "Integers n such that 3*phi(n) < n.",
+  "description": "Integers k such that 3*phi(k) < k.",
   "id": "A091454",
   "mentions": [
     "A000010",
     "A054741",
+    "A066765",
     "A091456"
   ],
   "tags": [

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 5*Fibonacci(n) + (-1)^n.",
+  "id": "A371843",
+  "mentions": [
+    "A000045",
+    "A022088",
+    "A033999",
+    "A097133"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

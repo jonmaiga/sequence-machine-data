@@ -1,5 +1,5 @@
 {
-  "description": "Consider Fibonacci-type sequences f(0)=X, f(1)=Y, f(k)=f(k-1)+f(k-2) mod n; all are periodic; sequence gives number of distinct period lengths.",
+  "description": "Consider Fibonacci-type sequences f(0)=X, f(1)=Y, f(k)=f(k-1)+f(k-2) mod n; all are periodic; sequence gives number of distinct periods.",
   "id": "A015135",
   "mentions": [
     "A001175",

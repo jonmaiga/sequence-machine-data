@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Product_{k>=0} 1 / (1 + 1/5^k).",
+  "id": "A371752",
+  "mentions": [
+    "A000351",
+    "A083864",
+    "A100222",
+    "A371746",
+    "A371749",
+    "A371750",
+    "A371751"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

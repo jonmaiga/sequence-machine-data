@@ -1,0 +1,23 @@
+{
+  "description": "Three-dimensional array giving all products of three (not necessarily distinct) odd primes.",
+  "id": "A369979",
+  "mentions": [
+    "A000292",
+    "A046316",
+    "A065091",
+    "A087112",
+    "A276086",
+    "A370137",
+    "A370138"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,15 +2,7 @@
   "description": "Decimal expansion of zeta'(-7) (the derivative of Riemann's zeta function at -7) (negated).",
   "id": "A259072",
   "mentions": [
-    "A001620",
-    "A075700",
-    "A084448",
-    "A240966",
-    "A259068",
-    "A259069",
-    "A259070",
-    "A259071",
-    "A259073"
+    "A001620"
   ],
   "tags": [
     "cons",

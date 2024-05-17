@@ -2,6 +2,7 @@
   "description": "Length of the \"integer part\" of the phi-expansion of n.",
   "id": "A362692",
   "mentions": [
+    "A001622",
     "A105424",
     "A341722",
     "A362716",

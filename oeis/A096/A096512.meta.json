@@ -1,5 +1,5 @@
 {
-  "description": "Solutions to A096509[x]=1; number of prime-powers [including primes] in the neighborhood of x with Ceiling[Log[x]] radius equals 1.",
+  "description": "Numbers k such that A096509(k) = 1; i.e., the number of prime powers (including primes) in the neighborhood of k with radius ceiling(log(k)) is 1.",
   "id": "A096512",
   "mentions": [
     "A096508",

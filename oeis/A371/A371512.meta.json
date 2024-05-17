@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest prime such that its representation in base n contains each of the digits 1,...,n-2 at least once and does not contain the digit 0 nor the digit n-1.",
+  "id": "A371512",
+  "mentions": [
+    "A185122",
+    "A371194"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

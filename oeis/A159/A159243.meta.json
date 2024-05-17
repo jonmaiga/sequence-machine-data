@@ -1,5 +1,5 @@
 {
-  "description": "Number of elements in the continued fraction for sum(k=0..n, 1/(1+2^2^k)).",
+  "description": "Number of elements in the continued fraction for Sum_{k=0..n} 1/(1+2^(2^k)).",
   "id": "A159243",
   "mentions": [
     "A051158",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 21,
+    "offset": 0,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of acute triangles on an (n X n)-grid (or geoboard).",
+  "description": "Number of acute triangles on an n X n grid (or geoboard).",
   "id": "A190019",
   "mentions": [
     "A045996",

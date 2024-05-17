@@ -2,15 +2,17 @@
   "description": "a(n) is the number of ways that a cycle of length 2n+1 in the symmetric group S_(2n+1) can be decomposed as the product of two cycles of length 2n+1.",
   "id": "A060593",
   "mentions": [
-    "A090586"
+    "A090586",
+    "A177267"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

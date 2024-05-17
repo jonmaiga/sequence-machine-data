@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the digits sorted in ascending order + the digital sum of n is a palindrome. Or, sortdigits(n)+digit sum(n) is a palindrome.",
+  "description": "Numbers k such that (digits of k sorted in ascending order) + (digital sum of k) is a palindrome.",
   "id": "A085932",
   "mentions": [
     "A085933",

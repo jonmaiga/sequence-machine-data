@@ -1,5 +1,5 @@
 {
-  "description": "Number of pseudo-square convex polyominoes with semi-perimeter n.",
+  "description": "Number of pseudo-square convex polyominoes with semiperimeter n.",
   "id": "A320998",
   "mentions": [
     "A045618",

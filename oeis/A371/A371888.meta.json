@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 - x/A(x) * (1 - A(x) - A(x)^2).",
+  "id": "A371888",
+  "mentions": [
+    "A002212",
+    "A108447",
+    "A364792",
+    "A365193"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

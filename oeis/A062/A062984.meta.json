@@ -1,5 +1,5 @@
 {
-  "description": "M(C(n)), where M(n) is Mertens's function (A002321) and C(n) is Chowla's function (A048050).",
+  "description": "a(n) = M(C(n)), where M(n) is Mertens's function (A002321) and C(n) is Chowla's function (A048050).",
   "id": "A062984",
   "mentions": [
     "A002321",

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sqrt(A369935(n)).",
+  "id": "A369936",
+  "mentions": [
+    "A357016",
+    "A369935"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

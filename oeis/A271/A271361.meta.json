@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 63*10^n+1 is prime.",
+  "description": "Numbers k such that 63*10^k + 1 is prime.",
   "id": "A271361",
   "mentions": [
     "A056654",

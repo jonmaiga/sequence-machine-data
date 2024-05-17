@@ -1,9 +1,10 @@
 {
-  "description": "Floor(6*n*sqrt(n)/Pi^2).",
+  "description": "a(n) = floor(6*n*sqrt(n)/Pi^2).",
   "id": "A060903",
   "mentions": [
     "A000093",
     "A000203",
+    "A000796",
     "A058208"
   ],
   "tags": [

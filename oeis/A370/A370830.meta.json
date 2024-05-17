@@ -1,0 +1,15 @@
+{
+  "description": "Primes p such that the polynomial x^4-x^3-x^2-x-1 is irreducible mod p.",
+  "id": "A370830",
+  "mentions": [
+    "A106283"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

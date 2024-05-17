@@ -1,7 +1,9 @@
 {
-  "description": "Primes of the form 1+multiple perfect numbers.",
+  "description": "Primes of the form 1 + multiple perfect number.",
   "id": "A093034",
   "mentions": [
+    "A000010",
+    "A000203",
     "A007691",
     "A171263",
     "A171264",
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

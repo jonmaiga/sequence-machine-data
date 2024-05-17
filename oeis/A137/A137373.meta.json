@@ -1,9 +1,8 @@
 {
-  "description": "Triangular sequence from coefficients of Gould polynomials for the special case :n=a=b; g(x,n)=(x/(x - n^2))*Binomial[x - n^2, n].",
+  "description": "Triangular sequence from coefficients of Gould polynomials for the special case: n=a=b; g(x,n)=(x/(x - n^2))*binomial(x - n^2, n).",
   "id": "A137373",
   "mentions": [],
   "tags": [
-    "formulas",
     "sign",
     "tabl",
     "uned"

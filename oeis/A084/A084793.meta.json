@@ -1,5 +1,5 @@
 {
-  "description": "For p = prime(n), the number of solutions (g,h) to the equation g^h = h (mod p), where 0 < h < p and g is a primitive root of p; fixed points of the discrete logarithm with base g.",
+  "description": "For p = prime(n), the number of solutions (g,h) to the equation g^h == h (mod p), where 0 < h < p and g is a primitive root of p; fixed points of the discrete logarithm with base g.",
   "id": "A084793",
   "mentions": [],
   "tags": [

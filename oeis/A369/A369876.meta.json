@@ -1,0 +1,17 @@
+{
+  "description": "Square array read by descending antidiagonals: For T(n,k), define sequence {b(i)} where b(0) = n, b(1) = k, b(i) = A000265(b(i-1) + b(i-2)). T(n,k) is the number of steps until reaching the cyclic part of {b(i)}.",
+  "id": "A369876",
+  "mentions": [
+    "A000265"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

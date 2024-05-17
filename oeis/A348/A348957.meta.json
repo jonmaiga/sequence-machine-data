@@ -1,9 +1,18 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = (1 + x * A(-x)) / (1 - x * A(x)).",
+  "description": "G.f. A(x) satisfies A(x) = (1 + x * A(-x)) / (1 - x * A(x)).",
   "id": "A348957",
   "mentions": [
     "A006318",
-    "A086246"
+    "A086246",
+    "A112478",
+    "A349310",
+    "A361638",
+    "A364394",
+    "A364395",
+    "A364407",
+    "A366266",
+    "A366363",
+    "A366364"
   ],
   "tags": [
     "formulas",
@@ -12,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

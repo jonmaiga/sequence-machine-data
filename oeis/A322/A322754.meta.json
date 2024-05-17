@@ -1,12 +1,13 @@
 {
-  "description": "Number of unlabeled 7-trees on n nodes",
+  "description": "Number of unlabeled 7-trees on n nodes.",
   "id": "A322754",
   "mentions": [
     "A054581",
     "A078792",
     "A078793",
     "A201702",
-    "A202037"
+    "A202037",
+    "A370770"
   ],
   "tags": [
     "nonn"

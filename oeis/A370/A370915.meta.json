@@ -1,0 +1,40 @@
+{
+  "description": "A(n, k) = 4^n*Pochhammer(k/4, n). Square array read by ascending antidiagonals.",
+  "id": "A370915",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000407",
+    "A001477",
+    "A001813",
+    "A007696",
+    "A008545",
+    "A028347",
+    "A034176",
+    "A034177",
+    "A047053",
+    "A051617",
+    "A051618",
+    "A051619",
+    "A051620",
+    "A052570",
+    "A094587",
+    "A370419",
+    "A370913",
+    "A370914",
+    "A371025",
+    "A371026",
+    "A371077"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

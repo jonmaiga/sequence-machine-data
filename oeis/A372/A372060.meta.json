@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = smallest k such that A252867(k) = n, or -1 if no such k exists.",
+  "id": "A372060",
+  "mentions": [
+    "A252867"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

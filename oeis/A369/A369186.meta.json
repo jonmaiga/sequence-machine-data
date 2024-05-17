@@ -1,0 +1,16 @@
+{
+  "description": "The denominators of a series that converges to the Dottie Number (A003957).",
+  "id": "A369186",
+  "mentions": [
+    "A003957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

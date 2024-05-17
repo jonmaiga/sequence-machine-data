@@ -1,0 +1,15 @@
+{
+  "description": "Number of (undirected) Eulerian cycles in the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A369821",
+  "mentions": [],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

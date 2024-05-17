@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tau(n) + phi(n) is a perfect square.",
+  "description": "Numbers k such that tau(k) + phi(k) is a perfect square.",
   "id": "A245202",
   "mentions": [
     "A000005",

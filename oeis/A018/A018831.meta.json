@@ -1,14 +1,23 @@
 {
   "description": "Numbers n such that n is a substring of its square in base 7 (written in base 10).",
   "id": "A018831",
-  "mentions": [],
+  "mentions": [
+    "A018826",
+    "A018827",
+    "A018828",
+    "A018829",
+    "A018830",
+    "A018832",
+    "A018833",
+    "A018834"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
-    "source": "joeis"
+    "size": 36,
+    "source": "oeis-entry"
   }
 }

@@ -1,0 +1,38 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order is biquanimous.",
+  "id": "A372120",
+  "mentions": [
+    "A002219",
+    "A006827",
+    "A027187",
+    "A035470",
+    "A064914",
+    "A066099",
+    "A232466",
+    "A237258",
+    "A321142",
+    "A357854",
+    "A357879",
+    "A357976",
+    "A367094",
+    "A371731",
+    "A371781",
+    "A371782",
+    "A371783",
+    "A371791",
+    "A371792",
+    "A371793",
+    "A371794",
+    "A371795",
+    "A371956",
+    "A372119"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

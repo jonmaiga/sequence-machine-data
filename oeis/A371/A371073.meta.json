@@ -1,0 +1,19 @@
+{
+  "description": "a(n)/144 is the maximum squared volume of a tetrahedron with the sum of its integer edge lengths equal to n.",
+  "id": "A371073",
+  "mentions": [
+    "A097125",
+    "A208454",
+    "A371070",
+    "A371071",
+    "A371072"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

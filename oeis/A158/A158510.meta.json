@@ -1,7 +1,9 @@
 {
   "description": "Generalized Fibonacci numbers Fib(n + 0.5) rounded to an integer.",
   "id": "A158510",
-  "mentions": [],
+  "mentions": [
+    "A001622"
+  ],
   "tags": [
     "nonn"
   ],

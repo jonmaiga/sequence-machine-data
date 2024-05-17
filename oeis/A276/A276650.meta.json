@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form prime(n)^n - PrimePi(n).",
+  "description": "Primes of the form prime(k)^k - PrimePi(k).",
   "id": "A276650",
   "mentions": [
     "A000720",

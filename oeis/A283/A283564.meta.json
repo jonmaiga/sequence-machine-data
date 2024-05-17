@@ -1,14 +1,15 @@
 {
   "description": "Positive integers k such that k = a/(b+c) + b/(a+c) + c/(a+b) for some positive integers a, b and c where the corresponding elliptic curve has rank=1.",
   "id": "A283564",
-  "mentions": [],
+  "mentions": [
+    "A369896"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 62,
     "source": "oeis-entry"
   }
 }

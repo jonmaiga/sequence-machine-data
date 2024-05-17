@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions of 5*n into parts 1 and 5.",
+  "id": "A369836",
+  "mentions": [
+    "A003520",
+    "A079675",
+    "A099131",
+    "A369837",
+    "A369838",
+    "A369839",
+    "A369840",
+    "A369845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

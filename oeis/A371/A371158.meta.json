@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x - x^2)^(x^3).",
+  "id": "A371158",
+  "mentions": [
+    "A088369",
+    "A371157"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

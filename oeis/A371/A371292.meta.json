@@ -1,0 +1,39 @@
+{
+  "description": "Numbers whose binary indices have prime indices covering an initial interval of positive integers.",
+  "id": "A371292",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000120",
+    "A000670",
+    "A001222",
+    "A011782",
+    "A029931",
+    "A048793",
+    "A055887",
+    "A070939",
+    "A107429",
+    "A112798",
+    "A131689",
+    "A255906",
+    "A272020",
+    "A326782",
+    "A333217",
+    "A368109",
+    "A371291",
+    "A371293",
+    "A371294",
+    "A371447",
+    "A371448",
+    "A371452"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

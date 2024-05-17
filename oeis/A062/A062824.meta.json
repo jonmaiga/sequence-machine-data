@@ -1,16 +1,18 @@
 {
-  "description": "Ch(A005117(n)) where Ch(n) is Chowla's function and A005117(n) are the squarefree numbers.",
+  "description": "a(n) = Ch(A005117(n)) where Ch(n) is Chowla's function and A005117(n) are the squarefree numbers.",
   "id": "A062824",
   "mentions": [
-    "A005117"
+    "A005117",
+    "A048050"
   ],
   "tags": [
     "easy",
-    "sign"
+    "formulas",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 92,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

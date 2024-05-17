@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + (largest digit of n)! is a palindromic prime.",
+  "description": "Numbers k such that k + (largest digit of k)! is a palindromic prime.",
   "id": "A095920",
   "mentions": [
     "A002385",
@@ -7,7 +7,6 @@
   ],
   "tags": [
     "base",
-    "easy",
     "nonn"
   ],
   "terms": {

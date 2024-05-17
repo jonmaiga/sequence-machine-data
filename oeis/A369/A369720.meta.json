@@ -1,0 +1,26 @@
+{
+  "description": "The sum of divisors of the smallest cubefull number that is a multiple of n.",
+  "id": "A369720",
+  "mentions": [
+    "A000203",
+    "A002117",
+    "A013662",
+    "A036966",
+    "A183700",
+    "A356193",
+    "A369717",
+    "A369719",
+    "A369721"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

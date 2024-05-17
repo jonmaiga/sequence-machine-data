@@ -1,0 +1,40 @@
+{
+  "description": "Number of subsets of {2..n} such that it is not possible to choose a different binary index of each element.",
+  "id": "A370643",
+  "mentions": [
+    "A000120",
+    "A003465",
+    "A029931",
+    "A048793",
+    "A058891",
+    "A070939",
+    "A072639",
+    "A096111",
+    "A133686",
+    "A140637",
+    "A272020",
+    "A323818",
+    "A326031",
+    "A355529",
+    "A355740",
+    "A367867",
+    "A367905",
+    "A368109",
+    "A370583",
+    "A370589",
+    "A370636",
+    "A370637",
+    "A370640",
+    "A370642",
+    "A370644"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

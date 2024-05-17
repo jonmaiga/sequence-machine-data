@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled posets on [n] of rank at most one with exactly k elements of positive indegree, n >= 0, 0 <= k <= max{0,n-1}.",
+  "id": "A369919",
+  "mentions": [
+    "A001831",
+    "A058877",
+    "A263859",
+    "A369921"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

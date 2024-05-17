@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A068865(n) = n.",
+  "description": "Triangular numbers k*(k+1)/2 such that A068865(k) = k*(k+1)/2.",
   "id": "A068866",
   "mentions": [
     "A068855",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "joeis"
   }
 }

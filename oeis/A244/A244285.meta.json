@@ -2,7 +2,9 @@
   "description": "Decimal expansion of A1*B1, the average number of non-isomorphic semisimple rings of any order, where A1 is Product_{m>1} zeta(m) and B1 is Product_{r*m^2 > 1} zeta(r*m^2).",
   "id": "A244285",
   "mentions": [
-    "A021002"
+    "A021002",
+    "A038538",
+    "A123030"
   ],
   "tags": [
     "cons",

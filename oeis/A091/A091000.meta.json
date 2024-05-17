@@ -1,5 +1,5 @@
 {
-  "description": "Number of closed walks of length n on the Petersen graph.",
+  "description": "Number of closed walks of length n on the Petersen graph rooted at a given vertex.",
   "id": "A091000",
   "mentions": [
     "A000244",

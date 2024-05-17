@@ -1,7 +1,12 @@
 {
   "description": "Sum of proper divisors of 6n + 1.",
   "id": "A072815",
-  "mentions": [],
+  "mentions": [
+    "A001065",
+    "A016921",
+    "A145426",
+    "A363031"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 77,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest prime of earlier set of n consecutive good primes version 1 (see A046869).",
+  "description": "a(n) is the smallest prime of earliest set of at least n consecutive good primes version 1 (see A046869).",
   "id": "A095924",
   "mentions": [
     "A028388",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

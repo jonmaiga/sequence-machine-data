@@ -1,0 +1,26 @@
+{
+  "description": "The sum of the unitary divisors of n that are cubefree numbers (A004709).",
+  "id": "A371242",
+  "mentions": [
+    "A000005",
+    "A004709",
+    "A005117",
+    "A034448",
+    "A036966",
+    "A065465",
+    "A092261",
+    "A306633",
+    "A365498"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

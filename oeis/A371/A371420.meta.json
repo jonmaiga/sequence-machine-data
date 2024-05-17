@@ -1,0 +1,26 @@
+{
+  "description": "Greater member of Carmichael's variant of amicable pair: numbers k < m such that s(k) = m and s(m) = k, where s(k) = A371418(k).",
+  "id": "A371420",
+  "mentions": [
+    "A002046",
+    "A002953",
+    "A126166",
+    "A126170",
+    "A259039",
+    "A292981",
+    "A322542",
+    "A324709",
+    "A348344",
+    "A371418",
+    "A371419"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

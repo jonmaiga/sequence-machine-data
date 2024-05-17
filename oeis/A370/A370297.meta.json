@@ -1,0 +1,20 @@
+{
+  "description": "Inverse Moebius transform of A322328.",
+  "id": "A370297",
+  "mentions": [
+    "A034444",
+    "A048691",
+    "A322328"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

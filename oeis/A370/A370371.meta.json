@@ -1,0 +1,25 @@
+{
+  "description": "Largest m such that any two consecutive digits of the base-n expansion of m^2 differ by 1 after arranging the digits in decreasing order.",
+  "id": "A370371",
+  "mentions": [
+    "A051846",
+    "A062813",
+    "A215014",
+    "A258103",
+    "A370362",
+    "A370370",
+    "A370611",
+    "A649321",
+    "A870124"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

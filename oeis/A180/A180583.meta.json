@@ -1,7 +1,16 @@
 {
   "description": "Number of Hamiltonian cycles in C_7 X P_n.",
   "id": "A180583",
-  "mentions": [],
+  "mentions": [
+    "A003699",
+    "A003731",
+    "A180582",
+    "A180584",
+    "A180585",
+    "A180586",
+    "A180587",
+    "A180588"
+  ],
   "tags": [
     "easy",
     "formulas",

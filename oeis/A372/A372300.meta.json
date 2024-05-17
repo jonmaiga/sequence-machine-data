@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and k+1 are both primitive infinitary abundant numbers (definition 1, A372298).",
+  "id": "A372300",
+  "mentions": [
+    "A077609",
+    "A129656",
+    "A283418",
+    "A327635",
+    "A330872",
+    "A361935",
+    "A372298",
+    "A372299"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

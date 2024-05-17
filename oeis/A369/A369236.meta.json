@@ -1,0 +1,16 @@
+{
+  "description": "Minimum number of steps to reach n by steps x -> x+1 or x^2, starting from 0.",
+  "id": "A369236",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

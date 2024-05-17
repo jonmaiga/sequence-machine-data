@@ -1,5 +1,5 @@
 {
-  "description": "Expansion e.g.f. LambertW( -x/(1-x) ) / (-x).",
+  "description": "Expansion of e.g.f. LambertW( -x/(1-x) ) / (-x).",
   "id": "A352410",
   "mentions": [
     "A052868",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

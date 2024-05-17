@@ -1,10 +1,13 @@
 {
-  "description": "Composite numbers for which Sum of EulerPhi and Divisor-Sum is an integer multiple of the 4th power of the number of divisors.",
+  "description": "Composite numbers k for which phi(k) + sigma(k) is an integer multiple of the 4th power of the number of divisors of k.",
   "id": "A055468",
   "mentions": [
     "A000005",
     "A000010",
-    "A000203"
+    "A000203",
+    "A055465",
+    "A055466",
+    "A055467"
   ],
   "tags": [
     "formulas",

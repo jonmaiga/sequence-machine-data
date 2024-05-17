@@ -1,7 +1,9 @@
 {
   "description": "Sum of the largest digit of the divisors of n.",
   "id": "A168338",
-  "mentions": [],
+  "mentions": [
+    "A027750"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

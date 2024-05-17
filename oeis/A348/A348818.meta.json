@@ -8,15 +8,15 @@
     "A348815",
     "A348819",
     "A348820",
-    "A348821"
+    "A348821",
+    "A369923"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 12,
+    "source": "oeis-bfile"
   }
 }

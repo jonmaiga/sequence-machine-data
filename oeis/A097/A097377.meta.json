@@ -1,5 +1,5 @@
 {
-  "description": "CubeFreeKernel(n) + 1.",
+  "description": "a(n) = CubeFreeKernel(n) + 1.",
   "id": "A097377",
   "mentions": [
     "A004709",
@@ -7,11 +7,12 @@
     "A097380"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

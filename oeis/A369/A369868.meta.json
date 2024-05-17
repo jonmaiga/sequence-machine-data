@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} n^pi(n/p).",
+  "id": "A369868",
+  "mentions": [
+    "A000720",
+    "A345301",
+    "A369745",
+    "A369747"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

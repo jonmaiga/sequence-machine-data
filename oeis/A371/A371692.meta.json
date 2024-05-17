@@ -1,0 +1,19 @@
+{
+  "description": "Table(n,k) of binary strings of length n which have the same number of k long 0...00 and 0...01 substrings, where n>=0 and k>=2, read by downwards antidiagonals.",
+  "id": "A371692",
+  "mentions": [
+    "A163493",
+    "A164137",
+    "A164147",
+    "A164178"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

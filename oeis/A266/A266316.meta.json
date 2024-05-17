@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX2 arrays containing 2 copies of 0..n-1 with no element 1 greater than its west or north neighbor modulo n and the upper left element equal to 0.",
+  "description": "Number of n X 2 arrays containing 2 copies of 0..n-1 with no element 1 greater than its west or north neighbor modulo n and the upper left element equal to 0.",
   "id": "A266316",
   "mentions": [
     "A266318"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

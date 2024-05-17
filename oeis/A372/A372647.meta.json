@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions such that their set adjacent differences are a subset of {-1,1} and contain 1 as a part of the composition itself.",
+  "id": "A372647",
+  "mentions": [
+    "A003242",
+    "A173258",
+    "A362500",
+    "A372646"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

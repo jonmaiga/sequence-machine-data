@@ -2,8 +2,28 @@
   "description": "Triangular array giving number of labeled graphs on n unisolated nodes and k=0...n*(n-1)/2 edges.",
   "id": "A054548",
   "mentions": [
+    "A000666",
+    "A002494",
+    "A006125",
     "A006129",
-    "A054547"
+    "A006649",
+    "A054547",
+    "A062734",
+    "A062740",
+    "A066383",
+    "A084546",
+    "A121251",
+    "A121252",
+    "A133686",
+    "A173219",
+    "A322661",
+    "A322700",
+    "A368597",
+    "A369195",
+    "A369196",
+    "A369197",
+    "A369199",
+    "A370167"
   ],
   "tags": [
     "easy",
@@ -12,8 +32,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 56,
+    "offset": 0,
+    "size": 57,
     "source": "oeis-bfile"
   }
 }

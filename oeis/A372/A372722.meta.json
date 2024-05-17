@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of partitions of [n] having exactly k blocks of maximal size; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A372722",
+  "mentions": [
+    "A000007",
+    "A000110",
+    "A001147",
+    "A271715",
+    "A372649",
+    "A372721"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

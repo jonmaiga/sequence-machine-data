@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator(Voronoi(3, 2*n)) where Voronoi(c, n) = ((c^n - 1) * Bernoulli(n)) / (n * c^(n - 1)).",
+  "id": "A371639",
+  "mentions": [
+    "A002425",
+    "A255932",
+    "A292608",
+    "A371638",
+    "A371640"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

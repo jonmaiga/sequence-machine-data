@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2 * (k mod 2 + 1) * T(n-1,floor(k/2)) + 1 with T(0,0) = 1 for 0 <= k <= 2^n-1.",
+  "id": "A370762",
+  "mentions": [
+    "A000225",
+    "A016129",
+    "A247648"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

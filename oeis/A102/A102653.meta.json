@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4 * floor(27*2^n/15).",
+  "description": "a(n) = 4 * floor(9*2^n/5).",
   "id": "A102653",
   "mentions": [
     "A102650",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 32,
     "source": "joeis"
   }
 }

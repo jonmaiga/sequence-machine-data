@@ -1,0 +1,22 @@
+{
+  "description": "Euler totient function applied to the binary palindromes of even length.",
+  "id": "A371238",
+  "mentions": [
+    "A000010",
+    "A006995",
+    "A048701",
+    "A059956",
+    "A070939"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

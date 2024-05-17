@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that ceiling(n^(1/k)) divides n for all integers k>=1.",
+  "description": "Numbers j such that ceiling(j^(1/k)) divides j for all integers k >= 1.",
   "id": "A261206",
   "mentions": [
     "A002620",

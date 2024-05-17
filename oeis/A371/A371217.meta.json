@@ -1,0 +1,19 @@
+{
+  "description": "The maximum deck size to perform Colm Mulcahy's n-card trick.",
+  "id": "A371217",
+  "mentions": [
+    "A000035",
+    "A030495",
+    "A275929",
+    "A370888"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

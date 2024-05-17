@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the permanents of all 2 X 2 submatrices in the n X n Pascal matrix.",
+  "id": "A369906",
+  "mentions": [
+    "A007318",
+    "A306376",
+    "A369559"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

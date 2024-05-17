@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) is the largest distance squared on a square spiral between a(n-1) and any previous occurrence of a(n-1). If a(n-1) has not previously occurred then a(n) = 0.",
+  "id": "A365344",
+  "mentions": [
+    "A001481",
+    "A365343",
+    "A366353",
+    "A366354",
+    "A366543"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

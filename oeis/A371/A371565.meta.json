@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that removing the even digits from k! yields a prime number.",
+  "id": "A371565",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A008904"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

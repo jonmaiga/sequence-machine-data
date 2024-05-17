@@ -2,11 +2,16 @@
   "description": "Continued fraction for sqrt(26).",
   "id": "A040020",
   "mentions": [
-    "A010481"
+    "A010481",
+    "A040000",
+    "A041040",
+    "A041041",
+    "A248253"
   ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

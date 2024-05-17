@@ -1,0 +1,21 @@
+{
+  "description": "Partial products of A051179.",
+  "id": "A370458",
+  "mentions": [
+    "A051179",
+    "A215016",
+    "A258714",
+    "A258715",
+    "A258716"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

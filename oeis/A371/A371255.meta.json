@@ -1,0 +1,22 @@
+{
+  "description": "Number of (curved) edges formed when n equally spaced points are placed around a circle and all pairs of points are joined by an interior arc whose radius equals the circle's radius.",
+  "id": "A371255",
+  "mentions": [
+    "A135565",
+    "A358783",
+    "A359047",
+    "A359254",
+    "A371253",
+    "A371254",
+    "A371274"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

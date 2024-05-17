@@ -1,0 +1,17 @@
+{
+  "description": "Largest possible number of minimal forbidden subgraphs for a graph of order n.",
+  "id": "A371162",
+  "mentions": [
+    "A371161"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

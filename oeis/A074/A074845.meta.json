@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that S(n) = largest difference between consecutive divisors of n (ordered by size), where S(n) is the Kempner function (A002034).",
+  "description": "Numbers k such that S(k) = largest difference between consecutive divisors of k (ordered by size), where S(k) is the Kempner function (A002034).",
   "id": "A074845",
   "mentions": [
     "A000254",

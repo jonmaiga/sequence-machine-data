@@ -1,5 +1,5 @@
 {
-  "description": "sum(p,floor(n^2/p^2)) where the sum is over all the primes.",
+  "description": "a(n) = Sum_{p prime} floor(n^2/p^2) where the sum is over all the primes.",
   "id": "A069533",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

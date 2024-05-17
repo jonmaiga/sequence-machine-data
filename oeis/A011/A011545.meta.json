@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Pi truncated to n places.",
+  "description": "a(n) is the integer whose decimal digits are the first n+1 decimal digits of Pi.",
   "id": "A011545",
   "mentions": [
     "A000796",

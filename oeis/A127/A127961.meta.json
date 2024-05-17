@@ -1,5 +1,5 @@
 {
-  "description": "A007583(n) written in binary.",
+  "description": "a(n) = A007583(n) written in binary.",
   "id": "A127961",
   "mentions": [
     "A007583"

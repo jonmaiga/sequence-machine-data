@@ -7,11 +7,13 @@
     "A172293"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

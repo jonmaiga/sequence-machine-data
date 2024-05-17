@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: place n equally space points around the circumference of a circle and then, for each pair of points, draw two distinct circles, whose radii are the same as the first circle, such that both points lie on their circumferences. T(n,k), k>=2, gives the number of k-sided regions formed.",
+  "id": "A371376",
+  "mentions": [
+    "A331450",
+    "A359009",
+    "A359061",
+    "A371274",
+    "A371373",
+    "A371374",
+    "A371375",
+    "A371377"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

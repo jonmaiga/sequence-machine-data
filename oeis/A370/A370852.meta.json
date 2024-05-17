@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n is the list of residues mod n that occur among the Markov numbers",
+  "id": "A370852",
+  "mentions": [
+    "A002559",
+    "A327345",
+    "A368546",
+    "A370164"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

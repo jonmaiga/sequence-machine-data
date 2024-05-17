@@ -1,0 +1,16 @@
+{
+  "description": "Positive integers of the form k^2 - 1 that are the product of two other positive integers of the form k^2 - 1.",
+  "id": "A372497",
+  "mentions": [
+    "A005563",
+    "A063066"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

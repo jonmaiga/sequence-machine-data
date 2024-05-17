@@ -1,0 +1,22 @@
+{
+  "description": "Oblong numbers of the form (k-1)*k where k is the product of an odd number of distinct primes.",
+  "id": "A370494",
+  "mentions": [
+    "A002378",
+    "A030059",
+    "A033150",
+    "A368249",
+    "A368250",
+    "A370495"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

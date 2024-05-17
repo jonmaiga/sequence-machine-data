@@ -1,0 +1,23 @@
+{
+  "description": "Fourth powers whose digital sum is also a fourth power.",
+  "id": "A371004",
+  "mentions": [
+    "A000583",
+    "A007953",
+    "A038444",
+    "A053057",
+    "A053058",
+    "A371047"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

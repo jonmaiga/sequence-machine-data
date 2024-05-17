@@ -1,0 +1,19 @@
+{
+  "description": "Number of digits of phi (the golden ratio) correctly approximated by Fibonacci(n+1) / Fibonacci(n).",
+  "id": "A369715",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A048433",
+    "A048434"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

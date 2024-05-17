@@ -1,0 +1,16 @@
+{
+  "description": "Number of ramified partitions (I,J) of size n, where J is balanced with respect to up brackets and down brackets.",
+  "id": "A370758",
+  "mentions": [
+    "A343254"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

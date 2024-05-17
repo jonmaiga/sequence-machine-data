@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals downwards, where T(n,k) = 1/(phi(k)) * Sum_{j=1..n} phi(k*j).",
+  "id": "A372619",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A049690",
+    "A070639",
+    "A078615",
+    "A322360",
+    "A372606",
+    "A372621",
+    "A372622",
+    "A372637",
+    "A372638",
+    "A372639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

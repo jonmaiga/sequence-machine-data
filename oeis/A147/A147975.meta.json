@@ -1,8 +1,10 @@
 {
-  "description": "4^n-3^n-2^n-1.",
+  "description": "a(n) = 4^n-3^n-2^n-1.",
   "id": "A147975",
   "mentions": [
     "A147976",
+    "A147977",
+    "A147978",
     "A147979"
   ],
   "tags": [

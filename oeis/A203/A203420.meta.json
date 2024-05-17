@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A203418(n)/A000178(n) where A000178=(superfactorials).",
+  "description": "a(n) = A203418(n)/A000178(n).",
   "id": "A203420",
   "mentions": [
     "A000040",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

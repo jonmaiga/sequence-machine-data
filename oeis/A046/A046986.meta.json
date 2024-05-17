@@ -1,7 +1,9 @@
 {
-  "description": "Multiply perfect numbers whose average divisor divides the number but is not an integer.",
+  "description": "Multiply perfect numbers that are also harmonic numbers but are not arithmetic numbers.",
   "id": "A046986",
   "mentions": [
+    "A000005",
+    "A000203",
     "A001599",
     "A003601",
     "A007691",
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

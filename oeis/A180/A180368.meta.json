@@ -1,7 +1,12 @@
 {
   "description": "Number of steps of the one-sided hydra process for a linear tree of length n.",
   "id": "A180368",
-  "mentions": [],
+  "mentions": [
+    "A372101",
+    "A372421",
+    "A372478",
+    "A372594"
+  ],
   "tags": [
     "more",
     "nonn"

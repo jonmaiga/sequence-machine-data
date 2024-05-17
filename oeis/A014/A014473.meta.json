@@ -1,5 +1,5 @@
 {
-  "description": "Pascal's triangle - 1.",
+  "description": "Pascal's triangle - 1: Triangle read by rows: T(n, k) = A007318(n, k) - 1.",
   "id": "A014473",
   "mentions": [
     "A000004",
@@ -10,11 +10,13 @@
     "A010763",
     "A014430",
     "A030662",
+    "A059841",
     "A062748",
     "A062988",
     "A063258",
     "A109128",
     "A124089",
+    "A129696",
     "A322938",
     "A323211"
   ],
@@ -26,7 +28,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 79,
+    "size": 78,
     "source": "joeis"
   }
 }

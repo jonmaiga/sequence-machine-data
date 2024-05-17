@@ -1,0 +1,23 @@
+{
+  "description": "The index of the largest Fibonacci number that divides the sum of Fibonacci numbers with indices 1 through A000217(n) (the n-th triangular number).",
+  "id": "A372050",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000071",
+    "A000217",
+    "A054494",
+    "A075850",
+    "A372048",
+    "A372049",
+    "A372051"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

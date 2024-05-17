@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k in A276156 (sums of distinct primorial numbers) where the maximal exponent in the prime factorization of k attains a novel value.",
+  "id": "A369649",
+  "mentions": [
+    "A007088",
+    "A049345",
+    "A051903",
+    "A276156",
+    "A351073",
+    "A369647",
+    "A369648"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

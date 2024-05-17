@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is twice the sum of the first n binary digits of e minus n.",
+  "id": "A369900",
+  "mentions": [
+    "A001113",
+    "A004593",
+    "A166006"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

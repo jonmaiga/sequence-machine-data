@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles in the complement of the n-Sierpinski tetrahedron graph.",
+  "id": "A370300",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

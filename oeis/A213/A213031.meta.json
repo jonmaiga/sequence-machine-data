@@ -1,5 +1,5 @@
 {
-  "description": "[n/2]^3 -[n/3]^3, where []=floor.",
+  "description": "a(n) = floor(n/2)^3 - floor(n/3)^3.",
   "id": "A213031",
   "mentions": [],
   "tags": [

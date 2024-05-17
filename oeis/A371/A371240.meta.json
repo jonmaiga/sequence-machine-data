@@ -1,0 +1,22 @@
+{
+  "description": "The sum of divisors of the zeroless numbers in base 3 (A032924).",
+  "id": "A371240",
+  "mentions": [
+    "A000203",
+    "A032924",
+    "A214549",
+    "A371239",
+    "A371241"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

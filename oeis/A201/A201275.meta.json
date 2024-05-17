@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..2 arrays with every row and column nondecreasing rightwards and downwards, and the number of instances of each value within one of each other",
+  "description": "Number of n X 6 0..2 arrays with every row and column nondecreasing rightwards and downwards, and the number of instances of each value within one of each other.",
   "id": "A201275",
   "mentions": [
     "A201277"
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 29,
+    "offset": 0,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

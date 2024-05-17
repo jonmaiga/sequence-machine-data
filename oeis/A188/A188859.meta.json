@@ -2,7 +2,9 @@
   "description": "Decimal expansion of 2 - log(4).",
   "id": "A188859",
   "mentions": [
-    "A023416"
+    "A016639",
+    "A023416",
+    "A244009"
   ],
   "tags": [
     "cons",

@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] having exactly one adjacent 3-cycle.",
+  "id": "A370525",
+  "mentions": [
+    "A177250",
+    "A177251",
+    "A370527",
+    "A370528",
+    "A370530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Central coefficients in Product_{k=0..n-1} (1 + k*x + x^2).",
   "id": "A201950",
   "mentions": [
+    "A086672",
     "A201949",
     "A201951",
     "A201952",

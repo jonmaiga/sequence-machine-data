@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers which divide the concatenation of their ascending ordered prime factors, with repetition, when written in binary.",
+  "id": "A371821",
+  "mentions": [
+    "A004676",
+    "A027746",
+    "A259047",
+    "A371641"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

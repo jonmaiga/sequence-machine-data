@@ -2,7 +2,8 @@
   "description": "Sequence of Mahler coefficients of the Gray code function.",
   "id": "A109629",
   "mentions": [
-    "A003188"
+    "A003188",
+    "A372304"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

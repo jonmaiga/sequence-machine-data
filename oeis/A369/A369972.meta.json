@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that (prime(k)#)' is a multiple of prime(1+k), where prime(k)# means the k-th primorial, A002110(k), and ' stands for taking the arithmetic derivative, A003415.",
+  "id": "A369972",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
+    "A003415",
+    "A024451",
+    "A109628",
+    "A293457",
+    "A369970",
+    "A369973"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

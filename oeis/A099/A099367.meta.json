@@ -1,5 +1,5 @@
 {
-  "description": "Squares of A054413(n-1), n >= 1 (generalized Fibonacci).",
+  "description": "a(n) = A054413(n-1)^2, n >= 1.",
   "id": "A099367",
   "mentions": [
     "A007598",

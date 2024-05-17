@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of distinct values of the permanent of an n X n Hankel matrix using the integers 0 to 2*(n - 1).",
+  "id": "A369945",
+  "mentions": [
+    "A358569",
+    "A358570"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Primes whose second, third and fourth digits are 234.",
+  "id": "A371833",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

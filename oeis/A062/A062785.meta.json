@@ -1,18 +1,20 @@
 {
-  "description": "Chowla's function * sigma(n).",
+  "description": "a(n) = Chowla's function of n * sigma(n).",
   "id": "A062785",
   "mentions": [
     "A000203",
-    "A048050"
+    "A002117",
+    "A048050",
+    "A086463"
   ],
   "tags": [
     "easy",
     "formulas",
-    "sign"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

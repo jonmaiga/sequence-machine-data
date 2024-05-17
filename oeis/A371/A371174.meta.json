@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. (1 + x + x^2)^(x^3).",
+  "id": "A371174",
+  "mentions": [
+    "A371158"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

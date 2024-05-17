@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{powerful k>=1} k / 2^k.",
+  "id": "A371135",
+  "mentions": [
+    "A001694",
+    "A112526",
+    "A346173",
+    "A371134"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

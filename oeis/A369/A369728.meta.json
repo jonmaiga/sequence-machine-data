@@ -1,0 +1,17 @@
+{
+  "description": "Maximal coefficient of (1 - x) * (1 - x^4) * (1 - x^9) * ... * (1 - x^(n^2)).",
+  "id": "A369728",
+  "mentions": [
+    "A086376",
+    "A160235",
+    "A276516"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

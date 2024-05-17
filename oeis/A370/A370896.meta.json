@@ -1,0 +1,24 @@
+{
+  "description": "Partial alternating sums of the squarefree kernel function (A007947).",
+  "id": "A370896",
+  "mentions": [
+    "A007947",
+    "A065463",
+    "A068762",
+    "A068773",
+    "A073355",
+    "A307704",
+    "A357817",
+    "A362028"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

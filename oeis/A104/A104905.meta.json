@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that d(n)*phi(n)=sigma(n), where d(n) is number of positive divisors of n.",
+  "description": "Numbers m such that d(m)*phi(m) = sigma(m), where d(m) is number of positive divisors of m.",
   "id": "A104905",
   "mentions": [
     "A063903",

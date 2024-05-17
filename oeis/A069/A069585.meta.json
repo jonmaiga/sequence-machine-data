@@ -2,15 +2,21 @@
   "description": "a(n) = n - largest prime power <= n.",
   "id": "A069585",
   "mentions": [
-    "A069584"
+    "A000961",
+    "A001597",
+    "A025475",
+    "A031218",
+    "A069584",
+    "A167185"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 93,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(row,col) = A101080(col,A268820(row,row+col)), read by descending antidiagonals.",
+  "description": "Square array A(n, k) = A101080(k, A003188(n+A006068(k))), read by descending antidiagonals, where A003188 is the binary Gray code, A006068 is its inverse, and A101080(x,y) gives the Hamming distance between binary expansions of x and y.",
   "id": "A268833",
   "mentions": [
     "A000004",
@@ -11,6 +11,7 @@
     "A007395",
     "A025581",
     "A101080",
+    "A268676",
     "A268726",
     "A268727",
     "A268820",

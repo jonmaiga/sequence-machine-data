@@ -1,0 +1,16 @@
+{
+  "description": "Heights at which a Minecraft boat-drop will break up.",
+  "id": "A371704",
+  "mentions": [],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

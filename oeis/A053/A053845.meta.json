@@ -2,15 +2,18 @@
   "description": "Primes of form prime(1) + ... + prime(k) + 1.",
   "id": "A053845",
   "mentions": [
-    "A013918"
+    "A007504",
+    "A013918",
+    "A089228"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

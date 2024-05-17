@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) = 2*usigma(n).",
+  "description": "Numbers k such that sigma(k) = 2*usigma(k).",
   "id": "A063880",
   "mentions": [
     "A000203",

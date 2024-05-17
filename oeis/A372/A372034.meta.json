@@ -1,0 +1,23 @@
+{
+  "description": "For a positive number k, let L(k) denote the list consisting of k followed by the prime factors of k, with repetition, in nondecreasing order; sequence gives composite k such that the digits of L(k) are in nonincreasing order.",
+  "id": "A372034",
+  "mentions": [
+    "A004022",
+    "A004023",
+    "A009996",
+    "A027746",
+    "A028867",
+    "A372029",
+    "A372053",
+    "A372055"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

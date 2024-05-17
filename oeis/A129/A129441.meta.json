@@ -1,14 +1,15 @@
 {
-  "description": "G.f. x*(1-x^2-x^3)/ ((1+x+x^2) * (x^4-x^3-x^2-2*x+1) ).",
+  "description": "Expansion of g.f. (1-x^2-x^3)/((1+x+x^2)*(1-2*x-x^2-x^3+x^4)).",
   "id": "A129441",
   "mentions": [],
   "tags": [
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

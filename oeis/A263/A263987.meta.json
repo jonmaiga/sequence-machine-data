@@ -1,14 +1,16 @@
 {
   "description": "Number of ways of ordering integers 1 to n such that each number is either a factor of or larger than its predecessor.",
   "id": "A263987",
-  "mentions": [],
+  "mentions": [
+    "A333710"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 21,
+    "offset": 0,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

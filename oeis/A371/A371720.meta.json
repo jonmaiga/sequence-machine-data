@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = m^^m mod 10^len(m), where m = A038399(n) and ^^ indicates tetration or hyper-4.",
+  "id": "A371720",
+  "mentions": [
+    "A000045",
+    "A014925",
+    "A038399",
+    "A061839",
+    "A092845",
+    "A104759",
+    "A171882",
+    "A317824",
+    "A317903",
+    "A317905"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

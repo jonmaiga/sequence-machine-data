@@ -1,8 +1,12 @@
 {
-  "description": "Numbers n such that prime(n+3)-(n+3)*tau(n+3)=prime(n)-n*tau(n) where tau(n) is the number of divisors of n A000005(n).",
+  "description": "Numbers k such that prime(k+3)-(k+3)*tau(k+3) = prime(k)-k*tau(k) where tau(k) = A000005(k) is the number of divisors of k.",
   "id": "A067356",
   "mentions": [
-    "A000005"
+    "A000005",
+    "A067292",
+    "A067293",
+    "A067335",
+    "A067355"
   ],
   "tags": [
     "easy",
@@ -11,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

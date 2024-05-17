@@ -1,5 +1,5 @@
 {
-  "description": "Floor( d(n) / ( 2 log n) ), where d() = A000005.",
+  "description": "a(n) = floor( d(n) * log(n) / 2 ), where d() = A000005.",
   "id": "A079554",
   "mentions": [
     "A000005"

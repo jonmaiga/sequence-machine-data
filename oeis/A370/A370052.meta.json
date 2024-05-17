@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that m * repunit of length k is palindromic for all large enough k.",
+  "id": "A370052",
+  "mentions": [
+    "A002275",
+    "A370053"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimum vertex colorings in the complement of the path graph on n nodes.",
+  "id": "A371210",
+  "mentions": [
+    "A000142",
+    "A001563"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

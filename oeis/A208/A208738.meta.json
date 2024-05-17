@@ -2,16 +2,19 @@
   "description": "Number of multisets occurring as the peak heights multiset of a Dyck n-path.",
   "id": "A208738",
   "mentions": [
+    "A000041",
     "A000070",
-    "A058884"
+    "A000108",
+    "A058884",
+    "A208739"
   ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 33,
+    "offset": 0,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

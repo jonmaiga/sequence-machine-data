@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of nonempty subsets S of {1,2,...,n} such that (number of primes in S) <= (number of nonprimes in S).",
+  "id": "A369781",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A037031",
+    "A369780",
+    "A369853",
+    "A369854"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

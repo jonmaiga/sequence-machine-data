@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to choose a subset s of [n] and then for each element in s choose a different prime factor.",
+  "id": "A370648",
+  "mentions": [
+    "A000040",
+    "A370582"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

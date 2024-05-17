@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. (1 + x + x^2)^(x^2).",
+  "id": "A370321",
+  "mentions": [
+    "A371157"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of distinct values of the permanent of an n X n symmetric Toeplitz matrix using the first n prime numbers.",
+  "id": "A369833",
+  "mentions": [
+    "A000142",
+    "A351021",
+    "A351022",
+    "A369830",
+    "A369831",
+    "A369832",
+    "A369834",
+    "A369835"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

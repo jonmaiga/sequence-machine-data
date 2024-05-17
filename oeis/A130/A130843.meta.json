@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which a number m (m",
+  "description": "Numbers k for which a number m < k exists such that digitsum(binomial(k,m)) = k.",
   "id": "A130843",
   "mentions": [
     "A131382",

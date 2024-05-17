@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms in which every triple of consecutive digits contains only one pair that is not coprime.",
+  "id": "A371183",
+  "mentions": [
+    "A353187",
+    "A371060",
+    "A371182"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

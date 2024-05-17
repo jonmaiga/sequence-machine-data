@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m (not ending in a 0) such that m and the digit reversal of m have n prime factors (counted with multiplicity).",
+  "description": "Smallest number m (not ending in a 0) such that m and its digit reversal A004086(m) both have n prime factors (counted with multiplicity).",
   "id": "A237912",
   "mentions": [
     "A004086",
@@ -8,12 +8,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

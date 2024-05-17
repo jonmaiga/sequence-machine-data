@@ -2,16 +2,18 @@
   "description": "Number of n-node simple graphs that are determined by spectrum.",
   "id": "A178925",
   "mentions": [
+    "A000088",
     "A006608"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

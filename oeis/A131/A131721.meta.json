@@ -1,5 +1,5 @@
 {
-  "description": "Overlay of Pell companion numbers: a(n)=A001333(n)+A001333(n-6).",
+  "description": "Overlay of Pell companion numbers: a(n) = A001333(n) + A001333(n-6).",
   "id": "A131721",
   "mentions": [
     "A000129",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime greater than 4*prime(n).",
+  "id": "A370011",
+  "mentions": [
+    "A000040",
+    "A001749",
+    "A059786",
+    "A059788",
+    "A370008",
+    "A370010"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

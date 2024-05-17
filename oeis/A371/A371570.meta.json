@@ -1,0 +1,22 @@
+{
+  "description": "Number of binary necklaces of length n which have more 01 than 00 substrings.",
+  "id": "A371570",
+  "mentions": [
+    "A058622",
+    "A126869",
+    "A163493",
+    "A217464",
+    "A371358",
+    "A371564",
+    "A371668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,12 @@
 {
-  "description": "binomial(n^2,n+1)/(n-1).",
+  "description": "a(n) = binomial(n^2, n+1)/(n-1).",
   "id": "A177788",
   "mentions": [
     "A000108",
+    "A014062",
     "A060545",
     "A177234",
+    "A177456",
     "A177784"
   ],
   "tags": [
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 14,
-    "source": "joeis"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

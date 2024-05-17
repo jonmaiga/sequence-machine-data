@@ -2,10 +2,12 @@
   "description": "a(n) = 2*A000984(n) - 1.",
   "id": "A134760",
   "mentions": [
+    "A000108",
     "A000984",
     "A134761"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

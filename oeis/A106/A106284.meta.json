@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that the polynomial x^5-x^4-x^3-x^2-x-1 mod p has no zeros; i.e., the polynomial is irreducible over the integers mod p.",
+  "description": "Primes p such that the polynomial x^5-x^4-x^3-x^2-x-1 mod p has no zeros.",
   "id": "A106284",
   "mentions": [
     "A001591",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

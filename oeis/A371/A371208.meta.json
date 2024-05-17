@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum vertex colorings in the complement of the wheel graph on n nodes.",
+  "id": "A371208",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

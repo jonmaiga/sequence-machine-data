@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of coreful divisors of the n-th powerful number that are also powerful numbers.",
+  "id": "A370329",
+  "mentions": [
+    "A001694",
+    "A002117",
+    "A062503",
+    "A078434",
+    "A307958",
+    "A360908",
+    "A361430",
+    "A370328"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

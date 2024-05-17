@@ -1,5 +1,5 @@
 {
-  "description": "n-th prime is a Fibonacci number reversed.",
+  "description": "Numbers k such that the k-th prime is a Fibonacci number reversed.",
   "id": "A036972",
   "mentions": [
     "A036797",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 11,
+    "offset": 1,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

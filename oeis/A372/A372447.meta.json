@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A000523(A372443(n)); One less than the binary length of the n-th iterate of 27 with Reduced Collatz-function R.",
+  "id": "A372447",
+  "mentions": [
+    "A000265",
+    "A000523",
+    "A372443"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

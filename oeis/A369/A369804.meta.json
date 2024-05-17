@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/(1 - x^3/(1-x)^5).",
+  "id": "A369804",
+  "mentions": [
+    "A052920",
+    "A079675",
+    "A368475",
+    "A369803",
+    "A369845",
+    "A369846",
+    "A369847",
+    "A369848"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Hankel transform of A114464(n+1).",
   "id": "A160637",
   "mentions": [
+    "A011848",
     "A114464",
     "A160636"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

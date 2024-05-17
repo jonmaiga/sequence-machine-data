@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(6^n-5^n-4^n-3^n+4*2^n)/2.",
+  "description": "a(n) = (6^n-5^n-4^n-3^n+4*2^n)/2.",
   "id": "A081679",
   "mentions": [
     "A081680"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "joeis"
   }
 }

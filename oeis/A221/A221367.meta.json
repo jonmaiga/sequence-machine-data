@@ -1,5 +1,5 @@
 {
-  "description": "The simple continued fraction expansion of F(x) := product {n = 0..inf} (1 - x^(4*n+3))/(1 - x^(4*n+1)) when x = 1/2*(9 - sqrt(77)).",
+  "description": "The simple continued fraction expansion of F(x) := product {n >= 0} (1 - x^(4*n+3))/(1 - x^(4*n+1)) when x = 1/2*(9 - sqrt(77)).",
   "id": "A221367",
   "mentions": [
     "A018193",

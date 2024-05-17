@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k = (product of nonzero digits) * (sum of digits) for the digits of k in base 7.",
+  "id": "A367070",
+  "mentions": [
+    "A023651",
+    "A038364",
+    "A038369",
+    "A062237",
+    "A062331",
+    "A066282"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

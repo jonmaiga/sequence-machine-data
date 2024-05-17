@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2^859433 - 1, the 33rd Mersenne prime.",
+  "id": "A371852",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A028335"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 258716,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

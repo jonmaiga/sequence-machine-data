@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} 1 / (1 + x^7) dx.",
+  "id": "A371858",
+  "mentions": [
+    "A019669",
+    "A019670",
+    "A019674",
+    "A093954",
+    "A121598",
+    "A248897",
+    "A352125",
+    "A352324"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

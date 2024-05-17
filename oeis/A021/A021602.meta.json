@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 1/598.",
   "id": "A021602",
-  "mentions": [],
+  "mentions": [
+    "A021303"
+  ],
   "tags": [
     "cons",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

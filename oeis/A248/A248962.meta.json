@@ -1,12 +1,11 @@
 {
-  "description": "PrimePi(log(prime(n))*n).",
+  "description": "a(n) = PrimePi(log(prime(n))*n).",
   "id": "A248962",
   "mentions": [
     "A000040",
     "A000720"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

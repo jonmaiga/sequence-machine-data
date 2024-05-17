@@ -1,0 +1,21 @@
+{
+  "description": "For any number k >= 0, let T_k be the triangle with values in {-1, 0, +1} whose base corresponds to the balanced ternary expansion of k (without leading zeros) and other values, say t above u and v, satisfy t+u+v = 0 mod 3; this sequence lists the numbers k such that T_k has 3-fold rotational symmetry.",
+  "id": "A371636",
+  "mentions": [
+    "A003462",
+    "A127975",
+    "A334556",
+    "A338246",
+    "A361818",
+    "A371635"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

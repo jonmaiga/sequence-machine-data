@@ -1,5 +1,5 @@
 {
-  "description": "Indices n for which A209312(n)=2.",
+  "description": "Indices k for which A209312(k) = 2.",
   "id": "A209321",
   "mentions": [
     "A209312"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

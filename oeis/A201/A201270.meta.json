@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays with every row and column nondecreasing rightwards and downwards, and the number of instances of each value within one of each other",
+  "description": "Number of n X n 0..2 arrays with every row and column nondecreasing rightwards and downwards, and the number of instances of each value within one of each other.",
   "id": "A201270",
   "mentions": [
     "A201277"
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 18,
+    "offset": 0,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

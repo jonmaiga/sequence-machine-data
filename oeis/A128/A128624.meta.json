@@ -2,6 +2,7 @@
   "description": "Row sums of A128623.",
   "id": "A128624",
   "mentions": [
+    "A094728",
     "A128621",
     "A128623",
     "A212959"

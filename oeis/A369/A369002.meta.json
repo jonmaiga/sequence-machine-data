@@ -2,16 +2,21 @@
   "description": "Numbers k for which k' / gcd(k,k') is even, where k' stands for the arithmetic derivative of k, A003415.",
   "id": "A369002",
   "mentions": [
+    "A003159",
     "A003415",
     "A046337",
     "A083345",
+    "A087436",
+    "A235127",
     "A235992",
+    "A276085",
     "A368998",
     "A369001",
     "A369003",
     "A369005"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

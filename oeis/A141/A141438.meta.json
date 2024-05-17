@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (3*x*y-y-6)/(3*x+1), where x=composite and y=prime.",
+  "description": "Primes p such that p+4 is prime and (p+5)/6 is composite.",
   "id": "A141438",
   "mentions": [
     "A000040",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 48,
+    "size": 63,
     "source": "oeis-entry"
   }
 }

@@ -6,15 +6,17 @@
     "A051567",
     "A051571",
     "A051755",
-    "A051759"
+    "A051759",
+    "A063724"
   ],
   "tags": [
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 10,
+    "size": 64,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of non-isomorphic set multipartitions (multisets of sets) of weight n with k parts and no singletons or endpoints, 0 <= k <= floor(n/2).",
+  "id": "A369927",
+  "mentions": [
+    "A307316",
+    "A369286",
+    "A369287",
+    "A369926"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

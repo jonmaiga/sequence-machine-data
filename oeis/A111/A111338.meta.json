@@ -1,11 +1,12 @@
 {
-  "description": "Cald's sequence A006509 sorted.",
+  "description": "Conjectured values of Cald's sequence A006509 after sorting and removal of duplicate zeros.",
   "id": "A111338",
   "mentions": [
     "A006509",
     "A111339"
   ],
   "tags": [
+    "hard",
     "nonn"
   ],
   "terms": {

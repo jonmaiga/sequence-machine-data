@@ -1,0 +1,17 @@
+{
+  "description": "In the decimal expansion of Pi, positions of ends of sublists each containing decimal digits 0 through 9 in order. Leftmost digit \"3\" is at position 0.",
+  "id": "A369598",
+  "mentions": [
+    "A000796",
+    "A107407"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

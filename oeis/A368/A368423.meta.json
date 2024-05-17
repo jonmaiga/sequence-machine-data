@@ -1,0 +1,15 @@
+{
+  "description": "The least number of applications of functions in the Wainer hierarchy to reach n, starting from 0.",
+  "id": "A368423",
+  "mentions": [
+    "A056792"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

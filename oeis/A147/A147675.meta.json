@@ -2,10 +2,12 @@
   "description": "Divide by 2, multiply by 4, repeat.",
   "id": "A147675",
   "mentions": [
+    "A020714",
     "A135530",
     "A147678"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

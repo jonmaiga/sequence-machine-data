@@ -1,0 +1,17 @@
+{
+  "description": "For any n > 0, reverse digits in blocks in balanced ternary expansion of n where blocks are separated by 1's; a(0) = 0.",
+  "id": "A372318",
+  "mentions": [
+    "A005836",
+    "A372317"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

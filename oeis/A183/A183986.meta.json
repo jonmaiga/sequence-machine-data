@@ -1,7 +1,19 @@
 {
   "description": "T(n,k) = 1/4 the number of (n+1) X (k+1) binary arrays with all 2 X 2 subblock sums the same.",
   "id": "A183986",
-  "mentions": [],
+  "mentions": [
+    "A183977",
+    "A183978",
+    "A183979",
+    "A183980",
+    "A183981",
+    "A183982",
+    "A183983",
+    "A183984",
+    "A183985",
+    "A184039",
+    "A184048"
+  ],
   "tags": [
     "formulas",
     "nonn",

@@ -7,13 +7,12 @@
     "A204845"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 67,
     "source": "oeis-entry"
   }
 }

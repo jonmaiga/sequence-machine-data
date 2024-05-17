@@ -1,0 +1,16 @@
+{
+  "description": "For n >= 1, a(n) is the least k >= 0 such that k^2 + k + 1 is divisible by 2^n - 1 or a(n) = -1 if no such k exists.",
+  "id": "A372494",
+  "mentions": [
+    "A000225",
+    "A002061"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

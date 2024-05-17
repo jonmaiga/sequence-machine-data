@@ -1,13 +1,17 @@
 {
-  "description": "Numbers such that Sigma(Phi(k))/Sigma(k) > Sigma(Phi(j))/Sigma(j) for all k > j.",
+  "description": "Numbers k > 1 such that sigma(phi(k))/sigma(k) > sigma(phi(j))/sigma(j) for all 1 < j < k.",
   "id": "A067573",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062402"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

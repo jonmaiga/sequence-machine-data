@@ -1,5 +1,5 @@
 {
-  "description": "Number of dominating subsets of the graph G(n) obtained by joining a vertex with two consecutive vertices of the cycle graph C_n (n >=3).",
+  "description": "Number of dominating subsets of the graph G(n) obtained by joining a vertex with two consecutive vertices of the cycle graph C_n (n >= 3).",
   "id": "A213665",
   "mentions": [
     "A213664"

@@ -1,5 +1,5 @@
 {
-  "description": "M(2*n-1), where M(n) is Mertens's function (A002321): Sum_{k=1..n} mu(k), where mu = Moebius function (A008683).",
+  "description": "a(n) = M(2*n-1), where M(n) is Mertens's function (A002321): Sum_{k=1..n} mu(k), where mu = Moebius function (A008683).",
   "id": "A063473",
   "mentions": [
     "A002321",

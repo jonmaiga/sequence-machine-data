@@ -3,11 +3,13 @@
   "id": "A069020",
   "mentions": [],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 18,
+    "offset": 1,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

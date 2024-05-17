@@ -1,5 +1,5 @@
 {
-  "description": "Perimeters of integer-sided triangles with hypotenuse A084645(n).",
+  "description": "Perimeter of integer-sided triangle with hypotenuse A084645(n).",
   "id": "A350056",
   "mentions": [
     "A009003",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

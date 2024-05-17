@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x*(1 + 3*x)/((1 + x)*(1 - x)^3).",
+  "description": "Expansion of g.f. x*(1 + 3*x)/((1 + x)*(1 - x)^3).",
   "id": "A035608",
   "mentions": [
     "A000217",
@@ -47,7 +47,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 52,
     "source": "oeis-bfile"
   }
 }

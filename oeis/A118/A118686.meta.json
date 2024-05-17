@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows. Let g[n] = n if n is a prime, otherwise g[n] = 1. Let p[0] = 1; p[n] = g[n]*p[n - 1]. Row n gives coefficients of Product_{k=0..n} [x - p[k]], with row 0 = {1}.",
+  "description": "Triangle read by rows. Let g(n) = n if n is a prime, otherwise g(n) = 1. Let p(0) = 1, p(n) = g(n)*p(n-1). Row n gives coefficients of Product_{j=0..n} (x - p(j)), with row 0 = {1}.",
   "id": "A118686",
   "mentions": [
     "A008275",
@@ -8,12 +8,13 @@
     "A119724"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

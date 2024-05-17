@@ -1,0 +1,27 @@
+{
+  "description": "The sum of unitary divisors of the smallest powerful number that is a multiple of n.",
+  "id": "A369718",
+  "mentions": [
+    "A001694",
+    "A002117",
+    "A013661",
+    "A034448",
+    "A183699",
+    "A197863",
+    "A369716",
+    "A369717",
+    "A369721"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

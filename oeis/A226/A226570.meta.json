@@ -1,13 +1,15 @@
 {
-  "description": "Sum_{k=1..n} (k+1)! mod n",
+  "description": "a(n) = Sum_{k=1..n} (k+1)! mod n.",
   "id": "A226570",
   "mentions": [
+    "A002034",
     "A003422",
     "A007489",
     "A086330",
     "A100083"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

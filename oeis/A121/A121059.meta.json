@@ -1,7 +1,10 @@
 {
   "description": "a(1)=2; a(n) = the reversal of (a(n-1) * maxdigit(a(n-1))).",
   "id": "A121059",
-  "mentions": [],
+  "mentions": [
+    "A004086",
+    "A054055"
+  ],
   "tags": [
     "base",
     "easy",

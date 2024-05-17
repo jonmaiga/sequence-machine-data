@@ -1,5 +1,5 @@
 {
-  "description": "Prime triangle partitions of order n.",
+  "description": "Number of prime triangle partitions of order n.",
   "id": "A053740",
   "mentions": [
     "A056814"

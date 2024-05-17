@@ -1,8 +1,11 @@
 {
   "description": "a(1) = 1; for n > 1, a(n) = n! divided by product of factorials of all prime divisors of n.",
   "id": "A075072",
-  "mentions": [],
+  "mentions": [
+    "A056218"
+  ],
   "tags": [
+    "easy",
     "nice",
     "nonn"
   ],

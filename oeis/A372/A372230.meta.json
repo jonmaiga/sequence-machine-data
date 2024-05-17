@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of size k circuits in the linear matroid M[A] where A is the n X 2^n-1 matrix whose columns are the nonzero vectors in GF(2)^n, n>=2, 3<=k<=n+1.",
+  "id": "A372230",
+  "mentions": [
+    "A006095",
+    "A022166",
+    "A053601",
+    "A372350"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

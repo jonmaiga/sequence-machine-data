@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of [n] whose non-fixed points are not neighbors.",
+  "id": "A372102",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A001629",
+    "A011973",
+    "A098825",
+    "A131735",
+    "A162969",
+    "A165961",
+    "A371995"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

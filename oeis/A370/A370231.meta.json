@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; for n >= 2, a(n) = a(GCD(n - 1, a(n - 1))) + floor((n - 1)/a(n - 1)) + 1.",
+  "id": "A370231",
+  "mentions": [
+    "A002024",
+    "A005206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

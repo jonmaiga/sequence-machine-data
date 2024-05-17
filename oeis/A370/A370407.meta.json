@@ -1,0 +1,20 @@
+{
+  "description": "Total sum over all j in [n] of the number of partitions of [j*(n-j)] into (n-j) sets of size j.",
+  "id": "A370407",
+  "mentions": [
+    "A060540",
+    "A275973",
+    "A361948",
+    "A370365",
+    "A370368"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

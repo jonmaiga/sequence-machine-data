@@ -1,8 +1,9 @@
 {
-  "description": "If n appears then so do 2n+2 and 3n+3.",
+  "description": "Start with 4; if k appears then so do 2k+2 and 3k+3. (duplicates omitted.)",
   "id": "A005662",
   "mentions": [
-    "A005658"
+    "A005658",
+    "A005660"
   ],
   "tags": [
     "easy",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

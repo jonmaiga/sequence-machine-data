@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n divides Sum_{k = 1..n} A000005(k).",
+  "description": "Numbers m such that m divides Sum_{k = 1..m} A000005(k).",
   "id": "A050226",
   "mentions": [
     "A000005",

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: row n lists run-length encoding d_k values (see comments) for the properly nested string of parentheses encoded by A063171(n).",
+  "id": "A370219",
+  "mentions": [
+    "A000108",
+    "A063171",
+    "A072643",
+    "A370220",
+    "A370221",
+    "A370222"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

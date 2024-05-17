@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation n,(n-1)^2, (n-2)^3,(n-3)4,...2^(n-1) and 1.",
+  "description": "a(n) is the concatenation of n, (n-1)^2, (n-2)^3, (n-3)^4, ..., 2^(n-1) and 1.",
   "id": "A068705",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 12,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

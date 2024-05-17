@@ -1,5 +1,5 @@
 {
-  "description": "n times n+4 gives the concatenation of two numbers m and m-5.",
+  "description": "k times k+4 gives the concatenation of two numbers m and m-5.",
   "id": "A116254",
   "mentions": [
     "A054214",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 22,
     "source": "joeis"
   }
 }

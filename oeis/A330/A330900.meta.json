@@ -1,5 +1,5 @@
 {
-  "description": "Number of terms of A066038 that are not exceeding 10^n.",
+  "description": "Number of terms of A066038 that do not exceed 10^n.",
   "id": "A330900",
   "mentions": [
     "A006880",

@@ -1,5 +1,5 @@
 {
-  "description": "Pair deficit of the most equal in size partition of n into two parts using floor rounding of the expectations for n, floor(n/2) and n- floor(n/2), assuming equal likelihood of states defined by the number of two-cycles.",
+  "description": "Pair deficit of the most nearly equal in size partition of n into two parts using floor rounding of the expectations for n, floor(n/2) and n- floor(n/2), assuming equal likelihood of states defined by the number of two-cycles.",
   "id": "A243840",
   "mentions": [
     "A000085",

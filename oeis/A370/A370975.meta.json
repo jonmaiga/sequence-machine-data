@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (A370952(n+1) - A370952(n)) /(2*n+1).",
+  "id": "A370975",
+  "mentions": [
+    "A370095",
+    "A370952",
+    "A372052"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

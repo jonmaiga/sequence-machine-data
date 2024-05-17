@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (index of prime(n) in A280864) - (index of prime(n) in A280866).",
+  "id": "A372065",
+  "mentions": [
+    "A280741",
+    "A280864",
+    "A280866",
+    "A304741",
+    "A372063",
+    "A372064"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

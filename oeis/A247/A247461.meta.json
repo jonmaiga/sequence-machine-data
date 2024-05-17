@@ -1,5 +1,5 @@
 {
-  "description": "Subsequence obtained from A026242 by applying an Eratosthenes-type sieve: strike out every second number after the first \"2\", then if m is the next number not yet stroken, strike out every m-th number following this one, etc.",
+  "description": "Subsequence obtained from A026242 by applying an Eratosthenes-type sieve: strike out every second number after the first \"2\", then if m is the next number not yet struck out, strike out every m-th number following this one, etc.",
   "id": "A247461",
   "mentions": [
     "A000040",

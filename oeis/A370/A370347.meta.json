@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of partitions of [3n] into n sets of size 3 having exactly k sets {3j-2,3j-1,3j} (1<=j<=n); triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A370347",
+  "mentions": [
+    "A000292",
+    "A023531",
+    "A025035",
+    "A027468",
+    "A055140",
+    "A370357",
+    "A370358"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

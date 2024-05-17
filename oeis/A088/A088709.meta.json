@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that are a product of two primes j and k such that n+j+k is prime.",
+  "description": "Numbers m that are a product of two primes j and k such that m+j+k is prime.",
   "id": "A088709",
   "mentions": [
     "A001358"

@@ -2,14 +2,16 @@
   "description": "Row 2 of A101866.",
   "id": "A101869",
   "mentions": [
+    "A001622",
     "A101866"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

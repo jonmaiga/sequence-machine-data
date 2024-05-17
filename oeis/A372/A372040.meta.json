@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k such that there is an n-element subset of {1, 2, ..., k} that does not contain a (nonempty) subset that sums to a square.",
+  "id": "A372040",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

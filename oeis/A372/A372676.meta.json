@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = phi(11 * n)/10.",
+  "id": "A372676",
+  "mentions": [
+    "A008683",
+    "A372673"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

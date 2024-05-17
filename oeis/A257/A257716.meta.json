@@ -2,6 +2,7 @@
   "description": "a(n) = smallest prime of even index not included earlier such that a(n) + a(n-1) + a(n-2) is a prime, beginning with a(1) = 3 and a(2) = 7.",
   "id": "A257716",
   "mentions": [
+    "A031215",
     "A065091",
     "A073653",
     "A257717",

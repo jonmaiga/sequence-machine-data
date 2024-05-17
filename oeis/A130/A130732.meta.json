@@ -1,7 +1,10 @@
 {
-  "description": "Floor(Fibonacci(n)/Prime(n)).",
+  "description": "a(n) = floor(Fibonacci(n)/prime(n)).",
   "id": "A130732",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000045"
+  ],
   "tags": [
     "easy",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (-1)^n * L(n) - 1, where L = A000032 (Lucas numbers).",
+  "description": "a(n) = (-1)^n * A000032(n) - 1.",
   "id": "A355021",
   "mentions": [
     "A000032",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 37,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

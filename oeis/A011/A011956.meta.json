@@ -1,13 +1,16 @@
 {
-  "description": "Barlow packings with group R3m that repeat after 7n layers.",
+  "description": "Barlow packings with group R3m that repeat after 3n layers.",
   "id": "A011956",
-  "mentions": [],
+  "mentions": [
+    "A011768"
+  ],
   "tags": [
     "easy",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
+    "offset": 7,
     "size": 10,
     "source": "oeis-entry"
   }

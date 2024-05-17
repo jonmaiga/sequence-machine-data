@@ -1,5 +1,5 @@
 {
-  "description": "Symmetric array T(n,m) of the number of 2-convex polygons with 2n horizontal and 2m vertical steps, read along diagonals.",
+  "description": "Symmetric array T(n,m) of the number of 2-convex polygons with 2n horizontal and 2m vertical steps, read by antidiagonals.",
   "id": "A157518",
   "mentions": [],
   "tags": [

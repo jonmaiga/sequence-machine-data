@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 1, a(n) is neither coprime to a(2*n) nor to a(2*n+1).",
+  "id": "A370843",
+  "mentions": [
+    "A064413",
+    "A291603",
+    "A370868"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

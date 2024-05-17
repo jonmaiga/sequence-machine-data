@@ -1,5 +1,5 @@
 {
-  "description": "The i-values of pairs (i,j) listed in A353296.",
+  "description": "The j-values of pairs (i,j) listed in A353296.",
   "id": "A353298",
   "mentions": [
     "A353296",
@@ -7,7 +7,8 @@
   ],
   "tags": [
     "base",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,

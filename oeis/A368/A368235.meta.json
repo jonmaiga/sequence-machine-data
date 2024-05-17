@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: n-th row polynomial equals the numerator of the rational function (-1)^n*f(x) * (d/dx)^n (1/f(x)), where f(x) = sqrt(x + x^2).",
+  "id": "A368235",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A014479",
+    "A059366",
+    "A098461",
+    "A123516",
+    "A156919",
+    "A161120",
+    "A177145",
+    "A286724",
+    "A286725",
+    "A331817"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

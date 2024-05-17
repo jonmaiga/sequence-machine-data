@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = h(n + 1) - h(n) where h(n) = floor(n/sqrt(k) + 1/k) and k = 3.",
+  "id": "A370702",
+  "mentions": [
+    "A000012",
+    "A000035",
+    "A104521"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

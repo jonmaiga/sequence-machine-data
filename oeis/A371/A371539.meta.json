@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x*A(x)^(3/2) / (1+x))^4.",
+  "id": "A371539",
+  "mentions": [
+    "A349362",
+    "A371379",
+    "A371537",
+    "A371538",
+    "A371540",
+    "A371541"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

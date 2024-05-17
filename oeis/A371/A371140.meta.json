@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1 - x*A(x)^2 * log(1 - x).",
+  "id": "A371140",
+  "mentions": [
+    "A052803",
+    "A052830",
+    "A371141"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

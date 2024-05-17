@@ -1,11 +1,12 @@
 {
-  "description": "Carmichael numbers n such that Euler totient function of n (phi(n)) is a cube.",
+  "description": "Carmichael numbers k such that Euler totient function of k (phi(k)) is a cube.",
   "id": "A290793",
   "mentions": [
     "A000010",
     "A000578",
     "A002997",
     "A039771",
+    "A055553",
     "A272798"
   ],
   "tags": [

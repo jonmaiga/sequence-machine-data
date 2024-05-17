@@ -24,7 +24,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

@@ -8,11 +8,12 @@
   ],
   "tags": [
     "easy",
+    "frac",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

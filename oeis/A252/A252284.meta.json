@@ -2,6 +2,7 @@
   "description": "Exponential generating function exp(-x-x^2-x^3/3).",
   "id": "A252284",
   "mentions": [
+    "A001464",
     "A249015"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k which have a factorization k = f1*f2*...*fr where the digits of {k, f1, f2, ..., fr} together give 0,1,...,9 exactly once.",
+  "id": "A370970",
+  "mentions": [
+    "A370972",
+    "A372106"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

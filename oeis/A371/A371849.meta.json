@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2^132049 - 1, the 30th Mersenne prime.",
+  "id": "A371849",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A028335"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 39751,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

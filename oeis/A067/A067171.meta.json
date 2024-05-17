@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that sigma(n+1)+sigma(n) = sigma(2n+1).",
+  "description": "Numbers k such that sigma(k+1)+sigma(k) = sigma(2k+1).",
   "id": "A067171",
   "mentions": [
     "A000203",
     "A091287",
+    "A091289",
     "A091290"
   ],
   "tags": [

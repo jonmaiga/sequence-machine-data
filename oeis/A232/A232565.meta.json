@@ -1,8 +1,12 @@
 {
-  "description": "Smallest k such that 2^(2^n) - 2^k - 1 is prime, or 0 if no such k exists.",
+  "description": "a(n) is the smallest k such that 2^(2^n) - 2^k - 1 is prime, or -1 if no such k exists.",
   "id": "A232565",
   "mentions": [
-    "A156695"
+    "A006285",
+    "A065381",
+    "A101036",
+    "A156695",
+    "A182296"
   ],
   "tags": [
     "hard",

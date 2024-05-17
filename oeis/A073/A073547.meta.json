@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that antid(n) = antid(n+1), where antid(n) = A066272(n).",
+  "description": "Numbers k such that antid(k) = antid(k+1), where antid(k) = A066272(k).",
   "id": "A073547",
   "mentions": [
     "A066272"

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying A(x) = 1 + x*exp(x) * A(x^2*exp(x)).",
+  "id": "A369551",
+  "mentions": [
+    "A030178",
+    "A369090",
+    "A369091",
+    "A369550"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

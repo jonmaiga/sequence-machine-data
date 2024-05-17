@@ -1,0 +1,16 @@
+{
+  "description": "Triangle of hexagons read by row, with right diagonal having in-order odd-indexed primes, left diagonal having 2 followed by the in-order even-indexed primes, and column elements are the least multiple of the prime at the top of the column not already in the sequence, with 0 and 1 prepended.",
+  "id": "A369515",
+  "mentions": [
+    "A143182"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

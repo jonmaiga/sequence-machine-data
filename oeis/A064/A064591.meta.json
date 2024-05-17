@@ -1,9 +1,11 @@
 {
-  "description": "Nonunitary perfect numbers: n is the sum of its nonunitary divisors; i.e., sigma(n) - usigma(n) = n.",
+  "description": "Nonunitary perfect numbers: k is the sum of its nonunitary divisors; i.e., k = sigma(k) - usigma(k).",
   "id": "A064591",
   "mentions": [
+    "A000203",
     "A000396",
     "A000668",
+    "A034448",
     "A048146",
     "A063870",
     "A064592",

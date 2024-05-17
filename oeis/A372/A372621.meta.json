@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/2) * Sum_{k=1..n} phi(3*k).",
+  "id": "A372621",
+  "mentions": [
+    "A000010",
+    "A194881",
+    "A195459",
+    "A372619"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

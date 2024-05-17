@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (13*10^n + 197)/3 is prime.",
+  "description": "Numbers k such that (13*10^k + 197)/3 is prime.",
   "id": "A276311",
   "mentions": [
     "A056654",

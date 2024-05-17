@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = denominator(N(1/2, n, 1)) where N(a, n, x) is the n-th Nørlund polynomial.",
+  "id": "A370417",
+  "mentions": [
+    "A370414",
+    "A370415",
+    "A370416"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Powerful numbers k that are neither prime powers nor products of primorials.",
+  "id": "A369636",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A025487",
+    "A080259",
+    "A126706",
+    "A286708",
+    "A367268",
+    "A369417"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

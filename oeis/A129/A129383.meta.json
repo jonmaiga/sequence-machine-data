@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of g(x)-xg(x^2), g(x) the g.f. of A001405.",
+  "description": "Expansion of g(x) - x*g(x^2), where g(x) is the g.f. of A001405.",
   "id": "A129383",
   "mentions": [
     "A001405",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

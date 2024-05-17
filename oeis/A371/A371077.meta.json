@@ -1,0 +1,40 @@
+{
+  "description": "Square array read by ascending antidiagonals: A(n, k) = 3^n*Pochhammer(k/3, n).",
+  "id": "A371077",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A007318",
+    "A007559",
+    "A008544",
+    "A028552",
+    "A032031",
+    "A034000",
+    "A034001",
+    "A051604",
+    "A051605",
+    "A051606",
+    "A051607",
+    "A051608",
+    "A051609",
+    "A094587",
+    "A303486",
+    "A370419",
+    "A370915",
+    "A371076",
+    "A371079",
+    "A371080"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

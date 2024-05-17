@@ -4,12 +4,11 @@
   "mentions": [],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

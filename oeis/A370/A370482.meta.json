@@ -1,0 +1,18 @@
+{
+  "description": "Characteristic function of primes plus characteristic function of even numbers.",
+  "id": "A370482",
+  "mentions": [
+    "A010051",
+    "A059841"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

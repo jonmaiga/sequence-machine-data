@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(n * log(4/3) / log(3/2))",
+  "id": "A368131",
+  "mentions": [
+    "A054414",
+    "A117630",
+    "A325913",
+    "A369522"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(Pi/log(10)).",
+  "id": "A372605",
+  "mentions": [
+    "A000796",
+    "A197071"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

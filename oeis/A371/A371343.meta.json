@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically latest sequence of distinct nonnegative integers such that for any n >= 0, the binary expansions of n and of a(n) have the same length (A070939) and the same number of runs of consecutive equals digits (A005811).",
+  "id": "A371343",
+  "mentions": [
+    "A000225",
+    "A005811",
+    "A070939",
+    "A331274",
+    "A337242"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

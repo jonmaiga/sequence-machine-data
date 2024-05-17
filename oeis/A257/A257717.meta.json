@@ -1,7 +1,8 @@
 {
-  "description": "a(n) is the smallest oldd-indexed prime not included earlier such that a(n) + a(n-1) + a(n-2) is a prime, beginning with a(1) = 5 and a(2) = 11.",
+  "description": "a(n) is the smallest odd-indexed prime not included earlier such that a(n) + a(n-1) + a(n-2) is a prime, beginning with a(1) = 5 and a(2) = 11.",
   "id": "A257717",
   "mentions": [
+    "A031368",
     "A065091",
     "A073653",
     "A257716",

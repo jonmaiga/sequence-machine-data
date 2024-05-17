@@ -1,10 +1,18 @@
 {
-  "description": "Squares of A099371(n) (generalized Fibonacci).",
+  "description": "a(n) = A099371(n)^2.",
   "id": "A099372",
   "mentions": [
+    "A007598",
+    "A079291",
+    "A092936",
     "A099279",
+    "A099365",
+    "A099366",
+    "A099367",
+    "A099369",
     "A099371",
-    "A099373"
+    "A099373",
+    "A099374"
   ],
   "tags": [
     "easy",

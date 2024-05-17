@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of length n necklaces using at most k colors with black beads always occurring in runs of even length.",
+  "id": "A369524",
+  "mentions": [
+    "A000010",
+    "A000035",
+    "A000124",
+    "A000358",
+    "A001477",
+    "A033547",
+    "A075195"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

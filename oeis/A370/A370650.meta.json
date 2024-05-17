@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose number of infinitary divisors that are terms of A366242 is equal to the number of infinitary divisors that are terms of A366243.",
+  "id": "A370650",
+  "mentions": [
+    "A037445",
+    "A039004",
+    "A064547",
+    "A366242",
+    "A366243",
+    "A366246",
+    "A366247",
+    "A366308",
+    "A366309",
+    "A370651"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

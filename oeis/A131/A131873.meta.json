@@ -1,8 +1,7 @@
 {
-  "description": "Triangle, A131844 * A000012 as infinite lower triangular matrices.",
+  "description": "Right-to-left partial row sums of triangle A131844",
   "id": "A131873",
   "mentions": [
-    "A000012",
     "A016993",
     "A131844",
     "A131874",
@@ -14,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

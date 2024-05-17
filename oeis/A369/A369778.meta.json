@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent (as defined below) transitive binary relations on [n].",
+  "id": "A369778",
+  "mentions": [
+    "A000798",
+    "A001035",
+    "A006905",
+    "A369776",
+    "A369799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

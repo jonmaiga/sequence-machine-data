@@ -2,7 +2,8 @@
   "description": "Number of permutations sigma of {1,2,...,n} such that sigma(i) divides i or i divides sigma(i) for 1 <= i <= n.",
   "id": "A320843",
   "mentions": [
-    "A005326"
+    "A005326",
+    "A263987"
   ],
   "tags": [
     "formulas",

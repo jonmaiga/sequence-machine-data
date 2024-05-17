@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nXnXn triangular binary arrays with the number of 0-0 adjacencies equal to the number of 1-1 adjacencies",
+  "description": "Half the number of n X n X n triangular binary arrays with the number of 0-0 adjacencies equal to the number of 1-1 adjacencies.",
   "id": "A183271",
   "mentions": [],
   "tags": [

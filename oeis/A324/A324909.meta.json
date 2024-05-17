@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers n for which sigma(n^2) == 3 (mod 4).",
+  "description": "Odd numbers k for which sigma(k^2) == 3 (mod 4).",
   "id": "A324909",
   "mentions": [
     "A000196",

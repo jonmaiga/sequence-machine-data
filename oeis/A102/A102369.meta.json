@@ -1,5 +1,5 @@
 {
-  "description": "Intervals between successive arrivals of Langton's Ant at the origin (see A102127).",
+  "description": "Intervals between successive arrivals of Langton's Ant at the origin.",
   "id": "A102369",
   "mentions": [
     "A102127",

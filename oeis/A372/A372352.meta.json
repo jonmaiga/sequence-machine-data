@@ -1,0 +1,19 @@
+{
+  "description": "The difference between n and the largest term of A086893 <= n.",
+  "id": "A372352",
+  "mentions": [
+    "A086893",
+    "A096773",
+    "A372286",
+    "A372353"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

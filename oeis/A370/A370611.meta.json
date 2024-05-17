@@ -1,0 +1,23 @@
+{
+  "description": "Largest square such that any two consecutive digits of its base-n expansion differ by 1 after arranging the digits in decreasing order.",
+  "id": "A370611",
+  "mentions": [
+    "A051846",
+    "A062813",
+    "A215014",
+    "A258103",
+    "A370370",
+    "A370371",
+    "A370610"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

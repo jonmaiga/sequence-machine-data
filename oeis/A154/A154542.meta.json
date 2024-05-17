@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of log_3 (15).",
   "id": "A154542",
-  "mentions": [],
+  "mentions": [
+    "A113209"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

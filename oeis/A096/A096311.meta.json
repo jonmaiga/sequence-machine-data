@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that number of divisors = largest digit.",
+  "description": "Numbers whose number of divisors equals the largest digit.",
   "id": "A096311",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A054055"
+  ],
   "tags": [
     "base",
     "easy",

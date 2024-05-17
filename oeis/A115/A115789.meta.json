@@ -2,6 +2,7 @@
   "description": "a(n) = (floor((n+1)*Pi) - floor(n*Pi)) mod 2.",
   "id": "A115789",
   "mentions": [
+    "A000796",
     "A022844",
     "A063438",
     "A115788",

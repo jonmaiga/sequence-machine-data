@@ -3,7 +3,9 @@
   "id": "A318131",
   "mentions": [
     "A000371",
+    "A000612",
     "A003465",
+    "A055621",
     "A119563",
     "A131288",
     "A283877",
@@ -15,12 +17,12 @@
     "A318132"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 9,
+    "source": "oeis-bfile"
   }
 }

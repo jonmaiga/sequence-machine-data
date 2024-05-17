@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct values of the determinant of an n X n Hankel matrix using the integers 0 to 2*(n - 1).",
+  "id": "A369944",
+  "mentions": [
+    "A368353",
+    "A368354",
+    "A368355"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

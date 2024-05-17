@@ -1,0 +1,19 @@
+{
+  "description": "Centered cuboctahedral numbers: the number of integer triples (x,y,z) such that max(|x|,|y|,|z|) <= n and |x|+|y|+|z| <= 2n.",
+  "id": "A371532",
+  "mentions": [
+    "A016755",
+    "A130809",
+    "A371515"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The smallest positive number such that sopfr(|a(n) - n|) = sopfr(a(n) + n) and Omega(|a(n) - n|) = Omega(a(n) + n), where sopfr(k) is the sum of the primes dividing k, with repetition.",
+  "id": "A370504",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A369348",
+    "A370502",
+    "A370503"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

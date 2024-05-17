@@ -1,5 +1,5 @@
 {
-  "description": "4 + 9*floor(n/2).",
+  "description": "a(n) = 4 + 9*floor(n/2).",
   "id": "A168401",
   "mentions": [
     "A017209"

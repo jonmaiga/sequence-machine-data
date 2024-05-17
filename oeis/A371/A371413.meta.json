@@ -1,0 +1,23 @@
+{
+  "description": "Dedekind psi function applied to the cubefull numbers (A036966).",
+  "id": "A371413",
+  "mentions": [
+    "A001615",
+    "A036966",
+    "A065464",
+    "A065487",
+    "A323332",
+    "A371412",
+    "A371415"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

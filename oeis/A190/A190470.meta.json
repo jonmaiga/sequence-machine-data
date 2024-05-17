@@ -1,12 +1,18 @@
 {
-  "description": "Numbers with prime factorization p^2q^3r^5.",
+  "description": "Numbers with prime factorization p^2*q^3*r^5 where p, q, and r are distinct primes.",
   "id": "A190470",
   "mentions": [
+    "A085541",
+    "A085548",
+    "A085965",
+    "A085967",
+    "A085968",
     "A190467",
     "A190468",
     "A190469"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

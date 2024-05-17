@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of [n] whose singletons sum to n.",
+  "id": "A370947",
+  "mentions": [
+    "A000009",
+    "A000110",
+    "A000296",
+    "A370945"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

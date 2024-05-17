@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose decimal representation contains the digital root of the product of their digits.",
+  "id": "A371123",
+  "mentions": [
+    "A007954",
+    "A010888",
+    "A011539",
+    "A011540",
+    "A119246"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

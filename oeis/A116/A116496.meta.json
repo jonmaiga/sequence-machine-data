@@ -2,11 +2,13 @@
   "description": "Numbers n such that difference between n-th prime and next prime is 100.",
   "id": "A116496",
   "mentions": [
+    "A050434",
     "A116493",
     "A116495",
     "A116497"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

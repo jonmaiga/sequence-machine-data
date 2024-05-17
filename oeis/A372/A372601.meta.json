@@ -1,0 +1,27 @@
+{
+  "description": "The maximal exponent in the prime factorization of the largest exponentially odd divisor of n.",
+  "id": "A372601",
+  "mentions": [
+    "A007424",
+    "A051903",
+    "A109613",
+    "A331273",
+    "A350390",
+    "A363332",
+    "A368711",
+    "A368781",
+    "A372602",
+    "A372603",
+    "A372604"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

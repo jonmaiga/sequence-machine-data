@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f. cos(tan(x))/cos(x), even indexed terms only.",
+  "description": "Expansion of e.g.f. cos(tan(x))/cos(x), even-indexed terms only.",
   "id": "A009072",
   "mentions": [],
   "tags": [

@@ -6,12 +6,13 @@
     "A004198"
   ],
   "tags": [
+    "look",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 90,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

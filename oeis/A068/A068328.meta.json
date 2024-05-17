@@ -1,5 +1,5 @@
 {
-  "description": "Arithmetic derivative of squarefree numbers.",
+  "description": "Arithmetic derivatives of the squarefree numbers.",
   "id": "A068328",
   "mentions": [
     "A003415",

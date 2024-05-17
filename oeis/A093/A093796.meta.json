@@ -1,5 +1,5 @@
 {
-  "description": "Sequence of digit-values after concatenating the natural numbers in Roman numeral representation.",
+  "description": "Sequence of digit-values after concatenating the natural numbers < 4000 in Roman numeral representation.",
   "id": "A093796",
   "mentions": [
     "A007376",
@@ -9,6 +9,8 @@
   "tags": [
     "base",
     "easy",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

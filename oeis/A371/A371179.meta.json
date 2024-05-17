@@ -1,0 +1,43 @@
+{
+  "description": "Positive integers with fewer distinct prime factors (A001221) than distinct divisors of prime indices (A370820).",
+  "id": "A371179",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A008284",
+    "A112798",
+    "A239312",
+    "A285573",
+    "A303975",
+    "A305148",
+    "A316476",
+    "A355529",
+    "A370802",
+    "A370803",
+    "A370820",
+    "A371128",
+    "A371130",
+    "A371132",
+    "A371165",
+    "A371168",
+    "A371171",
+    "A371172",
+    "A371173",
+    "A371177",
+    "A371178",
+    "A371180"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

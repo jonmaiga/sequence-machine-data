@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} p^prime(n/p).",
+  "id": "A369750",
+  "mentions": [
+    "A000040",
+    "A351368",
+    "A369748",
+    "A369749"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

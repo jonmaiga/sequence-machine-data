@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 3^(2*n + valuation(n, 3)) = 3^A371638(n).",
+  "id": "A371640",
+  "mentions": [
+    "A371638",
+    "A371639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

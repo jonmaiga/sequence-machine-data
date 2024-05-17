@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n divides the sum of the digits of n!.",
+  "description": "Numbers j such that j divides the sum of the digits of j!.",
   "id": "A108825",
   "mentions": [
     "A125526",

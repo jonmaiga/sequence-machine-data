@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions to a+b+c=d+e+f with 0",
+  "description": "Number of solutions to a+b+c = d+e+f with 0 < a <= n, 0 <= b,c,d,e,f <= n.",
   "id": "A197083",
   "mentions": [],
   "tags": [

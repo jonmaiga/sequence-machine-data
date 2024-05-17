@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{n>=1} (1 - 5^(n-1)*x^n) * (1 + 5^(n-1)*x^n)^2.",
+  "id": "A370435",
+  "mentions": [
+    "A338674",
+    "A344064",
+    "A370337",
+    "A370338",
+    "A370434"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Number of 7's in decimal expansion of triangular number n(n+1)/2.",
   "id": "A086078",
   "mentions": [
+    "A000217",
     "A086071",
     "A086072",
     "A086073",
@@ -19,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

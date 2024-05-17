@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that all three values n^2+13^k, k = 1, 2, 3, are prime.",
+  "description": "Numbers m such that all three values m^2 + 13^k, k = 1, 2, 3, are prime.",
   "id": "A178639",
   "mentions": [
     "A000040",

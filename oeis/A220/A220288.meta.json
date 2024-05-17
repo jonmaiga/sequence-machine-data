@@ -1,7 +1,10 @@
 {
-  "description": "G.f. A(x) satisfies A(A(A(x)))=(x+3*x^2+9*x^3).",
+  "description": "G.f. A(x) satisfies A(A(A(x))) = x+3*x^2+9*x^3.",
   "id": "A220288",
-  "mentions": [],
+  "mentions": [
+    "A141118",
+    "A220110"
+  ],
   "tags": [
     "formulas",
     "sign"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

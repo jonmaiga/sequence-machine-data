@@ -1,12 +1,11 @@
 {
-  "description": "Numbers k such that pi(k) = sopf(k).",
+  "description": "Numbers k such that pi(k) = sopf(k) where sopf(k) is sum of distinct prime factors of k (A008472).",
   "id": "A064444",
   "mentions": [
     "A000720",
     "A008472"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {

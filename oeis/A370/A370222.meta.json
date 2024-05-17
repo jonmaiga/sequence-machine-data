@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: row n gives the inversion table (see comments) of the permutation encoded by row n of A370221.",
+  "id": "A370222",
+  "mentions": [
+    "A000108",
+    "A063171",
+    "A072643",
+    "A239903",
+    "A370219",
+    "A370220",
+    "A370221",
+    "A370292"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

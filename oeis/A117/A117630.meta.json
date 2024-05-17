@@ -2,6 +2,7 @@
   "description": "Complement of A056576.",
   "id": "A117630",
   "mentions": [
+    "A054414",
     "A056576",
     "A102525",
     "A254312"

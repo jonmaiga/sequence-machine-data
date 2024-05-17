@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (10^n + 101)/3 is prime.",
+  "description": "Numbers k such that (10^k + 101)/3 is prime.",
   "id": "A271882",
   "mentions": [
     "A056654",

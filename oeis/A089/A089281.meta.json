@@ -2,9 +2,11 @@
   "description": "Smallest prime factor of floor(Pi*10^n).",
   "id": "A089281",
   "mentions": [
+    "A000040",
     "A000796",
     "A011545",
     "A020639",
+    "A060421",
     "A078604"
   ],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled loopless multigraphs without endpoints with n edges covering k vertices, 0 <= k <= n.",
+  "id": "A370063",
+  "mentions": [
+    "A002865",
+    "A307316",
+    "A369932"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

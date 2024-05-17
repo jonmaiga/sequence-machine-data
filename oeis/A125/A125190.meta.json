@@ -2,6 +2,7 @@
   "description": "Number of ascents in all Schroeder paths of length 2n.",
   "id": "A125190",
   "mentions": [
+    "A006319",
     "A008288",
     "A026002",
     "A090981",

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Gamma(1/20).",
+  "id": "A371881",
+  "mentions": [
+    "A073005",
+    "A175380",
+    "A203140",
+    "A256191",
+    "A371983"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

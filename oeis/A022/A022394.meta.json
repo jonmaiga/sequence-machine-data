@@ -1,9 +1,7 @@
 {
   "description": "Fibonacci sequence beginning 1, 24.",
   "id": "A022394",
-  "mentions": [
-    "A000045"
-  ],
+  "mentions": [],
   "tags": [
     "formulas",
     "nonn"

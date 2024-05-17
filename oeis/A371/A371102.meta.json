@@ -1,0 +1,23 @@
+{
+  "description": "Array A read by upward antidiagonals in which the entry A(n,k) in row n and column k is defined by A(1, k) = 4*k-1, and A(n+1, k) = A371094(A(n, k)), n,k >= 1.",
+  "id": "A371102",
+  "mentions": [
+    "A004767",
+    "A102603",
+    "A257852",
+    "A371094",
+    "A371096",
+    "A371100",
+    "A371103"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

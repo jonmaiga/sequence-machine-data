@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the numerator of the probability of winning a 1-player game M(n,k) as defined below while playing optimally.",
+  "id": "A370398",
+  "mentions": [
+    "A083864",
+    "A370399"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

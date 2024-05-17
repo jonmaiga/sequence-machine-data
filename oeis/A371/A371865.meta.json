@@ -1,0 +1,18 @@
+{
+  "description": "Primes whose second to ninth digits are 23456789.",
+  "id": "A371865",
+  "mentions": [
+    "A371833",
+    "A371845"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

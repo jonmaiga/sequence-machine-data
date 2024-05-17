@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, Stirling set numbers of order 2, T(n,n) = 1, T(n,k) = 0 if k < 0 or k > n, otherwise T(n,k) = T(n-1,k-1) + k^2*T(n-1, k), for n >= 0 and 0 <= k <= n.",
+  "description": "Triangle read by rows. Stirling set numbers of order 2, T(n, n) = 1, T(n, k) = 0 if k < 0 or k > n, otherwise T(n, k) = T(n-1, k-1) + k^2*T(n-1, k), for 0 <= k <= n.",
   "id": "A269945",
   "mentions": [
     "A000330",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of 132-avoiding permutations p so that p^3 is the identity permutation.",
+  "id": "A370686",
+  "mentions": [
+    "A000108",
+    "A309331"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

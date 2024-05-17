@@ -1,0 +1,19 @@
+{
+  "description": "For any nonnegative integer n with binary expansion Sum_{i >= 0} b_i * 2^i, the binary expansion of a(n) is Sum_{i >= 0} c_i * 2^i with c_i = (Sum_{k > 0} b_{k*(i+1)-1}) mod 2 for any i >= 0.",
+  "id": "A371976",
+  "mentions": [
+    "A010060",
+    "A070939",
+    "A371974",
+    "A371977"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

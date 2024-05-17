@@ -1,0 +1,18 @@
+{
+  "description": "The smaller of a pair of successive powerful numbers without a nonsquarefree number between them.",
+  "id": "A371190",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A013929",
+    "A240591"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

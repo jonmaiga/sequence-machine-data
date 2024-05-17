@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion I_1(1), the modified Bessel function of the first kind.",
   "id": "A226975",
-  "mentions": [],
+  "mentions": [
+    "A002454"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

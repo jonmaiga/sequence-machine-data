@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n+2) = sigma(n+1) + sigma(n).",
+  "description": "Numbers k such that sigma(k+2) = sigma(k+1) + sigma(k).",
   "id": "A104149",
   "mentions": [
     "A065900",

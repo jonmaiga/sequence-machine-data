@@ -1,11 +1,12 @@
 {
-  "description": "Numbers k such that the primorial base representation of their arithmetic derivative do not contain digits larger than 1.",
+  "description": "Numbers k such that the primorial base representation of their arithmetic derivative does not contain digits larger than 1.",
   "id": "A341518",
   "mentions": [
     "A000040",
     "A003415",
     "A005117",
     "A049345",
+    "A051903",
     "A276086",
     "A276156",
     "A327859",
@@ -14,7 +15,8 @@
     "A328114",
     "A328232",
     "A328390",
-    "A341517"
+    "A341517",
+    "A369647"
   ],
   "tags": [
     "formulas",
@@ -23,6 +25,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

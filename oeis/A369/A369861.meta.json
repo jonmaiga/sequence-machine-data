@@ -1,0 +1,22 @@
+{
+  "description": "The orbit of n under iterations of x -> concatenate(A048762(x), A055400(x)) enters a pseudo-loop x(k) = a^3 * 10^((k-k0)*A055642(b)) + b for k > k0. This sequence lists the b-value.",
+  "id": "A369861",
+  "mentions": [
+    "A000578",
+    "A048762",
+    "A048766",
+    "A055400",
+    "A055642",
+    "A122840",
+    "A369860"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

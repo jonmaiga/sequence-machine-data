@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) is the total number of levels in all Motzkin paths of length n containing exactly k path nodes; triangle T(n,k), n>=0, 1<=k<=n+1, read by rows.",
+  "id": "A372014",
+  "mentions": [
+    "A001006",
+    "A005717",
+    "A051485",
+    "A088457",
+    "A333498",
+    "A371928",
+    "A372033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3^(n-1) - 2*2^(n-1) + 1 (essentially Stirling numbers of second kind).",
+  "description": "a(n) = 3^(n-1) - 2^n + 1 (essentially Stirling numbers of second kind).",
   "id": "A028243",
   "mentions": [
     "A000244",

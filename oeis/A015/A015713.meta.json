@@ -1,7 +1,8 @@
 {
-  "description": "phi(n) * sigma(n) + k^2 is not a square for any k.",
+  "description": "Numbers m such that phi(m) * sigma(m) + k^2 is not a square for any k.",
   "id": "A015713",
   "mentions": [
+    "A007814",
     "A015710",
     "A016825",
     "A062354"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

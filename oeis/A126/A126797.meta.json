@@ -1,22 +1,20 @@
 {
-  "description": "Number of absolute pseudoprimes U_{5,5}(m) with m <= 10^n.",
+  "description": "Number of terms of A372187 that do not exceed 10^n.",
   "id": "A126797",
   "mentions": [
     "A002997",
-    "A005382",
-    "A005937",
-    "A020137",
-    "A033181",
-    "A052155",
-    "A083737",
-    "A084653"
+    "A036060",
+    "A372187",
+    "A372189",
+    "A372190"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 7,
+    "offset": 1,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

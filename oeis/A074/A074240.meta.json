@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that n-th prime = sigma(sigma(n)) + 1.",
+  "description": "Numbers k such that k-th prime = sigma(sigma(k)) + 1.",
   "id": "A074240",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

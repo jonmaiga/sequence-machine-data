@@ -1,0 +1,16 @@
+{
+  "description": "Twin prime pair sums that equal a twin prime pair product plus 1 (divided by 36).",
+  "id": "A370453",
+  "mentions": [
+    "A037072",
+    "A152787"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

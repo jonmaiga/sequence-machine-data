@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(2)=2; thereafter, any two indices n with different a(n) values reach distinct values by a single jump, where jumps are allowed from location i to i+a(i).",
+  "id": "A369852",
+  "mentions": [
+    "A367467",
+    "A367832",
+    "A367849",
+    "A368485",
+    "A369475"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,11 +2,15 @@
   "description": "Coefficient triangle of certain polynomials N(5; m,x).",
   "id": "A062190",
   "mentions": [
+    "A008459",
     "A028557",
     "A062138",
     "A062145",
+    "A062196",
+    "A062264",
     "A104676",
-    "A104677"
+    "A104677",
+    "A132813"
   ],
   "tags": [
     "formulas",

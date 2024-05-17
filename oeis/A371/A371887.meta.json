@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive integer k such that the digits of 2^k contain 2^a(n-1) as a proper substring.",
+  "id": "A371887",
+  "mentions": [
+    "A005054",
+    "A018856",
+    "A030000",
+    "A034887"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

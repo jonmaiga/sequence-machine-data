@@ -1,0 +1,23 @@
+{
+  "description": "(n*10)^(n*10) omitting its rightmost trailing 0's.",
+  "id": "A370255",
+  "mentions": [
+    "A000312",
+    "A002489",
+    "A004151",
+    "A008592",
+    "A369771",
+    "A369826"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

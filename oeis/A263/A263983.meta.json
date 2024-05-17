@@ -1,5 +1,5 @@
 {
-  "description": "Odd integers n such that sigma(n)^2 is divisible by n.",
+  "description": "Odd integers k such that sigma(k)^2 is divisible by k.",
   "id": "A263983",
   "mentions": [
     "A000203",

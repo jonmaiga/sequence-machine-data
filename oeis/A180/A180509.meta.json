@@ -1,10 +1,11 @@
 {
-  "description": "Solutions a(n) of (a(n)-5)*(a(n)-6) = 21 *b(n)*(b(n)-1).",
+  "description": "Solutions a(n) of (a(n)-5)*(a(n)-6) = 21*b(n)*(b(n)-1).",
   "id": "A180509",
   "mentions": [
     "A181443"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

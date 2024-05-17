@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n with as many submultisets as distinct divisors of parts.",
+  "id": "A371172",
+  "mentions": [
+    "A000005",
+    "A003963",
+    "A239312",
+    "A319055",
+    "A355529",
+    "A355731",
+    "A355732",
+    "A355739",
+    "A355740",
+    "A368100",
+    "A368110",
+    "A370320",
+    "A370592",
+    "A370593",
+    "A370802",
+    "A370803",
+    "A370808",
+    "A370813",
+    "A370814",
+    "A370820",
+    "A371128",
+    "A371130",
+    "A371165",
+    "A371166"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

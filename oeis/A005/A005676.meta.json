@@ -1,8 +1,9 @@
 {
-  "description": "Sum C(n-k,4*k), k = 0..n.",
+  "description": "a(n) = Sum_{k=0..n} C(n-k,4*k).",
   "id": "A005676",
   "mentions": [
-    "A000051"
+    "A000051",
+    "A306680"
   ],
   "tags": [
     "easy",

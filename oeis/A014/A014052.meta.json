@@ -1,7 +1,10 @@
 {
   "description": "a(n) = floor((n+1/n)^n).",
   "id": "A014052",
-  "mentions": [],
+  "mentions": [
+    "A014056",
+    "A014058"
+  ],
   "tags": [
     "easy",
     "nonn"

@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps required to kill a Kirby-Paris hydra composed of a linear graph with n edges where, after removing the rightmost head at step s, s new subtrees sprout from the head's grandparent node (see comments).",
+  "id": "A372478",
+  "mentions": [
+    "A180368",
+    "A372101",
+    "A372421",
+    "A372595"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

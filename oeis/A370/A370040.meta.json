@@ -1,0 +1,31 @@
+{
+  "description": "Triangle of coefficients T(n,k) in g.f. A(x,y) satisfying Sum_{n=-oo..+oo} (-1)^n * (x^n + y*A(x,y))^n = 1 + (y+2)*Sum_{n>=1} (-1)^n * x^(n^2), for n >= 1, as read by rows.",
+  "id": "A370040",
+  "mentions": [
+    "A370020",
+    "A370021",
+    "A370022",
+    "A370023",
+    "A370024",
+    "A370025",
+    "A370026",
+    "A370027",
+    "A370028",
+    "A370029",
+    "A370041",
+    "A370042",
+    "A370150",
+    "A370151",
+    "A370152"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

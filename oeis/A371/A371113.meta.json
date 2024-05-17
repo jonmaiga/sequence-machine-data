@@ -1,0 +1,19 @@
+{
+  "description": "The sequence is a succession of triples of nonnegative integers. In each triple, the digits form a palindromic pattern. The sequence starts with a(0)=0 and is always extended with the smallest available integer not yet present in the sequence.",
+  "id": "A371113",
+  "mentions": [
+    "A004086",
+    "A238880",
+    "A369856"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

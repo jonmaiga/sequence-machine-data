@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum{n=1..infinity} 1/prime(n)^n.",
+  "description": "Decimal expansion of Sum_{n>=1} 1/prime(n)^n.",
   "id": "A093358",
   "mentions": [],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x * A(x)^(1/2) * (1 + A(x)^(5/2)).",
+  "id": "A370471",
+  "mentions": [
+    "A262441",
+    "A366401",
+    "A370472",
+    "A370475"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. satisfies log(A(x)) = x^2*A(x)^2 * (exp(x*A(x)) - 1).",
+  "id": "A371145",
+  "mentions": [
+    "A356785"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -2,11 +2,18 @@
   "description": "Non-balanced numbers in A015763.",
   "id": "A074866",
   "mentions": [
-    "A000005",
     "A000010",
+    "A000203",
+    "A001160",
     "A015763",
     "A020492",
-    "A078539"
+    "A074868",
+    "A077801",
+    "A077803",
+    "A078539",
+    "A078544",
+    "A078549",
+    "A078550"
   ],
   "tags": [
     "formulas",
@@ -15,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

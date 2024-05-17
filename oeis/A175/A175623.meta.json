@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k)=prime(k)^(n-1) mod n, 1<=k<=n.",
+  "description": "Triangle read by rows: T(n,k) = prime(k)^(n-1) mod n, 1<=k<=n.",
   "id": "A175623",
   "mentions": [
     "A000079",

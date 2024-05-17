@@ -2,8 +2,9 @@
   "description": "Expansion of e.g.f. 1/(1 - 2*x)^(x/4).",
   "id": "A354319",
   "mentions": [
-    "A354227",
-    "A354309"
+    "A354309",
+    "A354323",
+    "A354327"
   ],
   "tags": [
     "formulas",

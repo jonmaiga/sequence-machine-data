@@ -1,15 +1,19 @@
 {
-  "description": "Primes p such that p-1 has more factors than any smaller prime-1.",
+  "description": "Primes p such that p-1 has more divisors than any smaller prime-1.",
   "id": "A103199",
   "mentions": [
-    "A067573"
+    "A000005",
+    "A008328",
+    "A066814",
+    "A067573",
+    "A072826"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

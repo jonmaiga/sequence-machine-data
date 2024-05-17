@@ -1,0 +1,17 @@
+{
+  "description": "A008336(n) is divisible by the product of the primes p such that n/2 <= p < n; a(n) is the quotient.",
+  "id": "A370971",
+  "mentions": [
+    "A008336",
+    "A055773"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

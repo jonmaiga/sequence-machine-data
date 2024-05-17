@@ -1,5 +1,5 @@
 {
-  "description": "Number of dissections of a ball: (3n+3)!/(2n+3)!.",
+  "description": "a(n) = (3n+3)!/(2n+3)!.",
   "id": "A001763",
   "mentions": [
     "A001762",

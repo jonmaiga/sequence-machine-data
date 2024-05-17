@@ -1,11 +1,18 @@
 {
-  "description": "Number of dissectable polyhedra with symmetry of type C.",
+  "description": "Number of chiral pairs of dissectable polyhedra with n tetrahedral cells and symmetry of type C.",
   "id": "A047774",
   "mentions": [
     "A001764",
+    "A007173",
     "A027610",
     "A047749",
-    "A047750"
+    "A047750",
+    "A047751",
+    "A047752",
+    "A047764",
+    "A047766",
+    "A047773",
+    "A371350"
   ],
   "tags": [
     "easy",

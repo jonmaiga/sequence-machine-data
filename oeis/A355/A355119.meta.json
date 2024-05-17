@@ -1,11 +1,13 @@
 {
-  "description": "a(n) is the number of order-n magic triangles composed of the numbers from 1 to n(n+1)/2 in which the sum of the k-th row and the (n-k+1)-st row is same for all k and all three directions, counted up to rotations and reflections.",
+  "description": "a(n) is the number of order-n magic triangles composed of the numbers from 1 to n(n+1)/2 in which the sum of the k-th row and the (n-k+1)-st row is the same for all k and all three directions, counted up to rotations and reflections.",
   "id": "A355119",
   "mentions": [
     "A000217",
     "A006052",
     "A008586",
-    "A342467"
+    "A342467",
+    "A356643",
+    "A356808"
   ],
   "tags": [
     "formulas",
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

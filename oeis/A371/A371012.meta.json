@@ -1,0 +1,19 @@
+{
+  "description": "The largest prime that divides the n-th number that is the sum of 2 squares; a(2) = 1.",
+  "id": "A371012",
+  "mentions": [
+    "A001481",
+    "A006530",
+    "A344123"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

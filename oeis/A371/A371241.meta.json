@@ -1,0 +1,22 @@
+{
+  "description": "Euler totient function applied to the zeroless numbers in base 3 (A032924).",
+  "id": "A371241",
+  "mentions": [
+    "A000010",
+    "A032924",
+    "A214549",
+    "A371239",
+    "A371240"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

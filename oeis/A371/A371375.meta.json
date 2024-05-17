@@ -1,0 +1,23 @@
+{
+  "description": "Place n equally space points around the circumference of a circle and then, for each pair of points, draw two distinct circles, whose radii are the same as the first circle, such that both points lie on their circumferences. The sequence gives the total number of (curved) edges formed.",
+  "id": "A371375",
+  "mentions": [
+    "A135565",
+    "A358783",
+    "A359047",
+    "A371255",
+    "A371373",
+    "A371374",
+    "A371376",
+    "A371377"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

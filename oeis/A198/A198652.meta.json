@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..6 arrays with values 0..6 introduced in row major order and each element equal to at least one horizontal or vertical neighbor",
+  "description": "Number of n X 5 0..6 arrays with values 0..6 introduced in row major order and each element equal to at least one horizontal or vertical neighbor.",
   "id": "A198652",
   "mentions": [
     "A198654"

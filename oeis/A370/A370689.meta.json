@@ -1,0 +1,30 @@
+{
+  "description": "Numerator of sigma(phi(n))/phi(sigma(n)), where sigma is the sum of the divisors function and phi is the Euler totient function.",
+  "id": "A370689",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A033632",
+    "A062401",
+    "A062402",
+    "A065395",
+    "A066930",
+    "A073858",
+    "A080130",
+    "A091724",
+    "A289336",
+    "A289412",
+    "A370690"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

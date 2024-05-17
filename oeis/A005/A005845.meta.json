@@ -1,5 +1,5 @@
 {
-  "description": "Bruckman-Lucas pseudoprimes: n | (L_n - 1), where n is composite and L_n = Lucas numbers A000032.",
+  "description": "Bruckman-Lucas pseudoprimes: k | (L_k - 1), where k is composite and L_k = Lucas numbers A000032.",
   "id": "A005845",
   "mentions": [
     "A000032",

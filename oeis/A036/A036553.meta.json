@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = phi(prime(n))-prime(phi(n)).",
+  "description": "a(n) = phi(prime(n)) - prime(phi(n)).",
   "id": "A036553",
   "mentions": [
+    "A000010",
+    "A000040",
     "A048849"
   ],
   "tags": [

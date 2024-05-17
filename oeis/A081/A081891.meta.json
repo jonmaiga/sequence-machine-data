@@ -1,5 +1,5 @@
 {
-  "description": "A sum of decreasing powers.",
+  "description": "a(n) = 10^n-9^n-8^n-7^n+3*6^n.",
   "id": "A081891",
   "mentions": [
     "A081690"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 6*a(n-1)-a(n-2), n >= 2, a(0)=1, a(1)=9.",
+  "description": "a(n) = 6*a(n-1) - a(n-2), n >= 2, a(0)=1, a(1)=9.",
   "id": "A038761",
   "mentions": [
     "A001109",
@@ -22,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

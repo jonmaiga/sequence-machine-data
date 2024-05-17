@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(1/7)*sum(k=0,n,binomial(n,k)*Fibonacci(k)*7^k).",
+  "description": "a(n) = (1/7)*Sum_{k=0..n} binomial(n,k)*Fibonacci(k)*7^k.",
   "id": "A087584",
   "mentions": [
     "A014445",

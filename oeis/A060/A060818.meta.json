@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 2^(floor(n/2) + floor(n/4) + floor(n/8) + floor(n/16) + ...).",
+  "description": "a(n) = 2^(n - HammingWeight(n)) = 2^(n - BitCount(n)) = 2^(n - A000120(n)).",
   "id": "A060818",
   "mentions": [
+    "A000120",
     "A001147",
     "A001790",
     "A005187",

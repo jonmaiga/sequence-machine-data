@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(sigma(n)-n) = n.",
+  "description": "Numbers k such that sigma(sigma(k) - k) = k.",
   "id": "A072868",
   "mentions": [
     "A000043",

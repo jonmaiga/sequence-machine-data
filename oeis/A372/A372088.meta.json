@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/( 1 - 4*x*(1 + x*A(x)) )^(1/2).",
+  "id": "A372088",
+  "mentions": [
+    "A372002"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

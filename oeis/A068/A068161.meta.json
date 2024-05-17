@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime beginning and ending in at least n three's.",
+  "description": "Smallest prime beginning and ending in at least n 3's.",
   "id": "A068161",
   "mentions": [
     "A068160"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

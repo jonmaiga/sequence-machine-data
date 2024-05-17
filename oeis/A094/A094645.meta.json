@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Stirling number triangle of first kind.",
+  "description": "Triangle of generalized Stirling numbers of the first kind.",
   "id": "A094645",
   "mentions": [
     "A000007",
@@ -21,8 +21,10 @@
     "A084938",
     "A094646",
     "A105794",
+    "A130534",
     "A132393",
-    "A164555"
+    "A164555",
+    "A370518"
   ],
   "tags": [
     "easy",

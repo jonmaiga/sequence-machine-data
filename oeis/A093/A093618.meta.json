@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that for all k less than n the number of divisors of k*n and n^2 are different.",
+  "description": "Numbers m such that for all k less than m the number of divisors of k*m and m^2 are different.",
   "id": "A093618",
   "mentions": [
     "A000005",
@@ -9,6 +9,7 @@
     "A093617"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

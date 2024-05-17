@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=0..n} (n+k)!^k.",
+  "id": "A372116",
+  "mentions": [
+    "A055462",
+    "A255269",
+    "A296591",
+    "A367492",
+    "A368132"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

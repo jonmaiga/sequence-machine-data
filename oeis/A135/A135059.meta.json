@@ -1,5 +1,5 @@
 {
-  "description": "Orbits with n vertices of special cuts up to isomorphism of 600-cell.",
+  "description": "Number of special cuts of 600-cell with n vertices up to symmetries of the polytope.",
   "id": "A135059",
   "mentions": [
     "A143661"

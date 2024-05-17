@@ -1,0 +1,16 @@
+{
+  "description": "Number of palindromic partitions of n.",
+  "id": "A368548",
+  "mentions": [
+    "A068499"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

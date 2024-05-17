@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k whose arithmetic derivative k' is of the form 4m+2, and k' has an odd number of prime factors.",
+  "id": "A369662",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A327862",
+    "A369661",
+    "A369664"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

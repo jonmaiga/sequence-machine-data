@@ -1,9 +1,13 @@
 {
-  "description": "2^n - mu(n).",
+  "description": "a(n) = 2^n - mu(n).",
   "id": "A062777",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A008683"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

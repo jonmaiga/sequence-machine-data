@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} p^(mu(n/p)^2).",
+  "id": "A369742",
+  "mentions": [
+    "A008683",
+    "A143519"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

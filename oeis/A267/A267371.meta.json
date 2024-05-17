@@ -1,13 +1,17 @@
 {
-  "description": "Limiting sequence formed by starting with 01 and iteratively concatenating existing string with the shortest prefix that appears only once",
+  "description": "Limiting sequence formed by starting with 01 and iteratively concatenating existing string with the shortest prefix that appears only once.",
   "id": "A267371",
-  "mentions": [],
+  "mentions": [
+    "A267372",
+    "A267373",
+    "A267374"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 133,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

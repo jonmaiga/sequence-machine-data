@@ -1,15 +1,17 @@
 {
-  "description": "Sum_{d|n, d = 0, 1, or 4 mod 5} d.",
+  "description": "a(n) = Sum_{d|n, d = 0, 1, or 4 mod 5} d.",
   "id": "A284361",
   "mentions": [
     "A000203",
     "A036820",
+    "A102753",
     "A113429",
     "A284362",
     "A284363",
     "A284372"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

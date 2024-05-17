@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = Product_{n>=1} (1 + x^n*A(x))/(1-x^n).",
+  "description": "G.f. satisfies A(x) = Product_{n>=1} (1 + x^n*A(x))/(1-x^n).",
   "id": "A190861",
   "mentions": [
     "A190862",

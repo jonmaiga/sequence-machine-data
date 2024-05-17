@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of essential graphs with n nodes and k (directed or undirected) edges (n >= 1, 0 <= k <= n*(n-1)/2).",
+  "id": "A368569",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A007984",
+    "A239568"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

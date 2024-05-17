@@ -1,0 +1,16 @@
+{
+  "description": "a(0)=1; thereafter a(n) = (n+1)*prime(n)+1.",
+  "id": "A372054",
+  "mentions": [
+    "A164931"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

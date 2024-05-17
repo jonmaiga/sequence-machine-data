@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sum of 2^(k-1) such that floor(n/prime(k)) is even.",
+  "id": "A371907",
+  "mentions": [
+    "A034386",
+    "A357215",
+    "A371906",
+    "A372000",
+    "A372007"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

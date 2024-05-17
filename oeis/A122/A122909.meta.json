@@ -1,5 +1,5 @@
 {
-  "description": "F(n+1)F(2n+2)+F(n)F(2n).",
+  "description": "a(n) = F(n+1)*F(2n+2) + F(n)*F(2n).",
   "id": "A122909",
   "mentions": [
     "A000045",

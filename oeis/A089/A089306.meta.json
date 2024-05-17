@@ -1,9 +1,7 @@
 {
   "description": "Smallest prime of the form n + (n+1)+ (n+2)+...+(n+k), or 0 if no such prime exists.",
   "id": "A089306",
-  "mentions": [
-    "A077654"
-  ],
+  "mentions": [],
   "tags": [
     "nonn"
   ],

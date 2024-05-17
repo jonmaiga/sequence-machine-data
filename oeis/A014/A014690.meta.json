@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n + prime(n+1).",
   "id": "A014690",
-  "mentions": [],
+  "mentions": [
+    "A095116"
+  ],
   "tags": [
     "easy",
     "nonn"

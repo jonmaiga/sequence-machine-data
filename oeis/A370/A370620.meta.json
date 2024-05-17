@@ -1,0 +1,19 @@
+{
+  "description": "Coefficient of x^n in the expansion of 1 / (1-x-x^2)^(3*n).",
+  "id": "A370620",
+  "mentions": [
+    "A368963",
+    "A370621",
+    "A370622",
+    "A370623"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Union of primorials and powers of 2.",
+  "id": "A368325",
+  "mentions": [
+    "A000079",
+    "A000961",
+    "A002110",
+    "A005117",
+    "A025487",
+    "A055932",
+    "A126706",
+    "A303554",
+    "A363814",
+    "A364710"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

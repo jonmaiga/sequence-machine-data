@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of -2B = sum(r in Z, 1/(r*(1-r))), where Z is the set of zeros of the Riemann zeta-function which lie in the strip 0 <= Re(z) <= 1.",
+  "description": "Decimal expansion of -2B = sum(r in Z, 1/(r*(1-r))), where Z is the set of zeros of the Riemann zeta function which lie in the strip 0 <= Re(z) <= 1.",
   "id": "A195423",
   "mentions": [
     "A002410",

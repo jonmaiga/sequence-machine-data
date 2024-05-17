@@ -1,0 +1,18 @@
+{
+  "description": "Number of cover relations summed over the rank-1 labeled posets on [n].",
+  "id": "A369921",
+  "mentions": [
+    "A001831",
+    "A052296",
+    "A369919"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

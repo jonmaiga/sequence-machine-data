@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of dominating subsets with cardinality k of the n X n rook graph (n >= 1, 0 <= k <= n^2).",
+  "id": "A368831",
+  "mentions": [
+    "A248744",
+    "A287065",
+    "A287274"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

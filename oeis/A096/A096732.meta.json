@@ -1,9 +1,14 @@
 {
   "description": "a(n)=det(M_n) where M_n is the n X n matrix m(i,j)=i^j*j^i.",
   "id": "A096732",
-  "mentions": [],
+  "mentions": [
+    "A071409",
+    "A071410",
+    "A169657"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

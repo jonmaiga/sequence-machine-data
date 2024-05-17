@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * F(n) * H(n), where F(n) is the n-th Fibonacci number and H(n) the n-th harmonic number.",
+  "id": "A372199",
+  "mentions": [
+    "A000045",
+    "A000254",
+    "A001008",
+    "A002805"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

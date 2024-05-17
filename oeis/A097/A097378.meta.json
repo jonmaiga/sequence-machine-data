@@ -1,7 +1,8 @@
 {
-  "description": "SquareFreeKernel(n)*CubeFreeKernel(n) + 1.",
+  "description": "a(n) = SquareFreeKernel(n)*CubeFreeKernel(n) + 1.",
   "id": "A097378",
   "mentions": [
+    "A002117",
     "A004709",
     "A005117",
     "A007947",
@@ -9,11 +10,12 @@
     "A097381"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

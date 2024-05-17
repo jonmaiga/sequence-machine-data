@@ -1,0 +1,21 @@
+{
+  "description": "Number of factorizations of n into factors > 2.",
+  "id": "A371243",
+  "mentions": [
+    "A001055",
+    "A008483",
+    "A078012",
+    "A371209",
+    "A371244",
+    "A371245"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

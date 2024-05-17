@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: exp(Sum_{k>=1} binomial(3*k,k) * x^k).",
+  "id": "A370327",
+  "mentions": [
+    "A005809",
+    "A229451",
+    "A370055",
+    "A370326"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Consider primitive pairs of integers (b, c) with b > 0 such that x^5 + b*x + c = 0 is irreducible and solvable by radicals: sequence gives values of b.",
+  "id": "A371553",
+  "mentions": [
+    "A371554"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

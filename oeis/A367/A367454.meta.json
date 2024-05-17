@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (-1 + sqrt(29))/14 = 1/A223140.",
+  "id": "A367454",
+  "mentions": [
+    "A010484",
+    "A015442",
+    "A049310",
+    "A223140"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

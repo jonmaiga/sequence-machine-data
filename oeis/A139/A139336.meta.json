@@ -1,9 +1,10 @@
 {
-  "description": "Coefficient triangle of Sylvester resultant matrix characteristic polynomials of alternating signs: example matrix: {{-1, 1, -1, 1, 0}, {0, -1, 1, -1, 1}, {1, -1, 1, 0, 0}, {0, 1, -1, 1, 0}, {0,0, 1, -1, 1}}.",
+  "description": "A nonsense sequence.",
   "id": "A139336",
   "mentions": [],
   "tags": [
     "formulas",
+    "less",
     "sign",
     "tabf",
     "uned"

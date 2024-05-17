@@ -1,5 +1,5 @@
 {
-  "description": "Number of base 5 (n+1)-digit numbers starting with a zero and with adjacent digits differing by one or less.",
+  "description": "Number of base-5 (n+1)-digit numbers starting with a zero and with adjacent digits differing by one or less.",
   "id": "A057960",
   "mentions": [
     "A000012",

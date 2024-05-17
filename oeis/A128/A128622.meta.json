@@ -1,19 +1,28 @@
 {
-  "description": "A128064(unsigned) * A128174.",
+  "description": "Triangle T(n, k) = A128064(unsigned) * A128174, read by rows.",
   "id": "A128622",
   "mentions": [
+    "A000027",
+    "A000326",
     "A014848",
+    "A016777",
+    "A042963",
+    "A047461",
+    "A109613",
+    "A123684",
     "A128064",
-    "A128174"
+    "A128174",
+    "A319556"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

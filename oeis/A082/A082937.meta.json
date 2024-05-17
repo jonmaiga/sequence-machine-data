@@ -1,5 +1,5 @@
 {
-  "description": "Palindromes divisible by all its digits.",
+  "description": "Palindromes divisible by each of their digits",
   "id": "A082937",
   "mentions": [
     "A002113",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

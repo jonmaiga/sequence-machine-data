@@ -2,11 +2,14 @@
   "description": "Numbers that are the sum of nine squares in ten or more ways.",
   "id": "A346803",
   "mentions": [
+    "A025428",
+    "A025429",
     "A345497",
     "A345549",
     "A346808"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of a constant related to the asymptotics of A229452.",
+  "id": "A370293",
+  "mentions": [
+    "A229451",
+    "A229452",
+    "A370288",
+    "A370289",
+    "A370294",
+    "A370295"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

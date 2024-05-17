@@ -1,0 +1,16 @@
+{
+  "description": "Number of defective (binary) heaps on 2n elements from the set {0,1} where exactly n ancestor-successor pairs do not have the correct order.",
+  "id": "A372642",
+  "mentions": [
+    "A372640"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

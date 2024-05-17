@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k >= 2 such that A362333(k)-A371148(k)/A371149(k) sets a new maximum.",
+  "id": "A371151",
+  "mentions": [
+    "A080085",
+    "A362333",
+    "A371148",
+    "A371149",
+    "A371150"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies A(x) = ( 1 + x * A(x) * (1 + A(x)) )^2.",
+  "id": "A371693",
+  "mentions": [
+    "A006318",
+    "A219534",
+    "A371681"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

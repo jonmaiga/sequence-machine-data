@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} x/(1 - log(x)) dx.",
+  "id": "A369883",
+  "mentions": [
+    "A073003",
+    "A091725",
+    "A099285"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

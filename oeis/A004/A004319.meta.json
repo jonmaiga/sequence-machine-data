@@ -1,7 +1,8 @@
 {
-  "description": "Binomial coefficient C(3n,n-1).",
+  "description": "a(n) = binomial(3*n, n - 1).",
   "id": "A004319",
   "mentions": [
+    "A000139",
     "A001764",
     "A001791",
     "A004331",

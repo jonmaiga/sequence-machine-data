@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k+1 is composite and A371641(k) != p^2 where p = A020639(k+1) is the smallest prime factor of k+1.",
+  "id": "A371900",
+  "mentions": [
+    "A020639",
+    "A027746",
+    "A248915",
+    "A259047",
+    "A322843",
+    "A371641"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

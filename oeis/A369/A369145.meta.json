@@ -41,16 +41,16 @@
     "A369194",
     "A369199",
     "A369200",
-    "A369201"
+    "A369201",
+    "A369289"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

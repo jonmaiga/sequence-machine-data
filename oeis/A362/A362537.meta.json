@@ -1,7 +1,9 @@
 {
   "description": "Number of chordless cycles of length >=4 in the n-diagonal intersection graph.",
   "id": "A362537",
-  "mentions": [],
+  "mentions": [
+    "A371340"
+  ],
   "tags": [
     "more",
     "nonn"

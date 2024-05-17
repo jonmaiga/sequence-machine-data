@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 - x/A(x)^2 * (1 - A(x) - A(x)^4).",
+  "id": "A371891",
+  "mentions": [
+    "A349331",
+    "A364748",
+    "A367724",
+    "A371890"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

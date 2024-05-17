@@ -1,0 +1,14 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = lcm(a(n-1), a(n-2)+1, a(n-3)+2, ..., a(0)+n-1).",
+  "id": "A367314",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

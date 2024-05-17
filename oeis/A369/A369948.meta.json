@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles in the n X n fiveleaper graph.",
+  "id": "A369948",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

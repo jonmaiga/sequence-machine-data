@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled graphs with vertex set [n] that are reachable in k (but no fewer) steps from a given graph on [n], where a step consists of choosing a subset S of [n] and replacing the subgraph induced by S with its complement, 0 <= k <= n-1.",
+  "id": "A370609",
+  "mentions": [
+    "A000295",
+    "A006125",
+    "A370072"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Number of set partitions of [3n] with minimal block length multiplicity equal to n.",
   "id": "A271715",
   "mentions": [
-    "A271424"
+    "A271424",
+    "A372722"
   ],
   "tags": [
     "formulas",

@@ -1,9 +1,11 @@
 {
-  "description": "a(n) is the largest digit sum of m^2 for m in the interval 10^(n-1)..(10^n)-1.",
+  "description": "a(n) is the largest number that is the digit sum of the square of an n-digit number.",
   "id": "A348300",
   "mentions": [
     "A004159",
-    "A348303"
+    "A067179",
+    "A348303",
+    "A370522"
   ],
   "tags": [
     "base",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

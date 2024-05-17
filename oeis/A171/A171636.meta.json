@@ -1,9 +1,10 @@
 {
-  "description": "Coefficients of Lommel polynomials:n=m;p(x,n,m)=(Gamma[n + m]/(Gamma[n] ((z/ 2))^m)) HypergeometricPFQ[{((1 - m))/2, (-m)/2}, {n, (-m), 1 - n - m}, z^2]",
+  "description": "Table read by rows. Coefficients of Lommel polynomials L(n, m, z) = (Gamma(n + m) / (Gamma(n) * (z/2)^m)) * hypergeom([(1 - m)/2, -m/2], [n, -m, 1 - n - m], z^2) for n = m and descending powers.",
   "id": "A171636",
-  "mentions": [],
+  "mentions": [
+    "A369117"
+  ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl",
     "uned"

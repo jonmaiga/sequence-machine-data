@@ -1,9 +1,8 @@
 {
-  "description": "Product of primes less than greatest prime factor of n but not dividing n.",
+  "description": "Product of the primes less than the greatest prime factor of n but not dividing n.",
   "id": "A083720",
   "mentions": [
     "A000040",
-    "A000961",
     "A002110",
     "A006530",
     "A007947",
@@ -12,11 +11,13 @@
     "A083722"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

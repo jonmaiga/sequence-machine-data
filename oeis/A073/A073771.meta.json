@@ -1,5 +1,5 @@
 {
-  "description": "Highly composite numbers n such that 2*n is not a highly composite number.",
+  "description": "Highly composite numbers k such that 2*k is not a highly composite number.",
   "id": "A073771",
   "mentions": [
     "A002182",

@@ -1,0 +1,22 @@
+{
+  "description": "The number of powerful divisors of the powerful numbers.",
+  "id": "A370328",
+  "mentions": [
+    "A000005",
+    "A001694",
+    "A005361",
+    "A306458",
+    "A363194",
+    "A370329"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

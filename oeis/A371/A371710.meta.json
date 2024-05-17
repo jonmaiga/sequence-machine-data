@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying Sum_{n>=0} (A(x)^n - x)^n / n! = 1.",
+  "id": "A371710",
+  "mentions": [
+    "A326097",
+    "A326433",
+    "A326600"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

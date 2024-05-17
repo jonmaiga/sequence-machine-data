@@ -1,9 +1,9 @@
 {
-  "description": "Triangular sequence of coefficients from a Sheffer sequence expansion: f(t) = 1 + t + t^2; g(t) = t + t^2; p(t) = f[t]*Exp[x*g[t]];.",
+  "description": "Triangle: let f(t) = 1 + t + t^2 and g(t) = t + t^2, expansion of p(t) = f(t)*exp(x*g(t)).",
   "id": "A137391",
   "mentions": [],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
     "tabl",
     "uned"

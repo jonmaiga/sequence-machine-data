@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 + prime(n) and n^2 - prime(n) are both primes.",
+  "description": "Numbers k such that k^2 + prime(k) and k^2 - prime(k) are both primes.",
   "id": "A064483",
   "mentions": [
     "A064711",

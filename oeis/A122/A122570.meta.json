@@ -2,13 +2,12 @@
   "description": "Consider the Thue-Morse sequence (A010060) at each iteration. Read each reversed string as a binary number and convert it to a decimal number.",
   "id": "A122570",
   "mentions": [
-    "A010059",
     "A010060",
     "A014571"
   ],
   "tags": [
     "base",
-    "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

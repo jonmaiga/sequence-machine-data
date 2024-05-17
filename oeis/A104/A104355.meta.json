@@ -2,18 +2,21 @@
   "description": "Number of trailing zeros in decimal representation of A104350(n).",
   "id": "A104355",
   "mentions": [
+    "A000079",
     "A027868",
+    "A080193",
     "A104350",
     "A104356",
     "A122840"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

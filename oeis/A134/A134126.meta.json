@@ -1,5 +1,5 @@
 {
-  "description": "Indices k such that the (k+1)st partial sum of primes divided by k is integer.",
+  "description": "Indices k such that the (k+1)-st partial sum of primes divided by k is integer.",
   "id": "A134126",
   "mentions": [
     "A007504",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

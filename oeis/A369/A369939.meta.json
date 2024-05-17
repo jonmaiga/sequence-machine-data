@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose maximal exponent in their prime factorization is a Fibonacci number.",
+  "id": "A369939",
+  "mentions": [
+    "A000045",
+    "A005117",
+    "A013662",
+    "A051903",
+    "A062503",
+    "A062838",
+    "A113850",
+    "A115063",
+    "A209061",
+    "A368714",
+    "A369937",
+    "A369938"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

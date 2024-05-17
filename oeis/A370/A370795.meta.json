@@ -1,0 +1,17 @@
+{
+  "description": "Centered square numbers which are products of four distinct primes (or tetraprimes).",
+  "id": "A370795",
+  "mentions": [
+    "A001844",
+    "A046386"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

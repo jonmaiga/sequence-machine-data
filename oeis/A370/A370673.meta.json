@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the minimum value of k > 0 such that sopf(n) = sopf(n+k) with n > 1 (where sopf(n)=A008472(n)).",
+  "id": "A370673",
+  "mentions": [
+    "A008472"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

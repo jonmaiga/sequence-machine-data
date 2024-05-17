@@ -1,0 +1,18 @@
+{
+  "description": "Number of Eulerian orientations of the torus grid graph C_6 X C_n.",
+  "id": "A372094",
+  "mentions": [
+    "A298119",
+    "A298201",
+    "A372093"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

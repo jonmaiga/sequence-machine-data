@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of simple labeled graphs on [n] with circuit rank equal to k, n>=1, 0<=k<=binomial(n-1,2)",
+  "id": "A372153",
+  "mentions": [
+    "A001858",
+    "A057500"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

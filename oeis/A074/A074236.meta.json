@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that can be the larger leg of some integer right triangle and hypotenuse of some other integer right triangle.",
+  "description": "Numbers that are the long leg of some integer right triangle and the hypotenuse of some other integer right triangle.",
   "id": "A074236",
   "mentions": [
     "A009003",

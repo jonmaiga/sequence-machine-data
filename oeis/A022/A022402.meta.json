@@ -1,11 +1,8 @@
 {
   "description": "Fibonacci sequence beginning 1, 32.",
   "id": "A022402",
-  "mentions": [
-    "A000045"
-  ],
+  "mentions": [],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

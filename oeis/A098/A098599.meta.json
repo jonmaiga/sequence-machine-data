@@ -1,8 +1,12 @@
 {
-  "description": "Riordan array ((1+2x)/(1+x),(1+x)).",
+  "description": "Riordan array ((1+2*x)/(1+x), (1+x)).",
   "id": "A098599",
   "mentions": [
+    "A000007",
+    "A005408",
     "A029635",
+    "A040000",
+    "A079757",
     "A098600",
     "A098601",
     "A100218",
@@ -16,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 110,
+    "size": 105,
     "source": "joeis"
   }
 }

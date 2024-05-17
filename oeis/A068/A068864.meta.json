@@ -2,15 +2,17 @@
   "description": "a(1) = 1; a(n+1) is the smallest square not already in the sequence which differs from a(n) at every digit.",
   "id": "A068864",
   "mentions": [
+    "A000290",
     "A068854"
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

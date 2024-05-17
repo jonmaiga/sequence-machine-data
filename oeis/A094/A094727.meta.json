@@ -1,22 +1,28 @@
 {
-  "description": "Triangle read by rows: T(n,k) = n + k, 0 <= k < n.",
+  "description": "Triangle read by rows: T(n,k) = n + k, 0 <= k < n, n >= 1.",
   "id": "A094727",
   "mentions": [
     "A000326",
     "A002024",
     "A002260",
+    "A002411",
     "A003056",
     "A004526",
     "A004736",
     "A005408",
     "A005843",
     "A016777",
+    "A016813",
+    "A016861",
     "A037213",
     "A076100",
+    "A078112",
+    "A093005",
     "A094728",
     "A128076",
     "A214604",
-    "A214661"
+    "A214661",
+    "A319556"
   ],
   "tags": [
     "easy",
@@ -26,7 +32,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 77,
+    "size": 78,
     "source": "oeis-bfile"
   }
 }

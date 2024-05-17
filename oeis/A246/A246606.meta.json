@@ -2,6 +2,7 @@
   "description": "Central terms of the triangle A116853.",
   "id": "A246606",
   "mentions": [
+    "A000142",
     "A116853"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

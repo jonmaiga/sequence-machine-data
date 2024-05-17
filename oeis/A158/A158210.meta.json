@@ -1,14 +1,14 @@
 {
-  "description": "Number omega(n) of distinct primes dividing n multiplied by -1 when n is squarefree (thus Omega(n) = omega(n)).",
+  "description": "a(n) = omega(n) * (-1)^mu(n), where mu is the Moebius function.",
   "id": "A158210",
   "mentions": [
     "A000040",
     "A001221",
-    "A001222",
-    "A005117",
     "A008683",
-    "A013929",
-    "A025475"
+    "A120944",
+    "A126706",
+    "A162966",
+    "A246547"
   ],
   "tags": [
     "formulas",

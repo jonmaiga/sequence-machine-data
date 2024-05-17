@@ -1,7 +1,10 @@
 {
-  "description": "Triangle read by rows: T(n, k) = number of n X n binary matrices with k pairwise nonadjacent 1's, 0 <= k <= n^2.",
+  "description": "Triangle read by rows: T(n,k) = number of n X n binary matrices with k pairwise nonadjacent 1's, n >= 0, k = 0..n^2.",
   "id": "A232833",
   "mentions": [
+    "A000012",
+    "A000290",
+    "A006506",
     "A172225",
     "A172226",
     "A172227",
@@ -10,15 +13,17 @@
     "A201507",
     "A201508",
     "A201510",
+    "A201511",
     "A232569"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 67,
+    "size": 68,
     "source": "oeis-bfile"
   }
 }

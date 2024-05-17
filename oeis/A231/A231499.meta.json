@@ -1,14 +1,16 @@
 {
   "description": "Dimensions of totally primitive elements of Hopf algebra ASM.",
   "id": "A231499",
-  "mentions": [],
+  "mentions": [
+    "A005130"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] having exactly two adjacent 4-cycles.",
+  "id": "A370652",
+  "mentions": [
+    "A177252",
+    "A370426",
+    "A370528"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

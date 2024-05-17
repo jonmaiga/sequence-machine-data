@@ -2,6 +2,7 @@
   "description": "a(n) = least integer that begins a run of exactly n consecutive integers that can be the hypotenuse of a Pythagorean triangle.",
   "id": "A099799",
   "mentions": [
+    "A004431",
     "A098993"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: The n-th row contains 2^n integers corresponding to the words of n-bit Gray code with the most significant bits changing fastest.",
+  "description": "Irregular triangle read by rows: The n-th row contains 2^n integers corresponding to the words of the n-bit Gray code with the most significant bits changing fastest.",
   "id": "A362160",
   "mentions": [
     "A000004",

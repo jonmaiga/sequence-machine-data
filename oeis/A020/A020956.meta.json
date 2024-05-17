@@ -1,8 +1,11 @@
 {
-  "description": "Sum of [tau^(n-k)] for k from 1 to infinity.",
+  "description": "a(n) = Sum_{k>=1} floor(tau^(n-k)) where tau is A001622.",
   "id": "A020956",
   "mentions": [
-    "A014217"
+    "A000032",
+    "A001622",
+    "A014217",
+    "A281362"
   ],
   "tags": [
     "easy",

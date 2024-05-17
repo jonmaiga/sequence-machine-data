@@ -1,0 +1,19 @@
+{
+  "description": "Perimeters of triangles with integer sides, which can be decomposed into 3 triangles that have a common vertex strictly inside the surrounding triangle and also integer sides.",
+  "id": "A371969",
+  "mentions": [
+    "A070083",
+    "A316841",
+    "A342720",
+    "A371345",
+    "A371973"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The largest divisor of n that is the sum of 2 squares.",
+  "id": "A371015",
+  "mentions": [
+    "A001481",
+    "A167181",
+    "A363340",
+    "A371014"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

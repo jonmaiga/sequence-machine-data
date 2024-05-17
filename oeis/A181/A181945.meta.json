@@ -1,17 +1,16 @@
 {
-  "description": "Number of trapezoids, distinct up to congruence, on an (n X n)-grid (or geoboard).",
+  "description": "Number of trapezoids, distinct up to congruence, on an n X n grid (or geoboard).",
   "id": "A181945",
   "mentions": [
     "A181944",
     "A189415"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

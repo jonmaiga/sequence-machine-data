@@ -1,5 +1,5 @@
 {
-  "description": "n^7 + 7n + 7^n.",
+  "description": "a(n) = n^7 + 7*n + 7^n.",
   "id": "A220528",
   "mentions": [
     "A000420",

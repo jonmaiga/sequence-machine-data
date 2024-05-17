@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of free polyominoes of size n with at least one solution to the One Up puzzle (see comments).",
+  "id": "A371476",
+  "mentions": [
+    "A000105",
+    "A371828"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

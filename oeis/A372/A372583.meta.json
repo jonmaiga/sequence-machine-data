@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (3*n^5 + 5*n^3)/8.",
+  "id": "A372583",
+  "mentions": [
+    "A000326",
+    "A002411",
+    "A072474",
+    "A260513"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

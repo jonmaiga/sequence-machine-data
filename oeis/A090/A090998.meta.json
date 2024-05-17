@@ -1,11 +1,12 @@
 {
-  "description": "Decimal expansion of limit k --> +-infinity k^2*(1-Gamma(1+i/k)) where i^2=-1 and Gamma is the Gamma function.",
+  "description": "Decimal expansion of lim_{k -> +-oo} k^2*(1 - Gamma(1+i/k)) where i^2 = -1 and Gamma is the Gamma function.",
   "id": "A090998",
   "mentions": [
     "A001008",
     "A001620",
     "A002805",
     "A036039",
+    "A081855",
     "A163927",
     "A163931"
   ],

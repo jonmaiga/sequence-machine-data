@@ -1,10 +1,11 @@
 {
-  "description": "Up to a shift, the number of subsets of cardinality n of the integer lattice Z^2 for which there does not exist a monotone lattice path which splits it in half.",
+  "description": "Number of subsets of the integer lattice Z^2 of cardinality n such that there is no monotone lattice path which splits the set in half, up to shifts.",
   "id": "A367783",
   "mentions": [
     "A000009",
     "A000292",
-    "A005232"
+    "A005232",
+    "A369382"
   ],
   "tags": [
     "more",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 48,
+    "size": 60,
     "source": "oeis-entry"
   }
 }

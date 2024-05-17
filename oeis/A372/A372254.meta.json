@@ -1,0 +1,23 @@
+{
+  "description": "Number A(n,k) of acyclic orientations of the complete tripartite graph K_{n,n,k}; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A372254",
+  "mentions": [
+    "A000012",
+    "A008776",
+    "A048163",
+    "A212220",
+    "A267383",
+    "A370960",
+    "A370961",
+    "A372261"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

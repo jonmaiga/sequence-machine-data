@@ -2,9 +2,12 @@
   "description": "Exponent of 10 (value of j) in n-th number of form 3^i*10^j.",
   "id": "A025685",
   "mentions": [
+    "A007814",
+    "A025616",
     "A055087"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

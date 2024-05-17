@@ -2,8 +2,10 @@
   "description": "a(n) is the atomic number of the nuclide with the lowest energy among the isobars of mass number n.",
   "id": "A368887",
   "mentions": [
+    "A367461",
     "A368859",
-    "A368860"
+    "A368860",
+    "A370457"
   ],
   "tags": [
     "fini",

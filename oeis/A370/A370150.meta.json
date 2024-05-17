@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. (1 - theta_4(x))/2 / Product_{n>=1} (1 - x^(2*n))^3.",
+  "id": "A370150",
+  "mentions": [
+    "A370040",
+    "A370151",
+    "A370152",
+    "A370153"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

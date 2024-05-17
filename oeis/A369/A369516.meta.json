@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k in A126706 such that neither k-1 nor k+1 is in A126706.",
+  "id": "A369516",
+  "mentions": [
+    "A126706",
+    "A369276",
+    "A369954"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

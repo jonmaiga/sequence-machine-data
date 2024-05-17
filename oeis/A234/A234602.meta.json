@@ -1,8 +1,9 @@
 {
-  "description": "Numbers of undirected cycles in the n-Andrasfai graph.",
+  "description": "Numbers of undirected cycles in the n-Andrásfai graph.",
   "id": "A234602",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,10 @@
 {
-  "description": "Nearest integer to (n + 1/n)^n.",
+  "description": "a(n) = round( (n + 1/n)^n ).",
   "id": "A014056",
-  "mentions": [],
+  "mentions": [
+    "A014052",
+    "A014058"
+  ],
   "tags": [
     "nonn"
   ],

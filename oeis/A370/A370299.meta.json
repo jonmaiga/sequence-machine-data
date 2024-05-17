@@ -1,0 +1,15 @@
+{
+  "description": "Number of chordless cycles in the complement of the n-Sierpinski gasket graph.",
+  "id": "A370299",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

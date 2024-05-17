@@ -1,13 +1,17 @@
 {
-  "description": "tan(n)^2 rounded up.",
+  "description": "a(n) = ceiling(tan(n)^2).",
   "id": "A005699",
-  "mentions": [],
+  "mentions": [
+    "A005657",
+    "A195910"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 71,
+    "size": 106,
     "source": "joeis"
   }
 }

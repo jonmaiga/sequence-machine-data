@@ -1,11 +1,16 @@
 {
-  "description": "Domination number for queens' graph on an n X n toroidal board.",
+  "description": "Domination number for queen graph on an n X n toroidal board.",
   "id": "A279402",
   "mentions": [
     "A075458",
     "A085801",
     "A274138",
     "A279403",
+    "A279404",
+    "A279405",
+    "A279406",
+    "A279407",
+    "A279408",
     "A279409"
   ],
   "tags": [
@@ -16,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

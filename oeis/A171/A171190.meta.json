@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} [A(x)^n + A(-x)^n]*x^n/n ).",
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} (A(x)^n + A(-x)^n) * x^n/n ).",
   "id": "A171190",
   "mentions": [
     "A171191",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

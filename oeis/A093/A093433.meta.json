@@ -1,14 +1,19 @@
 {
-  "description": "(p[1]*...*p[n])+(p[n+1]*...*p[2n]) where p[n] is the n-th prime.",
+  "description": "a(n) = (p(1)*...*p(n)) + (p(n+1)*...*p(2n)) where p(n) is the n-th prime.",
   "id": "A093433",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A107712"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
   }
 }

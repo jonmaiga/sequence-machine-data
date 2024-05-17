@@ -6,6 +6,7 @@
     "A007530",
     "A022004",
     "A022005",
+    "A055553",
     "A230715",
     "A258801",
     "A287591"
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

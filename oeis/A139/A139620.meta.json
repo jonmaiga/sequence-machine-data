@@ -2,11 +2,13 @@
   "description": "a(n) = 190*n + 20.",
   "id": "A139620",
   "mentions": [
+    "A008601",
     "A057145",
     "A139600"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

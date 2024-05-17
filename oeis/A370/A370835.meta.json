@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the greatest prime dividing the n-th cubefull number, for n >= 2; a(1)=1.",
+  "id": "A370835",
+  "mentions": [
+    "A006530",
+    "A036966",
+    "A073482",
+    "A082695",
+    "A370833",
+    "A370834"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

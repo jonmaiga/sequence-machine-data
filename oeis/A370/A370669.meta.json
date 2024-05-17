@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>=0} k! * ( x/(1+x^2) )^k.",
+  "id": "A370669",
+  "mentions": [
+    "A000255",
+    "A177249",
+    "A212580",
+    "A276080",
+    "A370670"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of different closest packings of equal spheres for hexagonal crystals having repeat period n.",
+  "id": "A371991",
+  "mentions": [
+    "A000046",
+    "A371992"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

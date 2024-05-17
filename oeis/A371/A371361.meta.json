@@ -1,0 +1,17 @@
+{
+  "description": "The first of two consecutive primes p, q such that p, q and p + q are all pandigital.",
+  "id": "A371361",
+  "mentions": [
+    "A050288",
+    "A171102"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

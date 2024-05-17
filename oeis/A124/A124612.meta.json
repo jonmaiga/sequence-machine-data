@@ -1,8 +1,11 @@
 {
   "description": "Poincaré series [or Poincare series] P(C_{4,2}; x).",
   "id": "A124612",
-  "mentions": [],
+  "mentions": [
+    "A124637"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

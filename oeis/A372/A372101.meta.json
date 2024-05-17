@@ -1,0 +1,21 @@
+{
+  "description": "Number of steps required to kill a hydra composed of a linear graph with n edges where, after removing the rightmost head at step s, s new heads grow to the right of the head's grandparent node (see comments).",
+  "id": "A372101",
+  "mentions": [
+    "A180368",
+    "A372421",
+    "A372478",
+    "A372592"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

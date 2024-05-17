@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = gcd(2n+1, A276086(2n+1)), where A276086 is the primorial base exp-function.",
+  "id": "A371098",
+  "mentions": [
+    "A276086",
+    "A324198"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

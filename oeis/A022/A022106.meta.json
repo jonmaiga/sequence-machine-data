@@ -2,7 +2,6 @@
   "description": "Fibonacci sequence beginning 1, 16.",
   "id": "A022106",
   "mentions": [
-    "A000045",
     "A093645",
     "A101220",
     "A109754"

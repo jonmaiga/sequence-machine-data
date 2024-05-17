@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * [x^n] exp(1 - (1+x)^n).",
+  "id": "A369754",
+  "mentions": [
+    "A000587",
+    "A294045",
+    "A369738"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

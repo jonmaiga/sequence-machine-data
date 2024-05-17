@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>=0} k! * ( x * (1+x^2) )^k.",
+  "id": "A370509",
+  "mentions": [
+    "A212580",
+    "A240172",
+    "A370510"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

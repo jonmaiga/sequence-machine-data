@@ -1,5 +1,5 @@
 {
-  "description": "Product of digits of n is equal to the sum of the prime factors of n, counted with multiplicity.",
+  "description": "Numbers k such that the product of the digits of k is equal to the sum of the prime factors of k, counted with multiplicity.",
   "id": "A065774",
   "mentions": [
     "A001414",

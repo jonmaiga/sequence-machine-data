@@ -1,7 +1,8 @@
 {
-  "description": "Carmichael numbers of the form (60k+41)(90k+61)(150k+101), where 60k+41, 90k+61 and 150k+101 are all primes.",
+  "description": "Carmichael numbers of the form (60k+41)*(90k+61)*(150k+101), where 60k+41, 90k+61 and 150k+101 are all primes.",
   "id": "A255441",
   "mentions": [
+    "A002997",
     "A033502",
     "A255512"
   ],
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>=0} k! * ( x * (1+x^3) )^k.",
+  "id": "A370510",
+  "mentions": [
+    "A240172",
+    "A370508",
+    "A370509"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

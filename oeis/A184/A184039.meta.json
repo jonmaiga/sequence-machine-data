@@ -1,7 +1,19 @@
 {
-  "description": "T(n,k)=1/16 the number of (n+1)X(k+1) 0..3 arrays with all 2X2 subblocks having the same four values",
+  "description": "T(n,k) = 1/16 the number of (n+1) X (k+1) 0..3 arrays with all 2 X 2 subblocks having the same four values.",
   "id": "A184039",
-  "mentions": [],
+  "mentions": [
+    "A183986",
+    "A184030",
+    "A184031",
+    "A184032",
+    "A184033",
+    "A184034",
+    "A184035",
+    "A184036",
+    "A184037",
+    "A184038",
+    "A184048"
+  ],
   "tags": [
     "formulas",
     "nonn",

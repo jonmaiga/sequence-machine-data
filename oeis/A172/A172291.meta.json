@@ -1,11 +1,9 @@
 {
-  "description": "Numbers whose square divide 2^1092-1.",
+  "description": "Numbers greater than 1 whose square divide 2^1092-1.",
   "id": "A172291",
   "mentions": [
     "A001220",
     "A172290",
-    "A172292",
-    "A172293",
     "A177855"
   ],
   "tags": [

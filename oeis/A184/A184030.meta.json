@@ -1,15 +1,17 @@
 {
-  "description": "1/16 the number of (n+1)X(n+1) 0..3 arrays with all 2X2 subblocks having the same four values",
+  "description": "1/16 the number of (n+1) X (n+1) 0..3 arrays with all 2 X 2 subblocks having the same four values.",
   "id": "A184030",
   "mentions": [
     "A184039"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

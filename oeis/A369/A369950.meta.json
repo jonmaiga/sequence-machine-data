@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of j-covers of [n] with j<=k, k=1..2^n-1.",
+  "id": "A369950",
+  "mentions": [
+    "A003465",
+    "A055154",
+    "A102661"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

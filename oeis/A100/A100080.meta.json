@@ -1,5 +1,5 @@
 {
-  "description": "Position of first occurrence of n in the decimal places of 1/Pi.",
+  "description": "Position of first occurrence of n after the decimal point in the decimal expansion of 1/Pi.",
   "id": "A100080",
   "mentions": [
     "A014777",
@@ -7,6 +7,7 @@
     "A037000",
     "A049541",
     "A078197",
+    "A133268",
     "A134251",
     "A134252",
     "A134253",

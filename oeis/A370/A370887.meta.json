@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by descending antidiagonals: T(n,k) is the number of subgroups of the elementary abelian group of order A000040(k)^n for n >= 0 and k >= 1.",
+  "id": "A370887",
+  "mentions": [
+    "A000040",
+    "A006116",
+    "A006117",
+    "A006119",
+    "A006121",
+    "A015197",
+    "A113935"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 2^(4*n-4)*(2^n-1).",
+  "id": "A371193",
+  "mentions": [
+    "A163839",
+    "A371195"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

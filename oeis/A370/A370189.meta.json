@@ -1,0 +1,20 @@
+{
+  "description": "Imaginary part of (1 + n*i)^n, where i is the imaginary unit.",
+  "id": "A370189",
+  "mentions": [
+    "A073449",
+    "A115415",
+    "A115416",
+    "A121626"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

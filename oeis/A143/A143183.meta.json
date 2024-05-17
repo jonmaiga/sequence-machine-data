@@ -1,8 +1,11 @@
 {
-  "description": "Triangle t(n,m) = 1 + (2+n)*abs(n-2m) read by rows, 0<=m<=n.",
+  "description": "Triangle T(n,k) = 1 + (2+n)*abs(n-2*k), read by rows, for 0 <= k <= n.",
   "id": "A143183",
   "mentions": [
-    "A007590"
+    "A000290",
+    "A005843",
+    "A007590",
+    "A143182"
   ],
   "tags": [
     "easy",

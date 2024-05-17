@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers k such that gcd(k, A007814(k)) = 1.",
+  "id": "A370597",
+  "mentions": [
+    "A000010",
+    "A007814",
+    "A336066"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

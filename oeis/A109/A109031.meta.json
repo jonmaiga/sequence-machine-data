@@ -1,5 +1,5 @@
 {
-  "description": "11-almost primes (A069272) whose digit reversal is different and also has 11 prime factors (with multiplicity). \"Emirp Tsomla-11.\".",
+  "description": "Numbers that have exactly eleven prime factors counted with multiplicity (A069272) whose digit reversal is different and also has 11 prime factors (with multiplicity).",
   "id": "A109031",
   "mentions": [
     "A006567",
@@ -22,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

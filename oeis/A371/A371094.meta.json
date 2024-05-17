@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = m*(2^e) + ((4^e)-1)/3, where m = 3n+1, and e is the 2-adic valuation of m.",
+  "id": "A371094",
+  "mentions": [
+    "A016777",
+    "A016921",
+    "A067745",
+    "A075677",
+    "A086893",
+    "A096773",
+    "A302338",
+    "A371093",
+    "A371096",
+    "A371100",
+    "A371102",
+    "A372282",
+    "A372283",
+    "A372289",
+    "A372290",
+    "A372351"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

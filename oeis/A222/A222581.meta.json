@@ -2,6 +2,7 @@
   "description": "Run lengths of digits when concatenating Roman numerals less than 4000, cf. A093796.",
   "id": "A222581",
   "mentions": [
+    "A006968",
     "A078715",
     "A093796"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers X such that 201*X^2+67 is a square",
+  "description": "Numbers x such that 201*x^2 + 67 is a square.",
   "id": "A145206",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 7,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

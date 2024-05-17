@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{i=0..n} Sum_{j=0..n} (i XOR j), where XOR is the binary logical exclusive-or operator.",
+  "description": "a(n) = Sum_{i=0..n} Sum_{j=0..n} (i XOR j), where XOR is the binary logical exclusive-or operator.",
   "id": "A224923",
   "mentions": [
     "A004125",

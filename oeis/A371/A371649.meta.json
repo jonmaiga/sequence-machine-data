@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/Lucas(5^k).",
+  "id": "A371649",
+  "mentions": [
+    "A000032",
+    "A093540",
+    "A144837",
+    "A338304",
+    "A338612",
+    "A371647",
+    "A371650"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the index of that zero of the Riemann zeta-function on the same line as the Gram point g(n-2). It is only well-defined if the Riemann hypothesis is true.",
+  "description": "a(n) is the index of that zero of the Riemann zeta function on the same line as the Gram point g(n-2). It is only well-defined if the Riemann hypothesis is true.",
   "id": "A088750",
   "mentions": [
     "A088749"

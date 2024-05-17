@@ -1,7 +1,8 @@
 {
-  "description": "Numbers k such that 2^(k-1) == 1 (mod k) and 2^(k-1) == (2*k + 1) (mod k^2).",
+  "description": "Numbers k > 1 such that 2^(k-1) == (2*k + 1) (mod k^2).",
   "id": "A175863",
   "mentions": [
+    "A001567",
     "A128465"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*R(n) can be represented as sum of two nonzero squares, where R(n) is the reverse of the decimal expansion of n.",
+  "description": "Numbers k such that k*R(k) can be represented as the sum of two nonzero squares, where R(k) is the reverse of the decimal expansion of k.",
   "id": "A270926",
   "mentions": [
     "A000404",

@@ -1,5 +1,5 @@
 {
-  "description": "12^(2n+1) - 6 * 12^n + 1: the left Aurifeuillian factor of 12^(6n+3) + 1.",
+  "description": "a(n) = 12^(2n+1) - 6 * 12^n + 1: the left Aurifeuillian factor of 12^(6n+3) + 1.",
   "id": "A220989",
   "mentions": [
     "A085601",

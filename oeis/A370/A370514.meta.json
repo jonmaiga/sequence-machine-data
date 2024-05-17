@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of [n] such that for each distance d in [n-1] there is at least one index i in [n-d] with p(i)>p(i+d).",
+  "id": "A370514",
+  "mentions": [
+    "A008302",
+    "A370506",
+    "A370507"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

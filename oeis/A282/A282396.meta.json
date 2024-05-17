@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..1 arrays with no 1 equal to more than three of its king-move neighbors.",
+  "description": "Number of n X 5 0..1 arrays with no 1 equal to more than three of its king-move neighbors.",
   "id": "A282396",
   "mentions": [
     "A282399"

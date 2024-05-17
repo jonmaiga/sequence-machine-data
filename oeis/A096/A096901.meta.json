@@ -2,6 +2,7 @@
   "description": "Number of permutations p of (1,2,3,...,n) such that k+p(k) is a triangular number for 1<=k<=n.",
   "id": "A096901",
   "mentions": [
+    "A000217",
     "A006063",
     "A073364",
     "A095986",
@@ -11,12 +12,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 30,
+    "offset": 0,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

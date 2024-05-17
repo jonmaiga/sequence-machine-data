@@ -2,12 +2,30 @@
   "description": "Numbers k for which A003415(k) >= A276086(k), where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.",
   "id": "A351228",
   "mentions": [
+    "A002110",
     "A003415",
+    "A024451",
+    "A048103",
+    "A060735",
+    "A235991",
+    "A276085",
     "A276086",
+    "A327862",
+    "A328118",
     "A351088",
     "A351089",
     "A351229",
-    "A351232"
+    "A351232",
+    "A369650",
+    "A369656",
+    "A369663",
+    "A369664",
+    "A369959",
+    "A369960",
+    "A369970",
+    "A370127",
+    "A370128",
+    "A371104"
   ],
   "tags": [
     "base",
@@ -16,6 +34,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

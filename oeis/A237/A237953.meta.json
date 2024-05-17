@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..3 arrays with the maximum plus the upper median plus the lower median plus the minimum of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one",
+  "description": "Number of (n+1) X (2+1) 0..3 arrays with the maximum plus the upper median plus the lower median plus the minimum of every 2 X 2 subblock differing from its horizontal and vertical neighbors by exactly one.",
   "id": "A237953",
   "mentions": [
     "A237956"

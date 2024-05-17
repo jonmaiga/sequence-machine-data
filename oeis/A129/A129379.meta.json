@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum of sums of all sets of three distinct preceding terms; a(n) = n for n<=3.",
+  "description": "a(n) = sum of sums of all sets of three distinct preceding terms otherwise a(n) = n for n <= 3.",
   "id": "A129379",
   "mentions": [
     "A000217",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

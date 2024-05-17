@@ -1,0 +1,22 @@
+{
+  "description": "Least odd prime factor of the n-th sum of two consecutive primes, A001043(n) = prime(n) + prime(n+1), or 2 if there is no odd prime factor.",
+  "id": "A372263",
+  "mentions": [
+    "A000079",
+    "A000265",
+    "A001043",
+    "A020639",
+    "A024675",
+    "A024677",
+    "A078701"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

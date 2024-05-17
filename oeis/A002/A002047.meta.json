@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3 X (2n+1) zero-sum arrays with entries -n,..,0,..,n.",
+  "description": "Number of 3 X (2n+1) zero-sum arrays with entries -n,...,0,...,n.",
   "id": "A002047",
   "mentions": [
     "A014552",

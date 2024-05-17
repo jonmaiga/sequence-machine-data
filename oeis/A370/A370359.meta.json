@@ -1,0 +1,18 @@
+{
+  "description": "Imaginary part of (n + n*i)^n where i = sqrt(-1).",
+  "id": "A370359",
+  "mentions": [
+    "A009545",
+    "A121625",
+    "A146559"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

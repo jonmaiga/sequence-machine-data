@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A003415(k) >= A276086(k) and gcd(k, A003415(k)) = gcd(k, A276086(k)), where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A369959",
+  "mentions": [
+    "A003415",
+    "A083345",
+    "A085731",
+    "A276086",
+    "A324198",
+    "A351228",
+    "A351251",
+    "A369958",
+    "A369960",
+    "A369962"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

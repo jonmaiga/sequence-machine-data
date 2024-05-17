@@ -2,6 +2,7 @@
   "description": "Maximal number of \"good\" manifolds in an n-serial polytope.",
   "id": "A212350",
   "mentions": [
+    "A000079",
     "A212351"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

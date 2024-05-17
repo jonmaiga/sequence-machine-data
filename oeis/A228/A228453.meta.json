@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that tau(n+1) - tau(n) = 5, where tau(n) = the number of divisors of n (A000005).",
+  "description": "Numbers k such that tau(k+1) - tau(k) = 5, where tau(k) = the number of divisors of k (A000005).",
   "id": "A228453",
   "mentions": [
     "A000005",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

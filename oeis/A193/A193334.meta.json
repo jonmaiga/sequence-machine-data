@@ -2,9 +2,12 @@
   "description": "Number of even divisors of sigma(n).",
   "id": "A193334",
   "mentions": [
-    "A000203"
+    "A000203",
+    "A183063"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

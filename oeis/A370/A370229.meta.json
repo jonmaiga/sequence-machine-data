@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles in the complement of the n-Apollonian network graph.",
+  "id": "A370229",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

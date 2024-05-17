@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] having exactly three adjacent 3-cycles.",
+  "id": "A370530",
+  "mentions": [
+    "A177250",
+    "A177251",
+    "A370525",
+    "A370528"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

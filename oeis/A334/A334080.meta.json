@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of Pythagorean triples contained in the divisors of the multiples of 60.",
+  "description": "Number of Pythagorean triples among the divisors of 60*n.",
   "id": "A334080",
   "mentions": [
     "A000005",

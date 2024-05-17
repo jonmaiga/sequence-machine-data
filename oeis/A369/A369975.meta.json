@@ -1,0 +1,22 @@
+{
+  "description": "Parity of A369974.",
+  "id": "A369975",
+  "mentions": [
+    "A083345",
+    "A359780",
+    "A369001",
+    "A369002",
+    "A369974",
+    "A369976",
+    "A369978"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

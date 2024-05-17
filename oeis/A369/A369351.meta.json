@@ -1,0 +1,21 @@
+{
+  "description": "The smallest number such that n or more numbers k exist such that a(n) - k = sopfr(a(n)) + sopfr(k), where sopfr(m) is the sum of the primes dividing m, with repetition.",
+  "id": "A369351",
+  "mentions": [
+    "A001414",
+    "A369348",
+    "A369349",
+    "A369350",
+    "A369352",
+    "A369353",
+    "A370091"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

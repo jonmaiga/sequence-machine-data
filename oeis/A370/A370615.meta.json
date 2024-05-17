@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 0. For n >= 1, a(n) = 1 + (sum of the next consecutive a(n-1) positive integers).",
+  "id": "A370615",
+  "mentions": [
+    "A372421"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

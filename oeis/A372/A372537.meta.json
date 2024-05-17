@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(A(A(A(x)))) = x + 4*x^2 + 16*x^3.",
+  "id": "A372537",
+  "mentions": [
+    "A220110",
+    "A220288",
+    "A371841",
+    "A372521"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

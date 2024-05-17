@@ -4,6 +4,7 @@
   "mentions": [
     "A000010",
     "A007691",
+    "A009195",
     "A098203"
   ],
   "tags": [
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

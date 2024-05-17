@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{k=0..n} (4^k + 4^(n-k)).",
+  "id": "A369675",
+  "mentions": [
+    "A369557",
+    "A369673",
+    "A369674",
+    "A369676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

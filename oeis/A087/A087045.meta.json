@@ -1,5 +1,5 @@
 {
-  "description": "Indices n where A057176(n)=1.",
+  "description": "Indices k where A057176(k) = 1.",
   "id": "A087045",
   "mentions": [
     "A057176"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

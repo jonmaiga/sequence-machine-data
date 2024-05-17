@@ -1,5 +1,5 @@
 {
-  "description": "Values of k such that there is exactly one permutation p of (1,2,3,...,k) such that i+p(i) is a Fibonacci number for 1<=i<=k.",
+  "description": "Positive values of k such that there is exactly one permutation p of (1,2,3,...,k) such that i+p(i) is a Fibonacci number for 1<=i<=k.",
   "id": "A097083",
   "mentions": [
     "A000032",

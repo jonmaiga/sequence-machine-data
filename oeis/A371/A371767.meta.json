@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (k! * n!)/(n - k)!.",
+  "id": "A371767",
+  "mentions": [
+    "A000142",
+    "A001044",
+    "A010050",
+    "A010790",
+    "A046662",
+    "A089041"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

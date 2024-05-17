@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the absolute value of the discriminant of the polynomial x^n - x^(n-1) -...- x - 1 is prime.",
+  "description": "Numbers k for which the absolute value of the discriminant of the polynomial x^k - x^(k-1) - ... - x - 1 is prime.",
   "id": "A106274",
   "mentions": [
     "A106273"

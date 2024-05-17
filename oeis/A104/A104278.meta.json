@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n such that 2n+1 and 2n-1 are not primes.",
+  "description": "Numbers m such that 2m+1 and 2m-1 are not primes.",
   "id": "A104278",
   "mentions": [
     "A002808",
     "A010051",
     "A040040",
+    "A047845",
     "A099047",
+    "A104275",
     "A147820",
     "A177961"
   ],

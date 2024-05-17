@@ -1,0 +1,20 @@
+{
+  "description": "For n a power of 2, a(n) = n. Otherwise a(n) is the smallest novel multiple of a(n - 2^m), where 2^m is the greatest power of 2 not exceeding n.",
+  "id": "A371985",
+  "mentions": [
+    "A000027",
+    "A005940",
+    "A052330",
+    "A269848",
+    "A368900"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

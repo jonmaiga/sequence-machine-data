@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least integer j>=0 such that n=Floor[(5^j)/(3^k)] for some integer k>=0.",
+  "description": "a(n) = least integer j >= 0 such that n = floor((5^j)/(3^k)) for some integer k >= 0.",
   "id": "A124910",
   "mentions": [
     "A124918"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

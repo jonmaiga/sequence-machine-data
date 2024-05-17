@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient of x^n in the expansion of ( (1+x) * (1+x+x^2)^3 )^n.",
+  "id": "A370171",
+  "mentions": [
+    "A369479",
+    "A370170",
+    "A370172"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

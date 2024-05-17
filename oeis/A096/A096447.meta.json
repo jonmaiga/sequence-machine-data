@@ -1,14 +1,16 @@
 {
-  "description": "Odd primes p such that the number of primes less than p equal to 1 mod 4 is equal to the number of primes less than p equal to 3 mod 4.",
+  "description": "Odd primes p such that the number of primes less than p that are congruent to 1 (mod 4) is equal to the number of primes less than p that are congruent to 3 (mod 4).",
   "id": "A096447",
   "mentions": [
     "A007351",
     "A096448",
     "A096451",
-    "A096455"
+    "A096455",
+    "A151800"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

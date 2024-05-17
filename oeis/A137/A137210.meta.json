@@ -1,8 +1,12 @@
 {
-  "description": "Numbers n such that abundance(n) = abundance(sigma(n)).",
+  "description": "Numbers k such that abundance(k) = abundance(sigma(k)).",
   "id": "A137210",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A033880"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 is an anagram of a Fibonacci number.",
+  "description": "Numbers m such that m^2 is an anagram of a Fibonacci number.",
   "id": "A162391",
   "mentions": [
     "A000045",

@@ -1,0 +1,20 @@
+{
+  "description": "The maximum number of alive cells reached in Conway's Game of Life when starting with the first n primes in Ulam's spiral; or -1 if no such maximum exists.",
+  "id": "A370776",
+  "mentions": [
+    "A099733",
+    "A126803",
+    "A152389",
+    "A179412",
+    "A214664",
+    "A214665"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

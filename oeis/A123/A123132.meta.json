@@ -1,5 +1,5 @@
 {
-  "description": "Describe prime factorization of n ( primes in ascending order and with repetition) (method A - initial term is 2).",
+  "description": "Describe prime factorization of n (primes in ascending order and with repetition) (method A - initial term is 2).",
   "id": "A123132",
   "mentions": [
     "A006751",

@@ -1,0 +1,16 @@
+{
+  "description": "Number of Dyck paths of semilength n such that neighboring peaks have different heights.",
+  "id": "A371705",
+  "mentions": [
+    "A000108",
+    "A287776"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

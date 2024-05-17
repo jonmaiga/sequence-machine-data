@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals of number of ways of dividing nk labeled items into k unlabeled orders with n items in each order.",
+  "description": "Square array read by descending antidiagonals of number of ways of dividing n*k labeled items into k unlabeled orders with n items in each order.",
   "id": "A066991",
   "mentions": [
     "A000012",
@@ -20,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

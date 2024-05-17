@@ -2,16 +2,18 @@
   "description": "Primes whose factorials end with a prime number of trailing 0's.",
   "id": "A181576",
   "mentions": [
+    "A027868",
     "A039716",
     "A181577"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

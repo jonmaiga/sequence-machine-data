@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} exp(-x^5) dx.",
+  "id": "A371856",
+  "mentions": [
+    "A019704",
+    "A068467",
+    "A175380",
+    "A202623",
+    "A203125",
+    "A203126",
+    "A371857"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A007814(k) is a prime number.",
+  "id": "A370596",
+  "mentions": [
+    "A007814",
+    "A017113",
+    "A051006",
+    "A051062",
+    "A359794"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = product of those prime(k) such that floor(n/prime(k)) is even.",
+  "id": "A372007",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A005117",
+    "A034386",
+    "A357215",
+    "A371906",
+    "A371907",
+    "A372000"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

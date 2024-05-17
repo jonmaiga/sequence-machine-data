@@ -1,0 +1,17 @@
+{
+  "description": "The private keys for the 32 BTC Bitcoin puzzle.",
+  "id": "A369920",
+  "mentions": [],
+  "tags": [
+    "fini",
+    "formulas",
+    "hard",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

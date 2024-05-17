@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the smallest integer k such that the average deviation of previous terms and k is an integer, where a(n) > a(n - 1) and a(1) = 1.",
+  "id": "A370488",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

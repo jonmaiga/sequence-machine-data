@@ -1,0 +1,18 @@
+{
+  "description": "Sophie Germain primes p whose corresponding safe prime is an anagram of p.",
+  "id": "A371623",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A364142"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

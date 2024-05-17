@@ -1,0 +1,18 @@
+{
+  "description": "Frobenius-Perron dimensions of simple integral fusion rings of rank 4.",
+  "id": "A369625",
+  "mentions": [
+    "A001034",
+    "A348305"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

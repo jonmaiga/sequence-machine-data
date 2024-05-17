@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A( x^3*A(x) - x^3*A(x)^2 ) = x^4.",
+  "id": "A371714",
+  "mentions": [
+    "A071356",
+    "A272463",
+    "A291614"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

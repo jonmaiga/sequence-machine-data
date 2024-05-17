@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (T(n-1, k-1) + T(n-1, k)) * 2 * n with initial values T(n, 0) = Sum_{i=0..n} (-1)^(n-i) * binomial(n, i) * A001147(i) and T(i, j) = 0 if j > i.",
+  "id": "A372260",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A053871",
+    "A179540"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

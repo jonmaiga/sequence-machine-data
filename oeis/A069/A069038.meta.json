@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x*(1+x)^4/(1-x)^6.",
+  "description": "Expansion of g.f. x*(1+x)^4/(1-x)^6.",
   "id": "A069038",
   "mentions": [
     "A000332",
@@ -7,7 +7,8 @@
     "A005900",
     "A014820",
     "A081277",
-    "A142978"
+    "A142978",
+    "A142983"
   ],
   "tags": [
     "easy",

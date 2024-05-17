@@ -1,20 +1,23 @@
 {
-  "description": "Triangle read by rows: R(n,k)=2^(prime(n)-prime(k)) mod prime(n), 1<=k<=n.",
+  "description": "Triangle read by rows: T(n, k) = 2^(prime(n) - prime(k)) mod prime(n), 1 <= k <= n.",
   "id": "A177226",
   "mentions": [
     "A000079",
+    "A111333",
     "A173655",
     "A174497",
     "A174947",
-    "A174996"
+    "A174996",
+    "A292411"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 83,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

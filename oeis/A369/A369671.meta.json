@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying Sum_{n=-oo..+oo} (x^n - 4*A(x))^n = theta_4(x).",
+  "id": "A369671",
+  "mentions": [
+    "A002448",
+    "A355868",
+    "A369672"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

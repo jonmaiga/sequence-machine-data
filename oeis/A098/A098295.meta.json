@@ -2,6 +2,8 @@
   "description": "((3/2)^n)/2^a(n) lies in the half-open interval [1,2).",
   "id": "A098295",
   "mentions": [
+    "A020857",
+    "A056576",
     "A074840",
     "A098294",
     "A214656"

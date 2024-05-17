@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by antidiagonals; for any n and k >= 0 with respective binary expansions Sum_{i > 0} b_i*2^(i-1) and Sum_{i > 0} c_i*2^(i-1), the binary expansion of A(n, k) is Sum_{i > 0} d_i*2^(i-1) with d_i = (Sum_{k divides i} b_k*c_{i/k}) mod 2 for any i > 0.",
+  "id": "A370049",
+  "mentions": [
+    "A000120",
+    "A048720",
+    "A062880",
+    "A341288"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

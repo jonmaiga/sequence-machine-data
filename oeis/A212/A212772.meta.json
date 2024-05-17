@@ -1,5 +1,5 @@
 {
-  "description": "Floor((n+1)*(n-3)*(n-4)/12).",
+  "description": "a(n) = floor((n+1)*(n-3)*(n-4)/12).",
   "id": "A212772",
   "mentions": [],
   "tags": [

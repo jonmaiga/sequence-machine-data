@@ -1,0 +1,26 @@
+{
+  "description": "The sum of unitary divisors of the smallest cubefull number that is a multiple of n.",
+  "id": "A369721",
+  "mentions": [
+    "A002117",
+    "A013662",
+    "A034448",
+    "A036966",
+    "A183700",
+    "A356193",
+    "A369718",
+    "A369719",
+    "A369720"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

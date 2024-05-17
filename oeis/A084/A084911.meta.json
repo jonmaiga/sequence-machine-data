@@ -2,6 +2,7 @@
   "description": "Decimal expansion of linear asymptotic constant B in Sum_{k=1..n} 1/A000688(k) = ~B*n + ...",
   "id": "A084911",
   "mentions": [
+    "A000041",
     "A000688",
     "A021002",
     "A084892",
@@ -11,12 +12,11 @@
   "tags": [
     "cons",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

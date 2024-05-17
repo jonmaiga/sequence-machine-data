@@ -1,10 +1,11 @@
 {
-  "description": "7*binomial(8*n+7,n)/(8*n+7).",
+  "description": "a(n) = 7*binomial(8*n+7,n)/(8*n+7).",
   "id": "A234466",
   "mentions": [
     "A000108",
     "A007556",
     "A118971",
+    "A130564",
     "A230390",
     "A234461",
     "A234462",

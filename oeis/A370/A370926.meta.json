@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x/(1 + x*exp(x^3/6)) ).",
+  "id": "A370926",
+  "mentions": [
+    "A161633",
+    "A365287",
+    "A370889"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

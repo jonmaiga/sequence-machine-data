@@ -1,9 +1,10 @@
 {
-  "description": "a(n) is the number of occurrences of '11' in binary expansion of n.",
+  "description": "a(n) is the number of occurrences of '11' in the binary expansion of n.",
   "id": "A014081",
   "mentions": [
     "A000120",
     "A000225",
+    "A001782",
     "A014082",
     "A033264",
     "A037800",

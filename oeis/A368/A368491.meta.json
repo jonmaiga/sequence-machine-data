@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the integer whose bits designate the possible subset sums of the first n prime numbers.",
+  "id": "A368491",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A082548"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

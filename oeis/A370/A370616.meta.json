@@ -1,0 +1,17 @@
+{
+  "description": "Coefficient of x^n in the expansion of ( (1-x) / (1-x-x^2) )^n.",
+  "id": "A370616",
+  "mentions": [
+    "A046736",
+    "A213684"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

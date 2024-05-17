@@ -1,17 +1,20 @@
 {
-  "description": "Numbers k that are neither squarefree nor prime powers such that k has a primorial kernel but is not a product of primorials.",
+  "description": "Numbers k that are neither squarefree nor prime powers such that A119288(k) <= k/A007947(k) < A053669(k) and A007947(k) is not a primorial.",
   "id": "A369419",
   "mentions": [
-    "A001221",
-    "A001222",
     "A002110",
+    "A003557",
+    "A007947",
     "A025487",
+    "A053669",
     "A055932",
     "A056808",
-    "A126706",
-    "A363814",
-    "A364710",
-    "A369420"
+    "A060735",
+    "A119288",
+    "A364998",
+    "A369361",
+    "A369540",
+    "A369541"
   ],
   "tags": [
     "formulas",
@@ -19,7 +22,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

@@ -1,11 +1,12 @@
 {
-  "description": "Number of divisors of squares of all true powers of primes: A000005[A025475(n)^2].",
+  "description": "Number of divisors of squares of all true powers of primes: a(n) = A000005(A025475(n+1)^2).",
   "id": "A065746",
   "mentions": [
     "A000005",
     "A005097",
     "A025475",
     "A065403",
+    "A065404",
     "A065405"
   ],
   "tags": [

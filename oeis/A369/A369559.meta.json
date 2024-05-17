@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) is the sum of the permanents of all k X k submatrices in the n X n Pascal matrix; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A369559",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A007318",
+    "A184173",
+    "A369906"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

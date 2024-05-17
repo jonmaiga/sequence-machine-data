@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers in whose ternary representation, 2 occurs at least once, and every 2 is followed by 1.",
+  "id": "A370921",
+  "mentions": [
+    "A007089",
+    "A074940",
+    "A370916",
+    "A370917",
+    "A370918",
+    "A370919",
+    "A370920",
+    "A370922",
+    "A370923"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Numbers k such that k^4 has k as a substring of its decimal expansion.",
   "id": "A075904",
   "mentions": [
+    "A018834",
     "A029942",
     "A075905"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
+    "size": 50,
     "source": "oeis-bfile"
   }
 }

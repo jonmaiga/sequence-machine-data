@@ -2,16 +2,18 @@
   "description": "Heptagonal numbers for which the digital root is also a heptagonal number.",
   "id": "A117663",
   "mentions": [
-    "A000566"
+    "A000566",
+    "A010888"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "joeis"
   }
 }

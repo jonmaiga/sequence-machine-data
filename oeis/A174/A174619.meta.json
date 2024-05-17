@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A174618(n)+A174618(n+1).",
+  "description": "a(n) = A174618(n) + A174618(n+1).",
   "id": "A174619",
   "mentions": [
     "A000045",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of cycles in an n X n grid where the cycle cannot touch itself orthogonally or diagonally and must contain at least one inside point.",
+  "id": "A368657",
+  "mentions": [
+    "A140517",
+    "A297664"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

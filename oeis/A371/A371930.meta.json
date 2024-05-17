@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi^(1/2)*Gamma(1/14)/(7*Gamma(4/7)).",
+  "id": "A371930",
+  "mentions": [
+    "A085565",
+    "A113477",
+    "A262427",
+    "A371824"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Primes p which divide Sum_{i=1..m} i! for some m (see A125138).",
   "id": "A056983",
   "mentions": [
+    "A007489",
     "A056984",
     "A056985",
     "A125138"

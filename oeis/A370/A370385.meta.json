@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of binary relations R on [n] such that the unique idempotent relation in {R^i:i>=1} is a quasi-order containing exactly k strongly connected components.",
+  "id": "A370385",
+  "mentions": [
+    "A011266",
+    "A070322",
+    "A247231",
+    "A366866",
+    "A367948",
+    "A370464"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

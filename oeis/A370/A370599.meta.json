@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct triangles with integral side-lengths for which the perimeter 2*n divides the area.",
+  "id": "A370599",
+  "mentions": [
+    "A010814",
+    "A098030",
+    "A221837",
+    "A221838",
+    "A369951"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

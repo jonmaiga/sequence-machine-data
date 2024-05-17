@@ -2,15 +2,17 @@
   "description": "Twin even-lucky-numbers: middle terms.",
   "id": "A045957",
   "mentions": [
-    "A045954"
+    "A045954",
+    "A045955",
+    "A045956"
   ],
   "tags": [
-    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

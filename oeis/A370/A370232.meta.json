@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. T(n, k) = binomial(n + k, 2*k)^2.",
+  "id": "A370232",
+  "mentions": [
+    "A182878",
+    "A188648",
+    "A188662",
+    "A370233"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

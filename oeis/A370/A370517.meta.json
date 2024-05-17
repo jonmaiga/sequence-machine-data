@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the largest prime p such that all prime numbers q <= p have distinct length n prime gap sequences.",
+  "id": "A370517",
+  "mentions": [
+    "A001223"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

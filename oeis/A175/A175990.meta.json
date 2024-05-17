@@ -3,7 +3,7 @@
   "id": "A175990",
   "mentions": [
     "A000071",
-    "A011972",
+    "A011973",
     "A052553",
     "A054142",
     "A115139",
@@ -13,12 +13,13 @@
   ],
   "tags": [
     "easy",
+    "less",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 2,
-    "size": 41,
+    "size": 82,
     "source": "oeis-entry"
   }
 }

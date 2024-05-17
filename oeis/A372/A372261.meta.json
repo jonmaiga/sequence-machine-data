@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k,j) of acyclic orientations of the complete tripartite graph K_{n,k,j}; triangle of triangles T(n,k,j), n>=0, k=0..n, j=0..k, read by rows.",
+  "id": "A372261",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A008776",
+    "A027649",
+    "A027650",
+    "A027651",
+    "A048163",
+    "A099594",
+    "A188634",
+    "A212220",
+    "A267383",
+    "A283811",
+    "A283812",
+    "A283813",
+    "A284032",
+    "A284033",
+    "A370960",
+    "A370961",
+    "A372254"
+  ],
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

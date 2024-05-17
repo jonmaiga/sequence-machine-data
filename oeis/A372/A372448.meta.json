@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the 2-adic valuation of 1 + 3*{the n-th iterate of 27 with A371094}.",
+  "id": "A372448",
+  "mentions": [
+    "A000265",
+    "A371093",
+    "A371094",
+    "A372443",
+    "A372444",
+    "A372447",
+    "A372449"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

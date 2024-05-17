@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of the ratio of winning probabilities P_A/P_B of winning in a 2-player game with a ratio of odds for A and B in a single round of 3:2. To win the game it is necessary to win n rounds in a row.",
+  "id": "A370827",
+  "mentions": [
+    "A370823",
+    "A370824",
+    "A370825",
+    "A370826",
+    "A370828"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

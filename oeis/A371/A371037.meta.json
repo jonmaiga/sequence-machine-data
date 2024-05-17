@@ -1,0 +1,15 @@
+{
+  "description": "Orders of almost simple groups.",
+  "id": "A371037",
+  "mentions": [
+    "A001034"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

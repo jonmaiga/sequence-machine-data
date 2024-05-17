@@ -1,8 +1,11 @@
 {
   "description": "a(n) = n^2 + 3*n + 1 if prime or 0 if composite.",
   "id": "A108151",
-  "mentions": [],
+  "mentions": [
+    "A028387"
+  ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {

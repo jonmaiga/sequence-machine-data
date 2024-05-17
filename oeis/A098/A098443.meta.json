@@ -1,7 +1,9 @@
 {
-  "description": "Expansion of 1/sqrt(1-8x-4x^2).",
+  "description": "Expansion of 1/sqrt(1-8*x-4*x^2).",
   "id": "A098443",
   "mentions": [
+    "A001622",
+    "A073000",
     "A084770",
     "A098264",
     "A098444"

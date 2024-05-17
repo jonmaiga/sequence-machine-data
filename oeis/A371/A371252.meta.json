@@ -1,0 +1,21 @@
+{
+  "description": "Number of derangements of a multiset comprising n repeats of a 4-element set.",
+  "id": "A371252",
+  "mentions": [
+    "A000012",
+    "A000172",
+    "A008290",
+    "A059056",
+    "A059068",
+    "A059071"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

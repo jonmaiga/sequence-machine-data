@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (Sum_{k=0..n-1}(145*k^2+104*k+18)*C(2k,k)*C(3k,k)^2/(2k+1))/(6n*(2n-1)*C(3n,n)).",
+  "id": "A371652",
+  "mentions": [
+    "A000984",
+    "A001764",
+    "A005809"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

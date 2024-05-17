@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that are neither squarefree nor prime powers sandwiched between twin primes.",
+  "id": "A370395",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A014574",
+    "A113839",
+    "A126706",
+    "A258838"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

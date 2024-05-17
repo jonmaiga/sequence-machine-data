@@ -1,5 +1,5 @@
 {
-  "description": "Five-digit primes which use each of 0-to-4 decimal digits exactly once.",
+  "description": "Five-digit primes which use each of the decimal digits 0 through 4 exactly once.",
   "id": "A109176",
   "mentions": [
     "A109177",

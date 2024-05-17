@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the generalized Glaisher-Kinkelin constant A(19).",
   "id": "A266566",
   "mentions": [
+    "A001620",
     "A019727",
     "A074962",
     "A243262",

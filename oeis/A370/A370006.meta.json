@@ -1,0 +1,16 @@
+{
+  "description": "Steinhaus-Johnson-Trotter rank of the Eytzinger array layout of n elements.",
+  "id": "A370006",
+  "mentions": [
+    "A003422",
+    "A207324"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

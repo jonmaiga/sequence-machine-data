@@ -1,5 +1,5 @@
 {
-  "description": "Bisection of Lucas triangle A060922: even indexed members of column sequences of A060922 (not counting leading zeros).",
+  "description": "Bisection of Lucas triangle A060922: even-indexed members of column sequences of A060922 (not counting leading zeros).",
   "id": "A060923",
   "mentions": [
     "A002878",
@@ -7,6 +7,7 @@
     "A060924",
     "A060926",
     "A060934",
+    "A060936",
     "A061186"
   ],
   "tags": [

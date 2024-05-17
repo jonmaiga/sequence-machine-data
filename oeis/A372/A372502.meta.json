@@ -1,0 +1,22 @@
+{
+  "description": "The number of \"Fermi-Dirac primes\" (A050376) that divide n.",
+  "id": "A372502",
+  "mentions": [
+    "A050376",
+    "A064547",
+    "A070939",
+    "A077761",
+    "A345222",
+    "A372332"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

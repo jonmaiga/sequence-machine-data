@@ -1,5 +1,5 @@
 {
-  "description": "rad(A143176(n))",
+  "description": "a(n) = rad(A143176(n)).",
   "id": "A144361",
   "mentions": [
     "A002110",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
-    "source": "oeis-entry"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that 20*m + 1, 80*m + 1, 100*m + 1, and 200*m + 1 are all primes.",
+  "id": "A372186",
+  "mentions": [
+    "A002997",
+    "A046025",
+    "A206024",
+    "A206349",
+    "A257035",
+    "A318646",
+    "A372187",
+    "A372188",
+    "A372189"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

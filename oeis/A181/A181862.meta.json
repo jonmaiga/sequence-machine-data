@@ -1,5 +1,5 @@
 {
-  "description": "Decimal sturdy numbers: positive integers n such that sum of digits of k * n for any positive integer k is at least the sum of digits of n.",
+  "description": "Decimal sturdy numbers: positive integers m such that sum of digits of k * m for any positive integer k is at least the sum of digits of m.",
   "id": "A181862",
   "mentions": [
     "A007953",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

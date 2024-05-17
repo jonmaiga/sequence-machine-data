@@ -1,13 +1,15 @@
 {
-  "description": "Number of dissectable polyhedra with symmetry of type M.",
+  "description": "Number of chiral pairs of dissectable polyhedra with n tetrahedral cells and symmetry of type M.",
   "id": "A047769",
   "mentions": [
     "A001764",
+    "A007173",
     "A027610",
     "A047764",
     "A047765",
     "A047766",
-    "A047770"
+    "A047770",
+    "A371350"
   ],
   "tags": [
     "formulas",

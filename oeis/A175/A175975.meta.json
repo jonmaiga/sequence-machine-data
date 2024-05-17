@@ -1,11 +1,14 @@
 {
-  "description": "Numbers n with property that n^n has exactly two 1's.",
+  "description": "Numbers k with the property that k^k has exactly two 1's.",
   "id": "A175975",
   "mentions": [
-    "A000312"
+    "A000312",
+    "A043494"
   ],
   "tags": [
     "base",
+    "hard",
+    "less",
     "more",
     "nonn"
   ],

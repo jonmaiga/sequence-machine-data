@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2^216091 - 1, the 31st Mersenne prime.",
+  "id": "A371850",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A028335"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 65050,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

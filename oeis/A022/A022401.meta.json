@@ -2,7 +2,6 @@
   "description": "Fibonacci sequence beginning 1, 31.",
   "id": "A022401",
   "mentions": [
-    "A000045",
     "A118654"
   ],
   "tags": [

@@ -2,6 +2,7 @@
   "description": "Number of non-Hamiltonian unlabeled n-vertex digraphs (without loops).",
   "id": "A326222",
   "mentions": [
+    "A000273",
     "A000595",
     "A002416",
     "A003087",
@@ -18,12 +19,14 @@
     "A326226"
   ],
   "tags": [
+    "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

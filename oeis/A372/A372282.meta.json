@@ -1,0 +1,33 @@
+{
+  "description": "Array read by upward antidiagonals: A(n, k) = A371094(A(n-1, k)) for n > 1, k >= 1; A(1, k) = 2*k-1.",
+  "id": "A372282",
+  "mentions": [
+    "A005408",
+    "A086893",
+    "A257852",
+    "A371094",
+    "A371096",
+    "A371100",
+    "A371102",
+    "A372283",
+    "A372285",
+    "A372287",
+    "A372288",
+    "A372351",
+    "A372353",
+    "A372354",
+    "A372356",
+    "A372359",
+    "A372444"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

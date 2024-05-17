@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers for which A324644(n)/A324198(n) = 2 and sigma(n) == 2 (mod 4).",
+  "id": "A371082",
+  "mentions": [
+    "A000203",
+    "A191218",
+    "A276086",
+    "A324198",
+    "A324644",
+    "A351458",
+    "A364286"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

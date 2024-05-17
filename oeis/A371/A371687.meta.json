@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (-1)^(n-k) * (2*n + 1)! * [y^(2*k)] [x^(2*n+1)] arctan(sec(x*y)*tanh(x)).",
+  "id": "A371687",
+  "mentions": [
+    "A002436",
+    "A009843",
+    "A012798",
+    "A012835",
+    "A371688"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

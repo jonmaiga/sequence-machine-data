@@ -2,7 +2,8 @@
   "description": "Number of (w,x,y) with all terms in {0,...,n} and range=average.",
   "id": "A212979",
   "mentions": [
-    "A212959"
+    "A212959",
+    "A368482"
   ],
   "tags": [
     "easy",

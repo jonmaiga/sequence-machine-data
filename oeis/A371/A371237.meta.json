@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A371236.",
+  "id": "A371237",
+  "mentions": [
+    "A000217",
+    "A371236"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

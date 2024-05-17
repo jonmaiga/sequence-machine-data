@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=S(3*n,3)/S(n,3) where S(n,m)=sum(k=0,n,binomial(n,k)*fibonacci(m*k)).",
+  "description": "a(n) = S(3*n,3)/S(n,3) where S(n,m) = Sum_{k=0..n} binomial(n,k)*Fibonacci(m*k).",
   "id": "A087423",
   "mentions": [
     "A020876"

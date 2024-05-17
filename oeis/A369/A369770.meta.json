@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the maximal coefficient in the expansion of Product_{k=1..n} (1+k*x)^k.",
+  "id": "A369770",
+  "mentions": [
+    "A065048"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

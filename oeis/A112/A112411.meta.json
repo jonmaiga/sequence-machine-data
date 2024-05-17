@@ -2,8 +2,10 @@
   "description": "a(n) = smallest positive integer, not occurring earlier in the sequence and not equal to n, that has the same number of (non-leading) 0's in its binary representation as n.",
   "id": "A112411",
   "mentions": [
+    "A007814",
     "A023416",
-    "A094510"
+    "A094510",
+    "A140977"
   ],
   "tags": [
     "base",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

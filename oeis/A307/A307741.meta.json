@@ -1,5 +1,5 @@
 {
-  "description": "Sum of divisors of multiply-perfect numbers.",
+  "description": "Sum of divisors of the multiply-perfect numbers.",
   "id": "A307741",
   "mentions": [
     "A000203",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

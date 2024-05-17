@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of log(2) - 1/4.",
+  "id": "A369882",
+  "mentions": [
+    "A002162",
+    "A187832",
+    "A358517",
+    "A365524"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (29*10^n - 41)/3 is prime.",
+  "description": "Numbers k such that (29*10^k - 41)/3 is prime.",
   "id": "A275284",
   "mentions": [
     "A056654",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

@@ -1,12 +1,17 @@
 {
-  "description": "The sequence is a succession of pairs of nonnegative integers. The digits, in each pair, form a palindromic pattern. The sequence starts with a(1)=0 and is always extended with the smallest available integer not yet present in the sequence.",
+  "description": "The sequence is a succession of pairs of nonnegative integers. The digits in each pair form a palindromic pattern. The sequence starts with a(1) = 0 and is always extended with the smallest available integer not yet present in the sequence.",
   "id": "A238880",
   "mentions": [
-    "A245234"
+    "A000030",
+    "A004086",
+    "A010879",
+    "A245234",
+    "A371113"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "look",
     "nice",
     "nonn"

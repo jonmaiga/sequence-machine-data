@@ -1,0 +1,21 @@
+{
+  "description": "A variant of the arithmetic derivative with a(prime(k)) = Fibonacci(k) and a(u*v) = a(u)*v + u*a(v).",
+  "id": "A371192",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A000720",
+    "A003415",
+    "A328845",
+    "A328846"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

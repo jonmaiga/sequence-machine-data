@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(sinh(x)) - exp(cosh(x) - 1).",
+  "id": "A372508",
+  "mentions": [
+    "A000110",
+    "A003724",
+    "A005046"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Lateral surface area of a right circular conoid with unit height and base radius.",
+  "id": "A371923",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

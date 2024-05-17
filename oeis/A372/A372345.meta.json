@@ -1,0 +1,18 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by upwards antidiagonals; for any n, k >= 0 with respective binary expansions Sum_{i >= 0} b_i * 2^i and Sum_{i >= 0} c_i * 2^i, A(n, k) = Sum_{i >= 0} (b_{i+1} * c_i + b_i * c_{i+1}) * 3^i.",
+  "id": "A372345",
+  "mentions": [
+    "A372344"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

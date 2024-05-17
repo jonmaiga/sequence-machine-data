@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator(Sum_{k=1..n} k^2/k!).",
+  "id": "A371832",
+  "mentions": [
+    "A014973",
+    "A019762",
+    "A030297",
+    "A092043",
+    "A371831"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

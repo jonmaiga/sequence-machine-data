@@ -1,0 +1,20 @@
+{
+  "description": "The number of terms beyond the first term in the series described in A369348 but when starting at n.",
+  "id": "A369349",
+  "mentions": [
+    "A001414",
+    "A369348",
+    "A369350",
+    "A369351",
+    "A369352",
+    "A369353"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

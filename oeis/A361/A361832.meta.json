@@ -1,5 +1,5 @@
 {
-  "description": "For any number k >= 0, let T_k be the triangle whose base corresponds to the ternary expansion of k (without leading zeros) and other values, say t above u and v, satisfy t = (-u-v) mod 3; the ternary expansion of a(n) corresponds to the left border of T_k (the most significant digit being at the bottom left corner).",
+  "description": "For any number k >= 0, let T_k be the triangle whose base corresponds to the ternary expansion of k (without leading zeros) and other values, say t above u and v, satisfy t = (-u-v) mod 3; the ternary expansion of a(n) corresponds to the left border of T_n (the most significant digit being at the bottom left corner).",
   "id": "A361832",
   "mentions": [
     "A004488",

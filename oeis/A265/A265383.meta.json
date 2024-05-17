@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n * (10^n - 1) - 1 is prime.",
+  "description": "Numbers k such that 10^k * (10^k - 1) - 1 is prime.",
   "id": "A265383",
   "mentions": [
     "A098845",

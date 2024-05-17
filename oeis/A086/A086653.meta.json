@@ -1,7 +1,10 @@
 {
-  "description": "2^n + 3*n.",
+  "description": "a(n) = 2^n + 3*n.",
   "id": "A086653",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A008585"
+  ],
   "tags": [
     "easy",
     "formulas",

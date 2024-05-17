@@ -2,6 +2,8 @@
   "description": "Numbers that are congruent to {0, 1, 2, 4} mod 7.",
   "id": "A047351",
   "mentions": [
+    "A045373",
+    "A047327",
     "A047346",
     "A047352"
   ],

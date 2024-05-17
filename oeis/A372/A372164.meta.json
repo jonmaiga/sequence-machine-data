@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( 2 * x * A(x)^(5/2) * (1 + x * A(x)) ).",
+  "id": "A372164",
+  "mentions": [
+    "A371574",
+    "A372165",
+    "A372182"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

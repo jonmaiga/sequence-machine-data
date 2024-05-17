@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x * A(x)^3 * (1 - A(x) + A(x)^2 - A(x)^3 + A(x)^4).",
+  "id": "A370476",
+  "mentions": [
+    "A001764",
+    "A271469",
+    "A370472",
+    "A370473",
+    "A370475"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

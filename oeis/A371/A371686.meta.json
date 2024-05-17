@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = e * binomial(n, k) * Gamma(k + 1, 1).",
+  "id": "A371686",
+  "mentions": [
+    "A000142",
+    "A000522",
+    "A007526",
+    "A010842",
+    "A133942",
+    "A367963"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

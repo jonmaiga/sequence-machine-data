@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. S(x,k) satisfying S(x,k) = sin( x*cos(k*x*sqrt(1 - S(x,k)^2)) ), as a triangle read by rows.",
+  "id": "A370331",
+  "mentions": [
+    "A007106",
+    "A370330",
+    "A370332",
+    "A370333",
+    "A370431"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

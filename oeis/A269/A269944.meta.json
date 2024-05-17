@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, Stirling cycle numbers of order 2, T(n,n) = 1, T(n,k) = 0 if kn, otherwise T(n,k) = T(n-1,k-1)+(n-1)^2*T(n-1,k), for n>=0 and 0<=k<=n.",
+  "description": "Triangle read by rows, Stirling cycle numbers of order 2, T(n, n) = 1, T(n, k) = 0 if k < 0 or k > n, otherwise T(n, k) = T(n-1, k-1) + (n-1)^2*T(n-1, k), for 0 <= k <= n.",
   "id": "A269944",
   "mentions": [
     "A000330",
@@ -8,6 +8,7 @@
     "A008955",
     "A101686",
     "A132393",
+    "A204579",
     "A269941",
     "A269945",
     "A269947"

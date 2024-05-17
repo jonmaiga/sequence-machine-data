@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime such that a(n+1)-a(n) == 0 (mod n^n).",
+  "description": "a(n+1) is the smallest prime > a(n) such that a(n+1) - a(n) == 0 (mod n^n).",
   "id": "A087358",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

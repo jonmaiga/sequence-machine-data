@@ -2,7 +2,6 @@
   "description": "Number of binary right-rotations (iterations of A038572) to reach fixed point.",
   "id": "A063250",
   "mentions": [
-    "A036987",
     "A038572",
     "A048881"
   ],

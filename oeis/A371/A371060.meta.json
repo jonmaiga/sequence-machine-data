@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that every triplet of successive digits (seen as side lengths) can form a triangle.",
+  "id": "A371060",
+  "mentions": [
+    "A370408"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A130249(k) differs from A372556(k).",
+  "id": "A372558",
+  "mentions": [
+    "A001045",
+    "A130249",
+    "A372555",
+    "A372556",
+    "A372557"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

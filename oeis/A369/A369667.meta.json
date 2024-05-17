@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if n' == 3 (mod 4) and n has an even number of prime factors with multiplicity, otherwise 0. Here n' stands for the arithmetic derivative of n, A003415(n).",
+  "id": "A369667",
+  "mentions": [
+    "A001222",
+    "A003415",
+    "A065043",
+    "A358773",
+    "A369668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

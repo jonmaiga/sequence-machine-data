@@ -1,14 +1,16 @@
 {
   "description": "Triangle read by rows: T(n,k) (n>=0, k=0..n) gives number of connected graphs on n nodes with edge chromatic number k.",
   "id": "A126732",
-  "mentions": [],
+  "mentions": [
+    "A001349"
+  ],
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 62,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

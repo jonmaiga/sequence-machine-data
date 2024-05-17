@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=sum{k=floor((n+1)/2)..n, C(2k,k)}.",
+  "description": "a(n) = Sum_{k=floor((n+1)/2)..n} binomial(2*k,k).",
   "id": "A129368",
   "mentions": [
     "A129369"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

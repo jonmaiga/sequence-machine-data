@@ -1,0 +1,17 @@
+{
+  "description": "Coefficient of x^n in the expansion of ( 1/(1-x)^2 * (1+x^3)^2 )^n.",
+  "id": "A370249",
+  "mentions": [
+    "A369267",
+    "A370215"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma_1(n)*sigma_0(n)/(sigma_1(n)-sigma_0(n))=c, c an integer.",
+  "description": "Numbers k such that sigma_1(k)*sigma_0(k)/(sigma_1(k)-sigma_0(k)) is an integer.",
   "id": "A146747",
   "mentions": [
     "A000005",
@@ -8,7 +8,7 @@
     "A083795"
   ],
   "tags": [
-    "easy",
+    "more",
     "nonn"
   ],
   "terms": {

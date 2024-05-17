@@ -1,5 +1,5 @@
 {
-  "description": "List of prime numbers p such that all prime factors of p+1 and p-1 are smaller than the cube root of p.",
+  "description": "Prime numbers p such that all prime factors of p+1 and p-1 are smaller than the cube root of p.",
   "id": "A283791",
   "mentions": [
     "A000040"

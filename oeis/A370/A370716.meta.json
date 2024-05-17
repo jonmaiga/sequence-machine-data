@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3^(2*n) * [x^n] Product_{k>=1} (1 + 2*x^k)^(1/3).",
+  "id": "A370716",
+  "mentions": [
+    "A032302",
+    "A075900",
+    "A300581",
+    "A304961",
+    "A327550",
+    "A370715"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

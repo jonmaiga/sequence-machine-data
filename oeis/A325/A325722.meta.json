@@ -1,5 +1,5 @@
 {
-  "description": "Start the sequence with a(1) = 1 and read the digits one by one from there. The sequence is always extended with the product d*k, d being the digit read and k the number of d digits present so far in the sequence.",
+  "description": "Start the sequence with a(1) = 1 and read the digits one by one from there. The sequence is always extended with the product d*k, d being the digit read and k the number of d digits present up to the point of the d digit taken.",
   "id": "A325722",
   "mentions": [
     "A308232",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that usigma(n) / tau(n) is prime.",
+  "description": "Numbers k such that usigma(k) / tau(k) is prime.",
   "id": "A064519",
   "mentions": [
     "A000005",

@@ -1,5 +1,5 @@
 {
-  "description": "5^(4n+2) - 5^(3n+2) + 3 * 5^(2n+1) - 5^(n+1) + 1: the left Aurifeuillian factor of 5^(10n+5) - 1.",
+  "description": "a(n) = 5^(4n+2) - 5^(3n+2) + 3 * 5^(2n+1) - 5^(n+1) + 1: the left Aurifeuillian factor of 5^(10n+5) - 1.",
   "id": "A220979",
   "mentions": [
     "A085601",

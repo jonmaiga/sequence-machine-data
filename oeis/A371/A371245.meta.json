@@ -1,0 +1,21 @@
+{
+  "description": "Number of factorizations of n into factors > 4.",
+  "id": "A371245",
+  "mentions": [
+    "A001055",
+    "A017899",
+    "A185325",
+    "A371212",
+    "A371243",
+    "A371244"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

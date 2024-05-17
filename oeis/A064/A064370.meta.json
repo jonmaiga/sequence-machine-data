@@ -1,14 +1,13 @@
 {
-  "description": "Zero, together with positive numbers k such that the prime(k) - k is a square.",
+  "description": "Zero, together with positive numbers k such that prime(k) - k is a square.",
   "id": "A064370",
   "mentions": [],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

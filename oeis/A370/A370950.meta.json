@@ -1,0 +1,22 @@
+{
+  "description": "Number of penholodigital squares (containing each nonzero digit exactly once) in base n.",
+  "id": "A370950",
+  "mentions": [
+    "A036744",
+    "A039956",
+    "A056911",
+    "A071519",
+    "A258103"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

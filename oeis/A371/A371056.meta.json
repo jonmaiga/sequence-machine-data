@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose ternary representation consists of a run of 2's, then a run of 0's, then a run of 1's.",
+  "id": "A371056",
+  "mentions": [
+    "A007089",
+    "A371057"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

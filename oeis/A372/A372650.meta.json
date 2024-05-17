@@ -1,0 +1,17 @@
+{
+  "description": "Total sum over all partitions of [n] of the number of minimal blocks.",
+  "id": "A372650",
+  "mentions": [
+    "A000110",
+    "A097147",
+    "A372649"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

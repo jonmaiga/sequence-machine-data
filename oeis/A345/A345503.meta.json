@@ -2,6 +2,7 @@
   "description": "Numbers that are the sum of nine squares in six or more ways.",
   "id": "A345503",
   "mentions": [
+    "A025433",
     "A345493",
     "A345502",
     "A345504",
@@ -9,6 +10,7 @@
     "A346805"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

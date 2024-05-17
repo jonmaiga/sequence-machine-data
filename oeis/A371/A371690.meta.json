@@ -1,0 +1,22 @@
+{
+  "description": "Main diagonal of A347283: parity of the n-th term in the trajectory of n under the A006370 map.",
+  "id": "A371690",
+  "mentions": [
+    "A006370",
+    "A347270",
+    "A347272",
+    "A347283",
+    "A371689",
+    "A371691"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

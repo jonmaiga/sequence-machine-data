@@ -2,11 +2,13 @@
   "description": "a(n) = 105*n + 15.",
   "id": "A139615",
   "mentions": [
+    "A016993",
     "A057145",
     "A139600"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

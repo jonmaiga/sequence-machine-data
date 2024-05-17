@@ -1,5 +1,5 @@
 {
-  "description": "Double tetrahedral numbers (or double pyramidal numbers): a(n) = k(k+1)(k+2)/6 where k = n(n+1)(n+2)/6.",
+  "description": "a(n) = A000292(A000292(n)).",
   "id": "A140236",
   "mentions": [
     "A000292",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

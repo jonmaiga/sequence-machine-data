@@ -1,0 +1,17 @@
+{
+  "description": "Palindromes which are a concatenation of three palindromes, each of which has at least 2 digits.",
+  "id": "A368020",
+  "mentions": [
+    "A002113",
+    "A344550"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Decimal expansion of x such that x^x=3.",
   "id": "A173158",
   "mentions": [
-    "A030798"
+    "A030798",
+    "A103549"
   ],
   "tags": [
     "cons",

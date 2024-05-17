@@ -1,0 +1,14 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that a(n)+a(n+1) and a(n)*a(n+1) have the same set of distinct digits.",
+  "id": "A371703",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

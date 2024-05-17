@@ -1,9 +1,8 @@
 {
-  "description": "a(n) = A085239(n) - 2.",
+  "description": "a(n) = A085239(n+1) - 2.",
   "id": "A085242",
   "mentions": [
-    "A085239",
-    "A212126"
+    "A085239"
   ],
   "tags": [
     "nonn"

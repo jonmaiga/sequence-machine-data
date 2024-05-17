@@ -1,13 +1,13 @@
 {
-  "description": "Irregular triangle, row sums = n; a generator for sequence A174026",
+  "description": "Irregular triangle, row sums = n.",
   "id": "A174064",
   "mentions": [
     "A174026"
   ],
   "tags": [
-    "formulas",
     "nonn",
-    "tabf"
+    "tabf",
+    "uned"
   ],
   "terms": {
     "offset": 1,

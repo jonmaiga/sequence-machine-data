@@ -1,8 +1,13 @@
 {
-  "description": "Triangle read by rows: R(n,k)=(prime(n)+1) mod prime(k).",
+  "description": "Triangle read by rows: T(n,k) = (prime(n)+1) mod prime(k).",
   "id": "A174947",
   "mentions": [
-    "A174428"
+    "A173655",
+    "A173662",
+    "A174428",
+    "A174996",
+    "A175620",
+    "A177226"
   ],
   "tags": [
     "nonn",
@@ -10,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 96,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

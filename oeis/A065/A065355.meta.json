@@ -2,10 +2,13 @@
   "description": "a(n) = n! - Sum_{k=0..n-1} k!.",
   "id": "A065355",
   "mentions": [
+    "A000142",
+    "A003422",
     "A007623"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

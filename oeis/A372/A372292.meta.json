@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that occur more than once in the odd bisection of A371094.",
+  "id": "A372292",
+  "mentions": [
+    "A144864",
+    "A371094",
+    "A371100",
+    "A372290",
+    "A372291"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

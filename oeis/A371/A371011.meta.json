@@ -1,0 +1,21 @@
+{
+  "description": "Cubefull numbers that are the sum of 2 squares.",
+  "id": "A371011",
+  "mentions": [
+    "A001481",
+    "A020893",
+    "A036966",
+    "A064533",
+    "A371010"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

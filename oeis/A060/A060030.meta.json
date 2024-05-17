@@ -1,5 +1,5 @@
 {
-  "description": "If the numbers a(1)...a(n) contain a hole, then a(n+1) is the largest hole; otherwise a(n+1) = a(n-1) + a(n).",
+  "description": "a(1) = 1, a(2) = 2; thereafter a \"hole\" is defined to be any positive number not in the sequence a(1)..a(n-1) and less than the largest term; if there exists at least one hole, then a(n) is the largest hole, otherwise a(n) = a(n-2) + a(n-1).",
   "id": "A060030",
   "mentions": [
     "A000045",

@@ -1,0 +1,18 @@
+{
+  "description": "Row lengths of A369276.",
+  "id": "A370372",
+  "mentions": [
+    "A126706",
+    "A358089",
+    "A369276"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

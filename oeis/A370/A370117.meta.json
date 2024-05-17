@@ -1,0 +1,24 @@
+{
+  "description": "Denominator of n/A276086(A003415(n)), where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A370117",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A276086",
+    "A327859",
+    "A369964",
+    "A370115",
+    "A370116",
+    "A370120"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

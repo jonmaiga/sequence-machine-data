@@ -1,5 +1,5 @@
 {
-  "description": "A102370(n) modulo 5 .",
+  "description": "a(n) = A102370(n) modulo 5.",
   "id": "A159059",
   "mentions": [
     "A102370"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 102,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

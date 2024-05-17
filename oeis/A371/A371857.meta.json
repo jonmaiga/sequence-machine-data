@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} exp(-x^7) dx.",
+  "id": "A371857",
+  "mentions": [
+    "A019704",
+    "A068467",
+    "A202623",
+    "A203125",
+    "A203126",
+    "A220086",
+    "A371856"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (n + k - 1)! / (k!*(n - k)!) if k > 0 and T(n, 0) = 0^n.",
+  "id": "A370983",
+  "mentions": [
+    "A001813",
+    "A006963",
+    "A128899",
+    "A370706",
+    "A370707",
+    "A371028"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

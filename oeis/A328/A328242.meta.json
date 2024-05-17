@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which A327860(n) = A003415(A276086(n)) is a squarefree number (in A005117).",
+  "description": "Numbers k such that A003415(A276086(k)) is a squarefree number, where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
   "id": "A328242",
   "mentions": [
     "A000040",
@@ -12,7 +12,9 @@
     "A328233",
     "A328234",
     "A328240",
-    "A328241"
+    "A328241",
+    "A370130",
+    "A370132"
   ],
   "tags": [
     "nonn"

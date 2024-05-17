@@ -2,6 +2,8 @@
   "description": "Numerators of partial sums for Liouville's constant, read as base 2 (binary) numbers.",
   "id": "A145572",
   "mentions": [
+    "A001563",
+    "A092874",
     "A145571"
   ],
   "tags": [

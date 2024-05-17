@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n that require three iterations of the sigma function to be >= 2n.",
+  "description": "Numbers k that require three iterations of the sigma function to be >= 2*k.",
   "id": "A107913",
   "mentions": [
     "A000203",
+    "A055020",
     "A055021",
     "A107912",
     "A107914"

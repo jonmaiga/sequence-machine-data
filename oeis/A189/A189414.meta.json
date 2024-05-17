@@ -1,5 +1,5 @@
 {
-  "description": "Number of quadrilaterals on an (n X n)-grid (or geoboard).",
+  "description": "Number of quadrilaterals on an n X n grid (or geoboard).",
   "id": "A189414",
   "mentions": [
     "A175383",

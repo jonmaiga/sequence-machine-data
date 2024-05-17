@@ -1,8 +1,9 @@
 {
-  "description": "Even bases n for which the smallest (Fermat) pseudoprime has Moebius function mu = -1.",
+  "description": "Even bases k for which the smallest (Fermat) pseudoprime greater than k has Moebius function mu = -1.",
   "id": "A074228",
   "mentions": [
     "A007535",
+    "A008683",
     "A074485"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

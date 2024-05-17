@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1/sqrt(2).",
   "id": "A010503",
   "mentions": [
+    "A000120",
     "A000217",
     "A010060",
     "A010527",

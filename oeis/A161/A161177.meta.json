@@ -1,16 +1,18 @@
 {
-  "description": "Index of first multiple of n-th prime in A005179",
+  "description": "Index of first multiple of n-th prime in A005179.",
   "id": "A161177",
   "mentions": [
+    "A001222",
     "A005179"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

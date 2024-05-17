@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of the Jacobi elliptic function dn(x,k) at k = 2 (even powers only).",
+  "id": "A370544",
+  "mentions": [
+    "A028296",
+    "A060627",
+    "A068521",
+    "A249282",
+    "A370542",
+    "A370543"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

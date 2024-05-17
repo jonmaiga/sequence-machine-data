@@ -1,13 +1,18 @@
 {
   "description": "Number of binary strings of length n with equal numbers of 000 and 001 substrings.",
   "id": "A164137",
-  "mentions": [],
+  "mentions": [
+    "A163493",
+    "A371662",
+    "A371682"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

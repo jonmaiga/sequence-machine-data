@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(2*n-3*k-1,n-3*k).",
+  "id": "A371758",
+  "mentions": [
+    "A144904",
+    "A371770",
+    "A371771",
+    "A371772",
+    "A371773",
+    "A371777"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

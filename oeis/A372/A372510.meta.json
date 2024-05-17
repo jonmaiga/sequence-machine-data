@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered factorizations of 2*n-1 into twin primes.",
+  "id": "A372510",
+  "mentions": [
+    "A001097",
+    "A008480",
+    "A050328",
+    "A050363",
+    "A062505",
+    "A077608",
+    "A164292"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

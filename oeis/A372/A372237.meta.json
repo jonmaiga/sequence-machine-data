@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 4; to obtain a(k), write out the base-(2^k) expansion of a(k-1), bump to base 2^(k+1), then subtract 1.",
+  "id": "A372237",
+  "mentions": [
+    "A056193",
+    "A266202"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

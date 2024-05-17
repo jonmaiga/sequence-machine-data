@@ -1,0 +1,23 @@
+{
+  "description": "Number of regions among all distinct circles that can be constructed from the 3 vertices and the equally spaced 3*n points placed on the sides of an equilateral triangle, using only a compass.",
+  "id": "A372615",
+  "mentions": [
+    "A353782",
+    "A360352",
+    "A371374",
+    "A372614",
+    "A372616",
+    "A372617",
+    "A372682"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Table read by rows. Number of set partitions of [n] with respect to genus g.",
+  "id": "A370235",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A001263",
+    "A002802",
+    "A177267",
+    "A297178",
+    "A297179",
+    "A370236",
+    "A370237",
+    "A370420"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

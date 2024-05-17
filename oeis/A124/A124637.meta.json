@@ -1,13 +1,17 @@
 {
   "description": "Poincaré series [or Poincare series] P(C_{4,2}(0); t).",
   "id": "A124637",
-  "mentions": [],
+  "mentions": [
+    "A124612"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "joeis"
   }
 }

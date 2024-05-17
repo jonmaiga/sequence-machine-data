@@ -2,6 +2,7 @@
   "description": "Minimal prime numbers with increasing prime differences.",
   "id": "A064337",
   "mentions": [
+    "A007504",
     "A064336"
   ],
   "tags": [

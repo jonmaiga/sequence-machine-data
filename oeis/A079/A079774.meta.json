@@ -2,6 +2,7 @@
   "description": "Consider the triangle shown below in which the n-th row contains the n smallest terms in increasing order having a common factor > 1, the first term being the n-th composite number; sequence gives the last term of each row.",
   "id": "A079774",
   "mentions": [
+    "A002808",
     "A079775",
     "A079776"
   ],

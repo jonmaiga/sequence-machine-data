@@ -2,8 +2,11 @@
   "description": "Decimal expansion of average deviation of the total number of prime factors.",
   "id": "A083342",
   "mentions": [
+    "A000010",
     "A001620",
+    "A007434",
     "A077761",
+    "A086242",
     "A136141"
   ],
   "tags": [

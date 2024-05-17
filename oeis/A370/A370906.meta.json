@@ -1,0 +1,23 @@
+{
+  "description": "Partial alternating sums of the alternating sum of divisors function (A206369).",
+  "id": "A370906",
+  "mentions": [
+    "A068762",
+    "A068773",
+    "A206369",
+    "A307704",
+    "A357817",
+    "A362028",
+    "A370905"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

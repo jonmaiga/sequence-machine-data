@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of internal vertices in the graph A371254(n) that are created by the crossing of k arcs, with k>=2.",
+  "id": "A371264",
+  "mentions": [
+    "A292104",
+    "A292105",
+    "A335102",
+    "A371254"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

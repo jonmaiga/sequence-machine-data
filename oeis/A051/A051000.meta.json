@@ -2,10 +2,12 @@
   "description": "Sum of cubes of odd divisors of n.",
   "id": "A051000",
   "mentions": [
+    "A000203",
     "A000578",
     "A000593",
     "A001158",
     "A001227",
+    "A006519",
     "A050999",
     "A051001",
     "A051002",
