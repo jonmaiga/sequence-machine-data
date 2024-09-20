@@ -1,0 +1,17 @@
+{
+  "description": "Number of interval posets of permutations of size n, considered up to isomorphism.",
+  "id": "A373455",
+  "mentions": [
+    "A348479",
+    "A373456"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

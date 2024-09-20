@@ -1,7 +1,8 @@
 {
-  "description": "f(3n)/(f(n-1)*f(n)*f(n+1)), where f(k) = k!.",
+  "description": "a(n) = f(3*n)/(f(n-1)*f(n)*f(n+1)), where f(k) = k!.",
   "id": "A248707",
   "mentions": [
+    "A000142",
     "A001700",
     "A248708",
     "A248709",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

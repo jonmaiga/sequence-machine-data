@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct triangles with area n whose vertices are points of an n X n grid.",
+  "id": "A372915",
+  "mentions": [
+    "A045996",
+    "A088658",
+    "A303331",
+    "A320310",
+    "A320542",
+    "A320544",
+    "A334713",
+    "A372217",
+    "A372218"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

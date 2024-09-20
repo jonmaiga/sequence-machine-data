@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of vertices of a chordal ring mixed graph CRM(N,c) with diameter n.",
+  "id": "A374622",
+  "mentions": [
+    "A371396"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Decimal expansion of 2*log(1+sqrt(2)), the integral over the square [0,1]x[0,1] of 1/sqrt(x^2+y^2) dx dy.",
   "id": "A244920",
   "mentions": [
-    "A091648"
+    "A091648",
+    "A156035"
   ],
   "tags": [
     "cons",

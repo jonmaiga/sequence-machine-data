@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = ceiling((2^n+n-1)/n).",
+  "id": "A373895",
+  "mentions": [
+    "A052944",
+    "A053638",
+    "A082482"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

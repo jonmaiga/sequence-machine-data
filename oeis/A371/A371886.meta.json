@@ -1,0 +1,16 @@
+{
+  "description": "The number of multiples (k) of n where an equal temperament with k*n divisions of the octave's best approximation of the just perfect fifth (3/2) is equal to that of an equal temperament with n divisions.",
+  "id": "A371886",
+  "mentions": [
+    "A366701"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,17 @@
 {
-  "description": "Binomial(n^3,n) / (n^2 * (n^2+n+1) ), or binomial(n^3-2,n-2).",
+  "description": "a(n) = binomial(n^3-2, n-2).",
   "id": "A177837",
   "mentions": [
     "A177234",
     "A177784"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 12,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

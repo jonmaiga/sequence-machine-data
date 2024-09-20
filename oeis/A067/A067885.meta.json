@@ -1,17 +1,15 @@
 {
-  "description": "Product of 6 distinct primes.",
+  "description": "Products of exactly 6 distinct primes.",
   "id": "A067885",
   "mentions": [
+    "A000040",
     "A001221",
     "A001222",
     "A006881",
     "A007304",
     "A046386",
     "A046387",
-    "A074969",
-    "A115343",
-    "A123321",
-    "A123322"
+    "A074969"
   ],
   "tags": [
     "formulas",

@@ -1,13 +1,20 @@
 {
-  "description": "n prefixed by '2' and followed by '1' is a prime.",
+  "description": "Numbers k such that k prefixed by '2' and followed by '1' is prime.",
   "id": "A032702",
-  "mentions": [],
+  "mentions": [
+    "A032682",
+    "A032683",
+    "A032684",
+    "A032685",
+    "A032703",
+    "A032733"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 60,
     "source": "joeis"
   }

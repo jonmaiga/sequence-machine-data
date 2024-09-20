@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1, then a(n) = floor(n/min(a(n-1),a(floor(n/2)))).",
+  "id": "A372971",
+  "mentions": [
+    "A097051",
+    "A372970"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

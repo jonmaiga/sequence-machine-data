@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 10*Fibonacci(n) + (-1)^n.",
+  "id": "A372242",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A022093",
+    "A022112",
+    "A052952",
+    "A153382",
+    "A280154",
+    "A371843"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

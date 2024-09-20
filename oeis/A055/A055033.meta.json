@@ -1,5 +1,5 @@
 {
-  "description": "usigma(usigma(n)), where usigma(n) is the sum of unitary divisors of n (A034448).",
+  "description": "a(n) = usigma(usigma(n)), where usigma(n) is the sum of unitary divisors of n (A034448).",
   "id": "A055033",
   "mentions": [
     "A034448",
@@ -8,6 +8,8 @@
     "A064012"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

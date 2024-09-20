@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (1 + log(8))/72.",
+  "id": "A372860",
+  "mentions": [
+    "A372858",
+    "A372859",
+    "A372861"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

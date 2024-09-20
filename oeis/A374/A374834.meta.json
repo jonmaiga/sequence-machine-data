@@ -1,0 +1,16 @@
+{
+  "description": "Start the sequence with a(1) = 3. From now on iterate: if |a(n)| is prime, subtract from a(n) the |a(n)|-th prime of the list of primes A000040 and if |a(n)| is nonprime, add to a(n) the |a(n)|-th nonprime of the list of nonprimes A018252.",
+  "id": "A374834",
+  "mentions": [
+    "A000040",
+    "A018252"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

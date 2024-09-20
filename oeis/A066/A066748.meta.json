@@ -1,5 +1,5 @@
 {
-  "description": "The continued fraction for the \"binary\" Copeland-Erdos constant.",
+  "description": "The continued fraction for the \"binary\" Copeland-Erdős constant.",
   "id": "A066748",
   "mentions": [
     "A066747"
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 96,
     "source": "joeis"
   }

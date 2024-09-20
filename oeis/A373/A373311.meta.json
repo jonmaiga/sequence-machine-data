@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A( A(x^2) + C(x) ) = x, where C(x) = x + C(x)^2 is the Catalan function (A000108).",
+  "id": "A373311",
+  "mentions": [
+    "A000108",
+    "A373310"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

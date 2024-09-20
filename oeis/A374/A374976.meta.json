@@ -1,0 +1,23 @@
+{
+  "description": "Odd k with p^k mod k != p for all primes p.",
+  "id": "A374976",
+  "mentions": [
+    "A000040",
+    "A001567",
+    "A002997",
+    "A005935",
+    "A005936",
+    "A005938",
+    "A020139",
+    "A020141",
+    "A020145"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

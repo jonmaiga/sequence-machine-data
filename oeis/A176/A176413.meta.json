@@ -2,6 +2,7 @@
   "description": "a(n) = 19*3^n.",
   "id": "A176413",
   "mentions": [
+    "A000244",
     "A023042"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 26,
     "source": "joeis"
   }
 }

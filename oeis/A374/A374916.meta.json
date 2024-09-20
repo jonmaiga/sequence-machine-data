@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers in which any three consecutive terms are pairwise coprime whereas the squarefree kernel of their product is a primorial number (A002110).",
+  "id": "A374916",
+  "mentions": [
+    "A002110",
+    "A016789",
+    "A020639",
+    "A055932",
+    "A080259",
+    "A083720",
+    "A374445"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

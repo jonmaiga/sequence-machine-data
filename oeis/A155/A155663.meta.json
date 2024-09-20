@@ -1,5 +1,5 @@
 {
-  "description": "9^n+8^n-1.",
+  "description": "a(n) = 9^n + 8^n - 1.",
   "id": "A155663",
   "mentions": [
     "A155646",
@@ -27,7 +27,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

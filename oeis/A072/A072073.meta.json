@@ -1,18 +1,20 @@
 {
-  "description": "Number of solutions to Cototient(x) = A051953(x) = 2^n.",
+  "description": "Number of solutions to cototient(x) = A051953(x) = 2^n.",
   "id": "A072073",
   "mentions": [
     "A000043",
+    "A000079",
     "A051953",
     "A058764",
     "A063740"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

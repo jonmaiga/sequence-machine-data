@@ -1,5 +1,5 @@
 {
-  "description": "Sum C(n,2k)J(k), k=0..floor(n/2).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(n,2*k)*J(k), where J = A001045.",
   "id": "A101892",
   "mentions": [
     "A001045",

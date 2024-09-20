@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p + 48 and p + 96 are also prime.",
+  "id": "A374719",
+  "mentions": [
+    "A001223",
+    "A033451",
+    "A047948",
+    "A052188",
+    "A052189",
+    "A052190",
+    "A279765"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

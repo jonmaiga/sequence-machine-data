@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of ways to select three distinct points of an n X n grid forming a triangle whose sides do not pass through a grid point.",
+  "id": "A372218",
+  "mentions": [
+    "A115004",
+    "A141224",
+    "A141255",
+    "A320540",
+    "A320541",
+    "A320544",
+    "A372217"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

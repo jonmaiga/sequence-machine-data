@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of integers k between 0 and n such that n XOR k is a prime number (where XOR denotes the bitwise XOR operator).",
+  "id": "A375485",
+  "mentions": [
+    "A054429",
+    "A375486",
+    "A375487"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

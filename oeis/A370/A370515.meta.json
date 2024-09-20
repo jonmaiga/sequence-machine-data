@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least integer k with exactly 10^n divisors.",
+  "id": "A370515",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A005179",
+    "A011557",
+    "A037019"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

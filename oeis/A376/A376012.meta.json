@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of solutions (x_1, x_2, ..., x_n) to Product_{i=1..n} (1 + 1/x_i) = any integer.",
+  "id": "A376012",
+  "mentions": [
+    "A085098",
+    "A118086",
+    "A277608"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

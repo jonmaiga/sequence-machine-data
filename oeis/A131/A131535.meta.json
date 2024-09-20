@@ -1,5 +1,5 @@
 {
-  "description": "Least power of 2 having exactly n consecutive 1's in its decimal representation.",
+  "description": "Exponent of least power of 2 having exactly n consecutive 1's in its decimal representation.",
   "id": "A131535",
   "mentions": [
     "A006889",

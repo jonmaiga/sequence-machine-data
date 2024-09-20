@@ -1,0 +1,24 @@
+{
+  "description": "The second-largest exponent in the prime factorization of n, or 0 if it does not exist.",
+  "id": "A375933",
+  "mentions": [
+    "A051903",
+    "A054861",
+    "A072774",
+    "A167747",
+    "A363127",
+    "A363131",
+    "A375932",
+    "A375934"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

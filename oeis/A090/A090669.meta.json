@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 7^n - 2 is a prime.",
+  "description": "Numbers k such that 7^k - 2 is a prime.",
   "id": "A090669",
   "mentions": [
     "A096305",
@@ -11,6 +11,7 @@
     "A236371"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

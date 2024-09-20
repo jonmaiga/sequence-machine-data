@@ -1,7 +1,9 @@
 {
-  "description": "n times n+5 gives the concatenation of two numbers m and m+5.",
+  "description": "Numbers k such that k * (k+5) gives the concatenation of two numbers m and m+5.",
   "id": "A116324",
   "mentions": [
+    "A028557",
+    "A032610",
     "A116193",
     "A116310",
     "A116323",
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

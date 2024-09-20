@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} sin(4k*Pi/5)/2^k.",
+  "id": "A373024",
+  "mentions": [
+    "A373021"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

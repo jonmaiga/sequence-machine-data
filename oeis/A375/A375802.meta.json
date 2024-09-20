@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the sum of the inverses of the indices where the sequence has the same value is at most 1.",
+  "id": "A375802",
+  "mentions": [
+    "A157248",
+    "A323725"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the minimal number of parallel straight lines needed to intersect all points (k, prime(k)) for k = 1..n (where prime(k) denotes the k-th prime number).",
+  "id": "A375502",
+  "mentions": [
+    "A373811",
+    "A373813",
+    "A375433"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

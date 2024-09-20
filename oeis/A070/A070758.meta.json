@@ -2,7 +2,7 @@
   "description": "Values of floor((3/2)^n) that are composite.",
   "id": "A070758",
   "mentions": [
-    "A043037",
+    "A002379",
     "A067904",
     "A070759"
   ],

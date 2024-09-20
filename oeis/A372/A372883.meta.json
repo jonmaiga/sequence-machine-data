@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of flattened Catalan words of length n with exactly k symmetric peaks, with k >= 0.",
+  "id": "A372883",
+  "mentions": [
+    "A007051",
+    "A290900",
+    "A369328",
+    "A371965",
+    "A372879",
+    "A372884"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

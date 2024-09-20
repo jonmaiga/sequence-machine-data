@@ -1,13 +1,25 @@
 {
-  "description": "Numbers n such that 12 divides prime(1)+...+prime(n).",
+  "description": "Numbers k such that 12 divides prime(1) + ... + prime(k).",
   "id": "A111326",
-  "mentions": [],
+  "mentions": [
+    "A007504",
+    "A103208",
+    "A111318",
+    "A111319",
+    "A111320",
+    "A111321",
+    "A111322",
+    "A111323",
+    "A111324",
+    "A111325",
+    "A111327"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

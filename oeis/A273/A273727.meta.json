@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3n - 1 divides 3^n - 1 and 3 does not divide n.",
+  "description": "Numbers k such that 3k - 1 divides 3^k - 1 and 3 does not divide k.",
   "id": "A273727",
   "mentions": [
     "A233415",

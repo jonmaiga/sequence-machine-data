@@ -1,0 +1,17 @@
+{
+  "description": "The nonnegative terms followed by their first position in the concatenation of all terms of the sequence.",
+  "id": "A374405",
+  "mentions": [
+    "A001477",
+    "A097614"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

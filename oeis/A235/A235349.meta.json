@@ -2,7 +2,11 @@
   "description": "Series reversion of x*(1-x-2*x^2)/(1-x).",
   "id": "A235349",
   "mentions": [
-    "A235347"
+    "A235347",
+    "A235348",
+    "A235350",
+    "A235351",
+    "A235352"
   ],
   "tags": [
     "easy",

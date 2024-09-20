@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. exp(x/(1 + x^4)).",
+  "id": "A373541",
+  "mentions": [
+    "A293507"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

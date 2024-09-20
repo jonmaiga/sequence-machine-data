@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum_{i=2..n} ((-1)^i/(i phi(i))).",
+  "description": "Numerator of Sum_{i=2..n} (-1)^i/(i*phi(i)).",
   "id": "A101992",
   "mentions": [
     "A000010",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of reduced stable marriage problem instances of order 3 that generate n possible stable matchings.",
+  "id": "A369597",
+  "mentions": [
+    "A010790",
+    "A344666",
+    "A344667",
+    "A351409",
+    "A351430",
+    "A368419"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

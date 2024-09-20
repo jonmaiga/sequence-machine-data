@@ -1,9 +1,10 @@
 {
   "description": "Incrementally largest terms in the continued fraction for the \"binary\" Copeland-Erdos constant.",
   "id": "A066754",
-  "mentions": [],
+  "mentions": [
+    "A066748"
+  ],
   "tags": [
-    "cofr",
     "nonn"
   ],
   "terms": {

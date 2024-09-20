@@ -1,12 +1,16 @@
 {
-  "description": "Least prime power having n divisors such that every sum of two or more divisors is composite.",
+  "description": "a(n) is the least prime number p such that every sum of two or more divisors of p^n is composite.",
   "id": "A160994",
-  "mentions": [],
+  "mentions": [
+    "A093893",
+    "A093894"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 18,
     "source": "oeis-entry"
   }

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n such that (smallest part) >= 3*(number of parts).",
+  "id": "A373068",
+  "mentions": [
+    "A003114",
+    "A350894",
+    "A373067",
+    "A373069",
+    "A373070",
+    "A373074"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

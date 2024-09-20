@@ -1,0 +1,34 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k > 0, read by rows with row polynomials R(n, x) such that R(2n+1, x) = x*R(n, x) for n >= 0, R(2n, x) = x*(R(n, x+1) - R(n, x)) for n > 0 with R(0, x) = x.",
+  "id": "A373183",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A007814",
+    "A053645",
+    "A062253",
+    "A062254",
+    "A062255",
+    "A062383",
+    "A087734",
+    "A090996",
+    "A173018",
+    "A279209",
+    "A290255",
+    "A329369",
+    "A341392",
+    "A357990",
+    "A358612"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

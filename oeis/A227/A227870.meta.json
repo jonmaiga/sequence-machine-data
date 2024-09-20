@@ -2,6 +2,7 @@
   "description": "Numbers with equal number of even and odd digits.",
   "id": "A227870",
   "mentions": [
+    "A001637",
     "A030141",
     "A031443"
   ],

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. (1/2)*(x^2*exp(x))*(cosh(x))^2.",
+  "id": "A373065",
+  "mentions": [
+    "A360023"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

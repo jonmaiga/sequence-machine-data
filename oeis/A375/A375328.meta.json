@@ -1,0 +1,18 @@
+{
+  "description": "Terms as well as digits fit the prime/prime/nonprime pattern; this is the lexicographically earliest injective sequence with this property.",
+  "id": "A375328",
+  "mentions": [
+    "A217555",
+    "A375326",
+    "A375327"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

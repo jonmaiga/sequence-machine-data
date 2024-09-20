@@ -1,18 +1,18 @@
 {
-  "description": "Centrally symmetric triangle read by rows: t(n,m) = A000931(m+1) if m <= floor(n/2), A000931(n - m+1) otherwise.",
+  "description": "Triangle read by rows: T(n,m) = A000931(m+6) if m <= floor(n/2), A000931(n+6-m) otherwise, for 0 <= m <= n.",
   "id": "A139038",
   "mentions": [
     "A000931",
     "A139147"
   ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

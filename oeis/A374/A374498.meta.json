@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by antidiagonals: row n lists n-gonal pyramidal numbers that are products of smaller n-gonal pyramidal numbers.",
+  "id": "A374498",
+  "mentions": [
+    "A068143",
+    "A080851",
+    "A364151",
+    "A374370",
+    "A374499",
+    "A374500",
+    "A374501",
+    "A374502"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

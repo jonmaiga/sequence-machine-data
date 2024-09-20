@@ -2,6 +2,7 @@
   "description": "Diagonal sums of a Moebius-binomial triangle.",
   "id": "A105588",
   "mentions": [
+    "A008683",
     "A105586"
   ],
   "tags": [

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the Hankel matrix formed using the digits of k is singular.",
+  "id": "A373066",
+  "mentions": [
+    "A004086"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of domino tilings of the order n Aztec diamond which are centrally symmetric.",
+  "id": "A372145",
+  "mentions": [
+    "A005158",
+    "A006125"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

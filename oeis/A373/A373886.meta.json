@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number whose binary expansion can be obtained by reversing one or more consecutive bits in the binary expansion of n.",
+  "id": "A373886",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A038573",
+    "A087734",
+    "A331856"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

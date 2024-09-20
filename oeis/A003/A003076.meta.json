@@ -2,10 +2,15 @@
   "description": "n-th digit after decimal point of square root of n.",
   "id": "A003076",
   "mentions": [
+    "A000196",
+    "A000290",
+    "A010879",
     "A071901"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

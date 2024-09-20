@@ -2,15 +2,17 @@
   "description": "Terms of sequence A005150 interpreted as numbers written in base 4 (written here in base ten).",
   "id": "A098097",
   "mentions": [
-    "A005150"
+    "A005150",
+    "A007090"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

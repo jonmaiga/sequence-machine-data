@@ -1,0 +1,19 @@
+{
+  "description": "Cubes equal to the sum of a factorial number and a square.",
+  "id": "A373218",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A000578",
+    "A167222"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

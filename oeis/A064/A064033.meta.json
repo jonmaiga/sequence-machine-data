@@ -1,5 +1,5 @@
 {
-  "description": "Product of non-unitary divisors of central binomial coefficients or a(n)=1 if all divisors are unitary. See A046098.",
+  "description": "Product of non-unitary divisors of binomial(n, floor(n/2)) or a(n) = 1 if all divisors are unitary. See A046098.",
   "id": "A064033",
   "mentions": [
     "A001405",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "joeis"
   }
 }

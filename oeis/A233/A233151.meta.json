@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays with no element x(i,j) adjacent to value 2-x(i,j) horizontally or antidiagonally",
+  "description": "Number of n X n 0..2 arrays with no element x(i,j) adjacent to value 2-x(i,j) horizontally or antidiagonally.",
   "id": "A233151",
   "mentions": [
     "A233155"

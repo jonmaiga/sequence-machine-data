@@ -2,9 +2,11 @@
   "description": "Numbers that set a record for the number of distinct prime signatures represented among their divisors (A085082).",
   "id": "A306491",
   "mentions": [
+    "A025487",
     "A085082",
     "A182860",
-    "A182862"
+    "A182862",
+    "A322584"
   ],
   "tags": [
     "nonn"

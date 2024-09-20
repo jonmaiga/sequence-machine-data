@@ -1,7 +1,9 @@
 {
-  "description": "7*9^n-1.",
+  "description": "a(n) = 7*9^n - 1.",
   "id": "A198965",
-  "mentions": [],
+  "mentions": [
+    "A198964"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the determinant of the 2 X 2 matrix whose entries (listed by rows) are the n-th prime ending in 1, 3, 7, 9 respectively.",
+  "description": "a(n) is the determinant of the 2 X 2 matrix whose entries (when read by rows) are the n-th primes ending in 1, 3, 7, 9 respectively.",
   "id": "A335592",
   "mentions": [
     "A335581",

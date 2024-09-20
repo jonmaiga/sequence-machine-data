@@ -1,5 +1,5 @@
 {
-  "description": "Sum C(n,2k)F(k), k=0..floor(n/2).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(n,2*k)*Fibonacci(k).",
   "id": "A101890",
   "mentions": [
     "A000045"

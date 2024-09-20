@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A375516(n)/LCM{1,...,n}.",
+  "id": "A375520",
+  "mentions": [
+    "A003418",
+    "A374663",
+    "A374983",
+    "A375516"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

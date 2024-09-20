@@ -1,5 +1,5 @@
 {
-  "description": "Table read by ascending diagonals: A(n,m) is the smallest number k such that k and k+1 have the n-th and m-th prime signatures, respectively, or -1 if no such k exists.",
+  "description": "Table read by ascending antidiagonals: A(n,m) is the smallest number k such that k and k+1 have the n-th and m-th prime signatures, respectively, or -1 if no such k exists.",
   "id": "A368735",
   "mentions": [
     "A025487",

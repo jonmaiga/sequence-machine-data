@@ -1,11 +1,14 @@
 {
-  "description": "Decimal expansion of least x>0 having sin(3x)=(sin x)^2.",
+  "description": "Decimal expansion of least x>0 having sin(3x) = sin(x)^2.",
   "id": "A197260",
   "mentions": [
-    "A197133"
+    "A197133",
+    "A197291",
+    "A197377"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

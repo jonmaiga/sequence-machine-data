@@ -2,7 +2,6 @@
   "description": "Numbers missing from A025429 (number of partitions of n into 5 nonzero squares).",
   "id": "A243077",
   "mentions": [
-    "A025249",
     "A025429",
     "A080654",
     "A080673"

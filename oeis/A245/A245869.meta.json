@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+2 0..k arrays with some pair in every consecutive three terms totalling exactly k",
+  "description": "T(n,k)=Number of length n+2 0..k arrays with some pair in every consecutive three terms totalling exactly k.",
   "id": "A245869",
   "mentions": [
     "A006355",

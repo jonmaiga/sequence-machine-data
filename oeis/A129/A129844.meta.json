@@ -1,5 +1,5 @@
 {
-  "description": "Triangular sequence constructed from heights of irreducible representations of semi-simple Lie algebras (exceptional groups plus A1, G2, F4, E6, E7, E8).",
+  "description": "Triangular sequence constructed from heights of irreducible representations of semi-simple Lie algebras (groups A1, G2, F4, E6, E7, E8).",
   "id": "A129844",
   "mentions": [
     "A120668",

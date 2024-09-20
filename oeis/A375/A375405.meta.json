@@ -1,0 +1,41 @@
+{
+  "description": "Number of integer partitions of n with a repeated part other than the least.",
+  "id": "A375405",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A003242",
+    "A034296",
+    "A046660",
+    "A055887",
+    "A065200",
+    "A065201",
+    "A073492",
+    "A115029",
+    "A141199",
+    "A239955",
+    "A333489",
+    "A358836",
+    "A374629",
+    "A374704",
+    "A374706",
+    "A375128",
+    "A375133",
+    "A375134",
+    "A375136",
+    "A375396",
+    "A375397",
+    "A375399",
+    "A375401",
+    "A375404"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

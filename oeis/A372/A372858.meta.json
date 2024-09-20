@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (1 + log(2))/2.",
+  "id": "A372858",
+  "mentions": [
+    "A016655",
+    "A019798",
+    "A102047",
+    "A372859",
+    "A372860",
+    "A372861"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

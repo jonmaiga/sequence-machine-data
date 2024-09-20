@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of three distinct n-th powers of primes in exactly n ways, or -1 if no such number exists.",
+  "id": "A374229",
+  "mentions": [
+    "A125689",
+    "A349764",
+    "A374227",
+    "A374230"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

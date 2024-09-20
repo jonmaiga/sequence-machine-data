@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of 6^((3 + z_0.95)/6), where z_0.95 is the 95% quantile of the standard normal distribution (A329281).",
+  "id": "A375221",
+  "mentions": [
+    "A329281"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

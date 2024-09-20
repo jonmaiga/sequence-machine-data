@@ -1,8 +1,12 @@
 {
-  "description": "Composite numbers n such that phi(n) divides 4*(n-1).",
+  "description": "Composite numbers k such that phi(k) divides 4*(k-1).",
   "id": "A193167",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A002997"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

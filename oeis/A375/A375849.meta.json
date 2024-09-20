@@ -1,0 +1,22 @@
+{
+  "description": "The maximum odd exponent in the prime factorization of n!.",
+  "id": "A375849",
+  "mentions": [
+    "A000069",
+    "A000142",
+    "A011371",
+    "A128309",
+    "A375032",
+    "A375850"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A050446(n, n) = A050447(n, n).",
+  "id": "A373659",
+  "mentions": [
+    "A050446",
+    "A050447",
+    "A373660"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

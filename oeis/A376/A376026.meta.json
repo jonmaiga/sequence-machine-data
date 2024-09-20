@@ -1,0 +1,14 @@
+{
+  "description": "Numbers k such that the concatenation of k+1 and k^2 is prime.",
+  "id": "A376026",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

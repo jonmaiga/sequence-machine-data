@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n,k) = (n+1)*(k-1)*k/2+k, of polygonal numbers, read by antidiagonals upwards.",
+  "description": "Square array of polygonal numbers read by ascending antidiagonals: T(n, k) = (n + 1)*(k - 1)*k/2 + k.",
   "id": "A139601",
   "mentions": [
     "A000007",
@@ -13,6 +13,10 @@
     "A000567",
     "A001106",
     "A001107",
+    "A002411",
+    "A006000",
+    "A006003",
+    "A006522",
     "A008585",
     "A016957",
     "A017329",
@@ -33,6 +37,7 @@
     "A057145",
     "A086270",
     "A086271",
+    "A117142",
     "A139600",
     "A139606",
     "A139607",

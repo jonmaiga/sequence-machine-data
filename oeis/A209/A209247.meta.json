@@ -1,19 +1,17 @@
 {
-  "description": "a(n) = b(b(n-1)) + b(b((abs(n - b(b(n - 2))) - 1)) where b(n) = A188163(n).",
+  "description": "a(n) = p(p(n)) + p(p( abs(n - p(p(n-1))) )), where p(n) = A188163(n) + 1 - [n=1].",
   "id": "A209247",
   "mentions": [
     "A004001",
     "A087873",
-    "A188163",
-    "A371555"
+    "A188163"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

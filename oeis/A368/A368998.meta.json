@@ -1,12 +1,19 @@
 {
-  "description": "Numbers k for which A342001(k) is even.",
+  "description": "Numbers k such that A003415(k) and A276085(k) are both even, where A003415 is the arithmetic derivative and A276085 is the primorial base log-function; Numbers k for which A342001(k) is even.",
   "id": "A368998",
   "mentions": [
     "A000290",
+    "A003159",
+    "A003415",
+    "A235992",
+    "A276085",
     "A342001",
+    "A345452",
+    "A358776",
     "A368995",
     "A368997",
-    "A368999"
+    "A368999",
+    "A373145"
   ],
   "tags": [
     "nonn"
@@ -14,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

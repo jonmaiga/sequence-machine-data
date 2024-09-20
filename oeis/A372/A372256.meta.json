@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (n-1)!/2^floor((n-1)/2) + floor((n-1)/2).",
+  "id": "A372256",
+  "mentions": [
+    "A370888",
+    "A371217",
+    "A372255"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

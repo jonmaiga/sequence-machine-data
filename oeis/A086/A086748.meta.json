@@ -1,8 +1,12 @@
 {
-  "description": "Numbers m such that when C(2k, k) == 1 (mod m) then k is necessarily even.",
+  "description": "Odd numbers m such that when C(2k, k) == 1 (mod m) then k is necessarily even.",
   "id": "A086748",
   "mentions": [
-    "A000984"
+    "A000984",
+    "A005408",
+    "A007775",
+    "A099976",
+    "A373469"
   ],
   "tags": [
     "nonn"

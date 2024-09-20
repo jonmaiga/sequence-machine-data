@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that difference between n-th prime and next prime is 100.",
+  "description": "Numbers k such that difference between k-th prime and next prime is 100.",
   "id": "A116496",
   "mentions": [
     "A050434",

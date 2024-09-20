@@ -1,7 +1,8 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k even entries that are followed by a smaller entry (n>=1, k>=0).",
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k even entries that are followed by a smaller entry (n>=0, k>=0).",
   "id": "A134434",
   "mentions": [
+    "A000142",
     "A001044",
     "A134435",
     "A136715"
@@ -12,8 +13,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 41,
+    "offset": 0,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

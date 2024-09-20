@@ -1,0 +1,22 @@
+{
+  "description": "Positions of local maxima of the probability that the procedure described in A372422 successfully ends with the selection of a single person.",
+  "id": "A372484",
+  "mentions": [
+    "A372422",
+    "A372482",
+    "A372483",
+    "A372485",
+    "A372486",
+    "A372487"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

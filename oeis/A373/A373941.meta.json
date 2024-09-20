@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose base-2 representation is a \"nested\" palindrome.",
+  "id": "A373941",
+  "mentions": [
+    "A344550",
+    "A373581"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

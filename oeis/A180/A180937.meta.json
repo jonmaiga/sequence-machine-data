@@ -1,14 +1,17 @@
 {
-  "description": "Sigma-decagonal numbers: numbers n such that sigma(n) is a decagonal number, that is, sigma(n)=4*m^2-3m for some nonnegative integer m.",
+  "description": "Sigma-decagonal numbers: numbers k such that sigma(k) is a decagonal number, that is, sigma(k) = 4*m^2 - 3*m for some nonnegative integer m.",
   "id": "A180937",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A001107"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 45,
+    "offset": 1,
+    "size": 44,
     "source": "oeis-bfile"
   }
 }

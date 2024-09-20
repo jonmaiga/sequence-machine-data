@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if the sum of prime factors with repetition is a multiple of 3, otherwise 0.",
+  "id": "A373371",
+  "mentions": [
+    "A001414",
+    "A002476",
+    "A003627",
+    "A038500",
+    "A289142",
+    "A359430",
+    "A369658",
+    "A373372",
+    "A373591",
+    "A373592"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

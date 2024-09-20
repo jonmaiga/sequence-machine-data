@@ -1,0 +1,20 @@
+{
+  "description": "Digits of composite k start as k', where k' is the arithmetic derivative of k.",
+  "id": "A375801",
+  "mentions": [
+    "A003415",
+    "A249540",
+    "A263024",
+    "A375819"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

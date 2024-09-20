@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3+1 is 3-almost prime (product of three primes).",
+  "description": "Numbers k such that k^3+1 is 3-almost prime (product of three primes).",
   "id": "A115403",
   "mentions": [
     "A001093",

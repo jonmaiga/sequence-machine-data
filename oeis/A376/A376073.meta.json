@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions of the congruence y^2 + y == x^3 - x^2 (mod p) as p runs through the primes.",
+  "id": "A376073",
+  "mentions": [
+    "A002070",
+    "A006571",
+    "A060457",
+    "A272196"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

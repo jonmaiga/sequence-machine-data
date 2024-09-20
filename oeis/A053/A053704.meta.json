@@ -2,7 +2,8 @@
   "description": "Prime powers p^w (w >= 2) such that p^w-2 is prime.",
   "id": "A053704",
   "mentions": [
-    "A025475"
+    "A025475",
+    "A053705"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

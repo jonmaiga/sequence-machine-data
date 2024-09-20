@@ -1,5 +1,5 @@
 {
-  "description": "n+phi(n)+phi(phi(n)) is a fourth power.",
+  "description": "Integers k such that k + phi(k) + phi(phi(k)) is a fourth power.",
   "id": "A116041",
   "mentions": [
     "A116040",

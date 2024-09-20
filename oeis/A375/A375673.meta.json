@@ -1,0 +1,21 @@
+{
+  "description": "n and a(n) (with a(n) >= n) are the edges of the minimum-area rectangle such that its area is an integer multiple of its perimeter.",
+  "id": "A375673",
+  "mentions": [
+    "A262767",
+    "A306841",
+    "A329402",
+    "A375674",
+    "A375675",
+    "A375676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

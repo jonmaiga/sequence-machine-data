@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A031971(2*n) == n (mod 2*n).",
+  "description": "Numbers m such that A031971(2*m) == m (mod 2*m).",
   "id": "A229303",
   "mentions": [
     "A014117",

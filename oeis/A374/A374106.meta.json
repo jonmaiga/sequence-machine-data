@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(A113177(n), A328845(n)), where A113177 is fully additive with a(p) = Fibonacci(p) and A328845 is the first Fibonacci-based variant of the arithmetic derivative.",
+  "id": "A374106",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A030426",
+    "A113177",
+    "A328845",
+    "A374035"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

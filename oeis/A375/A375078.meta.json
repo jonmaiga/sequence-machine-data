@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; thereafter a(n) is the number of digits in (n mod 10) already present in the sequence.",
+  "id": "A375078",
+  "mentions": [
+    "A136706",
+    "A136714"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

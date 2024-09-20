@@ -2,6 +2,7 @@
   "description": "First digit of tribonacci sequence A000213.",
   "id": "A186190",
   "mentions": [
+    "A000030",
     "A000213"
   ],
   "tags": [
@@ -9,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 103,
     "source": "joeis"
   }

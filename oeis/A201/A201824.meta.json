@@ -1,7 +1,11 @@
 {
   "description": "G.f.: Sum_{n>=0} log( 1/sqrt(1-2^n*x) )^n / n!.",
   "id": "A201824",
-  "mentions": [],
+  "mentions": [
+    "A002416",
+    "A006127",
+    "A060690"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

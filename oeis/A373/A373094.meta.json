@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k such that A373092(k) = n.",
+  "id": "A373094",
+  "mentions": [
+    "A093653",
+    "A095347",
+    "A373092"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

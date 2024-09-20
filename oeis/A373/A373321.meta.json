@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are their own imbalance when written in French (see the definition of the imbalance in the Comments section).",
+  "id": "A373321",
+  "mentions": [
+    "A083967",
+    "A104059",
+    "A373317"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

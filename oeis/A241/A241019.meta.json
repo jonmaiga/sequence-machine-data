@@ -1,5 +1,5 @@
 {
-  "description": "Let x(1)x(2)... x(n) denote the decimal expansion of a number p having an index j such that x(j) = 1 and x(i) = 3 for i <> j. The sequence lists the smallest index j such that p is prime, or 0 if no such prime exists.",
+  "description": "a(n) is the smallest j such that the n-digit number consisting of a 1 in position j and 3's in the other n-1 positions is a prime, or 0 if no such prime exists.",
   "id": "A241019",
   "mentions": [
     "A241018",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

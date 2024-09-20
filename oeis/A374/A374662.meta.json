@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (1/2)*Product_{k=0..n} (F(k)+2), where F=A000045 (Fibonacci numbers).",
+  "id": "A374662",
+  "mentions": [
+    "A000045",
+    "A082480"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

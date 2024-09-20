@@ -1,0 +1,17 @@
+{
+  "description": "Number of (binary) heaps of length 2n whose element set equals [n].",
+  "id": "A373500",
+  "mentions": [
+    "A056971",
+    "A373451"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

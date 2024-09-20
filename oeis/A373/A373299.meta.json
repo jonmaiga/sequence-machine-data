@@ -1,0 +1,19 @@
+{
+  "description": "Numbers prime(k) such that prime(k) - prime(k-1) = prime(k+2) - prime(k+1).",
+  "id": "A373299",
+  "mentions": [
+    "A001223",
+    "A022885",
+    "A151800",
+    "A263674"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

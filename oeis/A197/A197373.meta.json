@@ -2,7 +2,9 @@
   "description": "T(n,k)=Number of nXk 0..4 arrays with each element x equal to the number of its horizontal and vertical neighbors equal to 2,4,1,0,1 for x=0,1,2,3,4",
   "id": "A197373",
   "mentions": [
-    "A001333"
+    "A001333",
+    "A197368",
+    "A197369"
   ],
   "tags": [
     "nonn",

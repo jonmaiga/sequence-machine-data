@@ -2,6 +2,7 @@
   "description": "A product of consecutive doubled Fibonacci numbers.",
   "id": "A166516",
   "mentions": [
+    "A000045",
     "A001654",
     "A166514"
   ],

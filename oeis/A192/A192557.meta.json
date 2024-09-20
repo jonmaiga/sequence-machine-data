@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum(stirling2(n,k)*stirling2(n+1,k+1)*k!,k=0..n).",
+  "description": "a(n) = Sum_{k=0..n} Stirling2(n,k)*Stirling2(n+1,k+1)*k!.",
   "id": "A192557",
   "mentions": [],
   "tags": [

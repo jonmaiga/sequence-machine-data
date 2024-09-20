@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A062760(n)*A066636(n).",
+  "id": "A373703",
+  "mentions": [
+    "A007947",
+    "A059404",
+    "A062760",
+    "A066636"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

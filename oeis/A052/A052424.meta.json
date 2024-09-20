@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with no single-digit factors (apart from 1 and n).",
+  "description": "Numbers k with no single-digit factors (apart from 1 and k).",
   "id": "A052424",
   "mentions": [
     "A008364"

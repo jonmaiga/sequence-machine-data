@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction expansion of product(k>=1,1+1/2^k) = 2.384231029031371...",
+  "description": "Continued fraction expansion of Product_{k>=1} (1 + 1/2^k) = 2.384231029031371...",
   "id": "A079674",
   "mentions": [
     "A028362",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 97,
     "source": "oeis-entry"
   }

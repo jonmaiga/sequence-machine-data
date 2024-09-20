@@ -2,6 +2,8 @@
   "description": "Fibonacci numbers sandwiched between two numbers having same number of divisors.",
   "id": "A171668",
   "mentions": [
+    "A000005",
+    "A000045",
     "A005237",
     "A005238",
     "A067889",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

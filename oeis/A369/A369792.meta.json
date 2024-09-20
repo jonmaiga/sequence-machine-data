@@ -1,0 +1,15 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of steps in constructing a tree f(n,k) where f(a,b) = f(f(a-1,b), f(a,b-1)), f(0,b) = f(b-1,b-1), f(a,0) = f(a-1,a-1), f(0,0) = 0; n >= 0, k = 0..n.",
+  "id": "A369792",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of multiset permutations of {{1}^n, {2}^n, ..., {n}^n} with no fixed n-tuple {j}^n.",
+  "id": "A375693",
+  "mentions": [
+    "A034841",
+    "A059841",
+    "A306241",
+    "A375694",
+    "A375778"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

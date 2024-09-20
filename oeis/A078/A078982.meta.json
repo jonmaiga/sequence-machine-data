@@ -1,7 +1,9 @@
 {
-  "description": "Denominators of convergents to cosh(1).",
+  "description": "Denominators of continued fraction convergents to cosh(1).",
   "id": "A078982",
   "mentions": [
+    "A068118",
+    "A073743",
     "A078983"
   ],
   "tags": [
@@ -9,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 26,
     "source": "oeis-bfile"
   }

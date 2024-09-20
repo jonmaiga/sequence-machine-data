@@ -1,0 +1,26 @@
+{
+  "description": "Cubefull numbers that are not prime powers.",
+  "id": "A372695",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A007947",
+    "A024619",
+    "A036966",
+    "A065483",
+    "A115964",
+    "A126706",
+    "A152441",
+    "A286708",
+    "A372841"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

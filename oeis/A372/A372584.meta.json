@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of odd digits in odd positions in the decimal expansion of n, where position 1 is the least significant digit.",
+  "id": "A372584",
+  "mentions": [
+    "A000035"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

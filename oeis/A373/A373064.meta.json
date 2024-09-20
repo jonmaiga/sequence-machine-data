@@ -1,0 +1,18 @@
+{
+  "description": "The mode of the digits of n (using largest mode if multimodal).",
+  "id": "A373064",
+  "mentions": [
+    "A054055",
+    "A115353"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

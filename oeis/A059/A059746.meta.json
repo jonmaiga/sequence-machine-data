@@ -1,14 +1,16 @@
 {
   "description": "Numbers k such that 3*2^k + 7 is prime.",
   "id": "A059746",
-  "mentions": [],
+  "mentions": [
+    "A059747"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

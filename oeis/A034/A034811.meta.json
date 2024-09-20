@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of 'nextprime(n) and n and prevprime(n)' is a prime.",
+  "description": "Concatenation of 'nextprime(k) and k and prevprime(k)' is a prime.",
   "id": "A034811",
   "mentions": [
     "A034808",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 54,
     "source": "joeis"
   }

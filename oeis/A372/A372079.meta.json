@@ -1,0 +1,21 @@
+{
+  "description": "Smallest missing number just before A373390(n) is computed.",
+  "id": "A372079",
+  "mentions": [
+    "A372072",
+    "A372073",
+    "A372078",
+    "A372081",
+    "A373390",
+    "A373786",
+    "A373791"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

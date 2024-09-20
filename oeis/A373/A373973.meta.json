@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if n can be expressed as (a^3 + b^3)/(a*b) with b > a >= 1, otherwise 0.",
+  "id": "A373973",
+  "mentions": [
+    "A024670",
+    "A359225",
+    "A373971",
+    "A373974"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,8 +2,12 @@
   "description": "An infinite ternary 3-Fibonacci sequence (replace each 00 factor of the Fibonacci word with 020).",
   "id": "A267860",
   "mentions": [
+    "A001622",
     "A003849",
+    "A019827",
     "A108103",
+    "A187426",
+    "A187798",
     "A270788"
   ],
   "tags": [
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 122,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

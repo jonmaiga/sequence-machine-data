@@ -1,0 +1,15 @@
+{
+  "description": "Value of p^2 + (p-1)^2/2 as p runs through A001359 (the lesser of twin primes).",
+  "id": "A372069",
+  "mentions": [
+    "A001359"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest number that is the digit sum of an n-digit cube.",
+  "id": "A373727",
+  "mentions": [
+    "A018005",
+    "A061439",
+    "A371728",
+    "A373914",
+    "A373994",
+    "A374025"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

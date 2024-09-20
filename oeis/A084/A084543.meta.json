@@ -5,12 +5,13 @@
     "A003148"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

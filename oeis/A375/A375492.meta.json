@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n into powers of two that each divide the sum of previous powers.",
+  "id": "A375492",
+  "mentions": [
+    "A000404",
+    "A003095",
+    "A023359"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

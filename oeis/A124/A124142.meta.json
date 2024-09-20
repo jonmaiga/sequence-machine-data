@@ -1,5 +1,5 @@
 {
-  "description": "Abundant numbers n such that sigma(n) is a perfect power.",
+  "description": "Abundant numbers k such that sigma(k) is a perfect power.",
   "id": "A124142",
   "mentions": [
     "A001597",

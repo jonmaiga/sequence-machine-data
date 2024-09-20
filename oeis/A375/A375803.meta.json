@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Fibonacci(n-1) * Fibonacci(n+1) * Fibonacci(2*n-1) * Fibonacci(2*n+1).",
+  "id": "A375803",
+  "mentions": [
+    "A000045",
+    "A059929",
+    "A064170",
+    "A134944",
+    "A374149",
+    "A375804"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

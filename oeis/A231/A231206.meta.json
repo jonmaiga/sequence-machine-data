@@ -1,5 +1,5 @@
 {
-  "description": "List the number of subsequent terms whose concatenation yields a prime; always use the smallest possible number not occurring earlier.",
+  "description": "List the minimum run lengths of terms whose concatenation yields a prime; always use the smallest (positive) number not occurring earlier.",
   "id": "A231206",
   "mentions": [
     "A231207"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 76,
     "source": "oeis-entry"
   }
 }

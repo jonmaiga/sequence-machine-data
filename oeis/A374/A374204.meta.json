@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimum value of A347381 that it obtains among divisors of n larger than 1. By convention a(1) = 0.",
+  "id": "A374204",
+  "mentions": [
+    "A000203",
+    "A064989",
+    "A252463",
+    "A347381",
+    "A374196",
+    "A374214"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Prime concatenated analog clock numbers read counterclockwise. Version 2: hours > 9 may be split into individual digits.",
+  "id": "A373045",
+  "mentions": [
+    "A036343",
+    "A373044"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X9 0..1 matrices with each 3X3 subblock having the same population",
+  "description": "Number of (n+2) X 9 0..1 matrices with each 3 X 3 subblock having the same population.",
   "id": "A224650",
   "mentions": [
     "A224651"

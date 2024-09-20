@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) is the size of the group Q_p*/(Q_p*)^k, where p = prime(n), and Q_p is the field of p-adic numbers.",
+  "id": "A370067",
+  "mentions": [
+    "A370050",
+    "A370564",
+    "A370565",
+    "A370566",
+    "A370567"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

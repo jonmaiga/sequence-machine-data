@@ -1,0 +1,37 @@
+{
+  "description": "Number of maximal strictly increasing runs in the weakly increasing prime factors of n.",
+  "id": "A375136",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A034296",
+    "A046660",
+    "A055396",
+    "A056239",
+    "A066328",
+    "A112798",
+    "A124768",
+    "A141199",
+    "A141809",
+    "A279790",
+    "A296150",
+    "A320324",
+    "A333213",
+    "A358836",
+    "A374629",
+    "A374683",
+    "A374684",
+    "A374700",
+    "A374706",
+    "A375128"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

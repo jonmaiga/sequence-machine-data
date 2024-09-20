@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 3^p-2^p-2 is also prime.",
+  "description": "Primes p such that 3^p - 2^p - 2 is also prime.",
   "id": "A162712",
   "mentions": [
     "A162713"

@@ -1,8 +1,9 @@
 {
-  "description": "Largest n-digit member of A087597, or 0 if no such number exists.",
+  "description": "Largest n-digit term of A087597, or 0 if no such number exists.",
   "id": "A087600",
   "mentions": [
     "A000217",
+    "A040115",
     "A087597",
     "A087598",
     "A087599"
@@ -12,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 18,
+    "offset": 1,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

@@ -1,7 +1,11 @@
 {
   "description": "Palindromic Fibonacci numbers.",
   "id": "A045504",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A002113",
+    "A372729"
+  ],
   "tags": [
     "base",
     "hard",

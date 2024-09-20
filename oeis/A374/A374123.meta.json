@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A328768(n) mod 360, where A328768 is the first primorial based variant of the arithmetic derivative.",
+  "id": "A374123",
+  "mentions": [
+    "A002110",
+    "A016825",
+    "A042965",
+    "A152822",
+    "A328768",
+    "A372576",
+    "A373992",
+    "A374124",
+    "A374125"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

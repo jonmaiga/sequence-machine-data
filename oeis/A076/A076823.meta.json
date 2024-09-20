@@ -1,5 +1,5 @@
 {
-  "description": "Array of coefficients of 1/det(M_n)*P(M_n) where P(M_n) is the characteristic polynomial of M_n, the n-th n X n Hilbert matrix M_n(i,j)=1/(i+j-1).",
+  "description": "Array of coefficients of 1/det(M_n)*P(M_n) where P(M_n) is the characteristic polynomial of the n-th n X n Hilbert matrix M_n(i,j)=1/(i+j-1).",
   "id": "A076823",
   "mentions": [
     "A005249"

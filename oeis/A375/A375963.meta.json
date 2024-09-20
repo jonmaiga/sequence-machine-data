@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the greatest value in the n-th triangle of A375873.",
+  "id": "A375963",
+  "mentions": [
+    "A000984",
+    "A375873"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

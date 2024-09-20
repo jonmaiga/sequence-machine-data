@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the numerator of ( Sum_{d|n} (n - d) )/tau(n).",
+  "id": "A375080",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A057020",
+    "A057021"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

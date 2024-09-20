@@ -2,7 +2,8 @@
   "description": "Number of graphs on n nodes with 3 cliques.",
   "id": "A005289",
   "mentions": [
-    "A000051"
+    "A000051",
+    "A057078"
   ],
   "tags": [
     "easy",

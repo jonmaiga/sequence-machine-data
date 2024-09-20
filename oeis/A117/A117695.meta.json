@@ -1,5 +1,5 @@
 {
-  "description": "Number of different pairs of different numbers, with digits different from zero, that produce a sum equal to 0, 1, 2, 3, 4, 5, 6, 7, 8, etc.",
+  "description": "a(n) is the number of pairs of distinct positive integers not containing a digit 0 giving a sum equal to n.",
   "id": "A117695",
   "mentions": [
     "A117644"
@@ -9,8 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 77,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

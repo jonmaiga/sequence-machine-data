@@ -1,7 +1,9 @@
 {
   "description": "a(n) = order of the n-th Zassenhaus nearfield.",
   "id": "A270368",
-  "mentions": [],
+  "mentions": [
+    "A374524"
+  ],
   "tags": [
     "more",
     "nonn"

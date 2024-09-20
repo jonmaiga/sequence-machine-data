@@ -2,15 +2,18 @@
   "description": "Number of letters in Spanish words for months of the year.",
   "id": "A161376",
   "mentions": [
-    "A031139"
+    "A031139",
+    "A182495"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn",
     "word"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 84,
     "source": "joeis"
   }
 }

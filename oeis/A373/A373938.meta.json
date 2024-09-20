@@ -1,0 +1,18 @@
+{
+  "description": "Number of k in the range s(1), ..., s(n-1) such that gcd(k, s(n)) > 1, where s = A089088.",
+  "id": "A373938",
+  "mentions": [
+    "A064413",
+    "A089088",
+    "A373390",
+    "A373880"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

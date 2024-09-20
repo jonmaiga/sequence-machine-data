@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(n-k) * k! * k^(n-3) * Stirling2(n,k).",
+  "id": "A373872",
+  "mentions": [
+    "A092552",
+    "A220181",
+    "A373869",
+    "A373870",
+    "A373871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

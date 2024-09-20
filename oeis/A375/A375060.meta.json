@@ -1,0 +1,17 @@
+{
+  "description": "Values of k for which A374966(k) = 0.",
+  "id": "A375060",
+  "mentions": [
+    "A374966"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,10 @@
 {
-  "description": "Primes of the form (3^x-1)/2 or (3^x+1)/2.",
+  "description": "Primes of the form (3^k-1)/2 or (3^k+1)/2.",
   "id": "A088553",
   "mentions": [
-    "A096723"
+    "A028491",
+    "A096723",
+    "A171381"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

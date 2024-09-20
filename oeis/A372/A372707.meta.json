@@ -1,0 +1,15 @@
+{
+  "description": "Smallest natural number requiring n applications of the map x -> 2^x mod x = A015910(x) to reach 0.",
+  "id": "A372707",
+  "mentions": [
+    "A015910"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

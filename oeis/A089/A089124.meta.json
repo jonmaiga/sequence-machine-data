@@ -1,11 +1,14 @@
 {
-  "description": "Largest prime factor of numbers of the form A^2 + 3.",
+  "description": "Largest prime factor of n^2 + 3.",
   "id": "A089124",
   "mentions": [
-    "A049423"
+    "A006530",
+    "A049423",
+    "A117950"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

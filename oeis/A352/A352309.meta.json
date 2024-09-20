@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f.: 1/(exp(x) - x^2/2).",
+  "description": "Expansion of e.g.f. 1/(exp(x) - x^2/2).",
   "id": "A352309",
   "mentions": [
     "A089148",

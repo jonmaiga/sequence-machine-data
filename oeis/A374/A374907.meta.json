@@ -1,0 +1,25 @@
+{
+  "description": "Number whose divisors have a mean number of divisors that attains a record value.",
+  "id": "A374907",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A007425",
+    "A025487",
+    "A301414",
+    "A308912",
+    "A374902",
+    "A374903",
+    "A374904",
+    "A374905",
+    "A374906"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

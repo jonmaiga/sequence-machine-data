@@ -1,5 +1,5 @@
 {
-  "description": "(Prime(n + 1) - Prime(n))/2 (mod 2).",
+  "description": "a(n) = (prime(n + 1) - prime(n))/2 (mod 2).",
   "id": "A104120",
   "mentions": [
     "A001223",
@@ -9,6 +9,7 @@
     "A330561"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

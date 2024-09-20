@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; a(n+1) = 10*a(n) + A010888(a(n)), where A010888 = digital root.",
+  "id": "A375101",
+  "mentions": [
+    "A010888"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

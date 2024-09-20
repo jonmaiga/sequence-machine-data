@@ -1,0 +1,17 @@
+{
+  "description": "Indices of the Sylvester primes (A375543) in the primes (A000040).",
+  "id": "A375545",
+  "mentions": [
+    "A000040",
+    "A375543"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "a(n) = C(3n,n) - C(2n,n).",
   "id": "A000846",
-  "mentions": [],
+  "mentions": [
+    "A000984",
+    "A005809"
+  ],
   "tags": [
     "easy",
     "formulas",

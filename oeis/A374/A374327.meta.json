@@ -1,0 +1,23 @@
+{
+  "description": "The maximal exponent in the prime factorization of the numbers whose maximal exponent in their prime factorization is a power of 2.",
+  "id": "A374327",
+  "mentions": [
+    "A051903",
+    "A369933",
+    "A369938",
+    "A374324",
+    "A374325",
+    "A374326",
+    "A374328"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

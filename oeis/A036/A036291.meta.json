@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n*5^n.",
   "id": "A036291",
-  "mentions": [],
+  "mentions": [
+    "A000351",
+    "A053464"
+  ],
   "tags": [
     "easy",
     "formulas",

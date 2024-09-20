@@ -1,0 +1,19 @@
+{
+  "description": "Number of free n-celled polyominoes to which two inequivalent cells can be adjoined such that the two resulting free (n+1)-celled polyominoes are identical.",
+  "id": "A373635",
+  "mentions": [
+    "A255890",
+    "A367758",
+    "A373636",
+    "A373637"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

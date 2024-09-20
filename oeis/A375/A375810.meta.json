@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - (exp(x^2) - 1)/x)^2.",
+  "id": "A375810",
+  "mentions": [
+    "A375664",
+    "A375795",
+    "A375811"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

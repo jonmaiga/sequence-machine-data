@@ -1,0 +1,31 @@
+{
+  "description": "6th prepended column of the 3-Zeckendorf array (A136189).",
+  "id": "A372759",
+  "mentions": [
+    "A000930",
+    "A005374",
+    "A020942",
+    "A023443",
+    "A064105",
+    "A064106",
+    "A136189",
+    "A136495",
+    "A202342",
+    "A350215",
+    "A372749",
+    "A372750",
+    "A372752",
+    "A372756",
+    "A372757",
+    "A372758",
+    "A372760"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

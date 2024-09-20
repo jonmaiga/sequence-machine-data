@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there is no prime of the form 2n + p^2 for any prime p.",
+  "description": "Numbers k such that there is no prime of the form 2k + p^2 for any prime p.",
   "id": "A138685",
   "mentions": [
     "A138479",

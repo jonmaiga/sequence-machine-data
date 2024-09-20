@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the determinant of the 4 X 4 matrix whose k-th entry (listed by rows) is the n-th prime that is congruent to 2*k-1 (mod 32).",
+  "description": "a(n) is the determinant of the 4 X 4 matrix whose k-th entry (when read by rows) is the n-th prime that is congruent to 2*k-1 (mod 32).",
   "id": "A335581",
   "mentions": [
     "A335582",

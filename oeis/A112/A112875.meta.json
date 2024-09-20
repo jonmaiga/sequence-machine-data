@@ -1,15 +1,19 @@
 {
   "description": "Product of digits of n-th base 10 palindrome.",
   "id": "A112875",
-  "mentions": [],
+  "mentions": [
+    "A002113",
+    "A007954"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

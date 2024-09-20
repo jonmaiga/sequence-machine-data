@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of two distinct nonzero n-gonal numbers in exactly n ways, or -1 if no such number exists.",
+  "id": "A374144",
+  "mentions": [
+    "A057145",
+    "A093195",
+    "A332989",
+    "A342326",
+    "A350405",
+    "A374141",
+    "A374142",
+    "A374143"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

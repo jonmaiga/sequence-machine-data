@@ -1,13 +1,17 @@
 {
-  "description": "Cubes such that digits of cube root of n are not present in n^(2/3) or n.",
+  "description": "Cubes k such that digits of cube root of k are not present in k^(2/3) or k.",
   "id": "A029792",
-  "mentions": [],
+  "mentions": [
+    "A029790",
+    "A029791"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 23,
     "source": "joeis"
   }

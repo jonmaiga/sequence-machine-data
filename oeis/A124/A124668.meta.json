@@ -1,7 +1,9 @@
 {
   "description": "Numbers that together with their prime factors contain every digit exactly once.",
   "id": "A124668",
-  "mentions": [],
+  "mentions": [
+    "A273260"
+  ],
   "tags": [
     "base",
     "fini",

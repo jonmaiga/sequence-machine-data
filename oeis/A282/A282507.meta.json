@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array read by rows. T(n,k) is the number of chain topologies on an n-set with exactly k open sets where one of the open sets is a single point set, n>=2, 3<=k<=n+1.",
+  "description": "Triangular array read by rows. T(n,k) is the number of chain topologies on an n-set with exactly k open sets where one of the open sets is a single point set, n >= 2, 3 <= k <= n+1.",
   "id": "A282507",
   "mentions": [
     "A019538",

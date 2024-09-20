@@ -1,0 +1,22 @@
+{
+  "description": "Place n equally spaced points on the circumference of a circle of radius r and then connect each pair of points with straight lines whose intersections create A007569(n) - n additional points. Draw a circle of radius r around each of the A007569(n) points. The sequence gives the total number of curved edges formed from all circle intersections.",
+  "id": "A374827",
+  "mentions": [
+    "A007569",
+    "A183207",
+    "A374339",
+    "A374825",
+    "A374826",
+    "A374828"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

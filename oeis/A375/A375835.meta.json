@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of chains of length k in the poset of permutations of an n-set.",
+  "id": "A375835",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A006472",
+    "A048994",
+    "A132393",
+    "A330804",
+    "A331955",
+    "A331956",
+    "A331957",
+    "A375836"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

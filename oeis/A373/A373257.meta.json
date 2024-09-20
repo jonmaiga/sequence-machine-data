@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which A003415(k) == -1 (mod 3), where A003415 is the arithmetic derivative.",
+  "id": "A373257",
+  "mentions": [
+    "A003415",
+    "A327863",
+    "A373253",
+    "A373255",
+    "A373256"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(q*r) mod p for n-th odd number with exactly 3 distinct prime factors p",
+  "description": "a(n) = 2^(q*r) mod p for the n-th odd number with exactly 3 distinct prime factors p < q < r.",
   "id": "A180258",
   "mentions": [
     "A046389",

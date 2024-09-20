@@ -1,7 +1,9 @@
 {
-  "description": "a(n+1) = a(n) + rotate( a(n), 1 digit left).",
+  "description": "a(n) = a(n-1) + rotate( a(n-1), 1 digit left), a(1) = 1.",
   "id": "A051299",
-  "mentions": [],
+  "mentions": [
+    "A051300"
+  ],
   "tags": [
     "base",
     "easy",

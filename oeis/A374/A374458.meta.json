@@ -1,0 +1,25 @@
+{
+  "description": "Squares of exponentially odd numbers (A268335).",
+  "id": "A374458",
+  "mentions": [
+    "A000290",
+    "A013662",
+    "A016825",
+    "A030140",
+    "A062503",
+    "A085986",
+    "A153158",
+    "A268335",
+    "A374291"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

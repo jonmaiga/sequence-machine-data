@@ -1,12 +1,13 @@
 {
-  "description": "Numbers n such that n! + p is a prime, where p is the smallest prime > n.",
+  "description": "Numbers m such that m! + p is a prime, where p is the smallest prime > m.",
   "id": "A084749",
   "mentions": [
     "A002981",
     "A064278",
     "A084748",
     "A084750",
-    "A092028"
+    "A092028",
+    "A151892"
   ],
   "tags": [
     "more",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

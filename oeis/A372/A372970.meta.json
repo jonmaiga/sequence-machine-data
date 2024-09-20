@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1, then a(n) = floor(n/max(a(n-1),a(floor(n/2)))).",
+  "id": "A372970",
+  "mentions": [
+    "A097051",
+    "A372971"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

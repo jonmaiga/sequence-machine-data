@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for Gamma(5/4).",
   "id": "A068151",
-  "mentions": [],
+  "mentions": [
+    "A068467"
+  ],
   "tags": [
     "cofr",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 90,
     "source": "joeis"
   }

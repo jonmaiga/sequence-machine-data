@@ -2,10 +2,13 @@
   "description": "a(n) = binomial(6*n,2*n)/3, n>0, a(0)=1.",
   "id": "A259613",
   "mentions": [
+    "A001448",
+    "A001450",
     "A025174",
     "A182959"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(m,n) = number of matchings (i.e., Hosoya index) in the stacked prism graph C_m X P_n.",
+  "description": "Array read by antidiagonals: T(m,n) is the number of matchings in the stacked prism graph C_m X P_n.",
   "id": "A287428",
   "mentions": [
     "A028420",

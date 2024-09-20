@@ -2,15 +2,17 @@
   "description": "a(n) = number of max-closed 2 X 2 X n relations.",
   "id": "A370966",
   "mentions": [
-    "A370967"
+    "A370967",
+    "A371761"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
   }
 }

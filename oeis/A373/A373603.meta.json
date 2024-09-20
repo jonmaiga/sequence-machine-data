@@ -1,0 +1,25 @@
+{
+  "description": "The second smallest k such that A003415(k) == A276086(k) mod A002110(n), or -1 if no such k exists, where A003415 is the arithmetic derivative, A276086 is the primorial base exp-function, and A002110 gives the n-th primorial.",
+  "id": "A373603",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A143293",
+    "A276086",
+    "A351228",
+    "A368703",
+    "A371104",
+    "A373848",
+    "A373849"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

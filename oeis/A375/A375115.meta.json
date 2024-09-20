@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the pairs (a(n) AND a(n+1), a(n+1)) are all distinct (where AND denotes the bitwise AND operator).",
+  "id": "A375115",
+  "mentions": [
+    "A001316",
+    "A375110"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

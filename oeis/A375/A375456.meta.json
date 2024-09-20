@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying x = A( A(x) - 2*A(x)^2*A'(x) ).",
+  "id": "A375456",
+  "mentions": [
+    "A219608"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

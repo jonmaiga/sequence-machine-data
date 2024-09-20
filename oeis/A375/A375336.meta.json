@@ -1,0 +1,19 @@
+{
+  "description": "For n>=4, irregular triangular array of successive integer solutions to sqrt((d-c)*b^2 + c*(b+1)^2) for square integers d = n^2, where b and c are positive integers and c < d, read by rows.",
+  "id": "A375336",
+  "mentions": [
+    "A080782",
+    "A374602"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

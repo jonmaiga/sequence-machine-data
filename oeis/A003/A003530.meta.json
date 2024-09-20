@@ -1,7 +1,9 @@
 {
   "description": "Divisors of 2^21 - 1.",
   "id": "A003530",
-  "mentions": [],
+  "mentions": [
+    "A361438"
+  ],
   "tags": [
     "easy",
     "fini",

@@ -2,9 +2,14 @@
   "description": "Numbers n such that n=pi(d_1!*d_2!*...*d_k!) where d_1 d_2 ... d_k is the decimal expansion of n.",
   "id": "A110070",
   "mentions": [
+    "A097220",
     "A097223",
     "A097227",
-    "A110071"
+    "A098683",
+    "A098684",
+    "A098685",
+    "A110071",
+    "A110072"
   ],
   "tags": [
     "base",

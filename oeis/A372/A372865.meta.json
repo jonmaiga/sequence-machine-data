@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (Sum_{k = 1..n-1} k*a(k)) (mod n) with a(1) = 1.",
+  "id": "A372865",
+  "mentions": [
+    "A066910",
+    "A073117",
+    "A074482",
+    "A094405",
+    "A117846",
+    "A253387"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

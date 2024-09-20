@@ -1,0 +1,18 @@
+{
+  "description": "The fixed point of the iterations of the map x -> A093653(x) that start at n.",
+  "id": "A373093",
+  "mentions": [
+    "A093653",
+    "A373092"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

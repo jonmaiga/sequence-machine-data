@@ -1,7 +1,10 @@
 {
   "description": "Difference between the (10^n)-th prime and the Riemann-Gram approximation of the (10^n)-th prime.",
   "id": "A123233",
-  "mentions": [],
+  "mentions": [
+    "A006988",
+    "A121046"
+  ],
   "tags": [
     "formulas",
     "hard",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

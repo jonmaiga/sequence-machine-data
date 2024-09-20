@@ -1,16 +1,14 @@
 {
   "description": "A finite irregular triangle.",
   "id": "A155123",
-  "mentions": [
-    "A142463"
-  ],
+  "mentions": [],
   "tags": [
     "fini",
+    "formulas",
     "full",
     "less",
     "sign",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
     "offset": 0,

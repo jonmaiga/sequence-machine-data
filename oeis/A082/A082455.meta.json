@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = prime(n) + prime(n-1) + a(n-1), a(0) = 0, a(1) = 4.",
+  "description": "a(n) = prime(n) + prime(n-1) - a(n-1), a(0) = 0, a(1) = 4.",
   "id": "A082455",
   "mentions": [
     "A000040",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "a(0)=1; thereafter, a(n) = denominator of Sum_{i=1..n} A376043(i)/A376043(i+1).",
+  "id": "A376044",
+  "mentions": [
+    "A376043"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

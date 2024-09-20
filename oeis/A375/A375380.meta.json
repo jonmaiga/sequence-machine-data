@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence S of distinct nonnegative integers such that 9 out of the last 10 digits of S always sum to a square.",
+  "id": "A375380",
+  "mentions": [
+    "A352000"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

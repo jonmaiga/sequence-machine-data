@@ -1,5 +1,5 @@
 {
-  "description": "Nonprimes such that (2^(n-1) mod n)=(4^(n-1) mod n).",
+  "description": "Nonprimes k such that 2^(k-1) == 4^(k-1) (mod k).",
   "id": "A176817",
   "mentions": [
     "A062173",

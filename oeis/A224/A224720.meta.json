@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+3)X(n+3) 0..2 matrices with each 4X4 subblock idempotent",
+  "description": "Number of (n+3) X (n+3) 0..2 matrices with each 4 X 4 subblock idempotent.",
   "id": "A224720",
   "mentions": [
     "A224728"

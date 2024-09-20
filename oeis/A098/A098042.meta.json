@@ -1,14 +1,18 @@
 {
-  "description": "Numbers p such that p = (prime(prime(n))+ prime(prime(n+1)))/2 is prime.",
+  "description": "Primes of the form (prime(prime(k)) + prime(prime(k+1)))/2.",
   "id": "A098042",
-  "mentions": [],
+  "mentions": [
+    "A006450",
+    "A098043",
+    "A299644"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

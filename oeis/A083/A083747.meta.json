@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m such that n followed by m ones yields a prime; a(p) = 0 because 0 ones are necessary to yield a prime.",
+  "description": "Smallest number m >= 0 such that n followed by m ones yields a prime; a(p) = -1 if no such m exists.",
   "id": "A083747",
   "mentions": [
     "A069568"

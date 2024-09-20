@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(Integral_{t=0..n} floor(exp(t)) dt). The Waldvogel sequence.",
+  "id": "A374185",
+  "mentions": [
+    "A128104",
+    "A245285",
+    "A374186"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

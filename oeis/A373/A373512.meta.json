@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - 16*x^8)^(1/8)).",
+  "id": "A373512",
+  "mentions": [
+    "A098615",
+    "A373509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

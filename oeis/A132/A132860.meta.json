@@ -2,7 +2,6 @@
   "description": "Smallest number at distance 2n from nearest prime (variant 2).",
   "id": "A132860",
   "mentions": [
-    "A051669",
     "A051699",
     "A051700",
     "A051728"

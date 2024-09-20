@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n * binomial(floor(log_2(n)) + 1, 2).",
+  "id": "A374730",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A000523",
+    "A001815"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

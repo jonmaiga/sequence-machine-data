@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. (1-x)/(1-x-x^2-x^3+x^4).",
+  "description": "Expansion of e..g.f.: (1-x)/(1-x-x^2-x^3+x^4).",
   "id": "A052588",
   "mentions": [
     "A052527"

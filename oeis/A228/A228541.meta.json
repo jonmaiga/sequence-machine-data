@@ -2,6 +2,7 @@
   "description": "Numbers having at least one prime factor of the form 30*k + 1.",
   "id": "A228541",
   "mentions": [
+    "A008683",
     "A132230",
     "A228556"
   ],

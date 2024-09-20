@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if A374200(n) = 1, otherwise 0, where A374200 is the minimum value of A347381 that it obtains among unitary divisors of n larger than 1.",
+  "id": "A374220",
+  "mentions": [
+    "A000203",
+    "A005940",
+    "A347381",
+    "A374200",
+    "A374221"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

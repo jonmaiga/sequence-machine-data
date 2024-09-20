@@ -1,0 +1,19 @@
+{
+  "description": "Sum over all compositions of 2n into n parts of the least common multiple of the parts.",
+  "id": "A373865",
+  "mentions": [
+    "A005430",
+    "A165817",
+    "A181851",
+    "A260878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

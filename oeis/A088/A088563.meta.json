@@ -2,7 +2,10 @@
   "description": "Primes p such that the p-th digit in the decimal expansion of Pi is 0.",
   "id": "A088563",
   "mentions": [
-    "A014976"
+    "A000796",
+    "A014976",
+    "A088565",
+    "A088566"
   ],
   "tags": [
     "base",

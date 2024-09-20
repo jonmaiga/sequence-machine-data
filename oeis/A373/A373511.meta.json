@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - 49*x^7)^(1/7)).",
+  "id": "A373511",
+  "mentions": [
+    "A066872",
+    "A098615",
+    "A371458",
+    "A373510"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Floor[Product of next n even numbers divided by product of first n odd numbers].",
+  "description": "a(n) = floor((product of next n even numbers) / (product of first n odd numbers)).",
   "id": "A092934",
   "mentions": [
     "A001147",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

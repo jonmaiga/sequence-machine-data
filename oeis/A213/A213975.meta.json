@@ -2,7 +2,6 @@
   "description": "List of subwords of A003842 arranged in lexicographic order.",
   "id": "A213975",
   "mentions": [
-    "A003482",
     "A003842",
     "A003849",
     "A214207",

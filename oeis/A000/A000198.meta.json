@@ -2,7 +2,9 @@
   "description": "Largest order of automorphism group of a tournament with n nodes.",
   "id": "A000198",
   "mentions": [
-    "A002086"
+    "A000568",
+    "A002086",
+    "A374164"
   ],
   "tags": [
     "formulas",

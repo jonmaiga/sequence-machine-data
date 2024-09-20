@@ -2,7 +2,6 @@
   "description": "Fixed point of the mapping 00->0010, 1->10, starting with 00.",
   "id": "A287931",
   "mentions": [
-    "A278381",
     "A287379",
     "A287380",
     "A287381"

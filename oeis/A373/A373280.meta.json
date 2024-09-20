@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>=0} x^(4^k) / (1 - 4*x^(4^k)).",
+  "id": "A373280",
+  "mentions": [
+    "A000302",
+    "A115362",
+    "A187767",
+    "A373279",
+    "A373281",
+    "A373282",
+    "A373283"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

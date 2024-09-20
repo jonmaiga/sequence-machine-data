@@ -1,0 +1,21 @@
+{
+  "description": "The 3-adic valuation of A276085(n), where A276085 is the primorial base log-function.",
+  "id": "A374133",
+  "mentions": [
+    "A007949",
+    "A276085",
+    "A339746",
+    "A372573",
+    "A373153",
+    "A374132"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

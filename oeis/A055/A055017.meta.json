@@ -1,5 +1,5 @@
 {
-  "description": "Difference between sums of alternate digits of n starting with the last, i.e., (Sum of ultimate digit of n, antepenultimate digit of n,...)-(sum of penultimate digit of n, preantepenultimate digit of n,...).",
+  "description": "Difference between sums of alternate digits of n starting with the last, i.e., (sum of ultimate digit of n, antepenultimate digit of n, ...) - (sum of penultimate digit of n, preantepenultimate digit of n, ...).",
   "id": "A055017",
   "mentions": [
     "A003132",
@@ -8,9 +8,18 @@
     "A040114",
     "A040115",
     "A040997",
+    "A065359",
+    "A065368",
     "A076313",
     "A076314",
-    "A225693"
+    "A225693",
+    "A346688",
+    "A346689",
+    "A346690",
+    "A346691",
+    "A346731",
+    "A346732",
+    "A373605"
   ],
   "tags": [
     "base",

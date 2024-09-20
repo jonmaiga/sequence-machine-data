@@ -1,14 +1,17 @@
 {
-  "description": "n-th Catalan number has only one non-unitary prime-divisor; all other prime factors have exponent one.",
+  "description": "Number k such that the k-th Catalan number has only one non-unitary prime divisor; all the other prime divisors have exponent one.",
   "id": "A081390",
   "mentions": [
     "A000108",
     "A080405",
     "A080664",
     "A081386",
+    "A081387",
+    "A081388",
     "A081389"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

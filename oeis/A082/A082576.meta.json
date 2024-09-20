@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that n^n has final digits the same as all digits of n.",
+  "description": "Numbers k such that k^k has final digits the same as all the digits of k.",
   "id": "A082576",
   "mentions": [
     "A002283"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

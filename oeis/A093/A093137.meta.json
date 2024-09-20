@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-7*x)/((1-x)(1-10*x)).",
+  "description": "Expansion of (1-7*x)/((1-x)*(1-10*x)).",
   "id": "A093137",
   "mentions": [
     "A001045",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

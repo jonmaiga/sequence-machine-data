@@ -1,0 +1,20 @@
+{
+  "description": "Greatest common divisor of n and its prime shadow: a(n) = gcd(n, A181819(n)).",
+  "id": "A373246",
+  "mentions": [
+    "A181819",
+    "A325755",
+    "A353566",
+    "A373247",
+    "A373249"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

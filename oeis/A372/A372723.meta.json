@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: Column k has e.g.f. t^k / ((1 - t)^(k + 1) * exp(t)).",
+  "id": "A372723",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000354",
+    "A033999",
+    "A062119",
+    "A372716"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} sigma( (n/gcd(k,n))^n ).",
+  "id": "A373004",
+  "mentions": [
+    "A005117",
+    "A007778",
+    "A062952",
+    "A372227",
+    "A372998",
+    "A373000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

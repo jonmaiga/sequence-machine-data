@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of lattice polygons contained in a square of side length n but not in a square of side length n-1.",
+  "id": "A374975",
+  "mentions": [
+    "A187015",
+    "A322343",
+    "A371917"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

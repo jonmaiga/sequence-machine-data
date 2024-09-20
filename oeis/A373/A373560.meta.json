@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest multiple of prime(n)^2 that starts a run of 5 consecutive integers with 6 divisors, or -1 if no such multiple exists.",
+  "id": "A373560",
+  "mentions": [
+    "A001132",
+    "A030515",
+    "A042999",
+    "A054753",
+    "A141621"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

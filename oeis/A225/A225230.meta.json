@@ -1,5 +1,5 @@
 {
-  "description": "In canonical prime factorization of n: (number of distinct primes) minus (largest prime exponent).",
+  "description": "In the canonical prime factorization of n: (number of distinct primes) minus (largest prime exponent).",
   "id": "A225230",
   "mentions": [
     "A001221",

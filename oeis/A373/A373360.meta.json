@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A373347.",
+  "id": "A373360",
+  "mentions": [
+    "A373303",
+    "A373347"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

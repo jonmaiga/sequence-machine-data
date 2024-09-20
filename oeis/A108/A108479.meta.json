@@ -1,8 +1,11 @@
 {
-  "description": "Anti-diagonal sums of number triangle A086645.",
+  "description": "Antidiagonal sums of number triangle A086645.",
   "id": "A108479",
   "mentions": [
-    "A086645"
+    "A005252",
+    "A051286",
+    "A086645",
+    "A182890"
   ],
   "tags": [
     "easy",

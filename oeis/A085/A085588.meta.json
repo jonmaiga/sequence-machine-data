@@ -1,9 +1,13 @@
 {
-  "description": "Maximal cycle lengths in a certain class of one-dimensional cellular automata.",
+  "description": "Eventual period of a single cell in rule 150 cellular automaton in a cyclic universe of width n.",
   "id": "A085588",
   "mentions": [
+    "A007814",
     "A085587",
-    "A085595"
+    "A085595",
+    "A091090",
+    "A115770",
+    "A309786"
   ],
   "tags": [
     "nonn"
@@ -11,6 +15,6 @@
   "terms": {
     "offset": 3,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

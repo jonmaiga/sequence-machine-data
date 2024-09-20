@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n*tanh(Pi/2)).",
+  "id": "A372822",
+  "mentions": [
+    "A000796",
+    "A344505",
+    "A367960",
+    "A374323"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

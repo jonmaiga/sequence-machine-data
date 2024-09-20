@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of 'prevprime(n) and n' is a prime.",
+  "description": "Concatenation of 'prevprime(k) and k' is a prime.",
   "id": "A034808",
   "mentions": [
     "A007917",
@@ -12,7 +12,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 54,
     "source": "joeis"
   }

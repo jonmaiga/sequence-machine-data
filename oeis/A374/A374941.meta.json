@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (sum of proper prime factors of n) + Sum_{d = proper composite factor of n} a(d).",
+  "id": "A374941",
+  "mentions": [
+    "A371075"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

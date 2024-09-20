@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the greatest common divisor of A001414(n), A003415(n), and A276085(n).",
+  "id": "A373367",
+  "mentions": [
+    "A001414",
+    "A003415",
+    "A276085",
+    "A345452",
+    "A358776",
+    "A368998",
+    "A373145",
+    "A373362",
+    "A373364",
+    "A373375"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

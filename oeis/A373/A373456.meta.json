@@ -1,0 +1,18 @@
+{
+  "description": "Number of tree interval posets of permutations of size n, considered up to isomorphism.",
+  "id": "A373456",
+  "mentions": [
+    "A054515",
+    "A348479",
+    "A373455"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

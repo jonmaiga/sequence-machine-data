@@ -1,0 +1,26 @@
+{
+  "description": "Squares of powerful numbers.",
+  "id": "A374291",
+  "mentions": [
+    "A000290",
+    "A001694",
+    "A007947",
+    "A036966",
+    "A036967",
+    "A078615",
+    "A322449",
+    "A335988",
+    "A337050",
+    "A340588"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

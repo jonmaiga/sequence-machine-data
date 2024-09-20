@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the numerator of the probability that the procedure described in A372422 successfully ends with the selection of a single person, starting with n persons.",
+  "id": "A372482",
+  "mentions": [
+    "A372422",
+    "A372423",
+    "A372424",
+    "A372425",
+    "A372480",
+    "A372483",
+    "A372484",
+    "A372485",
+    "A372486",
+    "A372487"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

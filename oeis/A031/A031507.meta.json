@@ -1,15 +1,20 @@
 {
-  "description": "Smallest k>0 such that the elliptic curve y^2 = x^3 + k has rank n, if k exists.",
+  "description": "a(n) = smallest k>0 such that the elliptic curve y^2 = x^3 + k has rank n, or -1 if no such k exists.",
   "id": "A031507",
   "mentions": [
     "A001014",
-    "A002151",
-    "A002153",
+    "A002150",
     "A002155",
     "A031508",
+    "A056233",
     "A060950",
+    "A060951",
+    "A081119",
     "A102833",
-    "A179124"
+    "A179124",
+    "A179136",
+    "A179137",
+    "A373795"
   ],
   "tags": [
     "formulas",

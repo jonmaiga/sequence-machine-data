@@ -1,0 +1,17 @@
+{
+  "description": "T(n,k) for n >= 1, k <= n is the maximum value in the intersection of the Collatz trajectories of n and k, where a trajectory ends when it reaches 1. T(n,k) is a triangle read by rows.",
+  "id": "A375955",
+  "mentions": [
+    "A025586"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

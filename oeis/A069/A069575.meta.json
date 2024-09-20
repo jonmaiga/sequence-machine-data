@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that n contains the digit 0 in no base b with 2 < b < n.",
+  "description": "Numbers k >= 4 such that k contains the digit 0 in no base b with 2 < b < k.",
   "id": "A069575",
   "mentions": [],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

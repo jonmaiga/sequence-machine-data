@@ -1,5 +1,5 @@
 {
-  "description": "Self-locating strings within Pi: numbers n such that the string n is at position n in the decimal digits of Pi, where 1 is the first digit.",
+  "description": "Self-locating strings within Pi: numbers n such that the string n is at position n in the decimal digits of Pi, where the initial digit 3 is at position 0.",
   "id": "A057680",
   "mentions": [
     "A000796",

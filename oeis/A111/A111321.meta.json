@@ -1,7 +1,19 @@
 {
-  "description": "Numbers n such that 7 divides prime(1)+...+prime(n).",
+  "description": "Numbers k such that 7 divides prime(1) + ... + prime(k).",
   "id": "A111321",
-  "mentions": [],
+  "mentions": [
+    "A007504",
+    "A103208",
+    "A111318",
+    "A111319",
+    "A111320",
+    "A111322",
+    "A111323",
+    "A111324",
+    "A111325",
+    "A111326",
+    "A111327"
+  ],
   "tags": [
     "nonn"
   ],

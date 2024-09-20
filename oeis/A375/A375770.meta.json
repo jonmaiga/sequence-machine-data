@@ -1,0 +1,18 @@
+{
+  "description": "In an n X n grid draw straight walls between cells, starting at a border, such that the resulting figure is connected and has only one-cell wide paths; a(n) is the number of solutions distinct under reflections and rotations.",
+  "id": "A375770",
+  "mentions": [
+    "A349718",
+    "A375817",
+    "A375859",
+    "A375860"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

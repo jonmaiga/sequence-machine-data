@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of 6 distinct positive n-th powers in exactly 4 ways, or -1 if no such number exists.",
+  "id": "A375333",
+  "mentions": [
+    "A046881",
+    "A342900",
+    "A374418",
+    "A374421",
+    "A374422",
+    "A374423",
+    "A374424",
+    "A374425",
+    "A375329",
+    "A375330",
+    "A375331",
+    "A375332",
+    "A375334"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

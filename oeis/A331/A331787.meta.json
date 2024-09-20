@@ -1,5 +1,5 @@
 {
-  "description": "T(b,n) is the largest m such that there exists N such that none of S(N), S(N+1), ..., S(N+m-1) is divisible by n, where S(N) is the sum of digits of N in base b. Square array read by ascending diagonals.",
+  "description": "T(b,n) is the largest m such that there exists N such that none of S(N), S(N+1), ..., S(N+m-1) is divisible by n, where S(N) is the sum of digits of N in base b. Square array read by ascending antidiagonals.",
   "id": "A331787",
   "mentions": [
     "A000918",

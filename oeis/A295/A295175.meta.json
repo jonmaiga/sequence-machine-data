@@ -1,14 +1,15 @@
 {
   "description": "Chromatic invariant of the n-Hanoi graph.",
   "id": "A295175",
-  "mentions": [],
+  "mentions": [
+    "A288839"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 5,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

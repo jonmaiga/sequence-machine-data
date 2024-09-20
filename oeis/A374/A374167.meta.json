@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the largest k such that the binary representation of prime(n), when interpreted as a base-b number, yields a prime for every b in 2..k.",
+  "id": "A374167",
+  "mentions": [
+    "A235266",
+    "A374264"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

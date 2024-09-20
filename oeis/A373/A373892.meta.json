@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the smallest number that can be partitioned in exactly n ways as the sum of two Duffinian numbers (A003624).",
+  "id": "A373892",
+  "mentions": [
+    "A003624"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

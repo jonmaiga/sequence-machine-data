@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-4*x)*(1-6*x)).",
+  "description": "Expansion of g.f. 1/((1 - 4*x)*(1 - 6*x)).",
   "id": "A016149",
   "mentions": [
     "A080961",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

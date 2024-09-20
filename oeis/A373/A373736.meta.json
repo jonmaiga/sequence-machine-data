@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = largest nondivisor k < n such that A007947(k) | n, or 0 if k does not exist.",
+  "id": "A373736",
+  "mentions": [
+    "A000961",
+    "A007947",
+    "A024619",
+    "A162306",
+    "A246547",
+    "A272618",
+    "A286708",
+    "A332785"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

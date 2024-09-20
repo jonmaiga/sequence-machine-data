@@ -1,7 +1,9 @@
 {
   "description": "Floor(average of first n Fibonacci numbers).",
   "id": "A078620",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "easy",
     "formulas",

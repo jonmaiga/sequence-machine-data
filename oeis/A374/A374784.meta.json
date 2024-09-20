@@ -1,0 +1,24 @@
+{
+  "description": "Denominator of the mean unitary abundancy index of the unitary divisors of n.",
+  "id": "A374784",
+  "mentions": [
+    "A034444",
+    "A034448",
+    "A077610",
+    "A374777",
+    "A374778",
+    "A374783",
+    "A374786",
+    "A374787"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

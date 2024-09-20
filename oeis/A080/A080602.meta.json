@@ -1,5 +1,5 @@
 {
-  "description": "Number of positions in which the 3 X 3 X 3 Rubik's cube puzzle can be after exactly n quarter-turns.",
+  "description": "Number of positions of the Rubik's cube at a distance of n moves from the solved state, in the quarter-turn metric.",
   "id": "A080602",
   "mentions": [
     "A005452",

@@ -1,15 +1,18 @@
 {
-  "description": "8 expressed in base n.",
+  "description": "a(2) = 1000, a(n) = 18 - n for 3 <= n <= 9, a(n) = 8 for n >= 10.",
   "id": "A072990",
-  "mentions": [],
+  "mentions": [
+    "A094326"
+  ],
   "tags": [
-    "base",
     "easy",
+    "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "joeis"
   }
 }

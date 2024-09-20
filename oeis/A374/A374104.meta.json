@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A075860(A075860(n) + 2) + 2.",
+  "id": "A374104",
+  "mentions": [
+    "A008472",
+    "A075860"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

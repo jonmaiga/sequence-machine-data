@@ -2,9 +2,11 @@
   "description": "Numbers k between twin primes p, q where k+p and k+q are also twin primes, and k*p and k*q are between twin primes.",
   "id": "A363500",
   "mentions": [
-    "A066388"
+    "A066388",
+    "A364263"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

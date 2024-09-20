@@ -1,0 +1,18 @@
+{
+  "description": "Least integers of their prime signature (A025487) whose divisors have an integer mean number of divisors.",
+  "id": "A374905",
+  "mentions": [
+    "A025487",
+    "A374902",
+    "A374903",
+    "A374904"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: j-th exponent in the polynomial P(n,x) in A374385, (exponents in increasing order).",
+  "id": "A374398",
+  "mentions": [
+    "A013595",
+    "A013596",
+    "A023900",
+    "A173557",
+    "A374385"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

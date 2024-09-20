@@ -1,18 +1,19 @@
 {
-  "description": "Numbers n such that the sum of reciprocals of even divisors of n is an integer.",
+  "description": "Numbers k such that the sum of reciprocals of even divisors of k is an integer.",
   "id": "A224832",
   "mentions": [
     "A000668",
     "A139256",
-    "A194771"
+    "A194771",
+    "A325637"
   ],
   "tags": [
-    "hard",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

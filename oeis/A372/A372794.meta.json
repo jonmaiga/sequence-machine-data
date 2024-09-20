@@ -1,0 +1,15 @@
+{
+  "description": "Number of pairs of two disjoint sets of n positive integers with product A354457(n).",
+  "id": "A372794",
+  "mentions": [
+    "A354457"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

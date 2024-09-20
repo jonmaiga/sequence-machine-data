@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the first 2^n primes is a prime.",
+  "description": "Numbers k such that the sum of the first 2^k primes is a prime.",
   "id": "A121248",
   "mentions": [
     "A013916",
@@ -8,11 +8,14 @@
     "A113617"
   ],
   "tags": [
+    "formulas",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / sqrt(1 - x^3 * (exp(x) - 1)).",
+  "id": "A375718",
+  "mentions": [
+    "A358014",
+    "A375701",
+    "A375716",
+    "A375717"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

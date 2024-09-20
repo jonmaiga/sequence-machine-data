@@ -1,5 +1,5 @@
 {
-  "description": "Bit-reversing masks for 2n bits.",
+  "description": "Bit-reversing masks for 2*n bits.",
   "id": "A036214",
   "mentions": [
     "A036213",

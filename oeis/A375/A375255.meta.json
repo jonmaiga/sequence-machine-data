@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - 2*x + 3*x^2 + 2*x^3 + x^4).",
+  "id": "A375255",
+  "mentions": [
+    "A182890",
+    "A375021",
+    "A375273",
+    "A375275"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

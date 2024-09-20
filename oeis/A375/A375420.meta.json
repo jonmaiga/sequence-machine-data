@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of straight lines passing through the points (i, prime(i)) and (j, prime(j)) with i < j <= n (where prime(k) denotes the k-th prime number).",
+  "id": "A375420",
+  "mentions": [
+    "A000217",
+    "A375421"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

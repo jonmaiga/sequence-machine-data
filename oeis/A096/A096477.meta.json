@@ -1,12 +1,14 @@
 {
-  "description": "Subscripts for \"secondary twin-primes\": numbers n such that prime(1+prime(n)) - prime(prime(n)) = A073124(n) = 2.",
+  "description": "Subscripts for \"secondary twin-primes\": numbers k such that prime(prime(k)+1) - prime(prime(k)) = A073124(k) = 2.",
   "id": "A096477",
   "mentions": [
     "A006450",
     "A072677",
-    "A073124"
+    "A073124",
+    "A096478"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

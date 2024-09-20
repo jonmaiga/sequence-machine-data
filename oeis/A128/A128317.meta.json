@@ -1,10 +1,14 @@
 {
-  "description": "A054523 * signed A007318.",
+  "description": "Triangle read by rows: T = A054523 * A130595, as a lower triangular matrix.",
   "id": "A128317",
   "mentions": [
     "A000010",
+    "A000984",
+    "A001700",
     "A007318",
-    "A054523"
+    "A054523",
+    "A126246",
+    "A130595"
   ],
   "tags": [
     "formulas",
@@ -13,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 66,
     "source": "joeis"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the sum for all integer partitions of n of length k of the number of different multiplicities.",
+  "id": "A373270",
+  "mentions": [
+    "A373242",
+    "A373269",
+    "A373271"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

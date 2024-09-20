@@ -1,0 +1,17 @@
+{
+  "description": "Number of (binary) heaps of length n whose element set equals [k], where k is chosen so as to maximize this number.",
+  "id": "A373608",
+  "mentions": [
+    "A002869",
+    "A373451"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

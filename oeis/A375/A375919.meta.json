@@ -1,0 +1,14 @@
+{
+  "description": "Number of states in minimal deterministic finite automaton recognizing the language of binary strings that contain, as contiguous blocks, all binary strings of length n.",
+  "id": "A375919",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

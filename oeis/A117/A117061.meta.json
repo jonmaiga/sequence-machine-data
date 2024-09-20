@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that a(n) = (s(n-1))^2+n, with a(1) = 1.",
+  "description": "a(n) = (s(n-1))^2+n, with a(1) = 1 and s(k) = A007953(a(k)).",
   "id": "A117061",
-  "mentions": [],
+  "mentions": [
+    "A007953"
+  ],
   "tags": [
     "base",
     "easy",

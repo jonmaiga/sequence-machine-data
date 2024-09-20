@@ -1,11 +1,12 @@
 {
-  "description": "Lexicographically earliest such sequence a that a(i) = a(j) => A007814(i) = A007814(j) and A007949(i) = A007949(j), for all i, j, where A007814 and A007949 give the 2-adic and 3-adic valuation of n.",
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A007814(i) = A007814(j) and A007949(i) = A007949(j), for all i, j, where A007814 and A007949 give the 2- and 3-adic valuations of n.",
   "id": "A322026",
   "mentions": [
     "A003586",
     "A007814",
     "A007949",
     "A065331",
+    "A071521",
     "A072078",
     "A087465",
     "A122841",
@@ -14,7 +15,9 @@
     "A247714",
     "A255975",
     "A305900",
-    "A322316"
+    "A322316",
+    "A323883",
+    "A323884"
   ],
   "tags": [
     "formulas",

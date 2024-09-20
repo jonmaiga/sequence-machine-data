@@ -10,12 +10,11 @@
     "A260590"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

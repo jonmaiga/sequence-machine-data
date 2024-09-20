@@ -1,7 +1,8 @@
 {
-  "description": "Prime digits in the decimal expansion of Pi.",
+  "description": "Prime digits in the decimal expansion of Pi (with repetitions, in order of appearance).",
   "id": "A073264",
   "mentions": [
+    "A000040",
     "A000796",
     "A073303"
   ],
@@ -11,7 +12,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 105,
     "source": "oeis-entry"
   }

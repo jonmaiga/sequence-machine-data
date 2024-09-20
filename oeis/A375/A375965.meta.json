@@ -1,0 +1,17 @@
+{
+  "description": "Primes which can be turned into a different prime by exchanging two consecutive digits.",
+  "id": "A375965",
+  "mentions": [
+    "A225035"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

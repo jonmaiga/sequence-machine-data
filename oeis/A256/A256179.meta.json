@@ -1,5 +1,5 @@
 {
-  "description": "Sequence of power towers in ascending order, using all possible permutations of 2s and 3s.",
+  "description": "Sequence of power towers in ascending order, using all possible permutations of 2's and 3's.",
   "id": "A256179",
   "mentions": [
     "A032810",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

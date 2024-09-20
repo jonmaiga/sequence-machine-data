@@ -1,0 +1,47 @@
+{
+  "description": "Number of integer compositions of n whose leaders of weakly increasing runs are themselves weakly increasing.",
+  "id": "A374635",
+  "mentions": [
+    "A000041",
+    "A003242",
+    "A011782",
+    "A106356",
+    "A124766",
+    "A188900",
+    "A188920",
+    "A189076",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A261982",
+    "A274174",
+    "A333213",
+    "A333755",
+    "A335456",
+    "A335548",
+    "A374249",
+    "A374253",
+    "A374518",
+    "A374629",
+    "A374630",
+    "A374631",
+    "A374632",
+    "A374634",
+    "A374637",
+    "A374681",
+    "A374687",
+    "A374690",
+    "A374761",
+    "A374764",
+    "A374768"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

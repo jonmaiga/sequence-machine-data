@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k*(k+1) is primorial (a term in A002110).",
+  "id": "A374609",
+  "mentions": [
+    "A000194",
+    "A002110",
+    "A002378",
+    "A005117",
+    "A007674",
+    "A141399",
+    "A161620"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

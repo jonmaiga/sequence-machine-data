@@ -1,11 +1,13 @@
 {
-  "description": "Difference between 10^n and the next prime > 10^n is a record high.",
+  "description": "Numbers k such that the difference between 10^k and the next prime > 10^k is a record high.",
   "id": "A072098",
   "mentions": [
+    "A033873",
     "A038805"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

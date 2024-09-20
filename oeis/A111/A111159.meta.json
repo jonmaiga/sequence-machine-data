@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A111075(n) is odd.",
+  "description": "Numbers k such that A111075(k) is odd.",
   "id": "A111159",
   "mentions": [
     "A028982",

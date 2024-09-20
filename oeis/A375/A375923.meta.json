@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of size n which are both two-clumped and co-two-clumped.",
+  "id": "A375923",
+  "mentions": [
+    "A001181",
+    "A342141",
+    "A348351"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

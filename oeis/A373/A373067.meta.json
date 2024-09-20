@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n such that (smallest part) >= 2*(number of parts).",
+  "id": "A373067",
+  "mentions": [
+    "A003114",
+    "A069910",
+    "A350893",
+    "A373068",
+    "A373069",
+    "A373070",
+    "A373073"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

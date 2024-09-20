@@ -1,5 +1,5 @@
 {
-  "description": "Sum of divisors divides sum of cubes of divisors.",
+  "description": "Numbers whose sum of divisors divides their sum of cubes of divisors.",
   "id": "A046841",
   "mentions": [
     "A000203",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

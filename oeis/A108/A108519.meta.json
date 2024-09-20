@@ -2,16 +2,18 @@
   "description": "a(n) is the smallest natural number m such that (10^n)! - m is prime.",
   "id": "A108519",
   "mentions": [
+    "A033933",
     "A108518"
   ],
   "tags": [
-    "bref",
+    "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

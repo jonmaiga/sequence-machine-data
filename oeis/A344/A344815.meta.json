@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=1..n} floor(n/k) * 4^(k-1).",
   "id": "A344815",
   "mentions": [
+    "A006218",
     "A059851",
     "A268235",
     "A332533",

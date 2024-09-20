@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows that has the A001710(n)-th lexicographic permutation of [1,...,n] as row n.",
+  "id": "A375300",
+  "mentions": [
+    "A000142",
+    "A001710",
+    "A002260",
+    "A004736"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

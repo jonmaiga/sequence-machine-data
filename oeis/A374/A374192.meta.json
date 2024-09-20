@@ -1,0 +1,13 @@
+{
+  "description": "Number of iterations required to reach 1 or 10 in a modified Collatz trajectory where x -> x/2 if x is even, x -> x+1 if x is odd and not divisible by 3 and x -> 3x+1 if x is odd and divisible by 3; or a(n) = -1 if 1 or 10 is never reached.",
+  "id": "A374192",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

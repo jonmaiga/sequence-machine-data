@@ -1,0 +1,25 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=2, among all distinct circles that can be constructed from the 4 vertices and the equally spaced 4*n points placed on the sides of a square when every pair of the 4 + 4*n points are connected by a circle and where the points lie at the ends of the circle's diameter.",
+  "id": "A373109",
+  "mentions": [
+    "A359009",
+    "A360354",
+    "A362236",
+    "A372734",
+    "A372980",
+    "A373106",
+    "A373107",
+    "A373108",
+    "A373110"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

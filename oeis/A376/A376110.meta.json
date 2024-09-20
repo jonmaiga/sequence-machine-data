@@ -1,0 +1,14 @@
+{
+  "description": "Number of permutations of {1,2,...,n} that are non-self-overlapping as Hertzsprung patterns; also called non-extendible.",
+  "id": "A376110",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

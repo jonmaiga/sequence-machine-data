@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the length of the largest sequence S of distinct integers in the range 1..n such that for any prime number p, any run of consecutive multiples of p in S has length exactly 2, and two consecutive terms in S have some common prime factor.",
+  "id": "A375024",
+  "mentions": [
+    "A280864",
+    "A283832",
+    "A373797"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

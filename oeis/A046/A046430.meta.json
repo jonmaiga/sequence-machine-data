@@ -1,5 +1,5 @@
 {
-  "description": "All the prime factors of repunit a(n) end with the digit 1.",
+  "description": "Lengths of repunits with all prime factors ending with the digit 1.",
   "id": "A046430",
   "mentions": [
     "A000042",

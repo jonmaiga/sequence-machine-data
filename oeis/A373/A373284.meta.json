@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of {1, 2, 3, ..., n} that result in a final value of 0 by repeatedly iterating the process of \"subtracting if the next item is greater or equal, otherwise adding\" until there's only one number left.",
+  "id": "A373284",
+  "mentions": [
+    "A001792",
+    "A131502"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

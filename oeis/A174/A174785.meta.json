@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+2x-x^2+x^3-x^4-x^5)/(1+x^3)^2.",
+  "description": "Expansion of g.f. (1+2*x-x^2+x^3-x^4-x^5)/(1+x^3)^2.",
   "id": "A174785",
   "mentions": [
     "A174783"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
+    "size": 70,
     "source": "joeis"
   }
 }

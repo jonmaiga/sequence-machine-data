@@ -1,8 +1,9 @@
 {
-  "description": "Smallest prime factor of arithmetic derivative of n equals that of n.",
+  "description": "Numbers k such that the smallest prime factor of the arithmetic derivative of k equals that of k.",
   "id": "A086133",
   "mentions": [
-    "A003415"
+    "A003415",
+    "A020639"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

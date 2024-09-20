@@ -1,0 +1,13 @@
+{
+  "description": "Number of solutions to a^2 + d^2 = b^2 + c^2 with 1 <= a < b < c < d <= n.",
+  "id": "A374020",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Pentagonal pyramidal numbers that are products of smaller pentagonal pyramidal numbers.",
+  "id": "A374501",
+  "mentions": [
+    "A002411",
+    "A374498",
+    "A374500",
+    "A374502"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

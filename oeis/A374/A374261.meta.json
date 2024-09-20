@@ -1,0 +1,17 @@
+{
+  "description": "Edge-distinguishing chromatic number of the triangular ladder graph with n vertices.",
+  "id": "A374261",
+  "mentions": [
+    "A006670",
+    "A278375"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

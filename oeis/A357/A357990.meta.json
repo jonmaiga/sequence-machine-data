@@ -3,7 +3,6 @@
   "id": "A357990",
   "mentions": [
     "A000120",
-    "A000523",
     "A053645",
     "A290255",
     "A329369"
@@ -15,7 +14,7 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 76,
     "source": "oeis-entry"
   }

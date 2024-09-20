@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A108951(n) - A373158(n), where A108951 is fully multiplicative and A373158 is fully additive with a(p) = p# for prime p, where x# is the primorial A034386(x).",
+  "id": "A373984",
+  "mentions": [
+    "A002110",
+    "A034386",
+    "A108951",
+    "A373158",
+    "A373985"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A373390(k-1) - A373390(k), where k is the index of prime(n) in A373390.",
+  "id": "A373792",
+  "mentions": [
+    "A372072",
+    "A372073",
+    "A372078",
+    "A372081",
+    "A373390",
+    "A373786",
+    "A373793"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

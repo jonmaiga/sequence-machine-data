@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers which are the largest odd number in their Collatz trajectory.",
+  "id": "A375937",
+  "mentions": [
+    "A033496",
+    "A176869"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

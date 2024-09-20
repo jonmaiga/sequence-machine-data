@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which A276085(k) == -1 (mod 3), where A276085 is the primorial base log-function.",
+  "id": "A373262",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A276085",
+    "A339746",
+    "A373153",
+    "A373261",
+    "A373263"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

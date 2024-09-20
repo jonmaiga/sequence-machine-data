@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 1 if the sum of prime factors (with multiplicity) of A276086(n) is a multiple of 3, otherwise 0, where A276086 is the primorial base exp-function.",
+  "id": "A373601",
+  "mentions": [
+    "A001414",
+    "A002476",
+    "A003627",
+    "A049345",
+    "A079978",
+    "A276086",
+    "A289142",
+    "A369653",
+    "A373371",
+    "A373600",
+    "A373602",
+    "A373604"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "Smallest number m such that A069493(m) = prime(n)^6.",
+  "description": "a(n) is the index m such that A069493(m) = prime(n)^6.",
   "id": "A258603",
   "mentions": [
     "A000040",
     "A030516",
+    "A036967",
     "A069493",
     "A258571",
     "A258599",

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least exponentially odd number that is nonsquarefree and is followed by exactly n successive exponentially odd numbers that are squarefree, or -1 if no such number exists.",
+  "id": "A374536",
+  "mentions": [
+    "A005117",
+    "A045882",
+    "A268335",
+    "A270344",
+    "A374459",
+    "A374460"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

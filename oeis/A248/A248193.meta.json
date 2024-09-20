@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Sum_{n>=0} x^n * Sum_{k=0..n} C(n,k)^2 * x^(5*k).",
+  "description": "Expansion of Sum_{n>=0} x^n * Sum_{k=0..n} C(n,k)^2 * x^(5*k).",
   "id": "A248193",
   "mentions": [
     "A181665",

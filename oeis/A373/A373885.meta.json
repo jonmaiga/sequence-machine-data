@@ -1,0 +1,22 @@
+{
+  "description": "Number of lattice points inside or on the 7-dimensional hypersphere x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 + x_6^2 + x_7^2 = 10^n.",
+  "id": "A373885",
+  "mentions": [
+    "A068785",
+    "A341396",
+    "A373881",
+    "A373882",
+    "A373883",
+    "A373884"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

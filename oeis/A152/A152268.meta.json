@@ -1,7 +1,10 @@
 {
   "description": "Expansion of g.f. x/(1-7*x+8*x^2).",
   "id": "A152268",
-  "mentions": [],
+  "mentions": [
+    "A007482",
+    "A107839"
+  ],
   "tags": [
     "easy",
     "formulas",

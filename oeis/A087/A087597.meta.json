@@ -1,8 +1,9 @@
 {
-  "description": "Define dd(k) = the number formed by concatenating the absolute difference of successive digits of k. Triangular numbers t such that dd(t) is also a triangular number. (Triangular number in which the number formed by successive digit difference is also a triangular number.).",
+  "description": "Triangular numbers m such that A040115(m) is also triangular.",
   "id": "A087597",
   "mentions": [
     "A000217",
+    "A040115",
     "A087598",
     "A087599",
     "A087600"
@@ -12,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 37,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

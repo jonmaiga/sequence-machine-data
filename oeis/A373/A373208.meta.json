@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} f(2*k)^2/(f(2*k-1) * f(2*k+1)), where f(k) = k^(1/k^2).",
+  "id": "A373208",
+  "mentions": [
+    "A001620",
+    "A013661",
+    "A073004",
+    "A074962",
+    "A210593",
+    "A373207"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

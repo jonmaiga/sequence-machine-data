@@ -10,11 +10,12 @@
   "tags": [
     "formulas",
     "frac",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

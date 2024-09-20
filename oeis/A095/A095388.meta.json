@@ -1,5 +1,5 @@
 {
-  "description": "Smallest initial value for 3x+1 trajectory, divisible by 2^n, such that emerging peak-value exceeds this start-value.",
+  "description": "Smallest multiple of 2^n whose Collatz (3x+1) trajectory includes at least one larger number.",
   "id": "A095388",
   "mentions": [
     "A025586"

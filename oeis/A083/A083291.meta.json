@@ -19,8 +19,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

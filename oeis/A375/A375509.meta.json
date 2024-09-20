@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the negated derivative P'(3/2) of the prime zeta function at 3/2.",
+  "id": "A375509",
+  "mentions": [
+    "A136271",
+    "A338574"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

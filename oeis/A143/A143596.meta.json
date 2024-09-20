@@ -1,7 +1,9 @@
 {
-  "description": "A symmetrical triangle sequence of coefficients of a difference polynomial' p(x,n)=((x + 1)^(2*n) - (x^2 + 1)^n)/(2*x).",
+  "description": "Triangle read by rows: T(n,k) is the coefficient of x^k in p(x,n) = ((x + 1)^(2*n) - (x^2 + 1)^n)/(2*x), 0 <= k <= 2*n-1.",
   "id": "A143596",
-  "mentions": [],
+  "mentions": [
+    "A006516"
+  ],
   "tags": [
     "formulas",
     "nonn",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

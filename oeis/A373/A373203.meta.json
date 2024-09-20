@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = minimum k>1 such that n^k contains all distinct decimal digits of n.",
+  "id": "A373203",
+  "mentions": [
+    "A045537",
+    "A111442",
+    "A253600"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

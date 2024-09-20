@@ -1,0 +1,16 @@
+{
+  "description": "List of triples {w;x;y} where «w» is the w-th «pyramid», \"x\" = the number of elements in the «pyramid» that are not erased (before the end-level erasure); \"y\" is the number of steps in the pyramid until the iteration stops. See the Comments section for more details.",
+  "id": "A375244",
+  "mentions": [
+    "A351330"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,18 @@
 {
-  "description": "Numbers k such that sigma_2(k) >= 3/2 k^2, where sigma_2(x) is the sum of the squares of the divisors of x.",
+  "description": "Numbers k such that sigma_2(k) >= (3/2) * k^2, where sigma_2(k) is the sum of the squares of the divisors of k.",
   "id": "A096490",
   "mentions": [
     "A001157",
-    "A056866"
+    "A001221",
+    "A003586",
+    "A007310",
+    "A013661",
+    "A056866",
+    "A118671"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

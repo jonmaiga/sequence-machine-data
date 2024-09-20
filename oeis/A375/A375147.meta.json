@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 0; for n >= 2, a(n) is the number of iterations needed for the map: x -> x / A000005(x) if x is divisible by A000005(x), x -> x + 1 otherwise, to reach 1.",
+  "id": "A375147",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A330816",
+    "A360778",
+    "A360806",
+    "A374540"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

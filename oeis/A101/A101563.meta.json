@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(-1)^n*coefficient of x^n in sum{k>=1,x^(k-1)/(1+10x^k)}.",
+  "description": "a(n) = (-1)^n * coefficient of x^n in Sum_{k>=1} x^(k-1)/(1+10*x^k).",
   "id": "A101563",
   "mentions": [
     "A048272",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

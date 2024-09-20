@@ -1,0 +1,19 @@
+{
+  "description": "Palindrome numbers consisting only of odd digits.",
+  "id": "A372149",
+  "mentions": [
+    "A002113",
+    "A014261",
+    "A056524",
+    "A056525"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

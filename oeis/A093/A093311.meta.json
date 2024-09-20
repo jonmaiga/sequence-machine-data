@@ -1,8 +1,13 @@
 {
-  "description": "k-th upper twin prime, where k = n!.",
+  "description": "a(n) is the k-th upper twin prime, where k = n!.",
   "id": "A093311",
-  "mentions": [],
+  "mentions": [
+    "A006512",
+    "A093310"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,11 +1,23 @@
 {
-  "description": "Number of \"semidivisors\" of n, numbers m < n that do not divide n but divide n^e for some integer e > 1.",
+  "description": "Number of k < n such that rad(k) | n but k does not divide n, where rad = A007947.",
   "id": "A243822",
   "mentions": [
     "A000005",
+    "A000010",
+    "A000961",
+    "A007947",
     "A010846",
+    "A024619",
+    "A027750",
     "A045763",
-    "A243823"
+    "A051953",
+    "A162306",
+    "A243823",
+    "A272618",
+    "A304570",
+    "A355432",
+    "A360768",
+    "A361235"
   ],
   "tags": [
     "formulas",

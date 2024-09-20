@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/30)*A028361(n) for n>=3.",
+  "id": "A374854",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A028361",
+    "A060202",
+    "A374848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 14,
+    "source": "joeis"
+  }
+}

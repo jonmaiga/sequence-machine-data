@@ -18,11 +18,12 @@
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

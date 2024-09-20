@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: Product_{m>=0} exp(-x^(3*m+1)).",
+  "description": "Expansion of e.g.f. Product_{k>=0} exp(-x^(3*k+1)).",
   "id": "A293565",
   "mentions": [
     "A293116",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

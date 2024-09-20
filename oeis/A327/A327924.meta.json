@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by ascending diagonals: T(m,n) is the number of non-isomorphic groups G such that G is the semidirect product of C_m and C_n, where C_m is a normal subgroup of G and C_n is a subgroup of G.",
+  "description": "Square array read by ascending antidiagonals: T(m,n) is the number of non-isomorphic groups G such that G is the semidirect product of C_m and C_n, where C_m is a normal subgroup of G and C_n is a subgroup of G.",
   "id": "A327924",
   "mentions": [
     "A000005",

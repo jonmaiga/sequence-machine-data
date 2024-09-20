@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1 / floor(k*tau^2)!, where tau = golden ratio.",
+  "id": "A372391",
+  "mentions": [
+    "A001622",
+    "A372390"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

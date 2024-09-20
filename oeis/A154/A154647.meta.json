@@ -1,16 +1,19 @@
 {
-  "description": "A triangular sequence of coefficients: p(x,n)=((-1)^(n + 1)*(x - 1)^(n + 1)*Sum[(4*m + 3)^n*x^m, {m, 0, Infinity}] + (-1)^(n + 1)*(x - 1)^(n + 1)*Sum[(4*m + 1)^n*x^m, {m, 0, Infinity}])/2.",
+  "description": "Triangle, T(n, k) = [x^k]( p(x, n) ), where (1/2)*(1-x)^(n+1) * Sum_{j >= 0} ((4*j + 3)^n + (4*j+1)^n )*x^j, read by rows.",
   "id": "A154647",
-  "mentions": [],
+  "mentions": [
+    "A007051",
+    "A047053",
+    "A154646"
+  ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

@@ -2,10 +2,11 @@
   "description": "Increasing partial quotients of e^Pi - Pi^e (A063504).",
   "id": "A064441",
   "mentions": [
+    "A063503",
     "A063504"
   ],
   "tags": [
-    "cofr",
+    "more",
     "nonn"
   ],
   "terms": {

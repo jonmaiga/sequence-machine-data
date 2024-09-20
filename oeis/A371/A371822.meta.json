@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. Row n is the lexicographically earliest permutation of [n] that can be obtained from row n-1 by inserting the element n and optional cyclic shifting to maximize the pattern density.",
+  "id": "A371822",
+  "mentions": [
+    "A194832",
+    "A342474",
+    "A371823",
+    "A373778"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

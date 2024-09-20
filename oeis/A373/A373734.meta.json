@@ -1,0 +1,16 @@
+{
+  "description": "Odd composite numbers k such that Sum_{i=1..k-1} 2^i * i^(k-2) == Sum_{i=1..(k-1)/2} i^(k-2) (mod k).",
+  "id": "A373734",
+  "mentions": [
+    "A002997",
+    "A065091"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

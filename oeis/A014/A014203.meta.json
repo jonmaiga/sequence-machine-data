@@ -1,13 +1,17 @@
 {
-  "description": "Sum {i^2+j^2+k^2}, i^2+j^2+k^2 <= n.",
+  "description": "a(n) = Sum_{i,j,k in Z and i^2 + j^2 + k^2 <= n} i^2 + j^2 + k^2.",
   "id": "A014203",
-  "mentions": [],
+  "mentions": [
+    "A000122",
+    "A005875"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 48,
     "source": "joeis"
   }
 }

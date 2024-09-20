@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct circles that can be constructed from the 3 vertices and the equally spaced 3*n points placed on the sides of an equilateral triangle when every pair of the 3 + 3*n points are connected by a circle and where the points lie at the ends of the circle's diameter.",
+  "id": "A372735",
+  "mentions": [
+    "A359931",
+    "A360350",
+    "A361622",
+    "A365669",
+    "A372614",
+    "A372615",
+    "A372682",
+    "A372731",
+    "A372732"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

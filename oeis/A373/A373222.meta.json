@@ -1,0 +1,16 @@
+{
+  "description": "Number of labeled orientations of n points on an Euclidean plane, in general position. In other words, the number of all possible orientation of n points in general position if all points are distinct and are labeled from 1 to n.",
+  "id": "A373222",
+  "mentions": [
+    "A063666"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

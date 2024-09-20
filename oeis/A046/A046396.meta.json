@@ -1,11 +1,16 @@
 {
-  "description": "Palindromes with exactly 6 distinct prime factors.",
+  "description": "Palindromes which are the product of 6 distinct primes.",
   "id": "A046396",
   "mentions": [
-    "A046332"
+    "A002113",
+    "A046332",
+    "A067885",
+    "A074969",
+    "A373466"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

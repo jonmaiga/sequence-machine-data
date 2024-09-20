@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} log(k)/(k*sqrt(k+1)).",
+  "id": "A373862",
+  "mentions": [
+    "A131688"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

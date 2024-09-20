@@ -1,13 +1,21 @@
 {
   "description": "Numbers n such that prime(k)*n+prime(k+1), for k=1,...,7 all are primes.",
   "id": "A108117",
-  "mentions": [],
+  "mentions": [
+    "A067076",
+    "A088879",
+    "A101123",
+    "A102721",
+    "A108110",
+    "A108976",
+    "A111224"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

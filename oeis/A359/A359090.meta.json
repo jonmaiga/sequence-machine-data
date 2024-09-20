@@ -9,12 +9,11 @@
     "A359089"
   ],
   "tags": [
-    "more",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

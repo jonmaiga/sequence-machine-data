@@ -2,7 +2,8 @@
   "description": "Fractal palindromic primes of first order.",
   "id": "A082584",
   "mentions": [
-    "A002385"
+    "A002385",
+    "A082598"
   ],
   "tags": [
     "base",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

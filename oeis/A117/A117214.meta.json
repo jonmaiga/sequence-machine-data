@@ -2,6 +2,9 @@
   "description": "a(n) = (A117213(n))/(n-th squarefree positive integer).",
   "id": "A117214",
   "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
     "A005117",
     "A006530",
     "A073482",
@@ -9,6 +12,7 @@
     "A117213"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

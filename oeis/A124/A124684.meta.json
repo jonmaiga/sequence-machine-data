@@ -1,5 +1,5 @@
 {
-  "description": "(Product of successive primes minus 2) divided by 5 is prime.",
+  "description": "Primes of the form (p*q - 2)/5 where p and q are successive primes.",
   "id": "A124684",
   "mentions": [
     "A123921"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

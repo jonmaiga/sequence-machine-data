@@ -1,0 +1,17 @@
+{
+  "description": "Least a of the form 4*n - 1 (n>=1) such that there is a positive integer k so that K(a / k) != K((-1)^floor(k/2)*k / a), where K denotes the Kronecker symbol (A372728).",
+  "id": "A374187",
+  "mentions": [
+    "A372728",
+    "A374188",
+    "A374189"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

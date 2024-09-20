@@ -1,0 +1,25 @@
+{
+  "description": "Triangular numbers that are 2 mod 4, halved.",
+  "id": "A372718",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000217",
+    "A047457",
+    "A372048",
+    "A372049",
+    "A372050",
+    "A372051",
+    "A372070"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

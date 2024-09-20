@@ -1,5 +1,5 @@
 {
-  "description": "Circular primes (numbers that remain prime under cyclic shifts of digits).",
+  "description": "The smallest representative in a cycle of circular primes, where circular primes are numbers that remain prime under cyclic shifts of digits.",
   "id": "A016114",
   "mentions": [
     "A003459",

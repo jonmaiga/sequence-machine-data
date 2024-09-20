@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=0} x^(6^k) / (1 - x^(6^k))^2.",
+  "id": "A373397",
+  "mentions": [
+    "A129527",
+    "A327625",
+    "A359099",
+    "A359100",
+    "A373188",
+    "A373216"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

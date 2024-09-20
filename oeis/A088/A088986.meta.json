@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that each of n through n+4 are divisible by exactly two primes.",
+  "description": "Numbers k such that each of k through k+4 are divisible by exactly two primes.",
   "id": "A088986",
   "mentions": [
+    "A001221",
     "A045933",
     "A088963",
     "A088985"

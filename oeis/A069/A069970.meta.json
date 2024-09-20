@@ -1,14 +1,17 @@
 {
-  "description": "Numbers n such that sigma(reverse(n)) = sigma(reverse(n-1)) + sigma(reverse(n-2)).",
+  "description": "Numbers k such that sigma(reverse(k)) = sigma(reverse(k-1)) + sigma(reverse(k-2)).",
   "id": "A069970",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A004086"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} [sqrt(n^4+1)-sqrt(n^4-1)].",
+  "id": "A374063",
+  "mentions": [
+    "A374062"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

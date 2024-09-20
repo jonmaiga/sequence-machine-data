@@ -3,6 +3,8 @@
   "id": "A034814",
   "mentions": [
     "A034808",
+    "A034809",
+    "A034810",
     "A034821"
   ],
   "tags": [
@@ -10,7 +12,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 50,
     "source": "joeis"
   }

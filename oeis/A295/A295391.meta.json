@@ -1,8 +1,11 @@
 {
   "description": "a(1) = 2; a(n+1) = 1 + (a(n)^2 - a(n))*(1+1/n) for n >= 1.",
   "id": "A295391",
-  "mentions": [],
+  "mentions": [
+    "A275611"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

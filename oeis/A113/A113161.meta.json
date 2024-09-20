@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(n+1) = largest prime <= a(n)+n.",
+  "description": "a(1) = 1; for n > 1, a(n) = largest prime <= a(n-1) + n - 1.",
   "id": "A113161",
   "mentions": [
     "A093503"

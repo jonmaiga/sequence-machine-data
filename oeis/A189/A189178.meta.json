@@ -1,15 +1,16 @@
 {
-  "description": "Number of n X n array permutations with each element making a single king move",
+  "description": "Number of n X n array permutations with each element making a single king move.",
   "id": "A189178",
   "mentions": [
     "A189186"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

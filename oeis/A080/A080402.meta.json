@@ -1,8 +1,10 @@
 {
-  "description": "A001157(n) is not squarefree: sum of squares of divisors of n is not squarefree.",
+  "description": "Numbers k such that the sum of the squares of the divisors of k (A001157(k)) is not squarefree.",
   "id": "A080402",
   "mentions": [
     "A001157",
+    "A005117",
+    "A013929",
     "A065300",
     "A080401"
   ],

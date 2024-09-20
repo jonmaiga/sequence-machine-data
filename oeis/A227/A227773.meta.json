@@ -2,17 +2,19 @@
   "description": "Least splitter of f(n) and f(n+1), where s(1) = 1, s(2) = 1, s(n) = s(n-1) + s(n-2)/(n-2) and f(n) = n/(n - s(n)).",
   "id": "A227773",
   "mentions": [
+    "A000142",
+    "A000166",
     "A227631",
     "A227688"
   ],
   "tags": [
+    "formulas",
     "frac",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

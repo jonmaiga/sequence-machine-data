@@ -1,5 +1,5 @@
 {
-  "description": "2^(n-1) mod prime(n).",
+  "description": "a(n) = 2^(n-1) mod prime(n).",
   "id": "A175036",
   "mentions": [
     "A181670"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 121,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

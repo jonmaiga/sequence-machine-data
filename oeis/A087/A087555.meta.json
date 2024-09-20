@@ -2,15 +2,17 @@
   "description": "a(n) = largest prime that is the concatenation of two numbers whose sum is n.",
   "id": "A087555",
   "mentions": [
-    "A087556"
+    "A087556",
+    "A375938"
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers a for which there is a 1-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "description": "Positive integer a is repeated m times, where m is the number of 1-Pythagorean triples (a,b,c) satisfying a<=b.",
   "id": "A195770",
   "mentions": [
     "A009004",
@@ -230,6 +230,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

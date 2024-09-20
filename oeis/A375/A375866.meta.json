@@ -1,0 +1,16 @@
+{
+  "description": "Prime numbers that cannot be written as the sum of a prime number and a highly composite number.",
+  "id": "A375866",
+  "mentions": [
+    "A000040",
+    "A002182"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "5-full numbers: if p divides n then so does p^5.",
+  "description": "5-full numbers: if a prime p divides k then so does p^5.",
   "id": "A069492",
   "mentions": [
     "A001694",

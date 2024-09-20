@@ -1,17 +1,18 @@
 {
-  "description": "Number of minimal deterministic finite automata with n states on a two-letter alphabet.",
+  "description": "Number of minimal deterministic finite automata (DFA) with n states on a two-letter alphabet.",
   "id": "A129622",
   "mentions": [
     "A000282",
     "A059412"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 6,
+    "offset": 0,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

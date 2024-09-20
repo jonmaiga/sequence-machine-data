@@ -1,7 +1,9 @@
 {
   "description": "Divisors of 2^40 - 1.",
   "id": "A003546",
-  "mentions": [],
+  "mentions": [
+    "A361438"
+  ],
   "tags": [
     "easy",
     "fini",

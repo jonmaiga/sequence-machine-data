@@ -1,20 +1,16 @@
 {
-  "description": "Number of non-unitary square divisors of n!.",
+  "description": "a(n) = A055993(n) - A034444(A056627(n)).",
   "id": "A056630",
   "mentions": [
-    "A000188",
-    "A001221",
     "A008833",
+    "A034444",
     "A046951",
-    "A048656",
-    "A055071",
     "A055229",
-    "A055230",
     "A055993",
-    "A056657"
+    "A056627",
+    "A375188"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

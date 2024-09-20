@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of states in the smallest deterministic finite automaton that accepts the Zeckendorf representation of i and n*i, in parallel, for all integers i>=0.",
+  "id": "A372846",
+  "mentions": [
+    "A001622",
+    "A014417"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

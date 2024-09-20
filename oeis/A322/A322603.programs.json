@@ -2,56 +2,86 @@
   "oi": 322603,
   "ps": [
     {
-      "d": "2022-05-22",
-      "ix": "A000038(A321567(n))+contfrac[sinh(γ)]",
-      "mt": 37,
+      "d": "2024-09-15",
+      "ix": "contfrac[sinh(γ)]",
+      "mt": 50,
       "px": [
-        "n",
-        "A321567",
-        "A000038",
         "γ",
         "sinh",
-        "contfrac",
-        "+"
+        "contfrac"
       ]
     },
     {
-      "d": "2022-04-19",
-      "ix": "lcm(contfrac[C147709], A008836(A008778(n)))",
-      "mt": 37,
+      "d": "2024-09-15",
+      "ix": "contfrac[tan(asin(tanh(γ)))]",
+      "mt": 50,
       "px": [
-        "C147709",
-        "contfrac",
-        "n",
-        "A008778",
-        "A008836",
-        "lcm"
+        "γ",
+        "tanh",
+        "asin",
+        "tan",
+        "contfrac"
       ]
     },
     {
-      "d": "2022-05-22",
-      "ix": "A001222(A000230(n))*contfrac[C147709]",
-      "mt": 33,
+      "d": "2024-09-15",
+      "ix": "contfrac[cot(acos(tanh(γ)))]",
+      "mt": 50,
       "px": [
-        "n",
-        "A000230",
-        "A001222",
-        "C147709",
-        "contfrac",
-        "*"
+        "γ",
+        "tanh",
+        "acos",
+        "cot",
+        "contfrac"
       ]
     },
     {
-      "d": "2022-05-08",
-      "ix": "contfrac[C147709]%A000040(A000097(n))",
-      "mt": 22,
+      "d": "2024-09-15",
+      "ix": "contfrac[exp(γ)-cosh(γ)]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "exp",
+        "γ",
+        "cosh",
+        "sub",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2024-09-15",
+      "ix": "contfrac[cosh(γ)*tanh(γ)]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "cosh",
+        "γ",
+        "tanh",
+        "*",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2024-09-15",
+      "ix": "contfrac[sqrt(cosh(γ)²-1)]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "cosh",
+        "²",
+        "1",
+        "sub",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2024-09-16",
+      "ix": "contfrac[C147709]",
+      "mt": 50,
       "px": [
         "C147709",
-        "contfrac",
-        "n",
-        "A000097",
-        "A000040",
-        "%"
+        "contfrac"
       ]
     }
   ]

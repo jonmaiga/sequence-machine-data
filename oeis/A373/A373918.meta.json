@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the location of the minimum of f(x)=x*cosh(1/(2*x)) for x>0.",
+  "id": "A373918",
+  "mentions": [
+    "A240358"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

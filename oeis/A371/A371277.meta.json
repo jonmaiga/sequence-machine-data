@@ -2,7 +2,10 @@
   "description": "Triangle read by rows, (3, 2)-Lah numbers.",
   "id": "A371277",
   "mentions": [
-    "A143497"
+    "A143497",
+    "A371081",
+    "A371259",
+    "A372208"
   ],
   "tags": [
     "formulas",

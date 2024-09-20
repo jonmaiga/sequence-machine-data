@@ -9,13 +9,14 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

@@ -2,12 +2,14 @@
   "description": "Column 1 of triangle A100326, in which row n equals the inverse binomial of column n of square array A100324, with leading zero omitted.",
   "id": "A100328",
   "mentions": [
+    "A003168",
     "A003169",
     "A100324",
     "A100326",
     "A100327"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

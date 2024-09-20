@@ -1,0 +1,21 @@
+{
+  "description": "Least prime of a run of n consecutive primes p_i, i = 1..n, such that bigomega(p_i + 1) = omega(p_i + 1) + i and bigomega(p_(n+1) + 1) <> omega(p_(n+1) + 1) + n + 1, or -1 if no such prime exists.",
+  "id": "A373626",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A072875",
+    "A086560",
+    "A369097",
+    "A373618"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

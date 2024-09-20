@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways of writing n^2 as a sum of 8 squares.",
+  "id": "A374493",
+  "mentions": [
+    "A000143",
+    "A302996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

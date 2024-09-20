@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of squares covered (i.e., attacked) by 3 independent (i.e., nonattacking) queens on an n X n chessboard.",
+  "id": "A375116",
+  "mentions": [
+    "A047461",
+    "A374933"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

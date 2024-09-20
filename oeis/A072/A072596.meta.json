@@ -2,6 +2,7 @@
   "description": "Nonsquares with A072594(n) = 0.",
   "id": "A072596",
   "mentions": [
+    "A010052",
     "A072594",
     "A072595"
   ],

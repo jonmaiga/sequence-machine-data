@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as an ordered sum of a triangular number, a heptagonal number and an octagonal number.",
+  "id": "A374410",
+  "mentions": [
+    "A000217",
+    "A000566",
+    "A000567",
+    "A374409"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

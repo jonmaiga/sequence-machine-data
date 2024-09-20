@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1 / Sum_{k in Z} x^(3*k) / (1 - x^(5*k+1)).",
+  "id": "A375064",
+  "mentions": [
+    "A340454",
+    "A375061",
+    "A375062",
+    "A375063"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Sum of the 7th powers of the square divisors of n.",
   "id": "A351313",
   "mentions": [
+    "A010052",
     "A035316",
     "A046951",
     "A351307",

@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) (m >= 0, n >= 0) = number of max-and-min-closed constraints between an m-element set and an n-element set.",
+  "id": "A372068",
+  "mentions": [
+    "A099594",
+    "A100754",
+    "A272644",
+    "A372066",
+    "A372067"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

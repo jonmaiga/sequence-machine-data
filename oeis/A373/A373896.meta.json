@@ -1,0 +1,23 @@
+{
+  "description": "Number of lattice points inside or on the 8-dimensional hypersphere x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 + x_6^2 + x_7^2 + x_8^2 = 10^n.",
+  "id": "A373896",
+  "mentions": [
+    "A008457",
+    "A068785",
+    "A341397",
+    "A373881",
+    "A373882",
+    "A373883",
+    "A373884",
+    "A373885"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

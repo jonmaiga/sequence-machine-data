@@ -1,0 +1,27 @@
+{
+  "description": "The maximum exponent in the prime factorization of the numbers that have exactly one non-unitary prime factor.",
+  "id": "A375341",
+  "mentions": [
+    "A005361",
+    "A048109",
+    "A051903",
+    "A057521",
+    "A060687",
+    "A082293",
+    "A132349",
+    "A154945",
+    "A190641",
+    "A375339",
+    "A375340"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

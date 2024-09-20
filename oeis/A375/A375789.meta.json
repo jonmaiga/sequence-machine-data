@@ -1,0 +1,18 @@
+{
+  "description": "First position index for A197123(n) in the decimal expansion of Pi.",
+  "id": "A375789",
+  "mentions": [
+    "A000796",
+    "A197123"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

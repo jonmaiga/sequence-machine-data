@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the factorial base representation of 1/k without the leading zeros is palindromic.",
+  "id": "A373085",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A046807",
+    "A294168"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi*(Pi^2*log(2) + 4*log(2)^3 + 6*zeta(3))/48.",
+  "id": "A375594",
+  "mentions": [
+    "A019669",
+    "A173623",
+    "A196878",
+    "A318741"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

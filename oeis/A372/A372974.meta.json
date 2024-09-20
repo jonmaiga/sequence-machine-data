@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest unused positive number such that a(n) is coprime to a(n-1) and omega(a(n)) does not equal omega(a(n-1)).",
+  "id": "A372974",
+  "mentions": [
+    "A001221",
+    "A027748",
+    "A109465",
+    "A352588",
+    "A372975"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

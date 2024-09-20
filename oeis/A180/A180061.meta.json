@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (2^(2^n mod n) mod n)=4.",
+  "description": "Numbers k such that (2^(2^k mod k) mod k) = 4.",
   "id": "A180061",
   "mentions": [
     "A000040",

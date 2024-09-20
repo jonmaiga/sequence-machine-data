@@ -2,12 +2,15 @@
   "description": "a(n) is the square of the product of first n primes.",
   "id": "A061742",
   "mentions": [
+    "A000040",
     "A001248",
     "A002110",
+    "A007947",
     "A051377",
     "A056170",
     "A129575",
     "A136370",
+    "A228593",
     "A322887"
   ],
   "tags": [

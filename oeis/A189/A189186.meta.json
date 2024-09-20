@@ -1,7 +1,9 @@
 {
   "description": "T(n,k) = Number of n X k array permutations with each element making a single king move.",
   "id": "A189186",
-  "mentions": [],
+  "mentions": [
+    "A189355"
+  ],
   "tags": [
     "nonn",
     "tabl"

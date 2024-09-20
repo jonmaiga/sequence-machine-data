@@ -1,0 +1,18 @@
+{
+  "description": "Two terms that contain the digit \"d\" are always separated by \"d\" terms that do not contain the digit \"d\". This is the lexicographically earliest sequence of distinct nonnegative integers with this property.",
+  "id": "A375232",
+  "mentions": [
+    "A284516"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

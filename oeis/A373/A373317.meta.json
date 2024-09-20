@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which are their own imbalance when written in English (see the definition of the imbalance in the Comments section).",
+  "id": "A373317",
+  "mentions": [
+    "A083967",
+    "A104059",
+    "A372222",
+    "A373321"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

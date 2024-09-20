@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n)/omega(n) is an integer [sigma(n) =sum of divisors of n; omega(n)=number of distinct prime factors of n].",
+  "description": "Numbers n such that sigma(n)/omega(n) is an integer [sigma(n) = sum of divisors of n; omega(n) = number of distinct prime factors of n].",
   "id": "A109427",
   "mentions": [
     "A109428"

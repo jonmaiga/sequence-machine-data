@@ -1,5 +1,5 @@
 {
-  "description": "Floor((Pi^Pi)^Pi)^...^Pi).",
+  "description": "a(n) = floor((Pi^Pi)^Pi)^...^Pi).",
   "id": "A210508",
   "mentions": [
     "A000796",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 5,
+    "offset": 0,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

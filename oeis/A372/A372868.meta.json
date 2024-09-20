@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of flattened Catalan words of length n with exactly k runs of weak ascents, with 1 <= k <= ceiling(n/2).",
+  "id": "A372868",
+  "mentions": [
+    "A000079",
+    "A001788",
+    "A002409",
+    "A003472",
+    "A007051",
+    "A110654",
+    "A140325",
+    "A172242",
+    "A372852",
+    "A372972"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

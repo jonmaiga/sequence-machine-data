@@ -2,7 +2,8 @@
   "description": "Triangle read by rows, (2, 3)-Lah numbers.",
   "id": "A371259",
   "mentions": [
-    "A143498"
+    "A143498",
+    "A371081"
   ],
   "tags": [
     "formulas",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 29,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

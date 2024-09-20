@@ -6,13 +6,14 @@
     "A002110"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

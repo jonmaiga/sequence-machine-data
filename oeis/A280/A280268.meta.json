@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Pell(n) and Pell(n+1) have the same prime signature where Pell(n) = A000129(n).",
+  "description": "Numbers k such that Pell(k) and Pell(k+1) have the same prime signature where Pell(k) = A000129(k).",
   "id": "A280268",
   "mentions": [
     "A000129",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

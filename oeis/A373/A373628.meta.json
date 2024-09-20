@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of occurrences of the periodic substring (0011)^k in the periodic string (000111)^n.",
+  "id": "A373628",
+  "mentions": [
+    "A000012",
+    "A001019",
+    "A085478",
+    "A373547"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

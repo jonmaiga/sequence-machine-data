@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 4*a(n-1) -5*a(n-2) +2*a(n-3) +2*a(n-4) for a(0) = a(1) = 0, a(2) = 1, a(3) = 4 for n >= 4.",
+  "id": "A373358",
+  "mentions": [
+    "A000129",
+    "A009545",
+    "A077893",
+    "A077953",
+    "A077980",
+    "A114203",
+    "A146559",
+    "A373245"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

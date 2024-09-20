@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which Sum_digits(n!!) is a multiple of Sum_digits(n).",
+  "description": "Numbers m for which Sum_digits(m!!) is a multiple of Sum_digits(m).",
   "id": "A135205",
   "mentions": [
     "A004152",
@@ -17,7 +17,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 61,
     "source": "oeis-bfile"
   }

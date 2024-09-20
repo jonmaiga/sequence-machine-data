@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions to n^2 = x^2 + x*y + y^2 with 0 < x < y.",
+  "id": "A374099",
+  "mentions": [
+    "A046080",
+    "A373591",
+    "A374092",
+    "A374100"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

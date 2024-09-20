@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers that can be written as a Stirling number of the second kind in more than one way.",
+  "id": "A374796",
+  "mentions": [
+    "A008277",
+    "A024412",
+    "A215797"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

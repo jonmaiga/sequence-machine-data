@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the area of the rectangle whose edges are n and A375673(n).",
+  "id": "A375675",
+  "mentions": [
+    "A262767",
+    "A306841",
+    "A329402",
+    "A375673",
+    "A375674",
+    "A375676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

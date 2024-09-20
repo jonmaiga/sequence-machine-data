@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms in Zeckendorf representation needed to write A113177(n), where A113177 is fully additive with a(p) = Fibonacci(p).",
+  "id": "A374209",
+  "mentions": [
+    "A000045",
+    "A001222",
+    "A007895",
+    "A030426",
+    "A072649",
+    "A113177",
+    "A328847",
+    "A328848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (sigma(n)+sigma(n+1))/n is an integer.",
+  "description": "Numbers k such that (sigma(k)+sigma(k+1))/k is an integer.",
   "id": "A068078",
   "mentions": [
     "A067806",

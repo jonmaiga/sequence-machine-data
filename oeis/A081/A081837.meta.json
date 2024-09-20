@@ -1,14 +1,19 @@
 {
-  "description": "Let z(n) be e=2.7182.... truncated to n decimal digits; sequence gives maximum element in the continued fraction for z(n).",
+  "description": "Let z(n) be e = exp(1.0) = 2.7182.... truncated to n decimal digits after the decimal point; sequence gives maximum element in the continued fraction for z(n).",
   "id": "A081837",
-  "mentions": [],
+  "mentions": [
+    "A001113",
+    "A003417",
+    "A081836",
+    "A373866"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 63,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows. T{n, k] = [z^k] P(n, z) where P(n, z) = Sum_{k=0..n} binomial(n, k) * Pochhammer(n - k + c, k) * z^k / k! and c = 4.",
+  "description": "Triangle read by rows. T(n, k) = [z^k] P(n, z) where P(n, z) = Sum_{k=0..n} binomial(n, k) * Pochhammer(n - k + c, k) * z^k / k! and c = 4.",
   "id": "A062145",
   "mentions": [
     "A000292",

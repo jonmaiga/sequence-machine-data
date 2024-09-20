@@ -1,0 +1,19 @@
+{
+  "description": "A family of triangles T(m), m >= 0, read by triangles and then by rows; let P(m) be the triangle made up of the first m+1 rows of Pascal's triangle (A007318), R(m) (respectively L(m)) be P(m) rotated to the right (respectively to the left), T(m)(n, k) = gcd(P(m)(n, k), R(m)(n, k), L(m)(n, k)).",
+  "id": "A375873",
+  "mentions": [
+    "A007318",
+    "A375963"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the sagitta of a regular octagon with unit side length.",
+  "id": "A375070",
+  "mentions": [
+    "A020769",
+    "A090488",
+    "A174968",
+    "A285871",
+    "A343060",
+    "A374972",
+    "A375068",
+    "A375069",
+    "A375153",
+    "A375189",
+    "A375192",
+    "A375194"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

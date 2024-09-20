@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that there exists a cyclic permutation of the nonzero residues modulo p such that v^2 - 4*u*w == 0 (mod p) for any three consecutive residues u,v,w.",
+  "id": "A376008",
+  "mentions": [
+    "A001918",
+    "A002326",
+    "A019434",
+    "A046144"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

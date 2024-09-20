@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions with weight fixed by reversal.",
+  "id": "A375783",
+  "mentions": [
+    "A183917",
+    "A368548"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

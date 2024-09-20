@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that 7*k + 2 is a square.",
+  "id": "A374584",
+  "mentions": [
+    "A000217",
+    "A003154",
+    "A028387",
+    "A028884",
+    "A047341",
+    "A059993",
+    "A100536",
+    "A195162"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

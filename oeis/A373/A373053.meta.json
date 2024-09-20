@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(26)/2.",
+  "id": "A373053",
+  "mentions": [
+    "A010481"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -12,11 +12,12 @@
     "A105350"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the odd parts of k and sigma(A003961(k)) are equal, where A003961 is fully multiplicative function with a(prime(i)) = prime(i+1), and sigma is the sum of divisors function.",
+  "id": "A374464",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A003961",
+    "A003973",
+    "A326042",
+    "A347391",
+    "A348738",
+    "A374463"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

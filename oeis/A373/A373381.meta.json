@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(bigomega(n), A056239(n)), where bigomega is number of prime factors with repetition, and A056239 is fully additive with a(p) = primepi(p).",
+  "id": "A373381",
+  "mentions": [
+    "A001222",
+    "A056239",
+    "A340784",
+    "A353331",
+    "A354871",
+    "A373370"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

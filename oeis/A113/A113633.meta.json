@@ -3,16 +3,20 @@
   "id": "A113633",
   "mentions": [
     "A000351",
-    "A007504"
+    "A007504",
+    "A055680",
+    "A099825",
+    "A099826",
+    "A113634",
+    "A113635"
   ],
   "tags": [
     "formulas",
-    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

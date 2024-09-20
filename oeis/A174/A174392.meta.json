@@ -2,7 +2,6 @@
   "description": "Neither n-1 nor n+1 is prime.",
   "id": "A174392",
   "mentions": [
-    "A084926",
     "A099047"
   ],
   "tags": [

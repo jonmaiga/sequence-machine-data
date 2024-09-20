@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first term in the n-th row of A374394.",
+  "id": "A374395",
+  "mentions": [
+    "A003754",
+    "A022290",
+    "A374355",
+    "A374394",
+    "A374396"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

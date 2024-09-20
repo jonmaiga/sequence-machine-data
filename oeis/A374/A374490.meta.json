@@ -1,0 +1,19 @@
+{
+  "description": "Greatest common divisor of sums of n consecutive cubes.",
+  "id": "A374490",
+  "mentions": [
+    "A026741",
+    "A060789",
+    "A359380"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

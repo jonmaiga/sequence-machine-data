@@ -1,8 +1,11 @@
 {
-  "description": "(4^n)-th prime.",
+  "description": "a(n) = prime(4^n).",
   "id": "A119772",
-  "mentions": [],
+  "mentions": [
+    "A033844"
+  ],
   "tags": [
+    "formulas",
     "hard",
     "nonn"
   ],

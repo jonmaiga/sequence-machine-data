@@ -1,16 +1,17 @@
 {
-  "description": "a(n) = 4*a(n-1) + 2*n-1",
+  "description": "a(n) = 4*a(n-1) + 2*n - 1.",
   "id": "A141291",
   "mentions": [
     "A141290"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
-    "source": "joeis"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Squares equal to the sum of a cube and a factorial number.",
+  "id": "A373970",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A000578",
+    "A085692",
+    "A373218"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

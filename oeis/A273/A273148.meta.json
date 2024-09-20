@@ -1,9 +1,8 @@
 {
-  "description": "Left inverse of A274648",
+  "description": "Left inverse of A274648.",
   "id": "A273148",
   "mentions": [
     "A005132",
-    "A274468",
     "A274648"
   ],
   "tags": [

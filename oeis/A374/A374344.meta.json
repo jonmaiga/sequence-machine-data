@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of ways n can be written as a sum of a practical number and two heptagonal numbers.",
+  "id": "A374344",
+  "mentions": [
+    "A000566",
+    "A005153"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=1..n} abs(A375383(n, k)).",
+  "id": "A375382",
+  "mentions": [
+    "A375383"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n! * 3^k * hypergeom([-k], [-n], 1/3).",
+  "id": "A375447",
+  "mentions": [
+    "A000142",
+    "A010845",
+    "A374427",
+    "A374428",
+    "A375446"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

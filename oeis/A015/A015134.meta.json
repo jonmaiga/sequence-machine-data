@@ -2,7 +2,9 @@
   "description": "Consider Fibonacci-type sequences b(0)=X, b(1)=Y, b(k)=b(k-1)+b(k-2) mod n; all are periodic; sequence gives number of distinct periods.",
   "id": "A015134",
   "mentions": [
+    "A001175",
     "A015135",
+    "A053032",
     "A106306"
   ],
   "tags": [

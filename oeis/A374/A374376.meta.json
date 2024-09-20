@@ -1,0 +1,19 @@
+{
+  "description": "Array read by downward antidiagonals: T(k,n) is the least number that has k prime factors (counted with multiplicity) and is the concatenation of n primes, or -1 if there is no such number.",
+  "id": "A374376",
+  "mentions": [
+    "A001222",
+    "A069837",
+    "A374665",
+    "A374669"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

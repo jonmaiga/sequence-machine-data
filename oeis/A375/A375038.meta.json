@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows T(n,k), n >= 2, k >= 1, in which row n lists the nonmiddle divisors of n.",
+  "id": "A375038",
+  "mentions": [
+    "A027750",
+    "A054977",
+    "A067742",
+    "A067743",
+    "A071090",
+    "A299761",
+    "A302433",
+    "A303297",
+    "A375037"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

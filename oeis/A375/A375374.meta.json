@@ -1,0 +1,19 @@
+{
+  "description": "Let X be the sequence of power towers built of 2's and 3's, sorted first by their height and then colexicographically: 2, 3, 2^2, 3^2, 2^3, 3^3, 2^2^2, 3^2^2, etc. Sequence gives the permutation of indices which reorders X by magnitude.",
+  "id": "A375374",
+  "mentions": [
+    "A081241",
+    "A185969",
+    "A375375",
+    "A375376"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

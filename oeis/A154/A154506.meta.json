@@ -2,8 +2,7 @@
   "description": "Primes of the form concatenation(A141468(k), k).",
   "id": "A154506",
   "mentions": [
-    "A141468",
-    "A141486"
+    "A141468"
   ],
   "tags": [
     "base",

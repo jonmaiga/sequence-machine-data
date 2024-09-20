@@ -1,13 +1,16 @@
 {
   "description": "Continued fraction for Soldner's constant.",
   "id": "A099803",
-  "mentions": [],
+  "mentions": [
+    "A070769",
+    "A099804"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 95,
     "source": "oeis-entry"
   }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^n + p(n) is prime.",
+  "description": "Numbers k such that k^k + p(k) is prime.",
   "id": "A064773",
   "mentions": [],
   "tags": [

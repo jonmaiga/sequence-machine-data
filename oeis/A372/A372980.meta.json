@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=3, among all distinct circles that can be constructed from the 4 vertices and the equally spaced 4*n points placed on the sides of a square, using only a compass.",
+  "id": "A372980",
+  "mentions": [
+    "A360354",
+    "A361623",
+    "A371376",
+    "A372617",
+    "A372977",
+    "A372978",
+    "A372979",
+    "A372981"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

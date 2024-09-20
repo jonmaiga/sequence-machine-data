@@ -1,7 +1,15 @@
 {
   "description": "a(n) = 7*n - a(n-1), with a(1) = 1.",
   "id": "A166522",
-  "mentions": [],
+  "mentions": [
+    "A166519",
+    "A166520",
+    "A166521",
+    "A166523",
+    "A166524",
+    "A166525",
+    "A166526"
+  ],
   "tags": [
     "easy",
     "formulas",

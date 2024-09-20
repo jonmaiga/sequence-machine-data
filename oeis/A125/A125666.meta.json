@@ -1,9 +1,11 @@
 {
-  "description": "Table read by antidiagonals: n-th row of table consists of the positive integers divisible by exactly n distinct primes.",
+  "description": "Table read by ascending antidiagonals: n-th row of table consists of the positive integers divisible by exactly n distinct primes.",
   "id": "A125666",
   "mentions": [
     "A001221",
     "A002110",
+    "A002260",
+    "A004736",
     "A007774",
     "A033992",
     "A033993",

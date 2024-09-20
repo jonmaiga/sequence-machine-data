@@ -1,5 +1,5 @@
 {
-  "description": "Central binomial coefficient [A001405] is divisible by n^2.",
+  "description": "Numbers k such that binomial(k, floor(k/2)) is divisible by k^2.",
   "id": "A080394",
   "mentions": [
     "A000984",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

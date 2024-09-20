@@ -1,0 +1,18 @@
+{
+  "description": "Least n-gonal pyramidal number that can be written as a product of two or more smaller n-gonal pyramidal numbers, or 0 if no such number exists.",
+  "id": "A374499",
+  "mentions": [
+    "A080851",
+    "A374371",
+    "A374498"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

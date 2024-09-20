@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 7^n+2^n-1^n.",
+  "description": "a(n) = 7^n + 2^n - 1.",
   "id": "A155590",
   "mentions": [
     "A005056",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

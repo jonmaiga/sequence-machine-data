@@ -9,11 +9,12 @@
     "A060741"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the minimum value of A347381 obtained among all proper divisors of n larger than 1, where A347381 is the distance from n to the nearest common ancestor of n and sigma(n) in the Doudna-tree (A005940). By convention a(1) = a(p) = 0 for all primes p.",
+  "id": "A374214",
+  "mentions": [
+    "A000004",
+    "A005940",
+    "A064989",
+    "A252463",
+    "A347381",
+    "A374200",
+    "A374204",
+    "A374215",
+    "A374481"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

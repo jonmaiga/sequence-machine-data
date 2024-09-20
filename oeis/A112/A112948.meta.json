@@ -1,11 +1,12 @@
 {
-  "description": "Number of unrooted regular planar maps of valency 3 with 2n vertices (considered up to orientation-preserving homeomorphisms).",
+  "description": "Number of unrooted 3-regular planar maps with 2n vertices, up to orientation-preserving isomorphisms.",
   "id": "A112948",
   "mentions": [
     "A005470",
     "A112944",
     "A112945",
-    "A112949"
+    "A112949",
+    "A292408"
   ],
   "tags": [
     "nonn"

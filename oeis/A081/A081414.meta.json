@@ -1,5 +1,5 @@
 {
-  "description": "Largest prime divisor of p[1+2^n]-p[2^n] prime differences.",
+  "description": "Largest prime divisor of prime(2^n+1) - prime(2^n).",
   "id": "A081414",
   "mentions": [
     "A000079",
@@ -14,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 42,
+    "offset": 0,
+    "size": 79,
     "source": "oeis-entry"
   }
 }

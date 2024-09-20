@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n, k), read by rows 1<=n, 1<=k<=n: Number of cells touched by a unit-width diagonal in a regular n X k grid",
+  "description": "Triangle T(n, k), read by rows 1<=n, 1<=k<=n: Number of cells touched by a unit-width diagonal in a regular n X k grid.",
   "id": "A226246",
   "mentions": [
     "A074712",

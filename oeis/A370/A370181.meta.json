@@ -1,0 +1,23 @@
+{
+  "description": "Size of the group Z_5*/(Z_5*)^n, where Z_5 is the ring of 5-adic integers.",
+  "id": "A370181",
+  "mentions": [
+    "A001620",
+    "A297402",
+    "A370050",
+    "A370180",
+    "A370182",
+    "A370566"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

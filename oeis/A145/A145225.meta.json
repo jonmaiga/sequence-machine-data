@@ -1,10 +1,11 @@
 {
-  "description": "T(n,k) is the number of odd permutations (of an n-set) with exactly k fixed points.",
+  "description": "Triangle read by rows: T(n,k) is the number of odd permutations (of an n-set) with exactly k fixed points.",
   "id": "A145225",
   "mentions": [
     "A000387",
     "A001710",
     "A008290",
+    "A055137",
     "A145222",
     "A145223",
     "A145224"

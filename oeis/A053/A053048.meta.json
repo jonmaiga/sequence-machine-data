@@ -1,18 +1,20 @@
 {
-  "description": "EulerPhi is iterated with initial value n!; a(n) = number of terminal iterations applied to powers of 2 arising in the iteration.",
+  "description": "a(n) is the number of terminal iterations applied to powers of 2 arising in the iterations of the Euler phi function with initial value n!.",
   "id": "A053048",
   "mentions": [
     "A000010",
     "A000142",
     "A048855",
-    "A053039"
+    "A053039",
+    "A053047"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,10 +2,14 @@
   "description": "Number of ways a digit can be appended or prepended to n and form a prime.",
   "id": "A224953",
   "mentions": [
+    "A002275",
+    "A004023",
     "A069686",
     "A075595",
     "A087388",
-    "A087390"
+    "A087389",
+    "A087390",
+    "A124665"
   ],
   "tags": [
     "base",

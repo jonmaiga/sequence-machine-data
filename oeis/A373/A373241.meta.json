@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) is the difference between the number of different parts and the number of different multiplicities in the k-th partition of n in graded reverse lexicographic ordering (A080577).",
+  "id": "A373241",
+  "mentions": [
+    "A080577",
+    "A098859",
+    "A325244",
+    "A336866",
+    "A373242",
+    "A373243",
+    "A373269"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 138,
+    "source": "oeis-bfile"
+  }
+}

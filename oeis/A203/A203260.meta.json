@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..7 arrays with every nonzero element less than or equal to some NW, E or S neighbor",
+  "description": "Number of n X 6 0..7 arrays with every nonzero element less than or equal to some NW, E or S neighbor.",
   "id": "A203260",
   "mentions": [
     "A203262"

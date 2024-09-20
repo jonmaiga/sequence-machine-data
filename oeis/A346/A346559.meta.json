@@ -1,5 +1,5 @@
 {
-  "description": "Reversible primes with k digits, of the form concat(a,b), such that, with all the possible k-1 concatenation of two numbers a and b, we get k-1 distinct primes (a mod b) and the sum of these k-1 primes is a reversible prime itself.",
+  "description": "Reversible primes with k digits, of the form concat(a,b), such that, with all the possible k-1 concatenation of two numbers a and b, we get k-1 primes (a mod b) and the sum of these k-1 primes is a reversible prime itself.",
   "id": "A346559",
   "mentions": [
     "A007500"

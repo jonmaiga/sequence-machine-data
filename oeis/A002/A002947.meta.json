@@ -2,6 +2,8 @@
   "description": "Continued fraction for cube root of 4.",
   "id": "A002947",
   "mentions": [
+    "A002355",
+    "A002356",
     "A002945",
     "A003116",
     "A005480"
@@ -12,7 +14,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 100,
     "source": "oeis-bfile"
   }

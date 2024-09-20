@@ -1,5 +1,5 @@
 {
-  "description": "n-th row of the following triangle contains n distinct natural numbers such that every sum of n-1 of them +1 is a prime,n >1, with a(1) = 1 by convention. Sequence contains the triangle by rows.",
+  "description": "n-th row of the following triangle contains n distinct natural numbers such that every sum of n-1 of them +1 is a prime, n>1, with a(1) = 1 by convention. Sequence contains the triangle by rows.",
   "id": "A083782",
   "mentions": [
     "A083783",

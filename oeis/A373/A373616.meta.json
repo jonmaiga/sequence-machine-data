@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers that cannot be written as a sum of a practical number and a 13-gonal number.",
+  "id": "A373616",
+  "mentions": [
+    "A005153",
+    "A051865"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

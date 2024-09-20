@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n divides 3^n^2 - 1.",
+  "description": "Numbers k such that k divides 3^(k^2) - 1.",
   "id": "A093547",
   "mentions": [
     "A006521",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

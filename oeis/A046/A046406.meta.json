@@ -2,15 +2,16 @@
   "description": "Odd numbers with exactly 4 distinct palindromic prime factors.",
   "id": "A046406",
   "mentions": [
-    "A046317",
-    "A046374"
+    "A033620",
+    "A046374",
+    "A046390"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 33,
     "source": "joeis"
   }

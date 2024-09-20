@@ -1,0 +1,20 @@
+{
+  "description": "Infinite triangle T(n, k), n > 0, k = 1..n, read and filled in the greedy way by rows with distinct positive integers such that for any n > 1, k = 2..n, T(n, k) = T(n-1, k-1) * T(n, k-1).",
+  "id": "A375761",
+  "mentions": [
+    "A035312",
+    "A064319",
+    "A066117",
+    "A375846",
+    "A375857"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

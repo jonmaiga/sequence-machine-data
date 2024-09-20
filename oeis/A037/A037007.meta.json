@@ -1,7 +1,8 @@
 {
-  "description": "Positions of the digit '9' in the decimal expansion of Pi.",
+  "description": "Positions of the digit '9' in the decimal expansion of Pi, where positions 0, 1, 2,... correspond to digits 3, 1, 4, ....",
   "id": "A037007",
   "mentions": [
+    "A000796",
     "A036974",
     "A037000",
     "A037001",

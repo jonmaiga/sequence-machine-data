@@ -1,8 +1,11 @@
 {
-  "description": "Numbers n such that sigma(phi(n)) divides sigma(n).",
+  "description": "Numbers k such that sigma(phi(k)) divides sigma(k).",
   "id": "A190503",
   "mentions": [
+    "A000010",
+    "A000203",
     "A033631",
+    "A062402",
     "A066831",
     "A067740"
   ],

@@ -2,14 +2,17 @@
   "description": "Cubes which are palindromes in base 14.",
   "id": "A046250",
   "mentions": [
+    "A000578",
+    "A029959",
     "A046249"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 16,
     "source": "joeis"
   }

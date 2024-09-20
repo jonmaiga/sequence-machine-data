@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the maximum number of points from the set {(k, prime(k)), k = 1..n} belonging to a straight line passing through the point (n, prime(n)) (where prime(k) denotes the k-th prime number).",
+  "id": "A375422",
+  "mentions": [
+    "A334046",
+    "A375386"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

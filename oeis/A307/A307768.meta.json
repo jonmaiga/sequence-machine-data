@@ -2,8 +2,10 @@
   "description": "Number of n-step random walks on a line starting from the origin and returning to it at least once.",
   "id": "A307768",
   "mentions": [
+    "A027306",
     "A045621",
     "A063886",
+    "A128014",
     "A284016"
   ],
   "tags": [

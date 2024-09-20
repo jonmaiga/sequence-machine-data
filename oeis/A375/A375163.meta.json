@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/((1 + x)^7 - 2*x^7).",
+  "id": "A375163",
+  "mentions": [
+    "A049018",
+    "A108369",
+    "A373463"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

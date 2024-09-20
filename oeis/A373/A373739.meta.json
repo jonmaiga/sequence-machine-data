@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number that is in a cycle of length n when iterating x <- phi(sigma(x)).",
+  "id": "A373739",
+  "mentions": [
+    "A062401",
+    "A095955",
+    "A095956",
+    "A373435",
+    "A373453",
+    "A373454"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,10 @@
 {
-  "description": "11-n.",
+  "description": "a(n) = 11-n.",
   "id": "A022967",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022995"
+  ],
   "tags": [
     "easy",
     "formulas",

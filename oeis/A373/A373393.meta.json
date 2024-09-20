@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum connected dominating sets in the n-triangular grid graph.",
+  "id": "A373393",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

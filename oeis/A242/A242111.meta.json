@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative k such that k^2+2 divides n^2+2.",
+  "description": "Number of nonnegative k such that k^2 + 2 divides n^2 + 2.",
   "id": "A242111",
   "mentions": [
     "A059100",

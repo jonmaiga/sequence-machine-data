@@ -2,15 +2,32 @@
   "description": "Number of powers of 10 mod n.",
   "id": "A054710",
   "mentions": [
-    "A121341"
+    "A007732",
+    "A051628",
+    "A054703",
+    "A054704",
+    "A054705",
+    "A054706",
+    "A054707",
+    "A054708",
+    "A054709",
+    "A054712",
+    "A054713",
+    "A054714",
+    "A054715",
+    "A054716",
+    "A054717",
+    "A121341",
+    "A351524"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

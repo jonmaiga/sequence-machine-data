@@ -1,8 +1,9 @@
 {
-  "description": "Composite numbers n such that n+1+d is prime for all nontrivial divisors d which divide n.",
+  "description": "Composite numbers k such that k+1+d is prime for all nontrivial divisors d which divide k.",
   "id": "A153326",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A120806"
   ],
   "tags": [
     "easy",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

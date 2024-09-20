@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the maximal absolute value of the determinant of an n X n symmetric Toeplitz matrix having 0 on the main diagonal and all the first n-1 primes off-diagonal.",
+  "id": "A374388",
+  "mentions": [
+    "A071079",
+    "A374068",
+    "A374342",
+    "A374386",
+    "A374387",
+    "A374389",
+    "A374390"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

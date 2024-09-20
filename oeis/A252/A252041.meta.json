@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n - 3 divides n^n + 3.",
+  "description": "Numbers m such that m - 3 divides m^m + 3.",
   "id": "A252041",
   "mentions": [
     "A000027",

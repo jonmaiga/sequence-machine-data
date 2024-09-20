@@ -1,7 +1,9 @@
 {
-  "description": "9-n.",
+  "description": "a(n) = 9-n.",
   "id": "A022965",
   "mentions": [
+    "A022958",
+    "A022995",
     "A023451"
   ],
   "tags": [

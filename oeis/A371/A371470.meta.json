@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: for 1 <= k <= n, T(n,k) is the least sum of decimal digits of numbers with n binary digits and binary weight k.",
+  "id": "A371470",
+  "mentions": [
+    "A000120",
+    "A007953",
+    "A118738",
+    "A123384",
+    "A373289"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Continued fraction for Pi^gamma.",
+  "description": "Continued fraction for Pi^gamma, where gamma is the Euler-Mascheroni constant.",
   "id": "A179948",
   "mentions": [
+    "A001620",
     "A182547"
   ],
   "tags": [
@@ -9,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 99,
     "source": "joeis"
   }

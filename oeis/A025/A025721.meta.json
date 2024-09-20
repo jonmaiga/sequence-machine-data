@@ -1,5 +1,5 @@
 {
-  "description": "Index of 7^n within sequence of numbers of form 3^i*7^j.",
+  "description": "Index of 7^n within sequence of numbers of form 3^i*7^j for i >= 0, j >= 1.",
   "id": "A025721",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

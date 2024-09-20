@@ -1,5 +1,5 @@
 {
-  "description": "Least exponent k such that 2^k has exactly n consecutive 3's in its decimal representation.",
+  "description": "Exponent of least power of 2 having exactly n consecutive 3's in its decimal representation.",
   "id": "A131537",
   "mentions": [
     "A000079",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 14,
+    "offset": 0,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

@@ -1,13 +1,18 @@
 {
-  "description": "Odd n such that d(n) does not divide phi(n).",
+  "description": "Odd numbers k such that d(k) does not divide phi(k).",
   "id": "A015734",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A005408",
+    "A015733"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

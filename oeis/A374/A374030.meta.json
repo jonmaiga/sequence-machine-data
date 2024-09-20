@@ -1,0 +1,16 @@
+{
+  "description": "Number of decompositions of 2n-1 into sums of a prime and a primitive practical number (A267124).",
+  "id": "A374030",
+  "mentions": [
+    "A045917",
+    "A267124"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

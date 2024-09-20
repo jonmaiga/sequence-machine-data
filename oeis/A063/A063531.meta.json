@@ -2,19 +2,18 @@
   "description": "Numbers k such that sigma(k) + 1 is a square.",
   "id": "A063531",
   "mentions": [
-    "A000010",
     "A000203",
-    "A015722",
     "A028871",
-    "A037074"
+    "A037074",
+    "A063530",
+    "A088580"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

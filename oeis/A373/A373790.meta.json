@@ -1,0 +1,22 @@
+{
+  "description": "The term that immediately precedes prime(n) in A373390.",
+  "id": "A373790",
+  "mentions": [
+    "A000040",
+    "A372072",
+    "A372073",
+    "A372078",
+    "A372081",
+    "A373390",
+    "A373786",
+    "A373791"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

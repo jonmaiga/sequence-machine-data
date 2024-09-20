@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (x/(8 * (1-x))) * d/dx(theta_3(x)^4).",
+  "id": "A374535",
+  "mentions": [
+    "A014203",
+    "A185152",
+    "A374534"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions p of n such that max(p)-min(p) = 10.",
+  "description": "Number of partitions p of n such that max(p) - min(p) = 10.",
   "id": "A218573",
   "mentions": [
     "A097364",

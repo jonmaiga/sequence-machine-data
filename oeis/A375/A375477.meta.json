@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms arranged in successive chunks whose digitsum = 10, said chunks being \"linked\" (see the Comments section for an explanation).",
+  "id": "A375477",
+  "mentions": [
+    "A051885",
+    "A228915",
+    "A375460"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

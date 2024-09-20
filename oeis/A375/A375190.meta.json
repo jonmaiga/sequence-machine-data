@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the circumradius of a regular 11-gon with unit side length.",
+  "id": "A375190",
+  "mentions": [
+    "A001622",
+    "A010503",
+    "A020760",
+    "A188887",
+    "A256854",
+    "A272489",
+    "A285871",
+    "A300074",
+    "A374957",
+    "A375151",
+    "A375191",
+    "A375192"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

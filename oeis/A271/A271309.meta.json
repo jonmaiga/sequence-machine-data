@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that A264137(n) < A060385(n).",
+  "description": "Integers k such that A264137(k) < A060385(k).",
   "id": "A271309",
   "mentions": [
     "A000129",
@@ -8,12 +8,11 @@
     "A264137"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

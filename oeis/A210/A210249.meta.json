@@ -2,10 +2,12 @@
   "description": "Number of partitions of n in which all parts are less than n/2.",
   "id": "A210249",
   "mentions": [
-    "A124278",
-    "A233771"
+    "A000041",
+    "A025065",
+    "A124278"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

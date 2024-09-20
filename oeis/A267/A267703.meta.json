@@ -1,5 +1,5 @@
 {
-  "description": "Conjectured list of numbers n such that the trajectory of n under the '7x+1' map does not cycle.",
+  "description": "Conjectured list of numbers whose trajectory under the '7x+1' map eventually reaches 1.",
   "id": "A267703",
   "mentions": [
     "A000079",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

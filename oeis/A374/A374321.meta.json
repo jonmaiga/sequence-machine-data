@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of [n] such that the number of blocks of size k is zero or equals k for every k.",
+  "id": "A374321",
+  "mentions": [
+    "A001422",
+    "A003995",
+    "A372579",
+    "A374319",
+    "A374320",
+    "A374329"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "prime(n)^2 mod n.",
+  "description": "a(n) = prime(n)^2 mod n.",
   "id": "A178211",
   "mentions": [
     "A000027",

@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes with exactly 6 distinct prime divisors.",
+  "id": "A373466",
+  "mentions": [
+    "A002113",
+    "A046332",
+    "A046396",
+    "A074969",
+    "A373465",
+    "A373467"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

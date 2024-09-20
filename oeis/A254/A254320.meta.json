@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the reversal of phi(n) is sigma(n)-n.",
+  "description": "Numbers k such that the reversal of phi(k) is sigma(k)-k.",
   "id": "A254320",
   "mentions": [
     "A000010",
@@ -10,7 +10,6 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {

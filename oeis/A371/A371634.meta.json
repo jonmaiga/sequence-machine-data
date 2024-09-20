@@ -1,0 +1,19 @@
+{
+  "description": "Records in A372720.",
+  "id": "A371634",
+  "mentions": [
+    "A000005",
+    "A008479",
+    "A371630",
+    "A372720"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Multiples of 123456789.",
   "id": "A053654",
-  "mentions": [],
+  "mentions": [
+    "A008591"
+  ],
   "tags": [
     "easy",
     "formulas",

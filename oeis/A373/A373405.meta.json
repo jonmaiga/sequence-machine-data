@@ -1,0 +1,35 @@
+{
+  "description": "Sum of the n-th maximal antirun of odd primes differing by more than two.",
+  "id": "A373405",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A001359",
+    "A002808",
+    "A006512",
+    "A025157",
+    "A027833",
+    "A029707",
+    "A038664",
+    "A046933",
+    "A071148",
+    "A073783",
+    "A293697",
+    "A350842",
+    "A350844",
+    "A371201",
+    "A373403",
+    "A373404",
+    "A373406",
+    "A373411",
+    "A373412"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

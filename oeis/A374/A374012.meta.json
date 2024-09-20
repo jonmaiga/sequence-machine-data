@@ -1,0 +1,22 @@
+{
+  "description": "Least number of 6th powers needed to represent n.",
+  "id": "A374012",
+  "mentions": [
+    "A002376",
+    "A002377",
+    "A002804",
+    "A002828",
+    "A018886",
+    "A188462"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Complement of A092433.",
+  "id": "A376047",
+  "mentions": [
+    "A092433",
+    "A325114",
+    "A376046"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

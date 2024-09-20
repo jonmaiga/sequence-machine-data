@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that give record values for s(n)*phi(n)/n^2, where s(n) is the sum of squares of the differences between consecutive totatives of n (A322144).",
+  "description": "Numbers k that give record values for s(k)*phi(k)/k^2, where s(k) is the sum of squares of the differences between consecutive totatives of k (A322144).",
   "id": "A322165",
   "mentions": [
     "A000010",

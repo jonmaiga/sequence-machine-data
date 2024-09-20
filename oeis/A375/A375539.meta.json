@@ -1,0 +1,16 @@
+{
+  "description": "Denominator of the asymptotic mean over the positive integers of the maximum exponent in the prime factorization of the largest prime(n)-smooth divisor function.",
+  "id": "A375539",
+  "mentions": [
+    "A375538"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

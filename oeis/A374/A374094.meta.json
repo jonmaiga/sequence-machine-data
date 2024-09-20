@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where there are exactly n solutions to x^2 + x*y + y^2 = k with 0 < x < y.",
+  "id": "A374094",
+  "mentions": [
+    "A093195",
+    "A374090",
+    "A374092",
+    "A374095"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

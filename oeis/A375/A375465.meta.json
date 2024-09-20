@@ -1,0 +1,17 @@
+{
+  "description": "Lengths of successive runs of equal terms in A375433.",
+  "id": "A375465",
+  "mentions": [
+    "A373811",
+    "A373812",
+    "A375433"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

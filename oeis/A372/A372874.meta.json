@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the total number of runs of descents over all flattened Catalan words of length n.",
+  "id": "A372874",
+  "mentions": [
+    "A372873"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

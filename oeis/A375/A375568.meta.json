@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = denominator(A006571(n)/A366450(n)) if A366450(n) != 0, otherwise 1.",
+  "id": "A375568",
+  "mentions": [
+    "A006571",
+    "A056622",
+    "A071974",
+    "A366450"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

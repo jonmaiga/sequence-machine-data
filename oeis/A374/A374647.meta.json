@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n! / floor(2n/3)!.",
+  "id": "A374647",
+  "mentions": [
+    "A000142",
+    "A081125",
+    "A355988"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

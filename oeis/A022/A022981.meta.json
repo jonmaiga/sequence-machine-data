@@ -1,7 +1,10 @@
 {
-  "description": "25-n.",
+  "description": "a(n) = 25-n.",
   "id": "A022981",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022995"
+  ],
   "tags": [
     "sign"
   ],

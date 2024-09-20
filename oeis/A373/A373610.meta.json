@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers that cannot be written as a sum of a practical number and an octagonal number.",
+  "id": "A373610",
+  "mentions": [
+    "A000567",
+    "A005153"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

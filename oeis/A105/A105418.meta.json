@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime p such that the sum of it and the following prime have n prime factors including multiplicity, or 0 if no such prime exists.",
+  "description": "Smallest prime p such that the sum of it and the following prime has n prime factors including multiplicity, or 0 if no such prime exists.",
   "id": "A105418",
   "mentions": [
     "A001043",

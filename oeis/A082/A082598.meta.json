@@ -1,17 +1,16 @@
 {
-  "description": "Palindromic prime units W appearing twice in first order fractal palindromic primes WmW.",
+  "description": "Palindromic prime units W appearing twice in first-order fractal palindromic primes WmW.",
   "id": "A082598",
   "mentions": [
     "A082584"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

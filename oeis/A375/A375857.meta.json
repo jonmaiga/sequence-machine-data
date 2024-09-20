@@ -1,0 +1,18 @@
+{
+  "description": "Left border of triangle A375761.",
+  "id": "A375857",
+  "mentions": [
+    "A035311",
+    "A375761",
+    "A375846"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (sin(Pi/k))^(2k).",
+  "id": "A373642",
+  "mentions": [
+    "A010503",
+    "A010527",
+    "A019845",
+    "A269611"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

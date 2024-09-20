@@ -1,11 +1,15 @@
 {
-  "description": "Numbers n such that 4n-1, 8n-1 and 16n-1 are primes.",
+  "description": "Numbers k such that 4*k-1, 8*k-1 and 16*k-1 are all primes.",
   "id": "A101790",
   "mentions": [
     "A002515",
+    "A005099",
+    "A005122",
     "A101791",
     "A101792",
-    "A101793"
+    "A101793",
+    "A101794",
+    "A101994"
   ],
   "tags": [
     "easy",
@@ -14,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

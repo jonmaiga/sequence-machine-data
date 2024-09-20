@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest difference of adjacent elements in the sorted list of the Collatz trajectory elements of n.",
+  "id": "A376079",
+  "mentions": [
+    "A008908",
+    "A025586",
+    "A220237"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

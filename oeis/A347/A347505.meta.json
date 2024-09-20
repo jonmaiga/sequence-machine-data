@@ -2,16 +2,17 @@
   "description": "Number of dominating sets in the n-Hanoi graph.",
   "id": "A347505",
   "mentions": [
-    "A303898"
+    "A288490",
+    "A303898",
+    "A308382",
+    "A373441"
   ],
   "tags": [
-    "bref",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 5,
+    "source": "oeis-bfile"
   }
 }

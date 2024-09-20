@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes between two successive Sophie Germain primes, with Sophie Germain primes not themselves included in the count.",
+  "id": "A371981",
+  "mentions": [
+    "A000720",
+    "A005384"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

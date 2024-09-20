@@ -1,14 +1,20 @@
 {
-  "description": "(12n+4)^9.",
+  "description": "a(n) = (12n+4)^9.",
   "id": "A017577",
-  "mentions": [],
+  "mentions": [
+    "A001017",
+    "A013667",
+    "A016785",
+    "A017569"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 14,
     "source": "joeis"
   }
 }

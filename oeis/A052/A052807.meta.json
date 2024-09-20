@@ -1,7 +1,9 @@
 {
-  "description": "E.g.f.: -LambertW(log(1-x)).",
+  "description": "Expansion of e.g.f. -LambertW(log(1-x)).",
   "id": "A052807",
   "mentions": [
+    "A006963",
+    "A048802",
     "A052813",
     "A277489"
   ],

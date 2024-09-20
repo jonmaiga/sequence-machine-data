@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the sagitta of a regular 11-gon with unit side length.",
+  "id": "A375192",
+  "mentions": [
+    "A020769",
+    "A174968",
+    "A256854",
+    "A374972",
+    "A375068",
+    "A375069",
+    "A375070",
+    "A375153",
+    "A375189",
+    "A375190",
+    "A375191",
+    "A375194"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

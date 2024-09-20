@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (44^n-1)/43.",
+  "description": "a(n) = (44^n - 1)/43.",
   "id": "A218747",
   "mentions": [
     "A000225",
@@ -38,7 +38,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of squares between n! and (n+1)!, exclusive.",
+  "id": "A373048",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A055226"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

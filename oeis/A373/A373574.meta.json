@@ -1,0 +1,47 @@
+{
+  "description": "Numbers k such that the k-th maximal antirun of nonsquarefree numbers has length different from all prior maximal antiruns. Sorted positions of first appearances in A373409.",
+  "id": "A373574",
+  "mentions": [
+    "A005117",
+    "A007674",
+    "A013929",
+    "A025157",
+    "A027833",
+    "A049094",
+    "A053797",
+    "A061399",
+    "A068781",
+    "A072284",
+    "A073051",
+    "A076259",
+    "A077643",
+    "A078147",
+    "A110969",
+    "A120992",
+    "A175632",
+    "A176246",
+    "A251092",
+    "A294242",
+    "A373127",
+    "A373128",
+    "A373199",
+    "A373200",
+    "A373400",
+    "A373401",
+    "A373402",
+    "A373403",
+    "A373409",
+    "A373410",
+    "A373412",
+    "A373573"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

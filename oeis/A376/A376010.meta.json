@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest distance between a pair of equal terms in the sequence s(0) = 1, s(1) = r, and s(k) = s(k-1)^2/(4*s(k-2)) mod p for k>=2, where p = prime(n) (=A000040(n)) and r is a primitive root modulo p.",
+  "id": "A376010",
+  "mentions": [
+    "A000040",
+    "A216371",
+    "A268923",
+    "A376008"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 116,
+    "source": "oeis-entry"
+  }
+}

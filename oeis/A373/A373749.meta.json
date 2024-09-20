@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = MOD(k^2, n) where MOD(a, n) = a if n = 0 and otherwise a - n*floor(a/n). (Quadratic residue.)",
+  "id": "A373749",
+  "mentions": [
+    "A048152",
+    "A048153",
+    "A096008",
+    "A373750"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

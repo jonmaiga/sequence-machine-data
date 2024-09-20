@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 3*zeta(3)/2.",
+  "id": "A373513",
+  "mentions": [
+    "A002117",
+    "A197070",
+    "A258750"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of convergents to cube root of 7.",
+  "description": "Denominators of continued fraction convergents to cube root of 7.",
   "id": "A005485",
   "mentions": [
     "A005482",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 28,
     "source": "oeis-bfile"
   }

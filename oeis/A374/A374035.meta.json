@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(A328845(n), A328846(n)), where A328845 and A328846 are the first and second Fibonacci-based variants of the arithmetic derivative.",
+  "id": "A374035",
+  "mentions": [
+    "A328845",
+    "A328846",
+    "A374036",
+    "A374037",
+    "A374038"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

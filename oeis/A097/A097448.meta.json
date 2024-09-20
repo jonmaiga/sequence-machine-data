@@ -1,8 +1,14 @@
 {
-  "description": "If n is square, replace with sqrt(n).",
+  "description": "If n is square, replace it with sqrt(n).",
   "id": "A097448",
-  "mentions": [],
+  "mentions": [
+    "A016627",
+    "A072691",
+    "A097449"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

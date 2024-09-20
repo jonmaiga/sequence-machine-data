@@ -1,13 +1,16 @@
 {
-  "description": "Primes p such that A013632(p)*A105161(p) > p",
+  "description": "Primes p such that A013632(p)*A105161(p) > p.",
   "id": "A338577",
   "mentions": [
+    "A002386",
+    "A005250",
     "A013632",
     "A105161",
     "A338567",
     "A338578"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

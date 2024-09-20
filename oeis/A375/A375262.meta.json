@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer m such that sigma(m)/phi(m) = n + 1/2, where sigma(.) and phi(.) are given by A000203 and A000010, respectively.",
+  "id": "A375262",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A055234",
+    "A065824"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

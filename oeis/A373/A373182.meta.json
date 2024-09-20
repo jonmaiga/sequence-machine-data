@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways that people can sit in n linearly arranged seats such that there are one or two empty seats between any two persons, zero or one empty seats at the start and end, and at least one person gets seated.",
+  "id": "A373182",
+  "mentions": [
+    "A095236",
+    "A245963"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

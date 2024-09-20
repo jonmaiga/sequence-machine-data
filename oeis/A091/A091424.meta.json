@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that n#*2^n + 1 is prime, where n# is product of prime numbers (primorial).",
+  "description": "Numbers m such that m#*2^m + 1 is prime, where m# = A002110(m).",
   "id": "A091424",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A091421"
   ],
   "tags": [
     "hard",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

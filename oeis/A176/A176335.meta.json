@@ -2,6 +2,7 @@
   "description": "Central coefficients T(2n,n) of number triangle A176331.",
   "id": "A176335",
   "mentions": [
+    "A112029",
     "A176331",
     "A176332",
     "A176334"

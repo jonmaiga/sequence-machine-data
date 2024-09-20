@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A112387(n)^2.",
+  "id": "A374098",
+  "mentions": [
+    "A000302",
+    "A003683",
+    "A084175",
+    "A112387",
+    "A139818"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

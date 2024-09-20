@@ -2,7 +2,8 @@
   "description": "Concatenation of prime k and its 10's complement is a prime.",
   "id": "A083989",
   "mentions": [
-    "A083990"
+    "A083990",
+    "A089186"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

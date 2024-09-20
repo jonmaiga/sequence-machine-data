@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Hensley's constant, arising in the analysis of the Euclidean algorithm.",
+  "id": "A375066",
+  "mentions": [
+    "A089729",
+    "A174606",
+    "A345987",
+    "A362149",
+    "A362150"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

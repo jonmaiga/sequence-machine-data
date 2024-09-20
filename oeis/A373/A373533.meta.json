@@ -1,0 +1,18 @@
+{
+  "description": "Least starting prime of exactly n consecutive primes p_i (i = 1..n) such that omega(p_i + 1) = 1 + i.",
+  "id": "A373533",
+  "mentions": [
+    "A001221",
+    "A086560",
+    "A369097"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

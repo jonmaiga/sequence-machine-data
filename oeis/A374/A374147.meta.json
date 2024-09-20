@@ -1,0 +1,18 @@
+{
+  "description": "Number of complete Carlitz compositions of n.",
+  "id": "A374147",
+  "mentions": [
+    "A003242",
+    "A107428",
+    "A107429"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

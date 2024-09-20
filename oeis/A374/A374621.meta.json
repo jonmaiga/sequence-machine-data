@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1 - x^4/24 - log(1 - x).",
+  "id": "A374621",
+  "mentions": [
+    "A369833",
+    "A374617",
+    "A374618",
+    "A374619",
+    "A374620"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Largest unitary square divisor of n!.",
+  "id": "A374988",
+  "mentions": [
+    "A006364",
+    "A055071",
+    "A350388",
+    "A374989"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "Center column of elementary triangular automaton rule 37, from a lone 1 cell.",
   "id": "A371844",
   "mentions": [
-    "A371931"
+    "A371931",
+    "A372552",
+    "A372553"
   ],
   "tags": [
     "nonn"

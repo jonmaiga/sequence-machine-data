@@ -1,7 +1,9 @@
 {
-  "description": "Numbers k that divide 10^(k+1)-1 .",
+  "description": "Numbers k that divide 10^(k+1)-1.",
   "id": "A175203",
-  "mentions": [],
+  "mentions": [
+    "A002283"
+  ],
   "tags": [
     "nonn"
   ],

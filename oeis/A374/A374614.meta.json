@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k/n)^2 * binomial(n,k)^5.",
+  "id": "A374614",
+  "mentions": [
+    "A005261",
+    "A181067",
+    "A198256",
+    "A374615",
+    "A374616"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

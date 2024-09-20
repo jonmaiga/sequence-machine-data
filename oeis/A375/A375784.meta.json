@@ -1,0 +1,21 @@
+{
+  "description": "Array read by rows: T(n,k) is the first number with n prime factors (counted with multiplicity) and n occurrences of decimal digit k.",
+  "id": "A375784",
+  "mentions": [
+    "A001222",
+    "A002275",
+    "A046053",
+    "A375760"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

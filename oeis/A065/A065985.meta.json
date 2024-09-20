@@ -1,7 +1,28 @@
 {
-  "description": "Numbers n such that d(n) / 2 is prime, where d(n) = number of divisors of n.",
+  "description": "Numbers k such that d(k) / 2 is prime, where d(k) = number of divisors of k.",
   "id": "A065985",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A006881",
+    "A030078",
+    "A030513",
+    "A030515",
+    "A030628",
+    "A030632",
+    "A050997",
+    "A054753",
+    "A095990",
+    "A096156",
+    "A118914",
+    "A137485",
+    "A137489",
+    "A138031",
+    "A175744",
+    "A175747",
+    "A178739",
+    "A179665",
+    "A189987"
+  ],
   "tags": [
     "nonn"
   ],

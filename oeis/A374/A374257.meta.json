@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct positive n-th powers in exactly 3 ways, or -1 if no such number exists.",
+  "id": "A374257",
+  "mentions": [
+    "A025304",
+    "A025401",
+    "A146756",
+    "A374227",
+    "A374256"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

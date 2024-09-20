@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of e - Integral_{0..oo} 1/Gamma(1+x) dx.",
+  "id": "A375822",
+  "mentions": [
+    "A001113",
+    "A001620",
+    "A247377"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

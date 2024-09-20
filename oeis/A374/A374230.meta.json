@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of four distinct n-th powers of primes in exactly n ways, or -1 if no such number exists.",
+  "id": "A374230",
+  "mentions": [
+    "A349764",
+    "A374228",
+    "A374229"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

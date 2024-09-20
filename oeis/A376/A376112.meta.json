@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = (1/2) * Sum_{k=1..n} (3^k-1) * a(k-1) * a(n-k).",
+  "id": "A376112",
+  "mentions": [
+    "A015084",
+    "A337555",
+    "A376111",
+    "A376113"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

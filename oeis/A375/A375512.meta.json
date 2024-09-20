@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of distinct compositions of four positive integers x, u, v, y (x < u <= v < y) for which x + u + v + y = n and u*v = x*y.",
+  "id": "A375512",
+  "mentions": [
+    "A038548",
+    "A134506",
+    "A357259"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

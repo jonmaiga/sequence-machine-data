@@ -1,0 +1,22 @@
+{
+  "description": "Indices of 1's in A374200, where A374200 is the minimum value of A347381 that it obtains among unitary divisors of n larger than 1.",
+  "id": "A374221",
+  "mentions": [
+    "A000203",
+    "A005940",
+    "A086748",
+    "A347381",
+    "A347391",
+    "A374200",
+    "A374204",
+    "A374220"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

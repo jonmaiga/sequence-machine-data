@@ -1,0 +1,13 @@
+{
+  "description": "Index of the closure of a triangle group Delta, associated with billiards in a regular n-gon, in the adelic group Gamma = SL_2(O), where O is the profinite completion of Z[zeta + zeta^{-1}] and zeta is the n-th root of unity.",
+  "id": "A374898",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

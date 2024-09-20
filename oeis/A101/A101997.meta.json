@@ -1,20 +1,24 @@
 {
-  "description": "16n-1 such that 4n-1, 8n-1, 16n-1, 32n-1 and 64n-1 are primes.",
+  "description": "Primes of the form 16*k-1 such that 4*k-1, 8*k-1, 32*k-1 and 64*k-1 are also primes.",
   "id": "A101997",
   "mentions": [
+    "A101793",
+    "A101797",
     "A101994",
     "A101995",
     "A101996",
     "A101998",
-    "A101999"
+    "A101999",
+    "A127576"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

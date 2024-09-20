@@ -3,7 +3,9 @@
   "id": "A327029",
   "mentions": [
     "A000010",
+    "A000041",
     "A008284",
+    "A052810",
     "A078392",
     "A282750"
   ],
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 78,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

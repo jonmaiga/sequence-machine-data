@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n, k), n > 1 and k >= 1, read by antidiagonals in ascending order, give the smallest number that starts a sequence of exactly k consecutive numbers, each having exactly n distinct prime factors (counted without multiplicity), or -1 if no such number exists.",
+  "id": "A375287",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A002808",
+    "A006049",
+    "A006073",
+    "A045932",
+    "A045938"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

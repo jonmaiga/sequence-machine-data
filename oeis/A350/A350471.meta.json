@@ -1,10 +1,12 @@
 {
-  "description": "The number of days elapsed since the Gregorian date Sunday, December 31, 1 BC on 1/1/n, where 1/1/n is the Gregorian date in the format month/day/year, the New Year's Day of the year n.",
+  "description": "The number of days elapsed since the Gregorian (proleptic) date Sunday, December 31, 1 BC on 1/1/n, where 1/1/n is the Gregorian date in the format month/day/year, the New Year's Day of the year n.",
   "id": "A350471",
   "mentions": [
-    "A350458"
+    "A350458",
+    "A350539"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

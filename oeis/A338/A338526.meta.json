@@ -2,9 +2,11 @@
   "description": "Triangle read by rows: T(n,k) is the number of permutations of k elements from [1..n] without consecutive adjacent values.",
   "id": "A338526",
   "mentions": [
-    "A002464"
+    "A002464",
+    "A375022"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

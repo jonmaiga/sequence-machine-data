@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) = C(n,m)*Sum_{k=0..n} C(n,m-k)*C(n+k,k)/C(2*k,k).",
+  "description": "Triangle read by rows: T(n, k) = C(n, k)*Sum_{j=0..n} C(n, k-j)*C(n+j, j)/C(2*j, j).",
   "id": "A339000",
   "mentions": [
     "A000045",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

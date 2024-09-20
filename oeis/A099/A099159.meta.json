@@ -1,7 +1,8 @@
 {
-  "description": "(L(n-2)+2*3^n)/5.",
+  "description": "a(n) = (L(n-2)+2*3^n)/5.",
   "id": "A099159",
   "mentions": [
+    "A000032",
     "A052964",
     "A098703",
     "A101220"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
-    "source": "joeis"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

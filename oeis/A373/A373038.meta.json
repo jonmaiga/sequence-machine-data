@@ -1,0 +1,19 @@
+{
+  "description": "In the binary expansion of any nonnegative number n, say with Hamming weight w, reverse the order of the w rightmost bits.",
+  "id": "A373038",
+  "mentions": [
+    "A000120",
+    "A059893"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

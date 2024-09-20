@@ -2,15 +2,19 @@
   "description": "Number of letters in English words for months of year.",
   "id": "A031139",
   "mentions": [
-    "A089746"
+    "A089746",
+    "A161376",
+    "A182495"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn",
     "word"
   ],
   "terms": {
     "offset": 1,
-    "size": 72,
+    "size": 84,
     "source": "joeis"
   }
 }

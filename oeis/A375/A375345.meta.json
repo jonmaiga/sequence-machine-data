@@ -1,0 +1,14 @@
+{
+  "description": "a(n) = b(n, n-1) where b(n, m) = b(n, m-1) + gcd(b(n, m-1), n-m) for m > 0 with b(n, 0) = n.",
+  "id": "A375345",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

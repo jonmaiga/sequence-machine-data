@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers that cannot be written as a sum of a practical number and a hexagonal number.",
+  "id": "A373443",
+  "mentions": [
+    "A000384",
+    "A005153"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

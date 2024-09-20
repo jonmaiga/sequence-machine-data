@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the size of the largest set of positive integers S from 1..prime(n)-1 such that for any subset R of S, Sum {R} + prime(n) is prime.",
+  "id": "A372406",
+  "mentions": [
+    "A070046"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consider all invertible residues k mod n. For each such k, find the product of three primes p*q*r = k (mod n) with the smallest max {p, q, r}. Then a(n) is the largest such p over the considered k.",
+  "id": "A358242",
+  "mentions": [
+    "A014612",
+    "A038026",
+    "A085420",
+    "A358240"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

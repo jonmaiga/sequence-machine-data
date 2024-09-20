@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A083186(n) is prime.",
+  "description": "Numbers k such that A083186(k) is prime.",
   "id": "A109790",
   "mentions": [
     "A006450",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

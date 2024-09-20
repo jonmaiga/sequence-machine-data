@@ -1,0 +1,16 @@
+{
+  "description": "Number of 7-regular labeled graphs on 2n nodes.",
+  "id": "A374842",
+  "mentions": [
+    "A059441",
+    "A165628"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

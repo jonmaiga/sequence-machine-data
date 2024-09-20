@@ -1,16 +1,20 @@
 {
-  "description": "Sequence f[n, 5], where f[n, b] is described in A101942.",
+  "description": "Write n in base 5 as n = b_0 + b_1*5 + b_2*5^2 + b_3*5^3 + ...; then a(n) = Product_{i >= 0} prime(i+1)^b_i.",
   "id": "A101943",
   "mentions": [
+    "A019565",
+    "A054842",
+    "A101278",
     "A101942"
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
+    "size": 59,
     "source": "oeis-entry"
   }
 }

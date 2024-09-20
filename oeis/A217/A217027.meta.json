@@ -1,5 +1,5 @@
 {
-  "description": "Number of city-block distance 1, pressure limit 2 movements in an nX7 array with each element moving exactly one horizontally or vertically and no element acquiring more than two neighbors",
+  "description": "Number of city-block distance 1, pressure limit 2 movements in an n X 7 array with each element moving exactly one horizontally or vertically and no element acquiring more than two neighbors.",
   "id": "A217027",
   "mentions": [
     "A217028"

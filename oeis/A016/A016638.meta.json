@@ -2,10 +2,13 @@
   "description": "Decimal expansion of log(15).",
   "id": "A016638",
   "mentions": [
-    "A016443"
+    "A002391",
+    "A016443",
+    "A016628"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Expansion of (1-x)^(-1)/(1-2*x^2+x^3).",
   "id": "A077880",
   "mentions": [
+    "A000045",
     "A001924",
     "A079282"
   ],

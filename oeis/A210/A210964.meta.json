@@ -1,5 +1,5 @@
 {
-  "description": "Column 10 of square array A195825. Also column 1 of triangle A210954. Also 1 together with the row sums of triangle A210954",
+  "description": "Column 10 of square array A195825. Also column 1 of triangle A210954. Also 1 together with the row sums of triangle A210954.",
   "id": "A210964",
   "mentions": [
     "A000041",

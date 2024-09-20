@@ -1,0 +1,28 @@
+{
+  "description": "Number of prime powers p^m <= n such that p | n.",
+  "id": "A361373",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A007947",
+    "A010846",
+    "A020639",
+    "A027750",
+    "A126706",
+    "A138109",
+    "A138511",
+    "A162306",
+    "A246547",
+    "A246655"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Round( n / sum of digits of n ).",
   "id": "A094175",
-  "mentions": [],
+  "mentions": [
+    "A066578"
+  ],
   "tags": [
     "base",
     "easy",
@@ -9,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 120,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n of the form 2^i*3^j, i and j >= 1.",
+  "description": "Numbers k of the form 2^i*3^j, where i and j >= 1.",
   "id": "A033845",
   "mentions": [
     "A000041",

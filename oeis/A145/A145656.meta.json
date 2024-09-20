@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = numerator of polynomial of genus 1 and level n for m = 2",
+  "description": "a(n) = numerator of polynomial of genus 1 and level n for m = 2.",
   "id": "A145656",
   "mentions": [
     "A001008",
@@ -8,6 +8,7 @@
     "A145687"
   ],
   "tags": [
+    "easy",
     "frac",
     "nonn"
   ],

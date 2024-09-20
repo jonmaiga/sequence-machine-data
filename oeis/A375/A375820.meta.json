@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 333/106.",
+  "id": "A375820",
+  "mentions": [
+    "A000796",
+    "A068079",
+    "A210622"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

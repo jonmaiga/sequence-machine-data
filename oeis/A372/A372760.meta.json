@@ -1,0 +1,34 @@
+{
+  "description": "2nd row of the 3-Zeckendorf array (A136189), including prepended terms.",
+  "id": "A372760",
+  "mentions": [
+    "A000930",
+    "A005374",
+    "A020942",
+    "A023443",
+    "A064105",
+    "A064106",
+    "A136189",
+    "A136495",
+    "A179070",
+    "A202342",
+    "A350215",
+    "A372749",
+    "A372750",
+    "A372752",
+    "A372756",
+    "A372757",
+    "A372758",
+    "A372759"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -5,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

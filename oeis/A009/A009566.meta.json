@@ -1,7 +1,9 @@
 {
   "description": "Expansion of e.g.f. sinh(log(1+log(1+x))).",
   "id": "A009566",
-  "mentions": [],
+  "mentions": [
+    "A007840"
+  ],
   "tags": [
     "easy",
     "formulas",

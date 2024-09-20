@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the greatest term t <= n of A005836 such that n - t also belongs to A005836.",
+  "id": "A374363",
+  "mentions": [
+    "A005836",
+    "A120880",
+    "A289831",
+    "A374361",
+    "A374362"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "(7*10^n-43)/9 for n>0.",
+  "description": "a(n) = (7*10^n - 43)/9 for n > 0.",
   "id": "A173807",
   "mentions": [
     "A093165"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

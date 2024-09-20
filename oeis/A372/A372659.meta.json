@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, the Fibonacci numbers that appear in the Zeckendorf representation of n do not appear in the dual Zeckendorf representation of a(n).",
+  "id": "A372659",
+  "mentions": [
+    "A356771",
+    "A372657",
+    "A372660"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

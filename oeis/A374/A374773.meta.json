@@ -1,0 +1,17 @@
+{
+  "description": "a(n):= #G_{2n}(3n+1) for n >= 1, where G_{2n}(3n+1) is the set of all pure (2n)-sparse gapset of genus 3n+1 and n a positive integer.",
+  "id": "A374773",
+  "mentions": [
+    "A348619"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

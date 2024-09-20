@@ -1,19 +1,23 @@
 {
-  "description": "a(n)=A062402[1+2^n].",
+  "description": "a(n) = A062402(2^n+1).",
   "id": "A096856",
   "mentions": [
+    "A000203",
+    "A053285",
     "A053287",
     "A062401",
     "A062402",
     "A096853",
+    "A096854",
     "A096855"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

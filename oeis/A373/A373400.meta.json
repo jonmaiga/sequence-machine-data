@@ -1,0 +1,43 @@
+{
+  "description": "Numbers k such that the k-th maximal run of composite numbers has length different from all prior maximal runs. Sorted positions of first appearances in A176246 (or A046933 shifted).",
+  "id": "A373400",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A002808",
+    "A006512",
+    "A007674",
+    "A027833",
+    "A046933",
+    "A049093",
+    "A053797",
+    "A065855",
+    "A068781",
+    "A072284",
+    "A073051",
+    "A073783",
+    "A077641",
+    "A120992",
+    "A174965",
+    "A175632",
+    "A176246",
+    "A251092",
+    "A373127",
+    "A373128",
+    "A373198",
+    "A373199",
+    "A373401",
+    "A373402",
+    "A373403",
+    "A373408",
+    "A373411"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

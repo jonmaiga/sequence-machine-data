@@ -1,5 +1,5 @@
 {
-  "description": "Sum(9^k, k=2..n).",
+  "description": "a(n) = Sum_{k=2..n} 9^k.",
   "id": "A247842",
   "mentions": [
     "A052386",

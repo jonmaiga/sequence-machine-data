@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = k where wt(k) = n and k + wt(k) = a power of two, where wt(n) = A000120(n) = binary weight of n.",
+  "id": "A374348",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A092391",
+    "A129195",
+    "A230300"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

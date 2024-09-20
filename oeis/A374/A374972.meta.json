@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of the sagitta of a regular heptagon with unit side length.",
+  "id": "A374972",
+  "mentions": [
+    "A020769",
+    "A174968",
+    "A178817",
+    "A343059",
+    "A374957",
+    "A374971",
+    "A375068",
+    "A375069",
+    "A375070",
+    "A375153",
+    "A375189",
+    "A375192",
+    "A375194"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

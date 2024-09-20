@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose product of proper divisors is a cube.",
+  "id": "A375960",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A007956",
+    "A027751",
+    "A032741",
+    "A375962"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

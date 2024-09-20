@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n into n nonnegative parts such that their xor-sum is not zero.",
+  "id": "A372871",
+  "mentions": [
+    "A048833",
+    "A088218",
+    "A233810"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

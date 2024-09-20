@@ -1,0 +1,21 @@
+{
+  "description": "The 3-adic valuation of sopfr(n), where sopfr is the sum of prime factors with repetition, A001414.",
+  "id": "A374217",
+  "mentions": [
+    "A001414",
+    "A007949",
+    "A289142",
+    "A373371",
+    "A374207",
+    "A374216"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

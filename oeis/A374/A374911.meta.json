@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(2^n mod n) + a(3^n mod n), with a(0) = 1.",
+  "id": "A374911",
+  "mentions": [
+    "A000079",
+    "A015910",
+    "A066601"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,14 @@
   "description": "Numbers that are congruent to {1, 3, 7} mod 8.",
   "id": "A047529",
   "mentions": [
+    "A004767",
+    "A004770",
+    "A005408",
+    "A017077",
     "A047478",
     "A047484",
-    "A047623"
+    "A047623",
+    "A257852"
   ],
   "tags": [
     "easy",

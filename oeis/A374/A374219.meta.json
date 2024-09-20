@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers k such that A347381 obtains the same value for all divisors of k that are larger than one, where A347381 is the distance from n to the nearest common ancestor of n and sigma(n) in the Doudna-tree (A005940).",
+  "id": "A374219",
+  "mentions": [
+    "A000203",
+    "A005940",
+    "A347381",
+    "A374218"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

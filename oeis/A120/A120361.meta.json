@@ -1,17 +1,20 @@
 {
-  "description": "Even refactorable numbers n such that the number r of odd divisors of n and the number s of even divisors of n are both odd divisors of n.",
+  "description": "Even refactorable numbers k such that the number r of odd divisors of k and the number s of even divisors of k are both odd divisors of k.",
   "id": "A120361",
   "mentions": [
+    "A000005",
+    "A001227",
     "A033950",
     "A049439",
-    "A057265"
+    "A057265",
+    "A183063"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

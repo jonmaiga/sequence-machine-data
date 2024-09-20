@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows T(n,k), n >= 1, k >= 1, in which row n lists the divisors of n but every middle divisor is replaced with zero.",
+  "id": "A375037",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A067742",
+    "A067743",
+    "A299761",
+    "A302433",
+    "A303297",
+    "A375038"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

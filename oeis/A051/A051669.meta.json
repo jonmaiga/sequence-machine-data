@@ -1,5 +1,5 @@
 {
-  "description": "11*2^n - 4*n - 10.",
+  "description": "a(n) = 11*2^n - 4*n - 10.",
   "id": "A051669",
   "mentions": [
     "A051668"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 33,
     "source": "joeis"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 2; thereafter a(n+1) is the smallest prime not yet in the sequence such that the concatenation a(n) || a(n+1) is prime if n is odd, or composite if n is even.",
+  "id": "A373794",
+  "mentions": [
+    "A244862"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Minimal exponent in prime factorization of n*rad(n)+1, where rad=A007947 (the radical or squarefree kernel).",
+  "description": "Minimum exponent in prime factorization of n*rad(n)+1, where rad = A007947 (the radical or squarefree kernel).",
   "id": "A078315",
   "mentions": [
     "A007947",

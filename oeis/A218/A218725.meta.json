@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (22^n-1)/21.",
+  "description": "a(n) = (22^n - 1)/21.",
   "id": "A218725",
   "mentions": [
     "A000225",
@@ -40,7 +40,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A059975(k) and A003415(k) are both multiples of 3, where A059975 is fully additive with a(p) = p-1, and A003415 is the arithmetic derivative.",
+  "id": "A373494",
+  "mentions": [
+    "A003415",
+    "A059975",
+    "A327863",
+    "A373378",
+    "A373385",
+    "A373492",
+    "A373493"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

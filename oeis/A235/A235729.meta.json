@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..1 arrays with the sum of each 2X2 subblock maximum and minimum lexicographically nondecreasing columnwise and nonincreasing rowwise",
+  "description": "Number of (n+1) X (n+1) 0..1 arrays with the sum of each 2 X 2 subblock maximum and minimum lexicographically nondecreasing columnwise and nonincreasing rowwise.",
   "id": "A235729",
   "mentions": [
     "A235736"

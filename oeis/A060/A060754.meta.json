@@ -1,13 +1,14 @@
 {
-  "description": "Absolute values of a certain cubic form at integer points.",
+  "description": "Absolute values of a certain cubic form at integer points (see Formula).",
   "id": "A060754",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 56,
+    "source": "joeis"
   }
 }

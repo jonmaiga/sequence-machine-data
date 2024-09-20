@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A205497(2*n, n - 1). The central coefficients of the Eulerian zig-zag polynomials.",
+  "id": "A373754",
+  "mentions": [
+    "A205497",
+    "A373755"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

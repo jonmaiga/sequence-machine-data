@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1 / Sum_{k in Z} x^k / (1 - x^(5*k+1)).",
+  "id": "A375062",
+  "mentions": [
+    "A340456",
+    "A375061",
+    "A375063",
+    "A375064"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

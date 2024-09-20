@@ -1,5 +1,5 @@
 {
-  "description": "Number of horizontal and antidiagonal neighbor colorings of the even squares of an nX4 array with new integer colors introduced in row major order",
+  "description": "Number of horizontal and antidiagonal neighbor colorings of the even squares of an n X 4 array with new integer colors introduced in row major order.",
   "id": "A216334",
   "mentions": [
     "A216338"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

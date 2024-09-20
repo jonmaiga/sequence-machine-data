@@ -1,9 +1,12 @@
 {
-  "description": "Exponential generating function is -f(x) * int(exp(exp(-t)-1),t,0,x) where f(x) = exp(1-x-exp(-x)) is an exponential generating function for A014182.",
+  "description": "Exponential generating function is -f(x) * Integral_{t = 0..x} exp(exp(-t) - 1) dt, where f(x) = exp(1 - x - exp(-x)) is the exponential generating function for A014182.",
   "id": "A014619",
   "mentions": [
+    "A000670",
     "A003422",
-    "A014182"
+    "A014182",
+    "A040027",
+    "A163940"
   ],
   "tags": [
     "formulas",

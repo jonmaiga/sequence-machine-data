@@ -1,0 +1,17 @@
+{
+  "description": "Number of congruences of the 0-twisted Temperley-Lieb monoid of degree n.",
+  "id": "A373011",
+  "mentions": [
+    "A368923"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the denominator of Sum_{d|n, d < sqrt(n)} 1/d.",
+  "id": "A372835",
+  "mentions": [
+    "A017666",
+    "A070039",
+    "A372834"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

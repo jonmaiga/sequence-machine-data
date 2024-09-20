@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of parking functions of order n where the k-th car is lucky.",
+  "id": "A374756",
+  "mentions": [
+    "A000169",
+    "A000272",
+    "A370832",
+    "A372842",
+    "A372843",
+    "A372844",
+    "A372845",
+    "A374533"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

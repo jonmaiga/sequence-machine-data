@@ -1,5 +1,5 @@
 {
-  "description": "Beatty sequence for e^(1/3): a(n)=floor(n*(e^(1/3)))",
+  "description": "Beatty sequence for e^(1/3): a(n) = floor(n*(e^(1/3))).",
   "id": "A247964",
   "mentions": [
     "A022843",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 68,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

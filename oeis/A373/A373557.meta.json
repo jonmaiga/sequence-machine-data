@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows where row n lists (in decreasing order) the elements of the strong Schreier set encoded by A371176(2*n).",
+  "id": "A373557",
+  "mentions": [
+    "A000045",
+    "A007895",
+    "A371176",
+    "A373345",
+    "A373556",
+    "A373579",
+    "A373853"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

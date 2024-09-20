@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n with fewer than 5 interior elements having values lying between the values of their neighbors",
+  "description": "Number of permutations of {1..n} with fewer than 5 interior elements having values lying between the values of their neighbors.",
   "id": "A226438",
   "mentions": [
     "A226441"
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
+    "offset": 0,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

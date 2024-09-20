@@ -2,10 +2,12 @@
   "description": "Number of prime factors of n!!!! (A007662), with multiplicity.",
   "id": "A045747",
   "mentions": [
+    "A001222",
     "A007662"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

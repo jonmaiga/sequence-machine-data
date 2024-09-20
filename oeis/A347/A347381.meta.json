@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A252464(n) - A347380(n), where A347380(n) is the length of the common prefix in binary expansions of A156552(n) and A332221(n) = A156552(sigma(n)).",
+  "description": "Distance from n to the nearest common ancestor of n and sigma(n) in the Doudna-tree (A005940).",
   "id": "A347381",
   "mentions": [
     "A000203",
@@ -21,7 +21,16 @@
     "A347391",
     "A347392",
     "A347393",
-    "A347394"
+    "A347394",
+    "A374200",
+    "A374204",
+    "A374214",
+    "A374218",
+    "A374219",
+    "A374465",
+    "A374481",
+    "A374482",
+    "A374483"
   ],
   "tags": [
     "formulas",

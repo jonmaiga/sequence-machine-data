@@ -1,0 +1,25 @@
+{
+  "description": "The 2-Zeckendorf array of the second kind, read by upward antidiagonals.",
+  "id": "A372501",
+  "mentions": [
+    "A001911",
+    "A014739",
+    "A019274",
+    "A022342",
+    "A023444",
+    "A090909",
+    "A104326",
+    "A188012",
+    "A276885"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose sixth power contains exactly the same digits as another sixth power.",
+  "id": "A373192",
+  "mentions": [
+    "A045879",
+    "A188065",
+    "A373190",
+    "A373191"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

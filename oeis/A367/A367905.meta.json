@@ -48,11 +48,12 @@
     "A367912"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 88,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

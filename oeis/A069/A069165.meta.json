@@ -1,7 +1,8 @@
 {
-  "description": "Integers of the form k * Sum_{d|k} 1/tau(d).",
+  "description": "a(n) are the integers corresponding to A069164(n).",
   "id": "A069165",
   "mentions": [
+    "A000005",
     "A069164"
   ],
   "tags": [

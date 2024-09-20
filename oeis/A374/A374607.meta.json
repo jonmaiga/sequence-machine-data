@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of (1134*n^3 + 2097*n^2 + 1188*n + 193)/(10368*n^4 + 20736*n^3 + 14112*n^2 + 3744*n + 320).",
+  "id": "A374607",
+  "mentions": [
+    "A000796",
+    "A010482",
+    "A089357",
+    "A374334",
+    "A374580",
+    "A374608"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

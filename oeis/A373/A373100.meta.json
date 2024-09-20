@@ -1,0 +1,21 @@
+{
+  "description": "Last digit of n*2^n - 1.",
+  "id": "A373100",
+  "mentions": [
+    "A003261",
+    "A010879",
+    "A373098",
+    "A373099"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

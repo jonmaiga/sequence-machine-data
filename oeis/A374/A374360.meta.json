@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the permanent of the n X n matrix whose generic element is abs(s(i+3,j)) where 1<= i,j <= n and s(r,c) is a Stirling number of the 1st kind.",
+  "id": "A374360",
+  "mentions": [
+    "A000400",
+    "A048994",
+    "A132393",
+    "A372343"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

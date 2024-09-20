@@ -1,16 +1,18 @@
 {
-  "description": "Denominators of convergents to fifth root of 5.",
+  "description": "Denominators of continued fraction convergents to fifth root of 5.",
   "id": "A002363",
   "mentions": [
     "A002364",
-    "A005165"
+    "A002951",
+    "A005165",
+    "A005534"
   ],
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 30,
     "source": "oeis-bfile"
   }

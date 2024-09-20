@@ -1,8 +1,18 @@
 {
   "description": "Period of base 4 representation of 1/n.",
   "id": "A007735",
-  "mentions": [],
+  "mentions": [
+    "A007732",
+    "A007733",
+    "A007734",
+    "A007736",
+    "A007737",
+    "A007738",
+    "A007739",
+    "A007740"
+  ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

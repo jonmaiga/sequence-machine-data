@@ -1,0 +1,18 @@
+{
+  "description": "Number of (binary) heaps of length n whose element set equals [k] (for some k <= n).",
+  "id": "A373452",
+  "mentions": [
+    "A000670",
+    "A056971",
+    "A373450",
+    "A373451"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

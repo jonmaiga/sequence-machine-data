@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A119387.",
+  "id": "A373709",
+  "mentions": [
+    "A000120",
+    "A001855",
+    "A005187",
+    "A070939",
+    "A119387"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

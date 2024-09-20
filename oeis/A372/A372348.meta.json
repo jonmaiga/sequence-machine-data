@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{j=0..n} p(n - j, j) where p(n, x) = Sum_{k=0..n} k! * Lah(n, k) * x^k) where Lah = A271703.",
+  "description": "a(n) = Sum_{j=0..n} p(n - j, j) where p(n, x) = Sum_{k=0..n} k! * Lah(n, k) * x^k where Lah = A271703.",
   "id": "A372348",
   "mentions": [
     "A271703"

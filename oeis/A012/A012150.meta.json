@@ -2,7 +2,10 @@
   "description": "Expansion of e.g.f. exp(tan(arcsin(x))).",
   "id": "A012150",
   "mentions": [
-    "A111959"
+    "A012194",
+    "A088009",
+    "A111959",
+    "A190863"
   ],
   "tags": [
     "formulas",

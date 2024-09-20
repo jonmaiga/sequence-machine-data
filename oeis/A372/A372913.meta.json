@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (1/31)*(14*sqrt(5 - 2*sqrt(5)) + 4*sqrt(5 + 2*sqrt(5))).",
+  "id": "A372913",
+  "mentions": [
+    "A372912",
+    "A372914"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

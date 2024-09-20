@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n! * 4^k * hypergeom([-k], [-n], -1/4).",
+  "id": "A375612",
+  "mentions": [
+    "A000142",
+    "A001907",
+    "A374427",
+    "A374428",
+    "A375446",
+    "A375447",
+    "A375597",
+    "A375600",
+    "A375613"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

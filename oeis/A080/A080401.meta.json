@@ -1,10 +1,11 @@
 {
-  "description": "A001157(n) is squarefree: sum of squares of divisors of n is squarefree.",
+  "description": "Numbers k such that the sum of the squares of the divisors of k (A001157(k)) is squarefree.",
   "id": "A080401",
   "mentions": [
     "A001157",
     "A005117",
-    "A065300"
+    "A065300",
+    "A080402"
   ],
   "tags": [
     "formulas",

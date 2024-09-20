@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - 2*x + 5*x^2)^(5/2).",
+  "id": "A374508",
+  "mentions": [
+    "A098331",
+    "A102840",
+    "A245551",
+    "A374509"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

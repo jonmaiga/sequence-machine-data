@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sqrt(3)/7.",
+  "id": "A373166",
+  "mentions": [
+    "A372912",
+    "A372913",
+    "A373165"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

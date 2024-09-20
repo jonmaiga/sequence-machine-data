@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ((8 + sqrt4)^n + (8 - sqrt4)^n)/2.",
+  "description": "a(n) = (10^n + 6^n)/2.",
   "id": "A152105",
   "mentions": [
     "A081186",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "joeis"
   }
 }

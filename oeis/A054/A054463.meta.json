@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that (n+1)^n - n^(n-1) is prime.",
+  "description": "Numbers k such that (k+1)^k - k^(k-1) is prime.",
   "id": "A054463",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

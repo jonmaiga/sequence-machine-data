@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(x^3/6 * (1 + x)^2).",
+  "id": "A373743",
+  "mentions": [
+    "A264622",
+    "A361278",
+    "A361567",
+    "A361568",
+    "A372742"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,15 +1,17 @@
 {
   "description": "Number of strong primes < 10^n.",
   "id": "A159687",
-  "mentions": [],
+  "mentions": [
+    "A051634",
+    "A159686"
+  ],
   "tags": [
-    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

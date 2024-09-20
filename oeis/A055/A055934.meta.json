@@ -1,7 +1,9 @@
 {
   "description": "a(0) = 1; a(n) = sum of a(j)'s, j",
   "id": "A055934",
-  "mentions": [],
+  "mentions": [
+    "A055935"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 80,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

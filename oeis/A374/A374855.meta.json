@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (1/6)*Product_{k=0..n} F(k)+6, where F=A000045 (Fibonacci numbers).",
+  "id": "A374855",
+  "mentions": [
+    "A000045"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

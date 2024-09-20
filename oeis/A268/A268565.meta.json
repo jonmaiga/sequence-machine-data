@@ -1,14 +1,20 @@
 {
-  "description": "Arises in counting maps on a surface: see Coquereaux-Zuber (2015) for precise definition.",
+  "description": "Number of achiral immersions of oriented circle into oriented sphere with 2n double points.",
   "id": "A268565",
-  "mentions": [],
+  "mentions": [
+    "A008986",
+    "A008987",
+    "A008988",
+    "A268566"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 5,
+    "offset": 0,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

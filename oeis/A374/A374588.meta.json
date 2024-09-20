@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose maximum exponent in their prime factorization is a composite number.",
+  "id": "A374588",
+  "mentions": [
+    "A002808",
+    "A013661",
+    "A013929",
+    "A051903",
+    "A074661",
+    "A229099",
+    "A322448",
+    "A322449",
+    "A368714",
+    "A369937",
+    "A369938",
+    "A369939",
+    "A374589",
+    "A374590"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

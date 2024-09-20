@@ -1,0 +1,17 @@
+{
+  "description": "List of indices of numbers k such that A373390(k) and A373390(k+2) are coprime.",
+  "id": "A373781",
+  "mentions": [
+    "A373390",
+    "A373782"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

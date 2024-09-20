@@ -1,13 +1,15 @@
 {
   "description": "Decimal part of a(n)^(1/3) starts with a 'nine digits' anagram.",
   "id": "A034278",
-  "mentions": [],
+  "mentions": [
+    "A034277"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 34,
     "source": "joeis"
   }

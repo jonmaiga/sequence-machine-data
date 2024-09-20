@@ -1,17 +1,17 @@
 {
-  "description": "Cubes in A120806: n+d+1 is prime for all divisors d of n. All cubes greater than 1 are cubes of odd primes.",
+  "description": "Cubes k in A120806: k+d+1 is prime for all divisors d of k. All cubes greater than 1 are cubes of odd primes.",
   "id": "A120807",
   "mentions": [
+    "A000578",
     "A120806",
     "A120808"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

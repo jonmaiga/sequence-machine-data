@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least nonsquare k such that sigma_n(k) divides sigma_2n(k).",
+  "id": "A374170",
+  "mentions": [
+    "A020487",
+    "A046871",
+    "A227771"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

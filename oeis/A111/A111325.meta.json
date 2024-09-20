@@ -1,8 +1,18 @@
 {
-  "description": "Numbers k such that 11 divides prime(1)+...+prime(k).",
+  "description": "Numbers k such that 11 divides prime(1) + ... + prime(k).",
   "id": "A111325",
   "mentions": [
-    "A007504"
+    "A007504",
+    "A103208",
+    "A111318",
+    "A111319",
+    "A111320",
+    "A111321",
+    "A111322",
+    "A111323",
+    "A111324",
+    "A111326",
+    "A111327"
   ],
   "tags": [
     "nonn"

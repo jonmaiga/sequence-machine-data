@@ -1,0 +1,23 @@
+{
+  "description": "a(a(a(n))) = A370655(n).",
+  "id": "A373498",
+  "mentions": [
+    "A000027",
+    "A004767",
+    "A204164",
+    "A370655",
+    "A374447",
+    "A374494",
+    "A374531"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

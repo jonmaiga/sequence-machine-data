@@ -1,0 +1,14 @@
+{
+  "description": "Greatest common divisor of the product of terms in positive Pythagorean n-tuples, over all possible such tuples.",
+  "id": "A373240",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

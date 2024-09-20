@@ -1,0 +1,20 @@
+{
+  "description": "If n = i^2 * A005117(j) for some i, j > 0 then a(n) = j^2 * A005117(i).",
+  "id": "A374600",
+  "mentions": [
+    "A000188",
+    "A005117",
+    "A007913",
+    "A249327",
+    "A374611"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

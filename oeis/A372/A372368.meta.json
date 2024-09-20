@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. Thereafter, if A007947(a(n-1)) is a term in A002110, a(n) is the smallest prime not already in the sequence. Otherwise a(n) is the smallest novel multiple of p, the greatest prime < g = gpd(a(n-1)).",
+  "id": "A372368",
+  "mentions": [
+    "A000027",
+    "A002110",
+    "A007947",
+    "A055932"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

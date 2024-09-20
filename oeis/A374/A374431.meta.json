@@ -1,0 +1,16 @@
+{
+  "description": "Row product of A374433.",
+  "id": "A374431",
+  "mentions": [
+    "A374430",
+    "A374433"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

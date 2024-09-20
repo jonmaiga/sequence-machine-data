@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n such that 3*n^2 + 4 is prime.",
+  "description": "Numbers m such that 3*m^2 + 4 is prime.",
   "id": "A111052",
   "mentions": [
     "A201477"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

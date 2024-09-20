@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the maximal exponent in its prime factorization is not less than the number of positive exponents (A051903(n) >= A001221(n)).",
+  "description": "Numbers k such that the maximum exponent in its prime factorization is not less than the number of positive exponents (A051903(k) >= A001221(k)).",
   "id": "A212165",
   "mentions": [
     "A000079",
@@ -27,6 +27,8 @@
     "A225230"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

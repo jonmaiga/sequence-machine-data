@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct positive n-th powers in exactly 2 ways, or -1 if no such number exists.",
+  "id": "A374256",
+  "mentions": [
+    "A025303",
+    "A025400",
+    "A091414",
+    "A146756",
+    "A374226",
+    "A374257"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

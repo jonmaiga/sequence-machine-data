@@ -1,0 +1,21 @@
+{
+  "description": "Four-column table read by rows: row n is the unique primitive Pythagorean quadruple (a,b,c,d) such that a < (a + b + c - d)/2 = 2n(n + 1) and b = c.",
+  "id": "A372219",
+  "mentions": [
+    "A002939",
+    "A056220",
+    "A126587",
+    "A372220"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

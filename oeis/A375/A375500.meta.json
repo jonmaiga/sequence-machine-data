@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A001595(k)^2.",
+  "id": "A375500",
+  "mentions": [
+    "A000045",
+    "A001595",
+    "A375501"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of (binary) heaps where n is the sum of their length and the size of the element set [k].",
+  "id": "A373632",
+  "mentions": [
+    "A373451"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

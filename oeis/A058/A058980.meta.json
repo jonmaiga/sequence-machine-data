@@ -1,5 +1,5 @@
 {
-  "description": "Positive numbers of form 4k such that card(invphi(4*k)=0) (the nontotients congruent to 0 modulo 4).",
+  "description": "Positive numbers of form 4*k such that card(invphi(4*k)) = 0 (the nontotients congruent to 0 modulo 4).",
   "id": "A058980",
   "mentions": [
     "A005277",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,14 +1,22 @@
 {
   "description": "a(n) = 10^(4*n + 3).",
   "id": "A013793",
-  "mentions": [],
+  "mentions": [
+    "A004767",
+    "A011557",
+    "A013715",
+    "A013777",
+    "A013783",
+    "A098608"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-bfile"
   }
 }

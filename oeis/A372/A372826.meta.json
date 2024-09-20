@@ -1,0 +1,18 @@
+{
+  "description": "Exponents of 3 and 2 in sequence A372824.",
+  "id": "A372826",
+  "mentions": [
+    "A372824",
+    "A372825"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

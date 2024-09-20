@@ -2,13 +2,15 @@
   "description": "a(n) = n-th prime number + n-th lucky number.",
   "id": "A032602",
   "mentions": [
+    "A000040",
     "A000959"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 52,
     "source": "joeis"
   }

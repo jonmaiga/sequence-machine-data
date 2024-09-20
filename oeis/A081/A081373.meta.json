@@ -1,9 +1,14 @@
 {
-  "description": "Number of values of k, 1 <= k <= n, with A000010(k) = A000010(n).",
+  "description": "Number of values of k, 1 <= k <= n, with phi(k) = phi(n), where phi is Euler totient function, A000010.",
   "id": "A081373",
   "mentions": [
     "A000010",
-    "A067004"
+    "A067004",
+    "A081375",
+    "A210719",
+    "A303756",
+    "A303757",
+    "A303777"
   ],
   "tags": [
     "nonn"

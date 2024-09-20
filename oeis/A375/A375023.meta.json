@@ -1,0 +1,17 @@
+{
+  "description": "Number T(n,k) of partitions of [n] into k blocks whose element sum is <= n; triangle T(n,k), n >= 0, ceiling((n-1)/2)+signum(n) <= k <= n, read by rows.",
+  "id": "A375023",
+  "mentions": [
+    "A002620",
+    "A375099"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

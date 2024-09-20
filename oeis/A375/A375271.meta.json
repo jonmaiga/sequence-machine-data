@@ -1,0 +1,21 @@
+{
+  "description": "Partial products of A375270.",
+  "id": "A375271",
+  "mentions": [
+    "A025487",
+    "A037992",
+    "A050376",
+    "A318464",
+    "A318465",
+    "A375270"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

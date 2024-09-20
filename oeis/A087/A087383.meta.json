@@ -1,7 +1,10 @@
 {
   "description": "Primes p such that p is a twin prime and prime(prime(p)) is also a twin prime.",
   "id": "A087383",
-  "mentions": [],
+  "mentions": [
+    "A001097",
+    "A006450"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

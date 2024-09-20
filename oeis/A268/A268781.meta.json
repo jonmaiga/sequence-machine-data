@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays with some element plus some horizontally, vertically, diagonally or antidiagonally adjacent neighbor totalling two no more than once.",
+  "description": "T(n,k) = Number of n X k binary arrays with some element plus some horizontally, vertically, diagonally or antidiagonally adjacent neighbor totalling two no more than once.",
   "id": "A268781",
   "mentions": [
     "A143870",

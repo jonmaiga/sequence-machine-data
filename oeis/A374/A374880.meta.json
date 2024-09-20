@@ -1,0 +1,17 @@
+{
+  "description": "Obverse convolution (floor(3n/2))**(floor(3n/2)); see Comments.",
+  "id": "A374880",
+  "mentions": [
+    "A016789",
+    "A374848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

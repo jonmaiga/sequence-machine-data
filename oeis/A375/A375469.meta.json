@@ -1,0 +1,16 @@
+{
+  "description": "Triangle read by rows: a permutation of the nonnegative integers based on the Eytzinger order.",
+  "id": "A375469",
+  "mentions": [
+    "A375825"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

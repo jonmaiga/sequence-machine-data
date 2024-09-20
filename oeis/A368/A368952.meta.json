@@ -1,5 +1,5 @@
 {
-  "description": "The larger number in each pair of triangular numbers (a, b) satisfying a - b = n, listed by rows in the irregular triangle T(n, k).",
+  "description": "Irregular triangle T(n,k) read by rows: row n lists the larger number in each pair of triangular numbers (a, b) satisfying a - b = n.",
   "id": "A368952",
   "mentions": [
     "A000217",

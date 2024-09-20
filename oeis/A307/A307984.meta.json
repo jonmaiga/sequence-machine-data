@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of Q-bases which can be build from the set {log(1),...,log(n)}.",
+  "description": "a(n) is the number of Q-bases which can be built from the set {log(1),...,log(n)}.",
   "id": "A307984",
   "mentions": [
     "A333331",

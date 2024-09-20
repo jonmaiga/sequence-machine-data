@@ -1,7 +1,22 @@
 {
   "description": "Numbers k that divide the (left) concatenation of all numbers <= k written in base 18 (most significant digit on left).",
   "id": "A029487",
-  "mentions": [],
+  "mentions": [
+    "A029447",
+    "A029470",
+    "A029471",
+    "A029486",
+    "A029488",
+    "A029494",
+    "A029495",
+    "A029518",
+    "A029519",
+    "A029542",
+    "A061931",
+    "A061954",
+    "A061955",
+    "A061978"
+  ],
   "tags": [
     "base",
     "more",
@@ -9,7 +24,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

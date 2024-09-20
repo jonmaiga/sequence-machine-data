@@ -2,6 +2,7 @@
   "description": "Expansion of Sum_{n>=1} q^(n*(n-1)) / (1-q)^n.",
   "id": "A321481",
   "mentions": [
+    "A063978",
     "A098132"
   ],
   "tags": [

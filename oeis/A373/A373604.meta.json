@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 1 if the primorial base representation of 6*n has alternating digit sum (A373605) that is a multiple of 3, otherwise 0.",
+  "id": "A373604",
+  "mentions": [
+    "A002110",
+    "A031215",
+    "A031368",
+    "A039701",
+    "A049345",
+    "A100283",
+    "A112632",
+    "A276086",
+    "A373601",
+    "A373605",
+    "A373830"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if A059975(n) and A003415(n) are both multiples of 3, otherwise 0, where A059975 is fully additive with a(p) = p-1, and A003415 is the arithmetic derivative.",
+  "id": "A373493",
+  "mentions": [
+    "A003415",
+    "A059975",
+    "A373378",
+    "A373491",
+    "A373494"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

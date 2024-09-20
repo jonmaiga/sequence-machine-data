@@ -2,6 +2,7 @@
   "description": "Parity of the decimal digits of log(2).",
   "id": "A072126",
   "mentions": [
+    "A002162",
     "A030657"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -2,6 +2,8 @@
   "description": "Central terms of triangles A102472 and A102473.",
   "id": "A247365",
   "mentions": [
+    "A001040",
+    "A001053",
     "A058294",
     "A102472",
     "A102473"

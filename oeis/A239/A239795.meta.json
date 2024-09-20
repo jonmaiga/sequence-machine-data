@@ -1,5 +1,5 @@
 {
-  "description": "A239793(n)/2^(3*n).",
+  "description": "a(n) = A239793(n)/2^(3*n).",
   "id": "A239795",
   "mentions": [
     "A220412",

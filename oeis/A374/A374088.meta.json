@@ -1,0 +1,16 @@
+{
+  "description": "Number of ordered pairs (x,y) of positive integers such that x^2 + x*y + y^2 = n.",
+  "id": "A374088",
+  "mentions": [
+    "A063725",
+    "A374089"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

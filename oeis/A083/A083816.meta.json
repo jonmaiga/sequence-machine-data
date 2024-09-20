@@ -8,11 +8,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "joeis"
   }
 }

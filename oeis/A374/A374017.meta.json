@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions to x^2 + 11*y^2 = n in positive integers x and y.",
+  "id": "A374017",
+  "mentions": [
+    "A092573",
+    "A216279",
+    "A216511",
+    "A374160"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

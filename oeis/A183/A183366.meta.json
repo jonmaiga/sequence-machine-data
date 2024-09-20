@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 binary arrays with no element equal to the sum mod 3 of its horizontal and vertical neighbors",
+  "description": "Number of n X 4 binary arrays with no element equal to the sum modulo 3 of its horizontal and vertical neighbors.",
   "id": "A183366",
   "mentions": [
     "A183368"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

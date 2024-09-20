@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the products of two consecutive terms belong to A055932.",
+  "id": "A375579",
+  "mentions": [
+    "A055932",
+    "A083720",
+    "A175343",
+    "A375281",
+    "A375615"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

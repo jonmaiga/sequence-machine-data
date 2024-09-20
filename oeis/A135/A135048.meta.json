@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes with digit product=3.",
+  "description": "Indices of primes with digit product = 3.",
   "id": "A135048",
   "mentions": [
     "A107611",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

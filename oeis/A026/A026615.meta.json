@@ -1,15 +1,36 @@
 {
-  "description": "Triangular array T read by rows: T(n,0)=T(n,n)=1 for n >= 0; T(n,1)=T(n,n-1)=2n-1 for n >= 1; T(n,k)=T(n-1,k-1)+T(n-1,k) for 2<=k<=n-2, n >= 4.",
+  "description": "Triangle read by rows: T(n,0) = T(n,n) = 1 for n >= 0, T(n,1) = T(n,n-1) = 2*n-1 for n >= 1, T(n,k) = T(n-1,k-1) + T(n-1,k) for 2 <= k <= n-2 and n >= 4.",
   "id": "A026615",
-  "mentions": [],
+  "mentions": [
+    "A000012",
+    "A005408",
+    "A026616",
+    "A026617",
+    "A026618",
+    "A026619",
+    "A026620",
+    "A026621",
+    "A026622",
+    "A026623",
+    "A026624",
+    "A026625",
+    "A026956",
+    "A026957",
+    "A026958",
+    "A026959",
+    "A026960",
+    "A098749",
+    "A145066",
+    "A176742"
+  ],
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 68,
+    "offset": 0,
+    "size": 66,
     "source": "joeis"
   }
 }

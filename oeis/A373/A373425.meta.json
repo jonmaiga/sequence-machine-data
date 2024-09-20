@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A000111(n) * A000262(n). Row sums of A373426.",
+  "id": "A373425",
+  "mentions": [
+    "A000111",
+    "A000262",
+    "A373426"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

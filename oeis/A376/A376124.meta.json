@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = x * exp(A(x)) * (1 + 3*A(x)).",
+  "id": "A376124",
+  "mentions": [
+    "A052885",
+    "A376094",
+    "A376101",
+    "A376123"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

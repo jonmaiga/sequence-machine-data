@@ -1,0 +1,16 @@
+{
+  "description": "Numbers of uniquely embeddable planar connected graphs on n vertices.",
+  "id": "A372853",
+  "mentions": [
+    "A372854"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

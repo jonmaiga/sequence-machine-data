@@ -2,9 +2,11 @@
   "description": "Initial members of prime triples (p, p+2, p+6) for which also the sum 3p+8 is prime.",
   "id": "A162001",
   "mentions": [
-    "A022004"
+    "A022004",
+    "A376013"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

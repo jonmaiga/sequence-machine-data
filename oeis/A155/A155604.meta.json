@@ -1,5 +1,5 @@
 {
-  "description": "6^n+3^n-1.",
+  "description": "a(n) = 6^n + 3^n - 1.",
   "id": "A155604",
   "mentions": [
     "A020515",
@@ -26,6 +26,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

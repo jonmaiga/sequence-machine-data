@@ -2,7 +2,9 @@
   "description": "O.g.f.: A(x) = Sum_{n>=0} x^n*Product_{k=0..n} (1 + k*x).",
   "id": "A124380",
   "mentions": [
+    "A024427",
     "A094638",
+    "A171367",
     "A180662"
   ],
   "tags": [
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

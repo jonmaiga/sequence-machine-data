@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by ascending diagonals: T(n,k) is the number of elements in the multiplicative group of integers modulo n that have order k.",
+  "description": "Square array read by ascending antidiagonals: T(n,k) is the number of elements in the multiplicative group of integers modulo n that have order k.",
   "id": "A354059",
   "mentions": [
     "A252911",

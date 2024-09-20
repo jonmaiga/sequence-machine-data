@@ -2,10 +2,12 @@
   "description": "Least significant digit of A077749(n).",
   "id": "A077750",
   "mentions": [
+    "A010879",
     "A077749"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions of 7*n-5 into parts 6 and 7.",
+  "id": "A373937",
+  "mentions": [
+    "A017847",
+    "A369808",
+    "A369809",
+    "A373912",
+    "A373933",
+    "A373934",
+    "A373935",
+    "A373936"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

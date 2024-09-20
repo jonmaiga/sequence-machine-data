@@ -2,7 +2,6 @@
   "description": "a(n) is the number of triangles with integer sides i <= j <= k with squared radius of circumscribed circle b(n) = A331224(n)/A331225(n). Records of numbers of distinct triangles such that all smaller radii produce fewer triangles sharing the same radius of circumcircle than the current radius b(n).",
   "id": "A331226",
   "mentions": [
-    "A321224",
     "A331040",
     "A331041",
     "A331043",

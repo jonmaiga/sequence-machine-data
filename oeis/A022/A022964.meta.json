@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 8-n.",
   "id": "A022964",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022995"
+  ],
   "tags": [
     "easy",
     "formulas",

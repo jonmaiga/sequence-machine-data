@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest permutation of the nonnegative terms such that the absolute difference between the rightmost digit of a(n) and the leftmost digit of a(n+1) is the smallest possible one.",
+  "id": "A374530",
+  "mentions": [
+    "A076654",
+    "A374504"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

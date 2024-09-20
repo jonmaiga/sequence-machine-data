@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k^(2*n) * |Stirling1(n,k)|.",
+  "id": "A373861",
+  "mentions": [
+    "A229261",
+    "A351183",
+    "A373856"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

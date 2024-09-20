@@ -2,8 +2,7 @@
   "description": "Denominators of expansion of exp x / sin x.",
   "id": "A007451",
   "mentions": [
-    "A007418",
-    "A007541"
+    "A007418"
   ],
   "tags": [
     "frac",

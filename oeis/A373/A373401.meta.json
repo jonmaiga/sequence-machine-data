@@ -1,0 +1,32 @@
+{
+  "description": "Least k such that the k-th maximal antirun of prime numbers > 3 has length n. Position of first appearance of n in A027833. The sequence ends if no such antirun exists.",
+  "id": "A373401",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A001359",
+    "A002808",
+    "A005117",
+    "A006512",
+    "A027833",
+    "A046933",
+    "A053797",
+    "A073051",
+    "A073783",
+    "A251092",
+    "A373127",
+    "A373128",
+    "A373199",
+    "A373402",
+    "A373403",
+    "A373405"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

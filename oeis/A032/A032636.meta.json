@@ -1,5 +1,5 @@
 {
-  "description": "[ n^3 / e ].",
+  "description": "a(n) = floor(n^3 / e).",
   "id": "A032636",
   "mentions": [],
   "tags": [

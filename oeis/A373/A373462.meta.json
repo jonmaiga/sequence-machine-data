@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the number whose base-3 expansion is A004601, the base-2 expansion of Pi.",
+  "id": "A373462",
+  "mentions": [
+    "A000796",
+    "A004601"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

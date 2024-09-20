@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the difference between the next greater square of a prime and n*(n+1)/2.",
+  "id": "A375754",
+  "mentions": [
+    "A000217",
+    "A001248",
+    "A075402",
+    "A375752",
+    "A375753"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

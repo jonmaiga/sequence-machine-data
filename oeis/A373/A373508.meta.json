@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(3)*Pi/6 + Pi^2/36 - 1.",
+  "id": "A373508",
+  "mentions": [
+    "A073010",
+    "A093766",
+    "A100044",
+    "A373507"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

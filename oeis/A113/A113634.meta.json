@@ -2,17 +2,21 @@
   "description": "Sum of the first 6^n primes.",
   "id": "A113634",
   "mentions": [
-    "A007504"
+    "A000400",
+    "A007504",
+    "A058192",
+    "A099825",
+    "A099826",
+    "A113633",
+    "A113635"
   ],
   "tags": [
     "formulas",
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

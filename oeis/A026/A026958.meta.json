@@ -2,14 +2,29 @@
   "description": "a(n) = Sum_{k=0..n-2} T(n,k) * T(n,k+2), with T given by A026615.",
   "id": "A026958",
   "mentions": [
-    "A026615"
+    "A026615",
+    "A026616",
+    "A026617",
+    "A026618",
+    "A026619",
+    "A026620",
+    "A026621",
+    "A026622",
+    "A026623",
+    "A026624",
+    "A026625",
+    "A026956",
+    "A026957",
+    "A026959",
+    "A026960"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

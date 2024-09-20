@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of generalized Legendre symbols L(a/b), with 1's for quadratic residues and 0's for quadratic non-residues.",
+  "description": "Triangle of generalized Legendre symbols L(a/b) read by rows, with 1's for quadratic residues and 0's for quadratic non-residues.",
   "id": "A055088",
   "mentions": [
     "A002144",
@@ -10,7 +10,6 @@
     "A055094"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],

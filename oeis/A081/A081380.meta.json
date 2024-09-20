@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sets of prime factors (ignoring multiplicity) of A000203(n) = sigma(n) and of A001157(n) = sigma_2(n) are identical.",
+  "description": "Numbers k such that the sets of prime factors (ignoring multiplicity) of A000203(k) = sigma(k) and of A001157(k) = sigma_2(k) are identical.",
   "id": "A081380",
   "mentions": [
     "A000203",

@@ -1,0 +1,19 @@
+{
+  "description": "Inverse permutation to A375374.",
+  "id": "A375375",
+  "mentions": [
+    "A081241",
+    "A256231",
+    "A375374",
+    "A375377"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

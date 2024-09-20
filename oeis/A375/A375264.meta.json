@@ -1,0 +1,16 @@
+{
+  "description": "Products of prime 5-tuples (p, p+4, p+6, p+10, p+12) where p = A022007(n).",
+  "id": "A375264",
+  "mentions": [
+    "A022007",
+    "A046387"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

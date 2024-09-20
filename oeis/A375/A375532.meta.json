@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the denominator of Sum_{k = 1..n} k! / A375531(k).",
+  "id": "A375532",
+  "mentions": [
+    "A374663",
+    "A374983",
+    "A375516",
+    "A375531"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

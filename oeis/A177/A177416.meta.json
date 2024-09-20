@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k)=2^A141468(n) mod prime(k).",
+  "description": "Triangle read by rows: T(n,k) = 2^A141468(n) mod prime(k).",
   "id": "A177416",
   "mentions": [
     "A000079",

@@ -2,9 +2,7 @@
   "description": "Number of partitions of n which have nonconstant reversal sums, as defined in Comments.",
   "id": "A236170",
   "mentions": [
-    "A236129",
-    "A263129",
-    "A263170"
+    "A236129"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = min{k : KroneckerSymbol(n, k) = 1} if n > 1 and k > 1, a(0) = 1, a(1) = 0.",
+  "id": "A373180",
+  "mentions": [
+    "A020639",
+    "A372728",
+    "A373088"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

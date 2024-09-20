@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is the product of an odd number of primes and the total number of 1-bits in the exponents of its prime factorization is odd, otherwise 0.",
+  "id": "A374466",
+  "mentions": [
+    "A000035",
+    "A001222",
+    "A064547",
+    "A066829",
+    "A252233",
+    "A359464",
+    "A374130",
+    "A374467"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

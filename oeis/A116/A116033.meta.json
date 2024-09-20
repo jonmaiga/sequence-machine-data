@@ -1,5 +1,5 @@
 {
-  "description": "sigma(n) plus the n-th prime is a prime.",
+  "description": "Numbers k such that sigma(k) plus the k-th prime is a prime.",
   "id": "A116033",
   "mentions": [
     "A116034"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

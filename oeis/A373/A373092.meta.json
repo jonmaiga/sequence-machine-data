@@ -1,0 +1,20 @@
+{
+  "description": "The number of iterations of the map x -> A093653(x) that are required to reach from n to one of the fixed points, 1, 2, 3 or 6.",
+  "id": "A373092",
+  "mentions": [
+    "A086793",
+    "A093653",
+    "A373093",
+    "A373094"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

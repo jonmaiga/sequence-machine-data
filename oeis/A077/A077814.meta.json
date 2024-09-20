@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = #{0<=k<=n: mod(kn,4)=2}.",
+  "description": "a(n) = #{0<=k<=n: mod(k*n,4)=2}.",
   "id": "A077814",
   "mentions": [
     "A009947",

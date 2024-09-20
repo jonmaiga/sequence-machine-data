@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the primes containing at least one digit not seen in any smaller prime in base n, for n >= 2.",
+  "id": "A374233",
+  "mentions": [
+    "A033274"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

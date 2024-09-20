@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where exactly n ordered pairs of positive integers (x, y) exist such that x^2 + x*y + y^2 = k.",
+  "id": "A374090",
+  "mentions": [
+    "A002476",
+    "A003136",
+    "A328151",
+    "A374088",
+    "A374091",
+    "A374094"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

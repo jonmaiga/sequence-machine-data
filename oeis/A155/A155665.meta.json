@@ -1,5 +1,5 @@
 {
-  "description": "11^n+8^n-1.",
+  "description": "a(n) = 11^n + 8^n - 1.",
   "id": "A155665",
   "mentions": [
     "A155646",
@@ -29,7 +29,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

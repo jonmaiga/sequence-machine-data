@@ -1,0 +1,19 @@
+{
+  "description": "Products of prime triples (p, p+4, p+6) where p = A022005(n).",
+  "id": "A372419",
+  "mentions": [
+    "A007304",
+    "A016969",
+    "A022005",
+    "A120944"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

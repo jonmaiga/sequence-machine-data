@@ -4,17 +4,17 @@
   "mentions": [
     "A002182",
     "A025487",
-    "A070824"
+    "A070824",
+    "A354457"
   ],
   "tags": [
     "formulas",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

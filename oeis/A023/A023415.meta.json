@@ -1,7 +1,9 @@
 {
   "description": "If any power of 2 ends with k 8's and 9's, they must be the first k terms of this sequence in reverse order.",
   "id": "A023415",
-  "mentions": [],
+  "mentions": [
+    "A145679"
+  ],
   "tags": [
     "base",
     "nonn"

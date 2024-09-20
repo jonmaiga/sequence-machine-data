@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if the least prime dividing the sum of divisors of n is equal to the least prime not dividing n, otherwise a(n) = 0.",
+  "id": "A374474",
+  "mentions": [
+    "A000203",
+    "A020639",
+    "A053669",
+    "A370124",
+    "A374475"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if A276085(n) and A328768(n) are both multiples of 3, otherwise 0, where A276085 is the primorial base log-function, and A328768 is the first primorial based variant of arithmetic derivative.",
+  "id": "A374041",
+  "mentions": [
+    "A002110",
+    "A007949",
+    "A079978",
+    "A276085",
+    "A328768",
+    "A372573",
+    "A373991",
+    "A374031",
+    "A374042"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

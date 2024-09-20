@@ -2,6 +2,7 @@
   "description": "Smallest prime obtained by appending one or more 1's to n, -1 if no such prime exists.",
   "id": "A112386",
   "mentions": [
+    "A030430",
     "A069568"
   ],
   "tags": [

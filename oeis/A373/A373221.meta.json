@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=0} (1 + x^(i * 7^j)).",
+  "id": "A373221",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A093950",
+    "A174065",
+    "A327726",
+    "A373217",
+    "A373219",
+    "A373220"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

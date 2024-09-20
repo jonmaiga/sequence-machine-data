@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x)^5 = A(x^5) / (1 - 5*x)^5 with A(0)=1.",
+  "id": "A372956",
+  "mentions": [
+    "A054662",
+    "A372535",
+    "A372870",
+    "A372957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

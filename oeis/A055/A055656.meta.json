@@ -1,5 +1,5 @@
 {
-  "description": "Excess in exponents of powers of 2 in EulerPhi of n! compared to that of n!.",
+  "description": "Excess in exponents of powers of 2 in Euler phi of n! compared to that of n!.",
   "id": "A055656",
   "mentions": [
     "A000010",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

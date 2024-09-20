@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the conjectured number of occurrences of n in A373330.",
+  "id": "A374175",
+  "mentions": [
+    "A000217",
+    "A373330",
+    "A373331",
+    "A373332",
+    "A373333"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree numbers m such that the equation x*(x+1)*(x+2) = m*y^2 has at least one solution (x,y) with x>0 and y>0.",
+  "description": "Squarefree numbers m such that the equation x*(x+1)*(x+2) = m*y^2 has at least one solution (x,y) with x > 0 and y > 0.",
   "id": "A335785",
   "mentions": [
     "A000330",

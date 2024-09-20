@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the pairs (gcd(a(n), a(n+1)), a(n+1)) are all distinct.",
+  "id": "A375114",
+  "mentions": [
+    "A000005",
+    "A375110"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

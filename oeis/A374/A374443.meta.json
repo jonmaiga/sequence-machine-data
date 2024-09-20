@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = rad(gcd(n, k)) if n, k > 0, T(0, 0) = 1, where rad = A007947 and gcd = A109004.",
+  "id": "A374443",
+  "mentions": [
+    "A007947",
+    "A109004",
+    "A374433",
+    "A374442"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

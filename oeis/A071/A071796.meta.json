@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of a(n+1)=sum_{k=1}^n a'(n/k), a(1)=1, where a'(x)=a(x) if x integer and is linearly interpolated otherwise.",
+  "description": "Denominators of a(n+1) = Sum_{k=1..n} a'(n/k), a(1)=1, where a'(x)=a(x) if x integer and is linearly interpolated otherwise.",
   "id": "A071796",
   "mentions": [
     "A071795"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "joeis"
   }
 }

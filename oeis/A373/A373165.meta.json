@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/(5 + 2*sqrt(3)).",
+  "id": "A373165",
+  "mentions": [
+    "A372912",
+    "A372913",
+    "A373166"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

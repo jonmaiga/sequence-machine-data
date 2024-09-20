@@ -1,0 +1,24 @@
+{
+  "description": "Non-multiples of 3 whose 2-adic valuation is a multiple of 3.",
+  "id": "A374044",
+  "mentions": [
+    "A001651",
+    "A007814",
+    "A007949",
+    "A191257",
+    "A339746",
+    "A373992",
+    "A374042",
+    "A374043"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = if n",
+  "description": "a(n) = n if n < 4, otherwise 4*a(floor(n/4)) + 3 - n mod 4.",
   "id": "A115304",
   "mentions": [
     "A054429",
@@ -14,11 +14,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

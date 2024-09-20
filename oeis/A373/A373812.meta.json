@@ -1,0 +1,16 @@
+{
+  "description": "Lengths of successive runs of equal terms in A373811.",
+  "id": "A373812",
+  "mentions": [
+    "A373811"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

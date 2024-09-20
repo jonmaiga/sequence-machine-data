@@ -1,5 +1,5 @@
 {
-  "description": "Peaceable coexisting armies of queens on torus: the maximum number m such that m white queens and m black queens can coexist on an n X n toroidal chessboard without attacking each other.",
+  "description": "Peaceable coexisting armies of queens on a torus: the maximum number m such that m white queens and m black queens can coexist on an n X n toroidal chessboard without attacking each other.",
   "id": "A279405",
   "mentions": [
     "A250000",

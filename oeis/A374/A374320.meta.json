@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n] such that the number of blocks of size k is a multiple of k for every k.",
+  "id": "A374320",
+  "mentions": [
+    "A374262",
+    "A374319",
+    "A374321",
+    "A374329"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

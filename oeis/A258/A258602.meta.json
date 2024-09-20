@@ -1,8 +1,9 @@
 {
-  "description": "Smallest number m such that A069492(m) = prime(n)^5.",
+  "description": "a(n) is the index m such that A069492(m) = prime(n)^5.",
   "id": "A258602",
   "mentions": [
     "A000040",
+    "A036967",
     "A050997",
     "A069492",
     "A258570",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
+    "size": 50,
     "source": "oeis-bfile"
   }
 }

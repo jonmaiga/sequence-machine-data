@@ -1,8 +1,7 @@
 {
-  "description": "Smallest prime factor of 10^n+1.",
+  "description": "Smallest prime factor of 10^n + 1.",
   "id": "A038371",
   "mentions": [
-    "A001221",
     "A003021",
     "A020639",
     "A057934",

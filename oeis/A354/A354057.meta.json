@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by ascending diagonals: T(n,k) is the number of solutions to x^k == 1 (mod n).",
+  "description": "Square array read by ascending antidiagonals: T(n,k) is the number of solutions to x^k == 1 (mod n).",
   "id": "A354057",
   "mentions": [
     "A060594",

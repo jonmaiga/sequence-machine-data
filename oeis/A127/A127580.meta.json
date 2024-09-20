@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which 64n+63 is prime.",
+  "description": "Numbers k such that 64k+63 is prime.",
   "id": "A127580",
   "mentions": [
     "A127575",

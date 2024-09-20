@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer k such that A002325(k) = n.",
+  "id": "A374294",
+  "mentions": [
+    "A002325",
+    "A033200",
+    "A033715",
+    "A200977",
+    "A374295"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

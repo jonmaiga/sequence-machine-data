@@ -2,9 +2,12 @@
   "description": "a(n) is the number of numbers k with 2^(n-1) < k <= 2^n having a number of divisors that is a power of 2.",
   "id": "A036539",
   "mentions": [
-    "A037992"
+    "A036537",
+    "A037992",
+    "A327839"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

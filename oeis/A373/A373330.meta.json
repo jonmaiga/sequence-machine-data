@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the difference between T = A000217(n^2) and the greatest square not exceeding T.",
+  "id": "A373330",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A002315",
+    "A037270",
+    "A061288",
+    "A373329",
+    "A373331",
+    "A373332",
+    "A373333"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

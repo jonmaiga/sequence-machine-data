@@ -1,5 +1,5 @@
 {
-  "description": "Primes followed by a gap of 70 = nextprime(p)-p.",
+  "description": "Primes p followed by a gap of 70 = nextprime(p) - p.",
   "id": "A204792",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

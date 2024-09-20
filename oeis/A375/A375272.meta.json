@@ -1,0 +1,28 @@
+{
+  "description": "The number of factors of n of the form p^Fibonacci(k), where p is a prime and k >= 2, when the factorization is uniquely done using the dual Zeckendorf representation of the exponents in the prime factorization of n.",
+  "id": "A375272",
+  "mentions": [
+    "A000045",
+    "A003754",
+    "A064547",
+    "A077761",
+    "A086435",
+    "A112309",
+    "A112310",
+    "A246655",
+    "A266226",
+    "A318464",
+    "A331109"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

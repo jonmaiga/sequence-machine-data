@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|2*n} binomial(4*n/d-1, 2*n/d)*phi(d))/(4*n) for n>0 with a(0)=0.",
+  "description": "a(n) = Sum_{d|2*n} binomial(4*n/d-1, 2*n/d)*phi(d)/(4*n) for n>0 with a(0)=0.",
   "id": "A371372",
   "mentions": [
     "A333682"

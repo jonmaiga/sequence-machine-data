@@ -1,0 +1,15 @@
+{
+  "description": "Number of distinct, irreducible ways that a Pythagorean hyperrectangle of 2 or more dimensions can produce diagonal length n.",
+  "id": "A375338",
+  "mentions": [
+    "A037444"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

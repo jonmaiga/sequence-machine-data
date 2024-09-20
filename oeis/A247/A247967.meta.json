@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest k such that prime(k+i) (mod 6) takes successively the values 5,5,... for i = 0, 1,...,n-1.",
+  "description": "a(n) is the smallest k such that prime(k+i) (mod 6) takes successively the values 5, 5, ... for i = 0, 1, ..., n-1.",
   "id": "A247967",
   "mentions": [
     "A057622",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

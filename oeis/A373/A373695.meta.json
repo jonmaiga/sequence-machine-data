@@ -1,0 +1,17 @@
+{
+  "description": "Number of incongruent n-sided \"sporadic\" Reinhardt polygons.",
+  "id": "A373695",
+  "mentions": [
+    "A373694",
+    "A374832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

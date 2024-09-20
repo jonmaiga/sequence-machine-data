@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of least x>0 having sin(x)=(sin(x/3))^2.",
+  "description": "Decimal expansion of least x>0 having sin(x) = sin(x/3)^2.",
   "id": "A197377",
   "mentions": [
     "A197133"

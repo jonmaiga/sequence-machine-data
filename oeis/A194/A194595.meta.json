@@ -1,5 +1,5 @@
 {
-  "description": "Triangle by rows T(n,k), showing the number of meanders with length (n+1)*3 and containing (k+1)*3 Ls and (n-k)*3 Rs, where Ls and Rs denote arcs of equal length and a central angle of 120 degrees which are positively or negatively oriented.",
+  "description": "Triangle by rows T(n,k), showing the number of meanders with length (n+1)*3 and containing (k+1)*3 L's and (n-k)*3 R's, where L's and R's denote arcs of equal length and a central angle of 120 degrees which are positively or negatively oriented.",
   "id": "A194595",
   "mentions": [
     "A000012",

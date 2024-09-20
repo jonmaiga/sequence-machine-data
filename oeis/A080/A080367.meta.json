@@ -1,14 +1,19 @@
 {
-  "description": "Largest unitary prime divisor of n or a(n)=0 if no such prime divisor exists.",
+  "description": "Largest unitary prime divisor of n or a(n) = 0 if no such prime divisor exists.",
   "id": "A080367",
   "mentions": [
+    "A001694",
+    "A006530",
     "A027748",
     "A034444",
+    "A055231",
     "A056169",
     "A080368",
     "A124010"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,11 +1,15 @@
 {
-  "description": "Expansion of Product_{i>=1, j>=0} (1 + x^(i*3^j)).",
+  "description": "Expansion of Product_{i>=1, j>=0} (1 + x^(i * 3^j)).",
   "id": "A327726",
   "mentions": [
+    "A000009",
     "A000041",
     "A051064",
     "A143374",
-    "A174065"
+    "A174065",
+    "A373219",
+    "A373220",
+    "A373221"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 123...n - (n+1) is prime.",
+  "description": "Numbers k such that 123...k - (k+1) is prime.",
   "id": "A234965",
   "mentions": [
     "A007908",

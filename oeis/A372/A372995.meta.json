@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n! / (a(n-1) a(n-2) a(n-3)), where a(0) = a(1) = a(2) = 1.",
+  "id": "A372995",
+  "mentions": [
+    "A000142",
+    "A007661"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

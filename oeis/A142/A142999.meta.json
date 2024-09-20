@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0, a(1) = 1; for n>1, a(n+1) = (2*n+1)*a(n) + n^4*a(n-1).",
+  "description": "a(0) = 0, a(1) = 1; for n > 1, a(n+1) = (2*n + 1)*a(n) + n^4*a(n-1).",
   "id": "A142999",
   "mentions": [
     "A000522",

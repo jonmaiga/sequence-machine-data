@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that 0= #{ 1<=i<=n : k(n,i)=-1 } where k(n,i) is the Kronecker symbol.",
+  "description": "Nonnegative numbers k such that 0 = #{ 0 <= i <= k : K(k, i) = -1 } where K(k, i) is the Kronecker symbol.",
   "id": "A096398",
   "mentions": [
     "A000010",
-    "A051953"
+    "A051953",
+    "A372728"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
+    "size": 52,
     "source": "oeis-entry"
   }
 }

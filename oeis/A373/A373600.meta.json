@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of prime factors (with multiplicity) in A276086(n), where A276086 is the primorial base exp-function.",
+  "id": "A373600",
+  "mentions": [
+    "A001414",
+    "A276086",
+    "A373601",
+    "A373602"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

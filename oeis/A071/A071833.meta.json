@@ -2,6 +2,8 @@
   "description": "Frequency ratios for notes of C-major scale starting at c = 24 and using Ptolemy's intense diatonic scale.",
   "id": "A071833",
   "mentions": [
+    "A010774",
+    "A047274",
     "A051037",
     "A071831",
     "A071832"

@@ -1,5 +1,5 @@
 {
-  "description": "Binary representation of the middle column of the \"Rule 30\" elementary cellular automaton starting with a single ON cell.",
+  "description": "Binary representation of the middle column of the \"Rule 30\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A261299",
   "mentions": [
     "A051023",

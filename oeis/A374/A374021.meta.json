@@ -1,0 +1,18 @@
+{
+  "description": "Row products of A351153.",
+  "id": "A374021",
+  "mentions": [
+    "A005408",
+    "A033996",
+    "A351153"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

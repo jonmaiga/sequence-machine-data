@@ -1,7 +1,11 @@
 {
   "description": "Integers n such that the sum of the digits of n is not prime.",
   "id": "A104211",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A028834"
+  ],
   "tags": [
     "base",
     "easy",

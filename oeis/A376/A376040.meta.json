@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = -log(1 - x / (1 - A(x))^3).",
+  "id": "A376040",
+  "mentions": [
+    "A371370",
+    "A376038",
+    "A376039",
+    "A376041"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction expansion of Arithmetic Geometric Mean[1,2]",
+  "description": "Continued fraction expansion of the arithmetic-geometric mean of 1 and 2.",
   "id": "A163766",
   "mentions": [
     "A068521"
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 98,
     "source": "oeis-bfile"
   }

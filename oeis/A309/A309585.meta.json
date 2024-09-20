@@ -2,7 +2,10 @@
   "description": "Numbers k with 4 zeros in a fundamental period of A000129 mod k.",
   "id": "A309585",
   "mentions": [
+    "A000045",
     "A000129",
+    "A001176",
+    "A006190",
     "A053027",
     "A053028",
     "A053029",
@@ -22,7 +25,8 @@
     "A309588",
     "A309591",
     "A309592",
-    "A309593"
+    "A309593",
+    "A322906"
   ],
   "tags": [
     "nonn"

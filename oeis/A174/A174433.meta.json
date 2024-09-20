@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k)= (prime(n) mod A001223(k)), where A001223 are differences between consecutive primes.",
+  "description": "Triangle read by rows: T(n,k) = prime(n) mod A001223(k), where A001223 are differences between consecutive primes.",
   "id": "A174433",
   "mentions": [
     "A000040",

@@ -1,15 +1,17 @@
 {
-  "description": "Product of first n composite numbers minus 1 is a prime.",
+  "description": "Numbers k such that the product of the first k composite numbers minus 1 is a prime.",
   "id": "A057017",
   "mentions": [
-    "A053982"
+    "A049421",
+    "A053982",
+    "A140293"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

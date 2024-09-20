@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the number of repeating digits for each reciprocal of integer m, where n>m>1 and n is the base.",
+  "description": "Sum of the number of repeating digits for each reciprocal of integer m, where 1 < m < n and n is the base.",
   "id": "A179193",
   "mentions": [
     "A051626"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 39,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

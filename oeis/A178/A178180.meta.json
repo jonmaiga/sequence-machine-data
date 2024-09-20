@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (prime(2n) mod prime(n)) = (prime(2n+2) mod prime(n+1)).",
+  "description": "Numbers k such that prime(2k) mod prime(k) = prime(2k+2) mod prime(k+1).",
   "id": "A178180",
   "mentions": [
     "A000040"

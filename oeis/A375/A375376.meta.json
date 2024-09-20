@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals: Let n = Sum_{i=1..m} 2^e_i be the binary expansion of n, let S be the set {e_i+2; 1 <= i <= m}, and let X be the sequence of power towers built of numbers in S, sorted first by their height and then colexicographically. The n-th row of the array gives the permutation of indices which reorders X by magnitude. In case of ties, keep the colexicographic order.",
+  "id": "A375376",
+  "mentions": [
+    "A185969",
+    "A299229",
+    "A375374",
+    "A375377"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = gcd(sigma(n), sopfr(n)), where sigma is the sum of divisors, and sopfr is the sum of prime factors with repetition.",
+  "id": "A374126",
+  "mentions": [
+    "A000203",
+    "A001414",
+    "A086665"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

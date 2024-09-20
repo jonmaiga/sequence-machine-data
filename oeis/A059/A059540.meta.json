@@ -2,10 +2,12 @@
   "description": "Beatty sequence for 3^(1/3)/(3^(1/3)-1).",
   "id": "A059540",
   "mentions": [
-    "A059539"
+    "A059539",
+    "A072365"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

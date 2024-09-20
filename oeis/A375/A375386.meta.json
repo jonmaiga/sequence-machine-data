@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the common difference in the longest arithmetic progression of primes ending in prime(n). If there is more than one such arithmetic progression, the smallest difference is chosen.",
+  "id": "A375386",
+  "mentions": [
+    "A000040",
+    "A373888"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 90/781.",
+  "id": "A372806",
+  "mentions": [
+    "A000079",
+    "A007598",
+    "A021785"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

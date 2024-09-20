@@ -1,8 +1,11 @@
 {
-  "description": "a(n) = floor[(1/n) sum_{k=1..n} a(k)^(n/k)], given a(0)=1, a(1)=2, a(2)=7.",
+  "description": "a(n) = floor(1/(n-1) * Sum_{k=1..n-1} a(k)^(n/k)), given a(0)=1, a(1)=2, a(2)=7.",
   "id": "A079119",
   "mentions": [
     "A079116",
+    "A079117",
+    "A079118",
+    "A079120",
     "A079121"
   ],
   "tags": [
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 29,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

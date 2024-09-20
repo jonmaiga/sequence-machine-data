@@ -1,5 +1,5 @@
 {
-  "description": "Smallest integer n such that sigma_2(n) = sigma_2(n + 2k), k = 1,2,3,.... where sigma_2(n) is the sum of squares of divisors of n (A001157).",
+  "description": "a(n) is the smallest integer k such that sigma_2(k) = sigma_2(k + 2n), where sigma_2(k) is the sum of squares of divisors of k (A001157).",
   "id": "A175199",
   "mentions": [
     "A000005",

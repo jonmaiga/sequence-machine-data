@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} k^k / k!.",
+  "id": "A374844",
+  "mentions": [
+    "A000142",
+    "A007526",
+    "A030297",
+    "A277506",
+    "A337001",
+    "A337002"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

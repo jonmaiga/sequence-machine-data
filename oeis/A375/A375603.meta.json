@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = domination number of the stacked prism graph C_m X P_n.",
+  "id": "A375603",
+  "mentions": [
+    "A286514",
+    "A350823",
+    "A375566",
+    "A375601"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

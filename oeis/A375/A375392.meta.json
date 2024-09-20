@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the hyperbolic volume of the link complement of the Borromean rings.",
+  "id": "A375392",
+  "mentions": [
+    "A006752",
+    "A091518",
+    "A247685",
+    "A282824"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

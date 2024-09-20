@@ -1,7 +1,22 @@
 {
   "description": "Number of powers of 14 modulo n.",
   "id": "A054714",
-  "mentions": [],
+  "mentions": [
+    "A054703",
+    "A054704",
+    "A054705",
+    "A054706",
+    "A054707",
+    "A054708",
+    "A054709",
+    "A054710",
+    "A054712",
+    "A054713",
+    "A054715",
+    "A054716",
+    "A054717",
+    "A351524"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +24,6 @@
   "terms": {
     "offset": 1,
     "size": 85,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

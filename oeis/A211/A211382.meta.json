@@ -2,16 +2,17 @@
   "description": "Number of intersections of diagonals in the exterior of a regular n-gon.",
   "id": "A211382",
   "mentions": [
-    "A006561"
+    "A006561",
+    "A146213",
+    "A211383"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 27,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

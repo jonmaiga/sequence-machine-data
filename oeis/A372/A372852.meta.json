@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the total number of runs of ascents over all flattened Catalan words of length n.",
+  "id": "A372852",
+  "mentions": [
+    "A007051",
+    "A372868",
+    "A372872"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

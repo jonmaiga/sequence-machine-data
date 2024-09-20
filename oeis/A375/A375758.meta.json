@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, the initial digit of n divides a(n).",
+  "id": "A375758",
+  "mentions": [
+    "A000030",
+    "A308539",
+    "A375759"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

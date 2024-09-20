@@ -1,0 +1,17 @@
+{
+  "description": "Number of walks of length n along the edges of a dodecahedron graph between two vertices at distance two.",
+  "id": "A375309",
+  "mentions": [
+    "A054883"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

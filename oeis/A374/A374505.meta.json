@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of unit squares aligned with unit-spaced horizontal lines that can be enclosed by a circle of diameter n.",
+  "id": "A374505",
+  "mentions": [
+    "A124484",
+    "A256588"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

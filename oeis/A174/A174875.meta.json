@@ -1,9 +1,10 @@
 {
-  "description": "Triangle read by rows: R(n,k)= sigma(n) mod tau(k), where sigma(.) is the sum of divisors and tau(.) the number of divisors.",
+  "description": "Triangle read by rows: T(n,k) = sigma(n) mod tau(k), where sigma(.) is the sum of divisors and tau(.) is the number of divisors.",
   "id": "A174875",
   "mentions": [
     "A000005",
-    "A000203"
+    "A000203",
+    "A054025"
   ],
   "tags": [
     "easy",

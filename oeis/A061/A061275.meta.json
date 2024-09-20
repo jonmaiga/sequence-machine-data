@@ -2,6 +2,8 @@
   "description": "Smaller of two consecutive primes whose sum is a square.",
   "id": "A061275",
   "mentions": [
+    "A000040",
+    "A064397",
     "A091624",
     "A206279",
     "A206280",
@@ -9,11 +11,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "A 4/3-power Fibonacci sequence.",
+  "description": "a(n) = ceiling(a(n-1)^(4/3) + a(n-2)^(4/3)), with a(0) = a(1) = 1.",
   "id": "A114957",
   "mentions": [
     "A000283",
@@ -9,7 +9,6 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

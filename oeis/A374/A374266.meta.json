@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number reachable by a Fibonacci-like iteration where one has the option to either omit or keep zero digits.",
+  "id": "A374266",
+  "mentions": [
+    "A000045",
+    "A004719",
+    "A030132",
+    "A242350",
+    "A243063",
+    "A243657",
+    "A243658",
+    "A306773",
+    "A374265"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

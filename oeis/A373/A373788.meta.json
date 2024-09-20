@@ -1,0 +1,17 @@
+{
+  "description": "Record high points in A372072.",
+  "id": "A373788",
+  "mentions": [
+    "A372072",
+    "A373390",
+    "A373789"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

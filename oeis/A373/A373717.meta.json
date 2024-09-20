@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where T(n,k) = Sum_{j=0..floor(k*n/(2*k+1))} binomial(k * (n-2*j),j).",
+  "id": "A373717",
+  "mentions": [
+    "A000012",
+    "A000930",
+    "A099233",
+    "A193147",
+    "A373718",
+    "A373719"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

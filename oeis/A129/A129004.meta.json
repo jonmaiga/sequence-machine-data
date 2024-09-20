@@ -1,5 +1,5 @@
 {
-  "description": "(n^3+n^2)*4^n.",
+  "description": "a(n) = (n^3 + n^2)*4^n.",
   "id": "A129004",
   "mentions": [
     "A036289",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

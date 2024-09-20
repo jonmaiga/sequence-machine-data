@@ -2,9 +2,12 @@
   "description": "The sequence lambda(3,n), where lambda is defined in A055203. Number of ways of placing n identifiable positive intervals with a total of exactly three starting and/or finishing points.",
   "id": "A058809",
   "mentions": [
+    "A000225",
+    "A029858",
     "A055203",
     "A059116",
-    "A059117"
+    "A059117",
+    "A375256"
   ],
   "tags": [
     "easy",

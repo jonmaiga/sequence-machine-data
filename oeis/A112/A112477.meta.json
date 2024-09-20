@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array ((1-x+sqrt(1+6x+x^2))/2, (sqrt(1+6x+x^2)-x-1)/2).",
+  "description": "Riordan array ((1-x+sqrt(1+6*x+x^2))/2, (sqrt(1+6*x+x^2)-x-1)/2).",
   "id": "A112477",
   "mentions": [
     "A112475",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 64,
+    "size": 66,
     "source": "joeis"
   }
 }

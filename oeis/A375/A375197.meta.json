@@ -1,0 +1,24 @@
+{
+  "description": "Terms k in A025487 such that k-1 and k+1 are twin primes.",
+  "id": "A375197",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A014574",
+    "A025487",
+    "A068507",
+    "A344384",
+    "A344385",
+    "A375198"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct ways of expressing n using only addition, multiplication (with all factors greater than 1), necessary parentheses, and the number 1.",
+  "id": "A373446",
+  "mentions": [
+    "A002095",
+    "A005245",
+    "A214833"
+  ],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Complement of A325114.",
+  "id": "A376046",
+  "mentions": [
+    "A092433",
+    "A325114",
+    "A376047"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

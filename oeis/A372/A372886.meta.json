@@ -1,0 +1,52 @@
+{
+  "description": "Indices of prime numbers whose binary indices (positions of ones in reversed binary expansion) sum to another prime number.",
+  "id": "A372886",
+  "mentions": [
+    "A000012",
+    "A000040",
+    "A000120",
+    "A001511",
+    "A006450",
+    "A014499",
+    "A019565",
+    "A023416",
+    "A029837",
+    "A029931",
+    "A035100",
+    "A038499",
+    "A048675",
+    "A048793",
+    "A058698",
+    "A064688",
+    "A070939",
+    "A070940",
+    "A085756",
+    "A158704",
+    "A158705",
+    "A230877",
+    "A272020",
+    "A277319",
+    "A316091",
+    "A359359",
+    "A359400",
+    "A368494",
+    "A371571",
+    "A371572",
+    "A372429",
+    "A372471",
+    "A372687",
+    "A372688",
+    "A372689",
+    "A372850",
+    "A372851",
+    "A372885"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n, k), n > 0, k = 0..n-1, read by rows; T(n, k) is the least base b >= 2 where n and k have different sums of digits.",
+  "id": "A374383",
+  "mentions": [
+    "A374381"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

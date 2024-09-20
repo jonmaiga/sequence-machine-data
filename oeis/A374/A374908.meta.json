@@ -1,0 +1,19 @@
+{
+  "description": "Each term is the sum of the preceding term and its seven-segment total A006942.",
+  "id": "A374908",
+  "mentions": [
+    "A006942",
+    "A219675"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^n-(n-1)^2 is prime.",
+  "description": "Numbers k such that k^k - (k-1)^2 is prime.",
   "id": "A093522",
   "mentions": [],
   "tags": [

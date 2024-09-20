@@ -2,7 +2,10 @@
   "description": "Hankel transform of A025276.",
   "id": "A166445",
   "mentions": [
-    "A025276"
+    "A025276",
+    "A027656",
+    "A056594",
+    "A127365"
   ],
   "tags": [
     "easy",

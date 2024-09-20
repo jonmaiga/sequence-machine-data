@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(A003415(n), A059975(n)), where A003415 is the arithmetic derivative and A059975 is fully additive with a(p) = p-1.",
+  "id": "A373378",
+  "mentions": [
+    "A003415",
+    "A059975",
+    "A368998",
+    "A368999",
+    "A373364",
+    "A373368",
+    "A373369",
+    "A373377"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

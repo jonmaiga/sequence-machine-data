@@ -1,0 +1,50 @@
+{
+  "description": "Number of integer compositions of n whose leaders of weakly decreasing runs are themselves weakly decreasing.",
+  "id": "A374747",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A003242",
+    "A011782",
+    "A106356",
+    "A124765",
+    "A188900",
+    "A188920",
+    "A189076",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A261982",
+    "A333213",
+    "A333755",
+    "A335456",
+    "A373949",
+    "A373951",
+    "A374629",
+    "A374630",
+    "A374634",
+    "A374635",
+    "A374636",
+    "A374682",
+    "A374697",
+    "A374701",
+    "A374740",
+    "A374741",
+    "A374742",
+    "A374743",
+    "A374744",
+    "A374745",
+    "A374746",
+    "A374748",
+    "A374765"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

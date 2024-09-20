@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if A328845(n) and A328846(n) are both even, otherwise 0, where A328845 and A328846 are the first and second Fibonacci-based variants of the arithmetic derivative.",
+  "id": "A374036",
+  "mentions": [
+    "A000045",
+    "A000720",
+    "A059841",
+    "A328845",
+    "A328846",
+    "A374035",
+    "A374037",
+    "A374038",
+    "A374045",
+    "A374048"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

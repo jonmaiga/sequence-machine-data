@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Sum_{k>=1} (-1)^(k+1) * k^2 * x^(k*(k+1)) / (1 - x^k).",
+  "id": "A373032",
+  "mentions": [
+    "A056924",
+    "A064027",
+    "A070039",
+    "A321543",
+    "A333809",
+    "A333810",
+    "A339353",
+    "A344300",
+    "A372625",
+    "A373031"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least odd k such that C(2k, k) == 1 (mod A007775(n)), or 0 if no such k exists.",
+  "id": "A373469",
+  "mentions": [
+    "A007775",
+    "A030979",
+    "A086748"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

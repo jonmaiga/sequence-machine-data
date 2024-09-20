@@ -1,8 +1,11 @@
 {
-  "description": "Numbers that are the sum of at least three distinct positive integers in arithmetic progression.",
+  "description": "Numbers that are the sum of at least three distinct nonnegative integers in arithmetic progression.",
   "id": "A176423",
-  "mentions": [],
+  "mentions": [
+    "A002808"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

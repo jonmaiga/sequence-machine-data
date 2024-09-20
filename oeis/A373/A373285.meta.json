@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k that are composite and not a powers of a prime k such that sopf^{h+1}(k) divides sopf^{h}(k), with sopf^{0}(k)=k, for h=0..A321944(k)-1, where sopf^{h} is the h-th iteration of sopf and sopf = A008472.",
+  "id": "A373285",
+  "mentions": [
+    "A008472",
+    "A321944"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

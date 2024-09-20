@@ -1,0 +1,23 @@
+{
+  "description": "Values k such that the two-player impartial {0,1}-Toggle game on a path P(k+4) = v(1)v(2)...v(k+4) with a (1^k,0,1,0,1)-weight assignment is a second-player winning game.",
+  "id": "A374910",
+  "mentions": [
+    "A071426",
+    "A340631",
+    "A346197",
+    "A346401",
+    "A346637",
+    "A361517",
+    "A374810",
+    "A374920"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

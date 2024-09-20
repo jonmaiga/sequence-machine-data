@@ -1,0 +1,21 @@
+{
+  "description": "A135507(n) is the product of the first n terms of this sequence.",
+  "id": "A370634",
+  "mentions": [
+    "A000705",
+    "A001359",
+    "A002201",
+    "A003418",
+    "A006512",
+    "A135507"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

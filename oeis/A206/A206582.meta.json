@@ -1,5 +1,5 @@
 {
-  "description": "The least number s having exactly n twos in the continued fraction of sqrt(s).",
+  "description": "The least nonsquare number s having exactly n twos in the periodic part of the continued fraction of sqrt(s).",
   "id": "A206582",
   "mentions": [
     "A206578",

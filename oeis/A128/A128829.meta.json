@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 6*n^2 + 17 is prime.",
+  "description": "Numbers k such that 6*k^2 + 17 is prime.",
   "id": "A128829",
   "mentions": [],
   "tags": [

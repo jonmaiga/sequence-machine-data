@@ -8,11 +8,12 @@
     "A095075"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

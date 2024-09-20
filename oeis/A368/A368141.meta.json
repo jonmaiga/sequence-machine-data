@@ -1,5 +1,5 @@
 {
-  "description": "The number of ways of tiling the n X n torus up to diagonal and antidiagonal reflections of the square by a tile that is fixed under only 180-degree rotations.",
+  "description": "Number of ways of tiling the n X n torus up to diagonal and antidiagonal reflections of the square by a tile that is fixed under only 180-degree rotations.",
   "id": "A368141",
   "mentions": [
     "A367528",

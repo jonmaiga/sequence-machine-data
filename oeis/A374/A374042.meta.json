@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A276085(k) and A328768(k) are both multiples of 3, where A276085 is the primorial base log-function, and A328768 is the first primorial based variant of arithmetic derivative.",
+  "id": "A374042",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A276085",
+    "A328768",
+    "A339746",
+    "A373992",
+    "A374031",
+    "A374041",
+    "A374044"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "First occurrence of primes in the progression kx^2-1.",
+  "description": "First occurrence of primes in the progression k*x^2-1.",
   "id": "A090688",
   "mentions": [],
   "tags": [

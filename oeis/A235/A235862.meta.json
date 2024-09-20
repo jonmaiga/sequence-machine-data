@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes in the tribonacci-like sequence, A141523.",
+  "description": "Indices of primes in A141523.",
   "id": "A235862",
   "mentions": [
     "A001590",

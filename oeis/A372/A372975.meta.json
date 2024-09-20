@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest unused positive number such that a(n) shares a factor with a(n-1) while omega(a(n)) does not equal omega(a(n-1)).",
+  "id": "A372975",
+  "mentions": [
+    "A001221",
+    "A027748",
+    "A064413",
+    "A109465",
+    "A352588",
+    "A353916",
+    "A372974"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

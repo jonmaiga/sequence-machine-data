@@ -1,13 +1,17 @@
 {
   "description": "a(n) = Sum_{p|n, p prime} prime(p).",
   "id": "A351368",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A010051"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 71,
+    "size": 69,
     "source": "joeis"
   }
 }

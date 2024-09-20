@@ -1,0 +1,19 @@
+{
+  "description": "Integers equal to the sum of divisors of their anti-divisors.",
+  "id": "A375471",
+  "mentions": [
+    "A000203",
+    "A066417",
+    "A178029"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

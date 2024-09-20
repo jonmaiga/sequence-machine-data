@@ -2,6 +2,9 @@
   "description": "Triangle of coefficients in expansion of D^n (tan x) in powers of tan x.",
   "id": "A008293",
   "mentions": [
+    "A000142",
+    "A000182",
+    "A000831",
     "A008294",
     "A101343",
     "A155100"
@@ -15,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 41,
     "source": "joeis"
   }
 }

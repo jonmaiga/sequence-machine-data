@@ -1,0 +1,20 @@
+{
+  "description": "Largest of a quadruple of primes p[1..4] such that (p[k]+1, k=1..4) is in geometric progression.",
+  "id": "A373464",
+  "mentions": [
+    "A089199",
+    "A184856",
+    "A293194",
+    "A299171",
+    "A347977",
+    "A374482"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

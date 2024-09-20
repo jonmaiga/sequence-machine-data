@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1/( cos(log(1-x)) + sin(log(1-x)) ).",
+  "description": "Expansion of e.g.f. 1/( cos(log(1-x)) + sin(log(1-x)) ).",
   "id": "A184942",
   "mentions": [],
   "tags": [

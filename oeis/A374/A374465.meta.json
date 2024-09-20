@@ -1,0 +1,16 @@
+{
+  "description": "Positions of 5's in A347381.",
+  "id": "A374465",
+  "mentions": [
+    "A347381"
+  ],
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

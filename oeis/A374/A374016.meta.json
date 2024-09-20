@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if n is a fourth power, else 0.",
+  "id": "A374016",
+  "mentions": [
+    "A000583",
+    "A010052",
+    "A010057"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

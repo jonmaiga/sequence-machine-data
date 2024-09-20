@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 6*Pi/(3*sqrt(3) + 8*Pi).",
+  "id": "A375741",
+  "mentions": [
+    "A000796",
+    "A010482",
+    "A010527",
+    "A019692",
+    "A019699",
+    "A228719",
+    "A228824"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

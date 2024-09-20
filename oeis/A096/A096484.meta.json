@@ -1,11 +1,14 @@
 {
-  "description": "Integer part of the square root of [2n-1]-th decimal repunit.",
+  "description": "Integer part of the square root of (2n-1)-th decimal repunit.",
   "id": "A096484",
   "mentions": [
-    "A002275"
+    "A000196",
+    "A002275",
+    "A096483"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

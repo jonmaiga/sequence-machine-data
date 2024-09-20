@@ -2,6 +2,7 @@
   "description": "Number of cycles of length n under the mapping x -> x^2-2 modulo Fermat prime 2^(2^m)+1, where m is any fixed integer such that n divides 2^m-1.",
   "id": "A131203",
   "mentions": [
+    "A000048",
     "A001037",
     "A059966"
   ],

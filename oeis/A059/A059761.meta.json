@@ -1,5 +1,5 @@
 {
-  "description": "Initial primes of Cunningham chains of first type with length exactly 2. Primes in A059453 which survive as primes only one \"2p-1 iteration\", forming chains of exactly 2 terms.",
+  "description": "Initial primes of Cunningham chains of first type with length exactly 2. Primes in A059453 that survive as primes only one \"2p-1 iteration\", forming chains of exactly 2 terms.",
   "id": "A059761",
   "mentions": [
     "A005384",
@@ -10,15 +10,15 @@
     "A023330",
     "A059452",
     "A059453",
+    "A059454",
     "A059455"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

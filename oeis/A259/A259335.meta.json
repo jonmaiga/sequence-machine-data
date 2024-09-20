@@ -1,13 +1,14 @@
 {
-  "description": "a(n) = Sum(b(2*n, k)^2*(b(2*n, k + 1) - b(2*n, k - 1)), k = 0 .. n)/(n*b(2*n, n)), where b denotes a binomial coefficient.",
+  "description": "a(n) = ( Sum_{k=0..n} binomial(2*n, k)^2 * (binomial(2*n, k+1) - binomial(2*n, k-1)) )/(n*binomial(2*n, n)).",
   "id": "A259335",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

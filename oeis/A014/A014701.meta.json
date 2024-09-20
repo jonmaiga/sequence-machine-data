@@ -2,6 +2,7 @@
   "description": "Number of multiplications to compute n-th power by the Chandah-sutra method.",
   "id": "A014701",
   "mentions": [
+    "A000120",
     "A003313",
     "A007088",
     "A007931",

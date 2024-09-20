@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct nonnegative pairs of terms that interpenetrate to produce a prime number.",
+  "id": "A375614",
+  "mentions": [
+    "A000040",
+    "A213457"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

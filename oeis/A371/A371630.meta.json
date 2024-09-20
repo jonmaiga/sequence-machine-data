@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k that set records in A372720.",
+  "id": "A371630",
+  "mentions": [
+    "A000005",
+    "A002110",
+    "A008479",
+    "A025487",
+    "A055932",
+    "A060735",
+    "A067255",
+    "A080259",
+    "A126706",
+    "A371634",
+    "A372720"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

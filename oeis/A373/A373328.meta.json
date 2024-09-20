@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the difference between T = k*(k+1)/2 = A000217(k) and the largest square <= T reaches a new record.",
+  "id": "A373328",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A064784",
+    "A128549",
+    "A373327"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

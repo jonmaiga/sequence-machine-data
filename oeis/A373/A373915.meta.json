@@ -1,0 +1,20 @@
+{
+  "description": "Determinants of symmetric real {0,1}-matrices of order 9 that only occur as positive values.",
+  "id": "A373915",
+  "mentions": [
+    "A003432",
+    "A089472",
+    "A108150",
+    "A118985"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

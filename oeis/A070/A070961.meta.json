@@ -1,13 +1,17 @@
 {
-  "description": "Card{ k<=n | bigomega(k)=bigomega(n) }.",
+  "description": "a(n) = Card{ k<=n | bigomega(k) != bigomega(n) }.",
   "id": "A070961",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A070962"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

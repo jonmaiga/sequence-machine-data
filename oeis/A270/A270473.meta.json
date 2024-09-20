@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-5*x)/(1-9*x).",
+  "description": "Expansion of g.f. (1-5*x)/(1-9*x).",
   "id": "A270473",
   "mentions": [
     "A001019",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

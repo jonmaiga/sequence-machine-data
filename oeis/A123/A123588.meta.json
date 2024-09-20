@@ -1,8 +1,12 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the coefficient of x^k in the polynomial 1 - T(n, x^(1/2))^2, where T(n,x) is the n-th Chebyshev polynomial of the first kind, evaluated at x (0 <= k <= n).",
+  "description": "Triangle read by rows: T(n, k) is the coefficient of x^k in the polynomial 1 - ChT(n, x^(1/2))^2, where ChT(n, x) is the n-th Chebyshev polynomial of the first kind, evaluated at x (0 <= k <= n).",
   "id": "A123588",
-  "mentions": [],
+  "mentions": [
+    "A000004",
+    "A114619"
+  ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],

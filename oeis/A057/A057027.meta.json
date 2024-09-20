@@ -2,11 +2,15 @@
   "description": "Triangle T read by rows: row n consists of the numbers C(n,2)+1 to C(n+1,2); numbers in odd-numbered places form an increasing sequence and the others a decreasing sequence.",
   "id": "A057027",
   "mentions": [
+    "A000124",
+    "A000217",
+    "A006003",
     "A057028",
     "A057029",
     "A064578"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

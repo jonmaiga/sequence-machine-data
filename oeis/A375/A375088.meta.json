@@ -1,0 +1,15 @@
+{
+  "description": "Mountain Sequence: Sequence that when expressed as non-overlapping mountains, the n-th term is the height and base of the n-th mountain.",
+  "id": "A375088",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

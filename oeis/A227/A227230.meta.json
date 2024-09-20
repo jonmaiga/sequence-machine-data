@@ -2,10 +2,13 @@
   "description": "Numbers k such that 3*2^k + {5,7} are twin primes.",
   "id": "A227230",
   "mentions": [
+    "A057913",
+    "A059746",
     "A071558",
     "A181490"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

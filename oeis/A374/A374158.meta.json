@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where exactly n pairs of positive integers (x, y) exist such that x^2 + 3*y^2 = k.",
+  "id": "A374158",
+  "mentions": [
+    "A002476",
+    "A092573",
+    "A328151",
+    "A343105",
+    "A374159",
+    "A374160",
+    "A374161"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

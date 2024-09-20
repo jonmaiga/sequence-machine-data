@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n such that, if k appears in n's prime signature, k-1 appears at least as often as k (for any integer k > 1).",
+  "description": "Positive integers m such that, if k appears in m's prime signature, k-1 appears at least as often as k (for any integer k > 1).",
   "id": "A179983",
   "mentions": [
     "A005117",

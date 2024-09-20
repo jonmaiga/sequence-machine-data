@@ -1,0 +1,18 @@
+{
+  "description": "Prime shadow (A181819) with shifted e_i to generate odd numbers, multiplied by 2^(A064839 - 1).",
+  "id": "A372133",
+  "mentions": [
+    "A064839",
+    "A181819",
+    "A372134"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

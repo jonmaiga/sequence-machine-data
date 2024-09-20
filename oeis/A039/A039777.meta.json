@@ -1,17 +1,19 @@
 {
-  "description": "Integers n such that phi(n) is equal to the sum of (the product of prime factors) and (the product of exponents) of n-1.",
+  "description": "Integers m such that phi(m) is equal to the sum of (the product of prime factors) and (the product of exponents) of m-1.",
   "id": "A039777",
   "mentions": [
     "A000010",
-    "A039696"
+    "A039696",
+    "A350777"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

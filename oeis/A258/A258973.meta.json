@@ -1,11 +1,15 @@
 {
-  "description": "The number of plain lambda terms presented by de Bruijn indices, see Bendkowski et al. where zeros have no weight.",
+  "description": "The number of plain lambda terms presented by de Bruijn indices, see Bendkowski et al., where zeros have no weight.",
   "id": "A258973",
   "mentions": [
+    "A000108",
+    "A086616",
     "A105633",
-    "A114851"
+    "A114851",
+    "A360102"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -2,7 +2,9 @@
   "description": "a(n) = 9^(2*n + 1).",
   "id": "A013714",
   "mentions": [
-    "A001019"
+    "A001019",
+    "A005408",
+    "A013778"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

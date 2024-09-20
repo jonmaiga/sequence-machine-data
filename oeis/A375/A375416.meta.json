@@ -1,0 +1,19 @@
+{
+  "description": "Number of order n magic triangles composed of the numbers from 1 to n^2 in which the sum of each 2 X 2 subtriangle is the same, counted up to rotations and reflections.",
+  "id": "A375416",
+  "mentions": [
+    "A006052",
+    "A342467",
+    "A355256"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

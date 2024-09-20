@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the apothem (inradius) of a regular heptagon with unit side length.",
+  "id": "A374971",
+  "mentions": [
+    "A010527",
+    "A020761",
+    "A020769",
+    "A073052",
+    "A174968",
+    "A178817",
+    "A178818",
+    "A179452",
+    "A343058",
+    "A374957",
+    "A374972",
+    "A375067",
+    "A375152",
+    "A375191",
+    "A375193"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

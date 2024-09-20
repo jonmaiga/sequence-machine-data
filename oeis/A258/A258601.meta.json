@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m such that A036967(m) = prime(n)^4.",
+  "description": "a(n) is the index m such that A036967(m) = prime(n)^4.",
   "id": "A258601",
   "mentions": [
     "A000040",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

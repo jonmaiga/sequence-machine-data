@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Fibonacci(n)^2 * Catalan(n).",
+  "id": "A373614",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A007598",
+    "A119694"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: Numerators of exponents of j-th root of the polynomial P(n,x) in A374385, and 1 if n is a power of 2, (numerators of exponents of roots in increasing order).",
+  "id": "A374412",
+  "mentions": [
+    "A023900",
+    "A173557",
+    "A204455",
+    "A374385"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

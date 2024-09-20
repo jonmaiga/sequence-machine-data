@@ -1,0 +1,18 @@
+{
+  "description": "Number of multiset permutations of {{1}^n, {2}^n, ..., {n}^n} with no fixed points.",
+  "id": "A375778",
+  "mentions": [
+    "A059841",
+    "A372307",
+    "A375693"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

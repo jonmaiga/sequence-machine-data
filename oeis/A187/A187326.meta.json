@@ -1,7 +1,9 @@
 {
-  "description": "Floor(n/4)+floor(n/2)+floor(3n/4).",
+  "description": "a(n) = floor(n/4) + floor(n/2) + floor(3n/4).",
   "id": "A187326",
-  "mentions": [],
+  "mentions": [
+    "A187333"
+  ],
   "tags": [
     "easy",
     "formulas",

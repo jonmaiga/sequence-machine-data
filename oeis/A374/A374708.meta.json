@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T read by rows: T(n,k) = (n - k)*n*(4*n^2 - 4*n*k + 2*k^2 - 1 + (-1)^k)/4, with 0 <= k < n.",
+  "id": "A374708",
+  "mentions": [
+    "A000583",
+    "A035287",
+    "A123865",
+    "A317614",
+    "A330613",
+    "A333119",
+    "A374668",
+    "A374709"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

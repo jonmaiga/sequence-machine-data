@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that 6k+1, 6k+5, 6k+7, 6k+11, 6k+13 and 6k+17 are prime.",
+  "id": "A374414",
+  "mentions": [
+    "A022008"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

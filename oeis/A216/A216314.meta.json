@@ -1,10 +1,12 @@
 {
-  "description": "G.f. satisfies: A(x) = (1 + x*A(x)) * (1 + 2*x*A(x)^2).",
+  "description": "G.f. satisfies A(x) = (1 + x*A(x)) * (1 + 2*x*A(x)^2).",
   "id": "A216314",
   "mentions": [
+    "A007863",
     "A028859",
     "A215654",
-    "A215661"
+    "A215661",
+    "A364374"
   ],
   "tags": [
     "formulas",

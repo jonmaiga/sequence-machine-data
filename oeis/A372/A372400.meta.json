@@ -1,0 +1,20 @@
+{
+  "description": "Position of 30^n among 5-smooth numbers A051037.",
+  "id": "A372400",
+  "mentions": [
+    "A002110",
+    "A051037",
+    "A143207",
+    "A202821",
+    "A372401",
+    "A372402"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

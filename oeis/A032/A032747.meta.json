@@ -1,15 +1,17 @@
 {
-  "description": "Super-7 Numbers (7 x n^7 contains substring '7777777' in its decimal expansion).",
+  "description": "Super-7 Numbers (7 * n^7 contains substring '7777777' in its decimal expansion).",
   "id": "A032747",
   "mentions": [
-    "A014569"
+    "A014569",
+    "A032743",
+    "A032749"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 25,
     "source": "joeis"
   }

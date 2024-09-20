@@ -1,0 +1,18 @@
+{
+  "description": "After initial 1, numbers k such that at least one of their divisors is a multiply-perfect number (A007691) larger than one.",
+  "id": "A374198",
+  "mentions": [
+    "A007691",
+    "A097603",
+    "A374196",
+    "A374197"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

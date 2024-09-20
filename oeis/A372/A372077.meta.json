@@ -1,0 +1,16 @@
+{
+  "description": "The sequence T_{3,2}(n,3).",
+  "id": "A372077",
+  "mentions": [
+    "A372076"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

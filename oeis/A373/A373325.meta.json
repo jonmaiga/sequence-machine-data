@@ -1,0 +1,17 @@
+{
+  "description": "Number of semi-infinite curves of the plane with n simple, transverse self-intersections and no other self-intersections, up to an orientation-preserving homeomorphism.",
+  "id": "A373325",
+  "mentions": [
+    "A000682",
+    "A268563"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f.: 1/(exp(x) - x^3/6).",
+  "description": "Expansion of e.g.f. 1/(exp(x) - x^3/6).",
   "id": "A352310",
   "mentions": [
     "A089148",

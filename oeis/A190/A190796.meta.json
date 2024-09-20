@@ -2,6 +2,8 @@
   "description": "Number of digits in the minimal base-phi representation of n.",
   "id": "A190796",
   "mentions": [
+    "A000032",
+    "A042948",
     "A055778",
     "A130600",
     "A133775"

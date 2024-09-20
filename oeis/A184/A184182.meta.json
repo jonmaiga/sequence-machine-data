@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} whose longest block is of length k (0<=k<=n). A block of a permutation is a maximal sequence of consecutive integers which appear in consecutive positions. For example, the permutation 5412367 has 4 blocks: 5, 4, 123, and 67. Its longest block has length 3.",
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} whose longest block is of length k (0<=k<=n).",
   "id": "A184182",
   "mentions": [
     "A000007",

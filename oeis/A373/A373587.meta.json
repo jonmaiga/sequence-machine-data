@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A373149(k) is odd, where A373149 is fully additive with a(2) = 1 and a(p) = prevprime(p) for odd primes p.",
+  "id": "A373587",
+  "mentions": [
+    "A001222",
+    "A007949",
+    "A373149",
+    "A373585",
+    "A373586"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

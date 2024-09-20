@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonaligned trivalent dissections of a rectangle into n rectangles.",
+  "id": "A375132",
+  "mentions": [
+    "A049021",
+    "A340984",
+    "A342141",
+    "A375129",
+    "A375130",
+    "A375131"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

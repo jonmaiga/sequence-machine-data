@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k), n >=1, 0 <= k <= C(n,k), = number of n X n symmetric positive definite matrices with 2's on the main diagonal and 1's and 0's elsewhere and with w 1's above the diagonal.",
+  "description": "Triangle read by rows: T(n,k), n >=1, 0 <= k <= C(n,k), = number of n X n symmetric positive definite matrices with 2's on the main diagonal and 1's and 0's elsewhere and with k 1's above the diagonal.",
   "id": "A080858",
   "mentions": [
     "A085656",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 92,
     "source": "oeis-entry"
   }
 }

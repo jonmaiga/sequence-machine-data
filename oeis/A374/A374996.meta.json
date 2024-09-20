@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) is the total cost when the elements of the k-th composition (in standard order) are requested from a self-organizing list initialized to (1, 2, 3, ...), using the move-ahead(n) updating strategy; n, k >= 0.",
+  "id": "A374996",
+  "mentions": [
+    "A000120",
+    "A025480",
+    "A029837",
+    "A333766",
+    "A357625",
+    "A374992",
+    "A374993",
+    "A375001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

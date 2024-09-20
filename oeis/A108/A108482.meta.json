@@ -1,7 +1,10 @@
 {
   "description": "Expansion of a modular function for Gamma(7).",
   "id": "A108482",
-  "mentions": [],
+  "mentions": [
+    "A375106",
+    "A375107"
+  ],
   "tags": [
     "formulas",
     "sign"

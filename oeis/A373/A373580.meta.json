@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k that divide 2^(2^k) - 2^k + 1.",
+  "id": "A373580",
+  "mentions": [
+    "A023394",
+    "A119564",
+    "A307843"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

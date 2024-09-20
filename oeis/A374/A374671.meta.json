@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers k such that k! and (k+1)! have an equal number of infinitary divisors.",
+  "id": "A374671",
+  "mentions": [
+    "A037445",
+    "A064547",
+    "A177329",
+    "A343819",
+    "A374672",
+    "A374673",
+    "A374674"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

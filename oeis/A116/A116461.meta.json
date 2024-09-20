@@ -1,10 +1,9 @@
 {
-  "description": "Numbers n such that the minimal length of the corresponding shortest addition chain A003313(n) = A003313(6*n).",
+  "description": "Numbers k such that A003313(k) = A003313(6*k).",
   "id": "A116461",
   "mentions": [
     "A003313",
     "A086878",
-    "A104669",
     "A104699",
     "A115016",
     "A116459",

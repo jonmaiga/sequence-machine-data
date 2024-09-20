@@ -1,5 +1,5 @@
 {
-  "description": "Positions of the incrementally largest terms in the continued fraction expansion of zeta(3), using the indexing of this continued fraction as given in A013631.",
+  "description": "Positions of the incrementally largest terms in the continued fraction expansion of zeta(3), offset 1 variant.",
   "id": "A033167",
   "mentions": [
     "A000023",
@@ -9,7 +9,6 @@
     "A229055"
   ],
   "tags": [
-    "cofr",
     "more",
     "nonn"
   ],

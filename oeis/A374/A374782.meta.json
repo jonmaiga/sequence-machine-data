@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n that do not have a fixed point that is also a fixed point of the conjugate partition.",
+  "id": "A374782",
+  "mentions": [
+    "A000041",
+    "A064428",
+    "A114701",
+    "A188674",
+    "A352828"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct parts such that number of parts is a multiples of 4.",
+  "id": "A372703",
+  "mentions": [
+    "A000009",
+    "A067661",
+    "A363046",
+    "A370747",
+    "A373078"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

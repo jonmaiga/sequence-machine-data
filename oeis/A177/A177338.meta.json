@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k)=2^(n-tau(k)) mod n, where tau(.) is the number of divisors of its argument.",
+  "description": "Triangle read by rows: T(n,k) = 2^(n-tau(k)) mod n, where tau(.) is the number of divisors of its argument.",
   "id": "A177338",
   "mentions": [
     "A000005",

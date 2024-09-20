@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of digits of decimal expansion of Khintchine's constant (sequence A002210).",
+  "description": "Partial sums of digits of decimal expansion of Khinchin's constant (sequence A002210).",
   "id": "A175819",
   "mentions": [
     "A002210"

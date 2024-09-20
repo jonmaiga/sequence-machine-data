@@ -1,0 +1,18 @@
+{
+  "description": "Areas of alternating equilateral and non-equilateral triangles that make up a three-leaf tiling over a regular triangular grid.",
+  "id": "A372477",
+  "mentions": [
+    "A001859",
+    "A003136",
+    "A372498"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

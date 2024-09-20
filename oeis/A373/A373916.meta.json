@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the determinant of real {0,1}-matrices of order 10, but not of symmetric such matrices.",
+  "id": "A373916",
+  "mentions": [
+    "A003432",
+    "A006125",
+    "A013588",
+    "A089472",
+    "A108150",
+    "A118985",
+    "A373915"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

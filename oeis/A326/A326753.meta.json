@@ -26,11 +26,13 @@
     "A326754"
   ],
   "tags": [
+    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

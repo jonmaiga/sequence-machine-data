@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of largest real root of e^x = Gamma(x+1).",
   "id": "A078335",
-  "mentions": [],
+  "mentions": [
+    "A330380"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "Record values in A032662.",
+  "id": "A376006",
+  "mentions": [
+    "A032662",
+    "A376002"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Conjectured list of positive numbers n such that the Collatz-like map T: if x > 1 and x odd, x -> 5*x+1 and, if x even, x -> x/2, when started at n, eventually reaches a cycle that does not contain 1 (cf. A232711).",
+  "description": "Conjectured list of positive numbers k such that the Collatz-like map T: if x > 1 and x odd, x -> 5*x+1 and, if x even, x -> x/2, when started at k, eventually reaches a cycle that does not contain 1 (cf. A232711).",
   "id": "A267969",
   "mentions": [
     "A232711",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

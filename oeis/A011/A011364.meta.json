@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 20th root of 15.",
   "id": "A011364",
-  "mentions": [],
+  "mentions": [
+    "A011214",
+    "A351217"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

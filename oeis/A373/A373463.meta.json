@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/((1 + x)^5 - 2*x^5).",
+  "id": "A373463",
+  "mentions": [
+    "A000750",
+    "A108369",
+    "A375163"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Muder's 1993 lower bound for the volume of any Voronoi polyhedron defined by a packing of unit spheres in the Euclidean 3-space.",
+  "id": "A374955",
+  "mentions": [
+    "A374753",
+    "A374771",
+    "A374956"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

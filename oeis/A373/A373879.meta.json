@@ -1,0 +1,16 @@
+{
+  "description": "Composite numbers not factorizable using the Pollard-rho algorithm with parameters x=2,y=2 and f(x)=x^2-1.",
+  "id": "A373879",
+  "mentions": [
+    "A002808",
+    "A335792"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

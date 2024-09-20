@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that gcd(n, numerator(B(2n))) is not squarefree where B(2n) are the Bernoulli numbers.",
+  "description": "Numbers k such that gcd(k, numerator(B(2*k))) is not squarefree where B(2*k) are the Bernoulli numbers.",
   "id": "A067778",
   "mentions": [
+    "A013929",
+    "A027641",
+    "A027642",
     "A097704"
   ],
   "tags": [
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

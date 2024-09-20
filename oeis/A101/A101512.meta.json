@@ -1,5 +1,5 @@
 {
-  "description": "Decimal representation of the SinIntegral(2Pi).",
+  "description": "Decimal expansion of the sine integral at 2*Pi.",
   "id": "A101512",
   "mentions": [
     "A019669",

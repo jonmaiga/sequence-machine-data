@@ -1,17 +1,18 @@
 {
-  "description": "Numbers n such that the sum of the first n odd composites is palindromic in base 3.",
+  "description": "Numbers k such that the sum of the first k odd composites is palindromic in base 3.",
   "id": "A118129",
   "mentions": [
     "A058848"
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

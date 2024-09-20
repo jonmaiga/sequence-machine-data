@@ -2,16 +2,18 @@
   "description": "Triangular array T(n,k) read by rows, giving number of labeled free trees such that the root is smaller than all its children, with respect to the number n of vertices and to the number k of decreasing edges.",
   "id": "A071208",
   "mentions": [
+    "A000142",
     "A000312"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 2,
-    "size": 39,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

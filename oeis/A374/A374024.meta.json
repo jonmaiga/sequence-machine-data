@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that digsum(k) = digsum(k^2) = p, where p is prime and digsum(i) = A007953(i).",
+  "id": "A374024",
+  "mentions": [
+    "A007953",
+    "A058369",
+    "A061237",
+    "A067272",
+    "A254066"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

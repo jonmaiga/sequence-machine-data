@@ -1,5 +1,5 @@
 {
-  "description": "Square root of largest unitary square divisor of n!.",
+  "description": "a(n) = A056622(n!).",
   "id": "A056627",
   "mentions": [
     "A000188",
@@ -8,7 +8,9 @@
     "A055230",
     "A055772",
     "A056622",
-    "A056623"
+    "A056623",
+    "A056628",
+    "A374989"
   ],
   "tags": [
     "formulas",

@@ -1,7 +1,10 @@
 {
   "description": "Strong pseudoprimes to base 35.",
   "id": "A020261",
-  "mentions": [],
+  "mentions": [
+    "A001262",
+    "A007814"
+  ],
   "tags": [
     "nonn"
   ],

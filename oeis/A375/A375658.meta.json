@@ -1,0 +1,20 @@
+{
+  "description": "The smallest triangular number that begins a run of at least n consecutive triangular numbers with the same number of distinct prime factors.",
+  "id": "A375658",
+  "mentions": [
+    "A000217",
+    "A069903",
+    "A076551",
+    "A375657"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

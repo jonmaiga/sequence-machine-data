@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of zeta'(2)/(2*Pi^2) + zeta(3)/(4*Pi^2) + log(2*Pi)/12 -gamma/12.",
+  "id": "A375369",
+  "mentions": [
+    "A001620",
+    "A073002",
+    "A375368"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

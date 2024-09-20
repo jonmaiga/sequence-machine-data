@@ -2,9 +2,11 @@
   "description": "Number of integer points (x, y, z, w) at distance <= 1/2 from 3-sphere of radius n.",
   "id": "A350740",
   "mentions": [
-    "A016728"
+    "A016728",
+    "A046895"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

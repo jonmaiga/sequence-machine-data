@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer compositions of n whose leaders of strictly increasing runs sum to k.",
+  "id": "A374700",
+  "mentions": [
+    "A000041",
+    "A003242",
+    "A011782",
+    "A096765",
+    "A106356",
+    "A124766",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A261982",
+    "A274174",
+    "A333213",
+    "A333755",
+    "A335548",
+    "A373949",
+    "A374249",
+    "A374251",
+    "A374253",
+    "A374521",
+    "A374629",
+    "A374637",
+    "A374683",
+    "A374684",
+    "A374702",
+    "A374703",
+    "A374705",
+    "A374748",
+    "A374766"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

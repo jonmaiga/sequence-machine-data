@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,k) (1 <= k <= n) read by rows: T(n,k) = c_n * F(k)/F(k+2) where c_n = LCM of F(3), F(4), ... F(n+2) (and F() are the Fibonacci numbers).",
+  "id": "A374667",
+  "mentions": [
+    "A000045",
+    "A035105"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

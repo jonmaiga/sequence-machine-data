@@ -2,6 +2,8 @@
   "description": "Pseudo-random numbers: a (very weak) pseudo-random number generator from the second edition of the C book.",
   "id": "A061364",
   "mentions": [
+    "A096553",
+    "A096554",
     "A096558",
     "A221555",
     "A221556",
@@ -15,6 +17,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

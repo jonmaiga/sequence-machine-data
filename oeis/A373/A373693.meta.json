@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least number k such that the number whose base-b representation is the same as the decimal representation of k is prime for the first n possible bases b, but not for the next possible base.",
+  "id": "A373693",
+  "mentions": [],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

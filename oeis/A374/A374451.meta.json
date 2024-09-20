@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k), n > 1, k = 1..n-1, read by rows; T(n, k) is the least prime number p such that the p-adic valuations of n and k differ.",
+  "id": "A374451",
+  "mentions": [
+    "A020639",
+    "A374369"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

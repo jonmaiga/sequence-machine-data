@@ -1,7 +1,9 @@
 {
   "description": "Powers of fifth root of 10 rounded to nearest integer.",
   "id": "A018142",
-  "mentions": [],
+  "mentions": [
+    "A011095"
+  ],
   "tags": [
     "easy",
     "formulas",

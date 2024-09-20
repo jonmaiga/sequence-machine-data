@@ -1,7 +1,10 @@
 {
   "description": "Powers of fifth root of 10 rounded up.",
   "id": "A018143",
-  "mentions": [],
+  "mentions": [
+    "A018141",
+    "A018142"
+  ],
   "tags": [
     "nonn"
   ],

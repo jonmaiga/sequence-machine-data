@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. -LambertW(-3*x / (1 - x))/3.",
+  "id": "A376099",
+  "mentions": [
+    "A052871",
+    "A376098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

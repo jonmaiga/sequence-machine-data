@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a[n/4] + a[n/8] + a[n/16] + ..., where a(0) = 0, a(1) = 1, and [ ] = floor.",
+  "id": "A373095",
+  "mentions": [
+    "A000045",
+    "A005187",
+    "A072376",
+    "A373096",
+    "A373097"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

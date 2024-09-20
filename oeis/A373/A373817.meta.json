@@ -1,0 +1,36 @@
+{
+  "description": "Positions of terms > 1 in the run-lengths of the first differences of the odd primes.",
+  "id": "A373817",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A006560",
+    "A006562",
+    "A027833",
+    "A029707",
+    "A031217",
+    "A037201",
+    "A038664",
+    "A046933",
+    "A064113",
+    "A065855",
+    "A069010",
+    "A071148",
+    "A073051",
+    "A089180",
+    "A251092",
+    "A333214",
+    "A333254",
+    "A335406",
+    "A373820",
+    "A373821"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

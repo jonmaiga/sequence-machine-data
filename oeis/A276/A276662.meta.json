@@ -1,9 +1,10 @@
 {
-  "description": "Home primes (A037274) for the odd composite numbers (A071904) (a(n) = -1 if no prime is ever reached).",
+  "description": "Iterative procedure in A316941 applied to the odd composite numbers (A071904) (a(n) = -1 if no prime is ever reached).",
   "id": "A276662",
   "mentions": [
     "A037274",
-    "A071904"
+    "A071904",
+    "A316941"
   ],
   "tags": [
     "base",

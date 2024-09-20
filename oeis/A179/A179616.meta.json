@@ -2,12 +2,6 @@
   "description": "Continued fraction for 5^(1/4).",
   "id": "A179616",
   "mentions": [
-    "A001076",
-    "A001203",
-    "A001204",
-    "A002945",
-    "A010767",
-    "A011002",
     "A011003",
     "A179613",
     "A179615"
@@ -17,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 99,
     "source": "joeis"
   }

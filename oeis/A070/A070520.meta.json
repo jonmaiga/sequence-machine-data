@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers of form p=Cyclotomic[n,n].",
+  "description": "Prime numbers of form p=Cyclotomic(n,n).",
   "id": "A070520",
   "mentions": [
     "A070518",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 11,
+    "source": "joeis"
   }
 }

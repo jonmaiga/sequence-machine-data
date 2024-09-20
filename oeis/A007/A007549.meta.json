@@ -2,13 +2,17 @@
   "description": "Number of increasing rooted connected graphs where every block is a complete graph.",
   "id": "A007549",
   "mentions": [
+    "A000523",
     "A003633",
     "A007563",
     "A029768",
     "A030019",
     "A035051",
     "A035053",
-    "A073003"
+    "A053645",
+    "A073003",
+    "A078341",
+    "A264436"
   ],
   "tags": [
     "eigen",

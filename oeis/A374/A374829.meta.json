@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 5*(5 - 3*A136141)/36.",
+  "id": "A374829",
+  "mentions": [
+    "A005596",
+    "A136141",
+    "A374830"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

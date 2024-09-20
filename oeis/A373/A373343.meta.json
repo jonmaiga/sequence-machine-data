@@ -1,0 +1,22 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) is the number of cyclic de Bruijn sequences of order k and alphabet of size n, with k > 0.",
+  "id": "A373343",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A003992",
+    "A016031",
+    "A373341",
+    "A373344"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

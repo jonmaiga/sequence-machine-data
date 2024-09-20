@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that the rank of the elliptic curve y^2 = x^3 - x + k^2 is n, or -1 if no such k exists.",
+  "id": "A374926",
+  "mentions": [
+    "A194687",
+    "A309060",
+    "A309068",
+    "A309069"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

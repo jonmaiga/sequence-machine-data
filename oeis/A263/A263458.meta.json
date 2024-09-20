@@ -2,7 +2,9 @@
   "description": "Deal a pack of n cards into two piles and gather them up, n/2 times. All n such that this reverses the order of the deck.",
   "id": "A263458",
   "mentions": [
-    "A003628"
+    "A003628",
+    "A323712",
+    "A373416"
   ],
   "tags": [
     "nonn"

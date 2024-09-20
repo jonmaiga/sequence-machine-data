@@ -2,6 +2,7 @@
   "description": "Numbers n whose digits satisfy the following Diophantine equation: P = (X1* ... *Xr)/(X1+ ... +Xr), where P = prime number, Xi = digits of n.",
   "id": "A138566",
   "mentions": [
+    "A038367",
     "A137923"
   ],
   "tags": [

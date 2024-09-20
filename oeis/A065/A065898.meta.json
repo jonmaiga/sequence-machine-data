@@ -1,17 +1,19 @@
 {
-  "description": "Which composite number is the product of first n primes (the n-th primorial number)?",
+  "description": "Which composite number is the product of first n primes (the n-th primorial number)?: a(n) = k such that A002808(k) = A002110(n), or 0 if A002110(n) is not composite.",
   "id": "A065898",
   "mentions": [
     "A000720",
+    "A000849",
     "A002110",
     "A002808"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

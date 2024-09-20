@@ -1,14 +1,18 @@
 {
-  "description": "n^3 + n-th prime.",
+  "description": "a(n) = n^3 + prime(n).",
   "id": "A089620",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000578"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

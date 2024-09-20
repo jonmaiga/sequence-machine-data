@@ -1,8 +1,9 @@
 {
-  "description": "Numerators of convergents to cube root of 7.",
+  "description": "Numerators of continued fraction convergents to cube root of 7.",
   "id": "A005484",
   "mentions": [
     "A005482",
+    "A005483",
     "A005485"
   ],
   "tags": [
@@ -10,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 28,
     "source": "oeis-bfile"
   }

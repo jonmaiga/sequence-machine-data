@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(m,k) is the first number that starts a sequence of exactly k consecutive numbers with m prime factors, counted with multiplicity, if such a sequence is possible.",
+  "id": "A374449",
+  "mentions": [
+    "A000079",
+    "A113752",
+    "A115186",
+    "A117969"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(n)=1 iff binary weight of n-th prime is odd.",
   "id": "A200246",
   "mentions": [
+    "A010060",
     "A027698",
     "A200244"
   ],

@@ -2,12 +2,14 @@
   "description": "Number of permutations of n > 1 having exactly 2 points on the boundary of their bounding square.",
   "id": "A208529",
   "mentions": [
+    "A000142",
     "A052849",
     "A098558",
     "A098916",
     "A208528"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"

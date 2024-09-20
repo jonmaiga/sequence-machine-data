@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n - floor(k/2), ceiling(k/2)) - binomial(n - ceiling(k/2), floor(k/2)).",
+  "id": "A374441",
+  "mentions": [
+    "A000071",
+    "A007318",
+    "A011973",
+    "A053119",
+    "A065941",
+    "A103631",
+    "A162515",
+    "A194005",
+    "A374440"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

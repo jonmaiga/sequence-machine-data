@@ -1,8 +1,9 @@
 {
-  "description": "A000720 applied to Pascal-triangle as follows: C(Pi[n],Pi[j])], j,0..n and n=0,1,2,...",
+  "description": "A000720 applied to Pascal-triangle as follows: C(pi(n),pi(j)), j=0..n and n=0,1,2,...",
   "id": "A081418",
   "mentions": [
     "A000720",
+    "A007318",
     "A081417"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 99,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

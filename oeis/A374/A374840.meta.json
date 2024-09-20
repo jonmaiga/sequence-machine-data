@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the greatest m > 0 such that the n-th row of Pascal's triangle (A007318) contains a multiple of k for k = 1..m.",
+  "id": "A374840",
+  "mentions": [
+    "A006093",
+    "A007318",
+    "A249151"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

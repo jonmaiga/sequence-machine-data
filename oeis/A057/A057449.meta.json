@@ -2,7 +2,7 @@
   "description": "Product of differences between consecutive positive divisors of n.",
   "id": "A057449",
   "mentions": [
-    "A001221",
+    "A000005",
     "A027750",
     "A193829"
   ],

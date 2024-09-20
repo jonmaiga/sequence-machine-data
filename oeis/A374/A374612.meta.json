@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n for n <= 3; for n > 3, a(n) is the smallest unused positive number that is coprime to a(n-1) but has a common factor with any other previous term that is also coprime to a(n-1).",
+  "id": "A374612",
+  "mentions": [
+    "A064413",
+    "A089088",
+    "A098550",
+    "A247942",
+    "A373390",
+    "A373998"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

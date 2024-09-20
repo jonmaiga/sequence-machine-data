@@ -1,5 +1,5 @@
 {
-  "description": "Product_{k=0..n} (k^5+1).",
+  "description": "Product_{k=0..n} (k^5 + 1).",
   "id": "A255435",
   "mentions": [
     "A101686",

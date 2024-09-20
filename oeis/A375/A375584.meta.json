@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = digit produced when the Michael Damm error-detecting algorithm is applied to n.",
+  "id": "A375584",
+  "mentions": [
+    "A093018",
+    "A374967"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Smallest number whose eighth power has at least n digits.",
   "id": "A130082",
   "mentions": [
+    "A011277",
     "A011557",
     "A017936",
     "A018005",

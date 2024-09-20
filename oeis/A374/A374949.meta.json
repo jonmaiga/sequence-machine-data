@@ -1,0 +1,25 @@
+{
+  "description": "Michael Kwok's arithmetic progression of 27 primes.",
+  "id": "A374949",
+  "mentions": [
+    "A033188",
+    "A033290",
+    "A204189",
+    "A260751",
+    "A261140",
+    "A327760",
+    "A363980"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

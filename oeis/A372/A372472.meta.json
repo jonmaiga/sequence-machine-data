@@ -34,7 +34,8 @@
     "A372474",
     "A372475",
     "A372515",
-    "A372516"
+    "A372516",
+    "A372583"
   ],
   "tags": [
     "base",
@@ -44,6 +45,6 @@
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

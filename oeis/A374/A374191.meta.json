@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n) is a permutation of [0, 1, 2, ..., n] subject to an extended Sigrist condition (A280864).",
+  "id": "A374191",
+  "mentions": [
+    "A280864",
+    "A280866",
+    "A375029",
+    "A375030"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

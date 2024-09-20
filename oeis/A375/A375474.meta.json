@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k is the area of a rational isosceles triangle.",
+  "id": "A375474",
+  "mentions": [
+    "A000290",
+    "A375017"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k and A327860(k) are both multiples of 3, where A327860 is the arithmetic derivative of the primorial base exp-function.",
+  "id": "A373599",
+  "mentions": [
+    "A008585",
+    "A008600",
+    "A049345",
+    "A276086",
+    "A327860",
+    "A328110",
+    "A329041",
+    "A351083",
+    "A369654",
+    "A373144",
+    "A373598"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

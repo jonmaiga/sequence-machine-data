@@ -1,5 +1,5 @@
 {
-  "description": "Array T, read by descending diagonals: T(n, k) = k*(2*n + k + 1)/2 for n, k >= 0.",
+  "description": "Array T, read by descending antidiagonals: T(n, k) = k*(2*n + k + 1)/2 for n, k >= 0.",
   "id": "A049780",
   "mentions": [
     "A000217",

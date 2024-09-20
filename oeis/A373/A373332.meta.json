@@ -1,0 +1,20 @@
+{
+  "description": "Y-coordinates of the lower envelope of A373330.",
+  "id": "A373332",
+  "mentions": [
+    "A002315",
+    "A373330",
+    "A373331",
+    "A373333",
+    "A374175"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

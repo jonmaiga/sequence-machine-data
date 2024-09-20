@@ -2,6 +2,7 @@
   "description": "Odd numbers with exactly 4 palindromic prime factors (counted with multiplicity).",
   "id": "A046374",
   "mentions": [
+    "A033620",
     "A046317",
     "A046406"
   ],
@@ -10,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 45,
     "source": "joeis"
   }

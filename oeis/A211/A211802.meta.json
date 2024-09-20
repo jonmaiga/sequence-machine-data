@@ -1,5 +1,5 @@
 {
-  "description": "R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and 2*w^k < x^k + y^k; square array read by descending diagonals.",
+  "description": "R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and 2*w^k < x^k + y^k; square array read by descending antidiagonals.",
   "id": "A211802",
   "mentions": [
     "A016061",

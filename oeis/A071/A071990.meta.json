@@ -1,14 +1,17 @@
 {
   "description": "Numerators of the partial sums of the reciprocals of the upper members of twin prime pairs.",
   "id": "A071990",
-  "mentions": [],
+  "mentions": [
+    "A006512"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 5,
-    "size": 14,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
   }
 }

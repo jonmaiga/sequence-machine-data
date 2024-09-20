@@ -1,0 +1,19 @@
+{
+  "description": "Least prime starting a run of n consecutive primes p_i, i=1..n, such that p_i + 1 is squarefree and p_(n+1) + 1 is not squarefree.",
+  "id": "A373618",
+  "mentions": [
+    "A005117",
+    "A072875",
+    "A086560",
+    "A369097"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

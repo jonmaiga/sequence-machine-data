@@ -1,0 +1,22 @@
+{
+  "description": "Antidiagonal products of A319840.",
+  "id": "A370753",
+  "mentions": [
+    "A000079",
+    "A000169",
+    "A000290",
+    "A008851",
+    "A016791",
+    "A047206",
+    "A319840"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

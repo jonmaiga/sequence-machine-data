@@ -2,6 +2,7 @@
   "description": "Number of different values taken by the determinant of a symmetric real (+1,-1)-matrix of order n.",
   "id": "A118987",
   "mentions": [
+    "A006125",
     "A089472",
     "A118985",
     "A118988"
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

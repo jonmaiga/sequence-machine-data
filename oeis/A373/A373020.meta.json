@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} |sin(k*Pi/6)|/2^k.",
+  "id": "A373020",
+  "mentions": [
+    "A373019"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

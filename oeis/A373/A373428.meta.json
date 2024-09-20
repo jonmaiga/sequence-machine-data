@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: Coefficients of the polynomials S2(n, x) * EZ(n, x), where S2 denote the Stirling set polynomials and EZ the Eulerian zig-zag polynomials A205497.",
+  "id": "A373428",
+  "mentions": [
+    "A048993",
+    "A205497",
+    "A320956",
+    "A373432"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

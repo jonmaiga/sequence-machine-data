@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m such that A008949(m,k) = n for some k.",
+  "id": "A375570",
+  "mentions": [
+    "A008949",
+    "A058084",
+    "A375571",
+    "A375572",
+    "A375573"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

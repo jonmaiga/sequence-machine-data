@@ -2,7 +2,6 @@
   "description": "Run lengths of 2 or more consecutive primes of the form 4k+3.",
   "id": "A145992",
   "mentions": [
-    "A039072",
     "A039702",
     "A055623",
     "A145986",

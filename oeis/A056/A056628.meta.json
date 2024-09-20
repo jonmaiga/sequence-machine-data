@@ -1,5 +1,5 @@
 {
-  "description": "Largest unitary square divisor of n!.",
+  "description": "a(n) = A056623(n!).",
   "id": "A056628",
   "mentions": [
     "A000188",
@@ -8,7 +8,9 @@
     "A055229",
     "A055230",
     "A055772",
-    "A056623"
+    "A056623",
+    "A056627",
+    "A374988"
   ],
   "tags": [
     "formulas",

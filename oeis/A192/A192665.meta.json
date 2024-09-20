@@ -1,5 +1,5 @@
 {
-  "description": "Floor-Sqrt transform of the numbers bin(3*n,n)/(2*n+1) (A001764).",
+  "description": "Floor-Sqrt transform of the numbers binomial(3*n,n)/(2*n+1) (A001764).",
   "id": "A192665",
   "mentions": [
     "A001764"

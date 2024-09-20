@@ -3,15 +3,17 @@
   "id": "A237500",
   "mentions": [
     "A237501",
-    "A237502"
+    "A237502",
+    "A241208",
+    "A241210",
+    "A241211"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

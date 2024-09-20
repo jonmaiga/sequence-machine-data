@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n if k = 0, otherwise n - k*floor(n/k). The binary modulo operation.",
+  "id": "A372727",
+  "mentions": [
+    "A048158",
+    "A111490"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

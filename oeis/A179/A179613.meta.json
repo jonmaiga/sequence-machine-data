@@ -2,17 +2,15 @@
   "description": "Continued fraction for 2^(1/4).",
   "id": "A179613",
   "mentions": [
-    "A001076",
-    "A001203",
-    "A001204",
-    "A002945"
+    "A002945",
+    "A010767"
   ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 100,
     "source": "joeis"
   }

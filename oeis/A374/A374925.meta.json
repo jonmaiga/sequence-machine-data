@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-color compositions of n having at least one pair of adjacent parts that are the same color.",
+  "id": "A374925",
+  "mentions": [
+    "A003242",
+    "A088305",
+    "A242551",
+    "A330774",
+    "A374727",
+    "A374728"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

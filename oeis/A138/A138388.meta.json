@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of unlabelled graphs with n vertices and 3 unicyclic components.",
+  "description": "Numbers of unlabeled graphs with n vertices and 3 unicyclic components.",
   "id": "A138388",
   "mentions": [
     "A001429",

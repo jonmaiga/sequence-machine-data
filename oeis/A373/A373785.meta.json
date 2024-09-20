@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the area of the Spiral of Theodorus.",
+  "id": "A373785",
+  "mentions": [
+    "A072895"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

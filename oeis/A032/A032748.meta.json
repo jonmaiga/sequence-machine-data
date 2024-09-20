@@ -2,14 +2,16 @@
   "description": "Super-8 Numbers (8 * n^8 contains substring '88888888' in its decimal expansion).",
   "id": "A032748",
   "mentions": [
-    "A014569"
+    "A014569",
+    "A032743",
+    "A032749"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 22,
     "source": "oeis-entry"
   }

@@ -2,8 +2,11 @@
   "description": "Second prime factor, if it exists, of Mersenne numbers.",
   "id": "A089158",
   "mentions": [
+    "A001348",
     "A016047",
+    "A065341",
     "A089159",
+    "A089992",
     "A135978"
   ],
   "tags": [
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

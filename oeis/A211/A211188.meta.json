@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of distinct prime divisors among the all composites of the form k^2 + 1 between the two primes A002496(n) and A002496(n+1).",
+  "description": "a(n) is the number of distinct prime divisors among all the composites of the form k^2 + 1 between the two primes A002496(n) and A002496(n+1).",
   "id": "A211188",
   "mentions": [
     "A002144",

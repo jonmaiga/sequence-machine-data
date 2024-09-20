@@ -1,0 +1,34 @@
+{
+  "description": "Number of integer compositions of 2n whose leaders of weakly decreasing runs sum to n. Center n = 2*k of the triangle A374748.",
+  "id": "A374703",
+  "mentions": [
+    "A000041",
+    "A003242",
+    "A004526",
+    "A011782",
+    "A106356",
+    "A124766",
+    "A188900",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A261982",
+    "A274174",
+    "A333213",
+    "A333755",
+    "A364910",
+    "A374249",
+    "A374629",
+    "A374700",
+    "A374748"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

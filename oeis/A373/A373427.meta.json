@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: Coefficients of the polynomials SC(n, x) * EZ(n, x), where SC denote the Stirling cycle polynomials and EZ the Eulerian zig-zag polynomials A205497.",
+  "id": "A373427",
+  "mentions": [
+    "A132393",
+    "A205497",
+    "A373428",
+    "A373429",
+    "A373432",
+    "A373433"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

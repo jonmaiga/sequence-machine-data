@@ -1,0 +1,20 @@
+{
+  "description": "Integers that are not perfect fifth powers.",
+  "id": "A373868",
+  "mentions": [
+    "A000037",
+    "A000583",
+    "A000584",
+    "A007412",
+    "A140823"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

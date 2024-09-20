@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k=0..n} (k^7 + n).",
+  "id": "A375844",
+  "mentions": [
+    "A375839",
+    "A375840",
+    "A375841",
+    "A375842",
+    "A375843",
+    "A375845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "joeis"
+  }
+}

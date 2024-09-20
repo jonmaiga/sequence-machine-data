@@ -1,0 +1,15 @@
+{
+  "description": "Number of permutations of {1...n} P such that P <= R, lexicographically, for all R that is a root of P (i.e., R^k = P for some k).",
+  "id": "A373768",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

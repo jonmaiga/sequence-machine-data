@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(2)=5, and a(n)=6 for n>=3.",
+  "description": "a(1)=1, a(2)=5, and a(n)=6 for n >= 3.",
   "id": "A101101",
   "mentions": [
     "A000537",

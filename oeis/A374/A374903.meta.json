@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of the mean number of divisors of the divisors of n.",
+  "id": "A374903",
+  "mentions": [
+    "A374902",
+    "A374904",
+    "A374905"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

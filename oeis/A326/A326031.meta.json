@@ -17,12 +17,13 @@
     "A326704"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 88,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

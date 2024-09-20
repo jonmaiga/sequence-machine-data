@@ -2,6 +2,7 @@
   "description": "a(n) is the integer part of the geometric mean of n! and n^n.",
   "id": "A062871",
   "mentions": [
+    "A061711",
     "A062872"
   ],
   "tags": [

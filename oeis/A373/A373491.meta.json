@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if A059975(n) and A083345(n) are both multiples of 3, otherwise 0, where A059975 is fully additive with a(p) = p-1, and A083345 is the numerator of the fully additive function with a(p) = 1/p.",
+  "id": "A373491",
+  "mentions": [
+    "A059975",
+    "A083345",
+    "A373377",
+    "A373492",
+    "A373493"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

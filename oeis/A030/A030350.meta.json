@@ -5,11 +5,12 @@
     "A030341"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 89,
-    "source": "joeis"
+    "size": 90,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Paradiddle Thue-Morse.",
+  "id": "A374646",
+  "mentions": [
+    "A010059",
+    "A010060",
+    "A130198",
+    "A374724"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

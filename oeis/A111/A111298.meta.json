@@ -1,5 +1,5 @@
 {
-  "description": "Add the digits of the first number to give the second; the first number multiplied by the second gives the third. The third number becomes the first in a new \"set\" of three.",
+  "description": "Begin with first number 15. Add the digits of the first number to give the second; the first number multiplied by the second gives the third. The third number becomes the first in a new \"set\" of three.",
   "id": "A111298",
   "mentions": [],
   "tags": [

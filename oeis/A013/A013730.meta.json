@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(3n+1).",
+  "description": "a(n) = 2^(3*n+1).",
   "id": "A013730",
   "mentions": [
     "A013731",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

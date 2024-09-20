@@ -1,0 +1,20 @@
+{
+  "description": "In the binary expansion of n, expand bits 1 -> 01 and 0 -> 10.",
+  "id": "A374625",
+  "mentions": [
+    "A030101",
+    "A115637",
+    "A179888"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

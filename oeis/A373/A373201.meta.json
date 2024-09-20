@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest number m > 0 such that n followed by m 9's yields a prime, or -1 if no such m exists.",
+  "id": "A373201",
+  "mentions": [
+    "A069568",
+    "A090465",
+    "A363922",
+    "A372262"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

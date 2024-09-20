@@ -1,11 +1,12 @@
 {
-  "description": "10*3^n.",
+  "description": "a(n) = 10*3^n.",
   "id": "A005052",
   "mentions": [
     "A062107"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

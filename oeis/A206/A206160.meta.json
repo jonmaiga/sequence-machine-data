@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the Fresnel Integral int_{x=0..infinity} x*sin(x^3) dx",
+  "description": "Decimal expansion of the Fresnel integral Integral_{x=0..oo} x*sin(x^3) dx.",
   "id": "A206160",
   "mentions": [
     "A002194",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

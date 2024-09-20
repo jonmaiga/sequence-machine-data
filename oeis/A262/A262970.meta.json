@@ -1,7 +1,9 @@
 {
   "description": "Total cycle length of all iteration trajectories of all elements of random mappings from [n] to [n].",
   "id": "A262970",
-  "mentions": [],
+  "mentions": [
+    "A036360"
+  ],
   "tags": [
     "formulas",
     "nonn"

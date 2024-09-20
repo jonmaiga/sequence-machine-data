@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 1/(exp(x)*(2-exp(x))).",
+  "description": "Expansion of e.g.f.: 1/(exp(x)*(2-exp(x))).",
   "id": "A052841",
   "mentions": [
     "A000126",
@@ -18,7 +18,9 @@
     "A169985",
     "A173018",
     "A187784",
-    "A324011"
+    "A324011",
+    "A344037",
+    "A346208"
   ],
   "tags": [
     "easy",

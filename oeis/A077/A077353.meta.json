@@ -2,12 +2,15 @@
   "description": "a(n) = (concatenation in ascending order of divisors of 5^n)/5^n.",
   "id": "A077353",
   "mentions": [
+    "A000351",
+    "A055642",
     "A069872",
     "A077351",
     "A077352"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the largest number k such that usigma(k) divides n where usigma(k) is the sum of unitary divisors of k (A034448).",
+  "id": "A375228",
+  "mentions": [
+    "A034448",
+    "A319068"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

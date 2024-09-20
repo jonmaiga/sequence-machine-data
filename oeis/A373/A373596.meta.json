@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 if n is a non-multiple of 3 whose multiplicies of prime factors of types 3m-1 and 3m+1 are both multiples of 3, otherwise 0.",
+  "id": "A373596",
+  "mentions": [
+    "A353557",
+    "A373491",
+    "A373588",
+    "A373597"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

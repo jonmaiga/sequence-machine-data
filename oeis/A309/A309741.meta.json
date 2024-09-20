@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 6*10^(2*k) + 6*10^k + 1 are prime.",
+  "description": "Numbers k such that 6*10^(2*k) + 6*10^k + 1 is prime.",
   "id": "A309741",
   "mentions": [
     "A309739"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

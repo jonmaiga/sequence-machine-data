@@ -2,6 +2,10 @@
   "description": "Number of runs in base-3 representation of n.",
   "id": "A043555",
   "mentions": [
+    "A005811",
+    "A033113",
+    "A043556",
+    "A145204",
     "A297770",
     "A297771"
   ],
@@ -13,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 90,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

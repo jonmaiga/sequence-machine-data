@@ -2,8 +2,13 @@
   "description": "Riesel problem: let k=2n-1; then a(n)=smallest m >= 1 such that k*2^m-1 is prime, or -1 if no such prime exists.",
   "id": "A108129",
   "mentions": [
+    "A038699",
     "A040081",
-    "A046069"
+    "A046069",
+    "A050412",
+    "A052333",
+    "A076337",
+    "A101036"
   ],
   "tags": [
     "nonn"

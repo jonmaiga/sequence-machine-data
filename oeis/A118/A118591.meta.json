@@ -1,9 +1,13 @@
 {
   "description": "Larger of two consecutive primes whose sum is a square.",
   "id": "A118591",
-  "mentions": [],
+  "mentions": [
+    "A061275",
+    "A151800"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

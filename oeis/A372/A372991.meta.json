@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (2n)!/(a(n-1)*a(n-2)), where a(0)=1, a(1) = 1.",
+  "id": "A372991",
+  "mentions": [
+    "A000142"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

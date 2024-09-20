@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n - 2 divides n^n + 2.",
+  "description": "Numbers m such that m - 2 divides m^m + 2.",
   "id": "A249751",
   "mentions": [
     "A081762",

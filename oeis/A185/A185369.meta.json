@@ -1,7 +1,13 @@
 {
   "description": "Number of simple labeled graphs on n nodes of degree 1 or 2 without cycles.",
   "id": "A185369",
-  "mentions": [],
+  "mentions": [
+    "A335344",
+    "A335345",
+    "A361533",
+    "A361545",
+    "A361547"
+  ],
   "tags": [
     "formulas",
     "nonn"

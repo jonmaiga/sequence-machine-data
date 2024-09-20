@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers that cannot be written as a sum of a practical number and a 14-gonal number.",
+  "id": "A373617",
+  "mentions": [
+    "A005153",
+    "A051866"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

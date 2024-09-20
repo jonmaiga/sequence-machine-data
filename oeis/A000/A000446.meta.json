@@ -2,6 +2,7 @@
   "description": "Smallest number that is the sum of 2 squares (allowing zeros) in exactly n ways.",
   "id": "A000446",
   "mentions": [
+    "A000448",
     "A002144",
     "A016032",
     "A018782",

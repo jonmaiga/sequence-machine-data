@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction for Pi+1/Pi.",
+  "description": "Continued fraction for Pi + 1/Pi.",
   "id": "A099643",
   "mentions": [
     "A001203",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 95,
     "source": "joeis"
   }

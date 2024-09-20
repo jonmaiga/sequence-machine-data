@@ -19,11 +19,12 @@
     "A161916"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 62,
+    "size": 101,
     "source": "oeis-entry"
   }
 }

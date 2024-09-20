@@ -1,0 +1,20 @@
+{
+  "description": "Number of (binary) heaps of length n whose element set is a subset of [n].",
+  "id": "A373450",
+  "mentions": [
+    "A007318",
+    "A056971",
+    "A373449",
+    "A373451",
+    "A373452"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

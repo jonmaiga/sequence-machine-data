@@ -1,9 +1,17 @@
 {
-  "description": "E.g.f.: exp(x + 4*x^2).",
+  "description": "Expansion of e.g.f.: exp(x + 4*x^2).",
   "id": "A293720",
   "mentions": [
+    "A000012",
+    "A047974",
+    "A115329",
+    "A158954",
+    "A158968",
+    "A293604",
     "A293724",
-    "A359762"
+    "A359762",
+    "A362176",
+    "A362177"
   ],
   "tags": [
     "formulas",

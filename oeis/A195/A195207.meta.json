@@ -2,15 +2,20 @@
   "description": "Number of even divisors of !n.",
   "id": "A195207",
   "mentions": [
+    "A000005",
     "A000166",
-    "A195208"
+    "A183063",
+    "A195208",
+    "A195209",
+    "A195210"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

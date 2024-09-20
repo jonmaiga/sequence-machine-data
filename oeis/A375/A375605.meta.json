@@ -1,0 +1,20 @@
+{
+  "description": "Number of composite knots with n crossings.",
+  "id": "A375605",
+  "mentions": [
+    "A002863",
+    "A086825"
+  ],
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

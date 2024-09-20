@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of two distinct nonzero heptagonal numbers in exactly n ways, or -1 if no such number exists.",
+  "id": "A374142",
+  "mentions": [
+    "A000566",
+    "A093195",
+    "A332989",
+    "A342326",
+    "A374141",
+    "A374143"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

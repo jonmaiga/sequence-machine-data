@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 if n is a nonprime of the form 4*k + 3, otherwise 0.",
+  "id": "A373979",
+  "mentions": [
+    "A079261",
+    "A091236",
+    "A373978"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

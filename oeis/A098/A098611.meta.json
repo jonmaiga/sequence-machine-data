@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 10^n-(-1)^n.",
+  "description": "a(n) = 10^n - (-1)^n.",
   "id": "A098611",
   "mentions": [
+    "A015585",
     "A098609",
     "A098610"
   ],

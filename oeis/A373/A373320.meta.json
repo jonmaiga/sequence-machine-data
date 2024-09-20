@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that phi(k)/k^2 < phi(m)/m^2 for all m < k, where phi is the Euler totient function (A000010).",
+  "id": "A373320",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A330006",
+    "A373318",
+    "A373319"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

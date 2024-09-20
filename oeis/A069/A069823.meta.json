@@ -1,5 +1,5 @@
 {
-  "description": "Nonprime numbers k such there is no x < k such that phi(x) = phi(k).",
+  "description": "Nonprime numbers k for which there is no x < k such that phi(x) = phi(k).",
   "id": "A069823",
   "mentions": [
     "A000010",

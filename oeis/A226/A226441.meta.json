@@ -1,8 +1,10 @@
 {
-  "description": "T(n,k)=Number of permutations of 1..n with fewer than k interior elements having values lying between the values of their neighbors",
+  "description": "T(n,k) = number of permutations of {1..n} with fewer than k interior elements having values lying between the values of their neighbors.",
   "id": "A226441",
   "mentions": [
-    "A001250"
+    "A001250",
+    "A008970",
+    "A059427"
   ],
   "tags": [
     "nonn",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 65,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

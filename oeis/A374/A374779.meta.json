@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose divisors have a mean abundancy index that is larger than 3.",
+  "id": "A374779",
+  "mentions": [
+    "A068403",
+    "A245214",
+    "A374777",
+    "A374778"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

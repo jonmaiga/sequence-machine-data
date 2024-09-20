@@ -1,0 +1,26 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A348717(i) = A348717(j) and A364255(i) = A364255(j), for all i, j >= 1.",
+  "id": "A374478",
+  "mentions": [
+    "A163511",
+    "A305891",
+    "A305897",
+    "A305900",
+    "A348717",
+    "A364255",
+    "A364297",
+    "A364949",
+    "A365392",
+    "A365423",
+    "A374040",
+    "A374477"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

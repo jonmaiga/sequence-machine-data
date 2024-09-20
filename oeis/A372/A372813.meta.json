@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. D(x) satisfying D(x) = cosh( 2*x*cosh(x*D(x)) ), where a(n) is the coefficient of x^(2*n)/(2*n)! in D(x) for n >= 0.",
+  "id": "A372813",
+  "mentions": [
+    "A143601",
+    "A370432",
+    "A372811",
+    "A372812",
+    "A372814"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

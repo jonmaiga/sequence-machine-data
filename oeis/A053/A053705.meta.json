@@ -2,14 +2,17 @@
   "description": "Primes p of form q^k-2 where q is also a prime and k > 1.",
   "id": "A053705",
   "mentions": [
-    "A025475"
+    "A025475",
+    "A053704",
+    "A267944"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers a(1), a(2), a(3), ... such that for any n > 0, Sum_{k = 1..n} 1 / (A000959(k)*a(k)) < 1 (where A000959(k) is the k-th lucky number).",
+  "id": "A375527",
+  "mentions": [
+    "A000959",
+    "A374663",
+    "A375528",
+    "A375781"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

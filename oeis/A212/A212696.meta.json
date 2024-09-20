@@ -2,6 +2,8 @@
   "description": "Central coefficient of the triangle A097609.",
   "id": "A212696",
   "mentions": [
+    "A007318",
+    "A027907",
     "A055113",
     "A097609"
   ],

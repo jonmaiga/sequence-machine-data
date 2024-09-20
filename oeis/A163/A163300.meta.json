@@ -1,5 +1,5 @@
 {
-  "description": "Zero together with the even nonprimes.",
+  "description": "Even numbers without 2.",
   "id": "A163300",
   "mentions": [
     "A014076",

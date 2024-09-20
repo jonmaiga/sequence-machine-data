@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the cardinality of the set containing all rational numbers of the form 2 <= m/2^(bigomega(m) - 1) <= n.",
+  "id": "A373943",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A052130",
+    "A374022"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

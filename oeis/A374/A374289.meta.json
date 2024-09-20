@@ -1,0 +1,23 @@
+{
+  "description": "5-rough powerful numbers: numbers k coprime to 6 such that if a prime p divides k then p^2 also divides k.",
+  "id": "A374289",
+  "mentions": [
+    "A000961",
+    "A001651",
+    "A001694",
+    "A007310",
+    "A062739",
+    "A082695",
+    "A374290"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, 0 <= k < A089898(n), read by rows; the n-th row lists the numbers m in the range 0..n such that m and n-m can be added without carries in base 10.",
+  "id": "A374448",
+  "mentions": [
+    "A002262",
+    "A089898",
+    "A295989"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

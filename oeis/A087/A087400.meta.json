@@ -2,11 +2,10 @@
   "description": "Primes p such that p+2 is a piptorial number. Also numbers such that A080696(n)- 2 is prime.",
   "id": "A087400",
   "mentions": [
-    "A080696"
+    "A080696",
+    "A090886"
   ],
   "tags": [
-    "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

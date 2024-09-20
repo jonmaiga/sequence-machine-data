@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of parking functions of order n where the (n-1)-st spot is lucky.",
+  "id": "A374533",
+  "mentions": [
+    "A374756"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

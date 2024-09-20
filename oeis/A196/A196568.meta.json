@@ -1,7 +1,10 @@
 {
   "description": "Binomial coefficients of the form C(k, 3) that are products of two other binomial coefficients of the form C(k, 3).",
   "id": "A196568",
-  "mentions": [],
+  "mentions": [
+    "A188630",
+    "A364151"
+  ],
   "tags": [
     "more",
     "nonn"

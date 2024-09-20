@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (A084218(n) - 1)/12.",
+  "id": "A373040",
+  "mentions": [
+    "A000290",
+    "A001157",
+    "A001159",
+    "A084218",
+    "A372966",
+    "A373039"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

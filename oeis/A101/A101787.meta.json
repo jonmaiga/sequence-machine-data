@@ -1,5 +1,5 @@
 {
-  "description": "|S(n)| where S(n) = {i : 1 <= i <= n and 4n-1 and 8n-1 are primes}.",
+  "description": "a(n) = |S(n)| where S(n) = {i : 1 <= i <= n and 4*i-1 and 8*i-1 are primes}.",
   "id": "A101787",
   "mentions": [
     "A002515",

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the area of the square whose vertices divide the sides n of a circumscribed square into integer sections k and n - k, 0 <= k <= floor(n/2).",
+  "id": "A373710",
+  "mentions": [
+    "A000290",
+    "A005563",
+    "A048147",
+    "A087475",
+    "A189834",
+    "A241751"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

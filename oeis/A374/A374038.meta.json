@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A328845(k) and A328846(k) are not both even, where A328845 and A328846 are the first and second Fibonacci-based variants of the arithmetic derivative.",
+  "id": "A374038",
+  "mentions": [
+    "A328845",
+    "A328846",
+    "A374036",
+    "A374037",
+    "A374047",
+    "A374050"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

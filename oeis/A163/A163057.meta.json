@@ -2,17 +2,19 @@
   "description": "An alternating sum from the n-th odd number up to the n-th odd prime.",
   "id": "A163057",
   "mentions": [
+    "A000040",
     "A005408",
     "A065091",
     "A130472"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,10 @@
   "description": "Primes p such that sum of divisors of p-3 is prime.",
   "id": "A171131",
   "mentions": [
+    "A000043",
+    "A000203",
+    "A023194",
+    "A057732",
     "A153503",
     "A171130"
   ],
@@ -10,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

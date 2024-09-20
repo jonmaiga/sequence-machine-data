@@ -2,6 +2,8 @@
   "description": "Number of triangular numbers in interval ](n-1)^2, n^2] for n>0, a(0)=1.",
   "id": "A214856",
   "mentions": [
+    "A000217",
+    "A000290",
     "A214848"
   ],
   "tags": [
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 74,
-    "source": "oeis-entry"
+    "size": 106,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Number of inequivalent nondegenerate unate functions of n or fewer variables.",
+  "id": "A374399",
+  "mentions": [
+    "A000372",
+    "A003182",
+    "A245079",
+    "A304997",
+    "A372495",
+    "A373697"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

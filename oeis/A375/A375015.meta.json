@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that either the concatenation [a(n); n; a(n+1)] or the concatenation [a(n+1); n; a(n)] is a prime number.",
+  "id": "A375015",
+  "mentions": [
+    "A000040"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

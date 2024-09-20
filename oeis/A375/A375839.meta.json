@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{k=0..n} (k^2 + n).",
+  "id": "A375839",
+  "mentions": [
+    "A101686",
+    "A156648",
+    "A375840",
+    "A375841",
+    "A375842",
+    "A375843",
+    "A375844",
+    "A375845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

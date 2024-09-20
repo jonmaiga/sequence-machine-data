@@ -2,6 +2,7 @@
   "description": "Numbers k such that A000120(k) <= A001511(k).",
   "id": "A371176",
   "mentions": [
+    "A000045",
     "A000120",
     "A001316",
     "A001511",
@@ -11,7 +12,11 @@
     "A048679",
     "A066628",
     "A072649",
-    "A213911"
+    "A213911",
+    "A355489",
+    "A373345",
+    "A373347",
+    "A373557"
   ],
   "tags": [
     "base",
@@ -21,6 +26,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

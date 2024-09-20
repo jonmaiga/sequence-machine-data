@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of knots having a Legendrian representative realizable on a Legendrian n-mosaic.",
+  "id": "A374945",
+  "mentions": [
+    "A364939",
+    "A374942",
+    "A374943",
+    "A374944",
+    "A374946",
+    "A374947"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

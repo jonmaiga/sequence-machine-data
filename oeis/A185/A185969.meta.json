@@ -3,17 +3,20 @@
   "id": "A185969",
   "mentions": [
     "A032810",
+    "A081241",
     "A248907",
     "A256179",
-    "A256231"
+    "A256231",
+    "A375374"
   ],
   "tags": [
+    "formulas",
     "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 62,
+    "size": 67,
     "source": "oeis-bfile"
   }
 }

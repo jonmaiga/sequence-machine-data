@@ -1,5 +1,5 @@
 {
-  "description": "0 unless n is a composite number A002808(k) when a(n) = k.",
+  "description": "a(n) = 0 unless n is a composite number A002808(k) then a(n) = k.",
   "id": "A066246",
   "mentions": [
     "A002808",
@@ -10,6 +10,7 @@
     "A239968"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

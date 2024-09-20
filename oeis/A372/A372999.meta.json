@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} tau( (n/gcd(k,n))^4 ).",
+  "id": "A372999",
+  "mentions": [
+    "A062380",
+    "A062949",
+    "A372997"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

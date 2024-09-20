@@ -1,0 +1,19 @@
+{
+  "description": "For n >= 1, a(n) = Sum_{i = n..(n + A000005(n) - 1)} i.",
+  "id": "A373113",
+  "mentions": [
+    "A000005",
+    "A005384",
+    "A005385",
+    "A066446"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

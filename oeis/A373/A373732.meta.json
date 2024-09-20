@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(4*n^2/sqrt(3)).",
+  "id": "A373732",
+  "mentions": [
+    "A120011"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

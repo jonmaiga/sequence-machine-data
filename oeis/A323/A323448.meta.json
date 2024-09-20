@@ -1,7 +1,9 @@
 {
   "description": "Number of minimum dominating sets in the n-Keller graph.",
   "id": "A323448",
-  "mentions": [],
+  "mentions": [
+    "A323489"
+  ],
   "tags": [
     "more",
     "nonn"

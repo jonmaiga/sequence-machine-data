@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the permanent of the Toeplitz matrix of order n whose element (i,j) equals the (i-j)-th composite number if i > j, (j-i)-th prime number if i < j, or 1 if i = j.",
+  "id": "A374071",
+  "mentions": [
+    "A071082",
+    "A374067",
+    "A374068",
+    "A374069",
+    "A374070"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

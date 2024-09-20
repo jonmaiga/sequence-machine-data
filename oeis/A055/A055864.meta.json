@@ -2,6 +2,7 @@
   "description": "Coefficient triangle for certain polynomials.",
   "id": "A055864",
   "mentions": [
+    "A000169",
     "A000272",
     "A055070",
     "A055858",

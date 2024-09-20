@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if bigomega(n) and A064547(n) are both even, otherwise 0, where A064547 is the count of 1-bits in the exponents of the prime factorization of n, and bigomega is the number of prime factors of n (with multiplicity).",
+  "id": "A374471",
+  "mentions": [
+    "A001222",
+    "A059841",
+    "A064547",
+    "A065043",
+    "A359464",
+    "A374470",
+    "A374472",
+    "A374473"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

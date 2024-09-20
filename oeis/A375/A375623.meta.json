@@ -1,0 +1,18 @@
+{
+  "description": "Maximum value of F(p) = Sum (|i-j| - |p(i)-p(j)|)^2 where the sum is over all 1 <= i < j <= n, for all permutations p in the symmetric group S_n.",
+  "id": "A375623",
+  "mentions": [
+    "A047928",
+    "A126972",
+    "A375625"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

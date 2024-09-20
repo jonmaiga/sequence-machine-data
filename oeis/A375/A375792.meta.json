@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2^k == 2 (mod k-th triangular number) and not 2^k == 2 (mod k-th oblong number).",
+  "id": "A375792",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A002378",
+    "A216822",
+    "A217465",
+    "A375793"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Fully additive with a(p) = p# for prime p, where x# is the primorial A034386(x).",
+  "id": "A373158",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
+    "A003961",
+    "A034386",
+    "A108951",
+    "A276085",
+    "A276154",
+    "A373984",
+    "A373985",
+    "A373986",
+    "A373987"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

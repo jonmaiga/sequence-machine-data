@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n where A080374 increases.",
+  "description": "Numbers where A080374 increases.",
   "id": "A080376",
   "mentions": [
     "A001223",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
-    "source": "oeis-entry"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

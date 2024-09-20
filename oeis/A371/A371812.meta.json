@@ -1,0 +1,18 @@
+{
+  "description": "Number of different ways A329383(n) is Brazilian.",
+  "id": "A371812",
+  "mentions": [
+    "A242397",
+    "A284758",
+    "A329383"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if bitwise-XOR of the exponents of primes in the prime factorization of n is equal to 1, otherwise 0.",
+  "id": "A374130",
+  "mentions": [
+    "A059897",
+    "A252233",
+    "A268387",
+    "A268390",
+    "A374466",
+    "A374595"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

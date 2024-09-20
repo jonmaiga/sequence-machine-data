@@ -1,0 +1,19 @@
+{
+  "description": "Integers which are palindromes when expressed in more than one base 2 to 10.",
+  "id": "A374561",
+  "mentions": [
+    "A050812",
+    "A253594"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

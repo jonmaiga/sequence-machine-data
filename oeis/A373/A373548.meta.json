@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of log_2(1 + sqrt(2))/2.",
+  "id": "A373548",
+  "mentions": [
+    "A002193"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

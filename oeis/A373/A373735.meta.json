@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = p^floor(log_p n) for p = A020639(n).",
+  "id": "A373735",
+  "mentions": [
+    "A000079",
+    "A020639",
+    "A024619",
+    "A246655",
+    "A280363"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

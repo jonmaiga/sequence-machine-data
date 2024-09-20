@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers with distinct digit averages.",
+  "id": "A375969",
+  "mentions": [
+    "A007953",
+    "A051885",
+    "A055642",
+    "A375968"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

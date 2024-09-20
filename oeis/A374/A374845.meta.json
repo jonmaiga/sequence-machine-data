@@ -1,0 +1,17 @@
+{
+  "description": "The numbers p or 2p with p prime and p = 3 mod 4, in ascending order.",
+  "id": "A374845",
+  "mentions": [
+    "A046081",
+    "A292762",
+    "A374846"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -2,16 +2,20 @@
   "description": "Least integer with each \"mod 2 prime signature\".",
   "id": "A097273",
   "mentions": [
+    "A025487",
+    "A070826",
     "A097272",
     "A097274",
-    "A097275"
+    "A097275",
+    "A147516"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

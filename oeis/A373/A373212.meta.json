@@ -1,0 +1,16 @@
+{
+  "description": "Signature sequence of log(2).",
+  "id": "A373212",
+  "mentions": [
+    "A002162",
+    "A023115"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

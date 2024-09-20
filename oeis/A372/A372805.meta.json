@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1, 3|floor(k*log_10(2))} 1/3^k.",
+  "id": "A372805",
+  "mentions": [
+    "A000244"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

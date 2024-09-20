@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(A001414(n), A003415(n)), where A001414 is the sum of prime factors with repetition, and A003415 is the arithmetic derivative.",
+  "id": "A373364",
+  "mentions": [
+    "A001414",
+    "A003415",
+    "A082299",
+    "A373362",
+    "A373363",
+    "A373375",
+    "A373376"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

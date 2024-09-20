@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x/(1 - x^4)^(1/2)).",
+  "id": "A373520",
+  "mentions": [
+    "A293507",
+    "A373519",
+    "A373521",
+    "A373525"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

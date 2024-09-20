@@ -1,0 +1,27 @@
+{
+  "description": "The distance from prime(n) to the nearest common ancestor of prime(n) and 1+prime(n) in the Doudna-tree (A005940).",
+  "id": "A374481",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A005940",
+    "A059305",
+    "A241917",
+    "A252464",
+    "A319988",
+    "A347381",
+    "A348040",
+    "A374214",
+    "A374482",
+    "A374483"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

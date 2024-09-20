@@ -1,0 +1,20 @@
+{
+  "description": "Number of odd reduced Latin squares of order n.",
+  "id": "A375121",
+  "mentions": [
+    "A000315",
+    "A114629",
+    "A375141"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

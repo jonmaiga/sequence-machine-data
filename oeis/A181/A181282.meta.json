@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of associate Rota-Baxter words in one idempotent generator x and one idempotent operator P of degree n. Such words are Rota-Baxter words that begin and/or ends with x, and P is applied n times in the word.",
+  "description": "a(n) is the number of associate Rota-Baxter words in one idempotent generator x and one idempotent operator P of degree n. Such words are Rota-Baxter words that begin and/or end with x, and P is applied n times in the word.",
   "id": "A181282",
   "mentions": [
     "A000108",

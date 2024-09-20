@@ -1,10 +1,12 @@
 {
-  "description": "E.g.f.: -LambertW(-log(1+x)).",
+  "description": "Expansion of e.g.f. -LambertW(-log(1+x)).",
   "id": "A277489",
   "mentions": [
     "A001865",
     "A052807",
-    "A133297"
+    "A133297",
+    "A357337",
+    "A357338"
   ],
   "tags": [
     "formulas",

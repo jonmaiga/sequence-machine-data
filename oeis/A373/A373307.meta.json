@@ -1,0 +1,19 @@
+{
+  "description": "Binary digits of Pi selected by stepping forward d+1 places at digit d, i.e., by skipping the next d places.",
+  "id": "A373307",
+  "mentions": [
+    "A004601",
+    "A373079",
+    "A373304"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,15 @@
 {
   "description": "Continued fraction for arithmetic-geometric mean of Pi and e.",
   "id": "A074956",
-  "mentions": [],
+  "mentions": [
+    "A074957"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 97,
     "source": "joeis"
   }

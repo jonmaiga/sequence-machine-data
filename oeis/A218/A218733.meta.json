@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (30^n-1)/29.",
+  "description": "a(n) = (30^n - 1)/29.",
   "id": "A218733",
   "mentions": [
     "A000225",
@@ -38,7 +38,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

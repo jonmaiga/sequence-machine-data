@@ -1,5 +1,5 @@
 {
-  "description": "A number n is included if more primes, among primes <= the largest prime dividing n, divide n than do not.",
+  "description": "Numbers k such that more primes, among primes <= the largest prime dividing k, divide k than do not.",
   "id": "A111905",
   "mentions": [
     "A111906",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

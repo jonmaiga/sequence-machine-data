@@ -1,11 +1,9 @@
 {
-  "description": "Consider number of prime divisors counted with multiplicity (A001222). Apply this function to C(n,k)'s. Find maximum and count its occurrence.",
+  "description": "a(n) is the number of times the maximum value of Omega(binomial(n, k)) occurs in the n-th row of Pascal's triangle, where Omega(n) is the number of prime divisors of n counted with multiplicity (A001222).",
   "id": "A048685",
   "mentions": [
-    "A000005",
-    "A001221",
     "A001222",
-    "A007947",
+    "A007318",
     "A020733",
     "A020738"
   ],
@@ -15,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

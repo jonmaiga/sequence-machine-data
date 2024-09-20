@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, T(n,k), read by rows: A000012 * A048993.",
+  "description": "Triangle read by rows. T = A000012 * A048993.",
   "id": "A137596",
   "mentions": [
     "A000012",
@@ -12,7 +12,7 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 55,
     "source": "joeis"
   }

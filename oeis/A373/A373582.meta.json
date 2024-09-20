@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} Sum_{z=1..n} Sum_{y=1..n} Sum_{x=1..n} [GCD(f(x,y,z), n) = k] * f(x,y,z) * A023900(k), where f(x,y,z) = x^2 + y^2 - z^2.",
+  "id": "A373582",
+  "mentions": [
+    "A023900",
+    "A318657",
+    "A354033",
+    "A368197"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

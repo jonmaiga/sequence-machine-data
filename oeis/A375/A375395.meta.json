@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. 1 / (exp(-x^3/6) - x).",
+  "id": "A375395",
+  "mentions": [
+    "A072597",
+    "A375394"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

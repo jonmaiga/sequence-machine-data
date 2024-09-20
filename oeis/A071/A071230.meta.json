@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n*(6*n^2 - 7*n + 3)/2.",
   "id": "A071230",
-  "mentions": [],
+  "mentions": [
+    "A071229"
+  ],
   "tags": [
     "easy",
     "formulas",

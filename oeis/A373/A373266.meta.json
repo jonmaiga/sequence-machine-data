@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if A276085(n) is of the form 8m+4, otherwise 0, where A276085 is the primorial base log-function.",
+  "id": "A373266",
+  "mentions": [
+    "A002110",
+    "A007814",
+    "A276085",
+    "A369001",
+    "A373137",
+    "A373267"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

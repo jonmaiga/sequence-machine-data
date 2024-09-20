@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(n+2) - (prime(n) + prime(n+1))/2.",
+  "id": "A375097",
+  "mentions": [
+    "A024675",
+    "A096379",
+    "A191472",
+    "A305748",
+    "A364411"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 80,
+    "source": "joeis"
+  }
+}

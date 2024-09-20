@@ -1,7 +1,16 @@
 {
   "description": "Period of repeating digits of 1/n in base 6.",
   "id": "A007737",
-  "mentions": [],
+  "mentions": [
+    "A007732",
+    "A007733",
+    "A007734",
+    "A007735",
+    "A007736",
+    "A007738",
+    "A007739",
+    "A007740"
+  ],
   "tags": [
     "base",
     "nonn"

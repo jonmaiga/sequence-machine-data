@@ -1,5 +1,5 @@
 {
-  "description": "Least power of 3 having exactly n consecutive 5's in its decimal representation.",
+  "description": "Least power of 3 having a run of exactly n consecutive 5's in its decimal representation.",
   "id": "A131548",
   "mentions": [
     "A131544",

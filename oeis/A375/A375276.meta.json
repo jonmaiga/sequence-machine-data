@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/sqrt(1 - 4*x - 8*x^3 + 4*x^4).",
+  "id": "A375276",
+  "mentions": [
+    "A108485"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

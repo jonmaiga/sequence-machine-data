@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of the harmonic mean H(n) of the first n positive integers.",
+  "description": "Denominator of the harmonic mean of the first n positive integers.",
   "id": "A175441",
   "mentions": [
     "A001008",

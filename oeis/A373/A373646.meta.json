@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers that cannot be written as a sum of a practical number and an 18-gonal number.",
+  "id": "A373646",
+  "mentions": [
+    "A005153",
+    "A051870"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

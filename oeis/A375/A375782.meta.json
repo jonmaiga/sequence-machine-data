@@ -1,0 +1,20 @@
+{
+  "description": "The 2-adic valuation of the result, starting from n, of Collatz steps x -> (3x+1)/2 while odd.",
+  "id": "A375782",
+  "mentions": [
+    "A007814",
+    "A085062",
+    "A338691",
+    "A363270"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

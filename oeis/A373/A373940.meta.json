@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - (exp(x) - 1)^5).",
+  "id": "A373940",
+  "mentions": [
+    "A000670",
+    "A052841",
+    "A353200",
+    "A353774",
+    "A353775"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

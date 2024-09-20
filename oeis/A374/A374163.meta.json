@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1; for n>1 a(n) is the minimum value of k > 0 such that sigma^{k}(n)-1 is prime, if such a k exists; otherwise -1, where sigma^{k} is the k-th iteration of sigma=A000203.",
+  "id": "A374163",
+  "mentions": [
+    "A000203",
+    "A066421"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

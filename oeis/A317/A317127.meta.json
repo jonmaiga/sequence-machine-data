@@ -2,8 +2,7 @@
   "description": "a(0) = a(1) = a(2) = 1; for n >= 3, a(n) = freq(a(n-1),n) + freq(a(n-3),n) where freq(i, j) is the number of times i appears in the terms a(0) .. a(j-1).",
   "id": "A317127",
   "mentions": [
-    "A316774",
-    "A317217"
+    "A316774"
   ],
   "tags": [
     "look",

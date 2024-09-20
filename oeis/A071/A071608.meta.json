@@ -1,7 +1,9 @@
 {
   "description": "Number of complete mappings f(x) of Z_{2n+1} such that -(-id+f)^(-1)=f.",
   "id": "A071608",
-  "mentions": [],
+  "mentions": [
+    "A003111"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Sequence generated from a symmetric matrix.",
+  "description": "Expansion of g.f. x*(1+2*x-x^2)/(1-4*x-2*x^2+x^3).",
   "id": "A100296",
   "mentions": [
     "A100295",

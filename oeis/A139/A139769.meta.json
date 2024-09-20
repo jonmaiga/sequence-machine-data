@@ -1,18 +1,22 @@
 {
-  "description": "A triangle of coefficients of the term-like derivatives of A008302 ( Mahonian numbers): p(x,n)=product( sum(d/dx*(x^i),(i,0,m+1)),(m,0,n)).",
+  "description": "T(n,k) = [x^k] Product_{m=1..n} d/dx Sum_{i=1..m} x^i; triangle read by rows, n >= 0, 0 <= k <= A161680(n).",
   "id": "A139769",
   "mentions": [
-    "A008302"
+    "A000142",
+    "A006472",
+    "A008302",
+    "A010551",
+    "A161680",
+    "A259459"
   ],
   "tags": [
     "formulas",
     "nonn",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 54,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

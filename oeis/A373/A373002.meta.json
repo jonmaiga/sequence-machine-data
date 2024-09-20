@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} tau( (n/gcd(k,n))^n ).",
+  "id": "A373002",
+  "mentions": [
+    "A062380",
+    "A062949",
+    "A344223",
+    "A372997",
+    "A372999",
+    "A373003"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

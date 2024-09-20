@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose American English name has exactly three syllables.",
+  "id": "A372807",
+  "mentions": [
+    "A075774",
+    "A180961"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

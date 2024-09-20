@@ -1,5 +1,5 @@
 {
-  "description": "Starts for strings of exactly 6 consecutive nonsquarefree numbers.",
+  "description": "Starts of runs of exactly 6 consecutive nonsquarefree numbers.",
   "id": "A049535",
   "mentions": [
     "A001694",

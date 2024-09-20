@@ -1,5 +1,5 @@
 {
-  "description": "Sorted list of numbers b(i)*b(i), 2 < i < j, where b = A002113 = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33 ... is a list of the decimal palindromes.",
+  "description": "Sorted list of numbers b(i)*b(j), 2 < i < j, where b = A002113 = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33 ... is a list of the decimal palindromes.",
   "id": "A071278",
   "mentions": [
     "A002113"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

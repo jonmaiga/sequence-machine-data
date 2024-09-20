@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..A120880(n), read by rows; the n-th lists the integers m such that A374560(m) = n.",
+  "id": "A374791",
+  "mentions": [
+    "A120880",
+    "A374560",
+    "A374792"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

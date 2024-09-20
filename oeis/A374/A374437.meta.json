@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = [1 - (n + s)/2]_n * [1 - (n - s)/2]_n, where s = sqrt(-n*(2 + n)) and [x]_n is the Pochhammer function.",
+  "id": "A374437",
+  "mentions": [
+    "A000217",
+    "A375050"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

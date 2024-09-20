@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{k=1..n} (k^2 mod n if k^2 mod n > 0).",
+  "id": "A373286",
+  "mentions": [
+    "A165909",
+    "A230366",
+    "A372651"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

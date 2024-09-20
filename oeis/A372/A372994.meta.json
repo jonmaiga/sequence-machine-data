@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n! a(n-1) / a(n-2), where a(0) = 1, a(1) = 2.",
+  "id": "A372994",
+  "mentions": [
+    "A000142",
+    "A372993"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

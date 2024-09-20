@@ -1,0 +1,19 @@
+{
+  "description": "First Sylvester wave. Triangle read by rows: Coefficients of the numerator of the polynomial part of the partition function restricted to partitions of the integer x with parts in (1,2,...,n). (The denominators are A375251.)",
+  "id": "A375252",
+  "mentions": [
+    "A375250",
+    "A375251"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

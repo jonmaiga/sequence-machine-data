@@ -1,7 +1,8 @@
 {
-  "description": "Products of four distinct primes.",
+  "description": "Products of exactly four distinct primes.",
   "id": "A046386",
   "mentions": [
+    "A000040",
     "A001221",
     "A001222",
     "A006881",

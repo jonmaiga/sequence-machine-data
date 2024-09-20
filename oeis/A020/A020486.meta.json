@@ -1,5 +1,5 @@
 {
-  "description": "Average of squares of divisors is an integer: sigma_0(n) divides sigma_2(n).",
+  "description": "Average of squares of divisors is an integer: numbers k such that sigma_0(k) divides sigma_2(k).",
   "id": "A020486",
   "mentions": [
     "A000005",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

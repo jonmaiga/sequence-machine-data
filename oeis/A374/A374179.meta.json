@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least prime p such that the binary expansions of p and of the next prime q > p differ at exactly n positions, and p and q have the same binary length.",
+  "id": "A374179",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A007088",
+    "A061712",
+    "A205510",
+    "A374178"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

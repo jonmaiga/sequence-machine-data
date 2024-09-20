@@ -2,6 +2,8 @@
   "description": "Independence and clique covering number of the n-triangular honeycomb acute knight graph.",
   "id": "A287195",
   "mentions": [
+    "A066377",
+    "A092353",
     "A244500"
   ],
   "tags": [

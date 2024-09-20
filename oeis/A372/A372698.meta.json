@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A(A(A(x))) = (-1/3) * log(1 - 3*x).",
+  "id": "A372698",
+  "mentions": [
+    "A209519",
+    "A220112",
+    "A372747"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

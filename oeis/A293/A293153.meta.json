@@ -1,14 +1,15 @@
 {
-  "description": "Euler number of a certain poset C^bar_n.",
+  "description": "Number of linear extensions of a certain poset C^bar_n.",
   "id": "A293153",
-  "mentions": [],
+  "mentions": [
+    "A010050"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 4,
+    "offset": 0,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

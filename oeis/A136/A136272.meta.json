@@ -2,6 +2,8 @@
   "description": "Waterbird take-off sequence. Complement of A166021.",
   "id": "A136272",
   "mentions": [
+    "A004202",
+    "A064801",
     "A137292",
     "A166021"
   ],

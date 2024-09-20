@@ -2,6 +2,7 @@
   "description": "Number of points in Z^5 of norm <= n.",
   "id": "A055411",
   "mentions": [
+    "A046895",
     "A122510",
     "A302997"
   ],

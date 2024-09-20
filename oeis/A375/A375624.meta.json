@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of integers of the form d_1 - d_2 + d_3 - d_4 + ... + (-1)^k d_k, where n = d_1 > d_2 > ... > d_k = 1, d_{i+1} divides d_i for 1 <= i <= k-1.",
+  "id": "A375624",
+  "mentions": [
+    "A375626"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

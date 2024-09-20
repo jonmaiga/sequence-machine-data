@@ -1,0 +1,22 @@
+{
+  "description": "Array T(n,m) read by antidiagonals: In an n X m grid draw straight walls between cells, starting at a border, such that the resulting figure is connected and has only one-cell wide paths; T(n,m) is the number of solutions.",
+  "id": "A375858",
+  "mentions": [
+    "A116469",
+    "A375770",
+    "A375817",
+    "A375859",
+    "A375860",
+    "A375861"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

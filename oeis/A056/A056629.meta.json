@@ -1,20 +1,14 @@
 {
-  "description": "Number of unitary square divisors of n!.",
+  "description": "a(n) = A034444(A056627(n)).",
   "id": "A056629",
   "mentions": [
-    "A000188",
-    "A001221",
     "A008833",
-    "A046951",
-    "A048656",
-    "A055071",
+    "A034444",
     "A055229",
-    "A055230",
-    "A055993",
-    "A056657"
+    "A056627",
+    "A375187"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

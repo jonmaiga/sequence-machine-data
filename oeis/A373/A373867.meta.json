@@ -1,0 +1,17 @@
+{
+  "description": "Perfect powers of the form x^y + y^x, where x > 1 and y > 1.",
+  "id": "A373867",
+  "mentions": [
+    "A001597",
+    "A002064",
+    "A076980"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

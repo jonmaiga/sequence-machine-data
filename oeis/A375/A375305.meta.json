@@ -1,0 +1,17 @@
+{
+  "description": "Terms as well as digits fit the even/even/odd pattern; this is the lexicographically earliest injective sequence with this property.",
+  "id": "A375305",
+  "mentions": [
+    "A217555",
+    "A375306"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

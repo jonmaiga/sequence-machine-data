@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the numerator of x(n) = (2*x(n-1) + c(n)) mod 1, where c(n) = 1/n if n is a power of 3 and 0 otherwise, with x(0) = 0.",
+  "id": "A374336",
+  "mentions": [
+    "A192014",
+    "A365458",
+    "A374332",
+    "A374334"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

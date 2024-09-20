@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of smallest univoque Pisot Number.",
   "id": "A127583",
-  "mentions": [],
+  "mentions": [
+    "A374750",
+    "A374751"
+  ],
   "tags": [
     "cons",
     "formulas",

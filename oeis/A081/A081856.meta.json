@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that 2n-1 divides 2^n-1.",
+  "description": "Numbers k such that 2k-1 divides 2^k-1.",
   "id": "A081856",
   "mentions": [
+    "A187787",
     "A233415"
   ],
   "tags": [

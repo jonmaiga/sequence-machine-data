@@ -1,0 +1,21 @@
+{
+  "description": "The indices of the terms of A375768 in the Fibonacci sequence.",
+  "id": "A375769",
+  "mentions": [
+    "A000045",
+    "A130233",
+    "A369939",
+    "A375767",
+    "A375768"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

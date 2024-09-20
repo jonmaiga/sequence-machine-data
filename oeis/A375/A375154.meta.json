@@ -1,0 +1,19 @@
+{
+  "description": "Least k with exactly n partitions k = x + y + z satisfying sigma(k) = sigma(x) + sigma(y) + sigma(z).",
+  "id": "A375154",
+  "mentions": [
+    "A000203",
+    "A211223",
+    "A211224",
+    "A211225",
+    "A373047"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

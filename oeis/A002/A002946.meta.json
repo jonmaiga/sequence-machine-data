@@ -2,6 +2,8 @@
   "description": "Continued fraction for cube root of 3.",
   "id": "A002946",
   "mentions": [
+    "A002353",
+    "A002354",
     "A002581",
     "A002945",
     "A003116"
@@ -11,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 67,
+    "offset": 0,
+    "size": 86,
     "source": "oeis-bfile"
   }
 }

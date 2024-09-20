@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that the dual Zeckendorf representations of two consecutive terms have no common missing Fibonacci number.",
+  "id": "A372655",
+  "mentions": [
+    "A332565",
+    "A356771",
+    "A361989",
+    "A372654",
+    "A372656"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Integers n which equal (product of divisors of n) mod (sum of divisors of n).",
+  "description": "Integers k which equal (product of divisors of k) mod (sum of divisors of k).",
   "id": "A187711",
   "mentions": [
     "A000203",

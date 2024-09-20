@@ -1,11 +1,12 @@
 {
-  "description": "Square root of largest unitary square divisor of n.",
+  "description": "a(n) = A000188(n)/A055229(n).",
   "id": "A056622",
   "mentions": [
     "A000188",
     "A034444",
     "A055229",
-    "A056623"
+    "A056623",
+    "A071974"
   ],
   "tags": [
     "easy",

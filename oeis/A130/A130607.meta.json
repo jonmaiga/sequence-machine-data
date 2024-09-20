@@ -1,14 +1,17 @@
 {
-  "description": "Prime(n+1)^n + prime(n)^n.",
+  "description": "a(n) = prime(n+1)^n + prime(n)^n.",
   "id": "A130607",
-  "mentions": [],
+  "mentions": [
+    "A062457",
+    "A093360"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "joeis"
   }
 }

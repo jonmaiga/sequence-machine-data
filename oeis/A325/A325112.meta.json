@@ -1,12 +1,13 @@
 {
-  "description": "Integers such that no nonzero subsequence of decimal representation is divisible by 3.",
+  "description": "Integers k such that no nonzero subsequence of the decimal representation of k is divisible by 3.",
   "id": "A325112",
   "mentions": [
     "A014261",
     "A261188",
     "A261189",
     "A325113",
-    "A325114"
+    "A325114",
+    "A376045"
   ],
   "tags": [
     "base",

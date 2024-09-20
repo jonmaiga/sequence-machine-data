@@ -1,0 +1,17 @@
+{
+  "description": "A family of marked Motzkin-like paths.",
+  "id": "A374585",
+  "mentions": [
+    "A023426"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

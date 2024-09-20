@@ -1,5 +1,5 @@
 {
-  "description": "Ramanujan's largely composite numbers, defined to be numbers m such that d(n) >= d(k) for k = 1 to m-1.",
+  "description": "Ramanujan's largely composite numbers, defined to be numbers m such that d(m) >= d(k) for k = 1 to m-1.",
   "id": "A067128",
   "mentions": [
     "A002182",

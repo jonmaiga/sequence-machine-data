@@ -1,9 +1,10 @@
 {
-  "description": "Values of i of the numbers 2^i*3^j (A033845).",
+  "description": "Values of i in the numbers 2^i*3^j, i >= 1, j >= 1 (A033845).",
   "id": "A191475",
   "mentions": [
+    "A003586",
+    "A020857",
     "A033845",
-    "A158456",
     "A191476"
   ],
   "tags": [

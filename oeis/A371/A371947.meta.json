@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^k * (k+2)! / (2*k+1)!.",
+  "id": "A371947",
+  "mentions": [
+    "A371942"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

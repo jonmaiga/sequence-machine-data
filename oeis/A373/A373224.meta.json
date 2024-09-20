@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of A373223.",
+  "id": "A373224",
+  "mentions": [
+    "A002144",
+    "A080147",
+    "A373223",
+    "A373225"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

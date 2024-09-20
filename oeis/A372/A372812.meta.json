@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. S(x) satisfying S(x) = sinh( x*cosh( 2*x*sqrt(1 + S(x)^2) ) ), where a(n) is the coefficient of x^(2*n+1)/(2*n+1)! in S(x) for n >= 0.",
+  "id": "A372812",
+  "mentions": [
+    "A007106",
+    "A370431",
+    "A372811",
+    "A372813",
+    "A372814"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

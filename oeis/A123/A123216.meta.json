@@ -1,15 +1,18 @@
 {
   "description": "Concatenated index primes. Primes whose indices are the concatenation of the consecutive integers.",
   "id": "A123216",
-  "mentions": [],
+  "mentions": [
+    "A007908"
+  ],
   "tags": [
     "base",
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Triangle T(n, k), n > 0, k = 0..n-1, read by rows; T(n, k) is the unique m such that A375110(m+1) = n and A375110(m) mod A375110(m+1) = k.",
+  "id": "A375112",
+  "mentions": [
+    "A375110",
+    "A375113"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

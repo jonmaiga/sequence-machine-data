@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of edge subsets E of the n-dimensional hypercube graph such that E contains a path between two given nodes at Hamming distance k, 0 <= k <= n.",
+  "id": "A373034",
+  "mentions": [
+    "A061301",
+    "A372705",
+    "A373035"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

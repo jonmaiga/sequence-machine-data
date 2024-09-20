@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the largest prime factor of n^2 - 2 is 17.",
+  "description": "Numbers m such that the largest prime factor of m^2 - 2 is 17.",
   "id": "A242488",
   "mentions": [
     "A038873",

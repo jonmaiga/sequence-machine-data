@@ -1,0 +1,39 @@
+{
+  "description": "Numbers whose prime factorization has a second-largest exponent that equals 1.",
+  "id": "A375934",
+  "mentions": [
+    "A001221",
+    "A005117",
+    "A013929",
+    "A051903",
+    "A051904",
+    "A054753",
+    "A065036",
+    "A072357",
+    "A072777",
+    "A095990",
+    "A096156",
+    "A178739",
+    "A178740",
+    "A179664",
+    "A179668",
+    "A179692",
+    "A189987",
+    "A317616",
+    "A332785",
+    "A360793",
+    "A375076",
+    "A375142",
+    "A375933"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

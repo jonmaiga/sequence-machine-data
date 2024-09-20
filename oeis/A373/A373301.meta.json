@@ -1,0 +1,37 @@
+{
+  "description": "Sum of successive nonnegative integers in a row of length p(n) where p counts integer partitions.",
+  "id": "A373301",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A001477",
+    "A027480",
+    "A089867",
+    "A089868",
+    "A089869",
+    "A089870",
+    "A118760",
+    "A123719",
+    "A130696",
+    "A136602",
+    "A254109",
+    "A258069",
+    "A258070",
+    "A258071",
+    "A266279",
+    "A272813",
+    "A273885",
+    "A273886",
+    "A273887",
+    "A273888",
+    "A373300"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

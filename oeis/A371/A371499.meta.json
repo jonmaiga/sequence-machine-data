@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Sum_{k>=0} 1/(k^2)!.",
   "id": "A371499",
   "mentions": [
+    "A255322",
     "A371498"
   ],
   "tags": [

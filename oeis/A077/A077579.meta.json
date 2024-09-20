@@ -1,5 +1,5 @@
 {
-  "description": "n which divide A062273(n).",
+  "description": "Numbers k that divide A062273(k).",
   "id": "A077579",
   "mentions": [
     "A062273",
@@ -8,11 +8,12 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 11,
+    "offset": 1,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (2 - zeta(2))*zeta(2)*zeta(3)/zeta(6).",
+  "id": "A373702",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A013664",
+    "A082695",
+    "A152416",
+    "A157289",
+    "A157292",
+    "A183699"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

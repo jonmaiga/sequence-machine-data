@@ -1,13 +1,15 @@
 {
-  "description": "Difference between LCM(1,...,x) and first prime >= LCM(1,...,x), where x is a prime power.",
+  "description": "Difference between LCM(1,...,x) and the smallest prime > LCM(1,...,x), where x is the n-th prime power (A000961).",
   "id": "A058018",
   "mentions": [
     "A000961",
     "A003418",
+    "A013632",
     "A051451",
     "A058017"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

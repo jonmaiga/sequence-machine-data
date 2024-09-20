@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A375428(k) > A375430(k).",
+  "id": "A375432",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A051903",
+    "A374590",
+    "A375428",
+    "A375430"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

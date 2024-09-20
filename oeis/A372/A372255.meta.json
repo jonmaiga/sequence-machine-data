@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(n) = n*(n-2)! + n - 1.",
+  "id": "A372255",
+  "mentions": [
+    "A341302",
+    "A370888",
+    "A371217"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

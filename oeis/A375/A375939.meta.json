@@ -1,0 +1,15 @@
+{
+  "description": "Number of partitions of [n] such that the element sum of each block is one more than a multiple of four.",
+  "id": "A375939",
+  "mentions": [
+    "A375924"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

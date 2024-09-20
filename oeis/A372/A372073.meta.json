@@ -1,0 +1,20 @@
+{
+  "description": "Where prime(n) appears in A373390, or -1 if that prime never appears.",
+  "id": "A372073",
+  "mentions": [
+    "A372072",
+    "A372078",
+    "A372081",
+    "A373390",
+    "A373786",
+    "A373791"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

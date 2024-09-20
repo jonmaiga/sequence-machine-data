@@ -1,0 +1,42 @@
+{
+  "description": "Number of integer compositions of n whose leaders of maximal weakly decreasing runs sum to 3. Column k = 3 of A374748.",
+  "id": "A374702",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001399",
+    "A003242",
+    "A004526",
+    "A011782",
+    "A069905",
+    "A101271",
+    "A106356",
+    "A137719",
+    "A188900",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A241627",
+    "A261982",
+    "A274174",
+    "A333213",
+    "A333755",
+    "A373952",
+    "A374249",
+    "A374629",
+    "A374630",
+    "A374740",
+    "A374741",
+    "A374748"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

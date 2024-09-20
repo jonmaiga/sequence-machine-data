@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not the sum of Pythagorean primes.",
+  "id": "A373159",
+  "mentions": [
+    "A002144"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

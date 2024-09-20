@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Lichtman constant f(N(3)).",
+  "id": "A372827",
+  "mentions": [
+    "A001222",
+    "A008683",
+    "A059956",
+    "A117543",
+    "A137245",
+    "A143524",
+    "A370093",
+    "A370112",
+    "A370113",
+    "A372765",
+    "A372828"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

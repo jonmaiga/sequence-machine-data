@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2. Let i = a(n-2), j = a(n-1), then for n > 2 a(n) is the least novel k such that rad(k) !| rad(i*j) whereas rad(i*j*k) is a primorial number (A002110), where rad is A007947.",
+  "id": "A374379",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A055932",
+    "A362889"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(n,m) = number of matchings (i.e., Hosoya index) in K_n X K_m.",
+  "description": "Array read by antidiagonals: T(n,m) is the number of matchings in the rook graph K_n X K_m.",
   "id": "A270227",
   "mentions": [
     "A000085",

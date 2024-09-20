@@ -2,16 +2,20 @@
   "description": "Maximal differences of A029707.",
   "id": "A242459",
   "mentions": [
+    "A000720",
+    "A001359",
     "A027833",
-    "A029707"
+    "A029707",
+    "A054691"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

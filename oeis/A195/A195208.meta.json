@@ -2,15 +2,21 @@
   "description": "Number of odd divisors of !n.",
   "id": "A195208",
   "mentions": [
+    "A000005",
     "A000166",
-    "A195207"
+    "A000265",
+    "A001227",
+    "A195207",
+    "A195209",
+    "A195210"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

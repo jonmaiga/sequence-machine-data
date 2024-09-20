@@ -2,7 +2,9 @@
   "description": "Riesel problem: start with n; repeatedly double and add 1 until reaching a prime. Sequence gives number of steps to reach a prime or 0 if no prime is ever reached.",
   "id": "A050412",
   "mentions": [
+    "A038699",
     "A040081",
+    "A046069",
     "A050413",
     "A051914",
     "A052333",
@@ -11,7 +13,8 @@
     "A052340",
     "A076337",
     "A078680",
-    "A101036"
+    "A101036",
+    "A108129"
   ],
   "tags": [
     "easy",

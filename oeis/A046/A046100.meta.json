@@ -1,5 +1,5 @@
 {
-  "description": "Biquadratefree numbers.",
+  "description": "Biquadratefree numbers: numbers that are not divisible by any 4th power greater than 1.",
   "id": "A046100",
   "mentions": [
     "A004709",

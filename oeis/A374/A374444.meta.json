@@ -1,0 +1,18 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n, k) = PS(n, k) where PS = 1 if n = 1 or k = 1, otherwise PS = 0 if n = 0 or k = 0, otherswise PS = n^floor(k/2) mods k, where mods is the modulo operator with the symmetric representation.",
+  "id": "A374444",
+  "mentions": [
+    "A372726",
+    "A372728",
+    "A372877"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

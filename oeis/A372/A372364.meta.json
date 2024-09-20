@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^k * k / (k^2+2).",
+  "id": "A372364",
+  "mentions": [
+    "A372363"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

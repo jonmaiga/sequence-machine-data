@@ -1,9 +1,12 @@
 {
   "description": "Number of positive integers not exceeding n that are relatively prime to sigma(n).",
   "id": "A072301",
-  "mentions": [],
+  "mentions": [
+    "A000203"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

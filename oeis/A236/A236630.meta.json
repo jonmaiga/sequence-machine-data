@@ -1,26 +1,35 @@
 {
-  "description": "Number of \"ON\" cells at n-th stage in a cellular automaton (or pseudo cellular automaton) related to sigma (see Comments for precise definition).",
+  "description": "Irregular triangle T(n,k) of alternating sums of squares of entries in the rows in the triangle of A235791, read by rows.",
   "id": "A236630",
   "mentions": [
     "A000203",
+    "A000217",
     "A000290",
+    "A003056",
     "A004125",
     "A024916",
     "A026914",
+    "A071561",
     "A196020",
+    "A235791",
     "A236104",
     "A236631",
+    "A237048",
     "A237270",
     "A237591",
-    "A237593"
+    "A237593",
+    "A249223",
+    "A264116",
+    "A280851"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 0,
-    "size": 56,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

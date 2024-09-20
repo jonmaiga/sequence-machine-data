@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (27^n-1)/26.",
+  "description": "a(n) = (27^n - 1)/26.",
   "id": "A218730",
   "mentions": [
     "A000225",
@@ -38,7 +38,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A113177(k) and A328845(k) are both even, where A113177 is fully additive with a(p) = Fibonacci(p) and A328845 is the first Fibonacci-based variant of the arithmetic derivative.",
+  "id": "A374108",
+  "mentions": [
+    "A113177",
+    "A328845",
+    "A373586",
+    "A374046",
+    "A374106",
+    "A374107",
+    "A374109"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

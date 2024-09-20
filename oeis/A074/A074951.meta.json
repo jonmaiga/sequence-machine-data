@@ -1,13 +1,15 @@
 {
   "description": "Continued fraction for harmonic mean of Pi and e.",
   "id": "A074951",
-  "mentions": [],
+  "mentions": [
+    "A074950"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 97,
     "source": "joeis"
   }

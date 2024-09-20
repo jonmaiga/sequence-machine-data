@@ -1,9 +1,11 @@
 {
-  "description": "Sum of first, 2nd, 3rd, 4th and 5th powers of divisors of n are divisible by sum of divisors of n.",
+  "description": "Numbers k such that the sum of 2nd, 3rd, 4th and 5th powers of divisors of k are divisible by sum of divisors of k.",
   "id": "A074632",
   "mentions": [
     "A000203",
     "A001157",
+    "A001158",
+    "A001159",
     "A001160",
     "A020487",
     "A046841",
@@ -11,12 +13,11 @@
     "A046871"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

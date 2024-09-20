@@ -2,6 +2,7 @@
   "description": "a(n) = the smallest number m with the smallest non-divisor n such that 1",
   "id": "A199970",
   "mentions": [
+    "A003418",
     "A199968",
     "A199969"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 43,
     "source": "oeis-entry"
   }
 }

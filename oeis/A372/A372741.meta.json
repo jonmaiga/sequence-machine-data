@@ -1,0 +1,23 @@
+{
+  "description": "Coreful highly touchable numbers: numbers m > 0 such that a record number of numbers k have m as the sum of the aliquot coreful divisors (A336563) of k.",
+  "id": "A372741",
+  "mentions": [
+    "A238895",
+    "A307958",
+    "A325177",
+    "A331972",
+    "A331974",
+    "A336563",
+    "A372739",
+    "A372740"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

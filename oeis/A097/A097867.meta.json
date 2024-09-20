@@ -1,5 +1,5 @@
 {
-  "description": "The n-th group (n>=0) of 9 consecutive terms are the entries, read by rows, of the 3 X 3 matrix A[n]=MA[n-1], where M is the 3 X 3 matrix [[0, 1, 0], [0, 0, 1], [1, 1, 0]] and A[0] is the 3 X 3 matrix [[0, 1, 1], [1, 1, 2], [1, 2, 2]].",
+  "description": "The n-th group (n>=0) of 9 consecutive terms are the entries, read by rows, of the 3 X 3 matrix A[n]=M*A[n-1], where M is the 3 X 3 matrix [[0, 1, 0], [0, 0, 1], [1, 1, 0]] and A[0] is the 3 X 3 matrix [[0, 1, 1], [1, 1, 2], [1, 2, 2]].",
   "id": "A097867",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 95,
+    "size": 99,
     "source": "oeis-entry"
   }
 }

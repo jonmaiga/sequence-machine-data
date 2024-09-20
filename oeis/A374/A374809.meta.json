@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of 4 distinct nonzero tetrahedral numbers in exactly n ways, or -1 if no such number exists.",
+  "id": "A374809",
+  "mentions": [
+    "A000292",
+    "A334013",
+    "A374807",
+    "A374808"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

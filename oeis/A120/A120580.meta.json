@@ -1,5 +1,5 @@
 {
-  "description": "Hankel transform of sum{k=0..n, C(2k,k)}.",
+  "description": "Hankel transform of Sum_{k=0..n} C(2k,k).",
   "id": "A120580",
   "mentions": [
     "A006134",

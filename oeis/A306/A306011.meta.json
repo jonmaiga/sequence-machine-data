@@ -1,5 +1,5 @@
 {
-  "description": "Let S(m) = d(k)/d(1) + ... + d(1)/d(k), where d(1)..d(k) are the unitary divisors of m; then a(n) is the numerator of S(m) when the all the numbers S(m) are arranged in increasing order.",
+  "description": "Let S(m) = d(k)/d(1) + ... + d(1)/d(k), where d(1)..d(k) are the unitary divisors of m; then a(n) is the numerator of S(m) when all the numbers S(m) are arranged in increasing order.",
   "id": "A306011",
   "mentions": [
     "A077610",

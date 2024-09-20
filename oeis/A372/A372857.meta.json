@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Integral_{x=2..oo} 1/(x*(log(x))^(x/2)) dx.",
+  "id": "A372857",
+  "mentions": [
+    "A372856"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

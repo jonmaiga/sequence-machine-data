@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k+1 both have an equal number of even and odd digits.",
+  "id": "A373460",
+  "mentions": [
+    "A017377",
+    "A227870",
+    "A337238",
+    "A373505"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

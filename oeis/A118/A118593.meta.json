@@ -1,11 +1,12 @@
 {
-  "description": "Larger component of twin prime pairs whose sum is a square.",
+  "description": "Larger member of twin prime pairs whose sum is a square.",
   "id": "A118593",
   "mentions": [
     "A069496"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

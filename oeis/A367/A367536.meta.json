@@ -1,5 +1,5 @@
 {
-  "description": "The number of ways of tiling the n X n torus up to the symmetries of the square by a tile that is fixed under matrix transposition but no other symmetries.",
+  "description": "Number of ways of tiling the n X n torus up to the symmetries of the square by a tile that is fixed under matrix transposition but no other symmetries.",
   "id": "A367536",
   "mentions": [
     "A255016",

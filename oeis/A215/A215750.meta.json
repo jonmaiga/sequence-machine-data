@@ -4,16 +4,19 @@
   "mentions": [
     "A028232",
     "A082571",
+    "A153496",
     "A215749",
-    "A215752"
+    "A215752",
+    "A215754",
+    "A215758"
   ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 80,
-    "source": "joeis"
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
   }
 }

@@ -2,15 +2,15 @@
   "description": "Primes in the products of consecutive prime-indexed primes + 2 or A080696(n) + 2.",
   "id": "A090886",
   "mentions": [
-    "A080696"
+    "A080696",
+    "A087400"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Squares that are the sum of three distinct positive cubes.",
   "id": "A112474",
   "mentions": [
+    "A000290",
     "A024975"
   ],
   "tags": [

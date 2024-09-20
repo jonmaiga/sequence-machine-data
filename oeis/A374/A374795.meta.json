@@ -1,0 +1,15 @@
+{
+  "description": "The minimum diameter of a chordal ring mixed graph with 2*n vertices.",
+  "id": "A374795",
+  "mentions": [
+    "A373503"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

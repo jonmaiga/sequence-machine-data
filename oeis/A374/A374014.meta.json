@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (Sum_{k>=0} x^(k^4))^16.",
+  "id": "A374014",
+  "mentions": [
+    "A000583",
+    "A002377",
+    "A014110",
+    "A099591",
+    "A282288",
+    "A374016"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

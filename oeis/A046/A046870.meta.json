@@ -1,5 +1,5 @@
 {
-  "description": "Sigma(1,n) divides Sigma(4,n).",
+  "description": "Numbers k such that sigma_1(k) divides sigma_4(k).",
   "id": "A046870",
   "mentions": [
     "A000203",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

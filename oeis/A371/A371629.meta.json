@@ -1,0 +1,18 @@
+{
+  "description": "If 2n = Sum 2^e(k) then a(n) = Sum e(k)^3.",
+  "id": "A371629",
+  "mentions": [
+    "A003997",
+    "A008935",
+    "A029931"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Triangle T(n,k) read by rows with row n equal to the unique permutation pi_n of [1, ..., n] such that k + pi_n(k) is a power of 2 for 1 <= k <= n.",
+  "id": "A375301",
+  "mentions": [
+    "A000079",
+    "A375302"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

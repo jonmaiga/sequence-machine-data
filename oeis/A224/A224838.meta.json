@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of falling diagonals of A011973 (with rows displayed as centered text).",
+  "description": "Triangle read by rows, obtained from triangle A011973 by reading that array from right to left along the irregular paths shown in the figure.",
   "id": "A224838",
   "mentions": [
     "A000045",

@@ -2,14 +2,17 @@
   "description": "Cubes which are palindromes in base 5.",
   "id": "A046234",
   "mentions": [
+    "A000578",
+    "A029952",
     "A046233"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 13,
     "source": "oeis-entry"
   }

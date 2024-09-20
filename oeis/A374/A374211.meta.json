@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that for all i, j >= 1, a(i) = a(j) => f(i) = f(j), with f(1) = 1, and for n > 1, f(n) = [A278226(A328768(n)), A374212(n), A374213(n)], where A328768 is the first primorial based variant of the arithmetic derivative, and A374212 and A374213 are its 2- and 3-adic valuations.",
+  "id": "A374211",
+  "mentions": [
+    "A002110",
+    "A046523",
+    "A152822",
+    "A276086",
+    "A278226",
+    "A305900",
+    "A328768",
+    "A328771",
+    "A373982",
+    "A373991",
+    "A374131",
+    "A374212",
+    "A374213"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

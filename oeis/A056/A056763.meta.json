@@ -1,5 +1,5 @@
 {
-  "description": "Number of x integers between 2^(n-1) and 2^n for which d(x)^3 > x holds, i.e., cube of number of divisors of x exceeds the number x and binary size of x is n.",
+  "description": "Number of integers in the range (2^(n-1), 2^n] for which d(k)^3 > k holds, i.e., the cube of the number of divisors of k exceeds the number k.",
   "id": "A056763",
   "mentions": [
     "A000005",
@@ -11,12 +11,11 @@
     "A056767"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 64,
     "source": "oeis-entry"
   }
 }

@@ -1,8 +1,14 @@
 {
   "description": "Number of distinct sums i+j, absolute differences |i-j|, products ij and quotients i/j and j/i with 1 <= i, j <= n.",
   "id": "A180622",
-  "mentions": [],
+  "mentions": [
+    "A002088",
+    "A018805",
+    "A027424",
+    "A263995"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

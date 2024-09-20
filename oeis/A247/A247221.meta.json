@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*n^2 + 1 divides 2^n + 1.",
+  "description": "Numbers k such that 2*k^2 + 1 divides 2^k + 1.",
   "id": "A247221",
   "mentions": [
     "A247205",

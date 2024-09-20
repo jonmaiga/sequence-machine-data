@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction form of zeta(Pi).",
+  "description": "Continued fraction for zeta(Pi).",
   "id": "A197080",
   "mentions": [
     "A068469"
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 78,
     "source": "oeis-entry"
   }

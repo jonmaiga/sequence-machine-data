@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers k that divide A000296(k) + (-1)^k.",
+  "id": "A372525",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A179508"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest unused positive number such that omega(a(n)) does not equal omega(a(n-1)) or omega(a(n-2)).",
+  "id": "A373350",
+  "mentions": [
+    "A001221",
+    "A027748",
+    "A109465",
+    "A372975"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

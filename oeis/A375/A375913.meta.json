@@ -1,0 +1,18 @@
+{
+  "description": "Number of strong (=generic) guillotine rectangulations with n rectangles.",
+  "id": "A375913",
+  "mentions": [
+    "A001181",
+    "A006318",
+    "A342141"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

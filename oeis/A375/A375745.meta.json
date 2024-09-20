@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of the vector of the reduced discriminant of the n-th cyclotomic polynomial.",
+  "id": "A375745",
+  "mentions": [
+    "A004124",
+    "A070537",
+    "A127473"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

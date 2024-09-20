@@ -1,12 +1,14 @@
 {
-  "description": "a(n) = n - phi(n) + 1.",
+  "description": "a(n) = #{ 0 <= k <= n : K(n, k) = 0 } where K(n, k) is the Kronecker symbol. This is the number of integers 0 <= k <= n that are not coprime to n.",
   "id": "A062830",
   "mentions": [
     "A000010",
     "A006881",
     "A008472",
     "A051953",
-    "A067392"
+    "A067392",
+    "A096396",
+    "A096397"
   ],
   "tags": [
     "easy",
@@ -14,8 +16,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 71,
+    "offset": 0,
+    "size": 72,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that numerator of Sum_{k=1..n} 1/(prime(k)-k) is prime.",
+  "description": "Numbers m such that numerator of Sum_{k=1..m} 1/(prime(k)-k) is prime.",
   "id": "A092065",
   "mentions": [
     "A092063",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 53,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "The second Fibonacci based variant of arithmetic derivative: a(p) = A000045(2+A000720(p)) for prime p, a(u*v) = a(u)*v + u*a(v), with a(0) = a(1) = 0.",
+  "description": "The second Fibonacci based variant of arithmetic derivative: a(p) = A000045(2+A000720(p)) for prime p, a(u*v) = a(u)*v + u*a(v), with a(0) = a(1) = 0. Also called PrimePi-Fibonacci variant of the arithmetic derivative.",
   "id": "A328846",
   "mentions": [
     "A000040",
@@ -12,7 +12,12 @@
     "A328768",
     "A328769",
     "A328845",
-    "A328848"
+    "A328848",
+    "A371192",
+    "A374035",
+    "A374048",
+    "A374049",
+    "A374050"
   ],
   "tags": [
     "formulas",

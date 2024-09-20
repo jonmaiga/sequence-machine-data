@@ -1,5 +1,5 @@
 {
-  "description": "Simple recursive sequence generated from a symmetric matrix.",
+  "description": "Expansion of g.f. x*(1-x)/(1-4*x-2*x^2+x^3).",
   "id": "A100295",
   "mentions": [
     "A100296",

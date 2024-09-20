@@ -1,0 +1,24 @@
+{
+  "description": "Number of regions among all distinct circles that can be constructed from the 4 vertices and the equally spaced 4*n points placed on the sides of a square, using only a compass.",
+  "id": "A372978",
+  "mentions": [
+    "A353782",
+    "A360352",
+    "A371374",
+    "A372615",
+    "A372977",
+    "A372979",
+    "A372980",
+    "A372981"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

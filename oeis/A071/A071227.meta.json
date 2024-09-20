@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions 1<=x<=n to gcd(A033950(n),x) = tau(A033950(n)).",
+  "description": "Number of solutions 1<=x<=m to gcd(m,x) = tau(m) where m = A033950(n).",
   "id": "A071227",
   "mentions": [
     "A033950"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 77,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,15 +1,20 @@
 {
-  "description": "Prime(prime(10^n)).",
+  "description": "a(n) = prime(prime(10^n)).",
   "id": "A092252",
   "mentions": [
-    "A006450"
+    "A000040",
+    "A006450",
+    "A006988",
+    "A096359"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Number of solutions to n = x^2 + 3*x*y + y^2 with 0 < x < y.",
+  "id": "A374093",
+  "mentions": [
+    "A025441",
+    "A374092"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

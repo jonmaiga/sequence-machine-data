@@ -1,0 +1,17 @@
+{
+  "description": "If a(n-1) is not a prime, then a(n) = 2*a(n-1) + S; otherwise set S = -S and a(n) = prime(n) + S; start with a(1) = 2, S = -1.",
+  "id": "A373808",
+  "mentions": [
+    "A373805",
+    "A373806",
+    "A373807"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

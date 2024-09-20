@@ -1,0 +1,19 @@
+{
+  "description": "Number of edge subsets E of the n-dimensional hypercube graph such that E contains a path between two given antipodal nodes.",
+  "id": "A373035",
+  "mentions": [
+    "A061301",
+    "A372705",
+    "A373034",
+    "A373037"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

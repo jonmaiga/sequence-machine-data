@@ -1,0 +1,22 @@
+{
+  "description": "Cardinality of the largest subset of {1,...,n} such that no six distinct elements of this subset multiply to a square.",
+  "id": "A373195",
+  "mentions": [
+    "A000720",
+    "A013928",
+    "A028391",
+    "A372306",
+    "A373114",
+    "A373119",
+    "A373178"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

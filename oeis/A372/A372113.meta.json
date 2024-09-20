@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which (k-1)/2 and 2*k+1 are both primes.",
+  "id": "A372113",
+  "mentions": [
+    "A023213",
+    "A072055",
+    "A104635",
+    "A126330"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

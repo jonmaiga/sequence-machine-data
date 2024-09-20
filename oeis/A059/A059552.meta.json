@@ -2,7 +2,8 @@
   "description": "Beatty sequence for Gamma(1/3)/(Gamma(1/3)-1).",
   "id": "A059552",
   "mentions": [
-    "A059551"
+    "A059551",
+    "A073005"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the reduced fraction of all rational number representations (a/b, with a and b being integers) which can themselves be reduced by at least one common prime factor of at most prime(n).",
+  "id": "A372634",
+  "mentions": [
+    "A000040",
+    "A072044",
+    "A072045",
+    "A229099"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

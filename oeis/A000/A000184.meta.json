@@ -2,6 +2,7 @@
   "description": "Number of genus 0 rooted maps with 3 faces with n vertices.",
   "id": "A000184",
   "mentions": [
+    "A000108",
     "A007401",
     "A029887"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Integers p such that x=p^3 is in A120806: x+d+1 is prime for all divisors d of x. All p greater than 1 are odd primes.",
+  "description": "Integers p such that x = p^3 is in A120806: x+d+1 is prime for all divisors d of x. All p greater than 1 are odd primes.",
   "id": "A120808",
   "mentions": [
     "A120806",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

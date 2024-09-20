@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose prime factorization has exactly two exponents that equal 2 and has no higher exponents.",
+  "id": "A375144",
+  "mentions": [
+    "A057521",
+    "A060687",
+    "A085986",
+    "A179119",
+    "A179643"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

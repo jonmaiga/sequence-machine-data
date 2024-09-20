@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers using exactly one digit 1, two digits 2, three digits 3, four digits 4, five digits 5, six digits 6, seven digits 7, eight digits 8, nine digits 9 and no digit 0.",
+  "id": "A373722",
+  "mentions": [
+    "A001462"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

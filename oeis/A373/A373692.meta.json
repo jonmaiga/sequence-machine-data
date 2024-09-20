@@ -1,0 +1,19 @@
+{
+  "description": "Table of the number of ways T(m,n) to partition a 2m X 2n grid into Cartesian products of size 2 X 2, read by ascending antidiagonals.",
+  "id": "A373692",
+  "mentions": [
+    "A001147",
+    "A079484",
+    "A160911"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

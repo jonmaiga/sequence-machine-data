@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest number m > 0 such that n followed by m 3's yields a prime, or -1 if no such m exists.",
+  "id": "A372262",
+  "mentions": [
+    "A069568",
+    "A090584",
+    "A363922",
+    "A372056"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

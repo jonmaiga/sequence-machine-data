@@ -1,0 +1,15 @@
+{
+  "description": "Number of crystallized linear chord diagrams on n chords.",
+  "id": "A375505",
+  "mentions": [
+    "A375504"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

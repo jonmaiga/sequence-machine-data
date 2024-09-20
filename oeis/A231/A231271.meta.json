@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+d are both odious (A000069) or both evil (A001969) for every divisor d of n.",
+  "description": "Numbers k such that k and k+d are both odious (A000069) or both evil (A001969) for every divisor d of k.",
   "id": "A231271",
   "mentions": [
     "A000069",

@@ -1,7 +1,15 @@
 {
   "description": "a(n) = 9*n - a(n-1), with n>1, a(1)=1.",
   "id": "A166524",
-  "mentions": [],
+  "mentions": [
+    "A166519",
+    "A166520",
+    "A166521",
+    "A166522",
+    "A166523",
+    "A166525",
+    "A166526"
+  ],
   "tags": [
     "easy",
     "formulas",

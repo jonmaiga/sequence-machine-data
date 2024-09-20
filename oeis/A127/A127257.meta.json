@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=A(n,1), the first element of each sequence A(n) defined recursively as follows. Let A(1)=A119752, that is, A(1,k)=A119752(k). Then A(n) is the sequence defined recursively as follows: (1) A(n,1) is the first even number not in any A(m), 1<=m",
+  "description": "a(n) is the initial element of the sequence A(n) defined exactly like A119752 but with the additional condition that each of its elements must not be contained in any of the sequences A(k) for k < n.",
   "id": "A127257",
   "mentions": [
     "A119751",

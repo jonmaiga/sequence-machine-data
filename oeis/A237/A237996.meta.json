@@ -1,8 +1,12 @@
 {
-  "description": "Triangular array read by rows. T(n,k) is the number of even permutations of {1,2,...,n} that have exactly k cycles, n>=0,0<=k<=n.",
+  "description": "Triangular array read by rows. T(n,k) is the number of even permutations of {1,2,...,n} that have exactly k cycles, n >= 0, 0 <= k <= n.",
   "id": "A237996",
   "mentions": [
-    "A001710"
+    "A001710",
+    "A008275",
+    "A130534",
+    "A132393",
+    "A164652"
   ],
   "tags": [
     "formulas",

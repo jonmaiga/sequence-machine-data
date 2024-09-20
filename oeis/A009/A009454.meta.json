@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. sin(log(1+x)).",
   "id": "A009454",
   "mentions": [
+    "A003703",
     "A008276",
     "A231530",
     "A242652"

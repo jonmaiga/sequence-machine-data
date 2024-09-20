@@ -1,8 +1,14 @@
 {
-  "description": "Numbers n such that 3^prime(n) - 2 is prime.",
+  "description": "Numbers k such that 3^prime(k) - 2 is prime.",
   "id": "A089919",
-  "mentions": [],
+  "mentions": [
+    "A000720",
+    "A014224",
+    "A086218"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

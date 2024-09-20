@@ -2,6 +2,7 @@
   "description": "E.g.f. tan(x)*exp(x).",
   "id": "A009739",
   "mentions": [
+    "A003701",
     "A003719",
     "A009747"
   ],

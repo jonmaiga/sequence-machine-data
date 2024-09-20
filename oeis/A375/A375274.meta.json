@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the asymptotic density of the exponentially Fibonacci numbers (A115063).",
+  "id": "A375274",
+  "mentions": [
+    "A000045",
+    "A010056",
+    "A115063",
+    "A259623"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

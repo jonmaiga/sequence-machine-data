@@ -1,8 +1,9 @@
 {
-  "description": "Primes of [1+repdigit] form. Primes whose totient is repdigit.",
+  "description": "Primes of the form 1 + repdigit. Primes whose totient is a repdigit.",
   "id": "A096505",
   "mentions": [
     "A000010",
+    "A010785",
     "A096503",
     "A096504"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

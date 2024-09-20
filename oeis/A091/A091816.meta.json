@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that numerator of sum(i=1,n,(i+1)/i) is prime.",
+  "description": "Numbers m such that the numerator of Sum_{i=1..m} (i+1)/i is prime.",
   "id": "A091816",
-  "mentions": [],
+  "mentions": [
+    "A091815",
+    "A166939"
+  ],
   "tags": [
-    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

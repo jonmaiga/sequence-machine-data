@@ -1,10 +1,9 @@
 {
-  "description": "Triangle T(n,m) read by rows: Gray code of A060187(n,m) (decimal representation), 1<=m<=n.",
+  "description": "Triangle T(n,m) read by rows: Gray code of A060187(n, k) (decimal representation), 1 <= k <= n, n >= 1.",
   "id": "A143213",
   "mentions": [
-    "A003188",
     "A060187",
-    "A123125"
+    "A143214"
   ],
   "tags": [
     "formulas",
@@ -13,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 63,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

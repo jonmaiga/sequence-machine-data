@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n, k) (n, k >= 1) read by antidiagonals in ascending order: A(n, k) = Max_{i = 1..n} v_prime(i)(k), where v_p(k) is the p-adic valuation of k.",
+  "id": "A375537",
+  "mentions": [
+    "A000720",
+    "A006530",
+    "A007814",
+    "A051903",
+    "A244417",
+    "A249344",
+    "A375536",
+    "A375538",
+    "A375539"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

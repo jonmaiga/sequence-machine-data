@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp((exp(x) - 1)^5).",
+  "id": "A375773",
+  "mentions": [
+    "A000110",
+    "A052859",
+    "A353404",
+    "A353664",
+    "A353665",
+    "A373940"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

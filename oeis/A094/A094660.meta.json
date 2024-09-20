@@ -1,5 +1,5 @@
 {
-  "description": "Number of permissible patterns of primes in a fixed interval.",
+  "description": "Number of permissible patterns of primes in a fixed interval of n consecutive integers.",
   "id": "A094660",
   "mentions": [
     "A008407",
@@ -8,6 +8,7 @@
     "A023192"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

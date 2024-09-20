@@ -2,8 +2,7 @@
   "description": "Position of the first letter of n-th (in English) in the alphabet.",
   "id": "A331481",
   "mentions": [
-    "A005606",
-    "A311481"
+    "A005606"
   ],
   "tags": [
     "nonn",

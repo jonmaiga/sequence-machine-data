@@ -1,5 +1,5 @@
 {
-  "description": "Palindromes which are nontrivial multiples of 3 palindromes (need not be distinct).",
+  "description": "Numbers which are nontrivial multiples of 3 palindromes (need not be distinct).",
   "id": "A071280",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

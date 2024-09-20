@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that no three terms a(j), a(j+k), a(j+2k) (for any j and k) form a progression of the form p, p-2*q, p-q, where q >= 0.",
+  "id": "A373010",
+  "mentions": [
+    "A003278",
+    "A100480",
+    "A229037",
+    "A309890",
+    "A361933",
+    "A371632",
+    "A373052",
+    "A373111"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

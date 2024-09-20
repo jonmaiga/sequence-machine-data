@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that the difference between the sum of nonprime numbers and the sum of prime numbers <= k is a square.",
+  "id": "A373945",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A018252",
+    "A051352"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

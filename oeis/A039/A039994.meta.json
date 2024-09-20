@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes embedded in prime(n) as subsequences.",
+  "description": "Number of primes embedded in decimal expansion of prime(n) as substrings.",
   "id": "A039994",
   "mentions": [
     "A039995",

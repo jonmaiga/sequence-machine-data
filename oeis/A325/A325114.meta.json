@@ -1,11 +1,13 @@
 {
-  "description": "Integers such that no nonzero subsequence of decimal representation is divisible by 7.",
+  "description": "Integers k such that no nonzero subsequence of the decimal representation of k is divisible by 7.",
   "id": "A325114",
   "mentions": [
     "A014261",
+    "A092433",
     "A261189",
     "A325112",
-    "A325113"
+    "A325113",
+    "A376046"
   ],
   "tags": [
     "base",
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 67,
-    "source": "oeis-entry"
+    "size": 84,
+    "source": "oeis-bfile"
   }
 }

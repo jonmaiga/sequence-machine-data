@@ -1,9 +1,10 @@
 {
   "description": "Integers for which the periodic part of the continued fraction for the square root of n begins with 9.",
   "id": "A065012",
-  "mentions": [],
+  "mentions": [
+    "A065005"
+  ],
   "tags": [
-    "cofr",
     "easy",
     "nonn"
   ],

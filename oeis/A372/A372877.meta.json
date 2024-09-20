@@ -1,0 +1,24 @@
+{
+  "description": "Jacobi's triangle read by rows. T(n, k) = J(n, k) where J(n, k) is the Jacobi symbol (n / k) provided k is odd and otherwise 0.",
+  "id": "A372877",
+  "mentions": [
+    "A055034",
+    "A055088",
+    "A217831",
+    "A372726",
+    "A372728",
+    "A372876",
+    "A373223",
+    "A373748",
+    "A373751"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

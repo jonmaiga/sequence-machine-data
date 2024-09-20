@@ -1,7 +1,10 @@
 {
   "description": "Fibonacci-Fermat numbers.",
   "id": "A101341",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A000215"
+  ],
   "tags": [
     "formulas",
     "nonn"

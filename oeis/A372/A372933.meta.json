@@ -1,0 +1,19 @@
+{
+  "description": "Records in A071961, divided by 2.",
+  "id": "A372933",
+  "mentions": [
+    "A006308",
+    "A008837",
+    "A071961",
+    "A372728",
+    "A372934"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -20,12 +20,11 @@
     "A322531"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 70,
-    "source": "oeis-entry"
+    "size": 75,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "The number of ways of tiling the n X n torus up to diagonal and antidiagonal reflection of the square by an asymmetric tile.",
+  "description": "Number of ways of tiling the n X n torus up to diagonal and antidiagonal reflection of the square by an asymmetric tile.",
   "id": "A368142",
   "mentions": [
     "A367529",

@@ -1,7 +1,9 @@
 {
   "description": "Floor(average of first n factorials).",
   "id": "A078619",
-  "mentions": [],
+  "mentions": [
+    "A000142"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

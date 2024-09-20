@@ -2,7 +2,7 @@
   "description": "Sophie Germain primes that are not Lucasian primes: primes p not 3 (mod 4) such that 2p + 1 is prime.",
   "id": "A103579",
   "mentions": [
-    "A002145",
+    "A002144",
     "A002515",
     "A005384",
     "A163782"

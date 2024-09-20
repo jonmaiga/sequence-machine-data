@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m for which the sum of all values of k satisfying the equation: m mod k = floor((m - k)/k) mod k (1 <= k <= m) exceeds 2*m.",
+  "id": "A375595",
+  "mentions": [
+    "A005101",
+    "A051731",
+    "A375007"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

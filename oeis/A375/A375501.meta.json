@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*A001595(k)^2.",
+  "id": "A375501",
+  "mentions": [
+    "A000045",
+    "A001595",
+    "A059841",
+    "A375500"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

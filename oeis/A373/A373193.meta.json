@@ -1,0 +1,19 @@
+{
+  "description": "On a unit square grid, the number of squares enclosed by a circle of radius n with origin at the center of a square.",
+  "id": "A373193",
+  "mentions": [
+    "A000328",
+    "A119677",
+    "A125228",
+    "A372847"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

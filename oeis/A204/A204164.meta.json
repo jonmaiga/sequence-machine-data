@@ -1,12 +1,16 @@
 {
-  "description": "Symmetric matrix based on f(i,j)=floor[(i+j)/2], by antidiagonals.",
+  "description": "Symmetric matrix based on f(i,j) = floor((i+j)/2), by antidiagonals.",
   "id": "A204164",
   "mentions": [
+    "A057211",
     "A202453",
     "A204016",
-    "A204165"
+    "A204165",
+    "A370655"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

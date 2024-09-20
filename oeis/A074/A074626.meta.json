@@ -1,18 +1,20 @@
 {
-  "description": "Prime following n-th Mersenne prime.",
+  "description": "Prime following the n-th Mersenne prime.",
   "id": "A074626",
   "mentions": [
     "A000668",
-    "A073715"
+    "A073715",
+    "A151800",
+    "A365160"
   ],
   "tags": [
-    "easy",
     "formulas",
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 12,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

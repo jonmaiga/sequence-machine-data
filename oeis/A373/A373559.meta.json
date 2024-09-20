@@ -1,0 +1,26 @@
+{
+  "description": "Squares k such that rad(k) is a primorial number.",
+  "id": "A373559",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A002110",
+    "A007947",
+    "A025487",
+    "A033845",
+    "A055932",
+    "A143207",
+    "A147571",
+    "A147572"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

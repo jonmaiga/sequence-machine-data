@@ -2,16 +2,16 @@
   "description": "Records for terms in the continued fraction of the Glaisher-Kinkelin constant A.",
   "id": "A099791",
   "mentions": [
-    "A099792"
+    "A087501",
+    "A225752"
   ],
   "tags": [
-    "cofr",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 10,
     "source": "oeis-entry"
   }

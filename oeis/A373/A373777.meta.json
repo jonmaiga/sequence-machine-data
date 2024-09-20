@@ -1,0 +1,18 @@
+{
+  "description": "For an oriented graph D, let X_m(D) be the number of copies of D in a random tournament (i.e., a complete graph, each of whose edges is directed randomly with probability 1/2 for each direction) on m vertices. a(n) is the denominator of the minimum limit, as m tends to infinity, of Var(X_m(D))/m^A373775(n) over all weakly connected oriented graphs D on n vertices.",
+  "id": "A373777",
+  "mentions": [
+    "A373775",
+    "A373776"
+  ],
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

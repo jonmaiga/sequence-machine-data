@@ -1,9 +1,10 @@
 {
-  "description": "Composite numbers n such that (n!/n#)+1 is prime, where n# = primorial numbers A034386.",
+  "description": "Composite numbers k such that k!/k# + 1 is prime, where k# = primorial numbers A034386.",
   "id": "A049420",
   "mentions": [
     "A034386",
     "A049421",
+    "A053982",
     "A140293",
     "A140294",
     "A140315"

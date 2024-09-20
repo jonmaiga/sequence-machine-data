@@ -1,5 +1,5 @@
 {
-  "description": "Minimal exponent in prime factorization of the average of n-th twin prime pair.",
+  "description": "The minimum exponent in prime factorization of the average of n-th twin prime pair.",
   "id": "A078572",
   "mentions": [
     "A001359",
@@ -10,6 +10,7 @@
     "A078573"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "If n is prime, a(n) = 1 if the number of steps in its prime index chain is odd, a(n) = -1 if the number of steps is even, and a(n) = 0 is n is composite or 1.",
+  "id": "A373497",
+  "mentions": [
+    "A018252",
+    "A078442",
+    "A262275",
+    "A333242"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

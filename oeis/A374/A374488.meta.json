@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 - 2*x - 11*x^2)^(3/2).",
+  "id": "A374488",
+  "mentions": [
+    "A014432",
+    "A025237",
+    "A084603",
+    "A102839",
+    "A102840",
+    "A374487"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

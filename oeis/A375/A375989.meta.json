@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. (1 + 3 * log(1 - x))^(5/3).",
+  "id": "A375989",
+  "mentions": [
+    "A354263",
+    "A365575",
+    "A375946",
+    "A375951",
+    "A375988"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum(stirling1(n+1,k+1)^2*k!,k=0..n).",
+  "description": "a(n) = Sum_{k=0..n} Stirling1(n+1,k+1)^2*k!.",
   "id": "A192561",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

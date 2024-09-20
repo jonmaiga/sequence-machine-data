@@ -2,7 +2,8 @@
   "description": "Self-convolution of 1,4,27,256,3125,46656,... (cf. A000312).",
   "id": "A053729",
   "mentions": [
-    "A000312"
+    "A000312",
+    "A100262"
   ],
   "tags": [
     "easy",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

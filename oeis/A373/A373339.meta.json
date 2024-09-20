@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations in symmetric group S_n with an even number of cycles of length 2 or more.",
+  "id": "A373339",
+  "mentions": [
+    "A000142",
+    "A001710",
+    "A036289",
+    "A373340",
+    "A373417"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

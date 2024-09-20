@@ -5,11 +5,12 @@
     "A038377"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 49,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "sech(log(cos(x)))=1-3/4!*x^4-30/6!*x^6-63/8!*x^8+12540/10!*x^10...",
+  "description": "Expansion of e.g.f. sech(log(cos(x))) (even exponents only).",
   "id": "A012009",
   "mentions": [
     "A012003",

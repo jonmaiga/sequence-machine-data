@@ -2,17 +2,20 @@
   "description": "Central terms of triangle A183065.",
   "id": "A183068",
   "mentions": [
+    "A002897",
+    "A005258",
     "A183065",
     "A183066",
     "A183067"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

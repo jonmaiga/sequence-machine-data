@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k that divide the k-th term of the tribonacci sequence A000213.",
+  "id": "A373055",
+  "mentions": [
+    "A000073",
+    "A000213",
+    "A014847",
+    "A016089",
+    "A023172",
+    "A051177",
+    "A232570",
+    "A246692",
+    "A266969"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,16 +1,9 @@
 {
-  "description": "k=11 case of family of sequences beyond Fibonacci and Padovan.",
+  "description": "a(n) = a(n-11) + a(n-12).",
   "id": "A103379",
   "mentions": [
-    "A000045",
-    "A000931",
     "A079398",
     "A103372",
-    "A103373",
-    "A103374",
-    "A103375",
-    "A103376",
-    "A103377",
     "A103378",
     "A103380",
     "A103389",

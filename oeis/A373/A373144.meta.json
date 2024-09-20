@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that both A003415(k) and A276085(k) are multiples of 3, where A003415 is the arithmetic derivative and A276085 is the primorial base log-function.",
+  "id": "A373144",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A327863",
+    "A339746",
+    "A369650",
+    "A373143",
+    "A373145"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

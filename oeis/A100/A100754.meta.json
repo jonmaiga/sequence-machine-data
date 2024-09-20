@@ -1,12 +1,18 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of hill-free Dyck paths (i.e., no peaks at height 1) of semilength n and having k peaks.",
+  "description": "Triangle read by rows: T(n, k) = number of hill-free Dyck paths (i.e., no peaks at height 1) of semilength n and having k peaks.",
   "id": "A100754",
   "mentions": [
     "A000957",
     "A005043",
+    "A099594",
     "A108263",
     "A126120",
-    "A132081"
+    "A132081",
+    "A272644",
+    "A372066",
+    "A372067",
+    "A372068",
+    "A372368"
   ],
   "tags": [
     "formulas",

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 4a(n-1) + 5a(n-2).",
+  "description": "a(n) = 4*a(n-1) + 5*a(n-2) for n > 1, with a(0) = 2 and a(1) = 4.",
   "id": "A087404",
   "mentions": [
+    "A081340",
     "A111317"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "joeis"
   }
 }

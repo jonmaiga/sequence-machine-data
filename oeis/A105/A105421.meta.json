@@ -6,14 +6,15 @@
     "A105287",
     "A105288",
     "A105290",
-    "A105329"
+    "A105329",
+    "A105451"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

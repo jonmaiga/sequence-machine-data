@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of A373158(n) / A108951(n), where A108951 is fully multiplicative and A373158 is fully additive with a(p) = p# for prime p, where x# is the primorial A034386(x).",
+  "id": "A373987",
+  "mentions": [
+    "A034386",
+    "A108951",
+    "A373158",
+    "A373985",
+    "A373986"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

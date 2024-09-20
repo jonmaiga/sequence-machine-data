@@ -1,0 +1,26 @@
+{
+  "description": "Array of successive integer solutions to sqrt((d-c)*b^2 + c*(b+1)^2) for nonsquare integers d >= 2 (d=A000037(n) for n >= 1), where b and c are positive integers and c < d, read by antidiagonals.",
+  "id": "A374602",
+  "mentions": [
+    "A000037",
+    "A001519",
+    "A001653",
+    "A033889",
+    "A033891",
+    "A079935",
+    "A122769",
+    "A131093",
+    "A189356",
+    "A373666"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "a(1)=1; for n>1, a(n)=2*a(n-1)+lcm(a(n-1),n).",
+  "description": "a(1) = 1; for n > 1, a(n) = 2*a(n-1) + lcm(a(n-1),n).",
   "id": "A135507",
   "mentions": [
-    "A106108"
+    "A106108",
+    "A140460"
   ],
   "tags": [
     "nice",

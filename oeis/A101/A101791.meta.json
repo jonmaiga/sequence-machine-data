@@ -1,14 +1,18 @@
 {
-  "description": "4n-1 such that 4n-1, 8n-1 and 16n-1 are primes.",
+  "description": "Primes of the form 4*k-1 such that 8*k-1 and 16*k-1 are also primes.",
   "id": "A101791",
   "mentions": [
+    "A002145",
     "A002515",
     "A101790",
     "A101792",
-    "A101793"
+    "A101793",
+    "A101795",
+    "A101995"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

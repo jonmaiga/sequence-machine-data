@@ -2,10 +2,9 @@
   "description": "First position of n in the continued fraction of log(10).",
   "id": "A228270",
   "mentions": [
-    "A016730"
+    "A016738"
   ],
   "tags": [
-    "cofr",
     "nonn"
   ],
   "terms": {

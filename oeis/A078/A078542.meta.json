@@ -2,6 +2,8 @@
   "description": "Unbalanced composite numbers.",
   "id": "A078542",
   "mentions": [
+    "A000010",
+    "A000203",
     "A020492",
     "A078538",
     "A078539",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

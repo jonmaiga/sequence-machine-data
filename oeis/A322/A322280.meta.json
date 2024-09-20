@@ -2,13 +2,16 @@
   "description": "Array read by antidiagonals: T(n,k) is the number of graphs on n labeled nodes, each node being colored with one of k colors, where no edge connects two nodes of the same color.",
   "id": "A322280",
   "mentions": [
+    "A000007",
+    "A000012",
     "A047863",
     "A058843",
     "A058875",
     "A191371",
     "A223887",
     "A322278",
-    "A322279"
+    "A322279",
+    "A372920"
   ],
   "tags": [
     "formulas",

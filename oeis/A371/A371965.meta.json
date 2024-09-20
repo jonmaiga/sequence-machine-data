@@ -2,7 +2,11 @@
   "description": "a(n) is the sum of all peaks in the set of Catalan words of length n.",
   "id": "A371965",
   "mentions": [
+    "A000984",
     "A002054",
+    "A006134",
+    "A106191",
+    "A281593",
     "A371963",
     "A371964"
   ],

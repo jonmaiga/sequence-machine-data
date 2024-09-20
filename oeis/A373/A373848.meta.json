@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that k is not divisible by p^p for any prime p, and for which 1 < A373842(k) <= k, where A373842 is the arithmetic derivative of the primorial base log-function.",
+  "id": "A373848",
+  "mentions": [
+    "A001222",
+    "A002620",
+    "A003415",
+    "A024451",
+    "A048103",
+    "A087112",
+    "A276085",
+    "A276086",
+    "A351228",
+    "A359550",
+    "A369979",
+    "A370129",
+    "A370138",
+    "A373603",
+    "A373842",
+    "A373844",
+    "A373845",
+    "A373846",
+    "A373847"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

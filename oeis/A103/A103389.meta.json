@@ -1,20 +1,9 @@
 {
-  "description": "Primes in A103379 (= 11-delayed Fibonacci b(n) = b(n-11)+b(n-12) or = 1 for n",
+  "description": "Primes in A103379.",
   "id": "A103389",
   "mentions": [
     "A000040",
-    "A000045",
-    "A000931",
-    "A079398",
-    "A103372",
-    "A103373",
-    "A103374",
-    "A103375",
-    "A103376",
-    "A103377",
-    "A103378",
     "A103379",
-    "A103381",
     "A103399"
   ],
   "tags": [

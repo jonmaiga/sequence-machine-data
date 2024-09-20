@@ -2,10 +2,12 @@
   "description": "Beatty sequence for 1 + 1/Catalan's constant.",
   "id": "A059534",
   "mentions": [
+    "A006752",
     "A059533"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

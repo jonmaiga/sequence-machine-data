@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of contractible cellular fake surfaces of complexity n.",
+  "id": "A373555",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,16 @@
 {
-  "description": "Triangle read by rows, Fibonacci product polynomials.",
+  "description": "Triangle read by rows. Coefficients of the Fibonacci product polynomials F(n) = Product_{k=1..(n - 1)/2} (1 + 4*cos^2(k*Pi/n)).",
   "id": "A152063",
   "mentions": [
     "A000045",
     "A002530",
+    "A011973",
     "A123965",
     "A125076",
     "A126124"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],

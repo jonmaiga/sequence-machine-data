@@ -1,0 +1,22 @@
+{
+  "description": "Tribonacci-Niven numbers (A352089) with a record gap to the next tribonacci-Niven number.",
+  "id": "A376029",
+  "mentions": [
+    "A337076",
+    "A337077",
+    "A347495",
+    "A347496",
+    "A352089",
+    "A352090",
+    "A376028"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

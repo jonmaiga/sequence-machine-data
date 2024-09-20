@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k in Z} x^k / (1 - x^(7*k+1)).",
+  "id": "A374900",
+  "mentions": [
+    "A008441",
+    "A033687",
+    "A097195",
+    "A340456"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

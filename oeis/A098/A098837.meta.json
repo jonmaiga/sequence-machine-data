@@ -2,13 +2,11 @@
   "description": "Smith semiprimes.",
   "id": "A098837",
   "mentions": [
-    "A004709",
-    "A006753",
-    "A202387"
+    "A001358",
+    "A006753"
   ],
   "tags": [
     "base",
-    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,8 @@
   "description": "Beatty sequence for 1 - 1/log(gamma).",
   "id": "A059560",
   "mentions": [
+    "A001620",
+    "A002389",
     "A059559"
   ],
   "tags": [

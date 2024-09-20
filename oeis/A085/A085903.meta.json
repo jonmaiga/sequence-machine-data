@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1 + 2*x^2)/((1 + x)*(1 - 2*x)*(1 - 2*x^2)).",
+  "description": "Expansion of (1 + 2*x^2)/((1 + x)*(1 - 2*x)*(1 - 2*x^2)).",
   "id": "A085903",
   "mentions": [
     "A000225",

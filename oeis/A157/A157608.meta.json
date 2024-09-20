@@ -1,20 +1,21 @@
 {
-  "description": "Array read by antidiagonals, giving number of hexagonal polyominoes embedded in the square lattice of height n and their series expansion by hexagonal cell count.",
+  "description": "Array read by antidiagonals, giving number of fixed hexagonal polyominoes of height up to n/2 and with hexagonal cell count k.",
   "id": "A157608",
   "mentions": [
     "A001170",
     "A001207",
-    "A059716"
+    "A059716",
+    "A068091",
+    "A308359"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
-    "obsc",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 78,
     "source": "oeis-entry"
   }
 }

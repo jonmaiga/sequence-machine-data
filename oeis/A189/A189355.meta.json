@@ -1,7 +1,9 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element moving one space diagonally, horizontally or vertically",
+  "description": "T(n,k) is the number of n X k array permutations with each element moving one space diagonally, horizontally or vertically.",
   "id": "A189355",
-  "mentions": [],
+  "mentions": [
+    "A189186"
+  ],
   "tags": [
     "nonn",
     "tabl"

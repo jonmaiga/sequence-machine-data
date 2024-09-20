@@ -1,0 +1,20 @@
+{
+  "description": "Number of domino tilings of the order n Aztec diamond which are diagonally and antidiagonally symmetric.",
+  "id": "A374154",
+  "mentions": [
+    "A005163",
+    "A006125",
+    "A372145",
+    "A374153"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

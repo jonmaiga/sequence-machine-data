@@ -1,7 +1,10 @@
 {
   "description": "Least m >= 0 such that 2^m has n 2's in its base-3 expansion.",
   "id": "A060035",
-  "mentions": [],
+  "mentions": [
+    "A104321",
+    "A375472"
+  ],
   "tags": [
     "base",
     "more",

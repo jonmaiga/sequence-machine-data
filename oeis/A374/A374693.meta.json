@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of 3 distinct nonzero fourth powers in exactly n ways, or -1 if no such number exists.",
+  "id": "A374693",
+  "mentions": [
+    "A025415",
+    "A025419",
+    "A230562",
+    "A374696"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

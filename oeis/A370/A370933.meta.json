@@ -1,16 +1,26 @@
 {
-  "description": "Inverse permutation to A370932.",
+  "description": "Number of pairs of antipodal vertices in the level n>1 Sierpiński triangle graph.",
   "id": "A370933",
   "mentions": [
-    "A370932"
+    "A007283",
+    "A029858",
+    "A067771",
+    "A193277",
+    "A233774",
+    "A233775",
+    "A246959",
+    "A257273",
+    "A298202",
+    "A375256"
   ],
   "tags": [
-    "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 68,
+    "offset": 2,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

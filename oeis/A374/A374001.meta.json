@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of elements z of Z_p[i] such that #{z^k, k >= 0} = p^2-1 (where p denotes A002145(n), the n-th prime number congruent to 3 modulo 4).",
+  "id": "A374001",
+  "mentions": [
+    "A002145",
+    "A271586",
+    "A373624"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

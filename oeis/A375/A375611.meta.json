@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k whose symmetric representation of sigma(k) has at least a part with maximum width 2.",
+  "id": "A375611",
+  "mentions": [
+    "A003056",
+    "A005279",
+    "A174905",
+    "A235791",
+    "A237048",
+    "A237593",
+    "A249223",
+    "A249351",
+    "A250068",
+    "A253258",
+    "A341969",
+    "A341970",
+    "A352030",
+    "A370205",
+    "A370206",
+    "A370209"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

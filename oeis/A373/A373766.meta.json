@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows, T(n,k) with n,k > 1, is the number of subsequences of length k over all permutations of [n], which are neither increasing or decreasing.",
+  "id": "A373766",
+  "mentions": [
+    "A144084"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

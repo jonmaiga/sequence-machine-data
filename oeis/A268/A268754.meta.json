@@ -2,7 +2,9 @@
   "description": "The period of an n X 1 rectangular oscillator in the B1/S Life-like cellular automaton.",
   "id": "A268754",
   "mentions": [
-    "A160657"
+    "A160657",
+    "A334504",
+    "A334507"
   ],
   "tags": [
     "formulas",

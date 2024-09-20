@@ -1,5 +1,5 @@
 {
-  "description": "Sum of lcm(x, y) for 1 <= x, y <= n.",
+  "description": "a(n) = Sum_{1 <= x, y <= n} lcm(x, y).",
   "id": "A064951",
   "mentions": [
     "A018806",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

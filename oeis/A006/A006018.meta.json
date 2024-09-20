@@ -1,14 +1,16 @@
 {
-  "description": "Periods for game of Third One Lucky.",
+  "description": "List of periods for game of Third One Lucky.",
   "id": "A006018",
   "mentions": [],
   "tags": [
+    "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the least number that ends with exactly n 1's and has exactly n prime divisors, counted with multiplicity.",
+  "id": "A376063",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least k with exactly n partitions k = x + y + z satisfying k' = x' + y' + z', where k' is the arithmetic derivative of k.",
+  "id": "A375238",
+  "mentions": [
+    "A003415",
+    "A212662",
+    "A373047",
+    "A375154"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Least k such that the 2^n successive values of phi(k+j) (j=0..2^n-1) are all distinct.",
   "id": "A079009",
   "mentions": [
+    "A000010",
     "A048892",
     "A079007",
     "A079008"

@@ -1,0 +1,22 @@
+{
+  "description": "a(n)^2 is the greatest square not exceeding A000217(n^2).",
+  "id": "A373329",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001109",
+    "A001110",
+    "A001333",
+    "A037270",
+    "A061288"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

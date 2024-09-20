@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = floor((3n)!/(n!^3 a(n-1)), where a(0)=1.",
+  "id": "A372990",
+  "mentions": [
+    "A372989"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

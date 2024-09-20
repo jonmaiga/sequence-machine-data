@@ -1,5 +1,5 @@
 {
-  "description": "(2n+1)^(2n+1) mod 2^(2n+1).",
+  "description": "a(n) = (2n+1)^(2n+1) mod 2^(2n+1).",
   "id": "A178537",
   "mentions": [
     "A000079",

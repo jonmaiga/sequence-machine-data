@@ -1,7 +1,12 @@
 {
-  "description": "Numbers n such that 1+9*10^n+100^n is prime.",
+  "description": "Numbers k such that 1 + 9*10^k + 100^k is prime.",
   "id": "A171554",
-  "mentions": [],
+  "mentions": [
+    "A171376",
+    "A171411",
+    "A171459",
+    "A171514"
+  ],
   "tags": [
     "more",
     "nonn"

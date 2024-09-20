@@ -1,0 +1,17 @@
+{
+  "description": "Denominator of the mean abundancy index of the divisors of n.",
+  "id": "A374778",
+  "mentions": [
+    "A374777"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

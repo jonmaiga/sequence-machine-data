@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: Coefficients of the Eulerian polynomials EC(n, x)*EZ(n, x), where EC denote the classical Eulerian and EZ the zig-zag Eulerian polynomials.",
+  "id": "A373434",
+  "mentions": [
+    "A173018",
+    "A205497",
+    "A373433"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

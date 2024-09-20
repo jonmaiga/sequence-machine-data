@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of 2n into 2n nonnegative parts such that their xor-sum is zero.",
+  "id": "A372967",
+  "mentions": [
+    "A048833",
+    "A088218",
+    "A131577",
+    "A233810",
+    "A372871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

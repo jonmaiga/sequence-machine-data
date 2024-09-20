@@ -3,16 +3,14 @@
   "id": "A188726",
   "mentions": [
     "A188640",
-    "A188725",
-    "A188727"
+    "A188725"
   ],
   "tags": [
     "cofr",
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 120,
     "source": "oeis-bfile"
   }

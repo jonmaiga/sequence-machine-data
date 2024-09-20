@@ -1,0 +1,19 @@
+{
+  "description": "Number of representations of n as 2*w*x + x*y + y*z + z*u + u*x where w, x, y, z>0, u>=0 are integers.",
+  "id": "A375035",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A189835"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Prime binary self (or Colombian) numbers: primes not expressible as the sum of an integer and its binary weight.",
+  "id": "A374102",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A006378",
+    "A010061",
+    "A374103"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

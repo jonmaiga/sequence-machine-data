@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/((1 - x - x^5)^2 - 4*x^6).",
+  "id": "A375285",
+  "mentions": [
+    "A182890",
+    "A246884",
+    "A375278",
+    "A375283"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

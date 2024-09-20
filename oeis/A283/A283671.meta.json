@@ -1,11 +1,13 @@
 {
-  "description": "Square root of the single square referenced in A190641 (Numbers having exactly one non-unitary prime factor).",
+  "description": "Square root of the single square referenced in A190641.",
   "id": "A283671",
   "mentions": [
     "A190641",
+    "A249739",
     "A283670"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

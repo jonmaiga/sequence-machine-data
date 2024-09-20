@@ -1,7 +1,9 @@
 {
-  "description": "Primes which are anagrams of cubes",
+  "description": "Primes which are anagrams of cubes.",
   "id": "A161854",
-  "mentions": [],
+  "mentions": [
+    "A000578"
+  ],
   "tags": [
     "base",
     "nonn"

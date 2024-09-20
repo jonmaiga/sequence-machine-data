@@ -1,5 +1,5 @@
 {
-  "description": "Floor of (2^n-1)/n.",
+  "description": "a(n) = floor of (2^n-1)/n.",
   "id": "A082482",
   "mentions": [
     "A023359",

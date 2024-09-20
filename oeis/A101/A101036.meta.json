@@ -2,8 +2,14 @@
   "description": "Riesel numbers (n*2^k-1 is composite for all k>0, n odd) that have a covering set.",
   "id": "A101036",
   "mentions": [
+    "A038699",
+    "A040081",
+    "A046069",
+    "A050412",
+    "A052333",
     "A076336",
-    "A076337"
+    "A076337",
+    "A108129"
   ],
   "tags": [
     "nonn"

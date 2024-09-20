@@ -2,10 +2,12 @@
   "description": "Decimal expansion of e^(-(sine of 1 degree)).",
   "id": "A111509",
   "mentions": [
-    "A019810"
+    "A019810",
+    "A111508"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

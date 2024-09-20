@@ -1,0 +1,21 @@
+{
+  "description": "Row products of A317617.",
+  "id": "A373878",
+  "mentions": [
+    "A000079",
+    "A001093",
+    "A006003",
+    "A034262",
+    "A185826",
+    "A317617"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

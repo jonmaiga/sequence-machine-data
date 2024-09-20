@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the permanent of the n X n matrix M(n) whose generic element is given by M_{i,j} = A057027(i+j-1,j) with i,j in [n].",
+  "id": "A373900",
+  "mentions": [
+    "A057027",
+    "A057029"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,44 +1,17 @@
 {
-  "description": "Number of unlabeled simple graphs on n vertices with a unique undirected cycle of length > 2.",
+  "description": "a(n) = A010846(n) - A373738(n).",
   "id": "A372192",
   "mentions": [
-    "A000055",
-    "A000088",
-    "A001858",
-    "A002494",
-    "A002807",
-    "A005195",
-    "A006125",
-    "A006129",
-    "A105784",
-    "A137916",
-    "A137917",
-    "A137918",
-    "A140637",
-    "A144958",
-    "A263340",
-    "A370167",
-    "A372167",
-    "A372169",
-    "A372170",
-    "A372171",
-    "A372172",
-    "A372173",
-    "A372174",
-    "A372176",
-    "A372191",
-    "A372193",
-    "A372194",
-    "A372195"
+    "A001221",
+    "A010846",
+    "A373738"
   ],
   "tags": [
-    "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 7,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

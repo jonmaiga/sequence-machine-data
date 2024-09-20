@@ -1,12 +1,13 @@
 {
-  "description": "Numbers n such that A003266(n) + 1 is prime.",
+  "description": "Numbers k such that A003266(k) + 1 is prime.",
   "id": "A053408",
   "mentions": [
     "A000040",
     "A000045",
     "A003266",
     "A053412",
-    "A053413"
+    "A053413",
+    "A059709"
   ],
   "tags": [
     "more",

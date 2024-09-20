@@ -1,8 +1,9 @@
 {
-  "description": "Central binomial coefficient C(n, n/2) is not divisible by n.",
+  "description": "Numbers k such that binomial(k, floor(k/2)) is not divisible by k.",
   "id": "A067315",
   "mentions": [
     "A001405",
+    "A042970",
     "A042996",
     "A067348"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

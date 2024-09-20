@@ -2,7 +2,9 @@
   "description": "Binomial transform of the expansion of 1/(1-x^5-x^6).",
   "id": "A107025",
   "mentions": [
-    "A017837"
+    "A017837",
+    "A099099",
+    "A099131"
   ],
   "tags": [
     "easy",

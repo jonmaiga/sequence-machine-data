@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 + 4 * log(1 - x))^(3/2).",
+  "id": "A375947",
+  "mentions": [
+    "A000407",
+    "A354241",
+    "A375950"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

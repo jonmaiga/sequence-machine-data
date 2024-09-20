@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose primorial base representation has alternating digit sum that is a multiple of 3.",
+  "id": "A373831",
+  "mentions": [
+    "A049345",
+    "A373605",
+    "A373830"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

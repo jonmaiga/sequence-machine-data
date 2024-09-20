@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime obtained by appending one or more 9's to n, -1 if no such prime exists.",
+  "id": "A373859",
+  "mentions": [
+    "A030433",
+    "A112386",
+    "A113076",
+    "A372056",
+    "A373201"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Smallest k such that Product_{i=1..k} (n+i) divides Product_{i=1..k} (n+k+i), or 0 if there is no such k.",
+  "id": "A375071",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

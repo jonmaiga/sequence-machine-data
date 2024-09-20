@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{k>=1} ((-1)^k*log(k)/k).",
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^k*log(k)/k.",
   "id": "A091812",
   "mentions": [
     "A001620",

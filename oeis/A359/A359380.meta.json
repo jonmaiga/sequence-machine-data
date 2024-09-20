@@ -2,6 +2,8 @@
   "description": "Numbers that are neither multiples of 3 nor of the form 4u+2.",
   "id": "A359380",
   "mentions": [
+    "A010892",
+    "A057079",
     "A187074",
     "A359375"
   ],

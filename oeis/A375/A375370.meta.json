@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of log(2)/3 + zeta(3)/(2*Pi^2).",
+  "id": "A375370",
+  "mentions": [
+    "A193535"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Lesser of twin primes p1 such that 2*p1+p2 is a prime number.",
+  "description": "Lesser of twin primes p1 and p2 such that 2*p1+p2 is a prime number.",
   "id": "A174913",
   "mentions": [
     "A001359"

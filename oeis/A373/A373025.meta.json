@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} cos(k*Pi/5)/2^k.",
+  "id": "A373025",
+  "mentions": [
+    "A373021"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

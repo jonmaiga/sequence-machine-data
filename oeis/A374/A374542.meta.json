@@ -1,0 +1,16 @@
+{
+  "description": "Number of length n inversion sequences avoiding the patterns 102 and 210.",
+  "id": "A374542",
+  "mentions": [
+    "A279555"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

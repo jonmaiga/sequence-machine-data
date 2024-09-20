@@ -2,7 +2,6 @@
   "description": "Expansion of (1 - theta_4(q)^2) / 4 in powers of q.",
   "id": "A113652",
   "mentions": [
-    "A002564",
     "A002654",
     "A008441",
     "A053692",

@@ -2,6 +2,9 @@
   "description": "Heinz numbers of integer partitions whose length is equal to the GCD of all the parts.",
   "id": "A316430",
   "mentions": [
+    "A004280",
+    "A031215",
+    "A031336",
     "A056239",
     "A067538",
     "A074761",
@@ -15,6 +18,7 @@
     "A316433"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

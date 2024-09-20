@@ -2,13 +2,12 @@
   "description": "Divisors of 496.",
   "id": "A018487",
   "mentions": [
-    "A000396",
-    "A000668",
-    "A135653"
+    "A000396"
   ],
   "tags": [
     "easy",
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the minimum number of hypercubes needed to admit a hole of size n in the 4D tesseractic honeycomb.",
+  "id": "A373927",
+  "mentions": [
+    "A235382",
+    "A345205"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

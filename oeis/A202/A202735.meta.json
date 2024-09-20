@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk nonnegative integer arrays with each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it) and the lower right element equal to min(n,k)-1",
+  "description": "T(n,k) = Number of n X k nonnegative integer arrays with each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it) and the lower right element equal to min(n,k)-1.",
   "id": "A202735",
   "mentions": [],
   "tags": [

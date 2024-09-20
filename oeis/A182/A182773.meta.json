@@ -2,6 +2,7 @@
   "description": "Beatty sequence for 1+2^(2/3).",
   "id": "A182773",
   "mentions": [
+    "A005480",
     "A182760",
     "A182774"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

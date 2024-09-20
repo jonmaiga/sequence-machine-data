@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of steps required for prime(n) to reach 2 when iterating the following hailstone map: If P == 5 (mod 6), then P -> next_prime(P + ceiling(sqrt(P)), otherwise P -> previous_prime(ceiling(sqrt(P))); or a(n) = -1 if prime(n) never reaches 2.",
+  "description": "a(n) is the number of steps required for prime(n) to reach 2 when iterating the following hailstone map: If P == 5 (mod 6), then P -> next_prime(P + ceiling(sqrt(P))), otherwise P -> previous_prime(ceiling(sqrt(P))); or a(n) = -1 if prime(n) never reaches 2.",
   "id": "A367479",
   "mentions": [
     "A007528",

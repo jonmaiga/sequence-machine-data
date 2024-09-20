@@ -2,7 +2,8 @@
   "description": "Numbers having four 0's in base 5.",
   "id": "A043352",
   "mentions": [
-    "A007091"
+    "A007091",
+    "A023724"
   ],
   "tags": [
     "base",

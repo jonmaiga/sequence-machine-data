@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (product of divisors of n) == 1 (mod sum of divisors of n).",
+  "description": "Numbers k such that (product of divisors of k) == 1 (mod sum of divisors of k).",
   "id": "A188061",
   "mentions": [
     "A000203",

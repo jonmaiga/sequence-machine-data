@@ -1,0 +1,20 @@
+{
+  "description": "Number of main classes of diagonalized cyclic diagonal Latin squares of order 2n+1.",
+  "id": "A375475",
+  "mentions": [
+    "A338522",
+    "A338562",
+    "A372922",
+    "A372923"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

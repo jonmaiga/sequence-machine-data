@@ -1,5 +1,5 @@
 {
-  "description": "Number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by \"Rule 793\", based on the 5-celled von Neumann neighborhood.",
+  "description": "Number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by \"Rule 793\", based on the 5-celled von Neumann neighborhood.",
   "id": "A273564",
   "mentions": [],
   "tags": [

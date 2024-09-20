@@ -1,11 +1,16 @@
 {
-  "description": "a(n)=n-floor(phi*floor(phi^-1*floor(phi*floor(phi^-1*floor(phi*floor(phi^-1*n)))))) where phi=(1+sqrt(5))/2.",
+  "description": "a(n) = n-F(F(F(n))) where F(x)=A120613(x)=floor(phi*floor(x/phi)) and phi=(1+sqrt(5))/2.",
   "id": "A110007",
   "mentions": [
     "A003842",
-    "A005614"
+    "A005614",
+    "A110006",
+    "A110010",
+    "A110011",
+    "A120613"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

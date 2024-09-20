@@ -1,17 +1,14 @@
 {
   "description": "Number of permutations of length n which avoid the patterns 4312 and 3142.",
   "id": "A165538",
-  "mentions": [
-    "A000108",
-    "A007317"
-  ],
+  "mentions": [],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 23,
+    "offset": 0,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

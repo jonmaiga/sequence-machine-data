@@ -1,0 +1,16 @@
+{
+  "description": "Smallest positive integer whose square can be written as the sum of n positive perfect squares whose square roots differ by no more than 1.",
+  "id": "A373666",
+  "mentions": [
+    "A351061"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

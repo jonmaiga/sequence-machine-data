@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of expected number of trials needed for the sum of uniform random variables from the interval [0,1] to exceed e.",
+  "id": "A370563",
+  "mentions": [
+    "A089087",
+    "A090142"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Numbers k such that the concatenation '2',k,'3' is prime.",
+  "description": "Numbers k such that k prefixed by '2' and followed by '3' is prime.",
   "id": "A032711",
   "mentions": [
+    "A032702",
+    "A032733",
     "A083677",
     "A083966",
     "A083969",

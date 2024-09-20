@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} sigma( (n/gcd(k,n))^4 ).",
+  "id": "A373000",
+  "mentions": [
+    "A005117",
+    "A013663",
+    "A013664"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

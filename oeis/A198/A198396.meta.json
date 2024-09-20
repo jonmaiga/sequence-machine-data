@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 6^n-6*n.",
+  "description": "a(n) = 6^n - 6*n.",
   "id": "A198396",
   "mentions": [
     "A005803",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

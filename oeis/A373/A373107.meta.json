@@ -1,0 +1,25 @@
+{
+  "description": "Number of regions among all distinct circles that can be constructed from the 4 vertices and the equally spaced 4*n points placed on the sides of a square when every pair of the 4 + 4*n points are connected by a circle and where the points lie at the ends of the circle's diameter.",
+  "id": "A373107",
+  "mentions": [
+    "A358782",
+    "A360352",
+    "A362234",
+    "A372732",
+    "A372978",
+    "A373106",
+    "A373108",
+    "A373109",
+    "A373110"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The smallest positive number that when written in all bases 2 to n contains four or more adjacent equal digits.",
+  "id": "A375998",
+  "mentions": [
+    "A055085",
+    "A171901",
+    "A368866",
+    "A375958",
+    "A375997"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

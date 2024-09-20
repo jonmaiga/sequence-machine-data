@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A025487(k)-1 and A025487(k)+1 are twin primes.",
+  "id": "A375198",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A014574",
+    "A025487",
+    "A321995",
+    "A353302",
+    "A375197"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest prime prime(k) such that prime(k-n) and prime(k+n) are balanced primes of order n.",
+  "id": "A374576",
+  "mentions": [
+    "A082080",
+    "A374507"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

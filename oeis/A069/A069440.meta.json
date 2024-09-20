@@ -4,6 +4,7 @@
   "mentions": [
     "A000079",
     "A000225",
+    "A001333",
     "A069361",
     "A069395",
     "A069396",
@@ -16,12 +17,13 @@
     "A069452"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 19,
-    "source": "joeis"
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
   }
 }

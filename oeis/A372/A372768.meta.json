@@ -1,0 +1,16 @@
+{
+  "description": "The number of shaded cells in all compositions of n when light shines from the northwest. Here compositions are represented by stacked columns of adjacent cells.",
+  "id": "A372768",
+  "mentions": [
+    "A366157"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

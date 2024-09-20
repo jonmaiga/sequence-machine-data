@@ -1,0 +1,18 @@
+{
+  "description": "Number of noncrossing partitions of [n] that contain exactly one singleton.",
+  "id": "A372342",
+  "mentions": [
+    "A005043",
+    "A363448"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

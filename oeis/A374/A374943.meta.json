@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of distinct Legendrian unknots with nonnegative rotation numbers that can be realized on a Legendrian n-mosaic.",
+  "id": "A374943",
+  "mentions": [
+    "A374939",
+    "A374942",
+    "A374944",
+    "A374945",
+    "A374946",
+    "A374947"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

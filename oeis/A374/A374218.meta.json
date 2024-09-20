@@ -1,0 +1,23 @@
+{
+  "description": "After the initial 1, numbers k such that A347381 obtains its minimum value at k, of all the divisors d of k larger than one, where A347381 is the distance from n to the nearest common ancestor of n and sigma(n) in the Doudna-tree (A005940).",
+  "id": "A374218",
+  "mentions": [
+    "A005940",
+    "A336702",
+    "A347381",
+    "A347383",
+    "A374204",
+    "A374214",
+    "A374215",
+    "A374219"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

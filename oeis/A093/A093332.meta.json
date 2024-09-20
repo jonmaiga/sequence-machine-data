@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0, a(1) = 1 and for n >=0, a(n+2) = int(sqrt(2 * (a(n)^2 + a(n+1)^2)))",
+  "description": "a(0) = 0, a(1) = 1 and for n >= 2, a(n) = floor(sqrt(2 * (a(n-2)^2 + a(n-1)^2))).",
   "id": "A093332",
   "mentions": [
     "A000045",

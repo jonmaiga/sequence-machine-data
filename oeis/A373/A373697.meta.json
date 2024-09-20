@@ -1,0 +1,20 @@
+{
+  "description": "Number of nondegenerate balanced unate functions of n or fewer variables.",
+  "id": "A373697",
+  "mentions": [
+    "A006126",
+    "A006602",
+    "A245079",
+    "A341633"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer compositions of n whose leaders of maximal strictly increasing runs sum to 2.",
+  "id": "A374705",
+  "mentions": [
+    "A000009",
+    "A003242",
+    "A004526",
+    "A011782",
+    "A096749",
+    "A096765",
+    "A106356",
+    "A124766",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A261982",
+    "A274174",
+    "A333213",
+    "A333755",
+    "A374249",
+    "A374521",
+    "A374629",
+    "A374683",
+    "A374684",
+    "A374700"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

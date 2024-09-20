@@ -1,8 +1,9 @@
 {
-  "description": "Denominators of convergents to fifth root of 2.",
+  "description": "Denominators of continued fraction convergents to fifth root of 2.",
   "id": "A002361",
   "mentions": [
     "A002362",
+    "A002950",
     "A005531"
   ],
   "tags": [
@@ -10,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 27,
     "source": "oeis-bfile"
   }

@@ -1,14 +1,17 @@
 {
   "description": "Number of irredundant sets in the n-Hanoi graph.",
   "id": "A308382",
-  "mentions": [],
+  "mentions": [
+    "A308383",
+    "A308384",
+    "A347505"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 5,
+    "source": "oeis-bfile"
   }
 }

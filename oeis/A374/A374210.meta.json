@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A059339.",
+  "id": "A374210",
+  "mentions": [
+    "A001222",
+    "A059339"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

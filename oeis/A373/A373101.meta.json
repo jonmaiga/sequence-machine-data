@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, T(n,k) = (binomial(n,k)^3 - binomial(n,k))/6 for k=1..n-1 and n >= 2.",
+  "id": "A373101",
+  "mentions": [
+    "A143418",
+    "A143419",
+    "A143420"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A181819(i) = A181819(j), i mod A181819(i) = j mod A181819(j), and gcd(i,A276086(i)) = gcd(j,A276086(j)), for all i, j >= 1, where A181819 is the prime shadow of n, and A276086 is the primorial base exp-function.",
+  "id": "A373251",
+  "mentions": [
+    "A101296",
+    "A181819",
+    "A276086",
+    "A305900",
+    "A324198",
+    "A373247",
+    "A373248",
+    "A373250"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

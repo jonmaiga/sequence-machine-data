@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) is the smallest prime>a(n) such that a(n+1) == a(n-1) (mod a(n)).",
+  "description": "a(n+1) is the smallest prime > a(n) such that a(n+1) == a(n-1) (mod a(n)).",
   "id": "A072999",
   "mentions": [
     "A072535",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

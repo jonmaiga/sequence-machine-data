@@ -1,0 +1,17 @@
+{
+  "description": "Squarefree numbers k such that there exists a k-digit multiple of k that has k divisors.",
+  "id": "A373348",
+  "mentions": [
+    "A182749",
+    "A182750"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

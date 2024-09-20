@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if A328846(n) is even, otherwise 0, where A328846 is the second Fibonacci based variant of arithmetic derivative.",
+  "id": "A374048",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A000720",
+    "A059841",
+    "A079978",
+    "A328846",
+    "A374045",
+    "A374049",
+    "A374050"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

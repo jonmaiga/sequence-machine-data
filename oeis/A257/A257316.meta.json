@@ -1,7 +1,11 @@
 {
   "description": "Smallest magic constant of ultramagic squares of order n composed of distinct prime numbers.",
   "id": "A257316",
-  "mentions": [],
+  "mentions": [
+    "A006052",
+    "A081262",
+    "A081263"
+  ],
   "tags": [
     "more",
     "nonn"

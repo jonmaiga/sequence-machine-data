@@ -1,0 +1,27 @@
+{
+  "description": "Number A(n,k) of (binary) heaps of length n whose element set is a subset of [k]; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A373449",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A000330",
+    "A001249",
+    "A001296",
+    "A001477",
+    "A091980",
+    "A207361",
+    "A373450",
+    "A373451"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

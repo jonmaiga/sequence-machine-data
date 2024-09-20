@@ -1,0 +1,19 @@
+{
+  "description": "Number of edge covers of the fan graph F_{n,4}.",
+  "id": "A374450",
+  "mentions": [
+    "A100774",
+    "A373293",
+    "A374096"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

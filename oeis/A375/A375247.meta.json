@@ -1,0 +1,23 @@
+{
+  "description": "Fluctuations of the number of biquadrate integers not exceeding 10^n.",
+  "id": "A375247",
+  "mentions": [
+    "A013662",
+    "A046100",
+    "A060431",
+    "A215267",
+    "A307430",
+    "A375245",
+    "A375246"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

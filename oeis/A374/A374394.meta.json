@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, 0 <= k < A277561(1+A003754(n)), read by rows; the n-th row lists the numbers z <= n such that the Zeckendorf representations of z and n-z have no common Fibonacci numbers and when combined together correspond to the lazy Fibonacci representation of n.",
+  "id": "A374394",
+  "mentions": [
+    "A003754",
+    "A022290",
+    "A277561",
+    "A374354",
+    "A374395",
+    "A374396"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

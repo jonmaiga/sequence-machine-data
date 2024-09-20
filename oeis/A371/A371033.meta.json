@@ -1,12 +1,17 @@
 {
-  "description": "Decimal version of A371032.",
+  "description": "a(n) is the integer whose binary expansion starts with 1 and such that the runs of identical bits have lengths n, n-1, n-2, ..., 3, 2, 1.",
   "id": "A371033",
   "mentions": [
+    "A006125",
     "A007088",
+    "A065760",
+    "A126883",
     "A371032"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

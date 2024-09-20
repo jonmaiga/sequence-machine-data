@@ -1,8 +1,8 @@
 {
-  "description": "Sequence of iterated increasing power sums. This sums are in some way a generalization of iterated triangle sums.",
+  "description": "Sequence of iterated increasing power sums. These sums are a generalization of iterated triangle sums.",
   "id": "A115242",
   "mentions": [
-    "A115243"
+    "A113776"
   ],
   "tags": [
     "formulas",

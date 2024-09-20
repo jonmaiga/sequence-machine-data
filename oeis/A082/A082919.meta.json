@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+2, n+4, n+6, n+8, n+10, n+12 and n+14 are semiprimes.",
+  "description": "Numbers k such that k, k+2, k+4, k+6, k+8, k+10, k+12 and k+14 are semiprimes.",
   "id": "A082919",
   "mentions": [
     "A001358",

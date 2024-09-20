@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of subsets of [n] containing n > 0, where consecutive integers are required to be in different parts.",
+  "id": "A376077",
+  "mentions": [
+    "A000045",
+    "A000110",
+    "A261041"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

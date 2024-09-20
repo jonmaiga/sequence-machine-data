@@ -1,5 +1,5 @@
 {
-  "description": "Sqrt(sigma(2*m^2)), where m=A097023(n), i.e., sigma(2m^2) is a square.",
+  "description": "a(n) = sqrt(sigma(2*m^2)), where m = A097023(n), i.e., sigma(2m^2) is a square.",
   "id": "A163764",
   "mentions": [
     "A000203",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the digits of 5^n is prime.",
+  "description": "Numbers k such that the sum of the digits of 5^k is prime.",
   "id": "A134532",
   "mentions": [
     "A076203",

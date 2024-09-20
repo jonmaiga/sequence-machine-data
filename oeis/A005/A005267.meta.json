@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = -1 + a(0)a(1)...a(n-1) if n>0. a(0)=3.",
+  "description": "a(n) = -1 + a(0)*a(1)*...*a(n-1) with a(0) = 3.",
   "id": "A005267",
   "mentions": [
     "A000058",

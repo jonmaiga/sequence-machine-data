@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k! * k^(n-1) * |Stirling1(n,k)|.",
+  "id": "A373855",
+  "mentions": [
+    "A003713",
+    "A092552",
+    "A244585",
+    "A320096",
+    "A373856",
+    "A373857"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

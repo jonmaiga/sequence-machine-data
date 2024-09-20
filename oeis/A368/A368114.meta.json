@@ -6,11 +6,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 79,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

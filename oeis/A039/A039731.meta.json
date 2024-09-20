@@ -1,15 +1,19 @@
 {
-  "description": "a(n)=MAX{p(n) mod q, where prime q < p(n)=n-th prime}.",
+  "description": "a(n) = max{prime(n) mod q, where prime q < prime(n) = n-th prime}.",
   "id": "A039731",
   "mentions": [
+    "A000040",
+    "A151800",
     "A207409"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 58,
+    "size": 62,
     "source": "joeis"
   }
 }

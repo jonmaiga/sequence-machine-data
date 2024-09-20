@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways to partition {1,2,...,n} into two sets X and Y such that the sum of the elements of each is a square.",
+  "id": "A374087",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001108",
+    "A002849",
+    "A140612"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

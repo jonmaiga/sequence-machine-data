@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 6*Sum_{t=0..n-1} [ A000217(t)/n ], where [ x ] means the fractional part of x here.",
+  "id": "A374968",
+  "mentions": [
+    "A000217",
+    "A068156",
+    "A374981"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A number n is included if the same number of primes, among primes <= the largest prime dividing n, divide n as do not.",
+  "description": "Numbers k such that the same number of primes, among primes <= the largest prime dividing k, divide k as do not.",
   "id": "A111907",
   "mentions": [
     "A001221",
@@ -31,6 +31,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

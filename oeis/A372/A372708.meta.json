@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number k that is the concatenation of the elements of a 3 X 3 matrix whose determinant is n and whose elements are a permutation of the numbers 1 through 9; a(n) = -1 if no such number k exists.",
+  "id": "A372708",
+  "mentions": [
+    "A085000",
+    "A088214",
+    "A088215",
+    "A221976"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

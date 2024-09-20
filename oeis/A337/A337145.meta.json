@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the determinant of the 2 X 2 matrix whose entries (listed by rows) are the n-th prime congruent to 1, 3, 5, 7 mod 8 respectively.",
+  "description": "a(n) is the determinant of the 2 X 2 matrix whose entries (when read by rows) are the n-th primes congruent to 1, 3, 5, 7 mod 8 respectively.",
   "id": "A337145",
   "mentions": [
     "A007519",

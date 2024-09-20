@@ -2,12 +2,15 @@
   "description": "Denominators of continued fraction convergents to sqrt(42).",
   "id": "A041071",
   "mentions": [
+    "A010496",
+    "A040035",
     "A041070"
   ],
   "tags": [
     "cofr",
     "easy",
     "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {

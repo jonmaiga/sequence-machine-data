@@ -1,0 +1,23 @@
+{
+  "description": "Monogamously Faithful Primes (primes that are sexy primes with only one other prime in their pair).",
+  "id": "A372042",
+  "mentions": [
+    "A023271",
+    "A046117",
+    "A046118",
+    "A046119",
+    "A046120",
+    "A046122",
+    "A046123",
+    "A046124",
+    "A136207"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

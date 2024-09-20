@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/((1 - x - x^4)^2 - 4*x^5).",
+  "id": "A375283",
+  "mentions": [
+    "A182890",
+    "A246883",
+    "A375278",
+    "A375282",
+    "A375285"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

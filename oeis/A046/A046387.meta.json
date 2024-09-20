@@ -1,5 +1,5 @@
 {
-  "description": "Products of 5 distinct primes.",
+  "description": "Products of exactly 5 distinct primes.",
   "id": "A046387",
   "mentions": [
     "A000040",

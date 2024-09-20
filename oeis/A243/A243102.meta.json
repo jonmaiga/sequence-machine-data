@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the digits of (n + product of digits of n) are a nontrivial permutation of the digits of n.",
+  "description": "Numbers k such that the digits of (k + product of digits of k) are a nontrivial permutation of the digits of k.",
   "id": "A243102",
   "mentions": [
     "A007954"

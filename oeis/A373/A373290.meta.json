@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. Thereafter, for n prime a(n) is the smallest composite number not already a term which is not divisible by n, and for n composite a(n) is the smallest prime not already a term, which does not divide n.",
+  "id": "A373290",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A002808",
+    "A026239"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

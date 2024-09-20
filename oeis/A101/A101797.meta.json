@@ -1,15 +1,19 @@
 {
-  "description": "16n-1 such that 4n-1, 8n-1, 16n-1 and 32n-1 are primes.",
+  "description": "Primes of the form 16*k-1 such that 4*k-1, 8*k-1 and 32*k-1 are also primes.",
   "id": "A101797",
   "mentions": [
     "A002515",
+    "A101793",
     "A101794",
     "A101795",
     "A101796",
-    "A101798"
+    "A101798",
+    "A101997",
+    "A127576"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

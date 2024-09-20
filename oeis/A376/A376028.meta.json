@@ -1,0 +1,22 @@
+{
+  "description": "Zeckendorf-Niven numbers (A328208) with a record gap to the next Zeckendorf-Niven number.",
+  "id": "A376028",
+  "mentions": [
+    "A328208",
+    "A328209",
+    "A337076",
+    "A337077",
+    "A347495",
+    "A347496",
+    "A376029"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

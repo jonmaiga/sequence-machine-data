@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of the asymptotic density of numbers that are unitarily divided by n.",
+  "id": "A373319",
+  "mentions": [
+    "A003277",
+    "A373318",
+    "A373320"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

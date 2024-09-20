@@ -1,12 +1,16 @@
 {
-  "description": "a(n) = binary string starting with 1 such that the runs of identical bits in a(n) have lengths n, n-1, n-2, ..., 3, 2, 1.",
+  "description": "a(n) is the integer whose decimal digits are 0's or 1's in alternating runs of lengths n, n-1, n-2, ..., 3, 2, 1.",
   "id": "A371032",
   "mentions": [
+    "A000217",
     "A007088",
+    "A065447",
     "A371033"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

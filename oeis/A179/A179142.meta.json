@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the order of the Tate-Shafarevich group Ш of the elliptic curve y^2=x^3-n is 4.",
+  "description": "Numbers n for which the order of the Tate-Shafarevich group Ш (Sha) of the elliptic curve y^2=x^3-n is 4.",
   "id": "A179142",
   "mentions": [
     "A001014"

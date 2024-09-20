@@ -2,6 +2,7 @@
   "description": "Numbers k such that A000213(k) == 1 (mod k).",
   "id": "A072874",
   "mentions": [
+    "A000079",
     "A000213",
     "A023173"
   ],

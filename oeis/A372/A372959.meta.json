@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the least positive solution of cos(x) - sin(x) = 5/4.",
+  "id": "A372959",
+  "mentions": [
+    "A197291",
+    "A372954",
+    "A372955",
+    "A372958",
+    "A374407",
+    "A374408"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = k*10 mod n, with n >= 1, k >= 0.",
+  "id": "A373917",
+  "mentions": [
+    "A051127",
+    "A106611",
+    "A374195"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

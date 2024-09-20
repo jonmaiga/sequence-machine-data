@@ -1,0 +1,42 @@
+{
+  "description": "Minimum of the n-th maximal run of adjacent (increasing by one at a time) non-perfect-powers.",
+  "id": "A375703",
+  "mentions": [
+    "A001597",
+    "A005381",
+    "A007674",
+    "A007916",
+    "A045344",
+    "A045542",
+    "A046933",
+    "A053289",
+    "A053806",
+    "A055670",
+    "A072284",
+    "A120430",
+    "A216765",
+    "A373408",
+    "A373410",
+    "A373575",
+    "A373673",
+    "A373676",
+    "A375702",
+    "A375704",
+    "A375705",
+    "A375706",
+    "A375708",
+    "A375713",
+    "A375714",
+    "A375736",
+    "A375737"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

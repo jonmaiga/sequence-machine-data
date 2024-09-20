@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the smallest m > 1 such that m^2 - 1 and m^2 + 1 have 2n and 2k divisors, respectively, or -1 if no such m exists.",
+  "id": "A373756",
+  "mentions": [
+    "A000005",
+    "A002522",
+    "A005563",
+    "A014574",
+    "A069062",
+    "A193432",
+    "A347191"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

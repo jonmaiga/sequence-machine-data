@@ -2,6 +2,7 @@
   "description": "Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 497\", based on the 5-celled von Neumann neighborhood.",
   "id": "A288701",
   "mentions": [
+    "A276540",
     "A288702",
     "A288704",
     "A288705"

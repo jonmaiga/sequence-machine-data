@@ -1,0 +1,17 @@
+{
+  "description": "Integers k such that the number of multiplications to compute the k-th power by the Chandah-sutra method (A014701) is larger than the length of the shortest addition chain for k (A003313).",
+  "id": "A371894",
+  "mentions": [
+    "A000120",
+    "A003313",
+    "A014701"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

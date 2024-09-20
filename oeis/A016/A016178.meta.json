@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-7x)(1-9x)).",
+  "description": "Expansion of g.f. 1/((1 - 7x)*(1 - 9x)).",
   "id": "A016178",
   "mentions": [
     "A081034",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

@@ -2,24 +2,15 @@
   "description": "Continued fraction for Pi^(1/Pi).",
   "id": "A179617",
   "mentions": [
-    "A001076",
     "A001203",
-    "A001204",
-    "A002945",
-    "A010767",
-    "A011002",
-    "A011003",
-    "A073238",
-    "A179613",
-    "A179615",
-    "A179616"
+    "A073238"
   ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 98,
     "source": "joeis"
   }

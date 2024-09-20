@@ -1,8 +1,11 @@
 {
   "description": "Number of positive integers not exceeding n that are relatively prime to phi(n).",
   "id": "A072302",
-  "mentions": [],
+  "mentions": [
+    "A000010"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

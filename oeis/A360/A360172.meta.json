@@ -1,5 +1,5 @@
 {
-  "description": "Sequences of length n in [n] not starting by their minimum value",
+  "description": "Sequences of length n in [n] not starting with their minimum value.",
   "id": "A360172",
   "mentions": [
     "A000312",

@@ -1,0 +1,26 @@
+{
+  "description": "For 0<=k<=n, T(n,k) = the number of Dyck-type lattice paths of length n, starting at the point (0,k), triangle T read by rows.",
+  "id": "A375659",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000247",
+    "A000918",
+    "A001405",
+    "A052515",
+    "A189162",
+    "A322291",
+    "A368175"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

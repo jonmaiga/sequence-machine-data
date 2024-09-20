@@ -1,7 +1,9 @@
 {
   "description": "Powers of fifth root of 4 rounded to nearest integer.",
   "id": "A018124",
-  "mentions": [],
+  "mentions": [
+    "A005533"
+  ],
   "tags": [
     "nonn"
   ],

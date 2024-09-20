@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / sqrt(1 + x^2 * log(1 - x)).",
+  "id": "A375698",
+  "mentions": [
+    "A001147",
+    "A351503",
+    "A351505",
+    "A375715"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

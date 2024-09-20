@@ -2,10 +2,14 @@
   "description": "Decimal expansion of log_10 (15).",
   "id": "A154580",
   "mentions": [
+    "A002392",
     "A007524",
+    "A016638",
     "A104139",
     "A114490",
     "A114493",
+    "A152675",
+    "A152914",
     "A153268",
     "A153496",
     "A153620",
@@ -26,6 +30,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

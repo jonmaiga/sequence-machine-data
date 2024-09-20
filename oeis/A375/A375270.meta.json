@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of the form p^Fibonacci(2*k), where p is a prime and k >= 0.",
+  "id": "A375270",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001906",
+    "A030078",
+    "A050376",
+    "A115975",
+    "A179645",
+    "A186285",
+    "A318465",
+    "A375271"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

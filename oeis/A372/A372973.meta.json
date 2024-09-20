@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: the exponential almost-Riordan array ( 1/(1-x) | 1/(1-x), log(1/(1-x)) ).",
+  "id": "A372973",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000254",
+    "A000399",
+    "A000454",
+    "A000482",
+    "A001233",
+    "A001234",
+    "A098558",
+    "A130534",
+    "A179865",
+    "A243569",
+    "A243570"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Start with two vertices and draw a circle around each whose radius is the distance between the vertices. The sequence gives the number of regions constructed after n iterations of drawing circles with this same radius around every new vertex created from all circles' intersections.",
+  "id": "A374337",
+  "mentions": [
+    "A359570",
+    "A371253",
+    "A371374",
+    "A374338",
+    "A374339"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

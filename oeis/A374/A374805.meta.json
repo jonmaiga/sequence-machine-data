@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer whose square can be represented as the sum of 3 distinct nonzero squares in exactly n ways, or -1 if no such number exists.",
+  "id": "A374805",
+  "mentions": [
+    "A006339",
+    "A025415",
+    "A025442",
+    "A346071"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

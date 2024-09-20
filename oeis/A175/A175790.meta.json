@@ -1,8 +1,11 @@
 {
   "description": "Expansion of 1/((1 - x^3 - x^4)*(1 + x)).",
   "id": "A175790",
-  "mentions": [],
+  "mentions": [
+    "A177825"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

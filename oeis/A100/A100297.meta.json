@@ -1,5 +1,5 @@
 {
-  "description": "Sequence generated from a symmetric matrix composed of Catalan numbers.",
+  "description": "Expansion of g.f.: x*(1-11*x+x^2)/(1-17*x+14*x^2-x^3).",
   "id": "A100297",
   "mentions": [],
   "tags": [

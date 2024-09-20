@@ -1,0 +1,19 @@
+{
+  "description": "Primes p == 2, 3 (mod 4) with 2*p+1 prime.",
+  "id": "A374914",
+  "mentions": [
+    "A002515",
+    "A374912",
+    "A374913"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

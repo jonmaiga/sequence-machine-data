@@ -2,6 +2,7 @@
   "description": "Indices of prime terms in A254077.",
   "id": "A256213",
   "mentions": [
+    "A000040",
     "A010051",
     "A251239",
     "A254077"

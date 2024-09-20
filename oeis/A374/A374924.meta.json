@@ -1,0 +1,18 @@
+{
+  "description": "Zero-avoiding Fibonacci sequence: a(n) is the largest zeroless number that can be written as a(i) + a(j) where 1 ≤ i < j < n with a(1) = a(2) = 1.",
+  "id": "A374924",
+  "mentions": [
+    "A000045",
+    "A004719"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

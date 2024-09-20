@@ -1,0 +1,19 @@
+{
+  "description": "Sum over all complete compositions of n of the element set cardinality.",
+  "id": "A373305",
+  "mentions": [
+    "A003056",
+    "A107429",
+    "A373118",
+    "A373306"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Omit the trailing zeros from double factorial of even numbers (A000165).",
+  "id": "A375489",
+  "mentions": [
+    "A000165",
+    "A004154",
+    "A005843",
+    "A011557",
+    "A027868",
+    "A122840",
+    "A358987"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

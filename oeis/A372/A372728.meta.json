@@ -1,0 +1,38 @@
+{
+  "description": "Kronecker's triangle read by rows. T(n, k) = K(n, k) where K(n, k) is the Kronecker symbol (n / k).",
+  "id": "A372728",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A000035",
+    "A020639",
+    "A062830",
+    "A063524",
+    "A071961",
+    "A080891",
+    "A091337",
+    "A091338",
+    "A096396",
+    "A096397",
+    "A096398",
+    "A217831",
+    "A322796",
+    "A372519",
+    "A372726",
+    "A372877",
+    "A373088",
+    "A373180",
+    "A373223",
+    "A373748",
+    "A373751"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

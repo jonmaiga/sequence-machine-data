@@ -1,0 +1,25 @@
+{
+  "description": "Products of an odd number of distinct primes and the square of a number in A268390.",
+  "id": "A374595",
+  "mentions": [
+    "A000028",
+    "A006519",
+    "A008836",
+    "A026424",
+    "A030059",
+    "A059897",
+    "A268387",
+    "A268390",
+    "A374130",
+    "A374467"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

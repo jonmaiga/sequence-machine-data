@@ -2,10 +2,15 @@
   "description": "Sum of the (primes > 5 modulo 5).",
   "id": "A103567",
   "mentions": [
-    "A039703"
+    "A039703",
+    "A103566",
+    "A103568",
+    "A103572"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

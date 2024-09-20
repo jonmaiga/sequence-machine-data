@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(n,k) is the number of distinct partitions p of n such that max(p) is a multiple of k.",
+  "id": "A373029",
+  "mentions": [
+    "A000007",
+    "A000009",
+    "A026838",
+    "A363048",
+    "A372893",
+    "A373030"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Number of connected Dynkin diagrams with n nodes.",
   "id": "A358241",
   "mentions": [
-    "A060296"
+    "A060296",
+    "A374624"
   ],
   "tags": [
     "easy",

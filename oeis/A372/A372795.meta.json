@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(A(A(A(x)))) = (exp(8*x) - 1)/8.",
+  "id": "A372795",
+  "mentions": [
+    "A184011",
+    "A209519",
+    "A372746",
+    "A372796"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

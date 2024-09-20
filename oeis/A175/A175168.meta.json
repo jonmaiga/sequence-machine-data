@@ -1,12 +1,11 @@
 {
-  "description": "Numbers n such that 2^(n-1) mod n is a prime number.",
+  "description": "Numbers k such that 2^(k-1) mod k is a prime number.",
   "id": "A175168",
   "mentions": [
     "A000040",
     "A062173"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

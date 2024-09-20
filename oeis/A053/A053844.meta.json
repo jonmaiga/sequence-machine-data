@@ -2,15 +2,21 @@
   "description": "(Sum of digits of n written in base 9) modulo 9.",
   "id": "A053844",
   "mentions": [
-    "A010060"
+    "A010060",
+    "A010878",
+    "A053830",
+    "A053837",
+    "A053843",
+    "A141803"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

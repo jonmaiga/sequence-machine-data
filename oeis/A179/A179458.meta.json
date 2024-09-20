@@ -1,14 +1,11 @@
 {
-  "description": "Numbers n such that ((2^(2n) - 1) mod 2n) - (2^(2n-1) mod 2n) = 1.",
+  "description": "Numbers k such that ((2^(2k) - 1) mod 2k) - (2^(2k-1) mod 2k) = 1.",
   "id": "A179458",
   "mentions": [
     "A001567",
-    "A020136",
-    "A062173",
-    "A082495"
+    "A020136"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

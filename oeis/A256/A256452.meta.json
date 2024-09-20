@@ -2,6 +2,7 @@
   "description": "Number of integer solutions to n^2 = x^2 + y^2 with x>0, y>=0.",
   "id": "A256452",
   "mentions": [
+    "A002654",
     "A046080",
     "A046109"
   ],

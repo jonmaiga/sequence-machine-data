@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and prime(n) are both palindromes.",
+  "description": "Numbers k such that k and prime(k) are both palindromes.",
   "id": "A046942",
   "mentions": [
     "A002113",
@@ -12,6 +12,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nice",
     "nonn"
   ],

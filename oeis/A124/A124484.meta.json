@@ -1,14 +1,16 @@
 {
-  "description": "Maximal number of unit squares that can be packed into a circle of radius n.",
+  "description": "Maximum number of unit squares aligned with unit-spaced horizontal lines that can be enclosed by a circle of radius n.",
   "id": "A124484",
-  "mentions": [],
+  "mentions": [
+    "A374505"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 49,
     "source": "oeis-entry"
   }
 }

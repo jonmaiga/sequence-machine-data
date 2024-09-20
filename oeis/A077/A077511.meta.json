@@ -2,7 +2,8 @@
   "description": "Continued fraction expansion of lim n -> infinity A001699(n)^(1/2^n).",
   "id": "A077511",
   "mentions": [
-    "A001699"
+    "A001699",
+    "A077496"
   ],
   "tags": [
     "base",
@@ -11,7 +12,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 96,
     "source": "oeis-entry"
   }

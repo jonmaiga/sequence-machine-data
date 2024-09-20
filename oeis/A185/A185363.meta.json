@@ -2,14 +2,16 @@
   "description": "a(n) = square-root of the largest proper divisor of A187101(n).",
   "id": "A185363",
   "mentions": [
+    "A032742",
     "A187101"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 114,
+    "size": 71,
     "source": "oeis-bfile"
   }
 }

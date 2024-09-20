@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the sum, over all positive integers x, y such that x*y <= n, of phi(gcd(x,y)).",
+  "id": "A372866",
+  "mentions": [
+    "A000010",
+    "A001616"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n + reversal of base 7 digits of n (written in base 10).",
+  "description": "a(n) = n + reversal of base 7 digits of n (written in base 10).",
   "id": "A055954",
   "mentions": [
     "A030106",

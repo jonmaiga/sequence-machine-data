@@ -1,0 +1,19 @@
+{
+  "description": "T(n, k) is the total number of symmetric peaks in all partitions of n with exactly k blocks, n >= 3, 2 <= k <= n-1.",
+  "id": "A373288",
+  "mentions": [
+    "A001792",
+    "A008277",
+    "A027480"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

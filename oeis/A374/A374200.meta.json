@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimum value of A347381 that it obtains among the unitary divisors of n larger than 1, where A347381 is the distance from n to the nearest common ancestor of n and sigma(n) in the Doudna-tree (A005940). By convention a(1) = 0.",
+  "id": "A374200",
+  "mentions": [
+    "A005940",
+    "A347381",
+    "A347383",
+    "A374204",
+    "A374214"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

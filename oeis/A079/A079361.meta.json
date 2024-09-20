@@ -5,12 +5,11 @@
     "A079360"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
-    "source": "joeis"
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

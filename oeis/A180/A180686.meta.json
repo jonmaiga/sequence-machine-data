@@ -1,5 +1,5 @@
 {
-  "description": "Number of intersections of diagonals in the interior of a regular n-gon is prime for n.",
+  "description": "Positive integers k such that the number of intersections of diagonals in the interior of a regular k-gon is prime.",
   "id": "A180686",
   "mentions": [
     "A006561"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

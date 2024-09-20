@@ -2,6 +2,7 @@
   "description": "Triangle in which n-th row is {binomial(n+k,k), k=0..n}, n >= 0.",
   "id": "A046899",
   "mentions": [
+    "A000108",
     "A001700",
     "A007318",
     "A007680",

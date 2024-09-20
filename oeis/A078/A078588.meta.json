@@ -2,6 +2,7 @@
   "description": "a(n) = 1 if the integer multiple of phi nearest n is greater than n, otherwise 0, where phi = (1+sqrt(5))/2.",
   "id": "A078588",
   "mentions": [
+    "A001622",
     "A005652",
     "A005653",
     "A024569",

@@ -1,8 +1,12 @@
 {
-  "description": "A positive integer k is included if all the distinct primes that divide k and k+1 together are members of a set of consecutive primes. In other words, k is included if and only if k*(k+1) is contained in sequence A073491.",
+  "description": "Positive integers k such that all the distinct primes that divide k or k+1 are members of a set of consecutive primes. In other words, k is included if and only if k*(k+1) is contained in sequence A073491.",
   "id": "A141399",
   "mentions": [
-    "A073491"
+    "A002110",
+    "A007947",
+    "A055932",
+    "A073491",
+    "A138180"
   ],
   "tags": [
     "more",

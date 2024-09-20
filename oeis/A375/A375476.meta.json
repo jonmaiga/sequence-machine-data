@@ -1,0 +1,19 @@
+{
+  "description": "a(3*n)=A001045(n+1), a(3*n+1)=A084214(n), a(3*n+2)=A000079(n) for n >= 0.",
+  "id": "A375476",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A084214"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

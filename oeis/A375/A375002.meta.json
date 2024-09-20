@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{i+j+k+m=n, i,j,k,m >= 1} tau(i) * tau(j) * tau(k) * tau(m).",
+  "id": "A375002",
+  "mentions": [
+    "A000005",
+    "A055507",
+    "A320019"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

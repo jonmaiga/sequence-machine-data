@@ -1,13 +1,17 @@
 {
-  "description": "a(n) = tau(3*n) = A000005(3*n).",
+  "description": "Number of divisors of 3n; a(n) = tau(3*n) = A000005(3*n).",
   "id": "A372713",
   "mentions": [
     "A000005",
     "A001620",
+    "A033428",
     "A099777",
     "A144613",
     "A372714",
-    "A372715"
+    "A372715",
+    "A372786",
+    "A372789",
+    "A372792"
   ],
   "tags": [
     "formulas",
@@ -16,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that n, n+k, n+2k and n+3k have the same number of divisors.",
+  "description": "Least number k such that k, k+n, k+2*n and k+3*n have the same number of divisors.",
   "id": "A113468",
   "mentions": [
     "A113465"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

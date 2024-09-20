@@ -1,0 +1,17 @@
+{
+  "description": "Center column of elementary triangular automaton rule 94, from a lone 1 cell.",
+  "id": "A372552",
+  "mentions": [
+    "A371844",
+    "A371931",
+    "A372553"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

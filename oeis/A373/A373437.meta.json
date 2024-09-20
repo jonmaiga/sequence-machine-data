@@ -1,0 +1,16 @@
+{
+  "description": "Integers k such that sigma(sigma(2*k))=2*sigma(sigma(k)); sigma=A000203.",
+  "id": "A373437",
+  "mentions": [
+    "A000203",
+    "A051027"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

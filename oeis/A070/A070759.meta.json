@@ -2,7 +2,7 @@
   "description": "n for which floor((3/2)^n) is prime.",
   "id": "A070759",
   "mentions": [
-    "A043037",
+    "A002379",
     "A067904",
     "A070758",
     "A070762"

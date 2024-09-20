@@ -1,13 +1,16 @@
 {
-  "description": "Indices of prime generalized tribonacci numbers, A001644.",
+  "description": "Indices of primes in A001644 (the Lucas 3-step numbers).",
   "id": "A104576",
   "mentions": [
     "A000073",
     "A001644",
     "A092835",
-    "A104577"
+    "A104577",
+    "A105762"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

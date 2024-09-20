@@ -1,0 +1,17 @@
+{
+  "description": "Hexagonal numbers that are products of smaller hexagonal numbers.",
+  "id": "A374373",
+  "mentions": [
+    "A000384",
+    "A374370",
+    "A374372"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

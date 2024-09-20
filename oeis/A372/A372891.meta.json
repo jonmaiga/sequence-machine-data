@@ -1,0 +1,16 @@
+{
+  "description": "Anti-elite primes (A128852) that are not prime factors of Fermat primes (A023394).",
+  "id": "A372891",
+  "mentions": [
+    "A023394",
+    "A128852"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

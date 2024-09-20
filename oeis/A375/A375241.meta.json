@@ -1,0 +1,21 @@
+{
+  "description": "Nontriangular numbers with digital root in {1, 3, 6, 9}.",
+  "id": "A375241",
+  "mentions": [
+    "A000217",
+    "A010888",
+    "A014132",
+    "A055264",
+    "A375242"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

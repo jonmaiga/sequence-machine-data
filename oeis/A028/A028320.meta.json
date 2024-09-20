@@ -2,7 +2,19 @@
   "description": "Distinct even elements in the 5-Pascal triangle A028313.",
   "id": "A028320",
   "mentions": [
-    "A028313"
+    "A028313",
+    "A028314",
+    "A028315",
+    "A028316",
+    "A028317",
+    "A028318",
+    "A028319",
+    "A028321",
+    "A028322",
+    "A028323",
+    "A028324",
+    "A028325",
+    "A051472"
   ],
   "tags": [
     "nonn"

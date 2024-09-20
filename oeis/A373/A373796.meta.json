@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{k=1..n} k^Stirling_2(n,k).",
+  "id": "A373796",
+  "mentions": [
+    "A000110",
+    "A008277",
+    "A319761"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which have no imbalance when they are written in French and cut at the right place (see the definition of the imbalance in the Comments section).",
+  "id": "A373356",
+  "mentions": [
+    "A083967",
+    "A104059",
+    "A372222",
+    "A373317",
+    "A373321"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of 8*n into parts 1 and 8.",
+  "id": "A373890",
+  "mentions": [
+    "A005710",
+    "A052544",
+    "A055988",
+    "A369836",
+    "A371125",
+    "A373907"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

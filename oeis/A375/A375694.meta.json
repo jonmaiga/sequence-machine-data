@@ -1,0 +1,27 @@
+{
+  "description": "Number A(n,k) of multiset permutations of {{1}^k, {2}^k, ..., {n}^k} with no fixed k-tuple {j}^k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A375694",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000012",
+    "A000166",
+    "A030662",
+    "A060538",
+    "A089759",
+    "A187783",
+    "A372307",
+    "A374980",
+    "A375693"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

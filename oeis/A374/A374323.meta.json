@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} A372822(k)/10^k.",
+  "id": "A374323",
+  "mentions": [
+    "A367960",
+    "A372822"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

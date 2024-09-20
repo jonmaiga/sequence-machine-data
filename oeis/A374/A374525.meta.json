@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) is the number of distinct n X n {0,1}-matrices that reach a fixed point after k alternately applied sorts by rows and columns, where T(n,k), k>=0 is an irregular triangle read by rows.",
+  "id": "A374525",
+  "mentions": [
+    "A002416",
+    "A089006",
+    "A374526"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

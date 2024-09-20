@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes less than prime(n) having the same difference between consecutive primes as prime(n).",
+  "id": "A373891",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A274121"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

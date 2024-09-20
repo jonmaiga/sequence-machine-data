@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = round(F(n)^(1/2)) where F(n) is the n-th Fibonacci number (A000045).",
+  "description": "a(n) = round(sqrt(Fibonacci(n))).",
   "id": "A100665",
   "mentions": [
     "A000045"

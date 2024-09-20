@@ -1,0 +1,21 @@
+{
+  "description": "In the ternary expansion of n: keep the initial digit, and then replace 0's with 1's and 1's with 0's.",
+  "id": "A372783",
+  "mentions": [
+    "A004488",
+    "A062318",
+    "A115303"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

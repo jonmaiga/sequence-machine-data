@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n)^(n-2)*(2*n)!/n!.",
+  "id": "A375105",
+  "mentions": [
+    "A000142",
+    "A000984",
+    "A010050",
+    "A020765",
+    "A135008"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

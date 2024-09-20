@@ -1,0 +1,28 @@
+{
+  "description": "Number of divisors of 12n; a(n) = tau(12*n) = A000005(12*n).",
+  "id": "A372792",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A018804",
+    "A099777",
+    "A372713",
+    "A372784",
+    "A372785",
+    "A372786",
+    "A372787",
+    "A372788",
+    "A372789",
+    "A372790",
+    "A372791"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

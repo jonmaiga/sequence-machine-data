@@ -1,11 +1,13 @@
 {
-  "description": "Number triangle binomial(3n-k,n-k).",
+  "description": "Triangle read by rows: T(n,k) = binomial(3*n-k,n-k).",
   "id": "A119301",
   "mentions": [
     "A005809",
     "A025174",
     "A045721",
-    "A119302"
+    "A092392",
+    "A119302",
+    "A119304"
   ],
   "tags": [
     "easy",

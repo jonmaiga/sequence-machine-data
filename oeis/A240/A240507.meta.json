@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 6^n - 5^n - 4^n - 3^n - 2^n - 1 is prime.",
+  "description": "Numbers k such that 6^k - 5^k - 4^k - 3^k - 2^k - 1 is prime.",
   "id": "A240507",
   "mentions": [
     "A000043",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

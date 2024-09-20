@@ -1,8 +1,11 @@
 {
   "description": "Number of permutations of length n that avoid the patterns 3412 and 2413.",
   "id": "A165546",
-  "mentions": [],
+  "mentions": [
+    "A000257"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

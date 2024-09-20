@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the integer part of the area of a regular n-gon whose side lengths are n.",
+  "id": "A374296",
+  "mentions": [
+    "A064313"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

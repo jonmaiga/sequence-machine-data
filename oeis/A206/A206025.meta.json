@@ -1,7 +1,8 @@
 {
-  "description": "Triangular numbers n whose divisors can be partitioned into three disjoint sets whose sums are all sigma(n)/3.",
+  "description": "Triangular numbers k whose divisors can be partitioned into three disjoint sets whose sums are all sigma(k)/3.",
   "id": "A206025",
   "mentions": [
+    "A000203",
     "A000217",
     "A023197",
     "A204830"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

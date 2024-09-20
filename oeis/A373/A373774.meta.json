@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of terms of A000057 in [10^n].",
+  "id": "A373774",
+  "mentions": [
+    "A000045",
+    "A000057",
+    "A001602",
+    "A005596",
+    "A006880"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

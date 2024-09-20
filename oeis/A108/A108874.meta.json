@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 41*n + 43 is prime.",
+  "description": "Numbers k such that 41*k + 43 is prime.",
   "id": "A108874",
   "mentions": [],
   "tags": [

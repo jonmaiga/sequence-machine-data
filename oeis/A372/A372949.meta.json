@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*f(2*n)/(f(n)*f(n+2)) where f = A003266.",
+  "id": "A372949",
+  "mentions": [
+    "A001622",
+    "A003266",
+    "A007054",
+    "A062073"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

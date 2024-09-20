@@ -2,7 +2,6 @@
   "description": "If n is a prime with index i, p_i, a(n) = i, (with a(1)=0), otherwise difference (i-j) of the indices of the two largest primes p_i, p_j, i >= j in the prime factorization of n: a(n) = A061395(n) - A061395(A052126(n)).",
   "id": "A241917",
   "mentions": [
-    "A000040",
     "A027746",
     "A049084",
     "A052126",
@@ -11,7 +10,8 @@
     "A122111",
     "A241909",
     "A241919",
-    "A242411"
+    "A242411",
+    "A243055"
   ],
   "tags": [
     "formulas",

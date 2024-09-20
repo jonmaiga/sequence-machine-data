@@ -1,10 +1,11 @@
 {
-  "description": "A 4-cycle of the n => sigma(n)-n process, where sigma(n) is the sum of divisors of n (A000203).",
+  "description": "A 4-cycle of the k => sigma(k)-k process, where sigma(k) is the sum of divisors of k (A000203).",
   "id": "A073032",
   "mentions": [
     "A000203",
     "A045477",
-    "A073033"
+    "A073033",
+    "A090615"
   ],
   "tags": [
     "easy",

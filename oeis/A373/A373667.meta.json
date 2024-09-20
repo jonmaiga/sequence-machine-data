@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(x / (1 - x^2)^(5/2)).",
+  "id": "A373667",
+  "mentions": [
+    "A012150",
+    "A088009",
+    "A373619",
+    "A373620",
+    "A373668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -2,8 +2,7 @@
   "description": "Expansion of (2+3*x+2*x^2+2*x^3+3*x^4+x^5-x^6)/(1-2*x+x^2-x^5+2*x^6-x^7).",
   "id": "A227582",
   "mentions": [
-    "A227581",
-    "A277582"
+    "A227581"
   ],
   "tags": [
     "easy",

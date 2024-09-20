@@ -1,8 +1,13 @@
 {
   "description": "Number of n-length words on infinite alphabet {1,2,...} such that the maximal runs of consecutive equal integers have lengths that are at least as great as the integer.",
   "id": "A242551",
-  "mentions": [],
+  "mentions": [
+    "A088305",
+    "A351638"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

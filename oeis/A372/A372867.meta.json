@@ -1,0 +1,20 @@
+{
+  "description": "Distinct terms in A242017, listed in the order of their appearance.",
+  "id": "A372867",
+  "mentions": [
+    "A023394",
+    "A070592",
+    "A093179",
+    "A242017",
+    "A366609"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

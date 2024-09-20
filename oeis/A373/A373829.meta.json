@@ -1,0 +1,17 @@
+{
+  "description": "Number of inefficient arrangements in A373182, where inefficient means that the maximum number of persons that a seating arrangement can hold is not achieved.",
+  "id": "A373829",
+  "mentions": [
+    "A081123",
+    "A373182"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

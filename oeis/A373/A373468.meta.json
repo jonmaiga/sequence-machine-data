@@ -1,0 +1,17 @@
+{
+  "description": "Primes such that x^16 = 2 has a solution in Z/pZ, but x^32 = 2 does not.",
+  "id": "A373468",
+  "mentions": [
+    "A059287",
+    "A070184",
+    "A252279"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

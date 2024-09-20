@@ -2,8 +2,13 @@
   "description": "Sum of next n squares.",
   "id": "A072474",
   "mentions": [
+    "A000290",
     "A050410",
-    "A072475"
+    "A072475",
+    "A075664",
+    "A260513",
+    "A372583",
+    "A372751"
   ],
   "tags": [
     "easy",

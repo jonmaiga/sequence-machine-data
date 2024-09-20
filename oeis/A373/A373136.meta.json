@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if n is of the form 2^i * 3^j * k, i+j even, gcd(k,6)=1, otherwise 0.",
+  "id": "A373136",
+  "mentions": [
+    "A007310",
+    "A007814",
+    "A007949",
+    "A036668"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

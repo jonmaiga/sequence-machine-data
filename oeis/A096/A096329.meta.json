@@ -1,7 +1,10 @@
 {
   "description": "Prime(p^10) where p is the n-th prime.",
   "id": "A096329",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A030629"
+  ],
   "tags": [
     "formulas",
     "hard",

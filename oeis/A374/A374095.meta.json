@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where exactly n solutions to x^2 + 3*x*y + y^2 = k with 0 < x < y.",
+  "id": "A374095",
+  "mentions": [
+    "A045468",
+    "A093195",
+    "A374091",
+    "A374093",
+    "A374094"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

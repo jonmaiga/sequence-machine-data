@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if A328845(n) is a multiple of 3, otherwise 0, where A328845 is the first Fibonacci-based variant of the arithmetic derivative.",
+  "id": "A374121",
+  "mentions": [
+    "A079978",
+    "A328845",
+    "A374045",
+    "A374051",
+    "A374122"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

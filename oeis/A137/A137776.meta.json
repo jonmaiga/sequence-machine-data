@@ -1,16 +1,17 @@
 {
-  "description": "Mix A038504, A131577.",
+  "description": "Interleave A038504 with A131577.",
   "id": "A137776",
   "mentions": [
     "A038504",
     "A131577"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 47,
     "source": "joeis"
   }
 }

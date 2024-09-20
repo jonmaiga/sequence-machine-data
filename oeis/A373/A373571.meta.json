@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: Coefficients of the polynomials S2(n, x) * EP(n, x), where S2 denote the Stirling set polynomials and EP the Eulerian polynomials A173018.",
+  "id": "A373571",
+  "mentions": [
+    "A048993",
+    "A137341",
+    "A173018",
+    "A320956",
+    "A373428",
+    "A373657"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

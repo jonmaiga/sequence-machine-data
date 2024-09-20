@@ -2,7 +2,8 @@
   "description": "Numbers m such that m and its 10's complement are both semiprimes, i.e., m and 10^k - m, where k is the number of digits of m, are semiprime.",
   "id": "A094298",
   "mentions": [
-    "A001358"
+    "A001358",
+    "A089186"
   ],
   "tags": [
     "base",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

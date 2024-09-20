@@ -1,0 +1,29 @@
+{
+  "description": "Halved and run-compressed first differences of consecutive odd primes.",
+  "id": "A373947",
+  "mentions": [
+    "A001223",
+    "A003242",
+    "A037201",
+    "A114901",
+    "A116608",
+    "A116861",
+    "A238279",
+    "A240085",
+    "A333755",
+    "A373948",
+    "A373949",
+    "A373951",
+    "A373953",
+    "A373954"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

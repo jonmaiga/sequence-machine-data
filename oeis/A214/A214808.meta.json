@@ -1,5 +1,5 @@
 {
-  "description": "Kostant partition function P(2 rho) for root system A_n.",
+  "description": "Kostant partition function P(2*rho) for root system A_n, where 2*rho is the sum of the positive roots.",
   "id": "A214808",
   "mentions": [],
   "tags": [
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 6,
+    "offset": 0,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

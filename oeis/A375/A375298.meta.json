@@ -1,0 +1,18 @@
+{
+  "description": "Length of the longest winning path in n X n Hex.",
+  "id": "A375298",
+  "mentions": [
+    "A357234",
+    "A375299"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

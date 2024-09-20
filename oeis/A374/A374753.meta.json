@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the volume of a regular dodecahedron having unit inradius.",
+  "id": "A374753",
+  "mentions": [
+    "A019699",
+    "A374755",
+    "A374772"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^2 - 1 has fewer divisors than k^2 + 1.",
+  "id": "A373903",
+  "mentions": [
+    "A000005",
+    "A002522",
+    "A005563",
+    "A069062",
+    "A188629",
+    "A193432",
+    "A347191"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

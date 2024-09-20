@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Sum_{k>=0} x^(7^k) / (1 - x^(7^k)).",
+  "id": "A373217",
+  "mentions": [
+    "A000005",
+    "A001511",
+    "A008683",
+    "A051064",
+    "A055457",
+    "A115362",
+    "A214411",
+    "A373216",
+    "A373221"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

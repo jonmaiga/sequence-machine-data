@@ -1,11 +1,11 @@
 {
-  "description": "Increasing partial quotients of w=2*cos(Pi/7).",
+  "description": "Increasing partial quotients of w = 2*cos(Pi/7).",
   "id": "A072977",
   "mentions": [
     "A039921"
   ],
   "tags": [
-    "cofr",
+    "more",
     "nonn"
   ],
   "terms": {

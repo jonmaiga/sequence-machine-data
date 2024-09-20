@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the start of the least run of exactly n consecutive positive numbers with strictly decreasing values of A177329, or -1 if no such run exists.",
+  "id": "A374674",
+  "mentions": [
+    "A037445",
+    "A177329",
+    "A374671",
+    "A374672",
+    "A374673"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

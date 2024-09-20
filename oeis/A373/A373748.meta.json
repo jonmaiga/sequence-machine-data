@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) is k if k is a quadratic residue modulo n, otherwise is -k and is a quadratic nonresidue modulo n. T(0, 0) = 0 by convention.",
+  "id": "A373748",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A002262",
+    "A096008",
+    "A096013",
+    "A255644",
+    "A373749"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

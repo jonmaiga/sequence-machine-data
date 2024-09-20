@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic spanning trees of the triangular snake nC_3.",
+  "id": "A374721",
+  "mentions": [
+    "A374722"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

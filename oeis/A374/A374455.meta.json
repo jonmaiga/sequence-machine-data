@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of o.g.f. 1/(1 - 5*x - 10*x^2 - 10*x^3 - 5*x^4 - x^5).",
+  "id": "A374455",
+  "mentions": [
+    "A000012",
+    "A000129",
+    "A108368",
+    "A145841",
+    "A374454"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,12 +1,15 @@
 {
-  "description": "Next prime after n-th palindrome.",
+  "description": "Next prime after n-th positive palindrome.",
   "id": "A186698",
   "mentions": [
+    "A002113",
     "A014208",
+    "A151800",
     "A186697"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,9 @@
 {
   "description": "Powers of fifth root of 22 rounded to nearest integer.",
   "id": "A018178",
-  "mentions": [],
+  "mentions": [
+    "A011107"
+  ],
   "tags": [
     "nonn"
   ],

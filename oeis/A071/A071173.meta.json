@@ -2,7 +2,8 @@
   "description": "Nonprimes which terminate in their sum of prime factors.",
   "id": "A071173",
   "mentions": [
-    "A001414"
+    "A001414",
+    "A143993"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 66,
+    "offset": 0,
+    "size": 85,
     "source": "oeis-bfile"
   }
 }

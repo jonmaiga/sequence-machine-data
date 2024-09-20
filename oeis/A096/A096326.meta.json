@@ -2,14 +2,18 @@
   "description": "a(n) = prime(5^prime(n)).",
   "id": "A096326",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A055680"
   ],
   "tags": [
+    "formulas",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Number of set-systems S composed of nonempty subsets of [n] such that any element k in S appears at most k times.",
+  "id": "A374453",
+  "mentions": [
+    "A036239",
+    "A072444",
+    "A072445",
+    "A306021",
+    "A323818"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

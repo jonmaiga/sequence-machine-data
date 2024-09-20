@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} floor(k*log_10(2))/2^k.",
+  "id": "A372766",
+  "mentions": [
+    "A007524",
+    "A372610",
+    "A372767"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

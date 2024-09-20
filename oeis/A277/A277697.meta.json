@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Index of the least unitary prime divisor of n or 0 if no such prime-divisor exists.",
+  "description": "a(n) = index of the least unitary prime divisor of n or 0 if no such prime-divisor exists.",
   "id": "A277697",
   "mentions": [
     "A001694",

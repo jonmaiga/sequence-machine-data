@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n,k) is the number of k-matchings in the n-sunlet graph (0 <= k <= n).",
   "id": "A102413",
   "mentions": [
+    "A006318",
     "A008288",
     "A099425",
     "A128966",

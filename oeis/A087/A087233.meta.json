@@ -1,16 +1,20 @@
 {
-  "description": "a(n)=floor[sigma[A002110(n)]/A002110(n)]; integer quotient of divisor-sum of primorial numbers and primorials.",
+  "description": "a(n) = floor(sigma(A002110(n))/A002110(n)); integer quotient of divisor-sum of primorial numbers and primorials.",
   "id": "A087233",
   "mentions": [
     "A000203",
-    "A002110"
+    "A002110",
+    "A054640",
+    "A108775"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 105,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
   }
 }

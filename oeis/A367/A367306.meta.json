@@ -1,5 +1,5 @@
 {
-  "description": "Permutation of nonnegative integers: a(n) = A200714(p(n) + 1) where p(n) is an inverse permutation to A358654.",
+  "description": "Move bits in blocks in binary expansion of n where blocks are defined in Comments.",
   "id": "A367306",
   "mentions": [
     "A200714",

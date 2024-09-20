@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the non-unitary prime factors of n: sum of those prime factors for which the exponent exceeds 1.",
+  "description": "Sum of the non-unitary prime divisors of n: sum of those prime divisors for which the exponent in the prime factorization exceeds 1.",
   "id": "A063958",
   "mentions": [
     "A007947",
@@ -7,9 +7,11 @@
     "A034444",
     "A048105",
     "A056169",
-    "A056170"
+    "A056170",
+    "A063956"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

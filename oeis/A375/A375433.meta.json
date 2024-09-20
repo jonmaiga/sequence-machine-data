@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number of parallel straight lines needed to intersect all points (k, a(k)) for k < n.",
+  "id": "A375433",
+  "mentions": [
+    "A373811",
+    "A375465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

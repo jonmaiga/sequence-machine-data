@@ -1,0 +1,16 @@
+{
+  "description": "Indices of records in A375082.",
+  "id": "A375084",
+  "mentions": [
+    "A375082"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

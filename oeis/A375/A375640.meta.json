@@ -1,0 +1,20 @@
+{
+  "description": "The smallest triangular number that begins a run of at least n consecutive triangular numbers with the same number of divisors.",
+  "id": "A375640",
+  "mentions": [
+    "A000217",
+    "A063440",
+    "A319037",
+    "A319038"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

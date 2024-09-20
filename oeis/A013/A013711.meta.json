@@ -1,7 +1,13 @@
 {
-  "description": "a(n) = 6^(2n+1).",
+  "description": "a(n) = 6^(2*n+1).",
   "id": "A013711",
-  "mentions": [],
+  "mentions": [
+    "A000400",
+    "A004171",
+    "A005408",
+    "A009980",
+    "A013708"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,8 @@
   "description": "Distinct elements in the 5-Pascal triangle A028313.",
   "id": "A028318",
   "mentions": [
-    "A028313"
+    "A028313",
+    "A028323"
   ],
   "tags": [
     "nonn"

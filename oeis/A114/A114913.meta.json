@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A114912(n)=1. Numbers n such that A000009(n) == 2 (mod 4).",
+  "description": "Numbers k such that A114912(k) = 1. Numbers k such that A000009(k) == 2 (mod 4).",
   "id": "A114913",
   "mentions": [
     "A000009",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

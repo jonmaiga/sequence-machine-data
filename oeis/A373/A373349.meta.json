@@ -1,0 +1,18 @@
+{
+  "description": "Twin primes where both the prime and its twin have prime reversals.",
+  "id": "A373349",
+  "mentions": [
+    "A001097",
+    "A004086",
+    "A007500"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

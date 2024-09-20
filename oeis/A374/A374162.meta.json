@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of permutations of size n ending with n whose n left-to-right maxima are consecutive and nonadjacent.",
+  "id": "A374162",
+  "mentions": [
+    "A119502",
+    "A374165"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

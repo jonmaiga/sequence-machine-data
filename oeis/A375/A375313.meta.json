@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that the prime triple (p, p+2 or p+4, p+6) generates a prime number when the digits are concatenated.",
+  "id": "A375313",
+  "mentions": [
+    "A174858"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

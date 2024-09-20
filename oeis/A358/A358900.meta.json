@@ -1,12 +1,10 @@
 {
-  "description": "Primes p(k) such that p(k)^p(k) > p(k-1)^p(k+1).",
+  "description": "Primes prime(k) such that prime(k)^prime(k) > prime(k-1)^prime(k+1).",
   "id": "A358900",
   "mentions": [
     "A000040",
     "A053089",
-    "A358899",
-    "A385899",
-    "A385900"
+    "A358899"
   ],
   "tags": [
     "nonn"

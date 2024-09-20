@@ -1,0 +1,17 @@
+{
+  "description": "Indices k such that A373390(k) and A373390(k+2) are not coprime.",
+  "id": "A373782",
+  "mentions": [
+    "A373390",
+    "A373781"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

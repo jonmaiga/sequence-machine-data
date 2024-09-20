@@ -2,10 +2,13 @@
   "description": "Decimal expansion of log(18).",
   "id": "A016641",
   "mentions": [
+    "A002162",
+    "A002391",
     "A016446"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

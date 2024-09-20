@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (4 + 5*sqrt(2))/15.",
+  "id": "A372778",
+  "mentions": [
+    "A372777",
+    "A372831"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

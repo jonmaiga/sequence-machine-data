@@ -1,0 +1,29 @@
+{
+  "description": "Odd numbers k > 1 such that gcd(3,k) = 1 and 3^((k-1)/2) == -(3/k) (mod k), where (3/k) is the Jacobi symbol (or Kronecker symbol); Euler pseudoprimes to base 3 (A262051) that are not Euler-Jacobi pseudoprimes to base 3 (A048950).",
+  "id": "A375490",
+  "mentions": [
+    "A006970",
+    "A006971",
+    "A047713",
+    "A048950",
+    "A244626",
+    "A244628",
+    "A262051",
+    "A262052",
+    "A306310",
+    "A375816",
+    "A375914",
+    "A375915",
+    "A375916",
+    "A375917",
+    "A375918"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

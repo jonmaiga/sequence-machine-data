@@ -5,17 +5,19 @@
     "A038155",
     "A038156",
     "A056542",
+    "A073743",
     "A079756",
     "A080047",
     "A080048"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 19,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

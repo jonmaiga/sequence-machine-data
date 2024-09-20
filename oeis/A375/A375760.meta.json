@@ -1,0 +1,26 @@
+{
+  "description": "Array read by rows: T(n,k) is the first prime with exactly n occurrences of decimal digit k.",
+  "id": "A375760",
+  "mentions": [
+    "A037053",
+    "A037055",
+    "A037057",
+    "A037059",
+    "A037061",
+    "A037063",
+    "A037065",
+    "A037067",
+    "A037069",
+    "A037071"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

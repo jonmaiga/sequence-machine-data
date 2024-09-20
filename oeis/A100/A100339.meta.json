@@ -2,11 +2,14 @@
   "description": "Primes of the form 2^q + q where q is not a prime.",
   "id": "A100339",
   "mentions": [
+    "A006127",
     "A057664",
     "A081296",
+    "A100556",
     "A129962"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x)^2 = A( x^2/(1-2*x)^3 )/(1-2*x).",
+  "id": "A375443",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A375444",
+    "A375445",
+    "A375453"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

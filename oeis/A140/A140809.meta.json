@@ -1,15 +1,16 @@
 {
-  "description": "10^n-th squarefree number.",
+  "description": "10^n-th squarefree number > 1.",
   "id": "A140809",
   "mentions": [
-    "A005117"
+    "A005117",
+    "A013661"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Let {b(m)} be Recamán's sequence A005132, with the additional term b(-1):=0. Define a(n) to be the first index m where b(m-1)-m = -n, or -1 if b(m-1)-m never equals -n.",
+  "id": "A375118",
+  "mentions": [
+    "A005132",
+    "A057167"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

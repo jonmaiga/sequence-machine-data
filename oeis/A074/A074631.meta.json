@@ -1,22 +1,25 @@
 {
-  "description": "a(n) is the smallest k such that the sum of the first k terms of the composite-harmonic series, Sum 1/(j-th composite), is > n.",
+  "description": "a(n) is the smallest k such that the sum of the first k terms of the composite-harmonic series, Sum_{j=1..k} 1/(j-th composite), is > n.",
   "id": "A074631",
   "mentions": [
     "A002387",
     "A002808",
     "A004080",
     "A016088",
-    "A046024"
+    "A046024",
+    "A065855",
+    "A076751"
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

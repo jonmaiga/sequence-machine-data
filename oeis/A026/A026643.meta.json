@@ -1,15 +1,27 @@
 {
-  "description": "T(n,[ n/2 ]), T given by A026637.",
+  "description": "a(n) = A026637(n, floor(n/2)).",
   "id": "A026643",
   "mentions": [
-    "A026637"
+    "A026637",
+    "A026638",
+    "A026639",
+    "A026640",
+    "A026641",
+    "A026642",
+    "A026644",
+    "A026966",
+    "A026967",
+    "A026968",
+    "A026969",
+    "A026970"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

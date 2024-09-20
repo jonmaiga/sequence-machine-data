@@ -1,0 +1,19 @@
+{
+  "description": "Maximum length of a run of alternating bits in the base-2 representation of prime(n).",
+  "id": "A373745",
+  "mentions": [
+    "A000040",
+    "A374176"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

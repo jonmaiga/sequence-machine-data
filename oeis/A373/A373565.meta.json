@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of x + 1/(1 - x).",
+  "id": "A373565",
+  "mentions": [
+    "A294619"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

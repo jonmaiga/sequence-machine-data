@@ -1,7 +1,12 @@
 {
   "description": "Number of 3-regular maps with 2n vertices on the torus, up to orientation-preserving isomorphisms.",
   "id": "A292408",
-  "mentions": [],
+  "mentions": [
+    "A112948",
+    "A292971",
+    "A292972",
+    "A292974"
+  ],
   "tags": [
     "nonn"
   ],

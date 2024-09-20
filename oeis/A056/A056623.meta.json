@@ -1,5 +1,5 @@
 {
-  "description": "Largest unitary square divisor of n: if n=LLgggf (see A056192) and a(n) = LL, then its complementary divisor n/LL = gggf and gcd(L^2, n/LL) = 1.",
+  "description": "If n=LLgggf (see A056192) and a(n) = LL, then its complementary divisor n/LL = gggf and gcd(L^2, n/LL) = 1.",
   "id": "A056623",
   "mentions": [
     "A000188",
@@ -12,7 +12,8 @@
     "A055229",
     "A056192",
     "A056622",
-    "A067029"
+    "A067029",
+    "A350388"
   ],
   "tags": [
     "easy",

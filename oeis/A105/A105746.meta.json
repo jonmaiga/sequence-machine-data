@@ -2,7 +2,8 @@
   "description": "a(n) = minimal c>0 such that (n+1)^2+4*n*c = d^2 is a square.",
   "id": "A105746",
   "mentions": [
-    "A105734",
+    "A076839",
+    "A105736",
     "A105745"
   ],
   "tags": [

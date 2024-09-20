@@ -1,5 +1,5 @@
 {
-  "description": "Binary representation of prime power divisors of n: sum(p^k | n, 2^(A065515(p^k)-1)).",
+  "description": "Binary representation of prime power divisors of n: Sum_{p^k | n} 2^(A065515(p^k)-1).",
   "id": "A248906",
   "mentions": [
     "A000079",

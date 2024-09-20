@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Sum_{n>=0} x^n * Sum_{k=0..n} C(n,k)^2 * x^(2*k).",
+  "description": "Expansion of Sum_{n>=0} x^n * Sum_{k=0..n} C(n,k)^2 * x^(2*k).",
   "id": "A246840",
   "mentions": [
     "A000930",
@@ -8,7 +8,8 @@
     "A181665",
     "A246861",
     "A246883",
-    "A246884"
+    "A246884",
+    "A248193"
   ],
   "tags": [
     "formulas",

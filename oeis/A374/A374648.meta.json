@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! / (floor(n/3))! - n! / (floor(n/2))!.",
+  "id": "A374648",
+  "mentions": [
+    "A000142",
+    "A081125",
+    "A355988"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

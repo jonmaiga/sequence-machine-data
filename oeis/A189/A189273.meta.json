@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n array permutations with each element not moved or moved diagonally or antidiagonally by one",
+  "description": "Number of n X n array permutations with each element not moved or moved diagonally or antidiagonally by one.",
   "id": "A189273",
   "mentions": [
     "A189280"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 13,
+    "source": "oeis-bfile"
   }
 }

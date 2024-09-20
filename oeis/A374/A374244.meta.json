@@ -1,0 +1,19 @@
+{
+  "description": "A Catalan-like sequence formed from the row sums of a Catalan-like triangle where row n is truncated to have ceiling((n+4)*log(3)/log(2)) - (n + 6) terms.",
+  "id": "A374244",
+  "mentions": [
+    "A000108",
+    "A000992",
+    "A009766"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

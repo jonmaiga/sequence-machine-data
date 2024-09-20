@@ -1,8 +1,10 @@
 {
-  "description": "(Number of x with largest prime factor of the form 4k+3 less than or equal to n) minus (Number of x with largest prime factor of the form 4k+1 less than or equal to n).",
+  "description": "a(n) = (number of x with largest prime factor of the form 4k+3 less than or equal to n) minus (number of x with largest prime factor of the form 4k+1 less than or equal to n).",
   "id": "A071825",
   "mentions": [
-    "A006530"
+    "A006530",
+    "A071823",
+    "A071824"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 87,
-    "source": "oeis-entry"
+    "size": 88,
+    "source": "joeis"
   }
 }

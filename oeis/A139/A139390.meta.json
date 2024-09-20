@@ -2,14 +2,17 @@
   "description": "Sum of primes <= 3^n.",
   "id": "A139390",
   "mentions": [
-    "A057958"
+    "A000244",
+    "A034387",
+    "A130739"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

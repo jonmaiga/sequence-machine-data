@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Fibonacci(n+1)*Fibonacci(2n).",
+  "id": "A372225",
+  "mentions": [
+    "A000045",
+    "A001906"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) is the number of permutations of the multiset {1, 1, 1, 2, 2, 2, ..., n, n, n} with k occurrences of fixed triples (j,j,j), where T(n,k), n >= 2, 0 <= k <= n-2 is a triangle read by rows.",
+  "id": "A375219",
+  "mentions": [
+    "A014606",
+    "A374980",
+    "A375223"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

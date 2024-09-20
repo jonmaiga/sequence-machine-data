@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci numbers whose digits product is a positive perfect power (A001597).",
+  "id": "A373116",
+  "mentions": [
+    "A000045",
+    "A001597",
+    "A076564",
+    "A246558",
+    "A370071",
+    "A373049"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers occurring as terms of A373330.",
+  "id": "A373333",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A373330",
+    "A373331",
+    "A373332",
+    "A374175"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

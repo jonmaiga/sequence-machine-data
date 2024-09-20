@@ -2,10 +2,12 @@
   "description": "Odd composite numbers of the form p+2 where p is prime.",
   "id": "A107987",
   "mentions": [
+    "A049591",
     "A067774"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

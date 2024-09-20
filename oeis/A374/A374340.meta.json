@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the minimal determinant of an n X n symmetric Toeplitz matrix having 1 on the main diagonal and all the first n-1 primes off-diagonal.",
+  "id": "A374340",
+  "mentions": [
+    "A071078",
+    "A374067",
+    "A374239",
+    "A374341",
+    "A374342",
+    "A374343",
+    "A374345"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

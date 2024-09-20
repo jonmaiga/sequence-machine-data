@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of partitions of {1..n} into sets where the largest member is greater than the sum of all the others.",
+  "id": "A375641",
+  "mentions": [
+    "A375677"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

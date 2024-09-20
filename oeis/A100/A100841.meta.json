@@ -1,7 +1,9 @@
 {
-  "description": "Primes of the form n^n + 7.",
+  "description": "Primes of the form k^k + 7.",
   "id": "A100841",
-  "mentions": [],
+  "mentions": [
+    "A100838"
+  ],
   "tags": [
     "hard",
     "more",

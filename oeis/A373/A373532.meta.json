@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least number k such that A373531(k) = n, or -1 if no such k exists.",
+  "id": "A373532",
+  "mentions": [
+    "A061799",
+    "A328857",
+    "A373531"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

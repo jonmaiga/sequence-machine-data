@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 37 - n.",
   "id": "A022993",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022996"
+  ],
   "tags": [
     "easy",
     "formulas",

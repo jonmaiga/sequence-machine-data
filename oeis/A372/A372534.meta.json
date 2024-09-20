@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x)^2 = A( x*A(x) + 3*x*A(x)^2 ).",
+  "id": "A372534",
+  "mentions": [
+    "A000108",
+    "A000120",
+    "A356782",
+    "A371716",
+    "A372530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

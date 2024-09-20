@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n such that (smallest part) >= 5*(number of parts).",
+  "id": "A373070",
+  "mentions": [
+    "A003114",
+    "A350899",
+    "A373067",
+    "A373068",
+    "A373069",
+    "A373076"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

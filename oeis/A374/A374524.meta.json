@@ -1,0 +1,17 @@
+{
+  "description": "Numbers p such that p^2 is the order of one of the seven exceptional near-fields.",
+  "id": "A374524",
+  "mentions": [
+    "A270368"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

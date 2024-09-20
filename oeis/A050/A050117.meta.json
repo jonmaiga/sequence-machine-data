@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=b(n)-b(n-1), where b=A050116 (ordered products of Lucas numbers).",
+  "description": "a(n) = b(n)-b(n-1), where b=A050116 (ordered products of Lucas numbers).",
   "id": "A050117",
   "mentions": [
     "A050116"

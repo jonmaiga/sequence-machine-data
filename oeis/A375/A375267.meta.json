@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of the A375265 map to reach 1 starting from n, or -1 if 1 is never reached.",
+  "id": "A375267",
+  "mentions": [
+    "A006577",
+    "A006666",
+    "A375265",
+    "A375266",
+    "A375280"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

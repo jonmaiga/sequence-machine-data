@@ -1,0 +1,17 @@
+{
+  "description": "Number of graphs of order n with exactly one Hamiltonian cycle of girth at least 4.",
+  "id": "A374312",
+  "mentions": [
+    "A307956",
+    "A374313"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

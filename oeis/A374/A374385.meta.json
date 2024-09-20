@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: coefficients of polynomial P(n,x) (exponents in increasing order).",
+  "id": "A374385",
+  "mentions": [
+    "A001221",
+    "A005117",
+    "A013595",
+    "A013596",
+    "A020500",
+    "A023900",
+    "A076479",
+    "A173557",
+    "A191898",
+    "A204455",
+    "A374398",
+    "A374412"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Perimeter of n when it is considered as a \"histonumber\" (see Comments for definition).",
+  "id": "A375036",
+  "mentions": [
+    "A001477",
+    "A007953",
+    "A194025"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

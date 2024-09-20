@@ -6,12 +6,11 @@
   ],
   "tags": [
     "cons",
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 100,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

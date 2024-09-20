@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers whose Collatz trajectory is a Sidon sequence.",
+  "id": "A374527",
+  "mentions": [
+    "A375006"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

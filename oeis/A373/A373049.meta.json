@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that the product of the nonzero digits of the k-th Fibonacci number (A000045) is a perfect power.",
+  "id": "A373049",
+  "mentions": [
+    "A000045",
+    "A076564",
+    "A246558",
+    "A370071",
+    "A373116"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

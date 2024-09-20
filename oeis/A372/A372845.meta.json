@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of parking functions of order n for which the fifth spot is lucky.",
+  "id": "A372845",
+  "mentions": [
+    "A000272",
+    "A372842",
+    "A372843",
+    "A372844"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

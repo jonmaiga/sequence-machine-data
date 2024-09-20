@@ -2,6 +2,7 @@
   "description": "Largest proper divisor of n^3.",
   "id": "A071378",
   "mentions": [
+    "A020639",
     "A032742",
     "A070935"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 2,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

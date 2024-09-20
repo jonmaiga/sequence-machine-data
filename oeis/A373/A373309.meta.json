@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary partitions of n into three kinds of parts.",
+  "id": "A373309",
+  "mentions": [
+    "A018819",
+    "A171238",
+    "A373308"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Bitwise conflict-free sequence: Each number n is placed into the first set k that contains no element x where n AND x > 0: a(n) = k.",
+  "id": "A375776",
+  "mentions": [
+    "A000079",
+    "A164346",
+    "A279125"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

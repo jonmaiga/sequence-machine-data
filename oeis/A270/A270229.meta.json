@@ -1,5 +1,5 @@
 {
-  "description": "Number of matchings (i.e., Hosoya index) in P_{2} X K_{n}.",
+  "description": "Number of matchings in the 2 X n rook graph P_2 X K_n.",
   "id": "A270229",
   "mentions": [
     "A000085",

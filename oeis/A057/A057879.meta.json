@@ -1,19 +1,20 @@
 {
-  "description": "Primes with 3 distinct digits that remain prime (no leading zeros allowed) after deleting all occurrences of its digits d.",
+  "description": "Primes with 3 distinct digits that remain prime (no leading zeros allowed) after deleting all occurrences of any one of its distinct digits.",
   "id": "A057879",
   "mentions": [
     "A034302",
     "A034305",
     "A051362",
     "A057876",
-    "A057883"
+    "A057883",
+    "A235155"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 41,
     "source": "joeis"
   }

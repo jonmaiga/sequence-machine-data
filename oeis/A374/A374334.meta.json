@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of x(n) = (16*x(n-1) + (120*n^2 - 89*n + 16)/(512*n^4 - 1024*n^3 + 712*n^2 - 206*n + 21)) mod 1, with x(0) = 0.",
+  "id": "A374334",
+  "mentions": [
+    "A000796",
+    "A062964",
+    "A374332",
+    "A374335",
+    "A374336",
+    "A374580",
+    "A374607"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

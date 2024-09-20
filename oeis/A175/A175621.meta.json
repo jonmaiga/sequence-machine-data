@@ -1,5 +1,5 @@
 {
-  "description": "2^(composite(n)-4) mod composite(n).",
+  "description": "a(n) = 2^(composite(n)-4) mod composite(n).",
   "id": "A175621",
   "mentions": [
     "A000079",

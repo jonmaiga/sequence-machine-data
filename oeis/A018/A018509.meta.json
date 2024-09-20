@@ -1,7 +1,9 @@
 {
   "description": "Divisors of 540.",
   "id": "A018509",
-  "mentions": [],
+  "mentions": [
+    "A134950"
+  ],
   "tags": [
     "easy",
     "fini",

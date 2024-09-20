@@ -1,10 +1,12 @@
 {
-  "description": "Sigma(n) == 1 mod 4.",
+  "description": "Numbers k such that sigma(k) == 1 (mod 4).",
   "id": "A072461",
   "mentions": [
     "A000203",
     "A028982",
-    "A072462"
+    "A072462",
+    "A081339",
+    "A105824"
   ],
   "tags": [
     "nonn"

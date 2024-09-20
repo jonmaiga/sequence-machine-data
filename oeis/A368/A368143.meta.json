@@ -1,5 +1,5 @@
 {
-  "description": "The number of ways of tiling the n X n torus up to 90-degree rotations of the square by two tiles that are each fixed under 90-degree rotation of the square.",
+  "description": "Number of ways of tiling the n X n torus up to 90-degree rotations of the square by two tiles that are each fixed under 90-degree rotation of the square.",
   "id": "A368143",
   "mentions": [
     "A047937",

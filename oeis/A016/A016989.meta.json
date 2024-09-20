@@ -1,9 +1,12 @@
 {
   "description": "a(n) = (7*n)^9.",
   "id": "A016989",
-  "mentions": [],
+  "mentions": [
+    "A001017"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Triangle read by rows in which row n gives the n-set obtained as the differences {b(n)-b(n-i), 0 <= i <= n-1}, where b() = A005318().",
   "id": "A096858",
   "mentions": [
+    "A005230",
     "A005318"
   ],
   "tags": [

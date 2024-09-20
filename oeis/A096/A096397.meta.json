@@ -1,19 +1,22 @@
 {
-  "description": "a(n) = #{ 1<=i<=n : k(n,i)=-1 } where k(n,i) is the Kronecker symbol.",
+  "description": "a(n) = #{ 0 <= i <= n : K(n, i) = -1 } where K(n, i) is the Kronecker symbol.",
   "id": "A096397",
   "mentions": [
     "A000010",
     "A051953",
+    "A062830",
     "A071961",
     "A096396",
-    "A096398"
+    "A096398",
+    "A372728"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 85,
+    "offset": 0,
+    "size": 86,
     "source": "oeis-bfile"
   }
 }

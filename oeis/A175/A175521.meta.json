@@ -1,5 +1,5 @@
 {
-  "description": "Nonprimes n such that 9*n divides 2^(n-1) - 1.",
+  "description": "Nonprimes k such that 9*k divides 2^(k-1) - 1.",
   "id": "A175521",
   "mentions": [
     "A000079",

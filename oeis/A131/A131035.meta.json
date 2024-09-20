@@ -1,13 +1,14 @@
 {
-  "description": "A051340 * A129686.",
+  "description": "A051340 * A129686 as infinite lower triangular matrices.",
   "id": "A131035",
   "mentions": [
     "A008486",
     "A051340",
-    "A129686"
+    "A129686",
+    "A131034"
   ],
   "tags": [
-    "formulas",
+    "more",
     "nonn",
     "tabl"
   ],

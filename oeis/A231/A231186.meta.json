@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the ratio (longest diagonal)/side in a regular 11-gon (hendecagon).",
+  "description": "Decimal expansion of the ratio (longest diagonal)/side in a regular 11-gon (or hendecagon).",
   "id": "A231186",
   "mentions": [
     "A038342",

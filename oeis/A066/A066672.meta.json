@@ -1,18 +1,21 @@
 {
-  "description": "Exponents of powers of 2 displayed in A066671: 2^a(n) is the largest even divisor of A066669(n).",
+  "description": "Exponent of the largest power of 2 that divides phi(A066669(n)).",
   "id": "A066672",
   "mentions": [
     "A000010",
+    "A007814",
+    "A053574",
     "A066669",
     "A066670",
     "A066671"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

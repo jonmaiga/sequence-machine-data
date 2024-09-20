@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A000040(A096477(n)), i.e., prime(a(n)) and prime(1 + a(n)) are twin primes.",
+  "description": "a(n) = A000040(A096477(n)), i.e., prime(a(n)) and prime(a(n)+1) are twin primes.",
   "id": "A096478",
   "mentions": [
     "A000040",

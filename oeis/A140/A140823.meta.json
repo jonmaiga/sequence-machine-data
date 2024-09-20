@@ -1,5 +1,5 @@
 {
-  "description": "Natural numbers which are not perfect fourth powers.",
+  "description": "Integers that are not perfect fourth powers.",
   "id": "A140823",
   "mentions": [
     "A000027",

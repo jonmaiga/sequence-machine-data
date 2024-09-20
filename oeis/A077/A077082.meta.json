@@ -1,5 +1,5 @@
 {
-  "description": "Largest value arising when Phi[Sigma[n]+phi(n)]=A077080 is iterated with initial value of n.",
+  "description": "Largest value arising when phi(sigma(n)+phi(n))=A077080 is iterated with initial value of n.",
   "id": "A077082",
   "mentions": [
     "A000010",

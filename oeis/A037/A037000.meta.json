@@ -2,7 +2,11 @@
   "description": "Positions of the digit '1' in the decimal expansion of Pi.",
   "id": "A037000",
   "mentions": [
-    "A036974"
+    "A000796",
+    "A036974",
+    "A037001",
+    "A037008",
+    "A053745"
   ],
   "tags": [
     "base",

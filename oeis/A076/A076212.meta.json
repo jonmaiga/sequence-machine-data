@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that n and Fibonacci(n) have the same number of prime factors.",
+  "description": "Numbers k such that k and Fibonacci(k) have the same number of prime factors, counted with multiplicity.",
   "id": "A076212",
   "mentions": [
-    "A001222"
+    "A000045",
+    "A001222",
+    "A038575"
   ],
   "tags": [
     "more",

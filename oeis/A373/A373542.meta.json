@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. exp(x * sqrt(1-x^2)).",
+  "id": "A373542",
+  "mentions": [
+    "A190863"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

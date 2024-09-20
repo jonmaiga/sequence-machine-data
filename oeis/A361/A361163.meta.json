@@ -1,8 +1,7 @@
 {
-  "description": "Number of elliptic points of order 3 in Weierstrass curve with discriminant A360160(n) in moduli space M_3 of compact Riemann surfaces of genus 3.",
+  "description": "Number of elliptic points of order 3 in Weierstrass curve with discriminant A361160(n) in moduli space M_3 of compact Riemann surfaces of genus 3.",
   "id": "A361163",
   "mentions": [
-    "A360160",
     "A361160",
     "A361161",
     "A361162",

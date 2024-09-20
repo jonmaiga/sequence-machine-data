@@ -1,10 +1,12 @@
 {
-  "description": "Representation of sqrt(2) - 1 by an infinite sequence.",
+  "description": "Numbers k such that the k-th bit in the binary expansion of sqrt(2) - 1 is 1: sqrt(2) - 1 = Sum_{n>=1} 1/2^a(n).",
   "id": "A092855",
   "mentions": [
+    "A004539",
     "A051006",
     "A092857",
-    "A092875"
+    "A092875",
+    "A320985"
   ],
   "tags": [
     "base",
@@ -14,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

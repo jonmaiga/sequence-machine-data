@@ -1,0 +1,18 @@
+{
+  "description": "Starting index of the first length-n (exactly) run of zeros in A374966.",
+  "id": "A375065",
+  "mentions": [
+    "A374966",
+    "A375060"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

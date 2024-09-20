@@ -6,10 +6,11 @@
     "A048381"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 52,
     "source": "joeis"
   }

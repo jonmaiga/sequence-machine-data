@@ -2,7 +2,6 @@
   "description": "The next new gap between successive odd primes (divided by 2).",
   "id": "A014321",
   "mentions": [
-    "A000101",
     "A014320",
     "A058320",
     "A086979",

@@ -1,10 +1,12 @@
 {
-  "description": "Successive locations of zeros in decimal expansion of Pi.",
+  "description": "Successive locations of zeros in decimal expansion of Pi (where locations 1, 2, 3, ... correspond to digits 3, 1, 4, ...).",
   "id": "A014976",
   "mentions": [
+    "A000796",
     "A037008",
     "A053745",
-    "A053753"
+    "A053753",
+    "A088563"
   ],
   "tags": [
     "base",

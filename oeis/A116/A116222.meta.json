@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+(n+1) is prime and sum of the prime factors of n and n+1 is also prime.",
+  "description": "Numbers k such that k+(k+1) is prime and sum of the prime factors of k and k+1 is also prime.",
   "id": "A116222",
   "mentions": [],
   "tags": [

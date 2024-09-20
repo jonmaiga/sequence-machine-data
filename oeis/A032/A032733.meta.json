@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that n prefixed by '8' and followed by '9' is prime.",
+  "description": "Numbers k such that k prefixed by '8' and followed by '9' is prime.",
   "id": "A032733",
-  "mentions": [],
+  "mentions": [
+    "A032702",
+    "A032732"
+  ],
   "tags": [
     "base",
     "nonn"

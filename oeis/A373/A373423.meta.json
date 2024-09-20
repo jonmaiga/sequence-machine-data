@@ -1,0 +1,28 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n, k) = [x^k] cf(n) where cf(0) = 1, cf(1) = -1/(x - 1), and for n > 1 is cf(n) = ~( ~x - 1/(~x - 1/(~x - 1/(~x - 1/(~x - ... 1/(~x + 1))))...) ) where '~' is '-' if n is even, and '+' if n is odd, and x appears n times in the expression.",
+  "id": "A373423",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A006322",
+    "A085461",
+    "A108675",
+    "A244881",
+    "A276312",
+    "A373424",
+    "A373565",
+    "A373566",
+    "A373567",
+    "A373568",
+    "A373569"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

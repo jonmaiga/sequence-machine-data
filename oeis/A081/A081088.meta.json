@@ -2,7 +2,6 @@
   "description": "Smallest partial quotients of a series of continued fractions that have a sum of unity, where the n-th continued fraction term is [0; a(n),a(n-1),...,a(1)], so that sum(n>0, [0; a(n),a(n-1),...,a(1)] ) = 1, with a(1)=2.",
   "id": "A081088",
   "mentions": [
-    "A080190",
     "A081086",
     "A081089",
     "A081090"

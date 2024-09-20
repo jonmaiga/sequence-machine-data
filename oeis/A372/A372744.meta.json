@@ -1,0 +1,19 @@
+{
+  "description": "If the n-th 3-smooth number, A003586(n), equals 2^i * 3^j for some i, j >= 0, then the a(n)-th 3-smooth number, A003586(a(n)), equals 2^j * 3^i.",
+  "id": "A372744",
+  "mentions": [
+    "A003586",
+    "A022328",
+    "A022329",
+    "A202821"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

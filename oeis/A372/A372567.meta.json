@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k such that k, sigma(k) and A003961(k) have a common divisor larger than 1, where A003961(n) is fully multiplicative function with a(prime(i)) = prime(i+1).",
+  "id": "A372567",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A349176",
+    "A349753",
+    "A372566"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

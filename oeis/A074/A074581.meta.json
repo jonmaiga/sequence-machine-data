@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=T(3n+1), where T(n) are tribonacci numbers A000073.",
+  "description": "a(n) = T(3n+1), where T(n) are tribonacci numbers A000073.",
   "id": "A074581",
   "mentions": [
     "A000073"

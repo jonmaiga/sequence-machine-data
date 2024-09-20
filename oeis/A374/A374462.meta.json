@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k), n > 1, k = 1..n-1, read by rows; T(n, k) equals the p-adic valuation of n minus the p-adic valuation of k where p is the least prime number such that this quantity is nonzero.",
+  "id": "A374462",
+  "mentions": [
+    "A067029",
+    "A094267",
+    "A374381",
+    "A374451"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct products i*j with 1 <= i, j <= n which are not the sum of two numbers between 1 and n.",
+  "id": "A375109",
+  "mentions": [
+    "A027424",
+    "A060715",
+    "A108954",
+    "A254671",
+    "A263995",
+    "A373716"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

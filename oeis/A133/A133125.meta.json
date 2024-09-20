@@ -1,5 +1,5 @@
 {
-  "description": "A133080 * A000244.",
+  "description": "a(n) = (7*3^n - (-3)^n)/6.",
   "id": "A133125",
   "mentions": [
     "A000244",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

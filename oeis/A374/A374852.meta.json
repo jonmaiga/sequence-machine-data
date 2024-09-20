@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (1/3)*A054640(n) for n >= 1.",
+  "id": "A374852",
+  "mentions": [
+    "A000040",
+    "A054640",
+    "A374848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n and A327860(n) are both multiples of 3, where A327860 is the arithmetic derivative of the primorial base exp-function.",
+  "id": "A373598",
+  "mentions": [
+    "A079978",
+    "A276086",
+    "A327860",
+    "A329041",
+    "A351083",
+    "A369653",
+    "A373143",
+    "A373599"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

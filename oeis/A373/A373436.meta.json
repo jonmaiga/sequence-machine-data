@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the sum of domination numbers of spanning subgraphs with k edges in the n-cycle graph.",
+  "id": "A373436",
+  "mentions": [
+    "A365327"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

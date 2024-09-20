@@ -1,0 +1,19 @@
+{
+  "description": "Number of misère-play left dead end games born by day n.",
+  "id": "A368588",
+  "mentions": [
+    "A047995",
+    "A065401",
+    "A260969"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "a(n) = Sum_{d|n} d^c(d), where c is the characteristic function of squares (A010052).",
   "id": "A349330",
   "mentions": [
-    "A010052"
+    "A010052",
+    "A035316",
+    "A056595"
   ],
   "tags": [
     "formulas",

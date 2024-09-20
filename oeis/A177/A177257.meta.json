@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum((binomial(n,j)-j-1)*B(j), j=0..n-1), where B(j)=A000110(j) are the Bell numbers.",
+  "description": "a(n) = Sum_{j=0..n-1} (binomial(n,j) - (j+1))*A000110(j).",
   "id": "A177257",
   "mentions": [
     "A000110",
@@ -9,6 +9,7 @@
     "A177256"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

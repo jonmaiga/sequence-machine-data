@@ -1,0 +1,17 @@
+{
+  "description": "Triangular numbers such that the three numbers before it and the three numbers after it are squarefree.",
+  "id": "A374393",
+  "mentions": [
+    "A000217",
+    "A005117",
+    "A068088"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

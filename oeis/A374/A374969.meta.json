@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered solutions (x,y,z,w) to x*y + y*z + z*w + w*x = n with x,y,z,w >= 1.",
+  "id": "A374969",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A066851",
+    "A374970"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

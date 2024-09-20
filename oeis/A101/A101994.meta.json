@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that 4n-1, 8n-1, 16n-1, 32n-1 and 64n-1 are primes.",
+  "description": "Numbers k such that 4*k-1, 8*k-1, 16*k-1, 32*k-1 and 64*k-1 are all primes.",
   "id": "A101994",
   "mentions": [
     "A002515",
+    "A005099",
+    "A005122",
     "A101790",
     "A101794",
     "A101995",
@@ -18,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 31,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies 1/(1-x) = product_{n>=1} A(x^n).",
+  "description": "G.f. A(x) satisfies 1/(1-x) = Product_{k>=1} A(x^k).",
   "id": "A117209",
   "mentions": [
     "A008683",

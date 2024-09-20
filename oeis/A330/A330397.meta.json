@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers k such that gpf(k)^2 + gpf(k) = 0 (mod k), where gpf(k) = A006530(k) is the greatest prime dividing k.",
+  "description": "Composite numbers k such that gpf(k)^2 + gpf(k) == 0 (mod k), where gpf(k) = A006530(k) is the greatest prime dividing k.",
   "id": "A330397",
   "mentions": [
     "A000043",

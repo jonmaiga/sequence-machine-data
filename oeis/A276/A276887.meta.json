@@ -2,7 +2,6 @@
   "description": "Sums-complement of the Beatty sequence for 3 + tau.",
   "id": "A276887",
   "mentions": [
-    "A267855",
     "A276855",
     "A276868",
     "A276871"

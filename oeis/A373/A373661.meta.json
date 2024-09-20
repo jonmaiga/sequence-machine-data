@@ -1,0 +1,17 @@
+{
+  "description": "Least prime p such that there exist exactly n primes of the form k!-p.",
+  "id": "A373661",
+  "mentions": [
+    "A373631",
+    "A373726"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

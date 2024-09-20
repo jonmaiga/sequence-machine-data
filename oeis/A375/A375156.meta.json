@@ -1,0 +1,19 @@
+{
+  "description": "In the binary expansion of n: expand bits 1 -> 01 and 0 -> x0 from most to least significant, where x is the complement of the previous bit from n.",
+  "id": "A375156",
+  "mentions": [
+    "A008836",
+    "A057077",
+    "A374625"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

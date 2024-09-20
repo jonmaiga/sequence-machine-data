@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n, k) = A246278(1+n, k) - sigma(A246278(n, k)), read by falling antidiagonals, where A246278 is the prime shift array.",
+  "id": "A372563",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A046933",
+    "A246278",
+    "A286385",
+    "A355924",
+    "A355927",
+    "A372562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

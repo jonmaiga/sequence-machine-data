@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n*(binomial(4*n, n) - 1).",
+  "id": "A374522",
+  "mentions": [
+    "A005810"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least m >= 0 with the same number of digits as n such that for some permutation p of 0..9, applying p to the digits of n yields the digits of m.",
+  "id": "A373696",
+  "mentions": [
+    "A137564",
+    "A266946",
+    "A358497",
+    "A373712"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

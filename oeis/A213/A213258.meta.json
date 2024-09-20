@@ -2,10 +2,13 @@
   "description": "Positive integers that are not in A213257.",
   "id": "A213258",
   "mentions": [
+    "A067368",
     "A191255",
+    "A191257",
     "A213257"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

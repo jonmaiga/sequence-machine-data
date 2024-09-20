@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of parking functions of order n for which the third spot is lucky.",
+  "id": "A372843",
+  "mentions": [
+    "A000272",
+    "A372842",
+    "A372844",
+    "A372845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

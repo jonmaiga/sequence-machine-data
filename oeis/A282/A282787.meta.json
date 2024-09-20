@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 0..1 arrays with no 1 equal to more than one of its king-move neighbors, with the exception of exactly one element.",
+  "description": "Number of n X 4 0..1 arrays with no 1 equal to more than one of its king-move neighbors, with the exception of exactly one element.",
   "id": "A282787",
   "mentions": [
     "A282791"

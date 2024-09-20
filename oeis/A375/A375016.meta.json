@@ -1,0 +1,14 @@
+{
+  "description": "Number of 1-unbordered words of length n over a 3-letter alphabet beginning with a fixed letter.",
+  "id": "A375016",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

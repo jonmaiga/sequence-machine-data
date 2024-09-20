@@ -1,0 +1,18 @@
+{
+  "description": "Records of A294336 and A294337.",
+  "id": "A375598",
+  "mentions": [
+    "A294336",
+    "A294337",
+    "A375599"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A Jabotinsky-triangle related to A006963.",
+  "description": "Triangle read by rows: T(n, k) = [x^k] x*Pochhammer(n + x, n)/(n + x).",
   "id": "A038455",
   "mentions": [
     "A000108",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 45,
     "source": "joeis"
   }
 }

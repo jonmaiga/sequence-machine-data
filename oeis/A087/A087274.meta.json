@@ -1,5 +1,5 @@
 {
-  "description": "Prime index of largest prime factor of 3*prime(n)+1.",
+  "description": "Prime index of the largest prime factor of 3*prime(n)+1.",
   "id": "A087274",
   "mentions": [
     "A000040",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 82,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

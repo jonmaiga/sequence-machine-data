@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of deco polyominoes of height n and having k columns of even length (0<=k<=n). A deco polyomino is a directed column-convex polyomino in which the height, measured along the diagonal, is attained only in the last column.",
+  "description": "Triangle read by rows: T(n,k) is the number of deco polyominoes of height n and having k columns of even length (0 <= k < n). A deco polyomino is a directed column-convex polyomino in which the height, measured along the diagonal, is attained only in the last column.",
   "id": "A121748",
   "mentions": [
     "A000142",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

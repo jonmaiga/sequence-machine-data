@@ -1,7 +1,10 @@
 {
-  "description": "6-n.",
+  "description": "a(n) = 6-n.",
   "id": "A022962",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022995"
+  ],
   "tags": [
     "easy",
     "formulas",

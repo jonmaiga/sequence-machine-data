@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) read by rows: Maximum number of linear patterns of length k in a circular permutation of length n taken from row n in A194832.",
+  "id": "A374411",
+  "mentions": [
+    "A194832",
+    "A371823",
+    "A373778"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

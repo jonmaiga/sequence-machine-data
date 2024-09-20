@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 24*Li_3(1/2), where Li_m(z) is the polylogarithm function.",
+  "id": "A374644",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A002388",
+    "A099217",
+    "A352769",
+    "A374641",
+    "A374642",
+    "A374643"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

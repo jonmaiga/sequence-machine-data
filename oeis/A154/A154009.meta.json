@@ -2,6 +2,9 @@
   "description": "Decimal expansion of log_6 (9).",
   "id": "A154009",
   "mentions": [
+    "A016629",
+    "A016632",
+    "A102525",
     "A152683",
     "A152935",
     "A153102",
@@ -26,6 +29,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Least n-almost prime number which gives a different n-almost prime number when digits are reversed.",
+  "description": "Least number with exactly n prime factors counted with multiplicity which gives a different number with exactly n prime factors counted with multiplicity when digits are reversed.",
   "id": "A109018",
   "mentions": [
     "A000040",
@@ -27,7 +27,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

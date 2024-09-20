@@ -2,14 +2,15 @@
   "description": "Number of primes between 4^n and 4^(n+1).",
   "id": "A117757",
   "mentions": [
-    "A036378"
+    "A036378",
+    "A086680"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{1..n+1} (-1)^(n-k) A375825(n, k).",
+  "id": "A375544",
+  "mentions": [
+    "A375825"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

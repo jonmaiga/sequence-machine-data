@@ -2,8 +2,17 @@
   "description": "Elements to the right of the central elements of the even-Pascal triangle A028326.",
   "id": "A028330",
   "mentions": [
+    "A001405",
     "A014413",
-    "A028326"
+    "A028326",
+    "A028327",
+    "A028328",
+    "A028329",
+    "A028331",
+    "A028332",
+    "A058622",
+    "A063886",
+    "A202736"
   ],
   "tags": [
     "formulas",

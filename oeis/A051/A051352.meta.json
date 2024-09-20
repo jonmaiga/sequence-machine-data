@@ -2,8 +2,10 @@
   "description": "a(0) = 0; for n>0, a(n) = a(n-1) + n if n not prime else a(n-1) - n.",
   "id": "A051352",
   "mentions": [
+    "A000217",
     "A005171",
-    "A010051"
+    "A010051",
+    "A034387"
   ],
   "tags": [
     "easy",

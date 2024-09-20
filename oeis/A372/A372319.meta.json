@@ -1,0 +1,19 @@
+{
+  "description": "Products of prime triples (p, p+2, p+6) where p = A022004(n).",
+  "id": "A372319",
+  "mentions": [
+    "A007304",
+    "A016921",
+    "A022004",
+    "A120944"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

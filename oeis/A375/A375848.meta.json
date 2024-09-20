@@ -1,0 +1,20 @@
+{
+  "description": "The maximum exponent in the prime factorization of the numbers whose maximum exponent in their prime factorization is an evil number (A374590).",
+  "id": "A375848",
+  "mentions": [
+    "A001969",
+    "A051903",
+    "A374590"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

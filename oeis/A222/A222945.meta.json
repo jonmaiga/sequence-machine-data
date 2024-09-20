@@ -2,6 +2,7 @@
   "description": "Number of distinct sums i+j+k with |i|, |j|, |k|, |i*j*k| <= n.",
   "id": "A222945",
   "mentions": [
+    "A004766",
     "A222947",
     "A226357",
     "A226359"

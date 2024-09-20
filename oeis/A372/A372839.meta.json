@@ -1,0 +1,14 @@
+{
+  "description": "Number of extreme submodular functions on n items, up to equivalence.",
+  "id": "A372839",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

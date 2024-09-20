@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that 2k and 4k have the same number of Goldbach partitions into primes.",
+  "id": "A375886",
+  "mentions": [
+    "A045917"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

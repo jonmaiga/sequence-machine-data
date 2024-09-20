@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of a regular dodecahedron having unit inradius.",
+  "id": "A374755",
+  "mentions": [
+    "A001622",
+    "A098317",
+    "A131595",
+    "A374753",
+    "A374772",
+    "A374837",
+    "A374838"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

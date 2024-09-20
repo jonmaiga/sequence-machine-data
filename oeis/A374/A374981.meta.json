@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n^2 - 1)/6 - Sum_{t=0..n-1} [ A000217(t)/n ], where [ x ] means the fractional part of x here.",
+  "id": "A374981",
+  "mentions": [
+    "A000217",
+    "A006095",
+    "A374968"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

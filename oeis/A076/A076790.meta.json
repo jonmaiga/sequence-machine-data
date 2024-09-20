@@ -6,10 +6,11 @@
   ],
   "tags": [
     "base",
+    "cons",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 104,
     "source": "oeis-entry"
   }

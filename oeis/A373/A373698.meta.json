@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n for n <= 3; for n > 3, a(n) is the smallest unused positive number that shares a factor with the largest odd divisor of a(n-1).",
+  "id": "A373698",
+  "mentions": [
+    "A005408",
+    "A005843",
+    "A064413",
+    "A373545",
+    "A373546",
+    "A373623"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

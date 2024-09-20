@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/(1 - x)^2 - 1 + A(x^3).",
+  "id": "A373184",
+  "mentions": [
+    "A084432",
+    "A327625",
+    "A373185"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

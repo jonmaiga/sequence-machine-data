@@ -1,0 +1,23 @@
+{
+  "description": "Number of biquadratefree numbers <= n.",
+  "id": "A375245",
+  "mentions": [
+    "A008683",
+    "A013662",
+    "A046100",
+    "A060431",
+    "A215267",
+    "A307430",
+    "A309083"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

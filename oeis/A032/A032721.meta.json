@@ -1,13 +1,16 @@
 {
-  "description": "n prefixed by '4' and followed by '7' is a prime.",
+  "description": "Numbers k such that k prefixed by '4' and followed by '7' is prime.",
   "id": "A032721",
-  "mentions": [],
+  "mentions": [
+    "A032702",
+    "A032733"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 58,
     "source": "joeis"
   }

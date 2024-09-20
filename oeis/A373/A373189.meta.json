@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Sum_{k>=0} x^(4^k) / (1 - x^(4^k))^3.",
+  "id": "A373189",
+  "mentions": [
+    "A000217",
+    "A373187",
+    "A373188"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

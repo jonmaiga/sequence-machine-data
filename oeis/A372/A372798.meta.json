@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that the multiplicative order of 8 modulo p is n, or 0 if no such prime exists.",
+  "id": "A372798",
+  "mentions": [
+    "A054471",
+    "A101208",
+    "A101209",
+    "A211244",
+    "A372797",
+    "A372799",
+    "A372800"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

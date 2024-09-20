@@ -1,10 +1,15 @@
 {
-  "description": "Numbers n such that m = 216n + 108 satisfies sigma(m) != 2*usigma(m).",
+  "description": "Numbers j such that m = 216*j + 108 satisfies sigma(m) != 2*usigma(m).",
   "id": "A097703",
   "mentions": [
+    "A000203",
+    "A007949",
+    "A013929",
+    "A034448",
     "A063880",
     "A097702",
-    "A097704"
+    "A097704",
+    "A276378"
   ],
   "tags": [
     "nonn"
@@ -12,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose squares have a unique pattern of identical digits among the squares.",
+  "id": "A374268",
+  "mentions": [
+    "A358497",
+    "A374267"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

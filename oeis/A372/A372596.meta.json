@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=-1; thereafter a(n) is (the number of terms that appear with a different frequency from that of a(n-1)) minus (the number of terms that appear with the same frequency).",
+  "id": "A372596",
+  "mentions": [
+    "A350768",
+    "A363764",
+    "A372598"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

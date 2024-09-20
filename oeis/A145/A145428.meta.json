@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{n=1..inf} 3^n*(n!)^2/(2n)!.",
+  "description": "Decimal expansion of Sum_{n>=1} 3^n*(n!)^2/(2n)!.",
   "id": "A145428",
   "mentions": [
     "A019694",

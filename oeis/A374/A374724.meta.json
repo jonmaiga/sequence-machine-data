@@ -1,0 +1,18 @@
+{
+  "description": "Quartet paradiddle Thue-Morse, with axiom {1} and morphism 1->{1,2,3,4,1,1}, 2->{2,1,4,3,2,2}, 3->{3,4,1,2,3,3}, 4->{4,3,2,1,4,4}.",
+  "id": "A374724",
+  "mentions": [
+    "A010059",
+    "A010060",
+    "A374646"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

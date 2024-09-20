@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: row n contains the distinct values (in numerical order) making up the nonzero exponents in the prime-factorization of n. (Row 1 = (0).).",
+  "description": "Irregular triangle read by rows: row n contains the distinct values (in numerical order) making up the nonzero exponents in the prime factorization of n. (Row 1 = (0).).",
   "id": "A136568",
   "mentions": [
     "A071625",

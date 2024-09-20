@@ -1,18 +1,20 @@
 {
-  "description": "Solutions to sigma[2*(x^2)]=odd^2.",
+  "description": "Numbers of the form 2*k^2 such that sigma(2*k^2) is an odd square.",
   "id": "A074388",
   "mentions": [
     "A000203",
     "A001248",
     "A028982",
-    "A074386"
+    "A074386",
+    "A097023"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

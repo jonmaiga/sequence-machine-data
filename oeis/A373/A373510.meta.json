@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - 25*x^5)^(1/5)).",
+  "id": "A373510",
+  "mentions": [
+    "A066872",
+    "A098615",
+    "A371458",
+    "A373511"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

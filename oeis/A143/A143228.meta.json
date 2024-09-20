@@ -1,9 +1,11 @@
 {
-  "description": "Triangle read by rows, T(n,k) = (p(n)*p(k)), where p(n) & p(k) = the number of partitions of n; 0<=k<=n.",
+  "description": "Triangle read by rows, T(n,k) = p(n) * p(k), where p(n) = the number of partitions of n, for 0 <= k <= n.",
   "id": "A143228",
   "mentions": [
-    "A000012",
     "A000041",
+    "A001255",
+    "A087787",
+    "A143215",
     "A143229"
   ],
   "tags": [
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 64,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

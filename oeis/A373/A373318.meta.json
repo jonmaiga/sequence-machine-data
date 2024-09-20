@@ -1,0 +1,37 @@
+{
+  "description": "Numerator of the asymptotic density of numbers that are unitarily divided by n.",
+  "id": "A373318",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A001620",
+    "A003277",
+    "A013661",
+    "A016051",
+    "A016825",
+    "A017113",
+    "A034444",
+    "A051062",
+    "A051063",
+    "A064549",
+    "A076512",
+    "A077610",
+    "A090778",
+    "A109395",
+    "A173557",
+    "A306016",
+    "A373319",
+    "A373320"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

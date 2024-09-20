@@ -1,0 +1,16 @@
+{
+  "description": "Vertical moments of inertia of a unit lozenge tiling of the hexagon with side lengths n (see references for exact configuration).",
+  "id": "A374083",
+  "mentions": [
+    "A071092"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..1 arrays with every element unequal to 0, 1, 4 or 6 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.",
+  "description": "Number of n X 5 0..1 arrays with every element unequal to 0, 1, 4 or 6 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.",
   "id": "A318542",
   "mentions": [
     "A318545"

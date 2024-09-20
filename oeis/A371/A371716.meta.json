@@ -2,6 +2,7 @@
   "description": "Expansion of g.f. A(x) satisfies A( x*A(x)^3 + x*A(x)^4 ) = A(x)^4.",
   "id": "A371716",
   "mentions": [
+    "A000108",
     "A371709",
     "A371713"
   ],

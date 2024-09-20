@@ -3,7 +3,9 @@
   "id": "A118706",
   "mentions": [
     "A000217",
-    "A119033"
+    "A118711",
+    "A119033",
+    "A119034"
   ],
   "tags": [
     "base",
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

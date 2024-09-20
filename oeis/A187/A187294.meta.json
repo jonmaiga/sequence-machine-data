@@ -1,5 +1,5 @@
 {
-  "description": "Number of 9-step one or two space at a time rook's tours on an n X n board summed over all starting positions",
+  "description": "Number of 9-step one or two space at a time rook's tours on an n X n board summed over all starting positions.",
   "id": "A187294",
   "mentions": [
     "A187286"

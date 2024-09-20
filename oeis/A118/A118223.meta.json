@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n! * p(n)# - 1 is prime.",
+  "description": "Numbers k such that k! * prime(k)# - 1 is prime.",
   "id": "A118223",
   "mentions": [
+    "A002110",
     "A118222"
   ],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 if the 2-adic and the 3-adic valuations of n are equal, otherwise 0.",
+  "id": "A373156",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A064615"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

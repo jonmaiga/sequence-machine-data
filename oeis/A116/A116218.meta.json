@@ -1,14 +1,16 @@
 {
   "description": "If X_1,...,X_n is a partition of a 2n-set X into 2-blocks (or pairs) then a(n) is equal to the number of permutations f of X such that f(X_i) != X_i for all i=1,...n.",
   "id": "A116218",
-  "mentions": [],
+  "mentions": [
+    "A374980"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

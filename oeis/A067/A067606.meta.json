@@ -1,14 +1,15 @@
 {
-  "description": "Primes p such that p+7==0 (mod phi(p+7)).",
+  "description": "Primes p such that p+7 == 0 (mod phi(p+7)).",
   "id": "A067606",
-  "mentions": [],
+  "mentions": [
+    "A007694"
+  ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
-    "source": "joeis"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

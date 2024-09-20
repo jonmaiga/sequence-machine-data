@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes q*p such that q^p == p (mod (q - p)), where q > p.",
+  "id": "A373899",
+  "mentions": [
+    "A001358",
+    "A037074",
+    "A046388",
+    "A371811"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

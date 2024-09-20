@@ -1,13 +1,18 @@
 {
   "description": "Cubes with property that all even digits occur together and all odd digits occur together.",
   "id": "A030479",
-  "mentions": [],
+  "mentions": [
+    "A000578",
+    "A030474",
+    "A030478"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 35,
     "source": "joeis"
   }

@@ -2,7 +2,6 @@
   "description": "Number of partitions of n into distinct parts of which the number of even parts or the number of odd parts is a part.",
   "id": "A240865",
   "mentions": [
-    "A204868",
     "A240573",
     "A240579",
     "A240862",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = binomial(prime(n), phi(prime(n) + 1)).",
+  "id": "A375337",
+  "mentions": [
+    "A007318",
+    "A008331"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

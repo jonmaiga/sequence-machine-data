@@ -5,12 +5,13 @@
     "A028491"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

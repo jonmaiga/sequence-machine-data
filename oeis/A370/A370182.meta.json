@@ -1,0 +1,23 @@
+{
+  "description": "Size of the group Z_7*/(Z_7*)^n, where Z_7 is the ring of 7-adic integers.",
+  "id": "A370182",
+  "mentions": [
+    "A001620",
+    "A297402",
+    "A370050",
+    "A370180",
+    "A370181",
+    "A370567"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k)= semiprime(n) mod A065516(k), where A065516 are differences between consecutive semiprimes.",
+  "description": "Triangle read by rows: T(n,k) = semiprime(n) mod A065516(k), where A065516 are differences between consecutive semiprimes.",
   "id": "A174479",
   "mentions": [
     "A001358",

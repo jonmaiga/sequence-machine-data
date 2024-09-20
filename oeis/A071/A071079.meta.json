@@ -1,13 +1,17 @@
 {
   "description": "Determinant of the n X n matrix whose element (i,j) equals the |i-j|-th prime or if i=j, 0.",
   "id": "A071079",
-  "mentions": [],
+  "mentions": [
+    "A071078",
+    "A071082",
+    "A071083"
+  ],
   "tags": [
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
   }
 }

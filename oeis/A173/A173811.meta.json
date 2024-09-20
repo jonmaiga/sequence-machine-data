@@ -1,5 +1,5 @@
 {
-  "description": "(8*10^n-53)/9 for n>0.",
+  "description": "a(n) = (8*10^n - 53)/9 for n > 0.",
   "id": "A173811",
   "mentions": [
     "A093166"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

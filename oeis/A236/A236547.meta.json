@@ -1,5 +1,5 @@
 {
-  "description": "n such that (2^(2n + 1) - 2)/3 + n - 1 is prime.",
+  "description": "Numbers k such that (2^(2k + 1) - 2)/3 + k - 1 is prime.",
   "id": "A236547",
   "mentions": [
     "A235860"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

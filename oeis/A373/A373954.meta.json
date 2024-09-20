@@ -1,0 +1,45 @@
+{
+  "description": "Excess run-compression of standard compositions. Sum of all parts minus sum of compressed parts of the n-th integer composition in standard order.",
+  "id": "A373954",
+  "mentions": [
+    "A003242",
+    "A029837",
+    "A037201",
+    "A066099",
+    "A070939",
+    "A106356",
+    "A114901",
+    "A116608",
+    "A116861",
+    "A124762",
+    "A124767",
+    "A131044",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A240085",
+    "A272919",
+    "A285981",
+    "A333213",
+    "A333381",
+    "A333382",
+    "A333489",
+    "A333627",
+    "A333755",
+    "A348612",
+    "A373947",
+    "A373949",
+    "A373951",
+    "A373953",
+    "A373955"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

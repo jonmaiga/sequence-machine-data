@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of 3 distinct nonzero tetrahedral numbers in exactly n ways, or -1 if no such number exists.",
+  "id": "A374808",
+  "mentions": [
+    "A000292",
+    "A334013",
+    "A374806",
+    "A374809"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,15 @@
 {
-  "description": "Numbers n such that n/p_i^r_i == -1 (mod p_i) for all i = 1,...,m, where n = p_1^r_1 .... p_m^r_m.",
+  "description": "Numbers k such that k/p_i^r_i == -1 (mod p_i) for all i = 1,...,m, where k = p_1^r_1 .... p_m^r_m.",
   "id": "A270140",
-  "mentions": [],
+  "mentions": [
+    "A274222"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

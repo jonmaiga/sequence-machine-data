@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = (2*k-1)*2^(n-1), 0",
+  "description": "Triangle read by rows: T(n,k) = (2*k-1)*2^(n-1), 0 < k <= n.",
   "id": "A118416",
   "mentions": [
     "A000079",
@@ -12,6 +12,7 @@
     "A007283",
     "A014477",
     "A014480",
+    "A018215",
     "A020714",
     "A054582",
     "A058962",

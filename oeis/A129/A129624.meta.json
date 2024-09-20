@@ -1,7 +1,11 @@
 {
-  "description": "Decimal expansion of the constant x satisfying x! = Gamma[x+1] = 40.",
+  "description": "Decimal expansion of the constant x satisfying x! = Gamma(x+1) = 40.",
   "id": "A129624",
-  "mentions": [],
+  "mentions": [
+    "A319275",
+    "A319276",
+    "A319277"
+  ],
   "tags": [
     "cons",
     "nonn"

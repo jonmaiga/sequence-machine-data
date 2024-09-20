@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose prime factorization has exactly one exponent that is larger than 2.",
+  "id": "A375145",
+  "mentions": [
+    "A002117",
+    "A046099",
+    "A057521",
+    "A190641",
+    "A246549",
+    "A286229",
+    "A375146"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

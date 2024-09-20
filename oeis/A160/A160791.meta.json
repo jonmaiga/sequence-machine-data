@@ -1,5 +1,5 @@
 {
-  "description": "First differences of A160790.",
+  "description": "a(n) = binomial(N, n - N) where N = 1 + floor(n/2).",
   "id": "A160791",
   "mentions": [
     "A000217",
@@ -13,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 60,
-    "source": "joeis"
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

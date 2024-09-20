@@ -1,0 +1,18 @@
+{
+  "description": "Number of free n-celled polyiamonds to which two inequivalent cells can be adjoined such that the two resulting free (n+1)-celled polyiamonds are identical.",
+  "id": "A373637",
+  "mentions": [
+    "A369366",
+    "A373635",
+    "A373636"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

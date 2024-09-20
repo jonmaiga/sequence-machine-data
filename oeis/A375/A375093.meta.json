@@ -1,0 +1,19 @@
+{
+  "description": "Numbers for which the number of squares in their Collatz trajectory sets a new record.",
+  "id": "A375093",
+  "mentions": [
+    "A000290",
+    "A006877",
+    "A008884",
+    "A078373"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

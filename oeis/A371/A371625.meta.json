@@ -1,0 +1,19 @@
+{
+  "description": "The x-coordinate of the point (x,y) where x + y = n, x is an integer, and x/y is as close as possible to phi (by absolute difference).",
+  "id": "A371625",
+  "mentions": [
+    "A001622",
+    "A002163",
+    "A371626",
+    "A371627"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

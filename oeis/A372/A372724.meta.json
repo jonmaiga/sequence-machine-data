@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k = Sum_{j=2..k+2} L(k/prime(j)) where L(n/p) is the Legendre symbol. Fixed points of A372725.",
+  "id": "A372724",
+  "mentions": [
+    "A000290",
+    "A069562",
+    "A336101",
+    "A372725",
+    "A373087"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

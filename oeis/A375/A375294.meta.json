@@ -1,0 +1,15 @@
+{
+  "description": "Number of winning combinations in the game Icosahedron Bingo after n rolls.",
+  "id": "A375294",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

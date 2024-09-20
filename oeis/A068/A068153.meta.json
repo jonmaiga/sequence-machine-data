@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for Gamma(1/4).",
   "id": "A068153",
-  "mentions": [],
+  "mentions": [
+    "A068466"
+  ],
   "tags": [
     "cofr",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 98,
     "source": "oeis-bfile"
   }

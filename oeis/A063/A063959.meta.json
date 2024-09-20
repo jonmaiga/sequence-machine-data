@@ -1,8 +1,14 @@
 {
   "description": "Sum of the primes from 1 to n!.",
   "id": "A063959",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A006990",
+    "A034387",
+    "A294194"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

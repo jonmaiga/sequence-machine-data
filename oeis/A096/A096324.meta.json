@@ -2,10 +2,13 @@
   "description": "a(n) = prime(3^prime(n)).",
   "id": "A096324",
   "mentions": [
+    "A000040",
     "A038833"
   ],
   "tags": [
+    "formulas",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

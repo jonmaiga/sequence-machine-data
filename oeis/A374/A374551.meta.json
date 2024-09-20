@@ -1,0 +1,19 @@
+{
+  "description": "Number of length n inversion sequences avoiding the patterns 101 and 120.",
+  "id": "A374551",
+  "mentions": [
+    "A113227",
+    "A263778",
+    "A374545",
+    "A374547",
+    "A374548"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

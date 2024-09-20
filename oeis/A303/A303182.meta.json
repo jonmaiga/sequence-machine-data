@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with every element equal to 0, 1, 2, 5 or 6 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
+  "description": "T(n,k) = Number of n X k 0..1 arrays with every element equal to 0, 1, 2, 5 or 6 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
   "id": "A303182",
   "mentions": [
     "A000079",

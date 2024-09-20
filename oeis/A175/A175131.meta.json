@@ -1,5 +1,5 @@
 {
-  "description": "2^(n-1) mod semiprime(n).",
+  "description": "a(n) = 2^(n-1) mod semiprime(n).",
   "id": "A175131",
   "mentions": [
     "A000079",

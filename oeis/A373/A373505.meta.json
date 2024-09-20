@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k+1 both have an equal number of odd and even digits in their factorial-base representations.",
+  "id": "A373505",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A337238",
+    "A351895",
+    "A373460"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

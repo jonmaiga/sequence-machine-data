@@ -2,9 +2,13 @@
   "description": "Graded dimension of the space of invariant bilinear forms on the free pre-Lie algebra on one generator.",
   "id": "A098091",
   "mentions": [
-    "A000081"
+    "A000081",
+    "A051573",
+    "A123256"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

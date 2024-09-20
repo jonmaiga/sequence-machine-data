@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1 - 2*x + 3*x^2)/(1 - 2*x - 3*x^2)^(5/2).",
+  "id": "A373651",
+  "mentions": [
+    "A002426",
+    "A132885",
+    "A144087"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

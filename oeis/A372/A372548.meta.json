@@ -1,0 +1,20 @@
+{
+  "description": "Largest order of a torsion subgroup of an elliptic curve over a number field of degree n.",
+  "id": "A372548",
+  "mentions": [
+    "A372083",
+    "A372206",
+    "A372549"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

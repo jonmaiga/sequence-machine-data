@@ -1,8 +1,9 @@
 {
-  "description": "The number of distinct prime factors in Lucas-Lehmer numbers A003010(k-2) divisible by 2^k-1.",
+  "description": "a(n) is the number of distinct prime factors in Lucas-Lehmer numbers A003010(k-2)/(2^k-1), where k = A000043(n+1).",
   "id": "A177876",
   "mentions": [
     "A000040",
+    "A000043",
     "A000668",
     "A003010",
     "A177874",

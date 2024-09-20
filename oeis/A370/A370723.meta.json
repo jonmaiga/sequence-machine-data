@@ -1,0 +1,19 @@
+{
+  "description": "Number of symmetric (0,1)-matrices with sum of entries equal to n and no zero rows or columns, with weakly decreasing row sums and column sums.",
+  "id": "A370723",
+  "mentions": [
+    "A135588",
+    "A178718",
+    "A321652",
+    "A365961"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

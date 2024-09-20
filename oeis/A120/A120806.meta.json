@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n such that n+d+1 is prime for all divisors d of n.",
+  "description": "Positive integers k such that k+d+1 is prime for all divisors d of k.",
   "id": "A120806",
   "mentions": [
     "A000578",
@@ -16,7 +16,6 @@
     "A120810"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

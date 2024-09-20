@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number b such that b^prime(n)-(b-1)^prime(n) is prime.",
+  "description": "Smallest number b such that b^prime(n) - (b-1)^prime(n) is prime.",
   "id": "A103794",
   "mentions": [
     "A058013",

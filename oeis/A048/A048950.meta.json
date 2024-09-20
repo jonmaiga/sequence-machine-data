@@ -1,9 +1,23 @@
 {
-  "description": "Base 3 Euler-Jacobi pseudoprimes.",
+  "description": "Base-3 Euler-Jacobi pseudoprimes.",
   "id": "A048950",
   "mentions": [
     "A005935",
-    "A047713"
+    "A006970",
+    "A006971",
+    "A047713",
+    "A244626",
+    "A244628",
+    "A262051",
+    "A262052",
+    "A306310",
+    "A375490",
+    "A375816",
+    "A375914",
+    "A375915",
+    "A375916",
+    "A375917",
+    "A375918"
   ],
   "tags": [
     "nonn"

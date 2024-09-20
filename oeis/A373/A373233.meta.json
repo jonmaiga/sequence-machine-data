@@ -1,0 +1,32 @@
+{
+  "description": "Relative of Hofstadter Q-sequence: a(n) = 0 for n <= 0, a(n) = n for 1 <= n <= 13; a(n) = a(n-a(n-1)) + a(n-a(n-2)) + a(n-a(n-3)) for n > 13.",
+  "id": "A373233",
+  "mentions": [
+    "A005185",
+    "A278055",
+    "A278056",
+    "A278057",
+    "A278058",
+    "A278059",
+    "A278060",
+    "A278061",
+    "A278062",
+    "A278063",
+    "A278064",
+    "A278065",
+    "A373227",
+    "A373228",
+    "A373229",
+    "A373230",
+    "A373231",
+    "A373232"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

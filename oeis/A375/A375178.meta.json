@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k = 0..n-1} binomial(n+k-1, k)^3 (same as A112028 with an extra 0 at the start).",
+  "id": "A375178",
+  "mentions": [
+    "A000984",
+    "A010763",
+    "A112028",
+    "A176335",
+    "A375179",
+    "A375180"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

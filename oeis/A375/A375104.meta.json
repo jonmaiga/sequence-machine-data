@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of placing the maximum number of nonattacking queens on a 4-dimensional chessboard of order n.",
+  "id": "A375104",
+  "mentions": [
+    "A000170",
+    "A068941",
+    "A375103"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

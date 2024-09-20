@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers whose binary form follows the periodic pattern 1101110: the concatenation of halftones 2 2 1 2 2 2 1, diminished by one, between successive pitches in the Ionian Major Scale.",
+  "id": "A371902",
+  "mentions": [
+    "A000225",
+    "A083026",
+    "A234046",
+    "A291454"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

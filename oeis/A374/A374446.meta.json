@@ -1,0 +1,17 @@
+{
+  "description": "Positions of zeros in the expansion of Product_{k>=0} (1 - x^(2^k))^3; A373308(a(n)) = 0 for n >= 1.",
+  "id": "A374446",
+  "mentions": [
+    "A000695",
+    "A001196",
+    "A373308"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

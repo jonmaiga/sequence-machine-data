@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n * 9^n.",
+  "description": "a(n) = n*9^n.",
   "id": "A158749",
   "mentions": [
     "A001019",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

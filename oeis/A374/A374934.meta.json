@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of squares covered (i.e., attacked) by 4 independent (i.e., nonattacking) queens on an n X n chessboard.",
+  "id": "A374934",
+  "mentions": [
+    "A017113",
+    "A047461",
+    "A374933",
+    "A374935",
+    "A374936",
+    "A375116"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

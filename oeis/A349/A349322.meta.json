@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{d|n} d^c(d), where c is the refactorable characteristic (A336040).",
+  "description": "a(n) = Sum_{d|n} d^c(d), where c is the characteristic function of refactorable numbers (A336040).",
   "id": "A349322",
   "mentions": [
     "A033950",

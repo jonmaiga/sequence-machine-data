@@ -1,13 +1,29 @@
 {
-  "description": "Numbers such that the sum of prime factors (taken with multiplicity) is divisible by 3.",
+  "description": "Numbers whose sum of prime factors (taken with multiplicity) is divisible by 3.",
   "id": "A289142",
   "mentions": [
     "A001414",
+    "A002476",
+    "A003415",
+    "A003627",
     "A036349",
     "A036350",
-    "A046363"
+    "A046363",
+    "A102217",
+    "A118503",
+    "A369659",
+    "A373371",
+    "A373373",
+    "A373385",
+    "A373473",
+    "A373475",
+    "A373478",
+    "A373597",
+    "A373602",
+    "A374052"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

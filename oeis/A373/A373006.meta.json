@@ -1,0 +1,17 @@
+{
+  "description": "Antidiagonal sums of A373005.",
+  "id": "A373006",
+  "mentions": [
+    "A000079",
+    "A373005"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

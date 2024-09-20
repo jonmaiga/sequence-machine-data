@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the minimal length of the corresponding shortest addition chain A003313(n)=A003313(5*n).",
+  "description": "Numbers k such that A003313(k) = A003313(5*k).",
   "id": "A116460",
   "mentions": [
     "A003313",

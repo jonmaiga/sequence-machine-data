@@ -1,8 +1,10 @@
 {
-  "description": "G.f.: 2/(1-x) + sum(k>=0, t^2(3-t)/(1+t)/(1-t)^2, t=x^2^k).",
+  "description": "Expansion of 2/(1-x) + Sum_{k>=0} t^2(3-t)/(1+t)/(1-t)^2, where t=x^2^k.",
   "id": "A084432",
   "mentions": [
-    "A069895"
+    "A069895",
+    "A373184",
+    "A373185"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 66,
-    "source": "oeis-entry"
+    "size": 74,
+    "source": "oeis-bfile"
   }
 }

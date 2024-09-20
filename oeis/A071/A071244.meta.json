@@ -1,7 +1,9 @@
 {
-  "description": "n*(n-1)*(n^2+2)/6.",
+  "description": "a(n) = n*(n-1)*(n^2 + 2)/6.",
   "id": "A071244",
-  "mentions": [],
+  "mentions": [
+    "A071239"
+  ],
   "tags": [
     "easy",
     "formulas",

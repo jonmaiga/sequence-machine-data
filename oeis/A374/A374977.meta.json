@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i+j+k+l=n, i,j,k,l >= 1} sigma(i)*sigma(j)*sigma(k)*sigma(l).",
+  "id": "A374977",
+  "mentions": [
+    "A000203",
+    "A000385",
+    "A319083",
+    "A374951"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

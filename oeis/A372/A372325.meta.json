@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose binary expansion has an even number of 1's among positions listed in this sequence.",
+  "id": "A372325",
+  "mentions": [
+    "A133457",
+    "A272011"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

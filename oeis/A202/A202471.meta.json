@@ -2,7 +2,10 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays with no more than two of any consecutive three bits set in any row or column",
   "id": "A202471",
   "mentions": [
-    "A050974"
+    "A050974",
+    "A202464",
+    "A202465",
+    "A202466"
   ],
   "tags": [
     "nonn",

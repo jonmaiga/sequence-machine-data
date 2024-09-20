@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write n=x+y (x,y>=0) with {6x-1,6x+1} a twin prime pair and y a triangular number",
+  "description": "Number of ways to write n=x+y (x,y>=0) with {6x-1,6x+1} a twin prime pair and y a triangular number.",
   "id": "A187785",
   "mentions": [
     "A000217",

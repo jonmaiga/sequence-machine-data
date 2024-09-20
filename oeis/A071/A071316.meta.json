@@ -1,8 +1,9 @@
 {
-  "description": "Sum of terms of continued fraction expansion of (3/2)^n.",
+  "description": "Sum of terms of continued fraction expansion of frac((3/2)^n).",
   "id": "A071316",
   "mentions": [
-    "A002379"
+    "A002379",
+    "A071315"
   ],
   "tags": [
     "nonn"

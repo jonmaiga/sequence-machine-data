@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the maximal permanent of an n X n symmetric Toeplitz matrix having 1 on the main diagonal and all the first n-1 primes off-diagonal.",
+  "id": "A374345",
+  "mentions": [
+    "A374067",
+    "A374278",
+    "A374340",
+    "A374341",
+    "A374342",
+    "A374343"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

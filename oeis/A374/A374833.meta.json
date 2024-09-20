@@ -1,0 +1,17 @@
+{
+  "description": "Elliptic net associated to y^2 + y = x^3 + x^2 - 2*x, based on the non-torsion generator points P = [0, 0] and Q = [1, 0].",
+  "id": "A374833",
+  "mentions": [
+    "A178624"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

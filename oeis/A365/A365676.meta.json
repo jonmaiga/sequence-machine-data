@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n, k) is the number of partitions of n having exactly k distinct parts, for 0 <= k <= n.",
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of n having exactly k distinct part sizes, for 0 <= k <= n.",
   "id": "A365676",
   "mentions": [
     "A000005",

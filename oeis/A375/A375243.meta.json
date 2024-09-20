@@ -1,0 +1,17 @@
+{
+  "description": "Infinite variant of A375232.",
+  "id": "A375243",
+  "mentions": [
+    "A284516",
+    "A375232"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Sequence related to the asymptotic expansion of Sum_{k=1..n} tau(m*k).",
+  "id": "A372793",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A018804",
+    "A099777",
+    "A193679",
+    "A372713",
+    "A372784",
+    "A372785",
+    "A372786",
+    "A372787",
+    "A372788",
+    "A372789",
+    "A372790",
+    "A372791",
+    "A372792"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

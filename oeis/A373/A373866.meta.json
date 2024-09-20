@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = maximum element in the continued fraction for Pi truncated to n decimal digits after the decimal point.",
+  "id": "A373866",
+  "mentions": [
+    "A000796",
+    "A001203",
+    "A081836",
+    "A081837"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

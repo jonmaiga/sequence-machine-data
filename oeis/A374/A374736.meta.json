@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number of the form k*n for some k > 0 that can be added to n without carries in decimal.",
+  "id": "A374736",
+  "mentions": [
+    "A007091",
+    "A261892",
+    "A353624",
+    "A374735"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

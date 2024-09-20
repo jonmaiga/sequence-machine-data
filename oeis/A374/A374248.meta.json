@@ -1,0 +1,53 @@
+{
+  "description": "Sum of prime indices of n (with multiplicity) minus the greatest possible sum of run-compression of a permutation of the prime indices of n.",
+  "id": "A374248",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A003242",
+    "A007947",
+    "A008472",
+    "A008480",
+    "A026549",
+    "A027746",
+    "A027748",
+    "A037201",
+    "A046660",
+    "A056239",
+    "A066328",
+    "A112798",
+    "A116861",
+    "A124767",
+    "A280286",
+    "A280292",
+    "A304038",
+    "A333755",
+    "A335433",
+    "A335448",
+    "A373948",
+    "A373949",
+    "A373951",
+    "A373953",
+    "A373954",
+    "A373956",
+    "A373957",
+    "A374246",
+    "A374247",
+    "A374250",
+    "A374251",
+    "A374252",
+    "A374255",
+    "A374514"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (50^n-1)/49.",
+  "description": "a(n) = (50^n - 1)/49.",
   "id": "A218752",
   "mentions": [
     "A165800",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

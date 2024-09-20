@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest integer such that there exists a simple graph with n vertices, a(n) edges, and no cycles of length 0 mod 4.",
+  "id": "A375619",
+  "mentions": [
+    "A000066",
+    "A006184",
+    "A006855",
+    "A056576",
+    "A172272",
+    "A345248"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

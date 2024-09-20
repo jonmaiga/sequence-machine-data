@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n*e) mod 2.",
+  "id": "A372544",
+  "mentions": [
+    "A000035",
+    "A001113",
+    "A022843",
+    "A115788"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

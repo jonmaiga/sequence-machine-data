@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest abundant number k such that n - k is abundant, or -1 if there is no such k.",
+  "id": "A375389",
+  "mentions": [
+    "A005101",
+    "A048242"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

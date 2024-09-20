@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A196563(n)*A196564(n).",
+  "id": "A374097",
+  "mentions": [
+    "A055642",
+    "A059708",
+    "A180160",
+    "A196563",
+    "A196564"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

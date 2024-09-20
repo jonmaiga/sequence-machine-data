@@ -1,0 +1,21 @@
+{
+  "description": "The maximum exponent in the prime factorization of the smallest exponentially odd number that is divisible by n.",
+  "id": "A375360",
+  "mentions": [
+    "A051903",
+    "A356191",
+    "A365331",
+    "A372601",
+    "A375359"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

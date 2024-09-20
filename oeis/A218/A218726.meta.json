@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (23^n-1)/22.",
+  "description": "a(n) = (23^n - 1)/22.",
   "id": "A218726",
   "mentions": [
     "A000225",
@@ -40,7 +40,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

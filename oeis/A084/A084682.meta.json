@@ -2,7 +2,9 @@
   "description": "Even evil numbers with an even digital sum.",
   "id": "A084682",
   "mentions": [
-    "A001969"
+    "A001969",
+    "A054683",
+    "A125592"
   ],
   "tags": [
     "base",

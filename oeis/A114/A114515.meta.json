@@ -2,6 +2,7 @@
   "description": "Number of peaks in all hill-free Dyck paths of semilength n (a Dyck path is hill-free if it has no peaks at level 1).",
   "id": "A114515",
   "mentions": [
+    "A000108",
     "A100754"
   ],
   "tags": [

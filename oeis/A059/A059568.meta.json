@@ -2,7 +2,8 @@
   "description": "Beatty sequence for 1 - 1/log(log(2)).",
   "id": "A059568",
   "mentions": [
-    "A059567"
+    "A059567",
+    "A074785"
   ],
   "tags": [
     "easy",

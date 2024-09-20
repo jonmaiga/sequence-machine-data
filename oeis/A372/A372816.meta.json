@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals: T(t,n) = number of t-metered parking functions of length n.",
+  "id": "A372816",
+  "mentions": [
+    "A000272",
+    "A097690",
+    "A372817",
+    "A372818",
+    "A372819",
+    "A372820",
+    "A372821"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

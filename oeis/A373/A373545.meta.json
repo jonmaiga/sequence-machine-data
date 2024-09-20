@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest unused positive number that shares a factor with a(n-1) if a(n-1) is odd otherwise is coprime to a(n-1) if a(n-1) is even.",
+  "id": "A373545",
+  "mentions": [
+    "A002110",
+    "A005408",
+    "A005843",
+    "A064413",
+    "A373546"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

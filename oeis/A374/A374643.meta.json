@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 12*Li_2(1/2), where Li_2(z) is the dilogarithm function.",
+  "id": "A374643",
+  "mentions": [
+    "A002388",
+    "A076788",
+    "A253191",
+    "A374641",
+    "A374642",
+    "A374644"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

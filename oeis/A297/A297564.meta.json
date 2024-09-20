@@ -1,7 +1,10 @@
 {
   "description": "Number of maximum matchings in the n-Hanoi graph.",
   "id": "A297564",
-  "mentions": [],
+  "mentions": [
+    "A286017",
+    "A297480"
+  ],
   "tags": [
     "more",
     "nonn"

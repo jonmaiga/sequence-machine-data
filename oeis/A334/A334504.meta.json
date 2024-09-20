@@ -2,12 +2,16 @@
   "description": "Eventual period of a single cell in rule 26 cellular automaton in a cyclic universe of width n.",
   "id": "A334504",
   "mentions": [
+    "A070939",
     "A180001",
+    "A268754",
     "A334496",
     "A334499",
-    "A334515"
+    "A334515",
+    "A363121"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

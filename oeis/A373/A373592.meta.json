@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes congruent to 2 modulo 3 dividing n (with multiplicity).",
+  "id": "A373592",
+  "mentions": [
+    "A001222",
+    "A007949",
+    "A065339",
+    "A083025",
+    "A257991",
+    "A343430",
+    "A373591"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

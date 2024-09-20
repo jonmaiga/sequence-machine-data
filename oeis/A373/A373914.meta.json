@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest digit sum of all n-digit fourth powers.",
+  "id": "A373914",
+  "mentions": [
+    "A018072",
+    "A018074",
+    "A055565",
+    "A348300",
+    "A373727"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

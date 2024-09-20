@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of the hypergeometric series 3F2(3/4,5/4,1; 2,2 ;1).",
+  "id": "A376009",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

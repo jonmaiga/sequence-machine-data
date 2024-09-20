@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X4 0..4 arrays with column and row pair sums b(i,j)=a(i,j)+a(i,j-1) and c(i,j)=a(i,j)+a(i-1,j) nondecreasing in column and row directions, respectively",
+  "description": "Number of (n+1) X 4 0..4 arrays with column and row pair sums b(i,j)=a(i,j)+a(i,j-1) and c(i,j)=a(i,j)+a(i-1,j) nondecreasing in column and row directions, respectively.",
   "id": "A203865",
   "mentions": [
     "A203870"

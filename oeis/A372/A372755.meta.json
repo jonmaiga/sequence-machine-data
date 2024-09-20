@@ -1,0 +1,16 @@
+{
+  "description": "Terms of A319928 that are congruent to 4 modulo 8: Numbers k == 4 (mod 8) such that there is no other m such that (Z/mZ)* is isomorphic to (Z/kZ)*, where (Z/kZ)* is the multiplicative group of integers modulo k.",
+  "id": "A372755",
+  "mentions": [
+    "A296233",
+    "A319928"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

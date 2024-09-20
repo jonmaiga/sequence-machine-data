@@ -1,12 +1,15 @@
 {
-  "description": "Decimal expansion of Sum_{k=1..inf.} 1/((2k-1)^2(2k+1)^2) = (Pi^2-8)/16.",
+  "description": "Decimal expansion of Sum_{k>=1} 1/((2k-1)^2(2k+1)^2) = (Pi^2-8)/16.",
   "id": "A123092",
   "mentions": [
     "A000796",
-    "A002388"
+    "A002388",
+    "A069075",
+    "A111003"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

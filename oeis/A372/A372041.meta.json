@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p such that the sum of squares of the 2n + 1 consecutive primes starting with p is prime, or -1 if no such p exists.",
+  "id": "A372041",
+  "mentions": [
+    "A024450",
+    "A071149",
+    "A089793",
+    "A318351",
+    "A340771",
+    "A370633"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

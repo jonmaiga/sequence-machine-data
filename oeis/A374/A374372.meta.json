@@ -1,0 +1,17 @@
+{
+  "description": "Pentagonal numbers that are products of smaller pentagonal numbers.",
+  "id": "A374372",
+  "mentions": [
+    "A000326",
+    "A188663",
+    "A374370"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes of the form 2^t*3^u+1 in the primes.",
+  "description": "Indices of primes of the form 2^t*3^u + 1 in the primes.",
   "id": "A174099",
   "mentions": [
     "A000720",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

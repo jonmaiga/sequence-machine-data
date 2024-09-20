@@ -1,0 +1,18 @@
+{
+  "description": "Irregular table read by rows: row n is the integers of the form d_1 - d_2 + d_3 - d_4 + ... + (-1)^k d_k, where n = d_1 > d_2 > ... > d_k = 1, d_{i+1} divides d_i for 1 <= i <= k-1.",
+  "id": "A375626",
+  "mentions": [
+    "A020639",
+    "A375624"
+  ],
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

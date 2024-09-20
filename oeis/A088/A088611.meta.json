@@ -1,7 +1,9 @@
 {
-  "description": "a(1) =1, a(n) = n-th squarefree number if n is squarefree else a(n) is the n-th nonsquarefree number.",
+  "description": "a(1) = 1, a(n) = n-th squarefree number if n is squarefree else a(n) is the n-th nonsquarefree number.",
   "id": "A088611",
   "mentions": [
+    "A005117",
+    "A013929",
     "A088612"
   ],
   "tags": [

@@ -2,6 +2,7 @@
   "description": "Beatty sequence for log(10)/(log(10)-1).",
   "id": "A059546",
   "mentions": [
+    "A002392",
     "A059545"
   ],
   "tags": [

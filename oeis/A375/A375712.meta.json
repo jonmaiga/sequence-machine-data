@@ -1,0 +1,37 @@
+{
+  "description": "Numbers k such that A013929(k+1) - A013929(k) = 4. In other words, the k-th nonsquarefree number is 4 less than the next nonsquarefree number.",
+  "id": "A375712",
+  "mentions": [
+    "A005117",
+    "A007674",
+    "A013929",
+    "A014689",
+    "A029707",
+    "A029709",
+    "A049094",
+    "A053797",
+    "A061399",
+    "A068781",
+    "A072284",
+    "A076259",
+    "A078147",
+    "A110969",
+    "A120992",
+    "A294242",
+    "A373199",
+    "A375707",
+    "A375709",
+    "A375710",
+    "A375711",
+    "A375927"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

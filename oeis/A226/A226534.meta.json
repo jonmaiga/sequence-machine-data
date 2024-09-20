@@ -1,5 +1,5 @@
 {
-  "description": "q + p - 1 mod q - p + 1 where p, q are consecutive primes.",
+  "description": "a(n) = (p(n+1) + p(n) - 1) mod (p(n+1) - p(n) + 1) where p(n) is the n-th prime.",
   "id": "A226534",
   "mentions": [
     "A076273",

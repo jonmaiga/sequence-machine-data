@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 5. For n >= 1, a(n) = a(n-1) converted to base 4 and interpreted in base 10.",
+  "id": "A373033",
+  "mentions": [
+    "A007090",
+    "A023378",
+    "A065722"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

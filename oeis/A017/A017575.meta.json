@@ -1,14 +1,20 @@
 {
-  "description": "(12n+4)^7.",
+  "description": "a(n) = (12n+4)^7.",
   "id": "A017575",
-  "mentions": [],
+  "mentions": [
+    "A001015",
+    "A013665",
+    "A016783",
+    "A017569"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 17,
     "source": "joeis"
   }
 }

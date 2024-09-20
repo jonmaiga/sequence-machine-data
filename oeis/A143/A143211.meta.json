@@ -1,10 +1,11 @@
 {
-  "description": "Triangle read by rows, T(n,k) = F(n)*F(k); 1<=k<=n.",
+  "description": "Triangle read by rows, T(n,k) = Fibonacci(n)*Fibonacci(k).",
   "id": "A143211",
   "mentions": [
     "A000012",
     "A000045",
     "A007598",
+    "A024458",
     "A127647",
     "A143212"
   ],

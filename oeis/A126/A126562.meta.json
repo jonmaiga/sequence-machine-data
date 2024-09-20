@@ -1,7 +1,9 @@
 {
   "description": "Number of intersections of at least four edges in a cube of n X n X n smaller cubes.",
   "id": "A126562",
-  "mentions": [],
+  "mentions": [
+    "A017617"
+  ],
   "tags": [
     "easy",
     "formulas",

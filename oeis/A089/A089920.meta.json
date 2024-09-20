@@ -2,9 +2,13 @@
   "description": "Indices of primes p such that 7^p - 2 is prime.",
   "id": "A089920",
   "mentions": [
+    "A000720",
+    "A090669",
     "A147782"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

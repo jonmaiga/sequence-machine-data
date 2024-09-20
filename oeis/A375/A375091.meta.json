@@ -1,0 +1,20 @@
+{
+  "description": "First element p of sexy prime pairs (p,p+6) whose concatenation is also prime.",
+  "id": "A375091",
+  "mentions": [
+    "A023201",
+    "A031924",
+    "A032621",
+    "A032629",
+    "A104227"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

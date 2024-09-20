@@ -2,8 +2,10 @@
   "description": "Sum of the smaller parts of the partitions of n into two distinct parts such that the smaller part divides the larger.",
   "id": "A296955",
   "mentions": [
+    "A000203",
     "A001065",
     "A023645",
+    "A080512",
     "A297024"
   ],
   "tags": [

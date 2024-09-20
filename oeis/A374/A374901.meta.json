@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k!^2 + ((k - 1)!^2) + 1 is prime.",
+  "id": "A374901",
+  "mentions": [
+    "A000142",
+    "A055490",
+    "A080778",
+    "A242994",
+    "A243078",
+    "A358805",
+    "A358878",
+    "A359180"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

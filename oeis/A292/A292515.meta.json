@@ -2,8 +2,10 @@
   "description": "Number of 4-regular 4-edge-connected planar simple graphs on n vertices.",
   "id": "A292515",
   "mentions": [
+    "A007022",
     "A072552",
-    "A078666"
+    "A078666",
+    "A111361"
   ],
   "tags": [
     "more",

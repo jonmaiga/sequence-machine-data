@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^(n+1)+(n+1)^n-n(n+1) is prime.",
+  "description": "Numbers k such that k^(k+1) + (k+1)^k - k(k+1) is prime.",
   "id": "A084852",
   "mentions": [
     "A072179",

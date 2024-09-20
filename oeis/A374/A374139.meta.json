@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the determinant of the symmetric Toeplitz matrix of order n whose element (i,j) equals abs(i-j) or 1 if i = j.",
+  "id": "A374139",
+  "mentions": [
+    "A056594",
+    "A071078",
+    "A085750",
+    "A166445",
+    "A374140"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

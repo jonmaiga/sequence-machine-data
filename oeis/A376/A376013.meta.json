@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers of the form 3p+8 where p, p+2 and p+6 are prime numbers.",
+  "id": "A376013",
+  "mentions": [
+    "A104160",
+    "A162001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest n-digit integer whose digit permutations make the maximum possible number of n-digit primes.",
+  "id": "A373179",
+  "mentions": [
+    "A000040",
+    "A046810",
+    "A065851",
+    "A134596",
+    "A179239"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction expansion of sum( zeta( 2n ) / n!, n = 1 .. infinity ).",
+  "description": "Continued fraction expansion of Sum_{n>=1} zeta( 2*n ) / n!.",
   "id": "A084862",
   "mentions": [
     "A076813"
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 95,
     "source": "oeis-entry"
   }

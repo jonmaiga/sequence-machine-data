@@ -1,0 +1,17 @@
+{
+  "description": "Number of growing self-avoiding walks of length n on a half-infinite strip of height 7 with a trapped endpoint.",
+  "id": "A374305",
+  "mentions": [
+    "A078528",
+    "A374303"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

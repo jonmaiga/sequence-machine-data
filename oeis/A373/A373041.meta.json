@@ -1,0 +1,18 @@
+{
+  "description": "2*a(n) is the number of triangles with integer sides (x, y, n), x < y < n, and gcd(x, y, n) = 1.",
+  "id": "A373041",
+  "mentions": [
+    "A023022",
+    "A123323",
+    "A373051"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

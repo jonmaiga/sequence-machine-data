@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of subsets x of Z_n such that #x * #y = n and x + y = Z_n for some subset y of Z_n.",
+  "id": "A374770",
+  "mentions": [
+    "A045654",
+    "A056045",
+    "A374712"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

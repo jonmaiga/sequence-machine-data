@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(3) = 3, a(4) = 5, a(5) = 7; for n > 5, a(n) is the smallest unused positive number that is coprime to a(n-1), a(n-2) and a(n-3) but has a common factor with at least one of a(1)...a(n-4).",
+  "id": "A373999",
+  "mentions": [
+    "A064413",
+    "A089088",
+    "A098550",
+    "A373390",
+    "A373880",
+    "A373998"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

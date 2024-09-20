@@ -2,20 +2,19 @@
   "description": "Number of labeled dihedral groups with a fixed identity.",
   "id": "A336412",
   "mentions": [
+    "A002618",
     "A058161",
     "A058162",
     "A058163",
-    "A069156",
-    "A226731"
+    "A069156"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

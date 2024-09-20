@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of distinct values of the determinant of an n X n symmetric Toeplitz matrix having 1 on the main diagonal and all the first n-1 primes off-diagonal.",
+  "id": "A374619",
+  "mentions": [
+    "A000142",
+    "A369832",
+    "A374340",
+    "A374341",
+    "A374342",
+    "A374343",
+    "A374617",
+    "A374618",
+    "A374620",
+    "A374621"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

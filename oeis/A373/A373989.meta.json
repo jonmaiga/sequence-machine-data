@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A276150(gcd(A108951(n), A373158(n))), where A276150 is the digit sum in primorial base, A108951 is fully multiplicative and A373158 is fully additive with a(p) = p# for prime p, where x# is the primorial A034386(x).",
+  "id": "A373989",
+  "mentions": [
+    "A034386",
+    "A108951",
+    "A276150",
+    "A324888",
+    "A373158",
+    "A373985"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

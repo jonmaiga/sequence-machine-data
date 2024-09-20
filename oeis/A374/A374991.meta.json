@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that the concatenation of the binary expansions of two consecutive terms, in at least one way, and after removal of trailing digits, is palindromic.",
+  "id": "A374991",
+  "mentions": [
+    "A000975",
+    "A057890",
+    "A374990"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

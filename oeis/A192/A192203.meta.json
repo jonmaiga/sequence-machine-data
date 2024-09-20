@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+1, and n+2 are the product of 5 distinct primes.",
+  "description": "Numbers k such that k, k+1, and k+2 are each the product of exactly 5 distinct primes.",
   "id": "A192203",
   "mentions": [
     "A016813",

@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A375516.",
+  "id": "A375518",
+  "mentions": [
+    "A374516",
+    "A374517",
+    "A374663",
+    "A374983",
+    "A375516"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

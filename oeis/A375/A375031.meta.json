@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose prime factorization has at least one exponent that equals 2 and no higher even exponent.",
+  "id": "A375031",
+  "mentions": [
+    "A013929",
+    "A038109",
+    "A062503",
+    "A065463",
+    "A065466",
+    "A268335",
+    "A304365",
+    "A335275",
+    "A350388",
+    "A375033"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

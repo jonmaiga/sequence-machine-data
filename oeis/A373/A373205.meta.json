@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that m^m == m (mod 10^(len(m) + 1)), where len(m) is the number of digits of m (A055642).",
+  "id": "A373205",
+  "mentions": [
+    "A055642",
+    "A082576",
+    "A373206"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

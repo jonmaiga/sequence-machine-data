@@ -1,0 +1,23 @@
+{
+  "description": "Inverse permutation to A373498.",
+  "id": "A374447",
+  "mentions": [
+    "A000027",
+    "A004767",
+    "A204164",
+    "A370655",
+    "A373498",
+    "A374494",
+    "A374531"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

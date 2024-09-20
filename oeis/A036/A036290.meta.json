@@ -2,6 +2,7 @@
   "description": "a(n) = n*3^n.",
   "id": "A036290",
   "mentions": [
+    "A000244",
     "A006234",
     "A016578",
     "A027471",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

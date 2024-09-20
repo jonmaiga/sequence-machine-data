@@ -1,5 +1,5 @@
 {
-  "description": "Maximal exponent in prime factorization of (prime(n)+1)*(prime(n+1)+1)/4.",
+  "description": "Maximum exponent in prime factorization of (prime(n)+1)*(prime(n+1)+1)/4.",
   "id": "A079087",
   "mentions": [
     "A051903",
@@ -7,6 +7,7 @@
     "A079085"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

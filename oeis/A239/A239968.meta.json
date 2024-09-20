@@ -1,5 +1,5 @@
 {
-  "description": "0 unless n is a nonprime A018252(k) when a(n) = k.",
+  "description": "a(n) = 0 unless n is a nonprime A018252(k) then a(n) = k.",
   "id": "A239968",
   "mentions": [
     "A005171",

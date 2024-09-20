@@ -1,0 +1,31 @@
+{
+  "description": "The sum of the aliquot coreful divisors of the nonsquarefree numbers.",
+  "id": "A373058",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A013929",
+    "A065487",
+    "A084936",
+    "A174961",
+    "A229099",
+    "A275699",
+    "A307958",
+    "A336563",
+    "A368038",
+    "A368039",
+    "A368040",
+    "A368541",
+    "A368713"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Largest value in the trajectory of 2*n - 1 in the Farkas map (A349407).",
+  "id": "A375911",
+  "mentions": [
+    "A025586",
+    "A349407",
+    "A350279",
+    "A365478",
+    "A375280",
+    "A375909"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

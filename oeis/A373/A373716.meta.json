@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct products i*j minus the number of distinct sums i+j with 1 <= i, j <= n.",
+  "id": "A373716",
+  "mentions": [
+    "A000290",
+    "A005408",
+    "A027424",
+    "A062851"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

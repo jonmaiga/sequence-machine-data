@@ -1,5 +1,5 @@
 {
-  "description": "Maximal term in Collatz-iteration started at -1+3^n.",
+  "description": "Maximal term in Collatz-iteration started at 3^n-1.",
   "id": "A087971",
   "mentions": [
     "A025586",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

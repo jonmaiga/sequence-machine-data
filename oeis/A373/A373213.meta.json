@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^2 - 1 and k^2 + 1 have 6 divisors each.",
+  "id": "A373213",
+  "mentions": [
+    "A000005",
+    "A002522",
+    "A005563",
+    "A069062",
+    "A108278",
+    "A193432",
+    "A347191",
+    "A373209"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

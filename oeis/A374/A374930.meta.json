@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{1<=i<=j<=k} q^(i+j+k)/( (1-q^i)*(1-q^j)*(1-q^k) )^2.",
+  "id": "A374930",
+  "mentions": [
+    "A000203",
+    "A001158",
+    "A001160",
+    "A002128",
+    "A374929",
+    "A374931"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

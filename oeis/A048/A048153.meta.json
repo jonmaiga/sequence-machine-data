@@ -2,8 +2,10 @@
   "description": "a(n) = Sum_{k=1..n} (k^2 mod n).",
   "id": "A048153",
   "mentions": [
+    "A000330",
     "A048152",
-    "A060036"
+    "A060036",
+    "A215573"
   ],
   "tags": [
     "formulas",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Parity of the digit sum of n in factorial base.",
+  "id": "A374468",
+  "mentions": [
+    "A000035",
+    "A007623",
+    "A034968",
+    "A066829",
+    "A227148",
+    "A227149",
+    "A262725",
+    "A276076"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

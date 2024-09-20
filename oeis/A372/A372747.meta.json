@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(A(A(A(A(x))))) = (-1/5) * log(1 - 5*x).",
+  "id": "A372747",
+  "mentions": [
+    "A220112",
+    "A372698"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

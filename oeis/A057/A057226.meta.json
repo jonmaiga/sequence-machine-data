@@ -2,11 +2,13 @@
   "description": "Number of different symbols needed to express n as a Roman numeral.",
   "id": "A057226",
   "mentions": [
+    "A043537",
     "A061493"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

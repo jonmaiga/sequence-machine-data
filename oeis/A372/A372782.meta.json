@@ -1,0 +1,20 @@
+{
+  "description": "Least number m for which there exists some positive k < m where the sum of the integers from k + 1 to m inclusive is an n-th power > 1.",
+  "id": "A372782",
+  "mentions": [
+    "A002452",
+    "A052993",
+    "A087503",
+    "A372631"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

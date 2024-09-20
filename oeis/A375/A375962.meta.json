@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose product of proper divisors is not a cube.",
+  "id": "A375962",
+  "mentions": [
+    "A000578",
+    "A002808",
+    "A007956",
+    "A027751",
+    "A032741",
+    "A375960"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

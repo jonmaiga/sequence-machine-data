@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct length-n blocks in the Thue-Morse sequence (A010060), counted up to reversal.",
+  "id": "A373700",
+  "mentions": [
+    "A005942",
+    "A010060",
+    "A159782"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

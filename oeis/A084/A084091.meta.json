@@ -8,7 +8,8 @@
     "A084088",
     "A084089",
     "A084090",
-    "A098725"
+    "A098725",
+    "A373155"
   ],
   "tags": [
     "easy",
@@ -19,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

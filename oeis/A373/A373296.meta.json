@@ -1,0 +1,23 @@
+{
+  "description": "Euler transform of A055457.",
+  "id": "A373296",
+  "mentions": [
+    "A000041",
+    "A055457",
+    "A092119",
+    "A173241",
+    "A373219",
+    "A373295",
+    "A373297",
+    "A373298"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

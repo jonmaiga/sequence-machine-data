@@ -2,7 +2,6 @@
   "description": "Numbers in which every prefix (in base 10) is 1 or a prime.",
   "id": "A012883",
   "mentions": [
-    "A012833",
     "A024770",
     "A094335"
   ],

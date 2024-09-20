@@ -1,10 +1,9 @@
 {
-  "description": "Pythagorean primes: primes of form 4*k + 1.",
+  "description": "Pythagorean primes: primes of the form 4*k + 1.",
   "id": "A002144",
   "mentions": [
     "A000290",
     "A001481",
-    "A002114",
     "A002142",
     "A002145",
     "A002313",
@@ -55,7 +54,8 @@
     "A334446",
     "A334449",
     "A334450",
-    "A334912"
+    "A334912",
+    "A920972"
   ],
   "tags": [
     "easy",

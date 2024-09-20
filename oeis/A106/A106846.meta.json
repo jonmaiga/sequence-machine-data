@@ -1,12 +1,18 @@
 {
-  "description": "Sum {k + l*m <= n} (k + l*m), with 0 <= k,l,m <= n.",
+  "description": "a(n) = Sum_{k + l*m <= n} (k + l*m), with 0 <= k,l,m <= n.",
   "id": "A106846",
   "mentions": [
+    "A006218",
+    "A055112",
+    "A059270",
     "A106633",
     "A106634",
-    "A106847"
+    "A106847",
+    "A143127",
+    "A319085"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

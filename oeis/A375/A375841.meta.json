@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{k=0..n} (k^4 + n).",
+  "id": "A375841",
+  "mentions": [
+    "A255434",
+    "A258870",
+    "A375839",
+    "A375840",
+    "A375842",
+    "A375843",
+    "A375844",
+    "A375845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

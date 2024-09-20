@@ -1,10 +1,13 @@
 {
-  "description": "A divide-and-conquer sequence.",
+  "description": "In the binary expansion of n+2, transform 0->1 and 1->0 then interpret as base 4.",
   "id": "A115637",
   "mentions": [
+    "A000695",
+    "A035327",
     "A115633",
     "A115636",
-    "A115638"
+    "A115638",
+    "A374625"
   ],
   "tags": [
     "easy",

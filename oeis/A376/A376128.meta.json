@@ -1,0 +1,17 @@
+{
+  "description": "The absolute difference of two successive terms is prime and the absolute difference of two successive digits is also prime.",
+  "id": "A376128",
+  "mentions": [
+    "A219248",
+    "A281878"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

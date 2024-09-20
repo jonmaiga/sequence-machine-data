@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct primitive Pythagorean triples (j^2 - k^2, 2*j*k, j^2 + k^2) where 1 <= k < j <= n.",
+  "id": "A374263",
+  "mentions": [
+    "A049690",
+    "A055034"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

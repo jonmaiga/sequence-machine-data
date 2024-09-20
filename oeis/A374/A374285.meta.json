@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where there are exactly n nonnegative integer solutions to x^2 + 2*y^2 = k.",
+  "id": "A374285",
+  "mentions": [
+    "A200977",
+    "A216282",
+    "A374286",
+    "A374288",
+    "A374294"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

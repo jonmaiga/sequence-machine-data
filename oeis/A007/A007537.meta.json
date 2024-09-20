@@ -2,6 +2,7 @@
   "description": "Number of proper covers of an n-set.",
   "id": "A007537",
   "mentions": [
+    "A000371",
     "A003465"
   ],
   "tags": [

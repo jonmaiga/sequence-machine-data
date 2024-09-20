@@ -1,0 +1,31 @@
+{
+  "description": "Smallest positive integer k such that no more than n numbers (formed by multiplying k by a digit) are anagrams of k, or -1 if no such number exists.",
+  "id": "A373407",
+  "mentions": [
+    "A001913",
+    "A023086",
+    "A023087",
+    "A023088",
+    "A023089",
+    "A023090",
+    "A023091",
+    "A023092",
+    "A023093",
+    "A036275",
+    "A090061",
+    "A180340",
+    "A245680",
+    "A245682"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

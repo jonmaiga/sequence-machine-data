@@ -1,0 +1,17 @@
+{
+  "description": "Primes that can be expressed as the sum of a prime and twice a positive square.",
+  "id": "A375170",
+  "mentions": [
+    "A000040",
+    "A001105",
+    "A042978"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

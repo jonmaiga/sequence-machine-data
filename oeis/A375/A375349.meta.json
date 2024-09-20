@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the parity of the n-th cubefree number.",
+  "id": "A375349",
+  "mentions": [
+    "A000035",
+    "A004709",
+    "A373549",
+    "A373550"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

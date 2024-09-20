@@ -2,6 +2,7 @@
   "description": "a(n) = 2^(3*n+2).",
   "id": "A013731",
   "mentions": [
+    "A001018",
     "A013730",
     "A092811",
     "A198852"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

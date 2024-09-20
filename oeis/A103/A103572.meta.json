@@ -2,10 +2,14 @@
   "description": "Sum of the (primes > 5 modulo 19).",
   "id": "A103572",
   "mentions": [
-    "A033633"
+    "A033633",
+    "A103566",
+    "A103571"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

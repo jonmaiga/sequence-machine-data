@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n such that there are no palindromic squares of length n.",
+  "description": "Numbers k such that there are no palindromic squares of length k.",
   "id": "A034822",
   "mentions": [
     "A002778",
     "A002779",
-    "A034307"
+    "A034307",
+    "A263618"
   ],
   "tags": [
     "base",

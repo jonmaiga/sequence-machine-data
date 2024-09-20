@@ -1,0 +1,16 @@
+{
+  "description": "Least number k such that the concatenation of n consecutive numbers from k to k+n-1 is divisible by their sum.",
+  "id": "A375728",
+  "mentions": [
+    "A173712"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

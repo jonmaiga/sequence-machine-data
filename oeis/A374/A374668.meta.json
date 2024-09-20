@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the permanent of the n-th order Hankel matrix M whose generic element is given by M(i,j) = A317614(i+j-1) with i,j = 1, ..., n.",
+  "id": "A374668",
+  "mentions": [
+    "A000583",
+    "A006010",
+    "A035287",
+    "A317614",
+    "A346174",
+    "A374708"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

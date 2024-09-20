@@ -2,6 +2,7 @@
   "description": "a(n)=T(n,2), array T given by A048201.",
   "id": "A048202",
   "mentions": [
+    "A002048",
     "A048201"
   ],
   "tags": [

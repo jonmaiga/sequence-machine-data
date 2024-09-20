@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>=0} x^(3^k) / (1 - x^(3^k))^3.",
+  "id": "A373186",
+  "mentions": [
+    "A000217",
+    "A129527",
+    "A327625",
+    "A338045",
+    "A373187"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

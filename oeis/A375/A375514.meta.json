@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that floor((k^3 - k)/4) is squarefree.",
+  "id": "A375514",
+  "mentions": [
+    "A005117",
+    "A179017",
+    "A269844"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

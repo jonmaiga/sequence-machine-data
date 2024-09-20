@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n having a proper divisor d > 2 such that d-1 divides n-1.",
+  "description": "Numbers k having a proper divisor d > 2 such that d-1 divides k-1.",
   "id": "A136410",
   "mentions": [],
   "tags": [

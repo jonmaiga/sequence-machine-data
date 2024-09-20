@@ -1,16 +1,20 @@
 {
-  "description": "Number of k's less than or equal to 10^n such that there are no middle divisors of k (A071090).",
+  "description": "Number of k's less than or equal to 10^n such that there are no middle divisors of k (A071561).",
   "id": "A071540",
   "mentions": [
     "A071090",
-    "A071541"
+    "A071541",
+    "A071561"
   ],
   "tags": [
+    "formulas",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

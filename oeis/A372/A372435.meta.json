@@ -1,0 +1,16 @@
+{
+  "description": "Length of the shortest binary string that contains all blocks of the form xx, where x is a length-n string.",
+  "id": "A372435",
+  "mentions": [
+    "A372434"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

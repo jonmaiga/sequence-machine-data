@@ -1,5 +1,5 @@
 {
-  "description": "Product of all primes with primitive root 2 less than or equal to some prime with primitive root 2.",
+  "description": "Partial products of primes with primitive root 2.",
   "id": "A108975",
   "mentions": [
     "A001122"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 18,
     "source": "joeis"
   }
 }

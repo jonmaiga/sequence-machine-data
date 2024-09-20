@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(2 - 1/(1 - 9*x)^(1/3)).",
+  "id": "A373818",
+  "mentions": [
+    "A001027",
+    "A373939"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

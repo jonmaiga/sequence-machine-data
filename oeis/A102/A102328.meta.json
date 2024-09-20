@@ -1,11 +1,12 @@
 {
-  "description": "Primes p such that the largest prime divisor of 1+p^6 is less than p.",
+  "description": "Primes p such that the largest prime divisor of p^6 + 1 is less than p.",
   "id": "A102328",
   "mentions": [
     "A000040",
     "A006530",
     "A065091",
-    "A073501"
+    "A073501",
+    "A102327"
   ],
   "tags": [
     "formulas",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn 0..4 arrays x(i,j) with each element horizontally or antidiagonally next to at least one element with value (x(i,j)+1) mod 5, and upper left element zero",
+  "description": "Number of 7 X n 0..4 arrays x(i,j) with each element horizontally or antidiagonally next to at least one element with value (x(i,j)+1) mod 5, and upper left element zero.",
   "id": "A230576",
   "mentions": [
     "A230571"

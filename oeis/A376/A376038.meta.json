@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = (-log(1 - x / (1 - A(x))^3)) * (1 - A(x))^2.",
+  "id": "A376038",
+  "mentions": [
+    "A376039",
+    "A376040",
+    "A376041"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator of Sum_{i=1..n} 1/A171397(i).",
+  "id": "A375524",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A171397",
+    "A375523",
+    "A375805"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

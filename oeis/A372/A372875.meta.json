@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of flattened Catalan words of length n with exactly k symmetric valleys, with k >= 0.",
+  "id": "A372875",
+  "mentions": [
+    "A007051",
+    "A371963",
+    "A371964",
+    "A372878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

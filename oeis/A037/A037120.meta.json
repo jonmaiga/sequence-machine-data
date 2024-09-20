@@ -1,5 +1,5 @@
 {
-  "description": "Trajectory of 3 under map n->45n+1 if n odd, n->n/2 if n even",
+  "description": "Trajectory of 3 under map n->45n+1 if n odd, n->n/2 if n even.",
   "id": "A037120",
   "mentions": [],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of phi_4, a limit point of the set of Pisot numbers in (1,2).",
+  "id": "A374752",
+  "mentions": [
+    "A001622",
+    "A058265",
+    "A086088",
+    "A109134",
+    "A275828",
+    "A374751"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

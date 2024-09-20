@@ -1,7 +1,11 @@
 {
   "description": "Primes p such that p-1 is divisible by a cube.",
   "id": "A089200",
-  "mentions": [],
+  "mentions": [
+    "A039787",
+    "A046099",
+    "A065414"
+  ],
   "tags": [
     "easy",
     "nonn"

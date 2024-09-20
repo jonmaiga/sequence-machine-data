@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the index m of the smallest term k = A135507(m) such that prime(n) | k.",
+  "id": "A370635",
+  "mentions": [
+    "A135507",
+    "A370634"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

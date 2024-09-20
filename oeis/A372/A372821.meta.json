@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: T(m,n) = number of (m-2)-metered (m,n)-parking functions",
+  "id": "A372821",
+  "mentions": [
+    "A328694",
+    "A372817",
+    "A372818",
+    "A372819",
+    "A372820"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

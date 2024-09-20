@@ -1,11 +1,13 @@
 {
-  "description": "Decimal expansion of least x>0 having sin(x)=(sin x/2)^2.",
+  "description": "Decimal expansion of least x>0 having sin(x)=(sin (x/2))^2.",
   "id": "A197376",
   "mentions": [
+    "A105199",
     "A197133"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

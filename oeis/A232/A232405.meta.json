@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(7+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally or vertically, with no adjacent elements equal",
+  "description": "Number of (n+1) X (7+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally or vertically, with no adjacent elements equal.",
   "id": "A232405",
   "mentions": [
     "A232406"

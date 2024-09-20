@@ -1,18 +1,20 @@
 {
-  "description": "EulerPhi is iterated with initial value n!; a(n) = first (maximal) power of 2 arising during iteration.",
+  "description": "a(n) is the first (and maximal) power of 2 arising during iterations of the Euler phi function with initial value n!.",
   "id": "A053047",
   "mentions": [
     "A000010",
     "A000142",
     "A048855",
-    "A053038"
+    "A053038",
+    "A053048"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

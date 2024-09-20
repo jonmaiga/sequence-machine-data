@@ -1,0 +1,15 @@
+{
+  "description": "Number of partitions of [n] having exactly two blocks of minimal size.",
+  "id": "A372764",
+  "mentions": [
+    "A372762"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

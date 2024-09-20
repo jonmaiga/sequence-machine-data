@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k not divisible by 3 such that no prime is the concatenation of two numbers whose sum is n.",
+  "id": "A375938",
+  "mentions": [
+    "A087555"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

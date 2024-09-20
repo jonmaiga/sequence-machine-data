@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = s - t where s = ceiling(sqrt(n*i)), t = sqrt(m), and m = s^2 mod n, for the smallest positive integer i for which m is square.",
+  "id": "A373461",
+  "mentions": [
+    "A003059",
+    "A362502"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

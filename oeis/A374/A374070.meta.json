@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the permanent of the symmetric Toeplitz matrix of order n whose element (i,j) equals the |i-j|-th composite or 0 if i = j.",
+  "id": "A374070",
+  "mentions": [
+    "A071081",
+    "A374067",
+    "A374068",
+    "A374069",
+    "A374071"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

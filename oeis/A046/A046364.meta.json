@@ -1,7 +1,8 @@
 {
-  "description": "Odd numbers whose sum of prime factors is prime (counted with multiplicity).",
+  "description": "Odd composite numbers whose sum of prime factors is prime (counted with multiplicity).",
   "id": "A046364",
   "mentions": [
+    "A001414",
     "A046363",
     "A046365"
   ],

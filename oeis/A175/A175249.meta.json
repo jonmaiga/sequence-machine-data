@@ -2,14 +2,12 @@
   "description": "Noncomposites (A008578) with nonprime (A018252) subscripts.",
   "id": "A175249",
   "mentions": [
-    "A002808",
     "A008578",
     "A018252",
-    "A055003",
-    "A088982",
-    "A175248"
+    "A088982"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that a^t + b^t + c^t + ... is prime, where a*b*c* ... is the prime factorization of n with multiplicity and t is the reversal of n.",
+  "description": "Numbers m such that a^t + b^t + c^t + ... is prime, where a*b*c* ... is the prime factorization of m with multiplicity and t is the reversal of m.",
   "id": "A108777",
   "mentions": [
     "A082813"

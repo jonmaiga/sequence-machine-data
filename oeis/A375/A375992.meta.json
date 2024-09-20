@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. (4 - 3 * exp(x))^(4/3).",
+  "id": "A375992",
+  "mentions": [
+    "A032033",
+    "A346982",
+    "A365558",
+    "A375949",
+    "A375952",
+    "A375988",
+    "A375993"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

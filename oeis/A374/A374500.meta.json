@@ -1,0 +1,19 @@
+{
+  "description": "Square pyramidal numbers that are products of smaller square pyramidal numbers.",
+  "id": "A374500",
+  "mentions": [
+    "A000330",
+    "A374498",
+    "A374501",
+    "A374502"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of solutions to a^2 + n = 2 * b^2 with 0 < a < b.",
+  "id": "A374061",
+  "mentions": [
+    "A331671"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

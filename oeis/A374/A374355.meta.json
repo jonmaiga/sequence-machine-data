@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least fibbinary number f <= n such that n - f is also a fibbinary number whose binary expansion has no common 1's with that of f (where fibbinary numbers correspond to A003714).",
+  "id": "A374355",
+  "mentions": [
+    "A003714",
+    "A374354",
+    "A374356"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Smallest (2n+1)-digit palindromic prime of the form 10...0M0...01 (thus M is a palindrome with <= 2n-1 digits).",
   "id": "A100027",
   "mentions": [
+    "A028989",
     "A100026",
     "A100028"
   ],

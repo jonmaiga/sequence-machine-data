@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) is the position of the last requested element when the elements of the k-th composition (in standard order) are requested from a self-organizing list initialized to (1, 2, 3, ...), using the move-ahead(n) updating strategy; n >= 0, k >= 1.",
+  "id": "A375001",
+  "mentions": [
+    "A007814",
+    "A025480",
+    "A333766",
+    "A374996",
+    "A374997",
+    "A374998"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

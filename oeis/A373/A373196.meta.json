@@ -1,0 +1,18 @@
+{
+  "description": "Maximal coefficient (in absolute value) in the numerator of C({1..n},x).",
+  "id": "A373196",
+  "mentions": [
+    "A107429",
+    "A114536",
+    "A278567"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

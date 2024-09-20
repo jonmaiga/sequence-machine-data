@@ -6,11 +6,13 @@
     "A296065"
   ],
   "tags": [
+    "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 94,
+    "size": 102,
     "source": "joeis"
   }
 }

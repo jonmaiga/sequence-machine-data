@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp( 4 * (exp(x*A(x)^(3/4)) - 1) ).",
+  "id": "A375872",
+  "mentions": [
+    "A078944",
+    "A349683",
+    "A370058",
+    "A375870",
+    "A375871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

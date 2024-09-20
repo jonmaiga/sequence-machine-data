@@ -1,0 +1,19 @@
+{
+  "description": "Array T(n,m) read by antidiagonals: In an n X m grid draw straight walls between cells, starting at a border, such that the resulting figure is connected and has only one-cell wide paths; T(n,m) is the number of solutions up to symmetries of the rectangle.",
+  "id": "A375861",
+  "mentions": [
+    "A375770",
+    "A375858",
+    "A375860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

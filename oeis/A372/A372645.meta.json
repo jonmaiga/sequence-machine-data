@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the 2-adic valuation of the n-th term of the aliquot sequence of 276.",
+  "id": "A372645",
+  "mentions": [
+    "A007814",
+    "A008892"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

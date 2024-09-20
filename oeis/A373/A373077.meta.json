@@ -1,0 +1,18 @@
+{
+  "description": "Perfect powers that are sandwiched between squarefree numbers.",
+  "id": "A373077",
+  "mentions": [
+    "A001597",
+    "A005117",
+    "A067874",
+    "A075090"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

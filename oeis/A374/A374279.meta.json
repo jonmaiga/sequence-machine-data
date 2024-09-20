@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the minimal determinant of an n X n symmetric Toeplitz matrix having 0 on the main diagonal and all the integers 1, 2, ..., n-1 off-diagonal.",
+  "id": "A374279",
+  "mentions": [
+    "A085750",
+    "A085807",
+    "A358323",
+    "A374280",
+    "A374281",
+    "A374282",
+    "A374283"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "a(n)=a(n-1)+a(n-2)+Sum_digits[a(n-1)]+Sum_digits[a(n-2)], with a(0)=0 and a(1)=1.",
+  "description": "a(n) = a(n-1) + a(n-2) + digsum(a(n-1)) + digsum(a(n-2)), with a(0)=0 and a(1)=1.",
   "id": "A140131",
   "mentions": [
+    "A007953",
     "A016052",
     "A047892",
     "A047897",
@@ -20,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

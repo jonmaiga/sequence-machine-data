@@ -1,5 +1,5 @@
 {
-  "description": "Numbers d such that A324331(x)=d^2 only when x is a squarefree semiprime (A006881).",
+  "description": "Numbers d such that A324331(x) = d^2 only when x is a squarefree semiprime (A006881).",
   "id": "A324333",
   "mentions": [
     "A000010",

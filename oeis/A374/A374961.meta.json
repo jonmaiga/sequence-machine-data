@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 2^k, 2^(k+1) and 2^(k+2) have the same number of terms in their Zeckendorf representation (A007895).",
+  "id": "A374961",
+  "mentions": [
+    "A007895",
+    "A020908",
+    "A353987",
+    "A374960"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

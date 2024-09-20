@@ -1,0 +1,21 @@
+{
+  "description": "Reduced Collatz function R applied to the numbers 6n+5: a(n) = R(6n+5), where R(k) = (3k+1)/2^r, with r as large as possible.",
+  "id": "A373864",
+  "mentions": [
+    "A000265",
+    "A017257",
+    "A075677",
+    "A260658",
+    "A373730"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

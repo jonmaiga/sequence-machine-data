@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; thereafter, if a(n-1) is prime then a(n) = prime(n) + 1; otherwise a(n) = 2*a(n-1) - 1.",
+  "id": "A373801",
+  "mentions": [
+    "A076336",
+    "A101036",
+    "A373802",
+    "A373803",
+    "A374965"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

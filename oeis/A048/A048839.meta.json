@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n dividing P(n)!, where P(n) is the largest prime factor of n.",
+  "description": "Numbers k dividing P(k)!, where P(k) is the largest prime factor of k.",
   "id": "A048839",
   "mentions": [
     "A002034",
-    "A057109"
+    "A057109",
+    "A102068"
   ],
   "tags": [
     "easy",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

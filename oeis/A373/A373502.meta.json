@@ -1,0 +1,18 @@
+{
+  "description": "Size of a complete set of classical projective planes of prime power order q using a given set of q^2+q+1 points.",
+  "id": "A373502",
+  "mentions": [
+    "A246655",
+    "A335866",
+    "A373501"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

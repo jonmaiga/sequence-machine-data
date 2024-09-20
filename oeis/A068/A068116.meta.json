@@ -2,7 +2,8 @@
   "description": "Continued fraction expansion for sin(1).",
   "id": "A068116",
   "mentions": [
-    "A049469"
+    "A049469",
+    "A068115"
   ],
   "tags": [
     "cofr",
@@ -10,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 82,
     "source": "oeis-bfile"
   }

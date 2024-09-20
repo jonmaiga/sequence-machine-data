@@ -1,7 +1,10 @@
 {
-  "description": "Least k such that k*p(n)#+p(n+1) is prime, where p(i)# denotes i-th primorial and p(i) denotes i-th prime.",
+  "description": "Least k such that k*p(n)# + p(n+1) is prime, where p(i)# denotes i-th primorial and p(i) denotes i-th prime.",
   "id": "A090185",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A002110"
+  ],
   "tags": [
     "base",
     "nonn"

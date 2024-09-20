@@ -1,11 +1,21 @@
 {
-  "description": "Numbers n such that 3 divides prime(1) + ... + prime(n).",
+  "description": "Numbers k such that 3 divides prime(1) + ... + prime(k).",
   "id": "A103208",
   "mentions": [
     "A007504",
     "A019518",
     "A104644",
-    "A111287"
+    "A111287",
+    "A111318",
+    "A111319",
+    "A111320",
+    "A111321",
+    "A111322",
+    "A111323",
+    "A111324",
+    "A111325",
+    "A111326",
+    "A111327"
   ],
   "tags": [
     "nonn"

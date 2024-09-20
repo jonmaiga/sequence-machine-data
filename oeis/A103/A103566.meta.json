@@ -2,10 +2,15 @@
   "description": "Sum of the primes > 5 modulo 3.",
   "id": "A103566",
   "mentions": [
-    "A039701"
+    "A039701",
+    "A103567",
+    "A103572",
+    "A120326"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

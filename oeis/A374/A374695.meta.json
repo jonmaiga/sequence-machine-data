@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the second smallest multiple of n different from a(1), ..., a(n-1).",
+  "id": "A374695",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

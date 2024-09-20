@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least semiprime that ends with n, or -1 if there is no such semiprime.",
+  "id": "A374897",
+  "mentions": [
+    "A001358",
+    "A070277",
+    "A374899"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

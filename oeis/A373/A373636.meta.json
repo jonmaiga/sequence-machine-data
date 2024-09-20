@@ -1,0 +1,18 @@
+{
+  "description": "Number of free n-celled (planar) polyhexes to which two inequivalent cells can be adjoined such that the two resulting free (n+1)-celled polyhexes are identical.",
+  "id": "A373636",
+  "mentions": [
+    "A369363",
+    "A373635",
+    "A373637"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

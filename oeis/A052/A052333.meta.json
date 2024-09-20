@@ -1,14 +1,18 @@
 {
-  "description": "Riesel problem: start with n; repeatedly double and add 1 until reach a prime. Sequence gives prime reached, or 0 if no prime is ever reached.",
+  "description": "Riesel problem: start with n; repeatedly double and add 1 until reach a prime. Sequence gives a(n) = prime reached, or 0 if no prime is ever reached.",
   "id": "A052333",
   "mentions": [
+    "A038699",
     "A040081",
+    "A046069",
     "A050412",
     "A051914",
     "A052334",
     "A052339",
     "A052340",
-    "A076337"
+    "A076337",
+    "A101036",
+    "A108129"
   ],
   "tags": [
     "nice",
@@ -17,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

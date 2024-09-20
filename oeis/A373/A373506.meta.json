@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 4*Pi/3^(3/2) - Pi^2/9.",
+  "id": "A373506",
+  "mentions": [
+    "A073010",
+    "A073016",
+    "A100044",
+    "A275486",
+    "A373507"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -5,12 +5,11 @@
     "A016730"
   ],
   "tags": [
-    "cofr",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

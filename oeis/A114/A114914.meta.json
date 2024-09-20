@@ -1,5 +1,5 @@
 {
-  "description": "Values in A114913 that are not in A111174.",
+  "description": "Terms in A114913 that are not in A111174.",
   "id": "A114914",
   "mentions": [
     "A111174",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

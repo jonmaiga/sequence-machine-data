@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of 6*n-3 into parts 1 and 6.",
+  "id": "A373958",
+  "mentions": [
+    "A005708",
+    "A099242",
+    "A371125",
+    "A373302",
+    "A373959",
+    "A373960"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sum over all complete compositions of n of the element multiset size.",
+  "id": "A373306",
+  "mentions": [
+    "A107429",
+    "A373118",
+    "A373305"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

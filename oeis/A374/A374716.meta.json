@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct sums i^2 + j^2 + k^2 + l^2 for 1<=i<=j<=k<=l<=n.",
+  "id": "A374716",
+  "mentions": [
+    "A061786",
+    "A374715"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

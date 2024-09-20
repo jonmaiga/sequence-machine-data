@@ -1,16 +1,18 @@
 {
-  "description": "Smallest divisor of A002182(n) >= sqrt(A002182(n))",
+  "description": "Smallest divisor of A002182(n) >= sqrt(A002182(n)).",
   "id": "A152048",
   "mentions": [
     "A002182",
+    "A033677",
     "A152047"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

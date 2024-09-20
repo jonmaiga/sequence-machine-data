@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n, k) = T(n - 1, k) + T(n - 2, k - 2), with boundary conditions: if k = 0 or k = 2 then T = 1; if k = 1 then T = n - 1.",
+  "id": "A374440",
+  "mentions": [
+    "A000032",
+    "A000071",
+    "A000217",
+    "A001611",
+    "A001911",
+    "A025174",
+    "A025560",
+    "A057979",
+    "A073028",
+    "A117671",
+    "A374441"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -2,11 +2,13 @@
   "description": "Primes of the form floor(k*e/(e-1)).",
   "id": "A184856",
   "mentions": [
+    "A000040",
     "A054385",
     "A077545",
     "A184855"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

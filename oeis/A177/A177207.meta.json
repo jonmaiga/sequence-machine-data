@@ -1,8 +1,9 @@
 {
-  "description": "Triangle read by rows: R(n,k)=2^(n-k) mod n.",
+  "description": "Triangle read by rows: R(n,k) = 2^(n-k) mod n.",
   "id": "A177207",
   "mentions": [
     "A000079",
+    "A062173",
     "A174699"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 98,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

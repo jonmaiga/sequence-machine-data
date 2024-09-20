@@ -2,6 +2,7 @@
   "description": "Matrix inverse of triangle A022166.",
   "id": "A135950",
   "mentions": [
+    "A005329",
     "A006125",
     "A022166",
     "A028361",

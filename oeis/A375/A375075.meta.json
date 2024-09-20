@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose prime factorization exponents include at least one 1, at least one 2, at least one 3 and no other exponents.",
+  "id": "A375075",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A013662",
+    "A013664",
+    "A046100",
+    "A059956",
+    "A068468",
+    "A088453",
+    "A136568",
+    "A163569",
+    "A176297",
+    "A215267",
+    "A317090",
+    "A375072",
+    "A375073",
+    "A375074"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

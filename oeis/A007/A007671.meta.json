@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n + 2^(n + 1)/2 + 1 is prime.",
+  "description": "Numbers n such that 2^n + 2^((n + 1)/2) + 1 is prime.",
   "id": "A007671",
   "mentions": [
     "A057429"

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (1/4)*Product_{k=0..n} F(k)+4, where F=A000045 (Fibonacci numbers).",
+  "id": "A374984",
+  "mentions": [
+    "A000045"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

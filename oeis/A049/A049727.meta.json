@@ -1,7 +1,9 @@
 {
   "description": "Array T read by diagonals; T(i,j)=number of lattice points in triangle (possibly degenerate) with vertices (0,0),(i,0),(i,j).",
   "id": "A049727",
-  "mentions": [],
+  "mentions": [
+    "A000217"
+  ],
   "tags": [
     "nonn",
     "tabl"

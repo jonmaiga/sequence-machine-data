@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest digit sum of all n-digit sixth powers.",
+  "id": "A373994",
+  "mentions": [
+    "A001014",
+    "A348300",
+    "A373727",
+    "A373914",
+    "A374025"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

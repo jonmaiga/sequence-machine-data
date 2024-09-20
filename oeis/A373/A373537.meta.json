@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the Euclidean length of the shortest minimum-link polygonal chains joining all the vertices of the cube [0,1]^3.",
+  "id": "A373537",
+  "mentions": [
+    "A225227",
+    "A261547",
+    "A363755"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

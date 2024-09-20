@@ -2,7 +2,12 @@
   "description": "Distinct elements in the even-Pascal triangle A028326.",
   "id": "A028328",
   "mentions": [
-    "A028326"
+    "A028326",
+    "A028327",
+    "A028329",
+    "A028330",
+    "A028331",
+    "A028332"
   ],
   "tags": [
     "nonn"

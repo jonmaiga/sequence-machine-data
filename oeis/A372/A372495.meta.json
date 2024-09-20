@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent unate functions of n or fewer variables.",
+  "id": "A372495",
+  "mentions": [
+    "A000372",
+    "A003182",
+    "A245079"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

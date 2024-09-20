@@ -1,8 +1,11 @@
 {
   "description": "Primes of the form 6^n+5.",
   "id": "A104118",
-  "mentions": [],
+  "mentions": [
+    "A145106"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

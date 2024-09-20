@@ -2,6 +2,7 @@
   "description": "Smallest strictly positive number decomposable in n different ways as a sum of two squares.",
   "id": "A124980",
   "mentions": [
+    "A000161",
     "A000446",
     "A002144",
     "A016032",

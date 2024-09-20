@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that two consecutive terms always have some common prime factor and for any prime number p, any run of consecutive multiples of p has length exactly 2.",
+  "id": "A375005",
+  "mentions": [
+    "A024619",
+    "A064413",
+    "A280864"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

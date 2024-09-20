@@ -1,0 +1,37 @@
+{
+  "description": "Sum of the n-th maximal run of nonsquarefree numbers differing by one.",
+  "id": "A373414",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A049093",
+    "A049094",
+    "A053797",
+    "A053806",
+    "A054265",
+    "A061398",
+    "A061399",
+    "A076259",
+    "A077641",
+    "A077643",
+    "A078147",
+    "A101836",
+    "A143658",
+    "A294242",
+    "A329472",
+    "A373123",
+    "A373197",
+    "A373403",
+    "A373406",
+    "A373412",
+    "A373413"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

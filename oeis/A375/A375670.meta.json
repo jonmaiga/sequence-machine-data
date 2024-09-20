@@ -1,0 +1,22 @@
+{
+  "description": "The maximum exponent in the prime factorization of the largest 5-rough divisor of n.",
+  "id": "A375670",
+  "mentions": [
+    "A003586",
+    "A007310",
+    "A051903",
+    "A065330",
+    "A106799",
+    "A375669"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

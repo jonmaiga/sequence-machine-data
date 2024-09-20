@@ -1,10 +1,13 @@
 {
   "description": "Decimal expansion of 49/36.",
   "id": "A177022",
-  "mentions": [],
+  "mentions": [
+    "A177057"
+  ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

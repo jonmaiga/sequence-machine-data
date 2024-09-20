@@ -1,7 +1,9 @@
 {
   "description": "Numbers n such that 2*n^2 + 9 is prime.",
   "id": "A111040",
-  "mentions": [],
+  "mentions": [
+    "A339048"
+  ],
   "tags": [
     "easy",
     "nonn"

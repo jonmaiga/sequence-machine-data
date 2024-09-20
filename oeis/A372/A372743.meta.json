@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the unique number m such that A336563(m) = A372742(n).",
+  "id": "A372743",
+  "mentions": [
+    "A001248",
+    "A336563",
+    "A357313",
+    "A357325",
+    "A361420",
+    "A372742"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

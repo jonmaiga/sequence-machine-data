@@ -2,6 +2,14 @@
   "description": "5th-order Vatalan numbers (generalization of Catalan numbers).",
   "id": "A025758",
   "mentions": [
+    "A000108",
+    "A025756",
+    "A025757",
+    "A025759",
+    "A025760",
+    "A025761",
+    "A025762",
+    "A025763",
     "A049223"
   ],
   "tags": [

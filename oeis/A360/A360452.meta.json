@@ -2,6 +2,8 @@
   "description": "Number of fractions c/d with |c| <= d <= 2n and odd denominator when factors of 2 are canceled.",
   "id": "A360452",
   "mentions": [
+    "A002088",
+    "A049690",
     "A049691",
     "A099957"
   ],

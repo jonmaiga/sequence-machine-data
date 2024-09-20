@@ -1,0 +1,15 @@
+{
+  "description": "Positive integers that can be expressed in at least three ways as (x-y)*(x^3-y^3).",
+  "id": "A373001",
+  "mentions": [
+    "A352244"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

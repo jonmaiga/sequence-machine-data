@@ -1,0 +1,21 @@
+{
+  "description": "Number of combinatorially distinct ways to dissect a rectangle into n rectangles, taking into account the ordering of the lines that extend the sides.",
+  "id": "A375129",
+  "mentions": [
+    "A049021",
+    "A340984",
+    "A342141",
+    "A375130",
+    "A375131",
+    "A375132"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

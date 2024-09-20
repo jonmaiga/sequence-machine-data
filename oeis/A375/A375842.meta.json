@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{k=0..n} (k^5 + n).",
+  "id": "A375842",
+  "mentions": [
+    "A255435",
+    "A307216",
+    "A375839",
+    "A375840",
+    "A375841",
+    "A375843",
+    "A375844",
+    "A375845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

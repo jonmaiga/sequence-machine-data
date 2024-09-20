@@ -2,6 +2,8 @@
   "description": "If n is a k-th power with k >= 2 then a(n) = k, otherwise a(n) = 0.",
   "id": "A132349",
   "mentions": [
+    "A132350",
+    "A132351",
     "A132352",
     "A132384"
   ],

@@ -1,7 +1,9 @@
 {
-  "description": "(7*9^n-1)/2.",
+  "description": "a(n) = (7*9^n - 1)/2.",
   "id": "A198964",
-  "mentions": [],
+  "mentions": [
+    "A198965"
+  ],
   "tags": [
     "easy",
     "formulas",

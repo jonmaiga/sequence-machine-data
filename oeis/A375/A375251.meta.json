@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of the polynomials A375252 (polynomial part of the partition function restricted to partitions of the integer x with parts in (1,2,...,n)).",
+  "id": "A375251",
+  "mentions": [
+    "A375250",
+    "A375252"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

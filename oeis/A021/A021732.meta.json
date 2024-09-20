@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/728.",
   "id": "A021732",
-  "mentions": [],
+  "mentions": [
+    "A021368"
+  ],
   "tags": [
     "cons",
     "formulas",

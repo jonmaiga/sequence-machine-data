@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number such that GCD of n values of prime(j)-1 for successive j values is greater than 2, where prime(j)=j-th prime.",
+  "description": "a(n) is the smallest number k such that GCD of n values of prime(j)-1 for successive j values starting with k is greater than 2, where prime(j) = j-th prime.",
   "id": "A080373",
   "mentions": [
     "A000040",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

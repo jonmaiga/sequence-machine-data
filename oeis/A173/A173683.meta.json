@@ -1,7 +1,8 @@
 {
-  "description": "Sum of n mod p, for p=2, 3, 5, ..., smallest prime>=n.",
+  "description": "Sum of n mod p, for p = 2, 3, 5, ..., smallest prime >= n.",
   "id": "A173683",
   "mentions": [
+    "A007918",
     "A099726"
   ],
   "tags": [

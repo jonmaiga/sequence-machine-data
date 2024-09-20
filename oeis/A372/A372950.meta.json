@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{1 <= x_1, x_2 <= n} ( n/gcd(x_1, x_2, n) )^3.",
+  "id": "A372950",
+  "mentions": [
+    "A001160",
+    "A002117",
+    "A008683",
+    "A013664",
+    "A068970",
+    "A084218",
+    "A084220",
+    "A347328",
+    "A350156",
+    "A372964"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

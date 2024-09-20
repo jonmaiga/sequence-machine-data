@@ -3,9 +3,11 @@
   "id": "A115071",
   "mentions": [
     "A001008",
-    "A027612"
+    "A027612",
+    "A120487"
   ],
   "tags": [
+    "easy",
     "formulas",
     "frac",
     "nonn"

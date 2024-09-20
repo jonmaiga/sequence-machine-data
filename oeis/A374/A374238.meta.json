@@ -1,0 +1,20 @@
+{
+  "description": "Primes whose pattern of identical digits is unique among the primes.",
+  "id": "A374238",
+  "mentions": [
+    "A000040",
+    "A004022",
+    "A006880",
+    "A358497"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

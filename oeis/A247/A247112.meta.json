@@ -1,5 +1,5 @@
 {
-  "description": "Floor of sums of the cubes of the non-integer square roots of n, as partitioned by the integer roots: floor( sum( j from n^2+1 to (n+1)^2-1, j^(3/2) ) ).",
+  "description": "Floor of sums of the cubes of the non-integer square roots of n, as partitioned by the integer roots: floor(Sum_{j=n^2+1..(n+1)^2-1} j^(3/2)).",
   "id": "A247112",
   "mentions": [
     "A014105",

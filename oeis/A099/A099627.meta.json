@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k)=2^n+2^k-1 with n>=k>=0.",
+  "description": "Triangle read by rows: T(n,k) = 2^n + 2^k - 1 with n >= k >= 0.",
   "id": "A099627",
   "mentions": [
     "A000079",
@@ -9,6 +9,7 @@
     "A048881",
     "A053221",
     "A099628",
+    "A179239",
     "A232089"
   ],
   "tags": [

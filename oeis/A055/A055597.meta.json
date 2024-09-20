@@ -1,5 +1,5 @@
 {
-  "description": "Powers of 2 in phi(n!).",
+  "description": "Exponent of the highest power of 2 dividing phi(n!).",
   "id": "A055597",
   "mentions": [
     "A000010",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

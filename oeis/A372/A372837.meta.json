@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} sin(Pi/k^2).",
+  "id": "A372837",
+  "mentions": [
+    "A372838"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

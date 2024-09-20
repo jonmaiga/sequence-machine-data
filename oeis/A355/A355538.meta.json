@@ -2,7 +2,7 @@
   "description": "Partial sum of A001221 (number of distinct prime factors) minus 1, ranging from 2 to n.",
   "id": "A355538",
   "mentions": [
-    "A000000",
+    "A000005",
     "A000096",
     "A000142",
     "A000720",

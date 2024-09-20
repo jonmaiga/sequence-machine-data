@@ -1,0 +1,44 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer compositions of n whose leaders of anti-runs sum to k.",
+  "id": "A374521",
+  "mentions": [
+    "A000005",
+    "A003242",
+    "A011782",
+    "A096569",
+    "A106356",
+    "A124766",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A261982",
+    "A274174",
+    "A333213",
+    "A333755",
+    "A373949",
+    "A374249",
+    "A374251",
+    "A374515",
+    "A374516",
+    "A374517",
+    "A374518",
+    "A374519",
+    "A374629",
+    "A374637",
+    "A374638",
+    "A374687",
+    "A374700",
+    "A374748",
+    "A374761",
+    "A374766"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

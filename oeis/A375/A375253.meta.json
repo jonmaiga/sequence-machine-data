@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 - 2*x + 2*x^2)/(1 - 2*x - 3*x^2)^(7/2).",
+  "id": "A375253",
+  "mentions": [
+    "A005717",
+    "A091869",
+    "A373651",
+    "A374506",
+    "A375248"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

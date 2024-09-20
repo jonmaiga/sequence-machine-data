@@ -2,6 +2,7 @@
   "description": "Numbers k such that 6*k and 10*k are triangular numbers.",
   "id": "A180926",
   "mentions": [
+    "A069498",
     "A154293"
   ],
   "tags": [

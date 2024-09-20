@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that q(n)=M(n) and 4q(n)<=n, where q(n) is the largest prime divisor of n and M(n) is the largest prime power divisor of n.",
+  "description": "Numbers k such that q(k) = M(k) and 4*q(k) <= k, where q(k) is the largest prime divisor of k and M(k) is the largest prime power divisor of k.",
   "id": "A122146",
   "mentions": [
     "A006530",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

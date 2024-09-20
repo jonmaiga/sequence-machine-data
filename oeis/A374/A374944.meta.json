@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the maximum over the minimum crossing numbers of all Legendrian knots that can be realized on a Legendrian n-mosaic.",
+  "id": "A374944",
+  "mentions": [
+    "A374939",
+    "A374942",
+    "A374943",
+    "A374945",
+    "A374946",
+    "A374947"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

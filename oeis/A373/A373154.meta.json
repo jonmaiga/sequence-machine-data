@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if 6*n is squarefree, otherwise 0.",
+  "id": "A373154",
+  "mentions": [
+    "A008588",
+    "A008966",
+    "A276378",
+    "A354354",
+    "A355688"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

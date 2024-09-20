@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (3/13)*sqrt(3).",
+  "id": "A372914",
+  "mentions": [
+    "A372912",
+    "A372913"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

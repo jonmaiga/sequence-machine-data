@@ -2,16 +2,18 @@
   "description": "Number of primes between two consecutive nonprimes in A037143.",
   "id": "A176451",
   "mentions": [
+    "A001358",
     "A037143",
     "A088700"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

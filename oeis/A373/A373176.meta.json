@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. 2*exp(sqrt(2*x+1)-1)/(2-sqrt(2*x+1))^3.",
+  "id": "A373176",
+  "mentions": [
+    "A000806",
+    "A330797",
+    "A373175"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

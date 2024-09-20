@@ -1,0 +1,15 @@
+{
+  "description": "Prime numbers that precede and follow consecutive balanced primes.",
+  "id": "A374507",
+  "mentions": [
+    "A006562"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the least positive solution of cos(x) - sin(x) = 4/3.",
+  "id": "A372958",
+  "mentions": [
+    "A197291",
+    "A372954",
+    "A372955",
+    "A372959",
+    "A374407",
+    "A374408"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

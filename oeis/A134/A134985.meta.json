@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n-1)^(n+1) - n^n is prime.",
+  "description": "Numbers k such that (k-1)^(k+1) - k^k is prime.",
   "id": "A134985",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

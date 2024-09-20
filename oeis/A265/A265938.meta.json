@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 6*10^k+91 is prime.",
+  "description": "Numbers k such that 6*10^k + 91 is prime.",
   "id": "A265938",
   "mentions": [
     "A056654",

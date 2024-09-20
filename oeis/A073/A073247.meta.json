@@ -1,11 +1,14 @@
 {
-  "description": "Squarefree numbers n such that n-1 and n+1 are not squarefree.",
+  "description": "Squarefree numbers k such that k-1 and k+1 are not squarefree.",
   "id": "A073247",
   "mentions": [
     "A005117",
     "A007675",
+    "A059956",
+    "A065474",
     "A073248",
     "A073249",
+    "A206256",
     "A268331",
     "A268332",
     "A268333",

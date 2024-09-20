@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k/n)^3 * binomial(n,k)^5.",
+  "id": "A374615",
+  "mentions": [
+    "A005261",
+    "A181069",
+    "A374614",
+    "A374616"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

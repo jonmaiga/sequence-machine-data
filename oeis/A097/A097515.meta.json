@@ -1,13 +1,17 @@
 {
-  "description": "(Largest prime < 10^n) + (smallest prime > 10^n).",
+  "description": "a(n) = (largest prime < 10^n) + (smallest prime > 10^n).",
   "id": "A097515",
-  "mentions": [],
+  "mentions": [
+    "A003617",
+    "A003618"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

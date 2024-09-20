@@ -1,0 +1,16 @@
+{
+  "description": "Median, as a function of n, of the probability mass function s(k-1,n-1)/k!, where k>=n and s(a,b) denotes the unsigned Stirling number of the first kind.",
+  "id": "A374958",
+  "mentions": [
+    "A094638"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: Matrix inverse of row-reversed A374439.",
+  "id": "A375025",
+  "mentions": [
+    "A086990",
+    "A090412",
+    "A374439",
+    "A375026"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

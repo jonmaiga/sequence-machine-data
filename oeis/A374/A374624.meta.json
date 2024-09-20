@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of irreducible finite Coxeter groups in n dimensions, or -1 if there are an infinite number.",
+  "id": "A374624",
+  "mentions": [
+    "A060296",
+    "A358241"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

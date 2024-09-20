@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = domination number of the stacked prism graph C_n X P_n.",
+  "id": "A375601",
+  "mentions": [
+    "A375569",
+    "A375603"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

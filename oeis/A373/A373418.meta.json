@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations in symmetric group S_n with (n-k) fixed points and an odd number of non-fixed point cycles. Equivalent to the number of cycles of n items with cycle type defined by non-unity partitions of k <= n that contain an odd number of parts.",
+  "id": "A373418",
+  "mentions": [
+    "A053556",
+    "A053557",
+    "A084265",
+    "A098825",
+    "A127717",
+    "A216779",
+    "A343417",
+    "A373340",
+    "A373417"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

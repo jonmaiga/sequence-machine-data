@@ -1,0 +1,19 @@
+{
+  "description": "RUNS transform of A373813.",
+  "id": "A373814",
+  "mentions": [
+    "A373812",
+    "A373813",
+    "A373815",
+    "A375515"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

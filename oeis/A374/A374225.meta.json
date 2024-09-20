@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n > 1 and k <= n, is the smallest composite number x whose set of digits and the set of digits in all prime factors of x, when written in base n, contain exactly k digits in common, or -1 if no such number exists.",
+  "id": "A374225",
+  "mentions": [
+    "A358003",
+    "A372249",
+    "A372280",
+    "A372295",
+    "A372384",
+    "A373645"
+  ],
+  "tags": [
+    "base",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

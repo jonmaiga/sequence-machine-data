@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: Coefficients of the polynomials P(n, x) * EP(n, x), where P denote the signed Pascal polynomials and EP the Eulerian polynomials A173018.",
+  "id": "A373657",
+  "mentions": [
+    "A000007",
+    "A049061",
+    "A101842",
+    "A173018"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

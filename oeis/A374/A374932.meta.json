@@ -1,0 +1,20 @@
+{
+  "description": "Number T(n,k) of partitions of [n] such that the maximal block element sum equals k; triangle T(n,k), n>=0, n <= k <= A000217(n), read by rows.",
+  "id": "A374932",
+  "mentions": [
+    "A000110",
+    "A000124",
+    "A000217",
+    "A294617",
+    "A375099"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

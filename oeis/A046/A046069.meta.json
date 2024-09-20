@@ -1,10 +1,16 @@
 {
-  "description": "Smallest m >= 0 such that (2n-1)2^m-1 is prime, or -1 if no such value exists.",
+  "description": "Riesel Problem: Smallest m >= 0 such that (2n-1)2^m-1 is prime, or -1 if no such value exists.",
   "id": "A046069",
   "mentions": [
+    "A038699",
     "A040081",
     "A046067",
-    "A046070"
+    "A046070",
+    "A050412",
+    "A052333",
+    "A076337",
+    "A101036",
+    "A108129"
   ],
   "tags": [
     "nonn"

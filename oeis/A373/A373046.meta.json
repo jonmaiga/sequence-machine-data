@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary strings of length n that contain the substring 1000.",
+  "id": "A373046",
+  "mentions": [
+    "A000213",
+    "A050232",
+    "A232580"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

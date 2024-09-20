@@ -1,7 +1,12 @@
 {
   "description": "Primes for which -8 is a primitive root.",
   "id": "A105880",
-  "mentions": [],
+  "mentions": [
+    "A000720",
+    "A001122",
+    "A005596",
+    "A105874"
+  ],
   "tags": [
     "formulas",
     "nonn"

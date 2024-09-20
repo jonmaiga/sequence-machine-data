@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is -1, 0, or 1 such that a(n) == A003415(n) (mod 3), where A003415 is the arithmetic derivative.",
+  "id": "A373253",
+  "mentions": [
+    "A003415",
+    "A327863",
+    "A332823",
+    "A373153",
+    "A373255",
+    "A373257"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose Spanish names include all five vowels at least once",
+  "description": "Numbers whose Spanish names include all five vowels at least once.",
   "id": "A161378",
   "mentions": [
     "A058179"

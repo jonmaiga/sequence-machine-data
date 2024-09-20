@@ -1,7 +1,8 @@
 {
-  "description": "Round(3*n^2/Pi^2).",
+  "description": "a(n) = round(3*n^2/Pi^2).",
   "id": "A228848",
   "mentions": [
+    "A000796",
     "A005728",
     "A015614",
     "A033428",

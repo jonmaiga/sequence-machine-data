@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of g.f. A(x) satisfying 1 - Sum_{n>=1} (x^n - 3*A(x))^n = Product_{k>=0} (1 - x^(2*k)) * (1 + x^k - 3*A(x))^2 / (1 + x^(2*k) - 3*A(x))^2 ).",
+  "description": "Expansion of g.f. A(x) satisfying 1 - Sum_{n>=1} (x^n - 3*A(x))^n = Product_{k>=1} (1 - x^(2*k)) * (1 + x^k - 3*A(x))^2 / (1 + x^(2*k) - 3*A(x))^2.",
   "id": "A370343",
   "mentions": [
     "A370341",

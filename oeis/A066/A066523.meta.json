@@ -1,10 +1,11 @@
 {
-  "description": "Crowded numbers: for any n in the sequence, d(n)/n is larger than d(m)/m for all m > n.",
+  "description": "Crowded numbers: for any k in the sequence, d(k)/k is larger than d(m)/m for all m > k.",
   "id": "A066523",
   "mentions": [
     "A000005",
     "A002182",
-    "A004394"
+    "A004394",
+    "A354768"
   ],
   "tags": [
     "nonn"

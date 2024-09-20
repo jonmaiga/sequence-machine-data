@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that the concatenations of k^i, i=0..j, are prime for j from 1 to n.",
+  "id": "A376027",
+  "mentions": [
+    "A096469"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

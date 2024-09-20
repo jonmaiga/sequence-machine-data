@@ -13,12 +13,13 @@
     "A094728"
   ],
   "tags": [
+    "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 75,
+    "size": 78,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*(14*n^2-21*n+13)/6.",
+  "description": "a(n) = n*(14*n^2 - 21*n + 13)/6.",
   "id": "A071229",
   "mentions": [],
   "tags": [

@@ -1,7 +1,16 @@
 {
   "description": "8th-order Vatalan numbers (generalization of Catalan numbers).",
   "id": "A025761",
-  "mentions": [],
+  "mentions": [
+    "A000108",
+    "A025756",
+    "A025757",
+    "A025758",
+    "A025759",
+    "A025760",
+    "A025762",
+    "A025763"
+  ],
   "tags": [
     "formulas",
     "nonn"

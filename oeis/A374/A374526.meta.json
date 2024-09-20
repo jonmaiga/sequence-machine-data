@@ -1,0 +1,21 @@
+{
+  "description": "Similar to A374525, but for each starting matrix with a choice of whether to sort by columns or rows first, such that the total number of sorting steps for this matrix is minimized.",
+  "id": "A374526",
+  "mentions": [
+    "A002416",
+    "A089006",
+    "A374525"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

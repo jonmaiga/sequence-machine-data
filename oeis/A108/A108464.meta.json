@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A057567(A025487).",
+  "description": "a(n) = A057567(A025487(n)).",
   "id": "A108464",
   "mentions": [
     "A025487",
@@ -9,8 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

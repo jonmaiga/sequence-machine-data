@@ -1,0 +1,18 @@
+{
+  "description": "Primes in A374965 sorted into increasing order.",
+  "id": "A373804",
+  "mentions": [
+    "A076337",
+    "A373799",
+    "A374965",
+    "A375028"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

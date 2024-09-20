@@ -6,12 +6,13 @@
     "A007456"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 35,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

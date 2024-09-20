@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the numerator of the expected number of restarts in the procedure described in A372422 if repeated until a single person has been selected.",
+  "id": "A372932",
+  "mentions": [
+    "A372422",
+    "A372423",
+    "A372482",
+    "A372483"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

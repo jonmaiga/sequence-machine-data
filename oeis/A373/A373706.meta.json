@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - x * (1 + x^4)^2).",
+  "id": "A373706",
+  "mentions": [
+    "A005711",
+    "A193147",
+    "A373708"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

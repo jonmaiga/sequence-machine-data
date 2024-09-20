@@ -1,7 +1,9 @@
 {
   "description": "Integers whose sum of digits as well as product of digits is a nonzero square.",
   "id": "A070713",
-  "mentions": [],
+  "mentions": [
+    "A028839"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

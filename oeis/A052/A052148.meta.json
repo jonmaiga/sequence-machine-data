@@ -1,11 +1,12 @@
 {
-  "description": "Integers n < (reversal of n) such that (reversal of n) + 1 is divisible by n-1.",
+  "description": "Integers k < (reversal of k) such that (reversal of k) + 1 is divisible by k-1.",
   "id": "A052148",
   "mentions": [
     "A004086"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

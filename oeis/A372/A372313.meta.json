@@ -1,0 +1,17 @@
+{
+  "description": "Table read by antidiagonals: A(n,1) = 2n-1, and for k > 1, A(n,k) = A372289(A(n,k-1)+A(n,1)).",
+  "id": "A372313",
+  "mentions": [
+    "A086893",
+    "A372289"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

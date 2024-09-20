@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of odd digits in the decimal expansion of 2^n at positions of form x^2 + 1 (for x >= 1), where position 1 corresponds to the least significant digit.",
+  "id": "A372809",
+  "mentions": [
+    "A000079",
+    "A000122"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

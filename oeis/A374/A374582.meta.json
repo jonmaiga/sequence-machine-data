@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of Egyptian fractions 1 = 1/x_1 + ... + 1/x_n such that 1 <= x_1 <= ... <= x_n and x_k | x_n for all k = 1..n.",
+  "id": "A374582",
+  "mentions": [
+    "A002966",
+    "A156871",
+    "A374583"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

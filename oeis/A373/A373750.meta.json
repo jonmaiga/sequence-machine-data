@@ -1,0 +1,15 @@
+{
+  "description": "Middle terms of A373749.",
+  "id": "A373750",
+  "mentions": [
+    "A373749"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

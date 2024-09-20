@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors with multiplicity of 1 + (n^(n+1)).",
+  "description": "Number of prime factors with multiplicity of 1 + n^(n+1).",
   "id": "A110676",
   "mentions": [
     "A001222",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 89,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

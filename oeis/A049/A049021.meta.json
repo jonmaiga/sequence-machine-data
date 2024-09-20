@@ -2,7 +2,13 @@
   "description": "Number of topologically distinct ways to dissect a rectangle into n rectangles.",
   "id": "A049021",
   "mentions": [
-    "A056814"
+    "A056814",
+    "A340984",
+    "A342141",
+    "A375129",
+    "A375130",
+    "A375131",
+    "A375132"
   ],
   "tags": [
     "more",

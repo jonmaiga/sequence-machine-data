@@ -1,8 +1,13 @@
 {
   "description": "Number of twins with n edges.",
   "id": "A170948",
-  "mentions": [],
+  "mentions": [
+    "A170946",
+    "A170947",
+    "A214816"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,7 +2,8 @@
   "description": "[r]*[2r]*[3r]*...[nr], where r=(1+sqrt(5))/2 and []=floor.",
   "id": "A147998",
   "mentions": [
-    "A000201"
+    "A000201",
+    "A001622"
   ],
   "tags": [
     "formulas",

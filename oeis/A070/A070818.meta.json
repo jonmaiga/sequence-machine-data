@@ -1,5 +1,5 @@
 {
-  "description": "Smallest argument m such that commutator[phi(n), gpf(n)] = 2n-1, where phi(n) = A000010(n) and gpf(n) = A006530(n), the largest prime factor of n.",
+  "description": "Smallest argument m such that commutator[phi(m), gpf(m)] = 2n-1, where phi(m) = A000010(m) and gpf(m) = A006530(m), the largest prime factor of m.",
   "id": "A070818",
   "mentions": [
     "A000010",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
-    "source": "oeis-entry"
+    "size": 50,
+    "source": "joeis"
   }
 }

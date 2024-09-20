@@ -1,0 +1,22 @@
+{
+  "description": "Primes p that are palindromic in some prime base q, where q < p.",
+  "id": "A372141",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A002385",
+    "A007500",
+    "A016041",
+    "A077798",
+    "A372142"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k with property that there exists an m>k such that the sum of the natural numbers from k^2 to m^2 inclusive is a square number.",
+  "id": "A372630",
+  "mentions": [
+    "A000290",
+    "A372631",
+    "A373330"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

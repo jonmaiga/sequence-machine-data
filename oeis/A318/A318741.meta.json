@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of Pi^3/48 + Pi*log(2)^2/4.",
   "id": "A318741",
-  "mentions": [],
+  "mentions": [
+    "A196877"
+  ],
   "tags": [
     "cons",
     "formulas",

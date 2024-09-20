@@ -8,11 +8,11 @@
     "A058019"
   ],
   "tags": [
-    "sign"
+    "nonn"
   ],
   "terms": {
     "offset": 3,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes <= A005867(n).",
+  "id": "A372730",
+  "mentions": [
+    "A000720",
+    "A000849",
+    "A005867"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

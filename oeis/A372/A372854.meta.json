@@ -1,0 +1,16 @@
+{
+  "description": "Maximum numbers of planar embeddings for connected planar graphs on n vertices.",
+  "id": "A372854",
+  "mentions": [
+    "A372853"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

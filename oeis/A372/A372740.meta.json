@@ -1,0 +1,24 @@
+{
+  "description": "Coreful untouchable numbers: numbers that are not the sum of aliquot coreful divisors (A336563) of any number.",
+  "id": "A372740",
+  "mentions": [
+    "A001248",
+    "A005114",
+    "A005117",
+    "A013929",
+    "A063948",
+    "A307958",
+    "A324276",
+    "A324277",
+    "A336563",
+    "A372739"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

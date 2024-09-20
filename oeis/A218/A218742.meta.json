@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (39^n-1)/38.",
+  "description": "a(n) = (39^n - 1)/38.",
   "id": "A218742",
   "mentions": [
     "A000225",
@@ -38,7 +38,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/( (1 + x)^2 * (1 - x^2*(1 + x)^3) ).",
+  "id": "A375365",
+  "mentions": [
+    "A375315",
+    "A375317",
+    "A375364"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

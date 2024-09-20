@@ -1,0 +1,22 @@
+{
+  "description": "Number of k < 2^n that are neither squarefree nor prime powers.",
+  "id": "A372403",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A007053",
+    "A126706",
+    "A143658",
+    "A182908",
+    "A246655"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

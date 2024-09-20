@@ -1,0 +1,18 @@
+{
+  "description": "Index k such that A280866(k) = A019565(n) or 0 if A019565(n) does not appear in A280866.",
+  "id": "A372697",
+  "mentions": [
+    "A005117",
+    "A019565",
+    "A280866",
+    "A372514"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

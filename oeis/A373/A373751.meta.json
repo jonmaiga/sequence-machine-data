@@ -1,0 +1,43 @@
+{
+  "description": "Array read by ascending antidiagonals: p is term of row A(n) if and only if p is a prime and p is a quadratic residue modulo prime(n).",
+  "id": "A373751",
+  "mentions": [
+    "A000040",
+    "A007645",
+    "A038872",
+    "A038883",
+    "A038889",
+    "A038901",
+    "A038913",
+    "A038919",
+    "A038941",
+    "A038957",
+    "A038977",
+    "A038987",
+    "A045373",
+    "A056874",
+    "A106863",
+    "A106891",
+    "A106933",
+    "A217831",
+    "A267481",
+    "A267601",
+    "A296932",
+    "A372726",
+    "A372728",
+    "A372877",
+    "A373223",
+    "A373748",
+    "A374155",
+    "A374156"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

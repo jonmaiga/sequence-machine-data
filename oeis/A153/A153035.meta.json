@@ -2,6 +2,8 @@
   "description": "Decimal expansion of log_20 (3).",
   "id": "A153035",
   "mentions": [
+    "A002391",
+    "A016643",
     "A152821",
     "A153124",
     "A153454",
@@ -26,6 +28,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

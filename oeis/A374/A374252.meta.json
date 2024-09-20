@@ -1,0 +1,38 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of permutations of the prime factors of n with k runs.",
+  "id": "A374252",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003242",
+    "A008480",
+    "A026549",
+    "A027748",
+    "A046660",
+    "A069513",
+    "A124767",
+    "A126706",
+    "A151821",
+    "A238130",
+    "A246655",
+    "A333381",
+    "A333755",
+    "A335433",
+    "A335448",
+    "A335452",
+    "A373956",
+    "A373957",
+    "A374246",
+    "A374247",
+    "A374250"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

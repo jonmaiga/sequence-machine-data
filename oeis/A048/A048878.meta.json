@@ -2,6 +2,7 @@
   "description": "Generalized Pellian with second term of 9.",
   "id": "A048878",
   "mentions": [
+    "A000045",
     "A001076",
     "A001077",
     "A015448",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

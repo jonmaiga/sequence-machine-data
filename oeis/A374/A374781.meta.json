@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose divisors have a record value of the mean abundancy index.",
+  "id": "A374781",
+  "mentions": [
+    "A004394",
+    "A017665",
+    "A017666",
+    "A025487",
+    "A374777",
+    "A374778"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

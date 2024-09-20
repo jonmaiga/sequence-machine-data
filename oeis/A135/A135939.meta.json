@@ -2,14 +2,16 @@
   "description": "Highest exponent occurring in the prime factorization of Fibonacci(n).",
   "id": "A135939",
   "mentions": [
+    "A000045",
     "A051903"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

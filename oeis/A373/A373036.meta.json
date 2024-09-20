@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of edge subsets E of the n X k grid graph such that E contains a path between the top left node and the bottom right node, 1 <= k <= n.",
+  "id": "A373036",
+  "mentions": [
+    "A000245",
+    "A151890",
+    "A349594",
+    "A349596",
+    "A365629",
+    "A373037"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

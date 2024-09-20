@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(x * (1 + x^2)^3).",
+  "id": "A373720",
+  "mentions": [
+    "A361279",
+    "A373718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

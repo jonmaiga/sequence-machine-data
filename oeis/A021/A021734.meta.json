@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1/((1-x)(1-3x)(1-11x)(1-12x)).",
+  "description": "Expansion of 1/((1-x)(1-3x)(1-11x)(1-12x)).",
   "id": "A021734",
   "mentions": [],
   "tags": [

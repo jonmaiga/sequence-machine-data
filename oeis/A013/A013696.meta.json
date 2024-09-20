@@ -1,13 +1,19 @@
 {
   "description": "Continued fraction for zeta(20).",
   "id": "A013696",
-  "mentions": [],
+  "mentions": [
+    "A013631",
+    "A013678",
+    "A013679",
+    "A013680",
+    "A013695"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 75,
     "source": "joeis"
   }

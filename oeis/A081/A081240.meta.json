@@ -1,9 +1,10 @@
 {
-  "description": "#{(i,j): mu(i)*mu(j) = 1, 1<=i,j<=n}, where mu=A008683 (Moebius function).",
+  "description": "a(n) = #{(i,j): mu(i)*mu(j) = 1, 1<=i,j<=n}, where mu = A008683 (Moebius function).",
   "id": "A081240",
   "mentions": [
     "A008683",
     "A070548",
+    "A070549",
     "A081238",
     "A081239"
   ],

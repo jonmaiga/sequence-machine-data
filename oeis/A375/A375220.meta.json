@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) is the number of permutations of the multiset {1, 1, 2, 2, ..., n, n} with k occurrences of fixed pairs (j,j), where T(n,k), n >= 2, 0 <= k <= n-2 is a triangle read by rows.",
+  "id": "A375220",
+  "mentions": [
+    "A000217",
+    "A000680",
+    "A028895",
+    "A116218",
+    "A374980",
+    "A375219",
+    "A375222",
+    "A375223"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

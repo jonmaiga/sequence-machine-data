@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 1 if the number of divisors of n divides n-1, otherwise 0.",
+  "id": "A373993",
+  "mentions": [
+    "A000005",
+    "A354711"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

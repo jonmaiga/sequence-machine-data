@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose digital sum in the primorial base is a multiple of 3.",
+  "id": "A373841",
+  "mentions": [
+    "A049345",
+    "A276150",
+    "A329041",
+    "A373831",
+    "A373839",
+    "A373840"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

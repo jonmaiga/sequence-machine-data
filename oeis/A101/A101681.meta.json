@@ -1,8 +1,10 @@
 {
-  "description": "Numbers k such that gcd (C(2k,k), 2k+1) > 1.",
+  "description": "Numbers k such that gcd(C(2k,k), 2k+1) > 1.",
   "id": "A101681",
   "mentions": [
     "A000984",
+    "A001790",
+    "A055786",
     "A056616",
     "A126786"
   ],

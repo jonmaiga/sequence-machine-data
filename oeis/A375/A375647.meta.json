@@ -1,0 +1,18 @@
+{
+  "description": "Products of prime 8-tuples (p, p+2, p+6, p+12, p+14, p+20, p+24, p+26) where p = A022012(n).",
+  "id": "A375647",
+  "mentions": [
+    "A022012",
+    "A128470",
+    "A375646",
+    "A375648"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

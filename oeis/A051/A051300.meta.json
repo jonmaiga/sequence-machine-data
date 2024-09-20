@@ -1,7 +1,9 @@
 {
-  "description": "a(n+1) = a(n) + rotate( a(n), 1 digit right).",
+  "description": "a(n) = a(n-1) + rotate( a(n-1), 1 digit right), a(1) = 1.",
   "id": "A051300",
-  "mentions": [],
+  "mentions": [
+    "A051299"
+  ],
   "tags": [
     "base",
     "easy",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

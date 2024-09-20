@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the difference between T=n*(n+1)/2 and the largest prime not exceeding T.",
+  "id": "A375752",
+  "mentions": [
+    "A000217",
+    "A007917",
+    "A065384",
+    "A075402",
+    "A375753",
+    "A375754"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "joeis"
+  }
+}

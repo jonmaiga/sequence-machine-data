@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1 / (2 - exp(x * A(x)^(1/3)))^3.",
+  "id": "A375898",
+  "mentions": [
+    "A052894",
+    "A226515",
+    "A375897"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

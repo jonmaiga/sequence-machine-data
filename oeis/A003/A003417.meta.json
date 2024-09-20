@@ -14,7 +14,6 @@
     "A007677",
     "A058282",
     "A081750",
-    "A120691",
     "A342991"
   ],
   "tags": [
@@ -25,7 +24,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 99,
     "source": "oeis-bfile"
   }

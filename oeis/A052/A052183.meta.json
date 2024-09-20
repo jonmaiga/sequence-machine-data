@@ -2,7 +2,6 @@
   "description": "a(n) = (n + 2) * binomial(3*n, n) / (2*n + 1).",
   "id": "A052183",
   "mentions": [
-    "A000013",
     "A000108",
     "A000139",
     "A001764"

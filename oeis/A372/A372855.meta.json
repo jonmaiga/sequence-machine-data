@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways two dihexes can be placed on an n-th regular hexagonal board.",
+  "id": "A372855",
+  "mentions": [
+    "A000384",
+    "A242856"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

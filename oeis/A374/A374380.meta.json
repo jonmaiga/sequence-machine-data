@@ -1,0 +1,17 @@
+{
+  "description": "Numbers b such that the base-b expansion of Pi has two equal digits immediately after the radix point.",
+  "id": "A374380",
+  "mentions": [
+    "A000796",
+    "A002486",
+    "A336017"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,16 @@
   "description": "Distinct elements to the right of the central elements of the even-Pascal triangle A028326.",
   "id": "A028332",
   "mentions": [
-    "A028326"
+    "A028326",
+    "A028327",
+    "A028328",
+    "A028329",
+    "A028330",
+    "A028331"
   ],
   "tags": [
     "easy",
-    "nonn",
-    "tabf"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

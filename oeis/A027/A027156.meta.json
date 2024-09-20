@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = self-convolution of array T given by A027144.",
+  "description": "Self-convolution of array T given by A027144.",
   "id": "A027156",
   "mentions": [
     "A027144"

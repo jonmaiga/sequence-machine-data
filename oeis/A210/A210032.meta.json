@@ -1,8 +1,11 @@
 {
-  "description": "a(n)=n for n=1,2,3 and 4; a(n)=5 for n>=5.",
+  "description": "a(n)=n for n=1,2,3 and 4; a(n)=5 for n >= 5.",
   "id": "A210032",
   "mentions": [
-    "A010716"
+    "A010716",
+    "A101272",
+    "A158411",
+    "A168093"
   ],
   "tags": [
     "easy",

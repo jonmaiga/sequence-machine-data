@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose divisors have an integer mean number of divisors.",
+  "id": "A374904",
+  "mentions": [
+    "A000005",
+    "A005117",
+    "A007425",
+    "A374902",
+    "A374903",
+    "A374905"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

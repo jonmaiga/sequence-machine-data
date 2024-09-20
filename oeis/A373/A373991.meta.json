@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if A328768(n) is a multiple of 3, otherwise 0, where A328768 is the first primorial based variant of arithmetic derivative.",
+  "id": "A373991",
+  "mentions": [
+    "A002110",
+    "A007814",
+    "A007949",
+    "A079978",
+    "A267142",
+    "A328768",
+    "A373992",
+    "A374043"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

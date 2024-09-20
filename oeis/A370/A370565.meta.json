@@ -1,0 +1,24 @@
+{
+  "description": "Size of the group Q_3*/(Q_3*)^n, where Q_3 is the field of 3-adic numbers.",
+  "id": "A370565",
+  "mentions": [
+    "A001620",
+    "A370050",
+    "A370067",
+    "A370180",
+    "A370564",
+    "A370566",
+    "A370567"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

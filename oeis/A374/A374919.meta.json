@@ -1,0 +1,15 @@
+{
+  "description": "Primes p such that -(p - 1)^p == p (mod 2*p - 1).",
+  "id": "A374919",
+  "mentions": [
+    "A374912"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

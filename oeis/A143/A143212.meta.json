@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = F(n) * (F(n+2)-1) = A000045(n) * A000071(n+2) = row sums of triangle A143211.",
+  "description": "a(n) = Fibonacci(n) * (Fibonacci(n+2) - 1).",
   "id": "A143212",
   "mentions": [
     "A000045",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

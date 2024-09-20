@@ -1,14 +1,18 @@
 {
   "description": "Sum of the squares of the first n^n primes.",
   "id": "A131592",
-  "mentions": [],
+  "mentions": [
+    "A000312",
+    "A024450"
+  ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

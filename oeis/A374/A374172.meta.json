@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 1/(6*Pi).",
+  "id": "A374172",
+  "mentions": [
+    "A000796",
+    "A003881",
+    "A049541",
+    "A060294",
+    "A088538"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

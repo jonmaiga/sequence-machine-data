@@ -1,13 +1,18 @@
 {
   "description": "Sum of the squares of the first 3^n primes.",
   "id": "A131591",
-  "mentions": [],
+  "mentions": [
+    "A001248",
+    "A024450",
+    "A131590"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

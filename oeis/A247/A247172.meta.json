@@ -1,14 +1,16 @@
 {
-  "description": "Expansion of -1-(sqrt(x^4+4*x^3-2*x^2-4*x+1)-x^2-2*x-1)/(4*x).",
+  "description": "Expansion of -1 - (sqrt(x^4 + 4*x^3 - 2*x^2 - 4*x + 1) - x^2 - 2*x - 1)/(4*x).",
   "id": "A247172",
-  "mentions": [],
+  "mentions": [
+    "A000108"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 28,
     "source": "joeis"
   }
 }

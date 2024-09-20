@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Bezdek and Daróczy-Kiss's lower bound for the surface area of any Voronoi cell in an arbitrary packing of unit balls in the Euclidean 3-space.",
+  "id": "A374838",
+  "mentions": [
+    "A374753",
+    "A374755",
+    "A374772",
+    "A374837"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

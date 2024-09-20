@@ -1,7 +1,8 @@
 {
-  "description": "Decimal expansion of Sum(k = 0 to inf; d(n!)/n!).",
+  "description": "Decimal expansion of Sum_{k>=0} d(k!)/k! where d is the number of divisors function.",
   "id": "A071815",
   "mentions": [
+    "A027423",
     "A048799"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

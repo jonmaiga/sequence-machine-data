@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangular array read by rows. T(n,k) is the number of simple labeled graphs on [n] with circuit rank equal to k, n>=1, 0<=k<=binomial(n-1,2)",
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of simple labeled graphs on [n] with circuit rank equal to k, n >= 1, 0 <= k <= binomial(n-1,2).",
   "id": "A372153",
   "mentions": [
     "A001858",

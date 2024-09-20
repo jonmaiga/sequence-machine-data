@@ -1,0 +1,19 @@
+{
+  "description": "Divide A374965 into \"blocks\" by saying that each prime term ends a block; sequence gives lengths of successive blocks.",
+  "id": "A373798",
+  "mentions": [
+    "A050412",
+    "A373799",
+    "A374695",
+    "A374965",
+    "A375028"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

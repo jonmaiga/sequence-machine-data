@@ -1,0 +1,17 @@
+{
+  "description": "Number of ternary strings of length n avoiding the substrings 00, 11, 22, 121, 212, 202.",
+  "id": "A373447",
+  "mentions": [
+    "A003945"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

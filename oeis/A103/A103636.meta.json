@@ -1,10 +1,12 @@
 {
-  "description": "Sum[d|n, d==0 mod 3, d^2].",
+  "description": "a(n) = Sum_{d|n, d==0 mod 3} d^2.",
   "id": "A103636",
   "mentions": [
-    "A001157"
+    "A001157",
+    "A002117"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

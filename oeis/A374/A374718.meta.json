@@ -1,0 +1,14 @@
+{
+  "description": "Number of maximal matchings in the n-Sierpinski gasket graph.",
+  "id": "A374718",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

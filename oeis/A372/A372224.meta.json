@@ -1,0 +1,22 @@
+{
+  "description": "The size of the smallest critical set of hints needed to uniquely solve a generalized n X n Sudoku board.",
+  "id": "A372224",
+  "mentions": [
+    "A002620",
+    "A002860",
+    "A033676",
+    "A033677",
+    "A198297"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

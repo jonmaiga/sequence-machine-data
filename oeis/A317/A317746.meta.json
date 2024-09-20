@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows in which row n lists the divisors k of n such that k^n + n^k == 0 mod (k + n).",
+  "description": "Irregular triangle read by rows in which row n lists the divisors k of n such that k^n + n^k == 0 (mod k + n).",
   "id": "A317746",
   "mentions": [
     "A027750",

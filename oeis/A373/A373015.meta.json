@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions p of n such that max(p) == 2 mod 3.",
+  "id": "A373015",
+  "mentions": [
+    "A000041",
+    "A363045",
+    "A373014"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

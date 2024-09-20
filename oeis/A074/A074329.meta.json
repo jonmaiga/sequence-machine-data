@@ -1,5 +1,5 @@
 {
-  "description": "n-th highly composite number equals a(n)-th composite number.",
+  "description": "The n-th highly composite number equals the a(n)-th composite number, for n >= 3.",
   "id": "A074329",
   "mentions": [
     "A000720",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

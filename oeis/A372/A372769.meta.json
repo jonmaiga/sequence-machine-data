@@ -1,0 +1,14 @@
+{
+  "description": "Primes p such that 2^p == p (mod nextprime(p)).",
+  "id": "A372769",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

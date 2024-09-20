@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose fifth power contains exactly the same digits as another fifth power.",
+  "id": "A373191",
+  "mentions": [
+    "A045879",
+    "A188065",
+    "A373190",
+    "A373192"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

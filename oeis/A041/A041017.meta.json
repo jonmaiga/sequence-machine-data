@@ -2,6 +2,8 @@
   "description": "Denominators of continued fraction convergents to sqrt(12).",
   "id": "A041017",
   "mentions": [
+    "A010469",
+    "A040008",
     "A041016",
     "A227790"
   ],
@@ -9,6 +11,7 @@
     "cofr",
     "easy",
     "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which appear to have a unique representation as the difference of two perfect powers; that is, there is only one solution to Pillai's equation a^x - b^y = n, with a>0, b>0, x>1, y>1.",
+  "description": "Numbers k which appear to have a unique representation as the difference of two perfect powers; that is, there is only one solution to Pillai's equation a^x - b^y = k, with a > 0, b > 0, x > 1, y > 1.",
   "id": "A076438",
   "mentions": [
     "A001597",

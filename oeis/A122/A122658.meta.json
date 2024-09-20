@@ -2,6 +2,9 @@
   "description": "a(n) = if n mod 2 = 1 then n^3*(n-1)^2/2 else n^5/2.",
   "id": "A122658",
   "mentions": [
+    "A002117",
+    "A013661",
+    "A013663",
     "A122656"
   ],
   "tags": [

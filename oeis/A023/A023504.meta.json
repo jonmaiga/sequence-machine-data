@@ -1,11 +1,13 @@
 {
-  "description": "Greatest exponent in prime-power factorization of prime(n) - 1.",
+  "description": "Maximum exponent in the prime factorization of prime(n) - 1.",
   "id": "A023504",
   "mentions": [
     "A006093",
+    "A023510",
     "A051903"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

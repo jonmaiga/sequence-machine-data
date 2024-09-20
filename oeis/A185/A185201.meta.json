@@ -2,7 +2,9 @@
   "description": "10^n - second largest prime less than 10^n.",
   "id": "A185201",
   "mentions": [
-    "A033874"
+    "A003618",
+    "A033874",
+    "A151799"
   ],
   "tags": [
     "formulas",

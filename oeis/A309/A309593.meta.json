@@ -2,6 +2,9 @@
   "description": "Numbers k with 4 zeros in a fundamental period of A006190 mod k.",
   "id": "A309593",
   "mentions": [
+    "A000045",
+    "A000129",
+    "A001176",
     "A006190",
     "A053027",
     "A053028",

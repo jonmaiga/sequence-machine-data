@@ -2,8 +2,16 @@
   "description": "n-th stable digit (in decimal system) of n^(n^(...^n)).",
   "id": "A349425",
   "mentions": [
+    "A007814",
+    "A112765",
     "A120962",
-    "A317905"
+    "A317824",
+    "A317903",
+    "A317905",
+    "A369624",
+    "A371048",
+    "A371078",
+    "A373387"
   ],
   "tags": [
     "base",

@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 0; for n>0, a(n) = Sum_k={0..n-1} Bell(k), where the Bell numbers Bell(k) are given in A000110.",
+  "description": "a(n) = Sum_{k=0..n-1} Bell(k), where the Bell numbers Bell(k) are given in A000110.",
   "id": "A005001",
   "mentions": [
     "A000045",

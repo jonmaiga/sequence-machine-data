@@ -1,0 +1,16 @@
+{
+  "description": "The smallest number k whose divisors include exactly n Duffinian numbers (A003624).",
+  "id": "A373969",
+  "mentions": [
+    "A003624",
+    "A373968"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "(1 + number of halving and tripling steps to reach 1 in the Collatz (3x+1) problem), or -1 if 1 is never reached.",
+  "description": "a(n) = (1 + number of halving and tripling steps to reach 1 in the Collatz (3x+1) problem), or -1 if 1 is never reached.",
   "id": "A008908",
   "mentions": [
     "A006370",

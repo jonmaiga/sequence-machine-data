@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} ((2*p-1)/((p+1)*(p-1)^2)).",
+  "id": "A375340",
+  "mentions": [
+    "A013661",
+    "A028242",
+    "A154945",
+    "A375339",
+    "A375341"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

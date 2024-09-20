@@ -1,0 +1,28 @@
+{
+  "description": "Number of divisors of 9n; a(n) = tau(9*n) = A000005(9*n).",
+  "id": "A372789",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A099777",
+    "A283123",
+    "A372713",
+    "A372784",
+    "A372785",
+    "A372786",
+    "A372787",
+    "A372788",
+    "A372790",
+    "A372791",
+    "A372792"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primeth recurrence: a(n) = (a(n-1)+a(n-2))-th prime, with a(0)=0, a(1)=1",
+  "description": "Primeth recurrence: a(n) = (a(n-1)+a(n-2))-th prime, with a(0)=0, a(1)=1.",
   "id": "A259622",
   "mentions": [],
   "tags": [

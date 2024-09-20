@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A205497(n, floor((n - 1) / 2)). The middle coefficients of the Eulerian zig-zag polynomials.",
+  "id": "A373755",
+  "mentions": [
+    "A205497",
+    "A373754"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

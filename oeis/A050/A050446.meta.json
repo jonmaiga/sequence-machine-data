@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,m) giving total degree of n-th-order elementary symmetric polynomials in m variables, -1 <= n, 1 <= m, read by upward antidiagonals.",
+  "description": "Table read by ascending antidiagonals: T(n, m) giving total degree of n-th-order elementary symmetric polynomials in m variables.",
   "id": "A050446",
   "mentions": [
     "A000012",

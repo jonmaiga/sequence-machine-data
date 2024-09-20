@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence of positive integers such that the product of three consecutive terms are all distinct.",
+  "description": "Lexicographically earliest sequence of positive integers such that the products of three consecutive terms are all distinct.",
   "id": "A349227",
   "mentions": [
     "A088177",

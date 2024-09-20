@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; a(n) = least k != a(m), m < n, such that omega(a(n-1)) >= omega(k) requires rad(k) | a(n-1), where omega = A001221 and rad = A007947.",
+  "id": "A374284",
+  "mentions": [
+    "A001221",
+    "A007947",
+    "A033845",
+    "A143207"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A positive integer 2^k*m, where m is odd and k >= 0, belongs to this sequence iff the Jacobi symbol (F_n/m) = -1 for only a finite number of Fermat numbers F_n = A000215(n).",
+  "id": "A372894",
+  "mentions": [
+    "A000215",
+    "A102742",
+    "A128852",
+    "A129802",
+    "A307843"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

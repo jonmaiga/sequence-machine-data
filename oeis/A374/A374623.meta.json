@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the diameter of the Spiral of Theodorus.",
+  "id": "A374623",
+  "mentions": [
+    "A373785"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

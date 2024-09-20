@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is 1 if the minimum value of A017666 that it obtains among divisors of n larger than 1 is 1, otherwise 0. By convention a(1) = 1.",
+  "id": "A374197",
+  "mentions": [
+    "A007691",
+    "A017666",
+    "A374196",
+    "A374198"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

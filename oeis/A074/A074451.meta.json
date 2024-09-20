@@ -2,10 +2,10 @@
   "description": "Non-cubefree noncubes.",
   "id": "A074451",
   "mentions": [
+    "A002117",
     "A007412",
     "A046099",
-    "A051144",
-    "A085541"
+    "A051144"
   ],
   "tags": [
     "formulas",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

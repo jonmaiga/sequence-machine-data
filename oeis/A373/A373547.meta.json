@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 4^k*binomial(n+k, n-k) with 0 <= k <= n.",
+  "id": "A373547",
+  "mentions": [
+    "A000012",
+    "A000302",
+    "A001653",
+    "A046092",
+    "A046717",
+    "A085478",
+    "A130810",
+    "A130812",
+    "A373628"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that can be written as a Narayana number (A001263) in at least 3 ways.",
+  "id": "A376001",
+  "mentions": [
+    "A000217",
+    "A001263",
+    "A003015",
+    "A010054",
+    "A374796",
+    "A375573",
+    "A375999",
+    "A376000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

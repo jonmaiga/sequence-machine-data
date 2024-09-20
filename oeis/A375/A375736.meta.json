@@ -1,0 +1,42 @@
+{
+  "description": "Length of the n-th maximal anti-run of adjacent (increasing by more than one at a time) non-perfect-powers.",
+  "id": "A375736",
+  "mentions": [
+    "A001597",
+    "A007674",
+    "A007916",
+    "A045542",
+    "A046933",
+    "A053289",
+    "A053797",
+    "A110969",
+    "A120992",
+    "A176246",
+    "A216765",
+    "A251092",
+    "A373127",
+    "A373403",
+    "A373409",
+    "A373576",
+    "A373672",
+    "A373675",
+    "A373679",
+    "A375702",
+    "A375703",
+    "A375704",
+    "A375705",
+    "A375706",
+    "A375714",
+    "A375737",
+    "A375738",
+    "A375739"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

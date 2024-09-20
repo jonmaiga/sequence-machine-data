@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows where row n lists, in increasing order, the divisors of 2^n + 1.",
+  "id": "A374237",
+  "mentions": [
+    "A000051",
+    "A002586",
+    "A027750",
+    "A046798",
+    "A069060",
+    "A069061",
+    "A361438"
+  ],
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

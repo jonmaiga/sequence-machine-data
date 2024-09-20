@@ -1,0 +1,15 @@
+{
+  "description": "Positive integers k such that the parametric Pell-type equation x^2 - m*x*y + y^2 = - m^2 - k has no integer solutions (x,y) for all integers m >= 1, excluding the cases k==1 (mod 4), k==3 (mod 9), and k==6 (mod 9).",
+  "id": "A371957",
+  "mentions": [
+    "A370721"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

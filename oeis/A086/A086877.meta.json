@@ -1,7 +1,8 @@
 {
-  "description": "Primes of the form (n+1)^n - n^n, n >= 1.",
+  "description": "Primes of the form (k+1)^k - k^k.",
   "id": "A086877",
   "mentions": [
+    "A055869",
     "A085682",
     "A098463"
   ],

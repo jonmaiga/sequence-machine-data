@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=least prime factor of (9*10^m-11)/7, m=6n-4.",
+  "description": "a(n) is the least prime factor of (9 * 10^(6*n-4) - 11) / 7.",
   "id": "A122691",
   "mentions": [
     "A100275",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

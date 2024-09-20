@@ -1,0 +1,32 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for A(k) <= n < A(k+1); rad(Product_{i = 1..n} a(i)) = A002110(k), where A = A002110, rad = A007947, k >= 0, n >= 1.",
+  "id": "A373944",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000079",
+    "A002110",
+    "A002473",
+    "A003586",
+    "A006530",
+    "A007947",
+    "A008578",
+    "A051037",
+    "A051038",
+    "A080197",
+    "A080681",
+    "A080682",
+    "A080683",
+    "A162306"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

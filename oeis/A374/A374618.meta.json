@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of distinct values of the determinant of an n X n symmetric Toeplitz matrix having 0 on the main diagonal and all the integers 1, 2, ..., n-1 off-diagonal.",
+  "id": "A374618",
+  "mentions": [
+    "A000142",
+    "A369834",
+    "A374279",
+    "A374280",
+    "A374281",
+    "A374282",
+    "A374617",
+    "A374619",
+    "A374620",
+    "A374621"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

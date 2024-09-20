@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 30547/21600.",
+  "id": "A375743",
+  "mentions": [
+    "A002193",
+    "A021220",
+    "A143618",
+    "A177056"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

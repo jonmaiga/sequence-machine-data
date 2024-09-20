@@ -1,10 +1,13 @@
 {
-  "description": "Numerator of percentage of volume of unit box in R^4 that can be filled by n disjoint symplectically embedded balls of equal radius.",
+  "description": "Numerator of proportion of the volume of a unit box in R^4 that can be filled by n disjoint symplectically embedded balls of equal radius.",
   "id": "A301281",
   "mentions": [
+    "A125846",
+    "A125847",
     "A301282"
   ],
   "tags": [
+    "easy",
     "frac",
     "nonn"
   ],

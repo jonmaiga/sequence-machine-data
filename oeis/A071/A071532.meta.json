@@ -1,5 +1,5 @@
 {
-  "description": "(-1) * Sum[ k =1,n, (-1)^floor((3/2)^k) ].",
+  "description": "a(n) = (-1) * Sum_{k=1..n} (-1)^floor((3/2)^k).",
   "id": "A071532",
   "mentions": [
     "A002379",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 95,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

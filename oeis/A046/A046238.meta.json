@@ -2,14 +2,17 @@
   "description": "Cubes which are palindromes in base 7.",
   "id": "A046238",
   "mentions": [
+    "A000578",
+    "A029954",
     "A046237"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 20,
     "source": "joeis"
   }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least m >= 0 with the same number of ternary digits as n such that for some permutation p of 0..2, applying p to the ternary digits of n yields the ternary digits of m.",
+  "id": "A373712",
+  "mentions": [
+    "A134025",
+    "A371268",
+    "A373696"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

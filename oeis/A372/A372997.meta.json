@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} tau( (n/gcd(k,n))^3 ).",
+  "id": "A372997",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A062380",
+    "A062949",
+    "A344221",
+    "A372999"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

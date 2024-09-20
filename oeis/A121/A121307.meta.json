@@ -1,11 +1,14 @@
 {
-  "description": "Products of three terms from A003627.",
+  "description": "Products of three primes of the form 3n-1 (A003627), not necessarily distinct.",
   "id": "A121307",
   "mentions": [
     "A003627",
+    "A004612",
     "A014612",
     "A055664",
-    "A112770"
+    "A112770",
+    "A373589",
+    "A373597"
   ],
   "tags": [
     "easy",

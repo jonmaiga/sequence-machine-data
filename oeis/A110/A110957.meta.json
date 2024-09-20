@@ -1,5 +1,5 @@
 {
-  "description": "(Sum{k=1..n} 1/c(k))*(product{j=1..n} c(j)), where c(j) is j-th composite.",
+  "description": "a(n) = (Sum_{k=1..n} 1/c(k))*(Product_{j=1..n} c(j)), where c(j) is the j-th composite.",
   "id": "A110957",
   "mentions": [
     "A002808",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

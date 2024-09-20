@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number k such that the symmetric representation of sigma(k) has at least one part n.",
+  "description": "a(n) is the smallest number k such that the symmetric representation of sigma(k) has at least one part of size n.",
   "id": "A351903",
   "mentions": [
     "A000079",
@@ -24,12 +24,12 @@
     "A351904"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 70,
+    "source": "oeis-bfile"
   }
 }

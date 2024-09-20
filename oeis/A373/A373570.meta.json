@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: Coefficients of the polynomials S1(n, x) * EP(n, x), where S1 denote the unsigned Stirling cycle polynomials A132393 and EP the Eulerian polynomials A173018.",
+  "id": "A373570",
+  "mentions": [
+    "A000142",
+    "A001044",
+    "A132393",
+    "A173018",
+    "A373657"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

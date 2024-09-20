@@ -1,5 +1,5 @@
 {
-  "description": "Initial (unsafe) primes of Cunningham chains of first type with length exactly 5. Primes in A059453 which survive as primes just four \"2p+1 iterations\", forming chains of exactly 5 terms.",
+  "description": "Initial (unsafe) primes of Cunningham chains of first type with length exactly 5. Primes in A059453 that survive as primes just four \"2p+1 iterations\", forming chains of exactly 5 terms.",
   "id": "A059764",
   "mentions": [
     "A005384",
@@ -26,12 +26,11 @@
     "A104349"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

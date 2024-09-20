@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose infinitary divisors have a mean infinitary abundancy index that is larger than 2.",
+  "id": "A374788",
+  "mentions": [
+    "A129656",
+    "A245214",
+    "A374785",
+    "A374786",
+    "A374787"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = denominator of Sum_{k = 1..n} 1 / (A000959(k)*A375527(k)).",
+  "id": "A375528",
+  "mentions": [
+    "A000959",
+    "A374663",
+    "A374683",
+    "A374983",
+    "A375516",
+    "A375521",
+    "A375522",
+    "A375527",
+    "A375581",
+    "A375582"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

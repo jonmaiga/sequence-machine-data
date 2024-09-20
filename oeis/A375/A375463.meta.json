@@ -1,0 +1,19 @@
+{
+  "description": "Numbers appearing on all three positions in ordered primitive Pythagorean triples.",
+  "id": "A375463",
+  "mentions": [
+    "A008846",
+    "A024352",
+    "A024354",
+    "A263728"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

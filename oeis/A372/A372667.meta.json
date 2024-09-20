@@ -1,0 +1,19 @@
+{
+  "description": "Norm i^2+j^2+k^2 of (i,j,k) for 0 <= k <= j <= i.",
+  "id": "A372667",
+  "mentions": [
+    "A004215",
+    "A069011",
+    "A070770",
+    "A331195"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

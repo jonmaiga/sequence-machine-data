@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - 8*x)^(1/4)).",
+  "id": "A371490",
+  "mentions": [
+    "A373509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

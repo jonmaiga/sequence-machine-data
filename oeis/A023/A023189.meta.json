@@ -1,5 +1,5 @@
 {
-  "description": "Conjecturally, number of infinitely-recurring prime patterns of width n (n odd).",
+  "description": "Conjecturally, number of infinitely recurring prime patterns of width 2n-1.",
   "id": "A023189",
   "mentions": [
     "A023190",

@@ -1,5 +1,5 @@
 {
-  "description": "Array read by anti-diagonals downwards where A(n,k) is the number of ways to write n as a nonnegative linear combination of the parts of a strict integer partition of k.",
+  "description": "Array read by antidiagonals downwards where A(n,k) is the number of ways to write n as a nonnegative linear combination of the parts of a strict integer partition of k.",
   "id": "A364916",
   "mentions": [
     "A000007",

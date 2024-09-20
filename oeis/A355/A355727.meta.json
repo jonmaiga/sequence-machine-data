@@ -2,7 +2,6 @@
   "description": "First of four consecutive primes p, q, r, s where q*s == p (mod r).",
   "id": "A355727",
   "mentions": [
-    "A000122",
     "A001223"
   ],
   "tags": [

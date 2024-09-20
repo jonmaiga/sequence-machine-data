@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest positive k such that -n^n == n (mod n + k).",
+  "id": "A374964",
+  "mentions": [
+    "A066068"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

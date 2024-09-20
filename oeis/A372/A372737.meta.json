@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies A(A(A(x))) = x * exp(3*x).",
+  "id": "A372737",
+  "mentions": [
+    "A199852",
+    "A372736",
+    "A372745"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

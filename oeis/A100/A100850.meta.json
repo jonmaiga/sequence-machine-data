@@ -1,7 +1,10 @@
 {
   "description": "Numbers k such that k^k + k + 7 is prime.",
   "id": "A100850",
-  "mentions": [],
+  "mentions": [
+    "A100848",
+    "A100849"
+  ],
   "tags": [
     "hard",
     "more",

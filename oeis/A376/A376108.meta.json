@@ -1,0 +1,19 @@
+{
+  "description": "Non-Leonardo numbers.",
+  "id": "A376108",
+  "mentions": [
+    "A001595",
+    "A001690",
+    "A005408",
+    "A299174"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

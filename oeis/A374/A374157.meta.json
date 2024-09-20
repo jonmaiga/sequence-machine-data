@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (-1)^floor(n/2)*n.",
+  "id": "A374157",
+  "mentions": [
+    "A001057",
+    "A001477",
+    "A005408",
+    "A057077",
+    "A181983",
+    "A196521",
+    "A372728"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,14 +1,15 @@
 {
-  "description": "Expansion of log(1+x)*cos(log(1+x)).",
+  "description": "Expansion of e.g.f. log(1+x)*cos(log(1+x)).",
   "id": "A009405",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

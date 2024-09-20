@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the apothem (inradius) of a regular 11-gon with unit side length.",
+  "id": "A375191",
+  "mentions": [
+    "A010527",
+    "A020761",
+    "A020769",
+    "A174968",
+    "A179452",
+    "A256854",
+    "A374971",
+    "A375067",
+    "A375152",
+    "A375190",
+    "A375192",
+    "A375193"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

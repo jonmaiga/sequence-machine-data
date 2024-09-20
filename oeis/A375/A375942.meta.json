@@ -1,0 +1,15 @@
+{
+  "description": "Number of partitions of [n] such that the element sum of each block is one more than a multiple of seven.",
+  "id": "A375942",
+  "mentions": [
+    "A375924"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

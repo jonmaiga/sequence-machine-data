@@ -1,0 +1,31 @@
+{
+  "description": "Number A(n,k) of partitions of [n] such that the element sum of each block is one more than a multiple of k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A375924",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A019590",
+    "A033322",
+    "A135528",
+    "A142150",
+    "A158416",
+    "A369079",
+    "A374692",
+    "A375939",
+    "A375940",
+    "A375941",
+    "A375942",
+    "A375943",
+    "A375944",
+    "A375957"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,10 +2,12 @@
   "description": "Hook products of all partitions of 11.",
   "id": "A093790",
   "mentions": [
-    "A003875"
+    "A003875",
+    "A060240"
   ],
   "tags": [
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],

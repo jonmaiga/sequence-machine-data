@@ -1,0 +1,20 @@
+{
+  "description": "T(n, k) is the total number of non-symmetric peaks in all partitions of n with exactly k blocks, n >= 4, 3 <= k <= n-1.",
+  "id": "A370373",
+  "mentions": [
+    "A008277",
+    "A027471",
+    "A033487",
+    "A373288"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

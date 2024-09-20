@@ -1,0 +1,19 @@
+{
+  "description": "Infinite word formed by expanding terms of A372257 by the map h : 0 -> {1,0,1}, 1 -> {1,0,0,1}, 2 -> {1,0,0,0,1}, 3 -> {1,0,0,0,0,1}.",
+  "id": "A369989",
+  "mentions": [
+    "A014707",
+    "A372257",
+    "A372258"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

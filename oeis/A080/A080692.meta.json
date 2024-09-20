@@ -2,6 +2,7 @@
   "description": "a(n)=(-1)^(n+1)*det(M(n)) where M(n) is the n X n matrix M(i,j)=min(abs(i-j),i).",
   "id": "A080692",
   "mentions": [
+    "A001620",
     "A001787",
     "A054243"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

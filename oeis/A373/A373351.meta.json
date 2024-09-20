@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that there are no primes among the k-digit numbers consisting of one 1 and all other digits 9.",
+  "id": "A373351",
+  "mentions": [
+    "A241018"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

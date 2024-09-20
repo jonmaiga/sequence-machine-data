@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with equal remainders of (product of divisors of n) mod (sum of divisors of n) and (product of proper divisors of n) mod (sum of proper divisors of n).",
+  "description": "Numbers k with equal remainders of (product of divisors of k) mod (sum of divisors of k) and (product of proper divisors of k) mod (sum of proper divisors of k).",
   "id": "A192035",
   "mentions": [
     "A000396",

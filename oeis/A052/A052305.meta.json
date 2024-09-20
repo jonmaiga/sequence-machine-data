@@ -1,5 +1,5 @@
 {
-  "description": "Semisimple rings by prime signature: A038538(A025487).",
+  "description": "Number of semisimple rings with A025487(n) elements: a(n) = A038538(A025487(n)).",
   "id": "A052305",
   "mentions": [
     "A025487",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 79,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

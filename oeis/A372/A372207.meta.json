@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime number that is obtained by concatenating 2 consecutive n-digit integers.",
+  "id": "A372207",
+  "mentions": [
+    "A030458",
+    "A052089"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

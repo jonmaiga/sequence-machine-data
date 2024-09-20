@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 12th root of 2.",
   "id": "A010774",
   "mentions": [
+    "A010768",
     "A103922",
     "A214832",
     "A254531"

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the 5th root of 109.",
+  "id": "A374357",
+  "mentions": [
+    "A374358",
+    "A374359"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

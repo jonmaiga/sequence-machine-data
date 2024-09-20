@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number not occurring in a Collatz trajectory of n steps.",
+  "id": "A375094",
+  "mentions": [
+    "A005186",
+    "A006877",
+    "A127824",
+    "A288493"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "Expansion of log'((-1-sqrt(1-8*x)+sqrt(2+2*sqrt(1-8*x)+8*x))/(4*x)).",
   "id": "A240722",
   "mentions": [
+    "A000108",
     "A186997"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

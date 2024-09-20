@@ -1,7 +1,8 @@
 {
-  "description": "An Euler phi transform of 1/(1-x^2).",
+  "description": "An Euler phi transform of 1/(1 - x^2).",
   "id": "A106481",
   "mentions": [
+    "A002088",
     "A049690",
     "A099957"
   ],

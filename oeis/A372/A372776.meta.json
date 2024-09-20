@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (2*k)!/(3*k + 1)!.",
+  "id": "A372776",
+  "mentions": [
+    "A372775"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

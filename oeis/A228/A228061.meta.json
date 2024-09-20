@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n^2 = sigma(m) for some m.",
+  "description": "Numbers k such that k^2 = sigma(m) for some m.",
   "id": "A228061",
   "mentions": [
+    "A000203",
     "A038688",
     "A221284"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

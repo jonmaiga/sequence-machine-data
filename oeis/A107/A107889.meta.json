@@ -1,7 +1,9 @@
 {
-  "description": "Triangular matrix T, read by rows, that satisfies: [T^-k](n,k) = -T(n,k-1) for n>=k>0, or, equivalently, (column k of T^-k) = -SHIFT_LEFT(column k-1 of T) when zeros above the diagonal are ignored. Also, matrix inverse of triangle A107876.",
+  "description": "Triangular matrix T, read by rows, that satisfies: [T^-k](n,k) = -T(n,k-1) for n >= k > 0, or, equivalently, (column k of T^-k) = -SHIFT_LEFT(column k-1 of T) when zeros above the diagonal are ignored. Also, matrix inverse of triangle A107876.",
   "id": "A107889",
   "mentions": [
+    "A107862",
+    "A107867",
     "A107876",
     "A107878",
     "A107880",

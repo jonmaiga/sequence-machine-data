@@ -1,0 +1,19 @@
+{
+  "description": "Record values in A375970.",
+  "id": "A375973",
+  "mentions": [
+    "A000330",
+    "A375970",
+    "A375971"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

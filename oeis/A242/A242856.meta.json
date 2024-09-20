@@ -2,6 +2,9 @@
   "description": "Number of 2-matchings of the n X n grid graph.",
   "id": "A242856",
   "mentions": [
+    "A016742",
+    "A046092",
+    "A054000",
     "A210662",
     "A242861"
   ],

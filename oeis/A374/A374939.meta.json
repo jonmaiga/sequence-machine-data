@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of distinct Legendrian knots, up to smooth knot type and classical invariants, with nonnegative rotation numbers that can be realized on a Legendrian n-mosaic.",
+  "id": "A374939",
+  "mentions": [
+    "A374942",
+    "A374943",
+    "A374944",
+    "A374945",
+    "A374946",
+    "A374947"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

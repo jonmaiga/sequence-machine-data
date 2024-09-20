@@ -1,5 +1,5 @@
 {
-  "description": "2^(2n-1) mod (2n+1).",
+  "description": "a(n) = 2^(2n-1) mod (2n+1).",
   "id": "A178970",
   "mentions": [
     "A000079",

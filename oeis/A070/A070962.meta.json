@@ -1,16 +1,18 @@
 {
-  "description": "Card{ k<=n | omega(k)!=omega(n) }, where omega(n) = A001221(n).",
+  "description": "a(n) = Card{ k<=n | omega(k)!=omega(n) }, where omega(n) = A001221(n).",
   "id": "A070962",
   "mentions": [
-    "A001221"
+    "A001221",
+    "A070961"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

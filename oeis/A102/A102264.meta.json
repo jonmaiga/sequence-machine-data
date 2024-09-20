@@ -1,14 +1,16 @@
 {
   "description": "Smallest prime for which 2^n exactly divides the class number h(-4p).",
   "id": "A102264",
-  "mentions": [],
+  "mentions": [
+    "A006641"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

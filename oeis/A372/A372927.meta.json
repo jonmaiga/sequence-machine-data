@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{1 <= x_1, x_2 <= n} gcd(x_1, x_2, n)^5.",
+  "id": "A372927",
+  "mentions": [
+    "A001158",
+    "A008683",
+    "A013662",
+    "A013664",
+    "A069097",
+    "A088246",
+    "A360428",
+    "A368743",
+    "A372926"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

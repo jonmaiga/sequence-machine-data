@@ -1,0 +1,28 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms arranged in successive chunks whose digitsum = 10.",
+  "id": "A375460",
+  "mentions": [
+    "A011557",
+    "A051885",
+    "A052216",
+    "A052217",
+    "A052218",
+    "A052219",
+    "A052220",
+    "A052221",
+    "A052222",
+    "A052223",
+    "A052224",
+    "A166311",
+    "A228915"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

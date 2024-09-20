@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/( (1 + x) * (1 - x*(1 + x)^3) ).",
+  "id": "A375362",
+  "mentions": [
+    "A375363"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

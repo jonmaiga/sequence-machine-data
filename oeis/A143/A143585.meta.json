@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes in A146214.",
+  "description": "a(n) is the prime index of A146214(n).",
   "id": "A143585",
   "mentions": [
     "A000720",
@@ -7,10 +7,11 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 11,
     "source": "oeis-entry"
   }

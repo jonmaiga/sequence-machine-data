@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k' / gcd(k,k') is of the form 4m+2, where k' stands for the arithmetic derivative of k, A003415.",
+  "id": "A373265",
+  "mentions": [
+    "A003415",
+    "A083345",
+    "A369002",
+    "A369005",
+    "A373264"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

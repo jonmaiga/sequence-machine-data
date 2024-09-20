@@ -1,8 +1,13 @@
 {
   "description": "Number of walks of length n between two nodes at distance 3 in the cycle graph C_9.",
   "id": "A095368",
-  "mentions": [],
+  "mentions": [
+    "A095364",
+    "A095367",
+    "A095369"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

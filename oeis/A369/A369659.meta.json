@@ -1,16 +1,28 @@
 {
-  "description": "Numbers that are not multiples of 3, but their arithmetic derivative is.",
+  "description": "Non-multiples of 3 whose arithmetic derivative, or equally, the sum of prime factors (with multiplicity) is a multiple of 3.",
   "id": "A369659",
   "mentions": [
+    "A001414",
     "A001651",
+    "A002476",
     "A003415",
+    "A003627",
+    "A008591",
     "A030078",
     "A046337",
+    "A083345",
+    "A289142",
     "A327863",
+    "A344872",
     "A360110",
     "A369644",
     "A369658",
-    "A369969"
+    "A369969",
+    "A373475",
+    "A373476",
+    "A373478",
+    "A373597",
+    "A374044"
   ],
   "tags": [
     "nonn"
@@ -18,6 +30,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

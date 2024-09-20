@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; thereafter if n is odd we require that a(n) || a(n+1) be abundant and otherwise deficient. At each step, chose the smallest possible integer not yet in the sequence.",
+  "id": "A375417",
+  "mentions": [
+    "A005100",
+    "A005101",
+    "A375462"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,14 @@
 {
   "description": "If n is a cube, replace it with the cube root of n.",
   "id": "A097449",
-  "mentions": [],
+  "mentions": [
+    "A016627",
+    "A097448",
+    "A197070"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

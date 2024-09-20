@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that n and its 10's complement both have the same prime signature.",
+  "description": "Numbers k such that k and its 10's complement both have the same prime signature.",
   "id": "A087325",
   "mentions": [
-    "A087324"
+    "A068811",
+    "A087324",
+    "A089186"
   ],
   "tags": [
     "base",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

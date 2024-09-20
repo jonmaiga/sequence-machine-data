@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1 / ( (1 - 16*x^4) * (1 - x/(1 - 16*x^4)^(1/4)) ).",
+  "id": "A373583",
+  "mentions": [
+    "A000079",
+    "A100095",
+    "A373278",
+    "A373621",
+    "A373627"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

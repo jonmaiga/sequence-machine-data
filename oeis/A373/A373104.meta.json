@@ -1,0 +1,16 @@
+{
+  "description": "Sum of all distinct multiplicities in the partitions of 2n into n parts.",
+  "id": "A373104",
+  "mentions": [
+    "A373272"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

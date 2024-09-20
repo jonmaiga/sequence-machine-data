@@ -1,7 +1,10 @@
 {
   "description": "Sum of the right diagonal in ordered 3 X 3 prime squares.",
   "id": "A105091",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A105090"
+  ],
   "tags": [
     "easy",
     "formulas",

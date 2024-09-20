@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(d,k) (k >= 1, d = 1,2,3,4,5,6,...) = smallest semiprime s of k (not necessarily consecutive) semiprimes in arithmetic progression with common difference d.",
+  "description": "Array read by antidiagonals: T(d,k) (k >= 1, d = 1,2,3,4,5,6,...) = smallest semiprime s of k (not necessarily consecutive) semiprimes in arithmetic progression with common difference d, or 0 if there is no such arithmetic progression.",
   "id": "A124570",
   "mentions": [
     "A001358",

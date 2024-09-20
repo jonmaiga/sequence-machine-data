@@ -1,0 +1,16 @@
+{
+  "description": "Least n-gonal number that can be written as a product of two or more smaller n-gonal numbers, or 0 if no such number exists.",
+  "id": "A374371",
+  "mentions": [
+    "A057145",
+    "A374370"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "description": "Indices of consecutive non-prime-powers (A361102) differing by 1. Numbers k such that the k-th and (k+1)-th non-prime-powers differ by just one.",
+  "id": "A375713",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001223",
+    "A002808",
+    "A006549",
+    "A007916",
+    "A046933",
+    "A053289",
+    "A057820",
+    "A073783",
+    "A093555",
+    "A110969",
+    "A120430",
+    "A174965",
+    "A176246",
+    "A246655",
+    "A251092",
+    "A255346",
+    "A361102",
+    "A373403",
+    "A373575",
+    "A373576",
+    "A373671",
+    "A373672",
+    "A373673",
+    "A373674",
+    "A373675",
+    "A373676",
+    "A373677",
+    "A373678",
+    "A373679",
+    "A375706",
+    "A375708",
+    "A375714",
+    "A375734",
+    "A375740",
+    "A375926"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

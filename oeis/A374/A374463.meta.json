@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the odd parts of sigma(k) and A064989(k) are equal, where A064989 shifts the prime factorization one step towards lower primes, and sigma is the sum of divisors function.",
+  "id": "A374463",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A064989",
+    "A161942",
+    "A347391",
+    "A374464"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

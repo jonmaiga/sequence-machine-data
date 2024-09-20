@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A328768(n) and A328845(n) are both multiples of 3, otherwise 0, where A328768 is the first primorial based variant and A328845 is the first Fibonacci-based variant of the arithmetic derivative, respectively.",
+  "id": "A374117",
+  "mentions": [
+    "A002110",
+    "A079978",
+    "A328768",
+    "A328845",
+    "A373991",
+    "A374116",
+    "A374118",
+    "A374121"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

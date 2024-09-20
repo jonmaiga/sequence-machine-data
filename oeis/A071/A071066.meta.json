@@ -1,5 +1,5 @@
 {
-  "description": "Palindromic prime pyramid with a(1)=2 such that (number of digits in a(n+1)) = (number of digits in a(n)) + 6; a(n) is as small as possible.",
+  "description": "Palindromic prime pyramid with a(1)=2 such that (number of digits in a(n+1)) = (number of digits in a(n)) + 6.",
   "id": "A071066",
   "mentions": [
     "A070922",

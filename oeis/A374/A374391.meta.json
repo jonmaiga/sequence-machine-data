@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to tile a hexagonal strip made up of n equilateral triangles, using diamonds and trapezoids.",
+  "id": "A374391",
+  "mentions": [
+    "A000931",
+    "A356622",
+    "A356623",
+    "A365352"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

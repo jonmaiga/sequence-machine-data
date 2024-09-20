@@ -2,6 +2,7 @@
   "description": "Numbers k such that k + (-1)^k is not prime.",
   "id": "A166460",
   "mentions": [
+    "A002808",
     "A060462",
     "A068499",
     "A072668",
@@ -10,6 +11,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

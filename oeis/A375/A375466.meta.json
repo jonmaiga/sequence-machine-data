@@ -1,0 +1,18 @@
+{
+  "description": "Array read by ascending antidiagonals of triangles read by rows: the coefficients of the polynomials n! * m^(n-k) * x^k * A094587(n, k), for m >= 0.",
+  "id": "A375466",
+  "mentions": [
+    "A023531",
+    "A094587"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

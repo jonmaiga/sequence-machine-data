@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the length of the longest arithmetic progression of primes ending with prime(n).",
+  "id": "A373888",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A005115",
+    "A373887"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

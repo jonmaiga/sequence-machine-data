@@ -1,13 +1,16 @@
 {
-  "description": "Primes such that digits of p do not appear in p^2 or p^3 (probably finite).",
+  "description": "Primes p such that digits of p do not appear in p^2 or p^3 (probably finite).",
   "id": "A030090",
-  "mentions": [],
+  "mentions": [
+    "A029790"
+  ],
   "tags": [
     "base",
+    "hard",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 7,
     "source": "oeis-entry"
   }

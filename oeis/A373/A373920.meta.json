@@ -1,0 +1,17 @@
+{
+  "description": "Isolated prime Lucas numbers.",
+  "id": "A373920",
+  "mentions": [
+    "A000032",
+    "A005479",
+    "A007510"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

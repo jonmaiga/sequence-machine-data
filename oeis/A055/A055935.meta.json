@@ -1,7 +1,9 @@
 {
   "description": "a(0)=1; a(n) = Sum_{j",
   "id": "A055935",
-  "mentions": [],
+  "mentions": [
+    "A055934"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

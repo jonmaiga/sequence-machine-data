@@ -1,0 +1,20 @@
+{
+  "description": "Primes indices of nonzero bits in Pi (A256108).",
+  "id": "A373471",
+  "mentions": [
+    "A004601",
+    "A051480",
+    "A088563",
+    "A088565",
+    "A256108"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest digit sum of all n-digit fifth powers.",
+  "id": "A374025",
+  "mentions": [
+    "A018141",
+    "A018143",
+    "A055566",
+    "A348300",
+    "A373727",
+    "A373914"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of 3-element subsets {x,y,z} of {1,...,n} such that x*y*z is a square.",
+  "id": "A373042",
+  "mentions": [
+    "A372306",
+    "A373043"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

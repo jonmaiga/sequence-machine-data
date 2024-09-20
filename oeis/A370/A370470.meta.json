@@ -1,0 +1,17 @@
+{
+  "description": "In the binary expansion of n, change the i-th run length to the difference of the i-th and (i-1)-th run lengths. The first run length remains as is.",
+  "id": "A370470",
+  "mentions": [
+    "A101211"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

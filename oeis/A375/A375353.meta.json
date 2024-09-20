@@ -1,0 +1,25 @@
+{
+  "description": "T(m,n) = Number of m X n knot/link mosaics read by rows, with 1<=n<=m.",
+  "id": "A375353",
+  "mentions": [
+    "A000079",
+    "A261399",
+    "A261400",
+    "A374946",
+    "A374947",
+    "A375354",
+    "A375355",
+    "A375356",
+    "A375357"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

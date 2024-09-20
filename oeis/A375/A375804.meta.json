@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Lucas(n-1) * Lucas(n+1) * Fibonacci(2*n-1) * Fibonacci(2*n+1).",
+  "id": "A375804",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A064170",
+    "A204188",
+    "A292696",
+    "A375803"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

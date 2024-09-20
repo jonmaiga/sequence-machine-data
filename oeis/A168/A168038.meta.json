@@ -2,10 +2,12 @@
   "description": "Squares closest to 2*n.",
   "id": "A168038",
   "mentions": [
+    "A002024",
     "A093995",
     "A198954"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

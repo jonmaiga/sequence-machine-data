@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; for n >= 2, a(n) = noz(a(n-1) + 4*n - 3), where noz(n) = A004719(n).",
+  "id": "A373172",
+  "mentions": [
+    "A000384",
+    "A004719",
+    "A243658",
+    "A370812",
+    "A373169",
+    "A373171"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

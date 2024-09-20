@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to form a direct sum decomposition of the vector space GF(2)^n and then choose a basis for each subspace in the decomposition.",
+  "id": "A373536",
+  "mentions": [
+    "A000262",
+    "A002884",
+    "A053601",
+    "A270880"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,13 +1,15 @@
 {
-  "description": "Smallest prime >= LCM(1,...,x), where x is a prime power.",
+  "description": "a(n) is the smallest prime > LCM(1,...,x), where x is the n-th prime power (A000961).",
   "id": "A058017",
   "mentions": [
     "A000961",
     "A003418",
     "A051451",
-    "A058018"
+    "A058018",
+    "A151800"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = le nombre des lettres dans a(n).",
+  "description": "a(1) = 1; for n>1, a(n) = numbers of letters in French name for a(n-1).",
   "id": "A061504",
   "mentions": [
     "A000655",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "word"
   ],

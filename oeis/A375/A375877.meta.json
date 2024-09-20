@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp( 3 * (exp(x) - 1) * A(x)^(1/3) ).",
+  "id": "A375877",
+  "mentions": [
+    "A052880",
+    "A375876"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

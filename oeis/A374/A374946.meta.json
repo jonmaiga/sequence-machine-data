@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of suitably connected Legendrian n-mosaics that form a Legendrian knot.",
+  "id": "A374946",
+  "mentions": [
+    "A374939",
+    "A374942",
+    "A374943",
+    "A374944",
+    "A374945",
+    "A374947"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

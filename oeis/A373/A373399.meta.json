@@ -1,0 +1,19 @@
+{
+  "description": "For any number m, let m* be the bi-infinite string obtained by repetition of the binary expansion of m; a(n) is the least k such that the binary expansion of n appears in k*.",
+  "id": "A373399",
+  "mentions": [
+    "A326774",
+    "A361942",
+    "A373553"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

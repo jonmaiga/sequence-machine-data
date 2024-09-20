@@ -2,10 +2,13 @@
   "description": "Areas of (not necessarily primitive) Pythagorean triangles which are palindromes.",
   "id": "A101450",
   "mentions": [
+    "A002113",
+    "A009112",
     "A101439"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,10 @@
   "description": "Dimension of the space of weight 2n cuspidal newforms for Gamma_0( 10 ).",
   "id": "A063198",
   "mentions": [
+    "A063199",
+    "A063200",
+    "A063201",
+    "A063205",
     "A063942"
   ],
   "tags": [

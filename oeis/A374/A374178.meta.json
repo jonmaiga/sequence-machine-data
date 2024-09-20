@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime p such that p and the next prime > p have exactly n common 1's in their binary expansion.",
+  "id": "A374178",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A007088",
+    "A061712",
+    "A205510"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

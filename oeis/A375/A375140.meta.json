@@ -1,0 +1,49 @@
+{
+  "description": "Number of integer compositions of n whose leaders of weakly increasing runs are not strictly decreasing.",
+  "id": "A375140",
+  "mentions": [
+    "A003242",
+    "A011782",
+    "A056823",
+    "A106356",
+    "A124766",
+    "A188920",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A238424",
+    "A261982",
+    "A274174",
+    "A333213",
+    "A333489",
+    "A333755",
+    "A335456",
+    "A335514",
+    "A335548",
+    "A373949",
+    "A374249",
+    "A374253",
+    "A374629",
+    "A374630",
+    "A374635",
+    "A374636",
+    "A374637",
+    "A374678",
+    "A374687",
+    "A374746",
+    "A374761",
+    "A375137",
+    "A375138",
+    "A375295",
+    "A375296"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

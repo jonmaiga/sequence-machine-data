@@ -1,0 +1,16 @@
+{
+  "description": "Number of connected dominating sets in the n-Hanoi graph.",
+  "id": "A373441",
+  "mentions": [
+    "A308581",
+    "A347505"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

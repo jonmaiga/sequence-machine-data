@@ -2,11 +2,14 @@
   "description": "Denominators of continued fraction convergents to sqrt(105).",
   "id": "A041189",
   "mentions": [
-    "A041188"
+    "A040094",
+    "A041188",
+    "A176461"
   ],
   "tags": [
     "easy",
     "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {

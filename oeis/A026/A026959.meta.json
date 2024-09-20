@@ -2,14 +2,29 @@
   "description": "a(n) = Sum_{k=0..n-3} T(n,k) * T(n,k+3), with T given by A026615.",
   "id": "A026959",
   "mentions": [
-    "A026615"
+    "A026615",
+    "A026616",
+    "A026617",
+    "A026618",
+    "A026619",
+    "A026620",
+    "A026621",
+    "A026622",
+    "A026623",
+    "A026624",
+    "A026625",
+    "A026956",
+    "A026957",
+    "A026958",
+    "A026960"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

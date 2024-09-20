@@ -2,8 +2,14 @@
   "description": "Numbers of the form p^k, where p is a prime and k is a Fibonacci number.",
   "id": "A115975",
   "mentions": [
+    "A000040",
     "A000961",
-    "A117245"
+    "A001248",
+    "A030078",
+    "A050997",
+    "A117245",
+    "A138031",
+    "A179645"
   ],
   "tags": [
     "easy",
@@ -12,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

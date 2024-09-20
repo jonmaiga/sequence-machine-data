@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=2, among all distinct circles that can be constructed from the 3 vertices and the equally spaced 3*n points placed on the sides of an equilateral triangle when every pair of the 3 + 3*n points are connected by a circle and where the points lie at the ends of the circle's diameter.",
+  "id": "A372734",
+  "mentions": [
+    "A360354",
+    "A361623",
+    "A371376",
+    "A372617",
+    "A372731",
+    "A372732",
+    "A372733",
+    "A372735"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

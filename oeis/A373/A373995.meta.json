@@ -1,0 +1,19 @@
+{
+  "description": "Zeros x1 of polynomial functions f(x) = 1/k*x*(x - x1)*(x - x2), which have three integer zeros 0, x1 and x2 (with 0 < x1 < x2) as well as two extreme points and one inflection point with integer x-coordinates (sorted in ascending order, first by the sum x1 + x2 and then by x1).",
+  "id": "A373995",
+  "mentions": [
+    "A364384",
+    "A364385",
+    "A373996",
+    "A373997"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

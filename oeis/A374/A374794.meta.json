@@ -1,0 +1,16 @@
+{
+  "description": "Number of deco polyominoes of height 2n and vertical height n.",
+  "id": "A374794",
+  "mentions": [
+    "A121692"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

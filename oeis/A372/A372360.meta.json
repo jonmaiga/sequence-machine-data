@@ -1,5 +1,5 @@
 {
-  "description": "Array read by upward antidiagonals: A(n, k) = A000120(A372361(n, k))), n,k >= 1; Binary weights of terms of arrays A372359 and A372361.",
+  "description": "Array read by upward antidiagonals: A(n, k) = A000120(A372361(n, k)), n,k >= 1; Binary weights of terms of arrays A372359 and A372361.",
   "id": "A372360",
   "mentions": [
     "A000120",

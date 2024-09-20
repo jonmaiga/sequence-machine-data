@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Sum_{k in Z} x^(2*k) / (1 - x^(7*k+3)).",
+  "id": "A375107",
+  "mentions": [
+    "A375106",
+    "A375108"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

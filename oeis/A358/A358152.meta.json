@@ -1,5 +1,5 @@
 {
-  "description": "Number of strict closure operators on a set of n elements such that every point and every set disjoint from that point can be separated by clopen sets.",
+  "description": "Number of strict closure operators on a set of n elements such that every point and every closed set not containing that point can be separated by clopen sets.",
   "id": "A358152",
   "mentions": [
     "A334255",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

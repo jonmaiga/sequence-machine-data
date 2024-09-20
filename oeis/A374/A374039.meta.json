@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if the 3-adic valuation of n is not 1, otherwise 0.",
+  "id": "A374039",
+  "mentions": [
+    "A007949",
+    "A011655",
+    "A074232",
+    "A267142"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

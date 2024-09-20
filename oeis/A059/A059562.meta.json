@@ -2,10 +2,12 @@
   "description": "Beatty sequence for log(Pi)/(log(Pi)-1).",
   "id": "A059562",
   "mentions": [
+    "A053510",
     "A059561"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

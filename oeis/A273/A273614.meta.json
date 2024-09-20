@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3n - 1 divides 3^n - 1.",
+  "description": "Numbers k such that 3k - 1 divides 3^k - 1.",
   "id": "A273614",
   "mentions": [
     "A024023",

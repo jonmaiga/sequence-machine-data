@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 0 if p = prime(n) is introduced in A373390 by 2*p, or 1 if p is introduced by 3*p.",
+  "id": "A373791",
+  "mentions": [
+    "A372072",
+    "A372073",
+    "A372078",
+    "A372081",
+    "A373390",
+    "A373786",
+    "A373790"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

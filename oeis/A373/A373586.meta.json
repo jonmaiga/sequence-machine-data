@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which A373149(k) is even, where A373149 is fully additive with a(2) = 1 and a(p) = prevprime(p) for odd primes p.",
+  "id": "A373586",
+  "mentions": [
+    "A000045",
+    "A001222",
+    "A007949",
+    "A064989",
+    "A113177",
+    "A373149",
+    "A373585",
+    "A373587",
+    "A374108",
+    "A374114"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

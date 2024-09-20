@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer compositions of n whose leaders of maximal weakly increasing runs are not weakly decreasing.",
+  "id": "A374636",
+  "mentions": [
+    "A000041",
+    "A003242",
+    "A056823",
+    "A106356",
+    "A188920",
+    "A189076",
+    "A238279",
+    "A238343",
+    "A238424",
+    "A274174",
+    "A333213",
+    "A333489",
+    "A335514",
+    "A373949",
+    "A374249",
+    "A374629",
+    "A374632",
+    "A374635",
+    "A374678",
+    "A374681",
+    "A374682",
+    "A374697",
+    "A374699",
+    "A374747",
+    "A375135",
+    "A375137",
+    "A375138",
+    "A375297"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if A001414(n) and A003415(n) are both multiples of 3, otherwise 0, where A001414 is the sum of prime factors with repetition, and A003415 is the arithmetic derivative.",
+  "id": "A373477",
+  "mentions": [
+    "A001414",
+    "A003415",
+    "A373364",
+    "A373474",
+    "A373478"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

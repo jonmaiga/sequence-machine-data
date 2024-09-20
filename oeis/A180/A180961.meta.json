@@ -1,15 +1,19 @@
 {
-  "description": "Numbers such that the English name of the number has four syllables.",
+  "description": "Numbers such that the American English name of the number has four syllables.",
   "id": "A180961",
-  "mentions": [],
+  "mentions": [
+    "A075774"
+  ],
   "tags": [
     "easy",
+    "fini",
+    "formulas",
     "nonn",
     "word"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

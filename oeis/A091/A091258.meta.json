@@ -1,11 +1,13 @@
 {
-  "description": "Denominator of sigma(3,n)/sigma(1,n).",
+  "description": "Denominator of sigma_3(n)/sigma(n).",
   "id": "A091258",
   "mentions": [
     "A000203",
     "A001158",
+    "A002476",
+    "A004611",
     "A091259",
-    "A091261"
+    "A091260"
   ],
   "tags": [
     "easy",

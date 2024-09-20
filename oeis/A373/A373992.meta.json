@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A328768(k) is a multiple of 3, where A328768 is the first primorial based variant of arithmetic derivative.",
+  "id": "A373992",
+  "mentions": [
+    "A003415",
+    "A008591",
+    "A042965",
+    "A327863",
+    "A328768",
+    "A373991",
+    "A374042",
+    "A374044"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

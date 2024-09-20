@@ -2,6 +2,7 @@
   "description": "Expansion of (1 - 2*x - sqrt(1 - 4*x - 4*x^2))/(4*x^2).",
   "id": "A071356",
   "mentions": [
+    "A000108",
     "A001003",
     "A001844",
     "A006125",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (41^n-1)/40.",
+  "description": "a(n) = (41^n - 1)/40.",
   "id": "A218744",
   "mentions": [
     "A000225",
@@ -38,7 +38,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

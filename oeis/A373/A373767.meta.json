@@ -1,0 +1,16 @@
+{
+  "description": "Integers k such that the sum of the first k noncubes is a square.",
+  "id": "A373767",
+  "mentions": [
+    "A007412",
+    "A109470"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

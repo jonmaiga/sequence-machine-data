@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/sqrt(1 - 4*x - 8*x^4).",
+  "id": "A374599",
+  "mentions": [
+    "A084609",
+    "A360219",
+    "A360267",
+    "A374598"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

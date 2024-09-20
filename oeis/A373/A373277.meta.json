@@ -1,0 +1,16 @@
+{
+  "description": "Number of monic irreducible polynomials over GF(7) with fixed nonzero trace.",
+  "id": "A373277",
+  "mentions": [
+    "A110540"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

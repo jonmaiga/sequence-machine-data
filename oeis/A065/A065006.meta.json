@@ -1,9 +1,10 @@
 {
   "description": "Integers for which the periodic part of the continued fraction for the square root of n begins with 3.",
   "id": "A065006",
-  "mentions": [],
+  "mentions": [
+    "A065005"
+  ],
   "tags": [
-    "cofr",
     "easy",
     "nonn"
   ],

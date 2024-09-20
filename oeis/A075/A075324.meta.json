@@ -2,7 +2,8 @@
   "description": "Independent domination number for queens' graph Q(n).",
   "id": "A075324",
   "mentions": [
-    "A002567"
+    "A002567",
+    "A075458"
   ],
   "tags": [
     "more",

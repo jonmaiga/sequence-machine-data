@@ -1,8 +1,12 @@
 {
-  "description": "Palindromes with exactly 7 distinct prime factors.",
+  "description": "Palindromes which are the product of exactly 7 distinct primes.",
   "id": "A046397",
   "mentions": [
-    "A046333"
+    "A002113",
+    "A046333",
+    "A123321",
+    "A176655",
+    "A373467"
   ],
   "tags": [
     "base",

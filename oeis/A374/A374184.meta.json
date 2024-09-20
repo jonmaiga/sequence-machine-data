@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that K(19 / k) != K((-1)^floor(k/2)*k / 19), where K(a/b) is the Kronecker symbol. Row 5 of A374188.",
+  "id": "A374184",
+  "mentions": [
+    "A372728",
+    "A374180",
+    "A374181",
+    "A374182",
+    "A374183",
+    "A374188"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

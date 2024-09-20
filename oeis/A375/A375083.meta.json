@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k is not the first multiple of k that appears in Pascal's triangle (read by rows), i.e., such that A375082(k) > 1.",
+  "id": "A375083",
+  "mentions": [
+    "A007318",
+    "A349958",
+    "A374959",
+    "A375082"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

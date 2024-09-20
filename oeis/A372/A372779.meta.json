@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that v^n - u^m < u^(m+1) - v^n, where u=2, v=3, and u^m < v^n < u^(m+1).",
+  "id": "A372779",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A056576",
+    "A372780"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

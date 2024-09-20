@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of parking functions of length n with preferences restricted to {1, ..., k} for 0 <= k <= n.",
+  "id": "A373086",
+  "mentions": [
+    "A000225",
+    "A000272",
+    "A260693",
+    "A355645"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

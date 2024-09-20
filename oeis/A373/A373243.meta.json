@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = sum for all integer partitions of n of the difference between number of different parts and number of different multiplicities.",
+  "id": "A373243",
+  "mentions": [
+    "A373241",
+    "A373242"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

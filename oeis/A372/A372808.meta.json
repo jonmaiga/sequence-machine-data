@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sum of the digits (mod 5) of 5^n.",
+  "id": "A372808",
+  "mentions": [
+    "A000351",
+    "A010874",
+    "A066001"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

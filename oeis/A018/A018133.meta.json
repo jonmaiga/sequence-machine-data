@@ -1,7 +1,9 @@
 {
   "description": "Powers of fifth root of 7 rounded to nearest integer.",
   "id": "A018133",
-  "mentions": [],
+  "mentions": [
+    "A011092"
+  ],
   "tags": [
     "nonn"
   ],

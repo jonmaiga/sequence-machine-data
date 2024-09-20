@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(1 - x)^(3*A(x)^(1/3)).",
+  "id": "A375879",
+  "mentions": [
+    "A052813",
+    "A375878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

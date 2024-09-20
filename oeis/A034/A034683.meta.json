@@ -2,9 +2,13 @@
   "description": "Unitary abundant numbers: numbers k such that usigma(k) > 2*k.",
   "id": "A034683",
   "mentions": [
+    "A001694",
     "A005101",
     "A034444",
     "A034448",
+    "A052485",
+    "A061742",
+    "A082020",
     "A129487",
     "A302993"
   ],

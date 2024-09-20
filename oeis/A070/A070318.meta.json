@@ -1,7 +1,11 @@
 {
-  "description": "Max( sigma(k)-k : k=1,2,3,...,n ) where sigma(x)-x is the sum of proper divisors of x.",
+  "description": "a(n) = Max_{k=1..n} (sigma(k)-k) where sigma(k)-k is the sum of proper divisors of k.",
   "id": "A070318",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A034090"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

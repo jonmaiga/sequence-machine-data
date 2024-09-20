@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the parity of the n-th squarefree number.",
+  "id": "A373550",
+  "mentions": [
+    "A000035",
+    "A005117",
+    "A039956",
+    "A056911",
+    "A373549",
+    "A373551",
+    "A373552"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

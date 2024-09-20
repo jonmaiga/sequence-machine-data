@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose number of prime factors (with multiplicity) is a multiple of 3, and all of them are of the type 3m+1 (in A002476).",
+  "id": "A373590",
+  "mentions": [
+    "A001222",
+    "A002476",
+    "A004611",
+    "A145784",
+    "A373589",
+    "A373597"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

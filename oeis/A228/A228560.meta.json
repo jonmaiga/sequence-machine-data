@@ -1,5 +1,5 @@
 {
-  "description": "Curvature of the circles (rounded down) inscribed in golden triangle arranged as spiral form.",
+  "description": "Curvature (rounded down) of the circle inscribed in the n-th golden triangle arranged in a spiral form.",
   "id": "A228560",
   "mentions": [
     "A001521",
@@ -7,6 +7,7 @@
     "A065565"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

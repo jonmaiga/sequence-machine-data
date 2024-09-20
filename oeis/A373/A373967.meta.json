@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (-1)^n * n! + (-1)^(k+1) * k! for n >= 2 and 1 <= k <= n-1.",
+  "id": "A373967",
+  "mentions": [
+    "A000142",
+    "A001048",
+    "A153805",
+    "A213167",
+    "A373966"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

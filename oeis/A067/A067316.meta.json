@@ -1,13 +1,16 @@
 {
   "description": "a(n) is the number of values of j, 0 <= j <= n, such that 1 + binomial(n,j) is prime.",
   "id": "A067316",
-  "mentions": [],
+  "mentions": [
+    "A066699",
+    "A067317"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 93,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

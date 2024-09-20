@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = number of k-element subobjects of an n-element set in the category of relations, n >= 0, 0 <= k <= n.",
+  "id": "A373398",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A002064",
+    "A007318",
+    "A016269",
+    "A028130"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

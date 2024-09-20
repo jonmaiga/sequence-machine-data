@@ -2,9 +2,13 @@
   "description": "Sum of any four successive terms is prime, a(1)=a(2)=0,a(3)=1.",
   "id": "A103781",
   "mentions": [
-    "A073737"
+    "A000040",
+    "A073737",
+    "A083242"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

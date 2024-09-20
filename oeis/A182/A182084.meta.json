@@ -1,13 +1,17 @@
 {
-  "description": "3*n - n/p, where p is the smallest prime dividing n.",
+  "description": "a(n) = 3*n - n/p, where p is the smallest prime dividing n.",
   "id": "A182084",
-  "mentions": [],
+  "mentions": [
+    "A020639",
+    "A032742"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 79,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

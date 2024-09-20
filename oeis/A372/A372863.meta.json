@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Integral_{x=2..oo} 1/(x^2*log(x)) dx.",
+  "id": "A372863",
+  "mentions": [
+    "A372856",
+    "A372862"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

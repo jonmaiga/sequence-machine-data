@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of binary strings of length n that have no common ones with some of their cyclic shifts.",
+  "id": "A374712",
+  "mentions": [
+    "A374664"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

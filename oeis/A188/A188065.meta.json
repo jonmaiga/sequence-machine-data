@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3 contains the same digits as some other cube.",
+  "description": "Numbers k such that k^3 contains the same digits as some other cube.",
   "id": "A188065",
   "mentions": [],
   "tags": [

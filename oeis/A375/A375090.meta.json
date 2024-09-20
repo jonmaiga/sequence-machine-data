@@ -1,0 +1,18 @@
+{
+  "description": "Omit the trailing 4 from the terms of the Lucas-Lehmer sequence A003010.",
+  "id": "A375090",
+  "mentions": [
+    "A003010",
+    "A017077"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

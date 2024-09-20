@@ -1,8 +1,9 @@
 {
-  "description": "Decimal expansion of least x>0 having sin(6x)=(sin(2x))^2.",
+  "description": "Decimal expansion of least x>0 having sin(6x) = sin(2x)^2.",
   "id": "A197291",
   "mentions": [
-    "A197133"
+    "A197133",
+    "A197260"
   ],
   "tags": [
     "cons",

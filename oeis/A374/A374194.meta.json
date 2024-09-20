@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of two nonzero hexagonal pyramidal numbers in exactly n ways, or -1 if no such number exists.",
+  "id": "A374194",
+  "mentions": [
+    "A002412",
+    "A011541",
+    "A334013",
+    "A374141",
+    "A374168",
+    "A374193"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

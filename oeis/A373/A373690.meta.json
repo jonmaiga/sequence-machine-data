@@ -1,0 +1,18 @@
+{
+  "description": "Number of balanced unate functions of n or fewer variables.",
+  "id": "A373690",
+  "mentions": [
+    "A245079",
+    "A341633"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

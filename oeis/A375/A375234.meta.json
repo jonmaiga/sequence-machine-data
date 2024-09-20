@@ -1,0 +1,20 @@
+{
+  "description": "Square array T(n,k), n>1 and k>1, read by antidiagonals in ascending order, giving the smallest n*k-digit number that, if arranged in an n X k matrix, forms a k-digit emirp (A006567) in each row and an n-digit emirp in each column, or -1 if no such number exists.",
+  "id": "A375234",
+  "mentions": [
+    "A006567",
+    "A224164",
+    "A375171"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

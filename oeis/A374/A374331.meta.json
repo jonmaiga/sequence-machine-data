@@ -1,0 +1,17 @@
+{
+  "description": "Palindromic squarefree semiprimes such that the sum of the two prime factors is also a palindrome.",
+  "id": "A374331",
+  "mentions": [
+    "A002113",
+    "A006881"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

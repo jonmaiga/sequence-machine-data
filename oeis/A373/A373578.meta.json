@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x * (1 + x^2)^2).",
+  "id": "A373578",
+  "mentions": [
+    "A118395",
+    "A190863",
+    "A361278",
+    "A373577"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

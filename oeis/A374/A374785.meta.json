@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose unitary divisors have a mean unitary abundancy index that is larger than 2.",
+  "id": "A374785",
+  "mentions": [
+    "A001221",
+    "A001694",
+    "A013929",
+    "A034683",
+    "A052485",
+    "A070826",
+    "A245214",
+    "A366586",
+    "A374783",
+    "A374784",
+    "A374788"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

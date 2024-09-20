@@ -1,0 +1,14 @@
+{
+  "description": "a(n) = n! * [x^n] (-2 - exp(-x))^n.",
+  "id": "A375542",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

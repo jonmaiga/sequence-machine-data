@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers having the property that for any triple i,j,k of consecutive terms gcd(j,k) = 1 whereas A007947(i*j*k) is a term in A002110.",
+  "id": "A374575",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A055932"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

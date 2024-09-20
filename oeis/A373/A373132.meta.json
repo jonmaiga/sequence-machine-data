@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{1 <= x_1, x_2 <= n} sigma( ( n/gcd(x_1, x_2, n) )^2 ).",
+  "id": "A373132",
+  "mentions": [
+    "A002117",
+    "A007434",
+    "A013663",
+    "A062952",
+    "A084218",
+    "A373133",
+    "A373135"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

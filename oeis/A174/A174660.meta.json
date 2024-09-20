@@ -1,5 +1,5 @@
 {
-  "description": "2^A158611(n) mod A002808(n).",
+  "description": "a(n) = 2^A158611(n) mod A002808(n).",
   "id": "A174660",
   "mentions": [
     "A000079",

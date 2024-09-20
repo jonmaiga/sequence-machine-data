@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. (1 + 2 * log(1 - x))^2.",
+  "id": "A375990",
+  "mentions": [
+    "A088500",
+    "A182541",
+    "A367474",
+    "A375945",
+    "A375953",
+    "A375987"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

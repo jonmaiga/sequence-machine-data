@@ -1,0 +1,45 @@
+{
+  "description": "Numbers k such that the k-th run-length A110969(k) of the sequence of non-prime-powers (A024619) is different from all prior run-lengths.",
+  "id": "A373670",
+  "mentions": [
+    "A000961",
+    "A005381",
+    "A008864",
+    "A014963",
+    "A024619",
+    "A027833",
+    "A038664",
+    "A053797",
+    "A057820",
+    "A073051",
+    "A093555",
+    "A110969",
+    "A174965",
+    "A176246",
+    "A356068",
+    "A361102",
+    "A373127",
+    "A373128",
+    "A373199",
+    "A373200",
+    "A373400",
+    "A373401",
+    "A373402",
+    "A373574",
+    "A373669",
+    "A373673",
+    "A373674",
+    "A373675",
+    "A373676",
+    "A373677",
+    "A373678"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

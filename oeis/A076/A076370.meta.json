@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=x is the smallest number[=subscript] such that Primorial[x]>Primorial[n]/Primorial[x].",
+  "description": "a(n) is the smallest number k such that primorial(k)^2 > primorial(n).",
   "id": "A076370",
   "mentions": [
     "A002110"
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 74,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
   }
 }

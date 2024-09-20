@@ -1,0 +1,22 @@
+{
+  "description": "Cardinality of the largest subset of {1,...,n} such that no odd number of terms from this subset multiply to a square.",
+  "id": "A373114",
+  "mentions": [
+    "A055038",
+    "A246849",
+    "A360659",
+    "A372306",
+    "A373119",
+    "A373178",
+    "A373195"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

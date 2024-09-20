@@ -2,7 +2,8 @@
   "description": "G.f.: (1+x+x^2-sqrt(1+2x+3x^2-2x^3+x^4))/2.",
   "id": "A129509",
   "mentions": [
-    "A129507"
+    "A129507",
+    "A167638"
   ],
   "tags": [
     "formulas",

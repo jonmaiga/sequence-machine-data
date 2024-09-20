@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. 1 / (exp(-x^2/2) - x).",
+  "id": "A375394",
+  "mentions": [
+    "A072597",
+    "A375395"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

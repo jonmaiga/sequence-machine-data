@@ -1,8 +1,12 @@
 {
-  "description": "a(n) = n * 8^n.",
+  "description": "a(n) = n*8^n.",
   "id": "A036294",
-  "mentions": [],
+  "mentions": [
+    "A001018",
+    "A053539"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

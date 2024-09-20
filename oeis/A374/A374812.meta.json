@@ -1,0 +1,19 @@
+{
+  "description": "10^n-th nonsquarefree number.",
+  "id": "A374812",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A013929",
+    "A140809"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

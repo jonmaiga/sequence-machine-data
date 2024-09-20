@@ -1,0 +1,15 @@
+{
+  "description": "Floor(area) for the area of the largest square which fits in each Pythagorean triangle, with sides of the square on the legs of the triangle, for Pythagorean triangles ordered first by increasing perimeter, then shorter leg, then longer leg.",
+  "id": "A374596",
+  "mentions": [
+    "A374597"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

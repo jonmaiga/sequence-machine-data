@@ -1,0 +1,27 @@
+{
+  "description": "Iterated rascal triangle R3: T(n,k) = Sum_{m=0..3} binomial(n-k,m)*binomial(k,m).",
+  "id": "A374452",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000292",
+    "A005894",
+    "A007318",
+    "A008860",
+    "A077028",
+    "A096940",
+    "A096943",
+    "A247608",
+    "A374378"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

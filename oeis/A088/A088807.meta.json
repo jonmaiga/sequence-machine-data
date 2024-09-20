@@ -1,15 +1,19 @@
 {
-  "description": "Number of prime factors of p^p - 1 where p is prime.",
+  "description": "Number of distinct prime factors of p^p - 1 where p = prime(n).",
   "id": "A088807",
   "mentions": [
-    "A088730"
+    "A000040",
+    "A088730",
+    "A344870"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 26,
+    "offset": 1,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

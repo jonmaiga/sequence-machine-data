@@ -1,17 +1,16 @@
 {
-  "description": "Ranks of {2,3}-power towers without neither consecutive 2's nor consecutive 3's; see Comments.",
+  "description": "Ranks of {2,3}-power towers with neither consecutive 2's nor consecutive 3's; see Comments.",
   "id": "A299322",
   "mentions": [
     "A299229"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 44,
     "source": "oeis-entry"
   }
 }

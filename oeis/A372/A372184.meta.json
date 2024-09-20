@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(1-3*n)*((2*n)!)^2/n.",
+  "id": "A372184",
+  "mentions": [
+    "A003658",
+    "A134372",
+    "A139757",
+    "A339483",
+    "A370411",
+    "A370412"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

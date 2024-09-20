@@ -1,7 +1,9 @@
 {
   "description": "List of positive integers whose prime tower factorization, as defined in comments, does not contain the prime 2.",
   "id": "A182318",
-  "mentions": [],
+  "mentions": [
+    "A276378"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which Lucas(n) and Fibonacci(n) are both prime.",
+  "description": "Numbers k for which Lucas(k) and Fibonacci(k) are both prime.",
   "id": "A080327",
   "mentions": [
     "A000032",

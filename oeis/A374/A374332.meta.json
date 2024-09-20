@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the numerator of x(n) = (2*x(n-1) + 1/n) mod 1, with x(0) = 0.",
+  "id": "A374332",
+  "mentions": [
+    "A002162",
+    "A374333",
+    "A374334",
+    "A374336"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

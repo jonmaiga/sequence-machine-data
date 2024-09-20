@@ -4,14 +4,16 @@
   "mentions": [
     "A046104",
     "A073733",
+    "A154182",
+    "A215752",
     "A215756"
   ],
   "tags": [
-    "cofr",
+    "frac",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 28,
     "source": "joeis"
   }

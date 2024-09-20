@@ -3,16 +3,16 @@
   "id": "A184952",
   "mentions": [
     "A003957",
-    "A177413"
+    "A177413",
+    "A185185"
   ],
   "tags": [
-    "cofr",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 14,
     "source": "oeis-entry"
   }

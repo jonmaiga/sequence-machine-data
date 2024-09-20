@@ -1,13 +1,17 @@
 {
-  "description": "Lower member p of a pair of twin primes such that p-1 is squarefree.",
+  "description": "Lesser member p of a pair of twin primes such that p-1 is squarefree.",
   "id": "A089188",
-  "mentions": [],
+  "mentions": [
+    "A001359",
+    "A005117",
+    "A039787"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 46,
     "source": "oeis-bfile"
   }

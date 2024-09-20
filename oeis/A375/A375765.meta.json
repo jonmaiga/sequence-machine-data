@@ -1,0 +1,17 @@
+{
+  "description": "Square array read by antidiagonals in ascending order T(n,k), n > 1 and k > 0, representing the least prime p that starts a run of exactly k consecutive primes, all having the same sum of digits in base n > 1, or -1 if no such number exists.",
+  "id": "A375765",
+  "mentions": [
+    "A071613"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

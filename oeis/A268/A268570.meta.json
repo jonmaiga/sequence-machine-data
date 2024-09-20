@@ -1,7 +1,14 @@
 {
-  "description": "Arises in counting maps on a surface: see Coquereaux-Zuber (2015) for precise definition.",
+  "description": "Number of immersions of oriented circle into unoriented sphere with n double points and no simple loop.",
   "id": "A268570",
-  "mentions": [],
+  "mentions": [
+    "A007756",
+    "A008988",
+    "A268568",
+    "A268569",
+    "A268571",
+    "A268572"
+  ],
   "tags": [
     "more",
     "nonn"

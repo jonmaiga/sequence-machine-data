@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 9*10^(2*k) + 3*10^k + 1 are prime.",
+  "description": "Numbers k such that 9*10^(2*k) + 3*10^k + 1 is prime.",
   "id": "A306751",
   "mentions": [
     "A309738",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

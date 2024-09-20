@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) read by rows: Maximum number of patterns of length k in a permutation from row n in A371822.",
+  "id": "A371823",
+  "mentions": [
+    "A088532",
+    "A342474",
+    "A371822",
+    "A373778"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

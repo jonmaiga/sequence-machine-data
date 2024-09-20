@@ -2,7 +2,14 @@
   "description": "Dirichlet convolution of b_n=1 with c_n=3^(n-1).",
   "id": "A034730",
   "mentions": [
-    "A034729"
+    "A034729",
+    "A113999",
+    "A339684",
+    "A339685",
+    "A339686",
+    "A339687",
+    "A339688",
+    "A339689"
   ],
   "tags": [
     "formulas",

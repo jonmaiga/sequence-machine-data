@@ -1,0 +1,21 @@
+{
+  "description": "The square of n minus (the largest divisor d of n with 2 <= d <= m-1, or 0 if there is no such divisor).",
+  "id": "A372815",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A008578",
+    "A032742",
+    "A160180",
+    "A364391"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

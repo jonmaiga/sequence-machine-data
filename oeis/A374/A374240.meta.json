@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the maximal determinant of an n X n symmetric Toeplitz matrix having 1 on the main diagonal and all the integers 1, 2, ..., n-1 off-diagonal.",
+  "id": "A374240",
+  "mentions": [
+    "A350954",
+    "A374139",
+    "A374239",
+    "A374241",
+    "A374242"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

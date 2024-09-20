@@ -1,0 +1,42 @@
+{
+  "description": "Numbers k such that the k-th maximal antirun of squarefree numbers has length different from all prior maximal antiruns. Sorted positions of first appearances in A373127.",
+  "id": "A373200",
+  "mentions": [
+    "A005117",
+    "A006512",
+    "A007674",
+    "A013929",
+    "A027833",
+    "A049093",
+    "A053797",
+    "A068781",
+    "A072284",
+    "A073051",
+    "A076259",
+    "A077641",
+    "A078147",
+    "A120992",
+    "A174965",
+    "A175632",
+    "A251092",
+    "A373127",
+    "A373128",
+    "A373198",
+    "A373199",
+    "A373400",
+    "A373401",
+    "A373402",
+    "A373403",
+    "A373408",
+    "A373411"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

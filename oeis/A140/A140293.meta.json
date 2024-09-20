@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n such that n!/n#-1 is prime.",
+  "description": "Numbers k such that k!/k#-1 is prime, where k# is the primorial function (A034386).",
   "id": "A140293",
   "mentions": [
+    "A034386",
     "A049420",
     "A049421",
     "A049614",
+    "A057017",
     "A140294",
     "A140315"
   ],

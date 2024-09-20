@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least number k such that k, k + 2 and k + 4 all have exactly n prime factors, counted with multiplicity.",
+  "id": "A374392",
+  "mentions": [
+    "A001222",
+    "A113752"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

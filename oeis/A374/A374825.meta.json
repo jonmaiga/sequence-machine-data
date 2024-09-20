@@ -1,0 +1,22 @@
+{
+  "description": "Place n equally spaced points on the circumference of a circle of radius r and then connect each pair of points with straight lines whose intersections create A007569(n) - n additional points. Draw a circle of radius r around each of the A007569(n) points. The sequence gives the total number of vertices formed from all circle intersections.",
+  "id": "A374825",
+  "mentions": [
+    "A007569",
+    "A370980",
+    "A374338",
+    "A374826",
+    "A374827",
+    "A374828"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

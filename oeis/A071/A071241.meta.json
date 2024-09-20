@@ -1,8 +1,9 @@
 {
-  "description": "Arithmetic mean of k and R(k) where k is a number using all even digits and R(k) is its digit reversal (A004086).",
+  "description": "Arithmetic mean of k and R(k) where k is the n-th nonnegative number using only even digits and R(k) is its digit reversal (A004086).",
   "id": "A071241",
   "mentions": [
     "A004086",
+    "A014263",
     "A071240",
     "A071242"
   ],

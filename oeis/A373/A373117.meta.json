@@ -1,0 +1,17 @@
+{
+  "description": "Stable numbers on vertical blade (see the Example section for an explanation).",
+  "id": "A373117",
+  "mentions": [
+    "A282115",
+    "A282151"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

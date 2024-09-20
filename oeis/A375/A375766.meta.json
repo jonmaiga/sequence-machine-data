@@ -1,0 +1,22 @@
+{
+  "description": "The maximum exponent in the prime factorization of the numbers whose exponents in their prime factorization are all Fibonacci numbers.",
+  "id": "A375766",
+  "mentions": [
+    "A000045",
+    "A051903",
+    "A115063",
+    "A375274",
+    "A375767",
+    "A375768"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

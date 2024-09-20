@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n whose maximal anti-runs have distinct minima.",
+  "id": "A375134",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A003242",
+    "A011782",
+    "A034296",
+    "A055887",
+    "A115029",
+    "A141199",
+    "A333489",
+    "A358830",
+    "A358836",
+    "A358905",
+    "A374518",
+    "A374638",
+    "A374704",
+    "A374706",
+    "A374757",
+    "A374758",
+    "A374761",
+    "A375128",
+    "A375133",
+    "A375136",
+    "A375398",
+    "A375399",
+    "A375400",
+    "A375401",
+    "A375402",
+    "A375404"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

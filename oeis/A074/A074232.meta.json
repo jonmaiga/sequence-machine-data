@@ -2,7 +2,15 @@
   "description": "Positive numbers that are not 3 or 6 (mod 9).",
   "id": "A074232",
   "mentions": [
-    "A016051"
+    "A001651",
+    "A007949",
+    "A008591",
+    "A016051",
+    "A327863",
+    "A373478",
+    "A373992",
+    "A374039",
+    "A374042"
   ],
   "tags": [
     "easy",
@@ -12,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

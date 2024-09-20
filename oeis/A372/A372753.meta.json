@@ -1,0 +1,19 @@
+{
+  "description": "Integers m, with k digits, such that m = Sum_{i=1..k} A066417(m without its i-th digit).",
+  "id": "A372753",
+  "mentions": [
+    "A066417",
+    "A374308",
+    "A374309"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

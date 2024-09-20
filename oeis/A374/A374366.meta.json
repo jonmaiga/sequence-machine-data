@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Im(Sum_{k=1..n} [k|n]*A008683(k)*(i^k)).",
+  "id": "A374366",
+  "mentions": [
+    "A000079",
+    "A000265",
+    "A005091",
+    "A008683",
+    "A009003",
+    "A374367"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

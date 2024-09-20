@@ -1,7 +1,10 @@
 {
-  "description": "7-n.",
+  "description": "a(n) = 7-n.",
   "id": "A022963",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022995"
+  ],
   "tags": [
     "easy",
     "formulas",

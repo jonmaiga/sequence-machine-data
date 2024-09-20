@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least prime that is a quadratic residue modulo prime(n). First column of A373751.",
+  "id": "A374155",
+  "mentions": [
+    "A306530",
+    "A373751"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of vertices among all distinct circles that can be constructed from the 4 vertices and the equally spaced 4*n points placed on the sides of a square when every pair of the 4 + 4*n points are connected by a circle and where the points lie at the ends of the circle's diameter.",
+  "id": "A373106",
+  "mentions": [
+    "A358746",
+    "A360351",
+    "A362233",
+    "A372731",
+    "A372977",
+    "A373107",
+    "A373108",
+    "A373109",
+    "A373110"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

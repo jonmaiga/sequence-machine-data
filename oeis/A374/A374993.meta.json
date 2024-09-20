@@ -1,0 +1,25 @@
+{
+  "description": "Total cost when the elements of the n-th composition (in standard order) are requested from a self-organizing list initialized to (1, 2, 3, ...), using the transpose updating strategy.",
+  "id": "A374993",
+  "mentions": [
+    "A000120",
+    "A025480",
+    "A066099",
+    "A333766",
+    "A357625",
+    "A374992",
+    "A374994",
+    "A374995",
+    "A374996",
+    "A374998"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

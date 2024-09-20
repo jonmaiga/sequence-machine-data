@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n such that (smallest part) >= 4*(number of parts).",
+  "id": "A373069",
+  "mentions": [
+    "A003114",
+    "A350898",
+    "A373067",
+    "A373068",
+    "A373070",
+    "A373075"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

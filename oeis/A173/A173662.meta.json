@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k)= semiprime(n) mod semiprime(k), 0",
+  "description": "Triangle read by rows: T(n,k) = semiprime(n) mod semiprime(k), 1 <= k <= n.",
   "id": "A173662",
   "mentions": [
     "A001358",

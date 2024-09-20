@@ -1,12 +1,14 @@
 {
-  "description": "Numbers that are equal to the sum of their proper prime factors and of all the proper prime factors obtained in the proper prime factorization of the composite factors till no composite numbers remain.",
+  "description": "Fixed points of A374941.",
   "id": "A371075",
   "mentions": [
     "A000396",
     "A005101",
-    "A299795"
+    "A299795",
+    "A374941"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

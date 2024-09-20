@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k)=2^(semiprime(n)-semiprime(k)) mod semiprime(n).",
+  "description": "Triangle read by rows: R(n,k) = 2^(semiprime(n)-semiprime(k)) mod semiprime(n).",
   "id": "A177266",
   "mentions": [
     "A000079",

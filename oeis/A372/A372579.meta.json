@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [n] such that the number of cycles of length k is zero or equals k for every k.",
+  "id": "A372579",
+  "mentions": [
+    "A001422",
+    "A003995",
+    "A372545",
+    "A374262",
+    "A374292",
+    "A374321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A000032(n)*A000045(n)*A000108(n).",
+  "id": "A373622",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000108",
+    "A119694"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

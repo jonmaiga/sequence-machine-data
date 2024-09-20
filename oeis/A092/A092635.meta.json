@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients in asymptotic expansion of (Pi*n/16^n)binomial(2n,n)^2 in powers of 1/(8n).",
+  "description": "Coefficients in asymptotic expansion of (Pi*n/16^n)*binomial(2n,n)^2 in powers of 1/(8n).",
   "id": "A092635",
   "mentions": [
     "A002894",

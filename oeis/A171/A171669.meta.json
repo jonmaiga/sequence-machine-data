@@ -2,6 +2,7 @@
   "description": "Pell numbers sandwiched between two numbers having same number of divisors.",
   "id": "A171669",
   "mentions": [
+    "A000005",
     "A000129",
     "A005237",
     "A005238",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 1/(1 - W(1/e)), where W is the Lambert W function.",
+  "id": "A375596",
+  "mentions": [
+    "A141606",
+    "A202357",
+    "A299617",
+    "A299618",
+    "A299619",
+    "A299632",
+    "A299633",
+    "A307951",
+    "A322166"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

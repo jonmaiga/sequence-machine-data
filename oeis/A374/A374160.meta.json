@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where exactly n pairs of positive integers (x, y) exist such that x^2 + 11*y^2 = k.",
+  "id": "A374160",
+  "mentions": [
+    "A328151",
+    "A343105",
+    "A374017",
+    "A374158",
+    "A374159",
+    "A374161"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

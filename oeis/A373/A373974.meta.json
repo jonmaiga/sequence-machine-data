@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of divisors of n that can be expressed as a sum of 2 distinct positive cubes.",
+  "id": "A373974",
+  "mentions": [
+    "A024670",
+    "A359225",
+    "A373971",
+    "A373973"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

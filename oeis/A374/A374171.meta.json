@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of log(9/5).",
+  "id": "A374171",
+  "mentions": [
+    "A000032",
+    "A000204"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/2 - sqrt(3)*Pi/18.",
+  "id": "A373507",
+  "mentions": [
+    "A073010",
+    "A373506",
+    "A373508"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

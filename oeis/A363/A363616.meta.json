@@ -2,6 +2,7 @@
   "description": "Expansion of Sum_{k>0} x^(4*k)/(1+x^k)^4.",
   "id": "A363616",
   "mentions": [
+    "A128315",
     "A325940",
     "A363611",
     "A363615"

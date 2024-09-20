@@ -1,5 +1,5 @@
 {
-  "description": "Shapes of height-balanced AVL trees of height at most 6 with n nodes.",
+  "description": "Number of shapes of height-balanced AVL trees of height at most 6 with n nodes.",
   "id": "A134306",
   "mentions": [
     "A006265",

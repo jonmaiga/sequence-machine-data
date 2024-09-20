@@ -1,9 +1,10 @@
 {
-  "description": "Values of j of the numbers 2^i*3^j (A033845).",
+  "description": "Values of j in the numbers 2^i*3^j, i >= 1, j >= 1, arranged in increasing order (A033845).",
   "id": "A191476",
   "mentions": [
+    "A022328",
+    "A022329",
     "A033845",
-    "A134583",
     "A191475"
   ],
   "tags": [

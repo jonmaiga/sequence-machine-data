@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of squares covered (i.e., attacked) by 2 independent (i.e., non-attacking) queens on an n X n chessboard.",
+  "id": "A374933",
+  "mentions": [
+    "A017113",
+    "A047461"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 53,
+    "source": "joeis"
+  }
+}

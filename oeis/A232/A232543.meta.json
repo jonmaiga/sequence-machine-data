@@ -1,5 +1,5 @@
 {
-  "description": "Indices of prime tribonacci numbers (A100683).",
+  "description": "Indices of primes in A100683.",
   "id": "A232543",
   "mentions": [
     "A001590",
@@ -9,6 +9,7 @@
     "A232542"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

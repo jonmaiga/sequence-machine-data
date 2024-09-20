@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 2; thereafter, a(n) = prime(n)^prime(n-1) (mod 10).",
+  "id": "A373495",
+  "mentions": [
+    "A000040",
+    "A092188",
+    "A133612",
+    "A171881",
+    "A171882",
+    "A213013",
+    "A336111",
+    "A342176"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

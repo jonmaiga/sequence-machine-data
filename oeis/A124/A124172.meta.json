@@ -2,7 +2,8 @@
   "description": "Triangle in which row n contains values from 1 to n in alphabetical order (in English).",
   "id": "A124172",
   "mentions": [
-    "A002260"
+    "A002260",
+    "A340671"
   ],
   "tags": [
     "nonn",

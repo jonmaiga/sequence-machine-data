@@ -1,15 +1,17 @@
 {
-  "description": "Numbers n which divide the n-th isolated number.",
+  "description": "Numbers k that divide the k-th isolated number.",
   "id": "A168047",
   "mentions": [
     "A167706"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

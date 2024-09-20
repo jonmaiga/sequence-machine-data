@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the perimeter of the rectangle whose edges are n and A375673(n).",
+  "id": "A375676",
+  "mentions": [
+    "A262767",
+    "A306841",
+    "A329402",
+    "A375673",
+    "A375674",
+    "A375675"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

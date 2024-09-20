@@ -1,0 +1,17 @@
+{
+  "description": "Number of strictly totally positive 3 X 3 matrices having all terms in {1,...,n}.",
+  "id": "A373723",
+  "mentions": [
+    "A211059",
+    "A373724"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The x-coordinate of the point where x + y = n, x is an integer and x/y is as close as possible to 1/phi.",
+  "id": "A371627",
+  "mentions": [
+    "A094214",
+    "A371625",
+    "A371626",
+    "A371628",
+    "A371629"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

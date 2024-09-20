@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/sqrt(98).",
   "id": "A020855",
-  "mentions": [],
+  "mentions": [
+    "A021200"
+  ],
   "tags": [
     "cons",
     "nonn"

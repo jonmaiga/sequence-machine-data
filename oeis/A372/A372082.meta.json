@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the 10's complement A089186(p) and the concatenations of p and A089186(p) and of A089186(p) and p are all prime.",
+  "id": "A372082",
+  "mentions": [
+    "A083989",
+    "A089186"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

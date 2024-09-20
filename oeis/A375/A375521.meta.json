@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the numerator of Sum_{k = 1..n} 1 / (k*A375781(k)).",
+  "id": "A375521",
+  "mentions": [
+    "A375522",
+    "A375781"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

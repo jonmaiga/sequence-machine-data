@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number m with n divisors d such that d^m mod m = d.",
+  "id": "A371513",
+  "mentions": [
+    "A182816",
+    "A272538",
+    "A279024",
+    "A371883",
+    "A371884"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

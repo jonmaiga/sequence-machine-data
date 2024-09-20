@@ -2,8 +2,9 @@
   "description": "Number of reflexible maps with n edges.",
   "id": "A170947",
   "mentions": [
+    "A170946",
     "A170948",
-    "A170949"
+    "A214816"
   ],
   "tags": [
     "nonn"

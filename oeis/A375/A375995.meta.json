@@ -1,0 +1,16 @@
+{
+  "description": "Least integer x such that every set of the length-n subwords of some binary word y is achievable by taking the subwords of some word of length <= x.",
+  "id": "A375995",
+  "mentions": [
+    "A375994"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

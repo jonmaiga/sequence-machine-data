@@ -1,0 +1,18 @@
+{
+  "description": "Record values in A347381, where A347381 is the distance from n to the nearest common ancestor of n and sigma(n) in the Doudna-tree (A005940).",
+  "id": "A374483",
+  "mentions": [
+    "A005940",
+    "A347381",
+    "A374482"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

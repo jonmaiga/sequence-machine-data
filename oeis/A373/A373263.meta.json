@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A276085(n) == -1 (mod 3), otherwise 0, where A276085 is the primorial base log-function.",
+  "id": "A373263",
+  "mentions": [
+    "A002110",
+    "A007814",
+    "A007949",
+    "A276085",
+    "A372573",
+    "A373153",
+    "A373260",
+    "A373262"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

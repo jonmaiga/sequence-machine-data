@@ -1,5 +1,5 @@
 {
-  "description": "Levy’s conjecture and generalization. Irregular triangle read by rows: row n gives all odd numbers T(n,k) > 2^(n+1) + 1 such that T(n,k) = p + q*2^n is impossible, where p and q are prime numbers and k = 1..r.",
+  "description": "Levy's conjecture and generalization. Irregular triangle read by rows: row n gives all odd numbers T(n,k) > 2^(n+1) + 1 such that T(n,k) = p + q*2^n is impossible, where p and q are prime numbers and k = 1..r.",
   "id": "A225522",
   "mentions": [
     "A046927",

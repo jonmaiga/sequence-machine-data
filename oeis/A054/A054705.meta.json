@@ -1,14 +1,32 @@
 {
   "description": "Number of powers of 4 modulo n.",
   "id": "A054705",
-  "mentions": [],
+  "mentions": [
+    "A007735",
+    "A054703",
+    "A054704",
+    "A054706",
+    "A054707",
+    "A054708",
+    "A054709",
+    "A054710",
+    "A054712",
+    "A054713",
+    "A054714",
+    "A054715",
+    "A054716",
+    "A054717",
+    "A244415",
+    "A351524"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 89,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

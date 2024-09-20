@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x)^4 = A( x*A(x)^3/(1 - A(x)) ).",
+  "id": "A372532",
+  "mentions": [
+    "A000695",
+    "A010060",
+    "A372530",
+    "A372531"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

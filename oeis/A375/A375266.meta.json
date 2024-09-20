@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the iterates of the A375265 map from n to 1.",
+  "id": "A375266",
+  "mentions": [
+    "A070165",
+    "A070168",
+    "A235795",
+    "A350279",
+    "A350548",
+    "A375265",
+    "A375267",
+    "A375268",
+    "A375280"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

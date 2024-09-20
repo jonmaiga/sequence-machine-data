@@ -1,10 +1,11 @@
 {
-  "description": "Smallest number m such that n followed by m threes yields a prime or -1 if no solution exists or has been found for n.",
+  "description": "Smallest number m >= 0 such that n with m threes appended yields a prime or -1 if no such m exists.",
   "id": "A090584",
   "mentions": [
     "A083747",
     "A090464",
-    "A090465"
+    "A090465",
+    "A372262"
   ],
   "tags": [
     "base",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 110,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

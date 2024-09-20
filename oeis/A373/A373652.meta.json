@@ -1,0 +1,16 @@
+{
+  "description": "Composite numbers k for which g = gcd(f(i*c), k) = 1 or k for all i in the range 1 <= i <= c, where f(x) = Product_{j=1..c} x+j and c = floor(k^(1/4)).",
+  "id": "A373652",
+  "mentions": [
+    "A002808",
+    "A255270"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Number of ternary length-2 squarefree words of length n not containing the subwords 021 or 10.",
+  "id": "A373554",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

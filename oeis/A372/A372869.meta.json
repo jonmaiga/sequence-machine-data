@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the number whose continued fraction coefficients are given in A084580.",
+  "id": "A372869",
+  "mentions": [
+    "A084580"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 135,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(-x * (1 - x)) / (1 - x)^2.",
+  "id": "A375424",
+  "mentions": [
+    "A000255",
+    "A077880",
+    "A375409",
+    "A375425"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

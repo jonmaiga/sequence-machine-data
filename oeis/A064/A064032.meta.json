@@ -1,5 +1,5 @@
 {
-  "description": "Product of unitary divisors of central binomial coefficients.",
+  "description": "Product of unitary divisors of binomial(n, floor(n/2)).",
   "id": "A064032",
   "mentions": [
     "A001405",
@@ -9,11 +9,12 @@
     "A061538"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "joeis"
   }
 }

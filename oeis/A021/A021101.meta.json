@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of 1/97.",
   "id": "A021101",
-  "mentions": [],
+  "mentions": [
+    "A020806",
+    "A022001"
+  ],
   "tags": [
     "cons",
     "nonn"

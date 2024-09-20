@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the unitary prime divisors (A056169, A056171) of n!.",
+  "description": "Sum of the unitary prime divisors of n!.",
   "id": "A063955",
   "mentions": [
     "A010051",
@@ -8,7 +8,8 @@
     "A056169",
     "A056170",
     "A056171",
-    "A056172"
+    "A056172",
+    "A063956"
   ],
   "tags": [
     "easy",

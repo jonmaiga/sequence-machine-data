@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the sum of the digits of n-th base 10 palindrome.",
+  "description": "a(n) is the sum of the digits of n-th base-10 palindrome.",
   "id": "A043269",
   "mentions": [
     "A002113"

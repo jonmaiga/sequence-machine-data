@@ -2,7 +2,8 @@
   "description": "Number of 2 X n mazes that can be navigated from the top left corner to the bottom right corner.",
   "id": "A349594",
   "mentions": [
-    "A349596"
+    "A349596",
+    "A373036"
   ],
   "tags": [
     "easy",

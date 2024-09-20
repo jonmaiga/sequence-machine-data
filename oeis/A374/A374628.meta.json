@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 + x^(3^k))^3.",
+  "id": "A374628",
+  "mentions": [
+    "A039966",
+    "A120880"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

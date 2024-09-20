@@ -1,14 +1,18 @@
 {
   "description": "Let z(n) be the golden ratio (phi) truncated to n decimal digits; sequence gives maximum element in the continued fraction for z(n).",
   "id": "A081836",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A081837",
+    "A373866"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 62,
+    "offset": 0,
+    "size": 63,
     "source": "oeis-entry"
   }
 }

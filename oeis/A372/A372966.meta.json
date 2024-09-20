@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma_8(n^2)/sigma_4(n^2).",
+  "id": "A372966",
+  "mentions": [
+    "A008683",
+    "A013956",
+    "A057660",
+    "A084218",
+    "A084220",
+    "A108223",
+    "A372965"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

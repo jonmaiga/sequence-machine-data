@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of (1 + x)/(1 - x^3*(1 + x)^3).",
+  "id": "A375319",
+  "mentions": [
+    "A115055",
+    "A375321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

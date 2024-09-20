@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1 + (n+1)^2 + (n-2)*(-1)^n)/2.",
+  "id": "A374084",
+  "mentions": [
+    "A056011",
+    "A056023",
+    "A128918"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

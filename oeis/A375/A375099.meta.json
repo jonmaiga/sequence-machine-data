@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n] into blocks whose element sum is <= n.",
+  "id": "A375099",
+  "mentions": [
+    "A000110",
+    "A369079",
+    "A374932",
+    "A375023"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

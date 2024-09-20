@@ -1,0 +1,25 @@
+{
+  "description": "Sylvester primes. Yet another proof of the infinity of primes.",
+  "id": "A375543",
+  "mentions": [
+    "A000040",
+    "A000058",
+    "A007018",
+    "A007996",
+    "A014546",
+    "A091336",
+    "A096264",
+    "A126263",
+    "A367020",
+    "A375545"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^(k + 1) == k + 1 (mod 2*k + 1).",
+  "id": "A374913",
+  "mentions": [
+    "A002515",
+    "A263458",
+    "A374912",
+    "A374914"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

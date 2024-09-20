@@ -1,0 +1,26 @@
+{
+  "description": "Order of 16 modulo the n-th prime: least k such that prime(n) divides 16^k-1.",
+  "id": "A372801",
+  "mentions": [
+    "A002371",
+    "A014664",
+    "A062117",
+    "A082654",
+    "A211241",
+    "A211242",
+    "A211243",
+    "A211244",
+    "A211245",
+    "A302141"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

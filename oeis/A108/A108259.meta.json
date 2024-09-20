@@ -1,12 +1,14 @@
 {
   "description": "Consider primes p and q such that p = 3^k + 2 and q = 3^(k+1) + 2 for some k; sequence gives values of p.",
   "id": "A108259",
-  "mentions": [],
+  "mentions": [
+    "A051783"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 5,
     "source": "oeis-entry"
   }

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the iterates of the sigma_0(x) map starting at n, until a fixed point is reached, where sigma_0(x) is the number-of-divisors function (A000005).",
+  "id": "A375513",
+  "mentions": [
+    "A000005",
+    "A036459",
+    "A053477",
+    "A060937",
+    "A325239"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

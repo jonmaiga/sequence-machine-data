@@ -1,0 +1,17 @@
+{
+  "description": "Number of (binary) heaps with element set [n] and length n+1.",
+  "id": "A373496",
+  "mentions": [
+    "A056971",
+    "A373451"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

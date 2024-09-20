@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if A276085(n) is a multiple of A003415(n), otherwise 0, where A003415 is the arithmetic derivative and A276085 is the primorial base log-function.",
+  "id": "A373486",
+  "mentions": [
+    "A003415",
+    "A276085",
+    "A373148",
+    "A373487",
+    "A373488"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

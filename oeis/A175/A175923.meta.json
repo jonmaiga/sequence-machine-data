@@ -1,5 +1,5 @@
 {
-  "description": "Index of the first occurrence of p(n)-1 consecutive zeros in the sequence of Bell numbers reduced modulo the n-th prime p(n).",
+  "description": "Index of the first occurrence of prime(n)-1 consecutive zeros in the sequence of Bell numbers reduced modulo the n-th prime prime(n).",
   "id": "A175923",
   "mentions": [
     "A000110"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

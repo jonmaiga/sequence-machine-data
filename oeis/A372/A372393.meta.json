@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^k / (k! + k).",
+  "id": "A372393",
+  "mentions": [
+    "A372392"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n for which Sum_digits(n!) is a multiple of Sum_digits(n!!).",
+  "description": "Numbers m for which Sum_digits(m!) is a multiple of Sum_digits(m!!).",
   "id": "A135206",
   "mentions": [
     "A004152",
+    "A006882",
     "A108825",
     "A120390",
     "A129980",
@@ -17,8 +18,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

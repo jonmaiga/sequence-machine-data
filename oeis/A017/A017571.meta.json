@@ -1,14 +1,20 @@
 {
-  "description": "(12n+4)^3.",
+  "description": "a(n) = (12n+4)^3.",
   "id": "A017571",
-  "mentions": [],
+  "mentions": [
+    "A000578",
+    "A002117",
+    "A016779",
+    "A017569"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 30,
     "source": "joeis"
   }
 }

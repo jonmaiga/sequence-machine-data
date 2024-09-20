@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, 0 <= k < A120880(n), read by rows; the n-th row contains the terms t of A005836 such that n - t also belongs to A005836.",
+  "id": "A374361",
+  "mentions": [
+    "A005836",
+    "A120880",
+    "A374354",
+    "A374362",
+    "A374363"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

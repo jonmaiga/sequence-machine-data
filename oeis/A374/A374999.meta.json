@@ -1,0 +1,22 @@
+{
+  "description": "Position of the last requested element when the elements of the n-th composition (in standard order) are requested from a self-organizing list initialized to (1, 2, 3, ...), using the frequency-count updating strategy.",
+  "id": "A374999",
+  "mentions": [
+    "A025480",
+    "A066099",
+    "A333766",
+    "A374994",
+    "A374997",
+    "A374998",
+    "A375000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

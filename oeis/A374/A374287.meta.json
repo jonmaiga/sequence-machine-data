@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct nonzero squares in exactly 2 ways, or -1 if no such number exists.",
+  "id": "A374287",
+  "mentions": [
+    "A000330",
+    "A093195",
+    "A350241"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

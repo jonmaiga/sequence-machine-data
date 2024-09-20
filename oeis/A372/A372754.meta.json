@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least base in which the Fibonacci number A000045(n) is a palindrome.",
+  "id": "A372754",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A016026",
+    "A045504"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

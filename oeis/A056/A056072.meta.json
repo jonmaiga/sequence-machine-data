@@ -1,7 +1,8 @@
 {
-  "description": "For n>0, floor(e^e^ ... ^e), with n e's.",
+  "description": "a(n) = floor(e^e^ ... ^e), with n e's.",
   "id": "A056072",
   "mentions": [
+    "A001113",
     "A003417",
     "A004002",
     "A064107",

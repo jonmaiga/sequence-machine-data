@@ -1,0 +1,17 @@
+{
+  "description": "Simple continued fraction of the 5th root of 109.",
+  "id": "A374358",
+  "mentions": [
+    "A374357",
+    "A374359"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

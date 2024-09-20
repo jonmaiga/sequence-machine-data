@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} log(k)/(k^2-k+1).",
+  "id": "A373863",
+  "mentions": [
+    "A085609",
+    "A131688"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

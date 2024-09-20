@@ -1,0 +1,13 @@
+{
+  "description": "Number of palindromic periodicities among the binary words of length n.",
+  "id": "A374495",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

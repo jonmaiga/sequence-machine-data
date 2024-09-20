@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A113177(n) and A328845(n) are both multiples of 3, otherwise 0, where A113177 is fully additive with a(p) = Fibonacci(p) and A328845 is the first Fibonacci-based variant of the arithmetic derivative.",
+  "id": "A374110",
+  "mentions": [
+    "A000045",
+    "A079978",
+    "A113177",
+    "A328845",
+    "A374051",
+    "A374106",
+    "A374111",
+    "A374121"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

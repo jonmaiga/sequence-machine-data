@@ -1,5 +1,5 @@
 {
-  "description": "Intersection of A068017 and A068019]: numbers n such that both sigma[n] and phi[n] are middle terms between (different) twin prime pairs.",
+  "description": "Intersection of A068017 and A068019: numbers n such that both sigma(n) and phi(n) are middle terms between (different) twin prime pairs.",
   "id": "A071348",
   "mentions": [
     "A000010",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

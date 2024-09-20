@@ -2,7 +2,6 @@
   "description": "Irregular triangle T(n,b) (n >= 3, 2 <= b <= A230624(n)/2+1) read by rows. Let m = A230624(n). Then T(n,b) is the smallest nonnegative number k such that k+S_b(k)=m, where S_b(k) is the sum of the digits of k in base b.",
   "id": "A349822",
   "mentions": [
-    "A230264",
     "A230624"
   ],
   "tags": [

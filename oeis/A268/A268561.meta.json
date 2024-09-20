@@ -1,14 +1,18 @@
 {
-  "description": "Arises in counting maps on a surface: see Coquereaux-Zuber (2015) for precise definition.",
+  "description": "Number of bicolored immersions of unoriented circle into oriented sphere with n double points.",
   "id": "A268561",
-  "mentions": [],
+  "mentions": [
+    "A008986",
+    "A008987"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
+    "offset": 0,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

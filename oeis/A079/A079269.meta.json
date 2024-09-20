@@ -2,10 +2,11 @@
   "description": "Define b by b(1) = 1 and for n>1, b(n) = b(n-1)+1/(1+1/b(n-1)); sequence gives numerator of b(n).",
   "id": "A079269",
   "mentions": [
-    "A079268",
     "A079278",
     "A080581",
-    "A080582"
+    "A080582",
+    "A080984",
+    "A080985"
   ],
   "tags": [
     "formulas",

@@ -2,11 +2,15 @@
   "description": "Palindromes with exactly 6 prime factors (counted with multiplicity).",
   "id": "A046332",
   "mentions": [
+    "A002113",
     "A046306",
-    "A046319"
+    "A046319",
+    "A046396",
+    "A373466"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

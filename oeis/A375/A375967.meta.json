@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number > n with the same digit average as n.",
+  "id": "A375967",
+  "mentions": [
+    "A007953",
+    "A055642",
+    "A228915",
+    "A375968"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

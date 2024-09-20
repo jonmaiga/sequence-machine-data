@@ -1,8 +1,10 @@
 {
-  "description": "8n-1 such that 4n-1 and 8n-1 are primes.",
+  "description": "Safe primes of the form 8*k-1: primes of the form 8*k-1 such that 4*k-1 is also a prime.",
   "id": "A101789",
   "mentions": [
-    "A002515"
+    "A002515",
+    "A005385",
+    "A007522"
   ],
   "tags": [
     "easy",

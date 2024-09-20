@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, representing a family of sequences M(n), for n = 0, 1, 2, ... The n-th row of the triangle consists of n+1 integers, denoted by #m(n,0), #m(n,1), ..., #m(n,n), which are the terms of the sequence M(n). They are the serial numbers of n+1 binary vectors of size 2^n, denoted by m(n,0), m(n,1), ..., m(n,n), correspondingly. Each vector m(n,k) is a characteristic vector of all vectors from the n-dimensional Boolean cube (hypercube) {0,1}^n, having (Hamming) weight equal to k, for k = 0, 1, ..., n, and for n > 0. The zeroth row (i.e., M(0)) and its single term 1 are prepended for convenience.",
+  "description": "Triangle m(n,k) read by rows (n >= 0, 0 <= k <= n): to get the binary expansion of m(n,k), for 0 <= i < 2^n, write 1 if the binary weight of i is equal to k or 0 otherwise, left to right.",
   "id": "A305860",
   "mentions": [
     "A000012",

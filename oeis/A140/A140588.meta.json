@@ -1,13 +1,16 @@
 {
   "description": "a(n) = Bell(n) * Fibonacci(n).",
   "id": "A140588",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A000110"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

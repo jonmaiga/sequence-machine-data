@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, the concatenation of the binary expansions of n and a(n), in at least one way, is palindromic.",
+  "id": "A374990",
+  "mentions": [
+    "A006995",
+    "A057889"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

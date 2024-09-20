@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the total number of runs of weak ascents over all flattened Catalan words of length n.",
+  "id": "A372872",
+  "mentions": [
+    "A372852",
+    "A372868"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

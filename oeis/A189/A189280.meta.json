@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk array permutations with each element not moved or moved diagonally or antidiagonally by one",
+  "description": "T(n,k) = number of n X k array permutations with each element not moved or moved diagonally or antidiagonally by one.",
   "id": "A189280",
   "mentions": [],
   "tags": [

@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of the real root of 9*x^3 - 27*x^2 + 31*x - 5 = 0.",
+  "id": "A372948",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

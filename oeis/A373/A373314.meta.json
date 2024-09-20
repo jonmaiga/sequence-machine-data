@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(A(x)) - 4*A(A(A(x)))^2 = x.",
+  "id": "A373314",
+  "mentions": [
+    "A213591",
+    "A373315"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

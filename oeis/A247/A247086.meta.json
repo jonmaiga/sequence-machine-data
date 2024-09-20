@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that numerator and denominator of sigma(n)/n are both prime.",
+  "description": "Integers k such that numerator and denominator of sigma(k)/k are both prime.",
   "id": "A247086",
   "mentions": [
     "A000203",

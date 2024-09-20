@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(Sum_{k=n^3..(n+1)^3} k^(1/3)).",
+  "id": "A374384",
+  "mentions": [
+    "A000384",
+    "A003215",
+    "A005804",
+    "A014105",
+    "A248575",
+    "A374489"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

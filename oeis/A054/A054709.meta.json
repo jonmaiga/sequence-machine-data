@@ -1,14 +1,31 @@
 {
   "description": "Number of powers of 8 modulo n.",
   "id": "A054709",
-  "mentions": [],
+  "mentions": [
+    "A007739",
+    "A054703",
+    "A054704",
+    "A054705",
+    "A054706",
+    "A054707",
+    "A054708",
+    "A054710",
+    "A054712",
+    "A054713",
+    "A054714",
+    "A054715",
+    "A054716",
+    "A054717",
+    "A351524"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

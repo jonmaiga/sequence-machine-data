@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the first n tribonacci numbers, in ascending order, as bases, with the same, in descending order, as exponents.",
+  "description": "Sum of the first n nonzero tribonacci numbers, in ascending order, as bases, with the same, in descending order, as exponents.",
   "id": "A113153",
   "mentions": [
     "A000073"

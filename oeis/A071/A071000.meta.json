@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that the denominator of Sum_{k=1..n} 1/gcd(m,k) equals m.",
+  "description": "Numbers m such that the denominator of Sum_{k=1..m} 1/gcd(m,k) equals m.",
   "id": "A071000",
   "mentions": [
     "A000010",

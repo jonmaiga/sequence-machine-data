@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7X7 arrays of squares of integers, symmetric about both diagonal and antidiagonal, with all rows summing to n.",
+  "description": "Number of 7 X 7 arrays of squares of integers, symmetric about both diagonal and antidiagonal, with all rows summing to n.",
   "id": "A156392",
   "mentions": [],
   "tags": [

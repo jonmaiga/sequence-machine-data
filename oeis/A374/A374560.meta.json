@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by antidiagonals; A(n, k) = A005836(n+1) + A005836(k+1).",
+  "id": "A374560",
+  "mentions": [
+    "A005836",
+    "A120880",
+    "A374789",
+    "A374790",
+    "A374791",
+    "A374792"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct sums i^3 + j^3 for 0<=i<=j<=n.",
+  "id": "A374707",
+  "mentions": [
+    "A047800",
+    "A061791",
+    "A374710",
+    "A374711"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of convergents to zeta(3).",
+  "description": "Numerators of continued fraction convergents to zeta(3).",
   "id": "A078984",
   "mentions": [
     "A013631",
@@ -11,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 26,
     "source": "oeis-bfile"
   }

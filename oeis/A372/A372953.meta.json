@@ -1,0 +1,19 @@
+{
+  "description": "Orders of finite fields where -1 is a square.",
+  "id": "A372953",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000961",
+    "A085759"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

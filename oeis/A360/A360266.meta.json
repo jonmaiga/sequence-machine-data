@@ -1,9 +1,11 @@
 {
-  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(n-2*k,k) * binomial(2*(n-2*k),n-2*k).",
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(n-2*k,k) * binomial(2*(n-2*k),n-2*k).",
   "id": "A360266",
   "mentions": [
     "A006139",
-    "A360267"
+    "A157004",
+    "A360267",
+    "A374598"
   ],
   "tags": [
     "formulas",

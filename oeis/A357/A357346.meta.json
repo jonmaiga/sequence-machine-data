@@ -2,10 +2,12 @@
   "description": "E.g.f. satisfies A(x) = (exp(x * exp(A(x))) - 1) * exp(A(x)).",
   "id": "A357346",
   "mentions": [
+    "A048802",
     "A052888",
     "A349557",
     "A357347",
-    "A357348"
+    "A357348",
+    "A357424"
   ],
   "tags": [
     "formulas",

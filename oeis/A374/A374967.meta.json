@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the Verhoeff check digit for n.",
+  "id": "A374967",
+  "mentions": [
+    "A093018"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

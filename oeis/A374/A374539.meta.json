@@ -1,0 +1,29 @@
+{
+  "description": "The sum of the squares of the infinitary divisors of n.",
+  "id": "A374539",
+  "mentions": [
+    "A001157",
+    "A034676",
+    "A036537",
+    "A049417",
+    "A050376",
+    "A050999",
+    "A067558",
+    "A076577",
+    "A077609",
+    "A351265",
+    "A351307",
+    "A351647"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of integers k below 2^n such that the cube of number of divisors [A000005(k)] is larger than k.",
+  "description": "Number of integers k not exceeding 2^n such that the cube of number of divisors [A000005(k)] is larger than k.",
   "id": "A056764",
   "mentions": [
     "A000005",
@@ -12,11 +12,12 @@
     "A056781"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 43,
     "source": "oeis-entry"
   }
 }

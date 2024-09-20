@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(1,1) = 1 and, for n >= 2, row n lists (in decreasing order) the elements of the maximal Schreier set encoded by 2*A355489(n-1).",
+  "id": "A373556",
+  "mentions": [
+    "A000045",
+    "A143299",
+    "A355489",
+    "A373345",
+    "A373557",
+    "A373558",
+    "A373854"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

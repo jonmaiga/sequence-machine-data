@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = p^5*(p-1) where p =prime(n).",
+  "description": "a(n) = p^5*(p-1) where p = prime(n).",
   "id": "A138412",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A000040"
   ],
   "tags": [
     "easy",

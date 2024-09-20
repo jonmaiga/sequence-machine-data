@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of planar trivalent (or cubic) multigraphs with 2n nodes and exactly k double bonds, for 0 <= k <= n.",
+  "description": "Triangle read by rows: T(n,k) = number of planar trivalent (or cubic) loopless multigraphs with 2n nodes and exactly k double bonds, for 0 <= k <= n.",
   "id": "A101204",
   "mentions": [
     "A005964",

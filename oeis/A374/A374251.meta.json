@@ -1,0 +1,47 @@
+{
+  "description": "Irregular triangle read by rows where row n is the run-compression of the n-th composition in standard order.",
+  "id": "A374251",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A003242",
+    "A007947",
+    "A037201",
+    "A065120",
+    "A066099",
+    "A066328",
+    "A070939",
+    "A106356",
+    "A116861",
+    "A124762",
+    "A124767",
+    "A233564",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A272919",
+    "A304038",
+    "A333381",
+    "A333382",
+    "A333489",
+    "A333627",
+    "A333755",
+    "A334028",
+    "A373947",
+    "A373948",
+    "A373949",
+    "A373951",
+    "A373953",
+    "A373954",
+    "A374250"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

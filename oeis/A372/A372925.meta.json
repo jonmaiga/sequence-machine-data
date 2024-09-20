@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} A210436(k)^2/2^k.",
+  "id": "A372925",
+  "mentions": [
+    "A000079",
+    "A000400",
+    "A210436",
+    "A372804"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

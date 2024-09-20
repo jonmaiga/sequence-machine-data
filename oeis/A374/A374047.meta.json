@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which A328845(k) is odd, where A328845 is the first Fibonacci based variant of arithmetic derivative.",
+  "id": "A374047",
+  "mentions": [
+    "A000045",
+    "A328845",
+    "A374045",
+    "A374046"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

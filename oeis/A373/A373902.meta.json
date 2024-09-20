@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) is the smallest positive number that does not equal a(n-1), shares a factor with a(n-1), and has not appeared as an adjacent term to a(n-1) previously in the sequence.",
+  "id": "A373902",
+  "mentions": [
+    "A027748",
+    "A064413",
+    "A364027",
+    "A371618"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

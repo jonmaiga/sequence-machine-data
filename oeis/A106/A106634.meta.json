@@ -2,14 +2,18 @@
   "description": "Number of ways to express n as i*j+k*l, with i,j,k,l in the range [0..n].",
   "id": "A106634",
   "mentions": [
+    "A000005",
     "A001105",
+    "A038040",
     "A055507",
+    "A062011",
     "A106633",
     "A106846",
     "A106847"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

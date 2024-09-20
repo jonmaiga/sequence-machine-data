@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: T(n,k) is the number of ordered trees having n edges and k branches of length 1.",
   "id": "A101276",
   "mentions": [
-    "A000106",
     "A000108",
     "A001006",
     "A026418"

@@ -1,9 +1,8 @@
 {
-  "description": "Numbers that may be built from fewer ones by using / in addition to +, -, and *",
+  "description": "Numbers that may be built from fewer ones by using / in addition to +, -, and *.",
   "id": "A348069",
   "mentions": [
     "A005245",
-    "A019333",
     "A091333",
     "A253177",
     "A255641"

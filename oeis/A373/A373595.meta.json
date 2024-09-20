@@ -1,0 +1,32 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that for all i, j >= 1, a(i) = a(j) => f(i) = f(j), where f(n<=3) = n, f(p) = 0 for primes p > 3, and for composite n, f(n) = [A007949(n), A373591(n), A373592(n)].",
+  "id": "A373595",
+  "mentions": [
+    "A001222",
+    "A007949",
+    "A305900",
+    "A359430",
+    "A369643",
+    "A369658",
+    "A373371",
+    "A373383",
+    "A373474",
+    "A373491",
+    "A373493",
+    "A373585",
+    "A373588",
+    "A373591",
+    "A373592",
+    "A373593",
+    "A373594",
+    "A373596"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

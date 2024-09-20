@@ -1,9 +1,10 @@
 {
-  "description": "a(n) is the smallest k such that phi(k)=n, where phi is Euler's totient function.",
+  "description": "a(n) is the smallest k such that phi(k)=n, where phi is Euler's totient function, or a(n) = 0 if no such k exists.",
   "id": "A049283",
   "mentions": [
     "A000010",
-    "A014197"
+    "A014197",
+    "A057635"
   ],
   "tags": [
     "nonn"

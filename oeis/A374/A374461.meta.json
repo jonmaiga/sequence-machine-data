@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k+1 are both nonsquarefree exponentially odd numbers (A374459).",
+  "id": "A374461",
+  "mentions": [
+    "A068781",
+    "A268335",
+    "A367695",
+    "A374459"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

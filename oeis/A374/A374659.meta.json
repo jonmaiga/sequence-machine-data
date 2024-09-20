@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/5) A374658(n).",
+  "id": "A374659",
+  "mentions": [
+    "A000142",
+    "A374654",
+    "A374658"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

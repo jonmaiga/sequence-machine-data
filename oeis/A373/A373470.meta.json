@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A043555 = number of runs in base-3 representation of n.",
+  "id": "A373470",
+  "mentions": [
+    "A043555",
+    "A297770"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

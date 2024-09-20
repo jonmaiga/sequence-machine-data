@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of numbers <= k that are coprime to n, 1<=k<=n.",
+  "description": "Triangle read by rows: T(n,k) = number of numbers <= k that are coprime to n, 1 <= k <= n.",
   "id": "A078401",
   "mentions": [
     "A000010",

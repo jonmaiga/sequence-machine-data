@@ -1,5 +1,5 @@
 {
-  "description": "8^n+7^n-1^n.",
+  "description": "a(n) = 8^n + 7^n - 1^n.",
   "id": "A155655",
   "mentions": [
     "A155638",
@@ -28,6 +28,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

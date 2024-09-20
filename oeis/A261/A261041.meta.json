@@ -2,6 +2,7 @@
   "description": "Number of partitions of subsets of {1,...,n}, where consecutive integers are required to be in different parts.",
   "id": "A261041",
   "mentions": [
+    "A000110",
     "A003242",
     "A114901",
     "A247100",
@@ -9,9 +10,11 @@
     "A261489",
     "A261492",
     "A273461",
-    "A274174"
+    "A274174",
+    "A376077"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

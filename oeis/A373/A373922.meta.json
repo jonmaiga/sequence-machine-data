@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattices on n unlabeled nodes, up to duality.",
+  "id": "A373922",
+  "mentions": [
+    "A006966",
+    "A373894"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

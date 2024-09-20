@@ -1,0 +1,17 @@
+{
+  "description": "Number of incongruent n-sided Reinhardt polygons.",
+  "id": "A374832",
+  "mentions": [
+    "A373694",
+    "A373695"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,9 @@
   "description": "Numbers k with 2 zeros in a fundamental period of A006190 mod k.",
   "id": "A309592",
   "mentions": [
+    "A000045",
+    "A000129",
+    "A001176",
     "A006190",
     "A053027",
     "A053028",
@@ -11,6 +14,7 @@
     "A053032",
     "A112860",
     "A175182",
+    "A214027",
     "A261580",
     "A309580",
     "A309581",

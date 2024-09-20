@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/sqrt(1 - 2*x + 3*x^2 + 2*x^3 + x^4).",
+  "id": "A375021",
+  "mentions": [
+    "A051286",
+    "A108488",
+    "A108489"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

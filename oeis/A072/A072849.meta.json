@@ -1,7 +1,8 @@
 {
-  "description": "Prime(a(n))+...+prime(a(n)+3) is a square = A051395(n)^2.",
+  "description": "Prime(a(n)) + ... + prime(a(n)+3) is a square = A051395(n)^2.",
   "id": "A072849",
   "mentions": [
+    "A000720",
     "A051395",
     "A064397",
     "A076305",
@@ -11,6 +12,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

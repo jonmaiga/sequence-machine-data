@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (4*k+1) * a(k) * a(n-k-1).",
+  "id": "A376087",
+  "mentions": [
+    "A000699",
+    "A088716",
+    "A151403",
+    "A215648",
+    "A375393",
+    "A376086"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

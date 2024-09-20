@@ -1,0 +1,14 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * (k! * S(n,k))^2, where S(,) are Stirling numbers of second kind.",
+  "id": "A375780",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

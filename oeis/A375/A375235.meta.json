@@ -1,0 +1,19 @@
+{
+  "description": "Records of A112591.",
+  "id": "A375235",
+  "mentions": [
+    "A000295",
+    "A014210",
+    "A014234",
+    "A112591"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

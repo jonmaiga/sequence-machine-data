@@ -1,5 +1,5 @@
 {
-  "description": "that the continued fraction for sqrt(k) has even period and if the last term of the periodic part is deleted the central term is 31.",
+  "description": "Numbers k such that the continued fraction for sqrt(k) has even period and if the last term of the periodic part is deleted the central term is 31.",
   "id": "A031529",
   "mentions": [],
   "tags": [

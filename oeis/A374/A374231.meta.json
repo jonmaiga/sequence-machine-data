@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the minimum number of distinct numbers with exactly n prime factors (counted with multiplicity) whose sum of reciprocals exceeds 1.",
+  "id": "A374231",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A014612",
+    "A014613",
+    "A014614",
+    "A046306",
+    "A046308",
+    "A046310",
+    "A046312",
+    "A046314",
+    "A078840"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

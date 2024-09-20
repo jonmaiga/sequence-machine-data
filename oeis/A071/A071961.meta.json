@@ -1,18 +1,24 @@
 {
-  "description": "Sum( i=1, n, K(n,i) ) where K(x,y) is the Kronecker symbol (x/y).",
+  "description": "a(n) = Sum_{i=0..n} K(n, i) where K(x, y) is the Kronecker symbol (x / y).",
   "id": "A071961",
   "mentions": [
     "A071958",
     "A096396",
-    "A096397"
+    "A096397",
+    "A372728",
+    "A372933",
+    "A372934",
+    "A372935",
+    "A372936"
   ],
   "tags": [
     "easy",
+    "look",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 115,
+    "offset": 0,
+    "size": 82,
     "source": "oeis-bfile"
   }
 }

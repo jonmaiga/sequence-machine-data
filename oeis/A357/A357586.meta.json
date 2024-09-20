@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows. Convolution triangle of A002467 (number of permutations with fixpoints).",
+  "description": "Triangle read by rows. Convolution triangle of A002467 (number of permutations with fixed points).",
   "id": "A357586",
   "mentions": [
     "A002467",

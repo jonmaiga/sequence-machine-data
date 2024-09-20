@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = max_{i=0..n} S_3(i) + S_3(n-i) where S_3(x) = A053735(x) is the base-3 digit sum of x.",
+  "id": "A374054",
+  "mentions": [
+    "A014701",
+    "A053735",
+    "A062153",
+    "A374056"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,14 @@
 {
-  "description": "Decimal expansion of sum_{n=1..infinity} 1/(n*(25n^2-1)).",
+  "description": "Decimal expansion of Sum_{n>=1} 1/(n*(25n^2-1)).",
   "id": "A145424",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A002390"
+  ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{1 <= x_1, x_2, x_3 <= n} sigma( n/gcd(x_1, x_2, x_3, n) ).",
+  "id": "A373130",
+  "mentions": [
+    "A013661",
+    "A013663",
+    "A059376",
+    "A328259",
+    "A372952",
+    "A373131",
+    "A373133"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n! * 2^k * hypergeom([-k], [-n], 1/2).",
+  "id": "A374428",
+  "mentions": [
+    "A010844",
+    "A374427"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

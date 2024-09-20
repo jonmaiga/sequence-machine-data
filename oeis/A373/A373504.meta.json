@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array: row n gives the coefficients T(n,k) of powers x^(2k) in the series expansion of ((b^n + b^(-n))/2)^2, where b = x + sqrt(x^2 + 1).",
+  "id": "A373504",
+  "mentions": [
+    "A000012",
+    "A000290",
+    "A000302",
+    "A002415",
+    "A008310",
+    "A055997",
+    "A112742",
+    "A123588",
+    "A334009"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

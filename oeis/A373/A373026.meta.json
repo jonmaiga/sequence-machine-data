@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least positive integer k such that 3*n^2 + 2*n - k is a square.",
+  "id": "A373026",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A005408",
+    "A098301",
+    "A373016",
+    "A373028"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

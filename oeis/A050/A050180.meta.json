@@ -2,9 +2,11 @@
   "description": "Numbers m such that prime(m) + Fibonacci(m) is prime.",
   "id": "A050180",
   "mentions": [
+    "A001605",
     "A004397"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

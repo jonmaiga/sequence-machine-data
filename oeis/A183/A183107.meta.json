@@ -1,5 +1,5 @@
 {
-  "description": "Sum of palindromic divisors of numbers n such that the sum of the palindromic divisors of n is palindromic.",
+  "description": "Sum of palindromic divisors of numbers k such that the sum of the palindromic divisors of k is palindromic.",
   "id": "A183107",
   "mentions": [
     "A088000",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
+    "size": 87,
     "source": "oeis-entry"
   }
 }

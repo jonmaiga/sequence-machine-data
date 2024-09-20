@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose names are word-palindromes, reading the same forward and backward.",
+  "description": "Numbers whose name in American English is a word-palindrome, reading the same forward and backward.",
   "id": "A081365",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

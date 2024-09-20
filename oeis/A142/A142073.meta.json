@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence of coefficients of and infinite sum polynomial: p(x,n)=(1 - 2*x)^(n + 1)*Sum[k^n*(x/(1 - x))^k, {k, 0, Infinity}]/x; p(x,n)=(1 - 2*x)^(n + 1)*PolyLog[ -n,x/(1-x)]/x;.",
+  "description": "Irregular triangle, T(n, k) = coefficients of p(x, n), where p(x, n) = (1-2*x)^(n+1) * Sum_{j>=0} j^n*(x/(1-x))^j, read by rows.",
   "id": "A142073",
   "mentions": [
     "A008292",
@@ -8,11 +8,11 @@
   "tags": [
     "formulas",
     "sign",
-    "uned"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 58,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

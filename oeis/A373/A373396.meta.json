@@ -1,0 +1,18 @@
+{
+  "description": "Matrix inverse of triangle A296548, read by rows.",
+  "id": "A373396",
+  "mentions": [
+    "A002884",
+    "A296548"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

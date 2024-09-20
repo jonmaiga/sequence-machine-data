@@ -2,10 +2,14 @@
   "description": "Least number of 4th powers needed to represent n.",
   "id": "A002377",
   "mentions": [
+    "A002376",
     "A002804",
+    "A002828",
     "A046049",
     "A046050",
-    "A099591"
+    "A099591",
+    "A188462",
+    "A374012"
   ],
   "tags": [
     "nice",

@@ -1,7 +1,10 @@
 {
   "description": "In the sequence of positive integers subtract 1 from each nonprime number.",
   "id": "A113637",
-  "mentions": [],
+  "mentions": [
+    "A113636",
+    "A113638"
+  ],
   "tags": [
     "easy",
     "nonn"

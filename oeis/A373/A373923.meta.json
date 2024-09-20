@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} (-1)^pi(d).",
+  "id": "A373923",
+  "mentions": [
+    "A000720",
+    "A065357",
+    "A065358"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

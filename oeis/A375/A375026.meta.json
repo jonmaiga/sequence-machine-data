@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = [x^n] 2/(3*sqrt(4*x^2 + 1) + 6*x - 1). Alternating row sums of A375025.",
+  "id": "A375026",
+  "mentions": [
+    "A375025"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

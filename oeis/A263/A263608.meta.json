@@ -1,11 +1,13 @@
 {
-  "description": "Palindromes in base 3 which are also squares.",
+  "description": "Palindromes which are base-3 representations of squares.",
   "id": "A263608",
   "mentions": [
+    "A001738",
     "A002778",
     "A003166",
     "A029984",
     "A029985",
+    "A118594",
     "A262607"
   ],
   "tags": [
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

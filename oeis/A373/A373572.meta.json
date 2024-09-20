@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: Coefficients of the polynomials P(n, x) * EZ(n, x), where P denote the signed Pascal polynomials and EZ the Eulerian zig-zag polynomials A205497.",
+  "id": "A373572",
+  "mentions": [
+    "A000007",
+    "A205497",
+    "A373432",
+    "A373657"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

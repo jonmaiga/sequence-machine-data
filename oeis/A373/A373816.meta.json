@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(2 - 1/(1 - 4*x)^(3/2)).",
+  "id": "A373816",
+  "mentions": [
+    "A075436",
+    "A373715"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

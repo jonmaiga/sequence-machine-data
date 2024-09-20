@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A001055(n) divides n.",
+  "description": "Numbers k such that A001055(k) divides k.",
   "id": "A097296",
   "mentions": [
     "A001055"

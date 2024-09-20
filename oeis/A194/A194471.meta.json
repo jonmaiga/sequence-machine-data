@@ -1,7 +1,11 @@
 {
-  "description": "E.g.f. A(x) satisfies: A(x) = exp(x) + x*A(x)^2.",
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x) + x*A(x)^2.",
   "id": "A194471",
-  "mentions": [],
+  "mentions": [
+    "A000522",
+    "A371318",
+    "A373324"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

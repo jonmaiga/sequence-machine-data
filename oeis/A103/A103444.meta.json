@@ -2,6 +2,8 @@
   "description": "Triangle read by rows: T(n,k) is number of unitary divisors of C(n,k), 0<=k<=n.",
   "id": "A103444",
   "mentions": [
+    "A007318",
+    "A034444",
     "A103445"
   ],
   "tags": [

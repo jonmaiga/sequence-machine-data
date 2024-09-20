@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 5th root of 98.",
   "id": "A011183",
-  "mentions": [],
+  "mentions": [
+    "A005531",
+    "A011092"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

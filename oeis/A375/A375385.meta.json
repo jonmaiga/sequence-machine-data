@@ -1,0 +1,17 @@
+{
+  "description": "Triangular numbers that are emirpimes.",
+  "id": "A375385",
+  "mentions": [
+    "A000217",
+    "A097393"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

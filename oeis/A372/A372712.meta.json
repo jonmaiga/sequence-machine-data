@@ -1,14 +1,16 @@
 {
   "description": "Numbers of minimal total dominating sets in the n-trapezohedral graph.",
   "id": "A372712",
-  "mentions": [],
+  "mentions": [
+    "A001608"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = minimum number of operations chosen from f(x) = 3x+1 and g(x) = floor(x/2) needed to reach n when starting from 1.",
+  "id": "A375494",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A125731",
+    "A375495",
+    "A375496"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

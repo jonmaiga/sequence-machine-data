@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of x + 1/(-x - 1/(-x - 1/(-x + 1))).",
+  "id": "A373567",
+  "mentions": [
+    "A006356"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

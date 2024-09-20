@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{j=1..n} Sum_{k=1..n} gcd(j,n) * gcd(k,n) / gcd(j*k,n).",
+  "id": "A372906",
+  "mentions": [
+    "A372881"
+  ],
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

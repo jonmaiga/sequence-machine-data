@@ -1,5 +1,5 @@
 {
-  "description": "Heptagon-free numbers.",
+  "description": "Heptagon-free numbers: numbers k such that no divisor of k is a heptagonal number > 1.",
   "id": "A113619",
   "mentions": [
     "A000566",
@@ -8,7 +8,6 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

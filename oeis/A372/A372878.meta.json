@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of all symmetric valleys in the set of flattened Catalan words of length n.",
+  "id": "A372878",
+  "mentions": [
+    "A261064",
+    "A371963",
+    "A371964",
+    "A372875"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 27,
+    "source": "joeis"
+  }
+}

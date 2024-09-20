@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the prime circle problem has a slightly more complex solution than given in A072676. Complement of A072676.",
+  "description": "Complement of A072676.",
   "id": "A072184",
   "mentions": [
     "A051252",
@@ -9,8 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

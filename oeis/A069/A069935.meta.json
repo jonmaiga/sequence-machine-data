@@ -2,14 +2,17 @@
   "description": "Maximal power of 2 that divides the n-th partition number.",
   "id": "A069935",
   "mentions": [
-    "A000041"
+    "A000041",
+    "A006519",
+    "A278478"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 108,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

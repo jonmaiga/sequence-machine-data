@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings using squares, dominos, and flexible trominos of a strip of length n-1 and with an n-th cell placed on top of the middle of the strip.",
+  "id": "A374729",
+  "mentions": [
+    "A000073"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

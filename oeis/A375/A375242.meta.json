@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with digital root in {2, 4, 5, 7, 8}.",
+  "id": "A375242",
+  "mentions": [
+    "A010888",
+    "A014132",
+    "A055264",
+    "A375241"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

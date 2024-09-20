@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that the congruence x^(m+1) == m (mod m+1) is solvable.",
+  "id": "A372771",
+  "mentions": [
+    "A014117",
+    "A330279",
+    "A371811"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

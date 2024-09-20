@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of 4 distinct positive fifth powers in exactly n ways, or -1 if no such number exists.",
+  "id": "A374803",
+  "mentions": [
+    "A025417",
+    "A025421",
+    "A374696",
+    "A374804"
+  ],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "description": "Numbers n such that abs(9^n - 2^11) is prime.",
+  "description": "Numbers k such that abs(9^k - 2^11) is prime.",
   "id": "A122727",
   "mentions": [],
   "tags": [
-    "easy",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

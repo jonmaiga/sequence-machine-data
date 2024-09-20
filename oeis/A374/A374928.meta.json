@@ -1,0 +1,14 @@
+{
+  "description": "a(n) = binomial(n+1,2)!/(2*n-1)!!.",
+  "id": "A374928",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

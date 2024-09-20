@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=1} 1 / (1 + x^(5*k-2)).",
+  "id": "A374077",
+  "mentions": [
+    "A081360",
+    "A081362",
+    "A109699",
+    "A281271",
+    "A284320",
+    "A374064",
+    "A374065",
+    "A374076",
+    "A374078",
+    "A374079"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of e.g.f.: 1/(exp(x) - x^4/24).",
+  "description": "Expansion of e.g.f. 1/(exp(x) - x^4/24).",
   "id": "A352311",
   "mentions": [
     "A089148",

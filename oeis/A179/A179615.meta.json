@@ -2,10 +2,6 @@
   "description": "Continued fraction for 3^(1/4).",
   "id": "A179615",
   "mentions": [
-    "A001076",
-    "A001203",
-    "A001204",
-    "A002945",
     "A011002",
     "A179613"
   ],
@@ -14,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 98,
     "source": "joeis"
   }

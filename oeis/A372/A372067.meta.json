@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) (m >= 0, n >= 0) = number of connected row convex (CRC) constraints between an m-element set and an n-element set.",
+  "id": "A372067",
+  "mentions": [
+    "A100754",
+    "A372066",
+    "A372068"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

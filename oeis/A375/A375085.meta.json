@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ballotlike paths ending at (n, k), with 0 <= k <= n.",
+  "id": "A375085",
+  "mentions": [
+    "A000108",
+    "A026013",
+    "A057427",
+    "A071724",
+    "A375086"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

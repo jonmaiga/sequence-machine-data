@@ -2,16 +2,15 @@
   "description": "Number of minimal dominating sets in the n-Sierpinski sieve graph.",
   "id": "A347515",
   "mentions": [
-    "A306189"
+    "A306189",
+    "A347508"
   ],
   "tags": [
-    "bref",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 6,
+    "source": "oeis-bfile"
   }
 }

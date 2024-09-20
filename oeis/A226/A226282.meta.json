@@ -1,5 +1,5 @@
 {
-  "description": "[n/2]!*[(n+1)/2]!*C([n/2],1)*C([(n+1)/2],1).",
+  "description": "a(n) = [n/2]!*[(n+1)/2]!*C([n/2],1)*C([(n+1)/2],1).",
   "id": "A226282",
   "mentions": [
     "A145893",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

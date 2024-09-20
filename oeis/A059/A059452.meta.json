@@ -1,5 +1,5 @@
 {
-  "description": "Safe primes (A005385) which are not Sophie Germain primes.",
+  "description": "Safe primes (A005385) that are not Sophie Germain primes.",
   "id": "A059452",
   "mentions": [
     "A005384",
@@ -10,16 +10,20 @@
     "A023302",
     "A023330",
     "A053176",
+    "A059453",
+    "A059454",
+    "A059455",
     "A059456",
     "A156659",
     "A156660"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

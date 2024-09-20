@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the n-th semiprime after the n-th prime.",
+  "id": "A373630",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A072000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

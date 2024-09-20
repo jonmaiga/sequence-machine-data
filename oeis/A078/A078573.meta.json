@@ -1,5 +1,5 @@
 {
-  "description": "Maximal exponent in prime factorization of the average of n-th twin prime pair.",
+  "description": "The maximum exponent in prime factorization of the average of n-th twin prime pair.",
   "id": "A078573",
   "mentions": [
     "A001359",

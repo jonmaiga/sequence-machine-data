@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest primes which continued fraction have different period.",
+  "description": "a(n) = smallest primes whose continued fraction have different period.",
   "id": "A146364",
   "mentions": [
     "A000290",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
-    "source": "oeis-entry"
+    "size": 59,
+    "source": "oeis-bfile"
   }
 }

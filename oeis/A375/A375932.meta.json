@@ -1,0 +1,22 @@
+{
+  "description": "The largest unitary k-free divisor of n where k = A051903(n) is the maximum exponent in the prime factorization of n.",
+  "id": "A375932",
+  "mentions": [
+    "A005117",
+    "A049606",
+    "A051903",
+    "A072774",
+    "A375931",
+    "A375933"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

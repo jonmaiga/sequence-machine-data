@@ -1,8 +1,9 @@
 {
-  "description": "Numerators of convergents to cube root of 6.",
+  "description": "Numerators of continued fraction convergents to cube root of 6.",
   "id": "A002360",
   "mentions": [
     "A002359",
+    "A002949",
     "A005486"
   ],
   "tags": [
@@ -10,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 26,
     "source": "oeis-bfile"
   }

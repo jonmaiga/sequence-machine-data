@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k), n > 0, k = 0..n-1, read by rows; T(n, k) is the least m such that n and k differ modulo m.",
+  "id": "A374369",
+  "mentions": [
+    "A007978",
+    "A374381",
+    "A374383"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

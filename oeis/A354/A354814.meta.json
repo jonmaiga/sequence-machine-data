@@ -2,7 +2,8 @@
   "description": "Positions of +4's in A346242.",
   "id": "A354814",
   "mentions": [
-    "A346242"
+    "A346242",
+    "A372564"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

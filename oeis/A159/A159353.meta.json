@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the smallest positive integer such that a(n) *(2^n -2) is a multiple of n.",
+  "description": "a(n) = the smallest positive integer such that a(n)*(2^n - 2) is a multiple of n.",
   "id": "A159353",
   "mentions": [
     "A000918",

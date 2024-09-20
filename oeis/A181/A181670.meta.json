@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: 2^(n-1) mod prime(k), 1<=k<=n.",
+  "description": "Triangle read by rows: T(n,k) = 2^(n-1) mod prime(k), 1 <= k <= n.",
   "id": "A181670",
   "mentions": [
     "A174620"

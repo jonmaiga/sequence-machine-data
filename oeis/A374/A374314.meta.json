@@ -1,0 +1,19 @@
+{
+  "description": "Number of graphs of order n with exactly two Hamiltonian cycles.",
+  "id": "A374314",
+  "mentions": [
+    "A126149",
+    "A307956",
+    "A374315",
+    "A374316"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

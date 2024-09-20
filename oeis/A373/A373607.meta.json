@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the odd-indexed digits in the primorial base representation (A049345) of n.",
+  "id": "A373607",
+  "mentions": [
+    "A049345",
+    "A276150",
+    "A373605",
+    "A373606"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

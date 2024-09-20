@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers whose sum of digits is 9.",
+  "id": "A375824",
+  "mentions": [
+    "A000217",
+    "A052223",
+    "A076713",
+    "A117404"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

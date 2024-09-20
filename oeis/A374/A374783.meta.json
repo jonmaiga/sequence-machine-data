@@ -1,0 +1,31 @@
+{
+  "description": "Numerator of the mean unitary abundancy index of the unitary divisors of n.",
+  "id": "A374783",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A034444",
+    "A034448",
+    "A077610",
+    "A306633",
+    "A332882",
+    "A332883",
+    "A343525",
+    "A374777",
+    "A374778",
+    "A374784",
+    "A374786",
+    "A374787"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

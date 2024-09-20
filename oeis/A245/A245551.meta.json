@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1/(1-2*x-3*x^2)^(5/2).",
+  "description": "Expansion of 1/(1 - 2*x - 3*x^2)^(5/2).",
   "id": "A245551",
   "mentions": [
     "A000108",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n where A046523(A005179(n)) differs from A046523(A038547(n)).",
+  "description": "Numbers k where A046523(A005179(k)) differs from A046523(A038547(k)).",
   "id": "A122812",
   "mentions": [
     "A005179",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,17 +2,20 @@
   "description": "Smallest of four consecutive primes whose sum is a square.",
   "id": "A206280",
   "mentions": [
+    "A000040",
     "A061275",
+    "A072849",
     "A206279",
     "A206281"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

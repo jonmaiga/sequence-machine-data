@@ -1,0 +1,17 @@
+{
+  "description": "Number of (0,1)-matrices with sum of entries equal to 2*n or 2*n+1, no zero rows or columns, which are centrally symmetric.",
+  "id": "A373027",
+  "mentions": [
+    "A275787",
+    "A370396"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

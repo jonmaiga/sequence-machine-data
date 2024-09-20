@@ -1,0 +1,17 @@
+{
+  "description": "For n >= 1, a(n) is the largest k >= 1 such that A001359(n) + i*(i + 1) is prime for all i from 1 to k.",
+  "id": "A375775",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A002378"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

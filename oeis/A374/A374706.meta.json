@@ -1,0 +1,39 @@
+{
+  "description": "Sum of minima of the maximal strictly increasing runs in the weakly increasing prime indices of n.",
+  "id": "A374706",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A034296",
+    "A055396",
+    "A055887",
+    "A056239",
+    "A066328",
+    "A112798",
+    "A124768",
+    "A141199",
+    "A189076",
+    "A218482",
+    "A279790",
+    "A296150",
+    "A333213",
+    "A358836",
+    "A374629",
+    "A374634",
+    "A374683",
+    "A374684",
+    "A374700",
+    "A374758",
+    "A375128",
+    "A375133",
+    "A375136"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

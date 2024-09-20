@@ -2,9 +2,11 @@
   "description": "Complement of A014105.",
   "id": "A183301",
   "mentions": [
-    "A014105"
+    "A014105",
+    "A339183"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

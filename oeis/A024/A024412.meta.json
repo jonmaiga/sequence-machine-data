@@ -2,8 +2,10 @@
   "description": "Ordered Stirling numbers s(n,k) of the second kind.",
   "id": "A024412",
   "mentions": [
+    "A008277",
     "A193245",
-    "A193246"
+    "A193246",
+    "A374796"
   ],
   "tags": [
     "nonn"

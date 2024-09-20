@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which have no imbalance when they are written in English and cut at the right place (see the definition of the imbalance in the Comments section).",
+  "id": "A372222",
+  "mentions": [
+    "A083967",
+    "A104059",
+    "A373317",
+    "A373321"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

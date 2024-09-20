@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. (1 - x)*(1 - 2*x)(1 - 4*x)/(1 - 8*x + 20*x^2 - 18*x^3 + 3*x^4).",
+  "id": "A374165",
+  "mentions": [
+    "A374162"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

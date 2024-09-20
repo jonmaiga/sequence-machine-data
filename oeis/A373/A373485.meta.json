@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(A083345(n), A276085(n)), where A276085 is fully additive with a(p) = p#/p, and A083345 is the numerator of the fully additive function with a(p) = 1/p.",
+  "id": "A373485",
+  "mentions": [
+    "A083345",
+    "A276085",
+    "A369002",
+    "A369003",
+    "A373145",
+    "A373151",
+    "A373483",
+    "A373484"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

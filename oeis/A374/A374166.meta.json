@@ -1,0 +1,16 @@
+{
+  "description": "The set of primes p such that, for all integers m, the prime p divides at least one term of the recursive sequence (b_0, b_1, b_2, ...) given by b_0 = m and b_{k+1} = b_k^2 - 1 for k >= 0.",
+  "id": "A374166",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

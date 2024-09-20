@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/((1 - x)^6 - 2*x^6).",
+  "id": "A375165",
+  "mentions": [
+    "A000129",
+    "A375164"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

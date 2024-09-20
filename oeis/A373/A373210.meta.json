@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that the smallest prime >= 2^k is 2^k + 2*n + 1, or -1 if no such k exists.",
+  "id": "A373210",
+  "mentions": [
+    "A067760",
+    "A076336",
+    "A092131"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

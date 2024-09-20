@@ -1,0 +1,16 @@
+{
+  "description": "Number of states in the smallest deterministic finite automaton accepting all binary strings that contain all blocks of the form xx, where x is a string of length n.",
+  "id": "A372434",
+  "mentions": [
+    "A372435"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

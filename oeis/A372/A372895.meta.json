@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree terms of A129802 whose prime factors are neither elite (A102742) nor anti-elite (A128852), where A129802 is the possible bases for Pepin's primality test for Fermat numbers.",
+  "id": "A372895",
+  "mentions": [
+    "A102742",
+    "A128852",
+    "A129802",
+    "A372894",
+    "A372896"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

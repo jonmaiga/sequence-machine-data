@@ -2,6 +2,8 @@
   "description": "a(n) is the largest area of a rectangle which can be dissected into n squares with integer sides s_i, i = 1 .. n, and gcd(s_1,...,s_n) = 1.",
   "id": "A338861",
   "mentions": [
+    "A014529",
+    "A089047",
     "A219158",
     "A290821",
     "A340726",

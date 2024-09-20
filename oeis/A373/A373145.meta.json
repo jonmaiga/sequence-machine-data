@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = gcd(A003415(n), A276085(n)), where A003415 is the arithmetic derivative and A276085 is the primorial base log-function.",
+  "id": "A373145",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A276085",
+    "A276086",
+    "A327858",
+    "A368998",
+    "A368999",
+    "A373144",
+    "A373146",
+    "A373147",
+    "A373148"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

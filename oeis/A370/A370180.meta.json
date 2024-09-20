@@ -1,0 +1,23 @@
+{
+  "description": "Size of the group Z_3*/(Z_3*)^n, where Z_3 is the ring of 3-adic integers.",
+  "id": "A370180",
+  "mentions": [
+    "A001620",
+    "A297402",
+    "A370050",
+    "A370181",
+    "A370182",
+    "A370565"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

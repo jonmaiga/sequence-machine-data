@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p such that there exist exactly n primes of the form q#-p (q# = product of primes <= q, namely primorial numbers (second definition)).",
+  "id": "A373726",
+  "mentions": [
+    "A034386",
+    "A373631",
+    "A373661"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

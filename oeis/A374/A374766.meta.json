@@ -1,0 +1,42 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer compositions of n whose leaders of maximal strictly decreasing runs sum to k.",
+  "id": "A374766",
+  "mentions": [
+    "A000041",
+    "A003242",
+    "A011782",
+    "A106356",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A261982",
+    "A274174",
+    "A333213",
+    "A333755",
+    "A335456",
+    "A373949",
+    "A374517",
+    "A374518",
+    "A374521",
+    "A374629",
+    "A374637",
+    "A374687",
+    "A374700",
+    "A374748",
+    "A374757",
+    "A374758",
+    "A374759",
+    "A374760",
+    "A374761",
+    "A374767"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

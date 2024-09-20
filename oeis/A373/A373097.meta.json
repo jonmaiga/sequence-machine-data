@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a[n/r] + a[n/r^2] + a[n/r^3] + ... , where a(0) = 0, a(1) = 1, r = 3/2, and [ ] = floor.",
+  "id": "A373097",
+  "mentions": [
+    "A000045",
+    "A373095",
+    "A373096"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Card[InvPhi(n)] is a prime number.",
+  "description": "Numbers k such that the cardinality of the set of solutions to phi(x) = k is a prime.",
   "id": "A071388",
   "mentions": [
     "A000010",

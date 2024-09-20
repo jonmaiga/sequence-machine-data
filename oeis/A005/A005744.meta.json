@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: x*(1+x-x^2)/((1-x)^4*(1+x)).",
+  "description": "Expansion of x*(1+x-x^2)/((1-x)^4*(1+x)).",
   "id": "A005744",
   "mentions": [
     "A002623",

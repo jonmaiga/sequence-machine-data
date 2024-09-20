@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(A001414(n), A064097(n)), where A001414 is the sum of prime factors with repetition, and A064097 is a quasi-logarithm defined inductively by a(1) = 0 and a(p) = 1 + a(p-1) if p is prime and a(n*m) = a(n) + a(m) if m,n > 1.",
+  "id": "A373365",
+  "mentions": [
+    "A001414",
+    "A064097",
+    "A082299",
+    "A373362",
+    "A373363",
+    "A373364",
+    "A373366"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "Largest x such that 2^x divides n(n-3)!.",
+  "description": "Largest number k such that 2^k divides n*(n-3)!.",
   "id": "A128474",
   "mentions": [
     "A007814",
     "A011371"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

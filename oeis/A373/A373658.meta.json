@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, k)*A050446(n, n - k). Alternating row sums of A373660.",
+  "id": "A373658",
+  "mentions": [
+    "A050446",
+    "A373660"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

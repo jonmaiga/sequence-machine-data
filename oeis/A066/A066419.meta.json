@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that k! is not divisible by the sum of the decimal digits of k!.",
   "id": "A066419",
-  "mentions": [],
+  "mentions": [
+    "A004152"
+  ],
   "tags": [
     "base",
     "easy",

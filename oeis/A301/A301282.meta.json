@@ -1,10 +1,11 @@
 {
-  "description": "Denominator of percentage of volume of unit box in R^4 that can be filled by n disjoint symplectically embedded balls of equal radius.",
+  "description": "Denominator of proportion of the volume of a unit box in R^4 that can be filled by n disjoint symplectically embedded balls of equal radius.",
   "id": "A301282",
   "mentions": [
     "A301281"
   ],
   "tags": [
+    "easy",
     "frac",
     "nonn"
   ],

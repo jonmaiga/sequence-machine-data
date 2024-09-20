@@ -1,0 +1,21 @@
+{
+  "description": "The difference between the maximum odd exponent and the maximum even exponent in the prime factorization of n, where 0 is assigned to each maximum exponent if no such exponent exists.",
+  "id": "A375034",
+  "mentions": [
+    "A000302",
+    "A081294",
+    "A368714",
+    "A375032",
+    "A375033"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Powers of fourth root of 7 rounded to nearest integer.",
   "id": "A018064",
-  "mentions": [],
+  "mentions": [
+    "A011005"
+  ],
   "tags": [
     "nonn"
   ],

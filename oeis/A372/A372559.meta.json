@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the index of the first occurrence of n in A371091.",
+  "id": "A372559",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A235224",
+    "A276153",
+    "A371091"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

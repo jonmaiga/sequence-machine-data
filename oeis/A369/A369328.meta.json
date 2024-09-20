@@ -2,7 +2,8 @@
   "description": "Antidiagonal sums of A369326.",
   "id": "A369328",
   "mentions": [
-    "A369326"
+    "A369326",
+    "A372883"
   ],
   "tags": [
     "easy",

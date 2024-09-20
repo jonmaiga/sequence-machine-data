@@ -1,14 +1,19 @@
 {
   "description": "Sum of cousin primes < 10^n.",
   "id": "A152127",
-  "mentions": [],
+  "mentions": [
+    "A023200",
+    "A046132",
+    "A080840",
+    "A152052"
+  ],
   "tags": [
-    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

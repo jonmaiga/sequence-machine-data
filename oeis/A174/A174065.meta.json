@@ -2,11 +2,17 @@
   "description": "Convolved with its aerated variant = A000041.",
   "id": "A174065",
   "mentions": [
+    "A000009",
     "A000041",
     "A035263",
     "A100853",
+    "A115362",
     "A174066",
-    "A174067"
+    "A174067",
+    "A327726",
+    "A373219",
+    "A373220",
+    "A373221"
   ],
   "tags": [
     "formulas",

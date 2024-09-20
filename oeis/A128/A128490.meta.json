@@ -1,5 +1,5 @@
 {
-  "description": "Let p(k) denote the k-th prime. Sequence gives integers of the form [p(n+1)*p(n) - 1]/[p(n+1)-p(n)].",
+  "description": "Integers of the form (p(n+1)*p(n) - 1)/(p(n+1) - p(n)) where p(n) denotes the n-th prime.",
   "id": "A128490",
   "mentions": [
     "A128491"

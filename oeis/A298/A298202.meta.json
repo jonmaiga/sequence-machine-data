@@ -2,6 +2,12 @@
   "description": "Number of Eulerian cycles in the n-Sierpinski sieve graph.",
   "id": "A298202",
   "mentions": [
+    "A007283",
+    "A029858",
+    "A067771",
+    "A193277",
+    "A233774",
+    "A233775",
     "A246959"
   ],
   "tags": [

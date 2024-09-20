@@ -1,7 +1,9 @@
 {
-  "description": "Numbers whose powers in their canonical factorization lie in the geometric progression 1,3,9,..",
+  "description": "Composite numbers whose exponents in their canonical factorization lie in the geometric progression 1, 3, 9, ...",
   "id": "A102838",
-  "mentions": [],
+  "mentions": [
+    "A102836"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

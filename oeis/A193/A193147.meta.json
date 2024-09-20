@@ -1,12 +1,13 @@
 {
-  "description": "G.f.: 1/(1 - x - 2*x^3 - x^5).",
+  "description": "Expansion of 1/(1 - x - 2*x^3 - x^5).",
   "id": "A193147",
   "mentions": [
     "A003520",
     "A005314",
     "A035317",
     "A049347",
-    "A180662"
+    "A180662",
+    "A373578"
   ],
   "tags": [
     "easy",

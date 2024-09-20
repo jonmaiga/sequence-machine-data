@@ -1,13 +1,18 @@
 {
-  "description": "Related to number of topologies.",
+  "description": "The number of n X n upper triangular (0,1)-matrices M with all diagonal entries 1 such that M = f(M^2) and sum(row 1) >= sum(row 2) >= ... >= sum(row n-1) >= sum(row n) = 1 and f maps any nonzero entry to 1.",
   "id": "A213430",
-  "mentions": [],
+  "mentions": [
+    "A000798",
+    "A001035",
+    "A006455"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

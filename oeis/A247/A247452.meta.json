@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=3^n*Bell(n).",
+  "description": "a(n) = 3^n*Bell(n).",
   "id": "A247452",
   "mentions": [
     "A000110",

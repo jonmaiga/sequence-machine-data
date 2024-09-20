@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the denominator of (120*n^2 + 151*n + 47)/(512*n^4 + 1024*n^3 + 712*n^2 + 194*n + 15).",
+  "id": "A374581",
+  "mentions": [
+    "A000796",
+    "A001025",
+    "A374335",
+    "A374580",
+    "A374608"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "For n>1, if n mod a(n-1) = 0 or a(n-1) mod n = 0, set a(n) = n + a(n-1); otherwise a(n) = abs(n - a(n-1)). Start with a(1)=1.",
+  "id": "A372696",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

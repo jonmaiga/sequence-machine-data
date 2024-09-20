@@ -1,0 +1,19 @@
+{
+  "description": "Number of complete unit squares that fit inside a circle of radius sqrt(n^2+1) centered at the origin of a square lattice.",
+  "id": "A374532",
+  "mentions": [
+    "A000328",
+    "A046092",
+    "A119677",
+    "A237526"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

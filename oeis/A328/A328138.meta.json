@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m divide 9^m + 8.",
+  "description": "Numbers m that divide 9^m + 8.",
   "id": "A328138",
   "mentions": [
     "A006521",

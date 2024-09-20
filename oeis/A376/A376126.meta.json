@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 + Sum_{k=0..n-1} (k+1)^2 * a(k) * a(n-k-1).",
+  "id": "A376126",
+  "mentions": [
+    "A007317",
+    "A321087",
+    "A348857",
+    "A376095",
+    "A376127"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

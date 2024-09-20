@@ -2,11 +2,13 @@
   "description": "Beatty sequence for 1 + log(10).",
   "id": "A059550",
   "mentions": [
+    "A002392",
     "A059549",
     "A080081"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

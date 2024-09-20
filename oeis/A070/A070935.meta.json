@@ -2,6 +2,7 @@
   "description": "Largest proper divisor of n^2.",
   "id": "A070935",
   "mentions": [
+    "A020639",
     "A032742"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 2,
     "size": 57,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

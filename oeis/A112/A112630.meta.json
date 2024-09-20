@@ -1,7 +1,10 @@
 {
   "description": "Squares of the form 3S + 4, where S is a semiprime.",
   "id": "A112630",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A001358"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,0 +1,14 @@
+{
+  "description": "Number of maximal matchings in the n-Pell graph.",
+  "id": "A374523",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

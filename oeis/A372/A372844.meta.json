@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of parking functions of order n for which the fourth spot is lucky.",
+  "id": "A372844",
+  "mentions": [
+    "A000272",
+    "A372842",
+    "A372843",
+    "A372845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

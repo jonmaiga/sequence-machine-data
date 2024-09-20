@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (2*n)!/(2*(n!)^2)-1.",
+  "description": "Primes of the form (2*k)!/(2*(k!)^2)-1.",
   "id": "A112862",
   "mentions": [
     "A001700",

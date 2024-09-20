@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(1 - x)^(2*A(x)^(1/2)).",
+  "id": "A375878",
+  "mentions": [
+    "A052813",
+    "A375879"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

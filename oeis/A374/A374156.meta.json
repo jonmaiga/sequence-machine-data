@@ -1,0 +1,15 @@
+{
+  "description": "Primes p that are quadratic residues modulo 59. Row 17 of A373751.",
+  "id": "A374156",
+  "mentions": [
+    "A373751"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

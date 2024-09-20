@@ -1,14 +1,18 @@
 {
-  "description": "Numerators of convergents to fifth root of 5.",
+  "description": "Numerators of continued fraction convergents to fifth root of 5.",
   "id": "A002364",
   "mentions": [
-    "A005165"
+    "A002363",
+    "A002951",
+    "A005165",
+    "A005534"
   ],
   "tags": [
+    "frac",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 30,
     "source": "joeis"
   }

@@ -1,0 +1,20 @@
+{
+  "description": "The maximum exponent in the prime factorization of the 7-rough numbers (A007775).",
+  "id": "A375668",
+  "mentions": [
+    "A007775",
+    "A051903",
+    "A375039",
+    "A375667"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

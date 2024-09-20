@@ -1,0 +1,16 @@
+{
+  "description": "a(n)/binomial(n,2)! is the probability that the minimum spanning tree of the complete graph of n vertices with i.i.d. random edge weights is a specific path.",
+  "id": "A374293",
+  "mentions": [
+    "A052295",
+    "A253950"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

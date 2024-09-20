@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: the almost-Riordan array ( 1/(1-x) | 2/((1-x)*(1+sqrt(1-4*x))), (1-2*x-sqrt(1-4*x))/(2*x) ).",
+  "id": "A373744",
+  "mentions": [
+    "A000012",
+    "A001453",
+    "A004275",
+    "A014137",
+    "A091823",
+    "A143955"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

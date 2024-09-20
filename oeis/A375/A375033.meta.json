@@ -1,0 +1,24 @@
+{
+  "description": "The maximum even exponent in the prime factorization of n, or 0 if no such exponent exists.",
+  "id": "A375033",
+  "mentions": [
+    "A051903",
+    "A065463",
+    "A162642",
+    "A268335",
+    "A350386",
+    "A350388",
+    "A375031",
+    "A375032"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of runs of 0's in A014550(n).",
+  "id": "A373082",
+  "mentions": [
+    "A014550"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

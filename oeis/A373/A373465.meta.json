@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes with exactly 5 distinct prime divisors.",
+  "id": "A373465",
+  "mentions": [
+    "A002113",
+    "A046331",
+    "A046395",
+    "A051270",
+    "A373466",
+    "A373467"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

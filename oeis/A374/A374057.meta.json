@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that all k - p are primitive practical numbers where p is a primitive practical number in range k/2 <= p < k.",
+  "id": "A374057",
+  "mentions": [
+    "A267124",
+    "A320447",
+    "A321152"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

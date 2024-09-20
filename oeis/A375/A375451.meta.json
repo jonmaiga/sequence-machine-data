@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 0 = Sum_{k=0..n} (-1)^k * binomial(n,k)^2 * ([x^k] A(x)^n) for n >= 1.",
+  "id": "A375451",
+  "mentions": [
+    "A008459",
+    "A115368"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

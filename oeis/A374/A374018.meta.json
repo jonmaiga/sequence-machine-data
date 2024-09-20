@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} 1 / (1 - x^(3*k-1))^2.",
+  "id": "A374018",
+  "mentions": [
+    "A000712",
+    "A022567",
+    "A035386",
+    "A078182",
+    "A261616",
+    "A374019"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

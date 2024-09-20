@@ -1,0 +1,17 @@
+{
+  "description": "Number of graphs of order n with exactly one Hamiltonian cycle of girth at least 5.",
+  "id": "A374313",
+  "mentions": [
+    "A307956",
+    "A374312"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

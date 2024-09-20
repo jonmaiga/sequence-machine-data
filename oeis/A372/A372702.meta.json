@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n such that the set of parts is {1,2,3}.",
+  "id": "A372702",
+  "mentions": [
+    "A048793",
+    "A107429",
+    "A245738",
+    "A373118"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

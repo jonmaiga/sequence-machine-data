@@ -1,7 +1,9 @@
 {
   "description": "a(1) = 1. a(n) = the smallest positive multiple of a(n-1) with exactly n 1's in its binary representation.",
   "id": "A140451",
-  "mentions": [],
+  "mentions": [
+    "A000120"
+  ],
   "tags": [
     "base",
     "nonn"

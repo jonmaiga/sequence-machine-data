@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (25^n-1)/24.",
+  "description": "a(n) = (25^n - 1)/24.",
   "id": "A218728",
   "mentions": [
     "A000225",
@@ -40,7 +40,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

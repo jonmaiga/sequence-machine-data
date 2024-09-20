@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor[ n!/(R(n))! ], where R(n) = Digit reversal of n (A004086).",
+  "description": "a(n) = floor(n!/R(n)!), where R(n) = digit reversal of n (A004086).",
   "id": "A068158",
   "mentions": [
     "A004086"

@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction for Zeta(3/2) (A078434).",
+  "description": "Continued fraction for zeta(3/2) (A078434).",
   "id": "A078470",
   "mentions": [
     "A078434"
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 96,
     "source": "oeis-entry"
   }

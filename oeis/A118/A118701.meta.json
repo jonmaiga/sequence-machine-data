@@ -1,16 +1,19 @@
 {
-  "description": "Largest prime (or power of prime) that divides the average of twin-prime pairs.",
+  "description": "Largest prime power that divides the average of twin-prime pairs.",
   "id": "A118701",
   "mentions": [
     "A014574",
-    "A060210"
+    "A034699",
+    "A060210",
+    "A246655"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
-    "source": "oeis-entry"
+    "size": 65,
+    "source": "oeis-bfile"
   }
 }

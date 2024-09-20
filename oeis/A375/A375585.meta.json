@@ -1,0 +1,15 @@
+{
+  "description": "Number of ASCII letter 'A' bytes that when compressed with zlib generate a new record longest compressed byte stream.",
+  "id": "A375585",
+  "mentions": [
+    "A234849"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

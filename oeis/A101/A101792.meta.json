@@ -1,19 +1,23 @@
 {
-  "description": "Primes of the form 8*k-1 such that 4*k-1 and 16*k-1 are primes.",
+  "description": "Primes of the form 8*k-1 such that 4*k-1 and 16*k-1 are also primes.",
   "id": "A101792",
   "mentions": [
     "A002515",
+    "A007522",
     "A101790",
     "A101791",
-    "A101793"
+    "A101793",
+    "A101796",
+    "A101996"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(n-1) + rotate(a(n-1), n-2 digits left) with a(1) = 1.",
+  "id": "A374733",
+  "mentions": [
+    "A001127",
+    "A051299",
+    "A051300",
+    "A374731",
+    "A374732",
+    "A374734"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

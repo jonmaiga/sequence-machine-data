@@ -1,5 +1,5 @@
 {
-  "description": "EulerPhi is iterated with initial value n!; a(n) = number of powers of 2 among the iterates.",
+  "description": "a(n) is the number of powers of 2 among the iterates of the Euler phi function when it is iterated with initial value n!.",
   "id": "A053045",
   "mentions": [
     "A000010",

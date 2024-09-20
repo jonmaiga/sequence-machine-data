@@ -1,0 +1,17 @@
+{
+  "description": "Primes p = prime(k) such that 0 = Sum_{j=1..k} T(k, j) where T(n, k) = K(prime(n), prime(k)) * K(prime(k), prime(n)) and K is the Kronecker symbol.",
+  "id": "A373225",
+  "mentions": [
+    "A096448",
+    "A373223",
+    "A373224"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

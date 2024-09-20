@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that there is a unique number m for which the sum of the aliquot coreful divisors of m (A336563) is k.",
+  "id": "A372742",
+  "mentions": [
+    "A000040",
+    "A057709",
+    "A307958",
+    "A336563",
+    "A357324",
+    "A361419",
+    "A372739",
+    "A372743"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

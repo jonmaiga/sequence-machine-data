@@ -1,10 +1,9 @@
 {
-  "description": "Least number k>1 such that (tau(k-1)+tau(k+1))/tau(k)=n where tau=A000005.",
+  "description": "Least number k>1 such that (tau(k-1)+tau(k+1))/tau(k) = n where tau = A000005.",
   "id": "A190644",
   "mentions": [
     "A000005",
-    "A190612",
-    "A190664"
+    "A190612"
   ],
   "tags": [
     "nonn"

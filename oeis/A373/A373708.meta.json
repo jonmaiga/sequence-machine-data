@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp(x * (1 + x^4)^2).",
+  "id": "A373708",
+  "mentions": [
+    "A190877",
+    "A361278",
+    "A373524",
+    "A373525",
+    "A373526",
+    "A373578",
+    "A373706",
+    "A373707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

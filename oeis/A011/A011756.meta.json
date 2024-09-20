@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = prime(n(n+1)/2).",
+  "description": "a(n) = prime(n*(n+1)/2).",
   "id": "A011756",
   "mentions": [
     "A000040",
     "A000217",
+    "A000720",
     "A034953",
     "A078721",
     "A195678"

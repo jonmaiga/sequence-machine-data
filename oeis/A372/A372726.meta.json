@@ -1,0 +1,23 @@
+{
+  "description": "Legendre's triangle read by rows. T(n, k) = L(n / prime(k)) where L(n/p) is the Legendre symbol, for n >= 0 and 2 <= k <= n + 2.",
+  "id": "A372726",
+  "mentions": [
+    "A217831",
+    "A372725",
+    "A372728",
+    "A372877",
+    "A373223",
+    "A373748",
+    "A373751"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

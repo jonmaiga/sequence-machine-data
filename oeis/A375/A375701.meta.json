@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / sqrt(1 + x^3 * log(1 - x)).",
+  "id": "A375701",
+  "mentions": [
+    "A351504",
+    "A375699",
+    "A375700",
+    "A375718"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

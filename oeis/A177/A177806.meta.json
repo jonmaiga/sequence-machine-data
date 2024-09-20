@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k)=prime(k)^(n-1) mod prime(n), 1<=k<=n.",
+  "description": "Triangle read by rows: T(n,k) = prime(k)^(n-1) mod prime(n), 1 <= k <= n.",
   "id": "A177806",
   "mentions": [
     "A000079",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 83,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

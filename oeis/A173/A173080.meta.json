@@ -1,7 +1,9 @@
 {
-  "description": "Positive integers with the property that the sum of cubes of the divisors is a multiple of 585.",
+  "description": "Positive integers with the property that the sum of the cubes of their divisors is a multiple of 585.",
   "id": "A173080",
-  "mentions": [],
+  "mentions": [
+    "A001158"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: Coefficients of the polynomials N(n, x) * EZ(n, x), where N denote the Narayana polynomials A131198 and EZ the Eulerian zig-zag polynomials A205497.",
+  "id": "A373431",
+  "mentions": [
+    "A131198",
+    "A205497",
+    "A373430"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum of aliquot parts of n is a nontrivial power: sigma(n) - n = a^b for integers a>1, b>1.",
+  "description": "Numbers k such that sum of aliquot parts of k is a nontrivial power: sigma(k) - k = a^b for integers a>1, b>1.",
   "id": "A190665",
   "mentions": [
     "A001597",

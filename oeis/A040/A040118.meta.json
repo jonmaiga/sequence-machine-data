@@ -1,10 +1,14 @@
 {
   "description": "Continued fraction for sqrt(130).",
   "id": "A040118",
-  "mentions": [],
+  "mentions": [
+    "A041236",
+    "A041237"
+  ],
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of permutations in symmetric group S_n with an even number of non-fixed point cycles, without k<=n particular fixed points.",
+  "id": "A374419",
+  "mentions": [
+    "A047920",
+    "A062111",
+    "A216778",
+    "A373339",
+    "A374420"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A373792, halved.",
+  "id": "A373793",
+  "mentions": [
+    "A372072",
+    "A372073",
+    "A372078",
+    "A372081",
+    "A373390",
+    "A373786",
+    "A373792"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 38,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

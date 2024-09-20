@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquares with last digit in {0, 1, 4, 5, 6, 9}.",
+  "id": "A374492",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A008854"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number of straight lines needed to intersect all points (k, phi(k)) for k = 1..n (where phi is the Euler totient function A000010).",
+  "id": "A373810",
+  "mentions": [
+    "A000010",
+    "A373813",
+    "A373815",
+    "A375499"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

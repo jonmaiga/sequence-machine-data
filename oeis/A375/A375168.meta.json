@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k with omega(k) = A001221(k) > 2 such that the set of distinct primes dividing k arranged in ascending order is an arithmetic progression.",
+  "id": "A375168",
+  "mentions": [
+    "A001221"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

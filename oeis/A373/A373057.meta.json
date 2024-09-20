@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that iphi(k) divides k, where iphi is the infinitary Euler phi function (A064380).",
+  "id": "A373057",
+  "mentions": [
+    "A007694",
+    "A064380",
+    "A097296",
+    "A319481",
+    "A335327"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 8^n-4^n+1^n.",
+  "description": "a(n) = 8^n - 4^n + 1.",
   "id": "A155629",
   "mentions": [
     "A155596",
@@ -23,7 +23,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

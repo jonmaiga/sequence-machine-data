@@ -1,5 +1,5 @@
 {
-  "description": "phi(n) divides sigma(n) and sigma(n)/n > sigma(m)/m for all m < n.",
+  "description": "Numbers k such that phi(k) divides sigma(k) and sigma(k)/k > sigma(m)/m for all m < k.",
   "id": "A007668",
   "mentions": [
     "A004394",

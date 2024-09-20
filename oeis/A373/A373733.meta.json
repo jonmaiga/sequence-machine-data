@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers with tetrahedral indices: a(n) = (1/72) * (n*(n+1)*(n+2)*(n+3)*(n^2+2)).",
+  "id": "A373733",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A054563"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

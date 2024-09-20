@@ -2,7 +2,8 @@
   "description": "G.f. satisfies: A(x) = sqrt( theta_3(x*A(x)) / theta_4(x*A(x)) ).",
   "id": "A216879",
   "mentions": [
-    "A080054"
+    "A080054",
+    "A366706"
   ],
   "tags": [
     "formulas",

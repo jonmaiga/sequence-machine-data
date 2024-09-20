@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct positive cubes in exactly 2 ways, or -1 if no such number exists.",
+  "id": "A374417",
+  "mentions": [
+    "A000537",
+    "A011541",
+    "A350270",
+    "A374287"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

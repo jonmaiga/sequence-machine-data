@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = the number of integers k, 1 <= k <= n-1, such that p(n)-p(k) is divisible by n-k (here p(n) = the n-th prime.)",
+  "description": "a(n) = the number of integers k, 1 <= k <= n-1, such that prime(n)-prime(k) is divisible by n-k (where prime(n) = the n-th prime.)",
   "id": "A163001",
-  "mentions": [],
+  "mentions": [
+    "A000040"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (2/7)*sqrt(3).",
+  "id": "A372912",
+  "mentions": [
+    "A372913",
+    "A372914"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

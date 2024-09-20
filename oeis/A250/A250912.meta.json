@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(7+1) 0..2 arrays with no 2X2 subblock having its maximum diagonal element less than its minimum antidiagonal element",
+  "description": "Number of (n+1) X (7+1) 0..2 arrays with no 2 X 2 subblock having its maximum diagonal element less than its minimum antidiagonal element.",
   "id": "A250912",
   "mentions": [
     "A250913"

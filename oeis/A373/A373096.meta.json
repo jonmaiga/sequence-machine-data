@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a([n/9]) + a([n/27]) + a([n/81]) + ..., where a(0) = 0, a(1) = 1, and [ ] = floor().",
+  "id": "A373096",
+  "mentions": [
+    "A000045",
+    "A000244",
+    "A373095",
+    "A373097"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

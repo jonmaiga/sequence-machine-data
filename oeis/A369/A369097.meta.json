@@ -1,24 +1,17 @@
 {
-  "description": "Numbers k >= 1 such that sigma(k) divides the difference between the pentagonal numbers P(k + 1) - P(k), where sigma(k) is the sum of the divisors of k.",
+  "description": "Least starting prime of exactly n consecutive primes p_i (i = 1..n) such that bigomega(p_i + 1) = 1 + i.",
   "id": "A369097",
   "mentions": [
-    "A000203",
-    "A000326",
-    "A014224",
-    "A016777",
-    "A090777",
-    "A356410",
-    "A369093",
-    "A369096"
+    "A001222",
+    "A072875"
   ],
   "tags": [
-    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

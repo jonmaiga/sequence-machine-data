@@ -2,6 +2,7 @@
   "description": "Triangle of Eulerian numbers with rows multiplied by 1 + x.",
   "id": "A008518",
   "mentions": [
+    "A000007",
     "A000325",
     "A008292",
     "A098558",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 57,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

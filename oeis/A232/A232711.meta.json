@@ -1,5 +1,5 @@
 {
-  "description": "Conjectured list of positive numbers n such that the Collatz-like map T: if x odd, x -> 5*x+1 and if x even, x -> x/2, when started at n, eventually reaches 1.",
+  "description": "Conjectured list of numbers whose trajectory under the '5x+1' map eventually reaches 1.",
   "id": "A232711",
   "mentions": [
     "A057688",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

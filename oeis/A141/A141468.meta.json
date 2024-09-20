@@ -2,12 +2,9 @@
   "description": "Zero together with the nonprime numbers A018252.",
   "id": "A141468",
   "mentions": [
-    "A000040",
-    "A001477",
     "A002808",
     "A018252",
-    "A054546",
-    "A158611"
+    "A054546"
   ],
   "tags": [
     "formulas",

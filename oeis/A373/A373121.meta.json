@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of B(x)^2, where B(x) is the g.f. of A230322.",
+  "id": "A373121",
+  "mentions": [
+    "A230322",
+    "A375148",
+    "A375149"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (16 + 5*sqrt(2))/15.",
+  "id": "A372831",
+  "mentions": [
+    "A372778"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Numbers in a hexagonal tiling (seen as concentric rings) which have exactly three neighbors whose difference from it is prime.",
+  "id": "A372223",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

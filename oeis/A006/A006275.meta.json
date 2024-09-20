@@ -2,7 +2,8 @@
   "description": "Pierce expansion of sqrt(2) - 1.",
   "id": "A006275",
   "mentions": [
-    "A006276"
+    "A006276",
+    "A014176"
   ],
   "tags": [
     "easy",

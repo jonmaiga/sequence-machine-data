@@ -1,0 +1,24 @@
+{
+  "description": "4-full numbers that are not prime powers.",
+  "id": "A372841",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A007947",
+    "A024619",
+    "A036966",
+    "A036967",
+    "A126706",
+    "A286708",
+    "A372695"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonsquarefree integers between primes p(n) and p(n+1).",
+  "description": "Number of nonsquarefree integers between primes prime(n) and prime(n+1).",
   "id": "A061399",
   "mentions": [
     "A005117",

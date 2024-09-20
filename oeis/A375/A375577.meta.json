@@ -1,0 +1,30 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = k^n + k*n + 1.",
+  "id": "A375577",
+  "mentions": [
+    "A000290",
+    "A004247",
+    "A004248",
+    "A005408",
+    "A005491",
+    "A007395",
+    "A054977",
+    "A176691",
+    "A176805",
+    "A176916",
+    "A176972",
+    "A214647",
+    "A375578"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

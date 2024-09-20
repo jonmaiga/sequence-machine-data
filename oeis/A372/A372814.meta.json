@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. T(x) satisfying T(x) = (1/2) * sinh( 2*x*cosh( x*sqrt(1 + 4*T(x)^2) ) ), where a(n) is the coefficient of x^(2*n+1)/(2*n+1)! in T(x) for n >= 0.",
+  "id": "A372814",
+  "mentions": [
+    "A007106",
+    "A370433",
+    "A372811",
+    "A372812",
+    "A372813"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

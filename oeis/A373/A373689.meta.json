@@ -1,0 +1,20 @@
+{
+  "description": "Perfect powers such that the three numbers before it and the three numbers after it are squarefree.",
+  "id": "A373689",
+  "mentions": [
+    "A001597",
+    "A005117",
+    "A068088",
+    "A075090",
+    "A373077",
+    "A373287"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

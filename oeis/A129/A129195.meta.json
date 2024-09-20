@@ -1,7 +1,8 @@
 {
-  "description": "a(n)=denominator(n!/4^n).",
+  "description": "a(n) = denominator(n!/4^n).",
   "id": "A129195",
   "mentions": [
+    "A049606",
     "A092391"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 32,
+    "source": "joeis"
   }
 }

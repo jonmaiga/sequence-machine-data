@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^(2n-1) mod (2n+1) is prime.",
+  "description": "Numbers k such that 2^(2*k-1) mod (2*k+1) is prime.",
   "id": "A179003",
   "mentions": [
     "A000040",
@@ -7,7 +7,6 @@
     "A178970"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the numerator of the expected number of nodes of the tree representing the process of eliminating from n people a random group by tossing coins, and repeating this process recursively until a single loser is determined.",
+  "id": "A372424",
+  "mentions": [
+    "A372422",
+    "A372425"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,11 @@
   "description": "Numbers k such that (k^2 + k + 1)/19 is prime.",
   "id": "A002643",
   "mentions": [
-    "A001912"
+    "A001912",
+    "A002640",
+    "A002641",
+    "A002642",
+    "A002644"
   ],
   "tags": [
     "easy",

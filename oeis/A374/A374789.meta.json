@@ -1,0 +1,19 @@
+{
+  "description": "Distinct values of A374560, in order of appearance, with offset 0.",
+  "id": "A374789",
+  "mentions": [
+    "A003462",
+    "A374560",
+    "A374790"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

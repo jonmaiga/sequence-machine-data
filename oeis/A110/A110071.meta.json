@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that n=pi(d_1!!*d_2!!*...*d_k!!) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "description": "Numbers n such that n = pi(d_1!!*d_2!!*...*d_k!!) where d_1 d_2 ... d_k is the decimal expansion of n.",
   "id": "A110071",
   "mentions": [
+    "A000720",
+    "A006882",
     "A097655",
     "A110070",
     "A110072"
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

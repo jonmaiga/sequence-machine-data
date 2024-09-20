@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table read by rows: Starting with an empty stack of numbers successively add each integer n and then stabilize the stack using the rules given in the Comments. T(n,k) gives the number in the k-th layer after adding n.",
+  "id": "A370193",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000330",
+    "A372612",
+    "A374496"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

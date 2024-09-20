@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array by antidiagonals: row n gives the ranks of {2,3}-power towers that start with n 2's, for n >=0; see Comments.",
+  "description": "Rectangular array by antidiagonals: row n gives the ranks of {2,3}-power towers that start with n 2's, for n >= 1; see Comments.",
   "id": "A299325",
   "mentions": [
     "A299229",

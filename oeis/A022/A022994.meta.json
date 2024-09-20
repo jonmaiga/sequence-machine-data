@@ -1,8 +1,12 @@
 {
-  "description": "38-n.",
+  "description": "a(n) = 38 - n.",
   "id": "A022994",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022996"
+  ],
   "tags": [
+    "easy",
     "sign"
   ],
   "terms": {

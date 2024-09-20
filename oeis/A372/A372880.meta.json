@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; a(2) = 3; for n > 2, a(n) is the smallest proper multiple of a(n-1) that contains a(n-2) as subsequence of its digits.",
+  "id": "A372880",
+  "mentions": [
+    "A004643"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

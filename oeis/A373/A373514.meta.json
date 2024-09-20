@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple difference sets of the Singer type (m^2 + m + 1, m + 1, 1) that are a superset of {0, 1, 3} with m = m(n) = A000961(n), for n >= 1.",
+  "id": "A373514",
+  "mentions": [
+    "A000961",
+    "A333852",
+    "A335866",
+    "A373946"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

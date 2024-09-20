@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct representations A005244(n)=A005244(i)*A005244(j)-1.",
+  "description": "Number of distinct representations A005244(n) = A005244(i)*A005244(j)-1 with i < j.",
   "id": "A139128",
   "mentions": [
     "A005244",

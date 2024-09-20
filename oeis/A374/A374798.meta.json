@@ -1,0 +1,16 @@
+{
+  "description": "Inverse permutation to A374797.",
+  "id": "A374798",
+  "mentions": [
+    "A257472",
+    "A374797"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

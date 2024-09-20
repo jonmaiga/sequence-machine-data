@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where exactly n pairs of positive integers (x, y) exist such that x^2 + 19*y^2 = k.",
+  "id": "A374161",
+  "mentions": [
+    "A328151",
+    "A343105",
+    "A374158",
+    "A374159",
+    "A374160"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

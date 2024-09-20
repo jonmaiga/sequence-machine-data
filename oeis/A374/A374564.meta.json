@@ -1,0 +1,14 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x)^3 = A( (x - A(x))*(A(x) - 2*x) ).",
+  "id": "A374564",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

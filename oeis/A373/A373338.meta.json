@@ -1,0 +1,19 @@
+{
+  "description": "Characteristic function of A333242: a(n) = 1 if n is a term of A333242.",
+  "id": "A373338",
+  "mentions": [
+    "A078442",
+    "A262275",
+    "A333242",
+    "A348677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

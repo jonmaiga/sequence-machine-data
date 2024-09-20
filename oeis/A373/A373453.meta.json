@@ -1,0 +1,20 @@
+{
+  "description": "Iterate the function x <- phi(sigma(x)). The sequence has the smallest member of cycles of length 3.",
+  "id": "A373453",
+  "mentions": [
+    "A001229",
+    "A095955",
+    "A095956",
+    "A373435",
+    "A373454"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

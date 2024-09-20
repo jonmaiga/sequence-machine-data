@@ -1,5 +1,5 @@
 {
-  "description": "Least integer such that quotient q=[sigma(n)-n]/[n-phi(n)] defining A068418 equals n.",
+  "description": "Least integer k such that (sigma(k)-k)/(k-phi(k)) = n.",
   "id": "A069714",
   "mentions": [
     "A000010",

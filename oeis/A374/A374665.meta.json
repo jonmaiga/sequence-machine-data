@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first number that is the concatenation of n primes and also the product of n primes (counted with multiplicity).",
+  "id": "A374665",
+  "mentions": [
+    "A001222",
+    "A046034",
+    "A374376"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

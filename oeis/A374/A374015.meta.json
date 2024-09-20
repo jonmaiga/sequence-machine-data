@@ -1,0 +1,18 @@
+{
+  "description": "Residue modulo 5 of n! divided by the highest power of 10 which divides n!.",
+  "id": "A374015",
+  "mentions": [
+    "A004154",
+    "A010874",
+    "A145679"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

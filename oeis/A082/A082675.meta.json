@@ -1,5 +1,5 @@
 {
-  "description": "Constant term when a polynomial of degree n is fitted to the first n+1 upper members of the twin prime pairs.",
+  "description": "Constant term when a polynomial of degree <= n is fitted to the first n+1 upper members of the twin prime pairs.",
   "id": "A082675",
   "mentions": [
     "A006512",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

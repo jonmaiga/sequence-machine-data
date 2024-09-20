@@ -1,0 +1,19 @@
+{
+  "description": "k is term if k is a square and its odd part is divisible by exactly two distinct primes.",
+  "id": "A373087",
+  "mentions": [
+    "A000290",
+    "A098904",
+    "A336101",
+    "A372724"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

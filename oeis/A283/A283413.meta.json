@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..1 arrays with no 1 equal to more than three of its horizontal, vertical and antidiagonal neighbors.",
+  "description": "Number of n X 6 0..1 arrays with no 1 equal to more than three of its horizontal, vertical and antidiagonal neighbors.",
   "id": "A283413",
   "mentions": [
     "A283415"

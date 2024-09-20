@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of the sagitta of a regular 10-gon with unit side length.",
+  "id": "A375189",
+  "mentions": [
+    "A001622",
+    "A019907",
+    "A020769",
+    "A174968",
+    "A178816",
+    "A179452",
+    "A256853",
+    "A374972",
+    "A375068",
+    "A375069",
+    "A375070",
+    "A375192",
+    "A375194"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

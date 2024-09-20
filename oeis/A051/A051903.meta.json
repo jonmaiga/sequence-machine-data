@@ -1,5 +1,5 @@
 {
-  "description": "Maximal exponent in prime factorization of n.",
+  "description": "Maximum exponent in the prime factorization of n.",
   "id": "A051903",
   "mentions": [
     "A001055",

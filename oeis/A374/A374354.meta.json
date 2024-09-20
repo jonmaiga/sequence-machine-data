@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, 0 <= k < A277561(n), read by rows; the n-th row lists the fibbinary numbers f <= n such that n - f is also a fibbinary number whose binary expansion has no common 1's with that of f (where fibbinary numbers correspond to A003714).",
+  "id": "A374354",
+  "mentions": [
+    "A003714",
+    "A037800",
+    "A277561",
+    "A295989",
+    "A374355",
+    "A374356",
+    "A374361"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

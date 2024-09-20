@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of [n] into blocks whose largest element is >= the sum of the remaining block elements.",
+  "id": "A375677",
+  "mentions": [
+    "A000110",
+    "A375641"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

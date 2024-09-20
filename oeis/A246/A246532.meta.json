@@ -6,12 +6,13 @@
     "A189398"
   ],
   "tags": [
+    "hard",
     "more",
     "sign"
   ],
   "terms": {
     "offset": 2,
-    "size": 16,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

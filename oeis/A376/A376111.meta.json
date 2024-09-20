@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} (2^k-1) * a(k-1) * a(n-k).",
+  "id": "A376111",
+  "mentions": [
+    "A000556",
+    "A015083",
+    "A376112",
+    "A376113"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,17 +1,19 @@
 {
-  "description": "Pairs of prime numbers (p,q) starting with a(1)=2 such that p U q (where U denotes concatenation) is a prime number and a(n) is always extended with the smallest available prime not yet present in the sequence.",
+  "description": "List of pairs of prime numbers (p,q) starting with (2, 3) such that p || q (where || denotes concatenation) is a prime number and the sequence is always extended with the smallest prime not yet present in the sequence.",
   "id": "A244862",
   "mentions": [
     "A000040",
-    "A105184"
+    "A105184",
+    "A373794"
   ],
   "tags": [
     "base",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 59,
-    "source": "oeis-entry"
+    "size": 75,
+    "source": "oeis-bfile"
   }
 }

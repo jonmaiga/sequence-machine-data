@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(2*binomial(2*n,n-1),binomial(2*n,n-1)-1)",
+  "description": "a(n) = binomial(2*binomial(2*n,n-1),binomial(2*n,n-1)-1).",
   "id": "A101355",
   "mentions": [],
   "tags": [

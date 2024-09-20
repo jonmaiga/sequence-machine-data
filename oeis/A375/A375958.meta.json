@@ -1,0 +1,19 @@
+{
+  "description": "The smallest positive number that when written in all bases 2 to n contains two or more adjacent equal digits.",
+  "id": "A375958",
+  "mentions": [
+    "A055085",
+    "A171901",
+    "A368866",
+    "A375997",
+    "A375998"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

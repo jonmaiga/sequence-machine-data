@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that the multiplicative order of 16 modulo p is 2*n, or 0 if no such prime exists.",
+  "id": "A372800",
+  "mentions": [
+    "A054471",
+    "A101208",
+    "A101209",
+    "A372797",
+    "A372798",
+    "A372799",
+    "A372801"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

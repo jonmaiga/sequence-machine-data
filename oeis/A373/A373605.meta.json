@@ -1,0 +1,33 @@
+{
+  "description": "Sum of the even-indexed digits minus the sum of the odd-indexed digits in the primorial base representation (A049345) of n.",
+  "id": "A373605",
+  "mentions": [
+    "A049345",
+    "A055017",
+    "A065359",
+    "A065368",
+    "A195017",
+    "A276086",
+    "A346688",
+    "A346689",
+    "A346690",
+    "A346691",
+    "A346731",
+    "A346732",
+    "A373606",
+    "A373607",
+    "A373830",
+    "A373831"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For any n > 0, let b_n(n+1) = 0, and for k = 1..n, if b_n(k+1) >= k then b_n(k) = b_n(k+1) - k otherwise b_n(k) = b_n(k+1) + k; a(n) = b_n(1).",
+  "id": "A374318",
+  "mentions": [
+    "A008344",
+    "A042963",
+    "A374317"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

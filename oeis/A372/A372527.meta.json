@@ -1,0 +1,14 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A( A(x)^2 ) = x*A(x)/(1 - 2*A(x)).",
+  "id": "A372527",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

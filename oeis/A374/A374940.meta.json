@@ -1,0 +1,17 @@
+{
+  "description": "Array read by rows: T(m,n) is the number of m-digit semiprimes with last digit n, 0 <= n <= 9.",
+  "id": "A374940",
+  "mentions": [
+    "A001358"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{1 <= x_1, x_2, x_3, x_4 <= n} ( n/gcd(x_1, x_2, x_3, x_4, n) )^2.",
+  "id": "A372963",
+  "mentions": [
+    "A013663",
+    "A013665",
+    "A068963",
+    "A084218",
+    "A084220",
+    "A372962"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

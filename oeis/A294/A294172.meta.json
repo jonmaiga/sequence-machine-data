@@ -1,5 +1,5 @@
 {
-  "description": "Maximum value of the cyclic convolution of first n positive integers with themselves.",
+  "description": "Maximum value of the cyclic convolution of the first n positive integers with themselves.",
   "id": "A294172",
   "mentions": [
     "A000292",

@@ -1,11 +1,12 @@
 {
-  "description": "Prime Lucas 3-step numbers, A001644.",
+  "description": "Primes in A001644 (the Lucas 3-step numbers).",
   "id": "A105762",
   "mentions": [
     "A001644",
     "A104576"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

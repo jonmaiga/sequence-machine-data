@@ -2,12 +2,14 @@
   "description": "Primes p such that p-1 divides 2^p-2.",
   "id": "A069051",
   "mentions": [
+    "A014117",
     "A014741",
     "A014945",
     "A211203",
     "A211349",
     "A216822",
-    "A217468"
+    "A217468",
+    "A330382"
   ],
   "tags": [
     "nonn"

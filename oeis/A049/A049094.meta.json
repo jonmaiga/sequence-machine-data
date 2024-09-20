@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n - 1 is divisible by a square > 1.",
+  "description": "Numbers m such that 2^m - 1 is divisible by a square > 1.",
   "id": "A049094",
   "mentions": [
     "A001220",

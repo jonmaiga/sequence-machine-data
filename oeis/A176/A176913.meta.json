@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with maximal exponent in prime factorization equal to 1, such that n+1 has maximal exponent 2, n+2 has maximal exponent 3, and n+3 has maximal exponent 4.",
+  "description": "Numbers k with maximal exponent in prime factorization equal to 1, such that k+1 has maximal exponent 2, k+2 has maximal exponent 3, and k+3 has maximal exponent 4.",
   "id": "A176913",
   "mentions": [
     "A051903"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Partial quotients of the continued fraction of e^(1/e).",
+  "description": "Continued fraction expansion of e^(1/e).",
   "id": "A084574",
   "mentions": [
     "A073229"
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 98,
     "source": "joeis"
   }

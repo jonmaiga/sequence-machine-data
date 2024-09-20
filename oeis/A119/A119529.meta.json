@@ -2,7 +2,8 @@
   "description": "Numbers k such that Sum_{j=1..k-1} j*2^(j-1) is prime.",
   "id": "A119529",
   "mentions": [
-    "A000523"
+    "A000523",
+    "A125569"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

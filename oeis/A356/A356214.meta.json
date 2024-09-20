@@ -3,13 +3,11 @@
   "id": "A356214",
   "mentions": [],
   "tags": [
-    "bref",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
-    "source": "oeis-entry"
+    "size": 5,
+    "source": "oeis-bfile"
   }
 }

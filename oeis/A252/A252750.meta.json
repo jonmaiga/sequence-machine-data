@@ -2,22 +2,26 @@
   "description": "a(n) = A003961(A005940(n+1)) - 2 * A005940(n+1).",
   "id": "A252750",
   "mentions": [
+    "A003063",
     "A003961",
     "A005940",
+    "A062234",
     "A246282",
     "A249820",
     "A252743",
     "A252745",
     "A252748",
-    "A252751"
+    "A252751",
+    "A372562"
   ],
   "tags": [
     "formulas",
-    "sign"
+    "sign",
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 84,
+    "offset": 0,
+    "size": 85,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that Taxicab(2,j,k) exists for large j.",
+  "id": "A374486",
+  "mentions": [
+    "A025416",
+    "A080673",
+    "A295702",
+    "A295795"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

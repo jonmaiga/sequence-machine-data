@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the n-th squarefree number having n primes.",
+  "description": "a(n) is the n-th squarefree number having n prime factors.",
   "id": "A340467",
   "mentions": [
     "A000040",

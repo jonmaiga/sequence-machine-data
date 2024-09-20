@@ -2,15 +2,19 @@
   "description": "The unique function f with f(1)=1 and f(jD!+k)=(-1)^j f(k) for all D, j=1..D, and k=1..D!.",
   "id": "A262725",
   "mentions": [
-    "A237695"
+    "A034968",
+    "A237695",
+    "A343785",
+    "A374468"
   ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

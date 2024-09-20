@@ -1,0 +1,19 @@
+{
+  "description": "Number of even reduced Latin squares of order n.",
+  "id": "A375141",
+  "mentions": [
+    "A000315",
+    "A375121"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,7 @@
 {
-  "description": "a(n) = (3+2n+6n^2+4n^3)/3.",
+  "description": "a(n) = (3 + 2*n + 6*n^2 + 4*n^3)/3.",
   "id": "A166464",
   "mentions": [
-    "A000004",
     "A002492",
     "A010731",
     "A016742",
@@ -16,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 46,
     "source": "joeis"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of log(1111111111/387420489).",
+  "id": "A374642",
+  "mentions": [
+    "A374641",
+    "A374643",
+    "A374644"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

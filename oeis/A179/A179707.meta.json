@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes p*q such that 2^p (mod q) == 2^q (mod p).",
+  "description": "Semiprimes p*q such that 2^p mod q == 2^q mod p.",
   "id": "A179707",
   "mentions": [
     "A001358",

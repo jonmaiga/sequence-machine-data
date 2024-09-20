@@ -2,9 +2,12 @@
   "description": "Negative of the discriminant of quadratic field Q(sqrt(-n)).",
   "id": "A204993",
   "mentions": [
+    "A007913",
     "A037449"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

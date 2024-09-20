@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if the primorial base representation of n has alternating digit sum that is a multiple of 3, otherwise 0.",
+  "id": "A373830",
+  "mentions": [
+    "A031215",
+    "A031368",
+    "A065359",
+    "A079978",
+    "A276086",
+    "A373604",
+    "A373605",
+    "A373831"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Number of independent dominating sets in rooted labeled trees with n nodes.",
   "id": "A058924",
-  "mentions": [],
+  "mentions": [
+    "A058925"
+  ],
   "tags": [
     "nonn"
   ],

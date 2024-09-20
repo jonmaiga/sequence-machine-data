@@ -2,6 +2,7 @@
   "description": "Decimal expansion of log(9).",
   "id": "A016632",
   "mentions": [
+    "A002391",
     "A016737"
   ],
   "tags": [

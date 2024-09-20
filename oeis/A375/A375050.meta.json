@@ -1,0 +1,17 @@
+{
+  "description": "Obverse convolution (n(n+1)/2)**(n(n+1)/2); see Comments.",
+  "id": "A375050",
+  "mentions": [
+    "A000217",
+    "A374848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

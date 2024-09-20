@@ -1,7 +1,9 @@
 {
-  "description": "Number of positive solutions to the Diophantine equation x^2+y^3=n^2.",
+  "description": "Number of positive solutions to the Diophantine equation x^2+y^3=n^2 with y <= x.",
   "id": "A071006",
-  "mentions": [],
+  "mentions": [
+    "A078359"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "description": "Nonsquarefree exponentially odd numbers.",
+  "id": "A374459",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A046099",
+    "A059956",
+    "A062838",
+    "A065036",
+    "A065463",
+    "A102838",
+    "A113850",
+    "A113852",
+    "A179671",
+    "A190011",
+    "A268335",
+    "A301517",
+    "A335988",
+    "A374460"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

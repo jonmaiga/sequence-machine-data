@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1 - x) / ((1 - x)^3 - x^4).",
+  "id": "A375169",
+  "mentions": [
+    "A003522",
+    "A024494",
+    "A052921",
+    "A107068",
+    "A124820",
+    "A137357"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

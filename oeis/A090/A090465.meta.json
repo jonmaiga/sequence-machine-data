@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m such that n followed by m nines yields a prime or -1 if no solution exists or has been found for n.",
+  "description": "Smallest number m such that (n+1)*10^m-1 (i.e., n with m nines appended) yields a prime, or -1 if this will always yield a composite number.",
   "id": "A090465",
   "mentions": [
     "A083747",
@@ -8,11 +8,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 108,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

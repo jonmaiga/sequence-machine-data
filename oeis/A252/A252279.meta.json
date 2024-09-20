@@ -2,7 +2,8 @@
   "description": "Primes p congruent to 1 mod 16 such that x^8 = 2 has a solution mod p.",
   "id": "A252279",
   "mentions": [
-    "A045315"
+    "A045315",
+    "A070184"
   ],
   "tags": [
     "nonn"

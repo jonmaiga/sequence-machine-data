@@ -1,0 +1,20 @@
+{
+  "description": "Cardinality of the largest subset of {1,...,n} such that no five distinct elements of this subset multiply to a square.",
+  "id": "A373178",
+  "mentions": [
+    "A013928",
+    "A028391",
+    "A246849",
+    "A372306",
+    "A373114",
+    "A373119"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

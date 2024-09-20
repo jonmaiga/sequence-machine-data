@@ -1,0 +1,17 @@
+{
+  "description": "Number of planar graphs of order n with exactly one Hamiltonian cycle and girth at least 4.",
+  "id": "A374310",
+  "mentions": [
+    "A307957",
+    "A374311"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

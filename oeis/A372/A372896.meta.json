@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree terms of A372894 whose prime factors are neither elite (A102742) nor anti-elite (A128852).",
+  "id": "A372896",
+  "mentions": [
+    "A102742",
+    "A128852",
+    "A129802",
+    "A372894",
+    "A372895"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

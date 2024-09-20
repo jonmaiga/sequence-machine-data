@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A372041(k) = 3.",
+  "id": "A370633",
+  "mentions": [
+    "A133547",
+    "A160358",
+    "A372041"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

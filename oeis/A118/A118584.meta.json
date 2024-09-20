@@ -1,9 +1,10 @@
 {
-  "description": "Least n-digit prime in base 12 that is a twin prime and Sophie Germain prime of type 1.",
+  "description": "Least n-digit prime in base 12 that is a member of twin prime pair and also either a Sophie Germain prime or a safe prime.",
   "id": "A118584",
   "mentions": [
     "A001359",
     "A005384",
+    "A005385",
     "A006512",
     "A118479"
   ],
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

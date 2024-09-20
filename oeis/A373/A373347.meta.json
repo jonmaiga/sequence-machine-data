@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers k such that A000120(k) > A001511(k).",
+  "id": "A373347",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A008466",
+    "A371176",
+    "A373345",
+    "A373360"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Integer solutions f for f = (4^n - 2^n + 8n^2 - 2) / (2n * (2n + 1)) with n an integer",
+  "description": "Integer solutions f for f = (4^n - 2^n + 8n^2 - 2) / (2n * (2n + 1)) with n an integer.",
   "id": "A158036",
   "mentions": [
     "A002515",

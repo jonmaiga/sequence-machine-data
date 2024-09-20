@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k such that the cyclotomic polynomial Phi(k,x) has height 1, i.e., whose coefficients are all -1, 0, or 1.",
+  "id": "A374137",
+  "mentions": [
+    "A005408",
+    "A013590",
+    "A089684",
+    "A117223",
+    "A117318",
+    "A152955",
+    "A374136"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

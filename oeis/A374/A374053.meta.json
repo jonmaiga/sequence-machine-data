@@ -1,0 +1,17 @@
+{
+  "description": "Multiplicative with a(3^k) = 0, a(p^2k) = 0 and a(p^(2k+1)) = 1 if p == 1 (mod 3), and a(p^2k) = 1 and a(p^(2k+1)) = 0, if p == -1 (mod 3).",
+  "id": "A374053",
+  "mentions": [
+    "A070563",
+    "A353815"
+  ],
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,19 +1,16 @@
 {
-  "description": "Primes indices both at the end and beginning of sequences of primes where consecutive Goldbach primes produce a fourth prime Prime(n)+Prime(n+1)+Prime(n+2) = Prime(m): A072225: replicating prime sequences of length more than one (index both at the end and beginning of a replicating sequence).",
+  "description": "Numbers k such that prime(k) + prime(k+1) + prime(k+2) is prime and also there is a j such that prime(j) + prime(j+1) + prime(j+2) = prime(k).",
   "id": "A117675",
   "mentions": [
-    "A019756",
     "A072225",
     "A109756"
   ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 18,
+    "offset": 1,
+    "size": 52,
     "source": "oeis-entry"
   }
 }

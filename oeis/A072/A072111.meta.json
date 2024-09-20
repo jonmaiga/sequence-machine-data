@@ -1,5 +1,5 @@
 {
-  "description": "Partial sum of Pi(k) from 1 to 2^n.",
+  "description": "Partial sum of pi(k) from k = 1 to 2^n.",
   "id": "A072111",
   "mentions": [
     "A000720",

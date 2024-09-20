@@ -1,0 +1,17 @@
+{
+  "description": "Integer part of (2^(n - 1) - 1)*sqrt(3) + 1.",
+  "id": "A374148",
+  "mentions": [
+    "A002194"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

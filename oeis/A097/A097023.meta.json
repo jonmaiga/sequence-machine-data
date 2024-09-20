@@ -1,12 +1,14 @@
 {
-  "description": "Numbers n such that the sum of the divisors of 2*n^2 is a square.",
+  "description": "Numbers k such that the sum of the divisors of 2*k^2 is a square.",
   "id": "A097023",
   "mentions": [
     "A000203",
     "A008847",
+    "A074388",
     "A097024"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

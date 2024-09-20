@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=0} (1 + x^(i * 5^j)).",
+  "id": "A373219",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A055457",
+    "A174065",
+    "A327726",
+    "A373220",
+    "A373221"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

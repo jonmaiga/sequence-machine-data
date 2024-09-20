@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the sum of all symmetric peaks in the set of flattened Catalan words of length n.",
+  "id": "A372884",
+  "mentions": [
+    "A372879",
+    "A372883"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 28,
+    "source": "joeis"
+  }
+}

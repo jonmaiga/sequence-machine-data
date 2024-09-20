@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of three distinct nonzero n-gonal numbers in exactly n ways, or -1 if no such number exists.",
+  "id": "A374273",
+  "mentions": [
+    "A025415",
+    "A057145",
+    "A350405",
+    "A374144",
+    "A374274"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

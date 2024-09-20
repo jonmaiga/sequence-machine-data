@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 1} 1/A171397(n).",
+  "id": "A375805",
+  "mentions": [
+    "A082830",
+    "A082831",
+    "A082832",
+    "A082833",
+    "A082834",
+    "A082835",
+    "A082836",
+    "A082837",
+    "A082838",
+    "A082839",
+    "A171397",
+    "A375523",
+    "A375524"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

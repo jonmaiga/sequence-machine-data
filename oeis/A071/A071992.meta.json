@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3*n^2 + 2*n - 4*sum( i=1, n, A003159(k) ).",
+  "description": "a(n) = 3*n^2 + 2*n - 4 * Sum_{k=1..n} A003159(k).",
   "id": "A071992",
   "mentions": [
     "A000695",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

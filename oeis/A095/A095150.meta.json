@@ -1,13 +1,20 @@
 {
-  "description": "a(n) = prime(2^2^n + 1).",
+  "description": "a(n) = prime(2^(2^n) + 1).",
   "id": "A095150",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000215",
+    "A095124",
+    "A151800"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

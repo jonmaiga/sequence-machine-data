@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = smallest value of x pertaining to A020498, or the smallest x such that A020498(k) + x is prime for all k = 1 to n.",
+  "description": "a(n) is the smallest x such that A020498(k) + x is prime for all k = 1 to n.",
   "id": "A088650",
   "mentions": [
     "A020498"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

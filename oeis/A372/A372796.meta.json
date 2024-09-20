@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(A(A(A(x)))) = (-1/8) * log(1 - 8*x).",
+  "id": "A372796",
+  "mentions": [
+    "A220112",
+    "A372698",
+    "A372747",
+    "A372795"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

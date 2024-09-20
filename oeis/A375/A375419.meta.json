@@ -1,0 +1,14 @@
+{
+  "description": "Number of maximal matchings in the n-triangular honeycomb obtuse knight graph.",
+  "id": "A375419",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

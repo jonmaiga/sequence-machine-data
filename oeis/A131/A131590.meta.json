@@ -2,9 +2,11 @@
   "description": "Sum of the squares of the first 2^n primes.",
   "id": "A131590",
   "mentions": [
+    "A024450",
     "A099825"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

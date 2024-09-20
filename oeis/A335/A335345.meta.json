@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(x^2/(2*(1 - x)^3)).",
+  "description": "Expansion of e.g.f. exp(x^2/(2*(1 - x)^3)).",
   "id": "A335345",
   "mentions": [
     "A001809",

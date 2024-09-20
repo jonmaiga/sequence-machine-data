@@ -1,0 +1,16 @@
+{
+  "description": "Least prime p that does not divide n such that 2^phi(n) == 1 (mod p), or 0 if no such prime exists.",
+  "id": "A376032",
+  "mentions": [
+    "A000010"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

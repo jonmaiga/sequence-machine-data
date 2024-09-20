@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least start of a run of exactly n successive powerful numbers that are pairwise coprime, or -1 if no such run exists.",
+  "id": "A373705",
+  "mentions": [
+    "A001694",
+    "A349062",
+    "A363191",
+    "A363192",
+    "A373704"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

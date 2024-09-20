@@ -1,0 +1,19 @@
+{
+  "description": "Positions of primes in the sequence of numbers of the form 2^t * 3^u + 1 (A055600).",
+  "id": "A375906",
+  "mentions": [
+    "A003586",
+    "A005109",
+    "A055600",
+    "A174099"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

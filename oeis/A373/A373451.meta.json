@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of (binary) heaps of length n whose element set equals [k]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A373451",
+  "mentions": [
+    "A000007",
+    "A056971",
+    "A057427",
+    "A091980",
+    "A373449",
+    "A373452",
+    "A373496",
+    "A373500",
+    "A373608",
+    "A373632",
+    "A373897"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

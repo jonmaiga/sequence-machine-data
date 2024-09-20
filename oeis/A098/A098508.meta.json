@@ -1,5 +1,5 @@
 {
-  "description": "Second column of the inverse of a Catalan scaled binomial matrix.",
+  "description": "Second column of the inverse of a Catalan scaled binomial matrix (A098505).",
   "id": "A098508",
   "mentions": [
     "A098505"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

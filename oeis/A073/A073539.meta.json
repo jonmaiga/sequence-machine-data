@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that if p is a prime and divides k then p divides phi(k) (but converse is not a condition for the sequence: phi(k) could have prime factors not dividing k).",
+  "description": "Numbers k such that if p is a prime dividing k then p divides phi(k).",
   "id": "A073539",
   "mentions": [
     "A000005",
@@ -7,7 +7,8 @@
     "A002322",
     "A007947",
     "A055744",
-    "A151999"
+    "A151999",
+    "A280936"
   ],
   "tags": [
     "easy",

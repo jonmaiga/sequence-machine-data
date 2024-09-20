@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - x^(3*k-1)) * (1 - x^(3*k)).",
+  "id": "A374060",
+  "mentions": [
+    "A010815",
+    "A035361",
+    "A035382",
+    "A081362",
+    "A082050",
+    "A132462",
+    "A137569",
+    "A274719",
+    "A284315",
+    "A374058"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

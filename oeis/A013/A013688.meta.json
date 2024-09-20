@@ -1,14 +1,20 @@
 {
   "description": "Continued fraction for zeta(12).",
   "id": "A013688",
-  "mentions": [],
+  "mentions": [
+    "A013631",
+    "A013670",
+    "A013679",
+    "A013680",
+    "A013696"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 74,
-    "source": "joeis"
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
   }
 }

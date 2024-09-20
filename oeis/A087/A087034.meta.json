@@ -1,16 +1,17 @@
 {
-  "description": "Number of distinct values taken on by f(P)=Sum[p(i)p(n+1-i),i=1..n] as {p(1),p(2),...,p(n)} ranges over all permutations P of {1,2,3,...n}.",
+  "description": "Number of distinct values taken on by f(P) = Sum_{i=1..n} p(i)*p(n+1-i) as {p(1),p(2),...,p(n)} ranges over all permutations P of {1,2,3,...n}.",
   "id": "A087034",
   "mentions": [
     "A000292",
     "A087035"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
+    "offset": 0,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

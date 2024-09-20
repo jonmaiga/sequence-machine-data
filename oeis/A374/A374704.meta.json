@@ -1,0 +1,50 @@
+{
+  "description": "Number of ways to choose an integer partition of each part of an integer composition of n (A055887) such that the minima are identical.",
+  "id": "A374704",
+  "mentions": [
+    "A000041",
+    "A003242",
+    "A011782",
+    "A055887",
+    "A063834",
+    "A106356",
+    "A141199",
+    "A189076",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A274174",
+    "A279787",
+    "A281145",
+    "A304969",
+    "A305551",
+    "A306319",
+    "A319066",
+    "A319169",
+    "A320324",
+    "A323429",
+    "A333213",
+    "A333489",
+    "A333755",
+    "A358830",
+    "A358833",
+    "A358835",
+    "A358905",
+    "A358911",
+    "A358912",
+    "A374249",
+    "A374685",
+    "A374686",
+    "A374759",
+    "A374760"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

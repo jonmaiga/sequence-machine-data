@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct n-th powers of primes in exactly 2 ways, or -1 if no such number exists.",
+  "id": "A374270",
+  "mentions": [
+    "A349764",
+    "A374256",
+    "A374271",
+    "A374272"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

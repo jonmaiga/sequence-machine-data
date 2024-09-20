@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x / (1 - x^2)^(3/2)).",
+  "id": "A373619",
+  "mentions": [
+    "A012150",
+    "A088009",
+    "A373577",
+    "A373620"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

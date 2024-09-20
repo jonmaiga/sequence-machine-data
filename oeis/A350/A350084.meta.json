@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ord(2,A006935(n)/2), where ord(a,m) is the multiplicative order of a modulo m.",
+  "description": "a(n) = ord(2,A006935(n)/2), where ord(k,m) is the multiplicative order of k modulo m.",
   "id": "A350084",
   "mentions": [
     "A006935",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

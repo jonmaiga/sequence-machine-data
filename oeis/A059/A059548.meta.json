@@ -2,11 +2,13 @@
   "description": "Beatty sequence for 1 + log(3).",
   "id": "A059548",
   "mentions": [
+    "A002391",
     "A059547",
     "A064720"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

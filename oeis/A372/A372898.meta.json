@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k that divide the k-th Padovan number.",
+  "id": "A372898",
+  "mentions": [
+    "A000931",
+    "A014847",
+    "A016089",
+    "A023172",
+    "A051177",
+    "A232570",
+    "A246692",
+    "A266969"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

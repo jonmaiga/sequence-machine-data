@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k gives the maximum quality for abc triples of the form (1, k^n-1, k^n) where n is the sequence index.",
+  "id": "A375622",
+  "mentions": [
+    "A007947",
+    "A216323",
+    "A375019"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

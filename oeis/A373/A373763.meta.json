@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k that are neither primes nor squares of primes such that A006134(k) - A102283(k) is divisible by k.",
+  "id": "A373763",
+  "mentions": [
+    "A006134",
+    "A102283"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,6 @@
   "description": "a(n) is the smallest prime divisor of the number obtained from concatenation of the first n primes.",
   "id": "A104644",
   "mentions": [
-    "A019158",
     "A019518",
     "A020639",
     "A074809"

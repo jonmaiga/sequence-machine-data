@@ -1,15 +1,17 @@
 {
-  "description": "Numbers x=LCM(1,2,...,n) such that x^2 + 1 is prime.",
+  "description": "Numbers x = LCM(1,2,...,k) such that x^2 + 1 is prime.",
   "id": "A053608",
   "mentions": [
     "A003418",
     "A046029",
     "A049536",
+    "A051418",
     "A051451",
     "A051739",
     "A053609"
   ],
   "tags": [
+    "hard",
     "nonn"
   ],
   "terms": {

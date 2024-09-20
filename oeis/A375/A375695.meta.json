@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1 / sqrt(1 - 2 * x * (exp(x) - 1)).",
+  "id": "A375695",
+  "mentions": [
+    "A001147",
+    "A305404",
+    "A367880",
+    "A375687"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

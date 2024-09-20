@@ -1,0 +1,16 @@
+{
+  "description": "Smallest square that can be expressed as Sum_{i=1..n} p(2i-1)^p(2i) where p is a permutation of {1, 2, 3, ..., 2n}.",
+  "id": "A372652",
+  "mentions": [
+    "A372653"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Positions of zeros in A268387: numbers n such that when the exponents e_1 .. e_k in their prime factorization n = p_1^e_1 * ... * p_k^e_k are bitwise-xored together, the result is zero.",
+  "description": "Products of an even number of distinct primes and the square of a number in the sequence (including 1).",
   "id": "A268390",
   "mentions": [
     "A000188",
@@ -7,6 +7,7 @@
     "A003987",
     "A006881",
     "A028260",
+    "A030229",
     "A048833",
     "A059897",
     "A163569",
@@ -17,7 +18,9 @@
     "A262675",
     "A268387",
     "A329329",
-    "A334205"
+    "A334205",
+    "A374472",
+    "A374595"
   ],
   "tags": [
     "base",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3-adic valuation of A008336(3*n).",
+  "id": "A372095",
+  "mentions": [
+    "A007949",
+    "A008336",
+    "A371908",
+    "A372840"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

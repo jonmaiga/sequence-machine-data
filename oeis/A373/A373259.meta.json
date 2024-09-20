@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k' / gcd(k,k') is a multiple of 4 and A276085(k) is a multiple of 8, where k' stands for the arithmetic derivative of k, A003415, and A276085 is the primorial base log-function.",
+  "id": "A373259",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A083345",
+    "A276085",
+    "A369002",
+    "A369005",
+    "A373138",
+    "A373258"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

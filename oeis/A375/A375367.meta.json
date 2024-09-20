@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (log(2*Pi)+gamma)/(2*Pi).",
+  "id": "A375367",
+  "mentions": [
+    "A001620",
+    "A061444",
+    "A375366"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

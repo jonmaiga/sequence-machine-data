@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 17*(5 - 3*A136141)/100.",
+  "id": "A374830",
+  "mentions": [
+    "A136141",
+    "A374829",
+    "A374831"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

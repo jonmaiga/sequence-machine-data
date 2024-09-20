@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k that have more than two prime factors (with multiplicity) and A075255(k) is a multiple of A374127(k).",
+  "id": "A374138",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001222",
+    "A001414",
+    "A033942",
+    "A075255",
+    "A374127",
+    "A374128",
+    "A374129"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

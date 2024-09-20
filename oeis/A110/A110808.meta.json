@@ -1,13 +1,16 @@
 {
-  "description": "Least factorial obtained as n(n-1)...(n-k).",
+  "description": "Least factorial obtained as n*(n-1)*...*(n-k).",
   "id": "A110808",
-  "mentions": [],
+  "mentions": [
+    "A000142"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

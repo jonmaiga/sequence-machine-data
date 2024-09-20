@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which binomial(n, floor(n/2)) has more unitary than non-unitary divisors.",
+  "description": "Numbers k for which binomial(k, floor(k/2)) has more unitary than non-unitary divisors.",
   "id": "A048197",
   "mentions": [
     "A001405",
@@ -9,7 +9,7 @@
     "A048107"
   ],
   "tags": [
-    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

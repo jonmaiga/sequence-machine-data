@@ -1,5 +1,5 @@
 {
-  "description": "Quadratic recurrence that arises when enumerating labeled connected graphs (called Wright's constants).",
+  "description": "a(0) = -1/2; for n > 0, a(n) = 2*(5*n-4)*(5*n-6)*a(n-1) + Sum_{k=1..n-1} a(k)*a(n-k).",
   "id": "A094199",
   "mentions": [
     "A062980"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

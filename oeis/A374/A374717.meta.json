@@ -1,0 +1,19 @@
+{
+  "description": "For n a power of 2, a(n) = n. Otherwise let k = n - 2^j (> 0) where 2^j is the greatest power of 2 not exceeding n, then a(n) = least novel m*a(k); m a term in A033844.",
+  "id": "A374717",
+  "mentions": [
+    "A005940",
+    "A029744",
+    "A033844",
+    "A318400"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

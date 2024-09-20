@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first number that starts a sequence of exactly n primes x(1), ..., x(n) where x(i+1) = A004093(x(i)) is the digit reversal of 2 * x(i).",
+  "id": "A373765",
+  "mentions": [
+    "A004093"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of log(9/10), negated.",
+  "id": "A374641",
+  "mentions": [
+    "A126431",
+    "A374642",
+    "A374643",
+    "A374644"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

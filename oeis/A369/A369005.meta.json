@@ -9,7 +9,10 @@
     "A368995",
     "A369002",
     "A369004",
-    "A369007"
+    "A369007",
+    "A369644",
+    "A373259",
+    "A373265"
   ],
   "tags": [
     "nonn"
@@ -17,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

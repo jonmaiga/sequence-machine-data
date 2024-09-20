@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A001222(n) - A001222(A001414(n)), where A001222 is bigomega, the number of prime factors with multiplicity, and A001414 is sopfr, sum of prime factors with multiplicity. a(1) = 0 by convention.",
+  "id": "A373976",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A045835",
+    "A342956"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

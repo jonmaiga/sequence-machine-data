@@ -2,7 +2,9 @@
   "description": "Decimal expansion of solution to exp(-x) = x^2.",
   "id": "A126583",
   "mentions": [
-    "A030178"
+    "A030178",
+    "A099554",
+    "A202356"
   ],
   "tags": [
     "cons",

@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(n,m) = number of matchings (i.e., Hosoya index) in C_n X C_m.",
+  "description": "Array read by antidiagonals: T(n,m) is the number of matchings in the torus grid graph C_n X C_m.",
   "id": "A270246",
   "mentions": [
     "A000032",

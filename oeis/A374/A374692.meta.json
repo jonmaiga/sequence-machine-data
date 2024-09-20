@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of [n] such that the element sum of each block is one more than a multiple of three.",
+  "id": "A374692",
+  "mentions": [
+    "A369079",
+    "A375924"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

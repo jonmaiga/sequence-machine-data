@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of 1/(2 - log(2)).",
+  "id": "A372951",
+  "mentions": [
+    "A002162"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

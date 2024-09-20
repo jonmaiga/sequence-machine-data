@@ -1,13 +1,17 @@
 {
-  "description": "p^q + q^p for consecutive primes p and q.",
+  "description": "Numbers of the form p^q + q^p where p and q are consecutive primes.",
   "id": "A097499",
-  "mentions": [],
+  "mentions": [
+    "A053089",
+    "A078422"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

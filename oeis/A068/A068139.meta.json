@@ -1,9 +1,12 @@
 {
-  "description": "Continued fraction for sinh(1).",
+  "description": "Continued fraction expansion for sinh(1).",
   "id": "A068139",
   "mentions": [
+    "A068118",
     "A073742",
-    "A073745"
+    "A073745",
+    "A078980",
+    "A078981"
   ],
   "tags": [
     "cofr",
@@ -11,7 +14,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 82,
     "source": "oeis-bfile"
   }

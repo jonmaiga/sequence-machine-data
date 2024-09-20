@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(3) = 15; for n > 3, a(n) is the smallest unused positive number that is coprime to a(n-1), shares a factor with a(n-2), while omega(a(n)) does not equal omega(a(n-1)) or omega(a(n-2)).",
+  "id": "A373357",
+  "mentions": [
+    "A001221",
+    "A098550",
+    "A372974",
+    "A372975",
+    "A373350"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

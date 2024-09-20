@@ -1,5 +1,5 @@
 {
-  "description": "Primorial plus 1 prime indices: n such that n-th Euclid number A006862(n) = 1 + (Product of first n primes) is prime.",
+  "description": "Primorial plus 1 prime indices: k such that k-th Euclid number A006862(k) = 1 + (Product of first k primes) is prime.",
   "id": "A014545",
   "mentions": [
     "A000720",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

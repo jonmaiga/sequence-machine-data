@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that reverse(lpf(n))=lpf(n+1), where lpf(n)= A006530; (a(1)=1).",
+  "description": "Numbers k such that reverse(gpf(k)) = gpf(k+1), where gpf(n) = A006530(n); a(1)=1.",
   "id": "A071844",
   "mentions": [
+    "A004086",
     "A006530"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

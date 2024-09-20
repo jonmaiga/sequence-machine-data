@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of -(1/2)*log(1-1/e).",
+  "id": "A374169",
+  "mentions": [
+    "A001113",
+    "A068985",
+    "A068996",
+    "A085671"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

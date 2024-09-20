@@ -1,0 +1,22 @@
+{
+  "description": "Least n-digit reversible prime whose difference from its reversal is minimal.",
+  "id": "A374350",
+  "mentions": [
+    "A028989",
+    "A084475",
+    "A100027",
+    "A114018",
+    "A373349",
+    "A374377"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

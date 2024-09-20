@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the first derivative of the Dirichlet eta-function eta(s) at s=3/2.",
+  "id": "A375506",
+  "mentions": [
+    "A078434",
+    "A091812",
+    "A210593",
+    "A349220",
+    "A375503"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

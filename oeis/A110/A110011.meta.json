@@ -1,11 +1,16 @@
 {
-  "description": "a(n)=n-F(F(F(F(F(n)))))=n-F^5(n) where F(x)=floor(phi*floor(x/phi)) and phi=(1+sqrt(5))/2.",
+  "description": "a(n) = n-F(F(F(F(F(n))))) = n-F^5(n) where F(x)=A120613(x)=floor(phi*floor(x/phi)) and phi=(1+sqrt(5))/2.",
   "id": "A110011",
   "mentions": [
     "A003842",
-    "A005614"
+    "A005614",
+    "A110006",
+    "A110007",
+    "A110010",
+    "A120613"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

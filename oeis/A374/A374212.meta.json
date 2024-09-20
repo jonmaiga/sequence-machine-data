@@ -1,0 +1,20 @@
+{
+  "description": "The 2-adic valuation of A328768(n), where A328768 is the first primorial based variant of the arithmetic derivative.",
+  "id": "A374212",
+  "mentions": [
+    "A002110",
+    "A007814",
+    "A328768",
+    "A374132",
+    "A374213"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

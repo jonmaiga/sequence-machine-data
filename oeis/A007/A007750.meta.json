@@ -2,11 +2,13 @@
   "description": "Nonnegative integers n such that n^2*(n+1)*(2*n+1)^2*(7*n+1)/36 is a square.",
   "id": "A007750",
   "mentions": [
+    "A000330",
     "A007751",
     "A007752",
     "A077412"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

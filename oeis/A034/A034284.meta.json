@@ -1,13 +1,15 @@
 {
-  "description": "Decimal part of a(n)^(1/9) starts with a 'nine digits' anagram.",
+  "description": "Numbers k such that the decimal part of k^(1/9) starts with a 'nine digits' anagram.",
   "id": "A034284",
-  "mentions": [],
+  "mentions": [
+    "A034277"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 34,
     "source": "joeis"
   }

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A( x*A(x) + 2*A(x)^3 ) = A(x)^2.",
+  "id": "A372578",
+  "mentions": [
+    "A356782",
+    "A371713"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

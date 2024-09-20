@@ -2,6 +2,10 @@
   "description": "Number of distinct sums i+j+k with i,j,k >= 0, i*j*k <= n.",
   "id": "A223134",
   "mentions": [
+    "A062545",
+    "A130773",
+    "A140139",
+    "A176271",
     "A222945",
     "A222947",
     "A223133",

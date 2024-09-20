@@ -1,5 +1,5 @@
 {
-  "description": "Number triangle T(n,k) = Sum_{j=0..n} C(j,n-k)*C(j,k)*(-1)^(n-j).",
+  "description": "Triangle read by rows: T(n, k) = Sum_{j=0..n} C(j, n-k) * C(j, k) * (-1)^(n - j).",
   "id": "A176331",
   "mentions": [
     "A176332",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],

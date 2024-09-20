@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (-1)^(n+1) * A000166(n) + (-1)^(k) * A000166(k) for n >= 2 and 1 <= k <= n-1.",
+  "id": "A373966",
+  "mentions": [
+    "A000166",
+    "A000240",
+    "A000255",
+    "A018934",
+    "A153805",
+    "A373967"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

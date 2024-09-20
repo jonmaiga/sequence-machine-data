@@ -2,7 +2,9 @@
   "description": "Number of ways writing 2^n as a sum of a prime and a nonprime.",
   "id": "A062305",
   "mentions": [
+    "A006307",
     "A061358",
+    "A062306",
     "A062602",
     "A062610"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

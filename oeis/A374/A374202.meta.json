@@ -1,0 +1,24 @@
+{
+  "description": "The 2-adic valuation of A328845(n), where A328845 is a Fibonacci-based variant of the arithmetic derivative.",
+  "id": "A374202",
+  "mentions": [
+    "A007814",
+    "A328845",
+    "A374045",
+    "A374046",
+    "A374047",
+    "A374132",
+    "A374203",
+    "A374205",
+    "A374212"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

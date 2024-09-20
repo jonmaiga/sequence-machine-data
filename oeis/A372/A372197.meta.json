@@ -1,0 +1,17 @@
+{
+  "description": "Primes that can be represented as k*R(k) + 1, where R(k) is the reverse of k.",
+  "id": "A372197",
+  "mentions": [
+    "A004086",
+    "A073805"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

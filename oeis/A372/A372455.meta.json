@@ -1,0 +1,17 @@
+{
+  "description": "Smaller term of each Ruth-Aaron pair in which the sum of distinct prime factors is a prime number.",
+  "id": "A372455",
+  "mentions": [
+    "A006145",
+    "A008472"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

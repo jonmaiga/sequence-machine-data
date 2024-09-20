@@ -1,5 +1,5 @@
 {
-  "description": "Floor(antisigma(n) / sigma(n)) = floor(A024816(n) / A000203(n)).",
+  "description": "a(n) = floor(antisigma(n) / sigma(n)) = floor(A024816(n) / A000203(n)).",
   "id": "A244329",
   "mentions": [
     "A000203",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sum for all integer partitions of n of the number of distinct multiplicities in each partition.",
+  "id": "A373271",
+  "mentions": [
+    "A000070",
+    "A006128",
+    "A098859",
+    "A373243",
+    "A373269",
+    "A373270",
+    "A373273"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

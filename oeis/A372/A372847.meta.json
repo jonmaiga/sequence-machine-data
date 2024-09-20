@@ -1,0 +1,21 @@
+{
+  "description": "Number of unit squares enclosed by a circle of radius n with an even number of rows and the maximum number of squares in each row.",
+  "id": "A372847",
+  "mentions": [
+    "A001182",
+    "A119677",
+    "A125228",
+    "A136483",
+    "A136485",
+    "A341198"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Sigma-phi numbers: composite numbers k such that k-1 is a multiple of Sum_{prime^h|k} phi(prime^h), where h is the maximum integer such that prime^h|k and phi = A000010.",
+  "id": "A373274",
+  "mentions": [
+    "A000010"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

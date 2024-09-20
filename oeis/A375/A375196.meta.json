@@ -1,0 +1,19 @@
+{
+  "description": "Smaller of two successive terms of A025487 that have an equal number of divisors.",
+  "id": "A375196",
+  "mentions": [
+    "A000005",
+    "A025487",
+    "A146288",
+    "A375195"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

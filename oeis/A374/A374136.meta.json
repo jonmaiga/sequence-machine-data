@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 if n is odd and the cyclotomic polynomial Phi(k,x) has height 1, i.e., is flat, otherwise 0. Here flat means that the coefficients of a polynomial are all -1, 0, or 1.",
+  "id": "A374136",
+  "mentions": [
+    "A000035",
+    "A374134",
+    "A374137"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

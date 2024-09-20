@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=0..n} L(k)+1, where L=A000032 (Lucas numbers).",
+  "id": "A374654",
+  "mentions": [
+    "A000032",
+    "A000142",
+    "A003266",
+    "A070825",
+    "A082480",
+    "A135407",
+    "A374655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Termwise products of the natural numbers and odd integers repeated.",
   "id": "A183207",
   "mentions": [
-    "A093005"
+    "A093005",
+    "A370980"
   ],
   "tags": [
     "easy",

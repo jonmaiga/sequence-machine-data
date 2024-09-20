@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (29^n-1)/28.",
+  "description": "a(n) = (29^n - 1)/28.",
   "id": "A218732",
   "mentions": [
     "A000225",

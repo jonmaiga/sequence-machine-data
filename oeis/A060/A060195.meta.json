@@ -1,7 +1,10 @@
 {
-  "description": "a(n) = 8^(n-1)*(2^n-1).",
+  "description": "a(n) = 8^(n-1)*(2^n - 1).",
   "id": "A060195",
-  "mentions": [],
+  "mentions": [
+    "A000225",
+    "A001018"
+  ],
   "tags": [
     "easy",
     "formulas",

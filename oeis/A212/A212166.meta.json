@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the maximal exponent in its prime factorization equals the number of positive exponents (A051903(n) = A001221(n)).",
+  "description": "Numbers k such that the maximum exponent in its prime factorization equals the number of positive exponents (A051903(k) = A001221(k)).",
   "id": "A212166",
   "mentions": [
     "A000040",
@@ -18,6 +18,8 @@
     "A225230"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

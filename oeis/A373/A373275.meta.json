@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} (-1)^(d-1) * 2^(n/d-1).",
+  "id": "A373275",
+  "mentions": [
+    "A034729",
+    "A048272",
+    "A321386",
+    "A373276"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

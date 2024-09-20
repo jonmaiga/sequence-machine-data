@@ -1,0 +1,17 @@
+{
+  "description": "Count of n-digit numbers whose sum of digits is a prime.",
+  "id": "A372897",
+  "mentions": [
+    "A000720",
+    "A028834"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,6 @@
   "description": "Numbers m such that the sum of the factorials of their digits is equal to the reversal of m.",
   "id": "A101702",
   "mentions": [
-    "A010480",
     "A014080",
     "A049529",
     "A101697"

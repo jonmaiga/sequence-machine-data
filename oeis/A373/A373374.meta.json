@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if both A001414(n) and A003415(n) are even, otherwise 0, where A001414 is the sum of prime factors with repetition, and A003415 is the arithmetic derivative.",
+  "id": "A373374",
+  "mentions": [
+    "A001414",
+    "A003415",
+    "A059841",
+    "A253513",
+    "A353374",
+    "A356163",
+    "A358680",
+    "A373364",
+    "A373375",
+    "A373376"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the upper bound of the density of sphere packing in the Euclidean 3-space resulting from the dodecahedral conjecture.",
+  "id": "A374772",
+  "mentions": [
+    "A019699",
+    "A093825",
+    "A102769",
+    "A374753",
+    "A374755",
+    "A374771",
+    "A374837",
+    "A374838"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

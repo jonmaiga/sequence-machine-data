@@ -1,13 +1,17 @@
 {
   "description": "Primes of the form 4^k + k.",
   "id": "A129963",
-  "mentions": [],
+  "mentions": [
+    "A057909",
+    "A158879"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

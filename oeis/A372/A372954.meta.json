@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the least positive solution of cos(x) - sin(x) = 1/3.",
+  "id": "A372954",
+  "mentions": [
+    "A197291",
+    "A372955",
+    "A372958",
+    "A372959",
+    "A374407",
+    "A374408"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

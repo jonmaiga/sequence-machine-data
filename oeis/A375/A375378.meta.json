@@ -1,0 +1,20 @@
+{
+  "description": "Value of the power tower formed by the numbers in the n-th composition (in standard order).",
+  "id": "A375378",
+  "mentions": [
+    "A004760",
+    "A053645",
+    "A065120",
+    "A066099",
+    "A375379"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

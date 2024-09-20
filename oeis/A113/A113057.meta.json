@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = a(2) = a(3) = 1; for n>2, a(n+1) = a(n) + a(n-1) + a(n-2) iff n is prime, otherwise a(n+1) = a(n) + 1.",
+  "description": "a(1) = a(2) = a(3) = 1; for n>3, a(n) = a(n-1) + a(n-2) + a(n-3) iff n-1 is prime, otherwise a(n) = a(n-1) + 1.",
   "id": "A113057",
   "mentions": [
     "A000040",

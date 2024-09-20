@@ -2,6 +2,8 @@
   "description": "Primes p such that gcd(p, prime(p)^2 - 1) does not equal 1.",
   "id": "A064936",
   "mentions": [
+    "A023143",
+    "A045924",
     "A064830"
   ],
   "tags": [
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

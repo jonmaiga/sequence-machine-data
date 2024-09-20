@@ -1,0 +1,22 @@
+{
+  "description": "Self-consecutive numbers: numbers m such that there exists a nonnegative integer k for which the concatenation of m, m+1, ..., m+k is an m-digit number.",
+  "id": "A375461",
+  "mentions": [
+    "A000027",
+    "A001703",
+    "A035333",
+    "A052087",
+    "A127421",
+    "A279204"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

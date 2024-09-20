@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k), n>0 and k>0, read by antidiagonals in ascending order, giving the smallest n*k-digit number that, if arranged in an n X k matrix, form k-digit reversible prime in each row and n-digit reversible prime in each column, or -1 if no such number exists.",
+  "id": "A375171",
+  "mentions": [
+    "A007500",
+    "A048054",
+    "A177513",
+    "A224164",
+    "A375234"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

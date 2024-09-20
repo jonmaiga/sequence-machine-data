@@ -1,14 +1,18 @@
 {
-  "description": "Sum of the lower of twin primes <= prime(10^n).",
+  "description": "Sum of the lesser of twin primes <= prime(10^n).",
   "id": "A110900",
-  "mentions": [],
+  "mentions": [
+    "A001359",
+    "A006988",
+    "A007508"
+  ],
   "tags": [
-    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

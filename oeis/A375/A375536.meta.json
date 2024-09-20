@@ -1,0 +1,26 @@
+{
+  "description": "The maximum exponent in the prime factorization of the largest 5-smooth divisor of n.",
+  "id": "A375536",
+  "mentions": [
+    "A007775",
+    "A007814",
+    "A007949",
+    "A051903",
+    "A112765",
+    "A244417",
+    "A355582",
+    "A375537",
+    "A375538",
+    "A375539"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

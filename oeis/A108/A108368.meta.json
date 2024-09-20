@@ -2,7 +2,11 @@
   "description": "Coefficients of x/(1-3*x-3*x^2-x^3).",
   "id": "A108368",
   "mentions": [
-    "A108369"
+    "A000012",
+    "A000129",
+    "A108369",
+    "A374454",
+    "A374455"
   ],
   "tags": [
     "easy",

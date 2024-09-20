@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if gcd(A075255(n), A374127(n)) = abs(A374127(n)), otherwise 0.",
+  "id": "A374128",
+  "mentions": [
+    "A000203",
+    "A001414",
+    "A075254",
+    "A075255",
+    "A086665",
+    "A374127",
+    "A374129"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 123,
+    "source": "oeis-bfile"
+  }
+}

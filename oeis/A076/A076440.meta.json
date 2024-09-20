@@ -1,5 +1,5 @@
 {
-  "description": "n which appear to have a unique representation as the difference of two perfect powers and one of those powers is odd; that is, there is only one solution to Pillai's equation a^x - b^y = n, with a>0, b>0, x>1, y>1 and that solution has odd x or odd y (or both odd).",
+  "description": "Numbers k which appear to have a unique representation as the difference of two perfect powers where one of those powers is odd; that is, there is only one solution to Pillai's equation a^x - b^y = k, with a > 0, b > 0, x > 1, y > 1 and that solution has odd x or odd y (or both odd).",
   "id": "A076440",
   "mentions": [
     "A001597",

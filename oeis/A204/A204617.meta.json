@@ -1,10 +1,12 @@
 {
-  "description": "Multiplicative with a(p^e) = p^(e-1)*H(p). H(2) = 1, H(p) = p - 1 if p = 1 (mod 4) and H(p) = p + 1 if p = 3 (mod 4).",
+  "description": "Multiplicative with a(p^e) = p^(e-1)*H(p). H(2) = 1, H(p) = p - 1 if p == 1 (mod 4) and H(p) = p + 1 if p == 3 (mod 4).",
   "id": "A204617",
   "mentions": [
     "A000010",
     "A034947",
+    "A062570",
     "A072437",
+    "A079458",
     "A175647",
     "A243381"
   ],

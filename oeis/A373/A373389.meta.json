@@ -1,0 +1,18 @@
+{
+  "description": "The Eulerian zig-zag polynomials A205497 evaluated at x = -1/2 and normalized by (-2)^n.",
+  "id": "A373389",
+  "mentions": [
+    "A000111",
+    "A205497",
+    "A350354",
+    "A373388"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

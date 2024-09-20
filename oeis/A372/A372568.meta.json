@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} A346242(d), where A346242 is the Dirichlet inverse of gcd(n, A276086(n)).",
+  "id": "A372568",
+  "mentions": [
+    "A276086",
+    "A324198",
+    "A346242"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

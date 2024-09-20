@@ -1,0 +1,16 @@
+{
+  "description": "The area of the n-th convex honeycomb formed by spirals of incrementing strips of hexagons.",
+  "id": "A373081",
+  "mentions": [
+    "A000217",
+    "A001399"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

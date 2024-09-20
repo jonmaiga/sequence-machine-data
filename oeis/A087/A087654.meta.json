@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of D(1) where D(x) is the Dawson function.",
   "id": "A087654",
-  "mentions": [],
+  "mentions": [
+    "A019704",
+    "A068985",
+    "A099288"
+  ],
   "tags": [
     "cons",
     "formulas",

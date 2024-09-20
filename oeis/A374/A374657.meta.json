@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/4) A374656(n).",
+  "id": "A374657",
+  "mentions": [
+    "A000032",
+    "A374654",
+    "A374656"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

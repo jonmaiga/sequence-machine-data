@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2*c*sinh(1/(2*c)), where c is the constant A373918.",
+  "id": "A373919",
+  "mentions": [
+    "A240358",
+    "A373918"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

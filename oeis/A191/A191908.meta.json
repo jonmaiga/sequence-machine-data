@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=0..n} (k+1)^(n-1)*k!*StirlingS2(n,k).",
+  "description": "a(n) = Sum_{k=0..n} (k+1)^(n-1)*k!*StirlingS2(n,k).",
   "id": "A191908",
   "mentions": [
     "A188634"

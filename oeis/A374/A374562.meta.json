@@ -1,0 +1,16 @@
+{
+  "description": "Defined by: Sum_{i=1..n} a(i) / n^i = 1, n >= 1.",
+  "id": "A374562",
+  "mentions": [
+    "A374601"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

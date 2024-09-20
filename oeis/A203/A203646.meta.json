@@ -2,6 +2,7 @@
   "description": "Number of arrays of n 0..15 integers with new values introduced in order 0..15 but otherwise unconstrained.",
   "id": "A203646",
   "mentions": [
+    "A203641",
     "A203647"
   ],
   "tags": [

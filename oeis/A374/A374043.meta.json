@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if n is a non-multiple of 3 whose 2-adic valuation is a multiple of 3, otherwise 0.",
+  "id": "A374043",
+  "mentions": [
+    "A011655",
+    "A079978",
+    "A373157",
+    "A374044"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

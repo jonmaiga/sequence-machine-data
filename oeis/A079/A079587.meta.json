@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction expansion of sum(k>=1,1/F(k)) where F(k) is the k-th Fibonacci number A000045(k).",
+  "description": "Continued fraction expansion of Sum_{k>=1} 1/F(k) where F(k) is the k-th Fibonacci number A000045(k).",
   "id": "A079587",
   "mentions": [
     "A000045",
@@ -13,7 +13,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 97,
     "source": "oeis-entry"
   }

@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct parts such that number of parts is a multiples of 3.",
+  "id": "A370747",
+  "mentions": [
+    "A000009",
+    "A067661",
+    "A363045",
+    "A372703",
+    "A373078"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,17 @@
 {
-  "description": "a(n) = n-th prime + 1 (starting with 1).",
+  "description": "a(n) = prime(n) + 1 (starting with 1).",
   "id": "A028815",
   "mentions": [
     "A000040",
     "A006093",
+    "A006254",
     "A008578",
-    "A008864"
+    "A008864",
+    "A141130",
+    "A141132",
+    "A141133",
+    "A141136",
+    "A141138"
   ],
   "tags": [
     "easy",
@@ -15,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

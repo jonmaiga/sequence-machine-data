@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1 / (5 - 4 * exp(x))^(3/2).",
+  "id": "A375950",
+  "mentions": [
+    "A000407",
+    "A354242",
+    "A375947"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

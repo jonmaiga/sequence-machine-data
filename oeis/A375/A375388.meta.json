@@ -1,0 +1,19 @@
+{
+  "description": "A family of squares S(m), m > 0, read by squares and then by rows; square S(1) is [1, 1; 1, 1]; for m > 0, square S(m+1) is obtained by replacing each subsquare [t, u; v, w] in S(m) by [t, t+u, u; t+v, t+u+v+w, u+w; v, v+w, w].",
+  "id": "A375388",
+  "mentions": [
+    "A002487",
+    "A049456",
+    "A355855"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

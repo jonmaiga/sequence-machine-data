@@ -1,13 +1,20 @@
 {
-  "description": "a(n) = Sum {k + l*m <= n} (k + l*m), with 0 < k,l,m <= n.",
+  "description": "a(n) = Sum {k + j*m <= n} (k + j*m), with 0 < k,j,m <= n.",
   "id": "A106847",
   "mentions": [
+    "A001620",
+    "A006218",
     "A078567",
     "A106633",
     "A106634",
-    "A106846"
+    "A106846",
+    "A143127",
+    "A143272",
+    "A143274",
+    "A319085"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

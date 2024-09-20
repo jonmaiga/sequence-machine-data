@@ -1,0 +1,22 @@
+{
+  "description": "Number of lattice points inside or on the 4-dimensional hypersphere x^2 + y^2 + z^2 + u^2 = 10^n.",
+  "id": "A373882",
+  "mentions": [
+    "A024916",
+    "A046895",
+    "A068785",
+    "A373881",
+    "A373883",
+    "A373884",
+    "A373885"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

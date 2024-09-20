@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n/8 if A007814(n) == 3 (mod 4), else a(n) = 2n.",
+  "description": "a(n) = n/8 if A007814(n) == 3 (mod 4), else a(n) = 2*n.",
   "id": "A274611",
   "mentions": [
     "A007814"

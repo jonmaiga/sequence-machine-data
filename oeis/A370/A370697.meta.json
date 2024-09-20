@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} 1/p!^p.",
+  "id": "A370697",
+  "mentions": [
+    "A068210",
+    "A073009",
+    "A094289",
+    "A100124"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

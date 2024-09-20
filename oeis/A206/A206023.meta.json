@@ -1,5 +1,5 @@
 {
-  "description": "2^n == 3n+2 (mod n^2-2n)",
+  "description": "2^n == 3n+2 (mod n^2-2n).",
   "id": "A206023",
   "mentions": [
     "A000040",

@@ -2,7 +2,16 @@
   "description": "Number of closed walks of length n at a vertex of the cyclic graph on 7 nodes C_7.",
   "id": "A094659",
   "mentions": [
-    "A094648"
+    "A047849",
+    "A054877",
+    "A063376",
+    "A078008",
+    "A087433",
+    "A094233",
+    "A094648",
+    "A095929",
+    "A199572",
+    "A199573"
   ],
   "tags": [
     "easy",

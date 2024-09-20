@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n' / gcd(n,n') is a multiple of 4 and A276085(n) is a multiple of 8, otherwise 0, where n' stands for the arithmetic derivative of n, A003415, and A276085 is the primorial base log-function.",
+  "id": "A373258",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A083345",
+    "A276085",
+    "A369004",
+    "A373137",
+    "A373259"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

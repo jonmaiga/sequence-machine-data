@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of possible values of k such that the sum of aliquot coreful divisors of k (A336563) is n.",
+  "id": "A372739",
+  "mentions": [
+    "A048138",
+    "A307958",
+    "A324938",
+    "A331971",
+    "A331973",
+    "A336563",
+    "A372740",
+    "A372742"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal digits of Pi selected by stepping forward d places at digit d or 10 places if d=0.",
+  "id": "A373079",
+  "mentions": [
+    "A000796",
+    "A373304",
+    "A373307"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=0, a(2)=0, a(3)=1; for n>3, a(n)=abs(a(n-1)-a(n-2)-a(n-3)).",
+  "description": "a(1)=0, a(2)=0, a(3)=1; for n>3, a(n) = abs(a(n-1) - a(n-2) - a(n-3)).",
   "id": "A088226",
   "mentions": [
     "A077623",

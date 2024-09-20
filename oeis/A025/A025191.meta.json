@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum{T(n,k)}, k = 0,1,...,n, where T is the array defined in A025177.",
+  "description": "a(n) = Sum_{k=0..n} T(n,k), where T is the array defined in A025177.",
   "id": "A025191",
   "mentions": [
     "A025177",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-entry"
   }
 }

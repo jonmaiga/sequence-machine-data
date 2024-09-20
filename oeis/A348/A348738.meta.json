@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k for which A326042(k) < k.",
+  "description": "Numbers k for which A326042(k) < k, where A326042(n) = A064989(sigma(A003961(n))).",
   "id": "A348738",
   "mentions": [
     "A000040",
@@ -13,14 +13,14 @@
     "A336702",
     "A337386",
     "A347383",
-    "A347838",
     "A348736",
     "A348737",
     "A348739",
     "A348741",
     "A348748",
     "A348930",
-    "A348933"
+    "A348933",
+    "A374464"
   ],
   "tags": [
     "nonn"
@@ -28,6 +28,6 @@
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

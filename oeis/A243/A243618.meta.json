@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals: T(n,k) is circle curvature in nested Pappus chains (see Comments for details).",
+  "description": "Table read by antidiagonals: T(n,k) is the curvature of a circle in a nested Pappus chain (see Comments for details).",
   "id": "A243618",
   "mentions": [
     "A002061",

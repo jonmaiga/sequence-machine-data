@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k where exactly n pairs of positive integers (x, y) exist such that x^2 + 7*y^2 = k.",
+  "id": "A374159",
+  "mentions": [
+    "A216511",
+    "A328151",
+    "A343105",
+    "A374158",
+    "A374160",
+    "A374161"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

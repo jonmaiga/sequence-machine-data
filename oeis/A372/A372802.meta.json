@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n] having exactly one block of maximal size and one block of minimal size (and any number of non-extremal blocks).",
+  "id": "A372802",
+  "mentions": [
+    "A000110",
+    "A007837",
+    "A224219",
+    "A372721"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

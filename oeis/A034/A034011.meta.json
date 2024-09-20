@@ -1,5 +1,5 @@
 {
-  "description": "Related to curves y^2=x^5-n.",
+  "description": "Positive integers k corresponding to certain genus 2 curves y^2 = x^5 - k.",
   "id": "A034011",
   "mentions": [
     "A034012",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

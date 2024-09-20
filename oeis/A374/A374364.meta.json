@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp( x - Sum_{k>=1} x^(2^k)/2^k ).",
+  "id": "A374364",
+  "mentions": [
+    "A005388",
+    "A008683",
+    "A117209",
+    "A293604"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

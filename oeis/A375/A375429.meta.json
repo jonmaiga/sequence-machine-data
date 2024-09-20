@@ -1,0 +1,22 @@
+{
+  "description": "The indices of the terms of A375428 in the Fibonacci sequence.",
+  "id": "A375429",
+  "mentions": [
+    "A000045",
+    "A051903",
+    "A130233",
+    "A375428",
+    "A375431"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

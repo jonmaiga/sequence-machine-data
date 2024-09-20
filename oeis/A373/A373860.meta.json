@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n for n <= 4; for n > 4, a(n) is the smallest unused positive number that shares a factor with the most recently appearing even number prior to a(n-1) if a(n-1) is even, otherwise it shares a factor with the most recently appearing odd number prior to a(n-1) if a(n-1) is odd.",
+  "id": "A373860",
+  "mentions": [
+    "A005408",
+    "A005843",
+    "A064413",
+    "A373545",
+    "A373546",
+    "A373623"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

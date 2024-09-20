@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (k+1)^4 * a(k) * a(n-k-1).",
+  "id": "A376097",
+  "mentions": [
+    "A000699",
+    "A015085",
+    "A088716",
+    "A256020",
+    "A376095",
+    "A376096"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

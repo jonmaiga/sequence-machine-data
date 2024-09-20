@@ -1,0 +1,16 @@
+{
+  "description": "Number of connected labeled graphs with n nodes where the set of center nodes and the set of nodes with the highest vertex degree are disjoint.",
+  "id": "A374245",
+  "mentions": [
+    "A001187"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct circles that can be constructed from the 4 vertices and the equally spaced 4*n points placed on the sides of a square, using only a compass.",
+  "id": "A372981",
+  "mentions": [
+    "A359931",
+    "A361622",
+    "A365669",
+    "A372682",
+    "A372977",
+    "A372978",
+    "A372979"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

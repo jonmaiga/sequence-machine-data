@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum of (Y(2,p)^2) over the partitions p of n, Y(2,p)= number of part sizes with multiplicity 2 or greater in p",
+  "description": "a(n) = Sum of (Y(2,p)^2) over the partitions p of n, Y(2,p) = number of part sizes with multiplicity 2 or greater in p.",
   "id": "A302347",
   "mentions": [
     "A024786",

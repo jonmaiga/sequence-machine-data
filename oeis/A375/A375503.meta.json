@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the absolute value of zeta'(3/2), first derivative of the Riemann zeta function at s=3/2.",
+  "id": "A375503",
+  "mentions": [
+    "A073002",
+    "A244115"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

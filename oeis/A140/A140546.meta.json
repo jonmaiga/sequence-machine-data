@@ -1,7 +1,9 @@
 {
   "description": "Primes p such that neither p - 6 nor p + 6 is prime.",
   "id": "A140546",
-  "mentions": [],
+  "mentions": [
+    "A136207"
+  ],
   "tags": [
     "easy",
     "nonn"

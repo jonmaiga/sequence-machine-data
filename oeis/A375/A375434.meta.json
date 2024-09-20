@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = (1 + x*A(x)) * (1 + 3*x*A(x)^2).",
+  "id": "A375434",
+  "mentions": [
+    "A007863",
+    "A125145",
+    "A215661",
+    "A216314",
+    "A364374",
+    "A375435",
+    "A375436",
+    "A375437"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

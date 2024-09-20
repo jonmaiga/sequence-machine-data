@@ -1,13 +1,16 @@
 {
   "description": "Number of integers in {1, 2, ..., sigma(n)} that are coprime to n.",
   "id": "A074882",
-  "mentions": [],
+  "mentions": [
+    "A000203"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least number k such that A071866(k) = n, or -1 if no such k exists.",
+  "id": "A374235",
+  "mentions": [
+    "A071866"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

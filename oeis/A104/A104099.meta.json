@@ -1,5 +1,5 @@
 {
-  "description": "n * (10n^2 - 6n + 1), or n*A087348(n).",
+  "description": "a(n) = n * (10*n^2 - 6n + 1) = n * A087348(n).",
   "id": "A104099",
   "mentions": [
     "A087348"

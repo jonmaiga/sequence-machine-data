@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(x / (1 - x^2)^3) / (1 - x^2).",
+  "id": "A373682",
+  "mentions": [
+    "A373668",
+    "A373681",
+    "A373683"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

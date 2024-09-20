@@ -1,7 +1,10 @@
 {
   "description": "Deficiency of the deficient or perfect numbers: m = 2n - sigma(n) for n such that m >= 0.",
   "id": "A033883",
-  "mentions": [],
+  "mentions": [
+    "A033879",
+    "A263837"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,0 +1,22 @@
+{
+  "description": "Array read by falling antidiagonals: T(n,k) = numerator(Sum_{x>0} (x^n)/(k^x)); n >= 0 and k >= 2.",
+  "id": "A374895",
+  "mentions": [
+    "A000629",
+    "A008292",
+    "A121376",
+    "A276805",
+    "A374896"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

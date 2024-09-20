@@ -1,7 +1,10 @@
 {
-  "description": "Number of positive k such that k*tau(k) <= n.",
+  "description": "Number of positive k such that k*tau(k) < n plus the number of positive k such that k*tau(k) = n-1.",
   "id": "A071872",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A000720"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

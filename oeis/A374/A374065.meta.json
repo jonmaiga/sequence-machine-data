@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=1} 1 / (1 + x^(3*k-2)).",
+  "id": "A374065",
+  "mentions": [
+    "A035382",
+    "A081360",
+    "A081362",
+    "A109389",
+    "A132462",
+    "A261612",
+    "A262928",
+    "A284312",
+    "A374064"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

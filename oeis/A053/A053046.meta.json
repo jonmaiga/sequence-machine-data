@@ -1,5 +1,5 @@
 {
-  "description": "EulerPhi is iterated with initial value n!; a(n) = number of terms that are not powers of 2 among the iterates.",
+  "description": "a(n) is the number of terms that are not powers of 2 among the iterates of the Euler phi function when it is iterated with initial value n!.",
   "id": "A053046",
   "mentions": [
     "A000010",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (1,x(1+x)(1-x(1+x))).",
+  "description": "Riordan array (1, x*(1+x)*(1-x*(1+x))).",
   "id": "A112517",
   "mentions": [
     "A112518",

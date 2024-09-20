@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of composite numbers between successive primes.",
+  "description": "Concatenation of composite numbers between the n-th prime and the following prime.",
   "id": "A054264",
   "mentions": [
     "A046933",
@@ -14,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 2,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

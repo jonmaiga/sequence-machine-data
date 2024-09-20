@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(Sum_{k=n^4..(n+1)^4} k^(1/4)).",
+  "id": "A374489",
+  "mentions": [
+    "A248575",
+    "A248698",
+    "A374384"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

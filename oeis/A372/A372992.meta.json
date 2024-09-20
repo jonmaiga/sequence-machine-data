@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (n!)!/((n-1)!)!.",
+  "id": "A372992",
+  "mentions": [
+    "A000142"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

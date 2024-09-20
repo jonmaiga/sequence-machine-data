@@ -1,0 +1,45 @@
+{
+  "description": "Number of distinct possible binary ranks of integer partitions of n, where the binary rank of a partition y is given by Sum_i 2^(y_i-1).",
+  "id": "A373120",
+  "mentions": [
+    "A000009",
+    "A000012",
+    "A000041",
+    "A000120",
+    "A001511",
+    "A018819",
+    "A023416",
+    "A029837",
+    "A029931",
+    "A048675",
+    "A048793",
+    "A070939",
+    "A070940",
+    "A087207",
+    "A096111",
+    "A118462",
+    "A158704",
+    "A158705",
+    "A225620",
+    "A230877",
+    "A231204",
+    "A272020",
+    "A277905",
+    "A359359",
+    "A359400",
+    "A368494",
+    "A371571",
+    "A371572",
+    "A372688",
+    "A372888",
+    "A372890"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

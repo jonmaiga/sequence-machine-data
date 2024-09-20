@@ -1,0 +1,14 @@
+{
+  "description": "Number of maximal matchings in the n-Dorogovtsev-Goltsev-Mendes graph.",
+  "id": "A374558",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

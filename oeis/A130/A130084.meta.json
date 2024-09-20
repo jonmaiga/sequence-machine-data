@@ -2,6 +2,7 @@
   "description": "Smallest number whose tenth power has at least n digits.",
   "id": "A130084",
   "mentions": [
+    "A011279",
     "A011557",
     "A017936",
     "A018005",

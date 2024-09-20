@@ -2,7 +2,10 @@
   "description": "Continued fraction for zeta(2) = Pi^2/6.",
   "id": "A013679",
   "mentions": [
-    "A013661"
+    "A013631",
+    "A013661",
+    "A013680",
+    "A013696"
   ],
   "tags": [
     "cofr",
@@ -11,7 +14,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 89,
     "source": "oeis-bfile"
   }

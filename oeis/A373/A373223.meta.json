@@ -1,0 +1,24 @@
+{
+  "description": "Gauss's triangle read by rows: T(n, k) = KP(n, k) * KP(k, n) where KP(n, k) = KroneckerSymbol(prime(n), prime(k)). (Law of Quadratic Reciprocity.)",
+  "id": "A373223",
+  "mentions": [
+    "A002144",
+    "A217831",
+    "A372726",
+    "A372728",
+    "A372877",
+    "A373224",
+    "A373225"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

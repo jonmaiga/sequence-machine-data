@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct parts such that number of parts is a multiples of 5.",
+  "id": "A373078",
+  "mentions": [
+    "A000009",
+    "A067661",
+    "A363047",
+    "A370747",
+    "A372703"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

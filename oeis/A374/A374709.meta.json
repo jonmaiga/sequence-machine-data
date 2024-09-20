@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*(6*n^4 + 8*n^3 + 1 - (-1)^n)/16.",
+  "id": "A374709",
+  "mentions": [
+    "A000583",
+    "A016789",
+    "A229147",
+    "A374708"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

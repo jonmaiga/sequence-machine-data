@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A001414(k) and A083345(k) are both multiples of 3, where A001414 is fully additive with a(p) = p, and A083345 is the numerator of the fully additive function with a(p) = 1/p.",
+  "id": "A373475",
+  "mentions": [
+    "A001414",
+    "A003415",
+    "A083345",
+    "A289142",
+    "A369644",
+    "A369659",
+    "A373363",
+    "A373474",
+    "A373476",
+    "A373478"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,8 +2,7 @@
   "description": "Level of the first leaf (in preorder traversal) of a ternary tree, summed over all ternary trees with n edges. A ternary tree is a rooted tree in which each vertex has at most three children and each child of a vertex is designated as its left or middle or right child.",
   "id": "A121447",
   "mentions": [
-    "A121445",
-    "A121455"
+    "A121445"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that k can be written in exactly n ways as x^2 + 3*x*y + y^2 with 0 <= x <= y.",
+  "id": "A374275",
+  "mentions": [
+    "A000446",
+    "A031363",
+    "A198799",
+    "A374091",
+    "A374095",
+    "A374276"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

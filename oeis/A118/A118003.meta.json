@@ -2,7 +2,6 @@
   "description": "a(n) = largest integer <= n which is coprime to A118002(n-1). a(n) = A118002(n) - A118002(n-1).",
   "id": "A118003",
   "mentions": [
-    "A110802",
     "A118001",
     "A118002"
   ],

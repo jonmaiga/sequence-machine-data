@@ -1,20 +1,26 @@
 {
-  "description": "a(n) = A065395(2^n).",
+  "description": "a(n) = -A065395(2^n).",
   "id": "A092589",
   "mentions": [
     "A000010",
     "A000203",
+    "A000225",
     "A033632",
+    "A053287",
     "A065395",
     "A092584",
+    "A092585",
+    "A092586",
+    "A092587",
     "A092588"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

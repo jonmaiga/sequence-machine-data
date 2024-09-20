@@ -1,5 +1,5 @@
 {
-  "description": "List of the partial quotients of the continued fraction for (Pi^4)/36~2.705808084277845, the limiting value of ratio A024916[n]/A002088[n]=SummatorySigma/SummatoryTotient.",
+  "description": "Continued fraction expansion for Pi^4/36, the limiting value of A024916(n)/A002088(n).",
   "id": "A098199",
   "mentions": [
     "A002088",
@@ -11,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 97,
     "source": "joeis"
   }

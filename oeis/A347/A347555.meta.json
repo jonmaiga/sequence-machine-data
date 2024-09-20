@@ -2,7 +2,8 @@
   "description": "Number of minimum dominating sets in the hypercube graph Q_n.",
   "id": "A347555",
   "mentions": [
-    "A000983"
+    "A000983",
+    "A323515"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

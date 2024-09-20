@@ -1,0 +1,33 @@
+{
+  "description": "Decimal expansion of the apothem (inradius) of a regular pentagon with unit side length.",
+  "id": "A375067",
+  "mentions": [
+    "A010527",
+    "A019863",
+    "A019934",
+    "A019952",
+    "A020761",
+    "A020769",
+    "A102771",
+    "A131595",
+    "A174968",
+    "A179452",
+    "A300074",
+    "A374971",
+    "A375068",
+    "A375152",
+    "A375191",
+    "A375193"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

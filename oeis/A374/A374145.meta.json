@@ -1,0 +1,15 @@
+{
+  "description": "Number of length-n binary words whose subword complexity is bounded by 2i for 1<=i<=n, and containing no blocks of exponent > 5/2.",
+  "id": "A374145",
+  "mentions": [
+    "A285894"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

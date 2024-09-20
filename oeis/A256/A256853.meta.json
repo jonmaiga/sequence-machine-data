@@ -1,8 +1,13 @@
 {
-  "description": "Decimal expansion of area of a regular 9-gon with unit edge length.",
+  "description": "Decimal expansion of the area of a unit 9-gon.",
   "id": "A256853",
   "mentions": [
     "A000796",
+    "A019669",
+    "A019670",
+    "A019673",
+    "A019676",
+    "A019685",
     "A019968",
     "A090488",
     "A102771",

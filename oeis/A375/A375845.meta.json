@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{k=0..n} (k^8 + n).",
+  "id": "A375845",
+  "mentions": [
+    "A126804",
+    "A334411",
+    "A375839",
+    "A375840",
+    "A375841",
+    "A375842",
+    "A375843",
+    "A375844"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

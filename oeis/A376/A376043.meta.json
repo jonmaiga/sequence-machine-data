@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1; thereafter a(n) = smallest positive integer such that Sum_{i=2..n} a(i-1)/a(i) is less than 1.",
+  "id": "A376043",
+  "mentions": [
+    "A376044"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

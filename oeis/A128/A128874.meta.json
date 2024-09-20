@@ -1,11 +1,10 @@
 {
-  "description": "Numbers n such that 16 + the product of the first n lesser twin primes (A097489) is prime.",
+  "description": "Numbers k such that 16 + the product of the first k lesser twin primes (A097489) is prime.",
   "id": "A128874",
   "mentions": [
     "A097489"
   ],
   "tags": [
-    "formulas",
     "more",
     "nonn"
   ],

@@ -2,11 +2,13 @@
   "description": "a(n) = floor(n*Pi) mod 2.",
   "id": "A115788",
   "mentions": [
+    "A000035",
     "A022844",
     "A063438",
     "A115789",
     "A115790",
-    "A195062"
+    "A195062",
+    "A372544"
   ],
   "tags": [
     "formulas",
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 150,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

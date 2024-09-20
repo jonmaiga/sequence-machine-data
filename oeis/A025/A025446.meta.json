@@ -1,13 +1,19 @@
 {
   "description": "Number of partitions of n into 2 nonnegative cubes.",
   "id": "A025446",
-  "mentions": [],
+  "mentions": [
+    "A004999",
+    "A010057",
+    "A025455",
+    "A373972"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 108,
-    "source": "joeis"
+    "size": 127,
+    "source": "oeis-bfile"
   }
 }

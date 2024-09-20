@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A375516(n+1) / A375516(n).",
+  "id": "A375791",
+  "mentions": [
+    "A374663",
+    "A375516"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

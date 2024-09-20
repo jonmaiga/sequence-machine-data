@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that k^n + (k+1)^n + ... + (k+n-1)^n is prime for some k.",
+  "description": "Numbers m such that k^m + (k+1)^m + ... + (k+m-1)^m is prime for some k.",
   "id": "A242927",
   "mentions": [
     "A000040",

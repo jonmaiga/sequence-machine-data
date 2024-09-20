@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest strictly increasing sequence of prime numbers whose partial products, starting from the second, are all Fermat pseudoprimes to base 2 (A001567).",
+  "id": "A374029",
+  "mentions": [
+    "A001567",
+    "A374027",
+    "A374028"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

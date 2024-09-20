@@ -1,15 +1,19 @@
 {
-  "description": "Palindromic prime units W appearing four times in second order fractal palindromic primes WxWmWxW.",
+  "description": "Palindromic prime units W appearing four times in second-order fractal palindromic primes WxWmWxW, where part WxW is also a palindromic prime.",
   "id": "A082599",
-  "mentions": [],
+  "mentions": [
+    "A002385",
+    "A082584",
+    "A082598",
+    "A082600"
+  ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

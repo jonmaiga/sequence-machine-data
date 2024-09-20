@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k! * k^(n-3) * Stirling2(n,k).",
+  "id": "A373871",
+  "mentions": [
+    "A122399",
+    "A244585",
+    "A373869",
+    "A373870",
+    "A373872",
+    "A373873"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

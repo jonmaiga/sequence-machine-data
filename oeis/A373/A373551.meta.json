@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least start of a run of exactly n successive squarefree numbers (A005117) that are odd, or -1 if no such run exists.",
+  "id": "A373551",
+  "mentions": [
+    "A005117",
+    "A039956",
+    "A056911",
+    "A363192",
+    "A373550",
+    "A373552"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

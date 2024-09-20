@@ -1,0 +1,19 @@
+{
+  "description": "Number of diagonalized cyclic diagonal Latin squares of order 2n+1.",
+  "id": "A372922",
+  "mentions": [
+    "A338522",
+    "A338562",
+    "A342990"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

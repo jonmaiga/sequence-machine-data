@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k, k+1 and k+2 all have at least three divisors with the same value of the Euler totient function (A000010).",
+  "id": "A373530",
+  "mentions": [
+    "A000010",
+    "A102190",
+    "A359565",
+    "A373529"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

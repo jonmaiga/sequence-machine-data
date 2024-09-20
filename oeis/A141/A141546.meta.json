@@ -2,9 +2,13 @@
   "description": "Numbers whose abundance is 14.",
   "id": "A141546",
   "mentions": [
+    "A033880",
+    "A141545",
+    "A141547",
     "A141550"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

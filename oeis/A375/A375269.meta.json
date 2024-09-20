@@ -1,0 +1,23 @@
+{
+  "description": "Partial products of A115975.",
+  "id": "A375269",
+  "mentions": [
+    "A025487",
+    "A037992",
+    "A050376",
+    "A115975",
+    "A331109",
+    "A334395",
+    "A375271",
+    "A375272"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

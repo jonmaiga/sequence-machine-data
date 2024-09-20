@@ -1,13 +1,15 @@
 {
   "description": "Continued fraction for arithmetic-geometric mean (AGM) of first two primes 2 and 3.",
   "id": "A074961",
-  "mentions": [],
+  "mentions": [
+    "A074958"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 96,
     "source": "oeis-entry"
   }

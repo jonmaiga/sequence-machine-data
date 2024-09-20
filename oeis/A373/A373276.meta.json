@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} (-1)^(d-1) * 3^(n/d-1).",
+  "id": "A373276",
+  "mentions": [
+    "A048272",
+    "A321386",
+    "A357051",
+    "A373275"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

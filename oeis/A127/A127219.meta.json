@@ -1,7 +1,11 @@
 {
   "description": "Even numbers with an even number of partitions.",
   "id": "A127219",
-  "mentions": [],
+  "mentions": [
+    "A000041",
+    "A005843",
+    "A154798"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Relatively prime numbers with nondecreasing number of divisors. a(1) = 1, tau(a(n+1)) >= tau(a(n)) and (a(n),a(n+1)) = 1.",
+  "description": "Lexicographically earliest increasing sequence of relatively prime numbers with nondecreasing number of divisors. a(1) = 1, tau(a(n+1)) >= tau(a(n)) and GCD(a(n),a(n+1)) = 1.",
   "id": "A076963",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

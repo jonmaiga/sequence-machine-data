@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 2. Let i = a(n-2), j = a(n-1). For n > 2 if rad(i*j) is primorial number A002110(t), a(n) is least novel k such that rad(i*j*k) = A002110(t+1). Otherwise, if rad(i*j) is not primorial, a(n) is least novel k such that rad(i*j*k) = A002110(s), where prime(s) = A006530(i*j); rad = A007947.",
+  "id": "A374404",
+  "mentions": [
+    "A000027",
+    "A002110",
+    "A006530",
+    "A007947",
+    "A055932",
+    "A362889",
+    "A374379"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

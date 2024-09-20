@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if n can be represented as a sum of 2 distinct positive cubes, otherwise 0.",
+  "id": "A373971",
+  "mentions": [
+    "A010057",
+    "A024670",
+    "A025468",
+    "A373972",
+    "A373973",
+    "A373974"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,10 +2,12 @@
   "description": "Positions of '1's in the decimal expansion of Pi (where positions 1,2,3,... refer to the digits 3,1,4,...).",
   "id": "A053745",
   "mentions": [
+    "A000796",
     "A014976",
     "A037000",
     "A053746",
-    "A053753"
+    "A053753",
+    "A088565"
   ],
   "tags": [
     "base",

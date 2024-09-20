@@ -1,8 +1,12 @@
 {
   "description": "a(1) = 1, a(n) = Floor[(Sum of composite numbers up to n)/(Sum of primes up to n)].",
   "id": "A073700",
-  "mentions": [],
+  "mentions": [
+    "A034387",
+    "A101256"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,12 +1,12 @@
 {
-  "description": "First occurrence of 1..n as terms in the continued fraction for Pi.",
+  "description": "Length of the smallest prefix of the continued fraction expansion for Pi that includes each of 1..n.",
   "id": "A091657",
   "mentions": [
     "A001203",
     "A032523"
   ],
   "tags": [
-    "cofr",
+    "formulas",
     "nonn"
   ],
   "terms": {

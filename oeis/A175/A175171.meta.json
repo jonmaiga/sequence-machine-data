@@ -1,10 +1,11 @@
 {
-  "description": "Primes p such that 3*2^p-1 is also prime",
+  "description": "Primes p such that 3*2^p-1 is also prime.",
   "id": "A175171",
   "mentions": [
     "A002235"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

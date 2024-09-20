@@ -2,7 +2,9 @@
   "description": "Maximal index k of a Jacobsthal number such that A001045(k)<=n (the 'lower' Jacobsthal inverse).",
   "id": "A130249",
   "mentions": [
+    "A000523",
     "A001045",
+    "A078008",
     "A105348",
     "A130233",
     "A130241",

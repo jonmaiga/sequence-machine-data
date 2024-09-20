@@ -2,6 +2,7 @@
   "description": "k=2 column of A038719.",
   "id": "A038721",
   "mentions": [
+    "A016269",
     "A038719",
     "A038720"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

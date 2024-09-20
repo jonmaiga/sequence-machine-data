@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that the digits alternate between prime and nonprime.",
+  "description": "Numbers whose digits alternate between prime and nonprime.",
   "id": "A085520",
   "mentions": [],
   "tags": [

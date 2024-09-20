@@ -1,7 +1,8 @@
 {
-  "description": "f(4n+2)/(f(n-1)*f(n)*f(n+1)*f(n+2)), where f(k) = k!.",
+  "description": "a(n) = f(4*n+2)/(f(n-1)*f(n)*f(n+1)*f(n+2)), where f(k) = k!.",
   "id": "A248708",
   "mentions": [
+    "A000142",
     "A001700",
     "A248707",
     "A248709",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

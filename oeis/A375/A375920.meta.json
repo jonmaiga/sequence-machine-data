@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{n>=2} (zeta(n)^n - 1).",
+  "id": "A375920",
+  "mentions": [
+    "A013661",
+    "A021002",
+    "A093720",
+    "A375887"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

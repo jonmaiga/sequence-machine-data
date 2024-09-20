@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n of the form 2^(A000043-1)*A046528 such that sigma(n) is perfect number.",
+  "description": "Numbers n of the form 2^(A000043-1)*A046528 such that sigma(n) is a perfect number.",
   "id": "A175906",
   "mentions": [
     "A000043",

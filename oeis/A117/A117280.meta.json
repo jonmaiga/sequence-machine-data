@@ -1,17 +1,19 @@
 {
-  "description": "n^r(n), where r(n) is the digital root of n.",
+  "description": "a(n) = n^r(n), where r(n) is the digital root of n.",
   "id": "A117280",
   "mentions": [
+    "A000312",
     "A010888"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "joeis"
   }
 }

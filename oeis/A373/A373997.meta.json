@@ -1,0 +1,19 @@
+{
+  "description": "Greatest positive integer k for which the y-coordinates of the extreme points and the inflection point of y = f(x) = 1/k*(x - A373995(n))*(x - A373996(n)) are integers.",
+  "id": "A373997",
+  "mentions": [
+    "A364384",
+    "A364385",
+    "A373995",
+    "A373996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

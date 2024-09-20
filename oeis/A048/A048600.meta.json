@@ -1,5 +1,5 @@
 {
-  "description": "Triangle a(n,k) = number of colors that can be produced by n units of paint from k primary colors.",
+  "description": "Array a(n,k) = number of colors that can be produced by n units of paint from k primary colors, read by descending antidiagonals.",
   "id": "A048600",
   "mentions": [
     "A005728",

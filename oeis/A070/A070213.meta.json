@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that a(n)=n*a(n-1)+1 with a(1)=0 is prime.",
+  "description": "Numbers k such that A056542(k) is prime.",
   "id": "A070213",
   "mentions": [
     "A056542"

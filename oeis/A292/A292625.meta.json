@@ -2,7 +2,8 @@
   "description": "Triangle read by rows: row n gives y transposed, where y is the solution to the matrix equation M*y=b, where the matrix M and vector b are defined by M(i,j) = ((2^(i+1) + 1)^(j-1) + 1)/2 and b(i) = ((2^(i+1)+1)^n + 1)/2 for 1 <= i,j <= n.",
   "id": "A292625",
   "mentions": [
-    "A266577"
+    "A266577",
+    "A365450"
   ],
   "tags": [
     "sign",

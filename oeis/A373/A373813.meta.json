@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number of straight lines needed to intersect all points (k, prime(k)) for k = 1..n.",
+  "id": "A373813",
+  "mentions": [
+    "A373810",
+    "A373811",
+    "A373814",
+    "A375499"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,10 +2,16 @@
   "description": "Expansion of cube of continued fraction 1/ ( 1+q/ ( 1+q^2/ ( 1+q^3/ ( 1+q^4/... )))).",
   "id": "A055102",
   "mentions": [
+    "A003823",
     "A007325",
     "A055101",
     "A055103",
-    "A109091"
+    "A109091",
+    "A285442",
+    "A285443",
+    "A285444",
+    "A340455",
+    "A340456"
   ],
   "tags": [
     "easy",

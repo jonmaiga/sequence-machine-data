@@ -2,7 +2,8 @@
   "description": "Smallest positive integer not the determinant of an n X n {0,1}-matrix.",
   "id": "A013588",
   "mentions": [
-    "A003432"
+    "A003432",
+    "A089472"
   ],
   "tags": [
     "hard",

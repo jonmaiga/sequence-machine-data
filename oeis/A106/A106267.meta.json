@@ -1,5 +1,5 @@
 {
-  "description": "Least c such that A106265(n) + b^2 = c^3 for some b (given in A106266)",
+  "description": "Least c such that A106265(n) + b^2 = c^3 for some b (given in A106266).",
   "id": "A106267",
   "mentions": [
     "A106265",

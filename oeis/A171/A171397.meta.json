@@ -1,5 +1,5 @@
 {
-  "description": "Earliest sequence containing no 11-term arithmetic progression.",
+  "description": "Write n in base 10, but then read it as if it were written in base 11: if n = Sum_{i >= 0} d_i*10^i, with 0 <= d_i <= 9}, then a(n) = Sum_{i >= 0} d_i*11^i.",
   "id": "A171397",
   "mentions": [
     "A005836",

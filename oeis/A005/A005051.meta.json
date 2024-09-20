@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 8*3^n.",
   "id": "A005051",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A008776"
+  ],
   "tags": [
     "easy",
     "formulas",

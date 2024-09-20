@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of knights within an n X n chessboard, where each knight has a path to an edge.",
+  "id": "A375762",
+  "mentions": [
+    "A335445",
+    "A337722",
+    "A337746"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

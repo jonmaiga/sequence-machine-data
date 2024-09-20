@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X6 binary arrays with no 2X2 subblock determinant equal to any horizontal or vertical neighbor 2X2 subblock determinant",
+  "description": "Number of (n+1) X 6 binary arrays with no 2 X 2 subblock determinant equal to any horizontal or vertical neighbor 2 X 2 subblock determinant.",
   "id": "A185463",
   "mentions": [
     "A185467"

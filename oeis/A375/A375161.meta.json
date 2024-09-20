@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that (23^k - 2^k)/21 is prime.",
+  "id": "A375161",
+  "mentions": [
+    "A062587",
+    "A062589",
+    "A127996",
+    "A127997",
+    "A128344",
+    "A204940",
+    "A217320",
+    "A225807",
+    "A229542"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

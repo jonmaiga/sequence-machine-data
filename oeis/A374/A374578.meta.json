@@ -1,0 +1,18 @@
+{
+  "description": "Pierpont primes are primes of the form 2^t*3^u + 1; this sequence gives the u's in order.",
+  "id": "A374578",
+  "mentions": [
+    "A005109",
+    "A007949",
+    "A374577"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

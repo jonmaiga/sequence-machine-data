@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^(k+1)*( log(2k+1)/(2k+1) + log(2k+2)/(2k+2) ).",
+  "id": "A373562",
+  "mentions": [
+    "A078127",
+    "A091812",
+    "A366349"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

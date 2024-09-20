@@ -1,9 +1,10 @@
 {
-  "description": "11*10^n-1.",
+  "description": "a(n) = 11*10^n - 1.",
   "id": "A198700",
   "mentions": [
     "A002283",
     "A066007",
+    "A096209",
     "A109002"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

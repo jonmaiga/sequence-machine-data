@@ -1,0 +1,17 @@
+{
+  "description": "Number of positive integers with Pisano period equal to 2n.",
+  "id": "A375089",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A375519"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

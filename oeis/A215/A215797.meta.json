@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n(n+1)/2 + 1 is a power of 2.",
+  "description": "Numbers k such that k*(k+1)/2 + 1 is a power of 2.",
   "id": "A215797",
   "mentions": [
     "A038198",

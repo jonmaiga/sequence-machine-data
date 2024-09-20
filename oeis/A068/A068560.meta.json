@@ -2,11 +2,14 @@
   "description": "Numbers k such that phi(k) = tau(k)^2.",
   "id": "A068560",
   "mentions": [
-    "A039770"
+    "A039770",
+    "A068559",
+    "A107655",
+    "A114063"
   ],
   "tags": [
-    "easy",
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {

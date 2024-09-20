@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the positive real root of x^6 - 2*x^5 + x^4 - x^2 + x - 1.",
+  "id": "A374002",
+  "mentions": [
+    "A060006",
+    "A086106",
+    "A092526",
+    "A228777",
+    "A293506",
+    "A293508",
+    "A293509",
+    "A293557",
+    "A374003"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

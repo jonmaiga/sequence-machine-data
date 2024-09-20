@@ -1,0 +1,42 @@
+{
+  "description": "Run-compression encoded as a transformation of compositions in standard order.",
+  "id": "A373948",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A003242",
+    "A029837",
+    "A037201",
+    "A066099",
+    "A106356",
+    "A114901",
+    "A116608",
+    "A116861",
+    "A124762",
+    "A124767",
+    "A238130",
+    "A238279",
+    "A240085",
+    "A272919",
+    "A333381",
+    "A333382",
+    "A333489",
+    "A333627",
+    "A333755",
+    "A373947",
+    "A373949",
+    "A373951",
+    "A373952",
+    "A373953",
+    "A373954"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

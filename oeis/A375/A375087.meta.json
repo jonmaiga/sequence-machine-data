@@ -1,0 +1,18 @@
+{
+  "description": "Numbers added to cumulative correction term in order for prime numbers to resemble a recursive sequence.",
+  "id": "A375087",
+  "mentions": [
+    "A066495",
+    "A096379"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

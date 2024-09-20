@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} k / (k^3+1).",
+  "id": "A372365",
+  "mentions": [
+    "A372366"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

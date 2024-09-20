@@ -1,8 +1,7 @@
 {
-  "description": "Genus of Weierstrass curve with discriminant A360160(n) in moduli space M_3 of compact Riemann surfaces of genus 3.",
+  "description": "Genus of Weierstrass curve with discriminant A361160(n) in moduli space M_3 of compact Riemann surfaces of genus 3.",
   "id": "A361161",
   "mentions": [
-    "A360160",
     "A361160",
     "A361162",
     "A361164"

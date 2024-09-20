@@ -1,5 +1,5 @@
 {
-  "description": "Let f(0)=m; f(n+1)= c + d lpf(f(n)), where lpf(n) is the largest prime factor of n (A006530). For any m, for sufficiently large n the sequence f(n) oscillates. In A120684,A120685 the values d=c=1 were considered. Here we consider d=1, c=2 and this allows us to divide integers in 4 classes: C4 (m such that f(n)=4, which is a fixed point); C5 (m such that f(n)=5, then oscillates between 5,7,9); C7 (m such that f(n)=7, then oscillates between 7,9,5); C9 (m such that f(n)=9, then oscillates between 9,5,7); In A120686 (here) we present C5 as the one that includes 5. In A120687 we present C7 as the one that includes 7. In A120688 we present C9 as the one that includes 9.",
+  "description": "Integers m such that the sequence defined by f(0)=m and f(n+1)=2+gpf(f(n)), with gpf(n) being the greatest prime factor of n (A006530), ends up in the period 3 cycle 5 -> 7 -> 9 -> 5 -> ...",
   "id": "A120686",
   "mentions": [
     "A006530",

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0. For n > 0, a(n) is the smallest number of straight lines needed to intersect all points (k, a(k)) for 0 <= k < n.",
+  "id": "A373811",
+  "mentions": [
+    "A373810",
+    "A373812",
+    "A373813",
+    "A375499"
+  ],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

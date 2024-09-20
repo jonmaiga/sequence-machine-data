@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the smallest number whose Collatz trajectory contains n, if trajectories do not terminate at 1 but continue to cycle through 1, 4, 2, 1, 4, 2, 1, ... .",
+  "id": "A372810",
+  "mentions": [
+    "A070167"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

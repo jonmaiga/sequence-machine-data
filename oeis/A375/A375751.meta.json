@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the difference between F=A000045(n) and the largest prime not exceeding F.",
+  "id": "A375751",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A007917",
+    "A138184",
+    "A138185",
+    "A159977",
+    "A159978",
+    "A202090",
+    "A375753"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

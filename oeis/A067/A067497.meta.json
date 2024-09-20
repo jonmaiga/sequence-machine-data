@@ -1,11 +1,12 @@
 {
-  "description": "Smallest power of 2 with n+1 digits (n>=0). Also numbers k such that 1 is the first digit of 2^k.",
+  "description": "Smallest k for which 2^k is n+1 decimal digits long, and equivalently numbers k such that 1 is the first digit of 2^k.",
   "id": "A067497",
   "mentions": [
     "A000079",
     "A007524",
     "A066343",
     "A067480",
+    "A067488",
     "A129344"
   ],
   "tags": [

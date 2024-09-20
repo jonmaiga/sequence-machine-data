@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 0} (10^5*A196563(k) - A196564(k)/10^5)/10^k.",
+  "id": "A372947",
+  "mentions": [
+    "A196563",
+    "A196564",
+    "A372551"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

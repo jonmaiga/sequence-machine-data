@@ -2,6 +2,7 @@
   "description": "Sum of the squares d^2 of the divisors d satisfying d^3|n.",
   "id": "A361793",
   "mentions": [
+    "A001620",
     "A010057",
     "A035316",
     "A069290",

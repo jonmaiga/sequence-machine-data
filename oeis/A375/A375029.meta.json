@@ -1,0 +1,15 @@
+{
+  "description": "Lexicographically least increasing sequence such that for any prime number p, any run of consecutive multiples of p has length exactly 2.",
+  "id": "A375029",
+  "mentions": [
+    "A280864"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

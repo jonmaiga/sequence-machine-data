@@ -1,11 +1,16 @@
 {
-  "description": "Palindromes with exactly 5 distinct prime factors.",
+  "description": "Palindromes that are the product of 5 distinct primes.",
   "id": "A046395",
   "mentions": [
-    "A046331"
+    "A002113",
+    "A046331",
+    "A046387",
+    "A051270",
+    "A373465"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

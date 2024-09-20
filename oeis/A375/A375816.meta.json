@@ -1,0 +1,29 @@
+{
+  "description": "Odd numbers k > 1 such that gcd(5,k) = 1 and 5^((k-1)/2) == -(5/k) (mod k), where (5/k) is the Jacobi symbol (or Kronecker symbol); Euler pseudoprimes to base 5 (A262052) that are not Euler-Jacobi pseudoprimes to base 5 (A375914).",
+  "id": "A375816",
+  "mentions": [
+    "A006970",
+    "A006971",
+    "A047713",
+    "A048950",
+    "A244626",
+    "A244628",
+    "A262051",
+    "A262052",
+    "A306310",
+    "A375490",
+    "A375914",
+    "A375915",
+    "A375916",
+    "A375917",
+    "A375918"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

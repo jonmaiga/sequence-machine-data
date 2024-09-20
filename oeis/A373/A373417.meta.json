@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) for the number of permutations in symmetric group S_n with (n-k) fixed points and an even number of non-fixed point cycles. Equivalent to the number of cycles of n items with cycle type defined by non-unity partitions of k<=n that contain an even number of parts.",
+  "id": "A373417",
+  "mentions": [
+    "A053556",
+    "A053557",
+    "A098825",
+    "A127717",
+    "A176222",
+    "A216778",
+    "A343418",
+    "A373339",
+    "A373418"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of integers k between 0 and n such that n OR k is a prime number (where OR denotes the bitwise OR operator).",
+  "id": "A375486",
+  "mentions": [
+    "A375485",
+    "A375487"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

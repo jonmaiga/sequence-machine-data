@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if the number of prime factors (with multiplicity) of n is a multiple of 3, and all of them are of the type 3m-1 (in A003627), otherwise 0.",
+  "id": "A373588",
+  "mentions": [
+    "A001222",
+    "A003627",
+    "A004612",
+    "A145784",
+    "A373491",
+    "A373589"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

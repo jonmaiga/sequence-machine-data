@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of partitions n = x + y + z of positive integers such that x*y*z is a perfect square.",
+  "id": "A375576",
+  "mentions": [
+    "A338939",
+    "A375512",
+    "A375567",
+    "A375580"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

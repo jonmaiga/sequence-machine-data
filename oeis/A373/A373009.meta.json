@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of PentInv(1 + PentInv(2 + PentInv(3 + PentInv(4 + ... )))) where PentInv(n) = (1 + sqrt(1 + 24*n))/6.",
+  "id": "A373009",
+  "mentions": [
+    "A000326",
+    "A072449",
+    "A099874",
+    "A365747"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

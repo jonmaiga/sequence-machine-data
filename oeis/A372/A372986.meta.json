@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2*n)!/a(n-1), with a(0)=1.",
+  "id": "A372986",
+  "mentions": [
+    "A372987",
+    "A372988"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

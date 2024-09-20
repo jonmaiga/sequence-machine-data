@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Im(A008683(n)*(i^n)).",
+  "id": "A374367",
+  "mentions": [
+    "A008683",
+    "A009003",
+    "A337945"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "Fib(3n)^2 - 2*Fib(3n) + 4*Fib(3n+1) + 5.",
+  "description": "a(n) = Fib(3*n)^2 - 2*Fib(3*n) + 4*Fib(3*n+1) + 5, where Fib = A000045.",
   "id": "A049440",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A003285"
+  ],
   "tags": [
-    "cofr",
     "formulas",
     "nonn"
   ],

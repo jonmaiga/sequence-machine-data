@@ -1,9 +1,11 @@
 {
-  "description": "Numbers n such that nextprime(n^4) - prevprime(n^4) = 4.",
+  "description": "Numbers k such that nextprime(k^4) - prevprime(k^4) = 4.",
   "id": "A090122",
   "mentions": [
     "A058043",
     "A077038",
+    "A090123",
+    "A090124",
     "A090125"
   ],
   "tags": [
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

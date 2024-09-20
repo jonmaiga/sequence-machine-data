@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that sum(i=1,k,gcd(k,i)) = n * sigma(k).",
+  "description": "Least k such that Sum_{i=1..k} gcd(k,i) = n * sigma(k).",
   "id": "A072108",
   "mentions": [],
   "tags": [

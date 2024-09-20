@@ -1,5 +1,5 @@
 {
-  "description": "Partial quotients in the continued fraction of A100924.",
+  "description": "Continued fraction expansion of constant defined in A100924.",
   "id": "A100925",
   "mentions": [
     "A100923",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 97,
     "source": "oeis-entry"
   }

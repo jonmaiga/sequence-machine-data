@@ -1,0 +1,24 @@
+{
+  "description": "Total cost when the elements of the n-th composition (in standard order) are requested from a self-organizing list initialized to (1, 2, 3, ...), using the frequency-count updating strategy.",
+  "id": "A374994",
+  "mentions": [
+    "A000120",
+    "A025480",
+    "A066099",
+    "A333766",
+    "A374992",
+    "A374993",
+    "A374995",
+    "A374996",
+    "A374999"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

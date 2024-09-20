@@ -2,15 +2,19 @@
   "description": "Continued fraction for zeta(4).",
   "id": "A013680",
   "mentions": [
-    "A013662"
+    "A013631",
+    "A013662",
+    "A013679",
+    "A013681",
+    "A013696"
   ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 74,
+    "offset": 0,
+    "size": 83,
     "source": "oeis-bfile"
   }
 }

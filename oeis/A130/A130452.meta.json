@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: A097806 * A130321 as infinite lower triangular matrices.",
   "id": "A130452",
   "mentions": [
-    "A003484",
     "A003945",
     "A033484",
     "A097806",

@@ -1,5 +1,5 @@
 {
-  "description": "Table read by anti-diagonals: T(n,k) = number of numbers <= n that can be fully factored using the first k prime numbers.",
+  "description": "Table read by antidiagonals: T(n,k) = number of numbers <= n that can be fully factored using the first k prime numbers.",
   "id": "A362325",
   "mentions": [],
   "tags": [

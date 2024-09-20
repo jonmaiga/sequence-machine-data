@@ -1,5 +1,5 @@
 {
-  "description": "Smallest palindrome > 1 and == 1 mod n-th palindrome.",
+  "description": "Smallest palindrome > 1 and == 1 (mod n-th palindrome).",
   "id": "A083477",
   "mentions": [
     "A002113",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

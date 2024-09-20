@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if n' / gcd(n,n') is of the form 4m+2, otherwise 0, where n' stands for the arithmetic derivative of n, A003415.",
+  "id": "A373264",
+  "mentions": [
+    "A003415",
+    "A083345",
+    "A369001",
+    "A369004",
+    "A373265"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

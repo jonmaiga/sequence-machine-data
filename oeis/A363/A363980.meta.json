@@ -1,10 +1,14 @@
 {
-  "description": "Primes in Tom Greer's arithmetic progression of 27 primes.",
+  "description": "Tom Greer's arithmetic progression of 27 primes.",
   "id": "A363980",
   "mentions": [
+    "A033188",
+    "A033290",
     "A204189",
     "A260751",
-    "A327760"
+    "A261140",
+    "A327760",
+    "A374949"
   ],
   "tags": [
     "easy",

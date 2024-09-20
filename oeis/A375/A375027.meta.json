@@ -1,0 +1,20 @@
+{
+  "description": "Number of occurrences of Easter Sunday on March 22, March 23, ..., April 25 during a 532-year Julian Easter cycle.",
+  "id": "A375027",
+  "mentions": [
+    "A224110",
+    "A348924",
+    "A349710"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

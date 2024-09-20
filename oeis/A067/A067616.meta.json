@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction for sum(k>=1, (2^k-1)^(-2) ).",
+  "description": "Continued fraction expansion for Sum_{k>=1} 1/(2^k-1)^2.",
   "id": "A067616",
   "mentions": [
     "A065443"
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 96,
     "source": "oeis-bfile"
   }

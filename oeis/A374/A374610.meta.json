@@ -1,0 +1,13 @@
+{
+  "description": "Smallest result of n in \"base-p\" using digits 0,1,2 and interpreted as base-3.",
+  "id": "A374610",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

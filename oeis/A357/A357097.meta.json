@@ -1,0 +1,27 @@
+{
+  "description": "A multiplication table for the rows of the extended Wythoff array. See comments for definition.",
+  "id": "A357097",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A003622",
+    "A019586",
+    "A022344",
+    "A035336",
+    "A035513",
+    "A101330",
+    "A120873",
+    "A287870",
+    "A348853"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

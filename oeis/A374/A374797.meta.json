@@ -1,0 +1,18 @@
+{
+  "description": "Distinct value of A003990 (LCM table read by antidiagonals) in order of appearance.",
+  "id": "A374797",
+  "mentions": [
+    "A003990",
+    "A257471",
+    "A374798"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

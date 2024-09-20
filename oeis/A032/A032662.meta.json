@@ -1,5 +1,5 @@
 {
-  "description": "Smallest n concatenated with n + d (d = 0,1,2,3,...) is a prime.",
+  "description": "a(n) is the least k such that k concatenated with k + n is prime.",
   "id": "A032662",
   "mentions": [
     "A030457",
@@ -9,11 +9,12 @@
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 93,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

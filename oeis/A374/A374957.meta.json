@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of the circumradius of a regular heptagon with unit side length.",
+  "id": "A374957",
+  "mentions": [
+    "A001622",
+    "A010503",
+    "A020760",
+    "A073052",
+    "A121598",
+    "A178817",
+    "A188887",
+    "A272487",
+    "A285871",
+    "A300074",
+    "A374971",
+    "A374972",
+    "A375151",
+    "A375190"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

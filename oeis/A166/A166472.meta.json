@@ -1,5 +1,5 @@
 {
-  "description": "2^F(n+2)*3^F(n+1)/12, where F(n) is the n-th Fibonacci number (A000045(n)).",
+  "description": "a(n) = 2^F(n+2)*3^F(n+1)/12, where F(n) is the n-th Fibonacci number (A000045(n)).",
   "id": "A166472",
   "mentions": [
     "A000045",
@@ -8,7 +8,9 @@
     "A003586",
     "A025487",
     "A166469",
-    "A166470"
+    "A166470",
+    "A166471",
+    "A166473"
   ],
   "tags": [
     "formulas",
@@ -17,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

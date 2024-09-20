@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that at least one member of its Collatz (3x+1) trajectory is greater than n.",
+  "description": "Numbers k whose Collatz (3x+1) trajectory includes at least one term that is greater than k.",
   "id": "A213199",
   "mentions": [
+    "A033496",
     "A222562",
     "A222597"
   ],

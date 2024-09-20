@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k in A301413 such that k * A002110(m) is in A002182.",
+  "description": "Distinct terms of A301413 in ascending order: terms k in A301413 that have at least one number m such that k * A002110(m) is a highly composite number (A002182) with m distinct prime factors.",
   "id": "A301414",
   "mentions": [
     "A000079",
@@ -7,7 +7,6 @@
     "A002182",
     "A002201",
     "A025487",
-    "A025847",
     "A055932",
     "A275055",
     "A301413"

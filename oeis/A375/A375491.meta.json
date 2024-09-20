@@ -1,0 +1,17 @@
+{
+  "description": "Number of groups of order m where m is the n-th squarefree number.",
+  "id": "A375491",
+  "mentions": [
+    "A000001",
+    "A005117"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

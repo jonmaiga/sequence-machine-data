@@ -1,9 +1,11 @@
 {
-  "description": "Expansion of l.g.f.: Sum_{n>=1} [ Sum_{k>=0} C(n+k-1,k)^4 *x^k ] *x^n/n.",
+  "description": "Expansion of l.g.f. Sum_{n>=1} [ Sum_{k>=0} C(n+k-1,k)^4 *x^k ] *x^n/n.",
   "id": "A181069",
   "mentions": [
+    "A005260",
     "A181067",
-    "A181068"
+    "A181068",
+    "A198256"
   ],
   "tags": [
     "formulas",

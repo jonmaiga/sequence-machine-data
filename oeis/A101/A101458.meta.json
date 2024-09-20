@@ -1,5 +1,5 @@
 {
-  "description": "Prime digits in the decimal expansion of Khintchine's constant.",
+  "description": "Prime digits in the decimal expansion of Khinchin's constant.",
   "id": "A101458",
   "mentions": [
     "A002210",
@@ -9,6 +9,7 @@
   "tags": [
     "base",
     "easy",
+    "less",
     "nonn"
   ],
   "terms": {

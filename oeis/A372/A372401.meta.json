@@ -1,0 +1,21 @@
+{
+  "description": "Position of 210^n among 7-smooth numbers A002473.",
+  "id": "A372401",
+  "mentions": [
+    "A002110",
+    "A002473",
+    "A022330",
+    "A147571",
+    "A202821",
+    "A372400",
+    "A372402"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum(binomial(n,k)*floor(sqrt(Bell(k)))*floor(sqrt(Bell(n-k))),k=0..n).",
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)*floor(sqrt(Bell(k)))*floor(sqrt(Bell(n-k))).",
   "id": "A192574",
   "mentions": [
     "A192570",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Number of multiset permutations of {1, 1, 2, 2, ..., n, n} with no fixed pair (j,j).",
+  "id": "A374980",
+  "mentions": [
+    "A000166",
+    "A000459",
+    "A000680",
+    "A059841",
+    "A116218",
+    "A375222",
+    "A375223",
+    "A375694"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

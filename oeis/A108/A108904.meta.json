@@ -1,7 +1,9 @@
 {
-  "description": "Numbers such that the outer two digits are 9's and the inner digits are 7's.",
+  "description": "a(n) has two outer digits 9 and n inner digits 7.",
   "id": "A108904",
-  "mentions": [],
+  "mentions": [
+    "A059482"
+  ],
   "tags": [
     "base",
     "easy",
@@ -9,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 16,
+    "offset": 0,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

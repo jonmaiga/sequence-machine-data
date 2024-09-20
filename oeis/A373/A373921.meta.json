@@ -1,0 +1,27 @@
+{
+  "description": "The last entry in the difference table for {the n-th row of A177028 arranged in increasing order}.",
+  "id": "A373921",
+  "mentions": [
+    "A063778",
+    "A065091",
+    "A176774",
+    "A176948",
+    "A177025",
+    "A177028",
+    "A187202",
+    "A274967",
+    "A274968",
+    "A342550",
+    "A342772",
+    "A342805"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

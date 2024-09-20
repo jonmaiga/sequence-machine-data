@@ -2,7 +2,12 @@
   "description": "Number of graphs of order n with exactly one Hamiltonian cycle.",
   "id": "A307956",
   "mentions": [
-    "A307957"
+    "A307957",
+    "A374312",
+    "A374313",
+    "A374314",
+    "A374315",
+    "A374316"
   ],
   "tags": [
     "more",

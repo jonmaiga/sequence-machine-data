@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the Euclidean length of the minimum Steiner tree joining all the vertices of a unit cube.",
+  "id": "A374948",
+  "mentions": [
+    "A002194",
+    "A010482",
+    "A176532",
+    "A178809",
+    "A374148",
+    "A374260"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

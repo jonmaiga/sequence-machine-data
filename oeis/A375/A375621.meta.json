@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (a(n-3)*a(n-5) + a(n-1)*a(n-7))/a(n-8) with a(0) = ... = a(7) = 1.",
+  "id": "A375621",
+  "mentions": [
+    "A102276",
+    "A108896"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

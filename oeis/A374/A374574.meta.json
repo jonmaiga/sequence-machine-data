@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{j=n..2n} j!.",
+  "id": "A374574",
+  "mentions": [
+    "A000142",
+    "A054115",
+    "A100822",
+    "A143084",
+    "A143122",
+    "A211370",
+    "A296591"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

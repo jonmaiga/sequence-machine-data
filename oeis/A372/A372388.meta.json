@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (k+2) / (2k+1)!.",
+  "id": "A372388",
+  "mentions": [
+    "A372389"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

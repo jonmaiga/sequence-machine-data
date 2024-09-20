@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the third smallest univoque Pisot number.",
+  "id": "A374751",
+  "mentions": [
+    "A127583",
+    "A374750",
+    "A374752"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

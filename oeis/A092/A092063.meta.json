@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that numerator of Sum_{i=1..n} 1/(prime(i)-1) is prime.",
+  "description": "Numbers k such that numerator of Sum_{i=1..k} 1/(prime(i)-1) is prime.",
   "id": "A092063",
   "mentions": [
     "A000040",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
+    "size": 59,
     "source": "oeis-entry"
   }
 }

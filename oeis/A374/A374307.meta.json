@@ -1,0 +1,21 @@
+{
+  "description": "Number of Greek Key Tours on an 8 X n grid.",
+  "id": "A374307",
+  "mentions": [
+    "A046994",
+    "A046995",
+    "A145156",
+    "A145157",
+    "A160240",
+    "A160241"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

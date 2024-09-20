@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that f(k) * 2^n - 1 is prime, where f(j) = A070826(j) and k is the number of decimal digits of 2^n.",
+  "description": "Numbers m such that f(k) * 2^m - 1 is prime, where f(j) = A070826(j) and k is the number of decimal digits of 2^m.",
   "id": "A095991",
   "mentions": [
     "A070826"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

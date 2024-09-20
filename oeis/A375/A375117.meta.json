@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle of positive integers, read by rows, the elements of the n-th row being the nonzero remainders, in increasing order, when the Euclidean algorithm is applied to 2^n-1 and n.",
+  "id": "A375117",
+  "mentions": [
+    "A014491",
+    "A049816"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

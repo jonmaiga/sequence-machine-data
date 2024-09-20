@@ -1,0 +1,17 @@
+{
+  "description": "Integers k such that 2k + 1 and 4k + 3 are anagrams of k.",
+  "id": "A373177",
+  "mentions": [
+    "A323711",
+    "A371623"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

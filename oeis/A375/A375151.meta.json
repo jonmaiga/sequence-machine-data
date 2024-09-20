@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of the circumradius of a regular 9-gon with unit side length.",
+  "id": "A375151",
+  "mentions": [
+    "A001622",
+    "A010503",
+    "A019879",
+    "A020760",
+    "A121602",
+    "A188887",
+    "A256853",
+    "A272488",
+    "A285871",
+    "A300074",
+    "A374957",
+    "A375152",
+    "A375153",
+    "A375190"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

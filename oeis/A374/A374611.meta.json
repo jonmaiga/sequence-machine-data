@@ -1,0 +1,21 @@
+{
+  "description": "If n = A066207(i) * A066208(j) for some i, j > 0 then a(n) = A066207(j) * A066208(i).",
+  "id": "A374611",
+  "mentions": [
+    "A066207",
+    "A066208",
+    "A247503",
+    "A248101",
+    "A360646",
+    "A374600"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

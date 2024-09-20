@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n, m) = if m <= floor(n/2) then (n + 1)*a(m) + n otherwise (n + 1)*a(n - m) + n, where a(m) is A000096.",
+  "description": "Triangle read by rows: T(n, k) = (n+1)*A000096(k-1) + n if k <= floor(n/2), otherwise T(n, k) = (n+1)*A000096(n-k-1) + n.",
   "id": "A143199",
   "mentions": [
     "A000096",

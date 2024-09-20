@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(x^2 + x * exp(x^2)).",
+  "id": "A375653",
+  "mentions": [
+    "A216688",
+    "A375604",
+    "A375654"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

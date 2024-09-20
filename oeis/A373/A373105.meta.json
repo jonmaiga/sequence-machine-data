@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = sigma_10(n^2)/sigma_5(n^2).",
+  "id": "A373105",
+  "mentions": [
+    "A013664",
+    "A013669",
+    "A057660",
+    "A084218",
+    "A084220",
+    "A371491",
+    "A371878",
+    "A372966",
+    "A373007",
+    "A373103"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

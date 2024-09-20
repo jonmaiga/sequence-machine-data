@@ -1,7 +1,9 @@
 {
   "description": "a(n) is the smallest prime such that (binary a(n)) OR (binary prime(n)) is one less than a power of 2.",
   "id": "A175333",
-  "mentions": [],
+  "mentions": [
+    "A007053"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Expansion of g.f. A(x) satisfing A(x) = x + A(x/(1-x)) * A(x/(1+x)).",
+  "id": "A374569",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

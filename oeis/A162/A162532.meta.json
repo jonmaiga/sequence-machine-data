@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that their largest divisor <= sqrt(k) equals 12.",
+  "description": "Numbers k whose largest divisor <= sqrt(k) equals 12.",
   "id": "A162532",
   "mentions": [
     "A008578",

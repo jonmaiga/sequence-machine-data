@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the last term in the n-th row of A374394.",
+  "id": "A374396",
+  "mentions": [
+    "A003754",
+    "A022290",
+    "A374356",
+    "A374394",
+    "A374395"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

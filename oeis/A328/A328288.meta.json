@@ -9,7 +9,8 @@
     "base",
     "fini",
     "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 0,

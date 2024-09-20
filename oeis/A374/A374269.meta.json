@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct positive n-th powers in exactly 4 ways, or -1 if no such number exists.",
+  "id": "A374269",
+  "mentions": [
+    "A025305",
+    "A146756",
+    "A374228",
+    "A374256",
+    "A374257"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

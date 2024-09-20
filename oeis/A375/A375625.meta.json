@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct values taken by F(p) = Sum (|i-j| - |p(i)-p(j)|)^2 where the sum is over all 1 <= i < j <= n, for all permutations p in the symmetric group S_n.",
+  "id": "A375625",
+  "mentions": [
+    "A126972",
+    "A375623"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

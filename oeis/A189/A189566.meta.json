@@ -11,11 +11,12 @@
   "tags": [
     "formulas",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

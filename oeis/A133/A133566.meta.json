@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: (1,1,1,...) on the main diagonal and (0,1,0,1,...) on the subdiagonal.",
   "id": "A133566",
   "mentions": [
-    "A004001",
     "A040001",
     "A084938",
     "A114752",

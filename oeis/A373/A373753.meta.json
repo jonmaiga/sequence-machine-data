@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n-2} A205497(n, k) * (k mod 2).",
+  "id": "A373753",
+  "mentions": [
+    "A000111",
+    "A205497",
+    "A373752"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

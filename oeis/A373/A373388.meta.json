@@ -1,0 +1,17 @@
+{
+  "description": "Alternating row sums of the Eulerian zig-zag number triangle A205497.",
+  "id": "A373388",
+  "mentions": [
+    "A000111",
+    "A205497",
+    "A373389"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

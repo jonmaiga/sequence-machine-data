@@ -1,0 +1,17 @@
+{
+  "description": "Number of multisets of free polyominoes that can be constructed from n squares.",
+  "id": "A372123",
+  "mentions": [
+    "A000040",
+    "A000105"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

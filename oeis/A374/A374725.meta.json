@@ -1,0 +1,18 @@
+{
+  "description": "The \"multiplicative comma sequence\": the lexicographically earliest sequence of positive integers with the property that the sequence formed by the pairs of digits adjacent to the commas between the terms is the same as the sequence of successive ratios between the terms.",
+  "id": "A374725",
+  "mentions": [
+    "A121805"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the sagitta of a regular hexagon with unit side length.",
+  "id": "A375069",
+  "mentions": [
+    "A010527",
+    "A019913",
+    "A020769",
+    "A104956",
+    "A152422",
+    "A174968",
+    "A332133",
+    "A334843",
+    "A374972",
+    "A375068",
+    "A375070",
+    "A375153",
+    "A375189",
+    "A375192",
+    "A375194"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

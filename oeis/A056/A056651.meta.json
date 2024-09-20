@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that binomial(n,floor(n/2)) has no non-unitary square divisors: all of their square divisors are unitary ones.",
+  "description": "Numbers k such that binomial(k,floor(k/2)) has no non-unitary square divisors: all of their square divisors are unitary ones.",
   "id": "A056651",
   "mentions": [
+    "A001405",
+    "A004709",
     "A046098",
     "A056175",
     "A110495"

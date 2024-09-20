@@ -1,0 +1,22 @@
+{
+  "description": "Diagonals of a Euclidian solid such that there exists a Pythagorean quadruple d^2=a^2+b^2+c^2 that is more cube-like than any prior value of d.",
+  "id": "A375098",
+  "mentions": [
+    "A001653",
+    "A001835",
+    "A079935",
+    "A096907",
+    "A096908",
+    "A096909",
+    "A096910"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

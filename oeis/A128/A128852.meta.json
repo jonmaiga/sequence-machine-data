@@ -2,6 +2,7 @@
   "description": "Anti-elite primes: a prime number p is called anti-elite if only a finite number of Fermat numbers 2^(2^n)+1 are quadratic non-residues mod p.",
   "id": "A128852",
   "mentions": [
+    "A023394",
     "A102742"
   ],
   "tags": [

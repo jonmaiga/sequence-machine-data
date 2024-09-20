@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose prime factorization has a minimum exponent that is larger than 1 and is 1 less than the maximum exponent.",
+  "id": "A375143",
+  "mentions": [
+    "A001694",
+    "A051903",
+    "A051904",
+    "A072777",
+    "A093136",
+    "A143610",
+    "A167747",
+    "A179666",
+    "A179702",
+    "A190472",
+    "A375073"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

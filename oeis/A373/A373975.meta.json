@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if the number of prime factors with multiplicity is a multiple of 3, otherwise 0.",
+  "id": "A373975",
+  "mentions": [
+    "A001222",
+    "A065043",
+    "A101605",
+    "A145784",
+    "A358753",
+    "A373588",
+    "A373596",
+    "A373836"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

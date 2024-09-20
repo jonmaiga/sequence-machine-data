@@ -2,16 +2,19 @@
   "description": "Smallest composite number which is 1 more than the product of n distinct primes numbers.",
   "id": "A081548",
   "mentions": [
+    "A002110",
+    "A014545",
     "A081545",
     "A081546",
     "A081547"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

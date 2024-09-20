@@ -1,11 +1,12 @@
 {
-  "description": "a(n) is the least common multiple of numbers (p_i^e_i)-1, when n = Product (p_i^e_i), with p_i distinct primes with their exponents e_i.",
+  "description": "If n = Product p(k)^e(k) then a(n) = LCM (p(k)^e(k) - 1).",
   "id": "A345044",
   "mentions": [
     "A047994",
     "A344878",
     "A345045",
-    "A345046"
+    "A345046",
+    "A353783"
   ],
   "tags": [
     "formulas",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

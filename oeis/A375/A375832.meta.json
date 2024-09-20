@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(1 + x*log(1 - x^2*A(x))).",
+  "id": "A375832",
+  "mentions": [
+    "A371302"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

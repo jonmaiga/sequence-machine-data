@@ -1,9 +1,13 @@
 {
   "description": "Easter occurrences on March 22, March 23, ..., April 25 during a 5,700,000-year Gregorian Easter cycle.",
   "id": "A224110",
-  "mentions": [],
+  "mentions": [
+    "A348924",
+    "A375027"
+  ],
   "tags": [
     "fini",
+    "formulas",
     "full",
     "nonn"
   ],

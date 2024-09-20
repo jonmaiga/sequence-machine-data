@@ -1,16 +1,18 @@
 {
-  "description": "Largest divisor of A002182(n) <= sqrt(A002182(n))",
+  "description": "Largest divisor of A002182(n) <= sqrt(A002182(n)).",
   "id": "A152047",
   "mentions": [
     "A002182",
+    "A033676",
     "A152048"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

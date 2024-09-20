@@ -2,8 +2,7 @@
   "description": "Position of the first letter of n (in French) in the alphabet.",
   "id": "A331498",
   "mentions": [
-    "A005606",
-    "A311498"
+    "A005606"
   ],
   "tags": [
     "nonn",

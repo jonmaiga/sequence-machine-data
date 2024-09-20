@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer m > 1 such that m == m^m (mod 10^(len(m) + n)), where len(m) is the number of digits of m.",
+  "id": "A373386",
+  "mentions": [
+    "A000533",
+    "A055642",
+    "A082576",
+    "A373205",
+    "A373206"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

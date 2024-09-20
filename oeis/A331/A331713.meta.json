@@ -1,5 +1,5 @@
 {
-  "description": "Number of nonnegative integer matrices with distinct nonzero rows, total sum n each column with the same sum and columns in nonincreasing lexicographic order.",
+  "description": "Number of nonnegative integer matrices with pairwise distinct nonzero rows, the total sum of elements equal n, the same sum of elements in each column, and the columns coming in nonincreasing lexicographic order.",
   "id": "A331713",
   "mentions": [
     "A331572"

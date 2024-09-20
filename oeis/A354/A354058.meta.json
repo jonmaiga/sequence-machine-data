@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by ascending diagonals: T(n,k) is the number of degree-k primitive Dirichlet characters modulo n.",
+  "description": "Square array read by ascending antidiagonals: T(n,k) is the number of degree-k primitive Dirichlet characters modulo n.",
   "id": "A354058",
   "mentions": [
     "A007431",

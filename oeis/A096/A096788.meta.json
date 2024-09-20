@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both n and n+1 are composite numbers that add up to a prime of the form 4k+3.",
+  "description": "Numbers m such that both m and m+1 are composite numbers whose sum is a prime of the form 4k+3.",
   "id": "A096788",
   "mentions": [
     "A060254",

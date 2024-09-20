@@ -2,6 +2,7 @@
   "description": "Ultra-useful primes: smallest k such that 2^(2^n) - k is prime.",
   "id": "A058220",
   "mentions": [
+    "A001146",
     "A013603",
     "A058221"
   ],

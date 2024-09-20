@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n mod A276150(n), where A276150 is the digit sum in the primorial base.",
+  "id": "A373832",
+  "mentions": [
+    "A276086",
+    "A276150",
+    "A333426",
+    "A373833",
+    "A373834",
+    "A373850"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

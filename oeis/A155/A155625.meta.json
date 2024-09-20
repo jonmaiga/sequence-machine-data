@@ -1,5 +1,5 @@
 {
-  "description": "11^n+4^n-1.",
+  "description": "a(n) = 11^n + 4^n - 1.",
   "id": "A155625",
   "mentions": [
     "A155588",
@@ -26,7 +26,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

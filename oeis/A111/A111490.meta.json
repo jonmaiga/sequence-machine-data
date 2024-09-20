@@ -1,10 +1,11 @@
 {
-  "description": "Antidiagonal sums of the numerical array defined by M(n,k) = 1 + (k-1) mod n.",
+  "description": "a(n) = n + Sum_{k=1..n} (n mod k). Row sums of A372727.",
   "id": "A111490",
   "mentions": [
     "A000142",
     "A004125",
-    "A033879"
+    "A033879",
+    "A372727"
   ],
   "tags": [
     "easy",
@@ -12,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 58,
+    "offset": 0,
+    "size": 59,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of sets that can be represented as a length-n combination of commas and braces, with elements possibly repeated.",
+  "id": "A373516",
+  "mentions": [
+    "A004111",
+    "A329691"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

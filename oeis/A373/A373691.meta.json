@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows T(n, k) is the number of permutations on n elements whose square has k descents, for n >= 1 and 0 <= k <= n-1.",
+  "id": "A373691",
+  "mentions": [
+    "A000085",
+    "A000142",
+    "A003483",
+    "A008292",
+    "A037224"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

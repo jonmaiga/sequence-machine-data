@@ -1,0 +1,22 @@
+{
+  "description": "Position of the last requested element when the elements of the n-th composition (in standard order) are requested from a self-organizing list initialized to (1, 2, 3, ...), where a requested element at position i is moved to position floor((i+1)/2).",
+  "id": "A375000",
+  "mentions": [
+    "A025480",
+    "A066099",
+    "A333766",
+    "A374995",
+    "A374997",
+    "A374998",
+    "A374999"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

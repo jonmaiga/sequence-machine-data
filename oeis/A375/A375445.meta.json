@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x)^2 = A( x^2/(1-2*x)^5 )/(1-2*x).",
+  "id": "A375445",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A375443",
+    "A375444",
+    "A375455"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

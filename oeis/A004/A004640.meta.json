@@ -2,14 +2,17 @@
   "description": "Cubes written in base 11. (Next term contains a non-decimal character.)",
   "id": "A004640",
   "mentions": [
-    "A000578"
+    "A000578",
+    "A004632",
+    "A004639",
+    "A004684"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 9,
     "source": "oeis-entry"
   }

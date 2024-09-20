@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: row n gives the coefficients of the n-th complete exponential Bell polynomial B_n(x_1, x_2, ...,x_n) with monomials sorted into standard order.",
+  "description": "Irregular triangle read by rows: row n gives the coefficients of the n-th complete exponential Bell polynomial B_n(x_1, x_2, ..., x_n) with monomials sorted into standard order.",
   "id": "A335256",
   "mentions": [
     "A000041",

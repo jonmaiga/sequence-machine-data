@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th octagonal number is 9-almost prime.",
+  "description": "Numbers k such that k-th octagonal number has 9 prime factors counted with multiplicity.",
   "id": "A114828",
   "mentions": [
     "A000040",
@@ -28,7 +28,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 52,
     "source": "joeis"
   }
 }

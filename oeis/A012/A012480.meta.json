@@ -1,5 +1,5 @@
 {
-  "description": "exp(cos(x)*arcsin(x))=1+x+1/2!*x^2-1/3!*x^3-7/4!*x^4-15/5!*x^5...",
+  "description": "Expansion of e.g.f.: exp(cos(x)*arcsin(x))=1+x+1/2!*x^2-1/3!*x^3-7/4!*x^4-15/5!*x^5...",
   "id": "A012480",
   "mentions": [],
   "tags": [

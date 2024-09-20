@@ -1,5 +1,5 @@
 {
-  "description": "Concatenation of 'prevprime(n) and n and prevprime(n)' is a prime.",
+  "description": "Concatenation of 'prevprime(k) and k and prevprime(k)' is a prime.",
   "id": "A034812",
   "mentions": [
     "A034808",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 61,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

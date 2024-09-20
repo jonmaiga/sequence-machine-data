@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 18-n.",
   "id": "A022974",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022995"
+  ],
   "tags": [
     "formulas",
     "sign"

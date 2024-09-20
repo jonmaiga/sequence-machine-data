@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if A113177(n) and A328845(n) are both even, otherwise 0, where A113177 is fully additive with a(p) = Fibonacci(p) and A328845 is the first Fibonacci-based variant of the arithmetic derivative.",
+  "id": "A374107",
+  "mentions": [
+    "A059841",
+    "A113177",
+    "A328845",
+    "A373585",
+    "A374045",
+    "A374106",
+    "A374108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

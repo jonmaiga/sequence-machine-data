@@ -1,0 +1,21 @@
+{
+  "description": "Number of seconds in time units: second, minute, hour, day, week, month, year, decade, century, millennium, eon (in Julian years).",
+  "id": "A375666",
+  "mentions": [
+    "A053401",
+    "A213612",
+    "A213613",
+    "A213614"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

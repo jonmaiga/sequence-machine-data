@@ -1,0 +1,19 @@
+{
+  "description": "The maximum exponent in the prime factorization of the numbers that are not coprime to the maximum exponent in their prime factorization.",
+  "id": "A374587",
+  "mentions": [
+    "A051903",
+    "A368715",
+    "A374586"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

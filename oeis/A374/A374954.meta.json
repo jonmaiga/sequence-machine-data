@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers k for which sqrt(k) < sqrt(p_1) + ... + sqrt(p_r), where p_1*...*p_r is the prime factorization of k.",
+  "id": "A374954",
+  "mentions": [
+    "A001414",
+    "A002808",
+    "A046343",
+    "A063538",
+    "A063539",
+    "A063762",
+    "A063763",
+    "A101550"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

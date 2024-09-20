@@ -8,11 +8,12 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

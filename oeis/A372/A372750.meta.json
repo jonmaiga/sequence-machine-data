@@ -1,0 +1,23 @@
+{
+  "description": "5th column of the 3-Zeckendorf array (A136189).",
+  "id": "A372750",
+  "mentions": [
+    "A000930",
+    "A005374",
+    "A020942",
+    "A064105",
+    "A064106",
+    "A136189",
+    "A202342",
+    "A350215",
+    "A372749"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

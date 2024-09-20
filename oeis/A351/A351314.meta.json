@@ -2,6 +2,7 @@
   "description": "Sum of the 8th powers of the square divisors of n.",
   "id": "A351314",
   "mentions": [
+    "A010052",
     "A035316",
     "A046951",
     "A351307",

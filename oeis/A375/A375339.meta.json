@@ -1,0 +1,32 @@
+{
+  "description": "If n has exactly one non-unitary prime factor then a(n) is the exponent of the highest power of this prime that divides n, otherwise a(n) = 0.",
+  "id": "A375339",
+  "mentions": [
+    "A005361",
+    "A013661",
+    "A048109",
+    "A051903",
+    "A059956",
+    "A060687",
+    "A082293",
+    "A154945",
+    "A190641",
+    "A212172",
+    "A271971",
+    "A275812",
+    "A359466",
+    "A372603",
+    "A375340",
+    "A375341"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

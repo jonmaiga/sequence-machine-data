@@ -1,0 +1,13 @@
+{
+  "description": "Permutation rank of the initial state S of length n in an RC4-like Key Scheduling Algorithm with key comprising numbers 1 to n.",
+  "id": "A374720",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Numbers that are the product of an even number of distinct primes.",
   "id": "A030229",
   "mentions": [
+    "A000203",
     "A000379",
     "A005117",
     "A006094",

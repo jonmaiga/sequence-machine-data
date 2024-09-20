@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form p=floor(T/4), T are Triangular numbers.",
+  "description": "Primes of the form floor(binomial(k,2)/4).",
   "id": "A171574",
   "mentions": [
     "A000217"

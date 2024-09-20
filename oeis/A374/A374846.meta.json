@@ -1,0 +1,17 @@
+{
+  "description": "Numbers appearing exactly once in a Pythagorean triple.",
+  "id": "A374846",
+  "mentions": [
+    "A046081",
+    "A374845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

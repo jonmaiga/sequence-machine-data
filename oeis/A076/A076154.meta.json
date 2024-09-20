@@ -1,5 +1,5 @@
 {
-  "description": "Let c=sum_{k>=0} 1/2^(k!), sequence gives values of terms congruent to 5 of the continued fraction for c.",
+  "description": "Let c = Sum_{k>=0} 1/2^(k!), sequence gives values of terms congruent to 5 of the continued fraction for c.",
   "id": "A076154",
   "mentions": [
     "A076152",
@@ -7,7 +7,6 @@
     "A076187"
   ],
   "tags": [
-    "cofr",
     "formulas",
     "nonn"
   ],

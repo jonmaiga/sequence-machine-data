@@ -1,0 +1,16 @@
+{
+  "description": "Defined by: Sum_{i=1..n} i*a(i)/n^i = 1, n>=1.",
+  "id": "A374601",
+  "mentions": [
+    "A374562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

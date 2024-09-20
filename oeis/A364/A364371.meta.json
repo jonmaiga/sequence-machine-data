@@ -2,11 +2,14 @@
   "description": "G.f. satisfies A(x) = (1 + x) * (1 - x*A(x)^2).",
   "id": "A364371",
   "mentions": [
+    "A000108",
     "A073157",
     "A364372",
-    "A364373"
+    "A364373",
+    "A364375"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

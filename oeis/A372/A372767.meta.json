@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} floor(k*zeta(3))/2^k.",
+  "id": "A372767",
+  "mentions": [
+    "A000079",
+    "A002117",
+    "A059537",
+    "A372610",
+    "A372766"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

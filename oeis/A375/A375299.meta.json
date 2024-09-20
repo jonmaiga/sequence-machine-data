@@ -1,0 +1,17 @@
+{
+  "description": "Number of longest winning paths in n X n Hex.",
+  "id": "A375299",
+  "mentions": [
+    "A357516",
+    "A375298"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

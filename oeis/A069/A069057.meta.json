@@ -2,7 +2,10 @@
   "description": "Numbers k such that the numerator of Sum_{d|k} 1/d > 2k.",
   "id": "A069057",
   "mentions": [
-    "A017665"
+    "A005101",
+    "A014567",
+    "A017665",
+    "A023198"
   ],
   "tags": [
     "easy",

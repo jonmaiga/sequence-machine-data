@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the difference between the sum of the squares and the sum of the cubes for the n first terms of A002760.",
+  "id": "A374754",
+  "mentions": [
+    "A000330",
+    "A000537",
+    "A001014",
+    "A002760",
+    "A061023",
+    "A087285",
+    "A087286"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

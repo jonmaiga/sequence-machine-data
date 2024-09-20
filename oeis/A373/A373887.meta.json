@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the length of the longest arithmetic progression of semiprimes ending in the n-th semiprime.",
+  "id": "A373887",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A096003",
+    "A096583",
+    "A373888"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,13 +1,15 @@
 {
   "description": "Powers of fifth root of 6 rounded to nearest integer.",
   "id": "A018130",
-  "mentions": [],
+  "mentions": [
+    "A011091"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

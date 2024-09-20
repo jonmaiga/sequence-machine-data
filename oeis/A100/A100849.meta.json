@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that n^n+n+5 is prime.",
+  "description": "Numbers k such that k^k + k + 5 is prime.",
   "id": "A100849",
-  "mentions": [],
+  "mentions": [
+    "A100848",
+    "A100850"
+  ],
   "tags": [
     "hard",
     "more",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

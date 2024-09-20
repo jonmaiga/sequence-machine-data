@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number of straight lines needed to intersect all points (k, d(k)) for k = 1..n (where d is the sum-of-divisors function A000005).",
+  "id": "A375499",
+  "mentions": [
+    "A000005",
+    "A373810",
+    "A373811",
+    "A373813",
+    "A375420",
+    "A375515"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

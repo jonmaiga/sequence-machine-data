@@ -1,0 +1,16 @@
+{
+  "description": "Number of ordered primitive solutions (x,y,z,w) to x*y + y*z + z*w + w*x = n with x,y,z,w >= 1.",
+  "id": "A374970",
+  "mentions": [
+    "A066958",
+    "A374969"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

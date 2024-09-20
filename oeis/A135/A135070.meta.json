@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = [x^(2^n+n-2)] (x + x^2 + x^4 + x^8 + ... + x^(2^n))^n for n>=2.",
+  "description": "a(n) = [x^(2^n+n-2)] (x + x^2 + x^4 + x^8 + ... + x^(2^n))^n for n>=1.",
   "id": "A135070",
   "mentions": [
     "A135068",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 18,
+    "offset": 1,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

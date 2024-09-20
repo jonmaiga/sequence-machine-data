@@ -1,0 +1,19 @@
+{
+  "description": "The number of infinitary divisors of n!.",
+  "id": "A375635",
+  "mentions": [
+    "A027423",
+    "A037445",
+    "A048656",
+    "A177329"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

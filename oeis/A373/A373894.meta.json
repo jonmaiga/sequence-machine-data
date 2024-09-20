@@ -1,0 +1,18 @@
+{
+  "description": "Number of self-dual lattices on n unlabeled nodes.",
+  "id": "A373894",
+  "mentions": [
+    "A006966",
+    "A133983"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,10 @@
   "description": "Numbers that are congruent to {0, 1, 8} mod 9.",
   "id": "A054966",
   "mentions": [
+    "A008591",
     "A047523",
+    "A056020",
+    "A105395",
     "A275910"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Rectangular array M read by antidiagonals in which entry M_{n-k,k} in row n-k and column k, 0 <= k <= n, gives the coefficient of x^k in the numerator of the conjectured generating function for row n+3 of the tabular form of A050446.",
+  "description": "Triangle read by rows: Zig-zag Eulerian number triangle T(n, k).",
   "id": "A205497",
   "mentions": [
     "A000012",
@@ -13,16 +13,19 @@
     "A187660",
     "A205492",
     "A205493",
-    "A205494"
+    "A205494",
+    "A350354",
+    "A373388",
+    "A373389"
   ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl"
+    "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 57,
     "source": "oeis-entry"
   }
 }

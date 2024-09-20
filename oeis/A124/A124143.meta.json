@@ -1,8 +1,9 @@
 {
-  "description": "Perfect powers pp such that sigma(n)=pp for some positive integer n.",
+  "description": "Perfect powers pp such that sigma(k) = pp for some positive integer k.",
   "id": "A124143",
   "mentions": [
     "A001597",
+    "A002191",
     "A065496"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the maximum number of consecutive bit changes in the binary representation of n.",
+  "id": "A374176",
+  "mentions": [
+    "A000975",
+    "A005811",
+    "A037834",
+    "A038374",
+    "A038554"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

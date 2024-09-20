@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct sums i^3 + j^3 + k^3 + l^3 for 1<=i<=j<=k<=l<=n.",
+  "id": "A374714",
+  "mentions": [
+    "A061791",
+    "A374711",
+    "A374713",
+    "A374716"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

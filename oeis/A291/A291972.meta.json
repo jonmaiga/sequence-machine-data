@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest k such that psi(k)/phi(k) prime where k is the product of n distinct primes.",
+  "description": "a(n) is the smallest k such that psi(k)/phi(k) is prime where k is the product of n distinct primes.",
   "id": "A291972",
   "mentions": [
     "A000010",

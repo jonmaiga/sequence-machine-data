@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that K(11 / k) != K((-1)^floor(k/2)*k / 11), where K(a/b) is the Kronecker symbol. Row 3 of A374188.",
+  "id": "A374182",
+  "mentions": [
+    "A372728",
+    "A374180",
+    "A374181",
+    "A374183",
+    "A374184",
+    "A374188"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

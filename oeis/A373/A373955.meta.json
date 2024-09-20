@@ -1,0 +1,38 @@
+{
+  "description": "Numbers k such that the k-th integer composition in standard order contains two adjacent ones and no other runs.",
+  "id": "A373955",
+  "mentions": [
+    "A003242",
+    "A066099",
+    "A106356",
+    "A114901",
+    "A116608",
+    "A116861",
+    "A124762",
+    "A124767",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A240085",
+    "A285981",
+    "A333381",
+    "A333382",
+    "A333489",
+    "A333755",
+    "A373948",
+    "A373949",
+    "A373950",
+    "A373951",
+    "A373952",
+    "A373953",
+    "A373954"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

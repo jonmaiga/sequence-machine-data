@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sums of digits of k and 1/k in factorial base (A007623) are equal.",
+  "id": "A373084",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A034968",
+    "A276350"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

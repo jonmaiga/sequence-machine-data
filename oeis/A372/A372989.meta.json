@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = floor((2*n)!/(n!^2*a(n-1))), with a(0)=1.",
+  "id": "A372989",
+  "mentions": [
+    "A372990"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

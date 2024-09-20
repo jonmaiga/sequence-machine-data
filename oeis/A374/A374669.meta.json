@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number with n prime factors (counted with multiplicity) that is the concatenation of two primes.",
+  "id": "A374669",
+  "mentions": [
+    "A001222",
+    "A374376"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

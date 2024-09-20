@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the imaginary part of the first zero, for real(s) >= 1/2, of the function Psi(s) = Sum_{n>=1} n!^s.",
+  "id": "A373204",
+  "mentions": [
+    "A058303",
+    "A091131"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

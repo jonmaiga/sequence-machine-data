@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the sum of the squares of the divisors of n that are exponentially odd numbers.",
+  "id": "A374537",
+  "mentions": [
+    "A001157",
+    "A002117",
+    "A005117",
+    "A013661",
+    "A033634",
+    "A065464",
+    "A183699",
+    "A322483",
+    "A351265",
+    "A358346",
+    "A374458",
+    "A374538"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

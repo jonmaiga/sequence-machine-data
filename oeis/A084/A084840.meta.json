@@ -2,15 +2,19 @@
   "description": "Write the numbers 1, 2, ... in a triangle with n terms in the n-th row; a(n) = number of abundant integers in n-th row.",
   "id": "A084840",
   "mentions": [
-    "A005101"
+    "A000217",
+    "A005101",
+    "A091194",
+    "A294937"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 82,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

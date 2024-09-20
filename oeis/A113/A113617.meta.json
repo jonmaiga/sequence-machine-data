@@ -1,16 +1,19 @@
 {
-  "description": "Primes in the sums of the first 2^n primes or primes in A099825(n).",
+  "description": "Primes in the sums of the first 2^n primes or primes in A099825.",
   "id": "A113617",
   "mentions": [
-    "A099825"
+    "A099825",
+    "A121248"
   ],
   "tags": [
+    "formulas",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 7,
+    "offset": 1,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

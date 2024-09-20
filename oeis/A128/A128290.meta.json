@@ -1,5 +1,5 @@
 {
-  "description": "If p(x) is the product of the digits of the number x and s(x) the sum of the digits then the sequence lists all the numbers n for which p[s(n)]=s[p(n)], with n>=1.",
+  "description": "If p(x) is the product of the digits of the number x and s(x) the sum of the digits then the sequence lists all the numbers k for which p(s(k)) = s(p(k)), with k >= 1.",
   "id": "A128290",
   "mentions": [
     "A007953",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

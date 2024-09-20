@@ -1,5 +1,5 @@
 {
-  "description": "Values of n for which A075825(n)=1.",
+  "description": "Values of m for which A075825(m) = 1.",
   "id": "A075876",
   "mentions": [
     "A075825"

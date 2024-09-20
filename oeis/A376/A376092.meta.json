@@ -1,0 +1,18 @@
+{
+  "description": "10^n-th powerful number.",
+  "id": "A376092",
+  "mentions": [
+    "A001694",
+    "A118896"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

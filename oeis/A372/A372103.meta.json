@@ -1,0 +1,19 @@
+{
+  "description": "The first n primes interpreted as digits in base prime(n+1).",
+  "id": "A372103",
+  "mentions": [
+    "A019518",
+    "A023811"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

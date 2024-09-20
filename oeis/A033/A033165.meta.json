@@ -2,11 +2,11 @@
   "description": "First occurrence of n as a term in the continued fraction for zeta(3).",
   "id": "A033165",
   "mentions": [
+    "A013631",
     "A032523",
     "A229057"
   ],
   "tags": [
-    "cofr",
     "formulas",
     "nonn"
   ],

@@ -2,8 +2,11 @@
   "description": "E.g.f. satisfies A(x) = (exp(x/(1 - A(x))) - 1)/(1 - A(x)).",
   "id": "A371329",
   "mentions": [
+    "A052886",
     "A052892",
-    "A371330"
+    "A371330",
+    "A376036",
+    "A376037"
   ],
   "tags": [
     "formulas",

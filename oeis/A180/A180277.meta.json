@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the two members of the n-th pair of unitary amicable numbers.",
+  "description": "a(n) = A002952(n) + A002953(n).",
   "id": "A180277",
   "mentions": [
     "A002952",
@@ -10,11 +10,12 @@
   ],
   "tags": [
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

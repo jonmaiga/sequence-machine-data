@@ -1,5 +1,5 @@
 {
-  "description": "Gog words avoiding the subpattern 312",
+  "description": "Gog words avoiding the subpattern 312.",
   "id": "A180349",
   "mentions": [
     "A000108",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

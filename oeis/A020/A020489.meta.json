@@ -1,7 +1,10 @@
 {
-  "description": "phi(n) divides sigma_0(n).",
+  "description": "Numbers k such that phi(k) divides sigma_0(k).",
   "id": "A020489",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A000010"
+  ],
   "tags": [
     "fini",
     "full",

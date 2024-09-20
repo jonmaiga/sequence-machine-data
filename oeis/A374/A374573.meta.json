@@ -1,0 +1,17 @@
+{
+  "description": "Number of sets of nonempty subsets of [n] where each element appears in at most n subsets.",
+  "id": "A374573",
+  "mentions": [
+    "A330964"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

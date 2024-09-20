@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that bigomega(k) and A064547(k) are not both even, where A064547 is the count of 1-bits in the exponents of the prime factorization of n, and bigomega is the number of prime factors of n (with multiplicity).",
+  "id": "A374473",
+  "mentions": [
+    "A000028",
+    "A001222",
+    "A026424",
+    "A064547",
+    "A374467",
+    "A374470",
+    "A374471",
+    "A374472"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest prime p such that there exist exactly n distinct primes q where q < p and the representation of p in base q is a palindrome.",
+  "id": "A372142",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A007500",
+    "A016041",
+    "A077798",
+    "A372141"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

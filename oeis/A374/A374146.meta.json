@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = prime(g) mod g where prime gap g = prime(n+1) - prime(n).",
+  "id": "A374146",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A004648"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

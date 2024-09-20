@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of the g.f. A(x) with the property that the sum of the first n coefficients in A(x/n)^n equals n for n >= 1.",
+  "id": "A375457",
+  "mentions": [
+    "A088358",
+    "A375452"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

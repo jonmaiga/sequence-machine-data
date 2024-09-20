@@ -2,6 +2,7 @@
   "description": "Number of ways of writing n as a sum of 9 squares.",
   "id": "A008452",
   "mentions": [
+    "A000143",
     "A008431",
     "A122141",
     "A186690",

@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the sagitta of a regular pentagon with unit side length.",
+  "id": "A375068",
+  "mentions": [
+    "A019916",
+    "A020769",
+    "A102771",
+    "A174968",
+    "A179050",
+    "A229760",
+    "A300074",
+    "A374972",
+    "A375067",
+    "A375069",
+    "A375070",
+    "A375153",
+    "A375189",
+    "A375192",
+    "A375194"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

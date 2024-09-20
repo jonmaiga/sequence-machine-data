@@ -2,9 +2,7 @@
   "description": "Number of partitions of n that have constant reversal sums; see Comments.",
   "id": "A236129",
   "mentions": [
-    "A236170",
-    "A263129",
-    "A263170"
+    "A236170"
   ],
   "tags": [
     "easy",

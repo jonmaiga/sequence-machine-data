@@ -1,0 +1,17 @@
+{
+  "description": "Indices of records in A045537.",
+  "id": "A373942",
+  "mentions": [
+    "A045537",
+    "A373337"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

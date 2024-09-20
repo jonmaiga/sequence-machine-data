@@ -2,7 +2,9 @@
   "description": "Numbers having divisors 2 or 3 or 5.",
   "id": "A080671",
   "mentions": [
-    "A007775"
+    "A005843",
+    "A007775",
+    "A281746"
   ],
   "tags": [
     "easy",

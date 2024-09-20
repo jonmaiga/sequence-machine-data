@@ -2,10 +2,14 @@
   "description": "Number of board-pair-pile hexagonal polyominoes with n cells.",
   "id": "A068091",
   "mentions": [
-    "A001170"
+    "A001170",
+    "A001207",
+    "A059716",
+    "A157608"
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

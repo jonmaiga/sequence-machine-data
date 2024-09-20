@@ -1,8 +1,9 @@
 {
-  "description": "Numbers which are sums of unitary divisors, the usigma values: their inverse usigma set is not empty; usigma[]=A034448().",
+  "description": "Numbers which are sums of unitary divisors, the usigma values: their inverse usigma set is not empty; usigma() = A034448().",
   "id": "A063977",
   "mentions": [
-    "A034448"
+    "A034448",
+    "A064000"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

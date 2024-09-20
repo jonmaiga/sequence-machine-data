@@ -2,6 +2,7 @@
   "description": "a(n) = the least number of pieces of currency of denominations .01, .05, .10, .25, 1, 5, 10, 20, 50, 100 that the greedy algorithm uses to make n times .01 (n \"cents\") in change.",
   "id": "A260688",
   "mentions": [
+    "A053344",
     "A067997",
     "A080897",
     "A108536"

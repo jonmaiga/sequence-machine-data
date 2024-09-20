@@ -1,15 +1,21 @@
 {
-  "description": "a(n) = p(p(p(p(A028815(n)-1)-1)-1)-1)-1, where p(n)=n-th prime.",
+  "description": "a(n) = prime(prime(prime(prime(A028815(n) - 1) - 1) - 1) - 1) - 1.",
   "id": "A141132",
   "mentions": [
-    "A028815"
+    "A000040",
+    "A028815",
+    "A141130",
+    "A141133",
+    "A141136",
+    "A141138"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Number of points in a diagonal Vicsek fractal subset of an n X n square.",
+  "id": "A373226",
+  "mentions": [
+    "A151907"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

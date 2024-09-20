@@ -1,20 +1,24 @@
 {
-  "description": "Sum of unitary prime divisors (A056169, A034444) of n.",
+  "description": "Sum of unitary prime divisors of n.",
   "id": "A063956",
   "mentions": [
     "A008472",
     "A034387",
     "A034444",
     "A056169",
-    "A056172"
+    "A056170",
+    "A056171",
+    "A056172",
+    "A063958"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

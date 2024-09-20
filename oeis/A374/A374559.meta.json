@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the binomial coefficient C(2*k, k) == 1 (mod 7).",
+  "id": "A374559",
+  "mentions": [
+    "A000984"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

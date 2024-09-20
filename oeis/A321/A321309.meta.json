@@ -1,14 +1,17 @@
 {
   "description": "Coefficients of the power series expansion at p=1 of the growth rate C(p) of the length of the longest increasing path in an Erdös-Rényi graph with edge probability p.",
   "id": "A321309",
-  "mentions": [],
+  "mentions": [
+    "A373089",
+    "A373090",
+    "A373091"
+  ],
   "tags": [
-    "more",
-    "nonn"
+    "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

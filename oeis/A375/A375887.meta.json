@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{n>=2} zeta(n)^n.",
+  "id": "A375887",
+  "mentions": [
+    "A013661",
+    "A021002",
+    "A093720",
+    "A375920"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 130,
+    "source": "oeis-entry"
+  }
+}

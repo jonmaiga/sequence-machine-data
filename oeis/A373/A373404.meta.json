@@ -1,0 +1,35 @@
+{
+  "description": "Sum of the n-th maximal antirun of composite numbers differing by more than one.",
+  "id": "A373404",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A002808",
+    "A003114",
+    "A005381",
+    "A027833",
+    "A038664",
+    "A046933",
+    "A053767",
+    "A054265",
+    "A065855",
+    "A068780",
+    "A073783",
+    "A293697",
+    "A350842",
+    "A350844",
+    "A371201",
+    "A373403",
+    "A373405",
+    "A373411",
+    "A373412"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

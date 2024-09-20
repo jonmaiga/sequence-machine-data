@@ -1,0 +1,18 @@
+{
+  "description": "Triple convolution of the three tribonacci-like sequences A000073(n), A077947(n-2), and A103143(n).",
+  "id": "A373445",
+  "mentions": [
+    "A000073",
+    "A077947",
+    "A103143"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

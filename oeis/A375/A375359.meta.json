@@ -1,0 +1,23 @@
+{
+  "description": "The maximum exponent in the prime factorization of the smallest number whose square is divisible by n.",
+  "id": "A375359",
+  "mentions": [
+    "A019554",
+    "A050361",
+    "A051903",
+    "A325837",
+    "A366902",
+    "A372602",
+    "A375360"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

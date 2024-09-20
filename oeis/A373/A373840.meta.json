@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if A276150(n) is a multiple of 3, otherwise 0, where A276150 is the digit sum in the primorial base.",
+  "id": "A373840",
+  "mentions": [
+    "A079978",
+    "A276150",
+    "A373830",
+    "A373838",
+    "A373841"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

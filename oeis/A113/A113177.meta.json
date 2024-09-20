@@ -1,9 +1,23 @@
 {
-  "description": "If, for p prime, p^(m_{n,p}) is the highest power of p dividing n with m>=0, then a(n) = Sum_{p prime} F(p)*(m_{n,p}), where F(p) = p-th Fibonacci number.",
+  "description": "Fully additive with a(p) = Fibonacci(p); If, for p prime, p^(m_{n,p}) is the highest power of p dividing n with m>=0, then a(n) = Sum_{p prime} F(p)*(m_{n,p}), where F(p) = p-th Fibonacci number.",
   "id": "A113177",
   "mentions": [
     "A000045",
-    "A113178"
+    "A001414",
+    "A007895",
+    "A113178",
+    "A276085",
+    "A328845",
+    "A373586",
+    "A373587",
+    "A374052",
+    "A374106",
+    "A374112",
+    "A374124",
+    "A374206",
+    "A374207",
+    "A374208",
+    "A374209"
   ],
   "tags": [
     "easy",

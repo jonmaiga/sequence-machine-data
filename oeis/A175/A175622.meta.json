@@ -1,5 +1,5 @@
 {
-  "description": "2^(semiprime(n)-4) mod semiprime(n).",
+  "description": "a(n) = 2^(semiprime(n)-4) mod semiprime(n).",
   "id": "A175622",
   "mentions": [
     "A000079",

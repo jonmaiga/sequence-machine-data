@@ -2,6 +2,8 @@
   "description": "Reduced root factorial of n: product of the smallest integer root of numbers from 1 to n.",
   "id": "A068625",
   "mentions": [
+    "A000142",
+    "A048803",
     "A052410"
   ],
   "tags": [
@@ -9,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 21,
-    "source": "joeis"
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

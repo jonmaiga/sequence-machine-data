@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which Ramanujan's function tau(n)=A000594(n) is an odd prime.",
+  "description": "Numbers k for which Ramanujan's function tau(k)=A000594(k) is an odd prime.",
   "id": "A135430",
   "mentions": [
     "A000594",

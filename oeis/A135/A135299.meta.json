@@ -1,5 +1,5 @@
 {
-  "description": "Pascal's triangle, but the last element of the row is the sum of the all the previous terms.",
+  "description": "Pascal's triangle, but the last element of the row is the sum of all the previous terms.",
   "id": "A135299",
   "mentions": [
     "A007318",

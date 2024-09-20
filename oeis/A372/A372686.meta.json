@@ -1,0 +1,47 @@
+{
+  "description": "Sorted list of positions of first appearances in A014499 (number of ones in binary expansion of each prime).",
+  "id": "A372686",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A001511",
+    "A005940",
+    "A014499",
+    "A029837",
+    "A029931",
+    "A030190",
+    "A030308",
+    "A035100",
+    "A035103",
+    "A048793",
+    "A059015",
+    "A061712",
+    "A066195",
+    "A069010",
+    "A070939",
+    "A071814",
+    "A080791",
+    "A104080",
+    "A211997",
+    "A272020",
+    "A372429",
+    "A372433",
+    "A372471",
+    "A372473",
+    "A372474",
+    "A372516",
+    "A372517",
+    "A372684",
+    "A372685"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

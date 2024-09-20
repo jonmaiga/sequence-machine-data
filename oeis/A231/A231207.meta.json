@@ -1,5 +1,5 @@
 {
-  "description": "The primes given as concatenation of chunks of A231206 whose lengths (in number of terms) are given by the terms of A231206.",
+  "description": "The prime a(n) = concatenate(A231206(S(n-1)+1 .. S(n))) occurring in the construction of A231206, where S(n) = Sum_{1 <= k <= n} A231206(k).",
   "id": "A231207",
   "mentions": [
     "A231206"

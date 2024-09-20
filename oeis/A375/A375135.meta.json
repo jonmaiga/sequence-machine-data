@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer compositions of n whose leaders of maximal strictly increasing runs are not weakly decreasing.",
+  "id": "A375135",
+  "mentions": [
+    "A003242",
+    "A011782",
+    "A056823",
+    "A106356",
+    "A188920",
+    "A189076",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A261982",
+    "A333213",
+    "A333489",
+    "A333755",
+    "A335456",
+    "A373949",
+    "A373951",
+    "A374629",
+    "A374632",
+    "A374636",
+    "A374679",
+    "A374682",
+    "A374683",
+    "A374689",
+    "A374697",
+    "A374699",
+    "A374700",
+    "A374764",
+    "A374765"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

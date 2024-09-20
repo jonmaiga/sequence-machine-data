@@ -1,0 +1,18 @@
+{
+  "description": "Positions of records in A032662.",
+  "id": "A376002",
+  "mentions": [
+    "A032662",
+    "A376006"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

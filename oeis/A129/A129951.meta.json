@@ -1,14 +1,20 @@
 {
   "description": "Sum of characteristic function of twin primes < 10^n.",
   "id": "A129951",
-  "mentions": [],
+  "mentions": [
+    "A001097",
+    "A006880",
+    "A007508",
+    "A007510"
+  ],
   "tags": [
     "formulas",
+    "more",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

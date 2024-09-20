@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the even-indexed digits in the primorial base representation (A049345) of n.",
+  "id": "A373606",
+  "mentions": [
+    "A049345",
+    "A276150",
+    "A373605",
+    "A373607"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

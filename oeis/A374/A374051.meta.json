@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if A113177(n) is a multiple of 3, otherwise 0, where A113177 is fully additive with a(p) = Fibonacci(p).",
+  "id": "A374051",
+  "mentions": [
+    "A000045",
+    "A079978",
+    "A113177",
+    "A374052"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

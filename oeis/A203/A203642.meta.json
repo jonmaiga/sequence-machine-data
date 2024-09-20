@@ -2,6 +2,7 @@
   "description": "Number of arrays of n 0..11 integers with new values introduced in order 0..11 but otherwise unconstrained",
   "id": "A203642",
   "mentions": [
+    "A203641",
     "A203647"
   ],
   "tags": [

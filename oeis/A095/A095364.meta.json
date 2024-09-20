@@ -1,7 +1,11 @@
 {
   "description": "Number of walks of length n between two adjacent nodes in the cycle graph C_9.",
   "id": "A095364",
-  "mentions": [],
+  "mentions": [
+    "A095367",
+    "A095368",
+    "A095369"
+  ],
   "tags": [
     "formulas",
     "nonn"

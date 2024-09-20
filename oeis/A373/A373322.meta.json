@@ -1,0 +1,17 @@
+{
+  "description": "The number of indecomposable summands, counted with multiplicity, in tensor powers of the vector representation of SL2 in characteristic 2.",
+  "id": "A373322",
+  "mentions": [
+    "A001405",
+    "A153460"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

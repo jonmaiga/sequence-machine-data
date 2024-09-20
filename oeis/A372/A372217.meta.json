@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct triangles whose sides do not pass through a grid point and whose vertices are three points of an n X n grid.",
+  "id": "A372217",
+  "mentions": [
+    "A115004",
+    "A141224",
+    "A141255",
+    "A320540",
+    "A320541",
+    "A320544",
+    "A372218"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

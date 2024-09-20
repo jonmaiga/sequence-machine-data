@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n whose maximal anti-runs do not all have different maxima.",
+  "id": "A375401",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A003242",
+    "A034296",
+    "A055887",
+    "A073492",
+    "A115029",
+    "A141199",
+    "A239955",
+    "A279790",
+    "A333489",
+    "A358830",
+    "A358836",
+    "A374632",
+    "A374706",
+    "A374761",
+    "A375128",
+    "A375133",
+    "A375134",
+    "A375136",
+    "A375396",
+    "A375397",
+    "A375398",
+    "A375399",
+    "A375400",
+    "A375402",
+    "A375403",
+    "A375404",
+    "A375405"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

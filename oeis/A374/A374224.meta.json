@@ -1,0 +1,20 @@
+{
+  "description": "Integer part of the total Euclidean length of the shortest minimum-link polygonal chains joining all the nodes of the grid {0,1,...,n-1} X {0,1,...,n-1}.",
+  "id": "A374224",
+  "mentions": [
+    "A002193",
+    "A010000",
+    "A058992",
+    "A373537"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

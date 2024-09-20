@@ -2,6 +2,7 @@
   "description": "a(n) = floor( tan(m*Pi/2) ), where m = 1 - 2^(-n).",
   "id": "A024810",
   "mentions": [
+    "A127266",
     "A172265"
   ],
   "tags": [

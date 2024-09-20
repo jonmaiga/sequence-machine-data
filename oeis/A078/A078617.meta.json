@@ -2,6 +2,7 @@
   "description": "Floor(average of first n squares).",
   "id": "A078617",
   "mentions": [
+    "A000290",
     "A000330",
     "A171662"
   ],

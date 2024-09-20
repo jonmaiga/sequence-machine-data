@@ -1,5 +1,5 @@
 {
-  "description": "Number of matchings (i.e., Hosoya index) in C_{n} X C_{n}.",
+  "description": "Number of matchings in the n X n torus grid graph C_n X C_n.",
   "id": "A270247",
   "mentions": [
     "A027683",

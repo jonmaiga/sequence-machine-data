@@ -1,0 +1,16 @@
+{
+  "description": "Least prime whose decimal representation has n distinct substrings which are also prime.",
+  "id": "A372600",
+  "mentions": [
+    "A039994"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

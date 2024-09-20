@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(x^4/(24 * (1 - x)^3)).",
+  "id": "A373759",
+  "mentions": [
+    "A361545",
+    "A361577",
+    "A373758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

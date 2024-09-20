@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that in canonical prime factorization the maximal exponent does not equal the number of positive exponents.",
+  "description": "Numbers k such that the maximum exponent in its prime factorization does not equal the number of positive exponents (A051903(k) <> A001221(k)).",
   "id": "A188654",
   "mentions": [
     "A001221",
@@ -10,6 +10,8 @@
     "A225230"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

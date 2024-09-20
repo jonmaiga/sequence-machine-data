@@ -1,0 +1,19 @@
+{
+  "description": "Number of ternary paths of length 3*n having exactly 1 hill.",
+  "id": "A374835",
+  "mentions": [
+    "A001764",
+    "A023053",
+    "A065601",
+    "A101371"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

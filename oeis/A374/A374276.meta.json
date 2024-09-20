@@ -1,0 +1,19 @@
+{
+  "description": "Number of representations of n by the quadratic form x^2 + 3*x*y + y^2 with 0 <= x <= y.",
+  "id": "A374276",
+  "mentions": [
+    "A031363",
+    "A088534",
+    "A374093",
+    "A374275"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-entry"
+  }
+}

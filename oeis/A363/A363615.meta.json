@@ -2,6 +2,7 @@
   "description": "Expansion of Sum_{k>0} x^(3*k)/(1+x^k)^3.",
   "id": "A363615",
   "mentions": [
+    "A128315",
     "A325940",
     "A363610",
     "A363616"

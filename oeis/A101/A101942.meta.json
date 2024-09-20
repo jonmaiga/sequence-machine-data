@@ -1,17 +1,21 @@
 {
-  "description": "Sequence f[n,4], where f[n,b] is as defined below.",
+  "description": "Write n in base 4 as n = b_0 + b_1*4 + b_2*4^2 + b_3*4^3 + ...; then a(n) = Product_{i >= 0} prime(i+1)^b_i.",
   "id": "A101942",
   "mentions": [
-    "A060882"
+    "A019565",
+    "A054842",
+    "A101278",
+    "A101943"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
+    "size": 57,
     "source": "oeis-entry"
   }
 }

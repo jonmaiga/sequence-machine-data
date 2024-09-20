@@ -1,0 +1,20 @@
+{
+  "description": "Start with two vertices and draw a circle around each whose radius is the distance between the vertices. The sequence gives the number of curved edges constructed after n iterations of drawing circles with this same radius around every new vertex created from all circles' intersections.",
+  "id": "A374339",
+  "mentions": [
+    "A359571",
+    "A371255",
+    "A371375",
+    "A374337",
+    "A374338"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

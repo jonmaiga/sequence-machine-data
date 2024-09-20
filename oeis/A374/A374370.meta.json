@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by antidiagonals: the n-th row lists n-gonal numbers that are products of smaller n-gonal numbers.",
+  "id": "A374370",
+  "mentions": [
+    "A018252",
+    "A057145",
+    "A062312",
+    "A068143",
+    "A374371",
+    "A374372",
+    "A374373",
+    "A374498"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

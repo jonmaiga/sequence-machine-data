@@ -1,0 +1,23 @@
+{
+  "description": "Number of indices i in [n] such that in the trajectory of i for the Collatz (3x+1) problem the sum and the number of terms are coprime or the trajectory is not finite.",
+  "id": "A374843",
+  "mentions": [
+    "A000796",
+    "A003989",
+    "A006370",
+    "A006577",
+    "A008908",
+    "A013661",
+    "A033493",
+    "A059956"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 2*arccsch(2)^2.",
   "id": "A086467",
   "mentions": [
+    "A002390",
     "A086465",
     "A086466",
     "A086468"

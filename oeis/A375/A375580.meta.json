@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of partitions n = x + y + z of positive integers such that x*y*z is a perfect cube.",
+  "id": "A375580",
+  "mentions": [
+    "A069905",
+    "A103277",
+    "A338939",
+    "A375512",
+    "A375576"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

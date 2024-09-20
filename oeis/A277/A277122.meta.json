@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 5^n + 3^n - 1.",
+  "description": "Primes of the form 5^k + 3^k - 1.",
   "id": "A277122",
   "mentions": [
     "A000040",
@@ -8,6 +8,7 @@
     "A180741"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

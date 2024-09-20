@@ -2,17 +2,18 @@
   "description": "RF(5): refactorable numbers with smallest prime factor 5.",
   "id": "A120320",
   "mentions": [
+    "A007310",
     "A033950",
     "A036896",
-    "A036897"
+    "A036897",
+    "A084967"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

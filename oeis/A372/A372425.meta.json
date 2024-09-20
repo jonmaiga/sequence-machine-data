@@ -1,0 +1,17 @@
+{
+  "description": "a(n) are the denominators corresponding to A372424(n).",
+  "id": "A372425",
+  "mentions": [
+    "A372422",
+    "A372424"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

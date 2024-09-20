@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (2 + gamma - log(Pi))/4.",
+  "id": "A374774",
+  "mentions": [
+    "A000796",
+    "A001620",
+    "A053510",
+    "A256845",
+    "A374773",
+    "A374775"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

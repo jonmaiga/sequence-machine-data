@@ -1,0 +1,23 @@
+{
+  "description": "The maximal exponent in the prime factorization of the numbers whose maximal exponent in their prime factorization is a square.",
+  "id": "A374325",
+  "mentions": [
+    "A051903",
+    "A369935",
+    "A369937",
+    "A374324",
+    "A374326",
+    "A374327",
+    "A374328"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

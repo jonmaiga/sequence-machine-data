@@ -2,15 +2,17 @@
   "description": "Residues modulo 10 of the irregular primes (A000928).",
   "id": "A100639",
   "mentions": [
-    "A000928"
+    "A000928",
+    "A010879"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

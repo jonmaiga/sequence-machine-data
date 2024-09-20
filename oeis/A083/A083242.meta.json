@@ -2,17 +2,20 @@
   "description": "For n >= 3, a(n-3) + a(n-2) + a(n-1) + a(n) = prime(n); a(0) = 0, a(1) = 1, a(2) = 1.",
   "id": "A083242",
   "mentions": [
+    "A001223",
     "A014687",
     "A034467",
     "A073737",
     "A083240"
   ],
   "tags": [
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 48,
-    "source": "oeis-entry"
+    "size": 68,
+    "source": "oeis-bfile"
   }
 }

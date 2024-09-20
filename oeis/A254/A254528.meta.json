@@ -2,7 +2,9 @@
   "description": "Number of decimal digits in the integer part of e^n.",
   "id": "A254528",
   "mentions": [
+    "A000149",
     "A001113",
+    "A055642",
     "A072334",
     "A091933",
     "A092426",
@@ -12,6 +14,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

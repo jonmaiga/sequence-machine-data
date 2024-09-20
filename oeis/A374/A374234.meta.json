@@ -1,0 +1,16 @@
+{
+  "description": "Number k such that the periods of the continued fractions of sqrt(k) and sqrt(k+1) have the same distinct terms.",
+  "id": "A374234",
+  "mentions": [
+    "A003285",
+    "A028832"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

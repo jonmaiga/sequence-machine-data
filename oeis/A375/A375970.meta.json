@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest number k such that k^2 divides the square pyramidal number A000330(n).",
+  "id": "A375970",
+  "mentions": [
+    "A000188",
+    "A000330",
+    "A119356",
+    "A375971",
+    "A375973"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

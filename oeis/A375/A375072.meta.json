@@ -1,0 +1,24 @@
+{
+  "description": "Biquadratefree numbers (A046100) that are not cubefree (A004709).",
+  "id": "A375072",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A013662",
+    "A046100",
+    "A051903",
+    "A067259",
+    "A088453",
+    "A176297",
+    "A215267"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

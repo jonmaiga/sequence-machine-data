@@ -2,6 +2,7 @@
   "description": "Numbers k such that k * phi(k) is a fifth power.",
   "id": "A372670",
   "mentions": [
+    "A000584",
     "A002618",
     "A114076"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

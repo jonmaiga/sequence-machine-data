@@ -1,18 +1,26 @@
 {
-  "description": "a(n) = (A096268(n) + A182581(n)) mod 2.",
+  "description": "a(n) = (A096268(n-1) + A182581(n)) mod 2.",
   "id": "A182582",
   "mentions": [
+    "A000035",
     "A007814",
     "A007949",
+    "A036668",
     "A096268",
-    "A182581"
+    "A169611",
+    "A182581",
+    "A325424",
+    "A373136",
+    "A373156"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

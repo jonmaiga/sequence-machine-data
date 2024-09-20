@@ -1,0 +1,21 @@
+{
+  "description": "Sequence formed as follows: for each k >= 0, insert between 3^k and 3^(k+1) the greatest power of 2 than is in the interval [3^k, 3^(k+1)], and then arrange the resulting numbers in nondecreasing order.",
+  "id": "A372824",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A006899",
+    "A098232",
+    "A372823",
+    "A372825",
+    "A372826"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

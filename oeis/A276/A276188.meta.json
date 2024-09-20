@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n>1 such that the number of odd divisors of n-1 is odd and is equal to the number of odd divisors of n+1.",
+  "description": "Numbers k > 1 such that the number of odd divisors of k-1 is odd and is equal to the number of odd divisors of k+1.",
   "id": "A276188",
   "mentions": [
     "A275418",

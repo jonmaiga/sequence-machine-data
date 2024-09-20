@@ -1,11 +1,12 @@
 {
-  "description": "a(n) = Sum_{d_",
+  "description": "a(n) = Sum_{d|n, d",
   "id": "A211780",
   "mentions": [
     "A000005",
     "A000203",
     "A007429",
     "A068978",
+    "A098198",
     "A211779"
   ],
   "tags": [

@@ -1,0 +1,21 @@
+{
+  "description": "Least k with exactly n partitions k = x + y + z satisfying sigma*(k) = sigma*(x) + sigma*(y) + sigma*(z), where sigma*(k) is the sum of the anti-divisors of k.",
+  "id": "A373047",
+  "mentions": [
+    "A066417",
+    "A210732",
+    "A211223",
+    "A211224",
+    "A211225",
+    "A375154"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

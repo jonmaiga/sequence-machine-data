@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of A375266.",
+  "id": "A375268",
+  "mentions": [
+    "A033493",
+    "A285098",
+    "A375265",
+    "A375266",
+    "A375267",
+    "A375280"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

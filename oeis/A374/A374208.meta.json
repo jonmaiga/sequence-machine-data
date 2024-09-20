@@ -1,0 +1,21 @@
+{
+  "description": "The 5-adic valuation of A113177(n), where A113177 is fully additive with a(p) = Fibonacci(p).",
+  "id": "A374208",
+  "mentions": [
+    "A000045",
+    "A112765",
+    "A113177",
+    "A374205",
+    "A374206",
+    "A374207"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

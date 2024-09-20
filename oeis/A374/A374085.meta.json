@@ -1,0 +1,18 @@
+{
+  "description": "Number of sequences of length A062714(n) with symbols from {1, 2, 3, ..., n} which contains, as a subsequence, each possible ordering of the n symbols 1, 2, 3, ..., n.",
+  "id": "A374085",
+  "mentions": [
+    "A062714",
+    "A180632"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

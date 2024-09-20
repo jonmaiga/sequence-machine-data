@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that bigomega(n)^omega(n) > n.",
+  "description": "Numbers k such that bigomega(k)^omega(k) > k.",
   "id": "A177871",
   "mentions": [
     "A001221",

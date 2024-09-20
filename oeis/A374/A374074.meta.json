@@ -1,0 +1,22 @@
+{
+  "description": "Odd composite numbers k sorted by k/2^(bigomega(k) - 1).",
+  "id": "A374074",
+  "mentions": [
+    "A001222",
+    "A002410",
+    "A065091",
+    "A071904",
+    "A374022",
+    "A374603",
+    "A374604"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

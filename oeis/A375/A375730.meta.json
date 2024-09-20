@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^n + n*n + n+n + 1.",
+  "id": "A375730",
+  "mentions": [
+    "A000012",
+    "A000290",
+    "A000312",
+    "A005843",
+    "A189896"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table read by rows: Place n equally spaced points on the circumference of a circle of radius r and then connect each pair of points with straight lines whose intersections create A007569(n) - n additional points. Draw a circle of radius r around each of the A007569(n) points. T(n,k) is the number of k-sided regions, k>=2, formed from all circle intersections.",
+  "id": "A374828",
+  "mentions": [
+    "A007569",
+    "A374825",
+    "A374826",
+    "A374827"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

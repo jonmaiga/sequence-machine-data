@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Product_{p in PF(n) difference PF(k)} p, where PF(a) is the set of the prime factors of a.",
+  "id": "A374435",
+  "mentions": [
+    "A000034",
+    "A007947",
+    "A374433",
+    "A374434",
+    "A374436"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

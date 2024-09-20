@@ -2,6 +2,7 @@
   "description": "a(n) is the smallest number such that there are exactly n numbers k (including a(n) itself) such that U(k) is isomorphic to U(a(n)) (or 0 if no such number exists). Here U(k) is the multiplicative group of integers modulo k.",
   "id": "A303712",
   "mentions": [
+    "A057635",
     "A289626"
   ],
   "tags": [

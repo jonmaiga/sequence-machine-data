@@ -2,18 +2,19 @@
   "description": "Number of ways writing 2^n as a sum of two nonprime numbers.",
   "id": "A062306",
   "mentions": [
+    "A006307",
     "A061358",
+    "A062305",
     "A062602",
     "A062610"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

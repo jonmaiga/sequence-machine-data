@@ -1,0 +1,15 @@
+{
+  "description": "Even numbers that can be written as the sum of two isolated primes (A007510).",
+  "id": "A374591",
+  "mentions": [
+    "A007510"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

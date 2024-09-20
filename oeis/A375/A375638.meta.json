@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer k such that k! has exactly n infinitary divisors that are factorials, or -1 if no such number exists.",
+  "id": "A375638",
+  "mentions": [
+    "A000142",
+    "A037445",
+    "A077609",
+    "A375635",
+    "A375636"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

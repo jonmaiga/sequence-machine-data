@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(A(x))^2 - 8*A(A(A(x)))^3 = x^2.",
+  "id": "A373315",
+  "mentions": [
+    "A373314"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

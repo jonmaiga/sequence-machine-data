@@ -1,14 +1,20 @@
 {
   "description": "Continued fraction for zeta(7).",
   "id": "A013683",
-  "mentions": [],
+  "mentions": [
+    "A013631",
+    "A013665",
+    "A013679",
+    "A013680",
+    "A013696"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 73,
+    "offset": 0,
+    "size": 81,
     "source": "oeis-bfile"
   }
 }

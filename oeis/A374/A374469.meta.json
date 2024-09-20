@@ -1,0 +1,21 @@
+{
+  "description": "The odd part of gcd(n, A163511(n)).",
+  "id": "A374469",
+  "mentions": [
+    "A000265",
+    "A006519",
+    "A007814",
+    "A163511",
+    "A364255",
+    "A364495"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -3,8 +3,12 @@
   "id": "A292105",
   "mentions": [
     "A006561",
+    "A101363",
+    "A101364",
+    "A101365",
     "A290447",
-    "A292104"
+    "A292104",
+    "A335102"
   ],
   "tags": [
     "nonn",
@@ -13,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Number of ways to cover an n-set.",
   "id": "A003465",
   "mentions": [
+    "A000110",
     "A000371",
     "A007537",
     "A055154",

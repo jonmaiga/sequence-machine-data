@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; thereafter a(n+1) is obtained by appending the digit-sum of a(n) to a(n).",
+  "id": "A372074",
+  "mentions": [
+    "A359143",
+    "A372075"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

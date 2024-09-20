@@ -2,15 +2,17 @@
   "description": "Super-5 Numbers (5 * n^5 contains substring '55555' in its decimal expansion).",
   "id": "A032745",
   "mentions": [
-    "A014569"
+    "A014569",
+    "A032743",
+    "A032749"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 33,
+    "offset": 1,
+    "size": 38,
     "source": "joeis"
   }
 }

@@ -1,8 +1,7 @@
 {
-  "description": "a(0) = 0, a(1) = 1 and for n >= 0, a(n+2) = floor(2 * sqrt(a(n) * a(n+1))).",
+  "description": "a(0) = 0, a(1) = 1 and for n >= 2, a(n) = floor(2 * sqrt(a(n-2) * a(n-1))).",
   "id": "A093333",
   "mentions": [
-    "A000045",
     "A093332",
     "A093335"
   ],

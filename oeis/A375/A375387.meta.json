@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number k whose sum of digits in base 10 is n and that is palindromic in base n, or -1 if no such number exists.",
+  "id": "A375387",
+  "mentions": [
+    "A002113",
+    "A007953",
+    "A051885",
+    "A065531",
+    "A107129",
+    "A228915",
+    "A253594"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

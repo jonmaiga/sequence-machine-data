@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - (exp(x^2) - 1)/x)^3.",
+  "id": "A375811",
+  "mentions": [
+    "A375665",
+    "A375795",
+    "A375810"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

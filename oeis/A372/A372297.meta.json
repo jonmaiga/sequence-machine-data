@@ -1,0 +1,15 @@
+{
+  "description": "Limit of the recursion B(k) = T[k](B(k-1)), where B(1) = (1,2,3,4,5,...) and T[k] is the transformation that permutes the entries k(2i-1) and k(2i) for all positive integers i, if k is prime.",
+  "id": "A372297",
+  "mentions": [
+    "A064494"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

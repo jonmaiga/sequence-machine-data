@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 5-adic valuation of A008336(5*n).",
+  "id": "A372840",
+  "mentions": [
+    "A008336",
+    "A112765",
+    "A371908",
+    "A372095"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

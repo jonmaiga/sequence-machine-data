@@ -2,9 +2,17 @@
   "description": "Elements to the right of the central elements of the even-Pascal triangle A028326 that are not 2.",
   "id": "A028331",
   "mentions": [
-    "A028326"
+    "A028326",
+    "A028327",
+    "A028328",
+    "A028329",
+    "A028330",
+    "A028332",
+    "A272514",
+    "A286033"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],

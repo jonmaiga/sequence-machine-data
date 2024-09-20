@@ -2,7 +2,6 @@
   "description": "Numbers n such that (58*100^n - 157)/99 is prime.",
   "id": "A103110",
   "mentions": [
-    "A013110",
     "A069514",
     "A102589"
   ],

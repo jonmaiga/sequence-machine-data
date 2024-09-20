@@ -1,0 +1,17 @@
+{
+  "description": "Integers whose American English names (minus punctuation) can be split into two parts wherein the product of the letter-ranks of one part is equal to that of the other.",
+  "id": "A373391",
+  "mentions": [
+    "A372222"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

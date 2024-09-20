@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp( (exp( (exp(9*x) - 1)/3 ) - 1)/3 ).",
+  "id": "A375176",
+  "mentions": [
+    "A004212",
+    "A374882",
+    "A375174"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

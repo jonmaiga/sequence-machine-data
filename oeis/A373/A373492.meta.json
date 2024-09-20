@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A059975(k) and A083345(k) are both multiples of 3, where A059975 is fully additive with a(p) = p-1, and A083345 is the numerator of the fully additive function with a(p) = 1/p.",
+  "id": "A373492",
+  "mentions": [
+    "A059975",
+    "A083345",
+    "A369644",
+    "A373377",
+    "A373385",
+    "A373491",
+    "A373494"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

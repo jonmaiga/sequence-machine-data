@@ -1,0 +1,21 @@
+{
+  "description": "The number of prime-indexed primes below 2^n.",
+  "id": "A374151",
+  "mentions": [
+    "A000720",
+    "A006450",
+    "A007053",
+    "A096359",
+    "A132090",
+    "A374150"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

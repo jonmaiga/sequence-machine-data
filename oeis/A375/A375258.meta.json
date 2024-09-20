@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(k,n) is the least positive integer whose sum of base-2 digits is k and sum of base-3 digits is n, or -1 if there is none.",
+  "id": "A375258",
+  "mentions": [
+    "A000120",
+    "A011754",
+    "A037301",
+    "A053735",
+    "A375257"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

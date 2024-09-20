@@ -1,0 +1,18 @@
+{
+  "description": "Smallest n-digit reversible prime with only prime digits.",
+  "id": "A375261",
+  "mentions": [
+    "A006567",
+    "A177513"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

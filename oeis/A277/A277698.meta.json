@@ -1,9 +1,11 @@
 {
-  "description": "a(n) = Least unitary prime divisor of n or 1 if no such prime-divisor exists.",
+  "description": "a(n) = least unitary prime divisor of n or 1 if no such prime-divisor exists.",
   "id": "A277698",
   "mentions": [
     "A001694",
     "A008578",
+    "A020639",
+    "A055231",
     "A080368",
     "A134194",
     "A277697",

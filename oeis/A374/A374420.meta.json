@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) for the number of permutations of symmetric group S_n with an odd number of non-fixed point cycles, without k <= n particular fixed points.",
+  "id": "A374420",
+  "mentions": [
+    "A047920",
+    "A062111",
+    "A216779",
+    "A373340",
+    "A374419"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

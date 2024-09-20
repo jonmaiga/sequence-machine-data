@@ -2,7 +2,8 @@
   "description": "Number of palindromic partitions of n.",
   "id": "A368548",
   "mentions": [
-    "A068499"
+    "A068499",
+    "A375783"
   ],
   "tags": [
     "formulas",

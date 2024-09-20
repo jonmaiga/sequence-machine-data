@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric 0..1 arrays with each element equal to the product mod 2 of two of its horizontal and vertical neighbors",
+  "description": "Number of n X n symmetric 0..1 arrays with each element equal to the product mod 2 of two of its horizontal and vertical neighbors.",
   "id": "A193480",
   "mentions": [],
   "tags": [

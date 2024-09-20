@@ -2,6 +2,7 @@
   "description": "Numbers having no partition into distinct squarefree divisors.",
   "id": "A225353",
   "mentions": [
+    "A013929",
     "A225245",
     "A225354"
   ],

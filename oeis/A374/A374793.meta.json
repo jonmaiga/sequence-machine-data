@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest k such that tau(k)^n >= k.",
+  "id": "A374793",
+  "mentions": [
+    "A000005",
+    "A002110",
+    "A035033",
+    "A056757",
+    "A056758"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

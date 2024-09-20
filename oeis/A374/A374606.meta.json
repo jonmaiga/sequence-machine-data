@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} binomial(n, k)^2*binomial(n+k, k)*binomial(3*n+2*k+1, n).",
+  "id": "A374606",
+  "mentions": [
+    "A176285",
+    "A374605"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

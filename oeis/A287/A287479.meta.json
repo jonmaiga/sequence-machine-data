@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (x + x^2)/(1 + 3*x^2).",
+  "description": "Expansion of g.f. (x + x^2)/(1 + 3*x^2).",
   "id": "A287479",
   "mentions": [
     "A001045",

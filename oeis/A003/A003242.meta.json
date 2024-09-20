@@ -1,5 +1,5 @@
 {
-  "description": "Number of compositions of n such that no two adjacent parts are equal (Carlitz compositions).",
+  "description": "Number of compositions of n such that no two adjacent parts are equal (these are sometimes called Carlitz compositions).",
   "id": "A003242",
   "mentions": [
     "A000108",

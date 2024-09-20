@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{d|n} d^n * binomial(n/d-1,d-1).",
+  "id": "A376019",
+  "mentions": [
+    "A023887",
+    "A376015"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

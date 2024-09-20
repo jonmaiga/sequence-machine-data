@@ -1,0 +1,13 @@
+{
+  "description": "L starts out as the list of positive integers; at the n-th iteration, a(n) is set to L(1); then L(1) is moved to its new position in L, in between the first two elements that it has never before been next to; repeat at the second step.",
+  "id": "A375559",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

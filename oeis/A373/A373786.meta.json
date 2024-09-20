@@ -1,0 +1,21 @@
+{
+  "description": "Even terms in A373390, halved, in order of occurrence.",
+  "id": "A373786",
+  "mentions": [
+    "A372072",
+    "A372073",
+    "A372078",
+    "A372081",
+    "A373390",
+    "A373787",
+    "A373791"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

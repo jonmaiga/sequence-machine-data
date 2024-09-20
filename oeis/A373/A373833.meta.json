@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = gcd(n, A276150(n)), where A276150 is the digit sum in the primorial base.",
+  "id": "A373833",
+  "mentions": [
+    "A049345",
+    "A276086",
+    "A276150",
+    "A333426",
+    "A358977",
+    "A373832",
+    "A373834",
+    "A373835",
+    "A373838",
+    "A373839"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers that cannot be written as a sum of a practical number and a pentagonal number.",
+  "id": "A373421",
+  "mentions": [
+    "A000326",
+    "A005153"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

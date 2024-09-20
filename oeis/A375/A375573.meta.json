@@ -1,0 +1,19 @@
+{
+  "description": "Numbers occurring at least three times in Bernoulli's triangle A008949.",
+  "id": "A375573",
+  "mentions": [
+    "A003015",
+    "A008949",
+    "A374796",
+    "A375570",
+    "A375572"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

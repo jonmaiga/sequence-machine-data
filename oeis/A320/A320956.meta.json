@@ -1,8 +1,9 @@
 {
-  "description": "The exponential limit of sec + tan.",
+  "description": "a(n) = A000110(n) * A000111(n). The exponential limit of sec + tan. Row sums of A373428.",
   "id": "A320956",
   "mentions": [
     "A000007",
+    "A000110",
     "A000111",
     "A000828",
     "A320955",
@@ -10,7 +11,8 @@
     "A320958",
     "A320959",
     "A320962",
-    "A321394"
+    "A321394",
+    "A373428"
   ],
   "tags": [
     "nonn"

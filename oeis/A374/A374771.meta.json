@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the volume of the sphere inscribed in a regular dodecahedron with unit edge.",
+  "id": "A374771",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A019699",
+    "A102769",
+    "A237603",
+    "A374772"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

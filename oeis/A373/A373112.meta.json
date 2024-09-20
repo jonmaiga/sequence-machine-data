@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary digits in the integer part of e^n.",
+  "id": "A373112",
+  "mentions": [
+    "A000149",
+    "A070939",
+    "A254528"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

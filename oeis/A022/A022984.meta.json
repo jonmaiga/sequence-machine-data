@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 28-n.",
   "id": "A022984",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022995"
+  ],
   "tags": [
     "easy",
     "formulas",

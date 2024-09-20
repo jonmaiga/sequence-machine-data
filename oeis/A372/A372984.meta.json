@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor((a(n-1)+a(n-2)+n)/(a(n-3)+1)), with a(1)=1, a(2)=3, a(3)=4.",
+  "id": "A372984",
+  "mentions": [
+    "A372982",
+    "A372983",
+    "A372985"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

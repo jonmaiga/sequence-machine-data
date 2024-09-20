@@ -1,5 +1,5 @@
 {
-  "description": "Difference between n-th prime and next prime is 70.",
+  "description": "Numbers k such that the difference between k-th prime and next prime is 70.",
   "id": "A116493",
   "mentions": [
     "A116495",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

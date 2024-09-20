@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least semiprime that starts with n.",
+  "id": "A374899",
+  "mentions": [
+    "A001358",
+    "A018800",
+    "A374897"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

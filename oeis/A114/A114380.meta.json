@@ -1,7 +1,9 @@
 {
-  "description": "Largest prime (or prime power) that divides any number between the primes p(n) and p(n+1).",
+  "description": "Largest prime power that divides any number between (exclusive) prime(n) and prime(n+1).",
   "id": "A114380",
-  "mentions": [],
+  "mentions": [
+    "A246655"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 2,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

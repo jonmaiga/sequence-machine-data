@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - 8*x^3)^(1/4)).",
+  "id": "A373292",
+  "mentions": [
+    "A373509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

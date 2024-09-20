@@ -1,0 +1,17 @@
+{
+  "description": "Number of positive integers with Pisano period equal to n.",
+  "id": "A375519",
+  "mentions": [
+    "A001175",
+    "A375089"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

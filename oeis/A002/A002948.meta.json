@@ -2,6 +2,8 @@
   "description": "Continued fraction for cube root of 5.",
   "id": "A002948",
   "mentions": [
+    "A002357",
+    "A002358",
     "A002945",
     "A003116",
     "A005481"
@@ -11,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 63,
+    "offset": 0,
+    "size": 81,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Minimum integer such that the convergence speed of the tetration n^^(a(n)) is constant (i.e., the convergence speed of n^^(a(n) + m) is a fixed number for any positive integer m) and -1 if n is a multiple of 10.",
+  "id": "A372490",
+  "mentions": [
+    "A007814",
+    "A112765",
+    "A317905",
+    "A369771",
+    "A369826",
+    "A370211",
+    "A371048",
+    "A371074",
+    "A371671"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

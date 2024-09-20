@@ -2,14 +2,16 @@
   "description": "Super-6 Numbers (6 * n^6 contains substring '666666' in its decimal expansion).",
   "id": "A032746",
   "mentions": [
-    "A014569"
+    "A014569",
+    "A032743",
+    "A032749"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 27,
     "source": "joeis"
   }

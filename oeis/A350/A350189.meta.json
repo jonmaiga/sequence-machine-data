@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: the number of symmetric binary n X n matrices with k one's and no all-1 2 X 2 submatrix.",
+  "description": "Triangle T(n,k) read by rows: the number of symmetric binary n X n matrices with k ones and no all-1 2 X 2 submatrix.",
   "id": "A350189",
   "mentions": [
     "A000217",

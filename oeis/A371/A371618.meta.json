@@ -1,0 +1,16 @@
+{
+  "description": "Indices where prime(n) first appears in A373902.",
+  "id": "A371618",
+  "mentions": [
+    "A000040",
+    "A373902"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

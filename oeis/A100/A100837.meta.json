@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that n^n + 4 is prime.",
+  "description": "Numbers k such that k^k + 4 is prime.",
   "id": "A100837",
   "mentions": [
+    "A100838",
+    "A100839",
     "A100840"
   ],
   "tags": [

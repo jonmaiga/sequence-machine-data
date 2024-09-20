@@ -1,7 +1,9 @@
 {
-  "description": "(4*10^n + 23)/9.",
+  "description": "a(n) = (4*10^n + 23)/9.",
   "id": "A173772",
-  "mentions": [],
+  "mentions": [
+    "A173771"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

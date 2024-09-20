@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest m such that A374167(m) = n, or -1 if no such m exists.",
+  "id": "A374264",
+  "mentions": [
+    "A235266",
+    "A374167"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

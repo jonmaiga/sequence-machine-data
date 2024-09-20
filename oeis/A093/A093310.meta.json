@@ -1,8 +1,13 @@
 {
-  "description": "k-th lower twin prime, where k = n!.",
+  "description": "a(n) is the k-th lower twin prime, where k = n!.",
   "id": "A093310",
-  "mentions": [],
+  "mentions": [
+    "A001359",
+    "A093311"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

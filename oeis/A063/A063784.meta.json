@@ -1,9 +1,12 @@
 {
-  "description": "Primes that are the sum of cubes of divisors of an integer.",
+  "description": "Primes that are the sum of cubes of divisors of some integer.",
   "id": "A063784",
   "mentions": [
     "A001158",
-    "A023194"
+    "A023194",
+    "A060883",
+    "A063783",
+    "A066100"
   ],
   "tags": [
     "formulas",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

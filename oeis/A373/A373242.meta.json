@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) is the sum for all integer partitions of n of length k of the difference between the number of different parts and the number of different multiplicities.",
+  "id": "A373242",
+  "mentions": [
+    "A092905",
+    "A373241",
+    "A373243",
+    "A373271"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of crystallized linear chord diagrams on n chords with k short chords.",
+  "id": "A375504",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A375505"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonabelian groups of order m where m is the n-th squarefree number.",
+  "id": "A375483",
+  "mentions": [
+    "A000001",
+    "A000688",
+    "A005117",
+    "A060689",
+    "A375491"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

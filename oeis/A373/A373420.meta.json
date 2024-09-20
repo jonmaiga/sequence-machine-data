@@ -1,0 +1,21 @@
+{
+  "description": "Number of Carlitz compositions of n (see A003242) such that the first and last parts are equal.",
+  "id": "A373420",
+  "mentions": [
+    "A001045",
+    "A003242",
+    "A285981",
+    "A291941",
+    "A374517"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

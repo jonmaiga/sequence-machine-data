@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the set InvPhi[96n+2] is nonempty.",
+  "description": "Numbers k such that phi(m) = 96*k+2 has no solution.",
   "id": "A071624",
   "mentions": [
     "A000010",

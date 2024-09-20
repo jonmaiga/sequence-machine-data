@@ -1,0 +1,17 @@
+{
+  "description": "Primes in A284798.",
+  "id": "A372770",
+  "mentions": [
+    "A284798"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

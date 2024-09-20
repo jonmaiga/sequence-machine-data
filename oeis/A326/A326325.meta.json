@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^n*n!*([z^n] exp(x*z)*tanh(z)))(1/2).",
+  "description": "a(n) = 2^n*n!*([z^n] exp(x*z)*tanh(z))(1/2).",
   "id": "A326325",
   "mentions": [
     "A009832",

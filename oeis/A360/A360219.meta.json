@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = Sum_{k=0..floor(n/3)} (-1)^k * binomial(n-3*k,k) * binomial(2*(n-3*k),n-3*k).",
+  "description": "a(n) = Sum_{k=0..floor(n/4)} (-1)^k * binomial(n-3*k,k) * binomial(2*(n-3*k),n-3*k).",
   "id": "A360219",
   "mentions": [
     "A157004",
-    "A360267"
+    "A360267",
+    "A374599"
   ],
   "tags": [
     "formulas",

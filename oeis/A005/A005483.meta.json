@@ -3,15 +3,17 @@
   "id": "A005483",
   "mentions": [
     "A002945",
-    "A005482"
+    "A005482",
+    "A005484",
+    "A005485"
   ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 69,
+    "offset": 0,
+    "size": 85,
     "source": "oeis-bfile"
   }
 }

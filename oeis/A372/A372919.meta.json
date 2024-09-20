@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (Pi/4)*log(2) + Catalan.",
+  "id": "A372919",
+  "mentions": [
+    "A006752",
+    "A086054"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "8^n - 8*n.",
+  "description": "a(n) = 8^n - 8n.",
   "id": "A198398",
   "mentions": [
     "A005803",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

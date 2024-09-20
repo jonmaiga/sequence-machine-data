@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if A373149(n) is even, otherwise 0, where A373149 is fully additive with a(2) = 1 and a(p) = prevprime(p) for odd primes p.",
+  "id": "A373585",
+  "mentions": [
+    "A001222",
+    "A007949",
+    "A059841",
+    "A373149",
+    "A373586",
+    "A373587"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "f(5n)/(f(n-2)*f(n-1)*f(n)*f(n+1)*f(n+2)), where f(k) = k!.",
+  "description": "a(n) = f(5*n)/(f(n-2)*f(n-1)*f(n)*f(n+1)*f(n+2)), where f(k) = k!.",
   "id": "A248709",
   "mentions": [
+    "A000142",
     "A001700",
     "A248707",
     "A248708",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 10,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

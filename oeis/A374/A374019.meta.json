@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} 1 / (1 - x^(4*k-1))^2.",
+  "id": "A374019",
+  "mentions": [
+    "A000712",
+    "A022567",
+    "A035462",
+    "A050452",
+    "A261629",
+    "A374018"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

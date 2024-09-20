@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the numerator of the expected depth of the tree representing the process of eliminating from n people a random group by tossing coins, and repeating this process recursively until a single loser is determined.",
+  "id": "A372422",
+  "mentions": [
+    "A372423",
+    "A372424",
+    "A372425",
+    "A372482",
+    "A372483"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

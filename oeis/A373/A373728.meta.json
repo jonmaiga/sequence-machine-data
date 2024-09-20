@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the length of a shortest integer sequence on a circle containing all permutations of the set {1, 2, ..., n} as subsequences.",
+  "id": "A373728",
+  "mentions": [
+    "A062714"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

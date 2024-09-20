@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which k and k^2 are digitally balanced numbers in base 3 (A049354).",
+  "id": "A372147",
+  "mentions": [
+    "A049354",
+    "A353139",
+    "A353140"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

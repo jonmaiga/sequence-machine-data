@@ -1,5 +1,5 @@
 {
-  "description": "Least power of 2 having exactly n consecutive 6's in its decimal representation.",
+  "description": "Exponent of least power of 2 having exactly n consecutive 6's in its decimal representation.",
   "id": "A131540",
   "mentions": [
     "A006889",
@@ -19,8 +19,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n+1) = 10*a(n) + (a(n)-1 mod 9) + 1, or the least number not yet in the sequence in case a(n) is a multiple of 3 or a prime.",
+  "id": "A375102",
+  "mentions": [
+    "A000040",
+    "A008585",
+    "A010051",
+    "A010888",
+    "A019434"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

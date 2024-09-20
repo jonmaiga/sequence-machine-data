@@ -1,0 +1,25 @@
+{
+  "description": "A cycle of length 5 when iterating x <- phi(sigma(x)).",
+  "id": "A375122",
+  "mentions": [
+    "A001229",
+    "A095955",
+    "A095956",
+    "A373435",
+    "A373453",
+    "A373454",
+    "A375012",
+    "A375013",
+    "A375014"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "joeis"
+  }
+}

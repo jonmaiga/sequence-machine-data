@@ -2,7 +2,6 @@
   "description": "Number of (w,x,y) with all terms in {0,...,n} and max(|w-x|,|x-y|) = x.",
   "id": "A213399",
   "mentions": [
-    "A212399",
     "A212959"
   ],
   "tags": [

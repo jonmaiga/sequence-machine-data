@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows, T(n,k) is the number of North-East lattice paths from (0,0) to (n,n+2) that stay weakly above y = x, with weight = k + A000217(n).",
+  "id": "A375763",
+  "mentions": [
+    "A000108",
+    "A000217",
+    "A000245",
+    "A152659",
+    "A173258",
+    "A227543",
+    "A268429"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

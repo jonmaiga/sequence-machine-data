@@ -1,0 +1,17 @@
+{
+  "description": "Total number of n-colorings of all graphs on n labeled nodes.",
+  "id": "A372920",
+  "mentions": [
+    "A000035",
+    "A322280"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

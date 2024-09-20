@@ -1,13 +1,22 @@
 {
   "description": "Almost trivalent maps.",
   "id": "A002012",
-  "mentions": [],
+  "mentions": [
+    "A002005",
+    "A002006",
+    "A002007",
+    "A002008",
+    "A002009",
+    "A002010",
+    "A002011"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

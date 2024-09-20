@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k > 0 such that n and k*n can be added without carries in decimal.",
+  "id": "A374735",
+  "mentions": [
+    "A007091",
+    "A261891",
+    "A353623",
+    "A374736"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

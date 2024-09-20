@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose maximum exponent in their prime factorization is a powerful number larger than 1.",
+  "id": "A374589",
+  "mentions": [
+    "A001694",
+    "A013929",
+    "A051903",
+    "A130897",
+    "A262276",
+    "A361177",
+    "A368714",
+    "A369937",
+    "A369938",
+    "A369939",
+    "A372405",
+    "A374588",
+    "A374590"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

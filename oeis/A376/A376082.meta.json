@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the period of the Leonardo numbers (A001595) modulo n.",
+  "id": "A376082",
+  "mentions": [
+    "A001175",
+    "A001595",
+    "A376081"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n whose divisors can be partitioned into three disjoint sets whose sums are all sigma(n)/3.",
+  "description": "Numbers k whose divisors can be partitioned into three disjoint sets whose sums are all sigma(k)/3.",
   "id": "A204830",
   "mentions": [
     "A023197",
     "A083207",
-    "A204831"
+    "A087943",
+    "A204831",
+    "A306476"
   ],
   "tags": [
     "nonn"

@@ -2,6 +2,7 @@
   "description": "Version 1 of the \"previous prime\" function: largest prime <= n.",
   "id": "A007917",
   "mentions": [
+    "A000010",
     "A000040",
     "A000142",
     "A000203",
@@ -15,6 +16,7 @@
     "A070801",
     "A113523",
     "A151799",
+    "A175851",
     "A179278",
     "A191898"
   ],

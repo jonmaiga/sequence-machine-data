@@ -2,6 +2,8 @@
   "description": "Palindromes with digit sum 9.",
   "id": "A121476",
   "mentions": [
+    "A002113",
+    "A052223",
     "A121477"
   ],
   "tags": [
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "joeis"
   }
 }

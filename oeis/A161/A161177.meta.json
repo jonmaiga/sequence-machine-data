@@ -3,16 +3,18 @@
   "id": "A161177",
   "mentions": [
     "A001222",
-    "A005179"
+    "A005179",
+    "A007416"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

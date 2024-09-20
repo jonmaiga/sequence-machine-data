@@ -1,0 +1,20 @@
+{
+  "description": "Obverse convolution (1)**A000201; see Comments.",
+  "id": "A374860",
+  "mentions": [
+    "A000012",
+    "A000201",
+    "A001622",
+    "A026351",
+    "A374848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -2,14 +2,22 @@
   "description": "Number of solutions to the Diophantine equation x1*x2 + x2*x3 + x3*x4 + x4*x5 = n, with all xi >= 1.",
   "id": "A191822",
   "mentions": [
-    "A189835"
+    "A000005",
+    "A001157",
+    "A002133",
+    "A038040",
+    "A055507",
+    "A065608",
+    "A189835",
+    "A191832"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

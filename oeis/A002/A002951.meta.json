@@ -2,6 +2,8 @@
   "description": "Continued fraction for fifth root of 5.",
   "id": "A002951",
   "mentions": [
+    "A002363",
+    "A002364",
     "A002949",
     "A003116",
     "A005534"
@@ -11,7 +13,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 98,
     "source": "oeis-bfile"
   }

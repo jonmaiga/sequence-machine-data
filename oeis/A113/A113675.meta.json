@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1/8991.",
   "id": "A113675",
   "mentions": [
+    "A002264",
     "A021895"
   ],
   "tags": [

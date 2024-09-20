@@ -1,9 +1,11 @@
 {
-  "description": "Integers n such that A002110(n) is the average of two consecutive primes.",
+  "description": "Integers k such that A002110(k) is the average of two consecutive primes.",
   "id": "A268480",
   "mentions": [
     "A002110",
     "A024675",
+    "A038711",
+    "A060270",
     "A088256"
   ],
   "tags": [

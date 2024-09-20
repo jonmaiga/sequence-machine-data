@@ -1,18 +1,27 @@
 {
-  "description": "Number of unsensed maps with n edges on a surface of genus g, summed on g = 0 through [n/2]..",
+  "description": "Number of unsensed maps with n edges on a surface of genus g, summed on g = 0 through [n/2].",
   "id": "A214816",
   "mentions": [
     "A006385",
     "A006387",
+    "A170946",
+    "A170947",
+    "A170948",
     "A214814",
-    "A214815"
+    "A214815",
+    "A297880",
+    "A297881",
+    "A348798",
+    "A348800",
+    "A348801"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

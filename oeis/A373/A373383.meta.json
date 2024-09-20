@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 if n and A059975(n) are both multiples of 3, otherwise 0, where A059975 is fully additive with a(p) = p-1.",
+  "id": "A373383",
+  "mentions": [
+    "A059975",
+    "A373368",
+    "A373384"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

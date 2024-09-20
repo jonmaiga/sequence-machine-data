@@ -1,7 +1,10 @@
 {
-  "description": "A+B=C for 0<=A, 0<=B, A<=B; if n is a C-almost prime then a(n) = number of decompositions of n into sum of an A-almost prime and a B-almost prime.",
+  "description": "a(n) is the number of representations of n as a sum x+y, such that bigomega(n) = bigomega(x)+bigomega(y) and 1 <= x <= y < n.",
   "id": "A059339",
-  "mentions": [],
+  "mentions": [
+    "A001222",
+    "A374210"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 101,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

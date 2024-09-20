@@ -1,9 +1,13 @@
 {
-  "description": "Numbers k such that n = 216k+108 is element of A097703 and A007494 and A098240.",
+  "description": "Numbers k such that 216*k+108 is a term of A097703 and A007494 and A098240.",
   "id": "A098241",
   "mentions": [
+    "A000203",
     "A007494",
     "A016777",
+    "A027641",
+    "A027642",
+    "A034448",
     "A063880",
     "A067778",
     "A097703",
@@ -11,12 +15,11 @@
     "A098240"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

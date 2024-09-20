@@ -1,0 +1,18 @@
+{
+  "description": "Size of the largest polyiamond that can be enclosed in n cells on a triangular lattice.",
+  "id": "A373612",
+  "mentions": [
+    "A008642",
+    "A257594",
+    "A290648"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

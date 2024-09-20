@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to choose a simple labeled graph on [n], then partition the vertex set into independent sets, then choose a vertex from each independent set.",
+  "id": "A371633",
+  "mentions": [
+    "A000248",
+    "A011266",
+    "A058843",
+    "A240936"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

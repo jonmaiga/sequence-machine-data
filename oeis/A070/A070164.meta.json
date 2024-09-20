@@ -1,5 +1,5 @@
 {
-  "description": "Least m such that cototient[m]-1=p[n].",
+  "description": "Least m such that cototient(m)-1 = p(n).",
   "id": "A070164",
   "mentions": [
     "A000010",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

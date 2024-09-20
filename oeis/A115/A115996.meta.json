@@ -1,5 +1,5 @@
 {
-  "description": "The concatenation of the n-th prime with n gives a palindrome.",
+  "description": "Numbers k such that the concatenation of the k-th prime with k gives a palindrome.",
   "id": "A115996",
   "mentions": [
     "A109304",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

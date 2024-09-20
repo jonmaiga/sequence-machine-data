@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form r(r(n)+1)+1, where A141468(n)=r(n)=n-th nonprime.",
+  "description": "Primes of the form r(r(n)+1)+1, where r(n) = A141468(n) = n-th nonprime.",
   "id": "A105840",
   "mentions": [
     "A000040",

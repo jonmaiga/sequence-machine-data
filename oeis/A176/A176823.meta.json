@@ -1,13 +1,13 @@
 {
-  "description": "a(n)=Mod(n^(n+1),(n+1)^n).",
+  "description": "a(n) = n^(n+1) mod (n+1)^n.",
   "id": "A176823",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

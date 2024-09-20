@@ -1,0 +1,15 @@
+{
+  "description": "Number of connected chainmails with n unlabeled elements.",
+  "id": "A374073",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

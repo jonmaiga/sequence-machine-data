@@ -2,9 +2,12 @@
   "description": "Numbers of lattice points corresponding to incrementally largest circle radii in A062875.",
   "id": "A062876",
   "mentions": [
+    "A000040",
+    "A013929",
     "A017113",
     "A046112",
     "A062875",
+    "A103929",
     "A111333"
   ],
   "tags": [

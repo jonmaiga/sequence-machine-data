@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=2..n+2} L(n/prime(k)) where L(n/p) is the Legendre symbol. Row sums of A372726.",
+  "id": "A372725",
+  "mentions": [
+    "A372724",
+    "A372726"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

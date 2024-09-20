@@ -2,10 +2,12 @@
   "description": "Expansion of e.g.f. arcsin(x).",
   "id": "A177145",
   "mentions": [
+    "A001147",
     "A001818",
     "A087137"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

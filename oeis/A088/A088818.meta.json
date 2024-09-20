@@ -1,11 +1,14 @@
 {
-  "description": "Abundance-radius of n = Abs[sigma[n]-2n]<=log[log[n]].",
+  "description": "Numbers k whose abundance-radius does not exceed log(log(k)), i.e., abs(sigma(k)-2*k) <= log(log(k)).",
   "id": "A088818",
   "mentions": [
     "A000079",
     "A000396",
+    "A033880",
     "A077374",
     "A088009",
+    "A088010",
+    "A088011",
     "A088012"
   ],
   "tags": [
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = T(n - 1, k) + T(n - 2, k - 2), with initial values T(n, k) = k + 1 for k < 3.",
+  "id": "A374438",
+  "mentions": [
+    "A001060",
+    "A006355",
+    "A065220",
+    "A162515",
+    "A187890",
+    "A187893",
+    "A210673",
+    "A374439"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

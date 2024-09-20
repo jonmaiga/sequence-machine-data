@@ -1,0 +1,17 @@
+{
+  "description": "Least n-digit reversible prime whose difference from its reversal is maximal.",
+  "id": "A374377",
+  "mentions": [
+    "A374350"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

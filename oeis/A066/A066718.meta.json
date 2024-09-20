@@ -1,10 +1,11 @@
 {
   "description": "Incrementally largest terms in the continued fraction for the \"binary\" Champernowne constant.",
   "id": "A066718",
-  "mentions": [],
+  "mentions": [
+    "A066717"
+  ],
   "tags": [
     "base",
-    "cofr",
     "nonn"
   ],
   "terms": {

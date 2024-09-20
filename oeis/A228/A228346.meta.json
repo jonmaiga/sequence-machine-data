@@ -2,11 +2,11 @@
   "description": "Records in the continued fraction expansion of log(10).",
   "id": "A228346",
   "mentions": [
-    "A002392",
+    "A016738",
     "A228345"
   ],
   "tags": [
-    "cofr",
+    "more",
     "nonn"
   ],
   "terms": {

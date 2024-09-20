@@ -1,14 +1,19 @@
 {
-  "description": "Smallest prime of form n*2^m-1, m >= 0, or 0 if no such prime exists.",
+  "description": "Riesel problem: Smallest prime of form n*2^m-1, m >= 0, or 0 if no such prime exists.",
   "id": "A038699",
   "mentions": [
     "A000079",
     "A010051",
     "A040081",
-    "A050921"
+    "A046069",
+    "A050412",
+    "A050921",
+    "A052333",
+    "A076337",
+    "A101036",
+    "A108129"
   ],
   "tags": [
-    "easy",
     "nice",
     "nonn"
   ],

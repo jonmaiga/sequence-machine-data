@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: -LambertW(x/(-1+x)).",
+  "description": "Expansion of e.g.f. -LambertW(x/(-1+x)).",
   "id": "A052871",
   "mentions": [
     "A008297",

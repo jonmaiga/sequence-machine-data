@@ -1,9 +1,14 @@
 {
-  "description": "Elements of A097703 not of form 3k + 1.",
+  "description": "Terms of A097703 that are not of the form 3*k + 1.",
   "id": "A097704",
   "mentions": [
+    "A007494",
+    "A013929",
+    "A027641",
+    "A027642",
     "A067778",
-    "A097703"
+    "A097703",
+    "A098241"
   ],
   "tags": [
     "nonn"
@@ -11,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

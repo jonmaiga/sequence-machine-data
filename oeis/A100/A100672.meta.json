@@ -2,6 +2,7 @@
   "description": "Second least-significant bit in the binary expansion of the n-th prime.",
   "id": "A100672",
   "mentions": [
+    "A000040",
     "A002144",
     "A002145",
     "A045326",

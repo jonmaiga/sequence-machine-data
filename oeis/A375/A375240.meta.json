@@ -1,0 +1,22 @@
+{
+  "description": "For squarefree j, a(j*k^2) = j * a(k), a(1) = 1.",
+  "id": "A375240",
+  "mentions": [
+    "A000120",
+    "A000188",
+    "A007913",
+    "A007947",
+    "A352780"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

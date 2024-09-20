@@ -1,8 +1,10 @@
 {
-  "description": "n*floor(n/2)^2.",
+  "description": "a(n) = n*floor(n/2)^2.",
   "id": "A122656",
   "mentions": [
-    "A008794"
+    "A002117",
+    "A008794",
+    "A013661"
   ],
   "tags": [
     "easy",

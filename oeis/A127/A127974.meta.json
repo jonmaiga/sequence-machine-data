@@ -2,7 +2,9 @@
   "description": "Numerators in expansion of (1-x)^(-2/3).",
   "id": "A127974",
   "mentions": [
+    "A001790",
     "A008544",
+    "A104133",
     "A127975"
   ],
   "tags": [

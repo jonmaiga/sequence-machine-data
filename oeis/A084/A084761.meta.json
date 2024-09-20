@@ -1,8 +1,9 @@
 {
-  "description": "Primes such that {a(m)-a(m-1)}/{a(m-1)-a(m-2)} is a unique integer.",
+  "description": "A sequence of primes such that {a(n)-a(n-1)}/{a(n-1)-a(n-2)} is a unique integer.",
   "id": "A084761",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

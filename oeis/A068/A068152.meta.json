@@ -1,14 +1,16 @@
 {
   "description": "Continued fraction for Gamma(3/4).",
   "id": "A068152",
-  "mentions": [],
+  "mentions": [
+    "A068465"
+  ],
   "tags": [
     "cofr",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 97,
     "source": "joeis"
   }

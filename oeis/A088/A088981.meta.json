@@ -1,5 +1,5 @@
 {
-  "description": "a(n+2) = a(n+1) + a(n) - [(2*n)+1] where a(0)=7, a(1)=11.",
+  "description": "a(n+2) = a(n+1) + a(n) - (2*n + 1) where a(0)=7, a(1)=11.",
   "id": "A088981",
   "mentions": [],
   "tags": [

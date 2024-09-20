@@ -2,15 +2,17 @@
   "description": "Tersum n + [n/3] (answer recorded in base 10).",
   "id": "A071770",
   "mentions": [
-    "A004482"
+    "A004482",
+    "A370932"
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

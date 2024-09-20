@@ -1,0 +1,14 @@
+{
+  "description": "a(n) = 2^n * n! * [x^n] (1/2 - exp(-x))^n.",
+  "id": "A375540",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

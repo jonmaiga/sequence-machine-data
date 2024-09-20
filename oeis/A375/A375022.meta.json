@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations of n (distinct) elements from [2n] without consecutive adjacent values.",
+  "id": "A375022",
+  "mentions": [
+    "A338526"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

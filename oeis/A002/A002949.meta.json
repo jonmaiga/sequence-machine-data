@@ -2,6 +2,8 @@
   "description": "Continued fraction for cube root of 6.",
   "id": "A002949",
   "mentions": [
+    "A002359",
+    "A002360",
     "A003116",
     "A005486"
   ],
@@ -10,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 63,
+    "offset": 0,
+    "size": 82,
     "source": "oeis-bfile"
   }
 }

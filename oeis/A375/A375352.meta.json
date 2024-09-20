@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 14*k + 2 is a square.",
+  "id": "A375352",
+  "mentions": [
+    "A001082",
+    "A028872",
+    "A056220",
+    "A113804",
+    "A161532",
+    "A181433",
+    "A204221",
+    "A212965",
+    "A266956",
+    "A273367",
+    "A274978"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

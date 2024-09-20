@@ -2,6 +2,7 @@
   "description": "Run lengths in binary expansion of Pi.",
   "id": "A051480",
   "mentions": [
+    "A000796",
     "A004601"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

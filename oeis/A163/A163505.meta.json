@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n-th odd nonprime mod n-th odd number.",
+  "description": "a(n) = (n-th odd nonprime) mod (n-th odd number).",
   "id": "A163505",
   "mentions": [
     "A005408",

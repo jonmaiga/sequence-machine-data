@@ -1,5 +1,5 @@
 {
-  "description": "Number of iterations of A000005 required to reach 2 when started at n!.",
+  "description": "Number of iterations of the number of divisors function (A000005) required to reach a fixed point (1 or 2) when started at n!.",
   "id": "A053025",
   "mentions": [
     "A000005",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

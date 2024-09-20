@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimal absolute value of the determinant of a nonsingular n X n symmetric Toeplitz matrix having 0 on the main diagonal and all the first n-1 primes off-diagonal.",
+  "id": "A374389",
+  "mentions": [
+    "A374068",
+    "A374386",
+    "A374387",
+    "A374388",
+    "A374390"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -2,8 +2,10 @@
   "description": "Expansion of g.f. A(x) satisfies A(x) = x * Product_{n>=0} (1 + 2*A(x)^(2^n)).",
   "id": "A356782",
   "mentions": [
+    "A000108",
     "A000120",
-    "A001316"
+    "A001316",
+    "A372534"
   ],
   "tags": [
     "formulas",

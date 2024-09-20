@@ -1,5 +1,5 @@
 {
-  "description": "Array T(m,n) = greatest k such that 1/n + ... + 1/(n+k-1) <= m, by rising diagonals.",
+  "description": "Array T(m,n) = greatest k such that 1/n + ... + 1/(n+k-1) <= m, by rising antidiagonals.",
   "id": "A214966",
   "mentions": [
     "A002387",

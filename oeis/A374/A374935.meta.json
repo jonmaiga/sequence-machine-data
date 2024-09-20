@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of squares covered (i.e., attacked) by 5 independent (i.e., nonattacking) queens on an n X n chessboard.",
+  "id": "A374935",
+  "mentions": [
+    "A047461",
+    "A075324",
+    "A374933",
+    "A374934",
+    "A374936",
+    "A375116"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

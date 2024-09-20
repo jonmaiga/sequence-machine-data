@@ -1,13 +1,13 @@
 {
-  "description": "Beginning with 1, a(n) = smallest number coprime to the k previous terms, where k = floor(n/2).",
+  "description": "Beginning with 1, a(n) = smallest number > a(n-1) and coprime to the k previous terms, where k = floor(n/2).",
   "id": "A086539",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

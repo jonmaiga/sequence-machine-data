@@ -1,7 +1,8 @@
 {
-  "description": "Numbers from which two digits can be chosen, the difference being any value from 0 to 9.",
+  "description": "Numbers being the smallest positive integer having its digits (Cf. A179239) from which two digits can be chosen, the difference being any value from 0 to 9.",
   "id": "A365375",
   "mentions": [
+    "A179239",
     "A219248"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

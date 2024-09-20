@@ -1,13 +1,16 @@
 {
-  "description": "Product_{q|n} [p(q)] divides p(n), where p(n) is number of unrestricted partitions of n and the product is over all distinct primes q that divide n.",
+  "description": "Numbers k such that Product_{q|k} p(q) divides p(k), where p(k) is number of unrestricted partitions of k and the product is over all distinct primes q that divide k.",
   "id": "A055977",
-  "mentions": [],
+  "mentions": [
+    "A000041",
+    "A054411"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 61,
     "source": "joeis"
   }

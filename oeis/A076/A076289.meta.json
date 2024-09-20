@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form (10^{mr}-1)/(10^r-1) for positive integers m, r.",
+  "description": "Numbers of the form (10^(m*r)-1)/(10^r-1) for positive integers m, r.",
   "id": "A076289",
   "mentions": [
     "A064896",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

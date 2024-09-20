@@ -1,0 +1,19 @@
+{
+  "description": "Size of the collineation group of classical projective planes of prime power order q.",
+  "id": "A373501",
+  "mentions": [
+    "A003800",
+    "A246655",
+    "A335866",
+    "A373502"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

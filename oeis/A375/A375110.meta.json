@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the pairs (a(n) mod a(n+1), a(n+1)) are all distinct.",
+  "id": "A375110",
+  "mentions": [
+    "A335943",
+    "A375111",
+    "A375112",
+    "A375114",
+    "A375115"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

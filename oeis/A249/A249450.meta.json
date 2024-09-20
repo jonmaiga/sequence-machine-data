@@ -1,5 +1,5 @@
 {
-  "description": "Alternate Fibonacci numbers - 2.",
+  "description": "a(n) = Fibonacci(2*n) - 2.",
   "id": "A249450",
   "mentions": [
     "A000045",

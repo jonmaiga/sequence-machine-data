@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..5 arrays x(i,j) with each element horizontally or vertically next to at least one element with value (x(i,j)+1) mod 6, and upper left element zero",
+  "description": "Number of n X 2 0..5 arrays x(i,j) with each element horizontally or vertically next to at least one element with value (x(i,j)+1) mod 6, and upper left element zero.",
   "id": "A230588",
   "mentions": [
     "A230592"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 27,
     "source": "oeis-bfile"
   }
 }

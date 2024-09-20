@@ -1,7 +1,10 @@
 {
-  "description": "a(n+1) = a(n) converted to base 10 from base 4 (written in base 10).",
+  "description": "a(n+1) = a(n) converted to base 10 from base 4 (written in base 10); a(1)=4.",
   "id": "A023378",
-  "mentions": [],
+  "mentions": [
+    "A007090",
+    "A373033"
+  ],
   "tags": [
     "base",
     "nonn"

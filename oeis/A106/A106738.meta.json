@@ -2,7 +2,12 @@
   "description": "Difference between the sums of odd-indexed primes and even-indexed primes up to and including index 10^n.",
   "id": "A106738",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A031215",
+    "A031368",
+    "A077126",
+    "A077131",
+    "A077133"
   ],
   "tags": [
     "formulas",
@@ -11,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

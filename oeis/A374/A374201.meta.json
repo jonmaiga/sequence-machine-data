@@ -1,0 +1,28 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A278222(A048679(A328845(i))) = A278222(A048679(A328845(j))), for all i, j >= 1, where A328845 is a Fibonacci-based variant of the arithmetic derivative.",
+  "id": "A374201",
+  "mentions": [
+    "A000045",
+    "A003714",
+    "A005940",
+    "A014417",
+    "A046523",
+    "A048679",
+    "A072649",
+    "A106151",
+    "A278222",
+    "A304101",
+    "A304105",
+    "A328845",
+    "A328847",
+    "A373982"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

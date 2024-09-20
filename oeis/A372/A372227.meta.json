@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=1..n} sigma( (n/gcd(k,n))^2 ).",
+  "id": "A372227",
+  "mentions": [
+    "A002117",
+    "A005117",
+    "A062380",
+    "A062952",
+    "A182448",
+    "A372996",
+    "A372998",
+    "A373000"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

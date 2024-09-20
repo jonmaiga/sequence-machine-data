@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime of form n*2^m+1, m >= 0, or 0 if no prime exists.",
+  "description": "Smallest prime of form n*2^m+1, m >= 0, or 0 if no such prime exists.",
   "id": "A050921",
   "mentions": [
     "A034694",

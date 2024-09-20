@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 8*10^k-99 is prime.",
+  "description": "Numbers k such that 8*10^k - 99 is prime.",
   "id": "A280016",
   "mentions": [
     "A056654",

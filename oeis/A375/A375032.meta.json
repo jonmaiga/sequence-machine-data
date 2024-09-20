@@ -1,0 +1,23 @@
+{
+  "description": "The maximum odd exponent in the prime factorization of n, or 0 if no such exponent exists.",
+  "id": "A375032",
+  "mentions": [
+    "A000290",
+    "A051903",
+    "A065465",
+    "A162642",
+    "A335275",
+    "A350389",
+    "A375033"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

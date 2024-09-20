@@ -1,0 +1,19 @@
+{
+  "description": "10^n-th binary palindrome.",
+  "id": "A373448",
+  "mentions": [
+    "A002113",
+    "A006995",
+    "A083816",
+    "A099280"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

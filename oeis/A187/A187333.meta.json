@@ -1,7 +1,9 @@
 {
-  "description": "Floor(n/5)+floor(2n/5)+floor(3n/5)+floor(4n/5).",
+  "description": "a(n) = floor(n/5) + floor(2n/5) + floor(3n/5) + floor(4n/5).",
   "id": "A187333",
-  "mentions": [],
+  "mentions": [
+    "A187326"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,15 +1,19 @@
 {
-  "description": "phi[(2^n - 1)]/2.",
+  "description": "a(n) = phi(2^n - 1)/2.",
   "id": "A056742",
   "mentions": [
-    "A011260"
+    "A000010",
+    "A000225",
+    "A011260",
+    "A053287"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 31,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = a(n-1) + n if n is prime, else a(n) = a(n-1) + largest divisor of n < n.",
+  "id": "A373083",
+  "mentions": [
+    "A020639",
+    "A117818",
+    "A219730"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

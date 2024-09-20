@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 0; for n >= 2, a(n) is the number of iterations needed for the map x -> x/A000005(x) to reach a least integer, when starting from x = A033950(n).",
+  "id": "A374540",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A036762",
+    "A159973",
+    "A360806"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

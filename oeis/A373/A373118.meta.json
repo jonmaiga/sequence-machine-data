@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of compositions of n such that the set of parts is [k]; triangle T(n,k), n>=0, 0<=k<=A003056(n), read by rows.",
+  "id": "A373118",
+  "mentions": [
+    "A000007",
+    "A000124",
+    "A000142",
+    "A000217",
+    "A000290",
+    "A001710",
+    "A003056",
+    "A008289",
+    "A057427",
+    "A107429",
+    "A245738",
+    "A332721",
+    "A371417",
+    "A372702",
+    "A373305",
+    "A373306"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

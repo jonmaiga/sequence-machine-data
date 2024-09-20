@@ -1,5 +1,5 @@
 {
-  "description": "Total number of prime factors of the repunit R(n)=(10^n-1)/9.",
+  "description": "Total number of prime factors of the repunit R(n) = (10^n-1)/9.",
   "id": "A046053",
   "mentions": [
     "A001222",

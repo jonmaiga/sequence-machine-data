@@ -1,0 +1,13 @@
+{
+  "description": "Prime numbers p with the property that neither of 2*(p+next prime to p)+/-1 is prime.",
+  "id": "A374613",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

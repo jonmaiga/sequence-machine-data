@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n - 1) * (n - 2) * sigma(n).",
+  "id": "A374915",
+  "mentions": [
+    "A000203",
+    "A002127",
+    "A002378",
+    "A060043",
+    "A078837"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

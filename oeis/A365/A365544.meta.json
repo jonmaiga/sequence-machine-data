@@ -25,12 +25,13 @@
     "A365541"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

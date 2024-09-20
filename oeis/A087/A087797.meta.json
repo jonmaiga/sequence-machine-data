@@ -2,8 +2,10 @@
   "description": "Primes, squares of primes and cubes of primes.",
   "id": "A087797",
   "mentions": [
+    "A000040",
     "A000430",
-    "A002760"
+    "A002760",
+    "A168363"
   ],
   "tags": [
     "formulas",

@@ -1,15 +1,19 @@
 {
-  "description": "Numbers n for which gcd(2n, sigma(n)) = 2n.",
+  "description": "Numbers k for which gcd(2k, sigma(k)) = 2k.",
   "id": "A325637",
   "mentions": [
     "A000203",
     "A000396",
     "A007691",
     "A033879",
+    "A224832",
     "A325636",
-    "A325638"
+    "A325638",
+    "A325654",
+    "A336702"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

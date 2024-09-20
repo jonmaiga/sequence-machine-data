@@ -2,7 +2,10 @@
   "description": "Continued fraction for sqrt(32).",
   "id": "A010130",
   "mentions": [
-    "A010487"
+    "A010487",
+    "A041052",
+    "A041053",
+    "A248259"
   ],
   "tags": [
     "cofr",

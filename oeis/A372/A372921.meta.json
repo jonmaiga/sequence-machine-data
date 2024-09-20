@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (Sum_{i=0..n-k} (-1)^i * binomial(n-k, i) * A007559(n-i)) * n! / ((n-k)! * A007559(k)) for 0 <= k <= n.",
+  "id": "A372921",
+  "mentions": [
+    "A000142",
+    "A007559",
+    "A033030"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

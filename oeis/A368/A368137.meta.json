@@ -1,5 +1,5 @@
 {
-  "description": "The number of ways of tiling the n X n torus up to the symmetries of the square by a tile that is fixed under 180-degree rotation.",
+  "description": "Number of ways of tiling the n X n torus up to the symmetries of the square by a tile that is fixed under 180-degree rotation.",
   "id": "A368137",
   "mentions": [
     "A255016",

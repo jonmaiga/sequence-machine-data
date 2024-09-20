@@ -1,14 +1,20 @@
 {
   "description": "Continued fraction for zeta(6).",
   "id": "A013682",
-  "mentions": [],
+  "mentions": [
+    "A013631",
+    "A013664",
+    "A013679",
+    "A013680",
+    "A013696"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 75,
+    "offset": 0,
+    "size": 83,
     "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,12 @@
 {
   "description": "Sum of divisors of n, excluding divisors 2 and 3.",
   "id": "A171405",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A178142"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

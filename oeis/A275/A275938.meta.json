@@ -1,18 +1,21 @@
 {
-  "description": "Numbers n such that d(n) is prime while sigma(n) is not prime (where d(n) = A000005(n) and sigma(n) = A000203(n)).",
+  "description": "Numbers m such that d(m) is prime while sigma(m) is not prime (where d(m) = A000005(m) and sigma(m) = A000203(m)).",
   "id": "A275938",
   "mentions": [
     "A000005",
+    "A000040",
     "A000203",
     "A004061",
     "A004063",
     "A009087",
     "A023194",
     "A028491",
-    "A054723"
+    "A054723",
+    "A286095"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

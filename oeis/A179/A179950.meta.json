@@ -1,8 +1,10 @@
 {
-  "description": "Continued fraction for gamma^e",
+  "description": "Continued fraction for gamma^e, where gamma is the Euler-Mascheroni constant.",
   "id": "A179950",
   "mentions": [
+    "A001620",
     "A073004",
+    "A073018",
     "A079650",
     "A094644"
   ],

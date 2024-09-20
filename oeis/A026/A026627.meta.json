@@ -1,15 +1,30 @@
 {
-  "description": "T(2n,n), T given by A026626.",
+  "description": "a(n) = A026626(2*n, n).",
   "id": "A026627",
   "mentions": [
-    "A026626"
+    "A026626",
+    "A026628",
+    "A026629",
+    "A026630",
+    "A026631",
+    "A026632",
+    "A026633",
+    "A026634",
+    "A026635",
+    "A026636",
+    "A026961",
+    "A026962",
+    "A026963",
+    "A026964",
+    "A026965"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

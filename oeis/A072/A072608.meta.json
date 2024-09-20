@@ -1,10 +1,11 @@
 {
-  "description": "Parity of remainder Mod[p(n),n]=A004648(n).",
+  "description": "Parity of remainder Mod(prime(n),n) = A004648(n).",
   "id": "A072608",
   "mentions": [
     "A004648"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nice",
     "nonn"

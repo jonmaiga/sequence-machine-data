@@ -1,14 +1,17 @@
 {
-  "description": "Primes of form x^2+1 where x=LCM(n) for some n.",
+  "description": "Primes of form x^2+1 where x = LCM(1,2,...,k) for some k.",
   "id": "A053609",
   "mentions": [
     "A046029",
     "A049536",
+    "A051418",
     "A051451",
     "A051739",
     "A053608"
   ],
   "tags": [
+    "formulas",
+    "hard",
     "nonn"
   ],
   "terms": {

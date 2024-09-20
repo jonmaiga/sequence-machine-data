@@ -1,0 +1,18 @@
+{
+  "description": "The n-th record of A294336 occur at index 2^a(n).",
+  "id": "A375599",
+  "mentions": [
+    "A294336",
+    "A294337",
+    "A375598"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

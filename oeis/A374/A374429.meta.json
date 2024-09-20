@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) = ((3*(-1)^k + 1)/2)*abs(qStirling2(n, k, -1)). Polynomials related to the Lucas and Fibonacci numbers.",
+  "id": "A374429",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000129",
+    "A000204",
+    "A039834",
+    "A048654",
+    "A065941",
+    "A333143",
+    "A374439"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

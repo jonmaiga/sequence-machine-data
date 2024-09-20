@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the greatest common divisor of n, sigma(n) and A003961(n), where A003961(n) is fully multiplicative function with a(prime(i)) = prime(i+1).",
+  "id": "A372565",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A009194",
+    "A322361",
+    "A342671",
+    "A372566"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

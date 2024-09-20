@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is equal to the number of shaded cells in a regular hexagon with side n drawn on a hexagonal grid.",
+  "id": "A373584",
+  "mentions": [
+    "A003215",
+    "A011848",
+    "A054925"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

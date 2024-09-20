@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that n equals the sum of its digits raised to the consecutive powers (1,2,3,...).",
+  "description": "Numbers k such that k equals the sum of its digits raised to the consecutive powers (1,2,3,...).",
   "id": "A032799",
   "mentions": [
-    "A208130"
+    "A005188",
+    "A208130",
+    "A362843"
   ],
   "tags": [
     "base",

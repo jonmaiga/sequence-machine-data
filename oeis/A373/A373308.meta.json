@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{n>=0} (1 - x^(2^n))^3.",
+  "id": "A373308",
+  "mentions": [
+    "A000695",
+    "A001285",
+    "A106400",
+    "A106407",
+    "A373309"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,17 @@
 {
-  "description": "Exponent of 2 in A093641(n).",
+  "description": "Exponent of 2 in the prime factorization of A093641(n).",
   "id": "A106844",
   "mentions": [
     "A007814",
     "A093641"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 102,
-    "source": "joeis"
+    "size": 104,
+    "source": "oeis-bfile"
   }
 }

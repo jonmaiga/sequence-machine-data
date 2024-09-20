@@ -2,6 +2,8 @@
   "description": "Irregular triangle read by rows: T(n,k) = n^3 - k^2 with 0 <= k <= A077121(n).",
   "id": "A167222",
   "mentions": [
+    "A000290",
+    "A000578",
     "A077121",
     "A167224"
   ],

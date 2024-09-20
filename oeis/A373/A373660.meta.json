@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (-1)^k*binomial(n, k) * A050446(n, n - k).",
+  "id": "A373660",
+  "mentions": [
+    "A000111",
+    "A050446",
+    "A373658",
+    "A373659"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

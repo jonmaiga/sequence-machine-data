@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first Smith number with at least n digits.",
+  "id": "A375724",
+  "mentions": [
+    "A006753"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

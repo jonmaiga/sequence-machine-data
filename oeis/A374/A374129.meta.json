@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which gcd(A075255(k), A374127(k)) = abs(A374127(k)); numbers k such that A075255(k) is a multiple of A374127(k).",
+  "id": "A374129",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001414",
+    "A075254",
+    "A075255",
+    "A084116",
+    "A086665",
+    "A374127",
+    "A374128",
+    "A374138"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

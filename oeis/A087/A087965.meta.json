@@ -1,11 +1,10 @@
 {
-  "description": "-1+2^n is divisible by (n-1).",
+  "description": "Numbers k such that 2^k - 1 is divisible by (k-1).",
   "id": "A087965",
   "mentions": [
     "A006521"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

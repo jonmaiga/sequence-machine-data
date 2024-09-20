@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that when iterating the map x -> A000593(x), then at some point before 1 is reached (after starting from x=k), a term is encountered whose largest prime factor is at least as large as A006530(k).",
+  "description": "Numbers k such that when iterating the map x -> A000593(x), at some point before 1 is reached (after starting from x=k), a term is encountered whose largest prime factor is at least as large as A006530(k).",
   "id": "A347242",
   "mentions": [
     "A000265",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic spanning trees of the nC_5-snake with constant distance between cutpoints.",
+  "id": "A374722",
+  "mentions": [
+    "A374721"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

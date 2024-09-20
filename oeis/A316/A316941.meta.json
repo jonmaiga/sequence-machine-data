@@ -1,5 +1,5 @@
 {
-  "description": "The natural numbers sequence where every composite is replaced by a prime, according to the rule explained in the Comments section.",
+  "description": "The natural numbers sequence where every composite is replaced by a prime, according to the rule explained in the Comments section (a(n) = -1 if no such prime is reached).",
   "id": "A316941",
   "mentions": [
     "A002808"

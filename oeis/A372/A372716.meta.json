@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = A372723(2*n, n).",
+  "id": "A372716",
+  "mentions": [
+    "A372723"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

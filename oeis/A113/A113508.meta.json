@@ -1,5 +1,5 @@
 {
-  "description": "Pentagon-free numbers.",
+  "description": "Pentagon-free numbers: numbers k such that no divisor of k is a pentagonal number > 1.",
   "id": "A113508",
   "mentions": [
     "A000326",
@@ -8,12 +8,11 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 67,
+    "size": 68,
     "source": "oeis-bfile"
   }
 }

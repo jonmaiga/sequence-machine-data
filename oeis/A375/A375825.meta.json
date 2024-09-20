@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows where row n is the Eytzinger array layout of n elements (a permutation of {1..n}).",
+  "id": "A375825",
+  "mentions": [
+    "A000217",
+    "A006165",
+    "A006257",
+    "A368783",
+    "A369802",
+    "A370006",
+    "A375544"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

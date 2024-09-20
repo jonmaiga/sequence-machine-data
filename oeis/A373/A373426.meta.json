@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: Coefficients of the polynomials L(n, x) * EZ(n, x), where L denote the unsigned Lah polynomials and EZ the Eulerian zig-zag polynomials A205497.",
+  "id": "A373426",
+  "mentions": [
+    "A205497",
+    "A271703",
+    "A373425",
+    "A373432"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

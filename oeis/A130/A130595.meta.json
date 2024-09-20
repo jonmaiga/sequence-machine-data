@@ -2,8 +2,15 @@
   "description": "Triangle read by rows: lower triangular matrix which is inverse to Pascal's triangle (A007318) regarded as a lower triangular matrix.",
   "id": "A130595",
   "mentions": [
+    "A000007",
     "A007318",
-    "A084938"
+    "A019590",
+    "A039834",
+    "A049347",
+    "A063524",
+    "A084938",
+    "A085750",
+    "A122803"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (3*n^5 + 4*n^3 - n)/6.",
+  "id": "A372751",
+  "mentions": [
+    "A000384",
+    "A002412",
+    "A072474",
+    "A075664",
+    "A260513",
+    "A372583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

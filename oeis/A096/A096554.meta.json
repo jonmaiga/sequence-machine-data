@@ -1,8 +1,10 @@
 {
-  "description": "Output of the linear congruential pseudo-random number generator used in function rand() as described in Kernighan and Ritchie.",
+  "description": "Output of the linear congruential pseudo-random number generator used in function rand() as described in Kernighan and Ritchie, when seeded with 0.",
   "id": "A096554",
   "mentions": [
+    "A061364",
     "A096550",
+    "A096553",
     "A096561"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

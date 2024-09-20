@@ -1,17 +1,19 @@
 {
-  "description": "Which composite number is n^n ?",
+  "description": "Which composite number is n^n ?: a(n) = k such that A002808(k) = n^n, or 0 if n^n is not composite.",
   "id": "A065895",
   "mentions": [
     "A000312",
     "A000720",
-    "A002808"
+    "A002808",
+    "A064151"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle T(n, k), n > 0, k = 1..A373797(n), read by rows; the n-th row corresponds to the lexicographically earliest sequence S of A373797(n) distinct integers in the range 1..n such that for any prime number p, any run of consecutive multiples of p in S has length exactly 2.",
+  "id": "A375030",
+  "mentions": [
+    "A280864",
+    "A373797"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

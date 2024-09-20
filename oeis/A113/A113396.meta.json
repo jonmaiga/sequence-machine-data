@@ -1,10 +1,14 @@
 {
-  "description": "Prime(n+1)^2-prime(n)^2 (mod prime(n+1)).",
+  "description": "a(n) = -prime(n)^2 (mod prime(n+1)).",
   "id": "A113396",
   "mentions": [
-    "A069482"
+    "A000040",
+    "A069482",
+    "A167770"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

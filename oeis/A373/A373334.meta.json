@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime power (A246655) P such that P-n is the next smaller prime power below P.",
+  "id": "A373334",
+  "mentions": [
+    "A000961",
+    "A057820",
+    "A110968",
+    "A246655",
+    "A290515"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

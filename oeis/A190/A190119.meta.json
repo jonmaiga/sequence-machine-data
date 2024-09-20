@@ -2,7 +2,6 @@
   "description": "a(n) = Sum_{k=1..n} lcm(k,k')/k, where k' is arithmetic derivative of k.",
   "id": "A190119",
   "mentions": [
-    "A003145",
     "A003415"
   ],
   "tags": [

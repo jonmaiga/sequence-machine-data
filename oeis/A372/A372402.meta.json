@@ -1,0 +1,19 @@
+{
+  "description": "Position of 2310^n among 11-smooth numbers A051038.",
+  "id": "A372402",
+  "mentions": [
+    "A022330",
+    "A051038",
+    "A147572",
+    "A372400",
+    "A372401"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

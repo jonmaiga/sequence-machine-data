@@ -1,0 +1,19 @@
+{
+  "description": "Positions of new record minima A372935 in A071961.",
+  "id": "A372936",
+  "mentions": [
+    "A071961",
+    "A372728",
+    "A372933",
+    "A372934",
+    "A372935"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

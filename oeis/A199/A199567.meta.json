@@ -1,9 +1,10 @@
 {
-  "description": "7*9^n+1.",
+  "description": "a(n) = 7*9^n + 1.",
   "id": "A199567",
   "mentions": [
     "A096046",
-    "A187709"
+    "A187709",
+    "A199566"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

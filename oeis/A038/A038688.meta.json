@@ -1,16 +1,20 @@
 {
-  "description": "Squares which are the sum of the divisors of some n.",
+  "description": "Squares that are the sum of the divisors of some number.",
   "id": "A038688",
   "mentions": [
+    "A000203",
+    "A000290",
+    "A002191",
     "A006532",
     "A228061"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

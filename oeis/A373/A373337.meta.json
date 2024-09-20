@@ -1,0 +1,19 @@
+{
+  "description": "Records in A045537.",
+  "id": "A373337",
+  "mentions": [
+    "A045537",
+    "A104782",
+    "A111442"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

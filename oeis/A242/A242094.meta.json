@@ -2,6 +2,9 @@
   "description": "Complement of A003249.",
   "id": "A242094",
   "mentions": [
+    "A001950",
+    "A003231",
+    "A003234",
     "A003249",
     "A187947"
   ],

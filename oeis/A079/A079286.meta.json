@@ -1,14 +1,18 @@
 {
-  "description": "(3^n)! - (2^n)!.",
+  "description": "a(n) = (3^n)! - (2^n)!.",
   "id": "A079286",
-  "mentions": [],
+  "mentions": [
+    "A000722",
+    "A079288"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 4,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

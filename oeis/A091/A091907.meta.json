@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (2*n)!/(2*n!)-1 is prime.",
+  "description": "Numbers k such that (2*k)!/(2*k!)-1 is prime.",
   "id": "A091907",
   "mentions": [
     "A091909"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

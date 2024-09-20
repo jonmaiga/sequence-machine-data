@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as an ordered sum of a triangular number, a square and an odd square.",
+  "id": "A374382",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A016754",
+    "A101428"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

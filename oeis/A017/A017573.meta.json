@@ -1,8 +1,9 @@
 {
-  "description": "(12n+4)^5.",
+  "description": "a(n) = (12n+4)^5.",
   "id": "A017573",
   "mentions": [
     "A000584",
+    "A013663",
     "A017569"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 21,
     "source": "joeis"
   }
 }

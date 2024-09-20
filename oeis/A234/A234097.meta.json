@@ -1,11 +1,10 @@
 {
-  "description": "Combined weight, as defined at A244094, of the partitions of n.",
+  "description": "Combined weight, as defined at A234094, of the partitions of n.",
   "id": "A234097",
   "mentions": [
     "A234094",
     "A234922",
-    "A234924",
-    "A244094"
+    "A234924"
   ],
   "tags": [
     "easy",

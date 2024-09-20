@@ -2,6 +2,7 @@
   "description": "Numbers k such that (digits of k sorted in ascending order) + (digital sum of k) is a palindrome.",
   "id": "A085932",
   "mentions": [
+    "A009994",
     "A085933",
     "A085934",
     "A085935"
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

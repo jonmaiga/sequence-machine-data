@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1; for any n > 1, a(n) is the maximum number of points from the set {(k, a(k)), k = 1..n-1} belonging to a straight line passing through the point (n-1, a(n-1)).",
+  "id": "A375423",
+  "mentions": [
+    "A334043",
+    "A375422"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (1 + log(4))/16.",
+  "id": "A372859",
+  "mentions": [
+    "A372858",
+    "A372860",
+    "A372861"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "Number of planar graphs of order n with exactly one Hamiltonian cycle.",
   "id": "A307957",
   "mentions": [
-    "A307956"
+    "A307956",
+    "A374310",
+    "A374311"
   ],
   "tags": [
     "more",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10n - 3, 10n - 1, 10n + 1 and 10n + 3 are divisible only by primes congruent to 3 mod 4.",
+  "description": "Numbers k such that 10k - 3, 10k - 1, 10k + 1 and 10k + 3 are divisible only by primes congruent to 3 mod 4.",
   "id": "A269354",
   "mentions": [
     "A004614"

@@ -1,0 +1,16 @@
+{
+  "description": "Number of pairs of two disjoint sets of n positive integers more than 1 with product A354697.",
+  "id": "A372849",
+  "mentions": [
+    "A354697"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

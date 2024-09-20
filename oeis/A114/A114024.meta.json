@@ -1,5 +1,5 @@
 {
-  "description": "Self-describing sequence: a(n) gives the number of primes in the sequence which are strictly < [a(n)]^2.",
+  "description": "Lexicographically earliest infinite sequence of distinct integers k such that there are k primes in the sequence strictly less than k^2.",
   "id": "A114024",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

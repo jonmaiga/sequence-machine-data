@@ -2,9 +2,11 @@
   "description": "a(n) = Product_{k=1..n} (F(k)+1) where F(k) denotes the k-th Fibonacci number.",
   "id": "A082480",
   "mentions": [
+    "A000012",
     "A000045",
     "A062073",
-    "A158472"
+    "A158472",
+    "A374848"
   ],
   "tags": [
     "formulas",

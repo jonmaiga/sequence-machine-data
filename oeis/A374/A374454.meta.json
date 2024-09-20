@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of o.g.f. 1/(1 - 4*x - 6*x^2 - 4*x^3 - x^4).",
+  "id": "A374454",
+  "mentions": [
+    "A000012",
+    "A000129",
+    "A108368",
+    "A145840",
+    "A374455"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

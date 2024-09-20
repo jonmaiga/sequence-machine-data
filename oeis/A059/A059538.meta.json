@@ -2,6 +2,7 @@
   "description": "Beatty sequence for zeta(3)/(zeta(3)-1).",
   "id": "A059538",
   "mentions": [
+    "A002117",
     "A059537"
   ],
   "tags": [

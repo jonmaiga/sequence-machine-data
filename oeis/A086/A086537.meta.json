@@ -1,5 +1,5 @@
 {
-  "description": "Beginning with 1, the smallest number such that every partial sum has a distinct prime signature.",
+  "description": "Beginning with 1, the smallest number not yet seen such that every partial sum has a distinct prime signature.",
   "id": "A086537",
   "mentions": [
     "A086538"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

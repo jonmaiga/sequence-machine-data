@@ -1,0 +1,30 @@
+{
+  "description": "Numerator of the mean infinitary abundancy index of the infinitary divisors of n.",
+  "id": "A374786",
+  "mentions": [
+    "A005117",
+    "A037445",
+    "A037992",
+    "A049417",
+    "A050376",
+    "A077609",
+    "A138302",
+    "A327574",
+    "A374777",
+    "A374778",
+    "A374783",
+    "A374784",
+    "A374787"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

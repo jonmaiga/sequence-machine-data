@@ -1,0 +1,20 @@
+{
+  "description": "The added number in A370193 which results in the stack having a new record height.",
+  "id": "A372612",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000330",
+    "A370193",
+    "A374496"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

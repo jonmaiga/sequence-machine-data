@@ -1,8 +1,12 @@
 {
-  "description": "Numbers n such that the number of divisors of Fibonacci(n), tau(Fibonacci(n)), is not a perfect power of 2.",
+  "description": "Numbers k such that the number of divisors of Fibonacci(k), tau(Fibonacci(k)), is not a perfect power of 2.",
   "id": "A119588",
   "mentions": [
-    "A023172"
+    "A000005",
+    "A000045",
+    "A023172",
+    "A063375",
+    "A162643"
   ],
   "tags": [
     "formulas",
@@ -11,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

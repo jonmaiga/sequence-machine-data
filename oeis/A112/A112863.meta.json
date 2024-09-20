@@ -1,12 +1,11 @@
 {
-  "description": "Numbers n such that (2*n)!/(2*(n!)^2)+1 is prime.",
+  "description": "Numbers k such that (2*k)!/(2*(k!)^2)+1 is prime.",
   "id": "A112863",
   "mentions": [
     "A001700",
     "A066726",
     "A112853",
     "A112855",
-    "A112859",
     "A112861",
     "A112864"
   ],
@@ -16,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

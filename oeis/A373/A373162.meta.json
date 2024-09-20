@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = denominator of Sum_{k>=0} cos(2k*Pi/3)/n^k.",
+  "id": "A373162",
+  "mentions": [
+    "A373160",
+    "A373161",
+    "A373163"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

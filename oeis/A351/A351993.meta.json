@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that, when they are written in binary and concatenated, every pair of digits starting from a(1) contain the digits 0 and 1.",
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that, when they are written in binary and concatenated, every pair of digits starting from a(1) contains the digits 0 and 1.",
   "id": "A351993",
   "mentions": [
     "A030190",

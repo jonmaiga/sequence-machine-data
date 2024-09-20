@@ -2,7 +2,10 @@
   "description": "Number of set partitions of {1,2,...,n} such that the size of the smallest block is unique.",
   "id": "A224219",
   "mentions": [
-    "A224244"
+    "A224244",
+    "A372721",
+    "A372762",
+    "A372802"
   ],
   "tags": [
     "formulas",

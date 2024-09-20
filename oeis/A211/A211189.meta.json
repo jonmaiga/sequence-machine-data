@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime divisors formed by {2} and the consecutive Pythagorean primes for the all composites k^2 + 1 between the two primes A002496(n) and A002496(n+1).",
+  "description": "Number of prime divisors formed by {2} and the consecutive Pythagorean primes for all the composites k^2 + 1 between the two primes A002496(n) and A002496(n+1).",
   "id": "A211189",
   "mentions": [
     "A002144",

@@ -1,0 +1,17 @@
+{
+  "description": "The smallest number k for which exactly n of its divisors are digitally balanced numbers in base 3 (A049354).",
+  "id": "A372146",
+  "mentions": [
+    "A049354",
+    "A357035"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

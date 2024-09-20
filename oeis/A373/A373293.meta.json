@@ -1,0 +1,17 @@
+{
+  "description": "Number of edge covers of the fan graph F_{n,3}.",
+  "id": "A373293",
+  "mentions": [
+    "A100774"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

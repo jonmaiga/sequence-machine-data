@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. F(x) satisfies F_{n}(0) = (-F_{n-1}(0) + Sum_{k=0..n-1} (F_{k}(0)*(-1)^(n-k+1)*binomial(n+1,k)))/n, with F_{0}(0) = -1, where F_{k}(x) is the k-th derivative of F(x).",
+  "id": "A373174",
+  "mentions": [
+    "A341091"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

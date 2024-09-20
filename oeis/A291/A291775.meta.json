@@ -1,7 +1,15 @@
 {
   "description": "Domination number of the n-Sierpinski carpet graph.",
   "id": "A291775",
-  "mentions": [],
+  "mentions": [
+    "A001018",
+    "A271939",
+    "A292707",
+    "A347651",
+    "A365606",
+    "A365607",
+    "A365608"
+  ],
   "tags": [
     "more",
     "nonn"

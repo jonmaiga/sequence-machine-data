@@ -1,0 +1,30 @@
+{
+  "description": "The maximum exponent in the unique factorization of n in terms of distinct terms of A115975 using the Zeckendorf representation of the exponents in the prime factorization of n; a(1) = 0.",
+  "id": "A375428",
+  "mentions": [
+    "A000045",
+    "A014417",
+    "A051903",
+    "A087172",
+    "A095691",
+    "A115975",
+    "A246655",
+    "A318465",
+    "A365552",
+    "A368105",
+    "A368781",
+    "A375429",
+    "A375430"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the absolute value of the second derivative of the digamma function at 1/4.",
+  "id": "A375771",
+  "mentions": [
+    "A020777",
+    "A282823"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

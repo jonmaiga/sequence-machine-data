@@ -1,8 +1,9 @@
 {
-  "description": "Nonprime numbers n such that q = phi(n)/(sigma(n) - n - 1) is an integer.",
+  "description": "Nonprime numbers k such that phi(k)/(sigma(k) - k - 1) is an integer.",
   "id": "A070160",
   "mentions": [
     "A000010",
+    "A000040",
     "A000203",
     "A001065",
     "A006093",

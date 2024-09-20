@@ -2,6 +2,7 @@
   "description": "Array t(n,k): row n consists of the positive integers m for which the least splitter of H(m) and H(m+1) is n, where H denotes harmonic number.",
   "id": "A227631",
   "mentions": [
+    "A002387",
     "A227629",
     "A227630"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

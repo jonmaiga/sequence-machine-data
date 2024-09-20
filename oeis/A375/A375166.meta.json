@@ -1,0 +1,20 @@
+{
+  "description": "Nonsquares congruent to {0, 1, 4, 7} modulo 9.",
+  "id": "A375166",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A056991",
+    "A056992",
+    "A070433"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

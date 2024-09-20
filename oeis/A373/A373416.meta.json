@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of A323712: sizes k of card decks that return to original order after k pile shuffles (but not earlier).",
+  "id": "A373416",
+  "mentions": [
+    "A163781",
+    "A263458",
+    "A323712"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

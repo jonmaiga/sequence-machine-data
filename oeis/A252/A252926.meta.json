@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 nonnegative integer arrays with upper left 0 and lower right n+4-6 and value increasing by 0 or 1 with every step right or down",
+  "description": "Number of n X 4 nonnegative integer arrays with upper left 0 and lower right n+4-6 and value increasing by 0 or 1 with every step right or down.",
   "id": "A252926",
   "mentions": [
     "A252930"

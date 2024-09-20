@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = gpf(a(n-3))*gpf(a(n-2)) + gpf(a(n-1)), with a(1)=a(2)=1 and a(3)=2 and where gpf(n) is the greatest prime dividing n, A006530.",
+  "description": "a(n) = gpf(a(n-3))*gpf(a(n-2)) + gpf(a(n-1)), with a(1)=a(2)=1 and a(3)=2 and where gpf(n) is the greatest prime dividing n, A006530(n).",
   "id": "A258804",
   "mentions": [
     "A006530"

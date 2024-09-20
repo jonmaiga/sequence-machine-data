@@ -1,0 +1,27 @@
+{
+  "description": "Numbers m such that m .. m+11 all have the same number of prime factors, counted with multiplicity.",
+  "id": "A374023",
+  "mentions": [
+    "A001222",
+    "A033987",
+    "A045920",
+    "A045939",
+    "A045940",
+    "A045941",
+    "A045942",
+    "A123103",
+    "A123201",
+    "A358017",
+    "A358018",
+    "A358019"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

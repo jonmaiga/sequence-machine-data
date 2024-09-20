@@ -1,5 +1,5 @@
 {
-  "description": "Number of binomial coefficients C[n,j] with j=0...n that are divisible by C[n,2].",
+  "description": "Number of binomial coefficients C(n,j) with j=0..n that are divisible by C(n,2).",
   "id": "A060567",
   "mentions": [
     "A014070",

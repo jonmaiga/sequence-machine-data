@@ -1,7 +1,10 @@
 {
-  "description": "3-n.",
+  "description": "a(n) = 3-n.",
   "id": "A022959",
-  "mentions": [],
+  "mentions": [
+    "A022958",
+    "A022995"
+  ],
   "tags": [
     "easy",
     "formulas",

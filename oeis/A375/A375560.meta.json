@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - x * log(1 + x^4/24)).",
+  "id": "A375560",
+  "mentions": [
+    "A375557"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

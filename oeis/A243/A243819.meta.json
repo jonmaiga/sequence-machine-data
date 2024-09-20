@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that every divisor greater than one of n contains the digit 0.",
+  "description": "Composite numbers n such that every divisor of n greater than one contains the digit 0.",
   "id": "A243819",
   "mentions": [
     "A062649",

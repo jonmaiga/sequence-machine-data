@@ -1,0 +1,20 @@
+{
+  "description": "Largest infinitely often occurring order of a torsion subgroup of an elliptic curve over a number field of degree n.",
+  "id": "A372549",
+  "mentions": [
+    "A372083",
+    "A372206",
+    "A372548"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

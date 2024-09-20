@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (-1)^(k+1)* log(4k+1)/(4k+1) .",
+  "id": "A373563",
+  "mentions": [
+    "A242011",
+    "A373564"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "7*8^n/9+2(-1)^n/9.",
+  "description": "a(n) = (7*8^n + 2*(-1)^n)/9.",
   "id": "A090409",
   "mentions": [
     "A007613",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "joeis"
   }
 }

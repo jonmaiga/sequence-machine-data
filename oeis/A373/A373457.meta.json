@@ -1,0 +1,15 @@
+{
+  "description": "Number of losing integer partitions of n in the impartial combinatorial game LCTR (left column, top row).",
+  "id": "A373457",
+  "mentions": [
+    "A000041"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

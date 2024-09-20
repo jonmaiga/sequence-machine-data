@@ -12,12 +12,14 @@
     "A079210"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

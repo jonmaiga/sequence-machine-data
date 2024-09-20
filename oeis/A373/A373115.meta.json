@@ -1,0 +1,17 @@
+{
+  "description": "Number weak ascent sequences of length 2n (prefixed with a zero) with exactly n weak ascents.",
+  "id": "A373115",
+  "mentions": [
+    "A357141",
+    "A369321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

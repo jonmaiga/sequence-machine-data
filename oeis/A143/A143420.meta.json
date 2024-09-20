@@ -1,16 +1,19 @@
 {
-  "description": "Row sums of triangle A143419.",
+  "description": "Row sums of triangle A373101.",
   "id": "A143420",
   "mentions": [
-    "A143419"
+    "A108958",
+    "A143418",
+    "A143419",
+    "A373101"
   ],
   "tags": [
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 7,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

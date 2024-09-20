@@ -1,5 +1,5 @@
 {
-  "description": "Palindromes obtained as the absolute difference of corresponding digits of n and its' digit reversal.",
+  "description": "Palindromes obtained as the absolute difference of corresponding digits of n and its digit reversal.",
   "id": "A113602",
   "mentions": [
     "A113603"

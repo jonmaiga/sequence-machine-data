@@ -2,7 +2,8 @@
   "description": "For n>2, a(n) > 0 is such that a(n-1)^2+4*a(n-2)*a(n) is a minimal square, a(1)=1,a(2)=3.",
   "id": "A105736",
   "mentions": [
-    "A105734",
+    "A076839",
+    "A105737",
     "A105746"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 102,
+    "source": "joeis"
   }
 }

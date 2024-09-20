@@ -1,8 +1,11 @@
 {
-  "description": "Fibonacci numbers F with 2 distinct prime divisors, and F+2 or F-2 also with 2 distinct prime divisors.",
+  "description": "Fibonacci numbers F that are squarefree semiprimes such that F+2 or F-2 is also a squarefree semiprime.",
   "id": "A206097",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A006881",
+    "A053409",
+    "A072381"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) (m >= 1, n >= 1) = number of reduced connected row convex (RCRC) constraints between an m-element set and an n-element set.",
+  "id": "A372066",
+  "mentions": [
+    "A100754",
+    "A372067",
+    "A372068",
+    "A372367"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

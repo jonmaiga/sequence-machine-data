@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(2n, n) - 2 mod n^3.",
+  "description": "a(n) = (binomial(2n, n) - 2) mod n^3.",
   "id": "A246133",
   "mentions": [
     "A000984",

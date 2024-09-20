@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that repeated application of the Pisano period eventually gives 24.",
+  "id": "A375018",
+  "mentions": [
+    "A001175"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

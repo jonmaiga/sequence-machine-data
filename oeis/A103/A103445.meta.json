@@ -1,7 +1,9 @@
 {
-  "description": "Sum of the numbers of unitary divisors of the binomial coefficients C[n,k], k=0..n.",
+  "description": "Sum of the numbers of unitary divisors of the binomial coefficients C(n,k), k=0..n.",
   "id": "A103445",
   "mentions": [
+    "A007318",
+    "A034444",
     "A103444"
   ],
   "tags": [

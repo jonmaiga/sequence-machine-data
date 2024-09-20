@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which A276085(k) is of the form 8m+4, where A276085 is the primorial base log-function.",
+  "id": "A373267",
+  "mentions": [
+    "A007814",
+    "A276085",
+    "A369002",
+    "A373138",
+    "A373266"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

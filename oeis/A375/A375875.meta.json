@@ -1,0 +1,16 @@
+{
+  "description": "Smallest n-bit Carmichael number, or 0 if no such number exists.",
+  "id": "A375875",
+  "mentions": [
+    "A002997"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

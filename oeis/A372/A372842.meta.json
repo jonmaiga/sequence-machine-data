@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of parking functions of order n for which the second spot is lucky.",
+  "id": "A372842",
+  "mentions": [
+    "A000272",
+    "A372843",
+    "A372844",
+    "A372845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

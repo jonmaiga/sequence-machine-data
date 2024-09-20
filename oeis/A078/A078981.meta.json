@@ -1,7 +1,9 @@
 {
-  "description": "Denominators of convergents to sinh(1).",
+  "description": "Denominators of continued fraction convergents to sinh(1).",
   "id": "A078981",
   "mentions": [
+    "A068139",
+    "A073742",
     "A078980"
   ],
   "tags": [
@@ -9,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 28,
     "source": "oeis-entry"
   }

@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = (exp(x / (1 - A(x))^2) - 1) / (1 - A(x)).",
+  "id": "A376037",
+  "mentions": [
+    "A085527",
+    "A371329",
+    "A371371",
+    "A376036"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

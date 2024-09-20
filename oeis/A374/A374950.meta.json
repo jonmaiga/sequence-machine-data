@@ -1,0 +1,15 @@
+{
+  "description": "Sequence starting with 2, where the next term is the lowest new integer which is greater than 1 and coprime with the sum of all previous terms.",
+  "id": "A374950",
+  "mentions": [
+    "A084385"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

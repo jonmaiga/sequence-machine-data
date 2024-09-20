@@ -1,0 +1,19 @@
+{
+  "description": "Binary expansion of the square root of the golden ratio.",
+  "id": "A375678",
+  "mentions": [
+    "A068432",
+    "A139339"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

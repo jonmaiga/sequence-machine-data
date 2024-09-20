@@ -1,8 +1,22 @@
 {
-  "description": "Sum{T(n-k,k)}, 0<=k<=[ n/2 ], T given by A026637.",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} A026637(n-k, k).",
   "id": "A026647",
   "mentions": [
-    "A026637"
+    "A026637",
+    "A026638",
+    "A026639",
+    "A026640",
+    "A026641",
+    "A026642",
+    "A026643",
+    "A026644",
+    "A026645",
+    "A026646",
+    "A026966",
+    "A026967",
+    "A026968",
+    "A026969",
+    "A026970"
   ],
   "tags": [
     "formulas",
@@ -11,6 +25,6 @@
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

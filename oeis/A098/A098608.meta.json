@@ -1,5 +1,5 @@
 {
-  "description": "100^n.",
+  "description": "a(n) = 100^n.",
   "id": "A098608",
   "mentions": [
     "A011557",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 16,
     "source": "joeis"
   }
 }

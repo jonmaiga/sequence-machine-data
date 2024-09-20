@@ -2,6 +2,7 @@
   "description": "Largest k such that 1!*2!*3!*...*k! divides n!.",
   "id": "A074198",
   "mentions": [
+    "A000178",
     "A074199",
     "A088302"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 82,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

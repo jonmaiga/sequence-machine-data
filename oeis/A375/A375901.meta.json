@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the triple integral of {x/y}{y/z}{z/x} over the unit cube.",
+  "id": "A375901",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A183699"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

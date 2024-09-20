@@ -1,5 +1,5 @@
 {
-  "description": "Integers of the form p*q*r in A120806: x+d+1 is prime for all divisors d of x, where p, q and r are distinct odd primes. See A007304.",
+  "description": "Integers x of the form p*q*r in A120806: x+d+1 is prime for all divisors d of x, where p, q and r are distinct odd primes. See A007304.",
   "id": "A120810",
   "mentions": [
     "A007304",
@@ -9,12 +9,11 @@
     "A120809"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

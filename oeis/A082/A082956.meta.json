@@ -1,5 +1,5 @@
 {
-  "description": "Difference between C(n) and the first prime after C(n), where C(n) is A049614, product of composite numbers less than or equal to n.",
+  "description": "Difference between C(n) and the first prime after C(n), where C(n) = A049614(n).",
   "id": "A082956",
   "mentions": [
     "A049614"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

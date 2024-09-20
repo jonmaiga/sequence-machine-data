@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of zeta(Gamma^2).",
   "id": "A091558",
-  "mentions": [],
+  "mentions": [
+    "A155969",
+    "A251734"
+  ],
   "tags": [
     "cons",
     "nonn"

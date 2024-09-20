@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers whose base-2 representation is a \"nested\" palindrome.",
+  "id": "A373581",
+  "mentions": [
+    "A016041",
+    "A240601",
+    "A344550",
+    "A373941"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

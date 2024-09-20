@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime in which the n-th significant digit is a 2.",
+  "description": "Smallest n-digit prime starting with a 2.",
   "id": "A069590",
   "mentions": [
     "A069588",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "joeis"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

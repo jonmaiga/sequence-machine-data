@@ -2,6 +2,7 @@
   "description": "Absolute Euler pseudoprimes: odd composite numbers n such that a^((n-1)/2) == +-1 (mod n) for every a coprime to n.",
   "id": "A033181",
   "mentions": [
+    "A002322",
     "A002997",
     "A006970",
     "A047713",

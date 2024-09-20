@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (1 - cos(Pi/k^2)).",
+  "id": "A372838",
+  "mentions": [
+    "A372837"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Diagonal sums of number triangle A176331.",
   "id": "A176334",
   "mentions": [
+    "A001622",
     "A176331",
     "A176332",
     "A176335"

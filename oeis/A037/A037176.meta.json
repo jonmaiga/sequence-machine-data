@@ -1,15 +1,17 @@
 {
-  "description": "Numbers n such that us(n) = number of primes <= n, where usigma(n) = sum of unitary divisors of n (A034448), us(n) is usigma(n)-n.",
+  "description": "Numbers k such that us(k) = primepi(k), where us(k) is the sum of the aliquot unitary divisors of k (A034460), and primepi(k) is the number of primes <= k (A000720).",
   "id": "A037176",
   "mentions": [
-    "A034448"
+    "A000720",
+    "A034448",
+    "A034460"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

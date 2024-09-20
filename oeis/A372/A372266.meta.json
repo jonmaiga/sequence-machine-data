@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor((2*n - 3 + sqrt(1 + 8*(n - 2)!))/2).",
+  "id": "A372266",
+  "mentions": [
+    "A370888",
+    "A371217",
+    "A372255",
+    "A372256",
+    "A372264",
+    "A372265"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

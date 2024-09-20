@@ -1,19 +1,16 @@
 {
-  "description": "Gray code applied to Pascal's triangle: T(n,m)=GrayCode(binomial(n,m)).",
+  "description": "Gray code applied to Pascal's triangle: T(n,k) = GrayCode(binomial(n, k)).",
   "id": "A143214",
   "mentions": [
-    "A003188",
-    "A060187",
-    "A123125"
+    "A143213"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

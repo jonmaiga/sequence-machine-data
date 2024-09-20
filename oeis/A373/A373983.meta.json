@@ -1,0 +1,29 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) = A246277(A324886(i)) = A246277(A324886(j)) and A278226(A328768(i)) = A278226(A328768(j)), for all i, j >= 1.",
+  "id": "A373983",
+  "mentions": [
+    "A002110",
+    "A046523",
+    "A108951",
+    "A246277",
+    "A276086",
+    "A278226",
+    "A305800",
+    "A324886",
+    "A328768",
+    "A328771",
+    "A329045",
+    "A329345",
+    "A329620",
+    "A373982"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

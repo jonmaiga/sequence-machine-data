@@ -1,0 +1,20 @@
+{
+  "description": "Inverse binomial transform of A135318.",
+  "id": "A373392",
+  "mentions": [
+    "A000129",
+    "A009545",
+    "A135318",
+    "A373358"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

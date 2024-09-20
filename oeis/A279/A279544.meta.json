@@ -1,5 +1,5 @@
 {
-  "description": "Number of length n inversion sequences avoiding the patterns 000, 010, 110, 120, and 210.",
+  "description": "Number of length n inversion sequences avoiding the patterns 000, 010, 100, 110, 120, and 210.",
   "id": "A279544",
   "mentions": [
     "A000085",

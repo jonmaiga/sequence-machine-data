@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number m such that n followed by m sevens yields a prime or -1 if no solution exists or has been found for n.",
+  "description": "Smallest number m such that n with by m sevens appended yields a prime, or -1 if no such m exists.",
   "id": "A090464",
   "mentions": [
     "A083747",

@@ -1,0 +1,19 @@
+{
+  "description": "Cardinality of the largest subset of {1,...,n} such that no three distinct elements of this subset multiply to a square.",
+  "id": "A372306",
+  "mentions": [
+    "A013928",
+    "A028391",
+    "A373114"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

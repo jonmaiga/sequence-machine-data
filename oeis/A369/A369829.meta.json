@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0; for n > 0, if n appears in the sequence then a(n) = a(n-1) - sum of indexes where n appeared if that is nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + sum of indexes. Otherwise a(n) = a(n-1) - n if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + n.",
+  "id": "A369829",
+  "mentions": [
+    "A005132",
+    "A340593",
+    "A362373"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

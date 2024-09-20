@@ -1,5 +1,5 @@
 {
-  "description": "Array listed by rows: row n is all numbers k such that k^2 + (sum of n-th powers of the digits of k^2) is a square.",
+  "description": "Array read by rows: row n consists of the numbers k such that k^2 + (sum of n-th powers of the digits of k^2) is a square.",
   "id": "A360424",
   "mentions": [
     "A360422"

@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 5 0..n arrays with each partial sum starting from the beginning no more than two standard deviations from its mean",
+  "description": "Number of length 5 0..n arrays with each partial sum starting from the beginning no more than two standard deviations from its mean.",
   "id": "A244836",
   "mentions": [
     "A244832"

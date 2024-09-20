@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factors of 5-full numbers.",
+  "description": "Smallest prime factors of 5-full numbers, a(1)=1.",
   "id": "A258570",
   "mentions": [
     "A000040",
@@ -12,6 +12,7 @@
     "A258602"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

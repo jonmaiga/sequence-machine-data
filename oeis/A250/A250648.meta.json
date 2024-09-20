@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 4+1 0..n arrays with the sum of the maximum of each adjacent pair multiplied by some arrangement of +-1 equal to zero",
+  "description": "Number of length 4+1 0..n arrays with the sum of the maximum of each adjacent pair multiplied by some arrangement of +-1 equal to zero.",
   "id": "A250648",
   "mentions": [
     "A250646"

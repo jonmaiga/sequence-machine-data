@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of the expected height of a random binary search tree (BST) with n elements.",
+  "id": "A374811",
+  "mentions": [
+    "A195582",
+    "A195583"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

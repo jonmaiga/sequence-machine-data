@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n <= d(n)^2, where d() = number of divisors (A000005).",
+  "description": "Numbers k such that k <= d(k)^2, where d() = number of divisors (A000005).",
   "id": "A035033",
   "mentions": [
     "A000005",

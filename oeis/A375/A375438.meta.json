@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = x + x^2 + (A(x)^3 + 2*A(x^3))/3.",
+  "id": "A375438",
+  "mentions": [
+    "A000625",
+    "A357538",
+    "A375439"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/((1 - x - x^3)^2 - 4*x^4).",
+  "id": "A375278",
+  "mentions": [
+    "A182890",
+    "A246840",
+    "A375279",
+    "A375283",
+    "A375285"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

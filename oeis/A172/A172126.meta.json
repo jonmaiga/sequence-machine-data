@@ -1,5 +1,5 @@
 {
-  "description": "Members of A181666 of form 3k+1.",
+  "description": "Terms of A181666 of the form 3*k+1.",
   "id": "A172126",
   "mentions": [
     "A181666"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

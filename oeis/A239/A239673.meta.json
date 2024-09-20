@@ -9,12 +9,13 @@
     "A239674"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "joeis"
+    "size": 20,
+    "source": "oeis-entry"
   }
 }

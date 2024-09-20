@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least term t of A005836 such that n - t also belongs to A005836.",
+  "id": "A374362",
+  "mentions": [
+    "A005836",
+    "A289814",
+    "A374361",
+    "A374363"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

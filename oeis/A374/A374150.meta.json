@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the (2^n)-th prime-indexed prime.",
+  "id": "A374150",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A033844",
+    "A092252",
+    "A374151"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

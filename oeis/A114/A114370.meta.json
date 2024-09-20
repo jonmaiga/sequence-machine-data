@@ -1,5 +1,5 @@
 {
-  "description": "Sum of numbers from prime p to nextprime(p)-1 is a repdigit.",
+  "description": "Primes p such that the sum of numbers from prime p to nextprime(p)-1 is a repdigit.",
   "id": "A114370",
   "mentions": [
     "A010785",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

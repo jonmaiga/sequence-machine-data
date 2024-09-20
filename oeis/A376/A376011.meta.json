@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of solutions (x_1, x_2, ..., x_n) to Product_{i=1..n} (1 + 1/x_i) = 3.",
+  "id": "A376011",
+  "mentions": [
+    "A085098",
+    "A118086",
+    "A277608"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

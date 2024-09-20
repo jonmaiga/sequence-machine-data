@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2. For n > 2, let i = a(n-2), j = a(n-1). Then a(n) is least novel k such that A007947(i*j*k) is the smallest possible primorial number, subject to no more than two consecutive terms having the same number of distinct prime divisors.",
+  "id": "A373326",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A003586",
+    "A007947"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

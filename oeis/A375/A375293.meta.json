@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/sqrt((1 - x + x^4)^2 + 4*x^5).",
+  "id": "A375293",
+  "mentions": [
+    "A246883",
+    "A375021",
+    "A375292"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

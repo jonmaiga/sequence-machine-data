@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least positive integer k such that there are n partitions k = x + y + z of positive integers such that x * y * z is a perfect cube or -1 if no such positive integer exists.",
+  "id": "A375618",
+  "mentions": [
+    "A375580"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p of a prime triple (p,p+2,p+6) with property that concatenation p//(p+2)//(p+6) is prime.",
+  "description": "Primes p of a prime triple (p,p+2,p+6) such that the concatenation p//(p+2)//(p+6) is prime.",
   "id": "A174858",
   "mentions": [
     "A022004"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

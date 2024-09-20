@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=0..n} C(n,k)*C(n+k,k)^3.",
+  "description": "a(n) = Sum_{k=0..n} C(n,k)*C(n+k,k)^3.",
   "id": "A218693",
   "mentions": [
     "A001850",

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (1 + 3*x) / ((1 - 2*x)*sqrt(1 - 4*x)).",
+  "id": "A372611",
+  "mentions": [
+    "A000984",
+    "A002144",
+    "A002145",
+    "A028322",
+    "A029759",
+    "A082590",
+    "A126966",
+    "A188622",
+    "A372239",
+    "A372420"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

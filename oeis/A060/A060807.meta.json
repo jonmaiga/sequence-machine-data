@@ -1,17 +1,20 @@
 {
-  "description": "Numerators of ordinary continued fraction for 2*zeta(3).",
+  "description": "Numerators of ordinary continued fraction convergents for 2*zeta(3).",
   "id": "A060807",
   "mentions": [
     "A060804",
+    "A060805",
+    "A060806",
     "A060808"
   ],
   "tags": [
     "cofr",
     "easy",
+    "frac",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 24,
     "source": "joeis"
   }

@@ -1,10 +1,11 @@
 {
-  "description": "Start with 1 and 2; if number is even join with last number and divide by 2, if it is odd add 1 and divide by 2.",
+  "description": "Start with 1 and 2; if number is even concatenate with last number and divide by 2, if it is odd add 1 and divide by 2.",
   "id": "A116534",
   "mentions": [
     "A131059"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],

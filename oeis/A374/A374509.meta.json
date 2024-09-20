@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - 2*x + 5*x^2)^(7/2).",
+  "id": "A374509",
+  "mentions": [
+    "A098331",
+    "A102840",
+    "A374506",
+    "A374508"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Product_{p in PF(n) union PF(k)} p, where PF(a) is the set of the prime factors of a.",
+  "id": "A374436",
+  "mentions": [
+    "A007947",
+    "A099985",
+    "A374433",
+    "A374434",
+    "A374435"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

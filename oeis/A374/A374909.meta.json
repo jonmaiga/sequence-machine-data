@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers k which can be written as k = r+s where r and s are elements of the Collatz trajectory of k.",
+  "id": "A374909",
+  "mentions": [
+    "A005408",
+    "A374847"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

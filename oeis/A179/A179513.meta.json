@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a( n) = prime(a(n-1)) + 3a(n-1).",
+  "description": "a(1) = 1, a(n) = prime(a(n-1)) + 3*a(n-1).",
   "id": "A179513",
   "mentions": [
     "A007097",

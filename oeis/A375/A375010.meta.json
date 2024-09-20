@@ -1,0 +1,14 @@
+{
+  "description": "a(n) = prime(n-1) - floor((prime(n-2) + prime(n-1) + prime(n)) / 3).",
+  "id": "A375010",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

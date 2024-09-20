@@ -1,0 +1,16 @@
+{
+  "description": "Begin A060403 with n instead of 1; a(n) is the position in the new sequence at which it generates the same numbers as A060403 or a(n)=0 if it doesn't.",
+  "id": "A375119",
+  "mentions": [
+    "A060403"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

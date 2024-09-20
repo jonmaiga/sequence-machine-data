@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of facially complete 2-connected planar embeddings.",
+  "id": "A375617",
+  "mentions": [
+    "A001004",
+    "A001399",
+    "A056342"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,21 +1,21 @@
 {
-  "description": "Number of set partitions of n(n-1)/2.",
+  "description": "Number of set partitions of [n*(n-1)/2].",
   "id": "A137736",
   "mentions": [
     "A000110",
     "A006125",
-    "A066555",
     "A066655",
     "A135084",
-    "A135085"
+    "A135085",
+    "A161680"
   ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
+    "offset": 0,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

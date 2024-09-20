@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which A328846(k) is even, where A328846 is the second Fibonacci based variant of arithmetic derivative.",
+  "id": "A374049",
+  "mentions": [
+    "A328846",
+    "A374046",
+    "A374048",
+    "A374050"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

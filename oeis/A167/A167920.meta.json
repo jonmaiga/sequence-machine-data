@@ -1,5 +1,5 @@
 {
-  "description": "Smallest single or isolated number==1(mod n).",
+  "description": "Smallest single or isolated number == 1 (mod n).",
   "id": "A167920",
   "mentions": [
     "A034694",

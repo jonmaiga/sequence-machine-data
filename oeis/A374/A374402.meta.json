@@ -1,0 +1,21 @@
+{
+  "description": "Least number that is the lesser of two consecutive primes p and q whose binary expansions have the same length and agree at exactly n digit positions, or -1 if no such prime pair exists.",
+  "id": "A374402",
+  "mentions": [
+    "A000040",
+    "A006879",
+    "A205510",
+    "A319840",
+    "A339080",
+    "A374176"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

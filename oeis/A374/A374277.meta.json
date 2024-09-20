@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k divisible by exactly one of the prime factors of 30.",
+  "id": "A374277",
+  "mentions": [
+    "A047228",
+    "A051037",
+    "A306044"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "description": "Let k be largest number such that k^2 divides n! and let m be largest number such that m! divides k; a(n) = k/m!.",
+  "description": "Let k be the largest number such that k^2 divides n! and let m be the largest number such that m!^2 divides n!; a(n) = k/m!.",
   "id": "A056044",
   "mentions": [
-    "A000142",
     "A000188",
     "A001057",
     "A001405",
-    "A055772"
+    "A055772",
+    "A056038"
   ],
   "tags": [
     "formulas",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 85,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

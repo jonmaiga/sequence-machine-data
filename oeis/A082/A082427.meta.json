@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n)=n*(a(n-1)+a(n-2)+...+a(2)+a(1)) - 2.",
+  "description": "a(1)=1, a(n) = n*(Sum_{k=1..n-1} a(k)) - 2.",
   "id": "A082427",
   "mentions": [
     "A007808",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 20,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
   }
 }

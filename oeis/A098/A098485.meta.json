@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(m,k) read by rows, where T(m,k) is the number of ways in which 1<=k<=m positions can be picked in an m X m square array such that their adjacency graph consist of a single component. Two positions (s,t),(u,v) are considered as adjacent, if max(abs(s-u),abs(t-v))<=1.",
+  "description": "Triangle T(m,k) read by rows, where T(m,k) is the number of ways in which 1 <= k <= m positions can be picked in an m X m square array such that their adjacency graph consists of a single component. Two positions (s,t), (u,v) are considered as adjacent if max(abs(s-u), abs(t-v)) <= 1.",
   "id": "A098485",
   "mentions": [
     "A090642",

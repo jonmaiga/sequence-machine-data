@@ -1,0 +1,24 @@
+{
+  "description": "Size of the group Q_7*/(Q_7*)^n, where Q_7 is the field of 7-adic numbers.",
+  "id": "A370567",
+  "mentions": [
+    "A001620",
+    "A370050",
+    "A370067",
+    "A370182",
+    "A370564",
+    "A370565",
+    "A370566"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

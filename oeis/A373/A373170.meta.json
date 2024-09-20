@@ -1,0 +1,20 @@
+{
+  "description": "Main diagonal of A373169.",
+  "id": "A373170",
+  "mentions": [
+    "A004719",
+    "A064808",
+    "A373169"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

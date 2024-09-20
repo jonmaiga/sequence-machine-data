@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of minimum dominating sets in the stacked prism graph C_m X P_n.",
+  "id": "A375566",
+  "mentions": [
+    "A286514",
+    "A347538",
+    "A347558",
+    "A347633",
+    "A347634",
+    "A350820",
+    "A375569",
+    "A375603"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

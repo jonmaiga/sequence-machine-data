@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer compositions of n that match the dashed pattern 3-12.",
+  "id": "A375406",
+  "mentions": [
+    "A003242",
+    "A011782",
+    "A056823",
+    "A106356",
+    "A188900",
+    "A188920",
+    "A189076",
+    "A189077",
+    "A238130",
+    "A238279",
+    "A238343",
+    "A333213",
+    "A333489",
+    "A333755",
+    "A335479",
+    "A335514",
+    "A335548",
+    "A373949",
+    "A373951",
+    "A374629",
+    "A374637",
+    "A374679",
+    "A374740",
+    "A374748"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

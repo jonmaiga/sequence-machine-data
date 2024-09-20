@@ -1,0 +1,18 @@
+{
+  "description": "The values of A374188, seen as an ordered set.",
+  "id": "A374189",
+  "mentions": [
+    "A372728",
+    "A374157",
+    "A374188"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n is the periodic part of the Leonardo numbers (A001595) modulo n.",
+  "id": "A376081",
+  "mentions": [
+    "A001595",
+    "A161553",
+    "A376082",
+    "A376083"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

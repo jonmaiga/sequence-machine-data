@@ -1,0 +1,18 @@
+{
+  "description": "Alternating sum phi(1) - phi(2) + phi(3) - phi(4) + ... + ((-1)^(10^n+1))*phi(10^n).",
+  "id": "A375020",
+  "mentions": [
+    "A002088",
+    "A049690",
+    "A068773"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

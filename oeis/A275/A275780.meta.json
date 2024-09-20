@@ -8,6 +8,7 @@
     "A038041",
     "A275781",
     "A278339",
+    "A300335",
     "A321469",
     "A326512",
     "A326513",
@@ -16,12 +17,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

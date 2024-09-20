@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (5/96)*Pi^2 - (log(2)^2)/8.",
+  "id": "A374677",
+  "mentions": [
+    "A096615",
+    "A253191",
+    "A367053"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

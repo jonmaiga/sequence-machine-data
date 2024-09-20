@@ -2,6 +2,7 @@
   "description": "Number of ways to express n as k+l*m, with k, l, m all in the range [0..n].",
   "id": "A106633",
   "mentions": [
+    "A005408",
     "A006218",
     "A010766",
     "A106634",
@@ -10,11 +11,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 57,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

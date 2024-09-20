@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the second derivative P''(2) of the prime zeta function at 2.",
+  "id": "A373809",
+  "mentions": [
+    "A085548",
+    "A136271"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if n can be represented as a sum of 2 nonnegative cubes, otherwise 0.",
+  "id": "A373972",
+  "mentions": [
+    "A004999",
+    "A010057",
+    "A025446",
+    "A373971"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

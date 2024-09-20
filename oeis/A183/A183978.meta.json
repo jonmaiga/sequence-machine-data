@@ -2,12 +2,14 @@
   "description": "1/4 the number of (n+1) X 2 binary arrays with all 2 X 2 subblock sums the same.",
   "id": "A183978",
   "mentions": [
+    "A029744",
     "A051032",
     "A183986",
     "A274230",
     "A274636"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,15 +1,28 @@
 {
-  "description": "a(n) = T(n,0) + T(n,1) + ... + T(n,[ n/2 ]), T given by A026637.",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} A026637(n, k).",
   "id": "A026645",
   "mentions": [
-    "A026637"
+    "A026637",
+    "A026638",
+    "A026639",
+    "A026640",
+    "A026642",
+    "A026643",
+    "A026644",
+    "A026646",
+    "A026647",
+    "A026966",
+    "A026967",
+    "A026968",
+    "A026969",
+    "A026970"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
-    "source": "joeis"
+    "size": 36,
+    "source": "oeis-bfile"
   }
 }

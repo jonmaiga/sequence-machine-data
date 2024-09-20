@@ -2,6 +2,7 @@
   "description": "Number of primitive polynomials of degree n over GF(2).",
   "id": "A011260",
   "mentions": [
+    "A000010",
     "A000020",
     "A001037",
     "A027695",

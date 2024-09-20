@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest number k in the sorted sequence S(q) = {k : rad(k) = q}, q = A120944(n), such that tau(k) - A008479(k) is not positive, where rad = A007947 and tau = A000005.",
+  "id": "A373737",
+  "mentions": [
+    "A000005",
+    "A006530",
+    "A007947",
+    "A008479",
+    "A033845",
+    "A120944",
+    "A126706",
+    "A143207",
+    "A162306",
+    "A372720"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

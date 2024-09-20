@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x^2 * (exp(x*A(x)) - 1)).",
+  "id": "A375827",
+  "mentions": [
+    "A030019",
+    "A349560",
+    "A375826"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

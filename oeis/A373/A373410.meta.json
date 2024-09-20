@@ -1,0 +1,38 @@
+{
+  "description": "Minimum of the n-th maximal antirun of nonsquarefree numbers differing by more than one.",
+  "id": "A373410",
+  "mentions": [
+    "A005117",
+    "A005381",
+    "A006512",
+    "A013929",
+    "A049094",
+    "A053806",
+    "A061399",
+    "A068781",
+    "A076259",
+    "A077641",
+    "A077643",
+    "A078147",
+    "A112926",
+    "A143658",
+    "A294242",
+    "A350842",
+    "A372683",
+    "A372684",
+    "A373125",
+    "A373403",
+    "A373408",
+    "A373409",
+    "A373412"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

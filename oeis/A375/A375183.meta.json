@@ -1,0 +1,19 @@
+{
+  "description": "In the binary expansion of n, complement bits at even positions and to the right of a 1 (the most significant bit corresponding to position 1).",
+  "id": "A375183",
+  "mentions": [
+    "A063946",
+    "A165199",
+    "A375184"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

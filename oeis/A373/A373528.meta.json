@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers k such that k, k+2 and k+4 all have at least two divisors with the same value of the Euler totient function (A000010).",
+  "id": "A373528",
+  "mentions": [
+    "A000010",
+    "A102190",
+    "A359563",
+    "A373527"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

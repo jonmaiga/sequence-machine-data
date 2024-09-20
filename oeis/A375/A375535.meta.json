@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = n - A075860(n).",
+  "id": "A375535",
+  "mentions": [
+    "A075860"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

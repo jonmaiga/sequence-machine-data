@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (10^n*2 - 11)/9.",
   "id": "A165402",
-  "mentions": [],
+  "mentions": [
+    "A084832"
+  ],
   "tags": [
     "easy",
     "formulas",

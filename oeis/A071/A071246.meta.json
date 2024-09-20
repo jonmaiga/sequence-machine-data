@@ -1,7 +1,11 @@
 {
   "description": "a(n) = n*(n - 1)*(2*n^2 + n + 2)/6.",
   "id": "A071246",
-  "mentions": [],
+  "mentions": [
+    "A071239",
+    "A071244",
+    "A071245"
+  ],
   "tags": [
     "easy",
     "formulas",

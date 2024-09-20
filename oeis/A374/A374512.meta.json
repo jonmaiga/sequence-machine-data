@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to tile a 3 X n board with 2 X 2 and 3 X 3 staircase tiles.",
+  "id": "A374512",
+  "mentions": [
+    "A002605",
+    "A108485",
+    "A127864"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

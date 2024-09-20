@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the iterates of the phi(x) map from n to 1, where phi(x) is Euler's totient function (A000010).",
+  "id": "A375478",
+  "mentions": [
+    "A000010",
+    "A049108",
+    "A053478",
+    "A246700"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

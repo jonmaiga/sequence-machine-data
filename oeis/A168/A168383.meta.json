@@ -1,7 +1,12 @@
 {
-  "description": "Numbers expressible as the sum of a prime and a Fibonacci number in only one way such that both numbers have the same number of decimal digits.",
+  "description": "Numbers expressible as the sum of a prime and a Fibonacci number in only one way, and such that the prime and Fibonacci number have the same number of decimal digits.",
   "id": "A168383",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A132144",
+    "A375642",
+    "A375643"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

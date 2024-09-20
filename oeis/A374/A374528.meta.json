@@ -1,0 +1,17 @@
+{
+  "description": "Conjectured number of unit squares setting a new density record when packed into the smallest possible enclosing circle.",
+  "id": "A374528",
+  "mentions": [
+    "A124484"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

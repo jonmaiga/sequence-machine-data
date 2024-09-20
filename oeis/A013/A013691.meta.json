@@ -1,13 +1,19 @@
 {
   "description": "Continued fraction for zeta(15).",
   "id": "A013691",
-  "mentions": [],
+  "mentions": [
+    "A013631",
+    "A013673",
+    "A013679",
+    "A013680",
+    "A013696"
+  ],
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 76,
     "source": "joeis"
   }

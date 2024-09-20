@@ -1,0 +1,18 @@
+{
+  "description": "Odd terms in A245214.",
+  "id": "A374780",
+  "mentions": [
+    "A005231",
+    "A245214",
+    "A374777",
+    "A374778"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

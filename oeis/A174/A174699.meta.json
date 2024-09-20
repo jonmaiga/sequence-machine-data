@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: R(n,k)= 2^(2n) mod (2k+1).",
+  "description": "Triangle read by rows: T(n,k) = 2^(2n) mod (2k+1).",
   "id": "A174699",
   "mentions": [
     "A005408",

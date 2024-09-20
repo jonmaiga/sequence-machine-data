@@ -1,13 +1,16 @@
 {
-  "description": "Primes such that p and p^3 have same digits.",
+  "description": "Primes p such that p and p^3 have the same set of digits.",
   "id": "A030092",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A029795"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 24,
     "source": "joeis"
   }

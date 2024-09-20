@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Muder's 1993 upper bound for the density of packing of unit spheres in the Euclidean 3-space.",
+  "id": "A374956",
+  "mentions": [
+    "A374772",
+    "A374837",
+    "A374955"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

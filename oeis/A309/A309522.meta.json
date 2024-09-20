@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Blasius numbers, square array read by ascending diagonals, A(n, k) for n, k >= 0.",
+  "description": "Generalized Blasius numbers, square array read by ascending antidiagonals, A(n, k) for n, k >= 0.",
   "id": "A309522",
   "mentions": [
     "A000108",

@@ -1,5 +1,5 @@
 {
-  "description": "Write 1,2,... in clockwise spiral; sequence gives numbers on positive x axis.",
+  "description": "Write 1,2,... in a clockwise spiral; sequence gives numbers on positive x axis.",
   "id": "A033951",
   "mentions": [
     "A000217",

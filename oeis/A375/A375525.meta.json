@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = numerator of Sum_{i=1..n} 1/A031216(i).",
+  "id": "A375525",
+  "mentions": [
+    "A031216",
+    "A375526"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

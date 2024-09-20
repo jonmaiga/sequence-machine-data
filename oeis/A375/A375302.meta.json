@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the rank of row n of A375301 in a lexicographic permutation of [1, ..., n].",
+  "id": "A375302",
+  "mentions": [
+    "A060117",
+    "A375301"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "a(n) = Sum_{k=1..n} k^(2*n-1) * k! * StirlingS2(n,k).",
+  "description": "a(n) = Sum_{k=1..n} k^(2*n-1) * k! * Stirling2(n,k).",
   "id": "A242228",
   "mentions": [
+    "A000629",
     "A220179",
-    "A229260"
+    "A229260",
+    "A244585"
   ],
   "tags": [
     "easy",

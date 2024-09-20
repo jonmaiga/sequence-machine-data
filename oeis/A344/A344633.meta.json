@@ -1,5 +1,5 @@
 {
-  "description": "Length k of k-digit integers of the form 1, 12, 123, 1234, ... (A057137) which are divisible by k.",
+  "description": "Lengths k of k-digit integers of the form 1, 12, 123, 1234, ... (A057137) which are divisible by k.",
   "id": "A344633",
   "mentions": [
     "A057137"

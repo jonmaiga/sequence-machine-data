@@ -1,5 +1,5 @@
 {
-  "description": "Primes such that p(n)-p(n-1)+1 is not prime",
+  "description": "Primes such that prime(k)-prime(k-1)+1 is not prime.",
   "id": "A161367",
   "mentions": [
     "A000040",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

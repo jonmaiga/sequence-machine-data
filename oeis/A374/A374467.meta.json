@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are products of an odd number of primes and the total number of 1-bits in the exponents of their prime factorization n is odd.",
+  "id": "A374467",
+  "mentions": [
+    "A000028",
+    "A001222",
+    "A026424",
+    "A064547",
+    "A374466",
+    "A374595"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

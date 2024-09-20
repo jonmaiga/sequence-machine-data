@@ -2,7 +2,8 @@
   "description": "Maximum absolute value of determinant of n X n (1,-1)-Toeplitz matrix.",
   "id": "A215724",
   "mentions": [
-    "A086432"
+    "A086432",
+    "A215723"
   ],
   "tags": [
     "hard",

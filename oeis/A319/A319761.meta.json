@@ -2,7 +2,8 @@
   "description": "a(n) = Product_{i=1..n} i^s(n,i), where s is an unsigned Stirling number of the 1st kind.",
   "id": "A319761",
   "mentions": [
-    "A132393"
+    "A132393",
+    "A373796"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 6,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

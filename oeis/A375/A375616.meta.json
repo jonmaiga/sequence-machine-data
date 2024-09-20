@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of lucky cars in all parking functions of order n.",
+  "id": "A375616",
+  "mentions": [
+    "A370832",
+    "A374756"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

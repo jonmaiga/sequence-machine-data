@@ -2,6 +2,7 @@
   "description": "Numbers of the form x*(x+1) * y*(y+1) (\"bipronics\") with x and y nonnegative integers.",
   "id": "A072389",
   "mentions": [
+    "A003056",
     "A053990",
     "A085780"
   ],

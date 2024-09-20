@@ -1,11 +1,13 @@
 {
-  "description": "Number of primes dividing p+1 as p runs through the primes.",
+  "description": "Number of distinct primes dividing p+1 as p runs through the primes.",
   "id": "A008335",
   "mentions": [
     "A001221",
-    "A008864"
+    "A008864",
+    "A023514"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

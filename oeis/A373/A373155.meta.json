@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is a non-multiple of 3 whose 2-adic valuation is even, otherwise 0.",
+  "id": "A373155",
+  "mentions": [
+    "A007814",
+    "A011655",
+    "A035263",
+    "A084087",
+    "A084091"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

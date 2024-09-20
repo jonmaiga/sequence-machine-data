@@ -2,7 +2,6 @@
   "description": "Primes resulting from subtracting primes from 10^n in order (see Comments for precise definition).",
   "id": "A145985",
   "mentions": [
-    "A006881",
     "A068811",
     "A358310",
     "A359120",

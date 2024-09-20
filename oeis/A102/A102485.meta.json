@@ -2,6 +2,7 @@
   "description": "a(n) = 5*3^n - 4*2^n.",
   "id": "A102485",
   "mentions": [
+    "A001047",
     "A217764"
   ],
   "tags": [
