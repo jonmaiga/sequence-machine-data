@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 2^(n+1) - n - 2 is prime.",
+  "description": "Numbers k such that 2^(k+1) - k - 2 is prime.",
   "id": "A063791",
   "mentions": [
     "A099439"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

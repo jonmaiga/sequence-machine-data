@@ -1,10 +1,13 @@
 {
-  "description": "A polynomial based symmetrical sequence: p(x,n)=If[n == 0, 1, (x + 1)^n + 2^(n - 3)*Sum[(2^(m - 1) +n*m - n + 1)*x^m*(1 + x^(n - 2*m)), {m, 1, n - 1}].",
+  "description": "Triangle read by rows: row n is the expansion of p(x,n)=If[n == 0, 1, (x + 1)^n + 2^(n - 3)*Sum[(2^(m - 1) +n*m - n + 1)*x^m*(1 + x^(n - 2*m)), {m, 1, n - 1}].",
   "id": "A146967",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
-    "nonn"
+    "less",
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 0,

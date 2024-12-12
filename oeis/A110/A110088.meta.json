@@ -1,5 +1,5 @@
 {
-  "description": "tau(n)^omega(n), where tau=A000005 and omega=A001221.",
+  "description": "a(n) = tau(n)^omega(n), where tau = A000005 and omega = A001221.",
   "id": "A110088",
   "mentions": [
     "A000005",
@@ -10,6 +10,8 @@
     "A240960"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

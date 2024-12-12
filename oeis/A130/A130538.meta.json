@@ -1,15 +1,16 @@
 {
-  "description": "a(n) = exponent x of n needed to obtain A130537(n)= n^(a(n)) + ((n+1)^(a(n)+1)).",
+  "description": "a(n) = exponent x of n needed to obtain A130537(n) = n^(a(n)) + (n+1)^(a(n)+1).",
   "id": "A130538",
   "mentions": [
     "A130537"
   ],
   "tags": [
+    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
-    "source": "oeis-entry"
+    "size": 82,
+    "source": "oeis-bfile"
   }
 }

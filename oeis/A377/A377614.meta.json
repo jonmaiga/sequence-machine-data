@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of iterations of x -> 2*x + 5 until (# composites reached) = (# primes reached), starting with prime(n).",
+  "id": "A377614",
+  "mentions": [
+    "A377609"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

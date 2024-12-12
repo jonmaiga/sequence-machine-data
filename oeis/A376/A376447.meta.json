@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n*(m+1)-m*k-1, n-k)*k/(n*m-(m-1)*k), for m=7.",
+  "id": "A376447",
+  "mentions": [
+    "A000108",
+    "A098746",
+    "A130458",
+    "A186182",
+    "A186183",
+    "A186184"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

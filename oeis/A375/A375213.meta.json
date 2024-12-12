@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers with equal numbers of even and odd digits.",
+  "id": "A375213",
+  "mentions": [
+    "A001637",
+    "A227870",
+    "A375214"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

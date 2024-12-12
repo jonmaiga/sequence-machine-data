@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^0+(n+1)^1+(n+2)^2+(n+3)^3+(n+4)^4+(n+5)^5+(n+6)^6+(n+7)^7+(n+8)^8+(n+9)^9+(n+10)^10+(n+11)^11+(n+12)^12+(n+13)^13 is a prime.",
+  "description": "Numbers k such that Sum_{j=0..13} (k + j)^j is a prime.",
   "id": "A138091",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 47,
     "source": "oeis-bfile"
   }
 }

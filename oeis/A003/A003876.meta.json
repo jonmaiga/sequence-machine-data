@@ -2,7 +2,8 @@
   "description": "Degrees of irreducible representations of symmetric group S_12.",
   "id": "A003876",
   "mentions": [
-    "A003875"
+    "A003875",
+    "A060240"
   ],
   "tags": [
     "fini",

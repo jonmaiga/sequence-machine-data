@@ -2,7 +2,10 @@
   "description": "Triangular numbers with product of digits also a triangular number.",
   "id": "A061380",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A061867",
+    "A069077",
+    "A117710"
   ],
   "tags": [
     "base",
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,10 @@
 {
   "description": "Numbers k such that k^3 has property that all even digits occur together and all odd digits occur together.",
   "id": "A030478",
-  "mentions": [],
+  "mentions": [
+    "A030477",
+    "A030479"
+  ],
   "tags": [
     "base",
     "nonn"

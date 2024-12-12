@@ -1,0 +1,34 @@
+{
+  "description": "Asymptotic phase shift of the tetration base n written by juxtaposing its representative congruence classes modulo 10 (i.e., the 1, 2, or 4, distinct sfasamenti taken by starting from the minimum height such that the congruence speed of n is constant), and a(n) = -1 if n is a multiple of 10.",
+  "id": "A376842",
+  "mentions": [
+    "A000007",
+    "A018247",
+    "A018248",
+    "A063006",
+    "A091661",
+    "A091663",
+    "A091664",
+    "A120817",
+    "A120818",
+    "A290372",
+    "A290373",
+    "A290374",
+    "A290375",
+    "A317905",
+    "A370211",
+    "A372490",
+    "A373387",
+    "A376446"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

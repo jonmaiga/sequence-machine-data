@@ -1,0 +1,17 @@
+{
+  "description": "Number of subsets of {1,2,3,...,n}^2 with the property that every point has exactly two other closest points.",
+  "id": "A378400",
+  "mentions": [
+    "A297664"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

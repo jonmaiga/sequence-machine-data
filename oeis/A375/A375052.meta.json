@@ -1,0 +1,16 @@
+{
+  "description": "Number of n X 4 matrices whose values cover an initial interval of positive integers and whose rows and columns have values which are strictly increasing.",
+  "id": "A375052",
+  "mentions": [
+    "A105124",
+    "A374985"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

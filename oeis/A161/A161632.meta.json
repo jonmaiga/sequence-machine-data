@@ -1,8 +1,9 @@
 {
-  "description": "E.g.f. satisfies: A(x) = (1 + x*exp(x*A(x)))^2.",
+  "description": "E.g.f. satisfies A(x) = (1 + x*exp(x*A(x)))^2.",
   "id": "A161632",
   "mentions": [
-    "A161631"
+    "A161631",
+    "A364978"
   ],
   "tags": [
     "formulas",

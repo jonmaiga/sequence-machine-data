@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with a unique largest prime exponent (A356862) that are not prime powers (A246655).",
+  "id": "A376250",
+  "mentions": [
+    "A000142",
+    "A059404",
+    "A118914",
+    "A246655",
+    "A332785",
+    "A356862",
+    "A360248"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

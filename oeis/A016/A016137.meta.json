@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-3x)(1-6x)).",
+  "description": "Expansion of 1/((1-3*x)*(1-6*x)).",
   "id": "A016137",
   "mentions": [
     "A000225",
@@ -7,6 +7,7 @@
     "A001045",
     "A008277",
     "A016127",
+    "A016129",
     "A017933",
     "A075498",
     "A100852"
@@ -18,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

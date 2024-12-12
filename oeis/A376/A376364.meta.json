@@ -1,0 +1,22 @@
+{
+  "description": "The number of unitary divisors that are cubes of primes applied to the cubefull numbers.",
+  "id": "A376364",
+  "mentions": [
+    "A036966",
+    "A077761",
+    "A295883",
+    "A362974",
+    "A376362",
+    "A376363"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

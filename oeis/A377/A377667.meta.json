@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(i,j) is the smallest number m such that the symmetric representation of sigma, SRS(m), has maximum width 3, consists of i parts and has 2*j occurrences of maximum width 3 in its width pattern (row m of A341969).",
+  "id": "A377667",
+  "mentions": [
+    "A237591",
+    "A237593",
+    "A249223",
+    "A341969",
+    "A376829"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

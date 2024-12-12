@@ -1,0 +1,19 @@
+{
+  "description": "Run lengths of the most significant decimal digit in the primes (A077648).",
+  "id": "A376129",
+  "mentions": [
+    "A000720",
+    "A037124",
+    "A077648"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

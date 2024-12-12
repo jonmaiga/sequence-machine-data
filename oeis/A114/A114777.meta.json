@@ -1,5 +1,5 @@
 {
-  "description": "Floor[ {n concatenated with n n times }^(1/2)*10]^2.",
+  "description": "a(n) = floor( {n concatenated with n n times }^(1/2) * 10 )^2.",
   "id": "A114777",
   "mentions": [
     "A114776"
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 13,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
   }
 }

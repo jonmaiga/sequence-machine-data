@@ -2,7 +2,8 @@
   "description": "Decimal expansion of 1/sqrt(75).",
   "id": "A020832",
   "mentions": [
-    "A010153"
+    "A010153",
+    "A047235"
   ],
   "tags": [
     "cons",

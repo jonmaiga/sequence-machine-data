@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integers N = x*y*z = x+y+z for some rational x, y, z.",
+  "id": "A376243",
+  "mentions": [
+    "A002487",
+    "A054000",
+    "A376241",
+    "A376242"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

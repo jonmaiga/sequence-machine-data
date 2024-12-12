@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = floor(n(n-1)(n-2)(n-3)/30).",
+  "description": "a(n) = floor(n*(n-1)*(n-2)*(n-3)/30).",
   "id": "A011940",
   "mentions": [
-    "A011795"
+    "A011795",
+    "A011915"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 50,
     "source": "joeis"
   }
 }

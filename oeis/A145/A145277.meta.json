@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A145234(n+1)/A145234(n).",
+  "id": "A145277",
+  "mentions": [
+    "A001566",
+    "A001622",
+    "A002814",
+    "A145234",
+    "A145274",
+    "A145275",
+    "A145276"
+  ],
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

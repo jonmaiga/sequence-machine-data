@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a deltoidal icositetrahedron with unit shorter edge length.",
+  "id": "A378391",
+  "mentions": [
+    "A002193",
+    "A343965",
+    "A378390",
+    "A378392",
+    "A378393",
+    "A378394"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

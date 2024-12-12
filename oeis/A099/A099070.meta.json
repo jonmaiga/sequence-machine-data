@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the concatenation of all nonprime natural numbers up to n with decreasing order is prime.",
+  "description": "Numbers k such that the concatenation of all nonprime natural numbers up to k with decreasing order is prime.",
   "id": "A099070",
   "mentions": [
     "A046284",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of polycubes of size n and symmetry class CD.",
+  "id": "A376982",
+  "mentions": [
+    "A000162",
+    "A038119"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

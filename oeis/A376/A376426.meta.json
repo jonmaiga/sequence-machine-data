@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (2 + sqrt(3))/8.",
+  "id": "A376426",
+  "mentions": [
+    "A001223",
+    "A002194",
+    "A180317"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,20 @@
 {
-  "description": "Sigma(x) = n has exactly five solutions.",
+  "description": "Numbers k such that sigma(x) = k has exactly 5 solutions.",
   "id": "A060661",
   "mentions": [
+    "A000203",
+    "A007369",
     "A007370",
     "A007371",
-    "A007372"
+    "A007372",
+    "A060660",
+    "A060662",
+    "A060663",
+    "A060664",
+    "A060665",
+    "A060666",
+    "A060676",
+    "A060678"
   ],
   "tags": [
     "nonn"
@@ -12,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

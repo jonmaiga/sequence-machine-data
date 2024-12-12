@@ -2,7 +2,8 @@
   "description": "Numbers of smaller squares into which a square may be dissected.",
   "id": "A074764",
   "mentions": [
-    "A005792"
+    "A005792",
+    "A014544"
   ],
   "tags": [
     "easy",

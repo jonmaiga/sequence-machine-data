@@ -1,0 +1,21 @@
+{
+  "description": "The least totient number k with exactly n solutions to the equation phi(x) = k, where all the solutions are nontotient numbers (A007617).",
+  "id": "A378510",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A007374",
+    "A007617",
+    "A014197",
+    "A378509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

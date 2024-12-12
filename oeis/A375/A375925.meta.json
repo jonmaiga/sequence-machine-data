@@ -1,0 +1,17 @@
+{
+  "description": "Squares visited by a king moving on a walled, spirally numbered board, where a wall must be jumped on each move, always to the lowest available unvisited square.",
+  "id": "A375925",
+  "mentions": [
+    "A033638",
+    "A316667",
+    "A336038"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

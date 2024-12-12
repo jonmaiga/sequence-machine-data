@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A376888(k) = 2*k.",
+  "id": "A376889",
+  "mentions": [
+    "A007357",
+    "A023196",
+    "A038182",
+    "A074849",
+    "A097464",
+    "A331108",
+    "A331111",
+    "A376888"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

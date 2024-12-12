@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^7/(1 - x*A(x)^3).",
+  "id": "A378685",
+  "mentions": [
+    "A108447",
+    "A243659",
+    "A300048",
+    "A365192",
+    "A378686"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

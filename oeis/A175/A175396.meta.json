@@ -2,6 +2,7 @@
   "description": "Numbers whose sum of squares of digits is a square.",
   "id": "A175396",
   "mentions": [
+    "A003132",
     "A084561"
   ],
   "tags": [

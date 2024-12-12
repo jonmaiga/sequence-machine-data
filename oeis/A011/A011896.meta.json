@@ -1,7 +1,8 @@
 {
-  "description": "[ n(n-1)(n-2)/14 ].",
+  "description": "a(n) = floor( n*(n-1)*(n-2)/14 ).",
   "id": "A011896",
   "mentions": [
+    "A011886",
     "A055610"
   ],
   "tags": [

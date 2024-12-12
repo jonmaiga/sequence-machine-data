@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 9n^3+7.",
+  "description": "Primes of the form 9*k^3+7.",
   "id": "A201301",
   "mentions": [],
   "tags": [

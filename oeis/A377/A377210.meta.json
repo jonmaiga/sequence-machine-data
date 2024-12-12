@@ -1,0 +1,21 @@
+{
+  "description": "Zeckendorf-Niven numbers (A328208) k such that m = k/z(k) and m/z(m) are also Zeckendorf-Niven numbers, where z(k) = A007895(k) is the number of terms in the Zeckendorf representation of k.",
+  "id": "A377210",
+  "mentions": [
+    "A000045",
+    "A007895",
+    "A328208",
+    "A376617",
+    "A377209"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

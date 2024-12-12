@@ -13,6 +13,45 @@
         "/",
         "contfrac"
       ]
+    },
+    {
+      "d": "2024-12-08",
+      "ix": "contfrac[ϕ²]*contfrac[C114490]",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "²",
+        "contfrac",
+        "C114490",
+        "contfrac",
+        "*"
+      ]
+    },
+    {
+      "d": "2024-12-08",
+      "ix": "contfrac[C114490]/contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C114490",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "/"
+      ]
+    },
+    {
+      "d": "2024-12-08",
+      "ix": "contfrac[C114490]^contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C114490",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "^"
+      ]
     }
   ]
 }

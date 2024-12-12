@@ -2,6 +2,7 @@
   "description": "Number of partitions satisfying 0 < cn(0,5) + cn(1,5) + cn(4,5).",
   "id": "A039900",
   "mentions": [
+    "A000041",
     "A003106",
     "A003114",
     "A006141",

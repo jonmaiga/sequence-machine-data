@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of the probability where a change occurs in the optimal strategy for a coin game where you have to set aside at least one coin every round",
+  "id": "A376258",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

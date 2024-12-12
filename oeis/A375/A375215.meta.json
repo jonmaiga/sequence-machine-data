@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form p^16 + 2^16, where p is prime (see also A157764).",
+  "id": "A375215",
+  "mentions": [
+    "A000079",
+    "A157764"
+  ],
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

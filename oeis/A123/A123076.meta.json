@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p=1+2n+3n^2+4n^3 is prime.",
+  "description": "Numbers k such that p = 1 + 2k + 3k^2 + 4k^3 is prime.",
   "id": "A123076",
   "mentions": [
     "A056578",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

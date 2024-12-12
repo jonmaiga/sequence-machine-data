@@ -1,0 +1,18 @@
+{
+  "description": "The number of iterations of the map x -> x + A000005(x), starting from n, until reaching an even number, and always at least one iteration taken.",
+  "id": "A377539",
+  "mentions": [
+    "A000005",
+    "A062249",
+    "A064491"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

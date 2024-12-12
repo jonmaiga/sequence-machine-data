@@ -2,11 +2,13 @@
   "description": "Fibonacci numbers whose digits sum to a prime.",
   "id": "A065398",
   "mentions": [
+    "A000045",
     "A178837"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

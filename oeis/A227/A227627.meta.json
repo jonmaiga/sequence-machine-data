@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that F(5*n)/(5*F(n)) is prime, where F(k) is the k-th Fibonacci number.",
+  "description": "Numbers k such that F(5*k)/(5*F(k)) is prime, where F(m) is the m-th Fibonacci number.",
   "id": "A227627",
   "mentions": [
     "A000045",

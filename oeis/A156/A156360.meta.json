@@ -2,7 +2,8 @@
   "description": "G.f.: A(x) = exp( Sum_{n>=1} sigma_n(2n)*x^n/n ), where sigma_n(2n) is the sum of the n-th powers of the divisors of 2*n.",
   "id": "A156360",
   "mentions": [
-    "A023881"
+    "A023881",
+    "A179504"
   ],
   "tags": [
     "formulas",

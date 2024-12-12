@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{i=0..n-k} Stirling1(i + m, m)*binomial(n+m+1, n-k-i)*(n + m - k)!/(i + m)!, for m = 2.",
+  "id": "A376634",
+  "mentions": [
+    "A001706",
+    "A001712",
+    "A001717",
+    "A001722",
+    "A051525",
+    "A051546",
+    "A051561",
+    "A094587",
+    "A163931",
+    "A173333",
+    "A376582"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

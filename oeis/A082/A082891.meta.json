@@ -1,20 +1,24 @@
 {
-  "description": "Smallest prime p[j] such that quotient q[j], obtained when consecutive prime differences are divided by logarithm of smaller prime,p[j], is larger than n.",
+  "description": "Smallest prime p such that q = (r-p)/log(p) > n, where r is the next prime after p.",
   "id": "A082891",
   "mentions": [
     "A082862",
     "A082884",
+    "A082885",
+    "A082886",
+    "A082888",
+    "A082889",
     "A082890",
-    "A082892"
+    "A082892",
+    "A111870"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

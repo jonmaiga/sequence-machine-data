@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k)= -2T(n-1,k)+T(n-1,k+1) = T(n,k-4), 0<=n.",
+  "description": "Table T(n,k) = -2*T(n-1,k)+T(n-1,k+1) = T(n,k-4), 0<=n.",
   "id": "A140287",
   "mentions": [
     "A008776",

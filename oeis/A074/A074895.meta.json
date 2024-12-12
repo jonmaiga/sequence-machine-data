@@ -2,6 +2,7 @@
   "description": "Primes written backwards and sorted.",
   "id": "A074895",
   "mentions": [
+    "A000040",
     "A004087"
   ],
   "tags": [
@@ -10,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 58,
     "source": "oeis-entry"
   }

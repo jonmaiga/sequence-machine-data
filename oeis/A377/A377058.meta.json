@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of generalized Stirling numbers of the lower level of the hierarchy (case m=2).",
+  "id": "A377058",
+  "mentions": [
+    "A130534",
+    "A361649",
+    "A370518",
+    "A376863"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

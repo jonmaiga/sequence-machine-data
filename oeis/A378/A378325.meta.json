@@ -1,0 +1,24 @@
+{
+  "description": "G.f. A(x) = Sum_{n>=0} a(n)*x^n, where a(n) = Sum_{k=0..n-1} [x^k] A(x)^k for n >= 1 with a(0) = 1.",
+  "id": "A378325",
+  "mentions": [
+    "A002212",
+    "A307678",
+    "A349331",
+    "A349332",
+    "A349333",
+    "A349334",
+    "A349335",
+    "A377098",
+    "A378326"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

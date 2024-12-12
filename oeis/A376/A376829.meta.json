@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m whose symmetric representation of sigma(m) has at least a part with maximum width 3.",
+  "id": "A376829",
+  "mentions": [
+    "A003056",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A253258",
+    "A341969"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

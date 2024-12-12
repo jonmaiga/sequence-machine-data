@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 2*n*(n+2) is a square.",
+  "description": "Numbers k such that 2*k*(k+2) is a square.",
   "id": "A082639",
   "mentions": [
     "A001541",
     "A001542",
     "A002315",
-    "A005319"
+    "A005319",
+    "A088827"
   ],
   "tags": [
     "easy",

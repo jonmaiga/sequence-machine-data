@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 + (n+3)^2 is prime.",
+  "description": "Numbers m such that m^2 + (m+3)^2 is prime.",
   "id": "A224870",
   "mentions": [
     "A027861",

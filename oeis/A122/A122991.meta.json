@@ -1,15 +1,21 @@
 {
-  "description": "Indices of primes in A104535.",
+  "description": "Indices of primes in tribonacci sequence A000073, minus 2.",
   "id": "A122991",
   "mentions": [
-    "A104535"
+    "A000073",
+    "A092835",
+    "A092836",
+    "A282718",
+    "A303263"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

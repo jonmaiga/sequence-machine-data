@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} exp(-x)*erf(sqrt(x))^3 dx, where erf is the error function.",
+  "id": "A377203",
+  "mentions": [
+    "A000796",
+    "A010474",
+    "A188615",
+    "A377202"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

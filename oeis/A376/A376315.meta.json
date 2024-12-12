@@ -1,0 +1,16 @@
+{
+  "description": "Positive numbers k such that 2*k^k is a cube.",
+  "id": "A376315",
+  "mentions": [
+    "A376279",
+    "A376291"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

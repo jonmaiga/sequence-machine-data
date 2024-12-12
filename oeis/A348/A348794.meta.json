@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of 3-regular one-face rooted maps on orientable surfaces.",
+  "description": "a(n) = number of 3-regular one-face rooted maps on orientable surfaces of genus n.",
   "id": "A348794",
   "mentions": [
     "A068182",
@@ -8,12 +8,12 @@
     "A348797"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

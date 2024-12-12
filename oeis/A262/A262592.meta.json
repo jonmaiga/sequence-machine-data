@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (3^(n+1) - 2n^2 + 4n + 5) / 8..",
+  "description": "a(n) = (3^(n+1) - 2n^2 + 4n + 5) / 8.",
   "id": "A262592",
   "mentions": [
     "A000340",

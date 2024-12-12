@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have at least one two-digit prime factor.",
+  "id": "A376740",
+  "mentions": [
+    "A051953",
+    "A068191",
+    "A084891",
+    "A109819"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

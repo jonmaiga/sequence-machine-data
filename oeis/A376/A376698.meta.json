@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k >= 0 such that the k-th iterate of the run lengths transform of A376637(n) equals 1.",
+  "id": "A376698",
+  "mentions": [
+    "A376637",
+    "A376676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

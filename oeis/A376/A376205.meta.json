@@ -1,0 +1,20 @@
+{
+  "description": "Prime indices of triangular numbers k such that k + 1 and k - 2 are not prime.",
+  "id": "A376205",
+  "mentions": [
+    "A000040",
+    "A000124",
+    "A000217",
+    "A034856",
+    "A376206"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

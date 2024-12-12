@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of tan(arctan(4)/4).",
+  "id": "A377968",
+  "mentions": [
+    "A010473",
+    "A019684",
+    "A195628"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

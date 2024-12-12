@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes s such that (3s+1)/2 is semiprime and A001414(s)=2*A001414((3s+1)/2).",
+  "id": "A376275",
+  "mentions": [
+    "A001358",
+    "A001414",
+    "A003415",
+    "A046315"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

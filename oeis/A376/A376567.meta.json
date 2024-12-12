@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = binomial(bigomega(n) + omega(n), omega(n)), where bigomega = A001222 and omega = A001221.",
+  "id": "A376567",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A007947",
+    "A010846",
+    "A024619",
+    "A068795",
+    "A376248",
+    "A376846",
+    "A376847"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

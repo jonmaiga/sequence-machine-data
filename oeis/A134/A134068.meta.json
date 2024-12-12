@@ -2,8 +2,8 @@
   "description": "a(n) = 2*a(n-2) + 4*a(n-3), with initial terms 0, 3, 3.",
   "id": "A134068",
   "mentions": [
-    "A134136",
-    "A134654"
+    "A038521",
+    "A134136"
   ],
   "tags": [
     "formulas",

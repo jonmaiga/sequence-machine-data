@@ -2,10 +2,12 @@
   "description": "In binary representation: number of editing steps (delete, insert, or substitute) to transform n into n + 1.",
   "id": "A091090",
   "mentions": [
+    "A000120",
     "A004275",
     "A007088",
     "A007814",
     "A036987",
+    "A070939",
     "A135416",
     "A135517",
     "A152487"

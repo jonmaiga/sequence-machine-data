@@ -2,7 +2,9 @@
   "description": "Numbers that when incremented by the product of their digits produce a square.",
   "id": "A066567",
   "mentions": [
-    "A066564"
+    "A000290",
+    "A066564",
+    "A230099"
   ],
   "tags": [
     "base",

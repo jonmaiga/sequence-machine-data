@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that floor( (1+1/k)^n ) = floor( (1+1/n)^k ) is not equal to round(n*91/100).",
+  "description": "Numbers m such that the least k such that floor( (1+1/k)^m ) = floor( (1+1/m)^k ) is not equal to round(m*91/100).",
   "id": "A072933",
   "mentions": [],
   "tags": [

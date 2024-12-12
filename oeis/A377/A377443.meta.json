@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array T(n,k) read by rows, satisfies A377441(n, k+2) = Sum_{m=0..k} T(k, m)*n^m.",
+  "id": "A377443",
+  "mentions": [
+    "A000108",
+    "A091894",
+    "A175136",
+    "A254316",
+    "A371965",
+    "A377441",
+    "A377442"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

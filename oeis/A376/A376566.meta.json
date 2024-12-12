@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any n > 0, there is an even number of k's such that 1 <= k < n and a(n) divides a(k).",
+  "id": "A376566",
+  "mentions": [
+    "A025523"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

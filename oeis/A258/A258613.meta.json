@@ -2,11 +2,13 @@
   "description": "Numbers m that are coprime to the largest square <= m, cf. A048760.",
   "id": "A258613",
   "mentions": [
+    "A013661",
     "A048760",
     "A074695",
     "A258614"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

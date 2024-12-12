@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(m, n, k) = binomial(n + 1, n - k)*hypergeom([m, k - n], [k + 2], -1) for m = 4.",
+  "id": "A375550",
+  "mentions": [
+    "A001789",
+    "A001794",
+    "A027608",
+    "A049612",
+    "A055585",
+    "A055586",
+    "A122433",
+    "A145018",
+    "A375549"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "16n^2+4n+1.",
+  "description": "a(n) = 16*n^2 + 4*n + 1.",
   "id": "A082041",
   "mentions": [
     "A054569",

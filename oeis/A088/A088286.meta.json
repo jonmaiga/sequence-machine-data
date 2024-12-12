@@ -2,7 +2,9 @@
   "description": "Primes in A088285. Palindromic primes in which the sum of the internal digits = the sum of the external digits.",
   "id": "A088286",
   "mentions": [
-    "A088285"
+    "A002385",
+    "A088285",
+    "A101317"
   ],
   "tags": [
     "base",

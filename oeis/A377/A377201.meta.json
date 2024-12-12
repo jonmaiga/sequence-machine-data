@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that d(k)^k == d(k) (mod k), where d(k) = A000005(k) is the number of divisors of k.",
+  "id": "A377201",
+  "mentions": [
+    "A000005",
+    "A014127"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

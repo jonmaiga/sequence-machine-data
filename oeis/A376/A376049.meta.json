@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the denominator of the sum S(n) defined in A376048.",
+  "id": "A376049",
+  "mentions": [
+    "A000796",
+    "A375531",
+    "A375532",
+    "A376048"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

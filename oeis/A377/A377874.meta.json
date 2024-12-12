@@ -1,0 +1,27 @@
+{
+  "description": "Parity of A083345(n), where A083345(n) = n' / gcd(n,n') = numerator of Sum(e/p: n=Product(p^e)).",
+  "id": "A377874",
+  "mentions": [
+    "A000035",
+    "A083345",
+    "A165560",
+    "A166486",
+    "A276085",
+    "A369001",
+    "A369002",
+    "A369003",
+    "A369980",
+    "A377868",
+    "A377875"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (p^3 + 1)/(p^3 - 1).",
+  "id": "A376742",
+  "mentions": [
+    "A000578",
+    "A001221",
+    "A002117",
+    "A013664",
+    "A034444",
+    "A092732",
+    "A183030"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

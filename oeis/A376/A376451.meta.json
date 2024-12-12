@@ -1,0 +1,20 @@
+{
+  "description": "Quarter-squares greedy Champernowne sequence (or word): write the numbers 0, 1, 10, 11, 100, 101, as in A376450 and concatenate.",
+  "id": "A376451",
+  "mentions": [
+    "A002620",
+    "A214973",
+    "A376450",
+    "A376452",
+    "A376453"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

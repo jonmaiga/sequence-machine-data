@@ -2,7 +2,14 @@
   "description": "A sequence S describing the position of its prime terms.",
   "id": "A121053",
   "mentions": [
-    "A105753"
+    "A000720",
+    "A002808",
+    "A065855",
+    "A073783",
+    "A099861",
+    "A105753",
+    "A377899",
+    "A377901"
   ],
   "tags": [
     "nice",
@@ -10,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 79,
     "source": "oeis-bfile"
   }
 }

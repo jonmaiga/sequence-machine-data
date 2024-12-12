@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the largest integer k such that Un -> Z/2^kZ is surjective where Un is the set of Ulam words of length n.",
+  "id": "A376741",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

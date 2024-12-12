@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of strings of numbers x(i=1..n) in 0..k with sum i^2*x(i)^3 equal to n^2*k^3",
+  "description": "T(n,k) = number of strings of numbers x(i=1..n) in 0..k with sum i^2*x(i)^3 equal to n^2*k^3.",
   "id": "A184318",
   "mentions": [
     "A030273"

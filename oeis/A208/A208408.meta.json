@@ -1,8 +1,21 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors",
+  "description": "T(n,k) is the number of n X k 0..3 arrays with new values 0..3 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors.",
   "id": "A208408",
   "mentions": [
-    "A007581"
+    "A007581",
+    "A208401",
+    "A208402",
+    "A208403",
+    "A208404",
+    "A208405",
+    "A208406",
+    "A208407",
+    "A208409",
+    "A208410",
+    "A208411",
+    "A208412",
+    "A208413",
+    "A208414"
   ],
   "tags": [
     "nonn",

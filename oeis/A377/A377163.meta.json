@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least exponent k such that the decimal representation of n occurs at exactly n positions within the decimal representation of n^k, or -1 if this is not possible.",
+  "id": "A377163",
+  "mentions": [
+    "A011557",
+    "A244603",
+    "A377164"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

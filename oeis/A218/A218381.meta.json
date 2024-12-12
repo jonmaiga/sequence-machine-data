@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that A211996(n) is not zero.",
+  "description": "Numbers k such that A211996(k) is not zero.",
   "id": "A218381",
   "mentions": [
     "A211996",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

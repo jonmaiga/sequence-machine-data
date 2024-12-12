@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits is strictly greater than product of digits.",
+  "description": "Numbers whose sum of digits is strictly greater than its product of digits.",
   "id": "A062997",
   "mentions": [
     "A007953",

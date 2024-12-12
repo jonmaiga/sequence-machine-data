@@ -2,6 +2,7 @@
   "description": "Triangle T(n,k), n >= 1, 1 <= k <= n, read by rows, where T(n,k) is the number of partitions of n such that k*(greatest part) = (number of parts).",
   "id": "A350879",
   "mentions": [
+    "A000041",
     "A047993",
     "A063995",
     "A168659",
@@ -10,7 +11,9 @@
     "A348163",
     "A348164",
     "A350889",
-    "A350890"
+    "A350890",
+    "A377107",
+    "A377108"
   ],
   "tags": [
     "formulas",

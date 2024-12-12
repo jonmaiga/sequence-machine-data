@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of the 1920th root of the series 2*E_4(x) - E_8(x), where E_4 and E_8 are the Eisenstein series of weight 4 and weight 8.",
+  "id": "A377974",
+  "mentions": [
+    "A004009",
+    "A008410",
+    "A108091",
+    "A341871",
+    "A341875",
+    "A377973",
+    "A377975",
+    "A377976",
+    "A377977"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

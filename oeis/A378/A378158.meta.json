@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that lpf(!k) < lpf(k-1), where lpf(k) = A020639(k) and !k = A000166(k).",
+  "id": "A378158",
+  "mentions": [
+    "A000166",
+    "A020639",
+    "A337986",
+    "A378157"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

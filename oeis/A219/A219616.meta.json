@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 5^n + n^4 is prime.",
+  "description": "Numbers k such that 5^k + k^4 is prime.",
   "id": "A219616",
   "mentions": [
     "A059802",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

@@ -1,8 +1,9 @@
 {
-  "description": "Number of minimally rigid graphs in 3D on n vertices.",
+  "description": "Number of unlabeled minimally rigid graphs in 3D on n vertices.",
   "id": "A328419",
   "mentions": [
-    "A227117"
+    "A227117",
+    "A374745"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

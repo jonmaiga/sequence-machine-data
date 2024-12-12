@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of (floor(9n/4)), by antidiagonals.",
+  "description": "Dispersion of (floor(9*n/4)), by antidiagonals.",
   "id": "A191545",
   "mentions": [
     "A000040",

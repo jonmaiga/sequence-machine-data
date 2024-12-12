@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 4^n*(2^n-1)+1.",
+  "description": "Primes of the form 4^k*(2^k-1)+1.",
   "id": "A177026",
   "mentions": [
     "A098856",

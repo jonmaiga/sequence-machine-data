@@ -1,8 +1,10 @@
 {
-  "description": "Digital sum of the 2^n-th Partition number.",
+  "description": "Digital sum of the 2^n-th partition number.",
   "id": "A129491",
   "mentions": [
     "A000041",
+    "A000079",
+    "A007953",
     "A068413",
     "A070177",
     "A129490"
@@ -13,7 +15,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 40,
     "source": "oeis-entry"
   }

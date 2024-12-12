@@ -1,0 +1,22 @@
+{
+  "description": "The word 1 belongs to the sequence, and whenever a word w belongs to the sequence, then the words consisting of 1's and 2's whose run lengths transform equals w also belong to the sequence.",
+  "id": "A376637",
+  "mentions": [
+    "A000002",
+    "A007931",
+    "A376638",
+    "A376674",
+    "A376676",
+    "A376685",
+    "A376698"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

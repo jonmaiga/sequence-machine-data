@@ -1,7 +1,10 @@
 {
   "description": "Anagrasum integers: integers N that exactly reproduce their set of digits when we form the set of sums of pairs of adjacent digits.",
   "id": "A296521",
-  "mentions": [],
+  "mentions": [
+    "A296451",
+    "A297627"
+  ],
   "tags": [
     "base",
     "nonn"

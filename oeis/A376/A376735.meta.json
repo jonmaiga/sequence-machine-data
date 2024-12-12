@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} (n-3*k+1) * binomial(n-3*k,k)^2.",
+  "id": "A376735",
+  "mentions": [
+    "A182884",
+    "A246883",
+    "A375565"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

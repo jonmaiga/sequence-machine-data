@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals downward: T(n,k) is the number of tilings of the n X k cylinder up to 180-degree rotation by an asymmetric tile.",
+  "description": "Table read by downward antidiagonals: T(n,k) is the number of tilings of the n X k cylinder up to 180-degree rotation by an asymmetric tile.",
   "id": "A368263",
   "mentions": [],
   "tags": [

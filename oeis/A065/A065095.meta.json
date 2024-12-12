@@ -2,7 +2,8 @@
   "description": "a(1) = 1, a(n+1) is the sum of a(n) and ceiling( arithmetic mean of a(1) ... a(n) ).",
   "id": "A065095",
   "mentions": [
-    "A065094"
+    "A065094",
+    "A376995"
   ],
   "tags": [
     "easy",

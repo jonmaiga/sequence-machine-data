@@ -1,7 +1,9 @@
 {
   "description": "Numbers k whose last k digits of k^k form a prime number.",
   "id": "A126703",
-  "mentions": [],
+  "mentions": [
+    "A086756"
+  ],
   "tags": [
     "base",
     "hard",

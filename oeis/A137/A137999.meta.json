@@ -1,7 +1,9 @@
 {
   "description": "Primes p such that (p^p-p!)/p is prime.",
   "id": "A137999",
-  "mentions": [],
+  "mentions": [
+    "A000040"
+  ],
   "tags": [
     "hard",
     "more",

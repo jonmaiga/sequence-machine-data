@@ -1,0 +1,24 @@
+{
+  "description": "Natural numbers whose iterated squaring modulo 1000 eventually settles at the attractor 376.",
+  "id": "A376539",
+  "mentions": [
+    "A008592",
+    "A017329",
+    "A376506",
+    "A376507",
+    "A376508",
+    "A376509",
+    "A376538",
+    "A376540",
+    "A376541"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

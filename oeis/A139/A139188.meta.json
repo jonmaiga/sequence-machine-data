@@ -1,5 +1,5 @@
 {
-  "description": "Smallest twin prime member A006512 of the form k!/n + 1.",
+  "description": "Greater twin prime member A006512 of the form k!/n + 1.",
   "id": "A139188",
   "mentions": [
     "A000142",

@@ -1,5 +1,5 @@
 {
-  "description": "Triangles in Star of David matchstick arrangement of side n.",
+  "description": "Number of upward triangles in a Star of David matchstick arrangement of size n.",
   "id": "A045950",
   "mentions": [
     "A299965"

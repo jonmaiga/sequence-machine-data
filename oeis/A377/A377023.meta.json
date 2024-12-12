@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the asymptotic constant of the product of binomial coefficients in a row of Pascal's triangle.",
+  "id": "A377023",
+  "mentions": [
+    "A001620",
+    "A002117",
+    "A074962",
+    "A213080",
+    "A377024"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

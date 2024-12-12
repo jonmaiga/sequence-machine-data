@@ -1,7 +1,10 @@
 {
   "description": "a(n) = (11*n)^2.",
   "id": "A017390",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A008593"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 39,
     "source": "oeis-bfile"
   }
 }

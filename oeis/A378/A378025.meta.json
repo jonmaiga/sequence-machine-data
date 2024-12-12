@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1/2 - log(2)/4 - G/Pi, where G = A006752.",
+  "id": "A378025",
+  "mentions": [
+    "A000796",
+    "A002162",
+    "A006752",
+    "A143233"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

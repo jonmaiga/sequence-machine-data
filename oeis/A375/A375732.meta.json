@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of partitions of n having a cube number of parts whose sum of cubes is a cube.",
+  "id": "A375732",
+  "mentions": [
+    "A003108",
+    "A025457",
+    "A240127",
+    "A240128",
+    "A259792",
+    "A375731"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

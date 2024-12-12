@@ -2,6 +2,10 @@
   "description": "Decimal expansion of square root of 60.",
   "id": "A010513",
   "mentions": [
+    "A010472",
+    "A011053",
+    "A020772",
+    "A020817",
     "A040052"
   ],
   "tags": [

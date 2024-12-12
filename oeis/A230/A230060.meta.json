@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that the distance from n^2 to the smallest triangular number >= n^2 is itself triangular.",
+  "description": "Numbers k such that the distance from k^2 to the smallest triangular number >= k^2 is itself triangular.",
   "id": "A230060",
-  "mentions": [],
+  "mentions": [
+    "A230038"
+  ],
   "tags": [
     "nonn"
   ],

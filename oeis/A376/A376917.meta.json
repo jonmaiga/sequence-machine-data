@@ -1,0 +1,17 @@
+{
+  "description": "Starting from Goldbach decomposition of 10 = p + q = 5 + 5, 12 = 7 + 5, and 14 = 7 + 7, a(n) is the first number in A001057 such that if 2n - 6 = p + q, 2n = p' + q', where p' = p + 6 * a(n) and q' = 2n - q' are both primes.",
+  "id": "A376917",
+  "mentions": [
+    "A001057",
+    "A045917"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 8,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

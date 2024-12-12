@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that if q and r are the next two primes, (p - 1)^2 + 1, (q - 1)^2 + 1 and (r - 1)^2 + 1 are all prime.",
+  "id": "A376605",
+  "mentions": [
+    "A000040",
+    "A376522"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

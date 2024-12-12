@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of integer bases >= 2 in which n is digitally balanced.",
+  "id": "A378191",
+  "mentions": [
+    "A049364",
+    "A065963",
+    "A378000",
+    "A378073",
+    "A378080",
+    "A378104"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

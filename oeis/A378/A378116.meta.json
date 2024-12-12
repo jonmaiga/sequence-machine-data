@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that a(a(n)) shares a factor with a(a(n)-2) while not sharing a factor with a(a(n)-1).",
+  "id": "A378116",
+  "mentions": [
+    "A027746",
+    "A064413",
+    "A098550",
+    "A121053",
+    "A378030",
+    "A378098"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

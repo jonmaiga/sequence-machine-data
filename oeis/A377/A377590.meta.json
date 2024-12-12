@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k neither squarefree nor prime powers such that there exist no numbers m such that rad(m) | k and Omega(m) > Omega(k), where rad = A007947 and Omega = A001222.",
+  "id": "A377590",
+  "mentions": [
+    "A001222",
+    "A007283",
+    "A007947",
+    "A020639",
+    "A126706",
+    "A303554",
+    "A360769",
+    "A376846"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of squares covered (i.e., attacked) by 7 independent (i.e., nonattacking) queens on an n X n chessboard.",
+  "id": "A374937",
+  "mentions": [
+    "A376732"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

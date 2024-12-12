@@ -1,15 +1,20 @@
 {
-  "description": "a(n) = (2^(-n)*A004003(n)) mod 32.",
+  "description": "a(n) = sqrt(2^(-n)*A004003(n)) mod 32.",
   "id": "A143234",
   "mentions": [
-    "A004003"
+    "A004003",
+    "A065072",
+    "A109613",
+    "A121262"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 79,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
   }
 }

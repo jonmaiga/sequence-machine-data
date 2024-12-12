@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + 1 with a(0)=2 and a(1)=2.",
+  "id": "A377628",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A022086"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

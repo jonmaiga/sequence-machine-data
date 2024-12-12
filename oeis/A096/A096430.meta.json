@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of (9(n^4 - 2n^3 + 2n^2 - n) + 2)/(2(2n-1)).",
+  "description": "Numerator of (9*(n^4 - 2*n^3 + 2*n^2 - n) + 2)/(2*(2*n-1)).",
   "id": "A096430",
   "mentions": [
     "A096431",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

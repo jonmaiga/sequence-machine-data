@@ -1,0 +1,16 @@
+{
+  "description": "Unfriendly EKG sequence: a(1) = 1; a(2) = 3; for n > 2, a(n) = least number not already used which shares a factor with a(n-1) and is less than half or more than twice a(n-1).",
+  "id": "A377947",
+  "mentions": [
+    "A064413"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

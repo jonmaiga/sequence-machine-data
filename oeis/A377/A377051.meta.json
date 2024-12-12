@@ -1,0 +1,49 @@
+{
+  "description": "Array read by antidiagonals downward where A(n,k) is the n-th term of the k-th differences of the powers of primes.",
+  "id": "A377051",
+  "mentions": [
+    "A000040",
+    "A000688",
+    "A000961",
+    "A001223",
+    "A007442",
+    "A023893",
+    "A023894",
+    "A025475",
+    "A030016",
+    "A036263",
+    "A053445",
+    "A053707",
+    "A057820",
+    "A093555",
+    "A095195",
+    "A174965",
+    "A175804",
+    "A246655",
+    "A281425",
+    "A320590",
+    "A361102",
+    "A376340",
+    "A376596",
+    "A376598",
+    "A376653",
+    "A376682",
+    "A377033",
+    "A377038",
+    "A377046",
+    "A377052",
+    "A377053",
+    "A377054",
+    "A377055"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

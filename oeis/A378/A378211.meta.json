@@ -1,0 +1,17 @@
+{
+  "description": "Dirichlet inverse of A191161, hypersigma variant 2.",
+  "id": "A378211",
+  "mentions": [
+    "A191161",
+    "A378210"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

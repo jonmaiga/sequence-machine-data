@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are not prime powers and have a unique largest prime exponent that is larger than the second-largest prime exponent by 1.",
+  "id": "A376249",
+  "mentions": [
+    "A054753",
+    "A072357",
+    "A095990",
+    "A096156",
+    "A118914",
+    "A143610",
+    "A163569",
+    "A179666",
+    "A179702",
+    "A246655",
+    "A325241",
+    "A356862"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

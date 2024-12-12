@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet inverse of A103977.",
+  "id": "A378643",
+  "mentions": [
+    "A005101",
+    "A103977",
+    "A263837",
+    "A323910",
+    "A378645",
+    "A378646",
+    "A378647"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

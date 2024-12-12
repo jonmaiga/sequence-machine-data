@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = phi(n^n - n) where phi is the Euler totient function.",
+  "id": "A377678",
+  "mentions": [
+    "A000010",
+    "A061190",
+    "A366821",
+    "A372229",
+    "A372599",
+    "A377674",
+    "A377675",
+    "A377676",
+    "A377677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

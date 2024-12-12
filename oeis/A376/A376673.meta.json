@@ -1,0 +1,21 @@
+{
+  "description": "Least number whose maximum frequency in a fixed row of A036038 (or A078760) is equal to n, i.e., least number m such that A376663(m) = n, or 0 if no such number exists.",
+  "id": "A376673",
+  "mentions": [
+    "A025487",
+    "A036038",
+    "A078760",
+    "A376376",
+    "A376663",
+    "A376664",
+    "A376667"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

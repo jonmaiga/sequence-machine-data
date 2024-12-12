@@ -1,16 +1,23 @@
 {
-  "description": "Number of 3-dimensional polyominoes (or polycubes) with n cells and symmetry group of order exactly 2.",
+  "description": "Number of 3-dimensional polyominoes (or polycubes) with n cells and rotational symmetry group of order exactly 2.",
   "id": "A066454",
   "mentions": [
     "A000162",
+    "A066273",
+    "A066281",
+    "A066283",
+    "A066287",
+    "A066288",
     "A066453"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

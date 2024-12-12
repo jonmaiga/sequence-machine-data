@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), read by rows, given by (0,1,0,0,0,0,0,0,0,0,0,...) DELTA (1,1,-1,1,0,0,0,0,0,0,0,...) where DELTA is the operator defined in A084938.",
+  "description": "Triangle read by rows: T(n, k) = binomial(n, k-1) for 1 <= k <= n, and T(n, 0) = 0^n.",
   "id": "A198321",
   "mentions": [
     "A007318",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

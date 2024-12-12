@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of placing 2n nonattacking rooks on a hexagonal board of equilateral triangular spaces with n spaces along each edge.",
+  "id": "A375800",
+  "mentions": [
+    "A000142",
+    "A000170",
+    "A002047"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

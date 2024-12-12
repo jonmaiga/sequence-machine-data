@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that max{d|k, d <= sqrt(k)} + min{d|k, d >= sqrt(k)} is a square.",
+  "id": "A377732",
+  "mentions": [
+    "A033676",
+    "A033677",
+    "A063655",
+    "A141046",
+    "A377731",
+    "A377733",
+    "A377736"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

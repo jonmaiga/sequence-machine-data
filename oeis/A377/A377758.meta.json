@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least i such that 2n-prime(i) is also a prime, where prime(i) is the i-th prime.",
+  "id": "A377758",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A020481",
+    "A377972"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

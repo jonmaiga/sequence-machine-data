@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of digits in A377909(n), or 0 if A377909(n) = -1.",
+  "id": "A377910",
+  "mentions": [
+    "A302656",
+    "A376769",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377906",
+    "A377909",
+    "A377911"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

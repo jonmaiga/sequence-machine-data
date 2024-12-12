@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct tribone tilings of an n-triangle.",
+  "description": "Number of tribone tilings of an n-triangle.",
   "id": "A334875",
   "mentions": [
     "A072065",

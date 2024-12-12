@@ -1,5 +1,5 @@
 {
-  "description": "5*n^5 - 3*n^3 - 2*n^2. Coefficients and exponents are the prime numbers in decreasing order.",
+  "description": "a(n) = 5*n^5 - 3*n^3 - 2*n^2.",
   "id": "A134630",
   "mentions": [
     "A000290",

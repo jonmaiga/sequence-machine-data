@@ -1,0 +1,16 @@
+{
+  "description": "Indices of prime terms in A375564, and also the index where the n-th prime appears.",
+  "id": "A376191",
+  "mentions": [
+    "A375564",
+    "A376189"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

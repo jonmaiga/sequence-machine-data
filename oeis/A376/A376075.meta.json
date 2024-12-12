@@ -1,0 +1,22 @@
+{
+  "description": "Number of North-East lattice paths from (0,0) to (n,n) that do not cross the diagonal y = x at any even point (2*k,2*k).",
+  "id": "A376075",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A024492",
+    "A048990",
+    "A268400",
+    "A268429"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

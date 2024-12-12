@@ -1,13 +1,23 @@
 {
-  "description": "a(n) = Product of (prime + 1) for first n primes - primorial (n).",
+  "description": "a(n) = Product of (prime + 1) for first n primes - primorial (n); Sum of proper divisors of the n-th primorial.",
   "id": "A074107",
-  "mentions": [],
+  "mentions": [
+    "A001065",
+    "A002110",
+    "A003415",
+    "A024451",
+    "A051674",
+    "A054640",
+    "A070826",
+    "A348507"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 17,
+    "offset": 0,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

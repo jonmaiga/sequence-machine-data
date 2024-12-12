@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of rooted chains starting with the cycle (1)(2)(3)...(n) of length k of permutation poset of n letters.",
+  "id": "A375837",
+  "mentions": [
+    "A000007",
+    "A006472",
+    "A048994",
+    "A057427",
+    "A132393",
+    "A330804",
+    "A331955",
+    "A331956",
+    "A331957",
+    "A375835",
+    "A375836",
+    "A375838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

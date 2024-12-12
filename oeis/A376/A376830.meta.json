@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that tau(k + tau(k)) = tau(k) + tau(tau(k)), where tau = A000005.",
+  "id": "A376830",
+  "mentions": [
+    "A000005",
+    "A115093",
+    "A376831",
+    "A376843",
+    "A376844",
+    "A376848",
+    "A376849",
+    "A376851"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

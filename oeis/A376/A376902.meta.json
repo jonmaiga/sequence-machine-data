@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that the concatenation of their prime factors with multiplicity, in some order, yields the k-th prime number.",
+  "id": "A376902",
+  "mentions": [],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

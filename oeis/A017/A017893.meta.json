@@ -1,7 +1,9 @@
 {
   "description": "Expansion of 1/(1-x^10-x^11-x^12-x^13-x^14-x^15-x^16-x^17).",
   "id": "A017893",
-  "mentions": [],
+  "mentions": [
+    "A017887"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 61,
+    "size": 74,
     "source": "joeis"
   }
 }

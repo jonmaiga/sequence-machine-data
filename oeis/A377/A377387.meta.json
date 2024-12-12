@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k such that A377384(k) = n, or -1 if no such number exists.",
+  "id": "A377387",
+  "mentions": [
+    "A118363",
+    "A376619",
+    "A377211",
+    "A377384"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "TARDIS numbers: the sum of the first and last digits of the decimal expansion is less than the sum of the middle digits.",
+  "id": "A376151",
+  "mentions": [
+    "A101317"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(Sum_{k>=1} phi(k)^3 * x^k/k), where phi is the Euler totient function A000010.",
+  "id": "A377508",
+  "mentions": [
+    "A000010",
+    "A178933",
+    "A318917",
+    "A358714",
+    "A377507",
+    "A377509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

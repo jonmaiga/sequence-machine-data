@@ -2,6 +2,7 @@
   "description": "Expansion of g.f. A(x) satisfying [x^n] x*A'(x) / (1 - n*A(x)) = n^n for n >= 1.",
   "id": "A375452",
   "mentions": [
+    "A375449",
     "A375457"
   ],
   "tags": [

@@ -1,0 +1,24 @@
+{
+  "description": "Number of subwords of the form UDDD in nondecreasing Dyck paths of length 2*n.",
+  "id": "A378383",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A375995",
+    "A377670",
+    "A377679",
+    "A377857",
+    "A377866",
+    "A377867"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

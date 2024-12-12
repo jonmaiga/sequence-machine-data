@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that in base 2 the k-th composite is a substring of the k-th prime.",
+  "id": "A378479",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A175349"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

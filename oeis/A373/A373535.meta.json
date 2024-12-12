@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-conjugate 10 core partitions of n.",
+  "id": "A373535",
+  "mentions": [
+    "A000700",
+    "A121373",
+    "A182805"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

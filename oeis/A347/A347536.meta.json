@@ -1,5 +1,5 @@
 {
-  "description": "Number of minimum dominating sets in the complete tripartite graph K_n,n,n.",
+  "description": "Number of minimum dominating sets in the complete tripartite graph K_{n,n,n}.",
   "id": "A347536",
   "mentions": [
     "A033428",

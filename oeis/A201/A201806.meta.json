@@ -1,5 +1,5 @@
 {
-  "description": "Number of arrays of n integers in -3..3 with sum zero and equal numbers of elements greater than zero and less than zero",
+  "description": "Number of arrays of n integers in -3..3 with sum zero and equal numbers of elements greater than zero and less than zero.",
   "id": "A201806",
   "mentions": [
     "A201811"

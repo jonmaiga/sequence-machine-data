@@ -1,13 +1,13 @@
 {
-  "description": "Count of all nontotients in the reduced residue system of 2n-1.",
+  "description": "Number of nontotients in the reduced residue system of 2n-1.",
   "id": "A072454",
   "mentions": [
     "A000010",
     "A002202",
     "A005277",
     "A037225",
+    "A072106",
     "A072451",
-    "A072453",
     "A072455"
   ],
   "tags": [
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest index k such that prime(k) in base-2 contains n in base-2 as a contiguous substring.",
+  "id": "A377483",
+  "mentions": [
+    "A000040",
+    "A004676",
+    "A062584",
+    "A082058"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,13 @@
   "description": "From generalized Catalan numbers.",
   "id": "A006635",
   "mentions": [
-    "A002293"
+    "A002293",
+    "A006633",
+    "A006634",
+    "A196678",
+    "A233658",
+    "A233666",
+    "A233667"
   ],
   "tags": [
     "formulas",

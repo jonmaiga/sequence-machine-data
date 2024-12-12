@@ -1,5 +1,5 @@
 {
-  "description": "\"2p twin peaks\": a(n) = least x with lpf(x) = lpf(x + 2p) = p = prime(n) and lpf(y) < p for all x < y < x + 2p, where lpf = least prime factor; a(p) = -1 if no such x exists.",
+  "description": "\"2p-twin peaks\": a(n) is the least x with lpf(x) = lpf(x + 2p) = p = prime(n) and lpf(y) < p for all x < y < x + 2p, where lpf = least prime factor; a(n) = -1 if no such x exists.",
   "id": "A009190",
   "mentions": [
     "A002110",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 20,
-    "size": 4,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

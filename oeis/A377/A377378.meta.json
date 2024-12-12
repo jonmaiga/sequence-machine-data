@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum of row n of A376248.",
+  "id": "A377378",
+  "mentions": [
+    "A000203",
+    "A024619",
+    "A244974",
+    "A376248"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

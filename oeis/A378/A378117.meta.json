@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers a(0), a(1), ..., such that a(n) is the number of pairs of adjacent terms whose sum is n.",
+  "id": "A378117",
+  "mentions": [
+    "A001462",
+    "A307707"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

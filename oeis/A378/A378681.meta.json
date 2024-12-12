@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = denominator(Sum_{k=1..n} 1/P_2(k)), where P_2(k) = A087040(k) is the second largest prime dividing the k-th composite number.",
+  "id": "A378681",
+  "mentions": [
+    "A087039",
+    "A087040",
+    "A378680"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

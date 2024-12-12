@@ -2,6 +2,7 @@
   "description": "Maximum number of unlabeled graphs with at most n nodes such that neither one is a subgraph of another.",
   "id": "A371161",
   "mentions": [
+    "A000717",
     "A006897",
     "A371162"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of imaginary part of (2*omega)^(-n) where omega = (-1 + i*3)/ 2.",
+  "description": "Denominator of imaginary part of (3*i - 1)^(-n).",
   "id": "A124872",
   "mentions": [
     "A124869",

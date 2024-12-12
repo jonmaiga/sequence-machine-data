@@ -1,5 +1,5 @@
 {
-  "description": "2^(n^2)+3^n.",
+  "description": "a(n) = 2^(n^2) + 3^n.",
   "id": "A120767",
   "mentions": [
     "A001047",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

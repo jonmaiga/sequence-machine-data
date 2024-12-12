@@ -1,5 +1,5 @@
 {
-  "description": "Number of points on surface of tricapped prism: 7n^2 + 2 for n > 0, a(0)=1.",
+  "description": "Number of points on surface of tricapped prism: a(n) = 7*n^2 + 2 for n > 0, a(0)=1.",
   "id": "A005919",
   "mentions": [
     "A000051",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

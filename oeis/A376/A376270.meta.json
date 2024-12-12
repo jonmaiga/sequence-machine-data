@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the product of the leading digit of n and the sum of the squares of its digits.",
+  "id": "A376270",
+  "mentions": [
+    "A000030",
+    "A000120",
+    "A003132"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

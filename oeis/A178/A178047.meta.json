@@ -1,9 +1,9 @@
 {
-  "description": "Consider the Farey tree A006842/A006843; a(n) = row at which the denominator n first appears (assumes first row is labeled row 0).",
+  "description": "Consider the Farey tree A049455/A049456; a(n) = row at which the denominator n first appears (assumes first row is labeled row 0).",
   "id": "A178047",
   "mentions": [
-    "A006842",
-    "A006843",
+    "A049455",
+    "A049456",
     "A178031",
     "A294443",
     "A295783"

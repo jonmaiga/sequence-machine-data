@@ -2,9 +2,13 @@
   "description": "For odd numbers 2n - 1, half the difference between the largest divisor not exceeding the square root, and the least divisor not less than the square root.",
   "id": "A219695",
   "mentions": [
+    "A001844",
+    "A006254",
+    "A016754",
     "A033676",
     "A033677",
-    "A056737"
+    "A056737",
+    "A377499"
   ],
   "tags": [
     "formulas",

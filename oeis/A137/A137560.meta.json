@@ -1,5 +1,5 @@
 {
-  "description": "Let f(z) = z^2 + c, then row k lists the expansion of the n-fold composition f(f(...f(0)...) in rising powers of c.",
+  "description": "Let f(z) = z^2 + c, then row k lists the expansion of the n-fold composition f(f(...f(0)...)) in rising powers of c.",
   "id": "A137560",
   "mentions": [
     "A000108",

@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 5; thereafter write the cubes of each element in order.",
+  "description": "5, followed by the digits of the cubes of each term.",
   "id": "A059521",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

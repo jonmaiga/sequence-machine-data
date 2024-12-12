@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n^4 + n^3 + n^2 + n + 1.",
   "id": "A053699",
-  "mentions": [],
+  "mentions": [
+    "A055129",
+    "A104878"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 37,
     "source": "joeis"
   }
 }

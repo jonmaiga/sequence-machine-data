@@ -1,10 +1,12 @@
 {
-  "description": "Increasing periods of continued fraction for sqrt(n) (period of continued fraction for sqrt(A013645(n))).",
+  "description": "Successive record periods of continued fraction for sqrt(k) (period of continued fraction for sqrt(A013645(n+1))).",
   "id": "A020640",
   "mentions": [
+    "A003285",
     "A013645"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

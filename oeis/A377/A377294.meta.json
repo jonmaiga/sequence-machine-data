@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least n-digit prime which is the sum of the squares of three consecutive numbers, or -1 if no such prime exists.",
+  "id": "A377294",
+  "mentions": [
+    "A120328",
+    "A376992"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

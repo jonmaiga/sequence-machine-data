@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest prime not yet in the sequence such that pi(a(n)) divides the sum a(n) + n, or -1 if no such prime exists.",
+  "id": "A377788",
+  "mentions": [
+    "A000040",
+    "A000720"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

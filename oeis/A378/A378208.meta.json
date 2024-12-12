@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between any two adjacent faces in a triakis tetrahedron.",
+  "id": "A378208",
+  "mentions": [
+    "A137914",
+    "A156546",
+    "A378204",
+    "A378205",
+    "A378206",
+    "A378207"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

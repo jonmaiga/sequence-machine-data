@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of (floor(2n*sqrt(2))), by antidiagonals.",
+  "description": "Dispersion of (floor(2*n*sqrt(2))), by antidiagonals.",
   "id": "A191540",
   "mentions": [
     "A000040",

@@ -2,11 +2,15 @@
   "description": "G.f. satisfies: A(x) = (1 + x*A(x)^2) * (1 + x/A(x)).",
   "id": "A216359",
   "mentions": [
+    "A073157",
     "A198953",
     "A215623",
-    "A215624"
+    "A215624",
+    "A364331",
+    "A364336"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

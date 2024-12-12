@@ -1,0 +1,18 @@
+{
+  "description": "The smallest positive number k such that the sum of its digits when written in all bases 2 to n equals k, or -1 if no such number exists.",
+  "id": "A376816",
+  "mentions": [
+    "A004209",
+    "A007953",
+    "A376817"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

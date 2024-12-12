@@ -1,0 +1,22 @@
+{
+  "description": "Least number k with a partition k = x_1 + ... + x_j such that the multinomial coefficient k!/(x_1! * ... * x_j!) is equal to n.",
+  "id": "A376368",
+  "mentions": [
+    "A000027",
+    "A036038",
+    "A078760",
+    "A325472",
+    "A376369",
+    "A376370",
+    "A376371"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

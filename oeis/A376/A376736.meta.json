@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the numerator of the expected number of random moves of a chess knight to reach a position outside an nXn chessboard, starting in one of the corners.",
+  "id": "A376736",
+  "mentions": [
+    "A003192",
+    "A212715",
+    "A323131",
+    "A323132",
+    "A323559",
+    "A323560",
+    "A376606",
+    "A376607",
+    "A376609",
+    "A376610",
+    "A376737"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,11 @@
 {
-  "description": "Squares containing 2n digits in which the sum of the first n digits = that of the rest.",
+  "description": "Squares containing 2k digits in which the sum of the first k digits = that of the rest.",
   "id": "A068897",
   "mentions": [
-    "A068896"
+    "A000290",
+    "A068896",
+    "A068898",
+    "A240927"
   ],
   "tags": [
     "base",
@@ -10,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

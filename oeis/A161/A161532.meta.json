@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2n^2 + 8n + 1.",
+  "description": "a(n) = 2*n^2 + 8*n + 1.",
   "id": "A161532",
   "mentions": [
     "A161549",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
+    "size": 49,
     "source": "oeis-bfile"
   }
 }

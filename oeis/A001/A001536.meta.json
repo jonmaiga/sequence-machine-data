@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (11n+1)*(11n+10).",
+  "description": "a(n) = (11*n+1)*(11*n+10).",
   "id": "A001536",
   "mentions": [
     "A017401",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 38,
     "source": "joeis"
   }
 }

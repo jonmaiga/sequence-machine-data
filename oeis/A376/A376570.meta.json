@@ -1,0 +1,19 @@
+{
+  "description": "Table T(n, k), n > 1, k = 1..n-1, read by rows; T(n, k) is the least m such that the points (m, prime(m)), (k, prime(k)) and (n, prime(n)) are aligned (where prime(k) denotes the k-th prime number).",
+  "id": "A376570",
+  "mentions": [
+    "A376187",
+    "A376569",
+    "A376571"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

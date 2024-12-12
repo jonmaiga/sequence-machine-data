@@ -1,0 +1,15 @@
+{
+  "description": "For integers >=2, the number of integer solutions to sqrt((n^2-c)*b^2 + c*(b+1)^2) where b and c are positive integers and c < n^2.",
+  "id": "A376005",
+  "mentions": [
+    "A375336"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

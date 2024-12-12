@@ -1,0 +1,19 @@
+{
+  "description": "Let M(n,x) denote the Maclaurin polynomial of degree 2n for cos x. Let u(n) be the number of nonreal zeros of M(n,x) and v(n) the number of real zeros of M(n,x). Then a(n) = u(n) - v(n).",
+  "id": "A375054",
+  "mentions": [
+    "A374987",
+    "A375053",
+    "A375057",
+    "A376456",
+    "A376457"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

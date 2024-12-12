@@ -1,11 +1,12 @@
 {
-  "description": "a[0] = 0; a[1] = 1; if n is odd then a[n] = 2*a[n - 1] - ( n - 1)*a[n - 2] otherwise a[n] = 2*(a[n - 1] - (n - 2)*a[n - 2])].",
+  "description": "a(0) = 0; a(1) = 1; if n is odd then a(n) = 2*a(n-1) - (n-1)*a(n-2) otherwise a(n) = 2*(a(n-1) - (n-2)*a(n-2)).",
   "id": "A122598",
   "mentions": [
     "A000898",
     "A121966"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

@@ -1,13 +1,16 @@
 {
   "description": "Squares using no prime digit.",
   "id": "A074101",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A084984"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 46,
     "source": "oeis-entry"
   }

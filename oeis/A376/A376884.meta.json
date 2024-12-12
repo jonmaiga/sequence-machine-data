@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary n-sequences ending in 1 with exactly one more occurrence of 11 than 10.",
+  "id": "A376884",
+  "mentions": [
+    "A217615",
+    "A360309"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

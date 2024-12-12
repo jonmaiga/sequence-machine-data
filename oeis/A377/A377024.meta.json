@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the constant F(2) related to asymptotic products of factorials.",
+  "id": "A377024",
+  "mentions": [
+    "A001620",
+    "A002117",
+    "A074962",
+    "A213080",
+    "A377023"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

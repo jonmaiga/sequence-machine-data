@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical triangle from the generalization of A051597:m=2;a(n,k)=m*a(n - 1, k - 1) + m*a(n - 1, k)",
+  "description": "Symmetrical triangle read by rows: T(n, k) = m*(T(n-1, k-1) + T(n-1, k)), where T(n, 1) = T(n, n) = n, and m = 2.",
   "id": "A177696",
   "mentions": [
     "A051597"
@@ -7,12 +7,11 @@
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

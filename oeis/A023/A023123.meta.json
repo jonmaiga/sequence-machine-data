@@ -1,8 +1,14 @@
 {
   "description": "Signature sequence of e (arrange the numbers i+j*x (i,j >= 1) in increasing order; the sequence of i's is the signature of x).",
   "id": "A023123",
-  "mentions": [],
+  "mentions": [
+    "A022843",
+    "A023124"
+  ],
   "tags": [
+    "easy",
+    "eigen",
+    "nice",
     "nonn"
   ],
   "terms": {

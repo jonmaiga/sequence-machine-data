@@ -2,14 +2,16 @@
   "description": "a(1)=1. a(n) = number of earlier terms which don't have 2 or more distinct prime divisors in common with n.",
   "id": "A130024",
   "mentions": [
-    "A131232"
+    "A131232",
+    "A354144"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

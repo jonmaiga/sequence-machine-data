@@ -1,5 +1,5 @@
 {
-  "description": "111n^2 - 3123n + 10753.",
+  "description": "a(n) = 111*n^2 - 3123*n + 10753.",
   "id": "A211607",
   "mentions": [
     "A005846",

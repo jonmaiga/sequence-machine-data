@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of iterations that n requires to reach a noninteger or a factorial number under the map x -> x / f(x), where f(k) = A034968(k) is the sum of digits in the factorial-base representation of k; a(n) = 0 if n is a factorial number.",
+  "id": "A377384",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A034968",
+    "A118363",
+    "A286607",
+    "A376615",
+    "A377208",
+    "A377385",
+    "A377386"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

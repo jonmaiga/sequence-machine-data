@@ -1,0 +1,21 @@
+{
+  "description": "Largest frequency of n in the multiset of multinomial coefficients k!/(x_1! * ... * x_j!) with 1 <= x_1 <= ... <= x_j for a fixed k = x_1 + ... + x_j, i.e., maximum number of times that n appears in a row of A036038.",
+  "id": "A376663",
+  "mentions": [
+    "A036038",
+    "A376369",
+    "A376661",
+    "A376664",
+    "A376665",
+    "A376666",
+    "A376667"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

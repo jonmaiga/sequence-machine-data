@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can appear as both short and long legs of Pythagorean triangles with Pythagorean primes A002144 as hypotenuses.",
+  "id": "A376430",
+  "mentions": [
+    "A002144",
+    "A002365",
+    "A002366",
+    "A376428",
+    "A376429"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

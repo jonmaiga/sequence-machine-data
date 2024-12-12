@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of primes p such that p - 6, p + 6 and 2*n - p are also primes.",
+  "id": "A377014",
+  "mentions": [
+    "A006489",
+    "A045917"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

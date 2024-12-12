@@ -1,5 +1,5 @@
 {
-  "description": "A finite set of numbers relevant for the representation of numbers as primitive distinct sums of three squares (0 square allowed).",
+  "description": "A finite set of numbers relevant for the representation of numbers as primitive distinct sums of three squares (0 squared allowed).",
   "id": "A224449",
   "mentions": [
     "A051952",

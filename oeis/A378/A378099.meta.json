@@ -1,0 +1,18 @@
+{
+  "description": "The smallest number whose sum of proper divisors (aliquot parts) is the repunit number (10^n - 1)/9, denoted by R_n.",
+  "id": "A378099",
+  "mentions": [
+    "A001065",
+    "A002275"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

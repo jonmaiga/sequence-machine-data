@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of divisors of n^n - n.",
+  "id": "A377676",
+  "mentions": [
+    "A000005",
+    "A061190",
+    "A334167",
+    "A372229",
+    "A372599",
+    "A377672",
+    "A377675",
+    "A377677",
+    "A377678"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

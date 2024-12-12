@@ -1,0 +1,17 @@
+{
+  "description": "For integers n>=4, greatest integer that can satisfy sqrt((n^2-c)*b^2 + c*(b+1)^2) where b and c are positive integers and c < n^2.",
+  "id": "A376007",
+  "mentions": [
+    "A375336",
+    "A376005"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 47,
+    "source": "joeis"
+  }
+}

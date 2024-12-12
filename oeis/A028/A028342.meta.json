@@ -2,7 +2,8 @@
   "description": "Expansion of Product_{i>=1} (1 - x^i)^(-1/i); also of exp(Sum_{n>=1} (d(n)*x^n/n)) where d is number of divisors function.",
   "id": "A028342",
   "mentions": [
-    "A000005"
+    "A000005",
+    "A168243"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Given any sufficiently large number k, the smallest number having k as the sum of the cubes of its digits is the concatenation of a(k mod 729) and zero or more 9's.",
+  "description": "a(n) is the smallest integer m, such that for every sufficiently large integer k, A165370(729*k+n) can be written as m followed by zero or more 9's.",
   "id": "A346789",
   "mentions": [
     "A055012",
@@ -9,11 +9,12 @@
   "tags": [
     "base",
     "fini",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

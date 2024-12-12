@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the midradius of a snub dodecahedron with unit edge length.",
+  "id": "A377807",
+  "mentions": [
+    "A239798",
+    "A377804",
+    "A377805",
+    "A377806",
+    "A377849"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

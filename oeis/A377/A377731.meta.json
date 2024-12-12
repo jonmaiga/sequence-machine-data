@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 4 * sqrt(2*Pi) * Gamma(5/4) / (3 * Gamma(3/4)).",
+  "id": "A377731",
+  "mentions": [
+    "A019727",
+    "A068465",
+    "A068467",
+    "A211996",
+    "A377732"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

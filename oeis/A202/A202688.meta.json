@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{n>=0} (-1)^(n+1) / n!!.",
+  "description": "Decimal expansion of Sum_{n>=0} (-1)^n / n!!.",
   "id": "A202688",
   "mentions": [
     "A006882",

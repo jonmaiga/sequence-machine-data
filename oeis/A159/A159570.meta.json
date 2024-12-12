@@ -1,11 +1,11 @@
 {
-  "description": "Continued fraction for 1/(sqrt(2)G), where G is Gauss's constant A014549.",
+  "description": "Continued fraction for 1/(sqrt(2)*G), where G is Gauss's constant A014549.",
   "id": "A159570",
   "mentions": [
-    "A014549"
+    "A014549",
+    "A096427"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

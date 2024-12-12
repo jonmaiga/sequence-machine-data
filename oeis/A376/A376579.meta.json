@@ -1,0 +1,16 @@
+{
+  "description": "Least prime p such that p*n+1 is prime, or -1 if no such prime exists.",
+  "id": "A376579",
+  "mentions": [
+    "A034693",
+    "A051686"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

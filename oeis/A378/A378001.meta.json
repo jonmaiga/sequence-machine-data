@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the (n-1)-th positive integer that is digitally balanced in base n.",
+  "id": "A378001",
+  "mentions": [
+    "A378000"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected pairs of subsets of [n] with each being a different size.",
+  "id": "A377464",
+  "mentions": [
+    "A001187",
+    "A075930",
+    "A323818",
+    "A326749"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,12 @@
 {
-  "description": "Least m such that continued fraction for sqrt(m) has period n.",
+  "description": "Least m such that the continued fraction for sqrt(m) has period n.",
   "id": "A013646",
   "mentions": [
+    "A003285",
     "A215485"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],

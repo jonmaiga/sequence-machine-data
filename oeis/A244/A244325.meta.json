@@ -1,5 +1,5 @@
 {
-  "description": "Floor(antisigma(n) / n), where antisigma(n) = A024816(n) = the sum of the non-divisors of n that are between 1 and n.",
+  "description": "a(n) = floor(antisigma(n) / n), where antisigma(n) = A024816(n) = the sum of the non-divisors of n that are between 1 and n.",
   "id": "A244325",
   "mentions": [
     "A024816",
@@ -7,6 +7,7 @@
     "A244326"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

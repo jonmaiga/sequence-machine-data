@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = cosh( n*arccosh(3^n) ).",
+  "id": "A377253",
+  "mentions": [
+    "A197320"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

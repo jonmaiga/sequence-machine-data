@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies (3*A(x^9)/A(x) - 1)^3 = 9*A(x^3)^3/A(x)^3 - 1 - 9*x.",
+  "id": "A376528",
+  "mentions": [
+    "A376525",
+    "A376526"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

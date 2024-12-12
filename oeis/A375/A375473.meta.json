@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the area of the largest rectangle with integer sides that can be inscribed under the parabola y = -x^2 + n and on or above the x-axis.",
+  "id": "A375473",
+  "mentions": [
+    "A000194",
+    "A361795"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

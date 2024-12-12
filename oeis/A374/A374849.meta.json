@@ -1,0 +1,15 @@
+{
+  "description": "In the binary expansion of n: collapse bits from most to least significant 10 -> 1, 01 -> 0, 00 -> nothing, 11 -> nothing.",
+  "id": "A374849",
+  "mentions": [],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

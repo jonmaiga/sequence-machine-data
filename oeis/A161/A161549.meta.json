@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2n^2 + 14n + 1.",
+  "description": "a(n) = 2*n^2 + 14*n + 1.",
   "id": "A161549",
   "mentions": [
     "A161532",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
+    "size": 48,
     "source": "oeis-bfile"
   }
 }

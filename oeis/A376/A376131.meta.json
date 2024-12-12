@@ -1,0 +1,18 @@
+{
+  "description": "Total number of times all nodes fire in a chip-firing game starting with 2n chips at the root on an infinite binary tree with a loop at the root.",
+  "id": "A376131",
+  "mentions": [
+    "A091090",
+    "A376116",
+    "A376132"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

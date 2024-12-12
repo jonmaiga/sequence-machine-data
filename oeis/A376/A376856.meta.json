@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest unused positive number such that a(n), |a(n) - a(n-1)| and a(1) + ... +a(n) are all palindromes.",
+  "id": "A376856",
+  "mentions": [
+    "A002113",
+    "A073879",
+    "A073880",
+    "A347402",
+    "A361335",
+    "A369127"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

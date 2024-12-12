@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between any two adjacent faces in a tetrakis hexahedron.",
+  "id": "A378389",
+  "mentions": [
+    "A010532",
+    "A156546",
+    "A179587",
+    "A195698",
+    "A195729",
+    "A374359",
+    "A378388"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

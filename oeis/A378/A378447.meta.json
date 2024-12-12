@@ -1,0 +1,17 @@
+{
+  "description": "Difference between {the number of distinct sums of distinct divisors of n} and {the number of distinct sums of distinct proper divisors of n}.",
+  "id": "A378447",
+  "mentions": [
+    "A119347",
+    "A193279"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

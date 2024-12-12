@@ -1,0 +1,35 @@
+{
+  "description": "Decimal expansion of the 7th root of 306.",
+  "id": "A375851",
+  "mentions": [
+    "A010769",
+    "A011186",
+    "A011201",
+    "A011216",
+    "A011231",
+    "A011246",
+    "A011261",
+    "A011276",
+    "A011291",
+    "A011306",
+    "A011321",
+    "A011336",
+    "A011351",
+    "A011366",
+    "A011381",
+    "A011396",
+    "A011411",
+    "A011426"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -2,8 +2,22 @@
   "description": "a(n) = n - pi(2*n) + pi(n-1), where pi is the prime counting function.",
   "id": "A307989",
   "mentions": [
+    "A000040",
     "A000720",
-    "A035250"
+    "A002808",
+    "A035250",
+    "A060715",
+    "A063124",
+    "A065855",
+    "A070046",
+    "A075084",
+    "A077463",
+    "A108954",
+    "A246514",
+    "A307912",
+    "A376759",
+    "A376760",
+    "A376761"
   ],
   "tags": [
     "easy",
@@ -13,6 +27,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

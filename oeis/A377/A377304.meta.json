@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct cuboids whose edges are divisors of n.",
+  "id": "A377304",
+  "mentions": [
+    "A000005",
+    "A086222"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

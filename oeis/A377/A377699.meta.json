@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that (35^k - 2^k)/33 is prime.",
+  "id": "A377699",
+  "mentions": [
+    "A062587",
+    "A062589",
+    "A127996",
+    "A127997",
+    "A128344",
+    "A204940",
+    "A217320",
+    "A225807",
+    "A229542",
+    "A375161",
+    "A375236",
+    "A377031"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

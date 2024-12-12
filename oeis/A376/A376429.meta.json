@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that occur as longer legs of Pythagorean triangles with Pythagorean primes A002144 as hypotenuses.",
+  "id": "A376429",
+  "mentions": [
+    "A002144",
+    "A002365",
+    "A020883",
+    "A376428",
+    "A376430"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

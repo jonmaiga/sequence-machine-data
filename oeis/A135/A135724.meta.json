@@ -11,12 +11,11 @@
     "A135723"
   ],
   "tags": [
-    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 6,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

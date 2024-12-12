@@ -2,6 +2,7 @@
   "description": "Expansion of g.f.: 1/sqrt(1 - 10*x - 11*x^2).",
   "id": "A322246",
   "mentions": [
+    "A098658",
     "A322247"
   ],
   "tags": [

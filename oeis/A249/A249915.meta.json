@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the decimal expansions of both n and n^2 have 2 as smallest digit and 6 as largest digit.",
+  "description": "Numbers k such that the decimal expansions of both k and k^2 have 2 as smallest digit and 6 as largest digit.",
   "id": "A249915",
   "mentions": [
     "A137067",

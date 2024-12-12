@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n-step king-knight's tours (piece capable of both kinds of moves) on a kXk board summed over all starting positions",
+  "description": "T(n,k) is the number of n-step king-knight's tours (piece capable of both kinds of moves) on a k X k board summed over all starting positions.",
   "id": "A187850",
   "mentions": [
     "A104188"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

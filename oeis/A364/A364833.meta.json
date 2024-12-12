@@ -2,6 +2,8 @@
   "description": "G.f. satisfies A(x) = 1 + x*A(x)^2/(1 - x^3*A(x)^3).",
   "id": "A364833",
   "mentions": [
+    "A001003",
+    "A049124",
     "A112806",
     "A218251",
     "A219537",

@@ -1,0 +1,20 @@
+{
+  "description": "Largest unitary square divisor of binomial(n, floor(n/2)).",
+  "id": "A376553",
+  "mentions": [
+    "A001405",
+    "A350388",
+    "A376554",
+    "A376555",
+    "A376556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

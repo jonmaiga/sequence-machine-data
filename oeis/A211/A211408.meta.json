@@ -1,8 +1,9 @@
 {
-  "description": "Number of letters in the English name of n, excluding spaces and hyphens, equals number of letters in the English name of R(n), excluding spaces and hyphens.",
+  "description": "Numbers k such that the number of letters, excluding spaces and hyphens, in the English names of k and its reversal are the same.",
   "id": "A211408",
   "mentions": [
     "A000027",
+    "A002113",
     "A004086",
     "A005589",
     "A107322"
@@ -11,7 +12,8 @@
     "base",
     "easy",
     "formulas",
-    "nonn"
+    "nonn",
+    "word"
   ],
   "terms": {
     "offset": 0,

@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,0) = 0^n and T(n,k) = k * Sum_{r=0..n} binomial(2*n+k,r) * binomial(r,n-r)/(2*n+k) for k > 0.",
+  "id": "A378292",
+  "mentions": [
+    "A000007",
+    "A006605",
+    "A009766",
+    "A026300",
+    "A143927",
+    "A378289",
+    "A378290",
+    "A378291"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

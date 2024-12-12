@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest prime q such that the concatenation (p + q)\"q is a prime number, where p = prime(n).",
+  "id": "A375553",
+  "mentions": [
+    "A000040",
+    "A174414",
+    "A375552"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

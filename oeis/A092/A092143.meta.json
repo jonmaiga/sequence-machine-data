@@ -2,13 +2,16 @@
   "description": "Cumulative product of all divisors of 1..n.",
   "id": "A092143",
   "mentions": [
+    "A000005",
     "A006218",
+    "A007955",
     "A010786",
     "A092144",
     "A117871",
     "A129364",
     "A129365",
     "A129439",
+    "A175493",
     "A345466"
   ],
   "tags": [
@@ -17,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

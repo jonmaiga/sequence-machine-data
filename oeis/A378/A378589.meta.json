@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (1 - 2*A143304)/4.",
+  "id": "A378589",
+  "mentions": [
+    "A001620",
+    "A002162",
+    "A002388",
+    "A053510",
+    "A074962",
+    "A086237",
+    "A143304",
+    "A225746"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

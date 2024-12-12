@@ -1,7 +1,10 @@
 {
-  "description": "An integer differential Schroedinger Hamiltonian for primes as a triangular sequence: g(n)]= K=integer<=n: Ep(n,K) = (K n Prime[n] - 2 K n Prime[1 + n] + K n Prime[2 + n] + Prime[n] g(n))/(n*Prime[n]).",
+  "description": "Triangle t(n, k) = k*n*(prime(n+2) - 2*prime(n+1) + prime(n)) + prime(n), 0 <= k <= n = 1, 2, 3, ...",
   "id": "A147815",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A036263"
+  ],
   "tags": [
     "formulas",
     "less",

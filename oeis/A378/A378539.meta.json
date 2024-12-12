@@ -1,0 +1,21 @@
+{
+  "description": "Characteristic function for numbers that have Zumkeller divisors.",
+  "id": "A378539",
+  "mentions": [
+    "A083206",
+    "A294936",
+    "A376880",
+    "A378446",
+    "A378537",
+    "A378538"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

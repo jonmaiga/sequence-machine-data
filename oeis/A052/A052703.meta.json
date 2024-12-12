@@ -1,7 +1,10 @@
 {
   "description": "A simple context-free grammar.",
   "id": "A052703",
-  "mentions": [],
+  "mentions": [
+    "A001002",
+    "A052706"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 28,
     "source": "joeis"
   }
 }

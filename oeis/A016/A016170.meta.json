@@ -1,7 +1,8 @@
 {
-  "description": "Expansion of 1/((1-6x)(1-8x)).",
+  "description": "Expansion of 1/((1-6*x)*(1-8*x)).",
   "id": "A016170",
   "mentions": [
+    "A016129",
     "A081033",
     "A081201"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

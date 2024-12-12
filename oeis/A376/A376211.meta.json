@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which among all possible Pythagorean triangles with the hypotenuse 4*k+1, the minimum of the lengths of the shorter legs is odd.",
+  "id": "A376211",
+  "mentions": [
+    "A087938",
+    "A094178",
+    "A375750",
+    "A376208",
+    "A376210"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

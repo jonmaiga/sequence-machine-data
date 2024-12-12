@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that at least one of the numbers 6k-1 or 6k+1 is prime",
+  "id": "A377540",
+  "mentions": [
+    "A002476",
+    "A007528",
+    "A024898",
+    "A024899",
+    "A060461",
+    "A171696"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

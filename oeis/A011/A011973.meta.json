@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle of numbers read by rows: {binomial(n-k, k), n >= 0, 0 <= k <= floor(n/2)}; or, triangle of coefficients of (one version of) Fibonacci polynomials.",
+  "description": "Irregular triangle read by rows: T(n,k) = binomial(n-k, k), n >= 0, 0 <= k <= floor(n/2); or, coefficients of (one version of) Fibonacci polynomials.",
   "id": "A011973",
   "mentions": [
     "A000045",

@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^(k^2) * Product_{j=1..k} ((1 + x^j)/(1 - x^j))^2.",
+  "id": "A376854",
+  "mentions": [
+    "A000041",
+    "A066447",
+    "A216222",
+    "A376852",
+    "A376853"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

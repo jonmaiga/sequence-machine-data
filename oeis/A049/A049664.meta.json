@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = (F(6*n+3) - 2)/32, where F=A000045 (the Fibonacci sequence).",
+  "description": "a(n) = (F(6*n+3) - 2)/32, where F = A000045 (the Fibonacci sequence).",
   "id": "A049664",
   "mentions": [
     "A000045",
+    "A001622",
     "A049660",
     "A053606",
     "A212336"

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} erfc(x)^2 dx, where erfc is the complementary error function.",
+  "id": "A377143",
+  "mentions": [
+    "A002161",
+    "A101465",
+    "A377144"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose prime factorization has an even minimum exponent.",
+  "id": "A376172",
+  "mentions": [
+    "A001248",
+    "A001694",
+    "A051904",
+    "A062503",
+    "A325240",
+    "A376173"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

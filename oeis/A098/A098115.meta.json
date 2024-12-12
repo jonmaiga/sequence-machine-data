@@ -1,21 +1,23 @@
 {
-  "description": "a(n) is the length of iteration-trajectory when cototient-function[=A051953] is applied to the half of n-th primorial number[=A002110(n)/2].",
+  "description": "a(n) is the length of iteration trajectory when the cototient function (A051953) is applied to the half of the n-th primorial number (A070826(n) = A002110(n)/2).",
   "id": "A098115",
   "mentions": [
     "A002110",
     "A051953",
     "A053475",
+    "A070826",
     "A098200",
     "A098201",
     "A098202"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 57,
     "source": "oeis-entry"
   }
 }

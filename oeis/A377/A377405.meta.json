@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Pi*csc(Pi/5).",
+  "id": "A377405",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A002163",
+    "A010476",
+    "A019692",
+    "A175380",
+    "A340722",
+    "A345019",
+    "A352324"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

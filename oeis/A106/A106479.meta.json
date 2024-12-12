@@ -2,7 +2,11 @@
   "description": "First column in inverse of Euler phi sequence matrix.",
   "id": "A106479",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A106476",
+    "A106477",
+    "A106478",
+    "A106480"
   ],
   "tags": [
     "easy",

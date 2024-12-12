@@ -1,0 +1,17 @@
+{
+  "description": "Characteristic numbers of Markov triples in the binary tree A368546.",
+  "id": "A368134",
+  "mentions": [
+    "A368546"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

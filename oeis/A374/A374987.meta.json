@@ -1,0 +1,19 @@
+{
+  "description": "Let s(x) be the Maclaurin series for cos(x); then a(n) is the least index k for which all partial sums of cos(2m*Pi) are positive.",
+  "id": "A374987",
+  "mentions": [
+    "A375053",
+    "A375054",
+    "A375057",
+    "A376456",
+    "A376457"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

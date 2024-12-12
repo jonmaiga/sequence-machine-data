@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 3^n + 2^(3*n + 1) - 2^(2*n + 1).",
+  "id": "A377641",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

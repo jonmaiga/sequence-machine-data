@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes n=pq such that the polynomial (1+x)^n (mod n) has p+q nonzero terms.",
+  "description": "Semiprimes k=p*q such that the polynomial (1+x)^k (mod k) has p+q nonzero terms.",
   "id": "A116926",
   "mentions": [
     "A007012"

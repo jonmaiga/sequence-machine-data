@@ -2,8 +2,10 @@
   "description": "Level 1 of Pascal's pyramid. T(n, k) triangle read by rows for n >= 0 and 0 <= k <= n.",
   "id": "A323211",
   "mentions": [
+    "A000045",
     "A014473",
     "A323227",
+    "A323230",
     "A323231"
   ],
   "tags": [

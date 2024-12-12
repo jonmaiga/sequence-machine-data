@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p^64 + 2^64 is prime.",
+  "id": "A375217",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A132260"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

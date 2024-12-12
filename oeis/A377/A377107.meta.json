@@ -1,0 +1,16 @@
+{
+  "description": "G.f.: Sum_{k>=1} x^(7*k-1) * Product_{j=1..k-1} (1-x^(6*k+j-1))/(1-x^j).",
+  "id": "A377107",
+  "mentions": [
+    "A350879"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Least k such that for every integer i > k there are at least n composite numbers less than i and relatively prime to i.",
+  "id": "A377259",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

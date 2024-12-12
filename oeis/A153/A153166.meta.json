@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that 6n+1 is prime and uses only digits 2 and 3.",
+  "description": "Numbers k with property that 6*k+1 is prime and uses only digits 2 and 3.",
   "id": "A153166",
   "mentions": [
     "A153165"

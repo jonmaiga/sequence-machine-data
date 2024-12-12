@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form: floor(Pi*n^2).",
+  "description": "Primes of the form floor(Pi*n^2).",
   "id": "A227794",
   "mentions": [
     "A066643",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

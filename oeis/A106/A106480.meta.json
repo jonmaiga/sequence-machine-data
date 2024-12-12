@@ -1,7 +1,13 @@
 {
   "description": "Row sums of inverse of sequence array for Euler phi function.",
   "id": "A106480",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A106476",
+    "A106477",
+    "A106478",
+    "A106479"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -2,7 +2,8 @@
   "description": "3rd Bernoulli polynomial evaluated at powers of 2 (multiplied by 6).",
   "id": "A020528",
   "mentions": [
-    "A016290"
+    "A016290",
+    "A020527"
   ],
   "tags": [
     "formulas",

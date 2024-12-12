@@ -1,5 +1,5 @@
 {
-  "description": "Values of i such that phi(n)=4i+2 has 4 solutions.",
+  "description": "Values of i such that phi(x) = 4i+2 has 4 solutions.",
   "id": "A051479",
   "mentions": [
     "A000010",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "joeis"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

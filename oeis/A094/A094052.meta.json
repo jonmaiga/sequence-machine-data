@@ -2,6 +2,7 @@
   "description": "Number of walks of length n between two adjacent nodes in the cycle graph C_7.",
   "id": "A094052",
   "mentions": [
+    "A094648",
     "A095307",
     "A095308"
   ],

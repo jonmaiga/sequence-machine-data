@@ -2,15 +2,17 @@
   "description": "Triangular numbers whose digits can be rearranged to form a substring of 123456789012345678901234....",
   "id": "A068804",
   "mentions": [
-    "A068708"
+    "A000217",
+    "A068708",
+    "A376300"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 31,
-    "source": "joeis"
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

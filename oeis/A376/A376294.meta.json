@@ -1,0 +1,19 @@
+{
+  "description": "The product of n's prime powers, with the base and exponent concatenated.",
+  "id": "A376294",
+  "mentions": [
+    "A287483",
+    "A376254"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = (F(8*n+5) - 2)/3, where F=A000045 (the Fibonacci sequence).",
+  "description": "a(n) = (F(8*n+5) - 2)/3, where F = A000045 (the Fibonacci sequence).",
   "id": "A049658",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A242671"
   ],
   "tags": [
     "formulas",

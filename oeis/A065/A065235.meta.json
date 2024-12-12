@@ -2,10 +2,17 @@
   "description": "Odd numbers which can be written in precisely one way as sum of a subset of their proper divisors.",
   "id": "A065235",
   "mentions": [
+    "A000035",
+    "A033630",
     "A064771",
-    "A136446"
+    "A065205",
+    "A136446",
+    "A228058",
+    "A348743",
+    "A378448"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

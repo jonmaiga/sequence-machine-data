@@ -2,13 +2,16 @@
   "description": "Product of remainders of prime(n) mod k, for k = 2,3,4,...,prime(n)-1",
   "id": "A180492",
   "mentions": [
+    "A000040",
     "A000142",
     "A004125",
     "A034386",
+    "A173392",
     "A180491",
     "A180493"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

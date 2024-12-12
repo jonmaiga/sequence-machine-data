@@ -1,0 +1,18 @@
+{
+  "description": "n appears n^4 times.",
+  "id": "A377722",
+  "mentions": [
+    "A002024",
+    "A074279",
+    "A108582"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

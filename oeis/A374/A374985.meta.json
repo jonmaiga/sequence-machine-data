@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of n X k matrices whose values cover an initial interval of positive integers and whose rows and columns have values which are strictly increasing.",
+  "id": "A374985",
+  "mentions": [
+    "A000012",
+    "A001003",
+    "A060854",
+    "A105124",
+    "A299968",
+    "A374514"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

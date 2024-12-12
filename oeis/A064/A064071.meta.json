@@ -1,14 +1,17 @@
 {
   "description": "Generalized Euler number c(10,n).",
   "id": "A064071",
-  "mentions": [],
+  "mentions": [
+    "A235605"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 10,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

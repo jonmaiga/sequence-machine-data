@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of the Collatz sequence.",
+  "description": "Partial sums of A006577.",
   "id": "A058633",
   "mentions": [
     "A006577"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 54,
     "source": "oeis-bfile"
   }
 }

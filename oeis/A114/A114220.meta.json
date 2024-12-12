@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..floor(n/2)} k-(k-1)*0^(n-2k).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (k - (k-1)*0^(n-2*k)).",
   "id": "A114220",
   "mentions": [
     "A055802",

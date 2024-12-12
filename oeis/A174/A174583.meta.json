@@ -1,5 +1,5 @@
 {
-  "description": "Smallest natural n = n(k) that concatenation (n-k)//n (k = 0, 1, 2, ...) is a prime number.",
+  "description": "a(k) is the least n such that the concatenation (n - k)\"n is a prime number, for k >= 0.",
   "id": "A174583",
   "mentions": [
     "A089712",
@@ -10,11 +10,10 @@
   ],
   "tags": [
     "base",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 72,
     "source": "oeis-entry"
   }

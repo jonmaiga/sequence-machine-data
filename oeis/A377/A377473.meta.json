@@ -1,0 +1,20 @@
+{
+  "description": "Distinct first differences of Colombian or self numbers (A377472), listed in the order they appear.",
+  "id": "A377473",
+  "mentions": [
+    "A003052",
+    "A163139",
+    "A377423",
+    "A377472",
+    "A377474"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

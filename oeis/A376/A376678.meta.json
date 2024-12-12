@@ -1,0 +1,40 @@
+{
+  "description": "Position of first zero in the n-th differences of the primes, or 0 if it does not appear.",
+  "id": "A376678",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001223",
+    "A007442",
+    "A008578",
+    "A030016",
+    "A036263",
+    "A064113",
+    "A065890",
+    "A084758",
+    "A095195",
+    "A140119",
+    "A258025",
+    "A258026",
+    "A333214",
+    "A333254",
+    "A349643",
+    "A376681",
+    "A376682",
+    "A376683",
+    "A376855",
+    "A377037",
+    "A377042",
+    "A377050",
+    "A377055"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

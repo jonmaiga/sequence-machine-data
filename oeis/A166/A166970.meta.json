@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that number of perfect partitions of n minus the count of divisors of n is prime.",
+  "description": "Numbers k such that number of perfect partitions of k minus the count of divisors of k is prime.",
   "id": "A166970",
   "mentions": [
     "A000005",

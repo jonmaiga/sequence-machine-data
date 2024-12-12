@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of (4n-floor(n*sqrt(3))), by antidiagonals.",
+  "description": "Dispersion of (4*n-floor(n*sqrt(3))), by antidiagonals.",
   "id": "A191538",
   "mentions": [
     "A000040",

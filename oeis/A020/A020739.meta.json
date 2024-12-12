@@ -1,9 +1,11 @@
 {
-  "description": "2n + 6.",
+  "description": "a(n) = 2*n + 6.",
   "id": "A020739",
   "mentions": [
     "A005843",
-    "A008776"
+    "A008776",
+    "A009056",
+    "A028557"
   ],
   "tags": [
     "easy",

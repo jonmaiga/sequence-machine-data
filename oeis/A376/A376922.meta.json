@@ -1,0 +1,18 @@
+{
+  "description": "Variance of n-th power of a standard normal random variable.",
+  "id": "A376922",
+  "mentions": [
+    "A001147",
+    "A103639",
+    "A123023"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

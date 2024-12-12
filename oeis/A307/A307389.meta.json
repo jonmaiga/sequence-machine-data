@@ -1,7 +1,9 @@
 {
   "description": "a(n) is the number of elements in the species of orbit polytopes in dimension n.",
   "id": "A307389",
-  "mentions": [],
+  "mentions": [
+    "A376544"
+  ],
   "tags": [
     "formulas",
     "nonn"

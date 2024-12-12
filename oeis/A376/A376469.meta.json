@@ -1,0 +1,17 @@
+{
+  "description": "Starts of runs of 3 consecutive integers in which each member of the run has at least one divisor of the form p^e with p <= e, where p is a prime.",
+  "id": "A376469",
+  "mentions": [
+    "A070258",
+    "A100716",
+    "A129254"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

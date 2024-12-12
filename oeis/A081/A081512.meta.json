@@ -2,6 +2,7 @@
   "description": "a(n) = smallest number which can be expressed as the sum of n of its distinct divisors, or 0 if no such number exists.",
   "id": "A081512",
   "mentions": [
+    "A033630",
     "A081513",
     "A081514",
     "A081515",

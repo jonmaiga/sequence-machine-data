@@ -1,5 +1,5 @@
 {
-  "description": "5*p^5 - 3*p^3 - 2*p^2, where p = prime(n).",
+  "description": "a(n) = 5*p^5 - 3*p^3 - 2*p^2, where p = prime(n).",
   "id": "A133061",
   "mentions": [
     "A000040",
@@ -10,6 +10,7 @@
     "A133070"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

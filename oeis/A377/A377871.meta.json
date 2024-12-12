@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that neither k nor A276085(k) has divisors of the form p^p, where A276085 is fully additive with a(p) = p#/p.",
+  "id": "A377871",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006862",
+    "A046315",
+    "A048103",
+    "A057588",
+    "A100484",
+    "A143293",
+    "A276085",
+    "A276086",
+    "A276087",
+    "A276092",
+    "A369002",
+    "A376416",
+    "A377869",
+    "A377870",
+    "A377873"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

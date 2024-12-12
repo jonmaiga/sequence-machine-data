@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered partitions of S={(i,j):1 <= i , j <= n} where for every i and j the pairs (i+1,j) and (i,j+1) are in a later part than the part containing the pair (i,j), and the pairs (i,j), (j,i) are in the same part.",
+  "id": "A376162",
+  "mentions": [
+    "A000670",
+    "A003121",
+    "A006541",
+    "A374514"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

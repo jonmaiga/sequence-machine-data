@@ -1,14 +1,17 @@
 {
   "description": "Prime factors in a divisibility sequence of the Lucas sequence v(P=3,Q=5) of the second kind.",
   "id": "A164816",
-  "mentions": [],
+  "mentions": [
+    "A057719",
+    "A066364",
+    "A087807"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

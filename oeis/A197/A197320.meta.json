@@ -1,7 +1,9 @@
 {
   "description": "a(n) = cosh(n*arccosh(2^n)).",
   "id": "A197320",
-  "mentions": [],
+  "mentions": [
+    "A377253"
+  ],
   "tags": [
     "formulas",
     "nonn"

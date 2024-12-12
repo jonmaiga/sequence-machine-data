@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(Sum_{k>=1} A000082(k)*x^k/k).",
+  "id": "A377154",
+  "mentions": [
+    "A000082",
+    "A001615",
+    "A308462"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

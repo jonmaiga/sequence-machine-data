@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of ([nx+n+x]), where x=(golden ratio) and [ ]=floor, by antidiagonals.",
+  "description": "Dispersion of ([n*x+n+x]), where x=(golden ratio) and [ ]=floor, by antidiagonals.",
   "id": "A191435",
   "mentions": [
     "A000040",

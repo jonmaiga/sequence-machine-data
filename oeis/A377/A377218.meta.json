@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of the o.g.f. A(x) defined by [x^n] A(x)^(24*n) = (4*n)!/n!^4 for n >= 0.",
+  "id": "A377218",
+  "mentions": [
+    "A000984",
+    "A008977",
+    "A082368",
+    "A333042",
+    "A370294",
+    "A377217",
+    "A377219"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

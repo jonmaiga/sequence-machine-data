@@ -2,7 +2,10 @@
   "description": "Previous term + prime(previous term).",
   "id": "A074271",
   "mentions": [
+    "A000040",
+    "A000720",
     "A007097",
+    "A093502",
     "A179274"
   ],
   "tags": [

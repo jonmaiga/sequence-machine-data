@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying [x^n] x*A'(x) / (1 - n*A(x)) = n^(n+1) for n >= 1.",
+  "id": "A375449",
+  "mentions": [
+    "A375448",
+    "A375452"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

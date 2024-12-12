@@ -1,15 +1,17 @@
 {
-  "description": "(n^2)-th composite number.",
+  "description": "The (n^2)-th composite number.",
   "id": "A073171",
   "mentions": [
+    "A000290",
     "A002808"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Characteristic function of A267124, primitive practical numbers",
+  "id": "A378454",
+  "mentions": [
+    "A005153",
+    "A008966",
+    "A267124",
+    "A322860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

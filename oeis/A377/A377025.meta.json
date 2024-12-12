@@ -1,0 +1,18 @@
+{
+  "description": "Squares and cubes that are not 6th powers.",
+  "id": "A377025",
+  "mentions": [
+    "A001014",
+    "A002760",
+    "A125643"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

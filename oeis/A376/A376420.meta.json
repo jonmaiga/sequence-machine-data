@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the next number after n! with the same number of prime factors as n!, counted with multiplicity.",
+  "id": "A376420",
+  "mentions": [
+    "A000142",
+    "A001222",
+    "A022559"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

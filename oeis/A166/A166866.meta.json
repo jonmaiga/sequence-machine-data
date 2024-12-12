@@ -1,5 +1,5 @@
 {
-  "description": "Mixed fractal sequence mf(n). Mix fractals A158405, A002260.",
+  "description": "Interleave the fractals A158405, A002260.",
   "id": "A166866",
   "mentions": [
     "A001105",
@@ -10,8 +10,7 @@
     "A166494"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

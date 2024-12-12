@@ -1,28 +1,31 @@
 {
-  "description": "At these values of n the first, 2nd, 3rd, 4th and 5th cyclotomic polynomials all give prime numbers.",
+  "description": "At these values of k the 1st, 2nd, 3rd, 4th and 5th cyclotomic polynomials all give prime numbers.",
   "id": "A070042",
   "mentions": [
     "A000068",
     "A005574",
     "A006313",
+    "A006314",
+    "A006315",
     "A006316",
     "A056993",
+    "A056994",
     "A056995",
     "A057002",
     "A057465",
     "A070020",
     "A070025",
     "A070155",
+    "A070156",
     "A070157"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

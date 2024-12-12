@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of distinct integer-sided right triangles that can be drawn into a square with side length n.",
+  "id": "A376900",
+  "mentions": [
+    "A009012"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

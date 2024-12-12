@@ -1,5 +1,5 @@
 {
-  "description": "a(|tb|,r)= Mosaic number of the Legendrian unknot, read by rows of the mountain range organized by Thurston-Bennequin number and rotation number, where 1-|tb|<=r<=|tb|-1.",
+  "description": "T(|tb|,r) is the mosaic number of the Legendrian unknot, read by rows of the mountain range organized by Thurston-Bennequin number and rotation number, where 1-|tb|<=r<=|tb|-1.",
   "id": "A374942",
   "mentions": [
     "A374939",

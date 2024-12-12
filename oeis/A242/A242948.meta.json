@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A = n+DigitProd(n) is divisible by the largest power of 10 <= A.",
+  "description": "Numbers k such that A = k+DigitProd(k) is divisible by the largest power of 10 <= A.",
   "id": "A242948",
   "mentions": [
     "A007954",

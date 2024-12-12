@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = digitsum of A302656(n).",
+  "id": "A376769",
+  "mentions": [
+    "A007953",
+    "A302656",
+    "A376770",
+    "A376771",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377906",
+    "A377911"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

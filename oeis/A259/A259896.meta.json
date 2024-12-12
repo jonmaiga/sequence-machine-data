@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of psi(x) * psi(x^6) in powers of x where phi() is a Ramanujan theta function.",
+  "description": "Expansion of psi(x) * psi(x^6) in powers of x where psi() is a Ramanujan theta function.",
   "id": "A259896",
   "mentions": [
     "A000122",

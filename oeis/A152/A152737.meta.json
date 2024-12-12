@@ -1,12 +1,16 @@
 {
-  "description": "Floor(n^phi) where phi is the golden ratio.",
+  "description": "a(n) = floor(n^phi) where phi is the golden ratio.",
   "id": "A152737",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A014217"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 57,
     "source": "oeis-bfile"
   }

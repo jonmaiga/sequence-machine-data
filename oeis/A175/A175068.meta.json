@@ -2,11 +2,15 @@
   "description": "a(n) = product of perfect divisors of n.",
   "id": "A175068",
   "mentions": [
+    "A000203",
     "A001597",
+    "A007916",
+    "A052409",
     "A175069",
     "A175084",
     "A175085",
-    "A175087"
+    "A175087",
+    "A346403"
   ],
   "tags": [
     "formulas",

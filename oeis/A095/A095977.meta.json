@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 2*x / ((1+x)^2*(1-2*x)^2).",
+  "description": "Expansion of g.f. 2*x / ((1+x)^2*(1-2*x)^2).",
   "id": "A095977",
   "mentions": [
     "A073371",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 8191 * 2^k + 1 is prime.",
+  "id": "A377248",
+  "mentions": [
+    "A000668",
+    "A001771",
+    "A002253",
+    "A002254",
+    "A061644"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

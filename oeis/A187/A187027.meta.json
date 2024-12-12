@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of n-step one or two collinear space at a time queen's tours on a kXk board summed over all starting positions",
+  "description": "T(n,k) is the number of n-step one or two collinear space at a time queen's tours on a k X k board summed over all starting positions.",
   "id": "A187027",
   "mentions": [
     "A104188"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

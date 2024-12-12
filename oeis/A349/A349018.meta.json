@@ -1,9 +1,10 @@
 {
-  "description": "G.f. satisfies: A(x) = 1/(1 - x/(1 - x*A(x)))^4.",
+  "description": "G.f. A(x) satisfies A(x) = 1/(1 - x/(1 - x*A(x)))^4.",
   "id": "A349018",
   "mentions": [
     "A262441",
-    "A349017"
+    "A349017",
+    "A364723"
   ],
   "tags": [
     "formulas",

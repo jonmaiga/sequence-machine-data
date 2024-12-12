@@ -1,0 +1,48 @@
+{
+  "description": "Position of first appearance of n in A057820, the sequence of first differences of prime-powers, or 0 if n does not appear.",
+  "id": "A376341",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001223",
+    "A001597",
+    "A003242",
+    "A005117",
+    "A006549",
+    "A007916",
+    "A024619",
+    "A024622",
+    "A025475",
+    "A025528",
+    "A037201",
+    "A038664",
+    "A053289",
+    "A057820",
+    "A076259",
+    "A110969",
+    "A116608",
+    "A116861",
+    "A120430",
+    "A174965",
+    "A246655",
+    "A333489",
+    "A361102",
+    "A373400",
+    "A375706",
+    "A375708",
+    "A376308",
+    "A376309",
+    "A376310",
+    "A376311",
+    "A376340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

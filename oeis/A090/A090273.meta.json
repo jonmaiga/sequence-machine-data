@@ -2,6 +2,7 @@
   "description": "Numbers with a palindromic digital product.",
   "id": "A090273",
   "mentions": [
+    "A007954",
     "A046510",
     "A090274"
   ],
@@ -11,7 +12,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 65,
     "source": "oeis-entry"
   }

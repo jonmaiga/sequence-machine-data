@@ -1,8 +1,11 @@
 {
   "description": "Number of ways to partition an n X 6 grid into 6 connected equal-area regions",
   "id": "A167254",
-  "mentions": [],
+  "mentions": [
+    "A167262"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

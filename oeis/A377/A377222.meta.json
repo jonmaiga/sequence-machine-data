@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1/x) * series_reversion(x*E_6(x)), where E_6(x) is the Eisenstein series of weight 6.",
+  "id": "A377222",
+  "mentions": [
+    "A109817",
+    "A377220",
+    "A377223"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

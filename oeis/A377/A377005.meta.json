@@ -1,0 +1,16 @@
+{
+  "description": "Number of inequivalent 2*n X 10 binary arrays with row sums 5 and column sums n up to row and column permutations.",
+  "id": "A377005",
+  "mentions": [
+    "A172557",
+    "A377007"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

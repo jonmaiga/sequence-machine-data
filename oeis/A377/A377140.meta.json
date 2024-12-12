@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that have more biquadratefree divisors than any smaller number.",
+  "id": "A377140",
+  "mentions": [
+    "A025487",
+    "A046100",
+    "A252505",
+    "A365681",
+    "A377139"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

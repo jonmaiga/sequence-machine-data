@@ -2,7 +2,10 @@
   "description": "Conductors of elliptic curves.",
   "id": "A005788",
   "mentions": [
-    "A060564"
+    "A060564",
+    "A110563",
+    "A110620",
+    "A217055"
   ],
   "tags": [
     "nonn"

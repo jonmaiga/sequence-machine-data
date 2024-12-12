@@ -1,19 +1,19 @@
 {
-  "description": "New triangular sequence of coefficients based on A123125 Eulerian numbers as: ( Like A109128 to the Binomials) t(n,m)=2*A123125(n,m)-1.",
+  "description": "Triangle, read by rows, T(n, k) = 2*A123125(n-1, k), for n >= 2, otherwise T(n, 0) = T(n, n) = -1, with T(0, 0) = T(1, 0) = 1.",
   "id": "A141591",
   "mentions": [
+    "A008292",
     "A109128",
     "A123125"
   ],
   "tags": [
     "formulas",
     "sign",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 72,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

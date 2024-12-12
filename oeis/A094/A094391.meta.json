@@ -1,5 +1,5 @@
 {
-  "description": "A Beatty sequence using exp(Pi/4)/(exp(Pi/4)-1).",
+  "description": "A Beatty sequence using exp(Pi/4)/(exp(Pi/4) - 1).",
   "id": "A094391",
   "mentions": [
     "A094390"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

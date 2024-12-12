@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of digits of n^n is a square.",
+  "description": "Numbers k such that the sum of digits of k^k is a square.",
   "id": "A066236",
   "mentions": [
     "A000290",

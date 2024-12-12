@@ -1,5 +1,5 @@
 {
-  "description": "Round(1/(Pi-n*sin(Pi/n))).",
+  "description": "a(n) = round(1/(Pi-n*sin(Pi/n))).",
   "id": "A248578",
   "mentions": [
     "A248355",

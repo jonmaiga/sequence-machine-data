@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real root of x^3 + 2*x^2 - phi^2, where phi is the golden ratio (A001622).",
+  "id": "A377849",
+  "mentions": [
+    "A001622",
+    "A377805",
+    "A377806",
+    "A377807"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

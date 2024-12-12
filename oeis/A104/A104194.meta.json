@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = phi(n) - CarmichaelLambda(n).",
+  "description": "a(n) = phi(n) - lambda(n).",
   "id": "A104194",
   "mentions": [
     "A000010",
     "A002322",
+    "A033948",
     "A034380"
   ],
   "tags": [

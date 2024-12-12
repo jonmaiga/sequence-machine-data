@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet inverse of the arithmetic mean between the Dirichlet inverses of {sum of unitary divisors} and {sum of squarefree divisors}.",
+  "id": "A378435",
+  "mentions": [
+    "A034448",
+    "A048111",
+    "A048250",
+    "A158523",
+    "A178450",
+    "A325973",
+    "A378433",
+    "A378434"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

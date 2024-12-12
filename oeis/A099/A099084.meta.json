@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1.2. ... .n-1.n + 4 is a prime (dot between numbers means concatenation).",
+  "description": "Numbers k such that 1.2. ... .k-1.k + 4 is a prime (dot between numbers means concatenation).",
   "id": "A099084",
   "mentions": [
     "A099081",

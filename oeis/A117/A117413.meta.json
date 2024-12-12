@@ -2,6 +2,7 @@
   "description": "Expansion of (1-x^2)/(1-2*x^2+4*x^3+x^4).",
   "id": "A117413",
   "mentions": [
+    "A052992",
     "A117411"
   ],
   "tags": [

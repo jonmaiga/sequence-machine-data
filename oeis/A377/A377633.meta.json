@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies A(x) = (1 + x * A(x)^2 * exp(x*A(x)^2))^2.",
+  "id": "A377633",
+  "mentions": [
+    "A364989",
+    "A377630"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

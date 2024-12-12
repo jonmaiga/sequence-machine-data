@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose digits can be rearranged to form a substring of 123456789012345678901234....",
+  "id": "A376300",
+  "mentions": [
+    "A068708",
+    "A068710",
+    "A068804"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

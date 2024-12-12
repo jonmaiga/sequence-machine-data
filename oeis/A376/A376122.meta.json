@@ -1,0 +1,21 @@
+{
+  "description": "Abundance of primitive abundant numbers.",
+  "id": "A376122",
+  "mentions": [
+    "A005100",
+    "A005101",
+    "A033880",
+    "A033881",
+    "A071395"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

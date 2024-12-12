@@ -1,9 +1,9 @@
 {
-  "description": "Numbers k such that k! - k!! + 1 is prime, where k!! denotes double factorial (A001147).",
+  "description": "Numbers k such that k! - k!! + 1 is prime, where k!! denotes double factorial (A006882).",
   "id": "A116897",
   "mentions": [
     "A000142",
-    "A001147",
+    "A006882",
     "A116896"
   ],
   "tags": [

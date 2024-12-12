@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n + 1) == 7 (mod n).",
+  "description": "Numbers k such that prime(k + 1) == 7 (mod k).",
   "id": "A105421",
   "mentions": [
     "A105286",

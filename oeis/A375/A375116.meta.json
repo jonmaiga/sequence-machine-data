@@ -3,7 +3,11 @@
   "id": "A375116",
   "mentions": [
     "A047461",
-    "A374933"
+    "A374933",
+    "A374934",
+    "A374935",
+    "A374936",
+    "A376732"
   ],
   "tags": [
     "formulas",
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 4,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

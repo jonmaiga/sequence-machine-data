@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the smallest possible side x in a family of triangles with integer sides x, y < x, x-y < z < x+y, such that exactly n pairs of triangles with equal area exist in this family.",
+  "id": "A375748",
+  "mentions": [
+    "A375749"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

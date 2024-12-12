@@ -3,6 +3,7 @@
   "id": "A088259",
   "mentions": [
     "A001597",
+    "A045718",
     "A088256",
     "A088257",
     "A088258"
@@ -11,7 +12,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 41,
     "source": "oeis-bfile"
   }

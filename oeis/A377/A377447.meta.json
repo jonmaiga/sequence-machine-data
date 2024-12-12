@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(1 + A(x)^3 * log(1 - x)).",
+  "id": "A377447",
+  "mentions": [
+    "A367158",
+    "A377448"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

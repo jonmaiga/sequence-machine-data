@@ -1,5 +1,5 @@
 {
-  "description": "Minimum k>0 such that Sum[ Fibonacci[i]*k^(i-1), {i,1,n} ] is prime.",
+  "description": "Minimum k>0 such that Sum_{i=1..n} Fibonacci(i)*k^(i-1) is prime.",
   "id": "A121927",
   "mentions": [
     "A000045"

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(2)*(sqrt(6) - 1)/5.",
+  "id": "A378319",
+  "mentions": [
+    "A002193",
+    "A010464"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,13 +1,19 @@
 {
-  "description": "Numbers p(n) such that both p(n)+2 and p(n+5)-2 are prime numbers, where p(n) is the n-th prime number.",
+  "description": "Primes p = prime(k) such that both p+2 and prime(k+5)-2 are prime numbers.",
   "id": "A105412",
-  "mentions": [],
+  "mentions": [
+    "A105409",
+    "A105410",
+    "A105411",
+    "A105413",
+    "A105414"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

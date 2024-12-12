@@ -1,5 +1,5 @@
 {
-  "description": "Round( (sqrt n)^(sqrt n) ).",
+  "description": "a(n) = round( (sqrt n)^(sqrt n) ).",
   "id": "A094054",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 6^n *sum_{k=1..infinity} Gamma(n+k/6)/ (k!*Gamma(k/6) *exp(1)), where Gamma is Capital-Greek-Gamma, the Gamma-function.",
+  "description": "a(n) = 6^n * Sum_{k>=1} Gamma(n + k/6)/ (k! * Gamma(k/6) * e).",
   "id": "A072402",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "joeis"
   }
 }

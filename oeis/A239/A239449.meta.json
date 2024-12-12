@@ -1,5 +1,5 @@
 {
-  "description": "7*n^2 - 5*n + 1.",
+  "description": "a(n) = 7*n^2 - 5*n + 1.",
   "id": "A239449",
   "mentions": [
     "A003215",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 46,
     "source": "oeis-bfile"
   }
 }

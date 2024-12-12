@@ -1,0 +1,18 @@
+{
+  "description": "Yet unseen terms in the enumeration of A375553, prepended by [2, 5].",
+  "id": "A375552",
+  "mentions": [
+    "A000040",
+    "A055642",
+    "A174414",
+    "A375553"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

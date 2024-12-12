@@ -1,0 +1,20 @@
+{
+  "description": "Number of embeddings on the sphere of 2-connected homeomorphically irreducible planar graphs with n edges.",
+  "id": "A378076",
+  "mentions": [
+    "A002840",
+    "A006407",
+    "A187928",
+    "A378075"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

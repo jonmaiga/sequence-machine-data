@@ -1,0 +1,17 @@
+{
+  "description": "The number of free kissing polyominoes with n cells.",
+  "id": "A376496",
+  "mentions": [
+    "A359520",
+    "A367557"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

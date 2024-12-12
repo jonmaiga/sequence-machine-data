@@ -2,7 +2,9 @@
   "description": "Row sums of A329057.",
   "id": "A329096",
   "mentions": [
+    "A000108",
     "A007318",
+    "A092392",
     "A329057"
   ],
   "tags": [

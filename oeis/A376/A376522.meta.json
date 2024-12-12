@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that (prime(j)-1)^2 + 1 is prime for k <= j <= k + 2.",
+  "id": "A376522",
+  "mentions": [
+    "A000040",
+    "A127435",
+    "A173446",
+    "A376605"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

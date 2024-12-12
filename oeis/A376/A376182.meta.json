@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T read by rows: T(n, k) = (2*n^2 + 4*n + 1 - (-1)^n) / 4 - (1 + (-1)^k) * (n - k) - k.",
+  "id": "A376182",
+  "mentions": [
+    "A000982",
+    "A033638",
+    "A047838",
+    "A246696",
+    "A246697",
+    "A376583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

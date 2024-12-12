@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n+7 with the number moved left exceeding the number moved right by n",
+  "description": "Number of permutations of 1..n+7 with the number moved left exceeding the number moved right by n.",
   "id": "A179574",
   "mentions": [],
   "tags": [

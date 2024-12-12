@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least k > 0 such that k*n belongs to A126684.",
+  "id": "A377412",
+  "mentions": [
+    "A000695",
+    "A032937",
+    "A126684",
+    "A195156",
+    "A300867",
+    "A377413"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

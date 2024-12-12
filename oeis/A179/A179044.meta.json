@@ -1,8 +1,12 @@
 {
-  "description": "Decimal expansion of (5/18)Pi. Decimal expansion of, asymptotically, the probability that the evolution of a random graph ever simultaneously has two complex components.",
+  "description": "Decimal expansion of (5/18)*Pi.",
   "id": "A179044",
   "mentions": [
-    "A000796"
+    "A000796",
+    "A019679",
+    "A019685",
+    "A234430",
+    "A353908"
   ],
   "tags": [
     "cons",

@@ -8,11 +8,12 @@
     "A096918"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

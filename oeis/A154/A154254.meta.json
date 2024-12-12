@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 9n^2 - 8n + 2.",
+  "description": "a(n) = 9*n^2 - 8*n + 2.",
   "id": "A154254",
   "mentions": [
     "A154267",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 43,
+    "size": 46,
     "source": "oeis-bfile"
   }
 }

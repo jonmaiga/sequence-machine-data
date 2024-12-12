@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n | Sigma_11(n) - Phi(n)^11.",
+  "description": "Numbers k such that k | sigma_11(k) - phi(k)^11.",
   "id": "A055705",
   "mentions": [
     "A000010",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

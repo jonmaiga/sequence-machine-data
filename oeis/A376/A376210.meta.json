@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which among all possible Pythagorean triangles with the hypotenuse 4*k+1, the minimum of the lengths of the shorter legs is even.",
+  "id": "A376210",
+  "mentions": [
+    "A008846",
+    "A087937",
+    "A094178",
+    "A375750",
+    "A376208",
+    "A376209",
+    "A376211"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

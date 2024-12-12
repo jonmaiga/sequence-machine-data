@@ -1,5 +1,5 @@
 {
-  "description": "Smallest n such that remainder Mod[c(x),x]=n, where c(x) = A002808(x) = x-th composite number or 0 if no such number exists.",
+  "description": "Smallest k such that remainder c(k) mod k = n, where c(k) = A002808(k) = k-th composite number or 0 if no such number exists.",
   "id": "A073275",
   "mentions": [
     "A002808",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

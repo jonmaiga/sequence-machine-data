@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers whose iterated squaring modulo 100 eventually enters the 4-cycle 21, 41, 81, 61.",
+  "id": "A376509",
+  "mentions": [
+    "A008592",
+    "A017329",
+    "A376506",
+    "A376507",
+    "A376508"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 58/111*(10^(3n)-1)-1 is prime.",
+  "description": "Numbers k such that 58/111*(10^(3*k)-1)-1 is prime.",
   "id": "A178321",
   "mentions": [
     "A072394",
     "A178322"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

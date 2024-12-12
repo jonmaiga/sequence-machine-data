@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that 4^(5*4^n) - k is a safe prime.",
+  "id": "A377724",
+  "mentions": [
+    "A005385",
+    "A057821",
+    "A181356",
+    "A335313",
+    "A376946"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

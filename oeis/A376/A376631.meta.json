@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^(k*(k+1)/2) * Product_{j=1..k} (1 + x^(2*j)).",
+  "id": "A376631",
+  "mentions": [
+    "A000009",
+    "A053258",
+    "A053261",
+    "A264905",
+    "A333179",
+    "A376580",
+    "A376621",
+    "A376632",
+    "A376660"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

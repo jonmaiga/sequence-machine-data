@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have exactly one Zumkeller divisor.",
+  "id": "A376881",
+  "mentions": [
+    "A023196",
+    "A083207",
+    "A171641",
+    "A376877",
+    "A376880",
+    "A376882"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

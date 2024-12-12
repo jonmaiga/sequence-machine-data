@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers less than n that have the same greatest prime factor as n.",
+  "id": "A377730",
+  "mentions": [
+    "A006530",
+    "A047983",
+    "A078899",
+    "A334655",
+    "A335097",
+    "A377734"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

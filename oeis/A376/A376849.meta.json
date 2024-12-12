@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that psi(k + psi(k)) = psi(k) + psi(psi(k)), where psi = A002322.",
+  "id": "A376849",
+  "mentions": [
+    "A002322",
+    "A376830",
+    "A376831",
+    "A376843",
+    "A376844",
+    "A376848",
+    "A376851"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

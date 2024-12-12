@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 0 = Sum_{k=0..n} (-1)^k * binomial(2*n, 2*k) * ([x^k] A(x)^n) for n >= 1.",
+  "id": "A375440",
+  "mentions": [
+    "A000108",
+    "A086645",
+    "A375450",
+    "A375451"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

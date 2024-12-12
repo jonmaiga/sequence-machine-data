@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not the sum of the first k fourth powers.",
+  "id": "A377306",
+  "mentions": [
+    "A000330",
+    "A000537",
+    "A000538",
+    "A133137",
+    "A302058",
+    "A376573",
+    "A376745"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

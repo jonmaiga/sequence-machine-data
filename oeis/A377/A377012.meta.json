@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k whose digits can be split into substrings so that the sum of these substrings raised to consecutive powers (1, 2, 3, ...) is the number k itself.",
+  "id": "A377012",
+  "mentions": [
+    "A005188",
+    "A032799",
+    "A208130",
+    "A347189",
+    "A362843"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

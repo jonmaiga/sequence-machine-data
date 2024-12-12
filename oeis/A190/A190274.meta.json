@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n'= p^2 -1, with n = semiprime = p*q, n' is the arithmetic derivative of n. Also: semiprimes of the form p*(p^2-p-1)",
+  "description": "Numbers n such that n' = p^2-1, with n = semiprime = p*q, n' is the arithmetic derivative of n. Also: semiprimes of the form p*(p^2-p-1).",
   "id": "A190274",
   "mentions": [
     "A001358",

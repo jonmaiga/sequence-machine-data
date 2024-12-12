@@ -1,0 +1,13 @@
+{
+  "description": "Number of shapes of a Rubik's Snake with n wedges.",
+  "id": "A375865",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

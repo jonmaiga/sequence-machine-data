@@ -1,0 +1,17 @@
+{
+  "description": "Number of polycubes of size n and symmetry class BBC.",
+  "id": "A376991",
+  "mentions": [
+    "A000162",
+    "A038119"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 24n+7 belongs to A000043.",
+  "description": "Numbers k such that 24*k+7 is a term of A000043.",
   "id": "A139479",
   "mentions": [
     "A000043",
@@ -7,6 +7,7 @@
     "A124477"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

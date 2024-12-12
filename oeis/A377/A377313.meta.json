@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are not hexateron (5-simplex) numbers.",
+  "id": "A377313",
+  "mentions": [
+    "A000389"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "The number nonsquarefree divisors of n that are powers of squarefree numbers (A072777).",
+  "description": "The number of nonsquarefree divisors of n that are powers of squarefree numbers (A072777).",
   "id": "A368251",
   "mentions": [
     "A005117",

@@ -2,7 +2,8 @@
   "description": "Number of n X n 0..1 matrices with all row and column sums equal.",
   "id": "A067209",
   "mentions": [
-    "A008300"
+    "A008300",
+    "A202784"
   ],
   "tags": [
     "nonn"

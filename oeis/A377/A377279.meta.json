@@ -1,0 +1,13 @@
+{
+  "description": "Number of fixed points of f(k) = floor(k^2 / n) mod n^2.",
+  "id": "A377279",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

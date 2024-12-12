@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{k=1..infinity} (H(k)/k)^2, where H(k) = sum_{j=1..k} 1/j.",
+  "description": "Decimal expansion of Sum_{k>=1} (H(k)/k)^2, where H(k) = Sum_{j=1..k} 1/j.",
   "id": "A218505",
   "mentions": [],
   "tags": [

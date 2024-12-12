@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of 1/15.",
   "id": "A021019",
-  "mentions": [],
+  "mentions": [
+    "A010722",
+    "A020793"
+  ],
   "tags": [
     "cons",
     "easy",

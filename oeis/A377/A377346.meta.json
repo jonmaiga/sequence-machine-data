@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the midradius of a truncated cuboctahedron (great rhombicuboctahedron) with unit edge length.",
+  "id": "A377346",
+  "mentions": [
+    "A010524",
+    "A010527",
+    "A230981",
+    "A377343",
+    "A377344",
+    "A377345"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

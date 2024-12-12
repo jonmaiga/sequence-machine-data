@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n appears in the decimal representation of 1/n.",
+  "description": "Numbers k such that k appears in the decimal representation of 1/k.",
   "id": "A100468",
   "mentions": [
     "A100469"

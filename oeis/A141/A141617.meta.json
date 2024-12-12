@@ -1,9 +1,10 @@
 {
-  "description": "Triangle T(n,m) = prime(m)*prime(n-m)*binomial(n,m) read by rows, 0<=m<=n.",
+  "description": "Triangle read by rows: T(n, k) = binomial(n,k)*prime(k)*prime(n-k), for 1 <= k <= n-1, n >= 1, with T(0, 0) = 1, T(n, 0) = T(n, n) = prime(n).",
   "id": "A141617",
   "mentions": [
     "A008578",
-    "A098350"
+    "A098350",
+    "A414617"
   ],
   "tags": [
     "easy",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

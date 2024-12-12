@@ -1,7 +1,8 @@
 {
-  "description": "Coefficients in generating function for radius of curvature of the sequence A066158.",
+  "description": "Coefficients in generating function for radius of gyration of the sequence A066158.",
   "id": "A019441",
   "mentions": [
+    "A056261",
     "A066158"
   ],
   "tags": [

@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that 7*n+1 is a triangular number (A000217).",
+  "description": "Numbers k such that 7*k+1 is a triangular number (A000217).",
   "id": "A274830",
   "mentions": [
     "A000096",
     "A000217",
     "A045943",
+    "A057570",
     "A074377",
     "A085787",
     "A274681",
-    "A274757"
+    "A274757",
+    "A363800"
   ],
   "tags": [
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of real part of (2*omega)^(-n) where omega = (-1 + i*3)/ 2.",
+  "description": "Numerator of real part of (3*i - 1)^(-n).",
   "id": "A124869",
   "mentions": [
     "A124870",

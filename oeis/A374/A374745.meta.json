@@ -1,0 +1,16 @@
+{
+  "description": "Number of unlabeled (3,6)-tight graphs with n vertices.",
+  "id": "A374745",
+  "mentions": [
+    "A328419"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

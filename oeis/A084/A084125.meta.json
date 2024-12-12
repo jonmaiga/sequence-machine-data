@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that 13*3^n + 2 is prime.",
+  "description": "Numbers k such that 13*3^k + 2 is prime.",
   "id": "A084125",
-  "mentions": [],
+  "mentions": [
+    "A084124"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

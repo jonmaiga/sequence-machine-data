@@ -1,8 +1,9 @@
 {
-  "description": "a(1)=a(2)=1, a(n) = -14a(n-1) - a(n-2).",
+  "description": "a(n) = -14*a(n-1) - a(n-2), with a(1) = a(2) = 1.",
   "id": "A122572",
   "mentions": [
-    "A028230"
+    "A028230",
+    "A122571"
   ],
   "tags": [
     "easy",

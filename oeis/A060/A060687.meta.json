@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there exist exactly 2 Abelian groups of order n, i.e., A000688(n) = 2.",
+  "description": "Numbers k such that there exist exactly 2 Abelian groups of order k, i.e., A000688(k) = 2.",
   "id": "A060687",
   "mentions": [
     "A000688",
@@ -11,12 +11,13 @@
     "A271971"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

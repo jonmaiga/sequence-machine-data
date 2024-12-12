@@ -2,6 +2,7 @@
   "description": "Ten's complement of the factorials.",
   "id": "A119384",
   "mentions": [
+    "A000142",
     "A110396"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

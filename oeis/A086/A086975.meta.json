@@ -2,6 +2,7 @@
   "description": "Numbers of the form p^2 * q * r with primes p < q < r.",
   "id": "A086975",
   "mentions": [
+    "A000005",
     "A001221",
     "A001222",
     "A020639",
@@ -9,11 +10,12 @@
     "A086974"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

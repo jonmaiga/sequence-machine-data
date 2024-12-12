@@ -1,14 +1,16 @@
 {
   "description": "a(n) = floor(n*(n - 1)*(n - 2)/31).",
   "id": "A011913",
-  "mentions": [],
+  "mentions": [
+    "A011886"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 71,
     "source": "joeis"
   }
 }

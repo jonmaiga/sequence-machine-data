@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose prime factorization has exponents that are all factorial numbers.",
+  "id": "A377019",
+  "mentions": [
+    "A000142",
+    "A001221",
+    "A004709",
+    "A005117",
+    "A344742",
+    "A376885",
+    "A377020",
+    "A377021",
+    "A377022"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

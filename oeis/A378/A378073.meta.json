@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers that are digitally balanced in some integer base b >= 2.",
+  "id": "A378073",
+  "mentions": [
+    "A049364",
+    "A061845",
+    "A065963",
+    "A378000",
+    "A378080",
+    "A378104",
+    "A378191"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

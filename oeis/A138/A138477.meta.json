@@ -1,16 +1,17 @@
 {
-  "description": "Mix A084175 and 2*A084175.",
+  "description": "A084175 interleaved with 2*A084175.",
   "id": "A138477",
   "mentions": [
     "A084175"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 36,
     "source": "joeis"
   }
 }

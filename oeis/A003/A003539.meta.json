@@ -1,13 +1,17 @@
 {
-  "description": "a(n)=3*a(n-1)+16 (the first 11 terms are primes).",
+  "description": "a(0) = 587, a(n) = 3*a(n-1) + 16 for n > 0 (the first 11 terms are primes).",
   "id": "A003539",
-  "mentions": [],
+  "mentions": [
+    "A000244"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 24,
     "source": "joeis"
   }
 }

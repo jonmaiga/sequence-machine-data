@@ -2,7 +2,8 @@
   "description": "Number of HSI-algebras on n elements, up to isomorphism.",
   "id": "A214396",
   "mentions": [
-    "A007459"
+    "A007459",
+    "A240980"
   ],
   "tags": [
     "formulas",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

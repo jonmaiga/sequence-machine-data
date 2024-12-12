@@ -1,0 +1,17 @@
+{
+  "description": "Characteristic polynomial of the Pappus graph: a(n) = (n-3)*n^4*(n+3)*(n^2-3)^6.",
+  "id": "A376951",
+  "mentions": [
+    "A110507"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

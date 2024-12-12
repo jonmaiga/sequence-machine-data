@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1 + x*A(x)^5*exp(x*A(x)^2).",
+  "id": "A377549",
+  "mentions": [
+    "A364980",
+    "A364982",
+    "A364985",
+    "A365176",
+    "A377547"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

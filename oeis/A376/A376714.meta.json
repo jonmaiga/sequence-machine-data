@@ -1,0 +1,20 @@
+{
+  "description": "Sum of squares of the decimal digits of the n-th prime.",
+  "id": "A376714",
+  "mentions": [
+    "A000040",
+    "A003132",
+    "A007605"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

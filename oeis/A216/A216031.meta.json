@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of horizontal, vertical and diagonal neighbor colorings of the odd squares of an nXk array with new integer colors introduced in row major order",
+  "description": "T(n,k) is the number of horizontal, vertical and diagonal neighbor colorings of the odd squares of an n X k array with new integer colors introduced in row major order.",
   "id": "A216031",
   "mentions": [
     "A000110",

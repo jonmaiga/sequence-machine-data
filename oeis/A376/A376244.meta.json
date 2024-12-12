@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers a(1), a(2), ... with the property that the lexicographically earliest sequence of positive integers b(1), b(2), ... such that for any n > 0, S(n) = Sum_{k = 1..n} 1 / (a(k)*b(k)) < 1, also implies that S(n) is never of the form (e_n - 1) / e_n for some integer e_n.",
+  "id": "A376244",
+  "mentions": [
+    "A374663",
+    "A376062",
+    "A376184",
+    "A376245",
+    "A376246",
+    "A376247"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (in base 10) the k-th composite is a substring of the k-th prime.",
+  "id": "A378491",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A378479"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

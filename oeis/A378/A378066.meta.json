@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = (-2*n)^k * Euler(k, (n - 1)/(2*n)) for n >= 1 and A(0, k) = 1.",
+  "id": "A378066",
+  "mentions": [
+    "A000012",
+    "A000810",
+    "A000813",
+    "A005563",
+    "A080663",
+    "A081658",
+    "A122045",
+    "A155585",
+    "A188458",
+    "A377666",
+    "A378063",
+    "A378064",
+    "A378065"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

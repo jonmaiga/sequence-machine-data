@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Floor[n^((n+1)/(n))]-Floor[n^((n)/(n+1))].",
+  "description": "a(n) = floor(n^((n+1)/(n))) - floor(n^((n)/(n+1))).",
   "id": "A095395",
   "mentions": [
     "A059921",

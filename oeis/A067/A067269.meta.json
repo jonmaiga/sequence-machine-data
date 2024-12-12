@@ -1,13 +1,16 @@
 {
   "description": "Triangular numbers which remain triangular when the most significant digit is moved to the end.",
   "id": "A067269",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A345110"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 31,
     "source": "joeis"
   }

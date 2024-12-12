@@ -3,15 +3,15 @@
   "id": "A087512",
   "mentions": [
     "A087510",
-    "A087513",
-    "A087514"
+    "A087511",
+    "A087513"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 22,
     "source": "joeis"
   }

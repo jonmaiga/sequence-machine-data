@@ -1,0 +1,16 @@
+{
+  "description": "Nonsquares k such that A377938(k) is not a prime.",
+  "id": "A377939",
+  "mentions": [
+    "A023049",
+    "A377938"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

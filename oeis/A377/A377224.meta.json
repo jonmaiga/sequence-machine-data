@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to write n as x*(5*x+1) + y*(5*y+1)/2 + z*(5*z+1)/2, where x,y,z are integers with y*(5*y+1) <= z*(5*z+1).",
+  "id": "A377224",
+  "mentions": [
+    "A057569",
+    "A085787",
+    "A306383"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

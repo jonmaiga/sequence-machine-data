@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of A^2, where A is the lemniscate constant (A085565).",
+  "id": "A378013",
+  "mentions": [
+    "A085565"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

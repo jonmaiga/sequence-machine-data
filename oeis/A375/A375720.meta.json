@@ -1,0 +1,16 @@
+{
+  "description": "Irregular triangle, read by rows: Coefficients of the polynomials P_n, n>=2 such that the series f(x) = c + c(x-c) + Sum_{n>=2} P_n(c)/c^((n-1)*(n+2)/2+1) (x-c)^n/n! satisfies f(c) = c and f'(f(x)) = x near the fixed point c in (0,oo).",
+  "id": "A375720",
+  "mentions": [
+    "A144006"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

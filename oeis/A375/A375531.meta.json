@@ -2,6 +2,7 @@
   "description": "Lexicographically earliest sequence of positive integers a(1), a(2), a(3), ... such that for any n > 0, Sum_{k = 1..n} k!/a(k) < 1.",
   "id": "A375531",
   "mentions": [
+    "A000142",
     "A374663",
     "A374983",
     "A375516",

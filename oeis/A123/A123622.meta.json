@@ -1,7 +1,10 @@
 {
   "description": "Smallest prime of the form p^(2^n) + q^(2^n), where p,q are primes.",
   "id": "A123622",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000079"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,9 +1,8 @@
 {
-  "description": "A triangular sequence from a Beraha type recursive polynomial using 5 X 5 n centered tridiagonal matrices with chromatic polynomial central roots to its characteristic polynomial.",
+  "description": "A triangular sequence from a Beraha type recursive polynomial using 5 X 5 centered tridiagonal matrices with chromatic polynomial central roots to its characteristic polynomial.",
   "id": "A123969",
   "mentions": [],
   "tags": [
-    "formulas",
     "sign",
     "tabf",
     "uned"

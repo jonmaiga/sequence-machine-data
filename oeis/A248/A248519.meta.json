@@ -2,7 +2,8 @@
   "description": "Number of partitions of n into distinct parts > 0 without 1 as digit, cf. A052383.",
   "id": "A248519",
   "mentions": [
-    "A052383"
+    "A052383",
+    "A248518"
   ],
   "tags": [
     "base",

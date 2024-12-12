@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 4*k+1 is the hypotenuse of a primitive Pythagorean triangle with an odd short leg.",
+  "id": "A375750",
+  "mentions": [
+    "A008846",
+    "A081961",
+    "A376208"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

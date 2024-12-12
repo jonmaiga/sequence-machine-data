@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n(2n+13).",
+  "description": "a(n) = n*(2*n + 13).",
   "id": "A139578",
   "mentions": [
     "A014105",
@@ -19,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 43,
+    "size": 48,
     "source": "joeis"
   }
 }

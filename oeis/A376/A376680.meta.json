@@ -1,0 +1,32 @@
+{
+  "description": "Run-lengths of first differences of composite numbers.",
+  "id": "A376680",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A002808",
+    "A036263",
+    "A054546",
+    "A064113",
+    "A073445",
+    "A073783",
+    "A076259",
+    "A174965",
+    "A251092",
+    "A333254",
+    "A335406",
+    "A375929",
+    "A376602",
+    "A376603",
+    "A376651",
+    "A376652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

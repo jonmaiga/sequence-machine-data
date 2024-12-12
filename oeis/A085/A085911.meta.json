@@ -1,5 +1,5 @@
 {
-  "description": "Least common multiple of the first n terms of A002473 (highly composite numbers (2)).",
+  "description": "Least common multiple of the first n terms of A002473 (7-smooth numbers).",
   "id": "A085911",
   "mentions": [
     "A002473"

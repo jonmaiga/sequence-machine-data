@@ -2,7 +2,9 @@
   "description": "E.g.f. satisfies A(x) = 1 + x^2*A(x)^2*(exp(x*A(x)) - 1).",
   "id": "A371139",
   "mentions": [
-    "A371119"
+    "A000272",
+    "A371119",
+    "A376293"
   ],
   "tags": [
     "formulas",

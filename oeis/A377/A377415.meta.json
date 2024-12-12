@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n - A377414(n).",
+  "id": "A377415",
+  "mentions": [
+    "A063694",
+    "A063695",
+    "A126684",
+    "A371459",
+    "A374355",
+    "A377414"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

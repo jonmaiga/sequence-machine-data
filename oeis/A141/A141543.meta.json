@@ -2,16 +2,21 @@
   "description": "Triangle T(n,k) read by brows: T(n,2k)=k, T(n,2k+1) = k-n, for 0<=k<=n.",
   "id": "A141543",
   "mentions": [
-    "A124072"
+    "A000217",
+    "A008794",
+    "A014682",
+    "A130472",
+    "A159915"
   ],
   "tags": [
     "easy",
+    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

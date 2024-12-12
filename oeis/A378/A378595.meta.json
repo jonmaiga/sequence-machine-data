@@ -1,0 +1,16 @@
+{
+  "description": "Second set of a unique partition of the positive integers into two sets whose distinct pair-sums avoid the Lucas numbers.",
+  "id": "A378595",
+  "mentions": [
+    "A000032",
+    "A378594"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

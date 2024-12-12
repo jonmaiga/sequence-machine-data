@@ -1,5 +1,5 @@
 {
-  "description": "Smallest x such that A073259[x]=n; the first number of which length of fixed-point-list terminated by x-th composite number equals n.",
+  "description": "Smallest k such that A073259(k)=n or 0 if there is no such value; the first number of which length of fixed-point-list terminated by k-th composite number equals n.",
   "id": "A073323",
   "mentions": [
     "A002808",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

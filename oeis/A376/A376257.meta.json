@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n - c(n))*(-1)^c(n), where c(n) is the product of the digits of n (A007954).",
+  "id": "A376257",
+  "mentions": [
+    "A007954",
+    "A070565"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

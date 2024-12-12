@@ -2,7 +2,9 @@
   "description": "Sum of elements of the set { [ n/k ] : 1 <= k <= n }.",
   "id": "A051201",
   "mentions": [
-    "A006218"
+    "A000267",
+    "A006218",
+    "A055086"
   ],
   "tags": [
     "formulas",

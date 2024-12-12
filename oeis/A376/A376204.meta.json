@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose sum of powerful divisors (including 1) is a powerful number that is larger than 1.",
+  "id": "A376204",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A059956",
+    "A112526",
+    "A183097",
+    "A349109"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

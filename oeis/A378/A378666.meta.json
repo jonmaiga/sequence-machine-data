@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of n X n idempotent matrices over GF(3) having rank k, n>=0, 0<=k<=n.",
+  "id": "A378666",
+  "mentions": [
+    "A022167",
+    "A053290",
+    "A053846",
+    "A118180",
+    "A296548"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

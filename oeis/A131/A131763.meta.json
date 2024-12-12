@@ -1,9 +1,16 @@
 {
-  "description": "Series reversion of x*(1-4x)/(1-x) is x*A(x) where A(x) is the generating function.",
+  "description": "Series reversion of x*(1-4*x)/(1-x) is x*A(x) where A(x) is the generating function.",
   "id": "A131763",
   "mentions": [
+    "A001003",
     "A086810",
-    "A103211"
+    "A103211",
+    "A107841",
+    "A131765",
+    "A131846",
+    "A131869",
+    "A131926",
+    "A131927"
   ],
   "tags": [
     "formulas",

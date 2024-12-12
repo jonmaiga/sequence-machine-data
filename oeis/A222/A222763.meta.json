@@ -1,17 +1,20 @@
 {
-  "description": "Number of nX2 0..1 arrays with exactly floor(nX2/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..1 order",
+  "description": "Number of n X 2 0..1 arrays with exactly floor(nX2/2) elements unequal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..1 order.",
   "id": "A222763",
   "mentions": [
+    "A046736",
+    "A105422",
     "A222769",
     "A357182",
     "A357488"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 27,
+    "offset": 0,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

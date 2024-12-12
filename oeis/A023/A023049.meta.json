@@ -2,7 +2,9 @@
   "description": "Smallest prime > n having primitive root n, or 0 if no such prime exists.",
   "id": "A023049",
   "mentions": [
-    "A056619"
+    "A056619",
+    "A377938",
+    "A377939"
   ],
   "tags": [
     "formulas",

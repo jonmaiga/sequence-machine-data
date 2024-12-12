@@ -1,8 +1,15 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with new values 0..3 introduced in row major order and no element equal to any knight-move neighbor (colorings ignoring permutations of colors)",
+  "description": "T(n,k) is the number of n X k 0..3 arrays with new values 0..3 introduced in row major order and no element equal to any knight-move neighbor (colorings ignoring permutations of colors).",
   "id": "A208353",
   "mentions": [
-    "A007581"
+    "A007581",
+    "A208346",
+    "A208347",
+    "A208348",
+    "A208349",
+    "A208350",
+    "A208351",
+    "A208352"
   ],
   "tags": [
     "nonn",

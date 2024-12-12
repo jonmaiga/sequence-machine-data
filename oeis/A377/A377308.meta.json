@@ -1,0 +1,16 @@
+{
+  "description": "All winning positions of Gordon Hamilton's Jumping Frogs game, encoded as even numbers by their prime-factorization exponents.",
+  "id": "A377308",
+  "mentions": [
+    "A137502",
+    "A377232"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a truncated tetrahedron with unit edge length.",
+  "id": "A377275",
+  "mentions": [
+    "A002193",
+    "A020829",
+    "A093577",
+    "A377274",
+    "A377276",
+    "A377277"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

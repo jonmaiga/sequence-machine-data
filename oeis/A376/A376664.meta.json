@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that there are A376663(n) partitions x_1 + ... + x_j = k such that the multinomial coefficient k!/(x_1! * ... * x_j!) is equal to n, i.e., the first row k of A036038 in which n appears A376663(n) times (or 0 if n = 0).",
+  "id": "A376664",
+  "mentions": [
+    "A000027",
+    "A036038",
+    "A325472",
+    "A376368",
+    "A376663"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

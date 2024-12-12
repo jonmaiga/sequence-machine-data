@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sigma(k + sigma(k)) = sigma(k) + sigma(sigma(k)), where sigma = A000203.",
+  "id": "A376831",
+  "mentions": [
+    "A000203",
+    "A376830",
+    "A376843",
+    "A376844",
+    "A376848",
+    "A376849",
+    "A376851"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

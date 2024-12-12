@@ -7,12 +7,13 @@
     "A337654"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

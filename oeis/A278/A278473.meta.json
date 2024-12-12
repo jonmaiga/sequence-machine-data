@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that product of divisors of n ends with n and n is nonprime (A018252).",
+  "description": "Numbers k such that product of divisors of k ends with k and k is nonprime (A018252).",
   "id": "A278473",
   "mentions": [
     "A007955",

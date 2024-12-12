@@ -2,12 +2,16 @@
   "description": "3-infinitary perfect numbers k: 3-i-sigma(k) = 2*k, where 3-i-sigma = A049418.",
   "id": "A038182",
   "mentions": [
+    "A007357",
     "A037445",
     "A038148",
     "A049418",
-    "A063990"
+    "A063990",
+    "A074849",
+    "A097464"
   ],
   "tags": [
+    "more",
     "nice",
     "nonn"
   ],

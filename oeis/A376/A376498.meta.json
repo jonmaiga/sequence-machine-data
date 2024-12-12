@@ -1,0 +1,26 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = 2^k*Sum_{j=1..n} cos((2*j - 1)*Pi/(2*n + 1))^k.",
+  "id": "A376498",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000032",
+    "A001477",
+    "A057427",
+    "A094649",
+    "A096975",
+    "A180870",
+    "A189234",
+    "A216605"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

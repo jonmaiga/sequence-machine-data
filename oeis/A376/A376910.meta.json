@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 85*10^k+1 is prime.",
+  "id": "A376910",
+  "mentions": [
+    "A376850"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

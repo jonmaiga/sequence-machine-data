@@ -1,0 +1,17 @@
+{
+  "description": "Obverse convolution (n)**(n*(-1)^n); see Comments.",
+  "id": "A374894",
+  "mentions": [
+    "A000027",
+    "A038608",
+    "A374848"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

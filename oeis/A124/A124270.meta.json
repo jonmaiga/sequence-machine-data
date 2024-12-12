@@ -1,5 +1,5 @@
 {
-  "description": "Prime(3almostprime(n))-3almostprime(prime(n)). Commutator [A000040,A014612] at n.",
+  "description": "a(n) = prime(A014612(n)) - A014612(prime(n)). Commutator [A000040,A014612] at n.",
   "id": "A124270",
   "mentions": [
     "A000040",

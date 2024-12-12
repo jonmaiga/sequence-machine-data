@@ -1,0 +1,15 @@
+{
+  "description": "Integer part of the product of three consecutive primes divided by their sum.",
+  "id": "A376334",
+  "mentions": [
+    "A160830"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

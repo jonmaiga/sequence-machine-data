@@ -2,9 +2,12 @@
   "description": "Sum of positive numbers k <= sigma(n) that are a sum of any subset of distinct divisors of n.",
   "id": "A237290",
   "mentions": [
+    "A000203",
     "A005153",
+    "A119347",
     "A119348",
     "A184387",
+    "A229335",
     "A237287",
     "A237289"
   ],

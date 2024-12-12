@@ -2,6 +2,7 @@
   "description": "Arises from generalized Lucas-Lehmer test for primality.",
   "id": "A018844",
   "mentions": [
+    "A006242",
     "A206257"
   ],
   "tags": [

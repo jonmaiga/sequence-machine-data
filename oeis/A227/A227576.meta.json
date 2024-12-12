@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that F(3*n)/(2*F(n)) is prime, where F(k) is the k-th Fibonacci number.",
+  "description": "Numbers k such that F(3*k)/(2*F(k)) is prime, where F(m) is the m-th Fibonacci number.",
   "id": "A227576",
   "mentions": [
     "A000045",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

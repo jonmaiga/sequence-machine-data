@@ -1,5 +1,5 @@
 {
-  "description": "10^n - 5^n.",
+  "description": "a(n) = 10^n - 5^n.",
   "id": "A248340",
   "mentions": [
     "A000225",
@@ -20,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

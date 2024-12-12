@@ -1,0 +1,20 @@
+{
+  "description": "Number of winning positions of Gordon Hamilton's Jumping Frogs game with n single frogs, up to left-right symmetry.",
+  "id": "A378004",
+  "mentions": [
+    "A000120",
+    "A000217",
+    "A030101",
+    "A377232",
+    "A377307"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Möbius transform of A033630, where A033630 is the number of partitions of n into distinct divisors of n.",
+  "id": "A378439",
+  "mentions": [
+    "A008683",
+    "A033630",
+    "A378440"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes from A122136[n] corresponding to the indices A122138[n].",
+  "description": "Primes from A122136 corresponding to the indices A122138.",
   "id": "A122139",
   "mentions": [
     "A002110",

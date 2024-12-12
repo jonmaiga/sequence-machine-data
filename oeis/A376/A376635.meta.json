@@ -1,0 +1,13 @@
+{
+  "description": "a(n+1) = size of the largest subset S of 1...n such that i+j <= n implies a(i+j) = a(i)+a(j) for i and j in S. Start with a(1) = 1.",
+  "id": "A376635",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

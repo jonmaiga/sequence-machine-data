@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals upward. Modified Redheffer matrix for which the first 6 values of A008683 are given as determinants of T(n,k).",
+  "description": "Square array read by upward antidiagonals. Modified Redheffer matrix for which the first 6 values of A008683 are given as determinants of T(n,k).",
   "id": "A140865",
   "mentions": [
     "A008683",

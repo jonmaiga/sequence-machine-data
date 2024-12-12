@@ -2,7 +2,8 @@
   "description": "Pentagonal numbers for which the product of the digits is also a pentagonal number.",
   "id": "A117710",
   "mentions": [
-    "A000326"
+    "A000326",
+    "A061380"
   ],
   "tags": [
     "base",

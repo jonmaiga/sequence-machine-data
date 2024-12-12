@@ -1,0 +1,24 @@
+{
+  "description": "The number of distinct prime factors of the cubefull numbers.",
+  "id": "A376363",
+  "mentions": [
+    "A001221",
+    "A036966",
+    "A072047",
+    "A077761",
+    "A362974",
+    "A376361",
+    "A376364",
+    "A376365"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

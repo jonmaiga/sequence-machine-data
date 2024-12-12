@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number with a Lucas chain of length n.",
+  "description": "Smallest number whose shortest Lucas chain is of length n.",
   "id": "A104892",
   "mentions": [
     "A003313",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

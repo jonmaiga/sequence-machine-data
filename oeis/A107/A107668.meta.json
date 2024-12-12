@@ -2,10 +2,12 @@
   "description": "Column 0 of triangle A107667.",
   "id": "A107668",
   "mentions": [
+    "A052200",
     "A107667",
     "A107669",
     "A107670",
     "A107675",
+    "A226775",
     "A304322",
     "A304394",
     "A304395",
@@ -17,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

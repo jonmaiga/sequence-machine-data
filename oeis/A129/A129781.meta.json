@@ -1,7 +1,10 @@
 {
   "description": "The prime(n)-th upper twin prime.",
   "id": "A129781",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A006512"
+  ],
   "tags": [
     "easy",
     "formulas",

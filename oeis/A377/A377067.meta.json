@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X 3 0..2 matrices with row sums 3 and column sums n up to permutations of rows.",
+  "id": "A377067",
+  "mentions": [
+    "A172634",
+    "A377063",
+    "A377065",
+    "A377068"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

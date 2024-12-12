@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of abs(cos(A377479)).",
+  "id": "A377480",
+  "mentions": [
+    "A377479",
+    "A377481"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of elements formable by in <= n steps, starting with 4 elements, combining 2 elements into a new element at each step",
+  "description": "Number of elements formable in <= n steps, starting with 4 elements, combining 2 elements into a new element at each step",
   "id": "A283793",
   "mentions": [
     "A006894"

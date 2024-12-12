@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Fibonacci(prime(prime(n))) is prime.",
+  "description": "Numbers k such that Fibonacci(prime(prime(k))) is prime.",
   "id": "A122534",
   "mentions": [
     "A000040",

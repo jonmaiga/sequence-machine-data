@@ -1,5 +1,5 @@
 {
-  "description": "The number of simple unlabelled graphs whose connected components have distinct sizes (no two connected components have the same number of nodes).",
+  "description": "The number of simple unlabeled graphs whose connected components have distinct sizes (no two connected components have the same number of nodes).",
   "id": "A182117",
   "mentions": [
     "A000088",

@@ -1,14 +1,19 @@
 {
-  "description": "Triangle read by rows: expansion of p(x,t) = -exp(x*t)(2*(1 - 2*exp(t)) - 2*exp(t))/(1 + exp(t)), with coefficient of x^n scaled by multiplication by (n!*(n + 2)!/4).",
+  "description": "Triangle read by rows: T(n, k) = [x^k]( (n+2)!*(3*EulerE(n, x+1) - EulerE(n, x))/4 ).",
   "id": "A166553",
-  "mentions": [],
+  "mentions": [
+    "A001715",
+    "A005990",
+    "A028296"
+  ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

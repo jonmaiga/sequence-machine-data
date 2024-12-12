@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} (-1)^(n+k)*binomial(n, k)*binomial(n+k, k)*A108625(n, n-k).",
+  "id": "A376459",
+  "mentions": [
+    "A005259",
+    "A108625",
+    "A376458",
+    "A376460",
+    "A376466"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

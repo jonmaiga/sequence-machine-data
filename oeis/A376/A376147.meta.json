@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1, followed by array T(n,k), n>=1, k>=2 read by antidiagonals (downwards) wherein the first row is A056240, and the k-th column records in ascending order the numbers m such that A001414(m) = k.",
+  "id": "A376147",
+  "mentions": [
+    "A000027",
+    "A000607",
+    "A000792",
+    "A001414",
+    "A002098",
+    "A056240",
+    "A064364"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

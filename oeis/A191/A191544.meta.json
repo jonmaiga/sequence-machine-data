@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of (floor(7n/3)), by antidiagonals.",
+  "description": "Dispersion of (floor(7*n/3)), by antidiagonals.",
   "id": "A191544",
   "mentions": [
     "A000040",

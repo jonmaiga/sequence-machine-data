@@ -2,7 +2,8 @@
   "description": "If decimal expansion of n is ab...d, a(n) = a^a + b^b + ... + d^d (ignoring any 0's).",
   "id": "A045512",
   "mentions": [
-    "A045503"
+    "A045503",
+    "A046253"
   ],
   "tags": [
     "base",

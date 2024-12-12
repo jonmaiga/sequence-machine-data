@@ -1,11 +1,9 @@
 {
-  "description": "Decimal expansion of Sum_{k>=1} (zeta(2k)/k)*(2/3)^(2k).",
+  "description": "Decimal expansion of log(Pi/sqrt(2)).",
   "id": "A256924",
   "mentions": [
-    "A073005",
-    "A203129",
     "A247719",
-    "A256923"
+    "A377008"
   ],
   "tags": [
     "cons",

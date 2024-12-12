@@ -1,0 +1,19 @@
+{
+  "description": "Primes which are sums of a prime triple (p, p+4, p+6).",
+  "id": "A377406",
+  "mentions": [
+    "A002476",
+    "A022005",
+    "A162001",
+    "A376013"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

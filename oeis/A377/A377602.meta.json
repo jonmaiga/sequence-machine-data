@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of a snub cube (snub cuboctahedron) with unit edge length.",
+  "id": "A377602",
+  "mentions": [
+    "A002194",
+    "A200243",
+    "A377603",
+    "A377604",
+    "A377605"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

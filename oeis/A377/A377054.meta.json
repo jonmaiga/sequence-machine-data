@@ -1,0 +1,46 @@
+{
+  "description": "First term of the n-th differences of the powers of primes. Inverse zero-based binomial transform of A000961.",
+  "id": "A377054",
+  "mentions": [
+    "A000040",
+    "A000688",
+    "A000961",
+    "A001223",
+    "A001597",
+    "A007442",
+    "A007916",
+    "A008578",
+    "A023893",
+    "A023894",
+    "A025475",
+    "A030016",
+    "A036263",
+    "A053707",
+    "A057820",
+    "A075526",
+    "A093555",
+    "A174965",
+    "A175804",
+    "A246655",
+    "A361102",
+    "A376340",
+    "A376596",
+    "A377036",
+    "A377041",
+    "A377049",
+    "A377051",
+    "A377052",
+    "A377053",
+    "A377055",
+    "A377056"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

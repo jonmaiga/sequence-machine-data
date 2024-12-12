@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} binomial(n, k)^2*binomial(n+k, k)^2*A108625(n-1 k).",
+  "id": "A376465",
+  "mentions": [
+    "A005259",
+    "A108625",
+    "A376458",
+    "A376466"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

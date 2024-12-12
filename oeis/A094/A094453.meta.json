@@ -7,14 +7,16 @@
     "A005836",
     "A094575",
     "A094576",
+    "A131381",
     "A191107"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

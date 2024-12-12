@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with all cyclic permutations of digits, highly composite numbers. Terms of A002473 all of whose cyclic permutations are also terms.",
+  "description": "Numbers whose cyclic permutations are all 7-smooth (A002473).",
   "id": "A085135",
   "mentions": [
     "A002473",

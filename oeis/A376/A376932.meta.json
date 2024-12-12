@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the index of the first GF(2)[X] polynomial that has n distinct irreducible factors.",
+  "id": "A376932",
+  "mentions": [
+    "A091221"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,12 +1,14 @@
 {
-  "description": "Number of embeddings on the sphere of 2-connected planar graphs, minimum vertex degree 3, with n edges.",
+  "description": "Number of embeddings on the sphere of planar graphs with n edges having connectivity exactly 2 and minimum vertex degree at least 3.",
   "id": "A187928",
   "mentions": [
     "A007021",
     "A021103",
     "A034889",
     "A181340",
-    "A187927"
+    "A187927",
+    "A378076",
+    "A378077"
   ],
   "tags": [
     "hard",

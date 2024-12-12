@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n - A019565(A048675(n)), where A019565 and A048675 are base-2 exp and log-functions.",
+  "id": "A378518",
+  "mentions": [
+    "A005117",
+    "A019565",
+    "A048675",
+    "A097246",
+    "A097248",
+    "A376406",
+    "A376417",
+    "A376418"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

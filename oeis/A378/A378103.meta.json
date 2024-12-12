@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-node connected unsensed planar maps with an external face and k triangular internal faces, n >= 3, 1 <= k <= 2*n - 5.",
+  "id": "A378103",
+  "mentions": [
+    "A001651",
+    "A002713",
+    "A003094",
+    "A005500",
+    "A005501",
+    "A169808",
+    "A377785",
+    "A378336",
+    "A378340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

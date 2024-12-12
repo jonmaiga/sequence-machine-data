@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^(2*n - 1) - 2^(n - 1)*(n - 1).",
+  "id": "A376585",
+  "mentions": [
+    "A020522"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

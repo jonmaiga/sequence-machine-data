@@ -1,0 +1,20 @@
+{
+  "description": "The mod value of the consecutive pairs of terms in A377182.",
+  "id": "A377236",
+  "mentions": [
+    "A027749",
+    "A064413",
+    "A270139",
+    "A359557",
+    "A377078",
+    "A377182"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

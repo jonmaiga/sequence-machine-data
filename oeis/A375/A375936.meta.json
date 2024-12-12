@@ -1,0 +1,15 @@
+{
+  "description": "Prime numbers p such that there exists a base b < 10 in which p is written as a number that is divisible by p when read as a decimal number.",
+  "id": "A375936",
+  "mentions": [],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

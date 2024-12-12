@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{k>=0} 2^k * x^(k^2) / Product_{j=1..k} (1 - x^j).",
+  "id": "A376948",
+  "mentions": [
+    "A003114",
+    "A032302",
+    "A376945",
+    "A376947"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

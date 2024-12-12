@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that can be expressed as (m + sum of digits of m) in exactly four ways.",
+  "id": "A377422",
+  "mentions": [
+    "A003052",
+    "A006064",
+    "A062028",
+    "A225793",
+    "A230093",
+    "A230094",
+    "A230100"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that 3^(4*3^n) - k is a safe prime.",
+  "id": "A376946",
+  "mentions": [
+    "A005385",
+    "A057821",
+    "A181356",
+    "A335313"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

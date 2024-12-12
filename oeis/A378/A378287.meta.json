@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not of the form m^k for some k>=3. Complement of A076467.",
+  "id": "A378287",
+  "mentions": [
+    "A076467",
+    "A362147"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

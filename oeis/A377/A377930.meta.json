@@ -1,0 +1,20 @@
+{
+  "description": "Square array A(n, k), n, k > 0, read by antidiagonals; A(n, k) = max(A007814(n), A007814(k)).",
+  "id": "A377930",
+  "mentions": [
+    "A003984",
+    "A007814",
+    "A053398"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

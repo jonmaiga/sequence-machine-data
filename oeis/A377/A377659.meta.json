@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Motzkin(n) - 2^(n - 1 + 0^n) = A001006(n) - A011782(n).",
+  "id": "A377659",
+  "mentions": [
+    "A001006",
+    "A011782",
+    "A125107"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

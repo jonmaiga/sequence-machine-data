@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that tau(k-1) = (tau(k))^2 = tau(k+1), where tau(k) = A000005(k)(number of divisors of k).",
+  "description": "Numbers k such that tau(k-1) = (tau(k))^2 = tau(k+1), where tau(k) = A000005(k) (number of divisors of k).",
   "id": "A190266",
   "mentions": [
     "A000005",

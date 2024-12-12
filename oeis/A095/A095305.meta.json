@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A094020(n) < n.",
+  "description": "Numbers k such that A094020(k) < k.",
   "id": "A095305",
   "mentions": [
     "A001222",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

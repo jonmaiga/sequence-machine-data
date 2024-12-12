@@ -2,7 +2,10 @@
   "description": "a(1) = 2; for n > 0, a(n+1) is the a(n)-th prime after a(n).",
   "id": "A093502",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A000720",
+    "A056239",
+    "A074271"
   ],
   "tags": [
     "formulas",

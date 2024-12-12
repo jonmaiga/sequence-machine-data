@@ -1,7 +1,9 @@
 {
-  "description": "Let p = x1x2x3...xk be a prime in base 10 with k digits. The sequence gives the primes p such that x1*x2*x3*...xk = k*(x1 + x2 + x3 + ... + xk).",
+  "description": "Primes whose product of digits equals the number of digits times the sum of digits.",
   "id": "A064155",
-  "mentions": [],
+  "mentions": [
+    "A064154"
+  ],
   "tags": [
     "base",
     "easy",

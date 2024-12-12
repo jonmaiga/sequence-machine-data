@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the unique k such that the run lengths transform of A376637(n) equals A376637(k).",
+  "id": "A376676",
+  "mentions": [
+    "A351653",
+    "A376637",
+    "A376698",
+    "A376733"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

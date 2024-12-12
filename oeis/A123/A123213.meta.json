@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n)^n (A062457) juxtaposed with the partial sums of primes starting with 1 (A014284).",
+  "description": "a(n) = A062457(n) concatenated with A014284(n).",
   "id": "A123213",
   "mentions": [
     "A014284",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "base",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

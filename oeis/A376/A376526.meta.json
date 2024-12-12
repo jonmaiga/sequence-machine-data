@@ -1,0 +1,15 @@
+{
+  "description": "G.f. A(x) satisfies (4*A(x^9)/A(x) - 1)^3 = 28*A(x^3)^4/A(x)^4 - 1 + 4*x.",
+  "id": "A376526",
+  "mentions": [
+    "A376525"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

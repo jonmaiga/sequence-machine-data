@@ -1,5 +1,5 @@
 {
-  "description": "Smallest one of largest prime divisors of all composite numbers between p and next prime.",
+  "description": "Smallest of the largest prime divisors of all the composite numbers between prime(n) and prime(n+1).",
   "id": "A069898",
   "mentions": [
     "A006530",

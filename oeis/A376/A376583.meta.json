@@ -1,0 +1,23 @@
+{
+  "description": "Parity of A002260.",
+  "id": "A376583",
+  "mentions": [
+    "A000035",
+    "A002260",
+    "A002262",
+    "A060510",
+    "A128174",
+    "A177990"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

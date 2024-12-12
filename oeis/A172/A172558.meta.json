@@ -1,13 +1,15 @@
 {
-  "description": "Number of 2*n X 12 0..1 arrays with row sums 6 and column sums n.",
+  "description": "Number of 2*n X 12 binary arrays with row sums 6 and column sums n.",
   "id": "A172558",
-  "mentions": [],
+  "mentions": [
+    "A376935"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 8,
+    "offset": 0,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

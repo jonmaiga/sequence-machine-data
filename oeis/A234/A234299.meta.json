@@ -1,5 +1,5 @@
 {
-  "description": "Let Pn be the n-th odd prime. a(n) = |A| is the smallest order of a set A of consecutive integers which has Euler-phi(3*5*7*11*...*Pn) members coprime to 3*5*7*..*Pn.",
+  "description": "a(n) = |A| is the smallest order of a set A of consecutive integers which has Euler-phi(3*5*7*11*...*Pn) members coprime to 3*5*7*..*Pn, where Pn is the n-th odd prime.",
   "id": "A234299",
   "mentions": [
     "A005867",
@@ -9,12 +9,11 @@
   "tags": [
     "formulas",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

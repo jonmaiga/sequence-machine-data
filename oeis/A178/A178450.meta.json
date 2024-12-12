@@ -2,7 +2,8 @@
   "description": "Dirichlet inverse of A034448 (unitary sigma).",
   "id": "A178450",
   "mentions": [
-    "A034448"
+    "A034448",
+    "A378434"
   ],
   "tags": [
     "easy",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,11 +1,18 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x*A(x)^5 / (1 - x*A(x)).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^5 / (1 - x*A(x)).",
   "id": "A364748",
   "mentions": [
     "A000108",
     "A001003",
+    "A002295",
     "A108447",
-    "A364747"
+    "A243667",
+    "A364747",
+    "A365192",
+    "A365193",
+    "A365194",
+    "A378691",
+    "A378692"
   ],
   "tags": [
     "formulas",
@@ -14,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

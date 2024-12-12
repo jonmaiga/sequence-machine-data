@@ -1,14 +1,18 @@
 {
   "description": "Palindromes such that successive difference of terms is also a palindrome.",
   "id": "A109872",
-  "mentions": [],
+  "mentions": [
+    "A073880"
+  ],
   "tags": [
     "base",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

@@ -2,6 +2,7 @@
   "description": "INVERTi transform of central trinomial coefficients (A002426).",
   "id": "A007971",
   "mentions": [
+    "A000108",
     "A001006",
     "A002426",
     "A005043",

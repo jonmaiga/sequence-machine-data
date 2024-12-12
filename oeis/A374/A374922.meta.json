@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that 3^k begins with n!.",
+  "id": "A374922",
+  "mentions": [
+    "A000142",
+    "A018858",
+    "A374923"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

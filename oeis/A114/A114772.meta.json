@@ -1,5 +1,5 @@
 {
-  "description": "Floor[7^(1/3)*10^n]^3.",
+  "description": "a(n) = floor(7^(1/3)*10^n)^3.",
   "id": "A114772",
   "mentions": [
     "A114761",
@@ -15,12 +15,11 @@
     "A114771"
   ],
   "tags": [
-    "base",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 13,
     "source": "joeis"
   }
 }

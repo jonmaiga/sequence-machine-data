@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the coefficient of x^k in the domination polynomial of the n X n grid graph (n>=1, A104519(n+2)<=k<=n^2).",
+  "id": "A378412",
+  "mentions": [
+    "A000290",
+    "A104519",
+    "A133515"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

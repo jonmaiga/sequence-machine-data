@@ -1,0 +1,19 @@
+{
+  "description": "In the binary expansion of n, replace the first, third, fifth, etc. 1's by 0's.",
+  "id": "A377404",
+  "mentions": [
+    "A000120",
+    "A265263"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

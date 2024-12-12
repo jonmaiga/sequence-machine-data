@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 5*n^4 - 6*n^2 + 1. Column 4 of A378066.",
+  "id": "A378064",
+  "mentions": [
+    "A378066"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

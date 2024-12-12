@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the minimum number with exactly n triples (u,m,v) of divisors such that u < v and m^2 is the harmonic mean of u^2 and v^2.",
+  "id": "A376713",
+  "mentions": [
+    "A001599",
+    "A001600",
+    "A005179"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

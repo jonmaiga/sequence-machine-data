@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0, and for any n > 0, a(n) is the least integer (in absolute value) not yet in the sequence such that the absolute difference of a(n-1) and a(n) is a square; in case of a tie, preference is given to the positive value.",
+  "id": "A377091",
+  "mentions": [
+    "A277616",
+    "A377090",
+    "A377092"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

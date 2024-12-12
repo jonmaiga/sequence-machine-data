@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of terms of A003052 that are <= n.",
+  "description": "a(n) is the number of terms of A003052 that are <= n.",
   "id": "A282711",
   "mentions": [
     "A003052"

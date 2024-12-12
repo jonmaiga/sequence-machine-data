@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that sigma(n) can be represented as sum{i=0,k, sigma(m+i)}, with k>0.",
+  "description": "Numbers n such that sigma(n) can be represented as Sum_{i=0..k} sigma(m+i), with k>0.",
   "id": "A086986",
   "mentions": [
+    "A000203",
     "A086987"
   ],
   "tags": [
@@ -9,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 71,
+    "size": 72,
     "source": "oeis-entry"
   }
 }

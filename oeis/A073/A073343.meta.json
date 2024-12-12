@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of (1,2,3,...,n) such that sum(k=1,n,gcd(k,p(k))) = sigma(n).",
+  "description": "Number of permutations p of (1,2,3,...,n) such that Sum_{k=1..n} gcd(k,p(k)) = sigma(n).",
   "id": "A073343",
   "mentions": [],
   "tags": [

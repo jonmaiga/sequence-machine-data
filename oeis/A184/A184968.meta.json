@@ -1,8 +1,9 @@
 {
-  "description": "Smallest k such that phi(phi(k)) = 2^n.",
+  "description": "Smallest k such that phi(phi(k)) = 2^n, where phi is the Euler totient function.",
   "id": "A184968",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A010554"
   ],
   "tags": [
     "nonn"

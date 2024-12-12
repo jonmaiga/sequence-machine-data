@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that 4*3^n + 1 is prime.",
+  "description": "Numbers m such that 4*3^m + 1 is prime.",
   "id": "A005537",
-  "mentions": [],
+  "mentions": [
+    "A005540",
+    "A125734"
+  ],
   "tags": [
     "more",
     "nonn"

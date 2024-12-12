@@ -1,7 +1,8 @@
 {
-  "description": "Length of FixedPointList leading to value of n-th composite number.",
+  "description": "Number of iterations of f(n,k) = n+pi(k)+1 starting from f(n,n) until a fixed point is reached.",
   "id": "A073259",
   "mentions": [
+    "A000720",
     "A002808",
     "A064814",
     "A073255",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

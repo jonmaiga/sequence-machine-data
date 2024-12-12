@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = n! / k!, 1<=k<=n.",
+  "description": "Triangle read by rows: T(n, k) = n! / k!, 1 <= k <= n.",
   "id": "A173333",
   "mentions": [
     "A000012",

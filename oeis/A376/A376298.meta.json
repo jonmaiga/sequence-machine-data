@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which are the sum of at least three successive terms of a geometric progression.",
+  "id": "A376298",
+  "mentions": [
+    "A053696",
+    "A084733",
+    "A085104"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

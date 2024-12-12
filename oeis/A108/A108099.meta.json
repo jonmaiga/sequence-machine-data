@@ -1,11 +1,13 @@
 {
-  "description": "a(n) = 8n^2 + 8n + 4.",
+  "description": "a(n) = 8*n^2 + 8*n + 4.",
   "id": "A108099",
   "mentions": [
     "A000217",
+    "A001844",
     "A016742",
     "A035008",
-    "A069129"
+    "A069129",
+    "A069894"
   ],
   "tags": [
     "easy",
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 45,
     "source": "joeis"
   }
 }

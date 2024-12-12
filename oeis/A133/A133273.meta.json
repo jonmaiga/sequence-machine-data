@@ -2,6 +2,11 @@
   "description": "Indices of centered decagonal numbers which are also decagonal numbers.",
   "id": "A133273",
   "mentions": [
+    "A001107",
+    "A001844",
+    "A005891",
+    "A010532",
+    "A062786",
     "A128922"
   ],
   "tags": [

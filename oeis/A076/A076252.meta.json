@@ -1,8 +1,11 @@
 {
-  "description": "omega(n) = omega(n-1) + omega(n-2) + omega(n-3), where omega(n) is the number of distinct prime factors of n.",
+  "description": "Integers k such that omega(k) = omega(k-1) + omega(k-2) + omega(k-3), where omega(n) is the number of distinct prime factors of n.",
   "id": "A076252",
   "mentions": [
-    "A001221"
+    "A001221",
+    "A006049",
+    "A076251",
+    "A076253"
   ],
   "tags": [
     "nonn"
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

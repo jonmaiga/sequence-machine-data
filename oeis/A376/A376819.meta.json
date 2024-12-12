@@ -1,0 +1,19 @@
+{
+  "description": "The smallest abundant number that begins a run of at least n consecutive abundant numbers with the same number of prime factors (counted with multiplicity).",
+  "id": "A376819",
+  "mentions": [
+    "A001222",
+    "A005101",
+    "A376818"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

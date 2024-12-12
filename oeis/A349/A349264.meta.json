@@ -30,6 +30,7 @@
     "A349266",
     "A349267",
     "A349268",
+    "A349271",
     "A349429"
   ],
   "tags": [
@@ -38,6 +39,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

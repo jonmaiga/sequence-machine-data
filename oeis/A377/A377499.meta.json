@@ -1,0 +1,22 @@
+{
+  "description": "For odd numbers 2n-1, half the sum of the least divisor not less than the square root and the largest divisor not exceeding the square root.",
+  "id": "A377499",
+  "mentions": [
+    "A001844",
+    "A006254",
+    "A033676",
+    "A033677",
+    "A063655",
+    "A219695",
+    "A377864"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

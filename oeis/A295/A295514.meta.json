@@ -2,7 +2,9 @@
   "description": "a(n) = 2^bil(n) - bil(n) where bil(0) = 0 and bil(n) = floor(log_2(n)) + 1 for n > 0.",
   "id": "A295514",
   "mentions": [
-    "A000325"
+    "A000325",
+    "A029837",
+    "A070939"
   ],
   "tags": [
     "formulas",

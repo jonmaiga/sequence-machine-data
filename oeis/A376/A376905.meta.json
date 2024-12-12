@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers with a(1) multiples of a number b(1) followed by a(2) multiples of a number b(2) etc.",
+  "id": "A376905",
+  "mentions": [
+    "A001462",
+    "A361748",
+    "A376903",
+    "A376904",
+    "A376906",
+    "A377093"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

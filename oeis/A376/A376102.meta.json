@@ -1,0 +1,28 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = k*2^(n+1) + 1.",
+  "id": "A376102",
+  "mentions": [
+    "A000012",
+    "A000051",
+    "A000079",
+    "A000215",
+    "A000295",
+    "A000337",
+    "A004119",
+    "A005408",
+    "A016813",
+    "A017077",
+    "A158057"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

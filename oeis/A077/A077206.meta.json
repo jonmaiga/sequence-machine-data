@@ -2,6 +2,7 @@
   "description": "a(1) = 1 and then smallest n-digit triangular number starting with the least significant digit of the previous term and not a multiple of 10.",
   "id": "A077206",
   "mentions": [
+    "A000217",
     "A077207"
   ],
   "tags": [

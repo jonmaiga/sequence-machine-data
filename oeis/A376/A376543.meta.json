@@ -1,0 +1,16 @@
+{
+  "description": "Numbers of the form p^e * q^f with p, q distinct primes = 3 mod 4 and e and f both odd.",
+  "id": "A376543",
+  "mentions": [
+    "A007774",
+    "A016105"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2-colorings of length n without an arithmetic progression of length 5.",
+  "id": "A378197",
+  "mentions": [
+    "A005346",
+    "A378195",
+    "A378196"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

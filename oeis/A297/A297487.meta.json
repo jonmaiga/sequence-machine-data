@@ -1,5 +1,5 @@
 {
-  "description": "Number of maximal matchings in the complete tripartite graph K_n,n,n.",
+  "description": "Number of maximal matchings in the complete tripartite graph K_{n,n,n}.",
   "id": "A297487",
   "mentions": [
     "A293075"

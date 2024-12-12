@@ -1,0 +1,17 @@
+{
+  "description": "Number of cyclic edge cuts in the complete graph K_n.",
+  "id": "A378324",
+  "mentions": [
+    "A000272",
+    "A001187"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

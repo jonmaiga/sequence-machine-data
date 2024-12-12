@@ -1,5 +1,5 @@
 {
-  "description": "Pick any pair of adjacent digits in a(n); their absolute first difference is present in a(n).",
+  "description": "Pick any pair of adjacent digits in a(n); their absolute difference is present in a(n).",
   "id": "A365420",
   "mentions": [
     "A338855"

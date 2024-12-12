@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = index in A377912 (or, equally, in A342042) of the first n-digit term.",
+  "id": "A377918",
+  "mentions": [
+    "A342042",
+    "A377912",
+    "A377917"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

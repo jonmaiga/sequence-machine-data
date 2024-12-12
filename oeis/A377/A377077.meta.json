@@ -1,0 +1,16 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^(7*k^2) / Product_{j=1..7*k-1} (1 - x^j).",
+  "id": "A377077",
+  "mentions": [
+    "A350889"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

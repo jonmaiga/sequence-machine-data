@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that k^2 has property that all even digits occur together and all odd digits occur together.",
   "id": "A030477",
-  "mentions": [],
+  "mentions": [
+    "A030476"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

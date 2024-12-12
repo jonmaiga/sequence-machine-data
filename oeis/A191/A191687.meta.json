@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k)=[Ceiling[1/2*((k+1)^n+(1+(-1)^k)/2)] read by antidiagonals",
+  "description": "Table T(n,k) = ceiling((1/2)*((k+1)^n+(1+(-1)^k)/2)) read by antidiagonals.",
   "id": "A191687",
   "mentions": [
     "A000012",

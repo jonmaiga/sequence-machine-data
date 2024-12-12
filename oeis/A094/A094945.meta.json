@@ -2,6 +2,7 @@
   "description": "Initial n terms of A023532(n) taken as digits.",
   "id": "A094945",
   "mentions": [
+    "A007088",
     "A023532",
     "A094946"
   ],

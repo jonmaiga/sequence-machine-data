@@ -1,0 +1,15 @@
+{
+  "description": "The number of solutions to x + y == x^2 + y^2 == x^3 + y^3 (mod n) with 0 <= x <= y < n.",
+  "id": "A376691",
+  "mentions": [
+    "A376646"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,12 +1,15 @@
 {
-  "description": "Dirichlet inverse of A048673.",
+  "description": "Dirichlet inverse of A048673, where A048673(n) = (A003961(n)+1) / 2, and A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
   "id": "A323893",
   "mentions": [
     "A003961",
     "A048673",
-    "A323894"
+    "A323894",
+    "A349134",
+    "A378520"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that p*nextprime(p)+1 and p + nextprime(p)+1 are both perfect squares where nextprime(p) is the smallest prime that is larger than p.",
+  "id": "A375912",
+  "mentions": [
+    "A001359",
+    "A242384"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

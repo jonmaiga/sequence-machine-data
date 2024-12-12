@@ -1,0 +1,22 @@
+{
+  "description": "Powerful numbers k such that both k-1 and k+1 are in A126706.",
+  "id": "A378629",
+  "mentions": [
+    "A001694",
+    "A013929",
+    "A024619",
+    "A052486",
+    "A126706",
+    "A246547",
+    "A286708"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

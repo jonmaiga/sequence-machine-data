@@ -1,5 +1,5 @@
 {
-  "description": "n is in the sequence if every digit of n is a divisor of n and every divisor of n in the range [2,9] occurs at least once as a digit of n.",
+  "description": "Numbers k such that every digit of k is a divisor of k and every divisor of k in the range [2,9] occurs at least once as a digit of k.",
   "id": "A075049",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 49,
     "source": "oeis-entry"
   }

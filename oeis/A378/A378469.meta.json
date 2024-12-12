@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in expansion of (1/E_4)^4.",
+  "id": "A378469",
+  "mentions": [
+    "A001943",
+    "A004009",
+    "A287933",
+    "A289247",
+    "A289319",
+    "A289566",
+    "A295815",
+    "A378468"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

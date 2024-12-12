@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first number that is a prime times 3^n and ends in exactly n 1's.",
+  "id": "A376689",
+  "mentions": [
+    "A065821"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

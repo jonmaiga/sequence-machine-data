@@ -1,15 +1,19 @@
 {
-  "description": "Triangle read by rows: T(n,k) (n >= 1, 2 <= k <= n-1) is number of non-crossing trees with k nodes and path-length n.",
+  "description": "Triangle read by rows: T(n,k) is number of noncrossing trees with k edges and path-length n, n >= 1, 1 <= k <= n.",
   "id": "A204387",
-  "mentions": [],
+  "mentions": [
+    "A001764",
+    "A062236",
+    "A132332"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

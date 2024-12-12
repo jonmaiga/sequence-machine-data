@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 159^n - 158^n is prime.",
+  "description": "Numbers k such that 159^k - 158^k is prime.",
   "id": "A259535",
   "mentions": [
     "A254298"

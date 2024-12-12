@@ -1,0 +1,16 @@
+{
+  "description": "Number of polycubes of size n and symmetry class DEE.",
+  "id": "A377130",
+  "mentions": [
+    "A000162",
+    "A038119"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

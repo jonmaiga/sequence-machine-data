@@ -1,0 +1,17 @@
+{
+  "description": "The terms of A376201 consist of runs of successive numbers that increase by 1 at each step: a(n) is one-half of length of the n-th such run.",
+  "id": "A376758",
+  "mentions": [
+    "A376198",
+    "A376201"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "E.g.f.: Product_{m>0} 1/(1 - x^m + x^(2*m)/2!).",
   "id": "A293302",
   "mentions": [
+    "A003105",
     "A293301"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

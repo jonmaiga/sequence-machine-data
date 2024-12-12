@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k) for n >= 2, k < n is the distance of n and k in the Collatz graph, where T(n,k) is a triangle read by rows.",
+  "id": "A375206",
+  "mentions": [
+    "A006370",
+    "A008908",
+    "A070165"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

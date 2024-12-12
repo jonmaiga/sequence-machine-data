@@ -2,7 +2,8 @@
   "description": "Number of positive integers not exceeding n that are relatively prime to phi(n).",
   "id": "A072302",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A008683"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 77,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

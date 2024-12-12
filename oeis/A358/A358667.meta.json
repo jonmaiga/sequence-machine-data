@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k) is the k-th integer j > 1 such that the sum of digits of n^j is a power of n (or -1 if no such k-th integer exists); table read by antidiagonals downward.",
+  "description": "T(n,k) is the k-th integer j > 1 such that the sum of digits of n^j is a power of n (or -1 if no such k-th integer exists); table read by downward antidiagonals.",
   "id": "A358667",
   "mentions": [
     "A095412",

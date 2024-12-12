@@ -1,5 +1,5 @@
 {
-  "description": "Primes consisting only of digits 4 and 3 occurring with equal frequency.",
+  "description": "Primes consisting only of digits 3 and 4 occurring with equal frequency.",
   "id": "A087529",
   "mentions": [
     "A087510",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 23,
     "source": "joeis"
   }
 }

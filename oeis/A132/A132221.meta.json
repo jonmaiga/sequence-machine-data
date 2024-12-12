@@ -1,5 +1,5 @@
 {
-  "description": "Number of imprimitive transitive groups of order n.",
+  "description": "Number of imprimitive transitive permutation groups of degree n.",
   "id": "A132221",
   "mentions": [
     "A000019",
@@ -7,6 +7,8 @@
   ],
   "tags": [
     "formulas",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

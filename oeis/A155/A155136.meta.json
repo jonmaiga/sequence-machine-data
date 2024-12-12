@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that n+28 is a square.",
+  "description": "Integers k such that k + 28 is a square.",
   "id": "A155136",
   "mentions": [
     "A153642",

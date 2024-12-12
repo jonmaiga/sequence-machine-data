@@ -1,0 +1,19 @@
+{
+  "description": "Main diagonal of A376738: a(n) is the n-th number which is the product of n (possibly non-distinct) primes having the same number of decimal digits.",
+  "id": "A376739",
+  "mentions": [
+    "A101695",
+    "A376738"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

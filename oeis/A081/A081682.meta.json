@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (9^n-8^n-7^n-6^n+4*5^n)/2.",
+  "description": "a(n) = (9^n - 8^n - 7^n - 6^n + 4*5^n)/2.",
   "id": "A081682",
   "mentions": [
     "A081681",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "joeis"
   }
 }

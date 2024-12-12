@@ -1,0 +1,26 @@
+{
+  "description": "Number of digit patterns of length n such that all integers of that digital type share a common prime factor of a different digital type.",
+  "id": "A378199",
+  "mentions": [
+    "A004023",
+    "A070824",
+    "A164864",
+    "A266946",
+    "A267013",
+    "A358497",
+    "A376918",
+    "A377727",
+    "A378154"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

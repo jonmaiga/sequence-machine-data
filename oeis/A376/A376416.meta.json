@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A276085(A006862(n)), where A276085 is the primorial base log-function, and A006862 is the Euclid numbers, one more than primorials.",
+  "id": "A376416",
+  "mentions": [
+    "A002110",
+    "A006862",
+    "A014545",
+    "A018239",
+    "A100484",
+    "A276085",
+    "A276086",
+    "A276087",
+    "A377871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

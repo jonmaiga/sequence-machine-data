@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that there is no k > n such that phi(k) = phi(n), where phi is Euler's totient function.",
+  "description": "Numbers m such that there is no k > m such that phi(k) = phi(m), where phi is Euler's totient function.",
   "id": "A043343",
   "mentions": [
+    "A000010",
     "A028476",
     "A066659"
   ],
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Row square-sums of triangle A182013.",
   "id": "A182017",
   "mentions": [
+    "A001006",
     "A182013"
   ],
   "tags": [

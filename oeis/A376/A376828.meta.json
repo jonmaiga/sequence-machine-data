@@ -1,0 +1,19 @@
+{
+  "description": "Smallest nonnegative integer k such that there exist n partitions of k which all yield the same multinomial coefficient and with no part appearing in more than one of the partitions.",
+  "id": "A376828",
+  "mentions": [
+    "A376661",
+    "A376673",
+    "A376821"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

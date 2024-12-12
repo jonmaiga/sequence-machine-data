@@ -1,12 +1,14 @@
 {
-  "description": "Look left and tell the least frequent: after a(0) = 0, a(n) = 10c + d, where c > 0 is the number of times the least frequent digit d has appeared so far; smallest d in case of tie.",
+  "description": "Start with a(0)=0; thereafter, look left and identify the least frequent digit d so far (in case of a tie, choose the smallest d): after then a(n) = 10c + d, where c > 0 is the number of times d has appeared so far.",
   "id": "A329447",
   "mentions": [
     "A005150",
     "A045918",
     "A139097",
     "A139282",
-    "A329448"
+    "A329448",
+    "A376779",
+    "A377905"
   ],
   "tags": [
     "base",

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = floor(A377084(n)/(n-1)^2).",
+  "id": "A377085",
+  "mentions": [
+    "A377084"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

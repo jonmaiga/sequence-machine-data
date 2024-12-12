@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum{r^(-2^k), k >= 0}, where r = golden ratio.",
+  "description": "Decimal expansion of Sum_{k>=0} r^(-2^k), where r = golden ratio.",
   "id": "A253271",
   "mentions": [
     "A000045",

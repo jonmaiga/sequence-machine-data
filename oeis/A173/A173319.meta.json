@@ -1,5 +1,5 @@
 {
-  "description": "5*n! + 1.",
+  "description": "a(n) = 5*n! + 1.",
   "id": "A173319",
   "mentions": [
     "A038507",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

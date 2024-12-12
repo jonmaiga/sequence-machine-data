@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the maximum number of squares covered (i.e., attacked) by k independent (i.e., non-attacking) queens on an n X n chessboard.",
+  "id": "A376732",
+  "mentions": [
+    "A002567",
+    "A047461",
+    "A075324",
+    "A075458",
+    "A274947",
+    "A374933",
+    "A374934",
+    "A374935",
+    "A374936",
+    "A374937",
+    "A374938",
+    "A375116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

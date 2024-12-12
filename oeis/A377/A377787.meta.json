@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of 30*arctan(2).",
+  "id": "A377787",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Least k >0 such that k*p*(k*p-1)-1 and k*p*(k*p-1)+1 is a twin prime pair, where p=prime(n).",
+  "description": "Least k > 0 such that k*p*(k*p-1)-1 and k*p*(k*p-1)+1 is a twin prime pair, where p=prime(n).",
   "id": "A200778",
   "mentions": [
     "A200654"

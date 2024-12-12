@@ -1,7 +1,9 @@
 {
   "description": "Primes p such that x^4 = 10 has a solution mod p.",
   "id": "A040119",
-  "mentions": [],
+  "mentions": [
+    "A040121"
+  ],
   "tags": [
     "easy",
     "nonn"

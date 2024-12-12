@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A369255, where A369255(n) = A140773(n) mod 2.",
+  "id": "A378214",
+  "mentions": [
+    "A038548",
+    "A065043",
+    "A140773",
+    "A369255",
+    "A378213",
+    "A378215"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

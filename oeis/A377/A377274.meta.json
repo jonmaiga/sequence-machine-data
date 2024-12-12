@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of a truncated tetrahedron with unit edge length.",
+  "id": "A377274",
+  "mentions": [
+    "A002194",
+    "A093577",
+    "A377275",
+    "A377276",
+    "A377277"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

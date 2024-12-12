@@ -1,0 +1,42 @@
+{
+  "description": "Row sums of the absolute value of the array A095195(n, k) = n-th term of the k-th differences of the prime numbers (A000040).",
+  "id": "A376681",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A007442",
+    "A008578",
+    "A030016",
+    "A036263",
+    "A064113",
+    "A065890",
+    "A075526",
+    "A084758",
+    "A095195",
+    "A140119",
+    "A173390",
+    "A233671",
+    "A258025",
+    "A333214",
+    "A333254",
+    "A376602",
+    "A376651",
+    "A376652",
+    "A376678",
+    "A376683",
+    "A376684",
+    "A376855",
+    "A377033",
+    "A377035",
+    "A377040",
+    "A377048"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

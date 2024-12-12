@@ -1,0 +1,20 @@
+{
+  "description": "Cogrowth sequence of the 20-element dicyclic group Dic20 = .",
+  "id": "A378276",
+  "mentions": [
+    "A078789",
+    "A377656",
+    "A378254",
+    "A378278"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

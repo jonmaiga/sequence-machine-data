@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent n X 4 nonnegative integer arrays with row sums 4 and column sums n up to permutations of rows and columns.",
+  "id": "A377062",
+  "mentions": [
+    "A172816",
+    "A377060",
+    "A377061"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

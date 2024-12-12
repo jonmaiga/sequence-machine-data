@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator((1/n!)*Sum_{k=1..n} 1/(2*k)).",
+  "id": "A377401",
+  "mentions": [
+    "A000142",
+    "A005843",
+    "A060746",
+    "A377400"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

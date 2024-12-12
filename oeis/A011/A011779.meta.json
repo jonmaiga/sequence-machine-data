@@ -2,12 +2,15 @@
   "description": "Expansion of 1/((1-x)^3*(1-x^3)^2).",
   "id": "A011779",
   "mentions": [
+    "A049347",
+    "A099254",
     "A139600",
     "A180662",
     "A236770"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

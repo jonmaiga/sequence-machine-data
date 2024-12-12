@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2 a(n-1) + 24 a(n-2), a(0)=0, a(1)=1.",
+  "description": "a(n) = 2*a(n-1) + 24*a(n-2), a(0)=0, a(1)=1.",
   "id": "A051958",
   "mentions": [
     "A015441",

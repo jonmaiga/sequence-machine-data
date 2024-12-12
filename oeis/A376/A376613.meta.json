@@ -1,0 +1,20 @@
+{
+  "description": "The binary expansion of a(n) tracks where the merge operations occurs in a Tim sort algorithm applied to n blocks.",
+  "id": "A376613",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A077585",
+    "A233272"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

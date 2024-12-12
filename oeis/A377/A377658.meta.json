@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0 .. n} Sum_{j=0 .. k} tan(j*Pi/(1 + 2*k))^(2*(n - k)). Antidiagonal sums of A377657.",
+  "id": "A377658",
+  "mentions": [
+    "A377657"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

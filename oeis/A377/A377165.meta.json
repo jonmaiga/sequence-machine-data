@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 76 + 275*n.",
+  "id": "A377165",
+  "mentions": [
+    "A008593",
+    "A008607",
+    "A377166"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

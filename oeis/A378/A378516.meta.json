@@ -1,0 +1,18 @@
+{
+  "description": "Number of dominating unique simple graphs on n nodes.",
+  "id": "A378516",
+  "mentions": [
+    "A000088",
+    "A378517"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of non-overlapping discs with a diameter of 1 that can fit within an n×n square, using hexagonal packing or square packing, whichever is more efficient.",
+  "id": "A376215",
+  "mentions": [
+    "A084617"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

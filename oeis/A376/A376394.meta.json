@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. ( (1/x) * Series_Reversion( x*(1 + log(1-x))^3 ) )^(2/3).",
+  "id": "A376394",
+  "mentions": [
+    "A367139",
+    "A376393"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

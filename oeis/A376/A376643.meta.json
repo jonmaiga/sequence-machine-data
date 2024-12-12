@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion 4*EllipticK(4/5)/sqrt(5), where EllipticK is the complete elliptic integral of the first kind.",
+  "id": "A376643",
+  "mentions": [
+    "A019692",
+    "A038533",
+    "A038534",
+    "A175574",
+    "A256514",
+    "A309893",
+    "A310000"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

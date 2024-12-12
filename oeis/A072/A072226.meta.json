@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th cyclotomic polynomial evaluated at 2 (=A019320(n)) is prime.",
+  "description": "Numbers k such that the k-th cyclotomic polynomial evaluated at 2 (=A019320(k)) is prime.",
   "id": "A072226",
   "mentions": [
     "A000043",

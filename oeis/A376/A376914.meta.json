@@ -1,0 +1,18 @@
+{
+  "description": "Values k for primitive solutions to k^5 + a^5 + b^5 + c^5 = d^5 + e^5 with k >= a >= b >= c > 0 and d >= e >= 0, repetitions allowed.",
+  "id": "A376914",
+  "mentions": [
+    "A063923",
+    "A134341",
+    "A376289"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

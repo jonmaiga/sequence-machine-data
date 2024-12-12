@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 0, a(n) = Sum_{digits d in a(n-1)} (d+[d==0])*c(d,n-1) where c(d,k) = number of digits d in a(1..a(k)), with Iverson bracket.",
+  "id": "A378360",
+  "mentions": [
+    "A279818",
+    "A378316",
+    "A378359"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

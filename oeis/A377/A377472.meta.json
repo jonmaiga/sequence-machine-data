@@ -1,0 +1,18 @@
+{
+  "description": "First differences of Colombian or self numbers A003052.",
+  "id": "A377472",
+  "mentions": [
+    "A003052",
+    "A377473",
+    "A377474"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

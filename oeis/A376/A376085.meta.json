@@ -1,0 +1,16 @@
+{
+  "description": "a(0..5) = 1 and a(n) = 1 - a(n-1) - a(n-2) + a(n-1)*a(n-2)*a(n-3)/a(n-4) + a(n-2)*a(n-3)*a(n-4)/a(n-5) + a(n-3)*a(n-4)*a(n-5)/a(n-6), for n > 5.",
+  "id": "A376085",
+  "mentions": [
+    "A051786"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

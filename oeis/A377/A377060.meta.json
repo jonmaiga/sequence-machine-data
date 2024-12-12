@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of inequivalent n X k nonnegative integer matrices with all column sums n and row sums k up to permutation of rows and columns.",
+  "id": "A377060",
+  "mentions": [
+    "A000012",
+    "A008619",
+    "A333733",
+    "A333734",
+    "A333901",
+    "A377007",
+    "A377061",
+    "A377062"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

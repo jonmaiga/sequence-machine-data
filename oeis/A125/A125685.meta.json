@@ -1,5 +1,5 @@
 {
-  "description": "Primes in A125683(n) = numerator[ Sum[ (-1)^(k+1) * 1/(k(k+1)), {k,1,n} ].",
+  "description": "Primes in A125683(n) in order of their occurrence.",
   "id": "A125685",
   "mentions": [
     "A125683",

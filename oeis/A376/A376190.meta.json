@@ -1,0 +1,17 @@
+{
+  "description": "For a line L in the plane, let C(L) denote the number of prime points [k, prime(k)] on L, and let M(L) denote the maximum prime(k) for any of these points. a(n) is the maximum of the smallest primes in the lines L with C(L) = n and containing prime A376187(n), or a(n) = -1 if no such lines exist.",
+  "id": "A376190",
+  "mentions": [
+    "A376187",
+    "A376188"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

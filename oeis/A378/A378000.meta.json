@@ -1,0 +1,31 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n,k) is the k-th positive integer that is digitally balanced in base n.",
+  "id": "A378000",
+  "mentions": [
+    "A031443",
+    "A049354",
+    "A049355",
+    "A049356",
+    "A049357",
+    "A049358",
+    "A049359",
+    "A049360",
+    "A049363",
+    "A049364",
+    "A065963",
+    "A378001",
+    "A378073",
+    "A378080",
+    "A378104"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

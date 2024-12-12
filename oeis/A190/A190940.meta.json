@@ -1,19 +1,21 @@
 {
-  "description": "Consider all compositions of n = a+b+c+..., as 2 or more positive integers a,b,c,... > 0. a(n) is the number of distinct values taken by lcm(a, a+b, a+b+c, ..., n).",
+  "description": "Number of divisors of LCM(1,2,...,n)/n.",
   "id": "A190940",
   "mentions": [
     "A000005",
     "A002944",
-    "A101207"
+    "A003418",
+    "A056793",
+    "A101207",
+    "A378314"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

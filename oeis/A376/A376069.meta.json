@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the lexicographically earliest minimal superpermutation on n symbols, where the symbols are {1, 2, ..., n}, with 1 <= n <= 9.",
+  "id": "A376069",
+  "mentions": [
+    "A180632",
+    "A332089",
+    "A332090",
+    "A341300",
+    "A376269"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

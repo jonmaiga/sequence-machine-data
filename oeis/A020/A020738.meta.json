@@ -1,5 +1,5 @@
 {
-  "description": "Consider number of divisors of binomial(n, k), k=0..n; a(n) = multiplicity of maximal value.",
+  "description": "Consider number of divisors of binomial(n, k), k=0..n; a(n) = multiplicity of the maximum value.",
   "id": "A020738",
   "mentions": [
     "A000005",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

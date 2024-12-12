@@ -1,0 +1,24 @@
+{
+  "description": "Number of caesium clock \"ticks\" in time units: tick, second, minute, hour, day, week, month, year, decade, century, millennium, eon (in Julian years).",
+  "id": "A375862",
+  "mentions": [
+    "A053401",
+    "A213612",
+    "A213613",
+    "A213614",
+    "A230458",
+    "A375666"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

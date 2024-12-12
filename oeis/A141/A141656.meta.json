@@ -1,18 +1,17 @@
 {
-  "description": "A triangle of coefficients representing an Integer Cyclotomic c(x,n) rotation of the primes: t(n,m)=If[ Prime,Floor[C(m/(n+2),Prime(n+1))*Prime(n+1))]].",
+  "description": "Primes in A141655, as they appear.",
   "id": "A141656",
   "mentions": [
-    "A141529"
+    "A141655"
   ],
   "tags": [
-    "formulas",
+    "less",
     "nonn",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 23,
+    "offset": 0,
+    "size": 60,
     "source": "oeis-entry"
   }
 }

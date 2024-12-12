@@ -1,0 +1,20 @@
+{
+  "description": "Number of integers whose arithmetic derivative (A003415) is equal to A024451(n), the arithmetic derivative of the n-th primorial.",
+  "id": "A377993",
+  "mentions": [
+    "A002620",
+    "A003415",
+    "A024451",
+    "A099302",
+    "A377992"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

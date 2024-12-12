@@ -1,14 +1,17 @@
 {
-  "description": "Irregular table read by rows: T(n,k) is the number of 2n-step closed self-avoiding paths on a 2D square lattice with area k, where k >= n-1;",
+  "description": "Irregular table read by rows: T(n,k) is the number of 2n-step closed self-avoiding paths on a 2D square lattice with area k, where k >= n-1.",
   "id": "A334756",
   "mentions": [
     "A001411",
     "A002931",
+    "A008855",
     "A010566",
     "A037245",
-    "A316194"
+    "A316194",
+    "A352838"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],

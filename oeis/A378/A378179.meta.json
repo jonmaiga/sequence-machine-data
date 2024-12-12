@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree numbers k whose neighbors are neither squarefree nor prime powers.",
+  "id": "A378179",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A024619",
+    "A073247",
+    "A126706"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

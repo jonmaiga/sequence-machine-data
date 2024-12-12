@@ -1,0 +1,16 @@
+{
+  "description": "G.f.: Sum_{k>=1} k * x^(k*(4*k-3)) / (1 - x^k).",
+  "id": "A377301",
+  "mentions": [
+    "A334466"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

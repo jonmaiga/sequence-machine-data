@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n!/n#) * 2^n + 1 is prime, where n# = primorial numbers (A034386).",
+  "description": "Numbers k such that (k!/k#) * 2^k + 1 is prime, where n# = primorial numbers (A034386).",
   "id": "A108894",
   "mentions": [
     "A034386",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

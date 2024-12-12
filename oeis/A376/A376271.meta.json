@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that there exists at least one proper divisor that is neither squarefree nor a prime power, i.e., m is in A126706.",
+  "id": "A376271",
+  "mentions": [
+    "A007947",
+    "A027750",
+    "A126706",
+    "A366825",
+    "A376514"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

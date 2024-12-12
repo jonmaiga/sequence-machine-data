@@ -1,9 +1,13 @@
 {
-  "description": "G.f. satisfies A(x) = (1 + x / (1 - x*A(x))^2)^2.",
+  "description": "G.f. A(x) satisfies A(x) = (1 + x / (1 - x*A(x))^2)^2.",
   "id": "A365120",
   "mentions": [
     "A000108",
-    "A365121"
+    "A006013",
+    "A365118",
+    "A365121",
+    "A365123",
+    "A367236"
   ],
   "tags": [
     "formulas",

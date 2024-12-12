@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that closest primes surrounding 10^n have the same last digit.",
+  "description": "Numbers k such that closest primes surrounding 10^n have the same last digit.",
   "id": "A118782",
   "mentions": [],
   "tags": [

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(Sum_{k>=1} phi(k)^2 * x^k/k), where phi is the Euler totient function A000010.",
+  "id": "A377507",
+  "mentions": [
+    "A000010",
+    "A065464",
+    "A127473",
+    "A156302",
+    "A318917",
+    "A377508",
+    "A377509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Powerful numbers that have more divisors than any smaller powerful number.",
+  "id": "A377138",
+  "mentions": [
+    "A000005",
+    "A001694",
+    "A002182",
+    "A025487",
+    "A283052",
+    "A357669",
+    "A363194"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

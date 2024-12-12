@@ -1,0 +1,20 @@
+{
+  "description": "Integers which cannot be partitioned into the sum of a hexagonal number plus a pentagonal number, nor a hexagonal number plus a square, nor a pentagonal number plus a square.",
+  "id": "A375249",
+  "mentions": [
+    "A000290",
+    "A000326",
+    "A000384",
+    "A020757",
+    "A160324"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

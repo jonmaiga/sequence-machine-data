@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are primitive Zumkeller, but not primitive non-deficient.",
+  "id": "A378657",
+  "mentions": [
+    "A006039",
+    "A180332",
+    "A341619",
+    "A378537",
+    "A378538",
+    "A378656"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 0, k >= 0, T[n,k]>0) is the total number of occurrences of the digit k in terms 0 to n of A329447.",
+  "id": "A377905",
+  "mentions": [
+    "A329447"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 125,
+    "source": "oeis-entry"
+  }
+}

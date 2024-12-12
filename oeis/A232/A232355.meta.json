@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(triangular(n)) = sigma(n)^2.",
+  "description": "Numbers k such that sigma(triangular(k)) = sigma(k)^2.",
   "id": "A232355",
   "mentions": [
     "A000203",

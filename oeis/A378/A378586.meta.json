@@ -1,0 +1,14 @@
+{
+  "description": "Number of distinct domination roots among all simple graphs on n vertices.",
+  "id": "A378586",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

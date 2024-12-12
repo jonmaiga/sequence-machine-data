@@ -2,8 +2,11 @@
   "description": "Number of Fibonacci numbers <= n.",
   "id": "A108852",
   "mentions": [
+    "A000045",
+    "A001622",
     "A060384",
-    "A072649"
+    "A072649",
+    "A104162"
   ],
   "tags": [
     "formulas",

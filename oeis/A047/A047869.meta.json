@@ -2,7 +2,8 @@
   "description": "Subsets of an 8-element set in order by number of elements in each subset.",
   "id": "A047869",
   "mentions": [
-    "A003188"
+    "A003188",
+    "A294648"
   ],
   "tags": [
     "fini",

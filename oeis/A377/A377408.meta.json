@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled semidistributive lattices with n elements.",
+  "id": "A377408",
+  "mentions": [
+    "A006982",
+    "A292790"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

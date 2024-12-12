@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Product_{k=1..5} Gamma(k/3).",
+  "id": "A376911",
+  "mentions": [
+    "A002388",
+    "A073005",
+    "A186706",
+    "A214549",
+    "A376859",
+    "A376912",
+    "A376913"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

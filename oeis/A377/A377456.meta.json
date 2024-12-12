@@ -1,0 +1,23 @@
+{
+  "description": "Starts of runs of 3 consecutive integers that are all terms of A377385.",
+  "id": "A377456",
+  "mentions": [
+    "A034968",
+    "A118363",
+    "A328205",
+    "A376794",
+    "A377273",
+    "A377385",
+    "A377455"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

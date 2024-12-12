@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Gamma(1/4)^4/(16*Pi^2).",
+  "id": "A377542",
+  "mentions": [
+    "A002388",
+    "A068465",
+    "A068466",
+    "A068467",
+    "A254794"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

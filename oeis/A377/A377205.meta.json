@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers a(1), a(2), ... such that for any n >= 0, s(n) = Sum_{k=1..n} 1/(k^2*a(k)) < 1.",
+  "id": "A377205",
+  "mentions": [
+    "A000290",
+    "A013661",
+    "A374663",
+    "A377229",
+    "A377230"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

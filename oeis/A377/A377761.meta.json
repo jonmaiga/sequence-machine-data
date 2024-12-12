@@ -1,0 +1,14 @@
+{
+  "description": "Number of edge cuts in the halved cube graph Q_n/2.",
+  "id": "A377761",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

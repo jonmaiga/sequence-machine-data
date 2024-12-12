@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct right circular cones with integer radius and height having the same volume as a sphere with radius n.",
+  "id": "A376074",
+  "mentions": [
+    "A375576",
+    "A375580",
+    "A375785"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

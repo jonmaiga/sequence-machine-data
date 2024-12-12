@@ -1,8 +1,9 @@
 {
-  "description": "29*n^2.",
+  "description": "a(n) = 29*n^2.",
   "id": "A244635",
   "mentions": [
     "A000290",
+    "A195819",
     "A244630"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 42,
     "source": "joeis"
   }
 }

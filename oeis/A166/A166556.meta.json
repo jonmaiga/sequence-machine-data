@@ -1,10 +1,15 @@
 {
-  "description": "Triangle read by rows, A000012 * A047999",
+  "description": "Triangle read by rows, A000012 * A047999.",
   "id": "A166556",
   "mentions": [
     "A000012",
+    "A000027",
+    "A004524",
+    "A004526",
     "A006046",
-    "A047999"
+    "A007729",
+    "A047999",
+    "A080100"
   ],
   "tags": [
     "easy",

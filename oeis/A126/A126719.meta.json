@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = -n^2 + 9n + 23.",
+  "description": "a(n) = -n^2 + 9*n + 23.",
   "id": "A126719",
   "mentions": [
     "A126665"

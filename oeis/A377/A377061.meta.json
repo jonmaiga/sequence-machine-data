@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent n X 3 nonnegative integer arrays with row sums 3 and column sums n up to permutations of rows and columns.",
+  "id": "A377061",
+  "mentions": [
+    "A172743",
+    "A377060",
+    "A377062"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

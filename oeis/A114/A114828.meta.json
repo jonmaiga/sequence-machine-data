@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k-th octagonal number has 9 prime factors counted with multiplicity.",
+  "description": "Numbers k such that the k-th octagonal number has 9 prime factors counted with multiplicity.",
   "id": "A114828",
   "mentions": [
     "A000040",
@@ -29,6 +29,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

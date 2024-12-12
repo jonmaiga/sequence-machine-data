@@ -1,11 +1,14 @@
 {
-  "description": "Number of n-digit highly composite numbers (numbers whose prime divisors are <= 7).",
+  "description": "Number of n-digit 7-smooth numbers (A002473).",
   "id": "A085630",
   "mentions": [
-    "A002473"
+    "A002473",
+    "A071604",
+    "A106600"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

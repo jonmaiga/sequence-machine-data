@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - 4*x^2 - 4*x^3)^(5/2).",
+  "id": "A377189",
+  "mentions": [
+    "A115962",
+    "A374511",
+    "A377186",
+    "A377190"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

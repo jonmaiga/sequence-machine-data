@@ -1,5 +1,5 @@
 {
-  "description": "100n^2 - 2n.",
+  "description": "a(n) = 100*n^2 - 2*n.",
   "id": "A158129",
   "mentions": [],
   "tags": [
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 36,
+    "offset": 0,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

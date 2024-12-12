@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{i=1..q-1} d(i)^i where d(i) are the q sorted divisors of A376222(n).",
+  "id": "A376223",
+  "mentions": [
+    "A180852",
+    "A376222"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

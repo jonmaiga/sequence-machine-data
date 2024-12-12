@@ -1,0 +1,19 @@
+{
+  "description": "Positions of numbers in A000462 that end in 2.",
+  "id": "A376356",
+  "mentions": [
+    "A000462",
+    "A376354",
+    "A376355",
+    "A376357"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

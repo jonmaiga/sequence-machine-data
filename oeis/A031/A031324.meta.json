@@ -3,16 +3,21 @@
   "id": "A031324",
   "mentions": [
     "A000045",
-    "A021093"
+    "A021093",
+    "A031325",
+    "A031334",
+    "A033307",
+    "A033308"
   ],
   "tags": [
     "base",
+    "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 92,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

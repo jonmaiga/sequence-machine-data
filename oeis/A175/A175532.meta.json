@@ -1,15 +1,16 @@
 {
-  "description": "a(1) = 1; for n>1, a(n) = smallest number of the form 4k+1 and a(n) > a(n-1) such that the pairwise sums of elements are all semiprimes.",
+  "description": "a(1) = 1; a(2) = 9; for n>2, a(n) = smallest number of the form 4k+1 and a(n) > a(n-1) such that the pairwise sums of elements are all semiprimes.",
   "id": "A175532",
   "mentions": [
-    "A175533"
+    "A115760"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

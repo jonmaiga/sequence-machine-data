@@ -1,0 +1,16 @@
+{
+  "description": "Record values in A205561.",
+  "id": "A378188",
+  "mentions": [
+    "A205561",
+    "A378189"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

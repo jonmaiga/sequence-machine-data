@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by rising antidiagonals: T(n, k) = A377441(-n, k), an extension of A377441 into the domain of negative n.",
+  "id": "A377442",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A006720",
+    "A105633",
+    "A152172",
+    "A254316",
+    "A328380",
+    "A330025",
+    "A371965",
+    "A377441",
+    "A377443"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

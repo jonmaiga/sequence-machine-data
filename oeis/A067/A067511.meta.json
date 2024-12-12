@@ -2,6 +2,7 @@
   "description": "Powers of 7 with digit sum divisible by 7.",
   "id": "A067511",
   "mentions": [
+    "A000420",
     "A067499",
     "A067500",
     "A067501",
@@ -13,7 +14,8 @@
     "A067507",
     "A067508",
     "A067509",
-    "A067510"
+    "A067510",
+    "A273159"
   ],
   "tags": [
     "base",
@@ -21,8 +23,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 9,
-    "source": "joeis"
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

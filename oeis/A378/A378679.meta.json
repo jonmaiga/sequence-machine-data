@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator(Sum_{k=1..n} 1/P(k)), where P(k) = A006530(k) is the greatest prime dividing k for k >= 2, and P(1) = 1.",
+  "id": "A378679",
+  "mentions": [
+    "A006530",
+    "A034386",
+    "A057155",
+    "A378678"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the surface area of a truncated icosahedron with unit edge length.",
+  "id": "A377750",
+  "mentions": [
+    "A002163",
+    "A002194",
+    "A010527",
+    "A205769",
+    "A375067",
+    "A377751",
+    "A377752",
+    "A377787"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

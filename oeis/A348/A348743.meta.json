@@ -1,10 +1,20 @@
 {
-  "description": "Odd nonsquares k for which A161942(k) > k, where A161942 is the odd part of sigma.",
+  "description": "Odd nonsquares k for which A161942(k) >= k, where A161942 is the odd part of sigma.",
   "id": "A348743",
   "mentions": [
+    "A000040",
     "A000265",
+    "A002110",
+    "A033630",
+    "A065205",
+    "A065235",
+    "A083206",
     "A088828",
     "A161942",
+    "A162284",
+    "A191218",
+    "A228058",
+    "A336702",
     "A348741",
     "A348742"
   ],
@@ -14,6 +24,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

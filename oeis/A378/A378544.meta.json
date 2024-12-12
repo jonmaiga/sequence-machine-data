@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of those divisors d of n for which A083345(d) is even, where A083345(n) is the numerator of Sum(e/p: n=Product(p^e)).",
+  "id": "A378544",
+  "mentions": [
+    "A000203",
+    "A083345",
+    "A369001",
+    "A378444",
+    "A378545"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

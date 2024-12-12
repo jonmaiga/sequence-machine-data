@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that (10^(n+4)*7 - 36763)/9 is prime (n > 0).",
+  "description": "Numbers k such that (10^(k+4)*7 - 36763)/9 is prime (k > 0).",
   "id": "A265309",
   "mentions": [
     "A260903"
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],

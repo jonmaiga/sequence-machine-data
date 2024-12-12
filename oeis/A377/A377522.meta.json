@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 1/3 - sqrt(3)/(4*Pi).",
+  "id": "A377522",
+  "mentions": [
+    "A073010",
+    "A102519",
+    "A132116",
+    "A258147",
+    "A343235",
+    "A358981",
+    "A377523"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

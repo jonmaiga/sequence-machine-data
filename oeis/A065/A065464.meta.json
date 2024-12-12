@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Product_{p prime}(1 - (2*p-1)/p^3).",
+  "description": "Decimal expansion of Product_{p prime} (1 - (2*p-1)/p^3).",
   "id": "A065464",
   "mentions": [
     "A000010",

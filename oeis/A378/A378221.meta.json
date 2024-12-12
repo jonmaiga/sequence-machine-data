@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet inverse of sigma(A003961(n)), where A003961 is fully multiplicative function with a(prime(i)) = prime(i+1).",
+  "id": "A378221",
+  "mentions": [
+    "A003961",
+    "A003973",
+    "A046692",
+    "A151800",
+    "A346234",
+    "A378220"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

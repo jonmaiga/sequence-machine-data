@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime > a nontrivial power of a prime.",
+  "description": "Smallest prime > the n-th nontrivial power of a prime.",
   "id": "A060846",
   "mentions": [
     "A000961",
@@ -22,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

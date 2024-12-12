@@ -1,0 +1,17 @@
+{
+  "description": "Average of twin prime pairs A014574 such that the largest odd divisor of the average is the midpoint of the cousin prime pairs A087679.",
+  "id": "A377185",
+  "mentions": [
+    "A000265",
+    "A014574",
+    "A087679"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

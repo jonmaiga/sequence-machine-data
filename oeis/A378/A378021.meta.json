@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi*G - 33*zeta(3)/16, where G = A006752.",
+  "id": "A378021",
+  "mentions": [
+    "A000796",
+    "A002117",
+    "A006752",
+    "A378003"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form x^5+10x^3*y^2+5x*y^4 (where x,y are integers).",
+  "description": "Numbers of the form x^5 + 10*x^3*y^2 + 5*x*y^4 (where x,y are integers).",
   "id": "A135794",
   "mentions": [
     "A000404",

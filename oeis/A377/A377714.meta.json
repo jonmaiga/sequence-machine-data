@@ -1,0 +1,15 @@
+{
+  "description": "Cogrowth sequence for the 8-element group C4 X C2 = .",
+  "id": "A377714",
+  "mentions": [
+    "A377627"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

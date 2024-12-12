@@ -1,7 +1,8 @@
 {
-  "description": "Least k such that phi(n+k)=2*phi(n), where phi is Euler's totient function.",
+  "description": "Least k such that phi(n+k) = 2*phi(n), where phi is Euler's totient function.",
   "id": "A110179",
   "mentions": [
+    "A000010",
     "A050473"
   ],
   "tags": [

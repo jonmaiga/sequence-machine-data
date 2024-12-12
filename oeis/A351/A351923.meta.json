@@ -1,7 +1,9 @@
 {
   "description": "Number of ordered pairs of positive integers (s,t), s,t <= n, such that (s^t) | n.",
   "id": "A351923",
-  "mentions": [],
+  "mentions": [
+    "A309891"
+  ],
   "tags": [
     "formulas",
     "nonn"

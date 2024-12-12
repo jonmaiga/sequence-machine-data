@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-tuples (p_1, p_2, ..., p_n) of Dyck paths of semilength n, such that each p_i is never below p_{i-1} and the upper path p_n only touches the x-axis at its endpoints.",
+  "id": "A378113",
+  "mentions": [
+    "A000108",
+    "A355400",
+    "A378112"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Fibonacci sequence beginning 2, 11.",
   "id": "A022115",
   "mentions": [
-    "A000032"
+    "A000032",
+    "A000045"
   ],
   "tags": [
     "easy",

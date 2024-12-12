@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the mode of the digits of n! not counting trailing zeros (using -1 if multimodal).",
+  "id": "A375348",
+  "mentions": [
+    "A004154",
+    "A027869",
+    "A031144",
+    "A034886",
+    "A061010",
+    "A137579",
+    "A137580",
+    "A356758"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

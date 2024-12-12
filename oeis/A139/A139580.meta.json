@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n(2n+17).",
+  "description": "a(n) = n*(2*n + 17).",
   "id": "A139580",
   "mentions": [
     "A014105",

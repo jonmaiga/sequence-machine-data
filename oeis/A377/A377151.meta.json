@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 1, a(n) is a multiple or a divisor of a(floor(n/2)).",
+  "id": "A377151",
+  "mentions": [
+    "A291603",
+    "A370843"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

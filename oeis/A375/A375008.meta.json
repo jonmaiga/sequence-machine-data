@@ -1,0 +1,18 @@
+{
+  "description": "Products m of k = 3 consecutive primes p_1..p_k, where only p_1 < m^(1/k).",
+  "id": "A375008",
+  "mentions": [
+    "A372209",
+    "A372319",
+    "A372419"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

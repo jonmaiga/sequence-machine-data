@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f.: exp(Sum_{n>=1} A038500(n) * x^n).",
+  "id": "A377555",
+  "mentions": [
+    "A038500",
+    "A161809",
+    "A377556"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

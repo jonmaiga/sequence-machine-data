@@ -1,10 +1,11 @@
 {
-  "description": "Coefficients of the term by sqrt(3) in (1 + sqrt(2) + sqrt(3))^n sequence, denoted as C3(n).",
+  "description": "a(n) = coefficient of sqrt(3) in the expansion of (1 + sqrt(2) + sqrt(3))^n sequence.",
   "id": "A188572",
   "mentions": [
     "A188570",
     "A188571",
-    "A188573"
+    "A188573",
+    "A377109"
   ],
   "tags": [
     "formulas",

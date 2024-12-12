@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that 5/2 is a primitive root modulo p.",
+  "id": "A377174",
+  "mentions": [
+    "A005596",
+    "A038880",
+    "A320384",
+    "A377172",
+    "A377175",
+    "A377176",
+    "A377177",
+    "A377178",
+    "A377179"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

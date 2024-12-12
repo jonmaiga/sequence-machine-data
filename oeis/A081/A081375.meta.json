@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least number such that A081373[a(n)]=n.",
+  "description": "a(n) is the least number k such that A081373(k) = n.",
   "id": "A081375",
   "mentions": [
     "A000010",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

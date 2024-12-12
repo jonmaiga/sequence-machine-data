@@ -1,7 +1,9 @@
 {
-  "description": "[ n(n-1)(n-2)/25 ].",
+  "description": "a(n) = floor( n*(n-1)*(n-2)/25 ).",
   "id": "A011907",
-  "mentions": [],
+  "mentions": [
+    "A011886"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 69,
     "source": "joeis"
   }
 }

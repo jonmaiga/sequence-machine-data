@@ -1,0 +1,23 @@
+{
+  "description": "Sum of divisors d of n such that n/d has an odd number of prime factors (counted with multiplicity).",
+  "id": "A378543",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A000203",
+    "A056924",
+    "A066829",
+    "A378542",
+    "A378547",
+    "A378549"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

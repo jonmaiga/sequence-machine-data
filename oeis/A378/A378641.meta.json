@@ -1,0 +1,21 @@
+{
+  "description": "Largest m <= n such that phi(m) does not divide n, or -1 if no such m exists, where phi is the Euler totient function (A000010).",
+  "id": "A378641",
+  "mentions": [
+    "A000010",
+    "A378636",
+    "A378637",
+    "A378640",
+    "A378642"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -5,17 +5,18 @@
     "A306734",
     "A333179",
     "A333180",
-    "A333181"
+    "A333181",
+    "A357471",
+    "A376621"
   ],
   "tags": [
     "cons",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

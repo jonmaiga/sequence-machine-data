@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A010051(n) + A001222(n).",
+  "id": "A378309",
+  "mentions": [
+    "A001222",
+    "A010051",
+    "A073093",
+    "A113903"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

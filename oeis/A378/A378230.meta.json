@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 0's in A378226, where A278226 is XOR-Moebius transform of A318457, and A318457(n) = n XOR (sigma(n)-n).",
+  "id": "A378230",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A278226",
+    "A318457",
+    "A378226"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

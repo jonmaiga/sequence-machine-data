@@ -2,6 +2,7 @@
   "description": "Coefficients of the polynomials in the numerator of 1/(1+x^2) and its successive derivatives, starting with the constant term.",
   "id": "A076256",
   "mentions": [
+    "A000165",
     "A007318",
     "A076257",
     "A076741",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 53,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of e^(-Pi^2/(6*log(2))).",
+  "id": "A378102",
+  "mentions": [
+    "A001113",
+    "A002162",
+    "A002388",
+    "A013661",
+    "A378101"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

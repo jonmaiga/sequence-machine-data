@@ -1,0 +1,17 @@
+{
+  "description": "a(n) are half the sums of the gamma coefficients of the n-th row-generating function of triangle A375853.",
+  "id": "A376072",
+  "mentions": [
+    "A375853"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "joeis"
+  }
+}

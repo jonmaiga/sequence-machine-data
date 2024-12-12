@@ -17,12 +17,13 @@
     "A330234"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

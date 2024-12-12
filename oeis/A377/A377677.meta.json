@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the sum of the divisors of n^n - n.",
+  "id": "A377677",
+  "mentions": [
+    "A000203",
+    "A061190",
+    "A366819",
+    "A377673",
+    "A377675",
+    "A377676",
+    "A377678"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

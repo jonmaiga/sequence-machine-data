@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of e*(gamma - Ei(-1))/2.",
+  "id": "A377400",
+  "mentions": [
+    "A000142",
+    "A001008",
+    "A001113",
+    "A001620",
+    "A005843",
+    "A060746",
+    "A099285",
+    "A347952",
+    "A377401"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

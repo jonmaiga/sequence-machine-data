@@ -2,9 +2,11 @@
   "description": "Floor-Sqrt transform of central binomial coefficients (A000984).",
   "id": "A192655",
   "mentions": [
+    "A000196",
     "A000984"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

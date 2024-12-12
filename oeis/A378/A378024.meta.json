@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k >= 10 whose decimal representation read in base (n+10) is a multiple of k.",
+  "id": "A378024",
+  "mentions": [
+    "A139285"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "a(0) = 0. For n >= 0, if a(n-1) is a novel term, a(n) = a(a(n-1)). If a(n-1) > 0 has been seen k(>1) times, a(n) = k*a(n-1), unless k*a(n-1) > n, in which case a(n) = 0. If a(n-1) = 0 has been seen k(>1) times, a(n) = k.",
+  "id": "A376908",
+  "mentions": [
+    "A377027"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

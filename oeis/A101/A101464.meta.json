@@ -2,8 +2,12 @@
   "description": "Decimal expansion of sqrt(2-sqrt(2)), edge length of a regular octagon with circumradius 1.",
   "id": "A101464",
   "mentions": [
+    "A047621",
+    "A101465",
     "A179260",
-    "A182168"
+    "A182168",
+    "A285871",
+    "A329246"
   ],
   "tags": [
     "cons",

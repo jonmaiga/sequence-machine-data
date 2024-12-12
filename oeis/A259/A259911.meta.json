@@ -1,8 +1,9 @@
 {
-  "description": "Triangular array; row k shows the discriminant of the field of the number having purely periodic continued fraction with period (j,k), for j=1..k+1-j.",
+  "description": "Triangular array; row k shows the discriminant of the field of the number having purely periodic continued fraction with period (j,k+1-j), for j=1..k.",
   "id": "A259911",
   "mentions": [
-    "A259912"
+    "A259912",
+    "A259913"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 62,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

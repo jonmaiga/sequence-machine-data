@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A337345(A091191(n)), where A337345 is the number of divisors d of n for which A003961(d) > 2*d, and A091191 lists the primitive abundant numbers.",
+  "id": "A378658",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A080224",
+    "A091191",
+    "A337345",
+    "A337372",
+    "A378662"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

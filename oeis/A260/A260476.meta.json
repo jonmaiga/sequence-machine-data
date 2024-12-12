@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p = 2*phi(sigma((p-1)/2))+ 1.",
+  "description": "Primes p such that p = 2*phi(sigma((p-1)/2))+1.",
   "id": "A260476",
   "mentions": [
     "A019434",

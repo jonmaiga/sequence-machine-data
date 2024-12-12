@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime p such that (2^p - 2)/p == n (mod p), or -1 if there is no such prime p.",
+  "id": "A377655",
+  "mentions": [
+    "A179077",
+    "A377669"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 8*G/Pi^2, where G is the Catalan's constant (A006752).",
+  "id": "A377753",
+  "mentions": [
+    "A002388",
+    "A006752",
+    "A218387",
+    "A242822"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

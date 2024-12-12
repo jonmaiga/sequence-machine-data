@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations p of (1,2,3,...,n) such that sum(k=1,n,p(k) reduced modulo k) =n.",
+  "description": "Number of permutations p of (1,2,3,...,n) such that Sum_{k=1..n} (p(k) mod k) = n.",
   "id": "A073344",
   "mentions": [],
   "tags": [

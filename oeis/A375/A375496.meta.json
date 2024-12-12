@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative integers k which have a unique minimum length construction starting from 1 and choosing operations f(x) = 3x+1 or g(x) = floor(x/2).",
+  "id": "A375496",
+  "mentions": [
+    "A003462",
+    "A127933",
+    "A375494",
+    "A375495"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

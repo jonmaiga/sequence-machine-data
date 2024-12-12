@@ -1,0 +1,18 @@
+{
+  "description": "Second smallest prime factor of numbers m that are both squarefree and composite.",
+  "id": "A376833",
+  "mentions": [
+    "A119288",
+    "A120944"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

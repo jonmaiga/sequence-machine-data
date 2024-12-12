@@ -2,7 +2,8 @@
   "description": "Decimal expansion of the positive real root of x^4 + x - 1.",
   "id": "A356032",
   "mentions": [
-    "A060007"
+    "A060007",
+    "A376658"
   ],
   "tags": [
     "cons",

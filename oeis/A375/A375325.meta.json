@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of divisors of n which are Loeschian numbers (A003136).",
+  "id": "A375325",
+  "mentions": [
+    "A003136"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

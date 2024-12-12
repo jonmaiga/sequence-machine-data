@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n lists all of the integer pairs (a,b) such that 1/a + 1/b = 1/n, sorted by a.",
+  "id": "A376168",
+  "mentions": [
+    "A018892",
+    "A048691",
+    "A376169"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

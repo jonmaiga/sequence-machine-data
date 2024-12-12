@@ -1,7 +1,9 @@
 {
   "description": "a(n) = floor( n*(n-1)*(n-2)*(n-3)/27 ).",
   "id": "A011937",
-  "mentions": [],
+  "mentions": [
+    "A011915"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 50,
     "source": "joeis"
   }
 }

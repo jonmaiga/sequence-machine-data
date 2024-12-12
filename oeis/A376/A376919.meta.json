@@ -1,0 +1,18 @@
+{
+  "description": "The nonpowers of 3.",
+  "id": "A376919",
+  "mentions": [
+    "A000244",
+    "A057716",
+    "A057717"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

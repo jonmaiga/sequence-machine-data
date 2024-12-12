@@ -1,15 +1,20 @@
 {
-  "description": "Indices n of primes p(n), p(n+2) such that p(n)-2 and p(n+2)-2 are both prime.",
+  "description": "Numbers k such that prime(k)-2 and prime(k+2)-2 are both primes.",
   "id": "A105409",
   "mentions": [
-    "A053778"
+    "A053778",
+    "A105410",
+    "A105411",
+    "A105412",
+    "A105413",
+    "A105414"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

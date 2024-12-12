@@ -1,5 +1,5 @@
 {
-  "description": "Write 1,2,3,4,... counterclockwise in a hexagonal spiral around 0 starting left down, then a(n) is the sequence found by reading from 0 in the vertical upward direction.",
+  "description": "Write 1, 2, 3, 4, ... counterclockwise in a hexagonal spiral around 0 starting left down, then a(n) is the sequence found by reading from 0 in the vertical upward direction.",
   "id": "A063436",
   "mentions": [
     "A000567",

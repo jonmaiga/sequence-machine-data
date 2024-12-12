@@ -5,11 +5,12 @@
     "A120070"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
-    "source": "joeis"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

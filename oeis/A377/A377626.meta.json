@@ -1,0 +1,18 @@
+{
+  "description": "Cogrowth sequence of the 12-element group A4 = .",
+  "id": "A377626",
+  "mentions": [
+    "A007583",
+    "A377627",
+    "A377656"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

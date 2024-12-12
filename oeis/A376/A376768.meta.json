@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 2; thereafter, a(n) = c*A376767(n-1) + 1, where c=4 if n is odd, c=2 if n is even.",
+  "id": "A376768",
+  "mentions": [
+    "A374663",
+    "A376767"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

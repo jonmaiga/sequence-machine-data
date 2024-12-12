@@ -1,0 +1,20 @@
+{
+  "description": "Semiperimeter of the unique primitive Pythagorean triple whose short leg is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "id": "A377016",
+  "mentions": [
+    "A002315",
+    "A008844",
+    "A078522",
+    "A377011"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

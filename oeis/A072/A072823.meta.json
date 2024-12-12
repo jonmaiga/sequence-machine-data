@@ -2,11 +2,12 @@
   "description": "Numbers that are not the sum of two powers of 2.",
   "id": "A072823",
   "mentions": [
-    "A000027",
+    "A000079",
     "A048645",
     "A073267"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

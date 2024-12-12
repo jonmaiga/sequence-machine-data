@@ -1,17 +1,20 @@
 {
-  "description": "k-morphic numbers for any k such that (k-1)/10 is an even integer not divisible by 10.",
+  "description": "Automorphic numbers: numbers k such that k^21 ends with k. Also m-morphic numbers for any m such that (m-1)/10 is an even integer not divisible by 10.",
   "id": "A072495",
   "mentions": [
+    "A003226",
     "A033819",
     "A068407",
+    "A068408",
     "A072496"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 67,
-    "source": "oeis-entry"
+    "size": 70,
+    "source": "joeis"
   }
 }

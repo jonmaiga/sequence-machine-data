@@ -1,0 +1,20 @@
+{
+  "description": "Ludic Fortunate numbers: a(n) = N(P(n)+1) - P(n), where N(x) = min {L in A003309 | L > x} is the next larger ludic number and P(n) = Prod_{k=1..n} A003309[n].",
+  "id": "A376236",
+  "mentions": [
+    "A002110",
+    "A003309",
+    "A005235",
+    "A376237"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

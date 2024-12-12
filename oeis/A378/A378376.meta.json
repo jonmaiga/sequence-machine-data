@@ -1,0 +1,15 @@
+{
+  "description": "Smallest starting x which requires n steps to reach 1 under the map x -> 3x-1 if x odd, x -> 3x-1 or x/2 if x even.",
+  "id": "A378376",
+  "mentions": [
+    "A261870"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

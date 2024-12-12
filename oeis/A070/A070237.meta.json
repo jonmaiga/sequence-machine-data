@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that the sign of core(n)-phi(n) is not equal to 2*mu(n)^2-1, where core(x) is the squarefree part of x.",
+  "description": "Numbers k such that the sign of core(k)-phi(k) is not equal to 2*mu(k)^2-1, where core(k) is the squarefree part of k.",
   "id": "A070237",
   "mentions": [
+    "A000010",
+    "A005117",
+    "A007913",
     "A008683",
     "A013929"
   ],

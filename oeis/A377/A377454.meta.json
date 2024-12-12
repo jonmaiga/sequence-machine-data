@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(1 - A(x) * (exp(x) - 1))^4.",
+  "id": "A377454",
+  "mentions": [
+    "A052895",
+    "A377451",
+    "A377452",
+    "A377453"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

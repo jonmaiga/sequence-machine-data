@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = 1 + x^3 * A(x)^2 / (1 - x).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x^3 * A(x)^2 / (1 - x).",
   "id": "A346503",
   "mentions": [
     "A002212",
@@ -7,7 +7,9 @@
     "A023431",
     "A090345",
     "A216604",
-    "A346504"
+    "A346504",
+    "A366588",
+    "A376490"
   ],
   "tags": [
     "formulas",

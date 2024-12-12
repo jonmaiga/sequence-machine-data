@@ -1,0 +1,18 @@
+{
+  "description": "Smallest multiplier which can complete the square for n-polygonal numbers, together with a constant offset.",
+  "id": "A377851",
+  "mentions": [
+    "A139601",
+    "A181318"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

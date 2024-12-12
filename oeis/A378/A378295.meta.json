@@ -1,0 +1,18 @@
+{
+  "description": "Prime norms of ideals in Q(sqrt(10), sqrt(26)).",
+  "id": "A378295",
+  "mentions": [
+    "A038879",
+    "A038899",
+    "A038945",
+    "A378294"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

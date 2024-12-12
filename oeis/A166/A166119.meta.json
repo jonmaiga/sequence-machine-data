@@ -1,14 +1,16 @@
 {
-  "description": "a(n)=A165966(n)/12.",
+  "description": "a(n) = A165966(n)/12.",
   "id": "A166119",
   "mentions": [
     "A000217",
     "A001359",
+    "A086816",
     "A105174",
     "A111163",
     "A165966"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

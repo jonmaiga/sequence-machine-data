@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(floor(square root(n))) * 2.",
+  "description": "a(n) = a(floor(sqrt(n))) * 2.",
   "id": "A063511",
   "mentions": [
     "A001069",

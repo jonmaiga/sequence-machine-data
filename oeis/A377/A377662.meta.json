@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, k) * Sum_{j=k..n} n!/(k!*(j - k)!). Row sums of A377661.",
+  "id": "A377662",
+  "mentions": [
+    "A073107",
+    "A377661"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

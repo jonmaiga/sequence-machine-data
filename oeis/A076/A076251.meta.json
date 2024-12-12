@@ -2,7 +2,9 @@
   "description": "Numbers m such that omega(m) = omega(m-1) + omega(m-2), where omega(m) is the number of distinct prime factors of m.",
   "id": "A076251",
   "mentions": [
-    "A001221"
+    "A001221",
+    "A076252",
+    "A076253"
   ],
   "tags": [
     "nonn"

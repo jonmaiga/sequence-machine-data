@@ -1,0 +1,21 @@
+{
+  "description": "Index of 2*10^((10^n-1)/9) - 1 in A302656, or -1 if that number never appears there.",
+  "id": "A377904",
+  "mentions": [
+    "A302656",
+    "A376769",
+    "A376776",
+    "A377903",
+    "A377906",
+    "A377911"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of length n+1 0..2*k arrays with the sum of the absolute values of adjacent differences equal to n*k",
+  "description": "T(n,k) is the number of length n+1 0..2*k arrays with the sum of the absolute values of adjacent differences equal to n*k.",
   "id": "A249982",
   "mentions": [
     "A004275",

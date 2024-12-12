@@ -1,13 +1,21 @@
 {
-  "description": "Spin-spin correlation function for 4-d cubic lattice.",
+  "description": "High-temperature expansion for Ising model spin-spin correlation function on 4-d cubic lattice.",
   "id": "A010563",
-  "mentions": [],
+  "mentions": [
+    "A010557",
+    "A010564",
+    "A010565",
+    "A010572",
+    "A030044"
+  ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

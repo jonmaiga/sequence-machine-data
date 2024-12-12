@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of rational number tan(2^(n-1)*arctan(1/A024810(n))).",
+  "id": "A375935",
+  "mentions": [
+    "A024810",
+    "A374723"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

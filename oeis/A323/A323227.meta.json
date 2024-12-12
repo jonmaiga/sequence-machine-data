@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = [x^n] (-x^4 + 2*x^3 - x^2 + 2*x - 1)/((x - 1)^2*(2*x - 1)).",
+  "description": "a(n) = [x^n] (1 - 2*x + x^2 - 2*x^3 + x^4)/((1 - x)^2*(1 - 2*x)).",
   "id": "A323227",
   "mentions": [
     "A000051",
     "A094373",
-    "A270841"
+    "A270841",
+    "A323211"
   ],
   "tags": [
     "easy",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

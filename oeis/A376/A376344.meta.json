@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x*(1 + x*log(1-x^2)) ).",
+  "id": "A376344",
+  "mentions": [
+    "A370993",
+    "A370994",
+    "A375561",
+    "A376346"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

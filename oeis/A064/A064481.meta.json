@@ -1,11 +1,12 @@
 {
-  "description": "Divisible by the sum of the digits of its base-5 representation.",
+  "description": "Numbers which are divisible by the sum of their base-5 digits.",
   "id": "A064481",
   "mentions": [
     "A005349",
     "A049445",
     "A064150",
-    "A064438"
+    "A064438",
+    "A344341"
   ],
   "tags": [
     "base",

@@ -1,0 +1,17 @@
+{
+  "description": "Primes which can be turned into a different prime by exchanging two digits. (Leading zeros are not allowed.)",
+  "id": "A376030",
+  "mentions": [
+    "A225035",
+    "A375965"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Array read by ascending antidiagonals. T(n, k) = F(k, n), where F are the Fibonacci polynomials.",
+  "description": "Array read by ascending antidiagonals. A(n, k) = Fibonacci(k, n), where Fibonacci(n, x) are the Fibonacci polynomials.",
   "id": "A352361",
   "mentions": [
     "A000004",
@@ -19,10 +19,13 @@
     "A057721",
     "A073133",
     "A084844",
+    "A084845",
     "A099371",
     "A124152",
     "A157103",
     "A172236",
+    "A304357",
+    "A304359",
     "A350470",
     "A352362"
   ],
@@ -35,6 +38,6 @@
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

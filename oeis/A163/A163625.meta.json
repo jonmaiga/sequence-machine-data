@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that 120*n + 1 is term in A163573.",
+  "description": "Numbers k such that 120*k + 1 is a term in A163573.",
   "id": "A163625",
   "mentions": [
     "A163573",

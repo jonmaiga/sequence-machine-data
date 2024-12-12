@@ -1,0 +1,23 @@
+{
+  "description": "Factorial-base Niven numbers (A118363) k such that m = k/f(k) and m/f(m) are also factorial-base Niven numbers, where f(k) = A034968(k) is the sum of digits in the factorial-base representation of k.",
+  "id": "A377386",
+  "mentions": [
+    "A000142",
+    "A034968",
+    "A118363",
+    "A376617",
+    "A377210",
+    "A377384",
+    "A377385"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

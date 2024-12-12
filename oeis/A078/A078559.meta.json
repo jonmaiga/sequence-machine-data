@@ -1,15 +1,17 @@
 {
-  "description": "Numerator of Product_{i=1..n} (p_i+1)/(p_i-1) where p_i is the i-th prime.",
+  "description": "Numerator of Product_{i=1..n} (p_i + 1)/(p_i - 1) where p_i is the i-th prime.",
   "id": "A078559",
   "mentions": [
     "A000005",
     "A000203",
     "A002110",
     "A005867",
+    "A013661",
     "A020492",
     "A054640",
     "A078558",
-    "A078560"
+    "A078560",
+    "A091724"
   ],
   "tags": [
     "formulas",

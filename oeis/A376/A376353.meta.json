@@ -1,0 +1,26 @@
+{
+  "description": "Table T(n, k) n > 0, k > 2 read by upward antidiagonals. The sequences in each column k is a triangle read by rows (blocks), where each row is a permutation of the numbers of its constituents. The length of the row number n in column k is equal to the n-th k-pyramidal number A261720.",
+  "id": "A376353",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A004526",
+    "A028242",
+    "A084964",
+    "A168230",
+    "A209278",
+    "A261720",
+    "A375725",
+    "A375797"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

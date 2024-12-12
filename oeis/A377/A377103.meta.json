@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies Sum_{n>=1} A(x^n - 3*x^(n+1)) = x.",
+  "id": "A377103",
+  "mentions": [
+    "A000108",
+    "A377101",
+    "A377102"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

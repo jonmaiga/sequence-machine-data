@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = x + A(A(x)^2) + A(A(x)^3).",
+  "id": "A378255",
+  "mentions": [
+    "A141200"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes that begin a run of consecutive primes in A375564.",
+  "id": "A376193",
+  "mentions": [
+    "A375564",
+    "A376191",
+    "A376192"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

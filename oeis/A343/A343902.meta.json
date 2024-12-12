@@ -1,5 +1,5 @@
 {
-  "description": "T(n, k) is the k-th prime p such that (p-1)|A000010(n); irregular array read by rows.",
+  "description": "Irregular array read by rows: T(n, k) is the k-th prime p such that (p-1)|A000010(n).",
   "id": "A343902",
   "mentions": [
     "A000010",
@@ -11,8 +11,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 3,
-    "size": 86,
+    "offset": 1,
+    "size": 84,
     "source": "oeis-entry"
   }
 }

@@ -2,6 +2,8 @@
   "description": "Numbers k such that A343404(k) = k.",
   "id": "A343405",
   "mentions": [
+    "A266181",
+    "A319599",
     "A343404"
   ],
   "tags": [

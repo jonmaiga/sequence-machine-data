@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer k such that n + k and n - k have the same number of divisors.",
+  "id": "A377319",
+  "mentions": [
+    "A000005",
+    "A067888",
+    "A082467",
+    "A171937",
+    "A377320",
+    "A377321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

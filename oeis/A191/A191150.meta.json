@@ -1,10 +1,13 @@
 {
-  "description": "Hypersigma(n): sum of the divisors of n plus the recursive sum of the divisors of the restricted divisors.",
+  "description": "Hypersigma(n), definition 1: sum of the divisors of n plus the recursive sum of the divisors of the restricted divisors.",
   "id": "A191150",
   "mentions": [
     "A000040",
     "A000203",
-    "A008864"
+    "A008864",
+    "A074206",
+    "A191161",
+    "A378210"
   ],
   "tags": [
     "easy",

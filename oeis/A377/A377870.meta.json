@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A359550(n) * A359550(A276085(n)), where A359550 is multiplicative with a(p^e) = 1 if p > e, otherwise 0, and A276085 is fully additive with a(p) = p#/p.",
+  "id": "A377870",
+  "mentions": [
+    "A048103",
+    "A276085",
+    "A359550",
+    "A377868",
+    "A377871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number k such that !k = A000166(k) is squarefree.",
+  "id": "A378162",
+  "mentions": [
+    "A000166",
+    "A005117",
+    "A378160",
+    "A378161"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

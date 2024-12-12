@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = r in a log_2-like sequence of algebraic integers f(n) = (r+phi*s), where phi = (1+sqrt(5))/2 is the golden ratio.",
+  "id": "A375484",
+  "mentions": [
+    "A001622",
+    "A375493"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

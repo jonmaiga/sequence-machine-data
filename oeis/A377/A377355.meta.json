@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the greatest k not yet in the sequence such that A374356(n) = A374356(k).",
+  "id": "A377355",
+  "mentions": [
+    "A374356"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

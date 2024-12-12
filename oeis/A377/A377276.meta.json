@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the circumradius of a truncated tetrahedron with unit edge length.",
+  "id": "A377276",
+  "mentions": [
+    "A010478",
+    "A093577",
+    "A187110",
+    "A377274",
+    "A377275",
+    "A377277"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

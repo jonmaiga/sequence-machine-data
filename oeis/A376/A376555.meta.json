@@ -1,0 +1,21 @@
+{
+  "description": "The number of unitary square divisors of binomial(n, floor(n/2)).",
+  "id": "A376555",
+  "mentions": [
+    "A001405",
+    "A056061",
+    "A056624",
+    "A376553",
+    "A376554",
+    "A376556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

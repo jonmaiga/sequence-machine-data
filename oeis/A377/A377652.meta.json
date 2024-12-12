@@ -1,0 +1,16 @@
+{
+  "description": "Number of edge cuts in the graph complement of the cycle graph bar C_n.",
+  "id": "A377652",
+  "mentions": [
+    "A377767"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

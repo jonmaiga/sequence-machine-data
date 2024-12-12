@@ -1,8 +1,11 @@
 {
   "description": "Least common multiple of (2^n, 2^n + 1, ..., 2^(n+1) - 1).",
   "id": "A273820",
-  "mentions": [],
+  "mentions": [
+    "A003418"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

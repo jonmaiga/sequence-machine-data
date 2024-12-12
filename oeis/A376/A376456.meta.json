@@ -1,0 +1,16 @@
+{
+  "description": "Let s(x) be the Maclaurin series for cos(x); then a(n) is the index k for which the (k+1)-st partial sum of s(2*n*Pi) is greatest among all partial sums.",
+  "id": "A376456",
+  "mentions": [
+    "A376457"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

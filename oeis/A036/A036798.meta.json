@@ -1,5 +1,5 @@
 {
-  "description": "Odd m such that there exists an even number k < m with phi(k) = phi(m).",
+  "description": "Odd numbers m such that there exists an even number k < m with phi(k) = phi(m).",
   "id": "A036798",
   "mentions": [
     "A000010",

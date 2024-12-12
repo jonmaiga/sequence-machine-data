@@ -2,6 +2,7 @@
   "description": "A second-order recursive sequence.",
   "id": "A054469",
   "mentions": [
+    "A000045",
     "A001891",
     "A001911",
     "A011794"

@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: row k consists of the positive integers j for which the concatenation of 2^k - 1 and 2^j - 1 is prime.",
+  "id": "A378288",
+  "mentions": [
+    "A000225",
+    "A301806"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

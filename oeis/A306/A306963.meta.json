@@ -8,12 +8,12 @@
   ],
   "tags": [
     "cons",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 100,
     "source": "oeis-entry"
   }
 }

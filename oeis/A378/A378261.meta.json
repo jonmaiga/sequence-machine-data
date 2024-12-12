@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = A(x^2)*M(x)/x, where M(x) = Sum_{n>=1} mu(n)*x^n and mu(n) = A008683(n), the Moebius function of n.",
+  "id": "A378261",
+  "mentions": [
+    "A008683",
+    "A181439",
+    "A195589",
+    "A378260"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

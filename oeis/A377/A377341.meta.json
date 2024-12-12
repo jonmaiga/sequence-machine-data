@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of a truncated octahedron with unit edge length.",
+  "id": "A377341",
+  "mentions": [
+    "A002194",
+    "A010469",
+    "A020797",
+    "A152623",
+    "A377342"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

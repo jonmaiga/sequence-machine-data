@@ -1,16 +1,17 @@
 {
-  "description": "Smallest m such that the period of the continued fraction of sqrt(m) is A215485(n).",
+  "description": "Smallest m such that the period of the continued fraction of sqrt(m) is A215485(n); records of A013646.",
   "id": "A215508",
   "mentions": [
     "A013646",
     "A215485"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

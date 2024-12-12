@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which both number of evil numbers <= n and relatively prime to n, and odious numbers <= n and relatively prime to n, are primes.",
+  "description": "Numbers k for which both the number of evil numbers <= k and relatively prime to k, and the number of odious numbers <= k and relatively prime to k, are primes.",
   "id": "A256651",
   "mentions": [
     "A000010",
@@ -9,6 +9,7 @@
     "A230120"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

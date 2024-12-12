@@ -2,7 +2,8 @@
   "description": "Number of arrays of 7 integers in -n..n with sum zero.",
   "id": "A201554",
   "mentions": [
-    "A201552"
+    "A201552",
+    "A201553"
   ],
   "tags": [
     "formulas",

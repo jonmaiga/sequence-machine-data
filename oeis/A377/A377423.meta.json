@@ -1,0 +1,22 @@
+{
+  "description": "Distinct values of the number of integers between consecutive self numbers (A163139), in order of occurrence.",
+  "id": "A377423",
+  "mentions": [
+    "A003052",
+    "A163128",
+    "A163139",
+    "A225793",
+    "A230093",
+    "A230094",
+    "A377422"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

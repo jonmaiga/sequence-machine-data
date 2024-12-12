@@ -1,0 +1,21 @@
+{
+  "description": "Cogrowth sequence of the 12-element group C6 X C2 = .",
+  "id": "A377627",
+  "mentions": [
+    "A007583",
+    "A377626",
+    "A377656",
+    "A377714",
+    "A377840"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

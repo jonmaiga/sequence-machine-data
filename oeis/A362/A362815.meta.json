@@ -2,6 +2,7 @@
   "description": "Start with 2. Then, numbers are added to the sequence if they do not form any arithmetic progression p with numbers in the sequence such that length(p) > min(p).",
   "id": "A362815",
   "mentions": [
+    "A362816",
     "A363011"
   ],
   "tags": [

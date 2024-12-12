@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered factorizations of the odd part of n into factors > 1.",
+  "id": "A378222",
+  "mentions": [
+    "A000265",
+    "A002033",
+    "A074206",
+    "A352063"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

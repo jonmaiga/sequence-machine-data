@@ -1,7 +1,14 @@
 {
   "description": "Sum of omega(n!) and bigomega(n!).",
   "id": "A113903",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A022559",
+    "A378309"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

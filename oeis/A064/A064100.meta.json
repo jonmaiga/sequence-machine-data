@@ -1,11 +1,12 @@
 {
-  "description": "a(n) = (100^n - 1)/99*n.",
+  "description": "a(n) = n * (100^n - 1)/99.",
   "id": "A064100",
   "mentions": [
     "A094028"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

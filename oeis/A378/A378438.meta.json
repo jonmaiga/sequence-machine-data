@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet inverse of A378436, where A378436 is the inverse Möbius transform of the number of partitions of n into distinct divisors of n.",
+  "id": "A378438",
+  "mentions": [
+    "A008683",
+    "A033630",
+    "A378436",
+    "A378437"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

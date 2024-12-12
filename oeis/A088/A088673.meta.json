@@ -1,5 +1,5 @@
 {
-  "description": "n mod A002024(n), where A002024 is \"n appears n times\": 1, 2, 2, 3, 3, 3, ...",
+  "description": "a(n) = n mod A002024(n), where A002024 is \"n appears n times\": 1, 2, 2, 3, 3, 3, ...",
   "id": "A088673",
   "mentions": [
     "A002024"
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 100,
     "source": "joeis"
   }

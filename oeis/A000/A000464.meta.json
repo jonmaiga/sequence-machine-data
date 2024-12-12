@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of sin x /cos 2x.",
+  "description": "Expansion of e.g.f. sin(x)/cos(2*x).",
   "id": "A000464",
   "mentions": [
     "A000003",
@@ -14,7 +14,8 @@
     "A091337",
     "A151751",
     "A158690",
-    "A161722"
+    "A161722",
+    "A235606"
   ],
   "tags": [
     "easy",

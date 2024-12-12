@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct fractional parts of the numbers sum_{i=j,...,k}(-1)^i/i with 1 <= j <= k <= n, where the fractional part of x is given by x - floor(x).",
+  "description": "Number of distinct fractional parts of the numbers Sum_{i=j..k} (-1)^i/i with 1 <= j <= k <= n, where the fractional part of x is given by x - floor(x).",
   "id": "A262136",
   "mentions": [
     "A058312",

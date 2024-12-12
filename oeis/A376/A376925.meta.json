@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest number that can be written as x + y with x and y coprime and such that each of x, y, and x + y are prime(n)-smooth.",
+  "id": "A376925",
+  "mentions": [
+    "A303332",
+    "A362593"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

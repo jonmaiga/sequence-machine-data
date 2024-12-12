@@ -1,7 +1,16 @@
 {
   "description": "a(n) = (n!+4)/4.",
   "id": "A139151",
-  "mentions": [],
+  "mentions": [
+    "A139149",
+    "A139150",
+    "A139152",
+    "A139153",
+    "A139154",
+    "A139155",
+    "A139156",
+    "A139157"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +18,6 @@
   "terms": {
     "offset": 4,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

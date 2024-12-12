@@ -1,9 +1,21 @@
 {
-  "description": "In base 2, one 'Reverse and Add' step is needed to reach a palindrome.",
+  "description": "Numbers that in base 2 need one 'Reverse and Add' step to reach a palindrome.",
   "id": "A066122",
   "mentions": [
     "A006995",
-    "A065206"
+    "A065206",
+    "A066057",
+    "A066123",
+    "A066124",
+    "A066125",
+    "A066126",
+    "A066127",
+    "A066128",
+    "A066129",
+    "A066130",
+    "A066131",
+    "A066132",
+    "A066133"
   ],
   "tags": [
     "base",

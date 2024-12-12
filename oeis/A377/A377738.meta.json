@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least m > n such that the Zeckendorf representations of m and n have the same number of terms.",
+  "id": "A377738",
+  "mentions": [
+    "A000045",
+    "A003714",
+    "A007895",
+    "A014417",
+    "A027941",
+    "A057168",
+    "A228915"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

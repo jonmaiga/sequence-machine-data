@@ -1,0 +1,22 @@
+{
+  "description": "Indices of the 1's in the digit stream A376771.",
+  "id": "A377911",
+  "mentions": [
+    "A302656",
+    "A376769",
+    "A376771",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377906"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

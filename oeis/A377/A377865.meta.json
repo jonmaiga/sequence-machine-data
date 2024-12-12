@@ -1,0 +1,19 @@
+{
+  "description": "Smallest divisor of 2n-1 greater than or equal to sqrt(2n-1).",
+  "id": "A377865",
+  "mentions": [
+    "A033677",
+    "A219695",
+    "A377499"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

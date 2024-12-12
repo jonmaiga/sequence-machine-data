@@ -2,6 +2,8 @@
   "description": "Numbers k such that 1 + 4 + 9 + ... + k^2 = 1 + 2 + 3 + ... + m for some m.",
   "id": "A053611",
   "mentions": [
+    "A000217",
+    "A000330",
     "A039596",
     "A053612"
   ],

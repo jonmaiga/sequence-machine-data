@@ -1,8 +1,9 @@
 {
-  "description": "Smallest number whose digital sum is n^3.",
+  "description": "Smallest number whose sum of digits is n^3.",
   "id": "A061105",
   "mentions": [
     "A021559",
+    "A051885",
     "A061104",
     "A061263"
   ],

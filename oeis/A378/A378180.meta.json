@@ -1,0 +1,34 @@
+{
+  "description": "Irregular triangle where row n lists m such that rad(m) | n and bigomega(m) < bigomega(n), where rad = A007947 and bigomega = A001222.",
+  "id": "A378180",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A001222",
+    "A006530",
+    "A007947",
+    "A010846",
+    "A024619",
+    "A027750",
+    "A162306",
+    "A246655",
+    "A376248",
+    "A376567",
+    "A377070",
+    "A377073",
+    "A377379",
+    "A378181",
+    "A378183"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

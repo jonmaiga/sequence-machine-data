@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose divisors can be partitioned in exactly two ways into two disjoint sets with the same sum.",
+  "id": "A378652",
+  "mentions": [
+    "A083206",
+    "A083207",
+    "A083209",
+    "A378651"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

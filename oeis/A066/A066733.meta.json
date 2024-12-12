@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that the nonzero product of the digits of its square is also a square.",
+  "description": "Numbers such that the product of the digits of its square is a square > 0.",
   "id": "A066733",
   "mentions": [
     "A067071"

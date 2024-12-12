@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of (1/Pi)*Integral_{x=0..infinity} (sin(x)/x)^n dx.",
+  "description": "Numerator of (1/Pi)*Integral_{x=0..oo} (sin(x)/x)^n dx.",
   "id": "A049330",
   "mentions": [
     "A002297",

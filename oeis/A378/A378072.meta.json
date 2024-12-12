@@ -1,0 +1,18 @@
+{
+  "description": "Number of elements in the completion of the Bruhat order on B_n.",
+  "id": "A378072",
+  "mentions": [
+    "A000165",
+    "A005130",
+    "A005158"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

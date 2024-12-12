@@ -1,5 +1,5 @@
 {
-  "description": "Positive n such that Lucas(3*n) - Fibonacci(n) is a prime.",
+  "description": "Positive k such that Lucas(3*k) - Fibonacci(k) is a prime.",
   "id": "A245801",
   "mentions": [
     "A000032",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

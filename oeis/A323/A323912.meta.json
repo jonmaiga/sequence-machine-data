@@ -1,12 +1,27 @@
 {
-  "description": "Dirichlet inverse of A083254(n) (= 2*phi(n)-n).",
+  "description": "Dirichlet inverse of A083254(n), where A083254(n) = 2*phi(n) - n.",
   "id": "A323912",
   "mentions": [
+    "A002033",
+    "A023900",
+    "A033879",
+    "A046692",
+    "A055615",
+    "A067824",
+    "A074206",
     "A083254",
+    "A101035",
+    "A130054",
+    "A174725",
+    "A191161",
+    "A253249",
     "A323910",
-    "A323913"
+    "A323913",
+    "A328722",
+    "A330575"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

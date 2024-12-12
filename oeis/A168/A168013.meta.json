@@ -9,11 +9,12 @@
     "A168012"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

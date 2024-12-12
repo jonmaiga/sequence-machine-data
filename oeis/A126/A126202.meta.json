@@ -2,7 +2,9 @@
   "description": "Number of pointed polyominoes with n cells.",
   "id": "A126202",
   "mentions": [
-    "A000105"
+    "A000105",
+    "A367758",
+    "A367759"
   ],
   "tags": [
     "more",

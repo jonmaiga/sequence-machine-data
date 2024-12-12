@@ -1,0 +1,19 @@
+{
+  "description": "Reduced numerators of Newton's iteration for 1/sqrt(2), starting with 1/2.",
+  "id": "A376867",
+  "mentions": [
+    "A010503",
+    "A023365",
+    "A376870"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

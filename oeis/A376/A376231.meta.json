@@ -1,0 +1,15 @@
+{
+  "description": "G.f. A(x) = Sum_{n>=0} a(n)*x^n where a(n) = Sum_{k=0..n-1} ( ([x^k] A(x)^n) (mod 2^n) ) for n > 0, with a(0) = 1.",
+  "id": "A376231",
+  "mentions": [
+    "A376232"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

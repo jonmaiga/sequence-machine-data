@@ -1,10 +1,24 @@
 {
-  "description": "a(n) = # { i prime | prime(n) <= i < prime(n)*2 } (prime(n) = A000040, the prime enumeration).",
+  "description": "a(n) = # { primes i | prime(n) <= i < 2*prime(n) } where prime(n) is the n-th prime.",
   "id": "A063124",
   "mentions": [
     "A000040",
+    "A000720",
+    "A002808",
     "A035250",
-    "A070046"
+    "A060715",
+    "A062134",
+    "A065855",
+    "A070046",
+    "A075084",
+    "A077463",
+    "A108954",
+    "A246514",
+    "A307912",
+    "A307989",
+    "A376759",
+    "A376760",
+    "A376761"
   ],
   "tags": [
     "formulas",
@@ -13,6 +27,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

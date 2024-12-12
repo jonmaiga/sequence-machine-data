@@ -2,6 +2,7 @@
   "description": "Row sums of a Pascal-Fibonacci triangle.",
   "id": "A114199",
   "mentions": [
+    "A000045",
     "A103609",
     "A114197"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having exactly two distinct prime factors p, q with q=p+2.",
+  "description": "Numbers having exactly two distinct prime factors p, q with q = p+2.",
   "id": "A143202",
   "mentions": [
     "A001221",
@@ -12,6 +12,7 @@
     "A143201"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

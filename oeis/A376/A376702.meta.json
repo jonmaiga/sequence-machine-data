@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k whose nonzero digits are strictly decreasing when written in factoradic.",
+  "id": "A376702",
+  "mentions": [
+    "A007623",
+    "A108731"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of clues in a n X n crossword puzzle where each word is at least 4 letters long and the puzzle has 180-degree rotational symmetry and no interlock.",
+  "id": "A378174",
+  "mentions": [
+    "A243826"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

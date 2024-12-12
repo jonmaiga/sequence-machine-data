@@ -1,9 +1,10 @@
 {
-  "description": "Numbers from which 12 'Reverse and Add' steps are needed to reach a palindrome.",
+  "description": "Numbers which need 12 'Reverse and Add' steps to reach a palindrome.",
   "id": "A065217",
   "mentions": [
     "A002113",
     "A015993",
+    "A033665",
     "A065206"
   ],
   "tags": [

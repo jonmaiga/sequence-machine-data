@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of the series whose 12th power is 1/x * series_reversion(x*E_6(x)), where E_6(x) is the Eisenstein series of weight 6.",
+  "id": "A377223",
+  "mentions": [
+    "A013973",
+    "A109817",
+    "A251592",
+    "A377221",
+    "A377222"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

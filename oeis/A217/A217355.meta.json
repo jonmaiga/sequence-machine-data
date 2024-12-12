@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 8^n + 5 is prime.",
+  "description": "Numbers k such that 8^k + 5 is prime.",
   "id": "A217355",
   "mentions": [
     "A059242",

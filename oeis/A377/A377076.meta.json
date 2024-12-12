@@ -1,0 +1,16 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^(6*k^2) / Product_{j=1..6*k-1} (1 - x^j).",
+  "id": "A377076",
+  "mentions": [
+    "A350889"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

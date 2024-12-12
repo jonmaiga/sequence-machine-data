@@ -2,6 +2,8 @@
   "description": "Triangle read by rows: T(m,n) = parity of 0^n + 0^m, n = 0,1,2,3 ..., m = 0,1,2,3, ... n.",
   "id": "A073424",
   "mentions": [
+    "A000035",
+    "A000217",
     "A010054",
     "A023531",
     "A073423"

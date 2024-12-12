@@ -1,5 +1,5 @@
 {
-  "description": "Susceptibility for square lattice.",
+  "description": "High-temperature series for Heisenberg model susceptibility on square lattice.",
   "id": "A005401",
   "mentions": [
     "A002170",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

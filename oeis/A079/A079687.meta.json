@@ -1,13 +1,16 @@
 {
-  "description": "(C(p^2,p)-p)/p^5 where p runs through the primes >=5.",
+  "description": "(C(p^2,p)-p)/p^5 where p runs through the primes >= 5.",
   "id": "A079687",
-  "mentions": [],
+  "mentions": [
+    "A000040"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

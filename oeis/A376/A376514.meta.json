@@ -1,0 +1,25 @@
+{
+  "description": "Number of divisors of n that are neither squarefree nor prime powers.",
+  "id": "A376514",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A027750",
+    "A046660",
+    "A062977",
+    "A126706",
+    "A335460",
+    "A376504"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

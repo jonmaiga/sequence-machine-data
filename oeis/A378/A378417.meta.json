@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that A127064(k) = n.",
+  "id": "A378417",
+  "mentions": [
+    "A004648",
+    "A127064"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of a truncated icosidodecahedron (great rhombicosidodecahedron) with unit edge length.",
+  "id": "A377796",
+  "mentions": [
+    "A019970",
+    "A090388",
+    "A377797",
+    "A377798",
+    "A377799"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

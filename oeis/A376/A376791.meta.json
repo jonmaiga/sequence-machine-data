@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/sqrt((1 - x^3)^2 - 4*x).",
+  "id": "A376791",
+  "mentions": [
+    "A001850",
+    "A053442",
+    "A098479",
+    "A349713",
+    "A376792"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

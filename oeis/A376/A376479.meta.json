@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the index of prime(k)^n in the numbers with n prime factors, counted with multiplicity.",
+  "id": "A376479",
+  "mentions": [
+    "A001222",
+    "A078843",
+    "A078844",
+    "A078845",
+    "A078846",
+    "A128301",
+    "A128302",
+    "A128304"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

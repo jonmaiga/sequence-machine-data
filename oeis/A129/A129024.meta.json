@@ -1,10 +1,11 @@
 {
-  "description": "The first 8 values are predefined, the remaining set to a(n) =24*prime(n).",
+  "description": "The first 8 values are predefined, the remaining set to a(n) = 24*prime(n).",
   "id": "A129024",
   "mentions": [
     "A129025"
   ],
   "tags": [
+    "easy",
     "formulas",
     "less",
     "nonn"

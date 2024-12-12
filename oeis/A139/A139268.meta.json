@@ -1,5 +1,5 @@
 {
-  "description": "Twice nonagonal numbers (or twice 9-gonal numbers): a(n) = n(7n-5).",
+  "description": "Twice nonagonal numbers (or twice 9-gonal numbers): a(n) = n*(7*n-5).",
   "id": "A139268",
   "mentions": [
     "A001106",

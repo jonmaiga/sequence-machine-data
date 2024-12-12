@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of generalized Stirling numbers of the lower level of the hierarchy (section m=1).",
+  "id": "A376863",
+  "mentions": [
+    "A000262",
+    "A052852",
+    "A130534"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

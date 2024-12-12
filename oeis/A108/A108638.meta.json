@@ -1,7 +1,11 @@
 {
   "description": "Semiprime plus its digits is semiprime.",
   "id": "A108638",
-  "mentions": [],
+  "mentions": [
+    "A001358",
+    "A062028",
+    "A066568"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

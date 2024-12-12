@@ -1,12 +1,18 @@
 {
-  "description": "Series reversion of x(1-3x)/(1-x).",
+  "description": "Series reversion of x*(1-3*x)/(1-x).",
   "id": "A107841",
   "mentions": [
     "A001003",
     "A056594",
     "A086810",
     "A088617",
-    "A103210"
+    "A103210",
+    "A131763",
+    "A131765",
+    "A131846",
+    "A131869",
+    "A131926",
+    "A131927"
   ],
   "tags": [
     "easy",

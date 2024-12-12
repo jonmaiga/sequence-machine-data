@@ -1,0 +1,18 @@
+{
+  "description": "Number of edge cuts in the n-gear graph.",
+  "id": "A377638",
+  "mentions": [
+    "A356200",
+    "A362516"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(b(n)), where b(1) = 1 and b(n) = b(n-1) + Sum_{k=1..n-1} b(k)/(n-1).",
+  "id": "A376995",
+  "mentions": [
+    "A065094",
+    "A160617",
+    "A160618"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

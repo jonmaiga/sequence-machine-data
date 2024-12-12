@@ -2,7 +2,11 @@
   "description": "Number of isomorphism classes of finite groups of order 11*2^n.",
   "id": "A139669",
   "mentions": [
-    "A000001"
+    "A000001",
+    "A000040",
+    "A002145",
+    "A014664",
+    "A080148"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers whose sum of proper (or aliquot) divisors is a prime.",
+  "id": "A377766",
+  "mentions": [
+    "A005843",
+    "A037020",
+    "A088827"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

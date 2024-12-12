@@ -1,0 +1,20 @@
+{
+  "description": "n in base whose greedy place values are quarter-squares (A002620).",
+  "id": "A376450",
+  "mentions": [
+    "A002620",
+    "A214973",
+    "A376451",
+    "A376452",
+    "A376453"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

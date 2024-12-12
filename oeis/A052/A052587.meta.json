@@ -1,7 +1,10 @@
 {
-  "description": "E.g.f. x^2(1-x)/(1-2x).",
+  "description": "Expansion of e.g.f. x^2*(1-x)/(1-2*x).",
   "id": "A052587",
   "mentions": [
+    "A000079",
+    "A000142",
+    "A000165",
     "A051578"
   ],
   "tags": [

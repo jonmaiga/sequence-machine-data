@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a truncated icosahedron with unit edge length.",
+  "id": "A377751",
+  "mentions": [
+    "A002163",
+    "A102208",
+    "A205769",
+    "A377750",
+    "A377752",
+    "A377787"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

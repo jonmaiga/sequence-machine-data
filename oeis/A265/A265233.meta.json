@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn arrays containing n copies of 0..3-1 with no equal vertical neighbors and new values introduced sequentially from 0.",
+  "description": "Number of 3 X n arrays containing n copies of 0..2 with no equal vertical neighbors and new values introduced sequentially from 0.",
   "id": "A265233",
   "mentions": [
     "A265232"
@@ -9,8 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 19,
+    "offset": 0,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

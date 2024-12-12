@@ -1,0 +1,20 @@
+{
+  "description": "The values of i in primes of the form 2^i*3^j - 1 (A005105) in the order of their appearance.",
+  "id": "A376700",
+  "mentions": [
+    "A005105",
+    "A007814",
+    "A374577",
+    "A376699",
+    "A376701"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

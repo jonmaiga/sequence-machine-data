@@ -1,16 +1,18 @@
 {
-  "description": "A polynomial coefficient sequence:p(x,n,m)=(1 + 2*Binomial[n, m]*x)^n",
+  "description": "Triangle read by rows: T(n,m) = (1 + 2 * binomial(n,m))^n for 0 <= m <= n, n >= 0.",
   "id": "A176158",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A085527"
+  ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

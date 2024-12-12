@@ -1,5 +1,5 @@
 {
-  "description": "Let k=2^n-1 and m=1+(k-1)*(n-1), x=m*k and define remainders a and b via 2^(x-1) == (a+1) (mod x) and m^(x-1) == (b+1) (mod x). If a == 0 (mod k) and b == 0 (mod k), n is in the sequence.",
+  "description": "Integers m such that m divides (2^m-2)^2 and (m-2)^((k-1)*(1+k*(m-1)) == 1 (mod k), where k = 2^m - 1.",
   "id": "A190213",
   "mentions": [
     "A000043",

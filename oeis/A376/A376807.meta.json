@@ -1,0 +1,17 @@
+{
+  "description": "Products of distinct prime Fibonacci numbers.",
+  "id": "A376807",
+  "mentions": [
+    "A005478",
+    "A160009"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

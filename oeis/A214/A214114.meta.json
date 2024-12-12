@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0..3 colorings of a 3X(n+1) array circular in the n+1 direction with new values 0..3 introduced in row major order",
+  "description": "Number of 0..3 colorings of a 3X(n+1) array circular in the n+1 direction with new values 0..3 introduced in row major order.",
   "id": "A214114",
   "mentions": [
     "A214112"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

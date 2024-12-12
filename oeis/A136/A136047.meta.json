@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1, a(n)=a(n-1)+n if n even, a(n)=a(n-1)+ n^2 if n is odd.",
+  "description": "a(1)=1, a(n)=a(n-1)+n if n even, a(n)=a(n-1)+n^2 if n is odd.",
   "id": "A136047",
   "mentions": [
     "A001082",

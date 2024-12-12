@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the smallest positive real root of the equation cos(x) + x*sin(x) = 0.",
+  "id": "A377479",
+  "mentions": [
+    "A003957",
+    "A115365",
+    "A197002",
+    "A377480",
+    "A377481"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

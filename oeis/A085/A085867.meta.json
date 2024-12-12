@@ -1,5 +1,5 @@
 {
-  "description": "Smallest nontrivial (not = 10^(n-1)) n-digit highly composite number. Or smallest n-digit number > 10^(n-1) with prime divisors < 10.",
+  "description": "Smallest nontrivial (not = 10^(n-1)) n-digit 7-smooth number. Or smallest n-digit number > 10^(n-1) with prime divisors < 10.",
   "id": "A085867",
   "mentions": [
     "A002473",

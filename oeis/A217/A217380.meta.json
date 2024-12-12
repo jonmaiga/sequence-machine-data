@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 8^n - 7 is prime.",
+  "description": "Numbers k such that 8^k - 7 is prime.",
   "id": "A217380",
   "mentions": [
     "A059609",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

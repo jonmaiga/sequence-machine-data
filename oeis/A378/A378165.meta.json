@@ -1,0 +1,18 @@
+{
+  "description": "Differences between adjacent terms of A076467 that correspond to the locations of abc-quality records of A378164.",
+  "id": "A378165",
+  "mentions": [
+    "A076467",
+    "A378164"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

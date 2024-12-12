@@ -1,0 +1,49 @@
+{
+  "description": "Array read by antidiagonals downward where A(n,k) is the n-th term of the k-th differences of the composite numbers (A002808).",
+  "id": "A377033",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A002808",
+    "A007442",
+    "A008578",
+    "A030016",
+    "A036263",
+    "A053445",
+    "A065310",
+    "A065890",
+    "A073445",
+    "A073783",
+    "A075526",
+    "A084758",
+    "A095195",
+    "A173390",
+    "A175804",
+    "A281425",
+    "A320590",
+    "A350004",
+    "A376602",
+    "A376603",
+    "A376651",
+    "A376652",
+    "A376680",
+    "A376682",
+    "A377034",
+    "A377035",
+    "A377036",
+    "A377037",
+    "A377038",
+    "A377046",
+    "A377051"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

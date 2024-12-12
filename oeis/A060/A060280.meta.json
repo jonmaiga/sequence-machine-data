@@ -2,6 +2,7 @@
   "description": "Number of orbits of length n under the map whose periodic points are counted by A001350.",
   "id": "A060280",
   "mentions": [
+    "A000032",
     "A000045",
     "A001350",
     "A006206",

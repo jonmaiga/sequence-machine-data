@@ -1,0 +1,23 @@
+{
+  "description": "Smaller of consecutive terms b < c of A076467 such that the quality q=log(rad(c))/log(rad((c-b)*b*c)) of the abc-triple c-b,b,c with gcd(c-b,b,c)=1 sets a new record.",
+  "id": "A378164",
+  "mentions": [
+    "A007947",
+    "A076467",
+    "A377933",
+    "A377934",
+    "A378165",
+    "A378166",
+    "A378167"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

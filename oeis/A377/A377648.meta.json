@@ -1,0 +1,16 @@
+{
+  "description": "Parse Golomb's sequence (A001462) into distinct phrases [1], [2], [2, 3], [3], [4], [4, 4], [5], [5, 5], ...; a(n) is the length of n-th phrase.",
+  "id": "A377648",
+  "mentions": [
+    "A001462",
+    "A187199"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

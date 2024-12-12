@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1, for n > 0 a(n) is defined by a recurrence with brackets matching the n-th Dyck word in lexicographic order, see comments for more details.",
+  "id": "A377168",
+  "mentions": [
+    "A000108",
+    "A014486",
+    "A063171",
+    "A155587"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Number of orbits of length n under the map whose periodic points are counted by A047863.",
   "id": "A060224",
   "mentions": [
+    "A008683",
     "A047863"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

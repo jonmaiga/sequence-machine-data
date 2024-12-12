@@ -1,0 +1,18 @@
+{
+  "description": "Fringe indices of Zernike polynomials.",
+  "id": "A375510",
+  "mentions": [
+    "A176988"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

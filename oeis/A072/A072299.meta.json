@@ -1,5 +1,5 @@
 {
-  "description": "Reverse(k) is a prime factor of k.",
+  "description": "Numbers k such that reverse(k) is a prime factor of k.",
   "id": "A072299",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 49,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

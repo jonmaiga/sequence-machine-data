@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first partial sum of the numbers with n prime factors, counted with multiplicity, that is prime.",
+  "id": "A376481",
+  "mentions": [
+    "A001222",
+    "A376480"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

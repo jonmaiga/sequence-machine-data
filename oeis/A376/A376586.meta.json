@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k >= 0, read by rows with row polynomials P(n-1, n-1) for n > 0 with T(0, 0) = 1 where P(n, k) = (-1)^(n-k)*z^f(n-k+1)*P(n, k-1) + P(k-1, k-1) for 0 < k <= n with P(n, k) = 0 for k > n, P(n, 0) = 1 for n >= 0 and where f(2n+1) = n, f(2n) = 2n for n >= 0.",
+  "id": "A376586",
+  "mentions": [
+    "A000041",
+    "A000045",
+    "A084610",
+    "A131355"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

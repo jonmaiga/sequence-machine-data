@@ -1,8 +1,9 @@
 {
-  "description": "Floor( n(n-1)(n-2)/28 ).",
+  "description": "a(n) = floor( n*(n-1)*(n-2)/28 ).",
   "id": "A011910",
   "mentions": [
-    "A007531"
+    "A007531",
+    "A011886"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 70,
     "source": "joeis"
   }
 }

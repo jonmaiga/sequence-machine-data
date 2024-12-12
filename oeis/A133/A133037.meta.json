@@ -1,8 +1,9 @@
 {
-  "description": "Squares of members of the Padovan sequence A000931.",
+  "description": "a(n) = A000931(n)^2.",
   "id": "A133037",
   "mentions": [
     "A000290",
+    "A000930",
     "A000931",
     "A001248",
     "A007598"

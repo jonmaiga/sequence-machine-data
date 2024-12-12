@@ -1,0 +1,16 @@
+{
+  "description": "Circumference of the n-Pell graph.",
+  "id": "A378709",
+  "mentions": [
+    "A000129"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

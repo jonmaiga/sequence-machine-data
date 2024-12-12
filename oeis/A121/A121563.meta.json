@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum[i=1..n] i!/(i^i).",
+  "description": "Numerator of Sum_{i=1..n} i!/(i^i).",
   "id": "A121563",
   "mentions": [
     "A000142",
@@ -15,8 +15,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
-    "source": "joeis"
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
   }
 }

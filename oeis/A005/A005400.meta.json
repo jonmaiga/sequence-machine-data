@@ -6,12 +6,11 @@
     "A005402"
   ],
   "tags": [
-    "more",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

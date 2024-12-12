@@ -2,10 +2,23 @@
   "description": "Number of distinct Gaussian primes in the factorization of n.",
   "id": "A086275",
   "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A001221",
+    "A001222",
+    "A002322",
     "A005089",
     "A005091",
+    "A008683",
     "A059841",
-    "A078458"
+    "A062327",
+    "A078458",
+    "A079458",
+    "A227334",
+    "A317797",
+    "A318608",
+    "A319443"
   ],
   "tags": [
     "easy",

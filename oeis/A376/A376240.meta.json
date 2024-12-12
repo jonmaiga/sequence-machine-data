@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = number of {x,y,z} in Z/nZ such that x+y+z = x*y*z is nonzero.",
+  "id": "A376240",
+  "mentions": [
+    "A376183"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

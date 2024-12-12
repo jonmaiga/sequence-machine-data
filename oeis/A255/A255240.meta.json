@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1/(2*cos(Pi/7)).",
   "id": "A255240",
   "mentions": [
+    "A047385",
     "A116425",
     "A160389",
     "A231187",

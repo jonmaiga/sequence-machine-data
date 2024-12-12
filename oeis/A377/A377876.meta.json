@@ -1,0 +1,19 @@
+{
+  "description": "The n-th primorial number reduced modulo 27.",
+  "id": "A377876",
+  "mentions": [
+    "A002110",
+    "A086360",
+    "A377872",
+    "A377877"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

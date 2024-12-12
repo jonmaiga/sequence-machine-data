@@ -1,9 +1,10 @@
 {
-  "description": "Numbers k such that k does not divide the denominator of the k-th Harmonic number.",
+  "description": "Numbers k such that k does not divide the denominator of the k-th harmonic number.",
   "id": "A074791",
   "mentions": [
     "A001008",
     "A027612",
+    "A036689",
     "A064169",
     "A096617"
   ],

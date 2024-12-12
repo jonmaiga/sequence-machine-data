@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the minimum volume of an integer-sided cuboid having the same surface as a cube with edge length n.",
+  "id": "A375786",
+  "mentions": [
+    "A000578",
+    "A369951",
+    "A375580",
+    "A375785"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

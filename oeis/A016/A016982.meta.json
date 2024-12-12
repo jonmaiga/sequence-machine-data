@@ -1,7 +1,10 @@
 {
   "description": "a(n) = (7*n)^2.",
   "id": "A016982",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A008589"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 41,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "The sum of the digits of n^n.",
+  "description": "a(n) = sum of the digits of n^n.",
   "id": "A066588",
   "mentions": [
     "A000312",

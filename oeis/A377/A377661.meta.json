@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = e*Gamma(n - k + 1, 1)*binomial(n, k)^2.",
+  "id": "A377661",
+  "mentions": [
+    "A000522",
+    "A001105",
+    "A073107",
+    "A377662"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

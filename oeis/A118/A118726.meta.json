@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=sum(k=0,n,F(n+k)*binomial(n+k,k)) where F=A000045.",
+  "description": "a(n) = Sum_{k=0..n} F(n+k)*binomial(n+k,k) where F=A000045.",
   "id": "A118726",
   "mentions": [
     "A000045"

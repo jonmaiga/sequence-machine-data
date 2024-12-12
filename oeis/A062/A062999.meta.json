@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k with property that the sum of the digits of k is strictly less than the product of the digits of k.",
+  "description": "Numbers whose sum of the digits is strictly less than its product of digits.",
   "id": "A062999",
   "mentions": [
     "A007953",

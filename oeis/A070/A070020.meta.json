@@ -1,23 +1,26 @@
 {
-  "description": "At these values of n the first, 2nd and 3rd cyclotomic polynomials all give prime numbers.",
+  "description": "At these values of k the first, 2nd and 3rd cyclotomic polynomials all give prime numbers.",
   "id": "A070020",
   "mentions": [
     "A000068",
     "A005574",
     "A006313",
+    "A006314",
+    "A006315",
     "A006316",
     "A056993",
+    "A056994",
     "A056995",
     "A057002",
     "A057465",
     "A070025",
     "A070042",
     "A070155",
+    "A070156",
     "A070157"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

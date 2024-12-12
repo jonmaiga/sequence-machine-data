@@ -2,7 +2,8 @@
   "description": "Least positive integer c such that c*prime(n) is practical.",
   "id": "A322372",
   "mentions": [
-    "A005153"
+    "A005153",
+    "A267124"
   ],
   "tags": [
     "nonn"

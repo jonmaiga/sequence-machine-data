@@ -1,5 +1,5 @@
 {
-  "description": "Wilson numbers: n such that the generalized Wilson quotient A157249(n) is divisible by n.",
+  "description": "Wilson numbers: k such that the generalized Wilson quotient A157249(k) is divisible by k.",
   "id": "A157250",
   "mentions": [
     "A001783",

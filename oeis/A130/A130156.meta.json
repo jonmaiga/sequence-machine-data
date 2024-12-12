@@ -2,6 +2,7 @@
   "description": "a(0)=1. a(n) = number of earlier terms of the sequence that divide the n-th Fibonacci number.",
   "id": "A130156",
   "mentions": [
+    "A000045",
     "A130155"
   ],
   "tags": [

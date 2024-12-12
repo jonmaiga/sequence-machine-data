@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-digit terms in A377912.",
+  "id": "A377917",
+  "mentions": [
+    "A342042",
+    "A377912",
+    "A377918"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

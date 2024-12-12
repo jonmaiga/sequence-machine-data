@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integers that are not digitally balanced in any integer base b >= 2.",
+  "id": "A378080",
+  "mentions": [
+    "A378000",
+    "A378073",
+    "A378104",
+    "A378191"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

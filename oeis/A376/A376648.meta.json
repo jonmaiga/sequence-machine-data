@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} binomial(floor(k/2),n-4*k).",
+  "id": "A376648",
+  "mentions": [
+    "A017867",
+    "A124789",
+    "A134816",
+    "A376647"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

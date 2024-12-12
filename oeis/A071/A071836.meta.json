@@ -1,14 +1,14 @@
 {
-  "description": "Largest prime factor of n = prime(tau(n)).",
+  "description": "Numbers k such that the largest prime factor of k = prime(tau(k)).",
   "id": "A071836",
   "mentions": [
     "A000005",
     "A000040",
-    "A006530"
+    "A006530",
+    "A105555"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

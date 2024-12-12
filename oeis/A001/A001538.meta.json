@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (12n+1)*(12n+11).",
+  "description": "a(n) = (12*n+1)*(12*n+11).",
   "id": "A001538",
   "mentions": [
     "A001533",

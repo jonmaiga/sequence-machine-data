@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest even r less than n-1 such that x^r = 1 (mod n) for the least x such that gcd(x,n)=1 for n >= 4 else 0.",
+  "id": "A377059",
+  "mentions": [
+    "A000010",
+    "A378028",
+    "A378029"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

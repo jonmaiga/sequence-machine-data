@@ -2,10 +2,12 @@
   "description": "The number of 1+1+1-free ordered posets of [n].",
   "id": "A356111",
   "mentions": [
+    "A001181",
     "A006455",
     "A135922"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

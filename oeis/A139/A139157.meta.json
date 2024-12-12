@@ -1,5 +1,5 @@
 {
-  "description": "Natural numbers of the form (n!+10)/10.",
+  "description": "a(n) = (n!+10)/10.",
   "id": "A139157",
   "mentions": [
     "A007749",
@@ -15,8 +15,10 @@
     "A139070",
     "A139075",
     "A139148",
+    "A139156",
     "A139159",
     "A139160",
+    "A139161",
     "A139162"
   ],
   "tags": [
@@ -25,6 +27,6 @@
   "terms": {
     "offset": 5,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

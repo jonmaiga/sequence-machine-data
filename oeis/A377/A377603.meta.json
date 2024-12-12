@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the volume of a snub cube (snub cuboctahedron) with unit edge length.",
+  "id": "A377603",
+  "mentions": [
+    "A058265",
+    "A377602",
+    "A377604",
+    "A377605"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

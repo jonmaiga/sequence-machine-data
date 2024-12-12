@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree semiprimes k such that k+1 is the product of three distinct primes and k+2 is the product of four distinct primes.",
+  "id": "A376352",
+  "mentions": [
+    "A006881",
+    "A007304",
+    "A046386",
+    "A328137"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

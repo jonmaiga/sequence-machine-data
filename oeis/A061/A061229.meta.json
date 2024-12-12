@@ -1,5 +1,5 @@
 {
-  "description": "Floor of geometric mean of n and the reversal of n.",
+  "description": "a(n) = floor of the geometric mean of n and the reversal of n.",
   "id": "A061229",
   "mentions": [
     "A004086",

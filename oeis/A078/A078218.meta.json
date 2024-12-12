@@ -2,15 +2,18 @@
   "description": "Smallest multiple of n that begins with the concatenation of the divisors of n (in increasing order).",
   "id": "A078218",
   "mentions": [
+    "A037278",
+    "A069872",
     "A078810"
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

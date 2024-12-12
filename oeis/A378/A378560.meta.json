@@ -1,0 +1,29 @@
+{
+  "description": "Numbers with the median of the digits equal to one of the digits.",
+  "id": "A378560",
+  "mentions": [
+    "A001633",
+    "A175688",
+    "A292730",
+    "A292739",
+    "A366207",
+    "A366208",
+    "A366209",
+    "A366210",
+    "A366211",
+    "A366212",
+    "A366213",
+    "A366214",
+    "A378564"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Smallest permutation of the natural numbers with a(3*k-2) + a(3*k-1) = a(3*k), k > 0.",
   "id": "A101544",
   "mentions": [
+    "A036554",
     "A075326",
     "A101545",
     "A101546",

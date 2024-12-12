@@ -1,0 +1,23 @@
+{
+  "description": "Number of rooted chains starting with the cycle (1)(2)(3)...(n) in the permutation poset of [n].",
+  "id": "A375838",
+  "mentions": [
+    "A048994",
+    "A330804",
+    "A331955",
+    "A331956",
+    "A331957",
+    "A375835",
+    "A375836",
+    "A375837"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

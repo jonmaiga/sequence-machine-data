@@ -1,5 +1,5 @@
 {
-  "description": "n such that Sum_{k=1..n} (n - k | k) = 0, where (i|j) is the Kronecker symbol.",
+  "description": "Numbers m such that Sum_{k=1..m} (m - k | k) = 0, where (i|j) is the Kronecker symbol.",
   "id": "A215284",
   "mentions": [
     "A215200",

@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals, where the top row is the powers of 2 (A000079) and the other numbers are the sum of the neighbors in the preceding row.",
+  "id": "A375723",
+  "mentions": [
+    "A000079",
+    "A000420",
+    "A020474",
+    "A059738",
+    "A062105",
+    "A217536"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

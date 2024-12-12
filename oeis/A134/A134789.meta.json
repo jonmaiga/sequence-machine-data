@@ -1,9 +1,11 @@
 {
-  "description": "Rounded ratio prime Fibonacci[Prime[k]]/Prime[k].",
+  "description": "a(n) = round(Fibonacci(prime(k))/prime(k)), where k = A119984(n).",
   "id": "A134789",
   "mentions": [
+    "A000045",
     "A050937",
     "A090819",
+    "A119984",
     "A134787",
     "A134788"
   ],
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 14,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

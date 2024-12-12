@@ -1,0 +1,28 @@
+{
+  "description": "Number A(n,k) of k-tuples (p_1, p_2, ..., p_k) of Dyck paths of semilength n, such that each p_i is never below p_{i-1} and the upper path p_k only touches the x-axis at its endpoints; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A378112",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001477",
+    "A019590",
+    "A078920",
+    "A101986",
+    "A120588",
+    "A123352",
+    "A355281",
+    "A368025",
+    "A378113",
+    "A378114"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of odd terms in the Collatz trajectory of n which are > n and are a new record high among its odd terms.",
+  "id": "A376996",
+  "mentions": [
+    "A006370",
+    "A139391",
+    "A334040"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

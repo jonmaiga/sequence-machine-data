@@ -2,13 +2,17 @@
   "description": "Euclid numbers: 1 + product of the first n primes.",
   "id": "A006862",
   "mentions": [
+    "A000720",
     "A002110",
     "A005867",
     "A007916",
     "A014545",
     "A018239",
+    "A034386",
     "A038507",
-    "A057588"
+    "A048103",
+    "A057588",
+    "A377871"
   ],
   "tags": [
     "easy",

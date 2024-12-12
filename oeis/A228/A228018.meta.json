@@ -1,5 +1,5 @@
 {
-  "description": "Prime powers p (A025475) such that sum of proper divisors of p is also a prime power.",
+  "description": "Prime powers p (A025475) such that the sum of the proper divisors of p is also a prime power.",
   "id": "A228018",
   "mentions": [
     "A001065",

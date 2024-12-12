@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{p<=n, p} * Sum_{k=1..n} B(k)*C(2k,k) where B(k) is the k-th Bernoulli number and p denotes the odd primes.",
+  "description": "a(n) = (Product_{p<=n, p odd prime} p) * Sum_{k=1..n} B(k)*C(2k,k) where B(k) is the k-th Bernoulli number.",
   "id": "A073109",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 2,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

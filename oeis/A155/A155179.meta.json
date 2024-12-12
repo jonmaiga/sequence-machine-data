@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=4*a(n-1)+a(n-2), n>2; a(0)=1, a(1)=3, a(2)=12.",
+  "description": "a(n) = 4*a(n-1)+a(n-2), n>2; a(0)=1, a(1)=3, a(2)=12.",
   "id": "A155179",
   "mentions": [
     "A155161"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

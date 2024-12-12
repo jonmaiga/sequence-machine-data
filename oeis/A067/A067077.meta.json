@@ -1,5 +1,5 @@
 {
-  "description": "Product of the prime factors of n equals the sum of the digits of n.",
+  "description": "Numbers whose product of distinct prime factors is equal to its sum of digits.",
   "id": "A067077",
   "mentions": [
     "A006753",

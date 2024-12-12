@@ -1,0 +1,23 @@
+{
+  "description": "Number of prime knots with 10 or fewer crossings whose mosaic number is n.",
+  "id": "A376155",
+  "mentions": [
+    "A002863",
+    "A261400",
+    "A374942",
+    "A374943",
+    "A374944",
+    "A374945",
+    "A375353"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

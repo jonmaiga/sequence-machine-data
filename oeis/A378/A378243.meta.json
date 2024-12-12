@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k > 0 such that n belongs to a Fibonacci-like sequence starting with initial values A378242(i) and A378242(j) for some i, j <= n.",
+  "id": "A378243",
+  "mentions": [
+    "A378242"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the circumradius of a truncated icosahedron with unit edge length.",
+  "id": "A377752",
+  "mentions": [
+    "A002163",
+    "A019881",
+    "A205769",
+    "A377750",
+    "A377751",
+    "A377787"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,18 @@
 {
-  "description": "a(n)=least positive integer k such that k^2+3 is divisible by at least n distinct primes.",
+  "description": "a(n) = least positive integer k such that k^2+3 is divisible by at least n distinct primes.",
   "id": "A138769",
-  "mentions": [],
+  "mentions": [
+    "A001221",
+    "A180278",
+    "A257366"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

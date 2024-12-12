@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: A(n,k) = (k+1)^2*A(n-1,k) + A(n-1,k+1) with A(0,k) = 1, n >= 0, k >= 0.",
+  "description": "Array read by downward antidiagonals: A(n,k) = (k+1)^2*A(n-1,k) + A(n-1,k+1) with A(0,k) = 1, n >= 0, k >= 0.",
   "id": "A369527",
   "mentions": [
     "A135920"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 49,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

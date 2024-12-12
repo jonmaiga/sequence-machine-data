@@ -1,12 +1,14 @@
 {
-  "description": "First differences of sequence {1/(n^2+1)} (denominators).",
+  "description": "Denominators of the first differences of 1/(n^2 + 1).",
   "id": "A033466",
   "mentions": [
     "A016873",
+    "A033465",
     "A099024"
   ],
   "tags": [
     "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {

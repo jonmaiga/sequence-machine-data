@@ -1,0 +1,18 @@
+{
+  "description": "Circumference of the n-Lucas cube graph.",
+  "id": "A378708",
+  "mentions": [
+    "A000032",
+    "A100063",
+    "A245968"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

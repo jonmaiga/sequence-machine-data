@@ -1,12 +1,14 @@
 {
-  "description": "Numbers n such that Fibonacci(prime(n)) is not prime.",
+  "description": "Numbers k such that Fibonacci(prime(k)) is not prime.",
   "id": "A134787",
   "mentions": [
+    "A000720",
     "A050937",
     "A090819"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the largest divisor of binomial(n,k) which is less than n, with 0 <= k <= n.",
+  "id": "A376611",
+  "mentions": [
+    "A000012",
+    "A007318",
+    "A027750",
+    "A032742",
+    "A376612"
+  ],
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

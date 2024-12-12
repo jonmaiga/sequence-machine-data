@@ -1,5 +1,5 @@
 {
-  "description": "Bisection of A002808.",
+  "description": "a(n) = (2*n-1)-st composite number: a bisection of A002808.",
   "id": "A099861",
   "mentions": [
     "A002808",

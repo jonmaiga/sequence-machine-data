@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that 3*5^(2*k)-3*5^k+1 is prime.",
+  "description": "Numbers k such that 3*5^(2*k) - 3*5^k + 1 is prime.",
   "id": "A227447",
   "mentions": [
     "A057917"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Cryptarithmically unique palindromic primes.",
+  "id": "A376118",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A004022",
+    "A358497",
+    "A374238"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

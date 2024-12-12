@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n lists all m such that phi(m) divides n, where phi is the Euler totient function (A000010).",
+  "id": "A378638",
+  "mentions": [
+    "A000010",
+    "A070633",
+    "A319048",
+    "A378636",
+    "A378639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

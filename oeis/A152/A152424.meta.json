@@ -1,5 +1,5 @@
 {
-  "description": "a[n_]:=IntegerPart[Prime[n^n]^(1/n)];",
+  "description": "a(n) = floor(prime(n^n)^(1/n)).",
   "id": "A152424",
   "mentions": [],
   "tags": [

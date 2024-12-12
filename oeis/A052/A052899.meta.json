@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of g.f.: ( 1-2*x ) / ((x-1)*(4*x^2+2*x-1)).",
+  "description": "Expansion of g.f.: (1-2*x) / ((x-1)*(4*x^2+2*x-1)).",
   "id": "A052899",
   "mentions": [
     "A084057",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

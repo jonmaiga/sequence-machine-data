@@ -1,0 +1,19 @@
+{
+  "description": "The smallest abundant number that begins a run of at least n consecutive abundant numbers with the same number of divisors.",
+  "id": "A376820",
+  "mentions": [
+    "A000005",
+    "A005101",
+    "A376818"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

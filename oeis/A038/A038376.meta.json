@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (n-3)*A006918(n)/2.",
+  "description": "a(n) = (n-3)*A006918(n-2)/2 for n >= 2, with a(0) = a(1) = 0.",
   "id": "A038376",
   "mentions": [
     "A006918"

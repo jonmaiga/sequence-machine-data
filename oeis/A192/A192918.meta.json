@@ -2,7 +2,8 @@
   "description": "Decimal expansion of the real root of r^3 + r^2 + r - 1.",
   "id": "A192918",
   "mentions": [
-    "A058265"
+    "A058265",
+    "A376841"
   ],
   "tags": [
     "cons",

@@ -1,0 +1,23 @@
+{
+  "description": "(1/4) times obverse convolution (2)**(2^n + 1); see Comments.",
+  "id": "A376322",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A007395",
+    "A010701",
+    "A062709",
+    "A139030",
+    "A374848",
+    "A375054"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

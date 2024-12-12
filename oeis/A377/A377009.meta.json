@@ -1,0 +1,20 @@
+{
+  "description": "Number of odd terms in the Collatz trajectory of k = 4n-1 which are a new record high among its odd terms.",
+  "id": "A377009",
+  "mentions": [
+    "A001511",
+    "A139391",
+    "A334040",
+    "A351974",
+    "A376996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

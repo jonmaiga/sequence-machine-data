@@ -2,6 +2,7 @@
   "description": "Triangular numbers with sum of digits = 28.",
   "id": "A068132",
   "mentions": [
+    "A000217",
     "A068127",
     "A068128",
     "A068129",
@@ -14,7 +15,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 33,
     "source": "joeis"
   }

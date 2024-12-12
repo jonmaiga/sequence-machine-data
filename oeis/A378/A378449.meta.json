@@ -1,0 +1,20 @@
+{
+  "description": "Characteristic function of A083209: a(n) = 1 if there is exactly one subset of the divisors of n such that the complement has the same sum, otherwise 0.",
+  "id": "A378449",
+  "mentions": [
+    "A083206",
+    "A083209",
+    "A179527",
+    "A378448",
+    "A378598"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

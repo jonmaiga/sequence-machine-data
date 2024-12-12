@@ -1,0 +1,14 @@
+{
+  "description": "The number of pairs of 3x3 matrices with elements from 0 to n such that the matrix product results in each element being the concatenation of the corresponding terms in base n.",
+  "id": "A375157",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

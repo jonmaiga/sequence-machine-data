@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1. For n > 1, if a(n-1) is a novel term, a(n) = a(a(n-1)), and if a(n-1) seen k (>1) times (including a(n-1)), with k*a(n-1) < n then a(n) = k*a(n-1); else a(n) = 1.",
+  "id": "A377027",
+  "mentions": [
+    "A376908"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

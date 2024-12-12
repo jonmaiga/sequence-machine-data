@@ -1,5 +1,5 @@
 {
-  "description": "Largest n-digit highly composite number. Or largest n-digit number with prime divisors < 10.",
+  "description": "Largest n-digit 7-smooth number. Or largest n-digit number with prime divisors < 10.",
   "id": "A085868",
   "mentions": [
     "A002473",

@@ -1,0 +1,39 @@
+{
+  "description": "Antidiagonal-sums of the absolute value of the array A376682(n,k) = n-th term of the k-th differences of the noncomposite numbers (A008578).",
+  "id": "A376684",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A002808",
+    "A007442",
+    "A008578",
+    "A030016",
+    "A036263",
+    "A064113",
+    "A065890",
+    "A075526",
+    "A095195",
+    "A140119",
+    "A173390",
+    "A233671",
+    "A258025",
+    "A333214",
+    "A333254",
+    "A376678",
+    "A376680",
+    "A376681",
+    "A376682",
+    "A376683",
+    "A376855",
+    "A377033",
+    "A377037"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

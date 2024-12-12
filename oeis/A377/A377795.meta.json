@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the midradius of a (small) rhombicosidodecahedron with unit edge length.",
+  "id": "A377795",
+  "mentions": [
+    "A002163",
+    "A179592",
+    "A185093",
+    "A344149",
+    "A377606"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

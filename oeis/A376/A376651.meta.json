@@ -1,0 +1,36 @@
+{
+  "description": "Points of upward concavity in the sequence of composite numbers (A002808).",
+  "id": "A376651",
+  "mentions": [
+    "A000002",
+    "A000961",
+    "A002808",
+    "A022297",
+    "A023895",
+    "A050370",
+    "A057820",
+    "A064113",
+    "A065310",
+    "A065890",
+    "A073445",
+    "A073783",
+    "A156242",
+    "A251092",
+    "A258025",
+    "A258026",
+    "A333254",
+    "A375929",
+    "A376602",
+    "A376603",
+    "A376604",
+    "A376652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

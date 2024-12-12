@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least odd number k such that A376615(k) = n, or -1 if no such number exists.",
+  "id": "A376619",
+  "mentions": [
+    "A007283",
+    "A049445",
+    "A144302",
+    "A376615",
+    "A376616",
+    "A376617"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Take a string of n x's and insert n-1 ^'s and n-1 pairs of parentheses in all possible legal ways. Sequence gives number of distinct values when x = sqrt(2).",
+  "description": "Take a string of n x's and insert n-1 ^'s and n-2 pairs of parentheses in all possible legal ways. Sequence gives number of distinct values when x = sqrt(2).",
   "id": "A082499",
   "mentions": [
     "A000081",

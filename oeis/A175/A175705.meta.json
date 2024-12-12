@@ -2,7 +2,8 @@
   "description": "Convolution square of A001157 (the sum of squared divisors).",
   "id": "A175705",
   "mentions": [
-    "A001157"
+    "A001157",
+    "A328490"
   ],
   "tags": [
     "formulas",

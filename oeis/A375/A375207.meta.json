@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1; thereafter a(n) is the smallest k for which the subsequence a(n-k..n-1) has a distinct sequence of first differences from that of any other subsequence of the sequence thus far.",
+  "id": "A375207",
+  "mentions": [
+    "A376937",
+    "A377079"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

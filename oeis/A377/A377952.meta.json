@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that divide A084190(k) = lcm{d-1 : d > 1 and d|k}.",
+  "id": "A377952",
+  "mentions": [
+    "A056954",
+    "A084190",
+    "A355331",
+    "A377950",
+    "A377953"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

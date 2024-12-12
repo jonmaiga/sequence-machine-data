@@ -1,14 +1,15 @@
 {
-  "description": "Largest unitary square divisor of central binomial coefficient.",
+  "description": "a(n) = A056623(A001405(n)).",
   "id": "A056647",
   "mentions": [
-    "A000188",
     "A001405",
     "A008833",
     "A055229",
     "A056056",
     "A056057",
-    "A056059"
+    "A056059",
+    "A056623",
+    "A376553"
   ],
   "tags": [
     "formulas",

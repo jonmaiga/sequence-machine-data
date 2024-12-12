@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n - 2) + a(n - 8).",
+  "description": "a(n) = a(n - 2) + a(n - 8), with a(1) = ... = a(8) = 1.",
   "id": "A122522",
   "mentions": [
     "A003269"
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

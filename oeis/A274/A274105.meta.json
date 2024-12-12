@@ -1,7 +1,8 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of configurations of k non-attacking bishops on the black squares of an n X n chessboard (0 <= k < n for n > 1).",
+  "description": "Triangle read by rows: T(n,k) = number of configurations of k nonattacking bishops on the black squares of an n X n chessboard (0 <= k <= n - [n>1]).",
   "id": "A274105",
   "mentions": [
+    "A000035",
     "A002465",
     "A088960",
     "A201862",
@@ -10,12 +11,13 @@
     "A288183"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 67,
+    "offset": 0,
+    "size": 68,
     "source": "oeis-entry"
   }
 }

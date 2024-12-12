@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A055932.",
+  "id": "A376690",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A055932",
+    "A178799"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

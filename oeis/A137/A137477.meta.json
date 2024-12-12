@@ -1,5 +1,5 @@
 {
-  "description": "A triangular sequence of coefficients from the inverse substitution of in the spherical Bessel polynomial recursion: B(x, n) = (-2/x)*B(x, n-1) - (k^2 - (n*(n-1)/x^2))*B(x, n-2), with k=1 and substitution x->1/y.",
+  "description": "A triangular sequence of coefficients from the inverse substitution of the spherical Bessel polynomial recursion: B(x, n) = (-2/x)*B(x, n-1) - (k^2 - (n*(n-1)/x^2))*B(x, n-2), with k=1 and substitution x->1/y.",
   "id": "A137477",
   "mentions": [],
   "tags": [

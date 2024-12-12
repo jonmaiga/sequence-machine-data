@@ -1,0 +1,17 @@
+{
+  "description": "The alternating sum of sequentially decreasing moduli for every positive integer.",
+  "id": "A375746",
+  "mentions": [
+    "A154585"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Larger term of a pair of twin primes such that prime factors of their average are only 2 and 3. Proper subset of A058383.",
+  "description": "Larger term of a pair of twin primes such that the prime factors of their average are only 2 and 3. Proper subset of A058383.",
   "id": "A060211",
   "mentions": [
     "A001454",

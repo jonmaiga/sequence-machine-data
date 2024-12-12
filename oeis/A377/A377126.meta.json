@@ -1,0 +1,23 @@
+{
+  "description": "Number of digits of A376842(n) or -1 if A376842(n) = -1.",
+  "id": "A377126",
+  "mentions": [
+    "A317905",
+    "A372490",
+    "A373387",
+    "A376446",
+    "A376838",
+    "A376842",
+    "A377124"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

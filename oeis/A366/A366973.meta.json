@@ -2,6 +2,7 @@
   "description": "Smallest odd prime p such that n^((p+1)/2) == n (mod p).",
   "id": "A366973",
   "mentions": [
+    "A096008",
     "A309316",
     "A366930",
     "A366982"

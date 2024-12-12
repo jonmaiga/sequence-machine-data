@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number k such that the sum of the bases less than k-1, for which k is palindromic, equals n . If no such number exists, a(n) = -1.",
+  "description": "a(n) is the smallest number k such that the sum of the bases b, 1 < b < k-1, for which k is palindromic, equals n . If no such number exists, a(n) = -1.",
   "id": "A375350",
   "mentions": [
     "A002113",
@@ -7,15 +7,18 @@
     "A007953",
     "A065531",
     "A107129",
-    "A253594"
+    "A135549",
+    "A253594",
+    "A375201"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

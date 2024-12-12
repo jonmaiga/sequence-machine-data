@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(1 - 4*x/(1-x)^2)^(3/2).",
+  "id": "A377198",
+  "mentions": [
+    "A002457",
+    "A377194",
+    "A377197"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

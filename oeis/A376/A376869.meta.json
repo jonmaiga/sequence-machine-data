@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. exp(Sum_{n>=1} A061163(n)*t^n/n).",
+  "id": "A376869",
+  "mentions": [
+    "A061163"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

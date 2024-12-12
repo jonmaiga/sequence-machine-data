@@ -1,0 +1,20 @@
+{
+  "description": "Records in A376663.",
+  "id": "A376665",
+  "mentions": [
+    "A376377",
+    "A376663",
+    "A376666",
+    "A376673"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

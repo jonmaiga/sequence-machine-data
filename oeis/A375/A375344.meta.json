@@ -1,0 +1,21 @@
+{
+  "description": "First term p1 of octuplets of consecutive prime numbers pi with given successive gaps pi-p1, i=2, ...,8 (6, 8, 18, 24, 30, 36, 38).",
+  "id": "A375344",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001223",
+    "A002476",
+    "A022011",
+    "A065706",
+    "A151800"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

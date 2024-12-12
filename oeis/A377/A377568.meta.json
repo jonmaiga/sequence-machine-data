@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k with the property that the maximum density of points in the integer lattice with all distances at least sqrt(k) is 1/k.",
+  "id": "A377568",
+  "mentions": [
+    "A001481"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

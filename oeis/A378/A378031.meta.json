@@ -1,0 +1,21 @@
+{
+  "description": "Cogrowth sequence for the 18-element group C6 X C3 = .",
+  "id": "A378031",
+  "mentions": [
+    "A007613",
+    "A095364",
+    "A377627",
+    "A378109",
+    "A378110"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

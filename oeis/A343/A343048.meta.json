@@ -2,8 +2,10 @@
   "description": "a(n) is the least number whose sum of digits in primorial base equals n.",
   "id": "A343048",
   "mentions": [
+    "A060735",
     "A200748",
-    "A276150"
+    "A276150",
+    "A372559"
   ],
   "tags": [
     "base",

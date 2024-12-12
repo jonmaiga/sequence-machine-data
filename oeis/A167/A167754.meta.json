@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1 then a(n)=(-1)*sum(k=1,n-1,(-1)^a(k)*floor(n/k))",
+  "description": "a(1) = 1 then a(n) = (-1)*Sum_{k=1..n-1} (-1)^a(k)*floor(n/k).",
   "id": "A167754",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and its digit reversal both are highly composite numbers. Or n and R(n) both are members of A002473.",
+  "description": "Numbers k such that k and its digit reversal are both 7-smooth (A002473).",
   "id": "A085133",
   "mentions": [
     "A002473",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of edge cuts in the n-dipyramidal graph.",
+  "id": "A377500",
+  "mentions": [
+    "A296995"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

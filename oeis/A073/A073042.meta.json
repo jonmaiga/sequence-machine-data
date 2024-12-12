@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 10^a*b^2 or 10^a*b^3.",
+  "description": "Numbers of the form 10^s*t^2 or 10^s*t^3, s,t >= 0.",
   "id": "A073042",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
-    "source": "oeis-entry"
+    "size": 56,
+    "source": "joeis"
   }
 }

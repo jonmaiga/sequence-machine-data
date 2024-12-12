@@ -1,0 +1,16 @@
+{
+  "description": "Cardinality of the ramified symmetric inverse monoid R(IS_n).",
+  "id": "A378232",
+  "mentions": [
+    "A000110"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

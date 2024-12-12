@@ -2,6 +2,7 @@
   "description": "Number of cyclic permutations of length n avoiding the pattern 321.",
   "id": "A309508",
   "mentions": [
+    "A000108",
     "A000957",
     "A309504",
     "A309505",
@@ -12,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
+    "offset": 0,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

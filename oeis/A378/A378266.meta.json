@@ -1,0 +1,20 @@
+{
+  "description": "Number of subgroups of S_n isomorphic to S_3 up to conjugacy, where S_n is the n-th symmetric group.",
+  "id": "A378266",
+  "mentions": [
+    "A004526",
+    "A378177",
+    "A378273",
+    "A378274"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

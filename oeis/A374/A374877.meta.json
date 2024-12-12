@@ -1,0 +1,18 @@
+{
+  "description": "Obverse convolution (3n+1)**(3n+1); see Comments.",
+  "id": "A374877",
+  "mentions": [
+    "A016777",
+    "A374848",
+    "A374878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

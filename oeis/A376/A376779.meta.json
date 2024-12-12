@@ -1,0 +1,16 @@
+{
+  "description": "The terms of A329447 sorted into increasing order.",
+  "id": "A376779",
+  "mentions": [
+    "A329447"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

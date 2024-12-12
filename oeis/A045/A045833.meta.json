@@ -2,10 +2,13 @@
   "description": "Expansion of eta(q^9)^3 / eta(q^3) in powers of q.",
   "id": "A045833",
   "mentions": [
+    "A011655",
     "A033685",
     "A033687",
     "A097195",
-    "A217219"
+    "A102283",
+    "A217219",
+    "A378006"
   ],
   "tags": [
     "formulas",

@@ -1,19 +1,19 @@
 {
-  "description": "Triangular sequence of when integers are of the form: factorial[n]=a(n)*2^m ;Sequence dividing the powers of two out of factorials.",
+  "description": "Irregular triangle read by rows: T(n, k) = f(n, A113474(n-1) - k), where f(n, k) = (n-1)!/2^k if (n-1)!/2^k is an integer, otherwise f(n, k) = 0.",
   "id": "A129915",
   "mentions": [
     "A049606",
-    "A067655"
+    "A067655",
+    "A113474"
   ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabf"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

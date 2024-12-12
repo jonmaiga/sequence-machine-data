@@ -1,0 +1,19 @@
+{
+  "description": "Orders k of groups G such that Inn(G) is isomorphic to Z(Aut(G)) for at least one G of order k.",
+  "id": "A376065",
+  "mentions": [
+    "A000079",
+    "A007283",
+    "A019434",
+    "A020714"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

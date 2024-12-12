@@ -1,0 +1,20 @@
+{
+  "description": "Let s(x) be the Maclaurin series for cos(x); then a(n) is the index k for which (k+1)-st partial sum of s(2*n*Pi) is least among all partial sums.",
+  "id": "A376457",
+  "mentions": [
+    "A374987",
+    "A375053",
+    "A375054",
+    "A375057",
+    "A376456"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

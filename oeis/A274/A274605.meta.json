@@ -1,13 +1,16 @@
 {
-  "description": "Numbers n such that there is no prime between the n-th perfect power and the (n+1)-st perfect power.",
+  "description": "Numbers k such that there is no prime between the k-th perfect power and the (k+1)-st perfect power.",
   "id": "A274605",
   "mentions": [
     "A000720",
     "A001597",
+    "A069623",
     "A080769",
     "A116086"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of a deltoidal icositetrahedron with unit shorter edge length.",
+  "id": "A378390",
+  "mentions": [
+    "A010466",
+    "A343964",
+    "A378391",
+    "A378392",
+    "A378393",
+    "A378394"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

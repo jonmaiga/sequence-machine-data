@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals downward: T(n,k) is the number of tilings of the n X k cylinder by two distinct tiles.",
+  "description": "Table read by downward antidiagonals: T(n,k) is the number of tilings of the n X k cylinder by two distinct tiles.",
   "id": "A368264",
   "mentions": [
     "A117401",

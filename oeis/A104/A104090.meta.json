@@ -1,14 +1,27 @@
 {
   "description": "Largest prime <= 5^n.",
   "id": "A104090",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000351",
+    "A003618",
+    "A007917",
+    "A014234",
+    "A054321",
+    "A104088",
+    "A104089",
+    "A104091",
+    "A104094",
+    "A104096"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 23,
     "source": "joeis"
   }
 }

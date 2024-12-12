@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least n-gonal number that is an interprime, i.e. the average of two consecutive primes.",
+  "id": "A376614",
+  "mentions": [
+    "A000326",
+    "A024675",
+    "A086270"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

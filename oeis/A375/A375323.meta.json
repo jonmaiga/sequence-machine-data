@@ -1,0 +1,13 @@
+{
+  "description": "Natural numbers k for which there exist distinct nonzero naturals a,b,c, such that k = a + b + c and (a + b)*(b + c)*(c + a) is a perfect cube.",
+  "id": "A375323",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -15,12 +15,13 @@
   "tags": [
     "easy",
     "formulas",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

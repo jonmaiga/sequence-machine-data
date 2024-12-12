@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers k such that in the decimal expansion of 1/k a nonzero digit is never followed by a zero.",
+  "id": "A376088",
+  "mentions": [
+    "A003592",
+    "A052382",
+    "A060284"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

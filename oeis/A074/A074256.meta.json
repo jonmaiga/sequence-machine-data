@@ -1,7 +1,8 @@
 {
-  "description": "Sum of factorials of digits of n equals sum of the primes from the smallest prime factor of n to the largest prime factor of n.",
+  "description": "Numbers k such that the sum of factorials of the digits of k equals the sum of the primes from the smallest prime factor of k to the largest prime factor of k.",
   "id": "A074256",
   "mentions": [
+    "A061602",
     "A074036"
   ],
   "tags": [
@@ -9,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 28,
     "source": "oeis-entry"
   }

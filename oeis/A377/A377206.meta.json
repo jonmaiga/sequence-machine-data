@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = ceiling(log(1/n)/log(1 - 1/n)).",
+  "id": "A377206",
+  "mentions": [
+    "A031435",
+    "A094500"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

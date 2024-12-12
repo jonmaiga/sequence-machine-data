@@ -1,0 +1,26 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers a(1), a(2), a(3), ... such that for any n > 0, S(n) = Sum_{k = 1..n} b(k)/a(k) < 1, where {b(k)} = 3,1,4,1,5,... are the digits of Pi (cf. A000796).",
+  "id": "A376048",
+  "mentions": [
+    "A000796",
+    "A374663",
+    "A375516",
+    "A375522",
+    "A375531",
+    "A375532",
+    "A375781",
+    "A376049",
+    "A376056",
+    "A376062"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Position (or inverse of) n in A228407.",
+  "description": "Position of n in A228407.",
   "id": "A229218",
   "mentions": [
     "A228407"

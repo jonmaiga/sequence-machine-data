@@ -2,10 +2,14 @@
   "description": "Padovan numbers for which the digital root is also a Padovan number.",
   "id": "A117598",
   "mentions": [
-    "A000931"
+    "A000931",
+    "A010888",
+    "A117600"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

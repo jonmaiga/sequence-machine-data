@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies A(x)^7 = A(x^7) + 7*A(x^8).",
+  "id": "A377258",
+  "mentions": [
+    "A377255",
+    "A377256",
+    "A377257"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest m such that sigma(m) == n (mod phi(m)) or 0 if no solution exists.",
+  "description": "Smallest m such that sigma(m) mod phi(m) = n or 0 if no solution exists.",
   "id": "A072808",
   "mentions": [
     "A000010",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

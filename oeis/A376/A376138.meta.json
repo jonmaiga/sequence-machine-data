@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest k such that n = ab + cd with 1 <= a,b,c,d <= k.",
+  "id": "A376138",
+  "mentions": [
+    "A033677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Unitary Zumkeller numbers whose divisors can be partitioned into two disjoint subsets with equal sums and cardinalities.",
+  "id": "A376862",
+  "mentions": [
+    "A002110",
+    "A083207",
+    "A290466",
+    "A293188",
+    "A347063"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

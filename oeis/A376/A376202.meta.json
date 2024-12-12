@@ -1,0 +1,22 @@
+{
+  "description": "Number of pairs 1 <= x <= y <= n-1 such that gcd(x,n) = gcd(y,n) = gcd(x+y,n) = 1 and 1/x + 1/y == 1/(x+y) mod n.",
+  "id": "A376202",
+  "mentions": [
+    "A000086",
+    "A007645",
+    "A046530",
+    "A290731",
+    "A376203",
+    "A376755",
+    "A376756",
+    "A376757"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

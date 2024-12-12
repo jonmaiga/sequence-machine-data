@@ -1,0 +1,22 @@
+{
+  "description": "Number of pairs 0 <= x <= y <= n-1 such that x^2 + x*y + y^2 == 0 (mod n).",
+  "id": "A376756",
+  "mentions": [
+    "A000086",
+    "A046530",
+    "A087786",
+    "A290731",
+    "A376202",
+    "A376203",
+    "A376755",
+    "A376757"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

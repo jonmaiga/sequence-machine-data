@@ -8,12 +8,13 @@
     "A137928"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

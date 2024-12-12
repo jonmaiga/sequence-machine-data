@@ -1,5 +1,5 @@
 {
-  "description": "Delete all letters except c, d, i, l, m, v, x from the English name of n, then read as Roman numeral if possible, otherwise 0.",
+  "description": "Delete all letters except c, d, i, l, m, v, x from the US English name of n, then read as Roman numeral if possible, otherwise 0.",
   "id": "A002904",
   "mentions": [
     "A092302",

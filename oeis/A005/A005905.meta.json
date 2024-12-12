@@ -1,5 +1,5 @@
 {
-  "description": "Number of points on surface of truncated tetrahedron: 14n^2 + 2 for n>0, a(0)=1.",
+  "description": "Number of points on surface of truncated tetrahedron: a(n) = 14*n^2 + 2 for n > 0, a(0)=1.",
   "id": "A005905",
   "mentions": [
     "A000051",
@@ -8,6 +8,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

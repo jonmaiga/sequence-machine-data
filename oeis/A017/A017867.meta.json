@@ -1,7 +1,13 @@
 {
-  "description": "Expansion of 1/(1-x^8-x^9).",
+  "description": "Expansion of 1/(1 - x^8 - x^9).",
   "id": "A017867",
-  "mentions": [],
+  "mentions": [
+    "A017817",
+    "A017827",
+    "A017857",
+    "A017877",
+    "A306713"
+  ],
   "tags": [
     "easy",
     "formulas",

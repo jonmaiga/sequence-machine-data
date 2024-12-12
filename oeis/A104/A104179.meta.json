@@ -1,7 +1,11 @@
 {
   "description": "Primes that are either single-digit primes or a concatenation of two earlier terms.",
   "id": "A104179",
-  "mentions": [],
+  "mentions": [
+    "A376433",
+    "A376434",
+    "A376435"
+  ],
   "tags": [
     "base",
     "formulas",

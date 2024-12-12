@@ -1,0 +1,16 @@
+{
+  "description": "Infinite sequence of integers a(1), a(2), ... such that for any n > 0, a(n) is as small as possible (in absolute value) and the means of consecutive terms are all distinct; in case of a tie, preference is given to the positive value.",
+  "id": "A377388",
+  "mentions": [
+    "A377351",
+    "A377389"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

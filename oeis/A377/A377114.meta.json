@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = coefficient of sqrt(2) in the expansion of (3 + sqrt(2) + sqrt(3))^n.",
+  "id": "A377114",
+  "mentions": [
+    "A377090",
+    "A377109",
+    "A377113",
+    "A377115",
+    "A377116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

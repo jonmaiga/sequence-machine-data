@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the midradius of a triakis tetrahedron with unit shorter edge length.",
+  "id": "A378207",
+  "mentions": [
+    "A010524",
+    "A093577",
+    "A378204",
+    "A378205",
+    "A378206",
+    "A378208"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

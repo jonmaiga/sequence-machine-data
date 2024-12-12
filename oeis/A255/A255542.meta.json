@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of prime factors of (3^n + 10).",
+  "description": "a(n) = number of prime factors of (3^n + 10) counted with multiplicity.",
   "id": "A255542",
   "mentions": [
     "A001222",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 100,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

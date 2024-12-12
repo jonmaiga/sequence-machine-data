@@ -1,0 +1,15 @@
+{
+  "description": "PrimePi(greatest prime < sqrt(Q)) - PrimePi(greatest prime factor(Q) < sqrt(Q)), with Q = A082686(n).",
+  "id": "A375205",
+  "mentions": [
+    "A082686"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

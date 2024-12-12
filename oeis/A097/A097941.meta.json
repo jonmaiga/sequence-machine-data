@@ -2,7 +2,10 @@
   "description": "Total number of smallest parts in all compositions of n.",
   "id": "A097941",
   "mentions": [
-    "A092269"
+    "A092269",
+    "A097939",
+    "A097940",
+    "A238342"
   ],
   "tags": [
     "easy",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

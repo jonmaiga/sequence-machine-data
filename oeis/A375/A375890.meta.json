@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest unused positive number such that a(n) is coprime to a(n-1) and (a(n) AND a(n-1)) = min(a(n), a(n-1)), where AND is the binary AND operation.",
+  "id": "A375890",
+  "mentions": [
+    "A027750",
+    "A169837",
+    "A303767",
+    "A375889"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

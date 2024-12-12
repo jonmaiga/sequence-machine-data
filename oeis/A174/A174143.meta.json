@@ -2,7 +2,6 @@
   "description": "Partials sums of A002794.",
   "id": "A174143",
   "mentions": [
-    "A002065",
     "A002665",
     "A002794",
     "A002795",
@@ -14,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 9,
     "source": "joeis"
   }
 }

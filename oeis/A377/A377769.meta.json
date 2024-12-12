@@ -1,0 +1,14 @@
+{
+  "description": "Number of edge cuts in the n-Plummer-Toft graph.",
+  "id": "A377769",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

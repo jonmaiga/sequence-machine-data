@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * |Stirling1(2*n, n)|.",
+  "id": "A376873",
+  "mentions": [
+    "A132393",
+    "A187646",
+    "A225479"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

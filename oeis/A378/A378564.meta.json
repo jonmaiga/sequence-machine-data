@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of n-digit nonnegative integers with the median of the digits equal to one of the digits.",
+  "id": "A378564",
+  "mentions": [
+    "A063945",
+    "A179239",
+    "A378560"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

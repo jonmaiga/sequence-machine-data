@@ -1,8 +1,13 @@
 {
-  "description": "Largest diameter of a lattice polygon.",
+  "description": "Let k be the maximal number of vertices in an n X n lattice grid that form a convex polygon, then a(n) = floor(k/2).",
   "id": "A305397",
-  "mentions": [],
+  "mentions": [
+    "A011755",
+    "A049696",
+    "A374975"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

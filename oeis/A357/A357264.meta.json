@@ -1,5 +1,5 @@
 {
-  "description": "Circumference of the n x n giraffe graph.",
+  "description": "Circumference of the n X n giraffe graph.",
   "id": "A357264",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 5,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

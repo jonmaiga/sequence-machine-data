@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that omega(n) > omega(n+1) (where omega(m) = A001221(m), the number of distinct primes dividing m).",
+  "description": "Numbers k such that omega(k) > omega(k+1) (where omega(m) = A001221(m), the number of distinct primes dividing m).",
   "id": "A294278",
   "mentions": [
     "A001221",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

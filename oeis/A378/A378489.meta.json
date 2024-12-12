@@ -1,0 +1,18 @@
+{
+  "description": "Intersection of A000028 and A028260.",
+  "id": "A378489",
+  "mentions": [
+    "A000028",
+    "A028260",
+    "A066427",
+    "A378494"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

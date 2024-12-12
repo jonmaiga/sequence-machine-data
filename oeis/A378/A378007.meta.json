@@ -1,0 +1,27 @@
+{
+  "description": "Square table read by descending antidiagonals: T(n,k) = A378006(k*n+1,k).",
+  "id": "A378007",
+  "mentions": [
+    "A000012",
+    "A008441",
+    "A033687",
+    "A097195",
+    "A378006",
+    "A378008",
+    "A378009",
+    "A378010",
+    "A378011",
+    "A378012"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which R(n) + 4*10^floor(n/2-1) is prime, where R(n) = (10^n-1)/9 (repunit: A002275).",
+  "description": "Numbers k for which R(k) + 4*10^floor(k/2-1) is prime, where R(n) = (10^n-1)/9 (repunit: A002275).",
   "id": "A331868",
   "mentions": [
     "A002275",

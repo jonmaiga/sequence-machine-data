@@ -18,13 +18,12 @@
     "A202814"
   ],
   "tags": [
-    "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "First difference sequence of A002202. Difference between consecutive possible values for phi(n).",
+  "description": "First difference sequence of A002202. Difference between consecutive possible values for phi.",
   "id": "A083533",
   "mentions": [
     "A000010",

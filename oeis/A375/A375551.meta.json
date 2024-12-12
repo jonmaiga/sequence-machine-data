@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k XOR n-k, where XOR is the bitwise exclusive disjunction. Row sums of A003987.",
+  "id": "A375551",
+  "mentions": [
+    "A003986",
+    "A003987",
+    "A006582",
+    "A020522",
+    "A051933",
+    "A099027",
+    "A224915",
+    "A376585"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

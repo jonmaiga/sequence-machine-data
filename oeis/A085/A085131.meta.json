@@ -1,8 +1,9 @@
 {
-  "description": "Multiples of 8 which are members of A002473. Or multiples of 8 with the largest prime divisor < 10.",
+  "description": "Multiples of 8 which are 7-smooth.",
   "id": "A085131",
   "mentions": [
     "A002473",
+    "A008590",
     "A080194",
     "A085125",
     "A085126",
@@ -12,12 +13,12 @@
     "A085132"
   ],
   "tags": [
-    "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 53,
     "source": "joeis"
   }

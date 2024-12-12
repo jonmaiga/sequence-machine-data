@@ -1,0 +1,20 @@
+{
+  "description": "Inverse permutation to A377137.",
+  "id": "A378127",
+  "mentions": [
+    "A064455",
+    "A209278",
+    "A265225",
+    "A377137"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

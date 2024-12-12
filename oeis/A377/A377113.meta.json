@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = coefficient of the term that is independent of sqrt(2), sqrt(3), and sqrt(6) in the expansion of (3 + sqrt(2) + sqrt(3))^n.",
+  "id": "A377113",
+  "mentions": [
+    "A377109",
+    "A377114",
+    "A377115",
+    "A377116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

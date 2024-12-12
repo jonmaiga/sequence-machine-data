@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with exactly one subset of their sets of divisors such that the complement has the same sum.",
+  "description": "Numbers whose divisors can be partitioned in exactly one way into two disjoint sets with the same sum.",
   "id": "A083209",
   "mentions": [
     "A000396",
@@ -7,7 +7,18 @@
     "A005835",
     "A006037",
     "A064771",
-    "A083206"
+    "A083206",
+    "A083207",
+    "A335143",
+    "A335199",
+    "A335202",
+    "A335217",
+    "A335219",
+    "A337739",
+    "A339980",
+    "A378449",
+    "A378530",
+    "A378652"
   ],
   "tags": [
     "nonn"

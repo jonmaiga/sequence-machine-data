@@ -1,0 +1,19 @@
+{
+  "description": "Cogrowth sequence of the 20-element group C10 X C2 = .",
+  "id": "A378254",
+  "mentions": [
+    "A078789",
+    "A377627",
+    "A377840"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

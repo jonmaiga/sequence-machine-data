@@ -2,6 +2,7 @@
   "description": "Final 2 digits of n-th Mersenne prime A000668(n).",
   "id": "A080173",
   "mentions": [
+    "A000043",
     "A000668",
     "A080172"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
+    "size": 48,
     "source": "oeis-entry"
   }
 }

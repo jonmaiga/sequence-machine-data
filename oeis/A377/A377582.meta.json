@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. (1 + x * exp(x))^3.",
+  "id": "A377582",
+  "mentions": [
+    "A001815",
+    "A002999",
+    "A052791",
+    "A377530",
+    "A377575",
+    "A377583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

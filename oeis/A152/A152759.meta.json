@@ -1,5 +1,5 @@
 {
-  "description": "3 times 9-gonal (or nonagonal) numbers: 3n(7n-5)/2.",
+  "description": "3 times 9-gonal (or nonagonal) numbers: a(n) = 3*n*(7*n-5)/2.",
   "id": "A152759",
   "mentions": [
     "A001106",

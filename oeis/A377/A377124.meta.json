@@ -1,0 +1,23 @@
+{
+  "description": "Phase shift (original name \"sfasamento\") of the tetration base 10*n at any height greater than or equal to 3.",
+  "id": "A377124",
+  "mentions": [
+    "A065881",
+    "A317905",
+    "A370211",
+    "A371671",
+    "A373387",
+    "A376838"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

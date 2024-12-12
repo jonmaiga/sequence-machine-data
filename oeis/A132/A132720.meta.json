@@ -2,8 +2,7 @@
   "description": "Sequence is identical to its second differences in absolute values.",
   "id": "A132720",
   "mentions": [
-    "A042965",
-    "A042968",
+    "A004396",
     "A132170"
   ],
   "tags": [

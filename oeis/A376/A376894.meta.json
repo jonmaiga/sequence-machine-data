@@ -1,0 +1,18 @@
+{
+  "description": "Stationary differences in A342447: a(n) = A342447(2k-n+1,k)-A342447(2k-n,k) which does not depend on k if k>= 2n-2 (for n>0).",
+  "id": "A376894",
+  "mentions": [
+    "A000112",
+    "A022016",
+    "A342447"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with following property: List all proper divisors of n. Replace any composite number in the list with its proper divisors. Repeat. Sum of remaining numbers (1's and primes) is equal to n.",
+  "description": "Numbers k with following property: List all proper divisors of k. Replace any composite number in the list with its proper divisors. Repeat. Sum of remaining numbers (1's and primes) is equal to k.",
   "id": "A237428",
   "mentions": [
     "A000203",

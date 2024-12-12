@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of monic irreducible polynomials of degree n in F_2[x] that are k-normal, n>=1, k>=0 .",
+  "id": "A375729",
+  "mentions": [
+    "A001037",
+    "A003473",
+    "A027362",
+    "A330694"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

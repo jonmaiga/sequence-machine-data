@@ -1,0 +1,22 @@
+{
+  "description": "XOR-Moebius transform of A318457, where A318457(n) = n XOR (sigma(n)-n).",
+  "id": "A378226",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003987",
+    "A295901",
+    "A318457",
+    "A378227",
+    "A378230",
+    "A378441"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

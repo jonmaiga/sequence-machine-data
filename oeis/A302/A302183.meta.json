@@ -1,29 +1,32 @@
 {
-  "description": "Number of 3D walks of type abd.",
+  "description": "Number of 3D n-step walks of type abd.",
   "id": "A302183",
   "mentions": [
     "A000108",
     "A000984",
+    "A001006",
     "A002212",
     "A002896",
     "A005572",
     "A026375",
     "A064037",
     "A081671",
+    "A126869",
     "A138547",
     "A145847",
     "A145867",
     "A150500",
-    "A202814"
+    "A202814",
+    "A302184"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

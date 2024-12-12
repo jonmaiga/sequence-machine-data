@@ -1,5 +1,5 @@
 {
-  "description": "Number of digits in the n-th Cullen prime.",
+  "description": "Number of digits in the decimal expansion of the n-th Cullen prime.",
   "id": "A137716",
   "mentions": [
     "A002064",
@@ -11,11 +11,12 @@
     "base",
     "formulas",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

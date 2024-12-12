@@ -1,0 +1,18 @@
+{
+  "description": "Positions of records in A174414.",
+  "id": "A376219",
+  "mentions": [
+    "A174414",
+    "A376220"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

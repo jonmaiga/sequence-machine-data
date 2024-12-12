@@ -1,0 +1,26 @@
+{
+  "description": "Phase shift of the tetration base n at height n.",
+  "id": "A376883",
+  "mentions": [
+    "A065881",
+    "A317905",
+    "A372490",
+    "A373387",
+    "A376446",
+    "A376838",
+    "A376842",
+    "A377124",
+    "A377126"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

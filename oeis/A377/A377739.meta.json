@@ -1,0 +1,20 @@
+{
+  "description": "Array of positive integer triples (x,y,z) where the sum of their cubes equals another cubic number",
+  "id": "A377739",
+  "mentions": [
+    "A023042",
+    "A096907",
+    "A103606",
+    "A226903",
+    "A291694"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

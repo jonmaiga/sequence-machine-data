@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x * (1-x)^2 * A(x)) / (1-x)^3.",
+  "id": "A378090",
+  "mentions": [
+    "A323772",
+    "A352410",
+    "A378091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

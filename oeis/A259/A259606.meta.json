@@ -2,7 +2,8 @@
   "description": "G.f. satisfies: A(x) = Series_Reversion( x - A'(x)*A(x)^2 ).",
   "id": "A259606",
   "mentions": [
-    "A360578"
+    "A360578",
+    "A375456"
   ],
   "tags": [
     "formulas",

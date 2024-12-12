@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. (1 + log(1+x))^3.",
+  "id": "A377396",
+  "mentions": [
+    "A377397"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

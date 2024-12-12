@@ -1,8 +1,9 @@
 {
-  "description": "G.f. satisfies: A(x) = P(x*A(x)^3) where A(x/P(x)^3) = P(x) is the g.f. for Partition numbers (A000041).",
+  "description": "G.f. satisfies: A(x) = P(x*A(x)^3) where A(x/P(x)^3) = P(x) is the g.f. for partition numbers (A000041).",
   "id": "A171804",
   "mentions": [
     "A000041",
+    "A010815",
     "A109085",
     "A145268",
     "A171802",
@@ -10,6 +11,7 @@
     "A171805"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

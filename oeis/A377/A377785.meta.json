@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-node connected unsensed planar maps with an external face in which all internal faces are triangles.",
+  "id": "A377785",
+  "mentions": [
+    "A005027",
+    "A342056",
+    "A378103",
+    "A378335",
+    "A378339",
+    "A378340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

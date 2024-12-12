@@ -1,0 +1,17 @@
+{
+  "description": "Primes in A194627.",
+  "id": "A377791",
+  "mentions": [
+    "A194627",
+    "A377882"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

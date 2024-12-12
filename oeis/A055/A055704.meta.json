@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n | sigma_10(n) + phi(n)^10.",
+  "description": "Numbers k such that n | sigma_10(k) + phi(k)^10.",
   "id": "A055704",
   "mentions": [
+    "A000010",
     "A013958"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Pi^2/6 = zeta(2) = Sum_{m>=1} 1/m^2.",
   "id": "A013661",
   "mentions": [
+    "A000290",
     "A001008",
     "A002117",
     "A002162",

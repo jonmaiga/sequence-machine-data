@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 22*n+19.",
+  "description": "a(n) = 22*n + 19.",
   "id": "A248339",
   "mentions": [
     "A017485",

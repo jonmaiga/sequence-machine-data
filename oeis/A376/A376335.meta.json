@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = A008949(n-1,k) if 0 <= k <= n - 2 otherwise A008949(n-1,2*n-4-k) if n - 2 <= k <= 2*n - 4.",
+  "id": "A376335",
+  "mentions": [
+    "A000337",
+    "A008949"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

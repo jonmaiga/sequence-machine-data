@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that set records in A378181.",
+  "id": "A378632",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A001222",
+    "A002110",
+    "A007947",
+    "A070175",
+    "A378181"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A376369.",
+  "id": "A376378",
+  "mentions": [
+    "A376369",
+    "A376376",
+    "A376377"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

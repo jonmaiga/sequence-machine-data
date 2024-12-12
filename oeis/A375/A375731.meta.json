@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of partitions of n having a square number of parts whose sum of squares is a square.",
+  "id": "A375731",
+  "mentions": [
+    "A001156",
+    "A006456",
+    "A025428",
+    "A037444",
+    "A240127",
+    "A240128",
+    "A375732"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

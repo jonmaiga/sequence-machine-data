@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of 1/((1-5x)(1-10x)).",
+  "description": "Expansion of 1/((1-5*x)*(1-10*x)).",
   "id": "A016164",
   "mentions": [
     "A008277",
+    "A016161",
     "A075500",
     "A075911"
   ],
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

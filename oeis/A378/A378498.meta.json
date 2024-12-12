@@ -1,0 +1,21 @@
+{
+  "description": "Squares where larger digits have smaller multiplicity.",
+  "id": "A378498",
+  "mentions": [
+    "A000290",
+    "A018884",
+    "A052046",
+    "A235718",
+    "A378492"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

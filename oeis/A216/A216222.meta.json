@@ -1,14 +1,21 @@
 {
-  "description": "Counting a set of restricted partitions",
+  "description": "Counting a set of restricted partitions.",
   "id": "A216222",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A306734",
+    "A376542",
+    "A376580",
+    "A376812",
+    "A376813"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 63,
-    "source": "oeis-entry"
+    "size": 65,
+    "source": "oeis-bfile"
   }
 }

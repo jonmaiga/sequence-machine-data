@@ -1,7 +1,9 @@
 {
-  "description": "Alternating difference recursion: a(0) = -1; a(1) = 0; a(2) = 1; a(3) = -1; a(n) = a(n-1) - 3*a(n-2) + 3*a(n-3) - a(n-4).",
+  "description": "a(0) = -1; a(1) = 0; a(2) = 1; a(3) = -1; a(n) = a(n-1) - 3*a(n-2) + 3*a(n-3) - a(n-4).",
   "id": "A141577",
-  "mentions": [],
+  "mentions": [
+    "A141576"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

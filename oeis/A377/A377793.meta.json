@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of squarefree composite k with lpf(k) = prime(n) such that m <= Omega(k), where lpf = A020639, m = floor(log k / log lpf(k)), and Omega = A001222",
+  "id": "A377793",
+  "mentions": [
+    "A001222",
+    "A020639",
+    "A120944",
+    "A377713",
+    "A377792"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

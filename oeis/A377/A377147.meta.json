@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(k+2,2) * binomial(k,n-3*k)^2.",
+  "id": "A377147",
+  "mentions": [
+    "A089627",
+    "A375470",
+    "A376721",
+    "A377145",
+    "A377146"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

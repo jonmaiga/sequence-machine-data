@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least integer m such that the distance of x_m from its nearest integer is less than 1/n, where x_m is the m-th root of digamma(x+1).",
+  "id": "A374856",
+  "mentions": [
+    "A030169",
+    "A175472",
+    "A175473"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

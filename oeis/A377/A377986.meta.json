@@ -1,0 +1,24 @@
+{
+  "description": "Number of integers k, with bigomega(k) > 2, whose arithmetic derivative (A003415) is equal to n!, the n-th factorial.",
+  "id": "A377986",
+  "mentions": [
+    "A000142",
+    "A001222",
+    "A002620",
+    "A003415",
+    "A062311",
+    "A376410",
+    "A377987"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

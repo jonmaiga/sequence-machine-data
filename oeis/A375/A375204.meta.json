@@ -1,0 +1,23 @@
+{
+  "description": "Record values in A375202.",
+  "id": "A375204",
+  "mentions": [
+    "A000079",
+    "A007283",
+    "A020714",
+    "A051037",
+    "A375202",
+    "A375203",
+    "A375292"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of those divisors d of n for which A083345(d) is odd, where A083345(n) is the numerator of Sum(e/p: n=Product(p^e)).",
+  "id": "A378545",
+  "mentions": [
+    "A000203",
+    "A083345",
+    "A377874",
+    "A378445",
+    "A378544"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

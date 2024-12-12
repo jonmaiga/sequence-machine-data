@@ -1,19 +1,22 @@
 {
-  "description": "Number of decimal digits in A139474(n).",
+  "description": "Number of digits in the decimal expansion of A139474(n).",
   "id": "A139475",
   "mentions": [
     "A001109",
+    "A055642",
     "A139473",
     "A139474",
     "A139476"
   ],
   "tags": [
     "base",
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

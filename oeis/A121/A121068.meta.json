@@ -2,7 +2,8 @@
   "description": "Numbers k such that 8*k^2 + 7 is prime.",
   "id": "A121068",
   "mentions": [
-    "A007522"
+    "A007522",
+    "A201704"
   ],
   "tags": [
     "easy",

@@ -1,14 +1,17 @@
 {
-  "description": "Numbers n that are multiples of the reversal of n-1",
+  "description": "Numbers k that are multiples of the reversal of k-1.",
   "id": "A160945",
-  "mentions": [],
+  "mentions": [
+    "A004086",
+    "A160946"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

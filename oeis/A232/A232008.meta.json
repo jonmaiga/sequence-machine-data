@@ -1,15 +1,16 @@
 {
-  "description": "Values x of successive minima records of k=Log[x]/Log[-d] where d runs through the negative values of x^3-round(sqrt(x^3))^2.",
+  "description": "Values x of successive minima records of k = log(x)/log(-d) where d runs through the negative values of x^3-round(sqrt(x^3))^2.",
   "id": "A232008",
   "mentions": [
     "A232536"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

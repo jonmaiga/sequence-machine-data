@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3Xn arrays of the minimum value of corresponding elements and their horizontal or vertical neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 3Xn array",
+  "description": "Number of 3 X n arrays of the minimum value of corresponding elements and their horizontal or vertical neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 3 X n array.",
   "id": "A219580",
   "mentions": [
     "A219578"

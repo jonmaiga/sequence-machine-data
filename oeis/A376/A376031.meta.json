@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to tile a 3 x (2*n) rectangle with dominoes and T's.",
+  "id": "A376031",
+  "mentions": [
+    "A033506",
+    "A219968",
+    "A337492",
+    "A346054"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Maximal number of binary vectors of length n such that the unions (or bitwise ORs) of any 3 distinct vectors are all distinct.",
   "id": "A290492",
   "mentions": [
-    "A054961"
+    "A054961",
+    "A361928"
   ],
   "tags": [
     "more",

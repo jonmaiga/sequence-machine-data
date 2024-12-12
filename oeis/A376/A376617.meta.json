@@ -1,0 +1,21 @@
+{
+  "description": "Binary Niven numbers (A049445) k such that m = k/wt(k) and m/wt(m) are also binary Niven numbers, where wt(k) = A000120(k) is the binary weight of k.",
+  "id": "A376617",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A049445",
+    "A376615",
+    "A376616"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

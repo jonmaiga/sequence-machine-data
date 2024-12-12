@@ -1,18 +1,21 @@
 {
-  "description": "a(n) = n*phi(n) for nonprime n.",
+  "description": "a(n) = k*phi(k), where k is the n-th nonprime number.",
   "id": "A137148",
   "mentions": [
     "A002618",
     "A018252",
-    "A036689"
+    "A036689",
+    "A065484",
+    "A136141"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

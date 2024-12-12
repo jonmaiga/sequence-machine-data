@@ -1,5 +1,5 @@
 {
-  "description": "(Prime(n)^(p-1) - 1)/p^2 mod p, where p is the first prime that divides (prime(n)^(p-1) - 1)/p.",
+  "description": "a(n) = (prime(n)^(p-1) - 1)/p^2 mod p, where p is the first prime that divides (prime(n)^(p-1) - 1)/p.",
   "id": "A178813",
   "mentions": [
     "A001220",

@@ -2,6 +2,9 @@
   "description": "a(0) = 0. For m >= 0 and 0 <= k <= 2^m -1, a(2^m +k) = number of earlier terms of the sequence which equal k.",
   "id": "A119804",
   "mentions": [
+    "A000079",
+    "A119474",
+    "A119802",
     "A119805"
   ],
   "tags": [
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 103,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

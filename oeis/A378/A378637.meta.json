@@ -1,0 +1,20 @@
+{
+  "description": "Largest m <= n such that phi(m) divides n, where phi is the Euler totient function (A000010).",
+  "id": "A378637",
+  "mentions": [
+    "A000010",
+    "A319048",
+    "A378636",
+    "A378641"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

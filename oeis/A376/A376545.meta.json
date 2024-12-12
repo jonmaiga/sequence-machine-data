@@ -1,0 +1,19 @@
+{
+  "description": "Least prime factor of A252043(n) for n > 1 with a(1) = 1.",
+  "id": "A376545",
+  "mentions": [
+    "A020639",
+    "A252043",
+    "A376274"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

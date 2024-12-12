@@ -2,6 +2,8 @@
   "description": "a(n) = 9^n - 4^n.",
   "id": "A118004",
   "mentions": [
+    "A001047",
+    "A007689",
     "A016153"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "joeis"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

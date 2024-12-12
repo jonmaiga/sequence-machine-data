@@ -2,7 +2,6 @@
   "description": "Least integer k such that k/2^n > e^2.",
   "id": "A293360",
   "mentions": [
-    "A068459",
     "A072334",
     "A293359",
     "A293361"

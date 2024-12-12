@@ -1,10 +1,16 @@
 {
-  "description": "Triangle T(n,m)= Sum_{i=1..n} C(n,i-m)*C(n+m-i,i-1)*C(n+m-i,m)/n, T(0,0)=1.",
+  "description": "Triangle read by rows: T(n,m) = Sum_{i=1..n} C(n,i-m)*C(n+m-i,i-1)*C(n+m-i,m)/n, with T(0,0)=1.",
   "id": "A337991",
   "mentions": [
+    "A000007",
+    "A000124",
     "A001006",
     "A005773",
+    "A006008",
+    "A019590",
     "A025227",
+    "A086246",
+    "A102407",
     "A132894"
   ],
   "tags": [
@@ -15,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

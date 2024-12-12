@@ -2,9 +2,14 @@
   "description": "G.f. satisfies A(x) = 1 + x*A(x)^2 / (1 - x*A(x))^4.",
   "id": "A367234",
   "mentions": [
+    "A001003",
+    "A011270",
     "A321798",
+    "A361306",
     "A365114",
-    "A367235"
+    "A365150",
+    "A367235",
+    "A378567"
   ],
   "tags": [
     "formulas",
@@ -12,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 23,
     "source": "joeis"
   }
 }

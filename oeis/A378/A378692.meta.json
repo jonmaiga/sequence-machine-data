@@ -1,0 +1,27 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^7/(1 - x*A(x)).",
+  "id": "A378692",
+  "mentions": [
+    "A000108",
+    "A001003",
+    "A108447",
+    "A364747",
+    "A364748",
+    "A378685",
+    "A378686",
+    "A378688",
+    "A378690",
+    "A378691",
+    "A378693",
+    "A378694"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

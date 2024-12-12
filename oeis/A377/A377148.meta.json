@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(k+3,3) * binomial(k,n-k)^2.",
+  "id": "A377148",
+  "mentions": [
+    "A051286",
+    "A089627",
+    "A182884",
+    "A377145",
+    "A377149",
+    "A377150",
+    "A377152",
+    "A377153",
+    "A377158",
+    "A377159"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

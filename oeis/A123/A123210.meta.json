@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n!)^3+(n!)^2+1 is prime.",
+  "description": "Numbers k such that (k!)^3 + (k!)^2 + 1 is prime.",
   "id": "A123210",
   "mentions": [
     "A000142",

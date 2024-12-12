@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1, for n >= 2, a(n) = abs(a(n - 1) + A376022(n)).",
+  "id": "A376023",
+  "mentions": [
+    "A376022"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

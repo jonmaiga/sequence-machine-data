@@ -1,10 +1,12 @@
 {
-  "description": "Number of distinct subset sums of the subsets of the set of divisors of n.",
+  "description": "Number of distinct subset sums of the subsets of the set of divisors of n. Here 0 (as the sum of an empty subset) is included in the count.",
   "id": "A308605",
   "mentions": [
     "A030057",
     "A030058",
-    "A119347"
+    "A083207",
+    "A119347",
+    "A179527"
   ],
   "tags": [
     "formulas",
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 76,
-    "source": "oeis-entry"
+    "size": 84,
+    "source": "oeis-bfile"
   }
 }

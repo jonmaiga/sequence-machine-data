@@ -1,14 +1,17 @@
 {
-  "description": "Cubes for which the product of the digits is a cube > 0.",
+  "description": "Cubes whose product of digits is a cube > 0.",
   "id": "A067070",
   "mentions": [
     "A000578",
     "A007954",
     "A052045",
-    "A052382"
+    "A052382",
+    "A067071",
+    "A237767"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

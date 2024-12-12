@@ -1,13 +1,17 @@
 {
-  "description": "Fourth-field derivative of free energy for 4-d cubic lattice.",
+  "description": "Fourth-field derivative of Ising model free energy for 4-d cubic lattice.",
   "id": "A010557",
-  "mentions": [],
+  "mentions": [
+    "A010047",
+    "A010556",
+    "A010572"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

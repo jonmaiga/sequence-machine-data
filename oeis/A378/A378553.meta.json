@@ -1,0 +1,21 @@
+{
+  "description": "The number of n-digit composite numbers with all digits distinct.",
+  "id": "A378553",
+  "mentions": [
+    "A073531",
+    "A073532",
+    "A210441"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

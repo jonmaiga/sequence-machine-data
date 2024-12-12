@@ -1,0 +1,18 @@
+{
+  "description": "First term of n-th differences of the sequence x^(x-1) for x >= 1.",
+  "id": "A377535",
+  "mentions": [
+    "A000169",
+    "A038051",
+    "A377763"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

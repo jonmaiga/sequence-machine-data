@@ -1,7 +1,9 @@
 {
   "description": "Product of digits + 1 is prime, product of digits - 1 is prime, sum of digits + 1 is prime and sum of digits - 1 is prime.",
   "id": "A061596",
-  "mentions": [],
+  "mentions": [
+    "A061595"
+  ],
   "tags": [
     "base",
     "nonn"

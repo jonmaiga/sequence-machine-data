@@ -1,0 +1,23 @@
+{
+  "description": "For each row n in array A374602(n, k), the asymptotic geometric growth factor of every A377290(n) terms, represented by its nearest integer.",
+  "id": "A377291",
+  "mentions": [
+    "A000037",
+    "A010516",
+    "A156035",
+    "A298675",
+    "A354129",
+    "A374602",
+    "A374883",
+    "A377290"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

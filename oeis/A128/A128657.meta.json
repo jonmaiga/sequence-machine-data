@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that p(n+1)#-p(n)#-1 is prime where p(i)#=product of first i primes=A002110(i).",
+  "description": "Numbers k such that p(k+1)# - p(k)# - 1 is prime where p(i)# = product of first i primes = A002110(i).",
   "id": "A128657",
   "mentions": [
     "A002110",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

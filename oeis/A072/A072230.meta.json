@@ -2,6 +2,7 @@
   "description": "a(n) = n! (mod n^2), that is, n factorial modulo n^2.",
   "id": "A072230",
   "mentions": [
+    "A002378",
     "A008837",
     "A174530"
   ],

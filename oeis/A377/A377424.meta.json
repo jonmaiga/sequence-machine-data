@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(2 - exp(x*A(x)^4)).",
+  "id": "A377424",
+  "mentions": [
+    "A000670",
+    "A052894",
+    "A367134",
+    "A367135",
+    "A377425",
+    "A377428"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

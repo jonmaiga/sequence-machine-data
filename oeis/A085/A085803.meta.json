@@ -1,15 +1,16 @@
 {
-  "description": "Semiprimes whose sum of the squares of the digits is also a semiprime.",
+  "description": "Semiprimes whose digits squared sum to a semiprime.",
   "id": "A085803",
   "mentions": [
-    "A001358"
+    "A001358",
+    "A217907"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 53,
     "source": "oeis-bfile"
   }

@@ -1,15 +1,19 @@
 {
-  "description": "Least factor of n^Phi(n) -1.",
+  "description": "Least factor of n^phi(n) - 1.",
   "id": "A066727",
   "mentions": [
-    "A066699"
+    "A000010",
+    "A020639",
+    "A066699",
+    "A066916"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

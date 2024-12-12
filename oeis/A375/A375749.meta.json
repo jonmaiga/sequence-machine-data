@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the side y of smallest possible length in triangles with integer sides corresponding to x=A375748(n).",
+  "id": "A375749",
+  "mentions": [
+    "A375748"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 85^k - 2 is prime.",
+  "id": "A376850",
+  "mentions": [
+    "A248546",
+    "A376910"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

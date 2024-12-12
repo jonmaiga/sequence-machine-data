@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum of cubes of numbers < 2^n having exactly [n/2]+1 ones in their binary expansion.",
+  "description": "a(n) = sum of cubes of numbers < 2^n having exactly floor(n/2) + 1 ones in their binary expansion.",
   "id": "A110207",
   "mentions": [
     "A110205",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

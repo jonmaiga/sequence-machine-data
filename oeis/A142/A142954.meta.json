@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*n+3+3*(-1)^n.",
+  "description": "a(n) = 2*n + 3 + 3*(-1)^n.",
   "id": "A142954",
   "mentions": [
     "A016825",

@@ -1,0 +1,20 @@
+{
+  "description": "Cogrowth sequence of the 16-element group C2^2:C4 = .",
+  "id": "A377946",
+  "mentions": [
+    "A054879",
+    "A377843",
+    "A377855",
+    "A377943"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest 7-smooth number ending with n, or -1 if there is none.",
+  "id": "A376301",
+  "mentions": [
+    "A002473",
+    "A085908",
+    "A376303"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

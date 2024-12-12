@@ -1,0 +1,25 @@
+{
+  "description": "The maximum exponent in the factorization of n into powers of Gaussian primes.",
+  "id": "A376645",
+  "mentions": [
+    "A000265",
+    "A007814",
+    "A051903",
+    "A056911",
+    "A078458",
+    "A086275",
+    "A185199",
+    "A335852",
+    "A375669"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

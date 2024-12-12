@@ -1,5 +1,5 @@
 {
-  "description": "Number of terms in the set InvPhi(4*p(n)), where p(n) is the n-th prime.",
+  "description": "Number of terms in the set InvPhi(4*prime(n)), where prime(n) is the n-th prime.",
   "id": "A071629",
   "mentions": [
     "A000010",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

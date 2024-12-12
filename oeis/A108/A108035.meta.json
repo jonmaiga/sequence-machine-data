@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: n-th row is n-th nonzero Fibonacci number repeated n times.",
+  "description": "Triangle read by rows: n-th row consists of n copies of the n-th nonzero Fibonacci number.",
   "id": "A108035",
   "mentions": [
     "A000045",

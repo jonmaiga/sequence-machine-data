@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to place k nonattacking anassas on an n X n chess board. Triangle T(n,k) read by rows.",
+  "id": "A378561",
+  "mentions": [
+    "A000012",
+    "A000290",
+    "A088789"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

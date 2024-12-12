@@ -1,0 +1,20 @@
+{
+  "description": "Number of subwords of the form DDD in nondecreasing Dyck paths of length 2n.",
+  "id": "A377679",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A375995",
+    "A377670"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

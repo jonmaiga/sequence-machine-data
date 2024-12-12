@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent 2*n X 6 binary arrays with row sums 3 and column sums n up to row and column permutations.",
+  "id": "A377003",
+  "mentions": [
+    "A172556",
+    "A377007"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

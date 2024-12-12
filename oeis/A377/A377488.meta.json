@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle r ead by rows where row n lists powers p^k for primes p | n such that k = floor(log n/log p).",
+  "id": "A377488",
+  "mentions": [
+    "A001221",
+    "A064446",
+    "A339378",
+    "A377485"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

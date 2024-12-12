@@ -1,5 +1,5 @@
 {
-  "description": "Integers such that sigma(sigma(n) - n) = 2*n, where sigma is the sum of divisors, A000203.",
+  "description": "Integers k such that sigma(sigma(k) - k) = 2*k, where sigma is the sum of divisors, A000203.",
   "id": "A247111",
   "mentions": [
     "A000203",

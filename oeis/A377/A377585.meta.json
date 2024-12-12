@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f.: exp(Sum_{k>=1} A057660(k) * x^k).",
+  "id": "A377585",
+  "mentions": [
+    "A057660"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

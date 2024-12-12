@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n-2*n-1 is prime",
+  "description": "Numbers k such that 10^k-2*k-1 is prime.",
   "id": "A174177",
   "mentions": [
     "A110065",
@@ -10,6 +10,7 @@
     "A174176"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

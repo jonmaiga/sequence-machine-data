@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of iterations of x -> 2*x - 1 until (# composites reached) = (# primes reached), starting with prime(n).",
+  "id": "A377609",
+  "mentions": [
+    "A000040",
+    "A000051",
+    "A377610",
+    "A377611",
+    "A377612",
+    "A377613",
+    "A377614",
+    "A377615",
+    "A377616",
+    "A377617",
+    "A377618",
+    "A377619",
+    "A377620",
+    "A377621",
+    "A377622",
+    "A377623",
+    "A377624"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

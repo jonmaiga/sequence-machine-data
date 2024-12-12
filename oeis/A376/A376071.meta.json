@@ -1,0 +1,16 @@
+{
+  "description": "Number of (non-null) regular subgraphs of a complete graph having n labeled vertices.",
+  "id": "A376071",
+  "mentions": [
+    "A295193"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromic n-ary words of length n that include the last letter of their respective alphabet.",
+  "id": "A378203",
+  "mentions": [
+    "A045531",
+    "A047969",
+    "A248828",
+    "A252764",
+    "A292845"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

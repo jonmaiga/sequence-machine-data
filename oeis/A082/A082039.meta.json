@@ -1,5 +1,5 @@
 {
-  "description": "Symmetric square array defined by T(n,k)=(k^2*n^2 + kn + 1), read by antidiagonals.",
+  "description": "Symmetric square array defined by T(n,k) = k^2*n^2 + k*n + 1, read by antidiagonals.",
   "id": "A082039",
   "mentions": [
     "A002061",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 70,
+    "size": 78,
     "source": "joeis"
   }
 }

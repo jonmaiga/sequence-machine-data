@@ -1,0 +1,19 @@
+{
+  "description": "Abundant numbers k for which A323910(k) = A378643(k).",
+  "id": "A378654",
+  "mentions": [
+    "A005101",
+    "A103977",
+    "A323910",
+    "A378643"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

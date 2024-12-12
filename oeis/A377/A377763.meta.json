@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of partial functions f on [n] such that there are exactly k points in [n] that are neither in the domain of f nor in the image of f, n>=0, 0<=k<=n.",
+  "id": "A377763",
+  "mentions": [
+    "A000169",
+    "A377535"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

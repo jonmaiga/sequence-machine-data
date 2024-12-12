@@ -1,0 +1,17 @@
+{
+  "description": "Fixed points of A071786.",
+  "id": "A376858",
+  "mentions": [
+    "A033620",
+    "A071786"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,11 @@
   "description": "Diagonal sums of Euler phi function sequence array.",
   "id": "A106477",
   "mentions": [
-    "A106476"
+    "A000010",
+    "A106476",
+    "A106478",
+    "A106479",
+    "A106480"
   ],
   "tags": [
     "easy",
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

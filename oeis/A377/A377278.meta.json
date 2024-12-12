@@ -1,0 +1,23 @@
+{
+  "description": "Denominators in a harmonic triangle; q-analog of A126615, here q = 2.",
+  "id": "A377278",
+  "mentions": [
+    "A000225",
+    "A005329",
+    "A006095",
+    "A126615",
+    "A204243"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

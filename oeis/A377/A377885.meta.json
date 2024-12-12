@@ -1,0 +1,21 @@
+{
+  "description": "Cogrowth sequence of the 16-element quasihedral group SD16 = .",
+  "id": "A377885",
+  "mentions": [
+    "A007582",
+    "A047849",
+    "A071930",
+    "A377840",
+    "A377883"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

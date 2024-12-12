@@ -1,0 +1,17 @@
+{
+  "description": "Array read by antidiagonals: Start from 1 and thereafter add gnomons of terms for each t >= 2 with width a(t-1).",
+  "id": "A376181",
+  "mentions": [
+    "A001462",
+    "A376214"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

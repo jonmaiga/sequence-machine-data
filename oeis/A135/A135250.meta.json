@@ -1,17 +1,21 @@
 {
-  "description": "a(n) = number of digits in decimal expansion of A046967(n).",
+  "description": "a(n) = number of digits in the decimal expansion of A046967(n).",
   "id": "A135250",
   "mentions": [
+    "A007524",
     "A046967",
+    "A055642",
+    "A070826",
     "A135249"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

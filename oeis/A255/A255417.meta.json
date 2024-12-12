@@ -2,9 +2,12 @@
   "description": "Row 7 of Ludic array A255127.",
   "id": "A255417",
   "mentions": [
-    "A255127"
+    "A255127",
+    "A255416",
+    "A255418"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k) is the number of n X (k+1) 0..1 arrays with every row least squares fitting to a positive-slope straight line and every column least squares fitting to a zero- or positive-slope straight line, with a single point array taken as having zero slope, read by antidiagonals downward.",
+  "description": "Table T(n,k) is the number of n X (k+1) 0..1 arrays with every row least squares fitting to a positive-slope straight line and every column least squares fitting to a zero- or positive-slope straight line, with a single point array taken as having zero slope, read by downward antidiagonals.",
   "id": "A222969",
   "mentions": [
     "A222843",

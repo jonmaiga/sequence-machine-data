@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the volume of a truncated octahedron with unit edge length.",
+  "id": "A377342",
+  "mentions": [
+    "A002193",
+    "A010466",
+    "A010487",
+    "A020797",
+    "A131594",
+    "A152623",
+    "A377341"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

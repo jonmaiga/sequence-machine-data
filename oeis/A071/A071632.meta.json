@@ -1,5 +1,5 @@
 {
-  "description": "Number of terms in the set InvPhi(1024*p(n)), where p(n) is the n-th prime.",
+  "description": "Number of terms in the set InvPhi(1024*prime(n)), where prime(n) is the n-th prime.",
   "id": "A071632",
   "mentions": [
     "A000010",
@@ -8,6 +8,9 @@
     "A007617",
     "A058888",
     "A071629",
+    "A071630",
+    "A071631",
+    "A071633",
     "A071634"
   ],
   "tags": [

@@ -2,7 +2,8 @@
   "description": "Decimal expansion of two times the Catalan constant.",
   "id": "A221209",
   "mentions": [
-    "A006752"
+    "A006752",
+    "A247685"
   ],
   "tags": [
     "cons",

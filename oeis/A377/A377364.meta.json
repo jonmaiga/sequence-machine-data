@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least k such that 2n*3^k-2 is prime, or 0 if no prime is reached.",
+  "id": "A377364",
+  "mentions": [
+    "A000040",
+    "A050412",
+    "A354747",
+    "A377365",
+    "A377366",
+    "A377367"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

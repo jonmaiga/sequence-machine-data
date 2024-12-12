@@ -1,0 +1,14 @@
+{
+  "description": "Number of minors in the n-trapezohedral graph.",
+  "id": "A378695",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

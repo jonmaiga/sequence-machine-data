@@ -1,5 +1,5 @@
 {
-  "description": "3 times 10-gonal (or decagonal) numbers: 3n(4n-3).",
+  "description": "3 times 10-gonal (or decagonal) numbers: a(n) = 3*n*(4*n-3).",
   "id": "A152767",
   "mentions": [
     "A001107",

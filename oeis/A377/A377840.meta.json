@@ -1,0 +1,19 @@
+{
+  "description": "Cogrowth sequence of the 16-element group C8 X C2 = .",
+  "id": "A377840",
+  "mentions": [
+    "A007582",
+    "A377627",
+    "A377714"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -3,7 +3,11 @@
   "id": "A175218",
   "mentions": [
     "A000040",
-    "A010051"
+    "A010051",
+    "A175216",
+    "A175217",
+    "A175219",
+    "A175220"
   ],
   "tags": [
     "formulas",
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

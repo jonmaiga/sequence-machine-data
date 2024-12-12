@@ -1,10 +1,11 @@
 {
-  "description": "Maximal length of the shortest non-circular witness over all representable sets of binary vectors of length n.",
+  "description": "Least integer x such that every set of the length-n subwords of some binary word y is achievable by taking the subwords of some word of length <= x.",
   "id": "A324149",
   "mentions": [
     "A324146",
     "A324147",
-    "A324148"
+    "A324148",
+    "A375994"
   ],
   "tags": [
     "more",

@@ -1,0 +1,21 @@
+{
+  "description": "Terms c = A076467(k) such that the distinct prime factors of b = A076467(k-1) and of c-b are subsets of the prime factors of c, i.e., rad(c)/rad((c-b)*b*c) = 1.",
+  "id": "A378166",
+  "mentions": [
+    "A007947",
+    "A076467",
+    "A378164",
+    "A378165",
+    "A378167"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

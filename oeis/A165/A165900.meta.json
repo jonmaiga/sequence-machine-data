@@ -1,5 +1,5 @@
 {
-  "description": "Values of Fibonacci polynomial n^2 - n - 1.",
+  "description": "a(n) = n^2 - n - 1.",
   "id": "A165900",
   "mentions": [
     "A000045",

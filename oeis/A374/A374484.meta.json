@@ -1,0 +1,20 @@
+{
+  "description": "Index of A006899(n) in A003586.",
+  "id": "A374484",
+  "mentions": [
+    "A003586",
+    "A006899",
+    "A022330",
+    "A022331"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

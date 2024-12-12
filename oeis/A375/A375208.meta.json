@@ -1,0 +1,25 @@
+{
+  "description": "Modified Sisyphus function of order 5.",
+  "id": "A375208",
+  "mentions": [
+    "A055642",
+    "A073053",
+    "A171797",
+    "A171798",
+    "A171813",
+    "A196563",
+    "A196564",
+    "A308002",
+    "A350709"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Square array read by antidiagonals: row n lists numbers that occur exactly n times in A036038 (or A050382 or A078760 or A318762), i.e., numbers m such that the multinomial coefficient (x_1 + ... + x_k)!/(x_1! * ... * x_k!) is equal to m for exactly n integer partitions (x_1, ..., x_k).",
+  "id": "A376370",
+  "mentions": [
+    "A036038",
+    "A050382",
+    "A078760",
+    "A318762",
+    "A325472",
+    "A325593",
+    "A376369",
+    "A376371",
+    "A376372",
+    "A376373",
+    "A376374",
+    "A376375",
+    "A376376"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

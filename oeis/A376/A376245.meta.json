@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers a(1), a(2), ... such that for any n > 0, Sum_{k = 1..n} 1 / (a(k) * A376244(k)) < 1.",
+  "id": "A376245",
+  "mentions": [
+    "A376244",
+    "A376246",
+    "A376247"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

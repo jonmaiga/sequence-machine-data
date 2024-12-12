@@ -1,0 +1,14 @@
+{
+  "description": "Number of solutions to x + y == x^2 + y^2 (mod n) with x <= y.",
+  "id": "A376646",
+  "mentions": [],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

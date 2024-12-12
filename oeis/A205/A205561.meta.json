@@ -1,10 +1,13 @@
 {
-  "description": "Least positive integer k such that n divides (2k)!-(2j)! for some j in [1,k-1].",
+  "description": "Least positive integer k such that n divides (2k)! - (2j)! for some j in [1,k-1].",
   "id": "A205561",
   "mentions": [
+    "A002034",
     "A010050",
     "A204892",
-    "A205546"
+    "A205546",
+    "A378188",
+    "A378189"
   ],
   "tags": [
     "nonn"
@@ -12,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 92,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

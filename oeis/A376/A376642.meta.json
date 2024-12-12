@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the area of Moss's egg constructed from a unit-hypotenuse right isosceles triangle.",
+  "id": "A376642",
+  "mentions": [
+    "A093731",
+    "A259830",
+    "A336266",
+    "A336308"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

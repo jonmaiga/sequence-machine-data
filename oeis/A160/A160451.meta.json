@@ -1,17 +1,18 @@
 {
-  "description": "(4/3)u(u^3+6*u^2+8u-3) where u=Floor[(3n+5)/2].",
+  "description": "a(n) = (4/3)*u*(u^3+6*u^2+8*u-3) where u=floor((3*n+5)/2).",
   "id": "A160451",
   "mentions": [
     "A086302",
     "A160372"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 32,
     "source": "joeis"
   }
 }

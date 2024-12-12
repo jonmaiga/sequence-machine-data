@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that no 7-smooth number ends in k.",
+  "id": "A376303",
+  "mentions": [
+    "A002473",
+    "A376301"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

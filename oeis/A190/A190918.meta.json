@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of n copies of 1..4 introduced in order 1..4 with no element equal to another within a distance of 1",
+  "description": "Number of permutations of n copies of 1..4 introduced in order 1..4 with no element equal to another within a distance of 1.",
   "id": "A190918",
   "mentions": [
     "A000012",
@@ -8,7 +8,8 @@
     "A190923",
     "A190927",
     "A190932",
-    "A321987"
+    "A321987",
+    "A322013"
   ],
   "tags": [
     "formulas",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

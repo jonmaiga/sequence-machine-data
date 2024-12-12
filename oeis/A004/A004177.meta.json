@@ -1,14 +1,25 @@
 {
   "description": "Omit 2's from n.",
   "id": "A004177",
-  "mentions": [],
+  "mentions": [
+    "A004176",
+    "A004178",
+    "A004179",
+    "A004180",
+    "A004181",
+    "A004182",
+    "A004183",
+    "A004184",
+    "A004719"
+  ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

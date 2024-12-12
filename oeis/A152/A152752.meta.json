@@ -1,15 +1,16 @@
 {
-  "description": "Terms of A118962 that are == 9 (mod 10).",
+  "description": "Terms of A118962 that are == 9 (mod 10), in the order of appearance.",
   "id": "A152752",
   "mentions": [
-    "A118962"
+    "A118962",
+    "A273374"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 52,
+    "source": "joeis"
   }
 }

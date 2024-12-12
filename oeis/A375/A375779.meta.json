@@ -1,0 +1,18 @@
+{
+  "description": "Noll index series of Zernike polynomials converted to ANSI index.",
+  "id": "A375779",
+  "mentions": [
+    "A176988"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "Six 'Reverse and Add' steps are needed to reach a palindrome.",
+  "description": "Numbers which need six 'Reverse and Add' steps to reach a palindrome.",
   "id": "A065211",
   "mentions": [
     "A002113",
     "A015984",
+    "A033665",
     "A065206"
   ],
   "tags": [
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

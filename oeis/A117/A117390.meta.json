@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1234567890*sum(k=1,n,10^(10k-9)) + 1 is prime.",
+  "description": "Numbers k such that 1 + 1234567890*Sum_{i=1..k} 10^(10i-9) is prime.",
   "id": "A117390",
   "mentions": [],
   "tags": [

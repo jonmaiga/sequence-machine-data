@@ -1,9 +1,10 @@
 {
-  "description": "Highly composite numbers (A002473) using digits in descending order. 1 is followed by a zero.",
+  "description": "7-smooth numbers (A002473) using digits in descending order. Zero is followed by a 9.",
   "id": "A085890",
   "mentions": [
     "A002473",
-    "A085889"
+    "A085889",
+    "A158699"
   ],
   "tags": [
     "base",

@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where T(n,k) = Sum_{j=0..n} binomial(n,j) * binomial(k*n+j+1,n)/(k*n+j+1).",
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{j=0..n} binomial(n,j) * binomial(k*n+j+1,n)/(k*n+j+1).",
   "id": "A336534",
   "mentions": [
     "A006318",

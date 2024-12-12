@@ -2,6 +2,7 @@
   "description": "Number of partitions of n into parts >= 3.",
   "id": "A008483",
   "mentions": [
+    "A000010",
     "A000012",
     "A000041",
     "A002865",

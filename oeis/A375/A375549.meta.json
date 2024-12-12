@@ -1,0 +1,16 @@
+{
+  "description": "Row sums of A375550.",
+  "id": "A375549",
+  "mentions": [
+    "A375550"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

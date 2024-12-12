@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of proper antichain partitions of the rectangular poset of size n X k.",
+  "id": "A378173",
+  "mentions": [
+    "A000108",
+    "A060854",
+    "A299968",
+    "A374985"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

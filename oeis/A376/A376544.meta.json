@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of singleton commuting ordered set partitions.",
+  "id": "A376544",
+  "mentions": [
+    "A000670",
+    "A005840",
+    "A008299",
+    "A113059",
+    "A307389",
+    "A358623"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

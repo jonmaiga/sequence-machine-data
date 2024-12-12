@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that sum of the proper divisors of k is product of digits of k.",
+  "description": "Numbers k such that sum of the proper divisors of k is equal to the product of the digits of k.",
   "id": "A145746",
   "mentions": [
     "A004022",

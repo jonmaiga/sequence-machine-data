@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are abundant (A005101) and have no Zumkeller divisors.",
+  "id": "A376879",
+  "mentions": [
+    "A005101",
+    "A083207",
+    "A376880"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

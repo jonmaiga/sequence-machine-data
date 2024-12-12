@@ -1,5 +1,5 @@
 {
-  "description": "Natural numbers of the form (n!+5)/5.",
+  "description": "a(n) = (n!+5)/5.",
   "id": "A139152",
   "mentions": [
     "A007749",
@@ -26,6 +26,6 @@
   "terms": {
     "offset": 5,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

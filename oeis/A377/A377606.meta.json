@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of -30*arcsin((5 - 4*sqrt(5))/15).",
+  "id": "A377606",
+  "mentions": [
+    "A002163",
+    "A010532"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

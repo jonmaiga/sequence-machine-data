@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(C(2n+2,3)/4).",
+  "description": "a(n) = 2^(binomial(2*n+2,3)/4).",
   "id": "A185995",
   "mentions": [
     "A000330",

@@ -1,0 +1,24 @@
+{
+  "description": "Deficiency of squares: a(n) = 2n^2 - sigma(n^2).",
+  "id": "A377879",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A000290",
+    "A003961",
+    "A033879",
+    "A083064",
+    "A083884",
+    "A337339",
+    "A378231"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

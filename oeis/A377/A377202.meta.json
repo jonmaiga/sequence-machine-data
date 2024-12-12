@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} exp(-x)*erf(sqrt(x))^2 dx, where erf is the error function.",
+  "id": "A377202",
+  "mentions": [
+    "A000796",
+    "A010466",
+    "A195695",
+    "A377203"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

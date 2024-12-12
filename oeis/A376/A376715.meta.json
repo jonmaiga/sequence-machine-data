@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers in A265640.",
+  "id": "A376715",
+  "mentions": [
+    "A002808",
+    "A013929",
+    "A265640"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

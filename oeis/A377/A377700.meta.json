@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of placing n nonattacking rooks on a toroidal board of 2n^2 equilateral triangular spaces.",
+  "id": "A377700",
+  "mentions": [
+    "A002047",
+    "A006717",
+    "A062166",
+    "A067015",
+    "A342372",
+    "A375800"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

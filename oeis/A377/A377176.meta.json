@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that 7/2 is a primitive root modulo p.",
+  "id": "A377176",
+  "mentions": [
+    "A005596",
+    "A038886",
+    "A320384",
+    "A377172",
+    "A377174",
+    "A377175",
+    "A377177",
+    "A377178",
+    "A377179"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

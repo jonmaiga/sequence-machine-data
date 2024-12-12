@@ -1,5 +1,5 @@
 {
-  "description": "Smallest multiple of n having equal number of ones and zeros.",
+  "description": "Smallest multiple of n having an equal number of ones and zeros and no other digits.",
   "id": "A079793",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

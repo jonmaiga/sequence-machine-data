@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=a(2)=1, a(n) = 14*a(n-1) - a(n-2).",
+  "description": "a(n) = 14*a(n-1) - a(n-2), with a(1) = a(2) = 1.",
   "id": "A122571",
   "mentions": [
     "A001570"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

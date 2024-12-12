@@ -2,12 +2,13 @@
   "description": "a(n) = ceiling(GPF(n)/LPF(n)) where GPF is greatest prime factor, LPF is least prime factor.",
   "id": "A120454",
   "mentions": [
-    "A000040",
     "A000961",
     "A006530",
     "A020639",
+    "A024619",
     "A046665",
     "A066048",
+    "A069897",
     "A074320"
   ],
   "tags": [

@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n such that k=2n is the least k such that phi(n+k)=2*phi(k).",
+  "description": "Numbers m such that k = 2m is the least k such that phi(m+k) = 2*phi(k).",
   "id": "A110196",
   "mentions": [
+    "A000010",
     "A050473"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

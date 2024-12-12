@@ -1,5 +1,5 @@
 {
-  "description": "G.f. -x/(1+x-x^3).",
+  "description": "Expansion of g.f. -x/(1+x-x^3).",
   "id": "A104769",
   "mentions": [
     "A000931",

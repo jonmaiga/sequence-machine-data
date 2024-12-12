@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers wherein a triple exchange of 3 of the digits creates two prime numbers, neither of which has a leading zero digit.",
+  "id": "A376213",
+  "mentions": [
+    "A225035",
+    "A375965"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

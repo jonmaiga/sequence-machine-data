@@ -1,0 +1,17 @@
+{
+  "description": "Positions of records in A375202.",
+  "id": "A375203",
+  "mentions": [
+    "A375202",
+    "A375204"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

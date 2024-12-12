@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{j=0..n} binomial(n, j) * Euler(j, 0) * 10^j. Row 5 of A377666.",
+  "id": "A377665",
+  "mentions": [
+    "A377666"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

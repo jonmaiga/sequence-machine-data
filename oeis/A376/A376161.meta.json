@@ -1,0 +1,21 @@
+{
+  "description": "Number of support Tau-tilting modules for some algebras.",
+  "id": "A376161",
+  "mentions": [
+    "A000108",
+    "A005807",
+    "A007054",
+    "A016789",
+    "A023999",
+    "A329533"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

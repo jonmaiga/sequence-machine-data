@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the first k lesser of twin primes is a lesser of twin prime.",
+  "id": "A376891",
+  "mentions": [
+    "A001359",
+    "A013916",
+    "A071149",
+    "A086167",
+    "A089228",
+    "A376892"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

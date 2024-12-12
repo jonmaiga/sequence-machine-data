@@ -1,8 +1,10 @@
 {
-  "description": "Primes with index k^2+k+1.",
+  "description": "a(n) = prime(n^2 + n + 1).",
   "id": "A122566",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A054553",
+    "A054568"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

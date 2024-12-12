@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: row n is the unique primitive Pythagorean triple whose inradius is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "id": "A377725",
+  "mentions": [
+    "A002315",
+    "A377011",
+    "A377016",
+    "A377017",
+    "A377726"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

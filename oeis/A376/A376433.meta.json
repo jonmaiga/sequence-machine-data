@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-digit primes in A104179.",
+  "id": "A376433",
+  "mentions": [
+    "A104179",
+    "A376434",
+    "A376435"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

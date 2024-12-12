@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the circumradius of a snub dodecahedron with unit edge length.",
+  "id": "A377806",
+  "mentions": [
+    "A179296",
+    "A377804",
+    "A377805",
+    "A377807",
+    "A377849"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

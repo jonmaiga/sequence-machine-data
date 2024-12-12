@@ -1,11 +1,14 @@
 {
-  "description": "Sum_{k <= 10^n} number of primes (counted with multiplicity) dividing k (A001222).",
+  "description": "a(n) = Sum_{k = 1..10^n} number of primes (counted with multiplicity) dividing k (A001222).",
   "id": "A071811",
   "mentions": [
     "A001222",
-    "A064182"
+    "A022559",
+    "A064182",
+    "A083342"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

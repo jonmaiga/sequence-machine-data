@@ -1,15 +1,16 @@
 {
-  "description": "In the following triangle the n-th row begins with n and contains n-1 smallest numbers coprime to n and greater than n. Sequence gives the leading diagonal.",
+  "description": "In a triangle the n-th row begins with n and contains n-1 smallest numbers coprime to n and greater than n. Sequence gives the leading diagonal.",
   "id": "A081500",
   "mentions": [
     "A081501"
   ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

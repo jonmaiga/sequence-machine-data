@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = pi(A020482(n)) - pi(A020481(n)).",
+  "id": "A378020",
+  "mentions": [
+    "A000720",
+    "A020481",
+    "A020482",
+    "A377758",
+    "A377972"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

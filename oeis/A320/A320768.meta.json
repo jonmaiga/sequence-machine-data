@@ -1,5 +1,5 @@
 {
-  "description": "Number of set partitions of the set of nonempty subsets of {1,...,n} using set partitions.",
+  "description": "Number of set partitions of the set of nonempty subsets of {1,...,n} where each block's elements are pairwise disjoint sets.",
   "id": "A320768",
   "mentions": [
     "A000110",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

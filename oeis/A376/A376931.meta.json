@@ -1,0 +1,16 @@
+{
+  "description": "Number of points out of n points placed on a circle that can never be reached when starting at one point and then moving clockwise in incrementally increasing steps (first 1, then 2, 3, 4, ...).",
+  "id": "A376931",
+  "mentions": [
+    "A117484"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

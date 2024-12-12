@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least integer x >= 0 such that n = x^2 + y^2 + z^2 for some integers y, z, or -1 if there is no such x.",
+  "id": "A375202",
+  "mentions": [
+    "A064874",
+    "A375203",
+    "A375204"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

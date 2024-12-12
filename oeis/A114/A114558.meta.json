@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th heptagonal number is 6-almost prime.",
+  "description": "Numbers k such that the k-th heptagonal number is 6-almost prime.",
   "id": "A114558",
   "mentions": [
     "A000040",
@@ -9,12 +9,13 @@
     "A046306"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (-2*n)^n * Euler(n, (n - 1)/(2*n)) for n >= 1, and a(0) = 1. Main diagonal of A378066.",
+  "id": "A378063",
+  "mentions": [
+    "A378066"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

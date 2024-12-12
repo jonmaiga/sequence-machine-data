@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that reversal(n!-n) is prime.",
+  "description": "Numbers k such that reversal(k!-k) is prime.",
   "id": "A166850",
   "mentions": [],
   "tags": [

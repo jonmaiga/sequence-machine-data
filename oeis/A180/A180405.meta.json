@@ -2,6 +2,7 @@
   "description": "Smallest integer not yet present in the sequence such that the sum of the first a(n) terms of the sequence is a prime.",
   "id": "A180405",
   "mentions": [
+    "A054408",
     "A171007",
     "A363379"
   ],

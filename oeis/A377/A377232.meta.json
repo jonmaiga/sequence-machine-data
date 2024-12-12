@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers with binary representations corresponding to winning positions in Gordon Hamilton's Jumping Frogs game.",
+  "id": "A377232",
+  "mentions": [
+    "A004780",
+    "A030101"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,18 +1,23 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of 321-avoiding permutations of {1,2,...,n} having longest increasing subsequence of length k (1<=k<=n).",
+  "description": "Triangle read by rows: T(n,k) is the number of 321-avoiding permutations of {1,2,...,n} having longest increasing subsequence of length k (0<=k<=n).",
   "id": "A126217",
   "mentions": [
     "A000108",
-    "A001246"
+    "A000290",
+    "A001246",
+    "A001700",
+    "A071799",
+    "A132889"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 73,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

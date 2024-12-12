@@ -2,6 +2,7 @@
   "description": "Triangular numbers with sum of digits = 21.",
   "id": "A068131",
   "mentions": [
+    "A000217",
     "A068127",
     "A068128",
     "A068129",
@@ -13,7 +14,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 35,
     "source": "oeis-bfile"
   }

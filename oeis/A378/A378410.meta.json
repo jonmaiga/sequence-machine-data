@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k) * binomial(n-1,k-1) * binomial(n*k,k) / ((n-1)*k+1).",
+  "id": "A378410",
+  "mentions": [
+    "A349364",
+    "A378326",
+    "A378327",
+    "A378409"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

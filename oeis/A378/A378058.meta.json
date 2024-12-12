@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide A378056(k) = gcd(lcm{d+1 : d|k}, lcm{d-1 : d > 1 and d|k}).",
+  "id": "A378058",
+  "mentions": [
+    "A377950",
+    "A377952",
+    "A378054",
+    "A378056",
+    "A378059"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

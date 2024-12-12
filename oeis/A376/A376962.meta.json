@@ -1,0 +1,15 @@
+{
+  "description": "Number of (binary) heaps of length n whose element set equals {1,2,3}.",
+  "id": "A376962",
+  "mentions": [
+    "A373451"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

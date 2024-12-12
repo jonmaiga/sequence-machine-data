@@ -7,11 +7,12 @@
     "A330899"
   ],
   "tags": [
+    "fini",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

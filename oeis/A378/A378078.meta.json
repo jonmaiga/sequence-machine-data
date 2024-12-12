@@ -1,0 +1,18 @@
+{
+  "description": "Number of noncrossing trees with n edges and all nodes having degree at most 3.",
+  "id": "A378078",
+  "mentions": [
+    "A001764",
+    "A122871",
+    "A378079"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

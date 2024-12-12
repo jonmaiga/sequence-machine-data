@@ -1,8 +1,12 @@
 {
-  "description": "First differences of sequence {1/(n^2+1)} (numerators).",
+  "description": "Numerators of the first differences of 1/(n^2 + 1).",
   "id": "A033465",
-  "mentions": [],
+  "mentions": [
+    "A033466"
+  ],
   "tags": [
+    "formulas",
+    "frac",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the volume of a truncated cube with unit edge length.",
+  "id": "A377299",
+  "mentions": [
+    "A010503",
+    "A131594",
+    "A294968",
+    "A377296",
+    "A377298"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

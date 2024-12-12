@@ -1,5 +1,5 @@
 {
-  "description": "sum[k^6]/sum[k^2], {k, 1, A047380(n)}].",
+  "description": "a(n) = (Sum_{k=1..A047380(n)} k^6) / (Sum_{k=1..A047380(n)} k^2).",
   "id": "A133180",
   "mentions": [
     "A000330",
@@ -14,11 +14,12 @@
     "A134161"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 31,
     "source": "oeis-entry"
   }

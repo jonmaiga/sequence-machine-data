@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of n copies of 1..6 introduced in order 1..6 with no element equal to another within a distance of 1",
+  "description": "Number of permutations of n copies of 1..6 introduced in order 1..6 with no element equal to another within a distance of 1.",
   "id": "A190923",
   "mentions": [
     "A000012",
@@ -8,7 +8,8 @@
     "A190920",
     "A190927",
     "A190932",
-    "A321987"
+    "A321987",
+    "A322013"
   ],
   "tags": [
     "formulas",

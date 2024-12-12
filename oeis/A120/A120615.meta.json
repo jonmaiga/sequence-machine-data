@@ -1,9 +1,11 @@
 {
-  "description": "a(n) = Sum_{k=0..n} floor(phi*floor(n/phi)) where phi = (1+sqrt(5))/2.",
+  "description": "a(n) = Sum_{k=0..n} floor(phi*floor(k/phi)) where phi = (1+sqrt(5))/2.",
   "id": "A120615",
   "mentions": [
+    "A001622",
     "A120613",
-    "A120614"
+    "A120614",
+    "A134945"
   ],
   "tags": [
     "formulas",

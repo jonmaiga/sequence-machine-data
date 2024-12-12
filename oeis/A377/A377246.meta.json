@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (n!^2*n^(n-1)/4) * Sum_{k=4..n} A000276(k) / (n^k * (n-k)!).",
+  "id": "A377246",
+  "mentions": [
+    "A000276",
+    "A174637"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

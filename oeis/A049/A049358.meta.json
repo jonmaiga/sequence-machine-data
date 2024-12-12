@@ -2,7 +2,8 @@
   "description": "Digitally balanced numbers in base 7: equal numbers of 0's, 1's, ..., 6's.",
   "id": "A049358",
   "mentions": [
-    "A031443"
+    "A031443",
+    "A378000"
   ],
   "tags": [
     "base",

@@ -2,9 +2,11 @@
   "description": "Number of 8's in n# (n primorial) = 8's in A002110(n).",
   "id": "A079134",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A079099"
   ],
   "tags": [
+    "base",
     "easy",
     "nonn"
   ],

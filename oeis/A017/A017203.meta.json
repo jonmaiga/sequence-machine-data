@@ -1,14 +1,19 @@
 {
   "description": "a(n) = (9*n + 3)^7.",
   "id": "A017203",
-  "mentions": [],
+  "mentions": [
+    "A013665",
+    "A016783",
+    "A017197"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

@@ -2,8 +2,11 @@
   "description": "Numbers the expansion of which over distinct terms of A050376 contains the same number of primes and perfect squares.",
   "id": "A187042",
   "mentions": [
+    "A000379",
+    "A026424",
     "A050376",
-    "A187039"
+    "A187039",
+    "A378494"
   ],
   "tags": [
     "nonn"

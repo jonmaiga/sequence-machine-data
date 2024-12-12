@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 binary arrays with all 1s connected and a path of 1s from left column to lower right corner",
+  "description": "Number of nX3 binary arrays with all 1s connected and a path of 1s from left column to lower right corner.",
   "id": "A163020",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-bfile"
+    "size": 23,
+    "source": "joeis"
   }
 }

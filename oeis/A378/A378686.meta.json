@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + x*A(x)^(7/3)/(1 - x*A(x)) )^3.",
+  "id": "A378686",
+  "mentions": [
+    "A108447",
+    "A349017",
+    "A369012",
+    "A371581",
+    "A378685",
+    "A378690",
+    "A378692",
+    "A378693"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

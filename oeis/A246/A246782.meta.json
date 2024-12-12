@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A182134(n)=2, i.e., there exist only two primes p with prime(n) < p < prime(n)^(1+1/n).",
+  "description": "Numbers k such that A182134(k)=2, i.e., there exist only two primes p with prime(k) < p < prime(k)^(1+1/k).",
   "id": "A246782",
   "mentions": [
     "A000040",

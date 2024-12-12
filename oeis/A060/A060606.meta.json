@@ -1,5 +1,5 @@
 {
-  "description": "The n-th term is the sum of lengths of iteration chains to get fixed points(=1) for the Euler totient function from 1 to n.",
+  "description": "The n-th term is the sum of lengths of iteration chains to get fixed points (=1) for the Euler totient function from 1 to n.",
   "id": "A060606",
   "mentions": [
     "A000010",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Number of prime factors of n^n-n (counted with multiplicity).",
+  "id": "A377675",
+  "mentions": [
+    "A001222",
+    "A061190",
+    "A309941",
+    "A372229",
+    "A372599",
+    "A377671",
+    "A377676",
+    "A377677",
+    "A377678"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

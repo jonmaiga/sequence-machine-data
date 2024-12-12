@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! (mod nextprime(n)).",
+  "id": "A375277",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A006093",
+    "A040976",
+    "A360805",
+    "A360825"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

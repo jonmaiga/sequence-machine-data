@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have Zumkeller divisors.",
+  "id": "A376880",
+  "mentions": [
+    "A023196",
+    "A083207",
+    "A171641",
+    "A376879",
+    "A376881",
+    "A376882",
+    "A378446"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that have fewer infinitary divisors than noninfinitary divisors.",
+  "id": "A377563",
+  "mentions": [
+    "A000005",
+    "A037445",
+    "A062289",
+    "A077609",
+    "A083329",
+    "A158582",
+    "A327839",
+    "A335832",
+    "A348341",
+    "A377562"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

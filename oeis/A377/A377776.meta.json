@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A377775(n)/(2*n+1).",
+  "id": "A377776",
+  "mentions": [
+    "A000959",
+    "A377775",
+    "A377778"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

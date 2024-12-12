@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2 is the largest decimal digit of n^2.",
+  "description": "Numbers k such that 2 is the largest decimal digit of k^2.",
   "id": "A277959",
   "mentions": [
     "A011557",

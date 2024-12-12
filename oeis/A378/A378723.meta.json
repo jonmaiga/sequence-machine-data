@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: row n gives denominators of n distinct unit fractions (or Egyptian fractions) summing to 1, where denominators are listed in increasing order and the denominators from largest to smallest are as small as possible.",
+  "id": "A378723",
+  "mentions": [
+    "A073546",
+    "A216993"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

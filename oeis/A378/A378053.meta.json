@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(Product_{d|n} (d + 1), Product_{d|n, d>1} (d - 1)) = gcd(A020696(n), A377484(n)).",
+  "id": "A378053",
+  "mentions": [
+    "A000079",
+    "A002144",
+    "A002145",
+    "A020696",
+    "A377484",
+    "A378056"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

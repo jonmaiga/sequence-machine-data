@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n lists divisors of n-th Bell number.",
+  "id": "A377801",
+  "mentions": [
+    "A000110",
+    "A027750",
+    "A262349",
+    "A278973",
+    "A279623"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

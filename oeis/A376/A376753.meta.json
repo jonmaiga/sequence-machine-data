@@ -1,0 +1,18 @@
+{
+  "description": "Primes that end a run of primes in A376198.",
+  "id": "A376753",
+  "mentions": [
+    "A376198",
+    "A376201",
+    "A376750",
+    "A376754"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

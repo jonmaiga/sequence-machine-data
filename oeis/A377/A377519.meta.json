@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors of n that are terms in A207481.",
+  "id": "A377519",
+  "mentions": [
+    "A000005",
+    "A013661",
+    "A207481",
+    "A377516",
+    "A377518",
+    "A377520"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

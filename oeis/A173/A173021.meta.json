@@ -1,14 +1,16 @@
 {
-  "description": "Number of numbers <= n having in binary representation neither isolated ones nor isolated double ones.",
+  "description": "Number of numbers <= n whose binary representation is without isolated ones or isolated double ones.",
   "id": "A173021",
   "mentions": [
     "A005252",
+    "A007088",
     "A173022",
     "A173023",
     "A173024"
   ],
   "tags": [
     "base",
+    "formulas",
     "look",
     "nonn"
   ],

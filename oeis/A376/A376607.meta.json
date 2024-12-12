@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the denominator corresponding to A376606(n).",
+  "id": "A376607",
+  "mentions": [
+    "A376606"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

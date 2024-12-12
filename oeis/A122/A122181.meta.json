@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that can be written as n = x*y*z with 10).",
+  "description": "Numbers k that can be written as k = x*y*z with 1 < x < y < z (A122180(k) > 0).",
   "id": "A122181",
   "mentions": [
     "A000005",
@@ -13,11 +13,12 @@
     "A122180"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that R(k)/k is of the form m/(m + 1), where R(k) is the digital reversal of k.",
+  "id": "A376260",
+  "mentions": [
+    "A004086",
+    "A376259"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

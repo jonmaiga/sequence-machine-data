@@ -1,14 +1,18 @@
 {
-  "description": "Prime helix with extended Ulam spirals, with primes at the center. Each of these is the center of its extended Ulam spiral until it bifurcates into the next twin prime on the main diagonal with 4n^2-2n+p",
+  "description": "a(1) = 3. For n > 1, Ulam's spiral is started with a(n-1), and the primes p on the NE spoke are considered. a(n) is the minimal p that is the lesser of a twin prime pair.",
   "id": "A163586",
-  "mentions": [],
+  "mentions": [
+    "A001359",
+    "A054554",
+    "A163633"
+  ],
   "tags": [
-    "nonn",
-    "uned"
+    "formulas",
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 43,
     "source": "oeis-entry"
   }
 }

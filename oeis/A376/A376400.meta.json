@@ -1,0 +1,25 @@
+{
+  "description": "a(0) = 1, and for n > 0, a(n) = a(n-1) * A276076(a(n-1)), where A276076 is the factorial base exp-function.",
+  "id": "A376400",
+  "mentions": [
+    "A002110",
+    "A019565",
+    "A276075",
+    "A276076",
+    "A276078",
+    "A276079",
+    "A276086",
+    "A376399",
+    "A376401",
+    "A376403",
+    "A376408"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

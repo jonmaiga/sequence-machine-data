@@ -1,0 +1,16 @@
+{
+  "description": "Number of distinct ways to erect n semicircles of distinct diameters in [n] on the number line from 1 to 2n using 2 colors where all semicircles of the same color are mutually noncrossing. Two ways are regarded the same if the number line is reversed or the colors are exchanged.",
+  "id": "A375254",
+  "mentions": [
+    "A004075"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

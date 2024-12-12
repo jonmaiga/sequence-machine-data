@@ -2,13 +2,17 @@
   "description": "Least positive number k != n such that the binary trinomial 1 + 2^n + 2^k is prime, or 0 if there is no such k.",
   "id": "A133831",
   "mentions": [
+    "A040076",
     "A057196",
     "A057200",
     "A057732",
     "A059242",
+    "A067760",
     "A076336",
     "A081091",
-    "A095056"
+    "A095056",
+    "A133830",
+    "A133832"
   ],
   "tags": [
     "nonn"

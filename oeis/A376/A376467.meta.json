@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array read by rows: A063007 * A007318.",
+  "id": "A376467",
+  "mentions": [
+    "A000984",
+    "A001850",
+    "A002457",
+    "A002695",
+    "A006442",
+    "A007318",
+    "A063007",
+    "A115951",
+    "A118384",
+    "A277660"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

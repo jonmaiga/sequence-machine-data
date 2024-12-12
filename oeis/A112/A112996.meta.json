@@ -1,5 +1,5 @@
 {
-  "description": "A table distributing the values 1 2 5 14 43 144 523 2048 38486 182905 ... A047970 based on row sums of sub-tables counting permutations of partitions.",
+  "description": "A table distributing the values 1 2 5 14 43 144 523 2048 38486 182905 ... A047970 based on row sums of subtables counting permutations of partitions.",
   "id": "A112996",
   "mentions": [
     "A001787",

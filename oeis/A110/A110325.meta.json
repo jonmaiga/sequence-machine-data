@@ -2,6 +2,7 @@
   "description": "Row sums of number triangle related to the Jacobsthal numbers.",
   "id": "A110325",
   "mentions": [
+    "A005408",
     "A014106",
     "A110324"
   ],

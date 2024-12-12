@@ -1,10 +1,12 @@
 {
-  "description": "Number of 1's required to build n using +, -, *, ^ and parentheses.",
+  "description": "Number of 1's required to build n using +, -, *, ^, and parentheses.",
   "id": "A091334",
   "mentions": [
     "A005245",
     "A025280",
-    "A091333"
+    "A091333",
+    "A348089",
+    "A348262"
   ],
   "tags": [
     "nonn"

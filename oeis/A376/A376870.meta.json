@@ -1,0 +1,19 @@
+{
+  "description": "Reduced numerators of Newton's iteration for 1/sqrt(3), starting with 1/3.",
+  "id": "A376870",
+  "mentions": [
+    "A020760",
+    "A134799",
+    "A376867"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

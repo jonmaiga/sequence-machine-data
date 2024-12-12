@@ -1,0 +1,28 @@
+{
+  "description": "The number of n-colorings of the vertices of the truncated icosidodecahedron up to rotation and reflection.",
+  "id": "A378477",
+  "mentions": [
+    "A000332",
+    "A060530",
+    "A128766",
+    "A199406",
+    "A252704",
+    "A252705",
+    "A274900",
+    "A337963",
+    "A378473",
+    "A378474",
+    "A378475",
+    "A378476",
+    "A378478"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

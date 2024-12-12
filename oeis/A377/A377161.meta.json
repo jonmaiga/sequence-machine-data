@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the numerator of the probability that a self-avoiding random walk on the cubic lattice is trapped after n steps.",
+  "id": "A377161",
+  "mentions": [
+    "A001412",
+    "A077817",
+    "A077818",
+    "A077819",
+    "A077820",
+    "A377162"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 11,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

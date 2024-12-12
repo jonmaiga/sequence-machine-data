@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi^5/90.",
+  "id": "A378408",
+  "mentions": [
+    "A000796",
+    "A013662",
+    "A092731",
+    "A279037"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

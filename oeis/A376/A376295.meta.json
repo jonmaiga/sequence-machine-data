@@ -1,0 +1,19 @@
+{
+  "description": "The binary expansion of a(n) is the reversal of the concatenation of the binary expansions of 1,...,n.",
+  "id": "A376295",
+  "mentions": [
+    "A030101",
+    "A047778"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

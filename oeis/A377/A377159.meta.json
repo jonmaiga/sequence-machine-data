@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(k+7,7) * binomial(k,n-k)^2.",
+  "id": "A377159",
+  "mentions": [
+    "A051286",
+    "A089627",
+    "A182884",
+    "A377145",
+    "A377148",
+    "A377152",
+    "A377153",
+    "A377158"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0, a(n) = Sum_{digits d in a(n-1)} c(d,n-1), where c(d,k) is the number of digits d in a(1..k).",
+  "id": "A378359",
+  "mentions": [
+    "A279818"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

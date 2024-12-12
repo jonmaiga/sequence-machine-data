@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{k>=2} (1 - 1/A047233(k)^2).",
+  "id": "A378096",
+  "mentions": [
+    "A001318",
+    "A007310",
+    "A047233"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

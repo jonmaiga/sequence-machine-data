@@ -1,5 +1,5 @@
 {
-  "description": "3 times octagonal numbers: 3*n*(3*n-2).",
+  "description": "3 times octagonal numbers: a(n) = 3*n*(3*n-2).",
   "id": "A152751",
   "mentions": [
     "A000567",

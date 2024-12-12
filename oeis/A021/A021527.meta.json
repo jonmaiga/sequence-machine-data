@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 1/523.",
   "id": "A021527",
-  "mentions": [],
+  "mentions": [
+    "A021200"
+  ],
   "tags": [
     "cons",
     "nonn"

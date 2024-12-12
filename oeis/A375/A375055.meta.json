@@ -1,0 +1,24 @@
+{
+  "description": "Nonsquarefree numbers k divisible by at least 3 distinct primes.",
+  "id": "A375055",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A013929",
+    "A024619",
+    "A123712",
+    "A126706",
+    "A178212",
+    "A182855"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) is the number of nonisomorphic n-element self-dual posets (or partially ordered sets) with k arcs in the Hasse diagram, irregular triangle read by rows.",
+  "id": "A376633",
+  "mentions": [
+    "A000112",
+    "A022016",
+    "A022017",
+    "A133983",
+    "A342447"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

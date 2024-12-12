@@ -2,6 +2,7 @@
   "description": "Semiprimes of the form 2^k + k.",
   "id": "A089535",
   "mentions": [
+    "A001358",
     "A006127",
     "A085745",
     "A089536",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 11,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

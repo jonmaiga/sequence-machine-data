@@ -2,6 +2,7 @@
   "description": "Exponential Riordan array [exp(sinh(x)*exp(x)), sinh(x)*exp(x)].",
   "id": "A154602",
   "mentions": [
+    "A000007",
     "A004211",
     "A055882",
     "A084938",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

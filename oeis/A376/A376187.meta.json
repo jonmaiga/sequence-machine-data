@@ -1,0 +1,19 @@
+{
+  "description": "For a line L in the plane, let C(L) denote the number of prime points [k, prime(k)] on L, and let M(L) denote the maximum prime(k) for any of these points; a(n) = minimum M(L) over all lines with C(L) = n, or -1 if there is no such line.",
+  "id": "A376187",
+  "mentions": [
+    "A005115",
+    "A373813",
+    "A376188",
+    "A376190"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the smallest positive real solution to Gamma(1+z) = Gamma(1-z).",
+  "id": "A377302",
+  "mentions": [
+    "A377297"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

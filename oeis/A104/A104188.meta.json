@@ -1,7 +1,10 @@
 {
-  "description": "a(n) = 4n*(4n - 1).",
+  "description": "a(n) = 4*n*(4*n - 1).",
   "id": "A104188",
-  "mentions": [],
+  "mentions": [
+    "A004767",
+    "A008586"
+  ],
   "tags": [
     "easy",
     "formulas",

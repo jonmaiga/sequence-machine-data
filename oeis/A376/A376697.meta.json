@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary words of length 2^n-1 with at least n \"0\" between any two \"1\" digits.",
+  "id": "A376697",
+  "mentions": [
+    "A000225",
+    "A141539",
+    "A376033",
+    "A376091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

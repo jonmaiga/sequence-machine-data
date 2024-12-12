@@ -1,11 +1,12 @@
 {
-  "description": "27*n^2.",
+  "description": "a(n) = 27*n^2.",
   "id": "A244634",
   "mentions": [
     "A000290",
     "A016766",
     "A033428",
-    "A244630"
+    "A244630",
+    "A305548"
   ],
   "tags": [
     "easy",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 42,
     "source": "joeis"
   }
 }

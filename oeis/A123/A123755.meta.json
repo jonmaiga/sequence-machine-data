@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1. a(n) = number of earlier terms which are divisible by (the number of 1's in the binary representation of n).",
+  "description": "a(0) = 1. a(n) = number of earlier terms which are divisible by (the number of 1's in the binary representation of n).",
   "id": "A123755",
   "mentions": [
     "A123756",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

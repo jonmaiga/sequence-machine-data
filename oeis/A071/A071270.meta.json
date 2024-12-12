@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^2*(2*n^2+1)/3.",
+  "description": "a(n) = n^2*(2*n^2 + 1)/3.",
   "id": "A071270",
   "mentions": [
     "A000217",

@@ -1,9 +1,11 @@
 {
-  "description": "Square pyramidal number (A000330) n(n+1)(2n+1)/6 is squarefree.",
+  "description": "Numbers k such that A000330(k) is squarefree.",
   "id": "A119356",
   "mentions": [
     "A000330",
-    "A005117"
+    "A005117",
+    "A172186",
+    "A206256"
   ],
   "tags": [
     "nonn"

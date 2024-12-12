@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 144*n^2 - 127*n + 28.",
   "id": "A156719",
-  "mentions": [],
+  "mentions": [
+    "A156711"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "The number of non-unitary prime divisors of the cubefree numbers.",
+  "id": "A376366",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A056170",
+    "A088453",
+    "A369427",
+    "A376362",
+    "A376365"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

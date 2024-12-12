@@ -2,9 +2,12 @@
   "description": "Number of 1's required to build n using +, -, *, /, and ^.",
   "id": "A348089",
   "mentions": [
+    "A005245",
+    "A025280",
     "A091333",
     "A091334",
-    "A348069"
+    "A348069",
+    "A348262"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1; a(n+1) = a(n) + floor(harmonic mean of previous terms).",
+  "id": "A375606",
+  "mentions": [
+    "A065094",
+    "A114829"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

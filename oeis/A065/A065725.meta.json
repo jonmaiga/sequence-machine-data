@@ -2,6 +2,7 @@
   "description": "Primes p such that the decimal expansion of its base-7 conversion is also prime.",
   "id": "A065725",
   "mentions": [
+    "A036961",
     "A065361",
     "A065720",
     "A065727"

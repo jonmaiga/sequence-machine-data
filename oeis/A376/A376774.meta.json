@@ -1,0 +1,24 @@
+{
+  "description": "Indices of records in A376772.",
+  "id": "A376774",
+  "mentions": [
+    "A302656",
+    "A376769",
+    "A376772",
+    "A376773",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377906",
+    "A377911"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

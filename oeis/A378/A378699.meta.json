@@ -1,0 +1,18 @@
+{
+  "description": "Number of proper prime powers between powerful numbers that are not prime powers.",
+  "id": "A378699",
+  "mentions": [
+    "A001694",
+    "A246547",
+    "A286708"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

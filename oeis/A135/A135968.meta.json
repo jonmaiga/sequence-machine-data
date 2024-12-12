@@ -1,5 +1,5 @@
 {
-  "description": "Sum of prime factors of the Fibonacci number A050937(n).",
+  "description": "Sum of the distinct prime factors of the Fibonacci number A050937(n).",
   "id": "A135968",
   "mentions": [
     "A000045",
@@ -26,7 +26,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

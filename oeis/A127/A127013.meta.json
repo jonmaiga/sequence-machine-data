@@ -1,12 +1,12 @@
 {
-  "description": "Triangle read by rows: reversal of A126988.",
+  "description": "Triangle read by rows: row reversal of A126988.",
   "id": "A127013",
   "mentions": [
     "A000203",
     "A126988"
   ],
   "tags": [
-    "formulas",
+    "easy",
     "nonn",
     "tabl"
   ],

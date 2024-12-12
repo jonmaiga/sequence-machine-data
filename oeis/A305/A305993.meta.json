@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which all cyclic shifts of their base-3 expansions give base-3 expansions of prime numbers.",
+  "description": "Base-3 circular primes: Numbers k for which all cyclic shifts of their base-3 expansions give base-3 expansions of prime numbers.",
   "id": "A305993",
   "mentions": [
     "A068652",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Hypotenuses for which there exists a unique integer-sided triangle.",
+  "description": "Hypotenuses for which there exists a unique integer-sided right triangle.",
   "id": "A084645",
   "mentions": [
     "A002144",

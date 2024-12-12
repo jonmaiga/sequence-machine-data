@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that neither p-1 nor p+1 are in A126706.",
+  "id": "A378108",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A126706",
+    "A141453",
+    "A303554"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

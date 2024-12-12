@@ -1,14 +1,16 @@
 {
-  "description": "Expansion of 1/((1-6x)(1-10x)).",
+  "description": "Expansion of 1/((1-6*x)*(1-10*x)).",
   "id": "A016173",
-  "mentions": [],
+  "mentions": [
+    "A016129"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

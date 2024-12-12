@@ -1,0 +1,21 @@
+{
+  "description": "Index in A375564 where n-th group of successive primes ends.",
+  "id": "A376196",
+  "mentions": [
+    "A375564",
+    "A376192",
+    "A376193",
+    "A376195",
+    "A376197"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

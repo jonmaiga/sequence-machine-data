@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of maximal chains in the poset of all k-ary words of length <= n, ordered by B covers A iff A_i <= B_{i+k} for all i in A and some k >= 0.",
+  "id": "A378588",
+  "mentions": [
+    "A034841",
+    "A143672",
+    "A282698",
+    "A317145",
+    "A378382",
+    "A378608"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

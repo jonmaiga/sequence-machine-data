@@ -15,16 +15,16 @@
     "A321721",
     "A321722",
     "A321723",
-    "A321724"
+    "A321724",
+    "A321725"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

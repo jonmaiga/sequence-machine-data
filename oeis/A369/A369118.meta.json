@@ -1,5 +1,5 @@
 {
-  "description": "k is term if and only if k is a composite number where the bases and the exponents of its factors in the prime decomposition are all odd primes.",
+  "description": "k is a term if and only if k is a composite number where the bases and the exponents of its factors in the prime decomposition are all odd primes.",
   "id": "A369118",
   "mentions": [
     "A001597",

@@ -1,5 +1,5 @@
 {
-  "description": "Highly composite odd numbers (1): where d(n) increases to a record.",
+  "description": "Highly composite odd numbers: odd numbers where d(n) increases to a record.",
   "id": "A053624",
   "mentions": [
     "A000005",

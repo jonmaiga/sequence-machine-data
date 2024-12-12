@@ -1,0 +1,16 @@
+{
+  "description": "Number T(n,k) of binary words of length n avoiding distance (i+1) between \"1\" digits if the i-th bit is set in the binary representation of k; triangle T(n,k), n>=0, 0<=k<=ceiling(2^(n-1))-1, read by rows.",
+  "id": "A376921",
+  "mentions": [
+    "A376033"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

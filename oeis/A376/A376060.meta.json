@@ -1,0 +1,26 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers a(0), a(1), a(2), a(3), ... such that for any n > 0, S(n) = Sum_{k = 0..n-1} Catalan(k)/a(k) < 1.",
+  "id": "A376060",
+  "mentions": [
+    "A000108",
+    "A374663",
+    "A375516",
+    "A375522",
+    "A375531",
+    "A375532",
+    "A375781",
+    "A376048",
+    "A376059",
+    "A376061"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

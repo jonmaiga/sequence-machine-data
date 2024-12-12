@@ -1,0 +1,23 @@
+{
+  "description": "The largest divisor of n that is a term in A276078.",
+  "id": "A377515",
+  "mentions": [
+    "A000720",
+    "A276078",
+    "A327937",
+    "A377516",
+    "A377517",
+    "A377518"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

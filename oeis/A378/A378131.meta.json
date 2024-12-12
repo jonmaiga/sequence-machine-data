@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of sqrt(1 + sqrt(3))*L/(Pi*12^(1/8)), where L is the lemniscate constant (A062539).",
+  "id": "A378131",
+  "mentions": [
+    "A000796",
+    "A062539",
+    "A068465",
+    "A090388",
+    "A377999",
+    "A378128",
+    "A378129",
+    "A378130",
+    "A378132"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

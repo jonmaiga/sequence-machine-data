@@ -1,0 +1,29 @@
+{
+  "description": "Number of permutations of order n avoiding consecutive pattern 121'3.",
+  "id": "A376694",
+  "mentions": [
+    "A117156",
+    "A177470",
+    "A177471",
+    "A177472",
+    "A177473",
+    "A177475",
+    "A177476",
+    "A177477",
+    "A177478",
+    "A177479",
+    "A177480",
+    "A177481",
+    "A177482",
+    "A177483",
+    "A177484"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

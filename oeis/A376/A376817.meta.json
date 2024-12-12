@@ -1,0 +1,19 @@
+{
+  "description": "Irregular table read by rows: row(n) lists the positive numbers k in each base n such that the sum of its digits when written in all bases 2 to n equals k, or -1 if no such number exists.",
+  "id": "A376817",
+  "mentions": [
+    "A004209",
+    "A007953",
+    "A376816"
+  ],
+  "tags": [
+    "base",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

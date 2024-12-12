@@ -1,16 +1,17 @@
 {
-  "description": "Triangle T(n,k) = 4*binomial(n,k)^2-3, read by rows, 0<=k<=n.",
+  "description": "Triangle T(n,k) = 4*binomial(n,k)^2 - 3, read by rows, 0<=k<=n.",
   "id": "A141596",
   "mentions": [
     "A109128"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 58,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

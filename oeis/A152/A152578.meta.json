@@ -1,8 +1,9 @@
 {
-  "description": "Numbers of the form 5^(2^n) + 2.",
+  "description": "a(n) = 5^(2^(n-1)) + 2.",
   "id": "A152578",
   "mentions": [],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

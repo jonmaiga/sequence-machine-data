@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T read by rows: T(n, k) = (n^2 - 2*n + 3 - (-1)^n + n^2 mod 8) / 2 + 4*k.",
+  "id": "A376468",
+  "mentions": [
+    "A000027",
+    "A001844",
+    "A074147",
+    "A367844"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

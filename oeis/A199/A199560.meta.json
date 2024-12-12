@@ -1,8 +1,9 @@
 {
-  "description": "(3*9^n+1)/2.",
+  "description": "a(n) = (3*9^n + 1)/2.",
   "id": "A199560",
   "mentions": [
-    "A066443"
+    "A066443",
+    "A199561"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

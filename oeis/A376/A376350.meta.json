@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(1 - x^2*A(x)^2)^(x*A(x)).",
+  "id": "A376350",
+  "mentions": [
+    "A001761",
+    "A184949",
+    "A353226",
+    "A371147"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

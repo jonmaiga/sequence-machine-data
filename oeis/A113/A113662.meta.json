@@ -1,5 +1,5 @@
 {
-  "description": "Self-convolution of A000699.",
+  "description": "G.f. satisfies: A(x) = (1 + x*(d/dx x*A(x)) )^2.",
   "id": "A113662",
   "mentions": [
     "A000699",

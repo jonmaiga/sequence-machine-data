@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n - A276076(A276075(n)), where A276075 and A276076 are factorial base log and exp-functions.",
+  "id": "A376417",
+  "mentions": [
+    "A007623",
+    "A276075",
+    "A276076",
+    "A276078",
+    "A276079",
+    "A376418"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

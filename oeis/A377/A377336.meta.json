@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) is the number of fully symmetric, k-celled, n-dimensional polyhypercubes; n >= 0, k >= 1.",
+  "id": "A377336",
+  "mentions": [
+    "A013609",
+    "A142886",
+    "A171977",
+    "A330891",
+    "A376791"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

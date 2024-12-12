@@ -2,9 +2,12 @@
   "description": "Sequence array of Euler phi function.",
   "id": "A106476",
   "mentions": [
+    "A000010",
     "A002088",
     "A106477",
-    "A106479"
+    "A106478",
+    "A106479",
+    "A106480"
   ],
   "tags": [
     "easy",
@@ -14,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 102,
+    "size": 105,
     "source": "joeis"
   }
 }

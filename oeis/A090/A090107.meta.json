@@ -1,5 +1,5 @@
 {
-  "description": "Values of n such that P[n]=n^2-79n+1601 is prime and also {P[n+1],...,P[n+10-1]} are prime numbers. Namely: a(n)= the first argument providing 10 \"polynomially consecutive\" primes with respect of polynomial=x^2-79x+1601 described by Escott in 1899.",
+  "description": "Values of k such that {P(k), P(k+1), ..., P(k+9)} are all prime numbers, where P(k) = k^2 - 79*k + 1601.",
   "id": "A090107",
   "mentions": [
     "A055561",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

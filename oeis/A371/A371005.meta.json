@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x/(2*exp(x) - 1) ).",
   "id": "A371005",
   "mentions": [
+    "A000272",
     "A371006"
   ],
   "tags": [

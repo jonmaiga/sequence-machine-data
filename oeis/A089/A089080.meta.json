@@ -2,9 +2,12 @@
   "description": "Sequence is S(infinity) where S(1)={1,2} and S(n)=S(n-1)S'(n-1), where S'(k) is obtained from S(k) by replacing the single 1 with the least integer not occurring in S(k).",
   "id": "A089080",
   "mentions": [
-    "A085058"
+    "A085058",
+    "A094267",
+    "A208147"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

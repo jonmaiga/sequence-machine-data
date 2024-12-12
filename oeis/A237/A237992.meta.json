@@ -1,5 +1,5 @@
 {
-  "description": "Numbers which can be decomposed as pq + qr + rp (where p < q < r are distinct primes) in more ways than any smaller number.",
+  "description": "Numbers which can be decomposed as p*q + q*r + r*p (where p < q < r are distinct primes) in more ways than any smaller number.",
   "id": "A237992",
   "mentions": [
     "A087053",

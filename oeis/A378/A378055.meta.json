@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k | A378053(k) and (k+1) | A378053(k+1).",
+  "id": "A378055",
+  "mentions": [
+    "A020696",
+    "A355332",
+    "A377484",
+    "A377949",
+    "A378053",
+    "A378054",
+    "A378059"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

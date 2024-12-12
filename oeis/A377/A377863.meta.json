@@ -1,0 +1,17 @@
+{
+  "description": "Numbers missing from A377862.",
+  "id": "A377863",
+  "mentions": [
+    "A377862",
+    "A377896"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

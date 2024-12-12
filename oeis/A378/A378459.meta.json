@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k such that the concatenation of 2^n-1 and 2^k-1 is prime, or -1 if there is no such k.",
+  "id": "A378459",
+  "mentions": [
+    "A378288"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

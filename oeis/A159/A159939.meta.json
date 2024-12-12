@@ -1,5 +1,5 @@
 {
-  "description": "Odd solutions of phi(sigma(n)) = sigma(phi(n)).",
+  "description": "Odd solutions of phi(sigma(k)) = sigma(phi(k)).",
   "id": "A159939",
   "mentions": [
     "A000010",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

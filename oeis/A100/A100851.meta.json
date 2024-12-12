@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = 2^n * 3^k, 0<=k<=n.",
+  "description": "Triangle read by rows: T(n,k) = 2^n * 3^k, 0 <= k <= n, n >= 0.",
   "id": "A100851",
   "mentions": [
     "A000079",
@@ -9,17 +9,22 @@
     "A005010",
     "A007283",
     "A016129",
+    "A016149",
+    "A051958",
+    "A053524",
     "A065333",
-    "A100852"
+    "A100852",
+    "A248337"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
+    "size": 55,
     "source": "joeis"
   }
 }

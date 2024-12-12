@@ -1,8 +1,17 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with values 0..3 introduced in row major order and each element equal to no more than two horizontal and vertical neighbors",
+  "description": "T(n,k) is the number of n X k 0..3 arrays with values 0..3 introduced in row major order and each element equal to no more than two horizontal and vertical neighbors.",
   "id": "A200801",
   "mentions": [
-    "A007581"
+    "A007581",
+    "A198528",
+    "A199655",
+    "A200780",
+    "A200794",
+    "A200795",
+    "A200796",
+    "A200797",
+    "A200798",
+    "A200799"
   ],
   "tags": [
     "nonn",

@@ -1,0 +1,24 @@
+{
+  "description": "The number of distinct prime factors of the cubefree numbers.",
+  "id": "A376365",
+  "mentions": [
+    "A001221",
+    "A004709",
+    "A059956",
+    "A072047",
+    "A077761",
+    "A376361",
+    "A376363",
+    "A376366"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

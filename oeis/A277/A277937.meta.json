@@ -1,7 +1,9 @@
 {
   "description": "Number of runs of 1's of length 1 in the binary expansion of n.",
   "id": "A277937",
-  "mentions": [],
+  "mentions": [
+    "A292342"
+  ],
   "tags": [
     "formulas",
     "nonn"

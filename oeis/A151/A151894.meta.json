@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! + second prime after n! is prime.",
+  "description": "Numbers k such that k! + second prime after k! is prime.",
   "id": "A151894",
   "mentions": [
     "A002981",
@@ -8,11 +8,12 @@
     "A151903"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

@@ -2,15 +2,16 @@
   "description": "Prime numbers in which the sum of the external digits = the sum of the internal digits.",
   "id": "A088290",
   "mentions": [
-    "A076167"
+    "A076167",
+    "A101317"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

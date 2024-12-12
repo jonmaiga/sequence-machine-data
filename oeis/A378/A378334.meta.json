@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-node connected sensed planar maps with an external face, whose internal faces are triangles and which is rooted at a node on the external face.",
+  "id": "A378334",
+  "mentions": [
+    "A377785",
+    "A378335",
+    "A378339",
+    "A378340"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

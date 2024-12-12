@@ -1,0 +1,22 @@
+{
+  "description": "Number of subgroups of S_n isomorphic to S_3, where S_n is the n-th symmetric group.",
+  "id": "A378279",
+  "mentions": [
+    "A000085",
+    "A281097",
+    "A378163",
+    "A378280",
+    "A378281"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

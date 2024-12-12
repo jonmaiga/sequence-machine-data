@@ -2,9 +2,11 @@
   "description": "Primes of the form (k! + 3)/3.",
   "id": "A089131",
   "mentions": [
-    "A089085"
+    "A089085",
+    "A139150"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

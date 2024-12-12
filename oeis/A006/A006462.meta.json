@@ -5,11 +5,12 @@
     "A006461"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

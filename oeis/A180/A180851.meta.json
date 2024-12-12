@@ -1,8 +1,12 @@
 {
-  "description": "Sum of divisors as increasing powers.",
+  "description": "Sum of increasing powers of divisors: a(n) = Sum_{i=1..q} d(i)^i where d(1) < d(2) < ... < d(q) are the divisors of n.",
   "id": "A180851",
   "mentions": [
-    "A027750"
+    "A027750",
+    "A055225",
+    "A180852",
+    "A264786",
+    "A344459"
   ],
   "tags": [
     "easy",

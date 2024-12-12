@@ -7,11 +7,12 @@
     "A096919"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 95,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

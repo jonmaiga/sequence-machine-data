@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that 2^m == 2 (mod m-th triangular number).",
+  "id": "A375793",
+  "mentions": [
+    "A000217",
+    "A216822",
+    "A217465",
+    "A217466",
+    "A272934",
+    "A289382",
+    "A375792"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

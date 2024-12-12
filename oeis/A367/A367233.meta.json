@@ -2,9 +2,12 @@
   "description": "G.f. satisfies A(x) = 1 + x*A(x)^3 / (1 - x*A(x))^3.",
   "id": "A367233",
   "mentions": [
+    "A108447",
     "A161797",
     "A365113",
-    "A365150"
+    "A365150",
+    "A367232",
+    "A367235"
   ],
   "tags": [
     "formulas",
@@ -13,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

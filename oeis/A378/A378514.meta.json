@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of 2^n-1 into two summands >= 0 having a common divisor > 1.",
+  "id": "A378514",
+  "mentions": [
+    "A000010",
+    "A000043",
+    "A000079",
+    "A000225",
+    "A000325",
+    "A000668",
+    "A002275",
+    "A007088",
+    "A055642",
+    "A056742",
+    "A082023",
+    "A378511"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

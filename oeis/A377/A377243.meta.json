@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of sqrt(1 - 4*x*sqrt(1 - 4*x)).",
+  "id": "A377243",
+  "mentions": [
+    "A377244"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "An alternating sequence of a difference type: a(0)=-1, a(1)=0, a(2)=1, a(n) = a(n-1) - 2*a(n-2) + a(n-3).",
+  "description": "a(0)=-1, a(1)=0, a(2)=1, a(n) = a(n-1) - 2*a(n-2) + a(n-3).",
   "id": "A141576",
   "mentions": [
     "A000931",
-    "A078019"
+    "A078019",
+    "A141577"
   ],
   "tags": [
     "easy",

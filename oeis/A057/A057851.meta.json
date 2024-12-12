@@ -1,11 +1,10 @@
 {
-  "description": "Primes p such that order of primeness A049076(p) is > 9.",
+  "description": "Primes p whose order of primeness A078442(p) is at least 9.",
   "id": "A057851",
   "mentions": [
     "A000040",
     "A006450",
     "A038580",
-    "A049076",
     "A049090",
     "A049202",
     "A049203",
@@ -13,6 +12,7 @@
     "A057849",
     "A057850",
     "A058332",
+    "A078442",
     "A093047"
   ],
   "tags": [

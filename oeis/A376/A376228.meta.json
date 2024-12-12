@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (6*n+1) * (2*n)!^3 / n!^6.",
+  "id": "A376228",
+  "mentions": [
+    "A002897"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

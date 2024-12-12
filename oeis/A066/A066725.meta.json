@@ -1,8 +1,9 @@
 {
-  "description": "Primes p the product of whose digits increased by one is prime.",
+  "description": "Primes whose product of digits + 1 is also prime.",
   "id": "A066725",
   "mentions": [
     "A011540",
+    "A081988",
     "A084354"
   ],
   "tags": [

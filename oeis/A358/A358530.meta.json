@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = n-th prime p(k) such that p(k) - p(k-1) < p(k-1) - p(k-2).",
+  "description": "a(n) = n-th prime prime(k) such that prime(k) - prime(k-1) < prime(k-1) - prime(k-2).",
   "id": "A358530",
   "mentions": [
     "A001223",
     "A051634",
     "A079419",
+    "A151800",
     "A181424",
     "A356347",
     "A358528",
@@ -19,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

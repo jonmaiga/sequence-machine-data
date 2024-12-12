@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of 2/L, where L is the lemniscate constant (A062539).",
+  "id": "A378128",
+  "mentions": [
+    "A010466",
+    "A062539",
+    "A085565",
+    "A175575",
+    "A377999",
+    "A378129",
+    "A378130",
+    "A378131",
+    "A378132"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

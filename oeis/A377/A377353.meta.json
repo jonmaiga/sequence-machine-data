@@ -1,0 +1,18 @@
+{
+  "description": "The smallest deficient number that begins a run of at least n consecutive deficient numbers with the same number of prime factors (counted with multiplicity).",
+  "id": "A377353",
+  "mentions": [
+    "A001222",
+    "A005100"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

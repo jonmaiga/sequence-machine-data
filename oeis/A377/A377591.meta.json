@@ -1,0 +1,22 @@
+{
+  "description": "Powerful numbers k that are not prime powers such that there exist no numbers m such that rad(m) | k and Omega(m) > Omega(k), where rad = A007947 and Omega = A001222.",
+  "id": "A377591",
+  "mentions": [
+    "A001222",
+    "A001694",
+    "A007947",
+    "A286708",
+    "A363217",
+    "A376846",
+    "A377590"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

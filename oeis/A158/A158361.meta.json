@@ -1,5 +1,5 @@
 {
-  "description": "Primes p with property that Q=p^4+2^4 is prime.",
+  "description": "Primes p with property that Q = p^4 + 2^4 is prime.",
   "id": "A158361",
   "mentions": [
     "A062324",

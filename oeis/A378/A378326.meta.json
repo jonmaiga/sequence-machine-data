@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n-1,k-1) * binomial(n*k,k) / ((n-1)*k+1).",
+  "id": "A378326",
+  "mentions": [
+    "A002212",
+    "A307678",
+    "A349331",
+    "A349332",
+    "A349333",
+    "A349334",
+    "A349335",
+    "A377098",
+    "A378325",
+    "A378327"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

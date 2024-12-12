@@ -1,11 +1,12 @@
 {
-  "description": "G.f. 2*(1+x)^2/(1-2*x+sqrt(1-8*x)).",
+  "description": "Expansion of o.g.f. 2*(1+x)^2/(1-2*x+sqrt(1-8*x)).",
   "id": "A182959",
   "mentions": [
     "A000108",
     "A001450",
     "A167422",
-    "A182960"
+    "A182960",
+    "A372215"
   ],
   "tags": [
     "easy",

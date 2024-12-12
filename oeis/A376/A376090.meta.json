@@ -1,0 +1,16 @@
+{
+  "description": "Positive numbers k such that the decimal expansions of k and 1/k have distinct nonzero digits.",
+  "id": "A376090",
+  "mentions": [
+    "A376089"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

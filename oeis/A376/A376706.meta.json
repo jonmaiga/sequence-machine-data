@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = largest 4-brilliant number (A376704) with n decimal digits.",
+  "id": "A376706",
+  "mentions": [
+    "A078972",
+    "A083182",
+    "A376703",
+    "A376704",
+    "A376705"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

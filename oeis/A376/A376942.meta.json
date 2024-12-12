@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: row(n) is the lexicographically earliest sequence of positive integers a(n,1), a(n,2), ... a(n,k) such that Sum_{m = n..(n+k-1)} 1/(m*a(n,m-n+1)) <= 1.",
+  "id": "A376942",
+  "mentions": [
+    "A001008",
+    "A002387",
+    "A002805",
+    "A269993",
+    "A375781",
+    "A376056"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

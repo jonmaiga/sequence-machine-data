@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the integers from 1 to n that are not antidivisors of n.",
+  "id": "A378414",
+  "mentions": [
+    "A000217",
+    "A024816",
+    "A066417"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

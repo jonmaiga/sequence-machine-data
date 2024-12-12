@@ -1,5 +1,5 @@
 {
-  "description": "Least prime p such that the continued fraction expansion of its square root contains the first n natural numbers.",
+  "description": "Least prime p such that the continued fraction expansion of its square root contains the first n natural numbers, but does not contain n+1.",
   "id": "A185808",
   "mentions": [
     "A187261"

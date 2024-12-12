@@ -1,0 +1,17 @@
+{
+  "description": "Number of quasi-orders on an n-set that are not partial orders.",
+  "id": "A376064",
+  "mentions": [
+    "A000798",
+    "A001035"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

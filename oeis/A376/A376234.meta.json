@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of log_2(1/2 + sqrt(1/4 + log_3(2))).",
+  "id": "A376234",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 150,
+    "source": "oeis-entry"
+  }
+}

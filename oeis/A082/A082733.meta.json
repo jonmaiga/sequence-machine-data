@@ -1,7 +1,11 @@
 {
   "description": "Sum of all entries in character table of the symmetric group S_n.",
   "id": "A082733",
-  "mentions": [],
+  "mentions": [
+    "A085624",
+    "A085646",
+    "A086808"
+  ],
   "tags": [
     "formulas",
     "nonn"

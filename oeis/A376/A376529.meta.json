@@ -1,0 +1,15 @@
+{
+  "description": "G.f. A(x) satisfies (1 + 9*x*A(x)^3/A(x^9)^3)^3 = 1 + 27*x*A(x)^6/A(x^3)^6.",
+  "id": "A376529",
+  "mentions": [
+    "A000041"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

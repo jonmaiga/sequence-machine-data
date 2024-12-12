@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1, for n >= 2, a(n) = -1 + floor((n*a(n - 1)) / (n + a(n - 1))).",
+  "id": "A376022",
+  "mentions": [
+    "A000217",
+    "A003056",
+    "A005408",
+    "A005448",
+    "A045943",
+    "A124011",
+    "A139482",
+    "A143208",
+    "A290768"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

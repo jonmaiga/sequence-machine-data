@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of L^4/15, where L is the lemniscate constant (A062539).",
+  "id": "A378132",
+  "mentions": [
+    "A062539",
+    "A068465",
+    "A092732",
+    "A377999",
+    "A378128",
+    "A378129",
+    "A378130",
+    "A378131"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum over all multiplicative partitions mu of n (with factors > 1) of the encoding as Product_{j in mu} prime(j).",
+  "id": "A378176",
+  "mentions": [
+    "A000040",
+    "A001055",
+    "A006450",
+    "A145519",
+    "A377853",
+    "A378175"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

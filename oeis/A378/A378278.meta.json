@@ -1,0 +1,19 @@
+{
+  "description": "Cogrowth sequence of the 20-element Frobenius group Frob20 = .",
+  "id": "A378278",
+  "mentions": [
+    "A078789",
+    "A378254",
+    "A378276"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

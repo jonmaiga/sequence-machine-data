@@ -1,0 +1,22 @@
+{
+  "description": "Powerful numbers that have no more than one odd exponent in their prime factorization.",
+  "id": "A377821",
+  "mentions": [
+    "A000290",
+    "A013661",
+    "A085541",
+    "A246551",
+    "A350389",
+    "A377820"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

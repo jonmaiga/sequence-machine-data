@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array, by antidiagonals: (row 1) = r(1) = A000040 (primes); (row n) = r(n) = prime(r(n-1)) for n>=1.",
+  "id": "A377173",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A007097",
+    "A038580",
+    "A049076",
+    "A058009",
+    "A114537",
+    "A377181"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

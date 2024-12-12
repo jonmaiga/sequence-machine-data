@@ -1,0 +1,35 @@
+{
+  "description": "Squarefree numbers k such that k + 1 is squarefree but k + 2 is not.",
+  "id": "A378458",
+  "mentions": [
+    "A000961",
+    "A006549",
+    "A007674",
+    "A007675",
+    "A013929",
+    "A057820",
+    "A065474",
+    "A067535",
+    "A073247",
+    "A081221",
+    "A120327",
+    "A179384",
+    "A206256",
+    "A236575",
+    "A373415",
+    "A377046",
+    "A378033",
+    "A378039",
+    "A378086",
+    "A378369",
+    "A378373"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

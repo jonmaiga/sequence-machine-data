@@ -1,5 +1,5 @@
 {
-  "description": "Array read by ascending antidiagonals: p is term of row A(n) if and only if p is a prime and p is a quadratic residue modulo prime(n).",
+  "description": "Array read by ascending antidiagonals: p is a term of row A(n) if and only if p is a prime and p is a quadratic residue modulo prime(n).",
   "id": "A373751",
   "mentions": [
     "A000040",

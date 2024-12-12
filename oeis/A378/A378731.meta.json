@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + x / (1 - x*A(x)^(4/3)) )^3.",
+  "id": "A378731",
+  "mentions": [
+    "A364743",
+    "A371612",
+    "A378732"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

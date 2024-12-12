@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n,k) * sigma(k,n).",
+  "id": "A377331",
+  "mentions": [
+    "A109974",
+    "A205812"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

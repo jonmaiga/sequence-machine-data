@@ -1,10 +1,16 @@
 {
-  "description": "Numbers n such that A001222(n) - A001221(n) is an odd prime.",
+  "description": "Numbers k such that A001222(k) - A001221(k) is an odd prime.",
   "id": "A260985",
   "mentions": [
     "A001221",
     "A001222",
-    "A013929"
+    "A013929",
+    "A046660",
+    "A059956",
+    "A112526",
+    "A195087",
+    "A195089",
+    "A195091"
   ],
   "tags": [
     "easy",

@@ -2,9 +2,11 @@
   "description": "Numerator of n!/3^n.",
   "id": "A212307",
   "mentions": [
+    "A000142",
     "A001316",
     "A038502",
     "A049606",
+    "A060828",
     "A125824",
     "A152656",
     "A216919"
@@ -17,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

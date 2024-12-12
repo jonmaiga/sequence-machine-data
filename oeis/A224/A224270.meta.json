@@ -1,5 +1,5 @@
 {
-  "description": "Absolute values of the numerators of the third column of ( 0 followed by (mix 0 , A001803(n))/A060818(n) ) and its successive differences.",
+  "description": "Absolute values of the numerators of the third column of ( 0 followed by (interleave 0 , A001803(n))/A060818(n) ) and its successive differences.",
   "id": "A224270",
   "mentions": [
     "A001790",

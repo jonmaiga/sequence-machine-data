@@ -1,0 +1,17 @@
+{
+  "description": "Largest primitive practical number that divides the n-th practical number - A005153(n).",
+  "id": "A378202",
+  "mentions": [
+    "A005153",
+    "A267124",
+    "A377377"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,12 @@
 {
-  "description": "13 + 12*n - n^2.",
+  "description": "a(n) = 13 + 12*n - n^2.",
   "id": "A136316",
-  "mentions": [],
+  "mentions": [
+    "A023455"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

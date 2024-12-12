@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k and k+1 are both terms in A377386.",
+  "id": "A377457",
+  "mentions": [
+    "A034968",
+    "A118363",
+    "A328205",
+    "A376795",
+    "A377272",
+    "A377385",
+    "A377386",
+    "A377455"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

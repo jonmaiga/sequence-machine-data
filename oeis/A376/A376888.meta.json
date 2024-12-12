@@ -1,0 +1,28 @@
+{
+  "description": "The sum of divisors of n that are products of factors of the form p^(k!) with multiplicities not larger than their multiplicity in n, where p is a prime and k >= 1, when the factorization of n is uniquely done using the factorial-base representation of the exponents in the prime factorization of n.",
+  "id": "A376888",
+  "mentions": [
+    "A049417",
+    "A049418",
+    "A074847",
+    "A097863",
+    "A188999",
+    "A331107",
+    "A331110",
+    "A376885",
+    "A376886",
+    "A376887"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

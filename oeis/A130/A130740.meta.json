@@ -1,14 +1,15 @@
 {
-  "description": "Numbers of the form 2^(4^n)+5.",
+  "description": "a(n) = 2^(4^n) + 5.",
   "id": "A130740",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 5,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

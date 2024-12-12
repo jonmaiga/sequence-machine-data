@@ -2,7 +2,8 @@
   "description": "Decimal expansion of a constant appearing in the solution of Polya's 2D drunkard problem.",
   "id": "A185280",
   "mentions": [
-    "A016639"
+    "A016639",
+    "A163973"
   ],
   "tags": [
     "cons",

@@ -2,6 +2,8 @@
   "description": "Largest quadratic residue modulo prime(n).",
   "id": "A088190",
   "mentions": [
+    "A007520",
+    "A080147",
     "A088191",
     "A088192",
     "A088193",
@@ -12,7 +14,8 @@
     "A088198",
     "A088199",
     "A088200",
-    "A088201"
+    "A088201",
+    "A107006"
   ],
   "tags": [
     "formulas",
@@ -21,6 +24,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

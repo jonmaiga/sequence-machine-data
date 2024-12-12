@@ -1,8 +1,9 @@
 {
-  "description": "(3*n)!*((3*n+1)/6)^n/(3*n+1).",
+  "description": "a(n) = (3*n)!*((3*n+1)/6)^n/(3*n+1).",
   "id": "A216729",
   "mentions": [],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

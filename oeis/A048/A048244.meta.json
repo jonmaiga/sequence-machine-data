@@ -1,5 +1,5 @@
 {
-  "description": "A048106 is applied to A001405: the terms indicate whether more, equal or fewer unitary than non-unitary divisors of the central binomial coefficient exists.",
+  "description": "a(n) = A048106(A001405(n)).",
   "id": "A048244",
   "mentions": [
     "A001405",

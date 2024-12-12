@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that sigma(n)*phi(n) + 2*sigma(n) is a square.",
+  "description": "Composite numbers k such that sigma(k)*(phi(k) + 2) is a square.",
   "id": "A065655",
   "mentions": [
     "A000010",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

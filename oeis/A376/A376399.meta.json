@@ -1,0 +1,27 @@
+{
+  "description": "a(0) = 1, and for n > 0, a(n) is the least k such that A276075(k) = a(n-1) + A276075(a(n-1)), where A276075 is the factorial base log-function.",
+  "id": "A376399",
+  "mentions": [
+    "A002110",
+    "A048675",
+    "A056239",
+    "A093502",
+    "A276075",
+    "A276076",
+    "A276078",
+    "A276085",
+    "A376400",
+    "A376403",
+    "A376406",
+    "A376417"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

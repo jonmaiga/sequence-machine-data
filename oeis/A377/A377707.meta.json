@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k that have a record number of divisors d such that gcd(d, k/d) is a square.",
+  "id": "A377707",
+  "mentions": [
+    "A025487",
+    "A365171"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

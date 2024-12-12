@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. (1 + log(1+x))^4.",
+  "id": "A377397",
+  "mentions": [
+    "A377396"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

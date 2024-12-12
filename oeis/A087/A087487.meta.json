@@ -1,12 +1,12 @@
 {
-  "description": "4*(2^(n^2-n+1)*(n^2-n)-n+3).",
+  "description": "a(n) = 4*(2^(n^2-n+1)*(n^2-n)-n+3).",
   "id": "A087487",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 13,
     "source": "oeis-entry"
   }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime p such that (2*p)^(2^n) + 1 is also prime.",
+  "id": "A378134",
+  "mentions": [
+    "A005384",
+    "A019434",
+    "A052291",
+    "A378143",
+    "A378146"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

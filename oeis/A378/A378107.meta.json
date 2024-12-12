@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, either a(n+1) is a multiple of a(n) or the decimal expansion of a(n+1) appears in that of a(n).",
+  "id": "A378107",
+  "mentions": [
+    "A342072",
+    "A378106"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

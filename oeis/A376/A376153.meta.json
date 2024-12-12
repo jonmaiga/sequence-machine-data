@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least number with n decimal digits 1 and n prime factors, counted with multiplicity.",
+  "id": "A376153",
+  "mentions": [
+    "A376063"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A000217(k) is not cubefree.",
+  "id": "A377160",
+  "mentions": [
+    "A000217",
+    "A004709",
+    "A046099",
+    "A376909"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,13 +1,13 @@
 {
-  "description": "a(n) = abs(floor(n + a(n-1)/n - n*log(n))).",
+  "description": "a(n) = abs(floor(n + a(n-1)^2/n - n*log(n))) with a(0)=1.",
   "id": "A072549",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

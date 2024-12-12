@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the surface area of a truncated dodecahedron with unit edge length.",
+  "id": "A377694",
+  "mentions": [
+    "A002194",
+    "A010476",
+    "A131595",
+    "A377695",
+    "A377696",
+    "A377697",
+    "A377698"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "5n+3^n-2^n.",
+  "description": "a(n) = 5n+3^n-2^n.",
   "id": "A120849",
   "mentions": [
     "A001047",

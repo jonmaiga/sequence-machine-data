@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = (n*k)!/(n^k*k!), n >=1, k >= 0.",
+  "id": "A377597",
+  "mentions": [
+    "A001147",
+    "A052502",
+    "A052504",
+    "A060706",
+    "A110468",
+    "A368213"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

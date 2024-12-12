@@ -1,5 +1,5 @@
 {
-  "description": "G.f. = H(x)*(1+x^5)/(1-x^2-x^3-x^4) where H(x) = g.f. for A249665.",
+  "description": "Expansion of H(x)*(1+x^5)/(1-x^2-x^3-x^4) where H(x) = g.f. for A249665.",
   "id": "A337654",
   "mentions": [
     "A249665"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

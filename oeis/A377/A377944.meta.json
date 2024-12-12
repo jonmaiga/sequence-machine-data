@@ -1,0 +1,23 @@
+{
+  "description": "Cogrowth sequence of the 16-element dicyclic group Q16 = .",
+  "id": "A377944",
+  "mentions": [
+    "A007582",
+    "A071930",
+    "A377656",
+    "A377735",
+    "A377840",
+    "A377883",
+    "A377885"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Square root of the product of all sums and differences of the square roots of the first n primes.",
+  "id": "A376552",
+  "mentions": [
+    "A000040",
+    "A153731",
+    "A354913"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

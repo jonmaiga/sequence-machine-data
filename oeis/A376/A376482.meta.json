@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = phi( 2^(2*n) + 2^n + 1 ) / (6*n), where phi() is Euler's totient function (A000010).",
+  "id": "A376482",
+  "mentions": [
+    "A000010",
+    "A001576",
+    "A066791"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

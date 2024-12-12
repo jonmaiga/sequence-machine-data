@@ -1,11 +1,12 @@
 {
-  "description": "Let m = phi(Fibonacci(n)); then a(n) = prime(m).",
+  "description": "a(n) = prime(phi(Fibonacci(n))).",
   "id": "A181056",
   "mentions": [
     "A000010",
     "A000040",
     "A000045",
-    "A065449"
+    "A065449",
+    "A181058"
   ],
   "tags": [
     "formulas",

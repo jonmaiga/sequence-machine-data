@@ -1,7 +1,8 @@
 {
-  "description": "Number of n X n (0,1) matrices with two 1's in each row and permanent equal to 8.",
+  "description": "Number of n X n (0,1)-matrices with two 1's in each row and permanent equal to 8.",
   "id": "A174638",
   "mentions": [
+    "A000276",
     "A001866",
     "A174586",
     "A174637"

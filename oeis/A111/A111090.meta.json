@@ -2,11 +2,14 @@
   "description": "Successive generations of an alternating Kolakoski rule.",
   "id": "A111090",
   "mentions": [
+    "A000002",
+    "A007931",
     "A025142",
     "A025143",
     "A111081"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

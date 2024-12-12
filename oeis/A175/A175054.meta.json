@@ -2,7 +2,8 @@
   "description": "A positive integer n is included if there is no run of 0's in the binary representation of n that is only one digit long.",
   "id": "A175054",
   "mentions": [
-    "A144794"
+    "A144794",
+    "A377167"
   ],
   "tags": [
     "base",

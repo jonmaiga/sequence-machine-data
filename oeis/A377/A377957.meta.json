@@ -1,0 +1,17 @@
+{
+  "description": "The number of iterations of the map x -> x + A001065(x) if A009194(x) = 1, x -> x / A009194(x) otherwise, starting from n, until reaching 1.",
+  "id": "A377957",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A009194"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

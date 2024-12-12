@@ -1,0 +1,20 @@
+{
+  "description": "Sum of divisors d of n such that n/d is not an odd number with an even number of prime factors (counted with multiplicity).",
+  "id": "A378549",
+  "mentions": [
+    "A000203",
+    "A353557",
+    "A378543",
+    "A378547",
+    "A378548"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

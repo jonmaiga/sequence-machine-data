@@ -1,12 +1,30 @@
 {
-  "description": "Dirichlet inverse of deficiency of n, A033879.",
+  "description": "Dirichlet inverse of the deficiency of n, A033879.",
   "id": "A323910",
   "mentions": [
+    "A002033",
+    "A008683",
+    "A023900",
     "A033879",
+    "A046692",
+    "A055615",
+    "A067824",
+    "A074206",
+    "A174725",
+    "A191161",
     "A323911",
-    "A323912"
+    "A323912",
+    "A327960",
+    "A328722",
+    "A330575",
+    "A345182",
+    "A346246",
+    "A349341",
+    "A349387",
+    "A359549"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

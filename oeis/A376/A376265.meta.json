@@ -1,0 +1,46 @@
+{
+  "description": "Position of first appearance of n in A376264 (run-sums of first differences of nonsquarefree numbers), or 0 if there are none.",
+  "id": "A376265",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001223",
+    "A003242",
+    "A005117",
+    "A013929",
+    "A037201",
+    "A053797",
+    "A053806",
+    "A057820",
+    "A076259",
+    "A078147",
+    "A120992",
+    "A246655",
+    "A333254",
+    "A333489",
+    "A373198",
+    "A373413",
+    "A373822",
+    "A375707",
+    "A375927",
+    "A376264",
+    "A376266",
+    "A376267",
+    "A376305",
+    "A376306",
+    "A376307",
+    "A376310",
+    "A376311",
+    "A376312"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

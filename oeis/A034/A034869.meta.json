@@ -2,15 +2,22 @@
   "description": "Right half of Pascal's triangle.",
   "id": "A034869",
   "mentions": [
+    "A001405",
     "A007318",
     "A008619",
     "A014413",
     "A014462",
+    "A027306",
     "A034868",
+    "A037955",
+    "A037956",
+    "A037957",
+    "A037958",
     "A110654"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabf"
   ],

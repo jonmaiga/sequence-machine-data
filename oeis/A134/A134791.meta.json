@@ -1,20 +1,23 @@
 {
-  "description": "Floor Log[(prime Fibonacci[Prime[k]]/Prime[k])].",
+  "description": "a(n) = floor(log(Fibonacci(prime(k))/prime(k))), where k = A119984(n).",
   "id": "A134791",
   "mentions": [
+    "A000045",
     "A050937",
     "A090819",
+    "A119984",
     "A134787",
     "A134788",
     "A134789",
-    "A134790"
+    "A134790",
+    "A134792"
   ],
   "tags": [
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 46,
+    "source": "oeis-bfile"
   }
 }

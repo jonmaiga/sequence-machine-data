@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers k such that each digit of k^2 is a factor of k.",
+  "id": "A376003",
+  "mentions": [
+    "A034838",
+    "A052040"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

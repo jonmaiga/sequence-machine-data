@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of (2*floor(3n/2)), by antidiagonals.",
+  "description": "Dispersion of (2*floor(3*n/2)), by antidiagonals.",
   "id": "A191453",
   "mentions": [
     "A000040",

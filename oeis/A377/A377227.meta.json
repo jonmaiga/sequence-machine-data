@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (log(2) + Pi)/4.",
+  "id": "A377227",
+  "mentions": [
+    "A000796",
+    "A002162",
+    "A377226"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Number of graph minors in the (2n-1)-triangular snake graph.",
+  "id": "A378687",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

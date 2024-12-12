@@ -1,0 +1,20 @@
+{
+  "description": "Primes that contain at least two different even digits and at least two different odd digits where any permutation of the odd digits and any permutation of the even digits produces a prime. See comments for the treatment of 0s.",
+  "id": "A376502",
+  "mentions": [
+    "A000040",
+    "A003459",
+    "A376500",
+    "A376501"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

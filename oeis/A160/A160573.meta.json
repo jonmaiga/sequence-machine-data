@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Product_{ k >= 0} (1 + x^(2^k-1) + x^(2^k)).",
+  "description": "G.f.: Product_{k >= 0} (1 + x^(2^k-1) + x^(2^k)).",
   "id": "A160573",
   "mentions": [
     "A000120",

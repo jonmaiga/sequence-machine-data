@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of length n word structures using exactly k different symbols with all distinct run-lengths and the first run length of a symbol less than that of previous symbols, n >= 0, k = 0..floor((sqrtint(8*n+1)+1)/2).",
+  "description": "Triangle read by rows: T(n,k) is the number of length n word structures using exactly k different symbols with all distinct run-lengths and the first run length of a symbol less than that of previous symbols, n >= 0, k = 0..floor(sqrt(8*n+1)-1/2).",
   "id": "A351645",
   "mentions": [
     "A000217",

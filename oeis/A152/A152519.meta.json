@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that 2*A064413(n) = 3n.",
+  "description": "Numbers k such that 2*A064413(k) = 3*k.",
   "id": "A152519",
   "mentions": [
     "A064413",
     "A152458"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

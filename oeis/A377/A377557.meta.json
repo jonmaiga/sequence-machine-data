@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 2*Pi^3/(81*sqrt(3)) + 13*zeta(3)/27.",
+  "id": "A377557",
+  "mentions": [
+    "A002117",
+    "A002194",
+    "A016777",
+    "A016779",
+    "A091925",
+    "A233091",
+    "A377558",
+    "A377559",
+    "A377560"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = period of terms in continued fraction expansion of 2^n*tanh(1).",
+  "description": "a(n) = period of terms in quasi-periodic continued fraction expansion of 2^n*tanh(1).",
   "id": "A094234",
   "mentions": [],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "The number of distinct values of x+y+z+w (mod n) when x*y*z*w = 1 (mod n)",
+  "id": "A376427",
+  "mentions": [
+    "A180783",
+    "A325128",
+    "A376183",
+    "A376296"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = Sum_{n>=1} A(x^(2*n))/A(x^n), with A(0) = 0 and A'(0) = 1.",
+  "id": "A378259",
+  "mentions": [
+    "A008683",
+    "A378262"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

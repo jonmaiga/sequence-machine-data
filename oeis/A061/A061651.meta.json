@@ -1,14 +1,18 @@
 {
   "description": "Numbers with all even digits in which each nonzero digit divides the number formed by the rest, i.e., the number obtained by just removing this digit. 0 is divisible by every number.",
   "id": "A061651",
-  "mentions": [],
+  "mentions": [
+    "A014263",
+    "A061362",
+    "A061507"
+  ],
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 53,
     "source": "joeis"
   }

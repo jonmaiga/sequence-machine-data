@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows, where T(n,k) = (n-floor(k/2))^k for k = 0..2*n.",
+  "description": "Triangle, read by rows, where T(n,k) = (n-floor(k/2))^k for k = 0..2*n - 1, with T(0,0) = 1.",
   "id": "A099555",
   "mentions": [
     "A003992",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

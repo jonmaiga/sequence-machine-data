@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum of all m such that phi(m) divides n, where phi is the Euler totient function (A000010).",
+  "id": "A378639",
+  "mentions": [
+    "A000010",
+    "A319048",
+    "A362469",
+    "A378638"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the least positive integer having exactly n divisors is divisible by n.",
+  "description": "Numbers k such that the least positive integer having exactly k divisors is divisible by k.",
   "id": "A262981",
   "mentions": [
     "A000005",

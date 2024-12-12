@@ -2,7 +2,8 @@
   "description": "Continued fraction expansion of Pi/sqrt(3).",
   "id": "A132116",
   "mentions": [
-    "A093602"
+    "A093602",
+    "A343235"
   ],
   "tags": [
     "cofr",

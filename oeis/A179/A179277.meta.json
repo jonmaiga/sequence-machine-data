@@ -2,7 +2,8 @@
   "description": "A(x) = C(x) * C(x^2) * C(x^4) * C(x^8) *...; C = Catalan, A000108.",
   "id": "A179277",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A088218"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

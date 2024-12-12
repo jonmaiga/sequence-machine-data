@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the highest degree of the rational function in the recursive substitution {y1, y2} -> {y2, (y2 + 1)/(y1*y2)} after n steps.",
+  "id": "A376080",
+  "mentions": [
+    "A011782",
+    "A011858",
+    "A058937"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 136^n - 135^n is prime.",
+  "description": "Numbers k such that 136^k - 135^k is prime.",
   "id": "A259530",
   "mentions": [
     "A254298"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

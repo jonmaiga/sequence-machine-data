@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum_{k=1..n} k^2 / Product_{k=1..n} k^2.",
+  "description": "Numerator of (Sum_{k=1..n} k^2) / (Product_{k=1..n} k^2).",
   "id": "A125294",
   "mentions": [
     "A005382",

@@ -1,7 +1,9 @@
 {
   "description": "Nearest integer to b(n), where b(n) = tan(b(n-1)), b(0) = 1.",
   "id": "A000329",
-  "mentions": [],
+  "mentions": [
+    "A000319"
+  ],
   "tags": [
     "sign"
   ],

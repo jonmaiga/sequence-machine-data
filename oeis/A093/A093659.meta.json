@@ -2,19 +2,23 @@
   "description": "First column of lower triangular matrix A093658; factorial of the number of 1's in binary expansion of n.",
   "id": "A093659",
   "mentions": [
+    "A000079",
     "A000120",
     "A000142",
+    "A000523",
+    "A023359",
     "A093658",
     "A093677",
     "A139329"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 64,
+    "size": 77,
     "source": "joeis"
   }
 }

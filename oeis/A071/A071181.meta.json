@@ -1,5 +1,5 @@
 {
-  "description": "Number of k such that phi(k) divides phi(n).",
+  "description": "Number of numbers k such that phi(k) divides phi(n).",
   "id": "A071181",
   "mentions": [
     "A000010",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

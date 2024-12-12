@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of log(L^2/Pi), where L is the lemniscate constant (A062539).",
+  "id": "A378129",
+  "mentions": [
+    "A002388",
+    "A062539",
+    "A068465",
+    "A371855",
+    "A377999",
+    "A378128",
+    "A378130",
+    "A378131",
+    "A378132"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

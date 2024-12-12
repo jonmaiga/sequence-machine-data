@@ -1,5 +1,5 @@
 {
-  "description": "A073259(n)=4: the length of iteration-transient leading to n-th composite number equals 4.",
+  "description": "Numbers k such that A073259(k)=4: the length of iteration-transient leading to k-th composite number equals 4.",
   "id": "A073439",
   "mentions": [
     "A002808",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

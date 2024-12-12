@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that both arithmetic means of distinct and all prime factors are integers.",
+  "description": "Numbers such that the arithmetic mean of their distinct prime factors and the arithmetic mean of all of their prime factors are both integers.",
   "id": "A174894",
   "mentions": [
     "A078174",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

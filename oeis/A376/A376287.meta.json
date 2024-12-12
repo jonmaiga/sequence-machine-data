@@ -1,0 +1,18 @@
+{
+  "description": "Index of first occurrence of n in A129363, or 0 if no such number exists.",
+  "id": "A376287",
+  "mentions": [
+    "A001097",
+    "A007534",
+    "A023036",
+    "A129363"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

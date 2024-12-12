@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + Sum_{k=1..n, j=1..k} binomial(n,k)*binomial(n,j)*|Stirling_1(k,j)|*j!.",
+  "id": "A376766",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A002720",
+    "A007840",
+    "A226572",
+    "A376765"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

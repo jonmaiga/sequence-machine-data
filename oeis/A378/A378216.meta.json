@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet inverse of A174725.",
+  "id": "A378216",
+  "mentions": [
+    "A000005",
+    "A023900",
+    "A033879",
+    "A070824",
+    "A174725",
+    "A344587",
+    "A378220"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

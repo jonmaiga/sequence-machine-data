@@ -1,10 +1,11 @@
 {
-  "description": "Let f=A038554(n)+delta(n,1), where delta is the Kronecker symbol. Then a(n) is the fixed point that arises from iterating f (a(n)=0 or 1).",
+  "description": "Let f(n) = A038554(n) + delta(n,1), where delta is the Kronecker symbol. Then a(n) is the fixed point that arises from iterating f (a(n) = 0 or 1).",
   "id": "A192082",
   "mentions": [
     "A038554"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

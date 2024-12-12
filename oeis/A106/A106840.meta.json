@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that both n and n+1 have odd part of form 4k+1.",
+  "description": "Numbers m such that both m and m+1 have odd part of the form 4*k+1.",
   "id": "A106840",
   "mentions": [
+    "A017077",
     "A091072",
     "A106837",
     "A106841"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

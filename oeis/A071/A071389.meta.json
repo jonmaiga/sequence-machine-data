@@ -1,5 +1,5 @@
 {
-  "description": "Least number m such that cardinality of InvPhi[m] = prime(n).",
+  "description": "Least number m such that cardinality of InvPhi(m) = prime(n).",
   "id": "A071389",
   "mentions": [
     "A000010",
@@ -7,6 +7,7 @@
     "A058277",
     "A063512",
     "A071386",
+    "A071387",
     "A071388"
   ],
   "tags": [
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "T(n, k) = binomial(n, k)*hypergeom([(1 - n)/2, -n/2], [1], 4).",
+  "id": "A376827",
+  "mentions": [
+    "A002426",
+    "A098453"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

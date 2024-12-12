@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=a(n-2)+prime(n)+8 for n>3, a(0..3)=(0,2,3,10): BRIDGE transform of the primes A000040.",
+  "description": "a(n) = a(n-2)+prime(n)+8 for n>3, a(0..3)=(0,2,3,10): BRIDGE transform of the primes A000040.",
   "id": "A147673",
   "mentions": [
     "A000040",

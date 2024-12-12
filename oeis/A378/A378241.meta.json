@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of directed Hamiltonian cycles in the complete 4-partite graph K_{n,n,n,n}.",
+  "id": "A378241",
+  "mentions": [
+    "A209183",
+    "A234365",
+    "A369923",
+    "A377586"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

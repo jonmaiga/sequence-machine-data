@@ -1,14 +1,19 @@
 {
   "description": "Numbers k such that the first k septenary digits found in the decimal expansion of Pi form a prime.",
   "id": "A065575",
-  "mentions": [],
+  "mentions": [
+    "A065574",
+    "A065576"
+  ],
   "tags": [
     "base",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

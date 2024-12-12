@@ -1,0 +1,20 @@
+{
+  "description": "Cogrowth sequence of the 16-element modular group M4(2) = .",
+  "id": "A377883",
+  "mentions": [
+    "A007582",
+    "A377840",
+    "A377855",
+    "A377885"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

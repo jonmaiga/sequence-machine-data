@@ -1,21 +1,18 @@
 {
-  "description": "A symmetrical triangle between the Eulerian numbers, A008292, and MacMahon numbers, A060187, by linear combination with Pascal(A007318), Eulerian numbers ,and Narayana numbers,A001263,:k=3;t(n,m,k)=Binomial[n, m] - k*(Binomial[n, m]*Binomial[n + 1, m]/(m + 1)) + k*Eulerian[n + 1, m]",
+  "description": "Triangle read by rows: T(n, k, m) = binomial(n, k) - m*binomial(n, k)*binomial(n+1, k)/(k+1) + m*A008292(n+1, k+1) with m = 3.",
   "id": "A178346",
   "mentions": [
-    "A001263",
-    "A007318",
     "A008292",
-    "A060187"
+    "A056986"
   ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

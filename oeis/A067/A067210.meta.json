@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "The nested recursive P312 function, a(n) = 3 + a(n-a(n-2))) for n>=1, a(n) = 1 for n",
+  "id": "A376549",
+  "mentions": [
+    "A002024",
+    "A016777"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

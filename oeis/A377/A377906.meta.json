@@ -1,0 +1,21 @@
+{
+  "description": "Index of 10^n in A302656, or -1 if 10^n does not appear in A302656.",
+  "id": "A377906",
+  "mentions": [
+    "A302656",
+    "A376769",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377911"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

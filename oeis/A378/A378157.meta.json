@@ -1,0 +1,24 @@
+{
+  "description": "The least prime dividing !n = A000166(n).",
+  "id": "A378157",
+  "mentions": [
+    "A000166",
+    "A020639",
+    "A152024",
+    "A195207",
+    "A195208",
+    "A195209",
+    "A195210",
+    "A378158",
+    "A378159"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected achiral planar maps with an external face and n internal triangular faces.",
+  "id": "A378341",
+  "mentions": [
+    "A378337",
+    "A378339",
+    "A378340",
+    "A378342"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

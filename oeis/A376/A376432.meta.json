@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least odd prime factor of prime(n)^prime(n)+1.",
+  "id": "A376432",
+  "mentions": [
+    "A078701",
+    "A125137",
+    "A376431"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

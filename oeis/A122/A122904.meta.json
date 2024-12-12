@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that in Z/nZ the number of squares is strictly less than the number of invertible elements.",
+  "description": "Numbers m such that in Z/mZ the number of squares is strictly less than the number of invertible elements.",
   "id": "A122904",
   "mentions": [
     "A000010",
@@ -10,7 +10,6 @@
     "A122907"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

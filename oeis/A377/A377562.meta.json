@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that have twice as many infinitary divisors as noninfinitary divisors.",
+  "id": "A377562",
+  "mentions": [
+    "A000005",
+    "A000225",
+    "A036537",
+    "A037445",
+    "A060687",
+    "A077609",
+    "A083329",
+    "A327839",
+    "A335832",
+    "A348341",
+    "A377563"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) is the total area of n-Fibonacci polyominoes with k columns, where k > 0.",
+  "id": "A378704",
+  "mentions": [
+    "A004767",
+    "A017605",
+    "A356888",
+    "A378706",
+    "A378707",
+    "A378716"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

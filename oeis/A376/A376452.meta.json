@@ -1,0 +1,21 @@
+{
+  "description": "Positions of numbers in A376450 that end in 0.",
+  "id": "A376452",
+  "mentions": [
+    "A002620",
+    "A214973",
+    "A376450",
+    "A376451",
+    "A376453"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

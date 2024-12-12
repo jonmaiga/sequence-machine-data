@@ -1,5 +1,5 @@
 {
-  "description": "Floor[X/Y] where X = concatenation in decreasing order of (n+1)-st odd number through the 2n-th odd number and Y = concatenation in decreasing order of first n odd numbers.",
+  "description": "Floor[X/Y] where X = concatenation in decreasing order of (n+1)-st odd number through the 2n-th odd number and Y = concatenation in increasing order of first n odd numbers.",
   "id": "A067094",
   "mentions": [
     "A067088",
@@ -12,11 +12,12 @@
   "tags": [
     "base",
     "easy",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 29,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

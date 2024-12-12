@@ -1,0 +1,19 @@
+{
+  "description": "Number of series-reduced noncrossing trees with n edges.",
+  "id": "A378079",
+  "mentions": [
+    "A000014",
+    "A001764",
+    "A030980",
+    "A378078"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

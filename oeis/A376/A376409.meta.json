@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A048675(A376408(n)); Partial sums of A376408.",
+  "id": "A376409",
+  "mentions": [
+    "A019565",
+    "A048675",
+    "A276075",
+    "A376401",
+    "A376407",
+    "A376408"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

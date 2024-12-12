@@ -1,0 +1,18 @@
+{
+  "description": "4-brilliant numbers with distinct prime factors.",
+  "id": "A376864",
+  "mentions": [
+    "A046386",
+    "A376704"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

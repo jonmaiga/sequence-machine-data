@@ -1,7 +1,10 @@
 {
-  "description": "Highly composite numbers using digits 2,3,5 and 7 only. Numbers using prime digits and having prime divisors < 10.",
+  "description": "7-smooth numbers using digits 2,3,5 and 7 only. Numbers using prime digits and having prime divisors < 10.",
   "id": "A085907",
-  "mentions": [],
+  "mentions": [
+    "A002473",
+    "A046034"
+  ],
   "tags": [
     "base",
     "nonn"

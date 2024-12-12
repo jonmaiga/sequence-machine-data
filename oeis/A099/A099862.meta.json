@@ -1,9 +1,10 @@
 {
-  "description": "Bisection of A002808.",
+  "description": "a(n) = (2*k)-th composite number; a bisection of A002808.",
   "id": "A099862",
   "mentions": [
     "A002808",
-    "A099861"
+    "A099861",
+    "A377898"
   ],
   "tags": [
     "easy",

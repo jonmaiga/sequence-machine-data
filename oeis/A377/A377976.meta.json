@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of the 48th root of the series 2*E_2(x) - E_4(x), where E_2(x) and E_4(x) are the Eisenstein series of weight 2 and 4.",
+  "id": "A377976",
+  "mentions": [
+    "A004009",
+    "A004068",
+    "A006352",
+    "A108091",
+    "A289392",
+    "A341871",
+    "A341875",
+    "A377973",
+    "A377974",
+    "A377975",
+    "A377977"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

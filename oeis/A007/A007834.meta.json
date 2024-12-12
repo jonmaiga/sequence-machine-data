@@ -1,14 +1,20 @@
 {
   "description": "Number of point labeled reduced 5-free two-graphs with n nodes.",
   "id": "A007834",
-  "mentions": [],
+  "mentions": [
+    "A007831",
+    "A007832",
+    "A007833",
+    "A359986",
+    "A361355"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
-    "source": "joeis"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

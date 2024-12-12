@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of ([nx+1/x]), where x=sqrt(2) and [ ]=floor, by antidiagonals.",
+  "description": "Dispersion of ([n*x+1/x]), where x=sqrt(2) and [ ]=floor, by antidiagonals.",
   "id": "A191432",
   "mentions": [
     "A000040",

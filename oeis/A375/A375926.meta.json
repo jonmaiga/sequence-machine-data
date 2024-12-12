@@ -1,0 +1,37 @@
+{
+  "description": "Numbers k such that A018252(k+1) = A018252(k) + 1. In other words, the k-th nonprime number is 1 less than the next.",
+  "id": "A375926",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001223",
+    "A002808",
+    "A006549",
+    "A014689",
+    "A018252",
+    "A046933",
+    "A054546",
+    "A057820",
+    "A065310",
+    "A073783",
+    "A176246",
+    "A246655",
+    "A251092",
+    "A373403",
+    "A373671",
+    "A373672",
+    "A375708",
+    "A375713",
+    "A375734",
+    "A375740",
+    "A375929"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

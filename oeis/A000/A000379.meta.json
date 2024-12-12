@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n where total number of 1-bits in the exponents of their prime factorization is even; a 2-way classification of integers: complement of A000028.",
+  "description": "Numbers where total number of 1-bits in the exponents of their prime factorization is even; a 2-way classification of integers: complement of A000028.",
   "id": "A000379",
   "mentions": [
     "A000028",
@@ -10,10 +10,13 @@
     "A001969",
     "A010060",
     "A030229",
+    "A030231",
+    "A037445",
     "A050376",
     "A059897",
     "A064179",
     "A064547",
+    "A092248",
     "A123240",
     "A124010",
     "A131181",
@@ -23,7 +26,8 @@
     "A268386",
     "A268387",
     "A268388",
-    "A268390"
+    "A268390",
+    "A367514"
   ],
   "tags": [
     "easy",

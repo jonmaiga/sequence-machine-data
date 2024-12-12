@@ -1,0 +1,25 @@
+{
+  "description": "Odd exponentially odd numbers.",
+  "id": "A376218",
+  "mentions": [
+    "A000079",
+    "A005408",
+    "A028982",
+    "A057723",
+    "A065463",
+    "A069562",
+    "A182318",
+    "A268335",
+    "A307958",
+    "A357014"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of integers less than n that have the same smallest prime factor as n.",
+  "id": "A377734",
+  "mentions": [
+    "A020639",
+    "A038110",
+    "A038111",
+    "A047983",
+    "A078898",
+    "A334655",
+    "A335097",
+    "A377730"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

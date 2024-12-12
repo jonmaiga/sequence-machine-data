@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1; for n>0, a(n) = 41*n^2 + 2.",
+  "description": "a(0) = 1; for n > 0, a(n) = 41*n^2 + 2.",
   "id": "A206399",
   "mentions": [
     "A000408",
@@ -23,7 +23,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 41,
     "source": "joeis"
   }
 }

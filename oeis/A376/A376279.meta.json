@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^k is a cube.",
+  "id": "A376279",
+  "mentions": [
+    "A000578",
+    "A008585",
+    "A267415",
+    "A371587"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

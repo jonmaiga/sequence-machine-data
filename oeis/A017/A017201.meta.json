@@ -1,7 +1,11 @@
 {
   "description": "a(n) = (9*n + 3)^5.",
   "id": "A017201",
-  "mentions": [],
+  "mentions": [
+    "A013663",
+    "A016781",
+    "A017197"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

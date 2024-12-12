@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(2) = 2. Thereafter, let smc and smp denote the smallest missing composite and smallest missing prime. If a(n) is composite, then if a(n) = 2*smp then a(n+1) = smp, otherwise a(n+1) = smc; if a(n) is a prime, then if smp < smc, a(n+1) = smp, otherwise a(n+1) = smc.",
+  "id": "A376198",
+  "mentions": [
+    "A113646",
+    "A375564",
+    "A376199",
+    "A376201",
+    "A376750",
+    "A376751",
+    "A376752",
+    "A376753",
+    "A376754"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

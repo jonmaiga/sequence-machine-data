@@ -1,5 +1,5 @@
 {
-  "description": "Nonprimes such that sum of digits equals product of digits.",
+  "description": "Nonprimes whose sum of digits is equal to its product of digits.",
   "id": "A066307",
   "mentions": [
     "A034710",

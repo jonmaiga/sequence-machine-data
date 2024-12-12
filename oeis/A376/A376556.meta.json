@@ -1,0 +1,21 @@
+{
+  "description": "The number of non-unitary square divisors of binomial(n, floor(n/2)).",
+  "id": "A376556",
+  "mentions": [
+    "A001405",
+    "A056061",
+    "A056626",
+    "A376553",
+    "A376554",
+    "A376555"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

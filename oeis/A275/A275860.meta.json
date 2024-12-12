@@ -1,7 +1,8 @@
 {
-  "description": "floor(c*s*a(n-1)) + floor(d*r*a(n-2)), where r = (3 + sqrt(13))/2, s = r/(r-1), c = 3, d = 1, a(0) = 1, a(1) = 1.",
+  "description": "a(n) = floor(c*s*a(n-1)) + floor(d*r*a(n-2)), where r = (3 + sqrt(13))/2, s = r/(r-1), c = 3, d = 1, a(0) = 1, a(1) = 1.",
   "id": "A275860",
   "mentions": [
+    "A098316",
     "A275856",
     "A275857",
     "A275858",

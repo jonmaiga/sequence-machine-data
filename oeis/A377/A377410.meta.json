@@ -1,0 +1,17 @@
+{
+  "description": "Maximum sum of a subset of {1..n} such that every unordered pair of (not necessarily distinct) elements has a different sum.",
+  "id": "A377410",
+  "mentions": [
+    "A143823",
+    "A143824",
+    "A377419"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

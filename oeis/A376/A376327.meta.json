@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. -LambertW(-x/(1-x^2)).",
+  "id": "A376327",
+  "mentions": [
+    "A052871",
+    "A376106"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

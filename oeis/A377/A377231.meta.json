@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = digital root of 2^Fibonacci(n).",
+  "id": "A377231",
+  "mentions": [
+    "A000301",
+    "A010888"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

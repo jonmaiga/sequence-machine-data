@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that m, m+1 and m+2 have odd part of form 4k+1.",
+  "description": "Numbers m such that m, m+1 and m+2 have odd part of the form 4*k+1.",
   "id": "A106841",
   "mentions": [
     "A091072",

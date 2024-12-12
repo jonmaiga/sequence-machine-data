@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the volume of a truncated icosidodecahedron (great rhombicosidodecahedron) with unit edge length.",
+  "id": "A377797",
+  "mentions": [
+    "A001622",
+    "A002163",
+    "A377796",
+    "A377798",
+    "A377799"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

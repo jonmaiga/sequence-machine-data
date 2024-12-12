@@ -1,0 +1,20 @@
+{
+  "description": "A variant of Golomb's sequence (A001462): the n-th digit of the sequence gives the number of times n appears, with a(1) = 1 and a(2) = 2.",
+  "id": "A377862",
+  "mentions": [
+    "A001462",
+    "A087739",
+    "A167500",
+    "A377863",
+    "A377896"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

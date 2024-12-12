@@ -1,0 +1,21 @@
+{
+  "description": "Sum of squares of the decimal digits of 2^n.",
+  "id": "A375976",
+  "mentions": [
+    "A000079",
+    "A001370",
+    "A003132",
+    "A110892"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

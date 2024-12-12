@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that phi(k)/2 + 1 = phi(k + 1) where phi = A000010.",
+  "id": "A376337",
+  "mentions": [
+    "A000010",
+    "A000668",
+    "A191611",
+    "A376338"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

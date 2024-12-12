@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 if the divisors of n can be partitioned in exactly two ways into two disjoint sets with the same sum, otherwise 0.",
+  "id": "A378651",
+  "mentions": [
+    "A083206",
+    "A378652"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

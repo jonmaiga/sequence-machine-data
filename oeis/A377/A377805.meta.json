@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the volume of a snub dodecahedron with unit edge length.",
+  "id": "A377805",
+  "mentions": [
+    "A001622",
+    "A090550",
+    "A102769",
+    "A104457",
+    "A134946",
+    "A377804",
+    "A377806",
+    "A377807",
+    "A377849"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

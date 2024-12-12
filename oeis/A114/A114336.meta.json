@@ -4,7 +4,8 @@
   "mentions": [
     "A001652",
     "A001653",
-    "A046090"
+    "A046090",
+    "A377011"
   ],
   "tags": [
     "easy",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

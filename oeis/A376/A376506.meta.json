@@ -1,0 +1,21 @@
+{
+  "description": "Natural numbers whose iterated squaring modulo 100 eventually settles at the attractor 1.",
+  "id": "A376506",
+  "mentions": [
+    "A008592",
+    "A017329",
+    "A376507",
+    "A376508",
+    "A376509"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

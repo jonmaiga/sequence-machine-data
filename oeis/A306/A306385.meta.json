@@ -1,14 +1,13 @@
 {
-  "description": "a(n) is maximum number of distinct distances possible between points in a hyperrectangular grid the sum of whose dimensions is n.",
+  "description": "a(n) is the maximum number of distinct distances possible between points in a hyperrectangular grid the sum of whose dimensions is n.",
   "id": "A306385",
   "mentions": [],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 60,
     "source": "oeis-entry"
   }
 }

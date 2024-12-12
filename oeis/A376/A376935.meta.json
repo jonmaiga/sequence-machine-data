@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of 2*n X 2*k binary matrices with all row sums k and column sums n.",
+  "id": "A376935",
+  "mentions": [
+    "A000012",
+    "A000984",
+    "A002896",
+    "A008300",
+    "A058527",
+    "A172554",
+    "A172555",
+    "A172556",
+    "A172557",
+    "A172558",
+    "A172559",
+    "A172560",
+    "A195644",
+    "A333901",
+    "A334549",
+    "A377007"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

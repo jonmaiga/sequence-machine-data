@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = P(n+1, n+1) where P(n, m) = P(n, m-1) + P(n-1, m + f(m-n)) for n < m with P(n, m) = P(n-1, m) for 0 <= m <= n and P(0, m) = 1 for m >= 0 and where f(n) = [(n mod 6) > 0].",
+  "id": "A376395",
+  "mentions": [
+    "A006318",
+    "A376317",
+    "A376388"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

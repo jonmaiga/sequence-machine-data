@@ -1,5 +1,5 @@
 {
-  "description": "(2*n-1)^2+(2*n+1)^2.",
+  "description": "a(n) = (2*n-1)^2 + (2*n+1)^2.",
   "id": "A108100",
   "mentions": [
     "A000466",

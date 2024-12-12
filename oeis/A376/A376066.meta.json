@@ -1,0 +1,17 @@
+{
+  "description": "Minimum number of unit squares needed to cover the circumference of a circle of radius n.",
+  "id": "A376066",
+  "mentions": [
+    "A376207"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

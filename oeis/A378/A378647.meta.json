@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of A074206 and A103977, where A074206 is the number of ordered factorizations of n, and A103977 is the Zumkeller deficiency of n.",
+  "id": "A378647",
+  "mentions": [
+    "A000027",
+    "A008683",
+    "A067824",
+    "A074206",
+    "A103977",
+    "A263837",
+    "A378644",
+    "A378648",
+    "A378649",
+    "A378650",
+    "A378655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

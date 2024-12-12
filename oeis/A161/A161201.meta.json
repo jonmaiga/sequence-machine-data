@@ -1,12 +1,14 @@
 {
-  "description": "Numerators in expansion of (1-x)^(-7/2)",
+  "description": "Numerators in expansion of (1-x)^(-7/2).",
   "id": "A161201",
   "mentions": [
     "A001790",
     "A001803",
+    "A002596",
     "A046161",
     "A161198",
     "A161199",
+    "A161200",
     "A161202"
   ],
   "tags": [
@@ -18,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

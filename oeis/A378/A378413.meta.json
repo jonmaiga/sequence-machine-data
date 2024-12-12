@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the coefficient of x^k in the domination polynomial of the n-prism graph (n>=1, A004524(n+2)<=k<=2*n).",
+  "id": "A378413",
+  "mentions": [
+    "A004524",
+    "A005843",
+    "A284702"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

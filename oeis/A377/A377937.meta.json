@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes in the interval [n - A000005(n), n + A000005(n)].",
+  "id": "A377937",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000720",
+    "A049820",
+    "A062249"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

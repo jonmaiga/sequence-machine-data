@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = (F(6*n+5) - 1)/4, where F=A000045 (the Fibonacci sequence).",
+  "description": "a(n) = (F(6*n+5) - 1)/4, where F = A000045 (the Fibonacci sequence).",
   "id": "A049663",
   "mentions": [
     "A000045",
+    "A001622",
     "A049664"
   ],
   "tags": [

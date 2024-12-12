@@ -1,5 +1,5 @@
 {
-  "description": "All nontotients [even and odd] in reduced residue system of n.",
+  "description": "The number of nontotients (even and odd) in the reduced residue system of n.",
   "id": "A072106",
   "mentions": [
     "A000010",
@@ -7,7 +7,7 @@
     "A005277",
     "A037225",
     "A072451",
-    "A072457"
+    "A072455"
   ],
   "tags": [
     "nonn"
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 77,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

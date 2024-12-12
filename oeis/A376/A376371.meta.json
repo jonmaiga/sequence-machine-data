@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that occur exactly once in A036038, i.e., numbers m such that the multinomial coefficient (x_1 + ... + x_k)!/(x_1! * ... * x_k!), with 1 <= x_1 <= ... <= x_k, is equal to m only when (x_1, ..., x_k) = (1, m-1).",
+  "id": "A376371",
+  "mentions": [
+    "A036038",
+    "A325472",
+    "A376367",
+    "A376369",
+    "A376370"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

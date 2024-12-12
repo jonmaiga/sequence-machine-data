@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Pi^3/(36*sqrt(3)) + 91*zeta(3)/216.",
+  "id": "A377560",
+  "mentions": [
+    "A002117",
+    "A002194",
+    "A016921",
+    "A016923",
+    "A091925",
+    "A233091",
+    "A377557",
+    "A377558",
+    "A377559"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

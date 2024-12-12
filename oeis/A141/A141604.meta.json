@@ -1,5 +1,5 @@
 {
-  "description": "Triangle t(n,m) = round(A006720(n)/(A006720(n-m)*A006720(m))) read by rows, 0 <= m <= n.",
+  "description": "Triangle, read by rows, T(n,k) = round(A006720(n)/(A006720(n-k)*A006720(k))).",
   "id": "A141604",
   "mentions": [
     "A006720"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

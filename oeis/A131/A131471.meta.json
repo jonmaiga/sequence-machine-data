@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=n^5+n.",
+  "description": "a(n) = n^5+n.",
   "id": "A131471",
   "mentions": [
     "A002378",
@@ -7,7 +7,9 @@
     "A034262",
     "A058895",
     "A059826",
-    "A091940"
+    "A091940",
+    "A271208",
+    "A271209"
   ],
   "tags": [
     "easy",
@@ -16,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

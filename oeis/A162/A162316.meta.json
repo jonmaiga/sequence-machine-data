@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 5n^2 + 20n + 1.",
+  "description": "a(n) = 5*n^2 + 20*n + 1.",
   "id": "A162316",
   "mentions": [
     "A161532",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 46,
     "source": "oeis-bfile"
   }
 }

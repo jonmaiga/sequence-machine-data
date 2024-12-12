@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that A064413(n) = n.",
+  "description": "Numbers k that A064413(k) = k.",
   "id": "A152458",
   "mentions": [
     "A064413",
@@ -7,6 +7,7 @@
     "A247379"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

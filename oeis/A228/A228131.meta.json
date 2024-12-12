@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n-1} K(i,n)*i, where K(,) is Kronecker symbol.",
+  "description": "a(n) = Sum_{i=0..n-1} K(i,n)*i, where K(,) is Kronecker symbol.",
   "id": "A228131",
   "mentions": [
     "A002143",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

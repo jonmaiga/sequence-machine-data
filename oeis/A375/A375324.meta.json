@@ -1,0 +1,15 @@
+{
+  "description": "Numbers of the form 3^k + 2 that admit at least one divisor of the form 3^m + 2 with 1 <= m < k.",
+  "id": "A375324",
+  "mentions": [
+    "A168607"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

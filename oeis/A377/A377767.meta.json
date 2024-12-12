@@ -1,0 +1,14 @@
+{
+  "description": "Number of edge cuts in the path complement graph bar-P_n.",
+  "id": "A377767",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

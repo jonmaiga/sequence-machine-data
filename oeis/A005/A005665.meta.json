@@ -1,12 +1,15 @@
 {
-  "description": "Tower of Hanoi with 3 pegs and cyclic moves only (clockwise).",
+  "description": "Minimal number of moves for the cyclic variant of the Towers of Hanoi for 3 pegs and n disks, with the final peg one step away.",
   "id": "A005665",
   "mentions": [
     "A000051",
     "A005666",
     "A007664",
     "A007665",
-    "A026150"
+    "A026150",
+    "A292764",
+    "A338024",
+    "A338089"
   ],
   "tags": [
     "easy",

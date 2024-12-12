@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of multisets with n primes with which an n-gon with perimeter prime(n) can be formed.",
+  "id": "A376348",
+  "mentions": [
+    "A005044",
+    "A007042",
+    "A038499",
+    "A062890",
+    "A069906",
+    "A069907",
+    "A259254",
+    "A288253",
+    "A288254",
+    "A288255",
+    "A288256",
+    "A318604",
+    "A366398"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

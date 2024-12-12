@@ -1,7 +1,10 @@
 {
-  "description": "Expansion of 1/((1-5x)(1-9x)).",
+  "description": "Expansion of 1/((1-5*x)*(1-9*x)).",
   "id": "A016163",
-  "mentions": [],
+  "mentions": [
+    "A016142",
+    "A016161"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

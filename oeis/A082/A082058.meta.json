@@ -1,9 +1,10 @@
 {
-  "description": "a(n) is the smallest k such that prime(k) contains the digits of k in their order.",
+  "description": "a(n) is the smallest k such that prime(k) contains the digits of n as a substring.",
   "id": "A082058",
   "mentions": [
     "A030000",
-    "A062584"
+    "A062584",
+    "A088781"
   ],
   "tags": [
     "base",

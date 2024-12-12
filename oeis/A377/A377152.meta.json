@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(k+4,4) * binomial(k,n-k)^2.",
+  "id": "A377152",
+  "mentions": [
+    "A001873",
+    "A051286",
+    "A089627",
+    "A182884",
+    "A377145",
+    "A377148",
+    "A377153",
+    "A377158",
+    "A377159"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

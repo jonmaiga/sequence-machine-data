@@ -2,8 +2,11 @@
   "description": "G.f. A(x) satisfies A(x) = 1/( 1 - x*A(x)*(1 + 9*x*A(x))^(1/3) ).",
   "id": "A372126",
   "mentions": [
+    "A001002",
     "A372013",
-    "A372136"
+    "A372125",
+    "A372136",
+    "A378555"
   ],
   "tags": [
     "formulas",

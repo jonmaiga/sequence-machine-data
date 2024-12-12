@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of A376168.",
+  "id": "A376169",
+  "mentions": [
+    "A048691",
+    "A376168"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

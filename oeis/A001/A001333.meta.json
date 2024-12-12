@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of continued fraction convergents to sqrt(2).",
+  "description": "Pell-Lucas numbers: numerators of continued fraction convergents to sqrt(2).",
   "id": "A001333",
   "mentions": [
     "A000032",

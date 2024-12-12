@@ -1,8 +1,10 @@
 {
-  "description": "n*(n-1)*(n-3)*(n-5).",
+  "description": "a(n) = n*(n-1)*(n-3)*(n-5).",
   "id": "A062765",
   "mentions": [],
   "tags": [
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

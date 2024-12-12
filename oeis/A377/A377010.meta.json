@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of A376928: lim_{m->oo} (1/m) * Sum_{k=1..m} A376928(k).",
+  "id": "A377010",
+  "mentions": [
+    "A002110",
+    "A034386",
+    "A151800",
+    "A249270",
+    "A376928"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,20 @@
 {
   "description": "a(n) is the number of halving partitions of n (see Comments for definition).",
   "id": "A349552",
-  "mentions": [],
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A028310",
+    "A349553"
+  ],
   "tags": [
-    "more",
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
   }
 }

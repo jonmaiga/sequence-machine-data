@@ -1,0 +1,19 @@
+{
+  "description": "Table T(n, k), n > 1, k = 1..n-1, read by rows; T(n, k) is the number of points of the form (m, prime(m)) aligned with the points (k, prime(k)) and (n, prime(n)) (where prime(k) denotes the k-th prime number).",
+  "id": "A376569",
+  "mentions": [
+    "A376187",
+    "A376570",
+    "A376571"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

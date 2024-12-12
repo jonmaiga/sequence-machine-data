@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*n - phi(A003961(n)), where phi is Euler totient function and A003961 is fully multiplicative function with a(prime(i)) = prime(i+1).",
+  "id": "A377985",
+  "mentions": [
+    "A000010",
+    "A003961",
+    "A003972",
+    "A008683",
+    "A377984"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

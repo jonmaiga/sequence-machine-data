@@ -1,7 +1,24 @@
 {
-  "description": "Number of composite numbers between n and 2n.",
+  "description": "Number of composite numbers c with n <= c <= 2*n.",
   "id": "A075084",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A035250",
+    "A060715",
+    "A063124",
+    "A065855",
+    "A070046",
+    "A077463",
+    "A108954",
+    "A246514",
+    "A307912",
+    "A307989",
+    "A376759",
+    "A376760",
+    "A376761"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +27,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

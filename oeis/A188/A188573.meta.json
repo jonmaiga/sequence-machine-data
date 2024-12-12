@@ -1,10 +1,11 @@
 {
-  "description": "Coefficient of the sqrt(6) term in (1 + sqrt(2) + sqrt(3))^n, denoted as C6(n).",
+  "description": "a(n) = coefficient of the sqrt(6) term in (1 + sqrt(2) + sqrt(3))^n.",
   "id": "A188573",
   "mentions": [
     "A188570",
     "A188571",
-    "A188572"
+    "A188572",
+    "A377109"
   ],
   "tags": [
     "formulas",

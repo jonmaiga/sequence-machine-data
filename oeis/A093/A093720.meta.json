@@ -2,7 +2,9 @@
   "description": "Decimal expansion of Sum_{n >= 2} zeta(n)/n!.",
   "id": "A093720",
   "mentions": [
+    "A001620",
     "A076813",
+    "A091725",
     "A093721",
     "A269574",
     "A269611",

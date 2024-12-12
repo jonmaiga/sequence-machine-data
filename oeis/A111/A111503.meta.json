@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3 - n^2 - 1 and n^3 - n^2 + 1 are twin primes.",
+  "description": "Numbers k such that k^3 - k^2 - 1 and k^3 - k^2 + 1 are twin primes.",
   "id": "A111503",
   "mentions": [
     "A111501",

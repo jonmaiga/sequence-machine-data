@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers that can be represented in an 8-bit floating point format.",
+  "id": "A371477",
+  "mentions": [
+    "A000265"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

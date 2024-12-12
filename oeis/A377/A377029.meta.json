@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 0; therafter in the binary expansion of a(n-1), expand bits: 1->01 and 0->10.",
+  "id": "A377029",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000120",
+    "A094373",
+    "A133468",
+    "A320916",
+    "A374625"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

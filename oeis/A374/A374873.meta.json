@@ -1,0 +1,19 @@
+{
+  "description": "Smallest primes p_1 where products m of n consecutive primes p_1..p_n are such that only p_1 < m^(1/n).",
+  "id": "A374873",
+  "mentions": [
+    "A372209",
+    "A375974",
+    "A376136"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

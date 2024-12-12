@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x)^2 = A( x^2 + 2*x*A(x)^2 + 2*A(x)^4 ).",
+  "id": "A378247",
+  "mentions": [
+    "A000108",
+    "A001190",
+    "A271959",
+    "A271960",
+    "A374566",
+    "A374567"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

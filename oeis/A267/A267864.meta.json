@@ -1,5 +1,5 @@
 {
-  "description": "Denominator triangle for A267863: T(m, a) = denominator((m - 2*a)/(2*m)), m >= 1, a = 1, ..., m.",
+  "description": "Denominator triangle for A267863: T(n, k) = denominator((n - 2*k)/(2*n)), n >= 1, k = 1, ..., n.",
   "id": "A267864",
   "mentions": [
     "A267863"

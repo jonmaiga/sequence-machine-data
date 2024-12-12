@@ -1,8 +1,9 @@
 {
-  "description": "Numbers k such that A036263(k) = A036263(k+1), using signed version of A036263.",
+  "description": "Indices of zeros of third differences of primes: Numbers k such that A036264(k) = 0.",
   "id": "A064149",
   "mentions": [
-    "A036263"
+    "A036263",
+    "A036264"
   ],
   "tags": [
     "easy",

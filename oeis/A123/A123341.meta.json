@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1, a(n) = Sum_{k=1}^{Pi(n)} a(n-k) for n > 1, where Pi(n) is the number of primes less than or equal to n.",
+  "description": "a(1) = 1, a(n) = Sum_{k=1..pi(n)} a(n-k) for n > 1, where pi(n) is the number of primes less than or equal to n.",
   "id": "A123341",
   "mentions": [
     "A000045",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

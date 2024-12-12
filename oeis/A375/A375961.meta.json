@@ -1,0 +1,23 @@
+{
+  "description": "2-adic valuation of 6*n + 2.",
+  "id": "A375961",
+  "mentions": [
+    "A007814",
+    "A016933",
+    "A087229",
+    "A087230",
+    "A096773",
+    "A371093",
+    "A375782"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

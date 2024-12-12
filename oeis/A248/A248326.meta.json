@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals downward: super Patalan numbers of order 5.",
+  "description": "Square array read by downward antidiagonals: super Patalan numbers of order 5.",
   "id": "A248326",
   "mentions": [
     "A025750",

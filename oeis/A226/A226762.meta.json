@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that 1/k <= mean of {1, 1/2, 1/3,..., 1/n}.",
+  "description": "Greatest k such that 1/k >= mean of {1, 1/2, 1/3, ..., 1/n}.",
   "id": "A226762",
   "mentions": [
     "A226763",

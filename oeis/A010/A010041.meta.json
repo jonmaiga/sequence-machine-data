@@ -1,13 +1,20 @@
 {
-  "description": "High-temperature expansion of susceptibility chi_2 for 4-d cubic lattice.",
+  "description": "High-temperature expansion of Ising model susceptibility chi_2 for 4-d cubic lattice.",
   "id": "A010041",
-  "mentions": [],
+  "mentions": [
+    "A010039",
+    "A010040",
+    "A010044",
+    "A010047",
+    "A010556"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

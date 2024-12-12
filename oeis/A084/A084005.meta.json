@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A084004(n)^(1/2).",
+  "description": "a(n) = sqrt(A084004(n)).",
   "id": "A084005",
   "mentions": [
     "A084004",
@@ -11,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 35,
     "source": "oeis-entry"
   }

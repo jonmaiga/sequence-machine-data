@@ -1,5 +1,5 @@
 {
-  "description": "Determinant of M(n), the n X n matrix defined by m(i,i)=1, m(i,j)=i-j.",
+  "description": "Determinant of M(n), the n X n matrix defined by m(i,i) = 1, m(i,j) = i-j.",
   "id": "A079034",
   "mentions": [
     "A001263",
@@ -12,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 39,
-    "source": "joeis"
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
   }
 }

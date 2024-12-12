@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the midradius of a truncated icosidodecahedron (great rhombicosidodecahedron) with unit edge length.",
+  "id": "A377799",
+  "mentions": [
+    "A010499",
+    "A344171",
+    "A377796",
+    "A377797",
+    "A377798"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

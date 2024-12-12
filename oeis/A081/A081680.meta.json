@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (7^n-6^n-5^n-4^n+4*3^n)/2.",
+  "description": "a(n) = (7^n - 6^n - 5^n - 4^n + 4*3^n)/2.",
   "id": "A081680",
   "mentions": [
     "A081679",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

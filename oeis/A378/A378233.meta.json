@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(2) = 2, let i = a(n-2), j = a(n-1). For n > 2, If i*j is a term in A055932, a(n) is the least novel multiple of the smallest prime which does not divide i*j. Otherwise a(n) is the least novel multiple of the greatest prime < Gpf(i*j) which does not divide i*j.",
+  "id": "A378233",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A002110",
+    "A006530",
+    "A055932",
+    "A098550",
+    "A359804",
+    "A377774"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n)=a(n-1) + prime(n) for n prime, and a(n)=-a(n-1) otherwise, with a(0)=0, with duplicates removed afterwards.",
+  "id": "A378677",
+  "mentions": [
+    "A006450",
+    "A073131",
+    "A299644"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

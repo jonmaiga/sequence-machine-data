@@ -1,0 +1,16 @@
+{
+  "description": "Dirichlet inverse of A119347, where A119347(n) is the number of distinct sums of distinct divisors of n.",
+  "id": "A378451",
+  "mentions": [
+    "A119347"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

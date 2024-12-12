@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (2 * (n+1)^2 + 7 - (-1)^n) / 8 - k.",
+  "id": "A377802",
+  "mentions": [
+    "A000290",
+    "A002061",
+    "A002378",
+    "A002620",
+    "A004116",
+    "A005563",
+    "A006003",
+    "A014616",
+    "A024206",
+    "A026741",
+    "A033638",
+    "A246694",
+    "A290743"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

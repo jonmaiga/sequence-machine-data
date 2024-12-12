@@ -1,0 +1,23 @@
+{
+  "description": "Difference between index of 10^n in A302656 and in A376769.",
+  "id": "A377908",
+  "mentions": [
+    "A302656",
+    "A376769",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377906",
+    "A377911"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

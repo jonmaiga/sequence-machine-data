@@ -1,5 +1,5 @@
 {
-  "description": "Product of next n odd numbers plus 2 is prime.",
+  "description": "Product of next a(n) odd numbers plus 2 is prime.",
   "id": "A073693",
   "mentions": [
     "A073691",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 1/(8*log(2)*A005597), where A005597 is the twin prime constant C_2.",
+  "id": "A378482",
+  "mentions": [
+    "A002162",
+    "A005597"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

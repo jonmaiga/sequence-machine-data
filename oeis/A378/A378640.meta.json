@@ -1,0 +1,22 @@
+{
+  "description": "Smallest m such that phi(m) does not divide n, where phi is the Euler totient function (A000010).",
+  "id": "A378640",
+  "mentions": [
+    "A000010",
+    "A076245",
+    "A095366",
+    "A378638",
+    "A378641",
+    "A378642"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

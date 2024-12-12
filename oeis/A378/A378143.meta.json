@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime of the form (2*p)^(2^n) + 1 for some prime p.",
+  "id": "A378143",
+  "mentions": [
+    "A005384",
+    "A019434",
+    "A052291",
+    "A222008",
+    "A286678",
+    "A378134",
+    "A378146"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

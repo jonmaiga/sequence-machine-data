@@ -1,0 +1,39 @@
+{
+  "description": "Numbers k such that A005117(k+1) - A005117(k) = 1. In other words, the k-th squarefree number is 1 less than the next.",
+  "id": "A375927",
+  "mentions": [
+    "A005117",
+    "A007674",
+    "A013929",
+    "A053797",
+    "A061399",
+    "A065469",
+    "A072284",
+    "A076259",
+    "A078147",
+    "A110969",
+    "A120992",
+    "A246655",
+    "A294242",
+    "A373127",
+    "A373199",
+    "A373403",
+    "A373409",
+    "A373410",
+    "A373573",
+    "A375707",
+    "A375709",
+    "A375734",
+    "A375926",
+    "A375929",
+    "A375930"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

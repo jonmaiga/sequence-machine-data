@@ -1,0 +1,19 @@
+{
+  "description": "Table T(n, k) read by upward antidiagonals. The sequences in each column k is a triangle read by rows, where each row is a permutation of the numbers of its constituents; see Comments.",
+  "id": "A375725",
+  "mentions": [
+    "A208234",
+    "A342719",
+    "A360665"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

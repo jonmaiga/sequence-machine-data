@@ -1,5 +1,5 @@
 {
-  "description": "Exponents d of powers of 2, q, such that each of q-1 and q+1 are either a power of prime or a semiprime.",
+  "description": "Exponents d of powers of 2, q = 2^d, such that each of q-1 and q+1 is either a power of prime or a semiprime.",
   "id": "A345899",
   "mentions": [
     "A000961",

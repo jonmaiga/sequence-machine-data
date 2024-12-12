@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least prime number of the form n mod (10^k) for some k > 0, or 0 if no such prime number exists.",
+  "id": "A375548",
+  "mentions": [
+    "A331097"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

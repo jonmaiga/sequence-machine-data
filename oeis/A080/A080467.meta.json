@@ -2,6 +2,8 @@
   "description": "Multiples of 11 in which the even positioned digits from left are odd and the odd positioned ones are even.",
   "id": "A080467",
   "mentions": [
+    "A008593",
+    "A062285",
     "A080466"
   ],
   "tags": [
@@ -9,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 42,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

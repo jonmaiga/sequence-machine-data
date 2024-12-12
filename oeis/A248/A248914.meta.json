@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of L = integral_{0..1} 1/(1-2t^2/3) dt, an auxiliary constant associated with one of the integral inequalities studied by David Boyd.",
+  "description": "Decimal expansion of L = Integral_{t=0..1} 1/(1-2t^2/3) dt, an auxiliary constant associated with one of the integral inequalities studied by David Boyd.",
   "id": "A248914",
   "mentions": [
     "A242440",

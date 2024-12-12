@@ -1,0 +1,17 @@
+{
+  "description": "Number of subsets of the first n nonzero tetrahedral numbers whose sum is a nonzero tetrahedral number.",
+  "id": "A378170",
+  "mentions": [
+    "A000292",
+    "A377123",
+    "A378171"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

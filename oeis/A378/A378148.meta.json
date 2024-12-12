@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of distinct trapezoids having integer sides and height with exactly one pair of parallel sides and area n.",
+  "id": "A378148",
+  "mentions": [
+    "A024406",
+    "A027750",
+    "A103606",
+    "A214602",
+    "A340858",
+    "A340859",
+    "A340860",
+    "A365049",
+    "A374594",
+    "A378149",
+    "A378150"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

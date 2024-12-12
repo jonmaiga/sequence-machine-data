@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of occurrences of n in A377862.",
+  "id": "A377896",
+  "mentions": [
+    "A377862",
+    "A377863"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The n-th primorial number reduced modulo 3125.",
+  "id": "A377877",
+  "mentions": [
+    "A002110",
+    "A086360",
+    "A377876"
+  ],
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

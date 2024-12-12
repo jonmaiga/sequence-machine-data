@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4 X n 0..2 matrices with row sums n and column sums 4 up to permutations of rows.",
+  "id": "A377066",
+  "mentions": [
+    "A172642",
+    "A377063",
+    "A377065",
+    "A377068"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

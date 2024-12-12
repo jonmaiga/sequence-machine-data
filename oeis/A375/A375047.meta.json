@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array T; row n shows the coefficients of the (n-1)-st polynomial in the obverse convolution s(x)**t(x), where s(x) = x+1 and t(x) = F(n) = n-th Fibonacci number. See Comments.",
+  "id": "A375047",
+  "mentions": [
+    "A000045",
+    "A232896",
+    "A374848",
+    "A375048",
+    "A375049"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

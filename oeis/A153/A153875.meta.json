@@ -1,5 +1,5 @@
 {
-  "description": "3 times 13-gonal (or tridecagonal) numbers: 3*n*(11*n - 9)/2.",
+  "description": "3 times 13-gonal (or tridecagonal) numbers: a(n) = 3*n*(11*n - 9)/2.",
   "id": "A153875",
   "mentions": [
     "A033428",

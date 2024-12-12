@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of generalized Stirling numbers.",
+  "id": "A376582",
+  "mentions": [
+    "A001705",
+    "A001711",
+    "A001716",
+    "A001721",
+    "A051524",
+    "A051545",
+    "A051560",
+    "A094587",
+    "A173333"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

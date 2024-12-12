@@ -1,0 +1,18 @@
+{
+  "description": "Largest n-digit term in A104179.",
+  "id": "A376435",
+  "mentions": [
+    "A104179",
+    "A376433",
+    "A376434"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

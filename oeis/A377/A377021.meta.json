@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose prime factorization has exponents that are all sums of distinct factorials (A059590, where 0! and 1! are not considered distinct).",
+  "id": "A377021",
+  "mentions": [
+    "A000014",
+    "A005117",
+    "A046100",
+    "A059590",
+    "A376885",
+    "A376886",
+    "A377019",
+    "A377020",
+    "A377022"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

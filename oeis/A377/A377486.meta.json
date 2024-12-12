@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = product of {p^k : p | n, k = 1..floor(log n/log p)}, a(1) = 1.",
+  "id": "A377486",
+  "mentions": [
+    "A000217",
+    "A064446",
+    "A162306",
+    "A246655",
+    "A377485"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

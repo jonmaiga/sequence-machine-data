@@ -1,0 +1,22 @@
+{
+  "description": "Powers of 3 alternating with powers of 4.",
+  "id": "A375966",
+  "mentions": [
+    "A000035",
+    "A000244",
+    "A000302",
+    "A059841",
+    "A072345",
+    "A098293"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

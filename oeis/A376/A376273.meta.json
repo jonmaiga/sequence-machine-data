@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest elated number of height n.",
+  "id": "A376273",
+  "mentions": [
+    "A007013",
+    "A376270",
+    "A376272"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

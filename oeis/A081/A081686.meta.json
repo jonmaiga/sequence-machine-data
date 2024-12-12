@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 7^n-6^n-5^n-4^n+3*3^n.",
+  "description": "a(n) = 7^n - 6^n - 5^n - 4^n + 3*3^n.",
   "id": "A081686",
   "mentions": [
     "A081685",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "joeis"
   }
 }

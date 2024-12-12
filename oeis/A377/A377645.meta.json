@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 2*Pi^2*log(2) - 7*zeta(3).",
+  "id": "A377645",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A002388",
+    "A016627",
+    "A164102"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

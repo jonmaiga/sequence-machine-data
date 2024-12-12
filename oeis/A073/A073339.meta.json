@@ -5,11 +5,12 @@
     "A074636"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! + prime(n) is prime.",
+  "description": "Numbers k such that k! + prime(k) is prime.",
   "id": "A064278",
   "mentions": [
     "A063499"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

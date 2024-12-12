@@ -1,7 +1,9 @@
 {
   "description": "a(n) is the number k such that the binary expansion of n mod 2^k is the postorder traversal of a binary tree, where 1 indicates a node and 0 indicates there are no children on that side.",
   "id": "A114567",
-  "mentions": [],
+  "mentions": [
+    "A036991"
+  ],
   "tags": [
     "base",
     "easy",

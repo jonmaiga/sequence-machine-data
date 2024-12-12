@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A376877(n) / p where p is the largest prime factor of A376877(n).",
+  "id": "A376874",
+  "mentions": [
+    "A006039",
+    "A023196",
+    "A083207",
+    "A180332",
+    "A376877"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

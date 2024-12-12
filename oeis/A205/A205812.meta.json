@@ -2,9 +2,11 @@
   "description": "a(n) = Sum_{k=1..n} binomial(n,k) * sigma(n,k).",
   "id": "A205812",
   "mentions": [
+    "A000203",
     "A163190",
     "A205811",
-    "A205815"
+    "A205815",
+    "A377331"
   ],
   "tags": [
     "formulas",

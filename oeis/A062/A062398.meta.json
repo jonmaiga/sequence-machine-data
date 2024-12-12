@@ -2,7 +2,8 @@
   "description": "Numbers such that the product of the digits and the sum of the digits are squares.",
   "id": "A062398",
   "mentions": [
-    "A028839"
+    "A028839",
+    "A174800"
   ],
   "tags": [
     "base",

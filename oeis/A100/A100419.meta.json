@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 30*n+{1,7,13,17,19,23,29} are all prime.",
+  "description": "Numbers k such that 30*k+{1,7,13,17,19,23,29} are all prime.",
   "id": "A100419",
   "mentions": [
     "A005776",
@@ -10,12 +10,11 @@
     "A100423"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

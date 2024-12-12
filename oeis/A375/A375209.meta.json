@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple symmetric Hamiltonian paths connecting opposite corners of a 2n+1 X 2n+1 grid.",
+  "id": "A375209",
+  "mentions": [
+    "A001184",
+    "A331001"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

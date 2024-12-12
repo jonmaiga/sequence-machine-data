@@ -1,0 +1,14 @@
+{
+  "description": "Lower matching number of the n-diagonal intersection graph.",
+  "id": "A378773",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

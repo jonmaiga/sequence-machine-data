@@ -1,0 +1,18 @@
+{
+  "description": "Number of groups G of order n such that |N(G)| <> |Z(G)|, where N(G) is the intersection of the normalizers of all subgroups of G and Z(G) is the center of G.",
+  "id": "A375199",
+  "mentions": [
+    "A004709",
+    "A046099",
+    "A051532"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

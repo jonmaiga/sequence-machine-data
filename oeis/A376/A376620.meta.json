@@ -1,0 +1,21 @@
+{
+  "description": "Number of equational laws for magmas involving n operations, up to relabeling and symmetry.",
+  "id": "A376620",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A002489",
+    "A103293",
+    "A289679",
+    "A376640"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

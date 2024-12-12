@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least number that A074389(a[n])=n.",
+  "description": "a(n) is the least number k that A074389(k) = n.",
   "id": "A074390",
   "mentions": [
     "A000005",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

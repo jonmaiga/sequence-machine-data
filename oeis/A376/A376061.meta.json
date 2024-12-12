@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the denominator of the sum S(n) defined in A376060.",
+  "id": "A376061",
+  "mentions": [
+    "A000108",
+    "A374663",
+    "A375516",
+    "A375522",
+    "A375531",
+    "A375532",
+    "A375781",
+    "A376048",
+    "A376060"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "joeis"
+  }
+}

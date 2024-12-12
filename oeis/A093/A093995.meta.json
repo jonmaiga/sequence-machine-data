@@ -1,5 +1,5 @@
 {
-  "description": "n^2 repeated n times, triangle read by rows.",
+  "description": "n^2 appears n times, triangle read by rows.",
   "id": "A093995",
   "mentions": [
     "A000290",

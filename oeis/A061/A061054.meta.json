@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n+n^(3/4)).",
+  "description": "a(n) = floor(n + n^(3/4)).",
   "id": "A061054",
   "mentions": [
     "A062108"

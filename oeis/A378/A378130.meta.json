@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 24*L^2/(5^(7/4)*Pi^2), where L is the lemniscate constant (A062539).",
+  "id": "A378130",
+  "mentions": [
+    "A008977",
+    "A062539",
+    "A091670",
+    "A377999",
+    "A378128",
+    "A378129",
+    "A378131",
+    "A378132"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

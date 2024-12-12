@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows. T(n, k) = [x^k] P(n, x) where P(n, x) = (1 / (n + 1)) * Sum_{j=0..n+1} binomial(n + 1, j) * Bernoulli(j, 1) * (4^j - 2^j) * x^(j - 1).",
+  "description": "Triangle read by rows. T(n, k) = [x^k] (2 - Sum_{k=0..n} binomial(n, k)*Euler(k, 1)*(-2*x)^k).",
   "id": "A363393",
   "mentions": [
     "A000364",

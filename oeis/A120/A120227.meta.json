@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that a+n and a*n+1 are prime, case a=5.",
+  "description": "Numbers k such that 5+k and 5*k+1 are prime.",
   "id": "A120227",
   "mentions": [
     "A085063",

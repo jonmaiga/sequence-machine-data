@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the greatest nonnegative integer k such that there exists a strictly increasing integer sequence k = b_1 < b_2 < ... < b_t = n with the property that b_1 XOR b_2 XOR ... XOR b_t = 0, or 0 if there are no such k (when n is a power of 2).",
+  "id": "A378212",
+  "mentions": [
+    "A131577",
+    "A348296",
+    "A359506"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

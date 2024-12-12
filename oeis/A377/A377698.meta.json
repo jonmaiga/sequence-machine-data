@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 30*arcsin(sqrt(5)/3).",
+  "id": "A377698",
+  "mentions": [
+    "A228496"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

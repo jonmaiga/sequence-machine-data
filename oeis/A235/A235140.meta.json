@@ -2,6 +2,7 @@
   "description": "Numerator(m*Bernoulli(m-1)+1) (mod m), for m = 1, 3, 5, 7, 9, ...",
   "id": "A235140",
   "mentions": [
+    "A004611",
     "A007850",
     "A046094",
     "A204187",
@@ -10,11 +11,12 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 101,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

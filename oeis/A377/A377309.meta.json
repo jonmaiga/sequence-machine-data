@@ -1,0 +1,17 @@
+{
+  "description": "Number of stones-and-bones tilings of an n-triangle.",
+  "id": "A377309",
+  "mentions": [
+    "A334875"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

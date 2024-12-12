@@ -1,14 +1,17 @@
 {
   "description": "2nd Bernoulli polynomial evaluated at powers of 2 (multiplied by 6).",
   "id": "A020527",
-  "mentions": [],
+  "mentions": [
+    "A020528"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

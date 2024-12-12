@@ -10,7 +10,8 @@
     "A025227",
     "A103885",
     "A333090",
-    "A333472"
+    "A333472",
+    "A378317"
   ],
   "tags": [
     "easy",
@@ -20,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

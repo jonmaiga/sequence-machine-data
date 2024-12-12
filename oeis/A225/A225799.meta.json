@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=0..n} binomial(n,k) * 10^(n-k) * Fibonacci(n+k).",
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * 10^(n-k) * Fibonacci(n+k).",
   "id": "A225799",
   "mentions": [
     "A000045",

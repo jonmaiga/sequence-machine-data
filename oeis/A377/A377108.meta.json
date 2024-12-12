@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: Sum_{k>=1} x^(8*k-1) * Product_{j=1..k-1} (1-x^(7*k+j-1))/(1-x^j).",
+  "id": "A377108",
+  "mentions": [
+    "A000041",
+    "A350879"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

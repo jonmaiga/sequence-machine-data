@@ -1,0 +1,24 @@
+{
+  "description": "Squarefree composite k such that floor(log n/log lpf(k)) <= omega(k), where lpf = A020639 and omega = A001221.",
+  "id": "A377713",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A002110",
+    "A007947",
+    "A020639",
+    "A120944",
+    "A376846",
+    "A377590",
+    "A377591"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

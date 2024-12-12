@@ -2,15 +2,17 @@
   "description": "Number of partitions of n*(n+1).",
   "id": "A120380",
   "mentions": [
+    "A000041",
     "A002378",
     "A003107"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

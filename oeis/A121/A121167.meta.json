@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1; a(n) = the reversal of (a(n-1) + spd(a(n-1))), where spd(n)= sum of powers of the digits of n.",
+  "description": "a(1)=1; a(n) = the reversal of (a(n-1) + spd(a(n-1))), where spd(n) is the sum of d^d for d the digits of n (with 0^0 = 1).",
   "id": "A121167",
   "mentions": [
     "A045503"
@@ -7,11 +7,12 @@
   "tags": [
     "base",
     "easy",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

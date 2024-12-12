@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi^2/(12*log(phi)).",
+  "id": "A378124",
+  "mentions": [
+    "A001622",
+    "A002388",
+    "A002390",
+    "A013661",
+    "A072691",
+    "A174607",
+    "A247039"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

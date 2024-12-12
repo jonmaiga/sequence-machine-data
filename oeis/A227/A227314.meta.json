@@ -1,5 +1,5 @@
 {
-  "description": "Number of prime factors, with multiplicity, of sum of first n composite numbers.",
+  "description": "Number of prime factors, with multiplicity, of the sum of the first n composite numbers.",
   "id": "A227314",
   "mentions": [
     "A001222",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

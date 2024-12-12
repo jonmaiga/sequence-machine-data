@@ -1,5 +1,5 @@
 {
-  "description": "Count of all totients in the reduced residue system of 2n-1.",
+  "description": "Number of totients in the reduced residue system of 2n-1.",
   "id": "A072455",
   "mentions": [
     "A000010",
@@ -7,9 +7,7 @@
     "A005277",
     "A037225",
     "A072451",
-    "A072453",
-    "A072454",
-    "A072457"
+    "A072454"
   ],
   "tags": [
     "formulas",
@@ -18,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

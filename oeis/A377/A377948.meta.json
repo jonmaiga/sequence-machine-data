@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that have at least 1 repeated decimal digit and whose decimal digits are nondecreasing as place value decreases.",
+  "id": "A377948",
+  "mentions": [
+    "A009993",
+    "A009994",
+    "A009995",
+    "A109303",
+    "A178788"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

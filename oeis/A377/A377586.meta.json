@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of directed Hamiltonian paths in the complete 4-partite graph K_{n,n,n,n}.",
+  "id": "A377586",
+  "mentions": [
+    "A190918",
+    "A234365",
+    "A322013",
+    "A322093"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

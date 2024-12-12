@@ -2,7 +2,8 @@
   "description": "Orders of non-Abelian simple groups of rank at least two.",
   "id": "A119630",
   "mentions": [
-    "A001034"
+    "A001034",
+    "A005180"
   ],
   "tags": [
     "nonn"

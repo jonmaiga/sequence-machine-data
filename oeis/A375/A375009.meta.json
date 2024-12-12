@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = smallest prime Q of a consecutive prime triple {P, Q, R} such that floor( (R-Q) * (Q-P) / 8 ) = n.",
+  "id": "A375009",
+  "mentions": [
+    "A001223",
+    "A083550"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

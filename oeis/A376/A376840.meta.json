@@ -1,0 +1,21 @@
+{
+  "description": "Take the integer partitions with at least 2 parts in order of their associated multinomial coefficients; a(n) is the sum of the n-th partition, i.e., the number of the row of A036038 (or A078760) in which the multinomial coefficient appears. In case of ties, take the sums (or row numbers) in nondecreasing order.",
+  "id": "A376840",
+  "mentions": [
+    "A000027",
+    "A036038",
+    "A056239",
+    "A078760",
+    "A376367",
+    "A376379"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Powerful numbers divisible by cubes of 2 distinct primes.",
+  "id": "A376936",
+  "mentions": [
+    "A007947",
+    "A030078",
+    "A082020",
+    "A082695",
+    "A085986",
+    "A126706",
+    "A162142",
+    "A177493",
+    "A286708",
+    "A307958",
+    "A320966",
+    "A361430",
+    "A370329",
+    "A372695",
+    "A376514"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

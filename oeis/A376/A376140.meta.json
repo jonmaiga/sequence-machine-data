@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors of n whose prime factorization has maximum exponent that is smaller than the maximum exponent in the prime factorization of n.",
+  "id": "A376140",
+  "mentions": [
+    "A000005",
+    "A005117",
+    "A005361",
+    "A051903",
+    "A362611",
+    "A375931",
+    "A375932"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

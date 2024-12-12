@@ -1,0 +1,31 @@
+{
+  "description": "Number of composite numbers c with n < c <= 2*n.",
+  "id": "A376759",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A035250",
+    "A060715",
+    "A063124",
+    "A065855",
+    "A070046",
+    "A075084",
+    "A077463",
+    "A108954",
+    "A246514",
+    "A307912",
+    "A307989",
+    "A376760",
+    "A376761"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Number of permutations of 0..(n-1) representable as 1,4,6,4,1-weighted consecutive sums of 5 adjacent elements of a sequence of n+4 nonnegative integers",
+  "description": "Number of permutations of 0..(n-1) representable as 1,4,6,4,1-weighted consecutive sums of 5 adjacent elements of a sequence of n+4 nonnegative integers.",
   "id": "A180215",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

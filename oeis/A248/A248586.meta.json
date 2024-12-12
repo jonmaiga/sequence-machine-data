@@ -1,5 +1,5 @@
 {
-  "description": "a(n)= Sum_{i=0..n} C(n,i)*C(2i,i)^2.",
+  "description": "a(n) = Sum_{i=0..n} C(n,i)*C(2i,i)^2.",
   "id": "A248586",
   "mentions": [
     "A002893",

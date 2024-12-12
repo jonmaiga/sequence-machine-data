@@ -1,0 +1,18 @@
+{
+  "description": "Least lucky multiple of 2*n+1, or 0 if no such multiple exists.",
+  "id": "A377775",
+  "mentions": [
+    "A000959",
+    "A377776",
+    "A377777"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

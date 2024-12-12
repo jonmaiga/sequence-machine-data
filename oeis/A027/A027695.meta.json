@@ -2,14 +2,17 @@
   "description": "Number of primitive polynomials of degree n over GF(4).",
   "id": "A027695",
   "mentions": [
+    "A027742",
+    "A295501",
     "A369291"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

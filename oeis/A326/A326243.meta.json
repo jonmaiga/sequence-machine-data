@@ -15,18 +15,16 @@
     "A326237",
     "A326246",
     "A326249",
-    "A326254",
     "A326255",
     "A326259"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "joeis"
   }
 }

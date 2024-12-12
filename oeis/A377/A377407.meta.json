@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that the alternating sums of consecutive terms are all distinct.",
+  "id": "A377407",
+  "mentions": [
+    "A101274",
+    "A363446"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

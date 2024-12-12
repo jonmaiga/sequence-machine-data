@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of squares <= 10^n that are not higher powers, i.e., terms of A076467.",
+  "id": "A378168",
+  "mentions": [
+    "A000290",
+    "A001597",
+    "A070428",
+    "A076467",
+    "A089579"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

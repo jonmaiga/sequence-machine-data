@@ -1,0 +1,18 @@
+{
+  "description": "Alternating sum of twin primes (A001097).",
+  "id": "A376890",
+  "mentions": [
+    "A001097",
+    "A008347",
+    "A048598"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

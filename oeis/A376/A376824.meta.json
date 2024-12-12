@@ -1,0 +1,23 @@
+{
+  "description": "Number of colorings of a toroidal n X n grid using exactly four colors under translational symmetry.",
+  "id": "A376824",
+  "mentions": [
+    "A179043",
+    "A184272",
+    "A184278",
+    "A294686",
+    "A376749",
+    "A376822",
+    "A376823",
+    "A376825"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

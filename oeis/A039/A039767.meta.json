@@ -1,9 +1,11 @@
 {
-  "description": "Numbers k such that gcd(phi(k), k-1) = number of prime factors of (k-1).",
+  "description": "Numbers k such that gcd(phi(k), k-1) = number of distinct prime factors of (k-1).",
   "id": "A039767",
   "mentions": [
     "A000010",
-    "A001221"
+    "A001221",
+    "A049559",
+    "A209211"
   ],
   "tags": [
     "easy",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that among two consecutive terms, the least term divides a positive number whose decimal expansion appears in that of the other term.",
+  "id": "A378106",
+  "mentions": [
+    "A342072",
+    "A378107"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

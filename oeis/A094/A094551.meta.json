@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that there are integers a < b with a+(a+1)+...+(n-1) = n+(n+1)+...+b.",
+  "description": "Numbers k such that there are integers a < b with a+(a+1)+...+(k-1) = k+(k+1)+...+b.",
   "id": "A094551",
   "mentions": [
+    "A002144",
     "A094550",
     "A094552",
     "A094553"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

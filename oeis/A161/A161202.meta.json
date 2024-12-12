@@ -1,10 +1,13 @@
 {
-  "description": "Numerators in expansion of (1-x)^(5/2)",
+  "description": "Numerators in expansion of (1-x)^(5/2).",
   "id": "A161202",
   "mentions": [
+    "A001790",
+    "A001803",
     "A002596",
     "A046161",
     "A161198",
+    "A161199",
     "A161200",
     "A161201"
   ],
@@ -17,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

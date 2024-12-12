@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose prime factorization has an odd minimum exponent that is larger than 1.",
+  "id": "A376173",
+  "mentions": [
+    "A001694",
+    "A030078",
+    "A036966",
+    "A051904",
+    "A062838",
+    "A376172"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

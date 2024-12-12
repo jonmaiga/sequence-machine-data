@@ -1,0 +1,27 @@
+{
+  "description": "a(0) = 1, and for n > 0, a(n) = A019565(Sum_{i=0..n-1} a(i)), where A019565 is the base-2 exp-function.",
+  "id": "A376406",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A019565",
+    "A048675",
+    "A056239",
+    "A093502",
+    "A097248",
+    "A276075",
+    "A276085",
+    "A376399",
+    "A376407",
+    "A376408"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": "a(n) is the multinomial coefficient given by the previous terms, i.e., a(n) = (a(1)+...+a(n-1))!/(a(1)!*...*a(n-1)!).",
+  "id": "A378118",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

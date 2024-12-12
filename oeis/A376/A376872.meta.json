@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n! * 2^(-n) * binomial(3*n - 1, 2*n) * binomial(2*n, n). Central terms of the Bessel triangle A132062.",
+  "id": "A376872",
+  "mentions": [
+    "A132062",
+    "A245066"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

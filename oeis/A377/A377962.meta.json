@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (8*G - Pi*log(2 + sqrt(3)))/3, where G = A006752.",
+  "id": "A377962",
+  "mentions": [
+    "A000796",
+    "A006752",
+    "A065918"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the product of the first floor(n/2) even-indexed primes and the product of the first floor(n/2) odd-indexed primes.",
+  "description": "Sum of the product of the first ceiling(n/2) odd-indexed primes and the product of the first floor(n/2) even-indexed primes; a(1) = 2.",
   "id": "A095134",
   "mentions": [
     "A000040",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

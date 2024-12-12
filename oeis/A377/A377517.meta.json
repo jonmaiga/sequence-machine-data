@@ -1,0 +1,25 @@
+{
+  "description": "The sum of the divisors of n that are terms in A276078.",
+  "id": "A377517",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A013661",
+    "A046897",
+    "A276078",
+    "A377515",
+    "A377516",
+    "A377520"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

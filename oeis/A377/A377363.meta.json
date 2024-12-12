@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 12/Pi^2.",
+  "id": "A377363",
+  "mentions": [
+    "A000583",
+    "A000796",
+    "A002388",
+    "A005408",
+    "A013661",
+    "A059956"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

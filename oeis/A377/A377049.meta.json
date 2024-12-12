@@ -1,0 +1,43 @@
+{
+  "description": "First term of the n-th differences of the nonsquarefree numbers. Inverse zero-based binomial transform of A013929.",
+  "id": "A377049",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A005117",
+    "A007442",
+    "A007674",
+    "A013929",
+    "A030016",
+    "A036263",
+    "A050320",
+    "A053797",
+    "A053806",
+    "A061398",
+    "A072284",
+    "A073576",
+    "A075526",
+    "A078147",
+    "A084758",
+    "A112925",
+    "A120992",
+    "A251092",
+    "A376311",
+    "A376591",
+    "A376593",
+    "A377036",
+    "A377041",
+    "A377047",
+    "A377048",
+    "A377050"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

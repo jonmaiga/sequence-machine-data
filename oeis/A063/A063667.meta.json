@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions of EulerPhi(x) = 12n + 2.",
+  "description": "Number of solutions of phi(x) = 12n + 2.",
   "id": "A063667",
   "mentions": [
     "A000010",

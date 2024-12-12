@@ -1,16 +1,11 @@
 {
-  "description": "Permutation of natural numbers such that A284005(a(n)) = A347188(n+1) for n >= 0.",
+  "description": "a(n) = 2*a(n - A130312(n)) + (A072649(n) - A072649(n - A130312(n))) mod 2 for n > 1 with a(0) = 0, a(1) = 1.",
   "id": "A348366",
   "mentions": [
-    "A000045",
     "A072649",
-    "A130312",
-    "A200714",
-    "A284005",
-    "A347188"
+    "A130312"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

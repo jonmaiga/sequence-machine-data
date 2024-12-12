@@ -6,7 +6,6 @@
     "A002077"
   ],
   "tags": [
-    "easy",
     "formulas",
     "nice",
     "nonn"
@@ -14,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

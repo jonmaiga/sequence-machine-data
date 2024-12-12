@@ -1,5 +1,5 @@
 {
-  "description": "Number of m such that Floor[Prime[m]/m] = n.",
+  "description": "Number of m such that floor(prime(m)/m) = n.",
   "id": "A072916",
   "mentions": [
     "A062742",

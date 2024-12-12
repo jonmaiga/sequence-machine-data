@@ -1,0 +1,22 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = A376484/(2*n+1).",
+  "id": "A376499",
+  "mentions": [
+    "A000012",
+    "A000244",
+    "A001700",
+    "A081567",
+    "A095049",
+    "A122068",
+    "A376484"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

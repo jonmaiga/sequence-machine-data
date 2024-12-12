@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1-3*x-sqrt(9*x^2-10*x+1))/(2*x).",
+  "description": "Expansion of (1-3*x-sqrt(9*x^2-10*x+1))/(2*x).",
   "id": "A082298",
   "mentions": [
     "A000108",

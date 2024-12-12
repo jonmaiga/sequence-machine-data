@@ -2,12 +2,14 @@
   "description": "Number of 3-regular bipartitions of n.",
   "id": "A328547",
   "mentions": [
+    "A000726",
     "A001936",
     "A022567",
     "A263002",
     "A328548"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

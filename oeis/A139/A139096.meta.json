@@ -1,5 +1,5 @@
 {
-  "description": "Infraperfect numbers: 2^(2p - 1) - 2^p, where p is A000043(n).",
+  "description": "Infraperfect numbers: a(n) = 2^(2*p - 1) - 2^p, where p is A000043(n).",
   "id": "A139096",
   "mentions": [
     "A000043",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 10,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

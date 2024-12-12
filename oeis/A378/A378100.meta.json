@@ -1,0 +1,21 @@
+{
+  "description": "Number of involutions in the symmetric group S_n with at least one fixed point.",
+  "id": "A378100",
+  "mentions": [
+    "A000085",
+    "A000166",
+    "A002467",
+    "A099174",
+    "A123023"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

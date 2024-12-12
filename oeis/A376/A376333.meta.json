@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m whose symmetric representation of sigma(m), SRS(m), consists of widths 0, 1, and 2.",
+  "id": "A376333",
+  "mentions": [
+    "A003056",
+    "A237593",
+    "A249223",
+    "A341960",
+    "A341969",
+    "A370206",
+    "A370209",
+    "A375611"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

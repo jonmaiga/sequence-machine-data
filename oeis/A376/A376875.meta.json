@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of ((1 + 1/a)*exp(-a) + (1 - 1/a)*exp(a))*sqrt(12/121) where a = Pi*sqrt(11/36).",
+  "id": "A376875",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

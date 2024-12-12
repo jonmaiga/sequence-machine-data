@@ -1,7 +1,9 @@
 {
-  "description": "(3*10^n+51)/9 for n>0.",
+  "description": "a(n) = (10^n+17)/3.",
   "id": "A173764",
-  "mentions": [],
+  "mentions": [
+    "A098406"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

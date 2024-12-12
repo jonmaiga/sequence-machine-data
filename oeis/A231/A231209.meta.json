@@ -1,5 +1,5 @@
 {
-  "description": "Smallest squarefree number k with 2^n ways to write k as k = x*y, where x, y = squarefree numbers, 1 <= x <= k, 1 <= y <= k.",
+  "description": "Smallest squarefree number k with 2^n ways to write k as k = x*y, where x, y = squarefree numbers, 1 <= x <= y <= k.",
   "id": "A231209",
   "mentions": [
     "A002110",
@@ -9,6 +9,7 @@
     "A231122"
   ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {

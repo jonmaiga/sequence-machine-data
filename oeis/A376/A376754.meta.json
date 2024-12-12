@@ -1,0 +1,20 @@
+{
+  "description": "Length of n-th run of primes in A376198.",
+  "id": "A376754",
+  "mentions": [
+    "A063124",
+    "A376198",
+    "A376201",
+    "A376750",
+    "A376751",
+    "A376753"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

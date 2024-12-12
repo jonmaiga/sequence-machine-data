@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of iterations of x -> 2 x + 3 to reach a nonprime, starting with prime(n) .",
+  "id": "A377120",
+  "mentions": [
+    "A000040",
+    "A181697",
+    "A181715",
+    "A377510",
+    "A377511",
+    "A377512",
+    "A377513",
+    "A377514"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

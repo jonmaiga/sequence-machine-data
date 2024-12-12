@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = b(5*n+1), with the sequence {b(n)} having Dirichlet g.f. Product_{chi} L(chi,s), where chi runs through all Dirichlet characters modulo 5; 5th column of A378007.",
+  "id": "A378008",
+  "mentions": [
+    "A378007"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

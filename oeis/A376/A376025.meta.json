@@ -1,0 +1,17 @@
+{
+  "description": "Number of elements of the free multiplicatively idempotent rig on n generators.",
+  "id": "A376025",
+  "mentions": [
+    "A005345"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

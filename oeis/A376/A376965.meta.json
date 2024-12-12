@@ -1,0 +1,17 @@
+{
+  "description": "Number of polycubes of size n and symmetry class A.",
+  "id": "A376965",
+  "mentions": [
+    "A000162",
+    "A038119"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

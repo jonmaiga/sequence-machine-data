@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. S(x,y) = Integral C(x,y)^2 * C(y,x) dx, where C(x,y)^2 - S(x,y)^2 = 1 and C(y,x) = Integral S(y,x)*C(x,y)*C(y,x) dy.",
+  "description": "E.g.f. S(x,y) = sin(x) / sqrt(1 - sin(x)^2 - sin(y)^2).",
   "id": "A324610",
   "mentions": [
     "A000182",

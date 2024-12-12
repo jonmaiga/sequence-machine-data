@@ -1,5 +1,5 @@
 {
-  "description": "Avoiding the pattern 231'1. To avoid 231'1 means not to have four consecutive letters such that if the third letter is removed, then in the obtained 3 letter word the smallest letter is the last one, and the largest letter is the second one.",
+  "description": "Number of partitions of order n avoiding the consecutive pattern 231'1.",
   "id": "A177476",
   "mentions": [
     "A117156",
@@ -7,7 +7,6 @@
     "A177471",
     "A177472",
     "A177473",
-    "A177474",
     "A177475",
     "A177477",
     "A177478",
@@ -16,15 +15,15 @@
     "A177481",
     "A177482",
     "A177483",
-    "A177484"
+    "A177484",
+    "A376694"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "description": "Denominator of sum S(n) defined in A376052.",
+  "id": "A376054",
+  "mentions": [
+    "A374663",
+    "A375516",
+    "A375522",
+    "A375531",
+    "A375532",
+    "A375781",
+    "A376048",
+    "A376051",
+    "A376052",
+    "A376053",
+    "A376055"
+  ],
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

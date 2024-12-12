@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: the n-th row gives the least sequence of n consecutive primes all of the form 4*m + 1.",
+  "id": "A376396",
+  "mentions": [
+    "A002144",
+    "A016813",
+    "A057624",
+    "A145986"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

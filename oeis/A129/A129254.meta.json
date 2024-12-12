@@ -1,16 +1,18 @@
 {
-  "description": "Numbers n such that both n and n+1 have at least one divisor of the form p^e with p<=e, p prime.",
+  "description": "Numbers k such that both k and k+1 have at least one divisor of the form p^e with p<=e, p prime.",
   "id": "A129254",
   "mentions": [
+    "A068781",
     "A100716",
     "A129251"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

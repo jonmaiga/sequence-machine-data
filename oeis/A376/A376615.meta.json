@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of iterations that n requires to reach a noninteger under the map x -> x / wt(x), where wt(k) is the binary weight of k (A000120); a(n) = 0 if n is a power of 2.",
+  "id": "A376615",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000120",
+    "A049445",
+    "A065878",
+    "A376616",
+    "A376617",
+    "A376619"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

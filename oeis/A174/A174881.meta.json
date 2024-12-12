@@ -1,5 +1,5 @@
 {
-  "description": "Number of admissible graphs of order n.",
+  "description": "a(n) = n^n * (n+1)^n.",
   "id": "A174881",
   "mentions": [
     "A000169",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
-    "source": "joeis"
+    "size": 14,
+    "source": "oeis-bfile"
   }
 }

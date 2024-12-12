@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that to phi(n) = pi(n)+1.",
+  "description": "Numbers n such that phi(n) = pi(n)+1.",
   "id": "A073456",
   "mentions": [
     "A000010",

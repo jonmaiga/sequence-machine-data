@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that 6n+1 is term in A005471.",
+  "description": "Numbers k such that 6k+1 is a term in A005471.",
   "id": "A175281",
   "mentions": [
     "A005471"

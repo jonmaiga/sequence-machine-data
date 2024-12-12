@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+1 and n+2 are highly composite numbers (2), i.e., all prime divisors <= 7 (A002473).",
+  "description": "Numbers k such that k, k+1 and k+2 are 7-smooth, i.e., all prime divisors <= 7 (A002473).",
   "id": "A085904",
   "mentions": [
     "A002072",

@@ -2,8 +2,9 @@
   "description": "Decimal expansion of 9192631770 / 299792458, the conversion factor from the old SI unit metre (m) to the combination of the 2019 SI units c*Δν_{Cs}^{-1}.",
   "id": "A322579",
   "mentions": [
-    "A003878",
+    "A003678",
     "A230458",
+    "A244823",
     "A322415"
   ],
   "tags": [

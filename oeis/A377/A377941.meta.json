@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of free polyominoes with n cells, where the maximum number of cells in any row or column is k.",
+  "id": "A377941",
+  "mentions": [
+    "A000105",
+    "A377942"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

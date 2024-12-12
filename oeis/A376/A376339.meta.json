@@ -1,0 +1,13 @@
+{
+  "description": "Number of nonnegative k <= n such that 2^(n - k) + 3^k is prime.",
+  "id": "A376339",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

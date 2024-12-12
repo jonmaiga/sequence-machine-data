@@ -1,0 +1,26 @@
+{
+  "description": "The number of prime factors of !n = A000166(n), counted with multiplicity.",
+  "id": "A378161",
+  "mentions": [
+    "A000166",
+    "A001222",
+    "A152024",
+    "A195207",
+    "A195208",
+    "A195209",
+    "A195210",
+    "A301423",
+    "A378157",
+    "A378160",
+    "A378162"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest triangular numbers with possible initial (least significant) digits.",
+  "description": "Smallest triangular number whose final digits are A068125(n).",
   "id": "A068126",
   "mentions": [
     "A068125"
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 51,
     "source": "joeis"
   }

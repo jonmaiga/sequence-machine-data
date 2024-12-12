@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of positive integers that have n prime factors and these are all <= n.",
+  "id": "A377537",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001222",
+    "A037031",
+    "A113645",
+    "A343935"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

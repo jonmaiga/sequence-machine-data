@@ -1,13 +1,15 @@
 {
-  "description": "(n / sum of digits of n) and (n+1 / sum of digits of n+1) are both semiprime.",
+  "description": "Numbers k such that (k / sum of digits of k) and (k+1 / sum of digits of k+1) are both semiprime.",
   "id": "A085774",
-  "mentions": [],
+  "mentions": [
+    "A085772"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 38,
     "source": "oeis-entry"
   }

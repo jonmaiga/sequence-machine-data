@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of embeddings on the sphere of 2-connected homeomorphically irreducible planar graphs with n nodes and k faces, k=4..2n-4.",
+  "id": "A378075",
+  "mentions": [
+    "A212438",
+    "A342060",
+    "A378074",
+    "A378076",
+    "A378077"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

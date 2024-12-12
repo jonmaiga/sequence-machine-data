@@ -1,5 +1,5 @@
 {
-  "description": "Number of 0's in A127962(n).",
+  "description": "Number of 0's in the binary expansion of A127962(n).",
   "id": "A127964",
   "mentions": [
     "A000978",
@@ -16,12 +16,14 @@
     "A127962"
   ],
   "tags": [
+    "base",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-entry"
   }
 }

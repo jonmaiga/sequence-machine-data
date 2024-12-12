@@ -1,16 +1,19 @@
 {
-  "description": "a(n)=3^((3^n - 1)/2).",
+  "description": "a(n) = 3^((3^n - 1)/2).",
   "id": "A134799",
   "mentions": [
-    "A131709"
+    "A020760",
+    "A131709",
+    "A376870"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
-    "source": "joeis"
+    "size": 6,
+    "source": "oeis-bfile"
   }
 }

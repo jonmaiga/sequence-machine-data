@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of A325973, where A325973 is the arithmetic mean of {sum of unitary divisors} and {sum of squarefree divisors}.",
+  "id": "A378433",
+  "mentions": [
+    "A034448",
+    "A048111",
+    "A048250",
+    "A325973",
+    "A378434"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

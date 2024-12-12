@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of terms in the range of A276087 that are <= n, where A276087(n) = A276086(A276086(n)) [the twofold application of the primorial base exp-function].",
+  "id": "A377983",
+  "mentions": [
+    "A276085",
+    "A276086",
+    "A276087",
+    "A359550",
+    "A377870",
+    "A377871",
+    "A377982"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

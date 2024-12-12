@@ -1,5 +1,5 @@
 {
-  "description": "This sequence lists the \"toscodicity\" of the integers, the minimum number of steps needed to transform the integer into 153 (which happens to be the sum of the cube of its digits, the sum of the first 17 integers and fishily \"happens\" to be the number of fish mentioned in John 21:10) by the TOSCOD (triple or sum cubes of digits) operator.",
+  "description": "Minimum number of steps needed to transform n into 153 where each step is either tripling or taking the sum of cubes of digits.",
   "id": "A072420",
   "mentions": [
     "A006577"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 100,
-    "source": "oeis-entry"
+    "size": 87,
+    "source": "joeis"
   }
 }

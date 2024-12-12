@@ -1,0 +1,14 @@
+{
+  "description": "Smallest terms which are the concatenation of two unambiguous distinct integers > 0.",
+  "id": "A376297",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Central moment sequence of tr(A^4) in USp(4).",
   "id": "A138354",
   "mentions": [
-    "A018224"
+    "A018224",
+    "A201805"
   ],
   "tags": [
     "formulas",

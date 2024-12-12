@@ -1,0 +1,20 @@
+{
+  "description": "Number of attractors under iteration of the map sending a positive integer to the product of its leading base-n digit and the sum of the squares of its base-n digits.",
+  "id": "A377088",
+  "mentions": [
+    "A193586",
+    "A376270",
+    "A376272",
+    "A377086",
+    "A377087"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

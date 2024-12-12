@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(5^(2^n)-1)/2^(n+2)/3.",
+  "description": "a(n) = (5^(2^n)-1)/2^(n+2)/3.",
   "id": "A068532",
   "mentions": [],
   "tags": [

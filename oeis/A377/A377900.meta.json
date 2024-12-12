@@ -1,0 +1,18 @@
+{
+  "description": "After A121053(n) has been found, a(n) is the smallest candidate for A121053(n+1) that has not been eliminated.",
+  "id": "A377900",
+  "mentions": [
+    "A099862",
+    "A121053",
+    "A377898"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

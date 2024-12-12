@@ -2,16 +2,18 @@
   "description": "Triangular numbers in which the k-th significant digit either divides k or is a multiple of k.",
   "id": "A069559",
   "mentions": [
+    "A000217",
     "A069556",
     "A069557",
-    "A069558"
+    "A069558",
+    "A069570"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 40,
     "source": "joeis"
   }

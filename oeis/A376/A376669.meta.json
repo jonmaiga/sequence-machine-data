@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers whose maximum frequency in a fixed row of A036038 (or A078760) is equal to 2, i.e., numbers m such that A376663(m) = 2.",
+  "id": "A376669",
+  "mentions": [
+    "A036038",
+    "A078760",
+    "A325306",
+    "A376372",
+    "A376663",
+    "A376667"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

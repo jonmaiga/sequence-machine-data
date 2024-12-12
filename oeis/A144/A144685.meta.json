@@ -1,15 +1,17 @@
 {
   "description": "Size of acyclic domain of size n based on the alternating scheme.",
   "id": "A144685",
-  "mentions": [],
+  "mentions": [
+    "A369614"
+  ],
   "tags": [
+    "easy",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 18,
+    "offset": 1,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

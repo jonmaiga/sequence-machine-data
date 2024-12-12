@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which A276085(k) is a multiple of 3125, where A276085 is fully additive with a(p) = p#/p.",
+  "id": "A377878",
+  "mentions": [
+    "A000720",
+    "A276085",
+    "A373140",
+    "A377869",
+    "A377872",
+    "A377873",
+    "A377877"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

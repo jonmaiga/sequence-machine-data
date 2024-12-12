@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. For n > 1, a(n) is the number of terms a(i); 1 <= i <= n-1 such that phi(a(i)) = phi(a(n-1)), where phi is Euler's totient function A000010.",
+  "id": "A378192",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A000040",
+    "A006093"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Obverse convolution (n^2 - n)**(n^2 - n); see Comments.",
+  "id": "A375056",
+  "mentions": [
+    "A279019",
+    "A374848"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -2,6 +2,8 @@
   "description": "The length of the longest sequence of consecutive integers, each equal to 1 or -1 modulo at least one of the first n primes.",
   "id": "A144311",
   "mentions": [
+    "A048670",
+    "A049300",
     "A058989"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

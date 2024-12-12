@@ -1,5 +1,5 @@
 {
-  "description": "Difference between a nontrivial prime power (A025475) and the previous prime.",
+  "description": "Difference between a nontrivial prime power (A246547) and the previous prime.",
   "id": "A060847",
   "mentions": [
     "A000961",
@@ -10,7 +10,8 @@
     "A013632",
     "A013633",
     "A025475",
-    "A049711"
+    "A049711",
+    "A246547"
   ],
   "tags": [
     "formulas",
@@ -19,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 95,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

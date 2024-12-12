@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals downward: T(n,k) is the number of tilings of the n X k torus up to horizontal reflections by a tile that is not fixed under horizontal reflection.",
+  "description": "Table read by downward antidiagonals: T(n,k) is the number of tilings of the n X k torus up to horizontal reflections by a tile that is not fixed under horizontal reflection.",
   "id": "A368306",
   "mentions": [
     "A184271",

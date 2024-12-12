@@ -1,8 +1,9 @@
 {
-  "description": "Number of permutations of 0..(n-1) representable as consecutive sums of 7 adjacent elements of a sequence of n+6 nonnegative integers",
+  "description": "Number of permutations of 0..(n-1) representable as consecutive sums of 7 adjacent elements of a sequence of n+6 nonnegative integers.",
   "id": "A180210",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

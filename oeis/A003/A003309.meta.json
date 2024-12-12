@@ -1,5 +1,5 @@
 {
-  "description": "Ludic numbers: apply the same sieve as Eratosthenes, but cross off every k-th /remaining/ number.",
+  "description": "Ludic numbers: apply the same sieve as Eratosthenes, but cross off every k-th remaining number.",
   "id": "A003309",
   "mentions": [
     "A000959",
@@ -36,7 +36,9 @@
     "A297158",
     "A302032",
     "A302036",
-    "A302038"
+    "A302038",
+    "A376236",
+    "A376237"
   ],
   "tags": [
     "easy",

@@ -3,6 +3,7 @@
   "id": "A046107",
   "mentions": [
     "A007138",
+    "A061075",
     "A112505"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 39,
     "source": "oeis-bfile"
   }
 }

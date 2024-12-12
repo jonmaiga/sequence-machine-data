@@ -1,0 +1,23 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k)=4^k*Sum_{j=1..n} sin(2*j*Pi/(2*n+1))^(2*k).",
+  "id": "A376484",
+  "mentions": [
+    "A000004",
+    "A000244",
+    "A001477",
+    "A005408",
+    "A016945",
+    "A020876",
+    "A033876",
+    "A322459"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

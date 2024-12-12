@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(sigma(n)) - sigma(n) + 1 is prime.",
+  "description": "Numbers k such that sigma(sigma(k)) - sigma(k) + 1 is prime.",
   "id": "A231587",
   "mentions": [
     "A000203",

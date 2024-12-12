@@ -1,0 +1,20 @@
+{
+  "description": "Number of cycles under iteration of the map sending a positive integer to the product of its leading base-n digit and the sum of the squares of its base-n digits.",
+  "id": "A377087",
+  "mentions": [
+    "A193585",
+    "A376270",
+    "A376272",
+    "A377086",
+    "A377088"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

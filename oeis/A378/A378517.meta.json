@@ -1,0 +1,18 @@
+{
+  "description": "Number of dominating nonunique simple graphs on n nodes.",
+  "id": "A378517",
+  "mentions": [
+    "A000088",
+    "A378516"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

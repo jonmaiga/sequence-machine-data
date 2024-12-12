@@ -5,16 +5,19 @@
     "A000040",
     "A004022",
     "A006880",
-    "A358497"
+    "A039986",
+    "A358497",
+    "A376084",
+    "A376118",
+    "A376918"
   ],
   "tags": [
     "base",
-    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

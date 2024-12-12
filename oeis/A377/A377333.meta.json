@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers k such that there does not exist a fully symmetric k-celled polycube, i.e., such that A376971(k) = 0.",
+  "id": "A377333",
+  "mentions": [
+    "A042964",
+    "A376971",
+    "A377332",
+    "A377337"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

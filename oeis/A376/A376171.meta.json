@@ -1,0 +1,30 @@
+{
+  "description": "Powerful numbers whose prime factorization has an odd maximum exponent.",
+  "id": "A376171",
+  "mentions": [
+    "A001694",
+    "A030078",
+    "A050997",
+    "A051903",
+    "A079395",
+    "A082695",
+    "A092759",
+    "A102834",
+    "A138031",
+    "A179665",
+    "A335988",
+    "A376092",
+    "A376142",
+    "A376170"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

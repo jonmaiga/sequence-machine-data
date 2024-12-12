@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1. For n > 1 if a(n-1) is a novel term a(n) = number of a(i); 1 <= i <= n-1 whose sum of decimal digits does not exceed A007953(a(n-1)). If a(n-1) has occurred k (>1) times, a(n) = k*a(n-1).",
+  "id": "A378293",
+  "mentions": [
+    "A007953"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

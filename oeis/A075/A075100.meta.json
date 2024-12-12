@@ -1,5 +1,5 @@
 {
-  "description": "Number of terms of length < n that are needed on the way to computing all words of length n in the free monoid with two generators.",
+  "description": "Number of words of length strictly between 1 and n that are needed on the way to computing all words of length n in the free monoid with two generators.",
   "id": "A075100",
   "mentions": [
     "A003313",
@@ -9,8 +9,7 @@
   "tags": [
     "hard",
     "more",
-    "nonn",
-    "obsc"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k with the property that the character table of S_k contains a zero in every column.",
+  "description": "Numbers k with the property that the character table of S_k contains a zero in every nontrivial column.",
   "id": "A363701",
   "mentions": [
     "A000217",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

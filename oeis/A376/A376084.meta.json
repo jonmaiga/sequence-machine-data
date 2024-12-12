@@ -1,0 +1,23 @@
+{
+  "description": "Number of cryptarithmically unique primes with n decimal digits.",
+  "id": "A376084",
+  "mentions": [
+    "A004022",
+    "A006879",
+    "A358497",
+    "A374238",
+    "A376918"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

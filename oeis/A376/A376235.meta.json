@@ -1,0 +1,16 @@
+{
+  "description": "Prime numbers with Hamming weight neither prime nor a power of 2.",
+  "id": "A376235",
+  "mentions": [
+    "A000120",
+    "A174090"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

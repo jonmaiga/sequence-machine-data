@@ -1,0 +1,18 @@
+{
+  "description": "Terms k of A358657 such that lpf(k-1) and lpf(k+1) are twin primes pair, where lpf(k) = A020639(k) is the least prime dividing k.",
+  "id": "A378265",
+  "mentions": [
+    "A001097",
+    "A020639",
+    "A358657"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

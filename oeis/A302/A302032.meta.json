@@ -1,5 +1,5 @@
 {
-  "description": "A032742 analog for a nonstandard factorization process based on the Ludic sieve (A255127); Discard a single instance of the Ludic factor A272565(n) from n.",
+  "description": "Discard the least ludic factor of n: a(n) = A255127(A260738(c) + r - 1, A260739(c)), where r = A260738(n), c = A260739(n) are the row and the column index of n in the table A255127; a(n) = 1 if c = 1.",
   "id": "A302032",
   "mentions": [
     "A003309",

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not squares of triangular numbers. Complement of A000537.",
+  "id": "A376573",
+  "mentions": [
+    "A000537",
+    "A302058"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

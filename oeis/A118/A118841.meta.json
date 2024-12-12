@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that ceiling(phi^n) is prime.",
+  "description": "Numbers k such that ceiling(phi^k) is prime.",
   "id": "A118841",
   "mentions": [
     "A001606",

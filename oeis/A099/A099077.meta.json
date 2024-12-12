@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that pi(1).pi(2) ... pi(n-1).pi(n) is prime (dot between numbers means concatenation).",
+  "description": "Numbers k such that pi(1).pi(2) ... pi(k-1).pi(k) is prime (dot between numbers means concatenation).",
   "id": "A099077",
   "mentions": [
+    "A000720",
     "A046035",
     "A099078",
     "A099079",

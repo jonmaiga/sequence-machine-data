@@ -1,5 +1,5 @@
 {
-  "description": "Number of graphs on n unlabeled nodes.",
+  "description": "Number of simple graphs on n unlabeled nodes.",
   "id": "A000088",
   "mentions": [
     "A000055",

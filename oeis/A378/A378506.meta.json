@@ -1,0 +1,21 @@
+{
+  "description": "The number of solutions to the equation phi(phi(x)) = n, where phi is the Euler totient function.",
+  "id": "A378506",
+  "mentions": [
+    "A000010",
+    "A010554",
+    "A014197",
+    "A378507",
+    "A378508"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Inverse of bijection A377836.",
+  "id": "A377837",
+  "mentions": [
+    "A377836"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

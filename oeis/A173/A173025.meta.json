@@ -1,7 +1,8 @@
 {
-  "description": "Numbers having no isolated digits \"11\" in their binary representations.",
+  "description": "Numbers whose binary representation contains no isolated digits \"11\".",
   "id": "A173025",
   "mentions": [
+    "A007088",
     "A144795",
     "A173021",
     "A173024"

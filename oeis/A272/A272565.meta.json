@@ -1,5 +1,5 @@
 {
-  "description": "Ludic factor of n.",
+  "description": "Smallest ludic factor of n.",
   "id": "A272565",
   "mentions": [
     "A003309",

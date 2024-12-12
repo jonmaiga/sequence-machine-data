@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property p = n^2 - 13 and q = n^2 + 13 are primes.",
+  "description": "Numbers k such that k^2 - 13 and k^2 + 13 are primes.",
   "id": "A177833",
   "mentions": [
     "A138375",

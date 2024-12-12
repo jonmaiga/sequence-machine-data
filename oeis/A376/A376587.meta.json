@@ -1,0 +1,22 @@
+{
+  "description": "Minimum number of diagonal transversals in diagonalized cyclic diagonal Latin squares of order 2n+1.",
+  "id": "A376587",
+  "mentions": [
+    "A287647",
+    "A342998",
+    "A366332",
+    "A372922",
+    "A372923",
+    "A375475"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

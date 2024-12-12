@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers a(1), a(2), a(3), ... such that for any n > 0, S(n) = Sum_{k = 1..n} b(k)/a(k) < 1, where {b(k)} is the sequence {7/6, 5/4, 5/4, 5/4, ...}.",
+  "id": "A376062",
+  "mentions": [
+    "A004168",
+    "A082732",
+    "A374663",
+    "A375516",
+    "A375522",
+    "A375531",
+    "A375532",
+    "A375781",
+    "A376048",
+    "A376061",
+    "A376185",
+    "A376186"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

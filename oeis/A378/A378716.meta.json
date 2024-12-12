@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-Fibonacci polyominoes with an area of n, with k > 1.",
+  "id": "A378716",
+  "mentions": [
+    "A079957",
+    "A182097",
+    "A378704",
+    "A378706",
+    "A378707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers k with digital sum d such that any positive integer <= d is the sum of contiguous digits of k.",
+  "id": "A376314",
+  "mentions": [
+    "A007953",
+    "A296447",
+    "A376423"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

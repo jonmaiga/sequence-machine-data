@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle with the Legendre symbol (-m / prime(n)) for m = 0,1, ..., prime(n)-1, for n >= 1. Caution for row n = 1.",
+  "description": "Irregular triangle read by rows: T(n, k) = Legendre symbol (-k / prime(n)) for k = 0, ..., prime(n)-1, for n >= 1, with T(n, 0) = 0, T(1, 1) = 1.",
   "id": "A268921",
   "mentions": [
     "A000040",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 77,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

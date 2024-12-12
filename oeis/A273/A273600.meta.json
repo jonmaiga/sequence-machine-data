@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (11^n - 8^n)/3 is prime.",
+  "description": "Numbers k such that (11^k - 8^k)/3 is prime.",
   "id": "A273600",
   "mentions": [
     "A005808",

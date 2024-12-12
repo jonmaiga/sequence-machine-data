@@ -1,0 +1,21 @@
+{
+  "description": "Positions of primes in the sequence of numbers of the form 2^i * 3^j - 1 (A069353).",
+  "id": "A376699",
+  "mentions": [
+    "A003586",
+    "A005105",
+    "A069353",
+    "A375906",
+    "A376700",
+    "A376701"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

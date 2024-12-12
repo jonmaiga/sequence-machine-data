@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of subgroups of S_n isomorphic to S_k up to conjugacy, where S_n is the n-th symmetric group.",
+  "id": "A378177",
+  "mentions": [
+    "A004526",
+    "A378266",
+    "A378273",
+    "A378274"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

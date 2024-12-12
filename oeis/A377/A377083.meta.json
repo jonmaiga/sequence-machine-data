@@ -1,0 +1,18 @@
+{
+  "description": "Number of iterations required for elated number A376272(n) to converge to 1.",
+  "id": "A377083",
+  "mentions": [
+    "A090425",
+    "A376270",
+    "A376272"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

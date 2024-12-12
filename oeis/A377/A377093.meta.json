@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table read by rows; for any n > 0, let u(n) be the least positive integer not among the first n-1 rows; the n-th row lists the u(n) least multiples of u(n) not yet in the sequence.",
+  "id": "A377093",
+  "mentions": [
+    "A001462",
+    "A361748",
+    "A376903",
+    "A376905",
+    "A377094"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (40)^n * cos(nB), where B is the angle opposite side CA in a triangle ABC having sidelengths |BC|=3, |CA|=4, |AB|=5; ABC is the smallest integer-sided right triangle.",
+  "id": "A376283",
+  "mentions": [
+    "A139030",
+    "A374880",
+    "A376285",
+    "A376455"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

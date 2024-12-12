@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3 X n mazes that can be navigated from the top left corner to the bottom right corner.",
+  "description": "Number of edge subsets E of the 3 X n grid graph such that E contains a path between the top left node and the bottom right node.",
   "id": "A349596",
   "mentions": [
     "A349594",

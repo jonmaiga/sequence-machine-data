@@ -1,9 +1,11 @@
 {
-  "description": "Triangle sequence: t(n,m)=Product[m*k, {k, 1, n}].",
+  "description": "Triangle read by rows: T(n,k) = n^k * k!.",
   "id": "A153188",
   "mentions": [
     "A000165",
-    "A008544"
+    "A008544",
+    "A061711",
+    "A368561"
   ],
   "tags": [
     "formulas",
@@ -11,8 +13,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 40,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
   }
 }

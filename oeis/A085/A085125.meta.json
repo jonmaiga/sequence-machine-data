@@ -1,8 +1,9 @@
 {
-  "description": "Multiples of 2 which are members of A002473. Or multiples of 2 with the largest prime divisor < 10.",
+  "description": "Even numbers which are 7-smooth.",
   "id": "A085125",
   "mentions": [
     "A002473",
+    "A005843",
     "A080194",
     "A085126",
     "A085127",
@@ -12,12 +13,12 @@
     "A085132"
   ],
   "tags": [
-    "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 61,
     "source": "joeis"
   }

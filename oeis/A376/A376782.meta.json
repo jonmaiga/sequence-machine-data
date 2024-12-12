@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,m) is the number of unlabeled graphs with n vertices having m minimum forbidden subgraphs, n >= 1, 1 <= m <= A371162(n).",
+  "id": "A376782",
+  "mentions": [
+    "A000012",
+    "A000088",
+    "A002865",
+    "A006897",
+    "A103221",
+    "A113311",
+    "A371161",
+    "A371162",
+    "A376780",
+    "A376781"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "Primes prime(n) such that -prime(n-1)+3prime(n)-3prime(n+1)+prime(n+2)=0.",
+  "description": "Primes prime(n) such that -prime(n-1) + 3*prime(n) - 3*prime(n+1) + prime(n+2) = 0.",
   "id": "A139313",
   "mentions": [
     "A000040",
     "A006562",
+    "A036264",
     "A064149"
   ],
   "tags": [

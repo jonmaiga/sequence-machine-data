@@ -1,7 +1,8 @@
 {
-  "description": "a(1) = 1, a(n) = smallest multiple of n using prime digits if n is composite else smallest multiple of n using composite digits; a(10k) = 0.",
+  "description": "a(1) = 1, a(n) = smallest multiple of n using prime digits if n is composite else smallest multiple of n using composite digits, with a(n) = 0 if there are none.",
   "id": "A078250",
   "mentions": [
+    "A074162",
     "A078239",
     "A078240"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

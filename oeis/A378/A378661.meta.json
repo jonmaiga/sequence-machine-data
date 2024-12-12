@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of A083211: a(n) = 1 if n is abundant and is not Zumkeller, otherwise 0.",
+  "id": "A378661",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A083206",
+    "A083210",
+    "A083211",
+    "A179527",
+    "A294937",
+    "A378600"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

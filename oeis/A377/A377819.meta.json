@@ -1,0 +1,23 @@
+{
+  "description": "Powerful numbers that have no more than one even exponent in their prime factorization.",
+  "id": "A377819",
+  "mentions": [
+    "A001694",
+    "A056798",
+    "A065487",
+    "A335988",
+    "A350388",
+    "A377817",
+    "A377818"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

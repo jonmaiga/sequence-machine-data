@@ -1,5 +1,5 @@
 {
-  "description": "Transpose of A091449: array T(n,k) read by antidiagonals, where column n is the increasing sequence of numbers k for which the simple continued fraction of sqrt(k) has period n.",
+  "description": "Transpose of A091449: array T(n,k) read by antidiagonals, where column k is the increasing sequence of numbers m for which the simple continued fraction of sqrt(m) has period k, n >= 1, k >= 0.",
   "id": "A091450",
   "mentions": [
     "A002522",

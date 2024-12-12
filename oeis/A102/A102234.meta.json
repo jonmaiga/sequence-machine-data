@@ -2,6 +2,7 @@
   "description": "Slowest increasing sequence such that no digit \"d\" has a copy of itself at \"d\" digits, left or right.",
   "id": "A102234",
   "mentions": [
+    "A052382",
     "A102150"
   ],
   "tags": [

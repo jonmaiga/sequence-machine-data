@@ -1,11 +1,12 @@
 {
-  "description": "Values of n such that P[n]=4n^2-154n+1523 is prime and also {P[n+1],...,P[n+8-1]} are prime numbers. Namely: the terms are arguments introducing a sequence of 8 polynomially consecutive primes with respect to 4x^2-154x+1523 polynomial communicated by Rivera (2003).",
+  "description": "Values of k such that {P(k), P(k+1), ..., P(k+7)} are all prime numbers, where P(k) = 4*k^2 - 154*k + 1523.",
   "id": "A090110",
   "mentions": [
     "A055561",
     "A090101",
     "A090102",
     "A090107",
+    "A090108",
     "A090109",
     "A090563"
   ],
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
-    "source": "oeis-entry"
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

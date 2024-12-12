@@ -1,14 +1,15 @@
 {
-  "description": "Even squares k such that k-1 is divisible by a square.",
+  "description": "Even squares k such that k-1 is divisible by a square > 1.",
   "id": "A088033",
   "mentions": [
     "A088034"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 38,
     "source": "oeis-entry"
   }

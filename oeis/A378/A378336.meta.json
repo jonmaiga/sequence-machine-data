@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n node connected sensed planar maps with an external face and k triangular internal faces, n >= 3, 1 <= k <= 2*n - 5.",
+  "id": "A378336",
+  "mentions": [
+    "A002709",
+    "A002710",
+    "A002711",
+    "A262586",
+    "A341923",
+    "A378103",
+    "A378335",
+    "A378337",
+    "A378338",
+    "A378340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of chains in the poset of permutations of [n].",
+  "id": "A375836",
+  "mentions": [
+    "A048994",
+    "A330804",
+    "A331955",
+    "A331956",
+    "A331957",
+    "A375835"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

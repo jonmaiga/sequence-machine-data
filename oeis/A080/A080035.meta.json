@@ -1,5 +1,5 @@
 {
-  "description": "\"Orderly\" Friedman numbers (or \"good\" Friedman numbers): Friedman numbers (A036057) where the construction digits are used in the proper order.",
+  "description": "\"Orderly\" Friedman numbers (or \"good\" or \"nice\" Friedman numbers): Friedman numbers (A036057) where the construction digits are used in the proper order.",
   "id": "A080035",
   "mentions": [
     "A036057",

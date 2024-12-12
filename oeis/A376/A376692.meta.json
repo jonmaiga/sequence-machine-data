@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with the most significant digit odd and alternating parity of digits.",
+  "id": "A376692",
+  "mentions": [
+    "A030141",
+    "A030142",
+    "A030143",
+    "A062285",
+    "A080466"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "High-temperature spin-1/2 Ising model series for second derivative of susceptibility with respect to magnetic field for A_4* lattice.",
+  "description": "High-temperature spin-1/2 Ising model series for second derivative of susceptibility with respect to magnetic field for hyper-body-centered-cubic lattice.",
   "id": "A010367",
   "mentions": [
     "A010047",

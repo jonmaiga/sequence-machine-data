@@ -1,7 +1,13 @@
 {
   "description": "Product of omega(n!) and bigomega(n!).",
   "id": "A113902",
-  "mentions": [],
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A022559"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

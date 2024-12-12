@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the least prime factor of 6*n+1 > the least prime factor of 6*n-1, A107744(n) > A107745(n).",
+  "description": "Numbers k such that the least prime factor of 6*k+1 > the least prime factor of 6*k-1, A107744(k) > A107745(k).",
   "id": "A107746",
   "mentions": [
     "A016861",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

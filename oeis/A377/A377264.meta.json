@@ -1,0 +1,24 @@
+{
+  "description": "Consider the recurrence d(k) = (d(k-3)*d(k-2) + 1)/(d(k-5)*d(k-4)*d(k-3)^2*d(k-2)^2*d(k-1)), with d(0..4) = {1,1,1,2,1}. a(n) = numerator(d(2*n+1)).",
+  "id": "A377264",
+  "mentions": [
+    "A006720",
+    "A028940",
+    "A157002",
+    "A157003",
+    "A160702",
+    "A171416",
+    "A173992",
+    "A173993",
+    "A254314"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

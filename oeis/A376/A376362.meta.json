@@ -1,0 +1,23 @@
+{
+  "description": "The number of unitary divisors that are squares of primes applied to the powerful numbers.",
+  "id": "A376362",
+  "mentions": [
+    "A001694",
+    "A077761",
+    "A090699",
+    "A369427",
+    "A376361",
+    "A376364",
+    "A376366"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of edge cuts in the n-double cone graph.",
+  "id": "A377759",
+  "mentions": [
+    "A158525"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

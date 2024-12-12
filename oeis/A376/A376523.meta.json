@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{k=0..n} (k^3 + n - k).",
+  "id": "A376523",
+  "mentions": [
+    "A323541",
+    "A374881",
+    "A374886",
+    "A376524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

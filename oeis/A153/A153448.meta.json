@@ -1,5 +1,5 @@
 {
-  "description": "3 times 12-gonal (or dodecagonal) numbers: 3*n*(5*n-4).",
+  "description": "3 times 12-gonal (or dodecagonal) numbers: a(n) = 3*n*(5*n-4).",
   "id": "A153448",
   "mentions": [
     "A033428",

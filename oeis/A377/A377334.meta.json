@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-celled polycubes with full symmetry and the rotation point of the symmetries in the center of a cell (that may or may not be part of the polycube).",
+  "id": "A377334",
+  "mentions": [
+    "A351127",
+    "A376971",
+    "A377335"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

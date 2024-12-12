@@ -1,7 +1,9 @@
 {
-  "description": "[ n(n-1)(n-2)(n-3)/25 ].",
+  "description": "a(n) = floor( n*(n-1)*(n-2)*(n-3)/25 ).",
   "id": "A011935",
-  "mentions": [],
+  "mentions": [
+    "A011915"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/((1 - x)^3 - 9*x)^(1/3).",
+  "id": "A376802",
+  "mentions": [
+    "A004987",
+    "A098536",
+    "A361895",
+    "A376803",
+    "A376804",
+    "A376805",
+    "A376806"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

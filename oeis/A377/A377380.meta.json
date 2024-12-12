@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first positive number k such that k is alternately a quadratic residue and nonresidue modulo the first n primes, but not the n+1'th.",
+  "id": "A377380",
+  "mentions": [
+    "A096636",
+    "A377212"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

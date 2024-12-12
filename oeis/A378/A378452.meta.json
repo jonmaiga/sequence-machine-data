@@ -1,0 +1,17 @@
+{
+  "description": "Dirichlet inverse of A007875, where A007875(n) = phi(2^omega(n)).",
+  "id": "A378452",
+  "mentions": [
+    "A007875",
+    "A378453"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

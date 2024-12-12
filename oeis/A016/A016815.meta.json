@@ -1,7 +1,10 @@
 {
-  "description": "(4n+1)^3.",
+  "description": "a(n) = (4*n + 1)^3.",
   "id": "A016815",
-  "mentions": [],
+  "mentions": [
+    "A000578",
+    "A016813"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 35,
     "source": "joeis"
   }
 }

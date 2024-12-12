@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 5*a(n - 1) - 2*n for n>0, a(0) = 1.",
+  "description": "a(n) = 5*a(n-1) - 2*n for n > 0, a(0) = 1.",
   "id": "A268414",
   "mentions": [
     "A014827",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 26,
     "source": "joeis"
   }
 }

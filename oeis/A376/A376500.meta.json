@@ -1,0 +1,19 @@
+{
+  "description": "Primes that contain at least one even digit and two different odd digits where any permutation of the odd digits leaving the even digits fixed produces a prime.",
+  "id": "A376500",
+  "mentions": [
+    "A000040",
+    "A003459",
+    "A376501",
+    "A376502"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

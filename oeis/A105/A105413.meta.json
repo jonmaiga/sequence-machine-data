@@ -1,8 +1,13 @@
 {
-  "description": "Numbers p(n) such that both p(n)+2 and p(n+6)-2 are prime numbers, where p(n) is the n-th prime.",
+  "description": "Primes p = prime(k) such that both p+2 and prime(k+6)-2 are prime numbers.",
   "id": "A105413",
   "mentions": [
-    "A089635"
+    "A089635",
+    "A105409",
+    "A105410",
+    "A105411",
+    "A105412",
+    "A105414"
   ],
   "tags": [
     "nonn"

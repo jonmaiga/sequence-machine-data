@@ -1,0 +1,17 @@
+{
+  "description": "Obverse convolution (2^n)**(n!); see Comments.",
+  "id": "A374874",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A374848"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n).sigma(n-1) ... sigma(2).sigma(1) is prime (dot between numbers means concatenation).",
+  "description": "Numbers k such that sigma(k).sigma(k-1) ... sigma(2).sigma(1) is prime (dot between numbers means concatenation).",
   "id": "A099080",
   "mentions": [
     "A046035",

@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of A066259: a(n) = sum(F(k+1)^2*F(k),k=0..n), n>=0, with the Fibonacci numbers F=A000045.",
+  "description": "Partial sums of A066259: a(n) = Sum_{k=0..n} F(k+1)^2*F(k), n>=0, with the Fibonacci numbers F=A000045.",
   "id": "A215038",
   "mentions": [
     "A000045",

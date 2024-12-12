@@ -1,0 +1,17 @@
+{
+  "description": "Length of the shortest side of the doubly golden triangle (A152149) that has area 1.",
+  "id": "A376961",
+  "mentions": [
+    "A001622",
+    "A152149"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

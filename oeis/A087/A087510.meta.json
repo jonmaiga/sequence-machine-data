@@ -2,9 +2,24 @@
   "description": "Primes consisting only of digits 0 and 1 occurring with equal frequency.",
   "id": "A087510",
   "mentions": [
+    "A071925",
     "A087511",
     "A087512",
-    "A087513"
+    "A087513",
+    "A087514",
+    "A087515",
+    "A087527",
+    "A087528",
+    "A087529",
+    "A087530",
+    "A087531",
+    "A087532",
+    "A087533",
+    "A087534",
+    "A087535",
+    "A087536",
+    "A087537",
+    "A087538"
   ],
   "tags": [
     "base",
@@ -12,7 +27,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "joeis"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

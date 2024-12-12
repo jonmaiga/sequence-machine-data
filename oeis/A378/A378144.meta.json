@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = P(n) * 2^floor(log_2(prime(n+1))) = A002110(n) * A000079(A098388(n+1)).",
+  "id": "A378144",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A060735",
+    "A098388",
+    "A378133"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positions of numbers in A007961 that end in 0.",
+  "id": "A376357",
+  "mentions": [
+    "A007961",
+    "A376354",
+    "A376358",
+    "A376359",
+    "A376360"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

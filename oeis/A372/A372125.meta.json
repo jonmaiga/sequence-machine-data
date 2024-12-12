@@ -2,7 +2,10 @@
   "description": "G.f. A(x) satisfies A(x) = 1/( 1 - x*A(x)*(1 + 4*x*A(x))^(1/2) ).",
   "id": "A372125",
   "mentions": [
-    "A372012"
+    "A001002",
+    "A372012",
+    "A372126",
+    "A378554"
   ],
   "tags": [
     "formulas",

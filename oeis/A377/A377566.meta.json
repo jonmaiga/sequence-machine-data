@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that if j = a(n-1) is primorial, a(n) is the smallest prime not already a term, whereas if j is not primorial a(n) is the smallest novel number > j divisible by rad(j).",
+  "id": "A377566",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005117",
+    "A060735",
+    "A101301"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

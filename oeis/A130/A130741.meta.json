@@ -1,16 +1,17 @@
 {
-  "description": "4^(4^n) + 3.",
+  "description": "a(n) = 4^(4^n) + 3.",
   "id": "A130741",
   "mentions": [
     "A137840"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 4,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Möbius transform of A378647.",
+  "id": "A378649",
+  "mentions": [
+    "A000010",
+    "A005101",
+    "A008683",
+    "A067824",
+    "A103977",
+    "A263837",
+    "A378644",
+    "A378647"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

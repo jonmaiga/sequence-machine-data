@@ -1,8 +1,10 @@
 {
-  "description": "Numbers that can be represented as x * y + x + y, where x >= y > 1.",
+  "description": "Numbers that can be represented as x*y + x + y, where x >= y > 1.",
   "id": "A254671",
   "mentions": [
     "A061743",
+    "A071904",
+    "A254571",
     "A254636"
   ],
   "tags": [
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0, and for any n > 0, a(n) is the least integer (in absolute value) not yet in the sequence such that the absolute difference of a(n-1) and a(n) is a Fibonacci number (A000045); in case of a tie, preference is given to the positive value.",
+  "id": "A377092",
+  "mentions": [
+    "A000045",
+    "A377090",
+    "A377091"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

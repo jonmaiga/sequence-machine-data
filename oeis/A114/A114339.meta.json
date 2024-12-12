@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1/5 of the cumulative sum of the first n factorials of nonprimes is prime.",
+  "description": "Numbers k such that 1/5 of the cumulative sum of the first k factorials of nonprimes is prime.",
   "id": "A114339",
   "mentions": [
     "A000040",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

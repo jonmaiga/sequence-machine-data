@@ -2,15 +2,19 @@
   "description": "Hook products of all partitions of 12.",
   "id": "A093791",
   "mentions": [
-    "A003876"
+    "A003876",
+    "A060240",
+    "A093784"
   ],
   "tags": [
     "fini",
+    "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

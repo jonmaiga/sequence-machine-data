@@ -2,6 +2,7 @@
   "description": "Larger prime power associated with gaps in A121492.",
   "id": "A167236",
   "mentions": [
+    "A000101",
     "A000961",
     "A002540",
     "A057820",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 36,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "The RASTxx transformation of the sequence A072643. The sizes of the parenthesizations produced by 'cons' combination A072764 & its transpose A072766.",
+  "description": "The RASTxx transformation of the sequence A072643.",
   "id": "A072768",
   "mentions": [
     "A000108",
@@ -23,6 +23,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

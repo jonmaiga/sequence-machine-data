@@ -1,7 +1,9 @@
 {
   "description": "a(n) = (a(n-1)+a(n-2))^3, for n>=2; a(0)=0,a(1)=1.",
   "id": "A134923",
-  "mentions": [],
+  "mentions": [
+    "A112961"
+  ],
   "tags": [
     "nonn"
   ],

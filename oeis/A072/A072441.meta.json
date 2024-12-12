@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that Sum( Sin(1/Sqrt(i)) i=1..k) > n.",
+  "description": "Least k such that Sum_{i=1..k} sin(1/sqrt(i)) > n.",
   "id": "A072441",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 0,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

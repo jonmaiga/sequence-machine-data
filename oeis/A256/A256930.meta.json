@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{k>=1} (zeta(2k)/k)*(2/3)^(2k).",
+  "description": "Decimal expansion of Sum_{k>=1} (zeta(2*k)/k)*(3/4)^(2*k).",
   "id": "A256930",
   "mentions": [
     "A068466",

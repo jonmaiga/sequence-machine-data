@@ -5,12 +5,17 @@
     "A001412",
     "A077817",
     "A077819",
-    "A077820"
+    "A077820",
+    "A377161",
+    "A377162"
   ],
   "tags": [
     "formulas",
     "frac",
-    "nonn"
+    "hard",
+    "more",
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 11,

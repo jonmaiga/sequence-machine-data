@@ -1,0 +1,18 @@
+{
+  "description": "Number of edge cuts in the hypercube graph Q_n.",
+  "id": "A377762",
+  "mentions": [
+    "A061301",
+    "A372705"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

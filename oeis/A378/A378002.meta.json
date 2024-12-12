@@ -1,0 +1,26 @@
+{
+  "description": "Achilles numbers that are products of primorials.",
+  "id": "A378002",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A002110",
+    "A007947",
+    "A025487",
+    "A052486",
+    "A286708",
+    "A364930",
+    "A369374",
+    "A377854"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

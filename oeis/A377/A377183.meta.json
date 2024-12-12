@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers k such that L(k)-1 is prime, where L(k) is the k-th Lucas number.",
+  "id": "A377183",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A001606",
+    "A001610"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

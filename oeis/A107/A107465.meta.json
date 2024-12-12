@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n such that 10^n*(66161819199+10^(n+10))+1 is prime.",
+  "description": "Numbers k such that 10^k*(66161819199+10^(k+10)) + 1 is prime.",
   "id": "A107465",
   "mentions": [
     "A007597"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

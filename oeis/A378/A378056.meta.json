@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(A057643(n), A084190(n)) = gcd(lcm{d+1 : d|n}, lcm{d-1 : d > 1 and d|n}).",
+  "id": "A378056",
+  "mentions": [
+    "A000079",
+    "A057643",
+    "A084190",
+    "A378053",
+    "A378057"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

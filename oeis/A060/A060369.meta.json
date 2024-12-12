@@ -1,7 +1,9 @@
 {
   "description": "a(n) is the maximum number of occurrences of a degree in the sequence of the degrees of the irreducible representations of the symmetric group S_n.",
   "id": "A060369",
-  "mentions": [],
+  "mentions": [
+    "A060240"
+  ],
   "tags": [
     "nonn"
   ],

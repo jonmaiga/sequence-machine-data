@@ -1,0 +1,19 @@
+{
+  "description": "Length of n-th region in A376198.",
+  "id": "A376764",
+  "mentions": [
+    "A063124",
+    "A376198",
+    "A376752",
+    "A376763"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

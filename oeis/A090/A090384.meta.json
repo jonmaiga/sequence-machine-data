@@ -3,6 +3,8 @@
   "id": "A090384",
   "mentions": [
     "A090381",
+    "A090382",
+    "A090383",
     "A090385"
   ],
   "tags": [
@@ -10,7 +12,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 3,
+    "offset": 1,
     "size": 11,
     "source": "oeis-entry"
   }

@@ -2,22 +2,18 @@
   "description": "Initial terms from the linear congruential pseudorandom number generator defined by the recurrence a(n + 1) = a(n) * 7202161 + 1234567 (modulo 277945762500) with a(0) = 0.",
   "id": "A144694",
   "mentions": [
-    "A001358",
-    "A002385",
-    "A007500",
-    "A007616",
-    "A048662",
     "A076265",
     "A116935"
   ],
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

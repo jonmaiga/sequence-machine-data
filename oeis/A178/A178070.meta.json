@@ -2,6 +2,7 @@
   "description": "Primes dividing repunits R(10^n) for some n.",
   "id": "A178070",
   "mentions": [
+    "A077497",
     "A227246"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

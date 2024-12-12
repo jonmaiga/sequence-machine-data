@@ -1,0 +1,18 @@
+{
+  "description": "Powers of 4 that do not include the digit 4.",
+  "id": "A378558",
+  "mentions": [
+    "A000302"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

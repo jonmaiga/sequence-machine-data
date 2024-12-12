@@ -1,0 +1,14 @@
+{
+  "description": "Number of edge cuts in the n-Andrasfai graph.",
+  "id": "A377637",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

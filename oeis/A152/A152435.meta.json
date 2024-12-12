@@ -1,13 +1,22 @@
 {
-  "description": "a(n)=(11^n - 1)/(5*2^(3 - 2*Mod[n, 2])).",
+  "description": "a(n) = (11^n - 1)/(5*2^(3 - 2*(n mod 2))).",
   "id": "A152435",
-  "mentions": [],
+  "mentions": [
+    "A152298",
+    "A152417",
+    "A152418",
+    "A152436",
+    "A152437",
+    "A152438"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

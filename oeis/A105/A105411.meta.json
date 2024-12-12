@@ -1,16 +1,21 @@
 {
-  "description": "Numbers p(n) such that both p(n)+2 and p(n+4)-2 are prime numbers, where p(n) is the n-th prime number (A000040(n)).",
+  "description": "Primes p = prime(k) such that both p+2 and prime(k+4)-2 are prime numbers.",
   "id": "A105411",
   "mentions": [
-    "A000040",
-    "A089629"
+    "A089629",
+    "A105409",
+    "A105410",
+    "A105412",
+    "A105413",
+    "A105414"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

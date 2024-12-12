@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/((1 - x^2)^3 - 9*x)^(1/3).",
+  "id": "A376805",
+  "mentions": [
+    "A376802",
+    "A376806"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

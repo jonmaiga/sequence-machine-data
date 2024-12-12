@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1; thereafter a(n) is the smallest k for which the subsequence a(n-k..n-1) has a distinct ordinal transform from that of any other subsequence of the sequence thus far.",
+  "id": "A377079",
+  "mentions": [
+    "A375207",
+    "A376937"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = coefficient of 2^(2/3) in the expansion of (2^(1/3) + 2^(2/3))^n.",
+  "id": "A377119",
+  "mentions": [
+    "A377109",
+    "A377117",
+    "A377118"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

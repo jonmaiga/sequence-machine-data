@@ -1,0 +1,22 @@
+{
+  "description": "Signed variant of Zumkeller deficiency: a(n) = signum(A033879(n)) * A103977(n).",
+  "id": "A378600",
+  "mentions": [
+    "A005100",
+    "A033879",
+    "A083207",
+    "A083211",
+    "A103977",
+    "A156903",
+    "A171641"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,20 @@
 {
-  "description": "Least integer x such that every set of the length-n subwords of some binary word y is achievable by taking the subwords of some word of length <= x.",
+  "description": "Number of subwords of the form UUUU in nondecreasing Dyck paths of length 2n.",
   "id": "A375995",
   "mentions": [
-    "A375994"
+    "A000032",
+    "A000045",
+    "A377670",
+    "A377679"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 4,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of embeddings on the sphere of planar graphs with n vertices and k faces having connectivity exactly 2 and minimum vertex degree at least 3, k=6..2n-5.",
+  "id": "A378077",
+  "mentions": [
+    "A187927",
+    "A187928",
+    "A212438",
+    "A378075"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

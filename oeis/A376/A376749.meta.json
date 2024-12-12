@@ -1,0 +1,20 @@
+{
+  "description": "Number of non-isomorphic colorings of a toroidal n X n grid using exactly four swappable colors.",
+  "id": "A376749",
+  "mentions": [
+    "A294793",
+    "A376747",
+    "A376748",
+    "A376808",
+    "A376824"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

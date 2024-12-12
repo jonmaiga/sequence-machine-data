@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product{i = 1..(n-1)} prime(i)^e_i, where prime(i)^e_i is the smallest power of prime(i) which exceeds prime(n).",
+  "id": "A377356",
+  "mentions": [
+    "A000040",
+    "A001694",
+    "A002110",
+    "A007947",
+    "A099795"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

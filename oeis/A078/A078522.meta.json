@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that (n+1)*(2*n+1) is a perfect square.",
+  "description": "Numbers k such that (k+1)*(2*k+1) is a perfect square.",
   "id": "A078522",
   "mentions": [
     "A000217",
+    "A001542",
     "A001653",
     "A002315",
     "A008844",

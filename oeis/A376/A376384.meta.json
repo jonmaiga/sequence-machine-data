@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that there exists at least two m <= k such that both rad(m) | k and m is neither squarefree nor a prime power, i.e., m is in A126706, where rad = A007947.",
+  "id": "A376384",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A007947",
+    "A024619",
+    "A126706",
+    "A162306",
+    "A366825",
+    "A376505"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

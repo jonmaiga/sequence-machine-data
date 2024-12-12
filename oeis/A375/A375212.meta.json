@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the product of the leading base-3 digit of n and the sum of the squares of its base-3 digits.",
+  "id": "A375212",
+  "mentions": [
+    "A006287",
+    "A376270"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

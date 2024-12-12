@@ -1,0 +1,15 @@
+{
+  "description": "Minimum number of consecutive pieces that must be added to the pattern given by the binary representation of n to produce a winning position in Gordon Hamilton's Jumping Frogs game, or -1 if there is no such position.",
+  "id": "A377307",
+  "mentions": [
+    "A377232"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

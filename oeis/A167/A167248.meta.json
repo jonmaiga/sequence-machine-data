@@ -1,8 +1,11 @@
 {
   "description": "Number of ways to partition an n X 4 grid into 4 connected equal-area regions",
   "id": "A167248",
-  "mentions": [],
+  "mentions": [
+    "A167260"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that the ratio (sum of divisors of n) /(sum of divisors d of n with d <= sqrt(n)) is an integer.",
+  "description": "Numbers k such that the ratio (sum of divisors of k) /(sum of divisors d of k with d <= sqrt(k)) is an integer.",
   "id": "A239161",
   "mentions": [
     "A000203",
+    "A006881",
     "A066839",
     "A238502"
   ],

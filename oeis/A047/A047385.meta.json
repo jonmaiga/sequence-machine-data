@@ -2,7 +2,9 @@
   "description": "Numbers that are congruent to {2, 5} mod 7.",
   "id": "A047385",
   "mentions": [
-    "A113804"
+    "A113804",
+    "A255240",
+    "A255249"
   ],
   "tags": [
     "easy",

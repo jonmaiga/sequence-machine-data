@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of ways n can be written as a sum of a practical number and two 11-gonal numbers.",
+  "id": "A375583",
+  "mentions": [
+    "A005153",
+    "A051682"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

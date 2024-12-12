@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1-2*x)^3/(1-x^2)^2.",
+  "description": "Expansion of 1/((1-2*x)^3*(1-x^2)^2).",
   "id": "A011780",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

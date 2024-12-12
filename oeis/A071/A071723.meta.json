@@ -2,7 +2,10 @@
   "description": "Expansion of (1+x^2*C^2)*C^4, where C = (1-(1-4*x)^(1/2))/(2*x) is g.f. for Catalan numbers, A000108.",
   "id": "A071723",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A000782",
+    "A071721",
+    "A071722"
   ],
   "tags": [
     "formulas",

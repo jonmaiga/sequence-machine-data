@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (1/2^n) * Sum_{k=0..2*n} ( binomial(2*n, k) (mod 2^n) ).",
+  "id": "A376178",
+  "mentions": [
+    "A376179",
+    "A376531"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,15 +2,20 @@
   "description": "a(n) = binomial(2*n,n)*(n+2)^2/(n+1).",
   "id": "A119574",
   "mentions": [
-    "A000984"
+    "A000108",
+    "A000290",
+    "A000984",
+    "A037965",
+    "A110609"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "joeis"
   }
 }

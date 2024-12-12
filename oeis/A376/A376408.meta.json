@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1, and for n > 0, a(n) = a(n-1) * A019565(a(n-1)), where A019565 is the base-2 exp-function.",
+  "id": "A376408",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A019565",
+    "A048675",
+    "A276076",
+    "A276086",
+    "A376400",
+    "A376406",
+    "A376409"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

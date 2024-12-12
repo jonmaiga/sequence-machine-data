@@ -1,7 +1,10 @@
 {
-  "description": "Anagraprod Integers. Integers N that reproduce their exact set of digits when all the products of two successive digits of N are done (and considered together).",
+  "description": "Anagraprod Integers. Integers N that reproduce their multiset of digits when all the products of two successive digits of N are done (and considered together).",
   "id": "A296451",
-  "mentions": [],
+  "mentions": [
+    "A296521",
+    "A297627"
+  ],
   "tags": [
     "base",
     "nonn"

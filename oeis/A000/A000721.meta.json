@@ -1,11 +1,14 @@
 {
-  "description": "Number of balanced Boolean functions of n variables.",
+  "description": "Number of NP-equivalence classes of balanced Boolean functions of n variables.",
   "id": "A000721",
   "mentions": [
-    "A000610"
+    "A000370",
+    "A000610",
+    "A037293"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

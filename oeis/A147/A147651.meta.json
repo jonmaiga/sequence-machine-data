@@ -2,7 +2,9 @@
   "description": "First trisection of A028560.",
   "id": "A147651",
   "mentions": [
+    "A005563",
     "A028560",
+    "A067725",
     "A144396",
     "A144454"
   ],

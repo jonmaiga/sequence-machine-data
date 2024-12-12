@@ -1,0 +1,13 @@
+{
+  "description": "Number of edge cuts in the n-Sierpinski gasket graph.",
+  "id": "A378591",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

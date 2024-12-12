@@ -1,8 +1,9 @@
 {
-  "description": "5x - 1 sequence starting at 50.",
+  "description": "5x - 1 sequence starting at 50 (a(n+1) = a(n)/2 if a(n) is even, or 5*a(n)-1 if a(n) is odd).",
   "id": "A090691",
   "mentions": [
-    "A008880"
+    "A008880",
+    "A037238"
   ],
   "tags": [
     "easy",

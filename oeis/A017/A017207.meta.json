@@ -1,14 +1,19 @@
 {
   "description": "a(n) = (9*n + 3)^11.",
   "id": "A017207",
-  "mentions": [],
+  "mentions": [
+    "A013669",
+    "A016787",
+    "A017197"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

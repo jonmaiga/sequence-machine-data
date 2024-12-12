@@ -1,0 +1,18 @@
+{
+  "description": "Iterated integer log of n: denote A001414(n) by b(n). a(n) = n if b(n) = n. Otherwise, a(n) = b(n) + b(b(n)) + ... + b^k(n), where k is the smallest integer such that b^k(n) is prime.",
+  "id": "A377482",
+  "mentions": [
+    "A001414",
+    "A274718"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

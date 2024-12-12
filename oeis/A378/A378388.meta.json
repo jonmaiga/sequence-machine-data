@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the surface area of a tetrakis hexahedron with unit shorter edge length.",
+  "id": "A378388",
+  "mentions": [
+    "A002163",
+    "A010532",
+    "A179587",
+    "A208899",
+    "A374359",
+    "A377341",
+    "A378389"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

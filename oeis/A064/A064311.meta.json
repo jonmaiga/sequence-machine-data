@@ -2,8 +2,15 @@
   "description": "Generalized Catalan numbers C(-2; n).",
   "id": "A064311",
   "mentions": [
+    "A000012",
     "A000108",
     "A064062",
+    "A064063",
+    "A064087",
+    "A064093",
+    "A064310",
+    "A064325",
+    "A064333",
     "A064334"
   ],
   "tags": [

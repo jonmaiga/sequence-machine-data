@@ -1,5 +1,5 @@
 {
-  "description": "p(n) * last digit of p(n) where p(n) is n-th prime.",
+  "description": "a(n) = prime(n) * last digit of prime(n).",
   "id": "A063482",
   "mentions": [
     "A000040"

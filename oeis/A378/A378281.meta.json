@@ -1,0 +1,20 @@
+{
+  "description": "Number of subgroups of S_n isomorphic to S_5, where S_n is the n-th symmetric group.",
+  "id": "A378281",
+  "mentions": [
+    "A000085",
+    "A378163",
+    "A378279",
+    "A378280"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

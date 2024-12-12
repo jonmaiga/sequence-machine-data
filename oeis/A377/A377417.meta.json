@@ -1,0 +1,21 @@
+{
+  "description": "Numbers t such that t + s(t) = s(s(t)), where s(t) is the sum of aliquot divisors of t (A001065(t)).",
+  "id": "A377417",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A003416",
+    "A051027",
+    "A063990"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

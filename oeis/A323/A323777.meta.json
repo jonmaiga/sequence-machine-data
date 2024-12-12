@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the root of the equation (1-2*r)^(3-4*r) = (1-r)^(2-2*r) * r^(1-2*r).",
   "id": "A323777",
   "mentions": [
+    "A166895",
     "A209331",
     "A209428",
     "A220359",

@@ -2,14 +2,17 @@
   "description": "Inverse binomial transform of A120070.",
   "id": "A141615",
   "mentions": [
-    "A120070"
+    "A120070",
+    "A141595"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 35,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

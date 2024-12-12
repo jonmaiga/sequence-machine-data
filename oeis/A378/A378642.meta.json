@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers m <= n such that phi(m) does not divide n, where phi is the Euler totient function (A000010).",
+  "id": "A378642",
+  "mentions": [
+    "A000010",
+    "A069932",
+    "A378637",
+    "A378641"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

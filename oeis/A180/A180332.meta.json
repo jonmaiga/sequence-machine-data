@@ -2,8 +2,14 @@
   "description": "Primitive Zumkeller numbers.",
   "id": "A180332",
   "mentions": [
+    "A000396",
+    "A006038",
     "A006039",
-    "A083207"
+    "A083207",
+    "A378537",
+    "A378538",
+    "A378656",
+    "A378657"
   ],
   "tags": [
     "nonn"

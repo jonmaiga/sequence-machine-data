@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that end in 1 when written in base of triangular numbers (cf. A000462).",
+  "id": "A376355",
+  "mentions": [
+    "A000462",
+    "A376354",
+    "A376356",
+    "A376357"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

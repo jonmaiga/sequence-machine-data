@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals downward: T(n,k) is the number of tilings of the n X k grid up to horizontal reflection by two tiles that are each fixed under horizontal reflection.",
+  "description": "Table read by downward antidiagonals: T(n,k) is the number of tilings of the n X k grid up to horizontal reflection by two tiles that are each fixed under horizontal reflection.",
   "id": "A368221",
   "mentions": [
     "A368218",

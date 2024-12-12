@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 16*p^4 + 1 is prime.",
+  "id": "A378146",
+  "mentions": [
+    "A005384",
+    "A052291",
+    "A378134",
+    "A378143"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

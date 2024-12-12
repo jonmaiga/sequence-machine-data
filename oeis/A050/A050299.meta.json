@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that ((n-1)! + 1)/n is prime.",
+  "description": "Numbers k such that ((k-1)! + 1)/k is prime.",
   "id": "A050299",
   "mentions": [
     "A000720",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

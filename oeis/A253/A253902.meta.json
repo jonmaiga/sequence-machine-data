@@ -2,6 +2,8 @@
   "description": "Write numbers 1, then 2^2 down to 1, then 3^2 down to 1, then 4^2 down to 1 and so on.",
   "id": "A253902",
   "mentions": [
+    "A000290",
+    "A000330",
     "A064866",
     "A074279"
   ],
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 65,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

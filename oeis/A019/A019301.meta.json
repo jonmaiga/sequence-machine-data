@@ -2,7 +2,8 @@
   "description": "Binomial transform of Thue-Morse sequence A010059.",
   "id": "A019301",
   "mentions": [
-    "A010059"
+    "A010059",
+    "A019302"
   ],
   "tags": [
     "nonn"

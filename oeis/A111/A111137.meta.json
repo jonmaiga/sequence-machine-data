@@ -2,6 +2,7 @@
   "description": "Concatenation of digits of A056129(n), starting from the first 3, that form primes.",
   "id": "A111137",
   "mentions": [
+    "A030096",
     "A056129"
   ],
   "tags": [

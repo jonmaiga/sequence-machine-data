@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n*(n-1)/2} A227543(n,k)^2 for n >= 0.",
+  "id": "A376527",
+  "mentions": [
+    "A000108",
+    "A227543"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

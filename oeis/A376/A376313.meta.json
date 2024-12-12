@@ -1,0 +1,15 @@
+{
+  "description": "Independence number of the 2-supertoken graph FF_2(C_n) of the cycle C_n on n vertices.",
+  "id": "A376313",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

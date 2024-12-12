@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits of n minus product of digits of n is prime.",
+  "description": "Numbers k such that the sum of digits of k minus the product of digits of k is prime.",
   "id": "A066027",
   "mentions": [
     "A038369",

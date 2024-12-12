@@ -1,5 +1,5 @@
 {
-  "description": "Let n = p_1^e_1 p_2^e_2 p_3^e_3 ... be the prime factorization of n. Sequence gives n such that the sum of the numbers of 1's in the binary expansions of e_1, e_2, e_3, ... is odd.",
+  "description": "Let k = p_1^e_1 p_2^e_2 p_3^e_3 ... be the prime factorization of n. Sequence gives k such that the sum of the numbers of 1's in the binary expansions of e_1, e_2, e_3, ... is odd.",
   "id": "A000028",
   "mentions": [
     "A000069",
@@ -11,17 +11,21 @@
     "A026416",
     "A026424",
     "A026477",
+    "A030230",
+    "A037445",
     "A050376",
     "A059897",
     "A064179",
     "A064547",
     "A066724",
     "A084400",
+    "A092248",
     "A123193",
     "A124010",
     "A133008",
     "A268386",
-    "A293439"
+    "A293439",
+    "A367514"
   ],
   "tags": [
     "easy",

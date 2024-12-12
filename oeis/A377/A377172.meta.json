@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that -3/2 is a primitive root modulo p.",
+  "id": "A377172",
+  "mentions": [
+    "A005596",
+    "A191059",
+    "A320384",
+    "A377174",
+    "A377175",
+    "A377176",
+    "A377177",
+    "A377178",
+    "A377179"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Greatest positive integer k such that either k or k-1 is a multiple of A171977(n) but there does not exist any fully symmetric, k-celled, n-dimensional polyhypercube, or 0 if no such k exists.",
+  "id": "A377337",
+  "mentions": [
+    "A171977",
+    "A377333",
+    "A377336"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

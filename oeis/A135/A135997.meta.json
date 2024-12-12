@@ -2,20 +2,10 @@
   "description": "Table of triples T(k,m) = k (m=1), 2-k (m=2) and 1-k (m=3).",
   "id": "A135997",
   "mentions": [
-    "A000045",
-    "A001611",
-    "A008346",
-    "A018910",
-    "A020706",
-    "A022959",
-    "A052550",
-    "A052911",
-    "A074878",
-    "A088859"
+    "A022959"
   ],
   "tags": [
     "easy",
-    "formulas",
     "less",
     "sign",
     "tabf"

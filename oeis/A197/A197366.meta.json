@@ -1,5 +1,5 @@
 {
-  "description": "Number of Abelian groups of order 2n which are isomorphic with at least one Galois Field GF(k).",
+  "description": "Number of Abelian groups of order 2n which are isomorphic with the group of units of the ring Z/kZ for some k.",
   "id": "A197366",
   "mentions": [
     "A101872",
@@ -7,13 +7,11 @@
   ],
   "tags": [
     "formulas",
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 86,
     "source": "oeis-entry"
   }
 }

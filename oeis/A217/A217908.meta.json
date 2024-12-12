@@ -2,6 +2,7 @@
   "description": "Semiprime powers of distinct semiprimes.",
   "id": "A217908",
   "mentions": [
+    "A072000",
     "A113877"
   ],
   "tags": [

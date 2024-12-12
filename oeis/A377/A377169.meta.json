@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers containing isolated ones in their binary representation.",
+  "id": "A377169",
+  "mentions": [
+    "A004752",
+    "A007088",
+    "A144795",
+    "A377167"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

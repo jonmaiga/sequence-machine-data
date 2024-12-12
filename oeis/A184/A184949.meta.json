@@ -1,7 +1,9 @@
 {
-  "description": "E.g.f. satisfies: A(x) = (1-x*A(x))^(-x*A(x)).",
+  "description": "E.g.f. satisfies A(x) = (1-x*A(x))^(-x*A(x)).",
   "id": "A184949",
-  "mentions": [],
+  "mentions": [
+    "A371147"
+  ],
   "tags": [
     "formulas",
     "nonn"

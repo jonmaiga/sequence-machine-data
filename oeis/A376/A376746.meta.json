@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes whose prime factors are the digit reversal of each other.",
+  "id": "A376746",
+  "mentions": [
+    "A002385",
+    "A004086",
+    "A083815"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

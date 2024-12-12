@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is a practical number (A005153) that is neither a square or twice a square, otherwise a(n) = 0.",
+  "id": "A378540",
+  "mentions": [
+    "A000203",
+    "A005153",
+    "A053866",
+    "A179527",
+    "A322860",
+    "A353061",
+    "A378541"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Chen primes that are not members of twin primes.",
+  "description": "Chen primes that are not twin primes.",
   "id": "A117242",
   "mentions": [
     "A001097",

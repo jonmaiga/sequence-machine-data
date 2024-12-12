@@ -1,0 +1,15 @@
+{
+  "description": "Number of rungs, k, in deficient ladders to be assembled together in that order, to make a ladder that can be climbed to some height. Details are in the Comments.",
+  "id": "A377171",
+  "mentions": [
+    "A351153"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

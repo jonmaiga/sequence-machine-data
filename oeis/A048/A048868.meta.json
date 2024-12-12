@@ -1,5 +1,5 @@
 {
-  "description": "Numbers for which reduced residue system contains more primes than nonprimes.",
+  "description": "Numbers whose reduced residue system contains more primes than nonprimes.",
   "id": "A048868",
   "mentions": [
     "A000010",

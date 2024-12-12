@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n*(n-1)+(-1)^n+5)/2.",
+  "id": "A376901",
+  "mentions": [
+    "A081353",
+    "A114113",
+    "A236453"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

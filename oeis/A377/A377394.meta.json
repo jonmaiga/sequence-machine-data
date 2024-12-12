@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. (1 - log(1-x))^3.",
+  "id": "A377394",
+  "mentions": [
+    "A052517",
+    "A052748"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

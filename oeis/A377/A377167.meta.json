@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative integers containing isolated zeros in their binary representation.",
+  "id": "A377167",
+  "mentions": [
+    "A004748",
+    "A007088",
+    "A175054",
+    "A377169"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4 has exactly 4 distinct decimal digits.",
+  "description": "Numbers k such that k^4 has exactly 4 distinct decimal digits.",
   "id": "A155150",
   "mentions": [
     "A155148",

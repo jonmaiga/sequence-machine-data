@@ -1,5 +1,5 @@
 {
-  "description": "Lucky numbers n whose prime factors are also lucky numbers.",
+  "description": "Lucky numbers whose prime factors are also lucky numbers.",
   "id": "A118643",
   "mentions": [
     "A000959",

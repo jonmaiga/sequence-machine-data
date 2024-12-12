@@ -2,14 +2,17 @@
   "description": "Expansion of Jacobi theta constant (theta_2(2z))^2/4.",
   "id": "A008442",
   "mentions": [
+    "A000035",
     "A000122",
     "A000700",
     "A008441",
     "A010054",
     "A010815",
     "A019675",
+    "A101455",
     "A121373",
-    "A290081"
+    "A290081",
+    "A378006"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle of numerator polynomial coefficients of C({1..n},x), T(n,k) for n >= 0 and k >= A000217(n).",
+  "id": "A376117",
+  "mentions": [
+    "A000217",
+    "A107429",
+    "A175669",
+    "A196847",
+    "A231147",
+    "A373196"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

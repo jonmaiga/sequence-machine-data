@@ -2,8 +2,10 @@
   "description": "a(n) = 7^n - 6^n.",
   "id": "A016169",
   "mentions": [
+    "A005062",
     "A016177",
-    "A016189"
+    "A016189",
+    "A081201"
   ],
   "tags": [
     "easy",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

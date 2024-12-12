@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = coefficient of sqrt(2) in the expansion of (2 + sqrt(2) + sqrt(3))^n.",
+  "id": "A377110",
+  "mentions": [
+    "A377109",
+    "A377112"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

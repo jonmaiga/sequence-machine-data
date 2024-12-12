@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x*(x-1)/(x^2+14*x+1)^3.",
+  "description": "Expansion of -x*(1-x)/(1+14*x+x^2)^3.",
   "id": "A122575",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "sign"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

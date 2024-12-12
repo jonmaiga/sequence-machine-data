@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array made of three copies of Pascal's triangle.",
+  "description": "Triangle read by rows: T(n, k) = binomial(n mod 2, k mod 2) * binomial(n div 2, k div 2), where 'div' denotes integer division.",
   "id": "A051159",
   "mentions": [
     "A000012",

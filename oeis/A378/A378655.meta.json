@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet convolution of A153881 with the Dirichlet inverse of A103977.",
+  "id": "A378655",
+  "mentions": [
+    "A005101",
+    "A055615",
+    "A103977",
+    "A153881",
+    "A263837",
+    "A378643",
+    "A378647"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

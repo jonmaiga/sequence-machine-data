@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle T(n, k), read by rows with 1 <= k <= p = A000040(n), for the very first solution to the transversal of primes problem.",
+  "id": "A377214",
+  "mentions": [
+    "A000040",
+    "A215637"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

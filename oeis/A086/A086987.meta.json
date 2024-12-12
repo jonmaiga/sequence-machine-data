@@ -1,5 +1,5 @@
 {
-  "description": "A000203(A086986(n)).",
+  "description": "a(n) = A000203(A086986(n)).",
   "id": "A086987",
   "mentions": [
     "A000203",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 66,
+    "size": 67,
     "source": "oeis-entry"
   }
 }

@@ -2,7 +2,8 @@
   "description": "a(n) is the number of partitions of n into distinct parts such that the number of parts divisible by 3 is even.",
   "id": "A335746",
   "mentions": [
-    "A000009"
+    "A000009",
+    "A080995"
   ],
   "tags": [
     "formulas",

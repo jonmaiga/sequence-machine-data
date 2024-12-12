@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet inverse of A341529, where A341529(n) = sigma(n) * A003961(n), and A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
+  "id": "A378229",
+  "mentions": [
+    "A003961",
+    "A341529",
+    "A378228"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

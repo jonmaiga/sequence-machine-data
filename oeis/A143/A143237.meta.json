@@ -1,10 +1,11 @@
 {
-  "description": "Triangle read by rows, A130208 * A000012 * A130208; 1<=k<=n.",
+  "description": "Triangle read by rows, T(n, k) = A000203(n)*A000203(k), for n >= 1, 1 <= k <= n.",
   "id": "A143237",
   "mentions": [
     "A000012",
     "A000203",
     "A024916",
+    "A072861",
     "A130208",
     "A143238"
   ],
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 65,
+    "size": 66,
     "source": "joeis"
   }
 }

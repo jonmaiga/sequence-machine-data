@@ -1,15 +1,18 @@
 {
   "description": "Largest k-digit multiple of n where k is the number of digits in n.",
   "id": "A109940",
-  "mentions": [],
+  "mentions": [
+    "A097326"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 54,
+    "size": 67,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Values of k at which the period of the continued fraction for sqrt(k) increases.",
+  "description": "Values of k at which the period of the continued fraction for sqrt(k) sets a new record.",
   "id": "A013645",
   "mentions": [
     "A003285",

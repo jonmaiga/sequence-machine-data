@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows in which n-th row lists in increasing order all multiplicative partitions mu of n whose sum is also n (with factors >= 1), encoded as Product_{j in mu} prime(j); n>=1, 1<=k<=A001055(n).",
+  "id": "A377852",
+  "mentions": [
+    "A000040",
+    "A001055",
+    "A215366",
+    "A377853",
+    "A378175"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

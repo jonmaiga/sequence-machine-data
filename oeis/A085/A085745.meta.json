@@ -2,6 +2,8 @@
   "description": "Numbers m such that 2^m + m is a semiprime.",
   "id": "A085745",
   "mentions": [
+    "A006127",
+    "A052007",
     "A089535",
     "A089536",
     "A089537",

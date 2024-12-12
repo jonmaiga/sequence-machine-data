@@ -5,15 +5,17 @@
     "A000984",
     "A001700",
     "A002897",
+    "A108625",
     "A173774"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

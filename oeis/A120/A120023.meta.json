@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*6^n+1 is prime.",
+  "description": "Numbers k such that 2*6^k + 1 is prime.",
   "id": "A120023",
   "mentions": [
     "A057472",
@@ -8,6 +8,7 @@
     "A205771"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

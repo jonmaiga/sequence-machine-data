@@ -7,11 +7,12 @@
     "A072654"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

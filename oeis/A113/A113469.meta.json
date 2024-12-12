@@ -1,13 +1,15 @@
 {
   "description": "a(0)=1. a(n) = number of positive integers <= n that are not coprime to a(n-1).",
   "id": "A113469",
-  "mentions": [],
+  "mentions": [
+    "A116204"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

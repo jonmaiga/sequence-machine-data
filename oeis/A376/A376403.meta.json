@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, and for n > 0, a(n) = a(n-1) + A276076(a(n-1)), where A276076 is the factorial base exp-function.",
+  "id": "A376403",
+  "mentions": [
+    "A143293",
+    "A276075",
+    "A276076",
+    "A276086",
+    "A376399",
+    "A376401"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

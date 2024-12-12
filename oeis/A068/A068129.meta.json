@@ -2,6 +2,8 @@
   "description": "Triangular numbers with sum of digits = 10.",
   "id": "A068129",
   "mentions": [
+    "A000217",
+    "A052224",
     "A068127",
     "A068128"
   ],
@@ -11,7 +13,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 39,
     "source": "joeis"
   }

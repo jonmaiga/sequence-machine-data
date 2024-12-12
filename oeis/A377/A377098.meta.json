@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) = Sum_{n>=0} a(n)*x^n where a(n) = Sum_{k=0..n-1} [x^k] A(x)^(k*(n-k)) for n >= 1 with a(0) = 1.",
+  "id": "A377098",
+  "mentions": [
+    "A000108",
+    "A349335",
+    "A378325"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime p such that x^n - x - 1 splits modulo p.",
+  "id": "A377496",
+  "mentions": [
+    "A376950"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

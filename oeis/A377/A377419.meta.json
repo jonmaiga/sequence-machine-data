@@ -1,0 +1,16 @@
+{
+  "description": "Minimum sum of a maximal subset of {1..n} such that every unordered pair of (not necessarily distinct) elements has a different sum.",
+  "id": "A377419",
+  "mentions": [
+    "A325879",
+    "A377410"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

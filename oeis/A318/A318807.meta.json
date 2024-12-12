@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose sum of squarefree divisors and sum of nonsquarefree divisors are both a perfect square.",
+  "description": "Numbers whose sum of squarefree divisors and sum of nonsquarefree divisors are both perfect squares.",
   "id": "A318807",
   "mentions": [
     "A000040",

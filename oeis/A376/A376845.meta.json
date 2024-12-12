@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (p^5 + 1)/(p^5 - 1).",
+  "id": "A376845",
+  "mentions": [
+    "A013663",
+    "A013668",
+    "A376742"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

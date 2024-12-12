@@ -1,13 +1,15 @@
 {
-  "description": "Number of numbers <= n having no isolated digits \"11\" in their binary representations.",
+  "description": "Number of numbers <= n whose binary representation contains no isolated digits \"11\".",
   "id": "A173023",
   "mentions": [
+    "A007088",
     "A173021",
     "A173022",
     "A173025"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

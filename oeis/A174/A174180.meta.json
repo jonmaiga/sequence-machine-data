@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n>0 such that 10^n+2^n+1 is prime.",
+  "description": "Numbers k > 0 such that 10^k + 2^k + 1 is prime.",
   "id": "A174180",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

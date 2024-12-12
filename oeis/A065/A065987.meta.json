@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the first n binary digits of Pi expressed in decimal forms a prime.",
+  "description": "Numbers k such that the first k binary digits of Pi expressed in decimal forms a prime.",
   "id": "A065987",
   "mentions": [
     "A004601",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

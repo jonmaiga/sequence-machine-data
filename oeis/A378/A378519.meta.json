@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which can be written in precisely one way as sum of a subset of their proper divisors but are not Zumkeller numbers, i.e., have no subsets of their divisors such that the complement has the same sum.",
+  "id": "A378519",
+  "mentions": [
+    "A064771",
+    "A083210",
+    "A376879",
+    "A378604"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -2,15 +2,18 @@
   "description": "Semiprimes with even digits.",
   "id": "A108636",
   "mentions": [
+    "A001358",
+    "A014263",
     "A091296"
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

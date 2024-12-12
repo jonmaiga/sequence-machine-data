@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals downward: T(n,k) is the number of tilings of the n X k cylinder up to horizontal and vertical reflections by two tiles that are fixed under these reflections.",
+  "description": "Table read by downward antidiagonals: T(n,k) is the number of tilings of the n X k cylinder up to horizontal and vertical reflections by two tiles that are fixed under these reflections.",
   "id": "A368253",
   "mentions": [
     "A000029",

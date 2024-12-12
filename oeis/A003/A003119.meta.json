@@ -1,7 +1,11 @@
 {
-  "description": "Susceptibility for diamond.",
+  "description": "High-temperature series for spin-1/2 Ising magnetic susceptibility on diamond structure.",
   "id": "A003119",
   "mentions": [
+    "A002913",
+    "A002923",
+    "A003220",
+    "A007216",
     "A007239"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Fixed points of 1+Phi power sigma function 1PhiPsigma: if j = Product p_i^r_i then 1PhiPsigma(j) = Product {Sum p_i^r_i, 0 <= s_i < r_i, s_i is 0 or coprime to r_i} 1PhiPsigma(j) = j.",
+  "description": "Fixed points of 1+Phi power sigma function 1PhiPsigma: integers m such that 1PhiPsigma(m) = m, where for j = Product p_i^r_i, 1PhiPsigma(j) = Product_i Sum_{0 <= s_i <= r_i, s_i is 0 or coprime to r_i} p_i^s_i.",
   "id": "A095724",
   "mentions": [
     "A061389",

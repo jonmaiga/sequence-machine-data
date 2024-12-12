@@ -1,0 +1,17 @@
+{
+  "description": "Number of edge cuts in the n-barbell graph.",
+  "id": "A377639",
+  "mentions": [
+    "A001187",
+    "A006125"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

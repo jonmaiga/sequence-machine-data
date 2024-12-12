@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the sum of the digits of k equals the sum of its prime factors plus the sum of the multiplicities of each prime factor.",
+  "id": "A376157",
+  "mentions": [
+    "A006753",
+    "A007953",
+    "A008474",
+    "A019506",
+    "A050689",
+    "A063737",
+    "A070275",
+    "A285494"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

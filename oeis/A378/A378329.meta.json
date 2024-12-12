@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the base 5 Champernowne constant.",
+  "id": "A378329",
+  "mentions": [
+    "A030167",
+    "A033307",
+    "A066716",
+    "A066717",
+    "A077771",
+    "A077772",
+    "A378328",
+    "A378330",
+    "A378331",
+    "A378332",
+    "A378333",
+    "A378345",
+    "A378346",
+    "A378347",
+    "A378348",
+    "A378349",
+    "A378350"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

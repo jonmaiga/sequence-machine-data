@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/( 1 - x*A(x)^(3/2)/(1 - x*A(x)^(3/2)) )^2.",
+  "id": "A378670",
+  "mentions": [
+    "A010683",
+    "A211789",
+    "A243659",
+    "A369012",
+    "A378612",
+    "A378668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

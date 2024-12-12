@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the quotient of the practical number A005153(n) divided by its largest divisor that is primitive practical.",
+  "id": "A377377",
+  "mentions": [
+    "A005153",
+    "A267124"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

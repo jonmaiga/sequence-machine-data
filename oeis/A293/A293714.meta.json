@@ -1,17 +1,16 @@
 {
-  "description": "Numbers n such that phi(phi(n))/n < phi(phi(m))/m for all m < n, where phi is Euler's totient function (A000010).",
+  "description": "Numbers k such that phi(phi(k))/k < phi(phi(m))/m for all m < k, where phi is Euler's totient function (A000010).",
   "id": "A293714",
   "mentions": [
     "A000010",
     "A010554"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

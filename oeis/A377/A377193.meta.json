@@ -1,0 +1,28 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that any term j = a(n-1) with primorial kernel is followed by a prime, whereas any other term is followed by a number with prime factors p < q = Gpf(j) which do not divide j.",
+  "id": "A377193",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000961",
+    "A002110",
+    "A005932",
+    "A006530",
+    "A007947",
+    "A033845",
+    "A055932",
+    "A083720",
+    "A246655",
+    "A280864",
+    "A286708",
+    "A332785"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Product_{d|n, d>1} (d - 1).",
+  "id": "A377484",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A005329",
+    "A007955",
+    "A020696",
+    "A027750",
+    "A027871",
+    "A027872",
+    "A027875",
+    "A027879",
+    "A175787"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

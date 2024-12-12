@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) = smallest r such that every n X k binary matrix with r ones contains a 2 X 2 submatrix of ones, with n, k >= 2.",
+  "id": "A376167",
+  "mentions": [
+    "A001197",
+    "A347472",
+    "A350296"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

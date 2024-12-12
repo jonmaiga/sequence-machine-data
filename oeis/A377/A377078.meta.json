@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that, for n > 2, a(n) shares a factor with a(n-2) mod a(n-1).",
+  "id": "A377078",
+  "mentions": [
+    "A027749",
+    "A064413",
+    "A270139",
+    "A359557"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

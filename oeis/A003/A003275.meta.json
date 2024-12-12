@@ -1,5 +1,5 @@
 {
-  "description": "Values of phi(n) = phi(n+1).",
+  "description": "Values of phi(k) when phi(k) = phi(k+1).",
   "id": "A003275",
   "mentions": [
     "A000010",

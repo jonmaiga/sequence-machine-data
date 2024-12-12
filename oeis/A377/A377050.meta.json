@@ -1,0 +1,43 @@
+{
+  "description": "Position of first appearance of zero in the n-th differences of the nonsquarefree numbers, or 0 if it does not appear.",
+  "id": "A377050",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001223",
+    "A005117",
+    "A007674",
+    "A013929",
+    "A036263",
+    "A050320",
+    "A053797",
+    "A053806",
+    "A061398",
+    "A072284",
+    "A073576",
+    "A078147",
+    "A084758",
+    "A112925",
+    "A120992",
+    "A376311",
+    "A376591",
+    "A376593",
+    "A376678",
+    "A376855",
+    "A377037",
+    "A377042",
+    "A377047",
+    "A377048",
+    "A377049",
+    "A377051"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

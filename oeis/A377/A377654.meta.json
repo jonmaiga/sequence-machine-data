@@ -1,0 +1,32 @@
+{
+  "description": "Numbers m^2 for which the center part (containing the diagonal) of its symmetric representation of sigma, SRS(m^2), has width 1 and area m.",
+  "id": "A377654",
+  "mentions": [
+    "A001248",
+    "A003056",
+    "A016754",
+    "A030514",
+    "A030516",
+    "A030629",
+    "A030631",
+    "A179645",
+    "A237270",
+    "A237591",
+    "A237593",
+    "A244579",
+    "A247687",
+    "A249223",
+    "A319529",
+    "A341969",
+    "A357581",
+    "A376829"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

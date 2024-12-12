@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of (5n-floor(n*sqrt(5))), by antidiagonals.",
+  "description": "Dispersion of (5*n-floor(n*sqrt(5))), by antidiagonals.",
   "id": "A191539",
   "mentions": [
     "A000040",

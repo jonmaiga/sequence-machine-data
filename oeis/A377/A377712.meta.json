@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least divisor of n with as many decimal digits as n.",
+  "id": "A377712",
+  "mentions": [
+    "A055642",
+    "A109940"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

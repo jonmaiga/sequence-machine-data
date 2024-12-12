@@ -1,5 +1,5 @@
 {
-  "description": "Arises in lower bound of the spectral norm of n X n symmetric random matrices.",
+  "description": "a(n) = floor(2*n^(5/11)).",
   "id": "A126848",
   "mentions": [],
   "tags": [

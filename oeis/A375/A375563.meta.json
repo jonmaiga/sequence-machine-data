@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest unused positive number that shares a factor with a(n-1) if a(n-1) is prime, otherwise a(n) is coprime to a(n-1).",
+  "id": "A375563",
+  "mentions": [
+    "A000040",
+    "A064413",
+    "A373545",
+    "A373546",
+    "A375564"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

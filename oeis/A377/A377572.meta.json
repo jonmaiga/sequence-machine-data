@@ -1,0 +1,17 @@
+{
+  "description": "Total number of elements (with multiplicity) in all subsets of [n] having a square element sum.",
+  "id": "A377572",
+  "mentions": [
+    "A126024",
+    "A281871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

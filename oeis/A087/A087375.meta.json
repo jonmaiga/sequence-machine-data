@@ -2,14 +2,16 @@
   "description": "Smallest n-th power > n!.",
   "id": "A087375",
   "mentions": [
-    "A087374"
+    "A087374",
+    "A214046"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Let Q consist of 1 together with the primes (A008578); form the lexicographically earliest infinite sequence S of distinct positive numbers with the property that a(k) is in Q if and only if k is a term in S.",
+  "id": "A377901",
+  "mentions": [
+    "A008578",
+    "A121053"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p with the property that there exist nonnegative integers m,n such that m!*n! is congruent to either +1 or -1 mod p^2, with m + n = p - 1.",
+  "id": "A377266",
+  "mentions": [
+    "A007540",
+    "A157249",
+    "A157250"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -2,17 +2,19 @@
   "description": "a(n) = Sum_{d|n} d * sigma(n/d, d).",
   "id": "A198302",
   "mentions": [
+    "A000203",
     "A185301",
     "A198299",
     "A198301"
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

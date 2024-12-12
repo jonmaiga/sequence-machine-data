@@ -1,0 +1,16 @@
+{
+  "description": "Lowest weight of rational fraction with denominator n.",
+  "id": "A378568",
+  "mentions": [
+    "A178031"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

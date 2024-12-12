@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the positions of maximum parts in all compositions of n.",
+  "id": "A377823",
+  "mentions": [
+    "A001792",
+    "A010054",
+    "A011782",
+    "A097976",
+    "A097979",
+    "A377824"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

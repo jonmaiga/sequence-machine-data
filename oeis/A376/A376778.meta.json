@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (32*n^4 + 80*n^3 + 40*n^2 - 20*n + 3)*(2*n + 1)*n/15.",
+  "id": "A376778",
+  "mentions": [
+    "A014105",
+    "A376777",
+    "A377858"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

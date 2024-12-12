@@ -1,0 +1,20 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,0) = 0^n and T(n,k) = k * Sum_{r=0..n} binomial(3*n-3*r+k,r) * binomial(r,n-r)/(3*n-3*r+k) for k > 0.",
+  "id": "A378321",
+  "mentions": [
+    "A000007",
+    "A019497",
+    "A071919",
+    "A378320"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2+floor(sum{<((-1)^k)*k*sqrt(3)> : 1<=k<=n}), where < > = fractional part.",
+  "description": "a(n) = 2+floor(Sum_{k=1..n} <((-1)^k)*k*sqrt(3)>), where < > = fractional part.",
   "id": "A194824",
   "mentions": [
     "A194821",

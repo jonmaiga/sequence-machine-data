@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 9*zeta(3)/(2*Pi^2) - log(2) + 1/3.",
+  "id": "A377589",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A094642",
+    "A164102",
+    "A244009",
+    "A377588",
+    "A377592"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

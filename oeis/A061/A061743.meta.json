@@ -2,9 +2,14 @@
   "description": "Numbers k such that k! is divisible by (k+1)^2.",
   "id": "A061743",
   "mentions": [
-    "A060462"
+    "A001751",
+    "A060462",
+    "A178156",
+    "A264828",
+    "A264848"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 2^(2n+1)*cos(nA), where A is the angle opposite side BC in a triangle ABC having sidelengths |BC|=2, |CA| = 3, |AB| = 4; ABC is the smallest integer-sided scalene triangle.",
+  "id": "A375880",
+  "mentions": [
+    "A375881",
+    "A375882",
+    "A375883",
+    "A375884",
+    "A375885",
+    "A375891",
+    "A375892",
+    "A375893",
+    "A375894",
+    "A375895",
+    "A375896"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

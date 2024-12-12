@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1-x^6-x^7).",
+  "description": "Expansion of 1/(1 - x^6 - x^7).",
   "id": "A017847",
   "mentions": [
     "A306713"

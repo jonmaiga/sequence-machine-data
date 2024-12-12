@@ -1,0 +1,15 @@
+{
+  "description": "When n appears in A375564.",
+  "id": "A376189",
+  "mentions": [
+    "A375564"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

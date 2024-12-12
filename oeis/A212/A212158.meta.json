@@ -1,5 +1,5 @@
 {
-  "description": "((prime(n)- 1)/2)!, n >= 2.",
+  "description": "a(n) = ((prime(n) - 1)/2)!, n >= 2.",
   "id": "A212158",
   "mentions": [
     "A000040",
@@ -10,6 +10,7 @@
     "A212159"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

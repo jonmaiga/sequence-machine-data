@@ -1,5 +1,5 @@
 {
-  "description": "(prime(prime(2n)) - prime(2 prime(n)))/2.",
+  "description": "a(n) = (prime(prime(2*n)) - prime(2*prime(n)))/2.",
   "id": "A230482",
   "mentions": [
     "A000040",

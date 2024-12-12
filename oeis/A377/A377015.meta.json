@@ -1,0 +1,24 @@
+{
+  "description": "Squares visited by a knight moving on a square-spiral numbered board where the knight moves to a square which has been previously visited the fewest number of times. If two or more such squares exist the smallest numbered square is chosen.",
+  "id": "A377015",
+  "mentions": [
+    "A316667",
+    "A326922",
+    "A328909",
+    "A328929",
+    "A343678",
+    "A358150",
+    "A358278",
+    "A362027",
+    "A377928"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

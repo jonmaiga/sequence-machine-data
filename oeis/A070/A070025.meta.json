@@ -1,5 +1,5 @@
 {
-  "description": "At these values of n, the 1st, 2nd, 3rd and 4th cyclotomic polynomials all give prime numbers.",
+  "description": "At these values of k, the 1st, 2nd, 3rd and 4th cyclotomic polynomials all give prime numbers.",
   "id": "A070025",
   "mentions": [
     "A000068",
@@ -21,12 +21,11 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least number that is the sum of the nonprime divisors of k for exactly n different k.",
+  "id": "A376156",
+  "mentions": [
+    "A023890"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

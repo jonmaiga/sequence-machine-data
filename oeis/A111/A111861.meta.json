@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of integers of the form (n+k)/(n-k)^2 for k>0.",
+  "description": "a(n) is the number of integers k > 0 such that (n+k)/(n-k)^2 is an integer.",
   "id": "A111861",
   "mentions": [
     "A111150",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

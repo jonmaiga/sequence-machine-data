@@ -1,10 +1,11 @@
 {
-  "description": "a(n) = 3*9^n+1.",
+  "description": "a(n) = 3*9^n + 1.",
   "id": "A199561",
   "mentions": [
     "A066443",
     "A087289",
     "A181565",
+    "A199560",
     "A207262"
   ],
   "tags": [
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

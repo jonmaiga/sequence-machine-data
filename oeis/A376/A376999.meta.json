@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least number k that is a quadratic residue modulo prime(n) but is a quadratic nonresidue modulo all previous odd primes.",
+  "id": "A376999",
+  "mentions": [
+    "A377212"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

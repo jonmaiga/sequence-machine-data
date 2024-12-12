@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the frequency of the symbol k in the lexicographically earliest minimal superpermutation on n symbols, where the symbols are {1, 2, ..., n}.",
+  "id": "A376572",
+  "mentions": [
+    "A180632",
+    "A332089"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,14 @@
 {
   "description": "a(n) = (9*n + 3)^9.",
   "id": "A017205",
-  "mentions": [],
+  "mentions": [
+    "A013667",
+    "A016785",
+    "A017197"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of r(n) = Sum(e/p: n=Product(p^e)).",
+  "description": "Numerator of r(n) = Sum(e/p: n=Product(p^e)); a(n) = n' / gcd(n,n'), where n' is the arithmetic derivative of n.",
   "id": "A083345",
   "mentions": [
     "A000027",
@@ -14,13 +14,21 @@
     "A276086",
     "A342001",
     "A342002",
+    "A369001",
     "A369002",
     "A369003",
     "A369005",
     "A369007",
     "A369008",
     "A369068",
-    "A369069"
+    "A369069",
+    "A369644",
+    "A373265",
+    "A373363",
+    "A373366",
+    "A373377",
+    "A373485",
+    "A377874"
   ],
   "tags": [
     "easy",

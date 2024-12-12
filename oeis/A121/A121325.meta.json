@@ -1,9 +1,12 @@
 {
-  "description": "Juxtaposition of the prime factors of 4*n^2 + 1 with multiplicity.",
+  "description": "Irregular triangle read by rows in which the n-th row gives the prime factors of 4*n^2 + 1 with repetition.",
   "id": "A121325",
-  "mentions": [],
+  "mentions": [
+    "A027746"
+  ],
   "tags": [
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,

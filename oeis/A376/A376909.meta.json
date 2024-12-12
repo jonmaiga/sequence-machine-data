@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that none of T(k-1), T(k), and T(k+1) is cubefree, with T(n)=A000217(n).",
+  "id": "A376909",
+  "mentions": [
+    "A000217",
+    "A004709",
+    "A046099",
+    "A377160"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

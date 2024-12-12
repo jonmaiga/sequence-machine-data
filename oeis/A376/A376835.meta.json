@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/((1-x)^4 - 8*x^4)^(1/4).",
+  "id": "A376835",
+  "mentions": [
+    "A002426",
+    "A004981",
+    "A376836"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least integer k which, by a process analogous to the Keith numbers, reach k - n.",
+  "id": "A377439",
+  "mentions": [
+    "A007629",
+    "A377416"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

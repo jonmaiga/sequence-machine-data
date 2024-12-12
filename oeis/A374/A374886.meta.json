@@ -1,0 +1,19 @@
+{
+  "description": "Obverse convolution (n^2)**(n^3); see Comments.",
+  "id": "A374886",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A374848",
+    "A376523"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

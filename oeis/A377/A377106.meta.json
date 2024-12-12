@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies A(x)^3 = A( x^3 + 9*x*A(x)^3 ), with A(0)=0, A'(0)=1.",
+  "id": "A377106",
+  "mentions": [
+    "A000108",
+    "A271934"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

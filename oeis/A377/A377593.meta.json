@@ -1,0 +1,18 @@
+{
+  "description": "Number of aligned fixed polyominoes that will fit in a square of size n X n.",
+  "id": "A377593",
+  "mentions": [
+    "A268404",
+    "A268416",
+    "A292357"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n,k) = number of n-esthetic numbers with k digits.",
+  "id": "A377000",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A029744",
+    "A090990",
+    "A090992",
+    "A090994",
+    "A102699",
+    "A129638",
+    "A152086",
+    "A182555",
+    "A206603",
+    "A228879"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

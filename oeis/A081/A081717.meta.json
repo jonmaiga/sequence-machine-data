@@ -1,5 +1,5 @@
 {
-  "description": "Primes p[j] such that p[j]+j is composite.",
+  "description": "Primes prime(j) such that prime(j) + j is composite.",
   "id": "A081717",
   "mentions": [
     "A061067",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

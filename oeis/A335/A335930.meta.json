@@ -2,6 +2,13 @@
   "description": "Decimal expansion of the arclength on y = sin(x) from (0,0) to (Pi,0).",
   "id": "A335930",
   "mentions": [
+    "A000796",
+    "A010466",
+    "A053004",
+    "A062539",
+    "A105419",
+    "A256667",
+    "A257407",
     "A335928",
     "A335929",
     "A335931",
@@ -9,11 +16,12 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 86,
+    "size": 90,
     "source": "oeis-entry"
   }
 }

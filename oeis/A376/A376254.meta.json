@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A376294(k) < k.",
+  "id": "A376254",
+  "mentions": [
+    "A195330",
+    "A376294"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

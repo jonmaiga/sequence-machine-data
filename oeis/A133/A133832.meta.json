@@ -1,5 +1,5 @@
 {
-  "description": "Least number k>n such that the binary trinomial 1 + 2^n + 2^k is prime, or 0 if there is no such k.",
+  "description": "Least number k > n such that the binary trinomial 1 + 2^n + 2^k is prime, or 0 if there is no such k.",
   "id": "A133832",
   "mentions": [
     "A057196",
@@ -8,7 +8,9 @@
     "A059242",
     "A076336",
     "A081091",
-    "A095056"
+    "A095056",
+    "A133830",
+    "A133831"
   ],
   "tags": [
     "nonn"

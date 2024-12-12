@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi*G - 7*zeta(3)/4, where G = A006752.",
+  "id": "A378003",
+  "mentions": [
+    "A000796",
+    "A002117",
+    "A006752",
+    "A378021"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

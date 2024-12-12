@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(sum_{k, 0 <= k <= n-1} sqrt(n^2 - k^2)).",
+  "description": "a(n) = floor(Sum_{k=0..n-1} sqrt(n^2 - k^2)).",
   "id": "A212649",
   "mentions": [
     "A003881",

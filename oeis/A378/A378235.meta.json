@@ -1,0 +1,17 @@
+{
+  "description": "Number of winning positions of Gordon Hamilton's Jumping Frogs game with single frogs, where the distance between the leftmost frog and the rightmost frog is equal to n.",
+  "id": "A378235",
+  "mentions": [
+    "A377232",
+    "A378004"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

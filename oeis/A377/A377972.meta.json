@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the greatest i such that 2n-prime(i) is also a prime, where prime(i) is the i-th prime.",
+  "id": "A377972",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A020482",
+    "A377758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

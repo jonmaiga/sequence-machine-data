@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first number that is the largest primitive root modulo exactly n numbers.",
+  "id": "A378592",
+  "mentions": [
+    "A306253"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

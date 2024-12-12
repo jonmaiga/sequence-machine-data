@@ -2,7 +2,9 @@
   "description": "a(n) = (10*n)^2.",
   "id": "A017270",
   "mentions": [
-    "A000290"
+    "A000290",
+    "A008592",
+    "A016850"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 39,
     "source": "oeis-bfile"
   }
 }

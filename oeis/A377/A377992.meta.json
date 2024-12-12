@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle giving on row n all antiderivatives of A024451(n), for n >= 2.",
+  "id": "A377992",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A004709",
+    "A005117",
+    "A024451",
+    "A048103",
+    "A327978",
+    "A366890",
+    "A369240",
+    "A377987",
+    "A377993",
+    "A378209"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

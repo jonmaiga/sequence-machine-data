@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that have a record number of common divisors with sigma(k).",
+  "id": "A378267",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A014567",
+    "A073802",
+    "A216793"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

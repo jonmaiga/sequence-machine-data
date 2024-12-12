@@ -2,7 +2,9 @@
   "description": "Palindromes in which the sum of the internal digits = the sum of the external digits.",
   "id": "A088285",
   "mentions": [
-    "A088286"
+    "A002113",
+    "A088286",
+    "A101317"
   ],
   "tags": [
     "base",

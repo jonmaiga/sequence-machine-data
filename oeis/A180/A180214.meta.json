@@ -1,8 +1,9 @@
 {
-  "description": "Number of permutations of 0..(n-1) representable as 1,3,3,1-weighted consecutive sums of 4 adjacent elements of a sequence of n+3 nonnegative integers",
+  "description": "Number of permutations of 0..(n-1) representable as 1,3,3,1-weighted consecutive sums of 4 adjacent elements of a sequence of n+3 nonnegative integers.",
   "id": "A180214",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

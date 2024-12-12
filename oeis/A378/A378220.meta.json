@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet inverse of phi(A003961(n)), where A003961 is fully multiplicative function with a(prime(i)) = prime(i+1).",
+  "id": "A378220",
+  "mentions": [
+    "A003961",
+    "A003972",
+    "A023900",
+    "A048673",
+    "A151800",
+    "A346234",
+    "A346246",
+    "A349385",
+    "A378216"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

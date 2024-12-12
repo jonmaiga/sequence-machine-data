@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! - 1 is prime.",
+  "description": "Numbers k such that k! - 1 is prime.",
   "id": "A002982",
   "mentions": [
     "A000142",

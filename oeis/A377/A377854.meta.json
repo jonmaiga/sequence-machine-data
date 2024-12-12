@@ -1,0 +1,25 @@
+{
+  "description": "Achilles numbers whose squarefree kernel is a primorial.",
+  "id": "A377854",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A002110",
+    "A007947",
+    "A052486",
+    "A055932",
+    "A286708",
+    "A369374",
+    "A378002"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

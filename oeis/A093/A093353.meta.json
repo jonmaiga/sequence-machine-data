@@ -1,11 +1,13 @@
 {
-  "description": "a(n) = (n + n mod 2)*(n + 1)/2.",
+  "description": "a(n) = (n + (n mod 2))*(n + 1)/2.",
   "id": "A093353",
   "mentions": [
     "A000217",
     "A001105",
     "A014105",
     "A014682",
+    "A072691",
+    "A188859",
     "A242669"
   ],
   "tags": [
@@ -14,8 +16,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 53,
-    "source": "joeis"
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

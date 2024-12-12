@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number with the property that you have to change at least n digits to get a palindrome.",
+  "id": "A377192",
+  "mentions": [
+    "A002113",
+    "A007088",
+    "A143960",
+    "A377191"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

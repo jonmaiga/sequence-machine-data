@@ -1,0 +1,17 @@
+{
+  "description": "Terms of A151999 which are not a term of A293928.",
+  "id": "A376639",
+  "mentions": [
+    "A000010",
+    "A151999",
+    "A293928"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

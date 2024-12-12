@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/((1 - x^2 - x^3)^2 - 4*x^5).",
+  "id": "A376723",
+  "mentions": [
+    "A182890",
+    "A375278",
+    "A376724",
+    "A376725",
+    "A376726",
+    "A376729"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

@@ -1,16 +1,17 @@
 {
-  "description": "a(n)=7*a(n-1)-5*a(n-2), a(0)=1, a(1)=5 .",
+  "description": "a(n)=7*a(n-1)-5*a(n-2), a(0)=1, a(1)=5.",
   "id": "A147837",
   "mentions": [
     "A147703"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "joeis"
   }
 }

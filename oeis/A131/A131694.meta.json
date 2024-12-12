@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that S(n) = prime, where S(n) = S(n-1) + A000040(n)*(-1)^n; S(0)=0.",
+  "description": "Numbers k such that abs(S(k)) = A008347(k) is prime, where S(k) = S(k-1) + A000040(k)*(-1)^k; S(0) = 0.",
   "id": "A131694",
   "mentions": [
     "A000040",

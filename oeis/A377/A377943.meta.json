@@ -1,0 +1,19 @@
+{
+  "description": "Cogrowth sequence of the 16-element Pauli group C4 o D4 = .",
+  "id": "A377943",
+  "mentions": [
+    "A047854",
+    "A070775",
+    "A377855"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

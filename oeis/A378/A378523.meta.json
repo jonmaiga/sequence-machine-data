@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet inverse of A332993, where A332993 is defined as a(1) = 1, and for n > 1, a(n) = n + a(A032742(n)), and A032742 is the largest proper divisor.",
+  "id": "A378523",
+  "mentions": [
+    "A032742",
+    "A332993",
+    "A378524"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

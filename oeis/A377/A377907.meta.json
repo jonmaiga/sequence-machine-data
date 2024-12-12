@@ -1,0 +1,22 @@
+{
+  "description": "Number of digits in A376769.",
+  "id": "A377907",
+  "mentions": [
+    "A302656",
+    "A376769",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377906",
+    "A377911"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 124,
+    "source": "oeis-bfile"
+  }
+}

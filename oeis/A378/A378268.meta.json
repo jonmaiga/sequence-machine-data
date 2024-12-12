@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} log(1+1/p)/(p*(p-1)).",
+  "id": "A378268",
+  "mentions": [
+    "A000005",
+    "A077761"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

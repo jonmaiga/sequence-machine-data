@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(tau(n)) equals the sum of distinct primes dividing n.",
+  "description": "Numbers k such that sigma(tau(k)) equals the sum of distinct primes dividing k.",
   "id": "A173325",
   "mentions": [
     "A000005",

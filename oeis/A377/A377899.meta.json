@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of composite numbers c_{2*k+1} <= n, where c_m = A002808(m) is the m-th composite number.",
+  "id": "A377899",
+  "mentions": [
+    "A000720",
+    "A002808",
+    "A062298",
+    "A099861"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

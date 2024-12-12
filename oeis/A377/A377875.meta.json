@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which A276085(k) is not a multiple of 4 and has at least one divisor of the form p^p, with p an odd prime, where A276085 is fully additive with a(p) = p#/p.",
+  "id": "A377875",
+  "mentions": [
+    "A083345",
+    "A276085",
+    "A369002",
+    "A369003",
+    "A377868",
+    "A377869",
+    "A377872",
+    "A377873",
+    "A377874"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

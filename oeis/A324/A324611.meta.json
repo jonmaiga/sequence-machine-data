@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. C(y,x) = cosh( Integral C(x,y)*C(y,x) dy ), where C(x,y) = cosh( Integral C(x,y)*C(y,x) dx ).",
+  "description": "E.g.f. C(y,x) = cos(x) / sqrt(1 - sin(x)^2 - sin(y)^2).",
   "id": "A324611",
   "mentions": [
     "A000182",

@@ -1,8 +1,17 @@
 {
-  "description": "T(n,k)=Number of nXk 0..4 arrays with values 0..4 introduced in row major order and each element equal to no more than two horizontal and vertical neighbors",
+  "description": "T(n,k) is the number of n X k 0..4 arrays with values 0..4 introduced in row major order and each element equal to no more than two horizontal and vertical neighbors.",
   "id": "A198528",
   "mentions": [
-    "A056272"
+    "A056272",
+    "A198521",
+    "A198522",
+    "A198523",
+    "A198524",
+    "A198525",
+    "A198526",
+    "A198527",
+    "A199655",
+    "A200801"
   ],
   "tags": [
     "nonn",

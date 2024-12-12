@@ -1,9 +1,10 @@
 {
-  "description": "If sigma(n)+phi(n) is even then (sigma(n)+phi(n))/2 otherwise -1.",
+  "description": "If sigma(n)+phi(n) is even then a(n) = (sigma(n)+phi(n))/2 otherwise -1.",
   "id": "A292770",
   "mentions": [
     "A000010",
     "A000203",
+    "A028982",
     "A065387",
     "A291790",
     "A292108",
@@ -11,6 +12,8 @@
     "A292771"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

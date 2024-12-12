@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n * tau(n) - Sum_((d",
+  "description": "a(n) = n * tau(n) - Sum_{(d",
   "id": "A245212",
   "mentions": [
     "A000005",

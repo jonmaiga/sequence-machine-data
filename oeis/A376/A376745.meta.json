@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are not pentagonal pyramidal numbers.",
+  "id": "A376745",
+  "mentions": [
+    "A000330",
+    "A000537",
+    "A002411",
+    "A302058",
+    "A376573"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

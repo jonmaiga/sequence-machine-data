@@ -2,14 +2,10 @@
   "description": "a(n) = smallest m>=0 such that n*(3^m)-1 is prime, or -1 if no such prime exists.",
   "id": "A178948",
   "mentions": [
-    "A000040",
     "A038699",
-    "A040081",
     "A050921"
   ],
   "tags": [
-    "easy",
-    "formulas",
     "sign"
   ],
   "terms": {

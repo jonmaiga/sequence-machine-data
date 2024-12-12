@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the numerator of the asymptotic density of numbers whose third smallest prime divisor is prime(n).",
+  "id": "A378720",
+  "mentions": [
+    "A000040",
+    "A000977",
+    "A002110",
+    "A038110",
+    "A038111",
+    "A284411",
+    "A342479",
+    "A342480",
+    "A378721"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

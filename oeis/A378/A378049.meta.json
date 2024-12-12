@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the least m for which m*k is a lucky number (if such an m exists) sets a new record.",
+  "id": "A378049",
+  "mentions": [
+    "A000959",
+    "A377776",
+    "A378050",
+    "A378051"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

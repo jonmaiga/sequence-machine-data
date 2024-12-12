@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not the sum of distinct powers of 4.",
+  "id": "A377463",
+  "mentions": [
+    "A000695",
+    "A074940",
+    "A136399"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

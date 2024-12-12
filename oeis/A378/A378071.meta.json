@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = denominator((4^(2*n+1)*n!^2)/((2*n+3)*(2*n)!)).",
+  "id": "A378071",
+  "mentions": [
+    "A102557"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

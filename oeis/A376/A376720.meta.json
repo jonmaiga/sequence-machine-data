@@ -1,0 +1,21 @@
+{
+  "description": "Product of numbers m that are neither squarefree nor prime powers and rad(m), where rad = A007947.",
+  "id": "A376720",
+  "mentions": [
+    "A003557",
+    "A007947",
+    "A126706",
+    "A286708",
+    "A372404"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

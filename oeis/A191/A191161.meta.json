@@ -2,8 +2,22 @@
   "description": "Hypersigma(n), definition 2: sum of the divisors of n plus the recursive sum of the divisors of the proper divisors.",
   "id": "A191161",
   "mentions": [
+    "A000010",
     "A000203",
-    "A191150"
+    "A007429",
+    "A038040",
+    "A060640",
+    "A067824",
+    "A074206",
+    "A174725",
+    "A191150",
+    "A202687",
+    "A253249",
+    "A255242",
+    "A323910",
+    "A323912",
+    "A330575",
+    "A378211"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 1 bit in J/K.",
+  "id": "A376330",
+  "mentions": [
+    "A070063"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -23,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

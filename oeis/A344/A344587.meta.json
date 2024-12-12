@@ -1,13 +1,20 @@
 {
-  "description": "a(n) = 2*A003961(n) - sigma(A003961(n)).",
+  "description": "Deficiency of prime-shifted n: a(n) = 2*A003961(n) - sigma(A003961(n)).",
   "id": "A344587",
   "mentions": [
     "A000203",
     "A003961",
+    "A003972",
     "A003973",
     "A033879",
+    "A153881",
+    "A336851",
     "A337386",
-    "A337544"
+    "A337544",
+    "A346246",
+    "A349387",
+    "A378216",
+    "A378231"
   ],
   "tags": [
     "formulas",

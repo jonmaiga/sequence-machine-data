@@ -1,0 +1,32 @@
+{
+  "description": "Modular phase shift of the tetration base n written by juxtaposing its representative congruence classes modulo 10 taken by starting from height 2 + v(n), and a(n) = -1 if n is a multiple of 10.",
+  "id": "A376446",
+  "mentions": [
+    "A000007",
+    "A018247",
+    "A018248",
+    "A063006",
+    "A091661",
+    "A091663",
+    "A091664",
+    "A120817",
+    "A120818",
+    "A290372",
+    "A290373",
+    "A290374",
+    "A290375",
+    "A317905",
+    "A370211",
+    "A372490",
+    "A373387"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

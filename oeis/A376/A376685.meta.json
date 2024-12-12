@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the unique k such that A376637(k) is the reversal of A376637(n).",
+  "id": "A376685",
+  "mentions": [
+    "A004086",
+    "A376637",
+    "A376686"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

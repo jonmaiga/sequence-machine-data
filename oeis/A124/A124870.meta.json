@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of real part of (2*omega)^(-n) where omega = (-1 + i*3)/ 2.",
+  "description": "Denominator of real part of (3*i - 1)^(-n).",
   "id": "A124870",
   "mentions": [
     "A124869",

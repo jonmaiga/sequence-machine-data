@@ -1,10 +1,15 @@
 {
-  "description": "Triangle read by rows, Sierpinski's gasket, A047999 * (1,2,4,8,...) diagonalized.",
+  "description": "Triangle read by rows, T(n, k) = 2^k * A047999(n, k).",
   "id": "A166555",
   "mentions": [
+    "A000007",
+    "A000079",
     "A000120",
     "A001317",
+    "A038183",
     "A047999",
+    "A101624",
+    "A101625",
     "A147999"
   ],
   "tags": [
@@ -14,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 66,
+    "size": 91,
     "source": "joeis"
   }
 }

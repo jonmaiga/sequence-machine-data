@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of Sum[i=1..n] i!/(i^i).",
+  "description": "Denominator of Sum_{i=1..n} i!/(i^i).",
   "id": "A121564",
   "mentions": [
     "A000142",
@@ -15,8 +15,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
-    "source": "joeis"
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
   }
 }

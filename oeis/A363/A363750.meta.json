@@ -2,6 +2,7 @@
   "description": "Primes p such that p-1 can be written as a product of smaller numbers that are also of the form prime-1.",
   "id": "A363750",
   "mentions": [
+    "A002144",
     "A006093",
     "A363636",
     "A363638"

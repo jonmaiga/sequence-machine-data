@@ -1,0 +1,16 @@
+{
+  "description": "Products of 3 distinct primes numbers (or sphenics) that are deficient.",
+  "id": "A378480",
+  "mentions": [
+    "A005100",
+    "A007304"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

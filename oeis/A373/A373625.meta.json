@@ -1,0 +1,18 @@
+{
+  "description": "Sum of all entries in character table of the hyperoctahedral group B_n.",
+  "id": "A373625",
+  "mentions": [
+    "A001147",
+    "A082733",
+    "A376826"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

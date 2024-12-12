@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that n = Lpf(n)*Lpf(phi(n)) where Lpf(x) = A006530(x) is the largest prime factor of x.",
+  "description": "Numbers k such that k = Gpf(k) * Gpf(phi(k)) where Gpf(k) = A006530(k) is the greatest prime factor of k.",
   "id": "A071964",
   "mentions": [
-    "A006530"
+    "A000010",
+    "A006530",
+    "A068211"
   ],
   "tags": [
     "easy",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

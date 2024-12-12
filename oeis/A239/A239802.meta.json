@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that if x = n - phi(n) then n = sigma(x) - x, where phi(n) is the Euler totient function.",
+  "description": "Numbers k such that if x = k - phi(k) then k = sigma(x) - x, where phi(k) is the Euler totient function.",
   "id": "A239802",
   "mentions": [
     "A000010",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimal edge covers in the n-Plummer-Toft graph.",
+  "id": "A378701",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 3*zeta(3)/2 + 12*log(2) - 10.",
+  "id": "A377567",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A060459"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

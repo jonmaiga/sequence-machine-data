@@ -2,9 +2,14 @@
   "description": "A good sequence of gaps for Shellsort, found by genetic programming.",
   "id": "A112263",
   "mentions": [
+    "A033622",
+    "A102549",
+    "A108870",
     "A112262"
   ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

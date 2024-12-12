@@ -1,5 +1,5 @@
 {
-  "description": "Odd Catalan numbers; more precisely, A000108(2^n-1).",
+  "description": "Odd Catalan numbers: a(n) = A000108(2^n-1).",
   "id": "A038003",
   "mentions": [
     "A000108",

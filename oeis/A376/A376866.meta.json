@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer k >= 2 such that there exist n partitions whose corresponding multinomial coefficients are all equal to k, with no part appearing in more than one of the partitions.",
+  "id": "A376866",
+  "mentions": [
+    "A180058",
+    "A376369",
+    "A376376",
+    "A376828"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

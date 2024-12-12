@@ -2,21 +2,14 @@
   "description": "Partial sums of A057429.",
   "id": "A172512",
   "mentions": [
-    "A000040",
-    "A000043",
-    "A007670",
-    "A007671",
-    "A027206",
-    "A057429",
-    "A066408",
-    "A103329"
+    "A057429"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

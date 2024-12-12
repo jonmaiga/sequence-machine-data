@@ -1,0 +1,20 @@
+{
+  "description": "Prime indices of triangular numbers k such that either k + 1 or k - 2 is prime.",
+  "id": "A376206",
+  "mentions": [
+    "A000040",
+    "A000124",
+    "A000217",
+    "A034856",
+    "A376205"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 2*n^3 - 3*n + 1.",
+  "id": "A377663",
+  "mentions": [
+    "A377666"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

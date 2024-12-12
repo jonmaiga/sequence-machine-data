@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1 - x * log(1 - x))^2.",
+  "id": "A377682",
+  "mentions": [
+    "A377683",
+    "A377684",
+    "A377685"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

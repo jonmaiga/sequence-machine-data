@@ -2,7 +2,10 @@
   "description": "a(1)=1; a(n) = a(n-1) + [sum of all decimal digits present so far in the sequence].",
   "id": "A072921",
   "mentions": [
+    "A007953",
     "A152231",
+    "A152232",
+    "A152233",
     "A152234"
   ],
   "tags": [

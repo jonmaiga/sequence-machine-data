@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that phi(k+n)=2*phi(k).",
+  "description": "Smallest k such that phi(k+n) = 2*phi(k).",
   "id": "A050473",
   "mentions": [
     "A000010",
@@ -9,11 +9,12 @@
     "A110196"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

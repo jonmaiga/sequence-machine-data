@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sqrt(Pi) / (Gamma(3/4))^2 .",
+  "description": "Decimal expansion of sqrt(Pi) / (Gamma(3/4))^2.",
   "id": "A175574",
   "mentions": [
     "A002161",

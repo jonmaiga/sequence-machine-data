@@ -1,0 +1,18 @@
+{
+  "description": "Primes p_1 where products m of k = 3 consecutive primes p_1..p_k are such that only p_1 < m^(1/k).",
+  "id": "A372209",
+  "mentions": [
+    "A022004",
+    "A022005",
+    "A375008"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

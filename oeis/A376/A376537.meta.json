@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the least k such that Sum_{j=0..k} (n+j)^j is prime, or -1 if there is no such k.",
+  "id": "A376537",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (x^4+3*x^3+6*x^2+3*x+1)/((1-x)*(1-x^3)).",
+  "description": "Expansion of (x^4+3*x^3+6*x^2+3*x+1)/((1-x)*(1-x^3)).",
   "id": "A298024",
   "mentions": [
     "A008458",

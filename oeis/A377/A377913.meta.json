@@ -1,0 +1,17 @@
+{
+  "description": "Records in A342042.",
+  "id": "A377913",
+  "mentions": [
+    "A342042",
+    "A377914"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

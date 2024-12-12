@@ -1,5 +1,5 @@
 {
-  "description": "2-adic valuation of tetrahedral numbers C(n+2,3) = n(n+1)(n+2)/6 = A000292.",
+  "description": "2-adic valuation of tetrahedral numbers C(n+2,3) = n(n+1)(n+2)/6 = A000292(n).",
   "id": "A275019",
   "mentions": [
     "A000292",

@@ -1,0 +1,16 @@
+{
+  "description": "\"s\" coefficients of a log_2-like sequence of algebraic integers of the form (r+phi*s), where r and s are integers and phi = (1+sqrt(5))/2 is the golden ratio.",
+  "id": "A375493",
+  "mentions": [
+    "A001622",
+    "A375484"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

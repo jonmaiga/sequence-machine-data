@@ -1,9 +1,13 @@
 {
-  "description": "Number of 1's required to build n using + and ^",
+  "description": "Number of 1's required to build n using + and ^.",
   "id": "A348262",
   "mentions": [
+    "A005245",
     "A025280",
-    "A213924"
+    "A091333",
+    "A091334",
+    "A213924",
+    "A348089"
   ],
   "tags": [
     "formulas",

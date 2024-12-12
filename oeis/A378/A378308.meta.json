@@ -1,0 +1,16 @@
+{
+  "description": "Array read by antidiagonals: For k >= 3, row k-2 consists of the numbers with no digits 0 in bases 3 to k.",
+  "id": "A378308",
+  "mentions": [
+    "A270027"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

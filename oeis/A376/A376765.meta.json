@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/2)*Sum_{k=0..n} n^binomial(n,k).",
+  "id": "A376765",
+  "mentions": [
+    "A000312",
+    "A007840",
+    "A376766"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

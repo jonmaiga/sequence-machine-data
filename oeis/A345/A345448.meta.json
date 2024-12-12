@@ -2,6 +2,7 @@
   "description": "Number of tilings of a 2 X n rectangle with dominoes and long L-shaped 4-minoes.",
   "id": "A345448",
   "mentions": [
+    "A000045",
     "A052980"
   ],
   "tags": [

@@ -1,12 +1,13 @@
 {
-  "description": "E.g.f.: (sin 2x + cos x) / cos 3x.",
+  "description": "Expansion of e.g.f. (sin 2x + cos x) / cos 3x.",
   "id": "A007289",
   "mentions": [
     "A000191",
     "A000436",
     "A006873",
     "A007286",
-    "A225109"
+    "A225109",
+    "A349271"
   ],
   "tags": [
     "formulas",

@@ -2,17 +2,21 @@
   "description": "Real part of (4 + 3i)^n.",
   "id": "A139030",
   "mentions": [
+    "A066770",
     "A066771",
-    "A066776",
-    "A139031"
+    "A139031",
+    "A374880",
+    "A376283",
+    "A376455"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 23,
-    "source": "joeis"
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest 4-brilliant number (A376704) with n decimal digits.",
+  "id": "A376705",
+  "mentions": [
+    "A078972",
+    "A083128",
+    "A376703",
+    "A376704",
+    "A376706"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,15 @@
 {
   "description": "Rearrangement of cubes such that the sum of two consecutive terms + 1 is a prime.",
   "id": "A073537",
-  "mentions": [],
+  "mentions": [
+    "A000578"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

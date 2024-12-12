@@ -1,0 +1,16 @@
+{
+  "description": "Prime numbers such that the product of their digits is a highly composite number.",
+  "id": "A375788",
+  "mentions": [
+    "A002182"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

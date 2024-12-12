@@ -1,0 +1,22 @@
+{
+  "description": "Triangular table read by rows: T(n,k) is the minimum number of minimal forbidden subgraphs of a graph with n vertices and k edges, n >= 1, 0 <= k <= n*(n-1)/2.",
+  "id": "A376780",
+  "mentions": [
+    "A002865",
+    "A006897",
+    "A103221",
+    "A371161",
+    "A371162",
+    "A376781",
+    "A376782"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

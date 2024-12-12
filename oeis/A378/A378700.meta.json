@@ -1,0 +1,19 @@
+{
+  "description": "Number of k in A126706 between powerful numbers that are not prime powers.",
+  "id": "A378700",
+  "mentions": [
+    "A001694",
+    "A126706",
+    "A286708",
+    "A332785"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Twice the maximum of the areas of the convex hulls of permutations {(1,p(1)), (2,p(2)), ..., (n,p(n))} of {1, 2, ..., n}, considered as points in the plane",
+  "description": "Twice the maximum of the areas of the convex hulls of permutations {(1,p(1)), (2,p(2)), ..., (n,p(n))} of {1, 2, ..., n}, considered as points in the plane.",
   "id": "A208951",
   "mentions": [
     "A156831",

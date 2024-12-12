@@ -1,8 +1,10 @@
 {
-  "description": "Odd, squarefree n such that n/phi(n) > 2, where phi is Euler's totient function.",
+  "description": "Odd squarefree numbers k such that k/phi(k) > 2, where phi is Euler's totient function.",
   "id": "A091495",
   "mentions": [
+    "A000010",
     "A036798",
+    "A056911",
     "A118700"
   ],
   "tags": [

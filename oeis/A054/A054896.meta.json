@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k>0} floor(n/7^k).",
   "id": "A054896",
   "mentions": [
+    "A000142",
     "A011371",
     "A053828",
     "A054861",

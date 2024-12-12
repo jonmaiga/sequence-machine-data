@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k divides 3^((k-1)/2) - 2^((k-1)/2) - 1.",
+  "description": "Numbers k that divide 3^((k-1)/2) - 2^((k-1)/2) - 1.",
   "id": "A130061",
   "mentions": [
     "A038876",

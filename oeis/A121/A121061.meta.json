@@ -1,9 +1,8 @@
 {
-  "description": "Numbers n such that n-th partition number A000041(n) is a 3-almost prime (A014612).",
+  "description": "Numbers k such that k-th partition number A000041(k) is a 3-almost prime (A014612).",
   "id": "A121061",
   "mentions": [
     "A000041",
-    "A001358",
     "A014612",
     "A046063",
     "A065728",

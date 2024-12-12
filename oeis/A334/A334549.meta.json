@@ -18,7 +18,9 @@
     "A172643",
     "A172644",
     "A172645",
-    "A333901"
+    "A333901",
+    "A376935",
+    "A377063"
   ],
   "tags": [
     "formulas",
@@ -28,6 +30,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

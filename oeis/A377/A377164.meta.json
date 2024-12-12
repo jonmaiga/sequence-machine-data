@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least exponent k such that the binary representation of n occurs at exactly n positions within the binary representation of n^k, or -1 if this is not possible.",
+  "id": "A377164",
+  "mentions": [
+    "A377163"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

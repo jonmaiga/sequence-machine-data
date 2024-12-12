@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+1 are both in A376616.",
+  "id": "A376793",
+  "mentions": [
+    "A000120",
+    "A330931",
+    "A376616",
+    "A376794",
+    "A376795"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

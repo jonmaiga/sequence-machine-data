@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet convolution of A033879 and A378525.",
+  "id": "A378534",
+  "mentions": [
+    "A008683",
+    "A033879",
+    "A323910",
+    "A378224",
+    "A378525",
+    "A378532",
+    "A378533",
+    "A378542"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

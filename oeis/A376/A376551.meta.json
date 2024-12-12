@@ -1,0 +1,18 @@
+{
+  "description": "This sequence satisfies: n = Sum_{k=0..n} ((-n)^(n - k)*binomial(n, k)*a(k)).",
+  "id": "A376551",
+  "mentions": [
+    "A000248",
+    "A185298"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

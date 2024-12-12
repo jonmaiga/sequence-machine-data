@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of terms less than A276086(n) in the range of A276086, where A276086 is the primorial base exp-function.",
+  "id": "A376411",
+  "mentions": [
+    "A002110",
+    "A048103",
+    "A057588",
+    "A064273",
+    "A276085",
+    "A276086",
+    "A343048",
+    "A359550",
+    "A376413",
+    "A377982"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

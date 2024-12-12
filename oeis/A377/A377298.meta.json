@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the surface area of a truncated cube with unit edge length.",
+  "id": "A377298",
+  "mentions": [
+    "A002193",
+    "A002194",
+    "A010469",
+    "A010503",
+    "A010524",
+    "A294968",
+    "A377296",
+    "A377299"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

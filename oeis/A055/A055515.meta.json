@@ -1,8 +1,9 @@
 {
-  "description": "(2^n -1)/product(2^p -1) where the product is over all distinct primes p that divide n.",
+  "description": "a(n) = (2^n - 1)/product(2^p - 1) where the product is over all distinct primes p that divide n.",
   "id": "A055515",
   "mentions": [
-    "A051156"
+    "A051156",
+    "A055977"
   ],
   "tags": [
     "easy",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

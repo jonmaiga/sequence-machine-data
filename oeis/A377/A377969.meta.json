@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between triangular faces in a snub cube.",
+  "id": "A377969",
+  "mentions": [
+    "A058265",
+    "A377602",
+    "A377603",
+    "A377604",
+    "A377605",
+    "A377970"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

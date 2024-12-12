@@ -1,0 +1,18 @@
+{
+  "description": "Numbers c such that a + b + c = d are abcd quadruples in the \"abcd-conjecture\" with a < b < c < d, all |a|, b, c, d are pairwise coprime, the quality q of the quadruple has q > 1, term a = +/- 1 = A376149(n) and term b = A376144(n) (with repetitions and sorted by c then b).",
+  "id": "A376143",
+  "mentions": [
+    "A007947",
+    "A216323",
+    "A376144",
+    "A376149"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

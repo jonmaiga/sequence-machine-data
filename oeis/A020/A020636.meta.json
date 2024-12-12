@@ -1,7 +1,9 @@
 {
   "description": "Smallest nonempty set S containing prime divisors of 10k+8 for each k in S.",
   "id": "A020636",
-  "mentions": [],
+  "mentions": [
+    "A020598"
+  ],
   "tags": [
     "fini",
     "full",

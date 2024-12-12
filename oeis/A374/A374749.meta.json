@@ -1,0 +1,19 @@
+{
+  "description": "Number of zygodrome numbers in base-10 (A033023) with n or fewer digits.",
+  "id": "A374749",
+  "mentions": [
+    "A015445",
+    "A033023"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

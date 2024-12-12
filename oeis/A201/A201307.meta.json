@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^3+4.",
+  "description": "Primes of the form k^3+4.",
   "id": "A201307",
   "mentions": [],
   "tags": [

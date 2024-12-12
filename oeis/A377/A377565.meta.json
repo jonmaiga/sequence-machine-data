@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least multiple of n with more decimal digits than n.",
+  "id": "A377565",
+  "mentions": [
+    "A055642",
+    "A097327",
+    "A109940"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

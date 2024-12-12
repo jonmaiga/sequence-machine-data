@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1. Thereafter, if A007947(a(n-1)) is in A002110, a(n) = smallest prime not already a term (condition [A]). Otherwise, if q is the greatest prime < Gpf(a(n-1)) which does not divide a(n-1), a(n) is the least novel multiple of q,(condition [B]).",
+  "id": "A376865",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A002110",
+    "A007947",
+    "A055932",
+    "A365865",
+    "A372368",
+    "A376839"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

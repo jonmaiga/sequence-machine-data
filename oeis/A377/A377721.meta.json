@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not of the form k(k+1)(2k+1)/6 + k.",
+  "id": "A377721",
+  "mentions": [
+    "A000330",
+    "A074279",
+    "A145066"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

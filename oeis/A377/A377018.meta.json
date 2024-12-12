@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of paths of a knight on square a1 to reach a position outside an 8 X 8 chessboard after n steps.",
+  "id": "A377018",
+  "mentions": [
+    "A376736",
+    "A376737",
+    "A376837"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

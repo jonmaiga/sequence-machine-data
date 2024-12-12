@@ -1,9 +1,10 @@
 {
-  "description": "Numerators of the rational number triangle R(m, a) = - (m^2 - 6*m*a + 6*a^2)/(12*m), m >= 1, a = 1, ..., m. This is a regularized Sum_{j >= 0} (a + m*j) defined by analytic continuation of a generalized Hurwitz Zeta function.",
+  "description": "Numerators of the rational number triangle R(m, a) = - (m^2 - 6*m*a + 6*a^2)/(12*m), m >= 1, a = 1, ..., m. This is a regularized Sum_{j >= 0} (a + m*j) defined by analytic continuation of a generalized Hurwitz zeta function.",
   "id": "A268915",
   "mentions": [
     "A267863",
     "A267864",
+    "A268691",
     "A268916",
     "A268917",
     "A268918",

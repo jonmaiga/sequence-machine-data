@@ -2,7 +2,10 @@
   "description": "a(n) = log_2(A359507(n) - 1).",
   "id": "A359508",
   "mentions": [
-    "A359507"
+    "A000523",
+    "A359506",
+    "A359507",
+    "A378218"
   ],
   "tags": [
     "formulas",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 87,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

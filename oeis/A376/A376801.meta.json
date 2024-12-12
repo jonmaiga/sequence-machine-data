@@ -1,0 +1,14 @@
+{
+  "description": "a(0) = 397; a(n+1) = a(n)^2 if a(n) is prime, floor(a(n)/2) otherwise.",
+  "id": "A376801",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

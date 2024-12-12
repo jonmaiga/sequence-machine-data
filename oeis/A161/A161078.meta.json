@@ -1,7 +1,9 @@
 {
   "description": "Number of partitions of n into primes or 1 where every part appears at least 3 times.",
   "id": "A161078",
-  "mentions": [],
+  "mentions": [
+    "A161077"
+  ],
   "tags": [
     "formulas",
     "nonn"

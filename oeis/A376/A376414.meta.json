@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet inverse of sigma(n)-A003415(n), where sigma is the sum of divisors function and A003415 is the arithmetic derivative.",
+  "id": "A376414",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A343224"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

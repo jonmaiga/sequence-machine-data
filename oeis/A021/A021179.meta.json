@@ -2,7 +2,8 @@
   "description": "Decimal expansion of 1/175.",
   "id": "A021179",
   "mentions": [
-    "A021032"
+    "A021032",
+    "A021200"
   ],
   "tags": [
     "cons",

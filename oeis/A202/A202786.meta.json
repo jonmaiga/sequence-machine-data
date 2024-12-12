@@ -1,5 +1,5 @@
 {
-  "description": "Number of 4 X 4 0..n arrays with row and column sums equal",
+  "description": "Number of 4 X 4 0..n arrays with row and column sums equal.",
   "id": "A202786",
   "mentions": [
     "A202784"
@@ -9,8 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
+    "offset": 0,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n+5^n is semiprime.",
+  "description": "Numbers k such that 2^k+5^k is semiprime.",
   "id": "A122116",
   "mentions": [
     "A074600",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Lesser of twin primes (A001359) of the form p = k^2+s such that q = k^4+s is also a lesser of twin primes, q > p.",
+  "description": "Lesser of twin primes (A001359) of the form p = k^2+s such that q = k^4+s is also a lesser of twin primes, q > p and s >= 0.",
   "id": "A126193",
   "mentions": [
     "A001359",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Table T(n, k), n > 1, k = 1..n-1, read by rows; T(n, k) is the greatest m such that the points (m, prime(m)), (k, prime(k)) and (n, prime(n)) are aligned (where prime(k) denotes the k-th prime number).",
+  "id": "A376571",
+  "mentions": [
+    "A376187",
+    "A376569",
+    "A376570"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Exponents of Mersenne primes that are emirps.",
+  "id": "A377465",
+  "mentions": [
+    "A000043",
+    "A006567"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

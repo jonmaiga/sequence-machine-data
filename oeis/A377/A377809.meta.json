@@ -1,0 +1,20 @@
+{
+  "description": "k*(k+3)/2 appears k times.",
+  "id": "A377809",
+  "mentions": [
+    "A000096",
+    "A002024",
+    "A119713"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,12 @@
   "description": "Numbers whose digit sum as well as sum of the squares of the digits is a prime.",
   "id": "A182404",
   "mentions": [
-    "A007953",
-    "A055012",
+    "A028834",
     "A108662"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Let a(1)=2, f(n)=a(1)*a(2)*...*a(n-1) for n>=1 and a(n)=nextprime(f(n)+1)-f(n) for n>=2, where nextprime(x) is the smallest prime > x.",
   "id": "A067836",
   "mentions": [
+    "A005235",
     "A062894",
     "A067362",
     "A068192",

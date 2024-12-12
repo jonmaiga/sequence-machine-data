@@ -1,5 +1,5 @@
 {
-  "description": "Number of graceful labelings for the complete tripartite graph K_1,1,n.",
+  "description": "Number of graceful labelings for the complete tripartite graph K_{1,1,n}.",
   "id": "A334307",
   "mentions": [
     "A333728",

@@ -1,9 +1,19 @@
 {
-  "description": "Numbers n such that phi(x) = n has exactly 9 solutions.",
+  "description": "Numbers k such that phi(x) = k has exactly 9 solutions.",
   "id": "A060672",
   "mentions": [
+    "A000010",
     "A007366",
-    "A007367"
+    "A007367",
+    "A007617",
+    "A060667",
+    "A060668",
+    "A060669",
+    "A060670",
+    "A060671",
+    "A060673",
+    "A060674",
+    "A060675"
   ],
   "tags": [
     "nonn"
@@ -11,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

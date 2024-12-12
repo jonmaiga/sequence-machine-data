@@ -1,12 +1,15 @@
 {
-  "description": "5-infinitary perfect numbers: n such that 5-infinitary-sigma(n)=2*n.",
+  "description": "5-infinitary perfect numbers: numbers k such that 5-infinitary-sigma(k) = 2*k.",
   "id": "A097464",
   "mentions": [
+    "A007357",
+    "A038182",
     "A074849",
     "A097863"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

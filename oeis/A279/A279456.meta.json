@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that number of distinct primes dividing n is odd and number of prime divisors (counted with multiplicity) of n is even.",
+  "description": "Numbers k such that number of distinct primes dividing k is odd and number of prime divisors (counted with multiplicity) of k is even.",
   "id": "A279456",
   "mentions": [
     "A000035",

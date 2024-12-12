@@ -1,5 +1,5 @@
 {
-  "description": "A001221(A004094(n)).",
+  "description": "a(n) = A001221(A004094(n)).",
   "id": "A102382",
   "mentions": [
     "A001221",
@@ -9,6 +9,7 @@
     "A102385"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

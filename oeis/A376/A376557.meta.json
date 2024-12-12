@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: the n-th row gives the least sequence of n consecutive numbers with the same number of divisors.",
+  "id": "A376557",
+  "mentions": [
+    "A000005",
+    "A006558",
+    "A019273",
+    "A039665"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

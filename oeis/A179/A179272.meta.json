@@ -1,5 +1,5 @@
 {
-  "description": "Sharp upper bound on Rosgen overlap number n-vertex graph with n => 14, formula abused here for nonnegative integers.",
+  "description": "Sharp upper bound on Rosgen overlap number n-vertex graph with n >= 14, formula abused here for nonnegative integers.",
   "id": "A179272",
   "mentions": [],
   "tags": [

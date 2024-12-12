@@ -2,10 +2,11 @@
   "description": "Position of 7^n among 7-smooth numbers (A002473).",
   "id": "A232093",
   "mentions": [
-    "A002473",
-    "A232067"
+    "A000420",
+    "A002473"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array: T(n,k) = |round[(r^n)*(s^k)|, where r = golden ratio = (1+ sqrt(5))/2, s = (1 - sqrt(5))/2, 1 < = k <= n, n > = 0.",
+  "description": "Triangular array: T(n,k) = |round((r^n)*(s^k))|, where r = golden ratio = (1+sqrt(5))/2, s = (1-sqrt(5))/2, 1 <= k <= n, n >= 1.",
   "id": "A271355",
   "mentions": [
     "A000032",

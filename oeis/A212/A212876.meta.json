@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form n^2+1 such that 3^(m+3)==9(mod m) where m=n^4-1.",
+  "description": "Numbers of the form n^2+1 such that 3^(m+3)==9 (mod m) where m=n^4-1.",
   "id": "A212876",
   "mentions": [],
   "tags": [

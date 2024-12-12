@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows in which row n (n>=1) lists distinct carryless divisors i of in range 1 <= i <= n.",
+  "description": "Irregular triangle read by rows in which row n (n>=1) lists distinct carryless divisors i of n in range 1 <= i <= n.",
   "id": "A169896",
   "mentions": [],
   "tags": [

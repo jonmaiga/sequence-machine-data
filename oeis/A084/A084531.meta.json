@@ -2,11 +2,13 @@
   "description": "Signature sequence of phi = (1+sqrt(5))/2 = 1.61803...",
   "id": "A084531",
   "mentions": [
+    "A054347",
     "A084532",
     "A167267",
     "A255977"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

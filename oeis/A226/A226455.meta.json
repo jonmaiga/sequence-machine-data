@@ -2,7 +2,9 @@
   "description": "G.f.: exp( Sum_{n>=1} A056789(n)*x^n/n ), where A056789(n) = Sum_{k=1..n} lcm(k,n)/gcd(k,n).",
   "id": "A226455",
   "mentions": [
-    "A056789"
+    "A023896",
+    "A056789",
+    "A226106"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

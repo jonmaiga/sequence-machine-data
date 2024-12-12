@@ -1,0 +1,18 @@
+{
+  "description": "The maximum exponent in the prime factorization of the numbers k such that k and k+1 have the same maximum exponent in their prime factorization.",
+  "id": "A376141",
+  "mentions": [
+    "A051903",
+    "A369020"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,20 @@
 {
-  "description": "Numbers having one 6 in base 8.",
+  "description": "Numbers having exactly one 6 in base 8.",
   "id": "A043445",
   "mentions": [
-    "A007094"
+    "A007094",
+    "A043417",
+    "A043477",
+    "A043513"
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
-    "source": "joeis"
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

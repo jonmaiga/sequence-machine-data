@@ -1,5 +1,5 @@
 {
-  "description": "Highly composite numbers, definition (1): numbers n where d(n), the number of divisors of n (A000005), increases to a record.",
+  "description": "Highly composite numbers: numbers n where d(n), the number of divisors of n (A000005), increases to a record.",
   "id": "A002182",
   "mentions": [
     "A000005",

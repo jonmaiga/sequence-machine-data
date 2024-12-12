@@ -1,0 +1,19 @@
+{
+  "description": "Möbius transform of A378542, where A378542 is the sum of divisors d of n such that n/d has an even number of prime factors (counted with multiplicity).",
+  "id": "A378535",
+  "mentions": [
+    "A001222",
+    "A008683",
+    "A378536",
+    "A378542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

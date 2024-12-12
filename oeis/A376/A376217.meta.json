@@ -1,0 +1,24 @@
+{
+  "description": "Powerful numbers whose sum of powerful divisors (including 1) is even.",
+  "id": "A376217",
+  "mentions": [
+    "A000265",
+    "A001694",
+    "A005117",
+    "A065487",
+    "A082695",
+    "A183097",
+    "A268335",
+    "A376216"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1, a(n) = n*(a(n-1)-1) for n>0.",
+  "description": "a(0)=1, a(n) = n*(a(n-1) - 1) for n>0.",
   "id": "A166554",
   "mentions": [
     "A000142",

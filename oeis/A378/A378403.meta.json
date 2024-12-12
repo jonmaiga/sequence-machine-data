@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n+2*k,n-k).",
+  "id": "A378403",
+  "mentions": [
+    "A000984",
+    "A082759",
+    "A378404"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

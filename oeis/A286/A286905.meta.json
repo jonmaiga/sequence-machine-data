@@ -2,13 +2,16 @@
   "description": "Positions of 1 in A286903; complement of A286904.",
   "id": "A286905",
   "mentions": [
+    "A001951",
     "A080764",
     "A286804",
     "A286903",
-    "A286904"
+    "A286904",
+    "A286909"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

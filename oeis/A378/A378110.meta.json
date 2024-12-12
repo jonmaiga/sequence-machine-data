@@ -1,0 +1,20 @@
+{
+  "description": "Cogrowth sequence of the 18-element group S3:C3 = .",
+  "id": "A378110",
+  "mentions": [
+    "A001045",
+    "A095364",
+    "A378031",
+    "A378109"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

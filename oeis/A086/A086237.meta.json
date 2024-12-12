@@ -1,9 +1,10 @@
 {
-  "description": "Decimal expansion of Porter's Constant.",
+  "description": "Decimal expansion of Porter's constant.",
   "id": "A086237",
   "mentions": [
     "A001620",
     "A073002",
+    "A074962",
     "A143304"
   ],
   "tags": [

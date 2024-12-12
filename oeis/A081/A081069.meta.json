@@ -1,8 +1,9 @@
 {
-  "description": "Lucas(4n)+2, or Lucas(2n)^2.",
+  "description": "a(n) = Lucas(4n)+2 = Lucas(2n)^2.",
   "id": "A081069",
   "mentions": [
     "A000032",
+    "A001622",
     "A005248",
     "A056854"
   ],

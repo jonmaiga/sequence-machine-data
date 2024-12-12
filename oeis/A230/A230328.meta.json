@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of n(n+3)/(4(n+1)(n+2)) = sum(k=1..n, 1/(k(k+1)(k+2)) ).",
+  "description": "Denominator of n(n+3)/(4(n+1)(n+2)) = Sum_{k = 1..n} 1/(k(k+1)(k+2)).",
   "id": "A230328",
   "mentions": [
     "A125650",

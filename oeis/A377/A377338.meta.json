@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that A060715(k), the number of prime numbers between k and 2k exclusive, divides k.",
+  "id": "A377338",
+  "mentions": [
+    "A060715"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes that remain prime if any three of their digits are deleted.",
+  "id": "A378563",
+  "mentions": [
+    "A019546",
+    "A051362",
+    "A378081"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

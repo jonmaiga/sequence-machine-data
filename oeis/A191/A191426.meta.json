@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of (3+[nr]), where r=(golden ratio)=(1+sqrt(5))/2 and [ ]=floor, by antidiagonals.",
+  "description": "Dispersion of (3+[n*r]), where r=(golden ratio)=(1+sqrt(5))/2 and [ ]=floor, by antidiagonals.",
   "id": "A191426",
   "mentions": [
     "A000040",

@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers k such that all the digits in the octal expansion of k^2 are distinct.",
+  "id": "A376897",
+  "mentions": [
+    "A007094",
+    "A119509",
+    "A376898"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

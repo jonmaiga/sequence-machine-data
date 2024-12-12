@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the first k greater of twin primes is a greater of twin prime.",
+  "id": "A376892",
+  "mentions": [
+    "A006512",
+    "A013916",
+    "A071149",
+    "A086168",
+    "A089228",
+    "A376891"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

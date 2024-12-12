@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} whose shortest block is of length k (1 <= k <= n). A block of a permutation is a maximal sequence of consecutive integers which appear in consecutive positions. For example, the permutation 4512367 has 3 blocks: 45, 123, and 67. Its shortest block has length 2.",
   "id": "A184180",
   "mentions": [
+    "A000142",
     "A000166",
     "A184181",
     "A184182"

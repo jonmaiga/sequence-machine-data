@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows (blocks). Each row consists of a permutation of the numbers of its constituents. The length of row number n is the n-th pentagonal number n(3n-1)/2 = A000326(n); see Comments.",
+  "id": "A376180",
+  "mentions": [
+    "A000326",
+    "A002411",
+    "A209278",
+    "A375602"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

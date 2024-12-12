@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) = (1/3) * Sum_{n>=0} Product_{k=0..2*n} (x^k + x^n + x^(2*n-k)).",
+  "id": "A376530",
+  "mentions": [
+    "A000726",
+    "A369557",
+    "A376152",
+    "A376227",
+    "A376542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

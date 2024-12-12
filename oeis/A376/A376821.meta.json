@@ -1,0 +1,18 @@
+{
+  "description": "Number of irreducible pairs of partitions of n.",
+  "id": "A376821",
+  "mentions": [
+    "A070289",
+    "A260669",
+    "A325306",
+    "A376661"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (zeta(2*k)/k)*(2/3)^(2*k).",
+  "id": "A377008",
+  "mentions": [
+    "A073005",
+    "A203129",
+    "A256923",
+    "A275486"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = minimum value of abs(n-Phi(x)) x>0.",
+  "description": "a(n) = minimum value of abs(n-phi(x)), x>0.",
   "id": "A072927",
   "mentions": [
+    "A000010",
     "A002202"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

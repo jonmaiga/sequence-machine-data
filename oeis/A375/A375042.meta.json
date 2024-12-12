@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array T; row n shows the coefficients of the (n-1)-st polynomial in the obverse convolution s(x)**t(x), where s(x) = n^2 x and t(x) = 2x+1. See Comments.",
+  "id": "A375042",
+  "mentions": [
+    "A000290",
+    "A277355",
+    "A374848",
+    "A375041",
+    "A375043"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

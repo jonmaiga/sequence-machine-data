@@ -1,15 +1,17 @@
 {
-  "description": "31n^2 + 1",
+  "description": "a(n) = 31*n^2 + 1.",
   "id": "A247155",
-  "mentions": [],
+  "mentions": [
+    "A010020"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 99,
-    "source": "joeis"
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
   }
 }

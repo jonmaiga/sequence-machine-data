@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the area enclosed by the locus of the centroid of a Reuleaux triangle.",
+  "id": "A377935",
+  "mentions": [
+    "A066666"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

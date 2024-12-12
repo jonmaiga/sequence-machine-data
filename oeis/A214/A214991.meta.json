@@ -2,12 +2,12 @@
   "description": "Second nearest integer to n*(1+golden ratio).",
   "id": "A214991",
   "mentions": [
-    "A000027",
     "A001950",
     "A004976",
     "A214990"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

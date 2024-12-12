@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary matrices containing no more than two 1's in any 2 X 2 sub-block.",
+  "description": "Number of n X n binary matrices containing no more than two 1's in any 2 X 2 subblock.",
   "id": "A140314",
   "mentions": [
     "A063443",

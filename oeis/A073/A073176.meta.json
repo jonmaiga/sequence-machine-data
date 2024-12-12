@@ -2,6 +2,9 @@
   "description": "First n-digit prime in \"the sequence of odd integers\": 135791113151719212325272931333537394143454749...",
   "id": "A073176",
   "mentions": [
+    "A005408",
+    "A073062",
+    "A073175",
     "A073428"
   ],
   "tags": [
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

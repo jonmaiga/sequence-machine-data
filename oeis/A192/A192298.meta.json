@@ -1,5 +1,5 @@
 {
-  "description": "The number of sets of n positive integers strictly less than 2n such that no integer in the set divides another.",
+  "description": "The number of sets of n positive integers strictly less than 2*n such that no integer in the set divides another.",
   "id": "A192298",
   "mentions": [
     "A174094"

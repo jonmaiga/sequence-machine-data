@@ -1,5 +1,5 @@
 {
-  "description": "Row sums of array A128503 (second convolution of Chebyshev's S(n,x)=U(n,x/2) polynomials).",
+  "description": "Row sums of array A128503 (second convolution of Chebyshev's S(n,x) = U(n,x/2) polynomials).",
   "id": "A128504",
   "mentions": [
     "A010892",

@@ -1,10 +1,11 @@
 {
-  "description": "In the following triangle the n-th row begins with n and contains n-1 smallest numbers coprime to n and greater than n. Sequence gives the row sums.",
+  "description": "a(n) = row sum of triangle whose n-th row begins with n and contains n-1 smallest numbers coprime to n and greater than n.",
   "id": "A081501",
   "mentions": [
     "A081500"
   ],
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {

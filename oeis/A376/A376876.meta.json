@@ -1,0 +1,18 @@
+{
+  "description": "Rademacher's partition formula extended to half-integers. a(n) = round(sqrt(48) * (cosh(h(n)) - sinh(h(n))/h(n)) / (24*n + 11)) where h(n) = sqrt(24*n + 11)*(Pi/6).",
+  "id": "A376876",
+  "mentions": [
+    "A000041",
+    "A050811",
+    "A376875"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least number > a(n-1) such that a(1) through a(n) do not contain all residues modulo any prime.",
+  "description": "a(n) is the least number > a(n-1) such that there is no prime p for which a(1) through a(n) would contain all residues modulo p.",
   "id": "A020498",
   "mentions": [
     "A008407",

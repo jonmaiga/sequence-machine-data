@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of Mersenne prime 2^136279841 - 1.",
+  "id": "A377303",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 41024320,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

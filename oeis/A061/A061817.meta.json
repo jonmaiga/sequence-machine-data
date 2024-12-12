@@ -2,6 +2,7 @@
   "description": "Multiples of 9 containing only odd digits.",
   "id": "A061817",
   "mentions": [
+    "A014261",
     "A014263",
     "A061810",
     "A061814",

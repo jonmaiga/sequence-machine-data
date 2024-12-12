@@ -1,16 +1,17 @@
 {
-  "description": "a(n) = if n even then a(n - 1) - (n - 1)*a(n - 2) otherwise 2*(a(n - 1) + (n - 1)*a(n - 2])).",
+  "description": "a(n) = if n even then a(n - 1) - (n - 1)*a(n - 2) otherwise 2*(a(n - 1) + (n - 1)*a(n - 2)).",
   "id": "A122017",
   "mentions": [
     "A000898",
     "A121966"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

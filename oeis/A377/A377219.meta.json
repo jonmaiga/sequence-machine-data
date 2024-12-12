@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of the o.g.f. A(x) defined by [x^n] A(x)^(120*n) = (5*n)!/n!^5 for n >= 0.",
+  "id": "A377219",
+  "mentions": [
+    "A000984",
+    "A008978",
+    "A322252",
+    "A333043",
+    "A370295",
+    "A377217",
+    "A377218"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

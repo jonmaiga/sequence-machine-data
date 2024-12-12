@@ -2,9 +2,12 @@
   "description": "Numbers with mu = 0 and infinitary MoebiusMu = -1; (sum of binary digits of prime exponents is odd).",
   "id": "A066427",
   "mentions": [
+    "A000028",
     "A008683",
+    "A028260",
     "A064179",
-    "A066428"
+    "A066428",
+    "A378489"
   ],
   "tags": [
     "easy",

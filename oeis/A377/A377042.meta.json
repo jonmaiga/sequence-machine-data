@@ -1,0 +1,47 @@
+{
+  "description": "Position of first zero in the n-th differences of the squarefree numbers (A005117), or 0 if it does not appear.",
+  "id": "A377042",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A005117",
+    "A007442",
+    "A007674",
+    "A013929",
+    "A030016",
+    "A036263",
+    "A050320",
+    "A053797",
+    "A053806",
+    "A061398",
+    "A072284",
+    "A073576",
+    "A076259",
+    "A078147",
+    "A112925",
+    "A120992",
+    "A376311",
+    "A376590",
+    "A376591",
+    "A376678",
+    "A376855",
+    "A377037",
+    "A377038",
+    "A377039",
+    "A377040",
+    "A377041",
+    "A377046",
+    "A377050",
+    "A377055"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

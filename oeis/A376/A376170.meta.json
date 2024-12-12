@@ -1,0 +1,21 @@
+{
+  "description": "Powerful numbers whose prime factorization has an even maximum exponent.",
+  "id": "A376170",
+  "mentions": [
+    "A000290",
+    "A001694",
+    "A051903",
+    "A368714",
+    "A376171"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

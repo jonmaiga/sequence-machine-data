@@ -1,10 +1,12 @@
 {
-  "description": "Primes of the form (n! + 2)/2.",
+  "description": "Primes of the form (k! + 2)/2.",
   "id": "A089130",
   "mentions": [
-    "A082672"
+    "A082672",
+    "A139149"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

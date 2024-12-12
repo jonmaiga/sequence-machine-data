@@ -1,17 +1,21 @@
 {
-  "description": "a(n) = number of bits in binary expansion of A046967(n).",
+  "description": "a(n) = number of bits in the binary expansion of A046967(n).",
   "id": "A135249",
   "mentions": [
     "A046967",
+    "A070826",
+    "A070939",
     "A135250"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "joeis"
   }
 }

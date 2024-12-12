@@ -1,10 +1,20 @@
 {
-  "description": "Numbers n such that sigma (x) = n has exactly 12 solutions.",
+  "description": "Numbers k such that sigma (x) = k has exactly 12 solutions.",
   "id": "A060676",
   "mentions": [
+    "A000203",
+    "A007369",
     "A007370",
     "A007371",
-    "A007372"
+    "A007372",
+    "A060660",
+    "A060661",
+    "A060662",
+    "A060663",
+    "A060664",
+    "A060665",
+    "A060666",
+    "A060678"
   ],
   "tags": [
     "nonn"
@@ -12,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

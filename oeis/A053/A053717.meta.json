@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n^7 + n^6 + n^5 + n^4 + n^3 + n^2 + n + 1.",
   "id": "A053717",
-  "mentions": [],
+  "mentions": [
+    "A055129",
+    "A104878"
+  ],
   "tags": [
     "base",
     "easy",

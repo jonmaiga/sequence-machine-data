@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs of divisors of n, (d1,d2), with d1 <= d2, whose average divides n.",
+  "description": "Number of pairs of divisors of n, (d1,d2), with d1 <= d2, whose average is an integer and divides n.",
   "id": "A337331",
   "mentions": [
     "A000005"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 90,
-    "source": "oeis-entry"
+    "size": 100,
+    "source": "oeis-bfile"
   }
 }

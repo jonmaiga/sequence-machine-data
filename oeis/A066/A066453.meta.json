@@ -1,16 +1,22 @@
 {
-  "description": "Number of 3-dimensional polyominoes (or polycubes) with n cells and trivial symmetry group.",
+  "description": "Number of 3-dimensional polyominoes (or polycubes) with n cells and trivial rotational symmetry group.",
   "id": "A066453",
   "mentions": [
     "A000162",
+    "A066273",
+    "A066281",
+    "A066283",
+    "A066287",
+    "A066288",
     "A066454"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

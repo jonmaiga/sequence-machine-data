@@ -2,7 +2,9 @@
   "description": "Numerators of continued fraction convergents to sqrt(325).",
   "id": "A041612",
   "mentions": [
-    "A041613"
+    "A040306",
+    "A041613",
+    "A295330"
   ],
   "tags": [
     "cofr",

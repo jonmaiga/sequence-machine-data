@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest unused positive number such that (a(n-1) AND a(n)) = a(n-1) if a(n-1) is prime, otherwise (a(n-1) AND a(n)) = 0, where AND is the binary AND operation.",
+  "id": "A375828",
+  "mentions": [
+    "A000040",
+    "A007088",
+    "A109812",
+    "A115510",
+    "A353989",
+    "A375829"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

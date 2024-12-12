@@ -1,0 +1,14 @@
+{
+  "description": "Number edge cuts in the n-cocktail party graph.",
+  "id": "A377640",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-1)*sum(k=0,n,(n+k)!/k!^2).",
+  "description": "a(n) = 2^(n-1) * Sum_{k=0..n} (n+k)! / k!^2.",
   "id": "A072343",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

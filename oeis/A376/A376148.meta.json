@@ -1,0 +1,16 @@
+{
+  "description": "Number of nodes after the n-th unfolding of a single vertex (see comments for definition).",
+  "id": "A376148",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

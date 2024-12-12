@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-node connected achiral planar maps with an external face in which all internal faces are triangles.",
+  "id": "A378339",
+  "mentions": [
+    "A377785",
+    "A378335",
+    "A378340",
+    "A378341",
+    "A378342"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

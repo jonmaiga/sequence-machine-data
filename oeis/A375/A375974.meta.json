@@ -1,0 +1,16 @@
+{
+  "description": "Primes p_1 where products m of k = 4 consecutive primes p_1..p_k are such that only p_1 < m^(1/k).",
+  "id": "A375974",
+  "mentions": [
+    "A007530",
+    "A372209"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

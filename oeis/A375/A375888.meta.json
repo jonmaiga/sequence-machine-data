@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array: row n shows all k such that n is the number of rises in the trajectory of k in the Collatz problem.",
+  "id": "A375888",
+  "mentions": [
+    "A000027",
+    "A000079",
+    "A006667",
+    "A070265",
+    "A078719",
+    "A092893",
+    "A354236"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

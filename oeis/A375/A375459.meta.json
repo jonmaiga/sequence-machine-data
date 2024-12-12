@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest magic sum of any 3 X 3 magic square which contains exactly n squared primes, or 0 if no such magic square exists.",
+  "id": "A375459",
+  "mentions": [
+    "A001248",
+    "A268855",
+    "A375361"
+  ],
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

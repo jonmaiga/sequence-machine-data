@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of (k+1)-vertex dominating sets of the (n+1)-path graph that include the first vertex.",
+  "id": "A377069",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000096",
+    "A008776",
+    "A008778",
+    "A047081",
+    "A095661",
+    "A169623",
+    "A212633"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Primes p whose base-3 expansion is also the decimal expansion of a prime.",
   "id": "A065721",
   "mentions": [
+    "A036954",
     "A065361",
     "A065720",
     "A065727"

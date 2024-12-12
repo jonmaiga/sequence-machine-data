@@ -1,0 +1,25 @@
+{
+  "description": "The number of distinct factors of n of the form p^(k!), where p is a prime and k >= 1, when the factorization is uniquely done using the factorial-base representation of the exponents in the prime factorization of n.",
+  "id": "A376886",
+  "mentions": [
+    "A007623",
+    "A058061",
+    "A060130",
+    "A064547",
+    "A077761",
+    "A318464",
+    "A371090",
+    "A376885"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

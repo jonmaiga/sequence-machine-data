@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 12 repeated n times followed by 1 is a palindromic prime.",
+  "description": "Numbers n such that n copies of 12 followed by 1 is a palindromic prime.",
   "id": "A056803",
   "mentions": [
     "A062209",

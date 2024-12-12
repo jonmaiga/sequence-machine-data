@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle where row n lists powers p^k of primes p | n such that p^k <= n and k > 0.",
+  "id": "A377485",
+  "mentions": [
+    "A162306",
+    "A246655",
+    "A361373"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

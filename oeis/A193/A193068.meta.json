@@ -1,7 +1,8 @@
 {
-  "description": "Generating primitive Pythagorean triangles by using (n, n+1) gives perimeters for each n. This sequence list the sum of these perimeters for each n triangles.",
+  "description": "Generating primitive Pythagorean triangles by using (n, n+1) gives perimeters for each n. This sequence lists the sum of these perimeters for each n triangles.",
   "id": "A193068",
   "mentions": [
+    "A002412",
     "A002939",
     "A083374"
   ],

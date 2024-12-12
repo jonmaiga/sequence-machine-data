@@ -1,0 +1,19 @@
+{
+  "description": "n! less trailing zeros (A004154) (mod nextprime(n)).",
+  "id": "A376286",
+  "mentions": [
+    "A004154",
+    "A151800"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

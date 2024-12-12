@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which 8n+5 and 8n+7 are twin primes.",
+  "description": "Numbers k for which 8*k+5 and 8*k+7 are twin primes.",
   "id": "A125821",
   "mentions": [
     "A001109",

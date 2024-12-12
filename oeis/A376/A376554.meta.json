@@ -1,0 +1,20 @@
+{
+  "description": "Square root of largest unitary square divisor of binomial(n, floor(n/2)).",
+  "id": "A376554",
+  "mentions": [
+    "A001405",
+    "A071974",
+    "A376553",
+    "A376555",
+    "A376556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

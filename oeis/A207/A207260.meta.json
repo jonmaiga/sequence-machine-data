@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) with T(n,k) = k^2 + (1-(-1)^(n-k))/2.",
+  "description": "Triangle read by rows: T(n,k) = k^2 + (1-(-1)^(n-k))/2.",
   "id": "A207260",
   "mentions": [
     "A000034",
@@ -21,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 62,
-    "source": "joeis"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

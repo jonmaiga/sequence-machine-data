@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi^4/15 + Pi^2*log(2)^2/4 - log(2)^4/4 - 21*log(2)*zeta(3)/4 - 6*Li_4(1/2).",
+  "id": "A377647",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A002388",
+    "A092425",
+    "A099218"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

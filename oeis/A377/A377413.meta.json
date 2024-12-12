@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least term of A126684 of the form k*n with k > 0.",
+  "id": "A377413",
+  "mentions": [
+    "A126684",
+    "A300889",
+    "A377412"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

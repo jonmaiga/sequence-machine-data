@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = index k of the column in which n is found, if the columns k = 1, 2, 3, ... are initially filled with numbers T(k-1)+1, ..., T(k) = k(k+1)/2, and when n is found in column k, then the top element of each subsequent column (k+1, k+2, ...) is moved to the top of the previous column (k, k+1, ...).",
+  "id": "A376239",
+  "mentions": [
+    "A000217"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

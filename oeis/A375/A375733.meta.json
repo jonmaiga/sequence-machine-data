@@ -1,0 +1,16 @@
+{
+  "description": "Integers of the form p^(q^r) where p, q, r are distinct primes.",
+  "id": "A375733",
+  "mentions": [
+    "A217709"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

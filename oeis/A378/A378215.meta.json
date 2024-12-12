@@ -1,0 +1,21 @@
+{
+  "description": "Parity of A378213, where A378213 is the Dirichlet inverse of A140773.",
+  "id": "A378215",
+  "mentions": [
+    "A038548",
+    "A065043",
+    "A140773",
+    "A369255",
+    "A378213",
+    "A378214"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

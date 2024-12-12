@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + x*A(x)^(7/6)/(1 - x*A(x)) )^6.",
+  "id": "A378693",
+  "mentions": [
+    "A378686",
+    "A378690",
+    "A378692",
+    "A378694"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

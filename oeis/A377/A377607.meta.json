@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers D such that the generalized Pell equation X^2 - D Y^2 = 3 is solvable over the integers.",
+  "id": "A377607",
+  "mentions": [
+    "A031396",
+    "A243655",
+    "A261246",
+    "A377600"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

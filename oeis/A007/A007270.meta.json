@@ -1,13 +1,20 @@
 {
-  "description": "Zero-field low-temperature series for 3-state Potts model.",
+  "description": "Low-temperature series for magnetization in zero-field 3-state Potts model on cubic lattice.",
   "id": "A007270",
-  "mentions": [],
+  "mentions": [
+    "A002929",
+    "A007271",
+    "A057374",
+    "A057382",
+    "A057390",
+    "A057398"
+  ],
   "tags": [
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 43,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

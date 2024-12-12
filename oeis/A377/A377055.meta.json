@@ -1,0 +1,45 @@
+{
+  "description": "Position of first appearance of zero in the n-th differences of the prime-powers (A246655), or 0 if it does not appear.",
+  "id": "A377055",
+  "mentions": [
+    "A000040",
+    "A000688",
+    "A000961",
+    "A001223",
+    "A007442",
+    "A008578",
+    "A023893",
+    "A023894",
+    "A025475",
+    "A030016",
+    "A036263",
+    "A053707",
+    "A057820",
+    "A075526",
+    "A093555",
+    "A174965",
+    "A175804",
+    "A246655",
+    "A361102",
+    "A376340",
+    "A376596",
+    "A376678",
+    "A376855",
+    "A377037",
+    "A377042",
+    "A377050",
+    "A377051",
+    "A377052",
+    "A377053",
+    "A377054",
+    "A377056"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

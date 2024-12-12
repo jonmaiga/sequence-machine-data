@@ -1,16 +1,20 @@
 {
-  "description": "(n+5)! / 5.",
+  "description": "a(n) = (n+5)! / 5.",
   "id": "A129923",
   "mentions": [
-    "A002301"
+    "A001710",
+    "A001715",
+    "A002301",
+    "A133799"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

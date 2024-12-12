@@ -1,0 +1,20 @@
+{
+  "description": "Number of free polyominoes with n cells with at most 3 collinear cell centers on any line in the plane.",
+  "id": "A378169",
+  "mentions": [
+    "A000105",
+    "A377756",
+    "A377942"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

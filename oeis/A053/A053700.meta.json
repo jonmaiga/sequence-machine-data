@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 111111 in base n.",
   "id": "A053700",
-  "mentions": [],
+  "mentions": [
+    "A055129",
+    "A104878"
+  ],
   "tags": [
     "base",
     "easy",

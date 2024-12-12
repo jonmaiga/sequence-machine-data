@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies: x = A( x - A(x)^4/x^2 ).",
+  "id": "A376176",
+  "mentions": [
+    "A213639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

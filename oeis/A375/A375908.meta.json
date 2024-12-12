@@ -1,0 +1,17 @@
+{
+  "description": "Sphenic numbers that are sandwiched between products of exactly 4 distinct primes (or tetraprimes).",
+  "id": "A375908",
+  "mentions": [
+    "A007304",
+    "A046386",
+    "A075819"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

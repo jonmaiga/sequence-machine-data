@@ -2,7 +2,8 @@
   "description": "Digitally balanced numbers in base 9: equal numbers of 0's, 1's, ..., 8's.",
   "id": "A049360",
   "mentions": [
-    "A031443"
+    "A031443",
+    "A378000"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

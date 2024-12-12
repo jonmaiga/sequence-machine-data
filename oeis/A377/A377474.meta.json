@@ -1,0 +1,20 @@
+{
+  "description": "Indices where new terms arise among first differences of Colombian or self numbers (A377472).",
+  "id": "A377474",
+  "mentions": [
+    "A003052",
+    "A377423",
+    "A377472",
+    "A377473"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

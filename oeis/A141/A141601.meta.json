@@ -1,16 +1,18 @@
 {
-  "description": "A neo-combination triangle of coefficients based on the renormalization of permutations by the SO(n) or (D_2*n-1,B_2*n) group element numbers: a(n)=n*(n-1)/2; f(n)=n*f(n-1)*a(n)/a(n-1); t(n,m)=Round( f(n)/(f(n-m)*f(m))).",
+  "description": "Triangle read by rows: T(n, k) = round(f(n)/(f(k)*f(n-k))), where f(n) = n!*binomial(n,2), f(0) = f(1) = 1.",
   "id": "A141601",
-  "mentions": [],
+  "mentions": [
+    "A141600"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 66,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that (k + k')' = k' + k'', where ' denotes the arithmetic derivative A003415.",
+  "id": "A376844",
+  "mentions": [
+    "A003415",
+    "A376830",
+    "A376831",
+    "A376843",
+    "A376848",
+    "A376849",
+    "A376851"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

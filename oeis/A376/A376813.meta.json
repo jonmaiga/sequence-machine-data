@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^(k*(k+1)) * Product_{j=1..k} (1 + x^j)^2.",
+  "id": "A376813",
+  "mentions": [
+    "A001622",
+    "A216222",
+    "A333179",
+    "A376623",
+    "A376812"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

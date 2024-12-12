@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n/rad(n) equals the greatest prime dividing n.",
+  "description": "Numbers k such that k/rad(k) equals the greatest prime dividing k.",
   "id": "A229027",
   "mentions": [
     "A006530",

@@ -1,0 +1,20 @@
+{
+  "description": "Characteristic function of A064771: a(n) = 1 if there is exactly one subset of the proper divisors of n that sum to n, otherwise 0.",
+  "id": "A378448",
+  "mentions": [
+    "A033630",
+    "A064771",
+    "A065205",
+    "A065235",
+    "A378449"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

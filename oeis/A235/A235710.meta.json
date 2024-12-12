@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that sum of the proper divisors of n is a power of 10.",
+  "description": "Composite numbers k such that sum of the proper divisors of k is a power of 10.",
   "id": "A235710",
   "mentions": [
     "A000203",

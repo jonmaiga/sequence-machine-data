@@ -1,13 +1,15 @@
 {
-  "description": "C(p[n],n) is divisible by n^2.",
+  "description": "Numbers k such that binomial(prime(k), k) is divisible by k^2.",
   "id": "A081384",
-  "mentions": [],
+  "mentions": [
+    "A060604"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

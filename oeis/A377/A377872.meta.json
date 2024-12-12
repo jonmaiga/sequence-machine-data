@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k for which A276085(k) is a multiple of 27, where A276085 is fully additive with a(p) = p#/p.",
+  "id": "A377872",
+  "mentions": [
+    "A000720",
+    "A001748",
+    "A001749",
+    "A100484",
+    "A276085",
+    "A339746",
+    "A369007",
+    "A377869",
+    "A377873",
+    "A377875",
+    "A377876",
+    "A377878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,13 @@
 {
-  "description": "Indices of prime Padovan numbers; values of n such that A000931(n+5) is prime.",
+  "description": "Indices of prime Padovan numbers: values of k such that A000931(k+5) is prime.",
   "id": "A112882",
   "mentions": [
     "A000931",
-    "A100891"
+    "A100891",
+    "A152870"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

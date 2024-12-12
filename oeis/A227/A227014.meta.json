@@ -1,5 +1,5 @@
 {
-  "description": "Floor(M(g(n-1)+1,..,g(n))), where M = harmonic mean and g(n) = n^5.",
+  "description": "a(n) = floor(M(g(n-1)+1,..,g(n))), where M = harmonic mean and g(n) = n^5.",
   "id": "A227014",
   "mentions": [
     "A227012",

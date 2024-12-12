@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the central binomial coefficient C(2k,k) has only one prime divisor whose exponent equals one.",
+  "description": "Numbers k such that the central binomial coefficient C(2*k,k) has only one prime divisor whose exponent equals one.",
   "id": "A081391",
   "mentions": [
     "A000108",
@@ -9,6 +9,8 @@
     "A080664",
     "A081386",
     "A081387",
+    "A081388",
+    "A081389",
     "A081390"
   ],
   "tags": [

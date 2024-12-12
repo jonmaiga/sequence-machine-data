@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1, a(n) = a(n-1) - sum_{k=2..n} mu(k)a(n-k), where mu(k) is the Moebius function of k.",
+  "description": "a(0)=1, a(n) = a(n-1) - Sum_{k=2..n} mu(k) * a(n-k), where mu(k) is the Moebius function of k.",
   "id": "A072810",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 24*arctan(sqrt(2)).",
+  "id": "A377296",
+  "mentions": [
+    "A195696",
+    "A377277"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

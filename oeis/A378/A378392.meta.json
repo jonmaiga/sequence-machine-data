@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the inradius of a deltoidal icositetrahedron with unit shorter edge length.",
+  "id": "A378392",
+  "mentions": [
+    "A002193",
+    "A378390",
+    "A378391",
+    "A378393",
+    "A378394"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

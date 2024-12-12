@@ -1,16 +1,19 @@
 {
-  "description": "a(n) = product of digits of A000043(n).",
+  "description": "a(n) = product of decimal digits of A000043(n).",
   "id": "A163821",
   "mentions": [
-    "A000043"
+    "A000043",
+    "A007954"
   ],
   "tags": [
     "base",
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 48,
     "source": "oeis-entry"
   }
 }

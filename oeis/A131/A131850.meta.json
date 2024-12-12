@@ -2,13 +2,8 @@
   "description": "Odious 3-almost primes.",
   "id": "A131850",
   "mentions": [
-    "A000040",
     "A000069",
-    "A001358",
-    "A001969",
-    "A014612",
-    "A027697",
-    "A130593"
+    "A014612"
   ],
   "tags": [
     "easy",

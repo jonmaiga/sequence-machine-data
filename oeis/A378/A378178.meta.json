@@ -1,0 +1,18 @@
+{
+  "description": "Number of powerful k between consecutive perfect (or proper) prime powers.",
+  "id": "A378178",
+  "mentions": [
+    "A001694",
+    "A246547",
+    "A286708"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Li_3(2 - phi).",
+  "id": "A377644",
+  "mentions": [
+    "A001622",
+    "A002117",
+    "A013661",
+    "A094214",
+    "A132338",
+    "A202543"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

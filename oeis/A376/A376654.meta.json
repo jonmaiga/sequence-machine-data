@@ -1,0 +1,44 @@
+{
+  "description": "Sorted positions of first appearances in the second differences of consecutive prime-powers exclusive (A246655).",
+  "id": "A376654",
+  "mentions": [
+    "A000688",
+    "A000961",
+    "A001597",
+    "A007916",
+    "A023893",
+    "A023894",
+    "A025475",
+    "A036263",
+    "A053707",
+    "A057820",
+    "A064113",
+    "A069623",
+    "A073445",
+    "A093555",
+    "A174965",
+    "A246655",
+    "A333254",
+    "A336416",
+    "A361102",
+    "A376340",
+    "A376559",
+    "A376562",
+    "A376590",
+    "A376593",
+    "A376596",
+    "A376597",
+    "A376598",
+    "A376599",
+    "A376653",
+    "A376655"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

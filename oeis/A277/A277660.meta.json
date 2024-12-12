@@ -2,6 +2,8 @@
   "description": "2nd-order coefficients of the 1/N-expansion of traces of negative powers of complex Wishart matrices with parameter c=2.",
   "id": "A277660",
   "mentions": [
+    "A001850",
+    "A002695",
     "A006318",
     "A277661",
     "A277662",
@@ -10,6 +12,7 @@
     "A277665"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

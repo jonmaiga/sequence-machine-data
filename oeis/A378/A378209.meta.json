@@ -1,0 +1,30 @@
+{
+  "description": "Antiderivatives of 334406399, numbers k for which A003415(k) = A024451(9) = A003415(A002110(9)).",
+  "id": "A378209",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A024451",
+    "A046389",
+    "A099307",
+    "A099308",
+    "A327969",
+    "A369239",
+    "A369450",
+    "A369451",
+    "A369452",
+    "A369651",
+    "A377992",
+    "A377993"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

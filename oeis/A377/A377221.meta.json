@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of the series whose 8th power is 1/x * series_reversion(x * E_4(x)), where E_4(x) is the Eisenstein series of weight 4.",
+  "id": "A377221",
+  "mentions": [
+    "A004009",
+    "A108091",
+    "A251592",
+    "A377220",
+    "A377223"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

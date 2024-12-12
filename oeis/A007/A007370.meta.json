@@ -2,10 +2,20 @@
   "description": "Numbers k such that sigma(x) = k has a unique solution.",
   "id": "A007370",
   "mentions": [
+    "A000203",
     "A007015",
     "A007369",
     "A007371",
-    "A007372"
+    "A007372",
+    "A060660",
+    "A060661",
+    "A060662",
+    "A060663",
+    "A060664",
+    "A060665",
+    "A060666",
+    "A060676",
+    "A060678"
   ],
   "tags": [
     "nonn"

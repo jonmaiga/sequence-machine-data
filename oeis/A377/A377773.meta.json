@@ -1,0 +1,16 @@
+{
+  "description": "Number of edge cuts in the n-web graph.",
+  "id": "A377773",
+  "mentions": [
+    "A359621"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

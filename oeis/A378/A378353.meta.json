@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the inradius of a (small) triakis octahedron with unit shorter edge length.",
+  "id": "A378353",
+  "mentions": [
+    "A010487",
+    "A201488",
+    "A378351",
+    "A378352",
+    "A378354"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

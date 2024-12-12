@@ -1,5 +1,5 @@
 {
-  "description": "Row 3 of Ludic array A255127: a(n) = A007310((5*n)-3).",
+  "description": "a(n) = 15*n - 11 + (n mod 2). Row 3 of Ludic array A255127.",
   "id": "A255413",
   "mentions": [
     "A007310",
@@ -9,6 +9,7 @@
     "A255407"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

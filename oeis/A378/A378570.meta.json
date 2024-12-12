@@ -1,0 +1,16 @@
+{
+  "description": "Smallest integer m for which A378568(m) = n.",
+  "id": "A378570",
+  "mentions": [
+    "A378568"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

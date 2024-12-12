@@ -1,0 +1,20 @@
+{
+  "description": "Products of 4 distinct primes numbers (or tetraprimes) that are deficient.",
+  "id": "A378717",
+  "mentions": [
+    "A005100",
+    "A014613",
+    "A046386",
+    "A046390",
+    "A378480"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

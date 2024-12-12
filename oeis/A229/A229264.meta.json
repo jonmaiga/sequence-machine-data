@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form sigma(n) + phi(n), where sigma(n) = A000203(n) and phi(n) = A000010(n).",
+  "description": "Prime terns in A065387 in the order of their appearance.",
   "id": "A229264",
   "mentions": [
     "A000005",
@@ -11,9 +11,12 @@
     "A055813",
     "A062700",
     "A064205",
+    "A065387",
     "A115919",
     "A141242",
     "A229265",
+    "A229266",
+    "A229267",
     "A229268"
   ],
   "tags": [
@@ -22,6 +25,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

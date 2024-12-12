@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the unmatched portion of the digit stream A376771 that A303656(n) must match, or -1 if this is the null string.",
+  "id": "A377909",
+  "mentions": [
+    "A302656",
+    "A303656",
+    "A376769",
+    "A376771",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377906",
+    "A377911"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

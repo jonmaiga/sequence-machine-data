@@ -2,15 +2,18 @@
   "description": "First triangular number with digit sum = n-th triangular number.",
   "id": "A068133",
   "mentions": [
+    "A000217",
     "A068127",
     "A068128",
     "A068129",
     "A068130",
     "A068131",
-    "A068132"
+    "A068132",
+    "A068134"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n*(n+3)/2 + 6.",
   "id": "A167499",
-  "mentions": [],
+  "mentions": [
+    "A187710"
+  ],
   "tags": [
     "easy",
     "formulas",

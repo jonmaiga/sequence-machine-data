@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(n!*(e - 1/24)).",
+  "id": "A377013",
+  "mentions": [
+    "A000522",
+    "A370973"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

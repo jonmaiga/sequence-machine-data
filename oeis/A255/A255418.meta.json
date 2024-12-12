@@ -2,9 +2,14 @@
   "description": "Row 8 of Ludic array A255127.",
   "id": "A255418",
   "mentions": [
-    "A255127"
+    "A255127",
+    "A255417",
+    "A255419",
+    "A376237",
+    "A377469"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,23 @@
+{
+  "description": "Natural numbers whose iterated squaring modulo 1000 eventually enters the 4-cycle 201, 401, 801, 601.",
+  "id": "A376541",
+  "mentions": [
+    "A008592",
+    "A017329",
+    "A376506",
+    "A376507",
+    "A376508",
+    "A376509",
+    "A376538",
+    "A376539",
+    "A376540"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

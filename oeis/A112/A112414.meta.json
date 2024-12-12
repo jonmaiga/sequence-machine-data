@@ -1,7 +1,9 @@
 {
-  "description": "3n+7.",
+  "description": "a(n) = 3*n + 7.",
   "id": "A112414",
   "mentions": [
+    "A016933",
+    "A059845",
     "A086822"
   ],
   "tags": [

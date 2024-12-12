@@ -1,0 +1,16 @@
+{
+  "description": "Number of ordered pairs of real n X n (0,1)-matrices that satisfy the equation A + B = A * B.",
+  "id": "A377881",
+  "mentions": [
+    "A060757"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

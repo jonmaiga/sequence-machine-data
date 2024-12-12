@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of patterns of length n with all distinct run lengths and maximum value k, n >= 0, k = 0..floor((sqrtint(8*n+1)+1)/2).",
+  "description": "Triangle read by rows: T(n,k) is the number of patterns of length n with all distinct run lengths and maximum value k, n >= 0, k = 0..floor(sqrt(8*n+1)-1/2).",
   "id": "A350824",
   "mentions": [
     "A000217",

@@ -1,5 +1,5 @@
 {
-  "description": "2^(2p-1)/4, where p is A000043(n).",
+  "description": "a(n) = 2^(2*p-1)/4, where p is A000043(n).",
   "id": "A152922",
   "mentions": [
     "A000043",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
-    "source": "joeis"
+    "size": 10,
+    "source": "oeis-bfile"
   }
 }

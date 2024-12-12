@@ -1,5 +1,5 @@
 {
-  "description": "Number compositions of n where differences between neighboring parts are in {-2,2}.",
+  "description": "Number of compositions of n where differences between neighboring parts are in {-2,2}.",
   "id": "A214254",
   "mentions": [
     "A214247"

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of the o.g.f. A(x) defined by [x^n] A(x)^(6*n) = (3*n)!/n!^3 for n >= 0.",
+  "id": "A377217",
+  "mentions": [
+    "A000984",
+    "A006480",
+    "A060542",
+    "A229451",
+    "A229452",
+    "A377218",
+    "A377219"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

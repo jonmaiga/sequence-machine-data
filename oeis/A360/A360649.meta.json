@@ -2,9 +2,11 @@
   "description": "The exponents that occur in the greedy representation of 1/2 as a sum of powers of 2/3.",
   "id": "A360649",
   "mentions": [
-    "A058840"
+    "A058840",
+    "A077468"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

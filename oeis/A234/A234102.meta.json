@@ -2,6 +2,7 @@
   "description": "Integers of the form (p*q*r + 1)/2, where p, q, r are distinct primes.",
   "id": "A234102",
   "mentions": [
+    "A046389",
     "A234099",
     "A234103",
     "A234104"
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

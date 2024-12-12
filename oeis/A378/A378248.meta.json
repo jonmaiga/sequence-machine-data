@@ -1,0 +1,17 @@
+{
+  "description": "Number of sets of chess pieces whose collective material value adds to n.",
+  "id": "A378248",
+  "mentions": [
+    "A029041"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

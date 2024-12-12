@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have more than one even exponent in their prime factorization.",
+  "id": "A377817",
+  "mentions": [
+    "A062312",
+    "A072413",
+    "A162645",
+    "A268335",
+    "A350388",
+    "A377816"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

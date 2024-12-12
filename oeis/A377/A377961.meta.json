@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the successive digits of the odd and even bisections are pairwise distinct.",
+  "id": "A377961",
+  "mentions": [
+    "A329127"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

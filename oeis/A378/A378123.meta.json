@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of prime divisors of the sum of the first n odd primes.",
+  "id": "A378123",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A008334",
+    "A008335",
+    "A071148",
+    "A071215",
+    "A378122"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

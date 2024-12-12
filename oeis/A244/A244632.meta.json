@@ -1,8 +1,9 @@
 {
-  "description": "23*n^2.",
+  "description": "a(n) = 23*n^2.",
   "id": "A244632",
   "mentions": [
     "A000290",
+    "A008605",
     "A195058",
     "A244630"
   ],
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 42,
     "source": "joeis"
   }
 }

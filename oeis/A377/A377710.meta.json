@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that have a record number of infinitary divisors that are exponentially odd numbers (A268335)",
+  "id": "A377710",
+  "mentions": [
+    "A025487",
+    "A268335",
+    "A322484",
+    "A363825"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

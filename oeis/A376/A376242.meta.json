@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least m >= 0 such that (x = f(A376241(n)), y = f(m), z = (x+y)/(xy-1)) yields an integer x+y+z = x*y*z, where f(m) = A002487(m)/A002487(m+1).",
+  "id": "A376242",
+  "mentions": [
+    "A002487",
+    "A376241",
+    "A376243"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

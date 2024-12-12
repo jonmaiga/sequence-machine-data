@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3 X n 0..2 matrices with row sums n and column sums 3 up to permutations of rows.",
+  "id": "A377065",
+  "mentions": [
+    "A172634",
+    "A377063",
+    "A377066",
+    "A377067"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

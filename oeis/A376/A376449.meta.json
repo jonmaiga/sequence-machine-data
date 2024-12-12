@@ -1,0 +1,16 @@
+{
+  "description": "Smallest sum of addition chain for n.",
+  "id": "A376449",
+  "mentions": [
+    "A003313"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

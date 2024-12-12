@@ -1,0 +1,18 @@
+{
+  "description": "Primes with repeated digits that remain prime when any two of the same-valued digits are deleted.",
+  "id": "A378415",
+  "mentions": [
+    "A051362",
+    "A226108",
+    "A378081"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

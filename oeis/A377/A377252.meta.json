@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) = A( x^3 + x^3*A(x) ) / x^2.",
+  "id": "A377252",
+  "mentions": [
+    "A091600"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

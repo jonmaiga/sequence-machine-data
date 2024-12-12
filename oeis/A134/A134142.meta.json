@@ -2,9 +2,9 @@
   "description": "List of quadruples: 2*(-4)^n, -3*(-4)^n, 2*(-4^n), 2*(-4)^n, n >= 0.",
   "id": "A134142",
   "mentions": [
+    "A038521",
     "A081147",
-    "A108520",
-    "A134654"
+    "A108520"
   ],
   "tags": [
     "easy",

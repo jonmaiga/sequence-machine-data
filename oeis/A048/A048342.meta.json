@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the concatenation of the numbers 1, 2, ..., k is a product of distinct primes.",
+  "description": "Numbers k such that the concatenation of the numbers 1, 2, ..., k is squarefree.",
   "id": "A048342",
   "mentions": [
     "A007908"

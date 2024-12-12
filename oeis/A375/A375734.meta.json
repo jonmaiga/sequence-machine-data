@@ -1,5 +1,5 @@
 {
-  "description": "Indices of consecutive prime-powers (exclusive) differing by 1. Positions of 1's in A246655.",
+  "description": "Indices of consecutive prime-powers (exclusive) differing by 1. Positions of 1's in A057820.",
   "id": "A375734",
   "mentions": [
     "A000040",
@@ -53,7 +53,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

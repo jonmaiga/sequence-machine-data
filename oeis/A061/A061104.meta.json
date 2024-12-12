@@ -1,5 +1,5 @@
 {
-  "description": "Smallest number whose digit sum is n^2.",
+  "description": "Smallest number whose sum of digits is n^2.",
   "id": "A061104",
   "mentions": [
     "A051885",

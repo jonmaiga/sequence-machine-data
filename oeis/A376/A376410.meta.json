@@ -1,0 +1,29 @@
+{
+  "description": "Number of integers whose arithmetic derivative (A003415) is equal to n!, the n-th factorial.",
+  "id": "A376410",
+  "mentions": [
+    "A000142",
+    "A002620",
+    "A003415",
+    "A011371",
+    "A027868",
+    "A054861",
+    "A054896",
+    "A062311",
+    "A099302",
+    "A351029",
+    "A369239",
+    "A377986"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

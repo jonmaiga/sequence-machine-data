@@ -1,0 +1,23 @@
+{
+  "description": "Powerful numbers that have a single even exponent in their prime factorization.",
+  "id": "A377818",
+  "mentions": [
+    "A001694",
+    "A056798",
+    "A065487",
+    "A335988",
+    "A350388",
+    "A377816",
+    "A377819"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

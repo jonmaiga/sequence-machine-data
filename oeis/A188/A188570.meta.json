@@ -1,10 +1,11 @@
 {
-  "description": "Coefficients of the absolute term in (1 + sqrt(2) + sqrt(3))^n sequence, denoted as C1(n).",
+  "description": "a(n) = coefficient of the term that is independent of sqrt(2) and sqrt(3) in the expansion of (1 + sqrt(2) + sqrt(3))^n.",
   "id": "A188570",
   "mentions": [
     "A188571",
     "A188572",
-    "A188573"
+    "A188573",
+    "A377109"
   ],
   "tags": [
     "formulas",

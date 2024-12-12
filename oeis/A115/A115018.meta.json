@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n+1)*(n+2)^2 + 1 is prime.",
+  "description": "Numbers k such that (k+1)*(k+2)^2 + 1 is prime.",
   "id": "A115018",
   "mentions": [
     "A154686"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

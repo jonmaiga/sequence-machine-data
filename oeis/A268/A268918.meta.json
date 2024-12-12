@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of the rational number triangle R(m, a) = - a*(m - a)*(m - 2*a)/(6*m), m >= 1, a = 1, ..., m.",
+  "description": "Denominators of the rational number triangle R(n, k) = - k*(n - k)*(n - 2*k)/(6*n), n >= 1, k = 1, ..., n.",
   "id": "A268918",
   "mentions": [
     "A267863",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 105,
     "source": "joeis"
   }
 }

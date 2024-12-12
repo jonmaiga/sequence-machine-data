@@ -1,0 +1,18 @@
+{
+  "description": "Convolution of Leonardo numbers with Jacobsthal numbers.",
+  "id": "A377728",
+  "mentions": [
+    "A001045",
+    "A001595"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

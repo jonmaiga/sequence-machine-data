@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of 3n into 3 parts with smallest part prime.",
+  "description": "Number of partitions of 3*n into 3 parts with smallest part prime.",
   "id": "A236758",
   "mentions": [
     "A010051",

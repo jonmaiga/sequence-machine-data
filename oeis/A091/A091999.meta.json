@@ -2,11 +2,13 @@
   "description": "Numbers that are congruent to {2, 10} mod 12.",
   "id": "A091999",
   "mentions": [
+    "A002193",
     "A007310",
     "A017545",
     "A017641",
     "A063221",
     "A092260",
+    "A101263",
     "A109761",
     "A138591",
     "A186424"

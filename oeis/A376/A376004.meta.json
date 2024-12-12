@@ -1,0 +1,15 @@
+{
+  "description": "Limiting matrix {m_n}, where m_0 = 1 and m_{i+1} = [[m_i, A(m_i)], [B(m_i), C(m_i)]], read by antidiagonals, and A adds the corresponding x-coords to every element, B subtracts it, and C adds the corresponding y-coords.",
+  "id": "A376004",
+  "mentions": [],
+  "tags": [
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

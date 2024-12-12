@@ -1,0 +1,26 @@
+{
+  "description": "Number of digit patterns of length n without common prime factors of a different digital type.",
+  "id": "A376918",
+  "mentions": [
+    "A004023",
+    "A007088",
+    "A164864",
+    "A266946",
+    "A267013",
+    "A358497",
+    "A377727",
+    "A378154",
+    "A378199"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

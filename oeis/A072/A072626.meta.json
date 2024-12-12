@@ -1,5 +1,5 @@
 {
-  "description": "Parity of Floor[n/log[n]].",
+  "description": "Parity of floor(n/log(n)).",
   "id": "A072626",
   "mentions": [
     "A000720",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

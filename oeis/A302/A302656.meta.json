@@ -1,7 +1,19 @@
 {
   "description": "Replacing each term of this sequence S with its digitsum produces a new sequence S' such that S' and S share the same succession of digits.",
   "id": "A302656",
-  "mentions": [],
+  "mentions": [
+    "A007953",
+    "A376769",
+    "A376770",
+    "A376771",
+    "A376772",
+    "A376774",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377906",
+    "A377911"
+  ],
   "tags": [
     "base",
     "nonn"

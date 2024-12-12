@@ -2,11 +2,18 @@
   "description": "Number of self-avoiding walks on the cubic lattice trapped after n steps.",
   "id": "A077817",
   "mentions": [
-    "A001412"
+    "A001412",
+    "A077818",
+    "A077819",
+    "A077820",
+    "A377161",
+    "A377162"
   ],
   "tags": [
+    "hard",
     "more",
-    "nonn"
+    "nonn",
+    "walk"
   ],
   "terms": {
     "offset": 11,

@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum distinguishing labelings in the cycle graph C_n.",
+  "id": "A377502",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

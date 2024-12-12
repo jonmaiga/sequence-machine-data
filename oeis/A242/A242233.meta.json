@@ -2,6 +2,7 @@
   "description": "2^n*(C_n)^(1/2) in the Cauchy type product where C_n is the n-th Catalan number.",
   "id": "A242233",
   "mentions": [
+    "A000108",
     "A126156",
     "A241885"
   ],

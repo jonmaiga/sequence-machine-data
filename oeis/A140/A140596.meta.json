@@ -1,9 +1,9 @@
 {
-  "description": "Squares nearest to and < terms in A095862.",
+  "description": "Squares nearest to and < terms in A098562.",
   "id": "A140596",
   "mentions": [
+    "A048760",
     "A066525",
-    "A095862",
     "A098561",
     "A098562",
     "A140597"

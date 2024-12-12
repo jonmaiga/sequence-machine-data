@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 81n^2 - 118n + 43.",
+  "description": "a(n) = 81*n^2 - 118*n + 43.",
   "id": "A156677",
   "mentions": [
     "A017305",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 40,
     "source": "oeis-bfile"
   }
 }

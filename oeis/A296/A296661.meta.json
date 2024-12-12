@@ -2,7 +2,7 @@
   "description": "a(n) = (exp(k)*Gamma(1+n, k) - exp(-k)*Gamma(1+n, -k))/k! for k = 3.",
   "id": "A296661",
   "mentions": [
-    "A000023",
+    "A010843",
     "A053486"
   ],
   "tags": [

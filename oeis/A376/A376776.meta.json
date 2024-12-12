@@ -1,0 +1,22 @@
+{
+  "description": "Position of prime(n) in A302656, or -1 if prime(n) does not appear in A302656.",
+  "id": "A376776",
+  "mentions": [
+    "A302656",
+    "A376769",
+    "A376772",
+    "A377903",
+    "A377904",
+    "A377906",
+    "A377911"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

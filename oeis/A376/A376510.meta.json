@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of pairs of primes p+q=2*(n+4) with 5 <= p <= n such that either p+6 or q+6 is also prime.",
+  "id": "A376510",
+  "mentions": [
+    "A171611",
+    "A240712",
+    "A254041"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

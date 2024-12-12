@@ -1,5 +1,5 @@
 {
-  "description": "Second m such that (2^n)! + m is a prime.",
+  "description": "Second smallest m such that (2^n)! + m is a prime.",
   "id": "A138346",
   "mentions": [
     "A136146"

@@ -1,9 +1,10 @@
 {
-  "description": "Decimal expansion of the real positive root of 48x^4 + 16x^3 - 27x^2 - 18x - 3 = 0.",
+  "description": "Decimal expansion of the real positive root of 48*x^4 + 16*x^3 - 27*x^2 - 18*x - 3 = 0.",
   "id": "A243508",
   "mentions": [],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,24 +1,26 @@
 {
-  "description": "Fixed point if (decimal-digit-sum)-function at initial value = n-th primorial = A002110(n) is iterated.",
+  "description": "The n-th primorial number reduced modulo 9.",
   "id": "A086360",
   "mentions": [
     "A002110",
     "A007953",
+    "A010878",
     "A010888",
     "A029898",
     "A038194",
     "A086353",
-    "A086361"
+    "A086361",
+    "A377876",
+    "A377877"
   ],
   "tags": [
-    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 87,
+    "offset": 0,
+    "size": 88,
     "source": "oeis-bfile"
   }
 }

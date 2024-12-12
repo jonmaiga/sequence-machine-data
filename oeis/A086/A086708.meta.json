@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p-1 and p+1 are both divisible by cubes.",
+  "description": "Primes p such that p-1 and p+1 are both divisible by cubes (other than 1).",
   "id": "A086708",
   "mentions": [
     "A000040",

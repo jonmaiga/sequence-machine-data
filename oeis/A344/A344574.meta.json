@@ -7,11 +7,13 @@
     "A344517"
   ],
   "tags": [
+    "easy",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

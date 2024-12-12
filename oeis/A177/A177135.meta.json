@@ -2,6 +2,7 @@
   "description": "Primes of the form 2*10^n - 3.",
   "id": "A177135",
   "mentions": [
+    "A030096",
     "A102947"
   ],
   "tags": [

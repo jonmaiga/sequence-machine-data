@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of a snub dodecahedron with unit edge length.",
+  "id": "A377804",
+  "mentions": [
+    "A002194",
+    "A131595",
+    "A377805",
+    "A377806",
+    "A377807"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies: A'(x) = 1 + A(x)*A'(x)^3.",
+  "id": "A376175",
+  "mentions": [
+    "A001764",
+    "A180254",
+    "A376174"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

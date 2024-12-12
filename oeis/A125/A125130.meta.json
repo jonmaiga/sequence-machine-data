@@ -2,11 +2,14 @@
   "description": "Successive sums of consecutive primes that form a triangular grid.",
   "id": "A125130",
   "mentions": [
+    "A000217",
     "A007468",
+    "A007504",
     "A078721"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

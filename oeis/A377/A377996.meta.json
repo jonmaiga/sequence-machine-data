@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between triangular and square faces in a (small) rhombicosidodecahedron.",
+  "id": "A377996",
+  "mentions": [
+    "A002194",
+    "A010472",
+    "A377995"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

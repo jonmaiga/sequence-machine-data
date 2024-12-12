@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the denominator corresponding to A377161(n).",
+  "id": "A377162",
+  "mentions": [
+    "A077818",
+    "A077819",
+    "A077820",
+    "A377161"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 11,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,12 @@
 {
-  "description": "n*nextprime(n).",
+  "description": "a(n) = n*nextprime(n).",
   "id": "A013636",
-  "mentions": [],
+  "mentions": [
+    "A151800"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

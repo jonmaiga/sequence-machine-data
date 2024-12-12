@@ -1,7 +1,9 @@
 {
   "description": "Degrees of irreducible representations of symmetric group S_9.",
   "id": "A003873",
-  "mentions": [],
+  "mentions": [
+    "A060240"
+  ],
   "tags": [
     "fini",
     "full",

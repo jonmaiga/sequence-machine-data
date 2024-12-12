@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which can be written in precisely one way as sum of a subset of their proper divisors and that have exactly one subset of their divisors such that the complement has the same sum.",
+  "id": "A378530",
+  "mentions": [
+    "A000396",
+    "A064771",
+    "A083209",
+    "A378529",
+    "A378604"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

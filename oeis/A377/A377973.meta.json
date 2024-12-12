@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of the 96th root of the series 2*E_2(x) - E_2(x)^2, where E_2 is the Eisenstein series of weight 2.",
+  "id": "A377973",
+  "mentions": [
+    "A006352",
+    "A281374",
+    "A289392",
+    "A341801",
+    "A341871",
+    "A341875",
+    "A377974",
+    "A377975",
+    "A377976",
+    "A377977"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

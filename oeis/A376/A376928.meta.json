@@ -1,0 +1,30 @@
+{
+  "description": "The largest noncomposite number k such that n is divisible by all the primes that do not exceed k.",
+  "id": "A376928",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
+    "A006530",
+    "A034386",
+    "A053589",
+    "A053669",
+    "A055881",
+    "A055932",
+    "A062356",
+    "A151799",
+    "A257993",
+    "A276084",
+    "A377010"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1, a(1) = 3, a(2) = 13; for n >= 2, a(n+1) = 2*3^((a(n)-1)/4) - 1.",
+  "id": "A377082",
+  "mentions": [
+    "A006287",
+    "A007013",
+    "A375212"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

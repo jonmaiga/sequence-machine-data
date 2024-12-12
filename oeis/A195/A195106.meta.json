@@ -2,11 +2,13 @@
   "description": "Numbers with largest and smallest prime factors differing by 4.",
   "id": "A195106",
   "mentions": [
+    "A023200",
     "A143203",
     "A143206",
     "A195118"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

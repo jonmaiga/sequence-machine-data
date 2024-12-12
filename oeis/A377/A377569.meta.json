@@ -1,0 +1,15 @@
+{
+  "description": "Number of simple graphs such that each connected component is nonseparable and the number of vertices minus the number of connected components equals n.",
+  "id": "A377569",
+  "mentions": [
+    "A002218"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

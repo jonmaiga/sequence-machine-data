@@ -1,8 +1,9 @@
 {
-  "description": "Coefficients of the term by sqrt(2) in (1 + sqrt(2) + sqrt(3))^n sequence, denoted as C2(n).",
+  "description": "a(n) = coefficient of sqrt(2) in the expansion of (1 + sqrt(2) + sqrt(3))^n.",
   "id": "A188571",
   "mentions": [
-    "A188570"
+    "A188570",
+    "A377109"
   ],
   "tags": [
     "formulas",

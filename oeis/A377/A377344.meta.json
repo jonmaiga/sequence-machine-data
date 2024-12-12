@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the volume of a truncated cuboctahedron (great rhombicuboctahedron) with unit edge length.",
+  "id": "A377344",
+  "mentions": [
+    "A002193",
+    "A020775",
+    "A377343",
+    "A377345",
+    "A377346"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

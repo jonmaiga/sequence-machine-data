@@ -1,0 +1,18 @@
+{
+  "description": "Let operator D(n) be the number formed by concatenation of the products of the decimal digits of n by their respective multiplicities. This sequence records the smallest number requiring n iterations of D to reach a stationary number; see Comment and Example.",
+  "id": "A378022",
+  "mentions": [
+    "A351868",
+    "A377948"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

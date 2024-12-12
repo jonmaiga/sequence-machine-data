@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(k+2,2) * binomial(k,n-k)^2.",
+  "id": "A377145",
+  "mentions": [
+    "A051286",
+    "A089627",
+    "A182884",
+    "A377146",
+    "A377147",
+    "A377148",
+    "A377152",
+    "A377153",
+    "A377158",
+    "A377159"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

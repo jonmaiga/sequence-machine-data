@@ -1,0 +1,17 @@
+{
+  "description": "Dirichlet inverse of A033630, where A033630 is the number of partitions of n into distinct divisors of n.",
+  "id": "A378437",
+  "mentions": [
+    "A033630",
+    "A378438"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

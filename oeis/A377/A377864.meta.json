@@ -1,0 +1,19 @@
+{
+  "description": "Largest divisor of 2n-1 less than or equal to sqrt(2n-1).",
+  "id": "A377864",
+  "mentions": [
+    "A033676",
+    "A219695",
+    "A377499"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

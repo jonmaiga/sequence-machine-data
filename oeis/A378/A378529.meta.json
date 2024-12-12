@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of A378530.",
+  "id": "A378529",
+  "mentions": [
+    "A033630",
+    "A064771",
+    "A083206",
+    "A083209",
+    "A378448",
+    "A378449",
+    "A378530",
+    "A378604"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

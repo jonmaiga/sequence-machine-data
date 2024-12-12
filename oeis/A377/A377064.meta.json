@@ -1,0 +1,16 @@
+{
+  "description": "Number of {-1,0,1} n X n matrices with all rows and columns summing to zero up to permutations of rows.",
+  "id": "A377064",
+  "mentions": [
+    "A172645",
+    "A377063"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

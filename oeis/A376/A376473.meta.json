@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2^(2^(k-1)-1) == 1 (mod k^2) and 2^(k-1) =/= 1 (mod k).",
+  "id": "A376473",
+  "mentions": [
+    "A001220",
+    "A001262",
+    "A001567",
+    "A002326",
+    "A374953",
+    "A376253"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

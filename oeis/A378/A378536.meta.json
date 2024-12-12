@@ -1,0 +1,18 @@
+{
+  "description": "Inverse Möbius transform of A378525.",
+  "id": "A378536",
+  "mentions": [
+    "A378525",
+    "A378535",
+    "A378542"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

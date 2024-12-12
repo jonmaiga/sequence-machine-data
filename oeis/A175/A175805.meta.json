@@ -2,6 +2,7 @@
   "description": "a(n) = 21*2^n.",
   "id": "A175805",
   "mentions": [
+    "A000079",
     "A159256"
   ],
   "tags": [

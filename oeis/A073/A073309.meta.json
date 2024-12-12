@@ -1,8 +1,9 @@
 {
-  "description": "Primes of the form n! + n + 1.",
+  "description": "Primes of the form k! + k + 1.",
   "id": "A073309",
   "mentions": [
-    "A073308"
+    "A073308",
+    "A100858"
   ],
   "tags": [
     "formulas",

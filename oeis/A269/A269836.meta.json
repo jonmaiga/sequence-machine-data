@@ -1,12 +1,13 @@
 {
-  "description": "Primes p of the form n^(2*n) + 1.",
+  "description": "Primes p of the form k^(2*k) + 1.",
   "id": "A269836",
   "mentions": [
     "A121270",
     "A167436"
   ],
   "tags": [
-    "more",
+    "bref",
+    "hard",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x / (1 - x*A(x)^2)^4.",
+  "id": "A378733",
+  "mentions": [
+    "A001764",
+    "A161634",
+    "A365123",
+    "A367236"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

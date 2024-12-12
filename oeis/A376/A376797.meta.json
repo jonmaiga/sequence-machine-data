@@ -1,0 +1,20 @@
+{
+  "description": "Number of free rooted (or pointed) polycubes with n cells.",
+  "id": "A376797",
+  "mentions": [
+    "A038119",
+    "A126202",
+    "A376798",
+    "A376799"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

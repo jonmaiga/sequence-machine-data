@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n-phi(n))=A054571(n) is a power of 2 and n is not a prime number.",
+  "description": "Nonprime numbers k such that phi(k-phi(k)) = A054571(k) is a power of 2.",
   "id": "A070810",
   "mentions": [
     "A000010",
@@ -7,6 +7,9 @@
     "A054571",
     "A070556",
     "A070806",
+    "A070807",
+    "A070809",
+    "A070811",
     "A070812"
   ],
   "tags": [
@@ -15,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

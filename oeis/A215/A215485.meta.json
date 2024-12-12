@@ -1,5 +1,5 @@
 {
-  "description": "Periods, n, of square root continued fractions at which A013646 increases.",
+  "description": "Periods of square root continued fractions at which A013646 sets a new record.",
   "id": "A215485",
   "mentions": [
     "A013646"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

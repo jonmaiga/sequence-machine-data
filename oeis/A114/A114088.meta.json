@@ -39,6 +39,7 @@
     "A353318"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
@@ -46,6 +47,6 @@
   "terms": {
     "offset": 1,
     "size": 96,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

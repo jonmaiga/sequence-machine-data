@@ -1,5 +1,5 @@
 {
-  "description": "Nonzero coefficient with smallest index of polynomial p_n(x), where p_n(x) = Product_{i={-1,1}} p_{n-1}(x + i*sqrt(prime(n))), starting p_0(x) = x.",
+  "description": "Nonzero coefficient with smallest index in polynomial p_n(x), where p_n(x) = Product_{i={-1,1}} p_{n-1}(x + i*sqrt(prime(n))), starting with p_0(x) = x.",
   "id": "A354913",
   "mentions": [
     "A000007",
@@ -8,7 +8,8 @@
     "A000290",
     "A153731",
     "A255587",
-    "A262396"
+    "A262396",
+    "A376552"
   ],
   "tags": [
     "formulas",

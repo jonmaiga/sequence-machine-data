@@ -1,0 +1,16 @@
+{
+  "description": "Positive numbers k such that the decimal expansions of k and 1/k have the same nonzero digits.",
+  "id": "A376089",
+  "mentions": [
+    "A376090"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers i for which A194627(i) is prime.",
+  "id": "A377882",
+  "mentions": [
+    "A194627",
+    "A377791"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

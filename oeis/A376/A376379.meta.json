@@ -1,0 +1,19 @@
+{
+  "description": "Heinz numbers of integer partitions (x_1, ..., x_k) with at least 2 parts, sorted by increasing multinomial coefficients (x_1 + ... + x_k)!/(x_1! * ... * x_k!). In case of ties, the partitions are sorted in standard order as in A080577.",
+  "id": "A376379",
+  "mentions": [
+    "A002808",
+    "A080577",
+    "A318762",
+    "A376367"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers such that every even digit except the last is immediately followed by a strictly larger digit.",
+  "id": "A377912",
+  "mentions": [
+    "A342042",
+    "A347298",
+    "A377914",
+    "A377917",
+    "A377918"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

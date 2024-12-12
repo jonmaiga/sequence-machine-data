@@ -2,6 +2,7 @@
   "description": "a(n) is the denominator of Sum_{k = 1..n} k! / A375531(k).",
   "id": "A375532",
   "mentions": [
+    "A000142",
     "A374663",
     "A374983",
     "A375516",
@@ -13,8 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
   }
 }

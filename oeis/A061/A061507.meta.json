@@ -1,14 +1,17 @@
 {
   "description": "Numbers with all odd digits, in which each digit divides the number formed by the rest, i.e., the number obtained by just removing this digit.",
   "id": "A061507",
-  "mentions": [],
+  "mentions": [
+    "A014261",
+    "A061362"
+  ],
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 46,
     "source": "joeis"
   }

@@ -1,0 +1,19 @@
+{
+  "description": "Dot product of the first n primes and the first n triangular numbers.",
+  "id": "A378493",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A166486",
+    "A196421"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

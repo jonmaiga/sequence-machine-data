@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of the multiset {1^n, 2^n,..., n^n} excluding permutations where all objects of all types are contiguous.",
+  "id": "A377601",
+  "mentions": [
+    "A000142",
+    "A034841"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

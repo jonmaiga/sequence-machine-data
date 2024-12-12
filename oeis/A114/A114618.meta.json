@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n-th octagonal number is 4-almost prime.",
+  "description": "Numbers k such that the k-th octagonal number is 4-almost prime.",
   "id": "A114618",
   "mentions": [
     "A000040",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

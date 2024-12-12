@@ -2,6 +2,9 @@
   "description": "Decimal expansion of the continued fraction constant (base 10).",
   "id": "A062542",
   "mentions": [
+    "A002162",
+    "A002392",
+    "A013661",
     "A062543"
   ],
   "tags": [

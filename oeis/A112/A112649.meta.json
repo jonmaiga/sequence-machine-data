@@ -1,8 +1,9 @@
 {
-  "description": "The a(k)-th Mersenne prime exponent is not a Gaussian prime (not 3 mod 4).",
+  "description": "Numbers k such that the k-th Mersenne prime exponent is not a Gaussian prime (not 3 mod 4).",
   "id": "A112649",
   "mentions": [
-    "A000043"
+    "A000043",
+    "A112648"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

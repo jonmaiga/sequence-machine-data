@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of positive numbers k <= sigma(n) that are not a sum of any subset of distinct divisors of n.",
+  "id": "A378450",
+  "mentions": [
+    "A000203",
+    "A005153",
+    "A030057",
+    "A119347",
+    "A237287",
+    "A237289",
+    "A322860"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

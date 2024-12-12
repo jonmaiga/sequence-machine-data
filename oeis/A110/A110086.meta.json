@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n) - phi(n) <= tau(n)^omega(n), where sigma=A000203, phi=A000010, tau=A000005 and omega=A001221.",
+  "description": "Numbers k such that sigma(k) - phi(k) <= tau(k)^omega(k), where sigma = A000203, phi = A000010, tau = A000005 and omega = A001221.",
   "id": "A110086",
   "mentions": [
     "A000005",
@@ -13,6 +13,7 @@
     "A240960"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -6,13 +6,12 @@
     "A001411"
   ],
   "tags": [
-    "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

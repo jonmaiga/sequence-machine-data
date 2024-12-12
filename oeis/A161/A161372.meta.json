@@ -1,13 +1,17 @@
 {
-  "description": "4n^2-10n+107.",
+  "description": "In Ulam's spiral starting at 101, take the elements not used so far from the two spokes SW, NE, SW, NE, SW, NE ...",
   "id": "A161372",
-  "mentions": [],
+  "mentions": [
+    "A054554",
+    "A054569"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 47,
+    "source": "joeis"
   }
 }

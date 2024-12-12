@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the greatest integer q <= r such that for some r, phi(q) + phi(r) = 2*n.",
+  "description": "a(n) is the greatest integer q <= n such that for some r >= q, phi(q) + phi(r) = 2*n.",
   "id": "A333838",
   "mentions": [
     "A306513",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

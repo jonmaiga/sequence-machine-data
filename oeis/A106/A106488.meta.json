@@ -1,14 +1,15 @@
 {
-  "description": "Numbers n such that 1_666.2_666.3_666 ... 8_666.9_666.10^n+1 is prime, i.e., 1 repeated 666 times, concatenated with 2 repeated 666 times, etc.",
+  "description": "Numbers k such that 1_666.2_666.3_666 ... 8_666.9_666.10^k+1 is prime, i.e., 1 repeated 666 times, concatenated with 2 repeated 666 times, etc.",
   "id": "A106488",
   "mentions": [],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

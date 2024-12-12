@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Card(k>0 : phi(k)=phi(n)) = tau(n).",
+  "description": "Numbers m such that Card(k>0 : phi(k)=phi(m)) = tau(m).",
   "id": "A070305",
   "mentions": [
     "A000005",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

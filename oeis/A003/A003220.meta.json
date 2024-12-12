@@ -1,10 +1,17 @@
 {
-  "description": "Susceptibility series for diamond.",
+  "description": "Low-temperature series for spin-1/2 Ising ferromagnetic susceptibility on diamond.",
   "id": "A003220",
   "mentions": [
+    "A002924",
+    "A002925",
+    "A002926",
+    "A002930",
+    "A003119",
+    "A007216",
     "A007239"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

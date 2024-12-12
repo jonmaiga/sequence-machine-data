@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number of digits that must be changed in n to obtain a palindrome (without changing the first digit to 0).",
+  "id": "A377191",
+  "mentions": [
+    "A002113",
+    "A029742",
+    "A136522",
+    "A377192"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

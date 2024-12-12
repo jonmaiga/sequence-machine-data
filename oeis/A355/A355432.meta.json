@@ -2,7 +2,9 @@
   "description": "a(n) = number of k < n such that rad(k) = rad(n) and k does not divide n, where rad(k) = A007947(k).",
   "id": "A355432",
   "mentions": [
+    "A005361",
     "A007947",
+    "A008479",
     "A010846",
     "A013929",
     "A020639",

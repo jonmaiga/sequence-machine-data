@@ -2,6 +2,7 @@
   "description": "Integers for which a smaller positive integer exists which has the same sum of cubes of its divisors.",
   "id": "A131907",
   "mentions": [
+    "A001158",
     "A069822",
     "A131902",
     "A131908"

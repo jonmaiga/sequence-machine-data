@@ -1,0 +1,41 @@
+{
+  "description": "Antidiagonal-sums of the absolute value of the array A377046(n,k) = n-th term of k-th differences of nonsquarefree numbers (A013929).",
+  "id": "A377048",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A005117",
+    "A007674",
+    "A013929",
+    "A036263",
+    "A050320",
+    "A053797",
+    "A053806",
+    "A061398",
+    "A072284",
+    "A073576",
+    "A078147",
+    "A112925",
+    "A112926",
+    "A120992",
+    "A376591",
+    "A376592",
+    "A376593",
+    "A376681",
+    "A376684",
+    "A377035",
+    "A377040",
+    "A377046",
+    "A377047",
+    "A377049",
+    "A377050"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

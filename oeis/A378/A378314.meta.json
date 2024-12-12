@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of subsets of {1, 2, ..., n} that represent the first k divisors of m for some positive integers m and 1 <= k <= A000005(m).",
+  "id": "A378314",
+  "mentions": [
+    "A000005",
+    "A001248",
+    "A027750",
+    "A064510",
+    "A180851",
+    "A190940",
+    "A194269",
+    "A307137",
+    "A378313"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

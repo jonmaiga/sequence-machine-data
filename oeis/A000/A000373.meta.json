@@ -1,13 +1,15 @@
 {
   "description": "Conjectured dimension of a module associated with the free commutative Moufang loop with n generators.",
   "id": "A000373",
-  "mentions": [],
+  "mentions": [
+    "A152123"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

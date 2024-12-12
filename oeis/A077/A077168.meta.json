@@ -1,9 +1,10 @@
 {
-  "description": "Triangle formed by grouping the natural numbers so that the n-th group contains n numbers whose product is a factorial.",
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers with the property that when written as a triangle, the product of each row is a factorial.",
   "id": "A077168",
   "mentions": [
     "A077169",
-    "A077170"
+    "A077170",
+    "A077171"
   ],
   "tags": [
     "nonn",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 49,
     "source": "oeis-entry"
   }
 }

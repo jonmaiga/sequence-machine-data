@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions that satisfy the congruence: i^2 == j^2 (mod n) with 1 <= i < j <= n.",
+  "id": "A378298",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A036289",
+    "A060594",
+    "A373749"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

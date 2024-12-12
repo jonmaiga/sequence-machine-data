@@ -2,7 +2,8 @@
   "description": "Triangular numbers whose sum of digits is a triangular number.",
   "id": "A062099",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A187744"
   ],
   "tags": [
     "base",

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest product of n consecutive primes p_1..p_k, where only p_1 < m^(1/n).",
+  "id": "A376331",
+  "mentions": [
+    "A000720",
+    "A020639",
+    "A120944",
+    "A374873",
+    "A375008",
+    "A375975",
+    "A376261"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 81*n^2 - 72*n + 17.",
+  "description": "Primes of the form 81*k^2 - 72*k + 17.",
   "id": "A154276",
   "mentions": [
     "A154277"

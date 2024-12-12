@@ -1,0 +1,15 @@
+{
+  "description": "Number of times A278603(n) has occurred among the terms of that sequence so far, i.e. among A278603(0..n).",
+  "id": "A377305",
+  "mentions": [
+    "A278603"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

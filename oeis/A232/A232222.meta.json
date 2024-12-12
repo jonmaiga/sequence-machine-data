@@ -1,17 +1,16 @@
 {
-  "description": "Connected matchings with n crossings, in a disk.",
+  "description": "Number of connected matchings with n crossings, in a disk.",
   "id": "A232222",
   "mentions": [
     "A000699",
     "A232223"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

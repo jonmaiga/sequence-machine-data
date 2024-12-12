@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers with at least two prime divisors of the form 4*k + 1 counted with multiplicity.",
+  "id": "A375361",
+  "mentions": [
+    "A004613",
+    "A008844",
+    "A221669",
+    "A221670",
+    "A268855",
+    "A309812",
+    "A375459"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

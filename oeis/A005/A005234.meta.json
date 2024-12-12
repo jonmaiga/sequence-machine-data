@@ -1,5 +1,5 @@
 {
-  "description": "Primorial plus 1 primes: primes p such that 1 + product of primes up to p is prime.",
+  "description": "Primes p such that 1 + product of primes up to p is prime.",
   "id": "A005234",
   "mentions": [
     "A000040",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

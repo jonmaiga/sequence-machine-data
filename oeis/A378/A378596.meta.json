@@ -1,0 +1,18 @@
+{
+  "description": "Möbius transform of A119347, where A119347 number of distinct sums of nonempty subsets of divisors of n.",
+  "id": "A378596",
+  "mentions": [
+    "A008683",
+    "A119347",
+    "A378597"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

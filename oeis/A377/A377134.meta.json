@@ -1,0 +1,17 @@
+{
+  "description": "Abundant numbers k such that k^2 + A033880(k)^2 is a perfect square.",
+  "id": "A377134",
+  "mentions": [
+    "A000290",
+    "A005101",
+    "A033880"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

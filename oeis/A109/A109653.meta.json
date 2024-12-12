@@ -1,7 +1,9 @@
 {
   "description": "Sequence and first differences include all prime numbers exactly once.",
   "id": "A109653",
-  "mentions": [],
+  "mentions": [
+    "A247657"
+  ],
   "tags": [
     "base",
     "easy",

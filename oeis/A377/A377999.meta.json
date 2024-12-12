@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of L^4/(80*Pi^4) - 1/240, where L is the lemniscate constant (A062539).",
+  "id": "A377999",
+  "mentions": [
+    "A001158",
+    "A002388",
+    "A062539",
+    "A068465"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

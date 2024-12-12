@@ -1,5 +1,5 @@
 {
-  "description": "When a digit d is even, the next digit is > d.",
+  "description": "When a digit d in the digit-stream of this sequence is even, the next digit is > d.",
   "id": "A342042",
   "mentions": [
     "A342043",
@@ -7,7 +7,12 @@
     "A342045",
     "A342046",
     "A342047",
-    "A347298"
+    "A347298",
+    "A377912",
+    "A377913",
+    "A377914",
+    "A377917",
+    "A377918"
   ],
   "tags": [
     "base",

@@ -1,5 +1,5 @@
 {
-  "description": "Smallest n such that gcd(c(x),x) = gcd(A002808(x),x) = A064814(x) = n.",
+  "description": "Smallest k such that gcd(c(k),k) = gcd(A002808(k),k) = A064814(k) = n.",
   "id": "A073257",
   "mentions": [
     "A002808",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

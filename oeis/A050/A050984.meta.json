@@ -1,5 +1,5 @@
 {
-  "description": "de Bruijn's S(5,n).",
+  "description": "de Bruijn's S(5,n) = Sum_{k = 0..2*n} (-1)^(n+k)*binomial(2*n, k)^5.",
   "id": "A050984",
   "mentions": [
     "A000984",
@@ -8,6 +8,7 @@
     "A227357"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

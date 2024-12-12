@@ -2,7 +2,9 @@
   "description": "Numbers that are congruent to {5, 7} (mod 12).",
   "id": "A092242",
   "mentions": [
-    "A092260"
+    "A010527",
+    "A092260",
+    "A120683"
   ],
   "tags": [
     "easy",

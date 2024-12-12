@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the maximum volume of an integer-sided box that can be made from a piece of paper of size n X k by cutting away identical squares at each corner and folding up the sides, n >= 3, 3 <= k <= n.",
+  "id": "A377133",
+  "mentions": [
+    "A075362",
+    "A355880",
+    "A375580",
+    "A375785",
+    "A377113"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

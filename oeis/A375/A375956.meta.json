@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 2; for n > 0, a(n) is the smallest palindromic prime containing exactly n more digits on each end than a(n-1), with a(n-1) as the central substring.",
+  "id": "A375956",
+  "mentions": [
+    "A375690"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Array read by rows (blocks). Each row is a permutation of a block of consecutive numbers; the blocks are disjoint and every positive number belongs to some block. Row n contains 3n/2 elements if n is even, and (n+1)/2 elements if n is odd; ; see Comments.",
+  "id": "A377137",
+  "mentions": [
+    "A001844",
+    "A064455",
+    "A130517",
+    "A130883",
+    "A162630",
+    "A265225",
+    "A375602",
+    "A376180"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

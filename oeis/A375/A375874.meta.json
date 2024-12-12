@@ -1,0 +1,14 @@
+{
+  "description": "Number of distinct n X n patterns in the squiral tiling.",
+  "id": "A375874",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(Sum_{k>=1} phi(k)^4 * x^k/k), where phi is the Euler totient function A000010.",
+  "id": "A377509",
+  "mentions": [
+    "A000010",
+    "A205797",
+    "A318917",
+    "A361148",
+    "A377507",
+    "A377508"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

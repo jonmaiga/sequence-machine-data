@@ -1,5 +1,5 @@
 {
-  "description": "Array of max. cycle length sequences for the table A073200.",
+  "description": "Array of maximum cycle length sequences for the table A073200.",
   "id": "A073203",
   "mentions": [
     "A000012",

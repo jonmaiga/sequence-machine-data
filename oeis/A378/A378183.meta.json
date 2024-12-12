@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = rad(n)^binomial(omega(n) + bigomega(n) - 1, bigomega(n) - 2), where rad = A007947, bigomega = A001222, and omega = A001221.",
+  "id": "A378183",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006881",
+    "A007947",
+    "A007955",
+    "A024619",
+    "A243103",
+    "A377073",
+    "A377379",
+    "A378180"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

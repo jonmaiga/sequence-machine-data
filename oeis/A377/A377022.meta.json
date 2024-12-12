@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose prime factorization has exponents that have no digit 1 in their factorial-base representation (A255411).",
+  "id": "A377022",
+  "mentions": [
+    "A001694",
+    "A036967",
+    "A255411",
+    "A376885",
+    "A377019",
+    "A377020",
+    "A377021"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

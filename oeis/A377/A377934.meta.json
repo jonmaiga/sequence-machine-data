@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of perfect powers m^k with k>=3 (A076467) <= 10^n.",
+  "id": "A377934",
+  "mentions": [
+    "A070428",
+    "A076467",
+    "A378168"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

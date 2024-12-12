@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle T(n,k) = P(n)*2^k, n >= 0, k = 0..floor(log_2 prime(k+1)), where P = A002110.",
+  "id": "A378133",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A006093",
+    "A060735",
+    "A088860",
+    "A098388",
+    "A102476",
+    "A378144"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

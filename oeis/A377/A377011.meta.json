@@ -1,0 +1,25 @@
+{
+  "description": "Table read by rows: row n is the unique primitive Pythagorean triple whose short leg is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "id": "A377011",
+  "mentions": [
+    "A001652",
+    "A001653",
+    "A002315",
+    "A008844",
+    "A078522",
+    "A114336",
+    "A377016",
+    "A377017"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Length of n-th run of composite numbers in A376198.",
+  "id": "A376763",
+  "mentions": [
+    "A376198",
+    "A376750",
+    "A376752",
+    "A376754",
+    "A376762"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

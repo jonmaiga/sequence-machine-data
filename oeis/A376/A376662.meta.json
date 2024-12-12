@@ -1,0 +1,17 @@
+{
+  "description": "The smallest of the most common numbers among the multinomial coefficients n!/(x_1! * ... * x_k!) for all partitions (x_1, ..., x_k) of n.",
+  "id": "A376662",
+  "mentions": [
+    "A036038",
+    "A078760",
+    "A376661"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

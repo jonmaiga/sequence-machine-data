@@ -1,5 +1,5 @@
 {
-  "description": "D(n,x) is the Dirichlet kernel = sin((n+1/2)x)/sin(x/2). This triangle gives in row n, n >= 0, the coefficients of descending powers of x of the polynomial D(n, arccos(x)).",
+  "description": "D(n, x) is the Dirichlet kernel sin((n+1/2)x)/sin(x/2). The triangle gives in row n the coefficients of descending powers of x of the polynomial D(n, arccos(x)).",
   "id": "A180870",
   "mentions": [
     "A008312",

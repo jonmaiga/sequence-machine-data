@@ -2,7 +2,9 @@
   "description": "Decimal expansion of (2*cos(Pi/9))^2 = A332437^2.",
   "id": "A332438",
   "mentions": [
+    "A019879",
     "A019973",
+    "A063289",
     "A094256",
     "A094829",
     "A104457",

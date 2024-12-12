@@ -1,5 +1,5 @@
 {
-  "description": "phi(n-1) + phi(n+1) = 1/2 sigma(n).",
+  "description": "Numbers k such that phi(k-1) + phi(k+1) = sigma(k)/2.",
   "id": "A076648",
   "mentions": [
     "A000010",

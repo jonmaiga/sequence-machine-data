@@ -1,14 +1,16 @@
 {
-  "description": "[ n(n-1)(n-2)/26 ].",
+  "description": "a(n) = floor( n*(n-1)*(n-2)/26 ).",
   "id": "A011908",
-  "mentions": [],
+  "mentions": [
+    "A011886"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 59,
     "source": "joeis"
   }
 }

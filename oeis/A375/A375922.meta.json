@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (a(n-3)*a(n-9) + a(n-1)*a(n-11))/a(n-12) with a(0) = ... = a(11) = 1.",
+  "id": "A375922",
+  "mentions": [
+    "A375621"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

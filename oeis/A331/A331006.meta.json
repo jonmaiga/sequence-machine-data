@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k for which there is no number m < k such that U(k) = U(m), where U(k) = phi(k)/k for k > 2 even, phi(k)/(k-1) for k > 1 odd, U(2)=1.",
+  "description": "Numbers k for which there is no number m < k such that U(k) = U(m), where U(k) = phi(k)/k for k > 2 even, phi(k)/(k-1) for k > 1 odd, U(2) = 1.",
   "id": "A331006",
   "mentions": [
     "A000010"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

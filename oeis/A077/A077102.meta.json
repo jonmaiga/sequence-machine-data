@@ -1,12 +1,14 @@
 {
-  "description": "Smallest m such that GCD[a+b,a-b]=n, where a=sigma[n],b=phi[n].",
+  "description": "Smallest number m such that GCD(a+b,a-b) = n, where a = sigma(m) and b = phi(m).",
   "id": "A077102",
   "mentions": [
     "A000010",
     "A000203",
     "A051612",
     "A065387",
-    "A077099"
+    "A077099",
+    "A077100",
+    "A077101"
   ],
   "tags": [
     "formulas",
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

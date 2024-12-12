@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factor of n-th product of 3 distinct primes.",
+  "description": "Smallest prime factor of the n-th product of 3 distinct primes.",
   "id": "A096917",
   "mentions": [
     "A007304",
@@ -8,11 +8,12 @@
     "A096919"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

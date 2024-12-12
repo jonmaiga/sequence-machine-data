@@ -1,9 +1,10 @@
 {
-  "description": "a(n)=((3^p - 3)/p) mod p where p is n-th prime",
+  "description": "a(n) = ((3^p - 3)/p) mod p where p is n-th prime.",
   "id": "A179078",
   "mentions": [
     "A014127",
-    "A179077"
+    "A179077",
+    "A377669"
   ],
   "tags": [
     "nonn"
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

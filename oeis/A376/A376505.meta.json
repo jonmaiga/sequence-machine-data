@@ -1,0 +1,28 @@
+{
+  "description": "Number of m <= n such that rad(m) | n that are neither squarefree nor prime powers, where rad = A007947.",
+  "id": "A376505",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001221",
+    "A007947",
+    "A010846",
+    "A120944",
+    "A126706",
+    "A162306",
+    "A246655",
+    "A361373",
+    "A369609",
+    "A376504"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

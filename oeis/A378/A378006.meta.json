@@ -1,0 +1,23 @@
+{
+  "description": "Square table read by descending antidiagonals: the k-th column has Dirichlet g.f. Product_{chi} L(chi,s), where chi runs through all Dirichlet characters modulo k.",
+  "id": "A378006",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A000035",
+    "A008442",
+    "A045833",
+    "A378007"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

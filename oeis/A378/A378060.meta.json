@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binomial(n, floor((n-1)/2))^2.",
+  "id": "A378060",
+  "mentions": [
+    "A037952",
+    "A060150",
+    "A337900"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a truncated dodecahedron with unit edge length.",
+  "id": "A377695",
+  "mentions": [
+    "A002163",
+    "A102769",
+    "A377694",
+    "A377696",
+    "A377697",
+    "A377698"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

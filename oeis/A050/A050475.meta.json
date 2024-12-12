@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that x = 2^n-2 satisfies phi(x)+2=phi(x+2).",
+  "description": "Numbers k such that x = 2^k-2 satisfies phi(x)+2 = phi(x+2).",
   "id": "A050475",
   "mentions": [
     "A000043",
     "A001838"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Primes whose product of nonzero digits divided by the sum of the digits is also prime.",
+  "description": "Primes whose product of nonzero digits divided by the sum of its digits is also prime.",
   "id": "A371631",
   "mentions": [
     "A038367",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

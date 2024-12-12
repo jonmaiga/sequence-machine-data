@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of arctanh(phi-1).",
+  "id": "A377813",
+  "mentions": [
+    "A001622",
+    "A202541"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

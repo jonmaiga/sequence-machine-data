@@ -1,7 +1,9 @@
 {
-  "description": "Expansion of 1/((1-6x)(1-9x)).",
+  "description": "Expansion of 1/((1-6*x)*(1-9*x)).",
   "id": "A016172",
-  "mentions": [],
+  "mentions": [
+    "A016129"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

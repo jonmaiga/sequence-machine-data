@@ -1,15 +1,20 @@
 {
-  "description": "Multiplicative with a(p^e) = 1 if p > e, otherwise 0.",
+  "description": "Characteristic function of A048103; From n >= 1, a(n) is multiplicative with a(p^e) = 1 if p > e, otherwise 0. a(0) = 0 by convention.",
   "id": "A359550",
   "mentions": [
+    "A003415",
     "A048103",
     "A129251",
+    "A276085",
     "A327936",
     "A328308",
     "A342007",
     "A342023",
     "A359546",
-    "A359551"
+    "A359551",
+    "A368915",
+    "A377868",
+    "A377982"
   ],
   "tags": [
     "formulas",
@@ -17,8 +22,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 121,
+    "offset": 0,
+    "size": 122,
     "source": "oeis-bfile"
   }
 }

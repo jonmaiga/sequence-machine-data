@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(sigma(A350388(n))) * sigma(sigma(A350389(n))), where A350388 and A350389 are the largest unitary divisor of n that is a square, and the largest unitary divisor of n that is an exponentially odd number, respectively.",
+  "id": "A377990",
+  "mentions": [
+    "A000203",
+    "A051027",
+    "A350388",
+    "A350389",
+    "A351568",
+    "A351569",
+    "A377991"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

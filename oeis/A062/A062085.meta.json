@@ -1,14 +1,18 @@
 {
   "description": "Squarefree numbers with all even digits.",
   "id": "A062085",
-  "mentions": [],
+  "mentions": [
+    "A005117",
+    "A014263",
+    "A062086"
+  ],
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 52,
     "source": "joeis"
   }

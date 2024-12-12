@@ -1,0 +1,17 @@
+{
+  "description": "Totients whose inverses can be separated into ordered pairs (x, 2*x) with no remainder.",
+  "id": "A376927",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A032447"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

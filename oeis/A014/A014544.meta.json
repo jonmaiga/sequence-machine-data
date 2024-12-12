@@ -1,7 +1,9 @@
 {
   "description": "Numbers k such that a cube can be divided into k subcubes.",
   "id": "A014544",
-  "mentions": [],
+  "mentions": [
+    "A074764"
+  ],
   "tags": [
     "easy",
     "nonn"

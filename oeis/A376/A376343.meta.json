@@ -1,0 +1,38 @@
+{
+  "description": "Positions of twos in the run-compressed (A037201) first differences (A001223) of the primes (A000040).",
+  "id": "A376343",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001223",
+    "A005117",
+    "A007921",
+    "A013929",
+    "A030173",
+    "A037201",
+    "A053289",
+    "A057820",
+    "A061398",
+    "A064113",
+    "A076259",
+    "A078147",
+    "A246655",
+    "A333254",
+    "A373817",
+    "A373822",
+    "A373947",
+    "A375927",
+    "A376305",
+    "A376308",
+    "A376342"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

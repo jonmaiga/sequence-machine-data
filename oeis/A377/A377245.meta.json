@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of convex lattice polygons containing n lattice points, restricting the count to those polygons that are interior to another polygon.",
+  "id": "A377245",
+  "mentions": [
+    "A187015",
+    "A322343",
+    "A322344",
+    "A371917"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

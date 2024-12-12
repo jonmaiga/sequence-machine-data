@@ -3,7 +3,7 @@
   "id": "A087515",
   "mentions": [
     "A087510",
-    "A087513",
+    "A087511",
     "A087514"
   ],
   "tags": [
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 21,
-    "source": "joeis"
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

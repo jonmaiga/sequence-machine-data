@@ -1,7 +1,9 @@
 {
-  "description": "E.g.f. A(x) satisfies: Sum_{n>=1} moebius(n) * A(x)^n/n = x.",
+  "description": "E.g.f. A(x) satisfies: Sum_{n>=1} Moebius(n) * A(x)^n/n = x.",
   "id": "A204290",
-  "mentions": [],
+  "mentions": [
+    "A008683"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "Floor(4^n / 3^n).",
+  "description": "a(n) = floor((4/3)^n).",
   "id": "A064628",
   "mentions": [
     "A000420",

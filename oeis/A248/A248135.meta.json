@@ -1,5 +1,5 @@
 {
-  "description": "Nonprime numbers k that divide the sum of remainders of k' mod k, for k from 1 to k', where k' is the arithmetic derivative of k.",
+  "description": "Nonprime numbers k that divide the sum of remainders of k' mod m, for m from 1 to k', where k' is the arithmetic derivative of k.",
   "id": "A248135",
   "mentions": [
     "A003415",

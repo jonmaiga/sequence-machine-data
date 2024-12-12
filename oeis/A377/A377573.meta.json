@@ -1,0 +1,22 @@
+{
+  "description": "Cogrowth sequence for the 14-element dihedral group D7 = .",
+  "id": "A377573",
+  "mentions": [
+    "A007582",
+    "A007583",
+    "A052964",
+    "A072266",
+    "A072844",
+    "A094052"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

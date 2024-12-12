@@ -1,0 +1,17 @@
+{
+  "description": "Characteristic function of stable numbers: a(n) = 1 if the distinct prime indices of n are pairwise indivisible, otherwise 0.",
+  "id": "A378442",
+  "mentions": [
+    "A000720",
+    "A316476",
+    "A327394"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

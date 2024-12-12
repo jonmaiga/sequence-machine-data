@@ -1,0 +1,19 @@
+{
+  "description": "Smallest divisor d of n for which n/d is non-abundant, i.e. sigma(n/d) <= 2*(n/d).",
+  "id": "A378660",
+  "mentions": [
+    "A000203",
+    "A263837",
+    "A294935",
+    "A378665"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

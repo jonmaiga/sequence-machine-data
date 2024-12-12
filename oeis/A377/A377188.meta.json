@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = denominator((n^2 + k)/(n^2 - k)).",
+  "id": "A377188",
+  "mentions": [
+    "A001113",
+    "A026741",
+    "A377187"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 66,
+    "source": "joeis"
+  }
+}

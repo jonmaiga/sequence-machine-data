@@ -8,12 +8,13 @@
     "A087987"
   ],
   "tags": [
+    "formulas",
     "more",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

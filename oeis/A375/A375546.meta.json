@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{d|n} d * A375467(d, k) for n > 0, T(0, 0) = 1.",
+  "id": "A375546",
+  "mentions": [
+    "A000203",
+    "A209397",
+    "A375467",
+    "A375547"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers m such that there exists an integer k >= 1 for which the concatenation of m, 2m, ..., km is an m-digit number.",
+  "id": "A375581",
+  "mentions": [
+    "A375461"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "For each row n in array A374602(n, k), the period size, as a count of terms, that divides the row into congruent subsequences.",
+  "id": "A377290",
+  "mentions": [
+    "A374602",
+    "A377291"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = floor( n*(n-1)*(n-2)/9 ).",
   "id": "A011891",
-  "mentions": [],
+  "mentions": [
+    "A011886"
+  ],
   "tags": [
     "formulas",
     "nonn"

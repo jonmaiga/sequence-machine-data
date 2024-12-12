@@ -1,0 +1,16 @@
+{
+  "description": "Number of matchings in the complete planted binary tree with 2^n leaves.",
+  "id": "A377936",
+  "mentions": [
+    "A338293"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

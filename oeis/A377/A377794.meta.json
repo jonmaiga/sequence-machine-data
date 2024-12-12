@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the greatest number of prime factors with multiplicity of squarefree composite k such that k has lpf(k) = prime(n) such that m <= a(n), where lpf = A020639, m = floor(log k / log lpf(k)).",
+  "id": "A377794",
+  "mentions": [
+    "A001222",
+    "A020639",
+    "A120944",
+    "A377713",
+    "A377792"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

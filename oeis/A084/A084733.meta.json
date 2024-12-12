@@ -1,12 +1,15 @@
 {
   "description": "Squares which are the sum of at least three successive terms of a geometric progression.",
   "id": "A084733",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A376298"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 44,
     "source": "oeis-entry"
   }

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the maximum integer for which some minimum-length sum equaling a(n) of perfect squares less than n^2 excludes (n-1)^2.",
+  "id": "A377084",
+  "mentions": [
+    "A377085"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

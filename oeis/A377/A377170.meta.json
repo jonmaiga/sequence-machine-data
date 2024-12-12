@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the nonnegative terms in the n-th row of A365968.",
+  "id": "A377170",
+  "mentions": [
+    "A000079",
+    "A365968",
+    "A367076"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Floor( 1/(n*tan(Pi/n) - Pi) ).",
+  "description": "a(n) = floor( 1/(n*tan(Pi/n) - Pi) ).",
   "id": "A248421",
   "mentions": [
     "A248418",

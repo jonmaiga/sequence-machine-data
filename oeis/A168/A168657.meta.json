@@ -2,6 +2,7 @@
   "description": "Number of partitions of n such that the number of parts is divisible by the smallest part.",
   "id": "A168657",
   "mentions": [
+    "A000041",
     "A079501",
     "A168655",
     "A168656"

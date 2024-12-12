@@ -1,0 +1,18 @@
+{
+  "description": "Number of free hexagonal polyominoes with n cells with at most 3 collinear cell centers on any line in the plane.",
+  "id": "A377756",
+  "mentions": [
+    "A000228",
+    "A378015"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

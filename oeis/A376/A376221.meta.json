@@ -1,0 +1,21 @@
+{
+  "description": "The smallest Champernowne prime in base n.",
+  "id": "A376221",
+  "mentions": [
+    "A000040",
+    "A073175",
+    "A114754",
+    "A176942",
+    "A362429"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

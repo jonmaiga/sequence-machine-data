@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of integral(t=0,1,zeta(t)+1/(1-t))=0.539298676...",
+  "description": "Decimal expansion of Integral_{t=0..1} zeta(t)+1/(1-t) dt = 0.539298676...",
   "id": "A159275",
   "mentions": [],
   "tags": [

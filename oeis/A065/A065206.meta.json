@@ -1,11 +1,23 @@
 {
-  "description": "One 'Reverse and Add' step is needed to reach a palindrome.",
+  "description": "Numbers which need one 'Reverse and Add' step to reach a palindrome.",
   "id": "A065206",
   "mentions": [
     "A002113",
     "A015976",
     "A029742",
+    "A033665",
     "A056964",
+    "A065207",
+    "A065208",
+    "A065209",
+    "A065210",
+    "A065211",
+    "A065212",
+    "A065213",
+    "A065214",
+    "A065215",
+    "A065216",
+    "A065217",
     "A136522"
   ],
   "tags": [

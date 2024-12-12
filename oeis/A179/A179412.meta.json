@@ -2,6 +2,7 @@
   "description": "The number of alive cells in Conway's Game of Life on the 8 X 8 toroidal grid, in a cyclic sequence of 132 patterns, whose initial pattern is given in illustrations below.",
   "id": "A179412",
   "mentions": [
+    "A060118",
     "A179409",
     "A179413",
     "A179414"

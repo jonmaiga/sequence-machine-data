@@ -1,5 +1,5 @@
 {
-  "description": "y-values in the solution to x^2 - 20y^2 = 176.",
+  "description": "y-values in the solution to x^2 - 20*y^2 = 176.",
   "id": "A228208",
   "mentions": [
     "A054486",

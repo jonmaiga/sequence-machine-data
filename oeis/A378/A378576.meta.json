@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = x + x*A(A(A(A(A(A(x)))))), so that this sequence shifts left under the 6th self-COMPOSE.",
+  "id": "A378576",
+  "mentions": [
+    "A030266",
+    "A091713",
+    "A196523",
+    "A378575"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

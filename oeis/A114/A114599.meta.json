@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=a(2)=1. For n >= 3, a(n) = 1 + (A114600(n-2))*(A114600(n-1)).",
+  "description": "a(1) = a(2) = 1. For n >= 3, a(n) = 1 + A114600(n-2)*A114600(n-1).",
   "id": "A114599",
   "mentions": [
     "A006530",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

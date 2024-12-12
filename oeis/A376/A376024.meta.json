@@ -1,0 +1,17 @@
+{
+  "description": "a(0..4) = 1 and a(n) = (a(n-2)^2 + a(n-3)^2 + a(n-2)*(3*a(n-3) + a(n-4)) + a(n-1)*(a(n-3) - a(n-5)))/(a(n-4) + a(n-5)) for n > 4.",
+  "id": "A376024",
+  "mentions": [
+    "A006720",
+    "A097495"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

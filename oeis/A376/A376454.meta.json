@@ -1,0 +1,19 @@
+{
+  "description": "n in base whose place values are a modifed ternary sequence; see Comments.",
+  "id": "A376454",
+  "mentions": [
+    "A000244",
+    "A214973",
+    "A376456",
+    "A376457"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

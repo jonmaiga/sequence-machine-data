@@ -1,7 +1,8 @@
 {
-  "description": "Highly composite numbers containing only composite digits (0,4,6,8,9).",
+  "description": "7-smooth numbers containing only composite digits (0,4,6,8,9).",
   "id": "A113624",
   "mentions": [
+    "A001744",
     "A002473",
     "A113623"
   ],
@@ -10,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 51,
     "source": "oeis-entry"
   }

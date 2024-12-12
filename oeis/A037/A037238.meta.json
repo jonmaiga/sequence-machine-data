@@ -1,5 +1,5 @@
 {
-  "description": "x -> 5x - 1 if x odd, else x -> x/2.",
+  "description": "5x - 1 sequence starting at 19 (a(n+1) = a(n)/2 if a(n) is even, or 5*a(n)-1 if a(n) is odd).",
   "id": "A037238",
   "mentions": [
     "A090691"

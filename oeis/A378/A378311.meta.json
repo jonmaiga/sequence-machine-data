@@ -1,0 +1,14 @@
+{
+  "description": "Number of cyclic edge cuts in the n-prism graph.",
+  "id": "A378311",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

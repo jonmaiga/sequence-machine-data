@@ -5,13 +5,13 @@
     "A006561"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

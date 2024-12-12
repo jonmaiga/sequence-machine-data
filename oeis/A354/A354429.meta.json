@@ -2,7 +2,8 @@
   "description": "Expansion of e.g.f. tanh(x)^3 (odd powers only).",
   "id": "A354429",
   "mentions": [
-    "A000182"
+    "A000182",
+    "A059420"
   ],
   "tags": [
     "formulas",

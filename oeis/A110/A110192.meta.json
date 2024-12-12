@@ -1,16 +1,18 @@
 {
-  "description": "Least k>n such that phi(k)=2*phi(n), where phi is Euler's totient function.",
+  "description": "Least k > n such that phi(k) = 2*phi(n), where phi is Euler's totient function.",
   "id": "A110192",
   "mentions": [
+    "A000010",
     "A110179"
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

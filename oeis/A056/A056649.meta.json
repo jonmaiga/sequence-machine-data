@@ -1,5 +1,5 @@
 {
-  "description": "Number of non-unitary square divisors of central binomial coefficient.",
+  "description": "a(n) = A056061(n) - A034444(A056647(n)).",
   "id": "A056649",
   "mentions": [
     "A000188",
@@ -11,7 +11,9 @@
     "A056056",
     "A056057",
     "A056059",
-    "A056061"
+    "A056061",
+    "A056647",
+    "A376556"
   ],
   "tags": [
     "formulas",

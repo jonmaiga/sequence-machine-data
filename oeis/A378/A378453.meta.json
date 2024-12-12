@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet inverse of A018892, where A018892(n) = (tau(n^2)+1)/2.",
+  "id": "A378453",
+  "mentions": [
+    "A008683",
+    "A018892",
+    "A378452"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

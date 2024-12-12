@@ -1,5 +1,5 @@
 {
-  "description": "Number of terms in the set invphi(2*p(n)), where p(n) is the n-th prime.",
+  "description": "Number of terms in the set invphi(2*prime(n)), where prime(n) is the n-th prime.",
   "id": "A058888",
   "mentions": [
     "A000010",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

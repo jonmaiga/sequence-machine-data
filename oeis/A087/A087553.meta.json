@@ -1,14 +1,17 @@
 {
   "description": "Squares in which the neighboring digits differ at most by 1. Neighbors of 1 are 0 and 2, neighbors of 0 are 1 and 9.",
   "id": "A087553",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A376425"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 27,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

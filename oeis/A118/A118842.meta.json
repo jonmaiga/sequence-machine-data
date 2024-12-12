@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form ceiling(phi^n).",
+  "description": "Primes of the form ceiling(phi^k).",
   "id": "A118842",
   "mentions": [
     "A062724",

@@ -1,0 +1,14 @@
+{
+  "description": "G.f. A(x) satisfies A(x^2)^3/A(x^4)^3 = 1 + (A(x)/A(x^4) - 1)^2.",
+  "id": "A376229",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

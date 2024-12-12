@@ -1,0 +1,22 @@
+{
+  "description": "List of successive digits (the \"digit stream\") of A302656 (or, equally, A376769).",
+  "id": "A376771",
+  "mentions": [
+    "A302656",
+    "A376769",
+    "A376776",
+    "A377903",
+    "A377904",
+    "A377906",
+    "A377911"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 124,
+    "source": "oeis-bfile"
+  }
+}

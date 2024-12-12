@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1/18.",
   "id": "A021022",
   "mentions": [
+    "A010716",
     "A244855"
   ],
   "tags": [

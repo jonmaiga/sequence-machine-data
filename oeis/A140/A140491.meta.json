@@ -13,11 +13,12 @@
     "A140494"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Integers of the form (n^2 - 1) / 120.",
+  "description": "Integers of the form (k^2 - 1) / 120.",
   "id": "A093722",
   "mentions": [
     "A002381",

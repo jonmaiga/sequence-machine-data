@@ -1,0 +1,19 @@
+{
+  "description": "Concatenated (n+1)||n modulo n.",
+  "id": "A376252",
+  "mentions": [
+    "A055642",
+    "A127423"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

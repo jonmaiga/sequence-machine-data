@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = floor(n(n-1)(n-2)/24).",
+  "description": "a(n) = floor(n*(n-1)*(n-2)/24).",
   "id": "A011842",
   "mentions": [
-    "A011847"
+    "A011847",
+    "A011886"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 66,
     "source": "joeis"
   }
 }

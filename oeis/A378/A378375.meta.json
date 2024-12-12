@@ -1,0 +1,15 @@
+{
+  "description": "Number of ways to go from n to 1 by the minimum number of steps of x -> 3x-1 if x odd, x -> 3x-1 or x/2 if x even.",
+  "id": "A378375",
+  "mentions": [
+    "A261870"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

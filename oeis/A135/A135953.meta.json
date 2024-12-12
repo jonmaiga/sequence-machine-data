@@ -1,5 +1,5 @@
 {
-  "description": "(Nonprime Fibonacci numbers with prime indices) which have exactly 2 prime factors.",
+  "description": "(Nonprime Fibonacci numbers with prime indices) that have exactly 2 prime factors.",
   "id": "A135953",
   "mentions": [
     "A000045",
@@ -21,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

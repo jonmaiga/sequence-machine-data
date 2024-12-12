@@ -1,0 +1,17 @@
+{
+  "description": "Sequence obtained from A376239 by deleting the substrings of k-1 copies of k starting at index k(k-1)/2 + 1 for each k > 1.",
+  "id": "A376238",
+  "mentions": [
+    "A000217",
+    "A376239"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

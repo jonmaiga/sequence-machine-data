@@ -1,0 +1,17 @@
+{
+  "description": "A variant of the inventory sequence which only counts prime numbers and only allows the values in the sequence to be 0, 1, or a prime number.",
+  "id": "A376076",
+  "mentions": [
+    "A347317"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

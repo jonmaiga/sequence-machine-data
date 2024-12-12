@@ -1,7 +1,11 @@
 {
   "description": "Second term in continued fraction for the n-th root of n.",
   "id": "A090663",
-  "mentions": [],
+  "mentions": [
+    "A367367",
+    "A377931",
+    "A377932"
+  ],
   "tags": [
     "nonn"
   ],

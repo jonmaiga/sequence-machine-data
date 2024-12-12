@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{0 < k < n: 2^k*(2^{phi(n-k)} - 1) + 1 is prime}|, where phi(.) is Euler's totient function.",
+  "description": "a(n) = |{0 < k < n: 2^k*(2^phi(n-k) - 1) + 1 is prime}|, where phi(.) is Euler's totient function.",
   "id": "A234399",
   "mentions": [
     "A000010",

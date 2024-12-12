@@ -1,0 +1,18 @@
+{
+  "description": "Number of polycubes with 8*n cells, full symmetry, and the rotation point of the symmetries at the common corner of 8 cells (that may or may not be part of the polycube).",
+  "id": "A377335",
+  "mentions": [
+    "A346800",
+    "A376971",
+    "A377334"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

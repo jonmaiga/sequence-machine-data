@@ -1,11 +1,13 @@
 {
-  "description": "See Mathematica code.",
+  "description": "The first 8 values are predefined, the remaining set to a(n) = 48*prime(n)+n+2.",
   "id": "A129025",
   "mentions": [
     "A129024"
   ],
   "tags": [
+    "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

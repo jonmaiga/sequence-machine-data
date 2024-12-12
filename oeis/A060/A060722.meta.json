@@ -1,7 +1,11 @@
 {
   "description": "a(n) = 3^(n^2).",
   "id": "A060722",
-  "mentions": [],
+  "mentions": [
+    "A053290",
+    "A053764",
+    "A378666"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -2,15 +2,18 @@
   "description": "Smallest m such that 2^m begins with a 1 and n 0's.",
   "id": "A152561",
   "mentions": [
-    "A000079"
+    "A000079",
+    "A011557",
+    "A018856"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

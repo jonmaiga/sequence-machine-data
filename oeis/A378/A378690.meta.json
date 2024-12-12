@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + x*A(x)^(7/2)/(1 - x*A(x)) )^2.",
+  "id": "A378690",
+  "mentions": [
+    "A378686",
+    "A378688",
+    "A378692",
+    "A378693"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

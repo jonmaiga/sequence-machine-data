@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of iterations of x -> 6*x - 1 until (# composites reached) = (# primes reached), starting with prime(n).",
+  "id": "A377621",
+  "mentions": [
+    "A199412",
+    "A377609"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of the numbers from 1 to k and that from 1 to k+1 share the same sum of divisors.",
+  "id": "A375819",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A002961"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

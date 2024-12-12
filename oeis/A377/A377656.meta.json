@@ -1,0 +1,18 @@
+{
+  "description": "Cogrowth sequence of the 12-element dicyclic group Dic12 = .",
+  "id": "A377656",
+  "mentions": [
+    "A007583",
+    "A377626",
+    "A377627"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

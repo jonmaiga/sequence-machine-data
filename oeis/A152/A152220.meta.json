@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p^2 divides m!-1 for some integer m",
+  "description": "Primes p such that p^2 divides m!-1 for some integer m < p.",
   "id": "A152220",
   "mentions": [
     "A064237",
@@ -8,11 +8,12 @@
     "A152232"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

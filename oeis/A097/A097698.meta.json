@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both 4*n^2 - 3 and 4*n^2 + 3 are primes.",
+  "description": "Numbers k such that both 4*k^2 - 3 and 4*k^2 + 3 are primes.",
   "id": "A097698",
   "mentions": [
     "A083022",

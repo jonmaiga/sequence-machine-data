@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n-1)*binomial(2n,n) + 1 is prime.",
+  "description": "Numbers k such that (k-1)*binomial(2k,k) + 1 is prime.",
   "id": "A085793",
   "mentions": [
     "A066699",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

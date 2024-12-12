@@ -1,0 +1,15 @@
+{
+  "description": "Prime-based Brazilian numbers: numbers k such that there is a prime number p with 1 < p < k-1 such that the representation of k in base p has all equal digits.",
+  "id": "A377886",
+  "mentions": [
+    "A125134"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

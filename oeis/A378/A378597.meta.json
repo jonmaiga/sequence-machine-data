@@ -1,0 +1,20 @@
+{
+  "description": "Möbius transform of A378450, where A378450 is the number of positive numbers k <= sigma(n) that are not a sum of any subset of distinct divisors of n.",
+  "id": "A378597",
+  "mentions": [
+    "A008683",
+    "A119347",
+    "A378450",
+    "A378596"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Greatest prime factor of n^2 + (n+1)^2 for n >= 1.",
+  "description": "a(n) = greatest prime factor of n^2 + (n+1)^2 for n >= 1.",
   "id": "A089619",
   "mentions": [
     "A001844",
@@ -9,11 +9,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

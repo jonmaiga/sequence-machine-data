@@ -1,0 +1,21 @@
+{
+  "description": "Sorted multinomial coefficients greater than 1, including duplicates.",
+  "id": "A376367",
+  "mentions": [
+    "A036038",
+    "A050382",
+    "A078760",
+    "A318762",
+    "A376369",
+    "A376379"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

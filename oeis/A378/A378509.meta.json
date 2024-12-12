@@ -1,0 +1,19 @@
+{
+  "description": "Totient numbers k for which there is no solution to the equation phi(phi(x)) = k.",
+  "id": "A378509",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A010554",
+    "A378508",
+    "A378510"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

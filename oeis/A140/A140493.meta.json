@@ -7,16 +7,18 @@
     "A140487",
     "A140488",
     "A140489",
+    "A140490",
     "A140491",
     "A140492",
     "A140494"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

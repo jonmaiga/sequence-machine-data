@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Fibonacci(n) and Fibonacci(n+2) are both prime.",
+  "description": "Numbers k such that Fibonacci(k) and Fibonacci(k+2) are both prime.",
   "id": "A281087",
   "mentions": [
     "A000045",

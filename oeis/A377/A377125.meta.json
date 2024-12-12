@@ -1,0 +1,16 @@
+{
+  "description": "Number of subsets of the first n perfect powers whose sum is a perfect power.",
+  "id": "A377125",
+  "mentions": [
+    "A001597",
+    "A339554"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

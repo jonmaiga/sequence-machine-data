@@ -6,16 +6,16 @@
     "A255890",
     "A367759",
     "A369363",
-    "A369366"
+    "A369366",
+    "A376798"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 87,
     "source": "oeis-entry"
   }
 }

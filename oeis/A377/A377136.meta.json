@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. Each row is a permutation of a block of consecutive numbers; the blocks are disjoint and every positive number belongs to some block. The length of row n is the (n+1)-st Fibonacci number for n > 0; see Comments.",
+  "id": "A377136",
+  "mentions": [
+    "A000045",
+    "A194959",
+    "A375602",
+    "A376180"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

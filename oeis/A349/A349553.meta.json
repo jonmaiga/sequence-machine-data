@@ -1,16 +1,15 @@
 {
-  "description": "a(n) is the least k such that some halving partition of n has exactly k parts.",
+  "description": "a(n) is the least k such that n is the number of halving partitions of k (=A349552(k)).",
   "id": "A349553",
   "mentions": [
     "A349552"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 73,
     "source": "oeis-entry"
   }
 }

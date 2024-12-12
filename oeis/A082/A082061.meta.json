@@ -1,10 +1,12 @@
 {
-  "description": "Greatest common prime-divisor of n and phi(n)=A000010(n); a(n)=1 if no common prime-divisor exists.",
+  "description": "Greatest common prime divisor of n and phi(n)=A000010(n); a(n)=1 if no common prime divisor exists.",
   "id": "A082061",
   "mentions": [
     "A000010",
+    "A003277",
     "A006530",
     "A009195",
+    "A070003",
     "A082062",
     "A082063",
     "A082064",

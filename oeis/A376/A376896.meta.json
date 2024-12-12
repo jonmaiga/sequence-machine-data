@@ -1,0 +1,18 @@
+{
+  "description": "Wieferich prime to base 3/2: primes p such that p^2 divides 3^(p-1) - 2^(p-1).",
+  "id": "A376896",
+  "mentions": [
+    "A001220"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

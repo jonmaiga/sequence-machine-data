@@ -1,0 +1,18 @@
+{
+  "description": "Numbers congruent to {0, 1, 3, 6, 7, 9, 12, 15} mod 18.",
+  "id": "A375852",
+  "mentions": [
+    "A061641",
+    "A309180"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

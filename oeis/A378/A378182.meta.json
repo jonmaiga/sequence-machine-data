@@ -1,0 +1,23 @@
+{
+  "description": "Sum of row n of A378180.",
+  "id": "A378182",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A024619",
+    "A244974",
+    "A376567",
+    "A377071",
+    "A378180"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

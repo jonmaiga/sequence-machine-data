@@ -1,0 +1,19 @@
+{
+  "description": "Number of possibilities to place \"hat\" monotiles onto the first n hexagons in a counterclockwise order such that more rings of tiles can be placed around it.",
+  "id": "A377757",
+  "mentions": [
+    "A342285",
+    "A363348",
+    "A363445"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

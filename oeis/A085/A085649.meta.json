@@ -2,14 +2,15 @@
   "description": "Brilliant numbers k such that 2k+1 is also brilliant.",
   "id": "A085649",
   "mentions": [
-    "A078972"
+    "A078972",
+    "A111153"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 36,
     "source": "oeis-entry"
   }

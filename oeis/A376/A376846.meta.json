@@ -1,0 +1,20 @@
+{
+  "description": "Number of m <= n such that rad(m) | n and Omega(m) > Omega(n), where rad = A007947 and Omega = A001222.",
+  "id": "A376846",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A007947",
+    "A010846",
+    "A162306"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

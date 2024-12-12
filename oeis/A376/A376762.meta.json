@@ -1,0 +1,20 @@
+{
+  "description": "Number of composite numbers c in the range prime(n) < c <= 2*prime(n+1).",
+  "id": "A376762",
+  "mentions": [
+    "A000720",
+    "A020900",
+    "A065855",
+    "A210497",
+    "A376759"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

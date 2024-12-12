@@ -1,11 +1,17 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x*A(x)^4 / (1 - x*A(x)).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^4 / (1 - x*A(x)).",
   "id": "A364747",
   "mentions": [
     "A000108",
     "A001003",
+    "A002294",
     "A108447",
-    "A364748"
+    "A243659",
+    "A364748",
+    "A364765",
+    "A364792",
+    "A378691",
+    "A378692"
   ],
   "tags": [
     "formulas",
@@ -14,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

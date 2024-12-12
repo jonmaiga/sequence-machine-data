@@ -1,0 +1,20 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) is the total number of inner points of n-Fibonacci polyominoes with k columns, where k > 0.",
+  "id": "A378707",
+  "mentions": [
+    "A023610",
+    "A378704",
+    "A378706",
+    "A378716"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

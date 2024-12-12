@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..oo} sin(x^2)*erfc(x) dx, where erfc is the complementary error function.",
+  "id": "A377144",
+  "mentions": [
+    "A000796",
+    "A019727",
+    "A244920",
+    "A377143"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

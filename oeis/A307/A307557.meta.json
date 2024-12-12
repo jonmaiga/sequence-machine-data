@@ -2,6 +2,7 @@
   "description": "Number of Motzkin meanders of length n with no level steps at odd level.",
   "id": "A307557",
   "mentions": [
+    "A026569",
     "A307555"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients in expansion of (1/E_4)^3.",
+  "id": "A378468",
+  "mentions": [
+    "A001943",
+    "A004009",
+    "A287933",
+    "A378469"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

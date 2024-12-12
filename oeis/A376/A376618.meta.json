@@ -1,0 +1,21 @@
+{
+  "description": "Odd binary Niven numbers (A144302) k such that k/wt(k) is also an odd binary Niven number, where wt(k) = A000120(k) is the binary weight of k.",
+  "id": "A376618",
+  "mentions": [
+    "A000120",
+    "A005408",
+    "A049445",
+    "A144302",
+    "A376616"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

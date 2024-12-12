@@ -1,8 +1,13 @@
 {
   "description": "From solution to a Picard-Fuchs equation.",
   "id": "A061401",
-  "mentions": [],
+  "mentions": [
+    "A006480",
+    "A229451",
+    "A229452"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

@@ -1,0 +1,16 @@
+{
+  "description": "Define b_n(k) to be the lexicographically earliest sequence of distinct nonnegative integers with the property that two terms that contain the digit \"d\" are always separated by exactly \"d\" terms that do not contain the digit \"d\", in base n. a(n) is the number of terms in b_n(k).",
+  "id": "A376150",
+  "mentions": [
+    "A375232"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

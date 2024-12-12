@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to tile a 3-row parallelogram of length n with triangular and rectangular tiles, each of size 3.",
+  "id": "A375821",
+  "mentions": [
+    "A077939",
+    "A077961",
+    "A375823"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

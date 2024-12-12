@@ -2,9 +2,11 @@
   "description": "Indices of prime tetranacci numbers.",
   "id": "A104534",
   "mentions": [
+    "A000078",
     "A104535"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

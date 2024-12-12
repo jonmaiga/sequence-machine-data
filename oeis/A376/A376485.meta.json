@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers ordered by largest prime factor, then by size.",
+  "id": "A376485",
+  "mentions": [
+    "A002997",
+    "A081702",
+    "A283715"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

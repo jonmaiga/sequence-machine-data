@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that tau(Fibonacci(k))= tau(Fibonacci(n+k)).",
+  "description": "Smallest k such that tau(Fibonacci(k)) = tau(Fibonacci(n+k)).",
   "id": "A174280",
   "mentions": [
     "A000005",

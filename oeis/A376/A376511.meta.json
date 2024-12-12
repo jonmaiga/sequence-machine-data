@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 2. For n > 1, if a(n-1) is a novel term, a(n)=A001414(a(n-1)), else if there are k (>1) occurrences of a(j) = a(n-1) (1<=j<=n-1), a(n) is the smallest novel m such that A001414(m) = k*a(n-1).",
+  "id": "A376511",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A000792",
+    "A001414",
+    "A046363",
+    "A056240",
+    "A064364",
+    "A353125",
+    "A376147"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

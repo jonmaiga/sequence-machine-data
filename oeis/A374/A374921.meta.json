@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n >= 0, k >= 1, in which if n is even then row n lists the first A008619(n) even indexed terms of A027336 otherwise if n is odd then row n lists the first A008619(n) odd indexed terms of A027336.",
+  "id": "A374921",
+  "mentions": [
+    "A000012",
+    "A000034",
+    "A000041",
+    "A002865",
+    "A008619",
+    "A010702",
+    "A010724",
+    "A027336",
+    "A058695",
+    "A058696",
+    "A167430",
+    "A176206",
+    "A182844",
+    "A182845",
+    "A336811",
+    "A338156"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

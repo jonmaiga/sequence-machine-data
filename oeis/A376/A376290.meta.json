@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n-1} sigma_2(k) * sigma_3(n-k).",
+  "id": "A376290",
+  "mentions": [
+    "A001157",
+    "A001158",
+    "A374963",
+    "A374974"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

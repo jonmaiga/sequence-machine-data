@@ -1,15 +1,19 @@
 {
-  "description": "Ramanujan's tau function squared.",
+  "description": "Ramanujan's tau function squared applied to primes.",
   "id": "A079396",
   "mentions": [
-    "A000594"
+    "A000040",
+    "A000594",
+    "A076847",
+    "A249688"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that have exactly one Zumkeller divisor but are not Zumkeller.",
+  "id": "A376877",
+  "mentions": [
+    "A083207",
+    "A376874",
+    "A376880",
+    "A376881"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

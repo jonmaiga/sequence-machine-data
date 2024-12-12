@@ -1,0 +1,13 @@
+{
+  "description": "Number of edge cuts in the n-triangular grid graph.",
+  "id": "A377772",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

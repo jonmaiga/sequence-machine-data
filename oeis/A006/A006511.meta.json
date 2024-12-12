@@ -1,5 +1,5 @@
 {
-  "description": "Largest inverse of totient function (A000010): a(n) is the largest x such that phi(x)=m, where m=A002202(n) is the n-th number in the range of phi.",
+  "description": "Largest inverse of totient function (A000010): a(n) is the largest x such that phi(x) = m, where m = A002202(n) is the n-th number in the range of phi.",
   "id": "A006511",
   "mentions": [
     "A000010",

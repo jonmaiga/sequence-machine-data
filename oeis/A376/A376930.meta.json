@@ -1,0 +1,16 @@
+{
+  "description": "a(0)=0, a(1)=1; for n>1, a(n) = a(n-1)+a(n-2), except where a(n-1) is a prime greater than 2, in which case a(n) = a(n-1)-a(n-2).",
+  "id": "A376930",
+  "mentions": [
+    "A092942",
+    "A229137"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

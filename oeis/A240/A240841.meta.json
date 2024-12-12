@@ -1,5 +1,5 @@
 {
-  "description": "Floor(8^n/(1+2*sin(6*Pi/13)/(2*sin(Pi/13)))^n).",
+  "description": "a(n) = floor(8^n/(1+2*sin(6*Pi/13)/(2*sin(Pi/13)))^n).",
   "id": "A240841",
   "mentions": [
     "A001018",

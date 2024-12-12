@@ -1,0 +1,20 @@
+{
+  "description": "Composites that become prime when any two of their digits are deleted.",
+  "id": "A378428",
+  "mentions": [
+    "A002275",
+    "A002808",
+    "A004023",
+    "A061371",
+    "A378081"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

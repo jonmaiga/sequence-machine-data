@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*sigma(n) - A003961(n), where sigma is the sum of divisors function and A003961 is fully multiplicative function with a(prime(i)) = prime(i+1).",
+  "id": "A377984",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A337378",
+    "A337379",
+    "A337380",
+    "A377985"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

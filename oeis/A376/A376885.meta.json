@@ -1,0 +1,30 @@
+{
+  "description": "The number of factors of n of the form p^(k!) counted with multiplicity, where p is a prime and k >= 1, when the factorization is uniquely done using the factorial-base representation of the exponents in the prime factorization of n.",
+  "id": "A376885",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A000203",
+    "A001221",
+    "A001222",
+    "A007623",
+    "A034968",
+    "A064547",
+    "A077761",
+    "A318464",
+    "A376886",
+    "A376887",
+    "A376888"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

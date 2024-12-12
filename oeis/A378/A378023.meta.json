@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (2*n^3 - 6*n^2 + 19*n - 9)*n/6.",
+  "id": "A378023",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

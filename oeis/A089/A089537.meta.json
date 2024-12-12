@@ -2,16 +2,18 @@
   "description": "Greater prime factor of semiprimes in A089535.",
   "id": "A089537",
   "mentions": [
+    "A006530",
     "A085745",
     "A089535",
     "A089536"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = smallest multiple of n using only composite digits.",
+  "description": "a(n) = smallest multiple of n using only composite digits (0,4,6,8,9).",
   "id": "A078240",
   "mentions": [
-    "A078239"
+    "A001744",
+    "A078239",
+    "A078250"
   ],
   "tags": [
     "base",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

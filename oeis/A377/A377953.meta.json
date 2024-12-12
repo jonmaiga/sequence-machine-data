@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k | A084190(k) and (k+1) | A084190(k+1).",
+  "id": "A377953",
+  "mentions": [
+    "A084190",
+    "A355332",
+    "A377949",
+    "A377951",
+    "A377952"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

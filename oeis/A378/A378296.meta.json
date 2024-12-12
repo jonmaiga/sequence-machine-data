@@ -1,0 +1,14 @@
+{
+  "description": "Number of cyclic edge cuts in the n-ladder graph.",
+  "id": "A378296",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

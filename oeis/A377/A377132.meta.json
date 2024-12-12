@@ -1,0 +1,19 @@
+{
+  "description": "The expansion of 1/(1 - G(x)*x), where G(x) is the ordinary generating function of the Carlitz-Riordan q-Catalan numbers for q = 2 (A015083).",
+  "id": "A377132",
+  "mentions": [
+    "A002412",
+    "A015083",
+    "A016061",
+    "A376923"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes that divide at least one term of the sequence f given by f(1) = 2, f(n+1) = f(n)^2-f(n)+1 = A000058(n).",
+  "description": "Primes that divide at least one term of Sylvester's sequence s = A000058: s(n+1) = s(n)^2 - s(n) + 1, s(0) = 2.",
   "id": "A007996",
   "mentions": [
     "A000058",

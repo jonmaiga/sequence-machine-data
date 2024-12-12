@@ -2,7 +2,9 @@
   "description": "Numbers k such that the concatenation of k with itself is a biperiod square.",
   "id": "A102567",
   "mentions": [
+    "A045616",
     "A054214",
+    "A086982",
     "A092118",
     "A106497",
     "A116136",

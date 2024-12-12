@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^(k^2) * Product_{j=1..k} (1 + x^(2*j)).",
+  "id": "A376632",
+  "mentions": [
+    "A306734",
+    "A376627",
+    "A376631"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

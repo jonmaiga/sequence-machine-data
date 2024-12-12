@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least multiple of n that contains exactly one more 1 in its decimal expansion than n does.",
+  "id": "A376165",
+  "mentions": [
+    "A268643"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

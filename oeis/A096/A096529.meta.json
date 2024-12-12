@@ -2,17 +2,23 @@
   "description": "Numbers whose divisors can be permuted so that all sums of triple adjacent divisors are primes.",
   "id": "A096529",
   "mentions": [
+    "A000005",
+    "A000265",
+    "A001227",
+    "A007814",
     "A053182",
     "A096527",
-    "A096530"
+    "A096530",
+    "A106067",
+    "A183063"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 51,
-    "source": "oeis-entry"
+    "size": 62,
+    "source": "oeis-bfile"
   }
 }

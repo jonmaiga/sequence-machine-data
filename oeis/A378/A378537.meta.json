@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function for primitive Zumkeller numbers.",
+  "id": "A378537",
+  "mentions": [
+    "A083206",
+    "A179527",
+    "A180332",
+    "A341619",
+    "A378446",
+    "A378454",
+    "A378538",
+    "A378539"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

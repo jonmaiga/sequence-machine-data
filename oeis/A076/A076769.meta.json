@@ -1,12 +1,16 @@
 {
-  "description": "Integers not expressible as the sum of a triangular number and a square.",
+  "description": "Integers not expressible as the sum of a positive triangular number and a square.",
   "id": "A076769",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A014134"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 60,
     "source": "oeis-entry"
   }

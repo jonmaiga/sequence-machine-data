@@ -1,0 +1,25 @@
+{
+  "description": "Sum of divisors d of n such that n/d has an even number of prime factors (counted with multiplicity).",
+  "id": "A378542",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A000203",
+    "A001222",
+    "A038548",
+    "A065043",
+    "A378525",
+    "A378543",
+    "A378546",
+    "A378548"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

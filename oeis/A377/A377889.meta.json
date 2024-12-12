@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x * A(x))/(1 - x*A(x)^3).",
+  "id": "A377889",
+  "mentions": [
+    "A352410",
+    "A373324",
+    "A377831",
+    "A377888"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

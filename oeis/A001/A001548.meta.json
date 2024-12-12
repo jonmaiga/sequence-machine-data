@@ -2,7 +2,6 @@
   "description": "Number of connected linear spaces with n (unlabeled) points.",
   "id": "A001548",
   "mentions": [
-    "A001199",
     "A001200",
     "A022562",
     "A056642"

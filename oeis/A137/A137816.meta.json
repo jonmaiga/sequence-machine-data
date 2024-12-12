@@ -1,5 +1,5 @@
 {
-  "description": "Nonsquarefree \"year numbers\" (numbers n such that phi(n) = 2 phi(sigma(n)): A137815).",
+  "description": "Nonsquarefree \"year numbers\" (numbers n such that phi(n) = 2*phi(sigma(n)): A137815).",
   "id": "A137816",
   "mentions": [
     "A006872",

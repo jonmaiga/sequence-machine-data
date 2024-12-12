@@ -1,0 +1,20 @@
+{
+  "description": "Indices n where a run of primes begins in A375564.",
+  "id": "A376192",
+  "mentions": [
+    "A020714",
+    "A375564",
+    "A376191",
+    "A376193"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

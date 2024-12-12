@@ -1,19 +1,19 @@
 {
-  "description": "Numerator in triangle T(n,k)=A180955/A180956 read by rows. A001790(A004736).",
+  "description": "Triangle read by rows T(n,k) = numerators of A180955/A180956.",
   "id": "A180955",
   "mentions": [
     "A001790",
-    "A004736",
     "A046161",
     "A180956"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 71,
+    "offset": 0,
+    "size": 78,
     "source": "joeis"
   }
 }

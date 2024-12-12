@@ -1,5 +1,5 @@
 {
-  "description": "Integers of the form 2^n/(n-1).",
+  "description": "Integers of the form 2^k/(k-1).",
   "id": "A118016",
   "mentions": [
     "A016031"
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 9,
     "source": "oeis-entry"
   }

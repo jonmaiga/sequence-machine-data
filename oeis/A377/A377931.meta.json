@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the numerator of the third convergent of the continued fraction of n^(1/n).",
+  "id": "A377931",
+  "mentions": [
+    "A090663",
+    "A377932"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

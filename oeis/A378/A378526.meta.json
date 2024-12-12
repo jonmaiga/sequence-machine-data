@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet inverse of A378548, where A378548 is the sum of divisors d of n such that n/d is odd with an even number of prime factors (counted with multiplicity).",
+  "id": "A378526",
+  "mentions": [
+    "A023900",
+    "A055615",
+    "A353557",
+    "A358777",
+    "A369454",
+    "A378525",
+    "A378527",
+    "A378548"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

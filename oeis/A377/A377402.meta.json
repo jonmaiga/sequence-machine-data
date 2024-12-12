@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that the ratio of the number of residues mod k coprime to k and the number of primitive roots mod k is greater than or equal to n for k such that at least one primitive root mod k exists. Equivalently, k such that floor(phi(k)/phi(phi(k)) is a record value for those k belonging to A033948.",
+  "id": "A377402",
+  "mentions": [
+    "A000010",
+    "A010554",
+    "A033948",
+    "A046144"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct sums of distinct divisors of n.",
+  "description": "Number of distinct sums of distinct divisors of n. Here 0 (as the sum of an empty subset) is excluded from the count.",
   "id": "A119347",
   "mentions": [
     "A000203",
@@ -7,10 +7,19 @@
     "A005153",
     "A027750",
     "A030057",
+    "A033630",
+    "A083207",
     "A093890",
+    "A100587",
     "A119348",
     "A174533",
-    "A225561"
+    "A193279",
+    "A225561",
+    "A237290",
+    "A308605",
+    "A378447",
+    "A378450",
+    "A378451"
   ],
   "tags": [
     "formulas",

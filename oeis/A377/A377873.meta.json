@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A276085(k) has at least one divisor of the form p^p, where A276085 is fully additive with a(p) = p#/p.",
+  "id": "A377873",
+  "mentions": [
+    "A100716",
+    "A276085",
+    "A369002",
+    "A377868",
+    "A377869",
+    "A377872"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

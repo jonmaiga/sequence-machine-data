@@ -1,5 +1,5 @@
 {
-  "description": "Nontrivial solutions of x^2 == 1 (Modd p), p an odd prime, for odd restricted residue classes Modd p.",
+  "description": "Nontrivial solution of x^2 == 1 (Modd p), where p is the n-th prime of the form 4*k+1, for odd restricted residue classes Modd p.",
   "id": "A206549",
   "mentions": [
     "A000688",

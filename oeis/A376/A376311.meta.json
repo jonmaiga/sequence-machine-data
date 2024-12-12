@@ -1,0 +1,43 @@
+{
+  "description": "Position of first appearance of n in the sequence of first differences of squarefree numbers, or the sequence ends if there is none.",
+  "id": "A376311",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001223",
+    "A003242",
+    "A005117",
+    "A007674",
+    "A013929",
+    "A053797",
+    "A053806",
+    "A057820",
+    "A061398",
+    "A072284",
+    "A076259",
+    "A078147",
+    "A112925",
+    "A116608",
+    "A116861",
+    "A120992",
+    "A246655",
+    "A333489",
+    "A375707",
+    "A375927",
+    "A376305",
+    "A376306",
+    "A376307",
+    "A376312",
+    "A376341",
+    "A376342"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

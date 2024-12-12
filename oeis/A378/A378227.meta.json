@@ -1,0 +1,23 @@
+{
+  "description": "XOR-Moebius transform of A318467, where A318467(n) = 2*n XOR sigma(n).",
+  "id": "A378227",
+  "mentions": [
+    "A000203",
+    "A003987",
+    "A083254",
+    "A256739",
+    "A295901",
+    "A296203",
+    "A318467",
+    "A378226"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

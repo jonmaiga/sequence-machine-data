@@ -1,0 +1,15 @@
+{
+  "description": "Index i among the divisors of k = A375574(n) of the sum s of the first n divisors of k.",
+  "id": "A375593",
+  "mentions": [
+    "A375574"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

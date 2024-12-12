@@ -2,6 +2,7 @@
   "description": "Primes p such that p divides 3*2^k + 1 for some k >= 0.",
   "id": "A256396",
   "mentions": [
+    "A001122",
     "A039687",
     "A256397"
   ],

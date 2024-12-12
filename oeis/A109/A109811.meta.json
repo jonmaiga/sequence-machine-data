@@ -2,7 +2,6 @@
   "description": "Triangular numbers (A000217) at Levenshtein distance 1 from another triangular number when considered as a decimal string.",
   "id": "A109811",
   "mentions": [
-    "A000040",
     "A000217",
     "A081230",
     "A081355",
@@ -11,12 +10,11 @@
   "tags": [
     "base",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 53,
     "source": "oeis-entry"
   }
 }

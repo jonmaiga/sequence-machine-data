@@ -1,0 +1,28 @@
+{
+  "description": "Number of divisors of n that are both composite and squarefree.",
+  "id": "A376504",
+  "mentions": [
+    "A000005",
+    "A000295",
+    "A000961",
+    "A001221",
+    "A002110",
+    "A007947",
+    "A034444",
+    "A120944",
+    "A162306",
+    "A327517",
+    "A361373",
+    "A374514"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

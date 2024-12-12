@@ -1,7 +1,11 @@
 {
-  "description": "Primes of the four types: {2^Prime[n] - 1, 2^Prime[n] + 1, 2^Prime[n] - 3, 2^Prime[n] + 3}.",
+  "description": "Primes of the form 2^p - 1, 2^p + 1, 2^p - 3, or 2^p + 3, where p is prime.",
   "id": "A142247",
-  "mentions": [],
+  "mentions": [
+    "A000668",
+    "A057737",
+    "A172041"
+  ],
   "tags": [
     "formulas",
     "nonn",

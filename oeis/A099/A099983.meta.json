@@ -2,14 +2,17 @@
   "description": "Bisection of A000043.",
   "id": "A099983",
   "mentions": [
-    "A000043"
+    "A000043",
+    "A099982"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 19,
+    "offset": 1,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

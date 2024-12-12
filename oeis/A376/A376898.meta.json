@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers k such that all the digits in the octal expansion of k^3 are distinct.",
+  "id": "A376898",
+  "mentions": [
+    "A007094",
+    "A129525",
+    "A376897"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

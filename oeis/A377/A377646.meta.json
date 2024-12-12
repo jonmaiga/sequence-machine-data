@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1 + x * (exp(x) - 1))^2.",
+  "id": "A377646",
+  "mentions": [
+    "A375660",
+    "A377680",
+    "A377681"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

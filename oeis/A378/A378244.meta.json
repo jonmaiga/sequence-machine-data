@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1, a(2) = 2, and for any n > 2, a(n) is the least number > a(n-1) that belongs to a unique Fibonacci-like sequence starting with two distinct earlier terms.",
+  "id": "A378244",
+  "mentions": [
+    "A002858",
+    "A378242"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

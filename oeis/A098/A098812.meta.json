@@ -1,7 +1,11 @@
 {
-  "description": "Numbers n such that n^n + F(n) is prime, where F(k) is the k-th Fibonacci number.",
+  "description": "Numbers k such that k^k + F(k) is prime, where F(k) is the k-th Fibonacci number.",
   "id": "A098812",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A000312",
+    "A001605"
+  ],
   "tags": [
     "hard",
     "more",

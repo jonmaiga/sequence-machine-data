@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that (2^n + 5) / 3 is prime.",
+  "description": "Numbers k such that (2^k + 5) / 3 is prime.",
   "id": "A273009",
   "mentions": [
     "A261539"
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],

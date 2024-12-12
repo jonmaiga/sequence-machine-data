@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of not uniquely embeddable trees on n vertices.",
+  "id": "A378673",
+  "mentions": [
+    "A000055",
+    "A372853",
+    "A378672"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

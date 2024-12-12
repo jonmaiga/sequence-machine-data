@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the midradius of a truncated dodecahedron with unit edge length.",
+  "id": "A377697",
+  "mentions": [
+    "A010499",
+    "A205769",
+    "A239798",
+    "A377694",
+    "A377695",
+    "A377696",
+    "A377698"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

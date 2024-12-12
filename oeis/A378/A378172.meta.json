@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that k = 4*m is powerful while both 4*m-1 and 4*m+1 are squarefree.",
+  "id": "A378172",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A335851"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

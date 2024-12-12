@@ -4,11 +4,12 @@
   "mentions": [],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 77,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

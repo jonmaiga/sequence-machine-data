@@ -1,9 +1,11 @@
 {
-  "description": "Triangular numbers containing 2n digits in which the sum of the first n digits = that of the rest.",
+  "description": "Triangular numbers containing 2k digits in which the sum of the first k digits = that of the rest.",
   "id": "A068898",
   "mentions": [
+    "A000217",
     "A068896",
-    "A068897"
+    "A068897",
+    "A240927"
   ],
   "tags": [
     "base",
@@ -11,7 +13,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 35,
     "source": "joeis"
   }

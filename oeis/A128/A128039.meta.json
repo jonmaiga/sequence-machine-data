@@ -1,8 +1,7 @@
 {
-  "description": "Numbers n such that 1 - Sum{k=1..n-1}A001223(k)*(-1)^k = 0.",
+  "description": "Numbers n such that 1 - Sum_{k=1..n-1} A001223(k)*(-1)^k = 0.",
   "id": "A128039",
   "mentions": [
-    "A000040",
     "A000101",
     "A001223",
     "A002386",

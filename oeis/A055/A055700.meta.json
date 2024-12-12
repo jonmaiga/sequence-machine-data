@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n | Sigma_6(n) + Phi(n)^6.",
+  "description": "Numbers k such that k | sigma_6(k) + phi(k)^6.",
   "id": "A055700",
   "mentions": [
+    "A000010",
     "A013954"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

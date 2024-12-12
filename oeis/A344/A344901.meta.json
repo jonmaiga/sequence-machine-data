@@ -2,10 +2,15 @@
   "description": "Triangle read by rows: T(n,k) is the number of permutations of length n that have k same elements at the same positions with its inverse permutation for 0 <= k <= n.",
   "id": "A344901",
   "mentions": [
+    "A000023",
     "A000085",
     "A000142",
     "A007318",
     "A038205",
+    "A052571",
+    "A052849",
+    "A098558",
+    "A137482",
     "A221145"
   ],
   "tags": [
@@ -16,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

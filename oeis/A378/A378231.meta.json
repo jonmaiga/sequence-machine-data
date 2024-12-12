@@ -1,0 +1,22 @@
+{
+  "description": "Deficiency of prime-shifted squares: a(n) = 2*A003961(n^2) - sigma(A003961(n^2)), where A003961 is fully multiplicative function with a(prime(i)) = prime(i+1).",
+  "id": "A378231",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A033879",
+    "A337339",
+    "A344587",
+    "A377879"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

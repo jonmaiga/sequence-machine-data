@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle giving on row n all those antiderivatives k of the n-th factorial, for which bigomega(k) > 2.",
+  "id": "A377987",
+  "mentions": [
+    "A000142",
+    "A001222",
+    "A003415",
+    "A366890",
+    "A369240",
+    "A376410",
+    "A377986",
+    "A377992"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

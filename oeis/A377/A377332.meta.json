@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers k such that there exists a fully symmetric k-celled polycube, i.e., such that A376971(k) > 0.",
+  "id": "A377332",
+  "mentions": [
+    "A042948",
+    "A376971",
+    "A377333",
+    "A377337"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

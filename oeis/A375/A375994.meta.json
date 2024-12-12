@@ -2,7 +2,7 @@
   "description": "Number of distinct subsets of length-n words that can be the set of all length-n blocks occurring in some binary word.",
   "id": "A375994",
   "mentions": [
-    "A375995"
+    "A324149"
   ],
   "tags": [
     "more",

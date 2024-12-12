@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if sigma(n) >= 2*n-1, otherwise 0.",
+  "id": "A378550",
+  "mentions": [
+    "A000203",
+    "A103288",
+    "A120444",
+    "A209229",
+    "A294936"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

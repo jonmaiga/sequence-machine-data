@@ -1,5 +1,5 @@
 {
-  "description": "Dispersion of (3n-1), read by antidiagonals.",
+  "description": "Dispersion of (3*n-1), read by antidiagonals.",
   "id": "A191450",
   "mentions": [
     "A000244",

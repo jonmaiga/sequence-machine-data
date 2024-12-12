@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that such that Sum_{i=1..k} A027750(m,i)^i = m for some k <= A000005(m).",
+  "id": "A378313",
+  "mentions": [
+    "A000005",
+    "A001248",
+    "A027750",
+    "A064510",
+    "A180851",
+    "A190940",
+    "A194269",
+    "A307137",
+    "A378314"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

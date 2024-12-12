@@ -2,6 +2,7 @@
   "description": "Period of continued fraction for square root of n (or 0 if n is a square).",
   "id": "A003285",
   "mentions": [
+    "A002522",
     "A006702",
     "A007400",
     "A010337",
@@ -20,7 +21,6 @@
     "A061490",
     "A065938",
     "A067280",
-    "A069987",
     "A097853"
   ],
   "tags": [

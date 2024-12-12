@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that smallest digit of n is prime and the smallest digit of prime(n) is also prime.",
+  "description": "Numbers k such that smallest digit of k is prime and the smallest digit of prime(k) is also prime.",
   "id": "A154865",
   "mentions": [
     "A000027",

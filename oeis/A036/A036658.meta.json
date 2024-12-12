@@ -2,7 +2,8 @@
   "description": "Number of n-node rooted unlabeled trees with exactly 3 edges at root and otherwise out-degree <= 2.",
   "id": "A036658",
   "mentions": [
-    "A036656"
+    "A036656",
+    "A088326"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 36,
     "source": "joeis"
   }
 }

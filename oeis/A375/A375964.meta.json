@@ -1,0 +1,18 @@
+{
+  "description": "Semiprime numbers that are sandwiched between products of exactly 4 distinct primes (or tetraprimes).",
+  "id": "A375964",
+  "mentions": [
+    "A006881",
+    "A046386",
+    "A100484"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

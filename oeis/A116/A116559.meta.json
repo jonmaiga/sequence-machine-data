@@ -1,13 +1,14 @@
 {
-  "description": "Sequentially switched Markov of six 2 X 2 matrices based on the SL[2,2] group of Blyth and Robinson that gives a chaotic vector output.",
+  "description": "Expansion of g.f. x*(1+x+2*x^2+2*x^3+5*x^4+5*x^5-3*x^6+2*x^7-x^8-x^9)/(1-6*x^6-x^12).",
   "id": "A116559",
   "mentions": [
     "A005667"
   ],
   "tags": [
+    "easy",
     "formulas",
-    "nonn",
-    "obsc"
+    "less",
+    "nonn"
   ],
   "terms": {
     "offset": 0,

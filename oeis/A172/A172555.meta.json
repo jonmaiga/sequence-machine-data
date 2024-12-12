@@ -1,13 +1,15 @@
 {
-  "description": "Number of 2*n X 8 0..1 arrays with row sums 4 and column sums n",
+  "description": "Number of 2*n X 8 binary arrays with row sums 4 and column sums n.",
   "id": "A172555",
-  "mentions": [],
+  "mentions": [
+    "A376935"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

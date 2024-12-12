@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form ((n-1)! + 1)/n.",
+  "description": "Primes of the form ((k-1)! + 1)/k.",
   "id": "A122696",
   "mentions": [
     "A007619",

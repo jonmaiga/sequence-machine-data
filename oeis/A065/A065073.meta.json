@@ -1,5 +1,5 @@
 {
-  "description": "n-th prime + sum of digits of n-th prime.",
+  "description": "a(n) = prime(n) + (sum of digits of prime(n)).",
   "id": "A065073",
   "mentions": [
     "A000040",

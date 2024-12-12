@@ -1,0 +1,20 @@
+{
+  "description": "Number of times the root fires in a chip-firing game starting with 2n chips placed at the root on an infinite binary tree with a loop at the root.",
+  "id": "A376116",
+  "mentions": [
+    "A000120",
+    "A070939",
+    "A091090",
+    "A376131",
+    "A376132"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

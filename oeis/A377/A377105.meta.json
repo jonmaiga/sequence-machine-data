@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. A(x) satisfies [x^k] A(x)^(n*(n+1)/2+1) = 0 for k = n*(n-1)/2+2 through k = n*(n+1)/2+1 for n >= 1, with a(0) = a(1) = 1.",
+  "id": "A377105",
+  "mentions": [
+    "A000108",
+    "A377106"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

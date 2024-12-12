@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (11^n - 9^n)/2 is prime.",
+  "description": "Numbers k such that (11^k - 9^k)/2 is prime.",
   "id": "A273601",
   "mentions": [
     "A005808",

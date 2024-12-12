@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n^2+3n+223",
+  "description": "Primes of the form k^2+3*k+223.",
   "id": "A153424",
   "mentions": [
     "A153423"

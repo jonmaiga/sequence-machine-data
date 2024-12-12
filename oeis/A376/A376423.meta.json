@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers m such that the run lengths in binary expansion of m, say (r_1, ..., r_k), correspond to a complete ruler: the sums r_i + ... r_j with i <= j <= k cover an initial interval of the positive integers.",
+  "id": "A376423",
+  "mentions": [
+    "A101211",
+    "A103295",
+    "A376314"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

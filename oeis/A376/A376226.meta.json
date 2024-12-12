@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = A(x^3 + 6*x*A(x)^3) / A(x^2 + 4*x*A(x)^2).",
+  "id": "A376226",
+  "mentions": [
+    "A000108",
+    "A038464"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

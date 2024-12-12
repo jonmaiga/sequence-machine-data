@@ -2,7 +2,8 @@
   "description": "Nonnegative numbers of the form 2*x^2+3*x*y-3*y^2.",
   "id": "A243184",
   "mentions": [
-    "A141176"
+    "A141176",
+    "A243185"
   ],
   "tags": [
     "nonn"

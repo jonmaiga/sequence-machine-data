@@ -1,0 +1,17 @@
+{
+  "description": "Number of subsets of the first n nonzero decimal palindromes whose sum is a nonzero decimal palindrome.",
+  "id": "A377122",
+  "mentions": [
+    "A002113",
+    "A339507"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

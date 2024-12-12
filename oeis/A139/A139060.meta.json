@@ -17,14 +17,16 @@
     "A139063",
     "A139064",
     "A139065",
-    "A139066"
+    "A139066",
+    "A139151"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 8,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

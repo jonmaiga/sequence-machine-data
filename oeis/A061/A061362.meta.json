@@ -1,5 +1,5 @@
 {
-  "description": "Numbers in which each nonzero digit divides the number formed by the rest, i.e., the number obtained by just removing this digit. 0 is divisible by every number.",
+  "description": "Numbers in which each nonzero digit divides the number formed by the rest, i.e., the number obtained by just removing this digit.",
   "id": "A061362",
   "mentions": [],
   "tags": [
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 60,
-    "source": "joeis"
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

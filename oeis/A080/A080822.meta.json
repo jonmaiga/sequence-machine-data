@@ -2,6 +2,7 @@
   "description": "Primes in A058633.",
   "id": "A080822",
   "mentions": [
+    "A006577",
     "A058633"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

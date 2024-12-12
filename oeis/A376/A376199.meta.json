@@ -1,0 +1,19 @@
+{
+  "description": "Index where n appears in A376198.",
+  "id": "A376199",
+  "mentions": [
+    "A376198",
+    "A376200",
+    "A376201",
+    "A376750",
+    "A376754"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

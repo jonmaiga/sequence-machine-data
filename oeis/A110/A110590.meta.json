@@ -1,5 +1,5 @@
 {
-  "description": "Balanced numbers n (A020492) such that phi(n) is not divisible by 12.",
+  "description": "Balanced numbers k (A020492) such that phi(k) is not divisible by 12.",
   "id": "A110590",
   "mentions": [
     "A000010",

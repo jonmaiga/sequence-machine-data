@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of a (small) triakis octahedron with unit shorter edge length.",
+  "id": "A378351",
+  "mentions": [
+    "A010487",
+    "A201488",
+    "A377298",
+    "A378352",
+    "A378353",
+    "A378354"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

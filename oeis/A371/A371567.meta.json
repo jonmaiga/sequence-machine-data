@@ -5,12 +5,13 @@
     "A258173"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

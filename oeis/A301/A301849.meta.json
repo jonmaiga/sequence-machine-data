@@ -1,5 +1,5 @@
 {
-  "description": "The Pagoda sequence: a sequence with isolated zeros in number-wall over finite fields.",
+  "description": "The Pagoda sequence: a sequence with isolated zeros in its number wall over finite fields.",
   "id": "A301849",
   "mentions": [
     "A038189",

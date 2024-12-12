@@ -1,0 +1,18 @@
+{
+  "description": "Period 19: repeat [0, 3, 6, 9, 7, 4, 1, 2, 5, 8, 8, 5, 2, 1, 4, 7, 9, 6, 3]",
+  "id": "A377030",
+  "mentions": [
+    "A008585",
+    "A008601"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

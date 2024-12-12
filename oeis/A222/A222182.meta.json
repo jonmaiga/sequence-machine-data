@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that 2*m+11 is a square.",
+  "description": "Numbers m such that 2*m + 11 is a square.",
   "id": "A222182",
   "mentions": [
     "A005408",

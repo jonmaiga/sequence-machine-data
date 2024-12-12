@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of terms of A048103 (numbers with no p^p divisors) less than or equal to n.",
+  "id": "A377982",
+  "mentions": [
+    "A048103",
+    "A276086",
+    "A359550",
+    "A376411",
+    "A377983"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

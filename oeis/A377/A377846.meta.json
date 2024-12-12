@@ -1,0 +1,22 @@
+{
+  "description": "Powerful numbers that are not divisible by the cubes of more than one distinct prime.",
+  "id": "A377846",
+  "mentions": [
+    "A001694",
+    "A082020",
+    "A143610",
+    "A376936",
+    "A377821",
+    "A377847"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

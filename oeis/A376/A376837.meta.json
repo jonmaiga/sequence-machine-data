@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of paths to reach a position outside an 8 X 8 chessboard after n steps, starting in one of the corners, when performing a walk with unit steps on the square lattice.",
+  "id": "A376837",
+  "mentions": [
+    "A052899",
+    "A376606",
+    "A376607"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,15 +1,18 @@
 {
   "description": "Triangular numbers in which frequency of occurrence of every digit is same.",
   "id": "A078256",
-  "mentions": [],
+  "mentions": [
+    "A052046",
+    "A082646"
+  ],
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

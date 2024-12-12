@@ -1,0 +1,20 @@
+{
+  "description": "4-brilliant numbers: numbers which are the product of four primes having the same number of decimal digits.",
+  "id": "A376704",
+  "mentions": [
+    "A014613",
+    "A078972",
+    "A376703",
+    "A376705",
+    "A376706"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

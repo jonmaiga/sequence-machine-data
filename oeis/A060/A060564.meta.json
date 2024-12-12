@@ -2,7 +2,9 @@
   "description": "Number of elliptic curves (up to isogeny) of conductor n.",
   "id": "A060564",
   "mentions": [
-    "A005788"
+    "A005788",
+    "A110620",
+    "A127788"
   ],
   "tags": [
     "nice",

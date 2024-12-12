@@ -1,0 +1,19 @@
+{
+  "description": "Repdigit untouchable numbers.",
+  "id": "A378088",
+  "mentions": [
+    "A005114",
+    "A010785"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

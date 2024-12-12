@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of solutions of n*x*y*z = (x + n)*(y + n)*(z + n), 0 < x <= y <= z.",
+  "id": "A375787",
+  "mentions": [
+    "A374059"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n XOR 10 = n - 10.",
+  "description": "Numbers k such that k XOR 10 = k - 10.",
   "id": "A214864",
   "mentions": [
     "A016825",
@@ -7,6 +7,7 @@
     "A216178"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

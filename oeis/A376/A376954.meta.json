@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = least k such that (2n*Pi/3)^(2k)/(2 k)! < 1.",
+  "id": "A376954",
+  "mentions": [
+    "A370507",
+    "A375057",
+    "A376952",
+    "A376953",
+    "A376955",
+    "A376956",
+    "A376957",
+    "A376958",
+    "A376959",
+    "A376960"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

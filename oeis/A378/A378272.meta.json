@@ -1,0 +1,17 @@
+{
+  "description": "The smallest number whose divisor set mod p has p elements with p = prime(n).",
+  "id": "A378272",
+  "mentions": [
+    "A000040",
+    "A280171"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

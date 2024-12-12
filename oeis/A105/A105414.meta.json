@@ -1,7 +1,13 @@
 {
-  "description": "Numbers p(n) such that p(n)+2 and p(n+7)-2 are both prime numbers, where p(n) is the n-th prime.",
+  "description": "Primes p = prime(k) such that p+2 and prime(k+7)-2 are both prime numbers.",
   "id": "A105414",
-  "mentions": [],
+  "mentions": [
+    "A105409",
+    "A105410",
+    "A105411",
+    "A105412",
+    "A105413"
+  ],
   "tags": [
     "nonn"
   ],

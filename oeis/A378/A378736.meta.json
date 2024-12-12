@@ -1,0 +1,24 @@
+{
+  "description": "Greatest divisor d of the n-th abundant number such that sigma(d) <= 2*d < A003961(d), or 1 if no such divisor exists.",
+  "id": "A378736",
+  "mentions": [
+    "A003961",
+    "A005101",
+    "A294935",
+    "A337372",
+    "A341612",
+    "A378662",
+    "A378664",
+    "A378735",
+    "A378737"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

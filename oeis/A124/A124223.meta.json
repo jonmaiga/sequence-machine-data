@@ -1,5 +1,5 @@
 {
-  "description": "Table T(n,k) = reciprocal of k modulo prime(n), for 1 <= k < prime(n).",
+  "description": "Table T(n,k) = reciprocal of k modulo prime(n), for 1 <= k < prime(n), read by rows.",
   "id": "A124223",
   "mentions": [
     "A000040",

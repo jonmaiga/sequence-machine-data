@@ -2,15 +2,17 @@
   "description": "Number of \"squares\" (repeated identical blocks) in the n-th Fibonacci word.",
   "id": "A248425",
   "mentions": [
+    "A000045",
     "A061107"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

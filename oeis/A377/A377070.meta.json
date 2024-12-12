@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle where row n lists m such that rad(m) | n and bigomega(m) = bigomega(n), where rad = A007947 and bigomega = A001222.",
+  "id": "A377070",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A007947",
+    "A024619",
+    "A376248",
+    "A377071"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

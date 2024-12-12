@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A376131.",
+  "id": "A376132",
+  "mentions": [
+    "A000295",
+    "A091090",
+    "A376116",
+    "A376131"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

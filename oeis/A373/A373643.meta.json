@@ -1,0 +1,20 @@
+{
+  "description": "Number of k between consecutive primes such that k is neither squarefree nor prime powers.",
+  "id": "A373643",
+  "mentions": [
+    "A001223",
+    "A061398",
+    "A080101",
+    "A126706"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

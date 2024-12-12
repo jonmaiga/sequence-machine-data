@@ -1,7 +1,9 @@
 {
   "description": "Number of permutations of 6 copies of 1..n introduced in order 1..n with no element equal to another within a distance of 1.",
   "id": "A190835",
-  "mentions": [],
+  "mentions": [
+    "A322013"
+  ],
   "tags": [
     "formulas",
     "nonn"

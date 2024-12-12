@@ -1,0 +1,18 @@
+{
+  "description": "Smallest n-digit term in A104179.",
+  "id": "A376434",
+  "mentions": [
+    "A104179",
+    "A376433",
+    "A376435"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

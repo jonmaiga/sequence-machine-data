@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{k>=0} x^(k*(k+1)) * Product_{j=1..k} 1/(1 - x^j)^3.",
+  "id": "A376708",
+  "mentions": [
+    "A003106",
+    "A064428",
+    "A357471",
+    "A376711"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

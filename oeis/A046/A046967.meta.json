@@ -1,14 +1,17 @@
 {
   "description": "a(1) = 2, a(n) = a(n-1)^prime(n) for n > 1.",
   "id": "A046967",
-  "mentions": [],
+  "mentions": [
+    "A070826"
+  ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 4,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

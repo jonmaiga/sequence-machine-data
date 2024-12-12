@@ -2,10 +2,7 @@
   "description": "Number of primitive polynomials of degree n over GF(3).",
   "id": "A027385",
   "mentions": [
-    "A011260",
-    "A027741",
-    "A027743",
-    "A319166"
+    "A158502"
   ],
   "tags": [
     "nonn"

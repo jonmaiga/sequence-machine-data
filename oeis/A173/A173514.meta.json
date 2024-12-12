@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*a(n-1) + a(n-2) - [a(n-2)/2] - [a(n-4)/2] - [a(n-5)/2].",
+  "description": "a(n) = 2*a(n-1) + a(n-2) - [a(n-2)/2] - [a(n-4)/2] - [a(n-5)/2] where [k] := floor(k).",
   "id": "A173514",
   "mentions": [],
   "tags": [

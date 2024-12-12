@@ -1,5 +1,5 @@
 {
-  "description": "Number of strings of numbers x(i=1..n) in 0..4 with sum i^2*x(i)^3 equal to n^2*64",
+  "description": "Number of strings of numbers x(i=1..n) in 0..4 with Sum_{i=1..n} i^2*x(i)^3 = n^2*64.",
   "id": "A184313",
   "mentions": [
     "A184318"
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 28,
-    "source": "joeis"
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

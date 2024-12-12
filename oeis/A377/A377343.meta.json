@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the surface area of a truncated cuboctahedron (great rhombicuboctahedron) with unit edge length.",
+  "id": "A377343",
+  "mentions": [
+    "A135611",
+    "A343199",
+    "A377344",
+    "A377345",
+    "A377346"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "a(n) = (9*n + 3)^3.",
   "id": "A017199",
   "mentions": [
-    "A016779"
+    "A002117",
+    "A016779",
+    "A017197"
   ],
   "tags": [
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

@@ -1,9 +1,14 @@
 {
   "description": "Decimal expansion of 1/sqrt(15).",
   "id": "A020772",
-  "mentions": [],
+  "mentions": [
+    "A010472",
+    "A020760",
+    "A020762"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/A(-x*A(x)) such that [x^(2*n-1)] A(x)^n = 0 for n >= 2, with A(0) = A'(0) = 1.",
+  "id": "A377250",
+  "mentions": [
+    "A377251"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

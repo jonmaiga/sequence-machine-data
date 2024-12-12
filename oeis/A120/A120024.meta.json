@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*6^n-1 and 2*6^n+1 are twin primes.",
+  "description": "Numbers k such that 2*6^k-1 and 2*6^k+1 are twin primes.",
   "id": "A120024",
   "mentions": [
     "A057472",

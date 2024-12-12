@@ -1,0 +1,23 @@
+{
+  "description": "Take the sequence of the signed denominators of Leibniz series for Pi/4 (cf. A157142) and permute the terms so that a negative term follows every two positive terms and the absolute difference between two consecutive terms of the same sign is 4.",
+  "id": "A377226",
+  "mentions": [
+    "A003881",
+    "A005408",
+    "A049347",
+    "A061347",
+    "A131561",
+    "A157142",
+    "A377227"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

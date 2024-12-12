@@ -1,9 +1,10 @@
 {
-  "description": "Three 'Reverse and Add' steps are needed to reach a palindrome.",
+  "description": "Numbers which need three 'Reverse and Add' steps to reach a palindrome.",
   "id": "A065208",
   "mentions": [
     "A002113",
     "A015979",
+    "A033665",
     "A065206"
   ],
   "tags": [
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 111,
+    "size": 61,
     "source": "joeis"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Rectangular array by antidiagonals: R(m,n) = least k such that 2n*prime(m)^k + 1 is prime.",
+  "id": "A377367",
+  "mentions": [
+    "A000040",
+    "A377366"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

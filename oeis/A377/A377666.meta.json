@@ -1,0 +1,25 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = Sum_{j = 0..k} binomial(k, j) * Euler(j, 0) *(2*n)^j.",
+  "id": "A377666",
+  "mentions": [
+    "A000012",
+    "A122045",
+    "A156201",
+    "A212435",
+    "A225147",
+    "A363393",
+    "A377663",
+    "A377664",
+    "A377665"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

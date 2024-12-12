@@ -1,7 +1,9 @@
 {
-  "description": "Primes of the form 8n^2 + 7.",
+  "description": "Primes of the form 8*k^2 + 7.",
   "id": "A201704",
-  "mentions": [],
+  "mentions": [
+    "A121068"
+  ],
   "tags": [
     "easy",
     "nonn"

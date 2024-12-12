@@ -1,0 +1,21 @@
+{
+  "description": "Number of colorings of a toroidal n X n grid using exactly two colors under translational symmetry.",
+  "id": "A376822",
+  "mentions": [
+    "A179043",
+    "A294684",
+    "A376747",
+    "A376823",
+    "A376824",
+    "A376825"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

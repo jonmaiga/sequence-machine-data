@@ -1,8 +1,10 @@
 {
-  "description": "a(n)=lpf(A243937(n)-3), where lpf = least prime factor (A020639).",
+  "description": "a(n) = lpf(A243937(n)-3), where lpf = least prime factor (A020639).",
   "id": "A242034",
   "mentions": [
+    "A001359",
     "A020639",
+    "A065091",
     "A242033",
     "A243937",
     "A245024"
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

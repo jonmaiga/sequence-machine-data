@@ -1,0 +1,41 @@
+{
+  "description": "Position of first 0 in the n-th differences of the noncomposite numbers (A008578), or 0 if it does not appear.",
+  "id": "A376855",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A002808",
+    "A007442",
+    "A008578",
+    "A030016",
+    "A036263",
+    "A064113",
+    "A065890",
+    "A075526",
+    "A084758",
+    "A140119",
+    "A173390",
+    "A258025",
+    "A333214",
+    "A333215",
+    "A333254",
+    "A376678",
+    "A376681",
+    "A376682",
+    "A376683",
+    "A376684",
+    "A377033",
+    "A377037",
+    "A377042",
+    "A377050",
+    "A377055"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

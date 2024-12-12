@@ -1,5 +1,5 @@
 {
-  "description": "p(p-1)/2, where p is A000043(n).",
+  "description": "a(n) = p*(p-1)/2, where p is A000043(n).",
   "id": "A139116",
   "mentions": [
     "A000043",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

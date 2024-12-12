@@ -1,0 +1,15 @@
+{
+  "description": "Number of cyclic edge cuts in the n-antiprism graph.",
+  "id": "A378310",
+  "mentions": [],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

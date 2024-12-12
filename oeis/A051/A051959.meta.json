@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+6x)/( (1-2x-x^2)(1-x)^2).",
+  "description": "Expansion of (1+6*x)/((1-2*x-x^2)*(1-x)^2).",
   "id": "A051959",
   "mentions": [
     "A000129",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

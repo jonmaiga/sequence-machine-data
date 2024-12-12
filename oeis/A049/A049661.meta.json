@@ -1,7 +1,11 @@
 {
   "description": "a(n) = (Fibonacci(6*n+1) - 1)/4.",
   "id": "A049661",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A019863",
+    "A374149"
+  ],
   "tags": [
     "easy",
     "formulas",

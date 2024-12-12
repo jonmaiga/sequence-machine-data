@@ -1,0 +1,20 @@
+{
+  "description": "Number of perfect powers m <= n such that rad(m) | n, where rad = A007947.",
+  "id": "A376719",
+  "mentions": [
+    "A000961",
+    "A001597",
+    "A007947",
+    "A091050",
+    "A162306"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

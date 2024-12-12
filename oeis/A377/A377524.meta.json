@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps for n to reach the minimum of its final cycle under iterations of the map (A123684): x->(3x-1)/2 if x odd, x/2 otherwise; or -1 if this never happens.",
+  "id": "A377524",
+  "mentions": [
+    "A006666",
+    "A123684",
+    "A135730"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

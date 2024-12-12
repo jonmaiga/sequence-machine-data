@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = binomial(n,k(n)), where k(2) = 1, k(n) = k(n-1) + (a(n-1) mod 2).",
+  "id": "A375972",
+  "mentions": [
+    "A000012",
+    "A007318"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(206).",
   "id": "A040191",
-  "mentions": [],
+  "mentions": [
+    "A041382",
+    "A041383"
+  ],
   "tags": [
     "cofr",
     "easy",

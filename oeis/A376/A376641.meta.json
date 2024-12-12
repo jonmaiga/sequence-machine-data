@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first positive integer that has exactly n representations as x * y * (x + y) where x >= y > 1.",
+  "id": "A376641",
+  "mentions": [
+    "A255265"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

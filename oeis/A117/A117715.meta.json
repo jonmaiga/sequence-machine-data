@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) containing the value of the Fibonacci polynomial F(n,x) at x=m.",
+  "description": "Triangle, read by rows, T(n, k) = Fibonacci(n, k), where Fibonacci(n, x) is the Fibonacci polynomial.",
   "id": "A117715",
   "mentions": [
     "A000045",
@@ -13,7 +13,8 @@
     "A084845",
     "A117716",
     "A124152",
-    "A157103"
+    "A157103",
+    "A352361"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,14 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = A(x^3)/A(x^2) - x^2.",
+  "id": "A378256",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

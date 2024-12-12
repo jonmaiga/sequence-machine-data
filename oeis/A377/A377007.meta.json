@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of inequivalent 2*n X 2*k binary matrices with all row sums k and column sums n up to permutations of rows and columns.",
+  "id": "A377007",
+  "mentions": [
+    "A000012",
+    "A001399",
+    "A133687",
+    "A333740",
+    "A376935",
+    "A377003",
+    "A377004",
+    "A377005",
+    "A377006"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

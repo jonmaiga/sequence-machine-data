@@ -2,7 +2,8 @@
   "description": "Primes p such that sum of even digits of p equals sum of odd digits of p.",
   "id": "A076167",
   "mentions": [
-    "A036301"
+    "A036301",
+    "A111309"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer k such that n + k and n - k have the same number of prime factors.",
+  "id": "A377320",
+  "mentions": [
+    "A001222",
+    "A082467",
+    "A178139",
+    "A377319",
+    "A377321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

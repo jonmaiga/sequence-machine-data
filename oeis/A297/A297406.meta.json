@@ -13,11 +13,12 @@
     "A297411"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

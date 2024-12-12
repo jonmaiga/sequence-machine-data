@@ -1,0 +1,19 @@
+{
+  "description": "Sides x < y < z of Pythagorean triangles ordered first by increasing perimeter x+y+z, then by shorter leg x.",
+  "id": "A376608",
+  "mentions": [
+    "A010814",
+    "A024364",
+    "A103605",
+    "A374597"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

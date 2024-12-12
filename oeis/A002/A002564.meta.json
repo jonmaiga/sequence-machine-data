@@ -1,12 +1,13 @@
 {
-  "description": "Number of different ways one can attack all squares on an n X n chessboard using the minimal number of queens.",
+  "description": "Number of different ways one can attack all squares on an n X n chessboard using the minimum number of queens.",
   "id": "A002564",
   "mentions": [
     "A002560",
     "A002563",
     "A002568",
     "A075458",
-    "A182333"
+    "A182333",
+    "A286883"
   ],
   "tags": [
     "more",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

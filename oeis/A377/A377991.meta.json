@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A351568(k) and A351569(k) are not coprime, where A351568 and A351569 are the sum of divisors of the largest unitary divisor of n that is a square, and of the largest unitary divisor of n that is an exponentially odd number, respectively.",
+  "id": "A377991",
+  "mentions": [
+    "A051027",
+    "A336548",
+    "A350388",
+    "A350389",
+    "A351568",
+    "A351569",
+    "A377990"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

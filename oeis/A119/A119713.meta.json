@@ -2,9 +2,11 @@
   "description": "First differences are 2, 5, 5, 9, 9, 9, 14, 14, 14, 14, ..., that is, A000096 with m-th term repeated m times (m>=1).",
   "id": "A119713",
   "mentions": [
-    "A000096"
+    "A000096",
+    "A002024"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

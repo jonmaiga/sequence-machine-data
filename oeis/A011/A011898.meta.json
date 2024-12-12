@@ -1,7 +1,9 @@
 {
   "description": "a(n) = floor(n*(n-1)*(n-2)/16).",
   "id": "A011898",
-  "mentions": [],
+  "mentions": [
+    "A011886"
+  ],
   "tags": [
     "easy",
     "formulas",

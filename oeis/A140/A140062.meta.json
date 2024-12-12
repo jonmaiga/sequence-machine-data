@@ -1,5 +1,5 @@
 {
-  "description": "101*2^(n-1) - 100.",
+  "description": "a(n) = 101*2^(n-1) - 100.",
   "id": "A140062",
   "mentions": [
     "A000079",

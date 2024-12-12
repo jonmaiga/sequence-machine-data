@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that (Product of first n Mersenne prime exponents) + 1 is prime.",
+  "description": "Numbers k such that (Product of first k Mersenne prime exponents) + 1 is prime.",
   "id": "A057224",
   "mentions": [
     "A000043",
     "A057225"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

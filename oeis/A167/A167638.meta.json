@@ -2,6 +2,7 @@
   "description": "Number of Dyck paths of semilength n, having no ascents and no descents of length 1, and having no peaks at even level.",
   "id": "A167638",
   "mentions": [
+    "A129509",
     "A167635",
     "A167637"
   ],

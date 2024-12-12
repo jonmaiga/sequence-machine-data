@@ -1,8 +1,11 @@
 {
   "description": "Nearest integer to n^(11/2).",
   "id": "A036495",
-  "mentions": [],
+  "mentions": [
+    "A036494"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

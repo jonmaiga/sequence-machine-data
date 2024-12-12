@@ -7,12 +7,12 @@
     "A202472"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 48,
+    "source": "oeis-bfile"
   }
 }

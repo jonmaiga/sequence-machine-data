@@ -1,5 +1,5 @@
 {
-  "description": "(1^n + 2^n +3^n + 4^n)/2.",
+  "description": "a(n) = (1^n + 2^n +3^n + 4^n)/2.",
   "id": "A196836",
   "mentions": [
     "A001551"

@@ -1,0 +1,19 @@
+{
+  "description": "Let d(1)",
+  "id": "A375574",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001065",
+    "A240698",
+    "A375593"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "A121053 sorted into increasing order, or, equivalently, the indices of prime terms in A121053.",
+  "id": "A377898",
+  "mentions": [
+    "A099862",
+    "A121053"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

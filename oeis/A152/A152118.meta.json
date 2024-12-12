@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = product( 4 +4*cos(k*Pi/n)^2, k=1..(n-1)/2 ).",
+  "description": "a(n) = Product_{k=1..floor((n-1)/2)} (4 + 4*cos(k*Pi/n)^2).",
   "id": "A152118",
   "mentions": [
     "A000045",

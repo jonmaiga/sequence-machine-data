@@ -1,8 +1,9 @@
 {
-  "description": "Sum(floor(C(n-k,k)/(k+1)),k=0..n/2).",
+  "description": "a(n) = Sum_{k = 0..floor(n/2)} floor(C(n-k,k)/(k+1)).",
   "id": "A095719",
   "mentions": [
-    "A011847"
+    "A011847",
+    "A095718"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = order of in the permutation A054082 of the natural numbers if this order exists; a(n) = -1 otherwise.",
+  "description": "a(n) = order of n in the permutation A054082 of the natural numbers if this order exists; a(n) = -1 otherwise.",
   "id": "A054083",
   "mentions": [
     "A054082",

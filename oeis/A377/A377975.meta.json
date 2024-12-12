@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of the 6048th root of the series 2*E_6(x) - E_6(x)^2, where E_6 is the Eisenstein series of weight 6.",
+  "id": "A377975",
+  "mentions": [
+    "A013973",
+    "A109817",
+    "A280869",
+    "A341871",
+    "A341875",
+    "A377973",
+    "A377974",
+    "A377976",
+    "A377977"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

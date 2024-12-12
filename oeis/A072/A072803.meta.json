@@ -1,5 +1,5 @@
 {
-  "description": "n written in base Mod[n,10].",
+  "description": "a(n) is n written in base n mod 10, or 0 if n mod 10 = 0.",
   "id": "A072803",
   "mentions": [
     "A008713",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

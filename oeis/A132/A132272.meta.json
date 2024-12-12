@@ -1,5 +1,5 @@
 {
-  "description": "Product{k>0, 1+floor(n/10^k)}.",
+  "description": "a(n) = Product_{k>0} (1 + floor(n/10^k)).",
   "id": "A132272",
   "mentions": [
     "A000217",

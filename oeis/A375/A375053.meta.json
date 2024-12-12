@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = least k such that (n Pi)^(2 k + 1)/(2 k + 1)! < 1.",
+  "id": "A375053",
+  "mentions": [
+    "A374987",
+    "A375054",
+    "A375057",
+    "A376456",
+    "A376457"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n matrices whose values cover an initial interval of positive integers and whose rows and columns have values which are strictly increasing.",
+  "id": "A374514",
+  "mentions": [
+    "A039622",
+    "A068942",
+    "A374985",
+    "A376162"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

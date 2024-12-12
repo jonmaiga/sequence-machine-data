@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2*n contains one more 1 than does n in its decimal representation.",
+  "id": "A377265",
+  "mentions": [
+    "A268643",
+    "A376165"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

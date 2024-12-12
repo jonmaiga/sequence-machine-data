@@ -1,18 +1,18 @@
 {
-  "description": "Combination-like triangle of coefficients made using Somos(6) ;A006722; t(n,m)=A006722(n)/(A006722(n-m)*A006722(m)).",
+  "description": "Triangle read by rows: T(n, k) = A006722(n)/(A006722(k)*A006722(n-k)).",
   "id": "A141605",
   "mentions": [
-    "A006722"
+    "A006722",
+    "A141604"
   ],
   "tags": [
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 66,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

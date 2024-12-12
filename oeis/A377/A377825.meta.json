@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct permutations of the terms of the n-th row of Pascal's triangle with alternating signs.",
+  "id": "A377825",
+  "mentions": [
+    "A007019",
+    "A007318",
+    "A010050",
+    "A072345",
+    "A142150"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

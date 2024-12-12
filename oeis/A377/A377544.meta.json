@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = least prime > (5/3)*a(n - 1)*a(n - 3)/a(n - 2), with a(1) = 2, a(2) = 3, a(3) = 5.",
+  "id": "A377544",
+  "mentions": [
+    "A000040",
+    "A377543"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

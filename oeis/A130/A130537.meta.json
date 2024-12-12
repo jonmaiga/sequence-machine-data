@@ -1,11 +1,11 @@
 {
-  "description": "Smallest prime number p such that p=n^x+((n+1)^(x+1)) where x=A130538(n).",
+  "description": "Smallest prime number of the form n^x+(n+1)^(x+1) where x >= 0.",
   "id": "A130537",
   "mentions": [
-    "A130358",
     "A130538"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

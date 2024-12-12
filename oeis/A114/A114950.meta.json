@@ -1,5 +1,5 @@
 {
-  "description": "A quartic quadratic recurrence.",
+  "description": "a(n) = a(n-1)^4 + a(n-2)^2, with a(0) = a(1) = 1.",
   "id": "A114950",
   "mentions": [
     "A000283",

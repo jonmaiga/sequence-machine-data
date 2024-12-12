@@ -1,5 +1,5 @@
 {
-  "description": "Palindromic Lucas numbers.",
+  "description": "Palindromic Lucas numbers (in the order of appearance).",
   "id": "A055391",
   "mentions": [
     "A000032",

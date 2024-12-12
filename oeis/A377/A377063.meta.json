@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of {-1,0,1} n X k matrices with all rows and columns summing to zero up to permutations of rows.",
+  "id": "A377063",
+  "mentions": [
+    "A000012",
+    "A008619",
+    "A257520",
+    "A334549",
+    "A377064",
+    "A377065",
+    "A377066",
+    "A377067",
+    "A377068"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

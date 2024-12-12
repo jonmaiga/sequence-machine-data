@@ -1,0 +1,18 @@
+{
+  "description": "Indices k such that there exists m <= k such that x+y+z = x*y*z is an integer for x = f(k) := A002487(k)/A002487(k+1), y = f(m) and z = (x+y)/(xy-1).",
+  "id": "A376241",
+  "mentions": [
+    "A002487",
+    "A376242",
+    "A376243"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

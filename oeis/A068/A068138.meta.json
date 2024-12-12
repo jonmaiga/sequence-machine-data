@@ -5,12 +5,10 @@
   "tags": [
     "base",
     "bref",
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 3,
     "source": "oeis-entry"
   }

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} binomial(k+2,n-k) / k!.",
+  "id": "A377954",
+  "mentions": [
+    "A018191",
+    "A047974",
+    "A377955",
+    "A377956"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

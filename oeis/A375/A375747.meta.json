@@ -1,0 +1,18 @@
+{
+  "description": "Table read by rows: T(n,k) for n >= 3 and k=1,2,...,2*n-1 are the distinct eigenvalues of the twisted odd graph O^(sigma)_n.",
+  "id": "A375747",
+  "mentions": [
+    "A001700"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

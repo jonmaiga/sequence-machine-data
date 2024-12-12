@@ -1,5 +1,5 @@
 {
-  "description": "Values of n such that P[n]=n^2+n+41 is prime and also {P[n+1],...,P[n+13-1]} are prime numbers. Namely: a(n)= the first argument providing 13 \"polynomially consecutive\" primes with respect of polynomial=x^2+x+41.",
+  "description": "Values of k such that {P(k), P(k+1), ..., P(k+12)} are all prime numbers, where P(k) = k^2 + k + 41.",
   "id": "A090106",
   "mentions": [
     "A055561",
@@ -9,11 +9,12 @@
     "A090563"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of 2*phi(n) - phi(A003961(n)), where phi is Euler totient function and A003961(n) is fully multiplicative function with a(prime(i)) = prime(i+1).",
+  "id": "A376404",
+  "mentions": [
+    "A000010",
+    "A003961",
+    "A003972",
+    "A323912",
+    "A346248",
+    "A349754"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

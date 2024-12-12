@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = (1 - x * log(1 - x) * A(x))^2.",
+  "id": "A377438",
+  "mentions": [
+    "A052830",
+    "A371140",
+    "A377691"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

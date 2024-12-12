@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that prime(k), prime(k)+6, prime(k)+12, and prime(k)+18 are primes.",
+  "id": "A377318",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A023271",
+    "A377317"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

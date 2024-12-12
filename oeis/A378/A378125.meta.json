@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) read by rows. Let m be a nonzero rational number then T(n, m mod (n+1)) is the n-th coefficient in the Hasse-Weil L-series (q^(n+1) in the q-expansion) associated to the elliptic equation -4*x^3 + ((m+1)^2 + 8)*x^2 - 2*(m+3)*x + 1 - y^2 = 0.",
+  "id": "A378125",
+  "mentions": [
+    "A001615",
+    "A006571",
+    "A007653",
+    "A251913",
+    "A377441"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

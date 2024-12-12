@@ -1,0 +1,19 @@
+{
+  "description": "List of subwords (or factors) of the Kolakoski sequence (A000002).",
+  "id": "A376677",
+  "mentions": [
+    "A000002",
+    "A007782",
+    "A214215",
+    "A376637"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

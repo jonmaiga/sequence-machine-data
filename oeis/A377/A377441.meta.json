@@ -1,0 +1,27 @@
+{
+  "description": "Square array T(n, k) read by rising antidiagonals. Row n has the ordinary generating function (-(n*x^3-(n+1)*x^2+x) + sqrt((n*x^3-(n+1)*x^2+x)^2 - 4*(x^3-x^2)*((n+1)*x^2-x)))/(2*(x^3-x^2)).",
+  "id": "A377441",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A006720",
+    "A105633",
+    "A152172",
+    "A254316",
+    "A328380",
+    "A330025",
+    "A371965",
+    "A377442",
+    "A377443"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

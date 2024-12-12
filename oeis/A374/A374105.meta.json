@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that (9^k + 3^k + 1)/13 is prime.",
+  "id": "A374105",
+  "mentions": [
+    "A028491",
+    "A359436"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

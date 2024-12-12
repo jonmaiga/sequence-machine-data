@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} (-1)^k * (2*k+1) * a(k) * a(n-k-1).",
+  "id": "A376135",
+  "mentions": [
+    "A000699",
+    "A090192",
+    "A105523",
+    "A376134",
+    "A376137"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

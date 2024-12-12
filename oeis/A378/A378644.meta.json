@@ -1,0 +1,20 @@
+{
+  "description": "Möbius transform of A103977.",
+  "id": "A378644",
+  "mentions": [
+    "A005101",
+    "A008683",
+    "A083254",
+    "A103977",
+    "A263837"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations (p(1),p(2),...,p(n)) of (1,2,...,n) such that p(i)-i is in {-2,4,5} for all i=1,...,n.",
+  "id": "A378005",
+  "mentions": [
+    "A001263",
+    "A376743",
+    "A377715"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

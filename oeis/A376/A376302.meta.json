@@ -1,0 +1,18 @@
+{
+  "description": "Smallest powerful m in row n of A064364, or -1 if none exist.",
+  "id": "A376302",
+  "mentions": [
+    "A001414",
+    "A001694",
+    "A064364",
+    "A363266"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

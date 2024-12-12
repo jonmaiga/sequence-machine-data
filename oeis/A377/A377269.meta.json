@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies A(x) = (1 - 9*x*A(x))^(2/3).",
+  "id": "A377269",
+  "mentions": [
+    "A377268"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}
