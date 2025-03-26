@@ -1,0 +1,27 @@
+{
+  "description": "The number of unitary divisors of n that are terms in A207481.",
+  "id": "A380089",
+  "mentions": [
+    "A005117",
+    "A034444",
+    "A054743",
+    "A077610",
+    "A185359",
+    "A207481",
+    "A377519",
+    "A380086",
+    "A380088",
+    "A380090"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

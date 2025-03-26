@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)(1-5x)(1-10x)(1-11x)).",
+  "description": "Expansion of g.f. 1/((1-x)*(1-5*x)*(1-10*x)*(1-11*x)).",
   "id": "A023946",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

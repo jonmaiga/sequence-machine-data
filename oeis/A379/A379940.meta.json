@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/( exp(-x*A(x)^(2/3)) - x*A(x)^(1/3) )^3.",
+  "id": "A379940",
+  "mentions": [
+    "A377892",
+    "A379936"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

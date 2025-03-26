@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form p^(p +- 1), where p is prime.",
+  "id": "A381317",
+  "mentions": [
+    "A036878",
+    "A104126",
+    "A381215"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

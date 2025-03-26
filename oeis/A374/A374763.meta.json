@@ -42,12 +42,12 @@
     "A375133"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 46,
+    "source": "oeis-bfile"
   }
 }

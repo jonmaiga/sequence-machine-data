@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the least number k that contains, in base n, every digit once, and such that k/(n-1) (if n is even) or 2*k/(n-1) (if n is odd) is prime.",
+  "id": "A380386",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

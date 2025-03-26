@@ -1,0 +1,20 @@
+{
+  "description": "Numbers t whose binary expansion Sum 2^e_i has exponents e_i which are odious numbers (A000069).",
+  "id": "A380008",
+  "mentions": [
+    "A000069",
+    "A001285",
+    "A010059",
+    "A380009"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

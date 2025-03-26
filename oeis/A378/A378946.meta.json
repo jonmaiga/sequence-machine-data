@@ -1,0 +1,17 @@
+{
+  "description": "Locations of records in A378898.",
+  "id": "A378946",
+  "mentions": [
+    "A378898",
+    "A378945"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

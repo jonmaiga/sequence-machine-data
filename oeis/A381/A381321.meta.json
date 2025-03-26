@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k)/k - 1 equals (sigma(m)/m - 1)^2 for some m <= k.",
+  "id": "A381321",
+  "mentions": [
+    "A000396",
+    "A017666",
+    "A243473"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of solid (3D) partitions of n with 2 layers and second layer a plane partition of 3.",
+  "id": "A381265",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A000990",
+    "A094504",
+    "A378854"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

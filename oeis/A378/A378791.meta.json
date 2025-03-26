@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 2/(5*sqrt(11)).",
+  "id": "A378791",
+  "mentions": [
+    "A010468"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

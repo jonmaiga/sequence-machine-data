@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p > 10^(n-1) for which successive cyclic shifts of digits by 1, ..., n-1 positions to the right are all prime, or -1 if no such p exists.",
+  "id": "A380669",
+  "mentions": [
+    "A004023",
+    "A247153",
+    "A380655"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

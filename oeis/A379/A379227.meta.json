@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if A113177(n) is a multiple of 5, otherwise 0, where A113177 is fully additive with a(p) = Fibonacci(p).",
+  "id": "A379227",
+  "mentions": [
+    "A000045",
+    "A030426",
+    "A082116",
+    "A113177",
+    "A373585",
+    "A374051",
+    "A374124",
+    "A374208",
+    "A379117",
+    "A379225",
+    "A379226"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

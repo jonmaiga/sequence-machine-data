@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that A070867(k) = n, or 0 if no such k exist.",
+  "description": "Least k such that A070867(k) = n, or 0 if no such k exists.",
   "id": "A070882",
   "mentions": [
     "A070867"

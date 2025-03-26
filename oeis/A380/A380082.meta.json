@@ -1,0 +1,14 @@
+{
+  "description": "Number of Boolean intervals of rank 2 in the weak order of the Coxeter group of type C_n, for n >= 2",
+  "id": "A380082",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "joeis"
+  }
+}

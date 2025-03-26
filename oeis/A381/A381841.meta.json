@@ -1,0 +1,20 @@
+{
+  "description": "Position of the n-th occurrence of the digit 3 in A105083(n-1) for n>=1.",
+  "id": "A381841",
+  "mentions": [
+    "A064105",
+    "A105083",
+    "A136495",
+    "A136496",
+    "A202342"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

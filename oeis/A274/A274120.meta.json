@@ -1,5 +1,5 @@
 {
-  "description": "Squares that are the sum of the first n odd primes for some n.",
+  "description": "Squares that are the sum of the first k odd primes for some k.",
   "id": "A274120",
   "mentions": [
     "A000290",

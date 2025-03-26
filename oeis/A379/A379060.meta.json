@@ -1,0 +1,16 @@
+{
+  "description": "Index of -n in A377091, or -1 if n does not appear there.",
+  "id": "A379060",
+  "mentions": [
+    "A377091",
+    "A379059"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a truncated icosahedron.",
+  "id": "A381693",
+  "mentions": [
+    "A002163",
+    "A002194",
+    "A010476",
+    "A019679",
+    "A377750",
+    "A377751",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

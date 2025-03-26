@@ -2,9 +2,11 @@
   "description": "Expansion of the q-series Sum_{n >= 0} (-1)^nq^(n(n+1)/2)(1-q)(1-q^2)...(1-q^n)/((1-q^(n+1))(1-q^(n+2))...(1-q^(2n+1))).",
   "id": "A161528",
   "mentions": [
+    "A001622",
     "A035187"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

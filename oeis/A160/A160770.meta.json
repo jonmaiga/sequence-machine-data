@@ -1,5 +1,5 @@
 {
-  "description": "Triangle in which row n is generated from (1,3,6,10,...n)dot(n,n-1,...1) with subtractive carryovers.",
+  "description": "Triangle in which row n is generated from (1,3,6,10,...n) dot (n,n-1,...1) with subtractive carryovers.",
   "id": "A160770",
   "mentions": [
     "A005995",

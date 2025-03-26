@@ -1,0 +1,15 @@
+{
+  "description": "Number of cyclic edge cuts in the (2n-1)-triangular snake graph.",
+  "id": "A379741",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Diagonal sums of number triangle A110197.",
+  "description": "Antidiagonal sums of number triangle A110197.",
   "id": "A110198",
   "mentions": [
     "A001622",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

@@ -2,9 +2,11 @@
   "description": "First occurrence of prime gaps which are squares.",
   "id": "A138198",
   "mentions": [
-    "A000101"
+    "A000101",
+    "A000230"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

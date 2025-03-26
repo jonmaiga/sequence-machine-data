@@ -1,0 +1,17 @@
+{
+  "description": "Number of minimal edge cuts in the complete bipartite graph K_{n,n}.",
+  "id": "A379215",
+  "mentions": [
+    "A377649"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

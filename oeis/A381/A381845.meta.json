@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = denominator( (e/Pi)*Integral_{x=-oo..+oo} cos(x)/(1 + x^2)^n dx ).",
+  "id": "A381845",
+  "mentions": [
+    "A061360",
+    "A061382",
+    "A143991"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that both concatenation of divisors of n and reverse concatenation of divisors of n are noncomposites.",
+  "description": "Numbers k such that both concatenation of divisors of k and reverse concatenation of divisors of k are noncomposite.",
   "id": "A176589",
   "mentions": [
     "A037278",
     "A089374",
     "A176553",
-    "A176558"
+    "A176558",
+    "A176590"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,7 +2,8 @@
   "description": "Composite numbers for which phi(n) >= phi(k) for all composite k from 1 to n-1.",
   "id": "A067127",
   "mentions": [
-    "A067126"
+    "A067126",
+    "A131195"
   ],
   "tags": [
     "easy",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

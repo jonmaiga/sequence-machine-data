@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(sigma(sigma(n))) == 0 (mod sigma(n)).",
+  "description": "Numbers k such that sigma(sigma(sigma(k))) == 0 (mod sigma(k)).",
   "id": "A067064",
   "mentions": [],
   "tags": [

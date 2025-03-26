@@ -4,11 +4,12 @@
   "mentions": [],
   "tags": [
     "easy",
+    "frac",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 19,
-    "source": "joeis"
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
   }
 }

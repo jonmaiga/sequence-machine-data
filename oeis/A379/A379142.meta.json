@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the sum of terms a(1)..a(n) has no digit in common with the sum of digits in the terms a(1)..a(n).",
+  "id": "A379142",
+  "mentions": [
+    "A000217",
+    "A007953",
+    "A320081"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

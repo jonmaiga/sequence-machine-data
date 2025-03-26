@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n + floor(n*r/t) + floor(n*s/t), where r = u^(1/4), s = u^(1/2), t = u^(3/4), u = golden ratio (A001622).",
+  "id": "A379410",
+  "mentions": [
+    "A001622",
+    "A184908",
+    "A379408",
+    "A379409"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

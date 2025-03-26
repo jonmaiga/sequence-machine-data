@@ -1,0 +1,17 @@
+{
+  "description": "Number of quadruples of positive integers (x,y,a,b) such that a < b, gcd(a,b) = gcd(x,y) = 1 and a*x + b*y = n.",
+  "id": "A377812",
+  "mentions": [
+    "A002133",
+    "A274108"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

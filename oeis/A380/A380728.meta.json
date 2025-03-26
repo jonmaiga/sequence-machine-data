@@ -1,0 +1,20 @@
+{
+  "description": "For n a power of 2, a(n) = n. Otherwise a(n) is the smallest number not yet in the sequence which is coprime to n and has the same binary weight as n.",
+  "id": "A380728",
+  "mentions": [
+    "A000051",
+    "A005940",
+    "A048578",
+    "A085731"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

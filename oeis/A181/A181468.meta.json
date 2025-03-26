@@ -1,16 +1,20 @@
 {
-  "description": "Numbers n such that 83 is the largest prime factor of n^2-1.",
+  "description": "Numbers k such that 83 is the largest prime factor of k^2 - 1.",
   "id": "A181468",
   "mentions": [
+    "A000720",
+    "A076605",
     "A175607",
     "A181447",
     "A181467",
     "A181469",
     "A181470",
-    "A181568"
+    "A181568",
+    "A223701"
   ],
   "tags": [
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {

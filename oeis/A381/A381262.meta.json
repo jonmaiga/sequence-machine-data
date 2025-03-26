@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp( -LambertW(-2 * sinh(x)) / 2 ).",
+  "id": "A381262",
+  "mentions": [
+    "A136630",
+    "A219503"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

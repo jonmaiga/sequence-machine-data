@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits of a(n)^6 is equal to a(n).",
+  "description": "Numbers k such that the sum of digits of k^6 is equal to k.",
   "id": "A055577",
   "mentions": [
     "A046459",
@@ -7,7 +7,8 @@
     "A055572",
     "A055575",
     "A055576",
-    "A152147"
+    "A152147",
+    "A226971"
   ],
   "tags": [
     "base",

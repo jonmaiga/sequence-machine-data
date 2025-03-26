@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 2^(2*n)*JacobiP(n - k, k, -1/2 - n, -1).",
+  "id": "A380865",
+  "mentions": [
+    "A038234",
+    "A097807",
+    "A128908",
+    "A380851",
+    "A380864"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

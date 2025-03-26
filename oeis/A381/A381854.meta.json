@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of invertible n X n matrices over GF(2) that can be optimally row-reduced in k steps, n >= 0, k >= 0.",
+  "id": "A381854",
+  "mentions": [
+    "A002378",
+    "A002884",
+    "A172225"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Quotient (A003961(k)-sigma(k)) / (2*k-A003961(k)) computed for those k for which this quotient is an integer, where A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
+  "id": "A379217",
+  "mentions": [
+    "A000396",
+    "A003961",
+    "A252748",
+    "A286385",
+    "A378980",
+    "A378981",
+    "A379216"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

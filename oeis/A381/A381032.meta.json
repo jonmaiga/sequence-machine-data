@@ -1,0 +1,28 @@
+{
+  "description": "The radix prime of the least significant digit > 1 in the primorial base expansion of n, or 1 if there is no such digit.",
+  "id": "A381032",
+  "mentions": [
+    "A008578",
+    "A020639",
+    "A053669",
+    "A088860",
+    "A249739",
+    "A276086",
+    "A276156",
+    "A327860",
+    "A328572",
+    "A328828",
+    "A351566",
+    "A381033",
+    "A381034"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

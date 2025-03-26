@@ -1,5 +1,5 @@
 {
-  "description": "A simple grammar.",
+  "description": "A simple grammar: partial sums of A052870.",
   "id": "A052829",
   "mentions": [
     "A052870"

@@ -1,0 +1,19 @@
+{
+  "description": "Number of cells that are a distance of n away in an order-5 hyperbolic square tiling.",
+  "id": "A377322",
+  "mentions": [
+    "A008574",
+    "A033303",
+    "A054888"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

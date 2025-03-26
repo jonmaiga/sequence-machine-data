@@ -1,0 +1,26 @@
+{
+  "description": "The order of the 13 cards of one suit such that after the SpellUnder-Down deal the cards are in order; a(n) is the n-th card in the deck.",
+  "id": "A380248",
+  "mentions": [
+    "A005589",
+    "A006257",
+    "A225381",
+    "A321298",
+    "A378635",
+    "A380201",
+    "A380202",
+    "A380204",
+    "A380246",
+    "A380247"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

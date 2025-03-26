@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-digit numbers that have exactly 8 divisors.",
+  "id": "A379570",
+  "mentions": [
+    "A215218",
+    "A284398"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

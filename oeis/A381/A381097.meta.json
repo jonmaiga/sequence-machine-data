@@ -1,0 +1,15 @@
+{
+  "description": "Consider the polynomial P(m,z) = Sum_{i=1..k} d(i)*z^(i-1) where d(1), d(2), ..., d(k) are the k divisors of m. The sequence lists the numbers m such that P(m,z) is irreducible.",
+  "id": "A381097",
+  "mentions": [
+    "A291127"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

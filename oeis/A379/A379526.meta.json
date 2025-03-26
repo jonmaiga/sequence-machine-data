@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered ways of writing 1 as Sum_{k=-n..n, k<>0} e(k)/k, where e(k) is 0 or 1.",
+  "id": "A379526",
+  "mentions": [
+    "A002967",
+    "A038034",
+    "A379335",
+    "A379451"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are a proper substring of the concatenation (with repetition) in increasing order of their prime factors.",
+  "id": "A378893",
+  "mentions": [
+    "A027746",
+    "A371641",
+    "A371696",
+    "A371958",
+    "A372046",
+    "A372309",
+    "A376078",
+    "A378894"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

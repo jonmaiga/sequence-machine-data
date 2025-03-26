@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1/( exp(-x) - x )^3.",
+  "id": "A379942",
+  "mentions": [
+    "A072597",
+    "A377530",
+    "A379933",
+    "A379943"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

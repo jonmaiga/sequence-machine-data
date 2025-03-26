@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest multiple m*n (m > 1) of n which contains every decimal digit of n, including repetitions.",
+  "id": "A380885",
+  "mentions": [
+    "A087217"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

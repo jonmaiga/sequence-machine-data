@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that A326057(n) is equal to A252748(n) and A252748(n) is not 1.",
+  "description": "Numbers k such that A326057(k) is equal to A252748(k) and A252748(k) is not 1.",
   "id": "A326134",
   "mentions": [
+    "A000203",
     "A000396",
     "A003961",
     "A246282",
@@ -10,7 +11,13 @@
     "A326057",
     "A337345",
     "A337372",
-    "A341614"
+    "A341611",
+    "A341614",
+    "A348514",
+    "A349753",
+    "A378980",
+    "A379216",
+    "A379217"
   ],
   "tags": [
     "more",
@@ -18,7 +25,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

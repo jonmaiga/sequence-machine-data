@@ -2,6 +2,7 @@
   "description": "Consider the array T(n,m) where the n-th row is the sequence of integer coefficients of A(x), where 1<=a(n)<=n, such that A(x)^(1/n) consists entirely of integer coefficients and where m is the (m+1)-th coefficient. This is the antidiagonal read from lower left to upper right.",
   "id": "A109626",
   "mentions": [
+    "A000012",
     "A000027",
     "A005408",
     "A026741",
@@ -30,7 +31,6 @@
     "A111609",
     "A111610",
     "A111611",
-    "A111613",
     "A111614",
     "A111615",
     "A111618",
@@ -42,12 +42,13 @@
     "A111630"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 101,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

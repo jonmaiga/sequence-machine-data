@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n!!!-1 = A007661(n)-1, n>0.",
+  "description": "Primes of the form k!!! - 1 = A007661(k) - 1, k > 0.",
   "id": "A135726",
   "mentions": [
     "A007661",
@@ -8,11 +8,12 @@
     "A084438"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

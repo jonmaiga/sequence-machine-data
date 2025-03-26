@@ -1,0 +1,16 @@
+{
+  "description": "Index of first occurrence of -n in A000319, or -1 if -n never appears there.",
+  "id": "A381231",
+  "mentions": [
+    "A000319",
+    "A381230"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the greatest k > 0 such that Sum_{j=1..n} j*(-k)^j/(k+n) is integer, for n > 1 and a(n) != n + 1.",
+  "description": "a(n) is the greatest k > 0 such that Sum_{j=1..n} j*(-k)^j/(k+n) is an integer, for n > 1 and a(n) != n + 1.",
   "id": "A335114",
   "mentions": [
     "A335112",

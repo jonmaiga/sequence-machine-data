@@ -2,7 +2,9 @@
   "description": "Parity of floor(n/log(n)).",
   "id": "A072626",
   "mentions": [
+    "A000035",
     "A000720",
+    "A050500",
     "A071986"
   ],
   "tags": [

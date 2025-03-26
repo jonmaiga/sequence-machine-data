@@ -1,14 +1,17 @@
 {
   "description": "Number of cyclic edge cuts in the n-Moebius ladder graph.",
   "id": "A378312",
-  "mentions": [],
+  "mentions": [
+    "A378311"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 4,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

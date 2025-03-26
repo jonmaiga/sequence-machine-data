@@ -1,12 +1,14 @@
 {
-  "description": "Sum of modified exponential divisors: if n = product p_i^r_i then me-sigma(x) = product (sum p_i^s_i such that s_i+1 divides r_i+1).",
+  "description": "Sum of modified exponential divisors: if n = Product p_i^r_i then me-sigma(x) = Product (sum p_i^s_i such that s_i+1 divides r_i+1).",
   "id": "A241405",
   "mentions": [
     "A007947",
     "A049419",
     "A051377",
     "A051378",
-    "A054980"
+    "A054980",
+    "A379027",
+    "A379028"
   ],
   "tags": [
     "easy",

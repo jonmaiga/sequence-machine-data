@@ -1,10 +1,11 @@
 {
-  "description": "Number of nondecreasing -7..7 vectors of length n whose dot product with some other -7..7 vector equals n",
+  "description": "Number of nondecreasing -7..7 vectors of length n whose dot product with some other -7..7 vector equals n.",
   "id": "A226339",
   "mentions": [
     "A226340"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

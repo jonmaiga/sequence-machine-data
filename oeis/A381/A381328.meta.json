@@ -1,0 +1,13 @@
+{
+  "description": "a(n+1) is the least k such that k - (a(n-1)+a(n)) and k + (a(n-1)+a(n)) are primes; a(0)=0, a(1)=1.",
+  "id": "A381328",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

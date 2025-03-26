@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to break {1,2,3,...n} into sets with equal sums.",
+  "description": "Number of ways to break {1,2,3,...,n} into sets with equal sums.",
   "id": "A035470",
   "mentions": [
     "A000110",
@@ -11,6 +11,7 @@
     "A275714",
     "A275780",
     "A275781",
+    "A320438",
     "A321455",
     "A326512",
     "A326513",

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/( exp(-x) - x )^4.",
+  "id": "A379943",
+  "mentions": [
+    "A072597",
+    "A379933",
+    "A379942"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

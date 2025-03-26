@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number k such that with x(1) = k and x(i+1) = 2*x(i) + 1, x(i+1) has exactly one more prime factor (counted with multiplicity) than x(i) for i = 1 to n but not i = n + 1.",
+  "id": "A381502",
+  "mentions": [
+    "A001222"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

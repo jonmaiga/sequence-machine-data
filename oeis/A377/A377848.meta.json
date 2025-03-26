@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers which are the sum of two palindromic primes.",
+  "id": "A377848",
+  "mentions": [
+    "A002385",
+    "A005843",
+    "A287961",
+    "A379138"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

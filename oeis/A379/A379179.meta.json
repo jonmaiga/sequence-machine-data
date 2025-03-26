@@ -1,0 +1,18 @@
+{
+  "description": "The Anti-Parker Square, read by rows.",
+  "id": "A379179",
+  "mentions": [
+    "A364264"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = gcd(d(n!^3), d(n!)) = A069780(n!), where d() is the number of divisors function.",
+  "description": "a(n) = gcd(d(n!^3), d(n!)), where d() is the number of divisors function.",
   "id": "A069783",
   "mentions": [
     "A000005",
@@ -10,11 +10,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

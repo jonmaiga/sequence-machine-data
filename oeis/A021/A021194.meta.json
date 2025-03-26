@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)(1-2x)(1-6x)(1-9x)).",
+  "description": "Expansion of 1/((1-x)*(1-2*x)*(1-6*x)*(1-9*x)).",
   "id": "A021194",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

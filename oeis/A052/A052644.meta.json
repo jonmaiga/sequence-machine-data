@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. (1+3x-3x^2)/(1-x)^2.",
+  "description": "Expansion of e.g.f. (1+3x-3x^2)/(1-x)^2.",
   "id": "A052644",
   "mentions": [
     "A282466"

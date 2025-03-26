@@ -1,0 +1,26 @@
+{
+  "description": "Partial alternating sums of the number of exponential divisors function (A049419).",
+  "id": "A379714",
+  "mentions": [
+    "A049419",
+    "A065442",
+    "A068762",
+    "A068773",
+    "A145353",
+    "A307704",
+    "A327837",
+    "A357817",
+    "A370895",
+    "A370896"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

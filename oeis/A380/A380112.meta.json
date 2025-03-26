@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence of positive integers whose XOR difference triangle contains only distinct values.",
+  "id": "A380112",
+  "mentions": [
+    "A099884",
+    "A338047",
+    "A346298",
+    "A378141",
+    "A380148"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

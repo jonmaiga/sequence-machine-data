@@ -2,6 +2,7 @@
   "description": "Number of Motzkin n-paths avoiding odd-numbered steps that are up steps.",
   "id": "A215067",
   "mentions": [
+    "A084075",
     "A106228",
     "A109081",
     "A114465"

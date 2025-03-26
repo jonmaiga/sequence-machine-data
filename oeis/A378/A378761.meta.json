@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) for k <= n/2 is the number of partitions of the repunit A002275(n) into k nonzero complementary binary vectors having a common divisor > 1 in base 10.",
+  "id": "A378761",
+  "mentions": [
+    "A002275",
+    "A004023",
+    "A011557",
+    "A378154",
+    "A378511"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

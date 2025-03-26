@@ -1,5 +1,5 @@
 {
-  "description": "Possible values of A179873(m) in increasing order, where A179873(m) = corresponding values of antiharmonic means to numbers from A179871 (numbers h such that antiharmonic mean of the numbers k < h such that gcd(k, h) = 1 is integer).",
+  "description": "Possible values of A179873(m) in increasing order, where A179873(m) = corresponding values of antiharmonic means to numbers from A179871 (numbers h such that antiharmonic mean of the numbers k < h such that gcd(k, h) = 1 is an integer).",
   "id": "A179874",
   "mentions": [
     "A179871",

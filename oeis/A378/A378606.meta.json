@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet convolution of A046692 and A003961, where A046692 is the Dirichlet inverse of sigma, and A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
+  "id": "A378606",
+  "mentions": [
+    "A003961",
+    "A008683",
+    "A016825",
+    "A046692",
+    "A151800",
+    "A349387",
+    "A378607"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

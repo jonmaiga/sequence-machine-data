@@ -1,0 +1,17 @@
+{
+  "description": "2*a(n) are the gaps that correspond to A350100(n).",
+  "id": "A378904",
+  "mentions": [
+    "A058043",
+    "A350100"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,12 @@
 {
-  "description": "Numbers n such that sigma(n) = sigma(k) has solution for distinct numbers n and k.",
+  "description": "Numbers m such that sigma(m) = sigma(k) has solution for distinct numbers m and k.",
   "id": "A206036",
   "mentions": [
     "A000203",
+    "A054973",
     "A066074",
-    "A158913"
+    "A158913",
+    "A211656"
   ],
   "tags": [
     "nonn"
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

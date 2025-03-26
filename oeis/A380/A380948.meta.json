@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of rational coefficients which are ratio of Brent's coefficients -A[n,2]/A343480.",
+  "id": "A380948",
+  "mentions": [
+    "A114907",
+    "A307410",
+    "A343480",
+    "A380839",
+    "A380947",
+    "A381083"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

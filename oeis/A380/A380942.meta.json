@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the largest vertex angle, in radians, in a disdyakis triacontahedron face.",
+  "id": "A380942",
+  "mentions": [
+    "A001622",
+    "A379388",
+    "A379708",
+    "A379709",
+    "A379710",
+    "A379711",
+    "A380940",
+    "A380941"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

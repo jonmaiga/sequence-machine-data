@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose maximum exponent in their prime factorization is the number of runs in their base-10 representation.",
+  "id": "A379931",
+  "mentions": [
+    "A043562",
+    "A051903",
+    "A379929",
+    "A379930"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

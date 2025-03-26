@@ -2,6 +2,8 @@
   "description": "Row sums of triangle A134141 (S1p(7)).",
   "id": "A132164",
   "mentions": [
+    "A005012",
+    "A049428",
     "A132165",
     "A134141"
   ],

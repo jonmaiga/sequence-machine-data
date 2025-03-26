@@ -2,7 +2,9 @@
   "description": "Total number of digits of the squares of all n-digit numbers.",
   "id": "A173906",
   "mentions": [
-    "A000290"
+    "A000290",
+    "A062940",
+    "A113119"
   ],
   "tags": [
     "base",

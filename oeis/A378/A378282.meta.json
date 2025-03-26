@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangular T: (row 1) = (1); (row n+1) = inverse runlength sequence of row n, starting with 2 if r = 3k for some k, and 1 otherwise. See Comments.",
+  "id": "A378282",
+  "mentions": [
+    "A000002",
+    "A025142",
+    "A025143",
+    "A270641",
+    "A378283",
+    "A378284",
+    "A378285",
+    "A378286",
+    "A378304",
+    "A378305",
+    "A378306"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

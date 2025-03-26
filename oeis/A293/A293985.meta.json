@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f.: exp(x/(1-x))/(1-x)^k.",
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. exp(x/(1-x))/(1-x)^k.",
   "id": "A293985",
   "mentions": [
     "A000012",

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the smallest positive integer that produces a product that contains the digit 2 when multiplied by 2 at most n times, and where a further multiplication by 2 produces a number that does not contain the digit 2. Set a(n) = -1 if no such number exists.",
+  "id": "A381183",
+  "mentions": [
+    "A011532",
+    "A378138",
+    "A381087"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

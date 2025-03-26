@@ -1,7 +1,15 @@
 {
   "description": "The smallest positive integer neither a divisor of n nor coprime to n.",
   "id": "A160995",
-  "mentions": [],
+  "mentions": [
+    "A001221",
+    "A020639",
+    "A053669",
+    "A096014",
+    "A100484",
+    "A133995",
+    "A135718"
+  ],
   "tags": [
     "formulas",
     "nonn"

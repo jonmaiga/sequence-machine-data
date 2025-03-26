@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the minimum value, negated, of A377091(k) with k in 0..n.",
+  "id": "A380251",
+  "mentions": [
+    "A377091",
+    "A380250"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

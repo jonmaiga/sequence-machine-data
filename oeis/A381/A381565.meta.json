@@ -1,0 +1,23 @@
+{
+  "description": "2-tone chromatic number of a particular class of planar graphs with 3n+3 vertices.",
+  "id": "A381565",
+  "mentions": [
+    "A003057",
+    "A350361",
+    "A350362",
+    "A350715",
+    "A351120",
+    "A366727",
+    "A366728",
+    "A381562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,18 +1,18 @@
 {
-  "description": "Let x,y be odd numbers and symbol \"m<+>k\" be defined as in A179382. Consider sequence x<+>y, x<+>(3*(x<+>y)), x<+>(x<+>(3*(x<+>y))), x<+>(3*(x<+>(x<+>(3*(x<+>y)))),... ; a(n) is the smallest period in case x=2*n-1,y=1.",
+  "description": "a(n) = length of (eventual) period of the sequence defined by s(0) = 1, s(n+1) = odd_part(2n-1 + (s(n) if n odd else s(n)*3)), where odd_part = A000265.",
   "id": "A179738",
   "mentions": [
+    "A000265",
     "A179382",
     "A179480",
     "A179686"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

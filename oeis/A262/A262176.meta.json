@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n where n-17, n-1, n+1 and n+17 are consecutive primes.",
+  "description": "Numbers k such that k-17, k-1, k+1 and k+17 are consecutive primes.",
   "id": "A262176",
   "mentions": [
     "A014574",

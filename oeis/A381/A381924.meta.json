@@ -1,0 +1,18 @@
+{
+  "description": "Multiplicative order of n mod prime(n).",
+  "id": "A381924",
+  "mentions": [
+    "A014664",
+    "A091185",
+    "A226295"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

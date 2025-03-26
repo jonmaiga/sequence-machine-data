@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1)^2 - 2.",
+  "description": "a(n) = a(n-1)^2 - 2, with a(0) = 5.",
   "id": "A003487",
   "mentions": [
     "A001566",

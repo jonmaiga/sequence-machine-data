@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n+1) = Sum_{d^2|n} a(n/d^2).",
+  "id": "A380635",
+  "mentions": [
+    "A003238",
+    "A076752",
+    "A167865",
+    "A307779",
+    "A317240"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

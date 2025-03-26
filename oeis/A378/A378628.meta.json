@@ -1,0 +1,18 @@
+{
+  "description": "SHA-256 hash of binary strings ordered by length then lexicographically, interpreting the bits of the resulting hash as a number in binary.",
+  "id": "A378628",
+  "mentions": [
+    "A007931",
+    "A076478",
+    "A365749",
+    "A366061"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

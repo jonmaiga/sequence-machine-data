@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that tau(k) == 1 (mod(2*(tau(k^2 + k - 1)))), where tau(k) = A000005(k).",
+  "id": "A378794",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A378789",
+    "A378792"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

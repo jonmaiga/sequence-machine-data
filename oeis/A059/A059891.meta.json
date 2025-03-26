@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{m : multiplicative order of 9 mod m=n}|.",
+  "description": "a(n) = |{m : multiplicative order of 9 mod m = n}|.",
   "id": "A059891",
   "mentions": [
     "A000005",

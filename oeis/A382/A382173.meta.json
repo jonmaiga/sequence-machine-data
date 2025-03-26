@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the sum of row n of A382172.",
+  "id": "A382173",
+  "mentions": [
+    "A000032",
+    "A001175",
+    "A002878",
+    "A007733",
+    "A055778",
+    "A093960",
+    "A276350",
+    "A382172",
+    "A382174",
+    "A382175",
+    "A382176"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

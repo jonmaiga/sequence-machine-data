@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 is an odd primitive abundant number (A006038).",
+  "id": "A379950",
+  "mentions": [
+    "A000196",
+    "A006038",
+    "A174830",
+    "A379949"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

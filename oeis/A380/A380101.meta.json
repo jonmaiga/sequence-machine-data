@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that omega(k-th triangular number) = 2, where omega = A001221.",
+  "id": "A380101",
+  "mentions": [
+    "A000217",
+    "A001221",
+    "A077065",
+    "A119663",
+    "A178490"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

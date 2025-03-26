@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows where row n lists \"weak\" divisors d | n (i.e., d in A052485) such that rad(d)^2 does not divide d, where rad = A007947.",
+  "id": "A380819",
+  "mentions": [
+    "A000005",
+    "A001694",
+    "A005361",
+    "A007947",
+    "A027748",
+    "A027750",
+    "A052485",
+    "A183093",
+    "A379545",
+    "A380672"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

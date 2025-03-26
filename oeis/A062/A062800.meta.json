@@ -1,16 +1,18 @@
 {
-  "description": "Primes of form 100k + 1.",
+  "description": "Primes of form 100*k + 1.",
   "id": "A062800",
   "mentions": [
-    "A158128"
+    "A158128",
+    "A166457"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 43,
     "source": "joeis"
   }
 }

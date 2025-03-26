@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with monotonically decreasing digits, decreasing by only 0 or 1.",
+  "id": "A378808",
+  "mentions": [
+    "A009996",
+    "A064222",
+    "A378775"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet convolution of A000120 and A323910, where A323910 is the Dirichlet inverse of the deficiency of n, and A000120 is the binary weight of n.",
+  "id": "A379106",
+  "mentions": [
+    "A000120",
+    "A033879",
+    "A294898",
+    "A323910",
+    "A378754",
+    "A378756",
+    "A379107"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

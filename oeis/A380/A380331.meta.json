@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of primes < n^4.",
+  "id": "A380331",
+  "mentions": [
+    "A000040",
+    "A000583",
+    "A000720",
+    "A038107"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

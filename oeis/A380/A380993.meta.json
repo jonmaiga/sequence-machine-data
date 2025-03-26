@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of ternary words of length n containing at least one copy of each letter and having exactly k inversions, n>=3, 0<=k<=floor(n^2/3).",
+  "id": "A380993",
+  "mentions": [
+    "A001117",
+    "A056454",
+    "A129529"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Riordan triangle (1 + x * C(x), x * C(x)), where C(x) is g.f. of A000108.",
+  "id": "A378145",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A004070",
+    "A068875",
+    "A120588"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

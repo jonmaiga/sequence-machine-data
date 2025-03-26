@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) is the number of connected graphs on n unlabeled nodes with matching number k, (0 <= k <= floor(n/2)).",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled nodes with matching number k, (0 <= k <= floor(n/2)).",
   "id": "A325304",
   "mentions": [
     "A001349",

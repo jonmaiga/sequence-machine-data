@@ -1,5 +1,5 @@
 {
-  "description": "Primes p=prime(m) such that pi(m*p)/m is integer.",
+  "description": "Primes p=prime(m) such that pi(m*p)/m is an integer.",
   "id": "A084297",
   "mentions": [
     "A000040",

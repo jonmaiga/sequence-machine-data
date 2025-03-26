@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 4*sqrt(2) - 6*sqrt(6)/Pi.",
+  "id": "A378967",
+  "mentions": [
+    "A000796",
+    "A002193",
+    "A010464",
+    "A010487",
+    "A132696",
+    "A343906"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "a(n) = binomial(n+3,3)*binomial(n+7,3).",
   "id": "A104474",
   "mentions": [
-    "A000292"
+    "A000292",
+    "A000580",
+    "A062264"
   ],
   "tags": [
     "easy",

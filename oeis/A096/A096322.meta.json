@@ -1,5 +1,5 @@
 {
-  "description": "Limiting sequence formed by rows of A094504 read backwards: rightmost Floor[n/2]+1 terms of row n in table A094504.",
+  "description": "Limiting sequence formed by rows of A094504 read backwards: rightmost floor(n/2)+1 terms of row n in table A094504.",
   "id": "A096322",
   "mentions": [
     "A000293",
@@ -18,11 +18,12 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

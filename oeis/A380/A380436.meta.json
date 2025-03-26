@@ -1,0 +1,15 @@
+{
+  "description": "Integers with at least 1 proper factorization for which the sum of the squares of the factors is a square.",
+  "id": "A380436",
+  "mentions": [
+    "A118903"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

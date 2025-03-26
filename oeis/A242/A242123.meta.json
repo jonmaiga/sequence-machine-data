@@ -1,11 +1,12 @@
 {
-  "description": "Primes modulo 25.",
+  "description": "a(n) = n-th prime modulo 25.",
   "id": "A242123",
   "mentions": [
     "A242119"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

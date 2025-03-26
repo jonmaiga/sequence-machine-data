@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp( x * cos(sqrt(2)*x) ).",
+  "id": "A381342",
+  "mentions": [
+    "A003727",
+    "A009189",
+    "A185951",
+    "A381273",
+    "A381274",
+    "A381275",
+    "A381276",
+    "A381341"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

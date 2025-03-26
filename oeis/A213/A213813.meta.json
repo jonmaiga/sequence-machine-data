@@ -2,7 +2,8 @@
   "description": "Number of Hamiltonian cycles in P_12 X P_n.",
   "id": "A213813",
   "mentions": [
-    "A180505"
+    "A180505",
+    "A321172"
   ],
   "tags": [
     "nonn"

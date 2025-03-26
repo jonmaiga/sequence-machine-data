@@ -1,0 +1,18 @@
+{
+  "description": "Sum of cubes of coefficients of q in the q-factorials.",
+  "id": "A380274",
+  "mentions": [
+    "A008302",
+    "A127728",
+    "A380275"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the first period of the decimal expansion of 1 / p contains no digits of p as many times they are contained in p.",
+  "id": "A381661",
+  "mentions": [
+    "A000040",
+    "A006559",
+    "A186641"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

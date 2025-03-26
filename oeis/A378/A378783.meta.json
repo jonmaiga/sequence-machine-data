@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array T(n,k) read by rows: T(n, k) = c_k(n+1). The sequence c_k(m) has the ordinary generating function C_k(x) which satisfies C_k(x) = 1/(1+C_k(x)*Sum_{t=0..k} x^(t+1)).",
+  "id": "A378783",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A152171",
+    "A166587",
+    "A168491",
+    "A378816"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

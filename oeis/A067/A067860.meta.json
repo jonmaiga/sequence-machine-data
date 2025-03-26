@@ -1,5 +1,5 @@
 {
-  "description": "n is prime and the concatenation of numbers n_1, n_2, n_3, in that order, with n_1 + n_2 = n_3 (leading zeros are forbidden for nonzero n_i).",
+  "description": "Primes which are the concatenation of numbers n_1, n_2, n_3, in that order, with n_1 + n_2 = n_3 (leading zeros are forbidden for nonzero n_i).",
   "id": "A067860",
   "mentions": [
     "A088291"

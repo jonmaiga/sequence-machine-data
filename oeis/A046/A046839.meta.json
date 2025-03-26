@@ -2,8 +2,11 @@
   "description": "Numbers k such that the number of divisors of k divides the sum of cubes of divisors of k.",
   "id": "A046839",
   "mentions": [
+    "A000005",
+    "A001158",
     "A003601",
-    "A020486"
+    "A020486",
+    "A046840"
   ],
   "tags": [
     "nonn"
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

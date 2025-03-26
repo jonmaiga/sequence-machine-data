@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the partial sums of the reciprocals of the unitary totient function (A047994).",
+  "id": "A379518",
+  "mentions": [
+    "A047994",
+    "A177754",
+    "A370899",
+    "A379517",
+    "A379520"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

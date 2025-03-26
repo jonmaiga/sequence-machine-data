@@ -1,0 +1,17 @@
+{
+  "description": "List of twin prime averages (A014574) is partitioned by including as many elements as possible in the n-th partition, L_n, such that any gap in L_n is smaller than the gap between L_n and L_(n-1) but not bigger than the first gap in L_n. a(n) is the number of elements in L_n.",
+  "id": "A381169",
+  "mentions": [
+    "A001097",
+    "A014574",
+    "A348168"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

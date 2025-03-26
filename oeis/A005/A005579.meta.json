@@ -1,22 +1,28 @@
 {
-  "description": "Least number of distinct prime factors in even numbers having an abundancy index > n.",
+  "description": "a(n) = smallest number k such that Product_{i=1..k} prime(i)/(prime(i)-1) > n.",
   "id": "A005579",
   "mentions": [
     "A000045",
     "A000081",
+    "A001611",
     "A002110",
     "A005180",
     "A005347",
     "A005580",
     "A005867",
-    "A023199"
+    "A023199",
+    "A038110",
+    "A060753",
+    "A072986",
+    "A256968"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 38,
+    "offset": 0,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Prime-generating polynomial: 4n^2 + 12n - 1583.",
+  "description": "Prime-generating polynomial: a(n) = 4*n^2 + 12*n - 1583.",
   "id": "A182409",
   "mentions": [],
   "tags": [

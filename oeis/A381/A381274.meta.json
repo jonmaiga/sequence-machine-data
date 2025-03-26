@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(x * cosh(3*x)).",
+  "id": "A381274",
+  "mentions": [
+    "A003727",
+    "A185951",
+    "A381273"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

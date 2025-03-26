@@ -1,0 +1,17 @@
+{
+  "description": "Records in A380032.",
+  "id": "A380034",
+  "mentions": [
+    "A025487",
+    "A380032",
+    "A380033"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

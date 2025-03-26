@@ -1,19 +1,21 @@
 {
-  "description": "Squarefull numbers whose Euler totient function is squarefree.",
+  "description": "Numbers that are not squarefree and whose Euler totient function is squarefree.",
   "id": "A049198",
   "mentions": [
     "A000010",
     "A005117",
+    "A008683",
     "A013929",
+    "A039787",
+    "A049149",
     "A049199"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 43,
     "source": "oeis-bfile"
   }
 }

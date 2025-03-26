@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that A003961(k) = 2k +- 3, multiplied by the sign of difference A003961(k)-2k, where A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
+  "id": "A379233",
+  "mentions": [
+    "A003961",
+    "A048674",
+    "A104210",
+    "A252748",
+    "A319630",
+    "A348514",
+    "A378980",
+    "A379230",
+    "A379231",
+    "A379235",
+    "A379237"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

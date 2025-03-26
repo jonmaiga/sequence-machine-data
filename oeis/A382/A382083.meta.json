@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the ratio between A382067(n) and A382067(n+2).",
+  "id": "A382083",
+  "mentions": [
+    "A382067"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

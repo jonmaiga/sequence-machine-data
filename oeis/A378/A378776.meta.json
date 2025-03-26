@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that each multiset enclosed by a pair of equal terms, including the endpoints, is distinct.",
+  "id": "A378776",
+  "mentions": [
+    "A366493",
+    "A366625"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

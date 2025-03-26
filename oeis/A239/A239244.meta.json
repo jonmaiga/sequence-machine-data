@@ -1,5 +1,5 @@
 {
-  "description": "Let y be the sum of the numbers x coprime to n, with x<=n. Sequence lists n such that digits of y end in 'n'.",
+  "description": "Integers m such that the sum of the integers x <= m coprime to m ends with digits of m.",
   "id": "A239244",
   "mentions": [
     "A000010",
@@ -7,12 +7,11 @@
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

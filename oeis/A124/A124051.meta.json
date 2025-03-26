@@ -2,15 +2,36 @@
   "description": "Quasi-mirror of A062196 formatted as a triangular array.",
   "id": "A124051",
   "mentions": [
-    "A062196"
+    "A000108",
+    "A000217",
+    "A000894",
+    "A001297",
+    "A002417",
+    "A005563",
+    "A027790",
+    "A033487",
+    "A062196",
+    "A105946",
+    "A105947",
+    "A105948",
+    "A107319",
+    "A107395",
+    "A107396",
+    "A107397",
+    "A107398",
+    "A107399",
+    "A286033",
+    "A322938"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 55,
     "source": "joeis"
   }
 }

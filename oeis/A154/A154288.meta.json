@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of coefficients in expansion of 1/sum(n>=1, x^(n - 1)/(2*n - 1)!! ).",
+  "description": "Numerators of coefficients in expansion of 1/( Sum_{n>=1} x^(n - 1)/(2*n - 1)!! ).",
   "id": "A154288",
   "mentions": [
     "A154289"

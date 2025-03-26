@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected balanced signed graphs on n unlabeled nodes.",
+  "description": "Number of connected balanced simple signed graphs on n unlabeled nodes.",
   "id": "A318590",
   "mentions": [
     "A005142",

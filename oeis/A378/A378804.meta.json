@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n * 2^n * binomial(4*n, n).",
+  "id": "A378804",
+  "mentions": [
+    "A005810",
+    "A036289",
+    "A378802"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "Number of flags in an n-dimensional vector space over GF(2).",
   "id": "A289545",
   "mentions": [
-    "A005329"
+    "A005329",
+    "A381299",
+    "A381426"
   ],
   "tags": [
     "formulas",

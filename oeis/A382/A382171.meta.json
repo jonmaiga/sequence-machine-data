@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0; for n >= 1, one quarter of the number of points on the elliptic curve y^2 = x^3 - x defined over GF(3^n).",
+  "id": "A382171",
+  "mentions": [
+    "A382170"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

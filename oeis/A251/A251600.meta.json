@@ -2,8 +2,8 @@
   "description": "Least k such that prime(k) + prime(k+1) contains n prime divisors (with multiplicity), otherwise 0.",
   "id": "A251600",
   "mentions": [
-    "A000040",
-    "A001222"
+    "A001222",
+    "A098037"
   ],
   "tags": [
     "nonn"

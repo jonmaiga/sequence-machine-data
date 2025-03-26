@@ -15,11 +15,12 @@
     "A295645"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

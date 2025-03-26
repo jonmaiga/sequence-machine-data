@@ -1,0 +1,18 @@
+{
+  "description": "Absolute value of first differences of paperfolding sequence A014577.",
+  "id": "A379728",
+  "mentions": [
+    "A014577",
+    "A157196",
+    "A343173"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

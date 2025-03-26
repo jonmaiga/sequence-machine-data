@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (3^{2n+1} - 8*n - 3)/16.",
+  "description": "a(n) = (3^(2*n+1) - 8*n - 3)/16.",
   "id": "A004004",
   "mentions": [
     "A000051",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

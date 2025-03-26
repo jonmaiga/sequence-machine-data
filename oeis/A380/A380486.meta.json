@@ -1,0 +1,19 @@
+{
+  "description": "Numbers not congruent to {0, 1, 2, 3, 4, 5} mod 30.",
+  "id": "A380486",
+  "mentions": [
+    "A276086",
+    "A380484",
+    "A380485"
+  ],
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

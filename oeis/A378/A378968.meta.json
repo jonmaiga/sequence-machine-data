@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of log(4 - phi), where phi = A001622.",
+  "id": "A378968",
+  "mentions": [
+    "A001622",
+    "A079585"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

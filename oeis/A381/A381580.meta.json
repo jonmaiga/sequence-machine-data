@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose Chung-Graham representation (A381579) is palindromic.",
+  "id": "A381580",
+  "mentions": [
+    "A000045",
+    "A002113",
+    "A006995",
+    "A055588",
+    "A094202",
+    "A331191",
+    "A381579"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

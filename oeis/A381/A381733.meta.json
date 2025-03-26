@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors d of n such that 2^omega(n + d) = tau(n + d), where omega = A001221 and tau = A000005.",
+  "id": "A381733",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A005117",
+    "A381136",
+    "A381138"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of sigma(2*n)/(2*n).",
+  "id": "A378995",
+  "mentions": [
+    "A017665",
+    "A062731",
+    "A245058",
+    "A341525",
+    "A341605",
+    "A378994",
+    "A378996"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

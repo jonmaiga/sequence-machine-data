@@ -1,13 +1,16 @@
 {
-  "description": "Rearrangement of composite numbers such that the n-th partial sum is a multiple of the n-th prime.",
+  "description": "a(n) is the least composite number that has not yet appeared such that the n-th partial sum is a multiple of the n-th prime.",
   "id": "A075558",
-  "mentions": [],
+  "mentions": [
+    "A002808"
+  ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

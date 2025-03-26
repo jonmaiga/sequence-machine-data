@@ -1,0 +1,23 @@
+{
+  "description": "The number of consecutive primes in the prime factorization of n starting from the smallest prime dividing n; a(1) = 0.",
+  "id": "A378886",
+  "mentions": [
+    "A001221",
+    "A020639",
+    "A073491",
+    "A276084",
+    "A300820",
+    "A378884",
+    "A378885"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

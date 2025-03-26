@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k>0 such that the Hamming weight of k! is a factorial.",
+  "id": "A381922",
+  "mentions": [
+    "A000120",
+    "A000142",
+    "A079584",
+    "A381921"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

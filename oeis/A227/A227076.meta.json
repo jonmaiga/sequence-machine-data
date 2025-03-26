@@ -2,7 +2,9 @@
   "description": "A triangle formed like Pascal's triangle, but with 5^n on the borders instead of 1.",
   "id": "A227076",
   "mentions": [
+    "A000351",
     "A007318",
+    "A009969",
     "A047850",
     "A051601",
     "A083585",

@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(m,n) = number of independent sets in the cylinder graph C_m X P_n.",
+  "description": "Array read by antidiagonals: T(m,n) is the number of independent sets in the stacked prism graph C_m X P_n.",
   "id": "A286513",
   "mentions": [
     "A000032",

@@ -1,0 +1,26 @@
+{
+  "description": "Read the binary representation of n from the most to least significant bit then perform a cumulative XOR and store by reading from least to most significant bit.",
+  "id": "A378299",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000225",
+    "A000975",
+    "A006068",
+    "A007283",
+    "A030101",
+    "A095121",
+    "A380001"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

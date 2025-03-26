@@ -1,5 +1,5 @@
 {
-  "description": "60516*n^2 - 61008*n + 2481403.",
+  "description": "a(n) = 60516*n^2 - 61008*n + 2481403.",
   "id": "A215814",
   "mentions": [
     "A214732"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 28,
     "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2. For n > 2 a(n) is the smallest positive integer k, not already a term in the sequence, such that A053669(k) = A006530(a(n-1)).",
+  "id": "A379044",
+  "mentions": [
+    "A002110",
+    "A006530",
+    "A007947",
+    "A053669",
+    "A125703"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

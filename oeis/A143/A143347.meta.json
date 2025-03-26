@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the paper-folding constant, or the dragon constant.",
   "id": "A143347",
   "mentions": [
+    "A005811",
     "A014577",
     "A034947"
   ],

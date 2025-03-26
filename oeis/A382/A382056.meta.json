@@ -1,0 +1,19 @@
+{
+  "description": "Remove the largest digit of n; if digits remain, return the number formed by the remaining digits in order. If no digits are left, return 0.",
+  "id": "A382056",
+  "mentions": [
+    "A054055",
+    "A125289"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

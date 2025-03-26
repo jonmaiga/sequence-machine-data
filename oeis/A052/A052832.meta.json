@@ -1,5 +1,5 @@
 {
-  "description": "A simple grammar.",
+  "description": "Expansion of e.g.f. log((-1+x)/(-1+x+x^2)).",
   "id": "A052832",
   "mentions": [],
   "tags": [

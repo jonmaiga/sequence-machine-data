@@ -1,0 +1,16 @@
+{
+  "description": "Smallest exponent of x of maximal coefficient (ignoring signs) in Hermite polynomial of order n.",
+  "id": "A381524",
+  "mentions": [
+    "A277281",
+    "A381737"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

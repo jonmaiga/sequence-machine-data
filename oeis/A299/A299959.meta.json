@@ -2,8 +2,10 @@
   "description": "Least prime factor of (4^(2n+1)+1)/5, a(0) = 1.",
   "id": "A299959",
   "mentions": [
+    "A002144",
     "A020639",
     "A052539",
+    "A261580",
     "A299960"
   ],
   "tags": [

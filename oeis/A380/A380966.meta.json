@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is an upper bound such that there exists an m X m magic square of n-th powers for all m >= a(n).",
+  "id": "A380966",
+  "mentions": [
+    "A364264"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

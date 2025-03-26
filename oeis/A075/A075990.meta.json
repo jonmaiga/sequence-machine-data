@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that A(k) > A(h) for h=1,2,...,k-1, where A=A075988, with initial value a(1)=1.",
+  "description": "Positions of records in A075988.",
   "id": "A075990",
   "mentions": [
     "A075988"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

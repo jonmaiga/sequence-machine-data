@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of integers m (possibly negative) such that the nonzero digits in the nonadjacent form for m appear in the nonadjacent form for n.",
+  "id": "A380122",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A184617",
+    "A380123"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

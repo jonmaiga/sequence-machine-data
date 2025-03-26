@@ -1,0 +1,18 @@
+{
+  "description": "The smallest positive integer that produces a product that contains the digit 2 when multiplied by 2 a total of n times.",
+  "id": "A381087",
+  "mentions": [
+    "A011532",
+    "A378138",
+    "A381183"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

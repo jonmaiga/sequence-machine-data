@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X2 0..2 arrays with every row and column least squares fitting to a positive slope straight line",
+  "description": "Number of (n+1) X 2 0..2 arrays with every row and column least squares fitting to a positive slope straight line.",
   "id": "A222843",
   "mentions": [
     "A222847"

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with embedded palindromes as proper substrings of the term.",
+  "id": "A380596",
+  "mentions": [
+    "A002113",
+    "A044821"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

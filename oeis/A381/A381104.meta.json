@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of prime factors with exponent 1 in the prime factorization of the n-th superabundant number.",
+  "id": "A381104",
+  "mentions": [
+    "A004394",
+    "A056169"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

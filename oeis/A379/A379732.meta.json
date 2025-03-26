@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 207/208.",
+  "id": "A379732",
+  "mentions": [
+    "A374772",
+    "A377274",
+    "A377275"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

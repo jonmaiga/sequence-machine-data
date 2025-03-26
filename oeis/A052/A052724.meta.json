@@ -1,8 +1,10 @@
 {
-  "description": "A simple context-free grammar in a labeled universe.",
+  "description": "A simple context-free grammar in a labeled universe: a(n) = A052743(n)-A052723(n), n>1.",
   "id": "A052724",
   "mentions": [
-    "A052702"
+    "A052702",
+    "A052723",
+    "A052743"
   ],
   "tags": [
     "easy",

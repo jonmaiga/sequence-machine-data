@@ -12,7 +12,8 @@
     "A051654",
     "A051686",
     "A051886",
-    "A051888"
+    "A051888",
+    "A051902"
   ],
   "tags": [
     "formulas",
@@ -21,6 +22,6 @@
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

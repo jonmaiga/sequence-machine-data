@@ -2,6 +2,7 @@
   "description": "Irregular triangle read by rows: row n gives list of reverse multipliers for base n.",
   "id": "A222818",
   "mentions": [
+    "A001232",
     "A214927",
     "A222817",
     "A222819",

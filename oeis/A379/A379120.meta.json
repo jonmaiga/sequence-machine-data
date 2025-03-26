@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; and for n > 1, a(n) is the smallest divisor d > 1 of n such that A048720(A065621(n/d),d) is equal to n.",
+  "id": "A379120",
+  "mentions": [
+    "A048720",
+    "A065621",
+    "A115872",
+    "A325565",
+    "A325566",
+    "A325567",
+    "A379119"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

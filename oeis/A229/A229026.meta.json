@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of 1/((1-x)*((1-5x)^2)*(1-8x)).",
+  "description": "Expansion of 1/((1-x)*((1-5*x)^2)*(1-8*x)).",
   "id": "A229026",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

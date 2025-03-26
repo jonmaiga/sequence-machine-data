@@ -1,5 +1,5 @@
 {
-  "description": "Extended Motzkin numbers, Sum_{k>=0} C(n,k)C(k), C(k) the extended Catalan number A057977(k).",
+  "description": "Extended Motzkin numbers, Sum_{k>=0} C(n,k)*C(k), where C(k) is the extended Catalan number A057977(k).",
   "id": "A189912",
   "mentions": [
     "A001006",

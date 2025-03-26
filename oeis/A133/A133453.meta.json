@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3*a(n-1) - a(n-3) + 3*a(n-4).",
+  "description": "a(n) = 3*a(n-1) - a(n-3) + 3*a(n-4), with initial values 2,4,13,40.",
   "id": "A133453",
   "mentions": [
     "A057079",

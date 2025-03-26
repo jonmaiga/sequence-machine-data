@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = phi(1 + phi(2 + phi(3 + ... phi(n)))).",
+  "id": "A380340",
+  "mentions": [
+    "A000010",
+    "A132857",
+    "A380341",
+    "A380342",
+    "A380354",
+    "A380414",
+    "A380415"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

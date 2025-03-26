@@ -2,7 +2,8 @@
   "description": "G.f. A(x) satisfies: A( A(x)^2 - A(x)^3 ) = x*A(x).",
   "id": "A268655",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A380054"
   ],
   "tags": [
     "formulas",

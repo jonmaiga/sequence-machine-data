@@ -1,8 +1,9 @@
 {
-  "description": "A simple context-free grammar.",
+  "description": "Expansion of (1/2)*(1/x^2 - 1/x)*(1-x-sqrt(1-2*x+x^2-4*x^3)) - x.",
   "id": "A052702",
   "mentions": [
     "A000108",
+    "A023431",
     "A131531",
     "A160705",
     "A160706"

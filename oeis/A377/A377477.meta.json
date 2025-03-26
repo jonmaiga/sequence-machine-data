@@ -1,0 +1,21 @@
+{
+  "description": "Consider the nonadjacent form for n, then reverse the digits, leaving any trailing zeros alone, and take the absolute value.",
+  "id": "A377477",
+  "mentions": [
+    "A057889",
+    "A160652",
+    "A184617",
+    "A345201",
+    "A379015"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Positions of 0 in A188221; complement of A004976.",
+  "description": "Beatty sequence for (sqrt(5) + 3)/4.",
   "id": "A188222",
   "mentions": [
     "A004976",
@@ -7,6 +7,7 @@
     "A188221"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

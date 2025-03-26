@@ -1,0 +1,19 @@
+{
+  "description": "List of connected graphs that are squares, encoded as in A076184.",
+  "id": "A382194",
+  "mentions": [
+    "A076184",
+    "A382180",
+    "A382193",
+    "A382195"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

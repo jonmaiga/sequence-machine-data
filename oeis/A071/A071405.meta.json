@@ -1,5 +1,5 @@
 {
-  "description": "(1/2)*(Sum_{k=0..p} C(p,k)*C(p+k,k)) - 2^p -1 )/p^2 where p runs through the primes.",
+  "description": "(1/2)*((Sum_{k=0..p} C(p,k)*C(p+k,k)) - 2^p - 1)/p^2 where p runs through the primes.",
   "id": "A071405",
   "mentions": [
     "A001850"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "joeis"
   }
 }

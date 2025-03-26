@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of x>0 satisfying x^2-x*cos(x)=sin(x).",
+  "description": "Decimal expansion of x>0 satisfying 2*x^2-x*cos(x)=sin(x).",
   "id": "A199742",
   "mentions": [
     "A199597"

@@ -1,7 +1,9 @@
 {
-  "description": "E.g.f.: 6*exp(x)/(1-x)^4;",
+  "description": "Expansion of e.g.f. 6*exp(x)/(1-x)^4.",
   "id": "A001341",
-  "mentions": [],
+  "mentions": [
+    "A095000"
+  ],
   "tags": [
     "formulas",
     "nonn"

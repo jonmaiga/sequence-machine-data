@@ -2,8 +2,10 @@
   "description": "a(n) = 60*n^2 + 180*n + 150.",
   "id": "A069477",
   "mentions": [
+    "A001844",
     "A022521",
     "A068236",
+    "A069894",
     "A101096"
   ],
   "tags": [
@@ -13,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 40,
     "source": "oeis-bfile"
   }
 }

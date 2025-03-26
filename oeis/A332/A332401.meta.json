@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) is the number of connected graphs on n unlabeled nodes with domination number k, n >= 1, 1 <= k <= A065033(n+1).",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled nodes with domination number k, n >= 1, 1 <= k <= A065033(n+1).",
   "id": "A332401",
   "mentions": [
     "A000088",

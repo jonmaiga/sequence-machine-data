@@ -2,14 +2,23 @@
   "description": "Primes of the form m = 8^i + 8^j - 1, where i > j >= 0.",
   "id": "A239718",
   "mentions": [
-    "A239712"
+    "A018900",
+    "A239709",
+    "A239712",
+    "A239713",
+    "A239714",
+    "A239715",
+    "A239716",
+    "A239717",
+    "A239719",
+    "A239720"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-bfile"
+    "size": 21,
+    "source": "joeis"
   }
 }

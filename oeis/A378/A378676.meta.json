@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = J(n) * J(n+2) where J(n) = Jacobsthal(n) = A001045(n).",
+  "id": "A378676",
+  "mentions": [
+    "A001045",
+    "A084175"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

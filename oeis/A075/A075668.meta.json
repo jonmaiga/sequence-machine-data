@@ -2,10 +2,11 @@
   "description": "Sum of next n 7th powers.",
   "id": "A075668",
   "mentions": [
+    "A001015",
     "A006003",
+    "A069876",
     "A072474",
     "A075664",
-    "A075670",
     "A075671"
   ],
   "tags": [
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "joeis"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

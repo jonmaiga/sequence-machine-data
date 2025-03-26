@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies 1/2 = Sum_{n=-oo..+oo} (-1)^n * x^(2*n) * (A(x) + (-x)^n)^(2*n-1).",
+  "id": "A379765",
+  "mentions": [
+    "A379763"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

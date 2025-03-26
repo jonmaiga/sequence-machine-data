@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(8*n^3/27).",
+  "id": "A379852",
+  "mentions": [
+    "A016743",
+    "A375473"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

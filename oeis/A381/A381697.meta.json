@@ -1,0 +1,17 @@
+{
+  "description": "Zeroless integers of the form 10*k+1 such that the 9 integers 10*k+1..10*k+9 all belong to A381631.",
+  "id": "A381697",
+  "mentions": [
+    "A052382",
+    "A381631"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

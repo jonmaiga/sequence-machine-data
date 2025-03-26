@@ -1,8 +1,11 @@
 {
   "description": "Dimensions of multiples of minimal representation of complex Lie algebra E6.",
   "id": "A030648",
-  "mentions": [],
+  "mentions": [
+    "A133355"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

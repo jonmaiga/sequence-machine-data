@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2^(8/3).",
+  "id": "A380898",
+  "mentions": [
+    "A002580",
+    "A010588",
+    "A010603"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

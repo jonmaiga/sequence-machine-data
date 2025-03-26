@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^2 * 4^n * binomial(3*n, n).",
+  "id": "A378779",
+  "mentions": [
+    "A005809",
+    "A006588",
+    "A128782"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

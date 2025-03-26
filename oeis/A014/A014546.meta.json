@@ -2,7 +2,9 @@
   "description": "Primes in Sylvester's sequence A000058.",
   "id": "A014546",
   "mentions": [
-    "A000058"
+    "A000058",
+    "A019434",
+    "A091335"
   ],
   "tags": [
     "nonn"

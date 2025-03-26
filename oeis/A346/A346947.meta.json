@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: log( 1 + log(1 + x)^5 / 5! ).",
+  "description": "Expansion of e.g.f. log( 1 + log(1 + x)^5 / 5! ).",
   "id": "A346947",
   "mentions": [
     "A000482",

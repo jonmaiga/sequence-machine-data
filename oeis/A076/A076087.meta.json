@@ -1,8 +1,9 @@
 {
-  "description": "a(n)= 7*n - 3*sum(i=1,n,b(i)) (see comment for b(i) definition).",
+  "description": "a(n) = 7*n - 3 * Sum_{i=1..n} A006460(i).",
   "id": "A076087",
   "mentions": [
-    "A006370"
+    "A006370",
+    "A006460"
   ],
   "tags": [
     "sign"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,8 +1,10 @@
 {
-  "description": "Degrees of fundamental invariants of Weyl group W(E7).",
+  "description": "Degrees of fundamental invariants of Weyl group W(E_7).",
   "id": "A005795",
   "mentions": [
-    "A005793"
+    "A005793",
+    "A005796",
+    "A273867"
   ],
   "tags": [
     "fini",

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that prime(k) and prime(k) + 9 are anagrams.",
+  "id": "A379208",
+  "mentions": [
+    "A140353",
+    "A228157"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

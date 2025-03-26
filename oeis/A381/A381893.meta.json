@@ -1,0 +1,19 @@
+{
+  "description": "Negative values of A381781.",
+  "id": "A381893",
+  "mentions": [
+    "A381781",
+    "A381892"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

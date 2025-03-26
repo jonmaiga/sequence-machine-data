@@ -1,9 +1,10 @@
 {
-  "description": "(Number of squarefree numbers <= n) minus round(n/zeta(2)).",
+  "description": "a(n) = (number of squarefree numbers <= n) minus round(n/zeta(2)).",
   "id": "A158819",
   "mentions": [
     "A005117",
     "A008966",
+    "A013661",
     "A013928",
     "A013929",
     "A057627",

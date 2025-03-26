@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of 1/A240969.",
+  "id": "A379390",
+  "mentions": [
+    "A240969"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

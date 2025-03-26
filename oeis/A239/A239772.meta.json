@@ -7,12 +7,12 @@
     "A239773"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

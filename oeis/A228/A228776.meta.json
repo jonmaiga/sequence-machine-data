@@ -2,7 +2,8 @@
   "description": "Positions of even terms of A050376.",
   "id": "A228776",
   "mentions": [
-    "A050376"
+    "A050376",
+    "A153450"
   ],
   "tags": [
     "formulas",

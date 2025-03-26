@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the smallest vertex angle, in radians, in a disdyakis triacontahedron face.",
+  "id": "A380940",
+  "mentions": [
+    "A001622",
+    "A379388",
+    "A379708",
+    "A379709",
+    "A379710",
+    "A379711",
+    "A380941",
+    "A380942"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

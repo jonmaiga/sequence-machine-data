@@ -1,0 +1,17 @@
+{
+  "description": "Length of the \"exponential comma sequence\" with n as the initial term, or -1 if that sequence is infinite.",
+  "id": "A375567",
+  "mentions": [
+    "A121805",
+    "A374725"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

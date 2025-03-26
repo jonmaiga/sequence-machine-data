@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of vertex transitive graphs with n nodes and valency k, (0 <= k < n).",
+  "description": "Triangle read by rows: T(n,k) is the number of simple vertex transitive graphs with n nodes and valency k, (0 <= k < n).",
   "id": "A319367",
   "mentions": [
     "A006799",

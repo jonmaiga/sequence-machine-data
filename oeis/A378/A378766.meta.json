@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers with the property that n is a member of the sequence iff a(n) is powerful (in A001694).",
+  "id": "A378766",
+  "mentions": [
+    "A001694",
+    "A052485",
+    "A121053",
+    "A379051",
+    "A379053"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of powerful numbers that are not powers of primes (i.e. are in A286708) that do not exceed 2^n.",
+  "id": "A380431",
+  "mentions": [
+    "A001694",
+    "A036386",
+    "A062762",
+    "A126706",
+    "A246547",
+    "A286708",
+    "A372403"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

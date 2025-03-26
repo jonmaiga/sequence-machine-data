@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of paths of a chess king on square a1 to reach a position outside an 8 X 8 chessboard after n steps.",
+  "id": "A378902",
+  "mentions": [
+    "A140518",
+    "A376609",
+    "A376610",
+    "A377018"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

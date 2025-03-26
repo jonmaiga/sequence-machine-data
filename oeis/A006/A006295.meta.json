@@ -1,5 +1,5 @@
 {
-  "description": "Number of genus 1 rooted maps with 2 faces with n vertices",
+  "description": "Number of genus 1 rooted maps with 2 faces with n vertices.",
   "id": "A006295",
   "mentions": [
     "A000108",
@@ -22,7 +22,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 31,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

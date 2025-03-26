@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of iterations of the function x --> 2*x - 1 such that x remains prime, starting from A005382(n).",
+  "id": "A379144",
+  "mentions": [
+    "A000040",
+    "A005382",
+    "A005383",
+    "A057326",
+    "A064812",
+    "A110581",
+    "A307390"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

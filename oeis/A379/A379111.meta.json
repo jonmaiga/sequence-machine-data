@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if bigomega(sigma(n)) is equal to omega(n), otherwise 0.",
+  "id": "A379111",
+  "mentions": [
+    "A000203",
+    "A001221",
+    "A001222",
+    "A010051",
+    "A023194",
+    "A324892",
+    "A379112"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

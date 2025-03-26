@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k>1 such that 10*k^(3*2^n)+1 is prime.",
+  "id": "A381815",
+  "mentions": [
+    "A002254",
+    "A007283",
+    "A089319",
+    "A381793"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

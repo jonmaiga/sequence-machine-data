@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum_{i=1..k} 1/p(i) + Sum_{i=1..j} 1/d(i) is integer, where p are the prime factors of n, counted with multiplicity, and d its divisors.",
+  "description": "Numbers n such that Sum_{i=1..k} 1/p(i) + Sum_{i=1..j} 1/d(i) is an integer, where p are the prime factors of n, counted with multiplicity, and d its divisors.",
   "id": "A224346",
   "mentions": [
     "A000203",

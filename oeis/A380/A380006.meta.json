@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of non-isomorphic p-subgroups in the symmetric group S_n, where p is the k-th noncomposite divisor of n!.",
+  "id": "A380006",
+  "mentions": [
+    "A000142",
+    "A008578",
+    "A036234"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

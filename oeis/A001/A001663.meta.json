@@ -1,12 +1,12 @@
 {
-  "description": "Related to Weber functions.",
+  "description": "Linear coefficient of the n-th converging polynomial of Weber functions (Erroneous version).",
   "id": "A001663",
   "mentions": [
     "A001662",
-    "A001664"
+    "A001664",
+    "A380170"
   ],
   "tags": [
-    "more",
     "sign"
   ],
   "terms": {

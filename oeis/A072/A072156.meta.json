@@ -2,9 +2,14 @@
   "description": "Numerator of Sum_{k=1..n} phi(k)/k^2.",
   "id": "A072156",
   "mentions": [
-    "A072157"
+    "A000010",
+    "A001620",
+    "A013661",
+    "A072157",
+    "A306016"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

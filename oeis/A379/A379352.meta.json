@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k such the greatest prime factor of k^2 + 2 is A033203(n), the n-th prime not congruent to 5 or 7 mod 8.",
+  "id": "A379352",
+  "mentions": [
+    "A006530",
+    "A033203",
+    "A059100",
+    "A185397",
+    "A379350",
+    "A379351"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

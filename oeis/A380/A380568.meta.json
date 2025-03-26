@@ -1,0 +1,16 @@
+{
+  "description": "Choose two different numbers x and y from 2 to 9. a(n) is the number that consists solely of the digits x or y and is the smallest number divisible by both of them.",
+  "id": "A380568",
+  "mentions": [],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

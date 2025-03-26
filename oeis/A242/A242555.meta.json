@@ -1,5 +1,5 @@
 {
-  "description": "Least number k such that k^32+n^32 is prime.",
+  "description": "Least number k such that k^32 + n^32 is prime.",
   "id": "A242555",
   "mentions": [
     "A006315",

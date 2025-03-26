@@ -1,0 +1,18 @@
+{
+  "description": "The minimum number of diagonal lines required to cover all vertices created when the n outer vertices of a regular n-gon are connected by diagonal lines.",
+  "id": "A378831",
+  "mentions": [
+    "A007569",
+    "A373811",
+    "A373813"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

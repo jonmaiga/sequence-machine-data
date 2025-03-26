@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the divisors e of n such that d < e < 2*d and d divides n, or 0 if such divisors do not exist.",
+  "id": "A379461",
+  "mentions": [
+    "A005279",
+    "A027750",
+    "A174903",
+    "A174905",
+    "A182469",
+    "A237271",
+    "A379288",
+    "A379374",
+    "A379379",
+    "A379384"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

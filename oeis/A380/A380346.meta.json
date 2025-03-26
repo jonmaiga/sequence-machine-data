@@ -1,0 +1,22 @@
+{
+  "description": "Number of corona for a hexagon of edge n with diamonds of side 1.",
+  "id": "A380346",
+  "mentions": [
+    "A000583",
+    "A001014",
+    "A008793",
+    "A016766",
+    "A016945",
+    "A380416"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

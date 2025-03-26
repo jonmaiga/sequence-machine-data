@@ -2,6 +2,7 @@
   "description": "Nonlinear recurrence: a(n) = a(n-1) + (a(n-1)+1)*Product_{j=1..n-2} a(j).",
   "id": "A213437",
   "mentions": [
+    "A000058",
     "A001699",
     "A003095",
     "A076949",

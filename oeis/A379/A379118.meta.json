@@ -1,0 +1,20 @@
+{
+  "description": "Characteristic function of A379114, numbers k that have a proper unitary divisor d > 1 such that A048720(A065621(sigma(d)),sigma(k/d)) is equal to sigma(k).",
+  "id": "A379118",
+  "mentions": [
+    "A000203",
+    "A048720",
+    "A065621",
+    "A379113",
+    "A379114"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

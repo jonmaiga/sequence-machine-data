@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of the elements of the set of bases and exponents (including exponents = 1) in the prime factorization of n.",
+  "id": "A381202",
+  "mentions": [
+    "A008474",
+    "A338038",
+    "A381201",
+    "A381203",
+    "A381204",
+    "A381205"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

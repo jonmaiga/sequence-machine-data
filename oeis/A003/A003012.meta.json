@@ -1,5 +1,5 @@
 {
-  "description": "Packing 3-dimensional cubes of side 2 in torus of side n.",
+  "description": "Maximum number of cubes of side length 2 that can be packed into a 3-dimensional torus of side length 2*n+1.",
   "id": "A003012",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

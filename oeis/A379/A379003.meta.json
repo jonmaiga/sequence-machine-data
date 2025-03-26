@@ -1,0 +1,20 @@
+{
+  "description": "Ordinal transform of A132741, where A132741 is the largest divisor of n having the form 2^i*5^j. a(0) = 0 by convention.",
+  "id": "A379003",
+  "mentions": [
+    "A007814",
+    "A112765",
+    "A126760",
+    "A132741",
+    "A379004",
+    "A379006"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

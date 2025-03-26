@@ -1,17 +1,18 @@
 {
-  "description": "Number of reflexible maps with n edges.",
+  "description": "Number of achiral combinatorial maps with n edges.",
   "id": "A170947",
   "mentions": [
     "A170946",
     "A170948",
-    "A214816"
+    "A214816",
+    "A380234"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

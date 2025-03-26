@@ -1,5 +1,5 @@
 {
-  "description": "Number of coincidence-free length n lists of 5-tuples with all numbers 1,...,n in tuple position k, for k=1..5.",
+  "description": "Number of coincidence-free length n lists of 5-tuples with all numbers 1..n in tuple position k, for k=1..5.",
   "id": "A135811",
   "mentions": [
     "A135810",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

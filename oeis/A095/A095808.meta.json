@@ -1,11 +1,15 @@
 {
-  "description": "Number of ways to write n in the form m + (m+1) + ... + (m+k-1) + (m+k) + (m+k-1) + ... + (m+1) + m with integers m>= 1, k>=1. Or, number of divisors a of 4n-1 with 0 < (a-1)^2 < 4n.",
+  "description": "Number of ways to write n in the form m + (m+1) + ... + (m+k-1) + (m+k) + (m+k-1) + ... + (m+1) + m with integers m>= 1, k>=1. Or, number of divisors d of 4n-1 with 0 < (d-1)^2 < 4n.",
   "id": "A095808",
   "mentions": [
     "A001227",
-    "A069283"
+    "A001620",
+    "A069283",
+    "A070824",
+    "A078703"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

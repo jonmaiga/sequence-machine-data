@@ -1,5 +1,5 @@
 {
-  "description": "n^8-n^7+n^5-n^4+n^3-n+1.",
+  "description": "a(n) = n^8 - n^7 + n^5 - n^4 + n^3 - n + 1.",
   "id": "A060889",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "joeis"
   }
 }

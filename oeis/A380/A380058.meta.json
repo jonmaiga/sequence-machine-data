@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies: A( A(x)^4 - A(x)^5 ) = x*A(x)^3.",
+  "id": "A380058",
+  "mentions": [
+    "A268655",
+    "A380054"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

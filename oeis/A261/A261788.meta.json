@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = smallest k such that A261786(k) >= 3^n.",
+  "description": "a(n) is the smallest k such that A261786(k) >= 3^n.",
   "id": "A261788",
   "mentions": [
     "A000244",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the maximum value of A377091(k) with k in 0..n.",
+  "id": "A380250",
+  "mentions": [
+    "A377091",
+    "A380251"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

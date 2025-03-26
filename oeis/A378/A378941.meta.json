@@ -1,0 +1,23 @@
+{
+  "description": "Number of Motzkin paths of length n up to reversal.",
+  "id": "A378941",
+  "mentions": [
+    "A001006",
+    "A005773",
+    "A007123",
+    "A059524",
+    "A175954",
+    "A185100",
+    "A287151",
+    "A292357"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

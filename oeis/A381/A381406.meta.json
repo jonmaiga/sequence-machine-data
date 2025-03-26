@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) is the smallest unused number such that a(n) OR a(n-1) = 2^k - 1, where OR is the binary OR operation and k>=1, while the binary weight of a(n) does not equal that of a(n-1).",
+  "id": "A381406",
+  "mentions": [
+    "A000120",
+    "A057168",
+    "A061712",
+    "A086799",
+    "A381405"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

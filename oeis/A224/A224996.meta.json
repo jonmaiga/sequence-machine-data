@@ -1,5 +1,5 @@
 {
-  "description": "Floor(1/f(x^(1/n))) for x = 2, where f computes the fractional part.",
+  "description": "a(n) = floor(1/f(x^(1/n))) for x = 2, where f computes the fractional part.",
   "id": "A224996",
   "mentions": [
     "A001651",
@@ -7,6 +7,7 @@
     "A047211",
     "A047290",
     "A047332",
+    "A078607",
     "A224995",
     "A224997",
     "A224998"

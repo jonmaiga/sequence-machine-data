@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of nonnegative integers m such that A184615(m) = A003714(n).",
+  "id": "A379213",
+  "mentions": [
+    "A000045",
+    "A003714",
+    "A005811",
+    "A101211",
+    "A184615"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

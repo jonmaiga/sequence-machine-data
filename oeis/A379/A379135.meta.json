@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the midradius of a pentakis dodecahedron with unit shorter edge length.",
+  "id": "A379135",
+  "mentions": [
+    "A010499",
+    "A205769",
+    "A379132",
+    "A379133",
+    "A379134",
+    "A379136"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

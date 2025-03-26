@@ -1,11 +1,12 @@
 {
-  "description": "Number of unsensed 2-connected planar maps with n edges.",
+  "description": "Number of unsensed 2-connected simple planar maps with n edges.",
   "id": "A006407",
   "mentions": [
     "A006403",
     "A006405",
     "A006406",
-    "A342060"
+    "A342060",
+    "A379437"
   ],
   "tags": [
     "formulas",

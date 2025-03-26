@@ -1,5 +1,5 @@
 {
-  "description": "Values of A098550 where A098550(n)/n reaches a new high-water mark.",
+  "description": "Values of A098550 where A098550(k)/k reaches a record high.",
   "id": "A251415",
   "mentions": [
     "A098550",
@@ -7,12 +7,11 @@
     "A250127"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

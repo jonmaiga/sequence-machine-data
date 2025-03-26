@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = k where k*Pi is the solution to sin(x) = 0 obtained using Newton's method starting from x = n.",
+  "id": "A381781",
+  "mentions": [
+    "A082964",
+    "A257451",
+    "A381473",
+    "A381892",
+    "A381893"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

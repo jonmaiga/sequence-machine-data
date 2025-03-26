@@ -1,14 +1,19 @@
 {
-  "description": "Expansion of e.g.f. log(1+x)*sinh(x).",
+  "description": "Expansion of e.g.f. log(1+x) * sinh(x).",
   "id": "A177699",
-  "mentions": [],
+  "mentions": [
+    "A002104",
+    "A009410",
+    "A009416",
+    "A381016"
+  ],
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 24,
     "source": "joeis"
   }
 }

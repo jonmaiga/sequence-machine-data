@@ -2,6 +2,7 @@
   "description": "Sequence of iterated increasing power sums. These sums are a generalization of iterated triangle sums.",
   "id": "A115242",
   "mentions": [
+    "A103438",
     "A113776"
   ],
   "tags": [

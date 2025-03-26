@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of long/short edge length ratio of a pentagonal hexecontahedron.",
+  "id": "A380002",
+  "mentions": [
+    "A377849",
+    "A379888",
+    "A379889",
+    "A379890",
+    "A379892",
+    "A380003",
+    "A380004"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

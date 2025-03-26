@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that phi(x) = k has exactly n solutions.",
+  "description": "Smallest k such that phi(x) = k has exactly n solutions, n>=2.",
   "id": "A007374",
   "mentions": [
     "A000010",

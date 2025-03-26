@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)*abs( 1/A(x)^3 ).",
+  "id": "A380711",
+  "mentions": [
+    "A003714",
+    "A380708",
+    "A380709",
+    "A380710"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of rooted (2k)-regular planar maps with n vertices, n >= 0, k >= 0.",
+  "id": "A380241",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000168",
+    "A060150",
+    "A269920",
+    "A380242",
+    "A380243"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular table T(n, k), n >= 0, k = 0..A352502(n-1); the n-th row lists in ascending order the numbers k in 0..n such that k and n-k can be added without carries in balanced ternary.",
+  "description": "Irregular table T(n, k), n >= 0, k = 0..A352502(n)-1; the n-th row lists in ascending order the numbers k in 0..n such that k and n-k can be added without carries in balanced ternary.",
   "id": "A353174",
   "mentions": [
     "A059095",
@@ -9,7 +9,8 @@
   "tags": [
     "base",
     "formulas",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,

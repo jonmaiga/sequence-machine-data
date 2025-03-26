@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = |{m : multiplicative order of 8 mod m=n}|.",
+  "description": "a(n) = |{m : multiplicative order of 8 mod m = n}|.",
   "id": "A059890",
   "mentions": [
     "A000005",

@@ -1,5 +1,5 @@
 {
-  "description": "Square array of numbers read by antidiagonals where T(n,k)=((k+3)(k+2)^n-2)/(k+1)",
+  "description": "Square array of numbers read by antidiagonals where T(n,k) = ((k+3)*(k+2)^n-2)/(k+1).",
   "id": "A090842",
   "mentions": [
     "A020989",

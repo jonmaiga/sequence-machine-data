@@ -1,5 +1,5 @@
 {
-  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite BPH = Beryllophosphate-H Na7K7 [ Be14P14O56 ] . 20 H2O.",
+  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite BPH = Beryllophosphate-H Na7K7[Be14P14O56].20H2O starting with a T1 atom.",
   "id": "A018995",
   "mentions": [
     "A018965"

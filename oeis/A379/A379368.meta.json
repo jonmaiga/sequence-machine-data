@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the partial sums of the reciprocals of the squarefree kernel function (A007947).",
+  "id": "A379368",
+  "mentions": [
+    "A007947",
+    "A073355",
+    "A370896",
+    "A379367",
+    "A379370"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

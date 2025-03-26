@@ -1,0 +1,20 @@
+{
+  "description": "Gaston Tarry's 1905 trimagic square of order 128, read by rows.",
+  "id": "A381002",
+  "mentions": [
+    "A052458",
+    "A380966",
+    "A381001"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

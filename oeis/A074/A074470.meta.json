@@ -1,5 +1,5 @@
 {
-  "description": "Subscript m such that PhiComposite-Harmonic series cd[m]=Sum[1/A000010[A002808(k)],{k,1,m}]>=n.",
+  "description": "Least m such that Phi-Composite-Harmonic series Sum_{k=1..m} 1/A000010(A002808(k)) >= n.",
   "id": "A074470",
   "mentions": [
     "A000010",

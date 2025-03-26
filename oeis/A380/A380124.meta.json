@@ -1,0 +1,19 @@
+{
+  "description": "Total number of ways of partitioning n and any natural number less than n into the same number of parts.",
+  "id": "A380124",
+  "mentions": [
+    "A008284",
+    "A072233",
+    "A380125",
+    "A380126"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

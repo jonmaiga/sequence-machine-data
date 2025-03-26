@@ -1,5 +1,5 @@
 {
-  "description": "Smallest value of z in the minimal value of x + y*z, given x + y*z = n (where x, y, z are positive integers).",
+  "description": "Smallest value of z in the minimal value of x + y*z, given x*y + z = n (where x, y, z are positive integers).",
   "id": "A228287",
   "mentions": [
     "A228286"

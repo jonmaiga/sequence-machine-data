@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1/(2^(1/4)*sqrt(1+Pi/4)).",
+  "id": "A380907",
+  "mentions": [
+    "A003881",
+    "A010767",
+    "A019704",
+    "A228497"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

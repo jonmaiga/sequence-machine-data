@@ -1,10 +1,13 @@
 {
-  "description": "Star of David matchstick numbers: 6*n*(3*n+1).",
+  "description": "Star of David matchstick numbers: a(n) = 6*n*(3*n+1).",
   "id": "A045946",
   "mentions": [
     "A005449",
+    "A033580",
     "A045945",
-    "A051682"
+    "A049451",
+    "A051682",
+    "A081266"
   ],
   "tags": [
     "easy",
@@ -14,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 43,
     "source": "joeis"
   }
 }

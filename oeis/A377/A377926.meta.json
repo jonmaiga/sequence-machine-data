@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A228407.",
+  "id": "A377926",
+  "mentions": [
+    "A228407",
+    "A229218",
+    "A377925"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

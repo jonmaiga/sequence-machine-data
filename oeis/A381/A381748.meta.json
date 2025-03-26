@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of primes (counted with multiplicity) in row n of A051599.",
+  "id": "A381748",
+  "mentions": [
+    "A051599"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Characteristic function of numbers in A083207.",
+  "description": "Characteristic function of Zumkeller numbers (A083207).",
   "id": "A179527",
   "mentions": [
     "A000203",
@@ -11,6 +11,7 @@
     "A179529"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "a(n) is the number of reverse multipliers for base n.",
   "id": "A222820",
   "mentions": [
+    "A001232",
     "A214927",
     "A222817",
     "A222818",

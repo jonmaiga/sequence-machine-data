@@ -1,0 +1,17 @@
+{
+  "description": "Successive primes generated in A379355.",
+  "id": "A379782",
+  "mentions": [
+    "A202997",
+    "A379355"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

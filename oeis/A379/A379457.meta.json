@@ -1,0 +1,16 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product (floor(p_j^(1/k_j))).",
+  "id": "A379457",
+  "mentions": [
+    "A005117"
+  ],
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

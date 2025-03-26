@@ -1,5 +1,5 @@
 {
-  "description": "First n-digit prime in \"the sequence of even integers\": 246810121416182022242628303234...",
+  "description": "First n-digit prime in the concatenation of the even integers allowing leading zeros.",
   "id": "A073468",
   "mentions": [
     "A073186"

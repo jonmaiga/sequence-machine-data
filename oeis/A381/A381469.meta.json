@@ -1,0 +1,17 @@
+{
+  "description": "Number of unlabeled 2,3 cacti (triangular cacti with bridges) rooted at a triangle with n triangles and every node contained in exactly one triangle.",
+  "id": "A381469",
+  "mentions": [
+    "A287891",
+    "A380634"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

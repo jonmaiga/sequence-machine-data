@@ -1,7 +1,8 @@
 {
-  "description": "Smallest number expressible using the next Roman-numeral symbol.",
+  "description": "Smallest number expressible using the next Roman-numeral symbol under the vinculum system.",
   "id": "A118639",
   "mentions": [
+    "A003587",
     "A118640"
   ],
   "tags": [

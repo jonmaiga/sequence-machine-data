@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that there exists a divisor pair (d, d/k) such that one neither divides nor is coprime to the other.",
+  "id": "A379336",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A007947",
+    "A045763",
+    "A085986",
+    "A126706",
+    "A375055",
+    "A376271",
+    "A376936",
+    "A378767",
+    "A378769",
+    "A378984"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

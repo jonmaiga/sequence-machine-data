@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the edge length of the dodecahedron inside a circumscribed unit sphere.",
+  "id": "A381264",
+  "mentions": [
+    "A001622",
+    "A156547",
+    "A179296"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

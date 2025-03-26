@@ -1,13 +1,15 @@
 {
-  "description": "Number of nX7 1..2 arrays containing at least one of each value, and all equal values connected.",
+  "description": "Number of n X 7 1..2 arrays containing at least one of each value, and all equal values connected.",
   "id": "A166773",
-  "mentions": [],
+  "mentions": [
+    "A378932"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

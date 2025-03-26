@@ -1,7 +1,10 @@
 {
-  "description": "Total number of graceful labelings of all simple graphs on n nodes.",
+  "description": "Total numbers of graceful labelings of all simple graphs on n nodes.",
   "id": "A333727",
-  "mentions": [],
+  "mentions": [
+    "A379575",
+    "A379576"
+  ],
   "tags": [
     "hard",
     "more",

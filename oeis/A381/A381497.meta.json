@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = sum of numbers k < n such that 1 < gcd(k,n) and rad(k) != rad(n), where rad = A007947.",
+  "id": "A381497",
+  "mentions": [
+    "A007947",
+    "A038566",
+    "A066760",
+    "A067392",
+    "A121998",
+    "A133995",
+    "A272619",
+    "A369609",
+    "A381094",
+    "A381096",
+    "A381498",
+    "A381499"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

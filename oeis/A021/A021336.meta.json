@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 1/332.",
   "id": "A021336",
-  "mentions": [],
+  "mentions": [
+    "A021087"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of sets for the SET card game for n cards with 3 properties where each can take 3 values.",
+  "id": "A380167",
+  "mentions": [
+    "A090245",
+    "A182240"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers that yield a sphenic number when any digit is removed.",
+  "id": "A378863",
+  "mentions": [
+    "A007304",
+    "A371879"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

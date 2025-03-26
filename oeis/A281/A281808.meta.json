@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7Xn 0..1 arrays with no element unequal to a strict majority of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.",
+  "description": "Number of 7 X n 0..1 arrays with no element unequal to a strict majority of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.",
   "id": "A281808",
   "mentions": [
     "A281802"

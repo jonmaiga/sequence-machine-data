@@ -1,5 +1,5 @@
 {
-  "description": "Expanison of e.g.f. -log(1 - x) * exp(3*x).",
+  "description": "Expansion of e.g.f. -log(1 - x) * exp(3*x).",
   "id": "A346395",
   "mentions": [
     "A002104",

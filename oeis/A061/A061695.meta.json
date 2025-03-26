@@ -2,7 +2,9 @@
   "description": "Generalized Bell numbers.",
   "id": "A061695",
   "mentions": [
-    "A061692"
+    "A000217",
+    "A061692",
+    "A162993"
   ],
   "tags": [
     "formulas",

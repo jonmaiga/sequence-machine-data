@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1/( 1 - x * cosh(sqrt(2)*x) ).",
+  "id": "A381344",
+  "mentions": [
+    "A185951",
+    "A205571",
+    "A352252",
+    "A381280",
+    "A381281",
+    "A381282",
+    "A381283",
+    "A381345"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

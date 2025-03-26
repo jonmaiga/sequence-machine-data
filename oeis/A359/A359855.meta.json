@@ -1,20 +1,32 @@
 {
-  "description": "Decimal expansion of the molar volume of ideal gas at STP (273.15 K, 101.325 kPa) according to the 2019 SI system in units m^3/(mol*10^3).",
+  "description": "Array read by antidiagonals: T(n,k) is the number of Hamiltonian cycles in the stacked prism graph P_n X C_k, n >= 1, k >= 2.",
   "id": "A359855",
   "mentions": [
-    "A070064",
-    "A213611",
-    "A322578",
-    "A356381"
+    "A000012",
+    "A003699",
+    "A003731",
+    "A003945",
+    "A103889",
+    "A123932",
+    "A180582",
+    "A180583",
+    "A180584",
+    "A180585",
+    "A180586",
+    "A180587",
+    "A180588",
+    "A222196",
+    "A222197",
+    "A270273",
+    "A321172"
   ],
   "tags": [
-    "cons",
-    "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
-    "offset": 2,
-    "size": 87,
+    "offset": 1,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

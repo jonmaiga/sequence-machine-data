@@ -1,0 +1,18 @@
+{
+  "description": "With p(n) = A002145(n) = n-th non-Pythagorean prime, a(n) is the least k such p(n) + k is a non-Pythagorean prime and 2 p(n) + k - 3 is a Pythagorean prime; and a(n) = 0 if there is no such k.",
+  "id": "A378187",
+  "mentions": [
+    "A000041",
+    "A002144",
+    "A002145",
+    "A378186"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

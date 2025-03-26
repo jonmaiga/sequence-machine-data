@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0; for n >= 1, if there exists an m < n such that a(m) = a(n), take the largest such m and let a(n+1) be the number of distinct runs in the subsequence a(m)..a(n-1). Otherwise, a(n+1) = 0.",
+  "id": "A380107",
+  "mentions": [
+    "A181391",
+    "A268755",
+    "A380106"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

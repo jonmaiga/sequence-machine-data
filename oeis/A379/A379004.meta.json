@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => v_2(i) = v_2(j) and v_5(i) = v_5(j), for all i, j, where v_2 (A007814) and v_5 (A112765) give the 2- and 5-adic valuations of n respectively.",
+  "id": "A379004",
+  "mentions": [
+    "A007814",
+    "A112765",
+    "A132741",
+    "A379003",
+    "A379005"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

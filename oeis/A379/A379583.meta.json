@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of the partial sums of the reciprocals of the powerful part function (A057521).",
+  "id": "A379583",
+  "mentions": [
+    "A057521",
+    "A191622",
+    "A370902",
+    "A370903",
+    "A379584",
+    "A379585"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

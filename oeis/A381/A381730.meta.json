@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimum connected dominating sets in the n X n grid graph.",
+  "id": "A381730",
+  "mentions": [
+    "A287690",
+    "A347632",
+    "A369692",
+    "A381474"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

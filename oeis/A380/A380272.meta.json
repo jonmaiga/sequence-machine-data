@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of integers k in 0..n such that the nonadjacent forms for n-k and k can be added without carries (see Comments section for exact definition).",
+  "id": "A380272",
+  "mentions": [
+    "A001316",
+    "A352502",
+    "A380273"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A simple context-free grammar.",
+  "description": "A simple context-free grammar: convolution cube of A001002.",
   "id": "A052703",
   "mentions": [
     "A001002",

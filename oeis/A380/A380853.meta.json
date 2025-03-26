@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to place six distinct positive integers on a triangle, three on the corners and three on the sides such that the sum of the three values on each side is n.",
+  "id": "A380853",
+  "mentions": [
+    "A006918",
+    "A010891",
+    "A019298",
+    "A049347",
+    "A057077",
+    "A099254",
+    "A342467",
+    "A380105"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

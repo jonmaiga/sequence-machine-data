@@ -2,6 +2,7 @@
   "description": "a(n) = binomial(n+5, 5) * binomial(n+7, 5).",
   "id": "A107396",
   "mentions": [
+    "A033987",
     "A062196"
   ],
   "tags": [

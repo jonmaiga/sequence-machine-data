@@ -1,0 +1,18 @@
+{
+  "description": "Ulam numbers that are sphenics.",
+  "id": "A379162",
+  "mentions": [
+    "A002858",
+    "A007304",
+    "A068820",
+    "A378795"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

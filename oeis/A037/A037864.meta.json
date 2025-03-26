@@ -1,13 +1,15 @@
 {
   "description": "a(n)=(number of digits <=2)-(number of digits >2) in base 5 representation of n.",
   "id": "A037864",
-  "mentions": [],
+  "mentions": [
+    "A110592"
+  ],
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 82,
     "source": "joeis"
   }

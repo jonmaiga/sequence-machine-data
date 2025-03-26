@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum connected dominating sets in the n-triangular honeycomb queen graph.",
+  "id": "A381722",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

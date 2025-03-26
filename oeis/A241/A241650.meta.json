@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that the GCD of the x's that satisfy sigma(x)=m is 5.",
+  "description": "Numbers m such that the GCD of the x's that satisfy sigma(x) = m is 5.",
   "id": "A241650",
   "mentions": [
     "A000203",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

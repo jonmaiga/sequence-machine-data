@@ -1,0 +1,18 @@
+{
+  "description": "Distinct nonpositive values of A380123, negated, in order of appearance and with offset 0.",
+  "id": "A380185",
+  "mentions": [
+    "A380123",
+    "A380183",
+    "A380186"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

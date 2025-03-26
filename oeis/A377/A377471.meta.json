@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime such that the number of distinct prime factors of its 9's complement is equal to n. If no such number exists return -1.",
+  "id": "A377471",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A061601",
+    "A378139"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

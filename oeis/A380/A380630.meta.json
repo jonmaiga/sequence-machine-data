@@ -1,0 +1,17 @@
+{
+  "description": "Number of matrices with n columns, any number of distinct rows and entries in 0..2 and without an all zero row up to permutations of rows and columns.",
+  "id": "A380630",
+  "mentions": [
+    "A003180",
+    "A380518",
+    "A380610"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

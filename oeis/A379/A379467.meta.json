@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (1 + sqrt(3))/3.",
+  "id": "A379467",
+  "mentions": [
+    "A002194",
+    "A090388"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

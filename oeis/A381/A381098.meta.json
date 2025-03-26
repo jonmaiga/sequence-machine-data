@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: row 1 = (1, 2); row n+1 has length L = last element of row n, and consists of the L smallest positive integers not occurring earlier that share a factor with L.",
+  "id": "A381098",
+  "mentions": [
+    "A020639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

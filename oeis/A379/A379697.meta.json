@@ -1,0 +1,19 @@
+{
+  "description": "For n >= 3, a(n) is the least k >= 0 such that (k + 1)*(2*n + k) / 2 is a triangular number (A000217).",
+  "id": "A379697",
+  "mentions": [
+    "A000217",
+    "A074377",
+    "A379676"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

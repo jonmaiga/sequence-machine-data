@@ -1,5 +1,5 @@
 {
-  "description": "A002275(n) * (A002275(n)+1).",
+  "description": "a(n) = A002275(n) * (A002275(n)+1).",
   "id": "A186194",
   "mentions": [
     "A002275",

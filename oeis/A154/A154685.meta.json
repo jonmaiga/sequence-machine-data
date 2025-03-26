@@ -1,11 +1,15 @@
 {
-  "description": "Triangle read by rows where T(m,n)=2mn+m+n+4",
+  "description": "Triangle read by rows: T(n, k) = 2*n*k + n + k + 4.",
   "id": "A154685",
   "mentions": [
+    "A016789",
+    "A016861",
     "A089192",
+    "A137882",
     "A151675",
     "A153039",
-    "A155724"
+    "A155724",
+    "A271649"
   ],
   "tags": [
     "easy",
@@ -15,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
+    "size": 66,
     "source": "joeis"
   }
 }

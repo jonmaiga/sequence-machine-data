@@ -1,0 +1,16 @@
+{
+  "description": "Area of smallest rectangle of grid cells such that it is possible to mark a connected subset of the cells so that the lengths of runs of marked cells have lengths from 2 to n, each length appearing exactly once.",
+  "id": "A380025",
+  "mentions": [
+    "A351516"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that have the same number of prime factors, counted with multiplicity, as there are runs in their base-10 representation.",
+  "id": "A379929",
+  "mentions": [
+    "A001222",
+    "A043562",
+    "A379930",
+    "A379931"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

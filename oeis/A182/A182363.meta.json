@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = a(n) + floor(a(n)/10) with a(0)=10.",
+  "description": "a(n+1) = a(n) + floor(a(n)/10) with a(0) = 10.",
   "id": "A182363",
   "mentions": [
     "A061418",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Rank of the partition of n formed by the terms of its binary expansion from largest to smallest.",
+  "id": "A380207",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A193073"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

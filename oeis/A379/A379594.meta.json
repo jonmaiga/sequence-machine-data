@@ -1,0 +1,19 @@
+{
+  "description": "Records in A379592.",
+  "id": "A379594",
+  "mentions": [
+    "A025487",
+    "A036965",
+    "A379554",
+    "A379592",
+    "A379593"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

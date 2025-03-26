@@ -1,0 +1,19 @@
+{
+  "description": "Number of proper prime powers (in A246547) that do not exceed primorial A002110(n).",
+  "id": "A380402",
+  "mentions": [
+    "A002110",
+    "A036386",
+    "A246547"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

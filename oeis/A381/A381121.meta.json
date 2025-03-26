@@ -1,0 +1,18 @@
+{
+  "description": "Number of partially ordered sets (\"posets\") covering n unlabeled elements.",
+  "id": "A381121",
+  "mentions": [
+    "A000112"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

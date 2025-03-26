@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest positive integer sequence satisfying a(n) = a(a(n))/n.",
+  "id": "A381464",
+  "mentions": [
+    "A000045",
+    "A000304",
+    "A099267",
+    "A257794",
+    "A358793"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form d_1 d_2 d_3 ... where the sum of their digits multiplied by their digit positions is equal to their number of digits.",
+  "id": "A381135",
+  "mentions": [
+    "A055642",
+    "A156207"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

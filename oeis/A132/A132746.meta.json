@@ -2,9 +2,12 @@
   "description": "Numbers k such that prime(k) + prime(k+1) is a perfect power.",
   "id": "A132746",
   "mentions": [
+    "A001043",
+    "A001597",
     "A064397"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

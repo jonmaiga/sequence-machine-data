@@ -1,0 +1,17 @@
+{
+  "description": "Number of smallest fully n-forested graphs.",
+  "id": "A380740",
+  "mentions": [
+    "A004401"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

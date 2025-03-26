@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows in which row n contains the digits of the period of 1/n when expanded in golden ratio base.",
+  "id": "A382172",
+  "mentions": [
+    "A001175",
+    "A001622",
+    "A055778",
+    "A173856",
+    "A173857",
+    "A173858",
+    "A173859",
+    "A173860",
+    "A173861",
+    "A173864",
+    "A294168",
+    "A354948",
+    "A382173",
+    "A382174",
+    "A382175",
+    "A382176"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

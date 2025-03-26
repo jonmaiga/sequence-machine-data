@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of ((5 - 2*sqrt(2))*Pi)/24.",
   "id": "A093823",
-  "mentions": [],
+  "mentions": [
+    "A000796",
+    "A002193"
+  ],
   "tags": [
     "cons",
     "easy",

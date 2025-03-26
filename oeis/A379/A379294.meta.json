@@ -1,0 +1,20 @@
+{
+  "description": "Record high values of A379248.",
+  "id": "A379294",
+  "mentions": [
+    "A064413",
+    "A064424",
+    "A379248",
+    "A379290",
+    "A379295",
+    "A379296"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

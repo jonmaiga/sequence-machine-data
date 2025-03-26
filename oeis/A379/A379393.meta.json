@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of connections for a 3 X n rectangle.",
+  "id": "A379393",
+  "mentions": [
+    "A379241"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)*(5*k)!/(k!)^5.",
+  "id": "A381164",
+  "mentions": [
+    "A007318",
+    "A008978",
+    "A100734",
+    "A381161",
+    "A381162",
+    "A381163",
+    "A381165"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

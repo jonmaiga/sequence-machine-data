@@ -1,14 +1,16 @@
 {
-  "description": "Numbers of undirected cycles in the graph join C_n + C_n of cycle graphs.",
+  "description": "Number of undirected cycles in the graph join C_n + C_n of cycle graphs.",
   "id": "A234628",
-  "mentions": [],
+  "mentions": [
+    "A137891"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 9,
-    "source": "oeis-entry"
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Alternate paper-folding (or alternate dragon curve) sequence.",
   "id": "A106665",
   "mentions": [
+    "A005811",
     "A014577",
     "A034947",
     "A096268",

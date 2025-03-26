@@ -1,0 +1,14 @@
+{
+  "description": "Proceeding from left to right, between any two consecutive digits (d_i, d_i+1) of an integer k, write down apart the lacking consecutive digits, in increasing order if d_i d_i+1. If abs(d_i - d_i+1) = 0 or 1 no digit is added. Sequence lists integers k that divide such resulting numbers.",
+  "id": "A381732",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

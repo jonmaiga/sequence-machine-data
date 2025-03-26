@@ -1,10 +1,11 @@
 {
-  "description": "T[n,m] equals number of solid partitions of n containing m plane partitions.",
+  "description": "T(n,m) equals number of solid partitions of n containing m plane partitions.",
   "id": "A094504",
   "mentions": [
     "A000293",
     "A089924",
-    "A090984"
+    "A090984",
+    "A096322"
   ],
   "tags": [
     "formulas",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 70,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

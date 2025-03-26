@@ -1,0 +1,23 @@
+{
+  "description": "Discriminant of the minimal polynomial of a number whose continued fraction expansion has periodic part given by the n-th composition (in standard order).",
+  "id": "A378872",
+  "mentions": [
+    "A059893",
+    "A066099",
+    "A139706",
+    "A246903",
+    "A246921",
+    "A305311",
+    "A378873",
+    "A378874"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

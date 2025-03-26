@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 0 if s(n) is nonprime, a(n) = 1 if s(n) is prime, where s = A005117.",
+  "id": "A378901",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A005117",
+    "A071403"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

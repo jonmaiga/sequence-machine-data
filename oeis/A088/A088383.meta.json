@@ -1,12 +1,13 @@
 {
-  "description": "Numbers greater than the 4th power of their smallest prime-factor.",
+  "description": "Numbers greater than the 4th power of their smallest prime factor.",
   "id": "A088383",
   "mentions": [
     "A020639",
     "A080257",
     "A088379",
     "A088381",
-    "A088382"
+    "A088382",
+    "A307908"
   ],
   "tags": [
     "nonn"

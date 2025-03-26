@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of n with at most k parts where 0 <= k <= n, and each part is one of three kinds.",
+  "id": "A382025",
+  "mentions": [
+    "A000716",
+    "A026820",
+    "A381895"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

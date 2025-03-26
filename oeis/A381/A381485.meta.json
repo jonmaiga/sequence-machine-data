@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of sqrt(13)/6.",
+  "id": "A381485",
+  "mentions": [
+    "A002193",
+    "A010470",
+    "A010503",
+    "A020761",
+    "A101263",
+    "A120683",
+    "A142464",
+    "A176019",
+    "A281065",
+    "A295330",
+    "A344069",
+    "A379338"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

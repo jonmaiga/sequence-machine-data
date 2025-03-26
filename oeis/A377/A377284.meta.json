@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 1 into {1/1^n, 1/2^n, 1/3^n, ..., 1/n^n}.",
+  "id": "A377284",
+  "mentions": [
+    "A020473",
+    "A378270",
+    "A378271"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "p and p^2 + 4 are both prime.",
+  "description": "Primes p such that p^2 + 4 is also prime.",
   "id": "A062324",
   "mentions": [
     "A045637",

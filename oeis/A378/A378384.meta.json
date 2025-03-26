@@ -1,0 +1,20 @@
+{
+  "description": "Digital root of the sum of the previous 3 terms; a(0) = a(1) = a(2) = 1.",
+  "id": "A378384",
+  "mentions": [
+    "A000213",
+    "A010888",
+    "A112661"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

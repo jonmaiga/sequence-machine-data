@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: arctan(log(x+1)-tanh(x)) = -1/2!*x^2 + 4/3!*x^3 - 6/4!*x^4 + 8/5!*x^5 - ...",
+  "description": "Expansion of e.g.f.: arctan(log(x+1)-tanh(x)).",
   "id": "A013285",
   "mentions": [],
   "tags": [

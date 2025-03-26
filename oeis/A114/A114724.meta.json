@@ -1,5 +1,5 @@
 {
-  "description": "Each term is the sum of the next two digits.",
+  "description": "Each term is the sum of the next two digits starting with a(1)=2.",
   "id": "A114724",
   "mentions": [
     "A113779"

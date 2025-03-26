@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp( -LambertW(-sin(x)) ).",
+  "id": "A381142",
+  "mentions": [
+    "A002017",
+    "A136630",
+    "A185690",
+    "A277498",
+    "A381145",
+    "A381148"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

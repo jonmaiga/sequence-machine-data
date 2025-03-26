@@ -1,0 +1,17 @@
+{
+  "description": "Main diagonal of A125585.",
+  "id": "A380548",
+  "mentions": [
+    "A125585"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

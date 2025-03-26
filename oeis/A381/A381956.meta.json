@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and the maximum exponent in the prime factorization of k have opposite parities.",
+  "id": "A381956",
+  "mentions": [
+    "A000035",
+    "A039956",
+    "A051903",
+    "A381950",
+    "A381955"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

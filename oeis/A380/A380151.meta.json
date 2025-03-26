@@ -1,0 +1,19 @@
+{
+  "description": "Classification sequence for the Stolarsky array A035506.",
+  "id": "A380151",
+  "mentions": [
+    "A007064",
+    "A035487",
+    "A035506",
+    "A380804"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

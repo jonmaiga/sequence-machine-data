@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (2n(n+1))^2.",
+  "description": "a(n) = (2*n*(n+1))^2.",
   "id": "A060300",
   "mentions": [
     "A000217",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 35,
     "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "A nonlinear recurrence.",
+  "description": "A nonlinear recurrence: a(n) = a(n-1)^2 - 6*a(n-1) + 6, with a(0) = 1, a(1) = 7.",
   "id": "A001544",
   "mentions": [
     "A000058",

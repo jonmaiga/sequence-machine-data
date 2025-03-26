@@ -1,18 +1,18 @@
 {
-  "description": "Smallest k > 0 such that the products of the nonempty subsets of {k, k+1,..., k+n-1} are all distinct.",
+  "description": "a(n) = smallest k > 0 such that the products of the nonempty subsets of {k, k+1,..., k+n-1} are all distinct.",
   "id": "A239291",
   "mentions": [
     "A239276",
-    "A239277"
+    "A239277",
+    "A380998"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 58,
+    "source": "oeis-bfile"
   }
 }

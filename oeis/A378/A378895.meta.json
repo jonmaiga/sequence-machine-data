@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is n times the number of missing distinct digits, k, of the terms of the sequence so far, counted from start and thereafter from every term that immediately follows any term with a value of 0.",
+  "id": "A378895",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = T(n-k, k) - T(n-k+1, k-1), T(n, 0) = A010815(n-1), and T(0, 0) = 1.",
+  "id": "A380038",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A008284",
+    "A010815",
+    "A072233",
+    "A078616"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

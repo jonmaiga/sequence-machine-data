@@ -2,6 +2,8 @@
   "description": "The number of nodes at even level in divisor lattice in canonical order.",
   "id": "A238970",
   "mentions": [
+    "A008619",
+    "A011782",
     "A038548",
     "A063008",
     "A238957",

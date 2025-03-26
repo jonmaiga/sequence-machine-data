@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the least prime p such that the number of primes between p (not inclusive) and p+n*log(p) is n.",
+  "id": "A381293",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

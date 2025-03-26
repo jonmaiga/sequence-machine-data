@@ -1,0 +1,30 @@
+{
+  "description": "Numbers divisible by the sum of the digits in their Chung-Graham representation (A381579).",
+  "id": "A381581",
+  "mentions": [
+    "A000045",
+    "A001651",
+    "A001906",
+    "A005349",
+    "A049445",
+    "A064150",
+    "A291711",
+    "A328208",
+    "A328212",
+    "A381579",
+    "A381582",
+    "A381583",
+    "A381584",
+    "A381585"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Stellated octagon numbers: a(n) = 20*n^2 + 8*n + 1.",
+  "id": "A381196",
+  "mentions": [
+    "A000217",
+    "A001844",
+    "A016742",
+    "A016814",
+    "A168668",
+    "A195162"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

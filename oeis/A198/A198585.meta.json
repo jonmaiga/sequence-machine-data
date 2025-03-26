@@ -2,10 +2,12 @@
   "description": "The second odd number appearing in the Collatz sequence starting with A198584(n).",
   "id": "A198585",
   "mentions": [
+    "A079813",
     "A198584",
     "A198586"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

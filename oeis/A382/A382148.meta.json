@@ -1,0 +1,15 @@
+{
+  "description": "Index of first occurrence of n in A381238, or -1 if n does not appear there.",
+  "id": "A382148",
+  "mentions": [
+    "A381238"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

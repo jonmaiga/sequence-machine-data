@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k+2 are both terms in A380846.",
+  "id": "A381073",
+  "mentions": [
+    "A380845",
+    "A380846",
+    "A381074"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the second moments of all partitions of n.",
+  "description": "Sum of the second moments of all partitions of n with weights starting from 0.",
   "id": "A066188",
   "mentions": [],
   "tags": [

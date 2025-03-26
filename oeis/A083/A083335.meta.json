@@ -1,7 +1,8 @@
 {
-  "description": "a(n)=12a(n-2)-25a(n-4).",
+  "description": "a(n) = 12*a(n-2) - 25*a(n-4) with initial terms 1,1,7,12.",
   "id": "A083335",
   "mentions": [
+    "A010468",
     "A083334"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 29,
     "source": "joeis"
   }
 }

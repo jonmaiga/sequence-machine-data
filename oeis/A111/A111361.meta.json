@@ -1,5 +1,5 @@
 {
-  "description": "The number of 4-regular plane graphs with all faces 3-gons or 4-gons.",
+  "description": "The number of 4-regular plane graphs with n vertices with all faces 3-gons or 4-gons.",
   "id": "A111361",
   "mentions": [
     "A000103",

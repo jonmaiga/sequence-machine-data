@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of vertices in the n-fold iterated barycentric subdivision of a triangle (or 2-simplex).",
+  "id": "A380996",
+  "mentions": [
+    "A000400",
+    "A007283",
+    "A074502"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum, in base 10, of the permutations of the digits of n, written in base 2.",
+  "id": "A378959",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A003817",
+    "A090706",
+    "A134346"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

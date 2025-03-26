@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integers whose ternary expansion does not contain pairs of 2's only separated by (zero or more) 1's, with offset 0.",
+  "id": "A381608",
+  "mentions": [
+    "A028898",
+    "A381579",
+    "A381607"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

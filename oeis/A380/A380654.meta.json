@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integers less than or equal to n that have the same sum of distinct prime factors as n.",
+  "id": "A380654",
+  "mentions": [
+    "A008472",
+    "A067003",
+    "A263025",
+    "A380653"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

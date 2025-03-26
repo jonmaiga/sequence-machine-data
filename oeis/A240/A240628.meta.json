@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..3 arrays with no element equal to exactly two horizontal and vertical neighbors, with new values 0..3 introduced in row major order",
+  "description": "Number of n X 5 0..3 arrays with no element equal to exactly two horizontal and vertical neighbors, with new values 0..3 introduced in row major order.",
   "id": "A240628",
   "mentions": [
     "A240629"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

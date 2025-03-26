@@ -1,13 +1,13 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^2 * A( x*A(x)^2 )^2.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^2 * A( x*A(x)^2 )^2.",
   "id": "A120971",
   "mentions": [
     "A002449",
-    "A030266",
     "A087949",
     "A088714",
     "A088717",
     "A091713",
+    "A110447",
     "A120970",
     "A120973",
     "A120975",
@@ -20,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

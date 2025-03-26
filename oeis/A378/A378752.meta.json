@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*sigma(n) - sigma(A003961(n)), where A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
+  "id": "A378752",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A337381",
+    "A337382",
+    "A337384"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

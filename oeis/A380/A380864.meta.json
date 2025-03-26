@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = [x^n] sqrt(1 - 4*x)/(1 - 8*x). Row sums of A380865.",
+  "id": "A380864",
+  "mentions": [
+    "A380865"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

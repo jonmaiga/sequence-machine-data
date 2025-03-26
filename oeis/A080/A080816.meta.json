@@ -1,7 +1,9 @@
 {
   "description": "Triangle read by rows in which n-th row gives trajectory of n (omitting n itself) under the map k -> k+1 if k odd, k -> k/2 if k even.",
   "id": "A080816",
-  "mentions": [],
+  "mentions": [
+    "A061313"
+  ],
   "tags": [
     "easy",
     "nonn",

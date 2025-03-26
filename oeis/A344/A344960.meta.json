@@ -1,13 +1,16 @@
 {
-  "description": "Positions of in A344953 of the binary complement of the n-th word in A344953.",
+  "description": "Positions in A344953 of the binary complement of the n-th word in A344953.",
   "id": "A344960",
   "mentions": [
     "A341258",
     "A342910",
-    "A344953"
+    "A344953",
+    "A345253",
+    "A348366"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

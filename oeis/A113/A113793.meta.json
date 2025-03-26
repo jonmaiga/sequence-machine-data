@@ -1,8 +1,10 @@
 {
-  "description": "Triangle T(n,m) read by rows: T(n,m) = phi(n - m + 1) * phi(m + 1).",
+  "description": "Triangle read by rows: T(n,m) = phi(n - m + 1) * phi(m), n >= 1, m >= 1.",
   "id": "A113793",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A065093",
+    "A127473"
   ],
   "tags": [
     "formulas",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 66,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n * d(n) / gcd(n, d(n))^2, where d = A000005.",
+  "id": "A378930",
+  "mentions": [
+    "A000005",
+    "A009191",
+    "A009230",
+    "A038040"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

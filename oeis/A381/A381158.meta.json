@@ -1,0 +1,23 @@
+{
+  "description": "Prime numbers where digit values decrease while alternating parity.",
+  "id": "A381158",
+  "mentions": [
+    "A000040",
+    "A028864",
+    "A028867",
+    "A052014",
+    "A052015",
+    "A382027"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

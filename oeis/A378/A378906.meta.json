@@ -1,0 +1,17 @@
+{
+  "description": "Primes p1 such that (p4 - p3) < (p2 - p1), where [p1, p2] and [p3, p4] are pairs of consecutive primes and p3 < p1*p2 < p4.",
+  "id": "A378906",
+  "mentions": [
+    "A001223",
+    "A006094"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

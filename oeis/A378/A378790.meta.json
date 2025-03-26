@@ -1,0 +1,14 @@
+{
+  "description": "Lower matching number of the n X n king graph.",
+  "id": "A378790",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

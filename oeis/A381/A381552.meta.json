@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows T(n,k) is the number of diamond coverings for a specific number of diamonds covering an odd length row of triangles.",
+  "id": "A381552",
+  "mentions": [
+    "A000297",
+    "A080856",
+    "A381555"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

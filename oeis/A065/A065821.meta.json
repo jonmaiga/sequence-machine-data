@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the first prime ending in exactly n 1's.",
+  "description": "a(n) is the smallest prime ending in exactly n 1's.",
   "id": "A065821",
   "mentions": [
     "A037055",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

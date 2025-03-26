@@ -1,0 +1,25 @@
+{
+  "description": "Continued fraction expansion of the base 9 Champernowne constant.",
+  "id": "A378350",
+  "mentions": [
+    "A030167",
+    "A031076",
+    "A066717",
+    "A077772",
+    "A378333",
+    "A378345",
+    "A378346",
+    "A378347",
+    "A378348",
+    "A378349"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

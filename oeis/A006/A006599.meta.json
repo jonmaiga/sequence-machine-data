@@ -1,15 +1,17 @@
 {
-  "description": "Numbers n such that 2^(2n+1) + 2^(n+1) + 1 is prime.",
+  "description": "Numbers k such that 2^(2k+1) + 2^(k+1) + 1 is prime.",
   "id": "A006599",
   "mentions": [
     "A108062"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

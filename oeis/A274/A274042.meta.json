@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n - 53, n - 1, n + 1, n + 53 are consecutive primes.",
+  "description": "Numbers k such that k - 53, k - 1, k + 1, k + 53 are consecutive primes.",
   "id": "A274042",
   "mentions": [
     "A014574",

@@ -2,7 +2,8 @@
   "description": "Number of n X n matrices over GF(4) with rank 1.",
   "id": "A060869",
   "mentions": [
-    "A060716"
+    "A060716",
+    "A379587"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

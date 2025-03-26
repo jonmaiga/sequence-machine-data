@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least number k that has exactly n divisors <= sqrt(k) of the form 4*j+3.",
+  "id": "A379683",
+  "mentions": [
+    "A364387"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

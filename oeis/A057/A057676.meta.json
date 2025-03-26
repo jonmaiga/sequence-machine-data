@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime q(n) such that -q(n)+2^p(n) is a prime, where p(n) = n-th prime.",
+  "description": "Smallest prime q such that 2^prime(n) - q is prime.",
   "id": "A057676",
   "mentions": [
     "A056206",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

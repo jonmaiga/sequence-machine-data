@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (7*n^6 - 21*n^5 + 55*n^4 - 75*n^3 + 70*n^2 - 36*n + 8)/8.",
+  "id": "A380502",
+  "mentions": [
+    "A005448",
+    "A075664",
+    "A380353"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

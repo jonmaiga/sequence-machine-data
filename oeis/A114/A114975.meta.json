@@ -1,8 +1,11 @@
 {
-  "description": "11^n+n^11 is semiprime.",
+  "description": "Numbers k such that 11^k + k^11 is semiprime.",
   "id": "A114975",
-  "mentions": [],
+  "mentions": [
+    "A001358"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

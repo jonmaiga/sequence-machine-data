@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be written in exactly five different ways as a sum of at most nine positive third powers.",
+  "id": "A379400",
+  "mentions": [
+    "A002804",
+    "A025453",
+    "A379396",
+    "A379397",
+    "A379398",
+    "A379399"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

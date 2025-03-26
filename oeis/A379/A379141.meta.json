@@ -1,0 +1,19 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = numerator of Sum 1/k_j.",
+  "id": "A379141",
+  "mentions": [
+    "A001222",
+    "A005361",
+    "A028235",
+    "A028236"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

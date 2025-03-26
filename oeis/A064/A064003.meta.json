@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose product of decimal digits = sum of binary digits.",
+  "description": "Numbers whose product of decimal digits equals its sum of binary digits.",
   "id": "A064003",
   "mentions": [
     "A000120",

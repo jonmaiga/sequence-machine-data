@@ -1,0 +1,23 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = (n + 1)*binomial(2*k + n - 1, k - 1)^2 / (2*k + n - 1) for k > 0, and A(n, 0) = 0.",
+  "id": "A378062",
+  "mentions": [
+    "A000891",
+    "A005563",
+    "A005565",
+    "A145600",
+    "A145601",
+    "A145602",
+    "A145603",
+    "A378061"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

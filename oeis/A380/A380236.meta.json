@@ -1,0 +1,16 @@
+{
+  "description": "Number of non-orientable genus n maps with n edges.",
+  "id": "A380236",
+  "mentions": [
+    "A380235"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

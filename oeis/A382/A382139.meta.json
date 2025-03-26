@@ -1,0 +1,20 @@
+{
+  "description": "Number of matchings of [2n] with no coupled arcs.",
+  "id": "A382139",
+  "mentions": [
+    "A001147",
+    "A047974",
+    "A053871",
+    "A067994",
+    "A382134"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

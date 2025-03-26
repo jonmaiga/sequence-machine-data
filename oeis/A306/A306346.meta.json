@@ -1,12 +1,14 @@
 {
-  "description": "Irregular array read by rows: row 1 = [0]; for n > 1, if row n = [r_1,...,r_k] then row n+1 contains [row n, r_(k+1),..., r_q] where each r_i for i = k+1,...,q is the number of consecutive identical integers counted from left to right in the row n.",
+  "description": "Start with the sequence S(1) = [0], and for n >= 1 define S(n+1) to equal the concatenation of S(n) with the RUNS transform of S(n) when read in reverse order. This sequence is the limit of that process as n goes to infinity.",
   "id": "A306346",
   "mentions": [
-    "A000002"
+    "A000002",
+    "A381356",
+    "A381357",
+    "A381587"
   ],
   "tags": [
-    "nonn",
-    "tabf"
+    "nonn"
   ],
   "terms": {
     "offset": 1,

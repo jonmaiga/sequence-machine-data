@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a truncated dodecahedron.",
+  "id": "A381692",
+  "mentions": [
+    "A000796",
+    "A002163",
+    "A002194",
+    "A010476",
+    "A377694",
+    "A377695",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

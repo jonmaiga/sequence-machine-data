@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the prime index of the largest prime dividing k is smaller than or equal to the minimum exponent in the prime factorization of k; a(1) = 1 by convention.",
+  "id": "A380733",
+  "mentions": [
+    "A001694",
+    "A006530",
+    "A051904",
+    "A061395",
+    "A380695",
+    "A380730",
+    "A380731",
+    "A380732"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

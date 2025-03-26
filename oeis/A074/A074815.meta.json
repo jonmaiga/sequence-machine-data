@@ -1,5 +1,5 @@
 {
-  "description": "n is a term iff there are no prime numbers between reverse(n) and 3*n.",
+  "description": "Numbers k such that there are no prime numbers between reverse(k) and 3*k.",
   "id": "A074815",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 22,
+    "offset": 1,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

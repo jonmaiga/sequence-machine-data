@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. hypergeom([1/2, 3/4, 5/4], [1, 3/2], 256*x).",
+  "id": "A381292",
+  "mentions": [
+    "A001044",
+    "A277757"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

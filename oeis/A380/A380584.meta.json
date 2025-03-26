@@ -1,0 +1,20 @@
+{
+  "description": "Number of positive integers <= n that have the same sum of odd divisors as n.",
+  "id": "A380584",
+  "mentions": [
+    "A000593",
+    "A263025",
+    "A337557",
+    "A380653",
+    "A380654"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

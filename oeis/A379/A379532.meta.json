@@ -1,0 +1,19 @@
+{
+  "description": "Ulam numbers that are products of exactly four distinct primes (or tetraprimes).",
+  "id": "A379532",
+  "mentions": [
+    "A002858",
+    "A046386",
+    "A068820",
+    "A378795",
+    "A379162"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

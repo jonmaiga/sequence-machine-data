@@ -1,5 +1,5 @@
 {
-  "description": "Primes modulo 23.",
+  "description": "a(n) = n-th prime modulo 23.",
   "id": "A229786",
   "mentions": [
     "A000027",

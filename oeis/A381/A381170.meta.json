@@ -1,0 +1,18 @@
+{
+  "description": "Euler transform of n^2 * A065959(n).",
+  "id": "A381170",
+  "mentions": [
+    "A065959",
+    "A156733",
+    "A381709"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

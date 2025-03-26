@@ -2,7 +2,8 @@
   "description": "Palindromic even numbers with exactly 2 prime factors (counted with multiplicity). Equivalently, palindromic numbers of the form 2*p with p prime.",
   "id": "A075813",
   "mentions": [
-    "A001747"
+    "A001747",
+    "A046328"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

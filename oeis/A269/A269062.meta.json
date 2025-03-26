@@ -1,5 +1,5 @@
 {
-  "description": "Magic sums of 3 X 3 semimagic squares composed of triangular numbers and squares.",
+  "description": "Magic sums of 3 X 3 semimagic squares composed of positive triangular numbers and squares.",
   "id": "A269062",
   "mentions": [
     "A269060",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

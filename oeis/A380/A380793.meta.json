@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the acute vertex angles, in radians, in a triakis icosahedron face.",
+  "id": "A380793",
+  "mentions": [
+    "A001622",
+    "A378973",
+    "A378974",
+    "A378976",
+    "A378977",
+    "A380794"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

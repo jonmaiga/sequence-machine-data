@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet convolution of sigma with A359579.",
+  "id": "A379108",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A054784",
+    "A209229",
+    "A336923",
+    "A359579",
+    "A379109"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

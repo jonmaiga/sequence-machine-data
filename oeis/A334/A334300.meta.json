@@ -18,16 +18,18 @@
     "A333257",
     "A334299",
     "A334967",
-    "A334968"
+    "A334968",
+    "A357625"
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 83,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

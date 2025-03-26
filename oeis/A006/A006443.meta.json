@@ -1,17 +1,23 @@
 {
-  "description": "Number of connected planar maps with n edges.",
+  "description": "Number of achiral planar maps with n edges.",
   "id": "A006443",
   "mentions": [
+    "A006384",
+    "A006385",
+    "A006444",
+    "A006445",
     "A007401",
-    "A054936"
+    "A380234"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 19,
+    "offset": 0,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

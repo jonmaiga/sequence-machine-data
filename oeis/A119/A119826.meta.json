@@ -2,7 +2,7 @@
   "description": "Number of ternary words of length n with no 000's.",
   "id": "A119826",
   "mentions": [
-    "A000739",
+    "A000073",
     "A048996",
     "A077835",
     "A119825",

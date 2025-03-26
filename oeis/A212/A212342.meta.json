@@ -2,18 +2,19 @@
   "description": "Sequence of coefficients of x^0 in marked mesh pattern generating function Q_{n,132}^(0,3,0,0)(x).",
   "id": "A212342",
   "mentions": [
+    "A000096",
     "A132337",
     "A201163",
     "A212346"
   ],
   "tags": [
+    "easy",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 65,
+    "source": "joeis"
   }
 }

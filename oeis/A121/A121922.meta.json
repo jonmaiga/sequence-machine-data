@@ -1,5 +1,5 @@
 {
-  "description": "The result of the integration of (-rho*exp(-rho*s*t)*t^j*s*log(1+t),t=0..infinity) can be written as (F(u,j)*exp(u)*Ei(1,u) + G(u,j))/u^j, where rho>0, s>0, and u=rho*s. Sequence is the regular triangle corresponding to G(u,j).",
+  "description": "The result of the integration Integral_{t=0..oo} -rho*exp(-rho*s*t)*t^j*s*log(1+t) dt can be written as (F(u,j)*exp(u)*Ei(1,u) + G(u,j))/u^j, where rho>0, s>0, and u=rho*s. Sequence is the regular triangle corresponding to G(u,j).",
   "id": "A121922",
   "mentions": [
     "A000254",

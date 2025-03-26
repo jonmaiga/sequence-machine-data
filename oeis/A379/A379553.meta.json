@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k in A376936 that set records in A379552.",
+  "id": "A379553",
+  "mentions": [
+    "A002110",
+    "A025487",
+    "A376936",
+    "A379552",
+    "A379554"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

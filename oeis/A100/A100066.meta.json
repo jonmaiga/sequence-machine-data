@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x/((1-x)sqrt(1-4x^2)).",
+  "description": "Expansion of x/((1-x)*sqrt(1-4*x^2)).",
   "id": "A100066",
   "mentions": [
     "A000108",

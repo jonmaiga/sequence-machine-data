@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of regions between the free polyominoes, with n cells and length k, and their bounding boxes, n >= 1, k >= 1.",
+  "id": "A380284",
+  "mentions": [
+    "A000004",
+    "A000105",
+    "A063524",
+    "A379624",
+    "A379625",
+    "A379627",
+    "A379628",
+    "A379629",
+    "A379638",
+    "A380282",
+    "A380283",
+    "A380285"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

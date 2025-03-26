@@ -1,0 +1,21 @@
+{
+  "description": "Ordered short legs of the Pythagorean triangles defined by a = 2^(4n) + 2^(2n+1), b = 2^(4n) - 2^(4n-2) - 2^(2n) - 1, c = 2^(4n) + 2^(4n-2) + 2^(2n) + 1.",
+  "id": "A381005",
+  "mentions": [
+    "A020884",
+    "A381006",
+    "A381007",
+    "A381008",
+    "A381009"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

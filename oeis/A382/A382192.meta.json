@@ -1,0 +1,18 @@
+{
+  "description": "Number of components of the graph with code A076184(n).",
+  "id": "A382192",
+  "mentions": [
+    "A002494",
+    "A076184",
+    "A382193"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

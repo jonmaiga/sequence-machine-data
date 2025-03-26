@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that can be expressed in the form k = floor(prime(i)/2) * prime(i)^e, for some e, i > 0, where prime(i) = A000040(i).",
+  "id": "A379956",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000244",
+    "A130290",
+    "A217983",
+    "A379955"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

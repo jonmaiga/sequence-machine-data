@@ -1,7 +1,8 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^5*[A(x*A(x)^5)]^5.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^5 * A(x*A(x)^5)^5.",
   "id": "A120977",
   "mentions": [
+    "A110447",
     "A120971",
     "A120973",
     "A120975",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

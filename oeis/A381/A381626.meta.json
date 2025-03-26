@@ -1,0 +1,21 @@
+{
+  "description": "Number of horizontal plane Brown's diagonal Latin squares of order 2n.",
+  "id": "A381626",
+  "mentions": [
+    "A292516",
+    "A339641",
+    "A340186",
+    "A379145"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

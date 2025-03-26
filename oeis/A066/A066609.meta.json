@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = remainder when 5^n is divided by n^5.",
+  "description": "a(n) = 5^n mod n^5.",
   "id": "A066609",
-  "mentions": [],
+  "mentions": [
+    "A066606"
+  ],
   "tags": [
     "nonn"
   ],

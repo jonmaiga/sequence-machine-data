@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (108)^(1/5).",
+  "id": "A380897",
+  "mentions": [
+    "A222132"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

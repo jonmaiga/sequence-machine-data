@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp( 1 - 1/(1-3*x)^(1/3) ).",
+  "id": "A380309",
+  "mentions": [
+    "A000587",
+    "A007559",
+    "A015735",
+    "A145561",
+    "A380308",
+    "A380310"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

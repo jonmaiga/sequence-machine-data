@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum connected dominating sets in the n-Keller graph.",
+  "id": "A381761",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

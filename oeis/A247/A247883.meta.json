@@ -1,11 +1,12 @@
 {
-  "description": "Consecutive exclusionary cubes: Digits of n are not present in n^3 and digits of n+1 are not present in n+1.",
+  "description": "Consecutive exclusionary cubes: Digits of n are not present in n^3 and digits of n+1 are not present in (n+1)^3.",
   "id": "A247883",
   "mentions": [
     "A029785"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

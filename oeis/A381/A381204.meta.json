@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the gcd of the elements of the set of bases and exponents in the prime factorization of n.",
+  "id": "A381204",
+  "mentions": [
+    "A368107",
+    "A381201",
+    "A381202",
+    "A381203",
+    "A381205"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Numbers m whose sum of unitary divisors different from 1 and m is prime.",
+  "id": "A380983",
+  "mentions": [
+    "A034448"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

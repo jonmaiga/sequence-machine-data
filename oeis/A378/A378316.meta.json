@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2. For n > 2, a(n) is the sum of the digits of a(n-2) plus the sum of the same digits occurring in all terms a(i); 1 <= i <= n-2.",
+  "id": "A378316",
+  "mentions": [
+    "A007953",
+    "A279818",
+    "A378359",
+    "A378360"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

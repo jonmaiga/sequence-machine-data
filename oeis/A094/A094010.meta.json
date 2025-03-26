@@ -1,17 +1,19 @@
 {
-  "description": "Least number k such that k! in binary representation has n consecutive nontrivial zeros.",
+  "description": "Least number k such that k! in binary representation contains a run of exactly n consecutive nontrivial zeros.",
   "id": "A094010",
   "mentions": [
     "A011371",
     "A094009"
   ],
   "tags": [
+    "base",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

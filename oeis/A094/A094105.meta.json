@@ -1,8 +1,9 @@
 {
-  "description": "Primes of the form prime(n) + 2*prime(n+1).",
+  "description": "Primes of the form prime(k) + 2*prime(k+1).",
   "id": "A094105",
   "mentions": [
-    "A094104"
+    "A094104",
+    "A364411"
   ],
   "tags": [
     "easy",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

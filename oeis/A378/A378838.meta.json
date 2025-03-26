@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of n-digit nonnegative integers with the mean of the digits equal to the digital root.",
+  "id": "A378838",
+  "mentions": [
+    "A007494",
+    "A010888",
+    "A378560",
+    "A378564",
+    "A378835",
+    "A378836",
+    "A378837"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

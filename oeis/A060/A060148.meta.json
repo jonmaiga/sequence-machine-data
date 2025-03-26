@@ -1,5 +1,5 @@
 {
-  "description": "Number of forest meanders with 2n crossings.",
+  "description": "Number of closed forest meander systems with 2n crossings.",
   "id": "A060148",
   "mentions": [
     "A005315",
@@ -9,15 +9,17 @@
     "A060149",
     "A060174",
     "A060198",
-    "A060206"
+    "A060206",
+    "A380368"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
+    "offset": 0,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct degree sequences among all simple graphs with n vertices whose degrees are consecutive integers.",
+  "id": "A382021",
+  "mentions": [
+    "A000088",
+    "A004251",
+    "A005176",
+    "A381586"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

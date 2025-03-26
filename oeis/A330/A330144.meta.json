@@ -1,5 +1,5 @@
 {
-  "description": "Beatty sequence for (5/2)^x, where (3/2)^x + (5/2)^x = 1.",
+  "description": "Beatty sequence for (5/2)^x, where (2/3)^x + (2/5)^x = 1.",
   "id": "A330144",
   "mentions": [
     "A329825",

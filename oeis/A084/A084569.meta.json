@@ -2,7 +2,8 @@
   "description": "Partial sums of A084570.",
   "id": "A084569",
   "mentions": [
-    "A084570"
+    "A084570",
+    "A116701"
   ],
   "tags": [
     "easy",

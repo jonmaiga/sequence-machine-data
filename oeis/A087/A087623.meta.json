@@ -1,8 +1,9 @@
 {
-  "description": "Triangle read by rows: T(m,n) is the cardinality of the set {k in [1,n-1] : gcd(k,n)=m}.",
+  "description": "Square array A(n,k) = the cardinality of the set {x in [1,k-1] : gcd(x,k)=n}, read by rising antidiagonals.",
   "id": "A087623",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A054523"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 72,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

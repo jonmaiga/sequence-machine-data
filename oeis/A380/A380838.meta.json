@@ -1,0 +1,17 @@
+{
+  "description": "Values of terms in A380837 which are not in A379066.",
+  "id": "A380838",
+  "mentions": [
+    "A377091",
+    "A379066",
+    "A380837"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

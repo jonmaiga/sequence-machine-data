@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a tetrakis hexahedron.",
+  "id": "A382004",
+  "mentions": [
+    "A000796",
+    "A002163",
+    "A374359",
+    "A378388",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

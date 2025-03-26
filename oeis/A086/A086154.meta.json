@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(3^n,2^n).",
+  "description": "a(n) = binomial(3^n,2^n).",
   "id": "A086154",
   "mentions": [
     "A023265"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 0,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

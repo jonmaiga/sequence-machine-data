@@ -1,0 +1,19 @@
+{
+  "description": "Number of perfect powers (in A001597) that do not exceed primorial A002110(n).",
+  "id": "A380337",
+  "mentions": [
+    "A001597",
+    "A002110",
+    "A070228",
+    "A070428",
+    "A380254"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

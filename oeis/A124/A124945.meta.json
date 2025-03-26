@@ -1,5 +1,5 @@
 {
-  "description": "n and n+10 are 10-almost primes.",
+  "description": "Numbers k such that k and k+10 are 10-almost primes.",
   "id": "A124945",
   "mentions": [
     "A098515",

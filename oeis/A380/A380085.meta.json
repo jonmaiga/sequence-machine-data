@@ -1,0 +1,25 @@
+{
+  "description": "The largest unitary divisor of n that is a term in A276078.",
+  "id": "A380085",
+  "mentions": [
+    "A000720",
+    "A077610",
+    "A276078",
+    "A325127",
+    "A377515",
+    "A380086",
+    "A380087",
+    "A380088"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

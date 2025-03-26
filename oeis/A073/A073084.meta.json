@@ -2,7 +2,8 @@
   "description": "Decimal expansion of -x, where x is the negative solution to the equation 2^x = x^2.",
   "id": "A073084",
   "mentions": [
-    "A010503"
+    "A010503",
+    "A344905"
   ],
   "tags": [
     "cons",

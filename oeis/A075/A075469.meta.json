@@ -2,6 +2,7 @@
   "description": "Maximal m such that n^n-m and n^n+m are both primes, or -1 if there is no such m.",
   "id": "A075469",
   "mentions": [
+    "A000312",
     "A047949",
     "A075468"
   ],

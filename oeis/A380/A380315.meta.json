@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of sum of reciprocals of all prime divisors of all positive integers <= n.",
+  "id": "A380315",
+  "mentions": [
+    "A000720",
+    "A007947",
+    "A013939",
+    "A024924",
+    "A028235",
+    "A284650",
+    "A379368",
+    "A379370",
+    "A380314"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

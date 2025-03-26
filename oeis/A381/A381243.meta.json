@@ -1,0 +1,20 @@
+{
+  "description": "Number of hyperplanes defined by the nonzero differences of two permutations of order n.",
+  "id": "A381243",
+  "mentions": [
+    "A019589",
+    "A175176",
+    "A362968",
+    "A381244",
+    "A381339"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

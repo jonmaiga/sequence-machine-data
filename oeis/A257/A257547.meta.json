@@ -1,5 +1,5 @@
 {
-  "description": "Even side of integer-sided triangle such that the area is integer and two sides are twin primes.",
+  "description": "Even side of integer-sided triangle such that the area is an integer and two sides are twin primes.",
   "id": "A257547",
   "mentions": [
     "A001097",

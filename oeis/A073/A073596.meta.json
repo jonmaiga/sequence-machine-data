@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of exp(x)*log(1-x)/(x-1).",
+  "description": "Expansion of e.g.f. exp(x) * log(1-x)/(x-1).",
   "id": "A073596",
   "mentions": [
     "A000254",
-    "A001620"
+    "A001620",
+    "A269951"
   ],
   "tags": [
     "easy",

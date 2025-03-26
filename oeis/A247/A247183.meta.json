@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the largest n-digit odd number concatenated with the smallest n-digit odd number is prime.",
+  "description": "Numbers k such that the largest k-digit odd number concatenated with the smallest k-digit odd number is prime.",
   "id": "A247183",
   "mentions": [
     "A247182"

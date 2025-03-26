@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the partial alternating sums of the reciprocals of the powerfree part function (A055231).",
+  "id": "A379582",
+  "mentions": [
+    "A055231",
+    "A370900",
+    "A370901",
+    "A379580",
+    "A379581"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

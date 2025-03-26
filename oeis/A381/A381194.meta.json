@@ -1,0 +1,14 @@
+{
+  "description": "Number of equal-length matchings of 2n uniformly spaced points on a circle.",
+  "id": "A381194",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

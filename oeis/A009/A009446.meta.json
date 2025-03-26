@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. sin(x*cos(x)) (odd powers only)",
+  "description": "Expansion of e.g.f. sin(x*cos(x)) (odd powers only).",
   "id": "A009446",
   "mentions": [],
   "tags": [

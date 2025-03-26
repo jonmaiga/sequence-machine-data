@@ -1,5 +1,5 @@
 {
-  "description": "Eulerian numbers (Euler's triangle: column k=4 of A008292, column k=3 of A173018)",
+  "description": "Eulerian numbers (Euler's triangle: column k=4 of A008292, column k=3 of A173018).",
   "id": "A000498",
   "mentions": [
     "A000217",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 4,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

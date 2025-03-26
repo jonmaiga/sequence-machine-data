@@ -2,7 +2,6 @@
   "description": "Complement of the Beatty sequence for sqrt(Pi*phi), where phi is the golden ratio.",
   "id": "A253301",
   "mentions": [
-    "A000796",
     "A001622",
     "A094886",
     "A252169"

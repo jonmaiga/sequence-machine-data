@@ -1,14 +1,16 @@
 {
   "description": "E.g.f. tan(tan(x)^2) (even powers only).",
   "id": "A009710",
-  "mentions": [],
+  "mentions": [
+    "A024290"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "joeis"
   }
 }

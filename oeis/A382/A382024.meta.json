@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of transversals in a Brown's diagonal Latin square of order 2n.",
+  "id": "A382024",
+  "mentions": [
+    "A287644",
+    "A339641"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

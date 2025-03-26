@@ -1,5 +1,5 @@
 {
-  "description": "Central factorial numbers.",
+  "description": "Central factorial numbers: 3rd subdiagonal of A008955.",
   "id": "A001821",
   "mentions": [
     "A008955",

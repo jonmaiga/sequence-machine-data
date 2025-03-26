@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n which are anagrams of n+9.",
+  "description": "Numbers k which are anagrams of k+9.",
   "id": "A228157",
   "mentions": [],
   "tags": [

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of arcsinh(Pi).",
   "id": "A360938",
   "mentions": [
+    "A188725",
     "A359540",
     "A361518",
     "A361519"

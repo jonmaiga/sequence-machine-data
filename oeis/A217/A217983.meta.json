@@ -1,12 +1,19 @@
 {
-  "description": "a(A130290(n) * A000040(n)^n1) = A000040(n), n >= 1 and n1 >= 1, and a(n) = 1 elsewhere.",
+  "description": "If n = floor(p/2) * p^e, for some (by necessity unique) prime p and exponent e > 0, then a(n) = p, otherwise a(n) = 1.",
   "id": "A217983",
   "mentions": [
     "A000040",
+    "A000079",
+    "A000244",
+    "A008837",
     "A014963",
+    "A020699",
+    "A121057",
     "A128060",
     "A130290",
-    "A160479"
+    "A160479",
+    "A169634",
+    "A379956"
   ],
   "tags": [
     "formulas",
@@ -14,7 +21,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 78,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

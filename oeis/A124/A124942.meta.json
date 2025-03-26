@@ -1,5 +1,5 @@
 {
-  "description": "n and n+5 are 5-almost primes.",
+  "description": "Numbers k such that k and k+5 are 5-almost primes.",
   "id": "A124942",
   "mentions": [
     "A124940",

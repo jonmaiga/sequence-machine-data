@@ -1,12 +1,30 @@
 {
-  "description": "Let d_1 ... d_k be the divisors of n. Then a(n) = min_{ e_1 = +-1, ... e_k = +-1 } | Sum_i e_i d_i |.",
+  "description": "Zumkeller deficiency of n: Let d_1 ... d_k be the divisors of n. Then a(n) = min_{ e_1 = +-1, ... e_k = +-1 } | Sum_i e_i d_i |.",
   "id": "A103977",
   "mentions": [
+    "A000027",
+    "A000396",
     "A005835",
     "A023196",
+    "A033879",
+    "A058377",
+    "A083206",
     "A083207",
+    "A119347",
     "A125732",
-    "A125733"
+    "A125733",
+    "A263837",
+    "A378600",
+    "A378643",
+    "A378644",
+    "A378645",
+    "A378646",
+    "A378647",
+    "A378648",
+    "A378649",
+    "A379503",
+    "A379504",
+    "A379505"
   ],
   "tags": [
     "formulas",

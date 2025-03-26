@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the difference between the largest and smallest element of the set of bases and exponents (including exponents = 1) in the prime factorization of n.",
+  "id": "A381214",
+  "mentions": [
+    "A046665",
+    "A051674",
+    "A081812",
+    "A381212",
+    "A381215"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

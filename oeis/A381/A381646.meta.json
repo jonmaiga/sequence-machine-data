@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4^n - 2*3^(n-1)*(n+3) + 2^(n-2)*(n^2+3*n+4).",
+  "id": "A381646",
+  "mentions": [
+    "A112495",
+    "A380024",
+    "A380249"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

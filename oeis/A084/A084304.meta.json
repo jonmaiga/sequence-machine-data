@@ -2,6 +2,7 @@
   "description": "Continued fraction expansion of tanh(Pi^2).",
   "id": "A084304",
   "mentions": [
+    "A060402",
     "A083124"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 93,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

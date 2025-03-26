@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of log(cosh(1)).",
+  "id": "A379356",
+  "mentions": [
+    "A073743"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

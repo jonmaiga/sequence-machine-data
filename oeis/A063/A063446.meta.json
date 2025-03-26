@@ -1,8 +1,10 @@
 {
-  "description": "Integers m such that d(m+1) = 2d(m) where d=A000005.",
+  "description": "Integers m such that d(m+1) = 2*d(m), where d(m) = A000005(m).",
   "id": "A063446",
   "mentions": [
-    "A000005"
+    "A000005",
+    "A063449",
+    "A063450"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

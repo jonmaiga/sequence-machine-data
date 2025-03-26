@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} binomial(2*n-2,k)/(n-k)!.",
+  "id": "A380492",
+  "mentions": [
+    "A082545",
+    "A152059",
+    "A251568",
+    "A293985",
+    "A343832",
+    "A380491",
+    "A380493"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,18 +1,16 @@
 {
-  "description": "This sequence needs a meaningful name.",
+  "description": "A sequence of triples arising from a matrix calculation, in particular let m = floor(n/3), then (a(3*m), a(3*m+1), a(3*m+2)) = M^(m*(m+1)/n) * (0, 1, 1) where M is the matrix [[1,0,1], [1,1,0], [-1,1,0]].",
   "id": "A103191",
   "mentions": [
     "A103193"
   ],
   "tags": [
     "less",
-    "nonn",
-    "obsc",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

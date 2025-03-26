@@ -1,0 +1,24 @@
+{
+  "description": "Areas of trapezoids with exactly one pair of parallel sides having prime sides and height.",
+  "id": "A378675",
+  "mentions": [
+    "A000040",
+    "A027750",
+    "A070088",
+    "A214602",
+    "A365049",
+    "A366398",
+    "A374594",
+    "A378148",
+    "A378149",
+    "A378150"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

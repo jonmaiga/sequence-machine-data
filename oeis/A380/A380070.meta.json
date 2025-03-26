@@ -1,0 +1,18 @@
+{
+  "description": "Square pyramidal numbers sp(n) with a zeroless decimal representation such that (product of decimal digits of sp(n)) / n is an integer.",
+  "id": "A380070",
+  "mentions": [
+    "A000330",
+    "A007954",
+    "A052382"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

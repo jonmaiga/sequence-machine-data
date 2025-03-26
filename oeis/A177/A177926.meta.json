@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = ((n-th-prime - 1)!)^2",
+  "description": "a(n) = ((prime(n) - 1)!)^2.",
   "id": "A177926",
   "mentions": [
     "A177771"

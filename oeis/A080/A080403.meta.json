@@ -1,8 +1,8 @@
 {
-  "description": "Numbers n such that both A000213(n) and A001157(n) are squarefree: sum of divisors and squares of divisors of n are squarefree.",
+  "description": "Numbers n such that both A000203(n) and A001157(n) are squarefree: sum of divisors and squares of divisors of n are squarefree.",
   "id": "A080403",
   "mentions": [
-    "A000213",
+    "A000203",
     "A001157",
     "A065300",
     "A080401",

@@ -1,0 +1,17 @@
+{
+  "description": "Distinct elements of A105774.",
+  "id": "A382112",
+  "mentions": [
+    "A105774",
+    "A382113"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

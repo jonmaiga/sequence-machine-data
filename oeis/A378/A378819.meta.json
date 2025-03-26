@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of distinct nondegenerate triangles whose sides are prime factors of n.",
+  "id": "A378819",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001221",
+    "A007947",
+    "A070088",
+    "A306678",
+    "A316841",
+    "A316842",
+    "A366398",
+    "A378820",
+    "A379033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Centered triangular numbers that are deficient.",
+  "id": "A381647",
+  "mentions": [
+    "A000217",
+    "A005100",
+    "A005448",
+    "A377747"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

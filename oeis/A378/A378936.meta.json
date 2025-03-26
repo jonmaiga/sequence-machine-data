@@ -1,0 +1,17 @@
+{
+  "description": "Number of minimal edge cuts in the n X n rook graph.",
+  "id": "A378936",
+  "mentions": [
+    "A286189",
+    "A378935"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

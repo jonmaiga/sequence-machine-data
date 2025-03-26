@@ -1,0 +1,16 @@
+{
+  "description": "Composite squarefree integers for which the sum of the squares of their factors is a square.",
+  "id": "A379780",
+  "mentions": [
+    "A005117",
+    "A134605"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,12 +1,14 @@
 {
-  "description": "Array: each row starts with the least prime not in a previous row, and each prime p in a row is followed by the greatest prime < 2*p.",
+  "description": "Square array read by antidiagonals downwards in which each row starts with the least prime not in a previous row, and each prime p in a row is followed by the greatest prime < 2*p.",
   "id": "A229607",
   "mentions": [
     "A006992",
     "A104272",
+    "A164368",
     "A229608",
     "A229609",
-    "A229610"
+    "A229610",
+    "A380277"
   ],
   "tags": [
     "nonn",
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

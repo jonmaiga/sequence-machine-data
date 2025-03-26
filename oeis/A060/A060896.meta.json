@@ -1,5 +1,5 @@
 {
-  "description": "n^12 - n^6 + 1.",
+  "description": "a(n) = n^12 - n^6 + 1.",
   "id": "A060896",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

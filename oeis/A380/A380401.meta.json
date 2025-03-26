@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of necklace permutations of a multiset whose multiplicities are given by the k-th partition of n in graded reflected lexicographic order.",
+  "id": "A380401",
+  "mentions": [
+    "A000041",
+    "A072605",
+    "A080576",
+    "A212359",
+    "A214609",
+    "A318810",
+    "A334434"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

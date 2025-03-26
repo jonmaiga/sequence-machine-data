@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the k-th prime is a power of two reversed.",
+  "id": "A379938",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000720",
+    "A004087",
+    "A004094",
+    "A057708",
+    "A102385"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

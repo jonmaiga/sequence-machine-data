@@ -1,0 +1,18 @@
+{
+  "description": "Table T(r,s) read by rows: the coefficient of [k^s] of the Wynn's r-th converging polynomial p_r(k) of Weber functions, 0<=s<=r.",
+  "id": "A380169",
+  "mentions": [
+    "A001662",
+    "A001664",
+    "A380170"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

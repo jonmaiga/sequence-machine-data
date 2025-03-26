@@ -1,12 +1,14 @@
 {
-  "description": "n-th even number not a power of 2 whose largest and smallest factors do not add or subtract to a twin prime.",
+  "description": "Twice odd isolated primes.",
   "id": "A085434",
   "mentions": [
     "A052369",
-    "A056608"
+    "A056608",
+    "A134797"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

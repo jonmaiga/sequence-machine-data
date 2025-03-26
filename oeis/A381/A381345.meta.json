@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1/( 1 - x * cos(sqrt(2)*x) ).",
+  "id": "A381345",
+  "mentions": [
+    "A185951",
+    "A205571",
+    "A352252",
+    "A381280",
+    "A381281",
+    "A381282",
+    "A381283",
+    "A381344"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

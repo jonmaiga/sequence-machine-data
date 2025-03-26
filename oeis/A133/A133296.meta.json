@@ -2,15 +2,18 @@
   "description": "Smallest number whose sum of digits is 2n.",
   "id": "A133296",
   "mentions": [
-    "A051885"
+    "A051885",
+    "A131668"
   ],
   "tags": [
     "base",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

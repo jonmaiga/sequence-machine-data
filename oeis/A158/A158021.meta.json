@@ -2,7 +2,9 @@
   "description": "Primes such that p, 10*p-1 and (p-1)/2 are all prime.",
   "id": "A158021",
   "mentions": [
-    "A059455"
+    "A000040",
+    "A059455",
+    "A158019"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

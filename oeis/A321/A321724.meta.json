@@ -1,10 +1,11 @@
 {
-  "description": "Irregular triangle read by rows where T(n,d) is the number of non-isomorphic non-normal semi-magic square multiset partitions of weight n and length d|n.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of non-isomorphic non-normal semi-magic square multiset partitions of weight n and length d = A027750(n, k).",
   "id": "A321724",
   "mentions": [
     "A006052",
     "A007016",
     "A007716",
+    "A027750",
     "A057150",
     "A120732",
     "A271103",

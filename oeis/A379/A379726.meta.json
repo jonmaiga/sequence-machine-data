@@ -1,0 +1,21 @@
+{
+  "description": "Minimum number of kings that must be placed on an n X n chessboard such that each square is attacked or occupied by at least two kings.",
+  "id": "A379726",
+  "mentions": [
+    "A001105",
+    "A014105",
+    "A075561",
+    "A093353",
+    "A379759",
+    "A379766"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

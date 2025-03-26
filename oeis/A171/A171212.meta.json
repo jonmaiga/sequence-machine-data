@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: A(x) = x + x*A(A(2x)).",
+  "description": "G.f.: A(x) satisfies A(x) = x + x*A(A(2*x)).",
   "id": "A171212",
   "mentions": [
     "A171213",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 15,
+    "source": "joeis"
   }
 }

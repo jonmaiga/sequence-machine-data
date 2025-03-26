@@ -1,0 +1,20 @@
+{
+  "description": "The total number of fires in a rooted undirected infinite 5-ary tree with a self-loop at the root, when the chip-firing process starts with (5^n-1)/4 chips at the root.",
+  "id": "A378728",
+  "mentions": [
+    "A014917",
+    "A045618",
+    "A212337",
+    "A378727"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

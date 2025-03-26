@@ -2,6 +2,7 @@
   "description": "Smallest number that can be obtained by starting with 1 and applying \"Choix de Bruxelles (version 2)\" (see A323460) n times without backtracking or repeating.",
   "id": "A334629",
   "mentions": [
+    "A307635",
     "A323454",
     "A323460"
   ],

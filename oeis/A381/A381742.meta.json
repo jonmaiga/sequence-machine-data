@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^2 is abundant but d*k is nonabundant for any proper divisor d of k.",
+  "id": "A381742",
+  "mentions": [
+    "A005101",
+    "A091191",
+    "A174265",
+    "A263837",
+    "A341358",
+    "A379949",
+    "A379950",
+    "A381738"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

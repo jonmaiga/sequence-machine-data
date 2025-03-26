@@ -1,17 +1,20 @@
 {
-  "description": "a(n) = d0(d1(w)) - d1(d0(w)), where d0()=number of divisors, d1()=sum of divisors.",
+  "description": "a(n) = d(sigma(n)) - sigma(d(n)), where d(n) is the number of divisors of n and sigma(n) is their sum.",
   "id": "A076360",
   "mentions": [
     "A000005",
-    "A000203"
+    "A000203",
+    "A062068",
+    "A062069"
   ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "First occurrence of n as a term in the continued fraction for zeta(2)=Pi^2/6.",
   "id": "A076590",
   "mentions": [
+    "A013679",
     "A032523"
   ],
   "tags": [

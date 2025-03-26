@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the greatest prime < 10^k and the least prime > 10^k share no decimal digits.",
+  "id": "A379140",
+  "mentions": [
+    "A003617",
+    "A003618",
+    "A107801"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,10 @@
   "description": "a(1) = 3 ; a(n+1) is the prime number obtained by the concatenation {p, a(n)} where p is the smallest prime prefix.",
   "id": "A202997",
   "mentions": [
-    "A173291"
+    "A173291",
+    "A379354",
+    "A379355",
+    "A379782"
   ],
   "tags": [
     "base",

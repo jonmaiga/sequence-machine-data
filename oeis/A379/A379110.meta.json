@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet inverse of A324892, where A324892 is multiplicative with a(p^e) = p^e if sigma(p^e) is prime, and 1 otherwise.",
+  "id": "A379110",
+  "mentions": [
+    "A000203",
+    "A324892"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

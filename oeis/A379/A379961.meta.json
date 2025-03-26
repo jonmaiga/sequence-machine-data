@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A276086(k)-1 is a perfect power (A001597), where A276086 is the primorial base exp-function.",
+  "id": "A379961",
+  "mentions": [
+    "A001597",
+    "A276086",
+    "A379960",
+    "A379962"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

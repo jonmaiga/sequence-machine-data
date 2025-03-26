@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) read by rows: Row n gives the coefficients of the even powers in Product_{t=1..n}(2*x - (2*t - 1))*Product_{t=1..n}(2*x + (2*t - 1)).",
+  "id": "A380570",
+  "mentions": [
+    "A000302",
+    "A001818",
+    "A001824",
+    "A001825",
+    "A008956",
+    "A380612"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

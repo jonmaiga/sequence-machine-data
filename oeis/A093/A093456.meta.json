@@ -2,15 +2,19 @@
   "description": "Product of composite numbers among next n numbers.",
   "id": "A093456",
   "mentions": [
-    "A093455"
+    "A000217",
+    "A057003",
+    "A093455",
+    "A093457"
   ],
   "tags": [
+    "formulas",
     "less",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

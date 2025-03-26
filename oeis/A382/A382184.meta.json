@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k >= 0 such that the factorial base expansion of n starts with that of k while the remaining digits are zeros.",
+  "id": "A382184",
+  "mentions": [
+    "A000265",
+    "A004151",
+    "A153880",
+    "A273670",
+    "A382177",
+    "A382217"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

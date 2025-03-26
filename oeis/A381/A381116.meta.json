@@ -1,0 +1,17 @@
+{
+  "description": "Indices of composite terms in A381019.",
+  "id": "A381116",
+  "mentions": [
+    "A381019",
+    "A381115",
+    "A381117"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

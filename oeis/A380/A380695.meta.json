@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the prime index of the least prime dividing k is larger than or equal to the maximum exponent in the prime factorization of k; a(1) = 1 by convention.",
+  "id": "A380695",
+  "mentions": [
+    "A000720",
+    "A020639",
+    "A051903",
+    "A055396",
+    "A368110",
+    "A380692",
+    "A380693",
+    "A380694"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

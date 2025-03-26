@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 0, a(1) = 1, and for any n > 0, if a(n) - sign(a(n)) is not yet in the sequence then a(n+1) = a(n) - sign(a(n)), otherwise a(n+1) is the least integer (in absolute value) of opposite sign to a(n), at square distance from a(n) and not yet in the sequence.",
+  "id": "A380357",
+  "mentions": [
+    "A377091",
+    "A380356"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

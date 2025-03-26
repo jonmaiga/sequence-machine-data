@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the semiprimes which are less than or equal to n minus the sum of the primes which are less than or equal to n.",
+  "id": "A378764",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007504",
+    "A062198",
+    "A243906"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

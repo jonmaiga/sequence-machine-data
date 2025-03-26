@@ -1,7 +1,9 @@
 {
   "description": "Smallest prime factor of n^2 + n + 1.",
   "id": "A209189",
-  "mentions": [],
+  "mentions": [
+    "A031214"
+  ],
   "tags": [
     "nonn"
   ],

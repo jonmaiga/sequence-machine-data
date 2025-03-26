@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest multiple k*n that contains all the distinct digits of n, where k > 0 must have at least one digit > 1.",
+  "id": "A381700",
+  "mentions": [
+    "A380885"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

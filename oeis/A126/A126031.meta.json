@@ -1,16 +1,29 @@
 {
-  "description": "a(n) is largest prime < 3*a(n-1).",
+  "description": "a(n) is the largest prime < 3*a(n-1) for n > 1, with a(1) = 2.",
   "id": "A126031",
   "mentions": [
-    "A006902",
-    "A040016"
+    "A006992",
+    "A124190",
+    "A124262",
+    "A124339",
+    "A124361",
+    "A124362",
+    "A124364",
+    "A124368",
+    "A126033",
+    "A126034",
+    "A126035",
+    "A126036",
+    "A126037",
+    "A126039",
+    "A126040"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "joeis"
   }
 }

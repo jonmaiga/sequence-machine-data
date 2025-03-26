@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies 2*x = Sum_{n=-oo..+oo} (-1)^n * x^(2*n) * (A(x) + x^n)^(2*n) with A(0) = 1.",
+  "id": "A380681",
+  "mentions": [
+    "A380682",
+    "A380683",
+    "A380684",
+    "A380685",
+    "A380686"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

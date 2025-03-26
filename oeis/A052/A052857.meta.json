@@ -1,8 +1,9 @@
 {
-  "description": "A simple grammar.",
+  "description": "A simple grammar. a(n)=n*A052873(n-1).",
   "id": "A052857",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A052873"
   ],
   "tags": [
     "easy",

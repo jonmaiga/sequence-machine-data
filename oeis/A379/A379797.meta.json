@@ -1,0 +1,24 @@
+{
+  "description": "In A377091, each block of consecutive terms of the same sign is followed by a jump of magnitude +-s^2 for some integer s>0 to a term of the opposite sign; sequence lists the successive values of s.",
+  "id": "A379797",
+  "mentions": [
+    "A377091",
+    "A379066",
+    "A379788",
+    "A379789",
+    "A379791",
+    "A379793",
+    "A379794",
+    "A379798",
+    "A380837"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

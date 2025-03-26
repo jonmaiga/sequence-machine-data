@@ -2,9 +2,12 @@
   "description": "Largest prime substring in 2^n (or 0 if none exist).",
   "id": "A046268",
   "mentions": [
-    "A046260"
+    "A000079",
+    "A046260",
+    "A047814"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers congruent to {0, 1, 2, 3, 4, 5} mod 30.",
+  "id": "A380485",
+  "mentions": [
+    "A267711",
+    "A276086",
+    "A380484",
+    "A380486"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1; a(2)=4. a(n) = a(n-1) + (n-th positive integer which does not occur in sequence A131938).",
+  "description": "a(1)=1; a(2)=4, a(n) = a(n-1) + (n-th positive integer which does not occur in sequence A131938).",
   "id": "A131937",
   "mentions": [
     "A131938"

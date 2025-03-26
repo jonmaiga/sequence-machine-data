@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Pi*BesselY(0,2)/2.",
+  "id": "A379855",
+  "mentions": [
+    "A000796",
+    "A019669",
+    "A283743"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

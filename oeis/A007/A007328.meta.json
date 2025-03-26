@@ -1,5 +1,5 @@
 {
-  "description": "Unexplained difference between two partition g.f.s.",
+  "description": "Difference between the number of 5-dimensional partitions of n and an approximation derived from binomial(n,4).",
   "id": "A007328",
   "mentions": [
     "A000219",

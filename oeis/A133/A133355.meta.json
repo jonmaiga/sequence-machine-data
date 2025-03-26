@@ -1,8 +1,11 @@
 {
   "description": "Dimensions of certain Lie algebra (see reference for precise definition).",
   "id": "A133355",
-  "mentions": [],
+  "mentions": [
+    "A107397"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

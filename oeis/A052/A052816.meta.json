@@ -1,8 +1,9 @@
 {
-  "description": "G.f.: (1+x)*Product_{m>0} (1 + x^m).",
+  "description": "Expansion of g.f. (1+x)*Product_{m>0} (1 + x^m).",
   "id": "A052816",
   "mentions": [
-    "A000009"
+    "A000009",
+    "A329289"
   ],
   "tags": [
     "easy",

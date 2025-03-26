@@ -2,6 +2,7 @@
   "description": "Integers m such that the decimal expansion of 1/m contains the digit 8.",
   "id": "A353444",
   "mentions": [
+    "A021200",
     "A333237",
     "A351474",
     "A352154",

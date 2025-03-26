@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = composite(2*n+3) - composite(2*n+1).",
+  "id": "A379055",
+  "mentions": [
+    "A002808",
+    "A099861",
+    "A379054"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

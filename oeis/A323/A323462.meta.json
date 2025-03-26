@@ -2,6 +2,7 @@
   "description": "Smallest number that can be obtained from the \"Choix de Bruxelles\", version 2 (A323460) operation applied to n.",
   "id": "A323462",
   "mentions": [
+    "A307635",
     "A323286",
     "A323288",
     "A323460"

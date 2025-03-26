@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1, a(n+1) = 6*a(n)^3 - 3*a(n).",
+  "id": "A378683",
+  "mentions": [
+    "A002530",
+    "A002605",
+    "A238799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k is a multiple of A327860(k), where A327860 is the arithmetic derivative of the primorial base exp-function.",
+  "id": "A380527",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A053669",
+    "A143293",
+    "A177711",
+    "A276086",
+    "A276156",
+    "A327860",
+    "A328110",
+    "A351087",
+    "A381035",
+    "A381037"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

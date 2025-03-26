@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which there is at least one x < n such that sigma(x) = sigma(n).",
+  "description": "Numbers k for which there is at least one x < k such that sigma(x) = sigma(k).",
   "id": "A069822",
   "mentions": [
     "A263025",

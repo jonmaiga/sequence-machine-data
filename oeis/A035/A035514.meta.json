@@ -1,5 +1,5 @@
 {
-  "description": "Zeckendorf expansion of n: repeatedly subtract the largest Fibonacci number you can until nothing remains.",
+  "description": "Zeckendorf expansion of n: repeatedly subtract the largest Fibonacci number you can until nothing remains. Big-endian concatenation of decimals.",
   "id": "A035514",
   "mentions": [
     "A035515",

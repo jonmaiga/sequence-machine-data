@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a deltoidal hexecontahedron.",
+  "id": "A382011",
+  "mentions": [
+    "A000796",
+    "A002163",
+    "A379385",
+    "A379386",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

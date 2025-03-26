@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n - omega(n), where omega = A001221.",
+  "id": "A378993",
+  "mentions": [
+    "A001221",
+    "A229109"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

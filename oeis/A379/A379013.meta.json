@@ -1,0 +1,15 @@
+{
+  "description": "Positions of zeros in A378505.",
+  "id": "A379013",
+  "mentions": [
+    "A378505"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

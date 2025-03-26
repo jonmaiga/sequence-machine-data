@@ -1,0 +1,15 @@
+{
+  "description": "First differences of A379057.",
+  "id": "A379058",
+  "mentions": [
+    "A379057"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = A000203(k)*A000203(n-k+1), n >= 1, k >= 1.",
+  "id": "A379635",
+  "mentions": [
+    "A000203",
+    "A000385",
+    "A072861",
+    "A221529"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

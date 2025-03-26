@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 4^n-3*n+1.",
+  "description": "a(n) = 4^n - 3*n + 1.",
   "id": "A175976",
   "mentions": [
     "A131098",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

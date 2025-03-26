@@ -1,5 +1,5 @@
 {
-  "description": "Triangular numbers such that the two numbers before it and the two numbers after it are squarefree.",
+  "description": "Positive triangular numbers such that the two numbers before it and the two numbers after it are squarefree.",
   "id": "A374503",
   "mentions": [
     "A000217",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

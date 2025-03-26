@@ -1,7 +1,9 @@
 {
-  "description": "Slowest increasing sequence that starts with 0 and has property that multiplying two consecutive terms gives a number which shares at least one digit with one of the terms.",
+  "description": "Slowest increasing sequence that starts with 0 and has property that multiplying two consecutive terms gives a number which shares at least one digit with at least one of the terms.",
   "id": "A129459",
-  "mentions": [],
+  "mentions": [
+    "A375211"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

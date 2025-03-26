@@ -1,0 +1,21 @@
+{
+  "description": "Total area between the free polyominoes with n cells and their bounding boxes.",
+  "id": "A379628",
+  "mentions": [
+    "A000105",
+    "A057766",
+    "A379623",
+    "A379624",
+    "A379627"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

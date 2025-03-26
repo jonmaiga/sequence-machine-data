@@ -1,7 +1,9 @@
 {
-  "description": "Primitive terms of A246282: Numbers that are included in that sequence, but none of whose proper divisors are.",
+  "description": "Primitively primeshift-abundant numbers: Numbers that are included in A246282 (k with A003961(k) > 2k), but none of whose proper divisors are.",
   "id": "A337372",
   "mentions": [
+    "A000101",
+    "A001222",
     "A003961",
     "A005101",
     "A091191",
@@ -9,12 +11,21 @@
     "A246282",
     "A252742",
     "A263837",
+    "A287728",
     "A326134",
     "A337345",
     "A337346",
+    "A337543",
     "A341609",
     "A341610",
-    "A341614"
+    "A341614",
+    "A378658",
+    "A378662",
+    "A378664",
+    "A378736",
+    "A378740",
+    "A378745",
+    "A378746"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(x*G(x)^2) where G(x) = 1 + x*G(x)^4 is the g.f. of A002293.",
+  "id": "A380514",
+  "mentions": [
+    "A002293",
+    "A069271",
+    "A380513",
+    "A380515",
+    "A380516"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

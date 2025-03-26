@@ -1,0 +1,16 @@
+{
+  "description": "Third center column of elementary triangular automaton rule 54, from a lone 1 cell.",
+  "id": "A380173",
+  "mentions": [
+    "A380012",
+    "A380172"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

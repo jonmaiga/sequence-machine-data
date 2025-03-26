@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that 19 is the largest prime factor of n^2 - 1.",
+  "description": "Numbers k such that 19 is the largest prime factor of k^2 - 1.",
   "id": "A181453",
   "mentions": [
+    "A076605",
     "A175607",
     "A181447",
     "A181452",
@@ -11,11 +12,12 @@
   ],
   "tags": [
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 48,
+    "size": 50,
     "source": "oeis-bfile"
   }
 }

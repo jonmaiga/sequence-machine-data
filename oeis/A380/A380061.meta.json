@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies 1 + 2*A(x) = Sum_{n>=0} (x + A(x)^n)^n.",
+  "id": "A380061",
+  "mentions": [
+    "A380062",
+    "A380063",
+    "A380064"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 0; therafter in the binary expansion of a(n-1), expand bits: 1->01 and 0->10.",
+  "description": "a(1) = 0; thereafter in the binary expansion of a(n-1), expand bits: 1->01 and 0->10.",
   "id": "A377029",
   "mentions": [
     "A000051",

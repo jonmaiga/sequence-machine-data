@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n gives the proper positive integer fundamental solutions (x, y) of x^2 - 15*y^2 = - A378710(n), for n >= 1.",
+  "id": "A378711",
+  "mentions": [
+    "A001090",
+    "A038887",
+    "A097956",
+    "A141302",
+    "A378710"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

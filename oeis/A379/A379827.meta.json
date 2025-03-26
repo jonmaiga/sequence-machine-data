@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the alternating double sum zeta(-5,-1) = Sum_{i>=2} (Sum_{j=1..i-1} (-1)^(i+j)/(i^5*j)) (negated).",
+  "id": "A379827",
+  "mentions": [
+    "A076788",
+    "A197110",
+    "A214508",
+    "A255685",
+    "A379826",
+    "A379829"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

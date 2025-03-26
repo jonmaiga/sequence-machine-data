@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A046523(i) = A046523(j) and A112765(i) = A112765(j), for all i, j, where A046523 gives the least representative of the prime signature of n and A112765 gives the 5-adic valuation of n.",
+  "id": "A379002",
+  "mentions": [
+    "A046523",
+    "A112765",
+    "A305891",
+    "A305893",
+    "A379001"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

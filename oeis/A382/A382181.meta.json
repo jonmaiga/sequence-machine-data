@@ -1,0 +1,16 @@
+{
+  "description": "Number of unlabeled graphs with n vertices (including disconnected graphs) which are squares.",
+  "id": "A382181",
+  "mentions": [
+    "A382180"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

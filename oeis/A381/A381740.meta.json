@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree numbers k such that k^2 is abundant.",
+  "id": "A381740",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A087248",
+    "A381738",
+    "A381741"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

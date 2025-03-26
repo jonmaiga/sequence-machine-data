@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows, where row n is a list of residues of powers of prime factors of n (mod n).",
+  "id": "A381799",
+  "mentions": [
+    "A024619",
+    "A038566",
+    "A121998",
+    "A381798"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

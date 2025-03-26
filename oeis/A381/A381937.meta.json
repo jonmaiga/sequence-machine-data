@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x) * B(x*A(x)), where B(x) is the g.f. of A001764.",
+  "id": "A381937",
+  "mentions": [
+    "A001764",
+    "A025227",
+    "A346646",
+    "A365178",
+    "A381787",
+    "A381940"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

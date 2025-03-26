@@ -1,0 +1,24 @@
+{
+  "description": "Number of trailing 1-bits in the binary representation of sigma(n).",
+  "id": "A378998",
+  "mentions": [
+    "A000203",
+    "A007814",
+    "A028982",
+    "A028983",
+    "A072461",
+    "A072462",
+    "A088580",
+    "A337195",
+    "A378999"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

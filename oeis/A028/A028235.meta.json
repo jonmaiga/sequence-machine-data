@@ -2,8 +2,11 @@
   "description": "If n = Product (p_j^k_j), a(n) = numerator of Sum 1/p_j (the denominator of this sum is A007947).",
   "id": "A028235",
   "mentions": [
+    "A003415",
     "A007947",
-    "A085548"
+    "A069359",
+    "A085548",
+    "A379967"
   ],
   "tags": [
     "easy",

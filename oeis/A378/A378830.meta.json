@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies 1/x = Sum_{n=-oo..+oo} A(x)^n * (1 + A(x)^(2*n+1))^(n+1).",
+  "id": "A378830",
+  "mentions": [
+    "A378264"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

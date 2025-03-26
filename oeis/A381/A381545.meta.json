@@ -1,0 +1,16 @@
+{
+  "description": "Number of permutations of [n] having exactly n pairs of integers i",
+  "id": "A381545",
+  "mentions": [
+    "A381529"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum of the first moments of all partitions of n.",
+  "description": "Sum of the first moments of all partitions of n with weights starting at 0.",
   "id": "A066185",
   "mentions": [
     "A000337",

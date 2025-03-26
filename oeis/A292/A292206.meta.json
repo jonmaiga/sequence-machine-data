@@ -2,14 +2,17 @@
   "description": "Number of unrooted unlabeled connected four-regular maps on a compact closed oriented surface with n vertices (and thus 2*n edges).",
   "id": "A292206",
   "mentions": [
-    "A292186"
+    "A268556",
+    "A292186",
+    "A380626"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

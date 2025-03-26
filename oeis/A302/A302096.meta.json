@@ -8,11 +8,12 @@
   ],
   "tags": [
     "base",
+    "fini",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

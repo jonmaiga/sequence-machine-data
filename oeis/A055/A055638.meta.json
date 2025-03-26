@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which sigma(n^2) is prime.",
+  "description": "Numbers k for which sigma(k^2) is prime.",
   "id": "A055638",
   "mentions": [
     "A000203",

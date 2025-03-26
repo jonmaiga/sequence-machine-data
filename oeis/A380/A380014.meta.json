@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/sqrt(exp(-2*x) - 2*x).",
+  "id": "A380014",
+  "mentions": [
+    "A072597",
+    "A380016",
+    "A380018"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

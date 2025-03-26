@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = J_9(n)/J_3(n), where J_k is the k-th Jordan totient function.",
+  "id": "A381713",
+  "mentions": [
+    "A013664",
+    "A013667",
+    "A059376",
+    "A065958",
+    "A069094",
+    "A160889",
+    "A194532"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

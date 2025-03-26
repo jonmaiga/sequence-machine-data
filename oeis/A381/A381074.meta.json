@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k, k+2 and k+4 are all terms in A380846.",
+  "id": "A381074",
+  "mentions": [
+    "A380845",
+    "A380846",
+    "A381073"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Squared distance to the origin after the n-th step of the Racetrack trajectory in A380812 and A380813.",
+  "id": "A380814",
+  "mentions": [
+    "A380812",
+    "A380813"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

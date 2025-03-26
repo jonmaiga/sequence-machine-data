@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers in A381019 which are immediately followed by another composite number, in order of their appearance.",
+  "id": "A379810",
+  "mentions": [
+    "A381019",
+    "A381120"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

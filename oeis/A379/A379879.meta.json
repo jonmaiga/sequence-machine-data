@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(-x) + x*A(x)^2.",
+  "id": "A379879",
+  "mentions": [
+    "A000166",
+    "A377859",
+    "A379868",
+    "A379878"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -2,7 +2,11 @@
   "description": "a(n) = number of k, 1 <= k <= n, such that k divides ceiling(n/k).",
   "id": "A126081",
   "mentions": [
-    "A066030"
+    "A051556",
+    "A051574",
+    "A066030",
+    "A127461",
+    "A129308"
   ],
   "tags": [
     "nonn"
@@ -10,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

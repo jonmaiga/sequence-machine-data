@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th Euler number (A000364) == 1 (mod n^2).",
+  "description": "Numbers k such that A000364(k) == 1 (mod k^2).",
   "id": "A069042",
   "mentions": [
     "A000364",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

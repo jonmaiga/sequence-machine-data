@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = min{A379059(n), A379060(n)}.",
+  "id": "A379063",
+  "mentions": [
+    "A377091",
+    "A379059",
+    "A379060",
+    "A379064",
+    "A379065"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

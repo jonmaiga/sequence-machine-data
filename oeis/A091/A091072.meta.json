@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose odd part is of the form 4k+1. The bit to the left of the least significant bit of each term is unset.",
+  "description": "Positive numbers k such that the Kronecker Symbol (-1 / k) > 0.",
   "id": "A091072",
   "mentions": [
     "A000265",

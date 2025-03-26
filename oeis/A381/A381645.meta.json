@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest integer with distinct digits whose digital sum is n.",
+  "id": "A381645",
+  "mentions": [
+    "A007953",
+    "A009995",
+    "A227378"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

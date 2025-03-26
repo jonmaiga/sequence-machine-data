@@ -1,0 +1,44 @@
+{
+  "description": "Numbers whose prime indices cannot be partitioned into constant blocks having a common sum.",
+  "id": "A381871",
+  "mentions": [
+    "A000688",
+    "A000720",
+    "A000961",
+    "A001055",
+    "A001222",
+    "A006171",
+    "A045778",
+    "A050361",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A265947",
+    "A279784",
+    "A295935",
+    "A300383",
+    "A317141",
+    "A321469",
+    "A381453",
+    "A381455",
+    "A381633",
+    "A381635",
+    "A381636",
+    "A381715",
+    "A381716",
+    "A381717",
+    "A381719",
+    "A381806",
+    "A381993",
+    "A381995"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

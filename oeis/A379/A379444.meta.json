@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the difference between the least prime > (n+1)^2 and the largest prime < n^2, divided by 2.",
+  "id": "A379444",
+  "mentions": [
+    "A001223",
+    "A007491",
+    "A053001",
+    "A058043",
+    "A350100",
+    "A378904"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 67,
+    "source": "joeis"
+  }
+}

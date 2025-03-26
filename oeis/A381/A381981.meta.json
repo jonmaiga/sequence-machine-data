@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n avoiding the patterns (1,2,3) and (3,2,1).",
+  "id": "A381981",
+  "mentions": [
+    "A011782",
+    "A102726",
+    "A128761",
+    "A335471",
+    "A335473"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

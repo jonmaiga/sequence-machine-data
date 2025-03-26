@@ -1,0 +1,21 @@
+{
+  "description": "Specialization of the Elementary Symmetric Functions e(n) at x_i -> Euler phi(i).",
+  "id": "A379149",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A001088",
+    "A002088",
+    "A067578"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

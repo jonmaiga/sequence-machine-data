@@ -1,0 +1,28 @@
+{
+  "description": "Starts of runs of 3 consecutive integers that are all terms in A381581.",
+  "id": "A381583",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A087445",
+    "A154701",
+    "A291711",
+    "A328210",
+    "A330932",
+    "A351721",
+    "A381581",
+    "A381582",
+    "A381584",
+    "A381585"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

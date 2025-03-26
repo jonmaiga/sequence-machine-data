@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of triangular numbers (A000217) in the interval [n^2, (n + 1)^2].",
+  "id": "A378301",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001110",
+    "A002024",
+    "A003056",
+    "A214856",
+    "A214857"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

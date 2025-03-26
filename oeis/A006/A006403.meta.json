@@ -1,15 +1,22 @@
 {
-  "description": "Number of 2-connected planar maps with n edges.",
+  "description": "Number of unsensed 2-connected planar maps with n edges.",
   "id": "A006403",
   "mentions": [
-    "A007401"
+    "A000139",
+    "A006385",
+    "A006402",
+    "A006407",
+    "A006444",
+    "A007401",
+    "A379432"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

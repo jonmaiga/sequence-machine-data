@@ -1,5 +1,5 @@
 {
-  "description": "For n>=1, a(n) = d(p(n)+1) + d(p(n)+2) + d(p(n)+3) + ... + d(p(n+1)), where d(m) is the number of positive divisors of m and p(n) is the n-th prime. a(0) = d(1) + d(2).",
+  "description": "For n>=1, a(n) = d(prime(n)+1) + d(prime(n)+2) + d(prime(n)+3) + ... + d(prime(n+1)), where d(m) is the number of positive divisors of m and prime(n) is the n-th prime. a(0) = d(1) + d(2).",
   "id": "A139140",
   "mentions": [
     "A000005",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

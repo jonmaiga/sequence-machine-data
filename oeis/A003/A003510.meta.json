@@ -2,7 +2,8 @@
   "description": "An equivalence relation on permutations.",
   "id": "A003510",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A000142"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

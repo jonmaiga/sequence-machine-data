@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest prime p such that p - a(n-1) is a primorial, starting with a(1) = 2.",
+  "id": "A380027",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A265109",
+    "A380026"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

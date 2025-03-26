@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of distinct tuples E each corresponding to some k-ary word W = (w_1, ..., w_n), where E is a tuple (e_1, ..., e_{n-1}) with e_i being the number of pairs of equal letters (w_j,w_k) in W such that j + i = k.",
+  "id": "A381349",
+  "mentions": [
+    "A000312",
+    "A006606",
+    "A120910",
+    "A226873"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

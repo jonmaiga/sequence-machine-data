@@ -1,10 +1,9 @@
 {
-  "description": "Expansion of (1-5x)/(1-16x).",
+  "description": "Expansion of g.f. (1-5*x)/(1-16*x).",
   "id": "A196664",
   "mentions": [
     "A001025",
     "A193722",
-    "A196660",
     "A196661",
     "A196662",
     "A196663"

@@ -1,0 +1,25 @@
+{
+  "description": "A version of the Josephus problem: a(n) is the surviving integer under the spelling version of the elimination process.",
+  "id": "A380204",
+  "mentions": [
+    "A005589",
+    "A006257",
+    "A225381",
+    "A321298",
+    "A378635",
+    "A380201",
+    "A380202",
+    "A380246",
+    "A380247",
+    "A380248"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

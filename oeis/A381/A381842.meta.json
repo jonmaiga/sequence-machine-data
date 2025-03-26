@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of non-equivalent subsets of size k in S_n, 0 <= k <= n!.",
+  "id": "A381842",
+  "mentions": [
+    "A000041",
+    "A362763"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

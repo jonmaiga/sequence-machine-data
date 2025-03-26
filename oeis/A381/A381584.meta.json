@@ -1,0 +1,27 @@
+{
+  "description": "Starts of runs of 4 consecutive integers that are all terms in A381581.",
+  "id": "A381584",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A087445",
+    "A141769",
+    "A291711",
+    "A328211",
+    "A328215",
+    "A330933",
+    "A381581",
+    "A381582",
+    "A381583",
+    "A381585"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

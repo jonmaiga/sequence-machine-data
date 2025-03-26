@@ -1,7 +1,9 @@
 {
   "description": "a(3) = 5; a(n) = min(x>1,x^2+x*n+n^2 = 1 mod(x+n)).",
   "id": "A066461",
-  "mentions": [],
+  "mentions": [
+    "A014574"
+  ],
   "tags": [
     "formulas",
     "nonn"

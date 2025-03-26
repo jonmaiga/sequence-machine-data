@@ -1,0 +1,21 @@
+{
+  "description": "Boolean-Boolean Quilt Numbers: Triangular array T(n,k) of the number of ASM quilts of type B_n X B_k, where B_n is the Boolean lattice of subsets of an n-set ordered by inclusion.",
+  "id": "A374824",
+  "mentions": [
+    "A007153",
+    "A297622",
+    "A374819",
+    "A374820",
+    "A374822"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

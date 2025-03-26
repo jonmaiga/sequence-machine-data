@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the smallest acute vertex angles, in radians, in a pentakis dodecahedron face.",
+  "id": "A380795",
+  "mentions": [
+    "A001622",
+    "A379132",
+    "A379133",
+    "A379135",
+    "A379136",
+    "A380796"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

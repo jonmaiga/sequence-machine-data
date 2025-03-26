@@ -1,13 +1,13 @@
 {
-  "description": "Floor(n^Pi) is a prime.",
+  "description": "Numbers k such that floor(k^Pi) is a prime.",
   "id": "A074217",
   "mentions": [],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

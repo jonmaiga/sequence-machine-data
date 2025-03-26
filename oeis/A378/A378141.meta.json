@@ -1,0 +1,19 @@
+{
+  "description": "For any n > 0, a(n) is the least positive integer such that the XOR difference triangle with bottom row (a(1), ..., a(n)) has distinct values.",
+  "id": "A378141",
+  "mentions": [
+    "A099884",
+    "A380112"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

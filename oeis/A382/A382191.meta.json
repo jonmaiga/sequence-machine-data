@@ -1,0 +1,19 @@
+{
+  "description": "Number of edges of the graph with code A076184(n).",
+  "id": "A382191",
+  "mentions": [
+    "A000120",
+    "A002494",
+    "A076184"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

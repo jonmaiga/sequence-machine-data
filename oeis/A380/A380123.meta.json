@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..A380122(n), read by rows; the n-th row lists the integers m (possibly negative) such that the nonzero digits in the nonadjacent form for m appear in the nonadjacent form for n.",
+  "id": "A380123",
+  "mentions": [
+    "A184616",
+    "A295989",
+    "A380122"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

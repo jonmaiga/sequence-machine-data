@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of divisors d of n satisfying (-d)^n mod n = d.",
+  "id": "A380833",
+  "mentions": [
+    "A000005",
+    "A371883",
+    "A380656"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,15 @@
 {
   "description": "Smallest multiple of n such that every partial sum is a prime, or 0 if no such number exists.",
   "id": "A074104",
-  "mentions": [],
+  "mentions": [
+    "A084665"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

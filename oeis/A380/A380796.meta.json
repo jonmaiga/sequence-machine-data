@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the largest acute vertex angle, in radians, in a pentakis dodecahedron face.",
+  "id": "A380796",
+  "mentions": [
+    "A001622",
+    "A379132",
+    "A379133",
+    "A379135",
+    "A379136",
+    "A380795"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

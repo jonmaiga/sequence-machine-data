@@ -1,8 +1,11 @@
 {
-  "description": "Number of integers between a(n) and a(n+1) equals the n-th prime.",
+  "description": "a(n) = a(n-1) + 1 + prime(n), with a(1) = 1.",
   "id": "A110895",
-  "mentions": [],
+  "mentions": [
+    "A060939"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

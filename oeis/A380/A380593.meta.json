@@ -1,0 +1,17 @@
+{
+  "description": "Starting position of the first occurrence of the longest monochromatic arithmetic progression of difference n in the Rudin-Shapiro sequence (A020987).",
+  "id": "A380593",
+  "mentions": [
+    "A020985",
+    "A020987",
+    "A364995"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

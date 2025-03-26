@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{i=k..n} C(i-1,i-k)*C(i,k).",
+  "id": "A382225",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A001296",
+    "A002061",
+    "A007318",
+    "A024718",
+    "A107963",
+    "A184173"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

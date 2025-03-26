@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n,k) is the number of n node connected achiral planar maps with an external face and k triangular internal faces, n >= 3, 1 <= k <= 2*n - 5.",
   "id": "A378340",
   "mentions": [
+    "A002712",
     "A378103",
     "A378336",
     "A378339",
@@ -9,6 +10,7 @@
     "A378342"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],

@@ -2,6 +2,9 @@
   "description": "Decimal expansion of Laplace's limit constant.",
   "id": "A033259",
   "mentions": [
+    "A033260",
+    "A033261",
+    "A033262",
     "A033263",
     "A085984"
   ],
@@ -13,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 101,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of prime(n) into squares.",
+  "id": "A379551",
+  "mentions": [
+    "A000040",
+    "A001156"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

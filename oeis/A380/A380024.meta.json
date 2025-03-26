@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4^n - 3^n - binomial(n,2)*3^(n-2).",
+  "id": "A380024",
+  "mentions": [
+    "A005061",
+    "A086443",
+    "A380651"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

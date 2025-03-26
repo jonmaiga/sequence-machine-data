@@ -2,7 +2,8 @@
   "description": "a(0)=1, a(1)=1; for n>1, a(n)=a(n-1)+a(n-2) if a(n-1) is less than or equal to n-1, otherwise a(n)=a(n-1)-(n-1).",
   "id": "A322558",
   "mentions": [
-    "A133058"
+    "A133058",
+    "A380820"
   ],
   "tags": [
     "easy",

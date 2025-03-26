@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(sigma(n)) divides sigma(phi(n)).",
+  "description": "Numbers k such that phi(sigma(k)) divides sigma(phi(k)).",
   "id": "A066930",
   "mentions": [
     "A033632"

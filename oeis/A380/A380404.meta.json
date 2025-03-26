@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime powers that do not exceed the primorial number A002110(n).",
+  "id": "A380404",
+  "mentions": [
+    "A000849",
+    "A002110",
+    "A182908",
+    "A246655",
+    "A380402"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

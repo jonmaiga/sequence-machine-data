@@ -1,0 +1,20 @@
+{
+  "description": "2-dense squarefree numbers: Squarefree numbers whose divisors increase by factors of at most 2.",
+  "id": "A380328",
+  "mentions": [
+    "A005117",
+    "A005153",
+    "A174973",
+    "A265501",
+    "A267124"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

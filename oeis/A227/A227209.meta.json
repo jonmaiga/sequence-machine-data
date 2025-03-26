@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)^2*(1-2x)*(1-4x)).",
+  "description": "Expansion of 1/((1-x)^2*(1-2*x)*(1-4*x)).",
   "id": "A227209",
   "mentions": [
     "A171477",

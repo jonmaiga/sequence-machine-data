@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that tau(k) == 1 (mod(2*(tau(k+prime(k)-1)))), where tau(k) = A000005(k).",
+  "id": "A378789",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A378792",
+    "A378794"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

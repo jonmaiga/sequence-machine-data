@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are divisible by the square of the sum of the squares of their digits.",
+  "id": "A379980",
+  "mentions": [
+    "A003132",
+    "A005349",
+    "A034087",
+    "A072081",
+    "A180490",
+    "A379981",
+    "A379982"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

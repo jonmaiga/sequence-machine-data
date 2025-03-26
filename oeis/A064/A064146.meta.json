@@ -1,5 +1,5 @@
 {
-  "description": "Sum of non-unitary prime divisors (A034444, A056169) of central binomial coefficient C(n,floor(n/2)) (A001405). If A001405(n) is squarefree (A046098) then a(n)=0.",
+  "description": "Sum of non-unitary prime divisors of binomial(n,floor(n/2)).",
   "id": "A064146",
   "mentions": [
     "A001405",

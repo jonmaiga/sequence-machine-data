@@ -1,11 +1,12 @@
 {
-  "description": "Primes of the form k!9+1, where k!9 is the nonuple factorial number (A114806).",
+  "description": "Primes of the form k!9 + 1, where k!9 is the nonuple factorial number (A114806).",
   "id": "A288371",
   "mentions": [
     "A114806",
     "A204660"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

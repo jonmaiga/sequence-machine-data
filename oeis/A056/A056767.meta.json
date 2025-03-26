@@ -6,6 +6,7 @@
     "A029837",
     "A034884",
     "A035033",
+    "A035034",
     "A035035",
     "A056757",
     "A056781"
@@ -13,11 +14,12 @@
   "tags": [
     "fini",
     "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

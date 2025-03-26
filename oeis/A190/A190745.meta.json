@@ -1,5 +1,5 @@
 {
-  "description": "n+[ns/r]+[nt/r]+[nu/r]+[nv/r]+[nw/r], where r=sinh(1), s=cosh(1), t=tanh(1), u=csch(1), v=sech(1), w=coth(1).",
+  "description": "a(n) = n + [n*s/r] + [n*t/r] + [n*u/r] + [n*v/r] + [n*w/r], where r=sinh(1), s=cosh(1), t=tanh(1), u=csch(1), v=sech(1), w=coth(1).",
   "id": "A190745",
   "mentions": [
     "A190746",

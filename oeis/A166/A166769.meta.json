@@ -1,13 +1,16 @@
 {
-  "description": "Number of nX5 1..2 arrays containing at least one of each value, and all equal values connected.",
+  "description": "Number of n X 5 1..2 arrays containing at least one of each value, and all equal values connected.",
   "id": "A166769",
-  "mentions": [],
+  "mentions": [
+    "A378932"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,8 @@
   "description": "Numerators in expansion of (1-x)^(3/2).",
   "id": "A161200",
   "mentions": [
+    "A000302",
+    "A000984",
     "A002596",
     "A046161",
     "A161198",
@@ -16,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

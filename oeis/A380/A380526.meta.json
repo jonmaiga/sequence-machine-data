@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A380525 with at least 5 prime factors.",
+  "id": "A380526",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A380524",
+    "A380525"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

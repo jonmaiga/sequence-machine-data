@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/binomial(4*k, k).",
+  "id": "A378806",
+  "mentions": [
+    "A005810",
+    "A073016",
+    "A229705",
+    "A378807"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

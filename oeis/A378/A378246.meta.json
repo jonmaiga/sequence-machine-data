@@ -1,0 +1,20 @@
+{
+  "description": "Integers that are equal to the product of their nonzero digits raised to their own power.",
+  "id": "A378246",
+  "mentions": [
+    "A002473",
+    "A046253",
+    "A061510"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

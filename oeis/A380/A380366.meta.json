@@ -1,0 +1,19 @@
+{
+  "description": "Number of unsensed combinatorial maps with n edges and without faces of degree 1.",
+  "id": "A380366",
+  "mentions": [
+    "A006389",
+    "A214816",
+    "A380364",
+    "A380365"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

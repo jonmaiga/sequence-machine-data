@@ -1,5 +1,5 @@
 {
-  "description": "Bigomega(n^n) where bigomega(x) is the number of prime factors in x (counted with multiplicity).",
+  "description": "a(n) = bigomega(n^n) where bigomega(x) is the number of prime factors in x (counted with multiplicity).",
   "id": "A066959",
   "mentions": [
     "A001222",

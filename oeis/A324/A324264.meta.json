@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected graphs on n unlabeled nodes with diameter equal to radius.",
+  "description": "Number of simple connected graphs on n unlabeled nodes with diameter equal to radius.",
   "id": "A324264",
   "mentions": [
     "A294525",

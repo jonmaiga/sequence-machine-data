@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of tuples (t_1,t_2,m) of integers 2 <= t_1 <= t_2 and 0 < m < n such that (3 + 1/t_1)^m * (3 + 1/t_2)^(n-m) is integer.",
+  "description": "a(n) is the number of tuples (t_1,t_2,m) of integers 2 <= t_1 <= t_2 and 0 < m < n such that (3 + 1/t_1)^m * (3 + 1/t_2)^(n-m) is an integer.",
   "id": "A356275",
   "mentions": [
     "A355626",

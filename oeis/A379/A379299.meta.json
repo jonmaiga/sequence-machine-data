@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum number k such that every permutation of the integers mod n admits at least k collinear triples.",
+  "id": "A379299",
+  "mentions": [
+    "A000755",
+    "A000769",
+    "A000938",
+    "A272651"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

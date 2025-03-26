@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the x nearest 0 that satisfies x^2+3x+1=e^x.",
+  "description": "Decimal expansion of the x nearest 0 that satisfies x^2+3x+2=e^x, negated.",
   "id": "A201898",
   "mentions": [
     "A201741",

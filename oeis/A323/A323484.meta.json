@@ -2,6 +2,7 @@
   "description": "Minimal number of steps to reach 5*n from 5 using \"Choix de Bruxelles\" version 2 (cf. A323460).",
   "id": "A323484",
   "mentions": [
+    "A307635",
     "A323286",
     "A323454",
     "A323460",

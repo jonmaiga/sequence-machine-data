@@ -1,0 +1,18 @@
+{
+  "description": "The distinct values, in order of appearance, of A381087.",
+  "id": "A378138",
+  "mentions": [
+    "A011532",
+    "A381087",
+    "A381183"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

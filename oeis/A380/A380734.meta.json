@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the medium/short edge length ratio of a disdyakis dodecahedron.",
+  "id": "A380734",
+  "mentions": [
+    "A010474",
+    "A378393",
+    "A378712",
+    "A378713",
+    "A378714",
+    "A378715",
+    "A380735",
+    "A380736",
+    "A380737",
+    "A380738"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

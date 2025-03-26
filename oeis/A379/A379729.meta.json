@@ -1,0 +1,16 @@
+{
+  "description": "Ending positions of runs of identical terms in A157196.",
+  "id": "A379729",
+  "mentions": [
+    "A157196",
+    "A379704"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

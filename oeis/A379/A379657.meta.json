@@ -1,0 +1,20 @@
+{
+  "description": "The nonadjacent form of a(n) is obtained by inserting a digit 0 before each nonzero digit in the balanced ternary expansion of n.",
+  "id": "A379657",
+  "mentions": [
+    "A048680",
+    "A065363",
+    "A334913",
+    "A379658"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

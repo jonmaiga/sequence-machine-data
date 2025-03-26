@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the midradius of a triakis icosahedron with unit shorter edge length.",
+  "id": "A378976",
+  "mentions": [
+    "A002163",
+    "A010532",
+    "A249600",
+    "A377697",
+    "A378973",
+    "A378974",
+    "A378975",
+    "A378977"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

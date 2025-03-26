@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the lengths of the free polyominoes with n cells.",
+  "id": "A379629",
+  "mentions": [
+    "A000105",
+    "A379624",
+    "A379625",
+    "A379626",
+    "A379627",
+    "A379638"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

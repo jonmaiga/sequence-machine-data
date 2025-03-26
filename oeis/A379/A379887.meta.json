@@ -1,0 +1,19 @@
+{
+  "description": "Number of rational polygons with denominator at most n having exactly one lattice point in their interior, up to equivalence.",
+  "id": "A379887",
+  "mentions": [
+    "A145581",
+    "A322343",
+    "A371917",
+    "A379894"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

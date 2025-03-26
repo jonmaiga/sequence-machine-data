@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of length n words x on {0,1} such that I(x) + W(x)*(n-W(x)) = k, where I(x) is the number of inversions in x and W(x) is the number of 1's in x, n >= 0, 0 <= k <= floor(n^2/2).",
+  "id": "A381899",
+  "mentions": [
+    "A000079",
+    "A001788",
+    "A053846",
+    "A060546",
+    "A083906",
+    "A132186",
+    "A226622",
+    "A226635"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

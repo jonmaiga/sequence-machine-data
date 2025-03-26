@@ -1,0 +1,19 @@
+{
+  "description": "Number of moves required to reach a position with the maximum number of heads in the game of blet with 2*n coins.",
+  "id": "A381812",
+  "mentions": [
+    "A047206",
+    "A075273",
+    "A381813",
+    "A381814"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

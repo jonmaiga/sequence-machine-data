@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a triakis icosahedron.",
+  "id": "A382009",
+  "mentions": [
+    "A000796",
+    "A002163",
+    "A378973",
+    "A378974",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

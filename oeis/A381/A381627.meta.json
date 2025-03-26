@@ -1,0 +1,19 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..A381625(n): the n-th row lists the numbers m such that A381624(m) = n.",
+  "id": "A381627",
+  "mentions": [
+    "A381624",
+    "A381625",
+    "A381628"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

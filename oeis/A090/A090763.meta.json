@@ -2,10 +2,13 @@
   "description": "a(n) = (3*n+3)!/(3*n!*(2*n+2)!).",
   "id": "A090763",
   "mentions": [
+    "A005809",
     "A025174",
+    "A210453",
     "A360560"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

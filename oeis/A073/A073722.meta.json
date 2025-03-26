@@ -1,5 +1,5 @@
 {
-  "description": "Least x such that Mod[Sigma[x],Pi[x]]=n or zero if no such number exists.",
+  "description": "Least k such that sigma(k) mod primepi(k) = n or zero if no such number exists.",
   "id": "A073722",
   "mentions": [
     "A000203",
@@ -13,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 56,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

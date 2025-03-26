@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = a(n)^2 - a(n) a(n-1) + a(n-1)^2.",
+  "description": "a(n+1) = a(n)^2 - a(n)*a(n-1) + a(n-1)^2.",
   "id": "A000317",
   "mentions": [],
   "tags": [

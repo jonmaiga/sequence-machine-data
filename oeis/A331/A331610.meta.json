@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(1 / (1 - tan(x)) - 1).",
+  "description": "Expansion of e.g.f.: exp(1 / (1 - tan(x)) - 1).",
   "id": "A331610",
   "mentions": [
     "A000111",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

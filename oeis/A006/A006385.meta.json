@@ -1,20 +1,28 @@
 {
-  "description": "Number of connected planar maps with n edges.",
+  "description": "Number of unsensed planar maps with n edges.",
   "id": "A006385",
   "mentions": [
+    "A000168",
+    "A006384",
     "A006387",
+    "A006403",
+    "A006443",
     "A090376",
     "A214814",
     "A214815",
-    "A214816"
+    "A214816",
+    "A277741",
+    "A379439"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

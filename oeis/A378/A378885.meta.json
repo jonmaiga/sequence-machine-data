@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are divisible by at least three different primes and the smallest three of them are consecutive primes.",
+  "id": "A378885",
+  "mentions": [
+    "A000977",
+    "A020639",
+    "A046301",
+    "A101300",
+    "A151800",
+    "A249674",
+    "A378884"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

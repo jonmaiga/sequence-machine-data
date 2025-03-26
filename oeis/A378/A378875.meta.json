@@ -1,0 +1,18 @@
+{
+  "description": "Number of Achilles numbers k between consecutive perfect powers.",
+  "id": "A378875",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A052486"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

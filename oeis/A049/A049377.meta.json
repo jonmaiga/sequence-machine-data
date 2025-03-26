@@ -2,7 +2,10 @@
   "description": "Row sums of triangle A049352.",
   "id": "A049377",
   "mentions": [
-    "A049352"
+    "A004212",
+    "A049352",
+    "A049425",
+    "A291709"
   ],
   "tags": [
     "formulas",

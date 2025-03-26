@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of genus 2 curves with moduli height <= n.",
+  "id": "A376744",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -23,15 +23,15 @@
     "A210344",
     "A210478",
     "A210567",
-    "A210592"
+    "A210592",
+    "A380367"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

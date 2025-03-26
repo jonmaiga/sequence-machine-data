@@ -1,5 +1,5 @@
 {
-  "description": "Primes from merging of 7 successive digits in decimal expansion of Pi.",
+  "description": "Primes from merging of 7 successive digits in decimal expansion of Pi forbidding leading zeros.",
   "id": "A198171",
   "mentions": [
     "A103773",

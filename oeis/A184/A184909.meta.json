@@ -1,17 +1,22 @@
 {
-  "description": "n+floor(ns/r)+floor(nt/r), where r=2^(1/4), s=2^(1/2), t=2^(3/4).",
+  "description": "a(n) = n + floor(n*s/r) + floor(n*t/r), where r=2^(1/5), s=r^2, t=r^3.",
   "id": "A184909",
   "mentions": [
-    "A184812",
+    "A005531",
+    "A005533",
+    "A011093",
     "A184910",
-    "A184911"
+    "A184911",
+    "A378142",
+    "A378185",
+    "A379510"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 120,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "joeis"
   }
 }

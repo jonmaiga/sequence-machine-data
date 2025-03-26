@@ -1,0 +1,18 @@
+{
+  "description": "Number of orbits under the action of the permutation group S(n) on the nonsingular n X n matrices over GF(2).",
+  "id": "A382018",
+  "mentions": [
+    "A000595",
+    "A002884"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

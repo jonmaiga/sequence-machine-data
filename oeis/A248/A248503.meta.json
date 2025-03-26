@@ -1,9 +1,11 @@
 {
-  "description": "Decimal expansion of molar volume of an ideal gas.",
+  "description": "Decimal expansion of molar volume of ideal gas at 0 degrees Celsius and 1 atm in liters per mole.",
   "id": "A248503",
   "mentions": [
-    "A081822",
-    "A271369"
+    "A070064",
+    "A213611",
+    "A322578",
+    "A356381"
   ],
   "tags": [
     "cons",
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 6,
+    "size": 87,
     "source": "oeis-entry"
   }
 }

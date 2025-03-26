@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 5^k + 86 is prime.",
+  "id": "A378867",
+  "mentions": [
+    "A089142",
+    "A124621",
+    "A217133"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

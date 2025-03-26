@@ -1,5 +1,5 @@
 {
-  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LIO = Liottite (Ca,Na2,K2)9 [ Al18Si18O72 ].",
+  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LIO = Liottite (Ca,Na2,K2)9[Al18Si18O72] starting with a T2 atom.",
   "id": "A019028",
   "mentions": [],
   "tags": [

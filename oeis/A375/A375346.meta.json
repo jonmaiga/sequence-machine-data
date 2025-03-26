@@ -1,14 +1,17 @@
 {
   "description": "Number of orientations of the uniform Lagrangian matroid on n elements.",
   "id": "A375346",
-  "mentions": [],
+  "mentions": [
+    "A307334"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

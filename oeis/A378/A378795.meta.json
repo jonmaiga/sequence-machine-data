@@ -1,0 +1,17 @@
+{
+  "description": "Ulam numbers that are semiprimes.",
+  "id": "A378795",
+  "mentions": [
+    "A001358",
+    "A002858",
+    "A068820"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Palindromic primes whose digits do not appear in previous term.",
+  "description": "Palindromic primes whose digits do not appear in previous term and that are increasing.",
   "id": "A030286",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

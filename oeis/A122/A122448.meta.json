@@ -1,5 +1,5 @@
 {
-  "description": "A lower diagonal of pendular trinomial triangle A122445.",
+  "description": "Diagonal elements A122445(n+1,n) of the pendular trinomial triangle A122445.",
   "id": "A122448",
   "mentions": [
     "A122445",

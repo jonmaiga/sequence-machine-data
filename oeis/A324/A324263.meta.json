@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected graphs on n unlabeled nodes with exactly two peripheral nodes.",
+  "description": "Number of simple connected graphs on n unlabeled nodes with exactly two peripheral nodes.",
   "id": "A324263",
   "mentions": [
     "A324244"

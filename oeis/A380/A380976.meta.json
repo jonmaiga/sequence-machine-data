@@ -1,0 +1,14 @@
+{
+  "description": "a(0) = 0, a(1) = 1. Thereafter, a(n) = a(n-1) + a(n-2) converted to base n, read in base n+1.",
+  "id": "A380976",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n+7,n)*C(n+5,5).",
+  "description": "a(n) = C(n+5,5) * C(n+7,7).",
   "id": "A105948",
   "mentions": [
     "A062196"

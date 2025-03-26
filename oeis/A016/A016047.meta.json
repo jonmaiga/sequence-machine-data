@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factor of Mersenne numbers.",
+  "description": "Smallest prime factor of Mersenne numbers 2^p-1, where p is prime.",
   "id": "A016047",
   "mentions": [
     "A000225",

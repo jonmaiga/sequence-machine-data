@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of iterations that n requires to reach a 3-smooth number under the map x -> phi(x).",
+  "id": "A379259",
+  "mentions": [
+    "A000010",
+    "A003434",
+    "A003586",
+    "A086420",
+    "A122254",
+    "A246491"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

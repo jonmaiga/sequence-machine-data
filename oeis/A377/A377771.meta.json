@@ -1,14 +1,17 @@
 {
-  "description": "Number of edge cuts in the n-trapezohedron graph.",
+  "description": "Number of edge cuts in the n-trapezohedral graph.",
   "id": "A377771",
-  "mentions": [],
+  "mentions": [
+    "A356213"
+  ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 4,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

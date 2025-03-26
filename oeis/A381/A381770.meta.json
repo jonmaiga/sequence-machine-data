@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k > 0 such that the factorial base expansion of k*n has digits in nonincreasing order.",
+  "id": "A381770",
+  "mentions": [
+    "A223475",
+    "A351987",
+    "A381771"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

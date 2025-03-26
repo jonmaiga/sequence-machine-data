@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n, k) gives the coefficients of x^k of the characteristic polynomial P(n, x) of the n X n matrix M with entries M(i, j) = 1 if i = 1 or j = 1, -1 if i = j > 1, and 0 otherwise. T(0, 0):= 0.",
+  "description": "Triangle read by rows: T(n, k) gives the coefficients of x^k of the characteristic polynomial P(n, x) of the n X n matrix M with entries M(i, j) = 1 if i = 1 or j = 1, -1 if i = j > 1, and 0 otherwise. T(0, 0) := 0.",
   "id": "A297477",
   "mentions": [
     "A007917",

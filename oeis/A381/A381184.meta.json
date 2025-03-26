@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = [(x*y*z*u)^n] 1/((1-(x+y+z+u))*(1-x*y-z*u)).",
+  "id": "A381184",
+  "mentions": [
+    "A006134"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

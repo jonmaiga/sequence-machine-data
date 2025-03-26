@@ -2,6 +2,7 @@
   "description": "a(n) is the number of distinct straight lines passing through the points (k, prime(k)) and (n, prime(n)) for k < n (where prime(k) denotes the k-th prime number).",
   "id": "A375421",
   "mentions": [
+    "A334046",
     "A375420"
   ],
   "tags": [

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 3^n mod n^3.",
   "id": "A066607",
-  "mentions": [],
+  "mentions": [
+    "A066606"
+  ],
   "tags": [
     "easy",
     "nonn"

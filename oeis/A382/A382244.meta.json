@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, n*a(n) is a triangular number (A000217).",
+  "id": "A382244",
+  "mentions": [
+    "A000217",
+    "A061782"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

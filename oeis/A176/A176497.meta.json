@@ -1,5 +1,5 @@
 {
-  "description": "Order of the Cross Set which is the subset of the set of distinct resistances that can be produced using n equal resistors in series and/or parallel.",
+  "description": "a(n) is the cardinality of the \"Cross Set\" which is the subset of distinct resistances that can be produced by a circuit of n unit resistors using only series or parallel combinations which cannot be decomposed as a single unit resistor in either series or parallel with a circuit of n-1 unit resistors.",
   "id": "A176497",
   "mentions": [
     "A048211",
@@ -15,12 +15,13 @@
     "A176502"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

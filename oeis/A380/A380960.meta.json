@@ -1,0 +1,17 @@
+{
+  "description": "Sum of n and the n-th bit of the infinite Fibonacci word.",
+  "id": "A380960",
+  "mentions": [
+    "A003849",
+    "A368050"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

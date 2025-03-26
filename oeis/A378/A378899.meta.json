@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes between successive powerful numbers k that are not prime powers (i.e., k in A286708).",
+  "id": "A378899",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A240590",
+    "A286708",
+    "A378699"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

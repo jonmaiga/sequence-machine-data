@@ -9,11 +9,12 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

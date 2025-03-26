@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^2 * 2^n * binomial(3*n, n).",
+  "id": "A378778",
+  "mentions": [
+    "A005809",
+    "A007758",
+    "A228484",
+    "A378780"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

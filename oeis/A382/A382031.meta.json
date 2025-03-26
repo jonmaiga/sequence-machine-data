@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x*B(x*A(x)^2)), where B(x) = 1 + x*B(x)^4 is the g.f. of A002293.",
+  "id": "A382031",
+  "mentions": [
+    "A002293",
+    "A212722",
+    "A380513",
+    "A382016",
+    "A382029",
+    "A382030",
+    "A382044"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that A095372(n) = 1+90*(-1+100^n)/99 is prime.",
+  "description": "Integers k such that A095372(k) = 1 + 90*(-1+100^k)/99 is prime.",
   "id": "A095373",
   "mentions": [
     "A002275",

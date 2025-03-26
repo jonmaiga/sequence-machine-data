@@ -1,5 +1,5 @@
 {
-  "description": "Number of planar partitions (or plane partitions) of n.",
+  "description": "Number of plane partitions (or planar partitions) of n.",
   "id": "A000219",
   "mentions": [
     "A000041",

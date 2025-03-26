@@ -1,0 +1,24 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^6/(1 + x*A(x)).",
+  "id": "A378919",
+  "mentions": [
+    "A002294",
+    "A106228",
+    "A349362",
+    "A364758",
+    "A364759",
+    "A364765",
+    "A365218",
+    "A378892",
+    "A378920"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

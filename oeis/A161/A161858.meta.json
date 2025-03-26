@@ -17,12 +17,14 @@
     "A267175"
   ],
   "tags": [
+    "fini",
     "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 31,
     "source": "joeis"
   }
 }

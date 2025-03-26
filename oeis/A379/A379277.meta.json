@@ -1,0 +1,20 @@
+{
+  "description": "Number of solid partitions with multiplicities of parts matching the n-th composition in standard order.",
+  "id": "A379277",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A000293",
+    "A066099",
+    "A207542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of smallest positive root of cos(Pi x/2) cosh(Pi x/2) = -1.",
+  "description": "Decimal expansion of smallest positive root of cos(Pi*x/2)*cosh(Pi*x/2) = -1.",
   "id": "A068353",
   "mentions": [
     "A076417"

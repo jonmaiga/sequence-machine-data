@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(sin(3*x) / 3).",
+  "id": "A381278",
+  "mentions": [
+    "A002017",
+    "A009210",
+    "A136630",
+    "A352640",
+    "A381286"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

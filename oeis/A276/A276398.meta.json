@@ -1,5 +1,5 @@
 {
-  "description": "Limit S_oo where S_0 = 0, S_i = S_{i-1} 1^(4^i) S_{i-1} for i >0.",
+  "description": "Limit S_oo where S_0 = 0, S_i = S_{i-1} 1^(4^i) S_{i-1} for i > 0.",
   "id": "A276398",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

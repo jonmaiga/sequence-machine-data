@@ -1,5 +1,5 @@
 {
-  "description": "n such that n - tau(n) is a perfect square.",
+  "description": "Numbers k such that k - tau(k) is a perfect square.",
   "id": "A245388",
   "mentions": [
     "A000005",

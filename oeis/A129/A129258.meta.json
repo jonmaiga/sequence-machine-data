@@ -1,7 +1,8 @@
 {
-  "description": "A prime separator array.",
+  "description": "Rectangular array, read by descending antidiagonals: a prime separator array.",
   "id": "A129258",
   "mentions": [
+    "A000040",
     "A129259",
     "A129260"
   ],

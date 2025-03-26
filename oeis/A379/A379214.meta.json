@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (sqrt(3) + sqrt(5) + 2*sqrt(6))/(8*sqrt(2)).",
+  "id": "A379214",
+  "mentions": [
+    "A002163",
+    "A002194",
+    "A010464",
+    "A010480",
+    "A377342"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} lambda(n)/2^n where lambda is the Liouville function (A008836).",
+  "id": "A380387",
+  "mentions": [
+    "A008836",
+    "A238270",
+    "A300892",
+    "A343784"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

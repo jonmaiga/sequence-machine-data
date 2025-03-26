@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of non-constantive transformation monoids on n elements.",
+  "id": "A378870",
+  "mentions": [
+    "A343140",
+    "A378869",
+    "A378871"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

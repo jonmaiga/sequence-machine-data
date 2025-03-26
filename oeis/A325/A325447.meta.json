@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of nonseparable (or 2-connected) graphs on n unlabeled nodes with circumference k, (n >= 3, k >= 3).",
+  "description": "Triangle read by rows: T(n,k) is the number of simple nonseparable (or 2-connected) graphs on n unlabeled nodes with circumference k, (n >= 3, k >= 3).",
   "id": "A325447",
   "mentions": [
     "A002218",

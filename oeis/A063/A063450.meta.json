@@ -1,9 +1,11 @@
 {
-  "description": "Numbers n such that d(n+1) < 2d(n), where d() is the number of divisors function A000005.",
+  "description": "Numbers k such that d(k+1) < 2*d(k), where d() is the number of divisors function A000005.",
   "id": "A063450",
   "mentions": [
     "A000005",
-    "A002808"
+    "A002808",
+    "A063446",
+    "A063449"
   ],
   "tags": [
     "nonn"
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

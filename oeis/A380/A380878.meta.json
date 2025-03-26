@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k*(k+1) shares no decimal digits with k or k+1.",
+  "id": "A380878",
+  "mentions": [
+    "A375211"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

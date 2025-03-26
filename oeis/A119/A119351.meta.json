@@ -1,5 +1,5 @@
 {
-  "description": "Indices n of prime palindromic numbers formed by taking n digits in the decimal expansion of Pi and reflecting about the last digit.",
+  "description": "Indices k of prime palindromic numbers formed by taking k digits in the decimal expansion of Pi and reflecting about the last digit.",
   "id": "A119351",
   "mentions": [
     "A039954"

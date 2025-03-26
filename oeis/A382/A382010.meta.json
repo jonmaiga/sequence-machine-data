@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a pentakis dodecahedron.",
+  "id": "A382010",
+  "mentions": [
+    "A000796",
+    "A002163",
+    "A379132",
+    "A379133",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors",
+  "description": "Number of n X n nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors.",
   "id": "A208461",
   "mentions": [
     "A208466"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

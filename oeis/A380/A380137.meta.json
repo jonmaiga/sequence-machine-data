@@ -1,0 +1,19 @@
+{
+  "description": "The conjectured maximum multiplicative persistence for bases b >= 2.",
+  "id": "A380137",
+  "mentions": [
+    "A007954",
+    "A031346",
+    "A031347"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

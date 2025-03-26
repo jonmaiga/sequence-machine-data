@@ -1,0 +1,22 @@
+{
+  "description": "Positions of records in A380528.",
+  "id": "A380530",
+  "mentions": [
+    "A008578",
+    "A380459",
+    "A380468",
+    "A380475",
+    "A380476",
+    "A380528"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

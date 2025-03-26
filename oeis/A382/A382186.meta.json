@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers that are the sum of the m-th prime and the m-th semiprime for some m.",
+  "id": "A382186",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A092108",
+    "A133796"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

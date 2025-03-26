@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-step spirals on cubic lattice.",
+  "description": "Number of n-step anisotropic spirals on cubic lattice.",
   "id": "A006780",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "7 times heptagonal numbers: 7*n*(5*n-3)/2.",
+  "description": "7 times heptagonal numbers: a(n) = 7*n*(5*n-3)/2.",
   "id": "A152777",
   "mentions": [
     "A000566"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 43,
     "source": "joeis"
   }
 }

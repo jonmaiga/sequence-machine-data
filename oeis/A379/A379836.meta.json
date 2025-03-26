@@ -1,0 +1,23 @@
+{
+  "description": "Number of pairs of adjacent equal parts in all complete compositions of n.",
+  "id": "A379836",
+  "mentions": [
+    "A011782",
+    "A106356",
+    "A107428",
+    "A107429",
+    "A373306",
+    "A374147",
+    "A374726",
+    "A377823"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

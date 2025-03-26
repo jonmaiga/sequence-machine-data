@@ -1,0 +1,19 @@
+{
+  "description": "Characteristic function of A337533 (union of {1} with nonsquares whose square part's square root is in the sequence).",
+  "id": "A380458",
+  "mentions": [
+    "A209229",
+    "A267116",
+    "A337533",
+    "A337534"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

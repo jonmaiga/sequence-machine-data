@@ -1,0 +1,17 @@
+{
+  "description": "Characteristic function of A239929, numbers k with the property that the symmetric representation of sigma(k) has two parts.",
+  "id": "A379969",
+  "mentions": [
+    "A237593",
+    "A239929",
+    "A365429"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Minimum 2-tone chromatic number of maximal planar graphs with n vertices.",
+  "id": "A381562",
+  "mentions": [
+    "A003057",
+    "A350361",
+    "A350362",
+    "A350715",
+    "A351120",
+    "A366727",
+    "A366728"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

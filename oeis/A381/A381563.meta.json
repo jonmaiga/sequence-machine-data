@@ -1,0 +1,23 @@
+{
+  "description": "2-tone chromatic number of a double wheel graph with n vertices.",
+  "id": "A381563",
+  "mentions": [
+    "A003057",
+    "A350361",
+    "A350362",
+    "A350715",
+    "A351120",
+    "A366727",
+    "A366728",
+    "A381562"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

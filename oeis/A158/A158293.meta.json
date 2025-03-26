@@ -1,7 +1,9 @@
 {
   "description": "Primes whose digit sum is a multiple of 10.",
   "id": "A158293",
-  "mentions": [],
+  "mentions": [
+    "A007605"
+  ],
   "tags": [
     "base",
     "easy",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (Sum_{d|n} (sigma(d))) mod sigma(n).",
+  "description": "a(n) = (Sum_{d|n} sigma(d)) mod sigma(n).",
   "id": "A319296",
   "mentions": [
     "A000040",

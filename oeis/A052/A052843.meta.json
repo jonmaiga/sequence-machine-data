@@ -1,5 +1,5 @@
 {
-  "description": "A simple grammar.",
+  "description": "a(n) is the number of forests with n nodes of rooted unlabeled identity trees.",
   "id": "A052843",
   "mentions": [
     "A004111"

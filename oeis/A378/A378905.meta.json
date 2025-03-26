@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of odd squarefree semiprimes (A046388) < prime(n).",
+  "id": "A378905",
+  "mentions": [
+    "A000720",
+    "A046388",
+    "A292785"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k >= 2 such that A115588(k) != A381399(k).",
+  "id": "A381400",
+  "mentions": [
+    "A115588",
+    "A381399"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

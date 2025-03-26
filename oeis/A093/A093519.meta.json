@@ -1,9 +1,8 @@
 {
-  "description": "Numbers n with no representation as the sum of exactly 2 generalized pentagonal numbers.",
+  "description": "Numbers with no representation as the sum of two (not necessarily distinct) generalized pentagonal numbers.",
   "id": "A093519",
   "mentions": [
     "A001318",
-    "A002107",
     "A093518",
     "A204382"
   ],
@@ -13,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

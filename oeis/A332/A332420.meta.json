@@ -1,18 +1,16 @@
 {
-  "description": "Number of Maclaurin polynomials of sin x having exactly n positive zeros.",
+  "description": "Number of Maclaurin polynomials p(2m-1,x) of sin(x) having exactly n positive zeros.",
   "id": "A332420",
   "mentions": [
-    "A332325",
-    "A332417"
+    "A012265",
+    "A332325"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 88,
     "source": "oeis-entry"
   }
 }

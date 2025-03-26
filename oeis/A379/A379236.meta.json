@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that x=(sigma(k) XOR 2*k) divides k in carryless binary arithmetic, when the binary expansions of k and x are interpreted as polynomials in ring GF(2)[X].",
+  "id": "A379236",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A003987",
+    "A048720",
+    "A097498",
+    "A153501",
+    "A271816",
+    "A280500",
+    "A318467",
+    "A379234"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

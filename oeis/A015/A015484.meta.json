@@ -1,5 +1,5 @@
 {
-  "description": "q-Fibonacci numbers for q=11.",
+  "description": "q-Fibonacci numbers for q=11, scaling a(n-1).",
   "id": "A015484",
   "mentions": [
     "A000045",

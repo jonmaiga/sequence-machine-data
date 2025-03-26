@@ -1,7 +1,8 @@
 {
-  "description": "GCD(n,A113222(n)).",
+  "description": "a(n) = gcd(n, A113222(n)), where A113222(n) = Sum_{p^e || n} F(p^e), each p^e the highest power of prime p dividing n (with e > 0), and F(k) is the k-th Fibonacci number.",
   "id": "A111142",
   "mentions": [
+    "A000045",
     "A113222"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

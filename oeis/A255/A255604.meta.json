@@ -1,5 +1,5 @@
 {
-  "description": "Table read by antidiagonals, T(n,k) is integer part of the area of a regular k-gon with side length n.",
+  "description": "Table read by antidiagonals, T(n,k) is the integer part of the area of a regular k-gon with side length n.",
   "id": "A255604",
   "mentions": [
     "A000290",

@@ -24,12 +24,13 @@
     "A347155"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

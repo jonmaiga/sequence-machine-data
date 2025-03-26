@@ -1,0 +1,20 @@
+{
+  "description": "Number of primitive binary words of length n that avoid 11, start with 1 and end with 0.",
+  "id": "A381936",
+  "mentions": [
+    "A000045",
+    "A007436",
+    "A008683",
+    "A056267",
+    "A113166"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

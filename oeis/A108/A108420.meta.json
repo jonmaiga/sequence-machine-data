@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n such that n!! + prime(n) is prime.",
+  "description": "Numbers k such that k!! - prime(k) is prime.",
   "id": "A108420",
   "mentions": [
+    "A006882",
     "A007749",
     "A064401"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

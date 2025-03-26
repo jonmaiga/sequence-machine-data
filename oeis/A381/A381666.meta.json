@@ -1,0 +1,20 @@
+{
+  "description": "The generating function A(x) satisfies the functional equation: A(x)+x = x*A(A(x)).",
+  "id": "A381666",
+  "mentions": [
+    "A030266",
+    "A347080",
+    "A381669",
+    "A381670"
+  ],
+  "tags": [
+    "eigen",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,14 +1,18 @@
 {
   "description": "a(n) = 10^(5*n + 3).",
   "id": "A013856",
-  "mentions": [],
+  "mentions": [
+    "A011557",
+    "A016885"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-bfile"
   }
 }

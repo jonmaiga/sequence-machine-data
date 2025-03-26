@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = floor(n*(2^(1/4) + 2^(-1/4))); Beatty sequence for 2^(1/4) + 2^(-1/4).",
+  "id": "A379511",
+  "mentions": [
+    "A378142"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

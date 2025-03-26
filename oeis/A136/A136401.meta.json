@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3*a(n-1) - 4*a(n-2) + 6*a(n-3) - 4*a(n-4).",
+  "description": "a(n) = 3*a(n-1) - 4*a(n-2) + 6*a(n-3) - 4*a(n-4), with initial terms 0,0,0,1.",
   "id": "A136401",
   "mentions": [
     "A154957"

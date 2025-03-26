@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 12*n^2 + 4*n + 1.",
+  "id": "A381390",
+  "mentions": [
+    "A001082"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

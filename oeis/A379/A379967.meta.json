@@ -1,0 +1,20 @@
+{
+  "description": "Arithmetic derivative of {n divided by its largest squarefree divisor}: a(n) = A003415(A003557(n)).",
+  "id": "A379967",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A028235",
+    "A341998",
+    "A342001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

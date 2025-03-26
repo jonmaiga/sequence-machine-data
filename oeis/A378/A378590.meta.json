@@ -1,0 +1,31 @@
+{
+  "description": "Total number of ways to place k nonattacking bishops on an n X n chess board. Triangle T(n,k) read by rows (0 <= k <= 2*n-[n>0]-[n>1]).",
+  "id": "A378590",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A000290",
+    "A002465",
+    "A172123",
+    "A172124",
+    "A172127",
+    "A172129",
+    "A176886",
+    "A187239",
+    "A187240",
+    "A187241",
+    "A187242",
+    "A201862"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

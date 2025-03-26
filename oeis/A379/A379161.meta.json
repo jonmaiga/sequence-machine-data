@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the multiplicative order of 7 modulo p is prime.",
+  "id": "A379161",
+  "mentions": [
+    "A000040",
+    "A122094",
+    "A277048",
+    "A277049"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

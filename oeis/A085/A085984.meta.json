@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of solution to e^x*(-1 + x) == (1 + x)/e^x.",
+  "description": "Decimal expansion of solution to e^x*(-1 + x) = (1 + x)/e^x.",
   "id": "A085984",
   "mentions": [
     "A003957",

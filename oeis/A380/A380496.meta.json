@@ -1,0 +1,15 @@
+{
+  "description": "Lenstra excess of the n-th odd prime.",
+  "id": "A380496",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

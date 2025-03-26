@@ -1,8 +1,9 @@
 {
-  "description": "Self-describing sequence : runs of equal parity digits alternate (\"0\" is considered as an even digit); the length of each run is given by the sequence itself.",
+  "description": "Lexicographically earliest strictly increasing sequence such that the run lengths of digits with equal parity in the sequence's digit stream yield the sequence itself.",
   "id": "A114055",
   "mentions": [
-    "A093848"
+    "A093848",
+    "A101316"
   ],
   "tags": [
     "base",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 62,
-    "source": "oeis-entry"
+    "size": 61,
+    "source": "oeis-bfile"
   }
 }

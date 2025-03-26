@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: the sum of the coefficients of x^k, k=0..n, in A(x)^n equals (3*n)!/n!^3, which is De Bruijn's sequence S(3,n) (A006480), for n>=0.",
+  "description": "G.f. A(x) satisfies: the sum of the coefficients of x^k, k=0..n, in A(x)^n equals (3*n)!/n!^3, which is de Bruijn's sequence S(3,n) (A006480), for n>=0.",
   "id": "A232683",
   "mentions": [
     "A000984",

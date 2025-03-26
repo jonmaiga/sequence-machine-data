@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least m for which bigomega(A246281(m)) = n.",
+  "id": "A378743",
+  "mentions": [
+    "A001222",
+    "A001359",
+    "A003961",
+    "A246281"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

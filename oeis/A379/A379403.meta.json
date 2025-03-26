@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array, read by descending antidiagonals: the Type 1 runlength index array of A039702 (primes mod 4); see Comments.",
+  "id": "A379403",
+  "mentions": [
+    "A039702",
+    "A379046",
+    "A379401",
+    "A379402",
+    "A379404"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

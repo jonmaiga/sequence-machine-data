@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = q - 2*p, where q is the greatest prime such that p=2*n - q is also prime.",
+  "id": "A377842",
+  "mentions": [
+    "A020481",
+    "A020482",
+    "A378896"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

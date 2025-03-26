@@ -2,13 +2,13 @@
   "description": "Triangle of squarefree numbers grouped by greatest prime factor, read by rows.",
   "id": "A339195",
   "mentions": [
-    "A000040",
-    "A000079",
     "A001221",
     "A001748",
     "A002110",
     "A005117",
     "A006881",
+    "A008578",
+    "A011782",
     "A014342",
     "A014466",
     "A019565",
@@ -33,7 +33,9 @@
     "A338901",
     "A339116",
     "A339194",
-    "A339360"
+    "A339360",
+    "A379746",
+    "A379770"
   ],
   "tags": [
     "formulas",
@@ -41,8 +43,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 63,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
   }
 }

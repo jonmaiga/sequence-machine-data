@@ -1,5 +1,5 @@
 {
-  "description": "Heptagonal numbers (or 7-gonal numbers) which are products of four distinct primes.",
+  "description": "Heptagonal numbers which are products of four distinct primes.",
   "id": "A351867",
   "mentions": [
     "A000566",

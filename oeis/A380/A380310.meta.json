@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp( 1 - 1/(1-5*x)^(1/5) ).",
+  "id": "A380310",
+  "mentions": [
+    "A000587",
+    "A008548",
+    "A028575",
+    "A145561",
+    "A380308",
+    "A380309"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

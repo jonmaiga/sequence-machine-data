@@ -1,0 +1,18 @@
+{
+  "description": "Records in A378865.",
+  "id": "A379673",
+  "mentions": [
+    "A074157",
+    "A378865"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

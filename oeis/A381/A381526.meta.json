@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest positive integer k such that the decimal expansion of k is a substring of the decimal expansion of n*k, or -1 if no such number exists.",
+  "id": "A381526",
+  "mentions": [
+    "A239134",
+    "A337084",
+    "A381527",
+    "A381528"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

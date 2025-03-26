@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(A224273).",
+  "id": "A379092",
+  "mentions": [
+    "A004117",
+    "A019692",
+    "A073005",
+    "A224273"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

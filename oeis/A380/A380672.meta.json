@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows where row n lists divisors d | n such that rad(d) != rad(n), where rad = A007947.",
+  "id": "A380672",
+  "mentions": [
+    "A000005",
+    "A005361",
+    "A007947",
+    "A027750",
+    "A183093",
+    "A284318",
+    "A380819"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

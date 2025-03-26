@@ -1,0 +1,17 @@
+{
+  "description": "Antidiagonal sums of the array A379587.",
+  "id": "A379588",
+  "mentions": [
+    "A361476",
+    "A379587"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = product of divisors d of n that are not coreful.",
+  "id": "A378689",
+  "mentions": [
+    "A000961",
+    "A002110",
+    "A007947",
+    "A007955",
+    "A027750",
+    "A120944",
+    "A286708",
+    "A308135",
+    "A308360",
+    "A332785"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

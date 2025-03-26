@@ -1,0 +1,21 @@
+{
+  "description": "The Chung-Graham representation of n: representation of n in base of even-indexed Fibonacci numbers.",
+  "id": "A381579",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A014417",
+    "A104326",
+    "A291711"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

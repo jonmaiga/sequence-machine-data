@@ -1,0 +1,37 @@
+{
+  "description": "Array read by antidiagonals: meandric numbers for a river crossing up to k parallel roads at n points, n >= 0, k >= 1.",
+  "id": "A380367",
+  "mentions": [
+    "A005316",
+    "A076875",
+    "A076876",
+    "A204352",
+    "A206432",
+    "A208062",
+    "A208126",
+    "A208452",
+    "A208453",
+    "A209383",
+    "A209621",
+    "A209622",
+    "A209626",
+    "A209656",
+    "A209657",
+    "A209660",
+    "A209707",
+    "A210344",
+    "A210478",
+    "A210567",
+    "A210592"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

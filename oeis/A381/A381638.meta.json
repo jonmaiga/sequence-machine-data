@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of Sum_{i=1..omega(n)-1} p_{i}/p_{i+1}, where omega(n) = A001221(n) and p_1 < p_2 < ... p_omega(n) are the distinct prime factors of n; a(1) = 0.",
+  "id": "A381638",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A381639",
+    "A381640",
+    "A381641"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

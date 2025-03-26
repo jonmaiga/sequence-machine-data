@@ -2,6 +2,7 @@
   "description": "List giving least odd integer of each prime signature.",
   "id": "A147516",
   "mentions": [
+    "A001147",
     "A025487",
     "A070826"
   ],

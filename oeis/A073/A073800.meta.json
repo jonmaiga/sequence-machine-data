@@ -1,5 +1,5 @@
 {
-  "description": "Remainder of division 2^n/c[n], where c[n]=A002808, the n-th composite.",
+  "description": "Remainder of division 2^n/c(n), where c(n)=A002808(n), the n-th composite.",
   "id": "A073800",
   "mentions": [
     "A000079",
@@ -8,6 +8,7 @@
     "A062173",
     "A064367",
     "A073797",
+    "A073798",
     "A073799"
   ],
   "tags": [
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

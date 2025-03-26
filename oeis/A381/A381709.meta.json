@@ -1,0 +1,21 @@
+{
+  "description": "Euler transform of n^3 * A065960(n).",
+  "id": "A381709",
+  "mentions": [
+    "A023872",
+    "A065960",
+    "A156303",
+    "A156733",
+    "A381170",
+    "A381679"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

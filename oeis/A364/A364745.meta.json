@@ -1,14 +1,17 @@
 {
-  "description": "Number of edge cuts in the n-Lucas cube graph.",
+  "description": "Number of edge covers in the n-Lucas cube graph.",
   "id": "A364745",
-  "mentions": [],
+  "mentions": [
+    "A297051",
+    "A377653"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

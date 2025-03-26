@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the inradius of a pentakis dodecahedron with unit shorter edge length.",
+  "id": "A379134",
+  "mentions": [
+    "A002163",
+    "A379132",
+    "A379133",
+    "A379135",
+    "A379136"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

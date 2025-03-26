@@ -2,7 +2,9 @@
   "description": "Sum of squared coefficients of q in the q-factorials.",
   "id": "A127728",
   "mentions": [
-    "A008302"
+    "A008302",
+    "A380274",
+    "A380275"
   ],
   "tags": [
     "formulas",

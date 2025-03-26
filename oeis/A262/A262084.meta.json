@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n that satisfy the equation phi(n + 6) = phi(n) + 6 where phi(n) = A000010(n) is Euler's totient function.",
+  "description": "Numbers m that satisfy the equation phi(m + 6) = phi(m) + 6 where phi(m) = A000010(m) is Euler's totient function.",
   "id": "A262084",
   "mentions": [
     "A000010",

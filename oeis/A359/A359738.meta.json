@@ -2,10 +2,13 @@
   "description": "a(n) = [x^n] (2*x^4 + 2*x^3 + 2*x^2 + x + 1)/(x^2 + 1).",
   "id": "A359738",
   "mentions": [
+    "A057077",
+    "A087960",
     "A100615",
     "A266591"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],

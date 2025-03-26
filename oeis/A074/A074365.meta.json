@@ -1,9 +1,12 @@
 {
   "description": "Smallest prime > the concatenation of the first n natural numbers.",
   "id": "A074365",
-  "mentions": [],
+  "mentions": [
+    "A007908"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

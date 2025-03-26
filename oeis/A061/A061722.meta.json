@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 10 * n^2 + 7.",
+  "description": "a(n) = 10*n^2 + 7.",
   "id": "A061722",
   "mentions": [
     "A061679",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 42,
+    "size": 45,
     "source": "joeis"
   }
 }

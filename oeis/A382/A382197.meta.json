@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 24^(1/6).",
+  "id": "A382197",
+  "mentions": [
+    "A002193",
+    "A010480",
+    "A010596",
+    "A011020",
+    "A011109",
+    "A246708"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

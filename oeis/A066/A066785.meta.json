@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that (n, phi(n), sigma(n)) lies on a sphere with integral radius centered at the origin, i.e., n^2 + phi(n)^2 + sigma(n)^2 is a square.",
+  "description": "Numbers k such that (k, phi(k), sigma(k)) lies on a sphere with integral radius centered at the origin, i.e., k^2 + phi(k)^2 + sigma(k)^2 is a square.",
   "id": "A066785",
-  "mentions": [],
+  "mentions": [
+    "A066763",
+    "A066764"
+  ],
   "tags": [
     "nonn"
   ],

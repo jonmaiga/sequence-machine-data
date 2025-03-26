@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of 1 into {1/1^2, 1/2^2, 1/3^2, ..., 1/n^2}.",
+  "id": "A379528",
+  "mentions": [
+    "A000290",
+    "A020473",
+    "A038034",
+    "A348625",
+    "A378270",
+    "A378842"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

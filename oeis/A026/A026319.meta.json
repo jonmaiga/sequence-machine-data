@@ -1,7 +1,12 @@
 {
-  "description": "a(n) = n-th nonnegative integer k satisfying |sin(k)| < |cos(k)| < |sin(k+1)|.",
+  "description": "a(n) is the n-th nonnegative integer k satisfying |sin(k)| < |cos(k)| < |sin(k+1)|.",
   "id": "A026319",
-  "mentions": [],
+  "mentions": [
+    "A026317",
+    "A246303",
+    "A327138",
+    "A327139"
+  ],
   "tags": [
     "nonn"
   ],

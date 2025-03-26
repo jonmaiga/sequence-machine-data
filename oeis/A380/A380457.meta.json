@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers k for which A339792(k) = -1, where A339792 is the third coefficient of the lindep transform of sigma.",
+  "id": "A380457",
+  "mentions": [
+    "A339792",
+    "A379490",
+    "A380455",
+    "A380456"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

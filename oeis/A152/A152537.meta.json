@@ -1,5 +1,5 @@
 {
-  "description": "Convolution sequence: convolved with A000041 = powers of 2, (A000079).",
+  "description": "Convolution sequence: this sequence convolved with A000041 gives powers of 2, (A000079).",
   "id": "A152537",
   "mentions": [
     "A000041",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = p(n^2*p(n)), where p(x) is the least prime > x.",
+  "id": "A378137",
+  "mentions": [
+    "A000040",
+    "A151800",
+    "A378135",
+    "A378136"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

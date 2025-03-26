@@ -1,5 +1,5 @@
 {
-  "description": "Primes modulo 30.",
+  "description": "a(n) = n-th prime modulo 30.",
   "id": "A095959",
   "mentions": [
     "A000010",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

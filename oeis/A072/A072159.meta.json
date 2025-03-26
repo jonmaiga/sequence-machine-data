@@ -2,6 +2,7 @@
   "description": "Denominator of Sum_{k=1..n} phi(k)/k^3.",
   "id": "A072159",
   "mentions": [
+    "A000010",
     "A072158"
   ],
   "tags": [

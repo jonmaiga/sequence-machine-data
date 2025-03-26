@@ -2,14 +2,12 @@
   "description": "Products of two primes that are not Chen primes.",
   "id": "A115719",
   "mentions": [
-    "A000040",
     "A001358",
     "A102540",
     "A109611"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

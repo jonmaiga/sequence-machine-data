@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of exp( Sum_{k>=1} binomial(6*k-1,2*k) * x^k/k ).",
+  "id": "A381744",
+  "mentions": [
+    "A006013",
+    "A079489",
+    "A182960",
+    "A381745",
+    "A381746"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Let S(m, n):=sum{k^m: k=1...n}; we define a(1):=S(1, 1), a(2):=S(2, S(1, 2)) etc., a(n):=S(n, S(n-1, S(n-2, ...S(1, n))...))).",
+  "description": "Let S(m, n):=Sum_{k=1..n} k^m; we define a(1):=S(1, 1), a(2):=S(2, S(1, 2)) etc., a(n):=S(n, S(n-1, S(n-2, ...S(1, n)...))).",
   "id": "A113776",
   "mentions": [
+    "A103438",
     "A115242"
   ],
   "tags": [

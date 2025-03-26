@@ -1,0 +1,17 @@
+{
+  "description": "Complement of A129459.",
+  "id": "A375211",
+  "mentions": [
+    "A129459"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

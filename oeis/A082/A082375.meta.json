@@ -2,6 +2,8 @@
   "description": "Irregular triangle read by rows: row n begins with n and decreases by 2 until 0 or 1 is reached, for n >= 0.",
   "id": "A082375",
   "mentions": [
+    "A000037",
+    "A000290",
     "A001622",
     "A008619",
     "A025644",

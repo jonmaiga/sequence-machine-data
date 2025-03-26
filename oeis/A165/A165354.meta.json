@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p+(p^2-1)/8 is integer but not a prime number.",
+  "description": "Primes p such that p+(p^2-1)/8 is an integer but not a prime number.",
   "id": "A165354",
   "mentions": [
     "A000040",

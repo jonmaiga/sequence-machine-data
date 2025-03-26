@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled set systems on n vertices which are closed under union of disjoint sets.",
+  "id": "A381472",
+  "mentions": [
+    "A000612",
+    "A193674",
+    "A381471",
+    "A381575"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

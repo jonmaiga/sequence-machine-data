@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of positive integers that have Omega(n) prime factors and these are all <= n.",
+  "id": "A377505",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001222",
+    "A007318",
+    "A037031",
+    "A377537"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

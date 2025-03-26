@@ -1,0 +1,24 @@
+{
+  "description": "Number of powerful numbers k that are not powers of primes (i.e., k is in A286708) that do not exceed the primorial number A002110(n).",
+  "id": "A380430",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A126706",
+    "A246547",
+    "A286708",
+    "A380254",
+    "A380402",
+    "A380403"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

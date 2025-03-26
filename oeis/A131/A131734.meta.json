@@ -1,5 +1,5 @@
 {
-  "description": "Hexaperiodic [0, 1, 0, 1, 0, -1].",
+  "description": "Period 6: repeat [0, 1, 0, 1, 0, -1].",
   "id": "A131734",
   "mentions": [
     "A000035"

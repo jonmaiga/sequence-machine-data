@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + x*exp(2*x)*A(x)^6.",
+  "id": "A382001",
+  "mentions": [
+    "A002295",
+    "A336950",
+    "A381989",
+    "A381997",
+    "A381998",
+    "A381999",
+    "A382000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

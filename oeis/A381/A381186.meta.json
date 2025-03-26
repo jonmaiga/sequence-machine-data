@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = denominator( [x^n] hypergeom([1/4, 3/4], [1], 2^6*x/3^2)/sqrt(1 - 4*x) ).",
+  "id": "A381186",
+  "mentions": [
+    "A381185"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

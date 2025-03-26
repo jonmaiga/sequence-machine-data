@@ -1,5 +1,5 @@
 {
-  "description": "Floor((sum_{1..n} 1/i)^n).",
+  "description": "a(n) = floor((Sum_{i=1..n} 1/i)^n).",
   "id": "A067052",
   "mentions": [],
   "tags": [

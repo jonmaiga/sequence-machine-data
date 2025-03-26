@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n!)^n + n^n.",
+  "id": "A379577",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A036740"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

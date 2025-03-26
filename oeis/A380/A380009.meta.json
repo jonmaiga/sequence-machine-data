@@ -1,0 +1,21 @@
+{
+  "description": "Numbers t whose binary expansion Sum 2^e_i has exponents e_i which are evil numbers (A001969).",
+  "id": "A380009",
+  "mentions": [
+    "A000069",
+    "A001285",
+    "A001969",
+    "A010059",
+    "A380008"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

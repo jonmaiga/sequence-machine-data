@@ -1,8 +1,9 @@
 {
-  "description": "Sum {k = 1..n} tau(k) is a prime, where tau is the Ramanujan tau function (A000594).",
+  "description": "Numbers m such that abs(Sum {k = 1..m} tau(k)) is a prime, where tau is the Ramanujan tau function (A000594).",
   "id": "A076724",
   "mentions": [
-    "A000594"
+    "A000594",
+    "A144248"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

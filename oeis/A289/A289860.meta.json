@@ -1,11 +1,12 @@
 {
-  "description": "Primes of the form k!4-2, where k!4 is the quadruple factorial number (A007662).",
+  "description": "Primes of the form k!4 - 2, where k!4 is the quadruple factorial number (A007662).",
   "id": "A289860",
   "mentions": [
     "A007662",
     "A283554"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

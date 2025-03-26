@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least nonnegative number that can be represented as the sum of two (not necessarily distinct) generalized pentagonal numbers in exactly n ways.",
+  "id": "A381535",
+  "mentions": [
+    "A001318",
+    "A093518"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

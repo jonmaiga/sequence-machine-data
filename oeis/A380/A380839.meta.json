@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of J(n) = Product_{p|n, p odd prime} (p - 1)/(p - 2).",
+  "id": "A380839",
+  "mentions": [
+    "A167864",
+    "A173557",
+    "A305444",
+    "A307410"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

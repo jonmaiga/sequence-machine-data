@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 12*a(n-2) - 25*a(n-4).",
+  "description": "a(n) = 12*a(n-2) - 25*a(n-4) with initial terms 1,6,17,47.",
   "id": "A083334",
   "mentions": [
+    "A010468",
     "A083335"
   ],
   "tags": [

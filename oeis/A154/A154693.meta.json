@@ -1,17 +1,21 @@
 {
-  "description": "Triangle T(n,m) = ( 2^(n-m)+2^m )*A008292(n+1,m+1) read by rows.",
+  "description": "Triangle read by rows: T(n, k) = (2^(n-k) + 2^k)*A008292(n+1, k+1).",
   "id": "A154693",
   "mentions": [
     "A000629",
-    "A008292"
+    "A008292",
+    "A154694",
+    "A257609",
+    "A257620"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,10 +1,11 @@
 {
-  "description": "Expansion of sin(x)*sin(sinh(x))/2.",
+  "description": "Expansion of e.g.f. sin(x)*sin(sinh(x))/2 (even powers only).",
   "id": "A024230",
   "mentions": [
     "A009547"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

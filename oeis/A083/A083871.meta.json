@@ -2,6 +2,8 @@
   "description": "Decimal expansion of sqrt(355/113).",
   "id": "A083871",
   "mentions": [
+    "A002161",
+    "A002485",
     "A068079"
   ],
   "tags": [

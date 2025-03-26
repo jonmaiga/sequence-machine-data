@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that decrease two times in succession when they are iteratively replaced by the \"Look and Say\" description (cf. A045918) of their prime factors, counted with multiplicity.",
+  "id": "A379455",
+  "mentions": [
+    "A005150",
+    "A045918",
+    "A367974",
+    "A369092",
+    "A369132",
+    "A379453",
+    "A379454"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

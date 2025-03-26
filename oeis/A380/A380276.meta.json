@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of infinite sum of reciprocals Sum_{n>=1} 1/A357934(n).",
+  "id": "A380276",
+  "mentions": [
+    "A001359",
+    "A209328",
+    "A342714",
+    "A356793",
+    "A357934"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

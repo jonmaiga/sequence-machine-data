@@ -1,0 +1,25 @@
+{
+  "description": "Elimination order of the first person in a variation of the Josephus problem, where the number of skipped people correspond to the number of letters in consecutive numbers, called SpellUnder-Down.",
+  "id": "A380246",
+  "mentions": [
+    "A005589",
+    "A006257",
+    "A225381",
+    "A321298",
+    "A378635",
+    "A380201",
+    "A380202",
+    "A380204",
+    "A380247",
+    "A380248"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

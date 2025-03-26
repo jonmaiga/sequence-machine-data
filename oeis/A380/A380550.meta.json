@@ -1,0 +1,19 @@
+{
+  "description": "List of numbers not of the form i + 3*j + 4*i*j for i, j >= 1.",
+  "id": "A380550",
+  "mentions": [
+    "A005097",
+    "A006093",
+    "A380549",
+    "A380572"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

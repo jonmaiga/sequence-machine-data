@@ -1,0 +1,21 @@
+{
+  "description": "Sequence of primitive Pythagorean triples beginning with the triple (3,4,5), with each subsequent triple having as its inradius the semiperimeter of the previous triple, and with the long leg and the hypotenuse of each triple being consecutive natural numbers.",
+  "id": "A379506",
+  "mentions": [
+    "A002065",
+    "A365577",
+    "A365578",
+    "A365796",
+    "A378395",
+    "A378963"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

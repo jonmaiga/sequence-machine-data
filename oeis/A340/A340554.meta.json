@@ -9,12 +9,13 @@
     "A201461"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

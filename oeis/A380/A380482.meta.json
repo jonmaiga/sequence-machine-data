@@ -1,0 +1,20 @@
+{
+  "description": "Second coefficient of the lindep transform of A325973.",
+  "id": "A380482",
+  "mentions": [
+    "A325973",
+    "A339791",
+    "A380462",
+    "A380472",
+    "A380481",
+    "A380483"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, the binary expansions of A184616(n) and A184616(a(n)) have no common 1's.",
+  "id": "A377980",
+  "mentions": [
+    "A001045",
+    "A184616"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": "a(n) = ((p-1)^n + (p+1)^n) mod p^2, where p is the n-th prime.",
+  "id": "A379544",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

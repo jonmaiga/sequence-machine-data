@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of log(6)^(log(5)^(log(4)^(log(3)^log(2)))).",
+  "id": "A379324",
+  "mentions": [
+    "A000796",
+    "A002162",
+    "A002391",
+    "A016627",
+    "A016628",
+    "A016629",
+    "A221185",
+    "A379276",
+    "A379321",
+    "A379322",
+    "A379323"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

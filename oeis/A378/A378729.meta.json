@@ -1,0 +1,16 @@
+{
+  "description": "Characteristic function of the primitive practical numbers as a subsequence of the practical numbers.",
+  "id": "A378729",
+  "mentions": [
+    "A005153",
+    "A267124"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

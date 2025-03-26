@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+x+x^2) / ((1-x-x^2)*(1-x)).",
+  "description": "Expansion of (1+x+x^2) / ((1-x)*(1-x-x^2)).",
   "id": "A154691",
   "mentions": [
     "A000045",

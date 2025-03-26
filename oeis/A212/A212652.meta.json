@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least positive integer M such that n = T(M) - T(k), for k an integer, 0 <= k <= M, where T(r) = A000217(r) is the r-th triangular number.",
+  "description": "a(n) is the least positive integer M such that n = T(M) - T(k), for k an integer, 0 <= k <= M, where T(r) = A000217(r) is the r-th triangular number.",
   "id": "A212652",
   "mentions": [
     "A000217",

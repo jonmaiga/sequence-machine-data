@@ -1,0 +1,19 @@
+{
+  "description": "Characteristic function of almost Zumkeller numbers: a(n) = 1 if Zumkeller-deficiency of n (A103977) is 1, otherwise 0.",
+  "id": "A379502",
+  "mentions": [
+    "A083207",
+    "A103977",
+    "A379503",
+    "A379504"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

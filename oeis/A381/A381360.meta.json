@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp( Integral abs(1/A(x)) dx ), where abs(F(x)) equals the series expansion formed by the unsigned coefficients in F(x).",
+  "id": "A381360",
+  "mentions": [
+    "A104133",
+    "A104134",
+    "A381359",
+    "A381361"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

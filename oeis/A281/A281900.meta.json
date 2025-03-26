@@ -1,8 +1,10 @@
 {
-  "description": "Index of first occurrence of n in A281579.",
+  "description": "Index of first occurrence of n in A281579, or -1 if n does not appear there..",
   "id": "A281900",
   "mentions": [
-    "A281579"
+    "A281579",
+    "A310387",
+    "A380317"
   ],
   "tags": [
     "nonn"

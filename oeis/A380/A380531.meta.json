@@ -1,0 +1,18 @@
+{
+  "description": "First coefficient of the lindep transform of A129283 (n + arithmetic derivative of n).",
+  "id": "A380531",
+  "mentions": [
+    "A129283",
+    "A339790",
+    "A380532",
+    "A380533"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

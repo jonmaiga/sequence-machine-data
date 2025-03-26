@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes between successive Fibonacci numbers.",
+  "description": "Number of primes between successive Fibonacci numbers inclusive.",
   "id": "A076777",
   "mentions": [
     "A000045",

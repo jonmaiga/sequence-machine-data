@@ -1,0 +1,19 @@
+{
+  "description": "Number of values of k for which n can be written as a sum of k distinct positive squares.",
+  "id": "A379857",
+  "mentions": [
+    "A001422",
+    "A003995",
+    "A033461",
+    "A379831"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

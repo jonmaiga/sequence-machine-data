@@ -1,0 +1,17 @@
+{
+  "description": "Let M_n be the n X n matrix M_(i,j)=1/(i+j+i*j); a(n) is the denominator of det(M_n).",
+  "id": "A381371",
+  "mentions": [
+    "A069740"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

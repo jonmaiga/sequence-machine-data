@@ -2,10 +2,12 @@
   "description": "Smallest number whose sum of digits is 2n+1.",
   "id": "A131668",
   "mentions": [
-    "A051885"
+    "A051885",
+    "A133296"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

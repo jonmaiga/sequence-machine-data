@@ -1,0 +1,21 @@
+{
+  "description": "List of integers of the form (N^2 - 4)/15.",
+  "id": "A379210",
+  "mentions": [
+    "A204220",
+    "A204221",
+    "A204542",
+    "A379211",
+    "A379212"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

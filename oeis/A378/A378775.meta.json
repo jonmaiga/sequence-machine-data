@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers with monotonically decreasing digits, differing by at most 1.",
+  "id": "A378775",
+  "mentions": [
+    "A028864",
+    "A378774",
+    "A378808"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

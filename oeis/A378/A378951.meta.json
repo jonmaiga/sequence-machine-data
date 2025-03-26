@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + x*A(x)^(5/3)/(1 + x*A(x)) )^3.",
+  "id": "A378951",
+  "mentions": [
+    "A271469",
+    "A370474",
+    "A371724",
+    "A378891",
+    "A378952"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

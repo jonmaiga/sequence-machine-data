@@ -2,11 +2,15 @@
   "description": "Decimal expansion of square root of 30.",
   "id": "A010485",
   "mentions": [
+    "A002163",
+    "A010464",
+    "A020787",
     "A040024"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

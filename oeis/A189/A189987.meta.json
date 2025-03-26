@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with prime factorization pq^6.",
+  "description": "Numbers with prime factorization p*q^6.",
   "id": "A189987",
   "mentions": [
     "A030632",

@@ -1,5 +1,5 @@
 {
-  "description": "11-gonal numbers (numbers of the form k*(9*k-7)/2), which are products of three distinct primes.",
+  "description": "11-gonal numbers which are products of three distinct primes.",
   "id": "A354446",
   "mentions": [
     "A007304",

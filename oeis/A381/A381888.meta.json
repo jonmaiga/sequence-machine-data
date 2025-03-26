@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (n + 1) * Sum_{j=k..n} binomial(n, j) * Eulerian1(j, j - k).",
+  "id": "A381888",
+  "mentions": [
+    "A007526",
+    "A046802",
+    "A058877",
+    "A122045",
+    "A173018",
+    "A381706"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

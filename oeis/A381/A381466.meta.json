@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 4; for n > 0, a(n) = a(n-1) + n if G = 1 or a(n) = n/G if G > 1, where G = gcd(a(n-1), n).",
+  "id": "A381466",
+  "mentions": [
+    "A091508",
+    "A133058"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

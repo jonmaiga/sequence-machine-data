@@ -1,10 +1,9 @@
 {
-  "description": "Nonhomogeneous Beatty sequence: ceiling((n - 1/4)*(2 + sqrt(2))).",
+  "description": "Nonhomogeneous Beatty sequence: a(n) = ceiling((n - 1/4)*(2 + sqrt(2))).",
   "id": "A258834",
   "mentions": [
     "A184580",
     "A184581",
-    "A248834",
     "A258833"
   ],
   "tags": [

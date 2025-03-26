@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = t is the smallest prime t > p = prime(n) for which t == p (mod k) for all k = 2,...,p-1.",
+  "id": "A378559",
+  "mentions": [
+    "A000040",
+    "A058254"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

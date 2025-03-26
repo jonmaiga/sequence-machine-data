@@ -1,7 +1,11 @@
 {
   "description": "Number of primes == 3 mod 8 <= n.",
   "id": "A071840",
-  "mentions": [],
+  "mentions": [
+    "A071839",
+    "A071841",
+    "A071842"
+  ],
   "tags": [
     "easy",
     "nonn"

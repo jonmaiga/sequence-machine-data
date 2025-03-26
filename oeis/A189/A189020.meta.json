@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k = 1..10^n} tau_4(k), where tau_4 is the number of ordered factorizations into 4 factors (A007426)",
+  "description": "a(n) = Sum_{k=1..10^n} tau_4(k), where tau_4 is the number of ordered factorizations into 4 factors (A007426).",
   "id": "A189020",
   "mentions": [
     "A000005",
@@ -23,7 +23,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

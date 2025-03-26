@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of imaginary biquadratic fields with class number 2*n-1.",
+  "id": "A378956",
+  "mentions": [
+    "A159456"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

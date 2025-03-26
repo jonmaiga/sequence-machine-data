@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of sigma_1(n) into divisors of n.",
+  "description": "Number of partitions of sigma(n) into divisors of n, where sigma = A000203.",
   "id": "A306387",
   "mentions": [
     "A000005",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -7,17 +7,19 @@
     "A000334",
     "A001970",
     "A002974",
+    "A008289",
     "A114736",
     "A117433",
+    "A207542",
     "A321662"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

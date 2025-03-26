@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive number k for which A381763(k) = n.",
+  "id": "A381768",
+  "mentions": [
+    "A001222",
+    "A381763"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

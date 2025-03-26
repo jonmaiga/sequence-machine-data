@@ -1,0 +1,16 @@
+{
+  "description": "First differences of A377091, as in A379061, but take the square root of the magnitude of the difference, keeping the sign.",
+  "id": "A379062",
+  "mentions": [
+    "A377091",
+    "A379061"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

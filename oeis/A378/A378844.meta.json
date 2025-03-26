@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets of {1..n} whose arithmetic and harmonic means are both integers.",
+  "id": "A378844",
+  "mentions": [
+    "A051293",
+    "A326643",
+    "A339453"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(n)^A378744(n).",
+  "id": "A378745",
+  "mentions": [
+    "A000040",
+    "A003961",
+    "A337372",
+    "A378744",
+    "A378746"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

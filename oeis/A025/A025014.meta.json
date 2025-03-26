@@ -2,17 +2,8 @@
   "description": "Central \"nonomial\" coefficient: largest coefficient of (1+x+...+x^8)^n.",
   "id": "A025014",
   "mentions": [
-    "A001405",
-    "A002426",
-    "A005190",
-    "A005191",
-    "A018901",
-    "A025012",
-    "A025013",
-    "A201549",
-    "A201550",
-    "A201552",
-    "A225779"
+    "A077042",
+    "A201552"
   ],
   "tags": [
     "easy",

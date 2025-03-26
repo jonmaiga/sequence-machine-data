@@ -1,5 +1,5 @@
 {
-  "description": "Corresponding values of antiharmonic means B(h) to numbers h from A179871 (numbers h such that antiharmonic mean of the numbers k < h such that gcd(k, h) = 1 is integer).",
+  "description": "Corresponding values of antiharmonic means B(h) to numbers h from A179871 (numbers h such that antiharmonic mean of the numbers k < h such that gcd(k, h) = 1 is an integer).",
   "id": "A179873",
   "mentions": [
     "A023896",

@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integers of the form k^2 - 2 whose greatest prime factor is A038873(n), the n-th prime not congruent to 3 or 5 mod 8.",
+  "id": "A379348",
+  "mentions": [
+    "A038873",
+    "A185396",
+    "A242488",
+    "A379349"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

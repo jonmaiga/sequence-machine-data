@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 5th root of 9.",
   "id": "A011094",
-  "mentions": [],
+  "mentions": [
+    "A005532"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

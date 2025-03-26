@@ -2,7 +2,14 @@
   "description": "First differences of A031930.",
   "id": "A053324",
   "mentions": [
-    "A031930"
+    "A031930",
+    "A053321",
+    "A053322",
+    "A053323",
+    "A053325",
+    "A053326",
+    "A053327",
+    "A053331"
   ],
   "tags": [
     "nonn"
@@ -10,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

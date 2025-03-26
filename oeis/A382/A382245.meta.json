@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that the product of two consecutive terms is always a triangular number (A000217).",
+  "id": "A382245",
+  "mentions": [
+    "A000217",
+    "A026741",
+    "A077220",
+    "A213005",
+    "A382244"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

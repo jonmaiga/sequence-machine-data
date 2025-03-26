@@ -2,7 +2,9 @@
   "description": "Manhattan distances between 2n and 1 in the double spiral with positive integers and 1 at the center.",
   "id": "A220098",
   "mentions": [
+    "A053615",
     "A077043",
+    "A128217",
     "A214526"
   ],
   "tags": [

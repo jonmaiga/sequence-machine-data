@@ -1,0 +1,16 @@
+{
+  "description": "Denominators corresponding to A379606.",
+  "id": "A379607",
+  "mentions": [
+    "A379606"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

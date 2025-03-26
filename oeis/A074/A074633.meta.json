@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest index m such that Sum_{k=1..m} 1/PrimePi(k) >= n, where PrimePi()=A000720().",
+  "description": "a(n) is the smallest index m such that Sum_{k=2..m} 1/PrimePi(k) >= n, where PrimePi()=A000720().",
   "id": "A074633",
   "mentions": [
     "A000720",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

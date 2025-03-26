@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1 + x) * (1 + x^2) * Product_{k>=1} (1 + x^k).",
+  "description": "Expansion of g.f. (1 + x) * (1 + x^2) * Product_{k>=1} (1 + x^k).",
   "id": "A329289",
   "mentions": [
     "A000009",
@@ -11,6 +11,7 @@
     "A329384"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

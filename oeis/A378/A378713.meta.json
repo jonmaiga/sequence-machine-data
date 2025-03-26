@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a disdyakis dodecahedron with unit shorter edge length.",
+  "id": "A378713",
+  "mentions": [
+    "A002193",
+    "A377344",
+    "A378393",
+    "A378712",
+    "A378714",
+    "A378715"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

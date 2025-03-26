@@ -2,7 +2,8 @@
   "description": "Products of two distinct lesser twin primes A001359.",
   "id": "A357934",
   "mentions": [
-    "A001359"
+    "A001359",
+    "A006881"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

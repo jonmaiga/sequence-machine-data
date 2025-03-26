@@ -1,13 +1,14 @@
 {
-  "description": "Numbers n such that (14^n + 1)/15 is a prime.",
+  "description": "Numbers k such that (14^k + 1)/15 is a prime.",
   "id": "A057180",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 1/sqrt(84).",
   "id": "A020841",
-  "mentions": [],
+  "mentions": [
+    "A010477"
+  ],
   "tags": [
     "cons",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

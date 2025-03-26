@@ -1,0 +1,20 @@
+{
+  "description": "The sum of the squares dividing the n-th exponentially odd number.",
+  "id": "A380324",
+  "mentions": [
+    "A035316",
+    "A268335",
+    "A380323",
+    "A380325"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

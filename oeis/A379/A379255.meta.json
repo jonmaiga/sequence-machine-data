@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( (1 + x*A(x))/(1 - x*A(x)^3) )^3.",
+  "id": "A379255",
+  "mentions": [
+    "A213282",
+    "A365843",
+    "A379254",
+    "A379257"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

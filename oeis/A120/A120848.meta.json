@@ -1,5 +1,5 @@
 {
-  "description": "2^n+3^n-n.",
+  "description": "a(n) = 2^n + 3^n - n.",
   "id": "A120848",
   "mentions": [
     "A001047",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

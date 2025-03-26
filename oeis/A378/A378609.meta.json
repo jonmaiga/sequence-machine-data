@@ -1,0 +1,18 @@
+{
+  "description": "Number of weak orderings of (i,j), 1 <= i,j <= n, for which there is a set X = {x_1<...",
+  "id": "A378609",
+  "mentions": [
+    "A376162"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

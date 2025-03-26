@@ -2,7 +2,13 @@
   "description": "Greatest common divisor of the proper divisors of n, 0 if there are none.",
   "id": "A182936",
   "mentions": [
-    "A048671"
+    "A014963",
+    "A020500",
+    "A034387",
+    "A048671",
+    "A061397",
+    "A072107",
+    "A380118"
   ],
   "tags": [
     "formulas",

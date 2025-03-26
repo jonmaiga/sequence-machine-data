@@ -1,10 +1,12 @@
 {
-  "description": "E.g.f. exp(x*C(x)) = exp((1-sqrt(1-4*x))/2), where C(x) is the g.f. of the Catalan numbers A000108.",
+  "description": "Expansion of e.g.f. exp(x*C(x)) = exp((1-sqrt(1-4*x))/2), where C(x) is the g.f. of the Catalan numbers A000108.",
   "id": "A080893",
   "mentions": [
     "A000108",
     "A001517",
-    "A009235"
+    "A009235",
+    "A047974",
+    "A375173"
   ],
   "tags": [
     "easy",

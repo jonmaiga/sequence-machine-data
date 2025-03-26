@@ -1,0 +1,17 @@
+{
+  "description": "Number of possible configurations of an n dimensional Rubik's simplex.",
+  "id": "A381366",
+  "mentions": [
+    "A079746",
+    "A381367"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

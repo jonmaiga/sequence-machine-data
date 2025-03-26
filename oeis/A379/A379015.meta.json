@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the reversed non-adjacent form (NAF) representation of n.",
+  "id": "A379015",
+  "mentions": [
+    "A000079",
+    "A004767",
+    "A016813",
+    "A091067",
+    "A091072",
+    "A334913"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

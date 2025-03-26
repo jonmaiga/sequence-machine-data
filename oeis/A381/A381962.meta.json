@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows, where row n lists the iterates of f(x), starting at x = n until f(x) <= 1, where f(x) is the Hamming weight of x (A000120).",
+  "id": "A381962",
+  "mentions": [
+    "A000120",
+    "A078627",
+    "A078677",
+    "A180094",
+    "A381963",
+    "A381965"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

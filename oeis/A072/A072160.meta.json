@@ -2,9 +2,13 @@
   "description": "Numerator of Sum_{k=1..n} phi(k)/k^4.",
   "id": "A072160",
   "mentions": [
+    "A000010",
+    "A002117",
+    "A013662",
     "A072161"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

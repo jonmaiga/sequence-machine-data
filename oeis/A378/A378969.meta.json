@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 1/(phi*log(4 - phi)).",
+  "id": "A378969",
+  "mentions": [
+    "A001622",
+    "A079585",
+    "A378968"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

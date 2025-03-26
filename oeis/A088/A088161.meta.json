@@ -3,16 +3,18 @@
   "id": "A088161",
   "mentions": [
     "A006257",
-    "A008148",
-    "A038572"
+    "A038572",
+    "A088163"
   ],
   "tags": [
+    "base",
     "formulas",
+    "look",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 83,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways that a European soccer league tournament with n teams can complete with all teams having the same number of points.",
+  "id": "A380592",
+  "mentions": [
+    "A007080",
+    "A053764"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

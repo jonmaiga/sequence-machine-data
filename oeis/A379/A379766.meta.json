@@ -1,0 +1,17 @@
+{
+  "description": "Minimum number of kings that must be placed on an n X n chessboard such that each square is attacked or occupied by at least four kings.",
+  "id": "A379766",
+  "mentions": [
+    "A379726",
+    "A379759"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 53,
+    "source": "joeis"
+  }
+}

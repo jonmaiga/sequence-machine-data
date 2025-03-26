@@ -1,0 +1,16 @@
+{
+  "description": "The largest number which is a linear combination of the divisors of n with nonnegative integer coefficients such that no linear combination with smaller nonnegative integer coefficients is equal to n.",
+  "id": "A380650",
+  "mentions": [
+    "A000010",
+    "A145388"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

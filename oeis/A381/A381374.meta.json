@@ -1,0 +1,21 @@
+{
+  "description": "Little Hankel transform of A317614: a(n) = A317614(n+1)^2 - A317614(n)*A317614(n+2).",
+  "id": "A381374",
+  "mentions": [
+    "A056221",
+    "A056222",
+    "A239607",
+    "A317614",
+    "A374668"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

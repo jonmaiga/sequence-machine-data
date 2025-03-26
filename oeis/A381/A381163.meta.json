@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)*(4*k)!*(2*k)!/(k!)^6.",
+  "id": "A381163",
+  "mentions": [
+    "A007318",
+    "A010050",
+    "A100733",
+    "A307618",
+    "A381161",
+    "A381162",
+    "A381164",
+    "A381165"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

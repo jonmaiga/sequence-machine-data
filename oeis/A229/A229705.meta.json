@@ -1,11 +1,13 @@
 {
-  "description": "Decimal expansion of sum_{k>=1} 1/binomial(3k,k).",
+  "description": "Decimal expansion of Sum_{k>=1} 1/binomial(3k,k).",
   "id": "A229705",
   "mentions": [
+    "A005809",
     "A073016"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,16 @@
+{
+  "description": "Number of letters in the Slovene name of n (feminine, nominative), excluding spaces.",
+  "id": "A380770",
+  "mentions": [
+    "A005589"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

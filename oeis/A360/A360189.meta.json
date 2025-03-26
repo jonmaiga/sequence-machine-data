@@ -1,5 +1,5 @@
 {
-  "description": "Number T(n,k) of nonnegative integers <= n having binary weight k; triangle T(n,k), n>=0, 0<=k<=floor(log_2(n+1)), read by rows.",
+  "description": "Triangle T(n,k), n>=0, 0<=k<=floor(log_2(n+1)), read by rows: T(n,k) = number of nonnegative integers <= n having binary weight k.",
   "id": "A360189",
   "mentions": [
     "A000012",
@@ -22,6 +22,7 @@
     "A231500",
     "A231501",
     "A231502",
+    "A272020",
     "A340068",
     "A361257"
   ],

@@ -2,7 +2,6 @@
   "description": "Lesser of emirpimes pairs the product of whose members has prime digital sum.",
   "id": "A181931",
   "mentions": [
-    "A000040",
     "A001358",
     "A004086",
     "A006567",

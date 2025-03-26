@@ -1,0 +1,19 @@
+{
+  "description": "Second coefficient of the lindep transform of Carmichael lambda, A002322.",
+  "id": "A380452",
+  "mentions": [
+    "A002322",
+    "A339791",
+    "A380442",
+    "A380451",
+    "A380453"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

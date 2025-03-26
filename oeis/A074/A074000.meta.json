@@ -2,6 +2,8 @@
   "description": "Number of elements of GF(3^n) with trace 0 and subtrace 0.",
   "id": "A074000",
   "mentions": [
+    "A053548",
+    "A073947",
     "A074001",
     "A074002",
     "A074003",
@@ -9,12 +11,13 @@
     "A074005"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

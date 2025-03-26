@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of minimal Fermat witnesses for compositeness. a(n) is the least k such that the smallest composite number that is a Fermat pseudoprime to bases {a(i) : 1 <= i < n} is not a Fermat pseudoprime to base k.",
+  "id": "A380978",
+  "mentions": [
+    "A001567",
+    "A089105",
+    "A321790",
+    "A380979"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the sum of the unitary divisors of n that are cubes.",
+  "id": "A380396",
+  "mentions": [
+    "A000578",
+    "A046100",
+    "A077610",
+    "A113061",
+    "A358347",
+    "A366761",
+    "A371334",
+    "A380395"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x * cos(x * A(x)^(1/2)) ).",
+  "id": "A381308",
+  "mentions": [
+    "A185951"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Least k>0 such that n+k is squarefree.",
   "id": "A072909",
-  "mentions": [],
+  "mentions": [
+    "A005117"
+  ],
   "tags": [
     "easy",
     "formulas",

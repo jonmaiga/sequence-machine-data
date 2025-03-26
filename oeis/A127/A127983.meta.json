@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form (n - 2/3)*2^(n) - n/2 + 3/4 - (-1)^n/12.",
+  "description": "a(n) = (n - 2/3)*2^n - n/2 + 3/4 - (-1)^n/12.",
   "id": "A127983",
   "mentions": [
     "A000337",

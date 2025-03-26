@@ -1,5 +1,5 @@
 {
-  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite ZON = ZAPO-M1 R8 [ Zn8Al24P32O128 ].",
+  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite ZON = ZAPO-M1 R8[Zn8Al24P32O128] starting at a T1 atom.",
   "id": "A019065",
   "mentions": [],
   "tags": [

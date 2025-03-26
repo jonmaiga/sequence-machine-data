@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime in a sequence of n consecutive primes which add to a perfect cube.",
+  "id": "A382226",
+  "mentions": [
+    "A000578",
+    "A132955",
+    "A382227",
+    "A382228"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that there is an m < 10 for which m*p contains every decimal digit of p.",
+  "id": "A380884",
+  "mentions": [
+    "A000040",
+    "A380811",
+    "A380883"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

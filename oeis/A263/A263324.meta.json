@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) (n>=1,0<=k",
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled simple graphs with n vertices and Grundy number k, 0 <= k < n.",
   "id": "A263324",
   "mentions": [
     "A000088"

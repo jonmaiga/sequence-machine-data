@@ -1,16 +1,20 @@
 {
   "description": "Number of submonoids of the monoid of maps from an n-element set to itself.",
   "id": "A343140",
-  "mentions": [],
+  "mentions": [
+    "A378869",
+    "A378870",
+    "A378871"
+  ],
   "tags": [
-    "bref",
+    "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

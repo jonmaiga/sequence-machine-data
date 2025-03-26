@@ -2,11 +2,14 @@
   "description": "Iterate the function x <- phi(sigma(x)). The sequence has the smallest member of cycles of length 4.",
   "id": "A373454",
   "mentions": [
+    "A000010",
+    "A000203",
     "A001229",
     "A095955",
     "A095956",
     "A373435",
-    "A373453"
+    "A373453",
+    "A376256"
   ],
   "tags": [
     "more",

@@ -2,9 +2,12 @@
   "description": "Numbers n such that n and n+-1 have 3 or more distinct prime factors.",
   "id": "A168626",
   "mentions": [
-    "A140077"
+    "A000977",
+    "A140077",
+    "A321503"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

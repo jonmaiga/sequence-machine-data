@@ -1,0 +1,19 @@
+{
+  "description": "The Golomb-Rice encoding of n, with M = A070939(A070939(n)).",
+  "id": "A380294",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A070939"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

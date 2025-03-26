@@ -1,14 +1,17 @@
 {
-  "description": "Number of Halin graphs on n nodes.",
+  "description": "Number of Halin graphs on n unlabeled nodes.",
   "id": "A346779",
-  "mentions": [],
+  "mentions": [
+    "A295634",
+    "A380360",
+    "A380362"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 36,
+    "source": "oeis-bfile"
   }
 }

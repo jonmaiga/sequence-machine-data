@@ -1,5 +1,5 @@
 {
-  "description": "Number of coincidence-free length n lists of 6-tuples with all numbers 1,...,n in tuple position k, for k=1..6.",
+  "description": "Number of coincidence-free length n lists of 6-tuples with all numbers 1..n in tuple position k, for k=1..6.",
   "id": "A135812",
   "mentions": [
     "A135811",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 12,
     "source": "oeis-bfile"
   }
 }

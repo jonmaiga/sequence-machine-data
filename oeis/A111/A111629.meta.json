@@ -1,10 +1,11 @@
 {
-  "description": "T(3n, n)/n of A109626.",
+  "description": "a(n) = A109626(3n, n)/n.",
   "id": "A111629",
   "mentions": [
     "A109626"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

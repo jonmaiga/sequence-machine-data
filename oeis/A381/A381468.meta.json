@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple connected graphs on n unlabeled nodes with no node a member of more than one cycle.",
+  "id": "A381468",
+  "mentions": [
+    "A000083",
+    "A317722",
+    "A380632",
+    "A380805",
+    "A381467"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

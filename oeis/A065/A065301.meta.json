@@ -1,14 +1,17 @@
 {
-  "description": "Both n and the sum of its divisors are squarefree numbers.",
+  "description": "Numbers k such that both k and the sum of its divisors are squarefree numbers.",
   "id": "A065301",
   "mentions": [
     "A000203",
     "A008683",
+    "A048250",
+    "A049097",
     "A065299",
     "A065300",
     "A065303",
     "A087248",
-    "A087249"
+    "A087249",
+    "A280710"
   ],
   "tags": [
     "nonn"
@@ -16,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

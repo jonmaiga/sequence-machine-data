@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = max{A380114(n, k) : k = 0..n}.",
+  "id": "A380115",
+  "mentions": [
+    "A109388",
+    "A357368",
+    "A380114"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

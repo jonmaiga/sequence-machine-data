@@ -1,14 +1,20 @@
 {
-  "description": "20^(3n+1).",
+  "description": "a(n) = 20^(3*n + 1).",
   "id": "A013766",
-  "mentions": [],
+  "mentions": [
+    "A009964",
+    "A013730",
+    "A013746",
+    "A016777"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

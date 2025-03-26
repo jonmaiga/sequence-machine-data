@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if n^2-1 is squarefree, otherwise 0.",
+  "id": "A379971",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A065474",
+    "A067874",
+    "A323239"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

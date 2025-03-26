@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^(n - 1) - 2*(n + 1)^(n - 2), by convention a(0) = 0.",
+  "id": "A379613",
+  "mentions": [
+    "A000169",
+    "A007334",
+    "A374756",
+    "A379611"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

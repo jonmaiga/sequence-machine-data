@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that A382290(k) = n.",
+  "id": "A382293",
+  "mentions": [
+    "A025487",
+    "A037992",
+    "A050376",
+    "A382290",
+    "A382291"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

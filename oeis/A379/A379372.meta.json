@@ -1,0 +1,17 @@
+{
+  "description": "Sphenic numbers k such that 2*k+1 is also a sphenic number.",
+  "id": "A379372",
+  "mentions": [
+    "A007304",
+    "A177221"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

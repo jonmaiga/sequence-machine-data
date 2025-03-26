@@ -1,18 +1,17 @@
 {
-  "description": "Number of partitions of n into rational parts a/b such that 1<=a,b<=n and gcd(a,b)=1.",
+  "description": "Number of partitions of n into rational parts i/j such that 1 <= i,j <= n and gcd(i,j) = 1.",
   "id": "A269926",
   "mentions": [
     "A018805",
-    "A119983",
-    "A209489"
+    "A115855",
+    "A119983"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4n-1 divides (2n-1)! + 1.",
+  "description": "Numbers k such that 4k-1 divides (2k-1)! + 1.",
   "id": "A066159",
   "mentions": [
     "A066160"

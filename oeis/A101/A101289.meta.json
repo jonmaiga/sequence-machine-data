@@ -2,8 +2,14 @@
   "description": "Inverse Moebius transform of 5-simplex numbers A000389.",
   "id": "A101289",
   "mentions": [
+    "A000203",
     "A000389",
+    "A001157",
+    "A001158",
+    "A001159",
+    "A001160",
     "A007437",
+    "A013664",
     "A073570",
     "A116963",
     "A332508"

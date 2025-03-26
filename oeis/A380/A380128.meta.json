@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: Riordan array (1/(C(x)*sqrt(1-4*x)), x/C(x)) where C(x) is g.f. of A000108.",
+  "id": "A380128",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A001764",
+    "A001791",
+    "A088218"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

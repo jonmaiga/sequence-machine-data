@@ -1,29 +1,35 @@
 {
-  "description": "Number of 3D walks of type acc.",
+  "description": "Number of 3D n-step walks of type acc.",
   "id": "A302185",
   "mentions": [
     "A000108",
+    "A000918",
     "A000984",
+    "A001405",
     "A002212",
     "A002896",
+    "A005558",
+    "A005566",
     "A005572",
     "A026375",
     "A064037",
     "A081671",
+    "A135394",
     "A138547",
     "A145847",
     "A145867",
     "A150500",
-    "A202814"
+    "A202814",
+    "A302182"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

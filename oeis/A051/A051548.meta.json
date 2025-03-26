@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = LCM { tau(1), ..., tau(n) }, a(0) = 1.",
+  "description": "a(n) = LCM { tau(1), ..., tau(n) }.",
   "id": "A051548",
   "mentions": [
     "A000005"

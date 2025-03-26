@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum_{k=0..floor(n/2)} C(n,2k)*Pell(k).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} C(n,2k)*Pell(k).",
   "id": "A101893",
   "mentions": [
     "A000129",

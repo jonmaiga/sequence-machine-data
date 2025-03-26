@@ -19,12 +19,11 @@
     "A325623"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 70,
+    "size": 80,
     "source": "oeis-entry"
   }
 }

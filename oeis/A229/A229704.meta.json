@@ -1,9 +1,12 @@
 {
-  "description": "Decimal expansion of the absolute value of sum_{k>=1} (-1)^k/(k*binomial(3k,k)).",
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^k/(k*binomial(3k,k)) (negated).",
   "id": "A229704",
-  "mentions": [],
+  "mentions": [
+    "A005809"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

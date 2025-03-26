@@ -1,0 +1,21 @@
+{
+  "description": "a(2n+1) = a(n) for n >= 0, a(2n) = a(n) + a(n - 2^f(n)) + a(2n - 2^f(n)) + a(A025480(n-1)) for n > 0 with a(0) = 1 where f(n) = A007814(n).",
+  "id": "A379818",
+  "mentions": [
+    "A007814",
+    "A025480",
+    "A329369",
+    "A341392",
+    "A347205"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of trailing 1-bits in the binary representation of the sum of the divisors of the n-th odd square: a(n) = sigma((2*n-1)^2).",
+  "id": "A379222",
+  "mentions": [
+    "A000203",
+    "A007814",
+    "A016754",
+    "A378998",
+    "A378999"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

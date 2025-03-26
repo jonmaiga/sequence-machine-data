@@ -1,9 +1,10 @@
 {
-  "description": "Related to Euler numbers.",
+  "description": "Related to Euler numbers, expansion of e.g.f. sec(x)*tan^2(x).",
   "id": "A002735",
   "mentions": [
     "A000108",
     "A000364",
+    "A060075",
     "A259688"
   ],
   "tags": [

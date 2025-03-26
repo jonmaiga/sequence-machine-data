@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the inradius of a disdyakis dodecahedron with unit shorter edge length.",
+  "id": "A378714",
+  "mentions": [
+    "A002193",
+    "A378393",
+    "A378712",
+    "A378713",
+    "A378715"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

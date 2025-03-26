@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0; a(2) = 1; for n > 2, a(n) = a(n-1) + least unique positive difference of two earlier terms.",
+  "id": "A380894",
+  "mentions": [
+    "A000045",
+    "A002858"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

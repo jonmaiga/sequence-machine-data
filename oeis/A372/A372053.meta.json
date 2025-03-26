@@ -1,8 +1,14 @@
 {
-  "description": "Irregular array read by rows: Row n lists the factorizations of n into a product of nondecreasing integers >= 2.",
+  "description": "Irregular array read by rows: row n lists the factorizations of n into a product of nondecreasing integers >= 2.",
   "id": "A372053",
-  "mentions": [],
+  "mentions": [
+    "A001055",
+    "A027746",
+    "A066637",
+    "A162247"
+  ],
   "tags": [
+    "easy",
     "nonn",
     "tabf"
   ],

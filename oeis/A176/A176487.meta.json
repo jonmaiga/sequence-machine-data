@@ -1,10 +1,12 @@
 {
-  "description": "Triangle t(n,m) = binomial(n,m) + A008292(n+1,m+1)-1 read by rows.",
+  "description": "Triangle read by rows: T(n,k) = binomial(n,k) + A008292(n+1,k+1) - 1.",
   "id": "A176487",
   "mentions": [
+    "A000182",
     "A007318",
     "A008292",
     "A033312",
+    "A036563",
     "A141689"
   ],
   "tags": [
@@ -15,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 53,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

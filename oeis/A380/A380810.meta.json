@@ -1,0 +1,19 @@
+{
+  "description": "Integers m for which m = Sum (d_i - 1)^k, where m is k decimal digits long and d_i are the digits of m.",
+  "id": "A380810",
+  "mentions": [
+    "A005188",
+    "A261433"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

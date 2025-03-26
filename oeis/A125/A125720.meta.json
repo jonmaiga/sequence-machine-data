@@ -1,7 +1,9 @@
 {
   "description": "A variation on the Thue-Morse sequence.",
   "id": "A125720",
-  "mentions": [],
+  "mentions": [
+    "A010060"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

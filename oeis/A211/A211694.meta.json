@@ -1,17 +1,22 @@
 {
-  "description": "Number of nonnegative integer arrays of length n+2*2-2 with new values introduced in order 0 upwards and every value appearing only in runs of at least 2",
+  "description": "Number of partitions of [n] that contain no isolated singletons.",
   "id": "A211694",
   "mentions": [
     "A160823",
-    "A211700"
+    "A198648",
+    "A198655",
+    "A211700",
+    "A303587",
+    "A303588",
+    "A363181"
   ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 31,
+    "offset": 0,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

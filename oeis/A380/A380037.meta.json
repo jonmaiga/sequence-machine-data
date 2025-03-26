@@ -1,0 +1,15 @@
+{
+  "description": "For n >= 1, if there exists an m < n such that a(m) = a(n), take the largest such m and set a(n+1) as 1 more than the number of positive terms between a(m+1) and a(n-1). Otherwise, a(n+1) = -1. Start with a(1) = 0.",
+  "id": "A380037",
+  "mentions": [
+    "A181391"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

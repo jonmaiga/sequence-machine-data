@@ -1,0 +1,14 @@
+{
+  "description": "Lagged Fibonacci Generator: a(n) = (100003 - 200003*n + 300007*n^3) mod 10^6 for n <= 55, a(n) = (a(n-24) + a(n-55)) mod 10^6.",
+  "id": "A380292",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

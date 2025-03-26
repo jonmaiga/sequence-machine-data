@@ -1,0 +1,15 @@
+{
+  "description": "Least modulus k such that the multiplicative group modulo k is the direct product of n nontrivial cyclic groups.",
+  "id": "A379423",
+  "mentions": [
+    "A102476"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

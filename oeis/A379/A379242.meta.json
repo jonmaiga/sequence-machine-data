@@ -1,0 +1,15 @@
+{
+  "description": "Minimum crossing number at which there are n torus knots.",
+  "id": "A379242",
+  "mentions": [
+    "A051764"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

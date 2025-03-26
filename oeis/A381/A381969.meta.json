@@ -1,0 +1,18 @@
+{
+  "description": "Primes p with the property that PreviousPrime(p) is a substring of p^2.",
+  "id": "A381969",
+  "mentions": [
+    "A052073"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

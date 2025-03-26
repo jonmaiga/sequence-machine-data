@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (2^n+1)/3 is a semiprime.",
+  "description": "Numbers k such that (2^k+1)/3 is a semiprime.",
   "id": "A250291",
   "mentions": [
     "A000978",
@@ -7,11 +7,12 @@
     "A085724"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

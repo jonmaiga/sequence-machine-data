@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integers less than or equal to n that have the same sum of prime factors (with repetition) as n.",
+  "id": "A380653",
+  "mentions": [
+    "A001414",
+    "A058933",
+    "A263025",
+    "A380654"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

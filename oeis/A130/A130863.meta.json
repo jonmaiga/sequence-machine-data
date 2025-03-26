@@ -1,10 +1,11 @@
 {
-  "description": "Ratio of quadruple Sum of k^2-1 to quadruple sum of k made into an integer sequence: (1/6)*(-1 + n)(2 + n)(3 + n)(7 + n).",
+  "description": "Ratio of quadruple Sum of k^2-1 to quadruple sum of k made into an integer sequence: (1/6)*(-1 + n)*(2 + n)*(3 + n)*(7 + n).",
   "id": "A130863",
   "mentions": [
     "A055998"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

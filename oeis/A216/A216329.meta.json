@@ -1,5 +1,5 @@
 {
-  "description": "Decades whose prime pattern repeat into the next decade, with at least one prime.",
+  "description": "Decades whose prime pattern is the same as the prime pattern in the next decade, with at least one prime.",
   "id": "A216329",
   "mentions": [
     "A190639",

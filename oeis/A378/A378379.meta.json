@@ -1,0 +1,22 @@
+{
+  "description": "Minimal x such that there is a partition of (x, x) into sums of distinct pairs of nonnegative integers with size at least n, excluding (0, 0).",
+  "id": "A378379",
+  "mentions": [
+    "A000096",
+    "A003056",
+    "A007290",
+    "A054242",
+    "A086435",
+    "A201377",
+    "A378126"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x * (1-x)^3 / B(x) ), where B(x) is the g.f. of A002293.",
+  "id": "A381916",
+  "mentions": [
+    "A002293",
+    "A381880",
+    "A381913",
+    "A381914",
+    "A381915"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

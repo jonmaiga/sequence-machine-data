@@ -1,0 +1,22 @@
+{
+  "description": "Number of subsets of 8 integers between 1 and n such that their sum is 2 modulo n.",
+  "id": "A381350",
+  "mentions": [
+    "A011796",
+    "A031164",
+    "A056594",
+    "A381289",
+    "A381290",
+    "A381291"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

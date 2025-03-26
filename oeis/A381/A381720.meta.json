@@ -1,0 +1,21 @@
+{
+  "description": "Integers whose Hamming weight is a cube.",
+  "id": "A381720",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A000578",
+    "A023690",
+    "A084561",
+    "A344602"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

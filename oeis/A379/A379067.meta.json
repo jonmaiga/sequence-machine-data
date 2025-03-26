@@ -1,0 +1,16 @@
+{
+  "description": "Smallest missing positive number after A377091(n) has been found.",
+  "id": "A379067",
+  "mentions": [
+    "A377091",
+    "A379068"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

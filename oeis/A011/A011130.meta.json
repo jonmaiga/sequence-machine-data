@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 5th root of 45.",
   "id": "A011130",
-  "mentions": [],
+  "mentions": [
+    "A005534",
+    "A011094"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

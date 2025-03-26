@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of sensed k-regular combinatorial maps with n vertices, n >= 0, k >= 1.",
+  "id": "A380626",
+  "mentions": [
+    "A000012",
+    "A007769",
+    "A129114",
+    "A170946",
+    "A292206",
+    "A380622",
+    "A380627",
+    "A380628",
+    "A380629"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

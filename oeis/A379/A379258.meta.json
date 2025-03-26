@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of iterations of the Euler phi function needed to reach 1 starting at the n-th 3-smooth number.",
+  "id": "A379258",
+  "mentions": [
+    "A000010",
+    "A003586",
+    "A022328",
+    "A022329",
+    "A022330",
+    "A022331",
+    "A049108",
+    "A086420",
+    "A202821"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

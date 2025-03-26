@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the deficiency of A046390(n), divided by 2.",
+  "id": "A379917",
+  "mentions": [
+    "A000203",
+    "A033879",
+    "A046390",
+    "A378717",
+    "A379915",
+    "A379916"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

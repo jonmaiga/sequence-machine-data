@@ -1,5 +1,5 @@
 {
-  "description": "Corresponding values of sigma(n) of numbers in A206036.",
+  "description": "Corresponding values of sigma(m) of numbers in A206036.",
   "id": "A206421",
   "mentions": [
     "A000203",
@@ -7,11 +7,12 @@
     "A206036"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

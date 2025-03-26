@@ -1,10 +1,12 @@
 {
-  "description": "Sum of next n 4th powers. i^s, s = 4.",
+  "description": "Sum of next n 4th powers.",
   "id": "A075665",
   "mentions": [
+    "A000583",
+    "A006003",
+    "A069876",
     "A072474",
     "A075664",
-    "A075670",
     "A075671"
   ],
   "tags": [
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

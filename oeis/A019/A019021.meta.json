@@ -1,5 +1,5 @@
 {
-  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite GOO.",
+  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite GOO starting with a T1 atom.",
   "id": "A019021",
   "mentions": [
     "A019019",

@@ -1,0 +1,14 @@
+{
+  "description": "Number of pairs (x, y) with 0 < x < y < n such that x^y = y^x modulo n.",
+  "id": "A380816",
+  "mentions": [],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

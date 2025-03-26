@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (sqrt(17) - 1)/(4*sqrt(17)).",
+  "id": "A380896",
+  "mentions": [
+    "A010473",
+    "A222132",
+    "A380895"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

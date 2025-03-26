@@ -2,13 +2,8 @@
   "description": "Central heptanomial coefficients: largest coefficient of (1+x+...+x^6)^n.",
   "id": "A025012",
   "mentions": [
-    "A001405",
-    "A002426",
-    "A005190",
-    "A005191",
-    "A018901",
-    "A025013",
-    "A025014"
+    "A077042",
+    "A201552"
   ],
   "tags": [
     "easy",

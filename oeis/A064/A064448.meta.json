@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = gcd(n^n, EulerPhi(n^n)).",
+  "description": "a(n) = gcd(n^n, phi(n^n)).",
   "id": "A064448",
   "mentions": [
     "A000010",
-    "A000312"
+    "A000312",
+    "A009195"
   ],
   "tags": [
     "formulas",

@@ -1,8 +1,16 @@
 {
   "description": "Number of ways of folding a 3 X n strip of stamps.",
   "id": "A001416",
-  "mentions": [],
+  "mentions": [
+    "A000136",
+    "A000560",
+    "A001415",
+    "A001417",
+    "A001418",
+    "A195646"
+  ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

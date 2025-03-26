@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k > 1 such that the factorial base expansion of k*n starts with that of n.",
+  "id": "A382178",
+  "mentions": [
+    "A153880",
+    "A382177"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

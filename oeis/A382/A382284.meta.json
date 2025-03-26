@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled connected graphs with n vertices which are planar squares.",
+  "id": "A382284",
+  "mentions": [
+    "A381961",
+    "A382180"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

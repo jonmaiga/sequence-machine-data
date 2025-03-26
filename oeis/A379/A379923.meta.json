@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m that divide the alternating sum Sum_{k=1..m} (-1)^k * A000005(k).",
+  "id": "A379923",
+  "mentions": [
+    "A000005",
+    "A048290",
+    "A050226",
+    "A056550",
+    "A064605",
+    "A067929",
+    "A067931",
+    "A307704",
+    "A379922",
+    "A379924"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Decimal expansion of Lévy's constant.",
   "id": "A086702",
   "mentions": [
-    "A002210"
+    "A002210",
+    "A100199"
   ],
   "tags": [
     "cons",

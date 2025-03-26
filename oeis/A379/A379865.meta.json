@@ -1,0 +1,20 @@
+{
+  "description": "Number of base 10 digits of 2^(p-1)*(2^p-1) where p = prime(n).",
+  "id": "A379865",
+  "mentions": [
+    "A034887",
+    "A055642",
+    "A060286"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

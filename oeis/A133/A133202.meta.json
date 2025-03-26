@@ -1,7 +1,8 @@
 {
-  "description": "Number of divisors of the absolute value of Ramanujan tau numbers.",
+  "description": "Number of divisors of the absolute value of Ramanujan tau numbers. a(n) = 0 if tau(n) = 0.",
   "id": "A133202",
   "mentions": [
+    "A000005",
     "A000594"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

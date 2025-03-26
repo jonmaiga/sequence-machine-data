@@ -1,0 +1,16 @@
+{
+  "description": "Number of (undirected) Hamiltonian cycles in the complete 4-partite graph K_{n,n,n,n}.",
+  "id": "A381326",
+  "mentions": [
+    "A378241"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

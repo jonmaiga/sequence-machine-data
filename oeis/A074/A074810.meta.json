@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes between n and 2n (inclusive) = largest prime factor of n.",
+  "description": "Numbers k such that the number of primes between k and 2k (inclusive) = largest prime factor of k.",
   "id": "A074810",
   "mentions": [
     "A006530",

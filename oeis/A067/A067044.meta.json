@@ -2,11 +2,15 @@
   "description": "Smallest positive k such that k*n contains only even digits.",
   "id": "A067044",
   "mentions": [
-    "A061807"
+    "A007091",
+    "A014263",
+    "A061807",
+    "A380874"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

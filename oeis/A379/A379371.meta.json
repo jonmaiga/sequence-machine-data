@@ -1,0 +1,16 @@
+{
+  "description": "Primes congruent to 67 mod 12345.",
+  "id": "A379371",
+  "mentions": [
+    "A301619"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

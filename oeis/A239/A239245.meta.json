@@ -1,5 +1,5 @@
 {
-  "description": "Let y be the sum of the numbers x not coprime to n, with x<=n. Sequence lists n such that digits of y end in \"n\". Primes are excluded.",
+  "description": "Composite integers m such that the sum of the integers x <= m not coprime to m ends with digits of m.",
   "id": "A239245",
   "mentions": [
     "A000010",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

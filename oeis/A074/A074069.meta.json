@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that S(n) = 3n (see A068119).",
+  "description": "Numbers k such that S(k) = Sum_{i=1..k} A068119(i) = 3*k.",
   "id": "A074069",
   "mentions": [
     "A068119"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

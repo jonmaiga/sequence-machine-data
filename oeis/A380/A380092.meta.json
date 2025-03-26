@@ -1,0 +1,21 @@
+{
+  "description": "Number of consecutive primes after prime(n) before their concatenation fails to produce a prime.",
+  "id": "A380092",
+  "mentions": [
+    "A000040",
+    "A030459",
+    "A219271",
+    "A309191"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

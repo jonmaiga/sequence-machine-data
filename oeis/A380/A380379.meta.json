@@ -1,0 +1,16 @@
+{
+  "description": "Least k for which A380377(k) = n, i.e., the least number of voters for which n supporters are needed to win an election with rules as in A380377.",
+  "id": "A380379",
+  "mentions": [
+    "A380377",
+    "A380380"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

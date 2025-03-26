@@ -2,7 +2,9 @@
   "description": "Degrees of fundamental invariants of Weyl group W(E_8).",
   "id": "A005796",
   "mentions": [
-    "A005793"
+    "A005793",
+    "A005795",
+    "A273867"
   ],
   "tags": [
     "fini",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*2^n - 2^n.",
+  "description": "a(n) = n*2^n - 2^n = 2^n*(n-1).",
   "id": "A058922",
   "mentions": [
     "A000337",
@@ -8,12 +8,13 @@
     "A073346"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 32,
     "source": "joeis"
   }
 }

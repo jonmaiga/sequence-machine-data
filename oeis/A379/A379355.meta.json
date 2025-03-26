@@ -1,0 +1,20 @@
+{
+  "description": "Beginning with 3, least prime such that the reversal concatenation of first n terms is prime.",
+  "id": "A379355",
+  "mentions": [
+    "A111382",
+    "A111383",
+    "A113584",
+    "A379354",
+    "A379782"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

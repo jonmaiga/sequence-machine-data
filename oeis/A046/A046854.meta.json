@@ -1,16 +1,16 @@
 {
-  "description": "Triangle T(n, k) = binomial(floor((n+k)/2), k), n>=0, n >= k >= 0.",
+  "description": "Triangle read by rows: T(n, k) = binomial(floor((n+k)/2), k), n >= k >= 0.",
   "id": "A046854",
   "mentions": [
     "A016116",
     "A030111",
-    "A049310",
     "A055244",
     "A065941",
     "A066170",
     "A097806",
     "A106180",
     "A130777",
+    "A134513",
     "A168561",
     "A187660"
   ],

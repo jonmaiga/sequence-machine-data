@@ -1,0 +1,16 @@
+{
+  "description": "Positive integers k such that k is not divisible by sigma(m) for any m >= 2, where sigma is the sum-of-divisors function (A000203).",
+  "id": "A378915",
+  "mentions": [
+    "A000203",
+    "A378913"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

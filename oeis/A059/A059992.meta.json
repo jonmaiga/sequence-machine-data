@@ -2,10 +2,15 @@
   "description": "Numbers with an increasing number of nonprime divisors.",
   "id": "A059992",
   "mentions": [
+    "A001221",
+    "A002110",
     "A002182",
+    "A002201",
+    "A007947",
     "A033273",
     "A055079",
-    "A180040"
+    "A180040",
+    "A301414"
   ],
   "tags": [
     "nonn"

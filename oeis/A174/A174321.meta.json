@@ -2,14 +2,17 @@
   "description": "Index of the smallest prime greater than (6n+1)^2.",
   "id": "A174321",
   "mentions": [
-    "A016922"
+    "A000720",
+    "A016922",
+    "A151800"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 46,
     "source": "oeis-entry"
   }

@@ -1,0 +1,31 @@
+{
+  "description": "Primitively abundant numbers k for which A378665(k) > A378664(k).",
+  "id": "A378738",
+  "mentions": [
+    "A001222",
+    "A003961",
+    "A032742",
+    "A091191",
+    "A294930",
+    "A337372",
+    "A341612",
+    "A341614",
+    "A378664",
+    "A378665",
+    "A378735",
+    "A378736",
+    "A378737",
+    "A378739",
+    "A378741",
+    "A378742"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

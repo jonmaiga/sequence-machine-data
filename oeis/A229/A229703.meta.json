@@ -1,11 +1,13 @@
 {
-  "description": "Decimal expansion of the absolute value of sum_{k>=1} (-1)^k/(k*binomial(4k,k)).",
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^k/(k*binomial(4k,k)) (negated).",
   "id": "A229703",
   "mentions": [
-    "A225847"
+    "A225847",
+    "A378802"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

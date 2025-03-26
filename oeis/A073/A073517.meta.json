@@ -2,6 +2,7 @@
   "description": "Number of primes less than 10^n with initial digit 1.",
   "id": "A073517",
   "mentions": [
+    "A000720",
     "A006880",
     "A007053",
     "A045707",
@@ -24,11 +25,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 23,
     "source": "oeis-entry"
   }

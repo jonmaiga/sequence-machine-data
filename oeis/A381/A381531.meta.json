@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] having the maximal possible number of pairs of integers i",
+  "id": "A381531",
+  "mentions": [
+    "A000178",
+    "A000217",
+    "A125811",
+    "A381529"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

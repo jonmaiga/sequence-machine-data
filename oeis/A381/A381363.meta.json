@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies 1/2 = Sum_{n=-oo..+oo} x^n*A(x)^n * (A(x)^n + x)^(3*n-1) * (x^n + A(x))^(3*n-1).",
+  "id": "A381363",
+  "mentions": [
+    "A380066",
+    "A381362",
+    "A381364",
+    "A381365"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

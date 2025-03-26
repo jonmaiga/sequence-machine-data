@@ -2,18 +2,8 @@
   "description": "Number of arrays of n integers in -5..5 with sum zero.",
   "id": "A201549",
   "mentions": [
-    "A001405",
-    "A002426",
-    "A005190",
-    "A005191",
-    "A018901",
-    "A025012",
-    "A025013",
-    "A025014",
-    "A025015",
-    "A201550",
-    "A201552",
-    "A225779"
+    "A077042",
+    "A201552"
   ],
   "tags": [
     "formulas",

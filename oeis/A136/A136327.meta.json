@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that binomial(2k-1, k-1) == 1 (mod k).",
+  "description": "Numbers k > 1 such that binomial(2k-1, k-1) == 1 (mod k).",
   "id": "A136327",
   "mentions": [
     "A099905",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

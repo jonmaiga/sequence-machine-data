@@ -1,8 +1,10 @@
 {
-  "description": "a(n) = C(n+8,n)*C(n+11,8).",
+  "description": "a(n) = binomial(n+8,n)*binomial(n+11,8).",
   "id": "A105944",
   "mentions": [
-    "A062145"
+    "A030648",
+    "A062145",
+    "A105994"
   ],
   "tags": [
     "easy",

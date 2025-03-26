@@ -1,0 +1,18 @@
+{
+  "description": "Powers of 2 that do not include the digit 2.",
+  "id": "A378556",
+  "mentions": [
+    "A000079",
+    "A034293"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which A113177(k) is a multiple of 5, where A113177 is fully additive with a(p) = Fibonacci(p).",
+  "id": "A379226",
+  "mentions": [
+    "A000045",
+    "A030426",
+    "A113177",
+    "A373586",
+    "A374052",
+    "A374124",
+    "A374208",
+    "A379116",
+    "A379225",
+    "A379227"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

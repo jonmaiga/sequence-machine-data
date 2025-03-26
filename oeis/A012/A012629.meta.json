@@ -1,13 +1,16 @@
 {
-  "description": "tanh(arcsinh(x)*arctan(x))=2/2!*x^2-12/4!*x^4-2/6!*x^6+10248/8!*x^8...",
+  "description": "Expansion of e.g.f. tanh(arcsinh(x)*arctan(x)) (only even powers).",
   "id": "A012629",
-  "mentions": [],
+  "mentions": [
+    "A012160",
+    "A012626"
+  ],
   "tags": [
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "joeis"
+    "size": 17,
+    "source": "oeis-entry"
   }
 }

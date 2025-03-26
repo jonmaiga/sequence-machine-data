@@ -1,0 +1,16 @@
+{
+  "description": "Number of pairs (d, k/d), d | k, d < k/d, such that gcd(d, k/d) > 1 and neither rad(d) | k/d nor rad(k/d) | d, where k is in A375055.",
+  "id": "A379752",
+  "mentions": [
+    "A375055"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

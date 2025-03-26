@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of occurrences of n in A350311.",
+  "id": "A381933",
+  "mentions": [
+    "A350311"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

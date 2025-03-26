@@ -38,12 +38,11 @@
     "A374765"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

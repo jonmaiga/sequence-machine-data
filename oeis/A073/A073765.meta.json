@@ -1,5 +1,5 @@
 {
-  "description": "Special binomial coefficient: C(prime(n), composite(n)).",
+  "description": "a(n) = binomial(prime(n), composite(n)).",
   "id": "A073765",
   "mentions": [
     "A000040",

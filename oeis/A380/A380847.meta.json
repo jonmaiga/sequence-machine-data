@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A380845(k) = 3*k.",
+  "id": "A380847",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A005820",
+    "A068403",
+    "A380845",
+    "A380846",
+    "A380848"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

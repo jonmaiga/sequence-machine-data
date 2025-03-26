@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if A003961(n)-sigma(n) is prime, otherwise 0, where A003961 is fully multiplicative with a(prime(i)) = prime(i+1), and sigma is the sum of divisors function.",
+  "id": "A379238",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A010051",
+    "A286385",
+    "A349167",
+    "A379239"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

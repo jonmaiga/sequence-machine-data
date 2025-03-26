@@ -1,0 +1,21 @@
+{
+  "description": "Greater of a pair of amicable numbers k < m such that s(k) = m and s(m) = k, where s(k) = A380845(k) - k is the sum of aliquot divisors of k that have the same binary weight as k.",
+  "id": "A380850",
+  "mentions": [
+    "A000203",
+    "A002025",
+    "A002046",
+    "A380845",
+    "A380846",
+    "A380849"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

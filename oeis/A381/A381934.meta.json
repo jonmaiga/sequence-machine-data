@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k > 1 such that the binary expansions of n and n*k have the same number of nonleading zeros.",
+  "id": "A381934",
+  "mentions": [
+    "A023416",
+    "A292849",
+    "A295827",
+    "A352217",
+    "A381935"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

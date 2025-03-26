@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that both the sum of terms a(1)..a(n) and the sum of the digits in these terms is a prime number.",
+  "id": "A379143",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A007953",
+    "A320081",
+    "A379142"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

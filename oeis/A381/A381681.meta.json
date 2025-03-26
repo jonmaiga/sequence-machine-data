@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is one of two integer components (with A000254) used in computing the inverse second moment of X+n, where X~Poisson(1).",
+  "id": "A381681",
+  "mentions": [
+    "A000254",
+    "A093344"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

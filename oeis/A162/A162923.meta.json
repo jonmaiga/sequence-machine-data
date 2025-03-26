@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that the equation sigma(sigma(x)) = n has no solutions.",
+  "description": "Numbers k such that the equation sigma(sigma(x)) = k has no solutions.",
   "id": "A162923",
   "mentions": [
     "A000027",
+    "A051027",
     "A070286"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted binary normal unlabeled galled trees with n leaves and exactly 1 gall.",
+  "id": "A380256",
+  "mentions": [
+    "A001190",
+    "A086317",
+    "A240943",
+    "A380211"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

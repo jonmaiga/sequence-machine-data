@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(n,k) where row n contains the trajectory of recursive mappings of A001175(x) starting with x = n and ending at fixed point A235249(n).",
+  "id": "A379646",
+  "mentions": [
+    "A001175",
+    "A001179",
+    "A235249",
+    "A235702"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

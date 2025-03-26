@@ -1,5 +1,5 @@
 {
-  "description": "(Nonprime Fibonacci numbers with prime indices, A050937) which have exactly 3 prime factors.",
+  "description": "Nonprime Fibonacci numbers with prime indices (A050937) that have exactly 3 prime factors.",
   "id": "A135954",
   "mentions": [
     "A000045",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
-    "source": "oeis-entry"
+    "size": 8,
+    "source": "joeis"
   }
 }

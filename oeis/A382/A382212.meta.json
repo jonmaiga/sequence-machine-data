@@ -1,0 +1,16 @@
+{
+  "description": "Number of labeled Eulerian oriented graphs with n nodes without isolated vertices.",
+  "id": "A382212",
+  "mentions": [
+    "A007081"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

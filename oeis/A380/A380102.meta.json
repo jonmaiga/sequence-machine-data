@@ -1,0 +1,20 @@
+{
+  "description": "Minimal absolute discriminants |d| of imaginary quadratic number fields K = Q(sqrt(d)), d < 0, with elementary bicyclic 3-class group Cl_3(K)=(3,3) and second 3-class group M=Gal(F_3^2(K)/K) of assigned even coclass cc(M)=2,4,6,8,...",
+  "id": "A380102",
+  "mentions": [
+    "A242862",
+    "A242863",
+    "A379524"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

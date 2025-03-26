@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of log(1+tan(x)*cosh(x)).",
+  "description": "Expansion of e.g.f.: log(1+tan(x)*cosh(x)).",
   "id": "A009375",
   "mentions": [],
   "tags": [

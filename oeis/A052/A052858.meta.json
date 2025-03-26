@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: log(-1/(-1+x*exp(x)-x)).",
+  "description": "Expansion of e.g.f. log(-1/(-1+x*exp(x)-x)).",
   "id": "A052858",
   "mentions": [],
   "tags": [

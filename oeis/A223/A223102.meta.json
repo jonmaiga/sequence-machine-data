@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..2 arrays with exactly floor(nX6/2) elements equal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..2 order",
+  "description": "Number of n X 6 0..2 arrays with exactly floor((n X 6)/2) elements equal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..2 order.",
   "id": "A223102",
   "mentions": [
     "A223104"

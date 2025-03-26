@@ -2,7 +2,8 @@
   "description": "Number of elements in the symmetric group S_n whose distance from a fixed element is the group diameter under compositions of (1,2) and (1,2,...,n).",
   "id": "A186144",
   "mentions": [
-    "A039745"
+    "A039745",
+    "A378881"
   ],
   "tags": [
     "formulas",

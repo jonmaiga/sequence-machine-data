@@ -1,0 +1,17 @@
+{
+  "description": "Total numbers of fundamentally distinct graceful labelings among all simple graphs on n vertices having no isolated points.",
+  "id": "A379575",
+  "mentions": [
+    "A333727",
+    "A379576"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

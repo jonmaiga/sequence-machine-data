@@ -2,10 +2,13 @@
   "description": "Number of unsensed genus 1 maps with n edges.",
   "id": "A006387",
   "mentions": [
+    "A006300",
     "A006385",
+    "A006386",
     "A214814",
     "A214815",
-    "A214816"
+    "A214816",
+    "A379439"
   ],
   "tags": [
     "nonn"

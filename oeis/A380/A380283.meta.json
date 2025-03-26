@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of regions between the free polyominoes, with n cells and width k, and their bounding boxes, n >= 1, 1 <= k <= ceiling(n/2).",
+  "id": "A380283",
+  "mentions": [
+    "A000004",
+    "A000105",
+    "A110654",
+    "A379623",
+    "A379625",
+    "A379626",
+    "A379627",
+    "A379628",
+    "A379637",
+    "A380284",
+    "A380285"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

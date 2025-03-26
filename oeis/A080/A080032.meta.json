@@ -5,7 +5,8 @@
     "A079000",
     "A079313",
     "A080029",
-    "A080030"
+    "A080030",
+    "A121053"
   ],
   "tags": [
     "easy",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

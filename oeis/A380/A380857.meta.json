@@ -1,0 +1,28 @@
+{
+  "description": "Squares of numbers that are neither squarefree nor prime powers.",
+  "id": "A380857",
+  "mentions": [
+    "A013661",
+    "A059404",
+    "A082020",
+    "A085548",
+    "A120944",
+    "A126706",
+    "A154945",
+    "A177492",
+    "A286708",
+    "A359280",
+    "A362605",
+    "A378768"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

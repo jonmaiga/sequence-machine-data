@@ -1,5 +1,5 @@
 {
-  "description": "Tetrahedral (or triangular pyramidal) numbers which are products of three distinct primes (or sphenic numbers).",
+  "description": "Tetrahedral numbers which are products of three distinct primes.",
   "id": "A356095",
   "mentions": [
     "A000292",

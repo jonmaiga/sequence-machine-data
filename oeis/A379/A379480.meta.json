@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if n is twice a square, otherwise 0.",
+  "id": "A379480",
+  "mentions": [
+    "A001105",
+    "A010052",
+    "A053866",
+    "A093709"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes having in binary representation a prime number of 1's.",
+  "description": "Primes having a prime number of 1's in their binary representation.",
   "id": "A081092",
   "mentions": [
     "A000040",

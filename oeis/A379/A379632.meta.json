@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the smallest parts of the partitions of n into consecutive parts (with the partitions ordered by increasing number of parts).",
+  "id": "A379632",
+  "mentions": [
+    "A000027",
+    "A001227",
+    "A118235",
+    "A196020",
+    "A211343",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A245092",
+    "A262626",
+    "A286001",
+    "A286014",
+    "A299765",
+    "A341971",
+    "A379630",
+    "A379631",
+    "A379633",
+    "A379634"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

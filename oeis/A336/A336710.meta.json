@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by diagonals: A(n,k) is the number of solutions (x_1, x_2, ..., x_n) to equation phi(Product_{i=1..n} x_i) = Sum_{i=1..n} k*phi(x_i), or -1 if there are infinitely many solutions.",
+  "description": "Square array read by antidiagonals: A(n,k) is the number of ordered solutions (x_1, x_2, ..., x_n) to equation phi(Product_{i=1..n} x_i) = k * Sum_{i=1..n} phi(x_i), or -1 if there are infinitely many solutions, n >= 1, k >= 1.",
   "id": "A336710",
   "mentions": [
     "A000010",
@@ -7,13 +7,12 @@
     "A336385"
   ],
   "tags": [
-    "more",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 79,
     "source": "oeis-entry"
   }
 }

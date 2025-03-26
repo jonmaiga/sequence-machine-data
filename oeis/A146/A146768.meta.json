@@ -1,5 +1,5 @@
 {
-  "description": "Number k such that 2^(2k+1) - 1 = A000668(n+1).",
+  "description": "a(n) is the number k such that 2^(2k+1)-1 = A000668(n+1).",
   "id": "A146768",
   "mentions": [
     "A000043",

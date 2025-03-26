@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1. For n > 1, if a(n-1) is a novel term, a(n) = A003132(a(n-1)). If a(n-1) has been seen k (>1) times already, a(n) = k*a(n-1).",
+  "id": "A379525",
+  "mentions": [
+    "A003132",
+    "A379551"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

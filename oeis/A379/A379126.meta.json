@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the least number k such that A325567(k) = n, or 0 if no such number exists.",
+  "id": "A379126",
+  "mentions": [
+    "A048720",
+    "A065621",
+    "A115872",
+    "A266195",
+    "A266351",
+    "A277320",
+    "A325567",
+    "A379128",
+    "A379228"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

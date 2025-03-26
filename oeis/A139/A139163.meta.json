@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(prime(n)!+5)/5.",
+  "description": "a(n) = (prime(n)!+5)/5.",
   "id": "A139163",
   "mentions": [
     "A007749",

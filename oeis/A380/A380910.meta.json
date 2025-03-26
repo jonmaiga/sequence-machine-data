@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator(n!! / (n - 1)!!).",
+  "id": "A380910",
+  "mentions": [
+    "A004730",
+    "A004731",
+    "A006882",
+    "A095987",
+    "A380909"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - 4 * Sum_{k>=0} x^(2^k))^(1/2).",
+  "id": "A382187",
+  "mentions": [
+    "A023359",
+    "A223142",
+    "A382188"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

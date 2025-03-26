@@ -1,0 +1,19 @@
+{
+  "description": "Number of sensed regular combinatorial maps with n edges.",
+  "id": "A380629",
+  "mentions": [
+    "A170946",
+    "A380622",
+    "A380625",
+    "A380626"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

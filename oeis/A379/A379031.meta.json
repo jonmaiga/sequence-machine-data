@@ -1,0 +1,29 @@
+{
+  "description": "Odd modified exponential abundant numbers: odd numbers k such that A241405(k) > 2*k.",
+  "id": "A379031",
+  "mentions": [
+    "A005231",
+    "A005408",
+    "A094889",
+    "A112643",
+    "A127666",
+    "A129485",
+    "A241405",
+    "A249263",
+    "A293186",
+    "A321147",
+    "A339938",
+    "A348275",
+    "A360526",
+    "A379029"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

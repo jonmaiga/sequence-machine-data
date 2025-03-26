@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A034444(n) if n is powerful (A001694), and 0 otherwise.",
+  "id": "A379012",
+  "mentions": [
+    "A001221",
+    "A001694",
+    "A034444",
+    "A112526"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

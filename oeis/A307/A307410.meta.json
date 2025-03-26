@@ -2,8 +2,10 @@
   "description": "Numerators of the product in the singular series.",
   "id": "A307410",
   "mentions": [
+    "A005596",
     "A005597",
-    "A305444"
+    "A305444",
+    "A380839"
   ],
   "tags": [
     "formulas",
@@ -14,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 85,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that are squarefree, but A380459(k) is not in A048103.",
+  "id": "A380470",
+  "mentions": [
+    "A005117",
+    "A048103",
+    "A380459",
+    "A380468",
+    "A380469"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of minimum connected dominating sets in the n X n black bishop graph.",
+  "id": "A381726",
+  "mentions": [
+    "A072590",
+    "A132609",
+    "A289145",
+    "A303141",
+    "A323500",
+    "A381727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

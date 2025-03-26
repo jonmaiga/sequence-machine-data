@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of n!!/(n+1)!! (cf. A006882).",
+  "description": "a(0) = 1; thereafter a(n) = denominator of (n-2)!! / (n-1)!!.",
   "id": "A004731",
   "mentions": [
     "A001790",
@@ -19,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 37,
     "source": "joeis"
   }
 }

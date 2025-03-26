@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the smallest positive solution to 2*x = tan(x).",
+  "id": "A381473",
+  "mentions": [
+    "A257451"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

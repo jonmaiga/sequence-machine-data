@@ -10,11 +10,12 @@
     "A350780"
   ],
   "tags": [
+    "hard",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

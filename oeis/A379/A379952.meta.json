@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 if n is an odd number or a perfect square, otherwise 0.",
+  "id": "A379952",
+  "mentions": [
+    "A128201",
+    "A323158"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

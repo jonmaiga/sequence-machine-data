@@ -1,0 +1,16 @@
+{
+  "description": "Number of rooted regular combinatorial maps with n edges.",
+  "id": "A380625",
+  "mentions": [
+    "A380622"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

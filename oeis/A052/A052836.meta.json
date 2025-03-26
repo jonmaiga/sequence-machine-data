@@ -1,5 +1,5 @@
 {
-  "description": "A simple grammar.",
+  "description": "INVERT transform of A052879.",
   "id": "A052836",
   "mentions": [
     "A052879"
@@ -7,8 +7,7 @@
   "tags": [
     "easy",
     "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 0,

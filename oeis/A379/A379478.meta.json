@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if the greatest common divisor of n, sigma(n) and A003961(n) is 1 and gcd(A003961(n)-2n, A003961(n)-sigma(n)) > 1, otherwise 0.",
+  "id": "A379478",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A326057",
+    "A372565",
+    "A379475",
+    "A379476",
+    "A379479"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

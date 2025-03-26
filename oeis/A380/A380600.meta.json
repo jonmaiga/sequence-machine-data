@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table T(n, k), n > 0, k = 1..A000005(n) read by rows: the n-th row lists the numbers of the form n * (d-1) / d with d a positive divisor of n.",
+  "id": "A380600",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A046666",
+    "A060681",
+    "A072513",
+    "A094471",
+    "A258324"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

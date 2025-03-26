@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of divisors d of n such that tau(d^(1 + n) + n) = 2^omega(d^(1 + n) + n), where tau = A000005 and omega = A001221.",
+  "id": "A381136",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A049533",
+    "A381138"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

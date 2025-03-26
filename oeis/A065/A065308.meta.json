@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n - PrimePi(n)).",
+  "description": "a(n) = prime(n - pi(n)).",
   "id": "A065308",
   "mentions": [
     "A000040",

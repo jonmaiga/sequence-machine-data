@@ -2,7 +2,8 @@
   "description": "The even bisection of A000594.",
   "id": "A099060",
   "mentions": [
-    "A000594"
+    "A000594",
+    "A099059"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

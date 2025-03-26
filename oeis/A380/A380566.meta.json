@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = k is the largest k for which k^5 is n digits long and the sum of digits of k^5 is the maximum for any n digit 5th power (A374025).",
+  "id": "A380566",
+  "mentions": [
+    "A374025",
+    "A379650",
+    "A380052",
+    "A380193"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

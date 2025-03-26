@@ -1,0 +1,20 @@
+{
+  "description": "Second coefficient of the lindep transform of the sum of squarefree divisors of n, A048250.",
+  "id": "A380462",
+  "mentions": [
+    "A048250",
+    "A339791",
+    "A380461",
+    "A380463",
+    "A380472",
+    "A380482"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

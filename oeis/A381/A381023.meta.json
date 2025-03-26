@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. log(1-x)^4 * exp(x) / 24.",
+  "id": "A381023",
+  "mentions": [
+    "A094816",
+    "A381025"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

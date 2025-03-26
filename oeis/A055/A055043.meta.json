@@ -1,8 +1,11 @@
 {
   "description": "Numbers of the form 2^(2i+1)*(8*j+3).",
   "id": "A055043",
-  "mentions": [],
+  "mentions": [
+    "A055046"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

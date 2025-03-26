@@ -1,0 +1,19 @@
+{
+  "description": "Number k such that A379442(k) = k.",
+  "id": "A379557",
+  "mentions": [
+    "A379292",
+    "A379442",
+    "A379558",
+    "A379559"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

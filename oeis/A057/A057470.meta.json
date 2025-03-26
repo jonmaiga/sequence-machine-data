@@ -1,15 +1,18 @@
 {
-  "description": "Let p(i) =i-th prime, let twin(n) = (P,Q) be n-th pair of twin primes; sequence gives p(P).",
+  "description": "Let prime(i) = i-th prime, let twin(n) = (P,Q) be n-th pair of twin primes; sequence gives prime(P).",
   "id": "A057470",
   "mentions": [
-    "A057473"
+    "A001359",
+    "A057473",
+    "A151799"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

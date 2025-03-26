@@ -1,0 +1,23 @@
+{
+  "description": "Odd cubefull numbers: odd numbers that are divisible by the cube of any of their prime factors.",
+  "id": "A381824",
+  "mentions": [
+    "A005408",
+    "A016755",
+    "A020639",
+    "A036966",
+    "A051904",
+    "A065483",
+    "A381825"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

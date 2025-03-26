@@ -8,16 +8,18 @@
     "A001158",
     "A001159",
     "A002417",
+    "A013663",
     "A059358",
     "A278403"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

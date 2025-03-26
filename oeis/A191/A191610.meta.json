@@ -1,11 +1,13 @@
 {
-  "description": "Possible number of trailing zeros in n!.",
+  "description": "Possible number of trailing zeros in k!.",
   "id": "A191610",
   "mentions": [
     "A000351",
     "A000966",
     "A027868",
-    "A055457"
+    "A055457",
+    "A380662",
+    "A381239"
   ],
   "tags": [
     "formulas",

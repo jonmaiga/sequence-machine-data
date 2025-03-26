@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k + prime(k) is prime and k + semiprime(k) is semiprime.",
+  "id": "A381792",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001358",
+    "A064402",
+    "A100915"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

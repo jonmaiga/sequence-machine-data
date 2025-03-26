@@ -2,13 +2,16 @@
   "description": "a(n) = round((n+1/n)^2).",
   "id": "A197985",
   "mentions": [
+    "A010000",
     "A059100",
     "A102305",
+    "A160842",
     "A183199"
   ],
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

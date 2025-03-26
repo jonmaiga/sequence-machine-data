@@ -2,6 +2,7 @@
   "description": "Single-digit odd primes and primes whose decimal expansion has the form iii...ij, where i and j are distinct odd digits.",
   "id": "A321363",
   "mentions": [
+    "A030096",
     "A051200",
     "A055558",
     "A062353",

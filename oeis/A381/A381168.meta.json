@@ -1,0 +1,15 @@
+{
+  "description": "Number of minimal dominating sets in the n-Hanoi graph.",
+  "id": "A381168",
+  "mentions": [],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

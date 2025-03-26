@@ -1,0 +1,32 @@
+{
+  "description": "Powerful numbers that have a single exponent in their prime factorization that equals 2.",
+  "id": "A381314",
+  "mentions": [
+    "A001248",
+    "A001694",
+    "A036966",
+    "A065483",
+    "A143610",
+    "A179646",
+    "A179689",
+    "A179699",
+    "A189988",
+    "A189990",
+    "A190106",
+    "A190115",
+    "A190470",
+    "A190471",
+    "A377816",
+    "A377818"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

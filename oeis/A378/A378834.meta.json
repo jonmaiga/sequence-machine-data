@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to reverse a permutation of n elements by the minimum number of steps of rotate left or right 1 place (L,R), or exchange first two elements (E).",
+  "id": "A378834",
+  "mentions": [
+    "A061545",
+    "A186752"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

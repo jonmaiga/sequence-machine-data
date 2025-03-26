@@ -1,0 +1,17 @@
+{
+  "description": "For a positive rational x, let k(x) be the smallest positive integer such that all k >= k(x) have a partition into distinct parts with reciprocal sum equal to x. The n-th term in this sequence is equal to the number of x with k(x) equal to n.",
+  "id": "A380791",
+  "mentions": [
+    "A051882"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 66,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

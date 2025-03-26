@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of n X n matrices T over GF(2) such that there are exactly 2^k vectors v in GF(2)^n with Tv=v, n>=0, 0<=k<=n.",
+  "id": "A379105",
+  "mentions": [
+    "A002416",
+    "A002884",
+    "A060867",
+    "A086699",
+    "A286331",
+    "A346381"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum{2^(b(i)-1): 1<=i<=n}, where b(n) is the differences between consecutive primes.",
+  "description": "a(n) = Sum_{i=1..n} 2^(b(i) - 1), where b(n) is the differences between consecutive primes.",
   "id": "A086769",
   "mentions": [
     "A001223"

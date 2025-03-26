@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of walks of length 2*n on the N X N grid with unit steps in all four directions (NSWE) starting at (0, 0). k is the common value of the x- and the y-coordinate of the endpoint of the walk.",
+  "id": "A380119",
+  "mentions": [
+    "A000984",
+    "A005568",
+    "A151403",
+    "A253487",
+    "A380120"
+  ],
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

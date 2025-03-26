@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k>=0} floor(n/(2k)!).",
+  "id": "A380408",
+  "mentions": [
+    "A013936",
+    "A013939",
+    "A034968",
+    "A038663",
+    "A059563",
+    "A060832"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

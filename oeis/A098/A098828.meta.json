@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 3x^2 - y^2, where x and y are two consecutive numbers.",
+  "description": "Primes of the form 2*n^2 + 2*n - 1.",
   "id": "A098828",
   "mentions": [
     "A109358",

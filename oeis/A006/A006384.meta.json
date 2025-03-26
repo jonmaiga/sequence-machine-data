@@ -1,10 +1,14 @@
 {
-  "description": "Number of planar maps with n edges.",
+  "description": "Number of sensed planar maps with n edges.",
   "id": "A006384",
   "mentions": [
     "A000010",
     "A000168",
-    "A007401"
+    "A006385",
+    "A006402",
+    "A006443",
+    "A007401",
+    "A379430"
   ],
   "tags": [
     "formulas",

@@ -2,6 +2,7 @@
   "description": "a(n) = Card{ k, phi(k) <= n }.",
   "id": "A070243",
   "mentions": [
+    "A000010",
     "A014197",
     "A082695"
   ],
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

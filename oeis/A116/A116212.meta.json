@@ -2,11 +2,13 @@
   "description": "List of the positive divisors of each term of A116137.",
   "id": "A116212",
   "mentions": [
+    "A027750",
     "A116137"
   ],
   "tags": [
     "formulas",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,

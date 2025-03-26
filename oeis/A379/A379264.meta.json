@@ -1,0 +1,16 @@
+{
+  "description": "Pentagonal numbers (or 5-gonal numbers, i.e., numbers of the form k*(3*k-1)/2) that are abundant.",
+  "id": "A379264",
+  "mentions": [
+    "A000326",
+    "A005101"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

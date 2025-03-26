@@ -1,9 +1,12 @@
 {
-  "description": "z such that the Diophantine equation x^2 + y^3 = z^2 has solutions.",
+  "description": "Numbers z such that the Diophantine equation x^2 + y^3 = z^2 has solutions with x, y > 0.",
   "id": "A070745",
-  "mentions": [],
+  "mentions": [
+    "A066647"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 5^k - 4^k is a semiprime.",
+  "id": "A381725",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A005060",
+    "A059802",
+    "A082869"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of the repunit A002275(n) into two mutually complementary binary vectors having a common divisor > 1 in base 10.",
+  "id": "A378511",
+  "mentions": [
+    "A000325",
+    "A002275",
+    "A004023",
+    "A007088",
+    "A055642",
+    "A378154",
+    "A378514",
+    "A378761"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

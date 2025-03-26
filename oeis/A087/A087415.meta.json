@@ -1,13 +1,15 @@
 {
-  "description": "Odd numbers n such that abs(sigma(n)-2n) <= sqrt(n). Abundance-radius = abs(sigma(n)-2n) does not exceed square root of n and n is odd.",
+  "description": "Odd numbers k such that abs(sigma(k)-2k) <= sqrt(k). Abundance-radius = abs(sigma(k)-2k) does not exceed square root of k and k is odd.",
   "id": "A087415",
   "mentions": [
     "A000079",
     "A000396",
     "A005100",
     "A005101",
+    "A005408",
     "A077374",
     "A088007",
+    "A088008",
     "A088012"
   ],
   "tags": [

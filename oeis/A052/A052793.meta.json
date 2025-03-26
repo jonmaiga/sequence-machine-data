@@ -1,5 +1,5 @@
 {
-  "description": "A simple grammar.",
+  "description": "Expansion of e.g.f. x^4*exp(x)^2-2*x^4*exp(x)+x^4.",
   "id": "A052793",
   "mentions": [],
   "tags": [

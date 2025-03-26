@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Product((1+x^i)/(1-x^i),i=1..n-1)/(1-x^n), with n = 7.",
+  "description": "Expansion of g.f. Product((1+x^i)/(1-x^i),i=1..n-1)/(1-x^n), with n = 7.",
   "id": "A091778",
   "mentions": [],
   "tags": [

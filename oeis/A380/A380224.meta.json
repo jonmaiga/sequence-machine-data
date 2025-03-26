@@ -1,0 +1,19 @@
+{
+  "description": "Terms b(k) (for k > 0, and in order of appearance) such that both |b(k) - b(k-1)| and |b(k+1) - b(k)| are greater than 1, where b is A377091.",
+  "id": "A380224",
+  "mentions": [
+    "A377091",
+    "A379880",
+    "A380223",
+    "A380225"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1. a(n) = the sum of the earlier terms which are <= n.",
+  "description": "a(0)=1; thereafter a(n) = the sum of the earlier terms which are <= n.",
   "id": "A129279",
   "mentions": [
     "A129280"

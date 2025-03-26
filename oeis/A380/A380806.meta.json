@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not of form a*(b+1) + b*(c+1) + c*(a+1) for 1<=a<=b<=c.",
+  "id": "A380806",
+  "mentions": [
+    "A025052",
+    "A380807"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that have the same number of divisors as there are runs in their base-10 representation.",
+  "id": "A379930",
+  "mentions": [
+    "A000005",
+    "A043562",
+    "A379929",
+    "A379931"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

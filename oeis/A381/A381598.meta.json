@@ -1,0 +1,20 @@
+{
+  "description": "Index of first term of three consecutive n's in A381597.",
+  "id": "A381598",
+  "mentions": [
+    "A229037",
+    "A281511",
+    "A370708",
+    "A381597",
+    "A381599"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

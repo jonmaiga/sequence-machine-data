@@ -1,5 +1,5 @@
 {
-  "description": "(A210852(n)^3 + 1)/7^n, n >= 0.",
+  "description": "a(n) = (A210852(n)^3 + 1)/7^n, n >= 0.",
   "id": "A210853",
   "mentions": [
     "A210848",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
-    "source": "joeis"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

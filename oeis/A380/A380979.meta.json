@@ -1,0 +1,20 @@
+{
+  "description": "Composites that cause a witness to be added to a set of Fermat witnesses: a(n) is the smallest composite number that is not guaranteed composite using Fermat's Little Theorem by the witness A380978(i) for any i < n.",
+  "id": "A380979",
+  "mentions": [
+    "A001567",
+    "A002997",
+    "A006945",
+    "A098654",
+    "A135720",
+    "A380978"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

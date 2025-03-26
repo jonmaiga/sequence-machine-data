@@ -1,15 +1,17 @@
 {
-  "description": "Numbers such that 2n is equal to A318466(n), bitor(2*n,sigma(n)), where bitor is A003986.",
+  "description": "Numbers k such that 2*k is equal to 2*k OR sigma(k), where OR is bitwise-or, A003986, and sigma is the sum of divisors function.",
   "id": "A324726",
   "mentions": [
     "A000396",
     "A003986",
+    "A263837",
     "A318466",
     "A324652",
     "A324723",
     "A324727"
   ],
   "tags": [
+    "formulas",
     "look",
     "nonn"
   ],

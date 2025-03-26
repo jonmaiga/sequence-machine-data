@@ -1,0 +1,16 @@
+{
+  "description": "Decimal value of c > 1.5 for which H(2*c) = 2*H(c) for H = Hadamard's gamma function.",
+  "id": "A381340",
+  "mentions": [
+    "A000796"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

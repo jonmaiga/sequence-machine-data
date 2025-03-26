@@ -1,0 +1,17 @@
+{
+  "description": "Number of possible configurations of an n dimensional Rubik's hypercube.",
+  "id": "A381367",
+  "mentions": [
+    "A075152",
+    "A381366"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

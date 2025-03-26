@@ -2,7 +2,9 @@
   "description": "Primes ordered so that their most significant digits form the digits of Pi.",
   "id": "A073622",
   "mentions": [
-    "A073623"
+    "A000796",
+    "A073623",
+    "A073624"
   ],
   "tags": [
     "base",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

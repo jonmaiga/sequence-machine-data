@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n, k) = phi(A246278(n, k)), read by falling antidiagonals; Euler totient function applied to the prime shift array.",
+  "id": "A379010",
+  "mentions": [
+    "A000010",
+    "A006093",
+    "A036689",
+    "A062570",
+    "A083553",
+    "A135177",
+    "A246278",
+    "A379011"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

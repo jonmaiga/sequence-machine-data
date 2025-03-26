@@ -1,0 +1,19 @@
+{
+  "description": "Greedy expansion of Pi-3 in a base with place values 1/(10^k-1), k >= 1, using digits {0,1,2,...,8,9,A=10}.",
+  "id": "A381788",
+  "mentions": [
+    "A000796",
+    "A073668",
+    "A989899"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-entry"
+  }
+}

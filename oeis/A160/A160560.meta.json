@@ -1,5 +1,5 @@
 {
-  "description": "Almost minimal covering numbers",
+  "description": "Almost covering numbers.",
   "id": "A160560",
   "mentions": [
     "A160559"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

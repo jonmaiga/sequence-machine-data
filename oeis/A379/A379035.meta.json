@@ -1,0 +1,17 @@
+{
+  "description": "Number of intervals in the lattice of Schroeder paths of length 2*n.",
+  "id": "A379035",
+  "mentions": [
+    "A005700",
+    "A006318",
+    "A379034"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

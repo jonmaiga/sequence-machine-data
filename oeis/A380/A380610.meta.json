@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of non-isomorphic formulas in conjunctive normal form (CNF) with n variables and k distinct nonempty clauses up to permutations of the variables and clauses, 0 <= k < 3^n.",
+  "id": "A380610",
+  "mentions": [
+    "A000244",
+    "A371830",
+    "A380518",
+    "A380630"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -4,12 +4,13 @@
   "mentions": [],
   "tags": [
     "fini",
+    "full",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
+    "size": 49,
     "source": "oeis-entry"
   }
 }

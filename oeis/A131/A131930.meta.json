@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the decimal representation of n contains at least one prime factor of n.",
+  "description": "Numbers k such that the decimal representation of k contains at least one prime factor of k.",
   "id": "A131930",
   "mentions": [
     "A050695",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Largest number that is neither a divisor of nor relatively prime to n, or 0 if no such number exists.",
+  "description": "Largest number < n that is neither a divisor of nor relatively prime to n, or 0 if no such number exists.",
   "id": "A073759",
   "mentions": [
     "A045763",

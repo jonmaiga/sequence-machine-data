@@ -1,5 +1,5 @@
 {
-  "description": "Number of trailing zeros in the factorial base representation of n-th Fibonacci number; a(n) = A230403(A000045(n)) = A233285(n)-1.",
+  "description": "Number of trailing zeros in the factorial base representation of n-th Fibonacci number.",
   "id": "A233286",
   "mentions": [
     "A000045",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 87,
-    "source": "joeis"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

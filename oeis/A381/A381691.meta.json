@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of an icosidodecahedron.",
+  "id": "A381691",
+  "mentions": [
+    "A000796",
+    "A002163",
+    "A010464",
+    "A179450",
+    "A179451",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

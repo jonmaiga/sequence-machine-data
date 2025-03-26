@@ -1,0 +1,16 @@
+{
+  "description": "Primes of the form Sum_{k >= 0} floor(m/5^k) for some number m.",
+  "id": "A381239",
+  "mentions": [
+    "A191610",
+    "A380662"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

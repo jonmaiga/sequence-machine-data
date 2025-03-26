@@ -1,0 +1,16 @@
+{
+  "description": "Second column of Kimberling's ESC array.",
+  "id": "A380835",
+  "mentions": [
+    "A380834"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

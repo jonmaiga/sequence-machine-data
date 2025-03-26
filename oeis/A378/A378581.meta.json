@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies: A(x*A(x)) = theta_3(x) = 1 + 2*Sum_{n>=1} x^(n^2).",
+  "id": "A378581",
+  "mentions": [
+    "A378580"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

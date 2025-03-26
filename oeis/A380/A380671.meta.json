@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number not yet in the sequence which is coprime to n and shares at least one decimal digit with n.",
+  "id": "A380671",
+  "mentions": [
+    "A065190"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

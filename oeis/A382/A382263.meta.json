@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the unique k such that the factorial base expansion of A382262(n) is, when read from right to left, the ordinal transform of that of A382262(k).",
+  "id": "A382263",
+  "mentions": [
+    "A382262",
+    "A382269"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

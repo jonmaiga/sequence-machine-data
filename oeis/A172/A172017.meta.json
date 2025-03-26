@@ -1,7 +1,8 @@
 {
-  "description": "Twin semiprimes (or twin biprimes): nonprimes of the form 6*k-+1 where 6*k-+1 are both semiprime (or both biprime).",
+  "description": "Twin semiprimes: nonprimes of the form 6*k-+1 where 6*k-+1 are both semiprime.",
   "id": "A172017",
   "mentions": [
+    "A001358",
     "A171697"
   ],
   "tags": [

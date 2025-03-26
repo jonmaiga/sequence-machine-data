@@ -1,18 +1,19 @@
 {
-  "description": "a(n) is the least integer m such that the distance of x_m from its nearest integer is less than 1/n, where x_m is the m-th root of digamma(x+1).",
+  "description": "a(n) is the least integer m such that the distance of x_m from its nearest integer is less than 1/n, where x_m is the m-th extrema of gamma(x).",
   "id": "A374856",
   "mentions": [
     "A030169",
     "A175472",
-    "A175473"
+    "A175473",
+    "A377376"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

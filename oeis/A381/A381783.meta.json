@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x*A(x)^3) * C(x*A(x)), where C(x) is the g.f. of A000108.",
+  "id": "A381783",
+  "mentions": [
+    "A000108",
+    "A212071",
+    "A381773",
+    "A381782"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

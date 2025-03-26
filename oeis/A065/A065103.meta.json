@@ -1,7 +1,9 @@
 {
   "description": "A level 11 weight 5 form.",
   "id": "A065103",
-  "mentions": [],
+  "mentions": [
+    "A011582"
+  ],
   "tags": [
     "formulas",
     "mult",

@@ -1,0 +1,20 @@
+{
+  "description": "Third coefficient of the lindep transform of A017665, numerator of sigma(n)/n.",
+  "id": "A380543",
+  "mentions": [
+    "A017665",
+    "A339792",
+    "A380541",
+    "A380542",
+    "A380546"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

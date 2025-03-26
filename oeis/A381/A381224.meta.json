@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the integer resulting from the concatenation of the unit digit of prime(n-1) to the digits of prime(n) without its own unit digit.",
+  "id": "A381224",
+  "mentions": [
+    "A000040",
+    "A032759",
+    "A290148",
+    "A339467"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

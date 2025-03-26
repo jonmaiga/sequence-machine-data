@@ -1,9 +1,12 @@
 {
   "description": "Start with 0, run through primes >=5, adding if -1 mod 6, subtracting if +1 mod 6.",
   "id": "A051356",
-  "mentions": [],
+  "mentions": [
+    "A173950"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

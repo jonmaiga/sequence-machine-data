@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of n X n binary matrices containing k South-East paths of 1's connecting the top left and bottom right corners.",
+  "id": "A380392",
+  "mentions": [
+    "A000984",
+    "A001790",
+    "A002416",
+    "A086266",
+    "A101926",
+    "A261242",
+    "A369285"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

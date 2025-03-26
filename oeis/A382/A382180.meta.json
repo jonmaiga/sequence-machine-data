@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled connected graphs with n vertices which are squares.",
+  "id": "A382180",
+  "mentions": [
+    "A000055",
+    "A001349",
+    "A382181",
+    "A382194"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

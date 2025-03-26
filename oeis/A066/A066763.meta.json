@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that (n, phi(n)) lies on a circle with integral radius centered at the origin, i.e., n^2 + phi(n)^2 is a square.",
+  "description": "Numbers k such that (k, phi(k)) lies on a circle with integral radius centered at the origin, i.e., k^2 + phi(k)^2 is a square.",
   "id": "A066763",
-  "mentions": [],
+  "mentions": [
+    "A066764",
+    "A066782"
+  ],
   "tags": [
     "nonn"
   ],

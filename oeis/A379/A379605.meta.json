@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of sigma_sup = sup{real(s): Psi(s) = 0}, where Psi(s) = Sum_{n>=1} 1/n!^s.",
+  "id": "A379605",
+  "mentions": [
+    "A373204"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

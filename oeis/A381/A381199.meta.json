@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (4*n)!/((n!)^2*(2*n)!)*Sum_{k=0..n} binomial(n,k)^2*binomial(2*k,k).",
+  "id": "A381199",
+  "mentions": [
+    "A000897",
+    "A000984",
+    "A001044",
+    "A002893",
+    "A007318",
+    "A008459",
+    "A010050",
+    "A100733"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

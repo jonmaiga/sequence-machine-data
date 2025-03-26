@@ -2,6 +2,7 @@
   "description": "Prime(n)*...*a(n) is the least product of consecutive primes which is non-deficient.",
   "id": "A007686",
   "mentions": [
+    "A003046",
     "A005100",
     "A007680",
     "A007684",

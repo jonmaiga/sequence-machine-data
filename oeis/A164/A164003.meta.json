@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of exp(-Pi^2/2).",
   "id": "A164003",
-  "mentions": [],
+  "mentions": [
+    "A135544"
+  ],
   "tags": [
     "cons",
     "nonn"

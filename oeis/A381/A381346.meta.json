@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1/( 1 - sinh(sqrt(2)*x) / sqrt(2) ).",
+  "id": "A381346",
+  "mentions": [
+    "A136630",
+    "A191277",
+    "A381284",
+    "A381285",
+    "A381286",
+    "A381347"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

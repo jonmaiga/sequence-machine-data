@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways, counted up to symmetry, to build a contiguous building with n LEGO blocks of size 1x7 which is symmetric after a rotation by 180 degrees.",
+  "description": "Number of ways, counted up to symmetry, to build a contiguous building with n LEGO blocks of size 1 X 7 which is symmetric after a rotation by 180 degrees.",
   "id": "A123803",
   "mentions": [
     "A112389",

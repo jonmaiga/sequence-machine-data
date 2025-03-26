@@ -1,17 +1,20 @@
 {
-  "description": "Smallest number whose absolute value of the successive digit difference is the n-th palindrome.",
+  "description": "Smallest number whose absolute value of the successive digit difference is the n-th palindrome, or -1 if no such number exists.",
   "id": "A086919",
   "mentions": [
-    "A086918"
+    "A002113",
+    "A086918",
+    "A271639",
+    "A327270"
   ],
   "tags": [
     "base",
-    "easy",
-    "nonn"
+    "formulas",
+    "sign"
   ],
   "terms": {
-    "offset": 0,
-    "size": 37,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

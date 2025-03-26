@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that Fibonacci(k) has a Fibonacci number of 1's in its binary representation.",
+  "id": "A382053",
+  "mentions": [
+    "A000045",
+    "A381704"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

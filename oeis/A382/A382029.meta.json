@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x*C(x*A(x)^2)), where C(x) = 1 + x*C(x)^2 is the g.f. of A000108.",
+  "id": "A382029",
+  "mentions": [
+    "A000108",
+    "A161629",
+    "A212722",
+    "A214688",
+    "A214689",
+    "A379690",
+    "A382030",
+    "A382031",
+    "A382042"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

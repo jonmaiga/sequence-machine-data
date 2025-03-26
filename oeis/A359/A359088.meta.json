@@ -1,19 +1,18 @@
 {
-  "description": "Odd integers k that are not equal to A002326((A005420(k)-1)/2) where A005420(n) is the largest prime factor of 2^n - 1 and A002326(n) is the multiplicative order of 2 mod 2n+1.",
+  "description": "Odd integers k such that the multiplicative order of 2 modulo the largest prime factor of 2^k - 1 is different from k.",
   "id": "A359088",
   "mentions": [
     "A002326",
     "A005420"
   ],
   "tags": [
-    "bref",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

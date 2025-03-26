@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: log( 1 + (exp(x) - 1)^2 / 2 ).",
+  "description": "Expansion of e.g.f. log( 1 + (exp(x) - 1)^2 / 2 ).",
   "id": "A346974",
   "mentions": [
     "A000225",

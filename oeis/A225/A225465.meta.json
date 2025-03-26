@@ -1,10 +1,11 @@
 {
-  "description": "Triangular array read by rows. T(n,k) is the number of rooted forests on {1,2,...,n} in which one tree has been specially designated that contain exactly k trees; n>=1, 1<=k<=n.",
+  "description": "Triangular array read by rows: T(n, k) is the number of rooted forests on {1, 2, ..., n} in which one tree has been specially designated that contain exactly k trees; n >= 1, 1 <= k <= n.",
   "id": "A225465",
   "mentions": [
     "A000169",
     "A061356",
-    "A089946"
+    "A089946",
+    "A137452"
   ],
   "tags": [
     "formulas",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

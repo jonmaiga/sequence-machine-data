@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the odd divisors of n ordered as the mirror of A261697.",
+  "id": "A379634",
+  "mentions": [
+    "A000012",
+    "A000593",
+    "A001227",
+    "A182469",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A261350",
+    "A261697",
+    "A261698",
+    "A261699",
+    "A379630",
+    "A379631",
+    "A379632",
+    "A379633"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

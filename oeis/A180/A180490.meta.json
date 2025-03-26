@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that (A000120(n))^2 divides n.",
+  "description": "Numbers k such that (A000120(k))^2 divides k.",
   "id": "A180490",
   "mentions": [
     "A000120",
     "A049445"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"

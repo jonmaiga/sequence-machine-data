@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can be written in exactly two different ways as a sum of at most nine positive third powers.",
+  "id": "A379397",
+  "mentions": [
+    "A002804",
+    "A025453",
+    "A379396",
+    "A379398",
+    "A379399",
+    "A379400"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

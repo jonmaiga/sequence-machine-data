@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k>1 such that phi(phi(k))= sigma(sopf(k)).",
+  "description": "Numbers k>1 such that phi(phi(k)) = sigma(sopf(k)).",
   "id": "A173337",
   "mentions": [
     "A000010",

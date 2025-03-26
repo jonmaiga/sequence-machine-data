@@ -1,0 +1,17 @@
+{
+  "description": "Least prime pn such that there is a set p1 < p2 < ... < pn of primes such that, for any distinct p and q in the set, (p + q)/2 is prime.",
+  "id": "A381322",
+  "mentions": [
+    "A362629"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

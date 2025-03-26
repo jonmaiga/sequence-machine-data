@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n - floor((n - k)/k)) mod k, for 0 < k <= n.",
+  "id": "A380305",
+  "mentions": [
+    "A048158",
+    "A375595",
+    "A378275",
+    "A380153"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

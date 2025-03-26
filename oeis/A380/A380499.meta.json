@@ -1,0 +1,19 @@
+{
+  "description": "Absolute value of the minimum coefficient of (1 - x)^2 * (1 - x^2)^2 * (1 - x^3)^2 * ... * (1 - x^n)^2.",
+  "id": "A380499",
+  "mentions": [
+    "A002107",
+    "A047653",
+    "A086394",
+    "A133871",
+    "A369710"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

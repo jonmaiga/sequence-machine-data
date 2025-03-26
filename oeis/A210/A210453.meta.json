@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{n>=1} 1/(n*binomial(3*n,n)).",
+  "description": "Decimal expansion of Sum_{n>=1} 1/(n*binomial(3*n,n)).",
   "id": "A210453",
   "mentions": [
     "A005809",

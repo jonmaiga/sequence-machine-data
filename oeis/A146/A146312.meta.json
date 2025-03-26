@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = -cos((2 n - 1) arcsin(sqrt(3)))^2 = -1 + cosh((2 n - 1) arcsinh(sqrt(2)))^2.",
+  "description": "a(n) = -cos((2*n-1)*arcsin(sqrt(3)))^2 = -1 + cosh((2*n-1)*arcsinh(sqrt(2)))^2.",
   "id": "A146312",
   "mentions": [
     "A054320",

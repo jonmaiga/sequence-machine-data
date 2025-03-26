@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer k with n distinct digits, such that for each digit of k, 2*k*(digit) + 1 is prime.",
+  "id": "A382198",
+  "mentions": [
+    "A382127",
+    "A382179",
+    "A382199"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

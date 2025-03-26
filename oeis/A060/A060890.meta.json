@@ -1,5 +1,5 @@
 {
-  "description": "n^8 + 1.",
+  "description": "a(n) = n^8 + 1.",
   "id": "A060890",
   "mentions": [
     "A001093",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "joeis"
   }
 }

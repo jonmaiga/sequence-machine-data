@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where column k is the expansion of e.g.f. exp(B_k(x) - 1), where B_k(x) = 1 + x*B_k(x)^k.",
+  "id": "A382101",
+  "mentions": [
+    "A000012",
+    "A000262",
+    "A251568",
+    "A355262",
+    "A380512",
+    "A380516",
+    "A382100"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

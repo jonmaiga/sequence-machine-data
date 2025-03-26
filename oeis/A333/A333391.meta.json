@@ -2,15 +2,15 @@
   "description": "Longest side of primitive integer triangles with nonzero rational distances between three vertices and first isogonic center, sorted.",
   "id": "A333391",
   "mentions": [
-    "A070082"
+    "A070082",
+    "A336332"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Number of subtrees of a complete binary tree.",
   "id": "A157679",
   "mentions": [
+    "A000058",
     "A004019",
     "A005468"
   ],

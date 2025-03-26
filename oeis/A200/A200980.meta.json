@@ -1,7 +1,9 @@
 {
-  "description": "Concatenate the digits of the natural numbers from 1 to n in order to build up two numbers x and y that minimize the ratio x/y > 0, an integer (leading zeros not admitted).",
+  "description": "a(n) = smallest positive integer ratio x/y for numbers x,y that together have the same digits as all numbers from 1 to n (leading zeros are not allowed).",
   "id": "A200980",
-  "mentions": [],
+  "mentions": [
+    "A380642"
+  ],
   "tags": [
     "base",
     "hard",
@@ -9,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 13,
+    "offset": 2,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

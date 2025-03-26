@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f.: (BesselI(0, 2*x) + BesselI(1, 2*x))^2*exp(2*x).",
+  "id": "A381889",
+  "mentions": [
+    "A001405",
+    "A001700",
+    "A005566",
+    "A005773",
+    "A151093"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

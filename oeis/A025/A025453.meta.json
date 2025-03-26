@@ -1,13 +1,22 @@
 {
   "description": "Number of partitions of n into 9 nonnegative cubes.",
   "id": "A025453",
-  "mentions": [],
+  "mentions": [
+    "A025446",
+    "A025447",
+    "A025448",
+    "A025449",
+    "A025450",
+    "A025451",
+    "A025452",
+    "A025454"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 108,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

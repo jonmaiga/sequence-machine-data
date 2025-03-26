@@ -1,5 +1,5 @@
 {
-  "description": "The total number of star-shaped dodecagons appearing in a variant of hexagon expansion after n iterations.",
+  "description": "Total number of star-shaped dodecagons appearing in a variant of hexagon expansion after n iterations.",
   "id": "A253547",
   "mentions": [
     "A179178"

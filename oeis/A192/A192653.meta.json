@@ -1,7 +1,10 @@
 {
   "description": "Binomial convolution of the Floor-Sqrt transform of Catalan numbers.",
   "id": "A192653",
-  "mentions": [],
+  "mentions": [
+    "A000108",
+    "A186546"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p where the prime race 12m+1 versus 12m+7 is tied.",
+  "id": "A380877",
+  "mentions": [
+    "A007351",
+    "A068228",
+    "A068229",
+    "A379989",
+    "A380333"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

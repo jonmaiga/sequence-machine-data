@@ -1,15 +1,19 @@
 {
-  "description": "Scan Pascal's triangle (A007318) from left to right, record smallest prime factor of each entry.",
+  "description": "Triangle read by rows: T(n,k) = smallest prime factor of binomial(n,k), 1 <= k <= n-1.",
   "id": "A096007",
   "mentions": [
-    "A007318"
+    "A007318",
+    "A020639",
+    "A096006"
   ],
   "tags": [
     "easy",
-    "nonn"
+    "formulas",
+    "nonn",
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 2,
     "size": 104,
     "source": "joeis"
   }

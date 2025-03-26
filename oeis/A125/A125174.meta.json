@@ -1,7 +1,8 @@
 {
-  "description": "Primes of the form n! + (n+1)! - 1.",
+  "description": "Primes of the form k! + (k+1)! - 1.",
   "id": "A125174",
   "mentions": [
+    "A087146",
     "A118913"
   ],
   "tags": [
@@ -9,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

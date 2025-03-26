@@ -2,7 +2,6 @@
   "description": "a(n) is the number of primes less than or equal to prime(n) - n.",
   "id": "A065328",
   "mentions": [
-    "A000027",
     "A000040",
     "A000720"
   ],

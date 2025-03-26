@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A173601(n)-A179016(n).",
+  "description": "a(n) = A173601(n) - A179016(n).",
   "id": "A218604",
   "mentions": [
     "A086876",
@@ -11,6 +11,7 @@
     "A218608"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

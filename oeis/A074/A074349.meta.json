@@ -1,7 +1,9 @@
 {
-  "description": "a(1)=1, a(n) is smallest number > a(n-1) such that all pair juxtapositions a(1)a(n),...,a(n-1)a(n) are primes.",
+  "description": "a(1)=1, a(4)=97, otherwise a(n) is smallest number > a(n-1) such that all pair juxtapositions a(1)a(n),...,a(n-1)a(n) are primes.",
   "id": "A074349",
-  "mentions": [],
+  "mentions": [
+    "A075611"
+  ],
   "tags": [
     "base",
     "more",

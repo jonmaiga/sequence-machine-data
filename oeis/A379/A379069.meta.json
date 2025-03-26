@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative numbers k such that the index of -k in A377091 is <= the index of k.",
+  "id": "A379069",
+  "mentions": [
+    "A377091",
+    "A379059",
+    "A379060"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

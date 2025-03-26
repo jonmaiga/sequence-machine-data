@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = phi(2 + phi(3 + phi(5 + ... + phi(prime(n))))), where phi is Euler totient function (A000010).",
+  "id": "A380354",
+  "mentions": [
+    "A000010",
+    "A380340",
+    "A380341",
+    "A380342",
+    "A380414",
+    "A380415"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k that has exactly n proper divisors d such that ( (-d)^k == -d (mod k).",
+  "id": "A380393",
+  "mentions": [
+    "A371513",
+    "A378387"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

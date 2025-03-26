@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) (2 <= k <= n) is the smallest positive integer m >= k such that the digits of m expressed in base n are the same as the first digits in base k.",
+  "id": "A380293",
+  "mentions": [
+    "A379651",
+    "A381088"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

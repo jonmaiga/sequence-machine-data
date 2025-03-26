@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that f(k), f(k+1) and f(k+2) are all primes, where f(k) = (2k+1)^2 - 2 (A073577).",
+  "description": "Numbers k such that f(k), f(k+1) and f(k+2) are all primes, where f(k) = (2k+1)^2 - 2",
   "id": "A293620",
   "mentions": [
     "A008865",

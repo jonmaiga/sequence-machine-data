@@ -2,6 +2,7 @@
   "description": "Primes that contain digits 1 and 3 only.",
   "id": "A020451",
   "mentions": [
+    "A030096",
     "A032917",
     "A045429"
   ],

@@ -1,15 +1,26 @@
 {
-  "description": "Ranks in natural order of 2^n increasing real numbers appearing in limit cycles of interval iterations, or Median Spiral Order.",
+  "description": "Triangular array T(n,k), n>=0, k=1..2^n, read by rows in bracketed pairs such that highest ranked element is bracketed with lowest ranked.",
   "id": "A131271",
-  "mentions": [],
+  "mentions": [
+    "A005578",
+    "A006519",
+    "A049773",
+    "A057432",
+    "A088208",
+    "A155944",
+    "A240908",
+    "A240909",
+    "A240910",
+    "A294442"
+  ],
   "tags": [
-    "fini",
     "formulas",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 24,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
   }
 }

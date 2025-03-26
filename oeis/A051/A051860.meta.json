@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers in order of their appearance in A051686.",
+  "description": "Distinct prime numbers in order of their appearance in A051686.",
   "id": "A051860",
   "mentions": [
     "A005384",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,11 +1,18 @@
 {
-  "description": "Numbers that are the sum of five fifth powers in exactly three ways.",
+  "description": "Numbers that are the sum of five positive fifth powers in exactly three ways.",
   "id": "A342688",
   "mentions": [
+    "A003350",
+    "A004845",
+    "A342685",
     "A342686",
     "A342687",
     "A344244",
+    "A344518",
     "A344519",
+    "A345863",
+    "A345864",
+    "A346257",
     "A346358"
   ],
   "tags": [

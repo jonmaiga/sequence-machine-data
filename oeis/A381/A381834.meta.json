@@ -1,0 +1,20 @@
+{
+  "description": "k/16 is in this list if k > 4 and A053737(k) = A235127(k), i.e. if digitsum(k, 4) = valuation(k, 4).",
+  "id": "A381834",
+  "mentions": [
+    "A053737",
+    "A235127",
+    "A381833",
+    "A381835",
+    "A381837"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

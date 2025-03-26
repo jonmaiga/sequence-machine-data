@@ -1,0 +1,17 @@
+{
+  "description": "Number of connected unlabeled graphs with n nodes and minimum vertex degree >= 4.",
+  "id": "A380127",
+  "mentions": [
+    "A007112",
+    "A324227"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

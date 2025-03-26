@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest k such that tau(k^2 + 1) is equal to 2^n, where tau = A000005 and a(n) = -1 if no such k exists.",
+  "id": "A380969",
+  "mentions": [
+    "A000005",
+    "A164511",
+    "A180278",
+    "A353008",
+    "A380798"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

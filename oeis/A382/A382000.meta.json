@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + x*exp(2*x)*A(x)^5.",
+  "id": "A382000",
+  "mentions": [
+    "A002294",
+    "A336950",
+    "A377526",
+    "A381986",
+    "A381997",
+    "A381998",
+    "A381999",
+    "A382001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Split A377091 into sublists consisting of runs of terms with the same sign. Then a(n) = 1 if terms (in absolute value) in the n-th sublist form an arithmetic progression with common difference -1, 0 otherwise.",
+  "id": "A380418",
+  "mentions": [
+    "A377091",
+    "A379882",
+    "A380417",
+    "A380419",
+    "A380422",
+    "A380510"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

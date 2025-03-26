@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of rational coefficients which are ratio of Brent's coefficients -A[n,2]/A343480.",
+  "id": "A380947",
+  "mentions": [
+    "A114907",
+    "A307410",
+    "A343480",
+    "A380839",
+    "A380948",
+    "A381085"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

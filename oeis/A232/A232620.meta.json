@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (2n)!! mod (2n-1)!! is greater than (2n+2)!! mod (2n+1)!!.",
+  "description": "Numbers k such that (2k)!! mod (2k-1)!! is greater than (2k+2)!! mod (2k+1)!!.",
   "id": "A232620",
   "mentions": [
     "A006882",

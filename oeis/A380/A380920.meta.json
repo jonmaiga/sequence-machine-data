@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: Define function b(n,k,i) where b(n,k,1) = n/k and b(n,k,i+1) = (i*b(n,k,i))/floor(i*b(n,k,i)). T(n,k) is the smallest number i such that b(n,k,i) = 1.",
+  "id": "A380920",
+  "mentions": [
+    "A380967"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

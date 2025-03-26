@@ -1,0 +1,15 @@
+{
+  "description": "Total number of coronal tilings of a width one length n straight polyiamond central frame with a specific hexiamond tile.",
+  "id": "A378455",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

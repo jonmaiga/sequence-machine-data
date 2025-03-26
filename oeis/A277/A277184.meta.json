@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: A(x) = x*exp(A(x) - A(x)^2) + A(x)^2.",
+  "description": "E.g.f. A(x) satisfies A(x) = x*exp(A(x) - A(x)^2) + A(x)^2.",
   "id": "A277184",
   "mentions": [
     "A000108"

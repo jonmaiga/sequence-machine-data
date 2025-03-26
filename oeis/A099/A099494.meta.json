@@ -1,5 +1,5 @@
 {
-  "description": "A Chebyshev transform of Fib(n)+(-1)^n.",
+  "description": "A Chebyshev transform of Fibonacci(n)+(-1)^n.",
   "id": "A099494",
   "mentions": [
     "A000484",

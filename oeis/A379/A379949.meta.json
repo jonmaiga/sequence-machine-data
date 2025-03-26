@@ -1,0 +1,26 @@
+{
+  "description": "Primitive abundant numbers (A091191) that are odd squares.",
+  "id": "A379949",
+  "mentions": [
+    "A006038",
+    "A016754",
+    "A091191",
+    "A103977",
+    "A156942",
+    "A306796",
+    "A363176",
+    "A379503",
+    "A379504",
+    "A379950",
+    "A379951"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

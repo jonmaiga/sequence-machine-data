@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a truncated icosidodecahedron (great rhombicosidodecahedron).",
+  "id": "A381695",
+  "mentions": [
+    "A000796",
+    "A002163",
+    "A002194",
+    "A010476",
+    "A377796",
+    "A377797",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

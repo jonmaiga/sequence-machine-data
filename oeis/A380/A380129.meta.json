@@ -1,0 +1,17 @@
+{
+  "description": "Strong Birthday Problem: Number of people needed so that probability of everyone sharing a birthday out of n possible days is at least 1/2.",
+  "id": "A380129",
+  "mentions": [
+    "A014088",
+    "A033810"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

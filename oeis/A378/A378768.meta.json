@@ -1,0 +1,24 @@
+{
+  "description": "Squares of powerful numbers that are not prime powers.",
+  "id": "A378768",
+  "mentions": [
+    "A000290",
+    "A001694",
+    "A013662",
+    "A013664",
+    "A013670",
+    "A126706",
+    "A286708",
+    "A372695"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

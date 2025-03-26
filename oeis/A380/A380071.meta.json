@@ -1,0 +1,15 @@
+{
+  "description": "Integers with at least 1 instance of 2 or more Pythagorean proper factorizations that yield the same diagonal length.",
+  "id": "A380071",
+  "mentions": [
+    "A380436"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

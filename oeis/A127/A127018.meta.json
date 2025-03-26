@@ -2,6 +2,7 @@
   "description": "Least s with s, t both semiprime and s+2n = t.",
   "id": "A127018",
   "mentions": [
+    "A001358",
     "A020483",
     "A127019"
   ],

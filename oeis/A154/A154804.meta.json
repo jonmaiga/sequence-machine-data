@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to represent 2n as the sum of two distinct primes (counting 1 as a prime).",
+  "description": "Number of ways to represent 2*n as the sum of two distinct primes (counting 1 as a prime).",
   "id": "A154804",
   "mentions": [
     "A001031",

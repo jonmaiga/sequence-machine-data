@@ -2,7 +2,8 @@
   "description": "Smallest m > 0 such that there are no primes between n*m and n*(m+1) inclusive.",
   "id": "A110835",
   "mentions": [
-    "A014085"
+    "A014085",
+    "A228775"
   ],
   "tags": [
     "nonn"

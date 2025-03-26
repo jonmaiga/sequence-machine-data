@@ -1,0 +1,19 @@
+{
+  "description": "For n = 2^k (k>=0), a(n) = n. Otherwise a(n) != n is the smallest number not yet in the sequence having the same binary weight as n and such that gcd(n,a(n)) > 1.",
+  "id": "A380739",
+  "mentions": [
+    "A000120",
+    "A005940",
+    "A380728"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

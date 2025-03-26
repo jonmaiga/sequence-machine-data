@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (65 + 9*sqrt(3))/22.",
+  "id": "A378812",
+  "mentions": [
+    "A002194"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

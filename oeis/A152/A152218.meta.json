@@ -1,12 +1,13 @@
 {
-  "description": "Numbers n such that sigma_2(n)*sigma_1(n)/sigma_0(n) is a perfect square.",
+  "description": "Numbers k such that sigma_2(k)*sigma_1(k)/sigma_0(k) is a perfect square.",
   "id": "A152218",
   "mentions": [
     "A000005",
     "A000203",
     "A000290",
     "A001157",
-    "A140480"
+    "A140480",
+    "A144695"
   ],
   "tags": [
     "formulas",

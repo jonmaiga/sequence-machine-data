@@ -1,9 +1,10 @@
 {
-  "description": "(6*11^n - 1) / 5.",
+  "description": "a(n) = (6*11^n - 1)/5.",
   "id": "A199023",
   "mentions": [
     "A112468",
-    "A112739"
+    "A112739",
+    "A199024"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

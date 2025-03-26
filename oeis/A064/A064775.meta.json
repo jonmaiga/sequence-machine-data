@@ -1,5 +1,5 @@
 {
-  "description": "Card{ k<=n, k such that all prime divisors of k are <= sqrt(k) }.",
+  "description": "Number of positive integers k <= n such that all prime divisors of k are <= sqrt(k).",
   "id": "A064775",
   "mentions": [
     "A048098",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k for which k!!/S(k) is integer, where S(k) is the sum of all odd numbers less than or equal to k, if k is odd, or the sum of all even numbers less than or equal to k, if k is even.",
+  "description": "Numbers k for which k!!/S(k) is an integer, where S(k) is the sum of all odd numbers less than or equal to k, if k is odd, or the sum of all even numbers less than or equal to k, if k is even.",
   "id": "A130319",
   "mentions": [
     "A000290",

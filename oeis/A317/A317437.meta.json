@@ -1,5 +1,5 @@
 {
-  "description": "Squares visited by a (1,5)-leaper on a spirally numbered board and moving to the lowest available unvisited square at each step.",
+  "description": "Squares visited by a (1,5)-leaper on a spirally numbered board and moving to the lowest available unvisited square at each step, squares labelled >=0.",
   "id": "A317437",
   "mentions": [
     "A317438",

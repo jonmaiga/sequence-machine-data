@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the generating constant c of A139244.",
   "id": "A260315",
   "mentions": [
+    "A000058",
     "A139244"
   ],
   "tags": [

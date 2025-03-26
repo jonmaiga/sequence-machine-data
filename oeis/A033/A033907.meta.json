@@ -1,9 +1,10 @@
 {
-  "description": "Sort then Add!.",
+  "description": "Sort then Add, a(1)=32.",
   "id": "A033907",
   "mentions": [
     "A033860",
-    "A033902"
+    "A033902",
+    "A070196"
   ],
   "tags": [
     "base",

@@ -1,0 +1,20 @@
+{
+  "description": "Composition of Blue code and bijective bit-reverse, in this order: a(n) = A057889(A193231(n)).",
+  "id": "A379472",
+  "mentions": [
+    "A030101",
+    "A057889",
+    "A193231",
+    "A379471"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

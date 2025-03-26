@@ -1,15 +1,17 @@
 {
-  "description": "Expansion of tan(tanh(x))*sin(x)/2.",
+  "description": "Expansion of e.g.f. tan(x^2)/2 in odd powers of x^2.",
   "id": "A009767",
   "mentions": [
+    "A000182",
     "A024348"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
-    "source": "joeis"
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

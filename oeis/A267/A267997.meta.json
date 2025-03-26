@@ -1,9 +1,12 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with every repeated value in every row and column greater than or equal to the previous repeated value.",
+  "description": "T(n,k) = number of n X k 0..3 arrays with every repeated value in every row and column greater than or equal to the previous repeated value.",
   "id": "A267997",
   "mentions": [
     "A267975",
-    "A267976"
+    "A267976",
+    "A267994",
+    "A267995",
+    "A267996"
   ],
   "tags": [
     "formulas",
@@ -12,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

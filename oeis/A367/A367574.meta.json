@@ -2,6 +2,8 @@
   "description": "Decimal expansion of BesselI(0,2*sqrt(2)).",
   "id": "A367574",
   "mentions": [
+    "A000217",
+    "A006472",
     "A070910",
     "A072334",
     "A367709",

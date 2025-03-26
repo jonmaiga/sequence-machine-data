@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. -log( 1 - log(1 - x)^4 / 24 ).",
+  "id": "A379674",
+  "mentions": [
+    "A346966",
+    "A377376",
+    "A380370"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

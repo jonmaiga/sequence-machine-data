@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n lists all positive m such that sigma(m) divides n, where sigma is the sum-of-divisors function (A000203).",
+  "id": "A378912",
+  "mentions": [
+    "A000203",
+    "A074754",
+    "A319068",
+    "A378913"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest integer k greater than 1 and not a perfect power satisfying A373387(k^n) = n.",
+  "id": "A381949",
+  "mentions": [
+    "A018247",
+    "A091663",
+    "A317905",
+    "A373387",
+    "A381460"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

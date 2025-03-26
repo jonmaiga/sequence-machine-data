@@ -1,5 +1,5 @@
 {
-  "description": "Nonnegative integers n such that Semigreedy Catalan representation A244159(n) contains at least one zero.",
+  "description": "Nonnegative integers m such that the Semigreedy Catalan representation A244159(m) contains at least one zero.",
   "id": "A244314",
   "mentions": [
     "A000108",

@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers having a Fibonacci number of 1's in their binary representation.",
+  "id": "A381704",
+  "mentions": [
+    "A000045",
+    "A004685",
+    "A010056",
+    "A382053"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that the sum of the proper divisors of k that have the same binary weight as k is larger than k, and no subset of these divisors sums to k.",
+  "id": "A381071",
+  "mentions": [
+    "A000396",
+    "A006037",
+    "A064114",
+    "A292986",
+    "A306984",
+    "A321146",
+    "A327948",
+    "A339939",
+    "A348525",
+    "A348631",
+    "A349285",
+    "A364862",
+    "A380845",
+    "A380846",
+    "A380929",
+    "A381072"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

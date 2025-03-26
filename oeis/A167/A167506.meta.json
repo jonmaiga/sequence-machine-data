@@ -1,5 +1,5 @@
 {
-  "description": "Number of m >= 0, m <=n such that 2^(n-m) 3^m + 1 or 2^(n-m) 3^m - 1 is prime.",
+  "description": "Number of m >= 0, m <= n such that 2^(n-m)*3^m + 1 or 2^(n-m)*3^m - 1 is prime.",
   "id": "A167506",
   "mentions": [
     "A167504",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 98,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,13 +2,16 @@
   "description": "Number of partitions of n with exactly one repeated part and that part is odd.",
   "id": "A341497",
   "mentions": [
+    "A067588",
     "A090867",
+    "A116676",
     "A116680",
     "A341494",
     "A341495",
     "A341496"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

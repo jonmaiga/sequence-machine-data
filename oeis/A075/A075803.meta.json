@@ -2,7 +2,8 @@
   "description": "Differences between adjacent palindromic squarefree numbers.",
   "id": "A075803",
   "mentions": [
-    "A037010"
+    "A037010",
+    "A071251"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

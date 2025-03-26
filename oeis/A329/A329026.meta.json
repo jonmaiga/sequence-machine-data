@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k = Product (p_j^e_j) = concatenation (pi(p_j)), where pi = A000720.",
+  "description": "Numbers k such that k = Product(p_j^e_j) = concatenation(pi(p_j)), where pi = A000720.",
   "id": "A329026",
   "mentions": [
     "A000720",

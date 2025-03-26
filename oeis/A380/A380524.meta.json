@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if n is a squarefree and for all factorizations of n as x*y, the sum (x * y') + (x' * y) is carryfree when the addition is done in the primorial base, otherwise 0. Here u' stands for A003415(u), the arithmetic derivative of u.",
+  "id": "A380524",
+  "mentions": [
+    "A003415",
+    "A008966",
+    "A010051",
+    "A358672",
+    "A380467",
+    "A380525"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The first subsequence starting at the first digit after the decimal point in the decimal expansion of Pi that is divisible by n.",
+  "id": "A378625",
+  "mentions": [
+    "A000796",
+    "A014777",
+    "A088143"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

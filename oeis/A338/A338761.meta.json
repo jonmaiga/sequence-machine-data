@@ -1,5 +1,5 @@
 {
-  "description": "Subword complexity of a certain infinite word.",
+  "description": "Subword complexity of a the infinite word Prod_{i>=1} Prod_{j=1..i} a^j b^(i-j+1).",
   "id": "A338761",
   "mentions": [
     "A338760"

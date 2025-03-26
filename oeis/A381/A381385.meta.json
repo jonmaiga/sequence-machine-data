@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/( 1 - sin(x * A(x)) / A(x) )^2.",
+  "id": "A381385",
+  "mentions": [
+    "A136630",
+    "A381384"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "Numbers not expressible as the sum of a triangular number and an abundant number.",
   "id": "A125668",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A005101"
+  ],
   "tags": [
     "easy",
     "fini",

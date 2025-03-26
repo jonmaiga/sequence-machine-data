@@ -1,8 +1,10 @@
 {
-  "description": "Integers of the form (n^2 - 49) / 120.",
+  "description": "Integers of the form (k^2 - 49) / 120.",
   "id": "A214429",
   "mentions": [
-    "A093722"
+    "A093722",
+    "A204221",
+    "A379210"
   ],
   "tags": [
     "easy",

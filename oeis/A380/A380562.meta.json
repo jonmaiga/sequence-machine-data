@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array R read by descending antidiagonals: (row 1) = (R(1,k)) = (A006337(k)), k >= 1; (row n+1) = inverse runlength sequence of row n; and R(n,1) = (1, 2, 2, 1, 2, 2, 1, 2, 2, ...) = (A130196(n)) for n >= 1. See Comments.",
+  "id": "A380562",
+  "mentions": [
+    "A000002",
+    "A006337",
+    "A130196",
+    "A378283",
+    "A378284",
+    "A378285",
+    "A380560"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

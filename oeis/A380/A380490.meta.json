@@ -1,0 +1,19 @@
+{
+  "description": "Replace prime digits of n by 0's.",
+  "id": "A380490",
+  "mentions": [
+    "A046034",
+    "A084984"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

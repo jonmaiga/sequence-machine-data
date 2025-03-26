@@ -1,0 +1,16 @@
+{
+  "description": "Numbers which are not prime powers and their prime factors share a last digit in base 10.",
+  "id": "A380758",
+  "mentions": [
+    "A004615"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

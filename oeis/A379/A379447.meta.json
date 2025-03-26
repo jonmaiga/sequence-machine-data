@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ones in the binary expansion of (n^n)^n.",
+  "id": "A379447",
+  "mentions": [
+    "A000120",
+    "A002489",
+    "A379448"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

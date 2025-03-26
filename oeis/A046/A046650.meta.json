@@ -1,5 +1,5 @@
 {
-  "description": "Number of rooted planar maps.",
+  "description": "Number of sensed nonseparable (2-connected) planar maps with n edges and a distinguished face of size 2.",
   "id": "A046650",
   "mentions": [
     "A000087",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 2,
     "size": 29,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

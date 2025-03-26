@@ -1,7 +1,8 @@
 {
-  "description": "Repeat 21.",
+  "description": "a(n) = 7*(10^(2*n) - 1)/33.",
   "id": "A153848",
   "mentions": [
+    "A094028",
     "A177090"
   ],
   "tags": [

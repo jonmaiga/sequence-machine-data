@@ -1,0 +1,26 @@
+{
+  "description": "Distinct values of A378664(k) in the order of appearance, when k ranges over those primitively abundant numbers k for which A378664(k) is less than the largest proper divisor of k.",
+  "id": "A378740",
+  "mentions": [
+    "A091191",
+    "A246282",
+    "A337372",
+    "A341614",
+    "A378658",
+    "A378662",
+    "A378664",
+    "A378736",
+    "A378738",
+    "A378739",
+    "A378741"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

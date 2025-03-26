@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Catalan numbers: a(n+1) = a(n) + Sum_{k=2..n-1} a(k)a(n-1-k).",
+  "description": "Generalized Catalan numbers: a(n+1) = a(n) + Sum_{k=2..n-1} a(k)*a(n-1-k).",
   "id": "A004149",
   "mentions": [
     "A001006",

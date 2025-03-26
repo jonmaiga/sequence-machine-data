@@ -1,0 +1,15 @@
+{
+  "description": "Number of rooted 6-regular combinatorial maps with n vertices.",
+  "id": "A380624",
+  "mentions": [
+    "A380622"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes between sigma(n) and phi(n).",
+  "description": "Number of primes between sigma(n) and phi(n) inclusive.",
   "id": "A085343",
   "mentions": [
     "A000010",

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer k>0 such that prime(n) + k*prime(n+1) is prime.",
+  "id": "A381532",
+  "mentions": [
+    "A129919",
+    "A175914",
+    "A368691"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

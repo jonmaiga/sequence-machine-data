@@ -2,6 +2,7 @@
   "description": "Number of distinct connected components of the multiset of multisets with MM-number n.",
   "id": "A328512",
   "mentions": [
+    "A000265",
     "A007814",
     "A056239",
     "A080696",
@@ -22,7 +23,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 87,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

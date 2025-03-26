@@ -1,5 +1,5 @@
 {
-  "description": "The number of hierarchies with at least one subhierarchy composed of exactly 3 levels and no subhierarchy with more than 3 levels.",
+  "description": "The number of hierarchies of n labeled elements with at least one subhierarchy composed of exactly 3 levels and no subhierarchy with more than 3 levels.",
   "id": "A097392",
   "mentions": [
     "A000041",
@@ -8,6 +8,7 @@
     "A097391"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

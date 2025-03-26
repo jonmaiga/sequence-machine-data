@@ -1,5 +1,5 @@
 {
-  "description": "Number of terms in InversePhi set of p(n)*(p(n)-1) = phi(p(n)^2), where p(n) is the n-th prime and phi=A000010.",
+  "description": "Number of terms in InversePhi set of prime(n)*(prime(n)-1) = phi(p(n)^2), where prime(n) is the n-th prime and phi=A000010.",
   "id": "A072006",
   "mentions": [
     "A000010",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 98,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

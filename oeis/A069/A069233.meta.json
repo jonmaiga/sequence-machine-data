@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there is exactly 1 prime p satisfying the inequality n < p < n + tau(n)^2 where tau(n) = A000005(n).",
+  "description": "Numbers k such that there is exactly 1 prime p satisfying the inequality k < p < k + tau(k)^2 where tau(k) = A000005(k).",
   "id": "A069233",
   "mentions": [
     "A000005",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

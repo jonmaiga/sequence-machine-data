@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose base-7 digits have greater up-variation than down-variation; see Comments.",
+  "description": "Numbers whose base-7 digits have greater down-variation than up-variation; see Comments.",
   "id": "A297261",
   "mentions": [
     "A297262",

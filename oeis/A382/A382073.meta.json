@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes with sum of digits 4.",
+  "id": "A382073",
+  "mentions": [
+    "A001358",
+    "A052218",
+    "A062339"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

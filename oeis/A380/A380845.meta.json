@@ -1,0 +1,25 @@
+{
+  "description": "The sum of divisors of n that have the same binary weight as n.",
+  "id": "A380845",
+  "mentions": [
+    "A000120",
+    "A000203",
+    "A000265",
+    "A000396",
+    "A000668",
+    "A007814",
+    "A038712",
+    "A380844"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

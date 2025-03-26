@@ -1,7 +1,9 @@
 {
-  "description": "n * last digit of n.",
+  "description": "a(n) = n * last digit of n.",
   "id": "A063462",
-  "mentions": [],
+  "mentions": [
+    "A010879"
+  ],
   "tags": [
     "base",
     "easy",

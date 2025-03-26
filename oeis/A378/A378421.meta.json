@@ -1,0 +1,37 @@
+{
+  "description": "Positive integers in A376446 sorted according to their appearance in that sequence.",
+  "id": "A378421",
+  "mentions": [
+    "A000007",
+    "A018247",
+    "A018248",
+    "A063006",
+    "A091661",
+    "A091663",
+    "A091664",
+    "A120817",
+    "A120818",
+    "A290372",
+    "A290373",
+    "A290374",
+    "A290375",
+    "A317905",
+    "A370211",
+    "A372490",
+    "A373387",
+    "A376446",
+    "A376842",
+    "A377124"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

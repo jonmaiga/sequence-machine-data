@@ -1,7 +1,10 @@
 {
   "description": "Triangular numbers t such that t+10 is a prime.",
   "id": "A129755",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A172407"
+  ],
   "tags": [
     "nonn"
   ],

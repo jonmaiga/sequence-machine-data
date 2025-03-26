@@ -1,5 +1,5 @@
 {
-  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AEL = AlPO4-11 [ Al20P20O80 ].",
+  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AEL = AlPO4-11 [Al20P20O80] starting with a T2 atom.",
   "id": "A018946",
   "mentions": [],
   "tags": [

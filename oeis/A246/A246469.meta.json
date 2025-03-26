@@ -1,5 +1,5 @@
 {
-  "description": "Given a number of k digits x = d_(k)*10^(k-1) + d_(k-1)*10^(k-2) + … + d_(2)*10 + d_(1), consider y = p_(1)^d_(k)*p_(2)^d_(k-1)*…*p_(k)^d_(1), where p_(i) is the i-th prime. Sequence lists the numbers x such that y / x is integer.",
+  "description": "Given a number of k digits x = d_(k)*10^(k-1) + d_(k-1)*10^(k-2) + … + d_(2)*10 + d_(1), consider y = p_(1)^d_(k)*p_(2)^d_(k-1)*…*p_(k)^d_(1), where p_(i) is the i-th prime. Sequence lists the numbers x such that y / x is an integer.",
   "id": "A246469",
   "mentions": [
     "A054842",

@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 1/782.",
   "id": "A021786",
-  "mentions": [],
+  "mentions": [
+    "A021483"
+  ],
   "tags": [
     "cons",
+    "easy",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 3*log(phi)/log(1+sqrt(2)).",
   "id": "A221149",
-  "mentions": [],
+  "mentions": [
+    "A171587"
+  ],
   "tags": [
     "cons",
     "nonn"

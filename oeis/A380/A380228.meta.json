@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp( exp( (exp(2*x)-1)/2 ) - 1 ).",
+  "id": "A380228",
+  "mentions": [
+    "A000258",
+    "A346417",
+    "A380229"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

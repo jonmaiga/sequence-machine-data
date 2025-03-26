@@ -1,5 +1,5 @@
 {
-  "description": "First differences of A064572.",
+  "description": "First differences of A064572, where A064572(n) is the number of ways to partition n into parts which are all powers of some integer.",
   "id": "A064575",
   "mentions": [
     "A028422",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 77,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

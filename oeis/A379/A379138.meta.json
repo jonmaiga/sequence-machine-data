@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the first number that is the sum of two palindromic primes in exactly n ways.",
+  "id": "A379138",
+  "mentions": [
+    "A002385",
+    "A377848"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

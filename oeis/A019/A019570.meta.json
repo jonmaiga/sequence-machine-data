@@ -1,5 +1,5 @@
 {
-  "description": "Zeroth row of infinite Latin square.",
+  "description": "Zeroth row of infinite Latin square heading to +oo.",
   "id": "A019570",
   "mentions": [
     "A019585"

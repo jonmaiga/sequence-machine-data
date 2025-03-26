@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( 2 * sinh(x * A(x)) / A(x) ).",
+  "id": "A381412",
+  "mentions": [
+    "A136630",
+    "A381411"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

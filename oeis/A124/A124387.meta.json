@@ -1,13 +1,13 @@
 {
-  "description": "Largest prime < 2*a[n-1] written in binary, a[1]=2.",
+  "description": "Largest prime < 2*a(n-1) written in binary, a(1)=2.",
   "id": "A124387",
   "mentions": [
-    "A006902",
-    "A040016",
-    "A120031",
-    "A120041"
+    "A006992",
+    "A007088",
+    "A126031"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = least integer m >= 2 such that prime(n) is a sum of the form Sum_{k>=0} floor(h/m^k) for some integer h >= 1.",
+  "id": "A381897",
+  "mentions": [
+    "A000040",
+    "A381239"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

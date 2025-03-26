@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = T(3,n), array T given by A047848.",
+  "description": "a(n) = A047848(3,n).",
   "id": "A047851",
   "mentions": [
+    "A000351",
     "A047848"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

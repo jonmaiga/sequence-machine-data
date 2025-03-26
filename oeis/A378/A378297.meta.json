@@ -1,0 +1,17 @@
+{
+  "description": "Squarefree semiprimes k that remain squarefree semiprimes for exactly two iterations of the map k -> 2*k+1.",
+  "id": "A378297",
+  "mentions": [
+    "A006881",
+    "A177221"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

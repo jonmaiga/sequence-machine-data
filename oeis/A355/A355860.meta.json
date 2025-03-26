@@ -1,14 +1,16 @@
 {
   "description": "Triangle read by rows: T(n,k) = n*k/(n + k) if n+k divides n*k, otherwise T(n,k) = 0; n >= 1, k >= 1.",
   "id": "A355860",
-  "mentions": [],
+  "mentions": [
+    "A106448"
+  ],
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 78,
-    "source": "joeis"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

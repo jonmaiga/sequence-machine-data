@@ -1,0 +1,15 @@
+{
+  "description": "Number of steps for n to reach 1 under the map x -> x/2 if x is even, x -> 2*x+1 if x is prime or a perfect power, otherwise x -> gpf(x)-1 where gpf(x) = A006530(x).",
+  "id": "A381329",
+  "mentions": [
+    "A006530"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

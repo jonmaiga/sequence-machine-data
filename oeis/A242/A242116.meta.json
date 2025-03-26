@@ -1,5 +1,5 @@
 {
-  "description": "Cullen semiprimes: Semiprimes of the form n*2^n + 1.",
+  "description": "Cullen semiprimes: Semiprimes of the form k*2^k + 1.",
   "id": "A242116",
   "mentions": [
     "A001358",

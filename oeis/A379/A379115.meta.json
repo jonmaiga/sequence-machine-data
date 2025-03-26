@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A328845(n) mod 5, where A328845 is the first Fibonacci based variant of arithmetic derivative.",
+  "id": "A379115",
+  "mentions": [
+    "A010874",
+    "A328845",
+    "A374125",
+    "A374205",
+    "A379116",
+    "A379117"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

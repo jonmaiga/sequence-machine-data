@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n, k) = A249670(A246278(n, k)), read by falling antidiagonals; A249670(n) = A017665(n)*A017666(n), applied to the prime shift array.",
+  "id": "A379500",
+  "mentions": [
+    "A017665",
+    "A017666",
+    "A036690",
+    "A246278",
+    "A249670",
+    "A341605",
+    "A341606",
+    "A355925",
+    "A361468",
+    "A379499"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of achiral combinatorial maps with n edges and genus k, 0 <= k <= floor(n/2).",
+  "id": "A380234",
+  "mentions": [
+    "A006443",
+    "A170947",
+    "A379438",
+    "A379439"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(x*G(x)^3) where G(x) = 1 + x*G(x)^3 is the g.f. of A001764.",
+  "id": "A380512",
+  "mentions": [
+    "A000262",
+    "A001764",
+    "A251568",
+    "A251569",
+    "A380511",
+    "A380516",
+    "A382033"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

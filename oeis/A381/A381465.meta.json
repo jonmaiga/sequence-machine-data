@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes k such that 6*k + 1 is also a semiprime.",
+  "id": "A381465",
+  "mentions": [
+    "A001358",
+    "A007693",
+    "A111153",
+    "A111170"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

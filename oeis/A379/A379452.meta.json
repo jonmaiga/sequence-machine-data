@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions (ordered partitions) of 1 into n distinct reciprocals of positive integers.",
+  "id": "A379452",
+  "mentions": [
+    "A002966",
+    "A002967",
+    "A006585"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

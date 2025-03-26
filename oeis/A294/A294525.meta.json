@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of connected graphs on n nodes with k center nodes.",
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n nodes with k center nodes.",
   "id": "A294525",
   "mentions": [
     "A001349",

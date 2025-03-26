@@ -1,0 +1,20 @@
+{
+  "description": "Number of rectangles in a Fibonacci(n) X Fibonacci(n+1) grid.",
+  "id": "A381503",
+  "mentions": [
+    "A000045",
+    "A033192",
+    "A096948",
+    "A377704"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

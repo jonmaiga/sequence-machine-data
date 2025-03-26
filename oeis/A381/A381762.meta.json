@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that S(k) sets a new record, where S(k) denotes the sum of the reciprocals of odd elements in the Collatz sequence which starts at k.",
+  "id": "A381762",
+  "mentions": [
+    "A127789",
+    "A304174"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

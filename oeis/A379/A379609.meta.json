@@ -1,0 +1,19 @@
+{
+  "description": "Triples (x,y,z) such that T(x)*T(y) = T(z) with 2 <= x <= y, where T(n) is the n-th triangular number, sorted first by values of z, then by values of x.",
+  "id": "A379609",
+  "mentions": [
+    "A000217",
+    "A188630",
+    "A198453",
+    "A225390"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (10^(n + 1) + 10^(n - min{v_2(n), v_5(n)}) + 1)^n, where v_p(n) indicates the p-adic valuation of n.",
+  "id": "A379243",
+  "mentions": [
+    "A000533",
+    "A001597",
+    "A063006",
+    "A121520",
+    "A199691",
+    "A317905",
+    "A372490",
+    "A373387"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

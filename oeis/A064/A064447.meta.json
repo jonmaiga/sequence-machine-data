@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = EulerPhi(n^n).",
+  "description": "a(n) = phi(n^n).",
   "id": "A064447",
   "mentions": [
     "A000005",

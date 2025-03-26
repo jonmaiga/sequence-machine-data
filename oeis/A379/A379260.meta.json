@@ -1,0 +1,21 @@
+{
+  "description": "Index of first appearance of n in sequence A379049.",
+  "id": "A379260",
+  "mentions": [
+    "A005812",
+    "A134022",
+    "A134023",
+    "A140267",
+    "A345128",
+    "A379049"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

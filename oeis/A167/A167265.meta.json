@@ -1,5 +1,5 @@
 {
-  "description": "T(n,m) = Number of ways to partition an nXm grid into 9 connected equal-area regions.",
+  "description": "T(n,m) = Number of ways to partition an n X m grid into 9 connected equal-area regions.",
   "id": "A167265",
   "mentions": [],
   "tags": [

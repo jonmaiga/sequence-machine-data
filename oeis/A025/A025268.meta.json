@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(1)*a(n-1) + a(2)*a(n-2) + ...+ a(n-1)*a(1) for n >= 5.",
+  "description": "a(n) = a(1)*a(n-1) + a(2)*a(n-2) + ...+ a(n-1)*a(1) for n >= 5, with initial values 1,1,1,1.",
   "id": "A025268",
   "mentions": [
     "A000108",

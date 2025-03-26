@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a truncated octahedron.",
+  "id": "A381687",
+  "mentions": [
+    "A000796",
+    "A010469",
+    "A377341",
+    "A377342",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

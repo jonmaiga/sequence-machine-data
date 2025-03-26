@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k > 0 such that n / k contains a digit 1 in its decimal representation.",
+  "id": "A381530",
+  "mentions": [
+    "A317173",
+    "A371706"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

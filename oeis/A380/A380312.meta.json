@@ -1,0 +1,17 @@
+{
+  "description": "Primes not reaching 3 under iterations of p -> gpf(2*p-1).",
+  "id": "A380312",
+  "mentions": [
+    "A006530",
+    "A023583"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

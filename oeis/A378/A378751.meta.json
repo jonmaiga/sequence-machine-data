@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A000203(n) - A048673(n).",
+  "id": "A378751",
+  "mentions": [
+    "A000203",
+    "A048673",
+    "A337378",
+    "A337379",
+    "A377984",
+    "A378747"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

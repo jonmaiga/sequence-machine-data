@@ -1,0 +1,17 @@
+{
+  "description": "Number of extremal rays of the semigroup S_1 arising in studying the \"saturation question\" for the Lie group D_n.",
+  "id": "A382146",
+  "mentions": [
+    "A382140",
+    "A382147"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

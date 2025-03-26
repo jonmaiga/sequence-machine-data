@@ -3,7 +3,9 @@
   "id": "A370482",
   "mentions": [
     "A010051",
-    "A059841"
+    "A014076",
+    "A059841",
+    "A106092"
   ],
   "tags": [
     "easy",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 101,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A098550(n) = n.",
+  "description": "Numbers k such that A098550(k) = k.",
   "id": "A251411",
   "mentions": [
     "A098550",
@@ -7,6 +7,7 @@
     "A251556"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

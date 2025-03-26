@@ -1,5 +1,5 @@
 {
-  "description": "Side of triangle of the sum of pairs of triangular numbers whose sum and difference are triangular.",
+  "description": "A185243(n) is the a(n)-th triangular number.",
   "id": "A185257",
   "mentions": [
     "A000217",

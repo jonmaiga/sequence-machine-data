@@ -1,7 +1,12 @@
 {
   "description": "a(n) = n^5*(n^2 + 1)/2.",
   "id": "A168364",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A000578",
+    "A059977",
+    "A357178"
+  ],
   "tags": [
     "easy",
     "formulas",

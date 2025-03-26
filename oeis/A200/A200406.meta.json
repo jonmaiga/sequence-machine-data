@@ -1,8 +1,9 @@
 {
-  "description": "Number of permutations avoiding the pattern 12-3-4.",
+  "description": "Number of permutations of [n] avoiding the pattern 12-3-4.",
   "id": "A200406",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

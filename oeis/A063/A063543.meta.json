@@ -1,12 +1,14 @@
 {
-  "description": "a(n) = n - product of nonzero digits of n.",
+  "description": "a(n) = n - product of the nonzero digits of n.",
   "id": "A063543",
   "mentions": [
+    "A051801",
     "A063114"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "look",
     "nonn"
   ],

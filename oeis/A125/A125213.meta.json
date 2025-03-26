@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = integers n such that no prime exists of the form abs(k! - 3n - 1), abs(k! - 3n), or abs(k! - 3n + 1).",
+  "description": "Integers m such that no prime exists of the form abs(k! - 3m - 1), abs(k! - 3m), or abs(k! - 3m + 1).",
   "id": "A125213",
   "mentions": [
     "A125162",

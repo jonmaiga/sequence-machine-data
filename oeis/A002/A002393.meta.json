@@ -1,5 +1,5 @@
 {
-  "description": "Weight distribution of [8,4,4] Hamming code.",
+  "description": "Weight distribution of [8,4,4] Hamming code omitting 0 terms.",
   "id": "A002393",
   "mentions": [
     "A002337",

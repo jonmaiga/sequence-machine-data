@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Borwein integral of order 2n+1.",
+  "description": "Numerator of n-th Borwein integral divided by Pi/2.",
   "id": "A068214",
   "mentions": [
     "A068215",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "frac",
+    "nice",
     "nonn"
   ],
   "terms": {

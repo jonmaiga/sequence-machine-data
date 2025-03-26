@@ -1,5 +1,5 @@
 {
-  "description": "Determinant of the matrix a(i,j) = 1 if Abs(i-j)",
+  "description": "Determinant of the matrix a(i,j) = 1 if abs(i-j) < 2 and -1 in the rest.",
   "id": "A174647",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 3,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

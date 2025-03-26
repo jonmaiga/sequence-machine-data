@@ -1,5 +1,5 @@
 {
-  "description": "Number of divisors of n is greater than that of sigma[n].",
+  "description": "Numbers k such that the number of divisors of k is greater than that of sigma(k).",
   "id": "A073804",
   "mentions": [
     "A000005",

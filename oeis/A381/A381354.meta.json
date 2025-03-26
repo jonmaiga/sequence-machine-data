@@ -1,0 +1,13 @@
+{
+  "description": "G.f. satisfies x = Sum_{n>=1} -(-1)^(n mod 3) * x^n * abs(1/A(x)^n), where abs(F(x)) equals the series expansion formed by the unsigned coefficients in F(x).",
+  "id": "A381354",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

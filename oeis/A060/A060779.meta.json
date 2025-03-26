@@ -1,11 +1,12 @@
 {
-  "description": "a(n) = lcm(A000005(n+1), A000005(n)).",
+  "description": "a(n) = lcm(tau(n+1), tau(n)), where tau = A000005.",
   "id": "A060779",
   "mentions": [
     "A000005",
     "A057921"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

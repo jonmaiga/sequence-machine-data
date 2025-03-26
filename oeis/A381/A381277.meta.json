@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(sinh(3*x) / 3).",
+  "id": "A381277",
+  "mentions": [
+    "A003724",
+    "A009229",
+    "A136630"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

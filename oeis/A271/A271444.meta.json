@@ -1,5 +1,5 @@
 {
-  "description": "Smallest of 4 consecutive numbers each divisible by a cube.",
+  "description": "Smallest of 4 consecutive numbers each divisible by a cube greater than one.",
   "id": "A271444",
   "mentions": [
     "A046099",

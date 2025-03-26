@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(2*n+k-1,k) * binomial(2*n+k,n-2*k).",
+  "id": "A379084",
+  "mentions": [
+    "A379022",
+    "A379085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

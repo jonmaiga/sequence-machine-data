@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (sp(n)+sp(n+1)+sp(n+2))/3 is integer, sp(n) = n-th semiprime.",
+  "description": "Numbers m such that (sp(m)+sp(m+1)+sp(m+2))/3 is an integer, where sp(n) = n-th semiprime.",
   "id": "A109406",
   "mentions": [
     "A075541"

@@ -1,0 +1,16 @@
+{
+  "description": "Code for the n-dimensional hypercube graph, encoded as in A076184.",
+  "id": "A382282",
+  "mentions": [
+    "A076184"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

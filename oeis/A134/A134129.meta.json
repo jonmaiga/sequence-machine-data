@@ -1,5 +1,5 @@
 {
-  "description": "Prime partial sums A007504(k+1) such that A007504(k+1)/k is integer.",
+  "description": "Prime partial sums A007504(k+1) such that A007504(k+1)/k is an integer.",
   "id": "A134129",
   "mentions": [
     "A007504",

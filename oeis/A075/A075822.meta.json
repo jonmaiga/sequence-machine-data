@@ -1,15 +1,16 @@
 {
-  "description": "Perfect powers ordered with their last two digits (leading zeros omitted).",
+  "description": "Smallest perfect power for each possible two-digit ending, ordered by their last two digits (leading zeros omitted).",
   "id": "A075822",
   "mentions": [],
   "tags": [
     "base",
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 63,
     "source": "oeis-entry"
   }
 }

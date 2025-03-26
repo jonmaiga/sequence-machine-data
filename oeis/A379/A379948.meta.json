@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k such that k*(tau(k) - 1)/(sigma(k) - k/d) is an integer for at least one divisor d of k.",
+  "id": "A379948",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A027750",
+    "A379945",
+    "A379946",
+    "A379947"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of steps needed to reach a prime when the following map is repeatedly applied to n: if n is even then 2n + int(log(n)) + 1, otherwise 2n - int(log(n)) - 1; or -1 if no prime is ever reached.",
+  "description": "Number of steps needed to reach a prime when the following map is repeatedly applied to n: if n is even then 2n + floor(log(n)) + 1, otherwise 2n - floor(log(n)) - 1; or -1 if no prime is ever reached.",
   "id": "A073756",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 2,
     "size": 90,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

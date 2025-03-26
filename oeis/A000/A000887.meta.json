@@ -1,5 +1,5 @@
 {
-  "description": "Number of switching networks with GL(n,2) acting on the domain and AG(3,2) acting on the range.",
+  "description": "Number of switching networks with S(n,2) acting on the domain and AG(3,2) acting on the range where S(n,k) is the symmetric group acting on k variables.",
   "id": "A000887",
   "mentions": [],
   "tags": [

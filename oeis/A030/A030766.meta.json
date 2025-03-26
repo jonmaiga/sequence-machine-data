@@ -1,8 +1,10 @@
 {
-  "description": "Numbers k such that A030757(k) = 3.",
+  "description": "Numbers k such that A030757(k) = 4.",
   "id": "A030766",
   "mentions": [
-    "A030757"
+    "A030757",
+    "A030764",
+    "A030765"
   ],
   "tags": [
     "nonn"

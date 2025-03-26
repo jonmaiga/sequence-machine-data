@@ -2,8 +2,14 @@
   "description": "Matrix (1,x)-(x,x^2) in Riordan array notation.",
   "id": "A115359",
   "mentions": [
+    "A000217",
+    "A001105",
+    "A010054",
+    "A059841",
+    "A115356",
     "A115360",
-    "A115361"
+    "A115361",
+    "A379480"
   ],
   "tags": [
     "easy",
@@ -14,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 120,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

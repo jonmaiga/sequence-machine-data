@@ -1,5 +1,5 @@
 {
-  "description": "Balanced ternary numbers with more positive trits than negative trits.",
+  "description": "Numbers whose balanced ternary representation has more positive trits than negative trits.",
   "id": "A174659",
   "mentions": [
     "A065363",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

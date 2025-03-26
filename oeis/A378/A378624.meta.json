@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose binary representation interpreted as being base-3 is divisible by 5.",
+  "id": "A378624",
+  "mentions": [
+    "A001969",
+    "A079498"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

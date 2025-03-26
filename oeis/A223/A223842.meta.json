@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6 X n 0..1 arrays with rows and antidiagonals unimodal and columns nondecreasing.",
+  "description": "Number of 6 X n 0..1 arrays with rows, diagonals and antidiagonals unimodal and columns nondecreasing.",
   "id": "A223842",
   "mentions": [
     "A223838"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

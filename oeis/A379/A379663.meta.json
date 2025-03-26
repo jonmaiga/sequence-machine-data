@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the number of integer-sided triangles whose sides are in geometric progression with smallest side n.",
+  "id": "A379663",
+  "mentions": [
+    "A000188",
+    "A000201",
+    "A008833",
+    "A027750",
+    "A046951",
+    "A057918",
+    "A060143",
+    "A366398",
+    "A370599",
+    "A376900",
+    "A379033",
+    "A379340",
+    "A379341",
+    "A379705"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

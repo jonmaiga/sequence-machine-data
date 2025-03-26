@@ -1,0 +1,23 @@
+{
+  "description": "Numbers, when written in binary, that are a proper substring of the concatenation (with repetition) in increasing order of their prime factors, when written in binary.",
+  "id": "A378894",
+  "mentions": [
+    "A027746",
+    "A371641",
+    "A371696",
+    "A371958",
+    "A372046",
+    "A372309",
+    "A376078",
+    "A378893"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

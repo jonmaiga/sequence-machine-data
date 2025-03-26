@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 5^k + 68 is prime.",
+  "id": "A378832",
+  "mentions": [
+    "A089142",
+    "A124621",
+    "A217133"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

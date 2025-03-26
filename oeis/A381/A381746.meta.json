@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of exp( Sum_{k>=1} binomial(10*k-1,2*k) * x^k/k ).",
+  "id": "A381746",
+  "mentions": [
+    "A079489",
+    "A118971",
+    "A381744",
+    "A381745",
+    "A381752"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

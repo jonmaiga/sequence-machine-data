@@ -1,14 +1,17 @@
 {
-  "description": "Palindromic and divisible by 6.",
+  "description": "Palindromes that are divisible by 6.",
   "id": "A045641",
-  "mentions": [],
+  "mentions": [
+    "A002113",
+    "A008588"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
-    "source": "joeis"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

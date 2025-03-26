@@ -1,5 +1,5 @@
 {
-  "description": "Number triangle T(n,k)=2^(n-k)*C(2n,n-k).",
+  "description": "Number triangle T(n,k) = 2^(n-k)*C(2*n,n-k).",
   "id": "A128417",
   "mentions": [
     "A094527",

@@ -1,5 +1,5 @@
 {
-  "description": "Constant congruence speed of the tetration base n (in radix-10) and -1 if n is a multiple of 10.",
+  "description": "Constant congruence speed of the tetration base n (in radix-10), or -1 if n is a multiple of 10.",
   "id": "A373387",
   "mentions": [
     "A000007",

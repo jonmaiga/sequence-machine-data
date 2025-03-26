@@ -2,8 +2,6 @@
   "description": "Number of times 2 appears in the decimal expansion of n.",
   "id": "A316863",
   "mentions": [
-    "A000027",
-    "A001477",
     "A043497",
     "A043498",
     "A043499",

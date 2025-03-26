@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of unlabeled graphs on n vertices with independence number k.",
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled simple graphs on n vertices with independence number k.",
   "id": "A263341",
   "mentions": [
     "A000088",

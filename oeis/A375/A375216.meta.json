@@ -1,0 +1,18 @@
+{
+  "description": "n is the a(n)-th nonnegative integer having its multiset of binary digits.",
+  "id": "A375216",
+  "mentions": [
+    "A073137"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

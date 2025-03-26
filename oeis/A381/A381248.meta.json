@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = least positive integer m such that m*(m+1) has n-2 distinct digits in base n, all distinct from those (base-n digits) of m and m+1.",
+  "id": "A381248",
+  "mentions": [
+    "A381247"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

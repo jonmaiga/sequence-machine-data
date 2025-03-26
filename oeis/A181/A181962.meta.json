@@ -1,11 +1,14 @@
 {
-  "description": "Numbers not expressed in form pi(n)+pi(sqrt(n)) with prime n.",
+  "description": "Numbers not of the form pi(p) + pi(sqrt(p)) for some prime p.",
   "id": "A181962",
   "mentions": [
     "A000040",
-    "A000430"
+    "A000430",
+    "A000720",
+    "A000879"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

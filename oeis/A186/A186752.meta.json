@@ -2,7 +2,9 @@
   "description": "Length of minimum representation of the permutation [n,n-1,...,1] as the product of transpositions (1,2) and left and right rotations (1,2,...,n).",
   "id": "A186752",
   "mentions": [
-    "A186783"
+    "A048200",
+    "A186783",
+    "A378834"
   ],
   "tags": [
     "hard",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

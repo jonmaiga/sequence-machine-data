@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=1..n-1} binomial(n, k)*2^(n-k-1)*(k-1).",
+  "id": "A379745",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

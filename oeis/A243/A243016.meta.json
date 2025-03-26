@@ -1,13 +1,18 @@
 {
   "description": "Number of solutions for k*n/(k+n) = p for integer k > 0 and prime p.",
   "id": "A243016",
-  "mentions": [],
+  "mentions": [
+    "A053185",
+    "A063647",
+    "A077068"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 92,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

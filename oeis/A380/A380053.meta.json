@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. (exp(x) - 1)/cos(x).",
+  "id": "A380053",
+  "mentions": [
+    "A000364",
+    "A002084",
+    "A380054",
+    "A380055",
+    "A380057"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

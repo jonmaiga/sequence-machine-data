@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the value of the Euler totient function when applied to the largest unitary divisor of n that is an exponentially odd number.",
+  "id": "A380165",
+  "mentions": [
+    "A000010",
+    "A000290",
+    "A013662",
+    "A077591",
+    "A268335",
+    "A350389",
+    "A351569",
+    "A365402",
+    "A374456",
+    "A380164"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

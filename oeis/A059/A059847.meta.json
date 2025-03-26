@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=2*p+2n-1, the smallest prime q such that p=[q-(2n-1)]/2 is prime. A special generalization of safe primes: 1 is replaced with 2n-1.",
+  "description": "a(n) = 2*p + 2*n - 1, where p is the least prime such that next_prime(2*p) - 2*p = 2*n - 1.",
   "id": "A059847",
   "mentions": [
     "A005384",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

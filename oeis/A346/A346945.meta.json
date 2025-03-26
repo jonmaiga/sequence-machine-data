@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: log( 1 + log(1 + x)^3 / 3! ).",
+  "description": "Expansion of e.g.f. log( 1 + log(1 + x)^3 / 3! ).",
   "id": "A346945",
   "mentions": [
     "A000399",
@@ -7,7 +7,8 @@
     "A081051",
     "A346944",
     "A346946",
-    "A346947"
+    "A346947",
+    "A346975"
   ],
   "tags": [
     "formulas",

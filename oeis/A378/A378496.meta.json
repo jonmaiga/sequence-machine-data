@@ -1,0 +1,17 @@
+{
+  "description": "Inverse of permutation in A380856.",
+  "id": "A378496",
+  "mentions": [
+    "A001477",
+    "A380856"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

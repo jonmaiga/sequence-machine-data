@@ -1,11 +1,12 @@
 {
-  "description": "Base-100 digital root of n (equivalent to repeatedly adding pairs of decimal digits starting from the least significant pair).",
+  "description": "a(n) = b(n^2) where b(n) = n-99*floor((n-1)/99).",
   "id": "A277342",
   "mentions": [
     "A010888"
   ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {

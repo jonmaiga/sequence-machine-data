@@ -1,0 +1,30 @@
+{
+  "description": "Square array A(n, k) = 2*A246278(n, k) - sigma(A246278(n, k)), read by falling antidiagonals. Deficiency applied to the prime shift array.",
+  "id": "A378979",
+  "mentions": [
+    "A006093",
+    "A033879",
+    "A246278",
+    "A306190",
+    "A324055",
+    "A336835",
+    "A341605",
+    "A341606",
+    "A341607",
+    "A355927",
+    "A372562",
+    "A372563",
+    "A378978",
+    "A378985"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

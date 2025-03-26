@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that the GCD of the x's that satisfy sigma(x)=m is 1.",
+  "description": "Numbers m such that the GCD of the x's that satisfy sigma(x) = m is 1.",
   "id": "A241646",
   "mentions": [
     "A000203",

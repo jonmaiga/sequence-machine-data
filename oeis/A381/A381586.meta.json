@@ -1,0 +1,17 @@
+{
+  "description": "Number of simple graphs on n unlabeled vertices whose degree sequence is consecutive.",
+  "id": "A381586",
+  "mentions": [
+    "A000088",
+    "A005176"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

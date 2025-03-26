@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies x = Sum_{n=-oo..+oo} (A(x) - A(x)^n)^(n+1).",
+  "id": "A379195",
+  "mentions": [
+    "A290003"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,12 @@
 {
   "description": "Number of n X n symmetric 0-1 matrices where rows are sorted lexicographically and row sums are nondecreasing.",
   "id": "A351158",
-  "mentions": [],
+  "mentions": [
+    "A016121",
+    "A351157",
+    "A351287",
+    "A351288"
+  ],
   "tags": [
     "hard",
     "more",

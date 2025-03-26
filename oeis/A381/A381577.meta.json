@@ -1,0 +1,19 @@
+{
+  "description": "Unique sequence of 0's, 1's, and 2's such that for any terms x and y with x < y, the subsequence of x's and y's becomes the Thue-Morse sequence after substitution x -> 0, y -> 1.",
+  "id": "A381577",
+  "mentions": [
+    "A010060",
+    "A053838",
+    "A287150"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

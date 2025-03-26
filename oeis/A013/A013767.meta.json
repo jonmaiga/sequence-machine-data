@@ -2,15 +2,19 @@
   "description": "a(n) = 20^(3*n + 2).",
   "id": "A013767",
   "mentions": [
-    "A009964"
+    "A009964",
+    "A013731",
+    "A013747",
+    "A016789"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

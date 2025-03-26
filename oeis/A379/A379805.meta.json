@@ -1,0 +1,18 @@
+{
+  "description": "Floor of n*(1+sqrt(6))/2.",
+  "id": "A379805",
+  "mentions": [
+    "A000201",
+    "A182760",
+    "A379800",
+    "A379801"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

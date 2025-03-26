@@ -1,0 +1,48 @@
+{
+  "description": "Triangle read by rows where T(n>0,k>0) is the number of integer partitions of n whose section-sum partition ends with k.",
+  "id": "A381438",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A047966",
+    "A047967",
+    "A048767",
+    "A050320",
+    "A051903",
+    "A051904",
+    "A066328",
+    "A089259",
+    "A091602",
+    "A116540",
+    "A116861",
+    "A122111",
+    "A181819",
+    "A212166",
+    "A239455",
+    "A241131",
+    "A270995",
+    "A296119",
+    "A318360",
+    "A318361",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A381431",
+    "A381432",
+    "A381433",
+    "A381434",
+    "A381435",
+    "A381436",
+    "A381437",
+    "A381440"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of a pentagonal icositetrahedron with unit shorter edge length.",
+  "id": "A378823",
+  "mentions": [
+    "A058265",
+    "A377602",
+    "A378824",
+    "A378825",
+    "A378826",
+    "A378827"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

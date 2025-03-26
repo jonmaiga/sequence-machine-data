@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of stamp foldings with stamp #1 first, n stamps and stamp #2 covered by exactly one fold. k = the stamp number before the fold covering stamp #2 divided by 2. See examples.",
+  "id": "A378944",
+  "mentions": [
+    "A000682",
+    "A005316",
+    "A077054",
+    "A301620"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "E.g.f. exp(A006351(x)).",
+  "description": "Expansion of e.g.f. exp(A006351(x)).",
   "id": "A217061",
   "mentions": [
-    "A006351"
+    "A006351",
+    "A379458"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

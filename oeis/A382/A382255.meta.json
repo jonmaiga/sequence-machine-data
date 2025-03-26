@@ -1,0 +1,35 @@
+{
+  "description": "Heinz number of the partition corresponding to run lengths in the bits of n.",
+  "id": "A382255",
+  "mentions": [
+    "A001747",
+    "A001749",
+    "A007088",
+    "A008578",
+    "A011782",
+    "A030017",
+    "A036036",
+    "A080576",
+    "A080577",
+    "A112798",
+    "A129129",
+    "A185974",
+    "A296150",
+    "A334433",
+    "A334434",
+    "A334435",
+    "A334436",
+    "A334438"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of x^n in Hermite polynomial H_{n+4}",
+  "description": "Coefficients of x^n in Hermite polynomial H_{n+4}.",
   "id": "A001816",
   "mentions": [
     "A003472",

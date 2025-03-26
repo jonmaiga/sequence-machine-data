@@ -7,7 +7,8 @@
     "A002262",
     "A060510",
     "A128174",
-    "A177990"
+    "A177990",
+    "A369736"
   ],
   "tags": [
     "easy",
@@ -18,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

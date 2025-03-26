@@ -2,6 +2,7 @@
   "description": "Starting from 1, successively take the smallest \"Choix de Bruxelles\" with factor 3 which is not already in the sequence.",
   "id": "A360703",
   "mentions": [
+    "A307635",
     "A323286",
     "A358708",
     "A360190"

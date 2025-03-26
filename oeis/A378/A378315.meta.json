@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k such that d(phi(k)) = phi(d(k)), where d=A000005 and phi=A000010.",
+  "id": "A378315",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001222",
+    "A033632",
+    "A078148"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

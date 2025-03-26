@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k > 0 such that the factorial base expansion of n starts with that of k.",
+  "id": "A382217",
+  "mentions": [
+    "A000030",
+    "A265334",
+    "A382184",
+    "A382218"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

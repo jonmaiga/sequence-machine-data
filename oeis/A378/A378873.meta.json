@@ -1,0 +1,24 @@
+{
+  "description": "Squarefree part of A378872(n) (the discriminant of the minimal polynomial of a number whose continued fraction expansion has periodic part given by the n-th composition (in standard order)).",
+  "id": "A378873",
+  "mentions": [
+    "A007913",
+    "A066099",
+    "A246904",
+    "A246922",
+    "A259911",
+    "A259912",
+    "A305311",
+    "A378872",
+    "A378874"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

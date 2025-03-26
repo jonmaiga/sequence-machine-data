@@ -1,0 +1,16 @@
+{
+  "description": "G.f. satisfies A(x) such that: -1 = Sum_{n=-oo..+oo} (-1)^n * x^(2*n+1) * (1 + x^n)^(n+1) * A(x)^n.",
+  "id": "A380557",
+  "mentions": [
+    "A356783"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

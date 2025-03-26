@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if there is a digit > 1 in the primorial base expansion of n, and the corresponding radix prime of the least significant such digit is not a prime factor of n, otherwise 0.",
+  "id": "A381033",
+  "mentions": [
+    "A049345",
+    "A381032",
+    "A381034",
+    "A381036"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

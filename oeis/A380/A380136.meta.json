@@ -1,0 +1,16 @@
+{
+  "description": "Positions of high water marks for the numbers of primes between prime(n)^2 and prime(n+1)^2.",
+  "id": "A380136",
+  "mentions": [
+    "A050216",
+    "A380135"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

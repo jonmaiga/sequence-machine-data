@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that the arithmetic mean of their prime factors (counted with multiplicity) is integer, but not prime.",
+  "description": "Numbers such that the arithmetic mean of their prime factors (counted with multiplicity) is an integer, but not a prime.",
   "id": "A134335",
   "mentions": [
     "A000040",

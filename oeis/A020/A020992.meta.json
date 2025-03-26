@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1) + a(n-2) + a(n-3).",
+  "description": "a(n) = a(n-1) + a(n-2) + a(n-3), with a(0) = 0, a(1) = 2, a(2) = 1.",
   "id": "A020992",
   "mentions": [
     "A000032",

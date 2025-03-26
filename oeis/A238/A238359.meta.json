@@ -1,5 +1,5 @@
 {
-  "description": "Number of rooted maps with n edges of genus 9.",
+  "description": "Number of genus-9 rooted maps with n edges.",
   "id": "A238359",
   "mentions": [
     "A000168",
@@ -13,7 +13,8 @@
     "A238357",
     "A238358",
     "A238360",
-    "A238396"
+    "A238396",
+    "A269919"
   ],
   "tags": [
     "nonn"
@@ -21,6 +22,6 @@
   "terms": {
     "offset": 18,
     "size": 10,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

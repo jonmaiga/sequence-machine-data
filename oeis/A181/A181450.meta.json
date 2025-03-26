@@ -1,13 +1,15 @@
 {
-  "description": "Numbers n such that 11 is the largest prime factor of n^2 - 1.",
+  "description": "Numbers k such that 11 is the largest prime factor of k^2 - 1.",
   "id": "A181450",
   "mentions": [
+    "A076605",
     "A175607",
     "A181447",
     "A181449",
     "A181451",
     "A181470",
-    "A181568"
+    "A181568",
+    "A223701"
   ],
   "tags": [
     "fini",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime number greater than n that contains n as a substring of its digits.",
+  "id": "A381606",
+  "mentions": [
+    "A062584",
+    "A064735",
+    "A354114",
+    "A381099"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

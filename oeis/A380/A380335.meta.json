@@ -1,0 +1,15 @@
+{
+  "description": "Minimal number of generators of Gamma_0(n).",
+  "id": "A380335",
+  "mentions": [
+    "A001615"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

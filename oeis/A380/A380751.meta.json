@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any value k, no two sets of one or more indices at which k occurs have the same sum.",
+  "id": "A380751",
+  "mentions": [
+    "A000079",
+    "A380783"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

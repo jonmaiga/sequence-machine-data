@@ -1,7 +1,9 @@
 {
-  "description": "a(n)=n 7's sandwiched between two 1's.",
+  "description": "a(n) = n 7's sandwiched between two 1's.",
   "id": "A205087",
-  "mentions": [],
+  "mentions": [
+    "A002281"
+  ],
   "tags": [
     "base",
     "easy",

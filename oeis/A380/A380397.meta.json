@@ -1,0 +1,25 @@
+{
+  "description": "The number of nonunitary divisors of n that are cubes.",
+  "id": "A380397",
+  "mentions": [
+    "A000578",
+    "A002117",
+    "A013662",
+    "A048105",
+    "A056626",
+    "A061704",
+    "A295884",
+    "A380395",
+    "A380396"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

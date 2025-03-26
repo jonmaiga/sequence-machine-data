@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x / (1 + x*cos(x)) ).",
+  "id": "A381173",
+  "mentions": [
+    "A162653",
+    "A185951",
+    "A381171",
+    "A381174",
+    "A381175",
+    "A381176",
+    "A381181"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

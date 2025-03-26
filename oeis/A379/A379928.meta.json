@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that A379742(m) is a multiple of A027423(m).",
+  "id": "A379928",
+  "mentions": [
+    "A000142",
+    "A000178",
+    "A027423",
+    "A379742"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

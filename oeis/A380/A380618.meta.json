@@ -1,0 +1,18 @@
+{
+  "description": "Number of sensed combinatorial maps with n edges and 2 vertices.",
+  "id": "A380618",
+  "mentions": [
+    "A380237",
+    "A380615",
+    "A380619",
+    "A380620"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

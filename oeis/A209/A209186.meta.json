@@ -1,7 +1,9 @@
 {
   "description": "Admission order to the USA of the n-th state in alphabetical order.",
   "id": "A209186",
-  "mentions": [],
+  "mentions": [
+    "A031214"
+  ],
   "tags": [
     "fini",
     "full",

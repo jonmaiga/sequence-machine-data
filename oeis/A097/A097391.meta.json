@@ -1,13 +1,15 @@
 {
-  "description": "The number of hierarchies with at least one subhierarchy composed of exactly 2 levels and no subhierarchy with more than 2 levels.",
+  "description": "The number of hierarchies of n labeled elements with at least one subhierarchy composed of exactly 2 levels and no subhierarchy with more than 2 levels.",
   "id": "A097391",
   "mentions": [
     "A000041",
     "A034691",
     "A097237",
-    "A097392"
+    "A097392",
+    "A378854"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

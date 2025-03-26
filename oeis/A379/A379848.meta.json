@@ -1,0 +1,14 @@
+{
+  "description": "Number of cyclic edge cuts in the Plummer-Toft graph.",
+  "id": "A379848",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

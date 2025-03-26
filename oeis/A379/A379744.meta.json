@@ -1,0 +1,19 @@
+{
+  "description": "Number of primitive Pythagorean quintuples (a, b, c, d, e) with 0 < a <= b <= c <= d <= e <= 10^n.",
+  "id": "A379744",
+  "mentions": [
+    "A101931",
+    "A157085",
+    "A225207"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

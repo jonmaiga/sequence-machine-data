@@ -2,6 +2,7 @@
   "description": "a(n) = (highest power of 2 dividing n)th integer among those positive integers not occurring in {a(1),a(2),a(3),...,a(n-1)}.",
   "id": "A118319",
   "mentions": [
+    "A000120",
     "A006519",
     "A007814",
     "A045412",

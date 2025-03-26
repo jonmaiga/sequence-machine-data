@@ -2,10 +2,10 @@
   "description": "a(n) = prime(2n-1) + prime(2n).",
   "id": "A100479",
   "mentions": [
-    "A000040",
     "A001043",
     "A031215",
-    "A031368"
+    "A031368",
+    "A092163"
   ],
   "tags": [
     "formulas",

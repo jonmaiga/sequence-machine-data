@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least prime of the form p^2 + n*q^2 where p and q are primes, or -1 if there are none.",
+  "id": "A378964",
+  "mentions": [
+    "A111199"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

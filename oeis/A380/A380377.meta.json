@@ -1,0 +1,22 @@
+{
+  "description": "Minimum number of total votes needed for one party to win if there are n voters divided into balanced districts, i.e., the numbers of voters in two districts may differ by at most 1.",
+  "id": "A380377",
+  "mentions": [
+    "A341721",
+    "A380378",
+    "A380379",
+    "A380380",
+    "A380381",
+    "A380382",
+    "A380383"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

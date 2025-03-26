@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n,k) (n >= 1, 1 <= k <= n) is the number of compositions of n into k parts the first of which is >= all the other parts.",
   "id": "A184957",
   "mentions": [
+    "A079500",
     "A156040",
     "A156041",
     "A186807"

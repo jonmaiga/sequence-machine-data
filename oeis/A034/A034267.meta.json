@@ -1,15 +1,16 @@
 {
-  "description": "a(n)=f(n,n) where f is given in A034261.",
+  "description": "a(n) = f(n,n) where f is given in A034261.",
   "id": "A034267",
   "mentions": [
     "A034261"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 24,
+    "offset": 0,
+    "size": 25,
     "source": "joeis"
   }
 }

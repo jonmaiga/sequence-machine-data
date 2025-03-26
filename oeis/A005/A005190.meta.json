@@ -2,13 +2,9 @@
   "description": "Central quadrinomial coefficients: largest coefficient of (1 + x + x^2 + x^3)^n.",
   "id": "A005190",
   "mentions": [
-    "A001405",
-    "A002426",
-    "A005191",
-    "A018901",
-    "A025012",
-    "A025013",
-    "A025014"
+    "A005721",
+    "A005723",
+    "A077042"
   ],
   "tags": [
     "easy",

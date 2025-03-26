@@ -1,14 +1,16 @@
 {
   "description": "Number of \"funny trees\" on n nodes.",
   "id": "A322752",
-  "mentions": [],
+  "mentions": [
+    "A277996",
+    "A322059"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

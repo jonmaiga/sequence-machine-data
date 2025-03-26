@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..A379213(n), read by rows; the n-th row lists the nonnegative integers m such that A184615(m) = A003714(n).",
+  "id": "A379261",
+  "mentions": [
+    "A003714",
+    "A184615",
+    "A379213",
+    "A379262"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "v(n)/A000178(n); v=A203527 and A000178=(superfactorials).",
+  "description": "a(n) = A203527(n)/A000178(n-1); A000178 = (superfactorials).",
   "id": "A203529",
   "mentions": [
     "A000178",

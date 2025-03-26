@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of integers (positive or negative) v that appears in the set {A377091(k), k = 0..n} without -v appearing in it.",
+  "id": "A379850",
+  "mentions": [
+    "A377091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

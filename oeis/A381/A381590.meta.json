@@ -1,0 +1,17 @@
+{
+  "description": "Primes with primitive root -100.",
+  "id": "A381590",
+  "mentions": [
+    "A006883",
+    "A097443"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

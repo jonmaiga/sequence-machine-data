@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: A(x) = x + x*A(A(3x)).",
+  "description": "G.f.: A(x) satisfies A(x) = x + x*A(A(3*x)).",
   "id": "A171213",
   "mentions": [
     "A171212",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 12,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

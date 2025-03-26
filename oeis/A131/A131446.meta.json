@@ -2,6 +2,7 @@
   "description": "Denominators of n-th approximation of factorial (also called harmonic) expansion of Pi.",
   "id": "A131446",
   "mentions": [
+    "A000796",
     "A075874",
     "A131445"
   ],

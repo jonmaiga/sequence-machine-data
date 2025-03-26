@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled histories for rooted 5-furcating trees with 4n+1 leaves if simultaneous 5-furcations are not allowed.",
+  "id": "A381866",
+  "mentions": [
+    "A006472",
+    "A007696",
+    "A339411",
+    "A381533",
+    "A381536"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

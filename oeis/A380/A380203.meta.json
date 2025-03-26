@@ -1,0 +1,15 @@
+{
+  "description": "With given points 0,1 on the x-axis, a(n) is the number of ways to construct n with m circles where 2^(m-1)",
+  "id": "A380203",
+  "mentions": [
+    "A379972"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

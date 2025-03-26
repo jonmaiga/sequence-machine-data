@@ -1,0 +1,16 @@
+{
+  "description": "Number of integer triples i <= j <= k such that a non-degenerate triangle with sides (i, j, k) fits inside an equilateral triangle with sides (n, n, n), possibly touching its boundary from inside.",
+  "id": "A381100",
+  "mentions": [
+    "A331250"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

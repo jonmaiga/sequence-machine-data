@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x * cos(3*x)).",
+  "id": "A381283",
+  "mentions": [
+    "A185951",
+    "A352252",
+    "A381282"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

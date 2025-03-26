@@ -32,12 +32,12 @@
     "A374765"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

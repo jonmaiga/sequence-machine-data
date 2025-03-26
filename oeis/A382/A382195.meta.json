@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the code (in the encoding given by A076184) of the square of the graph with code A076184(n).",
+  "id": "A382195",
+  "mentions": [
+    "A002494",
+    "A076184",
+    "A382194"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

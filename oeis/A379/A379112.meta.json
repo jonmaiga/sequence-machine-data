@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the number of prime factors (with multiplicity) of sigma(k) is equal to the number of distinct prime factors of k.",
+  "id": "A379112",
+  "mentions": [
+    "A000203",
+    "A001221",
+    "A001222",
+    "A023194",
+    "A028982",
+    "A058063",
+    "A336359",
+    "A336547",
+    "A379111"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "2 * A158034 + 1, prime numbers p for which f = (2^p - 2^((p - 1) / 2 + 1) + 4p^2 - 8p) / (2p^2 - 2p) is an integer.",
+  "description": "a(n) = 2*A158034(n) + 1, prime numbers p for which f = (2^p - 2^((p - 1) / 2 + 1) + 4p^2 - 8p) / (2p^2 - 2p) is an integer.",
   "id": "A158035",
   "mentions": [
     "A002515",

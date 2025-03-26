@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1. For n > 1 a(n) is the number of terms a(i); 1 <= i <= n-1 such that d(a(i)) >= d(a(n-1)), where d is the decimal digital sum function A007953.",
+  "id": "A378852",
+  "mentions": [
+    "A007953",
+    "A356348",
+    "A378293",
+    "A378782"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

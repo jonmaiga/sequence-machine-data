@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m = sum_(k=1...n) sigma(k) / k such that sum_(k=1...n) sigma(k) / k is integer for any k.",
+  "description": "Numbers m = Sum_{k=1..n} sigma(k)/k such that Sum_{k=1..n} sigma(k)/k is an integer for any k.",
   "id": "A168132",
   "mentions": [
     "A024916",
@@ -7,6 +7,7 @@
     "A168133"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

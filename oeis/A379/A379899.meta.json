@@ -1,0 +1,27 @@
+{
+  "description": "a(1) = 2. For n > 1, a(n) = smallest prime factor of c=a(n-1)+4 that is not in {a(1), ..., a(n-1)}; if all prime factors of c are in {a(1), ..., a(n-1)}, then we try the next value of c, which is c+4; and so on.",
+  "id": "A379899",
+  "mentions": [
+    "A031439",
+    "A072268",
+    "A131200",
+    "A174162",
+    "A379648",
+    "A379652",
+    "A379775",
+    "A379776",
+    "A379783",
+    "A379784",
+    "A379900",
+    "A380075",
+    "A380076"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

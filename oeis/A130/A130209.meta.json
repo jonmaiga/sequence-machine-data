@@ -1,5 +1,5 @@
 {
-  "description": "Diagonalized matrix of d(n), A000005.",
+  "description": "Diagonalized matrix of d(n), A000005, number of divisors of n.",
   "id": "A130209",
   "mentions": [
     "A000005",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 93,
-    "source": "joeis"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

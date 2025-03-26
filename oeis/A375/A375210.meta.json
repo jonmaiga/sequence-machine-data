@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest k >= 1 such that i^2 + k is not divisible by any of the first n odd primes, for any integer i.",
+  "id": "A375210",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A002522",
+    "A065091"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

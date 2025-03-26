@@ -1,0 +1,17 @@
+{
+  "description": "Number of achiral planar maps with n vertices and 2 faces.",
+  "id": "A380238",
+  "mentions": [
+    "A379431",
+    "A380237",
+    "A380239"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

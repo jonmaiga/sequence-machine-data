@@ -1,0 +1,21 @@
+{
+  "description": "Georges Pfeffermann's 1890 bimagic square of order 8, read by rows.",
+  "id": "A381001",
+  "mentions": [
+    "A052457",
+    "A111155",
+    "A380966",
+    "A381002"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

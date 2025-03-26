@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers whose factorial base expansion, when read from right to left, corresponds to the ordinal transform of some finite sequence, with offset 0.",
+  "id": "A382262",
+  "mentions": [
+    "A000085",
+    "A120696",
+    "A382263"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

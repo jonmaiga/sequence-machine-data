@@ -1,7 +1,10 @@
 {
-  "description": "E.g.f.: Sum_{n>=0} (n+1)^(n-1) * sinh(x)^n / n!.",
+  "description": "Expansion of e.g.f. Sum_{n>=0} (n+1)^(n-1) * sinh(x)^n / n!.",
   "id": "A219503",
   "mentions": [
+    "A003724",
+    "A136630",
+    "A162650",
     "A238085"
   ],
   "tags": [

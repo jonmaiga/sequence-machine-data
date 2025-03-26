@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a regular tetrahedron.",
+  "id": "A381671",
+  "mentions": [
+    "A002194",
+    "A019673",
+    "A073010",
+    "A273633",
+    "A374772",
+    "A381672"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

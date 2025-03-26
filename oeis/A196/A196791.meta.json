@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = T(9,n), array T given by A047848.",
+  "description": "a(n) = A047848(9, n).",
   "id": "A196791",
   "mentions": [
     "A001021",

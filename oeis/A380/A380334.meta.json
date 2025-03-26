@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the smallest possible average gap for the prime number subsequence P\" = A262275.",
+  "id": "A380334",
+  "mentions": [
+    "A262275",
+    "A338460"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

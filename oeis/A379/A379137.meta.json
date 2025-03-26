@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that a nonzero proper substring of the concatenation, in decreasing order, of the prime factors of k (without multiplicity) is divisible by k.",
+  "id": "A379137",
+  "mentions": [
+    "A055558",
+    "A085307",
+    "A378950"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

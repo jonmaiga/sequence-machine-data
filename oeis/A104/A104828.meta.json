@@ -1,5 +1,5 @@
 {
-  "description": "Primes from merging of 8 successive digits in decimal expansion of Pi.",
+  "description": "Primes from merging of 8 successive digits in decimal expansion of Pi allowing leading zeros.",
   "id": "A104828",
   "mentions": [
     "A104819",

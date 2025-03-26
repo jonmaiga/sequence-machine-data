@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0, a(n) = 0 where a(n-1) is nonzero and divisible by n. Otherwise a(n) = n + a(n-1).",
+  "id": "A378505",
+  "mentions": [
+    "A068627",
+    "A379013"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

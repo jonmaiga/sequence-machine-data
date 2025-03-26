@@ -1,0 +1,15 @@
+{
+  "description": "a(1)=1, a(2)=2, then when n is a Fibonacci number F(k+1), the next F(k) terms are the first F(k) terms increased by a(n) and put in reverse order.",
+  "id": "A378785",
+  "mentions": [
+    "A378784"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

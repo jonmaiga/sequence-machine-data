@@ -1,0 +1,18 @@
+{
+  "description": "Array read by diagonals downwards: A(n,k) for n>=2 and k>=0 is the number of (n,k)-polyominoes counting as distinct different formations of transparent squares.",
+  "id": "A381057",
+  "mentions": [
+    "A000105",
+    "A005418",
+    "A381030"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

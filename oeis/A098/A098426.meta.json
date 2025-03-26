@@ -2,7 +2,8 @@
   "description": "a(n)=(1/2)*sum(i=0,n,rad(binomial(n,i))) where rad(k)=A007947(k).",
   "id": "A098426",
   "mentions": [
-    "A007947"
+    "A007947",
+    "A080396"
   ],
   "tags": [
     "nonn"

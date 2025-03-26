@@ -2,9 +2,12 @@
   "description": "Signature sequence of 1/phi = phi-1 = (sqrt(5)-1)/2 = 0.61803...",
   "id": "A084532",
   "mentions": [
-    "A084531"
+    "A054347",
+    "A084531",
+    "A255977"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

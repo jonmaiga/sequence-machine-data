@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of ways to choose a k-dimensional subspace U of an n-dimensional vector space over GL(2) and then choose a subspace of U.",
+  "description": "Triangle read by rows: T(n,k) is the number of ways to choose a k-dimensional subspace U of an n-dimensional vector space over GF(2) and then choose a subspace of U.",
   "id": "A302595",
   "mentions": [
     "A005329"

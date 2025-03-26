@@ -1,14 +1,19 @@
 {
   "description": "Number of even parts in the partitions of n into 3 parts.",
   "id": "A309513",
-  "mentions": [],
+  "mentions": [
+    "A069905",
+    "A128012",
+    "A309511"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

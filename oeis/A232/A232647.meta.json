@@ -1,10 +1,11 @@
 {
-  "description": "Number of (n+2)X(n+2) 0..1 arrays x(i,j) with every row sum{j*x(i,j), j=1..n+2} equal, and every column sum{i*x(i,j), i=1..n+2} equal, with upper left element zero",
+  "description": "Number of (n+2) X (n+2) 0..1 arrays x(i,j) with Sum_{j=1..n+2} j*x(i,j) equal for every row, Sum{i=1..n+2} i*x(i,j) equal for every column, and upper left element zero.",
   "id": "A232647",
   "mentions": [
     "A232654"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

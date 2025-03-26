@@ -1,15 +1,17 @@
 {
-  "description": "Consider Pascal's triangle A007318; a(n) = sum of the smallest divisors of terms of the n-th row which are greater than 1.",
+  "description": "a(n) = Sum_{k=0..n} lpf(binomial(n, k)), where lpf(m) is the least prime factor of m.",
   "id": "A073616",
   "mentions": [
-    "A007318"
+    "A007318",
+    "A020639"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

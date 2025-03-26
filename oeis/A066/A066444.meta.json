@@ -1,13 +1,15 @@
 {
   "description": "a(n) = 11^n mod n^11.",
   "id": "A066444",
-  "mentions": [],
+  "mentions": [
+    "A066606"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 23,
     "source": "joeis"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "description": "Number of fixed site animals with n nodes on the nodes of the kisrhombille tiling.",
+  "id": "A379178",
+  "mentions": [
+    "A001168",
+    "A001207",
+    "A001420",
+    "A196991",
+    "A196992",
+    "A196993",
+    "A197158",
+    "A197160",
+    "A197461",
+    "A197464",
+    "A197467"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

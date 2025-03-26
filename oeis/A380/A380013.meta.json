@@ -1,0 +1,17 @@
+{
+  "description": "Continued fraction expansion of Sum_{i>=0} (-1)^i/(q(i)*q(i+1)) where q(0)=q(1)=1, q(2n+2)=q(2n+1)+q(2n), and q(2n+3)=q(2n+1)*(q(2n+2)+1).",
+  "id": "A380013",
+  "mentions": [
+    "A006280",
+    "A019426"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

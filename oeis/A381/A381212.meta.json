@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest element of the set of bases and exponents (including exponents = 1) in the prime factorization of n.",
+  "id": "A381212",
+  "mentions": [
+    "A001694",
+    "A051647",
+    "A081812",
+    "A288636",
+    "A331048",
+    "A381201",
+    "A381202",
+    "A381203",
+    "A381204",
+    "A381205",
+    "A381214"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

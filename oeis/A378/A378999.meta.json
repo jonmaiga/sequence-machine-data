@@ -1,0 +1,20 @@
+{
+  "description": "Number of trailing 1-bits in the binary representation of sigma(n^2).",
+  "id": "A378999",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A007814",
+    "A065764",
+    "A378998"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

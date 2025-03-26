@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( (1 + x * A(x)^9) / (1 - x) )^(1/2).",
+  "id": "A378957",
+  "mentions": [
+    "A000108",
+    "A219537",
+    "A366402",
+    "A370473"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

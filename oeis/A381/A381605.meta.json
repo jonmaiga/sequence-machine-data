@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of n^3+1.",
+  "id": "A381605",
+  "mentions": [
+    "A001093",
+    "A001221",
+    "A128428",
+    "A366580"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "a(0)=0; for n>0, a(n) = a(n-1)^2 + 10.",
   "id": "A092500",
-  "mentions": [],
+  "mentions": [
+    "A000058"
+  ],
   "tags": [
     "formulas",
     "nonn"

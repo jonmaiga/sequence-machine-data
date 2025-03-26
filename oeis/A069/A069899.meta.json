@@ -1,8 +1,12 @@
 {
-  "description": "Integer quotient of largest and smallest prime factors of n is 1.",
+  "description": "Numbers k such that the integer quotient of largest and smallest prime factors of k is 1.",
   "id": "A069899",
   "mentions": [
-    "A069897"
+    "A006530",
+    "A020639",
+    "A069897",
+    "A069900",
+    "A081306"
   ],
   "tags": [
     "formulas",
@@ -11,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

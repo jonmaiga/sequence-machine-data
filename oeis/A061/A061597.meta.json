@@ -1,7 +1,10 @@
 {
-  "description": "Product of digits + 1 is prime, product of digits - 1 is prime, sum of digits + 1 is prime, sum of digits - 1 is prime and product of digits = sum of digits.",
+  "description": "Numbers whose sum of digits s equals its product of digits and s + 1 and s - 1 are both prime.",
   "id": "A061597",
-  "mentions": [],
+  "mentions": [
+    "A034710",
+    "A061596"
+  ],
   "tags": [
     "base",
     "nonn"

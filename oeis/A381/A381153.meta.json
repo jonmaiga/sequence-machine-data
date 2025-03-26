@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a regular heptagon.",
+  "id": "A381153",
+  "mentions": [
+    "A003881",
+    "A073010",
+    "A093766",
+    "A178817",
+    "A196522",
+    "A343058",
+    "A381152",
+    "A381154",
+    "A381155",
+    "A381156",
+    "A381157"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

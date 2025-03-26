@@ -1,7 +1,9 @@
 {
   "description": "Smallest multiple of n which uses no digits of n, or 0 if no such number exists.",
   "id": "A074157",
-  "mentions": [],
+  "mentions": [
+    "A052983"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

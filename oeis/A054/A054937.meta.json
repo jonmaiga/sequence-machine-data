@@ -1,9 +1,10 @@
 {
-  "description": "Number of chiral planar maps on n nodes up to orientation-preserving isomorphisms.",
+  "description": "Number of chiral pairs of planar maps with n edges.",
   "id": "A054937",
   "mentions": [
+    "A006384",
     "A006385",
-    "A054936"
+    "A006443"
   ],
   "tags": [
     "easy",
@@ -11,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 17,
+    "offset": 0,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

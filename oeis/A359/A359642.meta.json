@@ -8,12 +8,11 @@
     "A215218"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

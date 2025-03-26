@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of sorted rationals r(n) of the form k/d, where d=(i+1)^m, 1 <= m < bigomega(k), bigomega(k) == 0 (mod i), bigomega(d) == 0 (mod i) and gcd(k, prime(j)) = 1 for all j <= i.",
+  "id": "A374604",
+  "mentions": [
+    "A001222",
+    "A002410",
+    "A374074",
+    "A374603"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

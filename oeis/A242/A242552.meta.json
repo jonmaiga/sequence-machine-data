@@ -1,5 +1,5 @@
 {
-  "description": "Least number k such that n^4+k^4 is prime.",
+  "description": "Least number k such that n^4 + k^4 is prime.",
   "id": "A242552",
   "mentions": [
     "A000068",

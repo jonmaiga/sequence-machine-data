@@ -1,5 +1,5 @@
 {
-  "description": "Number of 8-step one or two space at a time bishop's tours on an n X n board summed over all starting positions",
+  "description": "Number of 8-step one or two space at a time bishop's tours on an n X n board summed over all starting positions.",
   "id": "A187052",
   "mentions": [
     "A187046"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

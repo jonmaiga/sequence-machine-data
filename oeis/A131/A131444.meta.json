@@ -1,7 +1,8 @@
 {
-  "description": "Denominators of n-th approximation of factorial (also called harmonic) expansion of the golden section phi:=(1+sqrt(5))/2.",
+  "description": "Denominators of n-th approximation of factorial (also called harmonic) expansion of the golden ratio phi (A001622).",
   "id": "A131444",
   "mentions": [
+    "A001622",
     "A068451",
     "A131443"
   ],

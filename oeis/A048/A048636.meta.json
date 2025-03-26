@@ -2,7 +2,10 @@
   "description": "Primes of the form prime^3 + 2.",
   "id": "A048636",
   "mentions": [
-    "A048637"
+    "A048637",
+    "A092402",
+    "A188764",
+    "A321891"
   ],
   "tags": [
     "easy",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

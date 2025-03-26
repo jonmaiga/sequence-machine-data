@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1, a(2)=2; thereafter, a(n) is the final value at the bottom of the difference triangle of the sequence thus far.",
+  "id": "A379781",
+  "mentions": [
+    "A010739",
+    "A014182"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

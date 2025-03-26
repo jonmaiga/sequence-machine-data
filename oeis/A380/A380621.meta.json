@@ -1,0 +1,18 @@
+{
+  "description": "Number of unsensed combinatorial maps with n edges and 3 vertices.",
+  "id": "A380621",
+  "mentions": [
+    "A380616",
+    "A380619",
+    "A380620"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

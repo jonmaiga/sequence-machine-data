@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..ceiling(2^(A007895(n)-1)); the n-th row lists the nonnegative integers m such that A184617(m) = A003714(n).",
+  "id": "A379175",
+  "mentions": [
+    "A003714",
+    "A007895",
+    "A184617",
+    "A368225",
+    "A379147",
+    "A379176"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

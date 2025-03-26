@@ -1,9 +1,10 @@
 {
-  "description": "Abundance values which are +1 or -1 times a prime.",
+  "description": "Abundance values of numbers whose abundance is (+-1) times a prime.",
   "id": "A088006",
   "mentions": [
     "A000040",
     "A000203",
+    "A033880",
     "A077374",
     "A087998",
     "A088005"
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

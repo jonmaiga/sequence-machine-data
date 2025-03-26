@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that decrease three times in succession when they are iteratively replaced by the \"Look and Say\" description (cf. A045918) of their prime factors, counted with multiplicity.",
+  "id": "A379454",
+  "mentions": [
+    "A005150",
+    "A045918",
+    "A367974",
+    "A369092",
+    "A369132",
+    "A379453",
+    "A379455"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

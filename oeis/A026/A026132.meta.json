@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = T(2n,n), where T is the array in A026120.",
+  "description": "a(n) = A026120(2n,n+1).",
   "id": "A026132",
   "mentions": [
     "A026120",

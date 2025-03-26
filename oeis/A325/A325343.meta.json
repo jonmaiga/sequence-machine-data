@@ -3,17 +3,19 @@
   "id": "A325343",
   "mentions": [
     "A000041",
+    "A003106",
+    "A064173",
     "A325340",
     "A325341",
     "A325342"
   ],
   "tags": [
-    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

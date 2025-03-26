@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, the factorial base expansion of n*a(n) only contains distinct nonzero digits.",
+  "id": "A381967",
+  "mentions": [
+    "A265349"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

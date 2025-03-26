@@ -1,0 +1,15 @@
+{
+  "description": "Antidiagonal sums of A380747.",
+  "id": "A380748",
+  "mentions": [
+    "A380747"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

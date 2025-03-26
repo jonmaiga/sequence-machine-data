@@ -1,11 +1,11 @@
 {
-  "description": "Remainder of division Sigma[n]/PrimePi[n] equals zero.",
+  "description": "Numbers k such that PrimePi(k) divides sigma(k).",
   "id": "A073721",
   "mentions": [
     "A000203",
     "A000720",
     "A073722",
-    "A073724"
+    "A073723"
   ],
   "tags": [
     "formulas",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

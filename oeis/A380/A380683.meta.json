@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies 5*x = Sum_{n=-oo..+oo} (-1)^n * x^(5*n) * (A(x) + x^n)^(5*n) with A(0) = 1.",
+  "id": "A380683",
+  "mentions": [
+    "A380681",
+    "A380682",
+    "A380684",
+    "A380685",
+    "A380686"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to choose a simple labeled graph on [n] and properly color the vertices using the minimum number of colors.",
+  "id": "A380197",
+  "mentions": [
+    "A006125",
+    "A084268",
+    "A229048",
+    "A372920"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

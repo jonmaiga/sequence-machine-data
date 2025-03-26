@@ -1,8 +1,11 @@
 {
-  "description": "Integer quotient of largest and smallest prime factors of n is greater than one.",
+  "description": "Numbers k such that the integer quotient of largest and smallest prime factors of k is greater than one.",
   "id": "A069900",
   "mentions": [
+    "A006530",
+    "A020639",
     "A069897",
+    "A069899",
     "A081303",
     "A081306"
   ],

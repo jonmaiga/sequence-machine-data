@@ -1,0 +1,16 @@
+{
+  "description": "Least modulus k such that the multiplicative group modulo k has a difference of n nontrivial cycles between its minimal and maximal representation.",
+  "id": "A379424",
+  "mentions": [
+    "A102476",
+    "A379423"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

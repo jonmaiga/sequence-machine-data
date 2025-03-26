@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors (with repetition) in Product_{d|n} A276086(n/d)^A349394(d).",
+  "id": "A380479",
+  "mentions": [
+    "A001222",
+    "A049345",
+    "A276086",
+    "A276150",
+    "A349394",
+    "A380459",
+    "A380480"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

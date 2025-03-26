@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Integral_{x=1..A070769} li(x) dx (negated), where li(x) is the logarithmic integral.",
+  "id": "A380270",
+  "mentions": [
+    "A069284",
+    "A070769",
+    "A084945",
+    "A091723",
+    "A244067",
+    "A257817",
+    "A257818",
+    "A257819",
+    "A257820",
+    "A257821",
+    "A270857"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

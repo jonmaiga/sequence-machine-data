@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least number k whose digit sums are 2*n-1, 2*n and 2*n+1 in bases 2*n-1, 2*n and 2*n+1 respectively.",
+  "id": "A379896",
+  "mentions": [
+    "A379749"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

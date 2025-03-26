@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array pos(i,j,1,2)) read by descending antidiagonals: pos( ) and neg() denote the positive part and negative part of a determinant; see Comments.",
+  "id": "A380660",
+  "mentions": [
+    "A000027",
+    "A144112",
+    "A185787",
+    "A380649",
+    "A380661"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

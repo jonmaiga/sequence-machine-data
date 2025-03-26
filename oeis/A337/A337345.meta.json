@@ -1,14 +1,22 @@
 {
-  "description": "Number of divisors d of n for which A003961(d) > 2*d.",
+  "description": "Number of divisors d of n for which A003961(d) > 2*d, where A003961 is fully multiplicative with a(p) = nextprime(p).",
   "id": "A337345",
   "mentions": [
     "A003961",
     "A048673",
     "A080224",
+    "A091191",
     "A246282",
     "A252742",
     "A337346",
-    "A337372"
+    "A337372",
+    "A337541",
+    "A341609",
+    "A341610",
+    "A341620",
+    "A378658",
+    "A378662",
+    "A378663"
   ],
   "tags": [
     "formulas",

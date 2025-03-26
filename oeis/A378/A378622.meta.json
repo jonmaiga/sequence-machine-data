@@ -1,0 +1,42 @@
+{
+  "description": "Array read by antidiagonals downward where A(n,k) is the n-th term of the k-th differences of the strict partition numbers A000009.",
+  "id": "A378622",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A008284",
+    "A047966",
+    "A053445",
+    "A087897",
+    "A095195",
+    "A098859",
+    "A116608",
+    "A175804",
+    "A225485",
+    "A225486",
+    "A293467",
+    "A325242",
+    "A325244",
+    "A325280",
+    "A325282",
+    "A376682",
+    "A377033",
+    "A377038",
+    "A377046",
+    "A377051",
+    "A377285",
+    "A378970",
+    "A378971",
+    "A378972"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

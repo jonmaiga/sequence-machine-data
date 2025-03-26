@@ -6,12 +6,12 @@
     "A130131"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Powerful numbers whose number of divisors is divisible by their number of unitary divisors.",
+  "id": "A382062",
+  "mentions": [
+    "A000005",
+    "A001694",
+    "A034444",
+    "A382061",
+    "A382064"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Square array read by antidiagonals: T(m,n) = H(n,m2)*(2m)!/(2m+2n-1). H(0,m) = 1/m, for all positive integers m. H(n,m) = sum{k=1 to m} H(n-1,k).",
+  "description": "Square array read by antidiagonals: T(m,n) = H(n,2*m)*(2*m)!/(2*m+2*n-1). H(0,m) = 1/m, for all positive integers m. H(n,m) = Sum_{k=1..m} H(n-1,k).",
   "id": "A136205",
   "mentions": [
     "A010050",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+1 and n+2 all have primitive roots.",
+  "description": "Numbers m such that m, m+1 and m+2 all have primitive roots.",
   "id": "A305237",
   "mentions": [
     "A003306",
@@ -8,16 +8,15 @@
     "A028491",
     "A033948",
     "A051783",
-    "A171381"
+    "A171381",
+    "A319450"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 10,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

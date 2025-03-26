@@ -1,5 +1,5 @@
 {
-  "description": "A simple context-free grammar in a labeled universe.",
+  "description": "Expansion of e.g.f. 1/2-1/2*(1-4*x-4*x^2)^(1/2).",
   "id": "A052727",
   "mentions": [
     "A025227"

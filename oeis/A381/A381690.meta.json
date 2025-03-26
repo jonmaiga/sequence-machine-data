@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a snub cube (snub cuboctahedron).",
+  "id": "A381690",
+  "mentions": [
+    "A000796",
+    "A010502",
+    "A377602",
+    "A377603",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

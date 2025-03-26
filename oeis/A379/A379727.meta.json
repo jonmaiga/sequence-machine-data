@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1. For n > 1, a(n) = smallest prime factor of c=2*a(n-1)+1 that is not in {a(1), ..., a(n-1)}; if all prime factors of c are in {a(1), ..., a(n-1)}, then we try the next value of c, which is 2*c+1; and so on.",
+  "id": "A379727",
+  "mentions": [
+    "A379649",
+    "A379652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

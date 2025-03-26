@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n 5's sandwiched between two 1's.",
   "id": "A205085",
-  "mentions": [],
+  "mentions": [
+    "A002279"
+  ],
   "tags": [
     "base",
     "easy",
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of graphs on n unlabeled nodes with upper domination number k.",
+  "description": "Triangle read by rows: T(n,k) is the number of simple graphs on n unlabeled nodes with upper domination number k.",
   "id": "A332403",
   "mentions": [
     "A000088",

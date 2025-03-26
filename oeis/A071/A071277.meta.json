@@ -1,11 +1,13 @@
 {
-  "description": "a(1) = 1; a(n) = smallest palindrome which is a nontrivial multiple of n palindromes (repetitions allowed).",
+  "description": "a(1) = 1; a(n) = smallest palindrome which is a nontrivial product of n palindromes (repetitions allowed).",
   "id": "A071277",
   "mentions": [
-    "A071276"
+    "A071276",
+    "A378140"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

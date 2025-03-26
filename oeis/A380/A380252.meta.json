@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of labeled acyclic digraphs on n vertices with exactly k weakly connected components, n>=0, 0<=k<=n.",
+  "id": "A380252",
+  "mentions": [
+    "A000007",
+    "A003024",
+    "A082402",
+    "A082403"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

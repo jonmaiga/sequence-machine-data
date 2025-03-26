@@ -1,5 +1,5 @@
 {
-  "description": "Largest number m such that n^m divides tau(n), where tau(n)=A000594(n) is Ramanujan's tau function.",
+  "description": "Largest number m such that n^m divides tau(n), where tau(n) = A000594(n) is Ramanujan's tau function.",
   "id": "A296992",
   "mentions": [
     "A000594",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 2,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,15 +2,22 @@
   "description": "Number of distinct structures that can be made from n cubes without overhangs.",
   "id": "A331621",
   "mentions": [
-    "A000105"
+    "A000105",
+    "A006749",
+    "A007318",
+    "A234008",
+    "A259090",
+    "A349329",
+    "A351616"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Index k of the first element in row n of A380488 that is a multiple of n-1.",
+  "id": "A380489",
+  "mentions": [
+    "A380488"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

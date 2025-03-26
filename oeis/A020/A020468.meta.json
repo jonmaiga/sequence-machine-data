@@ -1,7 +1,9 @@
 {
   "description": "Primes that contain digits 5 and 9 only.",
   "id": "A020468",
-  "mentions": [],
+  "mentions": [
+    "A030096"
+  ],
   "tags": [
     "base",
     "nonn"

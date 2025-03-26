@@ -1,5 +1,5 @@
 {
-  "description": "Diagonalized matrix of A000010.",
+  "description": "Diagonalized matrix of A000010, Euler totient function phi.",
   "id": "A130207",
   "mentions": [
     "A000010",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 83,
-    "source": "joeis"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

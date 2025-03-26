@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..3 arrays with no occurrence of three equal elements in a row horizontally, vertically or nw-to-se diagonally, and new values 0..3 introduced in row major order",
+  "description": "Number of n X 5 0..3 arrays with no occurrence of three equal elements in a row horizontally, vertically or nw-to-se diagonally, and new values 0..3 introduced in row major order.",
   "id": "A205158",
   "mentions": [
     "A205161"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

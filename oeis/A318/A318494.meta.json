@@ -1,5 +1,5 @@
 {
-  "description": "Number of rooted connected graphs on n unlabeled nodes where every block is a complete graph with nonroot nodes of two colors.",
+  "description": "Number of rooted simple connected graphs on n unlabeled nodes where every block is a complete graph with nonroot nodes of two colors.",
   "id": "A318494",
   "mentions": [
     "A007563",

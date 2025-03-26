@@ -2,7 +2,10 @@
   "description": "Composite numbers whose sum of aliquot divisors as well as product of aliquot divisors is a perfect square.",
   "id": "A064116",
   "mentions": [
-    "A048699"
+    "A001065",
+    "A007956",
+    "A048699",
+    "A064499"
   ],
   "tags": [
     "base",

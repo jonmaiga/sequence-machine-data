@@ -1,0 +1,19 @@
+{
+  "description": "Third coefficient of the lindep transform of A129283 (n + arithmetic derivative of n).",
+  "id": "A380533",
+  "mentions": [
+    "A129283",
+    "A339792",
+    "A380531",
+    "A380532"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

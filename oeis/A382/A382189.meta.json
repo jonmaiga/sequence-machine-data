@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(1 - 4 * Sum_{k>=0} x^(3^k))^(1/2).",
+  "id": "A382189",
+  "mentions": [
+    "A078932",
+    "A382190"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

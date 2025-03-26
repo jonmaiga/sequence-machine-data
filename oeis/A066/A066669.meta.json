@@ -1,11 +1,17 @@
 {
-  "description": "Numbers n such that phi(n) = 2^k*prime for some k >= 0.",
+  "description": "Numbers m such that phi(m) = 2^k*prime for some k >= 0.",
   "id": "A066669",
   "mentions": [
     "A000010",
+    "A019434",
+    "A058500",
     "A065966",
     "A066670",
-    "A066673"
+    "A066671",
+    "A066672",
+    "A066673",
+    "A074781",
+    "A330828"
   ],
   "tags": [
     "nonn"

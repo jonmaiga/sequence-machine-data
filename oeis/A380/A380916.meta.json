@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(2 * x / (1 - x*A(x))) / (1 - x*A(x)).",
+  "id": "A380916",
+  "mentions": [
+    "A380914",
+    "A380917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

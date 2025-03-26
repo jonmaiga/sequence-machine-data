@@ -1,5 +1,5 @@
 {
-  "description": "Heptagonal numbers (or 7-gonal numbers, i.e., numbers of the form k*(5*k - 3)/2) which are products of three distinct primes (or sphenic numbers).",
+  "description": "Heptagonal numbers which are products of three distinct primes.",
   "id": "A356422",
   "mentions": [
     "A000566",

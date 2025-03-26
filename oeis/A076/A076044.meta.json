@@ -1,5 +1,5 @@
 {
-  "description": "Largest a(n) values with at most n primes between a(n) and a(n)+sqrt(a(n)).",
+  "description": "Largest a(n) values with at most n primes between a(n) and a(n)+sqrt(a(n)) inclusive.",
   "id": "A076044",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

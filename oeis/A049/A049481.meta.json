@@ -1,5 +1,5 @@
 {
-  "description": "Both p and p+30 are primes.",
+  "description": "Primes p such that p + 30 is also prime.",
   "id": "A049481",
   "mentions": [
     "A001359",
@@ -8,6 +8,8 @@
     "A023201",
     "A045320",
     "A049482",
+    "A049483",
+    "A049484",
     "A049485",
     "A154114"
   ],

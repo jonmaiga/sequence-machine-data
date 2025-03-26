@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (theta_3(z)*theta_3(z)*theta_3(z)+theta_2(z)*theta_2(z)*theta_2(z))^4.",
+  "description": "Expansion of (theta_3(z^4)^3 + theta_2(z^4)^3)^4.",
   "id": "A028697",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
-    "source": "joeis"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

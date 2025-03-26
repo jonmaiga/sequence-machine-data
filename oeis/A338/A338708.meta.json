@@ -2,17 +2,19 @@
   "description": "Number of 4-linear trees on n nodes.",
   "id": "A338708",
   "mentions": [
+    "A000041",
     "A130131",
     "A338706",
-    "A338707"
+    "A338707",
+    "A380363"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 40,
+    "source": "oeis-bfile"
   }
 }

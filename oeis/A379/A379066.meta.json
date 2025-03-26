@@ -1,0 +1,19 @@
+{
+  "description": "Indices in A377091 where there is a record upward jump from a negative term to a positive term.",
+  "id": "A379066",
+  "mentions": [
+    "A377091",
+    "A379061",
+    "A379062",
+    "A380837",
+    "A380838"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

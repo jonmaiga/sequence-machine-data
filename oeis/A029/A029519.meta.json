@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k divides the (left) concatenation of all numbers <= k written in base 2 (most significant digit on right).",
+  "description": "Numbers k such that k divides the (left) concatenation of all numbers <= k written in base 2 (most significant digit on right and removing all least significant zeros before concatenation).",
   "id": "A029519",
   "mentions": [
     "A029447",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (24^n+1)/25 is a prime.",
+  "description": "Numbers k such that (24^k+1)/25 is a prime.",
   "id": "A057190",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

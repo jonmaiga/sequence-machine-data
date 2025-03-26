@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + x*A(x)^2/(1 + x*A(x)^(4/3)) )^3.",
+  "id": "A378952",
+  "mentions": [
+    "A364765",
+    "A371724",
+    "A378891",
+    "A378951",
+    "A378954"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

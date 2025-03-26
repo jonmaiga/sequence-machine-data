@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling((2n+1/n)^n).",
+  "description": "a(n) = ceiling((2n+1/n)^n).",
   "id": "A197716",
   "mentions": [
     "A014058"

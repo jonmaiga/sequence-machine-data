@@ -1,0 +1,38 @@
+{
+  "description": "Numbers k with at least 4 prime factors such that A380459(k) is in A048103, i.e., has no divisors of the form p^p.",
+  "id": "A380476",
+  "mentions": [
+    "A001222",
+    "A002476",
+    "A003415",
+    "A005117",
+    "A007528",
+    "A033987",
+    "A046386",
+    "A047247",
+    "A047257",
+    "A048103",
+    "A049345",
+    "A276086",
+    "A317836",
+    "A349394",
+    "A358235",
+    "A358673",
+    "A380459",
+    "A380467",
+    "A380468",
+    "A380475",
+    "A380478",
+    "A380526",
+    "A380528",
+    "A380530"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

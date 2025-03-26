@@ -1,5 +1,5 @@
 {
-  "description": "A test for divisibility by the n-th prime.",
+  "description": "a(n) = -1/10 (mod prime(n)): A test for divisibility by the n-th prime.",
   "id": "A103876",
   "mentions": [
     "A078606",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 4,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

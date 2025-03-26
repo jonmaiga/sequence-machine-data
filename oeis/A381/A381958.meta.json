@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of the sum of the reciprocals of the indices of distinct prime factors of n.",
+  "id": "A381958",
+  "mentions": [
+    "A000720",
+    "A028235",
+    "A028236",
+    "A066328",
+    "A083345",
+    "A318573",
+    "A379141",
+    "A381959"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

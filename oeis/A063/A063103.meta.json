@@ -1,17 +1,20 @@
 {
-  "description": "Numbers n such that sigma(usigma(n)) is prime.",
+  "description": "Numbers k such that sigma(usigma(k)) is prime.",
   "id": "A063103",
   "mentions": [
+    "A000043",
+    "A000203",
+    "A000668",
     "A034448",
-    "A063508"
+    "A046528",
+    "A063845"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

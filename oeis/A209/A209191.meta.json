@@ -1,7 +1,9 @@
 {
   "description": "Numbers n such that digital root of n equals smallest prime factor of n.",
   "id": "A209191",
-  "mentions": [],
+  "mentions": [
+    "A031214"
+  ],
   "tags": [
     "base",
     "nonn"

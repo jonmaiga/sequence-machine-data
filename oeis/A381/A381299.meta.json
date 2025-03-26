@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of ordered set partitions of [n] with exactly k descents, n>=0, 0<=k<=binomial(n,2).",
+  "id": "A381299",
+  "mentions": [
+    "A000670",
+    "A001787",
+    "A008302",
+    "A011782",
+    "A125810",
+    "A161680",
+    "A240796",
+    "A268586",
+    "A289545",
+    "A347841",
+    "A347842",
+    "A347843",
+    "A347844",
+    "A347845",
+    "A347846"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

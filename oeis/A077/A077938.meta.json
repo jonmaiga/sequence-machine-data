@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1-2*x-x^2-2*x^3).",
+  "description": "Expansion of 1/(1 - 2*x - x^2 - 2*x^3).",
   "id": "A077938",
   "mentions": [
     "A077987"

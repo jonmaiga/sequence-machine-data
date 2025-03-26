@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of the long/short edge length ratio of a disdyakis triacontahedron.",
+  "id": "A380982",
+  "mentions": [
+    "A010476",
+    "A020762",
+    "A134974",
+    "A176453",
+    "A379388",
+    "A379708",
+    "A379709",
+    "A379710",
+    "A379711",
+    "A380940",
+    "A380941",
+    "A380942",
+    "A380981"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

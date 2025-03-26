@@ -1,11 +1,19 @@
 {
-  "description": "Numbers n such that usigma(sigma(n)) is prime.",
+  "description": "Numbers k such that usigma(sigma(k)) is prime.",
   "id": "A063836",
   "mentions": [
+    "A000043",
+    "A000203",
+    "A000668",
+    "A019434",
+    "A034448",
+    "A046528",
+    "A061765",
     "A063103"
   ],
   "tags": [
     "bref",
+    "hard",
     "nonn"
   ],
   "terms": {

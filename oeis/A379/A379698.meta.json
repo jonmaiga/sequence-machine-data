@@ -1,0 +1,18 @@
+{
+  "description": "Exponent of highest power of 2 that divides the n-th practical number A005153(n).",
+  "id": "A379698",
+  "mentions": [
+    "A005153",
+    "A007814",
+    "A379325"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

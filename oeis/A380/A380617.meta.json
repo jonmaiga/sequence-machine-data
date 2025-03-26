@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of achiral combinatorial maps with n edges and k vertices, 1 <= k <= n + 1.",
+  "id": "A380617",
+  "mentions": [
+    "A001405",
+    "A018191",
+    "A170947",
+    "A379431",
+    "A380615",
+    "A380616"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

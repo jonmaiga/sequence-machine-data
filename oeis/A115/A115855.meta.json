@@ -2,7 +2,6 @@
   "description": "Number of partitions of 1 into fractions i/j with 1<=i",
   "id": "A115855",
   "mentions": [
-    "A000010",
     "A000041",
     "A002966",
     "A038566",
@@ -12,12 +11,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

@@ -1,15 +1,16 @@
 {
-  "description": "Numbers n such that 2^n - prime(n) is prime.",
+  "description": "Numbers k such that 2^k - prime(k) is prime.",
   "id": "A078583",
   "mentions": [
     "A077375"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

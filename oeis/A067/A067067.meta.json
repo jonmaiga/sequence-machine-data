@@ -1,11 +1,13 @@
 {
-  "description": "Product of nonzero digits of n! (A000142).",
+  "description": "a(n) = product of nonzero digits of n! (A000142).",
   "id": "A067067",
   "mentions": [
-    "A000142"
+    "A000142",
+    "A051801"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "PrimePi(n)!.",
+  "description": "a(n) = PrimePi(n)!.",
   "id": "A132369",
   "mentions": [
     "A000720"

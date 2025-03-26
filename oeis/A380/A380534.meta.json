@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if the least significant nonzero digit in primorial base representation of n (A049345) is greater than 1, otherwise 0.",
+  "id": "A380534",
+  "mentions": [
+    "A049345",
+    "A053669",
+    "A064648",
+    "A276088",
+    "A327860",
+    "A329029",
+    "A380527",
+    "A380535"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

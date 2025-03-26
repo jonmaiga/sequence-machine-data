@@ -2,6 +2,7 @@
   "description": "Smallest prime factor of n^2 + n - 1.",
   "id": "A209188",
   "mentions": [
+    "A031214",
     "A071182"
   ],
   "tags": [

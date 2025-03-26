@@ -1,19 +1,27 @@
 {
-  "description": "First prime from A031930 (=lesser of 12-twins) with increasing distance to the next 12-twin.",
+  "description": "Least prime in A031930 (lesser of 12-twins) whose distance to the next 12-twin is 2*n.",
   "id": "A052355",
   "mentions": [
     "A031930",
+    "A052350",
+    "A052351",
+    "A052352",
+    "A052353",
+    "A052354",
+    "A052356",
+    "A052357",
+    "A052358",
+    "A052359",
     "A052380",
     "A052381",
     "A053324"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 37,
-    "source": "joeis"
+    "offset": 6,
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Symmetric triangle, read by rows of 2*n+1 terms, similar to triangle A008301.",
+  "description": "Symmetric triangle, read by rows of 2*n+1 terms, similar to triangle A008301. Second term 4 times first term.",
   "id": "A126150",
   "mentions": [
     "A008301",

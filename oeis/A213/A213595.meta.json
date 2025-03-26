@@ -1,5 +1,5 @@
 {
-  "description": "A048784(n) / 2^A213594(n).",
+  "description": "a(n) = A048784(n) / 2^A213594(n).",
   "id": "A213595",
   "mentions": [
     "A000005",

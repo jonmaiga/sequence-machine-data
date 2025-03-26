@@ -1,11 +1,12 @@
 {
-  "description": "phi(n*(n+1)/2)/phi(n) where phi is the Euler totient function A000010(n).",
+  "description": "a(n) = phi(n*(n+1)/2)/phi(n) where phi is the Euler totient function A000010(n).",
   "id": "A067541",
   "mentions": [
     "A000010",
     "A000217"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

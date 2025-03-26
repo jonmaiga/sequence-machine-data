@@ -1,0 +1,24 @@
+{
+  "description": "2-tone chromatic number of a path with n-2 vertices joined to two adjacent vertices.",
+  "id": "A381564",
+  "mentions": [
+    "A003057",
+    "A350361",
+    "A350362",
+    "A350715",
+    "A351120",
+    "A366727",
+    "A366728",
+    "A381562",
+    "A381563"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

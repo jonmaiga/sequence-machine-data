@@ -1,10 +1,12 @@
 {
-  "description": "Numbers k such that k and 10*k + 1 are both prime.",
+  "description": "Primes p such that 10*p + 1 is also prime.",
   "id": "A023237",
   "mentions": [
+    "A005384",
     "A024912",
     "A055781",
-    "A105435"
+    "A105435",
+    "A158017"
   ],
   "tags": [
     "easy",

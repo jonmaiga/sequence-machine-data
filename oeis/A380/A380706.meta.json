@@ -1,0 +1,18 @@
+{
+  "description": "n is the a(n)-th nonnegative integer having its set of decimal digits.",
+  "id": "A380706",
+  "mentions": [
+    "A326307"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

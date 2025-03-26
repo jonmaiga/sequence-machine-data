@@ -1,0 +1,17 @@
+{
+  "description": "Number of uniquely graceful graphs containing no isolated points.",
+  "id": "A379572",
+  "mentions": [
+    "A379573",
+    "A379574"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

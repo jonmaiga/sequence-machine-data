@@ -1,0 +1,17 @@
+{
+  "description": "For n > 0, for k > n, a(n) is the least k such that the pre-period and first period of the decimal expansion of n/k contains every digit of n at least as many times it is contained in n.",
+  "id": "A381578",
+  "mentions": [
+    "A002371",
+    "A007732"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

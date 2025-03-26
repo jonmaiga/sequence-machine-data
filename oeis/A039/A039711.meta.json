@@ -1,5 +1,5 @@
 {
-  "description": "Primes mod 13.",
+  "description": "a(n) = n-th prime modulo 13.",
   "id": "A039711",
   "mentions": [
     "A007652",
@@ -13,6 +13,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 16/(207*sqrt(53)).",
+  "id": "A378798",
+  "mentions": [
+    "A010506"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

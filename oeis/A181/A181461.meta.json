@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that 53 is the largest prime factor of n^2-1.",
+  "description": "Numbers k such that 53 is the largest prime factor of k^2-1.",
   "id": "A181461",
   "mentions": [
+    "A076605",
     "A175607",
     "A181447",
     "A181460",
@@ -11,6 +12,7 @@
   ],
   "tags": [
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {

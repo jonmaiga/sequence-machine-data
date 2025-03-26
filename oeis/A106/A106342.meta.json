@@ -1,12 +1,14 @@
 {
-  "description": "Matrix inverse of A008278, which is a triangle of Stirling numbers of 2nd kind.",
+  "description": "Matrix inverse of A008278, which is the reflected triangle of the Stirling numbers of 2nd kind.",
   "id": "A106342",
   "mentions": [
+    "A000007",
     "A008278",
     "A106340",
     "A106343"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],

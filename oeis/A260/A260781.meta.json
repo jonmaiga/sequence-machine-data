@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: coefficients for step-by-step integration.",
+  "description": "Triangle read by rows: coefficients for corrector y(x_0) for step-by-step integration.",
   "id": "A260781",
   "mentions": [
     "A002397",

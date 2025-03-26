@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows, where row n lists the elements of the multiset of bases and exponents (including exponents = 1) in the prime factorization of n.",
+  "id": "A381178",
+  "mentions": [
+    "A000026",
+    "A001221",
+    "A008474",
+    "A035306",
+    "A081812",
+    "A381203",
+    "A381204",
+    "A381212",
+    "A381398",
+    "A381401",
+    "A381403",
+    "A381404",
+    "A381576"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

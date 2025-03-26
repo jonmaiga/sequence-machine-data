@@ -2,7 +2,7 @@
   "description": "Number of partitions of n that contain exactly one isolated singleton.",
   "id": "A303587",
   "mentions": [
-    "A303586",
+    "A211694",
     "A303588"
   ],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X 4 0..2 arrays with every repeated value in every row and column greater than or equal to the previous repeated value.",
+  "description": "Number of n X 4 0..3 arrays with every repeated value in every row and column greater than or equal to the previous repeated value.",
   "id": "A267995",
   "mentions": [
     "A267997"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

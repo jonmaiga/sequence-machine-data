@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x*A(x)^2) * (1 + x^3*A(x)^7).",
+  "id": "A379089",
+  "mentions": [
+    "A379085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

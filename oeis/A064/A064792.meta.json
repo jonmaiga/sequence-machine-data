@@ -1,17 +1,19 @@
 {
-  "description": "Add more digits to n-th prime (zeros are permitted) until reach another prime.",
+  "description": "Append more digits to the n-th prime (leading zeros are permitted) until another prime is reached.",
   "id": "A064792",
   "mentions": [
+    "A030665",
     "A030670",
     "A065112"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

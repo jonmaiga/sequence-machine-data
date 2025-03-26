@@ -1,0 +1,20 @@
+{
+  "description": "Number of pairs (d, k/d), d < k/d, such that d|k, rad(d) = rad(k/d) = rad(k), but d|k/d, for k = A376936(n), where rad = A007947.",
+  "id": "A379552",
+  "mentions": [
+    "A007947",
+    "A126706",
+    "A376936",
+    "A379553",
+    "A379554"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

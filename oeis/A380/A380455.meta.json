@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if A339792(n) is -1, otherwise 0, where A339792(n) is the third coefficient of the lindep transform of sigma.",
+  "id": "A380455",
+  "mentions": [
+    "A000203",
+    "A010051",
+    "A339792",
+    "A380456"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

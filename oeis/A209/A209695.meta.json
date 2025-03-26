@@ -2,6 +2,8 @@
   "description": "Triangle of coefficients of polynomials u(n,x) jointly generated with A209696; see the Formula section.",
   "id": "A209695",
   "mentions": [
+    "A000129",
+    "A008288",
     "A084938",
     "A208510",
     "A209696"

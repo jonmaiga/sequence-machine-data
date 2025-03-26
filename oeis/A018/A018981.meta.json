@@ -1,5 +1,5 @@
 {
-  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AST = AlPO4-16 [ Al20P20O80 ] .4 R . 16 H2O.",
+  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AST = AlPO4-16 [Al20P20O80].4R.16H2O starting with a T2 atom.",
   "id": "A018981",
   "mentions": [],
   "tags": [

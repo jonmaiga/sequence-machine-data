@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the maximal number of congruent n-gons that can be arranged around a vertex without overlapping.",
+  "description": "a(n) is the maximal number of regular n-gons that can be arranged around a vertex without overlapping.",
   "id": "A343461",
   "mentions": [
     "A071279"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the denominator of the mean value of A051904(k) at the range k = 1..n.",
+  "id": "A380267",
+  "mentions": [
+    "A051904",
+    "A380266"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A051903(n) mod 2.",
+  "id": "A381955",
+  "mentions": [
+    "A000035",
+    "A051903",
+    "A181183",
+    "A295316",
+    "A359473",
+    "A368714",
+    "A381956"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

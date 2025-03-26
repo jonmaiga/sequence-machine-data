@@ -1,14 +1,17 @@
 {
   "description": "Number of edge covers in the n-cycle complement graph bar C_n.",
   "id": "A356212",
-  "mentions": [],
+  "mentions": [
+    "A351587",
+    "A377652",
+    "A378862"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 7,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

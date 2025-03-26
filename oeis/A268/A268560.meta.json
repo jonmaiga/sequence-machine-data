@@ -1,14 +1,17 @@
 {
-  "description": "Arises in counting maps on a surface: see Coquereaux-Zuber (2015) for precise definition.",
+  "description": "Number of bicolored maps defined by immersions of unoriented circle into oriented sphere with n double points with edges labeled 1..2*n such that labels of successive edges along the curve (starting at any edge, going in the direction determined by the coloring) are encountered in pairs of the form {2*m-1, 2*m} (in either order).",
   "id": "A268560",
-  "mentions": [],
+  "mentions": [
+    "A268561",
+    "A268567"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

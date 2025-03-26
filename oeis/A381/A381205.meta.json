@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the cardinality of the set of bases and exponents (including exponents = 1) in the prime factorization of n.",
+  "id": "A381205",
+  "mentions": [
+    "A051674",
+    "A381201",
+    "A381202",
+    "A381203",
+    "A381204",
+    "A381212"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,19 @@
 {
-  "description": "Primes arising in A096847, that is primes created as follows: A094471[A096847(n)]. Primes of m*tau[m]-sigma[m] form with m-s listed in A096847.",
+  "description": "Primes arising in A096847.",
   "id": "A096848",
   "mentions": [
+    "A000005",
+    "A000203",
     "A094471",
     "A096847"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

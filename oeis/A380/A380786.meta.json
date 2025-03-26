@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with a prime number of bits, prime number of ones, and prime number of zeros in their binary representation.",
+  "id": "A380786",
+  "mentions": [
+    "A006512",
+    "A052294",
+    "A144754",
+    "A272478",
+    "A343258",
+    "A380788"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -4,13 +4,14 @@
   "mentions": [],
   "tags": [
     "formulas",
+    "less",
     "sign",
     "tabl",
     "uned"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

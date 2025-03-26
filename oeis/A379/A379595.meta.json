@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k for which A376900(k) = k.",
+  "id": "A379595",
+  "mentions": [
+    "A376900"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

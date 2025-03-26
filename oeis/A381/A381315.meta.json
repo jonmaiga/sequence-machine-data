@@ -1,0 +1,33 @@
+{
+  "description": "Numbers whose prime factorization exponents include exactly one 3 and no exponent greater than 3.",
+  "id": "A381315",
+  "mentions": [
+    "A002117",
+    "A030078",
+    "A046100",
+    "A048109",
+    "A065036",
+    "A143610",
+    "A163569",
+    "A176297",
+    "A179670",
+    "A179695",
+    "A179700",
+    "A189975",
+    "A189984",
+    "A190109",
+    "A190378",
+    "A190382",
+    "A375072",
+    "A375145"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a triakis icosahedron with unit shorter edge length.",
+  "id": "A378974",
+  "mentions": [
+    "A002163",
+    "A377695",
+    "A378973",
+    "A378975",
+    "A378976",
+    "A378977"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

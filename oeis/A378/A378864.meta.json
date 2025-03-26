@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 11*Pi/360.",
+  "id": "A378864",
+  "mentions": [
+    "A019685",
+    "A120500",
+    "A348758"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 108,
+    "source": "joeis"
+  }
+}

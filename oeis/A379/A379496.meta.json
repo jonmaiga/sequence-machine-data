@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A019565(1+n) - A019565(A001065(n)), where A019565 is the base-2 exp-function, and A001065 is the sum of proper divisors of n.",
+  "id": "A379496",
+  "mentions": [
+    "A001065",
+    "A016754",
+    "A019565",
+    "A379495",
+    "A379498",
+    "A379501"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

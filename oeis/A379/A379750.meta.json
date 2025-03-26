@@ -1,0 +1,18 @@
+{
+  "description": "First prime of cousin prime pairs which differ, in their binary representation, by a single bit.",
+  "id": "A379750",
+  "mentions": [
+    "A023200",
+    "A047471",
+    "A071695"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

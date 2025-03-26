@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of obtuse vertex angles, in radians, in a pentagonal hexecontahedron face.",
+  "id": "A380004",
+  "mentions": [
+    "A379888",
+    "A379889",
+    "A379890",
+    "A379892",
+    "A380002",
+    "A380003"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

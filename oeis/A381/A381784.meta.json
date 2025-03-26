@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x*A(x)^4) * C(x*A(x)^2), where C(x) is the g.f. of A000108.",
+  "id": "A381784",
+  "mentions": [
+    "A000108",
+    "A234461",
+    "A381774"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

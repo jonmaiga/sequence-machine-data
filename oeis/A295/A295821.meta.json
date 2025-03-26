@@ -2,15 +2,18 @@
   "description": "Number of coprime pairs (a,b) with -n <= a <= n, -2 <= b <= 2.",
   "id": "A295821",
   "mentions": [
+    "A047238",
     "A137243",
     "A295782"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

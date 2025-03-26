@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( 2 * x * cosh(x * A(x)) ).",
+  "id": "A381408",
+  "mentions": [
+    "A185951",
+    "A381407"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

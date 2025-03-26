@@ -1,5 +1,5 @@
 {
-  "description": "Smallest x such that Mod[sigma[x], A002110(n)]=A002110(n)-1.",
+  "description": "Smallest k such that sigma(k) + 1 is divisible by primorial(n).",
   "id": "A097015",
   "mentions": [
     "A000203",
@@ -8,14 +8,16 @@
     "A084303",
     "A097011",
     "A097012",
-    "A097014"
+    "A097014",
+    "A233929"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 8,
+    "offset": 0,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

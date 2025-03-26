@@ -1,5 +1,5 @@
 {
-  "description": "n-th partition number (A000041(n)) is a semiprime.",
+  "description": "Numbers k such that the k-th partition number (A000041(k)) is a semiprime.",
   "id": "A065729",
   "mentions": [
     "A000041",

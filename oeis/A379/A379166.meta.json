@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in A379165 that share a factor with both previous terms, in order of appearance.",
+  "id": "A379166",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A336957",
+    "A353239",
+    "A379165"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

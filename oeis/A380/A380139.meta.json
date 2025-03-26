@@ -1,0 +1,22 @@
+{
+  "description": "Prime gaps between 10^m and 10^(m+1), m>=0, sorted first by falling number of occurrences and then by rising gap size, written as an irregular triangle.",
+  "id": "A380139",
+  "mentions": [
+    "A001223",
+    "A005597",
+    "A028334",
+    "A038460",
+    "A173557",
+    "A305444",
+    "A354604"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

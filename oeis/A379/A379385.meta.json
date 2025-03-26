@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of a deltoidal hexecontahedron with unit shorter edge length.",
+  "id": "A379385",
+  "mentions": [
+    "A002163",
+    "A344149",
+    "A379386",
+    "A379387",
+    "A379388",
+    "A379389"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

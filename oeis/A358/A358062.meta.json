@@ -2,7 +2,8 @@
   "description": "a(n) is the diagonal domination number for the queen graph on an n X n chessboard.",
   "id": "A358062",
   "mentions": [
-    "A003002"
+    "A003002",
+    "A373394"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

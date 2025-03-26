@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m which satisfy the equation: (m - floor((m - k)/k)) mod k = 1 (1 <= k <= m) only for k = 2 and m - 1.",
+  "id": "A378275",
+  "mentions": [
+    "A000040",
+    "A048158",
+    "A051731",
+    "A375007",
+    "A375595"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

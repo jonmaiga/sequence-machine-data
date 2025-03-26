@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^k/binomial(4*k, k) (negated).",
+  "id": "A378807",
+  "mentions": [
+    "A005810",
+    "A086465",
+    "A229703",
+    "A378806"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

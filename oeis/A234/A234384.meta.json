@@ -1,5 +1,5 @@
 {
-  "description": "Number of (4+2)X(n+2) 0..2 arrays with no increasing sequence of length 3 horizontally or diagonally downwards",
+  "description": "Number of (4+2) X (n+2) 0..2 arrays with no increasing sequence of length 3 vertically, diagonally downwards or antidiagonally downwards.",
   "id": "A234384",
   "mentions": [
     "A234380"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

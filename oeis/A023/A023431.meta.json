@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Catalan Numbers.",
+  "description": "Generalized Catalan Numbers x^3*A(x)^2 + (x-1)*A(x) + 1 =0.",
   "id": "A023431",
   "mentions": [
     "A000108",

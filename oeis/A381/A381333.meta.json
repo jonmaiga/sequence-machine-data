@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer that is the sum of a prime and the square of a prime in n or more ways.",
+  "id": "A381333",
+  "mentions": [
+    "A001172",
+    "A081053",
+    "A381330"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

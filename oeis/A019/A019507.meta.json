@@ -1,5 +1,5 @@
 {
-  "description": "Droll numbers: sum of even prime divisors equals sum of odd prime divisors.",
+  "description": "Droll numbers: numbers > 1 whose sum of even prime factors equals the sum of odd prime factors.",
   "id": "A019507",
   "mentions": [
     "A000009",
@@ -41,7 +41,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

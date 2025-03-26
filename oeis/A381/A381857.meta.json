@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary matrices with at least 2 adjacent 1's.",
+  "id": "A381857",
+  "mentions": [
+    "A002416",
+    "A006506"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

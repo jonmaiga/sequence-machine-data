@@ -1,0 +1,17 @@
+{
+  "description": "Replacing each term of this sequence S with its digitsum produces a new sequence S' such that S and S' share the same succession of nonzero digits.",
+  "id": "A379927",
+  "mentions": [
+    "A004719",
+    "A302656"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

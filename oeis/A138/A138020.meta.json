@@ -2,7 +2,9 @@
   "description": "G.f. satisfies A(x) = sqrt( (1 + 2x*A(x)) / (1 - 2x*A(x)) ).",
   "id": "A138020",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A078531",
+    "A151374"
   ],
   "tags": [
     "formulas",

@@ -1,7 +1,9 @@
 {
-  "description": "Omega(n+1) = 2*Omega(n), where Omega(n) is the number of prime divisors of n (with repetition).",
+  "description": "Numbers k such that Omega(k+1) = 2*Omega(k), where Omega(k) is the number of prime divisors of k (with repetition).",
   "id": "A063484",
-  "mentions": [],
+  "mentions": [
+    "A001222"
+  ],
   "tags": [
     "nonn"
   ],

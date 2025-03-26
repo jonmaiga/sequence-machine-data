@@ -1,0 +1,22 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product (lcm(p_j, k_j)), with a(1) = 1.",
+  "id": "A381588",
+  "mentions": [
+    "A008473",
+    "A008477",
+    "A035306",
+    "A144338",
+    "A369008"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

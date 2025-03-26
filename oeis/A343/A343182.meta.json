@@ -2,6 +2,7 @@
   "description": "Binary word formed from first 2^n-1 terms of paper-folding sequence A014577, reversed and complemented.",
   "id": "A343182",
   "mentions": [
+    "A005811",
     "A014577",
     "A343181",
     "A343183"

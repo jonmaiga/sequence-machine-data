@@ -1,0 +1,18 @@
+{
+  "description": "The number of perimeter-magic pentagons of order 3 with magic sum n.",
+  "id": "A380963",
+  "mentions": [
+    "A244497",
+    "A380853",
+    "A380962",
+    "A380964"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 14,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

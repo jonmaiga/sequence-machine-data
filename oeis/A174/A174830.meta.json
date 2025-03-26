@@ -2,6 +2,8 @@
   "description": "Odd numbers k such that k^2 is an abundant number.",
   "id": "A174830",
   "mentions": [
+    "A005101",
+    "A005231",
     "A033880",
     "A156942"
   ],

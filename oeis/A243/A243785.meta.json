@@ -1,5 +1,5 @@
 {
-  "description": "Number of graphs with n nodes that are chordal but not integral.",
+  "description": "Number of unlabeled simple connected graphs with n nodes that are chordal but not integral.",
   "id": "A243785",
   "mentions": [
     "A048192",

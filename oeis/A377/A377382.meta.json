@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest number k for which exactly n of its divisors are interprime numbers (A024675).",
+  "id": "A377382",
+  "mentions": [
+    "A024675",
+    "A377381"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

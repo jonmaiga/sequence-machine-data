@@ -1,15 +1,19 @@
 {
   "description": "Multiplicative persistence of the prime numbers.",
   "id": "A129985",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A031346"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

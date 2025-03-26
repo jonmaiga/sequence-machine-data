@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number missing from A381019 after A381019(n) has been found.",
+  "id": "A381222",
+  "mentions": [
+    "A381019",
+    "A381119"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

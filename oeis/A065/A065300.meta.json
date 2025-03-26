@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that sum of divisors is a squarefree number.",
+  "description": "Numbers k such that the sum of divisors of k is a squarefree number.",
   "id": "A065300",
   "mentions": [
     "A000203",
     "A002110",
+    "A005117",
     "A008683",
     "A065299"
   ],
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 2*A276086(n) - A276086(A001065(n)), where A276086 is the primorial base exp-function, and A001065 is the sum of proper divisors of n.",
+  "id": "A379494",
+  "mentions": [
+    "A001065",
+    "A276086",
+    "A379493"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

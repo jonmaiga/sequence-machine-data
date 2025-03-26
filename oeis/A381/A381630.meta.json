@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k such that the sum of k and the k-th number with n prime factors (counted with multiplicity) has n prime factors (counted with multiplicity).",
+  "id": "A381630",
+  "mentions": [
+    "A001222",
+    "A064402",
+    "A100915"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,14 @@
   "description": "Irregular triangle read by rows: T(n,k), n >= 1, -(n-1) <= k <= n-1, = number of partitions of n with rank k.",
   "id": "A063995",
   "mentions": [
+    "A000025",
     "A000041",
     "A005408",
     "A047993",
     "A105806"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn",
     "tabf"
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

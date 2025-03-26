@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = smallest square in the arithmetic progression {nk+1 : k > 0}.",
+  "description": "a(n) = smallest square in the arithmetic progression {n*k+1 : k > 0}.",
   "id": "A061369",
   "mentions": [
-    "A000005"
+    "A000005",
+    "A215653"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

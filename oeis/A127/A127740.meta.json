@@ -2,7 +2,6 @@
   "description": "Natural number transform of Aitken's triangle.",
   "id": "A127740",
   "mentions": [
-    "A000110",
     "A005493",
     "A011971",
     "A052889",

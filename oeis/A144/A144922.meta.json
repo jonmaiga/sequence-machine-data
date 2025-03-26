@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n such that n*sigma_2(n)/sigma_1(n) is an integer",
+  "description": "Numbers k such that k*sigma_2(k)/sigma_1(k) is an integer",
   "id": "A144922",
   "mentions": [
     "A000203",
     "A001157",
     "A001599",
+    "A020487",
     "A140480"
   ],
   "tags": [

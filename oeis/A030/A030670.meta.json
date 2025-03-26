@@ -1,9 +1,10 @@
 {
-  "description": "Smallest prime whose decimal expansion begins (nontrivially) with the n-th prime.",
+  "description": "Smallest prime formed by appending a number to the n-th prime.",
   "id": "A030670",
   "mentions": [
     "A064792",
-    "A065112"
+    "A065112",
+    "A178220"
   ],
   "tags": [
     "base",

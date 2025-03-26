@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product{i=n..primepi(2*prime(n))} prime(i).",
+  "id": "A378746",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A003961",
+    "A007741",
+    "A063124",
+    "A097889",
+    "A337372",
+    "A378745"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

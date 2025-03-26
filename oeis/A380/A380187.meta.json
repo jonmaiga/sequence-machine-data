@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer not yet present in the sequence such that the sum of the first a(n) terms of the sequence is odd for n odd and even for n even.",
+  "id": "A380187",
+  "mentions": [
+    "A005408",
+    "A005843"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

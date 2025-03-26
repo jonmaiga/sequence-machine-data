@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of n except the \"e\" divisors described in A005279.",
+  "id": "A379384",
+  "mentions": [
+    "A000203",
+    "A005279",
+    "A237271",
+    "A237593",
+    "A379288",
+    "A379374",
+    "A379379"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

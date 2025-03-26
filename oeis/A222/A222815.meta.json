@@ -2,6 +2,7 @@
   "description": "Numbers (not ending in 0) which are 4 times their digit-reversal.",
   "id": "A222815",
   "mentions": [
+    "A001232",
     "A008918",
     "A103609"
   ],

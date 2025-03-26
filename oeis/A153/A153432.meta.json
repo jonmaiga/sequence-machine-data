@@ -2,10 +2,14 @@
   "description": "Numbers m such that all ten numbers 10^k*m+1; k=0,1,...,9 are prime.",
   "id": "A153432",
   "mentions": [
+    "A006093",
+    "A008596",
     "A153431",
     "A153433"
   ],
   "tags": [
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

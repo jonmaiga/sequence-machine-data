@@ -1,5 +1,5 @@
 {
-  "description": "Number of positions that are exactly n moves from the starting position in the 2 X 2 X 2 Rubik cube puzzle.",
+  "description": "Number of positions that are exactly n moves from the starting position in the 2 X 2 X 2 Rubik cube puzzle counting a half-turn as a single move.",
   "id": "A079761",
   "mentions": [
     "A079762",

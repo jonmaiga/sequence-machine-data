@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of tan(tanh(x))*sin(x).",
+  "description": "Expansion of e.g.f. tan(tanh(x))*sin(x) (even powers only).",
   "id": "A009717",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

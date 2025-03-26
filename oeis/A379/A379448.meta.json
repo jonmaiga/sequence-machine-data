@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of ones in the binary expansion of n^(n^n).",
+  "id": "A379448",
+  "mentions": [
+    "A000120",
+    "A000265",
+    "A002488",
+    "A214561",
+    "A379446",
+    "A379447"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^4 - x^2*A(x)^7.",
+  "id": "A381840",
+  "mentions": [
+    "A103779",
+    "A367027",
+    "A368971"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the residues r mod n of numbers k such that rad(k) | n, where rad = A007947.",
+  "id": "A381801",
+  "mentions": [
+    "A003586",
+    "A003592",
+    "A007947",
+    "A038566",
+    "A051037",
+    "A121998",
+    "A162306",
+    "A381799",
+    "A381800"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

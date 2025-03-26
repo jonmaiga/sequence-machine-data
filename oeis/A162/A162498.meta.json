@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = Sum[(-1)^j Binomial[n, j](k + 1 - j)^(n - 1), {j, 0, k}].",
+  "description": "Triangle read by rows: T(n, k) = Sum_{j=0..k}(-1)^j*binomial(n, j)*(k + 1 - j)^(n - 1).",
   "id": "A162498",
   "mentions": [
     "A055325",

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n^5*(n^9 + 1)/2.",
   "id": "A168471",
-  "mentions": [],
+  "mentions": [
+    "A168351"
+  ],
   "tags": [
     "easy",
     "formulas",

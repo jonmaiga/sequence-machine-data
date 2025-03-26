@@ -1,9 +1,10 @@
 {
-  "description": "Special binomial coefficient: a(n) = C(sigma(n), phi(n)).",
+  "description": "a(n) = binomial(sigma(n), phi(n)).",
   "id": "A064366",
   "mentions": [
     "A000010",
     "A000203",
+    "A000217",
     "A034953",
     "A066090",
     "A066449"
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 34,
     "source": "joeis"
   }
 }

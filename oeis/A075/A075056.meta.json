@@ -1,14 +1,17 @@
 {
-  "description": "a(1) = 0, then smallest square such that a(n+1)- a(n) is a palindrome.",
+  "description": "a(1) = 0, then smallest square such that a(n+1) - a(n) is a palindrome.",
   "id": "A075056",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A002113"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

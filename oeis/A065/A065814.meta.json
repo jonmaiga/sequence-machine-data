@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = tau(n)^2 - tau(n^2) = A000005(n)^2 - A000005(n^2).",
+  "description": "a(n) = tau(n)^2 - tau(n^2), where tau(n) = A000005(n).",
   "id": "A065814",
   "mentions": [
     "A000005",

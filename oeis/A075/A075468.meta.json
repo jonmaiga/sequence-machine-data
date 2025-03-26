@@ -2,9 +2,11 @@
   "description": "Minimal m such that n^n-m and n^n+m are both primes, or -1 if there is no such m.",
   "id": "A075468",
   "mentions": [
+    "A000312",
     "A075409",
     "A075410",
-    "A075469"
+    "A075469",
+    "A082467"
   ],
   "tags": [
     "formulas",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 2,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

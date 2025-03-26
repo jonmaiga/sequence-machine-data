@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A379113(A379121(n)), where A379121 gives those odd squares k for which A379113(k) > 1.",
+  "id": "A379123",
+  "mentions": [
+    "A016754",
+    "A114390",
+    "A133049",
+    "A379113",
+    "A379121",
+    "A379124",
+    "A379125"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest p prime such that the largest prime divisor of the difference nextprime(a(n))-a(n) equals the n-th prime, prime(n).",
+  "description": "a(n) is the smallest prime p such that the largest prime divisor of the difference nextprime(p) - p equals the n-th prime, prime(n).",
   "id": "A081413",
   "mentions": [
     "A000040",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of collections of up to k+1 disjoint subsets of [n] covering [n], with [0]={}, 0<=k<=n.",
+  "id": "A381682",
+  "mentions": [
+    "A102661",
+    "A186021",
+    "A256894",
+    "A369950",
+    "A381683"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

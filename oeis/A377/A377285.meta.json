@@ -1,0 +1,42 @@
+{
+  "description": "Position of first 0 in the n-th differences of the strict partition numbers A000009, or 0 if 0 does not appear.",
+  "id": "A377285",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A008284",
+    "A047966",
+    "A053445",
+    "A087897",
+    "A098859",
+    "A116608",
+    "A175804",
+    "A225485",
+    "A225486",
+    "A293467",
+    "A325242",
+    "A325244",
+    "A325268",
+    "A325280",
+    "A325282",
+    "A376678",
+    "A377037",
+    "A377042",
+    "A377050",
+    "A377055",
+    "A378622",
+    "A378970",
+    "A378971",
+    "A378972"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

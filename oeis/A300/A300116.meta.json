@@ -2,7 +2,8 @@
   "description": "a(n) = Sum_{k=0..n} binomial(2k,k)^3 * binomial(2n-2k,n-k) * 2^(4*(n-k)).",
   "id": "A300116",
   "mentions": [
-    "A036917"
+    "A036917",
+    "A380975"
   ],
   "tags": [
     "formulas",

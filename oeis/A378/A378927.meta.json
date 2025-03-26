@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers whose squares have at most three digits less than 9.",
+  "id": "A378927",
+  "mentions": [
+    "A053934",
+    "A360822",
+    "A378925",
+    "A378926"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

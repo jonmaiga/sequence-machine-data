@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the number of letters in the n-th ordinal number divides n.",
+  "description": "Numbers m such that the number of letters in the m-th ordinal number divides m.",
   "id": "A131998",
   "mentions": [
     "A006944",

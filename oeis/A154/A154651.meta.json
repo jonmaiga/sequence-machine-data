@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 991*n^2+1 is a prime.",
+  "description": "Numbers k such that 991*k^2+1 is a prime.",
   "id": "A154651",
   "mentions": [],
   "tags": [

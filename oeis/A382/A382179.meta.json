@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that for each digit of k, 2*k*(digit) + 1 is prime.",
+  "id": "A382179",
+  "mentions": [
+    "A000040",
+    "A382127",
+    "A382198",
+    "A382199"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

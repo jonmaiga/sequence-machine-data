@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 223/71.",
+  "id": "A380109",
+  "mentions": [
+    "A000796",
+    "A021075",
+    "A068028"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

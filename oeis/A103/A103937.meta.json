@@ -1,10 +1,11 @@
 {
-  "description": "Number of unrooted n-edge maps in the plane (planar with a distinguished outside face).",
+  "description": "Number of unrooted n-edge maps in the plane (planar map with a distinguished outside face).",
   "id": "A103937",
   "mentions": [
     "A000010",
     "A005159",
-    "A005470"
+    "A006384",
+    "A380240"
   ],
   "tags": [
     "easy",
@@ -12,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
   }
 }

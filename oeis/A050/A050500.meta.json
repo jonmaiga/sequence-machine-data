@@ -2,7 +2,8 @@
   "description": "Integer part of n/log(n).",
   "id": "A050500",
   "mentions": [
-    "A050499"
+    "A050499",
+    "A072626"
   ],
   "tags": [
     "nonn"

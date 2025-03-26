@@ -2,6 +2,7 @@
   "description": "a(n) = 16*n^2 - 4.",
   "id": "A158443",
   "mentions": [
+    "A000466",
     "A005843",
     "A074377",
     "A157914"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 43,
     "source": "oeis-bfile"
   }
 }

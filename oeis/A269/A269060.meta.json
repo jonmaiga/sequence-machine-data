@@ -1,5 +1,5 @@
 {
-  "description": "Magic sums of 3 X 3 semimagic squares composed of triangular numbers.",
+  "description": "Magic sums of 3 X 3 semimagic squares composed of positive triangular numbers.",
   "id": "A269060",
   "mentions": [
     "A000217",

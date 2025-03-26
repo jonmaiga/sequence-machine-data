@@ -2,7 +2,6 @@
   "description": "Indices of powers of 2 in A098550.",
   "id": "A251393",
   "mentions": [
-    "A000961",
     "A098550",
     "A209229",
     "A251241",
@@ -15,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

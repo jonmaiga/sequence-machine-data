@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form n! + (n+1)! + 1.",
+  "description": "Primes of the form k! + (k+1)! + 1.",
   "id": "A118913",
   "mentions": [
     "A087147"

@@ -1,5 +1,5 @@
 {
-  "description": "Consider the sequence: b(0) = n, and for k >= 1, b(k) = b(k-1)/2 if b(k-1) is even, otherwise b(k) = k-(b(k-1)+1)/2. Then a(n) = m, where m is the smallest index such that b(m) = 1.",
+  "description": "Consider the sequence: b(0) = n, and for k >= 1, b(k) = b(k-1)/2 if b(k-1) is even, otherwise b(k) = n - (b(k-1)+1)/2. Then a(n) = m, where m is the smallest index such that b(m) = 1.",
   "id": "A137605",
   "mentions": [
     "A002326",

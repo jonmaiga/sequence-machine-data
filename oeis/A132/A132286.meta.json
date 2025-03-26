@@ -1,11 +1,12 @@
 {
-  "description": "Mirror odd numbers A132285(n) divided by 11.",
+  "description": "Odd palindromes with an even number of digits divided by 11.",
   "id": "A132286",
   "mentions": [
     "A132285"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

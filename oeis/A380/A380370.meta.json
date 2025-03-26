@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. log( 1 - log(1 - x)^5 / 120 ).",
+  "id": "A380370",
+  "mentions": [
+    "A346966",
+    "A377376",
+    "A379674"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

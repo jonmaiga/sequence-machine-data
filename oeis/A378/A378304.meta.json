@@ -1,0 +1,19 @@
+{
+  "description": "Unique sequence s starting with 1,1,2,2 such that if r(r(r(s))) = s and r(s) != s and r(r(s)) != s, where r(#) denotes the runlength sequence of a sequence #.",
+  "id": "A378304",
+  "mentions": [
+    "A378282",
+    "A378303",
+    "A378305",
+    "A378306",
+    "A378307"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

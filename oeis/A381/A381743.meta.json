@@ -1,0 +1,23 @@
+{
+  "description": "The number of divisors d of n such that d*n is abundant.",
+  "id": "A381743",
+  "mentions": [
+    "A000005",
+    "A000396",
+    "A002182",
+    "A005101",
+    "A341358",
+    "A381738",
+    "A381742"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

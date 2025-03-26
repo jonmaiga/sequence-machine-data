@@ -2,12 +2,17 @@
   "description": "Decimal expansion of 1/sqrt(72) = 1/(3*2^(3/2)) = sqrt(2)/12.",
   "id": "A020829",
   "mentions": [
+    "A010524",
+    "A020765",
+    "A020775",
     "A102208",
     "A102769",
-    "A131594"
+    "A131594",
+    "A378207"
   ],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],

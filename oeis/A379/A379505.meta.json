@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of ways of partitioning the divisors of n into two disjoint sets with equal sum, when an extra 1-divisor is added to the divisor set, and the two 1-divisors are considered indistinguishable.",
+  "id": "A379505",
+  "mentions": [
+    "A000079",
+    "A083206",
+    "A103977",
+    "A156942",
+    "A336700",
+    "A379502",
+    "A379503",
+    "A379504"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

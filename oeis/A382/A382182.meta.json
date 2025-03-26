@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest increasing sequence starting with a(0) = 1 such that the polynomial which interpolates the first k values has degree k-1 and only integer coefficients.",
+  "id": "A382182",
+  "mentions": [
+    "A000522",
+    "A182386"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

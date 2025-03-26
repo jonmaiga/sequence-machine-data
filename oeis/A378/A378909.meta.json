@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 1/sqrt(tanh(1)).",
+  "id": "A378909",
+  "mentions": [
+    "A073744",
+    "A073747"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

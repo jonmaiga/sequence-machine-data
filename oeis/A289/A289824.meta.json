@@ -1,16 +1,17 @@
 {
-  "description": "Primes of the form k!3-19683, where k!3 is the triple factorial number (A007661).",
+  "description": "Primes of the form k!3 - 19683, where k!3 is the triple factorial number (A007661).",
   "id": "A289824",
   "mentions": [
     "A007661",
     "A267029"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n + [ns/r] + [nt/r] + [nu/r] + [nv/r] + [nw/r], where r=sin(x), s=cos(x), t=tan(x), u=csc(x), v=sec(x), w=cot(x), x=Pi/5.",
+  "description": "a(n) = n + [n*s/r] + [n*t/r] + [n*u/r] + [n*v/r] + [n*w/r], where r=sin(x), s=cos(x), t=tan(x), u=csc(x), v=sec(x), w=cot(x), x=Pi/5.",
   "id": "A190513",
   "mentions": [
     "A190514",

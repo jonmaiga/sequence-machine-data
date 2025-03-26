@@ -1,0 +1,16 @@
+{
+  "description": "Primes p such that 2^(nextprime(p) - p) + p is prime.",
+  "id": "A378703",
+  "mentions": [
+    "A000040",
+    "A218075"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

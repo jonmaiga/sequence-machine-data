@@ -1,0 +1,18 @@
+{
+  "description": "Number of unlabeled Riordan posets with n elements.",
+  "id": "A379608",
+  "mentions": [
+    "A000112",
+    "A000608",
+    "A349401"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

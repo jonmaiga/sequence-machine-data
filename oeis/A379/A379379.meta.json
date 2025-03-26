@@ -1,0 +1,26 @@
+{
+  "description": "Sum of odd divisors of n except the \"e\" odd divisors described in A005279.",
+  "id": "A379379",
+  "mentions": [
+    "A000593",
+    "A001227",
+    "A005279",
+    "A182469",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A239657",
+    "A379288",
+    "A379374",
+    "A379384",
+    "A379461"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

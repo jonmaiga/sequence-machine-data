@@ -1,12 +1,16 @@
 {
-  "description": "(1/24)*(sigma_3(2n-1)-sigma_1(2n-1)).",
+  "description": "a(n) = (1/24)*(sigma_3(2*n-1) - sigma_1(2*n-1)).",
   "id": "A081861",
   "mentions": [
     "A000203",
     "A001158",
+    "A008438",
+    "A045823",
     "A081863"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

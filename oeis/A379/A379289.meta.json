@@ -1,0 +1,13 @@
+{
+  "description": "Spiral sequence of squares starting with 1 in the center. Each new term is the sum of its eight neighbors, negated if the number of nonempty neighbors is even. Spiral moves up first, then right, down, left, repeating outward.",
+  "id": "A379289",
+  "mentions": [],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

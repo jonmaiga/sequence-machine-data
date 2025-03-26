@@ -1,0 +1,18 @@
+{
+  "description": "Least integer k such that the multiplicative group modulo n is a subgroup of the symmetric group S_k.",
+  "id": "A380827",
+  "mentions": [
+    "A008475",
+    "A282625",
+    "A380222"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

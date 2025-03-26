@@ -2,8 +2,16 @@
   "description": "The largest infinitary divisor of n that is a term of A366243.",
   "id": "A366245",
   "mentions": [
+    "A008833",
+    "A046100",
+    "A059895",
+    "A059896",
+    "A059897",
     "A063695",
+    "A225546",
+    "A248101",
     "A335324",
+    "A352780",
     "A366242",
     "A366243",
     "A366244"

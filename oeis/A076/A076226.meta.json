@@ -1,5 +1,5 @@
 {
-  "description": "Greatest of the most frequent values in a(n)-th row of A076221 is not n-1.",
+  "description": "Numbers m such that the largest of the most frequent values in m-th row of A076221 is different from m-1.",
   "id": "A076226",
   "mentions": [
     "A076221"

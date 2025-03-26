@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of A378299.",
+  "id": "A380001",
+  "mentions": [
+    "A378299"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

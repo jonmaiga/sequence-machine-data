@@ -1,8 +1,9 @@
 {
-  "description": "Partial sums of A002893.",
+  "description": "Partial sums of A002893 with A002893(0)=0.",
   "id": "A207321",
   "mentions": [
-    "A002893"
+    "A002893",
+    "A174123"
   ],
   "tags": [
     "formulas",

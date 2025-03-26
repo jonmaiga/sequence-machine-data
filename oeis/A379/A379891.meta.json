@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the midradius of a pentagonal hexecontahedron with unit shorter edge length.",
+  "id": "A379891",
+  "mentions": [
+    "A377807",
+    "A379888",
+    "A379889",
+    "A379890",
+    "A379892"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

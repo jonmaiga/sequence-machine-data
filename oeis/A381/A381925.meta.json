@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers k which have at least one divisor d for which tau(k) = sigma(d).",
+  "id": "A381925",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A027750",
+    "A381926",
+    "A381927"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

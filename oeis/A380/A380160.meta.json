@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the value of the Euler totient function when applied to the powerful part of n.",
+  "id": "A380160",
+  "mentions": [
+    "A000010",
+    "A001694",
+    "A005117",
+    "A057521",
+    "A295294",
+    "A295295",
+    "A323333",
+    "A349379",
+    "A357669",
+    "A380161"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

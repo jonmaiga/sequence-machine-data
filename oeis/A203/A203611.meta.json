@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{k=0..n} C(k-1,2*k-1-n)*C(k,2*k-n).",
+  "description": "a(n) = Sum_{k=0..n} binomial(k-1,2*k-1-n)*binomial(k,2*k-n), with a(0) = 1.",
   "id": "A203611",
   "mentions": [
     "A001622",

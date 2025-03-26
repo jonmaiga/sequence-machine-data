@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] G(x)^n, where G(x) = Product_{k >= 1} (1 + x^k)^(k^2) is the g.f. of A027998.",
+  "id": "A380291",
+  "mentions": [
+    "A027998",
+    "A078307",
+    "A380290"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

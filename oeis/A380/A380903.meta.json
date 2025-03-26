@@ -1,0 +1,20 @@
+{
+  "description": "Least positive k such that n^n * k^k - 1 is a prime, or 0 if no such k exists.",
+  "id": "A380903",
+  "mentions": [
+    "A228175",
+    "A231119",
+    "A231735"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

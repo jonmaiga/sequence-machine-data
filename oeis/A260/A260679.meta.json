@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n+(17-n)^2.",
+  "description": "a(n) = n + (17 - n)^2.",
   "id": "A260679",
   "mentions": [
     "A002837",

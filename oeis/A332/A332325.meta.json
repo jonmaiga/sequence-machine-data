@@ -1,17 +1,17 @@
 {
-  "description": "Number of Maclaurin polynomials p(2m,x) of cos x that have exactly n positive zeros.",
+  "description": "Number of Maclaurin polynomials p(2m,x) of cos(x) that have exactly n positive zeros.",
   "id": "A332325",
   "mentions": [
     "A332326",
-    "A332420"
+    "A332420",
+    "A358997"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 88,
     "source": "oeis-entry"
   }
 }

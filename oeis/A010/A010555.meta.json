@@ -2,15 +2,18 @@
   "description": "a(n) = 1 if n is the product of an even number of distinct primes, otherwise a(n) = -1.",
   "id": "A010555",
   "mentions": [
-    "A008683"
+    "A008683",
+    "A030229",
+    "A353629"
   ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 79,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

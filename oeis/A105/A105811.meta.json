@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+x-x^2)/(1+x)^2.",
+  "description": "Expansion of g.f. (1+x-x^2)/(1+x)^2.",
   "id": "A105811",
   "mentions": [
     "A105810"

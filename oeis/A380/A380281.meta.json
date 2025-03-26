@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) read by rows: T(n, k) = 2^n*binomial(2*n + 1, 2*k + 1) * Pochhammer(1/2, n - k) * Pochhammer(1/2, k).",
+  "id": "A380281",
+  "mentions": [
+    "A000457",
+    "A001147",
+    "A001881",
+    "A076729",
+    "A103327",
+    "A173424"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

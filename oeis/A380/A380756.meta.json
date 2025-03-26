@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number not yet in the sequence which is coprime to n and has the same number of 0's in its binary expansion as n.",
+  "id": "A380756",
+  "mentions": [
+    "A000120",
+    "A023416"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

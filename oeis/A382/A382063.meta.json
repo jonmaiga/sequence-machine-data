@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose number of coreful divisors is divisible by their number of exponential divisors.",
+  "id": "A382063",
+  "mentions": [
+    "A000005",
+    "A002117",
+    "A004709",
+    "A005361",
+    "A036966",
+    "A049419",
+    "A344742",
+    "A360540",
+    "A377019",
+    "A382061",
+    "A382064",
+    "A382065"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (n + 1)^(n - 1) + (n + 1)^(n - 2), by convention a(1) = 1.",
+  "id": "A379612",
+  "mentions": [
+    "A379611"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

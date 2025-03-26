@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with only digits \"1\" and two digits \"0\".",
+  "id": "A379268",
+  "mentions": [
+    "A007088",
+    "A023416",
+    "A357773",
+    "A379267"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

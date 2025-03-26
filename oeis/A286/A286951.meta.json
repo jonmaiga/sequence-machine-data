@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) is the number of graphs with n vertices with matching number k (0 <= k <= floor(n/2)).",
+  "description": "Irregular triangle read by rows: T(n,k) is the number of simple graphs with n vertices with matching number k (0 <= k <= floor(n/2)).",
   "id": "A286951",
   "mentions": [
     "A000088",

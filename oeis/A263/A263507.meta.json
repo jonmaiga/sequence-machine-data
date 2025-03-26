@@ -1,5 +1,5 @@
 {
-  "description": "Number of (1+1)X(n+1) arrays of permutations of 0..n*2+1 filled by rows with each element moved a city block distance of 0 1 or 2, and rows and columns in increasing lexicographic order.",
+  "description": "Number of (1+1) X (n+1) arrays of permutations of 0..n*2+1 filled by rows with each element moved a city block distance of 0 1 or 2, and rows and columns in increasing lexicographic order.",
   "id": "A263507",
   "mentions": [
     "A263506"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 28,
     "source": "oeis-bfile"
   }
 }

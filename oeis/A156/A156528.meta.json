@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,m) = (-1)^n*Sum_{i=0..m} [(-1)^(m-i)*binomial(n- i-1, m-i)*Stirling_1(n+i+1,i+1), for 0 <= m <= n.",
+  "description": "Triangle read by rows: T(n,m) = (-1)^n*Sum_{i=0..m} (-1)^(m-i)*binomial(n-i-1, m-i)*Stirling_1(n+i+1,i+1), for 0 <= m <= n.",
   "id": "A156528",
   "mentions": [
     "A191870"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 37,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

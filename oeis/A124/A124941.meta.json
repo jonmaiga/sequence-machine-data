@@ -1,9 +1,12 @@
 {
-  "description": "Numbers n such that n and n+4 are 4-almost primes.",
+  "description": "Numbers k such that k and k+4 are 4-almost primes.",
   "id": "A124941",
   "mentions": [
+    "A014613",
     "A124940",
-    "A124942"
+    "A124942",
+    "A157483",
+    "A180117"
   ],
   "tags": [
     "nonn"

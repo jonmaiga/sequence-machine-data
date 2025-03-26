@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k such that the last k digits of m = A020666(n)^n contain all 10 possible digits (0 through 9).",
+  "id": "A378771",
+  "mentions": [
+    "A005054",
+    "A020666"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

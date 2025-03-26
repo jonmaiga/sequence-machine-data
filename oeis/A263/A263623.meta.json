@@ -2,10 +2,13 @@
   "description": "a(1)=1; thereafter, a(n) = smallest k such that the decimal concatenation [a(n-2)+1 a(n-2)+2, ... a(n-1)] divides the decimal concatenation [a(n-1)+1 a(n-1)+2 ... k].",
   "id": "A263623",
   "mentions": [
-    "A002782"
+    "A002782",
+    "A029455",
+    "A332580"
   ],
   "tags": [
     "base",
+    "hard",
     "more",
     "nonn"
   ],

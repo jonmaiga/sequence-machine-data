@@ -1,16 +1,18 @@
 {
-  "description": "Related to the game Blet.",
+  "description": "Number of reachable arrangements of coins in the game Blet starting with 2n coins.",
   "id": "A075273",
   "mentions": [
-    "A075274"
+    "A075274",
+    "A381814"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 14,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

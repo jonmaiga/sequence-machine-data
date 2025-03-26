@@ -1,5 +1,5 @@
 {
-  "description": "Products of 5 distinct primes (or pentaprimes) that are sandwiched between twin prime numbers.",
+  "description": "Products of 5 distinct primes that are sandwiched between twin prime numbers.",
   "id": "A376380",
   "mentions": [
     "A014574",

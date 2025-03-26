@@ -1,10 +1,11 @@
 {
-  "description": "[sum{(k/4) : 1<=k<=n}], where [ ]=floor, ( )=fractional part.",
+  "description": "a(n) = floor(Sum_{k=1..n} frac(k/4)).",
   "id": "A194220",
   "mentions": [
     "A194221"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

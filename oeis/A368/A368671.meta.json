@@ -2,10 +2,14 @@
   "description": "For any k >= 0, let P(k) = A368357(k) and P(-k) = A368358(k); for any n > 0, a(n) is the unique k such that P(k) = n.",
   "id": "A368671",
   "mentions": [
+    "A000523",
+    "A001045",
+    "A036044",
     "A368357",
     "A368358"
   ],
   "tags": [
+    "formulas",
     "look",
     "sign"
   ],

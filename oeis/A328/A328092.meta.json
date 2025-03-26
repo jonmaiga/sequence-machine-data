@@ -1,5 +1,5 @@
 {
-  "description": "A sequence arising in solution of Monthly problem 12008.",
+  "description": "Card numbers for top card reappearing at the top after three shuffles (Monthly problem 12008).",
   "id": "A328092",
   "mentions": [
     "A328091"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

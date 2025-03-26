@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the n-th row of triangle in A073932 contains the divisors of n.",
+  "description": "Numbers n such that the n-th row of triangle in A073932 contains exactly the divisors of n.",
   "id": "A073935",
   "mentions": [
     "A073932",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

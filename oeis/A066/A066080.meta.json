@@ -2,6 +2,7 @@
   "description": "Largest solution x to phi(x) + 1 = prime(n).",
   "id": "A066080",
   "mentions": [
+    "A000010",
     "A057826"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

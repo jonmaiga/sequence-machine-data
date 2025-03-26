@@ -1,0 +1,17 @@
+{
+  "description": "Nonmultiples of 10 that are divisible by the square of the sum of the squares of their digits.",
+  "id": "A379982",
+  "mentions": [
+    "A067251",
+    "A379980"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

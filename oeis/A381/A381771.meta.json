@@ -1,0 +1,19 @@
+{
+  "description": "For any n > 0, a(n) is the least positive multiple of n whose factorial base expansion has digits in nonincreasing order; a(0) = 0.",
+  "id": "A381771",
+  "mentions": [
+    "A223474",
+    "A351987",
+    "A381770"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

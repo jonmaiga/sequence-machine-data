@@ -1,0 +1,19 @@
+{
+  "description": "Number of days where month plus day equals n, in a non-leap year in the Gregorian calendar.",
+  "id": "A377293",
+  "mentions": [
+    "A008685"
+  ],
+  "tags": [
+    "dumb",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

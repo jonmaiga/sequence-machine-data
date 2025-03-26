@@ -1,9 +1,17 @@
 {
   "description": "Decimal expansion of 1/sqrt(27).",
   "id": "A020784",
-  "mentions": [],
+  "mentions": [
+    "A002194",
+    "A010482",
+    "A020760",
+    "A021031",
+    "A073010",
+    "A212886"
+  ],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],

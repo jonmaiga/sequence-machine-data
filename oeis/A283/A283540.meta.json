@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX5 0..1 arrays with no 1 equal to more than one of its horizontal, diagonal and antidiagonal neighbors.",
+  "description": "Number of n X 5 0..1 arrays with no 1 equal to more than one of its horizontal, diagonal and antidiagonal neighbors.",
   "id": "A283540",
   "mentions": [
     "A283543"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

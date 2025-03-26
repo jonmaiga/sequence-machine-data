@@ -1,5 +1,5 @@
 {
-  "description": "For odd numbers 2n-1, half the sum of the least divisor not less than the square root and the largest divisor not exceeding the square root.",
+  "description": "a(n) is the median of the divisors of 2n-1.",
   "id": "A377499",
   "mentions": [
     "A001844",
@@ -8,7 +8,9 @@
     "A033677",
     "A063655",
     "A219695",
-    "A377864"
+    "A361565",
+    "A377864",
+    "A377865"
   ],
   "tags": [
     "formulas",

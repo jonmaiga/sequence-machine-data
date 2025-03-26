@@ -18,11 +18,12 @@
     "A360005"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 87,
-    "source": "oeis-entry"
+    "size": 108,
+    "source": "oeis-bfile"
   }
 }

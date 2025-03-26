@@ -1,5 +1,5 @@
 {
-  "description": "Total number of 1-s in binary representation of all factorials from 1 to n.",
+  "description": "Total number of 1's in binary representation of all factorials from 1 to n.",
   "id": "A071425",
   "mentions": [
     "A000142",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

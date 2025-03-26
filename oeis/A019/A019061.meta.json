@@ -1,5 +1,5 @@
 {
-  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite THO = Thomsonite Na4Ca8[ Al20Si20O80 ] . 24 H2O.",
+  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite THO = Thomsonite Na4Ca8[Al20Si20O80].24H2O starting at a T3 atom.",
   "id": "A019061",
   "mentions": [
     "A019012"

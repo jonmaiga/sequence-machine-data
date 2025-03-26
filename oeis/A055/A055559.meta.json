@@ -2,10 +2,13 @@
   "description": "Primes of the form 2999...999.",
   "id": "A055559",
   "mentions": [
-    "A051200"
+    "A051200",
+    "A056703",
+    "A198698"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that no 3 terms are in harmonic progression.",
+  "id": "A381137",
+  "mentions": [
+    "A000452",
+    "A003278",
+    "A005279",
+    "A174905"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

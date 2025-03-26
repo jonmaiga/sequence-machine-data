@@ -1,0 +1,24 @@
+{
+  "description": "Array read by downward antidiagonals: rows list practical numbers with the same progenitor primitive practical number (A267124).",
+  "id": "A379713",
+  "mentions": [
+    "A000079",
+    "A005117",
+    "A005153",
+    "A007947",
+    "A033845",
+    "A143207",
+    "A267124",
+    "A284457",
+    "A379325"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

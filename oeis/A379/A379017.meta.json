@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct sums s(m) + s(m+1) + ... + s(m+n-1), where s = A000002, and m >= 1.",
+  "id": "A379017",
+  "mentions": [
+    "A000002",
+    "A007782",
+    "A283511",
+    "A333229",
+    "A376677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

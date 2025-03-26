@@ -1,7 +1,9 @@
 {
   "description": "Members of twin prime pairs using only digits 7 and 9.",
   "id": "A112785",
-  "mentions": [],
+  "mentions": [
+    "A020471"
+  ],
   "tags": [
     "base",
     "nonn"

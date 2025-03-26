@@ -1,0 +1,14 @@
+{
+  "description": "Maximum number of connections for a 2 X n rectangle.",
+  "id": "A379241",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

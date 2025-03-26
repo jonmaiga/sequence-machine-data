@@ -1,13 +1,17 @@
 {
-  "description": "Prime numbers of the form q*10^(floor(log(p))+1)+p, where p < q are primes also.",
+  "description": "Prime numbers formed by the concatenation of q and p, where q > p are also primes.",
   "id": "A133187",
-  "mentions": [],
+  "mentions": [
+    "A019549",
+    "A105184"
+  ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 47,
     "source": "oeis-entry"
   }
 }

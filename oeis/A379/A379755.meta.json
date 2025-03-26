@@ -1,0 +1,18 @@
+{
+  "description": "Orders k of groups where at least one group has a simple automorphism group.",
+  "id": "A379755",
+  "mentions": [
+    "A000079",
+    "A001228"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

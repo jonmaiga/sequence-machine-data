@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = (6^n+2^n-2*3^n)*(n-1)!/2.",
+  "id": "A381219",
+  "mentions": [
+    "A379809"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

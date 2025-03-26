@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that in the symmetric representation of sigma(n) all parts are of the same size.",
+  "description": "Numbers k such that in the symmetric representation of sigma(k) all parts are of the same size.",
   "id": "A265999",
   "mentions": [
     "A000040",
     "A000079",
     "A000203",
     "A000396",
+    "A174973",
     "A196020",
     "A235791",
     "A236104",
@@ -14,11 +15,14 @@
     "A237591",
     "A237593",
     "A239660",
+    "A239929",
     "A239931",
     "A239934",
     "A245092",
+    "A251820",
     "A262626",
-    "A266000"
+    "A266000",
+    "A377654"
   ],
   "tags": [
     "nonn"
@@ -26,6 +30,6 @@
   "terms": {
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

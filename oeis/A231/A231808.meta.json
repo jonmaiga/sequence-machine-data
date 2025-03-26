@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of asymptotic density of Union{H_p: p is odd prime and p <= n-th prime}, where H_p is {K p(p-1)/2 : K integer}.",
+  "description": "Numerator of asymptotic density of Union{H_p: p is odd prime and p <= n-th prime}, where H_p is {K*p*(p-1)/2 : K integer}.",
   "id": "A231808",
   "mentions": [
     "A008837",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=A000040[A096480(n)].",
+  "description": "a(n) = A000040(A096480(n)).",
   "id": "A096481",
   "mentions": [
     "A000040",
@@ -7,6 +7,8 @@
     "A072677",
     "A073124",
     "A096477",
+    "A096478",
+    "A096479",
     "A096480",
     "A096482"
   ],
@@ -16,6 +18,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

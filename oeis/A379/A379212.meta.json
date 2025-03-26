@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{n >= 0} q^(n*(n+1)) * Product_{k >= 2*n+2} 1 - q^k.",
+  "id": "A379212",
+  "mentions": [
+    "A204220",
+    "A204221",
+    "A379210",
+    "A379211"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

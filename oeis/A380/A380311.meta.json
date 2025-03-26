@@ -1,0 +1,16 @@
+{
+  "description": "Partial sums of A377090.",
+  "id": "A380311",
+  "mentions": [
+    "A377090"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

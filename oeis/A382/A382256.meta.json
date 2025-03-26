@@ -1,0 +1,15 @@
+{
+  "description": "Smallest binary number whose run lengths of bits correspond to a partition with Heinz number n.",
+  "id": "A382256",
+  "mentions": [
+    "A382255"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

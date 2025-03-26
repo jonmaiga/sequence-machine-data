@@ -1,0 +1,47 @@
+{
+  "description": "Positions in A246655 (prime powers) of terms q such that there is no prime between q and the next prime power.",
+  "id": "A379156",
+  "mentions": [
+    "A000015",
+    "A000040",
+    "A000961",
+    "A001223",
+    "A025474",
+    "A031218",
+    "A046933",
+    "A053607",
+    "A057820",
+    "A065514",
+    "A067871",
+    "A068315",
+    "A080101",
+    "A080769",
+    "A131605",
+    "A175106",
+    "A178700",
+    "A246655",
+    "A274605",
+    "A304521",
+    "A345531",
+    "A366833",
+    "A366835",
+    "A377281",
+    "A377287",
+    "A377289",
+    "A377432",
+    "A377434",
+    "A378368",
+    "A379155",
+    "A379157"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

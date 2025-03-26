@@ -2,16 +2,18 @@
   "description": "Number of partitions of k_n into two distinct parts (s,t) such that k_n | s*t, where k_n = A335437(n).",
   "id": "A335438",
   "mentions": [
+    "A000188",
     "A013929",
     "A335234",
     "A335437"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 92,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

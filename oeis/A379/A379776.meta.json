@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = position of prime(n) in A379775, or a(n) = -1 if prime(n) is not in A379775.",
+  "id": "A379776",
+  "mentions": [
+    "A379775"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows, T(n,k) is the number of n X n matrices over GF(2) that converge to an idempotent at rank k, n>=0, 0<=k<=n.",
+  "id": "A379778",
+  "mentions": [
+    "A053763",
+    "A358649"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

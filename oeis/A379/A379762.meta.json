@@ -1,0 +1,21 @@
+{
+  "description": "Products of 4 distinct primes numbers (or tetraprimes) that are abundant.",
+  "id": "A379762",
+  "mentions": [
+    "A001065",
+    "A005101",
+    "A046386",
+    "A046389",
+    "A378717",
+    "A379917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Triangle read by rows, T(n, k) = (lcm_{k=0..n} binomial(n, k)) / binomial(n, k).",
   "id": "A349203",
   "mentions": [
+    "A002944",
     "A007318",
     "A025533",
     "A347563"

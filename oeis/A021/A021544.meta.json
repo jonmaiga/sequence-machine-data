@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x)(1-3x)(1-7x)(1-8x)).",
+  "description": "Expansion of g.f. 1/((1 - x)*(1 - 3*x)*(1 - 7*x)*(1 - 8*x)).",
   "id": "A021544",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

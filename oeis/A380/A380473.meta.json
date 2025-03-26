@@ -1,0 +1,21 @@
+{
+  "description": "Third coefficient of the lindep transform of the sum of unitary divisors of n, A034448.",
+  "id": "A380473",
+  "mentions": [
+    "A034448",
+    "A339792",
+    "A380463",
+    "A380471",
+    "A380472",
+    "A380483"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

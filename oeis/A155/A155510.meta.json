@@ -1,7 +1,21 @@
 {
   "description": "Possible cardinalities of the set of all k-th powers of the order n permutations, where k and n are some positive integers.",
   "id": "A155510",
-  "mentions": [],
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A003483",
+    "A103619",
+    "A103620",
+    "A215716",
+    "A215717",
+    "A215718",
+    "A247005",
+    "A247006",
+    "A247007",
+    "A247008",
+    "A247009"
+  ],
   "tags": [
     "nonn"
   ],

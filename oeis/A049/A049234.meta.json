@@ -1,13 +1,18 @@
 {
   "description": "Number of divisors of prime(n) + 2.",
   "id": "A049234",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A052147"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 103,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

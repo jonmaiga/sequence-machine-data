@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum number of coincidences of the first n terms of this sequence and a cyclic shift of the first n terms of A380189, i.e., the number of equalities a(k) = A380189((s+k) mod n) for 0 <= k < n, maximized over s.",
+  "id": "A380188",
+  "mentions": [
+    "A272727",
+    "A276638",
+    "A379265",
+    "A379266",
+    "A380189",
+    "A380190"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

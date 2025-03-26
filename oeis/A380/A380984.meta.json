@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p*(p-1) consists of exactly two different decimal digits.",
+  "id": "A380984",
+  "mentions": [
+    "A076850",
+    "A096507",
+    "A380974"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

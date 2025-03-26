@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n*g+(g-1)/2), where g is the golden ratio.",
+  "id": "A382116",
+  "mentions": [
+    "A001622",
+    "A184582",
+    "A184734",
+    "A382113"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

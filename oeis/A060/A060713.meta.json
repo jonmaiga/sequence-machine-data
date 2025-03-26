@@ -1,11 +1,13 @@
 {
-  "description": "Smallest number whose digit sum is 5^n.",
+  "description": "Smallest number whose sum of digits is 5^n.",
   "id": "A060713",
   "mentions": [
+    "A051885",
     "A060712"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

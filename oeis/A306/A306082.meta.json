@@ -2,6 +2,7 @@
   "description": "Expansion of e.g.f. Product_{k>=1} 1/(1 - (exp(x) - 1)^(k^2)).",
   "id": "A306082",
   "mentions": [
+    "A000010",
     "A001156",
     "A294529",
     "A306083",

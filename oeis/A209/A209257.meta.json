@@ -10,12 +10,13 @@
     "A059620"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 40,
     "source": "oeis-bfile"
   }
 }

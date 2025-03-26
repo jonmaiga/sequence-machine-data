@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = prime(n)-(prime(n+1)+prime(n-1))/2.",
+  "description": "a(n) = prime(n) - (prime(n+1) + prime(n-1))/2.",
   "id": "A102552",
   "mentions": [
     "A000040",

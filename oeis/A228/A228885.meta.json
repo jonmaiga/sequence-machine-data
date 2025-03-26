@@ -2,10 +2,15 @@
   "description": "Determinant of the n X n matrix with (i,j)-entry equal to 1 or 0 according as i + j is coprime to n or not.",
   "id": "A228885",
   "mentions": [
+    "A000010",
+    "A008966",
+    "A057077",
     "A228860",
-    "A228884"
+    "A228884",
+    "A349741"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

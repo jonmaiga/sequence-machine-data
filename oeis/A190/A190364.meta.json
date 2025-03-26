@@ -1,5 +1,5 @@
 {
-  "description": "n + [n*s/r] + [n*t/r] + [n*u/r]; r=sqrt(2), s=1/r, t=sqrt(3), u=1/t.",
+  "description": "a(n) = n + [n*s/r] + [n*t/r] + [n*u/r]; r=sqrt(2), s=1/r, t=sqrt(3), u=1/t.",
   "id": "A190364",
   "mentions": [
     "A190365",

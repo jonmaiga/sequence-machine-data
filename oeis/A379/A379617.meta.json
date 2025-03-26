@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the partial alternating sums of the reciprocals of the sum of bi-unitary divisors function (A188999).",
+  "id": "A379617",
+  "mentions": [
+    "A188999",
+    "A307159",
+    "A370904",
+    "A379615",
+    "A379618"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

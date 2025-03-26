@@ -1,17 +1,19 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x*A(x)^3)^3.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x*A(x)^3)^3.",
   "id": "A212029",
   "mentions": [
     "A143501",
     "A143508",
-    "A212028"
+    "A212028",
+    "A381570"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

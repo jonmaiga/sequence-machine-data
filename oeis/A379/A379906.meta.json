@@ -1,0 +1,29 @@
+{
+  "description": "Smallest integer greater than 1 and not ending in 0 whose congruence speed is not constant at height n (see A373387).",
+  "id": "A379906",
+  "mentions": [
+    "A068407",
+    "A290372",
+    "A290373",
+    "A290374",
+    "A290375",
+    "A317905",
+    "A370211",
+    "A370775",
+    "A371129",
+    "A371671",
+    "A372490",
+    "A373387"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

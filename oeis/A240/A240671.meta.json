@@ -1,5 +1,5 @@
 {
-  "description": "Floor(4^n/(2+2*cos(2*Pi/7))^n).",
+  "description": "a(n) = floor(4^n/(2+2*cos(2*Pi/7))^n).",
   "id": "A240671",
   "mentions": [
     "A000302",

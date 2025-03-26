@@ -1,5 +1,5 @@
 {
-  "description": "Even dodecagonal numbers: 4*n*(5*n - 2).",
+  "description": "Even dodecagonal numbers: a(n) = 4*n*(5*n - 2).",
   "id": "A193872",
   "mentions": [
     "A016885",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 43,
     "source": "joeis"
   }
 }

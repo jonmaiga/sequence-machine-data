@@ -1,16 +1,17 @@
 {
-  "description": "Primes of the form n!!! + 1.",
+  "description": "Primes of the form k!!! + 1.",
   "id": "A037082",
   "mentions": [
     "A007661",
     "A037083"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

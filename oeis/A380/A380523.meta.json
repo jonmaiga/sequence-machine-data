@@ -1,0 +1,20 @@
+{
+  "description": "Positive cubes k such that there are no primes between k and the nearest square that is not k.",
+  "id": "A380523",
+  "mentions": [
+    "A053706",
+    "A380405",
+    "A380521",
+    "A380522"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

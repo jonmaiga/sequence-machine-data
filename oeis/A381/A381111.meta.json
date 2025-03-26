@@ -1,0 +1,16 @@
+{
+  "description": "Least k such that A381110(k) = n.",
+  "id": "A381111",
+  "mentions": [
+    "A376488",
+    "A381110"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

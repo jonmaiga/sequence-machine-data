@@ -1,0 +1,25 @@
+{
+  "description": "The binary weights of the odd Catalan numbers.",
+  "id": "A379152",
+  "mentions": [
+    "A000108",
+    "A000120",
+    "A011373",
+    "A038003",
+    "A079584",
+    "A082481",
+    "A379151",
+    "A379153"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

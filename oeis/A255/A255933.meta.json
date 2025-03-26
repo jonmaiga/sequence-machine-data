@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the largest integer m such that s/(m!-1) is integer, where s is the sum of all previous terms; a(1)=1.",
+  "description": "a(n) is the largest integer m such that s/(m!-1) is an integer, where s is the sum of all previous terms; a(1)=1.",
   "id": "A255933",
   "mentions": [],
   "tags": [

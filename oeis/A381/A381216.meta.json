@@ -1,0 +1,20 @@
+{
+  "description": "Number of isomers of C_n H_{2n+2} O_2.",
+  "id": "A381216",
+  "mentions": [
+    "A000598",
+    "A000599",
+    "A000600",
+    "A000602",
+    "A000635",
+    "A000636"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

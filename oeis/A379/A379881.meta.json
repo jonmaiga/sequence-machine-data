@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers of the form 8*x^2 + 27*y^2 where x and y are positive integers.",
+  "id": "A379881",
+  "mentions": [
+    "A002145",
+    "A107161"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

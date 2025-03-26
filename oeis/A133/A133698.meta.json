@@ -2,16 +2,18 @@
   "description": "Triangle, diagonal = A001227 with the rest zeros.",
   "id": "A133698",
   "mentions": [
-    "A001227"
+    "A000265",
+    "A001227",
+    "A130209",
+    "A133699"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 0,
-    "size": 55,
-    "source": "joeis"
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

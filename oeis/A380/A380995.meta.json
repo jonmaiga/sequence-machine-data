@@ -1,0 +1,23 @@
+{
+  "description": "Integers k that are the product of 3 distinct primes, the smallest of which is larger than the 4th root of k: k = p*q*r, where p, q, r are primes and k^(1/4) < p < q < r.",
+  "id": "A380995",
+  "mentions": [
+    "A007304",
+    "A088382",
+    "A115957",
+    "A138109",
+    "A251728",
+    "A253567",
+    "A290965",
+    "A362910",
+    "A380438"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

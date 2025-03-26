@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest value in the '3x+1' trajectory of starting points producing a record number of steps.",
+  "id": "A380138",
+  "mentions": [
+    "A006877",
+    "A006878",
+    "A006884",
+    "A006885",
+    "A025586"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

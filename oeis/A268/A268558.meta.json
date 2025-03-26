@@ -1,5 +1,5 @@
 {
-  "description": "Arises in counting maps on a surface: see Coquereaux-Zuber (2015) for precise definition.",
+  "description": "Number of not necessarily connected sensed combinatorial maps with n edges.",
   "id": "A268558",
   "mentions": [
     "A170946"
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

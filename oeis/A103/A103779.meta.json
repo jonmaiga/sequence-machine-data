@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of real root of y + y^2 + y^3 = x.",
+  "description": "Series reversion of y + y^2 + y^3.",
   "id": "A103779",
   "mentions": [
     "A071675",
-    "A103778"
+    "A103778",
+    "A350383"
   ],
   "tags": [
     "easy",

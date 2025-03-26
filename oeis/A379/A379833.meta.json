@@ -1,0 +1,26 @@
+{
+  "description": "The second Jordan totient function applied to the squares.",
+  "id": "A379833",
+  "mentions": [
+    "A000290",
+    "A002117",
+    "A002618",
+    "A007434",
+    "A379715",
+    "A379716",
+    "A379717",
+    "A379718",
+    "A379832"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

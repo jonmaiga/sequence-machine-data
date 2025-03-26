@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the smallest positive integer m such that for all integers k >= m an n-free 1-partition of k exists.",
+  "id": "A381381",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

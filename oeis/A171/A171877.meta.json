@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1) + a(n-2)*a(n-3) + a(n-4)^a(n-5)",
+  "description": "a(n) = a(n-1) + a(n-2)*a(n-3) + a(n-4)^a(n-5), with initial terms 0,0,1,1,1.",
   "id": "A171877",
   "mentions": [],
   "tags": [

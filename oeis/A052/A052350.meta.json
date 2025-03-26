@@ -1,9 +1,18 @@
 {
-  "description": "Smallest primes from A001359 where the distance (A053319) to the next similar twin increases.",
+  "description": "Least prime in A001359 (lesser of twin primes) such that the distance (A053319) to the next twin is 6*n.",
   "id": "A052350",
   "mentions": [
     "A001359",
     "A007530",
+    "A052351",
+    "A052352",
+    "A052353",
+    "A052354",
+    "A052355",
+    "A052356",
+    "A052357",
+    "A052358",
+    "A052359",
     "A052380",
     "A052381",
     "A053319",
@@ -11,12 +20,11 @@
     "A113275"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
+    "size": 44,
     "source": "oeis-bfile"
   }
 }

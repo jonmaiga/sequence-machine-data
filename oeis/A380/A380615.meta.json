@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sensed combinatorial maps with n edges and k vertices, 1 <= k <= n + 1.",
+  "id": "A380615",
+  "mentions": [
+    "A002995",
+    "A007769",
+    "A053979",
+    "A170946",
+    "A379430",
+    "A380237",
+    "A380616",
+    "A380617",
+    "A380618",
+    "A380619"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

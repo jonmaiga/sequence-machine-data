@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k > 0, read by rows with row polynomials R(n, x) such that R(2n+1, x) = x*R(n, x) for n >= 0, R(2n,x) = wt(n)*x*((x+1)^wt(n) - x^wt(n)) + Sum_{k=1..wt(n)} k*x^k*T(n,k) for n > 0 with R(0,x) = 0 where wt(n) = A000120(n).",
+  "id": "A380971",
+  "mentions": [
+    "A000120",
+    "A373183",
+    "A380179",
+    "A380944"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

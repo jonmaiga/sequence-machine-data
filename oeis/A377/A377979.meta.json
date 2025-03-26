@@ -1,0 +1,22 @@
+{
+  "description": "List of exponents in the expansion of (1 - q)*Sum_{n >= 0} q^(2*n*(n+1))*Product_{k >= 2*n+1} 1 - q^k.",
+  "id": "A377979",
+  "mentions": [
+    "A033577",
+    "A033578",
+    "A152749",
+    "A204221",
+    "A244806",
+    "A268539"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

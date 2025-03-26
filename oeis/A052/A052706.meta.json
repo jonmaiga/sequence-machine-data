@@ -1,7 +1,9 @@
 {
-  "description": "A simple context-free grammar.",
+  "description": "A simple context-free grammar: convolution square of A001002.",
   "id": "A052706",
-  "mentions": [],
+  "mentions": [
+    "A001002"
+  ],
   "tags": [
     "easy",
     "formulas",

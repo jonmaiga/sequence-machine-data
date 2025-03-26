@@ -2,7 +2,9 @@
   "description": "Expansion of -x*log'(-sqrt(12*x+2*sqrt(1-4*x)+2)/4+sqrt(1-4*x)/4+5/4).",
   "id": "A239230",
   "mentions": [
-    "A055113"
+    "A009766",
+    "A055113",
+    "A059260"
   ],
   "tags": [
     "formulas",

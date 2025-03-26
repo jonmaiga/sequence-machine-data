@@ -1,5 +1,5 @@
 {
-  "description": "Sum of digits of n-th semiprime (or biprime).",
+  "description": "Sum of digits of n-th semiprime.",
   "id": "A175013",
   "mentions": [
     "A001358",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "A361072(n)/n!^3.",
+  "description": "a(n) = A361072(n)/n!^3.",
   "id": "A217524",
   "mentions": [
     "A361072"

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = phi(1 + phi(4 + phi(9 + ... phi(n^2)))).",
+  "id": "A380341",
+  "mentions": [
+    "A000010",
+    "A380340",
+    "A380342",
+    "A380354",
+    "A380414",
+    "A380415"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

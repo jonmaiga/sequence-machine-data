@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 2, a(2) = 3; thereafter, a(n) = a(n-1) + sum of prior prime terms.",
+  "id": "A381149",
+  "mentions": [
+    "A101135",
+    "A119746",
+    "A131093",
+    "A381150"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

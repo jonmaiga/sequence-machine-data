@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (8+10x)/((1-x)(1-100x)).",
+  "description": "Expansion of (8+10*x)/((1-x)*(1-100*x)).",
   "id": "A097818",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 16,
     "source": "joeis"
   }
 }

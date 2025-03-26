@@ -1,0 +1,18 @@
+{
+  "description": "Kaprekar numbers that are the concatenation of two consecutive numbers.",
+  "id": "A381918",
+  "mentions": [
+    "A001704",
+    "A006886",
+    "A030466"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of sensed 6-regular combinatorial maps with n vertices.",
+  "id": "A380628",
+  "mentions": [
+    "A380624",
+    "A380626"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

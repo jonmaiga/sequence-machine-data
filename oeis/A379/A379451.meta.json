@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered ways of writing 0 as Sum_{k=-n..n} e(k)*k, where e(k) is 0 or 1.",
+  "id": "A379451",
+  "mentions": [
+    "A000980",
+    "A058377",
+    "A063865"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

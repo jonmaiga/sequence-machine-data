@@ -1,9 +1,12 @@
 {
-  "description": "Smallest number whose digit sum is 3^n.",
+  "description": "Smallest number whose sum of digits is 3^n.",
   "id": "A060712",
-  "mentions": [],
+  "mentions": [
+    "A051885"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

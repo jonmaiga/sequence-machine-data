@@ -1,7 +1,11 @@
 {
   "description": "Number of labeled Eulerian digraphs with n nodes.",
   "id": "A007080",
-  "mentions": [],
+  "mentions": [
+    "A054957",
+    "A058338",
+    "A229865"
+  ],
   "tags": [
     "formulas",
     "nice",

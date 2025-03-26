@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers in A376842, sorted according to their appearance in that sequence.",
+  "id": "A378419",
+  "mentions": [
+    "A317905",
+    "A372490",
+    "A373387",
+    "A376842"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

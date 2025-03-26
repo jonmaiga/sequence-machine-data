@@ -1,0 +1,18 @@
+{
+  "description": "Terms k of A378738 for which A378664(k) obtains novel values.",
+  "id": "A378741",
+  "mentions": [
+    "A091191",
+    "A378664",
+    "A378738",
+    "A378740"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

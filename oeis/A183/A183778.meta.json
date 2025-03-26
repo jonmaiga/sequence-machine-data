@@ -1,16 +1,17 @@
 {
-  "description": "Half the number of (n+1)X6 binary arrays with no 2X2 subblock having exactly 2 ones",
+  "description": "Half the number of (n+1) X 6 binary arrays with no 2 X 2 subblock having exactly 2 ones.",
   "id": "A183778",
   "mentions": [
     "A183782"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 17,
+    "offset": 0,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

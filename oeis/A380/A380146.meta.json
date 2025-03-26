@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that set records in A113901.",
+  "id": "A380146",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A001222",
+    "A002110",
+    "A025487",
+    "A036041",
+    "A061394",
+    "A113901",
+    "A378630"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

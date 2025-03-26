@@ -2,6 +2,7 @@
   "description": "Decimal expansion of log_4 (18).",
   "id": "A154909",
   "mentions": [
+    "A020857",
     "A094148",
     "A153201",
     "A153460",
@@ -22,6 +23,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

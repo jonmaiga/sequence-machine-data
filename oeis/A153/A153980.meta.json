@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers n equal to the sum of all the different integers formed by the digits of n (n itself excluded), keeping the order of the digits.",
+  "description": "Positive integers k equal to the sum of all the different integers formed by the digits of k (k itself excluded), keeping the order of the digits.",
   "id": "A153980",
   "mentions": [
     "A065794"

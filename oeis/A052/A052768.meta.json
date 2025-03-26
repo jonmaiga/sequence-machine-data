@@ -1,7 +1,9 @@
 {
-  "description": "A simple grammar.",
+  "description": "a(n) = n*(n-1)*(n-2*(n-3) for n>=5.",
   "id": "A052768",
-  "mentions": [],
+  "mentions": [
+    "A052762"
+  ],
   "tags": [
     "easy",
     "formulas",

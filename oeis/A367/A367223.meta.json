@@ -44,12 +44,12 @@
     "A367227"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

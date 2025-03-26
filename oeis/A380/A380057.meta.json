@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies A(x) = real( 1 + x*A(x)^i ), where i^2 = -1.",
+  "id": "A380057",
+  "mentions": [
+    "A380053",
+    "A380055",
+    "A380058"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

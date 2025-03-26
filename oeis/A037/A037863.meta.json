@@ -1,13 +1,17 @@
 {
-  "description": "a(n)=(number of digits <=1)-(number of digits >1) in base 4 representation of n.",
+  "description": "a(n) = (number of digits <=1) - (number of digits >1) in base 4 representation of n.",
   "id": "A037863",
-  "mentions": [],
+  "mentions": [
+    "A110591",
+    "A139352"
+  ],
   "tags": [
     "base",
+    "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 75,
     "source": "joeis"
   }

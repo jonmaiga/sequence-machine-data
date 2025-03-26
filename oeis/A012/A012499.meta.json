@@ -1,5 +1,5 @@
 {
-  "description": "tan(cos(x)*arctan(x))=x-3/3!*x^3-35/5!*x^5+1729/7!*x^7-12711/9!*x^9...",
+  "description": "Expansion of e.g.f. tan(cos(x)*arctan(x)) (odd powers only).",
   "id": "A012499",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 17,
     "source": "joeis"
   }
 }

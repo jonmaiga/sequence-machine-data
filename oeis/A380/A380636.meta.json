@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(x*C(2*x)^2) where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers, A000108.",
+  "id": "A380636",
+  "mentions": [
+    "A000108",
+    "A251568"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

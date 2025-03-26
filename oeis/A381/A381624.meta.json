@@ -1,0 +1,19 @@
+{
+  "description": "For any nonnegative integer n with ternary expansion Sum_{k >= 0} t_k * 3^k, a(n) = Sum_{k >= 0} t_k * (2^(k+1) - 1).",
+  "id": "A381624",
+  "mentions": [
+    "A354047",
+    "A381625"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,17 +2,19 @@
   "description": "Number of partitions p of n into distinct parts such that max(p) = 3 + min(p).",
   "id": "A240871",
   "mentions": [
+    "A128508",
     "A171182",
     "A240872",
     "A240873"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 81,
-    "source": "oeis-entry"
+    "size": 109,
+    "source": "oeis-bfile"
   }
 }

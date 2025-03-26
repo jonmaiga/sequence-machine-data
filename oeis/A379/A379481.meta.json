@@ -1,0 +1,27 @@
+{
+  "description": "Square of prime-shifted n, or equally, n squared, then prime-shifted one step towards larger primes.",
+  "id": "A379481",
+  "mentions": [
+    "A000290",
+    "A003961",
+    "A016754",
+    "A048673",
+    "A111003",
+    "A337336",
+    "A378231",
+    "A379473",
+    "A379482",
+    "A379484"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of closed forest meander systems with 2n crossings and k components.",
+  "id": "A380368",
+  "mentions": [
+    "A000012",
+    "A002378",
+    "A005315",
+    "A006657",
+    "A008828",
+    "A060148",
+    "A060174",
+    "A060198"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

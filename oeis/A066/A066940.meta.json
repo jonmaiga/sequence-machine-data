@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that gcd(prime(n+1) + 1, prime(n) + 1) = 2.",
+  "description": "Numbers k such that gcd(prime(k+1) + 1, prime(k) + 1) = 2.",
   "id": "A066940",
   "mentions": [
+    "A063086",
     "A066941",
     "A066942",
     "A066943",

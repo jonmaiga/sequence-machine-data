@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the smallest number greater than 1 whose binary and ternary expansions have the same succession of digits.",
+  "id": "A380599",
+  "mentions": [
+    "A379651"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

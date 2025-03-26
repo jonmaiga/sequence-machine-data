@@ -1,5 +1,5 @@
 {
-  "description": "Riordan array (1/(1-x-x^2), x/(1-x)).",
+  "description": "Riordan array (1/(1 - x - x^2), x/(1 - x)).",
   "id": "A105809",
   "mentions": [
     "A000045",

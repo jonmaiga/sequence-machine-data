@@ -1,0 +1,21 @@
+{
+  "description": "A377091(k) for k in A379802.",
+  "id": "A379803",
+  "mentions": [
+    "A377091",
+    "A379066",
+    "A379788",
+    "A379794",
+    "A379802",
+    "A379804",
+    "A380837"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

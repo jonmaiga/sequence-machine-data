@@ -1,0 +1,20 @@
+{
+  "description": "Products m*k such that k is composite and squarefree and m is composite such that rad(m) | k, where rad = A007947.",
+  "id": "A378878",
+  "mentions": [
+    "A007947",
+    "A072357",
+    "A120944",
+    "A126706"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

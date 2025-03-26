@@ -2,9 +2,11 @@
   "description": "a(n) = -(8*a(n-4)*a(n-1)+57*a(n-3)*a(n-2))/a(n-5) with initial values 1, 0, -1, 1, 8, 57, -455.",
   "id": "A241594",
   "mentions": [
-    "A241595"
+    "A241595",
+    "A360381"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

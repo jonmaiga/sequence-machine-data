@@ -1,20 +1,30 @@
 {
-  "description": "Initial members of sextuplets (p, p+4, p+12, p+28, p+60, p+124) of consecutive primes with the corresponding difference pattern:{4,8,16,32,64}.",
+  "description": "Initial members of sextuplets (p, p+4, p+12, p+28, p+60, p+124) of consecutive primes with the corresponding difference pattern is {4,8,16,32,64}.",
   "id": "A102337",
   "mentions": [
     "A001223",
     "A022008",
     "A052162",
+    "A052163",
+    "A052164",
+    "A052165",
+    "A052166",
+    "A052167",
     "A052168",
     "A102331",
+    "A102332",
+    "A102333",
+    "A102334",
+    "A102335",
     "A102336"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

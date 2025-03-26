@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of -int(x*cos(x)/(1+x^2),x=0..infinity).",
+  "description": "Decimal expansion of Integral_{x=0..Infinity} x*cos(x)/(1+x^2).",
   "id": "A229174",
   "mentions": [
     "A086056",

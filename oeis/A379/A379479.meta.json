@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the greatest common divisor of k, sigma(k) and A003961(k) is 1 and gcd(A003961(k)-2k, A003961(k)-sigma(k)) > 1.",
+  "id": "A379479",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A003961",
+    "A104210",
+    "A319630",
+    "A326057",
+    "A372565",
+    "A372566",
+    "A379477",
+    "A379478"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of open meanders with 2n crossings and k exterior top arches, 0 <= k <= n.",
+  "id": "A380369",
+  "mentions": [
+    "A000012",
+    "A002378",
+    "A005316",
+    "A006660",
+    "A077054",
+    "A077056",
+    "A259689",
+    "A259974"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

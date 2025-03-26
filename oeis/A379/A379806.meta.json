@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 2^prime(k) - 3 is prime.",
+  "id": "A379806",
+  "mentions": [
+    "A000720",
+    "A050414",
+    "A283266"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

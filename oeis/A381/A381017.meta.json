@@ -1,0 +1,17 @@
+{
+  "description": "Prime terms of A000328.",
+  "id": "A381017",
+  "mentions": [
+    "A000040",
+    "A000328",
+    "A381018"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

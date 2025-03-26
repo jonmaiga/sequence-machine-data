@@ -1,5 +1,5 @@
 {
-  "description": "tau(n) = phi(sum of prime factors of n).",
+  "description": "Numbers k such that tau(k) = phi(sum of prime factors of k).",
   "id": "A075868",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 2,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

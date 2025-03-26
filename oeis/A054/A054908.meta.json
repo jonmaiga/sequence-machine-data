@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-dimensional odd unimodular lattice (or quadratic forms) containing no vectors of norm 1.",
+  "description": "Number of n-dimensional odd unimodular lattices (or quadratic forms) containing no vectors of norm 1.",
   "id": "A054908",
   "mentions": [
     "A005134",
@@ -8,6 +8,7 @@
     "A054911"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nice",
@@ -15,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

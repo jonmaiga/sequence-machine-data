@@ -1,0 +1,20 @@
+{
+  "description": "Sum of coreful divisors d | k such that gcd(d, k/d) is not in {1, d, k/d} and rad(d) = rad(k/d), where k is in A376936 and rad = A007947.",
+  "id": "A379465",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007947",
+    "A364988",
+    "A376936",
+    "A379552"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

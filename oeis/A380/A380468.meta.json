@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that A380459(k) has no divisors of the form p^p, for any prime p.",
+  "id": "A380468",
+  "mentions": [
+    "A001222",
+    "A005117",
+    "A020639",
+    "A048103",
+    "A276086",
+    "A349394",
+    "A359550",
+    "A380459",
+    "A380467",
+    "A380470",
+    "A380474",
+    "A380475",
+    "A380478"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

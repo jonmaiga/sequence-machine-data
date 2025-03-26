@@ -1,14 +1,19 @@
 {
-  "description": "Floor(sqrt((2*n)^(n+1)))",
+  "description": "a(n) = floor(sqrt((2*n)^(n+1))).",
   "id": "A316663",
-  "mentions": [],
+  "mentions": [
+    "A000196",
+    "A085532",
+    "A316661"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

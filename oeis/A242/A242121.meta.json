@@ -1,11 +1,12 @@
 {
-  "description": "Primes modulo 21.",
+  "description": "a(n) = n-th prime modulo 21.",
   "id": "A242121",
   "mentions": [
     "A242119"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,20 @@
+{
+  "description": "In the prime factorization of n replace the k-th prime with the k-th nonprime number.",
+  "id": "A382265",
+  "mentions": [
+    "A000720",
+    "A003963",
+    "A018252",
+    "A066260"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

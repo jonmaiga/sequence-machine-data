@@ -1,0 +1,18 @@
+{
+  "description": "Terms of A118666 as produced by the program given there (without the final sorting).",
+  "id": "A377292",
+  "mentions": [
+    "A048726",
+    "A117998",
+    "A118666"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

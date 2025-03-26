@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between any two adjacent faces in a pentakis dodecahedron.",
+  "id": "A379136",
+  "mentions": [
+    "A002163",
+    "A236367",
+    "A344075",
+    "A379132",
+    "A379133",
+    "A379134",
+    "A379135"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

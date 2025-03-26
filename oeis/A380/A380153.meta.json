@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m for which the sum of all values of k satisfying the equation: (m - floor((m - k)/k)) mod k = 0 (1 <= k <= m) equals 2*m.",
+  "id": "A380153",
+  "mentions": [
+    "A048158",
+    "A375595",
+    "A378275"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

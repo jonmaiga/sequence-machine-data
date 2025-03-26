@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of log(2)/4.",
+  "id": "A379101",
+  "mentions": [
+    "A002162",
+    "A010767",
+    "A016655"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

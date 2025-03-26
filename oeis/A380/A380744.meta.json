@@ -1,0 +1,17 @@
+{
+  "description": "Number of integers strictly between n^2 and (n+1)^2 with at most four prime factors (counting multiplicity).",
+  "id": "A380744",
+  "mentions": [
+    "A001222",
+    "A014085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

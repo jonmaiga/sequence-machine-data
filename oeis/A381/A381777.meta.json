@@ -1,0 +1,16 @@
+{
+  "description": "Self-convolution of A001190.",
+  "id": "A381777",
+  "mentions": [
+    "A001190"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

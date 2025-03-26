@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n^2-1)/(n-1) is an integer.",
+  "description": "Numbers k such that phi(k^2-1)/(k-1) is an integer.",
   "id": "A066821",
   "mentions": [],
   "tags": [

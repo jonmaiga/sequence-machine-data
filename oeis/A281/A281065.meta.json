@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the greatest minimal separation between ten points in a unit square.",
+  "description": "Decimal expansion of the greatest minimum separation between ten points in a unit square.",
   "id": "A281065",
   "mentions": [
     "A000007",
@@ -8,7 +8,9 @@
     "A020761",
     "A101263",
     "A120683",
-    "A281115"
+    "A281115",
+    "A379338",
+    "A381485"
   ],
   "tags": [
     "cons",

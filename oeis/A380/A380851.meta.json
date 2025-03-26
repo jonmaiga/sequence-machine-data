@@ -1,0 +1,25 @@
+{
+  "description": "Riordan array ((1-x)^(m-1), x/(1-x)) with factor r^(2*n) on row n, for m = 3/2, r = 2.",
+  "id": "A380851",
+  "mentions": [
+    "A002420",
+    "A007318",
+    "A097805",
+    "A104712",
+    "A104713",
+    "A135278",
+    "A159854",
+    "A240530",
+    "A256893"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

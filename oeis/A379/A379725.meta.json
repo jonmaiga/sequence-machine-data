@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A023900(n*A000396(n)).",
+  "id": "A379725",
+  "mentions": [
+    "A000396",
+    "A000668",
+    "A023900",
+    "A379724"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

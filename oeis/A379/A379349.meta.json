@@ -1,0 +1,20 @@
+{
+  "description": "Number of integers of the form k^2 + 2 whose greatest prime factor is A033203(n), the n-th prime not congruent to 5 or 7 mod 8.",
+  "id": "A379349",
+  "mentions": [
+    "A033203",
+    "A181471",
+    "A379346",
+    "A379348",
+    "A379350"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

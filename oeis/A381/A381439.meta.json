@@ -1,0 +1,49 @@
+{
+  "description": "Numbers whose exponent of 2 in their canonical prime factorization is not larger than all the other exponents.",
+  "id": "A381439",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001223",
+    "A001694",
+    "A003557",
+    "A005117",
+    "A007814",
+    "A051903",
+    "A051904",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A066328",
+    "A112798",
+    "A122111",
+    "A130091",
+    "A181819",
+    "A212166",
+    "A239455",
+    "A241131",
+    "A335740",
+    "A351293",
+    "A360013",
+    "A360014",
+    "A360015",
+    "A375669",
+    "A380955",
+    "A381431",
+    "A381436",
+    "A381437",
+    "A381438",
+    "A381544"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

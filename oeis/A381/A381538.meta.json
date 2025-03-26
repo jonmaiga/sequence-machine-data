@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form m^(m^k).",
+  "id": "A381538",
+  "mentions": [
+    "A000312",
+    "A001597",
+    "A067688",
+    "A097374",
+    "A257309",
+    "A380760"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

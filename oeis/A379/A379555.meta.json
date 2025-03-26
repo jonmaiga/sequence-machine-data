@@ -1,0 +1,17 @@
+{
+  "description": "Row products of the triangle A330613.",
+  "id": "A379555",
+  "mentions": [
+    "A227514",
+    "A330613"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

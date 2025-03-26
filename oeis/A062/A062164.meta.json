@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways of placing n nonattacking (normal) queens on n X n board, solutions congruent on the torus count only once.",
+  "description": "Number of ways of placing n nonattacking (normal) queens on n X n board; solutions congruent on the torus count only once.",
   "id": "A062164",
   "mentions": [
     "A000170",

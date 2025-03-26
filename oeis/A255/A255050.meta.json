@@ -2,6 +2,7 @@
   "description": "G.f.: Product_{j>=1} 1/(1-x^j)^binomial(j+3,3).",
   "id": "A255050",
   "mentions": [
+    "A000292",
     "A002117",
     "A005380",
     "A013663",

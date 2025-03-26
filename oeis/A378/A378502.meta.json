@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number whose base-4 digits are 1 followed by the first n-1 terms of the periodic sequence with initial period 3,2,0.",
+  "id": "A378502",
+  "mentions": [
+    "A037618",
+    "A037667",
+    "A378497",
+    "A378499"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

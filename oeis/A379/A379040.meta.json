@@ -1,0 +1,16 @@
+{
+  "description": "Fixed points in A379015.",
+  "id": "A379040",
+  "mentions": [
+    "A379015"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

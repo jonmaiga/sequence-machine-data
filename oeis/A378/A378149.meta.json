@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct integer-sided right trapezoids with exactly one pair of parallel sides and area n.",
+  "id": "A378149",
+  "mentions": [
+    "A027750",
+    "A214602",
+    "A340858",
+    "A340859",
+    "A340860",
+    "A374594",
+    "A378148",
+    "A378150"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

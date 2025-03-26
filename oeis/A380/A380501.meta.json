@@ -1,0 +1,17 @@
+{
+  "description": "Least positive integer v that belongs alongside its opposite -v to the minimal set of integers to add to the set {A377091(k), k = 0..A380938(n)} in order to obtain an integer interval.",
+  "id": "A380501",
+  "mentions": [
+    "A377091",
+    "A380938",
+    "A380939"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

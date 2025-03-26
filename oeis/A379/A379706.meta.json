@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonempty labeled antichains of subsets of [n] such that the largest subset is of size 2.",
+  "id": "A379706",
+  "mentions": [
+    "A000225",
+    "A000372",
+    "A036239",
+    "A126883",
+    "A379707",
+    "A379712"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

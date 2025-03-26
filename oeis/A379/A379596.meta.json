@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least positive integer k for which k^2 + (k + n)^2 is a square.",
+  "id": "A379596",
+  "mentions": [
+    "A009004",
+    "A089015",
+    "A120682",
+    "A132404",
+    "A289398",
+    "A379830"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

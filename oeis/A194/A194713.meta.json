@@ -1,5 +1,5 @@
 {
-  "description": "13 times hexagonal numbers: 13*n*(2*n-1).",
+  "description": "13 times hexagonal numbers: a(n) = 13*n*(2*n-1).",
   "id": "A194713",
   "mentions": [
     "A000384",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 40,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

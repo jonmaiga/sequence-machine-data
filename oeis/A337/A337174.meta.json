@@ -7,12 +7,13 @@
     "A337175"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 83,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

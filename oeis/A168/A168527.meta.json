@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n^6*(n^2 + 1)/2.",
   "id": "A168527",
-  "mentions": [],
+  "mentions": [
+    "A168526"
+  ],
   "tags": [
     "formulas",
     "nonn"

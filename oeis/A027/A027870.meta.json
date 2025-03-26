@@ -1,5 +1,5 @@
 {
-  "description": "Number of zeros in 2^n.",
+  "description": "Number of zero digits in 2^n.",
   "id": "A027870",
   "mentions": [
     "A000079",

@@ -1,0 +1,17 @@
+{
+  "description": "Number of sequences in which the matches of a fully symmetric single-elimination tournament with 3^n players can be played if arbitrarily many matches can occur simultaneously and each match involves 3 players.",
+  "id": "A381865",
+  "mentions": [
+    "A273723",
+    "A379758"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

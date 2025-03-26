@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can be expressed as 4*j*k+j+k, j,k >= 1, as well as 4*j*k-j-k, j,k >= 2.",
+  "id": "A380644",
+  "mentions": [
+    "A054520",
+    "A124934",
+    "A125217",
+    "A125218",
+    "A380140",
+    "A380509",
+    "A380572"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

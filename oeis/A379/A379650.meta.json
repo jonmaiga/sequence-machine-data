@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number whose fifth power is an n-digit fifth power which has the maximum sum of digits（A374025(n)).",
+  "id": "A379650",
+  "mentions": [
+    "A000584",
+    "A370522",
+    "A373914",
+    "A374025",
+    "A379869",
+    "A380111"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,13 @@
 {
   "description": "Triangle read by rows: T(n,k) = k^(n^2), n>=1, 1<=k<=n.",
   "id": "A095876",
-  "mentions": [],
+  "mentions": [
+    "A095836",
+    "A095850",
+    "A095852",
+    "A095859",
+    "A095881"
+  ],
   "tags": [
     "easy",
     "nonn",
@@ -9,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

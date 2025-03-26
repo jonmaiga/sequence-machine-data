@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows, where the columns are the coefficients of the standard expansion of the function f(x) = (-log(1-x))^(k)*exp(-m*x)/k! for the case m=2.",
+  "id": "A381082",
+  "mentions": [
+    "A000023",
+    "A094816",
+    "A122803",
+    "A132393",
+    "A137346",
+    "A269953",
+    "A327997",
+    "A346397"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

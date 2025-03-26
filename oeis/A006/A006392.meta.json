@@ -1,13 +1,19 @@
 {
-  "description": "Number of planar maps with n edges and without faces of degree 1 or 2.",
+  "description": "Number of sensed planar maps with n edges and without faces of degree 1 or 2.",
   "id": "A006392",
-  "mentions": [],
+  "mentions": [
+    "A006384",
+    "A006388",
+    "A006393",
+    "A379434"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 11,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

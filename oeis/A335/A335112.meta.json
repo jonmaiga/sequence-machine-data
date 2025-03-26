@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the greatest k > 0 such that Sum_{j=1..n} j*k^j/(k+n) is integer, for n > 1.",
+  "description": "a(n) is the greatest k > 0 such that Sum_{j=1..n} j*k^j/(k+n) is an integer, for n > 1.",
   "id": "A335112",
   "mentions": [
     "A335113",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ranked labeled trees compatible with the 2-leaf perfect phylogeny of sample size n that possesses the largest number of compatible ranked labeled trees.",
+  "id": "A377461",
+  "mentions": [
+    "A001405",
+    "A006472",
+    "A306266"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

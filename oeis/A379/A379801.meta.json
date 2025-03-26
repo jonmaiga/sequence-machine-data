@@ -1,0 +1,17 @@
+{
+  "description": "Nearest integer to n*(1+sqrt(6))/2.",
+  "id": "A379801",
+  "mentions": [
+    "A000201",
+    "A379800",
+    "A379805"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

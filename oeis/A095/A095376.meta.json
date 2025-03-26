@@ -1,5 +1,5 @@
 {
-  "description": "Values of n such that the total number of 1's in the binary expansions of the first n integers is a multiple of n.",
+  "description": "Values of k such that the total number of 1's in the binary expansions of the first k integers is a multiple of k.",
   "id": "A095376",
   "mentions": [
     "A000120",
@@ -8,6 +8,7 @@
     "A095375"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],

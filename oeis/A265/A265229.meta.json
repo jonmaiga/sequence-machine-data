@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX2 arrays containing 2 copies of 0..n-1 with no equal vertical neighbors and new values introduced sequentially from 0.",
+  "description": "Number of n X 2 arrays containing 2 copies of 0..n-1 with no equal vertical neighbors and new values introduced sequentially from 0.",
   "id": "A265229",
   "mentions": [
     "A265232"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 if n is a multiple of A351566(n), otherwise 0, where A351566 is the radix prime of the second least significant nonzero digit in the primorial base expansion of n, or 1 if there is no such digit.",
+  "id": "A380536",
+  "mentions": [
+    "A049345",
+    "A351566",
+    "A380537",
+    "A380538"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

@@ -13,11 +13,12 @@
     "A053712"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 4,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

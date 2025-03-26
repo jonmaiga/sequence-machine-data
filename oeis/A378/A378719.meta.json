@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which k/w = 3/4, where w is the number of numbers in the range {1..k} containing at least one decimal digit 1.",
+  "id": "A378719",
+  "mentions": [
+    "A004835",
+    "A346685"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

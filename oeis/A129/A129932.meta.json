@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n remains prime through 6 iterations of function f(x) = 2x + 5.",
+  "description": "Prime numbers p such that p remains prime through 6 iterations of function f(x) = 2x + 5.",
   "id": "A129932",
   "mentions": [
     "A023243",

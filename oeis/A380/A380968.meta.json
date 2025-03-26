@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any value k, no two sets of one or more indices at which k occurs have the same mean.",
+  "id": "A380968",
+  "mentions": [
+    "A260873",
+    "A380751",
+    "A380783"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

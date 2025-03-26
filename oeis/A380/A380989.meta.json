@@ -1,0 +1,44 @@
+{
+  "description": "Position of first appearance of n in A380958 (number of prime factors minus sum of distinct prime exponents).",
+  "id": "A380989",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001223",
+    "A005361",
+    "A046660",
+    "A051903",
+    "A051904",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A071625",
+    "A075254",
+    "A075255",
+    "A076694",
+    "A112798",
+    "A124010",
+    "A130091",
+    "A130092",
+    "A136565",
+    "A280286",
+    "A280292",
+    "A290106",
+    "A296150",
+    "A380955",
+    "A380956",
+    "A380957",
+    "A380958",
+    "A380986",
+    "A381075"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

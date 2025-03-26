@@ -1,0 +1,16 @@
+{
+  "description": "Primes q for which A177436(pi(q)) is not equal to 2*(1 + floor(log_2(q/(2^ceiling(log_2(q))-q)))).",
+  "id": "A380388",
+  "mentions": [
+    "A177436"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

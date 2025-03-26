@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k that are the maximum of integers |k3|, |k5|, |k7| with |k3| + |k5| + |k7| > 0, and |k3*sqrt(3) + k5*sqrt(5) + k7*sqrt(7)| is smaller than for any smaller value of k.",
+  "id": "A379918",
+  "mentions": [
+    "A379919"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

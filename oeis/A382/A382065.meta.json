@@ -1,0 +1,25 @@
+{
+  "description": "Exponentially refactorable numbers: numbers whose exponents in their canonical prime factorization are all refactorable numbers (A033950).",
+  "id": "A382065",
+  "mentions": [
+    "A004709",
+    "A033950",
+    "A138302",
+    "A197680",
+    "A209061",
+    "A268335",
+    "A344742",
+    "A361177",
+    "A377019",
+    "A382063"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

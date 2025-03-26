@@ -1,5 +1,5 @@
 {
-  "description": "Number of values of k for which n can be written in the form a^2 + k*b^2, a >= 0, b >= 0, k > 0. a(n) = 0 if a(n) is infinite.",
+  "description": "Number of values of k for which n can be written in the form a^2 + k*b^2, a >= 0, b >= 0, k > 0. a(n) = 0 if there are infinitely many such k.",
   "id": "A216504",
   "mentions": [
     "A001481",
@@ -7,11 +7,12 @@
     "A154777"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

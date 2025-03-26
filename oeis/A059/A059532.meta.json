@@ -2,10 +2,12 @@
   "description": "Beatty sequence for 1 + Pi.",
   "id": "A059532",
   "mentions": [
+    "A022844",
     "A059531"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

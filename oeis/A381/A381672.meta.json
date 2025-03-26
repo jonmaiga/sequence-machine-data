@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a regular icosahedron.",
+  "id": "A381672",
+  "mentions": [
+    "A000796",
+    "A002194",
+    "A019673",
+    "A073010",
+    "A273637",
+    "A374772",
+    "A374883",
+    "A381671"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

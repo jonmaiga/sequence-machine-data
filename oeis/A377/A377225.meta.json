@@ -2,7 +2,8 @@
   "description": "a(0) = 0, a(1) = 1, a(2) = -1, a(3) = 2, and for n > 3, a(n) is the least integer (in absolute value) not yet in the sequence sharing a factor with a(n-1); in case of a tie, preference is given to the positive value.",
   "id": "A377225",
   "mentions": [
-    "A064413"
+    "A064413",
+    "A382014"
   ],
   "tags": [
     "formulas",

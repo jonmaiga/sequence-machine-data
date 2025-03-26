@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (-1)^n * hypergeom([-n, n/2 + 1, n/2 + 1/2], [1, n + 2], 4). Central terms of A379907.",
+  "id": "A379823",
+  "mentions": [
+    "A379907"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

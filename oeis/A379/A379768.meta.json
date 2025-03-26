@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest prime p such that omega(p^n + 1) = n.",
+  "id": "A379768",
+  "mentions": [
+    "A001221",
+    "A219018",
+    "A242786",
+    "A280005",
+    "A362957",
+    "A379450"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

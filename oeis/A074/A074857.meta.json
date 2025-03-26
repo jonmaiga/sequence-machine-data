@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that all p-pal for p/2 < pal < p are composite, where pal is a palindrome.",
+  "description": "Primes p such that all p-pal for p/2 < pal < p are nonprime, where pal is a palindrome.",
   "id": "A074857",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
-    "source": "oeis-entry"
+    "size": 50,
+    "source": "joeis"
   }
 }

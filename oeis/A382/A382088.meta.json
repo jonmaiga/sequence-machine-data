@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x * exp(-x * B(x)^3) ), where B(x) = 1 + x*B(x)^4 is the g.f. of A002293.",
+  "id": "A382088",
+  "mentions": [
+    "A002293",
+    "A377833",
+    "A382038",
+    "A382086",
+    "A382087",
+    "A382089"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

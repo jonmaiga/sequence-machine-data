@@ -1,0 +1,20 @@
+{
+  "description": "Truncated hex numbers: a(n) = 24*n^2 + 6*n + 1.",
+  "id": "A381424",
+  "mentions": [
+    "A000217",
+    "A003215",
+    "A005892",
+    "A007742"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

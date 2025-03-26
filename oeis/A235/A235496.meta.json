@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = round(n^n/n!).",
+  "description": "a(n) = round(n^n/n!) where round(1/2)=1.",
   "id": "A235496",
   "mentions": [
     "A000142",

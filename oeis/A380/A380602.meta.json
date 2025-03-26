@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the ratio A000005(k)/A322483(k).",
+  "id": "A380602",
+  "mentions": [
+    "A000005",
+    "A307869",
+    "A322483",
+    "A361059",
+    "A361061",
+    "A380601"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

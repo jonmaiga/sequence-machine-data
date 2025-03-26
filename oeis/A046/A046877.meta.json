@@ -1,16 +1,18 @@
 {
-  "description": "a(n) = a(n-2) + a(n-3).",
+  "description": "a(n) = a(n-2) + a(n-3), with a(0) = 3, a(1) = 2, a(2) = 6.",
   "id": "A046877",
   "mentions": [
+    "A000931",
     "A001608"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 43,
-    "source": "joeis"
+    "size": 46,
+    "source": "oeis-bfile"
   }
 }

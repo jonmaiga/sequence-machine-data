@@ -1,0 +1,15 @@
+{
+  "description": "Exponent of x of maximal coefficient in Hermite polynomial of order n.",
+  "id": "A381423",
+  "mentions": [
+    "A277280"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

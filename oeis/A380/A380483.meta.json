@@ -1,0 +1,21 @@
+{
+  "description": "Third coefficient of the lindep transform of A325973.",
+  "id": "A380483",
+  "mentions": [
+    "A325973",
+    "A339792",
+    "A380463",
+    "A380473",
+    "A380481",
+    "A380482"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

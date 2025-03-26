@@ -1,0 +1,19 @@
+{
+  "description": "One half of the sum of the perimeters of the free polyominoes with n cells.",
+  "id": "A380575",
+  "mentions": [
+    "A000105",
+    "A342243",
+    "A380287"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

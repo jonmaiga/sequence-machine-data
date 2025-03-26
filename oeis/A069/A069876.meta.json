@@ -1,10 +1,9 @@
 {
-  "description": "a(1) = 1, a(2) = 2^2 + 3^2; a(n) = (k-n+1)^n + (k-n)^n + ....(k-1)^n + k^n, where k = n(n+1)/2.",
+  "description": "a(n) = (k-n+1)^n + (k-n+2)^n + ... + (k-1)^n + k^n, where k = n(n+1)/2.",
   "id": "A069876",
   "mentions": [
     "A072474",
     "A075664",
-    "A075670",
     "A075671"
   ],
   "tags": [
@@ -12,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "joeis"
   }
 }

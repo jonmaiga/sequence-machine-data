@@ -12,13 +12,12 @@
     "A136625"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 73,
+    "source": "oeis-bfile"
   }
 }

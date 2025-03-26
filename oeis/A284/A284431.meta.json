@@ -1,16 +1,19 @@
 {
-  "description": "The number of positive integer sequences of length n with no duplicate substrings of length greater than 1, every number different from its neighbors, and a minimal sum (i.e., the sum of the sequence is A282166(n)).",
+  "description": "The number of positive integer sequences of length n with no duplicate substrings of length greater than 1, every number different from its neighbors, and a minimal sum (= A282166(n)).",
   "id": "A284431",
   "mentions": [
-    "A282166"
+    "A282166",
+    "A283558",
+    "A284432",
+    "A284433",
+    "A284434"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

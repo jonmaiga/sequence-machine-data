@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = binomial(n + 1, 2)*7^2.",
+  "description": "a(n) = binomial(n+1,2)*7^2.",
   "id": "A162942",
   "mentions": [
+    "A000217",
     "A027468",
     "A027469",
     "A035008",

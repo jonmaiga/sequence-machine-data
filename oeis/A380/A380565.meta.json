@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k^2 - 2 divides 2^k - 2.",
+  "id": "A380565",
+  "mentions": [
+    "A000918",
+    "A008865"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

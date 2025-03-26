@@ -1,0 +1,26 @@
+{
+  "description": "The largest unitary divisor of n that is a term in A207481.",
+  "id": "A380088",
+  "mentions": [
+    "A005117",
+    "A054743",
+    "A077610",
+    "A185359",
+    "A207481",
+    "A377518",
+    "A380085",
+    "A380089",
+    "A380090"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

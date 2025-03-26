@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which there is an extremal ternary word of length n.",
+  "description": "Numbers k for which there is an extremal ternary word of length k.",
   "id": "A309623",
   "mentions": [
     "A006156",

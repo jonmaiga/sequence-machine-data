@@ -1,17 +1,16 @@
 {
-  "description": "Related to Weber functions.",
+  "description": "Quadratic coefficient of the n-th converging polynomial of Weber functions.",
   "id": "A001664",
   "mentions": [
     "A001662",
     "A001663"
   ],
   "tags": [
-    "more",
     "sign"
   ],
   "terms": {
     "offset": 2,
-    "size": 7,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

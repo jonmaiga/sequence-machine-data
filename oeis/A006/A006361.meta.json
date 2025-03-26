@@ -1,5 +1,5 @@
 {
-  "description": "Antichains (or order ideals) in the poset 2*2*4*n or size of the distributive lattice J(2*2*4*n)",
+  "description": "Antichains (or order ideals) in the poset 2*2*4*n or size of the distributive lattice J(2*2*4*n).",
   "id": "A006361",
   "mentions": [
     "A000372",
@@ -21,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

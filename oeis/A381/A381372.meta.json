@@ -1,0 +1,17 @@
+{
+  "description": "Smaller of two consecutive primes p and q, both ending with 3, such that q-p = 10n, or -1 if no such primes exist.",
+  "id": "A381372",
+  "mentions": [
+    "A140791",
+    "A380785"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -5,11 +5,13 @@
     "A145103"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

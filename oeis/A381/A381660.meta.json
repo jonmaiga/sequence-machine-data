@@ -1,0 +1,19 @@
+{
+  "description": "The value k such that n = a(j) = a(j+k) = a(j+2*k) in A381658.",
+  "id": "A381660",
+  "mentions": [
+    "A092482",
+    "A229037",
+    "A381597",
+    "A381658",
+    "A381659"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

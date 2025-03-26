@@ -1,0 +1,18 @@
+{
+  "description": "Number of nondegenerate balanced Boolean functions of n variables.",
+  "id": "A378302",
+  "mentions": [
+    "A000618",
+    "A037293"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

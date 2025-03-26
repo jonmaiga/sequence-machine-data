@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest unused positive number that is coprime to a(n-1) and has a different binary weight than a(n-1).",
+  "id": "A381419",
+  "mentions": [
+    "A000120",
+    "A027748",
+    "A093714",
+    "A109451",
+    "A381420",
+    "A381821"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

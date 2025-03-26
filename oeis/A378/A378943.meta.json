@@ -1,0 +1,21 @@
+{
+  "description": "Numbers obtained from the tribonacci triangle formed by the number of connection points in the paths obtained by Pell walk on the square grid.",
+  "id": "A378943",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000129",
+    "A001333",
+    "A023607"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

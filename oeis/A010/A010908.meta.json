@@ -1,7 +1,9 @@
 {
   "description": "Pisot sequence E(4,21), a(n) = floor(a(n-1)^2/a(n-2) + 1/2).",
   "id": "A010908",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "formulas",
     "nonn"

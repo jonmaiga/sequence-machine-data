@@ -1,0 +1,52 @@
+{
+  "description": "Number of multisets that can be obtained by choosing a strict integer partition of m for each m = 0..n and taking the multiset union.",
+  "id": "A381808",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A001970",
+    "A018818",
+    "A050342",
+    "A058694",
+    "A066723",
+    "A066843",
+    "A116539",
+    "A152827",
+    "A213385",
+    "A265947",
+    "A279785",
+    "A296120",
+    "A299200",
+    "A300383",
+    "A317141",
+    "A318361",
+    "A321467",
+    "A321468",
+    "A321470",
+    "A321471",
+    "A321514",
+    "A327486",
+    "A355537",
+    "A355731",
+    "A355733",
+    "A355741",
+    "A355742",
+    "A355744",
+    "A355746",
+    "A355747",
+    "A381453",
+    "A381455",
+    "A381718",
+    "A381807"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

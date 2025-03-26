@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Ni_2 = gamma/3 - log(2*Pi)/2 - 2*zeta'(-1) + 2/3, where gamma = A001620.",
+  "id": "A379425",
+  "mentions": [
+    "A000796",
+    "A001620",
+    "A074962",
+    "A131688",
+    "A321943",
+    "A379751"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

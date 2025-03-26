@@ -2,6 +2,7 @@
   "description": "a(n) = Product_{p is odd and prime and divisor of n} (p - 2).",
   "id": "A305444",
   "mentions": [
+    "A005597",
     "A173557"
   ],
   "tags": [

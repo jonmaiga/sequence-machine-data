@@ -2,7 +2,9 @@
   "description": "Minimum number of dominoes on an n X n chessboard needed to prevent placement of another domino.",
   "id": "A280984",
   "mentions": [
-    "A008810"
+    "A008810",
+    "A378763",
+    "A379177"
   ],
   "tags": [
     "formulas",

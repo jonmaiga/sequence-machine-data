@@ -1,7 +1,8 @@
 {
-  "description": "Irregular triangle read by rows where T(n,d) is the number of integer partitions of n with mean d|n.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with mean d = A027750(n, k).",
   "id": "A327482",
   "mentions": [
+    "A027750",
     "A066571",
     "A067538",
     "A237984",

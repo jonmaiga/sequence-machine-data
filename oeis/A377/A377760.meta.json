@@ -1,14 +1,18 @@
 {
   "description": "Number of edge cuts in the n-Fibonacci cube graph.",
   "id": "A377760",
-  "mentions": [],
+  "mentions": [
+    "A297051",
+    "A352247",
+    "A377653"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

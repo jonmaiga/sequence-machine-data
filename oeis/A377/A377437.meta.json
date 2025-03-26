@@ -1,0 +1,16 @@
+{
+  "description": "Number of multiplication steps for n to reach 1 when iterating 5x+1 removing factors 2 and 3, or -1 if it never reaches 1.",
+  "id": "A377437",
+  "mentions": [
+    "A003568",
+    "A065330"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

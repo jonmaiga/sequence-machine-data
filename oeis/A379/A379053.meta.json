@@ -1,0 +1,27 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers with the property that n is a member of the sequence iff a(n) is not a prime.",
+  "id": "A379053",
+  "mentions": [
+    "A079000",
+    "A079253",
+    "A079254",
+    "A079313",
+    "A080032",
+    "A085925",
+    "A099797",
+    "A099798",
+    "A121053",
+    "A334067",
+    "A377901",
+    "A379051"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m that divide the alternating sum Sum_{k=1..m} (-1)^(k+1) * sigma_2(k).",
+  "id": "A379922",
+  "mentions": [
+    "A001157",
+    "A048290",
+    "A050226",
+    "A056550",
+    "A064605",
+    "A067929",
+    "A067931",
+    "A379921",
+    "A379923",
+    "A379924"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of peak and valleyless Motzkin meanders of length n with k horizontal steps.",
+  "id": "A378809",
+  "mentions": [
+    "A001651",
+    "A005773",
+    "A088855",
+    "A247643",
+    "A308435",
+    "A378810"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

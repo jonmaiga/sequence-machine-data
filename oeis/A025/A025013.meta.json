@@ -2,16 +2,7 @@
   "description": "Central octonomial coefficients: largest coefficient of (1+x+...+x^7)^n.",
   "id": "A025013",
   "mentions": [
-    "A001405",
-    "A002426",
-    "A005190",
-    "A005191",
-    "A018901",
-    "A025012",
-    "A025014",
-    "A201549",
-    "A201550",
-    "A225779"
+    "A077042"
   ],
   "tags": [
     "easy",

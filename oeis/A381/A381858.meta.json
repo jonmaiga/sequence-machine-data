@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of permutations of [n] that avoid 312 and 4321 and whose square avoids 231.",
+  "id": "A381858",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

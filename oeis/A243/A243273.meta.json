@@ -1,5 +1,5 @@
 {
-  "description": "Number of graphs with n nodes that are Hamiltonian and integral.",
+  "description": "Number of unlabeled simple graphs with n nodes that are Hamiltonian and integral.",
   "id": "A243273",
   "mentions": [
     "A003216",

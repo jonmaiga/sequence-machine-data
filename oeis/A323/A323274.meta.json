@@ -1,5 +1,5 @@
 {
-  "description": "Ceiling(1/(e - 1/0! - 1/1! - 1/2! - ... - 1/n!)).",
+  "description": "a(n) = ceiling(1/(e - 1/0! - 1/1! - 1/2! - ... - 1/n!)).",
   "id": "A323274",
   "mentions": [
     "A000142",

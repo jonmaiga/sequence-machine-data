@@ -1,7 +1,9 @@
 {
   "description": "If n mod 2 = 0 then a(n) = n^4/4 - 2*n^2 + 3*n; otherwise, a(n) = n^4/4 - 2*n^2 + 3*n - 5/4.",
   "id": "A064835",
-  "mentions": [],
+  "mentions": [
+    "A064836"
+  ],
   "tags": [
     "easy",
     "formulas",

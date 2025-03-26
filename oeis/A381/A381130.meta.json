@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime not yet in the sequence that contains a substring of size 2 from a(n-1); a(1)=11.",
+  "id": "A381130",
+  "mentions": [
+    "A107801",
+    "A262323"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

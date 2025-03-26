@@ -1,0 +1,16 @@
+{
+  "description": "Absolute value of smallest (in magnitude) missing negative number after A377091(n) has been found.",
+  "id": "A379068",
+  "mentions": [
+    "A377091",
+    "A379067"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

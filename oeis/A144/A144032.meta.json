@@ -1,12 +1,11 @@
 {
-  "description": "Eigentriangle read by rows, T(n,k) = A002321(n-k+1)*A144031(k-1).",
+  "description": "Triangle read by rows: T(n,k) = A002321(n-k+1)*A144031(k-1).",
   "id": "A144032",
   "mentions": [
     "A002321",
     "A144031"
   ],
   "tags": [
-    "formulas",
     "sign",
     "tabl"
   ],

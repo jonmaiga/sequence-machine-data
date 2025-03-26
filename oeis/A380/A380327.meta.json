@@ -1,0 +1,16 @@
+{
+  "description": "Degeneracy of the n-Mycielski graph.",
+  "id": "A380327",
+  "mentions": [
+    "A086676"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

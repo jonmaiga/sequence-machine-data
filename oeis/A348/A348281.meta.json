@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = Sum_{d|n} d' * mu(d)^2.",
+  "description": "Sum of the arithmetic derivatives of the squarefree divisors of n: a(n) = Sum_{d|n} d' * mu(d)^2.",
   "id": "A348281",
   "mentions": [
     "A003415",
-    "A008683"
+    "A008683",
+    "A008966"
   ],
   "tags": [
     "formulas",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 82,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

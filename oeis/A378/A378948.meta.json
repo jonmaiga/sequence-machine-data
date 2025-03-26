@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are simultaneously 12-gonal and cubes.",
+  "id": "A378948",
+  "mentions": [
+    "A000578",
+    "A051624",
+    "A342709"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that A381596(k) = n.",
+  "id": "A381604",
+  "mentions": [
+    "A001223",
+    "A381596"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

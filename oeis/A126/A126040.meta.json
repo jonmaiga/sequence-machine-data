@@ -1,18 +1,15 @@
 {
-  "description": "a(n) is largest prime < 12*a(n-1).",
+  "description": "a(n) is the largest prime < 12*a(n-1) for n > 1, with a(1) = 2.",
   "id": "A126040",
   "mentions": [
-    "A006902",
-    "A040016",
-    "A120031",
-    "A120040"
+    "A126031"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 21,
     "source": "joeis"
   }
 }

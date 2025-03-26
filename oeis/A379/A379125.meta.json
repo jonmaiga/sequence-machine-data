@@ -1,0 +1,23 @@
+{
+  "description": "Sum of divisors of those odd squares k for which A379113(k) > 1, i.e., k that have a proper unitary divisor d > 1 such that A048720(A065621(sigma(d)),sigma(k/d)) is equal to sigma(k).",
+  "id": "A379125",
+  "mentions": [
+    "A000203",
+    "A048720",
+    "A065621",
+    "A277320",
+    "A379113",
+    "A379121",
+    "A379123",
+    "A379124"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

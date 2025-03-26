@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct positive integers that can be obtained by starting with n!, and optionally applying the operations square root, floor, and ceiling, in any order.",
+  "id": "A381226",
+  "mentions": [
+    "A000319",
+    "A139004",
+    "A381227",
+    "A381228",
+    "A381229"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest sequence which has the property that it lists the position of the even digits in the concatenation of its terms.",
+  "description": "Lexicographically earliest strictly increasing sequence which has the property that it lists the position of the even digits in the concatenation of its terms.",
   "id": "A114309",
   "mentions": [],
   "tags": [
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

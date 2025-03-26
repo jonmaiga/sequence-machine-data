@@ -1,0 +1,17 @@
+{
+  "description": "The maximum exponent in the prime factorization of n that is coprime to n, or 0 if no such exponent exists.",
+  "id": "A381954",
+  "mentions": [
+    "A051903",
+    "A381952"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

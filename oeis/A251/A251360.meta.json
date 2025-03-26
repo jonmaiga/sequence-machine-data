@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n is the concatenation of prime factors of pi(n), in increasing order.",
+  "description": "Numbers k such that k is the concatenation of prime factors of pi(k), in increasing order.",
   "id": "A251360",
   "mentions": [
     "A000040",

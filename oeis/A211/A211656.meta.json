@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that value of sigma(n) is unique; sigma(n) = A000203(n) = sum of divisors of n.",
+  "description": "Numbers k such that the value of sigma(k) is unique; sigma(k) = A000203(k) = sum of divisors of k.",
   "id": "A211656",
   "mentions": [
     "A000203",

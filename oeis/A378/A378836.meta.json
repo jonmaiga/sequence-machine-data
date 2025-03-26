@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of n-digit nonnegative integers with the median of the digits equal to the digital root.",
+  "id": "A378836",
+  "mentions": [
+    "A010888",
+    "A378560",
+    "A378564",
+    "A378835",
+    "A378837",
+    "A378838"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

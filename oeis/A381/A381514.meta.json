@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the hafnian of a symmetric Toeplitz matrix of order 2*n whose off-diagonal element (i,j) equals the |i-j|-th prime.",
+  "id": "A381514",
+  "mentions": [
+    "A071078",
+    "A071079",
+    "A085807",
+    "A306457",
+    "A318173",
+    "A356483",
+    "A374067",
+    "A374068"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

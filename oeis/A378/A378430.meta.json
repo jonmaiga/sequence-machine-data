@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sqrt(A378984(n)).",
+  "id": "A378430",
+  "mentions": [
+    "A126706",
+    "A286708",
+    "A350372",
+    "A378984"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

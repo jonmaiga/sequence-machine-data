@@ -1,9 +1,7 @@
 {
   "description": "Number of subsets of {1,2,...,n} such that no two elements differ by 2, 3, or 5.",
   "id": "A375982",
-  "mentions": [
-    "A375981"
-  ],
+  "mentions": [],
   "tags": [
     "easy",
     "formulas",

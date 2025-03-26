@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = [x^n] G(x)^n, where G(x) = Product_{k >= 1} 1/(1 - x^k)^(k^2) is the g.f. of A023871.",
+  "id": "A380290",
+  "mentions": [
+    "A001158",
+    "A023871",
+    "A023873",
+    "A283263",
+    "A380291",
+    "A380581",
+    "A380582",
+    "A380583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

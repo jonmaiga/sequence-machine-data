@@ -2,6 +2,8 @@
   "description": "a(n) = lcm(Omega(n), omega(n)).",
   "id": "A066921",
   "mentions": [
+    "A001221",
+    "A001222",
     "A066922"
   ],
   "tags": [

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = gcd(n,A003961(n))*gcd(sigma(n),A276086(n)) - gcd(n,A276086(n))*gcd(sigma(n),A003961(n)), where A003961 is fully multiplicative with a(prime(i)) = prime(i+1), and A276086 is the primorial base exp-function.",
+  "id": "A379489",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A276086",
+    "A322361",
+    "A324198",
+    "A324644",
+    "A342671",
+    "A379486",
+    "A379487",
+    "A379488"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

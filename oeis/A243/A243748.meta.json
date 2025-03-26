@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,d): the number of subgroups of order d of the symmetric group S_n as d runs through the divisors of n!.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of subgroups of order d of the symmetric group S_n, where d is the k-th divisor of n!.",
   "id": "A243748",
   "mentions": [
     "A001189",

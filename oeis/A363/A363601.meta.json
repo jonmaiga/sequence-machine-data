@@ -1,10 +1,19 @@
 {
-  "description": "Number of partitions of n where there are k^2-1 kinds of parts k.",
+  "description": "Number of partitions of n where there are k^2 - 1 kinds of parts k.",
   "id": "A363601",
   "mentions": [
+    "A005380",
     "A023871",
+    "A052847",
     "A092348",
+    "A120844",
+    "A217093",
     "A253289",
+    "A255271",
+    "A255802",
+    "A255803",
+    "A255835",
+    "A255836",
     "A363602"
   ],
   "tags": [

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n 8's sandwiched between two 1's.",
   "id": "A205088",
-  "mentions": [],
+  "mentions": [
+    "A002282"
+  ],
   "tags": [
     "base",
     "easy",

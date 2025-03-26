@@ -1,0 +1,20 @@
+{
+  "description": "Odd bisection of A083254, where A083254(n) = 2*phi(n)-n.",
+  "id": "A378987",
+  "mentions": [
+    "A000010",
+    "A064216",
+    "A083254",
+    "A337544",
+    "A378986"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

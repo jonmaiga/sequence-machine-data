@@ -1,12 +1,13 @@
 {
-  "description": "Primes of form sigma_4(n)/sigma_2(n), arising in A066109.",
+  "description": "Primes of the form sigma_4(k)/sigma_2(k), arising in A066109.",
   "id": "A066110",
   "mentions": [
     "A000040",
     "A001157",
     "A001159",
     "A066109",
-    "A066113"
+    "A066111",
+    "A066112"
   ],
   "tags": [
     "formulas",

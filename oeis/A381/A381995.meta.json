@@ -1,0 +1,43 @@
+{
+  "description": "Number of ways to partition the prime indices of n into constant blocks with a common sum.",
+  "id": "A381995",
+  "mentions": [
+    "A000688",
+    "A000720",
+    "A000961",
+    "A001055",
+    "A001222",
+    "A006171",
+    "A045778",
+    "A050361",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A265947",
+    "A279784",
+    "A279789",
+    "A295935",
+    "A300383",
+    "A317141",
+    "A321455",
+    "A353864",
+    "A353866",
+    "A381453",
+    "A381455",
+    "A381633",
+    "A381635",
+    "A381719",
+    "A381871",
+    "A381993",
+    "A382215"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

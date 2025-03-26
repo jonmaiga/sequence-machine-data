@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: coefficients for step-by-step integration.",
+  "description": "Triangle read by rows: coefficients for predictor y(x_1) for step-by-step integration.",
   "id": "A260780",
   "mentions": [
     "A002397",

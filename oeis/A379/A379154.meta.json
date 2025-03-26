@@ -1,0 +1,43 @@
+{
+  "description": "Prime numbers p such that the interval from p to the next prime number contains a unique perfect power.",
+  "id": "A379154",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A001597",
+    "A007916",
+    "A023055",
+    "A045542",
+    "A052410",
+    "A053289",
+    "A053607",
+    "A069623",
+    "A081676",
+    "A116086",
+    "A151799",
+    "A304521",
+    "A366833",
+    "A375706",
+    "A376560",
+    "A377283",
+    "A377287",
+    "A377432",
+    "A377434",
+    "A377436",
+    "A377466",
+    "A377468",
+    "A378355",
+    "A378364",
+    "A378368",
+    "A378374"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

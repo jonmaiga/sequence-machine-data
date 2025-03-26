@@ -29,12 +29,12 @@
     "A371797"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 46,
     "source": "oeis-entry"
   }
 }

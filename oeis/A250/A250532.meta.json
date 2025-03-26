@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..3 arrays with nondecreasing max(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction",
+  "description": "Number of (n+1) X (4+1) 0..3 arrays with nondecreasing max(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.",
   "id": "A250532",
   "mentions": [
     "A250536"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

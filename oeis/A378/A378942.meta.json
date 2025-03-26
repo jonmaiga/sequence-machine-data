@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (1/sqrt(Pi) + e*erfc(-1))/2.",
+  "id": "A378942",
+  "mentions": [
+    "A001113",
+    "A019739",
+    "A087197",
+    "A087198",
+    "A099286",
+    "A222392"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

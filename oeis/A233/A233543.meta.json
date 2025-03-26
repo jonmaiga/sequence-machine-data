@@ -1,24 +1,20 @@
 {
-  "description": "Table T(n,m) = m! read by rows.",
+  "description": "Triangle read by rows: T(n,k) = k!.",
   "id": "A233543",
   "mentions": [
     "A000142",
-    "A001113",
-    "A028310",
-    "A166350",
-    "A193738",
-    "A213936"
+    "A003422",
+    "A166350"
   ],
   "tags": [
     "formulas",
-    "frac",
     "less",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 66,
     "source": "joeis"
   }
 }

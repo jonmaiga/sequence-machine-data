@@ -1,5 +1,5 @@
 {
-  "description": "1 together with numbers of the form p*q^4 and p^9, where p and q are primes.",
+  "description": "1 together with numbers of the form p*q^4 and p^9, where p and q are distinct primes.",
   "id": "A030628",
   "mentions": [
     "A007422",

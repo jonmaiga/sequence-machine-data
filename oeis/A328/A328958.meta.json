@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sigma_0(n) - omega(n) * nu(n), where sigma_0 = A000005, nu = A001221, omega = A001222.",
+  "description": "a(n) = d(n) - (omega(n) * bigomega(n)), where d (number of divisors) = A000005, omega = A001221, bigomega = A001222.",
   "id": "A328958",
   "mentions": [
     "A000005",
@@ -20,12 +20,13 @@
     "A328964"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
-    "size": 85,
-    "source": "joeis"
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

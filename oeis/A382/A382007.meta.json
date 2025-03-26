@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a pentagonal icositetrahedron.",
+  "id": "A382007",
+  "mentions": [
+    "A000796",
+    "A378823",
+    "A378824",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

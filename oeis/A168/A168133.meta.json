@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m = sum_(k=1...n) sigma(k) such that sum_(k=1...n) sigma(k) / k is integer for any k.",
+  "description": "Numbers m = Sum_{k=1..n} sigma(k) such that Sum_{k=1..n} sigma(k) is divisible by k.",
   "id": "A168133",
   "mentions": [
     "A024916",

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - 9 * Sum_{k>=0} x^(3^k))^(1/3).",
+  "id": "A382190",
+  "mentions": [
+    "A078932",
+    "A382189",
+    "A382196"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

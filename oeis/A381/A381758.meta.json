@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of exp( Sum_{k>=1} binomial(9*k-1,2*k-1) * x^k/k ).",
+  "id": "A381758",
+  "mentions": [
+    "A006013",
+    "A079489",
+    "A182960",
+    "A300387",
+    "A381751",
+    "A381752",
+    "A381753",
+    "A381757"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

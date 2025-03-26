@@ -1,5 +1,5 @@
 {
-  "description": "Primes of form n^2 - 3.",
+  "description": "Primes of form k^2 - 3.",
   "id": "A028874",
   "mentions": [
     "A000040",
@@ -7,6 +7,7 @@
     "A002476",
     "A028871",
     "A028872",
+    "A028873",
     "A068228",
     "A082109"
   ],

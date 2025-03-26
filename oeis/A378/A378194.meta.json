@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array, read by descending antidiagonals: row n shows the integers m such that the number of primes of the form 4k+3 (including multiplicities) that divide m is n-1.",
+  "id": "A378194",
+  "mentions": [
+    "A000244",
+    "A002144",
+    "A002145",
+    "A025192",
+    "A065339",
+    "A072437",
+    "A376961",
+    "A378193"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

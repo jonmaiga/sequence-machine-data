@@ -1,0 +1,21 @@
+{
+  "description": "In the binary expansion of n (without leading zeros): complement the bits strictly between the leftmost and the rightmost 0's, if any.",
+  "id": "A381839",
+  "mentions": [
+    "A000225",
+    "A030130",
+    "A122155",
+    "A381852"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

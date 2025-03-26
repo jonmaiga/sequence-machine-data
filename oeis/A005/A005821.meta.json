@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = [ tau*a(n-1) ] + a(n-2).",
+  "description": "a(n) = floor(tau*a(n-1)) + a(n-2) with a(0)=0 and a(1)=1.",
   "id": "A005821",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "For 0 <= n <= 100, a(n) is smallest integer N such that some x/N rounds to n%, with x > 0.",
+  "description": "For 0 <= n <= 100, a(n) is smallest integer N such that some positive x/N rounds to n%, with x > 0.",
   "id": "A239525",
   "mentions": [
     "A239526"

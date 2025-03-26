@@ -2,15 +2,18 @@
   "description": "Integers m arising from A068977.",
   "id": "A182463",
   "mentions": [
-    "A068977"
+    "A068977",
+    "A324503",
+    "A324504"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

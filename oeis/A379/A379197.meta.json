@@ -1,0 +1,14 @@
+{
+  "description": "G.f. A(x) satisfies 2 = Sum_{n=-oo..+oo} x^n * (1 + x^n)^n * A(x)^n.",
+  "id": "A379197",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

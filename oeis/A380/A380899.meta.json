@@ -1,0 +1,18 @@
+{
+  "description": "Three-Catalan Triangle read by rows, for n>=0 and k>=0.",
+  "id": "A380899",
+  "mentions": [
+    "A005721",
+    "A008287"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,9 @@
 {
-  "description": "Expansion of (1-4x)/(1-13x).",
+  "description": "Expansion of g.f. (1-4*x)/(1-13*x).",
   "id": "A196663",
   "mentions": [
     "A002001",
     "A193722",
-    "A196660",
     "A196661",
     "A196662"
   ],

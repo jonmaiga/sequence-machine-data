@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Numerator(-4*n^2*Zeta(1 - n)*Zeta(n)*(1 - 2^(1 - n)) / Pi^n) for n >= 2, a(0) = 0, a(1) = 1.",
+  "description": "a(n) = numerator(-4*n^2*zeta(1 - n)*zeta(n)*(1 - 2^(1 - n)) / Pi^n) for n >= 2, a(0) = 0, a(1) = 1.",
   "id": "A335538",
   "mentions": [
     "A027642",

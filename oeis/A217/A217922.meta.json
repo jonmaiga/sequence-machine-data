@@ -7,12 +7,13 @@
     "A075856"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "description": "Number of points in Z^4 of norm <= n where the sum of the four entries is even.",
+  "id": "A380832",
+  "mentions": [
+    "A055410"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

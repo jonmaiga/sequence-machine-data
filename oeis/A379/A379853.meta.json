@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the fraction of a population falling beyond +- 1 standard deviation of the mean, assuming a normal distribution.",
+  "id": "A379853",
+  "mentions": [
+    "A178647",
+    "A239382"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

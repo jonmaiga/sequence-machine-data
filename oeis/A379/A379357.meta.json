@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the partial sums of the reciprocals of the 3rd Piltz function d_3(n) (A007425).",
+  "id": "A379357",
+  "mentions": [
+    "A007425",
+    "A061201",
+    "A104528",
+    "A379358"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

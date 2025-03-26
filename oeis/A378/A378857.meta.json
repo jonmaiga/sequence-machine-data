@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k > 1 such that n^k starts and ends with n, or -1 if there is no such k.",
+  "id": "A378857",
+  "mentions": [
+    "A051248",
+    "A074250",
+    "A374026"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

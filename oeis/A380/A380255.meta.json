@@ -1,0 +1,14 @@
+{
+  "description": "Number of cyclic edge cuts in the n-dipyramidal graph.",
+  "id": "A380255",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

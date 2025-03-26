@@ -1,5 +1,5 @@
 {
-  "description": "Limit of f(f(f(...f(0))...) modulo n as the number of iterations of f(x)=2^x+1 grows.",
+  "description": "Limit of f(f(f(...f(0)...))) modulo n as the number of iterations of f(x) = 2^x+1 grows.",
   "id": "A254411",
   "mentions": [
     "A227944",

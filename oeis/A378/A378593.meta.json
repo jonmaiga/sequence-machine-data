@@ -1,0 +1,19 @@
+{
+  "description": "Number of squarefree k between consecutive powerful numbers (inclusive).",
+  "id": "A378593",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A076446",
+    "A240590"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

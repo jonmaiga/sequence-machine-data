@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = [ a(n-1)/a(1) ] + [ a(n-1)/a(2) ] + ... + [ a(n-1)/a(n-1) ] for n >= 3.",
+  "description": "a(n) = [ a(n-1)/a(1) ] + [ a(n-1)/a(2) ] + ... + [ a(n-1)/a(n-1) ] for n >= 3, with initial terms 2,2.",
   "id": "A022868",
   "mentions": [],
   "tags": [

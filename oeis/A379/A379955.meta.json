@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 if n = floor(prime(i)/2) * prime(i)^e, for some e, i > 0, otherwise 0, where prime(i) = A000040(i).",
+  "id": "A379955",
+  "mentions": [
+    "A000040",
+    "A130290",
+    "A217983",
+    "A379956"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

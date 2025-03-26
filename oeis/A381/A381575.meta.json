@@ -1,0 +1,17 @@
+{
+  "description": "Number of disjoint-union partial algebras with zero on [n].",
+  "id": "A381575",
+  "mentions": [
+    "A380571",
+    "A381472"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

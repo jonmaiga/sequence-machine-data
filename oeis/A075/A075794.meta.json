@@ -1,13 +1,16 @@
 {
   "description": "a(n) = the least positive integer k such that phi(k) > phi(1) + ... + phi(n).",
   "id": "A075794",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A002088"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

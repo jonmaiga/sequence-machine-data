@@ -2,7 +2,8 @@
   "description": "The odd bisection of A000594.",
   "id": "A099059",
   "mentions": [
-    "A000594"
+    "A000594",
+    "A099060"
   ],
   "tags": [
     "formulas",

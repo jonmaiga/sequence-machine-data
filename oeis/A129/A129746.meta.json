@@ -1,14 +1,10 @@
 {
-  "description": "Numbers n such that the sum of the first n primes with the final digit 3 is prime.",
+  "description": "Numbers k such that the sum of the first k primes with the final digit 3 is prime.",
   "id": "A129746",
-  "mentions": [
-    "A030431",
-    "A129078"
-  ],
+  "mentions": [],
   "tags": [
     "base",
     "easy",
-    "formulas",
     "less",
     "nonn"
   ],

@@ -1,0 +1,18 @@
+{
+  "description": "List of y coordinates of prime numbers in the Cartesian grid defined in A379643.",
+  "id": "A379731",
+  "mentions": [
+    "A297448",
+    "A345293",
+    "A379643"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

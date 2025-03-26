@@ -1,0 +1,29 @@
+{
+  "description": "Number of fixed points of solid partitions under twice the 'time-lapse' operation.",
+  "id": "A382247",
+  "mentions": [
+    "A000293",
+    "A094504",
+    "A094508",
+    "A096272",
+    "A096573",
+    "A096574",
+    "A096575",
+    "A096576",
+    "A096578",
+    "A096579",
+    "A096580",
+    "A096581",
+    "A119266"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

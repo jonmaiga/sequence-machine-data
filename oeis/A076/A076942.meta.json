@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k > 0 such that nk+1 is a square.",
+  "description": "Smallest k > 0 such that n*k+1 is a square.",
   "id": "A076942",
   "mentions": [
     "A033948",

@@ -1,0 +1,30 @@
+{
+  "description": "Smallest integer of d digits, greater than 1 and not ending in 0, whose constant congruence speed is not yet constant at height d + 2.",
+  "id": "A380031",
+  "mentions": [
+    "A068407",
+    "A290372",
+    "A290373",
+    "A290374",
+    "A290375",
+    "A317905",
+    "A370211",
+    "A370775",
+    "A371129",
+    "A371671",
+    "A372490",
+    "A373387",
+    "A379906"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

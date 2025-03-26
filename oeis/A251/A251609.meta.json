@@ -2,9 +2,9 @@
   "description": "Least k such that prime(k) + prime(k+1) contains n distinct prime divisors.",
   "id": "A251609",
   "mentions": [
-    "A000040",
     "A000720",
     "A001221",
+    "A071215",
     "A071352",
     "A230518",
     "A251600"

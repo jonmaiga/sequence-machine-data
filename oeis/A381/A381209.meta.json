@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x*cos(x))^3.",
+  "id": "A381209",
+  "mentions": [
+    "A185951",
+    "A352252",
+    "A377530",
+    "A381207",
+    "A381208",
+    "A381210",
+    "A381211"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

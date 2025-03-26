@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of graphs with n vertices and treewidth k.",
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled simple graphs with n vertices and treewidth k.",
   "id": "A263294",
   "mentions": [
     "A000012",

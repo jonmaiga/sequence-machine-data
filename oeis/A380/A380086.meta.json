@@ -1,0 +1,28 @@
+{
+  "description": "The number of unitary divisors of n that are terms in A276078.",
+  "id": "A380086",
+  "mentions": [
+    "A000720",
+    "A005117",
+    "A034444",
+    "A077610",
+    "A276078",
+    "A276079",
+    "A325127",
+    "A377516",
+    "A380085",
+    "A380087",
+    "A380089"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

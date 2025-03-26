@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = p(2*n*p(n)), where p(x) = least prime > x.",
+  "id": "A378136",
+  "mentions": [
+    "A000040",
+    "A013636",
+    "A151800",
+    "A378135"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

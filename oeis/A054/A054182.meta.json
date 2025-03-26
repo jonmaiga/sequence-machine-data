@@ -1,10 +1,11 @@
 {
-  "description": "Number of positive integers <= 2^n of form 6 x^2 + 7 y^2.",
+  "description": "Number of positive integers <= 2^n of form 6*x^2 + 7*y^2.",
   "id": "A054182",
   "mentions": [
     "A020689"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

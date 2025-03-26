@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = max_{k=0..n} 2^k*A048993(n,k)",
+  "description": "a(n) = max_{k=0..n} 2^k*A048993(n,k).",
   "id": "A002871",
   "mentions": [
     "A000262",

@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = remainder when 6^n is divided by n^6.",
+  "description": "a(n) = 6^n mod n^6.",
   "id": "A066610",
-  "mentions": [],
+  "mentions": [
+    "A066606"
+  ],
   "tags": [
     "nonn"
   ],

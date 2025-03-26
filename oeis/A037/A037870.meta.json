@@ -2,6 +2,7 @@
   "description": "a(n) = (1/2)*Sum{|d(i)-e(i)|}, where Sum{d(i)*2^i} is base 2 representation of n and e(i) are digits d(i) in nonincreasing order, for i=0,1,...,m.",
   "id": "A037870",
   "mentions": [
+    "A007088",
     "A020522",
     "A037879",
     "A243109"

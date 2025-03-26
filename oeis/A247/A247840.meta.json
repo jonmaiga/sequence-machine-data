@@ -1,7 +1,9 @@
 {
-  "description": "Sum(6^k, k=2..n).",
+  "description": "a(n) = Sum_{k=2..n} 6^k.",
   "id": "A247840",
   "mentions": [
+    "A000400",
+    "A003464",
     "A105281",
     "A247817"
   ],

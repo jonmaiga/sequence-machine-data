@@ -1,7 +1,9 @@
 {
   "description": "Numbers in which the product of digits in even positions = product of digits in odd positions.",
   "id": "A067042",
-  "mentions": [],
+  "mentions": [
+    "A008593"
+  ],
   "tags": [
     "base",
     "easy",

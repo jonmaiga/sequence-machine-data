@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions x + y = z with {x,y,z} in {1,2,3,..,3n} and z > y >= x.",
+  "description": "Number of partitions x + y = z with {x,y,z} in {1,2,3,..,3*n} and z > y >= x.",
   "id": "A173102",
   "mentions": [
     "A016766",

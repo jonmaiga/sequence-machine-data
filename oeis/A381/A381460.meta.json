@@ -1,0 +1,31 @@
+{
+  "description": "Smallest n-th perfect power greater than 1 satisfying A373387(a(n)) = n.",
+  "id": "A381460",
+  "mentions": [
+    "A018247",
+    "A018248",
+    "A063006",
+    "A091661",
+    "A091663",
+    "A091664",
+    "A120817",
+    "A120818",
+    "A290372",
+    "A290373",
+    "A290374",
+    "A290375",
+    "A317905",
+    "A373387",
+    "A379243"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

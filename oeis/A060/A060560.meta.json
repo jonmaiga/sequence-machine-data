@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to color vertices of an octagon using <= n colors, allowing rotations and reflections.",
+  "description": "Number of ways to color the vertices of an octagon using <= n colors, allowing rotations and reflections.",
   "id": "A060560",
   "mentions": [
     "A081720",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 28,
     "source": "joeis"
   }
 }

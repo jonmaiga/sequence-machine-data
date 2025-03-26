@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 is of the form b^2 + (4*c)^2 where b*c is squarefree.",
+  "id": "A379985",
+  "mentions": [
+    "A005117",
+    "A009000",
+    "A009003",
+    "A057100",
+    "A084645"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

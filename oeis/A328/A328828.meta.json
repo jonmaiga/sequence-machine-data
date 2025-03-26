@@ -2,11 +2,17 @@
   "description": "Index of the least significant digit larger than one in the primorial base expansion of n, 0 if no such digit exists.",
   "id": "A328828",
   "mentions": [
+    "A000720",
+    "A008578",
     "A049345",
     "A055396",
     "A276086",
+    "A276156",
     "A277885",
-    "A328572"
+    "A328572",
+    "A328829",
+    "A328832",
+    "A381032"
   ],
   "tags": [
     "base",

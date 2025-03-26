@@ -1,0 +1,17 @@
+{
+  "description": "Least positive integer k <= n such that |tau(k)|*n + 1 is prime, or 0 if such k does not exist, where the tau function is given by A000594.",
+  "id": "A379654",
+  "mentions": [
+    "A000040",
+    "A000594",
+    "A034693"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

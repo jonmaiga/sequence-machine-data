@@ -1,9 +1,7 @@
 {
-  "description": "Smallest number not occurring earlier having no common digits with n in its decimal representation.",
+  "description": "Smallest positive integer not occurring earlier having no common digits with n in its decimal representation.",
   "id": "A096779",
-  "mentions": [
-    "A030238"
-  ],
+  "mentions": [],
   "tags": [
     "base",
     "fini",

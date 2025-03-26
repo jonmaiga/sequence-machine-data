@@ -2,7 +2,9 @@
   "description": "Continued fraction expansion of tribonacci constant A058265.",
   "id": "A019712",
   "mentions": [
-    "A058265"
+    "A058265",
+    "A319428",
+    "A319429"
   ],
   "tags": [
     "cofr",

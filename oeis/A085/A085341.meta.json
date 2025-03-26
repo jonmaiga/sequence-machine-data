@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes between sigma(n) and n.",
+  "description": "Number of primes between sigma(n) and n inclusive.",
   "id": "A085341",
   "mentions": [
     "A000203",

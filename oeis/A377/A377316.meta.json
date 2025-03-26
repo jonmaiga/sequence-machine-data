@@ -1,0 +1,16 @@
+{
+  "description": "Orders k of groups G such that G is a non-split extension of Inn(G) by Z(G) for at least one group G of order k.",
+  "id": "A377316",
+  "mentions": [
+    "A008586"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

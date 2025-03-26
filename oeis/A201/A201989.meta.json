@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk zero-sum -3..3 arrays with rows and columns lexicographically nondecreasing",
+  "description": "T(n,k) is the number of n X k zero-sum -3..3 arrays with rows and columns lexicographically nondecreasing.",
   "id": "A201989",
   "mentions": [
     "A001977"

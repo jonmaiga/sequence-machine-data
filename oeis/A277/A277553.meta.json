@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the sum of the divisors of n is divisible by the number of divisors of n, and the sum of the squares of the divisors of n is divisible by the sum of the divisors of n.",
+  "description": "Numbers k such that the sum of the divisors of k is divisible by the number of divisors of k, and the sum of the squares of the divisors of k is divisible by the sum of the divisors of k.",
   "id": "A277553",
   "mentions": [
     "A000005",

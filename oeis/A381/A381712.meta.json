@@ -1,0 +1,18 @@
+{
+  "description": "Euler transform of n * A194532(n).",
+  "id": "A381712",
+  "mentions": [
+    "A156304",
+    "A194532",
+    "A381714"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

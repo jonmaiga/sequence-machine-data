@@ -1,0 +1,19 @@
+{
+  "description": "Positions of records in A379857.",
+  "id": "A379831",
+  "mentions": [
+    "A001156",
+    "A003995",
+    "A033461",
+    "A379857"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

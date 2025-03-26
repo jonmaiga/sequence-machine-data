@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the generalized log-sine integral with k = 0, n = 3, m = 3, from {0 .. 4 Pi/3} (negated).",
+  "id": "A380205",
+  "mentions": [
+    "A379042",
+    "A379273",
+    "A380206"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

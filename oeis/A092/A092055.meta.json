@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = binomial(2+2^n,3).",
+  "description": "a(n) = binomial(2 + 2^n,3).",
   "id": "A092055",
   "mentions": [
     "A000079",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

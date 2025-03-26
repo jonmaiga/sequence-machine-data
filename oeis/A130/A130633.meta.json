@@ -2,11 +2,13 @@
   "description": "Additive persistence of Fibonacci numbers.",
   "id": "A130633",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A031286"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

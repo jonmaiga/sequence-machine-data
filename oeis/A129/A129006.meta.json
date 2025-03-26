@@ -1,5 +1,5 @@
 {
-  "description": "(n^3+n^2)*6^n.",
+  "description": "a(n) = (n^3 + n^2)*6^n.",
   "id": "A129006",
   "mentions": [
     "A036289",

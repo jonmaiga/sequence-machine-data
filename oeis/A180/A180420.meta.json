@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(A(x)) = x + A(2*x)^2.",
+  "description": "G.f. A(x) satisfies A(A(x)) = x + A(2*x)^2.",
   "id": "A180420",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

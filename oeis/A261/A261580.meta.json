@@ -1,5 +1,5 @@
 {
-  "description": "Primes such that z(p) is odd where z(n) is A214028(n).",
+  "description": "Primes p such that A214028(p) is odd.",
   "id": "A261580",
   "mentions": [
     "A000045",

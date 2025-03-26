@@ -2,6 +2,7 @@
   "description": "Squarefree numbers whose external as well as internal digits form a squarefree number.",
   "id": "A077378",
   "mentions": [
+    "A005117",
     "A077376",
     "A077377",
     "A077379",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

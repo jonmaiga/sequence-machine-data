@@ -1,0 +1,18 @@
+{
+  "description": "Smallest n-digit number whose digits can be divided into an even number of substrings s_i (where i <= n) such that the sum of s_j^s_k (where j <= n and k <= n), with each substring used only once, equals the number k itself, or -1 if no such number exists.",
+  "id": "A378515",
+  "mentions": [
+    "A004248",
+    "A377012"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

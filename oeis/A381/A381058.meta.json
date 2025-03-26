@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array read by rows. Let S_n be the set of labeled graphs G on [n] with 2-colored nodes where black nodes are only connected to white nodes and vice versa. Orient the edges in each such graph G from black to white. T(n,k) is the number of graphs in S_n containing exactly k descents, n>=0, 0<=k<=A002620(n).",
+  "id": "A381058",
+  "mentions": [
+    "A002620",
+    "A006116",
+    "A047863",
+    "A111636",
+    "A228890",
+    "A381102",
+    "A381192"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

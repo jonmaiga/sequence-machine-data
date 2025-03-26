@@ -1,5 +1,5 @@
 {
-  "description": "Greatest perfect square that does not exceed n!.",
+  "description": "Largest square <= n!.",
   "id": "A065731",
   "mentions": [
     "A000142",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct nondegenerate triangles whose sides are divisors of n.",
+  "id": "A378820",
+  "mentions": [
+    "A000005",
+    "A316841",
+    "A316842",
+    "A378819"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

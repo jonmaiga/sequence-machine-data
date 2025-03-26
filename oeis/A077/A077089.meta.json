@@ -1,5 +1,5 @@
 {
-  "description": "Quotients when sigma(n+1)/sigma(n) is integer.",
+  "description": "Quotients when sigma(k+1)/sigma(k) is an integer.",
   "id": "A077089",
   "mentions": [
     "A000203",

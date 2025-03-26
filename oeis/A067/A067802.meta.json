@@ -1,5 +1,5 @@
 {
-  "description": "Triangle with T(n,k)=C(2n+1,n-k)^2*(2k+1)/(2n+1).",
+  "description": "Triangle read by rows: T(n, k) = binomial(2*n+1, n-k)^2*(2*k+1)/(2*n+1)",
   "id": "A067802",
   "mentions": [
     "A000891",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 45,
     "source": "joeis"
   }
 }

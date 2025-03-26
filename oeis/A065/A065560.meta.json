@@ -1,5 +1,5 @@
 {
-  "description": "Let f(x,y) = floor((1+1/x)^y); a(n) is the smallest integer such that f(n,a(n)+1)/f(n,a(n)) = 1+1/n.",
+  "description": "a(n) is the smallest integer k such that floor((1+1/n)^(k+1))/floor((1+1/n)^k) = 1+1/n.",
   "id": "A065560",
   "mentions": [
     "A065554",

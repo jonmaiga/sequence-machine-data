@@ -2,9 +2,11 @@
   "description": "If k is in sequence then 2*k and 2*k+1 are not (and 1 is in the sequence); numbers with an odd number of digits in binary.",
   "id": "A053738",
   "mentions": [
+    "A000302",
     "A029837",
     "A053754",
-    "A079112"
+    "A079112",
+    "A083420"
   ],
   "tags": [
     "base",

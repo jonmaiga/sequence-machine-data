@@ -1,19 +1,27 @@
 {
-  "description": "First prime of A031938 (lesser of primes differing by 20) whose distance to the next 20-twin increases.",
+  "description": "Least prime in A031938 (lesser of primes differing by 20) whose distance to the next 20-twin is 6*n.",
   "id": "A052359",
   "mentions": [
     "A031938",
+    "A052350",
+    "A052351",
+    "A052352",
+    "A052353",
+    "A052354",
+    "A052355",
+    "A052356",
+    "A052357",
+    "A052358",
     "A052380",
     "A052381",
     "A053331"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 34,
-    "source": "joeis"
+    "offset": 4,
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

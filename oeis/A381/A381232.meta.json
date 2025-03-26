@@ -1,0 +1,18 @@
+{
+  "description": "Count down from k to -k for k = 0, 1, 2, ... .",
+  "id": "A381232",
+  "mentions": [
+    "A196199",
+    "A381233"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

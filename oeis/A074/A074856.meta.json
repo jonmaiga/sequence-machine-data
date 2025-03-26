@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that all p-k^2 for p/2 < k^2 < p are composite.",
+  "description": "Primes p such that all p-k^2 for p/2 < k^2 < p are nonprime.",
   "id": "A074856",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

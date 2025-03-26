@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first prime that has digit sum n in base n and n+1 in base n+1.",
+  "id": "A379749",
+  "mentions": [
+    "A002061",
+    "A055494",
+    "A226636",
+    "A379743"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

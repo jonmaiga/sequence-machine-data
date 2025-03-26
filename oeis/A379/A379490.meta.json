@@ -1,0 +1,32 @@
+{
+  "description": "Odd squares s such that 2*s is equal to bitwise-AND of 2*s and sigma(s).",
+  "id": "A379490",
+  "mentions": [
+    "A000203",
+    "A004198",
+    "A005231",
+    "A016754",
+    "A318468",
+    "A324647",
+    "A325311",
+    "A336700",
+    "A336701",
+    "A337339",
+    "A337342",
+    "A348742",
+    "A379474",
+    "A379503",
+    "A379505",
+    "A379949"
+  ],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

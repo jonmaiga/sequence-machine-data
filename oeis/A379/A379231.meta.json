@@ -1,0 +1,24 @@
+{
+  "description": "Terms of A379230 whose absolute value is prime.",
+  "id": "A379231",
+  "mentions": [
+    "A104210",
+    "A151799",
+    "A252748",
+    "A379230",
+    "A379232",
+    "A379233",
+    "A379235",
+    "A379237"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

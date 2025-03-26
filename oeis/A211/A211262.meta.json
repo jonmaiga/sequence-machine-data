@@ -10,14 +10,15 @@
     "A211264",
     "A211265",
     "A211266",
-    "A211267"
+    "A211267",
+    "A211271"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 99,
-    "source": "joeis"
+    "size": 108,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "description": "Number of integer partitions of n that cannot be partitioned into constant multisets with a common sum.",
+  "id": "A381993",
+  "mentions": [
+    "A000688",
+    "A001055",
+    "A006171",
+    "A045778",
+    "A047966",
+    "A050361",
+    "A265947",
+    "A279784",
+    "A279789",
+    "A300383",
+    "A317141",
+    "A326534",
+    "A355743",
+    "A381453",
+    "A381455",
+    "A381635",
+    "A381636",
+    "A381715",
+    "A381717",
+    "A381719",
+    "A381871",
+    "A381992",
+    "A381994",
+    "A381995",
+    "A382076",
+    "A382080",
+    "A382204"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

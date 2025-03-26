@@ -2,6 +2,7 @@
   "description": "Primes that contain digits 1 and 9 only.",
   "id": "A020457",
   "mentions": [
+    "A030096",
     "A329761"
   ],
   "tags": [

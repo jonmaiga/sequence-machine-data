@@ -2,7 +2,9 @@
   "description": "The Strahler number of the rooted tree with Matula-Goebel number n.",
   "id": "A214574",
   "mentions": [
-    "A214573"
+    "A061775",
+    "A214573",
+    "A356082"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 119,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

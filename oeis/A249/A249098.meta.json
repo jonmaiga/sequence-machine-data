@@ -2,7 +2,6 @@
   "description": "Position of n^6 in the ordered union of {h^6, h >=1} and {3*k^6, k >=1}.",
   "id": "A249098",
   "mentions": [
-    "A249073",
     "A249097",
     "A249099"
   ],
@@ -14,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

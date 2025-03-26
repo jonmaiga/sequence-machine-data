@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n+1)+n-1.",
+  "description": "a(n) = 2^(n+1) + n - 1.",
   "id": "A083706",
   "mentions": [
     "A130301",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

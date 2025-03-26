@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer k which has at least n divisors d for which tau(k) = sigma(d).",
+  "id": "A381927",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A027750",
+    "A381925",
+    "A381926"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

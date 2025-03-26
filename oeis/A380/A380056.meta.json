@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. (exp(x) - 1)/cos(2*x).",
+  "id": "A380056",
+  "mentions": [
+    "A000364",
+    "A380053",
+    "A380555"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

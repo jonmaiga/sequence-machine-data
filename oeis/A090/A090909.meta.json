@@ -1,10 +1,11 @@
 {
-  "description": "Terms a(k) of A073869 for which a(k-1), a(k) and a(k+1) are distinct.",
+  "description": "Terms a(k) of A073869 for which a(k-1) = a(k), and a(k) and a(k+1) are distinct.",
   "id": "A090909",
   "mentions": [
     "A001622",
     "A001950",
     "A002251",
+    "A003623",
     "A004919",
     "A004920",
     "A004921",
@@ -34,8 +35,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 63,
+    "offset": 1,
+    "size": 62,
     "source": "oeis-bfile"
   }
 }

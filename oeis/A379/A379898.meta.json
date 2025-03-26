@@ -1,0 +1,18 @@
+{
+  "description": "Integers k equal to the sum over A003415(t) mod t, for some steps, starting with t = k and then using the result to feed the next calculation.",
+  "id": "A379898",
+  "mentions": [
+    "A003415",
+    "A377001",
+    "A377002"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

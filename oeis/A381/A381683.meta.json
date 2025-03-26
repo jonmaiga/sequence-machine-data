@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of collections of up to k subsets of [n] covering [n], with [0]={}; n>=0, k=0..2^n.",
+  "id": "A381683",
+  "mentions": [
+    "A000371",
+    "A102661",
+    "A163353",
+    "A369950",
+    "A381682"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

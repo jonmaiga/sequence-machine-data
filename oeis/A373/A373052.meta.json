@@ -6,14 +6,18 @@
     "A229037",
     "A309890",
     "A361933",
-    "A373010"
+    "A371457",
+    "A371632",
+    "A373010",
+    "A373111"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

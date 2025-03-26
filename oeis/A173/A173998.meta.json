@@ -1,8 +1,9 @@
 {
-  "description": "For n>=1, a(n) = n + 2 + sum(i=1..n-1, a(i)*a(n-i) ).",
+  "description": "For n>=1, a(n) = n + 2 + Sum_{i=1..n-1} a(i)*a(n-i).",
   "id": "A173998",
   "mentions": [
-    "A030431"
+    "A030431",
+    "A379103"
   ],
   "tags": [
     "formulas",

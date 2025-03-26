@@ -1,7 +1,10 @@
 {
   "description": "Numbers of the form (4^n + 4^(n-1) + ... + 1) + (n mod 2).",
   "id": "A088556",
-  "mentions": [],
+  "mentions": [
+    "A002450",
+    "A047849"
+  ],
   "tags": [
     "easy",
     "formulas",

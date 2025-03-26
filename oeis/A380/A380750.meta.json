@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest integer k such that k*x*y*z*w = (x + k) * (y + k) * (z + k) * (w + k), 0 < x <= y <= z <= w has exactly n integer solutions.",
+  "id": "A380750",
+  "mentions": [
+    "A374059",
+    "A375787",
+    "A380749"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

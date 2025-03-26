@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that prime(n) + prime(k) is a multiple of n, or -1 if no such number exists.",
+  "id": "A379014",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A068901",
+    "A092044",
+    "A294639"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

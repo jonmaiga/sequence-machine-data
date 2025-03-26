@@ -1,0 +1,28 @@
+{
+  "description": "Intersection of A375055 and A376936.",
+  "id": "A378769",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001694",
+    "A007947",
+    "A024619",
+    "A082020",
+    "A082695",
+    "A126706",
+    "A375055",
+    "A376936",
+    "A378767",
+    "A378900"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

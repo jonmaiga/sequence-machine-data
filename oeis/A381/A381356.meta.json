@@ -1,0 +1,16 @@
+{
+  "description": "Limit of rows in irregular triangle A381587.",
+  "id": "A381356",
+  "mentions": [
+    "A306346",
+    "A381587"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,7 @@
   "description": "The first prime greater than the concatenation of the first n primes.",
   "id": "A074366",
   "mentions": [
-    "A019158"
+    "A019518"
   ],
   "tags": [
     "base",

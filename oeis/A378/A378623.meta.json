@@ -1,0 +1,15 @@
+{
+  "description": "Number of pairs (u,v) for which there is a set of n positive integers X = {x_1, ..., x_n} with u = |X+X| = #{x_i + x_j : 1 <= i,j <=n} and v = |X*X| = #{x_i * x_j : 1 <= i,j <=n}.",
+  "id": "A378623",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) (n>=1, 0 <=k<=n-1) is the length of the period of the sequence obtained by starting with k and repeatedly squaring mod n.",
+  "description": "Triangle read by rows: T(n,k) (n >= 1, 0 <= k <= n-1) is the length of the period of the sequence obtained by starting with k and repeatedly squaring mod n.",
   "id": "A279185",
   "mentions": [
     "A037178",
@@ -15,6 +15,7 @@
     "A279192"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

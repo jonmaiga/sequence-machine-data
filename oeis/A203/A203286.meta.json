@@ -2,7 +2,10 @@
   "description": "Number of arrays of 2n nondecreasing integers in -3..3 with sum zero and equal numbers greater than zero and less than zero.",
   "id": "A203286",
   "mentions": [
-    "A203291"
+    "A005994",
+    "A115264",
+    "A203291",
+    "A381589"
   ],
   "tags": [
     "formulas",

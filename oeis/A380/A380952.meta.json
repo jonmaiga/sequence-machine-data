@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2^(2*n - HammingWeight(n)) * [x^n] ((x - 1)^(-2) - (1 - x)^(-3/2)).",
+  "id": "A380952",
+  "mentions": [
+    "A000120",
+    "A001790",
+    "A046161",
+    "A098597",
+    "A173384",
+    "A380951"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

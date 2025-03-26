@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of divisors of A000178(n).",
+  "id": "A379742",
+  "mentions": [
+    "A000005",
+    "A000178",
+    "A027423"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

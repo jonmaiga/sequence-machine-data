@@ -1,0 +1,19 @@
+{
+  "description": "Indices in A377091 of the records shown in A379076.",
+  "id": "A379077",
+  "mentions": [
+    "A377091",
+    "A379074",
+    "A379075",
+    "A379076"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

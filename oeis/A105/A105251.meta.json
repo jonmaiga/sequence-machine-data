@@ -1,7 +1,9 @@
 {
   "description": "a(n) = binomial(n+4,n)*binomial(n+8,n).",
   "id": "A105251",
-  "mentions": [],
+  "mentions": [
+    "A062264"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(2*n, sigma(2*n)).",
+  "id": "A378994",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A062731",
+    "A336850",
+    "A355925",
+    "A378995",
+    "A378996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

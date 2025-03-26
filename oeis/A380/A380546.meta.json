@@ -1,0 +1,22 @@
+{
+  "description": "Third coefficient of the lindep transform of A017666, denominator of sigma(n)/n.",
+  "id": "A380546",
+  "mentions": [
+    "A017666",
+    "A339792",
+    "A380464",
+    "A380540",
+    "A380543",
+    "A380544",
+    "A380545"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

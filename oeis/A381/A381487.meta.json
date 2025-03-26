@@ -1,0 +1,29 @@
+{
+  "description": "Numbers which are a power of their digital root.",
+  "id": "A381487",
+  "mentions": [
+    "A000012",
+    "A010689",
+    "A010734",
+    "A010888",
+    "A023106",
+    "A070366",
+    "A070403",
+    "A100401",
+    "A100402",
+    "A100403",
+    "A153130",
+    "A381491",
+    "A381492"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

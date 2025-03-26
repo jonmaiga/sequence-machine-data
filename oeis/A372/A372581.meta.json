@@ -1,5 +1,5 @@
 {
-  "description": "Population of elementary triangular automaton rule 210, from a lone 1 cell.",
+  "description": "Population of elementary triangular automaton rule 210 at generation n, starting from a lone 1 cell at generation 0.",
   "id": "A372581",
   "mentions": [
     "A374413"

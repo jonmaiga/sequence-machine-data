@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that there is a prime q for which sigma(sigma(2q-1)) = p.",
+  "description": "Primes p such that there is a prime q for which sigma(sigma(2*q-1)) = p.",
   "id": "A247791",
   "mentions": [
     "A000203",

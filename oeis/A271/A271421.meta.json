@@ -1,5 +1,5 @@
 {
-  "description": "Fibonorial(3*n)/(fibonorial(2*n+1)*fibonorial(n+1)), where fibonorial(n) = A003266(n).",
+  "description": "a(n) = fibonorial(3*n)/(fibonorial(2*n+1)*fibonorial(n+1)), where fibonorial(n) = A003266(n).",
   "id": "A271421",
   "mentions": [
     "A000045",

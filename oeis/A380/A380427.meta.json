@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( -x/A(x) * exp(x/A(x)) ).",
+  "id": "A380427",
+  "mentions": [
+    "A162695",
+    "A357247",
+    "A380425",
+    "A380426"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

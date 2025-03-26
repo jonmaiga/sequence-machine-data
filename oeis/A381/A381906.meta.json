@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1/x) * Series_Reversion( x / ((1+x)^2 * B(x)) ), where B(x) is the g.f. of A001764.",
+  "id": "A381906",
+  "mentions": [
+    "A001764",
+    "A381881",
+    "A381905",
+    "A381907"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

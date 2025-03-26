@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonempty labeled antichains of subsets of [n] such that the largest subset is of size k.",
+  "id": "A379712",
+  "mentions": [
+    "A000225",
+    "A000372",
+    "A014466",
+    "A327806",
+    "A379706"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

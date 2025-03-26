@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers p where the cyclotomic field Q(zeta_(p-1)) has class number one.",
+  "id": "A380784",
+  "mentions": [
+    "A005848"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Frugal numbers in base 2: numbers k such that A377369(k) < A070939(k).",
+  "id": "A379537",
+  "mentions": [
+    "A046759",
+    "A070939",
+    "A377369",
+    "A379373",
+    "A379538"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

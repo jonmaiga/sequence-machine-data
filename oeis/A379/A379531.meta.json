@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (3*sqrt(6) - 7)*Pi/3.",
+  "id": "A379531",
+  "mentions": [
+    "A000796",
+    "A010464",
+    "A010507",
+    "A019670"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

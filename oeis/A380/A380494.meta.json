@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. For n > 1 a(n) is the smallest positive integer not yet in the sequence which is divisible by A007953(a(n-1)) + 1.",
+  "id": "A380494",
+  "mentions": [
+    "A007953",
+    "A051855"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Beginning with 3, least prime such that concatenation of first n terms is prime.",
+  "id": "A379354",
+  "mentions": [
+    "A111382",
+    "A111383",
+    "A113584",
+    "A379355"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

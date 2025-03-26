@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers k such that A339792(k^2) = 0, where A339792 is the third coefficient of the lindep transform of sigma.",
+  "id": "A380450",
+  "mentions": [
+    "A000196",
+    "A322154",
+    "A339790",
+    "A339791",
+    "A339792",
+    "A380445",
+    "A380449"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

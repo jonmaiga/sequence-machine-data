@@ -2,9 +2,11 @@
   "description": "A Beatty sequence: a(n) = floor(n*(Pi - 1)).",
   "id": "A063459",
   "mentions": [
+    "A022844",
     "A063460"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

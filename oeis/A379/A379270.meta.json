@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with only digits \"1\" and three digits \"0\".",
+  "id": "A379270",
+  "mentions": [
+    "A007088",
+    "A023416",
+    "A056557",
+    "A333516",
+    "A360010",
+    "A360573",
+    "A379269"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

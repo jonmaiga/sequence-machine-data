@@ -1,5 +1,5 @@
 {
-  "description": "Least number of distinct prime factors in odd numbers having an abundancy index > n.",
+  "description": "a(n) = smallest number k such that Product_{i=2..k+1} prime(i)/(prime(i)-1) > n.",
   "id": "A005580",
   "mentions": [
     "A000081",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 18,
+    "offset": 0,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

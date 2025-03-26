@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of x -> A003961(x) needed before the result is deficient, when starting from x = 2*n.",
+  "id": "A378985",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A336835",
+    "A341605",
+    "A378979"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

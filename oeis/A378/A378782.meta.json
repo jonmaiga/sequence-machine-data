@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. For n > 1, a(n) is the number of terms a(i), 1 <= i <= n-1 where the sum of the digits of a(i) is <= sum of digits of a(n-1).",
+  "id": "A378782",
+  "mentions": [
+    "A007953",
+    "A378293"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

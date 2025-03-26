@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{n >= 1} n!/p(n), where p(n) = [n/1]!*[n/2]!*...*[n/n]!, and [ ] = floor.",
+  "description": "Decimal expansion of Sum_{n >= 1} n!/p(n), where p(n) = [n/2]!*[n/3]!*...*[n/n]!, and [ ] = floor.",
   "id": "A248695",
   "mentions": [
     "A214869",

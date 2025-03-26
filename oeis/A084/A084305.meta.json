@@ -3,8 +3,7 @@
   "id": "A084305",
   "mentions": [
     "A083124",
-    "A084304",
-    "A084306"
+    "A084304"
   ],
   "tags": [
     "cofr",
@@ -14,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 101,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

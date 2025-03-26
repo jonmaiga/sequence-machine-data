@@ -1,0 +1,19 @@
+{
+  "description": "The second smallest prime not dividing n minus the smallest prime not dividing n.",
+  "id": "A381031",
+  "mentions": [
+    "A053669",
+    "A249270",
+    "A380539",
+    "A381113"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

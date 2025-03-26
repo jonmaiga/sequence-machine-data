@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers k that are neither squarefree nor prime powers (in A126706) and that do not exceed primorial A002110(n).",
+  "id": "A380403",
+  "mentions": [
+    "A002110",
+    "A126706",
+    "A158341",
+    "A380402"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

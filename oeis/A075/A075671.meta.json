@@ -2,6 +2,8 @@
   "description": "Sum of next n 10th powers.",
   "id": "A075671",
   "mentions": [
+    "A008454",
+    "A069876",
     "A072474",
     "A075664",
     "A075670"

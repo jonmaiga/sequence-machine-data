@@ -1,9 +1,12 @@
 {
   "description": "Numbers k such that k^2 - 3 is prime.",
   "id": "A028873",
-  "mentions": [],
+  "mentions": [
+    "A028874"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

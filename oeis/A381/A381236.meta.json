@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: to get row n, take all the numbers that can be obtained by permuting the digits of 9*n, divide them by 9, and arrange them in order.",
+  "id": "A381236",
+  "mentions": [
+    "A381237"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

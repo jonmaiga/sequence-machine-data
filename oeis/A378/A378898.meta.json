@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k > 0 such that (n+k)^2 + n^2 is prime.",
+  "id": "A378898",
+  "mentions": [
+    "A027861",
+    "A089489",
+    "A378945",
+    "A378946"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

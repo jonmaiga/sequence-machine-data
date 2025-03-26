@@ -1,5 +1,5 @@
 {
-  "description": "Number of 8n-dimensional even unimodular lattice (or quadratic forms).",
+  "description": "Number of 8n-dimensional even unimodular lattices (or quadratic forms).",
   "id": "A054909",
   "mentions": [
     "A005134",
@@ -9,6 +9,7 @@
     "A241121"
   ],
   "tags": [
+    "formulas",
     "hard",
     "nice",
     "nonn"

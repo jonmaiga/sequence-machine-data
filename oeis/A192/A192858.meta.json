@@ -2,7 +2,8 @@
   "description": "Hosoya indices of the 2n-wheel graphs W_{2n}.",
   "id": "A192858",
   "mentions": [
-    "A120940"
+    "A120940",
+    "A377857"
   ],
   "tags": [
     "easy",

@@ -2,6 +2,7 @@
   "description": "a(n) = 3*(2*n^2 + 1).",
   "id": "A097803",
   "mentions": [
+    "A058331",
     "A097802"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 47,
     "source": "joeis"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Start with a list of the positive integers L in increasing order. Then, at turn n>=1, element n jumps from its current position, m, to position m+n. Then a(n) = L(m+1).",
+  "id": "A380079",
+  "mentions": [
+    "A003622",
+    "A022342",
+    "A368050"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

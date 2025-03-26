@@ -2,6 +2,7 @@
   "description": "Second diagonal under the main diagonal in A172119 written in a square (see comment).",
   "id": "A173033",
   "mentions": [
+    "A000079",
     "A028399",
     "A172119",
     "A240951"

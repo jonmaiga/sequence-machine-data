@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..2^A007895(n), read by rows; the n-th row lists the integers m such that A184617(abs(m)) = A003714(n).",
+  "id": "A379147",
+  "mentions": [
+    "A000045",
+    "A003714",
+    "A007895",
+    "A184617",
+    "A379175"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

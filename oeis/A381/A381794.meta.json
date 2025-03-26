@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected dominating sets in the n-trapezohedral graph.",
+  "id": "A381794",
+  "mentions": [
+    "A000032",
+    "A370089",
+    "A381190"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

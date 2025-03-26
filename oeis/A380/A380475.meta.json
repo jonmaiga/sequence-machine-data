@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the least term in A380468 that has exactly n prime factors.",
+  "id": "A380475",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003415",
+    "A047247",
+    "A047257",
+    "A048103",
+    "A049345",
+    "A276086",
+    "A317836",
+    "A358235",
+    "A380459",
+    "A380468",
+    "A380476",
+    "A380525",
+    "A380528",
+    "A380530"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

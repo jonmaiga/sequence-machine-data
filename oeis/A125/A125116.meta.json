@@ -1,7 +1,9 @@
 {
   "description": "Number of 8 X 8 pandiagonal Franklin squares with magic sum 4n.",
   "id": "A125116",
-  "mentions": [],
+  "mentions": [
+    "A145217"
+  ],
   "tags": [
     "easy",
     "formulas",

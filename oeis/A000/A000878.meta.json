@@ -1,5 +1,5 @@
 {
-  "description": "Number of switching networks with GL(n,2) acting on the domain and GL(2,2) acting on the range.",
+  "description": "Number of switching networks with GL(n,2) acting on the domain and GL(3,2) acting on the range.",
   "id": "A000878",
   "mentions": [],
   "tags": [

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are divisible by the cube of an odd prime.",
+  "id": "A381313",
+  "mentions": [
+    "A000265",
+    "A002117",
+    "A038838",
+    "A046099",
+    "A233091"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the obtuse vertex angle, in radians, in a (small) triakis octahedron face.",
+  "id": "A380703",
+  "mentions": [
+    "A010503",
+    "A378351",
+    "A378352",
+    "A378353",
+    "A378354",
+    "A380702"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

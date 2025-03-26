@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = total number of bits in the binary representation of the prime factorization of n (including exponents > 1).",
+  "id": "A377369",
+  "mentions": [
+    "A050252",
+    "A070939"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

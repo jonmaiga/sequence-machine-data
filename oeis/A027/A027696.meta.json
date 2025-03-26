@@ -1,16 +1,18 @@
 {
-  "description": "Nonparametric solutions to problem in A027669: n such that for some m, the sum of the first m n-gonal numbers is again an n-gonal number.",
+  "description": "Numbers k >= 2 such that for some m >= 2, the sum of the first m k-gonal numbers is again a k-gonal number, excluding the parametric solution m = (k^2-4*k-2)/3 when k==2 (mod 3).",
   "id": "A027696",
   "mentions": [
-    "A027669"
+    "A027669",
+    "A057145",
+    "A344410",
+    "A373711"
   ],
   "tags": [
-    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 20,
     "source": "oeis-entry"
   }

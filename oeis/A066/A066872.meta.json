@@ -1,9 +1,11 @@
 {
-  "description": "p^2 + 1 as p runs through the primes.",
+  "description": "a(n) = prime(n)^2 + 1.",
   "id": "A066872",
   "mentions": [
     "A000010",
     "A000040",
+    "A000203",
+    "A001248",
     "A002522",
     "A005381",
     "A182448",
@@ -17,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

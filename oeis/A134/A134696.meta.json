@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*Lucas(n) + 1 is prime.",
+  "description": "Numbers k such that k*Lucas(k) + 1 is prime.",
   "id": "A134696",
   "mentions": [
     "A000032",
@@ -7,11 +7,12 @@
     "A134580"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 24,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

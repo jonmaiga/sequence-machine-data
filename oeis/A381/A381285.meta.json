@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - sin(2*x) / 2).",
+  "id": "A381285",
+  "mentions": [
+    "A000111",
+    "A136630",
+    "A381286"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

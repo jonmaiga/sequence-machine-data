@@ -6,12 +6,11 @@
     "A287873"
   ],
   "tags": [
-    "more",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
+    "size": 75,
     "source": "oeis-entry"
   }
 }

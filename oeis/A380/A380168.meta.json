@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquares whose square part is greater than their squarefree part.",
+  "id": "A380168",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A007913",
+    "A008833",
+    "A056623"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

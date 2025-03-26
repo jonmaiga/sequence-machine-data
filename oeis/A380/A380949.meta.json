@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = numerator(r(n)) where r(n) = (n/2)*(Pi/2)^cos(Pi*(n-1))*((n/2-1/2)!/(n/2)!)^2.",
+  "id": "A380949",
+  "mentions": [
+    "A001901",
+    "A019267",
+    "A038534",
+    "A056982",
+    "A069955",
+    "A124399",
+    "A161736",
+    "A161737",
+    "A278145",
+    "A380909",
+    "A380910",
+    "A380950"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

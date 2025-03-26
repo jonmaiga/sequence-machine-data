@@ -1,16 +1,17 @@
 {
-  "description": "For D_n type groups as polyhedra that are pyramid-like: {F,V,E,dimension}->{2*n+1,2*n+1,2*n,(2*n+1)*((2*n+1)-1)/2} such that Euler's equation is true: V=E-F+2.",
+  "description": "For D_n type groups as polyhedra that are pyramid-like: {F,V,E,dimension}->{2*n+1,2*n+1,4*n,(2*n+1)*((2*n+1)-1)/2} such that Euler's equation is true: V=E-F+2.",
   "id": "A130896",
   "mentions": [
     "A131498"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

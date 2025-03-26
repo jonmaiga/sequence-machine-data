@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0..3 arrays with rows and antidiagonals unimodal and columns nondecreasing",
+  "description": "Number of n X n 0..3 arrays with rows, diagonals and antidiagonals unimodal and columns nondecreasing.",
   "id": "A224167",
   "mentions": [
     "A224173"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

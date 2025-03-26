@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is squarefree, but A380459(n) has a factor of the form p^p, otherwise 0.",
+  "id": "A380469",
+  "mentions": [
+    "A008966",
+    "A048103",
+    "A276086",
+    "A349394",
+    "A359550",
+    "A380459",
+    "A380467",
+    "A380470"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,9 @@
   "description": "Decimal expansion of the central angle of a regular tetrahedron.",
   "id": "A156546",
   "mentions": [
+    "A000796",
     "A019669",
+    "A072097",
     "A105199",
     "A137218",
     "A137914",

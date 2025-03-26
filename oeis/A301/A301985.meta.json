@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^2 + 2329n + 1697.",
+  "description": "a(n) = n^2 + 2329*n + 1697.",
   "id": "A301985",
   "mentions": [
     "A005846",

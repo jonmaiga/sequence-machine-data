@@ -1,13 +1,16 @@
 {
-  "description": "Primes the sum of five consecutive composite numbers.",
+  "description": "Primes that are the sum of five consecutive composite numbers.",
   "id": "A060330",
-  "mentions": [],
+  "mentions": [
+    "A007510"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

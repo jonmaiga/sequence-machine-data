@@ -1,5 +1,5 @@
 {
-  "description": "Multiples of 7 such that n +/- 1 are twin primes.",
+  "description": "Multiples of 7, k, such that k +/- 1 are twin primes.",
   "id": "A127545",
   "mentions": [
     "A008589",

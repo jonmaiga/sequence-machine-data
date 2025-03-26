@@ -1,5 +1,5 @@
 {
-  "description": "sigma(n^2) modulo sigma(n).",
+  "description": "a(n) = sigma(n^2) modulo sigma(n).",
   "id": "A186428",
   "mentions": [
     "A000203",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 117,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

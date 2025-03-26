@@ -2,9 +2,13 @@
   "description": "Number of k-simplices in the first derived complex of the standard triangulation of an n-simplex. Equivalently, T(n,k) is the number of ascending chains of length k+1 of nonempty subsets of the set {1, 2, ..., n+1}.",
   "id": "A053440",
   "mentions": [
+    "A000142",
+    "A000225",
     "A002050",
     "A019538",
-    "A028246"
+    "A028243",
+    "A028246",
+    "A142071"
   ],
   "tags": [
     "easy",
@@ -15,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 43,
+    "size": 45,
     "source": "joeis"
   }
 }

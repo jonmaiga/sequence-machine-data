@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = largest number of cells of a polyomino with at most n collinear cell centers.",
+  "id": "A380991",
+  "mentions": [
+    "A378169",
+    "A380990"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

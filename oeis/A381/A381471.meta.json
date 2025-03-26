@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-isomorphic Dynkin systems on n points.",
+  "id": "A381471",
+  "mentions": [
+    "A000041",
+    "A380571"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

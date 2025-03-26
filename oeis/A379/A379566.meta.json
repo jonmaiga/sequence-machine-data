@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-digit numbers that have exactly 3 divisors.",
+  "id": "A379566",
+  "mentions": [
+    "A001248",
+    "A006880",
+    "A122121",
+    "A284398"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

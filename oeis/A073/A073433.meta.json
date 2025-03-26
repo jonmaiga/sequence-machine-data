@@ -1,5 +1,5 @@
 {
-  "description": "Value of [p(n)+c(n)]/2 when it is integer; p(n) is n-th prime, c(n) is n-th composite.",
+  "description": "Value of [p(n)+c(n)]/2 when it is an integer; p(n) is n-th prime, c(n) is n-th composite.",
   "id": "A073433",
   "mentions": [
     "A000040",

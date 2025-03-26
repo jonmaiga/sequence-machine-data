@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n + floor(n*r/t) + floor(n*s/t), where r=2^(1/4), s=2^(1/2), t=2^(3/4).",
+  "id": "A379510",
+  "mentions": [
+    "A000027",
+    "A184812",
+    "A378142",
+    "A378185"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

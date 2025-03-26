@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n+7,n) * C(n+10,7).",
+  "description": "a(n) = binomial(n+7,7) * binomial(n+10,7).",
   "id": "A105943",
   "mentions": [
     "A062145"

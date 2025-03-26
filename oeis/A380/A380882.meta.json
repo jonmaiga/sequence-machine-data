@@ -1,0 +1,19 @@
+{
+  "description": "Centered square numbers which are sphenic numbers.",
+  "id": "A380882",
+  "mentions": [
+    "A001844",
+    "A007304",
+    "A027862",
+    "A370795",
+    "A371016"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

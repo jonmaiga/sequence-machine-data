@@ -1,0 +1,17 @@
+{
+  "description": "Table T(n,k) read by rows where in the n-th row the k-th column is the permutation rank of the k-th solution to the n-queens problem in a n X n board.",
+  "id": "A378488",
+  "mentions": [
+    "A000170"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

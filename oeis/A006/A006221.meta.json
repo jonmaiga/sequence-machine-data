@@ -1,5 +1,5 @@
 {
-  "description": "From Apery continued fraction for zeta(3): zeta(3)=6/(5-1^6/(117-2^6/(535-3^6/(1463...))).",
+  "description": "From Apery continued fraction for zeta(3): zeta(3)=6/(5-1^6/(117-2^6/(535-3^6/(1463...)))).",
   "id": "A006221",
   "mentions": [
     "A000051",

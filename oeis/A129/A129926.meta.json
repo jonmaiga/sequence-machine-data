@@ -1,8 +1,9 @@
 {
-  "description": "Semiprimes n such that 3*n - 2 is a prime.",
+  "description": "Semiprimes s such that 3*s - 2 is a prime.",
   "id": "A129926",
   "mentions": [
-    "A001358"
+    "A001358",
+    "A153183"
   ],
   "tags": [
     "nonn"

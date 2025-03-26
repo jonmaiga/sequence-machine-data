@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of all integers of the form k^2 + 1 whose greatest prime factor is A002313(n), the n-th prime not congruent to 3 mod 4.",
+  "id": "A379347",
+  "mentions": [
+    "A002313",
+    "A185389",
+    "A223702",
+    "A379344"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

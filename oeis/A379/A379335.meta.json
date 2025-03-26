@@ -1,0 +1,17 @@
+{
+  "description": "Number of subsets of {-n..n} whose sum of reciprocals is 1.",
+  "id": "A379335",
+  "mentions": [
+    "A092670"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

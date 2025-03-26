@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1 - sqrt(1 - 4x - 16x^2))/(2x).",
+  "description": "Expansion of (1 - sqrt(1 - 4*x - 16*x^2))/(2*x).",
   "id": "A103971",
   "mentions": [
     "A000108",

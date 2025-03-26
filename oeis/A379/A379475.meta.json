@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A372565(n) > 1, otherwise 0, where A372565(n) is the greatest common divisor of n, sigma(n) and A003961(n).",
+  "id": "A379475",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A296210",
+    "A325964",
+    "A349167",
+    "A372565",
+    "A372566",
+    "A379476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

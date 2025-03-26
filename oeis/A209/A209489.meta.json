@@ -1,8 +1,10 @@
 {
-  "description": "Number of partitions of 1 into rational parts a/b satisfying 0",
+  "description": "a(n) = A306912(n) - 2.",
   "id": "A209489",
   "mentions": [
-    "A000837"
+    "A000837",
+    "A269926",
+    "A306912"
   ],
   "tags": [
     "formulas",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,11 +1,14 @@
 {
-  "description": "Number of unrooted maps with n edges on the torus.",
+  "description": "Number of sensed genus 1 maps with n edges.",
   "id": "A006386",
   "mentions": [
     "A006300",
+    "A006384",
+    "A006387",
     "A104595",
     "A104596",
-    "A215019"
+    "A215019",
+    "A379438"
   ],
   "tags": [
     "nice",
@@ -13,7 +16,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

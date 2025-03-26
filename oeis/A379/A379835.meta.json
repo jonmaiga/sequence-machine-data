@@ -1,0 +1,19 @@
+{
+  "description": "Number of 1's in binary expansion of Lucas(n).",
+  "id": "A379835",
+  "mentions": [
+    "A000032",
+    "A000120",
+    "A011373"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

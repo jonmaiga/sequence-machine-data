@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that GCD of the solutions x to sigma(x) = sigma(m) are setwise coprime.",
+  "id": "A380303",
+  "mentions": [
+    "A206036",
+    "A211656",
+    "A241480",
+    "A241481",
+    "A241625",
+    "A380304"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 3^((n+k-1)*(n-k)/2) * n! / (n-k)!.",
+  "id": "A382240",
+  "mentions": [
+    "A379614"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

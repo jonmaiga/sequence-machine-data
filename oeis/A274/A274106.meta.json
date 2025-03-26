@@ -1,21 +1,28 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of configurations of k non-attacking bishops on the white squares of an n X n chessboard (0 <= k < n).",
+  "description": "Triangle read by rows: T(n,k) = total number of configurations of k nonattacking bishops on the white squares of an n X n chessboard (0 <= k <= n-1+[n=0]).",
   "id": "A274106",
   "mentions": [
+    "A000012",
+    "A000035",
     "A002465",
+    "A007590",
+    "A060546",
     "A088960",
+    "A191236",
     "A201862",
     "A216078",
+    "A217900",
     "A274105",
     "A288182"
   ],
   "tags": [
+    "formulas",
     "nonn",
-    "tabl"
+    "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 66,
+    "offset": 0,
+    "size": 67,
     "source": "oeis-entry"
   }
 }

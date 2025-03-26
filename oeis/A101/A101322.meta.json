@@ -1,19 +1,19 @@
 {
-  "description": "a(n) = n - (least divisor of n greater than the square root of n) + (greatest divisor of n less than the square root of n) = n + A033676(n) - A033677(n).",
+  "description": "a(n) = n - (least divisor of n >= the square root of n) + (greatest divisor of n <= the square root of n).",
   "id": "A101322",
   "mentions": [
-    "A000040",
     "A000290",
+    "A008578",
     "A033676",
     "A033677"
   ],
   "tags": [
-    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 79,
-    "source": "joeis"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

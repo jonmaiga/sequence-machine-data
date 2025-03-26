@@ -1,5 +1,5 @@
 {
-  "description": "Dimensions of graded algebra associated with forest meanders.",
+  "description": "Dimensions of graded algebra associated with forest meanders (subalgebra version).",
   "id": "A060174",
   "mentions": [
     "A005315",
@@ -12,12 +12,11 @@
     "A060206"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 7,
+    "offset": 0,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

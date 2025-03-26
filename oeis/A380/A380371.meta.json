@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the integer part of the area of a rhombus with side n and angle n degrees.",
+  "id": "A380371",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

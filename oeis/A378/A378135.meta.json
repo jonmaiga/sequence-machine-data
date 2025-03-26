@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = p(n*p(n)), where p(x) = least prime > x.",
+  "id": "A378135",
+  "mentions": [
+    "A000040",
+    "A013636",
+    "A151800",
+    "A378136",
+    "A378137"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

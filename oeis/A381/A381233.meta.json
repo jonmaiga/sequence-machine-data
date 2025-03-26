@@ -1,0 +1,17 @@
+{
+  "description": "Concatenate the sequences S(k) = [0, 1, -1, ..., k, -k] for k = 0, 1, ...",
+  "id": "A381233",
+  "mentions": [
+    "A196199",
+    "A381232"
+  ],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

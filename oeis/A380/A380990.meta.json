@@ -1,0 +1,21 @@
+{
+  "description": "Number of free polyominoes with n cells with at most 4 collinear cell centers on any line in the plane.",
+  "id": "A380990",
+  "mentions": [
+    "A000105",
+    "A377942",
+    "A378169"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of corona for a diamond of edge n with diamonds of side 1.",
+  "id": "A380416",
+  "mentions": [
+    "A000583",
+    "A004767",
+    "A016754",
+    "A089207",
+    "A380346"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

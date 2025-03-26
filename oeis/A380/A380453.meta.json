@@ -1,0 +1,20 @@
+{
+  "description": "Third coefficient of the lindep transform of Carmichael lambda, A002322.",
+  "id": "A380453",
+  "mentions": [
+    "A002322",
+    "A339792",
+    "A380443",
+    "A380451",
+    "A380452"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

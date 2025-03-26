@@ -1,0 +1,14 @@
+{
+  "description": "Number of connected minimal dominating sets in the n-trapezohedral graph.",
+  "id": "A381190",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest initial value for unimodal Collatz (3x+1)/2 glide sequence that begins with exactly n increases.",
+  "id": "A381707",
+  "mentions": [
+    "A122437",
+    "A122458",
+    "A126241"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0, a(n) = 2*(a(n-1) + ceiling(n/2)) - 1 for n>0.",
+  "id": "A380384",
+  "mentions": [
+    "A081254",
+    "A109613",
+    "A250777"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Mod( binomial(2*n, n), (n+1)*(n+1) ).",
+  "description": "a(n) = binomial(2*n, n) mod (n+1)^2.",
   "id": "A065350",
   "mentions": [
     "A000108",

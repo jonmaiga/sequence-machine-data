@@ -2,12 +2,14 @@
   "description": "a(n) = A008475(n!).",
   "id": "A081402",
   "mentions": [
+    "A000120",
     "A000142",
     "A008475",
     "A081403",
     "A081404"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

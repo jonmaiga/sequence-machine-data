@@ -1,0 +1,26 @@
+{
+  "description": "The number of divisors of n that have the same binary weight as n.",
+  "id": "A380844",
+  "mentions": [
+    "A000005",
+    "A000043",
+    "A000120",
+    "A000265",
+    "A000396",
+    "A007814",
+    "A324392",
+    "A325565",
+    "A380845"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

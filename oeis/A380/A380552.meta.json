@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies x = Sum_{n>=1} A( x^n*(1-x)^(3*n) ).",
+  "id": "A380552",
+  "mentions": [
+    "A002293",
+    "A006632",
+    "A008683",
+    "A034742",
+    "A346935",
+    "A380551",
+    "A380553"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,24 @@
 {
   "description": "Positive integers divisible by at least 2 consecutive primes.",
   "id": "A104210",
-  "mentions": [],
+  "mentions": [
+    "A003961",
+    "A006094",
+    "A252748",
+    "A296210",
+    "A300820",
+    "A319630",
+    "A322361",
+    "A349169",
+    "A349176",
+    "A355527",
+    "A372566",
+    "A378884",
+    "A379230",
+    "A379232"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: Log( Sum_{n>=0} (n+1)^(2*n) * x^n/n! ).",
+  "description": "E.g.f.: log( Sum_{n>=0} (n+1)^(2*n) * x^n/n! ).",
   "id": "A266520",
   "mentions": [
     "A266519"

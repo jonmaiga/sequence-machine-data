@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^n - n(n+1)/2.",
+  "description": "a(n) = 2^n - n*(n+1)/2.",
   "id": "A014833",
   "mentions": [
     "A000079",
@@ -7,12 +7,13 @@
     "A331105"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 35,
     "source": "joeis"
   }
 }

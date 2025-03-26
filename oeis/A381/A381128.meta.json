@@ -1,0 +1,31 @@
+{
+  "description": "The number of card moves required to deal n cards using Down-SpellUnder dealing.",
+  "id": "A381128",
+  "mentions": [
+    "A005589",
+    "A006257",
+    "A067278",
+    "A225381",
+    "A321298",
+    "A378635",
+    "A380201",
+    "A380202",
+    "A380204",
+    "A380246",
+    "A380247",
+    "A380248",
+    "A381114",
+    "A381127",
+    "A381129"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

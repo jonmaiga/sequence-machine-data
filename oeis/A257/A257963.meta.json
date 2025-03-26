@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the integral_{x=0..1} arctan(arctanh(x))/x.",
+  "description": "Decimal expansion of the Integral_{x=0..1} arctan(arctanh(x))/x.",
   "id": "A257963",
   "mentions": [
     "A000796",

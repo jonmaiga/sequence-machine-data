@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1. For n>1 if a(n-1) is a novel term a(n)=A083720(a(n-1)), else a(n) = k*a(n-1), where k(>1) is the number of times a(n-1) has occurred.",
+  "id": "A379730",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A002110",
+    "A005117",
+    "A006530",
+    "A083720"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

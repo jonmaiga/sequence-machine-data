@@ -1,10 +1,11 @@
 {
-  "description": "a(n)=n-A054353(A156351(n)).",
+  "description": "a(n) = n - A054353(A156351(n)).",
   "id": "A157687",
   "mentions": [
     "A054353",
     "A078649",
     "A156351",
+    "A156728",
     "A157684",
     "A157685",
     "A157686"
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

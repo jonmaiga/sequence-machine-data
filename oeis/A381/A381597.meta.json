@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any t and k, with k>=1, where t = a(n) = a(n+k) = a(n+2*k), only one occurrence of k, for a given t, appears anywhere in the sequence.",
+  "id": "A381597",
+  "mentions": [
+    "A229037",
+    "A281511",
+    "A370708",
+    "A381598",
+    "A381599"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,15 +2,15 @@
   "description": "Numbers representable as both b^c + b + c and x^y + x - y, where b, c, x, y are integers greater than 1.",
   "id": "A255535",
   "mentions": [
+    "A235368",
     "A254034"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

@@ -1,12 +1,14 @@
 {
-  "description": "Decimal expansion of sum_{n>=1} 1/(n*binomial(4*n,n)).",
+  "description": "Decimal expansion of Sum_{n>=1} 1/(n*binomial(4*n,n)).",
   "id": "A225847",
   "mentions": [
     "A073010",
-    "A210453"
+    "A210453",
+    "A378802"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

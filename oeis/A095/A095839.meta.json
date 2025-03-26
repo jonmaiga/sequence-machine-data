@@ -1,7 +1,13 @@
 {
   "description": "a(n) = ((2*n)!/(n!*2^(n-1)))*integral_{x=1/2..1} (Sqrt(1-x^2)/x)^(2*n) dx.",
   "id": "A095839",
-  "mentions": [],
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A058562",
+    "A234289",
+    "A234291"
+  ],
   "tags": [
     "formulas",
     "nonn"

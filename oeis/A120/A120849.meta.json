@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = 5n+3^n-2^n.",
+  "description": "a(n) = 5*n + 3^n - 2^n.",
   "id": "A120849",
   "mentions": [
     "A001047",
-    "A007689"
+    "A007689",
+    "A008587"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

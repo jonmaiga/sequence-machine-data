@@ -1,0 +1,49 @@
+{
+  "description": "Perfect powers p such that the interval from the previous perfect power to p contains a unique prime.",
+  "id": "A378374",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A001597",
+    "A007916",
+    "A023055",
+    "A045542",
+    "A052410",
+    "A053289",
+    "A061398",
+    "A068360",
+    "A069623",
+    "A076411",
+    "A080769",
+    "A081676",
+    "A178700",
+    "A216765",
+    "A345531",
+    "A375706",
+    "A376560",
+    "A377281",
+    "A377287",
+    "A377430",
+    "A377431",
+    "A377468",
+    "A378035",
+    "A378082",
+    "A378249",
+    "A378250",
+    "A378251",
+    "A378253",
+    "A378355",
+    "A378356",
+    "A378364"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

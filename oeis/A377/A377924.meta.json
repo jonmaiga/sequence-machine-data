@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of 1 + Pi/arccos(9/16).",
+  "id": "A377924",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Almost Zumkeller numbers: Numbers whose Zumkeller-deficiency (A103977) is 1.",
+  "id": "A379503",
+  "mentions": [
+    "A000079",
+    "A028982",
+    "A083207",
+    "A083210",
+    "A103977",
+    "A156942",
+    "A379502",
+    "A379504"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

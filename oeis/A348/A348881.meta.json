@@ -1,5 +1,5 @@
 {
-  "description": "After a(1) = 1, the sequence is always extended with the smallest divisor d (not yet present in the sequence) of the last term t. If d doesn't exist, we extend the sequence with 3*t - 1 and repeat. See the Comments section for more details.",
+  "description": "After a(1) = 1, the sequence is always extended with the smallest divisor d (not yet present in the sequence) of the last term t. If d doesn't exist, we extend the sequence with 3*t - 1 and repeat.",
   "id": "A348881",
   "mentions": [
     "A348871",
@@ -7,12 +7,11 @@
     "A348873"
   ],
   "tags": [
-    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

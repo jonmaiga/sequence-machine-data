@@ -1,0 +1,20 @@
+{
+  "description": "Nonsquarefree odd numbers whose prime factorization has an odd maximum exponent.",
+  "id": "A381951",
+  "mentions": [
+    "A005408",
+    "A013929",
+    "A051903",
+    "A376142",
+    "A381950"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

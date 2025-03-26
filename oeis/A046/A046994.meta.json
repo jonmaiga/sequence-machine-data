@@ -2,7 +2,8 @@
   "description": "Number of Greek-key tours on a 3 X n board; i.e., self-avoiding walks on a 3 X n grid starting in the top left corner.",
   "id": "A046994",
   "mentions": [
-    "A046995"
+    "A046995",
+    "A378938"
   ],
   "tags": [
     "formulas",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

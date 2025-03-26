@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A382173(k) >= k.",
+  "id": "A382174",
+  "mentions": [
+    "A001175",
+    "A382172",
+    "A382173",
+    "A382175",
+    "A382176"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

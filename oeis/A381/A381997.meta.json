@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + x*exp(2*x)*A(x)^4.",
+  "id": "A381997",
+  "mentions": [
+    "A002293",
+    "A336950",
+    "A364987",
+    "A381983",
+    "A381998",
+    "A381999",
+    "A382000",
+    "A382001"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

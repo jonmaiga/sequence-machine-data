@@ -1,18 +1,20 @@
 {
-  "description": "Numbers such that (2n+1) + phi(2n+1) <= sigma(2n+1)",
+  "description": "Numbers k such that (2*k+1) + phi(2*k+1) <= sigma(2*k+1)",
   "id": "A229978",
   "mentions": [
     "A000010",
     "A000203",
+    "A005231",
     "A051612",
     "A228947"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 80,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

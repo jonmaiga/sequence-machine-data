@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n whose base-10 digits can be split into two parts, q and r, with n = (q-r)^2.",
+  "description": "Numbers k whose base-10 digits can be split into two parts, q and r, with k = (q-r)^2.",
   "id": "A228103",
   "mentions": [
     "A102766",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

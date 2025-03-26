@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of least x > 0 having cos(x) = cos(3*Pi*x)^2.",
+  "description": "Decimal expansion of least x > 0 having sin(x) = sin(3*Pi*x)^2.",
   "id": "A197571",
   "mentions": [
     "A197133",

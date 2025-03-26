@@ -2,14 +2,17 @@
   "description": "Total number of \"humps\" in all A005316(2n) open meanders with 2n crossings.",
   "id": "A077056",
   "mentions": [
-    "A005316"
+    "A005316",
+    "A077054",
+    "A380369"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

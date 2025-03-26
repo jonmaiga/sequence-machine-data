@@ -1,0 +1,18 @@
+{
+  "description": "Frobenius number of the set S = {e_i+2; 1 <= i <= m}, where the e_i are the exponents in the binary expansion n = Sum_{i=1..m} 2^e_i, or 0 if GCD(S) = A326674(2*n) > 1.",
+  "id": "A380697",
+  "mentions": [
+    "A004767",
+    "A065003",
+    "A326674"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

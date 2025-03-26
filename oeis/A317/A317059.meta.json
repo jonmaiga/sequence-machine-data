@@ -2,6 +2,7 @@
   "description": "a(n) is the number of time-dependent assembly trees satisfying the edge gluing rule for a complete graph on n vertices.",
   "id": "A317059",
   "mentions": [
+    "A006472",
     "A047781",
     "A317057",
     "A317058",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

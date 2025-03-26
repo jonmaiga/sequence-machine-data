@@ -1,16 +1,18 @@
 {
-  "description": "Number of consecutive integers in the set of all possible values in a stochastic sequence.",
+  "description": "a(n) is the largest m such that n+1, n+2, ..., n+m are all members of the set X(n) given in A075529.",
   "id": "A075530",
   "mentions": [
-    "A003064"
+    "A003064",
+    "A075529"
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

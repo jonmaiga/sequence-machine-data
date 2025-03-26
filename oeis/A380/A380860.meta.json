@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,m) (0<=m<=n) = number of positive n-digit numbers that have exactly m copies of a specific, previously selected positive base-10 digit among its digits.",
+  "id": "A380860",
+  "mentions": [
+    "A052268",
+    "A055275",
+    "A081044"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

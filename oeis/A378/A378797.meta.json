@@ -1,0 +1,14 @@
+{
+  "description": "Number of graph minors in the n-web graph.",
+  "id": "A378797",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

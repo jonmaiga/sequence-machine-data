@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(r,c) is the product of the number of standard Young tableaux (A117506) and the number of semistandard Young tableaux (A262030) for partitions of r.",
+  "id": "A380611",
+  "mentions": [
+    "A000041",
+    "A000312",
+    "A047874",
+    "A059304",
+    "A088218",
+    "A117506",
+    "A262030",
+    "A365643"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

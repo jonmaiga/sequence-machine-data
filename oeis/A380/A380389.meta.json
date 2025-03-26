@@ -1,0 +1,23 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) is equal to n/k if k | n, else to the concatenation of the numerator and the denominator of n/k.",
+  "id": "A380389",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A003988",
+    "A372523",
+    "A380390"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

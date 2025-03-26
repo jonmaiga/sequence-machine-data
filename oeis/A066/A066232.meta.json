@@ -1,12 +1,15 @@
 {
-  "description": "Numbers n such that phi(n) = phi(n-2) - phi(n-1).",
+  "description": "Numbers k such that phi(k) = phi(k-2) - phi(k-1).",
   "id": "A066232",
   "mentions": [
     "A065557",
     "A066231",
-    "A067701"
+    "A067701",
+    "A197112",
+    "A220160"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that EulerPhi(k) = sigma(k+1) - sigma(k-1).",
+  "description": "Numbers k such that phi(k) = sigma(k+1) - sigma(k-1).",
   "id": "A066155",
   "mentions": [],
   "tags": [

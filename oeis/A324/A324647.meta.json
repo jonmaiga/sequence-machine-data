@@ -1,7 +1,9 @@
 {
-  "description": "Odd numbers k such that 2k is equal to A318468(k) (bitwise-AND of 2*k and sigma(k)).",
+  "description": "Odd numbers k such that 2*k is equal to bitwise-AND of 2*k and sigma(k).",
   "id": "A324647",
   "mentions": [
+    "A023196",
+    "A156942",
     "A191218",
     "A228058",
     "A318468",
@@ -15,9 +17,11 @@
     "A324880",
     "A324897",
     "A324898",
-    "A325311"
+    "A325311",
+    "A379490"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

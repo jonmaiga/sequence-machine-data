@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions of n into perfect powers.",
+  "description": "Number of partitions of n into perfect powers with each part > 1.",
   "id": "A112344",
   "mentions": [
     "A000041",
@@ -7,6 +7,7 @@
     "A001597",
     "A062051",
     "A078134",
+    "A078635",
     "A112345"
   ],
   "tags": [

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unsensed 2-connected (nonseparable) planar maps with n edges and k vertices, n >= 2, 2 <= k <= n.",
+  "id": "A379432",
+  "mentions": [
+    "A006403",
+    "A007401",
+    "A082680",
+    "A212438",
+    "A277741",
+    "A342060",
+    "A342061"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

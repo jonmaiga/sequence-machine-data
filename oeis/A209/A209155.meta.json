@@ -2,7 +2,8 @@
   "description": "Triangle read by rows: numerators of Stirling-like triangle of rational numbers.",
   "id": "A209155",
   "mentions": [
-    "A209156"
+    "A209156",
+    "A323855"
   ],
   "tags": [
     "frac",

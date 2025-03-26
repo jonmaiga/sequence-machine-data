@@ -1,0 +1,18 @@
+{
+  "description": "Number of states in smallest DFAO computing t(i+n) on input n in base 2, msd-first, where t(n) = A010060(n), the Thue-Morse sequence.",
+  "id": "A382296",
+  "mentions": [
+    "A000045",
+    "A010060",
+    "A382298"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

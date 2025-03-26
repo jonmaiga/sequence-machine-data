@@ -1,0 +1,16 @@
+{
+  "description": "Numbers that are divisible by the square of the product of their digits.",
+  "id": "A379984",
+  "mentions": [
+    "A007602"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

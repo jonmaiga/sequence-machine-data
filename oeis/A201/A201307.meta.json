@@ -1,7 +1,10 @@
 {
   "description": "Primes of the form k^3+4.",
   "id": "A201307",
-  "mentions": [],
+  "mentions": [
+    "A073573",
+    "A274077"
+  ],
   "tags": [
     "easy",
     "nonn"

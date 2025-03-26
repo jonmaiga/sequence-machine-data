@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the largest prime dividing k is smaller than or equal to the minimum exponent in the prime factorization of k.",
+  "id": "A380731",
+  "mentions": [
+    "A001694",
+    "A006530",
+    "A051904",
+    "A380693",
+    "A380730",
+    "A380732",
+    "A380733"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

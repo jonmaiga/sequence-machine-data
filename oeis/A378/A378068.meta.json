@@ -1,0 +1,19 @@
+{
+  "description": "Table read by row: T(n, k) = Sum_{j=0..k} A217831(n, j). Partial row sums of Euclid's triangle.",
+  "id": "A378068",
+  "mentions": [
+    "A000010",
+    "A092790",
+    "A217831"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

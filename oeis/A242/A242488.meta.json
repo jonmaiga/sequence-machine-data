@@ -1,16 +1,21 @@
 {
-  "description": "Numbers m such that the largest prime factor of m^2 - 2 is 17.",
+  "description": "Triangle read by rows in which row n lists numbers k such that the greatest prime factor of k^2 - 2 is A038873(n), the n-th prime not congruent to 3 or 5 mod 8.",
   "id": "A242488",
   "mentions": [
     "A038873",
-    "A223701"
+    "A059770",
+    "A164314",
+    "A185396",
+    "A223701",
+    "A379348"
   ],
   "tags": [
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
-    "source": "joeis"
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Array A(n, k), n, k >= 0, read by upward antidiagonals; for any v >= 0, the value appears twice in the array: in row A002262(v) and in row A002024(v+1); values in each row are given in strictly increasing order.",
+  "id": "A379777",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A001477",
+    "A002024",
+    "A002262"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

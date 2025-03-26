@@ -2,8 +2,11 @@
   "description": "Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+2*x+...+(n+1)*x^n)^2.",
   "id": "A329708",
   "mentions": [
+    "A000290",
     "A000292",
+    "A000537",
     "A002260",
+    "A008794",
     "A084608",
     "A329709"
   ],

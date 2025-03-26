@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the product of exactly three (not necessarily distinct) primes and these primes are sides of a nondegenerate triangle.",
+  "id": "A379033",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A014612",
+    "A070088",
+    "A071142",
+    "A145784",
+    "A306678",
+    "A366398",
+    "A378819"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

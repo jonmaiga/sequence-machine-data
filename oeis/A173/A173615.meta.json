@@ -1,9 +1,11 @@
 {
-  "description": "Numbers n such that rad(n)^2 divides sigma(n).",
+  "description": "Numbers k such that rad(k)^2 divides sigma(k).",
   "id": "A173615",
   "mentions": [
     "A000203",
-    "A007947"
+    "A007947",
+    "A078615",
+    "A175200"
   ],
   "tags": [
     "nonn"

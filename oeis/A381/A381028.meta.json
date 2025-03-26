@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} zeta(2k)/((2k-1)*2^(2k)).",
+  "id": "A381028",
+  "mentions": [
+    "A256318",
+    "A355922"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

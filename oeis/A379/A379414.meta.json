@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n + floor(n*s/r) + floor(n*t/r), where r = 3^(1/4), s = 3^(1/2), t = 3^(3/4).",
+  "id": "A379414",
+  "mentions": [
+    "A000027",
+    "A002194",
+    "A011002",
+    "A011022",
+    "A184812",
+    "A379411",
+    "A379412",
+    "A379413",
+    "A379415",
+    "A379416"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

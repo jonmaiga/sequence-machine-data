@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x*(1+2*x+8*x^2+3*x^4+4*x^3) / ( (1+x)^2*(x-1)^4 ).",
+  "description": "Expansion of x*(1+2*x+8*x^2+4*x^3+3*x^4) / ( (1+x)^2*(x-1)^4 ).",
   "id": "A178947",
   "mentions": [
     "A016777",

@@ -2,14 +2,20 @@
   "description": "A canonical permutation designed to thwart a certain naive attempt to guess whether sequences are permutations.",
   "id": "A182659",
   "mentions": [
-    "A030301"
+    "A030301",
+    "A033484",
+    "A068156",
+    "A082691",
+    "A182660"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 68,
     "source": "oeis-entry"
   }
 }

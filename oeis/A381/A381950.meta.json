@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers whose prime factorization has an even maximum exponent.",
+  "id": "A381950",
+  "mentions": [
+    "A005408",
+    "A051903",
+    "A368714",
+    "A375039",
+    "A381823",
+    "A381951",
+    "A381956"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

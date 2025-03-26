@@ -1,5 +1,5 @@
 {
-  "description": "Smallest even nontotient number of which the largest prime divisor equals n-th prime.",
+  "description": "Smallest even nontotient number whose largest prime divisor equals the n-th prime.",
   "id": "A072460",
   "mentions": [
     "A000040",

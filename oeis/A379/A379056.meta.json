@@ -1,0 +1,18 @@
+{
+  "description": "A378696 without A000961 and A001567.",
+  "id": "A379056",
+  "mentions": [
+    "A000961",
+    "A001567",
+    "A378696"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

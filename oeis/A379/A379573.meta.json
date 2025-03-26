@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of connected uniquely graceful graph on n vertices.",
+  "id": "A379573",
+  "mentions": [
+    "A379572",
+    "A379574"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

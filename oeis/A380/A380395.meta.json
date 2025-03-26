@@ -1,0 +1,29 @@
+{
+  "description": "The number of unitary divisors of n that are cubes.",
+  "id": "A380395",
+  "mentions": [
+    "A000578",
+    "A002117",
+    "A013662",
+    "A046100",
+    "A056624",
+    "A061704",
+    "A077610",
+    "A307427",
+    "A318672",
+    "A366761",
+    "A380396",
+    "A380397"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(n*s + h - h*s), where s = sqrt(Pi)/(sqrt(Pi)-1), h = -1/2; complement of A184742.",
+  "description": "a(n) = floor(n*s + (s-1)/2), where s = sqrt(Pi)/(sqrt(Pi)-1).",
   "id": "A184743",
   "mentions": [
     "A184242",
@@ -7,7 +7,6 @@
     "A184742"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

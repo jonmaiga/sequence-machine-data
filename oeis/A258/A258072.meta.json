@@ -1,5 +1,5 @@
 {
-  "description": "Constant x that satisfies: x = Sum_{n>=1} frac(n*(1-x)) / 2^n.",
+  "description": "Upper constant x that satisfies: x = Sum_{n>=1} frac(n*(1-x)) / 2^n.",
   "id": "A258072",
   "mentions": [
     "A258075"
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 152,
+    "offset": 0,
+    "size": 151,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies Sum_{n>=0} x^n * abs(1/A(x)^n) = C(x), where C(x) = 1 + x*C(x)^2 and abs(F(x)) equals the series expansion formed by the unsigned coefficients in F(x).",
+  "id": "A382122",
+  "mentions": [
+    "A000108",
+    "A382123"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

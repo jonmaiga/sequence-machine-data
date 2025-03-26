@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Catalan Numbers.",
+  "description": "Generalized Catalan Numbers x^4*A(x)^2 -(1-x+x^4+x^5)*A(x) +1 =0.",
   "id": "A023428",
   "mentions": [
     "A000108",

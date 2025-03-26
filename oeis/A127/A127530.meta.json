@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of binary trees with n edges and k jumps (n >= 0, 0 <= k <= ceiling(n/2)-1 for n >= 1).",
+  "description": "Triangle read by rows: T(n,k) is the number of binary trees with n edges and k jumps (n >= 0, 0 <= k <= max(0,ceiling(n/2)-1) ).",
   "id": "A127530",
   "mentions": [
     "A000108",

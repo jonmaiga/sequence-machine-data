@@ -1,13 +1,15 @@
 {
-  "description": "Engel expansion of the Landau-Ramanujan constant K ~ .76422365358922066299069873125009232811679054139340.",
+  "description": "Engel expansion of the Landau-Ramanujan constant K (A064533).",
   "id": "A096190",
-  "mentions": [],
+  "mentions": [
+    "A064533"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

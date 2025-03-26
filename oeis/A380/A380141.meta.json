@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the real part of (-1)^sqrt(i), negated, where i is the imaginary unit.",
+  "id": "A380141",
+  "mentions": [
+    "A247719",
+    "A380142"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

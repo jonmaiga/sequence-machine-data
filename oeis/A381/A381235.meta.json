@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = the term of A000319 that is repeated in the n-th run of equal consecutive terms.",
+  "id": "A381235",
+  "mentions": [
+    "A000319",
+    "A381234"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

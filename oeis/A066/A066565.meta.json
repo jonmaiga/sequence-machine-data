@@ -1,7 +1,9 @@
 {
-  "description": "Numbers that when successively multiplied by their nonzero digits produce a square.",
+  "description": "Numbers that when multiplied by the product of their nonzero digits produce a square.",
   "id": "A066565",
-  "mentions": [],
+  "mentions": [
+    "A051801"
+  ],
   "tags": [
     "base",
     "nonn"

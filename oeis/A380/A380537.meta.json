@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k is a multiple of A351566(k), where A351566 is the radix prime of the second least significant nonzero digit in the primorial base expansion of n, or 1 if there is no such digit.",
+  "id": "A380537",
+  "mentions": [
+    "A053669",
+    "A060735",
+    "A119288",
+    "A276086",
+    "A351566",
+    "A380536",
+    "A380538"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

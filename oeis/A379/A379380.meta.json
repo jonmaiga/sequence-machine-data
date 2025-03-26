@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p such that (2*p)# - p# + 1 is prime, where p# = A034386(p).",
+  "id": "A379380",
+  "mentions": [
+    "A034386",
+    "A237443"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

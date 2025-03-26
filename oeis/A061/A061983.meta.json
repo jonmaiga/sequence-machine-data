@@ -1,15 +1,16 @@
 {
-  "description": "3^n - (3n^2 + n + 2)/2.",
+  "description": "a(n) = 3^n - (3*n^2 + n + 2)/2.",
   "id": "A061983",
   "mentions": [
     "A061980"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 26,
+    "size": 29,
     "source": "joeis"
   }
 }

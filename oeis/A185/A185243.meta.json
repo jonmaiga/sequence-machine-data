@@ -1,5 +1,5 @@
 {
-  "description": "Sum of pairs of triangular numbers whose sum and difference are triangular.",
+  "description": "a(n) = A185128(n) + A185129(n).",
   "id": "A185243",
   "mentions": [
     "A000217",
@@ -12,7 +12,6 @@
     "A185258"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

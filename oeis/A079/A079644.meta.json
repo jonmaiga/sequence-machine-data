@@ -1,5 +1,5 @@
 {
-  "description": "n (mod sqrtint(n)).",
+  "description": "a(n) = (n mod sqrtint(n)).",
   "id": "A079644",
   "mentions": [
     "A000290",
@@ -8,6 +8,7 @@
     "A033638"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

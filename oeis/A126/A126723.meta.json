@@ -1,5 +1,5 @@
 {
-  "description": "Successive rows of coefficients c(0), c(1), c(2),... for the greedy-algorithm representation of a positive integer n: n = c(0)/x + c(1)/x^2 + c(2)/x^3 + ..., where x = (1+sqrt(5))/2.",
+  "description": "Irregular triangle read by rows: row n (>= 1) gives coefficients c(0), c(1), c(2),... arising from the greedy-algorithm representation of n as n = c(0)/x + c(1)/x^2 + c(2)/x^3 + ..., where x = (1+sqrt(5))/2.",
   "id": "A126723",
   "mentions": [
     "A000045",

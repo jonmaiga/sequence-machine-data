@@ -2,6 +2,7 @@
   "description": "Square array A(n,k) = A017665(A246278(n,k)), read by falling antidiagonals; numerator of the abundancy index as applied onto prime shift array A246278.",
   "id": "A341605",
   "mentions": [
+    "A008864",
     "A017665",
     "A246278",
     "A336389",
@@ -9,11 +10,15 @@
     "A336835",
     "A337473",
     "A337474",
+    "A341529",
     "A341606",
     "A341626",
     "A341627",
     "A355925",
-    "A355927"
+    "A355927",
+    "A378985",
+    "A378995",
+    "A379500"
   ],
   "tags": [
     "formulas",

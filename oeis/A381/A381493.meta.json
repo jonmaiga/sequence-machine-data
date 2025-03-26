@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number with reciprocal of period length n in base 8.",
+  "id": "A381493",
+  "mentions": [
+    "A003060",
+    "A379641"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

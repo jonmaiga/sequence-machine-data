@@ -1,0 +1,17 @@
+{
+  "description": "Third center column of elementary triangular automaton rule 190, from a lone 1 cell.",
+  "id": "A381735",
+  "mentions": [
+    "A380173",
+    "A380668",
+    "A381734"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

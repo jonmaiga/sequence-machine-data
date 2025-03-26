@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k for which nonnegative integers x and y exist such that x^2 + y^2 = k and x + y is a square.",
+  "id": "A379925",
+  "mentions": [
+    "A000161",
+    "A000290",
+    "A001481",
+    "A004018",
+    "A025284",
+    "A025320",
+    "A091072",
+    "A118882",
+    "A125022",
+    "A125110",
+    "A380072",
+    "A380073",
+    "A380074"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

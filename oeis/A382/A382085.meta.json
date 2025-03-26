@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the unique k such that A382067(n) * A382067(n+1) = k!.",
+  "id": "A382085",
+  "mentions": [
+    "A084558",
+    "A382067"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

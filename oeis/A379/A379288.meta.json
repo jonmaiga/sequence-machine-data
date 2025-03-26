@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the odd divisors of n except the \"e\" odd divisors described in A005279.",
+  "id": "A379288",
+  "mentions": [
+    "A000203",
+    "A001227",
+    "A003056",
+    "A005279",
+    "A182469",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A239657",
+    "A249223",
+    "A379374",
+    "A379379",
+    "A379384",
+    "A379461",
+    "A379634"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

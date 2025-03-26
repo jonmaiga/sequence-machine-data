@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the mode of the multiset of bases and exponents (including exponents = 1) in the prime factorization of n (using largest mode if multimodal).",
+  "id": "A381404",
+  "mentions": [
+    "A000040",
+    "A035306",
+    "A381178",
+    "A381403"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/( 1 - sinh(x * A(x)^2) / A(x)^2 ).",
+  "id": "A381382",
+  "mentions": [
+    "A136630",
+    "A364980",
+    "A381376",
+    "A381378",
+    "A381384"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

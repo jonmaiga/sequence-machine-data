@@ -1,5 +1,5 @@
 {
-  "description": "Least s with s, t both semiprime and s-2n = t.",
+  "description": "a(n) is the least semiprime s such that s - 2*n is also a semiprime.",
   "id": "A127019",
   "mentions": [
     "A020484",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

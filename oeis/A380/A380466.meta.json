@@ -1,0 +1,22 @@
+{
+  "description": "Third coefficient of the lindep transform of A007947, squarefree kernel of n.",
+  "id": "A380466",
+  "mentions": [
+    "A007947",
+    "A059172",
+    "A339792",
+    "A380439",
+    "A380464",
+    "A380465",
+    "A380546"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

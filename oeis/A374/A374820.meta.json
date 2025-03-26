@@ -1,0 +1,22 @@
+{
+  "description": "Boolean-Chain Quilt Numbers: Square table of the number of ASM quilts of type B_n X C_k read down antidiagonals, where B_n is the Boolean lattice on an n-set and C_k is a chain of length k with k+1 elements.",
+  "id": "A374820",
+  "mentions": [
+    "A007153",
+    "A297622",
+    "A374819",
+    "A374821",
+    "A374822",
+    "A374824"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

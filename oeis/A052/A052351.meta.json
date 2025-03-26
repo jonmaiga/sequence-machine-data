@@ -1,19 +1,27 @@
 {
-  "description": "First primes from A023200 where distance to the next 4-twin increases.",
+  "description": "Least prime in A023200 (lesser of 4-twins) such that the distance to the next 4-twin is 6*n.",
   "id": "A052351",
   "mentions": [
     "A023200",
+    "A052350",
+    "A052352",
+    "A052353",
+    "A052354",
+    "A052355",
+    "A052356",
+    "A052357",
+    "A052358",
+    "A052359",
     "A052380",
     "A052381",
     "A053320"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
-    "source": "joeis"
+    "size": 43,
+    "source": "oeis-bfile"
   }
 }

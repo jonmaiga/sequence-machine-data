@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle listing permutations of {1,...,m} which are at maximum distance from the identity permutation under steps rotate left (L) or exchange first two elements (E).",
+  "id": "A378881",
+  "mentions": [
+    "A039745",
+    "A186144"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

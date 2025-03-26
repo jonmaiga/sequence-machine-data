@@ -1,0 +1,17 @@
+{
+  "description": "Integers with at least one proper factorization for which the sum of the same fixed integer power >= 2 of the factors equals that number.",
+  "id": "A380760",
+  "mentions": [
+    "A372053",
+    "A380902",
+    "A381538"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

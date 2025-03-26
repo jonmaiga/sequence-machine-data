@@ -2,15 +2,17 @@
   "description": "Number of integers of the form (nk)^3/(n^3+k^3), k>=1.",
   "id": "A119612",
   "mentions": [
-    "A071086"
+    "A071086",
+    "A379953",
+    "A379954"
   ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 101,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
   }
 }

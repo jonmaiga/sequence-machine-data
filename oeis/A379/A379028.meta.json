@@ -1,0 +1,24 @@
+{
+  "description": "The number of modified exponential divisors of n.",
+  "id": "A379028",
+  "mentions": [
+    "A000005",
+    "A034444",
+    "A037445",
+    "A049419",
+    "A241405",
+    "A286324",
+    "A379027"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,18 +1,22 @@
 {
-  "description": "Least number > 1 that equals the sum of the n-th powers of its first k divisors for some k.",
+  "description": "a(n) = least number > 1 that equals the sum of the n-th powers of its first k divisors for some k.",
   "id": "A318528",
   "mentions": [
+    "A027750",
     "A185584",
-    "A185960"
+    "A185960",
+    "A190940",
+    "A307137",
+    "A378313",
+    "A378314"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

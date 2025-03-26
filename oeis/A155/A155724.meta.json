@@ -1,15 +1,18 @@
 {
-  "description": "Triangle read by rows: T(m,n) = 2mn + m + n - 4.",
+  "description": "Triangle read by rows: T(n, k) = 2*n*k + n + k - 4.",
   "id": "A155724",
   "mentions": [
     "A008585",
     "A016885",
     "A017053",
     "A020705",
+    "A139570",
     "A154685",
     "A155722",
     "A155723",
-    "A162261"
+    "A162261",
+    "A181510",
+    "A271625"
   ],
   "tags": [
     "easy",

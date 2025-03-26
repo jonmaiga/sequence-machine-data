@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 7*sqrt(3)/27.",
+  "id": "A378770",
+  "mentions": [
+    "A002194"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

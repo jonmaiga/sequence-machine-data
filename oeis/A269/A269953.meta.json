@@ -1,11 +1,12 @@
 {
-  "description": "T(n,k) = Sum_{j=0..n} C(-j-1,-n-1)*S1(j,k) where S1 are the Stirling cycle numbers A132393. Triangle read by rows, T(n, k) for n >= 0 and 0 <= k <= n.",
+  "description": "Triangle read by rows: T(n, k) = Sum_{j=0..n} binomial(-j-1, -n-1)*S1(j, k) where S1 are the Stirling cycle numbers A132393.",
   "id": "A269953",
   "mentions": [
     "A000166",
     "A001339",
     "A002741",
     "A007318",
+    "A033999",
     "A046716",
     "A048994",
     "A080956",
@@ -16,7 +17,11 @@
     "A105794",
     "A132393",
     "A137346",
-    "A327997"
+    "A327997",
+    "A381064",
+    "A381065",
+    "A381066",
+    "A381082"
   ],
   "tags": [
     "formulas",

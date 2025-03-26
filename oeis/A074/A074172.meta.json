@@ -1,5 +1,5 @@
 {
-  "description": "Smaller of two consecutive numbers of the form p^2*q where p and q are primes.",
+  "description": "Smaller of two consecutive numbers of the form p^2*q where p and q are distinct primes.",
   "id": "A074172",
   "mentions": [
     "A054753",

@@ -1,0 +1,19 @@
+{
+  "description": "Sorted list of sums of 3 prices in minor currency units for a currency that has a 2-decimal minor unit, such that the riddle \"sum of prices equals product of prices\" has a solution, with prices expressed as floating point numbers with 2 decimals.",
+  "id": "A381619",
+  "mentions": [
+    "A380887",
+    "A381187"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = ( exp(-x*A(x)^(2/3)) + x*A(x) )^3.",
+  "id": "A379939",
+  "mentions": [
+    "A379877",
+    "A379937"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

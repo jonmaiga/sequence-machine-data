@@ -1,0 +1,22 @@
+{
+  "description": "Area of the unique primitive Pythagorean triple (a,b,c) such that (a-b+c)/2 is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "id": "A378966",
+  "mentions": [
+    "A002315",
+    "A377011",
+    "A377016",
+    "A377017",
+    "A377726",
+    "A378965"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

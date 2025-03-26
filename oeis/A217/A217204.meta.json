@@ -1,8 +1,10 @@
 {
-  "description": "Triangle read by rows, related to Bell numbers A000110.",
+  "description": "Triangle read by rows, related to Bell numbers A000110: A216962 interlaced with A216964.",
   "id": "A217204",
   "mentions": [
-    "A000110"
+    "A000110",
+    "A216962",
+    "A216964"
   ],
   "tags": [
     "nonn",

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the number of ways to factor k into \"Fermi-Dirac primes\" when k runs over the positive integers.",
+  "id": "A382295",
+  "mentions": [
+    "A005117",
+    "A050377",
+    "A082293",
+    "A330687"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

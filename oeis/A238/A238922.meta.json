@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Sum_{i=1..j} 1/d(i) - Sum_{i=1..k} 1/p(i) is integer, where p are the prime factors of n, counted with multiplicity, and d its divisors.",
+  "description": "Numbers n such that Sum_{i=1..j} 1/d(i) - Sum_{i=1..k} 1/p(i) is an integer, where p are the prime factors of n, counted with multiplicity, and d its divisors.",
   "id": "A238922",
   "mentions": [
     "A003415",

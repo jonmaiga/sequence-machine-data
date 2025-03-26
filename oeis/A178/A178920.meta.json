@@ -1,14 +1,16 @@
 {
-  "description": "Expansion of e.g.f. A(x), where A(x)=exp(x*A(x)+x^2*A(x)^2)",
+  "description": "E.g.f. A(x) satisfies A(x) = x * (1 + A(x)) * exp( A(x) * (1 + A(x)) ).",
   "id": "A178920",
-  "mentions": [],
+  "mentions": [
+    "A088695"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 15,
+    "offset": 1,
+    "size": 18,
     "source": "joeis"
   }
 }

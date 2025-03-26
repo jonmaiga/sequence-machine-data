@@ -1,7 +1,8 @@
 {
-  "description": "Sum C(n-k,k+2)2^(n-k-2)(1/2)^k, k=0..floor(n/2).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} C(n-k,k+2)*2^(n-k-2)*(1/2)^k.",
   "id": "A099625",
   "mentions": [
+    "A000129",
     "A099623",
     "A099624"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
-    "source": "joeis"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

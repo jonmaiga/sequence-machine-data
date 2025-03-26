@@ -1,0 +1,19 @@
+{
+  "description": "Odd terms in A381071.",
+  "id": "A381072",
+  "mentions": [
+    "A005408",
+    "A380929",
+    "A380932",
+    "A381071"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

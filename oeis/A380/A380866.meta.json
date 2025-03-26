@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least m > 0 such that sigma(m) - 2m = A140863(n).",
+  "id": "A380866",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A033880",
+    "A140863"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

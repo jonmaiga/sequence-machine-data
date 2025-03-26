@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of graphs on n unlabeled nodes with irredundance number k.",
+  "description": "Triangle read by rows: T(n,k) is the number of simple graphs on n unlabeled nodes with irredundance number k.",
   "id": "A332404",
   "mentions": [
     "A000088",

@@ -2,6 +2,7 @@
   "description": "Total number of distinct numbers that can be obtained by starting with 1 and applying the \"Choix de Bruxelles\", version 2 operation at most n times in ternary (base 3).",
   "id": "A356715",
   "mentions": [
+    "A307635",
     "A323289",
     "A356511"
   ],

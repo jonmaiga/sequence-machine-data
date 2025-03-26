@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected graphs on n unlabeled nodes with radius 2.",
+  "description": "Number of simple connected graphs on n unlabeled nodes with radius 2.",
   "id": "A324061",
   "mentions": [
     "A324239"

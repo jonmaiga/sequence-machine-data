@@ -1,7 +1,9 @@
 {
-  "description": "Lexicographically earliest Racetrack trajectory (using von Neumann neighborhood) on spiral on infinite square grid.",
+  "description": "Lexicographically earliest non-extendable Racetrack trajectory (using von Neumann neighborhood) on spiral on infinite square grid.",
   "id": "A351043",
   "mentions": [
+    "A174344",
+    "A274923",
     "A316328",
     "A351042"
   ],

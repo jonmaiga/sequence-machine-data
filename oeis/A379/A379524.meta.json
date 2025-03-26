@@ -1,0 +1,19 @@
+{
+  "description": "Minimal discriminants d of real quadratic number fields K = Q(sqrt(d)), d > 0, with elementary bicyclic 3-class group Cl_3(K)=(3,3) and second 3-class group M=Gal(F_3^2(K)/K) of assigned coclass cc(M)=1,2,3,4,...",
+  "id": "A379524",
+  "mentions": [
+    "A269318",
+    "A269319"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

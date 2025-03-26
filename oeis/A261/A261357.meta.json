@@ -2,7 +2,9 @@
   "description": "Pyramid of coefficients in expansion of (1 + 2*x + 2*y)^n.",
   "id": "A261357",
   "mentions": [
+    "A000079",
     "A046816",
+    "A059304",
     "A261356",
     "A261358"
   ],

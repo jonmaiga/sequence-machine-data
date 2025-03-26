@@ -2,6 +2,7 @@
   "description": "a(n) is the smallest m > 1 such that m divides Sum_{k=1..m} prime(k)^n.",
   "id": "A085450",
   "mentions": [
+    "A002322",
     "A045345",
     "A111441",
     "A122140",

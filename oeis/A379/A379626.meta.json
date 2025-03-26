@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the widths of the free polyominoes with n cells.",
+  "id": "A379626",
+  "mentions": [
+    "A000105",
+    "A379623",
+    "A379625",
+    "A379627",
+    "A379629",
+    "A379637"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

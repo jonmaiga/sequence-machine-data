@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number of leading digits of A002110(n) (primorial(n)) that form a prime (or 0 if none exist).",
+  "id": "A380199",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A379944"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

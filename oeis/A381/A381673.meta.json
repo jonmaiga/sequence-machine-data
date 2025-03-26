@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (720e^7 - 4320e^6 + 9000e^5 - 7680e^4 + 2430e^3 - 192e^2 + e) / 720.",
+  "id": "A381673",
+  "mentions": [
+    "A001113",
+    "A089087",
+    "A089139",
+    "A090142",
+    "A090143",
+    "A090611",
+    "A379601"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

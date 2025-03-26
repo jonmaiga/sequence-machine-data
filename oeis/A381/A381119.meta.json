@@ -1,0 +1,18 @@
+{
+  "description": "Index of n in A381019.",
+  "id": "A381119",
+  "mentions": [
+    "A381019",
+    "A381115",
+    "A381116",
+    "A381118"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

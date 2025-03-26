@@ -1,5 +1,5 @@
 {
-  "description": "Numerators in expansion of log(z^2/(cosh(z)-cos(z))).",
+  "description": "Numerators in expansion of log(z^2/(cosh(z)-cos(z))) for exponents that are multiples of 4.",
   "id": "A156036",
   "mentions": [
     "A156032"

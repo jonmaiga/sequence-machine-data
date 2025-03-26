@@ -1,0 +1,19 @@
+{
+  "description": "Smallest starting x which takes n steps to reach the minimum of a cycle in the 3x-1 iteration.",
+  "id": "A378845",
+  "mentions": [
+    "A001281",
+    "A033491",
+    "A135730",
+    "A378846",
+    "A378847"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 13^n modulo n.",
+  "description": "a(n) = 13^n mod n.",
   "id": "A116609",
   "mentions": [],
   "tags": [

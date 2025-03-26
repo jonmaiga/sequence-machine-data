@@ -1,0 +1,24 @@
+{
+  "description": "The binary weights of the Apéry numbers (A005259).",
+  "id": "A379153",
+  "mentions": [
+    "A000120",
+    "A005259",
+    "A011373",
+    "A079584",
+    "A082481",
+    "A379151",
+    "A379152"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

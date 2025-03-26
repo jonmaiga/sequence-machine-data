@@ -1,0 +1,16 @@
+{
+  "description": "Number of binary relations on n unlabeled points without isolated points.",
+  "id": "A381089",
+  "mentions": [
+    "A000595"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

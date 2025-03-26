@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp(-3*x)/(exp(-x) - x)^2.",
+  "id": "A379992",
+  "mentions": [
+    "A358738",
+    "A368266",
+    "A377529",
+    "A377530",
+    "A379933",
+    "A379994",
+    "A379997"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

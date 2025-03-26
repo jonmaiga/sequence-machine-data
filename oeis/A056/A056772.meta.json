@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that phi(n+4) = phi(n) + 4.",
+  "description": "Numbers k such that phi(k+4) = phi(k) + 4, where phi(k) = A000010(k) is Euler's totient function.",
   "id": "A056772",
   "mentions": [
+    "A000010",
     "A001348",
     "A001838",
     "A005394",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

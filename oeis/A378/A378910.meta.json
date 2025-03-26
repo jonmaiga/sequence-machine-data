@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 2*G/Pi, where G = A006752.",
+  "id": "A378910",
+  "mentions": [
+    "A000796",
+    "A006752",
+    "A060294",
+    "A130834",
+    "A143233",
+    "A221209",
+    "A378911"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

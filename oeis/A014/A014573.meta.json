@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k such that phi(x) = k has exactly n solutions.",
+  "description": "Smallest k such that phi(x) = k has exactly n solutions, n>=0 with Carmichael conjecture.",
   "id": "A014573",
   "mentions": [
     "A000010",

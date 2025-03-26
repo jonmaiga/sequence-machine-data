@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime p such that omega(p^n - 1) is equal to n, where omega = A001221.",
+  "id": "A379450",
+  "mentions": [
+    "A001221",
+    "A219019"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

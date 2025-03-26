@@ -1,0 +1,19 @@
+{
+  "description": "Number of integers of the form k^2 - 1 whose greatest prime factor is at most prime(n).",
+  "id": "A379345",
+  "mentions": [
+    "A175607",
+    "A181471",
+    "A223701",
+    "A379344"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

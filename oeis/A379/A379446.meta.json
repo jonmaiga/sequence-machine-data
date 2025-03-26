@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of ones in the binary expansion of 10^(10^n).",
+  "id": "A379446",
+  "mentions": [
+    "A000120",
+    "A011557",
+    "A118738",
+    "A153201",
+    "A379448"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

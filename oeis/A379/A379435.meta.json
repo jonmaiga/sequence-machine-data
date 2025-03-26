@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted planar maps with n edges and without faces or vertices of degree 1.",
+  "id": "A379435",
+  "mentions": [
+    "A000168",
+    "A006396",
+    "A006397",
+    "A379433"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

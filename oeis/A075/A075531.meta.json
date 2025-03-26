@@ -1,14 +1,16 @@
 {
-  "description": "Number of gaps in the set of all possible values in a stochastic sequence.",
+  "description": "Number of gaps in the set of all possible values in the set X(n) given in A075529.",
   "id": "A075531",
-  "mentions": [],
+  "mentions": [
+    "A075529"
+  ],
   "tags": [
-    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of k, 1<=k<=n, such that tau(k) divides sigma(k) where tau(x) is the number of divisors of x and sigma(x) the sum of divisors of x.",
+  "description": "Number of integers k, 1<=k<=n, such that tau(k) divides sigma(k) where tau(k) is the number of divisors of k and sigma(k) the sum of divisors of k.",
   "id": "A069928",
   "mentions": [
     "A000005",

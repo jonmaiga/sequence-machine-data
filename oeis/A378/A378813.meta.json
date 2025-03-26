@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(480)/7.",
+  "id": "A378813",
+  "mentions": [
+    "A010485"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

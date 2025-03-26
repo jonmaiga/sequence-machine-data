@@ -2,6 +2,8 @@
   "description": "Even numbers with an even number of prime factors (counted with multiplicity).",
   "id": "A063745",
   "mentions": [
+    "A005843",
+    "A028260",
     "A046337"
   ],
   "tags": [

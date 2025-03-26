@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of walks of length n on the Z X Z grid with unit steps in all four directions (NSWE) starting at (0, 0), and ending on the vertical line x = 0 if k = 0, or on the line x = k or x = -(n + 1 - k) if k > 0.",
+  "id": "A379822",
+  "mentions": [
+    "A000302",
+    "A000984",
+    "A052174",
+    "A068551",
+    "A283799",
+    "A323229",
+    "A378067"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

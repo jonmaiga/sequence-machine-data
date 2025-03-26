@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that the decimal expansion of its base-5 conversion is also prime.",
+  "description": "Primes that when written in base 5, then reinterpreted in base 10, again give primes.",
   "id": "A065723",
   "mentions": [
     "A065361",

@@ -1,0 +1,16 @@
+{
+  "description": "Let n encode the edges of a graph by taking edges (u,v), with u < v, in colexicographic order ((0,1), (0,2), (1,2), (0,3), ...) and adding each edge to the graph if the corresponding binary digit of n (starting with the least significant digit) is 1. a(n) is the smallest nonnegative integer that encodes the same unlabeled graph as n (disregarding any isolated vertices), i.e., the code of the graph as defined in A076184.",
+  "id": "A382281",
+  "mentions": [
+    "A076184"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

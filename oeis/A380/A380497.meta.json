@@ -1,0 +1,20 @@
+{
+  "description": "Euler transform of primorial numbers.",
+  "id": "A380497",
+  "mentions": [
+    "A002110",
+    "A030009",
+    "A030012",
+    "A107895",
+    "A380498"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

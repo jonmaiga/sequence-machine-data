@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the smallest number greater than 1 whose decimal and ternary expansions have the same succession of digits.",
+  "id": "A381088",
+  "mentions": [
+    "A379651"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

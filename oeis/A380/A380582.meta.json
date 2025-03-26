@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] G(x)^n, where G(x) = Product_{k >= 1} ((1 + x^k)/(1 - x^k))^(k^2) is the g.f. of A206622.",
+  "id": "A380582",
+  "mentions": [
+    "A001158",
+    "A015128",
+    "A206622",
+    "A380290",
+    "A380581",
+    "A380583"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

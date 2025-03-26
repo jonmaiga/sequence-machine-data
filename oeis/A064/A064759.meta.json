@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! - Fibonacci(n) is prime.",
+  "description": "Numbers k such that k! - Fibonacci(k) is prime.",
   "id": "A064759",
   "mentions": [
     "A064738"

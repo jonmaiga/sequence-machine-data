@@ -1,7 +1,10 @@
 {
   "description": "a(n) = n^5*(n^10 + 1)/2.",
   "id": "A168507",
-  "mentions": [],
+  "mentions": [
+    "A006003",
+    "A168351"
+  ],
   "tags": [
     "easy",
     "formulas",

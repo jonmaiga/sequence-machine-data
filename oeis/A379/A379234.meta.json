@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which k XOR 2*k = sigma(k), where sigma is the sum of divisors function.",
+  "id": "A379234",
+  "mentions": [
+    "A000203",
+    "A003714",
+    "A003987",
+    "A005820",
+    "A048724",
+    "A318467",
+    "A379236"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

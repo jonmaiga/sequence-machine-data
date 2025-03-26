@@ -1,0 +1,18 @@
+{
+  "description": "Index where prime(n) appears as a term in A379442.",
+  "id": "A379558",
+  "mentions": [
+    "A379290",
+    "A379442",
+    "A379557",
+    "A379559"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: log( 1 + log(1 + x)^2 / 2 ).",
+  "description": "Expansion of e.g.f. log( 1 + log(1 + x)^2 / 2 ).",
   "id": "A346944",
   "mentions": [
     "A000254",
@@ -7,7 +7,8 @@
     "A081048",
     "A346945",
     "A346946",
-    "A346947"
+    "A346947",
+    "A346974"
   ],
   "tags": [
     "formulas",

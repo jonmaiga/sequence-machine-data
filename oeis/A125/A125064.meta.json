@@ -1,5 +1,5 @@
 {
-  "description": "Number of monocyclic skeletons with a ring size of n. See the paper by Hendrickson and Parks for details.",
+  "description": "Number of simple graphs on at most 16 unlabeled vertices with maximal degree at most 4 with a single cycle of length 16-n.",
   "id": "A125064",
   "mentions": [
     "A000602",
@@ -12,10 +12,13 @@
     "A112619"
   ],
   "tags": [
+    "fini",
+    "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 16,
+    "offset": 0,
     "size": 14,
     "source": "oeis-entry"
   }

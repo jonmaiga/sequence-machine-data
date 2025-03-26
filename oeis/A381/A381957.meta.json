@@ -1,0 +1,19 @@
+{
+  "description": "If n = Sum 2^e(k), then a(n) = Sum 2^a(e(k)), with a(0) = 1.",
+  "id": "A381957",
+  "mentions": [
+    "A029931",
+    "A033922",
+    "A073642"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

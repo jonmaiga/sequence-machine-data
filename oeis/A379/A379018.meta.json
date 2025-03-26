@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least prime p such that p^2 < n and n - p^2 is not squarefree, or -1 if there is no such p.",
+  "id": "A379018",
+  "mentions": [
+    "A013929",
+    "A378896"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

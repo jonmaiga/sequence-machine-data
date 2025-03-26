@@ -2,8 +2,8 @@
   "description": "Dimension of primitive Vassiliev knot invariants of order n.",
   "id": "A007478",
   "mentions": [
-    "A014605",
-    "A050504"
+    "A007473",
+    "A014605"
   ],
   "tags": [
     "formulas",

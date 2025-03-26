@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of log(A085850).",
+  "id": "A379041",
+  "mentions": [
+    "A085850"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

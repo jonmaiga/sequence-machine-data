@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A379126(n) / n.",
+  "id": "A379228",
+  "mentions": [
+    "A000225",
+    "A379126"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that k = Sum k/(p_i + j), where p_i are the prime factors of k (with multiplicity). Case j = 2.",
+  "id": "A380901",
+  "mentions": [
+    "A380888",
+    "A380889",
+    "A380900",
+    "A380923",
+    "A380928"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

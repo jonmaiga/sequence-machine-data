@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of Sum_{i>=0} (-1)^i/(q(i)*q(i+1)) where q(0)=q(1)=1, q(3n+2)=q(3n+1)+q(3n), q(3n+3)=q(3n+2)+q(3n+1), and q(3n+4)=q(3n+2)*(q(3n+2)*q(3n+3)+1).",
+  "id": "A380194",
+  "mentions": [
+    "A003417",
+    "A006280",
+    "A019426"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

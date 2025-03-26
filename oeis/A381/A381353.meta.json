@@ -1,0 +1,15 @@
+{
+  "description": "G.f. A(x) satisfies [x^n] A(x)^prime(n) = 0 for n > 1.",
+  "id": "A381353",
+  "mentions": [
+    "A381355"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

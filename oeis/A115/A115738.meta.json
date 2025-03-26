@@ -1,5 +1,5 @@
 {
-  "description": "n is prime and digits of n^2 include digits of n as substring.",
+  "description": "k is prime and digits of k^2 include digits of k as substring.",
   "id": "A115738",
   "mentions": [
     "A046831",

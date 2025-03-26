@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows where if d|n then T(n,d) = A002110(n/d)^d, where A002110(k) is the product of the first k primes.",
+  "description": "Irregular triangle read by rows where T(n,k) = A002110(n/d)^d, where d = A027750(n,k) and A002110(m) is the product of the first m primes.",
   "id": "A322792",
   "mentions": [
     "A000961",
@@ -7,6 +7,7 @@
     "A002110",
     "A007947",
     "A025487",
+    "A027750",
     "A047966",
     "A055932",
     "A056239",

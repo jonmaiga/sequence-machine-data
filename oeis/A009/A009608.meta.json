@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of sinh(tan(x).exp(x)).",
+  "description": "Expansion of e.g.f. sinh(tan(x)*exp(x)).",
   "id": "A009608",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "joeis"
   }
 }

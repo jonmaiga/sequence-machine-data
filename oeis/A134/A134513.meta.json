@@ -1,21 +1,21 @@
 {
-  "description": "A049310 * A097806.",
+  "description": "Triangle read by rows: T(n, k) = binomial(ceiling((n+k)/2), floor((n-k)/2)).",
   "id": "A134513",
   "mentions": [
     "A046854",
     "A049310",
     "A062114",
-    "A097806"
+    "A097806",
+    "A168561"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 55,
+    "offset": 0,
+    "size": 78,
     "source": "joeis"
   }
 }

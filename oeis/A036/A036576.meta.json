@@ -1,7 +1,10 @@
 {
   "description": "a(n) is the least number not of the form floor(k^2/n).",
   "id": "A036576",
-  "mentions": [],
+  "mentions": [
+    "A036574",
+    "A036575"
+  ],
   "tags": [
     "formulas",
     "nonn"

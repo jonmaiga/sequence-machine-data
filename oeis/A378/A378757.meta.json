@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet convolution of sigma and the Dirichlet inverse of A005187 (A346237).",
+  "id": "A378757",
+  "mentions": [
+    "A000203",
+    "A005187",
+    "A294898",
+    "A346237",
+    "A378756"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

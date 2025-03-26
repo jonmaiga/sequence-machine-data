@@ -2,13 +2,8 @@
   "description": "Central hexanomial coefficients: largest coefficient of (1 + x + ... + x^5)^n.",
   "id": "A018901",
   "mentions": [
-    "A001405",
-    "A002426",
-    "A005190",
-    "A005191",
-    "A025012",
-    "A025013",
-    "A025014"
+    "A063419",
+    "A077042"
   ],
   "tags": [
     "formulas",

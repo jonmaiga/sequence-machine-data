@@ -1,7 +1,9 @@
 {
   "description": "List of triples of primes with common difference 12.",
   "id": "A128312",
-  "mentions": [],
+  "mentions": [
+    "A052188"
+  ],
   "tags": [
     "nonn",
     "tabf"

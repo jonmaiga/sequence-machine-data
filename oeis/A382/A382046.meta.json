@@ -1,0 +1,14 @@
+{
+  "description": "Connected domination number of the n-Lucas cube graph.",
+  "id": "A382046",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

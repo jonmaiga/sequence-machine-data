@@ -2,16 +2,18 @@
   "description": "Largest prime substring in n! (0 if none).",
   "id": "A046277",
   "mentions": [
-    "A046276"
+    "A000142",
+    "A046276",
+    "A047814"
   ],
   "tags": [
     "base",
-    "less",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
-    "source": "joeis"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

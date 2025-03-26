@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum connected dominating sets in the n-hypercube graph.",
+  "id": "A382275",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

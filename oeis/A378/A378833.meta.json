@@ -1,0 +1,19 @@
+{
+  "description": "Number of tripling steps in the 3x-1 trajectory from n to the minimum of its cycle, or -1 if n never reaches a cycle.",
+  "id": "A378833",
+  "mentions": [
+    "A001281",
+    "A135730",
+    "A377524"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

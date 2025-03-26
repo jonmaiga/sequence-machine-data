@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime ending in \"3\", with n preceding \"0\" digits.",
+  "id": "A379150",
+  "mentions": [
+    "A070847",
+    "A070854"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

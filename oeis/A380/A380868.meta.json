@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct solutions {n1, n2, n3, n4} to the problem of forming a rectangle with sides made of linked rods of length 1, ..., n.",
+  "id": "A380868",
+  "mentions": [
+    "A000217",
+    "A334720",
+    "A380867"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

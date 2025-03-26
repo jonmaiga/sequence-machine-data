@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n+6,6)*C(n+9,9).",
+  "description": "a(n) = binomial(n+6,6)*binomial(n+9,9).",
   "id": "A107421",
   "mentions": [
     "A062145"

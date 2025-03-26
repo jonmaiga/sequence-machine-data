@@ -1,5 +1,5 @@
 {
-  "description": "Integers m such that m divides (2^m-2)^2 and (m-2)^((k-1)*(1+k*(m-1)) == 1 (mod k), where k = 2^m - 1.",
+  "description": "Integers m such that m divides (2^m-2)^2 and (m-2)^((k-1)*(1+k*(m-1))) == 1 (mod k), where k = 2^m - 1.",
   "id": "A190213",
   "mentions": [
     "A000043",

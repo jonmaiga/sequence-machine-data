@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=1 and, for n>1, a(n) is the smallest positive integer such that 1+Sum[k, k=a(n-1)+1,...,a(n)] is prime.",
+  "description": "a(1)=1 and, for n>1, a(n) is the smallest positive integer such that 1+Sum_{k=a(n-1)+1..a(n)} k is prime.",
   "id": "A087128",
   "mentions": [
     "A087129"

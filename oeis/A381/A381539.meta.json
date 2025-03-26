@@ -1,0 +1,15 @@
+{
+  "description": "Number of permutations of [n] having exactly one pair of integers i",
+  "id": "A381539",
+  "mentions": [
+    "A381529"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

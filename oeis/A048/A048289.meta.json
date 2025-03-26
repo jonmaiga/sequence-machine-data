@@ -5,14 +5,15 @@
     "A007565"
   ],
   "tags": [
-    "formulas",
+    "fini",
     "hard",
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 6,
+    "size": 3,
     "source": "oeis-entry"
   }
 }

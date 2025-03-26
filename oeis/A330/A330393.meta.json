@@ -1,8 +1,12 @@
 {
   "description": "A 2-regular sequence whose reciprocal is not 2-regular.",
   "id": "A330393",
-  "mentions": [],
+  "mentions": [
+    "A003602",
+    "A007814"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

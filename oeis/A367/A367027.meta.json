@@ -1,12 +1,13 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x*A(x)^3 - x^2*A(x)^5.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^3 - x^2*A(x)^5.",
   "id": "A367027",
   "mentions": [
     "A000108",
     "A137265",
     "A200753",
     "A200755",
-    "A361245"
+    "A361245",
+    "A368969"
   ],
   "tags": [
     "formulas",

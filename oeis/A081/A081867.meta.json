@@ -1,15 +1,16 @@
 {
-  "description": "a(n)=sigma_11(2n-1).",
+  "description": "a(n) = sigma_11(2n-1).",
   "id": "A081867",
   "mentions": [
     "A013959"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 18,
     "source": "joeis"
   }
 }

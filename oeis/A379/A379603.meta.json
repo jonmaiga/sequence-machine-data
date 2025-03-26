@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the largest n-digit number whose square contains only digits greater than 5.",
+  "id": "A379603",
+  "mentions": [
+    "A053972",
+    "A053974",
+    "A058471",
+    "A164772",
+    "A164773",
+    "A164778",
+    "A164841",
+    "A291631",
+    "A379602"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

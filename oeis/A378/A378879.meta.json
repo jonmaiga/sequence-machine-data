@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of non-Pythagorean primes in the prime factorization of n (including multiplicities).",
+  "id": "A378879",
+  "mentions": [
+    "A001222",
+    "A002144",
+    "A002145",
+    "A007814",
+    "A065339",
+    "A083025",
+    "A378880"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

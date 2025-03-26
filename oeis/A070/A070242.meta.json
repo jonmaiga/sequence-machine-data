@@ -1,5 +1,5 @@
 {
-  "description": "Card( k>0 : sigma(k)=sigma(n) ).",
+  "description": "a(n) = Card( k>0 : sigma(k)=sigma(n) ).",
   "id": "A070242",
   "mentions": [
     "A000203",

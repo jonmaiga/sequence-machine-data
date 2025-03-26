@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of pairs of similar integer-sided triangles whose perimeters sum up to n.",
+  "id": "A379340",
+  "mentions": [
+    "A010814",
+    "A069905",
+    "A070088",
+    "A366398",
+    "A370599",
+    "A379341"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

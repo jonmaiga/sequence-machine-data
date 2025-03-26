@@ -1,0 +1,20 @@
+{
+  "description": "Possible values of the sum of squares of divisors function (A001157).",
+  "id": "A379723",
+  "mentions": [
+    "A001157",
+    "A002191",
+    "A002202",
+    "A066872",
+    "A211347"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,18 +2,18 @@
   "description": "Indices of the primorial numbers in A098550.",
   "id": "A253590",
   "mentions": [
-    "A000040",
     "A002110",
     "A098550"
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 5,
+    "offset": 0,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

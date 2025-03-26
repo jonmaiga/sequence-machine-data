@@ -1,0 +1,19 @@
+{
+  "description": "(Exponent of the highest power of 2 that divides n!), reduced modulo 10.",
+  "id": "A378765",
+  "mentions": [
+    "A011371",
+    "A095190",
+    "A218451"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

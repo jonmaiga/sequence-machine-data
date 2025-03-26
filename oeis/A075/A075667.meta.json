@@ -2,10 +2,11 @@
   "description": "Sum of next n 6th powers.",
   "id": "A075667",
   "mentions": [
+    "A001014",
     "A006003",
+    "A069876",
     "A072474",
     "A075664",
-    "A075670",
     "A075671"
   ],
   "tags": [

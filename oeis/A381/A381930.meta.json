@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of length n words x on {0,1,2} such that I(x) + W_0(x)*W_1(x) + W_0(x)*W_2(x) + W_1(x)*W_2(x) = k where I(x) is the number of inversions in x and W_i(x) is the number of occurrences of the letter i in x for i={0,1,2}, n>=0, 0<=k<=floor(2n^2/3).",
+  "id": "A381930",
+  "mentions": [
+    "A000244",
+    "A027472",
+    "A056449",
+    "A129529",
+    "A342245",
+    "A381899"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

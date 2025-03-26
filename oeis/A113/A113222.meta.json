@@ -1,7 +1,10 @@
 {
-  "description": "a(n) = sum{p=primes, p|n} F(p^(m_{n,p})), where p^(m_{n,p}) is highest power of p dividing n, m= nonnegative integer and F(k) is the k-th Fibonacci number.",
+  "description": "a(n) = Sum_{p^e | n} F(p^e), where each p^e is the highest power of prime p dividing n (with e > 0), and F(k) is the k-th Fibonacci number.",
   "id": "A113222",
   "mentions": [
+    "A000045",
+    "A111142",
+    "A113177",
     "A113195"
   ],
   "tags": [
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 48,
-    "source": "oeis-entry"
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

@@ -1,11 +1,20 @@
 {
-  "description": "a(n) = A069359(A276086(n)), where A276086 converts the primorial base expansion of n into its prime product form and A069359(n) = n * Sum_{p|n} 1/p where p are primes dividing n.",
+  "description": "a(n) = A069359(A276086(n)), where A276086 is the primorial base exp-function and A069359(n) = n * Sum_{p|n} 1/p.",
   "id": "A329029",
   "mentions": [
+    "A003415",
+    "A003557",
+    "A007947",
+    "A053669",
     "A069359",
     "A276086",
+    "A276088",
     "A276156",
-    "A327860"
+    "A327860",
+    "A328571",
+    "A328572",
+    "A329031",
+    "A380535"
   ],
   "tags": [
     "formulas",

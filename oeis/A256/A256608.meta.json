@@ -1,5 +1,5 @@
 {
-  "description": "Least common eventual period of a^(2^k) mod n for all a.",
+  "description": "Longest eventual period of a^(2^k) mod n for all a.",
   "id": "A256608",
   "mentions": [
     "A001146",

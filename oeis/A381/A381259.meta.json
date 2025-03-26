@@ -1,0 +1,21 @@
+{
+  "description": "Numbers obtained by concatenating powers of 2, sorted into increasing order.",
+  "id": "A381259",
+  "mentions": [
+    "A000079",
+    "A028846",
+    "A045507",
+    "A152242",
+    "A178664"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,11 +2,13 @@
   "description": "Decimal part of 1/a(n) starts with the n-th prime (leading zeros excluded).",
   "id": "A099406",
   "mentions": [
-    "A034057"
+    "A034057",
+    "A052039"
   ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

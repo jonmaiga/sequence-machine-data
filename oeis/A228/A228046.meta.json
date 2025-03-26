@@ -1,18 +1,16 @@
 {
-  "description": "Decimal expansion of sum of reciprocals, row 4 of the natural number array, A185787.",
+  "description": "Decimal expansion of sum of reciprocals of row 4 of the natural number array, A185787.",
   "id": "A228046",
   "mentions": [
     "A000027",
     "A185787",
     "A226985",
-    "A228044",
-    "A228047",
-    "A228048",
-    "A228049"
+    "A228044"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

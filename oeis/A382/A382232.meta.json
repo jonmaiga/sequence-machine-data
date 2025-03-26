@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = [x^k] (1+x) * A_n(x)^2, where A_n(x) is the n-th Eulerian polynomial.",
+  "id": "A382232",
+  "mentions": [
+    "A048617",
+    "A125300",
+    "A165889",
+    "A173018"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

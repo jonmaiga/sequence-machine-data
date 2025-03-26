@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of (2/3)*x where x is the real solution of the equation x^2 + 2*sqrt(1 - x^2) = 2*x*(x + arccos(x)).",
+  "id": "A379565",
+  "mentions": [
+    "A244054"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

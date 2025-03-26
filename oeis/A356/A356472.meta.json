@@ -2,8 +2,11 @@
   "description": "Numerator of the average of gcd(i,n) for i = 1..n.",
   "id": "A356472",
   "mentions": [
+    "A001620",
+    "A013661",
     "A018804",
     "A057661",
+    "A306016",
     "A356473"
   ],
   "tags": [

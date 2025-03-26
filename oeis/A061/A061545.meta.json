@@ -2,7 +2,8 @@
   "description": "Number of pair-exchange / set-rotate sequences achieving the minimum length of A048200(n).",
   "id": "A061545",
   "mentions": [
-    "A048200"
+    "A048200",
+    "A378834"
   ],
   "tags": [
     "more",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

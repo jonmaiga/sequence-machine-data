@@ -1,5 +1,5 @@
 {
-  "description": "Möbius transform of A294898, where A294898(n) = A005187(n) - A000203(n).",
+  "description": "Möbius transform of A294898, where A294898 is deficiency minus binary weight.",
   "id": "A297114",
   "mentions": [
     "A000203",
@@ -7,10 +7,14 @@
     "A008683",
     "A051953",
     "A083254",
+    "A176095",
     "A294898",
     "A297111",
     "A297115",
-    "A297117"
+    "A297117",
+    "A317844",
+    "A324397",
+    "A378986"
   ],
   "tags": [
     "formulas",

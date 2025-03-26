@@ -1,0 +1,20 @@
+{
+  "description": "First coefficient of the lindep transform of the sum of unitary divisors of n, A034448.",
+  "id": "A380471",
+  "mentions": [
+    "A034448",
+    "A339790",
+    "A380461",
+    "A380472",
+    "A380473",
+    "A380481"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

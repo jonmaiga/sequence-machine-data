@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the A381226(n) numbers constructed in the definition of A381226, in increasing order.",
+  "id": "A381227",
+  "mentions": [
+    "A139004",
+    "A381226",
+    "A381228",
+    "A381229"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(1)=1 then bracketing n by powers of 2 as f(t)=2^t for f(t) < n <= f(t+1), a(n) = f(t+1) - a(n-f(t)).",
   "id": "A105670",
   "mentions": [
+    "A006068",
     "A010060",
     "A062383",
     "A093347",
@@ -10,6 +11,7 @@
     "A105672"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of 1/(Sum_{k>=0} [(k+1)*r](-x)^k), where r = Sqrt[5/2] and [ ] = floor.",
+  "description": "Coefficients of 1/(Sum_{k>=0} [(k+1)*r]*(-x)^k), where r = sqrt(5/2) and [ ] = floor.",
   "id": "A288230",
   "mentions": [
     "A078140"

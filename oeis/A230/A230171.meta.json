@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..2 arrays x(i,j) with each element horizontally, vertically, diagonally or antidiagonally next to at least one element with value 2-x(i,j)",
+  "description": "Number of n X 3 0..2 arrays x(i,j) with each element horizontally, vertically, diagonally or antidiagonally next to at least one element with value 2-x(i,j).",
   "id": "A230171",
   "mentions": [
     "A230176"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

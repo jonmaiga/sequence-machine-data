@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 4^n mod n^4.",
   "id": "A066608",
-  "mentions": [],
+  "mentions": [
+    "A066606"
+  ],
   "tags": [
     "easy",
     "nonn"

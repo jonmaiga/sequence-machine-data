@@ -1,0 +1,17 @@
+{
+  "description": "Indices of zeros in binary concatenation of primes.",
+  "id": "A379036",
+  "mentions": [
+    "A003607",
+    "A191232"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

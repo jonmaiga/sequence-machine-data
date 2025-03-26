@@ -1,0 +1,18 @@
+{
+  "description": "Number of edge covers in the n-Plummer-Toft graph.",
+  "id": "A378848",
+  "mentions": [
+    "A377769",
+    "A378701"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

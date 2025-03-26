@@ -1,0 +1,18 @@
+{
+  "description": "Number of corner polyhedra graphs of order n.",
+  "id": "A377923",
+  "mentions": [
+    "A377920",
+    "A377921",
+    "A377922"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest positive integer such that no number occurs twice in the sequence and its absolute first differences.",
+  "description": "a(n) is the smallest positive integer such that no number occurs twice in the union of the sequence and its absolute first differences.",
   "id": "A140778",
   "mentions": [
     "A005228",

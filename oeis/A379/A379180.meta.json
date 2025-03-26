@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers with mode and mean of the digits equal.",
+  "id": "A379180",
+  "mentions": [
+    "A115353",
+    "A378560",
+    "A378835",
+    "A379181"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

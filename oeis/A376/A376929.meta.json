@@ -1,5 +1,5 @@
 {
-  "description": "Products of 5 distinct primes (or pentaprimes) that are sandwiched between sphenic numbers.",
+  "description": "Products of 5 distinct primes that are sandwiched between sphenic numbers.",
   "id": "A376929",
   "mentions": [
     "A007304",

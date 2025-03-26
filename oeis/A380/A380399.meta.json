@@ -1,0 +1,22 @@
+{
+  "description": "The number of nonunitary divisors of n that are perfect powers (A001597).",
+  "id": "A380399",
+  "mentions": [
+    "A001597",
+    "A008683",
+    "A048105",
+    "A072102",
+    "A091050",
+    "A380398"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

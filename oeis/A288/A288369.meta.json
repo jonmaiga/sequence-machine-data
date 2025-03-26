@@ -1,11 +1,12 @@
 {
-  "description": "Primes of the form k!10+1, where k!10 is the decuple factorial number (A288327).",
+  "description": "Primes of the form k!10 + 1, where k!10 is the decuple factorial number (A288327).",
   "id": "A288369",
   "mentions": [
     "A204656",
     "A288327"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

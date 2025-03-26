@@ -1,5 +1,5 @@
 {
-  "description": "Numbers h such that antiharmonic mean B(h) of the numbers k < h such that gcd(k, h) = 1 is integer.",
+  "description": "Numbers h such that antiharmonic mean B(h) of the numbers k < h such that gcd(k, h) = 1 is an integer.",
   "id": "A179871",
   "mentions": [
     "A003627",

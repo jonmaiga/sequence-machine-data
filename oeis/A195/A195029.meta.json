@@ -2,6 +2,8 @@
   "description": "a(n) = n*(14*n + 13) + 3.",
   "id": "A195029",
   "mentions": [
+    "A005408",
+    "A017017",
     "A022264",
     "A144555",
     "A152760",
@@ -26,7 +28,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 43,
     "source": "oeis-bfile"
   }
 }

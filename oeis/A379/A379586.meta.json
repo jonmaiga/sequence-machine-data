@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the partial alternating sums of the reciprocals of the powerful part function (A057521).",
+  "id": "A379586",
+  "mentions": [
+    "A057521",
+    "A370902",
+    "A370903",
+    "A379584",
+    "A379585"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

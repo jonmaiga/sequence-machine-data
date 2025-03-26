@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies x = Sum_{n>=1} A( x^n*(1-x)^(4*n) ).",
+  "id": "A380553",
+  "mentions": [
+    "A002294",
+    "A008683",
+    "A034742",
+    "A118971",
+    "A346936",
+    "A380551",
+    "A380552"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

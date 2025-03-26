@@ -2,7 +2,8 @@
   "description": "Average theta series of odd unimodular lattices of dimension 16 (multiplied by 17).",
   "id": "A029817",
   "mentions": [
-    "A013955"
+    "A013955",
+    "A321811"
   ],
   "tags": [
     "formulas",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 25,
     "source": "joeis"
   }
 }

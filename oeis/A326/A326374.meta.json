@@ -1,8 +1,9 @@
 {
-  "description": "Irregular triangle read by rows where T(n,d) for d|n is the number of (d + 1)-uniform hypertrees spanning n + 1 vertices.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of (d + 1)-uniform hypertrees spanning n + 1 vertices, where d = A027750(n,k).",
   "id": "A326374",
   "mentions": [
     "A000272",
+    "A027750",
     "A030019",
     "A035053",
     "A038041",

@@ -1,0 +1,20 @@
+{
+  "description": "Erase digits 0 and 1 from decimal expansion of n. Then keep just the coprime digits; write 0 if all digits disappear.",
+  "id": "A379512",
+  "mentions": [
+    "A004151",
+    "A004719",
+    "A059717"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

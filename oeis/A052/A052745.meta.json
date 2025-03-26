@@ -1,7 +1,11 @@
 {
-  "description": "A simple grammar.",
+  "description": "Expansion of e.g.f. log(-1/(-1+x))^2*x.",
   "id": "A052745",
-  "mentions": [],
+  "mentions": [
+    "A052758",
+    "A052770",
+    "A052783"
+  ],
   "tags": [
     "easy",
     "formulas",

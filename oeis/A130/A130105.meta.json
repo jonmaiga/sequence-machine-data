@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(2n)!*B_n, B_n=n-th Bernoulli number.",
+  "description": "a(n) = (2n)! * B_n, where B_n = n-th Bernoulli number.",
   "id": "A130105",
   "mentions": [
     "A027641",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

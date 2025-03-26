@@ -1,5 +1,5 @@
 {
-  "description": "Composite solutions of phi(n)==1 (mod bigomega(n)) where phi(n)=A000010(n) is the Euler totient function and bigomega(n)=A001222(n) is the number of prime divisors of n (counted with multiplicity).",
+  "description": "Numbers k such that phi(k)==1 (mod bigomega(k)) where phi(n)=A000010(n) is the Euler totient function and bigomega(n)=A001222(n) is the number of prime divisors of n (counted with multiplicity).",
   "id": "A066934",
   "mentions": [
     "A000010",

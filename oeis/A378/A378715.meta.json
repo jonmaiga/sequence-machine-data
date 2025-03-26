@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the dihedral angle, in radians, between any two adjacent faces in a disdyakis dodecahedron.",
+  "id": "A378715",
+  "mentions": [
+    "A002193",
+    "A177870",
+    "A195698",
+    "A195702",
+    "A378393",
+    "A378712",
+    "A378713",
+    "A378714"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

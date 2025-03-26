@@ -1,7 +1,9 @@
 {
   "description": "Divisors of 945.",
   "id": "A018736",
-  "mentions": [],
+  "mentions": [
+    "A005231"
+  ],
   "tags": [
     "easy",
     "fini",

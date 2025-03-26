@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the length of the largest finite maximal run of consecutive integers missing from the set {A377091(k), k = 0..n}, or 0 if no such run exists.",
+  "id": "A378385",
+  "mentions": [
+    "A377091",
+    "A380263"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

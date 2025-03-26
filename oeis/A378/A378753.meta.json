@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet inverse of A378752, where A378752(n) = 2*sigma(n) - sigma(A003961(n)), and A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
+  "id": "A378753",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A378752"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

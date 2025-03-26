@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] with no fixed points where adjacent elements differ by at least 3.",
+  "id": "A381461",
+  "mentions": [
+    "A000166",
+    "A002464",
+    "A127697",
+    "A288208"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

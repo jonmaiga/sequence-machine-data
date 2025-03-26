@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = real( 1 + x*A(x)^(2*i) ), where i^2 = -1.",
+  "id": "A380556",
+  "mentions": [
+    "A380057",
+    "A380555"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

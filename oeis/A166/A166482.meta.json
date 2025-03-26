@@ -1,7 +1,9 @@
 {
   "description": "a(n) = Sum_{k=0..n} binomial(n+k,2k)*Fibonacci(2k+1).",
   "id": "A166482",
-  "mentions": [],
+  "mentions": [
+    "A131322"
+  ],
   "tags": [
     "easy",
     "formulas",

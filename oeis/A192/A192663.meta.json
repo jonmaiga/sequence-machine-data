@@ -1,5 +1,5 @@
 {
-  "description": "Floor-Sqrt transform of the binomial coefficients bin(3*n,n) (A005809).",
+  "description": "Floor-Sqrt transform of the binomial coefficients binomial(3*n,n) (A005809).",
   "id": "A192663",
   "mentions": [
     "A005809"

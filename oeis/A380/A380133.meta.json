@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. sqrt(1 + 2*x*exp(x)).",
+  "id": "A380133",
+  "mentions": [
+    "A028310",
+    "A380015",
+    "A380050",
+    "A380093",
+    "A380134"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

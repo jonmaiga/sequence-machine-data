@@ -1,0 +1,18 @@
+{
+  "description": "Minimal conductors c of complex dihedral normal closures K = L(zeta_3) of pure cubic number fields L = Q(d^1/3), d > 1 cubefree, with elementary bicyclic 3-class group Cl_3(K)=(3,3) and second 3-class group M=Gal(F_3^2(K)/K) of assigned coclass cc(M)=0,1,2,3,...",
+  "id": "A380104",
+  "mentions": [
+    "A379524"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

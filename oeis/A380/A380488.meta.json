@@ -1,0 +1,18 @@
+{
+  "description": "Array read by descending antidiagonals where row n holds the lexicographically earliest sequence of distinct positive integers such that T(n,k) is a multiple of the sum of base n digits of T(n,k-1), starting from T(n,1) = 1.",
+  "id": "A380488",
+  "mentions": [
+    "A242704",
+    "A380489"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

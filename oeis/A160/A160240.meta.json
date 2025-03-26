@@ -1,11 +1,12 @@
 {
-  "description": "Number of Greek-Key Tours on a 6 X n grid.",
+  "description": "Number of Greek-key tours on a 6 X n grid.",
   "id": "A160240",
   "mentions": [
     "A046994",
     "A046995",
     "A145156",
-    "A145157"
+    "A145157",
+    "A378938"
   ],
   "tags": [
     "formulas",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "joeis"
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "4*C(2n,n)-3*0^n.",
+  "description": "a(n) = 4*C(2n,n) - 3*0^n.",
   "id": "A146534",
   "mentions": [
     "A000984",
@@ -10,7 +10,8 @@
     "A088218",
     "A100320",
     "A144706",
-    "A146533"
+    "A146533",
+    "A240530"
   ],
   "tags": [
     "formulas",
@@ -18,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 27,
     "source": "joeis"
   }
 }

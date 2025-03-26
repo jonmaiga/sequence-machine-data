@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Mod( binomial(2*n,n), (n+1)*(n+2)*(n+3) ).",
+  "description": "a(n) = binomial(2*n,n) mod ((n+1)*(n+2)*(n+3)).",
   "id": "A065345",
   "mentions": [
     "A000108",

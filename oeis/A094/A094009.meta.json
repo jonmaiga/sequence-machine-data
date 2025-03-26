@@ -1,15 +1,17 @@
 {
-  "description": "Least number k such that k! in binary representation has n consecutive ones.",
+  "description": "Least number k such that k! in binary representation contains a run of exactly n consecutive ones.",
   "id": "A094009",
   "mentions": [
     "A094010"
   ],
   "tags": [
+    "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

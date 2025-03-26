@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that all p-t for p/2 < t < p are composite, where t is a triangular number.",
+  "description": "Primes p such that all p-t for p/2 < t < p are nonprime, where t is a triangular number.",
   "id": "A074855",
   "mentions": [],
   "tags": [

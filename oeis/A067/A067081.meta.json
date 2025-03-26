@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n+1) = 2*sigma(n).",
+  "description": "Numbers k such that sigma(k+1) = 2*sigma(k).",
   "id": "A067081",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

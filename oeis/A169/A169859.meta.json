@@ -1,14 +1,16 @@
 {
-  "description": "Smallest nontrivial square (i.e., not of the form 10^2k, k>0) with at least n identical adjacent digits.",
+  "description": "a(n) = smallest nontrivial square (i.e., not a multiple of 10) with at least n identical adjacent digits.",
   "id": "A169859",
-  "mentions": [],
+  "mentions": [
+    "A137416"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

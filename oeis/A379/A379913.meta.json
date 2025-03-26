@@ -1,0 +1,15 @@
+{
+  "description": "Let M_n be the n X n matrix M_(i,j)=1/(3^i+3^j), then a(n) is the denominator of det(M_n).",
+  "id": "A379913",
+  "mentions": [
+    "A069743"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

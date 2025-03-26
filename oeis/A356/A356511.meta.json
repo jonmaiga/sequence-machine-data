@@ -2,6 +2,7 @@
   "description": "Total number of distinct numbers that can be obtained by starting with 1 and applying the \"Choix de Bruxelles\", version 2 operation at most n times in duodecimal (base 12).",
   "id": "A356511",
   "mentions": [
+    "A307635",
     "A323289"
   ],
   "tags": [

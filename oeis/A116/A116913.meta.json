@@ -2,8 +2,10 @@
   "description": "Inverse Moebius transform of pentagonal numbers.",
   "id": "A116913",
   "mentions": [
+    "A000203",
     "A000326",
     "A001157",
+    "A002117",
     "A007437",
     "A278945",
     "A278947"

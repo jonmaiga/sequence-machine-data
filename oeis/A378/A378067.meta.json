@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of walks of length n with unit steps in all four directions (NSWE) starting at (0, 0), staying in the upper plane (y >= 0), and ending on the vertical line x = 0 if k = 0, or on the line x = k or x = -(n + 1 - k) if k > 0.",
+  "id": "A378067",
+  "mentions": [
+    "A001700",
+    "A018224",
+    "A052174",
+    "A378069",
+    "A379822",
+    "A380121"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

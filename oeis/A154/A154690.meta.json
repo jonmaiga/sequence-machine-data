@@ -1,9 +1,21 @@
 {
-  "description": "Triangle read by rows: T(n,m) = (2^(n-m) + 2^m)*binomial(n,m), 0 <= m <= n.",
+  "description": "Triangle read by rows: T(n, k) = (2^(n-k) + 2^k)*binomial(n,k), 0 <= k <= n.",
   "id": "A154690",
   "mentions": [
+    "A000051",
+    "A000129",
+    "A001045",
     "A007318",
-    "A025192"
+    "A008776",
+    "A010673",
+    "A025192",
+    "A038208",
+    "A038221",
+    "A059304",
+    "A069720",
+    "A107920",
+    "A154692",
+    "A215149"
   ],
   "tags": [
     "easy",

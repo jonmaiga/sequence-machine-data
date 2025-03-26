@@ -7,11 +7,12 @@
     "A080083"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

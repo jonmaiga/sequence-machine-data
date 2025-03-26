@@ -1,0 +1,20 @@
+{
+  "description": "Number of k <= n that are neither squarefree nor prime powers.",
+  "id": "A379771",
+  "mentions": [
+    "A013928",
+    "A065515",
+    "A126706",
+    "A355447"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

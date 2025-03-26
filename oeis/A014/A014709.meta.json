@@ -1,5 +1,5 @@
 {
-  "description": "The regular paper-folding (or dragon curve) sequence.",
+  "description": "The regular paper-folding (or dragon curve) sequence. Alphabet {1,2}.",
   "id": "A014709",
   "mentions": [
     "A014577",

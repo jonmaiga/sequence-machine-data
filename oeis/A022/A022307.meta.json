@@ -20,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 100,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

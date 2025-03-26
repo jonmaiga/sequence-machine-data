@@ -1,9 +1,10 @@
 {
-  "description": "A simple grammar.",
+  "description": "A simple grammar: partial sums of A008965.",
   "id": "A052825",
   "mentions": [
     "A000010",
-    "A000629"
+    "A000629",
+    "A008965"
   ],
   "tags": [
     "easy",

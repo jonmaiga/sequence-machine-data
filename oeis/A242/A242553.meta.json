@@ -1,5 +1,5 @@
 {
-  "description": "Least number k such that n^8+k^8 is prime.",
+  "description": "Least number k such that n^8 + k^8 is prime.",
   "id": "A242553",
   "mentions": [
     "A006314",

@@ -2,7 +2,8 @@
   "description": "Denominators of partial sums of reciprocals of primorial numbers.",
   "id": "A064647",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A064646"
   ],
   "tags": [
     "frac",

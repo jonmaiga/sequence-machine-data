@@ -1,0 +1,16 @@
+{
+  "description": "Numbers m such that Sum_{k>=0} floor(m/5^k) is prime.",
+  "id": "A380662",
+  "mentions": [
+    "A191610",
+    "A381239"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of primes between n^2 and n^4.",
+  "id": "A380332",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A038107",
+    "A079648",
+    "A380331"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

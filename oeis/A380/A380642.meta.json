@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the total number of digits d in the numbers from 1 to k is even for each d from 0 to 9.",
+  "id": "A380642",
+  "mentions": [
+    "A360320"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

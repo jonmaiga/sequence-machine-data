@@ -1,0 +1,14 @@
+{
+  "description": "Number of connected dominating sets in the n-triangular honeycomb bishop graph.",
+  "id": "A381795",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

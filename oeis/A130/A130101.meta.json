@@ -1,5 +1,5 @@
 {
-  "description": "Primes prime(n) such that 10*prime(n)+prime(n+1) is not prime.",
+  "description": "Primes prime(k) such that 10*prime(k) + prime(k+1) is not prime.",
   "id": "A130101",
   "mentions": [
     "A129900"

@@ -1,5 +1,5 @@
 {
-  "description": "A symmetrical vector coefficient recursion sequence: a(n)=2*{0,a(n-2,0}+2*{-1/2,a(n-1)}+2*{a(n-1),-1/2}.",
+  "description": "a(n) = 2*{0,a(n-2),0} + 2*{-1/2,a(n-1)}+2*{a(n-1),-1/2}.",
   "id": "A152602",
   "mentions": [],
   "tags": [

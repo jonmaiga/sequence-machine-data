@@ -1,5 +1,5 @@
 {
-  "description": "Prime-generating polynomial: 2*n^2 - 108*n + 1259.",
+  "description": "Prime-generating polynomial: a(n) = 2*n^2 - 108*n + 1259.",
   "id": "A211773",
   "mentions": [
     "A060566",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 52,
     "source": "joeis"
   }
 }

@@ -2,12 +2,14 @@
   "description": "a(n-1)+k=a(n) => a(n)*k=a(n+1).",
   "id": "A057268",
   "mentions": [
+    "A001696",
     "A014221",
     "A014222",
     "A057269"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

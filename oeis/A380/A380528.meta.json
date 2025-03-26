@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime p such that p^p is a divisor of A380459(n), or 1 if no such factor exists, where A380459(n) = Product_{d|n} A276086(n/d)^A349394(d).",
+  "id": "A380528",
+  "mentions": [
+    "A005117",
+    "A129252",
+    "A276086",
+    "A349394",
+    "A380459",
+    "A380468",
+    "A380529",
+    "A380530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

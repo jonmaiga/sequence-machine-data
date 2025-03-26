@@ -1,5 +1,5 @@
 {
-  "description": "Number of divisors of n, d(n) raised to power d(n).",
+  "description": "a(n) = d(n)^d(n), where d(n) = A000005(n).",
   "id": "A132650",
   "mentions": [
     "A000005",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 47,
+    "size": 50,
     "source": "joeis"
   }
 }

@@ -2,6 +2,7 @@
   "description": "a(n) = P_n(n) with P_0(z) = z+1 and P_n(z) = z + P_{n-1}(z)*(P_{n-1}(z)-z) for n>1.",
   "id": "A252730",
   "mentions": [
+    "A000058",
     "A177888"
   ],
   "tags": [

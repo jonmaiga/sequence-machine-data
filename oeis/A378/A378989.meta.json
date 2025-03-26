@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet inverse of the Möbius transform of binary weight of n.",
+  "id": "A378989",
+  "mentions": [
+    "A000120",
+    "A297115",
+    "A378990"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

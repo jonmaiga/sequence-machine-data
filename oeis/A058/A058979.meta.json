@@ -1,16 +1,18 @@
 {
-  "description": "Number of m such that phi(m) = 4n.",
+  "description": "Number of numbers m such that phi(m) = 4n.",
   "id": "A058979",
   "mentions": [
     "A000010",
-    "A005277"
+    "A005277",
+    "A014197"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 94,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k and k+1 both have an odd number of abundant divisors.",
+  "id": "A381548",
+  "mentions": [
+    "A096399",
+    "A381546",
+    "A381549"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

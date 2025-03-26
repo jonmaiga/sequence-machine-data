@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that product of factorials of digits of n equals pi(n) (A000720).",
+  "description": "Numbers k such that product of factorials of digits of k equals pi(k) (A000720).",
   "id": "A066457",
   "mentions": [
     "A000720",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

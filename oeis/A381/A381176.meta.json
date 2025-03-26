@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + x*cos(x*A(x)).",
+  "id": "A381176",
+  "mentions": [
+    "A185951",
+    "A381173",
+    "A381174",
+    "A381175"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that every primitive root mod k is prime.",
+  "id": "A382220",
+  "mentions": [
+    "A033948",
+    "A046147",
+    "A382224"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest number whose cube is an n-digit cube which has the maximum sum of digits (A373727(n)).",
+  "id": "A380052",
+  "mentions": [
+    "A348303",
+    "A370522",
+    "A373727",
+    "A379869"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

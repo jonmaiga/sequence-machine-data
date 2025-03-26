@@ -1,5 +1,5 @@
 {
-  "description": "Generalized Catalan numbers.",
+  "description": "Generalized Catalan numbers 2*x*A(x)^2 -A(x) +1 -x =0.",
   "id": "A068764",
   "mentions": [
     "A001003",

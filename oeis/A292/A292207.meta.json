@@ -1,5 +1,5 @@
 {
-  "description": "Number of unrooted unlabelled bipartite cubic maps on a compact closed oriented surface with 2*n vertices (and thus 3*n edges).",
+  "description": "Number of unrooted unlabeled bipartite cubic maps on a compact closed oriented surface with 2*n vertices (and thus 3*n edges).",
   "id": "A292207",
   "mentions": [
     "A292187"
@@ -8,7 +8,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 17,
     "source": "oeis-entry"
   }

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of a pentakis dodecahedron with unit shorter edge length.",
+  "id": "A379132",
+  "mentions": [
+    "A002163",
+    "A377750",
+    "A379133",
+    "A379134",
+    "A379135",
+    "A379136"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

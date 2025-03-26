@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of coincidences of the first n terms of this sequence and the first n terms of A380188 in reverse order, i.e., the number of equalities a(k) = A380188(n-1-k) for 0 <= k < n.",
+  "id": "A380189",
+  "mentions": [
+    "A272727",
+    "A276638",
+    "A379266",
+    "A380188",
+    "A380190"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of coincident digits occurring in expression of integers in both base 2 and base 10.",
+  "id": "A380759",
+  "mentions": [
+    "A000027",
+    "A007088"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

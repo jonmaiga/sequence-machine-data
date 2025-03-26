@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] with at least one hit on both main diagonals.",
+  "id": "A378907",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A002467",
+    "A003471"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

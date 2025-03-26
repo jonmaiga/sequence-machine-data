@@ -1,16 +1,20 @@
 {
-  "description": "A triangle sequence of the form:t(n,m]=Sum[Floor[Eulerian[n + 1, m]/2^i], {i, 0, 10}]",
+  "description": "T(n, m) = Sum_{i=0..10} floor(Eulerian(n+1, m)/2^i).",
   "id": "A174033",
-  "mentions": [],
+  "mentions": [
+    "A008292",
+    "A176200"
+  ],
   "tags": [
     "formulas",
+    "less",
     "nonn",
     "tabl",
     "uned"
   ],
   "terms": {
     "offset": 0,
-    "size": 52,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

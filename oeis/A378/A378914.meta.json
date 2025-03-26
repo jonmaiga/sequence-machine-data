@@ -1,0 +1,18 @@
+{
+  "description": "Smallest positive m such that sigma(m) does not divide n, where sigma is the sum-of-divisors function (A000203).",
+  "id": "A378914",
+  "mentions": [
+    "A000203",
+    "A051549",
+    "A378912"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

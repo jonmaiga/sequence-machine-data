@@ -1,0 +1,25 @@
+{
+  "description": "Number of k <= n such that k is neither coprime to n and rad(k) != rad(n), where rad = A007947.",
+  "id": "A381096",
+  "mentions": [
+    "A000010",
+    "A005361",
+    "A007947",
+    "A008479",
+    "A045763",
+    "A355432",
+    "A359929",
+    "A360768",
+    "A381094"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

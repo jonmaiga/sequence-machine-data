@@ -1,7 +1,10 @@
 {
   "description": "a(n) is the smallest prime whose base-n representation contains a run of at least n identical digits.",
   "id": "A374173",
-  "mentions": [],
+  "mentions": [
+    "A023037",
+    "A088790"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 2,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

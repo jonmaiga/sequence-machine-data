@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = coefficient of x^n in expansion of x^k*(1+x+x^2)^(k*x) = sum(n>=k, T(n,k) x^n*k!/n!).",
+  "description": "Triangle read by rows: T(n,k) = (n!/k!) * [x^n] x^k*(1+x+x^2)^(k*x).",
   "id": "A202189",
   "mentions": [
     "A132393",

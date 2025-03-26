@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is smallest number such that a(n)^2 + 1 is divisible by 29^n.",
+  "description": "a(n) is the smallest number such that a(n)^2 + 1 is divisible by 29^n.",
   "id": "A218712",
   "mentions": [
     "A002522",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

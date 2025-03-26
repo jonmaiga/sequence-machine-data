@@ -1,17 +1,19 @@
 {
-  "description": "Greek-key tours on a 4 X n board; i.e., self-avoiding walks on 4 X n grid starting in top left corner.",
+  "description": "Number of Greek-key tours on a 4 X n board; i.e., self-avoiding walks on 4 X n grid starting in top left corner.",
   "id": "A046995",
   "mentions": [
-    "A046994"
+    "A046994",
+    "A378938"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

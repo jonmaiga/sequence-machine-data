@@ -2,6 +2,7 @@
   "description": "Nontrivial reversal numbers (numbers which are integer multiples of their reversals), excluding palindromic numbers and multiples of 10.",
   "id": "A031877",
   "mentions": [
+    "A001232",
     "A004086",
     "A008919",
     "A103609",

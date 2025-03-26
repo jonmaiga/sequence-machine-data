@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with a composite number of prime factors and a composite number of distinct prime factors.",
+  "id": "A376861",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A002808"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

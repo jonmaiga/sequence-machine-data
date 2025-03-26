@@ -1,5 +1,5 @@
 {
-  "description": "27*n+18.",
+  "description": "a(n) = 27*n + 18.",
   "id": "A124388",
   "mentions": [
     "A006566",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 51,
     "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of log(4/3).",
   "id": "A083679",
   "mentions": [
+    "A016578",
     "A018215",
     "A036290"
   ],

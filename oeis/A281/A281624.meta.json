@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^phi(n) + 1 is prime (Fermat prime).",
+  "description": "Numbers m such that 2^phi(m) + 1 is prime (Fermat prime).",
   "id": "A281624",
   "mentions": [
     "A000010",

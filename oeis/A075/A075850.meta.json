@@ -1,5 +1,5 @@
 {
-  "description": "Greatest k such that f(k,1) divides f(k,n) where f(k,n) is the k-th term of the sequence : f(1,n)=1 f(2,n)= n f(k+2,n)=f(k+1,n)+f(k,n) (f(k,1) is the Fibonacci sequence).",
+  "description": "Greatest k such that f(k,1) divides f(k,n) where f(k,n) is the k-th term of the sequence: f(1,n)=1, f(2,n)=n, f(k+2,n)=f(k+1,n)+f(k,n).",
   "id": "A075850",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 103,
-    "source": "oeis-entry"
+    "offset": 2,
+    "size": 102,
+    "source": "joeis"
   }
 }

@@ -2,6 +2,9 @@
   "description": "a(n) is obtained from n by removing factors of 2 and 3 that do not contribute to a factor of 6.",
   "id": "A214681",
   "mentions": [
+    "A007814",
+    "A007949",
+    "A122841",
     "A214682",
     "A214685"
   ],

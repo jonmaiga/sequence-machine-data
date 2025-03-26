@@ -1,0 +1,25 @@
+{
+  "description": "a(0) = 0, a(1) = 1, and for n >= 2, a(n) = a(n-1) + a(n-2) if a(n-1) < n, otherwise a(n-1) - n.",
+  "id": "A380820",
+  "mentions": [
+    "A000027",
+    "A000045",
+    "A005843",
+    "A008597",
+    "A016825",
+    "A017089",
+    "A017221",
+    "A017497",
+    "A322558"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

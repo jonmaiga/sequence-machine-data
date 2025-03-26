@@ -2,11 +2,9 @@
   "description": "a(n) = number of numbers of the form k^2-1 having n-th prime as largest prime divisor.",
   "id": "A181471",
   "mentions": [
+    "A039915",
     "A175607",
-    "A175901",
-    "A175904",
-    "A181447",
-    "A181470"
+    "A223701"
   ],
   "tags": [
     "hard",

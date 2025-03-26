@@ -1,0 +1,19 @@
+{
+  "description": "Connected domination number of the n-triangular grid graph.",
+  "id": "A379353",
+  "mentions": [
+    "A251419",
+    "A288721",
+    "A373393"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

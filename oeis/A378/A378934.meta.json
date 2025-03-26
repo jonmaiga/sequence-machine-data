@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimal edge cuts in the 4 X n grid graph.",
+  "id": "A378934",
+  "mentions": [
+    "A166766",
+    "A378932",
+    "A378933"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,11 +2,13 @@
   "description": "Decimal expansion of 9 * Product_{p prime >= 5} (1-3/p)/(1-1/p)^3.",
   "id": "A343480",
   "mentions": [
+    "A271886",
     "A343478",
     "A343479"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

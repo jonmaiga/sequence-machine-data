@@ -1,19 +1,17 @@
 {
-  "description": "Mod[Sigma[n],Pi[n]]=1 or Sigma[n]=kPi[n]+1.",
+  "description": "Numbers k such that sigma(k) mod pi(k) = 1.",
   "id": "A073723",
   "mentions": [
     "A000203",
     "A000720",
-    "A072548",
-    "A073724"
+    "A072548"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

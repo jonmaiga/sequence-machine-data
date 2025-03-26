@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A381781(k) is negative.",
+  "id": "A381892",
+  "mentions": [
+    "A381781",
+    "A381893"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

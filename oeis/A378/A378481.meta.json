@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that A378414(k) == k (mod A066417(k))",
+  "id": "A378481",
+  "mentions": [
+    "A000217",
+    "A066417",
+    "A232538",
+    "A378414"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

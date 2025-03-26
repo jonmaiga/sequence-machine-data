@@ -1,5 +1,5 @@
 {
-  "description": "Number of divisors of a(n)! exceeds 10^n.",
+  "description": "a(n) is the least number k such that the number of divisors of k! exceeds 10^n.",
   "id": "A098109",
   "mentions": [
     "A027423"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

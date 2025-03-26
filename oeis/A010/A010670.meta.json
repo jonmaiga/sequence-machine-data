@@ -2,10 +2,12 @@
   "description": "Decimal expansion of cube root of 100.",
   "id": "A010670",
   "mentions": [
-    "A010328"
+    "A010328",
+    "A010582"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

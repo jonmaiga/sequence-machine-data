@@ -2,14 +2,18 @@
   "description": "a(n) = n^phi(n) - 1.",
   "id": "A066916",
   "mentions": [
-    "A066727"
+    "A000010",
+    "A062981",
+    "A066727",
+    "A066915"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

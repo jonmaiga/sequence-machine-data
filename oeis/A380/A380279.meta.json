@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that A377091(k) corresponds to a tie.",
+  "id": "A380279",
+  "mentions": [
+    "A377091",
+    "A380280"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

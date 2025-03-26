@@ -2,14 +2,16 @@
   "description": "Lengths of the 3x+1 trajectories associated with the record values in A006884.",
   "id": "A132348",
   "mentions": [
+    "A006577",
     "A006884"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

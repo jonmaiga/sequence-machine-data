@@ -1,5 +1,5 @@
 {
-  "description": "Let H(p) = p*tau(p)/sigma(p). Numbers 2^(H(p) - 1)*(2^H(p) - 1) where H(p) is integer (i.e., p in A001599).",
+  "description": "Let H(p) = p*tau(p)/sigma(p). Numbers 2^(H(p) - 1)*(2^H(p) - 1) where H(p) is an integer (i.e., p in A001599).",
   "id": "A174633",
   "mentions": [
     "A000203",

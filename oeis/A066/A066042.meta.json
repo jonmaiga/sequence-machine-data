@@ -1,5 +1,5 @@
 {
-  "description": "n divided by ((sum of digits of n) times (product of digits of n)) is prime.",
+  "description": "Numbers k such that k divided by ((sum of digits of k) multiplied by (product of digits of k)) is prime.",
   "id": "A066042",
   "mentions": [
     "A038369",

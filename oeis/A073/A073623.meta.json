@@ -2,6 +2,7 @@
   "description": "Primes ordered so that their most significant digits form the digits of e.",
   "id": "A073623",
   "mentions": [
+    "A001113",
     "A073622"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

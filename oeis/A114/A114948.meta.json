@@ -1,15 +1,21 @@
 {
   "description": "a(n) = n^2 + 10.",
   "id": "A114948",
-  "mentions": [],
+  "mentions": [
+    "A114962",
+    "A114963",
+    "A114964",
+    "A114965",
+    "A241850"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 50,
-    "source": "joeis"
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
   }
 }

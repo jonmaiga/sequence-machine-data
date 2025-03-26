@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies 1 + 5*A(x) = Sum_{n>=0} (x + 4*A(x)^n)^n.",
+  "id": "A380064",
+  "mentions": [
+    "A380061",
+    "A380062",
+    "A380063"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Product_{m>=1} 1/(1-x^m)^30.",
+  "description": "Expansion of g.f. Product_{m>=1} 1/(1-x^m)^30.",
   "id": "A082556",
   "mentions": [
     "A144064"

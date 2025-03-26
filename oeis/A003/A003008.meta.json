@@ -2,9 +2,9 @@
   "description": "Number of n-level ladder expressions with A030798.",
   "id": "A003008",
   "mentions": [
-    "A003007",
     "A003018",
-    "A030798"
+    "A030798",
+    "A082499"
   ],
   "tags": [
     "more",

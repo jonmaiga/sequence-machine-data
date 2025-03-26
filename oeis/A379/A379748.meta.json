@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of ways to arrange any number of unit square cells into an i X j rectangle which contains exactly n square subarrays of all sizes.",
+  "id": "A379748",
+  "mentions": [
+    "A082652"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

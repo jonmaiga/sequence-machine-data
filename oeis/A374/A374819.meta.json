@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of functions on the Boolean lattice B_n satisfying f({}) =0, f([n])=k, and the Boolean growth rule: f(J union {i})-f(J) in {0,1} for all subsets J of [n]={1, ..., n} and all i in [n]\\J, 0 <= k <= n.",
+  "id": "A374819",
+  "mentions": [
+    "A000372",
+    "A007153",
+    "A297622",
+    "A374820",
+    "A374821",
+    "A374822",
+    "A374824"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

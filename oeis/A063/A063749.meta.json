@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor((A000005(n)*(n+1)/2) - A000203(n)).",
+  "description": "a(n) = floor(d(n)*(n+1)/2) - sigma(n), where d = A000005, sigma = A000203.",
   "id": "A063749",
   "mentions": [
     "A000005",

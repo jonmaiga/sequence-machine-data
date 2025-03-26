@@ -1,5 +1,5 @@
 {
-  "description": "Number of switching networks under action of GL_n(Z_2).",
+  "description": "Number of switching networks under action of GL_n(Z_2) acting on 3 variables.",
   "id": "A000818",
   "mentions": [],
   "tags": [

@@ -7,13 +7,11 @@
     "A353052"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k>1 such that 10*k^(5*2^n)+1 is prime.",
+  "id": "A381793",
+  "mentions": [
+    "A020714",
+    "A089319",
+    "A381815"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

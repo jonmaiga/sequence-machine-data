@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{i>=1} 1/2^A082851(i).",
+  "id": "A380373",
+  "mentions": [
+    "A082850",
+    "A082851",
+    "A112302",
+    "A380372"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 108,
+    "source": "joeis"
+  }
+}

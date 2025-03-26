@@ -1,10 +1,15 @@
 {
-  "description": "Initial terms of quintuplets of consecutive primes as follows: {p,p+16,p+24,p+40,p+48}. The corresponding difference-pattern is {16,8,16,8}.",
+  "description": "Initial terms of quintuplets of consecutive primes as follows: {p, p+16, p+24, p+40, p+48}. The corresponding difference-pattern is {16,8,16,8}.",
   "id": "A102334",
   "mentions": [
     "A001223",
     "A022007",
     "A052162",
+    "A052163",
+    "A052164",
+    "A052165",
+    "A052166",
+    "A052167",
     "A052168",
     "A052378",
     "A067140",
@@ -13,11 +18,12 @@
     "A102333"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

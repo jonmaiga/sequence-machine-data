@@ -2,6 +2,7 @@
   "description": "a(n) = binomial(n+6, 6) * binomial(n+8, 6).",
   "id": "A107397",
   "mentions": [
+    "A033987",
     "A062196"
   ],
   "tags": [

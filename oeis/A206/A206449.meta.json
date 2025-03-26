@@ -1,5 +1,5 @@
 {
-  "description": "Values of sigma(p) of primes p such that sigma(p) = sigma(c) has solution for some composite number c.",
+  "description": "Values of sigma(p) of primes p such that sigma(p) = sigma(c) has a solution for some composite number c.",
   "id": "A206449",
   "mentions": [
     "A000203",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

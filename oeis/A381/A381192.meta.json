@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows. Properly color the vertices of a simple labeled graph on [n] using exactly n colors c_1=0, 0<=k<=binomial(n,2).",
+  "id": "A381192",
+  "mentions": [
+    "A005329",
+    "A011266",
+    "A381058",
+    "A381102"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

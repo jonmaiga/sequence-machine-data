@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows, T(n, k) = binomial(n, k) for n < 2 and binomial(n, k) + 2^(n-1) * binomial(n-2, k-1) otherwise.",
+  "description": "Triangle, read by rows, T(n, k) = binomial(n, k) for n < 2 and binomial(n, k) + n^(n-1) * binomial(n-2, k-1) otherwise.",
   "id": "A146990",
   "mentions": [
     "A028262"

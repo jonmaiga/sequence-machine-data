@@ -1,0 +1,16 @@
+{
+  "description": "Inverse permutation to A380181.",
+  "id": "A380182",
+  "mentions": [
+    "A380181"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

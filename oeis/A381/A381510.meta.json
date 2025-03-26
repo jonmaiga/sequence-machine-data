@@ -1,0 +1,19 @@
+{
+  "description": "Smaller of two consecutive primes p and q, both ending with 7, such that q - p = 10n, or -1 if no such primes exist.",
+  "id": "A381510",
+  "mentions": [
+    "A101232",
+    "A140791",
+    "A380785",
+    "A381372"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

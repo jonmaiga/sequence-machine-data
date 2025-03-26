@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of positive integers having 2n primitive roots.",
+  "id": "A380594",
+  "mentions": [
+    "A007617",
+    "A010554",
+    "A033948",
+    "A033949",
+    "A046144",
+    "A231772",
+    "A378506",
+    "A378508",
+    "A380604"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

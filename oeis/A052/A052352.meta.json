@@ -1,19 +1,27 @@
 {
-  "description": "First primes of A031924 (lesser of 6-twins) with increasing distance to the next 6-twin.",
+  "description": "Least prime in A031924 (lesser of 6-twins) such that the distance to the next 6-twin is 2*n.",
   "id": "A052352",
   "mentions": [
     "A031924",
+    "A052350",
+    "A052351",
+    "A052353",
+    "A052354",
+    "A052355",
+    "A052356",
+    "A052357",
+    "A052358",
+    "A052359",
     "A052380",
     "A052381",
     "A053321"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 44,
-    "source": "joeis"
+    "offset": 3,
+    "size": 46,
+    "source": "oeis-bfile"
   }
 }

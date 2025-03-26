@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes between sigma(n) and n.",
+  "description": "Number of primes between sigma(n) and n exclusive.",
   "id": "A074397",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

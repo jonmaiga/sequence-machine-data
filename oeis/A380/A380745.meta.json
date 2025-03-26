@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0; a(n) = the number of times a(n-1) has the same digits in common with a previous term, in any permutation.",
+  "id": "A380745",
+  "mentions": [
+    "A309261",
+    "A326834",
+    "A364788",
+    "A380690"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of constant arising in clubbed binomial approximation for the lightbulb process.",
   "id": "A200439",
-  "mentions": [],
+  "mentions": [
+    "A010684",
+    "A153284",
+    "A176040"
+  ],
   "tags": [
     "cons",
     "nonn"

@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n such that sigma(n) is the square of a prime.",
+  "description": "Numbers k such that sigma(k) is the square of a prime.",
   "id": "A074386",
   "mentions": [
     "A000203",
     "A001248",
     "A006532",
+    "A008848",
     "A023194",
     "A028982",
     "A065854",

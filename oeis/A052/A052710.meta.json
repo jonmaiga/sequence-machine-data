@@ -1,7 +1,10 @@
 {
-  "description": "A simple context-free grammar.",
+  "description": "A simple context-free grammar: difference between A049140 and its convolution square.",
   "id": "A052710",
-  "mentions": [],
+  "mentions": [
+    "A049140",
+    "A052708"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 29,
     "source": "joeis"
   }
 }

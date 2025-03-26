@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array read by descending antidiagonals: the Type 2 runlength index array of A000002 (the Kolakoski sequence); see Comments.",
+  "id": "A379047",
+  "mentions": [
+    "A000002",
+    "A000027",
+    "A003159",
+    "A010060",
+    "A036554",
+    "A072989",
+    "A285385",
+    "A379046"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

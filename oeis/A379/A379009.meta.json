@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2*n^2 XOR 1+sigma(n^2).",
+  "id": "A379009",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A003987",
+    "A033879",
+    "A038712",
+    "A065764",
+    "A336701",
+    "A378988",
+    "A378999",
+    "A379007"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

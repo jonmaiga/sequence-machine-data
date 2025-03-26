@@ -1,0 +1,16 @@
+{
+  "description": "Number of unlabeled endofunctions on n points whose self-referencing elements are mapped from another element.",
+  "id": "A381123",
+  "mentions": [
+    "A001372"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A151800((n-1)*A151800(n)).",
+  "id": "A380329",
+  "mentions": [
+    "A000040",
+    "A151800",
+    "A378135",
+    "A379405"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

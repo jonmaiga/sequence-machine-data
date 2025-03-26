@@ -1,11 +1,12 @@
 {
-  "description": "Primes modulo 28.",
+  "description": "a(n) = n-th prime modulo 28.",
   "id": "A242126",
   "mentions": [
     "A242119"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n + number of divisors is a prime.",
+  "description": "Numbers k such that k + number of divisors of k is a prime.",
   "id": "A067532",
   "mentions": [
     "A000005",

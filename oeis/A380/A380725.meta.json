@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers k whose sum of digits equals the square of their number of digits.",
+  "id": "A380725",
+  "mentions": [
+    "A007953",
+    "A061384"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

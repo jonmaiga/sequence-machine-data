@@ -1,11 +1,10 @@
 {
-  "description": "Largest prime < 100*a[n-1], a[1]=3.",
+  "description": "Largest prime < 100*a(n-1), a(1)=3.",
   "id": "A124357",
   "mentions": [
-    "A006902",
-    "A040016",
-    "A120031",
-    "A120041"
+    "A124262",
+    "A124263",
+    "A124339"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = 3*2^n + 2*n - 2.",
+  "id": "A381790",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

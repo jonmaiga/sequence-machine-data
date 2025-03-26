@@ -2,6 +2,7 @@
   "description": "Total number of OFF (white) cells after n iterations of the \"Rule 59\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A266725",
   "mentions": [
+    "A046092",
     "A266716"
   ],
   "tags": [

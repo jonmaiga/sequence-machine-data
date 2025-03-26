@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the second smallest prime not dividing k, where k runs over the positive integers (A380539).",
+  "id": "A381113",
+  "mentions": [
+    "A002110",
+    "A007504",
+    "A249270",
+    "A380539"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

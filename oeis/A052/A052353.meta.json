@@ -1,19 +1,27 @@
 {
-  "description": "First primes of A031926 (lesser of 8-twins) with increasing distance to the next 8-twin.",
+  "description": "Least prime in A031926 (lesser of 8-twins) whose distance to the next 8-twin is 6*n.",
   "id": "A052353",
   "mentions": [
     "A031926",
+    "A052350",
+    "A052351",
+    "A052352",
+    "A052354",
+    "A052355",
+    "A052356",
+    "A052357",
+    "A052358",
+    "A052359",
     "A052380",
     "A052381",
     "A053322"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 42,
-    "source": "joeis"
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,8 @@
   "description": "Number of 3 X 3 symmetric matrices with row and column sums <= n.",
   "id": "A244865",
   "mentions": [
-    "A002721"
+    "A002721",
+    "A019298"
   ],
   "tags": [
     "easy",

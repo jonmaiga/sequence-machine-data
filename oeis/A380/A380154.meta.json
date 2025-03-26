@@ -1,0 +1,21 @@
+{
+  "description": "Golden numbers, for the years of the Metonic cycle. Assigned to the full moon days of the year with the standard pattern of a Runic calendar. Days without assignment are represented by zero.",
+  "id": "A380154",
+  "mentions": [
+    "A057349",
+    "A098476",
+    "A131773",
+    "A348924",
+    "A349710"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

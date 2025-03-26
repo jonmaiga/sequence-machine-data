@@ -2,7 +2,10 @@
   "description": "a(n) = Sum_{p|n, p prime} p^omega(n/p).",
   "id": "A345355",
   "mentions": [
-    "A001221"
+    "A001221",
+    "A369741",
+    "A369744",
+    "A369907"
   ],
   "tags": [
     "formulas",
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

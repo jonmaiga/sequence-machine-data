@@ -1,0 +1,18 @@
+{
+  "description": "The reversing binary representation of the sum of the divisors of the n-th odd square: a(n) = A065621(A379223(n)).",
+  "id": "A379224",
+  "mentions": [
+    "A065621",
+    "A379221",
+    "A379223"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

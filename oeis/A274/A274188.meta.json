@@ -1,5 +1,5 @@
 {
-  "description": "Number n such that there is a smaller positive number j == n (mod 5) such that sqrt(j*n) is integer.",
+  "description": "Number n such that there is a smaller positive number j == n (mod 5) such that sqrt(j*n) is an integer.",
   "id": "A274188",
   "mentions": [
     "A046790",

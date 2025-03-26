@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unsensed combinatorial maps with n edges and k vertices, 1 <= k <= n + 1.",
+  "id": "A380616",
+  "mentions": [
+    "A006082",
+    "A053979",
+    "A054499",
+    "A214816",
+    "A277741",
+    "A380615",
+    "A380617",
+    "A380620",
+    "A380621"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

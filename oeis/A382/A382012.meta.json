@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a disdyakis triacontahedron.",
+  "id": "A382012",
+  "mentions": [
+    "A000796",
+    "A379708",
+    "A379709",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

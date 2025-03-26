@@ -1,0 +1,19 @@
+{
+  "description": "Number of Schroeder paths of semilength n up to reversal.",
+  "id": "A378939",
+  "mentions": [
+    "A006318",
+    "A007123",
+    "A110110",
+    "A378941"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

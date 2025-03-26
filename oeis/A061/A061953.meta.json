@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 24 (most significant digit on right).",
+  "description": "Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 24 (most significant digit on right, least significant zeros not written).",
   "id": "A061953",
   "mentions": [
     "A029447",

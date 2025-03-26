@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there is exactly one solution to the equation sigma(x)= 2^n, where sigma(x) denotes the sum of the divisors of x.",
+  "description": "Numbers k such that there is exactly one solution to the equation sigma(x) = 2^k, where sigma(x) denotes the sum of the divisors of x.",
   "id": "A283160",
   "mentions": [
     "A000043",
@@ -7,8 +7,7 @@
     "A046528",
     "A063883",
     "A078426",
-    "A247956",
-    "A283446"
+    "A247956"
   ],
   "tags": [
     "formulas",

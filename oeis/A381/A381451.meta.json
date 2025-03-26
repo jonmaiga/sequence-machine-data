@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the clique covering number of the Johnson graph J(n, k), n >= 2, 0 < k < n.",
+  "id": "A381451",
+  "mentions": [
+    "A000108",
+    "A002620"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

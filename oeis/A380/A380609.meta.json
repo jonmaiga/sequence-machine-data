@@ -1,0 +1,17 @@
+{
+  "description": "Primes a single step away from a cycle under the mapping p-> gpf(2*p+1).",
+  "id": "A380609",
+  "mentions": [
+    "A006530",
+    "A076565",
+    "A287865"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

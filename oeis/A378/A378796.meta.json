@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimal edge cuts in the n-sun graph.",
+  "id": "A378796",
+  "mentions": [
+    "A046717",
+    "A377770"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Smallest k greater than n such that (k^2-n^2, 2*k*n, k^2+n^2) is a primitive Pythagorean triple and the corresponding right triangle has a prime hypotenuse.",
   "id": "A089489",
   "mentions": [
+    "A027861",
     "A068487"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

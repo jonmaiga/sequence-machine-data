@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = C(n+4,4)*C(n+6,4).",
+  "description": "a(n) = binomial(n+4,4)*binomial(n+6,4).",
   "id": "A107395",
   "mentions": [
+    "A033987",
     "A062196"
   ],
   "tags": [

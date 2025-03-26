@@ -1,7 +1,10 @@
 {
   "description": "G.f.: (Product_{j>=1} 1/(1-q^j)^2 + Product_{j>=1} 1/(1-q^(2*j)))/2.",
   "id": "A281357",
-  "mentions": [],
+  "mentions": [
+    "A000712",
+    "A035363"
+  ],
   "tags": [
     "formulas",
     "nonn"

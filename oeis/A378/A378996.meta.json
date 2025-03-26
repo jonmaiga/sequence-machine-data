@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of sigma(2*n)/(2*n).",
+  "id": "A378996",
+  "mentions": [
+    "A017666",
+    "A336849",
+    "A341606",
+    "A378994",
+    "A378995"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

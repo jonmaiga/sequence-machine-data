@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (9*sqrt(65) - 55)/320.",
+  "id": "A379534",
+  "mentions": [
+    "A010517",
+    "A248866",
+    "A343851",
+    "A379533"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

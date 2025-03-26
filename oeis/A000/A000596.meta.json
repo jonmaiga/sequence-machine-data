@@ -1,5 +1,5 @@
 {
-  "description": "Central factorial numbers.",
+  "description": "Central factorial numbers: A008955(n,2).",
   "id": "A000596",
   "mentions": [
     "A000051",

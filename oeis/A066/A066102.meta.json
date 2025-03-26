@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct prime factors of Sigma_4[n], the sum of 4th powers of divisors of n.",
+  "description": "Number of distinct prime factors of sigma_4(n), the sum of the 4th powers of divisors of n.",
   "id": "A066102",
   "mentions": [
     "A001159",

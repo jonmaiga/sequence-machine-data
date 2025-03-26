@@ -1,0 +1,19 @@
+{
+  "description": "Absolute value of the minimum coefficient of (1 - x^2) * (1 - x^3) * (1 - x^5) * ... * (1 - x^prime(n)).",
+  "id": "A379976",
+  "mentions": [
+    "A046675",
+    "A086394",
+    "A350457",
+    "A350514",
+    "A367843"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

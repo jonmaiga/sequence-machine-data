@@ -6,16 +6,16 @@
     "A002174",
     "A002202",
     "A005117",
+    "A008683",
     "A013929",
     "A049200"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

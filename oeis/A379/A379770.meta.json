@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(j,k) read by rows: split the natural numbers m > 1 into groups of length 2^s and then sort each group in the order defined in A019565.",
+  "id": "A379770",
+  "mentions": [
+    "A000079",
+    "A019565"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

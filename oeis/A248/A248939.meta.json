@@ -1,8 +1,8 @@
 {
-  "description": "Table read by rows: row n lists the wrecker ball sequence starting with n, or contains -1 if 0 is never reached..",
+  "description": "Table read by rows: row n lists the wrecker ball sequence starting with n, or contains -1 if 0 is never reached.",
   "id": "A248939",
   "mentions": [
-    "A001532",
+    "A005132",
     "A228474",
     "A248940",
     "A248941",

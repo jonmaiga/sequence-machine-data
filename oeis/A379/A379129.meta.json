@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of unitary proper divisors d > 1 of n for which A048720(A065621(sigma(d)),sigma(n/d)) is equal to sigma(n).",
+  "id": "A379129",
+  "mentions": [
+    "A000203",
+    "A048720",
+    "A065621",
+    "A277320",
+    "A379113",
+    "A379114",
+    "A379118",
+    "A379121",
+    "A379130"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

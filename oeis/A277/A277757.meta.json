@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = 2^(6n+1).",
+  "description": "a(n) = 2^(6*n + 1).",
   "id": "A277757",
   "mentions": [
+    "A000079",
+    "A016921",
     "A089357"
   ],
   "tags": [

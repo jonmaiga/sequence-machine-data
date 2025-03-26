@@ -1,5 +1,5 @@
 {
-  "description": "Number of pairs x,y such that 0 < x <= y < n and x+y = n and x*y = kn for some k.",
+  "description": "Number of pairs x,y such that 0 < x <= y < n and x+y = n and x*y = k*n for some k.",
   "id": "A064727",
   "mentions": [
     "A005117",

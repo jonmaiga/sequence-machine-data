@@ -1,5 +1,5 @@
 {
-  "description": "Heptagonal numbers (or 7-gonal numbers): n*(5*n-3)/2 which are products of five distinct primes.",
+  "description": "Heptagonal numbers which are products of five distinct primes.",
   "id": "A353019",
   "mentions": [
     "A000566",

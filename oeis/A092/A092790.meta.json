@@ -2,7 +2,8 @@
   "description": "a(n) = (n+1)*phi(n-1)/2.",
   "id": "A092790",
   "mentions": [
-    "A082470"
+    "A082470",
+    "A378068"
   ],
   "tags": [
     "nonn"

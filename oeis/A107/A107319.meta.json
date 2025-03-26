@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = C(n+8,8)*C(n+6,6).",
+  "description": "a(n) = C(n+8,8) * C(n+6,6).",
   "id": "A107319",
-  "mentions": [],
+  "mentions": [
+    "A062196"
+  ],
   "tags": [
     "easy",
     "formulas",

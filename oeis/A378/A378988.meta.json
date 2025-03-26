@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = 2*n XOR 1+sigma(n), where XOR is bitwise-xor, A003987.",
+  "id": "A378988",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A000396",
+    "A003987",
+    "A028982",
+    "A028983",
+    "A038712",
+    "A100892",
+    "A235796",
+    "A294898",
+    "A294899",
+    "A318457",
+    "A318467",
+    "A336701",
+    "A378998",
+    "A379009"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

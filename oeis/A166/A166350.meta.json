@@ -1,9 +1,10 @@
 {
-  "description": "Table T(n,m) = m! read by rows.",
+  "description": "Triangle read by rows: T(n,m) = m!, n >= 1.",
   "id": "A166350",
   "mentions": [
     "A000142",
     "A002260",
+    "A007489",
     "A014454",
     "A077012",
     "A079210",

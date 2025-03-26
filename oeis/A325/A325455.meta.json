@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of connected graphs on n unlabeled nodes with circumference k, (n >= 3, k >= 3).",
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled nodes with circumference k, (n >= 3, k >= 3).",
   "id": "A325455",
   "mentions": [
     "A003216",

@@ -2,11 +2,21 @@
   "description": "Odd abundant numbers whose abundance is odd.",
   "id": "A156942",
   "mentions": [
+    "A005101",
+    "A005231",
     "A028982",
     "A033880",
     "A156903",
     "A156943",
-    "A174830"
+    "A174830",
+    "A325311",
+    "A347890",
+    "A379490",
+    "A379503",
+    "A379504",
+    "A379505",
+    "A379949",
+    "A379951"
   ],
   "tags": [
     "formulas",

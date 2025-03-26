@@ -1,7 +1,17 @@
 {
-  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with no increasing sequence of length 3 horizontally or diagonally downwards",
+  "description": "T(n,k) = number of (n+2) X (k+2) 0..3 arrays with no increasing sequence of length 3 vertically, diagonally downwards or antidiagonally downwards.",
   "id": "A234393",
-  "mentions": [],
+  "mentions": [
+    "A234380",
+    "A234389",
+    "A234390",
+    "A234391",
+    "A234392",
+    "A234394",
+    "A234395",
+    "A234396",
+    "A234397"
+  ],
   "tags": [
     "formulas",
     "nonn",

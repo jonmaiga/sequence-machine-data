@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers with monotonically increasing digits, increasing by only 0 or 1.",
+  "id": "A378774",
+  "mentions": [
+    "A028864",
+    "A378775"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

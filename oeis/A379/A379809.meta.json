@@ -1,0 +1,16 @@
+{
+  "description": "Coefficient of x^n in (3-sqrt(5+4*sqrt(1-36*x)))/12.",
+  "id": "A379809",
+  "mentions": [
+    "A051862"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

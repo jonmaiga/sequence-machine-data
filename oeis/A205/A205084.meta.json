@@ -1,7 +1,9 @@
 {
-  "description": "a(n)=n 4's sandwiched between two 1's.",
+  "description": "a(n) = n 4's sandwiched between two 1's.",
   "id": "A205084",
-  "mentions": [],
+  "mentions": [
+    "A002278"
+  ],
   "tags": [
     "base",
     "easy",

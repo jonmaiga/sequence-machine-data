@@ -6,12 +6,13 @@
     "A322216"
   ],
   "tags": [
+    "look",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 253,
+    "size": 136,
     "source": "oeis-bfile"
   }
 }

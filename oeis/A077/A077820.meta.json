@@ -1,9 +1,12 @@
 {
-  "description": "Probability P(n) of the occurrence of a 3-dimensional self-trapping walk of length n: exponent of 2 in the denominator.",
+  "description": "a(n) is the exponent of 2 in the denominator of the probability P(n) of the occurrence of a 3-dimensional self-trapping walk of length n.",
   "id": "A077820",
   "mentions": [
     "A077818",
-    "A077819"
+    "A077819",
+    "A377161",
+    "A377162",
+    "A378903"
   ],
   "tags": [
     "formulas",

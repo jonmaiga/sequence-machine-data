@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers n such that sigma(n) - 1 is prime.",
+  "description": "Composite numbers k such that sigma(k) - 1 is prime.",
   "id": "A066073",
   "mentions": [
     "A000040",
@@ -15,11 +15,12 @@
     "A248792"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

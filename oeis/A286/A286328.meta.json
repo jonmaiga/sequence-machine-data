@@ -1,5 +1,5 @@
 {
-  "description": "Least integer k such that the area of the triangle (prime(n), k, k+1) is integer.",
+  "description": "Least integer k such that the area of the triangle (prime(n), k, k+1) is an integer.",
   "id": "A286328",
   "mentions": [
     "A002496",

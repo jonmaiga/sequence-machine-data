@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that n*tau(n) is a perfect square.",
+  "description": "Numbers k such that k*tau(k) is a perfect square.",
   "id": "A069067",
-  "mentions": [],
+  "mentions": [
+    "A000005",
+    "A038040"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

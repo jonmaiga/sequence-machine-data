@@ -1,8 +1,10 @@
 {
-  "description": "Number of nonempty subsets S of the powerset of a set of size n, that have the even intersection property.",
+  "description": "Number of nonempty subsets S of the powerset of a set of size n that have the even intersection property.",
   "id": "A218384",
   "mentions": [
-    "A218383"
+    "A051179",
+    "A218383",
+    "A305737"
   ],
   "tags": [
     "formulas",

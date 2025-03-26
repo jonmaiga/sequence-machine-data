@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1/(exp(x) - x*exp(2*x))^2.",
+  "id": "A379997",
+  "mentions": [
+    "A092148",
+    "A358738",
+    "A377529",
+    "A379933",
+    "A379992"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

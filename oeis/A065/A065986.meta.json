@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that Sigma(n) = EulerPhi(n+1) + EulerPhi(n) + EulerPhi(n-1).",
+  "description": "Numbers k such that sigma(k) = phi(k+1) + phi(k) + phi(k-1).",
   "id": "A065986",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A000203"
   ],
   "tags": [
     "nonn"

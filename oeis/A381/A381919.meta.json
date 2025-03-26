@@ -1,0 +1,18 @@
+{
+  "description": "Pentagonal numbers which are products of four distinct primes.",
+  "id": "A381919",
+  "mentions": [
+    "A000326",
+    "A046386",
+    "A245365",
+    "A381650"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

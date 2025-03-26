@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree numbers of form prime + 1.",
+  "description": "Squarefree numbers of the form prime + 1.",
   "id": "A077067",
   "mentions": [
     "A000040",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

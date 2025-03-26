@@ -4,7 +4,8 @@
   "mentions": [
     "A003173",
     "A014708",
-    "A056581"
+    "A056581",
+    "A138852"
   ],
   "tags": [
     "sign"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 5,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

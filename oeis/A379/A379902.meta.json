@@ -1,0 +1,19 @@
+{
+  "description": "Indices of local maxima in A342042: numbers k such that A342042(k-1) < A342042(k) > A342042(k+1), for k >= 2.",
+  "id": "A379902",
+  "mentions": [
+    "A342042",
+    "A379901",
+    "A379903",
+    "A379904"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

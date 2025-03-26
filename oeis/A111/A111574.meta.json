@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-1) + a(n-3) + a(n-4), n >= 4.",
+  "description": "a(n) = a(n-1) + a(n-3) + a(n-4), n >= 4, with initial terms 1,-1,2,3.",
   "id": "A111574",
   "mentions": [
     "A001638",

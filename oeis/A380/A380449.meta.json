@@ -1,0 +1,26 @@
+{
+  "description": "Odd squares k for which A339792(k), the third coefficient of the lindep transform of sigma, is 0.",
+  "id": "A380449",
+  "mentions": [
+    "A000203",
+    "A005820",
+    "A016754",
+    "A339790",
+    "A339791",
+    "A339792",
+    "A347391",
+    "A380446",
+    "A380447",
+    "A380448",
+    "A380450"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

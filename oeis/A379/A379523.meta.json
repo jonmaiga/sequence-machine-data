@@ -1,0 +1,21 @@
+{
+  "description": "Sum of coreful divisors d | k such that gcd(d, k/d) > 1 and rad(d) = rad(k/d), with d | k/d and d < d/k, where k is in A320966 and rad = A007947.",
+  "id": "A379523",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A007947",
+    "A246549",
+    "A320966",
+    "A364988"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

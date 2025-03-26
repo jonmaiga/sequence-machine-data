@@ -2,6 +2,7 @@
   "description": "Denominator of Sum_{k=1..n} phi(k)/k^4.",
   "id": "A072161",
   "mentions": [
+    "A000010",
     "A072160"
   ],
   "tags": [

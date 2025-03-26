@@ -1,0 +1,20 @@
+{
+  "description": "Odd abundant numbers that are also doublets (cf. A020338).",
+  "id": "A380232",
+  "mentions": [
+    "A005101",
+    "A005231",
+    "A020338",
+    "A064001",
+    "A380233"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Number of multisets E(n) generable by the following procedure: E(0) = { 0, 0, ... }; to get an E(n+1) from an E(n), first increment all elements then optionally choose an x and a y and replace them with 0 and x+y.",
+  "id": "A378734",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

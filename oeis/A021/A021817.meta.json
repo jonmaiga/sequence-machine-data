@@ -1,14 +1,17 @@
 {
   "description": "Decimal expansion of 1/813.",
   "id": "A021817",
-  "mentions": [],
+  "mentions": [
+    "A021275"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 99,
+    "size": 100,
     "source": "joeis"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Number of 1's required to build n using +, /, and ^.",
+  "id": "A378759",
+  "mentions": [
+    "A000027",
+    "A005245",
+    "A025280",
+    "A091333",
+    "A091334",
+    "A348089",
+    "A348262",
+    "A378758"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

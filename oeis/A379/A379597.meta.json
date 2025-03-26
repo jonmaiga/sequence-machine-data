@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct solution sets to the quadratic equations u*x^2 + v*x + w = 0 with integer coefficients u, v, w, abs(u) + abs(v) + abs(w) <= n having a nonnegative discriminant.",
+  "id": "A379597",
+  "mentions": [
+    "A067274",
+    "A091626",
+    "A091627",
+    "A364384",
+    "A364385",
+    "A365876",
+    "A365877",
+    "A381710",
+    "A381711"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

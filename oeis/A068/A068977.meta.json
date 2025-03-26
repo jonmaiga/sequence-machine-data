@@ -1,9 +1,11 @@
 {
-  "description": "Numbers k such that Sum_{d|k} d/tau(d) is an integer, where tau(x)=A000005(x).",
+  "description": "Numbers k such that Sum_{d|k} d/tau(d) is an integer, where tau(x) = A000005(x).",
   "id": "A068977",
   "mentions": [
     "A000005",
-    "A182463"
+    "A182463",
+    "A324503",
+    "A324504"
   ],
   "tags": [
     "easy",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

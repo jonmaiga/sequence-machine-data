@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sequences in which the games of a single-elimination tournament with n teams can be played if arbitrarily many arenas are available, the tournament bracket is chosen to the bracket with the largest such number of sequences, and the number of distinct times at which games are played is k, log_2(n) <= k <= n-1.",
+  "id": "A378855",
+  "mentions": [
+    "A001190",
+    "A056971",
+    "A380166",
+    "A380767"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

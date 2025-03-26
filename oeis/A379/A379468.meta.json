@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(3)/(4 - sqrt(2)).",
+  "id": "A379468",
+  "mentions": [
+    "A002193",
+    "A002194"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

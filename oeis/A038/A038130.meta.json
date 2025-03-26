@@ -2,6 +2,7 @@
   "description": "Beatty sequence for 2*Pi.",
   "id": "A038130",
   "mentions": [
+    "A004082",
     "A022844",
     "A108586",
     "A108592",

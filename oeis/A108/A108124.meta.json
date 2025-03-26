@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. x/(1+sin(x)).",
+  "description": "Expansion of e.g.f. x/(1+sin(x)).",
   "id": "A108124",
   "mentions": [
     "A186365"

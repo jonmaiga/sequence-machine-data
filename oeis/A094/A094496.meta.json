@@ -1,5 +1,5 @@
 {
-  "description": "a[n]=C[n,j]-Mod[C[n,j],n^2], difference of binomial coefficients and its residue mod n^2 read by rows.",
+  "description": "Triangle read by rows: T(n,k) = binomial(n,k) - binomial(n,k) mod n^2, with T(0,0) = 1.",
   "id": "A094496",
   "mentions": [
     "A007318",
@@ -9,12 +9,14 @@
   ],
   "tags": [
     "easy",
+    "formulas",
+    "less",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 87,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

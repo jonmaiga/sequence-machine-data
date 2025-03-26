@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^3 * 2^n * binomial(3*n, n) / 3.",
+  "id": "A378781",
+  "mentions": [
+    "A002117",
+    "A005809",
+    "A006752",
+    "A128789",
+    "A378778",
+    "A378780"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

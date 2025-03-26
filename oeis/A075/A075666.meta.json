@@ -2,9 +2,10 @@
   "description": "Sum of next n 5th powers.",
   "id": "A075666",
   "mentions": [
+    "A000584",
+    "A069876",
     "A072474",
     "A075664",
-    "A075670",
     "A075671"
   ],
   "tags": [

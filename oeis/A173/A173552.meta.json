@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 5+38*n^2 is a prime.",
+  "description": "Numbers k such that 5+38*k^2 is a prime.",
   "id": "A173552",
   "mentions": [
     "A173553",

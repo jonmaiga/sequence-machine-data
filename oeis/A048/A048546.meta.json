@@ -1,5 +1,5 @@
 {
-  "description": "Smallest oblong (promic) number containing exactly n 8's.",
+  "description": "Smallest oblong (pronic) number containing exactly n 8's.",
   "id": "A048546",
   "mentions": [
     "A002378",

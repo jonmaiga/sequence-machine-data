@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k^2 is abundant.",
+  "id": "A381738",
+  "mentions": [
+    "A005101",
+    "A063734",
+    "A174830",
+    "A334166",
+    "A363171",
+    "A381739",
+    "A381740",
+    "A381741",
+    "A381742"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

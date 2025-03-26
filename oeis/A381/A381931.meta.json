@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array T(n, k) read by rows: denominators of the coefficients for the iterated exponential F^{r}(x) = x + Sum_{n>=1} x^(n+1)*Sum_{k=1..n} r^(n+1-k)*A381932(n, k)/T(n, k) with F^{1}(x) = exp(x)-1 and F^{2}(x) = exp(exp(x)-1)-1.",
+  "id": "A381931",
+  "mentions": [
+    "A052104",
+    "A052105",
+    "A052122",
+    "A052123",
+    "A144150",
+    "A180609",
+    "A184011",
+    "A381932"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

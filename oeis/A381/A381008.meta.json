@@ -1,0 +1,21 @@
+{
+  "description": "Ordered perimeters of the Pythagorean triangles defined by a = 2^(4n) + 2^(2n+1), b = 2^(4n) - 2^(4n-2) - 2^(2n) - 1, c = 2^(4n) + 2^(4n-2) + 2^(2n) + 1.",
+  "id": "A381008",
+  "mentions": [
+    "A024364",
+    "A381005",
+    "A381006",
+    "A381007",
+    "A381009"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

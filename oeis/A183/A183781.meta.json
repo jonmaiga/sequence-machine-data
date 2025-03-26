@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of (n+1)X9 binary arrays with no 2X2 subblock having exactly 2 ones",
+  "description": "Half the number of (n+1) X 9 binary arrays with no 2 X 2 subblock having exactly 2 ones.",
   "id": "A183781",
   "mentions": [
     "A183782"
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 14,
+    "offset": 0,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

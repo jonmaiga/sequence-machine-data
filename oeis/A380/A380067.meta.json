@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies 0 = Sum_{n=-oo..+oo} (-x)^n * (A(x) - (-x)^n)^(3*n+1).",
+  "id": "A380067",
+  "mentions": [
+    "A380068"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

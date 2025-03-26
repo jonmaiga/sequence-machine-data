@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a pentagonal hexecontahedron.",
+  "id": "A382013",
+  "mentions": [
+    "A000796",
+    "A379888",
+    "A379889",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

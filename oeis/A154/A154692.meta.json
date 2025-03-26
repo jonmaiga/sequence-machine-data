@@ -1,9 +1,18 @@
 {
-  "description": "Triangle T(n,m) = (2^(n-m)*3^m + 2^m*3^(n-m))*binomial(n, m) read by rows, 0 <= m <= n.",
+  "description": "Triangle read by rows: T(n, k) = (2^(n-k)*3^k + 2^k*3^(n-k))*binomial(n, k).",
   "id": "A154692",
   "mentions": [
+    "A000225",
+    "A007318",
+    "A007482",
+    "A010673",
     "A013620",
-    "A020729"
+    "A015518",
+    "A020699",
+    "A020729",
+    "A088137",
+    "A119309",
+    "A154690"
   ],
   "tags": [
     "easy",
@@ -13,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 45,
     "source": "joeis"
   }
 }

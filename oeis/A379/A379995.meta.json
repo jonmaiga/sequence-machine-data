@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(-2*x)/(exp(-x) - x)^4.",
+  "id": "A379995",
+  "mentions": [
+    "A358738",
+    "A379943",
+    "A379993",
+    "A379994",
+    "A379996"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

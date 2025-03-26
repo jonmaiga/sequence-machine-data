@@ -1,0 +1,21 @@
+{
+  "description": "Deficiency of even numbers: a(n) = 4*n - sigma(2*n).",
+  "id": "A378978",
+  "mentions": [
+    "A000203",
+    "A033879",
+    "A062731",
+    "A344587",
+    "A377879",
+    "A378979"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

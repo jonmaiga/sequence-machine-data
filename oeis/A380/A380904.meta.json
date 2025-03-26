@@ -1,0 +1,16 @@
+{
+  "description": "An integer sequence giving a counterexample to a theorem of Szüsz and Volkmann.",
+  "id": "A380904",
+  "mentions": [
+    "A008592"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

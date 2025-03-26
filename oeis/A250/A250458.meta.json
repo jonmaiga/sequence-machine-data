@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(4+2) 0..2 arrays with nondecreasing maximum of every three consecutive values in every row and column",
+  "description": "Number of (n+2) X (4+2) 0..2 arrays with nondecreasing maximum of every three consecutive values in every row and column.",
   "id": "A250458",
   "mentions": [
     "A250459"

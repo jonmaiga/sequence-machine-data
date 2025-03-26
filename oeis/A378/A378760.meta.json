@@ -1,0 +1,17 @@
+{
+  "description": "Smallest sum b_1 + .. + b_k among the sequences of positive integers b_1, b_2, ..., b_k such that 1 + b_1*(1 + b_2*(...(1 + b_k) ... )) = n.",
+  "id": "A378760",
+  "mentions": [
+    "A003238"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

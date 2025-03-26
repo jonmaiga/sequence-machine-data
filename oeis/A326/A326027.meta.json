@@ -1,5 +1,5 @@
 {
-  "description": "Number of subsets of {1..n} whose geometric mean is an integer.",
+  "description": "Number of nonempty subsets of {1..n} whose geometric mean is an integer.",
   "id": "A326027",
   "mentions": [
     "A051293",
@@ -13,14 +13,17 @@
     "A326622",
     "A326623",
     "A326624",
-    "A326625"
+    "A326625",
+    "A357413",
+    "A357414"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 57,
-    "source": "oeis-entry"
+    "size": 81,
+    "source": "oeis-bfile"
   }
 }

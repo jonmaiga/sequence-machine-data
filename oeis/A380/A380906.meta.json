@@ -1,0 +1,20 @@
+{
+  "description": "Primes avoiding the digits 3 and 5.",
+  "id": "A380906",
+  "mentions": [
+    "A000040",
+    "A020462",
+    "A038611",
+    "A038613",
+    "A329760"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

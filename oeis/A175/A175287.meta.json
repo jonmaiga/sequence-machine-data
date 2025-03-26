@@ -2,6 +2,7 @@
   "description": "Partial sums of ceiling(n^2/4).",
   "id": "A175287",
   "mentions": [
+    "A004006",
     "A004652",
     "A361272"
   ],

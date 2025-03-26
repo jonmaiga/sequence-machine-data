@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected graphs with n nodes.",
+  "description": "Number of simple connected graphs on n unlabeled nodes.",
   "id": "A001349",
   "mentions": [
     "A000055",

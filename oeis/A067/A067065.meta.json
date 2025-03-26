@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(sigma(sigma(n))) == 6*sigma(n).",
+  "description": "Numbers k such that sigma(sigma(sigma(k))) == 6*sigma(k).",
   "id": "A067065",
   "mentions": [],
   "tags": [

@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence with a(0) = 0 and a(n) = a(n + a(n)) - a(n - a(n)) > 0.",
+  "id": "A381003",
+  "mentions": [
+    "A110654"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

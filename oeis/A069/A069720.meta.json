@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-1)*binomial(2n-1, n).",
+  "description": "a(n) = 2^(n-1)*binomial(2*n-1, n).",
   "id": "A069720",
   "mentions": [
     "A000079",

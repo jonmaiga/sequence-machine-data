@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 4*(8 - 4*sqrt(2) - log(2))/(2*sqrt(2) - 1).",
+  "id": "A378800",
+  "mentions": [
+    "A002162",
+    "A002193",
+    "A010466",
+    "A010487"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

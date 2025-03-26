@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion the even Bessel moment s(4,0) = Integral_{0..inf} I_0(x) K_0(x)^3 dx.",
+  "description": "Decimal expansion the even Bessel moment s(4,0) = Integral_{x=0..oo} I_0(x)*K_0(x)^3 dx.",
   "id": "A273951",
   "mentions": [
     "A222068"

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. (1 - sqrt(1 - 1728*x))/(864*x).",
+  "id": "A381195",
+  "mentions": [
+    "A009971",
+    "A277757"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the sum of the widths of the free polyominoes with n cells and width k, n >= 1, 1 <= k <= ceiling(n/2).",
+  "id": "A379637",
+  "mentions": [
+    "A000105",
+    "A110654",
+    "A379623",
+    "A379625",
+    "A379626",
+    "A379627",
+    "A379638"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

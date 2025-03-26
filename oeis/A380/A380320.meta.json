@@ -1,0 +1,16 @@
+{
+  "description": "First differences of A377092.",
+  "id": "A380320",
+  "mentions": [
+    "A377092"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

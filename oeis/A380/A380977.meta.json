@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,m) (1<=m<=n.) = number of surjections f:[n]->[m] with f(n)!=f(j), j",
+  "id": "A380977",
+  "mentions": [
+    "A005649",
+    "A048993",
+    "A068293",
+    "A131689"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

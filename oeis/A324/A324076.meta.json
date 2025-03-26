@@ -1,5 +1,5 @@
 {
-  "description": "Integers which are the sum of distinct primes of the form 6n-1.",
+  "description": "Integers which are the sum of distinct primes of the form 6*n - 1.",
   "id": "A324076",
   "mentions": [
     "A002144",
@@ -12,6 +12,8 @@
     "A048265"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

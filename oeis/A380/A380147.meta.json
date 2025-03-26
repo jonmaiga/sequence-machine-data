@@ -1,0 +1,18 @@
+{
+  "description": "Number of isoclinism classes of groups of order n.",
+  "id": "A380147",
+  "mentions": [
+    "A051532",
+    "A241276",
+    "A318895"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

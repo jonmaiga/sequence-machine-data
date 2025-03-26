@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..p-1} floor(k^p/p) where p is prime(n).",
+  "id": "A380970",
+  "mentions": [
+    "A078837",
+    "A361559"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

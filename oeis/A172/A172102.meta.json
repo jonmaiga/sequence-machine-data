@@ -1,16 +1,13 @@
 {
-  "description": "Prime partial sums of Chen primes (starting with 1).",
+  "description": "Primes in A118482.",
   "id": "A172102",
   "mentions": [
-    "A000040",
     "A001358",
-    "A013916",
     "A109611",
     "A118482"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,12 +2,13 @@
   "description": "Triangular array read by rows: T(n,k) is the number of nilpotent n X n matrices over GF(2) having rank k, 0 <= k <= n-1, n >= 1.",
   "id": "A346412",
   "mentions": [
-    "A001037",
+    "A002884",
     "A053763",
     "A083402",
     "A134057"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

@@ -1,0 +1,21 @@
+{
+  "description": "Perimeter of the Sierpiński carpet at iteration n.",
+  "id": "A381517",
+  "mentions": [
+    "A001018",
+    "A113210",
+    "A271939",
+    "A293143",
+    "A365606"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

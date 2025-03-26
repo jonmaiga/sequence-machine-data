@@ -1,0 +1,19 @@
+{
+  "description": "List of numbers of the form i + 3*j + 4*i*j for i, j >= 1.",
+  "id": "A380549",
+  "mentions": [
+    "A047845",
+    "A072668",
+    "A380509",
+    "A380550"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

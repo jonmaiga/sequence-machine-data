@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of coalescent histories for an n-leaf caterpillar species tree and an identically labeled k-pseudocaterpillar gene tree, 3 <= k <= n.",
+  "id": "A380766",
+  "mentions": [
+    "A000245",
+    "A306423"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

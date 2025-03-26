@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of the Möbius transform of A005187, where A005187(n) = 2*n - (number of 1's in binary representation of n).",
+  "id": "A378991",
+  "mentions": [
+    "A005187",
+    "A297111",
+    "A346237",
+    "A378989",
+    "A378990"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

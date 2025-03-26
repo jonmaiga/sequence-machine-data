@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the legs of the unique primitive Pythagorean triple whose inradius is A002315(n) and such that its long leg and its hypotenuse are consecutive natural numbers.",
+  "id": "A379509",
+  "mentions": [
+    "A002315",
+    "A377025",
+    "A377725",
+    "A378380",
+    "A378386"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

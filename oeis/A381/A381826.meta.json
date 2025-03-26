@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = C(x) / (1 - x*A(x)^2), where C(x) is the g.f. of A000108.",
+  "id": "A381826",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A129442",
+    "A381827"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

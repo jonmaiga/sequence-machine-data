@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A163801(n) mod 2.",
+  "id": "A379275",
+  "mentions": [
+    "A163801",
+    "A171587",
+    "A379184",
+    "A379274"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

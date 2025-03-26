@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma(A380303(n)).",
+  "id": "A380304",
+  "mentions": [
+    "A000203",
+    "A206036",
+    "A206421",
+    "A211656",
+    "A241480",
+    "A241481",
+    "A241625",
+    "A380303"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

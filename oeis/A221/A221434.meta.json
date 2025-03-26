@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 1..(max n,4) arrays with each row and column having unrepeated values",
+  "description": "Number of n X 4 1..(max n,4) arrays with each row and column having unrepeated values.",
   "id": "A221434",
   "mentions": [
     "A221438"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

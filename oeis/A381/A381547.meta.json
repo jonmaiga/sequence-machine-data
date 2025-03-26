@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers with an odd number of abundant divisors.",
+  "id": "A381547",
+  "mentions": [
+    "A005231",
+    "A005408",
+    "A006038",
+    "A080224",
+    "A187795",
+    "A381546",
+    "A381548",
+    "A381549"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

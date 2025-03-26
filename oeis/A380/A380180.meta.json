@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..2^A005812(n); the n-th row lists the integers m (possibly negative) such that the nonzero digits in the balanced ternary expansion of m appear in the balanced ternary expansion of n.",
+  "id": "A380180",
+  "mentions": [
+    "A005812",
+    "A060372",
+    "A060373",
+    "A368239",
+    "A380123",
+    "A380181"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

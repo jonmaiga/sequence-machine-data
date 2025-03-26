@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) is the smallest unused number such that a(n) AND a(n-1) = 0, where AND is the binary AND operation, while the binary weight of a(n) does not equal that of a(n-1).",
+  "id": "A381405",
+  "mentions": [
+    "A000120",
+    "A057168",
+    "A061712",
+    "A129760",
+    "A381406"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

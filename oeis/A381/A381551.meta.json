@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2*n X 4 binary arrays with row sums 2 and column sums n, avoiding the patterns 010 and 101 in any row and column.",
+  "id": "A381551",
+  "mentions": [
+    "A001622",
+    "A381553",
+    "A381554"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

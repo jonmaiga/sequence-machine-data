@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies 1 - A'(x)^2 + 4*A(x)^3 = 0.",
+  "id": "A381359",
+  "mentions": [
+    "A104133",
+    "A104134",
+    "A381360"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

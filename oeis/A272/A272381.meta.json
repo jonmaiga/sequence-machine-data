@@ -2,6 +2,7 @@
   "description": "Primes p == 1 (mod 3) for which A261029(10*p) = 2.",
   "id": "A272381",
   "mentions": [
+    "A030096",
     "A261029"
   ],
   "tags": [

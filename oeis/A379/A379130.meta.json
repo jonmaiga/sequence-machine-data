@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of unitary divisors d of n for which A048720(A065621(sigma(d)),sigma(n/d)) is equal to sigma(n).",
+  "id": "A379130",
+  "mentions": [
+    "A000203",
+    "A034444",
+    "A046528",
+    "A048720",
+    "A065621",
+    "A277320",
+    "A325565",
+    "A379113",
+    "A379129"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

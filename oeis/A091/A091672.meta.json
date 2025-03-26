@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (4*(18+12*sqrt(2)-10*sqrt(3)-7*sqrt(6))*EllipticK((2-sqrt(3))^2*(-sqrt(2)+sqrt(3))^2)^2)/Pi^2.",
+  "description": "Decimal expansion of (4*(18+12*sqrt(2)-10*sqrt(3)-7*sqrt(6)))*EllipticK((2-sqrt(3))*(-sqrt(2)+sqrt(3)))^2/Pi^2.",
   "id": "A091672",
   "mentions": [
     "A091670",

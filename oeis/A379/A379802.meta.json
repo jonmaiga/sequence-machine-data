@@ -1,0 +1,21 @@
+{
+  "description": "Indices k such that A377091(k) is immediately followed by A377091(k+1) = -A377091(k).",
+  "id": "A379802",
+  "mentions": [
+    "A377091",
+    "A379066",
+    "A379788",
+    "A379794",
+    "A379803",
+    "A379804",
+    "A380837"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

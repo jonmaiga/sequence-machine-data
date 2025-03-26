@@ -1,9 +1,10 @@
 {
-  "description": "Class numbers of cubic fields.",
+  "description": "Class numbers of Shanks' simplest cubic fields.",
   "id": "A005472",
   "mentions": [
     "A003136",
     "A005471",
+    "A005474",
     "A175282"
   ],
   "tags": [

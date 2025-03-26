@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^n mod prime(n), or 2^n = k*prime(n) + a(n) with integer k.",
+  "description": "a(n) = 2^n mod prime(n).",
   "id": "A064367",
   "mentions": [
     "A000040",

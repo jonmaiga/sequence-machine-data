@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sequences in which the games of a fully symmetric single-elimination tournament with 2^n teams can be played if arbitrarily many arenas are available and the number of distinct times at which games are played is k, 1 <= k <= 2^n-1.",
+  "id": "A380166",
+  "mentions": [
+    "A000325",
+    "A056972",
+    "A379758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,12 +1,13 @@
 {
-  "description": "Triangular numbers obtained as the concatenation of 2n and n.",
+  "description": "Triangular numbers obtained as the concatenation of 2*k and k.",
   "id": "A226742",
   "mentions": [
     "A003098",
     "A068899",
     "A226772",
     "A226788",
-    "A226789"
+    "A226789",
+    "A380792"
   ],
   "tags": [
     "base",
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

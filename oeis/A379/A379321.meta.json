@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 8405139762/2675439081.",
+  "id": "A379321",
+  "mentions": [
+    "A000796",
+    "A221185",
+    "A379276",
+    "A379322",
+    "A379323",
+    "A379324"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: T(n, m) is the maximal size of partitions of (n, m) into sums of distinct pairs of nonnegative integers, excluding (0, 0).",
+  "id": "A378126",
+  "mentions": [
+    "A003056",
+    "A054242",
+    "A086435",
+    "A201377",
+    "A378379"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of unlabeled series-reduced 2-connected graphs with n nodes and k edges (n >= 4, ceiling(3*n/2) <= k <= n*(n-1)/2).",
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled simple series-reduced 2-connected graphs with n nodes and k edges (n >= 4, ceiling(3*n/2) <= k <= n*(n-1)/2).",
   "id": "A339069",
   "mentions": [
     "A006289",

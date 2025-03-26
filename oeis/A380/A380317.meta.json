@@ -1,0 +1,18 @@
+{
+  "description": "The lexicographically earliest sequence of positive numbers which is identical to the run lengths of its first differences.",
+  "id": "A380317",
+  "mentions": [
+    "A281579",
+    "A281900"
+  ],
+  "tags": [
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

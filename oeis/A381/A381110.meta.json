@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximum number of points from the set {(k, f(k)); k = 0..n} belonging to a straight line passing through the point (n, f(n)), where f(n) = A060143(n) = floor(n/phi) and phi is the golden ratio (sqrt(5)+1)/2.",
+  "id": "A381110",
+  "mentions": [
+    "A060143",
+    "A066096",
+    "A375422",
+    "A381111"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x * A(x)^(3/2) * (1 + A(x)^(3/2)).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x * A(x)^(3/2) * (1 + A(x)^(3/2)).",
   "id": "A370474",
   "mentions": [
     "A006013",

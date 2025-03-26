@@ -2,7 +2,8 @@
   "description": "Positions in A089959 where 4 occurs.",
   "id": "A089960",
   "mentions": [
-    "A089959"
+    "A089959",
+    "A094214"
   ],
   "tags": [
     "formulas",

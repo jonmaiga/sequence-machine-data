@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A255978(n) + 1.",
+  "id": "A377368",
+  "mentions": [
+    "A255978"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "E.g.f. = 1/(1-sinh(x))^2",
+  "description": "Expansion of e.g.f. 1/(1 - sinh(x))^2.",
   "id": "A107404",
   "mentions": [
     "A000557",
-    "A006154"
+    "A006154",
+    "A136630"
   ],
   "tags": [
     "formulas",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 22,
     "source": "joeis"
   }
 }

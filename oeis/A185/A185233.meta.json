@@ -1,8 +1,9 @@
 {
-  "description": "Side of triangle of smaller member of a pair of triangular numbers whose sum and difference are triangular.",
+  "description": "A185129(n) is the a(n)-th triangular number.",
   "id": "A185233",
   "mentions": [
     "A000217",
+    "A185122",
     "A185128",
     "A185129",
     "A185223",

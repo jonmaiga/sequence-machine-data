@@ -1,0 +1,51 @@
+{
+  "description": "Number of multisets that can be obtained by taking the sum of each block of a multiset partition of the prime indices of n into distinct constant blocks.",
+  "id": "A381715",
+  "mentions": [
+    "A000688",
+    "A000720",
+    "A001055",
+    "A001222",
+    "A002846",
+    "A003963",
+    "A005117",
+    "A006171",
+    "A045778",
+    "A046099",
+    "A050326",
+    "A050342",
+    "A050361",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A213242",
+    "A213385",
+    "A279784",
+    "A293511",
+    "A295935",
+    "A299202",
+    "A300383",
+    "A300385",
+    "A317141",
+    "A317142",
+    "A355731",
+    "A362421",
+    "A381441",
+    "A381452",
+    "A381453",
+    "A381455",
+    "A381635",
+    "A381636",
+    "A381716",
+    "A381870"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

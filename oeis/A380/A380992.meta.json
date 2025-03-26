@@ -1,0 +1,17 @@
+{
+  "description": "Powers of two which produce a prime number when their digits are reversed.",
+  "id": "A380992",
+  "mentions": [
+    "A057708"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

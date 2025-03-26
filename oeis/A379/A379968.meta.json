@@ -1,0 +1,21 @@
+{
+  "description": "Characteristic function of A279029, numbers k with the property that the smallest and the largest Dyck path of the symmetric representation of sigma(k) do not share line segments.",
+  "id": "A379968",
+  "mentions": [
+    "A174973",
+    "A237593",
+    "A262259",
+    "A279029",
+    "A279228",
+    "A365429"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

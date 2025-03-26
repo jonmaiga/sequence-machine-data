@@ -7,11 +7,12 @@
     "A096232"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 6,
-    "source": "oeis-entry"
+    "offset": -5,
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

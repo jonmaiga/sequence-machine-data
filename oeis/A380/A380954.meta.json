@@ -1,0 +1,16 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/( 1 - x * cosh(x * A(x)^(1/2)) / A(x) ).",
+  "id": "A380954",
+  "mentions": [
+    "A185951"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

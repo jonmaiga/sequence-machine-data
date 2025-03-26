@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3-k^3 is a square for some k0.",
+  "description": "Numbers m such that m^3 - k^3 is a square for some k < m, k > 0.",
   "id": "A228946",
   "mentions": [
     "A001922",
@@ -10,9 +10,11 @@
     "A038596",
     "A038597",
     "A038598",
+    "A066648",
     "A071954"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

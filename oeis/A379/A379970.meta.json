@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is twice its squarefree kernel (A007949), otherwise 0.",
+  "id": "A379970",
+  "mentions": [
+    "A007947",
+    "A007949",
+    "A008966",
+    "A081770",
+    "A092742",
+    "A280292",
+    "A379966"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

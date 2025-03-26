@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer not yet in the sequence such that a(n) is relatively prime to a(n-i) for all 1 <= i <= min(a(n), n-1).",
+  "id": "A381019",
+  "mentions": [
+    "A379810",
+    "A381115",
+    "A381120",
+    "A381167"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

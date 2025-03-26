@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that a(n) is the length of the n-th run of consecutive, equal terms and no two runs have the same sum.",
+  "id": "A381894",
+  "mentions": [
+    "A000002",
+    "A331910",
+    "A382028"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

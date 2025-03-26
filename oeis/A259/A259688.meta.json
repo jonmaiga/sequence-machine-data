@@ -1,10 +1,11 @@
 {
-  "description": "Related to Euler numbers.",
+  "description": "Related to Euler numbers, expansion of e.g.f. tan(x)^2.",
   "id": "A259688",
   "mentions": [
     "A000108",
     "A000111",
-    "A002735"
+    "A002735",
+    "A024283"
   ],
   "tags": [
     "formulas",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

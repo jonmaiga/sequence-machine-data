@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 1..(max n,k) arrays with each row and column having unrepeated values",
+  "description": "T(n,k) is the number of n X k 1..(max n,k) arrays with each row and column having unrepeated values.",
   "id": "A221438",
   "mentions": [
     "A000142",

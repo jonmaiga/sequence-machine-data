@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( 2 * sin(x * A(x)) / A(x) ).",
+  "id": "A381414",
+  "mentions": [
+    "A136630",
+    "A381413"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AFG = Afghanite (Na2,Ca,K2)12 [ Al24Si24O96 ].",
+  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AFG = Afghanite (Na2,Ca,K2)12[Al24Si24O96] starting with a T2 atom.",
   "id": "A018953",
   "mentions": [],
   "tags": [

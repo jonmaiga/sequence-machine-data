@@ -1,18 +1,21 @@
 {
-  "description": "Given the number wheel 0,1,2,3,4,5,6,7,8,9 then starting with 0, the next number is a prime p number of positions from the previous number found, for p=2,3,...",
+  "description": "Final digit of the sum of the first n primes.",
   "id": "A096319",
   "mentions": [
+    "A007504",
+    "A010879",
     "A096316",
     "A096320"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 105,
+    "size": 106,
     "source": "oeis-entry"
   }
 }

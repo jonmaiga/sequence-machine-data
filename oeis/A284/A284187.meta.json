@@ -6,14 +6,15 @@
     "A152454",
     "A283152",
     "A284147",
-    "A284156"
+    "A284156",
+    "A363461"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

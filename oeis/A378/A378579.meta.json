@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies x = Sum_{n>=1} ((1 + A(x)^n)^n - 1).",
+  "id": "A378579",
+  "mentions": [
+    "A318636"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

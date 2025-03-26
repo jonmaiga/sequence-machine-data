@@ -1,7 +1,11 @@
 {
   "description": "Number of k, 1<=k<=n, such that phi(k) divides k.",
   "id": "A069924",
-  "mentions": [],
+  "mentions": [
+    "A007694",
+    "A062153",
+    "A071521"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (2n+1)*(2n+3)*(2n+5).",
+  "description": "a(n) = (2*n+1)*(2*n+3)*(2*n+5).",
   "id": "A061550",
   "mentions": [
     "A005408",

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the lcm of the elements of the set of bases and exponents in the prime factorization of n.",
+  "id": "A381203",
+  "mentions": [
+    "A381201",
+    "A381202",
+    "A381204",
+    "A381205",
+    "A381213"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

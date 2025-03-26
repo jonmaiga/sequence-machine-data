@@ -1,0 +1,19 @@
+{
+  "description": "Ordinal transform of A355582, where A355582 is the largest 5-smooth divisor of n.",
+  "id": "A379006",
+  "mentions": [
+    "A003602",
+    "A051037",
+    "A126760",
+    "A355582",
+    "A379005"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

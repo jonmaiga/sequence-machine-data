@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = k after every k^2 occurrences of 1.",
+  "id": "A381522",
+  "mentions": [
+    "A000188",
+    "A084580",
+    "A381456"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

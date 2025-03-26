@@ -1,5 +1,5 @@
 {
-  "description": "Natural numbers of the form (n!-2)/2.",
+  "description": "a(n) = n!/2 - 1.",
   "id": "A139172",
   "mentions": [
     "A033312",
@@ -26,7 +26,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

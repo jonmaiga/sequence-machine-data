@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of positive values minus the number of negative values in the set {A377091(k), k = 0..n}.",
+  "id": "A380268",
+  "mentions": [
+    "A377091"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

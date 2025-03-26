@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest number whose fourth power is an n-digit which has the maximum sum of digits (A373914(n)).",
+  "id": "A380797",
+  "mentions": [
+    "A373914",
+    "A379650",
+    "A379869",
+    "A380052",
+    "A380111",
+    "A380193",
+    "A380566",
+    "A380567"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,10 @@
 {
-  "description": "For n >= 1, a(n) is the smallest number not already used such that the sum of the first n terms is semiprime.",
+  "description": "a(n) is the smallest number not already used such that the sum of the first n terms is semiprime.",
   "id": "A254043",
   "mentions": [
-    "A001358"
+    "A001358",
+    "A054408",
+    "A287662"
   ],
   "tags": [
     "easy",

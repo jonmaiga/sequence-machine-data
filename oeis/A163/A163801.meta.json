@@ -1,9 +1,10 @@
 {
-  "description": "a(n)=n-a(a(n-2)) with a(0)=0,a(1)=1",
+  "description": "a(n) = n - a(a(n-2)) with a(0)=0, a(1)=1.",
   "id": "A163801",
   "mentions": [
     "A005206",
-    "A135414"
+    "A135414",
+    "A379275"
   ],
   "tags": [
     "easy",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

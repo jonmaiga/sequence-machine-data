@@ -1,0 +1,20 @@
+{
+  "description": "List of x coordinates of prime numbers in a Cartesian grid, where the first prime 2 is placed at the origin (0,0) and the second prime 3 at (1,0). For the n-th prime prime(n), n >= 3, take a unit step in the direction (prime(n)-3)*45 degrees counterclockwise from the positive x-axis.",
+  "id": "A379643",
+  "mentions": [
+    "A277730",
+    "A297447",
+    "A297448",
+    "A345293",
+    "A379731"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

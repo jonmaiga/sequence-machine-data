@@ -2,7 +2,10 @@
   "description": "Graph code numbers of simple graphs in numerical order.",
   "id": "A076184",
   "mentions": [
-    "A000088"
+    "A000088",
+    "A000120",
+    "A002024",
+    "A029837"
   ],
   "tags": [
     "nonn"
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

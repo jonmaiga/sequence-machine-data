@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = a(2) = 1; for n > 2, a(n) = floor((n - 2)*a(n - 1)/a(n - 2)) + GCD(n - 2, a(n - 2)).",
+  "id": "A381331",
+  "mentions": [
+    "A133058",
+    "A145102"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

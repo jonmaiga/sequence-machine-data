@@ -2,6 +2,7 @@
   "description": "Primes p such that there is a composite c with sigma(p) = sigma(c).",
   "id": "A158913",
   "mentions": [
+    "A000203",
     "A158914"
   ],
   "tags": [

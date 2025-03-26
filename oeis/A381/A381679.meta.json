@@ -1,0 +1,21 @@
+{
+  "description": "Euler transform of A000056.",
+  "id": "A381679",
+  "mentions": [
+    "A000056",
+    "A061255",
+    "A074962",
+    "A084218",
+    "A156733",
+    "A381680"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

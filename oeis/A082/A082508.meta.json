@@ -1,5 +1,5 @@
 {
-  "description": "Differences between consecutive primes that are powers of 2 in order of their appearance. Differences the are not powers of 2 are deleted from A001223.",
+  "description": "Differences between consecutive primes that are powers of 2 in order of their appearance. Differences that are not powers of 2 are deleted from A001223.",
   "id": "A082508",
   "mentions": [
     "A001223",

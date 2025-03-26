@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the (n-1)-st frugal number in base n.",
+  "id": "A379539",
+  "mentions": [
+    "A379538"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

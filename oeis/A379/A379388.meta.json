@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the midradius of a deltoidal hexecontahedron with unit shorter edge length.",
+  "id": "A379388",
+  "mentions": [
+    "A010532",
+    "A377795",
+    "A379385",
+    "A379386",
+    "A379387",
+    "A379389"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

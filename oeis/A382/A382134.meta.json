@@ -1,0 +1,19 @@
+{
+  "description": "Number of completely asymmetric matchings (not containing centered or coupled arcs) of [2n].",
+  "id": "A382134",
+  "mentions": [
+    "A000079",
+    "A001205",
+    "A047974",
+    "A053871"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

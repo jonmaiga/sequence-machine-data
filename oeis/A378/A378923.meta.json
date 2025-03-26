@@ -1,0 +1,15 @@
+{
+  "description": "Number of minimal edge cuts in the n-cycle complement and (n+1)-wheel complement graphs.",
+  "id": "A378923",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

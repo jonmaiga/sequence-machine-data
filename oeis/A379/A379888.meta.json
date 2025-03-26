@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of a pentagonal hexecontahedron with unit shorter edge length.",
+  "id": "A379888",
+  "mentions": [
+    "A001622",
+    "A377804",
+    "A379889",
+    "A379890",
+    "A379891",
+    "A379892"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

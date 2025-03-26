@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows where T(n,k) is the number of labeled simple graphs with n vertices and exactly k triangles.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of labeled simple graphs with n vertices and exactly k triangles, 0 <= k <= binomial(n,3).",
   "id": "A372170",
   "mentions": [
     "A000088",
@@ -34,13 +34,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
-    "size": 42,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

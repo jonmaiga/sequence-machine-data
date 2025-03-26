@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - sin(x))^3.",
+  "id": "A381211",
+  "mentions": [
+    "A136630",
+    "A185690",
+    "A377530",
+    "A381207",
+    "A381209",
+    "A381210"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

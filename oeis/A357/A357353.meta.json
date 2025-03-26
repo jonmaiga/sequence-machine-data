@@ -1,7 +1,8 @@
 {
-  "description": "Frobenius number of A = (n, n+1, n+2, n+3, n+5, n+7, n+11, ...) for n>=2.",
+  "description": "Frobenius number of (n, n+1, n+prime(1), n+prime(2), n+prime(3), ...).",
   "id": "A357353",
   "mentions": [
+    "A000040",
     "A357995"
   ],
   "tags": [

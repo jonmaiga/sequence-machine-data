@@ -2,10 +2,12 @@
   "description": "Expansion of (1-x)/(1+2*x^2+2*x^3).",
   "id": "A078037",
   "mentions": [
-    "A077964"
+    "A077964",
+    "A077968"
   ],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

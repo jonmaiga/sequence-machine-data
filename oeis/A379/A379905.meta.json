@@ -1,0 +1,18 @@
+{
+  "description": "Rank of the permutation resulting from a pre-order traversal of a binary tree which is complete except for the final row and has vertices numbered 0 to n-1.",
+  "id": "A379905",
+  "mentions": [
+    "A000225",
+    "A000523",
+    "A070939",
+    "A380856"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

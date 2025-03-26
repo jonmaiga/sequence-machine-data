@@ -1,5 +1,5 @@
 {
-  "description": "n+ceiling(n^2/16); complement of A184111.",
+  "description": "a(n) = n+ceiling(n^2/16); complement of A184111.",
   "id": "A184112",
   "mentions": [
     "A184111"

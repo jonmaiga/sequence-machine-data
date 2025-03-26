@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k > 0 such that both |b(k) - b(k-1)| and |b(k+1) - b(k)| are greater than 1, where b is A377091.",
+  "id": "A380225",
+  "mentions": [
+    "A377091",
+    "A379880",
+    "A380223",
+    "A380224"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

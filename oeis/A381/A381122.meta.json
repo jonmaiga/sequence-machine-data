@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k^(k+1) == k (mod k+2).",
+  "id": "A381122",
+  "mentions": [
+    "A064935",
+    "A115976"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

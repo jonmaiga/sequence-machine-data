@@ -1,7 +1,9 @@
 {
   "description": "Number of Hamiltonian cycles in P_8 X P_n.",
   "id": "A145418",
-  "mentions": [],
+  "mentions": [
+    "A321172"
+  ],
   "tags": [
     "easy",
     "formulas",

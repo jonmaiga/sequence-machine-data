@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k that are not prime powers which are divisible by a cube greater than 1.",
+  "id": "A378767",
+  "mentions": [
+    "A001221",
+    "A007947",
+    "A024619",
+    "A046099",
+    "A126706",
+    "A362148",
+    "A372695"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

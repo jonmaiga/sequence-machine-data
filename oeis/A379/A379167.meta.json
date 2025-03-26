@@ -1,0 +1,20 @@
+{
+  "description": "Table read by row, where T(n,k), n>0 and k>0, represents the smallest n-digit number that is the product of k distinct primes and is sandwiched between semiprime numbers, or -1 if no such number exists.",
+  "id": "A379167",
+  "mentions": [
+    "A001358",
+    "A067885",
+    "A378097",
+    "A378627"
+  ],
+  "tags": [
+    "base",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

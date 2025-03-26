@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum{a(k): k=0,1,2,...,n-4,n-2,n-1}; a(n-3) is not a summand; 3 initial terms required.",
+  "description": "a(n) = Sum{a(k): k=0,1,2,...,n-4,n-2,n-1}; a(n-3) is not a summand; initial terms are 1,1,4.",
   "id": "A049867",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
+    "size": 36,
     "source": "joeis"
   }
 }

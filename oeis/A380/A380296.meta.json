@@ -1,0 +1,14 @@
+{
+  "description": "Number of transfer systems for the Dihedral group of order 2p^n, with p an odd prime.",
+  "id": "A380296",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

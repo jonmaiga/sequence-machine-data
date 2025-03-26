@@ -2,6 +2,7 @@
   "description": "The arithmetic function v_6(n,1).",
   "id": "A291306",
   "mentions": [
+    "A089128",
     "A289435",
     "A289436",
     "A289437",
@@ -11,6 +12,7 @@
     "A289441"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

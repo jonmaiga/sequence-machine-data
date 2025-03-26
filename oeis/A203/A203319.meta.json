@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*fibonacci(n) * Sum_{d|n} 1/(d*fibonacci(d)).",
+  "description": "a(n) = n*Fibonacci(n) * Sum_{d|n} 1/(d*Fibonacci(d)).",
   "id": "A203319",
   "mentions": [
     "A000032",

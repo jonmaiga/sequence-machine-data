@@ -1,0 +1,21 @@
+{
+  "description": "Partial alternating sums of the sigma_2 function: a(n) = Sum_{k=1..n} (-1)^(k+1) * sigma_2(k).",
+  "id": "A379921",
+  "mentions": [
+    "A001157",
+    "A002117",
+    "A064602",
+    "A068762",
+    "A307704"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

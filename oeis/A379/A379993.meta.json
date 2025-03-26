@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x * exp(x))^4.",
+  "id": "A379993",
+  "mentions": [
+    "A006153",
+    "A377529",
+    "A377530",
+    "A379943",
+    "A379994",
+    "A379995",
+    "A379996"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

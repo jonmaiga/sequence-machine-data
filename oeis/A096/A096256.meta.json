@@ -1,15 +1,16 @@
 {
-  "description": "Decimal expansion of the probability of rolling a Yahtzee (5 of a kind) in the dice game Yahtzee (tm).",
+  "description": "Decimal expansion of the probability of rolling a Yahtzee (5 of a kind) in the dice game Yahtzee.",
   "id": "A096256",
   "mentions": [],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

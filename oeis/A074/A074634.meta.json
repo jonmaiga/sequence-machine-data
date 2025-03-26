@@ -1,5 +1,5 @@
 {
-  "description": "Cototient-remainder triangle: triangular array T(n,k) (n >= 1, 1 <= k <= n) read by rows, where T(n,k) = smallest number x such that Mod[Cototient[x],n]=k.",
+  "description": "Cototient-remainder triangle: triangular array T(n,k) (n >= 1, 0 <= k < n) read by rows, where T(n,k) = smallest number x such that cototient(x) mod n = k.",
   "id": "A074634",
   "mentions": [
     "A051953",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

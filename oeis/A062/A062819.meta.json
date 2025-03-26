@@ -1,15 +1,16 @@
 {
-  "description": "Values of inverse Moebius transform of perfect numbers, A000396.",
+  "description": "Inverse Moebius transform of perfect numbers, A000396.",
   "id": "A062819",
   "mentions": [
     "A000396"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 10,
-    "source": "joeis"
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

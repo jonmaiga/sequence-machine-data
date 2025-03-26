@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Integral_{x=0..Pi/2} sin(x)^(3/2) dx.",
   "id": "A225119",
   "mentions": [
+    "A062539",
     "A068466",
     "A085565",
     "A093341"

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x * exp(-sin(x)) ).",
+  "id": "A381145",
+  "mentions": [
+    "A002017",
+    "A136630",
+    "A185690",
+    "A334856",
+    "A381142",
+    "A381148"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

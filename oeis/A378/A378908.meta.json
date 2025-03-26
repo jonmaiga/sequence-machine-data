@@ -1,0 +1,36 @@
+{
+  "description": "Square array, read by descending antidiagonals, where each row n comprises the integers w >= 1 such that A000037(n)*w^2+4 is a square.",
+  "id": "A378908",
+  "mentions": [
+    "A000037",
+    "A001080",
+    "A001090",
+    "A001353",
+    "A001542",
+    "A001906",
+    "A002420",
+    "A005319",
+    "A033999",
+    "A048942",
+    "A052530",
+    "A068204",
+    "A075835",
+    "A075844",
+    "A121740",
+    "A122652",
+    "A180495",
+    "A202299",
+    "A239365",
+    "A298675"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

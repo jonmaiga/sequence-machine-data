@@ -1,0 +1,25 @@
+{
+  "description": "A(n,k) is the sum over all partitions of [n] of k^j for a partition with j inversions; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A381369",
+  "mentions": [
+    "A000110",
+    "A011782",
+    "A125810",
+    "A125812",
+    "A125813",
+    "A125814",
+    "A125815",
+    "A381373",
+    "A381426"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

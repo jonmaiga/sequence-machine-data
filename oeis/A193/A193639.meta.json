@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) of ways n couples can sit in a row with exactly k of them together",
+  "description": "Triangle T(n,k) of ways n couples can sit in a row with exactly k of them together.",
   "id": "A193639",
   "mentions": [
     "A000165",

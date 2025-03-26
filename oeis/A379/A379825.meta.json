@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] x/(12*x^2 - 6*x + 1).",
+  "id": "A379825",
+  "mentions": [
+    "A000748",
+    "A057083",
+    "A190965"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

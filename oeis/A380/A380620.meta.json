@@ -1,0 +1,19 @@
+{
+  "description": "Number of unsensed combinatorial maps with n edges and 2 vertices.",
+  "id": "A380620",
+  "mentions": [
+    "A380239",
+    "A380616",
+    "A380618",
+    "A380621"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

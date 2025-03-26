@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the prime index of the least prime dividing k is larger than the maximum exponent in the prime factorization of k.",
+  "id": "A380694",
+  "mentions": [
+    "A000720",
+    "A020639",
+    "A051903",
+    "A055396",
+    "A320055",
+    "A320056",
+    "A352830",
+    "A380692",
+    "A380693",
+    "A380695"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

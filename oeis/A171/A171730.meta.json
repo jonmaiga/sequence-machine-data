@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of differences of Fibonacci numbers.",
+  "description": "Triangle of differences of Fibonacci numbers, rows descending.",
   "id": "A171730",
   "mentions": [
     "A000045",

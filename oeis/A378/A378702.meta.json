@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 256*p^8 + 1 is prime.",
+  "id": "A378702",
+  "mentions": [
+    "A005384",
+    "A006314",
+    "A052291",
+    "A378134",
+    "A378143",
+    "A378146"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

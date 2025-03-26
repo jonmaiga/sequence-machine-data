@@ -1,8 +1,9 @@
 {
-  "description": "Fibonacci numbers, which are the product of an odd number of distinct primes for numbers with the same property (mu(n)=mu(fibonacci(n))=-1).",
+  "description": "Fibonacci numbers for which both the value and index are the product of an odd number of distinct primes; that is, numbers Fibonacci(k) for which mu(k) = mu(Fibonacci(k)) = -1.",
   "id": "A075742",
   "mentions": [
     "A000045",
+    "A008683",
     "A030059",
     "A074691"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 18,
+    "source": "joeis"
   }
 }

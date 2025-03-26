@@ -1,0 +1,14 @@
+{
+  "description": "Order of the minimal polynomial for the n-th smallest Pisot number.",
+  "id": "A381191",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

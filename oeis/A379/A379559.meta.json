@@ -1,0 +1,18 @@
+{
+  "description": "Index where n appears as a term in A379442.",
+  "id": "A379559",
+  "mentions": [
+    "A379293",
+    "A379442",
+    "A379557",
+    "A379558"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Let b(1)=b(2)=1, b(k+2)=gcd(k!,b(k+1)+b(k)); sequence gives values of n such that b(n)=1.",
+  "description": "Let b(1)=b(2)=1, b(k+2)=gcd(k!,b(k+1)+b(k)); sequence gives values of k such that b(k)=1.",
   "id": "A074737",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

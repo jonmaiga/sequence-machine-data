@@ -1,0 +1,19 @@
+{
+  "description": "Record high points in the negation of A377091.",
+  "id": "A379076",
+  "mentions": [
+    "A377091",
+    "A379074",
+    "A379075",
+    "A379077"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

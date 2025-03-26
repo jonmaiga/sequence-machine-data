@@ -2,6 +2,7 @@
   "description": "Smallest positive difference between d and n/d for any divisor d of n.",
   "id": "A082119",
   "mentions": [
+    "A000037",
     "A056737",
     "A082120"
   ],

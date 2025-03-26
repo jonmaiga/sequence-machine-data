@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to topologically sort the strong components of a labeled digraph on [n].",
+  "id": "A380374",
+  "mentions": [
+    "A003024",
+    "A003030",
+    "A011266",
+    "A053763"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

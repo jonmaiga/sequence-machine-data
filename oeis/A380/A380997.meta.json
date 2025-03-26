@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number with exactly 2 different decimal digits that is a multiple of n.",
+  "id": "A380997",
+  "mentions": [
+    "A031955"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,13 +1,22 @@
 {
-  "description": "Numbers k such that Fib(k) == 8 (mod k).",
+  "description": "Numbers k such that Fibonacci(k) == 8 (mod k).",
   "id": "A023177",
-  "mentions": [],
+  "mentions": [
+    "A000045",
+    "A002708",
+    "A023165",
+    "A023173",
+    "A023174",
+    "A023175",
+    "A023176"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

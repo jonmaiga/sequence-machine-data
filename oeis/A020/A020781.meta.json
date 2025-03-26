@@ -2,12 +2,20 @@
   "description": "Decimal expansion of 1/sqrt(24).",
   "id": "A020781",
   "mentions": [
+    "A010464",
+    "A010480",
     "A020763",
+    "A020853",
+    "A021028",
     "A179294",
-    "A237603"
+    "A187110",
+    "A237603",
+    "A244980"
   ],
   "tags": [
     "cons",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

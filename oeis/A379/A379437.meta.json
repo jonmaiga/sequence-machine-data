@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted 2-connected simple planar maps with n edges.",
+  "id": "A379437",
+  "mentions": [
+    "A000139",
+    "A000168",
+    "A006406",
+    "A006407"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

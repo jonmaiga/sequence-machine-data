@@ -1,8 +1,13 @@
 {
   "description": "Number of (not necessarily connected) graceful graphs on n vertices.",
   "id": "A308548",
-  "mentions": [],
+  "mentions": [
+    "A000088",
+    "A308549",
+    "A308556"
+  ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

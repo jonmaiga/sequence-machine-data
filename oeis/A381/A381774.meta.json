@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of ( (1/x) * Series_Reversion( x/((1+x) * C(x))^4 ) )^(1/4), where C(x) is the g.f. of A000108.",
+  "id": "A381774",
+  "mentions": [
+    "A000108",
+    "A054727",
+    "A060941",
+    "A381772",
+    "A381773",
+    "A381775"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

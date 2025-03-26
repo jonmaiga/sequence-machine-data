@@ -1,5 +1,5 @@
 {
-  "description": "Floor(6^n/(3+sqrt(3))^n).",
+  "description": "a(n) = floor(6^n/(3+sqrt(3))^n).",
   "id": "A240735",
   "mentions": [
     "A000400",

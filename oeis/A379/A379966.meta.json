@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is an even squarefree number, otherwise 0.",
+  "id": "A379966",
+  "mentions": [
+    "A008966",
+    "A039956",
+    "A059841",
+    "A185197",
+    "A292273",
+    "A323239",
+    "A379970"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

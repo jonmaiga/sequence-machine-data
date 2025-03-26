@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: Riordan array (2 - D(x), x * D(x)) where D(x) is g.f. of A001764.",
+  "id": "A380191",
+  "mentions": [
+    "A001764",
+    "A110616"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

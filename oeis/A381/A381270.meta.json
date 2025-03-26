@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = denominator( [x*y*z]^n 1/sqrt((1 - (x + y + z))*(1 - y - z^2)) ).",
+  "id": "A381270",
+  "mentions": [
+    "A381269",
+    "A381271",
+    "A381272"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

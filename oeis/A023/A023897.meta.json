@@ -1,5 +1,5 @@
 {
-  "description": "sigma_1(n) / phi(n) for balanced numbers.",
+  "description": "a(n) = sigma_1(k) / phi(k) where k = A020492(n) is the n-th balanced number.",
   "id": "A023897",
   "mentions": [
     "A000010",

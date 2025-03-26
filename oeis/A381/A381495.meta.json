@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of times n appears in A381466.",
+  "id": "A381495",
+  "mentions": [
+    "A381466",
+    "A381501"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 130,
+    "source": "oeis-bfile"
+  }
+}

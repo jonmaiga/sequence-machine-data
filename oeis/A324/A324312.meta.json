@@ -2,6 +2,7 @@
   "description": "Expansion of the generating function of rooted planar Eulerian orientations, counted by edges.",
   "id": "A324312",
   "mentions": [
+    "A277493",
     "A324311",
     "A324313",
     "A324314"

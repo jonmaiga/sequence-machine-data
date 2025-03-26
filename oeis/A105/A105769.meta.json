@@ -1,5 +1,5 @@
 {
-  "description": "A105658(n)/k, k=n if n is odd, else k=n/2.",
+  "description": "a(n) = A105658(n)/k, where k=n if n is odd, else k=n/2.",
   "id": "A105769",
   "mentions": [
     "A105658",
@@ -7,7 +7,6 @@
     "A105732"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

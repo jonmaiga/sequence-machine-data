@@ -1,14 +1,14 @@
 {
-  "description": "a(n)=6n+A054905[n].",
+  "description": "a(n) = 6n + A054904(n).",
   "id": "A084292",
   "mentions": [
+    "A000203",
     "A015913",
     "A015918",
     "A050507",
     "A054799",
     "A054903",
     "A054904",
-    "A054905",
     "A054906",
     "A054982",
     "A054987",
@@ -19,12 +19,11 @@
     "A084293"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

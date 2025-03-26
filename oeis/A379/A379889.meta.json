@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a pentagonal hexecontahedron with unit shorter edge length.",
+  "id": "A379889",
+  "mentions": [
+    "A001622",
+    "A377805",
+    "A379888",
+    "A379890",
+    "A379891",
+    "A379892"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 90,
+    "source": "joeis"
+  }
+}

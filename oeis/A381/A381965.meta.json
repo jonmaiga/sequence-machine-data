@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows, where row n lists the iterates of f(x), starting at x = n until f(x) < 10, where f(x) is the multiplicative digital root of x (A031347).",
+  "id": "A381965",
+  "mentions": [
+    "A031346",
+    "A031347",
+    "A381962",
+    "A381963",
+    "A381966"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

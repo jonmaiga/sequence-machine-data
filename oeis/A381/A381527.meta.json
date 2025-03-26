@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive multiple of n such that the decimal expansion of a(n)/n is a substring of the decimal expansion of a(n), or -1 if no such number exists.",
+  "id": "A381527",
+  "mentions": [
+    "A381526"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

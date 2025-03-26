@@ -1,0 +1,16 @@
+{
+  "description": "Values of p for which x_p = s_p/p in the modified Göbel sequence is nonintegral.",
+  "id": "A378851",
+  "mentions": [
+    "A003504",
+    "A108394"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

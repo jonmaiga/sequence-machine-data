@@ -1,0 +1,18 @@
+{
+  "description": "Number of unsensed planar maps with n vertices and 2 faces.",
+  "id": "A380239",
+  "mentions": [
+    "A277741",
+    "A380237",
+    "A380238"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

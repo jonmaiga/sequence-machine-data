@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of integers in base n such that all the integers given by their first k digits are divisible by k and which cannot be extended further.",
+  "id": "A380359",
+  "mentions": [
+    "A109032",
+    "A109783",
+    "A271374"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -2,9 +2,11 @@
   "description": "Denominator of A010786(n+1) / A010786(n).",
   "id": "A208450",
   "mentions": [
+    "A007955",
     "A010786",
     "A208448",
-    "A208449"
+    "A208449",
+    "A377484"
   ],
   "tags": [
     "formulas",

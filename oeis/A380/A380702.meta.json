@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the acute vertex angles, in radians, in a (small) triakis octahedron face.",
+  "id": "A380702",
+  "mentions": [
+    "A020765",
+    "A361601",
+    "A378351",
+    "A378352",
+    "A378353",
+    "A378354",
+    "A380703"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

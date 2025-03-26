@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that there exists a number 1 <= m <= k-1 and exactly n different pairs (x,y), 1 <= x < y <= k-1 such that 1/x^2 - 1/y^2 = 1/m^2 - 1/k^2.",
+  "id": "A380150",
+  "mentions": [
+    "A094191",
+    "A355812",
+    "A379983"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

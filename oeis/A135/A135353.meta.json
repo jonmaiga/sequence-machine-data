@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3*a(n-1) - 3*a(n-2) + 2*a(n-3).",
+  "description": "a(n) = 3*a(n-1) - 3*a(n-2) + 2*a(n-3), with a(0) = 2, a(1) = -3, a(2) = 3.",
   "id": "A135353",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

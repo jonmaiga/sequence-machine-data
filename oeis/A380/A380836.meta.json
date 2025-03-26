@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest k such that tau(2*k) is equal to 2^n, where tau = A000005.",
+  "id": "A380836",
+  "mentions": [
+    "A000005",
+    "A000028",
+    "A005843",
+    "A037992",
+    "A083207",
+    "A099777",
+    "A180332"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

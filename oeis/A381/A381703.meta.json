@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which every row of length A071764(n) lists A(n,w,h) = the number of free polyominoes of size n, width w and height h (for w <= h, and all possible w,h pairs).",
+  "id": "A381703",
+  "mentions": [
+    "A000105",
+    "A071764",
+    "A317186",
+    "A379623",
+    "A379624",
+    "A379625"
+  ],
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

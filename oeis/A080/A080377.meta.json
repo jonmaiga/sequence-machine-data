@@ -1,17 +1,19 @@
 {
-  "description": "Each a(n) is a difference of suitable consecutive primes, a(n)=Prime[1+A080376(n)]-Prime[A080376(n)]. a(n+1) is the smallest prime-difference [from A001223] which has prime-factor not present in previous terms or was present but at lower power.",
+  "description": "Prime gaps where A080374 increases.",
   "id": "A080377",
   "mentions": [
     "A001223",
     "A080374",
+    "A080375",
     "A080376"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 64,
     "source": "oeis-entry"
   }
 }

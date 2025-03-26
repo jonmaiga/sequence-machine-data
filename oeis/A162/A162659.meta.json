@@ -1,14 +1,16 @@
 {
-  "description": "E.g.f. satisfies: A(x) = exp(x*A(x*A(x))).",
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x*A(x*A(x))).",
   "id": "A162659",
-  "mentions": [],
+  "mentions": [
+    "A140049"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

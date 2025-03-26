@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of 1/436.",
   "id": "A021440",
-  "mentions": [],
+  "mentions": [
+    "A021113",
+    "A021222",
+    "A021876"
+  ],
   "tags": [
     "cons",
     "nonn"

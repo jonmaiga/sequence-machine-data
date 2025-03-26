@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of solutions to the problem described in A381619 with smallest price equal to n.",
+  "id": "A381620",
+  "mentions": [
+    "A380887",
+    "A381187",
+    "A381619"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

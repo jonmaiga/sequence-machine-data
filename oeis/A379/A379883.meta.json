@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1. Let j = a(n-1) and r = A046144(j). Then for n > 1, if j is novel and r > 0, a(n) = r. If j is novel and r = 0 then a(n) = 1. If j has occurred k (>1) times already then a(n) = k*j.",
+  "id": "A379883",
+  "mentions": [
+    "A046144",
+    "A378508",
+    "A380594",
+    "A380604"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

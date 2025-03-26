@@ -1,14 +1,17 @@
 {
   "description": "Number of Hamiltonian cycles in C_8 X P_n.",
   "id": "A180584",
-  "mentions": [],
+  "mentions": [
+    "A359855"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,11 @@
 {
   "description": "a(n) = n * Sum_{primes p dividing n} (1 + 1/p).",
   "id": "A065967",
-  "mentions": [],
+  "mentions": [
+    "A065968",
+    "A065969",
+    "A065970"
+  ],
   "tags": [
     "nonn"
   ],

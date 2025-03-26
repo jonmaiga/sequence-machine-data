@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if sigma(phi(n)) < n, otherwise 0.",
+  "id": "A379959",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062402",
+    "A230201",
+    "A295302"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

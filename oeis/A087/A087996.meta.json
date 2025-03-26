@@ -1,5 +1,5 @@
 {
-  "description": "Residues when (n+rev[n]) is divided by abs(n-rev[n]); zero if n=rev[n] (when n is palindromic), or when the quotient is integer (see A087993).",
+  "description": "Residues when (n+rev[n]) is divided by abs(n-rev[n]); zero if n=rev[n] (when n is palindromic), or when the quotient is an integer (see A087993).",
   "id": "A087996",
   "mentions": [
     "A087993",

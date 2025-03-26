@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Bigomega(n!)/Omega(n!) is an integer.",
+  "description": "Numbers k such that bigomega(k!)/omega(k!) is an integer.",
   "id": "A088533",
   "mentions": [
     "A000720",

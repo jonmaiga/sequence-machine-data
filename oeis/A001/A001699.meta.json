@@ -2,6 +2,7 @@
   "description": "Number of binary trees of height n; or products (ways to insert parentheses) of height n when multiplication is non-commutative and non-associative.",
   "id": "A001699",
   "mentions": [
+    "A000058",
     "A000108",
     "A002449",
     "A002658",

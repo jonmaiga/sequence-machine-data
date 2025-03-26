@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is such that phi(a(n)+1) = phi(a(n)-1).",
+  "description": "Numbers k such that phi(k+1) = phi(k-1).",
   "id": "A066812",
   "mentions": [
     "A001494"

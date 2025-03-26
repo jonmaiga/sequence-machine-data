@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; thereafter the sequence is extended by iteratively appending the run length transform of the reverse of the sequence thus far.",
+  "id": "A381587",
+  "mentions": [
+    "A306211",
+    "A306346",
+    "A381356",
+    "A381357",
+    "A381358"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

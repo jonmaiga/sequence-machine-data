@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of lim_{s->1} (zeta(s) - Pi^(s/2)/((s-1)*Gamma(s/2))) (negated).",
+  "id": "A380908",
+  "mentions": [
+    "A001620",
+    "A114864",
+    "A155968"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet inverse of the binary weight of n (A000120).",
+  "id": "A378990",
+  "mentions": [
+    "A000120",
+    "A008683",
+    "A378989",
+    "A378991"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Number of equivalence classes of regular vines in dimension n.",
+  "id": "A379695",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

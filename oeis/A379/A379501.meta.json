@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (3/2)*A019565((2n-1)^2) - A019565(A001065((2n-1)^2)), where A019565 is the base-2 exp-function, and A001065 is the sum of proper divisors of n.",
+  "id": "A379501",
+  "mentions": [
+    "A001065",
+    "A016754",
+    "A019565",
+    "A337339",
+    "A378231",
+    "A379495",
+    "A379496"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

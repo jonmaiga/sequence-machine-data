@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations avoiding the pattern 1231'.",
+  "description": "Number of permutations of n avoiding the pattern 1231'.",
   "id": "A177483",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Prime-generating polynomial: 16*n^2 - 292*n + 1373.",
+  "description": "Prime-generating polynomial: a(n) = 16*n^2 - 292*n + 1373.",
   "id": "A181969",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 44,
+    "size": 46,
     "source": "joeis"
   }
 }

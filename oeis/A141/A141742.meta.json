@@ -2,6 +2,7 @@
   "description": "Starting from the 1 in the first line of triangle A141728 choose one of the three digits below it. Repeat down to the other rows. Sequence gives the numbers in base 10 expressed by the collected digits that cannot be reached following any possible path.",
   "id": "A141742",
   "mentions": [
+    "A004755",
     "A141727",
     "A141728",
     "A141741",

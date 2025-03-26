@@ -1,5 +1,5 @@
 {
-  "description": "The even composites n such that n=q*g*j*y and q+g=j*y where q,g,j,y are primes.",
+  "description": "The even composites c such that c=q*g*j*y and q+g=j*y where q,g,j,y are primes.",
   "id": "A167690",
   "mentions": [
     "A000040",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

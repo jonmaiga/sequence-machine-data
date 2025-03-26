@@ -1,12 +1,18 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x*A(x)^3 / (1 + x*A(x)^3).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^3 / (1 + x*A(x)^3).",
   "id": "A364864",
   "mentions": [
+    "A001764",
     "A002293",
+    "A271469",
     "A291534",
     "A336538",
+    "A363982",
+    "A364736",
     "A364865",
-    "A364866"
+    "A364866",
+    "A365218",
+    "A378892"
   ],
   "tags": [
     "formulas",
@@ -15,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

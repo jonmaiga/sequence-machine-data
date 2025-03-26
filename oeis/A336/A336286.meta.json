@@ -1,5 +1,5 @@
 {
-  "description": "The hafnian of a symmetric Toeplitz matrix of order 2n, n>=2 with the first row (0,1,2,...,2,0); a(0)=a(1)=1.",
+  "description": "The hafnian of a symmetric Toeplitz matrix of order 2*n, n>=2 with the first row (0,1,2,...,2,0); a(0)=a(1)=1.",
   "id": "A336286",
   "mentions": [
     "A002119",
@@ -7,12 +7,13 @@
     "A336400"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 19,
     "source": "joeis"
   }
 }

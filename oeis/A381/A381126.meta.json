@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are the concatenation of prime(p) and p where p is a prime.",
+  "id": "A381126",
+  "mentions": [
+    "A006450",
+    "A084667",
+    "A084669",
+    "A229814"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

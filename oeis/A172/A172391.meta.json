@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = G(x/A(x))^2 and G(x)^2 = A(x*G(x)^2) where G(x) = Sum_{n>=0} C(2n,n)*C(2n+2,n+1)/(n+2)*x^n is the g.f. of A172392.",
+  "description": "G.f. satisfies: A(x) = G(x/A(x))^2 and G(x)^2 = A(x*G(x)^2) where G(x) = Sum_{n>=0} C(2*n,n)*C(2*n+2,n+1)/(n+2)*x^n is the g.f. of A172392.",
   "id": "A172391",
   "mentions": [
     "A000108",

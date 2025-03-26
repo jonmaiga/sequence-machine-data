@@ -1,7 +1,15 @@
 {
   "description": "Number of self-avoiding polygons of area n with any number of (self-avoiding polygon) holes on square lattice (not allowing rotations).",
   "id": "A057409",
-  "mentions": [],
+  "mentions": [
+    "A000104",
+    "A001168",
+    "A006724",
+    "A057406",
+    "A057407",
+    "A057408",
+    "A088702"
+  ],
   "tags": [
     "nonn"
   ],

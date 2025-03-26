@@ -1,9 +1,13 @@
 {
   "description": "a(n)=(number of digits <=1)-(number of digits >1) in base 3 representation of n.",
   "id": "A037862",
-  "mentions": [],
+  "mentions": [
+    "A081603",
+    "A081604"
+  ],
   "tags": [
     "base",
+    "formulas",
     "sign"
   ],
   "terms": {

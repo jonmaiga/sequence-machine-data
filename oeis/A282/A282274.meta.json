@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX6 0..2 arrays with no element equal to more than four of its king-move neighbors and with new values introduced in order 0 sequentially upwards.",
+  "description": "Number of n X 6 0..2 arrays with no element equal to more than four of its king-move neighbors and with new values introduced in order 0 sequentially upwards.",
   "id": "A282274",
   "mentions": [
     "A282275"

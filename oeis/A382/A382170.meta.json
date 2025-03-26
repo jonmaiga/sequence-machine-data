@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0; for n >= 1, one-eighth of the number of points on the elliptic curve y^2 = x^3 - x defined over GF(5^n).",
+  "id": "A382170",
+  "mentions": [
+    "A382171"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

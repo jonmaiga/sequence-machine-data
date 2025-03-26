@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with prime signature {7,2}, i.e., of form p^7*q^2 with p and q prime.",
+  "description": "Numbers with prime signature {7,2}, i.e., of form p^7*q^2 with p and q distinct primes.",
   "id": "A179689",
   "mentions": [
     "A006881",

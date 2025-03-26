@@ -1,0 +1,16 @@
+{
+  "description": "The factorial base expansion of a(n) is, when read from right to left, the ordinal transform of that of n.",
+  "id": "A382269",
+  "mentions": [
+    "A382262"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

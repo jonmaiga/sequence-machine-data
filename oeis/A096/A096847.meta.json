@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that A094471(n) is prime.",
+  "description": "Numbers k such that A094471(k) is prime.",
   "id": "A096847",
   "mentions": [
+    "A000005",
+    "A000203",
     "A094471",
     "A096848"
   ],
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 40,
     "source": "oeis-bfile"
   }
 }

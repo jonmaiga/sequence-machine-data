@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where column k is the expansion of 1/(2 - B_k(x)), where B_k(x) = 1 + x*B_k(x)^k.",
+  "id": "A382100",
+  "mentions": [
+    "A000012",
+    "A011782",
+    "A047099",
+    "A088218",
+    "A107026",
+    "A107027",
+    "A107030",
+    "A304979",
+    "A355262",
+    "A382101"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The waterproof hulls of numbers that are not waterproof (A379097).",
+  "id": "A379098",
+  "mentions": [
+    "A275339",
+    "A379095",
+    "A379096",
+    "A379097"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

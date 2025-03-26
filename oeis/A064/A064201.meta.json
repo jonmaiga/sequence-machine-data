@@ -1,8 +1,9 @@
 {
-  "description": "9 times octagonal numbers: a(n) = 9n(3n-2).",
+  "description": "9 times octagonal numbers: a(n) = 9*n*(3*n-2).",
   "id": "A064201",
   "mentions": [
-    "A000567"
+    "A000567",
+    "A152751"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 38,
+    "size": 42,
     "source": "joeis"
   }
 }

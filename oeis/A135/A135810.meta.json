@@ -1,5 +1,5 @@
 {
-  "description": "Number of coincidence-free length n lists of 4-tuples with all numbers 1,...,n in tuple position k, for k=1..4.",
+  "description": "Number of coincidence-free length n lists of 4-tuples with all numbers 1..n in tuple position k, for k=1..4.",
   "id": "A135810",
   "mentions": [
     "A135809",

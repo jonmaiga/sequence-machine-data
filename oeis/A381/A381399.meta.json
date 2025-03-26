@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of prime elements in the set of bases and exponents in the prime factorization of n.",
+  "id": "A381399",
+  "mentions": [
+    "A115588",
+    "A381398",
+    "A381400",
+    "A381401"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

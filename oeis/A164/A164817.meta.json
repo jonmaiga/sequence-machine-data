@@ -1,5 +1,5 @@
 {
-  "description": "Positive numbers n with property that average digit of n^2 is integer.",
+  "description": "Positive numbers n with property that average digit of n^2 is an integer.",
   "id": "A164817",
   "mentions": [
     "A004159",

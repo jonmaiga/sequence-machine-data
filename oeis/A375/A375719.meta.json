@@ -1,7 +1,10 @@
 {
   "description": "a(1) = 1; For n > 1, a(n) is the smallest number different from a(1), ..., a(n-1) such that lcm(a(1), ..., a(n)) is a perfect square.",
   "id": "A375719",
-  "mentions": [],
+  "mentions": [
+    "A006530",
+    "A051119"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

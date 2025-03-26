@@ -1,9 +1,14 @@
 {
-  "description": "E.g.f.: 1/(1 - x*cosh(x)).",
+  "description": "Expansion of e.g.f. 1/(1 - x*cosh(x)).",
   "id": "A205571",
   "mentions": [
+    "A000111",
+    "A006154",
     "A069814",
-    "A352252"
+    "A185951",
+    "A352252",
+    "A381206",
+    "A381207"
   ],
   "tags": [
     "formulas",

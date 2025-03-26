@@ -1,0 +1,19 @@
+{
+  "description": "Ternary modular Gray code for n written in base 3.",
+  "id": "A381668",
+  "mentions": [
+    "A007089",
+    "A105530"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

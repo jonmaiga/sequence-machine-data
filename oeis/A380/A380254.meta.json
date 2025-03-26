@@ -1,0 +1,20 @@
+{
+  "description": "Number of powerful numbers (in A001694) that do not exceed primorial A002110(n).",
+  "id": "A380254",
+  "mentions": [
+    "A001694",
+    "A002110",
+    "A062762",
+    "A118896",
+    "A380337"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

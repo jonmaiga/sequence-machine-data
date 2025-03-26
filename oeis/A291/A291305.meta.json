@@ -2,6 +2,7 @@
   "description": "The arithmetic function v_5(n,1).",
   "id": "A291305",
   "mentions": [
+    "A109009",
     "A289435",
     "A289436",
     "A289437",
@@ -11,6 +12,7 @@
     "A289441"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

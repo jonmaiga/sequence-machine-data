@@ -1,5 +1,5 @@
 {
-  "description": "SquareRootSigma(n): Floor of sum of square root of divisors of n. If n = Product p_i^r_i then SRSigma(n) = Product Floor[(p_i^(r_i/2+1/2)-1)/(p_i^(1/2)-1)].",
+  "description": "An approximation to sigma_{1/2}(n): multiplicative with a(p^e) = floor((p^(e/2+1/2)-1)/(p^(1/2)-1)) for prime p.",
   "id": "A107331",
   "mentions": [
     "A033635",

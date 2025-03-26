@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest number whose sixth power is an n-digit sixth power which has the maximum sum of digits (A373994(n)).",
+  "id": "A380193",
+  "mentions": [
+    "A373994",
+    "A379298",
+    "A380052",
+    "A380566",
+    "A380567",
+    "A380797"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

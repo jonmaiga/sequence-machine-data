@@ -1,5 +1,5 @@
 {
-  "description": "Atoms in cluster of n layers around C_60.",
+  "description": "Number of atoms in cluster of n layers around C_60.",
   "id": "A063498",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 40,
     "source": "joeis"
   }
 }

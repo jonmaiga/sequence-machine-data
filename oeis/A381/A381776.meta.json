@@ -1,0 +1,22 @@
+{
+  "description": "Empty polygon numbers: a(n) is the smallest number of points in the plane (with no three of them collinear) such that an empty convex n-gon cannot be avoided.",
+  "id": "A381776",
+  "mentions": [
+    "A003182",
+    "A003186",
+    "A330333",
+    "A348260"
+  ],
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

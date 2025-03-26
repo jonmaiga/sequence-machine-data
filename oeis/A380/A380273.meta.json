@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..A380272(n), read by rows; the n-th row lists the integers m in 0..n such that the nonadjacent forms for m-n and m can be added without carries.",
+  "id": "A380273",
+  "mentions": [
+    "A295989",
+    "A353174",
+    "A380272"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

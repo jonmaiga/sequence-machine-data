@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the Diophantine equation d_r*x^r + ... + d_0*x^0 = 0 has an integer solution. k = (d_r .. d_0) in decimal notation, d_i are the digits of k.",
+  "id": "A380818",
+  "mentions": [
+    "A037124"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

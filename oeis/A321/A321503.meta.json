@@ -2,6 +2,7 @@
   "description": "Numbers m such that m and m+1 both have at least 3 distinct prime factors.",
   "id": "A321503",
   "mentions": [
+    "A000977",
     "A002110",
     "A074851",
     "A140077",
@@ -16,6 +17,7 @@
     "A321506"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

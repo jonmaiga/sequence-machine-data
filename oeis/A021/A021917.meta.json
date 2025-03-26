@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 1/913.",
   "id": "A021917",
-  "mentions": [],
+  "mentions": [
+    "A010680",
+    "A021087"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

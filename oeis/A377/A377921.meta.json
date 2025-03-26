@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3-connected Schnyder labelings with n inner faces in the quadrangular dissection, whose outer white vertices are non-isolated.",
+  "id": "A377921",
+  "mentions": [
+    "A342141",
+    "A377920",
+    "A377922",
+    "A377923"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

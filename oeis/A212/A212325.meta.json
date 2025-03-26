@@ -1,7 +1,18 @@
 {
-  "description": "Prime-generating polynomial: n^2 + 3*n - 167.",
+  "description": "Prime-generating polynomial: a(n) = n^2 + 3*n - 167.",
   "id": "A212325",
-  "mentions": [],
+  "mentions": [
+    "A050268",
+    "A060566",
+    "A181963",
+    "A181973",
+    "A182409",
+    "A202018",
+    "A211773",
+    "A318791",
+    "A320772",
+    "A330363"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 48,
+    "size": 50,
     "source": "joeis"
   }
 }

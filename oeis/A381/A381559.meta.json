@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum dominating sets in the n-triangular honeycomb bishop graph.",
+  "id": "A381559",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

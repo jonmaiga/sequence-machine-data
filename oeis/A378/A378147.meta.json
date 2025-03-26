@@ -1,0 +1,15 @@
+{
+  "description": "The lexicographically earliest infinite simple continued fraction such that the concatenation of its terms has the same succession of digits as its decimal expansion.",
+  "id": "A378147",
+  "mentions": [],
+  "tags": [
+    "base",
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

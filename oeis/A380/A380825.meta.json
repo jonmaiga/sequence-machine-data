@@ -1,0 +1,18 @@
+{
+  "description": "Indices of triangular numbers that are the products of triangular numbers larger than 1.",
+  "id": "A380825",
+  "mentions": [
+    "A000217",
+    "A003056",
+    "A068143"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

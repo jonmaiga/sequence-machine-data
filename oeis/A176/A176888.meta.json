@@ -2,7 +2,9 @@
   "description": "Unsafe primes minus 1.",
   "id": "A176888",
   "mentions": [
-    "A059456"
+    "A006093",
+    "A059456",
+    "A100959"
   ],
   "tags": [
     "formulas",

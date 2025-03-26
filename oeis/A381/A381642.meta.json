@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that F(k) > F(m) for all m < k, where F(k) = A381641(k)/A381639(k).",
+  "id": "A381642",
+  "mentions": [
+    "A005117",
+    "A381639",
+    "A381640",
+    "A381641"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

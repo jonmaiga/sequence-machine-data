@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies 7*x = Sum_{n=-oo..+oo} (-1)^n * x^(7*n) * (A(x) + x^n)^(7*n) with A(0) = 1.",
+  "id": "A380684",
+  "mentions": [
+    "A380681",
+    "A380682",
+    "A380683",
+    "A380685",
+    "A380686"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

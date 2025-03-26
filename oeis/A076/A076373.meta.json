@@ -1,13 +1,15 @@
 {
-  "description": "Solutions to n + 2*phi(n) = sigma(n) = n + 2*A000010(n) = A000203(n).",
+  "description": "Solutions to n + 2*phi(n) = sigma(n) where phi is A000010 and sigma is A000203.",
   "id": "A076373",
   "mentions": [
     "A000010",
     "A000203",
     "A007505",
-    "A066679"
+    "A066679",
+    "A076374"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

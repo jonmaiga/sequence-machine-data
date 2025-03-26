@@ -2,7 +2,8 @@
   "description": "a(n) = A053838(n) + 2 modulo 3.",
   "id": "A090239",
   "mentions": [
-    "A053838"
+    "A053838",
+    "A090193"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

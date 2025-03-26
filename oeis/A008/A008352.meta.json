@@ -1,10 +1,11 @@
 {
-  "description": "a(n) is formed by concatenating a(n-2) and a(n-1), with a(0) = 1, a(1) = 2;",
+  "description": "a(n) is formed by concatenating a(n-2) and a(n-1), with a(0) = 1, a(1) = 2.",
   "id": "A008352",
   "mentions": [
     "A000045",
     "A003849",
     "A008351",
+    "A113773",
     "A133235",
     "A189479",
     "A287523"

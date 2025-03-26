@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*4^n - 1.",
+  "description": "a(n) = n*4^n - 1, with a(0) = 1.",
   "id": "A060416",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

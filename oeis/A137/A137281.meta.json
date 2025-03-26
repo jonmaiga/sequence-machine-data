@@ -2,6 +2,7 @@
   "description": "Numbers k such that T(k) is not divisible by T(i), 1 < i < k, where T(k) = k-th triangular number A000217(k).",
   "id": "A137281",
   "mentions": [
+    "A000040",
     "A000217",
     "A005383",
     "A076982",

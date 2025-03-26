@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-dimensional indecomposable unimodular lattices (or quadratic forms).",
+  "id": "A380746",
+  "mentions": [
+    "A005134",
+    "A054907",
+    "A054909",
+    "A054911"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

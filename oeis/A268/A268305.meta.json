@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n - 37, n - 1, n + 1, n + 37 are consecutive primes.",
+  "description": "Numbers k such that k - 37, k - 1, k + 1, k + 37 are consecutive primes.",
   "id": "A268305",
   "mentions": [
     "A014574",

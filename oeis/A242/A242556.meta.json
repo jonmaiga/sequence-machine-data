@@ -1,5 +1,5 @@
 {
-  "description": "Least number k such that k^64+n^64 is prime.",
+  "description": "Least number k such that k^64 + n^64 is prime.",
   "id": "A242556",
   "mentions": [
     "A006316",

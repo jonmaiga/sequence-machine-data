@@ -1,0 +1,28 @@
+{
+  "description": "Odd squares k for which A379113(k) > 1, i.e., k that have a proper unitary divisor d > 1 such that A048720(A065621(sigma(d)),sigma(k/d)) is equal to sigma(k).",
+  "id": "A379121",
+  "mentions": [
+    "A000203",
+    "A016754",
+    "A048720",
+    "A065621",
+    "A277320",
+    "A379113",
+    "A379114",
+    "A379119",
+    "A379122",
+    "A379123",
+    "A379124",
+    "A379125",
+    "A379129"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

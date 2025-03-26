@@ -1,0 +1,18 @@
+{
+  "description": "The n-th term of the n-th forward differences of partition numbers A000041.",
+  "id": "A379378",
+  "mentions": [
+    "A000041",
+    "A033815",
+    "A175804",
+    "A281425"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

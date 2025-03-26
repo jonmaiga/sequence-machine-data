@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct products ijk with 1 <= i",
+  "description": "Number of distinct products i*j*k with 1 <= i < j < k <= n.",
   "id": "A027430",
   "mentions": [
     "A000292",

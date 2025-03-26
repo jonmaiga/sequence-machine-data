@@ -1,0 +1,19 @@
+{
+  "description": "Size of the largest component of the blet graph for n coins.",
+  "id": "A381814",
+  "mentions": [
+    "A075273",
+    "A381812",
+    "A381813"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

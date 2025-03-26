@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - sinh(x))^3.",
+  "id": "A381210",
+  "mentions": [
+    "A136630",
+    "A377530",
+    "A381207",
+    "A381209",
+    "A381211"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

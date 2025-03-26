@@ -2,8 +2,10 @@
   "description": "Solution of the complementary equation b(n)=a(a(n))+n; this is sequence b; sequence a is A136495.",
   "id": "A136496",
   "mentions": [
+    "A005374",
     "A020942",
     "A035513",
+    "A105083",
     "A136189",
     "A136495"
   ],

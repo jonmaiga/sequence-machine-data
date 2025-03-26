@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 3; for n > 2, a(n) is the smallest unused positive number that shares a factor with a(n-1) and has a different binary weight than a(n-1).",
+  "id": "A381420",
+  "mentions": [
+    "A000120",
+    "A027748",
+    "A064413",
+    "A093714",
+    "A109451",
+    "A381419"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

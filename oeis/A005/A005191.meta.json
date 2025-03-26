@@ -2,14 +2,10 @@
   "description": "Central pentanomial coefficients: largest coefficient of (1 + x + ... + x^4)^n.",
   "id": "A005191",
   "mentions": [
-    "A001405",
-    "A002426",
-    "A005190",
-    "A018901",
-    "A025012",
-    "A025013",
-    "A025014",
-    "A035343"
+    "A035343",
+    "A077042",
+    "A201551",
+    "A349936"
   ],
   "tags": [
     "formulas",

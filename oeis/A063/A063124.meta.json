@@ -1,10 +1,12 @@
 {
-  "description": "a(n) = # { primes i | prime(n) <= i < 2*prime(n) } where prime(n) is the n-th prime.",
+  "description": "a(n) = # { primes p | prime(n) <= p < 2*prime(n) } where prime(n) is the n-th prime.",
   "id": "A063124",
   "mentions": [
     "A000040",
     "A000720",
+    "A001222",
     "A002808",
+    "A003961",
     "A035250",
     "A060715",
     "A062134",
@@ -12,13 +14,17 @@
     "A070046",
     "A075084",
     "A077463",
+    "A108227",
     "A108954",
     "A246514",
     "A307912",
     "A307989",
+    "A331677",
+    "A334051",
     "A376759",
     "A376760",
-    "A376761"
+    "A376761",
+    "A378746"
   ],
   "tags": [
     "formulas",

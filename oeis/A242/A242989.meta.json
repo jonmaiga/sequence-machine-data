@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that concatenating 1 with four instances of n produces a prime.",
+  "description": "Numbers k such that concatenating 1 with four instances of k produces a prime.",
   "id": "A242989",
   "mentions": [
     "A242987",

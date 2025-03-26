@@ -1,5 +1,5 @@
 {
-  "description": "Number of letters in n (in Dutch).",
+  "description": "Number of letters in n (in Dutch) counting 'ij' as one letter.",
   "id": "A007485",
   "mentions": [
     "A090589"

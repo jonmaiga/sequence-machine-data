@@ -1,11 +1,15 @@
 {
-  "description": "Least positive multiple of n which when written in base 10 is either a repunit or of the form 1111....0000.",
+  "description": "Least positive multiple of n which when written in base 10 is either a repunit or of the form 111...000.",
   "id": "A244859",
   "mentions": [
-    "A004290"
+    "A002275",
+    "A004290",
+    "A055642",
+    "A244927"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

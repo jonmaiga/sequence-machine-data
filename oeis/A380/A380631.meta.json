@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled nodes with k cycles and each node a member of exactly one cycle, 0 <= k <= floor(n/3).",
+  "id": "A380631",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A008619",
+    "A380632",
+    "A380633",
+    "A380634",
+    "A381467"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

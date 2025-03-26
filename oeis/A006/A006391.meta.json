@@ -1,13 +1,17 @@
 {
-  "description": "Number of unsensed planar maps with n edges and without loops.",
+  "description": "Number of unsensed loopless planar maps with n edges.",
   "id": "A006391",
-  "mentions": [],
+  "mentions": [
+    "A000260",
+    "A006385",
+    "A006390"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

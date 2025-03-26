@@ -2,7 +2,8 @@
   "description": "Differences between adjacent palindromic numbers which are products of an odd number of distinct primes.",
   "id": "A075806",
   "mentions": [
-    "A037010"
+    "A037010",
+    "A075800"
   ],
   "tags": [
     "base",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

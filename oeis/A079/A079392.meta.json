@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A000594(n) > 0 (Ramanujan's tau function is positive).",
+  "description": "Numbers k such that A000594(k) > 0 (Ramanujan's tau function is positive).",
   "id": "A079392",
   "mentions": [
     "A000594",

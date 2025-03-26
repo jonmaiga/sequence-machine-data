@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of nonnegative integers that can be represented by n segments in the Cistercian numeral system.",
+  "id": "A381327",
+  "mentions": [
+    "A341737"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

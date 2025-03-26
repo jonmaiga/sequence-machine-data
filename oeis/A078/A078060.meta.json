@@ -1,8 +1,11 @@
 {
   "description": "Expansion of (1-x)/(1+2*x-2*x^3).",
   "id": "A078060",
-  "mentions": [],
+  "mentions": [
+    "A077988"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

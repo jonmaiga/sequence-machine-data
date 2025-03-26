@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = b(b(n)), where b(k) = A121053(k).",
+  "id": "A379050",
+  "mentions": [
+    "A079000",
+    "A121053"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

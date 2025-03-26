@@ -1,0 +1,17 @@
+{
+  "description": "Values corresponding to ties in A377091, in order of appearance.",
+  "id": "A380280",
+  "mentions": [
+    "A377091",
+    "A380279"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

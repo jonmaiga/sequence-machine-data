@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n, phi(n)) lies on the hyperbola x^2 - y^2 = m^2, for some natural number m, i.e., n^2 - phi(n)^2 = m^2.",
+  "description": "Numbers k such that (k, phi(k)) lies on the hyperbola x^2 - y^2 = m^2, for some natural number m, i.e., k^2 - phi(k)^2 is a square.",
   "id": "A066782",
   "mentions": [
     "A066763"

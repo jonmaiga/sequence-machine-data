@@ -12,12 +12,13 @@
     "A330640"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,50 @@
+{
+  "description": "Number of multisets that can be obtained by taking the sum of each block of a set multipartition (multiset of sets) of the prime indices of n with distinct block-sums.",
+  "id": "A381634",
+  "mentions": [
+    "A000720",
+    "A001055",
+    "A001222",
+    "A002846",
+    "A003963",
+    "A005117",
+    "A050320",
+    "A050326",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A116540",
+    "A213242",
+    "A213385",
+    "A213427",
+    "A265947",
+    "A279785",
+    "A293511",
+    "A299202",
+    "A300383",
+    "A300385",
+    "A317141",
+    "A317142",
+    "A317143",
+    "A318360",
+    "A339742",
+    "A358914",
+    "A381078",
+    "A381441",
+    "A381454",
+    "A381633",
+    "A381717",
+    "A381718",
+    "A381806",
+    "A381870"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the largest vertex angle, in radians, in a disdyakis dodecahedron face.",
+  "id": "A380738",
+  "mentions": [
+    "A020829",
+    "A378393",
+    "A378712",
+    "A378713",
+    "A378714",
+    "A378715",
+    "A380734",
+    "A380735",
+    "A380736",
+    "A380737"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

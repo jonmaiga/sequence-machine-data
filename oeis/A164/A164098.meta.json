@@ -1,13 +1,18 @@
 {
-  "description": "Numbers of the form n * (k_1^2 + k_2^2 + ... + k_n^2).",
+  "description": "Numbers of the form m * (k_1^2 + k_2^2 + ... + k_m^2).",
   "id": "A164098",
   "mentions": [
+    "A000040",
     "A000290",
     "A000404",
     "A000408",
     "A000414",
+    "A002145",
+    "A037074",
     "A047700",
-    "A111178"
+    "A094712",
+    "A111178",
+    "A143206"
   ],
   "tags": [
     "nonn"
@@ -15,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

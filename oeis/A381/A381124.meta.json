@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of convergents to the supergolden ratio.",
+  "id": "A381124",
+  "mentions": [
+    "A092526",
+    "A369346",
+    "A381125"
+  ],
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

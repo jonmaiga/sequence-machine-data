@@ -1,0 +1,33 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = [x^n] (1 - x)/(1 - k*x)^2.",
+  "id": "A380747",
+  "mentions": [
+    "A000012",
+    "A000567",
+    "A001792",
+    "A007778",
+    "A060747",
+    "A081038",
+    "A081039",
+    "A081040",
+    "A081041",
+    "A081042",
+    "A081043",
+    "A081044",
+    "A081045",
+    "A103532",
+    "A154955",
+    "A380748"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

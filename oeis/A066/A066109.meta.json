@@ -1,14 +1,15 @@
 {
-  "description": "Numbers n such that sigma_4(n)/sigma_2(n) is prime.",
+  "description": "Numbers k such that sigma_4(k)/sigma_2(k) is prime.",
   "id": "A066109",
   "mentions": [
     "A000040",
     "A001157",
     "A001159",
-    "A066111"
+    "A046871",
+    "A066111",
+    "A066112"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

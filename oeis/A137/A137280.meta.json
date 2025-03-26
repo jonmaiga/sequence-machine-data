@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3*a(n-1) + 7*a(n-2).",
+  "description": "a(n) = 3*a(n-1) + 7*a(n-2), with a(1) = 1, a(2) = 10.",
   "id": "A137280",
   "mentions": [
     "A015524"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

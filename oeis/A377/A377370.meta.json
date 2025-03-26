@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime ending in n alternating decimal digits 0 and 1.",
+  "id": "A377370",
+  "mentions": [
+    "A036952",
+    "A065720"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

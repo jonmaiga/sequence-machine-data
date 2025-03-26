@@ -2,6 +2,7 @@
   "description": "a(n) = 64*n^2 - 16.",
   "id": "A157913",
   "mentions": [
+    "A000466",
     "A157914"
   ],
   "tags": [

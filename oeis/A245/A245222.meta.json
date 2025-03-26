@@ -1,8 +1,10 @@
 {
-  "description": "Continued fraction of the constant c in A245221; c = sup{f(n,1)}, where f(1,x) = x + 1 and thereafter f(n,x) = x + 1 if n is in A022838, else f(n,x) = 1/x.",
+  "description": "Continued fraction expansion of the constant c in A245221; c = sup{f(n,1)}, where f(1,x) = x + 1 and thereafter f(n,x) = x + 1 if n is in A022838, else f(n,x) = 1/x.",
   "id": "A245222",
   "mentions": [
+    "A006337",
     "A022838",
+    "A144612",
     "A226080",
     "A245215",
     "A245217",
@@ -13,6 +15,7 @@
   "tags": [
     "cofr",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

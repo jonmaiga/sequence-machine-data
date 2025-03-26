@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: x / reversion(x - x^2 - x^3).",
+  "description": "Expansion of g.f. x / reversion(x - x^2 - x^3).",
   "id": "A217596",
   "mentions": [
     "A000204",

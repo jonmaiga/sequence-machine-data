@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into reciprocals of positive integers <= n.",
+  "id": "A378842",
+  "mentions": [
+    "A020473",
+    "A038034",
+    "A208480"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

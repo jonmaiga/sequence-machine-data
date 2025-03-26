@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A011971(n, k)*k. The Aitken-Bell triangle considered as a linear transform applied to the nonnegative numbers.",
+  "id": "A380116",
+  "mentions": [
+    "A011971",
+    "A278677"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

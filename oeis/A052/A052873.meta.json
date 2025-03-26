@@ -1,10 +1,13 @@
 {
-  "description": "E.g.f. satisfies A(x) = exp(x*A(x)/(1 - x*A(x))).",
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x*A(x)/(1 - x*A(x))).",
   "id": "A052873",
   "mentions": [
     "A052868",
     "A088690",
-    "A161630"
+    "A161630",
+    "A382036",
+    "A382037",
+    "A382038"
   ],
   "tags": [
     "easy",

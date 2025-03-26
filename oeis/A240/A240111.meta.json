@@ -1,10 +1,12 @@
 {
-  "description": "Numbers k for which the value of Dedekind psi function (A001615) are less than the value of infinitary Dedekind psi function (A049417).",
+  "description": "Numbers for which the value of the Dedekind psi function (A001615) are less than the value of the infinitary Dedekind psi function (A049417).",
   "id": "A240111",
   "mentions": [
     "A001615",
+    "A013929",
     "A049417",
-    "A050376"
+    "A050376",
+    "A240112"
   ],
   "tags": [
     "nonn"

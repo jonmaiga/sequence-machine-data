@@ -1,5 +1,5 @@
 {
-  "description": "Product{k=1 to n} (A005117(k)), the product of the first n squarefree positive integers.",
+  "description": "a(n) = Product_{k=1..n} A005117(k), the product of the first n squarefree positive integers.",
   "id": "A111059",
   "mentions": [
     "A001221",

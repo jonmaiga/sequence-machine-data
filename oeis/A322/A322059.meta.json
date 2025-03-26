@@ -2,7 +2,11 @@
   "description": "Expansion of generating function related to a certain class of combinatorial objects.",
   "id": "A322059",
   "mentions": [
-    "A322060"
+    "A002861",
+    "A032198",
+    "A322060",
+    "A380886",
+    "A380890"
   ],
   "tags": [
     "more",

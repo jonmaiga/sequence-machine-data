@@ -1,5 +1,5 @@
 {
-  "description": "Coefficient of x^8 in expansion of (1+x+x^2)^n",
+  "description": "Coefficient of x^8 in expansion of (1+x+x^2)^n.",
   "id": "A005716",
   "mentions": [
     "A000051",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 4,
-    "size": 29,
+    "size": 32,
     "source": "joeis"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Powers of primes that have a primitive root.",
+  "id": "A380757",
+  "mentions": [
+    "A000079",
+    "A000961",
+    "A033948",
+    "A046022",
+    "A061345",
+    "A065515",
+    "A113473",
+    "A278568"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

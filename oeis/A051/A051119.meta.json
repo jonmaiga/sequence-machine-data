@@ -1,5 +1,5 @@
 {
-  "description": "n/p^k, where p = largest prime dividing n and p^k = highest power of p dividing n.",
+  "description": "a(n) = n/p^k, where p = largest prime dividing n and p^k = highest power of p dividing n.",
   "id": "A051119",
   "mentions": [
     "A053585"

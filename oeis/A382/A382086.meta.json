@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x * exp(-x * C(x)) ), where C(x) = 1 + x*C(x)^2 is the g.f. of A000108.",
+  "id": "A382086",
+  "mentions": [
+    "A000108",
+    "A001622",
+    "A377831",
+    "A382036",
+    "A382087",
+    "A382088",
+    "A382089"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

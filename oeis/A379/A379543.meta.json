@@ -1,0 +1,41 @@
+{
+  "description": "Least number x such that there are exactly n multisets of positive integers > 1 with sum + product = x. Position of first appearance of n in A379669.",
+  "id": "A379543",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001055",
+    "A002865",
+    "A025147",
+    "A045778",
+    "A069016",
+    "A111133",
+    "A318950",
+    "A319000",
+    "A379666",
+    "A379667",
+    "A379668",
+    "A379669",
+    "A379670",
+    "A379671",
+    "A379672",
+    "A379678",
+    "A379679",
+    "A379680",
+    "A379720",
+    "A379839",
+    "A379840",
+    "A379841",
+    "A379842",
+    "A379843"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

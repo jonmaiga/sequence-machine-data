@@ -1,0 +1,17 @@
+{
+  "description": "Primitive solutions k to the exponential Diophantine equation k^7 = Sum_{i=1..8} y_i^7 with y_i > 0.",
+  "id": "A380716",
+  "mentions": [
+    "A381026"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

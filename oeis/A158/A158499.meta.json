@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+sqrt(1-4x))/(2-4x).",
+  "description": "Expansion of (1 + sqrt(1-4*x))/(2-4*x).",
   "id": "A158499",
   "mentions": [
     "A000108",

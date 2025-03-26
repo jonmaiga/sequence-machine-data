@@ -2,10 +2,14 @@
   "description": "a(0) = 2, a(n) = Lucas(phi(n^2)) for n > 0.",
   "id": "A197190",
   "mentions": [
+    "A000010",
+    "A000032",
+    "A002618",
     "A197218",
     "A197219"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

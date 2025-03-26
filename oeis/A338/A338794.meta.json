@@ -1,5 +1,5 @@
 {
-  "description": "Index k of Fibonacci numbers such that F(k)^2 + 1 has no Fibonacci prime factor, where F(k) is the k-th Fibonacci number.",
+  "description": "Indices k of Fibonacci numbers F(k) such that F(k)^2 + 1 has no Fibonacci prime factor.",
   "id": "A338794",
   "mentions": [
     "A000045",

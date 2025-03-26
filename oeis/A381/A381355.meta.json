@@ -1,0 +1,15 @@
+{
+  "description": "G.f. A(x) = x*F'(x)/F(x) where F(x) is the g.f. of A381353 that satisfies [x^n] F(x)^prime(n) = 0 for n > 1.",
+  "id": "A381355",
+  "mentions": [
+    "A381353"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

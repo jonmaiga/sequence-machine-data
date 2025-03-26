@@ -1,7 +1,9 @@
 {
   "description": "Positive integers a such that there exist integers b, c > 0 with 1/a + 1/b + 1/c = 1/2.",
   "id": "A236681",
-  "mentions": [],
+  "mentions": [
+    "A236686"
+  ],
   "tags": [
     "fini",
     "full",

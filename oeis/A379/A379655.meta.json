@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and k+1 are both possible values of the sum of divisors function (A000203).",
+  "id": "A379655",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A342555",
+    "A342560"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

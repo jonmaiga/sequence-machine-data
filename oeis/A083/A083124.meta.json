@@ -2,7 +2,9 @@
   "description": "Continued fraction expansion of tanh(Pi/2).",
   "id": "A083124",
   "mentions": [
-    "A060402"
+    "A060402",
+    "A084304",
+    "A367960"
   ],
   "tags": [
     "cofr",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

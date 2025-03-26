@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (2n)! - n! - 1 is prime.",
+  "description": "Numbers k such that (2k)! - k! - 1 is prime.",
   "id": "A238011",
   "mentions": [
     "A118812",

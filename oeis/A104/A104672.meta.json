@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n+4,4)*C(n+9,n+0).",
+  "description": "a(n) = binomial(n+4,n)*binomial(n+9,n).",
   "id": "A104672",
   "mentions": [
     "A062190"

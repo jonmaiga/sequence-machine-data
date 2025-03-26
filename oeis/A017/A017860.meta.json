@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1-x^7-x^8-x^9-x^10-x^11).",
+  "description": "Expansion of g.f. 1/(1 - x^7 - x^8 - x^9 - x^10 - x^11).",
   "id": "A017860",
   "mentions": [],
   "tags": [

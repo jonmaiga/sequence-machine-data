@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of positive integer solutions of n*x*y*z*v*w = (x + n) * (y + n) * (z + n) * (v + n) * (w + n), x <= y <= z <= v <= w.",
+  "id": "A381644",
+  "mentions": [
+    "A374059",
+    "A375787",
+    "A380749",
+    "A380750"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

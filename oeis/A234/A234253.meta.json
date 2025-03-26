@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum_{i=1..n} C(7+i,8)^2.",
+  "description": "a(n) = Sum_{i=1..n} C(7+i,8)^2.",
   "id": "A234253",
   "mentions": [
     "A086023",

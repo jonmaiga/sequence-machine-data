@@ -1,8 +1,12 @@
 {
   "description": "a(n) = 11^n - 7^n.",
   "id": "A139745",
-  "mentions": [],
+  "mentions": [
+    "A000420",
+    "A001020"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

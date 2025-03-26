@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(arcsinh(x)*arcsin(x))=1+2/2!*x^2+12/4!*x^4+208/6!*x^6+6608/8!*x^8...",
+  "description": "Eexpansion of e.g.f. exp(arcsinh(x)*arcsin(x)).",
   "id": "A012598",
   "mentions": [],
   "tags": [

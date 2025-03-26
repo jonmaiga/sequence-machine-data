@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + sinh(x*A(x)) / A(x).",
+  "id": "A381179",
+  "mentions": [
+    "A136630",
+    "A162653",
+    "A196776",
+    "A201628",
+    "A381177"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

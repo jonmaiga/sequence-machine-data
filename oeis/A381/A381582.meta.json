@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k and k+1 are both terms in A381581.",
+  "id": "A381582",
+  "mentions": [
+    "A000045",
+    "A001651",
+    "A001906",
+    "A291711",
+    "A328209",
+    "A330927",
+    "A330931",
+    "A351720",
+    "A381581",
+    "A381583",
+    "A381584",
+    "A381585"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

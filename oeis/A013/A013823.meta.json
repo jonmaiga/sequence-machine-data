@@ -2,7 +2,11 @@
   "description": "a(n) = 2^(5*n + 2).",
   "id": "A013823",
   "mentions": [
-    "A009976"
+    "A000079",
+    "A009976",
+    "A013822",
+    "A013824",
+    "A016873"
   ],
   "tags": [
     "easy",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 15,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

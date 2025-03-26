@@ -1,0 +1,20 @@
+{
+  "description": "The balanced ternary expansion of a(n) is obtained by removing a digit 0 before each nonzero digit in the nonadjacent form of n.",
+  "id": "A379658",
+  "mentions": [
+    "A048679",
+    "A065363",
+    "A334913",
+    "A379657"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

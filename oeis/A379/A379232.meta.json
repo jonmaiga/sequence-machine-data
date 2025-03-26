@@ -1,0 +1,21 @@
+{
+  "description": "Terms k of A104210 for which abs(A003961(k)-(2*k)) is prime, where A003961 is fully multiplicative with a(prime(i)) = prime(i+1), and A104210 gives numbers m for which gcd(m,A003961(m)) > 1.",
+  "id": "A379232",
+  "mentions": [
+    "A003961",
+    "A104210",
+    "A151799",
+    "A252748",
+    "A379230",
+    "A379231"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers m such that m * (m+1) contains at least 8 decimal digits that are in neither m nor m+1.",
+  "id": "A381247",
+  "mentions": [
+    "A002275",
+    "A002282",
+    "A381248"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

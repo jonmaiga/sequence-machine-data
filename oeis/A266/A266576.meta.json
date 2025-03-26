@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of a constant related to the asymptotics of A032302.",
+  "description": "Decimal expansion of Pi^2/12 + log(2)^2 + Sum_{j>=1} 1 / (j^2 * 2^(2*j+1)).",
   "id": "A266576",
   "mentions": [
     "A032302"

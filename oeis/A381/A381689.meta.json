@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a truncated cuboctahedron (great rhombicuboctahedron).",
+  "id": "A381689",
+  "mentions": [
+    "A002193",
+    "A002194",
+    "A010549",
+    "A019679",
+    "A377343",
+    "A377344",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

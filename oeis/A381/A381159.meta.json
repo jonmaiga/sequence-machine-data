@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose prime divisors all end in the same digit.",
+  "id": "A381159",
+  "mentions": [
+    "A000079",
+    "A000351",
+    "A000961",
+    "A004615",
+    "A004618",
+    "A090652",
+    "A380758"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "a(1) = 1, a(2) = 2, for a(n) > 2, a(n) is the smallest unused positive number that shares a factor with a(n-1) while no exponent of each distinct prime factor of a(n) is the same as the exponent of the same prime factor of a(n-1).",
+  "id": "A379248",
+  "mentions": [
+    "A027746",
+    "A051903",
+    "A064413",
+    "A124010",
+    "A348086",
+    "A373545",
+    "A373546",
+    "A375563",
+    "A375564",
+    "A379290",
+    "A379291",
+    "A379292",
+    "A379293",
+    "A379294",
+    "A379295",
+    "A379296"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of subsets of 8 integers between 1 and n such that their sum is 0 modulo n.",
+  "id": "A381291",
+  "mentions": [
+    "A011796",
+    "A381289",
+    "A381290"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

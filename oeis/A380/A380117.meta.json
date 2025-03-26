@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n - A380118(n).",
+  "id": "A380117",
+  "mentions": [
+    "A182936",
+    "A380118"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

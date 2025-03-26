@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2n^2 + 2n - 41.",
+  "description": "a(n) = 2*n^2 + 2*n - 41.",
   "id": "A155769",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
+    "size": 49,
     "source": "joeis"
   }
 }

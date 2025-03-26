@@ -2,6 +2,8 @@
   "description": "a(n) = Sum_{j=1..n-1} floor(prime(n)/prime(j)).",
   "id": "A342173",
   "mentions": [
+    "A006093",
+    "A013939",
     "A033955",
     "A308495"
   ],

@@ -1,15 +1,18 @@
 {
-  "description": "Number of length n arrays x(i), i=1..n with x(i) in 0..i and no value appearing more than 2 times",
+  "description": "Number of length n arrays x(i), i=1..n with x(i) in 0..i and no value appearing more than 2 times.",
   "id": "A248836",
   "mentions": [
+    "A000111",
+    "A136630",
     "A248842"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
+    "offset": 0,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

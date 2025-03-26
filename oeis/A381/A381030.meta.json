@@ -1,0 +1,21 @@
+{
+  "description": "Array read by diagonals downwards: A(n,k) for n>=2 and k>=0 is the number of (n,k)-polyominoes.",
+  "id": "A381030",
+  "mentions": [
+    "A000105",
+    "A286194",
+    "A286344",
+    "A286345",
+    "A381057"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

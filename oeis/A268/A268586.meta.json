@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (x^3*(3*x - 2))/(2*x - 1)^3.",
+  "description": "Expansion of x^3*(3*x - 2)/(2*x - 1)^3.",
   "id": "A268586",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 32,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "n + product of nonzero digits of n.",
+  "description": "a(n) = n + product of the nonzero digits of n.",
   "id": "A063114",
   "mentions": [
     "A051801",

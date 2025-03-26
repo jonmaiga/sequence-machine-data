@@ -1,0 +1,17 @@
+{
+  "description": "Number of sequences in which the matches of a fully symmetric single-elimination tournament with 4^n players can be played if arbitrarily many matches can occur simultaneously and each match involves 4 players.",
+  "id": "A381948",
+  "mentions": [
+    "A273725",
+    "A379758",
+    "A381865"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

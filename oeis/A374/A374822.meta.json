@@ -1,0 +1,21 @@
+{
+  "description": "Antichain-Chain Quilt Numbers: Square table of the number of ASM quilts of type A_2(j) x C_k read down antidiagonals, where C_k is the chain poset or rank k and A_2(j) is the rank 2 poset with a unique minimal and maximal element and j atoms",
+  "id": "A374822",
+  "mentions": [
+    "A297622",
+    "A374819",
+    "A374820",
+    "A374821",
+    "A374824"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

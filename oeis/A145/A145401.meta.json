@@ -1,7 +1,9 @@
 {
   "description": "Number of Hamiltonian cycles in P_6 X P_n.",
   "id": "A145401",
-  "mentions": [],
+  "mentions": [
+    "A321172"
+  ],
   "tags": [
     "easy",
     "formulas",

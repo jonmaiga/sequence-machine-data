@@ -2,6 +2,9 @@
   "description": "a(n) = 8*n^2 - 7*n + 2.",
   "id": "A360417",
   "mentions": [
+    "A051870",
+    "A125201",
+    "A360416",
     "A360418"
   ],
   "tags": [
@@ -10,8 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 35,
-    "source": "joeis"
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Three-dimensional array of the number b(n, k, i) of permutations of k chosen numbers in {1,2,...,n} with i-1 descents, n >= 1, 1 <= k <= n, 1 <= i <= n.",
+  "id": "A381706",
+  "mentions": [
+    "A008292",
+    "A068424",
+    "A091044",
+    "A381888"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

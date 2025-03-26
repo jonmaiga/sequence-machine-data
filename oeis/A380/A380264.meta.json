@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the numerator of the mean value of A051903(k) at the range k = 1..n.",
+  "id": "A380264",
+  "mentions": [
+    "A033150",
+    "A051903",
+    "A129132",
+    "A359071",
+    "A359072",
+    "A380265"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

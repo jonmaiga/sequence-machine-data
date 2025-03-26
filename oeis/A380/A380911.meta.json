@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: Row n is the initial segment [1, 2, ..., n] sorted into lexicographic order defined by the binary representation of the terms.",
+  "id": "A380911",
+  "mentions": [
+    "A007088"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

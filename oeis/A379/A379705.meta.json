@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least integer k > n such that integers p, q exist for which n, p, k are in arithmetic and n, q, k are in geometric progression.",
+  "id": "A379705",
+  "mentions": [
+    "A000188",
+    "A008833",
+    "A057918",
+    "A072905",
+    "A379663"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

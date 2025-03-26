@@ -2,6 +2,7 @@
   "description": "Turn sequence of the R5 dragon curve.",
   "id": "A337004",
   "mentions": [
+    "A005811",
     "A170823",
     "A175337",
     "A277543"

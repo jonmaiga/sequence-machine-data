@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = log( 1 + x * cos(2*A(x)) ).",
+  "id": "A380555",
+  "mentions": [
+    "A380055",
+    "A380556"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

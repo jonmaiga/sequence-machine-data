@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of a 2-colored set into at most k parts with 0 <= k <= n.",
+  "id": "A381891",
+  "mentions": [
+    "A005380",
+    "A026820"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

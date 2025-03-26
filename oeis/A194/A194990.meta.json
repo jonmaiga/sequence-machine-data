@@ -2,9 +2,12 @@
   "description": "a(n) = 1+ floor(n/sqrt(8)).",
   "id": "A194990",
   "mentions": [
-    "A194914"
+    "A172474",
+    "A194914",
+    "A286655"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

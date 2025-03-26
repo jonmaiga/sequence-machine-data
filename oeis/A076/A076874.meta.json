@@ -1,5 +1,5 @@
 {
-  "description": "n - floor ( ( 4*n + 1 )^(1/2) ).",
+  "description": "a(n) = n - floor ( ( 4*n + 1 )^(1/2) ).",
   "id": "A076874",
   "mentions": [
     "A001411",

@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. exp((1-sqrt(1-4*log(1+x)))/2).",
+  "description": "Expansion of e.g.f. exp((1-sqrt(1-4*log(1+x)))/2).",
   "id": "A184975",
   "mentions": [],
   "tags": [

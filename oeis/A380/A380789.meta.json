@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest deficient number that is the product of n distinct primes and is sandwiched between a prime and a semiprime.",
+  "id": "A380789",
+  "mentions": [
+    "A000203",
+    "A005100"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

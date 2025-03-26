@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the largest proper divisor d of 2n-1 such that A048720(A065621(d),(2n-1)/d) is equal to 2n-1.",
+  "id": "A379127",
+  "mentions": [
+    "A048720",
+    "A065621",
+    "A277320",
+    "A325567",
+    "A379128"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

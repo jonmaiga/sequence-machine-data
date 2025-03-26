@@ -1,5 +1,5 @@
 {
-  "description": "Number of binary words not containing ..01110...",
+  "description": "Number of binary words of length n in which the ones occur only in blocks of length at least 4.",
   "id": "A005253",
   "mentions": [
     "A000051",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 42,
+    "size": 43,
     "source": "joeis"
   }
 }

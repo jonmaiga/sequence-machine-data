@@ -1,0 +1,19 @@
+{
+  "description": "Number of sequences in which the games of a single-elimination tournament with n teams can be played if arbitrarily many arenas are available and the tournament bracket is chosen to be the bracket with the largest such number of sequences.",
+  "id": "A380767",
+  "mentions": [
+    "A001190",
+    "A379758",
+    "A380166"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Primes expressible as a sum of odd-indexed primes.",
+  "description": "Prime partial sums of the odd-indexed primes.",
   "id": "A096208",
   "mentions": [
+    "A000040",
     "A077131"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

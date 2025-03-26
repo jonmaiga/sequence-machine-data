@@ -1,0 +1,18 @@
+{
+  "description": "First differences of the Golay-Rudin-Shapiro sequence (A020985), divided by 2.",
+  "id": "A380667",
+  "mentions": [
+    "A020985",
+    "A020986"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

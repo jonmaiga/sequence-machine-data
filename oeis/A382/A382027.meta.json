@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose decimal digits are in ascending order and also parity alternating.",
+  "id": "A382027",
+  "mentions": [
+    "A030141",
+    "A030144",
+    "A052015",
+    "A381158"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

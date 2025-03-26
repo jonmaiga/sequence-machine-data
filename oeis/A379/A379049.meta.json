@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(i)*dp(n,i) + prime(i)*dn(n,i) where dp(n,i) = 1 when the i-th trit of n is 1, dn(n,i) = 1 when the i-th trit of n is T, and dp(n,i) = dn(n,i) = 0 when the i-th trit of n is 0.",
+  "id": "A379049",
+  "mentions": [
+    "A005812",
+    "A134022",
+    "A134023",
+    "A140267"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

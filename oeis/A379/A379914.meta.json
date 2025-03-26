@@ -1,0 +1,18 @@
+{
+  "description": "Length of longest sequence over {0,1,...,n-1} containing no two consecutive blocks with the same average.",
+  "id": "A379914",
+  "mentions": [
+    "A379998",
+    "A379999",
+    "A380000"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

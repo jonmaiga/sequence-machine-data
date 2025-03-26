@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{j=1..n} Stirling2(n-1,j-1) * a(n-j) for n>=1, starting with a(0) = 1.",
+  "id": "A381515",
+  "mentions": [
+    "A000110",
+    "A008277",
+    "A048993",
+    "A308444"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

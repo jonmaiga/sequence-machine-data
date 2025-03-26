@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose factors in the canonical prime factorization neither increase weakly nor decrease weakly.",
+  "id": "A379094",
+  "mentions": [
+    "A002110",
+    "A053585",
+    "A057714",
+    "A085232",
+    "A126706",
+    "A140831",
+    "A379097"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

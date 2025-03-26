@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k and k+1 are both in A380929.",
+  "id": "A380933",
+  "mentions": [
+    "A096399",
+    "A283418",
+    "A318167",
+    "A327635",
+    "A327942",
+    "A331412",
+    "A333951",
+    "A357608",
+    "A364727",
+    "A364861",
+    "A380845",
+    "A380929",
+    "A380932"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

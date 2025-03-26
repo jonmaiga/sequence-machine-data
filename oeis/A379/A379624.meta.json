@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of free polyominoes with n cells and length k, n >= 1, k = 1..n.",
+  "id": "A379624",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000105",
+    "A109613",
+    "A379623",
+    "A379627",
+    "A379628"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

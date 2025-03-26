@@ -1,0 +1,17 @@
+{
+  "description": "Least number k such that there exist two different subsets of {n, n+1, ..., n+A380998(n)} whose products both are equal to k.",
+  "id": "A380999",
+  "mentions": [
+    "A380998",
+    "A381000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

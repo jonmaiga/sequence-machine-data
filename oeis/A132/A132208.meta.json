@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 15n(n+1) + 11.",
+  "description": "a(n) = 15*n*(n+1) + 11.",
   "id": "A132208",
   "mentions": [
     "A000217"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 45,
     "source": "joeis"
   }
 }

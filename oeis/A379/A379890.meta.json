@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the inradius of a pentagonal hexecontahedron with unit shorter edge length.",
+  "id": "A379890",
+  "mentions": [
+    "A379888",
+    "A379889",
+    "A379891",
+    "A379892"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

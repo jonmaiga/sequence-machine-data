@@ -1,9 +1,11 @@
 {
-  "description": "a(n) = number of divisors d of n which are either 1 or of the form Product_(i) (p_i^e_i) where the e_i are <= 1.",
+  "description": "a(n) = number of divisors d of n that are either 1 or of the form Product_(i) (p_i^e_i) where e_i = 1 for at least one i.",
   "id": "A183095",
   "mentions": [
     "A000005",
+    "A001620",
     "A001694",
+    "A082695",
     "A183093",
     "A183094"
   ],

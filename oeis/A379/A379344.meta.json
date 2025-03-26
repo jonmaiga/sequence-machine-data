@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of all numbers k such that the greatest prime factor of k^2 - 1 is prime(n).",
+  "id": "A379344",
+  "mentions": [
+    "A175607",
+    "A223701"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

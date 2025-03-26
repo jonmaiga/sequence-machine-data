@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of fundamentally different graceful labelings for a simple graph of n nodes.",
+  "id": "A379395",
+  "mentions": [
+    "A339892"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

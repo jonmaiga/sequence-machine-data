@@ -1,5 +1,5 @@
 {
-  "description": "Indices k such that the (k+1)-st partial sum of primes divided by k is integer.",
+  "description": "Indices k such that the (k+1)-st partial sum of primes divided by k is an integer.",
   "id": "A134126",
   "mentions": [
     "A007504",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

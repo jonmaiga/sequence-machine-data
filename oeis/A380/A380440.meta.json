@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 1 if n has no squarefree divisor d such that d^2 > n, otherwise 0.",
+  "id": "A380440",
+  "mentions": [
+    "A005117",
+    "A341645"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

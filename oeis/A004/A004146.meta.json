@@ -2,6 +2,7 @@
   "description": "Alternate Lucas numbers - 2.",
   "id": "A004146",
   "mentions": [
+    "A000032",
     "A000045",
     "A000204",
     "A001350",
@@ -32,7 +33,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 27,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that have a record number of divisors that have the same binary weight as k.",
+  "id": "A381069",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A380844",
+    "A381070"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

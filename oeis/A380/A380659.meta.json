@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array, read by descending antidiagonals: row n shows the numbers whose prime factorization includes n-1 non-Pythagorean primes (including multiplicities).",
+  "id": "A380659",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A002145",
+    "A083025",
+    "A380658"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

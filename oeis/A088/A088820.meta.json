@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with abundance radius of 8, i.e., abs(sigma(n)-2n) = 8.",
+  "description": "Numbers k with abundance radius of 8, i.e., abs(sigma(k)-2*k) = 8.",
   "id": "A088820",
   "mentions": [
     "A000203",
@@ -10,9 +10,13 @@
     "A055708",
     "A077374",
     "A088007",
+    "A088008",
+    "A088010",
+    "A088011",
     "A088012",
     "A088818",
     "A088819",
+    "A088833",
     "A125247"
   ],
   "tags": [
@@ -20,7 +24,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

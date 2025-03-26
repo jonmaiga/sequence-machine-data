@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 3*sqrt(3)/(4*Pi^2).",
+  "id": "A379392",
+  "mentions": [
+    "A002194",
+    "A002388",
+    "A010482",
+    "A212002",
+    "A240935"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

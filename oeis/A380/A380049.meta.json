@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A072203.",
+  "id": "A380049",
+  "mentions": [
+    "A058933",
+    "A072203"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

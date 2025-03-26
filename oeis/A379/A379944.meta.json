@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number of leading digits of n! that form a prime (or 0 if none exist).",
+  "id": "A379944",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A046277"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "a(n) = (1/2)*(n^3 - 6*n^2 + 13*n - 6).",
   "id": "A158498",
-  "mentions": [],
+  "mentions": [
+    "A000027",
+    "A000578"
+  ],
   "tags": [
     "easy",
     "formulas",

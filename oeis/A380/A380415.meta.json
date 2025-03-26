@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = phi(1 + phi(3 + phi(5 + ... + phi(2*n-1)))), where phi is Euler's totient function (A000010).",
+  "id": "A380415",
+  "mentions": [
+    "A000010",
+    "A005408",
+    "A380340",
+    "A380341",
+    "A380342",
+    "A380414"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

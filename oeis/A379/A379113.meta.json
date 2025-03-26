@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the greatest proper unitary divisor d of n such that A048720(A065621(sigma(d)),sigma(n/d)) is equal to sigma(n).",
+  "id": "A379113",
+  "mentions": [
+    "A000203",
+    "A048720",
+    "A065621",
+    "A325567",
+    "A379114",
+    "A379119"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

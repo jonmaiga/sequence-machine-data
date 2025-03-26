@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are not waterproof.",
+  "id": "A379097",
+  "mentions": [
+    "A001221",
+    "A126706",
+    "A275339",
+    "A375055",
+    "A379094",
+    "A379096",
+    "A379098"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

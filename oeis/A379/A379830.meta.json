@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of Pythagorean triples (u, v, w) for which w - u = n where u < v < w.",
+  "id": "A379830",
+  "mentions": [
+    "A024361",
+    "A024362",
+    "A024363",
+    "A046079",
+    "A046080",
+    "A046081",
+    "A096033",
+    "A224921"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

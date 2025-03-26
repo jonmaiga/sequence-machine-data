@@ -1,9 +1,10 @@
 {
-  "description": "81n^2 - 2247n + 15383.",
+  "description": "a(n) = 81*n^2 - 2247*n + 15383.",
   "id": "A182255",
   "mentions": [],
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {

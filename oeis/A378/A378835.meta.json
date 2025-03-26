@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with the median of the digits equal to the digital root.",
+  "id": "A378835",
+  "mentions": [
+    "A010888",
+    "A378560",
+    "A378564",
+    "A378836",
+    "A378837",
+    "A378838"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

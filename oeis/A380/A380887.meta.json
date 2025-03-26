@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer s such that n positive integers exist whose sum is s and whose product is s * 100^(n-1), or 0 if no such s exists.",
+  "id": "A380887",
+  "mentions": [
+    "A381187",
+    "A381619",
+    "A381621"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

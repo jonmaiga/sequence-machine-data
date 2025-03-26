@@ -1,5 +1,5 @@
 {
-  "description": "Difference between consecutive primes arising after difference (d=2) between twin primes. In A001223, terms following those which are equal to two.",
+  "description": "Difference between consecutive primes arising after difference (d=2) between twin primes. In A001223, terms succeeding those that equal 2.",
   "id": "A084291",
   "mentions": [
     "A001223",

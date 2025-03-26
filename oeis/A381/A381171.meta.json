@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. (1/x) * Series_Reversion( x / (1 + x*cosh(x)) ).",
+  "id": "A381171",
+  "mentions": [
+    "A162653",
+    "A162654",
+    "A185951",
+    "A215364",
+    "A381172",
+    "A381173",
+    "A381181"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

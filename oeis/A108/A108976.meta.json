@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 17*n + 19 is prime.",
+  "description": "Numbers k such that 17*k + 19 is prime.",
   "id": "A108976",
   "mentions": [],
   "tags": [

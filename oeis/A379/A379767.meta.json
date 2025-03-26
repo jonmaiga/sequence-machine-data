@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: row n lists numbers which are the n-th powers of their digit sum.",
+  "id": "A379767",
+  "mentions": [
+    "A001014",
+    "A007953",
+    "A046019",
+    "A061209",
+    "A061210",
+    "A061211",
+    "A133509",
+    "A152147",
+    "A254000",
+    "A375343"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

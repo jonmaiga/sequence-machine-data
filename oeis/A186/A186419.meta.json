@@ -1,5 +1,5 @@
 {
-  "description": "Binomial(2n,n)^4/(n+1)",
+  "description": "a(n) = binomial(2*n,n)^4/(n + 1).",
   "id": "A186419",
   "mentions": [
     "A000108",

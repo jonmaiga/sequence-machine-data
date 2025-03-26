@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients in a q-analog of the function LambertW(-2x)/(-2x), as a triangle read by rows.",
+  "description": "Coefficients in a q-analog of the function LambertW(-2*x)/(-2*x), as a triangle read by rows.",
   "id": "A152555",
   "mentions": [
     "A000108",

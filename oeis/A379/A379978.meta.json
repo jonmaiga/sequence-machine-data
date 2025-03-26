@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer which can be represented as the sum of its prime divisors in exactly n ways, or -1 if no such integer exists.",
+  "id": "A379978",
+  "mentions": [
+    "A066882",
+    "A096356"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

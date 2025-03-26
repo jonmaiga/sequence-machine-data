@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: The inverse matrix of the central factorials A370707, row n normalized by (-1)^(n - k)*A370707(n, n).",
+  "id": "A380113",
+  "mentions": [
+    "A000007",
+    "A002674",
+    "A005810",
+    "A008311",
+    "A081294",
+    "A088218",
+    "A094527",
+    "A110556",
+    "A370707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

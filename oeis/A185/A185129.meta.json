@@ -1,5 +1,5 @@
 {
-  "description": "Smaller member of a pair of triangular numbers whose sum and difference are triangular.",
+  "description": "a(n) = smaller member of n-th pair of distinct, positive, triangular numbers whose sum and difference are also triangular numbers.",
   "id": "A185129",
   "mentions": [
     "A000217",

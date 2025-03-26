@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n where the smallest part is a divisor d > 1 of n, and the other parts are positive powers of that divisor.",
+  "id": "A379957",
+  "mentions": [
+    "A072721",
+    "A322900",
+    "A322968"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,13 +2,14 @@
   "description": "Alternating row sums of triangle A049029 (S2(5)).",
   "id": "A145561",
   "mentions": [
+    "A000587",
     "A049029",
     "A049120"
   ],
   "tags": [
     "easy",
     "formulas",
-    "nonn"
+    "sign"
   ],
   "terms": {
     "offset": 1,

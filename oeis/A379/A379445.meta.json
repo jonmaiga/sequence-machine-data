@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gpf(prime(n)-1)*gpf(prime(n)+1), where gpf is A006530.",
+  "id": "A379445",
+  "mentions": [
+    "A000215",
+    "A000668",
+    "A006530",
+    "A006881",
+    "A023503",
+    "A023509",
+    "A058383",
+    "A087713",
+    "A268640"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "joeis"
+  }
+}

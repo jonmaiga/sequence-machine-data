@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimum edge covers in the n-cycle complement graph.",
+  "id": "A378862",
+  "mentions": [
+    "A003436",
+    "A278990",
+    "A351587",
+    "A356212"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

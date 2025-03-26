@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = k^2 - k + (A003173(n) + 1)/4 with 1 <= k < (A003173(n) + 1)/4.",
+  "id": "A382210",
+  "mentions": [
+    "A003173",
+    "A048058",
+    "A302445"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

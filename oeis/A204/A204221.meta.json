@@ -1,10 +1,11 @@
 {
-  "description": "Integers of the form (n^2 - 1) / 15.",
+  "description": "Integers of the form (N^2 - 1) / 15.",
   "id": "A204221",
   "mentions": [
     "A204220",
     "A204542",
-    "A219257"
+    "A219257",
+    "A379210"
   ],
   "tags": [
     "easy",

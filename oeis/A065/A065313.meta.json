@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Pi(n*Pi(n)).",
+  "description": "a(n) = pi(n*pi(n)).",
   "id": "A065313",
   "mentions": [
     "A000040",

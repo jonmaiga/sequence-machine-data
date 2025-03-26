@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first nonsquarefree number k such that the n consecutive nonsquarefree numbers starting with k are in arithmetic progression.",
+  "id": "A380595",
+  "mentions": [
+    "A013929",
+    "A045882",
+    "A376267"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

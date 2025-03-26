@@ -1,0 +1,22 @@
+{
+  "description": "Product of row n of A329708.",
+  "id": "A381056",
+  "mentions": [
+    "A000290",
+    "A000292",
+    "A000537",
+    "A005408",
+    "A007531",
+    "A087047",
+    "A329708"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

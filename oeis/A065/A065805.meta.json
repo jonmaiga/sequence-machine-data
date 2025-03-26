@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{j=0..n} sigma(j,n).",
+  "description": "a(n) = Sum_{j=0..n} sigma_j(n).",
   "id": "A065805",
   "mentions": [
     "A000005",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (A020639(2n+1) + A006530(2n+1))/2, arithmetic mean of max and min prime factor applied to odd numbers (i.e., when this mean is integer).",
+  "description": "a(n) = (A020639(2n+1) + A006530(2n+1))/2, arithmetic mean of max and min prime factor applied to odd numbers (i.e., when this mean is an integer).",
   "id": "A088836",
   "mentions": [
     "A006530",

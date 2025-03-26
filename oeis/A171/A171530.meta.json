@@ -2,16 +2,18 @@
   "description": "Denominator of (n-th nonprime/n).",
   "id": "A171530",
   "mentions": [
-    "A018252"
+    "A018252",
+    "A171529"
   ],
   "tags": [
     "easy",
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 72,
     "source": "oeis-entry"
   }
 }

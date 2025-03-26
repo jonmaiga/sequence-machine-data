@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest integer with distinct digits such that every substring of length n is a prime number.",
+  "id": "A380994",
+  "mentions": [
+    "A000040",
+    "A050278"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Centered pentagonal numbers which are products of three distinct primes (or sphenic numbers).",
+  "description": "Centered pentagonal numbers which are products of three distinct primes.",
   "id": "A364610",
   "mentions": [
     "A005891",

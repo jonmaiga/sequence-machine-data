@@ -1,5 +1,5 @@
 {
-  "description": "Prime(11*n).",
+  "description": "a(n) = prime(11*n).",
   "id": "A246929",
   "mentions": [
     "A000040",

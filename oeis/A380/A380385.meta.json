@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows. T(1, 1) = 1, T(n, k) = [n >= k](Sum_{i=1..k-1} T[n - i, k - 1] - Sum_{i=1..n-1} T[n - i, k]).",
+  "id": "A380385",
+  "mentions": [
+    "A008284",
+    "A010815",
+    "A231599"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

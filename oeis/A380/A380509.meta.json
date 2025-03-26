@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form i+j+4ij for i,j >= 1 together with numbers of the form -i-j+4ij for i,j >= 2.",
+  "id": "A380509",
+  "mentions": [
+    "A054520",
+    "A380140",
+    "A380549",
+    "A380550",
+    "A380572"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

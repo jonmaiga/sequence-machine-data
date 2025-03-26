@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = A011371(n) - A048881(n); The exponent of the highest power of 2 dividing the n-th factorial minus the exponent of the highest power of 2 dividing n-th Catalan number.",
+  "id": "A378992",
+  "mentions": [
+    "A000108",
+    "A000120",
+    "A000142",
+    "A007814",
+    "A011371",
+    "A048881",
+    "A050603",
+    "A050605",
+    "A092054",
+    "A136480",
+    "A204988"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

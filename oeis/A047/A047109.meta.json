@@ -1,8 +1,8 @@
 {
-  "description": "T(2n,n), array T as in A047110.",
+  "description": "T(2n,n), array T as in A047100.",
   "id": "A047109",
   "mentions": [
-    "A047110"
+    "A047100"
   ],
   "tags": [
     "nonn"

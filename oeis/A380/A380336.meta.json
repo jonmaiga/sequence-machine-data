@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of ways to choose a size k subset S of [n] and form a labeled acyclic digraph on S. Then form another labeled acyclic digraph on [n]-S. For each pair u in S and v in [n]-S add the directed edge u->v or not, n>=0, 0<=k<=n.",
+  "id": "A380336",
+  "mentions": [
+    "A003024",
+    "A339934"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

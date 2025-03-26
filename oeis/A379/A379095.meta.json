@@ -1,0 +1,18 @@
+{
+  "description": "The water sealings of numbers that are not waterproof (A379097).",
+  "id": "A379095",
+  "mentions": [
+    "A275339",
+    "A379096",
+    "A379097",
+    "A379098"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

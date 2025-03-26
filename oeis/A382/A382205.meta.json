@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum connected dominating sets in the n-halved cube graph.",
+  "id": "A382205",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

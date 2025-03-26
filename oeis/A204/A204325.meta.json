@@ -1,16 +1,16 @@
 {
-  "description": "Residual of an asymptotic formula for the n-th prime: Floor(prime(n)-n*log(n) + n - n*log(log(n)) - (n/log(n))*(log(log(n)) - 2) + (log(log(n)) - 6)*n*log(log(n))/(2*log(n)^2)).",
+  "description": "Residual of an asymptotic formula for the n-th prime: a(n) = floor(prime(n)-n*log(n) + n - n*log(log(n)) - (n/log(n))*(log(log(n)) - 2) + (log(log(n)) - 6)*n*log(log(n))/(2*log(n)^2)).",
   "id": "A204325",
   "mentions": [
     "A059111",
     "A064658"
   ],
   "tags": [
-    "nonn"
+    "sign"
   ],
   "terms": {
     "offset": 2,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

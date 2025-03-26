@@ -1,10 +1,13 @@
 {
-  "description": "Number of walks on square lattice.",
+  "description": "Number of walks on square lattice. Column y=3 of A052174.",
   "id": "A005561",
   "mentions": [
     "A005555",
     "A005558",
+    "A005559",
+    "A005560",
     "A005562",
+    "A052174",
     "A093768"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to place eight distinct positive integers on a square, four on the corners and four on the sides such that the sum of the three values on each side is n.",
+  "id": "A380962",
+  "mentions": [
+    "A005994",
+    "A006325",
+    "A380853"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 12,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -5,11 +5,10 @@
     "A082875"
   ],
   "tags": [
-    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 11,
     "source": "oeis-entry"
   }

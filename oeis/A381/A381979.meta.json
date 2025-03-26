@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the expected number of steps to termination by self-trapping of a self-avoiding random walk on the square lattice.",
+  "id": "A381979",
+  "mentions": [
+    "A001411",
+    "A077483",
+    "A322831",
+    "A378903"
+  ],
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

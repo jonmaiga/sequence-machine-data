@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n^2) XOR ((n^2)-1).",
+  "id": "A379007",
+  "mentions": [
+    "A000225",
+    "A000290",
+    "A003987",
+    "A007814",
+    "A037227",
+    "A038712",
+    "A283750"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

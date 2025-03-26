@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that for each digit of p, 2*p*(digit) + 1 is prime.",
+  "id": "A382199",
+  "mentions": [
+    "A382127",
+    "A382179",
+    "A382198"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

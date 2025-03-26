@@ -1,0 +1,19 @@
+{
+  "description": "Difference A003961(k)-(2*k) computed for the natural numbers k for which k and A003961(k) are relatively prime, where A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
+  "id": "A379229",
+  "mentions": [
+    "A003961",
+    "A252748",
+    "A319630",
+    "A379230"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

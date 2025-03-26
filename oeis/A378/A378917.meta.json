@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer having n decompositions of twice its value into ordered sums of two odd primes.",
+  "id": "A378917",
+  "mentions": [
+    "A002372",
+    "A065091",
+    "A298990",
+    "A378916"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "description": "Accumulation array of the Wythoff array, by antidiagonals.",
+  "description": "Accumulation array of the Wythoff array, read by antidiagonals.",
   "id": "A185737",
   "mentions": [
     "A001911",
     "A035513",
     "A144112",
-    "A185736"
+    "A144148"
   ],
   "tags": [
     "nonn",

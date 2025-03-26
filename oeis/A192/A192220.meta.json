@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes s such that tau(s-1)=tau(s+1) where tau=A000005.",
+  "description": "Semiprimes s such that tau(s-1) = tau(s+1) where tau = A000005.",
   "id": "A192220",
   "mentions": [
     "A000005",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 57,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

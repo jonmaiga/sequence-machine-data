@@ -2,10 +2,6 @@
   "description": "Decimal expansion of lim_{n->infinity} A124262(n)/10^(n-1).",
   "id": "A126041",
   "mentions": [
-    "A006902",
-    "A040016",
-    "A120031",
-    "A120040",
     "A124262"
   ],
   "tags": [

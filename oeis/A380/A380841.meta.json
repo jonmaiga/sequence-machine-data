@@ -1,0 +1,27 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) = n! * [x^n] 1/(1 - x*exp(x))^k.",
+  "id": "A380841",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A006153",
+    "A028552",
+    "A213643",
+    "A377529",
+    "A377530",
+    "A379993",
+    "A380842",
+    "A380843"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

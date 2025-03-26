@@ -1,0 +1,14 @@
+{
+  "description": "Numbers of minimum connected dominating sets in the n-Pell graph.",
+  "id": "A381755",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

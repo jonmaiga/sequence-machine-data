@@ -1,5 +1,5 @@
 {
-  "description": "Sum of [n mod Sum_of_digits(n)] and [Sumr_of_digits(n) mod n].",
+  "description": "Sum of [n mod Sum_of_digits(n)] and [Sum_of_digits(n) mod n].",
   "id": "A125960",
   "mentions": [
     "A070635"
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 85,
     "source": "oeis-entry"
   }

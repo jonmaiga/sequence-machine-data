@@ -1,0 +1,32 @@
+{
+  "description": "First term of the n-th differences of the strict partition numbers. Inverse zero-based binomial transform of A000009.",
+  "id": "A380412",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A007442",
+    "A008284",
+    "A087897",
+    "A129519",
+    "A175804",
+    "A218482",
+    "A266232",
+    "A281425",
+    "A293467",
+    "A320590",
+    "A320591",
+    "A377285",
+    "A378622",
+    "A378970",
+    "A378972"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

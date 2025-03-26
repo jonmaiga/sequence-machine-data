@@ -13,6 +13,7 @@
     "A080577",
     "A112798",
     "A129129",
+    "A145519",
     "A185974",
     "A193073",
     "A211992",
@@ -33,12 +34,13 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 0,
     "size": 67,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

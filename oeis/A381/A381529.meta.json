@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k) is the number of permutations of [n] having exactly k pairs of integers i=0, 0<=k<=A125811(n)-1, read by rows.",
+  "id": "A381529",
+  "mentions": [
+    "A000142",
+    "A008302",
+    "A051295",
+    "A125810",
+    "A125811",
+    "A126673",
+    "A381299",
+    "A381531",
+    "A381539",
+    "A381545"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

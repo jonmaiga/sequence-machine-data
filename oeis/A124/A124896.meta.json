@@ -7,11 +7,12 @@
     "A124895"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

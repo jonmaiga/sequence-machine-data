@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of achiral planar maps with n vertices and k faces, n >= 1, k >= 1.",
+  "id": "A379431",
+  "mentions": [
+    "A006443",
+    "A210736",
+    "A269920",
+    "A277741",
+    "A379430"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

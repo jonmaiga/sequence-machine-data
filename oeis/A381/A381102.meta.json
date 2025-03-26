@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows. For each j, 1<=j<=n properly color the vertices of a labeled graph on [n] using each of the first j colors in the color set {c1=0, 0<=k<=binomial(n,2).",
+  "id": "A381102",
+  "mentions": [
+    "A289545",
+    "A334282",
+    "A381058",
+    "A381192"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

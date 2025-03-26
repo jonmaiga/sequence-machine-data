@@ -1,18 +1,17 @@
 {
-  "description": "a(1) = 1, a(2) = 2. For n > 2 a(n) is the smallest number not already a term which is divisible by A007947(a(n-1)/A020639(a(n-1))).",
+  "description": "a(1) = 1, a(2) = 2. For n > 2, a(n) is the smallest number not already a term which is divisible by A007947(a(n-1)/A020639(a(n-1))).",
   "id": "A378722",
   "mentions": [
     "A007947",
-    "A020639",
-    "A020693"
+    "A020639"
   ],
   "tags": [
-    "more",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 63,
+    "source": "oeis-bfile"
   }
 }

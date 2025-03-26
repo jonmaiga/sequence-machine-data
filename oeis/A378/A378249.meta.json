@@ -1,5 +1,5 @@
 {
-  "description": "Least perfect-power > prime(n).",
+  "description": "Least perfect power > prime(n).",
   "id": "A378249",
   "mentions": [
     "A000015",

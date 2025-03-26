@@ -1,15 +1,14 @@
 {
-  "description": "Number of partitions of n into fractions k/(k+1), 0",
+  "description": "Number of partitions of n into fractions k/(k+1), 0 < k <= n.",
   "id": "A171978",
   "mentions": [],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

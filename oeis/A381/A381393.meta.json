@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of the double zeta(5/2,5/2).",
+  "id": "A381393",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

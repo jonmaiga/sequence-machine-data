@@ -1,0 +1,18 @@
+{
+  "description": "Hankel sequence transform of A378816.",
+  "id": "A378817",
+  "mentions": [
+    "A378783",
+    "A378816"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

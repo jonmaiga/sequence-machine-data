@@ -1,9 +1,11 @@
 {
-  "description": "Numbers x such that the quotient q=(sigma[x]+sigma[x+1])/sigma[2x+1] is smaller than 0.5, that is (sigma[x]+sigma[x+1])/>2.sigma[2x+1]; sigma=A000203.",
+  "description": "Numbers k such that the quotient (sigma(k) + sigma(k+1))/sigma(2*k+1) is smaller than 1/2.",
   "id": "A091291",
   "mentions": [
     "A000203",
+    "A067171",
     "A091287",
+    "A091289",
     "A091290"
   ],
   "tags": [
@@ -11,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

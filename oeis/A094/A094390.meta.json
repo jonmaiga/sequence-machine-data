@@ -1,8 +1,9 @@
 {
-  "description": "A Beatty sequence using exp(Pi/4).",
+  "description": "Beatty sequence of exp(Pi/4).",
   "id": "A094390",
   "mentions": [
-    "A094391"
+    "A094391",
+    "A160510"
   ],
   "tags": [
     "formulas",

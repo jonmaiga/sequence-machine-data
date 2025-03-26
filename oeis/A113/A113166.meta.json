@@ -1,5 +1,5 @@
 {
-  "description": "Total number of white pearls remaining in the chest - see Comments.",
+  "description": "a(n) = Sum_{d|n} A000010(n/d) * A000045(d-1).",
   "id": "A113166",
   "mentions": [
     "A000010",

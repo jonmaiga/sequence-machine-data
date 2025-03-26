@@ -1,18 +1,15 @@
 {
-  "description": "a(n) is largest prime < 8*a(n-1).",
+  "description": "a(n) is the largest prime < 8*a(n-1) for n > 1, with a(1) = 2.",
   "id": "A126036",
   "mentions": [
-    "A006902",
-    "A040016",
-    "A120031",
-    "A120040"
+    "A126031"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 22,
     "source": "joeis"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Number of subsets of 9 integers between 1 and n such that their sum is 3 modulo n.",
+  "id": "A381351",
+  "mentions": [
+    "A011796",
+    "A031164",
+    "A032194",
+    "A381289",
+    "A381290",
+    "A381291"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of five fifth powers in exactly one way.",
+  "description": "Numbers that are the sum of five positive fifth powers in exactly one way.",
   "id": "A344643",
   "mentions": [
     "A003350",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 57,
+    "size": 67,
     "source": "oeis-bfile"
   }
 }

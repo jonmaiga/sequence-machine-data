@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the number k such that s(k)=0 where s(0)=n and s(i)=s(i-1)-(s(i-1) modulo i).",
+  "description": "a(n) = the number k such that s(k)=0 where s(0)=n and s(i)=s(i-1)-(s(i-1) modulo (i+1)).",
   "id": "A082447",
   "mentions": [
     "A002491",

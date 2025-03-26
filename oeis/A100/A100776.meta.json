@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 997 * n + 1009.",
+  "description": "a(n) = 997*n + 1009.",
   "id": "A100776",
   "mentions": [
     "A017029",
@@ -9,11 +9,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 39,
     "source": "oeis-bfile"
   }
 }

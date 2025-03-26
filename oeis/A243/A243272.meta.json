@@ -1,5 +1,5 @@
 {
-  "description": "Number of graphs with n nodes that are Hamiltonian and Eulerian.",
+  "description": "Number of unlabeled simple graphs with n nodes that are Hamiltonian and Eulerian.",
   "id": "A243272",
   "mentions": [
     "A003049",

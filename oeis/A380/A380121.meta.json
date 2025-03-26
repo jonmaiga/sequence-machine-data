@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = C(n, Q(n+3, 4)-1)*C(n, Q(n+1, 4)) + C(n, Q(3*n+1, 4))*C(n, Q(3*n+3, 4)) where C = binomial and Q(x, y) = floor(x/y).",
+  "id": "A380121",
+  "mentions": [
+    "A378067"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

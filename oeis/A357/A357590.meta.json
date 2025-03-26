@@ -1,5 +1,5 @@
 {
-  "description": "Triangular numbers which are products of five distinct primes (or pentaprimes).",
+  "description": "Triangular numbers which are products of five distinct primes.",
   "id": "A357590",
   "mentions": [
     "A000217",

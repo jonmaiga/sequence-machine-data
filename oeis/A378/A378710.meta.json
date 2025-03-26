@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers k such that -k is properly represented by the Pell Form x^2 - 15*y^2.",
+  "id": "A378710",
+  "mentions": [
+    "A038887",
+    "A097956",
+    "A141302",
+    "A237606",
+    "A307359",
+    "A324251",
+    "A378711"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

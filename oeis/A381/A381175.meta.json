@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/( 1 - x * A(x)^2 * cos(x * A(x)) ).",
+  "id": "A381175",
+  "mentions": [
+    "A185951",
+    "A364984",
+    "A381172",
+    "A381173",
+    "A381174",
+    "A381176"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

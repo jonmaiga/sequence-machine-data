@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp( ((1+3*x)^(2/3) - 1)/2 ).",
+  "id": "A380261",
+  "mentions": [
+    "A000085",
+    "A002119",
+    "A004211",
+    "A380262"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

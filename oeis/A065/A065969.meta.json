@@ -1,7 +1,11 @@
 {
   "description": "a(n) = n^2 * Sum_{primes p dividing n} (1 + 1/p^2).",
   "id": "A065969",
-  "mentions": [],
+  "mentions": [
+    "A065967",
+    "A065968",
+    "A065970"
+  ],
   "tags": [
     "nonn"
   ],

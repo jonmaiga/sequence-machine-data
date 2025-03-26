@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows where row n contains k < n that are neither coprime to n nor have the same squarefree kernel as n, or 0 if there are no such k.",
+  "id": "A381094",
+  "mentions": [
+    "A007947",
+    "A121998",
+    "A133995",
+    "A369609",
+    "A381096"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

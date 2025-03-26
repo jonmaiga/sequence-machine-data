@@ -1,15 +1,16 @@
 {
-  "description": "a(n) = T(0,n) + T(1,n-1) + ... + T(n,0), array T given by A047848.",
+  "description": "a(n) = Sum_{k=0..n} A047848(k, n-k).",
   "id": "A047857",
   "mentions": [
     "A047848"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
-    "source": "joeis"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

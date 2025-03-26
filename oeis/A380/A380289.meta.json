@@ -1,0 +1,19 @@
+{
+  "description": "Unitary Double Zumkeller numbers: numbers whose set of unitary divisors can be partitioned into two disjoint sets with equal sums and equal cardinalities.",
+  "id": "A380289",
+  "mentions": [
+    "A007304",
+    "A083207",
+    "A290466",
+    "A342398",
+    "A347063"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

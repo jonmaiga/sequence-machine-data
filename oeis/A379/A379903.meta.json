@@ -1,0 +1,19 @@
+{
+  "description": "Local minima in A342042, in order of appearance: numbers m such that A342042(k-1) > A342042(k) = m < A342042(k+1), for k >= 2.",
+  "id": "A379903",
+  "mentions": [
+    "A342042",
+    "A379901",
+    "A379902",
+    "A379904"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

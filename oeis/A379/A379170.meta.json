@@ -1,0 +1,18 @@
+{
+  "description": "Let m be the concatenation, in descending order, of the divisors of k written in base 2 and then converted in base 10. Sequence lists k which divide m.",
+  "id": "A379170",
+  "mentions": [
+    "A224930",
+    "A379169"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

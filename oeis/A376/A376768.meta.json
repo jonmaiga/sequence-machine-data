@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 2; thereafter, a(n) = c*A376767(n-1) + 1, where c=4 if n is odd, c=2 if n is even.",
+  "description": "a(1) = 2; thereafter, a(n) = c*A376767(n-1) + 1, where c=4 if n is even, c=2 if n is odd.",
   "id": "A376768",
   "mentions": [
     "A374663",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

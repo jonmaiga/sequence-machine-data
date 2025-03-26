@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A050252(k) <= A055642(k).",
+  "id": "A379373",
+  "mentions": [
+    "A046758",
+    "A046759",
+    "A046760",
+    "A050252",
+    "A055642"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

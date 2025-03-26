@@ -1,0 +1,18 @@
+{
+  "description": "First coefficient of the lindep transform of phi(n).",
+  "id": "A380441",
+  "mentions": [
+    "A000010",
+    "A339790",
+    "A380442",
+    "A380443"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

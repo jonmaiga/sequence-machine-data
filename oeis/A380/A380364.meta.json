@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted combinatorial maps with n edges and without faces of degree 1.",
+  "id": "A380364",
+  "mentions": [
+    "A000166",
+    "A123023",
+    "A379433",
+    "A380365",
+    "A380366"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest semiprime > primorial(n).",
+  "id": "A379407",
+  "mentions": [
+    "A001358",
+    "A002110",
+    "A089539",
+    "A106325"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

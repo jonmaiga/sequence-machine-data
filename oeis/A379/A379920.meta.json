@@ -1,0 +1,14 @@
+{
+  "description": "Number of irreducible conic curves containing 6 points of a cyclic order n-torsion subgroup of an elliptic curve.",
+  "id": "A379920",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

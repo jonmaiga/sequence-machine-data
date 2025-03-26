@@ -1,5 +1,5 @@
 {
-  "description": "Number of unsensed maps with n edges on a surface of genus g, summed on g = 0 through [n/2].",
+  "description": "Number of unsensed combinatorial maps with n edges on an orientable surface of any genus.",
   "id": "A214816",
   "mentions": [
     "A006385",
@@ -13,7 +13,8 @@
     "A297881",
     "A348798",
     "A348800",
-    "A348801"
+    "A348801",
+    "A379439"
   ],
   "tags": [
     "formulas",
@@ -21,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "oeis-entry"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

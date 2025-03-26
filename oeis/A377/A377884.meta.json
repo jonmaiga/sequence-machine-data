@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers k without prime factors that are divisors of the greatest primorial less than k.",
+  "id": "A377884",
+  "mentions": [
+    "A002110",
+    "A002808",
+    "A260188",
+    "A335284"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

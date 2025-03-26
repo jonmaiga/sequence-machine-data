@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies 1/x = Sum_{n=-oo..+oo} A(x)^n * (A(x)^n + 3)^(n+1).",
+  "id": "A379203",
+  "mentions": [
+    "A166952",
+    "A378264",
+    "A379199",
+    "A379200",
+    "A379202",
+    "A379204",
+    "A379205"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

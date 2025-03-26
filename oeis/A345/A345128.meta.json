@@ -2,7 +2,9 @@
   "description": "Number of squarefree products s*t from all positive integer pairs (s,t), such that s + t = n, s <= t.",
   "id": "A345128",
   "mentions": [
-    "A008683"
+    "A008683",
+    "A071068",
+    "A379049"
   ],
   "tags": [
     "formulas",

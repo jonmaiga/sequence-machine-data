@@ -1,0 +1,20 @@
+{
+  "description": "A373711(n) is equal to the a(n)-th A379973(n)-gonal number.",
+  "id": "A379974",
+  "mentions": [
+    "A057145",
+    "A373711",
+    "A379973",
+    "A379975"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

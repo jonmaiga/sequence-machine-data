@@ -1,0 +1,24 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product (min(p_j, k_j)), with a(1) = 1.",
+  "id": "A381613",
+  "mentions": [
+    "A008473",
+    "A008477",
+    "A035306",
+    "A323308",
+    "A369008",
+    "A381588",
+    "A381614"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

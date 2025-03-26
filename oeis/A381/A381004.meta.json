@@ -1,0 +1,18 @@
+{
+  "description": "Primes ending in 777.",
+  "id": "A381004",
+  "mentions": [
+    "A102343",
+    "A193552"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

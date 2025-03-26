@@ -1,0 +1,24 @@
+{
+  "description": "In the binary expansion of n, arrange bits row-wise in a binary tree which is complete except for the last row and then read those bits in pre-order.",
+  "id": "A380856",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A007283",
+    "A053738",
+    "A053754",
+    "A335040",
+    "A378496",
+    "A379905"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

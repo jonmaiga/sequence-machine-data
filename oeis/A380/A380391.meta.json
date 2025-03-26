@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A343750(k) != k.",
+  "id": "A380391",
+  "mentions": [
+    "A000005",
+    "A004719",
+    "A010785",
+    "A272215",
+    "A343750"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

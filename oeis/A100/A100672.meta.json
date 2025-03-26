@@ -1,11 +1,13 @@
 {
-  "description": "Second least-significant bit in the binary expansion of the n-th prime.",
+  "description": "a(1) = 1; thereafter, a(n) = 1 if n-th prime is 3 mod 4, 0 if n-th prime is 1 mod 4.",
   "id": "A100672",
   "mentions": [
     "A000040",
     "A002144",
     "A002145",
+    "A039702",
     "A045326",
+    "A091237",
     "A098033"
   ],
   "tags": [

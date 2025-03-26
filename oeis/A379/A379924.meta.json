@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m that divide the alternating sum Sum_{k=1..m} (-1)^(k+1) * usigma(k).",
+  "id": "A379924",
+  "mentions": [
+    "A034448",
+    "A048290",
+    "A050226",
+    "A056550",
+    "A064605",
+    "A067929",
+    "A067931",
+    "A370898",
+    "A379922",
+    "A379923"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

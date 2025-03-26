@@ -1,0 +1,17 @@
+{
+  "description": "Index of first occurrence of n in A290148.",
+  "id": "A381225",
+  "mentions": [
+    "A290148"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

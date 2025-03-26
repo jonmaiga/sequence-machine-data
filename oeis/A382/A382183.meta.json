@@ -1,0 +1,17 @@
+{
+  "description": "Binary sequence linking A105774 and A382113.",
+  "id": "A382183",
+  "mentions": [
+    "A105774",
+    "A382113"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

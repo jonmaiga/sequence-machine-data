@@ -1,0 +1,18 @@
+{
+  "description": "The \"tetrational mean\" of 2 and 3 determined as the mutual limit of interdependent sequences.",
+  "id": "A378960",
+  "mentions": [
+    "A010464",
+    "A030798",
+    "A068985"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,12 @@
   "description": "Numerators of partial sums of reciprocals of primorial numbers.",
   "id": "A064646",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A064647",
+    "A064648"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

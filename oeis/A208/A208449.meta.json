@@ -2,9 +2,11 @@
   "description": "Numerator of A010786(n+1) / A010786(n).",
   "id": "A208449",
   "mentions": [
+    "A007955",
     "A010786",
     "A208448",
-    "A208450"
+    "A208450",
+    "A377484"
   ],
   "tags": [
     "formulas",
@@ -14,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

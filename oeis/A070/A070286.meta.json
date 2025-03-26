@@ -2,6 +2,7 @@
   "description": "Numbers k such that the equation sigma(sigma(x)) = k has solutions.",
   "id": "A070286",
   "mentions": [
+    "A051027",
     "A162923"
   ],
   "tags": [

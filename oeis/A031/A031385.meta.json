@@ -1,7 +1,10 @@
 {
   "description": "a(n) = prime(4*n-3).",
   "id": "A031385",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A031370"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = binomial(n+5, n)*binomial(n+8, 5).",
+  "description": "a(n) = binomial(n+5, 5)*binomial(n+8, 5).",
   "id": "A105940",
   "mentions": [
     "A062145"

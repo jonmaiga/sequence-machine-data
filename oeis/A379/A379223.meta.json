@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the divisors of the n-th odd square: a(n) = sigma((2*n-1)^2).",
+  "id": "A379223",
+  "mentions": [
+    "A000203",
+    "A016754",
+    "A065621",
+    "A065768",
+    "A379220",
+    "A379221",
+    "A379224"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

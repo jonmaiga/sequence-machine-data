@@ -14,15 +14,16 @@
     "A290103",
     "A316413",
     "A316428",
-    "A326567"
+    "A326567",
+    "A326620"
   ],
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 87,
-    "source": "oeis-entry"
+    "offset": 2,
+    "size": 107,
+    "source": "oeis-bfile"
   }
 }

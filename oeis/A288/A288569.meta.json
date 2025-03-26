@@ -2,6 +2,7 @@
   "description": "Start with n and repeatedly apply the map x -> A087207(x) until we reach 0; a(n) is the number of steps needed, or -1 if 0 is never reached.",
   "id": "A288569",
   "mentions": [
+    "A019565",
     "A087207"
   ],
   "tags": [

@@ -1,10 +1,11 @@
 {
-  "description": "Irregular triangle read by rows where if d|n then T(n,d) is the number of uniform multiset partitions of a multiset with d copies of each integer from 1 to n/d.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of uniform multiset partitions of a multiset with d = A027750(n,k) copies of each integer from 1 to n/d.",
   "id": "A322788",
   "mentions": [
     "A001055",
     "A002110",
     "A005176",
+    "A027750",
     "A038041",
     "A056239",
     "A072774",

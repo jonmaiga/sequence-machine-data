@@ -2,6 +2,7 @@
   "description": "Euler totient function phi(n): count numbers <= n and prime to n.",
   "id": "A000010",
   "mentions": [
+    "A000203",
     "A000217",
     "A001157",
     "A002088",

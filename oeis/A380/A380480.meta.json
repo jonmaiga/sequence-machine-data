@@ -1,0 +1,20 @@
+{
+  "description": "The maximal exponent in the prime factorization of Product_{d|n} A276086(n/d)^A349394(d).",
+  "id": "A380480",
+  "mentions": [
+    "A051903",
+    "A276086",
+    "A349394",
+    "A380459",
+    "A380479"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

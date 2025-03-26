@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. sin(tan(x)^2) (even powers only).",
+  "description": "Expansion of e.g.f. sin(tan(x)^2) (even powers only).",
   "id": "A009518",
   "mentions": [],
   "tags": [

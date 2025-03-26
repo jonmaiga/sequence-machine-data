@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can be written in exactly one way as a sum of at most nine positive third powers.",
+  "id": "A379396",
+  "mentions": [
+    "A002804",
+    "A025453",
+    "A379397",
+    "A379398",
+    "A379399",
+    "A379400"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

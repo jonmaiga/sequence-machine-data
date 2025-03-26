@@ -1,0 +1,16 @@
+{
+  "description": "First of six consecutive primes such that sum of any five terms is prime.",
+  "id": "A381061",
+  "mentions": [
+    "A298763",
+    "A381062"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

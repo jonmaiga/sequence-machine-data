@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(n+2) 0..1 arrays with no 3X3 subblock having three equal diagonal elements or three equal antidiagonal elements, and new values 0..1 introduced in row major order",
+  "description": "Number of (n+2) X (n+2) 0..1 arrays with no 3X3 subblock having three equal diagonal elements or three equal antidiagonal elements, and new values 0..1 introduced in row major order.",
   "id": "A204390",
   "mentions": [
     "A204398"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

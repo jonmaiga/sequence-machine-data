@@ -1,5 +1,5 @@
 {
-  "description": "Numbers x such that nextprime(x^2) - prevprime(x^2) = 4.",
+  "description": "Numbers k such that nextprime(k^2) - prevprime(k^2) = 4.",
   "id": "A090120",
   "mentions": [
     "A000040",
@@ -21,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

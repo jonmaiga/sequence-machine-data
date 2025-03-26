@@ -1,0 +1,17 @@
+{
+  "description": "Largest number of districts possible for A380377(n).",
+  "id": "A380382",
+  "mentions": [
+    "A380377",
+    "A380378",
+    "A380381"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of n-digit nonnegative integers with mode and mean of the digits equal.",
+  "id": "A379181",
+  "mentions": [
+    "A378564",
+    "A378836",
+    "A379180"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

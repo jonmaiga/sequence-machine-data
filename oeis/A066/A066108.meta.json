@@ -2,6 +2,7 @@
   "description": "Sum n^d over all divisors of n.",
   "id": "A066108",
   "mentions": [
+    "A008292",
     "A062793",
     "A062796",
     "A066106"

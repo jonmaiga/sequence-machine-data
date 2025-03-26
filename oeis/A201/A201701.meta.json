@@ -1,5 +1,5 @@
 {
-  "description": "Riordan triangle ((1-x)/(1-2x), x^2/(1-2x)).",
+  "description": "Riordan triangle ((1-x)/(1-2*x), x^2/(1-2*x)).",
   "id": "A201701",
   "mentions": [
     "A000012",

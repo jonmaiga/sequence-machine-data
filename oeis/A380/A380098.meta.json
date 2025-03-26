@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose sum of cubes of distinct prime factors is prime.",
+  "id": "A380098",
+  "mentions": [
+    "A005064",
+    "A114522",
+    "A114989"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

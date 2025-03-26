@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1, a(1) = 2, a(2) = 3; thereafter, a(n) = a(n-1) + (sum of prior prime terms or whose negatives are prime) - (sum of prior composite terms or whose negatives are composite).",
+  "id": "A381150",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A101135",
+    "A119746",
+    "A131093",
+    "A381149"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

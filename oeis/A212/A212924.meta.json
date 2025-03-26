@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0..n-1 arrays with no column j greater than column j-1 in all rows",
+  "description": "Number of n X n 0..n-1 arrays with no column j greater than column j-1 in all rows.",
   "id": "A212924",
   "mentions": [
     "A212930"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

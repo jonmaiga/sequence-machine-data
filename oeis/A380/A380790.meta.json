@@ -1,0 +1,26 @@
+{
+  "description": "Length of the n-th Golomb ruler constructed by the Paul Erdős and Pál Turán formula.",
+  "id": "A380790",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000330",
+    "A048153",
+    "A076409",
+    "A100104",
+    "A127921",
+    "A135177",
+    "A160378",
+    "A217793",
+    "A355879"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = denominator( [x^n] hypergeom([1/2, 1/2, 1/2, 1/4, 3/4], [1, 1, 1, 1], 256*x) ).",
+  "id": "A381298",
+  "mentions": [
+    "A381297"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

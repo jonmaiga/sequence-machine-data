@@ -1,0 +1,17 @@
+{
+  "description": "Number of subsets of 6 integers between 1 and n such that their sum is 0 modulo n.",
+  "id": "A381289",
+  "mentions": [
+    "A011796"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

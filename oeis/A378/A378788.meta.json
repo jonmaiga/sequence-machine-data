@@ -1,0 +1,14 @@
+{
+  "description": "Lower matching number of the (n,n)-stacked book graph.",
+  "id": "A378788",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

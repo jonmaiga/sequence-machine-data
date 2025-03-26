@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that (n, sigma(n)) lies on a circle with integral radius centered at the origin, i.e., n^2 + sigma(n)^2 is a square.",
+  "description": "Numbers k such that (k, sigma(k)) lies on a circle with integral radius centered at the origin, i.e., k^2 + sigma(k)^2 is a square.",
   "id": "A066764",
   "mentions": [
     "A017665",
-    "A017666"
+    "A017666",
+    "A066763"
   ],
   "tags": [
     "nonn"

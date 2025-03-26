@@ -2,6 +2,10 @@
   "description": "Nonsquarefree numbers k such that sigma(k) is squarefree.",
   "id": "A086368",
   "mentions": [
+    "A000203",
+    "A005117",
+    "A013929",
+    "A065300",
     "A065301",
     "A065303",
     "A087249"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n + [ns/r] + [nt/r] + [nu/r] + [nv/r] + [nw/r], where r=sinh(x), s=cosh(x), t=tanh(x), u=csch(x), v=sech(x), w=coth(x), where x=Pi/2.",
+  "description": "a(n) = n + [n*s/r] + [n*t/r] + [n*u/r] + [n*v/r] + [n*w/r], where r=sinh(x), s=cosh(x), t=tanh(x), u=csch(x), v=sech(x), w=coth(x), where x=Pi/2.",
   "id": "A190751",
   "mentions": [
     "A190752",

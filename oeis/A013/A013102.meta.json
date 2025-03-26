@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f: sech(arcsinh(x)+tan(x))=1-4/2!*x^2+72/4!*x^4-3414/6!*x^6...",
+  "description": "Expansion of e.g.f: sech(arcsinh(x)+tan(x)).",
   "id": "A013102",
   "mentions": [],
   "tags": [

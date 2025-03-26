@@ -1,0 +1,22 @@
+{
+  "description": "Product of the first n perfect powers (A001597).",
+  "id": "A380318",
+  "mentions": [
+    "A000442",
+    "A001044",
+    "A001597",
+    "A002110",
+    "A024923",
+    "A036691",
+    "A076408",
+    "A111059"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

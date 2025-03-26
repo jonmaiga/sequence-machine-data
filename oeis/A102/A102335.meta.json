@@ -1,10 +1,15 @@
 {
-  "description": "Initial terms of sextuplets of consecutive primes as follows: {p,p+16,p+24,p+40,p+48,p+64}. The corresponding difference-pattern is {16,8,16,8,16}.",
+  "description": "Initial terms of sextuplets of consecutive primes as follows: {p, p+16, p+24, p+40, p+48, p+64}. The corresponding difference-pattern is {16,8,16,8,16}.",
   "id": "A102335",
   "mentions": [
     "A001223",
     "A022008",
     "A052162",
+    "A052163",
+    "A052164",
+    "A052165",
+    "A052166",
+    "A052167",
     "A052168",
     "A052378",
     "A067140",
@@ -14,11 +19,12 @@
     "A102334"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "joeis"
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

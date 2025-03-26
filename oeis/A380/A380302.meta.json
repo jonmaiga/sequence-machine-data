@@ -1,0 +1,21 @@
+{
+  "description": "Area of the unique primitive Pythagorean triple whose inradius is the n-th odd prime and whose short leg is an even number.",
+  "id": "A380302",
+  "mentions": [
+    "A367335",
+    "A377017",
+    "A378386",
+    "A378966",
+    "A380301"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

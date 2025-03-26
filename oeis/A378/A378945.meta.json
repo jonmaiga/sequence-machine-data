@@ -1,0 +1,18 @@
+{
+  "description": "Record values in A378898.",
+  "id": "A378945",
+  "mentions": [
+    "A378898",
+    "A378946"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

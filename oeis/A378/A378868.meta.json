@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 5^k - 22 is prime.",
+  "id": "A378868",
+  "mentions": [
+    "A059613",
+    "A109080",
+    "A165701",
+    "A217134"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

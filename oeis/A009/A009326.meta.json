@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of log(1+sin(log(1+x))).",
+  "description": "Expansion of e.g.f.: log(1+sin(log(1+x))).",
   "id": "A009326",
   "mentions": [],
   "tags": [

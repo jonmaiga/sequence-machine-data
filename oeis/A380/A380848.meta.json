@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A380845(k) = 4*k.",
+  "id": "A380848",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A027687",
+    "A068404",
+    "A380845",
+    "A380846",
+    "A380847"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

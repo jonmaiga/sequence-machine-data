@@ -2,6 +2,7 @@
   "description": "a(n+1) = a(n)^2 + 75.",
   "id": "A248545",
   "mentions": [
+    "A000058",
     "A003095"
   ],
   "tags": [

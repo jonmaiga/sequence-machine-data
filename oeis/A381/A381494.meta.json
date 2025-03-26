@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number with reciprocal of period length n in base 7.",
+  "id": "A381494",
+  "mentions": [
+    "A003060",
+    "A218358",
+    "A379640"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Self-convolution of A300116.",
+  "id": "A380975",
+  "mentions": [
+    "A300116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

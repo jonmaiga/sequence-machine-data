@@ -1,5 +1,5 @@
 {
-  "description": "Even numbers n such that A105658(n) != n/2.",
+  "description": "Even numbers k such that A105658(k) != k/2.",
   "id": "A105732",
   "mentions": [
     "A105658",
@@ -8,7 +8,6 @@
     "A105769"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

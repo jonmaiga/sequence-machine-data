@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*abs( 1/A(x) )^2.",
+  "id": "A380708",
+  "mentions": [
+    "A003714"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

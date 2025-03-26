@@ -1,19 +1,27 @@
 {
-  "description": "First prime from A031932 whose distance to the next 14-twin increases.",
+  "description": "Least prime in A031932 (lesser of 14-twins) whose distance to the next 14-twin is 6*n.",
   "id": "A052356",
   "mentions": [
     "A031932",
+    "A052350",
+    "A052351",
+    "A052352",
+    "A052353",
+    "A052354",
+    "A052355",
+    "A052357",
+    "A052358",
+    "A052359",
     "A052380",
     "A052381",
     "A053325"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 38,
-    "source": "joeis"
+    "offset": 3,
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

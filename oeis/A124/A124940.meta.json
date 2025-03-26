@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+3 are 3-almost primes.",
+  "description": "Numbers k such that k and k+3 are 3-almost primes.",
   "id": "A124940",
   "mentions": [
     "A124941",

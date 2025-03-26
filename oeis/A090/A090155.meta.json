@@ -1,7 +1,11 @@
 {
   "description": "Primes of the form identical digits preceded by a 7.",
   "id": "A090155",
-  "mentions": [],
+  "mentions": [
+    "A030096",
+    "A030291",
+    "A235154"
+  ],
   "tags": [
     "base",
     "nonn"

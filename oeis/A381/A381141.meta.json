@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp( -LambertW(-x * cos(x)) ).",
+  "id": "A381141",
+  "mentions": [
+    "A009189",
+    "A185951",
+    "A381144",
+    "A381146"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

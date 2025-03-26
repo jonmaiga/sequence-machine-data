@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x)^3 * B(x*A(x)), where B(x) is the g.f. of A002293.",
+  "id": "A381942",
+  "mentions": [
+    "A002293",
+    "A366695",
+    "A381860",
+    "A381939"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,14 +1,19 @@
 {
-  "description": "Number of connected planar maps with n nodes and without loops or parallel edges.",
+  "description": "Number of sensed planar maps with n edges and without loops or parallel edges.",
   "id": "A006394",
-  "mentions": [],
+  "mentions": [
+    "A006384",
+    "A006390",
+    "A006395",
+    "A022558"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 12,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

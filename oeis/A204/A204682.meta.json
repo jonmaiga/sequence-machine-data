@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX5 0..3 arrays with no occurrence of three equal elements in a row horizontally, vertically, diagonally or antidiagonally, and new values 0..3 introduced in row major order",
+  "description": "Number of n X 5 0..3 arrays with no occurrence of three equal elements in a row horizontally, vertically, diagonally or antidiagonally, and new values 0..3 introduced in row major order.",
   "id": "A204682",
   "mentions": [
     "A204685"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

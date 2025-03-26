@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays containing all values 0..2 with every 2X2 subblock having two or three distinct values, and new values 0..2 introduced in row major order",
+  "description": "T(n,k) is the number of (n+1) X (k+1) 0..2 arrays containing all values 0..2 with every 2 X 2 subblock having two or three distinct values, and new values 0..2 introduced in row major order.",
   "id": "A210012",
   "mentions": [],
   "tags": [

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X 3 0..2 arrays with rows and antidiagonals unimodal and columns nondecreasing.",
+  "description": "Number of n X 3 0..2 arrays with rows, diagonals and antidiagonals unimodal and columns nondecreasing.",
   "id": "A224257",
   "mentions": [
     "A224262"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 32,
     "source": "joeis"
   }
 }

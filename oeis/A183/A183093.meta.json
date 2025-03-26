@@ -1,10 +1,12 @@
 {
-  "description": "a(1) = 0; thereafter, a(n) = number of divisors d of n such that if d = Product_(i) (p_i^e_i) then all e_i <= 1.",
+  "description": "a(n) = number of divisors d of n such that d > 1 and if d = Product_(i) (p_i^e_i) then e_i = 1 for at least one i.",
   "id": "A183093",
   "mentions": [
     "A000005",
+    "A001620",
     "A001694",
     "A005361",
+    "A082695",
     "A183094",
     "A183095",
     "A183096"

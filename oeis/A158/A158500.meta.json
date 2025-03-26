@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+sqrt(1+4x))*(1+2x)/(2*sqrt(1+4x)).",
+  "description": "Expansion of (1 + 2*x)*(1 + sqrt(1+4*x))/(2*sqrt(1+4*x)).",
   "id": "A158500",
   "mentions": [
     "A000108",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 30,
     "source": "oeis-bfile"
   }
 }

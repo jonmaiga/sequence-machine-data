@@ -1,7 +1,9 @@
 {
   "description": "Number of Hamiltonian cycles in C_5 X P_n.",
   "id": "A003731",
-  "mentions": [],
+  "mentions": [
+    "A359855"
+  ],
   "tags": [
     "easy",
     "formulas",

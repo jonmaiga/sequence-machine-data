@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the excess of the number of Fermi-Dirac factors of k over the number of distinct prime factors of k when k runs over the positive integers.",
+  "id": "A382294",
+  "mentions": [
+    "A001221",
+    "A046660",
+    "A064547",
+    "A088705",
+    "A136141",
+    "A382290"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

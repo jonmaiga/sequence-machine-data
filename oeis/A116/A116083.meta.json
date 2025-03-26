@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n such that phi(sigma(n))-sigma(phi(n))=1.",
+  "description": "Numbers k such that phi(sigma(k)) - sigma(phi(k)) = 1.",
   "id": "A116083",
   "mentions": [
     "A001229"
   ],
   "tags": [
     "formulas",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {

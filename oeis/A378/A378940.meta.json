@@ -1,0 +1,15 @@
+{
+  "description": "Number of nonzero 5 X n binary arrays with all 1's connected.",
+  "id": "A378940",
+  "mentions": [
+    "A287151"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Prime numbers which satisfy the regex m1{1,m1}m2{1,m2}m3{1,m3}m4{1,m4}m5{1,m5} where mi are one-digit Lucas numbers.",
   "id": "A319017",
   "mentions": [
-    "A000032"
+    "A000032",
+    "A178550"
   ],
   "tags": [
     "base",

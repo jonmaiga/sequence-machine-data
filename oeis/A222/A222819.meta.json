@@ -2,6 +2,7 @@
   "description": "a(n) = number of nontrivial reverse multipliers for base n.",
   "id": "A222819",
   "mentions": [
+    "A001232",
     "A214927",
     "A222817",
     "A222818",

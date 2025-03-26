@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of 16/(9*sqrt(1609)).",
+  "id": "A378793",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

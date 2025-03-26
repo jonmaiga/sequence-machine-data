@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} (-1)^k*C(n,k)^2*C(2*k,k), where C(n,k) denotes the binomial coefficient n!/(k!(n-k)!).",
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*C(n, k)^2*C(2*k, k), where C(n, k) denotes the binomial coefficient n!/(k!*(n-k)!).",
   "id": "A244973",
   "mentions": [
     "A000172",

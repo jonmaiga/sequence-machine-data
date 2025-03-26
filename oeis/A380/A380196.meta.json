@@ -1,0 +1,16 @@
+{
+  "description": "Orders of Origami monoid on n strings constructed from the Jones monoid on n strings.",
+  "id": "A380196",
+  "mentions": [
+    "A000108"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

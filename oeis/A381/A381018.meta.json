@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of primes in A000328 for r <= n.",
+  "id": "A381018",
+  "mentions": [
+    "A000328",
+    "A000720",
+    "A381017",
+    "A381020"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

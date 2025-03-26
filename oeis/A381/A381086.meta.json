@@ -1,0 +1,18 @@
+{
+  "description": "Column k=3 of Brent's table A381083 related to prime gaps 2n.",
+  "id": "A381086",
+  "mentions": [
+    "A381083",
+    "A381084",
+    "A381085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

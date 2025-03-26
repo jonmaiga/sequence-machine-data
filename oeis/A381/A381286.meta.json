@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - sin(3*x) / 3).",
+  "id": "A381286",
+  "mentions": [
+    "A000111",
+    "A136630",
+    "A352638",
+    "A381278",
+    "A381285"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -29,12 +29,13 @@
     "A373954"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

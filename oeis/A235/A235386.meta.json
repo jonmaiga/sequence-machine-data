@@ -1,5 +1,5 @@
 {
-  "description": "Positions of A235141, the first differences of A234300, which equal 1.",
+  "description": "Numbers k such that A235141(k) = 1.",
   "id": "A235386",
   "mentions": [
     "A000548",

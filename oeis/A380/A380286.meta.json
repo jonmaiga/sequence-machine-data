@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct values of the number of regions between the free polyominoes with n cells and their bounding boxes.",
+  "id": "A380286",
+  "mentions": [
+    "A000105",
+    "A004525",
+    "A379627",
+    "A379628",
+    "A380282",
+    "A380283",
+    "A380284",
+    "A380285"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

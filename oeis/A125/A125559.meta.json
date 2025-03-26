@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2n^3 + 7 is prime. For n>=8, bases in which 2007 is prime.",
+  "description": "Numbers k such that 2k^3 + 7 is prime. For k >= 8, bases in which 2007 is prime.",
   "id": "A125559",
   "mentions": [],
   "tags": [

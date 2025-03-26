@@ -2,7 +2,8 @@
   "description": "1/8 the number of 2 X 2 -n..n arrays with a 2 X 2 -n..n inverse, i.e., with determinant +-1.",
   "id": "A206258",
   "mentions": [
-    "A000010"
+    "A000010",
+    "A002088"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

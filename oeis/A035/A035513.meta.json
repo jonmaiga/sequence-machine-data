@@ -1,5 +1,5 @@
 {
-  "description": "Wythoff array read by antidiagonals.",
+  "description": "Wythoff array read by falling antidiagonals.",
   "id": "A035513",
   "mentions": [
     "A000032",

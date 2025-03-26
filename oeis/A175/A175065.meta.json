@@ -1,5 +1,5 @@
 {
-  "description": "Smallest perfect power m for which there are exactly n ways to write m as x^y with x >= 2, y >= 1.",
+  "description": "Smallest number m for which there are exactly n ways to write m as x^y with x >= 2, y >= 1.",
   "id": "A175065",
   "mentions": [
     "A000005",
@@ -12,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 9,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
   }
 }

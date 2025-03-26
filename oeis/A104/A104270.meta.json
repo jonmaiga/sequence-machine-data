@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-2)*(C(n,2)+2).",
+  "description": "a(n) = 2^(n - 2)*(binomial(n,2) + 2).",
   "id": "A104270",
   "mentions": [
     "A053730",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 31,
     "source": "joeis"
   }
 }

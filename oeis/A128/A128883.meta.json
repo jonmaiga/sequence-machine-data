@@ -1,5 +1,5 @@
 {
-  "description": "A 4 x 4 magic square read by rows.",
+  "description": "A 4 X 4 magic square with sum 33 read by rows.",
   "id": "A128883",
   "mentions": [
     "A126647",

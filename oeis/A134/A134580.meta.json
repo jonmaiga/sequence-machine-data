@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n * Fibonacci(n) - 1 is prime.",
+  "description": "Numbers k such that k * Fibonacci(k) - 1 is prime.",
   "id": "A134580",
   "mentions": [
     "A134313"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 23,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

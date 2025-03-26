@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = Product prime1(k)^prime1(n-k+1), k = 1 to n.",
+  "description": "a(n) = Product_{k=1..n} A008578(k)^A008578(n-k+1).",
   "id": "A131690",
   "mentions": [
+    "A008578",
     "A076265",
     "A087315"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

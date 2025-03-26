@@ -1,5 +1,5 @@
 {
-  "description": "Let p = prime(n). Then a(n) = Fibonacci(p+1)/p if this is integer, otherwise a(n) = Fibonacci(p-1)/p if this is integer, and fall back to a(n)=0 if both are non-integer.",
+  "description": "Let p = prime(n). Then a(n) = Fibonacci(p+1)/p if this is an integer, otherwise a(n) = Fibonacci(p-1)/p if this is an integer, and fall back to a(n)=0 if both are non-integer.",
   "id": "A176951",
   "mentions": [
     "A092330"

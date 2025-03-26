@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that omega(k)^k == omega(k) (mod k), where omega = A001221.",
+  "id": "A378696",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A001567",
+    "A002997",
+    "A214305",
+    "A379056"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Table read by rows: T(n, k) = (n + 1)^(n - 1) - (k - 1)*(n + 1)^(n - 2), by convention T(1, 0) = 1.",
+  "id": "A379611",
+  "mentions": [
+    "A007334",
+    "A374756",
+    "A375616",
+    "A379612",
+    "A379613"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

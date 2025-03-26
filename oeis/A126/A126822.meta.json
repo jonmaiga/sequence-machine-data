@@ -2,14 +2,16 @@
   "description": "Ramanujan numbers (A000594) read mod 4096.",
   "id": "A126822",
   "mentions": [
-    "A000594"
+    "A000594",
+    "A013959"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

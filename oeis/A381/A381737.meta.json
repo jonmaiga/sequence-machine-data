@@ -1,0 +1,18 @@
+{
+  "description": "Orders k of Hermite polynomials whose maximal coefficient in absolute value appears twice.",
+  "id": "A381737",
+  "mentions": [
+    "A060821",
+    "A277281",
+    "A381524"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

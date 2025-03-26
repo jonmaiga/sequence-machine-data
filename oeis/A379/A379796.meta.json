@@ -1,0 +1,27 @@
+{
+  "description": "Length of n-th block of consecutive negative terms in A377091.",
+  "id": "A379796",
+  "mentions": [
+    "A377091",
+    "A379066",
+    "A379788",
+    "A379789",
+    "A379790",
+    "A379791",
+    "A379792",
+    "A379793",
+    "A379794",
+    "A379795",
+    "A379882",
+    "A380837"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

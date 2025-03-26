@@ -1,5 +1,5 @@
 {
-  "description": "A sequence arising in solution of Monthly problem 12008.",
+  "description": "Card numbers (not equal to a power of 2) for top card reappearing at the top after three shuffles (Monthly problem 12008).",
   "id": "A328091",
   "mentions": [
     "A328092"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

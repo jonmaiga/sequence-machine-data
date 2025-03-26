@@ -1,5 +1,5 @@
 {
-  "description": "A003754(n+1) - A003754(n).",
+  "description": "a(n) = A003754(n+1) - A003754(n).",
   "id": "A107359",
   "mentions": [
     "A000071",
@@ -8,6 +8,7 @@
     "A005578"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

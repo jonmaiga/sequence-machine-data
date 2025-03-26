@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that can be written as a^2 + 3*b^2 for some a, b in A155716 and also as c^2 + 6*d^2 for some c, d in A092572.",
+  "id": "A380295",
+  "mentions": [
+    "A092572",
+    "A155712",
+    "A155716"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; thereafter, a(n) is the number of coincidences between the sequence thus far and its terms rearranged in descending order.",
+  "id": "A379250",
+  "mentions": [
+    "A276638",
+    "A379265",
+    "A379266"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

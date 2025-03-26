@@ -2,18 +2,18 @@
   "description": "a(n) is the minimal product of a positive integer sequence of length n with no duplicate substrings (forward or backward) of length greater than 1.",
   "id": "A282193",
   "mentions": [
+    "A081456",
     "A282164",
     "A282168",
     "A282169",
     "A282170"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimal edge cuts in the n-antiprism graph.",
+  "id": "A378922",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

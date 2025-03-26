@@ -2,7 +2,11 @@
   "description": "From higher-order arithmetic progressions.",
   "id": "A259464",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A001303",
+    "A087047",
+    "A259462",
+    "A259463"
   ],
   "tags": [
     "formulas",
@@ -11,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

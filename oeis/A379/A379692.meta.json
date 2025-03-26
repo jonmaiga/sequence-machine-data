@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 1; a(n) is the most recently occurring value not among the last k terms where k is the number of times a(n-1) has occurred; if no such value exists, a(n) is the smallest unused positive integer.",
+  "id": "A379692",
+  "mentions": [
+    "A358921"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

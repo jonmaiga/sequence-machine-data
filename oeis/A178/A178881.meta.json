@@ -1,5 +1,5 @@
 {
-  "description": "Sum of all pairs of greater common divisors for (i,j) where 1 <= i < j <= n.",
+  "description": "Sum of all pairs of greatest common divisors for (i,j) where 1 <= i < j <= n.",
   "id": "A178881",
   "mentions": [
     "A000010",

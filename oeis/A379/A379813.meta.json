@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = sigma_1(n) * sigma_3(n).",
+  "id": "A379813",
+  "mentions": [
+    "A000203",
+    "A001158",
+    "A013663",
+    "A072861",
+    "A091258",
+    "A091259",
+    "A092345",
+    "A092348",
+    "A356533",
+    "A356534",
+    "A379812",
+    "A379814"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

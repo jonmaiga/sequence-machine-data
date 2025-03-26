@@ -1,5 +1,5 @@
 {
-  "description": "Inverse Mobius Transform of A002654.",
+  "description": "Inverse Möbius transform of A002654.",
   "id": "A262209",
   "mentions": [
     "A000005",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 85,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

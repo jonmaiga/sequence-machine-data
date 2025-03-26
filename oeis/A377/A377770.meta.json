@@ -1,15 +1,17 @@
 {
   "description": "Number of edge cuts in the n-sun graph.",
   "id": "A377770",
-  "mentions": [],
+  "mentions": [
+    "A290933",
+    "A378796"
+  ],
   "tags": [
-    "bref",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 3,
-    "size": 3,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

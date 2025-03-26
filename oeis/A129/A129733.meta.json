@@ -1,11 +1,10 @@
 {
-  "description": "List of primitive prime divisors of the numbers (3^n-1)/2 (A003462) in their order of occurrence.",
+  "description": "List of primitive prime divisors of the numbers (3^k-1)/2 (A003462) for k>=2, in order of their occurrence.",
   "id": "A129733",
   "mentions": [
     "A000043",
     "A000225",
     "A003462",
-    "A004668",
     "A028491",
     "A076481",
     "A108974"

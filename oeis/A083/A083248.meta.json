@@ -1,5 +1,5 @@
 {
-  "description": "Numbers satisfying the following inequalities: A045763[n]>A000010[n]>A000005[n].",
+  "description": "Numbers k such that A045763(k) > A000010(k) > A000005(k).",
   "id": "A083248",
   "mentions": [
     "A000005",
@@ -8,6 +8,9 @@
     "A045763",
     "A073757",
     "A083243",
+    "A083244",
+    "A083245",
+    "A083246",
     "A083247"
   ],
   "tags": [
@@ -16,6 +19,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

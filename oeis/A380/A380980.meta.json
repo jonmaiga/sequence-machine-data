@@ -1,0 +1,16 @@
+{
+  "description": "Place 2n distinct positive integers on an n-gon, n on the vertices and n on the sides such that the sums of the three values on all sides are equal. a(n) is the minimal sum of all the integers used.",
+  "id": "A380980",
+  "mentions": [
+    "A380853"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

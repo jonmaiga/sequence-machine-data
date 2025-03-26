@@ -2,7 +2,10 @@
   "description": "Expansion of (1/x) * Series_Reversion( x / ( (1+x)^2 * (1+2*x)^2 ) ).",
   "id": "A371406",
   "mentions": [
-    "A371398"
+    "A219538",
+    "A371398",
+    "A379546",
+    "A379547"
   ],
   "tags": [
     "formulas",

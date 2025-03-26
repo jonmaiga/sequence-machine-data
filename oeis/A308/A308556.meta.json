@@ -2,9 +2,12 @@
   "description": "Number of (not necessarily connected) ungraceful graphs on n nodes.",
   "id": "A308556",
   "mentions": [
+    "A000088",
+    "A308548",
     "A308557"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],

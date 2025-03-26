@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n/(2*n-A082851(n)) is an integer.",
+  "description": "Numbers k such that k/(2*k-A082851(k)) is an integer.",
   "id": "A082396",
   "mentions": [
     "A082851"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

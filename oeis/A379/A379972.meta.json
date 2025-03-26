@@ -1,0 +1,14 @@
+{
+  "description": "Numbers x with 2^(m-1)",
+  "id": "A379972",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum of unitary prime divisors (A056169, A034444) of central binomial coefficient C(n, floor(n/2)).",
+  "description": "Sum of unitary prime divisors of binomial(n, floor(n/2)).",
   "id": "A064143",
   "mentions": [
     "A001405",

@@ -2,17 +2,20 @@
   "description": "Numbers k such that both k and k+1 are abundant.",
   "id": "A096399",
   "mentions": [
+    "A000203",
     "A005101",
     "A023196",
     "A103289",
-    "A103291"
+    "A103291",
+    "A169822"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 37,
     "source": "oeis-bfile"
   }
 }

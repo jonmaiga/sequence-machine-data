@@ -1,0 +1,18 @@
+{
+  "description": "Dirichlet inverse of A046897, where A046897 is the sum of divisors of n that are not divisible by 4.",
+  "id": "A379497",
+  "mentions": [
+    "A046897"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

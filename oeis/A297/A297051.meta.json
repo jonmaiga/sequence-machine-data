@@ -1,14 +1,20 @@
 {
   "description": "Number of edge covers in the n-Fibonacci cube graph.",
   "id": "A297051",
-  "mentions": [],
+  "mentions": [
+    "A291935",
+    "A297118",
+    "A297119",
+    "A364745",
+    "A377760"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

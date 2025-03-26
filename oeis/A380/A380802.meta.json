@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = log_2(A053026(n)).",
+  "id": "A380802",
+  "mentions": [
+    "A053026",
+    "A380803"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "For any nonnegative integer n with ternary expansion Sum_{k >= 0} t_k * 3^k, a(n) = Sum_{k >= 0} t_k * A000045(2*k + 2).",
+  "id": "A381607",
+  "mentions": [
+    "A000045",
+    "A022290",
+    "A028898",
+    "A381579"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

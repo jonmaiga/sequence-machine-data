@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(3*n+k-1,k) * binomial(3*n+k,n-3*k).",
+  "id": "A379087",
+  "mentions": [
+    "A379025",
+    "A379086",
+    "A379090"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

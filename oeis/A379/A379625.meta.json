@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of free polyominoes with n cells whose difference between length and width is k, n >= 1, k >= 0.",
+  "id": "A379625",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000105",
+    "A109613",
+    "A259087",
+    "A259088",
+    "A379623",
+    "A379624",
+    "A379626",
+    "A379627",
+    "A379628",
+    "A379629",
+    "A379637",
+    "A379638",
+    "A380283",
+    "A380284"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

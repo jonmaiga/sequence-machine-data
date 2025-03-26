@@ -2,6 +2,7 @@
   "description": "a(n) is the X-coordinate of the n-th point of the alternate terdragon curve; sequence A349198 gives Y-coordinates.",
   "id": "A349197",
   "mentions": [
+    "A005811",
     "A349040",
     "A349198"
   ],

@@ -1,0 +1,19 @@
+{
+  "description": "Shifts left one place under the inverse modulo 2 binomial transform.",
+  "id": "A380652",
+  "mentions": [
+    "A000587",
+    "A010060",
+    "A047999",
+    "A166966"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

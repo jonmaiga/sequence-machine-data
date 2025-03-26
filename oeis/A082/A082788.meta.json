@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that the product of Euler phi of the 2 consecutive integers {k,k+1} is a 4th power: if sqrt(sqrt(phi(k)*phi(k+1))) is integer, then k is here.",
+  "description": "Numbers k such that the product of Euler phi of the 2 consecutive integers {k,k+1} is a 4th power: if sqrt(sqrt(phi(k)*phi(k+1))) is an integer, then k is here.",
   "id": "A082788",
   "mentions": [],
   "tags": [

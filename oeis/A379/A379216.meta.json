@@ -1,0 +1,22 @@
+{
+  "description": "Difference 2*k - A003961(k) computed for k for which this difference divides difference (A003961(k)-sigma(k)), where A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
+  "id": "A379216",
+  "mentions": [
+    "A003961",
+    "A048674",
+    "A252748",
+    "A348514",
+    "A378980",
+    "A378981",
+    "A379217"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

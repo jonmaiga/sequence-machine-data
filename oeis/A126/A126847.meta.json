@@ -2,7 +2,9 @@
   "description": "Ramanujan numbers (A000594) read mod 23^3.",
   "id": "A126847",
   "mentions": [
-    "A000594"
+    "A000594",
+    "A126845",
+    "A126846"
   ],
   "tags": [
     "nonn"
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

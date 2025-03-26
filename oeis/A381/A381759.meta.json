@@ -1,0 +1,19 @@
+{
+  "description": "Number of words of length 2n+1 with one 0 entry and two entries of each of 1..n so that there are exactly k numbers between two equal k's and so that the first element does not exceed the last.",
+  "id": "A381759",
+  "mentions": [
+    "A014552",
+    "A176127",
+    "A381760"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

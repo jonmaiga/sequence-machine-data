@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of rooted planar maps.",
+  "description": "Triangle of rooted planar maps up to orientation-preserving isomorphisms.",
   "id": "A046653",
   "mentions": [
     "A000087",

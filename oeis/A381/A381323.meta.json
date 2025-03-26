@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least nondecreasing prime p such that n is the number of primes between p (not included) and p+n*log(p).",
+  "id": "A381323",
+  "mentions": [
+    "A381293"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

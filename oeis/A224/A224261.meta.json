@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..2 arrays with rows and antidiagonals unimodal and columns nondecreasing",
+  "description": "Number of n X 7 0..2 arrays with rows, diagonals and antidiagonals unimodal and columns nondecreasing.",
   "id": "A224261",
   "mentions": [
     "A224262"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Gamma(1/4)^2/(8*sqrt(2*Pi)).",
+  "id": "A382242",
+  "mentions": [
+    "A005408",
+    "A005843",
+    "A034937",
+    "A034947",
+    "A068466",
+    "A231863"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 115,
+    "source": "oeis-entry"
+  }
+}

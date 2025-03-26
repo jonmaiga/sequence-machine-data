@@ -1,0 +1,16 @@
+{
+  "description": "Lengths of runs in A157196.",
+  "id": "A379704",
+  "mentions": [
+    "A157196"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

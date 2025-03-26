@@ -2,12 +2,14 @@
   "description": "Primes with a prime number of binary digits, and with a prime number of 1's and a prime number of 0's.",
   "id": "A272478",
   "mentions": [
+    "A006512",
     "A052294",
     "A095079",
     "A272441"
   ],
   "tags": [
     "base",
+    "look",
     "nonn"
   ],
   "terms": {

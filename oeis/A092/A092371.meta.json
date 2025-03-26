@@ -1,11 +1,17 @@
 {
-  "description": "Triangle read by rows: T(n,k)=C(n,k)*C(n+k,n-k).",
+  "description": "Triangle read by rows: T(n, k) = binomial(n, k) * binomial(n+k, n-k).",
   "id": "A092371",
   "mentions": [
     "A000384",
     "A001297",
     "A002411",
-    "A063007"
+    "A006480",
+    "A063007",
+    "A082759",
+    "A104673",
+    "A104684",
+    "A105251",
+    "A107418"
   ],
   "tags": [
     "formulas",

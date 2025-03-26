@@ -1,0 +1,20 @@
+{
+  "description": "Inverse Euler transform of primorial numbers.",
+  "id": "A380498",
+  "mentions": [
+    "A002110",
+    "A030010",
+    "A030011",
+    "A112354",
+    "A380497"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + sin(x*A(x)) / A(x).",
+  "id": "A381180",
+  "mentions": [
+    "A136630",
+    "A196776",
+    "A201627",
+    "A381181",
+    "A381182"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

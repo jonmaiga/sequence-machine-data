@@ -1,0 +1,18 @@
+{
+  "description": "List of connected graphs, encoded as in A076184.",
+  "id": "A382193",
+  "mentions": [
+    "A001349",
+    "A076184",
+    "A382192"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

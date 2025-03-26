@@ -1,0 +1,19 @@
+{
+  "description": "Index of second half of decomposition of integers into pairs x(i)+y(j) based on A380008 and A380009, respectively.",
+  "id": "A381490",
+  "mentions": [
+    "A380008",
+    "A380009",
+    "A381489"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

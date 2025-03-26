@@ -1,7 +1,9 @@
 {
   "description": "a(1) = 2; for n >= 2, a(n) = f(a(n-1)) where f(n) = n*(n+1)*(n+2)*(n+3)/24.",
   "id": "A100009",
-  "mentions": [],
+  "mentions": [
+    "A000332"
+  ],
   "tags": [
     "easy",
     "less",

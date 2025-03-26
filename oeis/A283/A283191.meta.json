@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers p > 2 such that (2^p - 5)/3 is prime.",
+  "description": "Prime numbers p such that (2^p - 5)/3 is prime.",
   "id": "A283191",
   "mentions": [
     "A000978"

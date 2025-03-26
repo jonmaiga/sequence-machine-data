@@ -45,12 +45,11 @@
     "A375133"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

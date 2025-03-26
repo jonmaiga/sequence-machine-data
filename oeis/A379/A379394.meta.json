@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the area of the convex hull of a circle of circumference 1 and a line segment of length 1/2 with midpoint at the circle center.",
+  "id": "A379394",
+  "mentions": [
+    "A000796",
+    "A002388",
+    "A060294",
+    "A212002",
+    "A275477"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

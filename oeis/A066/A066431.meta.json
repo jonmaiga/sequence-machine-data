@@ -1,13 +1,15 @@
 {
   "description": "a(n) = 9^n mod n^9.",
   "id": "A066431",
-  "mentions": [],
+  "mentions": [
+    "A066606"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 22,
+    "size": 25,
     "source": "joeis"
   }
 }

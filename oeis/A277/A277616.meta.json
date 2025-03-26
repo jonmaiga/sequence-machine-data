@@ -2,8 +2,10 @@
   "description": "Lexicographically earliest sequence such that |a(n+1)-a(n)| is a square > 1 (for all n) and no number occurs twice; a(0) = 0.",
   "id": "A277616",
   "mentions": [
+    "A034175",
     "A277617",
-    "A277618"
+    "A277618",
+    "A377091"
   ],
   "tags": [
     "easy",
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 91,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

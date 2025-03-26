@@ -1,14 +1,18 @@
 {
-  "description": "Number of n-dimensional odd unimodular lattice (or quadratic forms).",
+  "description": "Number of n-dimensional odd unimodular lattices (or quadratic forms).",
   "id": "A054911",
   "mentions": [
     "A005134",
     "A054907",
+    "A054908",
     "A054909",
-    "A241121"
+    "A241121",
+    "A241122"
   ],
   "tags": [
+    "formulas",
     "hard",
+    "more",
     "nice",
     "nonn"
   ],

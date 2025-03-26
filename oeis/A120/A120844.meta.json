@@ -2,15 +2,24 @@
   "description": "Number of multi-trace BPS operators for the quiver gauge theory of the orbifold C^2/Z_2.",
   "id": "A120844",
   "mentions": [
+    "A000203",
+    "A001157",
     "A002117",
     "A005380",
     "A074962",
+    "A217093",
     "A253289",
     "A255271",
     "A255802",
-    "A255834"
+    "A255803",
+    "A255834",
+    "A255835",
+    "A255836",
+    "A363601",
+    "A363602"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

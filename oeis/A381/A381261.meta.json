@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp( -LambertW(-2 * x * cos(x)) / 2 ).",
+  "id": "A381261",
+  "mentions": [
+    "A185951",
+    "A381141"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

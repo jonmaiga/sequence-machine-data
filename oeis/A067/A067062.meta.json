@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n+2) - sigma(n) = prime(n+1) - prime(n).",
+  "description": "Numbers k such that sigma(k+2) - sigma(k) = prime(k+1) - prime(k).",
   "id": "A067062",
   "mentions": [],
   "tags": [

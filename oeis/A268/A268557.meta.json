@@ -1,14 +1,16 @@
 {
-  "description": "Arises in counting maps on a surface: see Coquereaux-Zuber (2015) for precise definition.",
+  "description": "Number of immersions of unoriented circle into oriented sphere with n labeled double points, where additionally each double point distinguishes one of the 4 half-edges incident to it.",
   "id": "A268557",
-  "mentions": [],
+  "mentions": [
+    "A268567"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 6,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

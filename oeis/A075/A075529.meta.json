@@ -1,14 +1,14 @@
 {
-  "description": "Number of possible values in a stochastic sequence.",
+  "description": "Let x(0),...,x(n), be an additive chain of length n+1 with x(0)=1 and satisfying x(k) = x(k-1) + x(j) for some j < k. a(n) is the number of distinct possible values taken on by x(n).",
   "id": "A075529",
   "mentions": [],
   "tags": [
-    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 15,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

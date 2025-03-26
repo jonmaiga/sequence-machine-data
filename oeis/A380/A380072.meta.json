@@ -1,0 +1,21 @@
+{
+  "description": "Ordered hypotenuses of Pythagorean triangles having legs that add up to a square.",
+  "id": "A380072",
+  "mentions": [
+    "A000290",
+    "A007913",
+    "A009000",
+    "A088319",
+    "A379830",
+    "A380073",
+    "A380074"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

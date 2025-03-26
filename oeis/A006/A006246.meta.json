@@ -1,5 +1,5 @@
 {
-  "description": "Number of simple arrangements of pseudolines in the projective plane with an oriented marked cell; number of oriented abstract order types of n points (distinguishing mirror-symmetric copies)",
+  "description": "Number of simple arrangements of pseudolines in the projective plane with an oriented marked cell; number of oriented abstract order types of n points (distinguishing mirror-symmetric copies).",
   "id": "A006246",
   "mentions": [
     "A006245",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

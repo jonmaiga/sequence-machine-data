@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of primes p <= n such that p^(p + n) == p (mod p + n).",
+  "id": "A380858",
+  "mentions": [
+    "A000040",
+    "A371883"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

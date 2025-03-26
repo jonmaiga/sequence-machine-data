@@ -1,8 +1,9 @@
 {
-  "description": "Numerator of PolyLog[ -n, 1/n ].",
+  "description": "Numerator of PolyLog(-n, 1/n).",
   "id": "A121376",
   "mentions": [
     "A119758",
+    "A121985",
     "A122778"
   ],
   "tags": [
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

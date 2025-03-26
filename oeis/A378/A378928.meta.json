@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that pi(k) = rad(k), where pi = A000720, rad = A007947.",
+  "id": "A378928",
+  "mentions": [
+    "A000720",
+    "A007947"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

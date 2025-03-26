@@ -1,13 +1,15 @@
 {
   "description": "a(n) = 7^n mod n^7.",
   "id": "A066429",
-  "mentions": [],
+  "mentions": [
+    "A066606"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
+    "size": 29,
     "source": "joeis"
   }
 }

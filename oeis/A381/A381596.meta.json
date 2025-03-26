@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of real zeros (counted with multiplicity) of the polynomial P(n,z) = Sum_{i=1..n} A001223(i)*z^(i-1) where A001223(i) = differences between consecutive primes.",
+  "id": "A381596",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A381604"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

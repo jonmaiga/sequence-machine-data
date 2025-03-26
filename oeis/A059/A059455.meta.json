@@ -11,6 +11,7 @@
     "A023330",
     "A053176",
     "A059452",
+    "A059453",
     "A059456",
     "A156659",
     "A156660",
@@ -18,11 +19,12 @@
     "A162019"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

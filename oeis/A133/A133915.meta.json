@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{i=0..n} C(2n-i,n+i)*2^i.",
+  "description": "a(n) = Sum_{i=0..n} C(2*n-i,n+i)*2^i.",
   "id": "A133915",
   "mentions": [
     "A000108",

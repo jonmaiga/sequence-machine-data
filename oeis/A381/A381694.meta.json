@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a (small) rhombicosidodecahedron.",
+  "id": "A381694",
+  "mentions": [
+    "A000796",
+    "A002163",
+    "A002194",
+    "A185093",
+    "A344149",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

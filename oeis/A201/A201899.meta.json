@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the greatest x satisfying x^2+3x+1=e^x.",
+  "description": "Decimal expansion of the greatest x satisfying x^2+3x+2=e^x.",
   "id": "A201899",
   "mentions": [
     "A201741",

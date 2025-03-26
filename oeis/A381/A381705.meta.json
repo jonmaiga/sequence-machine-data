@@ -1,0 +1,21 @@
+{
+  "description": "Length of iteration sequence of shortest unimodal Collatz (3x+1)/2 sequence that begins with exactly n increases and ends with continuous decreases until reaching 1.",
+  "id": "A381705",
+  "mentions": [
+    "A014682",
+    "A023365",
+    "A100702",
+    "A221905",
+    "A287319"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

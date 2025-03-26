@@ -1,5 +1,5 @@
 {
-  "description": "Number of primitive polynomials of degree n over GF(2).",
+  "description": "Number of primitive polynomials of degree n over GF(2) (version 2).",
   "id": "A000020",
   "mentions": [
     "A011260",

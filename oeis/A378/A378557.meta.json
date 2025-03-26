@@ -1,0 +1,19 @@
+{
+  "description": "Powers of 3 that do not contain the digit 3.",
+  "id": "A378557",
+  "mentions": [
+    "A000244",
+    "A131629"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

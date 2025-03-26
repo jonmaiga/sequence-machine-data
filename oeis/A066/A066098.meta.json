@@ -1,8 +1,9 @@
 {
-  "description": "Sum of digits of primorial(n) (A002110).",
+  "description": "Sum of digits of primorial(n).",
   "id": "A066098",
   "mentions": [
-    "A002110"
+    "A002110",
+    "A007953"
   ],
   "tags": [
     "base",
@@ -10,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 55,
+    "offset": 0,
+    "size": 56,
     "source": "joeis"
   }
 }

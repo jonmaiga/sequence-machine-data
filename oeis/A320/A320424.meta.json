@@ -15,12 +15,11 @@
     "A320430"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

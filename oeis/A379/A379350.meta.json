@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows in which row n lists numbers k such that the greatest prime factor of k^2 + 2 is A033203(n), the n-th prime not congruent to 5 or 7 mod 8.",
+  "id": "A379350",
+  "mentions": [
+    "A033203",
+    "A185397",
+    "A223701",
+    "A223702",
+    "A242488",
+    "A379349",
+    "A379351",
+    "A379352"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

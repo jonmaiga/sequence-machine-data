@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of coefficients in expansion of exp(-1 + 1 / Product_{k>=1} (1 - x^k)).",
+  "id": "A380271",
+  "mentions": [
+    "A000041",
+    "A017666",
+    "A058892",
+    "A066186",
+    "A067653",
+    "A098988",
+    "A380171"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

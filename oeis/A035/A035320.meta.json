@@ -1,5 +1,5 @@
 {
-  "description": "Right-hand diagonal of A035309.",
+  "description": "Right-hand diagonal of odd numbered rows in A035309.",
   "id": "A035320",
   "mentions": [
     "A035309",

@@ -2,6 +2,7 @@
   "description": "Number of different numbers that can be obtained from (the decimal expansion of) n by one step of the Choix de Bruxelles, version 1 (A323286) operation.",
   "id": "A323287",
   "mentions": [
+    "A307635",
     "A323286",
     "A323460"
   ],

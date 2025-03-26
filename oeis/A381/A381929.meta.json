@@ -1,0 +1,17 @@
+{
+  "description": "Ending positions of runs in the regular paperfolding sequence A034947.",
+  "id": "A381929",
+  "mentions": [
+    "A034947",
+    "A088431",
+    "A371594"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

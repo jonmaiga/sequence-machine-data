@@ -1,0 +1,22 @@
+{
+  "description": "In the ternary expansion of n, from right to left: replace the second, fourth, sixth, etc. nonzero digit, says d, by 3-d.",
+  "id": "A380352",
+  "mentions": [
+    "A004488",
+    "A038754",
+    "A380349",
+    "A380350",
+    "A380351"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

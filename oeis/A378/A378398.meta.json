@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array read by descending antidiagonals: (row 1) = u, and for n >= 2, (row n) = u-inverse runlength sequence of u, where u = A014675 (an infinite Fibonacci word). See Comments.",
+  "id": "A378398",
+  "mentions": [
+    "A014675",
+    "A378282",
+    "A378396",
+    "A378397",
+    "A378399",
+    "A378401"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

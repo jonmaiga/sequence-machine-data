@@ -2,10 +2,13 @@
   "description": "Maximal number that can be obtained by reversing n in an integer base.",
   "id": "A181385",
   "mentions": [
+    "A000982",
+    "A002620",
     "A091974"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

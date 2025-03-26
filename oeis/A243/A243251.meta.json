@@ -1,5 +1,5 @@
 {
-  "description": "Number of simple connected graphs g whose fractional chromatic number is not equal to its (integer) chromatic number.",
+  "description": "Number of simple connected graphs with n nodes whose fractional chromatic number is not equal to its (integer) chromatic number.",
   "id": "A243251",
   "mentions": [
     "A001349",

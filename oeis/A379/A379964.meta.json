@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if (n^2)-1 is not divisible by p^p for any prime p, otherwise 0.",
+  "id": "A379964",
+  "mentions": [
+    "A048103",
+    "A359550",
+    "A379965",
+    "A379971"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

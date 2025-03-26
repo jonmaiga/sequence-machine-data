@@ -1,11 +1,16 @@
 {
-  "description": "E.g.f.: exp(x*C(x)^2) where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers, A000108.",
+  "description": "Expansion of e.g.f. exp(x*C(x)^2) where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers, A000108.",
   "id": "A251568",
   "mentions": [
     "A000108",
     "A001517",
     "A080893",
-    "A251569"
+    "A082579",
+    "A250917",
+    "A251569",
+    "A380511",
+    "A380514",
+    "A382032"
   ],
   "tags": [
     "easy",

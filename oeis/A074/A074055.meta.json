@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A074037(n) = A002034(n).",
+  "description": "Numbers k such that A074037(k) = A002034(k).",
   "id": "A074055",
   "mentions": [
     "A002034",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 40,
     "source": "oeis-bfile"
   }
 }

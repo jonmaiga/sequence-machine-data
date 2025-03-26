@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: -log( 1 - (exp(x) - 1)^5 / 5! ).",
+  "description": "Expansion of e.g.f. -log( 1 - (exp(x) - 1)^5 / 5! ).",
   "id": "A346955",
   "mentions": [
     "A000481",

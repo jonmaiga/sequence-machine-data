@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of coefficients of odd powers of 1/q in the solution series for Tan[x]/x=1.",
+  "description": "Numerators of coefficients of odd powers of 1/q in the solution series for tan(x)/x=1.",
   "id": "A079330",
   "mentions": [
     "A088989",

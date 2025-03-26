@@ -2,9 +2,12 @@
   "description": "Triangular numbers that are 2-digit-repblocks.",
   "id": "A322045",
   "mentions": [
-    "A010785"
+    "A000217",
+    "A010785",
+    "A045914"
   ],
   "tags": [
+    "base",
     "fini",
     "full",
     "nonn"

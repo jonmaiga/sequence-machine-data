@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of (possibly non-distinct) prime elements in the multiset of bases and exponents in the prime factorization of n.",
+  "id": "A381401",
+  "mentions": [
+    "A106490",
+    "A349281",
+    "A381398",
+    "A381399"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

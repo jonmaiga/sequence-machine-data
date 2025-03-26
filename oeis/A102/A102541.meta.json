@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, formed from antidiagonals of Losanitsch's triangle. T(n,k ) = A034851(n-k, k), n >= 0 and 0 <= k <= floor(n/2).",
+  "description": "Triangle read by rows, formed from antidiagonals of Losanitsch's triangle. T(n, k) = A034851(n-k, k), n >= 0 and 0 <= k <= floor(n/2).",
   "id": "A102541",
   "mentions": [
     "A001224",

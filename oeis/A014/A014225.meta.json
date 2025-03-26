@@ -1,7 +1,9 @@
 {
   "description": "Number of initial pieces needed to reach level n in the Solitaire Army game.",
   "id": "A014225",
-  "mentions": [],
+  "mentions": [
+    "A000980"
+  ],
   "tags": [
     "fini",
     "full",

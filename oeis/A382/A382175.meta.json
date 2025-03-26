@@ -1,0 +1,21 @@
+{
+  "description": "Indices of records in A382173.",
+  "id": "A382175",
+  "mentions": [
+    "A001175",
+    "A326612",
+    "A382172",
+    "A382173",
+    "A382174",
+    "A382176"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

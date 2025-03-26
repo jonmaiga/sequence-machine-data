@@ -1,12 +1,14 @@
 {
-  "description": "Let x(0)x(1)x(2)...x(q) denote the decimal expansion of n. Sequence lists the numbers n > 10 such that x(0)/x(1)x(2)... x(q) + x(0)x(1)/x(2)x(3)...x(q) + ... + x(0)x(1)... x(q-1)/x(q) is an integer where the digits x(i) > 0 for i = 0,1,..q",
+  "description": "Let x(0)x(1)x(2)...x(q) denote the decimal expansion of k. Sequence lists all zeroless numbers k > 10 such that x(0)/x(1)x(2)... x(q) + x(0)x(1)/x(2)x(3)...x(q) + ... + x(0)x(1)... x(q-1)/x(q) is an integer.",
   "id": "A232185",
   "mentions": [
+    "A052382",
     "A084906",
     "A232184"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

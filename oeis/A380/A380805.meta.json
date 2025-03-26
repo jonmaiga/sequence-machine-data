@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled simple connected graphs with n nodes of degree at most 3 and each node a member of exactly one cycle.",
+  "id": "A380805",
+  "mentions": [
+    "A000083",
+    "A001349",
+    "A317722",
+    "A380632",
+    "A380633"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

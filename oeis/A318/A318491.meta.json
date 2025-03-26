@@ -4,21 +4,25 @@
   "mentions": [
     "A000005",
     "A000203",
+    "A001620",
     "A006171",
     "A007429",
+    "A013661",
     "A017665",
     "A017666",
     "A060640",
+    "A306016",
     "A318492"
   ],
   "tags": [
     "formulas",
     "frac",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

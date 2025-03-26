@@ -1,0 +1,19 @@
+{
+  "description": "Non-Niven (or non-Harshad) numbers that are divisible by the square of the sum of the squares of their digits.",
+  "id": "A379981",
+  "mentions": [
+    "A005349",
+    "A065877",
+    "A379980"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

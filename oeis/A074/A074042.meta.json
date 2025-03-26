@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of Sum{1/A077800(k)|1<=k<=n}, denominator=A074043.",
+  "description": "Numerator of Sum_{k=1..n} 1/A077800(k), denominator=A074043.",
   "id": "A074042",
   "mentions": [
     "A065421",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

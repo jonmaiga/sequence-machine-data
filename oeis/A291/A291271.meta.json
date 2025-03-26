@@ -2,13 +2,15 @@
   "description": "The arithmetic function v_4(n,2).",
   "id": "A291271",
   "mentions": [
+    "A244009",
     "A289435",
     "A289436",
     "A289437",
     "A289438",
     "A289439",
     "A289440",
-    "A289441"
+    "A289441",
+    "A291330"
   ],
   "tags": [
     "formulas",

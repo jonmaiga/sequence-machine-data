@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row gives the number of points of an n X n square lattice that lie above or to the left of a line of increasing slope that passes through two lattice points one of which is the bottom-left corner of the lattice, (0, 0).",
+  "id": "A376832",
+  "mentions": [
+    "A002378",
+    "A006842",
+    "A006843",
+    "A118403",
+    "A161680",
+    "A379540"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

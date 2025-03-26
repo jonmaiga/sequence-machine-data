@@ -2,6 +2,8 @@
   "description": "a(n) is the number for which 2^A181516(n)||(2*a(n))!",
   "id": "A181518",
   "mentions": [
+    "A000040",
+    "A005187",
     "A011371",
     "A181516"
   ],

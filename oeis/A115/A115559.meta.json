@@ -1,14 +1,16 @@
 {
-  "description": "a(n) is here if it is not a prime number and it is an integer square root of an entry taken from A115557.",
+  "description": "Nonprime terms of A115558.",
   "id": "A115559",
   "mentions": [
     "A000005",
     "A000203",
+    "A018252",
     "A062068",
     "A062069",
     "A076360",
     "A076361",
     "A115557",
+    "A115558",
     "A115560"
   ],
   "tags": [

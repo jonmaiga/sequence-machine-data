@@ -1,0 +1,33 @@
+{
+  "description": "The number of unitary divisors of n that are perfect powers (A001597).",
+  "id": "A380398",
+  "mentions": [
+    "A001597",
+    "A005117",
+    "A007424",
+    "A008683",
+    "A061742",
+    "A077610",
+    "A091050",
+    "A118914",
+    "A278908",
+    "A307848",
+    "A323308",
+    "A358260",
+    "A365549",
+    "A368978",
+    "A369163",
+    "A380399",
+    "A380400"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

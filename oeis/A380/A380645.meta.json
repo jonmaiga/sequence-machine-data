@@ -1,0 +1,16 @@
+{
+  "description": "The expansion of the Stieltjes continued fraction 1/(1 - x/(1 - a(A053645(0))*x/(1 - a(A053645(1))*x/(1 - a(A053645(2))*x/...)))) gives the sequence itself.",
+  "id": "A380645",
+  "mentions": [
+    "A053645"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

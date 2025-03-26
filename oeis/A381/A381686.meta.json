@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a truncated cube.",
+  "id": "A381686",
+  "mentions": [
+    "A000796",
+    "A002194",
+    "A010524",
+    "A156164",
+    "A377298",
+    "A377299",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

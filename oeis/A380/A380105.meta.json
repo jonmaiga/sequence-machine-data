@@ -1,0 +1,16 @@
+{
+  "description": "Perimeter-magic triangles of order 3 with magic sum n, bracelet symmetry, and minimum term 1.",
+  "id": "A380105",
+  "mentions": [
+    "A380853"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 9,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

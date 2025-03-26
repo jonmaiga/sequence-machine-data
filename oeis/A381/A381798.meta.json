@@ -1,0 +1,17 @@
+{
+  "description": "Number of residues r such that p^m is congruent to r (mod n), where prime p | n and m >= 0.",
+  "id": "A381798",
+  "mentions": [
+    "A000961",
+    "A381799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "For n a power of 2, a(n) = n. If n is not a power of 2, a(n) is the smallest number not yet in the sequence which shares a decimal digit and a prime factor with n, and has the same binary weight.",
+  "id": "A380809",
+  "mentions": [
+    "A000120"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

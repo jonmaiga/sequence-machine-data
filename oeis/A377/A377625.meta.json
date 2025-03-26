@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers whose nonadjacent form is antipalindromic.",
+  "id": "A377625",
+  "mentions": [
+    "A233571",
+    "A379015",
+    "A379040"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

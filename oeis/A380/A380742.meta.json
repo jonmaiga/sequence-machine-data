@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers m such that the sum of the squares of the odd divisors and the sum of the squares of even divisors of m are both squares.",
+  "id": "A380742",
+  "mentions": [
+    "A000203",
+    "A000593",
+    "A001157",
+    "A050999",
+    "A146076"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

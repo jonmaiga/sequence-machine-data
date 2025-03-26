@@ -1,5 +1,5 @@
 {
-  "description": "11-gonal (or hendecagonal) numbers which are products of four distinct primes.",
+  "description": "11-gonal numbers which are products of four distinct primes.",
   "id": "A354086",
   "mentions": [
     "A046386",

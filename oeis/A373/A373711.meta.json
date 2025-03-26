@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are simultaneously k-gonal and k-gonal pyramidal for some k >= 3.",
+  "id": "A373711",
+  "mentions": [
+    "A027568",
+    "A027669",
+    "A027696",
+    "A057145",
+    "A080851",
+    "A344376",
+    "A344410",
+    "A379973",
+    "A379974",
+    "A379975"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

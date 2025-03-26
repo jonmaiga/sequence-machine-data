@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = B(x*A(x)) / (1 - x)^2, where B(x) is the g.f. of A002293.",
+  "id": "A381945",
+  "mentions": [
+    "A002293",
+    "A086616",
+    "A381867",
+    "A381943"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the obtuse vertex angle, in radians, in a deltoidal hexecontahedron face.",
+  "id": "A380863",
+  "mentions": [
+    "A002163",
+    "A379385",
+    "A379386",
+    "A379387",
+    "A379388",
+    "A379389",
+    "A380861",
+    "A380862"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

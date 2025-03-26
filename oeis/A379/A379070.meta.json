@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = |A377091(n)|.",
+  "id": "A379070",
+  "mentions": [
+    "A377091",
+    "A379071"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

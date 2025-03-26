@@ -1,0 +1,27 @@
+{
+  "description": "G.f. A(x,y) satisfies 1/x = Sum_{n=-oo..+oo} A(x,y)^n * (A(x,y)^n + y)^(n+1), as a triangle of coefficients T(n,k) of x^n*y^k in A(x,y), read by rows.",
+  "id": "A379200",
+  "mentions": [
+    "A000108",
+    "A028329",
+    "A166952",
+    "A378264",
+    "A379199",
+    "A379201",
+    "A379202",
+    "A379203",
+    "A379204",
+    "A379205",
+    "A379206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

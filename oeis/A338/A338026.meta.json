@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 8; for n > 1, a(n) is the largest integer m such that m = ((2x * a(n-1)) /(x+1)) - x, with x a positive nontrivial divisor of m.",
+  "description": "a(1) = 8; for n > 1, a(n) is the largest integer m such that m = ((2*x*a(n-1)) / (x+1)) - x, with x a positive nontrivial divisor of m.",
   "id": "A338026",
   "mentions": [
     "A209724"

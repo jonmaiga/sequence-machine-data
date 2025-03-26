@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the smallest angular distance between two vertices of the equilateral square antiprism measured along the circumscribing sphere.",
+  "id": "A381756",
+  "mentions": [
+    "A086178"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=0, a(2)=9; then distinct squares such that sum of three successive terms is a square.",
+  "description": "a(1)=0, a(2)=9; then distinct squares such that the sum of three successive terms is a square.",
   "id": "A075373",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

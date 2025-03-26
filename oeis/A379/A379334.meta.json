@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the minimum value of the function s(t) = (Pi + 2*sqrt(1 + t^2))/(1 + Pi/2 + t) for t > 0.",
+  "id": "A379334",
+  "mentions": [
+    "A000796",
+    "A002388",
+    "A019694",
+    "A091925"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

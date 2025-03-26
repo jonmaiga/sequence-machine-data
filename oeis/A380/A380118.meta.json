@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (A014963(k) - A061397(k)).",
+  "id": "A380118",
+  "mentions": [
+    "A010051",
+    "A014963",
+    "A034387",
+    "A048671",
+    "A061397",
+    "A072107",
+    "A182936",
+    "A380117"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

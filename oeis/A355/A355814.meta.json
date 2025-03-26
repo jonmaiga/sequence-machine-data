@@ -2,17 +2,16 @@
   "description": "Smallest value t such that 1/s^2 + 1/t^2 = 1/p^2 + 1/q^2 has exactly n solutions (p,q) where p,q < t; or -1 if no such t exists.",
   "id": "A355814",
   "mentions": [
+    "A328151",
     "A355812",
     "A355813"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 44,
     "source": "oeis-entry"
   }
 }

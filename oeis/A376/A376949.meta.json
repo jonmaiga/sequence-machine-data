@@ -1,5 +1,5 @@
 {
-  "description": "Products of 5 distinct primes (or pentaprimes) that are sandwiched between squarefree semiprime numbers.",
+  "description": "Products of 5 distinct primes that are sandwiched between squarefree semiprime numbers.",
   "id": "A376949",
   "mentions": [
     "A006881",

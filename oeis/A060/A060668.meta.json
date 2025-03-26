@@ -2,6 +2,7 @@
   "description": "Numbers k such that phi(x) = k has exactly 5 solutions.",
   "id": "A060668",
   "mentions": [
+    "A000010",
     "A007366",
     "A007367",
     "A007617",

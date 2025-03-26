@@ -2,11 +2,19 @@
   "description": "Number of partitions of n into 3 positive parts.",
   "id": "A069905",
   "mentions": [
+    "A000212",
     "A001399",
+    "A002620",
     "A005044",
+    "A008133",
     "A008284",
     "A008615",
-    "A026810"
+    "A026810",
+    "A079978",
+    "A198442",
+    "A307018",
+    "A309511",
+    "A309513"
   ],
   "tags": [
     "easy",

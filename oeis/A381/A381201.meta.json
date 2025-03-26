@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the product of the elements of the set of bases and exponents in the prime factorization of n.",
+  "id": "A381201",
+  "mentions": [
+    "A000026",
+    "A336965",
+    "A381202",
+    "A381203",
+    "A381204",
+    "A381205"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

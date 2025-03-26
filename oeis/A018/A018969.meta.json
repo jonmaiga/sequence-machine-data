@@ -1,5 +1,5 @@
 {
-  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AFT = AlPO4-52.",
+  "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AFT = AlPO4-52 starting with a T3 atom.",
   "id": "A018969",
   "mentions": [],
   "tags": [

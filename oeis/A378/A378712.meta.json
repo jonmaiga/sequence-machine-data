@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the surface area of a disdyakis dodecahedron with unit shorter edge length.",
+  "id": "A378712",
+  "mentions": [
+    "A002193",
+    "A377343",
+    "A378393",
+    "A378713",
+    "A378714",
+    "A378715"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

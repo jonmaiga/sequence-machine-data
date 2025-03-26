@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the n-digit numerator of the fraction h/k with h and k coprime positive integers at which abs((h/k)^4-Pi) is minimal.",
+  "id": "A380099",
+  "mentions": [
+    "A000796",
+    "A092040",
+    "A210621",
+    "A355622",
+    "A364844",
+    "A380100"
+  ],
+  "tags": [
+    "base",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

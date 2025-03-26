@@ -2,14 +2,18 @@
   "description": "Square abundant numbers.",
   "id": "A063734",
   "mentions": [
-    "A005101"
+    "A000290",
+    "A005101",
+    "A363169",
+    "A381738"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

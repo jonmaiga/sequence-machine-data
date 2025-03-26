@@ -2,9 +2,13 @@
   "description": "Numerator of Sum_{k=1..n} phi(k)/k^3.",
   "id": "A072158",
   "mentions": [
-    "A072159"
+    "A000010",
+    "A072159",
+    "A306633"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "frac",
     "nonn"
   ],

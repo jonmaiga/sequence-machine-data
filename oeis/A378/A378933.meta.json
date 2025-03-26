@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimal edge cuts in the 3 X n grid graph.",
+  "id": "A378933",
+  "mentions": [
+    "A166761",
+    "A359988",
+    "A378932",
+    "A378934"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

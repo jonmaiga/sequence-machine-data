@@ -1,5 +1,5 @@
 {
-  "description": "Number of distinct prime factors of sigma_2(n) = A001157(n), the sum of squares of divisors of n.",
+  "description": "Number of distinct prime factors of sigma_2(n), where sigma_2(n) = A001157(n).",
   "id": "A066088",
   "mentions": [
     "A001157",

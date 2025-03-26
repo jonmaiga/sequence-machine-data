@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k whose base-10 digits can be split into two parts, q and r, with k = (|q-r|)^3.",
+  "id": "A379591",
+  "mentions": [
+    "A102766",
+    "A228103"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

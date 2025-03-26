@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = 11*4^n+1.",
+  "description": "a(n) = 11*4^n + 1.",
   "id": "A199211",
-  "mentions": [],
+  "mentions": [
+    "A199210"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

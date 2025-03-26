@@ -2,6 +2,7 @@
   "description": "Transform of C(n+1,floor((n+1)/2)) by A178112.",
   "id": "A178113",
   "mentions": [
+    "A005773",
     "A026392",
     "A178112",
     "A178115"

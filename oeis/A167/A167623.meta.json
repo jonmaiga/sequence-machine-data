@@ -1,11 +1,12 @@
 {
-  "description": "n^3 mod (n-th prime squared).",
+  "description": "a(n) = n^3 mod (n-th prime squared).",
   "id": "A167623",
   "mentions": [
     "A069547",
     "A167622"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

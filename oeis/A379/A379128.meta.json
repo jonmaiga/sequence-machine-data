@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the least odd number k such that A325567(k) = 2*n-1, or 0 if no such number exists.",
+  "id": "A379128",
+  "mentions": [
+    "A048720",
+    "A065621",
+    "A277320",
+    "A325567",
+    "A379126",
+    "A379127"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

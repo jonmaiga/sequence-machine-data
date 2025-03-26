@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - 4*x*exp(x))^(1/4).",
+  "id": "A380019",
+  "mentions": [
+    "A006153",
+    "A380015",
+    "A380017"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Sum of n-th row of triangle of 4th powers: 1; 1 16 1; 1 16 81 16 1; 1 16 81 256 81 16 1; ...",
+  "description": "Sum of n-th row of triangle of 4th powers: 1; 1 16 1; 1 16 81 16 1; 1 16 81 256 81 16 1; ... (cf. A133824).",
   "id": "A061803",
-  "mentions": [],
+  "mentions": [
+    "A133824"
+  ],
   "tags": [
     "easy",
     "formulas",

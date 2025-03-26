@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (A003961(n)-(1+sigma(n))) mod (A003961(n)-2*n), where A003961 is fully multiplicative with a(prime(i)) = prime(i+1).",
+  "id": "A378982",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A252748",
+    "A286385",
+    "A378981",
+    "A378983"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

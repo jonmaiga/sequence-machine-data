@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/((1-x^7)(1-x^8)(1-x^9)(1-x^10)).",
+  "description": "Expansion of 1/((1-x^7)*(1-x^8)*(1-x^9)*(1-x^10)).",
   "id": "A029432",
   "mentions": [],
   "tags": [

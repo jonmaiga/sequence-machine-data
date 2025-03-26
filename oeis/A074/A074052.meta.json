@@ -1,5 +1,5 @@
 {
-  "description": "The lowest order term in an expansion of sum_{i=1..m}*i^n*(i+1)! in a special factorial basis.",
+  "description": "The lowest order term in an expansion of Sum_{i=1..m} i^n*(i+1)! in a special factorial basis.",
   "id": "A074052",
   "mentions": [
     "A074051",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

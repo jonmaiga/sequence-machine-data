@@ -1,0 +1,17 @@
+{
+  "description": "Number of intervals in the lattice of Motzkin paths of length n.",
+  "id": "A379034",
+  "mentions": [
+    "A001006",
+    "A005700",
+    "A379035"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

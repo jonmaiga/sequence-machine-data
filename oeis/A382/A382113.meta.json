@@ -1,0 +1,21 @@
+{
+  "description": "Gray code transformation of the Zeckendorf representation of n.",
+  "id": "A382113",
+  "mentions": [
+    "A003714",
+    "A006068",
+    "A022290",
+    "A382112",
+    "A382116"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

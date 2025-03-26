@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of coincidences of the first n terms of this sequence and A379266, i.e., the number of equalities a(k) = A379266(k) for 0 <= k < n.",
+  "id": "A379265",
+  "mentions": [
+    "A272727",
+    "A379266",
+    "A379297"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

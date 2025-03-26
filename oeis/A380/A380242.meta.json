@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted 6-regular planar maps with n vertices.",
+  "id": "A380242",
+  "mentions": [
+    "A000168",
+    "A380241",
+    "A380243"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

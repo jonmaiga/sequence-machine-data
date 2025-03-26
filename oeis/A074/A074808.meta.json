@@ -1,14 +1,16 @@
 {
   "description": "Let f(n) be 2n + POD(n) + 1 if n is even, otherwise 2n - POD(n) - 1, where POD(n) is the product of digits of n. Sequence gives smallest number requiring n iterations to reach a prime.",
   "id": "A074808",
-  "mentions": [],
+  "mentions": [
+    "A074807"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 46,
-    "source": "oeis-entry"
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

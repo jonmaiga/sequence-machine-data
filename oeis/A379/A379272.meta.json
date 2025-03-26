@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary min-heaps on n elements from the set {0,1} that give a max-heap when reversed.",
+  "id": "A379272",
+  "mentions": [
+    "A056971",
+    "A091980",
+    "A273755"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

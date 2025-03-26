@@ -1,0 +1,20 @@
+{
+  "description": "The function A(x) = x+(1/2)*x^2-(1/16)*x^4... = Sum_{k >= 0} x^k*A381669(k)/a(k) satisfies the functional equation: x*(A(x)+1) = A(A(x)).",
+  "id": "A381670",
+  "mentions": [
+    "A030266",
+    "A347080",
+    "A381666",
+    "A381669"
+  ],
+  "tags": [
+    "eigen",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

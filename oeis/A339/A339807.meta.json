@@ -2,10 +2,13 @@
   "description": "Irregular triangle read by rows: T(n,k) (n>=2, k>=1) is the number of strong digraphs on n nodes with k descents.",
   "id": "A339807",
   "mentions": [
+    "A000217",
     "A003030",
+    "A005321",
     "A057273",
     "A307049",
-    "A339590"
+    "A339590",
+    "A348901"
   ],
   "tags": [
     "nonn",

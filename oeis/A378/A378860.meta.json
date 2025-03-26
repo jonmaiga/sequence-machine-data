@@ -1,0 +1,16 @@
+{
+  "description": "Number of minimal edge covers in the n-Sierpinski gasket graph.",
+  "id": "A378860",
+  "mentions": [
+    "A356214"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

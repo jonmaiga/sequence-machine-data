@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of connected graphs on n nodes with k peripheral nodes.",
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n nodes with k peripheral nodes.",
   "id": "A324244",
   "mentions": [
     "A001349",

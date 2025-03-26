@@ -1,7 +1,16 @@
 {
-  "description": "Expansion of 1/((1-6x)(1-7x)(1-8x)(1-9x)).",
+  "description": "Expansion of 1/((1-6x)*(1-7x)*(1-8x)*(1-9x)).",
   "id": "A028200",
-  "mentions": [],
+  "mentions": [
+    "A000453",
+    "A003468",
+    "A016075",
+    "A016094",
+    "A016109",
+    "A025211",
+    "A028025",
+    "A028165"
+  ],
   "tags": [
     "formulas",
     "nonn"

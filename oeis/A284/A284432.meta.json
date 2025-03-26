@@ -1,16 +1,19 @@
 {
-  "description": "The number of positive integer sequences of length n with no duplicate substrings (forward or backward) and a minimal sum (i.e., the sum of the sequence is A282168(n)).",
+  "description": "The number of positive integer sequences of length n with no duplicate substrings (forward or backward) of length greater than 1 and a minimal sum (= A282168(n)).",
   "id": "A284432",
   "mentions": [
-    "A282168"
+    "A282168",
+    "A283558",
+    "A284431",
+    "A284433",
+    "A284435"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

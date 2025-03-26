@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: sech(arcsin(x)*sin(x))=1-12/4!*x^4+6160/8!*x^8-120960/10!*x^10...",
+  "description": "Expansion of e.g.f.: sech(arcsin(x)*sin(x)).",
   "id": "A012339",
   "mentions": [],
   "tags": [

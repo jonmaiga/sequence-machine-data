@@ -5,11 +5,12 @@
     "A009710"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 16,
     "source": "joeis"
   }
 }

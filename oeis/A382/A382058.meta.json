@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp(x*B(x*A(x))^2), where B(x) = 1 + x*B(x)^3 is the g.f. of A001764.",
+  "id": "A382058",
+  "mentions": [
+    "A001764",
+    "A161629",
+    "A161635",
+    "A377546",
+    "A382032",
+    "A382033",
+    "A382059"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

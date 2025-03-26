@@ -1,5 +1,5 @@
 {
-  "description": "Prime-generating polynomial: 25*n^2 - 1185*n + 14083.",
+  "description": "Prime-generating polynomial: a(n) = 25*n^2 - 1185*n + 14083.",
   "id": "A181963",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
+    "size": 47,
     "source": "joeis"
   }
 }

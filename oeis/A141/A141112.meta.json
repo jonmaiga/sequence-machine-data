@@ -2,7 +2,8 @@
   "description": "Primes of the form 2*x^2+5*x*y-5*y^2 (as well as of the form 7*x^2+11*x*y+2*y^2).",
   "id": "A141112",
   "mentions": [
-    "A141111"
+    "A141111",
+    "A243171"
   ],
   "tags": [
     "nonn"

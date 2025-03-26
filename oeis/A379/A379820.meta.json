@@ -1,0 +1,16 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = (-1)^(n + k) * Sum_{j=0..k} j! * Stirling1(n, j) * Stirling1(k, j).",
+  "id": "A379820",
+  "mentions": [
+    "A108470"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

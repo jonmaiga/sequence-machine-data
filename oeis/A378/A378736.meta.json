@@ -1,5 +1,5 @@
 {
-  "description": "Greatest divisor d of the n-th abundant number such that sigma(d) <= 2*d < A003961(d), or 1 if no such divisor exists.",
+  "description": "Greatest divisor d of the n-th abundant number such that sigma(d) <= 2*d < A003961(d).",
   "id": "A378736",
   "mentions": [
     "A003961",

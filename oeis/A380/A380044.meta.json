@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/sqrt( 1 - 2*x*exp(x)*A(x) ).",
+  "id": "A380044",
+  "mentions": [
+    "A295238",
+    "A380045"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

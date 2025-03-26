@@ -1,0 +1,21 @@
+{
+  "description": "The least k such that prime(1+n)^k > 2 * prime(n)^k.",
+  "id": "A378744",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A003961",
+    "A337372",
+    "A341609",
+    "A378745"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

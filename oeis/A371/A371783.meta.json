@@ -1,11 +1,12 @@
 {
-  "description": "Irregular triangle read by rows where T(n,d) is the number of integer partitions of n that can be partitioned into d blocks with equal sums, with d ranging over all divisors d|n.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n that can be partitioned into d = A027750(n,k) blocks with equal sums.",
   "id": "A371783",
   "mentions": [
     "A000005",
     "A000041",
     "A002219",
     "A006827",
+    "A027750",
     "A035470",
     "A064914",
     "A237258",
@@ -33,13 +34,12 @@
     "A372121"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 70,
     "source": "oeis-entry"
   }
 }

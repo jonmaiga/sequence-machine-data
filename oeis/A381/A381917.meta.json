@@ -1,0 +1,18 @@
+{
+  "description": "Kaprekar numbers that are the concatenation of two equal numbers.",
+  "id": "A381917",
+  "mentions": [
+    "A006886",
+    "A020338",
+    "A092118"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

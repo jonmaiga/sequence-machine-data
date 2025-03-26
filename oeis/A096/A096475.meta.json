@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest \"lesser twin\" prime p, such that prime(2 + p) - prime(p) = 2n (cf. A096474).",
+  "description": "a(n) is the smallest lesser of twin prime p, such that prime(2 + p) - prime(p) = 2n (cf. A096474).",
   "id": "A096475",
   "mentions": [
     "A001359",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 3,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

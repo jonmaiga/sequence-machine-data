@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k > 1 such that are sequences B_k of type: {b(1) = 1, b(2) = k, for n >= 3; b(n) = the smallest number h > b(n-1) such that [[b(n-2) + b(n-1)] * [b(n-2) + h] * [b(n-1) + h]] / [b(n-2) * b(n-1) * h] is integer}.",
+  "description": "Numbers k > 1 such that are sequences B_k of type: {b(1) = 1, b(2) = k, for n >= 3; b(n) = the smallest number h > b(n-1) such that [[b(n-2) + b(n-1)] * [b(n-2) + h] * [b(n-1) + h]] / [b(n-2) * b(n-1) * h] is an integer}.",
   "id": "A182756",
   "mentions": [
     "A032908",

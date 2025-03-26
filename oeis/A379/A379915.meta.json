@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the deficiency of the odd squarefree semiprime A046388(n), divided by 2.",
+  "id": "A379915",
+  "mentions": [
+    "A000203",
+    "A033879",
+    "A046388",
+    "A379916",
+    "A379917"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

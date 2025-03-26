@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: coefficients of the scaled Lucas polynomials x^(n/2) L(n, sqrt(x)) for n >= 0.",
+  "description": "Triangle read by rows: coefficients of the scaled Lucas polynomials x^(n/2)*L(n, sqrt(x)) for n >= 0, sorted by descending powers of x.",
   "id": "A284966",
   "mentions": [
     "A034807",

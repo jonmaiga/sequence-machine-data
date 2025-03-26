@@ -1,5 +1,5 @@
 {
-  "description": "least k such that A074286^(k)(n)=1 where a^(k)=a(a^(k-1)).",
+  "description": "Least k such that A074286^(k)(n) = 1 where a^(k) = a(a^(k-1)).",
   "id": "A186189",
   "mentions": [
     "A074286"

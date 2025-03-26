@@ -2,6 +2,7 @@
   "description": "Squarefree numbers whose external digits form a squarefree number.",
   "id": "A077377",
   "mentions": [
+    "A005117",
     "A077376",
     "A077378",
     "A077379",

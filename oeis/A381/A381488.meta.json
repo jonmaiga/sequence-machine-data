@@ -1,0 +1,17 @@
+{
+  "description": "Pentagonal numbers that are deficient.",
+  "id": "A381488",
+  "mentions": [
+    "A000326",
+    "A005100",
+    "A379264"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

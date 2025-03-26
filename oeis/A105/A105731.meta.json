@@ -1,5 +1,5 @@
 {
-  "description": "Odd numbers n such that A105658(n) != n.",
+  "description": "Odd numbers k such that A105658(k) != k.",
   "id": "A105731",
   "mentions": [
     "A105658",
@@ -8,7 +8,6 @@
     "A105769"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

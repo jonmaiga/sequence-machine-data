@@ -2,16 +2,17 @@
   "description": "The number of permutations of a sequence of length n such that there are no fixed points, and no term is next to a term it was next to originally.",
   "id": "A288208",
   "mentions": [
+    "A000142",
     "A000166",
-    "A002464"
+    "A002464",
+    "A381461"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,9 @@
 {
   "description": "Concatenation of n-th prime and its reverse.",
   "id": "A067087",
-  "mentions": [],
+  "mentions": [
+    "A056524"
+  ],
   "tags": [
     "base",
     "easy",

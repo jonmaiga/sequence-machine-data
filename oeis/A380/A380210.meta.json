@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of e.g.f. exp( (1+2*x)^(5/2) - 1 ).",
+  "id": "A380210",
+  "mentions": [
+    "A380209"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

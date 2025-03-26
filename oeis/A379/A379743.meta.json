@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime whose digital sum in base n is n.",
+  "id": "A379743",
+  "mentions": [
+    "A214123"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

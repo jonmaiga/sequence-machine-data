@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of coincidences of the first n terms of this sequence and the first n terms of A379265 in reverse order, i.e., the number of equalities a(k) = A379265(n-1-k) for 0 <= k < n.",
+  "id": "A379266",
+  "mentions": [
+    "A272727",
+    "A379265",
+    "A379297"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

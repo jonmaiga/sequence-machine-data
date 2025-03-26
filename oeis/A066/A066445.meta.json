@@ -1,13 +1,16 @@
 {
   "description": "a(n) = 12^n mod n^12.",
   "id": "A066445",
-  "mentions": [],
+  "mentions": [
+    "A066606"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 22,
     "source": "joeis"
   }
 }

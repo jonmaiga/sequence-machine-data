@@ -1,0 +1,18 @@
+{
+  "description": "Index of first occurrence of n in A375277, or -1 if n does not appear there.",
+  "id": "A377841",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A375277"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

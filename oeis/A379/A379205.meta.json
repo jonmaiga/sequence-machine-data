@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies 1/x = Sum_{n=-oo..+oo} A(x)^n * (A(x)^n + 5)^(n+1).",
+  "id": "A379205",
+  "mentions": [
+    "A166952",
+    "A378264",
+    "A379199",
+    "A379200",
+    "A379202",
+    "A379203",
+    "A379204"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

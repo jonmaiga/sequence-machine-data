@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the greatest common divisor of n and the maximum exponent in the prime factorization of n.",
+  "id": "A381952",
+  "mentions": [
+    "A051903",
+    "A336064",
+    "A368715",
+    "A381953"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

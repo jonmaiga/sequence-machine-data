@@ -1,10 +1,11 @@
 {
-  "description": "Differences between n!! and the nearest prime.",
+  "description": "The differences arising in A075275.",
   "id": "A074144",
   "mentions": [
     "A075275"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows where T(n,d) is the number of set partitions of {1,...n} with all block-sums equal to d, where d is a divisor of 1 + ... + n.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of set partitions of {1,...,n} with all block-sums equal to d, where d is the k-th divisor of n*(n+1)/2 that is >= n.",
   "id": "A320438",
   "mentions": [
     "A000110",
@@ -18,13 +18,12 @@
     "A321469"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
+    "size": 68,
     "source": "oeis-entry"
   }
 }

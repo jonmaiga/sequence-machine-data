@@ -1,18 +1,16 @@
 {
-  "description": "Largest prime < 100*a[n-1], a[1]=5.",
+  "description": "Largest prime < 100*a(n-1), a(1) = 5.",
   "id": "A124358",
   "mentions": [
-    "A006902",
-    "A040016",
-    "A120031",
-    "A120041"
+    "A124267",
+    "A124339"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "joeis"
+    "size": 15,
+    "source": "oeis-bfile"
   }
 }

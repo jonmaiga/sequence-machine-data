@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = first frugal number > 1 in base n.",
+  "id": "A377478",
+  "mentions": [
+    "A046759",
+    "A379537",
+    "A379538"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

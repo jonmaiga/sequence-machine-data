@@ -1,17 +1,32 @@
 {
-  "description": "Determinants of tridiagonal matrices in y with upper diagonal y-2: m(n,n,d)=If[ n == m && n > 1 && m > 1, y, If[n == m - 1 || n == m + 1, -1, If[n == m == 1, y - 2, 0]]] Det(m,n,m,d)=P(d,y).",
+  "description": "Triangle read by rows: T(n, k) = T(n-1, k-1) - T(n-2, k), with T(n, n) = 1, T(n, n-1) = -2.",
   "id": "A124038",
   "mentions": [
-    "A066170"
+    "A000034",
+    "A000217",
+    "A002378",
+    "A005809",
+    "A005843",
+    "A016116",
+    "A022958",
+    "A029578",
+    "A045721",
+    "A057079",
+    "A066170",
+    "A113679",
+    "A119910",
+    "A130706",
+    "A131259",
+    "A374439"
   ],
   "tags": [
     "formulas",
     "sign",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

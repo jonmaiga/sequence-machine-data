@@ -1,0 +1,17 @@
+{
+  "description": "G.f. Sum_{n=-oo..+oo} (x^n - x)^(n+1).",
+  "id": "A378582",
+  "mentions": [
+    "A290003",
+    "A379764"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

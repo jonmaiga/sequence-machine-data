@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A381201(k) != A381203(k).",
+  "id": "A381213",
+  "mentions": [
+    "A381201",
+    "A381203"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

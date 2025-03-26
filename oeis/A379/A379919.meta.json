@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k that are the maximum of integers |k2|, |k3|, |k5| with |k2| + |k3| + |k5| > 0, and |k2*sqrt(2) + k3*sqrt(3) + k5*sqrt(5)| is smaller than for any smaller value of k.",
+  "id": "A379919",
+  "mentions": [
+    "A142238"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

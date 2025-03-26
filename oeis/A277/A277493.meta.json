@@ -1,14 +1,17 @@
 {
   "description": "Number of planar rooted Eulerian orientations (i.e., planar directed Eulerian maps with in-degree and out-degree equal for each vertex) with n edges.",
   "id": "A277493",
-  "mentions": [],
+  "mentions": [
+    "A324311",
+    "A324312"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

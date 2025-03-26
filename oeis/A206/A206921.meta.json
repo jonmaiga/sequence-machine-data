@@ -1,5 +1,5 @@
 {
-  "description": "Rank of the n-th binary palindrome. The minimal number of iterations A206915(A206915(...A206915(A006995(n))...) such that the result is not a binary palindrome, a(3)=1.",
+  "description": "Rank of the n-th binary palindrome. The minimal number of iterations A206915(A206915(...A206915(A006995(n))...)) such that the result is not a binary palindrome, a(3)=1.",
   "id": "A206921",
   "mentions": [
     "A006995",

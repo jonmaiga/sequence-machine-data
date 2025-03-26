@@ -1,5 +1,5 @@
 {
-  "description": "Number of black-square subarrays of (n+2)X(4+2) 0..3 arrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value (x(i,j)+1) mod 4, no adjacent elements equal, and upper left element zero",
+  "description": "Number of black-square subarrays of (n+2) X (4+2) 0..3 arrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value (x(i,j)+1) mod 4, no adjacent elements equal, and upper left element zero.",
   "id": "A230931",
   "mentions": [
     "A230935"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

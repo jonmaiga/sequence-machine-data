@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(4*n+k-1,k) * binomial(4*n+k,n-k).",
+  "id": "A379026",
+  "mentions": [
+    "A262910",
+    "A379022",
+    "A379024",
+    "A379025"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

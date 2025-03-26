@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of connected graphs on n vertices having independence number k.",
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n vertices having independence number k.",
   "id": "A294490",
   "mentions": [
     "A001349",

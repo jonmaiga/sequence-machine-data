@@ -1,8 +1,12 @@
 {
   "description": "Number of connected dominating sets in the n-antiprism graph.",
   "id": "A286986",
-  "mentions": [],
+  "mentions": [
+    "A001871",
+    "A001906"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

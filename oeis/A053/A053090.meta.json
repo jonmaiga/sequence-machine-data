@@ -1,7 +1,9 @@
 {
   "description": "Number of F^3-convex polyominoes on honeycomb lattice with given semiperimeter.",
   "id": "A053090",
-  "mentions": [],
+  "mentions": [
+    "A049347"
+  ],
   "tags": [
     "easy",
     "formulas",

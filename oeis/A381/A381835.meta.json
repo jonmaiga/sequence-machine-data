@@ -1,0 +1,20 @@
+{
+  "description": "k/9 is in this list if k > 3 and A053735(k) = A007949(k), i.e. if digitsum(k, 3) = valuation(k, 3).",
+  "id": "A381835",
+  "mentions": [
+    "A007949",
+    "A053735",
+    "A381833",
+    "A381834",
+    "A381838"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

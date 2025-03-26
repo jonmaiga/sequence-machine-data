@@ -1,8 +1,7 @@
 {
-  "description": "a(1) = 1; for n > 1, a(n) = the smallest prime divisor of the number formed by the concatenation of a(1) to a(n-1) that has not previously appeared in the sequence.",
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest prime divisor of the number formed by the concatenation of a(1) to a(n-1) that has not previously appeared in the sequence.",
   "id": "A330291",
   "mentions": [
-    "A000005",
     "A000040",
     "A020639",
     "A240588",
@@ -11,13 +10,11 @@
   ],
   "tags": [
     "base",
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

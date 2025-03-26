@@ -1,0 +1,34 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the largest parts of the partitions of n into consecutive parts (with the partitions ordered by increasing number of parts).",
+  "id": "A379633",
+  "mentions": [
+    "A000027",
+    "A001227",
+    "A196020",
+    "A212652",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A245092",
+    "A262626",
+    "A286000",
+    "A286013",
+    "A286015",
+    "A299765",
+    "A379630",
+    "A379631",
+    "A379632",
+    "A379634"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

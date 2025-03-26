@@ -1,5 +1,5 @@
 {
-  "description": "Round( (E/2)^n ).",
+  "description": "a(n) = round( (e/2)^n ).",
   "id": "A230580",
   "mentions": [
     "A014213"

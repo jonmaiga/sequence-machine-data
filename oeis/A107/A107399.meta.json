@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n+8,8)*C(n+10,8).",
+  "description": "a(n) = binomial(n+8,8)*binomial(n+10,8).",
   "id": "A107399",
   "mentions": [
     "A062196"

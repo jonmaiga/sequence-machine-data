@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the smallest positive root of the Cosine Integral function.",
+  "id": "A379443",
+  "mentions": [
+    "A133746"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

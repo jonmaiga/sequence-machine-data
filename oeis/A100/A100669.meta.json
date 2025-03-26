@@ -2,7 +2,8 @@
   "description": "Zeros of the Mertens function that are also prime.",
   "id": "A100669",
   "mentions": [
-    "A028442"
+    "A028442",
+    "A031214"
   ],
   "tags": [
     "nonn"

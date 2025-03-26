@@ -1,0 +1,16 @@
+{
+  "description": "Allouche-Johnson binary sequence based on the Narayana's cows sequence A000930.",
+  "id": "A381101",
+  "mentions": [
+    "A000930"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 130,
+    "source": "oeis-entry"
+  }
+}

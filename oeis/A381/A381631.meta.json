@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the product of k and its digits is divisible by the sum of its digits.",
+  "id": "A381631",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A011540",
+    "A038367",
+    "A098736",
+    "A381697"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^3*[A(x*A(x)^3)]^3.",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x*A(x)^3 * A(x*A(x)^3)^3.",
   "id": "A120973",
   "mentions": [
+    "A110447",
     "A120971",
     "A120972",
     "A120975",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

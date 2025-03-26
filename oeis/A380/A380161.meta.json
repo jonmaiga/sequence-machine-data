@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the value of the Euler totient function when applied to the powerfree part of n.",
+  "id": "A380161",
+  "mentions": [
+    "A000010",
+    "A005117",
+    "A013661",
+    "A055231",
+    "A056671",
+    "A092261",
+    "A335851",
+    "A380160"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

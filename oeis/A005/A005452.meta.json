@@ -1,5 +1,5 @@
 {
-  "description": "Number of positions that the 3 X 3 X 3 Rubik cube puzzle can be in after exactly n moves, up to equivalence under the full group of order 48 of the cube.",
+  "description": "Number of positions that the 3 X 3 X 3 Rubik cube puzzle can be in after exactly n moves, up to equivalence under the full group of order 48 of the cube and with a half-turn is considered to be 2 moves.",
   "id": "A005452",
   "mentions": [
     "A080583",

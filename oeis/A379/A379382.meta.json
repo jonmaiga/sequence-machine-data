@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = sqrt( (1 + 2*x*A(x))/(1 - 2*x*A(x)^2) ).",
+  "id": "A379382",
+  "mentions": [
+    "A106228",
+    "A138020",
+    "A151374",
+    "A379327",
+    "A379330",
+    "A379383"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

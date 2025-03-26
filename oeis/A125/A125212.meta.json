@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = numbers n such that no prime exists of the form |k! - n|; or A125211(n) = 0.",
+  "description": "Numbers m such that no prime exists of the form |k! - m|; or A125211(m) = 0.",
   "id": "A125212",
   "mentions": [
     "A125162",

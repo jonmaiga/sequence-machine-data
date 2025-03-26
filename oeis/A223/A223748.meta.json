@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays with every row least squares fitting to a positive slope straight line and every column least squares fitting to a zero or positive slope straight line, with a single point array taken as having zero slope",
+  "description": "Number of n X 3 0..3 arrays with every row least squares fitting to a positive slope straight line and every column least squares fitting to a zero or positive slope straight line, with a single point array taken as having zero slope.",
   "id": "A223748",
   "mentions": [
     "A223751"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

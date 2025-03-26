@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to partition n into distinct reduced fractions i/j with j<=n.",
+  "description": "Number of ways to partition n into distinct reduced fractions i/j with j <= n.",
   "id": "A154887",
   "mentions": [
     "A143270",
@@ -7,12 +7,11 @@
     "A154888"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

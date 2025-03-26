@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = denominator( [(x*y*z*u)^n] 1/sqrt(1 - (x + y + z + u*(x*y + x*z + y*z))) ).",
+  "id": "A381198",
+  "mentions": [
+    "A056982",
+    "A110258",
+    "A268554",
+    "A381197"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

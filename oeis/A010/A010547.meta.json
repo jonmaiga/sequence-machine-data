@@ -2,10 +2,12 @@
   "description": "Decimal expansion of square root of 96.",
   "id": "A010547",
   "mentions": [
-    "A010167"
+    "A010167",
+    "A010464"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

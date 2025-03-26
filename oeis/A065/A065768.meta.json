@@ -1,12 +1,14 @@
 {
-  "description": "Intersection of A065764 and A065766.",
+  "description": "Numbers that are sums of divisors of the odd squares; Intersection of A065764 and A065766, written in ascending order and duplicates removed.",
   "id": "A065768",
   "mentions": [
+    "A000203",
     "A000593",
     "A016754",
     "A065764",
     "A065766",
-    "A274790"
+    "A274790",
+    "A379223"
   ],
   "tags": [
     "nonn"

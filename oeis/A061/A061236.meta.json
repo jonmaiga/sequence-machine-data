@@ -1,13 +1,15 @@
 {
-  "description": "Smallest number with p(n)^3 divisors where p(n) is n-th prime.",
+  "description": "Smallest number with prime(n)^3 divisors where prime(n) is n-th prime.",
   "id": "A061236",
   "mentions": [
     "A000005",
     "A003680",
     "A005179",
+    "A030078",
     "A037992",
     "A061148",
     "A061149",
+    "A061234",
     "A061283",
     "A061286"
   ],
@@ -17,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
-    "source": "joeis"
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

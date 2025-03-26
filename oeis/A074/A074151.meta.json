@@ -1,5 +1,5 @@
 {
-  "description": "Powers of 2 > 2^n with initial digits those of 2^n.",
+  "description": "Least power of 2 > 2^n with initial digits matching the digits of 2^n.",
   "id": "A074151",
   "mentions": [],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which nonnegative integers x and y exist such that k is the concatenation of x and y as well as k = (x + y)^2.",
+  "id": "A380428",
+  "mentions": [
+    "A000290",
+    "A115527",
+    "A115556"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

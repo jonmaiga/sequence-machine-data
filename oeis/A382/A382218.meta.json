@@ -1,0 +1,17 @@
+{
+  "description": "Fixed points of A382217.",
+  "id": "A382218",
+  "mentions": [
+    "A111537",
+    "A382217"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

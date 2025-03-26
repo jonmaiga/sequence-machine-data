@@ -1,0 +1,21 @@
+{
+  "description": "In the binary expansion of n (without leading zeros): complement the bits strictly to the right of the leftmost zero digit, if any.",
+  "id": "A381852",
+  "mentions": [
+    "A054429",
+    "A063250",
+    "A075427",
+    "A381839"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

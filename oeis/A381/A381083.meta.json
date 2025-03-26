@@ -1,0 +1,18 @@
+{
+  "description": "Brent's irregular triangle T[r,k] related to Hardy-Littlewood constants of prime gaps 2r.",
+  "id": "A381083",
+  "mentions": [
+    "A381084",
+    "A381085",
+    "A381086"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

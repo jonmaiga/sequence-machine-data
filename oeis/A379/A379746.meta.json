@@ -1,0 +1,29 @@
+{
+  "description": "a(1)=1. For n>1 if a(n-1)=A002110(k), a(n)=prime(k+1). Otherwise a(n) is the smallest novel number whose prime factors have already occurred as previous terms.",
+  "id": "A379746",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000079",
+    "A002110",
+    "A003586",
+    "A007947",
+    "A051037",
+    "A053669",
+    "A162306",
+    "A351495",
+    "A363061",
+    "A368108",
+    "A377566"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

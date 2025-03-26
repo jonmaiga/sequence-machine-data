@@ -1,7 +1,10 @@
 {
   "description": "a(n) = 3^(5*n + 1).",
   "id": "A013826",
-  "mentions": [],
+  "mentions": [
+    "A000244",
+    "A016861"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

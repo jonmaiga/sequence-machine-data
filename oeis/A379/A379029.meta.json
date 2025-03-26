@@ -1,0 +1,32 @@
+{
+  "description": "Modified exponential abundant numbers: numbers k such that A241405(k) > 2*k.",
+  "id": "A379029",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A034683",
+    "A064597",
+    "A087248",
+    "A129575",
+    "A129656",
+    "A241405",
+    "A292982",
+    "A323757",
+    "A323758",
+    "A323759",
+    "A348274",
+    "A348604",
+    "A379027",
+    "A379030",
+    "A379031"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,12 +2,18 @@
   "description": "Let p = largest prime <= n, with p(0)=p(1)=0, and let q = smallest prime > n; then a(n) = q-p.",
   "id": "A166597",
   "mentions": [
+    "A000720",
+    "A001223",
+    "A007917",
+    "A007918",
     "A111870",
+    "A151799",
     "A151800",
     "A166594",
     "A327441"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

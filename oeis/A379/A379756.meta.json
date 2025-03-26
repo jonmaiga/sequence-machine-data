@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of subsets of S(n) that sum to A023196(n), where S(n) is the set of the proper divisors (or aliquot parts) of A023196(n).",
+  "id": "A379756",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A005101",
+    "A006037",
+    "A023196",
+    "A026793",
+    "A027750",
+    "A033630",
+    "A033882",
+    "A064771",
+    "A065205"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

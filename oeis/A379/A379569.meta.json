@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-digit numbers that have exactly 6 divisors.",
+  "id": "A379569",
+  "mentions": [
+    "A030515",
+    "A284398"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

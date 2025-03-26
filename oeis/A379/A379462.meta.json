@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the total number of paths starting at (0, 0), ending at (n, 0), consisting of steps (1, 1), (1, 0), (1, -2), and staying on or above y = -3.",
+  "id": "A379462",
+  "mentions": [
+    "A071879",
+    "A116411",
+    "A378849",
+    "A378850"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

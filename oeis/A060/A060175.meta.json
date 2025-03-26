@@ -1,8 +1,9 @@
 {
-  "description": "Table T(n,k) by antidiagonals of exponent of largest power of k-th prime which divides n.",
+  "description": "Square array A(n,k) = exponent of the largest power of k-th prime which divides n, read by falling antidiagonals.",
   "id": "A060175",
   "mentions": [
     "A000040",
+    "A001222",
     "A002260",
     "A004736",
     "A007814",
@@ -27,6 +28,6 @@
   "terms": {
     "offset": 1,
     "size": 120,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

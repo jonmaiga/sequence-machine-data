@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected components, not counting isolated vertices, of the blet graph for n coins.",
+  "id": "A381813",
+  "mentions": [
+    "A007039",
+    "A075273",
+    "A381812",
+    "A381814"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

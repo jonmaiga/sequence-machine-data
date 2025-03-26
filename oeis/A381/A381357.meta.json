@@ -1,0 +1,17 @@
+{
+  "description": "Row lengths of irregular triangle A381587.",
+  "id": "A381357",
+  "mentions": [
+    "A381358",
+    "A381587"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -2,8 +2,10 @@
   "description": "a(n) = (3n + 2)*binomial(3n + 1,n).",
   "id": "A144485",
   "mentions": [
+    "A005809",
     "A045721",
-    "A090763"
+    "A090763",
+    "A210453"
   ],
   "tags": [
     "easy",

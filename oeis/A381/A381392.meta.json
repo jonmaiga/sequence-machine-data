@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of the double zeta(3/2,2).",
+  "id": "A381392",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

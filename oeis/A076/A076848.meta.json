@@ -1,11 +1,18 @@
 {
-  "description": "Smallest prime factor of Googol + n which exceeds 16.",
+  "description": "Smallest prime factor of googol + n that exceeds 13, or 1 if googol + n is 13-smooth.",
   "id": "A076848",
   "mentions": [
+    "A007947",
+    "A020639",
+    "A034386",
+    "A049014",
     "A066298",
-    "A072288"
+    "A072288",
+    "A078813",
+    "A080197"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the second element of the sorted multiset of bases and exponents (including exponents = 1) in the prime factorization of n.",
+  "id": "A381576",
+  "mentions": [
+    "A381178"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

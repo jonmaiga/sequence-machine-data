@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers whose squares have at most one digit less than 8.",
+  "id": "A378925",
+  "mentions": [
+    "A053934",
+    "A360822",
+    "A378926",
+    "A378927"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

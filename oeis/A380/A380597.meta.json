@@ -1,0 +1,20 @@
+{
+  "description": "Smallest side length of a square board on which Harary's generalized tic-tac-toe (or animal tic-tac-toe) for the free polyomino with binary code A246521(n+1) is a first-player win, or 0 if it is a draw for all board sizes.",
+  "id": "A380597",
+  "mentions": [
+    "A000105",
+    "A246521",
+    "A380598"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted 2n-regular planar maps with 3 vertices.",
+  "id": "A380243",
+  "mentions": [
+    "A000984",
+    "A002897",
+    "A380241",
+    "A380242"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

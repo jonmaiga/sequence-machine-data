@@ -1,0 +1,19 @@
+{
+  "description": "A version of the array A229607 without duplicates, read by antidiagonals: each row starts with the least prime not in a previous row, and each number p in a row is followed by the greatest prime q in the interval p < q < 2*p not in a previous row (or 0 if no such q exists).",
+  "id": "A380277",
+  "mentions": [
+    "A000720",
+    "A006992",
+    "A104272",
+    "A229607"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

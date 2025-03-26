@@ -1,17 +1,23 @@
 {
-  "description": "Symmetric array read by antidiagonals: T(n,k) (n >= 1, k >= 1) = number of multiquadrangulations of the sphere with n stable equilibria and k unstable equilibria.",
+  "description": "Array read by antidiagonals: A(n,k) is the number of unsensed planar maps with n vertices and k faces, n >= 1, k >= 1.",
   "id": "A277741",
   "mentions": [
-    "A006082"
+    "A006082",
+    "A006385",
+    "A007401",
+    "A269920",
+    "A379430",
+    "A379431",
+    "A379432"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

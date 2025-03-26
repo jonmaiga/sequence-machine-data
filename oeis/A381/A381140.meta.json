@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp( -LambertW(-x * cosh(x)) ).",
+  "id": "A381140",
+  "mentions": [
+    "A003727",
+    "A162649",
+    "A185951",
+    "A381143"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

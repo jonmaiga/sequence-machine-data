@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 1, a(n) = 5*binomial(6*(n-1),n-1), for n > 0.",
+  "id": "A380607",
+  "mentions": [
+    "A004355"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

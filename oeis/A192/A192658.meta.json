@@ -1,7 +1,10 @@
 {
   "description": "Binomial convolution of the Floor-Sqrt transform of central binomial coefficients.",
   "id": "A192658",
-  "mentions": [],
+  "mentions": [
+    "A000984",
+    "A192655"
+  ],
   "tags": [
     "formulas",
     "nonn"

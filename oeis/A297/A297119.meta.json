@@ -1,14 +1,17 @@
 {
   "description": "Number of minimum edge covers in the n-Fibonacci cube graph.",
   "id": "A297119",
-  "mentions": [],
+  "mentions": [
+    "A297051",
+    "A297118"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

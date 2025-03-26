@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-sqrt(1-4x-20x^2))/(2x).",
+  "description": "Expansion of (1-sqrt(1-4*x-20*x^2))/(2*x).",
   "id": "A103972",
   "mentions": [
     "A000108",

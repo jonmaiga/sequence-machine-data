@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least nontrivial multiple of 2*n with the least possible number of even digits.",
+  "id": "A381699",
+  "mentions": [
+    "A061807",
+    "A061808",
+    "A118070"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

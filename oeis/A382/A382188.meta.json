@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(1 - 9 * Sum_{k>=0} x^(2^k))^(1/3).",
+  "id": "A382188",
+  "mentions": [
+    "A023359",
+    "A382187"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

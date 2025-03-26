@@ -1,0 +1,21 @@
+{
+  "description": "Number of horizontal steps in all peak and valleyless Motzkin meanders of length n.",
+  "id": "A378810",
+  "mentions": [
+    "A005773",
+    "A088855",
+    "A132894",
+    "A308435",
+    "A378809"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

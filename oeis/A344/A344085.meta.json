@@ -1,12 +1,14 @@
 {
-  "description": "Triangle of squarefree numbers first grouped by greatest prime factor, then sorted by Omega, then in increasing order, read by rows.",
+  "description": "Triangle of squarefree numbers first grouped by greatest prime factor, then sorted by omega, then in increasing order, read by rows.",
   "id": "A344085",
   "mentions": [
     "A000079",
+    "A001221",
     "A001793",
     "A005117",
     "A005183",
     "A014466",
+    "A019565",
     "A026791",
     "A026792",
     "A026793",
@@ -26,6 +28,7 @@
     "A129129",
     "A162247",
     "A185974",
+    "A187769",
     "A193073",
     "A209862",
     "A211992",

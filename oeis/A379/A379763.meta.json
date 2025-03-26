@@ -1,0 +1,16 @@
+{
+  "description": "G.f. A(x) satisfies 1/2 = Sum_{n=-oo..+oo} x^n * (A(x) + x^n)^(n-1).",
+  "id": "A379763",
+  "mentions": [
+    "A379765"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

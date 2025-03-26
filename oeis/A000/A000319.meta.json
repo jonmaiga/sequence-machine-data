@@ -1,7 +1,15 @@
 {
   "description": "a(n) = floor(b(n)), where b(n) = tan(b(n-1)), b(0)=1.",
   "id": "A000319",
-  "mentions": [],
+  "mentions": [
+    "A000329",
+    "A053169",
+    "A053873",
+    "A085665",
+    "A085666",
+    "A381230",
+    "A381231"
+  ],
   "tags": [
     "sign"
   ],

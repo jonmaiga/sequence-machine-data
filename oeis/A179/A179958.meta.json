@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of 1..n such that |p(i)-p(i-1)| >=5 for i>1.",
+  "description": "Number of permutations of 1..n such that |p(i)-p(i-1)| >= 5 for i>1.",
   "id": "A179958",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

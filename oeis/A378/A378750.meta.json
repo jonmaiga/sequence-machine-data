@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet inverse of A377984, where A377984(n) = 2*sigma(n) - A003961(n).",
+  "id": "A378750",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A377984",
+    "A378749"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

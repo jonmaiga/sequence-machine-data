@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form 20n^2+32n+13.",
+  "description": "Primes of the form 20*k^2 + 32*k + 13.",
   "id": "A154414",
   "mentions": [
     "A017365"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 39,
     "source": "joeis"
   }
 }

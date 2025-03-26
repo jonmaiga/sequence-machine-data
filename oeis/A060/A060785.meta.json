@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 3*(n-2)*(5*n -11).",
+  "description": "a(n) = 3*(n - 2)*(5*n -11).",
   "id": "A060785",
   "mentions": [],
   "tags": [
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 39,
+    "size": 43,
     "source": "joeis"
   }
 }

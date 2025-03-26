@@ -2,14 +2,20 @@
   "description": "Number of (3/2,2)-tight graphs with 2n vertices, or kinematic chains with 2n links.",
   "id": "A233288",
   "mentions": [
-    "A227117"
+    "A227117",
+    "A273468",
+    "A306420",
+    "A328060",
+    "A328061",
+    "A371901"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

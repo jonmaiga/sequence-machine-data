@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of the square of the n-th Lagrange number.",
+  "id": "A382098",
+  "mentions": [
+    "A002163",
+    "A002559",
+    "A010466",
+    "A200991",
+    "A305308",
+    "A382099"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,11 @@
 {
-  "description": "Irregular triangle read by rows where T(n,d) is the number of d X d non-normal semi-magic squares with sum of all entries equal to n.",
+  "description": "Irregular triangle read by rows where T(n,k) is the number of d X d non-normal semi-magic squares with d = A027750(n,k) and sum of all entries equal to n.",
   "id": "A321725",
   "mentions": [
+    "A000005",
     "A006052",
     "A007016",
+    "A027750",
     "A120732",
     "A319056",
     "A319616",

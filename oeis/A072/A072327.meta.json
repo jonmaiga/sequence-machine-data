@@ -2,6 +2,7 @@
   "description": "Numbers k such that k^2 is a term of A072510.",
   "id": "A072327",
   "mentions": [
+    "A072497",
     "A072498",
     "A072510"
   ],
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

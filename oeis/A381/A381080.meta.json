@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the number of transitive finite pure sets of depth at most n.",
+  "id": "A381080",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

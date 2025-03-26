@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n+2) + prime(n-2) = 2*prime(n).",
+  "description": "Numbers n such that prime(k+2) + prime(k-2) = 2*prime(k).",
   "id": "A066876",
   "mentions": [],
   "tags": [

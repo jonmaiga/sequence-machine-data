@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k such that k*(tau(k) - 1)/(sigma(k) - k/d) is not an integer for all the divisors d of k.",
+  "id": "A379947",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A027750",
+    "A379945",
+    "A379946",
+    "A379948"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

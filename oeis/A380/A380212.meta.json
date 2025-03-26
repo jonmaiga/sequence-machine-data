@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp( 1/(1-2*x)^(3/2) - 1 ).",
+  "id": "A380212",
+  "mentions": [
+    "A049118",
+    "A380213"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

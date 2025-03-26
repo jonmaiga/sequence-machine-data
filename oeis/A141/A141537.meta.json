@@ -1,18 +1,17 @@
 {
-  "description": "An example of a simple prime-generating formula similar to Rowland's ( a(1) = 7, n>1, a(n) = a(n-1) + gcd(n,a(n-1) ) that is a particular instance of a more general formula. The sequence submitted is the first 20 values that do not equal '1':.",
+  "description": "An example of a simple prime-generating algorithm similar to Rowland's (A106108) that is a particular instance of a more general algorithm (see comments).",
   "id": "A141537",
   "mentions": [
     "A084662",
+    "A106108",
     "A137613"
   ],
   "tags": [
-    "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "size": 48,
+    "source": "oeis-bfile"
   }
 }

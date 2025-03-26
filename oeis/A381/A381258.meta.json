@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 7*k+1 divides 7^k+1.",
+  "id": "A381258",
+  "mentions": [
+    "A222948",
+    "A224486",
+    "A230076",
+    "A381256",
+    "A381257"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

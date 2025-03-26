@@ -1,5 +1,5 @@
 {
-  "description": "Subscript m such that SigmaComposite-Harmonic series cd[m]=Sum[1/A000203[A002808(k)],{k,1,m}]>=n.",
+  "description": "Least m such that Sigma-Composite-Harmonic series Sum_{k=1..m} 1/A000203(A002808(k)) >= n.",
   "id": "A074469",
   "mentions": [
     "A000203",

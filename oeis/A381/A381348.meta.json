@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the largest subset of Z/nZ fixed by x -> x^2.",
+  "id": "A381348",
+  "mentions": [
+    "A000961",
+    "A002145",
+    "A096008",
+    "A096088",
+    "A277847",
+    "A309414"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

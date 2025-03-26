@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that one can make a rectangle from a chain of linked rods of length 1, 2, 3, ..., k, with perimeter equal to the total length.",
+  "id": "A380867",
+  "mentions": [
+    "A000217",
+    "A334720"
+  ],
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "a(n) = floor(n/floor(n^(1/3))) - floor(n^(2/3)).",
   "id": "A079633",
-  "mentions": [],
+  "mentions": [
+    "A048766",
+    "A100196"
+  ],
   "tags": [
     "formulas",
     "nonn"

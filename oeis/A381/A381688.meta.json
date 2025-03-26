@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a (small) rhombicuboctahedron.",
+  "id": "A381688",
+  "mentions": [
+    "A000796",
+    "A002193",
+    "A002194",
+    "A343964",
+    "A343965",
+    "A381684"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

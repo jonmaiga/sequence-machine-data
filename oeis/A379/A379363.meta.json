@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the partial sums of the reciprocals of Pillai's arithmetical function (A018804).",
+  "id": "A379363",
+  "mentions": [
+    "A018804",
+    "A272718",
+    "A370895",
+    "A379364",
+    "A379365"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

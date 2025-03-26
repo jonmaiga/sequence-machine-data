@@ -2,7 +2,9 @@
   "description": "Sum of next n 9th powers.",
   "id": "A075670",
   "mentions": [
+    "A001017",
     "A006003",
+    "A069876",
     "A072474",
     "A075664",
     "A075671"
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-bfile"
   }
 }

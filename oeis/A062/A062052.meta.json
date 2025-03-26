@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with 2 odd integers in their Collatz (or 3x+1) trajectory.",
+  "description": "Numbers with exactly 2 odd integers in their Collatz (or 3x+1) trajectory.",
   "id": "A062052",
   "mentions": [
     "A002450",
@@ -14,6 +14,8 @@
     "A062060",
     "A078719",
     "A115774",
+    "A122196",
+    "A122197",
     "A354236"
   ],
   "tags": [

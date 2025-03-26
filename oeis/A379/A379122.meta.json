@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers m for which A379113(m^2) > 1, i.e., k = m^2 has a proper unitary divisor d > 1 such that A048720(A065621(sigma(d)),sigma(k/d)) is equal to sigma(k).",
+  "id": "A379122",
+  "mentions": [
+    "A000196",
+    "A048720",
+    "A065621",
+    "A379113",
+    "A379121"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

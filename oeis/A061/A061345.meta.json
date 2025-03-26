@@ -1,5 +1,5 @@
 {
-  "description": "Odd prime powers.",
+  "description": "Powers of odd primes. Alternatively, 1 and the odd prime powers (p^k, p an odd prime, k >= 1).",
   "id": "A061345",
   "mentions": [
     "A000005",

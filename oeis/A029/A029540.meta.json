@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 23 (most significant digit on right).",
+  "description": "Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 23 (most significant digit on right and removing all least significant zeros before concatenation).",
   "id": "A029540",
   "mentions": [
     "A029447",

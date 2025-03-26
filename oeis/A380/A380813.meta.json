@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of y-coordinates of the lexicographically earliest (according to the spiral numbering of the square grid; see comments) infinite Racetrack trajectory (using von Neumann neighborhood) on the square grid.",
+  "id": "A380813",
+  "mentions": [
+    "A274923",
+    "A351042",
+    "A351043",
+    "A380812",
+    "A380814"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) equals the series obtained by removing all factors of 3 from the coefficients in 1 + x*A(x)^3.",
+  "id": "A378578",
+  "mentions": [
+    "A000975",
+    "A001764",
+    "A001950",
+    "A007949",
+    "A038502",
+    "A085358",
+    "A282162",
+    "A378577"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

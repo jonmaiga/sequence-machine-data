@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number k such that k-n and k+n are consecutive primes and k has exactly n distinct prime factors.",
+  "id": "A382110",
+  "mentions": [
+    "A001221",
+    "A087378"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

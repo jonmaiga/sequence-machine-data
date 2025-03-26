@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary n X n matrices that do not possess both horizontal and vertical symmetry.",
+  "id": "A378921",
+  "mentions": [
+    "A002416",
+    "A110654"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

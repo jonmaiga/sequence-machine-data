@@ -1,11 +1,23 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with rows and antidiagonals unimodal and columns nondecreasing",
+  "description": "T(n,k) = number of n X k 0..3 arrays with rows, diagonals and antidiagonals unimodal and columns nondecreasing.",
   "id": "A224173",
   "mentions": [
     "A000292",
     "A001249",
     "A223659",
-    "A223865"
+    "A223838",
+    "A223865",
+    "A224167",
+    "A224168",
+    "A224169",
+    "A224170",
+    "A224171",
+    "A224172",
+    "A224174",
+    "A224175",
+    "A224176",
+    "A224177",
+    "A224178"
   ],
   "tags": [
     "formulas",

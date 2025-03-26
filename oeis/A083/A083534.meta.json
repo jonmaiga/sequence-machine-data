@@ -1,5 +1,5 @@
 {
-  "description": "First difference sequence of A007617. Difference between consecutive values not being in the range of phi[A000010].",
+  "description": "First difference sequence of A007617. Difference between consecutive values not being in the range of phi (A000010).",
   "id": "A083534",
   "mentions": [
     "A000010",
@@ -8,6 +8,9 @@
     "A007617",
     "A007619",
     "A083531",
+    "A083532",
+    "A083533",
+    "A083535",
     "A083536"
   ],
   "tags": [

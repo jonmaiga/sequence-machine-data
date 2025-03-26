@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct partitions of length n binary strings into maximal constant substrings up to permutation.",
+  "id": "A380108",
+  "mentions": [
+    "A000712",
+    "A114921",
+    "A342528"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

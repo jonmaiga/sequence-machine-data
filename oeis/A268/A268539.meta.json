@@ -1,8 +1,9 @@
 {
-  "description": "Numbers k such that 48*k+25 is a perfect square.",
+  "description": "Numbers k such that 48*k + 25 is a perfect square.",
   "id": "A268539",
   "mentions": [
     "A011865",
+    "A078405",
     "A154293"
   ],
   "tags": [

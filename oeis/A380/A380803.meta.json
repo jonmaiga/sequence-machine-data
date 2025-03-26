@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number k such that A380802(k) = n, or -1 if no such number exists.",
+  "id": "A380803",
+  "mentions": [
+    "A053026",
+    "A380802"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

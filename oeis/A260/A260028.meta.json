@@ -1,5 +1,5 @@
 {
-  "description": "Convert the last term from decimal to binary!",
+  "description": "Convert the last term from decimal to binary! a(1)=8.",
   "id": "A260028",
   "mentions": [
     "A006938",

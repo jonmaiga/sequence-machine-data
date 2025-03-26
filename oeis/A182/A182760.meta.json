@@ -6,12 +6,13 @@
     "A242671"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
+    "size": 98,
     "source": "oeis-bfile"
   }
 }

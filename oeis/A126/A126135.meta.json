@@ -1,14 +1,16 @@
 {
   "description": "Take the base-3 representation of n, render that in decimal notation and take the base-3 representation of n again.",
   "id": "A126135",
-  "mentions": [],
+  "mentions": [
+    "A007089"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 14,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

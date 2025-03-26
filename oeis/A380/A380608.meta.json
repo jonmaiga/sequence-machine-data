@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of distinct ways to cut a hexagon with edges of size n into diamonds with integer sides.",
+  "id": "A380608",
+  "mentions": [
+    "A045846"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

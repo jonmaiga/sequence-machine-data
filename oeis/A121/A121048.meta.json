@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n + phi(n), for Euler totient function phi(n).",
+  "description": "a(n) = n + phi(n), where phi is the Euler totient function.",
   "id": "A121048",
   "mentions": [
     "A000010",

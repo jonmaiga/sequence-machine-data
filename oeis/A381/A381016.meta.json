@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. -log(1-x) * sin(x).",
+  "id": "A381016",
+  "mentions": [
+    "A002104",
+    "A009410",
+    "A009416",
+    "A177699"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

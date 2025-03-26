@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of tuples (t_1, ..., t_n) with integers 2 <= t_1 <= ... <= t_n such that Product_{i = 1..n} (3 + 1/t_i) is integer.",
+  "description": "a(n) is the number of tuples (t_1, ..., t_n) with integers 2 <= t_1 <= ... <= t_n such that Product_{i = 1..n} (3 + 1/t_i) is an integer.",
   "id": "A355626",
   "mentions": [
     "A355627",

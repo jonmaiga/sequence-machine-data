@@ -1,5 +1,5 @@
 {
-  "description": "Nonnegative integers of the form 2x^2+5xy-5y^2.",
+  "description": "Nonnegative integers of the form 2*x^2+5*x*y-5*y^2.",
   "id": "A243171",
   "mentions": [
     "A141112"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 76,
-    "source": "oeis-entry"
+    "size": 77,
+    "source": "oeis-bfile"
   }
 }

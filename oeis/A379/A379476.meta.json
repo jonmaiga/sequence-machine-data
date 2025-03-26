@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if A326057(n) > 1, otherwise 0, where A326057(n) = gcd(A003961(n)-2n, A003961(n)-sigma(n)).",
+  "id": "A379476",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A252748",
+    "A286385",
+    "A326057",
+    "A379475",
+    "A379477"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Number of Fibonacci binary words of length n having no 0110 subword. A Fibonacci binary word is a binary word having no 00 subword.",
   "id": "A130137",
   "mentions": [
+    "A124280",
     "A130136"
   ],
   "tags": [

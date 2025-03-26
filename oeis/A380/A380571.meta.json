@@ -1,0 +1,20 @@
+{
+  "description": "Number of Dynkin systems on [n].",
+  "id": "A380571",
+  "mentions": [
+    "A000110",
+    "A102894",
+    "A381471"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

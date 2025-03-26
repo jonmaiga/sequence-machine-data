@@ -1,0 +1,20 @@
+{
+  "description": "A378664(k) computed for those primitively abundant numbers k for which A378664(k) is less than the largest proper divisor of k.",
+  "id": "A378739",
+  "mentions": [
+    "A091191",
+    "A378664",
+    "A378738",
+    "A378740",
+    "A378741"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

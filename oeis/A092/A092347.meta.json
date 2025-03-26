@@ -7,11 +7,12 @@
     "A001158"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 43,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

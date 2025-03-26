@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the smallest integer k such that [1,2,...,k] contains a set of n but no more disjoint consecutive subsequences, each having element sum k.",
+  "id": "A378718",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

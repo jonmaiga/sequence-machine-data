@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of distinct solutions to the Partridge Puzzle of size n.",
+  "id": "A381976",
+  "mentions": [
+    "A369891"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

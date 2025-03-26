@@ -1,0 +1,21 @@
+{
+  "description": "Short legs of Pythagorean triangles having legs that add up to a square ordered by increasing hypotenuse.",
+  "id": "A380074",
+  "mentions": [
+    "A000290",
+    "A007913",
+    "A046083",
+    "A089547",
+    "A379830",
+    "A380072",
+    "A380073"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

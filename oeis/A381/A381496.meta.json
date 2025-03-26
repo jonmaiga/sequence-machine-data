@@ -1,0 +1,26 @@
+{
+  "description": "Number of powerful numbers that are not prime powers that do not exceed 10^n.",
+  "id": "A381496",
+  "mentions": [
+    "A001221",
+    "A001694",
+    "A007947",
+    "A118896",
+    "A126706",
+    "A246547",
+    "A267574",
+    "A286708",
+    "A380430",
+    "A380431",
+    "A381391"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

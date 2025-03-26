@@ -1,15 +1,16 @@
 {
-  "description": "3n - S(n) (see A068119).",
+  "description": "a(n) = 3n - Sum_{k=1..n} A068119(n).",
   "id": "A074077",
   "mentions": [
     "A068119"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 83,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

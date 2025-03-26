@@ -2,6 +2,7 @@
   "description": "Runs-resistance of the sequence of prime indices of n.",
   "id": "A329747",
   "mentions": [
+    "A008578",
     "A056239",
     "A112798",
     "A304455",
@@ -18,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 90,
-    "source": "oeis-entry"
+    "size": 120,
+    "source": "oeis-bfile"
   }
 }

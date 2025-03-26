@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sensed combinatorial maps with n edges and genus k, 0 <= k <= floor(n/2).",
+  "id": "A379438",
+  "mentions": [
+    "A006384",
+    "A006386",
+    "A104595",
+    "A104596",
+    "A170946",
+    "A215019",
+    "A239918",
+    "A239919",
+    "A239921",
+    "A239922",
+    "A239923",
+    "A239924",
+    "A269919",
+    "A379439",
+    "A380234",
+    "A380235"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Let D(k) = {d(k,i)}, i = 1,2,...,q be the set of q divisors of an integer k. a(n) is the smallest number k such that there exist exactly n distinct integers M, 1 < M <= k, where each set D(k) mod M = {0,1,2,...,M-1}.",
+  "id": "A379647",
+  "mentions": [
+    "A027750",
+    "A379645"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Third center column of elementary triangular automaton rule 182, from a lone 1 cell.",
+  "id": "A380668",
+  "mentions": [
+    "A380173",
+    "A380670"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

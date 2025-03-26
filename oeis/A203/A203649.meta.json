@@ -1,10 +1,11 @@
 {
-  "description": "1/25 the number of (n+1)X(n+1) 0..4 arrays with every 2X2 subblock having equal diagonal elements or equal antidiagonal elements",
+  "description": "1/25 the number of (n+1) X (n+1) 0..4 arrays with every 2 X 2 subblock having equal diagonal elements or equal antidiagonal elements.",
   "id": "A203649",
   "mentions": [
     "A203656"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

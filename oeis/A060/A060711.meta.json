@@ -1,7 +1,8 @@
 {
-  "description": "Smallest number whose digit sum is n^4.",
+  "description": "Smallest number whose sum of digits is n^4.",
   "id": "A060711",
   "mentions": [
+    "A051885",
     "A061104",
     "A061105"
   ],

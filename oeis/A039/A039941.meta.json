@@ -2,6 +2,7 @@
   "description": "Alternately add and multiply.",
   "id": "A039941",
   "mentions": [
+    "A000058",
     "A001696",
     "A001697",
     "A077753"

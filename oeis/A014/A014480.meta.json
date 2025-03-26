@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+2*x)/(1-2*x)^2.",
+  "description": "Expansion of g.f. (1+2*x)/(1-2*x)^2.",
   "id": "A014480",
   "mentions": [
     "A001511",
@@ -23,7 +23,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
+    "size": 31,
     "source": "oeis-bfile"
   }
 }

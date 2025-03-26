@@ -2,6 +2,7 @@
   "description": "a(n) = the number of positive integers < n that are neither a divisor of n nor a divisor of (n+1).",
   "id": "A131187",
   "mentions": [
+    "A000005",
     "A049820"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Index where n first appears in A381658.",
+  "id": "A381659",
+  "mentions": [
+    "A092482",
+    "A229037",
+    "A381597",
+    "A381658",
+    "A381660"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

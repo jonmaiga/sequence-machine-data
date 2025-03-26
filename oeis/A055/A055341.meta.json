@@ -2,6 +2,7 @@
   "description": "Number of mobiles (circular rooted trees) with n nodes and 3 leaves.",
   "id": "A055341",
   "mentions": [
+    "A049347",
     "A055340"
   ],
   "tags": [

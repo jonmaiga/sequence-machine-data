@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of a deltoidal hexecontahedron with unit shorter edge length.",
+  "id": "A379386",
+  "mentions": [
+    "A002163",
+    "A185093",
+    "A379385",
+    "A379387",
+    "A379388",
+    "A379389"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 90,
+    "source": "joeis"
+  }
+}

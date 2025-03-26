@@ -1,0 +1,26 @@
+{
+  "description": "Möbius transform of A379108.",
+  "id": "A379218",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A000668",
+    "A008683",
+    "A026741",
+    "A209229",
+    "A336923",
+    "A359579",
+    "A379108",
+    "A379219"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

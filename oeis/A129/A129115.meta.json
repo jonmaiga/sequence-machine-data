@@ -9,11 +9,12 @@
     "A129114"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

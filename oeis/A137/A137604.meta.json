@@ -1,5 +1,5 @@
 {
-  "description": "Define a sequence b(n) by the following rule. If b(n-1) is divisible by 2 then b(n) = b(n-1)/2. If b(n-1) is not divisible by 2 then b(n) = b(0)-(b(n-1)+1)/2. When b(n)=1 it ends. Then a(m) = (Sum_{0<=k<=l} b(k)) - 1 where b(0)=m, b(l)=1 = A096259(m)/(m*2^p), 4<=m.",
+  "description": "Consider the sequence: b(0) = n, and for k >= 1, b(k) = b(k-1)/2 if b(k-1) is even, otherwise b(k) = n - (b(k-1)+1)/2. Then a(n) = (Sum_{0<=k<=m} b(k)) - 1 for n > 1, where m is the smallest index such that b(m) = 1; a(1) = 1.",
   "id": "A137604",
   "mentions": [
     "A096259",

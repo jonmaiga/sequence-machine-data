@@ -1,5 +1,5 @@
 {
-  "description": "7 times hexagonal numbers: 7*n*(2*n-1).",
+  "description": "7 times hexagonal numbers: a(n) = 7*n*(2*n-1).",
   "id": "A195320",
   "mentions": [
     "A000384",
@@ -11,7 +11,8 @@
     "A193053",
     "A195019",
     "A195020",
-    "A198017"
+    "A198017",
+    "A316466"
   ],
   "tags": [
     "easy",
@@ -20,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 43,
+    "size": 44,
     "source": "oeis-bfile"
   }
 }

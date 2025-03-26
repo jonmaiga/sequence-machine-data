@@ -1,8 +1,10 @@
 {
-  "description": "a(1)=a(2)=1 and for n>=3, a(n)=n-a(a(n-2)).",
+  "description": "a(1)=a(2)=1 and for n>=3, a(n) = n - a(a(n-2)).",
   "id": "A135414",
   "mentions": [
-    "A005206"
+    "A001622",
+    "A005206",
+    "A379274"
   ],
   "tags": [
     "formulas",

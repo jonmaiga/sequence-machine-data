@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (120e^6 - 600e^5 + 960e^4 - 540e^3 + 80e^2 - e) / 120.",
+  "id": "A379601",
+  "mentions": [
+    "A001113",
+    "A089087",
+    "A089139",
+    "A090142",
+    "A090143",
+    "A090611",
+    "A381673"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

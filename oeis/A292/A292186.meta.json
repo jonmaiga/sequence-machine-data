@@ -1,9 +1,11 @@
 {
-  "description": "Number of rooted unlabeled connected four-regular maps on a compact closed oriented surface with n vertices (and thus 2*n edges).",
+  "description": "Number of rooted unlabeled connected four-regular maps on a compact closed oriented surface with n vertices (and thus 2*n edges), with a(0) = 1.",
   "id": "A292186",
   "mentions": [
+    "A128709",
     "A172455",
-    "A292187"
+    "A292187",
+    "A380622"
   ],
   "tags": [
     "easy",

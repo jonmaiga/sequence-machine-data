@@ -1,5 +1,5 @@
 {
-  "description": "Number of graphs on n unlabeled nodes with total domination number 2.",
+  "description": "Number of simple graphs on n unlabeled nodes with total domination number 2.",
   "id": "A332406",
   "mentions": [
     "A332400"

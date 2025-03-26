@@ -1,7 +1,18 @@
 {
-  "description": "T(n,k)=Half the number of (n+1)X(k+1) binary arrays with no 2X2 subblock having exactly 2 ones",
+  "description": "T(n,k) = half the number of (n+1) X (k+1) binary arrays with no 2 X 2 subblock having exactly 2 ones.",
   "id": "A183782",
-  "mentions": [],
+  "mentions": [
+    "A005418",
+    "A183773",
+    "A183774",
+    "A183775",
+    "A183776",
+    "A183777",
+    "A183778",
+    "A183779",
+    "A183780",
+    "A183781"
+  ],
   "tags": [
     "nonn",
     "tabl"

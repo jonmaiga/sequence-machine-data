@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0; for n>0, let MSD = Most Significant Digit and LSD = Least Significant Digit, set MSD(a(n)) = [10 - LSD(a(n-1))] mod 10 and let remaining digits of a(n) be such that a(n) is the least integer not yet present in the sequence. If LSD(a(n-1)) = 0 then the least integer not yet present in the sequence is chosen, whatever its MSD is.",
+  "id": "A379529",
+  "mentions": [
+    "A010879"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

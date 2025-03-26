@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A379060(n) - 2*n.",
+  "id": "A379787",
+  "mentions": [
+    "A377901",
+    "A379059",
+    "A379060",
+    "A379786"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

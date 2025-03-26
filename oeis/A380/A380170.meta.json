@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient [k^1] of Wynn's converging polynomial p_n(k) of Weber functions.",
+  "id": "A380170",
+  "mentions": [
+    "A001663",
+    "A001664",
+    "A380169"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

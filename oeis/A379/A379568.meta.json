@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-digit numbers that have exactly 5 divisors.",
+  "id": "A379568",
+  "mentions": [
+    "A006880",
+    "A284398",
+    "A379566"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n^10 - n.",
+  "description": "a(n) = n^10 - n.",
   "id": "A196291",
   "mentions": [
     "A195859",

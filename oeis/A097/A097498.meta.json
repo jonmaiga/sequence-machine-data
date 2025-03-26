@@ -2,8 +2,12 @@
   "description": "Numbers divisible by their abundance sigma(n) - 2n.",
   "id": "A097498",
   "mentions": [
+    "A000079",
     "A033879",
-    "A033880"
+    "A033880",
+    "A153501",
+    "A271816",
+    "A379236"
   ],
   "tags": [
     "nonn"

@@ -1,0 +1,19 @@
+{
+  "description": "Square array T(n,k) read by ascending antidiagonals: number of steps for a certain Euclidean-style algorithm (see below) to find the GCD of n and k.",
+  "id": "A377459",
+  "mentions": [
+    "A072030",
+    "A285721"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to build a contiguous building with n LEGO blocks of size 1x4 on top of a fixed block of the same size.",
+  "description": "Number of ways to build a contiguous building with n LEGO blocks of size 1 X 4 on top of a fixed block of the same size.",
   "id": "A123782",
   "mentions": [
     "A112389",

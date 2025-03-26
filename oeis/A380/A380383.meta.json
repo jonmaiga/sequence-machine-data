@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the minimum number of votes A380377(k) can be attained with an even number of districts.",
+  "id": "A380383",
+  "mentions": [
+    "A380377",
+    "A380378"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of possible permutations of a Corner-turning Octahedron of size n, including the trivialrotation of the tips.",
+  "description": "Number of possible permutations of a Corner-Turning Octahedron of size n, including the trivial rotation of the tips.",
   "id": "A309112",
   "mentions": [
     "A075152",

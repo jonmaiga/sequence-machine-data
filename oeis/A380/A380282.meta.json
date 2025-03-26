@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of free polyominoes with n cells having k regions between the polyominoes and their bounding boxes, n >= 1, k >= 0.",
+  "id": "A380282",
+  "mentions": [
+    "A000105",
+    "A038548",
+    "A379623",
+    "A379627",
+    "A379628",
+    "A379637",
+    "A380283",
+    "A380284",
+    "A380285",
+    "A380286"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

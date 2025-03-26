@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that there are no primes of the form 2^(k-m)*3^m + 1 or 2^(k-m)*3^m - 1 for 0 <= m <= k.",
+  "id": "A381970",
+  "mentions": [
+    "A167504",
+    "A167506"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

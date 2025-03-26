@@ -1,0 +1,41 @@
+{
+  "description": "Irregular triangle read by rows: T(n,m), n >= 1, m >= 1, in which row n lists the largest parts of the partitions of n into consecutive parts followed by the conjugate corresponding odd divisors of n in accordance with the theorem described in A379630.",
+  "id": "A379631",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000593",
+    "A001227",
+    "A054844",
+    "A182469",
+    "A196020",
+    "A204217",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A245092",
+    "A261697",
+    "A261699",
+    "A262626",
+    "A286000",
+    "A286015",
+    "A299765",
+    "A379630",
+    "A379632",
+    "A379633",
+    "A379634"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

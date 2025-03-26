@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = sigma(A003961(n^2)), where A003961 is fully multiplicative with a(prime(i)) = prime(i+1), and sigma is the sum of divisors function.",
+  "id": "A379482",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A003961",
+    "A003973",
+    "A038500",
+    "A048673",
+    "A151800",
+    "A337336",
+    "A337337",
+    "A378231",
+    "A379223",
+    "A379481",
+    "A379483",
+    "A379484"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

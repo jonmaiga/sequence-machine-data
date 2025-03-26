@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - sinh(3*x) / 3).",
+  "id": "A381284",
+  "mentions": [
+    "A006154",
+    "A136630",
+    "A191277"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

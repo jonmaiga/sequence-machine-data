@@ -1,5 +1,5 @@
 {
-  "description": "Domination number of the n-triangle grid graph TG_n.",
+  "description": "Domination number of the n-triangle grid graph TG_n having n vertices along each side.",
   "id": "A251419",
   "mentions": [
     "A251418",
@@ -9,12 +9,13 @@
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 38,
-    "source": "oeis-entry"
+    "size": 39,
+    "source": "joeis"
   }
 }

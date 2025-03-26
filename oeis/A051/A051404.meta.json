@@ -1,7 +1,10 @@
 {
-  "description": "Neither 4 nor 9 divides C(2n-1,n) (almost certainly finite).",
+  "description": "Neither 4 nor 9 divides C(2k-1,k) (almost certainly finite).",
   "id": "A051404",
-  "mentions": [],
+  "mentions": [
+    "A001700",
+    "A110556"
+  ],
   "tags": [
     "nonn"
   ],

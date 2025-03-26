@@ -2,11 +2,14 @@
   "description": "Decimal expansion of tangent of 88 degrees.",
   "id": "A019986",
   "mentions": [
+    "A019811",
+    "A019897",
     "A019899",
     "A019987"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

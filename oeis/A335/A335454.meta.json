@@ -25,14 +25,16 @@
     "A335456",
     "A335458",
     "A335465",
-    "A335549"
+    "A335549",
+    "A357625"
   ],
   "tags": [
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 85,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

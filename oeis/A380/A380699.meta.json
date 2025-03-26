@@ -1,0 +1,16 @@
+{
+  "description": "Numbers m such that the set {A377091(k), k = 0..m} is an integer interval.",
+  "id": "A380699",
+  "mentions": [
+    "A377091",
+    "A380698"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

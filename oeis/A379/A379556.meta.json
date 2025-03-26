@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the square root of 5312.",
+  "id": "A379556",
+  "mentions": [
+    "A010534"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 128,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x*cosh(x))^3.",
+  "id": "A381207",
+  "mentions": [
+    "A185951",
+    "A205571",
+    "A377530",
+    "A381206",
+    "A381209",
+    "A381210",
+    "A381211"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

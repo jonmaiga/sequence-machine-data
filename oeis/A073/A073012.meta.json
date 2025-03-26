@@ -2,11 +2,13 @@
   "description": "Decimal expansion of Robbins constant.",
   "id": "A073012",
   "mentions": [
+    "A000796",
     "A091505"
   ],
   "tags": [
     "cons",
     "formulas",
+    "nice",
     "nonn"
   ],
   "terms": {

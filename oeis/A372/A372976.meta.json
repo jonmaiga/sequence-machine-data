@@ -1,14 +1,17 @@
 {
   "description": "Number of minimum edge covers in the n-double cone graph.",
   "id": "A372976",
-  "mentions": [],
+  "mentions": [
+    "A364741"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 46,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
   }
 }

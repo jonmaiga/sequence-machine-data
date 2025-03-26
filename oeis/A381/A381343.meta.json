@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. exp( sin(sqrt(2)*x) / sqrt(2) ).",
+  "id": "A381343",
+  "mentions": [
+    "A002017",
+    "A009210",
+    "A009229",
+    "A136630",
+    "A351891",
+    "A351892",
+    "A381277",
+    "A381278",
+    "A381280",
+    "A381344"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

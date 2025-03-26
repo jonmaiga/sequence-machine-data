@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers with both an odd number of prime factors (counted with multiplicity) and an odd number of distinct prime factors. (Intersection of A067019 and A098903.)",
+  "id": "A381218",
+  "mentions": [
+    "A067019",
+    "A098903"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

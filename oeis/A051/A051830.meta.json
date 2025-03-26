@@ -1,7 +1,8 @@
 {
-  "description": "Fibonacci(Pn+1) mod Pn, where Pn is the n-th prime.",
+  "description": "a(n) = Fibonacci(p(n)+1) mod p(n), where p(n) is the n-th prime.",
   "id": "A051830",
   "mentions": [
+    "A000040",
     "A000045",
     "A003631",
     "A045468",
@@ -9,11 +10,12 @@
     "A051834"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 103,
+    "size": 105,
     "source": "joeis"
   }
 }

@@ -1,9 +1,7 @@
 {
-  "description": "Triangle read by rows: T(n,k)=Sum(binomial(n - (m + k), m + k), (m, 1, floor[n/2 + 1]))",
+  "description": "Irregular triangle read by rows: T(n, k) = Sum_{m=1..floor(n/2)+1} binomial(n - (m + k), m + k).",
   "id": "A177350",
-  "mentions": [
-    "A000045"
-  ],
+  "mentions": [],
   "tags": [
     "formulas",
     "sign",

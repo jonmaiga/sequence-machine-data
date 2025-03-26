@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/( 1 - sin(sqrt(2)*x) / sqrt(2) ).",
+  "id": "A381347",
+  "mentions": [
+    "A136630",
+    "A191277",
+    "A263249",
+    "A381284",
+    "A381285",
+    "A381286",
+    "A381346"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

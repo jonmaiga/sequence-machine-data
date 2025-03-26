@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = b(n,A000120(n)) for n >= 0 where b(n,k) is defined in Comments.",
+  "id": "A380944",
+  "mentions": [
+    "A000120",
+    "A379817",
+    "A379819"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

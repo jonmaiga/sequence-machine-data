@@ -2,7 +2,8 @@
   "description": "Least number k such that the k-th Catalan number C(2k,k)/(k+1) is divisible by n!.",
   "id": "A120626",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A375077"
   ],
   "tags": [
     "nonn"

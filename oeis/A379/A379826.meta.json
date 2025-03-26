@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the alternating double sum zeta(-2,-1) = Sum_{i>=2} (Sum_{j=1..i-1} (-1)^(i+j)/(i^2*j)) (negated).",
+  "id": "A379826",
+  "mentions": [
+    "A076788",
+    "A255685",
+    "A379827",
+    "A379829"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

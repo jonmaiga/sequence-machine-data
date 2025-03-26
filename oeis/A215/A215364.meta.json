@@ -1,7 +1,9 @@
 {
-  "description": "E.g.f. satisfies: A(x) = 1 + x*A(x)^2*cosh(x*A(x)).",
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + x*A(x)^2*cosh(x*A(x)).",
   "id": "A215364",
   "mentions": [
+    "A162654",
+    "A185951",
     "A213644",
     "A215363"
   ],

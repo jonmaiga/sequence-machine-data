@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 0 if n = 0 or k is not a quadratic residue modulo n, otherwise T(n, k) = k.",
+  "id": "A381884",
+  "mentions": [
+    "A057125",
+    "A057126",
+    "A057762",
+    "A262931",
+    "A262932"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

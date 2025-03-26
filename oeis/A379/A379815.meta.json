@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest integer k > n such that sqrt(1/n + 1/k) is a rational number; or 0 if no such k exists.",
+  "id": "A379815",
+  "mentions": [
+    "A002350",
+    "A024352",
+    "A076600",
+    "A257522",
+    "A357372",
+    "A378501",
+    "A379816"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

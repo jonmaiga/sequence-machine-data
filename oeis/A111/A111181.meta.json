@@ -1,7 +1,10 @@
 {
-  "description": "Prime(n) - Pi(n).",
+  "description": "a(n) = prime(n) - pi(n).",
   "id": "A111181",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000720"
+  ],
   "tags": [
     "easy",
     "formulas",

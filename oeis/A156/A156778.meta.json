@@ -1,5 +1,5 @@
 {
-  "description": "n*A007504(n)/2 = n*(sum of first n primes)/2",
+  "description": "a(n) = n*A007504(n)/2 = n*(sum of first n primes)/2.",
   "id": "A156778",
   "mentions": [
     "A000040",

@@ -1,0 +1,45 @@
+{
+  "description": "Prime powers p such that the interval from p to the next prime power contains a unique prime number.",
+  "id": "A379157",
+  "mentions": [
+    "A000015",
+    "A000040",
+    "A000961",
+    "A001223",
+    "A031218",
+    "A046933",
+    "A053607",
+    "A057820",
+    "A065514",
+    "A067871",
+    "A068315",
+    "A080101",
+    "A080769",
+    "A116086",
+    "A175106",
+    "A178700",
+    "A246655",
+    "A274605",
+    "A304521",
+    "A345531",
+    "A366833",
+    "A366835",
+    "A377281",
+    "A377287",
+    "A377289",
+    "A377434",
+    "A378355",
+    "A378374",
+    "A379155",
+    "A379156"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime number that contains Fibonacci(n) as a substring.",
+  "id": "A381099",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001605",
+    "A062584"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

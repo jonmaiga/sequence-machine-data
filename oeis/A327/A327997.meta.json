@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients of the polynomials given by KummerU(-n, 1 - n - x, 3). Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "description": "Triangle read by rows: coefficients of the polynomials given by KummerU(-n, 1 - n - x, 3).",
   "id": "A327997",
   "mentions": [
     "A053486",

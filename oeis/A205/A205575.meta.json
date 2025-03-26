@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, related to Pascal's triangle.",
+  "description": "Triangle read by rows, related to Pascal's triangle, starting with rows 1; 1,0.",
   "id": "A205575",
   "mentions": [
     "A000045",

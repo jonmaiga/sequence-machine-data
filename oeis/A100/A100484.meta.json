@@ -1,5 +1,5 @@
 {
-  "description": "The primes doubled.",
+  "description": "The primes doubled; Even semiprimes.",
   "id": "A100484",
   "mentions": [
     "A000005",
@@ -12,6 +12,7 @@
     "A005843",
     "A006093",
     "A008864",
+    "A039956",
     "A046315",
     "A065342",
     "A077017",
@@ -23,7 +24,8 @@
     "A179740",
     "A253046",
     "A286623",
-    "A286625"
+    "A286625",
+    "A353478"
   ],
   "tags": [
     "easy",

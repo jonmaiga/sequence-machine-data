@@ -1,10 +1,11 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 14",
+  "description": "Number of (n+1) X (n+1) 0..5 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 14.",
   "id": "A233645",
   "mentions": [
     "A233653"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

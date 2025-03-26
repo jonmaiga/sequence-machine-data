@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle where T(n,d) is the number of factorizations of n into factors > 1 with GCD d.",
+  "description": "Irregular triangle where T(n,k) is the number of factorizations of n into factors > 1 with GCD d = A027750(n, k).",
   "id": "A317748",
   "mentions": [
     "A000005",
@@ -7,6 +7,7 @@
     "A007562",
     "A007716",
     "A014963",
+    "A027750",
     "A045778",
     "A050370",
     "A162247",

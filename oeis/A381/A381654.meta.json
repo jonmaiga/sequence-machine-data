@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the multiple zeta value (Euler sum) zetamult(2,3,1) = zetamult(3,1,2).",
+  "id": "A381654",
+  "mentions": [
+    "A381651",
+    "A381653"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

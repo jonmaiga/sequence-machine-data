@@ -1,0 +1,22 @@
+{
+  "description": "List of positive integers that are congruent to {2, 7, 8, 13} mod 15.",
+  "id": "A379211",
+  "mentions": [
+    "A001622",
+    "A072703",
+    "A151972",
+    "A204542",
+    "A315211",
+    "A379210"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

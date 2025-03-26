@@ -1,0 +1,13 @@
+{
+  "description": "Consider the graph G whose vertices are pairs (i,x) (i >= 0) where the cyclotomic polynomial Phi_i(x) is prime, with edges connecting (i,x) to (i +- 1, x +- 1) if they are in the graph. a(n) is the number of vertices in the connected component of G containing (1,prime(i)+1).",
+  "id": "A379377",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

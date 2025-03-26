@@ -2,6 +2,7 @@
   "description": "Numbers of the form x^2 + 2*y^2.",
   "id": "A002479",
   "mentions": [
+    "A000408",
     "A003628",
     "A027748",
     "A033203",

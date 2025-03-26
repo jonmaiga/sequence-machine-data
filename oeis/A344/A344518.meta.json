@@ -1,12 +1,16 @@
 {
-  "description": "Numbers that are the sum of five fifth powers in four or more ways.",
+  "description": "Numbers that are the sum of five positive fifth powers in four or more ways.",
   "id": "A344518",
   "mentions": [
+    "A342685",
+    "A342686",
     "A342687",
-    "A344354",
+    "A342688",
     "A344519",
     "A345718",
-    "A345863"
+    "A345863",
+    "A345864",
+    "A346257"
   ],
   "tags": [
     "nonn"

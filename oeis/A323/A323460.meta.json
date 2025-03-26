@@ -2,6 +2,7 @@
   "description": "Choix de Bruxelles, version 2: irregular table read by rows in which row n lists all the legal numbers that can be reached by halving or doubling some substring of the decimal expansion of n (including the empty string).",
   "id": "A323460",
   "mentions": [
+    "A307635",
     "A323286",
     "A323287",
     "A323453",

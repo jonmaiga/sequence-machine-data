@@ -1,5 +1,5 @@
 {
-  "description": "We draw n non-crossing straight line segments inside an n X n square between 2*n grid points on its perimeter, allowing no more similar connections between the remaining perimeter grid points. a(n) is the count of distinct possibilities for each n without duplicates by rotation or reflection.",
+  "description": "We draw n non-crossing straight line segments inside an n X n square between 2*n grid points on its perimeter in such a way that it is not possible to add more non-crossing line segments between the remaining perimeter grid points. a(n) is the number of distinct possibilities for each n without duplicates by rotation or reflection.",
   "id": "A357757",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

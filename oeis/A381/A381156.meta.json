@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the isoperimetric quotient of a regular 11-gon.",
+  "id": "A381156",
+  "mentions": [
+    "A003881",
+    "A073010",
+    "A093766",
+    "A196522",
+    "A256854",
+    "A381152",
+    "A381153",
+    "A381154",
+    "A381155",
+    "A381157"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

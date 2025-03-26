@@ -3,6 +3,7 @@
   "id": "A162367",
   "mentions": [
     "A161435",
+    "A161932",
     "A162206",
     "A162207",
     "A162208",
@@ -52,12 +53,14 @@
     "A162492"
   ],
   "tags": [
+    "fini",
     "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "joeis"
   }
 }

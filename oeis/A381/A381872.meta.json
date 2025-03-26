@@ -1,0 +1,48 @@
+{
+  "description": "Number of multisets that can be obtained by taking the sum of each block of a multiset partition of the prime indices of n into blocks having a common sum.",
+  "id": "A381872",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A000688",
+    "A000720",
+    "A000961",
+    "A001055",
+    "A001222",
+    "A050361",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A089723",
+    "A112798",
+    "A265947",
+    "A279787",
+    "A279789",
+    "A300383",
+    "A305551",
+    "A306017",
+    "A317141",
+    "A321451",
+    "A321452",
+    "A321453",
+    "A321454",
+    "A321455",
+    "A321469",
+    "A381453",
+    "A381455",
+    "A381635",
+    "A381636",
+    "A381637",
+    "A381715",
+    "A381716"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

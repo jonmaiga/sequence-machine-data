@@ -1,0 +1,35 @@
+{
+  "description": "Number of strict integer partitions of n whose product of parts is a multiple of n.",
+  "id": "A379733",
+  "mentions": [
+    "A001055",
+    "A003963",
+    "A057567",
+    "A057568",
+    "A069016",
+    "A096276",
+    "A111133",
+    "A114324",
+    "A318950",
+    "A319000",
+    "A319005",
+    "A319057",
+    "A319916",
+    "A325037",
+    "A326149",
+    "A326152",
+    "A326155",
+    "A379720",
+    "A379721",
+    "A379734",
+    "A379735"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

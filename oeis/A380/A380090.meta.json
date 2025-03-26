@@ -1,0 +1,28 @@
+{
+  "description": "The sum of the unitary divisors of n that are terms in A207481.",
+  "id": "A380090",
+  "mentions": [
+    "A005117",
+    "A034448",
+    "A054743",
+    "A077610",
+    "A185359",
+    "A207481",
+    "A371242",
+    "A377520",
+    "A380087",
+    "A380088",
+    "A380089"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

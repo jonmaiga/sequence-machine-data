@@ -1,0 +1,17 @@
+{
+  "description": "Number of labeled histories for rooted ternary trees with 2n+1 leaves if simultaneous trifurcations are allowed.",
+  "id": "A381486",
+  "mentions": [
+    "A317059",
+    "A339411"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

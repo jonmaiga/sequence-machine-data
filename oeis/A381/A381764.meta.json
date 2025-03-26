@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer not equal to n with the same Hamming weight (number of 1 bits) as n.",
+  "id": "A381764",
+  "mentions": [
+    "A000120",
+    "A055010",
+    "A057168",
+    "A243109"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

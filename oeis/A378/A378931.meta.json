@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, based on products of Jacobsthal numbers (A001045).",
+  "id": "A378931",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A023001",
+    "A084175",
+    "A139818",
+    "A378676"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

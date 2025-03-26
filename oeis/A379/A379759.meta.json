@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of kings that must be placed on an n X n chessboard such that each square is attacked or occupied by at least three kings.",
+  "id": "A379759",
+  "mentions": [
+    "A075561",
+    "A379726",
+    "A379766"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

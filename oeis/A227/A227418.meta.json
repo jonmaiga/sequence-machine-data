@@ -1,5 +1,5 @@
 {
-  "description": "Array A(n,k) with all numbers m such that 3*m^2 +- 3^k is a square and their corresponding square roots, read downward by diagonals.",
+  "description": "Array A(n,k) with all numbers m such that 3*m^2 +- 3^k is a square and their corresponding square roots, read by downward antidiagonals.",
   "id": "A227418",
   "mentions": [
     "A000244",
@@ -28,7 +28,8 @@
   ],
   "tags": [
     "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 0,

@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies A(x) = 1 + x (1+sum_{n=0..inf} [xA(x)]^(2^n)).",
+  "description": "G.f. satisfies A(x) = 1 + x (1+Sum_{n=0..inf} [xA(x)]^(2^n)).",
   "id": "A075853",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 0,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

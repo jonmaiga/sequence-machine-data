@@ -1,19 +1,21 @@
 {
-  "description": "a(n) = 5a(n-2) - 2a(n-4).",
+  "description": "a(n) = 5*a(n-2) - 2*a(n-4), with initial terms 0,1,1,3.",
   "id": "A005824",
   "mentions": [
     "A000051",
     "A052984",
     "A079162",
-    "A107839"
+    "A107839",
+    "A109165"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

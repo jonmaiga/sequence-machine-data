@@ -1,0 +1,20 @@
+{
+  "description": "Numbers t which are the sum of some subset of the values of k satisfying the equation (t - floor((t - k)/k)) mod k = 0 (t > 1, 1 <= k < t).",
+  "id": "A381060",
+  "mentions": [
+    "A005101",
+    "A005835",
+    "A048158",
+    "A375595",
+    "A380153",
+    "A380305"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

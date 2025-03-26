@@ -1,9 +1,10 @@
 {
-  "description": "n is the a(n)-th positive integer which takes its number of steps to reach 1 in the '3x+1' problem.",
+  "description": "n is the a(n)-th positive integer which takes its number of steps to reach 1 in the Collatz (or 3x+1) problem.",
   "id": "A337144",
   "mentions": [
     "A005186",
-    "A006577"
+    "A006577",
+    "A380244"
   ],
   "tags": [
     "formulas",

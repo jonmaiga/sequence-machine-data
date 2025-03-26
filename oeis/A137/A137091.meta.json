@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that k and the square of k use only the digits 2, 3, 6 and 9.",
+  "description": "Numbers k such that k and k^2 use only the digits 2, 3, 6 and 9.",
   "id": "A137091",
   "mentions": [],
   "tags": [

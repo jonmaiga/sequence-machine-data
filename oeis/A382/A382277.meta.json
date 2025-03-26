@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least composite number obtained by inserting a nonempty string of 0's inside n.",
+  "id": "A382277",
+  "mentions": [],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

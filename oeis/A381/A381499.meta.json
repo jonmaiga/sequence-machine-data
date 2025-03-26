@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = sum of numbers k < n such that 1 < gcd(k,n) < k and rad(k) does not divide n, where rad = A007947.",
+  "id": "A381499",
+  "mentions": [
+    "A007947",
+    "A038566",
+    "A066760",
+    "A121998",
+    "A133995",
+    "A243823",
+    "A272619",
+    "A381094",
+    "A381497"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

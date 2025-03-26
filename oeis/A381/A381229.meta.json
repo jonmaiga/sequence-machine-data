@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct positive integers that can be obtained by starting with n, and optionally applying the operations square root, floor, and ceiling, in any order.",
+  "id": "A381229",
+  "mentions": [
+    "A381226",
+    "A381227",
+    "A381228"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

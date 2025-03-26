@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are the sum of three fifth powers in exactly one way.",
+  "description": "Numbers that are the sum of three positive fifth powers in exactly one way.",
   "id": "A344641",
   "mentions": [
     "A003348",

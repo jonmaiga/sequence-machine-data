@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k*(k-1) is composed of exactly two different decimal digits.",
+  "id": "A380974",
+  "mentions": [
+    "A002378",
+    "A016069",
+    "A031955",
+    "A380984"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

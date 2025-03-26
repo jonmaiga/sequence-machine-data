@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor((Pi^Pi)^Pi)^...^Pi).",
+  "description": "a(n) = floor(((Pi^Pi)^Pi)^...^Pi).",
   "id": "A210508",
   "mentions": [
     "A000796",

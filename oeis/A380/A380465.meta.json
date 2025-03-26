@@ -1,0 +1,21 @@
+{
+  "description": "Second coefficient of the lindep transform of A007947, squarefree kernel of n.",
+  "id": "A380465",
+  "mentions": [
+    "A007947",
+    "A059172",
+    "A339791",
+    "A380439",
+    "A380464",
+    "A380466",
+    "A380545"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

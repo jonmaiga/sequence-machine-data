@@ -1,0 +1,25 @@
+{
+  "description": "The binary weights of the Catalan numbers (A000108).",
+  "id": "A379151",
+  "mentions": [
+    "A000102",
+    "A000108",
+    "A000120",
+    "A011373",
+    "A079584",
+    "A082481",
+    "A379152",
+    "A379153"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

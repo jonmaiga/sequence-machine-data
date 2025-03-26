@@ -2,6 +2,7 @@
   "description": "Numbers k such that any group of k consecutive integers has integral standard deviation (viz. A011944(k)).",
   "id": "A011943",
   "mentions": [
+    "A000330",
     "A001075",
     "A007654",
     "A007655",

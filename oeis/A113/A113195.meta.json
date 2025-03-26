@@ -7,12 +7,13 @@
   ],
   "tags": [
     "formulas",
+    "look",
     "mult",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "The Collatz (or 3x+1) trajectory starting at a(n) contains exactly n odd integers and a(n) is the n-th number with this property.",
+  "id": "A380244",
+  "mentions": [
+    "A006577",
+    "A006667",
+    "A078719",
+    "A337144",
+    "A354236"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

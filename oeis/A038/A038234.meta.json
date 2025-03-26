@@ -1,5 +1,5 @@
 {
-  "description": "Triangle whose (i,j)-th entry is binomial(i,j)*4^(i-j)*4^j.",
+  "description": "Triangle whose (n, k)-th entry is binomial(n, k)*4^(n - k)*4^k.",
   "id": "A038234",
   "mentions": [],
   "tags": [

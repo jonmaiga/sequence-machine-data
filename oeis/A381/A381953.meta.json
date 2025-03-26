@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A381952(k) = 2.",
+  "id": "A381953",
+  "mentions": [
+    "A051903",
+    "A368715",
+    "A381952"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

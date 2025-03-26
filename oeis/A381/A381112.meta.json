@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, let q = greatest prime in S(n) = {p; p = A053669(a(i)); 1 <= i <= n-1}. Then for n > 1, a(n) is the smallest number not yet in the sequence such that: (i) q|a(n), and (ii) p a prime and p^k|a(n) implies p in S(n) and k <= cardinality of p in S(n).",
+  "id": "A381112",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006530",
+    "A053669",
+    "A369609"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

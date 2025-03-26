@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the partial sums of the reciprocals of the alternating sum of divisors function (A206369).",
+  "id": "A379619",
+  "mentions": [
+    "A206369",
+    "A370905",
+    "A370906",
+    "A379620",
+    "A379621"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

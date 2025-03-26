@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the string value of a(n) begins with a divisor of a(n-1).",
+  "id": "A381081",
+  "mentions": [
+    "A000030",
+    "A027750",
+    "A248024"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest unitary divisor d > 1 of n such that A048720(A065621(sigma(n/d)),sigma(d)) is equal to sigma(n).",
+  "id": "A379119",
+  "mentions": [
+    "A000203",
+    "A048720",
+    "A065621",
+    "A379113",
+    "A379114",
+    "A379120"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

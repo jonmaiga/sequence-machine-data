@@ -1,9 +1,12 @@
 {
-  "description": "Odd numbers of the form a^2 + 2*b^2 with positive integers a and b.",
+  "description": "Odd numbers of the form x^2 + 2*y^2 with positive integers x and y.",
   "id": "A201544",
   "mentions": [
+    "A005408",
+    "A033200",
     "A033203",
-    "A154777"
+    "A154777",
+    "A225771"
   ],
   "tags": [
     "nonn"

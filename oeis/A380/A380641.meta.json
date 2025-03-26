@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(x/(1 - 3*x)^3).",
+  "id": "A380641",
+  "mentions": [
+    "A091695",
+    "A380637"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

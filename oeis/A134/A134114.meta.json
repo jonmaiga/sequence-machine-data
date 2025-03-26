@@ -1,7 +1,10 @@
 {
   "description": "Powers of 8 written backwards and sorted.",
   "id": "A134114",
-  "mentions": [],
+  "mentions": [
+    "A001018",
+    "A071586"
+  ],
   "tags": [
     "base",
     "easy",
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

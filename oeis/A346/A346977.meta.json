@@ -1,9 +1,10 @@
 {
-  "description": "E.g.f.: log( 1 + (exp(x) - 1)^5 / 5! ).",
+  "description": "Expansion of e.g.f. log( 1 + (exp(x) - 1)^5 / 5! ).",
   "id": "A346977",
   "mentions": [
     "A000481",
     "A327506",
+    "A346947",
     "A346955",
     "A346974",
     "A346975",

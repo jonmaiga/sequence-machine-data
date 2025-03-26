@@ -1,5 +1,5 @@
 {
-  "description": "Half the number of nX3 binary arrays with no element equal to a strict majority of its horizontal and vertical neighbors",
+  "description": "Half the number of n X 3 binary arrays with no element equal to a strict majority of its horizontal and vertical neighbors.",
   "id": "A183304",
   "mentions": [
     "A183312"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

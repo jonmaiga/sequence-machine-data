@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array T(n,k), read by rows: coefficients of strong divisibility sequence of polynomials p(1,x) = 1, p(2,x) = 2 + 2x, p(n,x) = u*p(n-1,x) + v*p(n-2,x) for n >= 3, where u = p(2,x), v = 1 - 2x - x^2.",
+  "description": "Triangular array read by rows: T(n, k) = binomial(n, k) * A000129(n - k) for 0 <= k < n.",
   "id": "A367211",
   "mentions": [
     "A000027",

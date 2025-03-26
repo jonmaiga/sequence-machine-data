@@ -1,5 +1,5 @@
 {
-  "description": "Mirror odd numbers.",
+  "description": "Odd palindromes with an even number of digits.",
   "id": "A132285",
   "mentions": [
     "A001637",

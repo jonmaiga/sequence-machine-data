@@ -1,5 +1,5 @@
 {
-  "description": "Number of connected graphs that have distinct degree sequences among all connected graphs with n nodes.",
+  "description": "Number of simple connected graphs that have distinct degree sequences among all connected graphs with n nodes.",
   "id": "A309757",
   "mentions": [
     "A001349",

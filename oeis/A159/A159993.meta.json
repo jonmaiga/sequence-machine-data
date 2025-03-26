@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of Sum(A159990(k)/A159991(k): 0<=k<=n), numerator=A159992.",
+  "description": "Denominator of Sum_{k=0..n} A159990(k)/A159991(k), numerator=A159992.",
   "id": "A159993",
   "mentions": [
     "A051037",

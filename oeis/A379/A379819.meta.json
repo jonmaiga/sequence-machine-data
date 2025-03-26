@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k >= 0, read by rows such that T(n,k) = f(n,k)/f(2^k-1,k) where f(n,k) is defined in Comments.",
+  "id": "A379819",
+  "mentions": [
+    "A000120",
+    "A130032",
+    "A341392",
+    "A379818"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

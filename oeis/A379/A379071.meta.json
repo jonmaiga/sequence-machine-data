@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = |A377091[n]| - floor(n/2).",
+  "id": "A379071",
+  "mentions": [
+    "A377091",
+    "A379070"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

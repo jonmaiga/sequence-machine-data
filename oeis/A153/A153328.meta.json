@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that (10^k-1)*120/99+1 is prime.",
+  "description": "Numbers k such that (10^k-1)*120/99 + 1 is prime.",
   "id": "A153328",
   "mentions": [
     "A056803",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

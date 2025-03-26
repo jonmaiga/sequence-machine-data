@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = b(n) - Sum_{j=0..n-1} b(n) with b(n) = binomial(2*n, n).",
+  "description": "a(n) = b(n) - Sum_{j=0..n-1} b(j) with b(n) = binomial(2*n, n).",
   "id": "A281593",
   "mentions": [
     "A000984",

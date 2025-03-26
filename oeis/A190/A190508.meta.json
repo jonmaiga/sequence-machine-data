@@ -1,5 +1,5 @@
 {
-  "description": "n+[ns/r]+[nt/r]+[nu/r]; r=golden ratio, s=r^2, t=r^3, u=r^4.",
+  "description": "a(n) = n+[n*s/r]+[n*t/r]+[n*u/r]; r=golden ratio, s=r^2, t=r^3, u=r^4.",
   "id": "A190508",
   "mentions": [
     "A054770",

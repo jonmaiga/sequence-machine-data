@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = (1 + x*A(x*A(x)))^2.",
+  "id": "A381568",
+  "mentions": [
+    "A087949",
+    "A120970",
+    "A143508",
+    "A381567",
+    "A381570"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

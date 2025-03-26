@@ -1,0 +1,22 @@
+{
+  "description": "The second Jordan totient function applied to the powerful numbers: a(n) = A007434(A001694(n)).",
+  "id": "A379716",
+  "mentions": [
+    "A001694",
+    "A007434",
+    "A323333",
+    "A379715",
+    "A379717",
+    "A379718"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

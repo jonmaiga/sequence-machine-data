@@ -2,6 +2,7 @@
   "description": "Number of n-digit numbers N such that the reversal of N divides N.",
   "id": "A222811",
   "mentions": [
+    "A001232",
     "A214927",
     "A222809",
     "A222810",

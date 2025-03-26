@@ -15,12 +15,13 @@
     "A200217"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 8,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

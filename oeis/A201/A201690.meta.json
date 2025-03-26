@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations avoiding the pattern 123 (with a dot over the 3).",
+  "description": "Number of permutations of [n] avoiding the pattern 123 (with a dot over the 3).",
   "id": "A201690",
   "mentions": [
     "A201691"

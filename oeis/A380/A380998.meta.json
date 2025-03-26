@@ -1,0 +1,18 @@
+{
+  "description": "Largest k such that there are no two subsets of the k consecutive integers n..(n+k-1) with the same product.",
+  "id": "A380998",
+  "mentions": [
+    "A239291",
+    "A380999",
+    "A381000"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

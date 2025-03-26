@@ -2,6 +2,7 @@
   "description": "Number of conjugacy classes in twisted Chevalley group 3D4(q) as q runs through the prime powers.",
   "id": "A225930",
   "mentions": [
+    "A000961",
     "A188161",
     "A224790",
     "A225928",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 32,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

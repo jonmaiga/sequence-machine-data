@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonemtpy labeled antichains of subsets of [n] such that all subsets except possibly those of the largest size are disjoint.",
+  "id": "A379707",
+  "mentions": [
+    "A000372",
+    "A014466",
+    "A229223",
+    "A245567",
+    "A305844",
+    "A379706"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

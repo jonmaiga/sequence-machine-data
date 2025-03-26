@@ -14,12 +14,13 @@
     "A125171"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
+    "size": 33,
     "source": "oeis-bfile"
   }
 }

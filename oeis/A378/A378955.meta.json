@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the continued fraction for sqrt(k) has period 365.",
+  "id": "A378955",
+  "mentions": [
+    "A003285"
+  ],
+  "tags": [
+    "dumb",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

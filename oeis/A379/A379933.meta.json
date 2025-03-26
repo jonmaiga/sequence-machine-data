@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/( exp(-x) - x )^2.",
+  "id": "A379933",
+  "mentions": [
+    "A072597",
+    "A358738",
+    "A377529",
+    "A379934",
+    "A379936",
+    "A379942",
+    "A379943"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

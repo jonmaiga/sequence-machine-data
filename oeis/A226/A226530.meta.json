@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^(2^15) + 1 is prime (a generalized Fermat prime).",
+  "description": "Numbers b such that b^(2^15) + 1 is prime (a generalized Fermat prime).",
   "id": "A226530",
   "mentions": [
     "A000068",

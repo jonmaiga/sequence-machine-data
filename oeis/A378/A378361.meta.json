@@ -1,0 +1,19 @@
+{
+  "description": "Octagonal indices of numbers that are both octagonal and octagonal pyramidal.",
+  "id": "A378361",
+  "mentions": [
+    "A000567",
+    "A002414",
+    "A344376"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

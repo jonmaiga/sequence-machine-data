@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not powers of primes and whose two smallest prime divisors are consecutive primes.",
+  "id": "A378884",
+  "mentions": [
+    "A006094",
+    "A008588",
+    "A020639",
+    "A024619",
+    "A104210",
+    "A151800",
+    "A256617",
+    "A378885"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

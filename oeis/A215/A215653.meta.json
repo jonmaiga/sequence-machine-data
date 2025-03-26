@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = smallest positive m such that m^2=1+k*n with positive k.",
+  "description": "a(n) = smallest positive m such that m^2 = 1+k*n with positive k.",
   "id": "A215653",
   "mentions": [
+    "A061369",
     "A070667",
     "A076942"
   ],

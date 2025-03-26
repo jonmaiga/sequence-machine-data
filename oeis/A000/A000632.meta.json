@@ -1,5 +1,5 @@
 {
-  "description": "Number of esters with n carbon atoms.",
+  "description": "Number of esters with n carbon atoms up to structural isomerism.",
   "id": "A000632",
   "mentions": [
     "A000598",

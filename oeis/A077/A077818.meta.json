@@ -1,5 +1,5 @@
 {
-  "description": "Probability P(n) of the occurrence of a 3-dimensional self-trapping walk of length n: numerator.",
+  "description": "a(n) is the numerator of the probability P(n) of the occurrence of a 3-dimensional self-trapping walk of length n.",
   "id": "A077818",
   "mentions": [
     "A001412",
@@ -7,7 +7,8 @@
     "A077819",
     "A077820",
     "A377161",
-    "A377162"
+    "A377162",
+    "A378903"
   ],
   "tags": [
     "formulas",

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the solution to e^(x+Pi) = Pi^(x+e).",
+  "id": "A380965",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A039661",
+    "A053510",
+    "A059850",
+    "A179701"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

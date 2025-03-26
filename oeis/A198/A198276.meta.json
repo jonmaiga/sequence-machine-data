@@ -1,5 +1,5 @@
 {
-  "description": "19*2^n-1.",
+  "description": "a(n) = 19*2^n-1.",
   "id": "A198276",
   "mentions": [
     "A086224",

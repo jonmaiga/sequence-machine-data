@@ -1,5 +1,5 @@
 {
-  "description": "Consider 3 X 3 X 3 Rubik cube, but only allow the moves M_R, D; sequence gives number of positions that are exactly n moves from the start.",
+  "description": "Consider a 3 X 3 X 3 Rubik cube, but only allow the moves M_R, D; sequence gives number of positions that are exactly n moves from the start.",
   "id": "A080617",
   "mentions": [
     "A080601",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

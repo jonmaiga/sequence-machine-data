@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that between p and the next prime there exist 2 distinct integers which are a square and a cube, respectively.",
+  "id": "A380521",
+  "mentions": [
+    "A053706",
+    "A380522",
+    "A380523"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

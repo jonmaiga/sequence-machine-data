@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^((n + k - 1)*(n - k)/2) * n! / (n - k)!. Row sums of A365638.",
+  "id": "A379614",
+  "mentions": [
+    "A365638",
+    "A382240"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

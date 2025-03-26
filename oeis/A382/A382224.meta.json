@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that every element with maximal order mod k is prime.",
+  "id": "A382224",
+  "mentions": [
+    "A002322",
+    "A382220"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

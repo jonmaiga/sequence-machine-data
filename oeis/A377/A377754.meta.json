@@ -1,15 +1,17 @@
 {
   "description": "Number of edge cuts in the 2n-crossed prism graph.",
   "id": "A377754",
-  "mentions": [],
+  "mentions": [
+    "A297028"
+  ],
   "tags": [
-    "bref",
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 3,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
   }
 }

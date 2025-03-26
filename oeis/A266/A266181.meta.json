@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n == d_1 (mod 2), n == d_2 (mod 3), n == d_3 (mod 4) etc., where d_1 d_2 d_3 ... is the decimal expansion of n.",
+  "description": "Numbers k such that k == d_1 (mod 2), k == d_2 (mod 3), k == d_3 (mod 4) etc., where d_1 d_2 d_3 ... is the decimal expansion of k.",
   "id": "A266181",
   "mentions": [
     "A131835"

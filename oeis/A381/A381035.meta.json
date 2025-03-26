@@ -1,0 +1,27 @@
+{
+  "description": "Numbers such that the least significant nonzero digit in their primorial base representation (A049345) is 1.",
+  "id": "A381035",
+  "mentions": [
+    "A049345",
+    "A053669",
+    "A064648",
+    "A276088",
+    "A276156",
+    "A290249",
+    "A327860",
+    "A380534",
+    "A380535",
+    "A381034"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

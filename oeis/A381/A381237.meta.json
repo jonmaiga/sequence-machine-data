@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = sum of row n of A381236.",
+  "id": "A381237",
+  "mentions": [
+    "A381236"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

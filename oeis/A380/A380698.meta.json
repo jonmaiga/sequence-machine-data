@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of intervals making up the set {A377091(k), k = 0..n}.",
+  "id": "A380698",
+  "mentions": [
+    "A377091",
+    "A380699"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

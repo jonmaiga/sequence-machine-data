@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimal edge covers in the n X n white bishop graph.",
+  "id": "A379549",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

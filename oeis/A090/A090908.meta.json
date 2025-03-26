@@ -1,5 +1,5 @@
 {
-  "description": "Terms a(k) of A073869 for which a(k)=a(k+1).",
+  "description": "Terms a(k) of A073869 for which a(k) is distinct from a(k-1).",
   "id": "A090908",
   "mentions": [
     "A000201",
@@ -9,6 +9,7 @@
     "A090909"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

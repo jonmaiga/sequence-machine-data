@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that decrease when they are replaced by the \"Look and Say\" description (cf. A045918) of their prime factors, counted with multiplicity.",
+  "id": "A379453",
+  "mentions": [
+    "A005150",
+    "A045918",
+    "A367974",
+    "A369092",
+    "A369132",
+    "A379454",
+    "A379455"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

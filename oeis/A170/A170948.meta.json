@@ -1,5 +1,5 @@
 {
-  "description": "Number of twins with n edges.",
+  "description": "Number of chiral pairs of combinatorial maps with n edges.",
   "id": "A170948",
   "mentions": [
     "A170946",
@@ -11,8 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

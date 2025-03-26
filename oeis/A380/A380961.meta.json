@@ -1,0 +1,18 @@
+{
+  "description": "Primes prime(k) such that (prime(k) + prime(k+1)) mod (prime(k) - prime(k-1)) != 0.",
+  "id": "A380961",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A001223"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

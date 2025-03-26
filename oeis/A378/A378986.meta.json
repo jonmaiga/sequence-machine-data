@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2*phi(2*n) - 2*n, where phi is Euler totient function.",
+  "id": "A378986",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A033879",
+    "A062570",
+    "A083254",
+    "A176095",
+    "A297114",
+    "A378978",
+    "A378987",
+    "A379011"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

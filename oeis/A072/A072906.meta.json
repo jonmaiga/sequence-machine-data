@@ -1,7 +1,9 @@
 {
   "description": "Least k >=1 such that floor(n/k) is squarefree.",
   "id": "A072906",
-  "mentions": [],
+  "mentions": [
+    "A005117"
+  ],
   "tags": [
     "easy",
     "formulas",

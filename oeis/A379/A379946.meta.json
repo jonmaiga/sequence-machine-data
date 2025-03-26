@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the denominator of the harmonic mean of all positive divisors of n except the k-th of them.",
+  "id": "A379946",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A027750",
+    "A099378",
+    "A379945"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

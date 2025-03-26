@@ -1,0 +1,22 @@
+{
+  "description": "Reverse the Chung-Graham representation of n while preserving its trailing zeros: a(n) = A381607(A263273(A381608(n))).",
+  "id": "A381618",
+  "mentions": [
+    "A000045",
+    "A263273",
+    "A345201",
+    "A381579",
+    "A381607",
+    "A381608"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

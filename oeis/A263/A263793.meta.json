@@ -1,10 +1,11 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..1 arrays with each row and column divisible by 3, read as a binary number with top and left being the most significant bits, and rows and columns lexicographically nonincreasing",
+  "description": "Number of (n+1) X (n+1) 0..1 arrays with each row and column divisible by 3, read as a binary number with top and left being the most significant bits, and rows and columns lexicographically nonincreasing.",
   "id": "A263793",
   "mentions": [
     "A263799"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Number of (19,14)-reverse multiples with n digits.",
   "id": "A226517",
   "mentions": [
+    "A001232",
     "A003269",
     "A103632",
     "A214927",

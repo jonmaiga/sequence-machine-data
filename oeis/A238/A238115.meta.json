@@ -1,8 +1,10 @@
 {
-  "description": "Number of states arising in matrix method for enumerating Hamiltonian cycles on 2n X 2n grid.",
+  "description": "Number of states arising in matrix method for enumerating Hamiltonian cycles on a 2n X 2n grid.",
   "id": "A238115",
   "mentions": [
+    "A000108",
     "A003763",
+    "A086618",
     "A143246",
     "A209077",
     "A222065",
@@ -11,13 +13,12 @@
     "A238118"
   ],
   "tags": [
-    "hard",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

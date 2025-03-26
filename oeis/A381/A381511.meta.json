@@ -1,0 +1,20 @@
+{
+  "description": "Smaller of two consecutive primes p and q, both ending with 9, such that q - p = 10*n, or -1 if no such primes exist.",
+  "id": "A381511",
+  "mentions": [
+    "A101232",
+    "A140791",
+    "A380785",
+    "A381372",
+    "A381510"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

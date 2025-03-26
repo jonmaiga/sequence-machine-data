@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime p such that the Diophantine equation x^3 + y^3 + z^3 = p^3, where 0 < x <= y <= z has exactly n positive integer solutions.",
+  "id": "A377372",
+  "mentions": [
+    "A316359",
+    "A377444"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

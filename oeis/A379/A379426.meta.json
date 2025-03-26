@@ -1,0 +1,17 @@
+{
+  "description": "Prime terms in A287353.",
+  "id": "A379426",
+  "mentions": [
+    "A013918",
+    "A069151",
+    "A287353"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Smallest number k such that there are n sets A_1,...,A_n with each A_i being a subset of {1,...,k} and the intersection of A_i and A_j has size |i-j| for all 1 <= i < j <= n.",
+  "id": "A381294",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

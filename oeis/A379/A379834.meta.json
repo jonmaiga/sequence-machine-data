@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers with digits in nondescending order whose digit product is an integer power of their digit sum, given power > 1.",
+  "id": "A379834",
+  "mentions": [
+    "A117720",
+    "A274124"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A379057.",
+  "id": "A380313",
+  "mentions": [
+    "A379057"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

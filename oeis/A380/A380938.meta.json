@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that the minimal set of integers to add to the set {A377091(k), k = 0..m} in order to obtain an integer interval contains a positive integer v and its opposite -v.",
+  "id": "A380938",
+  "mentions": [
+    "A377091",
+    "A380263",
+    "A380501",
+    "A380939"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

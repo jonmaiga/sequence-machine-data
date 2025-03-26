@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are partial sums of the reverses of the sequence of primes and are reverses of primes.",
+  "id": "A381245",
+  "mentions": [
+    "A004087",
+    "A071602"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

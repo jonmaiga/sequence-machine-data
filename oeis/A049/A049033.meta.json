@@ -1,11 +1,12 @@
 {
-  "description": "Central factorial numbers.",
+  "description": "Central factorial numbers: unsigned 2nd subdiagonal of A182867.",
   "id": "A049033",
   "mentions": [
     "A001820",
     "A001824",
     "A001825",
-    "A002455"
+    "A002455",
+    "A182867"
   ],
   "tags": [
     "formulas",

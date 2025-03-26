@@ -1,5 +1,5 @@
 {
-  "description": "Iterated sum of divisors array A[k,n] = k-th iterate of sigma(n), by antidiagonals.",
+  "description": "Iterated sum of divisors array A[k,n] = k-th iterate of sigma(n), by upward antidiagonals.",
   "id": "A129246",
   "mentions": [
     "A000012",
@@ -12,12 +12,13 @@
   "tags": [
     "easy",
     "formulas",
+    "look",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

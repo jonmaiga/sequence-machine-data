@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. log(1-x)^2 * (exp(x) - 1) / 2.",
+  "id": "A381105",
+  "mentions": [
+    "A000254",
+    "A052863",
+    "A381021",
+    "A381106"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

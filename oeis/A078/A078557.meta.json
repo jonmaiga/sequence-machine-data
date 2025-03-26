@@ -2,6 +2,7 @@
   "description": "Squarefree balanced numbers (i.e., squarefree members of A020492).",
   "id": "A078557",
   "mentions": [
+    "A005117",
     "A020492"
   ],
   "tags": [
@@ -9,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 46,
     "source": "oeis-bfile"
   }
 }

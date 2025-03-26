@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = exp( x * cos(x * A(x)) ).",
+  "id": "A381146",
+  "mentions": [
+    "A009189",
+    "A185951",
+    "A381141",
+    "A381144"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

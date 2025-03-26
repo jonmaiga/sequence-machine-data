@@ -1,5 +1,5 @@
 {
-  "description": "Second-order linear recurrence sequence with a(n) = a(n-1) + a(n-2).",
+  "description": "Second-order linear recurrence sequence with a(n) = a(n-1) + a(n-2), with initial terms 1786772701928802632268715130455793, 1059683225053915111058165141686995.",
   "id": "A083103",
   "mentions": [
     "A000032",

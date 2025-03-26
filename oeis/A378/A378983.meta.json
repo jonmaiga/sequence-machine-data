@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that (A003961(k)-2*k) divides (A003961(k)-(1+sigma(k))), where A003961 is fully multiplicative with a(prime(i)) = prime(i+1), and sigma is the sum of divisors function.",
+  "id": "A378983",
+  "mentions": [
+    "A003961",
+    "A028982",
+    "A048674",
+    "A202274",
+    "A348514",
+    "A378980",
+    "A378982"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

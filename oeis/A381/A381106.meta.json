@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. -log(1-x)^3 * (exp(x) - 1) / 6.",
+  "id": "A381106",
+  "mentions": [
+    "A000399",
+    "A052863",
+    "A381022",
+    "A381105"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

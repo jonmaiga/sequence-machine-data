@@ -1,5 +1,5 @@
 {
-  "description": "Least number k such that n^16+k^16 is prime.",
+  "description": "Least number k such that n^16 + k^16 is prime.",
   "id": "A242554",
   "mentions": [
     "A006313",

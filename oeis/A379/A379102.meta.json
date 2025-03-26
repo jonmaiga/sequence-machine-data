@@ -1,0 +1,14 @@
+{
+  "description": "Number of fundamentally distinct graceful labelings in a maximally graceful tree with n vertices.",
+  "id": "A379102",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

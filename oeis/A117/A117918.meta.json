@@ -3,12 +3,17 @@
   "id": "A117918",
   "mentions": [
     "A000129",
-    "A016116"
+    "A001333",
+    "A002203",
+    "A016116",
+    "A052542",
+    "A371596"
   ],
   "tags": [
     "easy",
     "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 1,

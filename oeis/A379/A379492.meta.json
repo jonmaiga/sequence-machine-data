@@ -1,0 +1,30 @@
+{
+  "description": "Multiperfect numbers k for which gcd(k,A003961(k))*gcd(sigma(k),A276086(k)) is not equal to gcd(k,A276086(k))*gcd(sigma(k),A003961(k)), where A003961(n) is fully multiplicative with a(prime(i)) = prime(i+1), and A276086 is the primorial base exp-function.",
+  "id": "A379492",
+  "mentions": [
+    "A000027",
+    "A000203",
+    "A003961",
+    "A007691",
+    "A046061",
+    "A276086",
+    "A322361",
+    "A323653",
+    "A324198",
+    "A324644",
+    "A342671",
+    "A379485",
+    "A379486",
+    "A379487",
+    "A379488",
+    "A379491"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

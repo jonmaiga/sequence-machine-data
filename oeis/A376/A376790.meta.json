@@ -1,0 +1,17 @@
+{
+  "description": "Table T(n,k) read by antidiagonals: T(n,k) (n >=1, k >= 2) is the number of inversions in the radix-k digit reversal permutation of 0, 1, ..., k^n-1.",
+  "id": "A376790",
+  "mentions": [
+    "A100575"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

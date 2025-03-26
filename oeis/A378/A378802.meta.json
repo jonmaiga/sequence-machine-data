@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n * binomial(4*n, n).",
+  "id": "A378802",
+  "mentions": [
+    "A005810",
+    "A225847",
+    "A229703",
+    "A374522"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

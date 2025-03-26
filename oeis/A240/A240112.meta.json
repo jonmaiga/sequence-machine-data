@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n on which the values of Dedekind psi function (A001615) are more than the values of infinitary Dedekind psi function (A049417).",
+  "description": "Numbers for which the values of the Dedekind psi function (A001615) are greater than the values of the infinitary Dedekind psi function (A049417).",
   "id": "A240112",
   "mentions": [
     "A001615",
+    "A013929",
     "A049417",
     "A072587",
     "A240111"

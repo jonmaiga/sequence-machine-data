@@ -1,0 +1,17 @@
+{
+  "description": "Number of sequences in which the games of a fully symmetric single-elimination tournament with 2^n teams can be played if arbitrarily many arenas are available.",
+  "id": "A379758",
+  "mentions": [
+    "A056972",
+    "A380166"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

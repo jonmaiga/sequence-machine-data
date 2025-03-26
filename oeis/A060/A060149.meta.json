@@ -3,6 +3,7 @@
   "id": "A060149",
   "mentions": [
     "A005315",
+    "A018224",
     "A060066",
     "A060089",
     "A060111",
@@ -12,12 +13,12 @@
     "A060206"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of lim_{n -> infinity} A001699(n)^(1/2^n).",
   "id": "A077496",
   "mentions": [
+    "A000058",
     "A001699",
     "A003095",
     "A076949"

@@ -1,0 +1,16 @@
+{
+  "description": "Number of sensed 5-regular combinatorial maps with 2n vertices.",
+  "id": "A380627",
+  "mentions": [
+    "A380623",
+    "A380626"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

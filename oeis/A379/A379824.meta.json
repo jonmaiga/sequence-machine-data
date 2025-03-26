@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = [x^n] 2 / (1 + x*(2*x + 3) + sqrt((x + 1)*(1 - 3*x))). Alternating row sums of A379907.",
+  "id": "A379824",
+  "mentions": [
+    "A114589",
+    "A379907"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

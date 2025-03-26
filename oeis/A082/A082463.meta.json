@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n such that A072181(n) + 1 is prime.",
+  "description": "Numbers k such that A072181(k) + 1 is prime.",
   "id": "A082463",
   "mentions": [
-    "A072181"
+    "A072181",
+    "A082464"
   ],
   "tags": [
     "hard",

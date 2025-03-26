@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=distinct values of lcm of first n consecutive prime differences[see A080374].",
+  "description": "Distinct values of A080374, where A080374(n) is the lcm of the first n consecutive prime differences.",
   "id": "A080375",
   "mentions": [
     "A001223",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

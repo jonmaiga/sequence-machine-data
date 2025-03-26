@@ -1,0 +1,20 @@
+{
+  "description": "Number of moves required for the first player to win Harary's generalized tic-tac-toe (or animal tic-tac-toe) for the free polyomino with binary code A246521(n+1) on a square board of side length A380597(n), or 0 if it is a draw for all board sizes.",
+  "id": "A380598",
+  "mentions": [
+    "A000105",
+    "A246521",
+    "A380597"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

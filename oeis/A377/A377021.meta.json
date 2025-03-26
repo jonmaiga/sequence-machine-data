@@ -2,7 +2,7 @@
   "description": "Numbers whose prime factorization has exponents that are all sums of distinct factorials (A059590, where 0! and 1! are not considered distinct).",
   "id": "A377021",
   "mentions": [
-    "A000014",
+    "A000142",
     "A005117",
     "A046100",
     "A059590",

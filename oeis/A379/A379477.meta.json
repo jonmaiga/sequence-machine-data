@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A003961(k)-2k and A003961(k)-sigma(k) have a common divisor > 1, where A003961 is fully multiplicative with a(prime(i)) = prime(i+1), and sigma is the sum of divisors function.",
+  "id": "A379477",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A003961",
+    "A252748",
+    "A286385",
+    "A326057",
+    "A372566",
+    "A378980",
+    "A379476",
+    "A379479"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

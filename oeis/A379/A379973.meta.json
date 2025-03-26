@@ -1,0 +1,22 @@
+{
+  "description": "Least k >= 3 such that A373711(n) is both k-gonal and k-gonal pyramidal.",
+  "id": "A379973",
+  "mentions": [
+    "A027669",
+    "A057145",
+    "A080851",
+    "A373711",
+    "A379974",
+    "A379975"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k >= 1 such that A007088(k) / A007088(A007953(k)) is an integer.",
+  "id": "A379779",
+  "mentions": [
+    "A005349",
+    "A007088",
+    "A007953"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

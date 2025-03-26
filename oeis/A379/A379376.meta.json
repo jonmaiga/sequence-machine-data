@@ -1,0 +1,17 @@
+{
+  "description": "Number of sets of nonzero n-gonal numbers whose largest element is the n-th n-gonal number and whose sum is an n-gonal number.",
+  "id": "A379376",
+  "mentions": [
+    "A057145",
+    "A378961"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

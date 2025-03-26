@@ -1,5 +1,5 @@
 {
-  "description": "Numbers h such that h and h-1 have same antiharmonic mean of the numbers k < h such that gcd(k, h) = 1 and simultaneously this mean is integer (see A179882).",
+  "description": "Numbers h such that h and h-1 have same antiharmonic mean of the numbers k < h such that gcd(k, h) = 1 and simultaneously this mean is an integer (see A179882).",
   "id": "A179878",
   "mentions": [
     "A179871",

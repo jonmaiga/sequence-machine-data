@@ -1,0 +1,23 @@
+{
+  "description": "The second Jordan totient function applied to the cubefull numbers: a(n) = A007434(A036966(n)).",
+  "id": "A379718",
+  "mentions": [
+    "A007434",
+    "A013661",
+    "A036966",
+    "A371412",
+    "A379715",
+    "A379716",
+    "A379717"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

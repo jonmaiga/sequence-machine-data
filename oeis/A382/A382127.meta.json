@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime p with n distinct digits, such that for each digit of p, 2*p*(digit) + 1 is prime.",
+  "id": "A382127",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A382179",
+    "A382198",
+    "A382199"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

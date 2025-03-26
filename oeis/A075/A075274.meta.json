@@ -1,8 +1,10 @@
 {
-  "description": "Related to the game Blet.",
+  "description": "Number of reachable arrangements of coins in the game Blet starting with 2n coins that achieve the maximum number of heads.",
   "id": "A075274",
   "mentions": [
-    "A075273"
+    "A047206",
+    "A075273",
+    "A381812"
   ],
   "tags": [
     "more",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 2,
-    "size": 14,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 1+Sum[3k, k=1,2,...,n] is prime.",
+  "description": "Numbers m such that 1 + Sum_{k=1..m} 3*k is prime.",
   "id": "A133363",
   "mentions": [
     "A067196",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that both A381019(k) and A381019(k+1) are composite.",
+  "id": "A381120",
+  "mentions": [
+    "A379810",
+    "A381019"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

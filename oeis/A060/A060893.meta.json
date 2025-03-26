@@ -1,5 +1,5 @@
 {
-  "description": "n^8 - n^4 + 1.",
+  "description": "a(n) = n^8 - n^4 + 1.",
   "id": "A060893",
   "mentions": [],
   "tags": [

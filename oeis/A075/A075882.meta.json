@@ -1,13 +1,17 @@
 {
-  "description": "a(n) = phi(Sum_{i=1,...,n} prime(i)).",
+  "description": "a(n) = phi(Sum_{i=1..n} prime(i)).",
   "id": "A075882",
-  "mentions": [],
+  "mentions": [
+    "A000010",
+    "A007504"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 51,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

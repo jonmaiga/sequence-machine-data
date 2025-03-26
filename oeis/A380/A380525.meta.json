@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree numbers k such that for all factorizations of k as x*y, the sum (x * y') + (x' * y) is carryless when the addition is done in the primorial base, A049345. Here n' stands for A003415(n), the arithmetic derivative of n.",
+  "id": "A380525",
+  "mentions": [
+    "A003415",
+    "A005117",
+    "A049345",
+    "A358673",
+    "A380468",
+    "A380524",
+    "A380526"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

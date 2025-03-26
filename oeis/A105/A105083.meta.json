@@ -2,7 +2,6 @@
   "description": "Trajectory of 1 under the morphism 1 -> 12, 2 -> 3, 3 -> 1.",
   "id": "A105083",
   "mentions": [
-    "A000390",
     "A000930",
     "A073058",
     "A092782",

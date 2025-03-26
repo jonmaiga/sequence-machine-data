@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers of the form 4^n - 27.",
+  "description": "Prime numbers of the form 4^k - 27.",
   "id": "A275750",
   "mentions": [
     "A274519",
@@ -8,7 +8,6 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {

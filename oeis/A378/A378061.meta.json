@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n + 1, (n - k)/2)^2*(k + 1)/(n + 1) if n - k is even, otherwise 0.",
+  "id": "A378061",
+  "mentions": [
+    "A000891",
+    "A018224",
+    "A145600",
+    "A145601",
+    "A145602",
+    "A145603",
+    "A378060",
+    "A378062"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

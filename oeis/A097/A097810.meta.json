@@ -1,9 +1,10 @@
 {
-  "description": "a(n) = 7*2^n - 3n - 6.",
+  "description": "a(n) = 7*2^n - 3*n - 6.",
   "id": "A097810",
   "mentions": [
     "A079583",
-    "A097809"
+    "A097809",
+    "A131068"
   ],
   "tags": [
     "easy",

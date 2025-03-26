@@ -2,6 +2,7 @@
   "description": "Numbers k that divide the base-5 reversal of k.",
   "id": "A222816",
   "mentions": [
+    "A001232",
     "A091079",
     "A214927"
   ],

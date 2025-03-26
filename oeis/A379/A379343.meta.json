@@ -1,0 +1,18 @@
+{
+  "description": "Square array read by upward antidiagonals: T(n,k) = (2*(k+n-1)^2 + 2k - 2n + 3 + (-2k - 2n + 3)*(-1)^n - (-1)^k + (-2k - 2n + 1)*(-1)^(k+n))/4.",
+  "id": "A379343",
+  "mentions": [
+    "A000384",
+    "A016813"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

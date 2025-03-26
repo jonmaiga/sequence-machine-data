@@ -2,9 +2,11 @@
   "description": "Lower matching number for the n X n torus grid graph.",
   "id": "A378763",
   "mentions": [
-    "A008810"
+    "A008810",
+    "A280984"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nonn"

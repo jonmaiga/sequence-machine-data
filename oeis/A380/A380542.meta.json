@@ -1,0 +1,19 @@
+{
+  "description": "Second coefficient of the lindep transform of A017665, numerator of sigma(n)/n.",
+  "id": "A380542",
+  "mentions": [
+    "A017665",
+    "A339791",
+    "A380541",
+    "A380543",
+    "A380545"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

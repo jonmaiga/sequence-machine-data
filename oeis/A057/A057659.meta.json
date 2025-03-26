@@ -2,11 +2,12 @@
   "description": "Prime numbers whose square is composed of just two different decimal digits.",
   "id": "A057659",
   "mentions": [
-    "A016069"
+    "A016069",
+    "A235154"
   ],
   "tags": [
     "base",
-    "easy",
+    "more",
     "nonn"
   ],
   "terms": {

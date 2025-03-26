@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime that is the sum of 2n+1 squares of consecutive odd primes, or 0 if no such prime exists.",
+  "id": "A380319",
+  "mentions": [
+    "A001248",
+    "A082244",
+    "A379760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

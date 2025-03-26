@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(n, A001511(n)).",
+  "id": "A378887",
+  "mentions": [
+    "A000010",
+    "A000265",
+    "A001511",
+    "A007814",
+    "A378888"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

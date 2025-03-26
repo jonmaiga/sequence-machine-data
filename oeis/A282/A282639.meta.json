@@ -2,8 +2,10 @@
   "description": "Greater value of a coprime pair (x,y) satisfying x^3+y^3=z^2.",
   "id": "A282639",
   "mentions": [
+    "A099426",
     "A099533",
-    "A106322"
+    "A106322",
+    "A320662"
   ],
   "tags": [
     "nonn"

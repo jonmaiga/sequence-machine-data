@@ -2,14 +2,19 @@
   "description": "Exponent of 2 in prime factorization of prime(n) + 1.",
   "id": "A023512",
   "mentions": [
+    "A007814",
+    "A008864",
+    "A023506",
     "A239114"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

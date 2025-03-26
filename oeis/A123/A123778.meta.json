@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways, counted up to symmetry, to build a contiguous building with n LEGO blocks of size 1x4.",
+  "description": "Number of ways, counted up to symmetry, to build a contiguous building with n LEGO blocks of size 1 X 4.",
   "id": "A123778",
   "mentions": [
     "A112389",

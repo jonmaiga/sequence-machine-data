@@ -1,0 +1,19 @@
+{
+  "description": "Characteristic polynomial of the tesseract graph: a(n) = n^6*(n^2-16)*(n^2-4)^4.",
+  "id": "A380149",
+  "mentions": [
+    "A001014",
+    "A028347",
+    "A028566"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

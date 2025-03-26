@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the smallest number greater than 1 whose decimal and binary expansions have the same succession of digits.",
+  "id": "A379651",
+  "mentions": [
+    "A181929",
+    "A379079",
+    "A380293",
+    "A381088"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

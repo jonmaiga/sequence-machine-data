@@ -2,6 +2,7 @@
   "description": "Positive integers T_i such that Sum_{k >= 0} (S_k * x^(2*k+1)) + 1/24 - Sum_{k >= 1} (T_k * x^(2*k)) = (cos((2/3) * arccos(6 * sqrt(3) * x)))/12 for all real x with |x| <= 1/(6 * sqrt(3)), where S_k = A176898(k).",
   "id": "A281733",
   "mentions": [
+    "A078531",
     "A176898"
   ],
   "tags": [

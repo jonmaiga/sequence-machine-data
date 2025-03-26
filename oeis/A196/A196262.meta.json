@@ -1,5 +1,5 @@
 {
-  "description": "Positive integers a for which there is a primitive (1/4)-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "description": "Positive integers a in primitive (1/4)-Pythagorean triples (a,b,c) satisfying a<=b, in order of increasing a and then increasing b.",
   "id": "A196262",
   "mentions": [
     "A195770",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 62,
-    "source": "oeis-entry"
+    "size": 76,
+    "source": "oeis-bfile"
   }
 }

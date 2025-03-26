@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows in which the n-th row lists the modified exponential divisors of n.",
+  "id": "A379027",
+  "mentions": [
+    "A027750",
+    "A077609",
+    "A077610",
+    "A222266",
+    "A241405",
+    "A322791",
+    "A361255",
+    "A379028"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

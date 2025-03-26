@@ -1,0 +1,16 @@
+{
+  "description": "10^n-th perfect power.",
+  "id": "A380226",
+  "mentions": [
+    "A001597"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

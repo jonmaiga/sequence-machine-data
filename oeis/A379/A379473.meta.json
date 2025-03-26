@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the highest power of 3 dividing the sum of divisors of n.",
+  "id": "A379473",
+  "mentions": [
+    "A000203",
+    "A000244",
+    "A038500",
+    "A082903",
+    "A087943",
+    "A329963",
+    "A354100",
+    "A379481",
+    "A379484"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

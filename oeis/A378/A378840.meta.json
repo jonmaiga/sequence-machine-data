@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = ( 1 + x * A(x)^(4/3) * (1 + A(x)^(1/3)) )^3.",
+  "id": "A378840",
+  "mentions": [
+    "A006320",
+    "A033296",
+    "A260332",
+    "A365843",
+    "A365847",
+    "A371676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

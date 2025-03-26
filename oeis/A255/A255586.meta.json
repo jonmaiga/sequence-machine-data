@@ -1,5 +1,5 @@
 {
-  "description": "Composite n such that Sum_{i=1..t-1} d(i+1)/d(i) is an integer, where d(1), ..., d(t) are the divisors of n in ascending order.",
+  "description": "Composite k such that Sum_{i=1..t-1} d(i+1)/d(i) is an integer, where d(1), ..., d(t) are the divisors of k in ascending order.",
   "id": "A255586",
   "mentions": [
     "A000079",

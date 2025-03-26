@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the partial alternating sums of the reciprocals of the number of abelian groups function (A000688).",
+  "id": "A379362",
+  "mentions": [
+    "A000688",
+    "A063966",
+    "A370897",
+    "A379360",
+    "A379361"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

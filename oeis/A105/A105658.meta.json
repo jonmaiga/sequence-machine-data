@@ -1,5 +1,5 @@
 {
-  "description": "Product_{i=1..n} i^i / denominator( Sum_{j=1..n} j(j+1)/2 / (Product_{k=0..i-1} j!/k!) ).",
+  "description": "a(n) = (Product_{i=1..n} i^i) / denominator( Sum_{j=1..n} j*(j+1)/2 / (Product_{k=0..j-1} j!/k!) ).",
   "id": "A105658",
   "mentions": [
     "A002109"

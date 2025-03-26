@@ -1,8 +1,16 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays x(i,j) with each element horizontally, diagonally or antidiagonally next to at least one element with value (x(i,j)+1) mod 3 and at least one element with value (x(i,j)-1) mod 3, and upper left element zero",
+  "description": "T(n,k) = number of n X k 0..3 arrays x(i,j) with each element horizontally, diagonally or antidiagonally next to at least one element with value (x(i,j)+1) mod 4 and at least one element with value (x(i,j)-1) mod 4, and upper left element zero.",
   "id": "A231080",
   "mentions": [
-    "A230800"
+    "A230800",
+    "A231076",
+    "A231077",
+    "A231078",
+    "A231079",
+    "A231081",
+    "A231082",
+    "A231083",
+    "A231084"
   ],
   "tags": [
     "formulas",
@@ -11,7 +19,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
+    "size": 55,
     "source": "oeis-bfile"
   }
 }

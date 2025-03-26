@@ -1,5 +1,5 @@
 {
-  "description": "Number of diagonalized cyclic diagonal Latin squares of order 2n+1.",
+  "description": "Number of diagonal Latin squares of order 2n+1 that are isomorphic to cyclic Latin squares by row and column permutations.",
   "id": "A372922",
   "mentions": [
     "A338522",

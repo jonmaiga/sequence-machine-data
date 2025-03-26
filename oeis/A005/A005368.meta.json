@@ -2,6 +2,7 @@
   "description": "Occurrences of principal character.",
   "id": "A005368",
   "mentions": [
+    "A000664",
     "A259976",
     "A331509"
   ],

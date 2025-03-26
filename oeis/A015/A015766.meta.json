@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that phi(n) | sigma_8(n).",
+  "description": "Numbers k such that phi(k) | sigma_8(k).",
   "id": "A015766",
   "mentions": [
     "A015759",
@@ -8,6 +8,7 @@
     "A091285"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

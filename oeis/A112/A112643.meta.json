@@ -2,6 +2,9 @@
   "description": "Odd squarefree abundant numbers.",
   "id": "A112643",
   "mentions": [
+    "A001221",
+    "A005101",
+    "A005231",
     "A005408",
     "A046391",
     "A087248"

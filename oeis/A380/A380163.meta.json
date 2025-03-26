@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the value of the Euler totient function when applied to the squarefree part of n.",
+  "id": "A380163",
+  "mentions": [
+    "A000010",
+    "A005117",
+    "A007913",
+    "A013662",
+    "A028982",
+    "A055076",
+    "A367991",
+    "A380162"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

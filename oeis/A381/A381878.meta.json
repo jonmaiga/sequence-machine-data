@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p such that the sum of the d_i-th prime numbers, where (d_i) are the nonzero digits of p, is also a prime.",
+  "id": "A381878",
+  "mentions": [
+    "A046704",
+    "A052034"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

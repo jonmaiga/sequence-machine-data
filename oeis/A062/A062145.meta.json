@@ -1,13 +1,32 @@
 {
-  "description": "Triangle read by rows. T(n, k) = [z^k] P(n, z) where P(n, z) = Sum_{k=0..n} binomial(n, k) * Pochhammer(n - k + c, k) * z^k / k! and c = 4.",
+  "description": "Triangle read by rows: T(n, k) = [z^k] P(n, z) where P(n, z) = Sum_{k=0..n} binomial(n, k) * Pochhammer(n - k + c, k) * z^k / k! and c = 4.",
   "id": "A062145",
   "mentions": [
+    "A000012",
+    "A000108",
     "A000292",
+    "A002054",
     "A008459",
+    "A027800",
+    "A027803",
+    "A028552",
+    "A047074",
     "A062137",
     "A062190",
     "A062196",
     "A062264",
+    "A105938",
+    "A105939",
+    "A105940",
+    "A105942",
+    "A105943",
+    "A105944",
+    "A107417",
+    "A107418",
+    "A107419",
+    "A107420",
+    "A107421",
+    "A107422",
     "A132813"
   ],
   "tags": [
@@ -17,7 +36,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
+    "size": 55,
     "source": "joeis"
   }
 }

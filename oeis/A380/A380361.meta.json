@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of embeddings on the sphere of Halin graphs on n unlabeled nodes with circuit rank k up to orientation-preserving homeomorphisms, 3 <= k <= n-1.",
+  "id": "A380361",
+  "mentions": [
+    "A000012",
+    "A001683",
+    "A003455",
+    "A295633",
+    "A380360",
+    "A380362"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

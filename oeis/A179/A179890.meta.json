@@ -1,5 +1,5 @@
 {
-  "description": "Values of antiharmonic mean B(q) of the numbers k < q such that gcd(k, q) = 1 is integer for nonprimes q from A179887, where B(q) = A053818(q) / A023896(q) = A175505(q) / A175506(q).",
+  "description": "Values of antiharmonic mean B(q) of the numbers k < q such that gcd(k, q) = 1 is an integer for nonprimes q from A179887, where B(q) = A053818(q) / A023896(q) = A175505(q) / A175506(q).",
   "id": "A179890",
   "mentions": [
     "A003627",

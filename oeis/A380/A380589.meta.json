@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-colorings of the Hypercube Graph Q5.",
+  "id": "A380589",
+  "mentions": [
+    "A001477",
+    "A002378",
+    "A091940",
+    "A140986",
+    "A158348",
+    "A334278",
+    "A342128"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

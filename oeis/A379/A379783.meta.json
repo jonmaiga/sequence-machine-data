@@ -1,0 +1,19 @@
+{
+  "description": "For n >= 2, let b(n) = 1 if A379899(n) is 3 mod 4, 0 if A379899(n) is 1 mod 4; form the RUNS transform of {b(n), n >= 2}.",
+  "id": "A379783",
+  "mentions": [
+    "A091237",
+    "A379652",
+    "A379785",
+    "A379899"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

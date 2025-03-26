@@ -1,5 +1,5 @@
 {
-  "description": "1 + (n-6)*2^(n-1).",
+  "description": "a(n) = 1 + (n-6)*2^(n-1).",
   "id": "A115342",
   "mentions": [
     "A115618"

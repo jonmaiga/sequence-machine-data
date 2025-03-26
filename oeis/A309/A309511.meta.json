@@ -1,7 +1,10 @@
 {
   "description": "Number of odd parts in the partitions of n into 3 parts.",
   "id": "A309511",
-  "mentions": [],
+  "mentions": [
+    "A069905",
+    "A309513"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Popularity of left children in treeshelves avoiding pattern T231.",
+  "description": "a(n) = Sum_{k=0..n} A011971(n, k)*(k + 1). The Aitken-Bell triangle considered as a linear transform applied to the positive numbers.",
   "id": "A278677",
   "mentions": [
     "A000110",
@@ -7,6 +7,7 @@
     "A000142",
     "A001286",
     "A008292",
+    "A011971",
     "A131178",
     "A278678",
     "A278679",
@@ -19,7 +20,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 0,
     "size": 23,
     "source": "oeis-bfile"
   }

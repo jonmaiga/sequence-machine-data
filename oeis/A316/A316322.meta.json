@@ -2,9 +2,15 @@
   "description": "Sum of piles of first n primes: a(n) = Sum(prime(i)*(2*i-1): 1<=i<=n).",
   "id": "A316322",
   "mentions": [
-    "A083215"
+    "A007504",
+    "A014285",
+    "A023662",
+    "A062020",
+    "A083215",
+    "A167214"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

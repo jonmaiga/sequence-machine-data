@@ -1,0 +1,15 @@
+{
+  "description": "Least positive integer m such that tau(m) is divisible by n, where the Ramanujan tau function is given by A000594.",
+  "id": "A376336",
+  "mentions": [
+    "A000594"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

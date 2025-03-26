@@ -1,7 +1,8 @@
 {
-  "description": "A simple grammar.",
+  "description": "First differences of A052829.",
   "id": "A052870",
   "mentions": [
+    "A052829",
     "A052855"
   ],
   "tags": [

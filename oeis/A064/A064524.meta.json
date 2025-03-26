@@ -2,6 +2,7 @@
   "description": "Number of noncubes <= n.",
   "id": "A064524",
   "mentions": [
+    "A007412",
     "A048766"
   ],
   "tags": [

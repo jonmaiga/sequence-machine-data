@@ -1,5 +1,5 @@
 {
-  "description": "Largest number k such that the greatest prime factor of k^2-1 is prime(n).",
+  "description": "Largest number k such that the greatest prime factor of k^2 - 1 is prime(n).",
   "id": "A175607",
   "mentions": [
     "A002071",

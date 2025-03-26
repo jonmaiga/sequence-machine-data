@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n+3,3)*C(n+6,6).",
+  "description": "a(n) = binomial(n+3,3)*binomial(n+6,6).",
   "id": "A107418",
   "mentions": [
     "A062145"

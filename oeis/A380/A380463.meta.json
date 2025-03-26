@@ -1,0 +1,21 @@
+{
+  "description": "Third coefficient of the lindep transform of the sum of squarefree divisors of n, A048250.",
+  "id": "A380463",
+  "mentions": [
+    "A048250",
+    "A339792",
+    "A380461",
+    "A380462",
+    "A380473",
+    "A380483"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

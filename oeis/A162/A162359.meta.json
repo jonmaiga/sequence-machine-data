@@ -52,12 +52,14 @@
     "A162492"
   ],
   "tags": [
+    "fini",
     "formulas",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 26,
     "source": "joeis"
   }
 }

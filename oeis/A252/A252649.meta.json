@@ -1,5 +1,5 @@
 {
-  "description": "The number of positive integers that are less than or equal to n that have a primitive root.",
+  "description": "Number of positive integers that are less than or equal to n and have a primitive root.",
   "id": "A252649",
   "mentions": [
     "A033948"

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = k*(a(n-1)+n), k=-1 for prime n, otherwise k=1 (a(1)=1).",
+  "id": "A377371",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

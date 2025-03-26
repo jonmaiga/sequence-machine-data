@@ -1,13 +1,35 @@
 {
-  "description": "a(0) = 0, and for any n > 0, a(n) is the least integer (in absolute value) not yet in the sequence such that the absolute difference of a(n-1) and a(n) is a square; in case of a tie, preference is given to the positive value.",
+  "description": "a(0) = 0; thereafter a(n) is the least integer (in absolute value) not yet in the sequence such that the absolute difference between a(n-1) and a(n) is a square; in case of a tie, preference is given to the positive value.",
   "id": "A377091",
   "mentions": [
+    "A064413",
+    "A098550",
+    "A109812",
+    "A121216",
     "A277616",
+    "A277617",
+    "A277618",
+    "A347113",
     "A377090",
-    "A377092"
+    "A377092",
+    "A379057",
+    "A379061",
+    "A379067",
+    "A379071",
+    "A379078",
+    "A379786",
+    "A379798",
+    "A379802",
+    "A379803",
+    "A379804",
+    "A379880",
+    "A380223",
+    "A380224",
+    "A380225"
   ],
   "tags": [
     "look",
+    "nice",
     "sign"
   ],
   "terms": {

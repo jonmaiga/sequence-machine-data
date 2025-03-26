@@ -2,6 +2,7 @@
   "description": "a(n) = 5^n*Sum_{ k=0..n } binomial(2*k,k)/5^k.",
   "id": "A144635",
   "mentions": [
+    "A000032",
     "A002457",
     "A006134",
     "A082590",

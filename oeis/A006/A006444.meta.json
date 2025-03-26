@@ -1,7 +1,11 @@
 {
-  "description": "Number of 2-connected planar maps with n edges.",
+  "description": "Number of achiral 2-connected planar maps with n edges.",
   "id": "A006444",
   "mentions": [
+    "A006402",
+    "A006403",
+    "A006443",
+    "A006445",
     "A007401"
   ],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least positive integer m such that when m*(m+1) is written in base n, it is zeroless and contains every single nonzero digit exactly once, or 0 if no such number exists.",
+  "id": "A382050",
+  "mentions": [
+    "A381266"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Nonpositive values in A377091, negated, in order of appearance and with offset 0.",
+  "id": "A379874",
+  "mentions": [
+    "A377091",
+    "A379873"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

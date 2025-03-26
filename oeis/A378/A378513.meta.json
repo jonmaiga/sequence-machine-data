@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(n) = a(n-1) + n if all the digits of a(n-1) do not share a divisor greater than 1. Otherwise, a(n) = a(n-1) divided by the gcd of all its individual digits.",
+  "id": "A378513",
+  "mentions": [
+    "A052423"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of different hooklength lists of the plane partitions of n.",
+  "id": "A381332",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A094504",
+    "A097391"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

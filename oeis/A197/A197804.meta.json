@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 4,2,1,0,1 for x=0,1,2,3,4",
+  "description": "Number of n X 7 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 4,2,1,0,1 for x=0,1,2,3,4.",
   "id": "A197804",
   "mentions": [
     "A197805"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "oeis-bfile"
   }
 }

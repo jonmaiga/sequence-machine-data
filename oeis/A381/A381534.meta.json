@@ -1,0 +1,21 @@
+{
+  "description": "A084849 interleaved with positive even numbers.",
+  "id": "A381534",
+  "mentions": [
+    "A000124",
+    "A005843",
+    "A084849",
+    "A130883",
+    "A354008"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

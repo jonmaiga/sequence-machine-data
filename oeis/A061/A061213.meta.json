@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = product of first n triangular numbers (A000217) + 1.",
+  "description": "a(n) = 1 + product of first n positive triangular numbers (A000217).",
   "id": "A061213",
   "mentions": [
     "A000217",

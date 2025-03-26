@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp( -LambertW(-2 * sin(x)) / 2 ).",
+  "id": "A381263",
+  "mentions": [
+    "A136630",
+    "A381142"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

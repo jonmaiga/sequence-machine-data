@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1/sqrt( 1 - 2*x*A(x)^2*exp(x*A(x)^2) ).",
+  "id": "A380095",
+  "mentions": [
+    "A213644",
+    "A379688",
+    "A380042",
+    "A380096"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

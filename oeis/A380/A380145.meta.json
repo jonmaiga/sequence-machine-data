@@ -1,0 +1,20 @@
+{
+  "description": "The binary expansion of a(n) is an initial 1 bit then tracks where the swaps occur in the exchange sort algorithm sorting the binary expansion of n into decreasing order.",
+  "id": "A380145",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A006125",
+    "A023758",
+    "A070939"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

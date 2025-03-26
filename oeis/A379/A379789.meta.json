@@ -1,0 +1,22 @@
+{
+  "description": "Sequence Sb of the eight sequences defining the blocks of terms in A377091.",
+  "id": "A379789",
+  "mentions": [
+    "A377091",
+    "A379788",
+    "A379790",
+    "A379791",
+    "A379792",
+    "A379793",
+    "A379794",
+    "A380837"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

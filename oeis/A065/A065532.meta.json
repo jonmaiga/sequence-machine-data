@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 48*n^2 - 1.",
   "id": "A065532",
-  "mentions": [],
+  "mentions": [
+    "A158463"
+  ],
   "tags": [
     "easy",
     "formulas",

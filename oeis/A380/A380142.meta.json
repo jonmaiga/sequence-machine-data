@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the imaginary part of (-1)^sqrt(i), where i is the imaginary unit.",
+  "id": "A380142",
+  "mentions": [
+    "A247719",
+    "A380141"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

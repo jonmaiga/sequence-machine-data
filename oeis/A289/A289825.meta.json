@@ -1,11 +1,12 @@
 {
-  "description": "Primes of the form k!3-59049, where k!3 is the triple factorial number (A007661).",
+  "description": "Primes of the form k!3 - 59049, where k!3 is the triple factorial number (A007661).",
   "id": "A289825",
   "mentions": [
     "A007661",
     "A265201"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Primes ordered so that their most significant digits form the digits of golden ratio phi= 1.6180339887...",
   "id": "A073625",
   "mentions": [
+    "A001622",
     "A073622",
     "A073623",
     "A073624"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

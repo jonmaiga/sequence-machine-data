@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of 50*Pi/1296.",
+  "id": "A379016",
+  "mentions": [
+    "A000796"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

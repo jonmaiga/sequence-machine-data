@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: The convolution triangle of 2^n, where the convolution triangle of a sequence is defined in A357368.",
+  "id": "A380114",
+  "mentions": [
+    "A038207",
+    "A081294",
+    "A097805",
+    "A357368",
+    "A380115"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

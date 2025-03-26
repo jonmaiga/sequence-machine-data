@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that (k^2)-1 is not divisible by p^p for any prime p.",
+  "id": "A379965",
+  "mentions": [
+    "A048103",
+    "A067874",
+    "A379963",
+    "A379964"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

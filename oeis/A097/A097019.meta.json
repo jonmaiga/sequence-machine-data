@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=sigma[A097018(n)]/p[n]=A000203[A097018(n)]/A000040(n).",
+  "description": "a(n) = sigma(A097018(n))/prime(n) = A000203(A097018(n))/A000040(n).",
   "id": "A097019",
   "mentions": [
     "A000040",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 95,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

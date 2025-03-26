@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of integral specified in program line.",
+  "description": "Denominator of n-th Borwein integral divided by Pi/2.",
   "id": "A144616",
   "mentions": [
     "A068214"
@@ -9,7 +9,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 11,
     "source": "oeis-bfile"
   }

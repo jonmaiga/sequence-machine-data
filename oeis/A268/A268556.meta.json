@@ -1,14 +1,18 @@
 {
-  "description": "Arises in counting maps on a surface: see Coquereaux-Zuber (2015) for precise definition.",
+  "description": "Number of pairs (tau, sigma) of permutations of a set of size 4*n, where tau (resp. sigma) has only 2-cycles (resp. 4-cycles), up to simultaneous conjugacy.",
   "id": "A268556",
-  "mentions": [],
+  "mentions": [
+    "A129115",
+    "A268558",
+    "A292206"
+  ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 9,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

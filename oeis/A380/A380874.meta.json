@@ -1,0 +1,16 @@
+{
+  "description": "Indices of odd values > 1 in A067044 (least k such that k*n has only even digits).",
+  "id": "A380874",
+  "mentions": [
+    "A067044"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

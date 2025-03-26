@@ -2,17 +2,19 @@
   "description": "Type I Minkowski-Siegel mass constants (numerators).",
   "id": "A241121",
   "mentions": [
+    "A005134",
     "A054909",
     "A054911",
     "A241122"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

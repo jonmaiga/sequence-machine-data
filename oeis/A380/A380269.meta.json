@@ -1,0 +1,17 @@
+{
+  "description": "The minimal rank of an n-universal Z-lattice.",
+  "id": "A380269",
+  "mentions": [
+    "A054911"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "a(n) = smallest k not occurring earlier such that k divides prime(n)+1.",
   "id": "A132988",
   "mentions": [
+    "A132948",
     "A132989",
     "A132990",
     "A132991"

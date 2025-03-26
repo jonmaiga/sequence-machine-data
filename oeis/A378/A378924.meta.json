@@ -1,0 +1,17 @@
+{
+  "description": "Number of minimal edge cuts in the n-Plummer-Toft graph.",
+  "id": "A378924",
+  "mentions": [
+    "A377769"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of standard Young tableaux with shapes in {lambda = (lambda_1,lambda_2,...) | lambda_1-lambda_2=k, lambda_i<=1 for i>=3, |lambda| = n}, n >= 0 and 0 <= k <= n.",
+  "id": "A379893",
+  "mentions": [
+    "A005043",
+    "A257520",
+    "A379838"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

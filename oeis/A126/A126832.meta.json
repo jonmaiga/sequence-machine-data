@@ -2,6 +2,7 @@
   "description": "Ramanujan numbers (A000594) read mod 5.",
   "id": "A126832",
   "mentions": [
+    "A000203",
     "A000594",
     "A064987",
     "A126833",

@@ -3,14 +3,13 @@
   "id": "A324018",
   "mentions": [],
   "tags": [
-    "bref",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 3,
+    "offset": 0,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

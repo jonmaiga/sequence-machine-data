@@ -2,6 +2,7 @@
   "description": "Powers of 5: a(n) = 5^n.",
   "id": "A000351",
   "mentions": [
+    "A000045",
     "A000051",
     "A001021",
     "A001076",

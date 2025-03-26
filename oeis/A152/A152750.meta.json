@@ -1,5 +1,5 @@
 {
-  "description": "Eight times hexagonal numbers: 8*n*(2*n-1).",
+  "description": "Eight times hexagonal numbers: a(n) = 8*n*(2*n-1).",
   "id": "A152750",
   "mentions": [
     "A000384",
@@ -15,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 42,
+    "size": 44,
     "source": "joeis"
   }
 }

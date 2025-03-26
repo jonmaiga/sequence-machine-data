@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the nearest integer to 1/gamma(x_m), where x_m is the m-th extrema of gamma(x).",
+  "description": "a(n) is the nearest integer to 1/gamma(x_n), where x_n is the n-th extrema of gamma(x).",
   "id": "A377506",
   "mentions": [
     "A374856"

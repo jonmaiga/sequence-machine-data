@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/( (1 - x) * (1 - x*A(x)) )^2.",
+  "id": "A379281",
+  "mentions": [
+    "A199475",
+    "A379282",
+    "A379283"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

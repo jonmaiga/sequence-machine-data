@@ -1,0 +1,24 @@
+{
+  "description": "Number of divisors d | k, d < k/d, such that (d, k/d) are neither unitary nor both coreful, where k is neither squarefree nor prime power (in A126706).",
+  "id": "A380691",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A007947",
+    "A013929",
+    "A024619",
+    "A034444",
+    "A126706",
+    "A361430"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

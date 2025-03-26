@@ -1,13 +1,19 @@
 {
   "description": "Number of unsensed planar maps with n edges and without loops or isthmuses.",
   "id": "A006399",
-  "mentions": [],
+  "mentions": [
+    "A006385",
+    "A006391",
+    "A006398",
+    "A099553"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 11,
+    "offset": 0,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

@@ -1,7 +1,8 @@
 {
-  "description": "E.g.f.: Product_{k>0} (1+k*x^k)^(-1/k).",
+  "description": "Expansion of e.g.f. Product_{k>0} (1+k*x^k)^(-1/k).",
   "id": "A294465",
   "mentions": [
+    "A076717",
     "A294356",
     "A294462",
     "A294463",

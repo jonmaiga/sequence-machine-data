@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of tanh(tan(x))*sin(x)/2.",
+  "description": "Expansion of e.g.f. sinh(tanh(x)*tan(x))/2 in odd powers of x^2.",
   "id": "A009617",
   "mentions": [
     "A012671"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
-    "source": "joeis"
+    "size": 11,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (1 + 3*x*exp(x))^(1/3).",
+  "id": "A380134",
+  "mentions": [
+    "A028310",
+    "A380017",
+    "A380051",
+    "A380094",
+    "A380133"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

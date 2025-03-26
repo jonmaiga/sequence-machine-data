@@ -1,0 +1,23 @@
+{
+  "description": "Erase digit 0 from decimal expansion of n. Then repeatedly apply the number of divisor function (A000005) onto each digit until a stationary value is reached. a(n) is the final stationary value (if it is reached for all digits).",
+  "id": "A380435",
+  "mentions": [
+    "A000005",
+    "A002275",
+    "A002276",
+    "A002283",
+    "A004719",
+    "A007931",
+    "A111066"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

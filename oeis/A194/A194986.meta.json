@@ -2,11 +2,13 @@
   "description": "a(n) = 1 + floor(n/sqrt(6)).",
   "id": "A194986",
   "mentions": [
+    "A172476",
     "A194987",
     "A194988",
     "A194989"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

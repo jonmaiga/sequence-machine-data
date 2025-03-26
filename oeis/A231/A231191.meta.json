@@ -1,10 +1,11 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with no element equal to a strict majority of its horizontal, vertical and antidiagonal neighbors, with values 0..2 introduced in row major order",
+  "description": "Number of (n+1) X (n+1) 0..2 arrays with no element equal to a strict majority of its horizontal, vertical and antidiagonal neighbors, with values 0..2 introduced in row major order.",
   "id": "A231191",
   "mentions": [
     "A231199"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

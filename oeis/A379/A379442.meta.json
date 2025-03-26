@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1, a(2) = 2, for a(n) > 2, a(n) is the smallest unused positive number that shares a factor with a(n-1) such that the exponents of each distinct prime factor of a(n-1) differ by one from those of the same prime factors of a(n), while the exponents of each distinct prime factor of a(n) differ by one from those of the same prime factors of a(n-1).",
+  "id": "A379442",
+  "mentions": [
+    "A027746",
+    "A051903",
+    "A064413",
+    "A124010",
+    "A348086",
+    "A379248",
+    "A379440",
+    "A379441",
+    "A379557",
+    "A379558",
+    "A379559"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

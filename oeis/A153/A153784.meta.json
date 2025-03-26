@@ -1,13 +1,13 @@
 {
-  "description": "4 times heptagonal numbers: 2n(5n-3).",
+  "description": "4 times heptagonal numbers: a(n) = 2*n*(5*n-3).",
   "id": "A153784",
   "mentions": [
     "A000566",
     "A085787",
     "A087348",
     "A135706",
-    "A152773",
-    "A152785"
+    "A152745",
+    "A152773"
   ],
   "tags": [
     "easy",
@@ -16,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 45,
     "source": "joeis"
   }
 }

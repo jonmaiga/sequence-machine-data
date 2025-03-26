@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose sum of abundant divisors is odd.",
+  "id": "A381550",
+  "mentions": [
+    "A000265",
+    "A005101",
+    "A006038",
+    "A080224",
+    "A187795",
+    "A381547"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}
