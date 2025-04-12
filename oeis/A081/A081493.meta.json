@@ -1,15 +1,19 @@
 {
-  "description": "Triangle read by rows in which the n-th row begins with n and contains n terms of an Arithmetic progression with a common difference of (n-1).",
+  "description": "Triangle T(n,k) read by rows in which the n-th row begins with T(n,1) = n and contains n terms of an arithmetic progression with a common difference of (n-1).",
   "id": "A081493",
-  "mentions": [],
+  "mentions": [
+    "A001844",
+    "A006003"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 74,
+    "size": 78,
     "source": "joeis"
   }
 }

@@ -2,9 +2,11 @@
   "description": "Let x(n, k) be the exponent of prime(k) in the factorization of n, then a(n) = Max_{k} abs(x(n,k)- x(n-1,k)).",
   "id": "A334572",
   "mentions": [
+    "A002378",
     "A051903",
     "A067255",
     "A124010",
+    "A176166",
     "A334573",
     "A334574"
   ],

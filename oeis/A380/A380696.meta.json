@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A007598(floor(n/2) - (-1)^n).",
+  "id": "A380696",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A007598",
+    "A053602",
+    "A069921",
+    "A123231",
+    "A272912"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

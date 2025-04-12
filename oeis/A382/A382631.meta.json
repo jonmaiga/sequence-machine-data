@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose binary representation contains exactly four 1's, no two 1's being adjacent.",
+  "id": "A382631",
+  "mentions": [
+    "A003714",
+    "A014312",
+    "A136318",
+    "A173589"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of hypercubic bipartitions of n.",
+  "id": "A382733",
+  "mentions": [
+    "A000788",
+    "A382732"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

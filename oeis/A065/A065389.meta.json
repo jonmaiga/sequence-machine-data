@@ -1,15 +1,17 @@
 {
-  "description": "Numbers n such that sigma(phi(n)) sets a new record, i.e., sigma(phi(m)) > sigma(phi(k)) for all k < m numbers.",
+  "description": "Numbers m such that sigma(phi(m)) sets a new record, i.e., sigma(phi(m)) > sigma(phi(k)) for all k < m numbers.",
   "id": "A065389",
   "mentions": [
     "A000010",
     "A000203",
     "A062402",
     "A065294",
-    "A065390"
+    "A065390",
+    "A065391",
+    "A065392",
+    "A065393"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

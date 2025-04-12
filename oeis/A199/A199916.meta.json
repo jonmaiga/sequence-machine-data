@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) = coefficient of x^n in expansion of ((2-2*cos(x))/x)^k = sum(n>=k, T(n,k) * x^n * (2*k)!/(n+k)!).",
+  "description": "Triangle T(n,k) = coefficient of x^n in expansion of ((2-2*cos(x))/x)^k = Sum_{n>=k} T(n,k) * x^n * (2*k)!/(n+k)!.",
   "id": "A199916",
   "mentions": [],
   "tags": [

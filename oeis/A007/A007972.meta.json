@@ -2,9 +2,12 @@
   "description": "Number of permutations that are 2 \"block reversals\" away from 12...n.",
   "id": "A007972",
   "mentions": [
+    "A000124",
     "A007973",
     "A007974",
     "A007975",
+    "A228396",
+    "A228397",
     "A300003"
   ],
   "tags": [

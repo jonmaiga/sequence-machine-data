@@ -1,7 +1,9 @@
 {
   "description": "Concatenate Fibonacci(n+4), Fibonacci(n+2) and Fibonacci(n).",
   "id": "A134549",
-  "mentions": [],
+  "mentions": [
+    "A000045"
+  ],
   "tags": [
     "base",
     "easy",

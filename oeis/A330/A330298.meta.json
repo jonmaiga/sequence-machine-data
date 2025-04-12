@@ -2,6 +2,10 @@
   "description": "a(n) is the number of subsets of {1..n} that contain exactly 1 odd and 2 even numbers.",
   "id": "A330298",
   "mentions": [
+    "A000217",
+    "A002378",
+    "A006002",
+    "A027480",
     "A330299",
     "A330300"
   ],

@@ -1,0 +1,16 @@
+{
+  "description": "Number of zeros (counted with multiplicity) inside and on the unit circle of the polynomial P(n,z) = Sum_{k=0..n} T(n,k)*z^k where T(n,k) = A214292(n,k) is the first differences of rows in Pascal's triangle.",
+  "id": "A382019",
+  "mentions": [
+    "A007318",
+    "A214292"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; thereafter a(n) is the next larger number that compared to the previous term differs by +-1 in the number of prime factors counted with multiplicity.",
+  "id": "A382229",
+  "mentions": [
+    "A001222",
+    "A071192"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

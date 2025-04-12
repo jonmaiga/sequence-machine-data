@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n-1)^2 + 4 * a(n-1), with a(0) = 2.",
+  "id": "A382437",
+  "mentions": [
+    "A002812",
+    "A003010"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

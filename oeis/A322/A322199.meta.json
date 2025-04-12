@@ -1,9 +1,12 @@
 {
-  "description": "G.f.: Product_{n>=1} 1/(1 - (2^n + 1)*x^n).",
+  "description": "Expansion of Product_{k>=1} 1/(1 - (2^k + 1) * x^k).",
   "id": "A322199",
   "mentions": [
+    "A000051",
+    "A266964",
     "A322200",
-    "A322209"
+    "A322209",
+    "A322210"
   ],
   "tags": [
     "formulas",

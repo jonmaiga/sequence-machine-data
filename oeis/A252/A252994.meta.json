@@ -2,6 +2,7 @@
   "description": "Multiples of 26.",
   "id": "A252994",
   "mentions": [
+    "A005843",
     "A008595",
     "A008607",
     "A244633"

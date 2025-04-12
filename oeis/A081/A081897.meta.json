@@ -1,5 +1,5 @@
 {
-  "description": "A sequence related to binomial(n+3, 3).",
+  "description": "Fourth binomial transform of binomial(n+3, 3).",
   "id": "A081897",
   "mentions": [
     "A000292",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

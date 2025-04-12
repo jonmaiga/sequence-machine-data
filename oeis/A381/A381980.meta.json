@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first position where the digits of n occur simultaneously in the decimal expansions of Pi and e.",
+  "id": "A381980",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A032445",
+    "A052055",
+    "A088576"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^n-n*(n-3).",
+  "description": "a(n) = 2^n - n*(n-3).",
   "id": "A176777",
   "mentions": [
     "A142974",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 36,
     "source": "joeis"
   }
 }

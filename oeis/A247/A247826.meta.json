@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n with at least one nonpalindromic divisor such that the sum of sigma(x) = the sum of sigma(reverse(x)), where x runs over the divisors of n.",
+  "description": "Numbers k with at least one nonpalindromic divisor such that the sum of sigma(d) = the sum of sigma(reverse(d)), where d runs over the divisors of k.",
   "id": "A247826",
   "mentions": [
     "A000203",
+    "A004086",
     "A196677",
     "A246545"
   ],
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

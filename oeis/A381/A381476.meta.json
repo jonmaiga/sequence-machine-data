@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of subsets of {1..n} with k elements such that every pair of distinct elements has a different difference, 0 <= k <= A143824(n).",
+  "id": "A381476",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A003022",
+    "A143823",
+    "A143824",
+    "A161680",
+    "A212964",
+    "A241688",
+    "A241689",
+    "A241690",
+    "A325879",
+    "A382395"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

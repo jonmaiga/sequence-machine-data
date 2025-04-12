@@ -1,0 +1,20 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals downwards, where n unlabeled objects are distributed into k containers of two kinds. Containers may be left empty.",
+  "id": "A382345",
+  "mentions": [
+    "A000712",
+    "A073252",
+    "A381895",
+    "A382342"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

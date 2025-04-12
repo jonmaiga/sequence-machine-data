@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of phi(x) / f(-x)^6 in powers of x where phi(), f() are Ramanujan theta functions..",
+  "description": "Expansion of phi(x) / f(-x)^6 in powers of x where phi(), f() are Ramanujan theta functions.",
   "id": "A134415",
   "mentions": [
     "A000122",

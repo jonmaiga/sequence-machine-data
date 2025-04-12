@@ -2,16 +2,16 @@
   "description": "Triangle T(n,k) (n >= 2, 1 <= k <= n-1) read by rows, where T(n,k) is the number of words of length n in the free group on two generators that require exactly k multiplications for their formation.",
   "id": "A076261",
   "mentions": [
+    "A000079",
     "A076262"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 2,
-    "size": 21,
+    "size": 78,
     "source": "oeis-entry"
   }
 }

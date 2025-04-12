@@ -1,0 +1,18 @@
+{
+  "description": "Dimensions of the homogeneous component of degree n of the free unital Jordan algebra on 3 generators.",
+  "id": "A382233",
+  "mentions": [
+    "A001776",
+    "A032120"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

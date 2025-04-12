@@ -1,7 +1,8 @@
 {
-  "description": "A sequence related to binomial(n+6, 6).",
+  "description": "Second binomial transform of binomial(n+6, 6).",
   "id": "A081904",
   "mentions": [
+    "A000579",
     "A055853",
     "A081905"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

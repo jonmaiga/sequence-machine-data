@@ -1,9 +1,11 @@
 {
-  "description": "Expansion of (1-8*x)/((1-x)*(1-10*x)).",
+  "description": "Expansion of g.f. (1-8*x)/((1-x)*(1-10*x)).",
   "id": "A093135",
   "mentions": [
     "A001045",
+    "A002279",
     "A047855",
+    "A062397",
     "A091628",
     "A093136"
   ],
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "joeis"
   }
 }

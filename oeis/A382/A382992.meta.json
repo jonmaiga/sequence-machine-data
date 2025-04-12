@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions of n that have at least 1 part equal to 1 and any part 1 at position k can be k different colors.",
+  "id": "A382992",
+  "mentions": [
+    "A000045",
+    "A008275",
+    "A011782",
+    "A088305",
+    "A238351",
+    "A240736",
+    "A382991"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

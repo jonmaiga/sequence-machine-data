@@ -2,6 +2,7 @@
   "description": "Number of steps required in the worst case for three knights to find the princess in a castle with n rooms arranged in a line (Castle and princess puzzle).",
   "id": "A301426",
   "mentions": [
+    "A194222",
     "A300576",
     "A301337"
   ],

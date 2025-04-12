@@ -1,0 +1,19 @@
+{
+  "description": "Least composite squarefree numbers k > n such that p + n divides k - n, for each prime p dividing k.",
+  "id": "A382484",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225710",
+    "A225711",
+    "A225720"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

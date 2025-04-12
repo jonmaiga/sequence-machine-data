@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A074829(2*n-1, n).",
+  "id": "A382432",
+  "mentions": [
+    "A074829"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

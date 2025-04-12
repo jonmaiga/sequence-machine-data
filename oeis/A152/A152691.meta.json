@@ -2,8 +2,10 @@
   "description": "Multiples of 64.",
   "id": "A152691",
   "mentions": [
+    "A005843",
     "A044187",
-    "A048169"
+    "A048169",
+    "A174312"
   ],
   "tags": [
     "easy",

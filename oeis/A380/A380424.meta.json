@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of zeta(2,1,-4) = Sum_{i>=3} (Sum_{j=1..i-1} (Sum_k=1..j-1} (-1)^k/(i^2*j*k^4))) (negated).",
+  "description": "Decimal expansion of zeta(2,1,-4) = Sum_{i>=3} Sum_{j=1..i-1} Sum_{k=1..j-1} (-1)^k/(i^2*j*k^4) (negated).",
   "id": "A380424",
   "mentions": [
     "A076788",

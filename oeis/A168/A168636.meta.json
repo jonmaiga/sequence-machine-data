@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n^7*(n^2 + 1)/2.",
   "id": "A168636",
-  "mentions": [],
+  "mentions": [
+    "A168635"
+  ],
   "tags": [
     "easy",
     "formulas",

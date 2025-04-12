@@ -1,14 +1,17 @@
 {
   "description": "a(1)=1, a(n) = 25*a(n-1) + n.",
   "id": "A014914",
-  "mentions": [],
+  "mentions": [
+    "A126885"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

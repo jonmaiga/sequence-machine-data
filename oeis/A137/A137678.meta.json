@@ -1,5 +1,5 @@
 {
-  "description": "Consider the consecutive composite numbers between prime(n) and prime(n+1). Letting k=prime(n+1)-prime(n)-1, a(n) is the number of these numbers that have all primes factors less than k.",
+  "description": "Consider the consecutive composite numbers between prime(n) and prime(n+1). Letting k = prime(n+1)-prime(n)-1, a(n) is the number of these numbers that have all prime factors less than k.",
   "id": "A137678",
   "mentions": [
     "A059686",

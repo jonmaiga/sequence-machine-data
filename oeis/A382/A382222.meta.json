@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that A073734(k) = n, where A073734 is the GCD of consecutive terms of the EKG sequence A064413.",
+  "id": "A382222",
+  "mentions": [
+    "A064413",
+    "A064740",
+    "A064955",
+    "A073734",
+    "A073735",
+    "A382271"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

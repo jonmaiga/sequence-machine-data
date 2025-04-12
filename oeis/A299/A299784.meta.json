@@ -1,5 +1,5 @@
 {
-  "description": "Maximal size of a main class for diagonal Latin squares of order n with the first row in ascending order.",
+  "description": "Maximum size of a main class for diagonal Latin squares of order n with the first row in ascending order.",
   "id": "A299784",
   "mentions": [
     "A287764",

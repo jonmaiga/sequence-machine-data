@@ -1,5 +1,5 @@
 {
-  "description": "Initial members of prime quadruples (n, n+2, n+30, n+32).",
+  "description": "Initial members of prime quadruples (p, p+2, p+30, p+32).",
   "id": "A247089",
   "mentions": [
     "A001359",

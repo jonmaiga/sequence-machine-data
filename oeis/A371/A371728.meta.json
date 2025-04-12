@@ -3,18 +3,21 @@
   "id": "A371728",
   "mentions": [
     "A004159",
+    "A049415",
     "A056991",
     "A069665",
     "A069666",
-    "A348300"
+    "A348300",
+    "A379298"
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 64,
+    "size": 48,
     "source": "oeis-entry"
   }
 }

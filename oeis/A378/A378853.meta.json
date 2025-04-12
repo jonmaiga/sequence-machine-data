@@ -1,5 +1,5 @@
 {
-  "description": "Define f(x) = abs(1-1/x) and sequence {b(n)} such that b(n+1) = f(b(n)). a(n) is the number of initial values b(1) such that {b(n)}'s period has length n.",
+  "description": "Define f(x) = abs(1-1/x) and sequence {b(m)} such that b(m+1) = f(b(m)). a(n) is the number of initial values b(1) such that {b(m)}'s period has length n.",
   "id": "A378853",
   "mentions": [
     "A000032",

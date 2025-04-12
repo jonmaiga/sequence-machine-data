@@ -1,0 +1,27 @@
+{
+  "description": "Biquadratefree numbers (A046100) that are not squarefree (A005117).",
+  "id": "A382967",
+  "mentions": [
+    "A004709",
+    "A005117",
+    "A013929",
+    "A046100",
+    "A051903",
+    "A059956",
+    "A067259",
+    "A215267",
+    "A252849",
+    "A375072",
+    "A375229"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

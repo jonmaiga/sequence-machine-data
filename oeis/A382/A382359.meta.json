@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled deterministic finite automata with n states and two letters.",
+  "id": "A382359",
+  "mentions": [
+    "A036289",
+    "A062206",
+    "A155957"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

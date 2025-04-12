@@ -1,14 +1,17 @@
 {
   "description": "a(1)=1, a(n) = 22*a(n-1) + n.",
   "id": "A014907",
-  "mentions": [],
+  "mentions": [
+    "A126885"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

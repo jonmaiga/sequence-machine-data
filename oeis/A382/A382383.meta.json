@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct variances of nonempty subsets of {1, ..., n}.",
+  "id": "A382383",
+  "mentions": [
+    "A005418",
+    "A135342",
+    "A208531",
+    "A382381",
+    "A382382"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that the fractional part of 1/k is pandigital in base n.",
+  "id": "A382498",
+  "mentions": [
+    "A001913",
+    "A261773"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

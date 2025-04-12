@@ -4,7 +4,8 @@
   "mentions": [
     "A000124",
     "A082548",
-    "A082562"
+    "A082562",
+    "A382383"
   ],
   "tags": [
     "formulas",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 45,
     "source": "joeis"
   }
 }

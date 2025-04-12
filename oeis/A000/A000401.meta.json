@@ -1,11 +1,11 @@
 {
-  "description": "Numbers of form x^2 + y^2 + 2z^2.",
+  "description": "Numbers of form x^2 + y^2 + 2*z^2.",
   "id": "A000401",
   "mentions": [
     "A055039"
   ],
   "tags": [
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {

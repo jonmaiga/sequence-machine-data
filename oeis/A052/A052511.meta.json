@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n) - 1 - A006218(n).",
+  "description": "a(n) = prime(n) - 1 - A006218(n).",
   "id": "A052511",
   "mentions": [
     "A006218",

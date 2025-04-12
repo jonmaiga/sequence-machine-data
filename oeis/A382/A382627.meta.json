@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the smallest (in absolute value) root of 1-x-x^2-x^3-x^4-x^5.",
+  "id": "A382627",
+  "mentions": [
+    "A001622",
+    "A103814",
+    "A192918",
+    "A382626"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-entry"
+  }
+}

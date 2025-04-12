@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: defined by the two-variable g.f. (x^3*y^2 + x^3*y - x^2*y + 1) / (1 - x^2*y - x*y - x).",
+  "id": "A382439",
+  "mentions": [
+    "A008288",
+    "A245990",
+    "A382436"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

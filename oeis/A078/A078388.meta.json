@@ -2,14 +2,17 @@
   "description": "Arithmetic derivative of numbers which can be written as sum of a positive square and a positive cube.",
   "id": "A078388",
   "mentions": [
+    "A003415",
+    "A055394",
     "A078386"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

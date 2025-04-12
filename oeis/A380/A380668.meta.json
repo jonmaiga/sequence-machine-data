@@ -1,9 +1,10 @@
 {
-  "description": "Third center column of elementary triangular automaton rule 182, from a lone 1 cell.",
+  "description": "Third center column of elementary triangular automaton rule 182, starting from a lone 1 cell.",
   "id": "A380668",
   "mentions": [
     "A380173",
-    "A380670"
+    "A380670",
+    "A381735"
   ],
   "tags": [
     "nonn"

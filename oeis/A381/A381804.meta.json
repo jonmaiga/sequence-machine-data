@@ -1,0 +1,21 @@
+{
+  "description": "Number of residues r mod n congruent to k such that rad(k) | n but rad(r) does not divide n, with rad = A007947.",
+  "id": "A381804",
+  "mentions": [
+    "A007947",
+    "A010846",
+    "A162306",
+    "A243623",
+    "A381800",
+    "A381801"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

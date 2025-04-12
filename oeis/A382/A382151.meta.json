@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that some elliptic curve over Q admits a Q-rational p-isogeny.",
+  "id": "A382151",
+  "mentions": [
+    "A382152"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that no two subsequences {a(j), a(j+k), a(j+2k)} and {a(i), a(i+m), a(i+2m)} with different k and m values are the same.",
+  "id": "A382502",
+  "mentions": [
+    "A364057",
+    "A382501"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

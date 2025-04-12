@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n Erdős matrices up to equivalence.",
+  "id": "A381896",
+  "mentions": [
+    "A000041"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

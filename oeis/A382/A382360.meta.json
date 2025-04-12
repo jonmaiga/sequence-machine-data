@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the unique k such that A382357(k) = 2^n.",
+  "id": "A382360",
+  "mentions": [
+    "A382357"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

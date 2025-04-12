@@ -1,8 +1,9 @@
 {
-  "description": "Numbers of spanning trees of the crown graphs.",
+  "description": "Number of spanning trees in the n-crown graph.",
   "id": "A193133",
   "mentions": [],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

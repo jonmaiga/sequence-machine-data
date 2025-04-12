@@ -1,0 +1,26 @@
+{
+  "description": "The number of unitary 3-smooth divisors of n.",
+  "id": "A382488",
+  "mentions": [
+    "A003586",
+    "A005117",
+    "A034444",
+    "A065331",
+    "A072078",
+    "A134451",
+    "A181982",
+    "A382487",
+    "A382489"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

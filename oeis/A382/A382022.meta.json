@@ -1,0 +1,16 @@
+{
+  "description": "Composite integers k = p*q*r where p < q < r are distinct primes such that p*r < q^2.",
+  "id": "A382022",
+  "mentions": [
+    "A007304",
+    "A381736"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

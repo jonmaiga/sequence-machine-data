@@ -1,5 +1,5 @@
 {
-  "description": "Primes with n consecutive ascending digits beginning with the digit three.",
+  "description": "a(n) consecutive digits ascending beginning with the digit 3 give a prime.",
   "id": "A120821",
   "mentions": [
     "A006055",
@@ -14,13 +14,13 @@
   ],
   "tags": [
     "base",
-    "bref",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 4,
     "source": "oeis-entry"
   }
 }

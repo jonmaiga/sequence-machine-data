@@ -1,10 +1,11 @@
 {
-  "description": "The number of permutations of a sequence of length n such that there are no fixed points, and no term is next to a term it was next to originally.",
+  "description": "Number of permutations of a sequence of length n such that there are no fixed points, and no term is next to a term it was next to originally.",
   "id": "A288208",
   "mentions": [
     "A000142",
     "A000166",
     "A002464",
+    "A209322",
     "A381461"
   ],
   "tags": [

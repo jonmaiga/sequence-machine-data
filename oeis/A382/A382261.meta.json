@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(x^(phi^n)), where phi = (1+sqrt(5))/2 and x is the constant A382260.",
+  "id": "A382261",
+  "mentions": [
+    "A001622",
+    "A051254",
+    "A059784",
+    "A090253",
+    "A243358",
+    "A382260"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

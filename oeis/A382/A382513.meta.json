@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{p prime} p * x^p / (1 - p * x^p).",
+  "id": "A382513",
+  "mentions": [
+    "A008472",
+    "A055225",
+    "A069359",
+    "A373458",
+    "A373459"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

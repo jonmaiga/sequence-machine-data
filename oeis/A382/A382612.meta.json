@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n^3 * (n^2 - n + 1).",
+  "id": "A382612",
+  "mentions": [
+    "A382532"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

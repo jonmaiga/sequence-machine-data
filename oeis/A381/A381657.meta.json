@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the multiple zeta value (Euler sum) zetamult(4, 1, 1).",
+  "id": "A381657",
+  "mentions": [
+    "A002117",
+    "A013664",
+    "A381651",
+    "A381652",
+    "A381653",
+    "A381654",
+    "A381655",
+    "A381656"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

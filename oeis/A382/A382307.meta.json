@@ -1,0 +1,21 @@
+{
+  "description": "Position of start of first run of alternating bit values in the base-2 representation of Pi, or -1 if no such run exists.",
+  "id": "A382307",
+  "mentions": [
+    "A004601",
+    "A175945",
+    "A178708",
+    "A233836",
+    "A378472"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

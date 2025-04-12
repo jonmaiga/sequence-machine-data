@@ -1,0 +1,20 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals downwards, where A(n,k) = n! * k! * [x^n * y^k] (1/3) * (1 / (exp(x) + exp(y) - exp(x+y))^3 - 1).",
+  "id": "A382741",
+  "mentions": [
+    "A272644",
+    "A382735",
+    "A382740",
+    "A382742"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

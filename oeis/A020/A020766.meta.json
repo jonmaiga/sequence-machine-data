@@ -1,14 +1,18 @@
 {
-  "description": "Expansion of 1/((1-6x)(1-11x)(1-12x)).",
+  "description": "Expansion of g.f. 1/((1-6*x)*(1-11*x)*(1-12*x)).",
   "id": "A020766",
-  "mentions": [],
+  "mentions": [
+    "A016174",
+    "A016175"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 20,
     "source": "joeis"
   }
 }

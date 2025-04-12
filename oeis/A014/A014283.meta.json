@@ -2,15 +2,17 @@
   "description": "a(n) = Fibonacci(n) - n^2.",
   "id": "A014283",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A000290"
   ],
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 40,
     "source": "joeis"
   }
 }

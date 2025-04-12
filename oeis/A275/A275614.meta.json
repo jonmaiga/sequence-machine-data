@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of number with continued fraction expansion 1, 2, 4, 8, 16, 32, ... (powers of 2).",
+  "description": "Decimal expansion of number with continued fraction expansion 0, 1, 2, 4, 8, 16, 32, ... (powers of 2).",
   "id": "A275614",
   "mentions": [
     "A000079",

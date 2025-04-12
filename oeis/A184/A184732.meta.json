@@ -1,5 +1,5 @@
 {
-  "description": "floor(nr+h), where r=(1+sqrt(5))/2, h=-1/4; complement of A184733.",
+  "description": "a(n) = floor(n*r+h), where r=(1+sqrt(5))/2, h=-1/4; complement of A184733.",
   "id": "A184732",
   "mentions": [
     "A184658",

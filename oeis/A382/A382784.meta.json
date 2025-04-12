@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows of the coefficients of Pi^(2k) in the expansion of Sum_{k>=1} (1 / (4k^2-1)^n) with denominator 2^(2n)*(n-1)!.",
+  "id": "A382784",
+  "mentions": [
+    "A123092",
+    "A248895",
+    "A248896",
+    "A382782"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

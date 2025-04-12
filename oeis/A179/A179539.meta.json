@@ -1,13 +1,17 @@
 {
-  "description": "a(0)=1, a(1)=0, a(n)=2n(a(n-1)+a(n-2)), n>1.",
+  "description": "a(0) = 1, a(1) = 0, a(n) = 2*n*(a(n-1) + a(n-2)), n > 1.",
   "id": "A179539",
-  "mentions": [],
+  "mentions": [
+    "A055596"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

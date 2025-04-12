@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that in binary representation m! contains 7!.",
+  "description": "Numbers m such that the binary representation of m! contains 7!.",
   "id": "A103680",
   "mentions": [
     "A000142",
@@ -9,15 +9,17 @@
     "A103675",
     "A103676",
     "A103678",
+    "A103679",
     "A103681"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

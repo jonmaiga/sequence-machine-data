@@ -1,5 +1,5 @@
 {
-  "description": "Number of triples {i,j,k}, i>1, j>1, k>1, such that ijk < n^3.",
+  "description": "Number of triples {i,j,k}, i>1, j>1, k>1, such that i*j*k < n^3.",
   "id": "A037092",
   "mentions": [
     "A037048"

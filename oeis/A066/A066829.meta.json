@@ -2,6 +2,7 @@
   "description": "Parity of Omega(n): a(n) = 1 if n is the product of an odd number of primes; 0 if product of even number of primes.",
   "id": "A066829",
   "mentions": [
+    "A000035",
     "A001222",
     "A007421",
     "A008836",

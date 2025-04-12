@@ -2,6 +2,7 @@
   "description": "The sum of a^2 + b^2 for all nonnegative integers a,b such that b^2 - a^2 = 2*n+1.",
   "id": "A241657",
   "mentions": [
+    "A001157",
     "A237626"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

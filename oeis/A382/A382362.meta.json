@@ -1,0 +1,23 @@
+{
+  "description": "Number of oriented Eulerian circuits from a fixed start vertex in the complete digraph K_n, counting distinct first arcs.",
+  "id": "A382362",
+  "mentions": [
+    "A000142",
+    "A000272",
+    "A023443",
+    "A124355",
+    "A135388",
+    "A232545",
+    "A369820"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

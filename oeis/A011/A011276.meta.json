@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of 7th root of 10.",
   "id": "A011276",
-  "mentions": [],
+  "mentions": [
+    "A010769"
+  ],
   "tags": [
     "cons",
+    "easy",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "A second-order recursive sequence.",
+  "description": "a(n) = (n+1)*binomial(n+8, 8).",
   "id": "A056003",
   "mentions": [
     "A000142",

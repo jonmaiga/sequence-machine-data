@@ -1,0 +1,23 @@
+{
+  "description": "The number of non-unitary prime divisors of the biquadratefree numbers.",
+  "id": "A382425",
+  "mentions": [
+    "A013662",
+    "A046100",
+    "A056170",
+    "A376366",
+    "A382422",
+    "A382423",
+    "A382424"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

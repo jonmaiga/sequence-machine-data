@@ -1,14 +1,16 @@
 {
   "description": "Discriminants of totally complex quartic fields.",
   "id": "A023682",
-  "mentions": [],
+  "mentions": [
+    "A023680",
+    "A023681"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 54,
+    "source": "oeis-bfile"
   }
 }

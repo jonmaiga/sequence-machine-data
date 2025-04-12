@@ -1,14 +1,15 @@
 {
-  "description": "Expansion of (1+2*x+3*x^2)/(1-x-x^2-x^3-x^4).",
+  "description": "Expansion of g.f. (1+2*x+3*x^2)/(1-x-x^2-x^3-x^4).",
   "id": "A028831",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 29,
-    "source": "joeis"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

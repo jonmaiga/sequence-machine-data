@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2*n X n 0..3 arrays with row sums 8 and column sums 16",
+  "description": "Number of 2*n X n 0..3 arrays with row sums 8 and column sums 16.",
   "id": "A172756",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-bfile"
   }
 }

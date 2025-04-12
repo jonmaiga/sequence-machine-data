@@ -1,14 +1,18 @@
 {
-  "description": "Expansion of 1/((1-x)(1-2x)(1-7x)).",
+  "description": "Expansion of g.f. 1/((1-x)*(1-2*x)*(1-7*x)).",
   "id": "A016201",
-  "mentions": [],
+  "mentions": [
+    "A016130",
+    "A023000"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 23,
     "source": "joeis"
   }
 }

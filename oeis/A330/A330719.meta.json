@@ -2,9 +2,11 @@
   "description": "a(n) = denominator(Sum_{k=1..n} (2^(k-1) - 1)/k).",
   "id": "A330719",
   "mentions": [
+    "A000265",
     "A002805",
     "A064169",
     "A279683",
+    "A290348",
     "A330718"
   ],
   "tags": [

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime number whose factorial base expansion contains the digit n.",
+  "id": "A382392",
+  "mentions": [
+    "A001563",
+    "A062584",
+    "A090703"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

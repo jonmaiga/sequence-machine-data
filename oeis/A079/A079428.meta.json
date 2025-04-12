@@ -1,5 +1,5 @@
 {
-  "description": "Least coprime m>n with same number of divisors as n, a(1)=1.",
+  "description": "Least coprime number m > n with same number of divisors as n, a(1) = 1.",
   "id": "A079428",
   "mentions": [
     "A000005",
@@ -7,11 +7,12 @@
     "A079427"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,10 @@
   "description": "a(n) = 10*4^n.",
   "id": "A002066",
   "mentions": [
+    "A000079",
+    "A003947",
+    "A004171",
+    "A020714",
     "A081294"
   ],
   "tags": [
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

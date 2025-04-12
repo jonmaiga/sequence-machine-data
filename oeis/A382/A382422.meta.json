@@ -1,0 +1,25 @@
+{
+  "description": "The product of exponents in the prime factorization of the biquadratefree numbers.",
+  "id": "A382422",
+  "mentions": [
+    "A003586",
+    "A005361",
+    "A013662",
+    "A046100",
+    "A082695",
+    "A375766",
+    "A375768",
+    "A382423",
+    "A382424"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

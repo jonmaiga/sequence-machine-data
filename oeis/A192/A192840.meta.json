@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n symmetric 0..1 arrays with each element equal to at least two horizontal or vertical neighbors, containing at least one 1 and with new values 0..1 introduced in lower triangular row major order",
+  "description": "Number of n X n symmetric 0..1 arrays with each element equal to at least two horizontal or vertical neighbors, containing at least one 1 and with new values 0..1 introduced in lower triangular row major order.",
   "id": "A192840",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

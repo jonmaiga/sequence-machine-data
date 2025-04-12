@@ -2,7 +2,9 @@
   "description": "Consider all (2n+1)-digit palindromic primes of the form 10...0M0...01 (so that M is a palindrome with <= 2n-1 digits); a(n) = smallest such M.",
   "id": "A100026",
   "mentions": [
+    "A004151",
     "A028989",
+    "A080176",
     "A099744",
     "A099746",
     "A100027",

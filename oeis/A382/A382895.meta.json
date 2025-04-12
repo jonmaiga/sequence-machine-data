@@ -1,0 +1,18 @@
+{
+  "description": "Divide n successively by its nonzero digits from most to least significant, updating the result at each step and skipping any digit that doesn't divide the current value exactly.",
+  "id": "A382895",
+  "mentions": [
+    "A051801",
+    "A382897"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

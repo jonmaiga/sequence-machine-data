@@ -1,5 +1,5 @@
 {
-  "description": "Binary complement of 3n.",
+  "description": "Binary complement of 3*n.",
   "id": "A359194",
   "mentions": [
     "A002450",

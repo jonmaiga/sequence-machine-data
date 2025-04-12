@@ -1,0 +1,16 @@
+{
+  "description": "Semiprimes that can be expressed using at most one of each of the semiprime digits 4, 6, 9 using concatenation and the arithmetic operations +, -, *, /, ^.",
+  "id": "A382901",
+  "mentions": [],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

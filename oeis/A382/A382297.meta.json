@@ -1,0 +1,17 @@
+{
+  "description": "Indices of right triangles in A381337.",
+  "id": "A382297",
+  "mentions": [
+    "A381336",
+    "A381337"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

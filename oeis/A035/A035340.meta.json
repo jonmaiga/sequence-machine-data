@@ -2,14 +2,21 @@
   "description": "6th column of Wythoff array.",
   "id": "A035340",
   "mentions": [
-    "A019586"
+    "A003622",
+    "A019586",
+    "A035336",
+    "A035337",
+    "A035338",
+    "A035339",
+    "A035513",
+    "A094214"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 50,
     "source": "oeis-bfile"
   }
 }

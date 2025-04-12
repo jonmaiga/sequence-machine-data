@@ -1,5 +1,5 @@
 {
-  "description": "Let T(n,k) be the n-th k-almost prime. Then a(n) = T(n,k) such that k is minimal and for all l>0, T(n,k+l) > 2^l * T(n,k).",
+  "description": "Let T(n,k) be the n-th k-almost prime. Then a(n) = T(n,k) such that k is minimal and for all m>0, T(n,k+m) >= 2^m * T(n,k).",
   "id": "A109636",
   "mentions": [
     "A000040",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

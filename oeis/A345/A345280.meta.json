@@ -1,11 +1,13 @@
 {
-  "description": "a(n) = Sum_{p|n} nextprime(p), where nextprime(n) is the smallest prime > n.",
+  "description": "a(n) = Sum_{p|n, p prime} nextprime(p), where nextprime(n) is the smallest prime > n.",
   "id": "A345280",
   "mentions": [
+    "A010051",
     "A151800",
     "A345281"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

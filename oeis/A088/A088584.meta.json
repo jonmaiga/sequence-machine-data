@@ -1,13 +1,17 @@
 {
   "description": "Primes of the form n*x^n + (n-1)*x^(n-1) + . . . + x + 1 for x=3.",
   "id": "A088584",
-  "mentions": [],
+  "mentions": [
+    "A055469",
+    "A088579",
+    "A088583"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 7,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

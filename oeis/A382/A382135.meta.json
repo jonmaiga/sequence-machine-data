@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) = S(n+k) - S(n) - S(k) - min(n,k), where S(k) = A000788(k-1).",
+  "id": "A382135",
+  "mentions": [
+    "A000120",
+    "A000788"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Least value k which is the beginning of a null Goldbach chain of length exactly n..",
+  "description": "Least value k which is the beginning of a null Goldbach chain of length exactly n.",
   "id": "A112827",
   "mentions": [
     "A020481",

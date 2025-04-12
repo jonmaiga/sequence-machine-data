@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..3 arrays with no more than floor(nX2/2) elements equal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..3 order",
+  "description": "Number of n X 2 0..3 arrays with no more than n elements equal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..3 order.",
   "id": "A222839",
   "mentions": [
     "A222842"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

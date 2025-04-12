@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-node acyclic digraphs, not necessarily connected, which are squares.",
+  "id": "A382159",
+  "mentions": [
+    "A382157",
+    "A382158",
+    "A382180"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

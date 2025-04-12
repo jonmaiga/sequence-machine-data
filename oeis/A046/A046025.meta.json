@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that 6n+1, 12n+1 and 18n+1 are all primes.",
+  "description": "Numbers k such that 6*k+1, 12*k+1 and 18*k+1 are all primes.",
   "id": "A046025",
   "mentions": [
     "A002997",
-    "A033502"
+    "A033502",
+    "A382809"
   ],
   "tags": [
     "nonn"

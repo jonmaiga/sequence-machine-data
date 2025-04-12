@@ -1,20 +1,21 @@
 {
-  "description": "Decimal expansion of Cp(2), the molar specific heat of an diatomic ideal gas at constant pressure.",
+  "description": "Decimal expansion of the molar specific heat of an ideal gas consisting of molecules with 5 degrees of freedom at constant pressure, in J mol^-1 K^-1.",
   "id": "A272003",
   "mentions": [
-    "A081822",
+    "A070064",
     "A272001",
     "A272002"
   ],
   "tags": [
     "cons",
+    "fini",
     "formulas",
-    "more",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 9,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

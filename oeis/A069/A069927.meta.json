@@ -1,14 +1,16 @@
 {
   "description": "Numbers k that divide 2^(k+3) - 1.",
   "id": "A069927",
-  "mentions": [],
+  "mentions": [
+    "A187787"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 47,
     "source": "oeis-bfile"
   }
 }

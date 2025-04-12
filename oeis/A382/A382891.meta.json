@@ -1,0 +1,25 @@
+{
+  "description": "The powerfree part of the n-th cubefree number.",
+  "id": "A382891",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A005117",
+    "A007913",
+    "A055231",
+    "A371188",
+    "A382888",
+    "A382889",
+    "A382890"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

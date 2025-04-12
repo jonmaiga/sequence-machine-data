@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=least square such that the subsets of {a(1),...,a(n)} sum to 2^n different values.",
+  "description": "a(n) = least square such that the subsets of {a(1),...,a(n)} sum to 2^n different values.",
   "id": "A138858",
   "mentions": [
     "A064934",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

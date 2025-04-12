@@ -1,14 +1,18 @@
 {
   "description": "a(1)=1, a(n) = 18*a(n-1) + n.",
   "id": "A014901",
-  "mentions": [],
+  "mentions": [
+    "A014935",
+    "A126885"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

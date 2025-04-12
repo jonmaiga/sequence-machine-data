@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n!*n^n.",
+  "description": "a(n) = n^n * n!.",
   "id": "A061711",
   "mentions": [
     "A036679",

@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of 1/((1-2x)(1-4x)(1-8x)).",
+  "description": "Expansion of g.f. 1/((1-2*x)*(1-4*x)*(1-8*x)).",
   "id": "A016290",
   "mentions": [
     "A006516",
-    "A016152"
+    "A016152",
+    "A160873"
   ],
   "tags": [
     "easy",

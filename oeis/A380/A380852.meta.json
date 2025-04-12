@@ -1,0 +1,13 @@
+{
+  "description": "a(1) = 2; thereafter a(n) is the least prime which is the sum of two or more consecutive primes starting with a(n-1).",
+  "id": "A380852",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

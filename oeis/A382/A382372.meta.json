@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/( 1 - Sum_{k>=0} x^(4^k) / (1 - x^(4^k)) ).",
+  "id": "A382372",
+  "mentions": [
+    "A115362",
+    "A327736",
+    "A382367",
+    "A382373",
+    "A382378"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes with n consecutive ascending digits beginning with the digit four.",
+  "description": "a(n) consecutive digits ascending beginning with the digit 4 give a prime.",
   "id": "A120822",
   "mentions": [
     "A006055",
@@ -17,6 +17,7 @@
     "base",
     "bref",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

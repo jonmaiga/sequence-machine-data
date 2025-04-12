@@ -1,18 +1,19 @@
 {
-  "description": "Let R = Z((1+sqrt{5})/2) denote the ring of integers in the real quadratic number field of discriminant 5. Let nu in R be a totally positive element of norm m = A031363(n). Then a(n) is the number of ways of writing nu as a sum of three squares in R.",
+  "description": "Let R = Z[(1+sqrt(5))/2] denote the ring of integers in the real quadratic number field of discriminant 5. Then a(n) is the largest integer k such that every totally positive element nu in R of norm m = A031363(n) can be written as a sum of three squares in R in at least k ways.",
   "id": "A263849",
   "mentions": [
+    "A000118",
+    "A005875",
     "A031363",
     "A035187",
     "A263850"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 69,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Primes that can be written uniquely as 1+p+p^k, p prime and k>0.",
+  "description": "Primes that can be written uniquely as 1+p+p^k, p prime and k > 0.",
   "id": "A084442",
   "mentions": [
     "A005385",
@@ -7,11 +7,12 @@
     "A084441"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

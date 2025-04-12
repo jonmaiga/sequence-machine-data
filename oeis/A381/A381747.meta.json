@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of solutions to tau(x) + tau(n-x) = tau(n) where 1 <= x <= floor(n/2).",
+  "id": "A381747",
+  "mentions": [
+    "A000005",
+    "A000430",
+    "A211225",
+    "A382074"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

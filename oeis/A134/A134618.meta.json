@@ -2,6 +2,7 @@
   "description": "Numbers such that the sum of cubes of their prime factors (taken with multiplicity) is a prime.",
   "id": "A134618",
   "mentions": [
+    "A000040",
     "A001597",
     "A025475",
     "A134333",
@@ -13,9 +14,11 @@
     "A134608",
     "A134612",
     "A134616",
-    "A134620"
+    "A134620",
+    "A224787"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

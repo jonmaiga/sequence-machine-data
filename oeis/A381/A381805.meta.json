@@ -1,0 +1,26 @@
+{
+  "description": "Smallest composite squarefree number that is coprime to n.",
+  "id": "A381805",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A020639",
+    "A033845",
+    "A033846",
+    "A051250",
+    "A053669",
+    "A120944",
+    "A380539",
+    "A382248"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

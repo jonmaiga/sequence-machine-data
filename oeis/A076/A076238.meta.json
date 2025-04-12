@@ -1,5 +1,5 @@
 {
-  "description": "Remainder when 3rd order composite ccc[n]=A050436[n] is divided by first order composite c[n]=A002808[n].",
+  "description": "a(n) = A050436(n) mod A002808(n).",
   "id": "A076238",
   "mentions": [
     "A002808",

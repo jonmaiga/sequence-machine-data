@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of [2n] with exactly n ascents and an even number of inversions.",
+  "id": "A382309",
+  "mentions": [
+    "A128612",
+    "A180056"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

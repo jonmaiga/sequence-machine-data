@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that there are exactly n numbers i < k such that phi(i) divides phi(k-i), where phi = A000010.",
+  "id": "A382633",
+  "mentions": [
+    "A000010",
+    "A070547"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

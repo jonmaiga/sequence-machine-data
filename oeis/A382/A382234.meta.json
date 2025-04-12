@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the multiple prime zeta value primezetamult(2, 2).",
+  "id": "A382234",
+  "mentions": [
+    "A085548",
+    "A085964",
+    "A197110",
+    "A382235",
+    "A382236"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

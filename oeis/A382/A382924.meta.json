@@ -1,0 +1,22 @@
+{
+  "description": "Number of m-compositions of n with n zeros.",
+  "id": "A382924",
+  "mentions": [
+    "A038207",
+    "A101509",
+    "A181331",
+    "A261780",
+    "A323429",
+    "A382820",
+    "A382923"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

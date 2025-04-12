@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the number of distinct prime factors of adjacent terms differ exactly by one.",
+  "id": "A382376",
+  "mentions": [
+    "A001221",
+    "A382357",
+    "A382374",
+    "A382377"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

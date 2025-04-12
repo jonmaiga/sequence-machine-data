@@ -1,0 +1,19 @@
+{
+  "description": "Number of square roots of connected square graphs in the order listed in A382194.",
+  "id": "A382283",
+  "mentions": [
+    "A076184",
+    "A241706",
+    "A382180",
+    "A382194"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

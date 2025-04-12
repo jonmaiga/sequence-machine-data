@@ -1,0 +1,21 @@
+{
+  "description": "Number of columns in all n-compositions of n.",
+  "id": "A382820",
+  "mentions": [
+    "A001792",
+    "A145839",
+    "A181289",
+    "A181290",
+    "A382818"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

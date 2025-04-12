@@ -2,11 +2,13 @@
   "description": "a(0) = 0, a(1) = 0; for n > 1, a(n) is the number of pairs of consecutive terms that sum to the same value as a(n-2) + a(n-1).",
   "id": "A364027",
   "mentions": [
+    "A306251",
     "A342585",
     "A347062",
     "A364036"
   ],
   "tags": [
+    "formulas",
     "look",
     "nonn"
   ],

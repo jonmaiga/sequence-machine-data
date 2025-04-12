@@ -1,5 +1,5 @@
 {
-  "description": "The nested recursive P312 function, a(n) = 3 + a(n-a(n-2))) for n>=1, a(n) = 1 for n",
+  "description": "The nested recursive P312 function, a(n) = 3 + a(n-a(n-2)) for n>=1, a(n) = 1 for n",
   "id": "A376549",
   "mentions": [
     "A002024",

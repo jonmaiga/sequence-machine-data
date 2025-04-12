@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers with exactly 3 prime factors, p*q*r, such that p-1, q-1 and r-1 have an equal 2-adic valuation.",
+  "id": "A382791",
+  "mentions": [
+    "A002997",
+    "A007814",
+    "A087788",
+    "A329799"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

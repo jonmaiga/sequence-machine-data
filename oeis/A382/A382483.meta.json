@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest number k such that at least one of sigma(n) - k and sigma(n) + k is a perfect number.",
+  "id": "A382483",
+  "mentions": [
+    "A000396",
+    "A081357",
+    "A146542",
+    "A382506"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

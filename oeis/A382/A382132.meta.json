@@ -1,0 +1,17 @@
+{
+  "description": "Centered pentagonal numbers which are semiprimes.",
+  "id": "A382132",
+  "mentions": [
+    "A001358",
+    "A005891",
+    "A364610"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(2) = 2. Let j = a(n-1) and let d = A160995(j) be the smallest non-divisor of j which shares a prime factor with j. Then for n > 2 a(n) is the smallest multiple of d which is not yet in the sequence.",
+  "id": "A381139",
+  "mentions": [
+    "A160995",
+    "A337687"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

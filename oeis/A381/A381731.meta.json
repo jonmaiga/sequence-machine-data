@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least number k with squarefree neighbors such that the number of non-unitary divisors of k (A048105) is equal to n, or 0 if no such k exists.",
+  "id": "A381731",
+  "mentions": [
+    "A048105",
+    "A280892",
+    "A309181"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

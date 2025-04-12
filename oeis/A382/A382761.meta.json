@@ -1,0 +1,21 @@
+{
+  "description": "List of graphs that are squares, encoded as in A382754.",
+  "id": "A382761",
+  "mentions": [
+    "A382181",
+    "A382194",
+    "A382754",
+    "A382762",
+    "A382763"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

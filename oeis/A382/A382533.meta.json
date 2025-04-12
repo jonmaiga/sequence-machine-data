@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum total dominating sets in the n-Lucas cube graph.",
+  "id": "A382533",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

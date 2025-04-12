@@ -1,5 +1,5 @@
 {
-  "description": "n + mu(n), where mu is the Moebius-function (A008683).",
+  "description": "a(n) = n + mu(n), where mu is the Moebius function (A008683).",
   "id": "A076369",
   "mentions": [
     "A000027",
@@ -10,12 +10,13 @@
     "A076840"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

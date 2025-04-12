@@ -1,0 +1,16 @@
+{
+  "description": "Number of connected cubic planar identity graphs on 2n vertices.",
+  "id": "A380936",
+  "mentions": [
+    "A380935"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

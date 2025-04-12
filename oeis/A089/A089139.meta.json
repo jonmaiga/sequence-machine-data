@@ -1,20 +1,29 @@
 {
-  "description": "Decimal expansion of e^4 - 3e^3 + 2e^2 - e/6.",
+  "description": "Decimal expansion of e^4 - 3*e^3 + 2*e^2 - e/6.",
   "id": "A089139",
   "mentions": [
     "A001113",
+    "A089087",
+    "A090137",
+    "A090138",
     "A090142",
     "A090143",
-    "A090611"
+    "A090611",
+    "A379601",
+    "A381673",
+    "A381843",
+    "A382020",
+    "A382026"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

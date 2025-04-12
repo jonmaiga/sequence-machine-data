@@ -1,14 +1,17 @@
 {
   "description": "a(1) = 1, a(n) = 12*a(n-1) + n.",
   "id": "A014882",
-  "mentions": [],
+  "mentions": [
+    "A126885"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

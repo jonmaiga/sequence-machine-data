@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{k>=0} sin(3k*Pi/5)/2^k.",
+  "description": "Decimal expansion of Sum_{k>=0} sin(3*k*Pi/5)/2^k.",
   "id": "A373023",
   "mentions": [
     "A373021"

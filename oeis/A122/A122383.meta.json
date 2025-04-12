@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = m-th positive integer which is coprime to n, where phi(n) is number of positive integers which are <= n and are coprime to n and m = phi(n) if phi(n)|n, else m = n mod phi(n)..",
+  "description": "a(n) = m-th positive integer which is coprime to n, where phi(n) is number of positive integers which are <= n and are coprime to n and m = phi(n) if phi(n)|n, else m = n mod phi(n).",
   "id": "A122383",
   "mentions": [
     "A000010",

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with at least one zero in their base-9 representation.",
+  "id": "A382418",
+  "mentions": [
+    "A007095",
+    "A011540",
+    "A043453",
+    "A062289",
+    "A081605",
+    "A196032",
+    "A255808",
+    "A382413",
+    "A382415",
+    "A382416",
+    "A382417"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

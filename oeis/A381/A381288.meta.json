@@ -1,0 +1,19 @@
+{
+  "description": "Partial alternating sums of the trajectory of 2 under the morphism 2->{2,1,2}, 1->{2}.",
+  "id": "A381288",
+  "mentions": [
+    "A001333",
+    "A104521",
+    "A106035"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

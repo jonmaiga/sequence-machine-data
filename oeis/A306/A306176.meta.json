@@ -6,13 +6,12 @@
     "A151541"
   ],
   "tags": [
-    "more",
     "nonn",
     "walk"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

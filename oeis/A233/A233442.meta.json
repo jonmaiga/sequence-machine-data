@@ -1,5 +1,5 @@
 {
-  "description": "2^n mod n^3.",
+  "description": "a(n) = 2^n mod n^3.",
   "id": "A233442",
   "mentions": [
     "A000079",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

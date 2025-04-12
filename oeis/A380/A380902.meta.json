@@ -1,9 +1,10 @@
 {
-  "description": "Integers with at least 1 proper factorization for which the sum of the squares of the factors equals that number.",
+  "description": "Integers k with at least 1 proper factorization for which the sum of the squares of the factors equals k.",
   "id": "A380902",
   "mentions": [
     "A001694",
     "A005117",
+    "A162247",
     "A190882",
     "A380760"
   ],

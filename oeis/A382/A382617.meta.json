@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k = m*(m^2 + 1) where m^2 + 1 is prime.",
+  "id": "A382617",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A070304"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

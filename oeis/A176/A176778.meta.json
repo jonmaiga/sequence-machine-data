@@ -1,7 +1,9 @@
 {
-  "description": "2^n-n*(n+2).",
+  "description": "a(n) = 2^n - n*(n+2).",
   "id": "A176778",
   "mentions": [
+    "A000079",
+    "A005563",
     "A014846",
     "A142974",
     "A176776",
@@ -14,7 +16,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 32,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

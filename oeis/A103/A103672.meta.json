@@ -1,5 +1,5 @@
 {
-  "description": "Greatest m less than n such that in binary representation n! contains m!.",
+  "description": "Greatest m < n such that the binary representation of n! contains m!.",
   "id": "A103672",
   "mentions": [
     "A000079",
@@ -11,11 +11,13 @@
     "A103671"
   ],
   "tags": [
+    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 104,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

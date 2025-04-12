@@ -1,9 +1,13 @@
 {
   "description": "Integers whose binary representation contains exactly two 1s, the 1s not being adjacent.",
   "id": "A136318",
-  "mentions": [],
+  "mentions": [
+    "A018900",
+    "A173589"
+  ],
   "tags": [
     "base",
+    "easy",
     "nonn"
   ],
   "terms": {

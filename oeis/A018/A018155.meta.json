@@ -1,13 +1,15 @@
 {
   "description": "Powers of fifth root of 14 rounded up.",
   "id": "A018155",
-  "mentions": [],
+  "mentions": [
+    "A011099"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 33,
-    "source": "joeis"
+    "size": 39,
+    "source": "oeis-bfile"
   }
 }

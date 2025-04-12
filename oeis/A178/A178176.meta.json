@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of central quotients of simple compact Lie groups of dimension n",
+  "description": "a(n) is the number of central quotients of simple compact Lie groups of dimension n.",
   "id": "A178176",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

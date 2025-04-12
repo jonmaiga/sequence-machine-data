@@ -2,8 +2,14 @@
   "description": "Number of fourth powers of primes <= 2^n.",
   "id": "A060970",
   "mentions": [
+    "A000720",
     "A007053",
-    "A036386"
+    "A018048",
+    "A030514",
+    "A036386",
+    "A060967",
+    "A060969",
+    "A060971"
   ],
   "tags": [
     "formulas",
@@ -12,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

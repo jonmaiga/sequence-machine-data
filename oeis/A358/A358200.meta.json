@@ -1,5 +1,5 @@
 {
-  "description": "Frequency ranking position of the ratio r(n) between consecutive prime-gaps, among all previous ratios {r(i) : 2 < i < n, r(i) = (prime(i) - prime(i-1))/(prime(i-1) - prime(i-2))}. If the ratio r(n) is not among previous ratios, then a(n)=n.",
+  "description": "Frequency ranking position of the ratio r(n) between consecutive prime gaps, among all previous ratios {r(i) : 2 < i < n, r(i) = (prime(i) - prime(i-1))/(prime(i-1) - prime(i-2))}. If the ratio r(n) is not among previous ratios, then a(n)=n.",
   "id": "A358200",
   "mentions": [
     "A001223",

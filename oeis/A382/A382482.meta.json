@@ -1,0 +1,14 @@
+{
+  "description": "a(1) = 1. Let a(n) be the most recently defined term. At each step, check for an undefined term with index < n. If such a term exists, then where i is the earliest such index, set a(i) = a(n) - (n - i). If no such term exists, then where i is the first undefined index >= n + a(n), set a(i) = the smallest integer not yet used.",
+  "id": "A382482",
+  "mentions": [],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

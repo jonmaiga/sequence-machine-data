@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * ( binomial(n,k) - binomial(n,k-1) )^4.",
+  "id": "A382443",
+  "mentions": [
+    "A000108",
+    "A129123",
+    "A381676",
+    "A382433",
+    "A382434",
+    "A382446"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

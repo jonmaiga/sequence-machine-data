@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (k+1) * binomial(2*k,2*n-4*k).",
+  "id": "A382300",
+  "mentions": [
+    "A034839",
+    "A375218",
+    "A376729",
+    "A381421",
+    "A382494",
+    "A382495",
+    "A382496"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

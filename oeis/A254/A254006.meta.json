@@ -2,6 +2,7 @@
   "description": "a(0) = 1, a(n) = 3*a(n-2) if n mod 2 = 0, otherwise a(n) = 0.",
   "id": "A254006",
   "mentions": [
+    "A000244",
     "A251732",
     "A251733"
   ],

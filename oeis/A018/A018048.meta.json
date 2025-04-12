@@ -2,7 +2,9 @@
   "description": "Powers of fourth root of 2 rounded down.",
   "id": "A018048",
   "mentions": [
-    "A017979"
+    "A017910",
+    "A017979",
+    "A018117"
   ],
   "tags": [
     "easy",
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 50,
+    "size": 57,
     "source": "oeis-bfile"
   }
 }

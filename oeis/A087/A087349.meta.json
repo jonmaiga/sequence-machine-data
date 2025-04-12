@@ -1,11 +1,13 @@
 {
-  "description": "n + (smallest prime-factor of n+1).",
+  "description": "a(n) = n + (smallest prime-factor of n+1).",
   "id": "A087349",
   "mentions": [
     "A020639",
     "A061228"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

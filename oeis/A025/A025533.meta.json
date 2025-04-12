@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (1/C(n,0) + 1/C(n,1) + ... + 1/C(n,n))*L, where L = LCM{C(n,0), C(n,1),..., C(n,n)}..",
+  "description": "a(n) = (1/C(n,0) + 1/C(n,1) + ... + 1/C(n,n))*L, where L = LCM{C(n,0), C(n,1),..., C(n,n)}.",
   "id": "A025533",
   "mentions": [],
   "tags": [

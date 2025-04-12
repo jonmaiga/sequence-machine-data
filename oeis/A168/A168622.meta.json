@@ -1,20 +1,25 @@
 {
-  "description": "Triangle T(n,k) with the coefficient [x^k] of the polynomial 7*(x+1)^n - 6*(x^n+1) in row n, column k. T(0,0)=1.",
+  "description": "Triangle read by rows: T(n, k) = [x^k]( 7*(1+x)^n - 6*(1+x^n) ) with T(0, 0) = 1.",
   "id": "A168622",
   "mentions": [
+    "A008589",
+    "A022090",
+    "A024966",
     "A048489",
     "A131115",
     "A132047",
-    "A168620"
+    "A168620",
+    "A168623"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,8 +1,16 @@
 {
-  "description": "Order of linear recurrence with constant coefficients of solutions of k satisfying k^(n-1) == 1 (mod n^2) for a given n",
+  "description": "Order of linear recurrence with constant coefficients of solutions of k satisfying k^(n-1) == 1 (mod n^2) for a given n.",
   "id": "A381319",
   "mentions": [
+    "A056020",
     "A056021",
+    "A056022",
+    "A056024",
+    "A056025",
+    "A056028",
+    "A056031",
+    "A056034",
+    "A056035",
     "A063994"
   ],
   "tags": [

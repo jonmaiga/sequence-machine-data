@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows, where row n lists the integers from 0 to 2^n - 1 sorted by the number of zeros in their binary representation (in case of ties, by their decimal value).",
+  "id": "A382467",
+  "mentions": [
+    "A000225",
+    "A006516",
+    "A080791",
+    "A131577",
+    "A294648"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

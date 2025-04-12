@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms > 1 such that no term is a substring of the product of any two terms.",
+  "id": "A381242",
+  "mentions": [
+    "A382453"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

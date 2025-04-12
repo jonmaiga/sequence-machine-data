@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without move-in move-out left turns",
+  "description": "Number of n X n arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without move-in move-out left turns.",
   "id": "A221603",
   "mentions": [
     "A221609"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

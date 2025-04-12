@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(n,k) = (n-k)*T(n-1,k-1) + 2*(k+1)*T(n-1,k) + A102365(n,k) with T(n,k) = 0 if k < 0 or k > n.",
+  "id": "A382629",
+  "mentions": [
+    "A098830",
+    "A102365",
+    "A126646",
+    "A180875"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

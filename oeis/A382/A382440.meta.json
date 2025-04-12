@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted full binary trees with n internal nodes, up to their multiset of subtree sizes.",
+  "id": "A382440",
+  "mentions": [
+    "A000108",
+    "A001190",
+    "A247139"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

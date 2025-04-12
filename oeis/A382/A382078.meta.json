@@ -37,12 +37,11 @@
     "A382200"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 51,
     "source": "oeis-entry"
   }
 }

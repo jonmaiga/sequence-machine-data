@@ -1,5 +1,5 @@
 {
-  "description": "Factorial of (prime(n) - 1).",
+  "description": "a(n) = (prime(n) - 1)!.",
   "id": "A177771",
   "mentions": [
     "A005097",

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct compositions of chess pieces with a collective material value of n that one color in a game can have, where 0 <= n <= 103.",
+  "id": "A380577",
+  "mentions": [
+    "A278832",
+    "A378248"
+  ],
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

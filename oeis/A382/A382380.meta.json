@@ -1,0 +1,18 @@
+{
+  "description": "Greater of twin self numbers, i.e., larger member of the pair of self numbers differing by 2.",
+  "id": "A382380",
+  "mentions": [
+    "A003052",
+    "A374101"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

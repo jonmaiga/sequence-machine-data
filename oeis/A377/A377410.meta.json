@@ -1,5 +1,5 @@
 {
-  "description": "Maximum sum of a subset of {1..n} such that every unordered pair of (not necessarily distinct) elements has a different sum.",
+  "description": "Maximum sum of a subset of {1..n} such that every pair of distinct elements has a different difference.",
   "id": "A377410",
   "mentions": [
     "A143823",

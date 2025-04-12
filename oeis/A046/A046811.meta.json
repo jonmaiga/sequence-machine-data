@@ -1,16 +1,18 @@
 {
-  "description": "Numbers (with nonzero digits) where A046810 increases.",
+  "description": "Numbers (with nonzero digits only) where A046810 increases.",
   "id": "A046811",
   "mentions": [
-    "A046810"
+    "A009994",
+    "A046810",
+    "A052382"
   ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 33,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any n > 1, a(n) does not divide any of the positive numbers whose decimal expansion appears as a contiguous subword in the concatenation of the previous terms.",
+  "id": "A382441",
+  "mentions": [
+    "A048991",
+    "A382442",
+    "A382445"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

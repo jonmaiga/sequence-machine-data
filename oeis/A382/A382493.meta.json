@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the 2-adic valuation of the least number that has exactly n 3-smooth divisors.",
+  "id": "A382493",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A033677",
+    "A037143",
+    "A099311",
+    "A382492"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

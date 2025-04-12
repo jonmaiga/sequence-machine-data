@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that p/i(p) < prime(i(p)-1)/(i(p)-1), where i(p)=A049084(p).",
+  "description": "Primes p such that p/i(p) < prime(i(p)-1)/(i(p)-1), where i(p) = A049084(p).",
   "id": "A079419",
   "mentions": [
     "A000040",
@@ -7,11 +7,12 @@
     "A079418"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

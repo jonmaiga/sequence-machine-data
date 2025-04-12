@@ -1,0 +1,17 @@
+{
+  "description": "Integers encoding the recursive structure of a bitonic sorter network of n elements in their binary expansion.",
+  "id": "A381457",
+  "mentions": [
+    "A000217",
+    "A001788"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

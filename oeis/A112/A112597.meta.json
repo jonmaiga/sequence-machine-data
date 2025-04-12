@@ -1,8 +1,9 @@
 {
-  "description": "Decimal expansion of x, where x is the smallest number for which floor[x^(2^y)] is prime for every y>0.",
+  "description": "Decimal expansion of x, where x is the smallest number for which floor(x^(2^y)) is prime for every y > 0 (assuming the truth of Legendre's conjecture).",
   "id": "A112597",
   "mentions": [
-    "A051021"
+    "A051021",
+    "A059784"
   ],
   "tags": [
     "cons",

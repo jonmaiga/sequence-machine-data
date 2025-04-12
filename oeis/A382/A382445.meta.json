@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically least increasing sequence of distinct positive integers such that for any n > 1, a(n) does not divide the concatenation of the earlier terms.",
+  "id": "A382445",
+  "mentions": [
+    "A007978",
+    "A096098",
+    "A382441"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

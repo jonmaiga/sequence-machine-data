@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest nonnegative integer k such that sigma_k(n) > sigma_k(j) for all 1 <= j < n.",
+  "id": "A381708",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A002093",
+    "A002182",
+    "A098475",
+    "A109974",
+    "A193988"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

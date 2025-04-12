@@ -12,7 +12,8 @@
     "A361888",
     "A361889",
     "A361891",
-    "A361892"
+    "A361892",
+    "A382394"
   ],
   "tags": [
     "easy",
@@ -22,6 +23,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

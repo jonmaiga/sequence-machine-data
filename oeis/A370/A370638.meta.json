@@ -35,12 +35,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 42,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) = n! * k! * [x^n * y^k] exp(x+y) / (exp(x) + exp(y) - exp(x+y))^4.",
+  "id": "A382674",
+  "mentions": [
+    "A000012",
+    "A036563",
+    "A099594",
+    "A136126",
+    "A382673",
+    "A382677",
+    "A382678",
+    "A382736"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

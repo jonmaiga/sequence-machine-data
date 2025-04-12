@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k which appear \"prematurely\" in A064413, that is, k appears before the k-th term.",
+  "id": "A382703",
+  "mentions": [
+    "A064413",
+    "A152458",
+    "A382702",
+    "A382708"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

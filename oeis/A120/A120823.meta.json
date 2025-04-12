@@ -1,5 +1,5 @@
 {
-  "description": "Number of digits of the smallest prime with n consecutive ascending digits and most significant digit a five.",
+  "description": "a(n) consecutive digits ascending beginning with the digit 5 give a prime..",
   "id": "A120823",
   "mentions": [
     "A006055",
@@ -15,6 +15,7 @@
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

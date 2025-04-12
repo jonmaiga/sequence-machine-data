@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 1/2 - Pi*(sqrt(2)+1)/16.",
+  "id": "A382907",
+  "mentions": [
+    "A239120"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+4*x)/(1-8*x).",
+  "description": "Expansion of g.f. (1+4*x)/(1-8*x).",
   "id": "A270568",
   "mentions": [
     "A001018",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

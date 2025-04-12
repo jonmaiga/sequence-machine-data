@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n+k-1,k) * Stirling1(n,k) * k!.",
+  "id": "A382840",
+  "mentions": [
+    "A006252",
+    "A305919",
+    "A308565",
+    "A317280",
+    "A354120",
+    "A354121",
+    "A382830"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

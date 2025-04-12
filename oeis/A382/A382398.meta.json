@@ -1,0 +1,18 @@
+{
+  "description": "Number of maximum sized subsets of {1..n} such that every pair of distinct elements has a different sum.",
+  "id": "A382398",
+  "mentions": [
+    "A039836",
+    "A196723",
+    "A325878",
+    "A382395"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

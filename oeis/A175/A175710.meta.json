@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n-4, n and n+4 are all twin semiprimes.",
+  "description": "Numbers k such that k-4, k and k+4 are all semiprimes.",
   "id": "A175710",
   "mentions": [
+    "A001358",
     "A175612",
     "A175648",
     "A175664"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

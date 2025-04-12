@@ -1,0 +1,25 @@
+{
+  "description": "The number of divisors of n whose largest prime factor is 3.",
+  "id": "A382487",
+  "mentions": [
+    "A001511",
+    "A001651",
+    "A007949",
+    "A051064",
+    "A065119",
+    "A072078",
+    "A169611",
+    "A301461",
+    "A306771"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

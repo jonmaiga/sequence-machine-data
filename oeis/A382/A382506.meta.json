@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k such that sigma(n) + k is a perfect number.",
+  "id": "A382506",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A081357",
+    "A146542",
+    "A382929"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

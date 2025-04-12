@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=0; thereafter a(n) is the smallest prime not less than a(n-1) such that a(n - 1) + a (n) is a product of n primes.",
+  "description": "a(0)=0; thereafter a(n) is the smallest prime not less than a(n-1) such that a(n - 1) + a(n) is a product of n primes.",
   "id": "A280061",
   "mentions": [
     "A001358",

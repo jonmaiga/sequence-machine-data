@@ -1,14 +1,22 @@
 {
-  "description": "Repdigit Kaprekar numbers",
+  "description": "Repdigit Kaprekar numbers.",
   "id": "A145875",
-  "mentions": [],
+  "mentions": [
+    "A002275",
+    "A006886",
+    "A010785",
+    "A210434",
+    "A382161",
+    "A382163"
+  ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 10n + 8.",
+  "description": "a(n) = 10*n + 8.",
   "id": "A017365",
   "mentions": [
+    "A016885",
     "A016897"
   ],
   "tags": [

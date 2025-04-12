@@ -2,7 +2,10 @@
   "description": "Numerators of the Harary index for the n-halved cube graph.",
   "id": "A290347",
   "mentions": [
-    "A290348"
+    "A000265",
+    "A088164",
+    "A290348",
+    "A330718"
   ],
   "tags": [
     "formulas",

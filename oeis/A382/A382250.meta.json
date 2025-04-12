@@ -1,0 +1,23 @@
+{
+  "description": "Irregular 3-dimensional table, where layer n is an irregular 2D table with A000041(n) columns, each of which lists the n-bit binary numbers whose run lengths correspond to a given partition.",
+  "id": "A382250",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000079",
+    "A007088",
+    "A101211",
+    "A175020",
+    "A175021",
+    "A318927"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

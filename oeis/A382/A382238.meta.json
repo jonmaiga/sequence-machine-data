@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest prime that begins a sequence of 2n + 1 consecutive primes where all even-indexed terms are balanced primes.",
+  "id": "A382238",
+  "mentions": [
+    "A006562"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

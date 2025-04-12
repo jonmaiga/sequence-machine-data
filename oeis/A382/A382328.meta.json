@@ -1,0 +1,15 @@
+{
+  "description": "Maximum possible product of differences of every pair in a set of nonnegative integers with sum n.",
+  "id": "A382328",
+  "mentions": [
+    "A002620"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of self numbers <= 10^n.",
+  "id": "A382452",
+  "mentions": [
+    "A003052"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

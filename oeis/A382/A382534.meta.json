@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimum total dominating sets in the n-flower graph.",
+  "id": "A382534",
+  "mentions": [
+    "A016946",
+    "A017557",
+    "A017629"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

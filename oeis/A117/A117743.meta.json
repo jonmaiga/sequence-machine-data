@@ -1,5 +1,5 @@
 {
-  "description": "Chen primes that are not prime Fibonacci numbers.",
+  "description": "Chen primes that are not Fibonacci numbers.",
   "id": "A117743",
   "mentions": [
     "A005478",
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 57,
     "source": "oeis-entry"
   }
 }

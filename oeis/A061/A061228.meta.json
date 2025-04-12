@@ -1,11 +1,12 @@
 {
-  "description": "a(1) = 2, a(n) = smallest number greater than n which is not coprime to n.",
+  "description": "a(1) = 2, a(n) = smallest number greater than n that is not coprime to n.",
   "id": "A061228",
   "mentions": [
     "A020639",
     "A046666",
     "A064413",
     "A070229",
+    "A087349",
     "A256393"
   ],
   "tags": [

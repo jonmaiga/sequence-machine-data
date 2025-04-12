@@ -2,8 +2,15 @@
   "description": "Number of squared primes <= 2^n.",
   "id": "A060967",
   "mentions": [
+    "A000720",
+    "A001248",
     "A007053",
-    "A036386"
+    "A017910",
+    "A036386",
+    "A060969",
+    "A060970",
+    "A060971",
+    "A122121"
   ],
   "tags": [
     "formulas",

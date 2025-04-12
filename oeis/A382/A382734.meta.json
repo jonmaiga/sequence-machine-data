@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) = n! * k! * [x^n * y^k] 1 / (exp(x) + exp(y) - exp(x+y))^2.",
+  "id": "A382734",
+  "mentions": [
+    "A136126",
+    "A371761",
+    "A382735",
+    "A382736",
+    "A382737",
+    "A382740"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

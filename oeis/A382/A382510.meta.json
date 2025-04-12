@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of solutions to the \"sum equals product\" riddle with n prices v_j, i.e., find positive integers v_j, v_{j+1}>=v_j such that 100^(n-1)*Sum_{k=1..n} v_k = Product_{k=1..n} v_k.",
+  "id": "A382510",
+  "mentions": [
+    "A380887",
+    "A381619",
+    "A381620",
+    "A381621",
+    "A382508"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "n!-x!-1 is never prime for all x",
+  "description": "Numbers k such that k!-x!-1 is never prime for x",
   "id": "A076378",
   "mentions": [
     "A076379"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 58,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -6,13 +6,14 @@
   ],
   "tags": [
     "cons",
+    "fini",
     "formulas",
-    "more",
+    "full",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 6,
+    "offset": -1,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

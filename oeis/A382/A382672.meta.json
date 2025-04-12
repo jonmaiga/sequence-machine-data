@@ -1,0 +1,19 @@
+{
+  "description": "Number of integer solutions to Product_{k=1..n} (3 + c(k)) = 3 * Product_{k=1..n} c(k) with 0 < c(k) <= c(k+1).",
+  "id": "A382672",
+  "mentions": [
+    "A263207",
+    "A375787",
+    "A380749",
+    "A381644"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

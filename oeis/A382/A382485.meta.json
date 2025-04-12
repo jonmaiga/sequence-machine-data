@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = ceiling(n/d^2) where d is the largest divisor of n which is not greater than the square root of n.",
+  "id": "A382485",
+  "mentions": [
+    "A033676",
+    "A033677",
+    "A056737"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k > 0 for which a nondegenerate integer-sided triangle (k, k + n, c >= k + n) with an integer area exists.",
+  "id": "A381336",
+  "mentions": [
+    "A103974",
+    "A103975",
+    "A188158",
+    "A379830",
+    "A381337"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = round(c^n), where c is the supergolden ratio A092526.",
+  "id": "A382641",
+  "mentions": [
+    "A000930",
+    "A001609",
+    "A092526",
+    "A169985",
+    "A205579"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

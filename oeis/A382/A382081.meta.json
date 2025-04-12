@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = binomial(n,3) + 6*binomial(n,4) + 15*binomial(n,5) + 15*binomial(n,6).",
+  "id": "A382081",
+  "mentions": [
+    "A382084"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

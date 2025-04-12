@@ -1,5 +1,5 @@
 {
-  "description": "Squarefree numbers of the form (prime(n)+1)*(prime(n+1)+1)/4.",
+  "description": "Squarefree numbers of the form (prime(k)+1)*(prime(k+1)+1)/4.",
   "id": "A079095",
   "mentions": [
     "A000040",
@@ -9,6 +9,7 @@
     "A079093"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

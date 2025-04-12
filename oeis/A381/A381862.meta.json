@@ -2,8 +2,8 @@
   "description": "Number of pairs of triangles that are pairwise edge-disjoint in the complete graph K_n.",
   "id": "A381862",
   "mentions": [
-    "A381863",
-    "A381864"
+    "A054647",
+    "A381863"
   ],
   "tags": [
     "easy",

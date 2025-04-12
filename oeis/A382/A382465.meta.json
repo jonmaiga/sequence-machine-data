@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers such that every even digit except the first is immediately preceded by a smaller digit.",
+  "id": "A382465",
+  "mentions": [
+    "A377912",
+    "A382462",
+    "A382464"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

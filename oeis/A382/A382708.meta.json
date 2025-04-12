@@ -1,0 +1,18 @@
+{
+  "description": "Number of triples (i,j,k), 1 <= i < j < k <= n such that A064413(i) < A064413(k) < A064413(j).",
+  "id": "A382708",
+  "mentions": [
+    "A064413",
+    "A152458",
+    "A382702",
+    "A382707"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Denominators arising in the expansion of Sum_{k>=1} (1/(4k^2-1)^n) in even powers of Pi.",
+  "id": "A382783",
+  "mentions": [
+    "A382782"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

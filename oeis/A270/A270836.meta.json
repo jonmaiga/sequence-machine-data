@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n-1) - phi(n-1) = (3n-5)/2.",
+  "description": "Numbers k such that sigma(k-1) - phi(k-1) = (3*k-5)/2.",
   "id": "A270836",
   "mentions": [
     "A000010",

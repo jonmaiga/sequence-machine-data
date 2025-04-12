@@ -2,9 +2,11 @@
   "description": "Multiples of 14.",
   "id": "A008596",
   "mentions": [
+    "A008589",
     "A008594",
     "A008595",
     "A033571",
+    "A135628",
     "A158186"
   ],
   "tags": [

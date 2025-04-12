@@ -1,0 +1,18 @@
+{
+  "description": "Noll index series of Zernike polynomials converted to Fringe index.",
+  "id": "A377850",
+  "mentions": [
+    "A176988",
+    "A375510"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

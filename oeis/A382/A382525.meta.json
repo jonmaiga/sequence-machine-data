@@ -1,0 +1,50 @@
+{
+  "description": "Number of times n appears in A048767 (rank of Look-and-Say partition of prime indices). Number of ordered set partitions whose block-sums are the prime signature of n.",
+  "id": "A382525",
+  "mentions": [
+    "A000009",
+    "A000670",
+    "A003557",
+    "A003963",
+    "A047966",
+    "A048767",
+    "A048768",
+    "A050361",
+    "A051903",
+    "A051904",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A066328",
+    "A071178",
+    "A112798",
+    "A116861",
+    "A122111",
+    "A130091",
+    "A217605",
+    "A239455",
+    "A239964",
+    "A351293",
+    "A351294",
+    "A351295",
+    "A381431",
+    "A381432",
+    "A381433",
+    "A381434",
+    "A381435",
+    "A381436",
+    "A381440",
+    "A381540",
+    "A381541",
+    "A382775"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

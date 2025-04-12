@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n*(n-1)*(n-2*(n-3) for n>=5.",
+  "description": "a(n) = n*(n-1)*(n-2)*(n-3) for n>=5.",
   "id": "A052768",
   "mentions": [
     "A052762"

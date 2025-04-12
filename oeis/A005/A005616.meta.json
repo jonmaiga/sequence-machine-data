@@ -1,5 +1,5 @@
 {
-  "description": "Number of disjunctively-realizable functions of n variables.",
+  "description": "Number of non-degenerate disjunctively-realizable functions of n variables.",
   "id": "A005616",
   "mentions": [
     "A005607",
@@ -7,14 +7,16 @@
     "A005613",
     "A005736",
     "A005738",
+    "A005739",
     "A006447"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

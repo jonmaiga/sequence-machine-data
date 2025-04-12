@@ -1,0 +1,18 @@
+{
+  "description": "Number of triples (i,j,k), 1 <= i < j < k <= n such that A019444(i) < A019444(k) < A019444(j).",
+  "id": "A382168",
+  "mentions": [
+    "A000108",
+    "A019444",
+    "A382162",
+    "A382169"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

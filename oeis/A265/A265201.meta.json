@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!!! - 3^10 is prime, where n!3 = n!!! is a triple factorial number (A007661)..",
+  "description": "Numbers n such that n!!! - 3^10 is prime, where n!3 = n!!! is a triple factorial number (A007661).",
   "id": "A265201",
   "mentions": [
     "A006882",

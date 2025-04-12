@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are not divisible by the sum of any subset of their digits.",
+  "id": "A382237",
+  "mentions": [
+    "A005349",
+    "A038772",
+    "A065877",
+    "A082943",
+    "A228017",
+    "A382239"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

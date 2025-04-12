@@ -1,7 +1,9 @@
 {
-  "description": "(9*11^n-1)/2.",
+  "description": "a(n) = (9*11^n - 1)/2.",
   "id": "A199028",
-  "mentions": [],
+  "mentions": [
+    "A199029"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

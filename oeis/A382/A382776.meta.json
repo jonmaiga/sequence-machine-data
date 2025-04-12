@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ways to place 2*n rooks on a (n+k) X (2*n-k) board so that there is at least one rook in every column and row and so that each rook is defended by another.",
+  "id": "A382776",
+  "mentions": [
+    "A000680",
+    "A382777"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

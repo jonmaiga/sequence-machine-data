@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number k such that k + n + sigma(n) is a perfect number.",
+  "id": "A382929",
+  "mentions": [
+    "A000396",
+    "A155085",
+    "A382506"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

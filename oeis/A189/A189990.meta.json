@@ -2,6 +2,7 @@
   "description": "Numbers with prime factorization p^2*q^6.",
   "id": "A189990",
   "mentions": [
+    "A065036",
     "A085548",
     "A085966",
     "A085968",

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (Stirling1(n,k) * k!)^2.",
+  "id": "A382792",
+  "mentions": [
+    "A006252",
+    "A007840",
+    "A047796",
+    "A048144",
+    "A379821",
+    "A382794"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/( 1 - Sum_{k>=0} x^(5^k) / (1 - x^(5^k)) ).",
+  "id": "A382373",
+  "mentions": [
+    "A055457",
+    "A327736",
+    "A382367",
+    "A382372",
+    "A382378"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

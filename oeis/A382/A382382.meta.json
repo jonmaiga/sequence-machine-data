@@ -1,0 +1,19 @@
+{
+  "description": "Least k for which there exists an n-subset X of {0, ..., k} such that the variances of the subsets of X of size at least 2 are distinct.",
+  "id": "A382382",
+  "mentions": [
+    "A003022",
+    "A382381",
+    "A382383"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

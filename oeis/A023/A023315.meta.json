@@ -1,5 +1,5 @@
 {
-  "description": "Primes that remain prime through 4 iterations of function f(x) = 5x + 6.",
+  "description": "Primes that remain prime through 4 iterations of function f(x) = 5*x + 6.",
   "id": "A023315",
   "mentions": [
     "A023219",

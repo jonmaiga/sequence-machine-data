@@ -2,7 +2,9 @@
   "description": "Palindromic numbers with nonprime middle digit.",
   "id": "A076612",
   "mentions": [
-    "A002113"
+    "A002113",
+    "A056525",
+    "A076609"
   ],
   "tags": [
     "base",

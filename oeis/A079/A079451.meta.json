@@ -1,9 +1,11 @@
 {
-  "description": "Highest prime dividing the n-th Lucas number (A000032); 0 when no such prime exists.",
+  "description": "Largest prime dividing the n-th Lucas number (A000032); 1 when no such prime exists.",
   "id": "A079451",
   "mentions": [
     "A000032",
-    "A006530"
+    "A001606",
+    "A006530",
+    "A076697"
   ],
   "tags": [
     "formulas",

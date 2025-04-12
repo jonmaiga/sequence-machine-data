@@ -2,6 +2,7 @@
   "description": "Number of non-degenerate fanout-free Boolean functions of n variables having AND rank 1.",
   "id": "A225170",
   "mentions": [
+    "A000311",
     "A005172",
     "A225171"
   ],
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

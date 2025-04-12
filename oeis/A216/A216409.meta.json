@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: Series_Reversion( x*Cw(x) ) where Cw(x) = Sum_{n>=0} (-1)^n*(2*n+1)^(2*n-1)*x^(2*n)/(2*n)!.",
+  "description": "Expansion of e.g.f. (x/cos(x)) * exp(x*tan(x)) (odd powers only).",
   "id": "A216409",
   "mentions": [
     "A138734",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

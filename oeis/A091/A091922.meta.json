@@ -1,17 +1,18 @@
 {
-  "description": "Smallest m such that the decimal representation of the m-th prime interpreted in base n is not a prime, but prime in bases 10<=b",
+  "description": "Smallest m such that the decimal representation of the m-th prime interpreted in base n is not a prime, but prime in bases 10 <= b < n.",
   "id": "A091922",
   "mentions": [
     "A090862"
   ],
   "tags": [
     "base",
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 11,
-    "size": 6,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

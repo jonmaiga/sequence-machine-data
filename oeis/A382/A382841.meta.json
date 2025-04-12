@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (binomial(n,k) * binomial(n-k,k))^2.",
+  "id": "A382841",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A005259",
+    "A005260",
+    "A051286",
+    "A089627",
+    "A181546",
+    "A275027",
+    "A277247",
+    "A382842"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

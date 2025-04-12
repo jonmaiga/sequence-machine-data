@@ -1,9 +1,10 @@
 {
-  "description": "Remove the largest digit of n; if digits remain, return the number formed by the remaining digits in order. If no digits are left, return 0.",
+  "description": "Remove every copy of the largest digit of n; if any digits remain, return the number formed by arranging the remaining digits in nondecreasing order. If no digits remain, return 0.",
   "id": "A382056",
   "mentions": [
     "A054055",
-    "A125289"
+    "A125289",
+    "A382401"
   ],
   "tags": [
     "base",

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of the asymptotic density of the numbers whose number of 3-smooth divisors is n.",
+  "id": "A382491",
+  "mentions": [
+    "A007310",
+    "A072078",
+    "A081341",
+    "A169604",
+    "A171126"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

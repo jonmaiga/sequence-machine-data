@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1 + y)^(1 + x).",
+  "description": "Expansion of e.g.f. (1 + y)^(1 + x).",
   "id": "A105793",
   "mentions": [
     "A006232",

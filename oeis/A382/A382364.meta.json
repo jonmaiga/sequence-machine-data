@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest squarefree number k such that the sum of the digit counts of the prime factors of k equals the sum of n and the digit count of k",
+  "id": "A382364",
+  "mentions": [
+    "A055642",
+    "A095411"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

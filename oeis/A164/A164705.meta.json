@@ -1,16 +1,21 @@
 {
-  "description": "T(n,k)=Binomial(2n-k,n)*2^(k-1) for n>=1,0<=k<=n",
+  "description": "T(n,k) = binomial(2n-k,n) * 2^(k-1), T(0,0)=1; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
   "id": "A164705",
   "mentions": [
-    "A001700"
+    "A000531",
+    "A011782",
+    "A081294",
+    "A088218",
+    "A382782"
   ],
   "tags": [
+    "formulas",
     "nonn",
-    "tabf"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 53,
+    "offset": 0,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

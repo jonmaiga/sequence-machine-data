@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/( 1 - Sum_{k>=0} x^(6^k) / (1 - x^(6^k)) ).",
+  "id": "A382378",
+  "mentions": [
+    "A122841",
+    "A327736",
+    "A373216",
+    "A382367",
+    "A382372",
+    "A382373"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

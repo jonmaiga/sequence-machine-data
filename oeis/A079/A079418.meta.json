@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that prime(n)/n < prime(n-1)/(n-1).",
+  "description": "Numbers k such that prime(k)/k < prime(k-1)/(k-1).",
   "id": "A079418",
   "mentions": [
     "A000040",
+    "A000720",
     "A049084",
     "A079416",
     "A079417",
     "A079419"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

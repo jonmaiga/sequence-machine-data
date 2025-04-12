@@ -1,5 +1,5 @@
 {
-  "description": "Number of factorials contained in n! in binary representation.",
+  "description": "Number of factorials contained in the binary representation of n!",
   "id": "A102730",
   "mentions": [
     "A000142",
@@ -21,6 +21,7 @@
     "A103681"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n^7*(n^4 + 1)/2.",
   "id": "A168661",
-  "mentions": [],
+  "mentions": [
+    "A168635"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

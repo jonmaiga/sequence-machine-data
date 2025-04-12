@@ -1,0 +1,36 @@
+{
+  "description": "Number of non-isomorphic finite multisets of size n that can be partitioned into sets with distinct sums.",
+  "id": "A382523",
+  "mentions": [
+    "A050326",
+    "A116539",
+    "A279785",
+    "A292432",
+    "A292444",
+    "A293243",
+    "A358914",
+    "A381633",
+    "A381718",
+    "A381806",
+    "A381990",
+    "A381992",
+    "A381996",
+    "A382075",
+    "A382077",
+    "A382078",
+    "A382200",
+    "A382202",
+    "A382214",
+    "A382216",
+    "A382430"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

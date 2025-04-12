@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{i=1..n} 1 - i + n*(n - i + 1) - (n - 2*i + 1)*((n - i + 1) mod 2).",
+  "id": "A382597",
+  "mentions": [
+    "A317614",
+    "A370753",
+    "A382532"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

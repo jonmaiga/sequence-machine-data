@@ -1,5 +1,5 @@
 {
-  "description": "Sum of divisors of n*rad(n)+1, where rad=A007947 (squarefree kernel).",
+  "description": "Sum of divisors of n*rad(n)+1, where rad = A007947 (squarefree kernel).",
   "id": "A078318",
   "mentions": [
     "A000203",
@@ -10,6 +10,7 @@
     "A078320"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

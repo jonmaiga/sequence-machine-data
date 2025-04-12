@@ -2,6 +2,7 @@
   "description": "First occurrence of n as a term in the continued fraction for log(3).",
   "id": "A076593",
   "mentions": [
+    "A016731",
     "A032523"
   ],
   "tags": [

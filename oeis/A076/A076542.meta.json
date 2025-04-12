@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A068340(n)=+/-1.",
+  "description": "Numbers n such that A068340(n) = +-1.",
   "id": "A076542",
   "mentions": [
     "A068340"

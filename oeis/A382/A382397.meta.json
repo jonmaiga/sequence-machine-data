@@ -1,0 +1,19 @@
+{
+  "description": "Minimum size of a maximal subset of {1..n} such that every pair of distinct elements has a different difference.",
+  "id": "A382397",
+  "mentions": [
+    "A143824",
+    "A325879",
+    "A377419",
+    "A382396"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

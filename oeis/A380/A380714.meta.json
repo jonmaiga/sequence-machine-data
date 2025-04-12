@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(n-1) mod (10^m-1) where m is the number of decimal digits in n.",
+  "id": "A380714",
+  "mentions": [
+    "A002283",
+    "A002378",
+    "A053816",
+    "A055642"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

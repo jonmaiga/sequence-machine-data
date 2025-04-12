@@ -1,12 +1,16 @@
 {
   "description": "The coefficients of the product (1-x^2)(1-x^3)(1-x^4)... / (1+x).",
   "id": "A297054",
-  "mentions": [],
+  "mentions": [
+    "A010815",
+    "A078616"
+  ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 88,
     "source": "joeis"
   }

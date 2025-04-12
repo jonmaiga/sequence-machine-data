@@ -1,0 +1,13 @@
+{
+  "description": "Positive integers k such that there are at least 3 positive integer solutions (x,y) to the equation x^3 + y^2 = k^2.",
+  "id": "A382338",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

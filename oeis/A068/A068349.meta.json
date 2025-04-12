@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n having a partition n=sum x_i for which Product n/x_i is also a way of factoring n.",
+  "description": "Numbers k having a partition k=Sum x_i for which Product k/x_i is also a way of factoring k.",
   "id": "A068349",
   "mentions": [
+    "A000312",
     "A001055",
     "A066925",
     "A066926"
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 46,
     "source": "joeis"
   }
 }

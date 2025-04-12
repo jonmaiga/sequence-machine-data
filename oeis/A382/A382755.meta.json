@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: Let k encode the edges of an n-vertex graph by taking edges (u,v), with u < v, in lexicographic order ((0,1), ..., (0,n-1), (1,2), ..., (1,n-1), ..., (n-1,n)) and adding each edge to the graph if the corresponding binary digit of k (starting with the least significant digit) is 1. T(n,k) is the smallest nonnegative integer that encodes the same unlabeled n-vertex graph as k, 0 <= k < n*(n-1)/2.",
+  "id": "A382755",
+  "mentions": [
+    "A382281",
+    "A382754"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

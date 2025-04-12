@@ -1,13 +1,18 @@
 {
-  "description": "Next-to-largest factor of Lucas(n).",
+  "description": "Indices of record values in A079451, largest prime factor of Lucas numbers A000032.",
   "id": "A076697",
-  "mentions": [],
+  "mentions": [
+    "A000032",
+    "A000042",
+    "A001606",
+    "A079451"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
+    "size": 54,
     "source": "oeis-entry"
   }
 }

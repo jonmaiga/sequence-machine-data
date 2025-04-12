@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+2 and n+4 are consecutive semiprimes.",
+  "description": "Numbers k such that k, k+2 and k+4 are consecutive semiprimes.",
   "id": "A133609",
   "mentions": [
     "A136196",

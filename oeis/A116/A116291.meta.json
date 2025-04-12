@@ -1,5 +1,5 @@
 {
-  "description": "n times n+7 gives the concatenation of a number m with itself.",
+  "description": "Numbers k such that k * (k + 7) is the concatenation of a number m with itself.",
   "id": "A116291",
   "mentions": [
     "A116160",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 26,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

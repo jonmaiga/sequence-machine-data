@@ -1,9 +1,8 @@
 {
-  "description": "Numbers of the form k=k^2-n^2.",
+  "description": "a(n+1) = a(n)^2 - n^2, a(1) = 0.",
   "id": "A143779",
   "mentions": [],
   "tags": [
-    "formulas",
     "sign"
   ],
   "terms": {

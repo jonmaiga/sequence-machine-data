@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) = [x^n * y^k] Product_{j>=1} 1/(1 - x^j + y^j).",
+  "id": "A382974",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000070",
+    "A081362",
+    "A304631",
+    "A322210",
+    "A382979"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

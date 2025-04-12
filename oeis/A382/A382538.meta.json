@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(1 - x*(1 + 4*x)^(7/2)).",
+  "id": "A382538",
+  "mentions": [
+    "A002423",
+    "A362154",
+    "A382536",
+    "A382537"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

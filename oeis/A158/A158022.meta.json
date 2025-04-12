@@ -1,7 +1,8 @@
 {
-  "description": "Integers n such that all the digits needed to write the consecutive nonnegative integers from 0 to n fill exactly a square (no holes, no overlaps).",
+  "description": "Integers k such that all the digits needed to write the consecutive nonnegative integers from 0 to k fill exactly a square (no holes, no overlaps).",
   "id": "A158022",
   "mentions": [
+    "A058183",
     "A158023"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

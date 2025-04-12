@@ -1,0 +1,18 @@
+{
+  "description": "Values taken by gcd(a^2 + b^2 + c^2, a*b*c), where a, b, c are positive integers.",
+  "id": "A382092",
+  "mentions": [
+    "A001481",
+    "A002145",
+    "A072437"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

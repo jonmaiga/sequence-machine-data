@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: A(x) = Sum_{n>=0} 2^n * binomial(x^n + n-1, n).",
+  "description": "Expansion of e.g.f. A(x) = Sum_{n>=0} 2^n * binomial(x^n + n-1, n).",
   "id": "A202360",
   "mentions": [
     "A191461"

@@ -1,11 +1,12 @@
 {
-  "description": "Rad(n)+n/rad(n), where rad(n) is the squarefree kernel of n = A007947(n).",
+  "description": "a(n) = rad(n) + n/rad(n), where rad(n) is the squarefree kernel of n = A007947(n).",
   "id": "A076332",
   "mentions": [
     "A003557",
     "A007947"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

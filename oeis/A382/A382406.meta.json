@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 - x*(1 + x)^2)^3.",
+  "id": "A382406",
+  "mentions": [
+    "A000217",
+    "A001628",
+    "A002478",
+    "A362126",
+    "A382614"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

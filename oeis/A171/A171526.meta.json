@@ -2,7 +2,8 @@
   "description": "Denominator of (n-th noncomposite/n).",
   "id": "A171526",
   "mentions": [
-    "A008578"
+    "A008578",
+    "A065475"
   ],
   "tags": [
     "easy",

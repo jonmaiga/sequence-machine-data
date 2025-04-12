@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic Kaprekar numbers that are not repdigit Kaprekar numbers.",
+  "id": "A382164",
+  "mentions": [
+    "A006886",
+    "A145875",
+    "A382163"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

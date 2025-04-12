@@ -1,0 +1,19 @@
+{
+  "description": "Remove all occurrences of a digit from n such that the resulting number, formed by the remaining digits in their original order, is as large as possible. If no digits remain, a(n)=0.",
+  "id": "A382371",
+  "mentions": [
+    "A010785",
+    "A382102"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

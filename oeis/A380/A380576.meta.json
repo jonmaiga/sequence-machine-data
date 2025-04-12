@@ -1,0 +1,17 @@
+{
+  "description": "Total number of \"block reversals\" needed to transform all permutations of [n] into 12...n.",
+  "id": "A380576",
+  "mentions": [
+    "A300003"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

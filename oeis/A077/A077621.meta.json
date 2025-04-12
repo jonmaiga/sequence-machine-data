@@ -2,6 +2,8 @@
   "description": "Squarefree numbers occurring more than once in A076734.",
   "id": "A077621",
   "mentions": [
+    "A002110",
+    "A005117",
     "A076734",
     "A077618",
     "A077619",
@@ -9,11 +11,12 @@
     "A077622"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

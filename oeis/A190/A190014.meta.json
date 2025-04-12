@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=0, a(1)=1, if n = (n-1)', then a(n)=0 otherwise a(n)=2*a((n-1)'), where n’ is the arithmetic derivative of n.",
+  "description": "a(0)=0, a(1)=1, if n = (n-1)', then a(n)=0 otherwise a(n)=2*a((n-1)'), where n' is the arithmetic derivative of n.",
   "id": "A190014",
   "mentions": [
     "A003415",

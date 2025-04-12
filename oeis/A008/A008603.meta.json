@@ -2,6 +2,8 @@
   "description": "Multiples of 21.",
   "id": "A008603",
   "mentions": [
+    "A008585",
+    "A008589",
     "A008601",
     "A008602"
   ],
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 48,
+    "size": 53,
     "source": "joeis"
   }
 }

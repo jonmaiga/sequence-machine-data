@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive number not already used and whose binary expansion occurs, ending at position n, in the binary Champernowne word.",
+  "id": "A382115",
+  "mentions": [
+    "A030190",
+    "A083652"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

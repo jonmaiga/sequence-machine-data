@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of intercalates in a Brown's diagonal Latin square of order 2n.",
+  "id": "A382270",
+  "mentions": [
+    "A092237",
+    "A307163",
+    "A307164",
+    "A339641",
+    "A345760",
+    "A368182",
+    "A379665"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

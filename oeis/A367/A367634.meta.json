@@ -2,7 +2,8 @@
   "description": "Array read by descending antidiagonals, where row n=0 lists the natural numbers and where each new row n=1,2,... is found by taking the number n in the previous row, and \"leaping\" it over the next n terms to its right, keeping the other numbers fixed (see example).",
   "id": "A367634",
   "mentions": [
-    "A000027"
+    "A000027",
+    "A368050"
   ],
   "tags": [
     "nonn",

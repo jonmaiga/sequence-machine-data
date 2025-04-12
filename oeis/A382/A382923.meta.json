@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by downward antidiagonals: A(n,k) is the number of m-compositions of n with k zeros.",
+  "id": "A382923",
+  "mentions": [
+    "A038207",
+    "A101509",
+    "A181331",
+    "A261780",
+    "A323429",
+    "A382924"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

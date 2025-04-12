@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the index of the first Issai Schur additive sequence that will accept n.",
+  "id": "A382109",
+  "mentions": [
+    "A033627"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

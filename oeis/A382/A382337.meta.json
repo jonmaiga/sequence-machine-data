@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes in base 10 in which the difference between the sums of the digits in the even and odd positions is zero.",
+  "id": "A382337",
+  "mentions": [
+    "A002113",
+    "A135499"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * ( binomial(n,k) - binomial(n,k-1) )^2.",
+  "id": "A381676",
+  "mentions": [
+    "A000108",
+    "A000172",
+    "A086618",
+    "A129123",
+    "A131428",
+    "A178824",
+    "A238115",
+    "A382433",
+    "A382443",
+    "A382446"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

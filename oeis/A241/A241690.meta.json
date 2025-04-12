@@ -2,7 +2,8 @@
   "description": "Number of Sidon subsets of {1,...,n} of size 6.",
   "id": "A241690",
   "mentions": [
-    "A054578"
+    "A054578",
+    "A381476"
   ],
   "tags": [
     "nonn"

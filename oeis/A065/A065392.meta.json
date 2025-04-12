@@ -1,12 +1,14 @@
 {
-  "description": "a(n) = A062401(A065391(n)): phi(sigma(m)) peak values for m's (listed in A065391) at which those peaks are first reached.",
+  "description": "a(n) = A062401(A065391(n)): phi(sigma(m)) peak values for numbers m (listed in A065391) at which those peaks are first reached.",
   "id": "A065392",
   "mentions": [
     "A000010",
     "A000203",
     "A062401",
     "A065389",
+    "A065390",
     "A065391",
+    "A065393",
     "A065394"
   ],
   "tags": [

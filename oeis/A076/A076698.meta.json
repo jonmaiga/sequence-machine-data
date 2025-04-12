@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 2, a(n+1) = smallest squarefree number == 1 (mod a(n)).",
+  "description": "a(1) = 2, a(n+1) = smallest squarefree number == 1 (mod a(n)) and > a(n).",
   "id": "A076698",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

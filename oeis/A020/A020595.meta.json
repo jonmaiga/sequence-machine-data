@@ -1,7 +1,10 @@
 {
-  "description": "Expansion of 1/((1-6x)(1-9x)(1-10x)).",
+  "description": "Expansion of g.f. 1/((1-6*x)*(1-9*x)*(1-10*x)).",
   "id": "A020595",
-  "mentions": [],
+  "mentions": [
+    "A016172",
+    "A016173"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Irregular triangle read by rows: T(n, k) is the number i of iterations that every scytale of length n and k > 1 sides must process its own ciphertext before the initial plaintext returns, where k | n, k > 1 and (n-1) | (k^i-1).",
   "id": "A342754",
   "mentions": [
+    "A139366",
     "A216327"
   ],
   "tags": [

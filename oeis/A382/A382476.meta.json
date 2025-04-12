@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k where record low values occur for abs(A129132(k)/k - c) = abs(A380264(k)/A380265(k) - c), where c = A033150 is Niven's constant.",
+  "id": "A382476",
+  "mentions": [
+    "A033150",
+    "A051903",
+    "A129132",
+    "A380264",
+    "A380265",
+    "A382475"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

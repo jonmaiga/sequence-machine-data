@@ -1,0 +1,26 @@
+{
+  "description": "Number of residues r in {0..n-1} that are not coprime to n and not in row n of A381801.",
+  "id": "A381803",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A003586",
+    "A003591",
+    "A003592",
+    "A038566",
+    "A051953",
+    "A121998",
+    "A381800",
+    "A381801",
+    "A381802"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

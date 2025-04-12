@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = k such that A124652(k) does not divide A372111(k-1).",
+  "description": "Numbers k such that A124652(k) does not divide A372111(k-1).",
   "id": "A372399",
   "mentions": [
     "A007947",

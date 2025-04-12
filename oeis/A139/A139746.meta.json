@@ -1,14 +1,17 @@
 {
   "description": "a(n) = 11^n - 8^n.",
   "id": "A139746",
-  "mentions": [],
+  "mentions": [
+    "A016187"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

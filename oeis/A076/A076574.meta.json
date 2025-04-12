@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1 if n>0 a(n)=(-1)^(n+1)/(2n+1)*sum(k=0,n,4^(6k)*B(2k)*C(2n+1,2k)) where B(k) denotes the k-th Bernoulli number.",
+  "description": "a(0)=1 if n>0 a(n)=(-1)^(n+1)/(2n+1) * Sum_{k=0..n} 4^(6k)*B(2k)*C(2n+1,2k)) where B(k) denotes the k-th Bernoulli number.",
   "id": "A076574",
   "mentions": [],
   "tags": [

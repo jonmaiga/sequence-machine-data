@@ -1,0 +1,16 @@
+{
+  "description": "Numerator of (2^n - 1)*n! / 2^(n+1).",
+  "id": "A382709",
+  "mentions": [
+    "A117973"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = x + ( Sum_{n>=1} A(x^n) )^3.",
+  "id": "A382318",
+  "mentions": [
+    "A008683",
+    "A382319",
+    "A382320",
+    "A382321"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

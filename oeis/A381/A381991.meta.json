@@ -1,0 +1,47 @@
+{
+  "description": "Numbers whose prime indices have a unique multiset partition into constant multisets with distinct sums.",
+  "id": "A381991",
+  "mentions": [
+    "A000688",
+    "A000720",
+    "A000726",
+    "A001055",
+    "A001222",
+    "A003963",
+    "A004709",
+    "A005117",
+    "A006171",
+    "A047966",
+    "A050361",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A265947",
+    "A279784",
+    "A279786",
+    "A293511",
+    "A295935",
+    "A300383",
+    "A300385",
+    "A317141",
+    "A326535",
+    "A355743",
+    "A381635",
+    "A381636",
+    "A381716",
+    "A381717",
+    "A381870",
+    "A382079",
+    "A382203",
+    "A382301"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

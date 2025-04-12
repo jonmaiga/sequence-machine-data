@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (binomial(n,k) * binomial(n-k,k))^3.",
+  "id": "A382842",
+  "mentions": [
+    "A000172",
+    "A002426",
+    "A069865",
+    "A089627",
+    "A092813",
+    "A181545",
+    "A382841"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

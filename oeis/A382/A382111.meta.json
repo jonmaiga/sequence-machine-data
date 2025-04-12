@@ -1,0 +1,16 @@
+{
+  "description": "Maximum number of moves required to transition from the initial configuration (all disks on the first peg) to any possible configuration in the Towers of Hanoi puzzle with 4 pegs and n disks.",
+  "id": "A382111",
+  "mentions": [
+    "A007664"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

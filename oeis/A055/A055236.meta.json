@@ -2,9 +2,13 @@
   "description": "Sums of two powers of 4.",
   "id": "A055236",
   "mentions": [
+    "A000302",
     "A002262",
     "A003056",
-    "A052216"
+    "A004171",
+    "A026244",
+    "A052216",
+    "A052539"
   ],
   "tags": [
     "easy",

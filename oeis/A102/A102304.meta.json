@@ -1,16 +1,17 @@
 {
-  "description": "Sum of factors of numbers having exactly three prime factors.",
+  "description": "Sum of prime factors (counted with multiplicity) of the numbers having exactly three prime factors.",
   "id": "A102304",
   "mentions": [
     "A001414",
     "A014612"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 71,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

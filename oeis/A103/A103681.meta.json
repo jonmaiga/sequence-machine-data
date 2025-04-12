@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m such that in binary representation m! doesn't contain 7!.",
+  "description": "Numbers m such that in binary representation m! does not contain 7!.",
   "id": "A103681",
   "mentions": [
     "A000142",
@@ -13,11 +13,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

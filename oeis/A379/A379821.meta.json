@@ -2,9 +2,11 @@
   "description": "Array read by ascending antidiagonals: A(n, k) = (-1)^(n + k) * Sum_{j=0..k} (j!)^2 * Stirling1(n, j) * Stirling1(k, j).",
   "id": "A379821",
   "mentions": [
-    "A371761"
+    "A371761",
+    "A382792"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

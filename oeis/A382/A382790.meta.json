@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the (2^n)-th powerful number.",
+  "id": "A382790",
+  "mentions": [
+    "A001694",
+    "A062762",
+    "A090699",
+    "A376092"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

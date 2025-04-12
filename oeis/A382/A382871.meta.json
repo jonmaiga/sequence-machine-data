@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to partition distinct prime numbers into two disjoint sets such that the sum of each set equals n.",
+  "id": "A382871",
+  "mentions": [
+    "A000607",
+    "A108796",
+    "A382954"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

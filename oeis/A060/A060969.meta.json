@@ -1,9 +1,15 @@
 {
-  "description": "Number of prime cubes <= 2^n.",
+  "description": "Number of cubes of primes <= 2^n.",
   "id": "A060969",
   "mentions": [
+    "A000720",
     "A007053",
-    "A036386"
+    "A017979",
+    "A030078",
+    "A036386",
+    "A060967",
+    "A060970",
+    "A060971"
   ],
   "tags": [
     "formulas",
@@ -12,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 56,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "\"Repunit\" Kaprekar numbers.",
+  "id": "A382161",
+  "mentions": [
+    "A006886",
+    "A145875"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

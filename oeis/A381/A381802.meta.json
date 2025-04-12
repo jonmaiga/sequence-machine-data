@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of distinct residues r mod n of numbers k congruent to r (mod n) such that rad(k) does not divide n, where rad = A007947.",
+  "id": "A381802",
+  "mentions": [
+    "A000010",
+    "A007947",
+    "A381800",
+    "A381801"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

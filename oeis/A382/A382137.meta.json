@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer that cannot be be converted to a multiple of n by changing at most one of its decimal digit.",
+  "id": "A382137",
+  "mentions": [
+    "A192545",
+    "A353023"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 11,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

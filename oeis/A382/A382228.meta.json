@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that k^3 is the sum of n consecutive primes.",
+  "id": "A382228",
+  "mentions": [
+    "A000578",
+    "A132957",
+    "A382226",
+    "A382227"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

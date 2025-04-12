@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of n X n 0..3 symmetric matrices with every element equal to zero, two or three horizontal and vertical neighbors",
+  "description": "1/4 the number of n X n 0..3 symmetric matrices with every element equal to zero, two, three or four horizontal and vertical neighbors.",
   "id": "A211093",
   "mentions": [],
   "tags": [

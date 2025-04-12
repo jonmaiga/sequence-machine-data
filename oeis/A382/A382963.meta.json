@@ -1,0 +1,20 @@
+{
+  "description": "Prime index gaps between consecutive full reptend primes.",
+  "id": "A382963",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001913",
+    "A060257"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

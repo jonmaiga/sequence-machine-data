@@ -1,8 +1,9 @@
 {
-  "description": "Number of nX4 1..4 arrays containing at least one of each value, all equal values connected, rows considered as a single number in nondecreasing order, and columns considered as a single number in increasing order.",
+  "description": "Number of n X 4 1..4 arrays containing at least one of each value, all equal values connected, rows considered as a single number in nondecreasing order, and columns considered as a single number in increasing order.",
   "id": "A166824",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

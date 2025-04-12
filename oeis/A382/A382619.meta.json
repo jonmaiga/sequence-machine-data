@@ -1,0 +1,15 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) = a(n-1)*prime(n) if a(n-1)<=prime(n), otherwise a(n) = a(n-1)-prime(n).",
+  "id": "A382619",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

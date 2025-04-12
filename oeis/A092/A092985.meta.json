@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the product of first n terms of an arithmetic progression with the first term 1 and common difference n.",
+  "description": "a(n) is the product of the first n terms of an arithmetic progression with the first term 1 and common difference n.",
   "id": "A092985",
   "mentions": [
     "A057237",

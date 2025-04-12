@@ -2,9 +2,12 @@
   "description": "For an integer n with prime factorization p_1*p_2*p_3* ... *p_m let n* = (p_1+1)*(p_2+1)*(p_3+1)* ... *(p_m+1); sequence gives n* such that n* is divisible by n, ordered by increasing value of n.",
   "id": "A064518",
   "mentions": [
-    "A064476"
+    "A064476",
+    "A064514",
+    "A064515"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

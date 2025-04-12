@@ -1,5 +1,5 @@
 {
-  "description": "Minimal size of a main class for diagonal Latin squares of order n with the first row in ascending order.",
+  "description": "Minimum size of a main class for diagonal Latin squares of order n with the first row in ascending order.",
   "id": "A299783",
   "mentions": [
     "A274171",

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n) + 5*n is prime.",
+  "description": "Numbers k such that prime(k) + s*k is prime, s=5.",
   "id": "A076300",
   "mentions": [
     "A064402",

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 3*log(x0)/(log(8*x0/3) - 8 + Pi/sqrt(3)), where x0 is the unique real root of 96*x^3 - 786663*x^2 + 17288*x - 96 = 0.",
+  "id": "A382497",
+  "mentions": [
+    "A000796",
+    "A002194",
+    "A093602"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

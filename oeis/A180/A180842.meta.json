@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 arrays containing 4 indistinguishable copies of 1..n with lexicographical ordering of rows strictly increasing and columns strictly decreasing",
+  "description": "Number of n X 4 arrays containing 4 indistinguishable copies of 1..n with lexicographical ordering of rows strictly increasing and columns strictly decreasing.",
   "id": "A180842",
   "mentions": [
     "A180843"

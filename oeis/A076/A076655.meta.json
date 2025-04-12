@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of a(n), where for n > 2, a(n)=-1/a(n-1)+1/a(n-2), a(1)=1, a(2)=2.",
+  "description": "a(n) = numberator(b(n)) where b(1)=1, b(2)=2 and for n > 2, b(n) = 1/b(n-2) - 1/b(n-1).",
   "id": "A076655",
   "mentions": [
     "A074935"

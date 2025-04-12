@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n) + s*n is prime, s=4.",
+  "description": "Numbers k such that prime(k) + s*k is prime, s=4.",
   "id": "A076299",
   "mentions": [
     "A064402",

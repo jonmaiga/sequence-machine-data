@@ -1,8 +1,9 @@
 {
-  "description": "Factors in factorizations of composite numbers into at least 2 factors >1.",
+  "description": "Factors in factorizations of composite numbers into at least 2 factors > 1.",
   "id": "A076709",
   "mentions": [
-    "A037025"
+    "A028422",
+    "A056472"
   ],
   "tags": [
     "nonn"

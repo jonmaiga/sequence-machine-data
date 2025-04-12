@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes k such that 2 * k - 1 and 2 * k + 1 are also semiprimes.",
+  "description": "Semiprimes k such that 2*k - 1 and 2*k + 1 are also semiprimes.",
   "id": "A367496",
   "mentions": [
     "A001358",

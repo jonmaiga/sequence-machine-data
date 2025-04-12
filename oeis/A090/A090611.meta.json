@@ -1,20 +1,29 @@
 {
-  "description": "Decimal expansion of (24e^5 - 96e^4 + 108e^3 - 32e^2 + e)/24.",
+  "description": "Decimal expansion of (24*e^5 - 96*e^4 + 108*e^3 - 32*e^2 + e)/24.",
   "id": "A090611",
   "mentions": [
     "A001113",
+    "A089087",
     "A089139",
+    "A090137",
+    "A090138",
     "A090142",
-    "A090143"
+    "A090143",
+    "A379601",
+    "A381673",
+    "A381843",
+    "A382020",
+    "A382026"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

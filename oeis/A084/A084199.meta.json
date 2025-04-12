@@ -1,16 +1,18 @@
 {
-  "description": "Smallest prime q",
+  "description": "Smallest prime q < prime(n) such that q+1 divides prime(n)+1, a(n) = 1 if no such q exists.",
   "id": "A084199",
   "mentions": [
+    "A000040",
     "A008578",
     "A084196"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 103,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

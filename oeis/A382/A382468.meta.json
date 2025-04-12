@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (largest prime factor of n) minus (its remaining distinct prime factors).",
+  "id": "A382468",
+  "mentions": [
+    "A006530",
+    "A008472",
+    "A027748",
+    "A212665",
+    "A215142",
+    "A382469"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

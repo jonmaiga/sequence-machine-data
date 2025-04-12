@@ -2,13 +2,23 @@
   "description": "Triangle read by rows: T(n,k) = [x^k] p(x,n), where p(x,n) = 3*(x + 1)^n - 2*(x^n + 1) - n*(x + x^(n - 1)) for n >= 2, p(x,0) = 1, and p(x,1) = x + 1.",
   "id": "A168641",
   "mentions": [
+    "A005843",
+    "A027480",
+    "A045943",
+    "A050534",
+    "A065475",
+    "A095151",
     "A132046",
     "A168643",
     "A168644",
-    "A168646"
+    "A168646",
+    "A253942",
+    "A253943",
+    "A253944"
   ],
   "tags": [
     "easy",
+    "formulas",
     "less",
     "nonn",
     "tabl"
@@ -16,6 +26,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

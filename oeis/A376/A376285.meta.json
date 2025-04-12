@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (20)^n * cos(nA), where A is the angle opposite side BC in a triangle ABC having sidelengths |BC|=3, |CA|=4, |AB|=5; ABC is the smallest integer-sided right triangle.",
+  "description": "a(n) = 20^n * cos(n*A), where A is the angle opposite side BC in a triangle ABC having sidelengths |BC|=3, |CA|=4, |AB|=5; ABC is the smallest integer-sided right triangle.",
   "id": "A376285",
   "mentions": [
     "A066771",

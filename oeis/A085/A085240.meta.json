@@ -1,16 +1,17 @@
 {
-  "description": "As exponents in powers of 2 or 3 (A006899) occur in A085238 exactly twice, a self-inverse permutation of natural numbers is induced.",
+  "description": "As exponents > 0 in powers of 2 or 3 (A006899) occur in A085238 exactly twice, a self-inverse permutation of natural numbers is induced.",
   "id": "A085240",
   "mentions": [
     "A006899",
     "A085238"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 68,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,10 +1,12 @@
 {
-  "description": "Multiples of 12: a(n) = 12*n.",
+  "description": "Multiples of 12.",
   "id": "A008594",
   "mentions": [
     "A003154",
+    "A008588",
     "A008592",
     "A008593",
+    "A008606",
     "A072065",
     "A089911",
     "A121032"

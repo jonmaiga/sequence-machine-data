@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. 2-hypergeom([3/2,7/2],[-1/2],4*x).",
+  "id": "A382874",
+  "mentions": [
+    "A001700",
+    "A002421",
+    "A002423",
+    "A002457"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

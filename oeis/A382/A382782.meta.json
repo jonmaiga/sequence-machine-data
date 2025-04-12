@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows of the reduced coefficients of Pi^(2k) in the expansion of Sum_{k>=1} (1 / (4k^2-1)^n).",
+  "id": "A382782",
+  "mentions": [
+    "A123092",
+    "A248895",
+    "A248896",
+    "A382783",
+    "A382784"
+  ],
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where A(n,k) = n! * k! * [x^n * y^k] 1 / (1 - log(1-x) * log(1-y))^3.",
+  "id": "A382800",
+  "mentions": [
+    "A379821",
+    "A382735",
+    "A382799",
+    "A382802",
+    "A382806"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

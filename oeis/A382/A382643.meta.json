@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp( x/(1-3*x)^(4/3) ).",
+  "id": "A382643",
+  "mentions": [
+    "A362188",
+    "A362205",
+    "A382652"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

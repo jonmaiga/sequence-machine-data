@@ -1,0 +1,14 @@
+{
+  "description": "Minimum period of an optimum covering of the set of integers by translates of its subset with diameter no greater than n, maximized over such subsets.",
+  "id": "A382870",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

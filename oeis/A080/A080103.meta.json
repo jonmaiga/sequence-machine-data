@@ -1,5 +1,5 @@
 {
-  "description": "Greatest prime power in all composite numbers between n-th prime and next prime, a(n)=1 if no such prime power exists.",
+  "description": "Greatest prime power in all composite numbers between n-th prime and next prime, a(n) = 1 if no such prime power exists.",
   "id": "A080103",
   "mentions": [
     "A000040",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 2,
     "size": 94,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

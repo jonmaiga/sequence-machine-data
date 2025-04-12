@@ -1,0 +1,30 @@
+{
+  "description": "List of unlabeled simple graphs, encoded as integers (see comments).",
+  "id": "A382754",
+  "mentions": [
+    "A000088",
+    "A000120",
+    "A000523",
+    "A002024",
+    "A076184",
+    "A382755",
+    "A382756",
+    "A382757",
+    "A382758",
+    "A382759",
+    "A382760",
+    "A382761",
+    "A382762",
+    "A382763",
+    "A382764"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

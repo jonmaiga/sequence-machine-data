@@ -2,6 +2,7 @@
   "description": "Noll index series of Zernike polynomials converted to ANSI index.",
   "id": "A375779",
   "mentions": [
+    "A003056",
     "A176988"
   ],
   "tags": [

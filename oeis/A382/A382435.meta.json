@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} ( binomial(n,k) - binomial(n,k-1) )^6.",
+  "id": "A382435",
+  "mentions": [
+    "A080233",
+    "A131428",
+    "A156644",
+    "A382433",
+    "A382434"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

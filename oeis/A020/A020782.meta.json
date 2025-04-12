@@ -1,14 +1,18 @@
 {
-  "description": "Expansion of 1/((1-7x)(1-8x)(1-9x)).",
+  "description": "Expansion of g.f. 1/((1-7*x)*(1-8*x)*(1-9*x)).",
   "id": "A020782",
-  "mentions": [],
+  "mentions": [
+    "A005062",
+    "A016149"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "joeis"
   }
 }

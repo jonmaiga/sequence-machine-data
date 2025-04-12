@@ -1,0 +1,19 @@
+{
+  "description": "Rectangular array read by antidiagonals, T(n,k) is the number of labeled digraphs on [n] along with a (coloring) function c:[n] -> [k] such that for all u,v in [n], u->v implies u<=v and c(u)<=c(v), n>=0, k>=0.",
+  "id": "A382363",
+  "mentions": [
+    "A005329",
+    "A006125",
+    "A382223"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

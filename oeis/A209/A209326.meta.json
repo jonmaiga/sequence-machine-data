@@ -3,6 +3,7 @@
   "id": "A209326",
   "mentions": [
     "A000166",
+    "A000255",
     "A002467",
     "A180191",
     "A207819",
@@ -11,12 +12,12 @@
     "A209325"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

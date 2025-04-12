@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write the n-th prime as 1+p+p^k, p prime and k>0.",
+  "description": "Number of ways to write the n-th prime as 1+p+p^k, p prime and k > 0.",
   "id": "A084440",
   "mentions": [
     "A084441",
@@ -7,6 +7,7 @@
     "A084443"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

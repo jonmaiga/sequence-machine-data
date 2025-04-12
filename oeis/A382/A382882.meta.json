@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k) = k^ord(n, k) where ord(n, k) is the p-adic order if n and k >= 2, 1 if k = 1, and 0^n if k = 0.",
+  "id": "A382882",
+  "mentions": [
+    "A286563",
+    "A364813",
+    "A381886"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

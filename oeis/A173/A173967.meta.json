@@ -1,10 +1,15 @@
 {
-  "description": "14=2*7;15=3*5;14+15=29, 21=3*7;22=2*11;21+22=43,..",
+  "description": "Sums of two consecutive numbers that are nonsquare semiprimes.",
   "id": "A173967",
   "mentions": [
-    "A173966"
+    "A006881",
+    "A109288",
+    "A173966",
+    "A173969",
+    "A263990"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

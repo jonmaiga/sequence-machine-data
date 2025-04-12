@@ -1,0 +1,18 @@
+{
+  "description": "Number of triples of non-crossing lattice paths from (0,0) to (n,n) using (1,0) and (0,1) as steps.",
+  "id": "A382136",
+  "mentions": [
+    "A000108",
+    "A000891"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

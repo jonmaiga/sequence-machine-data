@@ -1,7 +1,9 @@
 {
-  "description": "5*11^n-1.",
+  "description": "a(n) = 5*11^n - 1.",
   "id": "A199022",
-  "mentions": [],
+  "mentions": [
+    "A199021"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

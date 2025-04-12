@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form Sum_{k >= 0} floor(m/3^k) for some number m.",
+  "id": "A381974",
+  "mentions": [
+    "A000040",
+    "A004128",
+    "A381973"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

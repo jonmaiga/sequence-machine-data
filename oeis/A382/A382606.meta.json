@@ -1,0 +1,16 @@
+{
+  "description": "Natural numbers ordered by the probability (highest to lowest) to occur in the sum of repeated rolls of a fair 6-sided die.",
+  "id": "A382606",
+  "mentions": [
+    "A365443",
+    "A382607"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Integers k = p*q*r, where p < q < r are distinct primes and p*q > r.",
+  "id": "A381736",
+  "mentions": [
+    "A007304",
+    "A164596",
+    "A382022"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

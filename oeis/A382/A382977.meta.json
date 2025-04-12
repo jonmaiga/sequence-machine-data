@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - (2^k - 1) * x^k).",
+  "id": "A382977",
+  "mentions": [
+    "A000225",
+    "A266964",
+    "A322199",
+    "A382974",
+    "A382976",
+    "A382978"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

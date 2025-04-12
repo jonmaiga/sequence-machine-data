@@ -1,7 +1,9 @@
 {
-  "description": "3*11^n-1.",
+  "description": "a(n) = 3*11^n - 1.",
   "id": "A199019",
-  "mentions": [],
+  "mentions": [
+    "A199018"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

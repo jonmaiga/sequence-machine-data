@@ -2,17 +2,21 @@
   "description": "Number of permutations that are 3 \"block reversals\" away from 12...n.",
   "id": "A007975",
   "mentions": [
+    "A000124",
     "A007972",
     "A007973",
     "A007974",
+    "A228396",
+    "A228397",
     "A300003"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 4,
-    "size": 30,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

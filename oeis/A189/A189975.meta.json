@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with prime factorization pqr^3.",
+  "description": "Numbers with prime factorization pqr^3 for distinct p, q, r.",
   "id": "A189975",
   "mentions": [
     "A030634",

@@ -1,10 +1,11 @@
 {
-  "description": "Values of n at which the number of roots of the function x+n*sin(x) increases.",
+  "description": "Values of k at which the number of roots of the function x + k*sin(x) increases.",
   "id": "A145005",
   "mentions": [
     "A004083"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

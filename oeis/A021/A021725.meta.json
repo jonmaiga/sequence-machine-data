@@ -2,7 +2,8 @@
   "description": "Decimal expansion of 1/721.",
   "id": "A021725",
   "mentions": [
-    "A021107"
+    "A021107",
+    "A021200"
   ],
   "tags": [
     "cons",

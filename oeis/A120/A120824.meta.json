@@ -1,5 +1,5 @@
 {
-  "description": "Primes with n consecutive digits ascending beginning with the digit six.",
+  "description": "a(n) consecutive digits ascending beginning with the digit 6 give a prime.",
   "id": "A120824",
   "mentions": [
     "A006055",
@@ -15,11 +15,12 @@
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

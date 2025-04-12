@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (Stirling1(n,k) * k!)^3.",
+  "id": "A382807",
+  "mentions": [
+    "A006252",
+    "A242280",
+    "A382792",
+    "A382808"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

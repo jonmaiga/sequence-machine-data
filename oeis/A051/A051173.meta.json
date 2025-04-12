@@ -1,5 +1,5 @@
 {
-  "description": "Triangular array T read by rows: T(u,v) = lcm(u,v).",
+  "description": "Triangle read by rows: T(n, k) = lcm(n, k).",
   "id": "A051173",
   "mentions": [
     "A000384",
@@ -9,6 +9,7 @@
     "A051193",
     "A051537",
     "A075362",
+    "A109042",
     "A109043"
   ],
   "tags": [

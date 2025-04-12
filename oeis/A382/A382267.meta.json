@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of the harmonic mean of the exponents in the prime factorization of n.",
+  "id": "A382267",
+  "mentions": [
+    "A070012",
+    "A088530",
+    "A250097",
+    "A382266"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

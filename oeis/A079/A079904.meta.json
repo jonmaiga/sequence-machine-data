@@ -1,9 +1,11 @@
 {
-  "description": "Triangle read by rows: T(n, k) = n*k, 0<=k<=n.",
+  "description": "Triangle read by rows: T(n, k) = n*k, 0 <= k <= n.",
   "id": "A079904",
   "mentions": [
     "A000290",
+    "A001105",
     "A002378",
+    "A002411",
     "A005563",
     "A005843",
     "A008585",
@@ -21,6 +23,6 @@
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

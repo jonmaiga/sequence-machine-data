@@ -1,0 +1,30 @@
+{
+  "description": "The unitary totient function applied to the cubefree numbers (A004709).",
+  "id": "A382662",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A047994",
+    "A366440",
+    "A366536",
+    "A366537",
+    "A368712",
+    "A368779",
+    "A369889",
+    "A376365",
+    "A376366",
+    "A379717",
+    "A382419",
+    "A382663"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

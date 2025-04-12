@@ -1,0 +1,23 @@
+{
+  "description": "The powerfree part of the n-th biquadratefree number.",
+  "id": "A382905",
+  "mentions": [
+    "A013662",
+    "A046100",
+    "A055231",
+    "A382902",
+    "A382903",
+    "A382904",
+    "A382906"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

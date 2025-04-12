@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree semiprimes k = p*q, primes p < q, with q distinct power residues r (mod k) congruent to p^m, m >= 0, and p distinct power residues r (mod k) congruent to q^m, m >= 0.",
+  "id": "A381525",
+  "mentions": [
+    "A006881",
+    "A007947",
+    "A381804"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

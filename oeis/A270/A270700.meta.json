@@ -1,11 +1,12 @@
 {
-  "description": "Triangular Star of David numbers (the figurate number of triangles framing a hexagram: a(0) = 12; thereafter a(n) = 36*n+6).",
+  "description": "Triangular Star of David numbers (the figurate number of triangles framing a hexagram: a(0) = 12; thereafter a(n) = 36*n + 6).",
   "id": "A270700",
   "mentions": [
     "A045943",
     "A045945",
     "A045946",
-    "A270545"
+    "A270545",
+    "A271114"
   ],
   "tags": [
     "easy",

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = least integer h >= 1 such that n is a sum of the form Sum_{k>=0} floor(h/m^k) for some integer m >= 2.",
+  "id": "A382324",
+  "mentions": [
+    "A382278"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

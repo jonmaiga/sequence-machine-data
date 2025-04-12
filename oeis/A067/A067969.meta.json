@@ -2,9 +2,11 @@
   "description": "Number of nodes in virtual, \"optimal\", chordal graphs of diameter 5, degree =n+1.",
   "id": "A067969",
   "mentions": [
-    "A001847"
+    "A001847",
+    "A035599"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

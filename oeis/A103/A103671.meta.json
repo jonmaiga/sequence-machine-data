@@ -1,5 +1,5 @@
 {
-  "description": "Smallest m such that in binary representation n! doesn't contain m!.",
+  "description": "Smallest m such that the binary representation of n! does not contain m!.",
   "id": "A103671",
   "mentions": [
     "A000142",
@@ -9,11 +9,12 @@
     "A103672"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 6,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

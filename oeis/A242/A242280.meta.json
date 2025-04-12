@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{k=0..n} (k!*StirlingS2(n,k))^3.",
+  "description": "a(n) = Sum_{k=0..n} (k! * Stirling2(n,k))^3.",
   "id": "A242280",
   "mentions": [
     "A000670",

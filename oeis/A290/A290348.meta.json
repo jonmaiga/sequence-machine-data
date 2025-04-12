@@ -2,9 +2,12 @@
   "description": "Denominators of the Harary index for the n-halved cube graph.",
   "id": "A290348",
   "mentions": [
-    "A290347"
+    "A000265",
+    "A290347",
+    "A330719"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

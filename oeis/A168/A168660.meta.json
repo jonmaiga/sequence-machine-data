@@ -1,7 +1,9 @@
 {
   "description": "a(n) = n^7*(n^3 + 1)/2.",
   "id": "A168660",
-  "mentions": [],
+  "mentions": [
+    "A168635"
+  ],
   "tags": [
     "easy",
     "formulas",

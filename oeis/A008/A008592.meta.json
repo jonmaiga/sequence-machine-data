@@ -1,7 +1,9 @@
 {
-  "description": "Multiples of 10: a(n) = 10 * n.",
+  "description": "Multiples of 10: a(n) = 10*n.",
   "id": "A008592",
   "mentions": [
+    "A005843",
+    "A008587",
     "A008590",
     "A008591",
     "A067251",

@@ -1,5 +1,5 @@
 {
-  "description": "If a, b in sequence, so is ab+9.",
+  "description": "If x and y are terms, so is x*y + 9.",
   "id": "A009350",
   "mentions": [],
   "tags": [

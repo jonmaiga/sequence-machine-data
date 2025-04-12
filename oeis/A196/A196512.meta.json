@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-9*x)/(1-28*x).",
+  "description": "Expansion of g.f. (1-9*x)/(1-28*x).",
   "id": "A196512",
   "mentions": [
     "A002001",

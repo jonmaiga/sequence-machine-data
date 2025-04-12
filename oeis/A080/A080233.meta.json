@@ -2,6 +2,7 @@
   "description": "Triangle T(n,k) obtained by taking differences of consecutive pairs of row elements of Pascal's triangle A007318.",
   "id": "A080233",
   "mentions": [
+    "A000012",
     "A007318",
     "A080232",
     "A156644"
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
+    "size": 66,
     "source": "joeis"
   }
 }

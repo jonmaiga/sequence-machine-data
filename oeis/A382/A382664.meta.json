@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of the exponentially odd numbers (A268335).",
+  "id": "A382664",
+  "mentions": [
+    "A065489",
+    "A173143",
+    "A174172",
+    "A268335",
+    "A358038",
+    "A362971"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of palindromic binary strings of length n having no 6-runs of 1's.",
+  "id": "A382479",
+  "mentions": [
+    "A001590",
+    "A123231",
+    "A251653",
+    "A251707",
+    "A251708",
+    "A382478"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

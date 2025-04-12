@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of ( 1 + 9 * Sum_{k>=0} x^(2^k)/(1 - x^(2^k)) )^(1/3).",
+  "id": "A382334",
+  "mentions": [
+    "A001511",
+    "A223143",
+    "A382333",
+    "A382336"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

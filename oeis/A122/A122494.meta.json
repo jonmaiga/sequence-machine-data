@@ -1,5 +1,5 @@
 {
-  "description": "Set of numbers of the form a^b with 2<=a<=b (rare powers?), sorted.",
+  "description": "Numbers of the form a^b with 2<=a<=b.",
   "id": "A122494",
   "mentions": [
     "A000312",

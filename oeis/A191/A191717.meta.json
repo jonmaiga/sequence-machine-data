@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n*(n-1)^n-(n-1)*n^(n-1)+1 is prime.",
+  "description": "Numbers k such that k*(k-1)^k - (k-1)*k^(k-1) + 1 is prime.",
   "id": "A191717",
   "mentions": [
     "A191699",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {

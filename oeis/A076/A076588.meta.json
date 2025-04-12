@@ -2,7 +2,8 @@
   "description": "First occurrence of n as a term in the continued fraction for Pi/4.",
   "id": "A076588",
   "mentions": [
-    "A032523"
+    "A032523",
+    "A070989"
   ],
   "tags": [
     "base",

@@ -1,0 +1,16 @@
+{
+  "description": "Odd Ulam numbers.",
+  "id": "A382797",
+  "mentions": [
+    "A002858",
+    "A005408"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

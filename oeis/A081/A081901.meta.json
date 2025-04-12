@@ -1,7 +1,8 @@
 {
-  "description": "A sequence related to binomial(n+5, 5).",
+  "description": "Second binomial transform of binomial(n+5, 5).",
   "id": "A081901",
   "mentions": [
+    "A000389",
     "A055852",
     "A081902"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

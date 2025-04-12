@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that (Z/mZ)* = C_2 X C_(2k) has no solutions m, where (Z/mZ)* is the multiplicative group of integers modulo m..",
+  "description": "Numbers k such that (Z/mZ)* = C_2 X C_(2k) has no solutions m, where (Z/mZ)* is the multiplicative group of integers modulo m.",
   "id": "A328414",
   "mentions": [
     "A000010",

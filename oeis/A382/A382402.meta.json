@@ -1,0 +1,18 @@
+{
+  "description": "Numbers divisible by the product of their digits (mod 10).",
+  "id": "A382402",
+  "mentions": [
+    "A007602",
+    "A064700",
+    "A371281"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

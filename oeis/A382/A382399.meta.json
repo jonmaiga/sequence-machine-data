@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets of Z_n such that every ordered pair of distinct elements has a different difference.",
+  "id": "A382399",
+  "mentions": [
+    "A143823",
+    "A325679",
+    "A325681",
+    "A382400"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

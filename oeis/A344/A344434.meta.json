@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{d|n} sigma_d(d), where sigma_k(n) is the sum of the k-th powers of the divisors of n.",
   "id": "A344434",
   "mentions": [
+    "A023887",
     "A245466",
     "A321141",
     "A334874",

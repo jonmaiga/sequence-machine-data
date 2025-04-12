@@ -1,0 +1,20 @@
+{
+  "description": "Number of k < n that are coprime to n and neither squarefree nor prime powers.",
+  "id": "A382768",
+  "mentions": [
+    "A002110",
+    "A073311",
+    "A126706",
+    "A139555",
+    "A382248"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

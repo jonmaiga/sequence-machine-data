@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (x^y + y^z + z^x), for x,y,z > 1.",
+  "description": "Primes of the form x^y + y^z + z^x, for x,y,z > 1.",
   "id": "A123207",
   "mentions": [
     "A094133"

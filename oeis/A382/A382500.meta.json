@@ -1,0 +1,13 @@
+{
+  "description": "Number of minimum connected dominating sets in the n-flower graph.",
+  "id": "A382500",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "The smallest n-digit prime that turns composite at each step as its digits are successively appended, starting from the first.",
+  "id": "A382899",
+  "mentions": [
+    "A003617"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

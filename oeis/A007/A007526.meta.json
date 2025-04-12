@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n(a(n-1) + 1), a(0) = 0.",
+  "description": "a(n) = n*(a(n-1) + 1), a(0) = 0.",
   "id": "A007526",
   "mentions": [
     "A000142",

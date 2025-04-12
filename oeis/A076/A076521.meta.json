@@ -1,7 +1,9 @@
 {
-  "description": "Floor( (n/2)*log_2(2*n/3) ).",
+  "description": "a(n) = floor( (n/2)*log_2(2*n/3) ).",
   "id": "A076521",
-  "mentions": [],
+  "mentions": [
+    "A076522"
+  ],
   "tags": [
     "nonn"
   ],

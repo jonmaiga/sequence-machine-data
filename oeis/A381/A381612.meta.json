@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) for n-1 <= k <= A328378(n) is the number of permutations of length n having a sum of differences equal to k.",
+  "id": "A381612",
+  "mentions": [
+    "A000982",
+    "A328378"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

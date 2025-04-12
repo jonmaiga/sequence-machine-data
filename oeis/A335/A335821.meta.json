@@ -1,8 +1,11 @@
 {
   "description": "Triangular array T(n, k) = n^2 - k^2, read by rows.",
   "id": "A335821",
-  "mentions": [],
+  "mentions": [
+    "A257238"
+  ],
   "tags": [
+    "easy",
     "nonn",
     "tabl"
   ],

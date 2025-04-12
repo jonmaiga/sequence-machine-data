@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows, where row n is a permutation of the numbers 1 through n, such that if a deck of n cards is prepared in this order, and down-under-under dealing is used, then the resulting cards will be dealt in increasing order.",
+  "id": "A381622",
+  "mentions": [
+    "A006257",
+    "A016777",
+    "A054995",
+    "A225381",
+    "A321298",
+    "A378635",
+    "A381623"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

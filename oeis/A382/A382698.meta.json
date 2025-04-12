@@ -1,0 +1,18 @@
+{
+  "description": "First member of the least set of 3 consecutive primes such that the sum of each pair of consecutive primes in this set is a multiple of n.",
+  "id": "A382698",
+  "mentions": [
+    "A254862",
+    "A382699",
+    "A382700"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

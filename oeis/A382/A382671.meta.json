@@ -1,0 +1,13 @@
+{
+  "description": "a(1) = 1 and thereafter a(n) = a(n-1) + j(n-1) where j(1) = 1 and then j(n) = j(n-1)-1 if a(n) is composite or j(n) = 2*j(n-1) if a(n) is prime.",
+  "id": "A382671",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

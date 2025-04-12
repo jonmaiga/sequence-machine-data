@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that total number of decimal digits of all distinct prime factors of n is smaller than the number of digits of n.",
+  "description": "Numbers k such that total number of decimal digits of all distinct prime factors of k is larger than the number of digits of k.",
   "id": "A095411",
   "mentions": [
     "A055642",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Simple continued fraction for the decimal number 10.100001100... defined in A379651.",
+  "id": "A382714",
+  "mentions": [
+    "A379651"
+  ],
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

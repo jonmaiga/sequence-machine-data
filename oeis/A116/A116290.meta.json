@@ -1,5 +1,5 @@
 {
-  "description": "n times n+6 gives the concatenation of a number m with itself.",
+  "description": "Numbers k such that k * (k+6) is the concatenation of a number m with itself.",
   "id": "A116290",
   "mentions": [
     "A116159",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "joeis"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

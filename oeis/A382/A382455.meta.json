@@ -1,0 +1,17 @@
+{
+  "description": "Order 3 perimeter magic squares of magic sum n, all elements distinct and 1 in the set; bracelet symmetry.",
+  "id": "A382455",
+  "mentions": [
+    "A084569",
+    "A380962"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 12,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

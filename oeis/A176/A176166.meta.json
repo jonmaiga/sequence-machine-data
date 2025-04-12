@@ -1,17 +1,20 @@
 {
-  "description": "Highest exponents of triangular numbers.",
+  "description": "a(n) is the maximum exponent in the prime factorization of the n-th triangular number.",
   "id": "A176166",
   "mentions": [
     "A000217",
-    "A005361",
-    "A135939"
+    "A051903",
+    "A135939",
+    "A334572"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 105,
-    "source": "oeis-entry"
+    "size": 106,
+    "source": "oeis-bfile"
   }
 }

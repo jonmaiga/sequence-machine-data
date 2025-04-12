@@ -1,0 +1,20 @@
+{
+  "description": "Semiperimeter of the unique primitive Pythagorean triple whose inradius is the n-th prime and whose short leg is an odd number.",
+  "id": "A382070",
+  "mentions": [
+    "A034953",
+    "A098996",
+    "A367573",
+    "A382097"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

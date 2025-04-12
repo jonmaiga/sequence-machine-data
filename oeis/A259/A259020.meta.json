@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 + 1 is a divisorial prime (A258455).",
+  "description": "Numbers k such that k^2 + 1 is a divisorial prime (A258455).",
   "id": "A259020",
   "mentions": [
     "A005574",

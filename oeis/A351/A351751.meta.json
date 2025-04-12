@@ -2,10 +2,12 @@
   "description": "a(n) = Sum_{p|n, p prime} p^sigma_p(p).",
   "id": "A351751",
   "mentions": [
+    "A010051",
     "A023887",
     "A351749"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

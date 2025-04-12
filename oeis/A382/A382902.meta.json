@@ -1,0 +1,23 @@
+{
+  "description": "The largest cubefree divisor of the n-th biquadratefree number.",
+  "id": "A382902",
+  "mentions": [
+    "A007948",
+    "A013662",
+    "A046100",
+    "A382903",
+    "A382904",
+    "A382905",
+    "A382906"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

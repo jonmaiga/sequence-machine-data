@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sigma(n-1)+phi(n-1) = (5n-7)/2.",
+  "description": "Numbers k such that sigma(k-1) + phi(k-1) = (5*k-7)/2.",
   "id": "A270837",
   "mentions": [
     "A000010",

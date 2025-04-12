@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-node oriented graphs (no loops or cycles of length 2), not necessarily connected, which are squares.",
+  "id": "A382158",
+  "mentions": [
+    "A382157",
+    "A382159",
+    "A382180"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

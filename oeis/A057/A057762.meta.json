@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 5 is a square mod n.",
+  "description": "Numbers k such that 5 is a square mod k.",
   "id": "A057762",
   "mentions": [
     "A057125",

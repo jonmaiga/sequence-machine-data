@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct solutions to the problem of folding in half a chain of linked rods of length 1, ..., n.",
+  "id": "A382605",
+  "mentions": [
+    "A000217",
+    "A154708",
+    "A380867",
+    "A380868",
+    "A382268",
+    "A382632"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

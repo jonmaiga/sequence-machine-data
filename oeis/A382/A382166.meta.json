@@ -1,0 +1,18 @@
+{
+  "description": "Self-numbers (A003052) that are cubes.",
+  "id": "A382166",
+  "mentions": [
+    "A000578",
+    "A003052",
+    "A171671"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

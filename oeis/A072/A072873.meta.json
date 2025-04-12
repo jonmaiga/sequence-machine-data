@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that Sum_i ( e(i)/p(i) ) is an integer, where the prime factorization of n is Product_i ( p(i)^e(i) ).",
+  "description": "Numbers k such that Sum_i ( e(i)/p(i) ) is an integer, where the prime factorization of k is Product_i ( p(i)^e(i) ).",
   "id": "A072873",
   "mentions": [
     "A001221",

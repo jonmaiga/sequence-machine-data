@@ -1,8 +1,10 @@
 {
-  "description": "Shifts 2 places left when binomial transform is applied twice.",
+  "description": "Shifts 2 places left when binomial transform is applied twice with a(0) = a(1) = 1.",
   "id": "A007472",
   "mentions": [
-    "A003633"
+    "A003633",
+    "A351028",
+    "A351143"
   ],
   "tags": [
     "eigen",

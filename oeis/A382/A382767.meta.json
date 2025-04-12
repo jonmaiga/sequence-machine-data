@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number k that is powerful but not a prime power that is also coprime to n.",
+  "id": "A382767",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A020639",
+    "A033845",
+    "A033846",
+    "A053669",
+    "A286708",
+    "A380539",
+    "A381805",
+    "A382248"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

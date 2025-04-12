@@ -1,0 +1,14 @@
+{
+  "description": "Starting from n and decrement, d = 1 we repeatedly subtract d until we reach a multiple of d+1. Whereupon we set d := d+1 and continue the process. a(n) is the total number of subtractions required to reduce n to 0.",
+  "id": "A382048",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

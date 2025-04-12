@@ -1,8 +1,9 @@
 {
-  "description": "Numbers not divisible by any of their digits nor by the sum of their digits.",
+  "description": "Positive numbers not divisible by any of their digits nor by the sum of their digits.",
   "id": "A082943",
   "mentions": [
-    "A038772"
+    "A038772",
+    "A382239"
   ],
   "tags": [
     "base",

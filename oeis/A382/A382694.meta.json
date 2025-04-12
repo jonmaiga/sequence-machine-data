@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of g.f. exp(Sum_{n>=1} A295438(n)*x^n/n).",
+  "id": "A382694",
+  "mentions": [
+    "A295438"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

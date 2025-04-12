@@ -1,0 +1,15 @@
+{
+  "description": "Minimal polynomials of nimbers *(2^(2^n)-1), evaluated at 2.",
+  "id": "A382121",
+  "mentions": [
+    "A051775"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

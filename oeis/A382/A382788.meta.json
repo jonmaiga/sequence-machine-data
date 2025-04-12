@@ -1,0 +1,23 @@
+{
+  "description": "The sum of divisors of n that are numbers whose number of divisors is a power of 2.",
+  "id": "A382788",
+  "mentions": [
+    "A000523",
+    "A033634",
+    "A036537",
+    "A353900",
+    "A372379",
+    "A372380"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

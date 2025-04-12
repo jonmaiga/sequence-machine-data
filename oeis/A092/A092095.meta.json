@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{i=0,1,2,..; n-k*i >= -n} |n-k*i| for k=4.",
+  "description": "a(n) = Sum_{i=0,1,2,...; n-k*i >= -n} |n-k*i| for k=4.",
   "id": "A092095",
   "mentions": [
     "A001044",
@@ -14,12 +14,13 @@
     "A092974"
   ],
   "tags": [
-    "more",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 4,
-    "size": 15,
+    "offset": 5,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

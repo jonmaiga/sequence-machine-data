@@ -1,0 +1,43 @@
+{
+  "description": "Number of ways to choose a different constant partition of each part of a constant partition of n.",
+  "id": "A382524",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000688",
+    "A005117",
+    "A006171",
+    "A018818",
+    "A047966",
+    "A050361",
+    "A063834",
+    "A260685",
+    "A279784",
+    "A279786",
+    "A279789",
+    "A300383",
+    "A304442",
+    "A317141",
+    "A326534",
+    "A353833",
+    "A355743",
+    "A356065",
+    "A381453",
+    "A381455",
+    "A381715",
+    "A381871",
+    "A381993",
+    "A381995",
+    "A382076",
+    "A382204"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

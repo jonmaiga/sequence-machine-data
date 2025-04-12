@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k) * binomial(n,k)^2 * binomial(n+k,k).",
+  "id": "A382848",
+  "mentions": [
+    "A005258",
+    "A026641",
+    "A126869",
+    "A245086",
+    "A382849"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

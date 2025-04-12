@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of n into k parts where 0 <= k <= n, and each part is one of 3 kinds.",
+  "id": "A382343",
+  "mentions": [
+    "A000217",
+    "A000716",
+    "A008284",
+    "A022598",
+    "A382025",
+    "A382342"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

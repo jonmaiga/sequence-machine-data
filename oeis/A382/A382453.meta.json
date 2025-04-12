@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that no term is a substring of the sum of any two terms.",
+  "id": "A382453",
+  "mentions": [
+    "A381242"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

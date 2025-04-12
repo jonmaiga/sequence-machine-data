@@ -1,0 +1,17 @@
+{
+  "description": "Start with {1, x}, then at each step replace it with the set of all pairwise products and sums of its elements (an element can be paired with itself). a(n) gives the number of elements after n-th step.",
+  "id": "A382928",
+  "mentions": [
+    "A352969"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

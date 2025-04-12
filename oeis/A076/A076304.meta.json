@@ -2,6 +2,7 @@
   "description": "Numbers k such that k^2 is a sum of three successive primes.",
   "id": "A076304",
   "mentions": [
+    "A034961",
     "A076305",
     "A080665",
     "A122560",

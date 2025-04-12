@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k = x*y such that (x*2^k - 1)*(y*2^k - 1) is semiprime.",
+  "id": "A382119",
+  "mentions": [
+    "A000668",
+    "A001358",
+    "A161904"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

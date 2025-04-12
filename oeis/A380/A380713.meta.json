@@ -1,0 +1,19 @@
+{
+  "description": "Lesser of twin self primes, i.e., smaller member of the pair of self primes differing by 2.",
+  "id": "A380713",
+  "mentions": [
+    "A001359",
+    "A003052",
+    "A374101",
+    "A380715"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..4 arrays with the absolute differences of each element with its with horizontal and antidiagonal neighbors unique.",
+  "description": "Number of n X 3 0..4 arrays with the absolute differences of each element with its with horizontal and antidiagonal neighbors unique.",
   "id": "A265923",
   "mentions": [
     "A265928"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

@@ -1,9 +1,15 @@
 {
-  "description": "Number of numbers of form p^5, p prime, <= 2^n.",
+  "description": "Number of fifth powers of primes <= 2^n.",
   "id": "A060971",
   "mentions": [
+    "A000720",
     "A007053",
-    "A036386"
+    "A018117",
+    "A036386",
+    "A050997",
+    "A060967",
+    "A060969",
+    "A060970"
   ],
   "tags": [
     "formulas",
@@ -12,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 69,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

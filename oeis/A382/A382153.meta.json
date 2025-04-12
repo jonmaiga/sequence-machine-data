@@ -1,0 +1,15 @@
+{
+  "description": "Numbers k such that there is an exceptional k-isogeny arising from the rational points on an elliptic curve X_0^{+}(k) of genus at most 6.",
+  "id": "A382153",
+  "mentions": [],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

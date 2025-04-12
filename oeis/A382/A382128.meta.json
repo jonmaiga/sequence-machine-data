@@ -1,0 +1,23 @@
+{
+  "description": "Fractalization of the Recamán sequence.",
+  "id": "A382128",
+  "mentions": [
+    "A003602",
+    "A005132",
+    "A110766",
+    "A110779",
+    "A110812",
+    "A382129",
+    "A382130"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

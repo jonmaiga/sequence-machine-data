@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0..3 arrays avoiding the pattern z-2 z-1 z in any row or column",
+  "description": "Number of n X n 0..3 arrays avoiding the pattern z-2 z-1 z in any row or column.",
   "id": "A207284",
   "mentions": [
     "A207290"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

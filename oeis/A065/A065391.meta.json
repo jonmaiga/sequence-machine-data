@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A062401(n) = phi(sigma(n)) is increasing; i.e., A062401(n) represents a new peak, so that A062401(n) > A062401(k) for all k < n.",
+  "description": "Numbers m such that A062401(m) = phi(sigma(m)) is increasing to a record value, i.e., A062401(m) represents a new peak, so that A062401(m) > A062401(k) for all k < m.",
   "id": "A065391",
   "mentions": [
     "A000010",

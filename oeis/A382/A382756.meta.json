@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the graph corresponding to A076184(n), encoded as in A382754.",
+  "id": "A382756",
+  "mentions": [
+    "A002494",
+    "A076184",
+    "A382754",
+    "A382757"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

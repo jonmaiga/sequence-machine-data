@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (1-log(2))/2.",
+  "id": "A382854",
+  "mentions": [
+    "A187832",
+    "A372858",
+    "A382884"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

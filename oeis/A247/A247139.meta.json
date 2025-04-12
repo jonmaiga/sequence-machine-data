@@ -1,8 +1,9 @@
 {
-  "description": "The number of tiling of a triangular shape T_n with n rectangles identifying all tilings which use the same rectangular shapes.",
+  "description": "The number of tilings of a triangular shape T_n with n rectangles identifying all tilings which use the same rectangular shapes.",
   "id": "A247139",
   "mentions": [
     "A000108",
+    "A001190",
     "A002620"
   ],
   "tags": [
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

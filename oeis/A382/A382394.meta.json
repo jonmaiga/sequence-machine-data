@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A128899(n,k)^3.",
+  "id": "A382394",
+  "mentions": [
+    "A001700",
+    "A003161",
+    "A024492",
+    "A088218",
+    "A128899",
+    "A183069"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

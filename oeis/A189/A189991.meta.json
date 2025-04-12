@@ -2,8 +2,10 @@
   "description": "Numbers with prime factorization p^4*q^4.",
   "id": "A189991",
   "mentions": [
+    "A006881",
     "A085964",
     "A085968",
+    "A085986",
     "A137488",
     "A179671",
     "A189990"

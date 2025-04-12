@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(1 - x*(1 + 4*x)^(3/2))^3.",
+  "id": "A382650",
+  "mentions": [
+    "A382536",
+    "A382649"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

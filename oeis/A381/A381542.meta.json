@@ -1,0 +1,44 @@
+{
+  "description": "Numbers > 1 whose greatest prime index equals their greatest prime multiplicity.",
+  "id": "A381542",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001223",
+    "A008284",
+    "A047966",
+    "A047993",
+    "A048767",
+    "A051903",
+    "A051904",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A091602",
+    "A106529",
+    "A112798",
+    "A122111",
+    "A130091",
+    "A212166",
+    "A239964",
+    "A240312",
+    "A317090",
+    "A381439",
+    "A381543",
+    "A381544",
+    "A381632",
+    "A382302"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

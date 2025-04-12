@@ -1,12 +1,11 @@
 {
-  "description": "Smallest n such that digit sum of n > previous term.",
+  "description": "Smallest k such that digit sum of k > previous term.",
   "id": "A180083",
   "mentions": [
     "A006050"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {

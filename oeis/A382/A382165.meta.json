@@ -1,0 +1,17 @@
+{
+  "description": "Kaprekar numbers (A006886) that are divisible by the sum of their digits.",
+  "id": "A382165",
+  "mentions": [
+    "A005349",
+    "A006886"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the 2-adic valuations of adjacent terms differ exactly by one.",
+  "id": "A382357",
+  "mentions": [
+    "A003602",
+    "A007814",
+    "A073675",
+    "A266089",
+    "A382360"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

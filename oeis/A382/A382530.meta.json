@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum connected dominating sets in the n X n torus grid graph.",
+  "id": "A382530",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

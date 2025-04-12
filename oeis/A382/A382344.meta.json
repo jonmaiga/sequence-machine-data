@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of partitions of n into k parts where 0 <= k <= n, and each part is one of 4 kinds.",
+  "id": "A382344",
+  "mentions": [
+    "A000292",
+    "A008284",
+    "A022599",
+    "A023003",
+    "A382041",
+    "A382342",
+    "A382343"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

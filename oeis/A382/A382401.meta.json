@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number formed by removing all copies of the smallest digit of n, or 0 if no digits remain.",
+  "id": "A382401",
+  "mentions": [
+    "A054054",
+    "A382056",
+    "A382371"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

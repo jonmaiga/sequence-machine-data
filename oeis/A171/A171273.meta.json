@@ -1,5 +1,5 @@
 {
-  "description": "Matrix inverse of the MacMahon numbers A060187 by way of recursive calculation.",
+  "description": "Matrix inverse of A060187.",
   "id": "A171273",
   "mentions": [
     "A055325",
@@ -9,11 +9,12 @@
   "tags": [
     "formulas",
     "nonn",
+    "tabl",
     "uned"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

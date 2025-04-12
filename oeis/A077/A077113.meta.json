@@ -6,15 +6,17 @@
     "A026414",
     "A054071",
     "A077106",
-    "A077121"
+    "A077121",
+    "A100196"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

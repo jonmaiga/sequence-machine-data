@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n such that any part 1 at position k can be k different colors.",
+  "id": "A382991",
+  "mentions": [
+    "A008275",
+    "A011782",
+    "A088305",
+    "A238351",
+    "A240736",
+    "A382992"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

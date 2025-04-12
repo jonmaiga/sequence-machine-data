@@ -1,0 +1,16 @@
+{
+  "description": "Connected domination number of the n X n queen graph.",
+  "id": "A381091",
+  "mentions": [
+    "A358062"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

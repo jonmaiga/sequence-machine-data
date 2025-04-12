@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{d|n, sqrt(n) < d <= n} Jacobi(2,d)*d - Sum_{d|n, 1 <= d < sqrt(n)} Jacobi(2,d)*d..",
+  "description": "Sum_{d|n, sqrt(n) < d <= n} Jacobi(2,d)*d - Sum_{d|n, 1 <= d < sqrt(n)} Jacobi(2,d)*d.",
   "id": "A117001",
   "mentions": [
     "A117000"

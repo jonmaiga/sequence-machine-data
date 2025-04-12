@@ -2,6 +2,7 @@
   "description": "Number of length n+2 0..3 arrays with no pair in any consecutive three terms totalling exactly 3.",
   "id": "A245990",
   "mentions": [
+    "A001333",
     "A245995"
   ],
   "tags": [

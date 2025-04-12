@@ -1,9 +1,10 @@
 {
-  "description": "Number of fanout-free Boolean functions of n variables.",
+  "description": "Number of degenerate fanout-free Boolean functions of n variables using And, Or, Xor, Not, and Majority gates.",
   "id": "A005740",
   "mentions": [
     "A005617",
-    "A005736"
+    "A005736",
+    "A005741"
   ],
   "tags": [
     "formulas",

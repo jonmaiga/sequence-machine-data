@@ -1,0 +1,16 @@
+{
+  "description": "Antidiagonal sums of A382310.",
+  "id": "A382311",
+  "mentions": [
+    "A382310"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

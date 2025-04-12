@@ -1,5 +1,5 @@
 {
-  "description": "First positive zeros of Bessel function of order n rounded to nearest integer",
+  "description": "First positive zeros of Bessel function of order n rounded to nearest integer.",
   "id": "A172284",
   "mentions": [
     "A000134"

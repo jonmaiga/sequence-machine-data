@@ -1,5 +1,5 @@
 {
-  "description": "Fractal sequence based on a heptagon: a(n) = number of unobscured heptagons remaining after completing step n.0",
+  "description": "Fractal sequence based on a heptagon: a(n) = number of unobscured heptagons remaining after completing step n.",
   "id": "A371620",
   "mentions": [
     "A371536"

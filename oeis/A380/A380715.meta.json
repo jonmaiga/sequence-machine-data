@@ -1,0 +1,19 @@
+{
+  "description": "Greater of twin self primes, i.e., larger member of the pair of self primes differing by 2.",
+  "id": "A380715",
+  "mentions": [
+    "A003052",
+    "A006512",
+    "A380713",
+    "A382380"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

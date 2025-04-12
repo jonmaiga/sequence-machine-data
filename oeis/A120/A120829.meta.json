@@ -1,19 +1,20 @@
 {
-  "description": "Primes with n consecutive digits descending beginning with the digit four.",
+  "description": "a(n) consecutive digits descending beginning with the digit 4 give a prime.",
   "id": "A120829",
   "mentions": [
     "A120804",
-    "A120823",
+    "A120822",
     "A120828"
   ],
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

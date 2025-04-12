@@ -1,0 +1,19 @@
+{
+  "description": "If k appears, 5*k does not.",
+  "id": "A382744",
+  "mentions": [
+    "A003159",
+    "A007417",
+    "A382745",
+    "A382746"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "If n is squarefree then Min{k | A070077(k) = n} else 0.",
+  "description": "If n is squarefree then a(n) = Min{k | A070077(k) = n} else 0.",
   "id": "A070078",
   "mentions": [
     "A005117",
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

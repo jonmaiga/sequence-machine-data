@@ -1,0 +1,23 @@
+{
+  "description": "Fractalization of the prime numbers.",
+  "id": "A382129",
+  "mentions": [
+    "A000040",
+    "A003602",
+    "A110766",
+    "A110779",
+    "A110812",
+    "A382128",
+    "A382130"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

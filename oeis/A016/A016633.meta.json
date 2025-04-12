@@ -1,11 +1,13 @@
 {
-  "description": "Expansion of 1/((1-2x)(1-11x)(1-12x)).",
+  "description": "Expansion of g.f. 1/((1-2*x)*(1-11*x)*(1-12*x)).",
   "id": "A016633",
   "mentions": [
     "A006516",
     "A016127",
     "A016129",
     "A016130",
+    "A016135",
+    "A016136",
     "A016311",
     "A016316",
     "A016321",
@@ -18,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

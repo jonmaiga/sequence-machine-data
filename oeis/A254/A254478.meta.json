@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(3+2) 0..1 arrays with every 3X3 subblock diagonal sum minus antidiagonal minimum nondecreasing horizontally and vertically",
+  "description": "Number of (n+2) X (3+2) 0..1 arrays with every 3 X 3 subblock diagonal sum minus antidiagonal minimum nondecreasing horizontally and vertically.",
   "id": "A254478",
   "mentions": [
     "A254483"

@@ -1,15 +1,16 @@
 {
-  "description": "(n+1)^((n+1)!) mod (n!)^n.",
+  "description": "a(n) = (n+1)^((n+1)!) mod (n!)^n.",
   "id": "A209300",
   "mentions": [
     "A067039",
     "A187751"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 10,
     "source": "oeis-entry"
   }

@@ -2,10 +2,12 @@
   "description": "a(n) is the number of ascending subsequences in reducing n to 1 using the Collatz reduction, or -1 if n refutes the Collatz conjecture.",
   "id": "A346965",
   "mentions": [
+    "A000265",
     "A007814",
     "A070168",
     "A078719",
     "A085062",
+    "A160541",
     "A221469"
   ],
   "tags": [

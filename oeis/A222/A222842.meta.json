@@ -1,8 +1,11 @@
 {
-  "description": "T(n,k)=Number of nXk 0..3 arrays with no more than floor(nXk/2) elements equal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..3 order",
+  "description": "T(n,k) is the number of n X k 0..3 arrays with no more than floor(n*k/2) elements equal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..3 order.",
   "id": "A222842",
   "mentions": [
-    "A222650"
+    "A222650",
+    "A222839",
+    "A222840",
+    "A222841"
   ],
   "tags": [
     "nonn",

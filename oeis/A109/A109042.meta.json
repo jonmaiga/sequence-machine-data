@@ -1,9 +1,12 @@
 {
-  "description": "Table read by antidiagonals: T(n,m) = lcm(n,m) (n >= 0, m >= 0).",
+  "description": "Square array read by antidiagonals: A(n, k) = lcm(n, k) for n >= 0, k >= 0.",
   "id": "A109042",
   "mentions": [
     "A000027",
+    "A001477",
     "A003990",
+    "A006580",
+    "A051173",
     "A109043",
     "A109044",
     "A109045",

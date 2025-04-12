@@ -2,9 +2,12 @@
   "description": "Triangle T(n,k) read by rows: number of permutations in [n] with exactly k ascents that have an even number of inversions.",
   "id": "A128612",
   "mentions": [
+    "A001710",
     "A008292",
     "A049061",
-    "A128613"
+    "A128613",
+    "A145882",
+    "A382309"
   ],
   "tags": [
     "formulas",

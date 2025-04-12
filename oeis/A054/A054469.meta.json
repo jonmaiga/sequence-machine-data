@@ -1,5 +1,5 @@
 {
-  "description": "A second-order recursive sequence.",
+  "description": "a(n) = a(n-1) + a(n-2) + (n+2)*binomial(n+3, 3)/2, with a(0) = 1, a(1) = 7.",
   "id": "A054469",
   "mentions": [
     "A000045",

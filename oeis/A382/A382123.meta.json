@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(n)*sigma(2*n)/3 for n >= 1.",
+  "id": "A382123",
+  "mentions": [
+    "A000203",
+    "A062731",
+    "A087943",
+    "A329963",
+    "A347108",
+    "A382124",
+    "A382125"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

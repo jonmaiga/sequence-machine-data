@@ -17,12 +17,11 @@
     "A325880"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 46,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k), n >= k, is the maximum number of kings on a n X k chessboard so that no king attacks more than one other king.",
+  "id": "A381749",
+  "mentions": [
+    "A260090"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

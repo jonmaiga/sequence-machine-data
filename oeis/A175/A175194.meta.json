@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = the smallest factorial such that (the n-th prime)+a(n) is prime, or -1 if no such prime exists..",
+  "description": "a(n) = the smallest factorial such that (the n-th prime)+a(n) is prime, or -1 if no such prime exists.",
   "id": "A175194",
   "mentions": [
     "A000040",

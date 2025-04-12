@@ -1,0 +1,17 @@
+{
+  "description": "A sequence constructed so that the probability of occurrence of integer i > 0 matches the zeta distribution for parameter value 2, 1/(zeta(2)*i^2).",
+  "id": "A381617",
+  "mentions": [
+    "A241773",
+    "A381456",
+    "A381522"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

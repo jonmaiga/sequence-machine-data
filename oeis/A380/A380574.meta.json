@@ -1,0 +1,20 @@
+{
+  "description": "For an integer k with prime factorization p_1*p_2*p_3* ... *p_m let k* = (p_1+1)*(p_2+1)*(p_3+1)* ... *(p_m+1); sequence gives k* such that k* is divisible by k.",
+  "id": "A380574",
+  "mentions": [
+    "A064476",
+    "A064514",
+    "A064515",
+    "A064518"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

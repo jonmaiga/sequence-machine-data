@@ -1,5 +1,5 @@
 {
-  "description": "Number of odd divisors of n minus the number of parts in the symmetric representation of sigma(n).",
+  "description": "Number of odd divisors m of n such that d < m < 2*d and d divides n.",
   "id": "A239657",
   "mentions": [
     "A000203",
@@ -20,7 +20,8 @@
     "A279391",
     "A286000",
     "A286001",
-    "A296508"
+    "A296508",
+    "A347186"
   ],
   "tags": [
     "formulas",

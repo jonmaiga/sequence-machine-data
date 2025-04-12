@@ -1,7 +1,9 @@
 {
   "description": "a(n) = 4^n - n - 1.",
   "id": "A290721",
-  "mentions": [],
+  "mentions": [
+    "A000302"
+  ],
   "tags": [
     "easy",
     "formulas",

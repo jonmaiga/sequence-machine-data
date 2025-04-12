@@ -1,0 +1,16 @@
+{
+  "description": "Split A382462 into runs of increasing elements. a(n) is the length of the n-th run.",
+  "id": "A382466",
+  "mentions": [
+    "A382462"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

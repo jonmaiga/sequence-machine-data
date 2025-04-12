@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (6*n + 1)*(12*n + 1)*(18*n + 1).",
+  "id": "A382809",
+  "mentions": [
+    "A002476",
+    "A002997",
+    "A016921",
+    "A017533",
+    "A033502",
+    "A046025",
+    "A068228",
+    "A161705"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

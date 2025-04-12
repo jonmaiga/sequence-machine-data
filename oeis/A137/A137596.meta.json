@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n, k) = Sum_{i=0..n) Stirling2(i, k).",
+  "description": "Triangle read by rows: T(n, k) = Sum_{i=0..n} Stirling2(i, k).",
   "id": "A137596",
   "mentions": [
     "A000012",

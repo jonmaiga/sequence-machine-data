@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that A003415(A276085(k))) has no p^p-factors, where A003415 is the arithmetic derivative, and A276085 is fully additive with a(p) = p#/p.",
+  "description": "Numbers k such that A003415(A276085(k)) has no p^p-factors, where A003415 is the arithmetic derivative, and A276085 is fully additive with a(p) = p#/p.",
   "id": "A377989",
   "mentions": [
     "A002110",

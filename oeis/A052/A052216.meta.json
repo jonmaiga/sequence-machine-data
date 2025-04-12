@@ -2,6 +2,8 @@
   "description": "Sums of two powers of 10.",
   "id": "A052216",
   "mentions": [
+    "A002262",
+    "A003056",
     "A007953",
     "A011557",
     "A038444",

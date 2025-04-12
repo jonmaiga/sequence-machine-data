@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = S(6,n), where S(r,n) = Sum_{k=0..floor(n/2)} ( binomial(n,k) - binomial(n,k-1) )^r.",
+  "id": "A382433",
+  "mentions": [
+    "A000108",
+    "A008315",
+    "A120730",
+    "A129123",
+    "A357824",
+    "A382435"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

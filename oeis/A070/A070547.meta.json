@@ -1,7 +1,9 @@
 {
-  "description": "a(n)=Card( k, 0",
+  "description": "a(n) = Card(k, 0",
   "id": "A070547",
-  "mentions": [],
+  "mentions": [
+    "A000010"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 77,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

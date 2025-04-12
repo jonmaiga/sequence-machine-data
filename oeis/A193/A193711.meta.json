@@ -1,5 +1,5 @@
 {
-  "description": "Partial sums of union of squares and triangular numbers.",
+  "description": "Partial sums of the union of squares and triangular numbers.",
   "id": "A193711",
   "mentions": [
     "A000217",
@@ -9,6 +9,7 @@
     "A005214"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

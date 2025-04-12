@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial((n-1)*(k+1),n-k).",
+  "id": "A382859",
+  "mentions": [
+    "A121673",
+    "A121674",
+    "A121675",
+    "A381425"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

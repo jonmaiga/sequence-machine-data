@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the code (in the encoding given by A382754) of the square of the graph with code A382754(n).",
+  "id": "A382763",
+  "mentions": [
+    "A000088",
+    "A382195",
+    "A382754",
+    "A382761",
+    "A382764"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

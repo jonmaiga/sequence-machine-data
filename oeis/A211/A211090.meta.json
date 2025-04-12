@@ -1,5 +1,5 @@
 {
-  "description": "1/4 the number of n X n 0..3 symmetric matrices with every element equal to zero, one or two horizontal and vertical neighbors.",
+  "description": "1/4 the number of n X n 0..3 symmetric matrices with every element equal to zero, one, two or four horizontal and vertical neighbors.",
   "id": "A211090",
   "mentions": [],
   "tags": [
@@ -7,7 +7,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Octagonal numbers that are the product of three distinct primes.",
+  "id": "A382231",
+  "mentions": [
+    "A000567",
+    "A007304",
+    "A259677"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

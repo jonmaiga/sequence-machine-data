@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges of the graph encoded by A382754(n).",
+  "id": "A382758",
+  "mentions": [
+    "A000088",
+    "A000120",
+    "A382191",
+    "A382754"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

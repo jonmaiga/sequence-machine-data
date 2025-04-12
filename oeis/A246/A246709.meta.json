@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the seventh root of 3.",
   "id": "A246709",
   "mentions": [
+    "A010769",
     "A011267",
     "A246708"
   ],

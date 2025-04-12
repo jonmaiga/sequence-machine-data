@@ -1,0 +1,22 @@
+{
+  "description": "Number of palindromic binary strings of length n having no 4-runs of 1's.",
+  "id": "A382478",
+  "mentions": [
+    "A001590",
+    "A001630",
+    "A001631",
+    "A123231",
+    "A251653",
+    "A382479"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

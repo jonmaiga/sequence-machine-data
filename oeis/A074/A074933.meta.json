@@ -1,8 +1,11 @@
 {
   "description": "Number of integers in {1, 2, ..., 2^n} that are coprime to n.",
   "id": "A074933",
-  "mentions": [],
+  "mentions": [
+    "A000079"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

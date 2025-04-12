@@ -1,14 +1,17 @@
 {
   "description": "2n-1 primes followed by 2n composite numbers.",
   "id": "A076179",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A002808"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
+    "size": 65,
     "source": "oeis-entry"
   }
 }

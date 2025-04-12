@@ -1,0 +1,26 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,m) is the squared distance between the roots of the 2nd degree equations z^2 +- n*z + m = 0 on the complex plane.",
+  "id": "A382310",
+  "mentions": [
+    "A000290",
+    "A008586",
+    "A028347",
+    "A028566",
+    "A028884",
+    "A131098",
+    "A134594",
+    "A145917",
+    "A382311"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of king permutations on n elements without strict fixed points.",
+  "id": "A382651",
+  "mentions": [
+    "A002464",
+    "A382644",
+    "A382645"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

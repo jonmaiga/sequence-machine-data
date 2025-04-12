@@ -1,7 +1,8 @@
 {
-  "description": "Triangle read by rows: T(k,n) (k >= 0, n = 0, ..., k) = number of tilings of a k X n rectangle using 2 X 2 and 1 X 1 tiles and dominoes.",
+  "description": "Triangle read by rows: T(n,k) = number of tilings of a n X k rectangle using 2 X 2 and 1 X 1 tiles and dominoes, n >= 0, k = 0..n.",
   "id": "A352589",
   "mentions": [
+    "A000012",
     "A000045",
     "A052543",
     "A226351",
@@ -17,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

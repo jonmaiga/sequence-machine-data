@@ -1,5 +1,5 @@
 {
-  "description": "Values d for the discriminant d^2 = 4p^3 - 27q*2 of the depressed cubic equation x^3 - p*x + q = 0 that give integer roots using integer coefficients p > 0 and q > 0 for increasing p sorted by p then q.",
+  "description": "Values d for the discriminant d^2 = 4*p^3 - 27*q^2 of the depressed cubic equation x^3 - p*x + q = 0 that give integer roots using integer coefficients p > 0 and q > 0 for increasing p sorted by p then q.",
   "id": "A370308",
   "mentions": [
     "A082375"

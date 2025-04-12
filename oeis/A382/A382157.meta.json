@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-node digraphs without loops, not necessarily connected, which are squares.",
+  "id": "A382157",
+  "mentions": [
+    "A382158",
+    "A382159",
+    "A382180"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of x, where x is the smallest number for which floor(x^(phi^k)) is prime for k > 0 where phi = (1+sqrt(5))/2, assuming that Oppermann's conjecture holds.",
+  "id": "A382260",
+  "mentions": [
+    "A001622",
+    "A051021",
+    "A112597",
+    "A382261"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

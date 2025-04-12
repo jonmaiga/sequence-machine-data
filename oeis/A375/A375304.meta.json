@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,k) = Sum_{i=0..n} (-1)^i*(k!)^i*(n*k-i*k)!), 0<=k<=n.",
+  "description": "Triangle read by rows, T(n,k) = Sum_{i=0..n} (-1)^i*(k!)^i*(n*k-i*k)!, 0<=k<=n.",
   "id": "A375304",
   "mentions": [
     "A153229"

@@ -1,0 +1,21 @@
+{
+  "description": "Largest k < n such that gcd(k,n) > 1 and rad(k) does not divide n, where rad = A007947, or 0 if k does not exist.",
+  "id": "A382769",
+  "mentions": [
+    "A000961",
+    "A007947",
+    "A024619",
+    "A096014",
+    "A272619"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

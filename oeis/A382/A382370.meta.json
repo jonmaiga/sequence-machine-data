@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that (k - 1)^(k + 1) - k is prime.",
+  "id": "A382370",
+  "mentions": [
+    "A238378",
+    "A240532"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

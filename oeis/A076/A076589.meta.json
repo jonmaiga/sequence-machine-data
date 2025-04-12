@@ -2,7 +2,8 @@
   "description": "First occurrence of n as a term in the continued fraction for sqrt(Pi).",
   "id": "A076589",
   "mentions": [
-    "A032523"
+    "A032523",
+    "A058280"
   ],
   "tags": [
     "nonn"

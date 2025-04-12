@@ -1,7 +1,9 @@
 {
-  "description": "Let R = Z((1+sqrt{5})/2) denote the ring of integers in the real quadratic number field of discriminant 5. Then a(n) is the number of ways of writing a totally positive element of norm n as a sum of three squares in R, or 0 if there is no totally positive element of norm n.",
+  "description": "Let R = Z[(1+sqrt(5))/2] denote the ring of integers in the real quadratic number field of discriminant 5. Then a(n) is the largest integer k such that every totally positive element of norm n in R can be written as a sum of three squares in R in at least k ways, or 0 if there is no totally positive element of norm n.",
   "id": "A263850",
   "mentions": [
+    "A000118",
+    "A005875",
     "A031363",
     "A035187",
     "A263849"
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

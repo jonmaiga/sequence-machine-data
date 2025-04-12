@@ -1,8 +1,11 @@
 {
-  "description": "Generalized positive integers (see formula section).",
+  "description": "a(n) = Product_{k=2..n} k^ord(n, k) where ord(n, k) = 0 if k does not divide n, otherwise ord(n, k) = e where e is such that k^e divides n but k^(e + 1) does not.",
   "id": "A364813",
   "mentions": [
-    "A363838"
+    "A000027",
+    "A005451",
+    "A363838",
+    "A381885"
   ],
   "tags": [
     "formulas",

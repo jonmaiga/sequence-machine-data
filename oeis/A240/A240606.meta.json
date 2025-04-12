@@ -1,5 +1,5 @@
 {
-  "description": "Let the prime factorization of (2*n)! be 2^e_1*3^e_2*5^e_3*...; then a(n) = maximal k such that e_1, ..., e_k are all even..",
+  "description": "Let the prime factorization of (2*n)! be 2^e_1*3^e_2*5^e_3*...; then a(n) = maximal k such that e_1, ..., e_k are all even.",
   "id": "A240606",
   "mentions": [
     "A240537"

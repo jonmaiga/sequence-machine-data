@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that if a digit d in the digit stream (ignoring commas) is even, the previous digit is > d.",
+  "id": "A382621",
+  "mentions": [
+    "A342042",
+    "A382462",
+    "A382622",
+    "A382623",
+    "A382624",
+    "A382625"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

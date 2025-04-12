@@ -1,0 +1,25 @@
+{
+  "description": "The largest square dividing the n-th cubefree number.",
+  "id": "A382889",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A008833",
+    "A057521",
+    "A062503",
+    "A371188",
+    "A382888",
+    "A382890",
+    "A382891"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = count of numbers formed using the digits of next n numbers..",
+  "description": "a(n) = count of numbers formed using the digits of next n numbers.",
   "id": "A081992",
   "mentions": [
     "A081991",

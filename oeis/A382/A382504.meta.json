@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that one or both of sigma(k) + k and sigma(k) - k is a perfect number.",
+  "id": "A382504",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A237286"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

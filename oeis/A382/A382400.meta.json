@@ -1,0 +1,17 @@
+{
+  "description": "Number of subsets of Z_n such that every ordered pair of distinct elements has a different sum.",
+  "id": "A382400",
+  "mentions": [
+    "A000125",
+    "A196723",
+    "A382399"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

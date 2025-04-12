@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows (0 <= k <= n): T(n,k) = [x^k] p(x,n) where p(x,0) = 1, p(x,n) = (6 - n)*(x + 1)^n - (5 - n)*(x^n + 1) for 1 <= n <= 4, and p (x,n) = 4*(x + 1)^n - Sum_{i=0..2} (Sum_{j=0..i} binomial(n, j)*(x^j + x^(n - j))) for n >= 5.",
+  "description": "Triangle read by rows: T(n,k) = [x^k] p(x,n) where p(x,0) = 1, p(x,n) = (6 - n)*(1+x)^n - (5-n)*(1 + x^n) for 1 <= n <= 4, and p (x,n) = 4*(1+x)^n - Sum_{i=0..2} (Sum_{j=0..i} binomial(n, j)*(x^j + x^(n-j))) for n >= 5.",
   "id": "A168643",
   "mentions": [
     "A132046",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "less",
     "nonn",
     "tabl"
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

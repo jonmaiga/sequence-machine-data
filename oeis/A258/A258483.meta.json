@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that partial sums of the n-th row of the Pascal triangle (A007318) are all nonprime.",
+  "description": "Numbers n such that partial sums of the n-th row of Pascal's triangle (A007318) are all nonprime.",
   "id": "A258483",
   "mentions": [
     "A007318",

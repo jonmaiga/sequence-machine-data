@@ -1,0 +1,23 @@
+{
+  "description": "The number of exponents in the prime factorization of n-th biquadratefree number that are equal to 3.",
+  "id": "A382424",
+  "mentions": [
+    "A013662",
+    "A046100",
+    "A295883",
+    "A376366",
+    "A382422",
+    "A382423",
+    "A382425"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

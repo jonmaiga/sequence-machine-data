@@ -1,5 +1,5 @@
 {
-  "description": "Sum of leading digit in representations of n in bases 2,3,...,n.",
+  "description": "Sum of leading digits in representations of n in bases 2,3,...,n.",
   "id": "A244912",
   "mentions": [
     "A004125",

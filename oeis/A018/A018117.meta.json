@@ -1,13 +1,18 @@
 {
   "description": "Powers of fifth root of 2 rounded down.",
   "id": "A018117",
-  "mentions": [],
+  "mentions": [
+    "A017910",
+    "A017979",
+    "A018048"
+  ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 53,
+    "size": 61,
     "source": "joeis"
   }
 }

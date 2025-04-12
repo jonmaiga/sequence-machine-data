@@ -7,11 +7,12 @@
     "A078386"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 97,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

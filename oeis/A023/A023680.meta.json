@@ -2,7 +2,9 @@
   "description": "Discriminants of totally real quartic fields.",
   "id": "A023680",
   "mentions": [
-    "A002769"
+    "A002769",
+    "A023681",
+    "A023682"
   ],
   "tags": [
     "nice",
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

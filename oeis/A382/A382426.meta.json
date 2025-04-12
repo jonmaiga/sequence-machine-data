@@ -1,0 +1,38 @@
+{
+  "description": "MM-numbers of sets of constant multisets with distinct sums.",
+  "id": "A382426",
+  "mentions": [
+    "A000688",
+    "A000720",
+    "A000961",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A279786",
+    "A302242",
+    "A302492",
+    "A302494",
+    "A321469",
+    "A326534",
+    "A326535",
+    "A355743",
+    "A356065",
+    "A381635",
+    "A381636",
+    "A381716",
+    "A382201",
+    "A382203",
+    "A382215",
+    "A382304"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

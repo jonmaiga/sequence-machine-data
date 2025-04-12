@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form 2^k+3^k+...p_n^k.",
+  "description": "Numbers of the form 2^k + 3^k + ... + p_n^k.",
   "id": "A076614",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,8 @@
   "description": "Partitioning integers to avoid arithmetic progressions of length 3.",
   "id": "A006997",
   "mentions": [
-    "A005836"
+    "A005836",
+    "A100480"
   ],
   "tags": [
     "easy",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 72,
+    "size": 87,
     "source": "joeis"
   }
 }

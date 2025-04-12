@@ -2,11 +2,9 @@
   "description": "Number of non-isomorphic finite multisets that cannot be expressed as the multiset-union of a set of sets.",
   "id": "A292444",
   "mentions": [
-    "A035948",
     "A049311",
     "A089259",
     "A116540",
-    "A258939",
     "A283877",
     "A292432"
   ],
@@ -16,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

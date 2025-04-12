@@ -1,5 +1,5 @@
 {
-  "description": "Second term of strong prime quartets: prime(m+1)-prime(m) > prime(m+2)-prime(m+1) > prime(m+3)-prime(m+2)..",
+  "description": "Second term of strong prime quartets: prime(m+1)-prime(m) > prime(m+2)-prime(m+1) > prime(m+3)-prime(m+2).",
   "id": "A054805",
   "mentions": [
     "A051634",

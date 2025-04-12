@@ -1,5 +1,5 @@
 {
-  "description": "n times n+8 gives the concatenation of a number m with itself.",
+  "description": "Numbers k such that k * (k + 8) is the concatenation of a number m with itself.",
   "id": "A116292",
   "mentions": [
     "A116161",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
-    "source": "joeis"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

@@ -1,9 +1,11 @@
 {
-  "description": "Partial sum of Catalan numbers A000108 multiplied by powers of 7.",
+  "description": "Partial sum of Catalan numbers (A000108) multiplied by powers of 7.",
   "id": "A112701",
   "mentions": [
     "A000108",
-    "A112705"
+    "A000420",
+    "A112705",
+    "A156266"
   ],
   "tags": [
     "easy",

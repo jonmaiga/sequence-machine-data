@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factor of n*rad(n)+1, where rad=A007947 (squarefree kernel).",
+  "description": "Smallest prime factor of n*rad(n)+1, where rad = A007947 (squarefree kernel).",
   "id": "A078311",
   "mentions": [
     "A007947",
@@ -8,6 +8,8 @@
     "A078312"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

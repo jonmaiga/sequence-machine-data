@@ -1,5 +1,5 @@
 {
-  "description": "Minimum sum of a maximal subset of {1..n} such that every unordered pair of (not necessarily distinct) elements has a different sum.",
+  "description": "Minimum sum of a maximal subset of {1..n} such that every pair of distinct elements has a different difference.",
   "id": "A377419",
   "mentions": [
     "A325879",

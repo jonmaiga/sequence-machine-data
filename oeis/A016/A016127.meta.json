@@ -1,9 +1,10 @@
 {
-  "description": "Expansion of 1/((1-2*x)*(1-5*x)).",
+  "description": "Expansion of g.f. 1/((1-2*x)*(1-5*x)).",
   "id": "A016127",
   "mentions": [
     "A001045",
     "A002450",
+    "A005057",
     "A020989"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

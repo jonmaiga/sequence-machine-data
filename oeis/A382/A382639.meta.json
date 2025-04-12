@@ -1,0 +1,15 @@
+{
+  "description": "Initial members of prime 16-tuples containing two prime octuplets at minimum distance.",
+  "id": "A382639",
+  "mentions": [
+    "A022012"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

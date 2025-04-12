@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the universal aspect ratio, also called the magic box length ratio, L_z/L_x = L_z/L_y, for which the finite-size error of the self-diffusion coefficient vanishes.",
+  "id": "A381701",
+  "mentions": [
+    "A185576"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

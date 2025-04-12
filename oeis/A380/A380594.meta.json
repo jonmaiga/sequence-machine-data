@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the number of positive integers having 2n primitive roots.",
+  "description": "a(n) is the number of positive integers having 2*n primitive roots.",
   "id": "A380594",
   "mentions": [
     "A007617",

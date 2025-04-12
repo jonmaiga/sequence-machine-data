@@ -1,17 +1,21 @@
 {
-  "description": "Number of non-degenerate fanout-free Boolean functions of n variables.",
+  "description": "Number of non-degenerate fanout-free Boolean functions of n variables using And, Or and Not gates.",
   "id": "A224766",
   "mentions": [
+    "A005172",
     "A005640",
     "A005736",
-    "A005737"
+    "A005737",
+    "A225170",
+    "A225171"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "joeis"
+    "size": 19,
+    "source": "oeis-bfile"
   }
 }

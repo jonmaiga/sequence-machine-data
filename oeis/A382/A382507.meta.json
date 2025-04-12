@@ -1,0 +1,16 @@
+{
+  "description": "Number of half turn symmetric lattice congruences of the weak order on the symmetric group S_n.",
+  "id": "A382507",
+  "mentions": [
+    "A091687"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

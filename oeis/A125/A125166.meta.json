@@ -1,19 +1,29 @@
 {
-  "description": "Triangle, companion to A125165, left border = n^3.",
+  "description": "Triangle R(n,k), companion to A125165, left column n^3.",
   "id": "A125166",
   "mentions": [
+    "A000537",
     "A000578",
+    "A006232",
+    "A008292",
+    "A024166",
+    "A028246",
     "A050488",
-    "A125165"
+    "A097805",
+    "A101094",
+    "A125165",
+    "A257448",
+    "A382057"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 45,
-    "source": "joeis"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

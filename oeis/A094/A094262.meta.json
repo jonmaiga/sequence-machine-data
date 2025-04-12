@@ -1,15 +1,19 @@
 {
-  "description": "Triangle related to the diagonals of the triangle of Stirling numbers of the second kind A008277.",
+  "description": "Triangle read by rows: T(n,k) is the number of rooted trees with k nodes which are disjoint sets of labels with union {1..n}. If a node has an empty set of labels then it must have at least two children.",
   "id": "A094262",
   "mentions": [
+    "A000012",
     "A000217",
+    "A000918",
     "A001296",
     "A001297",
     "A001298",
-    "A008275",
+    "A005172",
+    "A005173",
+    "A005174",
+    "A005175",
     "A008277",
     "A008517",
-    "A094216",
     "A112494",
     "A134991",
     "A144969"
@@ -23,6 +27,6 @@
   "terms": {
     "offset": 1,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

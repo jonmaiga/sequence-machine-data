@@ -1,0 +1,19 @@
+{
+  "description": "The factorial base expansion of a(n) corresponds to the restricted growth sequence of that of n (when read from right to left).",
+  "id": "A382313",
+  "mentions": [
+    "A120696",
+    "A382269"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

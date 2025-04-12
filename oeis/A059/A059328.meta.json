@@ -2,7 +2,11 @@
   "description": "Table T(n,k) = T(n - 1,k) + T(n,k - 1) + T(n - 1,k)*T(n,k - 1) starting with T(0,0)=1, read by antidiagonals.",
   "id": "A059328",
   "mentions": [
-    "A007318"
+    "A000012",
+    "A000225",
+    "A007318",
+    "A126883",
+    "A306020"
   ],
   "tags": [
     "formulas",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 45,
     "source": "oeis-bfile"
   }
 }

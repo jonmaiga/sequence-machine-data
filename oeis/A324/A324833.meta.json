@@ -2,10 +2,14 @@
   "description": "Decimal expansion of eta_2, a constant related to the asymptotic density of certain sets of residues.",
   "id": "A324833",
   "mentions": [
+    "A086242",
+    "A136141",
     "A154945",
+    "A179119",
     "A324834",
     "A324835",
-    "A324836"
+    "A324836",
+    "A382554"
   ],
   "tags": [
     "cons",

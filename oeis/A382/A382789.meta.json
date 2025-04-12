@@ -1,0 +1,23 @@
+{
+  "description": "The number of prime factors of Euler phi of the n-th primorial number, counted with multiplicity.",
+  "id": "A382789",
+  "mentions": [
+    "A000010",
+    "A001222",
+    "A002110",
+    "A005867",
+    "A023508",
+    "A055768",
+    "A055769"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

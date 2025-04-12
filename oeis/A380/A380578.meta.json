@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonisomorphic groups appearing as the group of units of the ring Z/kZ for every k such that phi(k) = n.",
+  "id": "A380578",
+  "mentions": [
+    "A000010",
+    "A000688",
+    "A005277",
+    "A007617",
+    "A014197",
+    "A049283",
+    "A057635"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

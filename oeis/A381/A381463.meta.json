@@ -1,0 +1,16 @@
+{
+  "description": "Limiting sequence of the possible number of inversions in stable configurations of 4^n-1 chips in a chip firing-game directed 4-ary tree resulting from a permutation-based strategy of firing chips",
+  "id": "A381463",
+  "mentions": [
+    "A376116",
+    "A381462"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

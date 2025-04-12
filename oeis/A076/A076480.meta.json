@@ -1,5 +1,5 @@
 {
-  "description": "n + mu(rad(n)), where mu is the Moebius-function (A008683) and rad is the squarefree kernel (A007947).",
+  "description": "a(n) = n + mu(rad(n)), where mu is the Moebius function (A008683) and rad is the squarefree kernel (A007947).",
   "id": "A076480",
   "mentions": [
     "A007947",
@@ -7,11 +7,13 @@
     "A076479"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

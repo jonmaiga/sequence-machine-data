@@ -1,0 +1,21 @@
+{
+  "description": "Concatenate sum and product of decimal digits of n.",
+  "id": "A380873",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A062237",
+    "A271220",
+    "A271268",
+    "A380872"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

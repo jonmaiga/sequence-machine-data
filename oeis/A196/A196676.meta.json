@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-8x)/(1-25x).",
+  "description": "Expansion of g.f. (1-8*x)/(1-25*x).",
   "id": "A196676",
   "mentions": [
     "A002001",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 16,
+    "size": 19,
     "source": "joeis"
   }
 }

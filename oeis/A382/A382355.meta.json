@@ -1,0 +1,21 @@
+{
+  "description": "A version of the Josephus problem: a(n) is the surviving integer under the skip-eliminate-skip version of the elimination process.",
+  "id": "A382355",
+  "mentions": [
+    "A006257",
+    "A225381",
+    "A321298",
+    "A378635",
+    "A382354",
+    "A382356",
+    "A382358"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

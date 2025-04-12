@@ -1,10 +1,14 @@
 {
-  "description": "p(p+1)(2p+1) where p is the n-th prime.",
+  "description": "a(n) = p*(p + 1)*(2*p + 1) where p is the n-th prime.",
   "id": "A098996",
   "mentions": [
-    "A034953"
+    "A034953",
+    "A367573",
+    "A382070",
+    "A382097"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

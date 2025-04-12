@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/( 1 - Sum_{k>=0} x^(3^k) / (1 - x^(3^k)) ).",
+  "id": "A382367",
+  "mentions": [
+    "A051064",
+    "A327736",
+    "A382368",
+    "A382369",
+    "A382372",
+    "A382373",
+    "A382378"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

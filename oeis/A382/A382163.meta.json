@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic Kaprekar numbers.",
+  "id": "A382163",
+  "mentions": [
+    "A002113",
+    "A006886",
+    "A382164"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

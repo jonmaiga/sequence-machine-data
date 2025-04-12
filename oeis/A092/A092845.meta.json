@@ -2,15 +2,18 @@
   "description": "A011545(n) reversed.",
   "id": "A092845",
   "mentions": [
+    "A000796",
+    "A004086",
     "A011545"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "joeis"
   }
 }

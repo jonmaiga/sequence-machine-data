@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp( x/(1-3*x)^(5/3) ).",
+  "id": "A382652",
+  "mentions": [
+    "A362188",
+    "A362205",
+    "A382643"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

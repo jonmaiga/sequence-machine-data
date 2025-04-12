@@ -1,7 +1,9 @@
 {
   "description": "Number of permutations of length n with spread 0.",
   "id": "A004204",
-  "mentions": [],
+  "mentions": [
+    "A147679"
+  ],
   "tags": [
     "nonn"
   ],

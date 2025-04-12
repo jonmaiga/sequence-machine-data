@@ -1,16 +1,16 @@
 {
-  "description": "Expansion of (1-6x)/(1-19x).",
+  "description": "Expansion of g.f. (1-6*x)/(1-19*x).",
   "id": "A196665",
   "mentions": [
     "A002001",
     "A193722",
-    "A196660",
     "A196661",
     "A196662",
     "A196663",
     "A196664"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

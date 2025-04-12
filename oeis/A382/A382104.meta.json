@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the weight factor for Legendre-Gauss quadrature corresponding to abscissa A372268.",
+  "id": "A382104",
+  "mentions": [
+    "A000007",
+    "A010513",
+    "A010716",
+    "A020760",
+    "A372267",
+    "A372268",
+    "A382103"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 90*binomial(n,6) + 18*binomial(n,4) + 3*binomial(n,2) + 1.",
+  "id": "A382084",
+  "mentions": [
+    "A382081"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "a(n) = Sum_{p|n} p^pi(p).",
+  "description": "a(n) = Sum_{p|n, p prime} p^pi(p).",
   "id": "A345299",
   "mentions": [
     "A000720",
+    "A010051",
     "A066328"
   ],
   "tags": [

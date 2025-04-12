@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the elliptic curve X_0^{+}(p) has genus 2.",
+  "id": "A382149",
+  "mentions": [
+    "A382150"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

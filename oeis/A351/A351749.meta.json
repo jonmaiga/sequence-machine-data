@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{p|n, p prime} sigma_p(p).",
   "id": "A351749",
   "mentions": [
+    "A010051",
     "A023887"
   ],
   "tags": [

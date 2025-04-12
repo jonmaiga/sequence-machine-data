@@ -1,0 +1,24 @@
+{
+  "description": "Fractalization of the golden ratio.",
+  "id": "A382130",
+  "mentions": [
+    "A001622",
+    "A003602",
+    "A110766",
+    "A110779",
+    "A110812",
+    "A382128",
+    "A382129"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

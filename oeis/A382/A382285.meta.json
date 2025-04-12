@@ -1,0 +1,15 @@
+{
+  "description": "Initial members of prime octuplets (p, p+4, p+12, p+24, p+28, p+40, p+48, p+52), where all primes are consecutive primes.",
+  "id": "A382285",
+  "mentions": [
+    "A022012"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

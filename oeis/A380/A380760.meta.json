@@ -1,7 +1,8 @@
 {
-  "description": "Integers with at least one proper factorization for which the sum of the same fixed integer power >= 2 of the factors equals that number.",
+  "description": "Integers k with at least one proper factorization for which the sum of the same fixed integer power >= 2 of the factors equals k.",
   "id": "A380760",
   "mentions": [
+    "A162247",
     "A372053",
     "A380902",
     "A381538"

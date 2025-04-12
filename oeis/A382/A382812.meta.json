@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the n-th partial sum of the squares of the harmonic numbers.",
+  "id": "A382812",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A027611",
+    "A027612",
+    "A382813"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

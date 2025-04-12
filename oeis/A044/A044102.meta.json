@@ -2,7 +2,9 @@
   "description": "Multiples of 36.",
   "id": "A044102",
   "mentions": [
+    "A005843",
     "A008588",
+    "A008600",
     "A033183",
     "A122841",
     "A135631",
@@ -10,14 +12,13 @@
     "A174312"
   ],
   "tags": [
-    "base",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 48,
+    "size": 49,
     "source": "joeis"
   }
 }

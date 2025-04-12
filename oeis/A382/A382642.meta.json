@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(n,k) * binomial(n+k,k))^2 * 2^(n-k).",
+  "id": "A382642",
+  "mentions": [
+    "A001850",
+    "A005259",
+    "A069835",
+    "A382405"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

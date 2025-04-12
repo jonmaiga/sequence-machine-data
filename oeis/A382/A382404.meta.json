@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = -Sum_{k=0..n} (-1)^k * A039599(n,k)^3.",
+  "id": "A382404",
+  "mentions": [
+    "A039599"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

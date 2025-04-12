@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least number that has exactly n 3-smooth divisors.",
+  "id": "A382492",
+  "mentions": [
+    "A003586",
+    "A005179",
+    "A025487",
+    "A037143",
+    "A046022",
+    "A072078",
+    "A382493"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

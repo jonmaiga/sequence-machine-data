@@ -2,12 +2,15 @@
   "description": "a(n) is the greatest sum of the digital roots of the individual factorizations of n.",
   "id": "A347105",
   "mentions": [
+    "A000040",
     "A001055",
     "A007953",
+    "A038194",
     "A162247"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Number of active (ON, black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by \"Rule 657\", based on the 5-celled von Neumann neighborhood.",
   "id": "A273335",
   "mentions": [
+    "A271061",
     "A273334"
   ],
   "tags": [

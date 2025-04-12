@@ -1,9 +1,10 @@
 {
-  "description": "Second center column of elementary triangular automaton rule 210, from a lone 1 cell.",
+  "description": "Second center column of elementary triangular automaton rule 210, starting from a lone 1 cell.",
   "id": "A374413",
   "mentions": [
     "A372581",
-    "A374769"
+    "A374769",
+    "A380172"
   ],
   "tags": [
     "nonn"

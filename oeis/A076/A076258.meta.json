@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2*sum(k=1,n, A076213(k)) - n.",
+  "description": "a(n) = 2 * Sum_{k=1..n} A076213(k) - n.",
   "id": "A076258",
   "mentions": [
     "A005132",

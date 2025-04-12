@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k where record values occur for A129132(k)/k = A380264(k)/A380265(k), the mean value of the maximum exponent in the prime factorization of the numbers {1, 2, ..., k}.",
+  "id": "A382475",
+  "mentions": [
+    "A033150",
+    "A051903",
+    "A129132",
+    "A380264",
+    "A380265",
+    "A382476"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

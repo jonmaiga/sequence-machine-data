@@ -1,0 +1,17 @@
+{
+  "description": "Centered pentagonal numbers which are the products of four distinct primes.",
+  "id": "A382451",
+  "mentions": [
+    "A005891",
+    "A046386",
+    "A364610"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

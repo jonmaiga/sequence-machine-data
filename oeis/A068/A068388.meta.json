@@ -2,7 +2,9 @@
   "description": "Engel expansion of sqrt(3/2).",
   "id": "A068388",
   "mentions": [
-    "A006784"
+    "A006784",
+    "A115754",
+    "A382713"
   ],
   "tags": [
     "nonn"

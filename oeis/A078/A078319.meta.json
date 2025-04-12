@@ -1,5 +1,5 @@
 {
-  "description": "Sum of distinct prime factors of n*rad(n)+1, where rad=A007947 (squarefree kernel).",
+  "description": "Sum of distinct prime factors of n*rad(n)+1, where rad = A007947 (squarefree kernel).",
   "id": "A078319",
   "mentions": [
     "A007947",
@@ -10,6 +10,8 @@
     "A078320"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

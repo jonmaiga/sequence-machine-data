@@ -1,0 +1,19 @@
+{
+  "description": "Limit of the trajectory of n under A380873: concatenate sum and product of digits, if it ends on a fixed point, otherwise the least element of the limit cycle.",
+  "id": "A380871",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A062237",
+    "A380872",
+    "A380873"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

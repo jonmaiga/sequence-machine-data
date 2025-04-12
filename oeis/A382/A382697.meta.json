@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of 195^(1/7).",
+  "id": "A382697",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1/( 1 - x * (1+x)^2 * A(x) )^3.",
+  "id": "A382886",
+  "mentions": [
+    "A073155",
+    "A378786",
+    "A382406",
+    "A382893"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

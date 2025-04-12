@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 3+5 0..n arrays with no three disjoint pairs in any consecutive six terms having the same sum",
+  "description": "Number of length 3+5 0..n arrays with no three disjoint pairs in any consecutive six terms having the same sum.",
   "id": "A248451",
   "mentions": [
     "A248448"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

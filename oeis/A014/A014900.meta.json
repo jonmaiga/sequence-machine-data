@@ -1,14 +1,17 @@
 {
-  "description": "a(1)=1, a(n)=17*a(n-1)+n.",
+  "description": "a(1)=1, a(n) = 17*a(n-1) + n.",
   "id": "A014900",
-  "mentions": [],
+  "mentions": [
+    "A126885"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 19,
     "source": "oeis-bfile"
   }
 }

@@ -2,9 +2,11 @@
   "description": "a(n) = 36*n - 6.",
   "id": "A209876",
   "mentions": [
+    "A016969",
     "A183010"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

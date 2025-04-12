@@ -1,0 +1,20 @@
+{
+  "description": "Nonprime-powers k such that, for any prime p dividing k and m = 1+floor(log k/log p), rad(p^m (mod k)) divides k, where rad = A007947.",
+  "id": "A381750",
+  "mentions": [
+    "A000961",
+    "A007947",
+    "A024619",
+    "A139257",
+    "A381525",
+    "A381799"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

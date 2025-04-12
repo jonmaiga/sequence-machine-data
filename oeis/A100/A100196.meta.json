@@ -1,10 +1,12 @@
 {
-  "description": "Numbers of positive integer cubes <= n^2.",
+  "description": "Number of positive integer cubes <= n^2.",
   "id": "A100196",
   "mentions": [
     "A000196",
     "A054846",
     "A062108",
+    "A077106",
+    "A077113",
     "A100197"
   ],
   "tags": [

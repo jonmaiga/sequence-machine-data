@@ -1,7 +1,9 @@
 {
   "description": "Numbers that are not the sum of 2 cubes and a triangular number.",
   "id": "A014158",
-  "mentions": [],
+  "mentions": [
+    "A014157"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which A065642(n) = A285109(n).",
+  "description": "Numbers k for which A065642(k) = A285109(k).",
   "id": "A285100",
   "mentions": [
     "A000961",

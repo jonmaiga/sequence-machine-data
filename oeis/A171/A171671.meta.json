@@ -1,19 +1,22 @@
 {
-  "description": "Square numbers not of form n + sum of digits of n.",
+  "description": "Square numbers not of form m + sum of digits of m.",
   "id": "A171671",
   "mentions": [
+    "A000290",
     "A003052",
     "A062028",
     "A171672",
-    "A171673"
+    "A171673",
+    "A382166"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

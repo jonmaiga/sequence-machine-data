@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} 1/((p - 1)^2*p).",
+  "id": "A382552",
+  "mentions": [
+    "A086242",
+    "A136141"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

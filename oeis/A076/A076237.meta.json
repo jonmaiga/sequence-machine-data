@@ -1,5 +1,5 @@
 {
-  "description": "Remainder when 2nd order composite cc[n]=A050435[n] is divided by n.",
+  "description": "a(n) = A050435(n) mod n.",
   "id": "A076237",
   "mentions": [
     "A002808",

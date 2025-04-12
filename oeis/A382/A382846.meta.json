@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 4 - Pi^2/4 - 2*log(2).",
+  "id": "A382846",
+  "mentions": [
+    "A016627",
+    "A091476"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

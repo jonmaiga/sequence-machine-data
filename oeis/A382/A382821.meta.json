@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (3/2) * (log(3) - 1).",
+  "id": "A382821",
+  "mentions": [
+    "A016627",
+    "A016631",
+    "A093064",
+    "A145425"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

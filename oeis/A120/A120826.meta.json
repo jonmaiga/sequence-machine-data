@@ -1,5 +1,5 @@
 {
-  "description": "Primes with n consecutive digits ascending beginning with the digit eight.",
+  "description": "a(n) consecutive digits ascending beginning with the digit 8 give a prime.",
   "id": "A120826",
   "mentions": [
     "A006055",
@@ -14,13 +14,13 @@
   ],
   "tags": [
     "base",
-    "bref",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 3,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

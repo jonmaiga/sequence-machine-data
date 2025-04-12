@@ -1,12 +1,14 @@
 {
-  "description": "Number of (interiors of) cells touched by a diagonal in a regular m X n grid (enumerated antidiagonally).",
+  "description": "Number of (interiors of) cells touched by a diagonal in a regular n X k grid (enumerated antidiagonally).",
   "id": "A074712",
   "mentions": [
+    "A050873",
     "A199408"
   ],
   "tags": [
     "easy",
     "formulas",
+    "look",
     "nonn",
     "tabl"
   ],

@@ -1,0 +1,18 @@
+{
+  "description": "Area of the Pythagoras Tree.",
+  "id": "A382280",
+  "mentions": [
+    "A276647",
+    "A276677"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

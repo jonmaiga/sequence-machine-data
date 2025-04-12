@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of relative frequency of number of ones in binary representation of n.",
+  "description": "Numerator of relative frequency of number of ones in the binary representation of n.",
   "id": "A099245",
   "mentions": [
     "A000120",
@@ -9,6 +9,7 @@
     "A099246"
   ],
   "tags": [
+    "base",
     "formulas",
     "frac",
     "nonn"

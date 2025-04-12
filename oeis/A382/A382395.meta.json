@@ -1,0 +1,20 @@
+{
+  "description": "Number of maximum sized subsets of {1..n} such that every pair of distinct elements has a different difference.",
+  "id": "A382395",
+  "mentions": [
+    "A143823",
+    "A143824",
+    "A325879",
+    "A377410",
+    "A382396",
+    "A382398"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

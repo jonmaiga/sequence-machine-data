@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{j=1..floor(log[k](n))} floor(n / k^j) if k >= 2, T(n, 1) = n, T(n, 0) = 0^n.",
+  "id": "A381886",
+  "mentions": [
+    "A011371",
+    "A027868",
+    "A054861",
+    "A054893",
+    "A054895",
+    "A054896",
+    "A054897",
+    "A054898",
+    "A078567",
+    "A078632",
+    "A078651",
+    "A153216",
+    "A366471"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

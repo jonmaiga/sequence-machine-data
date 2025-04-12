@@ -1,5 +1,5 @@
 {
-  "description": "Arithmetic derivative of squares of prime powers: a(n)=A003415(A056798(n)).",
+  "description": "Arithmetic derivative of squares of prime powers: a(n) = A003415(A056798(n)).",
   "id": "A192083",
   "mentions": [
     "A001787",

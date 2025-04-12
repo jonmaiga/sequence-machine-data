@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least number whose fifth power is an n-digit fifth power which has the maximum sum of digits（A374025(n)).",
+  "description": "a(n) is the least number whose fifth power is an n-digit fifth power which has the maximum sum of digits (A374025(n)).",
   "id": "A379650",
   "mentions": [
     "A000584",

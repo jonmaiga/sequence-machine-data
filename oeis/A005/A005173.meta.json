@@ -1,10 +1,11 @@
 {
-  "description": "Number of trees of subsets of an n-set.",
+  "description": "Number of rooted trees with 3 nodes of disjoint sets of labels with union {1..n}. If a node has an empty set of labels then it must have at least two children.",
   "id": "A005173",
   "mentions": [
     "A000051",
     "A003063",
-    "A005172"
+    "A005172",
+    "A094262"
   ],
   "tags": [
     "easy",
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "joeis"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

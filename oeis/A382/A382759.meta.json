@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected components of the graph encoded by A382754(n).",
+  "id": "A382759",
+  "mentions": [
+    "A000088",
+    "A382192",
+    "A382754"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

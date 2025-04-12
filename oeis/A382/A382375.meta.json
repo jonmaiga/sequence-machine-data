@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the number of prime factors counted with multiplicity of n and a(n) differ exactly by one.",
+  "id": "A382375",
+  "mentions": [
+    "A001222",
+    "A382374",
+    "A382377"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

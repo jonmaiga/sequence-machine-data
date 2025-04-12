@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A382155.",
+  "id": "A382156",
+  "mentions": [
+    "A319384",
+    "A382154",
+    "A382155"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

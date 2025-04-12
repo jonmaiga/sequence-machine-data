@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the smallest prime q such that q + prime(n) is of form 10^k or 2*10^k, or 0 if no such prime exists.",
+  "id": "A382035",
+  "mentions": [
+    "A191474"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

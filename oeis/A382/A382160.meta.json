@@ -1,0 +1,17 @@
+{
+  "description": "Kaprekar numbers according to the definition in A006886 that are not in A053816.",
+  "id": "A382160",
+  "mentions": [
+    "A006886",
+    "A053816"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,12 +1,13 @@
 {
-  "description": "Counts the ways to write 0 as 1 +- 2 +- 3 +- 4 +- ... +- k for some k, where signs alternate except that there is one instance of two consecutive positive terms.",
+  "description": "Irregular triangle read by rows of ways to write 0 as 1 +- 2 +- 3 +- 4 +- ... +- k for some k, where signs alternate except that there is one instance of two consecutive positive terms.",
   "id": "A076645",
   "mentions": [],
   "tags": [
-    "sign"
+    "sign",
+    "tabf"
   ],
   "terms": {
-    "offset": 3,
+    "offset": 1,
     "size": 89,
     "source": "oeis-entry"
   }

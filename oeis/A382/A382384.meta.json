@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum connected dominating sets in the n-Goldberg graph.",
+  "id": "A382384",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

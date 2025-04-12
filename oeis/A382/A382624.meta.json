@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers such that every even digit except the leftmost is immediately preceded by a larger digit.",
+  "id": "A382624",
+  "mentions": [
+    "A377912",
+    "A382465",
+    "A382621",
+    "A382623"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "(3*11^n-1)/2.",
+  "description": "a(n) = (3*11^n - 1)/2.",
   "id": "A199018",
-  "mentions": [],
+  "mentions": [
+    "A199019"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

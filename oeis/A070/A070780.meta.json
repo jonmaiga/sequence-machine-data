@@ -1,5 +1,5 @@
 {
-  "description": "Binomial((n+1)^2,n).",
+  "description": "a(n) = binomial((n+1)^2,n).",
   "id": "A070780",
   "mentions": [],
   "tags": [

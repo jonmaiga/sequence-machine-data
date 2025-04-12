@@ -1,11 +1,12 @@
 {
-  "description": "Primes that cannot be written as 1+p+p^k, p prime and k>0.",
+  "description": "Primes that cannot be written as 1+p+p^k, p prime and k > 0.",
   "id": "A084445",
   "mentions": [
     "A084440",
     "A084441"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

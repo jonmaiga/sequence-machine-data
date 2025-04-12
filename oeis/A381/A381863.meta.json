@@ -1,0 +1,18 @@
+{
+  "description": "Number of triples of triangles that are pairwise edge-disjoint in the complete graph K_n.",
+  "id": "A381863",
+  "mentions": [
+    "A054647",
+    "A381862"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

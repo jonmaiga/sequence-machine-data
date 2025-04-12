@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that n^2 is not of form (k + sum of digits of k).",
+  "description": "Numbers m with property that m^2 is not of form (k + sum of digits of k).",
   "id": "A171672",
   "mentions": [
     "A003052",
@@ -9,11 +9,12 @@
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

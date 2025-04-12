@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(area) for the area of ​​the largest square that can be inscribed in the n-th Pythagorean triangle, with one side of the square on the hypotenuse of the triangle, for Pythagorean triangles ordered first by increasing perimeter, then by shorter leg.",
+  "description": "a(n) = floor(area) for the area of the largest square that can be inscribed in the n-th Pythagorean triangle, with one side of the square on the hypotenuse of the triangle, for Pythagorean triangles ordered first by increasing perimeter, then by shorter leg.",
   "id": "A374597",
   "mentions": [
     "A376608"

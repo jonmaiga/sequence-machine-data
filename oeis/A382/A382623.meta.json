@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers that contain an even digit d immediately preceded by a digit <= d.",
+  "id": "A382623",
+  "mentions": [
+    "A347298",
+    "A382464",
+    "A382621",
+    "A382624"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

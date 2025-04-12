@@ -1,7 +1,11 @@
 {
   "description": "a(n) is the smallest m such that the integer part of the first n powers of m^(1/n) are primes.",
   "id": "A086758",
-  "mentions": [],
+  "mentions": [
+    "A063636",
+    "A076255",
+    "A076357"
+  ],
   "tags": [
     "formulas",
     "nonn"

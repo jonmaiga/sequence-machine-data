@@ -2,19 +2,22 @@
   "description": "Decimal expansion of Cp(1), the molar specific heat of an atomic ideal gas at constant pressure.",
   "id": "A272002",
   "mentions": [
-    "A081822",
+    "A070064",
     "A272001",
-    "A272003"
+    "A272003",
+    "A272004",
+    "A272005"
   ],
   "tags": [
     "cons",
+    "fini",
     "formulas",
-    "more",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 9,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

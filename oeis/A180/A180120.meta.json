@@ -1,5 +1,5 @@
 {
-  "description": "Positions of records of the Sprague-Grundy values of Grundy's Game.",
+  "description": "Indices of record high-points in the sequence of Sprague-Grundy values for Grundy's game.",
   "id": "A180120",
   "mentions": [
     "A002188",

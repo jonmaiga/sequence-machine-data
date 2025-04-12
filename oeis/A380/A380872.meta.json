@@ -1,0 +1,23 @@
+{
+  "description": "Infinite square array, where row r >= 0 is the orbit of r under the map A380873: concatenate(sum of digits, product of digits).",
+  "id": "A380872",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A062237",
+    "A271220",
+    "A271268",
+    "A380873"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

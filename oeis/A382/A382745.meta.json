@@ -1,0 +1,20 @@
+{
+  "description": "If k appears, 7*k does not.",
+  "id": "A382745",
+  "mentions": [
+    "A003159",
+    "A007417",
+    "A382744",
+    "A382746"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

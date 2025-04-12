@@ -2,8 +2,10 @@
   "description": "Numbers such that the digital sums in base 2, base 4 and base 8 are all equal.",
   "id": "A135124",
   "mentions": [
+    "A000695",
     "A007088",
     "A007953",
+    "A033045",
     "A037308",
     "A054899",
     "A131451",
@@ -16,6 +18,7 @@
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

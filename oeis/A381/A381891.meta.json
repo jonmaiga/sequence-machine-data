@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the number of partitions of a 2-colored set into at most k parts with 0 <= k <= n.",
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of a 2-colored set of n objects into at most k parts with 0 <= k <= n.",
   "id": "A381891",
   "mentions": [
     "A005380",

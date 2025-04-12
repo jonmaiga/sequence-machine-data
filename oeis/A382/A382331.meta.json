@@ -1,0 +1,24 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = -Sum ((-1)^k_j * p_j).",
+  "id": "A382331",
+  "mentions": [
+    "A001414",
+    "A008472",
+    "A316523",
+    "A332422",
+    "A332423",
+    "A332424",
+    "A340901",
+    "A366749"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

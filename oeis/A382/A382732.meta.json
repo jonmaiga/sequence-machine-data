@@ -1,0 +1,17 @@
+{
+  "description": "Number of proper hypercubic bipartitions of n.",
+  "id": "A382732",
+  "mentions": [
+    "A000788",
+    "A382733"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

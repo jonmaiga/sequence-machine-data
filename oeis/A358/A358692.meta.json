@@ -1,5 +1,5 @@
 {
-  "description": "Gilbreath transform of primes p(2k) with 2 prefixed; see Comments.",
+  "description": "Gilbreath transform of primes p(2*k) with 2 prefixed; see Comments.",
   "id": "A358692",
   "mentions": [
     "A031215",

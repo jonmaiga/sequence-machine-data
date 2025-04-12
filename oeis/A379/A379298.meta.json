@@ -1,0 +1,23 @@
+{
+  "description": "Largest number k for which k^2 is n digits long and has the maximum sum of digits possible for such a square (A371728(n)).",
+  "id": "A379298",
+  "mentions": [
+    "A348303",
+    "A371728",
+    "A380052",
+    "A380193",
+    "A380566",
+    "A380797"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

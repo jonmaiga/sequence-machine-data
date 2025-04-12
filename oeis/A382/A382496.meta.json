@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} (k+1) * binomial(2*k,2*n-6*k).",
+  "id": "A382496",
+  "mentions": [
+    "A034839",
+    "A375470",
+    "A381421",
+    "A382300"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

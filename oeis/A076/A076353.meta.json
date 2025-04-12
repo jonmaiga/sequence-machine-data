@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sum(k=1,n,d(k)) is an integer, where d(k) is the decimal fraction 0.floor(sqrt(k)) (e.g. d(16)=0.4).",
+  "description": "Numbers n such that Sum_{k=1..n} d(k) is an integer, where d(k) is the decimal fraction 0.floor(sqrt(k)) (e.g. d(16)=0.4).",
   "id": "A076353",
   "mentions": [],
   "tags": [

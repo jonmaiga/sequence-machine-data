@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: number of partitions of n into distinct and consecutive parts with largest part k (n >= 1, 1 <= k <= n)..",
+  "description": "Triangle read by rows: number of partitions of n into distinct and consecutive parts with largest part k (n >= 1, 1 <= k <= n).",
   "id": "A321016",
   "mentions": [
     "A001227",

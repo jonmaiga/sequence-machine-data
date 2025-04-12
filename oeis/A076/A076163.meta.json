@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that absolute values of p minus sum of squares of digits of p is also prime.",
+  "description": "Primes p such that the absolute value of p minus the sum of squares of digits of p is also prime.",
   "id": "A076163",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 43,
     "source": "oeis-bfile"
   }
 }

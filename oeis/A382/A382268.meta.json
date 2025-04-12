@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that a right triangle can be formed from a chain of linked rods of lengths 1, 2, 3, ..., k, with the perimeter equal to the total length.",
+  "id": "A382268",
+  "mentions": [
+    "A000217",
+    "A005279",
+    "A010814",
+    "A380867",
+    "A380868",
+    "A380875"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

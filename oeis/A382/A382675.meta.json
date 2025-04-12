@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 4 - 15 * 2^n + 12 * 3^n.",
+  "id": "A382675",
+  "mentions": [
+    "A382673"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

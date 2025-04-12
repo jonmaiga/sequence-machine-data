@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least q>0 such that abs(p^2/q^2 - n)<=1/4 for a suitable integer p.",
+  "id": "A377822",
+  "mentions": [
+    "A000290",
+    "A002522"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

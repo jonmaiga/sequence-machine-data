@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum dominating sets in the n X n zebra graph.",
+  "id": "A382387",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

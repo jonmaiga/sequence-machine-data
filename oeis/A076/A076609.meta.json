@@ -2,7 +2,8 @@
   "description": "Palindromic numbers with prime middle digit.",
   "id": "A076609",
   "mentions": [
-    "A032350"
+    "A032350",
+    "A056525"
   ],
   "tags": [
     "base",

@@ -1,8 +1,10 @@
 {
-  "description": "Sprague-Grundy values for Grundy's game.",
+  "description": "Sprague-Grundy value for Grundy's game when starting with n tokens.",
   "id": "A002188",
   "mentions": [
-    "A036685"
+    "A036685",
+    "A180120",
+    "A180121"
   ],
   "tags": [
     "easy",

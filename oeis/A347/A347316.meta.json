@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows: T(n,k) = number of times k appears in n-th row of A342585, n >= 0..",
+  "description": "Irregular triangle read by rows: T(n,k) = number of times k appears in n-th row of A342585, n >= 0.",
   "id": "A347316",
   "mentions": [
     "A342585",

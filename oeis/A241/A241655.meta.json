@@ -1,5 +1,5 @@
 {
-  "description": "Number of partitions p of n such that 2*(number of even numbers in p) = (number of odd numbers in p).",
+  "description": "Number of partitions p of n such that 2*(number of even numbers in p) > (number of odd numbers in p).",
   "id": "A241655",
   "mentions": [
     "A000041",

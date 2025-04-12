@@ -2,6 +2,7 @@
   "description": "Primes that remain prime when a single \"1\" digit is inserted between any two adjacent digits.",
   "id": "A349636",
   "mentions": [
+    "A002476",
     "A069246",
     "A215417",
     "A217044",

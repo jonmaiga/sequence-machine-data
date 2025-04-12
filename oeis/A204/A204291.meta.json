@@ -2,7 +2,9 @@
   "description": "G.f.: Sum_{n>=1} moebius(n)*x^n/(1 - Lucas(n)*x^n + (-1)^n*x^(2*n)), where Lucas(n) = A000204(n).",
   "id": "A204291",
   "mentions": [
+    "A000045",
     "A000204",
+    "A008683",
     "A203847"
   ],
   "tags": [

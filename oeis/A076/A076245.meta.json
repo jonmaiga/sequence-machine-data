@@ -1,5 +1,5 @@
 {
-  "description": "Numbers at which values of A051547 increase.",
+  "description": "Positions of records in A051547.",
   "id": "A076245",
   "mentions": [
     "A003418",

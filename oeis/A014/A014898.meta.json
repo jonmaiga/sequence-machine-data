@@ -1,7 +1,9 @@
 {
   "description": "a(1)=1, a(n) = 15*a(n-1) + n.",
   "id": "A014898",
-  "mentions": [],
+  "mentions": [
+    "A126885"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

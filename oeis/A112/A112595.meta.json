@@ -1,5 +1,5 @@
 {
-  "description": "Sequence of numerators of the continued fraction derived from the sequence of the number of distinct factors of a number (A001221, also called omega (n)).",
+  "description": "Sequence of numerators of the continued fraction derived from the sequence of the number of distinct factors of a number (A001221, also called omega(n)).",
   "id": "A112595",
   "mentions": [
     "A001221",

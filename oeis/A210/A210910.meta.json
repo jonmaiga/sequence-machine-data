@@ -1,8 +1,9 @@
 {
-  "description": "Number of n X n 0..2 symmetric matrices with every element equal to zero, two or three horizontal and vertical neighbors, and new values 0..2 introduced in lower triangle row major order",
+  "description": "Number of n X n 0..2 symmetric matrices with every element equal to zero, two, three or four horizontal and vertical neighbors, and new values 0..2 introduced in lower triangle row major order.",
   "id": "A210910",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

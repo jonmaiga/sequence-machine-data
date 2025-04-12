@@ -1,15 +1,19 @@
 {
-  "description": "Smallest number a[n] > n such that a[n]! contains n! as a substring.",
+  "description": "Smallest number a(n) > n such that a(n)! contains n! as a substring.",
   "id": "A086654",
-  "mentions": [],
+  "mentions": [
+    "A004154"
+  ],
   "tags": [
     "base",
+    "formulas",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

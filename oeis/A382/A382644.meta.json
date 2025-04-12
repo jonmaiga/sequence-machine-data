@@ -1,0 +1,19 @@
+{
+  "description": "Number of king permutations on n elements not beginning with the smallest element.",
+  "id": "A382644",
+  "mentions": [
+    "A001266",
+    "A002464",
+    "A382645"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

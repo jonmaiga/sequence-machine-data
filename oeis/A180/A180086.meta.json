@@ -1,5 +1,5 @@
 {
-  "description": "Sum of previous terms divided by their distance from n",
+  "description": "Sum of n and floor of each previous term divided by its distance from n.",
   "id": "A180086",
   "mentions": [],
   "tags": [
@@ -7,8 +7,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 35,
+    "offset": 1,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

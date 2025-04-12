@@ -1,13 +1,14 @@
 {
-  "description": "Numbers of the form : k=k^n-n^k, (k=4).",
+  "description": "b(n) rounded towards zero, where b(0) = 4 and b(n) = b(n-1)^n - n^b(n-1) for n > 0.",
   "id": "A143783",
   "mentions": [],
   "tags": [
+    "less",
     "sign"
   ],
   "terms": {
-    "offset": 1,
-    "size": 6,
+    "offset": 0,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

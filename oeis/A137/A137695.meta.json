@@ -1,5 +1,5 @@
 {
-  "description": "Tower of Hanoi with p pegs: Number of moves needed for n disks, using Frame's or Stewart's algorithm (formatted as upper right triangle).",
+  "description": "Tower of Hanoi with p pegs: A(p,n) = number of moves needed for n disks, using Frame's or Stewart's algorithm, read by columns of the upper right triangle of rows p >= 3, columns n >= p-2.",
   "id": "A137695",
   "mentions": [
     "A000225",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

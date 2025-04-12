@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 1/6 + Pi/(12*sqrt(3)) - log(3)/4.",
+  "id": "A382884",
+  "mentions": [
+    "A187832",
+    "A382854"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

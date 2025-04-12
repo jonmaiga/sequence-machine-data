@@ -1,10 +1,13 @@
 {
-  "description": "Numbers n such that A068340(n)=+/-10.",
+  "description": "Numbers n such that A068340(n) = +-10.",
   "id": "A076599",
   "mentions": [
     "A068340",
     "A076542",
-    "A077030"
+    "A077030",
+    "A077031",
+    "A077032",
+    "A077033"
   ],
   "tags": [
     "easy",

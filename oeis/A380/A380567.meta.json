@@ -2,7 +2,6 @@
   "description": "a(n) = k the least number for which k^6 is n digits long and the sum of digits of k^6 is the maximum possible for a 6th power of that length (A373994(n)).",
   "id": "A380567",
   "mentions": [
-    "A370522",
     "A373994",
     "A379650",
     "A379869",

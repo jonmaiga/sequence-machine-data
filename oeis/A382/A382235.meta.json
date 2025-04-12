@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the multiple prime zeta value primezetamult(3, 3).",
+  "id": "A382235",
+  "mentions": [
+    "A085541",
+    "A085966",
+    "A258987",
+    "A382234",
+    "A382236"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

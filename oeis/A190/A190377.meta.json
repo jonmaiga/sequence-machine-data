@@ -2,6 +2,7 @@
   "description": "Numbers with prime factorization p^2*q^2*r^2*s^2 where p, q, r, and s are distinct primes.",
   "id": "A190377",
   "mentions": [
+    "A046386",
     "A085548",
     "A085964",
     "A085966",

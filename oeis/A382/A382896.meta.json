@@ -1,0 +1,17 @@
+{
+  "description": "Smith sphenic numbers, i.e., Smith numbers (A006753) that are the product of three distinct prime numbers.",
+  "id": "A382896",
+  "mentions": [
+    "A006753",
+    "A007304"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

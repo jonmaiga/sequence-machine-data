@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k, prime(k) and primepi(reverse(prime(k))) are emirps (A006567).",
+  "id": "A382389",
+  "mentions": [
+    "A000040",
+    "A006567"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

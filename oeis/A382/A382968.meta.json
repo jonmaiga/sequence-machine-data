@@ -1,0 +1,21 @@
+{
+  "description": "The number of non-unitary prime divisors of the n-th biquadratefree number that is not squarefree.",
+  "id": "A382968",
+  "mentions": [
+    "A056170",
+    "A382425",
+    "A382965",
+    "A382966",
+    "A382967"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

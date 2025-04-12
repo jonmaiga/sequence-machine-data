@@ -2,6 +2,7 @@
   "description": "Sum of primes between successive pairs of twin primes.",
   "id": "A078731",
   "mentions": [
+    "A001097",
     "A048614"
   ],
   "tags": [
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "F(k) such that F(k) + (F(k) reversed) is a palindrome, where F(k) is a Fibonacci number.",
+  "id": "A382082",
+  "mentions": [
+    "A000045",
+    "A002113",
+    "A004086",
+    "A004091",
+    "A015976",
+    "A352124"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

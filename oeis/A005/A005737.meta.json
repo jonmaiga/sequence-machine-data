@@ -1,9 +1,10 @@
 {
-  "description": "Number of fanout-free Boolean functions of n variables.",
+  "description": "Number of fanout-free Boolean functions of n variables using And, Or and Not gates.",
   "id": "A005737",
   "mentions": [
     "A005640",
-    "A005736"
+    "A005736",
+    "A224766"
   ],
   "tags": [
     "formulas",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

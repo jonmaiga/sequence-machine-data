@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = 9 - 28 * 2^n + 20 * 3^n.",
+  "id": "A382677",
+  "mentions": [
+    "A382674"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

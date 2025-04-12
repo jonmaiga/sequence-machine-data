@@ -1,0 +1,17 @@
+{
+  "description": "Regarding A381019 as a permutation of the natural numbers, this is the cycle with smallest term 8, read in the reverse direction.",
+  "id": "A382712",
+  "mentions": [
+    "A381019",
+    "A382711"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

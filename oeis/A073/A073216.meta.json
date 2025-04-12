@@ -2,18 +2,21 @@
   "description": "The terms of A055235 (sums of two powers of 3) divided by 2.",
   "id": "A073216",
   "mentions": [
+    "A000244",
     "A007051",
     "A023745",
+    "A025551",
     "A055235"
   ],
   "tags": [
     "easy",
     "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 36,
+    "offset": 0,
+    "size": 55,
     "source": "joeis"
   }
 }

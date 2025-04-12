@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of a 4-colored set of n objects into exactly k parts with 0 <= k <= n.",
+  "id": "A382341",
+  "mentions": [
+    "A000292",
+    "A008284",
+    "A255050",
+    "A382241",
+    "A382339",
+    "A382340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

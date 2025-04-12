@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+1, n^2+1, n^4+1 and n^8+1 are primes.",
+  "description": "Numbers k such that k+1, k^2+1, k^4+1 and k^8+1 are primes.",
   "id": "A070655",
   "mentions": [
     "A070325"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 29,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

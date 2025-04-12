@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k!)^2 * binomial(k+3,3) * Stirling2(n+1,k+1)^2.",
+  "id": "A382678",
+  "mentions": [
+    "A048163",
+    "A092552",
+    "A382674",
+    "A382676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

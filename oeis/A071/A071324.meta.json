@@ -2,6 +2,7 @@
   "description": "Alternating sum of all divisors of n; divisors nonincreasing, starting with n.",
   "id": "A071324",
   "mentions": [
+    "A000010",
     "A000203",
     "A028982",
     "A028983",

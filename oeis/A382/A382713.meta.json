@@ -1,0 +1,23 @@
+{
+  "description": "Simple continued fraction expansion of sqrt(3/2).",
+  "id": "A382713",
+  "mentions": [
+    "A010694",
+    "A040003",
+    "A105397",
+    "A106469",
+    "A115754",
+    "A142238",
+    "A142239"
+  ],
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

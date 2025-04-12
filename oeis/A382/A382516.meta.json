@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - 9*x)^(4/3)).",
+  "id": "A382516",
+  "mentions": [
+    "A004991",
+    "A362206",
+    "A362210",
+    "A382517"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

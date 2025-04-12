@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k such that there are exactly n solutions in positive integers to the equation x^3 + y^2 = k^2.",
+  "id": "A382838",
+  "mentions": [
+    "A382338"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

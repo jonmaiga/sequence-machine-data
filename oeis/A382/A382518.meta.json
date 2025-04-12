@@ -1,0 +1,17 @@
+{
+  "description": "Let N = A001481(n), the n-th number that is the sum of two nonnegative squares. a(n) is the index of the first lattice-edge sequence that will accept N so that no sequence contains the edges of a triangle, otherwise if no such sequence exists, a(n) = 0.",
+  "id": "A382518",
+  "mentions": [
+    "A001481",
+    "A382109"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

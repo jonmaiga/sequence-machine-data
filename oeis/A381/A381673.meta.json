@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (720e^7 - 4320e^6 + 9000e^5 - 7680e^4 + 2430e^3 - 192e^2 + e) / 720.",
+  "description": "Decimal expansion of (720*e^7 - 4320*e^6 + 9000*e^5 - 7680*e^4 + 2430*e^3 - 192*e^2 + e) / 720.",
   "id": "A381673",
   "mentions": [
     "A001113",

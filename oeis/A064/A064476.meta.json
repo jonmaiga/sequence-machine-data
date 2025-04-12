@@ -1,5 +1,5 @@
 {
-  "description": "For an integer n with prime factorization p_1*p_2*p_3* ... *p_m let n* = (p_1+1)*(p_2+1)*(p_3+1)* ... *(p_m+1) (A064478); sequence gives n such that n* is divisible by n.",
+  "description": "For an integer k with prime factorization p_1*p_2*p_3* ... *p_m let k* = (p_1+1)*(p_2+1)*(p_3+1)* ... *(p_m+1) (A064478); sequence gives k such that k* is divisible by k.",
   "id": "A064476",
   "mentions": [
     "A003959",
@@ -11,6 +11,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

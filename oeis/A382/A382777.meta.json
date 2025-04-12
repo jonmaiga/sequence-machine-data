@@ -1,0 +1,17 @@
+{
+  "description": "Number of minimum total dominating sets in the (3n)-triangular honeycomb bishop graph.",
+  "id": "A382777",
+  "mentions": [
+    "A304564",
+    "A382776"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

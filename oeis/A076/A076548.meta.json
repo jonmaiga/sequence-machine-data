@@ -1,5 +1,5 @@
 {
-  "description": "Let P(n,x) be defined as follows : P(1,x)=x P(n,x)=P(n-1,x)^2+1, sequence gives maximum value of coefficients of P(n,x).",
+  "description": "Let P(n,x) be defined as follows: P(1,x)=x, P(n,x)=P(n-1,x)^2+1, sequence gives maximum value of coefficients of P(n,x).",
   "id": "A076548",
   "mentions": [],
   "tags": [

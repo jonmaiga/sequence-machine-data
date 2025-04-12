@@ -1,5 +1,5 @@
 {
-  "description": "Number of digits of primes with n consecutive digits ascending beginning with the digit seven.",
+  "description": "a(n) consecutive digits ascending beginning with the digit 7 give a prime.",
   "id": "A120825",
   "mentions": [
     "A006055",
@@ -15,11 +15,12 @@
   "tags": [
     "base",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 5,
     "source": "oeis-entry"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Nonsemiprime hyperperfect numbers.",
   "id": "A133447",
   "mentions": [
+    "A000396",
     "A001358",
     "A007592",
     "A100959"

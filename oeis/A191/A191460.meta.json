@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: A(x) = Sum_{n>=0} binomial(x^n, n).",
+  "description": "Expansion of e.g.f.: A(x) = Sum_{n>=0} binomial(x^n, n).",
   "id": "A191460",
   "mentions": [
     "A191461"

@@ -1,0 +1,22 @@
+{
+  "description": "The excess of the n-th noncubefree number.",
+  "id": "A382969",
+  "mentions": [
+    "A002117",
+    "A046099",
+    "A046660",
+    "A136141",
+    "A275699",
+    "A376366"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

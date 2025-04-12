@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of solutions to phi(x) + phi(n-x) = phi(n) where 1 <= x <= floor(n/2).",
+  "id": "A382074",
+  "mentions": [
+    "A000010",
+    "A065381",
+    "A211225",
+    "A381747"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,9 @@
   "description": "Smallest binary number whose run lengths of bits correspond to a partition with Heinz number n.",
   "id": "A382256",
   "mentions": [
+    "A036036",
+    "A080576",
+    "A080577",
     "A382255"
   ],
   "tags": [

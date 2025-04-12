@@ -1,0 +1,20 @@
+{
+  "description": "Number of self-primes <= 10^n.",
+  "id": "A382456",
+  "mentions": [
+    "A003052",
+    "A006378",
+    "A006880",
+    "A382452"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

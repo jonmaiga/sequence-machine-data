@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which id(n) = id(n + id(n)), where id(n) = A037445(n) is the number of infinitary divisors of n.",
+  "description": "Numbers k for which id(k) = id(k + id(k)), where id(k) = A037445(k) is the number of infinitary divisors of k.",
   "id": "A282843",
   "mentions": [
     "A037445",

@@ -1,11 +1,12 @@
 {
-  "description": "Primes that can be written as 1+p+p^k, p prime and k>1.",
+  "description": "Primes that can be written as 1+p+p^k, p prime and k > 1.",
   "id": "A084444",
   "mentions": [
     "A084440",
     "A084441"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor((n+1/n)^7).",
+  "description": "a(n) = floor((n + 1/n)^7).",
   "id": "A197708",
   "mentions": [
     "A014052",

@@ -1,5 +1,5 @@
 {
-  "description": "A066421(A099433(n)) The value of A066421 on its record-holders.",
+  "description": "a(n) = A066421(A099433(n)). The value of A066421 on its record-holders.",
   "id": "A099434",
   "mentions": [
     "A066421",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 9,
+    "offset": 1,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

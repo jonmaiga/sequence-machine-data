@@ -1,5 +1,5 @@
 {
-  "description": "Sum(k=1 to n) k*sqf(k); sqf(k)=1 if k is squarefree and sqf(k)=-1 otherwise.",
+  "description": "a(n) = Sum_{k=1..n} k*sqf(k) where sqf(k)=1 if k is squarefree and sqf(k)=-1 otherwise.",
   "id": "A076543",
   "mentions": [
     "A074170"

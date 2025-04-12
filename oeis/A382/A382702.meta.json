@@ -1,0 +1,18 @@
+{
+  "description": "Indices k where b(k) > k, where b is the EKG sequence A064413.",
+  "id": "A382702",
+  "mentions": [
+    "A064413",
+    "A152458",
+    "A382703",
+    "A382708"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

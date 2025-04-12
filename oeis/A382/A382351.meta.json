@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with an integer harmonic mean of the indices of distinct prime factors.",
+  "id": "A382351",
+  "mentions": [
+    "A067340",
+    "A078174",
+    "A326621"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

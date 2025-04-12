@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct numbers of diagonal transversals in Brown's diagonal Latin squares of order 2n.",
+  "id": "A382505",
+  "mentions": [
+    "A339641",
+    "A344105",
+    "A381971"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

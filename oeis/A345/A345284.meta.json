@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{p|n} (p #).",
+  "description": "a(n) = Sum_{p|n, p prime} (p #).",
   "id": "A345284",
   "mentions": [
     "A002110",

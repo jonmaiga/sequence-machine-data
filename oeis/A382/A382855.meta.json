@@ -1,0 +1,14 @@
+{
+  "description": "Number of minimum connected dominating sets in the n-diagonal intersection graph.",
+  "id": "A382855",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

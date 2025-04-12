@@ -1,14 +1,15 @@
 {
-  "description": "Discriminants of totally complex sextic fields.",
+  "description": "Discriminants of totally complex sextic fields (negated).",
   "id": "A023687",
-  "mentions": [],
+  "mentions": [
+    "A023686"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

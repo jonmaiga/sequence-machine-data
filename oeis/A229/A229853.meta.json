@@ -1,10 +1,11 @@
 {
-  "description": "384*n + 1.",
+  "description": "a(n) = 384*n + 1.",
   "id": "A229853",
   "mentions": [
     "A000215",
     "A094358",
     "A229854",
+    "A229855",
     "A229856"
   ],
   "tags": [
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 41,
+    "size": 42,
     "source": "joeis"
   }
 }

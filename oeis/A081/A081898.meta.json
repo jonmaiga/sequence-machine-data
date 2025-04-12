@@ -1,5 +1,5 @@
 {
-  "description": "A sequence related to binomial(n+4, 4).",
+  "description": "Second binomial transform of binomial(n+4, 4).",
   "id": "A081898",
   "mentions": [
     "A000332",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 23,
+    "size": 26,
     "source": "oeis-bfile"
   }
 }

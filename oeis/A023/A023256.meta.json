@@ -2,7 +2,8 @@
   "description": "Primes that remain prime through 2 iterations of function f(x) = 6x + 1.",
   "id": "A023256",
   "mentions": [
-    "A007693"
+    "A007693",
+    "A023287"
   ],
   "tags": [
     "formulas",

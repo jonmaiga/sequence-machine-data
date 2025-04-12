@@ -1,0 +1,16 @@
+{
+  "description": "Positive integers k such that 6*k - 1 is prime for k != 1 (mod 5) and (6*k - 1)/5 is prime for k == 1 (mod 5).",
+  "id": "A382393",
+  "mentions": [
+    "A024898",
+    "A024899"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

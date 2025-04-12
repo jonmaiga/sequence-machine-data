@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(n^2 / 10^m) + (n^2 mod 10^m) where m is the number of decimal digits in n.",
+  "id": "A380585",
+  "mentions": [
+    "A053816",
+    "A055642",
+    "A344851",
+    "A358072"
+  ],
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

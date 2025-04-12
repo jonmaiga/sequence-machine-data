@@ -1,5 +1,5 @@
 {
-  "description": "(2^n-1-N(B(2^(n+1))))/2^n where N(B(k)) denotes the numerator of the k-th Bernoulli number.",
+  "description": "a(n) = (2^n-1-numerator(B(2^(n+1))))/2^n where numerator(B(k)) denotes the numerator of the k-th Bernoulli number.",
   "id": "A076547",
   "mentions": [
     "A000367"

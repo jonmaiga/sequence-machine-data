@@ -1,0 +1,25 @@
+{
+  "description": "Number of records in the n-th composition in standard order.",
+  "id": "A382288",
+  "mentions": [
+    "A066099",
+    "A124762",
+    "A124767",
+    "A124768",
+    "A164894",
+    "A333381",
+    "A333382",
+    "A357625",
+    "A382312"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

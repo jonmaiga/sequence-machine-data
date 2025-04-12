@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the n-th tribonacci number modulo the n-th prime.",
+  "id": "A382185",
+  "mentions": [
+    "A000040",
+    "A000073",
+    "A072123"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}
