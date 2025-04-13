@@ -195,6 +195,9 @@
         "n",
         "cosh",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

@@ -9,6 +9,9 @@
         "n",
         "cos",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

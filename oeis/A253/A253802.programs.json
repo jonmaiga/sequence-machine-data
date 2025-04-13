@@ -19,6 +19,9 @@
         "²",
         "sub",
         "sqrt"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

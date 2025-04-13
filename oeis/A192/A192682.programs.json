@@ -10,6 +10,9 @@
         "A078678",
         "sqrt",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

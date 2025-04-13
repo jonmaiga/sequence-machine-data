@@ -92,6 +92,9 @@
         "!",
         "sqrt",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

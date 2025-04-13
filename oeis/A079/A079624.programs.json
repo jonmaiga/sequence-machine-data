@@ -49,6 +49,9 @@
         "a",
         "sub",
         "abs"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

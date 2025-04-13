@@ -24,6 +24,9 @@
         "a",
         "sub",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

@@ -67,6 +67,9 @@
         "sqrt",
         "/",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

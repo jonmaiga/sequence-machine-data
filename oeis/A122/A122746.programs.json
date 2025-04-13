@@ -111,6 +111,9 @@
         "floor",
         "^",
         "sub"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

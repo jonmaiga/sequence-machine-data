@@ -10,6 +10,9 @@
         "cos",
         "exp",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

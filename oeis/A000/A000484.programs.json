@@ -9,6 +9,9 @@
         "n",
         "cos",
         "round"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

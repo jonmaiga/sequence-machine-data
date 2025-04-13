@@ -10,6 +10,9 @@
         "!",
         "log2",
         "round"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

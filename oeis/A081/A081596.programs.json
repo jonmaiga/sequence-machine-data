@@ -43,6 +43,9 @@
         "floor",
         "*",
         "sub"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

@@ -21,6 +21,9 @@
         "floor",
         "abs",
         "a"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

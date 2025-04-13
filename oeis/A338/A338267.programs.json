@@ -16,6 +16,9 @@
         "*",
         "sqrt",
         "round"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

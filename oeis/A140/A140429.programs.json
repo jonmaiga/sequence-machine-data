@@ -12,6 +12,9 @@
         "sub",
         "^",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

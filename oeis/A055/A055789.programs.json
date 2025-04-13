@@ -11,6 +11,9 @@
         "sqrt",
         "round",
         "C"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

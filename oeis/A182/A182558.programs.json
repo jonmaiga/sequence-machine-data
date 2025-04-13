@@ -21,6 +21,9 @@
         "sqrt",
         "floor",
         "sub"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

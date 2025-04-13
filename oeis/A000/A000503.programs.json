@@ -9,6 +9,9 @@
         "n",
         "tan",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

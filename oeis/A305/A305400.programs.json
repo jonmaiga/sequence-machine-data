@@ -15,6 +15,9 @@
         "sub",
         "/",
         "round"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

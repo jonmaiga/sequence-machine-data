@@ -10,6 +10,9 @@
         "tan",
         "abs",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

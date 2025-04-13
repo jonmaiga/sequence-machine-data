@@ -11,6 +11,9 @@
         "sqrt",
         "/",
         "ceil"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

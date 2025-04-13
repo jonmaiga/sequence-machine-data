@@ -86,6 +86,9 @@
         "sub",
         "/",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

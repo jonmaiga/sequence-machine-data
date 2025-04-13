@@ -32,6 +32,9 @@
         "ceil",
         "^",
         "sub"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

@@ -12,6 +12,9 @@
         "cos",
         "sub",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

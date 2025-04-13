@@ -35,6 +35,9 @@
         "A001654",
         "sqrt",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

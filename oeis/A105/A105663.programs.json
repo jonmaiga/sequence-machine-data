@@ -12,6 +12,9 @@
         "*",
         "floor",
         "abs"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

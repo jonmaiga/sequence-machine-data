@@ -9,6 +9,9 @@
         "n",
         "sin",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

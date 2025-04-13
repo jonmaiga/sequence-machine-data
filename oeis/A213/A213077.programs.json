@@ -12,6 +12,9 @@
         "sqrt",
         "sub",
         "round"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

@@ -111,6 +111,9 @@
         "A002110",
         "sqrt",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {
