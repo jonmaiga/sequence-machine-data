@@ -2,6 +2,27 @@
   "oi": 80343,
   "ps": [
     {
+      "d": "2021-10-01",
+      "ix": "round(sqrt(2*n))-floor(sqrt(2*n))",
+      "mt": 10000,
+      "px": [
+        "2",
+        "n",
+        "*",
+        "sqrt",
+        "round",
+        "2",
+        "n",
+        "*",
+        "sqrt",
+        "floor",
+        "sub"
+      ],
+      "tags": [
+        "proven"
+      ]
+    },
+    {
       "d": "2021-11-01",
       "ix": "floor(sqrt(8*n))%2",
       "mt": 10000,
@@ -27,27 +48,6 @@
         "sqrt",
         "floor",
         "and"
-      ]
-    },
-    {
-      "d": "2021-10-01",
-      "ix": "round(sqrt(2*n))-floor(sqrt(2*n))",
-      "mt": 10000,
-      "px": [
-        "2",
-        "n",
-        "*",
-        "sqrt",
-        "round",
-        "2",
-        "n",
-        "*",
-        "sqrt",
-        "floor",
-        "sub"
-      ],
-      "tags": [
-        "proven"
       ]
     },
     {

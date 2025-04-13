@@ -2,6 +2,25 @@
   "oi": 118175,
   "ps": [
     {
+      "d": "2021-10-01",
+      "ix": "round(sqrt(n+1))-floor(sqrt(n))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "sqrt",
+        "round",
+        "n",
+        "sqrt",
+        "floor",
+        "sub"
+      ],
+      "tags": [
+        "proven"
+      ]
+    },
+    {
       "d": "2021-11-01",
       "ix": "floor(1/Δ[sqrt(n)])%2",
       "mt": 10000,
@@ -29,25 +48,6 @@
         "/",
         "floor",
         "and"
-      ]
-    },
-    {
-      "d": "2021-10-01",
-      "ix": "round(sqrt(n+1))-floor(sqrt(n))",
-      "mt": 10000,
-      "px": [
-        "n",
-        "1",
-        "+",
-        "sqrt",
-        "round",
-        "n",
-        "sqrt",
-        "floor",
-        "sub"
-      ],
-      "tags": [
-        "proven"
       ]
     },
     {
