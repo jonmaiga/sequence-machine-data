@@ -19,18 +19,25 @@
       ]
     },
     {
-      "d": "2021-11-01",
-      "ix": "Δ[ceil(exp((n-1)/2))]",
-      "mt": 461,
+      "d": "2025-04-13",
+      "ix": "ceil(sqrt(exp(n)))-ceil(sqrt(exp(n-1)))",
+      "mt": 231,
       "px": [
+        "n",
+        "exp",
+        "sqrt",
+        "ceil",
         "n",
         "1",
         "sub",
-        "2",
-        "/",
         "exp",
+        "sqrt",
         "ceil",
-        "Δ"
+        "sub"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     },
     {
