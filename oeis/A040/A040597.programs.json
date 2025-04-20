@@ -9,6 +9,9 @@
         "622",
         "sqrt",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

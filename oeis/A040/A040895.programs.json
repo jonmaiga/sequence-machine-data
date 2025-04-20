@@ -9,6 +9,9 @@
         "926",
         "sqrt",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

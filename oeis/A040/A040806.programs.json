@@ -9,6 +9,9 @@
         "835",
         "sqrt",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

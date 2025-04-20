@@ -9,6 +9,9 @@
         "97",
         "sqrt",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

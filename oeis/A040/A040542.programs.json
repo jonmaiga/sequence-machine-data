@@ -9,6 +9,9 @@
         "566",
         "sqrt",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

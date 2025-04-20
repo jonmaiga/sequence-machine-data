@@ -11,6 +11,9 @@
         "tan",
         "*",
         "round"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

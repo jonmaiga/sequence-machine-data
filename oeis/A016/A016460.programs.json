@@ -9,6 +9,9 @@
         "32",
         "log",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

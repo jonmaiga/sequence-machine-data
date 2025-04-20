@@ -2,91 +2,23 @@
   "oi": 322602,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "contfrac[cosh(γ)]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "cosh",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[exp(γ)-sinh(γ)]",
+      "d": "2025-04-20",
+      "ix": "contfrac[(exp(γ)+exp(-γ))/2]",
       "mt": 50,
       "px": [
         "γ",
         "exp",
-        "γ",
-        "sinh",
-        "sub",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[sinh(γ)/tanh(γ)]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "sinh",
-        "γ",
-        "tanh",
-        "/",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[sqrt(sinh(γ)²+1)]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "sinh",
-        "²",
-        "1",
-        "+",
-        "sqrt",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2022-10-19",
-      "ix": "contfrac[sinh(γ)+exp(-γ)]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "sinh",
         "γ",
         "neg",
         "exp",
         "+",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2022-06-26",
-      "ix": "contfrac[exp(γ)/(tanh(γ)+1)]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "exp",
-        "γ",
-        "tanh",
-        "1",
-        "+",
+        "2",
         "/",
         "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[C147708]",
-      "mt": 50,
-      "px": [
-        "C147708",
-        "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     }
   ]

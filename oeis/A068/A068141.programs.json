@@ -3,52 +3,6 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "contfrac[sqrt(acos(0))]",
-      "mt": 50,
-      "px": [
-        "0",
-        "acos",
-        "sqrt",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[sqrt(asin(1))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "asin",
-        "sqrt",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2022-02-03",
-      "ix": "contfrac[root(acos(0), 2)]",
-      "mt": 50,
-      "px": [
-        "0",
-        "acos",
-        "2",
-        "root",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-06",
-      "ix": "contfrac[root(asin(1), 2)]",
-      "mt": 50,
-      "px": [
-        "1",
-        "asin",
-        "2",
-        "root",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
       "ix": "contfrac[sqrt(π/2)]",
       "mt": 50,
       "px": [
@@ -57,6 +11,9 @@
         "/",
         "sqrt",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

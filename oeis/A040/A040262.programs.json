@@ -2,15 +2,17 @@
   "oi": 40262,
   "ps": [
     {
-      "d": "2023-08-08",
-      "ix": "contfrac[3*sqrt(31)]",
+      "d": "2025-04-20",
+      "ix": "contfrac[sqrt(279)]",
       "mt": 50,
       "px": [
-        "3",
-        "31",
+        "279",
         "sqrt",
-        "*",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     }
   ]

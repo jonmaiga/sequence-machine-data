@@ -2,102 +2,22 @@
   "oi": 154740,
   "ps": [
     {
-      "d": "2024-09-15",
-      "ix": "contfrac[sqrt(1-cos(atan(1)))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "1",
-        "atan",
-        "cos",
-        "sub",
-        "sqrt",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[sqrt(1-sin(atan(1)))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "1",
-        "atan",
-        "sin",
-        "sub",
-        "sqrt",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[sqrt(1-cos(acot(1)))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "1",
-        "acot",
-        "cos",
-        "sub",
-        "sqrt",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[sqrt(1-sin(acot(1)))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "1",
-        "acot",
-        "sin",
-        "sub",
-        "sqrt",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[sin(acos(root(2, -4)))]",
-      "mt": 50,
-      "px": [
-        "2",
-        "4",
-        "neg",
-        "root",
-        "acos",
-        "sin",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[cos(asin(root(2, -4)))]",
-      "mt": 50,
-      "px": [
-        "2",
-        "4",
-        "neg",
-        "root",
-        "asin",
-        "cos",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[sqrt(1-sqrt(1/2))]",
+      "d": "2025-04-20",
+      "ix": "contfrac[sqrt(1-1/sqrt(2))]",
       "mt": 50,
       "px": [
         "1",
         "1",
         "2",
+        "sqrt",
         "/",
-        "sqrt",
         "sub",
         "sqrt",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     }
   ]

@@ -10,6 +10,9 @@
         "tanh",
         "tanh",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

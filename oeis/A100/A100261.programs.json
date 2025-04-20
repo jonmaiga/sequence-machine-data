@@ -3,6 +3,23 @@
   "ps": [
     {
       "d": "2021-11-01",
+      "ix": "contfrac[cot(1-π/4)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "π",
+        "4",
+        "/",
+        "sub",
+        "cot",
+        "contfrac"
+      ],
+      "tags": [
+        "proven"
+      ]
+    },
+    {
+      "d": "2021-11-01",
       "ix": "contfrac[tan(atan(1)+1)]",
       "mt": 50,
       "px": [
@@ -29,32 +46,6 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "contfrac[cot(1-atan(1))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "1",
-        "atan",
-        "sub",
-        "cot",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[cot(1-acot(1))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "1",
-        "acot",
-        "sub",
-        "cot",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
       "ix": "contfrac[tan(π/4+1)]",
       "mt": 50,
       "px": [
@@ -64,20 +55,6 @@
         "1",
         "+",
         "tan",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[cot(1-π/4)]",
-      "mt": 50,
-      "px": [
-        "1",
-        "π",
-        "4",
-        "/",
-        "sub",
-        "cot",
         "contfrac"
       ]
     },

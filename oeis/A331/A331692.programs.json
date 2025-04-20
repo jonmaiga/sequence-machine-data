@@ -2,13 +2,22 @@
   "oi": 331692,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "contfrac[sqrt(ϕ)]",
+      "d": "2025-04-20",
+      "ix": "contfrac[sqrt((1+sqrt(5))/2)]",
       "mt": 50,
       "px": [
-        "ϕ",
+        "1",
+        "5",
+        "sqrt",
+        "+",
+        "2",
+        "/",
         "sqrt",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     },
     {

@@ -2,14 +2,20 @@
   "oi": 84574,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "contfrac[root(e, e)]",
+      "d": "2025-04-20",
+      "ix": "contfrac[e^(1/e)]",
       "mt": 50,
       "px": [
         "e",
+        "1",
         "e",
-        "root",
+        "/",
+        "^",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     },
     {

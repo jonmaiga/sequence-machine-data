@@ -2,15 +2,19 @@
   "oi": 177438,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "contfrac[sqrt(2)-π]",
+      "d": "2025-04-20",
+      "ix": "contfrac[π-sqrt(2)]",
       "mt": 50,
       "px": [
+        "π",
         "2",
         "sqrt",
-        "π",
         "sub",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     },
     {

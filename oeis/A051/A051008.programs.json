@@ -2,14 +2,20 @@
   "oi": 51008,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "contfrac[sqrt(log(4))]",
+      "d": "2025-04-20",
+      "ix": "contfrac[sqrt(2*log(2))]",
       "mt": 50,
       "px": [
-        "4",
+        "2",
+        "2",
         "log",
+        "*",
         "sqrt",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     },
     {

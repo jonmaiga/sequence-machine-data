@@ -2,17 +2,17 @@
   "oi": 40791,
   "ps": [
     {
-      "d": "2023-08-08",
-      "ix": "contfrac[sqrt(10)/cos(atan(9))]",
+      "d": "2025-04-20",
+      "ix": "contfrac[sqrt(820)]",
       "mt": 50,
       "px": [
-        "10",
+        "820",
         "sqrt",
-        "9",
-        "atan",
-        "cos",
-        "/",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     }
   ]

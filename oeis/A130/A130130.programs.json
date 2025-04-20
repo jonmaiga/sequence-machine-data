@@ -2,13 +2,19 @@
   "oi": 130130,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "ceil(atan(n))",
-      "mt": 10000,
+      "d": "2025-04-20",
+      "ix": "contfrac[sqrt(1/2)]",
+      "mt": 50,
       "px": [
-        "n",
-        "atan",
-        "ceil"
+        "1",
+        "2",
+        "/",
+        "sqrt",
+        "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     }
   ]

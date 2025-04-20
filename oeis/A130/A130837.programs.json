@@ -2,17 +2,25 @@
   "oi": 130837,
   "ps": [
     {
-      "d": "2022-06-26",
-      "ix": "contfrac[log2(e*log(sqrt(2)))]",
+      "d": "2025-04-20",
+      "ix": "contfrac[1-(1+log(log(2)))/log(2)]",
       "mt": 50,
       "px": [
-        "e",
+        "1",
+        "1",
         "2",
-        "sqrt",
         "log",
-        "*",
-        "log2",
+        "log",
+        "+",
+        "2",
+        "log",
+        "/",
+        "sub",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     },
     {

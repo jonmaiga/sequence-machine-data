@@ -1,0 +1,19 @@
+{
+  "oi": 10196,
+  "ps": [
+    {
+      "d": "2025-04-20",
+      "ix": "contfrac[sqrt(137)]",
+      "mt": 50,
+      "px": [
+        "137",
+        "sqrt",
+        "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
+      ]
+    }
+  ]
+}

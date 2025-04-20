@@ -9,6 +9,9 @@
         "55",
         "log",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

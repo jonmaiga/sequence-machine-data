@@ -3,28 +3,6 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "contfrac[exp(atan(1))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "atan",
-        "exp",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[exp(acot(1))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "acot",
-        "exp",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
       "ix": "contfrac[exp(π/4)]",
       "mt": 50,
       "px": [
@@ -33,6 +11,9 @@
         "/",
         "exp",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

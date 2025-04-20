@@ -2,16 +2,20 @@
   "oi": 188888,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "contfrac[sqrt(sqrt(3)+2)]",
+      "d": "2025-04-20",
+      "ix": "contfrac[sqrt(2+sqrt(3))]",
       "mt": 50,
       "px": [
+        "2",
         "3",
         "sqrt",
-        "2",
         "+",
         "sqrt",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     },
     {

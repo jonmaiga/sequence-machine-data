@@ -11,6 +11,9 @@
         "/",
         "sin",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

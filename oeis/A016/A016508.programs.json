@@ -9,6 +9,9 @@
         "80",
         "log",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

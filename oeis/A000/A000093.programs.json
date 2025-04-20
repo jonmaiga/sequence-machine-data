@@ -3,13 +3,13 @@
   "ps": [
     {
       "d": "2025-04-20",
-      "ix": "floor(n*sqrt(n))",
+      "ix": "floor(sqrt(n^3))",
       "mt": 10000,
       "px": [
         "n",
-        "n",
+        "3",
+        "^",
         "sqrt",
-        "*",
         "floor"
       ],
       "s": "oeis",

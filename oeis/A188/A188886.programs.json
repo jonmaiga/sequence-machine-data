@@ -2,40 +2,24 @@
   "oi": 188886,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "contfrac[cot(atan(e)/2)]",
-      "mt": 50,
-      "px": [
-        "e",
-        "atan",
-        "2",
-        "/",
-        "cot",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2022-06-26",
-      "ix": "contfrac[cot(acot(exp(-1))/2)]",
+      "d": "2025-04-20",
+      "ix": "contfrac[(1+sqrt(1+e²))/e]",
       "mt": 50,
       "px": [
         "1",
-        "neg",
-        "exp",
-        "acot",
-        "2",
+        "1",
+        "e",
+        "²",
+        "+",
+        "sqrt",
+        "+",
+        "e",
         "/",
-        "cot",
         "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[C188885]",
-      "mt": 50,
-      "px": [
-        "C188885",
-        "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     }
   ]

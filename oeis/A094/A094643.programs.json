@@ -2,37 +2,19 @@
   "oi": 94643,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "contfrac[log(acos(0))]",
+      "d": "2025-04-20",
+      "ix": "contfrac[log(π/2)]",
       "mt": 50,
       "px": [
-        "0",
-        "acos",
-        "log",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[log(asin(1))]",
-      "mt": 50,
-      "px": [
-        "1",
-        "asin",
-        "log",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2021-11-01",
-      "ix": "contfrac[log(2/π)]",
-      "mt": 50,
-      "px": [
-        "2",
         "π",
+        "2",
         "/",
         "log",
         "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     },
     {

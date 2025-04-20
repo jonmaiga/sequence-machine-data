@@ -9,6 +9,9 @@
         "1",
         "cosh",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

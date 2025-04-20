@@ -2,86 +2,23 @@
   "oi": 322603,
   "ps": [
     {
-      "d": "2024-09-15",
-      "ix": "contfrac[sinh(γ)]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "sinh",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[tan(asin(tanh(γ)))]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "tanh",
-        "asin",
-        "tan",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[cot(acos(tanh(γ)))]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "tanh",
-        "acos",
-        "cot",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[exp(γ)-cosh(γ)]",
+      "d": "2025-04-20",
+      "ix": "contfrac[(exp(γ)-exp(-γ))/2]",
       "mt": 50,
       "px": [
         "γ",
         "exp",
         "γ",
-        "cosh",
+        "neg",
+        "exp",
         "sub",
+        "2",
+        "/",
         "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[cosh(γ)*tanh(γ)]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "cosh",
-        "γ",
-        "tanh",
-        "*",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-15",
-      "ix": "contfrac[sqrt(cosh(γ)²-1)]",
-      "mt": 50,
-      "px": [
-        "γ",
-        "cosh",
-        "²",
-        "1",
-        "sub",
-        "sqrt",
-        "contfrac"
-      ]
-    },
-    {
-      "d": "2024-09-16",
-      "ix": "contfrac[C147709]",
-      "mt": 50,
-      "px": [
-        "C147709",
-        "contfrac"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
       ]
     }
   ]

@@ -10,6 +10,9 @@
         "neg",
         "exp",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

@@ -9,6 +9,9 @@
         "π",
         "tanh",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

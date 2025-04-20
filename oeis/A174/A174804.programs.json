@@ -2,18 +2,18 @@
   "oi": 174804,
   "ps": [
     {
-      "d": "2025-04-13",
-      "ix": "n*ceil(sqrt(n))*floor(sqrt(n))",
+      "d": "2025-04-20",
+      "ix": "n*floor(sqrt(n))*ceil(sqrt(n))",
       "mt": 10000,
       "px": [
         "n",
         "n",
         "sqrt",
-        "ceil",
+        "floor",
         "*",
         "n",
         "sqrt",
-        "floor",
+        "ceil",
         "*"
       ],
       "s": "oeis",

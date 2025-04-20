@@ -11,6 +11,9 @@
         "sqrt",
         "*",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {
