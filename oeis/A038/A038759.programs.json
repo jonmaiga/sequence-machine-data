@@ -2,6 +2,24 @@
   "oi": 38759,
   "ps": [
     {
+      "d": "2025-04-20",
+      "ix": "ceil(sqrt(n))*floor(sqrt(n))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "sqrt",
+        "ceil",
+        "n",
+        "sqrt",
+        "floor",
+        "*"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven"
+      ]
+    },
+    {
       "d": "2021-11-01",
       "ix": "n-A038760(n)",
       "mt": 10000,
@@ -13,20 +31,6 @@
       ],
       "tags": [
         "proven"
-      ]
-    },
-    {
-      "d": "2021-11-02",
-      "ix": "floor(sqrt(n))*ceil(sqrt(n))",
-      "mt": 10000,
-      "px": [
-        "n",
-        "sqrt",
-        "floor",
-        "n",
-        "sqrt",
-        "ceil",
-        "*"
       ]
     },
     {

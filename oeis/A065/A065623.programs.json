@@ -15,6 +15,9 @@
         "/",
         "abs",
         "floor"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {
